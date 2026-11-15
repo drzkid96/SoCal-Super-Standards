@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 import fs from 'node:fs';
 
 const chapters = JSON.parse(fs.readFileSync('./data/ca-mutcd/chapters.json', 'utf8'));
+const fedChapters = JSON.parse(fs.readFileSync('./data/mutcd/chapters.json', 'utf8'));
 const PARTS = {
   '1': 'Part 1 · General', '2': 'Part 2 · Signs', '3': 'Part 3 · Markings',
   '4': 'Part 4 · Highway Traffic Signals', '5': 'Part 5 · Automated Vehicles',
@@ -11,13 +12,15 @@ const PARTS = {
   '8': 'Part 8 · Railroad and LRT Grade Crossings', '9': 'Part 9 · Bicycle Facilities',
   'A': 'Appendices',
 };
-const caParts = Object.entries(PARTS).map(([k, label]) => ({
+const groups = (list, dir) => Object.entries(PARTS).map(([k, label]) => ({
   label,
   collapsed: true,
-  items: chapters
+  items: list
     .filter((c) => c.code[0] === k)
-    .map((c) => ({ label: `${c.code} ${c.title}`, link: `/ca-mutcd/${c.code.toLowerCase()}/` })),
+    .map((c) => ({ label: `${c.code} ${c.title}`, link: `/${dir}/${c.code.toLowerCase()}/` })),
 })).filter((g) => g.items.length);
+const caParts = groups(chapters, 'ca-mutcd');
+const fedParts = groups(fedChapters, 'mutcd');
 
 export default defineConfig({
   site: 'https://drzkid96.github.io',
@@ -47,6 +50,7 @@ export default defineConfig({
           { label: 'Sources and versions', link: '/sources/' },
         ] },
         { label: 'CA MUTCD 2026', items: [{ label: 'About this manual', link: '/ca-mutcd/' }, ...caParts] },
+        { label: 'Federal MUTCD 11th Ed. Rev. 1', collapsed: true, items: [{ label: 'About this manual', link: '/mutcd/' }, ...fedParts] },
       ],
     }),
   ],

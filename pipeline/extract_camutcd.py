@@ -155,7 +155,7 @@ class ChapterWriter:
     def heading(self, num, title, page):
         self.close_block()
         sid = slug(num)
-        self.sections.append({"num": num, "title": title, "page": page, "anchor": sid})
+        self.sections.append({"num": num, "title": title, "page": page, "anchor": sid, "ca_changes": "(CA)" in num})
         t = re.sub(r"([*_`\[\]<>])", r"\\\1", f"{num} {title}")
         self.out.append(f'\n<span id="{sid}" class="anchor"></span>\n\n## {t}\n\n'
                         f'<div class="secmeta">Section {esc(num)} &middot; manual page {page} &middot; '
@@ -166,6 +166,8 @@ class ChapterWriter:
         self.out.append(f'\n<div class="subch">{esc(text.title())}</div>\n')
 
     def text(self, chunk, pnum=None):
+        if 'class="ca"' in chunk and self.sections:
+            self.sections[-1]["ca_changes"] = True
         if pnum:
             self.flush_para()
             self.para = [chunk]
