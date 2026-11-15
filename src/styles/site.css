@@ -1,0 +1,72 @@
+/* SoCal Super Standards: light, earth-tone palette, Albert Sans only */
+:root {
+  --sl-font: 'Albert Sans', sans-serif;
+  --sl-font-system-mono: 'Albert Sans', sans-serif;
+  --sss-green: #2f6b4f;
+  --sss-green-2: #6f9a6a;
+  --sss-tan: #efe7d8;
+  --sss-tan-2: #f7f3ea;
+  --sss-orange: #c4622d;
+  --sss-ink: #1f2a2e;
+  --sss-blue: #1f5fbf;
+}
+:root[data-theme='light'], :root:not([data-theme]) {
+  --sl-color-accent-low: #dfeadf;
+  --sl-color-accent: var(--sss-green);
+  --sl-color-accent-high: #1f4a36;
+  --sl-color-white: var(--sss-ink);
+  --sl-color-bg: #fbfaf6;
+  --sl-color-bg-nav: #fbfaf6;
+  --sl-color-bg-sidebar: var(--sss-tan-2);
+}
+:root[data-theme='dark'] {
+  --sl-color-accent: #8fc79a;
+  --sl-color-accent-low: #23382b;
+  --sl-color-accent-high: #cfe8d3;
+}
+code, kbd, pre { font-family: 'Albert Sans', sans-serif; }
+
+/* source bar under the page title */
+.srcbar { font-size: .85rem; color: var(--sl-color-gray-3); border-left: 3px solid var(--sss-orange); padding: .25rem .75rem; background: var(--sss-tan-2); }
+:root[data-theme='dark'] .srcbar { background: transparent; }
+.src-page { font-size: .72rem; font-weight: 500; color: var(--sl-color-gray-3); margin-left: .5rem; white-space: nowrap; }
+
+/* provisions: Standard / Guidance / Option / Support */
+.prov { border-left: 4px solid; padding: .35rem 0 .35rem 1rem; margin: .9rem 0; border-radius: 0 6px 6px 0; }
+.prov p { margin: .35rem 0; }
+.prov-label { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; font-weight: 700; }
+.prov.std { border-color: #8a1f1f; background: rgba(138, 31, 31, .045); }
+.prov.std .prov-label { color: #8a1f1f; }
+.prov.std p { font-weight: 600; }
+.prov.gui { border-color: var(--sss-orange); background: rgba(196, 98, 45, .05); }
+.prov.gui .prov-label { color: var(--sss-orange); }
+.prov.gui p { font-style: italic; }
+.prov.opt { border-color: var(--sss-green); background: rgba(47, 107, 79, .05); }
+.prov.opt .prov-label { color: var(--sss-green); }
+.prov.sup { border-color: #8c8c8c; }
+.prov.sup .prov-label { color: #6b6b6b; }
+.pn { display: inline-block; min-width: 1.6rem; font-size: .7rem; font-weight: 600; color: var(--sl-color-gray-3); font-style: normal; }
+.ca { color: var(--sss-blue); }
+.ca::before { content: 'CA '; font-size: .6rem; font-weight: 700; vertical-align: super; letter-spacing: .05em; }
+h3.subch { font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; color: var(--sl-color-gray-3); }
+.sec-toc { background: var(--sss-tan-2); padding: .5rem 1rem; border-radius: 8px; }
+:root[data-theme='dark'] .sec-toc { background: var(--sl-color-gray-6); }
+.sec-toc ul { columns: 2; font-size: .85rem; }
+
+/* figures */
+.mfig-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
+.mfig { margin: 0; border: 1px solid var(--sl-color-gray-5); border-radius: 8px; padding: .5rem; background: #fff; }
+.mfig img { width: 100%; height: auto; display: block; }
+.mfig figcaption { font-size: .78rem; color: #333; margin-top: .4rem; }
+
+/* home cards */
+.hero-search { font-size: 1.05rem; }
+.cardgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.cardgrid a { display: block; border: 1px solid var(--sl-color-gray-5); border-radius: 10px; padding: 1rem; text-decoration: none; background: var(--sss-tan-2); }
+:root[data-theme='dark'] .cardgrid a { background: var(--sl-color-gray-6); }
+.cardgrid a strong { display: block; color: var(--sss-green); font-size: 1.05rem; }
+.cardgrid a span { color: var(--sl-color-gray-2); font-size: .85rem; }
+.tag-soon { font-size: .65rem; font-weight: 700; letter-spacing: .1em; color: var(--sss-orange); text-transform: uppercase; }
+.secmeta { font-size: .75rem; color: var(--sl-color-gray-3); margin-top: -.4rem; }
+.subch { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--sl-color-gray-3); margin-top: 2rem; font-weight: 600; }
+.anchor { display: block; position: relative; top: -5rem; visibility: hidden; }

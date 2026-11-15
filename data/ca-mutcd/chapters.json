@@ -1,0 +1,512 @@
+[
+ {
+  "code": "1A",
+  "title": "General",
+  "first": 55,
+  "last": 65
+ },
+ {
+  "code": "1B",
+  "title": "Legal Requirements for Traffic Control Devices",
+  "first": 67,
+  "last": 84
+ },
+ {
+  "code": "1C",
+  "title": "Definitions, Acronyms, and Abbreviations Used in this Manual",
+  "first": 85,
+  "last": 109
+ },
+ {
+  "code": "1D",
+  "title": "Provisions Applicable to Traffic Control Devices in General",
+  "first": 110,
+  "last": 119
+ },
+ {
+  "code": "2A",
+  "title": "General",
+  "first": 121,
+  "last": 152
+ },
+ {
+  "code": "2B",
+  "title": "Regulatory Signs, Barricade, and Gates",
+  "first": 153,
+  "last": 305
+ },
+ {
+  "code": "2C",
+  "title": "Warning Signs and Object Markers",
+  "first": 306,
+  "last": 386
+ },
+ {
+  "code": "2D",
+  "title": "Guide Signs  -  Conventional Roads",
+  "first": 387,
+  "last": 491
+ },
+ {
+  "code": "2E",
+  "title": "Guide Signs - Freeways and Expressways",
+  "first": 492,
+  "last": 606
+ },
+ {
+  "code": "2F",
+  "title": "Toll Road Signs",
+  "first": 607,
+  "last": 642
+ },
+ {
+  "code": "2G",
+  "title": "Preferential and Managed Lane Signs",
+  "first": 643,
+  "last": 711
+ },
+ {
+  "code": "2H",
+  "title": "General Information Signs",
+  "first": 712,
+  "last": 737
+ },
+ {
+  "code": "2I",
+  "title": "General Service Signs",
+  "first": 738,
+  "last": 772
+ },
+ {
+  "code": "2J",
+  "title": "Specific Service Signs",
+  "first": 773,
+  "last": 792
+ },
+ {
+  "code": "2K",
+  "title": "Tourist-Oriented Directional Signs",
+  "first": 793,
+  "last": 800
+ },
+ {
+  "code": "2L",
+  "title": "Changeable Message Signs",
+  "first": 801,
+  "last": 813
+ },
+ {
+  "code": "2M",
+  "title": "Recreational and Cultural Interest Area Signs",
+  "first": 814,
+  "last": 840
+ },
+ {
+  "code": "2N",
+  "title": "Emergency Management Signs",
+  "first": 841,
+  "last": 846
+ },
+ {
+  "code": "3A",
+  "title": "General",
+  "first": 847,
+  "last": 866
+ },
+ {
+  "code": "3B",
+  "title": "Pavement and Curb Markings",
+  "first": 867,
+  "last": 956
+ },
+ {
+  "code": "3C",
+  "title": "Crosswalk Markings",
+  "first": 957,
+  "last": 965
+ },
+ {
+  "code": "3D",
+  "title": "Circular Intersection Markings",
+  "first": 966,
+  "last": 976
+ },
+ {
+  "code": "3E",
+  "title": "Preferential Lane Markings for Motor Vehicles",
+  "first": 977,
+  "last": 991
+ },
+ {
+  "code": "3F",
+  "title": "Markings for Toll Plazas",
+  "first": 992,
+  "last": 993
+ },
+ {
+  "code": "3G",
+  "title": "Delineators",
+  "first": 994,
+  "last": 1005
+ },
+ {
+  "code": "3H",
+  "title": "Colored Pavement",
+  "first": 1006,
+  "last": 1017
+ },
+ {
+  "code": "3I",
+  "title": "Channelizing Devices Used for Emphasis of Pavement Marking Patterns",
+  "first": 1018,
+  "last": 1022
+ },
+ {
+  "code": "3J",
+  "title": "Marking and Delineation of Islands and Sidewalk Extensions",
+  "first": 1023,
+  "last": 1033
+ },
+ {
+  "code": "3K",
+  "title": "Rumble Strip Markings",
+  "first": 1034,
+  "last": 1035
+ },
+ {
+  "code": "4A",
+  "title": "General",
+  "first": 1037,
+  "last": 1043
+ },
+ {
+  "code": "4B",
+  "title": "Traffic Control Signals - General",
+  "first": 1044,
+  "last": 1046
+ },
+ {
+  "code": "4C",
+  "title": "Traffic Control Signal Needs Studies",
+  "first": 1047,
+  "last": 1076
+ },
+ {
+  "code": "4D",
+  "title": "Design Features of Traffic Control Signals",
+  "first": 1077,
+  "last": 1092
+ },
+ {
+  "code": "4E",
+  "title": "Traffic Control Signal Indications",
+  "first": 1093,
+  "last": 1099
+ },
+ {
+  "code": "4F",
+  "title": "Steady (Stop-And-Go) Operation of Traffic Control Signals",
+  "first": 1100,
+  "last": 1140
+ },
+ {
+  "code": "4G",
+  "title": "Flashing Operation of Traffic Control Signals",
+  "first": 1141,
+  "last": 1143
+ },
+ {
+  "code": "4H",
+  "title": "Bicycle Signals",
+  "first": 1144,
+  "last": 1154
+ },
+ {
+  "code": "4I",
+  "title": "Pedestrian Control Features",
+  "first": 1155,
+  "last": 1164
+ },
+ {
+  "code": "4J",
+  "title": "Pedestrian Hybrid Beacons",
+  "first": 1165,
+  "last": 1170
+ },
+ {
+  "code": "4K",
+  "title": "Accessible Pedestrian Signals and Detectors",
+  "first": 1171,
+  "last": 1176
+ },
+ {
+  "code": "4L",
+  "title": "Rectangular Rapid Flashing Beacons",
+  "first": 1177,
+  "last": 1181
+ },
+ {
+  "code": "4M",
+  "title": "Traffic Control Signals for Emergency-Vehicle Access",
+  "first": 1182,
+  "last": 1183
+ },
+ {
+  "code": "4N",
+  "title": "Hybrid Beacons for Emergency-Vehicle Access",
+  "first": 1184,
+  "last": 1186
+ },
+ {
+  "code": "4O",
+  "title": "Traffic Control Signals for One-Lane, Two-Way Facilities",
+  "first": 1187,
+  "last": 1187
+ },
+ {
+  "code": "4P",
+  "title": "Traffic Control Signals for Freeway Entrance Ramps",
+  "first": 1188,
+  "last": 1189
+ },
+ {
+  "code": "4Q",
+  "title": "Traffic Control for Moveable Bridges",
+  "first": 1190,
+  "last": 1192
+ },
+ {
+  "code": "4R",
+  "title": "Highway Traffic Signals at Toll Plazas",
+  "first": 1193,
+  "last": 1193
+ },
+ {
+  "code": "4S",
+  "title": "Flashing Beacons",
+  "first": 1194,
+  "last": 1197
+ },
+ {
+  "code": "4T",
+  "title": "Lane-Use Control Signals",
+  "first": 1199,
+  "last": 1202
+ },
+ {
+  "code": "4U",
+  "title": "In-Roadway Warning Lights",
+  "first": 1203,
+  "last": 1206
+ },
+ {
+  "code": "5A",
+  "title": "General",
+  "first": 1207,
+  "last": 1210
+ },
+ {
+  "code": "5B",
+  "title": "Provisions for Traffic Control Devices",
+  "first": 1211,
+  "last": 1213
+ },
+ {
+  "code": "6A",
+  "title": "General",
+  "first": 1215,
+  "last": 1219
+ },
+ {
+  "code": "6B",
+  "title": "Temporary Traffic Control Elements",
+  "first": 1220,
+  "last": 1233
+ },
+ {
+  "code": "6C",
+  "title": "Pedestrian and Worker Safety",
+  "first": 1234,
+  "last": 1239
+ },
+ {
+  "code": "6D",
+  "title": "Flagger Control",
+  "first": 1240,
+  "last": 1244
+ },
+ {
+  "code": "6E",
+  "title": "One-Lane, Two-Way Traffic Control",
+  "first": 1245,
+  "last": 1246
+ },
+ {
+  "code": "6F",
+  "title": "Temporary Traffic Control Zone Signs - General",
+  "first": 1247,
+  "last": 1250
+ },
+ {
+  "code": "6G",
+  "title": "TTC Zone Regulatory Signs",
+  "first": 1251,
+  "last": 1260
+ },
+ {
+  "code": "6H",
+  "title": "TTC Zone Warning Signs",
+  "first": 1261,
+  "last": 1282
+ },
+ {
+  "code": "6I",
+  "title": "TTC Zone Guide Signs",
+  "first": 1283,
+  "last": 1288
+ },
+ {
+  "code": "6J",
+  "title": "TTC Zone Pavement Markings",
+  "first": 1290,
+  "last": 1292
+ },
+ {
+  "code": "6K",
+  "title": "TTC Zone Channelizing Devices",
+  "first": 1293,
+  "last": 1305
+ },
+ {
+  "code": "6L",
+  "title": "Other TTC Zone Traffic Control Devices",
+  "first": 1306,
+  "last": 1320
+ },
+ {
+  "code": "6M",
+  "title": "Other TTC Zone Design Features and Safety Devices",
+  "first": 1321,
+  "last": 1325
+ },
+ {
+  "code": "6N",
+  "title": "Types of Temporary Traffic Control Zone Activities",
+  "first": 1326,
+  "last": 1339
+ },
+ {
+  "code": "6O",
+  "title": "Control of Traffic Through Traffic Incident Management Areas",
+  "first": 1340,
+  "last": 1345
+ },
+ {
+  "code": "6P",
+  "title": "Typical Applications",
+  "first": 1346,
+  "last": 1466
+ },
+ {
+  "code": "7A",
+  "title": "General",
+  "first": 1467,
+  "last": 1469
+ },
+ {
+  "code": "7B",
+  "title": "Signs",
+  "first": 1470,
+  "last": 1492
+ },
+ {
+  "code": "7C",
+  "title": "Markings",
+  "first": 1493,
+  "last": 1496
+ },
+ {
+  "code": "7D",
+  "title": "Crossing Supervision",
+  "first": 1497,
+  "last": 1498
+ },
+ {
+  "code": "8A",
+  "title": "General",
+  "first": 1499,
+  "last": 1506
+ },
+ {
+  "code": "8B",
+  "title": "Signs",
+  "first": 1507,
+  "last": 1530
+ },
+ {
+  "code": "8C",
+  "title": "Markings",
+  "first": 1531,
+  "last": 1541
+ },
+ {
+  "code": "8D",
+  "title": "Flashing-light Signals, Automatic Gates, and Traffic Control Signals",
+  "first": 1542,
+  "last": 1564
+ },
+ {
+  "code": "8E",
+  "title": "Pathway and Sidewalk Grade Crossings",
+  "first": 1565,
+  "last": 1583
+ },
+ {
+  "code": "9A",
+  "title": "General",
+  "first": 1585,
+  "last": 1592
+ },
+ {
+  "code": "9B",
+  "title": "Regulatory Signs",
+  "first": 1593,
+  "last": 1608
+ },
+ {
+  "code": "9C",
+  "title": "Warning Signs and Object Markers",
+  "first": 1609,
+  "last": 1613
+ },
+ {
+  "code": "9D",
+  "title": "Guide and Service Signs",
+  "first": 1614,
+  "last": 1635
+ },
+ {
+  "code": "9E",
+  "title": "Markings",
+  "first": 1636,
+  "last": 1695
+ },
+ {
+  "code": "9F",
+  "title": "Signals",
+  "first": 1696,
+  "last": 1696
+ },
+ {
+  "code": "A1",
+  "title": "Congressional Actions",
+  "first": 1698,
+  "last": 1699
+ },
+ {
+  "code": "A2",
+  "title": "Metric Conversions",
+  "first": 1700,
+  "last": 1700
+ }
+]

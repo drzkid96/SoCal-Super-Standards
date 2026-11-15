@@ -1,0 +1,4529 @@
+[
+ {
+  "id": "1A-101(CA)",
+  "kind": "Figure",
+  "title": "California MUTCD Format Explanations",
+  "chapter": "1A",
+  "page": 60,
+  "image": "/figs/ca-mutcd/p0060.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/1a/#fig-1a-101ca"
+ },
+ {
+  "id": "1A-101(CA)",
+  "kind": "Figure",
+  "title": "California MUTCD Format Explanations",
+  "chapter": "1A",
+  "page": 61,
+  "image": "/figs/ca-mutcd/p0061.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/1a/#fig-1a-101ca"
+ },
+ {
+  "id": "2C-13",
+  "kind": "Figure",
+  "title": "Example Sequences for Lane Ends and Lane Merge Signs",
+  "chapter": "1A",
+  "page": 61,
+  "image": "/figs/ca-mutcd/p0061.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/1a/#fig-2c-13"
+ },
+ {
+  "id": "1A-101(CA)",
+  "kind": "Figure",
+  "title": "California MUTCD Format Explanations",
+  "chapter": "1A",
+  "page": 65,
+  "image": "/figs/ca-mutcd/p0065.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/1a/#fig-1a-101ca"
+ },
+ {
+  "id": "1B-1",
+  "kind": "Figure",
+  "title": "Process for Requesting and Conducting Experimentations for New Traffic Control Devices",
+  "chapter": "1B",
+  "page": 78,
+  "image": "/figs/ca-mutcd/p0078.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/1b/#fig-1b-1"
+ },
+ {
+  "id": "1B-1(CA)",
+  "kind": "Table",
+  "title": "Target Compliance Dates Established by the FHWA",
+  "chapter": "1B",
+  "page": 83,
+  "image": "/figs/ca-mutcd/p0083.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/1b/#fig-1b-1ca"
+ },
+ {
+  "id": "1B-1(CA)",
+  "kind": "Table",
+  "title": "Target Compliance Dates Established by the CTCDC/Caltrans",
+  "chapter": "1B",
+  "page": 84,
+  "image": "/figs/ca-mutcd/p0084.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/1b/#fig-1b-1ca"
+ },
+ {
+  "id": "1D-2",
+  "kind": "Table",
+  "title": "Abbreviations that Shall be Used Only for Temporary Messages on Portable Changeable Message Signs",
+  "chapter": "1D",
+  "page": 118,
+  "image": "/figs/ca-mutcd/p0118.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/1d/#fig-1d-2"
+ },
+ {
+  "id": "1D-2",
+  "kind": "Table",
+  "title": "Abbreviations that Shall be Used Only for Temporary Messages on Portable Changeable Message Signs",
+  "chapter": "1D",
+  "page": 119,
+  "image": "/figs/ca-mutcd/p0119.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/1d/#fig-1d-2"
+ },
+ {
+  "id": "2A-1",
+  "kind": "Figure",
+  "title": "Examples of Enhanced Conspicuity for Signs",
+  "chapter": "2A",
+  "page": 140,
+  "image": "/figs/ca-mutcd/p0140.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2a/#fig-2a-1"
+ },
+ {
+  "id": "2A-2",
+  "kind": "Figure",
+  "title": "Examples of Heights and Lateral Locations of Sign Installations",
+  "chapter": "2A",
+  "page": 141,
+  "image": "/figs/ca-mutcd/p0141.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2a/#fig-2a-2"
+ },
+ {
+  "id": "2A-4",
+  "kind": "Figure",
+  "title": "Relative Locations of Regulatory, Warning, and Guide Signs on an Intersection Approach",
+  "chapter": "2A",
+  "page": 144,
+  "image": "/figs/ca-mutcd/p0144.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2a/#fig-2a-4"
+ },
+ {
+  "id": "2A-4",
+  "kind": "Figure",
+  "title": "Relative Locations of Regulatory, Warning, and Guide Signs on an Intersection Approach",
+  "chapter": "2A",
+  "page": 145,
+  "image": "/figs/ca-mutcd/p0145.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2a/#fig-2a-4"
+ },
+ {
+  "id": "2A-4",
+  "kind": "Figure",
+  "title": "Relative Locations of Regulatory, Warning, and Guide Signs on an Intersection Approach",
+  "chapter": "2A",
+  "page": 146,
+  "image": "/figs/ca-mutcd/p0146.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2a/#fig-2a-4"
+ },
+ {
+  "id": "2A-4",
+  "kind": "Figure",
+  "title": "Relative Locations of Regulatory, Warning, and Guide Signs on an Intersection Approach",
+  "chapter": "2A",
+  "page": 147,
+  "image": "/figs/ca-mutcd/p0147.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2a/#fig-2a-4"
+ },
+ {
+  "id": "2A-5",
+  "kind": "Figure",
+  "title": "Intersection Configuration at a Divided Highway Crossing",
+  "chapter": "2A",
+  "page": 148,
+  "image": "/figs/ca-mutcd/p0148.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2a/#fig-2a-5"
+ },
+ {
+  "id": "2B-4",
+  "kind": "Figure",
+  "title": "Movement Prohibition and Lane Control Signs and Plaques",
+  "chapter": "2B",
+  "page": 233,
+  "image": "/figs/ca-mutcd/p0233.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-4"
+ },
+ {
+  "id": "2B-4",
+  "kind": "Figure",
+  "title": "Movement Prohibition and Lane Control Signs and Plaques",
+  "chapter": "2B",
+  "page": 234,
+  "image": "/figs/ca-mutcd/p0234.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-4"
+ },
+ {
+  "id": "2B-6",
+  "kind": "Figure",
+  "title": "Center and Reversible Lane Control Signs and Plaques R3-9a R3-9b R3-9e R3-9f R3-9i OR R3-9h R3-9cP R3-9dP OR R3-9g",
+  "chapter": "2B",
+  "page": 237,
+  "image": "/figs/ca-mutcd/p0237.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-6"
+ },
+ {
+  "id": "2B-8",
+  "kind": "Figure",
+  "title": "Jughandle Regulatory Signs R3-23a R3-23 R3-24 R3-24a R3-24b R3-25 R3-25a R3-25b R3-26 R3-26a",
+  "chapter": "2B",
+  "page": 239,
+  "image": "/figs/ca-mutcd/p0239.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-8"
+ },
+ {
+  "id": "2B-9",
+  "kind": "Figure",
+  "title": "Examples of Applications of Jughandle Regulatory and Guide Signing",
+  "chapter": "2B",
+  "page": 240,
+  "image": "/figs/ca-mutcd/p0240.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-9"
+ },
+ {
+  "id": "2B-9",
+  "kind": "Figure",
+  "title": "Examples of Applications of Jughandle Regulatory and Guide Signing",
+  "chapter": "2B",
+  "page": 241,
+  "image": "/figs/ca-mutcd/p0241.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-9"
+ },
+ {
+  "id": "2B-9",
+  "kind": "Figure",
+  "title": "Examples of Applications of Jughandle Regulatory and Guide Signing",
+  "chapter": "2B",
+  "page": 242,
+  "image": "/figs/ca-mutcd/p0242.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-9"
+ },
+ {
+  "id": "2B-11",
+  "kind": "Figure",
+  "title": "Examples of Keep Right and Keep Left Sign Placement R4-7a R4-7 R4-7 R4-8b OR R4-7b R4-20 R4-7b R4-7 R4-7 Legend Direction of travel",
+  "chapter": "2B",
+  "page": 245,
+  "image": "/figs/ca-mutcd/p0245.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-11"
+ },
+ {
+  "id": "2B-13",
+  "kind": "Figure",
+  "title": "DO NOT ENTER, WRONG WAY, ONE WAY, and Related Signs and Plaques R6-5P R5-1 R5-1a R6-1 R6-2 R6-3 R6-3a R6-6 R6-7",
+  "chapter": "2B",
+  "page": 248,
+  "image": "/figs/ca-mutcd/p0248.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-13"
+ },
+ {
+  "id": "2B-15(CA)",
+  "kind": "Figure",
+  "title": "California Example of Application of Regulatory Signing and Pavement Markings at an Exit Ramp Termination to Deter Wrong-Way Entry",
+  "chapter": "2B",
+  "page": 252,
+  "image": "/figs/ca-mutcd/p0252.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-15ca"
+ },
+ {
+  "id": "2B-15(CA)",
+  "kind": "Figure",
+  "title": "California Example of Application of Regulatory Signing and Pavement Markings at an Exit Ramp Termination to Deter Wrong-Way Entry",
+  "chapter": "2B",
+  "page": 253,
+  "image": "/figs/ca-mutcd/p0253.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-15ca"
+ },
+ {
+  "id": "2B-15(CA)",
+  "kind": "Figure",
+  "title": "California Example of Application of Regulatory Signing andPavement Markings at an Exit Ramp Termination to Deter Wrong-Way Entry",
+  "chapter": "2B",
+  "page": 254,
+  "image": "/figs/ca-mutcd/p0254.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-15ca"
+ },
+ {
+  "id": "2B-15(CA)",
+  "kind": "Figure",
+  "title": "California Example of Application of Regulatory Signing and Pavement Markings at an Exit Ramp Termination to Deter Wrong-Way Entry",
+  "chapter": "2B",
+  "page": 255,
+  "image": "/figs/ca-mutcd/p0255.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-15ca"
+ },
+ {
+  "id": "2B-15(CA)",
+  "kind": "Figure",
+  "title": "California Example of Application of Regulatory Signing and Pavement Markings at an Exit Ramp Termination to Deter Wrong-Way Entry",
+  "chapter": "2B",
+  "page": 256,
+  "image": "/figs/ca-mutcd/p0256.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-15ca"
+ },
+ {
+  "id": "2B-16",
+  "kind": "Figure",
+  "title": "Example of Application of Regulatory Signing and Pavement Markings at an Entrance Ramp Terminal",
+  "chapter": "2B",
+  "page": 257,
+  "image": "/figs/ca-mutcd/p0257.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-16"
+ },
+ {
+  "id": "2B-18",
+  "kind": "Figure",
+  "title": "Locations of ONE WAY Signs",
+  "chapter": "2B",
+  "page": 259,
+  "image": "/figs/ca-mutcd/p0259.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-18"
+ },
+ {
+  "id": "2B-19",
+  "kind": "Figure",
+  "title": "ONE WAY Signing for Divided Highway Crossings that Function as Two Separate Intersections",
+  "chapter": "2B",
+  "page": 260,
+  "image": "/figs/ca-mutcd/p0260.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-19"
+ },
+ {
+  "id": "2B-21",
+  "kind": "Figure",
+  "title": "Example of Regulatory and Warning Signs for a Mini-Roundabout (optional) (optional) (optional) (optional)",
+  "chapter": "2B",
+  "page": 262,
+  "image": "/figs/ca-mutcd/p0262.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-21"
+ },
+ {
+  "id": "2B-23",
+  "kind": "Figure",
+  "title": "Example of Regulatory and Warning Signs for a Two-Lane Roundabout with Consecutive Double Lefts (optional) (optional) (optional) (optional)",
+  "chapter": "2B",
+  "page": 264,
+  "image": "/figs/ca-mutcd/p0264.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-23"
+ },
+ {
+  "id": "2B-24",
+  "kind": "Figure",
+  "title": "Example of Regulatory and Warning Signs for a Neighborhood Traffic Circle",
+  "chapter": "2B",
+  "page": 265,
+  "image": "/figs/ca-mutcd/p0265.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-24"
+ },
+ {
+  "id": "2B-25",
+  "kind": "Figure",
+  "title": "Parking, Standing, and Stopping Signs and Plaques (R7 and R8 Series)",
+  "chapter": "2B",
+  "page": 266,
+  "image": "/figs/ca-mutcd/p0266.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-25"
+ },
+ {
+  "id": "2B-25",
+  "kind": "Figure",
+  "title": "Parking, Standing, and Stopping Signs and Plaques (R7 and R8 Series)",
+  "chapter": "2B",
+  "page": 267,
+  "image": "/figs/ca-mutcd/p0267.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-25"
+ },
+ {
+  "id": "2B-25(CA)",
+  "kind": "Figure",
+  "title": "California Parking, Standing, and Stopping Signs and Plaques",
+  "chapter": "2B",
+  "page": 268,
+  "image": "/figs/ca-mutcd/p0268.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-25ca"
+ },
+ {
+  "id": "2B-25(CA)",
+  "kind": "Figure",
+  "title": "California Parking, Standing, and Stopping Signs and Plaques",
+  "chapter": "2B",
+  "page": 269,
+  "image": "/figs/ca-mutcd/p0269.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-25ca"
+ },
+ {
+  "id": "2B-25(CA)",
+  "kind": "Figure",
+  "title": "California Parking, Standing, and Stopping Signs and Plaques",
+  "chapter": "2B",
+  "page": 270,
+  "image": "/figs/ca-mutcd/p0270.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-25ca"
+ },
+ {
+  "id": "2B-26",
+  "kind": "Figure",
+  "title": "Emergency Restriction Signs R8-4 R8-7",
+  "chapter": "2B",
+  "page": 271,
+  "image": "/figs/ca-mutcd/p0271.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-26"
+ },
+ {
+  "id": "2B-27",
+  "kind": "Figure",
+  "title": "Pedestrian Signs and Plaques",
+  "chapter": "2B",
+  "page": 272,
+  "image": "/figs/ca-mutcd/p0272.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-27"
+ },
+ {
+  "id": "2B-27",
+  "kind": "Figure",
+  "title": "Pedestrian Signs and Plaques",
+  "chapter": "2B",
+  "page": 273,
+  "image": "/figs/ca-mutcd/p0273.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-27"
+ },
+ {
+  "id": "2B-27(CA)",
+  "kind": "Figure",
+  "title": "California Pedestrian Signs and Plaques",
+  "chapter": "2B",
+  "page": 273,
+  "image": "/figs/ca-mutcd/p0273.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-27ca"
+ },
+ {
+  "id": "2B-28",
+  "kind": "Figure",
+  "title": "Traffic Signal Signs and Plaques",
+  "chapter": "2B",
+  "page": 274,
+  "image": "/figs/ca-mutcd/p0274.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-28"
+ },
+ {
+  "id": "2B-28",
+  "kind": "Figure",
+  "title": "Traffic Signal Signs and Plaques",
+  "chapter": "2B",
+  "page": 275,
+  "image": "/figs/ca-mutcd/p0275.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-28"
+ },
+ {
+  "id": "2B-29",
+  "kind": "Figure",
+  "title": "Ramp Metering Signs R10-28",
+  "chapter": "2B",
+  "page": 276,
+  "image": "/figs/ca-mutcd/p0276.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-29"
+ },
+ {
+  "id": "2B-29(CA)",
+  "kind": "Figure",
+  "title": "California Ramp Metering Signs R89A(CA) 1 VEHICLE PER GREEN",
+  "chapter": "2B",
+  "page": 276,
+  "image": "/figs/ca-mutcd/p0276.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-29ca"
+ },
+ {
+  "id": "2B-30",
+  "kind": "Figure",
+  "title": "Road Closed and Weight Limit Signs R11-1 R11-2 R11-3 R11-3b R11-4 R12-1 R12-4 R12-2 R12-5 R12-7 R12-7aP R12-6 R11-3a",
+  "chapter": "2B",
+  "page": 277,
+  "image": "/figs/ca-mutcd/p0277.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-30"
+ },
+ {
+  "id": "2B-30(CA)",
+  "kind": "Figure",
+  "title": "California Road Closed and Weight Limit Signs R36(CA) COMMERCIAL VEHICLES OVER TONS PROHIBITED 5 5 SR40(CA) OVER 13\u2019- 6\u201d WIDE",
+  "chapter": "2B",
+  "page": 277,
+  "image": "/figs/ca-mutcd/p0277.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-30ca"
+ },
+ {
+  "id": "2B-31",
+  "kind": "Figure",
+  "title": "Truck Signs R13-1 R14-1 R14-2 R14-3 R14-4 R14-5",
+  "chapter": "2B",
+  "page": 278,
+  "image": "/figs/ca-mutcd/p0278.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-31"
+ },
+ {
+  "id": "2B-32",
+  "kind": "Figure",
+  "title": "Photo Enforcement Signs and Plaques R10-18 R10-18a R10-19P R10-19aP",
+  "chapter": "2B",
+  "page": 279,
+  "image": "/figs/ca-mutcd/p0279.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-32"
+ },
+ {
+  "id": "2B-33",
+  "kind": "Figure",
+  "title": "Other Regulatory Signs R16-15 R16-15a R16-3 R16-4 MINOR CRASH NO INJURIES SAFELY MOVE VEHICLES FROM TRAVEL LANES",
+  "chapter": "2B",
+  "page": 280,
+  "image": "/figs/ca-mutcd/p0280.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-33"
+ },
+ {
+  "id": "2B-34",
+  "kind": "Figure",
+  "title": "Headlight Use Signs R16-5 R16-6 R16-7 R16-8 R16-9 R16-10 R16-11",
+  "chapter": "2B",
+  "page": 281,
+  "image": "/figs/ca-mutcd/p0281.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-34"
+ },
+ {
+  "id": "2B-34(CA)",
+  "kind": "Figure",
+  "title": "California Headlight Use Signs S30-1(CA) DAYLIGHT HEADLIGHT SECTION",
+  "chapter": "2B",
+  "page": 281,
+  "image": "/figs/ca-mutcd/p0281.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-34ca"
+ },
+ {
+  "id": "2B-1",
+  "kind": "Table",
+  "title": "Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 288,
+  "image": "/figs/ca-mutcd/p0288.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1"
+ },
+ {
+  "id": "2B-1",
+  "kind": "Table",
+  "title": "Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 289,
+  "image": "/figs/ca-mutcd/p0289.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1"
+ },
+ {
+  "id": "2B-1",
+  "kind": "Table",
+  "title": "Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 290,
+  "image": "/figs/ca-mutcd/p0290.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1"
+ },
+ {
+  "id": "2B-1",
+  "kind": "Table",
+  "title": "Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 291,
+  "image": "/figs/ca-mutcd/p0291.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1"
+ },
+ {
+  "id": "2B-1",
+  "kind": "Table",
+  "title": "Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 292,
+  "image": "/figs/ca-mutcd/p0292.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1"
+ },
+ {
+  "id": "2B-1",
+  "kind": "Table",
+  "title": "Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 293,
+  "image": "/figs/ca-mutcd/p0293.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1"
+ },
+ {
+  "id": "2B-1(CA)",
+  "kind": "Table",
+  "title": "California Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 294,
+  "image": "/figs/ca-mutcd/p0294.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1ca"
+ },
+ {
+  "id": "2B-1(CA)",
+  "kind": "Table",
+  "title": "California Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 295,
+  "image": "/figs/ca-mutcd/p0295.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1ca"
+ },
+ {
+  "id": "2B-1(CA)",
+  "kind": "Table",
+  "title": "California Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 296,
+  "image": "/figs/ca-mutcd/p0296.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1ca"
+ },
+ {
+  "id": "2B-1(CA)",
+  "kind": "Table",
+  "title": "California Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 297,
+  "image": "/figs/ca-mutcd/p0297.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1ca"
+ },
+ {
+  "id": "2B-1(CA)",
+  "kind": "Table",
+  "title": "California Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 298,
+  "image": "/figs/ca-mutcd/p0298.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1ca"
+ },
+ {
+  "id": "2B-1(CA)",
+  "kind": "Table",
+  "title": "California Regulatory Sign and Plaque Sizes",
+  "chapter": "2B",
+  "page": 299,
+  "image": "/figs/ca-mutcd/p0299.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#fig-2b-1ca"
+ },
+ {
+  "id": "2C-1",
+  "kind": "Figure",
+  "title": "Horizontal Alignment Signs and Plaques",
+  "chapter": "2C",
+  "page": 347,
+  "image": "/figs/ca-mutcd/p0347.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-1"
+ },
+ {
+  "id": "2C-2",
+  "kind": "Figure",
+  "title": "Examples of Warning Signs for Changes in Horizontal Alignment",
+  "chapter": "2C",
+  "page": 348,
+  "image": "/figs/ca-mutcd/p0348.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-2"
+ },
+ {
+  "id": "2C-2",
+  "kind": "Figure",
+  "title": "Examples of Warning Signs for Changes in Horizontal Alignment",
+  "chapter": "2C",
+  "page": 349,
+  "image": "/figs/ca-mutcd/p0349.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-2"
+ },
+ {
+  "id": "2C-3",
+  "kind": "Figure",
+  "title": "Examples of Exit Ramp Advisory Speed and Other Warning Signs",
+  "chapter": "2C",
+  "page": 350,
+  "image": "/figs/ca-mutcd/p0350.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-3"
+ },
+ {
+  "id": "2C-3",
+  "kind": "Figure",
+  "title": "Examples of Exit Ramp Advisory Speed and Other Warning Signs",
+  "chapter": "2C",
+  "page": 351,
+  "image": "/figs/ca-mutcd/p0351.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-3"
+ },
+ {
+  "id": "2C-3",
+  "kind": "Figure",
+  "title": "Examples of Exit Ramp Advisory Speed and Other Warning Signs",
+  "chapter": "2C",
+  "page": 352,
+  "image": "/figs/ca-mutcd/p0352.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-3"
+ },
+ {
+  "id": "2C-3",
+  "kind": "Figure",
+  "title": "Examples of Exit Ramp Advisory Speed and Other Warning Signs",
+  "chapter": "2C",
+  "page": 353,
+  "image": "/figs/ca-mutcd/p0353.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-3"
+ },
+ {
+  "id": "2C-3",
+  "kind": "Figure",
+  "title": "Examples of Exit Ramp Advisory Speed and Other Warning Signs",
+  "chapter": "2C",
+  "page": 354,
+  "image": "/figs/ca-mutcd/p0354.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-3"
+ },
+ {
+  "id": "2C-4",
+  "kind": "Figure",
+  "title": "Vehicle Speed Feedback Sign and Plaque W13-20aP W13-20",
+  "chapter": "2C",
+  "page": 355,
+  "image": "/figs/ca-mutcd/p0355.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-4"
+ },
+ {
+  "id": "2C-5",
+  "kind": "Figure",
+  "title": "Vertical Grade Signs and Plaques W7-1 W7-1a W7-2P W7-2bP W7-3P W7-3aP W7-3bP W7-4 W7-4b W7-4c W7-4fP W7-4dP W7-4eP W7-6",
+  "chapter": "2C",
+  "page": 356,
+  "image": "/figs/ca-mutcd/p0356.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-5"
+ },
+ {
+  "id": "2C-8",
+  "kind": "Figure",
+  "title": "Advance Traffic Control Signs W3-1 W3-2 W3-3 W3-4 W3-6 W3-7 W3-8 W23-2 W23-2a W26-1",
+  "chapter": "2C",
+  "page": 361,
+  "image": "/figs/ca-mutcd/p0361.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-8"
+ },
+ {
+  "id": "2C-9",
+  "kind": "Figure",
+  "title": "Reduced Speed Limit Ahead and Speed Zone Signs W3-5 W3-5a W3-5b W3-5c",
+  "chapter": "2C",
+  "page": 362,
+  "image": "/figs/ca-mutcd/p0362.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-9"
+ },
+ {
+  "id": "2C-10(CA)",
+  "kind": "Figure",
+  "title": "California Intersection Warning Signs and Plaques W70(CA) CR CROSS OSS TRAFFIC TRAFFIC AHEAD AHEAD",
+  "chapter": "2C",
+  "page": 363,
+  "image": "/figs/ca-mutcd/p0363.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-10ca"
+ },
+ {
+  "id": "2C-11",
+  "kind": "Figure",
+  "title": "Merging and Passing Signs and Plaques W4-1 W4-2 W4-3 W4-5 W4-6 W4-8 W6-3 W6-5 W6-5a W4-5aP W8-26 W8-26a W9-1 W9-4 W9-7 W14-3 W4-7",
+  "chapter": "2C",
+  "page": 364,
+  "image": "/figs/ca-mutcd/p0364.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-11"
+ },
+ {
+  "id": "2C-12",
+  "kind": "Figure",
+  "title": "Examples of Merge and Added Lane Sign Placement for Entering and Converging Roadways W4-6R W4-3R W4-1R W4-1L W4-1R",
+  "chapter": "2C",
+  "page": 366,
+  "image": "/figs/ca-mutcd/p0366.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-12"
+ },
+ {
+  "id": "2C-13",
+  "kind": "Figure",
+  "title": "Example Sequences for Lane Ends and Lane Merge Signs",
+  "chapter": "2C",
+  "page": 367,
+  "image": "/figs/ca-mutcd/p0367.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-13"
+ },
+ {
+  "id": "2C-13",
+  "kind": "Figure",
+  "title": "Example Sequences for Lane Ends and Lane Merge Signs",
+  "chapter": "2C",
+  "page": 368,
+  "image": "/figs/ca-mutcd/p0368.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-13"
+ },
+ {
+  "id": "2C-13",
+  "kind": "Figure",
+  "title": "Example Sequences for Lane Ends and Lane Merge Signs",
+  "chapter": "2C",
+  "page": 369,
+  "image": "/figs/ca-mutcd/p0369.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-13"
+ },
+ {
+  "id": "2C-13",
+  "kind": "Figure",
+  "title": "Example Sequences for Lane Ends and Lane Merge Signs",
+  "chapter": "2C",
+  "page": 370,
+  "image": "/figs/ca-mutcd/p0370.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-13"
+ },
+ {
+  "id": "2C-13",
+  "kind": "Figure",
+  "title": "Example Sequences for Lane Ends and Lane Merge Signs",
+  "chapter": "2C",
+  "page": 371,
+  "image": "/figs/ca-mutcd/p0371.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-13"
+ },
+ {
+  "id": "2C-16",
+  "kind": "Figure",
+  "title": "Supplemental Warning Plaques",
+  "chapter": "2C",
+  "page": 374,
+  "image": "/figs/ca-mutcd/p0374.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-16"
+ },
+ {
+  "id": "2C-1",
+  "kind": "Table",
+  "title": "Warning Sign and Plaque Sizes",
+  "chapter": "2C",
+  "page": 378,
+  "image": "/figs/ca-mutcd/p0378.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-1"
+ },
+ {
+  "id": "2C-1",
+  "kind": "Table",
+  "title": "Warning Sign and Plaque Sizes",
+  "chapter": "2C",
+  "page": 379,
+  "image": "/figs/ca-mutcd/p0379.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-1"
+ },
+ {
+  "id": "2C-1",
+  "kind": "Table",
+  "title": "Warning Sign and Plaque Sizes",
+  "chapter": "2C",
+  "page": 380,
+  "image": "/figs/ca-mutcd/p0380.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-1"
+ },
+ {
+  "id": "2C-1",
+  "kind": "Table",
+  "title": "Warning Sign and Plaque Sizes",
+  "chapter": "2C",
+  "page": 381,
+  "image": "/figs/ca-mutcd/p0381.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2c/#fig-2c-1"
+ },
+ {
+  "id": "2D-1",
+  "kind": "Figure",
+  "title": "Examples of Color-Coded Destination Guide Signs",
+  "chapter": "2D",
+  "page": 430,
+  "image": "/figs/ca-mutcd/p0430.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-1"
+ },
+ {
+  "id": "2D-3",
+  "kind": "Figure",
+  "title": "Arrows for Use on Guide Signs Directional arrows Down arrow Type A Type A - Extended Type B Type C Type D Type E",
+  "chapter": "2D",
+  "page": 432,
+  "image": "/figs/ca-mutcd/p0432.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-3"
+ },
+ {
+  "id": "2D-5(CA)",
+  "kind": "Figure",
+  "title": "California Route Sign Auxiliaries and Combination Junction Sign G76(CA) ROUTE 99 BUSINESS",
+  "chapter": "2D",
+  "page": 434,
+  "image": "/figs/ca-mutcd/p0434.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-5ca"
+ },
+ {
+  "id": "2D-6",
+  "kind": "Figure",
+  "title": "Advance Turn and Directional Arrow Auxiliary Plaques M6-1P M6-2P M6-2aP M6-3P M6-4P M6-5P M6-6P M6-7P M5-1P M5-2P M5-5P M5-6P M5-3P M5-4P",
+  "chapter": "2D",
+  "page": 435,
+  "image": "/figs/ca-mutcd/p0435.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-6"
+ },
+ {
+  "id": "2D-7",
+  "kind": "Figure",
+  "title": "Examples of Consolidation of Route Sign Assemblies into Guide Signs",
+  "chapter": "2D",
+  "page": 436,
+  "image": "/figs/ca-mutcd/p0436.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-7"
+ },
+ {
+  "id": "2D-7",
+  "kind": "Figure",
+  "title": "Examples of Consolidation of Route Sign Assemblies into Guide Signs",
+  "chapter": "2D",
+  "page": 437,
+  "image": "/figs/ca-mutcd/p0437.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-7"
+ },
+ {
+  "id": "2D-8",
+  "kind": "Figure",
+  "title": "Illustration of Directional Assemblies and Other Route Signs",
+  "chapter": "2D",
+  "page": 438,
+  "image": "/figs/ca-mutcd/p0438.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-8"
+ },
+ {
+  "id": "2D-8",
+  "kind": "Figure",
+  "title": "Illustration of Directional Assemblies and Other Route Signs",
+  "chapter": "2D",
+  "page": 439,
+  "image": "/figs/ca-mutcd/p0439.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-8"
+ },
+ {
+  "id": "2D-8",
+  "kind": "Figure",
+  "title": "Illustration of Directional Assemblies and Other Route Signs",
+  "chapter": "2D",
+  "page": 440,
+  "image": "/figs/ca-mutcd/p0440.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-8"
+ },
+ {
+  "id": "2D-8",
+  "kind": "Figure",
+  "title": "Illustration of Directional Assemblies and Other Route Signs",
+  "chapter": "2D",
+  "page": 441,
+  "image": "/figs/ca-mutcd/p0441.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-8"
+ },
+ {
+  "id": "2D-9",
+  "kind": "Figure",
+  "title": "Destination and Distance Signs D1-2a D1-3a D1-1a D1-1 D1-2 D1-3 D2-1 D2-2 D2-3 D15-1 OR",
+  "chapter": "2D",
+  "page": 442,
+  "image": "/figs/ca-mutcd/p0442.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-9"
+ },
+ {
+  "id": "2D-10",
+  "kind": "Figure",
+  "title": "Examples of Overhead Signs at an Intersection",
+  "chapter": "2D",
+  "page": 444,
+  "image": "/figs/ca-mutcd/p0444.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-10"
+ },
+ {
+  "id": "2D-10",
+  "kind": "Figure",
+  "title": "Examples of Overhead Signs at an Intersection",
+  "chapter": "2D",
+  "page": 445,
+  "image": "/figs/ca-mutcd/p0445.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-10"
+ },
+ {
+  "id": "2D-10",
+  "kind": "Figure",
+  "title": "Examples of Overhead Signs at an Intersection",
+  "chapter": "2D",
+  "page": 446,
+  "image": "/figs/ca-mutcd/p0446.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-10"
+ },
+ {
+  "id": "2D-11",
+  "kind": "Figure",
+  "title": "Destination Signs for Circular Intersections D1-5 D1-1d D1-1e D1-3d D1-2d D1-5a",
+  "chapter": "2D",
+  "page": 447,
+  "image": "/figs/ca-mutcd/p0447.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-11"
+ },
+ {
+  "id": "2D-12",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for Circular Intersections",
+  "chapter": "2D",
+  "page": 448,
+  "image": "/figs/ca-mutcd/p0448.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-12"
+ },
+ {
+  "id": "2D-12",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for Circular Intersections",
+  "chapter": "2D",
+  "page": 449,
+  "image": "/figs/ca-mutcd/p0449.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-12"
+ },
+ {
+  "id": "2D-12",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for Circular Intersections",
+  "chapter": "2D",
+  "page": 450,
+  "image": "/figs/ca-mutcd/p0450.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-12"
+ },
+ {
+  "id": "2D-12",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for Circular Intersections",
+  "chapter": "2D",
+  "page": 451,
+  "image": "/figs/ca-mutcd/p0451.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-12"
+ },
+ {
+  "id": "2D-13",
+  "kind": "Figure",
+  "title": "Examples of Signing for Intersections with Indirect Left Turns",
+  "chapter": "2D",
+  "page": 452,
+  "image": "/figs/ca-mutcd/p0452.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-13"
+ },
+ {
+  "id": "2D-13",
+  "kind": "Figure",
+  "title": "Examples of Signing for Intersections with Indirect Left Turns",
+  "chapter": "2D",
+  "page": 453,
+  "image": "/figs/ca-mutcd/p0453.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-13"
+ },
+ {
+  "id": "2D-13",
+  "kind": "Figure",
+  "title": "Examples of Signing for Intersections with Indirect Left Turns",
+  "chapter": "2D",
+  "page": 454,
+  "image": "/figs/ca-mutcd/p0454.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-13"
+ },
+ {
+  "id": "2D-14",
+  "kind": "Figure",
+  "title": "Street Name and Parking Signs D3-1 D3-1a D4-1 D4-2 D3-2 OR",
+  "chapter": "2D",
+  "page": 455,
+  "image": "/figs/ca-mutcd/p0455.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-14"
+ },
+ {
+  "id": "2D-15",
+  "kind": "Figure",
+  "title": "Example of Interchange Crossroad Guide Signing for a One-Lane Approach OR OR See Note 3 (optional) OR I-57 OR OR OR SR 45",
+  "chapter": "2D",
+  "page": 456,
+  "image": "/figs/ca-mutcd/p0456.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-15"
+ },
+ {
+  "id": "2D-16",
+  "kind": "Figure",
+  "title": "Example of Minor Interchange Crossroad Guide Signing I-25 (optional)",
+  "chapter": "2D",
+  "page": 457,
+  "image": "/figs/ca-mutcd/p0457.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-16"
+ },
+ {
+  "id": "2D-17",
+  "kind": "Figure",
+  "title": "Examples of Multi-Lane Crossroad Guide Signing for a Diamond Interchange OR I-18 OR OR SR 45 OR OR (mounted overhead) (mounted overhead)",
+  "chapter": "2D",
+  "page": 458,
+  "image": "/figs/ca-mutcd/p0458.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-17"
+ },
+ {
+  "id": "2D-19",
+  "kind": "Figure",
+  "title": "Examples of Multi-Lane Crossroad Signing for a Cloverleaf Interchange (mounted overhead) SR 55 See Note See Note",
+  "chapter": "2D",
+  "page": 460,
+  "image": "/figs/ca-mutcd/p0460.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-19"
+ },
+ {
+  "id": "2D-20",
+  "kind": "Figure",
+  "title": "Example of Crossroad Guide Signing for an Entrance Ramp with a Nearby Frontage Road Frontage Road OR",
+  "chapter": "2D",
+  "page": 461,
+  "image": "/figs/ca-mutcd/p0461.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-20"
+ },
+ {
+  "id": "2D-21",
+  "kind": "Figure",
+  "title": "Example of Transposed Alignment Crossroad Guide Signing at a Diamond Interchange OR I-57 OR See Note 2 See Note 2 SR 24",
+  "chapter": "2D",
+  "page": 462,
+  "image": "/figs/ca-mutcd/p0462.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-21"
+ },
+ {
+  "id": "2D-24",
+  "kind": "Figure",
+  "title": "Crossover Signs D13-1 D13-2",
+  "chapter": "2D",
+  "page": 465,
+  "image": "/figs/ca-mutcd/p0465.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-24"
+ },
+ {
+  "id": "2D-25",
+  "kind": "Figure",
+  "title": "Truck and Passing Lane Signs D17-1 D17-2 D17-3 D17-4",
+  "chapter": "2D",
+  "page": 466,
+  "image": "/figs/ca-mutcd/p0466.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-25"
+ },
+ {
+  "id": "2D-27",
+  "kind": "Figure",
+  "title": "Example of Signing for an Intermittent Passing Lane W4-2L W9-1L (optional) Optional dotted lane line W16-2P (optional) R4-16 D17-4 D17-3",
+  "chapter": "2D",
+  "page": 468,
+  "image": "/figs/ca-mutcd/p0468.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-27"
+ },
+ {
+  "id": "2D-28",
+  "kind": "Figure",
+  "title": "Emergency and Slow Vehicle Turn-Out Signs D17-5 D17-6 D17-7",
+  "chapter": "2D",
+  "page": 469,
+  "image": "/figs/ca-mutcd/p0469.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-28"
+ },
+ {
+  "id": "2D-29",
+  "kind": "Figure",
+  "title": "Example of Signing for an Emergency Turn-Out R8-7 D10-5 D17-5 D17-5 OR Legend Direction of travel D17-6",
+  "chapter": "2D",
+  "page": 470,
+  "image": "/figs/ca-mutcd/p0470.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-29"
+ },
+ {
+  "id": "2D-30",
+  "kind": "Figure",
+  "title": "Examples of Community Wayfinding Guide Signs",
+  "chapter": "2D",
+  "page": 471,
+  "image": "/figs/ca-mutcd/p0471.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-30"
+ },
+ {
+  "id": "2D-33",
+  "kind": "Figure",
+  "title": "National Scenic Byways Sign and Plaque, and Examples of Use M10-1 M10-1aP",
+  "chapter": "2D",
+  "page": 474,
+  "image": "/figs/ca-mutcd/p0474.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-33"
+ },
+ {
+  "id": "2D-34",
+  "kind": "Figure",
+  "title": "Byway Identification, State Scenic Byway, and National Historic Trail Signs and Plaques, and Examples of Use",
+  "chapter": "2D",
+  "page": 475,
+  "image": "/figs/ca-mutcd/p0475.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-34"
+ },
+ {
+  "id": "2D-39",
+  "kind": "Figure",
+  "title": "Example of a System of Major Guide Signs for an Airport Roadway Network",
+  "chapter": "2D",
+  "page": 480,
+  "image": "/figs/ca-mutcd/p0480.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-39"
+ },
+ {
+  "id": "2D-39",
+  "kind": "Figure",
+  "title": "Example of a System of Major Guide Signs for an Airport Roadway Network",
+  "chapter": "2D",
+  "page": 481,
+  "image": "/figs/ca-mutcd/p0481.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-39"
+ },
+ {
+  "id": "2D-39",
+  "kind": "Figure",
+  "title": "Example of a System of Major Guide Signs for an Airport Roadway Network",
+  "chapter": "2D",
+  "page": 482,
+  "image": "/figs/ca-mutcd/p0482.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-39"
+ },
+ {
+  "id": "2D-1",
+  "kind": "Table",
+  "title": "Conventional Road Guide Sign and Plaque Sizes",
+  "chapter": "2D",
+  "page": 484,
+  "image": "/figs/ca-mutcd/p0484.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-1"
+ },
+ {
+  "id": "2D-1",
+  "kind": "Table",
+  "title": "Conventional Road Guide Sign and Plaque Sizes",
+  "chapter": "2D",
+  "page": 485,
+  "image": "/figs/ca-mutcd/p0485.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-1"
+ },
+ {
+  "id": "2D-2",
+  "kind": "Table",
+  "title": "Recommended Minimum Letter and Numeral Sizes for Conventional Road Guide Signs According to Speed*",
+  "chapter": "2D",
+  "page": 487,
+  "image": "/figs/ca-mutcd/p0487.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-2"
+ },
+ {
+  "id": "2D-2",
+  "kind": "Table",
+  "title": "Recommended Minimum Letter and Numeral Sizes for Conventional Road Guide Signs According to Speed*",
+  "chapter": "2D",
+  "page": 488,
+  "image": "/figs/ca-mutcd/p0488.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#fig-2d-2"
+ },
+ {
+  "id": "2E-1",
+  "kind": "Figure",
+  "title": "Designation of Destination for Interchanges in Opposing Directions of Travel 242 Charleston",
+  "chapter": "2E",
+  "page": 529,
+  "image": "/figs/ca-mutcd/p0529.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-1"
+ },
+ {
+  "id": "2E-6",
+  "kind": "Figure",
+  "title": "Example of Interchange Numbering for Mainline and Loop Routes 42 2 1 46 15 B 9 A 11 13 13",
+  "chapter": "2E",
+  "page": 534,
+  "image": "/figs/ca-mutcd/p0534.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-6"
+ },
+ {
+  "id": "2E-8",
+  "kind": "Figure",
+  "title": "Example of Interchange Numbering for Overlapping Routes",
+  "chapter": "2E",
+  "page": 536,
+  "image": "/figs/ca-mutcd/p0536.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-8"
+ },
+ {
+  "id": "2E-10",
+  "kind": "Figure",
+  "title": "Example of an Interchange Sequence Sign E9-2",
+  "chapter": "2E",
+  "page": 539,
+  "image": "/figs/ca-mutcd/p0539.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-10"
+ },
+ {
+  "id": "2E-10(CA)",
+  "kind": "Figure",
+  "title": "California Example of an Interchange Sequence Sign G23-6(CA) Iowa Avenue Spring Street Maple Avenue 2 4 1 1",
+  "chapter": "2E",
+  "page": 539,
+  "image": "/figs/ca-mutcd/p0539.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-10ca"
+ },
+ {
+  "id": "2E-12",
+  "kind": "Figure",
+  "title": "Examples of Exit Direction Signs",
+  "chapter": "2E",
+  "page": 541,
+  "image": "/figs/ca-mutcd/p0541.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-12"
+ },
+ {
+  "id": "2E-12(CA)",
+  "kind": "Figure",
+  "title": "California Examples of Interchange Exit Direction Signs",
+  "chapter": "2E",
+  "page": 542,
+  "image": "/figs/ca-mutcd/p0542.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-12ca"
+ },
+ {
+  "id": "2E-16",
+  "kind": "Figure",
+  "title": "Examples of Pull-Through Signs E6-1 E6-1a",
+  "chapter": "2E",
+  "page": 546,
+  "image": "/figs/ca-mutcd/p0546.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-16"
+ },
+ {
+  "id": "2E-17",
+  "kind": "Figure",
+  "title": "EXIT ONLY and LEFT Sign Panels E11-2 E11-1f E11-1 E11-1a E11-1b",
+  "chapter": "2E",
+  "page": 547,
+  "image": "/figs/ca-mutcd/p0547.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-17"
+ },
+ {
+  "id": "2E-18",
+  "kind": "Figure",
+  "title": "Guide Signs for a Single-Lane Exit to the Left with a Dropped Lane Legend Direction of travel",
+  "chapter": "2E",
+  "page": 548,
+  "image": "/figs/ca-mutcd/p0548.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-18"
+ },
+ {
+  "id": "2E-19",
+  "kind": "Figure",
+  "title": "Guide Signs for a Single-Lane Exit to the Right with a Dropped Lane 1/2 mile 1/2 mile Legend Direction of travel I-61 I-61 SR 7",
+  "chapter": "2E",
+  "page": 549,
+  "image": "/figs/ca-mutcd/p0549.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-19"
+ },
+ {
+  "id": "2E-23",
+  "kind": "Figure",
+  "title": "Examples of Signing for Mainline Terminations within an Interchange",
+  "chapter": "2E",
+  "page": 553,
+  "image": "/figs/ca-mutcd/p0553.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-23"
+ },
+ {
+  "id": "2E-25",
+  "kind": "Figure",
+  "title": "Examples of Signing for an Interchange Exit Ramp with a Downstream Split",
+  "chapter": "2E",
+  "page": 555,
+  "image": "/figs/ca-mutcd/p0555.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-25"
+ },
+ {
+  "id": "2E-25",
+  "kind": "Figure",
+  "title": "Examples of Signing for an Interchange Exit Ramp with a Downstream Split",
+  "chapter": "2E",
+  "page": 556,
+  "image": "/figs/ca-mutcd/p0556.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-25"
+ },
+ {
+  "id": "2E-26",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for a Minor Interchange I-25 I-25 Laurel Avenue 11",
+  "chapter": "2E",
+  "page": 557,
+  "image": "/figs/ca-mutcd/p0557.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-26"
+ },
+ {
+  "id": "2E-27",
+  "kind": "Figure",
+  "title": "Example of Guide Signs for a Diamond Interchange I-47 I-47 44 45 43",
+  "chapter": "2E",
+  "page": 558,
+  "image": "/figs/ca-mutcd/p0558.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-27"
+ },
+ {
+  "id": "2E-28",
+  "kind": "Figure",
+  "title": "Example of Guide Signs for a Diamond Interchange in an Urban Area I-74 I-74 63 64 65 Lincoln Ave OR OR OR",
+  "chapter": "2E",
+  "page": 559,
+  "image": "/figs/ca-mutcd/p0559.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-28"
+ },
+ {
+  "id": "2E-29",
+  "kind": "Figure",
+  "title": "Example of Guide Signs for a Full Cloverleaf Interchange",
+  "chapter": "2E",
+  "page": 560,
+  "image": "/figs/ca-mutcd/p0560.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-29"
+ },
+ {
+  "id": "2E-32",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for Successive Interchanges with Collector-Distributor Roadways",
+  "chapter": "2E",
+  "page": 563,
+  "image": "/figs/ca-mutcd/p0563.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-32"
+ },
+ {
+  "id": "2E-32",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for Successive Interchanges with Collector-Distributor Roadways",
+  "chapter": "2E",
+  "page": 564,
+  "image": "/figs/ca-mutcd/p0564.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-32"
+ },
+ {
+  "id": "2E-33",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for a Freeway-to-Freeway Interchange",
+  "chapter": "2E",
+  "page": 565,
+  "image": "/figs/ca-mutcd/p0565.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-33"
+ },
+ {
+  "id": "2E-33",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for a Freeway-to-Freeway Interchange",
+  "chapter": "2E",
+  "page": 566,
+  "image": "/figs/ca-mutcd/p0566.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-33"
+ },
+ {
+  "id": "2E-35",
+  "kind": "Figure",
+  "title": "Example of an Overhead Arrow-per-Lane Guide Sign for a Multi-Lane Exit with an Option Lane",
+  "chapter": "2E",
+  "page": 568,
+  "image": "/figs/ca-mutcd/p0568.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-35"
+ },
+ {
+  "id": "2E-36",
+  "kind": "Figure",
+  "title": "Example of Overhead Arrow-per-Lane Guide Signs for a Two-Lane Exit to the Right with an Option Lane Legend Direction of travel",
+  "chapter": "2E",
+  "page": 569,
+  "image": "/figs/ca-mutcd/p0569.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-36"
+ },
+ {
+  "id": "2E-38",
+  "kind": "Figure",
+  "title": "Example of Overhead Arrow-per-Lane Guide Signs for a Split with an Option Lane",
+  "chapter": "2E",
+  "page": 572,
+  "image": "/figs/ca-mutcd/p0572.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-38"
+ },
+ {
+  "id": "2E-40",
+  "kind": "Figure",
+  "title": "Example of Guide Signing for a Narrow Gore at a Two-Lane Exit with an Option Lane",
+  "chapter": "2E",
+  "page": 574,
+  "image": "/figs/ca-mutcd/p0574.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-40"
+ },
+ {
+  "id": "2E-41",
+  "kind": "Figure",
+  "title": "Examples of Diagrammatic Advance Guide Signs",
+  "chapter": "2E",
+  "page": 575,
+  "image": "/figs/ca-mutcd/p0575.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-41"
+ },
+ {
+  "id": "2E-43",
+  "kind": "Figure",
+  "title": "Example of a Partial-Width Overhead Arrow-per-Lane Guide Sign for Intermediate or Minor Interchanges",
+  "chapter": "2E",
+  "page": 577,
+  "image": "/figs/ca-mutcd/p0577.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-43"
+ },
+ {
+  "id": "2E-47",
+  "kind": "Figure",
+  "title": "Example of Signing for a Two-Lane Intermediate or Minor Interchange Exit with Option and Auxiliary Lanes Legend Direction of travel Optional",
+  "chapter": "2E",
+  "page": 582,
+  "image": "/figs/ca-mutcd/p0582.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-47"
+ },
+ {
+  "id": "2E-49",
+  "kind": "Figure",
+  "title": "Next Exit Plaques E2-1P E2-1aP",
+  "chapter": "2E",
+  "page": 584,
+  "image": "/figs/ca-mutcd/p0584.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-49"
+ },
+ {
+  "id": "2E-50",
+  "kind": "Figure",
+  "title": "Example of a Post-Interchange Distance Sign E7-3",
+  "chapter": "2E",
+  "page": 585,
+  "image": "/figs/ca-mutcd/p0585.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-50"
+ },
+ {
+  "id": "2E-51",
+  "kind": "Figure",
+  "title": "Example of a Post-Interchange Travel Time Sign E7-4",
+  "chapter": "2E",
+  "page": 586,
+  "image": "/figs/ca-mutcd/p0586.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-51"
+ },
+ {
+  "id": "2E-52",
+  "kind": "Figure",
+  "title": "Examples of Travel Time Signs",
+  "chapter": "2E",
+  "page": 587,
+  "image": "/figs/ca-mutcd/p0587.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-52"
+ },
+ {
+  "id": "2E-53",
+  "kind": "Figure",
+  "title": "Example of a Supplemental Guide Sign for a Multi-Exit Interchange",
+  "chapter": "2E",
+  "page": 588,
+  "image": "/figs/ca-mutcd/p0588.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-53"
+ },
+ {
+  "id": "2E-54",
+  "kind": "Figure",
+  "title": "Examples of Supplemental Guide Signs for a Park-and-Ride Facility",
+  "chapter": "2E",
+  "page": 589,
+  "image": "/figs/ca-mutcd/p0589.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-54"
+ },
+ {
+  "id": "2E-54(CA)",
+  "kind": "Figure",
+  "title": "California Examples of Supplemental Guide Signs for a Park-and-Ride Facility 67 G95A-1(CA) BUS SERVICE G95dP(CA) G95eP(CA)",
+  "chapter": "2E",
+  "page": 589,
+  "image": "/figs/ca-mutcd/p0589.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-54ca"
+ },
+ {
+  "id": "2E-55",
+  "kind": "Figure",
+  "title": "Example of a Community Interchanges Identification Sign",
+  "chapter": "2E",
+  "page": 590,
+  "image": "/figs/ca-mutcd/p0590.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-55"
+ },
+ {
+  "id": "2E-57",
+  "kind": "Figure",
+  "title": "Example of a Next Exits Sign E9-3",
+  "chapter": "2E",
+  "page": 592,
+  "image": "/figs/ca-mutcd/p0592.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-57"
+ },
+ {
+  "id": "2E-59",
+  "kind": "Figure",
+  "title": "Example of Weigh Station Signing on Freeways (use only if required by law)",
+  "chapter": "2E",
+  "page": 594,
+  "image": "/figs/ca-mutcd/p0594.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-59"
+ },
+ {
+  "id": "2E-61",
+  "kind": "Figure",
+  "title": "Eisenhower Interstate System Signs M1-10a M1-10",
+  "chapter": "2E",
+  "page": 596,
+  "image": "/figs/ca-mutcd/p0596.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-61"
+ },
+ {
+  "id": "2E-1",
+  "kind": "Table",
+  "title": "Freeway or Expressway Guide Sign and Plaque Sizes",
+  "chapter": "2E",
+  "page": 598,
+  "image": "/figs/ca-mutcd/p0598.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-1"
+ },
+ {
+  "id": "2E-1",
+  "kind": "Table",
+  "title": "Freeway or Expressway Guide Sign and Plaque Sizes",
+  "chapter": "2E",
+  "page": 599,
+  "image": "/figs/ca-mutcd/p0599.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-1"
+ },
+ {
+  "id": "2E-1",
+  "kind": "Table",
+  "title": "Freeway or Expressway Guide Sign and Plaque Sizes",
+  "chapter": "2E",
+  "page": 600,
+  "image": "/figs/ca-mutcd/p0600.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2e/#fig-2e-1"
+ },
+ {
+  "id": "2F-1",
+  "kind": "Figure",
+  "title": "Examples of ETC Account Pictographs and Use of Purple Backgrounds and Underlay Panels",
+  "chapter": "2F",
+  "page": 621,
+  "image": "/figs/ca-mutcd/p0621.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-1"
+ },
+ {
+  "id": "2F-2",
+  "kind": "Figure",
+  "title": "Toll Plaza Regulatory Signs and Plaques R3-30P R3-29P R3-28",
+  "chapter": "2F",
+  "page": 622,
+  "image": "/figs/ca-mutcd/p0622.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-2"
+ },
+ {
+  "id": "2F-3",
+  "kind": "Figure",
+  "title": "ETC Account-Only Auxiliary Signs for Use in Route Sign Assemblies Example route sign assembly R3-31 R3-31 R3-32P W16-17P M3-2P M1-4 M5-1P",
+  "chapter": "2F",
+  "page": 623,
+  "image": "/figs/ca-mutcd/p0623.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-3"
+ },
+ {
+  "id": "2F-4",
+  "kind": "Figure",
+  "title": "Toll Plaza Warning Signs and Plaques W9-6f W9-6e W9-6 W9-6a W9-6bP W9-6cP W9-6dP W9-6gP W9-6hP W16-16P W16-16aP",
+  "chapter": "2F",
+  "page": 624,
+  "image": "/figs/ca-mutcd/p0624.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-4"
+ },
+ {
+  "id": "2F-5",
+  "kind": "Figure",
+  "title": "Example of Minor Interchange Crossroad Signing for an Approach to a Toll Highway I-25 Optional Refer to",
+  "chapter": "2F",
+  "page": 625,
+  "image": "/figs/ca-mutcd/p0625.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-5"
+ },
+ {
+  "id": "2F-6",
+  "kind": "Figure",
+  "title": "Example of Interchange Crossroad Signing for a One-Lane Approach to a Toll Highway OR OR OR OR (optional) See Note 1 OR I-57",
+  "chapter": "2F",
+  "page": 626,
+  "image": "/figs/ca-mutcd/p0626.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-6"
+ },
+ {
+  "id": "2F-7",
+  "kind": "Figure",
+  "title": "Examples of Multi-Lane Crossroad Signing for a Diamond Interchange OR I-18 OR OR OR (mounted overhead) (mounted overhead) See Note 1",
+  "chapter": "2F",
+  "page": 627,
+  "image": "/figs/ca-mutcd/p0627.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-7"
+ },
+ {
+  "id": "2F-8",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for Entrances to Toll Highways or Ramps",
+  "chapter": "2F",
+  "page": 628,
+  "image": "/figs/ca-mutcd/p0628.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-8"
+ },
+ {
+  "id": "2F-9",
+  "kind": "Figure",
+  "title": "Examples of Conventional Toll Plaza Advance Signs",
+  "chapter": "2F",
+  "page": 629,
+  "image": "/figs/ca-mutcd/p0629.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-9"
+ },
+ {
+  "id": "2F-12",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for the Entrance to a Toll Highway on which Tolls are Collected Electronically Only",
+  "chapter": "2F",
+  "page": 632,
+  "image": "/figs/ca-mutcd/p0632.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-12"
+ },
+ {
+  "id": "2F-12",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for the Entrance to a Toll Highway on which Tolls are Collected Electronically Only",
+  "chapter": "2F",
+  "page": 633,
+  "image": "/figs/ca-mutcd/p0633.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-12"
+ },
+ {
+  "id": "2F-12",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for the Entrance to a Toll Highway on which Tolls are Collected Electronically Only",
+  "chapter": "2F",
+  "page": 634,
+  "image": "/figs/ca-mutcd/p0634.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-12"
+ },
+ {
+  "id": "2F-14",
+  "kind": "Figure",
+  "title": "Examples of Mainline Toll Plaza Approach and Canopy Signing R3-28 R3-28",
+  "chapter": "2F",
+  "page": 636,
+  "image": "/figs/ca-mutcd/p0636.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-14"
+ },
+ {
+  "id": "2F-15",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for a Mainline Toll Plaza on a Diverging Alignment from Open-Road ETC Lanes",
+  "chapter": "2F",
+  "page": 637,
+  "image": "/figs/ca-mutcd/p0637.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-15"
+ },
+ {
+  "id": "2F-101(CA)",
+  "kind": "Figure",
+  "title": "California Freeway Entrance Package to Toll Facilities",
+  "chapter": "2F",
+  "page": 639,
+  "image": "/figs/ca-mutcd/p0639.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-101ca"
+ },
+ {
+  "id": "2F-102(CA)",
+  "kind": "Figure",
+  "title": "California Example of Warning Sign and Plaque for Toll Crossings SW95(CA) SW95aP(CA) TOLL BRIDGE 1 MILE NO TOLL",
+  "chapter": "2F",
+  "page": 640,
+  "image": "/figs/ca-mutcd/p0640.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2f/#fig-2f-102ca"
+ },
+ {
+  "id": "2G-1",
+  "kind": "Figure",
+  "title": "Preferential Lane Regulatory Signs and Plaque",
+  "chapter": "2G",
+  "page": 668,
+  "image": "/figs/ca-mutcd/p0668.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-1"
+ },
+ {
+  "id": "2G-1",
+  "kind": "Figure",
+  "title": "Preferential Lane Regulatory Signs and Plaque",
+  "chapter": "2G",
+  "page": 669,
+  "image": "/figs/ca-mutcd/p0669.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-1"
+ },
+ {
+  "id": "2G-4",
+  "kind": "Figure",
+  "title": "Examples of Warning Signs and Plaques Applicable Only to Preferential Lanes",
+  "chapter": "2G",
+  "page": 673,
+  "image": "/figs/ca-mutcd/p0673.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-4"
+ },
+ {
+  "id": "2G-5",
+  "kind": "Figure",
+  "title": "Example of an Overhead Advance Guide Sign for a Preferential Lane Entrance",
+  "chapter": "2G",
+  "page": 674,
+  "image": "/figs/ca-mutcd/p0674.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-5"
+ },
+ {
+  "id": "2G-7",
+  "kind": "Figure",
+  "title": "Entrance Gore Signs for Barrier-Separated Preferential Lanes",
+  "chapter": "2G",
+  "page": 676,
+  "image": "/figs/ca-mutcd/p0676.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-7"
+ },
+ {
+  "id": "2G-10",
+  "kind": "Figure",
+  "title": "Example of Signing for an Intermediate Entry to a Barrier-Separated or Buffer-Separated HOV Lane",
+  "chapter": "2G",
+  "page": 679,
+  "image": "/figs/ca-mutcd/p0679.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-10"
+ },
+ {
+  "id": "2G-12",
+  "kind": "Figure",
+  "title": "Examples of Barrier-Mounted Guide Signs for an Intermediate Egress from Preferential Lanes",
+  "chapter": "2G",
+  "page": 681,
+  "image": "/figs/ca-mutcd/p0681.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-12"
+ },
+ {
+  "id": "2G-13",
+  "kind": "Figure",
+  "title": "Examples of Signs for an Intermediate Egress from a Barrier-Separated or Buffer-Separated HOV Lane",
+  "chapter": "2G",
+  "page": 682,
+  "image": "/figs/ca-mutcd/p0682.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-13"
+ },
+ {
+  "id": "2G-15",
+  "kind": "Figure",
+  "title": "Exit Gore Sign for a Direct Exit from a Preferential Lane E8-4",
+  "chapter": "2G",
+  "page": 684,
+  "image": "/figs/ca-mutcd/p0684.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-15"
+ },
+ {
+  "id": "2G-17",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for a Direct Access Ramp between HOV Lanes on Separate Freeways For access-restricted facilities",
+  "chapter": "2G",
+  "page": 687,
+  "image": "/figs/ca-mutcd/p0687.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-17"
+ },
+ {
+  "id": "2G-18",
+  "kind": "Figure",
+  "title": "Regulatory Signs for Managed Lanes",
+  "chapter": "2G",
+  "page": 688,
+  "image": "/figs/ca-mutcd/p0688.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-18"
+ },
+ {
+  "id": "2G-19",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for Entrances to Priced Managed Lanes",
+  "chapter": "2G",
+  "page": 689,
+  "image": "/figs/ca-mutcd/p0689.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-19"
+ },
+ {
+  "id": "2G-21",
+  "kind": "Figure",
+  "title": "Example of Signing for the Entrance to an Access-Restricted Priced Managed Lane \u2013 ETC Account Required",
+  "chapter": "2G",
+  "page": 691,
+  "image": "/figs/ca-mutcd/p0691.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-21"
+ },
+ {
+  "id": "2G-25",
+  "kind": "Figure",
+  "title": "Example of an Exit Destinations Sign for a Managed Lane",
+  "chapter": "2G",
+  "page": 695,
+  "image": "/figs/ca-mutcd/p0695.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-25"
+ },
+ {
+  "id": "2G-26",
+  "kind": "Figure",
+  "title": "Example of a Comparative Travel Time Information Sign for Preferential or Managed Lanes",
+  "chapter": "2G",
+  "page": 696,
+  "image": "/figs/ca-mutcd/p0696.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-26"
+ },
+ {
+  "id": "2G-27",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for an Intermediate Egress from a Barrier-Separated or Buffer-Separated Managed Lane I-80",
+  "chapter": "2G",
+  "page": 697,
+  "image": "/figs/ca-mutcd/p0697.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-27"
+ },
+ {
+  "id": "2G-28",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for Direct Managed Lane Entrance and Exit Ramps",
+  "chapter": "2G",
+  "page": 698,
+  "image": "/figs/ca-mutcd/p0698.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-28"
+ },
+ {
+  "id": "2G-29",
+  "kind": "Figure",
+  "title": "Examples of Guide Signs for a Direct Access Ramp between Managed Lanes on Separate Freeways For access-restricted facilities",
+  "chapter": "2G",
+  "page": 699,
+  "image": "/figs/ca-mutcd/p0699.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-29"
+ },
+ {
+  "id": "2G-32",
+  "kind": "Figure",
+  "title": "Examples of Signing for Part-Time Travel on a Shoulder",
+  "chapter": "2G",
+  "page": 702,
+  "image": "/figs/ca-mutcd/p0702.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-32"
+ },
+ {
+  "id": "2G-32",
+  "kind": "Figure",
+  "title": "Examples of Signing for Part-Time Travel on a Shoulder",
+  "chapter": "2G",
+  "page": 703,
+  "image": "/figs/ca-mutcd/p0703.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-32"
+ },
+ {
+  "id": "2G-32",
+  "kind": "Figure",
+  "title": "Examples of Signing for Part-Time Travel on a Shoulder",
+  "chapter": "2G",
+  "page": 704,
+  "image": "/figs/ca-mutcd/p0704.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-32"
+ },
+ {
+  "id": "2G-32",
+  "kind": "Figure",
+  "title": "Examples of Signing for Part-Time Travel on a Shoulder",
+  "chapter": "2G",
+  "page": 705,
+  "image": "/figs/ca-mutcd/p0705.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-32"
+ },
+ {
+  "id": "2G-1",
+  "kind": "Table",
+  "title": "Managed and Preferential Lanes Sign and Plaque Minimum Sizes",
+  "chapter": "2G",
+  "page": 709,
+  "image": "/figs/ca-mutcd/p0709.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-1"
+ },
+ {
+  "id": "2G-1",
+  "kind": "Table",
+  "title": "Managed and Preferential Lanes Sign and Plaque Minimum Sizes",
+  "chapter": "2G",
+  "page": 710,
+  "image": "/figs/ca-mutcd/p0710.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2g/#fig-2g-1"
+ },
+ {
+  "id": "2H-2",
+  "kind": "Figure",
+  "title": "Future Interstate Signs (I2-4, I2-4a) I2-4 I2-4a",
+  "chapter": "2H",
+  "page": 726,
+  "image": "/figs/ca-mutcd/p0726.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2h/#fig-2h-2"
+ },
+ {
+  "id": "2H-5",
+  "kind": "Figure",
+  "title": "Reference Location Signs D10-2 D10-1 D10-3",
+  "chapter": "2H",
+  "page": 729,
+  "image": "/figs/ca-mutcd/p0729.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2h/#fig-2h-5"
+ },
+ {
+  "id": "2H-6",
+  "kind": "Figure",
+  "title": "Intermediate Reference Location Signs D10-3a D10-2a D10-1a",
+  "chapter": "2H",
+  "page": 730,
+  "image": "/figs/ca-mutcd/p0730.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2h/#fig-2h-6"
+ },
+ {
+  "id": "2H-7",
+  "kind": "Figure",
+  "title": "Enhanced Reference Location Signs D10-5 D10-4",
+  "chapter": "2H",
+  "page": 731,
+  "image": "/figs/ca-mutcd/p0731.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2h/#fig-2h-7"
+ },
+ {
+  "id": "2H-9",
+  "kind": "Figure",
+  "title": "Examples of Signs for Alternative Fuels Corridors W16-19P M4-14P M4-6P D9-17a D9-19 D9-19bP D9-19aP",
+  "chapter": "2H",
+  "page": 733,
+  "image": "/figs/ca-mutcd/p0733.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2h/#fig-2h-9"
+ },
+ {
+  "id": "2I-2",
+  "kind": "Figure",
+  "title": "Example of Next Services Plaque D9-17P",
+  "chapter": "2I",
+  "page": 759,
+  "image": "/figs/ca-mutcd/p0759.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2i/#fig-2i-2"
+ },
+ {
+  "id": "2I-3",
+  "kind": "Figure",
+  "title": "Examples of General Service Signs with and without Exit Numbering D9-18 D9-18a D9-18b D9-18dP D9-18eP D9-18fP D9-18c",
+  "chapter": "2I",
+  "page": 760,
+  "image": "/figs/ca-mutcd/p0760.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2i/#fig-2i-3"
+ },
+ {
+  "id": "2I-4",
+  "kind": "Figure",
+  "title": "Examples of Interstate Oasis Signs and Plaques D9-18 D5-12aP D5-12 D5-12b",
+  "chapter": "2I",
+  "page": 761,
+  "image": "/figs/ca-mutcd/p0761.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2i/#fig-2i-4"
+ },
+ {
+  "id": "2I-5",
+  "kind": "Figure",
+  "title": "Rest Area and Other Roadside Area Signs D5-2 D5-11a",
+  "chapter": "2I",
+  "page": 762,
+  "image": "/figs/ca-mutcd/p0762.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2i/#fig-2i-5"
+ },
+ {
+  "id": "2I-6",
+  "kind": "Figure",
+  "title": "Brake Check Area and Chain-Up Area Signs BRAKE CHECK AREA G66-58(CA)",
+  "chapter": "2I",
+  "page": 764,
+  "image": "/figs/ca-mutcd/p0764.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2i/#fig-2i-6"
+ },
+ {
+  "id": "2I-6(CA)",
+  "kind": "Figure",
+  "title": "California Brake Check Area and Chain-Up Area",
+  "chapter": "2I",
+  "page": 764,
+  "image": "/figs/ca-mutcd/p0764.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2i/#fig-2i-6ca"
+ },
+ {
+  "id": "2I-7",
+  "kind": "Figure",
+  "title": "Examples of Tourist Information and Welcome Center Signs",
+  "chapter": "2I",
+  "page": 765,
+  "image": "/figs/ca-mutcd/p0765.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2i/#fig-2i-7"
+ },
+ {
+  "id": "2I-10",
+  "kind": "Figure",
+  "title": "Examples of Use of Truck Parking Availability Signs",
+  "chapter": "2I",
+  "page": 769,
+  "image": "/figs/ca-mutcd/p0769.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2i/#fig-2i-10"
+ },
+ {
+  "id": "2I-1",
+  "kind": "Table",
+  "title": "General Service Sign and Plaque Sizes",
+  "chapter": "2I",
+  "page": 770,
+  "image": "/figs/ca-mutcd/p0770.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2i/#fig-2i-1"
+ },
+ {
+  "id": "2I-1",
+  "kind": "Table",
+  "title": "General Service Sign and Plaque Sizes",
+  "chapter": "2I",
+  "page": 771,
+  "image": "/figs/ca-mutcd/p0771.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2i/#fig-2i-1"
+ },
+ {
+  "id": "2J-1",
+  "kind": "Figure",
+  "title": "Examples of Business Identification Panel Arrangements on Specific Service Signs DOUBLE-EXIT INTERCHANGE OR",
+  "chapter": "2J",
+  "page": 783,
+  "image": "/figs/ca-mutcd/p0783.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2j/#fig-2j-1"
+ },
+ {
+  "id": "2J-4",
+  "kind": "Figure",
+  "title": "Examples of Supplemental Messages on Business Identification Sign Panels",
+  "chapter": "2J",
+  "page": 787,
+  "image": "/figs/ca-mutcd/p0787.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2j/#fig-2j-4"
+ },
+ {
+  "id": "2J-7",
+  "kind": "Figure",
+  "title": "Examples of Specific Service Trailblazer Signs",
+  "chapter": "2J",
+  "page": 790,
+  "image": "/figs/ca-mutcd/p0790.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2j/#fig-2j-7"
+ },
+ {
+  "id": "2L-1",
+  "kind": "Table",
+  "title": "Spacing between Message Characters, Words, and Lines of Text",
+  "chapter": "2L",
+  "page": 811,
+  "image": "/figs/ca-mutcd/p0811.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2l/#fig-2l-1"
+ },
+ {
+  "id": "2M-1",
+  "kind": "Figure",
+  "title": "Examples of Use of Arrows, Educational Plaques, and Prohibitive Circles and Diagonals",
+  "chapter": "2M",
+  "page": 825,
+  "image": "/figs/ca-mutcd/p0825.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2m/#fig-2m-1"
+ },
+ {
+  "id": "2M-1(CA)",
+  "kind": "Figure",
+  "title": "California Examples of Use of Arrows, Educational Plaques, and Prohibitive Circles and Diagonals",
+  "chapter": "2M",
+  "page": 825,
+  "image": "/figs/ca-mutcd/p0825.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2m/#fig-2m-1ca"
+ },
+ {
+  "id": "2M-2",
+  "kind": "Figure",
+  "title": "Examples of Recreational and Cultural Interest Area Guide Signs Optional shape",
+  "chapter": "2M",
+  "page": 826,
+  "image": "/figs/ca-mutcd/p0826.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2m/#fig-2m-2"
+ },
+ {
+  "id": "2M-3",
+  "kind": "Figure",
+  "title": "Arrangement, Height, and Lateral Position of Signs Located within Recreational and Cultural Interest Areas",
+  "chapter": "2M",
+  "page": 828,
+  "image": "/figs/ca-mutcd/p0828.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2m/#fig-2m-3"
+ },
+ {
+  "id": "2M-8(CA)",
+  "kind": "Figure",
+  "title": "California Recreational and Cultural Interest Area Symbol Signs for Land Recreation G200-81aP(CA) WILDLIFE VIEWING S12(CA) OHV TRAIL",
+  "chapter": "2M",
+  "page": 833,
+  "image": "/figs/ca-mutcd/p0833.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2m/#fig-2m-8ca"
+ },
+ {
+  "id": "2N-1",
+  "kind": "Figure",
+  "title": "Emergency Management Signs EM2-3 EM2-4 EM3-1 EM3-1a EM3-1b EM3-1c EM4-1a EM4-1 EM4-1b EM4-1c EM1-1a * EM2-1 R1-1 EM2-2 EM1-1 EM1-2",
+  "chapter": "2N",
+  "page": 845,
+  "image": "/figs/ca-mutcd/p0845.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2n/#fig-2n-1"
+ },
+ {
+  "id": "3A-101(CA)",
+  "kind": "Figure",
+  "title": "Centerlines - 2 Lane Highways Direction of Travel Black Contrast Striping",
+  "chapter": "3A",
+  "page": 851,
+  "image": "/figs/ca-mutcd/p0851.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3a/#fig-3a-101ca"
+ },
+ {
+  "id": "3A-102(CA)",
+  "kind": "Figure",
+  "title": "Lane Lines - Multilane Highways",
+  "chapter": "3A",
+  "page": 852,
+  "image": "/figs/ca-mutcd/p0852.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3a/#fig-3a-102ca"
+ },
+ {
+  "id": "3A-102(CA)",
+  "kind": "Figure",
+  "title": "Lane Lines - Multilane Highways",
+  "chapter": "3A",
+  "page": 853,
+  "image": "/figs/ca-mutcd/p0853.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3a/#fig-3a-102ca"
+ },
+ {
+  "id": "3A-103(CA)",
+  "kind": "Figure",
+  "title": "No Passing Zones - One Direction",
+  "chapter": "3A",
+  "page": 854,
+  "image": "/figs/ca-mutcd/p0854.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3a/#fig-3a-103ca"
+ },
+ {
+  "id": "3A-110(CA)",
+  "kind": "Figure",
+  "title": "Freeway Exit and Entrance Ramp Channelizing Line",
+  "chapter": "3A",
+  "page": 861,
+  "image": "/figs/ca-mutcd/p0861.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3a/#fig-3a-110ca"
+ },
+ {
+  "id": "3A-110(CA)",
+  "kind": "Figure",
+  "title": "Freeway Exit and Entrance Ramp Channelizing Lines",
+  "chapter": "3A",
+  "page": 862,
+  "image": "/figs/ca-mutcd/p0862.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3a/#fig-3a-110ca"
+ },
+ {
+  "id": "3A-113(CA)",
+  "kind": "Figure",
+  "title": "Examples of Preferential Lane Lines NOT TO SCALE LEGEND One-Way Clear Retroreflective Markers White Line POLICY Refer to",
+  "chapter": "3A",
+  "page": 865,
+  "image": "/figs/ca-mutcd/p0865.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3a/#fig-3a-113ca"
+ },
+ {
+  "id": "3B-1",
+  "kind": "Figure",
+  "title": "Yellow Center Lines for Two-Lane, Two-Way Applications",
+  "chapter": "3B",
+  "page": 891,
+  "image": "/figs/ca-mutcd/p0891.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-1"
+ },
+ {
+  "id": "3B-2",
+  "kind": "Figure",
+  "title": "Yellow Center Lines for Four-or-More Lane, Two-Way Applications",
+  "chapter": "3B",
+  "page": 892,
+  "image": "/figs/ca-mutcd/p0892.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-2"
+ },
+ {
+  "id": "3B-3",
+  "kind": "Figure",
+  "title": "Yellow Center Lines for Three-Lane, Two-Way Applications",
+  "chapter": "3B",
+  "page": 893,
+  "image": "/figs/ca-mutcd/p0893.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-3"
+ },
+ {
+  "id": "3B-4",
+  "kind": "Figure",
+  "title": "Method of Locating and Determining the Limits of No-Passing Zones at Curves Profile View",
+  "chapter": "3B",
+  "page": 894,
+  "image": "/figs/ca-mutcd/p0894.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-4"
+ },
+ {
+  "id": "3B-5",
+  "kind": "Figure",
+  "title": "Application of Three-Lane, Two-Way Markings for Changing the Direction of the Center Lane Legend Direction of travel",
+  "chapter": "3B",
+  "page": 895,
+  "image": "/figs/ca-mutcd/p0895.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-5"
+ },
+ {
+  "id": "3B-6",
+  "kind": "Figure",
+  "title": "Example of Yellow Pavement Markings for Reversible Lanes",
+  "chapter": "3B",
+  "page": 896,
+  "image": "/figs/ca-mutcd/p0896.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-6"
+ },
+ {
+  "id": "3B-7",
+  "kind": "Figure",
+  "title": "Examples of Two-Way Left-Turn Lane Marking Applications Legend Direction of travel",
+  "chapter": "3B",
+  "page": 897,
+  "image": "/figs/ca-mutcd/p0897.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-7"
+ },
+ {
+  "id": "3B-8",
+  "kind": "Figure",
+  "title": "Example of a Double Solid White Line Used to Prohibit Lane Changing Legend Optional Direction of travel",
+  "chapter": "3B",
+  "page": 899,
+  "image": "/figs/ca-mutcd/p0899.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-8"
+ },
+ {
+  "id": "3B-9",
+  "kind": "Figure",
+  "title": "Examples of Dotted Line and Channelizing Line Applications for Exit Ramp Markings",
+  "chapter": "3B",
+  "page": 900,
+  "image": "/figs/ca-mutcd/p0900.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-9"
+ },
+ {
+  "id": "3B-9",
+  "kind": "Figure",
+  "title": "Examples of Dotted Line and Channelizing Line Applications for Exit Ramp Markings",
+  "chapter": "3B",
+  "page": 901,
+  "image": "/figs/ca-mutcd/p0901.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-9"
+ },
+ {
+  "id": "3B-9(CA)",
+  "kind": "Figure",
+  "title": "Examples of Dotted Line, Chevron Markings, and Channelizing Line Applications for Exit Ramp Markings",
+  "chapter": "3B",
+  "page": 902,
+  "image": "/figs/ca-mutcd/p0902.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-9ca"
+ },
+ {
+  "id": "3B-10",
+  "kind": "Figure",
+  "title": "Examples of Dotted Line and Channelizing Line Applications for Entrance Ramp Markings",
+  "chapter": "3B",
+  "page": 903,
+  "image": "/figs/ca-mutcd/p0903.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-10"
+ },
+ {
+  "id": "3B-10",
+  "kind": "Figure",
+  "title": "Examples of Dotted Line and Channelizing Line Applications for Entrance Ramp Markings",
+  "chapter": "3B",
+  "page": 904,
+  "image": "/figs/ca-mutcd/p0904.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-10"
+ },
+ {
+  "id": "3B-10(CA)",
+  "kind": "Figure",
+  "title": "Examples of Dotted Line and Channelizing Line Applications for Entrance Ramp Markings",
+  "chapter": "3B",
+  "page": 905,
+  "image": "/figs/ca-mutcd/p0905.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-10ca"
+ },
+ {
+  "id": "3B-10(CA)",
+  "kind": "Figure",
+  "title": "Examples of Dotted Line and Channelizing Line Applications for Entrance Ramp Markings",
+  "chapter": "3B",
+  "page": 906,
+  "image": "/figs/ca-mutcd/p0906.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-10ca"
+ },
+ {
+  "id": "3B-11",
+  "kind": "Figure",
+  "title": "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+  "chapter": "3B",
+  "page": 907,
+  "image": "/figs/ca-mutcd/p0907.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-11"
+ },
+ {
+  "id": "3B-11",
+  "kind": "Figure",
+  "title": "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+  "chapter": "3B",
+  "page": 908,
+  "image": "/figs/ca-mutcd/p0908.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-11"
+ },
+ {
+  "id": "3B-11",
+  "kind": "Figure",
+  "title": "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+  "chapter": "3B",
+  "page": 909,
+  "image": "/figs/ca-mutcd/p0909.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-11"
+ },
+ {
+  "id": "3B-11",
+  "kind": "Figure",
+  "title": "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+  "chapter": "3B",
+  "page": 910,
+  "image": "/figs/ca-mutcd/p0910.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-11"
+ },
+ {
+  "id": "3B-11",
+  "kind": "Figure",
+  "title": "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+  "chapter": "3B",
+  "page": 911,
+  "image": "/figs/ca-mutcd/p0911.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-11"
+ },
+ {
+  "id": "3B-11",
+  "kind": "Figure",
+  "title": "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+  "chapter": "3B",
+  "page": 912,
+  "image": "/figs/ca-mutcd/p0912.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-11"
+ },
+ {
+  "id": "3B-11(CA)",
+  "kind": "Figure",
+  "title": "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+  "chapter": "3B",
+  "page": 913,
+  "image": "/figs/ca-mutcd/p0913.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-11ca"
+ },
+ {
+  "id": "3B-11(CA)",
+  "kind": "Figure",
+  "title": "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+  "chapter": "3B",
+  "page": 914,
+  "image": "/figs/ca-mutcd/p0914.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-11ca"
+ },
+ {
+  "id": "3B-12",
+  "kind": "Figure",
+  "title": "Examples of Applications of Conventional Road Lane-Drop Markings",
+  "chapter": "3B",
+  "page": 915,
+  "image": "/figs/ca-mutcd/p0915.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-12"
+ },
+ {
+  "id": "3B-12",
+  "kind": "Figure",
+  "title": "Examples of Applications of Conventional Road Lane-Drop Markings",
+  "chapter": "3B",
+  "page": 916,
+  "image": "/figs/ca-mutcd/p0916.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-12"
+ },
+ {
+  "id": "3B-13",
+  "kind": "Figure",
+  "title": "Examples of Line Extensions through Intersections",
+  "chapter": "3B",
+  "page": 917,
+  "image": "/figs/ca-mutcd/p0917.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-13"
+ },
+ {
+  "id": "3B-13",
+  "kind": "Figure",
+  "title": "Examples of Line Extensions through Intersections",
+  "chapter": "3B",
+  "page": 918,
+  "image": "/figs/ca-mutcd/p0918.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-13"
+ },
+ {
+  "id": "3B-14",
+  "kind": "Figure",
+  "title": "Examples of Applications of Lane-Reduction Transition Markings",
+  "chapter": "3B",
+  "page": 919,
+  "image": "/figs/ca-mutcd/p0919.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-14"
+ },
+ {
+  "id": "3B-14(CA)",
+  "kind": "Figure",
+  "title": "Examples of Applications of Lane-Reduction Transition Markings",
+  "chapter": "3B",
+  "page": 920,
+  "image": "/figs/ca-mutcd/p0920.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-14ca"
+ },
+ {
+  "id": "3B-14(CA)",
+  "kind": "Figure",
+  "title": "Examples of Applications of Lane-Reduction Transition Markings",
+  "chapter": "3B",
+  "page": 921,
+  "image": "/figs/ca-mutcd/p0921.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-14ca"
+ },
+ {
+  "id": "3B-14(CA)",
+  "kind": "Figure",
+  "title": "Examples of Applications of Lane-Reduction Transition Markings",
+  "chapter": "3B",
+  "page": 922,
+  "image": "/figs/ca-mutcd/p0922.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-14ca"
+ },
+ {
+  "id": "3B-15",
+  "kind": "Figure",
+  "title": "Examples of Applications of Markings for Obstructions in the Roadway",
+  "chapter": "3B",
+  "page": 923,
+  "image": "/figs/ca-mutcd/p0923.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-15"
+ },
+ {
+  "id": "3B-15",
+  "kind": "Figure",
+  "title": "Examples of Applications of Markings for Obstructions in the Roadway",
+  "chapter": "3B",
+  "page": 924,
+  "image": "/figs/ca-mutcd/p0924.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-15"
+ },
+ {
+  "id": "3B-16",
+  "kind": "Figure",
+  "title": "Examples of Yield Line Applications 20 to 50 ft R1-2 W11-2 W16-7PR W11-2 W16-7PL R1-5 R1-5 R1-5",
+  "chapter": "3B",
+  "page": 925,
+  "image": "/figs/ca-mutcd/p0925.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-16"
+ },
+ {
+  "id": "3B-18",
+  "kind": "Figure",
+  "title": "Examples of Elongated Route Shields and Markers Applied as Pavement Markings",
+  "chapter": "3B",
+  "page": 927,
+  "image": "/figs/ca-mutcd/p0927.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-18"
+ },
+ {
+  "id": "3B-18(CA)",
+  "kind": "Figure",
+  "title": "Examples of California Elongated Route Shields and Markers Applied as Pavement Markings 99",
+  "chapter": "3B",
+  "page": 927,
+  "image": "/figs/ca-mutcd/p0927.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-18ca"
+ },
+ {
+  "id": "3B-19",
+  "kind": "Figure",
+  "title": "International Symbol of Accessibility Parking Space Marking",
+  "chapter": "3B",
+  "page": 928,
+  "image": "/figs/ca-mutcd/p0928.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-19"
+ },
+ {
+  "id": "3B-19(CA)",
+  "kind": "Figure",
+  "title": "International Symbol of Accessibility Parking Space Marking and Related Markings",
+  "chapter": "3B",
+  "page": 929,
+  "image": "/figs/ca-mutcd/p0929.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-19ca"
+ },
+ {
+  "id": "3B-19(CA)",
+  "kind": "Figure",
+  "title": "International Symbol of Accessibility Parking Space Marking and Related Markings",
+  "chapter": "3B",
+  "page": 930,
+  "image": "/figs/ca-mutcd/p0930.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-19ca"
+ },
+ {
+  "id": "3B-20",
+  "kind": "Figure",
+  "title": "Yield Ahead Triangle Symbols",
+  "chapter": "3B",
+  "page": 931,
+  "image": "/figs/ca-mutcd/p0931.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-20"
+ },
+ {
+  "id": "3B-21",
+  "kind": "Figure",
+  "title": "Examples of Standard Arrows for Pavement Markings",
+  "chapter": "3B",
+  "page": 932,
+  "image": "/figs/ca-mutcd/p0932.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-21"
+ },
+ {
+  "id": "3B-21(CA)",
+  "kind": "Figure",
+  "title": "Examples of Standard Arrows for Pavement Markings",
+  "chapter": "3B",
+  "page": 933,
+  "image": "/figs/ca-mutcd/p0933.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-21ca"
+ },
+ {
+  "id": "3B-21(CA)",
+  "kind": "Figure",
+  "title": "Examples of Standard Arrows for Pavement Markings",
+  "chapter": "3B",
+  "page": 934,
+  "image": "/figs/ca-mutcd/p0934.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-21ca"
+ },
+ {
+  "id": "3B-21(CA)",
+  "kind": "Figure",
+  "title": "Examples of Standard Arrows for Pavement Markings",
+  "chapter": "3B",
+  "page": 935,
+  "image": "/figs/ca-mutcd/p0935.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-21ca"
+ },
+ {
+  "id": "3B-21(CA)",
+  "kind": "Figure",
+  "title": "Examples of Standard Arrows for Pavement Markings",
+  "chapter": "3B",
+  "page": 936,
+  "image": "/figs/ca-mutcd/p0936.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-21ca"
+ },
+ {
+  "id": "3B-21(CA)",
+  "kind": "Figure",
+  "title": "Examples of Standard Arrows for Pavement Markings",
+  "chapter": "3B",
+  "page": 937,
+  "image": "/figs/ca-mutcd/p0937.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-21ca"
+ },
+ {
+  "id": "3B-21(CA)",
+  "kind": "Figure",
+  "title": "Examples of Standard Arrows for Pavement Markings",
+  "chapter": "3B",
+  "page": 938,
+  "image": "/figs/ca-mutcd/p0938.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-21ca"
+ },
+ {
+  "id": "3B-21(CA)",
+  "kind": "Figure",
+  "title": "Examples of Standard Arrows for Pavement Markings",
+  "chapter": "3B",
+  "page": 939,
+  "image": "/figs/ca-mutcd/p0939.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-21ca"
+ },
+ {
+  "id": "3B-21(CA)",
+  "kind": "Figure",
+  "title": "Examples of Standard Arrows for Pavement Markings",
+  "chapter": "3B",
+  "page": 940,
+  "image": "/figs/ca-mutcd/p0940.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-21ca"
+ },
+ {
+  "id": "3B-21(CA)",
+  "kind": "Figure",
+  "title": "Examples of Standard Arrows for Pavement Markings",
+  "chapter": "3B",
+  "page": 941,
+  "image": "/figs/ca-mutcd/p0941.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-21ca"
+ },
+ {
+  "id": "3B-24",
+  "kind": "Figure",
+  "title": "Do Not Block Intersection Markings",
+  "chapter": "3B",
+  "page": 944,
+  "image": "/figs/ca-mutcd/p0944.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-24"
+ },
+ {
+  "id": "3B-25",
+  "kind": "Figure",
+  "title": "Example of the Application of Speed Reduction Markings",
+  "chapter": "3B",
+  "page": 945,
+  "image": "/figs/ca-mutcd/p0945.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-25"
+ },
+ {
+  "id": "3B-27",
+  "kind": "Figure",
+  "title": "Pavement Markings for Speed",
+  "chapter": "3B",
+  "page": 947,
+  "image": "/figs/ca-mutcd/p0947.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-27"
+ },
+ {
+  "id": "3B-28",
+  "kind": "Figure",
+  "title": "Advance Warning Markings for Speed Humps or Speed",
+  "chapter": "3B",
+  "page": 948,
+  "image": "/figs/ca-mutcd/p0948.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-28"
+ },
+ {
+  "id": "3B-29",
+  "kind": "Figure",
+  "title": "Example of Pavement Markings for a Diamond Interchange with a Transposed Alignment Crossroad",
+  "chapter": "3B",
+  "page": 949,
+  "image": "/figs/ca-mutcd/p0949.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-29"
+ },
+ {
+  "id": "3B-101(CA)",
+  "kind": "Figure",
+  "title": "Examples of Left-Turn Channelization Markings",
+  "chapter": "3B",
+  "page": 950,
+  "image": "/figs/ca-mutcd/p0950.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-101ca"
+ },
+ {
+  "id": "3B-103(CA)",
+  "kind": "Figure",
+  "title": "Treatment for Divided Highway Illusion NOT TO SCALE",
+  "chapter": "3B",
+  "page": 952,
+  "image": "/figs/ca-mutcd/p0952.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-103ca"
+ },
+ {
+  "id": "3B-105(CA)",
+  "kind": "Figure",
+  "title": "Examples of Signing and Marking Turnouts NOT TO SCALE LEGEND Direction of Travel Sign Location",
+  "chapter": "3B",
+  "page": 954,
+  "image": "/figs/ca-mutcd/p0954.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-105ca"
+ },
+ {
+  "id": "3B-106(CA)",
+  "kind": "Figure",
+  "title": "Electric Vehicle Charging Station Pavement Legend Detail NOT TO SCALE",
+  "chapter": "3B",
+  "page": 955,
+  "image": "/figs/ca-mutcd/p0955.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3b/#fig-3b-106ca"
+ },
+ {
+  "id": "3C-2",
+  "kind": "Figure",
+  "title": "Example of Crosswalk Markings for an Exclusive Pedestrian Phase that Permits Diagonal Crossings",
+  "chapter": "3C",
+  "page": 964,
+  "image": "/figs/ca-mutcd/p0964.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3c/#fig-3c-2"
+ },
+ {
+  "id": "3D-2",
+  "kind": "Figure",
+  "title": "Example of Markings for a One-Lane Roundabout",
+  "chapter": "3D",
+  "page": 969,
+  "image": "/figs/ca-mutcd/p0969.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3d/#fig-3d-2"
+ },
+ {
+  "id": "3D-3",
+  "kind": "Figure",
+  "title": "Example of Markings for a Two-Lane Roundabout with One-Lane and Two-Lane Approaches",
+  "chapter": "3D",
+  "page": 970,
+  "image": "/figs/ca-mutcd/p0970.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3d/#fig-3d-3"
+ },
+ {
+  "id": "3D-3",
+  "kind": "Figure",
+  "title": "Example of Markings for a Two-Lane Roundabout with One-Lane and Two-Lane Approaches",
+  "chapter": "3D",
+  "page": 971,
+  "image": "/figs/ca-mutcd/p0971.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3d/#fig-3d-3"
+ },
+ {
+  "id": "3D-4",
+  "kind": "Figure",
+  "title": "Example of Markings for a Two-Lane Roundabout with One-Lane Exits",
+  "chapter": "3D",
+  "page": 972,
+  "image": "/figs/ca-mutcd/p0972.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3d/#fig-3d-4"
+ },
+ {
+  "id": "3D-5",
+  "kind": "Figure",
+  "title": "Example of Markings for a Two-Lane Roundabout with Two-Lane Exits Landscape buffer",
+  "chapter": "3D",
+  "page": 973,
+  "image": "/figs/ca-mutcd/p0973.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3d/#fig-3d-5"
+ },
+ {
+  "id": "3D-7",
+  "kind": "Figure",
+  "title": "Example of Markings for a Two-Lane Roundabout with a Double Right Turn",
+  "chapter": "3D",
+  "page": 975,
+  "image": "/figs/ca-mutcd/p0975.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3d/#fig-3d-7"
+ },
+ {
+  "id": "3D-8",
+  "kind": "Figure",
+  "title": "Example of Markings for a Diamond Interchange with Two Circular-Shaped Roundabout Ramp Terminals",
+  "chapter": "3D",
+  "page": 976,
+  "image": "/figs/ca-mutcd/p0976.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3d/#fig-3d-8"
+ },
+ {
+  "id": "3E-1",
+  "kind": "Figure",
+  "title": "Markings for Barrier-Separated Preferential Lanes Barrier or median",
+  "chapter": "3E",
+  "page": 980,
+  "image": "/figs/ca-mutcd/p0980.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3e/#fig-3e-1"
+ },
+ {
+  "id": "3E-2",
+  "kind": "Figure",
+  "title": "Markings for Buffer-Separated Preferential Lanes",
+  "chapter": "3E",
+  "page": 981,
+  "image": "/figs/ca-mutcd/p0981.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3e/#fig-3e-2"
+ },
+ {
+  "id": "3E-2",
+  "kind": "Figure",
+  "title": "Markings for Buffer-Separated Preferential Lanes",
+  "chapter": "3E",
+  "page": 982,
+  "image": "/figs/ca-mutcd/p0982.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3e/#fig-3e-2"
+ },
+ {
+  "id": "3E-4",
+  "kind": "Figure",
+  "title": "Markings for Contra-Flow Preferential Lanes on Divided Highways",
+  "chapter": "3E",
+  "page": 984,
+  "image": "/figs/ca-mutcd/p0984.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3e/#fig-3e-4"
+ },
+ {
+  "id": "3E-5",
+  "kind": "Figure",
+  "title": "Markings for Part-Time Travel on Shoulder and Application of Pavement Word Markings",
+  "chapter": "3E",
+  "page": 985,
+  "image": "/figs/ca-mutcd/p0985.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3e/#fig-3e-5"
+ },
+ {
+  "id": "3E-5",
+  "kind": "Figure",
+  "title": "Markings for Part-Time Travel on Shoulder and Application of Pavement Word Markings",
+  "chapter": "3E",
+  "page": 986,
+  "image": "/figs/ca-mutcd/p0986.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3e/#fig-3e-5"
+ },
+ {
+  "id": "3E-5",
+  "kind": "Figure",
+  "title": "Markings for Part-Time Travel on Shoulder and Application of Pavement Word Markings",
+  "chapter": "3E",
+  "page": 987,
+  "image": "/figs/ca-mutcd/p0987.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3e/#fig-3e-5"
+ },
+ {
+  "id": "3E-6",
+  "kind": "Figure",
+  "title": "Markings for Part-Time Travel on a Shoulder through an Intersection",
+  "chapter": "3E",
+  "page": 988,
+  "image": "/figs/ca-mutcd/p0988.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3e/#fig-3e-6"
+ },
+ {
+  "id": "3E-101(CA)",
+  "kind": "Figure",
+  "title": "Diamond Symbol (HOV Lane)",
+  "chapter": "3E",
+  "page": 989,
+  "image": "/figs/ca-mutcd/p0989.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3e/#fig-3e-101ca"
+ },
+ {
+  "id": "3G-101(CA)",
+  "kind": "Figure",
+  "title": "Examples of Delineators NOT TO SCALE",
+  "chapter": "3G",
+  "page": 999,
+  "image": "/figs/ca-mutcd/p0999.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3g/#fig-3g-101ca"
+ },
+ {
+  "id": "3G-102(CA)",
+  "kind": "Figure",
+  "title": "Examples of Delineator Placement When Used at Intersections, Islands, Ramps, and Connectors",
+  "chapter": "3G",
+  "page": 1000,
+  "image": "/figs/ca-mutcd/p1000.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3g/#fig-3g-102ca"
+ },
+ {
+  "id": "3G-102(CA)",
+  "kind": "Figure",
+  "title": "Examples of Delineator Placement When Used at Intersections, Islands, Ramps, and Connectors",
+  "chapter": "3G",
+  "page": 1001,
+  "image": "/figs/ca-mutcd/p1001.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3g/#fig-3g-102ca"
+ },
+ {
+  "id": "3G-105(CA)",
+  "kind": "Figure",
+  "title": "Examples of Median Barrier Delineation NOT TO SCALE Typical Median Barrier Marker METAL BEAM BARRIER CONCRETE BARRIER",
+  "chapter": "3G",
+  "page": 1004,
+  "image": "/figs/ca-mutcd/p1004.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3g/#fig-3g-105ca"
+ },
+ {
+  "id": "3H-2",
+  "kind": "Figure",
+  "title": "Examples of Yellow-Colored Pavement Applications Legend Direction of travel",
+  "chapter": "3H",
+  "page": 1012,
+  "image": "/figs/ca-mutcd/p1012.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3h/#fig-3h-2"
+ },
+ {
+  "id": "3H-3",
+  "kind": "Figure",
+  "title": "Examples of White-Colored Pavement Applications",
+  "chapter": "3H",
+  "page": 1013,
+  "image": "/figs/ca-mutcd/p1013.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3h/#fig-3h-3"
+ },
+ {
+  "id": "3H-4",
+  "kind": "Figure",
+  "title": "Examples of Green-Colored Pavement Applications Legend Direction of travel",
+  "chapter": "3H",
+  "page": 1014,
+  "image": "/figs/ca-mutcd/p1014.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3h/#fig-3h-4"
+ },
+ {
+  "id": "3H-5",
+  "kind": "Figure",
+  "title": "Examples of Red-Colored Pavement Applications Legend Direction of travel",
+  "chapter": "3H",
+  "page": 1015,
+  "image": "/figs/ca-mutcd/p1015.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3h/#fig-3h-5"
+ },
+ {
+  "id": "3H-6",
+  "kind": "Figure",
+  "title": "Examples of Purple-Colored Pavement Applications",
+  "chapter": "3H",
+  "page": 1016,
+  "image": "/figs/ca-mutcd/p1016.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3h/#fig-3h-6"
+ },
+ {
+  "id": "3H-6",
+  "kind": "Figure",
+  "title": "Examples of Purple-Colored Pavement Applications",
+  "chapter": "3H",
+  "page": 1017,
+  "image": "/figs/ca-mutcd/p1017.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3h/#fig-3h-6"
+ },
+ {
+  "id": "3I-1",
+  "kind": "Figure",
+  "title": "Examples of Tubular Markers Supplementing Pavement Markings in Advance of an Unsignalized Crosswalk",
+  "chapter": "3I",
+  "page": 1020,
+  "image": "/figs/ca-mutcd/p1020.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3i/#fig-3i-1"
+ },
+ {
+  "id": "3I-1",
+  "kind": "Figure",
+  "title": "Examples of Tubular Markers Supplementing Pavement Markings in Advance of an Unsignalized Crosswalk",
+  "chapter": "3I",
+  "page": 1021,
+  "image": "/figs/ca-mutcd/p1021.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3i/#fig-3i-1"
+ },
+ {
+  "id": "3J-1",
+  "kind": "Figure",
+  "title": "Example of Markings for an Approach-End Treatment to an Island Approach-end treatment (varies) Legend Direction of travel",
+  "chapter": "3J",
+  "page": 1027,
+  "image": "/figs/ca-mutcd/p1027.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3j/#fig-3j-1"
+ },
+ {
+  "id": "3J-2",
+  "kind": "Figure",
+  "title": "Examples of Islands Designated by Pavement Markings Legend Direction of travel",
+  "chapter": "3J",
+  "page": 1028,
+  "image": "/figs/ca-mutcd/p1028.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3j/#fig-3j-2"
+ },
+ {
+  "id": "3J-3",
+  "kind": "Figure",
+  "title": "Examples of Curb Markings for Raised Islands",
+  "chapter": "3J",
+  "page": 1029,
+  "image": "/figs/ca-mutcd/p1029.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3j/#fig-3j-3"
+ },
+ {
+  "id": "3J-4",
+  "kind": "Figure",
+  "title": "Examples of Pavement Markings for Raised Islands",
+  "chapter": "3J",
+  "page": 1030,
+  "image": "/figs/ca-mutcd/p1030.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3j/#fig-3j-4"
+ },
+ {
+  "id": "3J-4",
+  "kind": "Figure",
+  "title": "Examples of Pavement Markings for Raised Islands",
+  "chapter": "3J",
+  "page": 1031,
+  "image": "/figs/ca-mutcd/p1031.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3j/#fig-3j-4"
+ },
+ {
+  "id": "3J-5",
+  "kind": "Figure",
+  "title": "Example of Optional Chevron and Diagonal Pavement Markings at a Raised Island Legend Direction of travel",
+  "chapter": "3J",
+  "page": 1032,
+  "image": "/figs/ca-mutcd/p1032.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3j/#fig-3j-5"
+ },
+ {
+  "id": "3J-6",
+  "kind": "Figure",
+  "title": "Examples of Sidewalk Extensions Designated by Pavement Markings and Channelization",
+  "chapter": "3J",
+  "page": 1033,
+  "image": "/figs/ca-mutcd/p1033.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3j/#fig-3j-6"
+ },
+ {
+  "id": "3K-1",
+  "kind": "Figure",
+  "title": "Examples of Longitudinal Rumble Strip Markings",
+  "chapter": "3K",
+  "page": 1035,
+  "image": "/figs/ca-mutcd/p1035.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/3k/#fig-3k-1"
+ },
+ {
+  "id": "4C-1",
+  "kind": "Figure",
+  "title": "Warrant 2, Four-Hour Vehicular Volume",
+  "chapter": "4C",
+  "page": 1057,
+  "image": "/figs/ca-mutcd/p1057.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4c/#fig-4c-1"
+ },
+ {
+  "id": "4C-101(CA)",
+  "kind": "Figure",
+  "title": "Traffic Signal Warrants Worksheet",
+  "chapter": "4C",
+  "page": 1068,
+  "image": "/figs/ca-mutcd/p1068.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4c/#fig-4c-101ca"
+ },
+ {
+  "id": "4C-2",
+  "kind": "Figure",
+  "title": "(RURAL AREAS) Yes No The plotted point falls above the applicable curve in",
+  "chapter": "4C",
+  "page": 1068,
+  "image": "/figs/ca-mutcd/p1068.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4c/#fig-4c-2"
+ },
+ {
+  "id": "4C-3",
+  "kind": "Figure",
+  "title": "(URBAN AREAS) Yes No OR, The plotted point falls above the applicable curve in",
+  "chapter": "4C",
+  "page": 1068,
+  "image": "/figs/ca-mutcd/p1068.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4c/#fig-4c-3"
+ },
+ {
+  "id": "4C-101(CA)",
+  "kind": "Figure",
+  "title": "Traffic Signal Warrants Worksheet",
+  "chapter": "4C",
+  "page": 1069,
+  "image": "/figs/ca-mutcd/p1069.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4c/#fig-4c-101ca"
+ },
+ {
+  "id": "4C-101(CA)",
+  "kind": "Figure",
+  "title": "Traffic Signal Warrants Worksheet",
+  "chapter": "4C",
+  "page": 1070,
+  "image": "/figs/ca-mutcd/p1070.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4c/#fig-4c-101ca"
+ },
+ {
+  "id": "4C-101(CA)",
+  "kind": "Figure",
+  "title": "Traffic Signal Warrants Worksheet",
+  "chapter": "4C",
+  "page": 1071,
+  "image": "/figs/ca-mutcd/p1071.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4c/#fig-4c-101ca"
+ },
+ {
+  "id": "4D-3",
+  "kind": "Figure",
+  "title": "Maximum Mounting Height of Signal Faces that Are Located between 40 Feet and 53 Feet from the Stop Line",
+  "chapter": "4D",
+  "page": 1088,
+  "image": "/figs/ca-mutcd/p1088.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4d/#fig-4d-3"
+ },
+ {
+  "id": "4E-1",
+  "kind": "Figure",
+  "title": "Typical Arrangements of U-Turn Signal Faces R Y G R Y G",
+  "chapter": "4E",
+  "page": 1098,
+  "image": "/figs/ca-mutcd/p1098.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4e/#fig-4e-1"
+ },
+ {
+  "id": "4F-2",
+  "kind": "Figure",
+  "title": "Typical Position and Arrangements of Separate Signal Faces with Flashing Yellow Arrow for Permissive Only Mode Left Turns",
+  "chapter": "4F",
+  "page": 1125,
+  "image": "/figs/ca-mutcd/p1125.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-2"
+ },
+ {
+  "id": "4F-4",
+  "kind": "Figure",
+  "title": "Typical Positions and Arrangements of Shared Signal Faces for Protected Only Mode Left Turns",
+  "chapter": "4F",
+  "page": 1127,
+  "image": "/figs/ca-mutcd/p1127.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-4"
+ },
+ {
+  "id": "4F-5",
+  "kind": "Figure",
+  "title": "Typical Position and Arrangements of Separate Signal Faces for Protected Only Mode Left Turns",
+  "chapter": "4F",
+  "page": 1128,
+  "image": "/figs/ca-mutcd/p1128.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-5"
+ },
+ {
+  "id": "4F-6",
+  "kind": "Figure",
+  "title": "Typical Position and Arrangements of Shared Signal Faces for Protected/Permissive Mode Left Turns",
+  "chapter": "4F",
+  "page": 1129,
+  "image": "/figs/ca-mutcd/p1129.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-6"
+ },
+ {
+  "id": "4F-8",
+  "kind": "Figure",
+  "title": "Typical Positions and Arrangements of Shared Signal Faces for Permissive Only Mode Right Turns",
+  "chapter": "4F",
+  "page": 1131,
+  "image": "/figs/ca-mutcd/p1131.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-8"
+ },
+ {
+  "id": "4F-9",
+  "kind": "Figure",
+  "title": "Typical Position and Arrangements of Separate Signal Faces with Flashing Yellow Arrow for Permissive Only Mode Right Turns",
+  "chapter": "4F",
+  "page": 1132,
+  "image": "/figs/ca-mutcd/p1132.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-9"
+ },
+ {
+  "id": "4F-11",
+  "kind": "Figure",
+  "title": "Typical Positions and Arrangements of Shared Signal Faces for Protected Only Mode Right Turns",
+  "chapter": "4F",
+  "page": 1134,
+  "image": "/figs/ca-mutcd/p1134.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-11"
+ },
+ {
+  "id": "4F-12",
+  "kind": "Figure",
+  "title": "Typical Position and Arrangements of Separate Signal Faces for Protected Only Mode Right Turns",
+  "chapter": "4F",
+  "page": 1135,
+  "image": "/figs/ca-mutcd/p1135.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-12"
+ },
+ {
+  "id": "4F-13",
+  "kind": "Figure",
+  "title": "Typical Positions and Arrangements of Shared Signal Faces for Protected/Permissive Mode Right Turns",
+  "chapter": "4F",
+  "page": 1136,
+  "image": "/figs/ca-mutcd/p1136.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-13"
+ },
+ {
+  "id": "4F-15",
+  "kind": "Figure",
+  "title": "Signal Indications for Approaches with a Combined Left-Turn/Right-Turn Lane and No Through Movement",
+  "chapter": "4F",
+  "page": 1138,
+  "image": "/figs/ca-mutcd/p1138.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-15"
+ },
+ {
+  "id": "4F-15",
+  "kind": "Figure",
+  "title": "Signal Indications for Approaches with a Combined Left-Turn/Right-Turn Lane and No Through Movement",
+  "chapter": "4F",
+  "page": 1139,
+  "image": "/figs/ca-mutcd/p1139.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-15"
+ },
+ {
+  "id": "4F-15",
+  "kind": "Figure",
+  "title": "Signal Indications for Approaches with a Combined Left-Turn/Right-Turn Lane and No Through Movement",
+  "chapter": "4F",
+  "page": 1140,
+  "image": "/figs/ca-mutcd/p1140.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4f/#fig-4f-15"
+ },
+ {
+  "id": "4H-1",
+  "kind": "Figure",
+  "title": "Typical Arrangements of Bicycle Signal Faces R Y G R Y G",
+  "chapter": "4H",
+  "page": 1150,
+  "image": "/figs/ca-mutcd/p1150.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4h/#fig-4h-1"
+ },
+ {
+  "id": "4H-101(CA)",
+  "kind": "Figure",
+  "title": "Bicycle Detection Systems",
+  "chapter": "4H",
+  "page": 1151,
+  "image": "/figs/ca-mutcd/p1151.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4h/#fig-4h-101ca"
+ },
+ {
+  "id": "4H-101(CA)",
+  "kind": "Figure",
+  "title": "Bicycle Detection Systems",
+  "chapter": "4H",
+  "page": 1152,
+  "image": "/figs/ca-mutcd/p1152.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4h/#fig-4h-101ca"
+ },
+ {
+  "id": "4H-101(CA)",
+  "kind": "Figure",
+  "title": "Bicycle Detection Systems",
+  "chapter": "4H",
+  "page": 1153,
+  "image": "/figs/ca-mutcd/p1153.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4h/#fig-4h-101ca"
+ },
+ {
+  "id": "4I-1",
+  "kind": "Figure",
+  "title": "Typical Pedestrian Signal Indications OR OR OR OR",
+  "chapter": "4I",
+  "page": 1161,
+  "image": "/figs/ca-mutcd/p1161.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4i/#fig-4i-1"
+ },
+ {
+  "id": "4I-3",
+  "kind": "Figure",
+  "title": "Typical Push Button Locations",
+  "chapter": "4I",
+  "page": 1163,
+  "image": "/figs/ca-mutcd/p1163.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4i/#fig-4i-3"
+ },
+ {
+  "id": "4L-1",
+  "kind": "Figure",
+  "title": "Example of RRFBs at Uncontrolled, Marked Crosswalks at an Intersection",
+  "chapter": "4L",
+  "page": 1180,
+  "image": "/figs/ca-mutcd/p1180.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4l/#fig-4l-1"
+ },
+ {
+  "id": "4T-1",
+  "kind": "Figure",
+  "title": "Lane-Use Control Signal Indications",
+  "chapter": "4T",
+  "page": 1202,
+  "image": "/figs/ca-mutcd/p1202.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/4t/#fig-4t-1"
+ },
+ {
+  "id": "6B-1",
+  "kind": "Figure",
+  "title": "Component Parts of a Temporary Traffic Control Zone Legend Direction of travel Channelizing device Work space Sign For each taper, refer to",
+  "chapter": "6B",
+  "page": 1227,
+  "image": "/figs/ca-mutcd/p1227.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6b/#fig-6b-1"
+ },
+ {
+  "id": "6B-2",
+  "kind": "Figure",
+  "title": "Types of Tapers and Buffer Spaces *S = speed in mph See",
+  "chapter": "6B",
+  "page": 1228,
+  "image": "/figs/ca-mutcd/p1228.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6b/#fig-6b-2"
+ },
+ {
+  "id": "6B-3",
+  "kind": "Figure",
+  "title": "Example of a One-Lane, Two-Way Traffic Taper Legend For each taper, refer to",
+  "chapter": "6B",
+  "page": 1229,
+  "image": "/figs/ca-mutcd/p1229.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6b/#fig-6b-3"
+ },
+ {
+  "id": "6F-1",
+  "kind": "Figure",
+  "title": "Height and Lateral Location of Signs\u2014Typical Installations 6 to 12 ft",
+  "chapter": "6F",
+  "page": 1249,
+  "image": "/figs/ca-mutcd/p1249.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6f/#fig-6f-1"
+ },
+ {
+  "id": "6F-2",
+  "kind": "Figure",
+  "title": "Methods of Mounting Signs Other Than on Posts",
+  "chapter": "6F",
+  "page": 1250,
+  "image": "/figs/ca-mutcd/p1250.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6f/#fig-6f-2"
+ },
+ {
+  "id": "6G-1",
+  "kind": "Figure",
+  "title": "Regulatory Signs and Plaques in Temporary Traffic Control Zones",
+  "chapter": "6G",
+  "page": 1256,
+  "image": "/figs/ca-mutcd/p1256.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6g/#fig-6g-1"
+ },
+ {
+  "id": "6G-1",
+  "kind": "Figure",
+  "title": "Regulatory Signs and Plaques in Temporary Traffic Control Zones",
+  "chapter": "6G",
+  "page": 1257,
+  "image": "/figs/ca-mutcd/p1257.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6g/#fig-6g-1"
+ },
+ {
+  "id": "6H-1",
+  "kind": "Figure",
+  "title": "Warning Signs and Plaques in Temporary Traffic Control Zones",
+  "chapter": "6H",
+  "page": 1273,
+  "image": "/figs/ca-mutcd/p1273.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6h/#fig-6h-1"
+ },
+ {
+  "id": "6H-1",
+  "kind": "Figure",
+  "title": "Warning Signs and Plaques in Temporary Traffic Control Zones",
+  "chapter": "6H",
+  "page": 1274,
+  "image": "/figs/ca-mutcd/p1274.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6h/#fig-6h-1"
+ },
+ {
+  "id": "6H-1",
+  "kind": "Figure",
+  "title": "Warning Signs and Plaques in Temporary Traffic Control Zones",
+  "chapter": "6H",
+  "page": 1275,
+  "image": "/figs/ca-mutcd/p1275.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6h/#fig-6h-1"
+ },
+ {
+  "id": "6H-1",
+  "kind": "Figure",
+  "title": "Warning Signs and Plaques in Temporary Traffic Control Zones",
+  "chapter": "6H",
+  "page": 1276,
+  "image": "/figs/ca-mutcd/p1276.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6h/#fig-6h-1"
+ },
+ {
+  "id": "6I-1",
+  "kind": "Figure",
+  "title": "Exit Open and Closed and Detour Signs and Plaques E5-2 E5-2a E5-3 M4-8a M4-8bP M4-9 M4-9a M4-9b M4-10 M4-9c M4-8P",
+  "chapter": "6I",
+  "page": 1286,
+  "image": "/figs/ca-mutcd/p1286.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6i/#fig-6i-1"
+ },
+ {
+  "id": "6L-2",
+  "kind": "Figure",
+  "title": "Example of the Use of a Red/Yellow Lens Automated Flagger Assistance Device (AFAD)",
+  "chapter": "6L",
+  "page": 1318,
+  "image": "/figs/ca-mutcd/p1318.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6l/#fig-6l-2"
+ },
+ {
+  "id": "6N-1",
+  "kind": "Figure",
+  "title": "Late Merge",
+  "chapter": "6N",
+  "page": 1339,
+  "image": "/figs/ca-mutcd/p1339.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6n/#fig-6n-1"
+ },
+ {
+  "id": "6O-1",
+  "kind": "Figure",
+  "title": "Examples of Traffic Incident Management Area Signs W3-4 W4-2 W9-3 E5-2a M4-8a M4-9 M4-10",
+  "chapter": "6O",
+  "page": 1344,
+  "image": "/figs/ca-mutcd/p1344.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6o/#fig-6o-1"
+ },
+ {
+  "id": "6P-1",
+  "kind": "Table",
+  "title": "Index to Typical Applications",
+  "chapter": "6P",
+  "page": 1347,
+  "image": "/figs/ca-mutcd/p1347.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-1"
+ },
+ {
+  "id": "6P-1",
+  "kind": "Table",
+  "title": "Index to Typical Applications",
+  "chapter": "6P",
+  "page": 1348,
+  "image": "/figs/ca-mutcd/p1348.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-1"
+ },
+ {
+  "id": "6P-1",
+  "kind": "Figure",
+  "title": "Work Beyond the Shoulder (TA-1) W21-1 OR",
+  "chapter": "6P",
+  "page": 1351,
+  "image": "/figs/ca-mutcd/p1351.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-1"
+ },
+ {
+  "id": "6P-2",
+  "kind": "Figure",
+  "title": "Blasting Zone (TA-2)",
+  "chapter": "6P",
+  "page": 1353,
+  "image": "/figs/ca-mutcd/p1353.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-2"
+ },
+ {
+  "id": "6P-3",
+  "kind": "Figure",
+  "title": "Work on the Shoulders (TA-3)",
+  "chapter": "6P",
+  "page": 1355,
+  "image": "/figs/ca-mutcd/p1355.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-3"
+ },
+ {
+  "id": "6P-4",
+  "kind": "Figure",
+  "title": "Short-Duration or Mobile Operation on a Shoulder (TA-4)",
+  "chapter": "6P",
+  "page": 1357,
+  "image": "/figs/ca-mutcd/p1357.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-4"
+ },
+ {
+  "id": "6P-7",
+  "kind": "Figure",
+  "title": "Road Closure with a Diversion (TA-7) W1-4 * * Refer to FHWA\u2019s List of Known Errors for error in",
+  "chapter": "6P",
+  "page": 1363,
+  "image": "/figs/ca-mutcd/p1363.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-7"
+ },
+ {
+  "id": "6P-8",
+  "kind": "Figure",
+  "title": "Road Closure with an Off-Site Detour (TA-8)",
+  "chapter": "6P",
+  "page": 1365,
+  "image": "/figs/ca-mutcd/p1365.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-8"
+ },
+ {
+  "id": "6P-9",
+  "kind": "Figure",
+  "title": "Overlapping Routes with a Detour (TA-9)",
+  "chapter": "6P",
+  "page": 1367,
+  "image": "/figs/ca-mutcd/p1367.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-9"
+ },
+ {
+  "id": "6P-11",
+  "kind": "Figure",
+  "title": "Lane Closure on a Two-Lane Road with Low Traffic Volumes (TA-11) Typical Application 11",
+  "chapter": "6P",
+  "page": 1371,
+  "image": "/figs/ca-mutcd/p1371.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-11"
+ },
+ {
+  "id": "6P-12",
+  "kind": "Figure",
+  "title": "Lane Closure on a Two-Lane Road Using Temporary Traffic Control Signals (TA-12) Typical Application 12 W1-4",
+  "chapter": "6P",
+  "page": 1373,
+  "image": "/figs/ca-mutcd/p1373.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-12"
+ },
+ {
+  "id": "6P-13",
+  "kind": "Figure",
+  "title": "Temporary Road Closure (TA-13) Typical Application 13",
+  "chapter": "6P",
+  "page": 1375,
+  "image": "/figs/ca-mutcd/p1375.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-13"
+ },
+ {
+  "id": "6P-14",
+  "kind": "Figure",
+  "title": "Haul Road Crossing (TA-14) Typical Application 14 W14-3 Use only with DO NOT PASS sign (optional) R4-1 (optional) W3-4",
+  "chapter": "6P",
+  "page": 1378,
+  "image": "/figs/ca-mutcd/p1378.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-14"
+ },
+ {
+  "id": "6P-15",
+  "kind": "Figure",
+  "title": "Work in the Center of a Road with Low Traffic Volumes (TA-15) Typical Application 15",
+  "chapter": "6P",
+  "page": 1380,
+  "image": "/figs/ca-mutcd/p1380.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-15"
+ },
+ {
+  "id": "6P-16",
+  "kind": "Figure",
+  "title": "Surveying Along the Center Line of a Road with Low Traffic Volumes (TA-16) Typical Application 16",
+  "chapter": "6P",
+  "page": 1382,
+  "image": "/figs/ca-mutcd/p1382.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-16"
+ },
+ {
+  "id": "6P-18",
+  "kind": "Figure",
+  "title": "Lane Closure on a Minor Street (TA-18) Typical Application 18",
+  "chapter": "6P",
+  "page": 1386,
+  "image": "/figs/ca-mutcd/p1386.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-18"
+ },
+ {
+  "id": "6P-19",
+  "kind": "Figure",
+  "title": "Detour for One Travel Direction (TA-19) D3-1 D3-1",
+  "chapter": "6P",
+  "page": 1388,
+  "image": "/figs/ca-mutcd/p1388.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-19"
+ },
+ {
+  "id": "6P-19(CA)",
+  "kind": "Figure",
+  "title": "Detour for One Travel Direction (TA-19(CA)) A 100 ft",
+  "chapter": "6P",
+  "page": 1389,
+  "image": "/figs/ca-mutcd/p1389.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-19ca"
+ },
+ {
+  "id": "6P-20",
+  "kind": "Figure",
+  "title": "Detour for a Closed Street (TA-20) D3-1 D3-1 D3-1 D3-1 D3-1 D3-1 W20-1 W20-1 W20-1 W20-1 W20-1 W20-1 C",
+  "chapter": "6P",
+  "page": 1391,
+  "image": "/figs/ca-mutcd/p1391.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-20"
+ },
+ {
+  "id": "6P-21",
+  "kind": "Figure",
+  "title": "Lane Closure on the Near Side of an Intersection (TA-21) Typical Application 21",
+  "chapter": "6P",
+  "page": 1393,
+  "image": "/figs/ca-mutcd/p1393.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-21"
+ },
+ {
+  "id": "6P-26",
+  "kind": "Figure",
+  "title": "Closure in the Center of an Intersection (TA-26) (optional) R3-2",
+  "chapter": "6P",
+  "page": 1404,
+  "image": "/figs/ca-mutcd/p1404.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-26"
+ },
+ {
+  "id": "6P-27",
+  "kind": "Figure",
+  "title": "Closure at the Side of an Intersection (TA-27)",
+  "chapter": "6P",
+  "page": 1406,
+  "image": "/figs/ca-mutcd/p1406.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-27"
+ },
+ {
+  "id": "6P-29",
+  "kind": "Figure",
+  "title": "Crosswalk Closures and Pedestrian Detours (TA-29)",
+  "chapter": "6P",
+  "page": 1410,
+  "image": "/figs/ca-mutcd/p1410.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-29"
+ },
+ {
+  "id": "6P-33",
+  "kind": "Figure",
+  "title": "Stationary Lane Closure on a Divided Highway (TA-33) Typical Application 33 SC19(CA) (optional) SC20(CA) (optional)",
+  "chapter": "6P",
+  "page": 1418,
+  "image": "/figs/ca-mutcd/p1418.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-33"
+ },
+ {
+  "id": "6P-34",
+  "kind": "Figure",
+  "title": "Lane Closure with a Temporary Traffic Barrier (TA-34) Typical Application 34 C30(CA) (optional)",
+  "chapter": "6P",
+  "page": 1420,
+  "image": "/figs/ca-mutcd/p1420.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-34"
+ },
+ {
+  "id": "6P-35",
+  "kind": "Figure",
+  "title": "Mobile Operation on a Multi-Lane Road (TA-35)",
+  "chapter": "6P",
+  "page": 1422,
+  "image": "/figs/ca-mutcd/p1422.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-35"
+ },
+ {
+  "id": "6P-38",
+  "kind": "Figure",
+  "title": "Interior Lane Closure on a Freeway (TA-38)",
+  "chapter": "6P",
+  "page": 1429,
+  "image": "/figs/ca-mutcd/p1429.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-38"
+ },
+ {
+  "id": "6P-39",
+  "kind": "Figure",
+  "title": "Median Crossover on a Freeway (TA-39) W1-6R",
+  "chapter": "6P",
+  "page": 1431,
+  "image": "/figs/ca-mutcd/p1431.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-39"
+ },
+ {
+  "id": "6P-40",
+  "kind": "Figure",
+  "title": "Median Crossover for an Entrance Ramp (TA-40) R",
+  "chapter": "6P",
+  "page": 1433,
+  "image": "/figs/ca-mutcd/p1433.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-40"
+ },
+ {
+  "id": "6P-41",
+  "kind": "Figure",
+  "title": "Median Crossover for an Exit Ramp (TA-41) SC18(CA)",
+  "chapter": "6P",
+  "page": 1435,
+  "image": "/figs/ca-mutcd/p1435.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-41"
+ },
+ {
+  "id": "6P-43",
+  "kind": "Figure",
+  "title": "Partial Exit Ramp Closure (TA-43)",
+  "chapter": "6P",
+  "page": 1439,
+  "image": "/figs/ca-mutcd/p1439.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-43"
+ },
+ {
+  "id": "6P-48",
+  "kind": "Figure",
+  "title": "Bicycle Lane Closure with an On-Road Detour (TA-48)",
+  "chapter": "6P",
+  "page": 1449,
+  "image": "/figs/ca-mutcd/p1449.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-48"
+ },
+ {
+  "id": "6P-49",
+  "kind": "Figure",
+  "title": "Shared-Use Path Closure with a Diversion (TA-49) Temporary path 100' 100' 100' 100'",
+  "chapter": "6P",
+  "page": 1451,
+  "image": "/figs/ca-mutcd/p1451.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-49"
+ },
+ {
+  "id": "6P-50",
+  "kind": "Figure",
+  "title": "On-Road Detour for a Shared-Use Path (TA-50) Typical Application 50 Shared-use path work zone 100' 100' 100' 100' 100' 100'",
+  "chapter": "6P",
+  "page": 1453,
+  "image": "/figs/ca-mutcd/p1453.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-50"
+ },
+ {
+  "id": "6P-53",
+  "kind": "Figure",
+  "title": "Flagging Operation on a Single-Lane Circular Intersection (TA-53) Typical Application 53",
+  "chapter": "6P",
+  "page": 1460,
+  "image": "/figs/ca-mutcd/p1460.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6p/#fig-6p-53"
+ },
+ {
+  "id": "7B-1",
+  "kind": "Figure",
+  "title": "Signs in School Areas and at School Crossings",
+  "chapter": "7B",
+  "page": 1478,
+  "image": "/figs/ca-mutcd/p1478.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-1"
+ },
+ {
+  "id": "7B-1",
+  "kind": "Figure",
+  "title": "Signs in School Areas and at School Crossings",
+  "chapter": "7B",
+  "page": 1479,
+  "image": "/figs/ca-mutcd/p1479.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-1"
+ },
+ {
+  "id": "7B-1(CA)",
+  "kind": "Figure",
+  "title": "Signs in School Areas and at School Crossings URBAN LOCATIONS AND RURAL LOCATIONS WITH SIDEWALK",
+  "chapter": "7B",
+  "page": 1480,
+  "image": "/figs/ca-mutcd/p1480.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-1ca"
+ },
+ {
+  "id": "7B-5",
+  "kind": "Figure",
+  "title": "Example of Signing for a School Zone with Higher Fines for All Traffic Violations",
+  "chapter": "7B",
+  "page": 1485,
+  "image": "/figs/ca-mutcd/p1485.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-5"
+ },
+ {
+  "id": "7B-5",
+  "kind": "Figure",
+  "title": "Example of Signing for a School Zone with Higher Fines for All Traffic Violations",
+  "chapter": "7B",
+  "page": 1486,
+  "image": "/figs/ca-mutcd/p1486.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-5"
+ },
+ {
+  "id": "7B-101(CA)",
+  "kind": "Figure",
+  "title": "Example of School Area Signs with Flashing Yellow Beacons * Refer to",
+  "chapter": "7B",
+  "page": 1487,
+  "image": "/figs/ca-mutcd/p1487.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-101ca"
+ },
+ {
+  "id": "7C-101(CA)",
+  "kind": "Figure",
+  "title": "Pavement Word Markings for School Areas NOT TO SCALE 8 in 4 in 8 in 4 in 8 in 4 in",
+  "chapter": "7C",
+  "page": 1496,
+  "image": "/figs/ca-mutcd/p1496.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/7c/#fig-7c-101ca"
+ },
+ {
+  "id": "8B-3",
+  "kind": "Figure",
+  "title": "Crossbuck Assembly with a YIELD or STOP Sign on a Separate Sign Support",
+  "chapter": "8B",
+  "page": 1523,
+  "image": "/figs/ca-mutcd/p1523.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8b/#fig-8b-3"
+ },
+ {
+  "id": "8B-3",
+  "kind": "Figure",
+  "title": "Crossbuck Assembly with a YIELD or STOP Sign on a Separate Sign Support",
+  "chapter": "8B",
+  "page": 1524,
+  "image": "/figs/ca-mutcd/p1524.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8b/#fig-8b-3"
+ },
+ {
+  "id": "8B-4",
+  "kind": "Figure",
+  "title": "Warning Signs and Plaques for Grade Crossings W10-2 W10-3 W10-4 W10-1 W10-11 W10-12",
+  "chapter": "8B",
+  "page": 1525,
+  "image": "/figs/ca-mutcd/p1525.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8b/#fig-8b-4"
+ },
+ {
+  "id": "8B-5",
+  "kind": "Figure",
+  "title": "Example of an Emergency Notification System Sign",
+  "chapter": "8B",
+  "page": 1527,
+  "image": "/figs/ca-mutcd/p1527.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8b/#fig-8b-5"
+ },
+ {
+  "id": "8B-101(CA)",
+  "kind": "Figure",
+  "title": "Train Station Signs",
+  "chapter": "8B",
+  "page": 1528,
+  "image": "/figs/ca-mutcd/p1528.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8b/#fig-8b-101ca"
+ },
+ {
+  "id": "8B-1",
+  "kind": "Table",
+  "title": "Grade Crossing Sign and Plaque Minimum Sizes",
+  "chapter": "8B",
+  "page": 1529,
+  "image": "/figs/ca-mutcd/p1529.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8b/#fig-8b-1"
+ },
+ {
+  "id": "8B-1",
+  "kind": "Table",
+  "title": "Grade Crossing Sign and Plaque Minimum Sizes",
+  "chapter": "8B",
+  "page": 1530,
+  "image": "/figs/ca-mutcd/p1530.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8b/#fig-8b-1"
+ },
+ {
+  "id": "8C-1",
+  "kind": "Figure",
+  "title": "Example of Placement of Warning Signs and Pavement Markings at Grade Crossings Pavement Marking Symbol* (see",
+  "chapter": "8C",
+  "page": 1534,
+  "image": "/figs/ca-mutcd/p1534.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8c/#fig-8c-1"
+ },
+ {
+  "id": "8C-1(CA)",
+  "kind": "Figure",
+  "title": "Example of Placement of Warning Signs and Pavement Markings at Grade Crossings",
+  "chapter": "8C",
+  "page": 1535,
+  "image": "/figs/ca-mutcd/p1535.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8c/#fig-8c-1ca"
+ },
+ {
+  "id": "8C-1(CA)",
+  "kind": "Figure",
+  "title": "Example of Placement of Warning Signs and Pavement Markings at Grade Crossings",
+  "chapter": "8C",
+  "page": 1536,
+  "image": "/figs/ca-mutcd/p1536.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8c/#fig-8c-1ca"
+ },
+ {
+  "id": "8C-1(CA)",
+  "kind": "Figure",
+  "title": "Example of Placement of Warning Signs and Pavement Markings at Grade Crossings",
+  "chapter": "8C",
+  "page": 1537,
+  "image": "/figs/ca-mutcd/p1537.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8c/#fig-8c-1ca"
+ },
+ {
+  "id": "8C-2",
+  "kind": "Figure",
+  "title": "Grade Crossing Pavement Markings",
+  "chapter": "8C",
+  "page": 1538,
+  "image": "/figs/ca-mutcd/p1538.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8c/#fig-8c-2"
+ },
+ {
+  "id": "8C-3",
+  "kind": "Figure",
+  "title": "Example of Dynamic Envelope Pavement Markings at Grade Crossings Dynamic envelope",
+  "chapter": "8C",
+  "page": 1539,
+  "image": "/figs/ca-mutcd/p1539.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8c/#fig-8c-3"
+ },
+ {
+  "id": "8D-1",
+  "kind": "Figure",
+  "title": "Composite Drawing of Active Traffic Control Devices for Grade Crossings Showing Clearances",
+  "chapter": "8D",
+  "page": 1561,
+  "image": "/figs/ca-mutcd/p1561.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8d/#fig-8d-1"
+ },
+ {
+  "id": "8D-2",
+  "kind": "Figure",
+  "title": "Examples of Location Plan for Flashing-Light Signals and Four-Quadrant Gates",
+  "chapter": "8D",
+  "page": 1562,
+  "image": "/figs/ca-mutcd/p1562.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8d/#fig-8d-2"
+ },
+ {
+  "id": "8D-3",
+  "kind": "Figure",
+  "title": "Light Rail Transit Signal Indications",
+  "chapter": "8D",
+  "page": 1563,
+  "image": "/figs/ca-mutcd/p1563.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8d/#fig-8d-3"
+ },
+ {
+  "id": "8D-3(CA)",
+  "kind": "Figure",
+  "title": "Light Rail Transit Signals",
+  "chapter": "8D",
+  "page": 1564,
+  "image": "/figs/ca-mutcd/p1564.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8d/#fig-8d-3ca"
+ },
+ {
+  "id": "8E-1",
+  "kind": "Figure",
+  "title": "Illustration of the Difference between a Pathway Grade Crossing and a Sidewalk Grade Crossing",
+  "chapter": "8E",
+  "page": 1572,
+  "image": "/figs/ca-mutcd/p1572.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8e/#fig-8e-1"
+ },
+ {
+  "id": "8E-7",
+  "kind": "Figure",
+  "title": "Example of a Flashing-Light Signal Assembly at a Pathway or Sidewalk Grade Crossing 24 inches 30 inches",
+  "chapter": "8E",
+  "page": 1578,
+  "image": "/figs/ca-mutcd/p1578.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8e/#fig-8e-7"
+ },
+ {
+  "id": "8E-9",
+  "kind": "Figure",
+  "title": "Example of Active Traffic Control Systems with Automatic Pedestrian Gates and Swing Gates at a Sidewalk Grade Crossing",
+  "chapter": "8E",
+  "page": 1580,
+  "image": "/figs/ca-mutcd/p1580.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/8e/#fig-8e-9"
+ },
+ {
+  "id": "9A-1",
+  "kind": "Table",
+  "title": "Bicycle Facility Sign and Plaque Minimum Sizes",
+  "chapter": "9A",
+  "page": 1589,
+  "image": "/figs/ca-mutcd/p1589.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9a/#fig-9a-1"
+ },
+ {
+  "id": "9A-1",
+  "kind": "Table",
+  "title": "Bicycle Facility Sign and Plaque Minimum Sizes",
+  "chapter": "9A",
+  "page": 1590,
+  "image": "/figs/ca-mutcd/p1590.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9a/#fig-9a-1"
+ },
+ {
+  "id": "9A-1",
+  "kind": "Table",
+  "title": "Bicycle Facility Sign and Plaque Minimum Sizes",
+  "chapter": "9A",
+  "page": 1591,
+  "image": "/figs/ca-mutcd/p1591.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9a/#fig-9a-1"
+ },
+ {
+  "id": "9B-1",
+  "kind": "Figure",
+  "title": "Regulatory Signs and Plaques for Bicycle Facilities",
+  "chapter": "9B",
+  "page": 1601,
+  "image": "/figs/ca-mutcd/p1601.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9b/#fig-9b-1"
+ },
+ {
+  "id": "9B-1",
+  "kind": "Figure",
+  "title": "Regulatory Signs and Plaques for Bicycle Facilities",
+  "chapter": "9B",
+  "page": 1602,
+  "image": "/figs/ca-mutcd/p1602.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9b/#fig-9b-1"
+ },
+ {
+  "id": "9B-4",
+  "kind": "Figure",
+  "title": "Signing for Termination of Bicycle Access on Freeways and Expressways Legend Direction of travel R5-6 E5-1a E1-5P R9-22",
+  "chapter": "9B",
+  "page": 1606,
+  "image": "/figs/ca-mutcd/p1606.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9b/#fig-9b-4"
+ },
+ {
+  "id": "9B-6",
+  "kind": "Figure",
+  "title": "Example of Application of Bicycle Jughandle Sign Lorem ipsum dolor sit amet, OR D1-1c D11-1c D1-2b D1-2b R9-25",
+  "chapter": "9B",
+  "page": 1608,
+  "image": "/figs/ca-mutcd/p1608.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9b/#fig-9b-6"
+ },
+ {
+  "id": "9C-1",
+  "kind": "Figure",
+  "title": "Warning Signs and Plaques and Object Markers for Bicycle Facilities",
+  "chapter": "9C",
+  "page": 1612,
+  "image": "/figs/ca-mutcd/p1612.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9c/#fig-9c-1"
+ },
+ {
+  "id": "9C-1",
+  "kind": "Figure",
+  "title": "Warning Signs and Plaques and Object Markers for Bicycle Facilities",
+  "chapter": "9C",
+  "page": 1613,
+  "image": "/figs/ca-mutcd/p1613.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9c/#fig-9c-1"
+ },
+ {
+  "id": "9D-1",
+  "kind": "Figure",
+  "title": "Guide Signs and Plaques for Bicycle Facilities",
+  "chapter": "9D",
+  "page": 1625,
+  "image": "/figs/ca-mutcd/p1625.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9d/#fig-9d-1"
+ },
+ {
+  "id": "9D-1",
+  "kind": "Figure",
+  "title": "Guide Signs and Plaques for Bicycle Facilities",
+  "chapter": "9D",
+  "page": 1626,
+  "image": "/figs/ca-mutcd/p1626.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9d/#fig-9d-1"
+ },
+ {
+  "id": "9D-1",
+  "kind": "Figure",
+  "title": "Guide Signs and Plaques for Bicycle Facilities",
+  "chapter": "9D",
+  "page": 1627,
+  "image": "/figs/ca-mutcd/p1627.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9d/#fig-9d-1"
+ },
+ {
+  "id": "9D-1(CA)",
+  "kind": "Figure",
+  "title": "California Guide Signs and Plaques for Bicycle Facilities John Doe MEMORIAL BIKEWAY G12-3(CA)",
+  "chapter": "9D",
+  "page": 1628,
+  "image": "/figs/ca-mutcd/p1628.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9d/#fig-9d-1ca"
+ },
+ {
+  "id": "9D-2",
+  "kind": "Figure",
+  "title": "Examples of Bicycle Guide Signing",
+  "chapter": "9D",
+  "page": 1629,
+  "image": "/figs/ca-mutcd/p1629.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9d/#fig-9d-2"
+ },
+ {
+  "id": "9D-2",
+  "kind": "Figure",
+  "title": "Examples of Bicycle Guide Signing",
+  "chapter": "9D",
+  "page": 1630,
+  "image": "/figs/ca-mutcd/p1630.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9d/#fig-9d-2"
+ },
+ {
+  "id": "9D-5",
+  "kind": "Figure",
+  "title": "Examples of Mode-Specific Guide Signing on a Shared-Use Path D11-12 D11-12 M6-2PR D11-11 D11-13 M5-2PL D11-11 D11-13",
+  "chapter": "9D",
+  "page": 1633,
+  "image": "/figs/ca-mutcd/p1633.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9d/#fig-9d-5"
+ },
+ {
+  "id": "9E-1",
+  "kind": "Figure",
+  "title": "Word, Symbol, and Arrow Pavement Markings for Bicycle Lanes Normal white line 72 inches 72 inches 72 inches",
+  "chapter": "9E",
+  "page": 1652,
+  "image": "/figs/ca-mutcd/p1652.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-1"
+ },
+ {
+  "id": "9E-2(CA)",
+  "kind": "Figure",
+  "title": "Example of Pavement Markings for Bicycle Lanes on a Two-Way Street",
+  "chapter": "9E",
+  "page": 1654,
+  "image": "/figs/ca-mutcd/p1654.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-2ca"
+ },
+ {
+  "id": "9E-2(CA)",
+  "kind": "Figure",
+  "title": "Example of Pavement Markings for Bicycle Lanes on a Two-Way Street",
+  "chapter": "9E",
+  "page": 1655,
+  "image": "/figs/ca-mutcd/p1655.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-2ca"
+ },
+ {
+  "id": "9E-3",
+  "kind": "Figure",
+  "title": "Examples of Bicycle Lane Markings on an Approach to an Intersection",
+  "chapter": "9E",
+  "page": 1656,
+  "image": "/figs/ca-mutcd/p1656.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-3"
+ },
+ {
+  "id": "9E-3",
+  "kind": "Figure",
+  "title": "Examples of Bicycle Lane Markings on an Approach to an Intersection",
+  "chapter": "9E",
+  "page": 1657,
+  "image": "/figs/ca-mutcd/p1657.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-3"
+ },
+ {
+  "id": "9E-3",
+  "kind": "Figure",
+  "title": "Examples of Bicycle Lane Markings on an Approach to an Intersection",
+  "chapter": "9E",
+  "page": 1658,
+  "image": "/figs/ca-mutcd/p1658.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-3"
+ },
+ {
+  "id": "9E-3(CA)",
+  "kind": "Figure",
+  "title": "Example of Bicycle Lane Markings on an Approach to an Intersection",
+  "chapter": "9E",
+  "page": 1659,
+  "image": "/figs/ca-mutcd/p1659.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-3ca"
+ },
+ {
+  "id": "9E-3(CA)",
+  "kind": "Figure",
+  "title": "Example of Bicycle Lane Markings on an Approach to an Intersection",
+  "chapter": "9E",
+  "page": 1660,
+  "image": "/figs/ca-mutcd/p1660.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-3ca"
+ },
+ {
+  "id": "9E-3(CA)",
+  "kind": "Figure",
+  "title": "Example of Bicycle Lane Markings on an Approach to an Intersection",
+  "chapter": "9E",
+  "page": 1661,
+  "image": "/figs/ca-mutcd/p1661.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-3ca"
+ },
+ {
+  "id": "9E-3(CA)",
+  "kind": "Figure",
+  "title": "Example of Bicycle Lane Markings on an Approach to an Intersection",
+  "chapter": "9E",
+  "page": 1662,
+  "image": "/figs/ca-mutcd/p1662.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-3ca"
+ },
+ {
+  "id": "9E-3(CA)",
+  "kind": "Figure",
+  "title": "Example of Bicycle Lane Markings on an Approach to an Intersection",
+  "chapter": "9E",
+  "page": 1663,
+  "image": "/figs/ca-mutcd/p1663.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-3ca"
+ },
+ {
+  "id": "9E-3(CA)",
+  "kind": "Figure",
+  "title": "Example of Bicycle Lane Markings on an Approach to an Intersection",
+  "chapter": "9E",
+  "page": 1664,
+  "image": "/figs/ca-mutcd/p1664.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-3ca"
+ },
+ {
+  "id": "9E-3(CA)",
+  "kind": "Figure",
+  "title": "Example of Bicycle Lane Markings On an Approach to an Intersection",
+  "chapter": "9E",
+  "page": 1665,
+  "image": "/figs/ca-mutcd/p1665.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-3ca"
+ },
+ {
+  "id": "9E-5",
+  "kind": "Figure",
+  "title": "Examples of Pavement Markings for Mixing Zones",
+  "chapter": "9E",
+  "page": 1667,
+  "image": "/figs/ca-mutcd/p1667.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-5"
+ },
+ {
+  "id": "9E-6",
+  "kind": "Figure",
+  "title": "Examples of Markings for Buffer-Separated Bicycle Lanes Legend Direction of travel",
+  "chapter": "9E",
+  "page": 1668,
+  "image": "/figs/ca-mutcd/p1668.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-6"
+ },
+ {
+  "id": "9E-6(CA)",
+  "kind": "Figure",
+  "title": "Examples of Markings for Buffer-Separated Bicycle Lanes",
+  "chapter": "9E",
+  "page": 1669,
+  "image": "/figs/ca-mutcd/p1669.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-6ca"
+ },
+ {
+  "id": "9E-6(CA)",
+  "kind": "Figure",
+  "title": "Examples of Markings for Buffer-Separated Bicycle Lanes",
+  "chapter": "9E",
+  "page": 1670,
+  "image": "/figs/ca-mutcd/p1670.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-6ca"
+ },
+ {
+  "id": "9E-7",
+  "kind": "Figure",
+  "title": "Examples of Lane Markings for Separated Bicycle Lanes",
+  "chapter": "9E",
+  "page": 1671,
+  "image": "/figs/ca-mutcd/p1671.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-7"
+ },
+ {
+  "id": "9E-7",
+  "kind": "Figure",
+  "title": "Examples of Lane Markings for Separated Bicycle Lanes",
+  "chapter": "9E",
+  "page": 1672,
+  "image": "/figs/ca-mutcd/p1672.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-7"
+ },
+ {
+  "id": "9E-9",
+  "kind": "Figure",
+  "title": "Examples of Shared-Lane Marking Applications R3-7R R3-7bP R4-4",
+  "chapter": "9E",
+  "page": 1674,
+  "image": "/figs/ca-mutcd/p1674.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-9"
+ },
+ {
+  "id": "9E-10",
+  "kind": "Figure",
+  "title": "Examples of Two-Stage Turn Box Locations at Intersections",
+  "chapter": "9E",
+  "page": 1675,
+  "image": "/figs/ca-mutcd/p1675.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-10"
+ },
+ {
+  "id": "9E-11",
+  "kind": "Figure",
+  "title": "Example of a Two-Stage Turn Box Location at an Intersection with a Two-Way Bikeway",
+  "chapter": "9E",
+  "page": 1676,
+  "image": "/figs/ca-mutcd/p1676.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-11"
+ },
+ {
+  "id": "9E-12",
+  "kind": "Figure",
+  "title": "Examples of Intersection Bicycle Boxes",
+  "chapter": "9E",
+  "page": 1677,
+  "image": "/figs/ca-mutcd/p1677.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-12"
+ },
+ {
+  "id": "9E-12",
+  "kind": "Figure",
+  "title": "Examples of Intersection Bicycle Boxes",
+  "chapter": "9E",
+  "page": 1678,
+  "image": "/figs/ca-mutcd/p1678.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-12"
+ },
+ {
+  "id": "9E-13",
+  "kind": "Figure",
+  "title": "Examples of Center Line Markings for Shared-Use Paths",
+  "chapter": "9E",
+  "page": 1679,
+  "image": "/figs/ca-mutcd/p1679.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-13"
+ },
+ {
+  "id": "9E-14",
+  "kind": "Figure",
+  "title": "Example of Pavement Markings for a Shared-Use Path with Mode Separation Green-colored pavement (optional) Legend Direction of travel",
+  "chapter": "9E",
+  "page": 1680,
+  "image": "/figs/ca-mutcd/p1680.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-14"
+ },
+ {
+  "id": "9E-16",
+  "kind": "Figure",
+  "title": "Bicycle Detector Pavement Marking 42 inches 24 inches 6 inches 12 inches 24 inches 2 inches 2 inches 2 inches 6 inches 6 inches",
+  "chapter": "9E",
+  "page": 1682,
+  "image": "/figs/ca-mutcd/p1682.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-16"
+ },
+ {
+  "id": "9E-101(CA)",
+  "kind": "Figure",
+  "title": "Examples of Bicycle Lane Treatment Where Vehicle Parking is Prohibited/Permitted",
+  "chapter": "9E",
+  "page": 1684,
+  "image": "/figs/ca-mutcd/p1684.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-101ca"
+ },
+ {
+  "id": "9E-104(CA)",
+  "kind": "Figure",
+  "title": "Example of Marking for a One-Lane Roundabout with Shared Lane Markings and Bicycle Lanes",
+  "chapter": "9E",
+  "page": 1687,
+  "image": "/figs/ca-mutcd/p1687.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-104ca"
+ },
+ {
+  "id": "9E-106(CA)",
+  "kind": "Figure",
+  "title": "Examples of Markings for Separated Bikeways",
+  "chapter": "9E",
+  "page": 1689,
+  "image": "/figs/ca-mutcd/p1689.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-106ca"
+ },
+ {
+  "id": "9E-106(CA)",
+  "kind": "Figure",
+  "title": "Examples of Markings for Separated Bikeways",
+  "chapter": "9E",
+  "page": 1690,
+  "image": "/figs/ca-mutcd/p1690.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-106ca"
+ },
+ {
+  "id": "9E-106(CA)",
+  "kind": "Figure",
+  "title": "Examples of Markings for Separated Bikeways",
+  "chapter": "9E",
+  "page": 1691,
+  "image": "/figs/ca-mutcd/p1691.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-106ca"
+ },
+ {
+  "id": "9E-106(CA)",
+  "kind": "Figure",
+  "title": "Examples of Markings for Separated Bikeways",
+  "chapter": "9E",
+  "page": 1692,
+  "image": "/figs/ca-mutcd/p1692.webp",
+  "url": "/SoCal-Super-Standards/ca-mutcd/9e/#fig-9e-106ca"
+ }
+]
