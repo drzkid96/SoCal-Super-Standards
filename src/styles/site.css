@@ -115,3 +115,20 @@ table.dims { font-size: .82rem; } .note { font-size: .8rem; color: var(--sl-colo
   background: var(--sss-green); color: #fff; box-shadow: 0 6px 18px rgba(0,0,0,.18); opacity: 0; pointer-events: none; transition: opacity .2s; cursor: pointer; }
 .to-top.show { opacity: 1; pointer-events: auto; }
 .read-bar { position: fixed; top: 0; left: 0; right: 0; height: 3px; background: var(--sss-orange); transform-origin: 0 50%; transform: scaleX(0); z-index: 1000; }
+
+/* ---------- AI ---------- */
+.ai-panel { border: 1px solid #e6e0d2; border-radius: 14px; padding: 1rem 1.25rem; margin: 1rem 0; background: #fff; }
+.ai-panel h2 { margin-top: 0; font-size: 1.1rem; }
+.ai-row { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin: .5rem 0; }
+.ai-row input[type=text], .ai-row input[type=password] { flex: 1 1 280px; padding: .55rem .8rem; border: 1px solid #cfc8b8; border-radius: 8px; font: inherit; }
+.ai-row select { padding: .5rem; border: 1px solid #cfc8b8; border-radius: 8px; font: inherit; }
+.ai-drop textarea { width: 100%; padding: .7rem; border: 1px solid #cfc8b8; border-radius: 10px; font: inherit; resize: vertical; }
+.ai-drop.over { outline: 3px dashed var(--sss-orange); outline-offset: 4px; border-radius: 10px; }
+.ai-btn { font: inherit; font-weight: 600; border: 0; background: var(--sss-green); color: #fff; border-radius: 8px; padding: .5rem .9rem; cursor: pointer; text-decoration: none; display: inline-block; }
+.ai-btn.ghost { background: #fff; color: var(--sss-green); border: 1px solid var(--sss-green); }
+.ai-thumbs img { height: 64px; border-radius: 6px; border: 1px solid #ddd; margin-right: .3rem; }
+.ai-out { margin-top: .75rem; } .ai-wait { color: var(--sss-orange); font-weight: 600; } .ai-err { color: #a12; font-weight: 600; }
+.ai-sum { font-weight: 600; } .ai-signs { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: .5rem; margin: .5rem 0 1rem; }
+.ai-explain { font: inherit; font-size: .72rem; font-weight: 600; border: 1px solid var(--sss-green); color: var(--sss-green); background: #fff; border-radius: 999px; padding: .15rem .65rem; cursor: pointer; margin: .2rem 0 .4rem; }
+.ai-explain:hover { background: var(--sss-green); color: #fff; }
+.ai-box { border-left: 4px solid var(--sss-blue); background: #f3f7fd; padding: .5rem 1rem; border-radius: 0 8px 8px 0; margin: .5rem 0 1rem; font-size: .9rem; }

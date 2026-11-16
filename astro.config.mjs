@@ -45,12 +45,16 @@ export default defineConfig({
         ThemeProvider: './src/components/ThemeProvider.astro',
         ThemeSelect: './src/components/ThemeSelect.astro',
       },
-      head: [{ tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js', defer: true } }],
+      head: [
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js', defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js', defer: true } },
+      ],
       pagination: true,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },
       sidebar: [
         { label: 'Start here', items: [
           { label: 'Home', link: '/' },
+          { label: 'Ask the standards (AI)', link: '/ask/' },
           { label: 'How to use this site', link: '/guide/' },
           { label: 'Sources and versions', link: '/sources/' },
         ] },
