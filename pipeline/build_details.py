@@ -111,6 +111,22 @@ tableOfContents: false
                           "url": p["url"], "topics": topics_for(t + " " + " ".join(p["keywords"][:8])), "signs": p["sign_codes"][:8],
                           "kw": " ".join(p["keywords"][:12])})
 
+# small thumbnails for index grids
+from PIL import Image
+def thumb(url):
+    if not url:
+        return url
+    rel = url.replace(BASE + "/", "", 1)
+    src, dst = "public/" + rel, "public/thumbs/" + rel
+    if not os.path.exists(dst) and os.path.exists(src):
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        im = Image.open(src); im.thumbnail((360, 360)); im.save(dst, "WEBP", quality=70)
+    return BASE + "/thumbs/" + rel
+for c in cfg:
+    for p in json.load(open(f"data/docs/{c['slug'].replace('/', '__')}.json"))["pages"]:
+        thumb(p["image"])
+for it in items:
+    it["full"] = it["img"]; it["img"] = thumb(it["img"])
 json.dump(items, open("public/data/details.json", "w"), separators=(",", ":"))
 
 # --------------- lookup resolver

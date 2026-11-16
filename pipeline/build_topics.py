@@ -71,7 +71,7 @@ for order, (slug, name, intro, sec_rx, fig_rx, sign_pref, ladot_rx, ladot_tags) 
     for x in fg:
         if x["image"] not in seen:
             seen.add(x["image"]); fgu.append(x)
-    fhtml = "".join(f'<a class="tfig" href="{x["url"]}"><img loading="lazy" src="{BASE}{x["image"]}" alt="{esc(x["kind"])} {esc(x["id"])}"><span><b>{esc(x["kind"])} {esc(x["id"])}</b> {esc(x["title"][:90])}</span></a>' for x in fgu[:24])
+    fhtml = "".join(f'<a class="tfig" href="{x["url"]}"><img loading="lazy" src="{BASE}/thumbs{x["image"]}" alt="{esc(x["kind"])} {esc(x["id"])}"><span><b>{esc(x["kind"])} {esc(x["id"])}</b> {esc(x["title"][:90])}</span></a>' for x in fgu[:24])
     # signs
     sg = [s for s in signs if any(s["code"].startswith(p) and (p.endswith("-") or len(s["code"]) == len(p) or not s["code"][len(p)].isdigit()) for p in sign_pref) or (frx.search(s["name"]) and s["category"] != "Temporary Traffic Control Signs" if slug != "temporary-traffic-control" else False)]
     sg = sorted(sg, key=lambda s: (s.get("ca_status") == "not adopted", s["code"]))[:72]
@@ -86,7 +86,7 @@ for order, (slug, name, intro, sec_rx, fig_rx, sign_pref, ladot_rx, ladot_tags) 
         for p in d["pages"]:
             if p["image"] and (lrx.search(p["title"] or "") or (ladot_tags and set(ladot_tags) <= set(p["topics"]) and len(p["topics"]) <= 3)):
                 lpages.append((d["short"], p))
-    lthumbs = "".join(f'<a class="tfig" href="{p["url"]}"><img loading="lazy" src="{p["image"]}" alt="{esc(a)} page {p["page"]}"><span><b>{esc(a)}</b> p{p["page"]} {esc((p["title"] or "")[:70])}</span></a>' for a, p in lpages[:30])
+    lthumbs = "".join(f'<a class="tfig" href="{p["url"]}"><img loading="lazy" src="{p["image"].replace("/figs/", "/thumbs/figs/")}" alt="{esc(a)} page {p["page"]}"><span><b>{esc(a)}</b> p{p["page"]} {esc((p["title"] or "")[:70])}</span></a>' for a, p in lpages[:30])
     q = f"Compare what CA MUTCD 2026, the federal MUTCD and LADOT say about {name.lower()}; note conflicts and which governs."
     md = f'''---
 title: "{name}"

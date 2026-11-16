@@ -287,7 +287,7 @@ if drawings:
     dw_rows = "<h2>Standard drawings</h2><table class=\"dwtab\"><thead><tr><th>Drawing</th><th>Title</th><th>Dated</th><th>Sheets (pages)</th></tr></thead><tbody>" + "".join(
         f'<tr><td><strong>{esc(d)}</strong></td><td>{esc(dwg_titles.get(d, {}).get("title", ""))}</td><td>{esc(dwg_titles.get(d, {}).get("date", ""))}</td><td>' + ", ".join(f'<a href="{BASE}/{SLUG}/{x["chapter"]}/#p{x["page"]}">p {x["page"]}</a>' for x in v) + "</td></tr>"
         for d, v in sorted(drawings.items(), key=lambda kv: dk(kv[0]))) + "</tbody></table>"
-thumbs = "".join(f'<a href="{r["url"]}"><img loading="lazy" src="{r["image"]}" alt="page {r["page"]}"><span>p {r["page"]}{(" " + esc(", ".join(r["drawings"][:1]))) if r["drawings"] else ""}</span></a>'
+thumbs = "".join(f'<a href="{r["url"]}"><img loading="lazy" src="{r["image"].replace('/figs/', '/thumbs/figs/')}" alt="page {r["page"]}"><span>p {r["page"]}{(" " + esc(", ".join(r["drawings"][:1]))) if r["drawings"] else ""}</span></a>'
                  for r in records if r["image"])[:400000]
 ov = (f'---\ntitle: "{cfg["title"].replace(chr(34), chr(39))}"\ndescription: "{cfg["short"]}: {cfg["edition"]}. Full document, page by page, with drawings, OCR text and linked signs."\n'
       f"sidebar:\n  order: 0\n  label: Overview\ntableOfContents: false\n---\n\n"
