@@ -76,6 +76,7 @@ export default defineConfig({
         { label: 'Find by number', items: [
           { label: 'Detail and Drawing Index', link: '/details/' },
           { label: 'Sign Library', link: '/signs/' },
+          { label: 'Pavement Marking Library', link: '/markings/' },
           { label: 'LADOT standard drawings', link: '/ladot/' },
           { label: 'All agency standard drawings', link: '/details/?type=Standard+drawing&sg=' },
         ] },
