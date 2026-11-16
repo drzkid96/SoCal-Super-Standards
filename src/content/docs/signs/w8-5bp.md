@@ -1,5 +1,5 @@
 ---
-title: "W8-5bP Steel Deck (plaque)"
+title: "W8-5bP Steel Deck plaque"
 description: "W8-5bP Steel Deck (plaque): Warning Signs and Object Markers, series W8. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -10,6 +10,9 @@ tableOfContents: false
 <p class="scode-big">W8-5bP</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
+<dt>Descriptor</dt><dd>Steel Deck plaque</dd>
+<dt>Legend</dt><dd>STEEL DECK (PLAQUE)</dd>
+<dt>Keywords</dt><dd class="kw">w8-5bp, steel deck (plaque), warning sign, roadway and weather conditions, black, yellow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w8">W8 &middot; Roadway and weather conditions</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE) A B C D E F G H J K L M 36 30 0.5 0.75 5.75 7 D 4.5 13.061 13.061 11.453 11.453 1.875 24 18 0.375 0.625 3.5 4 D 3 7.464 7.463 6.545 6.544 1.5 30 24 0.375 0.625 5 5 D 4 9.330 9.329 8.181 8.180 1.5</dd>

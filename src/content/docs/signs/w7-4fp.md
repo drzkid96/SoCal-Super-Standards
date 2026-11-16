@@ -1,5 +1,5 @@
 ---
-title: "W7-4fP Paved (plaque)"
+title: "W7-4fP Paved plaque"
 description: "W7-4fP Paved (plaque): Warning Signs and Object Markers, series W7. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -10,6 +10,9 @@ tableOfContents: false
 <p class="scode-big">W7-4fP</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
+<dt>Descriptor</dt><dd>Paved plaque</dd>
+<dt>Legend</dt><dd>PAVED (PLAQUE)</dd>
+<dt>Keywords</dt><dd class="kw">w7-4fp, paved (plaque), warning sign, grades, black, yellow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w7">W7 &middot; Grades</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE) A B C D E F G H 24 12 0.375 0.625 3.5 5 C 8.453 1.5</dd>

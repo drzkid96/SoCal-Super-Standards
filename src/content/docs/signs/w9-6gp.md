@@ -1,5 +1,5 @@
 ---
-title: "W9-6gP "
+title: "W9-6gP Take Ticket Xx Miles plaque"
 description: "W9-6gP : Warning Signs and Object Markers, series W9. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -10,6 +10,9 @@ tableOfContents: false
 <p class="scode-big">W9-6gP</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
+<dt>Descriptor</dt><dd>Take Ticket Xx Miles plaque</dd>
+<dt>Legend</dt><dd>TAKE TICKET XX MILES (PLAQUE)</dd>
+<dt>Keywords</dt><dd class="kw">w9-6gp, take ticket xx miles (plaque), take, ticket, miles, warning sign, lane ends, lane drop, black, yellow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w9">W9 &middot; Lane ends</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE) A B C D E F G H J K L M N P Q 216 30 0.75 1.25 9 12 E 15 E 7.5 VAR 45.135 59.652 VAR VAR VAR 6</dd>

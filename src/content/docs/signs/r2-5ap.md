@@ -1,5 +1,5 @@
 ---
-title: "R2-5aP Citywide (plaque)"
+title: "R2-5aP Citywide plaque"
 description: "R2-5aP Citywide (plaque): Regulatory Signs, series R2. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -10,6 +10,9 @@ tableOfContents: false
 <p class="scode-big">R2-5aP</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
+<dt>Descriptor</dt><dd>Citywide plaque</dd>
+<dt>Legend</dt><dd>CITYWIDE (PLAQUE)</dd>
+<dt>Keywords</dt><dd class="kw">r2-5ap, citywide (plaque), citywide, regulatory sign, speed limits, speed, speed zone, traffic calming, white, black</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r2">R2 &middot; Speed limits</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE)</dd>

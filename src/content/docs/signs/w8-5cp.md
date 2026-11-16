@@ -1,5 +1,5 @@
 ---
-title: "W8-5cP Excess Oil (plaque)"
+title: "W8-5cP Excess Oil plaque"
 description: "W8-5cP Excess Oil (plaque): Warning Signs and Object Markers, series W8. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -10,6 +10,9 @@ tableOfContents: false
 <p class="scode-big">W8-5cP</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
+<dt>Descriptor</dt><dd>Excess Oil plaque</dd>
+<dt>Legend</dt><dd>EXCESS OIL (PLAQUE)</dd>
+<dt>Keywords</dt><dd class="kw">w8-5cp, excess oil (plaque), warning sign, roadway and weather conditions, black, yellow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w8">W8 &middot; Roadway and weather conditions</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE) A B C D E F G H J K L M 36 30 0.5 0.75 6.5 6 D 5 13.901 13.900 5.853 5.852 1.875 24 18 0.375 0.625 3.5 4 D 3 9.267 9.267 3.902 3.901 1.5 30 24 0.375 0.625 5 5 D 4 11.584 11.584 4.877 4.877 1.5</dd>

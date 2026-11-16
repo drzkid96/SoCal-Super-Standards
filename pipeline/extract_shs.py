@@ -66,6 +66,10 @@ def replay(src_page, paths, bbox, outline):
             elif k == "qu":
                 sh.draw_quad(it[1] * mat)
         is_outline = outline is not None and p is outline
+        if p["type"] == "s":
+            sh.finish(fill=None, color=p["color"], width=p.get("width") or 1, closePath=p.get("closePath", False))
+            sh.commit()
+            continue
         sh.finish(fill=p["fill"], color=(0.55, 0.55, 0.55) if is_outline else None,
                   width=0.8 if is_outline else 0, even_odd=p.get("even_odd", False),
                   closePath=p.get("closePath", True), fill_opacity=p.get("fill_opacity") or 1)
@@ -116,22 +120,55 @@ def colors_text(page):
 signs = []
 for code, page in sorted(code_page.items(), key=lambda kv: kv[1]):
     pg = doc[page - 1]
-    fills = [p for p in pg.get_drawings() if p.get("fill") is not None and p["type"] in ("f", "fs")]
+    draws = pg.get_drawings()
+    fills = [p for p in draws if p.get("fill") is not None and p["type"] in ("f", "fs")]
     fills = [p for p in fills if p["rect"].width * p["rect"].height > 14 and p["rect"].y1 < 640]
     if not fills:
         continue
     biggest = max(fills, key=lambda p: p["rect"].width * p["rect"].height)
-    # keep shapes that overlap the main sign body (drop stray arrowheads far outside)
-    body = pymupdf.Rect(biggest["rect"])
-    kept = [p for p in fills if p["rect"].intersects(body + (-30, -30, 30, 30))]
-    bbox = pymupdf.Rect()
-    for p in kept:
-        bbox |= p["rect"]
-    bbox = bbox + (-3, -3, 3, 3)
+    body = pymupdf.Rect(biggest["rect"]) + (-1.5, -1.5, 1.5, 1.5)
+
+    def junk(p):
+        r = p["rect"]
+        area = r.width * r.height
+        kinds = {it[0] for it in p["items"]}
+        if kinds <= {"l"} and len(p["items"]) <= 4 and area < 60:      # dimension arrowheads
+            return True
+        if area < 5:                                                     # specks
+            return True
+        if (r.width < 1.3 or r.height < 1.3) and max(r.width, r.height) > 20 and kinds <= {"l", "re"}:  # leader lines drawn as fills
+            return True
+        return False
+
+    kept = [p for p in fills if body.contains(p["rect"]) and not junk(p)]
+    # heavy closed strokes inside the sign (e.g. object-marker reflectors), never thin dimension lines
+    kept += [p for p in draws if p["type"] == "s" and (p.get("width") or 0) >= 1.0 and body.contains(p["rect"])
+             and p["rect"].width > 4 and p["rect"].height > 4 and p.get("color") is not None]
+    kept.sort(key=lambda p: p.get("seqno", 0))
+    bbox = pymupdf.Rect(biggest["rect"]) + (-2, -2, 2, 2)
     fill = biggest["fill"]
     outline = biggest if min(fill) > 0.9 else None
     rec = replay(pg, kept, bbox, outline)
     svg = rec[0].get_svg_image(text_as_path=True)
+    # official caption printed under the drawing: "<code>" then "<UPPERCASE NAME>"
+    caption = ""
+    lines = [l.strip() for l in pg.get_text().splitlines() if l.strip()]
+    for i, l in enumerate(lines[:-1]):
+        if l == code.split(",")[0].strip() and re.match(r"^[A-Z0-9 ,'/&()\-.:]+$", lines[i + 1]) and not lines[i + 1].startswith("COLORS"):
+            caption = lines[i + 1]
+            break
+    # OCR the legend from a clean render
+    ocr = ""
+    try:
+        import subprocess, tempfile
+        pix = rec[0].get_pixmap(dpi=200)
+        with tempfile.NamedTemporaryFile(suffix=".png") as tf:
+            pix.save(tf.name)
+            r = subprocess.run(["tesseract", tf.name, "-", "--psm", "11"], capture_output=True, text=True, timeout=30)
+            ocr = re.sub(r"[^A-Za-z0-9 $%/\-]", " ", r.stdout)
+            ocr = " ".join(w for w in ocr.split() if len(w) > 1 or w.isdigit())
+    except Exception:
+        pass
     fname = re.sub(r"[^A-Za-z0-9\-]", "_", code)
     with open(f"{ROOT}/public/signs/{fname}.svg", "w") as fh:
         fh.write(svg)
@@ -146,6 +183,8 @@ for code, page in sorted(code_page.items(), key=lambda kv: kv[1]):
         "page_label": label,
         "pdf_page": page,
         "colors": colors_text(pg),
+        "caption": caption,
+        "legend_ocr": ocr[:300],
         "dims": dims_table(pg),
         "svg": f"/signs/{fname}.svg",
         "aspect": round(bbox.width / bbox.height, 3),

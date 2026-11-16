@@ -1,5 +1,5 @@
 ---
-title: "OM2-1H Object Marker Type 2"
+title: "OM2-1H Object Marker Type 2 marker"
 description: "OM2-1H Object Marker Type 2: Warning Signs and Object Markers, series OM. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -10,6 +10,9 @@ tableOfContents: false
 <p class="scode-big">OM2-1H</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
+<dt>Descriptor</dt><dd>Object Marker Type 2 marker</dd>
+<dt>Legend</dt><dd>OBJECT MARKER TYPE 2</dd>
+<dt>Keywords</dt><dd class="kw">om2-1h, object marker type 2, warning sign, object markers, object marker, hazard, white, yellow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-om">OM &middot; Object markers</a></dd>
 <dt>Colors</dt><dd>REFLECTORS — YELLOW (RETROREFLECTIVE) BACKGROUND — WHITE (RETROREFLECTIVE) NO BORDER</dd>

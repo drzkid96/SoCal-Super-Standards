@@ -1,5 +1,5 @@
 ---
-title: "W9-6hP "
+title: "W9-6hP Stop Ahead Take Ticket plaque"
 description: "W9-6hP : Warning Signs and Object Markers, series W9. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -10,6 +10,9 @@ tableOfContents: false
 <p class="scode-big">W9-6hP</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
+<dt>Descriptor</dt><dd>Stop Ahead Take Ticket plaque</dd>
+<dt>Legend</dt><dd>STOP AHEAD TAKE TICKET (PLAQUE)</dd>
+<dt>Keywords</dt><dd class="kw">w9-6hp, stop ahead take ticket (plaque), stop, ahead, take, ticket, warning sign, lane ends, lane drop, black, yellow, stop control</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w9">W9 &middot; Lane ends</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE)</dd>

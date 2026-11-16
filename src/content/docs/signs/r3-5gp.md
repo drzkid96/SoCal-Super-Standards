@@ -1,5 +1,5 @@
 ---
-title: "R3-5gP Bus Lane (plaque)"
+title: "R3-5gP Bus Lane plaque"
 description: "R3-5gP Bus Lane (plaque): Regulatory Signs, series R3. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -10,6 +10,9 @@ tableOfContents: false
 <p class="scode-big">R3-5gP</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
+<dt>Descriptor</dt><dd>Bus Lane plaque</dd>
+<dt>Legend</dt><dd>BUS LANE (PLAQUE)</dd>
+<dt>Keywords</dt><dd class="kw">r3-5gp, bus lane (plaque), regulatory sign, movement prohibition and lane control, lane use, turn restriction, intersection, white, black, transit</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r3">R3 &middot; Movement prohibition and lane control</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE) A B C D E F G H J K 30 12 0.375 0.625 4 4 C 8.083 2.5 10.564 1.5</dd>

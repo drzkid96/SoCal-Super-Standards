@@ -42,6 +42,71 @@ SERIES = {
 STATUS_LABEL = {"ca": "Used in CA MUTCD 2026", "not-adopted": "Not adopted in California", "national": "National only (not shown in CA MUTCD)"}
 
 
+KIND = {"Regulatory Signs": "regulatory sign", "Warning Signs and Object Markers": "warning sign",
+        "School Signs": "school sign", "Temporary Traffic Control Signs": "work zone sign", "Guide Signs": "guide sign",
+        "Standard Arrows": "arrow"}
+TOPIC_TAGS = {
+    "R1": "intersection control, right of way, crosswalk", "R2": "speed, speed zone, traffic calming", "R3": "lane use, turn restriction, intersection",
+    "R4": "lane use, passing", "R5": "access restriction, wrong way, exclusion", "R6": "one way, circulation",
+    "R7": "parking, curb management", "R8": "parking, stopping, curb management", "R9": "pedestrian, bicycle, active transportation",
+    "R10": "traffic signal, signal operation", "R11": "road closure, access", "R12": "truck, weight", "R14": "truck, freight",
+    "R15": "rail, LRT, grade crossing", "R16": "regulatory", "W1": "curve, alignment", "W2": "intersection", "W3": "advance warning, signal ahead",
+    "W4": "merge, lane drop", "W9": "lane drop", "W10": "rail, LRT, grade crossing", "W11": "crossing, pedestrian, bicycle",
+    "W16": "plaque, supplemental", "W17": "speed hump, traffic calming", "W20": "work zone, construction, TTC", "W21": "work zone, construction, TTC",
+    "S1": "school, safe routes to school", "S3": "school bus", "S4": "school zone", "S5": "school zone, speed", "OM": "object marker, hazard",
+}
+SYN = {"pedestrian": "ped, pedestrian crossing", "bicycle": "bike, cyclist", "bike": "bicycle, cyclist", "parking": "curb, loading",
+       "stop": "stop control", "yield": "yield control", "school": "SRTS", "train": "rail, LRT", "bus": "transit"}
+
+
+VOCAB = set()
+for _f in glob.glob(f"{ROOT}/src/content/docs/ca-mutcd/*.md"):
+    for _w in re.findall(r"[A-Za-z]{3,}", re.sub(r"<[^>]+>", " ", open(_f).read())):
+        VOCAB.add(_w.lower())
+
+
+def descriptor(rec):
+    name = rec.get("name") or rec.get("caption", "").title()
+    name = re.sub(r"\s*\((plaque|sign)\)\s*", " ", name, flags=re.I).strip()
+    is_plaque = rec["code"].endswith("P") or "plaque" in (rec.get("name") or "").lower()
+    kind = "plaque" if is_plaque else KIND.get(rec["category"], "sign")
+    if rec["code"].startswith("OM"):
+        kind = "object marker"
+    if name and kind.split()[0].lower() in name.lower().split():
+        kind = kind.split()[-1]
+    return (name + " " + kind).strip() if name else kind.capitalize()
+
+
+def keywords(rec):
+    words = []
+    def add(t):
+        for w in re.split(r"[,/]| - ", t):
+            w = w.strip().lower()
+            if w and len(w) > 1 and w not in words:
+                words.append(w)
+    add(rec["code"])
+    add(rec.get("name", ""))
+    cap = rec.get("caption", "")
+    if cap:
+        add(cap.title())
+    for w in re.findall(r"[A-Za-z]{3,}", rec.get("legend_ocr", "")):
+        if w.lower() in VOCAB:
+            add(w)
+    add(KIND.get(rec["category"], "sign"))
+    if rec["series_name"].lower() not in words:
+        words.append(rec["series_name"].lower())
+    add(TOPIC_TAGS.get(rec["series"], ""))
+    col = rec.get("colors", "")
+    for c in ("red", "white", "black", "yellow", "fluorescent yellow-green", "green", "blue", "orange", "brown", "purple"):
+        if c.upper() in col.upper():
+            add(c)
+    blob = " ".join(words)
+    for k, v in SYN.items():
+        if k in blob:
+            add(v)
+    return words[:28]
+
+
 def series_of(code):
     m = re.match(r"([A-Z]+)(\d+)", code)
     if not m:
@@ -82,6 +147,8 @@ for code, rec in signs.items():
     rec["series"] = series_of(code)
     rec["series_name"] = SERIES.get(rec["series"], "Other")
     rec["slug"] = slug(code)
+    rec["descriptor"] = descriptor(rec)
+    rec["keywords"] = keywords(rec)
 
 # ------------------------------------------------------------------ California status
 ca = pymupdf.open(CAPDF)
@@ -148,9 +215,9 @@ esc = lambda t: html.escape(str(t), quote=True)
 
 def card(rec):
     return (f'<a class="scard" href="{BASE}/signs/{rec["slug"]}/" data-code="{esc(rec["code"])}" '
-            f'data-name="{esc(rec["name"].lower())}" data-cat="{CATS.get(rec["category"], "other")}" data-ca="{rec["ca_status"]}">'
+            f'data-name="{esc((rec["descriptor"] + " " + " ".join(rec["keywords"])).lower())}" data-cat="{CATS.get(rec["category"], "other")}" data-ca="{rec["ca_status"]}">'
             f'<span class="simg"><img loading="lazy" src="{BASE}{rec["svg"]}" alt="{esc(rec["code"])} {esc(rec["name"])}"></span>'
-            f'<span class="scode">{esc(rec["code"])}</span><span class="sname">{esc(rec["name"])}</span>'
+            f'<span class="scode">{esc(rec["code"])}</span><span class="sname">{esc(rec["descriptor"])}</span>'
             f'{"<span class=\"sflag na\">Not in CA</span>" if rec["ca_status"] == "not-adopted" else ""}</a>')
 
 
@@ -238,7 +305,7 @@ for rec in signs.values():
     sheets = "".join(f'<img class="sheet" src="{BASE}{s}" alt="additional sheet">' for s in rec["sheets"])
     status_cls = {"ca": "ca-same", "not-adopted": "rev", "national": "muted"}[rec["ca_status"]]
     body = f"""---
-title: "{rec['code']} {rec['name'].replace('"', "'")}"
+title: "{rec['code']} {rec['descriptor'].replace('"', "'")}"
 description: "{rec['code']} {rec['name'].replace('"', "'")}: {rec['category']}, series {rec['series']}. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -249,6 +316,9 @@ tableOfContents: false
 <p class="scode-big">{esc(rec['code'])}</p>
 <p><span class="badge {status_cls}">{STATUS_LABEL[rec['ca_status']]}</span></p>
 <dl>
+<dt>Descriptor</dt><dd>{esc(rec['descriptor'])}</dd>
+<dt>Legend</dt><dd>{esc(rec.get('caption') or '-')}</dd>
+<dt>Keywords</dt><dd class="kw">{esc(', '.join(rec['keywords']))}</dd>
 <dt>Type</dt><dd><a href="{BASE}/signs/#{CATS.get(rec['category'], 'other')}">{esc(rec['category'])}</a></dd>
 <dt>Series</dt><dd><a href="{BASE}/signs/#series-{rec['series'].lower()}">{esc(rec['series'])} &middot; {esc(rec['series_name'])}</a></dd>
 <dt>Colors</dt><dd>{esc(rec['colors'].split(rec['code'])[0].strip() if rec['colors'] else 'See layout')}</dd>

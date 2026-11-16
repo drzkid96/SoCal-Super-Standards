@@ -1,5 +1,5 @@
 ---
-title: "W4-4bP Oncoming Traffic Does Not Stop (plaque)"
+title: "W4-4bP Oncoming Traffic Does Not Stop plaque"
 description: "W4-4bP Oncoming Traffic Does Not Stop (plaque): Warning Signs and Object Markers, series W4. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -10,6 +10,9 @@ tableOfContents: false
 <p class="scode-big">W4-4bP</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
+<dt>Descriptor</dt><dd>Oncoming Traffic Does Not Stop plaque</dd>
+<dt>Legend</dt><dd>ONCOMING TRAFFIC DOES NOT STOP (PLAQUE)</dd>
+<dt>Keywords</dt><dd class="kw">w4-4bp, oncoming traffic does not stop (plaque), warning sign, merging and lanes, merge, lane drop, black, yellow, stop control</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w4">W4 &middot; Merging and lanes</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE)</dd>

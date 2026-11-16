@@ -1,5 +1,5 @@
 ---
-title: "R3-5bP Left Lane (plaque)"
+title: "R3-5bP Left Lane plaque"
 description: "R3-5bP Left Lane (plaque): Regulatory Signs, series R3. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
@@ -10,6 +10,9 @@ tableOfContents: false
 <p class="scode-big">R3-5bP</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
+<dt>Descriptor</dt><dd>Left Lane plaque</dd>
+<dt>Legend</dt><dd>LEFT LANE (PLAQUE)</dd>
+<dt>Keywords</dt><dd class="kw">r3-5bp, left lane (plaque), regulatory sign, movement prohibition and lane control, lane use, turn restriction, intersection, white, black</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r3">R3 &middot; Movement prohibition and lane control</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE) A B C D E F G H J K L 30 12 0.375 0.625 4 4 C 9.644 1.710 0.790 10.564 1.5</dd>
