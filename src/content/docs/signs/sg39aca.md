@@ -1,0 +1,32 @@
+---
+title: "SG39A(CA) Cal Fire Station guide sign"
+description: "SG39A(CA) Cal Fire Station: Guide Signs, series SG39. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+tableOfContents: false
+---
+
+<div class="sdetail">
+<div class="sdetail-img"><img src="/SoCal-Super-Standards/signs/ca/sg39aca.webp" alt="SG39A(CA)"></div>
+<div class="sdetail-info">
+<p class="scode-big">SG39A(CA)</p>
+<p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
+<dl>
+<dt>Descriptor</dt><dd>Cal Fire Station guide sign</dd>
+<dt>Legend</dt><dd>CAL FIRE STATION</dd>
+<dt>Keywords</dt><dd class="kw">sg39a(ca), cal fire station, cal, fire, station, guide sign, other</dd>
+<dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#guide">Guide Signs</a></dd>
+<dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sg39">SG39 &middot; Other</a></dd>
+<dt>Colors</dt><dd>See layout</dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 2I-1(CA), page </dd>
+</dl>
+</div>
+</div>
+
+## Sizes and layout dimensions (inches)
+
+<p>See the FHWA layout sheet for dimensions.</p>
+
+<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
+
+## Governing sections
+
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2i/#2i03">CA MUTCD 2026 &sect;2I.03</a> General Service Signs for Freeways and Expressways</li></ul>

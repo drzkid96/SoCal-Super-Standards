@@ -16,6 +16,9 @@ import pymupdf
 CAPDF, ROOT = sys.argv[1], sys.argv[2]
 BASE = os.environ.get("SITE_BASE", "/SoCal-Super-Standards")
 raw = json.load(open(f"{ROOT}/data/signs/shs.json"))
+_have = {r["code"].split(",")[0].strip() for r in raw}
+if os.path.exists(f"{ROOT}/data/signs/ca_extra.json"):
+    raw += [r for r in json.load(open(f"{ROOT}/data/signs/ca_extra.json")) if r["code"] not in _have]
 
 CATS = OrderedDict([
     ("Regulatory Signs", "regulatory"), ("Warning Signs and Object Markers", "warning"),
@@ -154,6 +157,7 @@ for code, rec in signs.items():
 ca = pymupdf.open(CAPDF)
 crossed, mentioned = set(), set()
 CODE_RE = re.compile(r"(?<![A-Za-z0-9-])((?:OM|CW|[RWSDMEIG])\d{1,3}[A-Za-z]?-\d{1,3}[A-Za-z]{0,4})(?![A-Za-z0-9-])")
+CA_RE = re.compile(r"(?<![A-Za-z0-9-])((?:OM|SR|SW|SG|SC|CW|[RWSDMGEI])\d{1,3}[A-Z]?(?:-\d{1,3}[A-Za-z]{0,3})?\(CA\))")
 for pno in range(54, len(ca)):
     pg = ca[pno]
     txt = pg.get_text()
@@ -179,7 +183,7 @@ for pno in range(54, len(ca)):
         if best:
             crossed.add(best[4])
 for code, rec in signs.items():
-    rec["ca_status"] = "not-adopted" if code in crossed else ("ca" if code in mentioned else "national")
+    rec["ca_status"] = "ca" if rec.get("ca_only") else ("not-adopted" if code in crossed else ("ca" if code in mentioned else "national"))
 
 # ------------------------------------------------------------------ where each code is mentioned
 mentions = defaultdict(list)
@@ -198,7 +202,7 @@ for manual, label, d in (("ca-mutcd", "CA MUTCD 2026", "ca-mutcd"), ("mutcd", "M
             if not s:
                 continue
             plain = re.sub(r"<[^>]+>", " ", body)
-            for c in set(CODE_RE.findall(plain)):
+            for c in set(CODE_RE.findall(plain)) | set(CA_RE.findall(plain)):
                 if c in signs:
                     mentions[c].append({"manual": label, "num": s["num"], "title": s["title"], "url": s["url"]})
 for code, rec in signs.items():
@@ -363,5 +367,34 @@ for d in ("ca-mutcd", "mutcd"):
         body = re.sub(r"(<p>.*?</p>)", lambda m: link_codes(m.group(1)), body, flags=re.S)
         open(f, "w").write(head + body)
 
+def link_ca(text):
+    out, depth = [], 0
+    for seg in re.split(r"(<[^>]+>)", text):
+        if seg.startswith("<"):
+            if seg.startswith("<a "):
+                depth += 1
+            elif seg.startswith("</a"):
+                depth -= 1
+            out.append(seg)
+            continue
+        if depth:
+            out.append(seg)
+            continue
+        out.append(CA_RE.sub(lambda m: (f'<a class="sref" href="{BASE}/signs/{signs[m.group(1)]["slug"]}/" data-svg="{BASE}{signs[m.group(1)]["svg"]}">{m.group(1)}</a>')
+                             if m.group(1) in signs else m.group(0), seg))
+    return "".join(out)
+
+
+for d in ("ca-mutcd", "mutcd"):
+    for f in glob.glob(f"{ROOT}/src/content/docs/{d}/*.md"):
+        t = open(f).read()
+        fm_end = t.find("---", 3) + 3
+        head, body = t[:fm_end], t[fm_end:]
+        nb = re.sub(r"(<p>.*?</p>)", lambda m: link_ca(m.group(1)), body, flags=re.S)
+        if nb != body:
+            open(f, "w").write(head + nb)
+
+json.dump({c: {"code": c, "descriptor": r["descriptor"], "url": f"{BASE}/signs/{r['slug']}/", "svg": f"{BASE}{r['svg']}", "ca": r["ca_status"]}
+           for c, r in signs.items()}, open(f"{ROOT}/public/data/signs-index.json", "w"))
 print("signs", n_all, "not adopted in CA", n_na, "CA used", sum(1 for r in signs.values() if r["ca_status"] == "ca"),
       "with mentions", sum(1 for r in signs.values() if r["mentions"]))

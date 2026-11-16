@@ -1,0 +1,32 @@
+---
+title: "SG42-4(CA) Signs at Ramps guide sign"
+description: "SG42-4(CA) Signs at Ramps: Guide Signs, series SG42. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+tableOfContents: false
+---
+
+<div class="sdetail">
+<div class="sdetail-img"><img src="/SoCal-Super-Standards/signs/ca/sg42-4ca.webp" alt="SG42-4(CA)"></div>
+<div class="sdetail-info">
+<p class="scode-big">SG42-4(CA)</p>
+<p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
+<dl>
+<dt>Descriptor</dt><dd>Signs at Ramps guide sign</dd>
+<dt>Legend</dt><dd>FUEL</dd>
+<dt>Keywords</dt><dd class="kw">sg42-4(ca), signs at ramps, fuel, guide sign, other</dd>
+<dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#guide">Guide Signs</a></dd>
+<dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sg42">SG42 &middot; Other</a></dd>
+<dt>Colors</dt><dd>See layout</dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 2J-1(CA), page </dd>
+</dl>
+</div>
+</div>
+
+## Sizes and layout dimensions (inches)
+
+<p>See the FHWA layout sheet for dimensions.</p>
+
+<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
+
+## Governing sections
+
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2j/#2j101ca">CA MUTCD 2026 &sect;2J.101(CA)</a> Signs at Ramps (SG42-4(CA), SG42-5(CA), SG42-8(CA) and SG42-12(CA))</li></ul>

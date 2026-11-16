@@ -1,0 +1,32 @@
+---
+title: "G69(CA) ± Minimum 3) Ft Note 50 (See Ft 4 Slower Traffic R4-3 Keep R guide sign"
+description: "G69(CA) ± Minimum 3) Ft Note 50 (See Ft 4 Slower Traffic R4-3 Keep R: Guide Signs, series G69. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+tableOfContents: false
+---
+
+<div class="sdetail">
+<div class="sdetail-img"><img src="/SoCal-Super-Standards/signs/ca/g69ca.webp" alt="G69(CA)"></div>
+<div class="sdetail-info">
+<p class="scode-big">G69(CA)</p>
+<p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
+<dl>
+<dt>Descriptor</dt><dd>± Minimum 3) Ft Note 50 (See Ft 4 Slower Traffic R4-3 Keep R guide sign</dd>
+<dt>Legend</dt><dd>± Minimum 3) ft Note 50 (See ft 4 SLOWER TRAFFIC R4-3 KEEP RIGHT PASSING G69(CA) PASSING LANE AHEAD</dd>
+<dt>Keywords</dt><dd class="kw">g69(ca), ± minimum 3) ft note 50 (see ft 4 slower traffic r4-3 keep r, ± minimum 3) ft note 50 (see ft 4 slower traffic r4-3 keep right passing g69(ca) passing lane ahead, minimum, note, see, slower, traffic, keep, right, passing, lane, ahead, guide sign, other</dd>
+<dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#guide">Guide Signs</a></dd>
+<dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-g69">G69 &middot; Other</a></dd>
+<dt>Colors</dt><dd>See layout</dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 3B-104(CA), page </dd>
+</dl>
+</div>
+</div>
+
+## Sizes and layout dimensions (inches)
+
+<p>See the FHWA layout sheet for dimensions.</p>
+
+<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
+
+## Governing sections
+
+<ul class="ments"><li>No section text mentions this code directly.</li></ul>

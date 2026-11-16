@@ -1,0 +1,32 @@
+---
+title: "S21(CA) Notice Any Person Who Provides Repair Service On These Premi school sign"
+description: "S21(CA) Notice Any Person Who Provides Repair Service On These Premi: School Signs, series S21. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+tableOfContents: false
+---
+
+<div class="sdetail">
+<div class="sdetail-img"><img src="/SoCal-Super-Standards/signs/ca/s21ca.webp" alt="S21(CA)"></div>
+<div class="sdetail-info">
+<p class="scode-big">S21(CA)</p>
+<p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
+<dl>
+<dt>Descriptor</dt><dd>Notice Any Person Who Provides Repair Service On These Premi school sign</dd>
+<dt>Legend</dt><dd>NOTICE ANY PERSON WHO PROVIDES REPAIR SERVICE ON THESE PREMISES TO ANY TEMPORARILY DISABLED VEHICLE SHALL LEAVE THIS PREMISE IMMEDIATELY AFTER THE SERVICE IS COMPLETED. ANY FURTHER SOLICITATION FOR BUSINESS OR LOITERING IS ILLEGAL AND WILL SUBJECT THE VIOLATOR TO A CITATION AND/OR REMOVAL FROM THE PROPERTY. STREETS AND HIGHWAY AY CODE, SECTION 720</dd>
+<dt>Keywords</dt><dd class="kw">s21(ca), notice any person who provides repair service on these premi, notice any person who provides repair service on these premises to any temporarily disabled vehicle shall leave this premise immediately after the service is completed. any further solicitation for business or loitering is illegal and will subject the violator to a citation and, or removal from the property. streets and highway ay code, section 720, notice, any, person, who, provides, repair, service, these, premises, temporarily, disabled, vehicle, shall, leave, this, premise, immediately, after, the, completed, further, for, business</dd>
+<dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#school">School Signs</a></dd>
+<dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-s21">S21 &middot; Other</a></dd>
+<dt>Colors</dt><dd>See layout</dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 2B-31, page </dd>
+</dl>
+</div>
+</div>
+
+## Sizes and layout dimensions (inches)
+
+<p>See the FHWA layout sheet for dimensions.</p>
+
+<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
+
+## Governing sections
+
+<ul class="ments"><li>No section text mentions this code directly.</li></ul>

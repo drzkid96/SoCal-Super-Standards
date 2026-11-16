@@ -1,0 +1,32 @@
+---
+title: "G95A-1(CA) 67 guide sign"
+description: "G95A-1(CA) 67: Guide Signs, series G95. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+tableOfContents: false
+---
+
+<div class="sdetail">
+<div class="sdetail-img"><img src="/SoCal-Super-Standards/signs/ca/g95a-1ca.webp" alt="G95A-1(CA)"></div>
+<div class="sdetail-info">
+<p class="scode-big">G95A-1(CA)</p>
+<p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
+<dl>
+<dt>Descriptor</dt><dd>67 guide sign</dd>
+<dt>Legend</dt><dd>67</dd>
+<dt>Keywords</dt><dd class="kw">g95a-1(ca), 67, guide sign, other</dd>
+<dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#guide">Guide Signs</a></dd>
+<dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-g95">G95 &middot; Other</a></dd>
+<dt>Colors</dt><dd>See layout</dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 2E-54, page </dd>
+</dl>
+</div>
+</div>
+
+## Sizes and layout dimensions (inches)
+
+<p>See the FHWA layout sheet for dimensions.</p>
+
+<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
+
+## Governing sections
+
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2e/#2e51">CA MUTCD 2026 &sect;2E.51</a> Supplemental Guide Signs (E3 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2e/#2e59">CA MUTCD 2026 &sect;2E.59</a> Wrong-Way Traffic Control at Interchange Ramps</li></ul>
