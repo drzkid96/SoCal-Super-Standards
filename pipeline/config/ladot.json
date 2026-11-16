@@ -1,0 +1,125 @@
+[
+ {
+  "slug": "ladot/mpp-531",
+  "path": "/mnt/user-data/uploads/b66de7fb-LADOT-MPP-531-STRIPING-DESIGN.pdf",
+  "title": "LADOT MPP 531: Application and Design for Striping, Channelization and Special Signing",
+  "short": "MPP 531",
+  "edition": "02/2023 (supersedes 06/2022)",
+  "publisher": "City of Los Angeles DOT",
+  "chapters": [
+   [
+    "Policies and procedures",
+    1,
+    20
+   ]
+  ],
+  "group_after": 21,
+  "chunk": 14,
+  "carry_label": true,
+  "dwg_min_digits": 3
+ },
+ {
+  "slug": "ladot/mpp-521",
+  "path": "/mnt/user-data/uploads/7726083f-LADOT-MPP-521-TRAFFIC-SIGNAL-DESIGN-GUIDELINES.pdf",
+  "title": "LADOT MPP 521: Traffic Signal Design Guidelines",
+  "short": "MPP 521",
+  "edition": "09/2016 manual, drawings dated individually",
+  "publisher": "City of Los Angeles DOT",
+  "chapters": [
+   [
+    "Index of standard drawings",
+    1,
+    1
+   ],
+   [
+    "Traffic signal guidelines",
+    2,
+    19
+   ]
+  ],
+  "group_after": 20,
+  "chunk": 14,
+  "carry_label": true
+ },
+ {
+  "slug": "ladot/red-book",
+  "path": "/mnt/user-data/uploads/0146847e-LADOT-RED-BOOK-2026-SPECIAL-PROVISIONS-AND-STD-DRAWINGS.pdf",
+  "title": "LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals",
+  "short": "Red Book",
+  "edition": "July 2008 base, revised (2026 file)",
+  "publisher": "City of Los Angeles DOT",
+  "chunk": 16,
+  "mode": "chunk"
+ },
+ {
+  "slug": "ladot/supplemental-street-design-guide",
+  "path": "/mnt/user-data/uploads/f8c0adac-LADOT-SUPP-DESIGN-GUIDE.pdf",
+  "title": "Los Angeles Supplemental Street Design Guide",
+  "short": "Supp. Street Design Guide",
+  "edition": "February 2020, rev. May 2020",
+  "publisher": "City of Los Angeles BOE and LADOT",
+  "chunk": 18,
+  "mode": "chunk"
+ },
+ {
+  "slug": "ladot/complete-streets",
+  "path": "/mnt/user-data/uploads/bb8fae70-LADOT-COMPLETE-STREETS-DESIGN-GUIDE.pdf",
+  "title": "City of Los Angeles Complete Streets Design Guide",
+  "short": "Complete Streets DG",
+  "edition": "Amendment III",
+  "publisher": "City of Los Angeles",
+  "toc_filter": "^\\d\\.",
+  "chunk": 20
+ },
+ {
+  "slug": "ladot/games-corridors",
+  "path": "/mnt/user-data/uploads/b2ec65cf-LADOT-2028-GAMES-CORRIDORS-DESIGN-GUIDE-WORD-PRINT-2026-06.pdf",
+  "title": "LADOT 2028 Games Active Transportation Projects Design Guide",
+  "short": "2028 Games DG",
+  "edition": "2026-06 print (supersedes 2025-09)",
+  "publisher": "LADOT",
+  "chunk": 33,
+  "mode": "chunk"
+ },
+ {
+  "slug": "ladot/marked-crosswalks",
+  "path": "/mnt/user-data/uploads/0035e10a-LADOT-MARKED-CROSSWALK-GUIDELINES-REV-2020-10-FILLABLE.pdf",
+  "title": "LADOT Marked Crosswalk Guidelines",
+  "short": "Crosswalk Guidelines",
+  "edition": "Rev. 10/2020",
+  "publisher": "LADOT",
+  "chunk": 7,
+  "mode": "chunk"
+ },
+ {
+  "slug": "ladot/cad-standards",
+  "path": "/mnt/user-data/uploads/b009f271-LADOT-CAD-STANDARDS.pdf",
+  "title": "LADOT Drafting Standards for Striping and Signal Plans",
+  "short": "CAD Standards",
+  "edition": "February 2005",
+  "publisher": "LADOT",
+  "chunk": 17,
+  "mode": "chunk"
+ },
+ {
+  "slug": "ladot/parking",
+  "path": "/mnt/user-data/uploads/8c1458ac-LADOT-PARKING-STANDARDS.pdf",
+  "title": "LADOT Parking Standards (Council File 22-0922 exhibits)",
+  "short": "Parking Standards",
+  "edition": "as filed 10/2022",
+  "publisher": "City of Los Angeles",
+  "note": "Compiled exhibits from a public council file; check the current LADOT/LADBS version before relying on it.",
+  "chunk": 20,
+  "mode": "chunk"
+ },
+ {
+  "slug": "ladot/mobility-plan",
+  "path": "/mnt/user-data/uploads/ef3f27b6-LADOT-MOBILITY-PLAN.pdf",
+  "title": "Mobility Plan 2035: An Element of the General Plan",
+  "short": "Mobility Plan 2035",
+  "edition": "Adopted September 7, 2016",
+  "publisher": "LA Department of City Planning",
+  "chunk": 20,
+  "mode": "chunk"
+ }
+]

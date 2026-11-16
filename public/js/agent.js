@@ -85,7 +85,7 @@
     content.push({ type: 'text', text: (text || '(no text, see image)') + `
 
 Identify what this is about for a California traffic engineer. Return ONLY JSON:
-{"summary":"one sentence","sign_codes":["MUTCD codes you can see or that are named, e.g. R3-17"],"topics":["short topics"],"queries":["4-8 short search queries for a standards site (section numbers, sign codes, terms)"]}` });
+{"summary":"one sentence","sign_codes":["MUTCD codes you can see or that are named, e.g. R3-17"],"topics":["short topics"],"drawings":["LADOT standard drawing numbers seen or named, e.g. S-481.0"],"queries":["4-8 short search queries for a standards site (section numbers, sign codes, terms)"]}` });
     const plan = await claude([{ role: 'user', content }],
       'You read screenshots of plans, photos, and messy notes and turn them into precise MUTCD / CA MUTCD / LADOT search terms. Output JSON only.', 800);
     let p;
@@ -97,6 +97,18 @@ Identify what this is about for a California traffic engineer. Return ONLY JSON:
     }
     const sx = await loadSigns();
     const found = (p.sign_codes || []).map((c) => sx[c.toUpperCase()] || sx[c]).filter(Boolean);
+    // LADOT standard drawings and sign references by number
+    try {
+      const li = await (await fetch(BASE + '/data/ladot-index.json')).json();
+      const want = new Set([...(p.drawings || []), ...((text || '').match(/S-\d{2,3}(?:\.\d+)*/g) || [])].map((d) => d.includes('.') ? d : d + '.0'));
+      const codes = new Set((p.sign_codes || []).map((c) => c.toUpperCase()));
+      for (const r of li) {
+        if (hits.size > 30) break;
+        if (r.drawings.some((d) => want.has(d)) || r.signs.some((c) => codes.has(c))) {
+          if (!hits.has(r.url)) hits.set(r.url, { url: r.url, title: `${r.doc} page ${r.page} ${r.title}`, excerpt: `LADOT ${r.doc}, page ${r.page}. Drawings: ${r.drawings.join(', ')}. Signs: ${r.signs.join(', ')}. Topics: ${r.topics.join(', ')}` });
+        }
+      }
+    } catch (e) { /* index optional */ }
     const ctx = [...hits.values()].slice(0, 18).map((h, i) => `[${i + 1}] ${h.title}\nURL: ${h.url}\n${h.excerpt}`).join('\n\n');
     log('Writing the answer...');
     const answer = await claude([{ role: 'user', content: [

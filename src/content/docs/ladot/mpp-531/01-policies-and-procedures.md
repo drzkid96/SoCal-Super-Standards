@@ -1,0 +1,395 @@
+---
+title: "MPP 531: Policies and procedures"
+description: "LADOT MPP 531: Application and Design for Striping, Channelization and Special Signing, Policies and procedures, pages 1-20."
+sidebar:
+  order: 1
+---
+
+<div class="srcbar">LADOT MPP 531: Application and Design for Striping, Channelization and Special Signing &middot; 02/2023 (supersedes 06/2022) &middot; pages 1&ndash;20</div>
+
+<span id="p1" class="anchor"></span>
+
+### Page 1 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Topics: parking-curb, striping, signs</div>
+<div class="dtext"><p>Department of Transportation</p>
+<p>MANUAL OF POLICIES AND PROCEDURES</p>
+<p>SECTION NO.</p>
+<p>531 SUBJECT</p>
+<p>Application and Design for Striping,</p>
+<p>Channelization and Special Signing</p>
+<p>DATE</p>
+<p>02/2023 PAGE</p>
+<p>1 of 20</p>
+<p>Plan Preparation Striping design plans are required for any installation that involves left-turn channelization, or lane lines, barrier lines or centerlines involving convergences, divergences, tapers, curves not parallel to curb lines or offsets. Striping plans identify all other traffic control devices. Striping plans generally shall be prepared by the Geometric Design staff for projects involving City streets. Exceptions are as follows:</p>
+<p> Plans prepared by consultants for private entities as part of the B-Permit process;  Plans prepared by consultants pursuant to an agreement with a governmental agency;  Plans prepared by employees of another governmental agency; and  Projects for which the Bureau Head or higher authority has approved plan preparation by a non-governmental entity. Plan Approval All striping design plans prepared for locations under the jurisdiction of the City of Los Angeles shall be signed as follows:</p>
+<p> By the Section Head of the Geometric Design Section unless that person is absent;  By the Division Head of the Design Division unless that person is absent; and  By the Bureau Head responsible for the Design Division, unless that person has delegated approval authority to the Division Head. Striping design plans submitted by another governmental agency for locations partially under the jurisdiction of the City of Los Angeles shall require the signature of the Bureau Head responsible for the Design Division, or the Division Head if approval authority has been so delegated. The practice of traffic engineering requires that striping design plans be signed and stamped by Civil Engineers registered in the State of California. Accordingly, the final approval authority for plans prepared by the Department shall be so registered and shall sign and stamp said plans. Consultants or other persons preparing or submitting striping design plans to the Department shall be so registered and shall sign and stamp said plans. Consultants submitting plans shall meet two other requirements. First, they must have a Business License in the City of Los Angeles. Second, they must indicate on the plan that the plan has been reviewed by a person who is either registered as a Traffic Engineer in the State of California or who has a Professional Traffic Operations Engineer Certificate issued by the Institute of Transportation Engineers.</p></div>
+<div class="kw">Keywords: plans, design, striping, head, prepared, division, plan, traffic, city, consultants, authority, approval, person, registered</div>
+
+
+<span id="p2" class="anchor"></span>
+
+### Page 2 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Topics: parking-curb, striping, signs</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 2</p>
+<p>Striping Plan Implementation Approved striping plans are to be implemented as shown in the table below: Initiation of Project Installation By Department-Initiated LADOT Field Forces Street Resurfacing LADOT Field Forces B-Permits (Developers) B-Permit Contractor City Contracts &amp; CIP City Contractor Non-City Public Agency Their Contractor or by LADOT Field Forces, per an approved agreement For work otherwise performed by LADOT field forces, elements, such as sandblasting pavement message installation, etc. may be contracted out at LADOT's discretion. For work by contractors on City Streets, LADOT and the Bureau of Contract Administration must inspect and approve the striping. In all cases, the final thermoplastic striping may not be installed until LADOT confirms that the markout is consistent with the signed plan. Plan Format All plans of the Geometric Design Section shall be prepared in the latest version of AutoCAD, as menu-enhanced for use by LADOT, except for those plans exempted by the Bureau Head for emergency purposes. Right-of-way, roadway and lane widths shall be shown at separate cross- sections wherever the dimensions change. All right-of-way and roadway curve radii shall be dimensioned. All striping tapers, tangents, and curve radii (if not parallel to curb) shall be dimensioned. Roadway features, striping and other traffic control devices shall be layered to reflect "existing," "to-be-removed" and "to-be-added" conditions for each stage of construction, using specified line thickness and spacing. Plans shall be on mylar, 24 inches high by 36 inches wide and 3.0 mils (0.003 inch) thick, with a specified border, title block and signature block. The scale shall be one inch equals 40 feet. Up to three minor oversights may be manually corrected on the mylar copy of an AutoCAD plan sheet if the change also has been made on the electronic copy. Plan Review Striping plans are to adhere to the California Manual on Uniform Traffic Control Devices, the California Vehicle Code, LADOT Standard Plans and text herein. In using these sources, optional or "may" conditions are to be determined using engineering judgment. Recommended or "should" conditions are to be incorporated, unless there is a compelling reason to deviate. Mandatory or "shall" conditions are to be followed without exception. In preparing or reviewing striping and channelization plans the Geometric Design Section shall be responsible for ensuring that plans adhere to the above, while incorporating critical information and concerns communicated by District Operations or other units of the Department. In considering all input, the plan shall represent the Geometric Design Section's best recommendation and should add value. Design and operational issues should be coordinated at the Associate III, Section Head or Division Head levels, if necessary, for resolution. After a full discussion of any issues, the operational preference of District Operations generally should prevail if it is consistent with design principles and the Manual of Policies and Procedures.</p></div>
+<div class="kw">Keywords: striping, ladot, plans, plan, section, design, field, forces, conditions, manual, contractor, city, geometric, head</div>
+
+
+<span id="p3" class="anchor"></span>
+
+### Page 3 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Topics: signals, parking-curb, striping, signs, accessibility</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 3</p>
+<p>Plans more than two years old prior to installation should be newly reviewed for any change in field conditions; appropriateness of the proposed striping design previously approved; and application of current design standards. Where changes are necessary, a superseding plan or revision shall be prepared. If it is found to be necessary to install striping not in conformance with the plan, then an AutoCAD modification should be requested immediately by District Operations for preparation by the Geometric Design Section. The Geometric Design Section shall give preparation of the modification its highest priority if it agrees with the change. The modification shall be "rushed" for signature. However, no final striping shall be installed (i.e., beyond the markout stage) unless it is in conformance with the approved (signed) modification plan. Plan Coordination The Geometric Design Section shall be responsible for ensuring that the traffic signal plan is coordinated and compatible with curb, sidewalk and curb ramp features, as well as signal operation and phasing. In this regard, the plan shall be routed to other involved units of the Department, as necessary, including the Signal Design Section and the appropriate LADOT District Office. LADOT District Office concurrence is required for any discretionary operational changes or new installations. Their concurrence shall be indicated by showing the person's initials along with the date in the title box. If the in-progress plan shows significant or operational changes, then it requires rerouting to affected Department units for concurrence with a new date shown on the plan. Special Projects The Geometric Design Section is responsible for understanding how the improvements shown on an individual plan or set of plans contribute to larger projects to which they are integral, such as major developments projects. This knowledge ultimately will lead to improved design decisions. If it is not directly submitted, the Geometric Design Section is responsible for seeking the information. Complex Designs Complex, unusual, novel or trial designs or methods of operation for major projects should be discussed and reviewed by senior management staff before proceeding forward. This procedure will help to ensure that new designs are properly scoped, well developed and not problematic. Plan Processing All plans and related documentation submitted for LADOT review by consultants or other agencies, shall be submitted to the Plan Processing Control Desk of the Design Division which will route the plans to the appropriate project engineer. Plans involving striping and signing submitted by Caltrans or another agency that are part of a larger joint project, shall be submitted first to the lnteragency Coordination Section for evaluation. If suitable for further review, the lnteragency Coordination Section shall subsequently submit them to the Plan Processing Desk or brief the design staff and/or Department management, as appropriate. The Geometric Design Section shall seek from consultants submitting plans justification for any operational changes proposed in the plan. Proposed operational changes shall be justified by realistically projected traffic volumes associated with the immediate phase of land development</p></div>
+<div class="kw">Keywords: plan, design, section, plans, geometric, striping, changes, submitted, department, modification, operational, projects, date, proposed</div>
+
+
+<span id="p4" class="anchor"></span>
+
+### Page 4 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-497.0</strong> &middot; Topics: signals, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 4</p>
+<p>or re-development and yet should anticipate the operational needs for ultimate build-out of the final phase of related land development. Proposed operational changes shall not unduly compromise traffic safety or pedestrian circulation. Plans that are being submitted for approval by consultants shall include two mylar originals and a compact disk. One of the mylar originals is to be returned to the consultant after plan approval. The Geometric Design Section shall check to see that the contents of the compact disk submitted by the consultant are consistent with those on the mylar plan, and that any minor oversights that have been manually corrected on the mylar copy of an AutoCAD plan have been incorporated on the electronic file prior to further processing of the plan. After the plan is approved, the electronic file immediately shall be modified by the Geometric Design Section to show in printed form the names, initials and dates of all persons who were part of the design approval and submittal. As-Built Plans As-Built plans are an important part of the record of field conditions as of a certain date. Striping plans shall timely record the dates for “Mark-out Completed”. The electronic files of said plans shall timely be revised to show the same information. Geometric Design Plan Files All signed and “As-Built” Geometric Design plans (mylars and electronic files) shall be stored in the Geometric Design Section as the City's official record. Superseded "As Built" plans shall be sent to LADOT Records for placement in the archival file. Filed plans shall not be removed from the file except for brief reference or copying. If prolonged reference to a plan is needed then a photocopy or print copy shall be made. Geometric Design Plan Distribution One copy of all signed plans are to be distributed to the appropriate LADOT District Office. In addition, three copies are to be given to the Field Coordination Section for projects involving street resurfacing. Striping Fundamentals The primary function of striping and channelization is to delineate as clearly as possible the intended operation and desired travel paths. Materials used for channelization include:</p>
+<p> Raised curb or berm for medians and islands;  Raised ceramic and reflective pavement markers;  Delineator posts;  Painted striping;  Permanent and detour grade pavement marking tape; and  Alkyd-based thermoplastic striping; Raised median islands can be used to prohibit left turns, separate opposing flows and provide landscaping opportunities. However, at signalized intersections they sometimes can create negatively offset left turns with restricted visibility. In some cases they should be partially removed at signalized intersections, as discussed in S-497.0.</p></div>
+<div class="kw">Keywords: plans, plan, design, striping, geometric, section, mylar, electronic, file, channelization, approval, copy, as-built, record</div>
+
+
+<span id="p5" class="anchor"></span>
+
+### Page 5 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Topics: crosswalks, signals, parking-curb, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 5</p>
+<p>Raised ceramic pavement markers may be selectively used where striping requires excessive maintenance. Raised reflective pavement markers may be selectively used where modern street lighting does not exist. Flexible delineator posts can be used to delineate the edge of roadway that lacks conventional curbs and modern street lighting. Painted striping is the most common form of pavement delineation in most jurisdictions. However, it requires frequent maintenance. Permanent pavement marking tape may be used to replace short sections of striping that have been removed due to minor street excavations. Detour grade pavement marking tape may be used to cover existing striping and to delineate detour striping for periods of six months or less. It is easily installed and removed. Alkyd-based thermoplastic striping is the primary form of pavement delineation in the City of Los Angeles and has a five to ten year service life. However, a primer is required to ensure adhesion on Portland cement concrete surfaces. See Table 1, "Application of Striping and Marking Components," which summarizes the use of each type of traffic stripe. Striping on Narrow or Lower Volume Streets Striping generally is not necessary on low volume local streets. On collector streets a skip centerline should be provided, as width permits. (See Lane Widths). A double yellow-centerline should be provided instead of a skip centerline, as follows:</p>
+<p> Where horizontal or vertical alignment limits sight distance below that which is appropriate for the design speed.  Within 50 to 200 feet of a Stop sign, traffic signal or marked crosswalk.  Within 50 to 200 feet of a taper and along the length of the taper. A double yellow centerline or partial passing centerline shall be provided instead of a skip centerline where two or more lanes are striped in one direction, with one lane in the other direction. Where a partial passing centerline is used, the skip yellow stripe shall be for the direction with one lane. On streets with two or more lanes in each direction a double yellow centerline, raised median island or left turn channelization shall be provided. Left-Turn Channelization Left-turn channelization is the single most effective tool for improving operation and reducing accidents, such as rear-end, side-swipe, head-on and left-turn types. It is delineated by the two- way left-turn lane, the (unidirectional) left-turn pocket and the striped median. Generally, it is desirable for all arterial streets to operate with at least two lanes in each direction and left-turn channelization (five-lane operation). Where continuous channelization is not feasible due to width restrictions, every effort should be made to install left-turn pockets at signalized intersections, or alternatively, to restrict left turns. Generally, a five-lane operation has been shown to operate more smoothly than a six-lane operation without channelization, where the width permits. A three-</p></div>
+<div class="kw">Keywords: striping, channelization, centerline, left-turn, pavement, streets, direction, skip, provided, lane, operation, raised, street, marking</div>
+
+
+<span id="p6" class="anchor"></span>
+
+### Page 6 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-401.0</strong>, <strong>S-401.1</strong>, <strong>S-414.4</strong>, <strong>S-497.0</strong> &middot; Topics: signals, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 6</p>
+<p>lane operation has been shown to operate more smoothly than a two-lane off peak/four lane peak operation with fronting development, where the width permits. The designer of striping and channelization needs to consider the benefits above when a street is being reviewed for striping improvements. In addition, the designer needs to carefully consider the trade-offs between the appropriate and achievable lengths of left turn pockets at intersections versus those for two-way left-turn lanes (2WLTL) to serve mid-block driveways. All left-turn lanes at intersections should be "shadowed," so that the departure side of a mandatory left-turn lane is a left-turn lane in the opposite direction, a striped median or a raised median. Where 2WLT's are being considered in a hillside area or on a street with steep grades or sharp crest or sag vertical curvature, the sight distance should be field checked to ensure that opposing motorists can see each other. If there is any doubt, civil engineering profiles and vertical sight distance formulas should be used for verification. If sight distance is inadequate then a striped median shall be used instead of a 2WLTL. Generally, the following minimum storage lengths of fully shadowed left-turn channelization should be utilized: Two Way Left Turn Lane (2WLTL): 30 feet Collector Street at non-signalized intersection: 40 feet Collector Street at signalized intersection: 60 feet Arterial Street at non-signalized intersection: 40 feet Arterial Street at signalized Collector Street: 60 feet Arterial Street at signalized Arterial Street: 100 feet Where these storage lengths are not feasible, traffic often can spillover into the number one through lane. In these instances, left turn restrictions rather than left-turn lanes should be considered. Multiple left-turn lanes require special design considerations at standard intersections (i.e. two- way streets, four legs and right angle alignment). They present unique challenges to the ability of left-turn motorists to see opposing through traffic and pedestrians in the receptive leg of the intersection. Accordingly, dual left-turn lanes at standard intersections shall have protected left- turn phasing. A left-through lane adjacent to a left turn lane presents the same challenges. In addition, this operation can result in lane blockage as left-turn motorists wait for gaps in opposing traffic. Accordingly, the entire approach shall be phased separately from that for opposing traffic. In addition, this operation should be phased separately from that for pedestrians. Applications of left-turn channelization are shown in S-401.0, S-401.1 and S-414.4. Visibility requirements for motorists in left-turn lanes are shown in S-497.0. Right-Turn Channelization All right-turn lanes should be "shadowed" on the far-side of intersections. Shadowing for a right turn lane includes an undelineated curb lane, reduced roadway width, a raised island, or a striped island on the departure side. A receptive through lane on the far side of an intersection directly opposite a right-turn only lane can result in confusion and or misuse of the turn lane. Physical gores for divergences or right turn lanes should be preceded by painted gores which, in turn, should be preceded by barrier lines. In trap lane situations, the barrier line is preceded by lane drop striping which is, in turn, preceded by standard lane lines. This hierarchy of striping helps to alert motorists of changing conditions.</p></div>
+<div class="kw">Keywords: lane, left-turn, turn, street, lanes, feet, striping, channelization, intersections, motorists, intersection, operation, left, opposing</div>
+
+
+<span id="p7" class="anchor"></span>
+
+### Page 7 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-494.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> W16-7p <a class="sref" href="/SoCal-Super-Standards/signs/w4-1/" data-svg="/SoCal-Super-Standards/signs/W4-1.svg">W4-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/w4-2/" data-svg="/SoCal-Super-Standards/signs/W4-2.svg">W4-2</a> <a class="sref" href="/SoCal-Super-Standards/signs/w4-3/" data-svg="/SoCal-Super-Standards/signs/W4-3.svg">W4-3</a> &middot; Topics: crosswalks, signals, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 7</p>
+<p>Multiple right turn lanes require special design considerations. Dual right-turn lanes and right plus right-through lanes present challenges to the ability of motorists to see pedestrians in the receptive leg of the intersection. Accordingly, they should be phased separately from that for pedestrians or evaluated as to necessity. Channelized right turns having raised triangular islands, which separate them from adjacent lanes under traffic signal control, can have several types of control. Generally, they are controlled by <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> (Yield) signs. However, where the approach speeds are 10 miles per hour or below, visibility is restricted or pedestrian volume is high, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> (Stop) sign control is used. Where there is sufficient longitudinal distance for acceleration a <a class="sref" href="/SoCal-Super-Standards/signs/w4-1/" data-svg="/SoCal-Super-Standards/signs/W4-1.svg">W4-1</a> (Merge) sign is posted on the receptive leg of the intersection and a <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> and W16-7p (Pedestrian Crossing) sign is posted at the diagonal marked crosswalk near the middle of the raised island. Where the channelized right turn forms a continuous added lane on the receptive leg of the intersection a <a class="sref" href="/SoCal-Super-Standards/signs/w4-3/" data-svg="/SoCal-Super-Standards/signs/W4-3.svg">W4-3</a> (Added Lane) sign is posted along with a <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> and W16-7p sign as described above. <a class="sref" href="/SoCal-Super-Standards/signs/w4-2/" data-svg="/SoCal-Super-Standards/signs/W4-2.svg">W4-2</a> (Lane Drop) signs are not used for channelized right turns. The alternative types of control shall not be mixed. See S-494.0 &amp; S- 494.1 for specific details. Lane Widths Lane widths are measured from the center of a striped line to the center of an adjacent striped line and from the center of a striped line to the curb (flow line). Generally, all raised islands should have edge line striping and all arterial streets lacking standard curb should have edge line striping. The City of Los Angeles generally observes various published Federal and State guidelines regarding geometric designs for streets and roadways, such that the applications of such guidelines must also conform to the City’s Mobility Plan and City-adopted context-sensitive guidelines. As such, the following table illustrates the practice of the Los Angeles Department of Transportation.</p>
+<p>Standard Lane Widths Application Desirable Minimum Left Edge Line Raised Center Median</p>
+<p>1’ from curb</p>
+<p>1’ from curb</p>
+<p>Right Edge Line w/o Curb</p>
+<p>1’ from pvmt edge 1’ from pvmt edge</p>
+<p>Interior Thru Lane- 35mph &amp; Below</p>
+<p>10’ 9’</p>
+<p>Interior Thru Lane - 40 mph &amp; Above</p>
+<p>10’ - 11’ 10’</p></div>
+<div class="kw">Keywords: line, lane, right, edge, sign, curb, lanes, raised, control, center, striping, receptive, intersection, channelized</div>
+
+
+<span id="p8" class="anchor"></span>
+
+### Page 8 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-405.0</strong> &middot; Topics: bikeways, transit, parking-curb, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 8</p>
+<p>Standard Lane Widths (cont’d)</p>
+<p>Application Desirable Minimum Interior Thru Lane - High truck/bus volume</p>
+<p>11’ 10’</p>
+<p>Interior Thru Lane- Adj. to Bike Lane</p>
+<p>11’ 10.5’</p>
+<p>Left Turn Lane</p>
+<p>10’ 9’</p>
+<p>2-Way Turn Lane</p>
+<p>10’ 9’</p>
+<p>Curb Lane-No Parking</p>
+<p>11’ - 13’ 10’</p>
+<p>Curb Lane w/Parking</p>
+<p>18’- 20’ 18’</p>
+<p>Curb Lane w/Parking &amp; Residential Local/Collector Streets 25mph or less Curb Lane w/ Parking &amp; Continuous Edge Line</p>
+<p>18’ 18’ - 20’</p>
+<p>17’ 17’ (7’+10’)</p>
+<p>Curb Bike Lane 6’ - 7’ with gutter 5’ - 6’ no gutter 5’ with gutter 4’ no gutter</p>
+<p>Bike Lane w/Parking &amp; Continuous Edge Line</p>
+<p>14’ - 15’ 12’</p>
+<p>Interior Bike Lane 6’ 4’ Bus Lane 12’ 10’ Intersection Striping Striping generally is discontinuous through intersections. However, multiple turn lanes, curves, tapers or offsets at or near intersections require supplemental delineation in order to reduce the probability of side swipe or head-on accidents. Continuous (unbroken) striping through intersections generally is not used for this purpose, as it would eliminate an important clue relating to intersection presence. Accordingly, short lengths of broken lines, known as "cat-tracks" are used within intersections, where additional delineation is needed. See S-405.0 for specific details.</p></div>
+<div class="kw">Keywords: lane, curb, parking, striping, bike, gutter, intersections, interior, turn, continuous, application, thru, edge, line</div>
+
+
+<span id="p9" class="anchor"></span>
+
+### Page 9 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-481.0</strong>, <strong>S-490.0</strong>, <strong>S-493.0</strong> &middot; Signs: W1-1a W13-1 &middot; Topics: crosswalks, signals, parking-curb, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 9</p>
+<p>Marked Crosswalks Marked crosswalks shall be installed where:  Pedestrians are allowed to cross at signalized intersections  A pedestrian crossing is necessary, but a legal un-marked crosswalk does not otherwise exist, as per Section 275(a) of the Vehicle Code. They may be installed at locations satisfying Section 275(a) of the Vehicle Code where:</p>
+<p> Pedestrian crossings are frequent and the warning devices associated with the marked crosswalk will so advise motorists.  It is desired to advise pedestrians of a preferred crossing; or  It is desired to channelize pedestrians to a single crossing. Marked Crosswalks shall be aligned so that they meet two criteria:</p>
+<p> There is a buffer zone between the edge of the marked crosswalk and the adjacent lane of parallel traffic. Acceptable buffer zones include all-day parking lanes, right-turn lanes, curb lanes of 14 feet or greater, or, with narrower curb lanes, a 2-foot set back from the curb line extended.  The area between the middle of the curb return and the point of intersection of the crosswalk lines is not so great so as to inadvertently invite pedestrians to wait in the street. See S-490.0 for specific details on aligning crosswalks. Marked crosswalks across uncontrolled approaches should be installed with discretion. Because some pedestrians may be over-confident that motorists will yield to them, a full complement of traffic controls is necessary to advise motorists of the marked crosswalk. S-481.0 is used for this situation and shows advance and intersectional signing and pavement messages. Most importantly, it requires approach red curb necessary for motorists to see pedestrians entering the roadway from a safe stopping distance. Continental-style markings enhance the visibility of marked crosswalks and they shall be used at uncontrolled approaches on arterial and high-volume collector streets and at all midblock crossing locations, unless the crosswalk has a stamped thermoplastic pattern. Also see S-493.0 regarding crosswalk locations. Curves Curves in the roadway can present special challenges to motorists, which in turn may require special traffic control devices. Where the design speed of the curve is greater than the speed limit and street lighting is provided then curve warning signing is not necessary. Otherwise, it should be provided. Where the design speed of the curve is less than the speed limit then the curve warning signs should be supplemented with advisory speed (W13-1) signs. Curves with a central angle of 90 degrees or more should be posted with W1-1a orW1-2a signs.</p></div>
+<div class="kw">Keywords: marked, crosswalk, crosswalks, pedestrians, motorists, curb, speed, crossing, necessary, lanes, curve, special, signing, section</div>
+
+
+<span id="p10" class="anchor"></span>
+
+### Page 10 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-100.0</strong>, <strong>S-405.0</strong>, <strong>S-497.0</strong>, <strong>S-501.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/w1-1/" data-svg="/SoCal-Super-Standards/signs/W1-1.svg">W1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/w1-2/" data-svg="/SoCal-Super-Standards/signs/W1-2.svg">W1-2</a> <a class="sref" href="/SoCal-Super-Standards/signs/w1-3/" data-svg="/SoCal-Super-Standards/signs/W1-3.svg">W1-3</a> <a class="sref" href="/SoCal-Super-Standards/signs/w1-4/" data-svg="/SoCal-Super-Standards/signs/W1-4.svg">W1-4</a> <a class="sref" href="/SoCal-Super-Standards/signs/w1-6/" data-svg="/SoCal-Super-Standards/signs/W1-6.svg">W1-6</a> <a class="sref" href="/SoCal-Super-Standards/signs/w1-8/" data-svg="/SoCal-Super-Standards/signs/W1-8.svg">W1-8</a> &middot; Topics: transit, signals, parking-curb, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 10</p>
+<p>The table below can be used as a guide to determine the approximate design speeds and appropriate warning signing for curves:</p>
+<p>Approximate Design Speed</p>
+<p>Centerline Radius</p>
+<p>Curve Warning Signs 15 mi/hr 50 feet <a class="sref" href="/SoCal-Super-Standards/signs/w1-1/" data-svg="/SoCal-Super-Standards/signs/W1-1.svg">W1-1</a> or <a class="sref" href="/SoCal-Super-Standards/signs/w1-3/" data-svg="/SoCal-Super-Standards/signs/W1-3.svg">W1-3</a> 20 150 “ 25 250 “ 30 400 “ 35 600 <a class="sref" href="/SoCal-Super-Standards/signs/w1-2/" data-svg="/SoCal-Super-Standards/signs/W1-2.svg">W1-2</a> or <a class="sref" href="/SoCal-Super-Standards/signs/w1-4/" data-svg="/SoCal-Super-Standards/signs/W1-4.svg">W1-4</a> 40 800 “ 45 1,000 “ 50 1,400 “ 55 1,800 “ In addition to the above signing, other curve-related signs may be required. For curves where the difference between the design speed and speed limit is 10 miles per hour or greater <a class="sref" href="/SoCal-Super-Standards/signs/w1-6/" data-svg="/SoCal-Super-Standards/signs/W1-6.svg">W1-6</a> or W1- 8 signing should be considered. <a class="sref" href="/SoCal-Super-Standards/signs/w1-6/" data-svg="/SoCal-Super-Standards/signs/W1-6.svg">W1-6</a> signs should be used for relatively short lengths of curve and should be installed singly facing head-on traffic. <a class="sref" href="/SoCal-Super-Standards/signs/w1-8/" data-svg="/SoCal-Super-Standards/signs/W1-8.svg">W1-8</a> signs should be used to emphasize longer curves and ideally should be spaced so that a minimum of three are in view throughout the curve. See S-501.0 for application of <a class="sref" href="/SoCal-Super-Standards/signs/w1-8/" data-svg="/SoCal-Super-Standards/signs/W1-8.svg">W1-8</a> signs. Curves at intersections may require intersection striping as per S-405.0 and protected left-turn phasing as per S-497.0. Transitions Angle-point tapers are the most common method for implementing a transition. However, the curve-tangent-curve (C-T-C) method provides a smoother transition and, in some cases, provides a shorter length of transition than does tapering. On arterial streets the curve radii should be provided as shown above. In addition, the minimum length of the C-T-C tangent should be two seconds of travel time at the design speed. However, it shall not be less than 50 feet. Compound tapers shall not be used. Where a non-arterial street has a jogged alignment at a traffic signalized intersection reverse curve cat-tracking should be provided as per S-100.0. A tangent may be deleted in this situation. Posted speed limits and their associated minimum taper rates are shown below. The taper rates shown reflect a speed that is 5 mph above the posted speed limit. Generally, a higher five-unit increment such as 25 to 1, 30 to 1, etc. should be used, unless there would be a significant adverse impact to curb parking spaces.</p>
+<p>Posted Speed Limit, mph</p>
+<p>Minimum Taper Rate 25 15 to 1 30 20.5 to 1 35 26.7 to 1 40 45 to 1 45 50 to 1 50 55 to 1 55 60 to 1</p></div>
+<div class="kw">Keywords: speed, curve, signs, signing, design, curves, minimum, above, limit, transition, shown, posted, taper, application</div>
+
+
+<span id="p11" class="anchor"></span>
+
+### Page 11 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-485.0</strong>, <strong>S-491.0</strong> &middot; Topics: bikeways, transit, signals, parking-curb, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 11</p>
+<p>Bikeways Where feasible, bikeways are installed to provide a network to encourage use. Users tend to fall into four categories: recreational users, school children, college students and commuters. Many of the City's bikeways are located near recreational parks and playgrounds, areas of scenic beauty, schools and colleges and efforts are underway to develop a broader network. Bikeways fall into three following categories: Class 1 bikeways are off-street paths, which can be used by bicyclists and pedestrians, and usually are found in recreational areas where right-of-way is available. These tend to include parks, beach areas, and flood control channels. Class 2 bikeways are on-street bike lanes. They are appropriate along arterial streets where it is believed that a potential user demand exists, where the street is sufficiently wide to allow the addition of bike lanes and where a policy decision has been made that bike lanes are a higher priority than any future addition of vehicle lanes. Class 3 bikeways are signed routes with no separate lanes. They are appropriate along low volume residential and collector streets where there is inadequate width for separate bike lanes. They sometimes may be appropriate along short segments of higher volume arterial streets where they provide continuity to longer reaches of bike lanes and bike paths. Lane Additions Short lengths of added through lanes generally are not advisable because they must terminate abruptly, resulting in weaving sections which can compromise the safety and capacity of the adjacent lane. Thus, they should not be developed for lengths less than one-half mile. In such cases, right-turn lanes may provide a better operation. Generally, on two-way streets added through lanes should be designed to start on the right side of the street and there should be only one lane added per block. On one-way streets added through lanes may be designed to start on the right or left side of the street, but there should be only one lane added per side per block. Where right-turn-only lanes that are less than 18 feet wide are added, they should be preceded by 80 feet of red curb so as to allow unobstructed entry into the lane. Where there would be significant adverse impact to curb parking availability then no less than 40 feet of red curb shall be used. Lane Reductions Lanes are reduced by lane dropping or by mandatory turns or divergences. Both methods require a sufficient length of unobstructed downstream reception width to allow the motorist to understand the situation, seek a gap in the adjacent lane and transition from the discontinued lane to the adjacent lane, as per S-485.0 and S-491.0. Note that S-485.0 shows a series of posted warning signs and pavement arrows, while S-491.0 also shows a series of posted signs and "elephant track" striping in order to meet this objective. Mandatory turn lanes that are necessary for lane reductions should terminate at signalized arterial intersections and not at local or collector streets. When a bottleneck restriction is being eliminated the designer should evaluate the striping for one-half mile in each direction. This evaluation will help to determine if lane reductions were necessitated by the bottleneck restriction and if the lane reduction can be eliminated, thus resulting in a consistent number of lanes.</p></div>
+<div class="kw">Keywords: lanes, lane, bikeways, they, bike, streets, added, striping, provide, recreational, areas, class, appropriate, along</div>
+
+
+<span id="p12" class="anchor"></span>
+
+### Page 12 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-440.0</strong>, <strong>S-444.0</strong>, <strong>S-456.0</strong>, <strong>S-481.0</strong>, <strong>S-487.0</strong>, <strong>S-493.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r10-6/" data-svg="/SoCal-Super-Standards/signs/R10-6.svg">R10-6</a> <a class="sref" href="/SoCal-Super-Standards/signs/r10-7/" data-svg="/SoCal-Super-Standards/signs/R10-7.svg">R10-7</a> <a class="sref" href="/SoCal-Super-Standards/signs/r8-8/" data-svg="/SoCal-Super-Standards/signs/R8-8.svg">R8-8</a> <a class="sref" href="/SoCal-Super-Standards/signs/w3-1/" data-svg="/SoCal-Super-Standards/signs/W3-1.svg">W3-1</a> &middot; Topics: crosswalks, transit, parking-curb, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 12</p>
+<p>Pavement Messages and Symbols The size and shape of pavement message and symbols shall be consistent with those shown in the California Manual on Uniform Traffic Control Devices. Where Stop sign control is utilized for the through and left-turn lanes on arterial and high volume collector streets "Stop" pavement messages should be installed at the limit lines and advance Stop Ahead" pavement messages and signing should be installed on the approaches to supplement <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w3-1/" data-svg="/SoCal-Super-Standards/signs/W3-1.svg">W3-1</a> signing. "Wait Here" pavement messages should be installed in conjunction with the limit lines where:</p>
+<p> the stopping point is not at the marked crosswalk;  pedestrian crossings are prohibited and the speed limit is 45 miles-per-hour or greater; or  pedestrian crossings are prohibited and the intersection has an unusual alignment, such as a skew. Pavement arrows are installed at the beginning of turn and optional turn lanes. They also are installed mid-length in long turn lanes. See S-456.0 for specific details. "Keep Clear" pavement messages supplement regulatory signs, such as <a class="sref" href="/SoCal-Super-Standards/signs/r8-8/" data-svg="/SoCal-Super-Standards/signs/R8-8.svg">R8-8</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r10-7/" data-svg="/SoCal-Super-Standards/signs/R10-7.svg">R10-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/r10-6/" data-svg="/SoCal-Super-Standards/signs/R10-6.svg">R10-6</a> signs. Otherwise, they are advisory and unenforceable. Some applications are shown in S-493.0. Angle Parking Angle parking is parking that is not parallel to the curb and is considered where the number of curb parking spaces is inadequate. Motorists using angle parking spaces must exercise additional caution when backing out, as compared with parallel curb spaces, due to limited sight distance. For this reason, they are acceptable on residential and collector streets because speeds are relatively low and motorists tend to expect local access interruptions. However, on higher speed arterial streets sight distance may be inadequate with conventional angle parking design and a backing vehicle tends to be an unexpected condition. Accordingly, angle parking is permissible on arterial streets only where there is sufficient receptive room to accommodate the backing vehicle without crossing into a lane. On-street angle parking dimensions use off-street parking lot dimensions, as established in the Municipal Code. See S-440.0 for the dimensions associated with angle parking. The dimensions assume a 2-foot overhang beyond the curb. In addition, they provide a buffer area between the back of vehicle and the lane, so as to accommodate rear vehicle loading. Angle parking requires additional red curb on the approaches to Stop signs, as indicated in S-481.0. Narrowed Roadways Roadways that suddenly narrow can present a surprise situation for unfamiliar motorists. A combination of special striping and sign is used to advise of this condition, as shown in S-444.0. Exclusive Bus Lanes Exclusive bus lanes are relatively rare and tend to be confined to the Central Business District. Special striping, pavement markings and signing helps alert unfamiliar motorists to their exclusive use. See S-487.0.</p></div>
+<div class="kw">Keywords: parking, pavement, angle, messages, lanes, installed, curb, signing, stop, streets, they, motorists, vehicle, dimensions</div>
+
+
+<span id="p13" class="anchor"></span>
+
+### Page 13 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-100.0</strong>, <strong>S-418.5</strong>, <strong>S-418.6</strong>, <strong>S-476.1</strong>, <strong>S-483.0</strong> &middot; Topics: signals, parking-curb, speed-calming, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 13</p>
+<p>Speed Humps Speed humps can be considered for use on non-arterial streets which experience speeding problems. They encourage motorists to drive slower and/or to use alternate arterial streets for through travel. Distinctive markings and signing are used to advise motorists of this special roadway feature. They are shown in S-483.0. Signalized Jogged Intersections The design of signalized jogged intersections is one of the most complex tasks in traffic engineering. Motorists can face the following challenges from one or more of the four approaches to a signalized jogged intersection:</p>
+<p> Pedestrians might not be seen early-on.  Opposing vehicles might not be seen early-on.  Opposing left turns interlock.  A reverse turn maneuver versus a single turn cannot readily be distinguished.  Motorists must determine if there is one versus two intersections and how to respond at each. These challenges can be mitigated by providing a full complement of controls and applying them in a uniform manner. S-100.0 shows the options available for a variety of conditions. A primary consideration is whether or not to provide interior limit lines, so as to create two intersections. If the internal storage is 40 feet or more then interior limit lines are to be provided. A second consideration is whether or not to provide exclusive or semi-exclusive phasing for the jogged approaches, due to the challenges resulting from the physical separation. If opposing motorists are separated by more than 20 degrees, then some type of exclusive phasing is to be provided. Finally, a third consideration is whether the streets are offset to the left or offset to the right of each other. Offset-left locations may require slot clearance and protected left-turn phasing. Offset- right locations may require special treatment to overcome left-turn interlock. The striping, signal phasing and placement of signal heads is determined from the above considerations and the specific geometry of the intersection. Freeway Guide Signs Freeway guide signs generally fall into two categories - "lane assignment" and "action". Due to the various types of on-ramp configurations, some freeways can be entered from the right lane while others can be entered from the left lane. Accordingly, multi-lane streets having access to freeways shall be posted with "lane assignment" signs. "Action" freeway guide signs are an essential follow-up to "lane assignment" signs. Generally, overhead signing is the most effective means of communicating freeway access to motorists. Roadside guide signing on the right or in a raised median can be used where overhead signing is not immediately feasible. However, roadside guide signing has limited area for text and may require more signs for communicating lane assignment. See S-476.1 which shows the maximum sign area that may be installed for various postings. The various formats for freeway guide signing are shown in S-418.5 and S-418.6.</p></div>
+<div class="kw">Keywords: signing, motorists, guide, signs, lane, freeway, streets, jogged, intersections, phasing, right, assignment, special, signalized</div>
+
+
+<span id="p14" class="anchor"></span>
+
+### Page 14 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-221.3</strong>, <strong>S-418.6</strong>, <strong>S-438.0</strong>, <strong>S-446.0</strong>, <strong>S-486.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/om4-3/" data-svg="/SoCal-Super-Standards/signs/OM4-3.svg">OM4-3</a> <a class="sref" href="/SoCal-Super-Standards/signs/r6-1/" data-svg="/SoCal-Super-Standards/signs/R6-1__Sheet_1_of_2.svg">R6-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/w14-1/" data-svg="/SoCal-Super-Standards/signs/W14-1.svg">W14-1</a> &middot; Topics: transit, signals, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 14</p>
+<p>Overhead Guide Signs Overhead guide signs provide a high degree of visibility to forewarn and direct motorists on multilane approaches of access or lane assignment conditions that generally cannot be anticipated. Conditions include:</p>
+<p> Divergent arterial roadways  Skewed arterial approaches  Unshadowed left-turn lanes  Arterial grade separations, including freeways  Bus and/or carpool lanes  Street name or sign route changes  End of one-way operation These situations are illustrated in S-418.6. Street Name Signs In the City of Los Angeles street name signs shall be posted at all intersections on the near right of each approach. The format is shown in S-438.0. The various applications are shown in S-221.3. At signalized intersections supplemental large street name signs are to be posted as per S-486.0. One-Way Signs At signalized intersections with one-way streets the large supplemental street name signs are to be further supplemented with large <a class="sref" href="/SoCal-Super-Standards/signs/r6-1/" data-svg="/SoCal-Super-Standards/signs/R6-1__Sheet_1_of_2.svg">R6-1</a> (One-Way) signs as shown in S- 473.0. End of Roadway W31 (CA) (End) signs and <a class="sref" href="/SoCal-Super-Standards/signs/om4-3/" data-svg="/SoCal-Super-Standards/signs/OM4-3.svg">OM4-3</a> signs should be used at the termini of streets lacking cul-de- sac designs and on streets with cul-de-sac designs, where the frontage of the cul-de-sac is not fully developed. See S-446.0. At the beginning of the block preceding the terminus a <a class="sref" href="/SoCal-Super-Standards/signs/w14-1/" data-svg="/SoCal-Super-Standards/signs/W14-1.svg">W14-1</a> (Dead End) sign should be posted. In addition, striping, if any, should be terminated 100 feet or more in advance to provide another clue as to its discontinuity. Roadway Objects Non-yielding fixed objects within the roadway should be avoided wherever feasible, so as to provide a forgiving roadway environment. However, where not feasible nonyielding fixed objects should be provided with impact attenuators.</p></div>
+<div class="kw">Keywords: signs, street, name, one-way, roadway, provide, arterial, posted, intersections, shown, large, streets, objects, striping</div>
+
+
+<span id="p15" class="anchor"></span>
+
+### Page 15 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-502.0</strong> &middot; Topics: signals, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 15</p>
+<p>Landscaping Trees within the public right-of-way should be located so that the visibility of traffic signs and traffic signals is not impaired when the trees mature. New roadside trees shall not be planted within 50 feet of the approach to a Stop sign or signalized intersection nor within 25 feet of the departure from such an intersection. Landscaped islands should be considered only on straight roadway alignments, or large radius curves. The minimum median width for islands with trees or other fixed objects shall be 7 feet (6- foot planting space). The island curb shall be designed to provide a striped centerline or edge line at least one-foot from the curb, with a preferred offset of two feet. The island ends shall be rounded, with a half circle curve not less than 2 feet in radius. The minimum length of an individual island should be 100 feet. Plantings on islands should be limited to a maximum mature height of 3 feet wherever driver visibility is required, particularly near traffic signals or other traffic controls. Trees, monument signs or other streetscape features should be located no closer than 50 feet from the nose of the median island, if it is near an intersection. Planted trees should be centered between the two sides of the island. City Limit and Community District/Name Signs S-502.0 shows the standard format for City Limit ("City of Los Angeles") and Community Name/District signs. In some cases, neighborhood groups may desire distinctive, unique signing. Specifications and guidelines are shown for these signs in S-502.0. The Department will allow these signs to be posted in accordance with the provisions in S-502.0 and a Street Use Permit. However, due to their unique nature and the multitude of designs, the Department will not inventory nor maintain them.</p></div>
+<div class="kw">Keywords: feet, trees, signs, island, traffic, department, intersection, islands, city, signing, located, visibility, signals, mature</div>
+
+
+<span id="p16" class="anchor"></span>
+
+### Page 16 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Topics: signals, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 16</p>
+<p>Table 1 Application of Striping and Pavement Markings</p>
+<p>Striping/Marking</p>
+<p>Component Application</p>
+<p>Reference to</p>
+<p>California</p>
+<p>MUTCD</p>
+<p>Skip Centerline Allows passing of opposing traffic on two lane streets.</p>
+<p>Figure 3A-101 (CA), Detail 1 and Figure 3B-1, a</p>
+<p>Partial Passing Centerline</p>
+<p>Allows passing of opposing traffic generally on two-lane streets from one direction only.</p>
+<p>Figure 3A-103 (CA), Detail 15 and Figure 3B-3, a</p>
+<p>Double Yellow Centerline</p>
+<p>Prohibits passing of opposing traffic, but allows crossing.</p>
+<p>Figure 3A-104 (CA), Detail 21 and Figure 3B-2, a</p>
+<p>Striped Median</p>
+<p>Striping that separates opposing traffic flows and prohibits passing and crossing. Internal separation must be at least two feet for enforcement.</p>
+<p>Figure 3A-107 (CA), Detail 28 and Figure 3B-4</p>
+<p>Two-Way Left-Turn Lane (2WLTL)</p>
+<p>Provides midblock left-turn storage. May be used at non-signalized intersections to provide storage for both intersectional left turns and nearby driveways from the other direction.</p>
+<p>Figure 3A-108 (CA), Detail 31 and Figure 3B-7 (CA)</p>
+<p>Left Edge Line Delineates the left edge of roadway or median and is parallel to the edge of roadway.</p>
+<p>Figure 3A-105 (CA), Detail 24 Left Channelization Line</p>
+<p>Delineates left edge of travel path where it is not parallel to the edge of roadway.</p>
+<p>Figure 3A-104 (CA), Detail 21</p>
+<p>Cigar Nose</p>
+<p>Delineates a tapered striped median at "T" intersection crossings. It is commonly used where the left-turn radius from the stem roadway of the "T" is less than 70 feet or where it is not necessary to provide left-turn storage into driveways near the top of the "T" via a 2WLTL.</p>
+<p>Figure 3B-2, b</p>
+<p>Reversal</p>
+<p>Identifies and provides the reverse curve travel path into a unidirectional left-turn lane or a 2WLTL. Figure 3B-2, b</p>
+<p>Left Edge Cross Hatch</p>
+<p>Provides emphasis in striped medians or between the left edge of roadway and Left Channelization Line or Left Edge Line, at least 5 feet in width. Also, it clarifies that the area is not part of the traveled way. Is aligned at 45 degrees diagonally forward with respect to the direction of travel.</p>
+<p>Figures 3B-5</p>
+<p>Reversible Lane Marking</p>
+<p>Delineates a lane that is reversed in directional flow during various times of the day. Figure 3B-6</p>
+<p>Lane Line Separates concurrent through lanes. Figure 3A-102 (CA), Detail 8</p>
+<p>Barrier Line Separates turn lanes from through lanes or other turn lanes.</p>
+<p>Figure 3A-112 (CA), Detail 38A</p>
+<p>Right Edge Line Delineates the right edge of roadway and is parallel to the edge of roadway.</p>
+<p>Figure 3A-106 (CA), Detail 27B Right Channelization Line</p>
+<p>Delineates right edge of travel path where it is not parallel to the edge or roadway.</p>
+<p>Figure 3A-112 (CA), Detail 38A</p></div>
+<div class="kw">Keywords: figure, edge, detail, left, line, roadway, lane, delineates, passing, left-turn, striping, channelization, opposing, traffic</div>
+
+
+<span id="p17" class="anchor"></span>
+
+### Page 17 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-405.0</strong>, <strong>S-444.0</strong>, <strong>S-490.0</strong>, <strong>S-491.0</strong>, <strong>S-493.0</strong> &middot; Topics: crosswalks, bikeways, transit, signals, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 17</p>
+<p>Table 1 - Application of Striping and Pavement Markings (Cont’d)</p>
+<p>Striped Island</p>
+<p>Physically separates converging or diverging traffic flows and prohibits vehicular crossing. Internal separation must be at least 2 feet for enforcement.</p>
+<p>Figure 3B-8 (CA), 3B-9 (CA), 3B-12 and 3B-15</p>
+<p>Lane Drop Line or "Elephant Track"</p>
+<p>Transition striping for an entrapped-turn lane or an advance turn lane. See S-491.0.</p>
+<p>Figure 3A-111 (CA), Detail 37B and Figure 3B-11 (CA)</p>
+<p>Bike Lane Line</p>
+<p>Separates the travel path between bicycles and motor vehicles. The Bike Lane Line is broken at least 96' upstream of the intersection in order to identify where right turning motor vehicles may cross the bicycle lane.</p>
+<p>Figure 3A-112 (CA) Details 39 and 39A, and Figure 9C-6</p>
+<p>Right Edge Cross- Hatch</p>
+<p>Provides emphasis in striped islands or between the right edge of roadway and Right Channelization Line or Right Edge Line, at least 5-feet in width. Also, it clarifies that the area is not part of the traveled way. Is aligned at 45 degrees diagonally forward with respect to the direction of travel. See S-444.0 and 485.0</p>
+<p>(Not Shown)</p>
+<p>Chevron</p>
+<p>Provides emphasis within a striped island or a gore area at least 5 feet in width where concurrent traffic travels on either side. See S- 493.0, Sheets 5 and 6 of 7.</p>
+<p>Figure 3B-12 and 3B-15, c</p>
+<p>Hook (Wrap) and Bar</p>
+<p>Used at the downstream end of a Barrier Line for a Trap Turn Lane, where the adjacent lane is a through lane. Where the adjacent lane is a concurrent turn lane the Bar is not used. See S- 491.0 and S-405.0.</p>
+<p>Figure 3B-13, d</p>
+<p>Crosswalk (Marked)</p>
+<p>Emphasizes the legal crosswalk at signalized intersections, indicates a preferred legal crosswalk at non-signalized intersections, and identifies a legal marked crosswalk where no legal unmarked crosswalk exists. Parallel lines, 12" wide generally are 15 feet or 10 feet apart, with minimum width of 10 feet. See S-490.0 and S-493.0.</p>
+<p>Figure 3B-17</p>
+<p>Crosswalk (Marked), Ladder Style</p>
+<p>Used at uncontrolled crossings on arterial streets, high volume collector streets and midblock crossings with 2-foot-wide run markings. See S- 481.0.</p>
+<p>(Figure 3B-19 (CA)</p>
+<p>Crosswalk (Marked), Continental</p>
+<p>Used at uncontrolled crossings on arterial streets, high volume collector streets and midblock crossings with 2-foot-wide run markings. See S- 481.0.</p>
+<p>Figure 3B-19</p>
+<p>Limit Line</p>
+<p>Indicates the stopping point at Stop signs and traffic signals without crosswalks. Is 12 inches wide. See S-493.0.</p>
+<p>Figure 3B-23 (CA)</p></div>
+<div class="kw">Keywords: figure, lane, line, crosswalk, feet, right, least, marked, legal, crossings, streets, striping, markings, striped</div>
+
+
+<span id="p18" class="anchor"></span>
+
+### Page 18 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-404.1</strong>, <strong>S-405.0</strong>, <strong>S-440.0</strong>, <strong>S-456.0</strong>, <strong>S-483.0</strong>, <strong>S-485.0</strong> &middot; Topics: bikeways, parking-curb, speed-calming, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 18</p>
+<p>Table 1 - Application of Striping and Pavement Markings (Cont’d)</p>
+<p>Yield Line</p>
+<p>A layout of triangular markings which indicates the point at which to yield in conjunction with a Yield sign.</p>
+<p>Figure 3B-16 (CA) and Figure 3B-17 (CA)</p>
+<p>Railroad Stop Line Indicates the stopping point adjacent to railroad crossings. Figure 8B-7 (CA)</p>
+<p>Turn Arrow</p>
+<p>Emphasizes a mandatory turn lane or optional turn lane not otherwise permitted. It must be accompanied by complementary regulatory signs in order to be enforceable, except for conventional right-turn or left-turn pocket lanes. See S-456.0.</p>
+<p>Figures 3B-24 (CA), Types IV, VII and VIII arrows</p>
+<p>Intersection Strip or "Cat Track"</p>
+<p>Clarifies travel paths within intersections for multiple turns, or a curved or tapered travel path. Applicable to Double Yellow Centerlines, Barrier Lines, Lane Lines and Bike Lanes. See S-405-0.</p>
+<p>Figure 3A-112 (CA), Details 40 and 41</p>
+<p>Speed Hump Marking Emphasizes a speed hump. See S-483.0. Figure 3B-29</p>
+<p>Advanced Speed Hump Markings</p>
+<p>Provides advanced warning to drivers of an upcoming speed hump. Figure 3B-31</p>
+<p>Parking Stall Marking</p>
+<p>Identifies parallel curb parking spaces in parking meter zones and when there is high turnover. It provides orderly and efficient use of available curb space. See S-404.1.</p>
+<p>Figure 3B-21 (CA)</p>
+<p>Diagonal Parking Stall Markings</p>
+<p>Used in special situations where there is a high demand for curb parking and additional spaces can be provided by diagonal stalls. See S-440.0.</p>
+<p>(Not Shown)</p>
+<p>Lane Drop Arrow Identifies the discontinuation of a through lane at a mid-block location. See S-485.0.</p>
+<p>Figure 3B-24 (CA), Types VI arrow and Figure 3B-14 (CA), Sheet 1 of 3</p></div>
+<div class="kw">Keywords: figure, lane, parking, markings, speed, hump, yield, turn, arrow, curb, application, striping, special, line</div>
+
+
+<span id="p19" class="anchor"></span>
+
+### Page 19 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-100.0</strong>, <strong>S-221.3</strong>, <strong>S-401.0</strong>, <strong>S-401.1</strong>, <strong>S-404.1</strong>, <strong>S-404.2</strong> &middot; Topics: crosswalks, bikeways, transit, signals, parking-curb, speed-calming, striping, signs, intersections</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 19</p>
+<p>Appendix of Standard Drawings</p>
+<p>Drawing No. Title</p>
+<p>Sheets Date</p>
+<p>S-100.0 Operation and Design of Signalized Jogged Intersections 12 06-24-10 S-221.3 Street Name Sign Posting 4 01-21-05 S-401.0 Typical Major Highway Striping Treatments 5 02-24-06 S-401.1 Typical Secondary Highway Striping Treatments 2 11-18-99 S-404.1 On-Street Parallel Parking Stalls 1 08-05-00 S-404.2 On-Street Motorcycle Parking Stalls 3 12-03-20 S-404.3 Shared Mobility Parking (SMP) Zones On-Street and Sidewalk 3 11-07-19 S-405.0 Intersection Striping 2 07-29-09 S-410.4.1 Parking Meter Post Installation Dirt or Asphalt Setting 1 12-03-20 S-410.4.2 Parking Meter Post Installation Concrete Setting 1 12-03-20 S-410.4.3 Parking Meter Post Installation on Concrete Bridge 1 12-03-20 S-414.4 Left Turn and Median Channelization Pavement Markings 7 02-13-06 S-418.5 Roadside Freeway Guide Signing 9 07-27-10 S-418.6 Overhead Guide Signing 16 07-27-10 S-436.0 RXR Advance Marking 1 05-08-08 S-438.0 Street Name Signs 9 07-21-10 S-440.0 On-Street Angle Parking Stalls 2 09-18-20 S-444.0 Narrowed Roadway Delineation (Without Lane Drop) 1 09-20-05 S-446.0 Sign Posting for Street Termini 1 01-21-05 s-452.0 Sign Post Installation 1 07-03-08 S-454.2 Pedestrian Barricade 1 07-20-06 S-456.0 Typical Placement of Pavement Turn Arrows 1 03-03-05 S-473.0 One-Way Arrow Mastarm Mounted 1 02-22-89 S-476.1 Post Detail for Large Roadside Signs 1 07-03-08</p>
+<p>S-481.0 Traffic Controls for Marked Crosswalks on Uncontrolled Approaches 4 02-21-23</p>
+<p>S-481.1 Continental Crosswalks on Controlled Approaches 1 01-25-23 S-483.0 Speed Hump 4 06-27-07 S-483.1 Raised Crosswalks 3 02-20-20 S-485.0 Lane Reduction 1 11-17-09 S-486.0 Mastarm Mounted Street Name Signs 2 03-04-05 S-487.0 Exclusive Bus Lane Pavement Markings 1 11-15-01 S-490.0 Crosswalk Alignment 2 10-03-05 S-491.0 Advance Turn Lanes 1 02-13-06 S-493.0 Location of Limit Lines and Crosswalks 7 07-24-09 S-494.0 Channelized Right Turns 5 02-13-06 S-494.1 Channelized Right Turns with Raised Crosswalks 2 02-20-20</p>
+<p>S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing 7 12-26-00</p>
+<p>S-498.0 Pavement Marking – PATH 1 01-30-98 S-499.0 Guide Sign With Logo 1 01-21-05 S-500.0 Pavement Marking _ STOP (for bike paths) 1 07-18-00 S-501.0 Supplemental Curve Warning Signing 2 10-04-05 S-502.0 Community and Neighborhood Signs 2 02-12-02 S-506.0 Commemorative Signs 1 08-21-00 S-507.0 Pavement Marking (left turn arrow for bike path) 1 07-10-01 S-508.0 Neighborhood Watch Signs 1 11-09-22 S-509.0 Pavement Marking - HUMPS 1 07-13-04 S-510.0 No Parking Anytime Sign 1 10-06-05 S-511.0 Street Cleaning Sign 1 01-29-07</p></div>
+<div class="kw">Keywords: parking, pavement, sign, signs, street, post, marking, crosswalks, striping, signing, on-street, installation, turn, name</div>
+
+
+<span id="p20" class="anchor"></span>
+
+### Page 20 - MPP 531 (Pg 1-20)
+
+<div class="pmeta">Drawings: <strong>S-512.0</strong>, <strong>S-513.0</strong>, <strong>S-514.0</strong>, <strong>S-515.0</strong>, <strong>S-517.0</strong>, <strong>S-518.0</strong> &middot; Topics: transit, parking-curb, speed-calming, striping, signs</div>
+<div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
+<p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
+<p>SECTION 531 DATE 02-23 PAGE 20</p>
+<p>Drawing No. Title</p>
+<p>Sheets Date</p>
+<p>S-512.0 Red Flag Days - No Parking Sign 1 07-21-10 S-513.0 No Parking - Unhitched Trailers Signs 1 01-29-07 S-514.0 Oversize Vehicles No Parking Sign 1 08-20-10 S-515.0 Tow Away No Stopping Peak Period Sign 4 07-21-10 S-517.0 Typical Pavement Marking Installations 1 12-11-08 S-518.0 Typical Street Closure for Farmers' Market 1 11-17-09 S-519.0 Typical Street Closure for Neighborhood Block Party 1 12-10-09 S-520.0 Council District Field Office Signs 1 02-04-10 S-521.0 Tow Away No Stopping In This Area Sign 1 07-21-10 S-522.0 Tow Away No Stopping Any Time Sign 1 07-21-10 S-523.0 Bus Bulbs 4 02-20-20 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles 4 02-20-20 S-525.0 Crossing Islands 5 02-20-20 S-526.0 Truck Aprons 1 02-20-20 S-527.0 Curb Extensions 3 02-20-20</p></div>
+<div class="kw">Keywords: sign, parking, away, stopping, typical, date, signs, street, closure, neighborhood, department, transportation, manual, policies</div>

@@ -21,6 +21,14 @@ const groups = (list, dir) => Object.entries(PARTS).map(([k, label]) => ({
 })).filter((g) => g.items.length);
 const caParts = groups(chapters, 'ca-mutcd');
 const fedParts = groups(fedChapters, 'mutcd');
+const ladotCfg = JSON.parse(fs.readFileSync('./pipeline/config/ladot.json', 'utf8'));
+const ladotDocs = ladotCfg.map((c) => {
+  const d = JSON.parse(fs.readFileSync(`./data/docs/${c.slug.replace('/', '__')}.json`, 'utf8'));
+  return { label: c.short, collapsed: true, items: [
+    { label: 'Overview', link: `/${c.slug}/` },
+    ...d.chapters.map((ch) => ({ label: ch.title, link: `/${c.slug}/${ch.slug}/` })),
+  ] };
+});
 
 export default defineConfig({
   site: 'https://drzkid96.github.io',
@@ -61,6 +69,7 @@ export default defineConfig({
         { label: 'Libraries', items: [
           { label: 'Sign Library', link: '/signs/' },
         ] },
+        { label: 'LADOT', collapsed: true, items: [{ label: 'All LADOT standards and drawing index', link: '/ladot/' }, ...ladotDocs] },
         { label: 'CA MUTCD 2026', items: [{ label: 'About this manual', link: '/ca-mutcd/' }, ...caParts] },
         { label: 'Federal MUTCD 11th Ed. Rev. 1', collapsed: true, items: [{ label: 'About this manual', link: '/mutcd/' }, ...fedParts] },
       ],

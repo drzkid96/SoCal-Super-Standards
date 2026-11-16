@@ -132,3 +132,24 @@ table.dims { font-size: .82rem; } .note { font-size: .8rem; color: var(--sl-colo
 .ai-explain { font: inherit; font-size: .72rem; font-weight: 600; border: 1px solid var(--sss-green); color: var(--sss-green); background: #fff; border-radius: 999px; padding: .15rem .65rem; cursor: pointer; margin: .2rem 0 .4rem; }
 .ai-explain:hover { background: var(--sss-green); color: #fff; }
 .ai-box { border-left: 4px solid var(--sss-blue); background: #f3f7fd; padding: .5rem 1rem; border-radius: 0 8px 8px 0; margin: .5rem 0 1rem; font-size: .9rem; }
+
+/* ---- document readers (LADOT and others) ---- */
+.srcbar{background:var(--sss-tan-2);border-left:4px solid var(--sss-green);padding:.5rem .8rem;border-radius:6px;font-size:.9rem;color:#3b3a33;margin-bottom:1rem}
+.pmeta{font-size:.85rem;color:#4a4a42;background:#fbf9f4;border:1px solid #e8e1d2;border-radius:6px;padding:.35rem .6rem;margin:.3rem 0 .6rem}
+.dfig{margin:.6rem 0 1rem;border:1px solid #e3dccb;border-radius:10px;background:#fff;padding:.5rem}
+.dfig img{width:100%;height:auto;display:block;border-radius:6px}
+.dfig figcaption{font-size:.8rem;color:#6b6a60;margin-top:.35rem}
+.dtext h4{color:var(--sss-green);margin-top:.8rem}
+.dtext p{margin:.35rem 0}
+details.ocr{border:1px dashed #d6cdb8;border-radius:8px;padding:.4rem .7rem;margin:.4rem 0;background:#fdfcf8}
+details.ocr summary{cursor:pointer;color:var(--sss-green);font-weight:600}
+details.ocr p{font-size:.85rem;white-space:normal;color:#444}
+.kw{font-size:.78rem;color:#7a7768;margin:.2rem 0 1.4rem}
+.chlist{columns:2;gap:2rem}
+.src-page{color:#8a8778;font-size:.8rem}
+.thumbgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:.6rem}
+.thumbgrid a{display:block;border:1px solid #e3dccb;border-radius:8px;background:#fff;padding:.3rem;text-decoration:none;font-size:.75rem;color:#555}
+.thumbgrid img{width:100%;height:160px;object-fit:contain;display:block}
+.thumbgrid a:hover{border-color:var(--sss-orange)}
+table.dwtab{font-size:.88rem;width:100%}
+.dwq{width:100%;padding:.55rem .8rem;border:1px solid #d6cdb8;border-radius:8px;font:inherit;margin:.4rem 0 .8rem;background:#fff}
