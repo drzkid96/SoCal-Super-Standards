@@ -75,16 +75,12 @@ for rec in D:
             "drawing": pic, "source_crop": crop, "url": f"{BASE}/markings/line-types/#detail-{k.lower()}"}
     data.append(rec2)
     q = " ".join(str(v) for v in rec2.values() if isinstance(v, (str, int, float))).lower()
-    rows_html.append(f'''<tr id="detail-{k.lower()}" data-q="{esc(q)}" data-fn="{esc(rec["fn"])}" data-color="{rec["color"]}" data-speed="{esc(rec["speed"])}" data-type="{esc(rec["type"].lower())}">
-<td class="lt-d"><b>Detail {esc(k)}</b><div class="lt-fig"><a href="{furl}">Fig. {esc(rec["fig"])}</a></div></td>
-<td class="lt-pic">{f'<img loading="lazy" src="{pic}" alt="Standardized drawing of Caltrans Detail {esc(k)}">' if pic else '<span class="muted">Layout detail; see source</span>'}
-{f'<details><summary>Source drawing</summary><a href="{crop}" target="_blank"><img loading="lazy" src="{crop}" alt="CA MUTCD source drawing, Detail {esc(k)}"></a></details>' if crop else ''}</td>
-<td><b>{esc(rec["fn"])}</b><div class="lt-sub">{esc(rec["sub"])}</div>{f'<div class="lt-pol">{esc(use[:260])}</div>' if use else ''}</td>
-<td><span class="lt-chip {rec["color"].lower()}">{esc(rec["color"])}</span><div>{esc(rec["type"])}</div></td>
-<td>{esc(pattern)}{f'<div class="lt-sub">Spacing: {esc(rec["spacing"])}</div>' if rec.get("spacing") else ''}</td>
-<td>{esc(rec["markers"])}</td>
-<td>{esc(rec["speed"])}</td>
-<td class="lt-plan">{esc(rec2["plan_sheet"])}</td></tr>''')
+    rows_html.append(f'''<div class="ltc" id="detail-{k.lower()}" data-q="{esc(q)}" data-fn="{esc(rec["fn"])}" data-color="{rec["color"]}" data-speed="{esc(rec["speed"])}" data-type="{esc(rec["type"].lower())}">
+<div class="ltc-head"><b>Detail {esc(k)}</b><span class="lt-chip {rec["color"].lower()}">{esc(rec["color"])}</span><span class="ltc-fn">{esc(rec["fn"])}</span><span class="ltc-sub">{esc(rec["sub"])}</span></div>
+<div class="ltc-pic">{f'<img loading="lazy" src="{pic}" alt="Standardized drawing of Caltrans Detail {esc(k)}">' if pic else (f'<img loading="lazy" class="src" src="{crop}" alt="CA MUTCD source drawing, Detail {esc(k)}">' if crop else '')}</div>
+<dl class="ltc-attr"><div><dt>Type</dt><dd>{esc(rec["type"])}</dd></div><div><dt>Line / gap</dt><dd>{esc(pattern)}</dd></div>{f'<div><dt>Spacing</dt><dd>{esc(rec["spacing"])}</dd></div>' if rec.get("spacing") else ''}<div><dt>Markers</dt><dd>{esc(rec["markers"])}</dd></div><div><dt>Speed</dt><dd>{esc(rec["speed"])}</dd></div><div><dt>Source</dt><dd><a href="{furl}">CA MUTCD Fig. {esc(rec["fig"])}</a></dd></div><div><dt>Plan sheet</dt><dd>{esc(rec2["plan_sheet"])}</dd></div></dl>
+{f'<p class="lt-pol">Policy: {esc(use[:300])}</p>' if use else ''}{f'<details class="ltc-src"><summary>Source drawing from CA MUTCD 2026</summary><a href="{crop}" target="_blank"><img loading="lazy" src="{crop}" alt=""></a></details>' if crop and pic else ''}
+</div>''')
 json.dump(data, open("public/data/linetypes.json", "w"), indent=1)
 
 # pattern index (by geometry)
@@ -113,9 +109,9 @@ tableOfContents: false
 <select id="ltty"><option value="">Any type</option><option value="broken">Broken</option><option value="dotted">Dotted</option><option value="solid">Solid</option><option value="double">Double</option><option value="markers">With markers</option></select>
 <span id="ltn"></span></div>
 
-<table class="lt" id="lt"><thead><tr><th>Detail</th><th>Pattern (standardized)</th><th>Function and use</th><th>Color and type</th><th>Line / gap</th><th>Markers</th><th>Speed</th><th>Plan sheet</th></tr></thead><tbody>
+<div class="ltlist" id="lt">
 {"".join(rows_html)}
-</tbody></table>
+</div>
 
 ## Pattern index
 
@@ -138,7 +134,7 @@ Details grouped by line and gap geometry.
 - **Plan sheet references** are given only where a cited local standard confirms the sheet. Otherwise, check Caltrans Standard Plans A20A to A20D for the current edition.
 
 <script>
-(function(){{const $=id=>document.getElementById(id);const rows=[...document.querySelectorAll('#lt tbody tr')];
+(function(){{const $=id=>document.getElementById(id);const rows=[...document.querySelectorAll('#lt .ltc')];
 function run(){{const w=$('ltq').value.toLowerCase().trim().split(/\\s+/).filter(Boolean),fn=$('ltfn').value,c=$('ltcol').value,sp=$('ltsp').value,ty=$('ltty').value;let n=0;
 rows.forEach(r=>{{const ok=(!fn||r.dataset.fn===fn)&&(!c||r.dataset.color===c)&&(!sp||r.dataset.speed===sp)&&(!ty||r.dataset.type.includes(ty))&&w.every(x=>r.dataset.q.includes(x));r.style.display=ok?'':'none';if(ok)n++}});$('ltn').textContent=n+' of '+rows.length+' details';}}
 ['ltq','ltfn','ltcol','ltsp','ltty'].forEach(i=>$(i).addEventListener('input',run));run();

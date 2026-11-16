@@ -290,3 +290,13 @@ table.lt tr.lt-hit td{background:#fff4e8}
 .lt-chip.yellow{background:#f6c700;color:#3a2f00;border-color:#d9ad00}.lt-chip.white{background:#fff}
 .lt-plan{font-size:.72rem;color:#7a7768;max-width:140px}
 .lt-legend{list-style:none;padding:0}.lt-legend li{display:flex;gap:.4rem;align-items:center}
+.ltlist{display:flex;flex-direction:column;gap:.9rem;margin-top:.6rem}
+.ltc{border:1px solid #e3dccb;border-radius:12px;background:#fff;padding:.7rem .9rem}
+.ltc.lt-hit{border-color:var(--sss-orange);box-shadow:0 0 0 3px #fbe3d1}
+.ltc-head{display:flex;flex-wrap:wrap;gap:.5rem;align-items:baseline}
+.ltc-head b{font-size:1.1rem;color:var(--sss-green)}
+.ltc-fn{font-weight:600}.ltc-sub{color:#6b6a60;font-size:.85rem}
+.ltc-pic{margin:.5rem 0}.ltc-pic img{width:100%;height:auto;display:block;border-radius:8px}.ltc-pic img.src{background:#fff;border:1px solid #eee}
+.ltc-attr{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.3rem .9rem;margin:.3rem 0;font-size:.8rem}
+.ltc-attr dt{color:#8a8778;font-size:.7rem;text-transform:uppercase;letter-spacing:.03em}.ltc-attr dd{margin:0}
+.ltc-src summary{font-size:.78rem;color:var(--sss-green);cursor:pointer}.ltc-src img{width:100%;margin-top:.3rem;border:1px solid #eee}
