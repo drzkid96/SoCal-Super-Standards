@@ -79,6 +79,7 @@ export default defineConfig({
           { label: 'Pavement Marking Library', link: '/markings/' },
           { label: 'Line Type Database', link: '/markings/line-types/' },
           { label: 'LADOT standard drawings', link: '/ladot/' },
+          { label: 'MPP drawings, redrawn', link: '/ladot/mpp-details/' },
           { label: 'All agency standard drawings', link: '/details/?type=Standard+drawing&sg=' },
         ] },
         { label: 'Design by topic', items: [

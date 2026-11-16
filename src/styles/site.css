@@ -308,3 +308,14 @@ details.mtab-wrap summary{cursor:pointer;color:var(--sss-green);font-weight:600;
 table.mtab{font-size:.75rem;border-collapse:collapse;min-width:100%}
 table.mtab th,table.mtab td{border:1px solid #e6dfcf;padding:.2rem .35rem;vertical-align:top}
 table.mtab th{background:var(--sss-tan-2);font-weight:600}
+
+/* ---- redrawn MPP details ---- */
+.dfig.redraw{border-color:var(--sss-green)}
+details.orig{margin:.2rem 0 .6rem}details.orig summary{cursor:pointer;color:var(--sss-green);font-size:.85rem}
+.rdgl{display:flex;flex-direction:column;gap:.8rem}
+.rdg{border:1px solid #e3dccb;border-radius:12px;background:#fff;padding:.6rem .8rem}
+.rdg-h{font-size:.9rem;margin-bottom:.4rem}.rdg-h b{color:var(--sss-green)}
+.rdg-s{display:flex;flex-wrap:wrap;gap:.5rem}
+.rdg-s a{display:flex;flex-direction:column;align-items:center;text-decoration:none;font-size:.72rem;color:#555;border:1px solid #eee5d3;border-radius:8px;padding:.25rem;background:#fff}
+.rdg-s img{width:190px;height:auto;display:block}
+.rdg-s a:hover{border-color:var(--sss-orange)}

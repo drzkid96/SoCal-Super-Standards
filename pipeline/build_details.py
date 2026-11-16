@@ -52,6 +52,11 @@ for c in cfg:
         if p["image"] and p["drawings"] and not c.get("refs_only"):
             groups.setdefault(p["drawings"][0], []).append(p)
     doc_slug = slugify(c["short"])
+    rd = {}
+    rdp = f"data/docs/redraw_{c['slug'].split('/')[-1]}.json"
+    if os.path.exists(rdp):
+        for r_ in json.load(open(rdp)):
+            rd[r_["page"]] = r_
     order = sorted(groups, key=lambda k: [int(x) for x in re.findall(r"\d+", k)])
     for i, k in enumerate(order):
         sheets = groups[k]
@@ -70,10 +75,14 @@ for c in cfg:
         next_l = f'<a href="{BASE}/details/{ag}/{doc_slug}-{slugify(order[i+1])}/">{esc(order[i+1])} &rarr;</a>' if i + 1 < len(order) else ""
         sheet_html = ""
         for j, p in enumerate(sheets, 1):
-            sheet_html += (f'\n### Sheet {j} of {len(sheets)} (document page {p["page"]})\n\n'
+            red = rd.get(p["page"])
+            sheet_html += (f'\n### Sheet {j} of {len(sheets)} (document page {p["page"]})\n\n' +
+                           (f'<figure class="dfig redraw"><a href="{red["svg"]}" target="_blank"><img loading="lazy" src="{red["svg"]}" alt="{esc(k)} sheet {j}, redrawn"></a>'
+                            f'<figcaption>Redrawn in consistent SoCal Super Standards detail style ({"vector rebuild" if red["kind"] == "vector" else "traced from the scan, text re-set from OCR"}). Click to open full size. Reference only; the original LADOT sheet is below.</figcaption></figure>'
+                            f'<details class="orig"><summary>Original LADOT sheet</summary>' if red else "") +
                            f'<figure class="dfig"><a href="{p["image"]}" target="_blank"><img loading="lazy" src="{p["image"]}" alt="{esc(k)} sheet {j}"></a>'
                            f'<figcaption>{esc(c["short"])} {esc(k)}, sheet {j}. <a href="{p["url"]}">Open in the document</a>.</figcaption></figure>\n'
-                           f'<details class="ocr"><summary>Notes and text on this sheet{" (OCR)" if p["ocr"] else ""}</summary><p>{esc(p["text"][:5000])}</p></details>\n')
+                           f'{"</details>" if red else ""}<details class="ocr"><summary>Notes and text on this sheet{" (OCR)" if p["ocr"] else ""}</summary><p>{esc(p["text"][:5000])}</p></details>\n')
         sign_html = "".join(f'<a class="tsign sref" href="{BASE}/signs/{signs[x]["slug"]}/" data-svg="{BASE}{signs[x]["svg"]}"><img loading="lazy" src="{BASE}{signs[x]["svg"]}" alt="{esc(x)}"><span><b>{esc(x)}</b> {esc(signs[x]["descriptor"][:40])}</span></a>' for x in codes if x in signs)
         sec_html = ", ".join(f'<a href="{ca_secs[x]["url"]}">CA MUTCD {esc(x)} {esc(ca_secs[x]["title"][:60])}</a>' for x in secs if x in ca_secs)
         top_html = " ".join(f'<a class="chip" href="{BASE}/topics/{t}/">{esc(TOPIC_NAME[t])}</a>' for t in tops)
