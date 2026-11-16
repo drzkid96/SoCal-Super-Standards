@@ -16,6 +16,7 @@ import pymupdf
 CAPDF, ROOT = sys.argv[1], sys.argv[2]
 BASE = os.environ.get("SITE_BASE", "/SoCal-Super-Standards")
 raw = json.load(open(f"{ROOT}/data/signs/shs.json"))
+SIZES = json.load(open(f"{ROOT}/data/signs/ca_sizes.json")) if os.path.exists(f"{ROOT}/data/signs/ca_sizes.json") else {}
 _have = {r["code"].split(",")[0].strip() for r in raw}
 if os.path.exists(f"{ROOT}/data/signs/ca_extra.json"):
     raw += [r for r in json.load(open(f"{ROOT}/data/signs/ca_extra.json")) if r["code"] not in _have]
@@ -304,6 +305,12 @@ for rec in signs.values():
         rows = [r for r in dims[1:] if any(ch.isdigit() for ch in "".join(r))]
         tbl = "<table class=\"dims\"><thead><tr>" + "".join(f"<th>{esc(h)}</th>" for h in head) + "</tr></thead><tbody>" + "".join(
             "<tr>" + "".join(f"<td>{esc(c)}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>"
+    sz = SIZES.get(rec["code"])
+    sz_html = ""
+    if sz:
+        sz_html = ("<table class=\"dims\"><thead><tr>" + "".join(f"<th>{esc(k)}</th>" for k in sz["cols"]) + "</tr></thead><tbody><tr>" +
+                   "".join(f"<td>{esc(v)}</td>" for v in sz["cols"].values()) + f"</tr></tbody></table><p class=\"note\">From CA MUTCD 2026 {esc(sz['table'])} (page {sz['page']}), row: {esc(sz['name'])}. Sizes in inches, width x height.</p>")
+    rec["ca_sizes"] = sz["cols"] if sz else {}
     ments = rec["mentions"]
     ment_html = "".join(f'<li><a href="{m["url"]}">{esc(m["manual"])} &sect;{esc(m["num"])}</a> {esc(m["title"])}</li>' for m in ments) or "<li>No section text mentions this code directly.</li>"
     sheets = "".join(f'<img class="sheet" src="{BASE}{s}" alt="additional sheet">' for s in rec["sheets"])
@@ -326,14 +333,18 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="{BASE}/signs/#{CATS.get(rec['category'], 'other')}">{esc(rec['category'])}</a></dd>
 <dt>Series</dt><dd><a href="{BASE}/signs/#series-{rec['series'].lower()}">{esc(rec['series'])} &middot; {esc(rec['series_name'])}</a></dd>
 <dt>Colors</dt><dd>{esc(rec['colors'].split(rec['code'])[0].strip() if rec['colors'] else 'See layout')}</dd>
-<dt>Source</dt><dd>{esc(rec['source'])}, page {esc(rec['page_label'])}</dd>
+<dt>Source</dt><dd>{esc(rec['source'])}{(', page ' + esc(rec['page_label'])) if rec.get('page_label') else ''}</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+{sz_html or '<p>This sign is not listed in a CA MUTCD size table; see the governing section.</p>'}
+
 ## Sizes and layout dimensions (inches)
 
-{tbl or '<p>See the FHWA layout sheet for dimensions.</p>'}
+{tbl or ('<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>' if rec.get('ca_only') else '<p>See the FHWA layout sheet for dimensions.</p>')}
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 

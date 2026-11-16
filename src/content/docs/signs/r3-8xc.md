@@ -16,10 +16,14 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r3">R3 &middot; Movement prohibition and lane control</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE) CENTER SECTION COLORS: LEGEND, BORDER — WHITE (RETROREFLECTIVE) BACKGROUND — BLACK 2-69-3</dd>
-<dt>Source</dt><dd>FHWA SHS 2024, Releases 1-4, page </dd>
+<dt>Source</dt><dd>FHWA SHS 2024, Releases 1-4</dd>
 </dl>
 </div>
 </div>
+
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi-Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>Varies x 30</td><td>Varies x 30</td><td>—</td><td>—</td><td>—</td><td>Varies x 36</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 2B-1 (page 289), row: Advance Intersection Lane Control. Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

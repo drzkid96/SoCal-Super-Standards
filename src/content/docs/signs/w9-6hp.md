@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi-Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>282 x 30</td><td>282 x 30</td><td>282 x 30</td><td>282 x 30</td><td>—</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 641 (page 641), row: Stop Ahead Take Ticket (plaque). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <p>See the FHWA layout sheet for dimensions.</p>

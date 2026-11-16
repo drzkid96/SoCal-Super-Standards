@@ -300,3 +300,11 @@ table.lt tr.lt-hit td{background:#fff4e8}
 .ltc-attr{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.3rem .9rem;margin:.3rem 0;font-size:.8rem}
 .ltc-attr dt{color:#8a8778;font-size:.7rem;text-transform:uppercase;letter-spacing:.03em}.ltc-attr dd{margin:0}
 .ltc-src summary{font-size:.78rem;color:var(--sss-green);cursor:pointer}.ltc-src img{width:100%;margin-top:.3rem;border:1px solid #eee}
+
+/* ---- manual tables as text ---- */
+details.mtab-wrap{grid-column:1/-1;border:1px solid #e3dccb;border-radius:10px;background:#fff;padding:.4rem .7rem;margin:.3rem 0 .8rem}
+details.mtab-wrap summary{cursor:pointer;color:var(--sss-green);font-weight:600;font-size:.85rem}
+.mtab-scroll{overflow-x:auto;margin:.5rem 0}
+table.mtab{font-size:.75rem;border-collapse:collapse;min-width:100%}
+table.mtab th,table.mtab td{border:1px solid #e6dfcf;padding:.2rem .35rem;vertical-align:top}
+table.mtab th{background:var(--sss-tan-2);font-weight:600}

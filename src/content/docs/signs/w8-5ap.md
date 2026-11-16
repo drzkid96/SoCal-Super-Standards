@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi- Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>24 x 12</td><td>24 x 12</td><td>30 x 18</td><td>30 x 18</td><td>—</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 2C-1 (page 379), row: Ice (plaque). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <p>See the FHWA layout sheet for dimensions.</p>
@@ -29,4 +33,4 @@ tableOfContents: false
 
 ## Governing sections
 
-<ul class="ments"><li>No section text mentions this code directly.</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c103ca">CA MUTCD 2026 &sect;2C.103(CA)</a> Safety Corridor Sign (SW33(CA))</li></ul>

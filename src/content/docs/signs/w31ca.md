@@ -16,17 +16,21 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w31">W31 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 2C-6(CA), page </dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 2C-6(CA)</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi- Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>30 x 30</td><td>30 x 30</td><td>30 x 30</td><td>30 x 30</td><td>24 x 24</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 382 (page 382), row: END. Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
-<p>See the FHWA layout sheet for dimensions.</p>
+<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c24">CA MUTCD 2026 &sect;2C.24</a> DEAD END, NO OUTLET, and ROAD ENDS Signs (W14-1, W14-1a, W14-2, W14-2a, W8-26, and W8-26a)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c73">CA MUTCD 2026 &sect;2C.73</a> Object Markers for Ends of Roadways</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c24">CA MUTCD 2026 &sect;2C.24</a> DEAD END, NO OUTLET, and ROAD ENDS Signs (W14-1, W14-1a, W14-2, W14-2a, W8-26, and W8-26a)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c73">CA MUTCD 2026 &sect;2C.73</a> Object Markers for Ends of Roadways</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c103ca">CA MUTCD 2026 &sect;2C.103(CA)</a> Safety Corridor Sign (SW33(CA))</li></ul>

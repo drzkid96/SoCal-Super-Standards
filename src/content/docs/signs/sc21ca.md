@@ -16,14 +16,18 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#ttc">Temporary Traffic Control Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sc21">SC21 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 6H-1(CA), page </dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 6H-1(CA)</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road (Minimum)</th><th>Expressway</th><th>Freeway</th><th>Oversized</th></tr></thead><tbody><tr><td>30 x 42</td><td>30 x 42</td><td>30 x 42</td><td>---</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1281 (page 1281), row: CAUTION FREQUENT STOPPING AND BACKING STAY BACK 100 FEET. Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
-<p>See the FHWA layout sheet for dimensions.</p>
+<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 

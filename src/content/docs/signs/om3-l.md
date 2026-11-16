@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Off Roadway1,5</th><th>Roadway2,5</th></tr></thead><tbody><tr><td>6 x 18</td><td>12 x 36</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 9A-1 (page 1590), row: Object Marker Type 3. Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>J</th><th>K</th></tr></thead><tbody><tr><td>6</td><td>18</td><td>3.803</td><td>4.386</td><td>4.385</td><td>1.040</td><td>1.033</td><td>1.601</td><td>1.5</td><td>1</td></tr><tr><td>12</td><td>36</td><td>7.607</td><td>8.771</td><td>8.771</td><td>2.080</td><td>2.065</td><td>3.202</td><td>3</td><td>1.5</td></tr></tbody></table>

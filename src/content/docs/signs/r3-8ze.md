@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<p>This sign is not listed in a CA MUTCD size table; see the governing section.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>J</th><th>K</th><th>L</th><th>M</th><th>N</th></tr></thead><tbody><tr><td>36</td><td>0.625</td><td>0.875</td><td>3</td><td>4.75</td><td>7.75</td><td>4</td><td>D*</td><td>1.375</td><td>1.5</td><td>18</td><td>24.875</td><td>19.25</td><td>28.5</td></tr><tr><td>3.637</td><td>11.75</td><td>1.512</td><td>10.418</td><td>8.293</td><td>2.75</td><td>17.125</td><td>6.700</td><td>10.125</td><td>11.625</td><td>5.375</td><td>18.625</td><td>13.133</td></tr><tr><td>3.125</td><td>7</td><td>2.5</td><td>7.5</td><td>21.375</td><td>7.125</td><td>2.625</td><td>2.016</td><td>19.125</td><td>2.354</td><td>12.944</td><td>9.875</td><td>2.25</td></tr></tbody></table>

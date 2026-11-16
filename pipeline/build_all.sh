@@ -8,3 +8,5 @@ python3 -I pipeline/build_ladot_hub.py .
 python3 -I pipeline/build_linetypes.py
 python3 -I pipeline/build_markings.py
 python3 -I pipeline/build_linetypes.py
+python3 -I pipeline/link_signs_docs.py
+python3 -I pipeline/tables_html.py /home/claude/work/camutcd-2026-all.pdf /home/claude/work/MUTCD-11E-R1-FULL.pdf

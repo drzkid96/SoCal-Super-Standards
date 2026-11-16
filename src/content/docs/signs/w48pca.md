@@ -16,17 +16,21 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w48">W48 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 8B-4(CA), page </dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 8B-4(CA)</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi- Lane</th><th>Expressway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>30 x 24</td><td>30 x 24</td><td>—</td><td>—</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 8B-1 (page 1530), row: Number of Tracks (plaque). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
-<p>See the FHWA layout sheet for dimensions.</p>
+<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/8b/#8b06">CA MUTCD 2026 &sect;8B.06</a> Grade Crossing Advance Warning Signs (W10-1 through W10-4)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/8b/#8b20">CA MUTCD 2026 &sect;8B.20</a> NO TRAIN HORN Sign or Plaque (W10-9 and W10-9P)</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/8b/#8b06">CA MUTCD 2026 &sect;8B.06</a> Grade Crossing Advance Warning Signs (W10-1 through W10-4)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/8b/#8b20">CA MUTCD 2026 &sect;8B.20</a> NO TRAIN HORN Sign or Plaque (W10-9 and W10-9P)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/8b/#8b103ca">CA MUTCD 2026 &sect;8B.103(CA)</a> Private Grade Crossing Sign (R15-1X(CA))</li></ul>

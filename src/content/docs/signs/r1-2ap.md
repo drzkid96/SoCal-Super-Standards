@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi-Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>24 x 18</td><td>24 x 18</td><td>36 x 30</td><td>48 x 36</td><td>24 x 18</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 2B-1 (page 288), row: To Oncoming (plaque) Trafﬁc. Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>J</th><th>K</th><th>L</th><th>M</th><th>N</th><th>P</th></tr></thead><tbody><tr><td>24</td><td>18</td><td>0.375</td><td>0.625</td><td>2.5</td><td>3</td><td>D</td><td>2</td><td>2.191</td><td>2.191</td><td>9.967</td><td>9.967</td><td>7.699</td><td>7.699</td><td>1.5</td></tr><tr><td>36</td><td>30</td><td>0.5</td><td>0.75</td><td>5.25</td><td>4.5</td><td>D</td><td>3</td><td>3.287</td><td>3.286</td><td>14.950</td><td>14.950</td><td>11.549</td><td>11.548</td><td>1.875</td></tr><tr><td>48</td><td>36</td><td>0.625</td><td>0.875</td><td>5</td><td>6</td><td>D</td><td>4</td><td>4.383</td><td>4.382</td><td>19.934</td><td>19.933</td><td>15.399</td><td>15.398</td><td>2.25</td></tr></tbody></table>
@@ -29,4 +33,4 @@ tableOfContents: false
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b18">CA MUTCD 2026 &sect;2B.18</a> STOP Sign or YIELD Sign Placement</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b18">MUTCD 11E R1 &sect;2B.18</a> STOP Sign or YIELD Sign Placement</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b18">CA MUTCD 2026 &sect;2B.18</a> STOP Sign or YIELD Sign Placement</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li><li><a href="/SoCal-Super-Standards/ca-mutcd/6g/#6g103ca">CA MUTCD 2026 &sect;6G.103(CA)</a> Moving Lane Closure Signs (W23-1 and SC10(CA), SC11(CA), SC13(CA), SC15(CA))</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b18">MUTCD 11E R1 &sect;2B.18</a> STOP Sign or YIELD Sign Placement</li></ul>

@@ -16,17 +16,21 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#ttc">Temporary Traffic Control Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sc7">SC7 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 6G-101(CA), page </dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 6G-101(CA)</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road (Minimum)</th><th>Expressway</th><th>Freeway</th><th>Oversized</th></tr></thead><tbody><tr><td>84 x 42</td><td>84 x 42</td><td>84 x 42</td><td>---</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1260 (page 1260), row: RAMP CLOSED, USE RAMP AT___. Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
-<p>See the FHWA layout sheet for dimensions.</p>
+<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/6g/#6g101ca">CA MUTCD 2026 &sect;6G.101(CA)</a> RAMP CLOSED (C2(CA)) and RAMP CLOSED, USE RAMP AT __ (SC7(CA)) Signs</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/6g/#6g101ca">CA MUTCD 2026 &sect;6G.101(CA)</a> RAMP CLOSED (C2(CA)) and RAMP CLOSED, USE RAMP AT __ (SC7(CA)) Signs</li><li><a href="/SoCal-Super-Standards/ca-mutcd/6g/#6g103ca">CA MUTCD 2026 &sect;6G.103(CA)</a> Moving Lane Closure Signs (W23-1 and SC10(CA), SC11(CA), SC13(CA), SC15(CA))</li></ul>

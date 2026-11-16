@@ -16,17 +16,21 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sr50">SR50 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 2G-1(CA), page </dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 2G-1(CA)</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+<p>This sign is not listed in a CA MUTCD size table; see the governing section.</p>
+
 ## Sizes and layout dimensions (inches)
 
-<p>See the FHWA layout sheet for dimensions.</p>
+<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2g/#2g101ca">CA MUTCD 2026 &sect;2G.101(CA)</a> Preferential Lane Enforcement Signing (SR50(CA) Series)</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2g/#2g101ca">CA MUTCD 2026 &sect;2G.101(CA)</a> Preferential Lane Enforcement Signing (SR50(CA) Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2g/#2g102ca">CA MUTCD 2026 &sect;2G.102(CA)</a> Regulatory Signs for Preferential Lanes at Metered On-Ramps</li></ul>

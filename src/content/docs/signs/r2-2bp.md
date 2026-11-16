@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi-Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>24 x 30</td><td>24 x 30</td><td>36 x 42</td><td>48 x 54</td><td>—</td><td>36 x 42</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 2B-1 (page 288), row: Truck-Bus Speed Limit (plaque). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>J</th><th>K</th><th>L</th><th>M</th><th>N</th><th>P</th><th>Q</th></tr></thead><tbody><tr><td>24</td><td>30</td><td>0.375</td><td>0.625</td><td>4</td><td>4</td><td>D</td><td>2</td><td>4</td><td>D</td><td>10</td><td>E</td><td>9.808</td><td>9.807</td><td>7.907</td><td>7.906</td><td>VAR**</td><td>1.5</td></tr><tr><td>36</td><td>42</td><td>0.625</td><td>0.875</td><td>4.5</td><td>6</td><td>D*</td><td>3.5</td><td>6</td><td>D</td><td>14</td><td>E</td><td>13.938</td><td>13.937</td><td>11.860</td><td>11.860</td><td>VAR**</td><td>2.25</td></tr><tr><td>48</td><td>54</td><td>0.75</td><td>1.25</td><td>6.5</td><td>8</td><td>D*</td><td>4.5</td><td>8</td><td>D</td><td>16</td><td>E</td><td>18.583</td><td>18.583</td><td>15.813</td><td>15.813</td><td>VAR**</td><td>3</td></tr></tbody></table>
@@ -29,4 +33,4 @@ tableOfContents: false
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b22">CA MUTCD 2026 &sect;2B.22</a> Vehicle Speed Limit Plaques (R2-2P Series)</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b22">MUTCD 11E R1 &sect;2B.22</a> Vehicle Speed Limit Plaques (R2-2P Series)</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b22">CA MUTCD 2026 &sect;2B.22</a> Vehicle Speed Limit Plaques (R2-2P Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b22">MUTCD 11E R1 &sect;2B.22</a> Vehicle Speed Limit Plaques (R2-2P Series)</li></ul>

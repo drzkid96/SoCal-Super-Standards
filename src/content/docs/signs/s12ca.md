@@ -16,14 +16,18 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#school">School Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-s12">S12 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 2M-8, page </dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 2M-8</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road</th><th>Freeway or Expressway</th></tr></thead><tbody><tr><td>24 x 18</td><td>24 x 18</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 840 (page 840), row: OHV TRAIL. Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
-<p>See the FHWA layout sheet for dimensions.</p>
+<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 

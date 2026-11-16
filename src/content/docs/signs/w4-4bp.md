@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi- Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>24 x 12</td><td>24 x 12</td><td>36 x 18</td><td>—</td><td>—</td><td>48 x 24</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 2C-1 (page 378), row: Oncoming Traffic Does Not Stop (plaque). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>J</th></tr></thead><tbody><tr><td>24</td><td>12</td><td>0.375</td><td>0.375</td><td>2.875</td><td>2.25</td><td>B</td><td>1.75</td><td>2.25</td><td>C</td><td>9.889</td></tr><tr><td>36</td><td>18</td><td>0.375</td><td>0.5</td><td>4</td><td>3.5</td><td>B</td><td>3</td><td>3.5</td><td>C</td><td>15.466</td></tr><tr><td>48</td><td>24</td><td>0.625</td><td>0.625</td><td>5.75</td><td>4.5</td><td>B</td><td>3.5</td><td>4.5</td><td>C</td><td>19.770</td></tr><tr><td>0.510</td><td>1.5</td><td>7.878</td><td>6.122</td><td>1.625</td><td>2.127</td><td>2.330</td><td>5.920</td><td>1.5</td></tr><tr><td>0.710</td><td>2.5</td><td>12.255</td><td>9.524</td><td>2.5</td><td>3.309</td><td>3.624</td><td>9.209</td><td>1.5</td></tr><tr><td>1.028</td><td>3</td><td>15.757</td><td>12.245</td><td>3.25</td><td>4.254</td><td>4.659</td><td>11.840</td><td>1.875</td></tr></tbody></table>
@@ -29,4 +33,4 @@ tableOfContents: false
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c66">CA MUTCD 2026 &sect;2C.66</a> Traffic Does Not Stop Plaques (W4-4P Series)</li><li><a href="/SoCal-Super-Standards/mutcd/2c/#2c66">MUTCD 11E R1 &sect;2C.66</a> Traffic Does Not Stop Plaques (W4-4P Series)</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b04">MUTCD 11E R1 &sect;2B.04</a> STOP Sign (R1-1) and ALL-WAY Plaque (R1-3P)</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c66">CA MUTCD 2026 &sect;2C.66</a> Traffic Does Not Stop Plaques (W4-4P Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c103ca">CA MUTCD 2026 &sect;2C.103(CA)</a> Safety Corridor Sign (SW33(CA))</li><li><a href="/SoCal-Super-Standards/mutcd/2c/#2c66">MUTCD 11E R1 &sect;2C.66</a> Traffic Does Not Stop Plaques (W4-4P Series)</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b04">MUTCD 11E R1 &sect;2B.04</a> STOP Sign (R1-1) and ALL-WAY Plaque (R1-3P)</li></ul>

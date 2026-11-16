@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi-Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>24 x 15</td><td>24 x 15</td><td>—</td><td>—</td><td>24 x 15</td><td>36 x 24</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 2B-1 (page 288), row: To All Lanes (plaque). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th></tr></thead><tbody><tr><td>24</td><td>15</td><td>0.375</td><td>0.5</td><td>3</td><td>3.5</td><td>D*</td><td>2</td><td>3.5</td><td>D**</td></tr><tr><td>36</td><td>24</td><td>0.375</td><td>0.625</td><td>4.625</td><td>5.5</td><td>D*</td><td>3.75</td><td>5.5</td><td>D**</td></tr><tr><td>5.204</td><td>2.25</td><td>0.562</td><td>8.016</td><td>7.293</td><td>7.293</td><td>1.5</td></tr><tr><td>8.177</td><td>3.5</td><td>0.896</td><td>12.585</td><td>11.461</td><td>11.460</td><td>1.5</td></tr></tbody></table>
@@ -29,4 +33,4 @@ tableOfContents: false
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b18">CA MUTCD 2026 &sect;2B.18</a> STOP Sign or YIELD Sign Placement</li><li><a href="/SoCal-Super-Standards/ca-mutcd/3d/#3d04">CA MUTCD 2026 &sect;3D.04</a> Yield Lines for Roundabouts</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b18">MUTCD 11E R1 &sect;2B.18</a> STOP Sign or YIELD Sign Placement</li><li><a href="/SoCal-Super-Standards/mutcd/3d/#3d04">MUTCD 11E R1 &sect;3D.04</a> Yield Lines for Roundabouts</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b18">CA MUTCD 2026 &sect;2B.18</a> STOP Sign or YIELD Sign Placement</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li><li><a href="/SoCal-Super-Standards/ca-mutcd/3d/#3d04">CA MUTCD 2026 &sect;3D.04</a> Yield Lines for Roundabouts</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b18">MUTCD 11E R1 &sect;2B.18</a> STOP Sign or YIELD Sign Placement</li><li><a href="/SoCal-Super-Standards/mutcd/3d/#3d04">MUTCD 11E R1 &sect;3D.04</a> Yield Lines for Roundabouts</li></ul>

@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi-Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>24 x 12</td><td>24 x 12</td><td>30 x 15</td><td>36 x 18</td><td>—</td><td>36 x 18</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 2B-1 (page 290), row: Except Local Deliveries (plaque). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>J</th><th>K</th><th>L</th><th>M</th><th>N</th><th>P</th></tr></thead><tbody><tr><td>24</td><td>12</td><td>0.375</td><td>0.375</td><td>2.625</td><td>2.5</td><td>C*</td><td>1.75</td><td>2.5</td><td>D</td><td>9.504</td><td>1.75</td><td>8.148</td><td>7.617</td><td>7.616</td><td>1.5</td></tr><tr><td>30</td><td>15</td><td>0.375</td><td>0.5</td><td>3.125</td><td>3.25</td><td>C*</td><td>2.25</td><td>3.25</td><td>D</td><td>12.355</td><td>2.25</td><td>10.593</td><td>9.902</td><td>9.901</td><td>1.5</td></tr><tr><td>36</td><td>18</td><td>0.375</td><td>0.625</td><td>3.625</td><td>4</td><td>C*</td><td>2.75</td><td>4</td><td>D</td><td>15.206</td><td>2.375</td><td>13.037</td><td>12.187</td><td>12.186</td><td>1.5</td></tr></tbody></table>
@@ -29,4 +33,4 @@ tableOfContents: false
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b45">CA MUTCD 2026 &sect;2B.45</a> Selective Exclusion Signs and Plaques</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b45">MUTCD 11E R1 &sect;2B.45</a> Selective Exclusion Signs and Plaques</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b45">CA MUTCD 2026 &sect;2B.45</a> Selective Exclusion Signs and Plaques</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b45">MUTCD 11E R1 &sect;2B.45</a> Selective Exclusion Signs and Plaques</li></ul>

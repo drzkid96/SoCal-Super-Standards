@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi-Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>24 x 12</td><td>24 x 12</td><td>—</td><td>—</td><td>—</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 2B-1 (page 289), row: HOV 2+ (plaque). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <p>See the FHWA layout sheet for dimensions.</p>
@@ -29,4 +33,4 @@ tableOfContents: false
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b28">CA MUTCD 2026 &sect;2B.28</a> Mandatory Movement Lane Control Signs (R3-5, R3-5a, R3-7, R3-19 Series, and R3-20) and Plaques</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b30">CA MUTCD 2026 &sect;2B.30</a> Advance Intersection Lane Control Signs (R3-8 Series)</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b28">MUTCD 11E R1 &sect;2B.28</a> Mandatory Movement Lane Control Signs (R3-5, R3-5a, R3-7, R3-19 Series, and R3-20) and Plaques</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b30">MUTCD 11E R1 &sect;2B.30</a> Advance Intersection Lane Control Signs (R3-8 Series)</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b28">CA MUTCD 2026 &sect;2B.28</a> Mandatory Movement Lane Control Signs (R3-5, R3-5a, R3-7, R3-19 Series, and R3-20) and Plaques</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b30">CA MUTCD 2026 &sect;2B.30</a> Advance Intersection Lane Control Signs (R3-8 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b28">MUTCD 11E R1 &sect;2B.28</a> Mandatory Movement Lane Control Signs (R3-5, R3-5a, R3-7, R3-19 Series, and R3-20) and Plaques</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b30">MUTCD 11E R1 &sect;2B.30</a> Advance Intersection Lane Control Signs (R3-8 Series)</li></ul>

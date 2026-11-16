@@ -16,17 +16,21 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#guide">Guide Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sg2">SG2 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 2M-2(CA), page </dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 2M-2(CA)</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+<p>This sign is not listed in a CA MUTCD size table; see the governing section.</p>
+
 ## Sizes and layout dimensions (inches)
 
-<p>See the FHWA layout sheet for dimensions.</p>
+<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2m/#2m103ca">CA MUTCD 2026 &sect;2M.103(CA)</a> Historic Route Signs (SG2(CA), SG2A(CA), S18(CA) and S25(CA))</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2m/#2m103ca">CA MUTCD 2026 &sect;2M.103(CA)</a> Historic Route Signs (SG2(CA), SG2A(CA), S18(CA) and S25(CA))</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2m/#2m104ca">CA MUTCD 2026 &sect;2M.104(CA)</a> Historic Bridge Signs (S29(CA), S29-1(CA) and S29-2(CA))</li></ul>

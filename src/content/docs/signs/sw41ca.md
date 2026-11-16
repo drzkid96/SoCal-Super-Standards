@@ -16,17 +16,21 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sw41">SW41 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 2C-7(CA), page </dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 2C-7(CA)</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+<p>This sign is not listed in a CA MUTCD size table; see the governing section.</p>
+
 ## Sizes and layout dimensions (inches)
 
-<p>See the FHWA layout sheet for dimensions.</p>
+<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c30">CA MUTCD 2026 &sect;2C.30</a> Surface Condition Signs (W8-5, W8-7, W8-8, W8-11, W8-13, and W8-14)</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c30">CA MUTCD 2026 &sect;2C.30</a> Surface Condition Signs (W8-5, W8-7, W8-8, W8-11, W8-13, and W8-14)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c103ca">CA MUTCD 2026 &sect;2C.103(CA)</a> Safety Corridor Sign (SW33(CA))</li></ul>

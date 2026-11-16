@@ -16,17 +16,21 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#guide">Guide Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sg42">SG42 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 2J-1(CA), page </dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 2J-1(CA)</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+<p>This sign is not listed in a CA MUTCD size table; see the governing section.</p>
+
 ## Sizes and layout dimensions (inches)
 
-<p>See the FHWA layout sheet for dimensions.</p>
+<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2j/#2j07">CA MUTCD 2026 &sect;2J.07</a> Single-Exit Interchanges</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2j/#2j07">CA MUTCD 2026 &sect;2J.07</a> Single-Exit Interchanges</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2j/#2j101ca">CA MUTCD 2026 &sect;2J.101(CA)</a> Signs at Ramps (SG42-4(CA), SG42-5(CA), SG42-8(CA) and SG42-12(CA))</li></ul>

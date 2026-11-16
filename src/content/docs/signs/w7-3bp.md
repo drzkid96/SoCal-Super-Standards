@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi- Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>24 x 18</td><td>24 x 18</td><td>—</td><td>—</td><td>—</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 2C-1 (page 379), row: XX% Grade, XX Miles (plaque). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>J</th></tr></thead><tbody><tr><td>24</td><td>18</td><td>0.375</td><td>0.625</td><td>4</td><td>3</td><td>C</td><td>VAR</td><td>VAR</td><td>0.480</td></tr><tr><td>3.463</td><td>2.5</td><td>1.130</td><td>9.254</td><td>VAR</td><td>VAR</td><td>2.532</td><td>6.712</td><td>1.5</td></tr></tbody></table>

@@ -21,6 +21,10 @@ tableOfContents: false
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi- Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>24 x 18</td><td>24 x 18</td><td>30 x 24</td><td>36 x 30</td><td>—</td><td>36 x 30</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table 2C-1 (page 379), row: Road Condition (plaques). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
 <p>See the FHWA layout sheet for dimensions.</p>

@@ -16,17 +16,21 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#school">School Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sw24">SW24 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 7B-1, page </dd>
+<dt>Source</dt><dd>CA MUTCD 2026, Figure 7B-1</dd>
 </dl>
 </div>
 </div>
 
+## Required sizes in California
+
+<table class="dims"><thead><tr><th>Conventional Road</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>36 x 54</td><td>30 x 48</td><td>48 x 66</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1492 (page 1492), row: School Crosswalk Warning Assembly B(CA). Sizes in inches, width x height.</p>
+
 ## Sizes and layout dimensions (inches)
 
-<p>See the FHWA layout sheet for dimensions.</p>
+<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 
-<ul class="ments"><li>No section text mentions this code directly.</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/7b/#7b07">CA MUTCD 2026 &sect;7B.07</a> Parking and Stopping (R7 and R8 Series) Signs</li></ul>
