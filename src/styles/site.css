@@ -177,3 +177,6 @@ table.trules td{vertical-align:top}
 .tcard{display:flex;flex-direction:column;gap:.35rem;border:1px solid #e3dccb;border-radius:12px;background:#fff;padding:1rem;text-decoration:none;color:#3b3a33}
 .tcard b{color:var(--sss-green);font-size:1.05rem}.tcard span{font-size:.85rem}.tcard em{font-size:.78rem;color:#8a8778;font-style:normal}
 a.ai-btn{display:inline-block;text-decoration:none}
+
+.tsign span{white-space:normal;display:block;line-height:1.25;overflow-wrap:anywhere}
+:root{--sl-content-width:56rem}

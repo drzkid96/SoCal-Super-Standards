@@ -38,7 +38,7 @@ LABEL = {"std": "Standard", "gui": "Guidance", "opt": "Option", "sup": "Support"
 T = [
  ("crosswalks", "Crosswalks and pedestrian crossings", "Marking, signing and controlling pedestrian crossings: crosswalk patterns, uncontrolled crossings, RRFBs, PHBs, raised crosswalks, limit lines and advance yield lines.",
   r"crosswalk|pedestrian crossing|yield here to|stop here for ped|rectangular rapid|pedestrian hybrid|in-street ped|limit line|stop and yield lines|ped(estrian)? signs?|high-visibility",
-  r"crosswalk|pedestrian|RRFB|yield line|stop line|limit line|hybrid beacon", ["R1-5", "R1-6", "R9-", "W11-2", "W16-7", "W16-9", "R10-15"], r"crosswalk|limit line|crossing island|raised crosswalk|continental|uncontrolled", ["crosswalks"]),
+  r"crosswalk|pedestrian|RRFB|yield line|stop line|limit line|hybrid beacon", ["R1-5", "R1-6", "R9-2", "R9-3", "R9-4", "R9-8", "R9-9", "R9-10", "R9-11", "R10-15", "W11-2", "W16-7", "W16-9", "SW24-"], r"crosswalk|limit line|crossing island|raised crosswalk|continental|uncontrolled", ["crosswalks"]),
  ("bikeways", "Bikeways and bicycle facilities", "Bike lanes, separated bikeways (Class IV), buffered and green-colored lanes, bike boxes, two-stage turn queue boxes, shared lane markings, bike signals and bicycle signs.",
   r"bicycl|bike|shared lane|separated|two-stage|cycle", r"bicycl|bike|shared lane|separated|cycle", ["R81", "R3-17", "R4-11", "W11-1", "D11-1", "R9-6", "R10-22", "R10-26", "W16-1", "R4-4", "R9-5", "R5-1b"], r"bike|bicycl|sharrow|cycle", ["bikeways"]),
  ("transit", "Transit, bus lanes and bus stops", "Preferential and bus-only lanes, red transit lanes, bus bulbs and stops, queue jumps, transit signals and light rail.",
@@ -100,7 +100,7 @@ for order, (slug, name, intro, sec_rx, fig_rx, sign_pref, ladot_rx, ladot_tags) 
             seen.add(x["image"]); fgu.append(x)
     fhtml = "".join(f'<a class="tfig" href="{x["url"]}"><img loading="lazy" src="{BASE}{x["image"]}" alt="{esc(x["kind"])} {esc(x["id"])}"><span><b>{esc(x["kind"])} {esc(x["id"])}</b> {esc(x["title"][:90])}</span></a>' for x in fgu[:24])
     # signs
-    sg = [s for s in signs if any(s["code"].startswith(p) for p in sign_pref)]
+    sg = [s for s in signs if any(s["code"].startswith(p) and (p.endswith("-") or len(s["code"]) == len(p) or not s["code"][len(p)].isdigit()) for p in sign_pref) or (frx.search(s["name"]) and s["category"] != "Temporary Traffic Control Signs" if slug != "temporary-traffic-control" else False)]
     sg = sorted(sg, key=lambda s: (s.get("ca_status") == "not adopted", s["code"]))[:72]
     shtml = "".join(f'<a class="tsign sref" href="{BASE}/signs/{s["slug"]}/" data-svg="{BASE}{s["svg"]}"><img loading="lazy" src="{BASE}{s["svg"]}" alt="{esc(s["code"])}"><span><b>{esc(s["code"])}</b> {esc(s.get("descriptor", s["name"]))[:48]}</span></a>' for s in sg)
     # LADOT drawings + pages

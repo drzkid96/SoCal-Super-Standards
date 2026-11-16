@@ -7,7 +7,7 @@ sidebar:
 
 <div class="topic-intro">Street name signs, overhead and mastarm-mounted name signs, advance street name signs, guide and wayfinding signs.</div>
 
-<div class="topic-stats"><span><b>76</b> CA MUTCD sections</span><span><b>226</b> standards (shall)</span><span><b>191</b> guidance (should)</span><span><b>186</b> options (may)</span><span><b>0</b> signs</span><span><b>7</b> LADOT drawings</span></div>
+<div class="topic-stats"><span><b>76</b> CA MUTCD sections</span><span><b>226</b> standards (shall)</span><span><b>191</b> guidance (should)</span><span><b>186</b> options (may)</span><span><b>2</b> signs</span><span><b>7</b> LADOT drawings</span></div>
 
 <p><a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20street%20name%20and%20guide%20signs;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
 
@@ -29,6 +29,6 @@ CA MUTCD 2026 governs in California. Each row shows the section's first Standard
 
 ## Signs
 
-<div class="tsigns"></div>
+<div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/w16-8p/" data-svg="/SoCal-Super-Standards/signs/W16-8P.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W16-8P.svg" alt="W16-8P"><span><b>W16-8P</b> Advance Street Name (1-line plaque) plaque</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/w16-8ap/" data-svg="/SoCal-Super-Standards/signs/W16-8aP.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W16-8aP.svg" alt="W16-8aP"><span><b>W16-8aP</b> Advance Street Name (2-line plaque) plaque</span></a></div>
 
 <p><a href="/SoCal-Super-Standards/signs/">Open the full Sign Library</a></p>
