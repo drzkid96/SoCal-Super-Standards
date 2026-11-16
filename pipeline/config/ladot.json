@@ -121,5 +121,26 @@
   "publisher": "LA Department of City Planning",
   "chunk": 20,
   "mode": "chunk"
+ },
+ {
+  "slug": "ladot/signal-design-notes",
+  "path": "/mnt/user-data/uploads/78e3a638-TRAFFIC-SIGNAL-DESIGN-NOTES-2023-03.pdf",
+  "title": "LADOT Traffic Signal Design Notes (standard plan notes)",
+  "short": "Signal Design Notes",
+  "edition": "03/2023",
+  "publisher": "LADOT",
+  "mode": "chunk",
+  "chunk": 2,
+  "refs_only": true
+ },
+ {
+  "slug": "ladot/geometric-plan-sample",
+  "path": "/mnt/user-data/uploads/096592ce-GEOMETRIC-PLAN-SAMPLE.pdf",
+  "title": "LADOT Geometric (Striping) Plan Sample Sheet",
+  "short": "Geometric Plan Sample",
+  "edition": "as provided",
+  "publisher": "LADOT",
+  "mode": "chunk",
+  "chunk": 1
  }
 ]

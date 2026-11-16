@@ -79,7 +79,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     for (const [k, id] of [['q', 'dx-q'], ['src', 'dx-src'], ['type', 'dx-type'], ['topic', 'dx-topic'], ['sg', 'dx-sg']]) if (p.get(k)) $(id).value = p.get(k);
     let shown = 0, list = [];
     const card = (i) => `<a class="dx-card" href="${i.url}"><div class="dx-img">${i.img ? `<img loading="lazy" src="${i.img}" alt="">` : ''}</div>
-      <div class="dx-body"><div class="dx-tag ${i.sg === 'LADOT' ? 'l' : i.src.startsWith('CA') ? 'c' : 'f'}">${i.src}</div>
+      <div class="dx-body"><div class="dx-tag ${i.sg === 'MUTCD' ? (i.src.startsWith('CA') ? 'c' : 'f') : 'l'}">${i.src}</div>
       <b>${i.type === 'Figure page' ? '' : (i.type === 'Standard drawing' ? '' : i.type + ' ') + i.num}</b> ${(i.title || '').replace(/</g, '&lt;')}
       ${i.date ? `<div class="dx-meta">Dated ${i.date} &middot; ${i.sheets} sheet(s)</div>` : ''}</div></a>`;
     function run(reset = true) {

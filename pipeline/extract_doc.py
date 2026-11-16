@@ -139,9 +139,11 @@ def keywords(text, n=14):
 toc = [t for t in doc.get_toc() if t[0] <= cfg.get("toc_level", 1) and t[2] >= 1]
 if cfg.get("toc_filter"):
     toc = [t for t in toc if re.match(cfg["toc_filter"], t[1].strip())]
+if cfg.get("dwg_re"):
+    DWG_RE = re.compile(cfg["dwg_re"])
 # page -> bookmark label (drawing sets bookmark each sheet)
-page_label = {}
-for lvl, title, page in toc:
+page_label = {int(k): v for k, v in cfg.get("page_labels", {}).items()}
+for lvl, title, page in ([] if page_label else toc):
     lab = re.sub(r"\.pdf$", "", re.sub(r"\s+", " ", title).strip(), flags=re.I)
     page_label.setdefault(page, lab)
 mode = cfg.get("mode", "toc")
@@ -179,7 +181,7 @@ if not chapters:
 
 records, drawings = [], {}
 IDX_RE = re.compile(r"(S-\d{2,3}(?:\.\d+)*)\s+([A-Z][^\n]{4,90}?)\s+(\d{1,2})\s+(\d\d-\d\d-\d\d)")
-dwg_titles = {}
+dwg_titles = dict(cfg.get("drawing_titles", {}))
 for _p in range(min(len(doc), 25)):
     for m in IDX_RE.finditer(re.sub(r"[ \t]+", " ", doc[_p].get_text().replace("\n", " "))):
         k = m.group(1) if "." in m.group(1) else m.group(1) + ".0"
@@ -191,9 +193,9 @@ def norm_d(ds):
     out = []
     for d in ds:
         n = d[2:].split(".")[0]
-        if len(n) < MIN_D:
+        if cfg.get("dwg_norm", True) and len(n) < MIN_D:
             continue
-        if "." not in d:
+        if cfg.get("dwg_norm", True) and "." not in d:
             d += ".0"
         if d not in out:
             out.append(d)
@@ -216,11 +218,11 @@ for ci, (ctitle, a, b) in enumerate(chapters):
                 text = ""
         graphic = is_graphic(pg, native)
         img = snip(pg, pno, scanned) if graphic else None
-        flat = re.sub(r"\s+", " ", text)
+        flat = re.sub(r"\s+", " ", text).replace("\u2014", "-").replace("\u2013", "-")
         if pno + 1 in page_label:
             cur_label = page_label[pno + 1]
         lab = cur_label if cfg.get("carry_label") else page_label.get(pno + 1, "")
-        lab_d = DWG_RE.findall(re.sub(r"S-(\d+)-(\d+)(?:-(\d+))?", lambda m: "S-" + ".".join(x for x in m.groups() if x), lab))
+        lab_d = DWG_RE.findall(lab) if not cfg.get("dwg_norm", True) else DWG_RE.findall(re.sub(r"S-(\d+)-(\d+)(?:-(\d+))?", lambda m: "S-" + ".".join(x for x in m.groups() if x), lab))
         dwgs = norm_d(lab_d + sorted(set(DWG_RE.findall(flat))))
         codes = sorted({c for c in CODE_RE.findall(flat)})
         secs = sorted(set(SEC_RE.findall(flat)))
@@ -232,9 +234,9 @@ for ci, (ctitle, a, b) in enumerate(chapters):
             if kind == "h":
                 title = t
                 break
-        if lab and not title:
+        if lab and (not title or cfg.get("page_labels")):
             title = lab
-        if dwgs and dwgs[0] in dwg_titles and graphic:
+        if dwgs and dwgs[0] in dwg_titles and graphic and not cfg.get("page_labels"):
             title = f"{dwgs[0]} {dwg_titles[dwgs[0]]['title']}"
         if dwgs and graphic:
             if dwgs[0] not in title:

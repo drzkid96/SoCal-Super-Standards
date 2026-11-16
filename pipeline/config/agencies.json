@@ -1,0 +1,263 @@
+[
+ {
+  "slug": "burbank/standard-plans",
+  "path": "/home/claude/work/agency/burbank-standard-plans.pdf",
+  "agency": "Burbank",
+  "title": "City of Burbank Public Works Department Traffic Standard Plans (BT series)",
+  "short": "Burbank Std. Plans",
+  "edition": "Sheets dated 1992 to 2025, as provided",
+  "publisher": "City of Burbank Public Works Department",
+  "mode": "chunk",
+  "chunk": 40,
+  "page_labels": {
+   "1": "BT-400 Driveway and Turning Areas",
+   "2": "BT-401 Allowable Standard and Compact Parking Width Dimension",
+   "3": "BT-402 General Parking Standards",
+   "4": "BT-403 Parking Bay Widths, sheet 1 of 5",
+   "5": "BT-403 Parking Bay Widths, sheet 2 of 5",
+   "6": "BT-403 Parking Bay Widths, sheet 3 of 5",
+   "7": "BT-403 Parking Bay Widths, sheet 4 of 5",
+   "8": "BT-403 Parking Bay Widths, sheet 5 of 5",
+   "9": "BT-404 Striping (Parking Stalls)",
+   "10": "BT-405 Column Placement",
+   "11": "BT-406 Driveway Transitions",
+   "12": "BT-407 Alley-Driveway Cutoff",
+   "13": "BT-409A-1 Controlled High Visibility Crosswalk",
+   "14": "BT-410-1 Pavement Turn Arrows",
+   "15": "BT-411-1 Stop Bar Detail",
+   "16": "BT-412-1 Sign Post",
+   "17": "BT-413-1 Sign and Post in Median",
+   "18": "BT-414 Standard 3-inch Speed Hump, sheet 1 of 2",
+   "19": "BT-414 Standard 3-inch Speed Hump, sheet 2 of 2",
+   "20": "BT-415-1 Bicycle Detector",
+   "21": "BT-416 Bicycle Markings",
+   "22": "BT-417 Standard 3.0-inch Speed Cushion, sheet 1 of 2",
+   "23": "BT-417 Standard 3.0-inch Speed Cushion, sheet 2 of 2",
+   "24": "BT-418 Standard 3-inch Speed Table, sheet 1 of 2",
+   "25": "BT-418 Standard 3-inch Speed Table, sheet 2 of 2",
+   "26": "BT-452 Residential Driveway Access Guidelines",
+   "27": "TC-REQ General Traffic Control Requirements (Rev. 8)"
+  },
+  "drawing_titles": {
+   "BT-400": {
+    "title": "Driveway and Turning Areas",
+    "sheets": 1,
+    "date": "06-01-92"
+   },
+   "BT-401": {
+    "title": "Allowable Standard and Compact Parking Width Dimension",
+    "sheets": 1,
+    "date": "06-01-92"
+   },
+   "BT-402": {
+    "title": "General Parking Standards",
+    "sheets": 1,
+    "date": "06-01-92"
+   },
+   "BT-403": {
+    "title": "Parking Bay Widths",
+    "sheets": 5,
+    "date": "06-01-92"
+   },
+   "BT-404": {
+    "title": "Striping (Parking Stalls)",
+    "sheets": 1,
+    "date": "06-01-92"
+   },
+   "BT-405": {
+    "title": "Column Placement",
+    "sheets": 1,
+    "date": "06-01-92"
+   },
+   "BT-406": {
+    "title": "Driveway Transitions",
+    "sheets": 1,
+    "date": "06-01-92"
+   },
+   "BT-407": {
+    "title": "Alley-Driveway Cutoff",
+    "sheets": 1,
+    "date": "06-01-92"
+   },
+   "BT-409A-1": {
+    "title": "Controlled High Visibility Crosswalk",
+    "sheets": 1,
+    "date": "11-14-19"
+   },
+   "BT-410-1": {
+    "title": "Pavement Turn Arrows",
+    "sheets": 1,
+    "date": "11-14-19"
+   },
+   "BT-411-1": {
+    "title": "Stop Bar Detail",
+    "sheets": 1,
+    "date": "11-14-19"
+   },
+   "BT-412-1": {
+    "title": "Sign Post",
+    "sheets": 1,
+    "date": "11-14-19"
+   },
+   "BT-413-1": {
+    "title": "Sign and Post in Median",
+    "sheets": 1,
+    "date": "11-14-19"
+   },
+   "BT-414": {
+    "title": "Standard 3-inch Speed Hump",
+    "sheets": 2,
+    "date": "12-21-16"
+   },
+   "BT-415-1": {
+    "title": "Bicycle Detector",
+    "sheets": 1,
+    "date": "11-14-19"
+   },
+   "BT-416": {
+    "title": "Bicycle Markings",
+    "sheets": 1,
+    "date": "11-14-19"
+   },
+   "BT-417": {
+    "title": "Standard 3.0-inch Speed Cushion",
+    "sheets": 2,
+    "date": "07-23-25"
+   },
+   "BT-418": {
+    "title": "Standard 3-inch Speed Table",
+    "sheets": 2,
+    "date": "07-23-25"
+   },
+   "BT-452": {
+    "title": "Residential Driveway Access Guidelines",
+    "sheets": 1,
+    "date": "08-14-06"
+   },
+   "TC-REQ": {
+    "title": "General Traffic Control Requirements (Rev. 8)",
+    "sheets": 1,
+    "date": "03-19-19"
+   }
+  },
+  "dwg_re": "\\b((?:BT-\\d{3}A?(?:-\\d)?)|TC-REQ)\\b",
+  "dwg_norm": false,
+  "carry_label": false
+ },
+ {
+  "slug": "pasadena/standard-plans",
+  "path": "/mnt/user-data/uploads/e67640e9-CITY-STD-DWG-COMBINED.pdf",
+  "agency": "Pasadena",
+  "title": "City of Pasadena Department of Transportation Standard Plans (S-700 series)",
+  "short": "Pasadena Std. Plans",
+  "edition": "Sheets dated 2001 to 2023, as provided",
+  "publisher": "City of Pasadena Department of Transportation",
+  "mode": "chunk",
+  "chunk": 40,
+  "page_labels": {
+   "1": "S-702 Turn Bay Transition, Single Double Centerline",
+   "2": "S-704 Parking Tee Installation",
+   "3": "S-705 SLOW SCHOOL XING Pavement Markings",
+   "4": "S-706 Pedestrian Crossing Pavement Markings",
+   "5": "S-707 Speed Hump/Cushion Installation, Channelization and Temporary Signing Requirements, sheet 1 of 5",
+   "6": "S-707 Standard 3.5-inch Speed Hump (street width less than 50 ft), sheet 2 of 5",
+   "7": "S-707 Standard 3.5-inch Speed Hump (street width 50 ft or greater), sheet 3 of 5",
+   "8": "S-707 Standard 3.5-inch Speed Cushion (street width 28 to 38 ft), sheet 4 of 5",
+   "9": "S-707 Standard 3.5-inch Speed Cushion (street width 38 ft and greater), sheet 5 of 5",
+   "10": "S-709 Crosswalk Installation, sheet 1 of 3",
+   "11": "S-709 'Zebra' Crosswalk, sheet 2 of 3",
+   "12": "S-709 Continental Crosswalk Installation, sheet 3 of 3",
+   "13": "S-710 Raised Pavement Marker Installation Detail, sheet 1 of 3",
+   "14": "S-710 Raised Pavement Marker Installation Detail, sheet 2 of 3",
+   "15": "S-710 Raised Pavement Marker Installation Detail, sheet 3 of 3",
+   "16": "S-711 Two-Way Left Turn Lane, Single Yellow Centerline, Solid White Lane Line",
+   "17": "S-712 Pavement Markings for Left and Right Turn Lanes",
+   "18": "S-713 Limit Line and STOP Pavement Markings",
+   "19": "S-714 Layout, 3 m (10 ft) Wide Turn Bay Transition",
+   "20": "S-715 New Sign Post Installation",
+   "21": "S-716 Post Extension and Sign Mounting",
+   "22": "S-717 STOP Sign and Post Replacement",
+   "23": "S-718 STOP Sign Post Extension for Street Name Signs Installation"
+  },
+  "drawing_titles": {
+   "S-702": {
+    "title": "Turn Bay Transition, Single Double Centerline",
+    "sheets": 1,
+    "date": "06-04-01"
+   },
+   "S-704": {
+    "title": "Parking Tee Installation",
+    "sheets": 1,
+    "date": "06-04-01"
+   },
+   "S-705": {
+    "title": "SLOW SCHOOL XING Pavement Markings",
+    "sheets": 1,
+    "date": "06-04-01"
+   },
+   "S-706": {
+    "title": "Pedestrian Crossing Pavement Markings",
+    "sheets": 1,
+    "date": "06-04-01"
+   },
+   "S-707": {
+    "title": "Speed Humps and Speed Cushions",
+    "sheets": 5,
+    "date": "04-19-23"
+   },
+   "S-709": {
+    "title": "Crosswalk Installation",
+    "sheets": 3,
+    "date": "12-26-19"
+   },
+   "S-710": {
+    "title": "Raised Pavement Marker Installation Detail",
+    "sheets": 3,
+    "date": "06-04-01"
+   },
+   "S-711": {
+    "title": "Two-Way Left Turn Lane, Single Yellow Centerline, Solid White Lane Line",
+    "sheets": 1,
+    "date": "06-04-01"
+   },
+   "S-712": {
+    "title": "Pavement Markings for Left and Right Turn Lanes",
+    "sheets": 1,
+    "date": "06-04-01"
+   },
+   "S-713": {
+    "title": "Limit Line and STOP Pavement Markings",
+    "sheets": 1,
+    "date": "06-04-01"
+   },
+   "S-714": {
+    "title": "Layout, 3 m (10 ft) Wide Turn Bay Transition",
+    "sheets": 1,
+    "date": "06-04-01"
+   },
+   "S-715": {
+    "title": "New Sign Post Installation",
+    "sheets": 1,
+    "date": "07-07-03"
+   },
+   "S-716": {
+    "title": "Post Extension and Sign Mounting",
+    "sheets": 1,
+    "date": "07-23-01"
+   },
+   "S-717": {
+    "title": "STOP Sign and Post Replacement",
+    "sheets": 1,
+    "date": "07-23-01"
+   },
+   "S-718": {
+    "title": "STOP Sign Post Extension for Street Name Signs Installation",
+    "sheets": 1,
+    "date": "07-23-01"
+   }
+  },
+  "dwg_re": "\\b(S-7\\d\\d)\\b",
+  "dwg_norm": false,
+  "carry_label": false
+ }
+]

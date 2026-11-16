@@ -24,11 +24,10 @@ for src, figs, lab in (("CA MUTCD 2026", ca_figs, "ca"), ("Federal MUTCD", fed_f
                       "img": BASE + f["image"] if f.get("image") else "", "url": f["url"], "topics": topics_for(f["title"]),
                       "part": f["chapter"][0]})
 
-cfg = json.load(open("pipeline/config/ladot.json"))
+cfg = json.load(open("pipeline/config/ladot.json")) + json.load(open("pipeline/config/agencies.json"))
 signs = {s["code"]: s for s in json.load(open("data/signs/signs.json"))}
 ca_secs = {s["num"]: s for s in json.load(open("data/ca-mutcd/sections.json"))}
-os.makedirs("src/content/docs/details/ladot", exist_ok=True)
-for f in glob.glob("src/content/docs/details/ladot/*.md"):
+for f in glob.glob("src/content/docs/details/*/*.md"):
     os.remove(f)
 dwg_pages = []
 for c in cfg:
@@ -47,8 +46,10 @@ for c in cfg:
         run[pno] = cur
     # group sheets by primary drawing
     groups = {}
+    AG = c.get("agency", "LADOT"); ag = AG.lower()
+    os.makedirs(f"src/content/docs/details/{ag}", exist_ok=True)
     for p in d["pages"]:
-        if p["image"] and p["drawings"]:
+        if p["image"] and p["drawings"] and not c.get("refs_only"):
             groups.setdefault(p["drawings"][0], []).append(p)
     doc_slug = slugify(c["short"])
     order = sorted(groups, key=lambda k: [int(x) for x in re.findall(r"\d+", k)])
@@ -57,16 +58,16 @@ for c in cfg:
         meta = d.get("drawing_titles", {}).get(k, {})
         title = meta.get("title") or (sheets[0]["title"] or "").replace(f"({k})", "").strip() or "Standard drawing"
         slug = f"{doc_slug}-{slugify(k)}"
-        url = f"{BASE}/details/ladot/{slug}/"
+        url = f"{BASE}/details/{ag}/{slug}/"
         codes = sorted({x for p in sheets for x in p["sign_codes"]})
         secs = sorted({x for p in sheets for x in p["sections"]})
         kw = []
         for p in sheets:
             kw += [w for w in p["keywords"] if w not in kw]
         tops = topics_for(title + " " + " ".join(kw[:12]))
-        dwg_pages.append((c, k, title, slug))
-        prev_l = f'<a href="{BASE}/details/ladot/{doc_slug}-{slugify(order[i-1])}/">&larr; {esc(order[i-1])}</a>' if i else ""
-        next_l = f'<a href="{BASE}/details/ladot/{doc_slug}-{slugify(order[i+1])}/">{esc(order[i+1])} &rarr;</a>' if i + 1 < len(order) else ""
+        dwg_pages.append((c, k, title, slug, url))
+        prev_l = f'<a href="{BASE}/details/{ag}/{doc_slug}-{slugify(order[i-1])}/">&larr; {esc(order[i-1])}</a>' if i else ""
+        next_l = f'<a href="{BASE}/details/{ag}/{doc_slug}-{slugify(order[i+1])}/">{esc(order[i+1])} &rarr;</a>' if i + 1 < len(order) else ""
         sheet_html = ""
         for j, p in enumerate(sheets, 1):
             sheet_html += (f'\n### Sheet {j} of {len(sheets)} (document page {p["page"]})\n\n'
@@ -96,8 +97,8 @@ tableOfContents: false
 
 <div class="kw">Keywords: {esc(", ".join(kw[:30]))}</div>
 '''
-        open(f"src/content/docs/details/ladot/{slug}.md", "w").write(md)
-        items.append({"src": c["short"], "sg": "LADOT", "type": "Standard drawing", "num": k, "title": title, "img": sheets[0]["image"],
+        open(f"src/content/docs/details/{ag}/{slug}.md", "w").write(md)
+        items.append({"src": c["short"], "sg": AG, "type": "Standard drawing", "num": k, "title": title, "img": sheets[0]["image"],
                       "url": url, "topics": tops, "date": meta.get("date", ""), "sheets": len(sheets), "signs": codes[:12],
                       "kw": " ".join(kw[:20])})
     # design-guide figure pages without a drawing number
@@ -107,7 +108,7 @@ tableOfContents: false
             t = p["title"] or lab or f"Page {p['page']}"
             if lab and p["title"] and lab not in p["title"]:
                 t = f"{lab}: {p['title']}"
-            items.append({"src": c["short"], "sg": "LADOT", "type": "Figure page", "num": f"p{p['page']}", "title": t[:150], "img": p["image"],
+            items.append({"src": c["short"], "sg": AG, "type": "Figure page", "num": f"p{p['page']}", "title": t[:150], "img": p["image"],
                           "url": p["url"], "topics": topics_for(t + " " + " ".join(p["keywords"][:8])), "signs": p["sign_codes"][:8],
                           "kw": " ".join(p["keywords"][:12])})
 
@@ -143,11 +144,11 @@ for f in fed_figs:
     add(f["id"], f"Federal {f['kind']} {f['id']}", f["url"])
 for code, s in signs.items():
     add(code, f"Sign {code} {s['descriptor']}", f"{BASE}/signs/{s['slug']}/")
-for c, k, title, slug in dwg_pages:
-    add(k, f"{c['short']} {k} {title}", f"{BASE}/details/ladot/{slug}/")
+for c, k, title, slug, url in dwg_pages:
+    add(k, f"{c['short']} {k} {title}", url)
     if k.endswith(".0"):
-        add(k[:-2], f"{c['short']} {k} {title}", f"{BASE}/details/ladot/{slug}/")
+        add(k[:-2], f"{c['short']} {k} {title}", url)
 json.dump(look, open("public/data/lookup.json", "w"), separators=(",", ":"))
-json.dump([[c["short"], k, t, s] for c, k, t, s in dwg_pages], open("data/docs/drawing_pages.json", "w"))
+json.dump([[c["short"], k, t, u] for c, k, t, s, u in dwg_pages], open("data/docs/drawing_pages.json", "w"))
 from collections import Counter
 print(len(items), Counter(i["type"] for i in items), "drawing pages", len(dwg_pages), "lookup keys", len(look))

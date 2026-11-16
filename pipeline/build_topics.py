@@ -8,7 +8,7 @@ ca = json.load(open("data/ca-mutcd/sections.json"))
 fed = {s["num"]: s for s in json.load(open("data/mutcd/sections.json"))}
 figs = json.load(open("data/ca-mutcd/figures.json"))
 signs = json.load(open("data/signs/signs.json"))
-ladot_cfg = json.load(open("pipeline/config/ladot.json"))
+ladot_cfg = json.load(open("pipeline/config/ladot.json")) + json.load(open("pipeline/config/agencies.json"))
 ladot = [json.load(open(f"data/docs/{c['slug'].replace('/', '__')}.json")) for c in ladot_cfg]
 
 # ---- section bodies from the CA reader markdown
@@ -82,7 +82,7 @@ for order, (slug, name, intro, sec_rx, fig_rx, sign_pref, ladot_rx, ladot_tags) 
         for k, v in d["drawings"].items():
             t = d.get("drawing_titles", {}).get(k, {}).get("title", "")
             if t and lrx.search(t):
-                lrows.append(f'<tr><td><strong>{esc(k)}</strong></td><td>{esc(t)}</td><td>{esc(d["short"])}</td><td><a href="{(BASE + '/details/ladot/' + DP[(d['short'], k)] + '/') if (d['short'], k) in DP else (BASE + '/' + d['slug'] + '/' + v[0]['chapter'] + '/#p' + str(v[0]['page']))}">open drawing</a></td></tr>')
+                lrows.append(f'<tr><td><strong>{esc(k)}</strong></td><td>{esc(t)}</td><td>{esc(d["short"])}</td><td><a href="{DP[(d['short'], k)] if (d['short'], k) in DP else (BASE + '/' + d['slug'] + '/' + v[0]['chapter'] + '/#p' + str(v[0]['page']))}">open drawing</a></td></tr>')
         for p in d["pages"]:
             if p["image"] and (lrx.search(p["title"] or "") or (ladot_tags and set(ladot_tags) <= set(p["topics"]) and len(p["topics"]) <= 3)):
                 lpages.append((d["short"], p))
@@ -99,7 +99,7 @@ sidebar:
 
 <div class="topic-intro">{esc(intro)}</div>
 
-<div class="topic-stats"><span><b>{len(secs)}</b> CA MUTCD sections</span><span><b>{stats["std"]}</b> standards (shall)</span><span><b>{stats["gui"]}</b> guidance (should)</span><span><b>{stats["opt"]}</b> options (may)</span><span><b>{len(sg)}</b> signs</span><span><b>{len(lrows)}</b> LADOT drawings</span></div>
+<div class="topic-stats"><span><b>{len(secs)}</b> CA MUTCD sections</span><span><b>{stats["std"]}</b> standards (shall)</span><span><b>{stats["gui"]}</b> guidance (should)</span><span><b>{stats["opt"]}</b> options (may)</span><span><b>{len(sg)}</b> signs</span><span><b>{len(lrows)}</b> local standard drawings</span></div>
 
 <p><a class="ai-btn ghost" href="{BASE}/details/?topic={slug}">Browse all {sum(1 for x in DET if slug in x["topics"])} figures and drawings on this topic</a> <a class="ai-btn" href="{BASE}/ask/?q={html.escape(q.replace(" ", "%20"))}">Ask Claude to compare all sources on this topic</a></p>
 
@@ -109,7 +109,7 @@ CA MUTCD 2026 governs in California. Each row shows the section's first Standard
 
 <table class="trules"><thead><tr><th>CA MUTCD</th><th>Section and key provision</th><th>Federal 11th Ed. R1</th></tr></thead><tbody>{"".join(rows)}</tbody></table>
 
-## LADOT requirements
+## Local agency standards (LADOT, Burbank, Pasadena)
 
 {("<table class=\"dwtab\"><thead><tr><th>Drawing</th><th>Title</th><th>Document</th><th></th></tr></thead><tbody>" + "".join(lrows) + "</tbody></table>") if lrows else "<p class=\"muted\">No LADOT standard drawing is titled for this topic; see the pages below and search.</p>"}
 

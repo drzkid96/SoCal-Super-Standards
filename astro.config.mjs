@@ -25,6 +25,8 @@ const fedParts = groups(fedChapters, 'mutcd');
 const topicDefs = JSON.parse(fs.readFileSync('./data/topics.json', 'utf8'));
 const topicGroups = topicDefs.map((g) => ({ label: g.group, collapsed: false, items: g.topics.map((t) => ({ label: t.name, link: `/topics/${t.slug}/` })) }));
 const ladotCfg = JSON.parse(fs.readFileSync('./pipeline/config/ladot.json', 'utf8'));
+const agencyCfg = JSON.parse(fs.readFileSync('./pipeline/config/agencies.json', 'utf8'));
+const agencyDocs = agencyCfg.map((c) => ({ label: c.title.replace(/^City of /, '').replace(/ Department.*$/, '').replace(/ Public Works.*$/, '') + ' standard plans', link: `/${c.slug}/` }));
 const ladotDocs = ladotCfg.map((c) => {
   const d = JSON.parse(fs.readFileSync(`./data/docs/${c.slug.replace('/', '__')}.json`, 'utf8'));
   return { label: c.short, collapsed: true, items: [
@@ -72,6 +74,7 @@ export default defineConfig({
           { label: 'Detail and Drawing Index', link: '/details/' },
           { label: 'Sign Library', link: '/signs/' },
           { label: 'LADOT standard drawings', link: '/ladot/' },
+          { label: 'All agency standard drawings', link: '/details/?type=Standard+drawing&sg=' },
         ] },
         { label: 'Design by topic', items: [
           { label: 'All topics', link: '/topics/' },
@@ -87,6 +90,7 @@ export default defineConfig({
           { label: 'CA MUTCD 2026', collapsed: true, items: [{ label: 'About this manual', link: '/ca-mutcd/' }, ...caParts] },
           { label: 'Federal MUTCD 11th Ed. Rev. 1', collapsed: true, items: [{ label: 'About this manual', link: '/mutcd/' }, ...fedParts] },
           { label: 'LADOT', collapsed: true, items: [{ label: 'All LADOT documents', link: '/ladot/' }, ...ladotDocs] },
+          { label: 'Other agencies', collapsed: true, items: agencyDocs },
           { label: 'Sources and versions', link: '/sources/' },
         ] },
       ],

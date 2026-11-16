@@ -19,6 +19,10 @@ description: Every source on this site, its edition, and its status.
 | LADOT Drafting Standards for Striping and Signal Plans | Feb 2005 | Current as provided | [Full document](/SoCal-Super-Standards/ladot/cad-standards/) |
 | LADOT Parking Standards (Council File 22-0922 exhibits) | As filed 10/2022 | Check for a newer version | [Full document](/SoCal-Super-Standards/ladot/parking/) |
 | Mobility Plan 2035 (LA City Planning) | Adopted 9/7/2016 | Current as provided | [Full document](/SoCal-Super-Standards/ladot/mobility-plan/) |
+| LADOT Traffic Signal Design Notes | 03/2023 | Current as provided | [Notes](/SoCal-Super-Standards/ladot/signal-design-notes/) |
+| LADOT Geometric (Striping) Plan Sample | As provided | Reference | [Sample sheet](/SoCal-Super-Standards/ladot/geometric-plan-sample/) |
+| City of Burbank Traffic Standard Plans BT-400 to BT-452, General Traffic Control Requirements | Sheets 1992 to 2025 (BT-417 and BT-418 dated 7/23/2025) | Current as provided | [All sheets](/SoCal-Super-Standards/burbank/standard-plans/) |
+| City of Pasadena DOT Standard Plans S-702 to S-718 | Sheets 2001 to 2023 (S-707 Rev. 10, 4/19/2023) | Current as provided | [All sheets](/SoCal-Super-Standards/pasadena/standard-plans/) |
 | FHWA STEP Guide (2018), FHWA Intersection Design | 2018 / various | Current | Phase 2 |
 | U.S. Access Board ADA Guide, Ch. 4 Ramps and Curb Ramps | Current online edition | Current | Phase 2 |
 | CPBS PLTS Application and Validation | July 2025 | Current | Phase 2 (summary) |
