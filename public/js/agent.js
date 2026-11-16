@@ -1,3 +1,4 @@
+window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', f) : f()));
 // SoCal Super Standards AI: Ask (text + screenshot), Explain, Add reference.
 // Uses the visitor's own Anthropic API key, stored only in this browser (localStorage).
 (() => {
@@ -233,5 +234,5 @@ Keep it tight. Do not invent requirements not in the text.`, 1500);
     };
   }
 
-  document.addEventListener('DOMContentLoaded', () => { mountAsk(); addExplainButtons(); });
+  window.__ready( () => { mountAsk(); addExplainButtons(); });
 })();

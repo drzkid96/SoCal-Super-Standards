@@ -226,3 +226,6 @@ a.pbig em{display:block;font-style:normal;font-weight:400;font-size:.8rem;color:
 a.pbig:hover{border-color:var(--sss-orange)}
 .crumb{font-size:.82rem;color:#7a7768;margin-bottom:.4rem}
 .crumb a{color:var(--sss-green)}
+
+.hero{padding-block:1.5rem 0 !important}
+.hero .tagline{max-width:52rem}

@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import fs from 'node:fs';
+const BUILD = Date.now().toString(36);
 
 const chapters = JSON.parse(fs.readFileSync('./data/ca-mutcd/chapters.json', 'utf8'));
 const fedChapters = JSON.parse(fs.readFileSync('./data/mutcd/chapters.json', 'utf8'));
@@ -56,8 +57,8 @@ export default defineConfig({
         ThemeSelect: './src/components/ThemeSelect.astro',
       },
       head: [
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js', defer: true } },
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js', defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js?v=' + BUILD, defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js?v=' + BUILD, defer: true } },
       ],
       pagination: true,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },

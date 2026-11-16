@@ -1,9 +1,10 @@
+window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', f) : f()));
 // Hover / focus previews for sign codes (a.sref) and keyboard helpers.
 (() => {
   const tip = document.createElement('div');
   tip.className = 'sref-tip';
   tip.innerHTML = '<img alt=""><span></span>';
-  document.addEventListener('DOMContentLoaded', () => document.body.appendChild(tip));
+  window.__ready( () => document.body.appendChild(tip));
   let cur = null;
   function show(a) {
     cur = a;
@@ -20,7 +21,7 @@
   document.addEventListener('focusin', (e) => { const a = e.target.closest && e.target.closest('a.sref'); if (a) show(a); });
   document.addEventListener('scroll', hide, { passive: true });
   // back-to-top button and reading progress
-  document.addEventListener('DOMContentLoaded', () => {
+  window.__ready( () => {
     const b = document.createElement('button');
     b.className = 'to-top'; b.type = 'button'; b.setAttribute('aria-label', 'Back to top'); b.textContent = 'Top';
     b.onclick = () => scrollTo({ top: 0, behavior: 'smooth' });
@@ -61,13 +62,13 @@
       else { const b = document.querySelector('site-search button, button[data-open-modal]'); if (b) b.click(); }
     });
   }
-  document.addEventListener('DOMContentLoaded', () => document.querySelectorAll('.quick-lookup').forEach(mount));
+  window.__ready( () => document.querySelectorAll('.quick-lookup').forEach(mount));
 })();
 
 /* ---------- detail and drawing index ---------- */
 (function () {
   const BASE = '/SoCal-Super-Standards';
-  document.addEventListener('DOMContentLoaded', async () => {
+  window.__ready( async () => {
     const root = document.getElementById('dx');
     if (!root) return;
     const all = await (await fetch(BASE + '/data/details.json')).json();
