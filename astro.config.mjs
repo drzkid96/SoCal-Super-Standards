@@ -66,6 +66,7 @@ export default defineConfig({
           { label: 'How to use this site', link: '/guide/' },
           { label: 'Sources and versions', link: '/sources/' },
         ] },
+        { label: 'Topics', items: [{ autogenerate: { directory: 'topics' } }] },
         { label: 'Libraries', items: [
           { label: 'Sign Library', link: '/signs/' },
         ] },

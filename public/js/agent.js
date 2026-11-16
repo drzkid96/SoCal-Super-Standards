@@ -183,6 +183,7 @@ Keep it tight. Do not invent requirements not in the text.`, 1500);
     const $ = (s) => root.querySelector(s);
     $('#ai-key').value = getKey() ? '••••••••••••' : '';
     $('#ai-model').value = getModel();
+    try { const q0 = new URLSearchParams(location.search).get('q'); if (q0) $('#ai-text').value = q0; } catch {}
     $('#ai-save').onclick = () => {
       const v = $('#ai-key').value.trim();
       if (v && !v.startsWith('••')) setKey(v);
