@@ -250,7 +250,7 @@ description: Every standard sign, drawn clean at the same size, grouped by MUTCD
 tableOfContents: false
 ---
 
-<div class="srcbar">Artwork and dimensions: FHWA Standard Highway Signs, 2024 Edition (Releases 1-4). California status: CA MUTCD 2026 figures. {n_all} signs; {n_na} are crossed out (not adopted) in California.</div>
+<div class="srcbar">Federal sign artwork and dimensions: FHWA Standard Highway Signs, 2024 Edition (Releases 1-4). California-only signs (codes ending in (CA)): cut from the CA MUTCD 2026 figures; search "(CA)" to list them. {n_all} signs; {n_na} federal signs are crossed out (not adopted) in California.</div>
 
 <div class="sfilter" id="sfilter">
   <input type="search" id="sq" placeholder="Filter by code or name, e.g. R10-6, bike, school..." autocomplete="off">
