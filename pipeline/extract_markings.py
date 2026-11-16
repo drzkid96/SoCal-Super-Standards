@@ -66,7 +66,9 @@ for pno in range(850, 865):
         num, _, sub = lab["t"].partition(" - ")
         num = num.title()
         key = re.sub(r"\W+", "-", f"ca-{fid}-{num}".lower()).strip("-")
-        img, size = save(pg, pymupdf.Rect(36, y0, x1, y1), key)
+        if not wide and not desc:
+            x1 = pg.rect.width - 20
+        img, size = save(pg, pymupdf.Rect(12, y0, x1, y1), key)
         items.append({"id": key, "kind": "line", "name": f"Caltrans {num}" if num.startswith("Detail") else f"{fid} {num}",
                       "detail": num, "group": group, "subtitle": sub, "figure": fid, "figure_title": ftitle, "desc": desc, "page": pno + 1,
                       "img": img, "w": size[0], "h": size[1]})

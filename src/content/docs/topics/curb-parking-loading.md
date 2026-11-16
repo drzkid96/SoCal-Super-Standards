@@ -8,6 +8,7 @@ sidebar:
 <div class="crumb"><a href="/SoCal-Super-Standards/topics/">Topics</a> &rsaquo; Curb and street design</div>
 
 <div class="topic-intro">Curb paint colors, parking stalls, loading and passenger zones, no-parking and tow-away signs, shared mobility zones, meters and accessible parking.</div>
+<p><a class="ai-btn" href="/SoCal-Super-Standards/ladot/curb-paint/">LADOT curb paint, red curb distances and the S-481.0 calculator</a></p>
 
 <div class="topic-stats"><span><b>12</b> CA MUTCD sections</span><span><b>64</b> standards (shall)</span><span><b>35</b> guidance (should)</span><span><b>61</b> options (may)</span><span><b>54</b> signs</span><span><b>25</b> local standard drawings</span></div>
 

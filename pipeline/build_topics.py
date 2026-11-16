@@ -114,6 +114,7 @@ sidebar:
 <div class="crumb"><a href="{BASE}/topics/">Topics</a> &rsaquo; {GROUP_OF.get(slug, "")}</div>
 
 <div class="topic-intro">{esc(intro)}</div>
+{('<p><a class="ai-btn" href="' + BASE + '/ladot/curb-paint/">LADOT curb paint, red curb distances and the S-481.0 calculator</a></p>') if slug == "curb-parking-loading" else ''}{('<p><a class="ai-btn" href="' + BASE + '/markings/line-types/">Line Type Database: every Caltrans striping detail</a></p>') if slug == "striping-intersections" else ''}
 
 <div class="topic-stats"><span><b>{len(secs)}</b> CA MUTCD sections</span><span><b>{stats["std"]}</b> standards (shall)</span><span><b>{stats["gui"]}</b> guidance (should)</span><span><b>{stats["opt"]}</b> options (may)</span><span><b>{len(sg)}</b> signs</span><span><b>{len(lrows)}</b> local standard drawings</span></div>
 

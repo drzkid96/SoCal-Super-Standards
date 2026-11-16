@@ -9,9 +9,10 @@ sidebar:
 
 <div class="topic-intro">Bike lanes, separated bikeways (Class IV), buffered and green-colored lanes, bike boxes, two-stage turn queue boxes, shared lane markings, bike signals and bicycle signs.</div>
 
+
 <div class="topic-stats"><span><b>94</b> CA MUTCD sections</span><span><b>168</b> standards (shall)</span><span><b>168</b> guidance (should)</span><span><b>209</b> options (may)</span><span><b>52</b> signs</span><span><b>5</b> local standard drawings</span></div>
 
-<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=bikeways">Browse all 150 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20bikeways%20and%20bicycle%20facilities;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
+<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=bikeways">Browse all 156 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20bikeways%20and%20bicycle%20facilities;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
 
 ## The rules
 

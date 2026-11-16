@@ -11,7 +11,7 @@
 "desc": "Centerline pattern for use on two-lane streets and highways (normally used on local streets and highways).",
 "page": 851,
 "img": "/markings/ca-3a-101-ca-detail-1.webp",
-"w": 850,
+"w": 922,
 "h": 265
 },
 {
@@ -26,7 +26,7 @@
 "desc": "Centerline pattern with pavement markers for use on two-lane streets and highways.",
 "page": 851,
 "img": "/markings/ca-3a-101-ca-detail-2.webp",
-"w": 850,
+"w": 922,
 "h": 261
 },
 {
@@ -41,7 +41,7 @@
 "desc": "Centerline pattern for use on two-lane streets and highways (normally used on local streets and highways).",
 "page": 851,
 "img": "/markings/ca-3a-101-ca-detail-5.webp",
-"w": 850,
+"w": 922,
 "h": 261
 },
 {
@@ -56,7 +56,7 @@
 "desc": "Centerline pattern with pavement markers for use on two-lane streets and highways.",
 "page": 851,
 "img": "/markings/ca-3a-101-ca-detail-6.webp",
-"w": 850,
+"w": 922,
 "h": 263
 },
 {
@@ -71,7 +71,7 @@
 "desc": "",
 "page": 851,
 "img": "/markings/ca-3a-101-ca-option-1.webp",
-"w": 850,
+"w": 1740,
 "h": 231
 },
 {
@@ -86,7 +86,7 @@
 "desc": "",
 "page": 851,
 "img": "/markings/ca-3a-101-ca-option-2.webp",
-"w": 850,
+"w": 1740,
 "h": 216
 },
 {
@@ -101,7 +101,7 @@
 "desc": "Lane Line pattern for use on multilane streets and highways (normally used on local streets and highways).",
 "page": 852,
 "img": "/markings/ca-3a-102-ca-detail-8.webp",
-"w": 845,
+"w": 917,
 "h": 234
 },
 {
@@ -116,7 +116,7 @@
 "desc": "Lane Line pattern with pavement markers for use on multilane streets, and highways.",
 "page": 852,
 "img": "/markings/ca-3a-102-ca-detail-9.webp",
-"w": 845,
+"w": 917,
 "h": 260
 },
 {
@@ -131,7 +131,7 @@
 "desc": "Lane line pattern with pavement markers for use on multilane streets, highways and freeway ramps.",
 "page": 852,
 "img": "/markings/ca-3a-102-ca-detail-9a.webp",
-"w": 845,
+"w": 917,
 "h": 272
 },
 {
@@ -146,7 +146,7 @@
 "desc": "Lane Line pattern for use on multilane streets and highways (normally used on local streets and highways).",
 "page": 853,
 "img": "/markings/ca-3a-102-ca-detail-11.webp",
-"w": 849,
+"w": 921,
 "h": 256
 },
 {
@@ -161,7 +161,7 @@
 "desc": "Lane Line pattern with pavement markers for use on multilane conventional streets and highways, expressways and collector roads.",
 "page": 853,
 "img": "/markings/ca-3a-102-ca-detail-12.webp",
-"w": 849,
+"w": 921,
 "h": 281
 },
 {
@@ -176,7 +176,7 @@
 "desc": "Lane Line pattern with pavement markers for use on multilane conventional streets and highways,  freeways, expressways, freeway ramps, and freeway to freeway connectors.",
 "page": 853,
 "img": "/markings/ca-3a-102-ca-detail-12a.webp",
-"w": 849,
+"w": 921,
 "h": 245
 },
 {
@@ -191,7 +191,7 @@
 "desc": "One direction no-passing pattern for use on two-lane streets and highways (normally used on local streets and highways). See Note 2.",
 "page": 854,
 "img": "/markings/ca-3a-103-ca-detail-15.webp",
-"w": 873,
+"w": 945,
 "h": 286
 },
 {
@@ -206,7 +206,7 @@
 "desc": "One direction no-passing pattern with pavement markers for use on two-lane streets and highways. See Notes 1 and 2.",
 "page": 854,
 "img": "/markings/ca-3a-103-ca-detail-16.webp",
-"w": 873,
+"w": 945,
 "h": 381
 },
 {
@@ -221,7 +221,7 @@
 "desc": "One direction no-passing pattern for use on two-lane streets and highways (normally used on local streets and highways). See Note 2.",
 "page": 854,
 "img": "/markings/ca-3a-103-ca-detail-18.webp",
-"w": 873,
+"w": 945,
 "h": 278
 },
 {
@@ -236,7 +236,7 @@
 "desc": "One direction no-passing pattern with pavement markers for use on two-lane streets and highways. See Notes 1 and 2.",
 "page": 854,
 "img": "/markings/ca-3a-103-ca-detail-19.webp",
-"w": 873,
+"w": 945,
 "h": 321
 },
 {
@@ -251,7 +251,7 @@
 "desc": "Two-direction no-passing pattern for use on two-lane streets and highways (normally used on local streets and highways). See Note 2.",
 "page": 855,
 "img": "/markings/ca-3a-104-ca-detail-21.webp",
-"w": 898,
+"w": 970,
 "h": 281
 },
 {
@@ -266,7 +266,7 @@
 "desc": "Two-direction no-passing pattern with pavement markers for use on two-lane streets and highways. See Notes 1 and 2.",
 "page": 855,
 "img": "/markings/ca-3a-104-ca-detail-22.webp",
-"w": 898,
+"w": 970,
 "h": 410
 },
 {
@@ -281,7 +281,7 @@
 "desc": "Left Edge Line pattern for use on streets and highways (normally used on local streets and highways).",
 "page": 856,
 "img": "/markings/ca-3a-105-ca-detail-24.webp",
-"w": 866,
+"w": 938,
 "h": 242
 },
 {
@@ -296,7 +296,7 @@
 "desc": "Left Edge Line for use on State highways.",
 "page": 856,
 "img": "/markings/ca-3a-105-ca-detail-25.webp",
-"w": 866,
+"w": 938,
 "h": 283
 },
 {
@@ -311,7 +311,7 @@
 "desc": "Left Edge Line for use on highways, freeways, freeway ramps and connectors.",
 "page": 856,
 "img": "/markings/ca-3a-105-ca-detail-25a.webp",
-"w": 866,
+"w": 938,
 "h": 315
 },
 {
@@ -326,7 +326,7 @@
 "desc": "Alternate to Details 24 and 25 when there is adequate contrast between traveled way and shoulder.",
 "page": 856,
 "img": "/markings/ca-3a-105-ca-detail-26.webp",
-"w": 866,
+"w": 938,
 "h": 249
 },
 {
@@ -341,7 +341,7 @@
 "desc": "Alternate to Detail 25. A double solid yellow line may be used for more emphasis when motorists tend to use the shoulder for a through lane, or where encroachments onto the shoulder occasionally occur. See Note 1.",
 "page": 856,
 "img": "/markings/ca-3a-105-ca-detail-27.webp",
-"w": 866,
+"w": 938,
 "h": 330
 },
 {
@@ -356,7 +356,7 @@
 "desc": "Right Edge Line pattern for use on all State highways may be used on local streets and highways. It is generally dropped at the beginning of the intersection flares on conventional highways. See also Detail 27C. On freeways, it may be flared in advance of the exit ramp as shown in Figure 3B-8(CA).",
 "page": 857,
 "img": "/markings/ca-3a-106-ca-detail-27b.webp",
-"w": 1638,
+"w": 1710,
 "h": 356
 },
 {
@@ -371,7 +371,7 @@
 "desc": "Right Edge Line Extension Through Intersections pattern for use to extend the right edgeline through an intersection where climatic conditions, such as areas of heavy fog, may require additional guidance.",
 "page": 857,
 "img": "/markings/ca-3a-106-ca-detail-27c.webp",
-"w": 1638,
+"w": 1710,
 "h": 322
 },
 {
@@ -386,7 +386,7 @@
 "desc": "Double Left Edge Line pattern for use on all-paved sections of streets and highways (normally used on local streets and highways). See Note 2.",
 "page": 858,
 "img": "/markings/ca-3a-107-ca-detail-28.webp",
-"w": 874,
+"w": 946,
 "h": 472
 },
 {
@@ -401,7 +401,7 @@
 "desc": "Double Left Edge Line pattern with pavement markers for use on all-paved sections of streets and highways. See Notes 1 and 2.",
 "page": 858,
 "img": "/markings/ca-3a-107-ca-detail-29.webp",
-"w": 874,
+"w": 946,
 "h": 589
 },
 {
@@ -416,7 +416,7 @@
 "desc": "3 in. 3 in. 12 ft",
 "page": 859,
 "img": "/markings/ca-3a-108-ca-detail-31.webp",
-"w": 911,
+"w": 983,
 "h": 540
 },
 {
@@ -431,7 +431,7 @@
 "desc": "24 ft 24 ft 3 in. 2 in. 3 in. 2 in. 24 ft 24 ft 96 ft 12 ft 12 ft 18 ft 18 ft",
 "page": 859,
 "img": "/markings/ca-3a-108-ca-detail-32.webp",
-"w": 911,
+"w": 983,
 "h": 712
 },
 {
@@ -446,7 +446,7 @@
 "desc": "100 ft min. 24 ft 24 ft 24 ft 18 ft 12 ft 18 ft 12 ft 18 ft 48 ft",
 "page": 860,
 "img": "/markings/ca-3a-109-ca-detail-34.webp",
-"w": 881,
+"w": 953,
 "h": 365
 },
 {
@@ -461,7 +461,7 @@
 "desc": "100 ft min. 12 ft 12 ft 36 ft 48 ft",
 "page": 860,
 "img": "/markings/ca-3a-109-ca-detail-34a.webp",
-"w": 881,
+"w": 953,
 "h": 334
 },
 {
@@ -476,7 +476,7 @@
 "desc": "100 ft min. 24 ft 24 ft 24 ft 8.5 ft 8.5 ft 8.5 ft 8.5 ft 7 ft 7 ft",
 "page": 860,
 "img": "/markings/ca-3a-109-ca-detail-35.webp",
-"w": 881,
+"w": 953,
 "h": 335
 },
 {
@@ -491,7 +491,7 @@
 "desc": "100 ft min. 48 ft 17 ft 17 ft 7 ft 7 ft 7 ft",
 "page": 860,
 "img": "/markings/ca-3a-109-ca-detail-35a.webp",
-"w": 881,
+"w": 953,
 "h": 336
 },
 {
@@ -506,7 +506,7 @@
 "desc": "Edge of Traveled Way (Mainline) Edge of Traveled Way (Ramp) Edge of Traveled Way (Ramp)",
 "page": 861,
 "img": "/markings/ca-3a-110-ca-detail-36.webp",
-"w": 1638,
+"w": 1710,
 "h": 734
 },
 {
@@ -521,7 +521,7 @@
 "desc": "Edge of Traveled Way (Mainline) Edge of Traveled Way (Ramp)",
 "page": 862,
 "img": "/markings/ca-3a-110-ca-detail-36a.webp",
-"w": 1638,
+"w": 1710,
 "h": 701
 },
 {
@@ -536,7 +536,7 @@
 "desc": "Edge of Traveled Way (Mainline) Edge of Traveled Way (Ramp)",
 "page": 862,
 "img": "/markings/ca-3a-110-ca-detail-36b.webp",
-"w": 1638,
+"w": 1710,
 "h": 683
 },
 {
@@ -551,7 +551,7 @@
 "desc": "Repeat at 1/2 Mile intervals Marking pattern for use on mandatory lane drops at freeway exit ramps and freeway to freeway connectors.",
 "page": 863,
 "img": "/markings/ca-3a-111-ca-detail-37.webp",
-"w": 1638,
+"w": 1710,
 "h": 590
 },
 {
@@ -566,7 +566,7 @@
 "desc": "Marking pattern for use on mandatory turn lanes at intersections. Pavement markers shown are optional on local streets and highways.",
 "page": 863,
 "img": "/markings/ca-3a-111-ca-detail-37b.webp",
-"w": 1638,
+"w": 1710,
 "h": 535
 },
 {
@@ -581,7 +581,7 @@
 "desc": "For use on mandatory exiting lanes from two-lane roundabouts.",
 "page": 863,
 "img": "/markings/ca-3a-111-ca-detail-37d.webp",
-"w": 1638,
+"w": 1710,
 "h": 332
 },
 {
@@ -596,7 +596,7 @@
 "desc": "Typical channelizing line for use on Left-Turn or Right-Turn lanes on State highways. Pavement Markers when used should be placed on the through traffic side only.",
 "page": 864,
 "img": "/markings/ca-3a-112-ca-detail-38.webp",
-"w": 1638,
+"w": 1710,
 "h": 293
 },
 {
@@ -611,7 +611,7 @@
 "desc": "Typical channelizing line for use on Left-Turn or Right-Turn lanes on local streets and highways and freeway off-ramp",
 "page": 864,
 "img": "/markings/ca-3a-112-ca-detail-38a.webp",
-"w": 1638,
+"w": 1710,
 "h": 169
 },
 {
@@ -626,7 +626,7 @@
 "desc": "Typical channelizing line for use on Exit Ramps. Pavement Markers, as shown, may also be placed on the",
 "page": 864,
 "img": "/markings/ca-3a-112-ca-detail-38b.webp",
-"w": 1638,
+"w": 1710,
 "h": 273
 },
 {
@@ -641,7 +641,7 @@
 "desc": "Typical channelizing line for use on Exit Ramps. Pavement Markers, as shown, may also be placed on the",
 "page": 864,
 "img": "/markings/ca-3a-112-ca-detail-38d.webp",
-"w": 1638,
+"w": 1710,
 "h": 244
 },
 {
@@ -656,7 +656,7 @@
 "desc": "",
 "page": 864,
 "img": "/markings/ca-3a-112-ca-detail-39.webp",
-"w": 1638,
+"w": 1710,
 "h": 151
 },
 {
@@ -671,7 +671,7 @@
 "desc": "",
 "page": 864,
 "img": "/markings/ca-3a-112-ca-detail-39a.webp",
-"w": 1638,
+"w": 1710,
 "h": 294
 },
 {
@@ -686,7 +686,7 @@
 "desc": "The Lane Line Extension Through Intersections line is used to extend the lane line through an intersection that might otherwise be confusing to the motorist. 4 to 6 in. White (for local agencies)",
 "page": 864,
 "img": "/markings/ca-3a-112-ca-detail-40.webp",
-"w": 1638,
+"w": 1710,
 "h": 233
 },
 {
@@ -701,7 +701,7 @@
 "desc": "The Centerline Extension Through Intersections line is used to extend the centerline through an intersection that might otherwise be confusing to the motorist. 4 to 6 in. Yellow (for local agencies)",
 "page": 864,
 "img": "/markings/ca-3a-112-ca-detail-41.webp",
-"w": 1638,
+"w": 1710,
 "h": 211
 },
 {
@@ -716,7 +716,7 @@
 "desc": "",
 "page": 865,
 "img": "/markings/ca-3a-113-ca-detail-42.webp",
-"w": 1638,
+"w": 1710,
 "h": 238
 },
 {
@@ -731,7 +731,7 @@
 "desc": "",
 "page": 865,
 "img": "/markings/ca-3a-113-ca-detail-44a.webp",
-"w": 1638,
+"w": 1710,
 "h": 391
 },
 {
@@ -746,7 +746,7 @@
 "desc": "",
 "page": 865,
 "img": "/markings/ca-3a-113-ca-detail-44b.webp",
-"w": 1638,
+"w": 1710,
 "h": 389
 },
 {
@@ -761,7 +761,7 @@
 "desc": "* If buffer area is wider than 4 feet, then chevron markings are required (Refer to Figure 3E-2.A and Section 3B-25).",
 "page": 865,
 "img": "/markings/ca-3a-113-ca-detail-45.webp",
-"w": 1638,
+"w": 1710,
 "h": 674
 },
 {

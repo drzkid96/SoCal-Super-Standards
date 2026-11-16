@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 848 96" width="848" height="96" role="img" aria-label="Caltrans Detail 25A">
+<rect width="848" height="96" rx="8" fill="#4b4c4e"/>
+<path d="M14 20 h16 m-6 -5 l6 5 l-6 5" stroke="#cfcfcf" stroke-width="2.5" fill="none"/>
+<rect x="40" y="35.0" width="768" height="8.0" fill="#f6c700"/>
+<rect x="40" y="47.0" width="768" height="5.0" fill="#141414"/>
+<rect x="35.5" y="52.5" width="9" height="9" fill="#f6c700" stroke="#111" stroke-width="0.8"/>
+<rect x="40.0" y="52.5" width="4.5" height="9" fill="#d22b2b"/>
+<rect x="227.5" y="52.5" width="9" height="9" fill="#f6c700" stroke="#111" stroke-width="0.8"/>
+<rect x="232.0" y="52.5" width="4.5" height="9" fill="#d22b2b"/>
+<rect x="419.5" y="52.5" width="9" height="9" fill="#f6c700" stroke="#111" stroke-width="0.8"/>
+<rect x="424.0" y="52.5" width="4.5" height="9" fill="#d22b2b"/>
+<rect x="611.5" y="52.5" width="9" height="9" fill="#f6c700" stroke="#111" stroke-width="0.8"/>
+<rect x="616.0" y="52.5" width="4.5" height="9" fill="#d22b2b"/>
+<rect x="803.5" y="52.5" width="9" height="9" fill="#f6c700" stroke="#111" stroke-width="0.8"/>
+<rect x="808.0" y="52.5" width="4.5" height="9" fill="#d22b2b"/>
+<g fill="#e8e8e8" font-family="Albert Sans, sans-serif" font-size="11"><rect x="40" y="82" width="192" height="3"/><text x="40" y="78">24 ft</text><text x="808" y="88" text-anchor="end">Detail 25A &#183; 96 ft shown &#183; widths exaggerated</text></g>
+</svg>

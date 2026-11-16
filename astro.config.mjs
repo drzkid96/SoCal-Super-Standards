@@ -77,11 +77,13 @@ export default defineConfig({
           { label: 'Detail and Drawing Index', link: '/details/' },
           { label: 'Sign Library', link: '/signs/' },
           { label: 'Pavement Marking Library', link: '/markings/' },
+          { label: 'Line Type Database', link: '/markings/line-types/' },
           { label: 'LADOT standard drawings', link: '/ladot/' },
           { label: 'All agency standard drawings', link: '/details/?type=Standard+drawing&sg=' },
         ] },
         { label: 'Design by topic', items: [
           { label: 'All topics', link: '/topics/' },
+          { label: 'LADOT curb paint and red curb', link: '/ladot/curb-paint/' },
           ...topicGroups,
         ] },
         { label: 'Plan production', collapsed: true, items: [

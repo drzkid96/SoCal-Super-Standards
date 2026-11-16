@@ -9,6 +9,7 @@ sidebar:
 
 <div class="topic-intro">Speed limit signs and speed zones, school and senior speed limits, speed humps, speed tables, traffic circles and roundabouts, and narrowed roadways.</div>
 
+
 <div class="topic-stats"><span><b>26</b> CA MUTCD sections</span><span><b>92</b> standards (shall)</span><span><b>65</b> guidance (should)</span><span><b>81</b> options (may)</span><span><b>48</b> signs</span><span><b>6</b> local standard drawings</span></div>
 
 <p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=speed-and-calming">Browse all 86 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20speed%20limits,%20speed%20zones%20and%20traffic%20calming;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>

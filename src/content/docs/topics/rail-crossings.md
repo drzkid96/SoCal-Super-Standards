@@ -9,6 +9,7 @@ sidebar:
 
 <div class="topic-intro">Grade crossing signs, markings and signals, and light rail transit crossings.</div>
 
+
 <div class="topic-stats"><span><b>81</b> CA MUTCD sections</span><span><b>187</b> standards (shall)</span><span><b>185</b> guidance (should)</span><span><b>148</b> options (may)</span><span><b>61</b> signs</span><span><b>1</b> local standard drawings</span></div>
 
 <p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=rail-crossings">Browse all 99 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20railroad%20and%20light%20rail%20crossings;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>

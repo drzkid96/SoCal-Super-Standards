@@ -56,7 +56,10 @@ for i in items:
 <div class="mbody"><b>{esc(name)}</b>{f'<div class="msub">{esc(sub)}</div>' if sub else ''}{f'<div class="mdesc">{esc(desc[:300])}</div>' if desc else ''}
 <div class="msrc"><a href="{furl}">CA MUTCD Figure {esc(i["figure"])}</a> &middot; manual page {i["page"]}</div></div></div>''')
     if i["kind"] == "line":
-        lookup_add.setdefault(i["detail"].upper().replace(" ", ""), [f"Caltrans striping {i['detail']} ({i['figure']})", f"{BASE}/markings/#{i['id']}", f"{BASE}{i['img']}"])
+        dn = i["detail"].replace("Detail ", "").lower()
+        svgp = f"public/linetypes/detail-{dn}.svg"
+        lookup_add.setdefault(i["detail"].upper().replace(" ", ""), [f"Caltrans striping {i['detail']} ({i['figure']})", f"{BASE}/markings/line-types/#detail-{dn}",
+                              f"{BASE}/linetypes/detail-{dn}.svg" if os.path.exists(svgp) else f"{BASE}{i['img']}"])
 # colored pavement (CA MUTCD 3H figures)
 for f in figs:
     if f["chapter"] == "3H" and f["kind"] == "Figure":
@@ -96,6 +99,8 @@ tableOfContents: false
 
 <div class="sfilter mfilter"><input id="mq" type="search" placeholder="Filter markings: Detail 22, Type IV arrow, two-way left-turn, bike lane line, red curb..."><span id="mcount">{n_total} markings</span></div>
 <nav class="mnav">{nav}</nav>
+
+<p><a class="ai-btn" href="{BASE}/markings/line-types/">Open the Line Type Database</a> <a class="ai-btn ghost" href="{BASE}/ladot/curb-paint/">LADOT curb paint and red curb</a></p>
 
 In California, longitudinal lines follow the Caltrans striping details (Detail 1 to Detail 45) shown in CA MUTCD Figures 3A-101(CA) to 3A-113(CA), and arrows follow the Type I to Type XI arrow details in Figure 3B-21(CA). Each card is cropped straight from CA MUTCD 2026; click a drawing to open it full size. Hover over "Detail 22" (or any detail number) anywhere on this site to preview that detail.
 
