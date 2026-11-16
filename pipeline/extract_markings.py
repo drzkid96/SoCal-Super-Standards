@@ -7,6 +7,8 @@ import json, os, re, sys
 import pymupdf
 from PIL import Image
 import io
+sys.path.insert(0, os.path.dirname(__file__))
+from markings_manual import MANUAL
 SRC = sys.argv[1]
 d = pymupdf.open(SRC)
 os.makedirs("public/markings", exist_ok=True)
@@ -76,9 +78,16 @@ for pno in range(850, 865):
 # ---------- Type B
 TYPEB = list(range(925, 942)) + [943, 945, 946, 947, 954, 962, 988, 1651, 1681]
 SKIP = re.compile(r"^(NOT TO SCALE|LEGEND|NOTES?:?|POLICY|DIRECTION OF|EDGE OF|1 ft Grid)", re.I)
-for pno in TYPEB:
+for pno in TYPEB + [k for k in MANUAL if k not in TYPEB]:
     pg = d[pno]
     fid, ftitle = fig_title(pg)
+    if pno in MANUAL:
+        for rect, name, cat in MANUAL[pno]:
+            key = re.sub(r"\W+", "-", f"ca-{fid}-{name}".lower()).strip("-")[:90]
+            r = [v / 0.9 for v in rect]  # boxes were read off a 0.9-scale grid
+            img, size = save(pg, pymupdf.Rect(r[0] - 4, r[1] - 4, r[2] + 4, r[3] + 4), key, zoom=2.6)
+            items.append({"id": key, "kind": "symbol", "name": name, "figure": fid, "figure_title": ftitle, "page": pno + 1, "img": img, "w": size[0], "h": size[1], "cat": cat})
+        continue
     L = lines(pg)
     title_bottom = max([l["bb"].y1 for l in L if l["t"].startswith("Figure ")] or [40])
     caps = [l for l in L if "Bold" in l["font"] and l["bb"].y0 > title_bottom + 5 and not SKIP.match(l["t"]) and 8.5 <= l["size"] <= 12.5

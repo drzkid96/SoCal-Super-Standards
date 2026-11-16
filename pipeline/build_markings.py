@@ -21,9 +21,11 @@ def tidy(n):
         out.append(x)
     return " ".join(out).replace("Arrow Right Lane Drop Arrow", "Arrow (Right Lane Drop)")
 CAT = [("lines", "Longitudinal lines (Caltrans striping details)"), ("arrows", "Arrows"), ("words", "Words and symbols"),
-       ("crosswalks", "Crosswalks"), ("bike", "Bicycle markings"), ("color", "Colored pavement"), ("curb", "Curb paint (CVC 21458)"),
+       ("crosswalks", "Crosswalks"), ("applications", "Application examples (arrows and lane use)"), ("bike", "Bicycle markings"), ("color", "Colored pavement"), ("curb", "Curb paint (CVC 21458)"),
        ("local", "Local agency marking standards")]
 def cat_of(i):
+    if i.get("cat"):
+        return i["cat"]
     f = i["figure"]
     if i["kind"] == "line":
         return "bike" if i["detail"] in ("Detail 39", "Detail 39A") else "lines"
@@ -34,13 +36,13 @@ def cat_of(i):
     if f.startswith("9E"):
         return "bike"
     return "words"
-SECTION_OF = {"lines": "3A.04", "arrows": "3B.20", "words": "3B.20", "crosswalks": "3C.03", "bike": "9E.01", "color": "3H.01", "curb": "3B.18"}
+SECTION_OF = {"applications": "3B.20", "lines": "3A.04", "arrows": "3B.20", "words": "3B.20", "crosswalks": "3C.03", "bike": "9E.01", "color": "3H.01", "curb": "3B.18"}
 cards = {k: [] for k, _ in CAT}
 lookup_add = {}
 for i in items:
     c = cat_of(i)
     i["cat"] = c
-    name = tidy(i["name"]) if i["kind"] == "symbol" else i["name"]
+    name = (i["name"] if i.get("cat") else tidy(i["name"])) if i["kind"] == "symbol" else i["name"]
     if i["kind"] == "line" and i.get("subtitle"):
         name = f'{i["name"]}: {i["subtitle"]}'
     i["display"] = name
