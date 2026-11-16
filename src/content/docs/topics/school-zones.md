@@ -25,6 +25,16 @@ CA MUTCD 2026 governs in California. Each row shows the section's first Standard
 
 <div class="tgrid"><a class="tfig" href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p3"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/pasadena/standard-plans/p0003.webp" alt="Pasadena Std. Plans page 3"><span><b>Pasadena Std. Plans</b> p3 S-705 SLOW SCHOOL XING Pavement Markings</span></a></div>
 
+## Federal guidance (FHWA, U.S. Access Board)
+
+<p class="muted">No FHWA or Access Board page on this topic yet.</p>
+
+## National design guides (NACTO, CPBS)
+
+These are copyrighted, so only their headings and page numbers are listed.
+
+<p class="muted">No matching heading.</p>
+
 ## Figures
 
 <div class="tgrid"><a class="tfig" href="/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-1"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ca-mutcd/p1478.webp" alt="Figure 7B-1"><span><b>Figure 7B-1</b> Signs in School Areas and at School Crossings</span></a><a class="tfig" href="/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-1"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ca-mutcd/p1479.webp" alt="Figure 7B-1"><span><b>Figure 7B-1</b> Signs in School Areas and at School Crossings</span></a><a class="tfig" href="/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-1ca"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ca-mutcd/p1480.webp" alt="Figure 7B-1(CA)"><span><b>Figure 7B-1(CA)</b> Signs in School Areas and at School Crossings URBAN LOCATIONS AND RURAL LOCATIONS WITH SID</span></a><a class="tfig" href="/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-5"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ca-mutcd/p1485.webp" alt="Figure 7B-5"><span><b>Figure 7B-5</b> Example of Signing for a School Zone with Higher Fines for All Traffic Violations</span></a><a class="tfig" href="/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-5"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ca-mutcd/p1486.webp" alt="Figure 7B-5"><span><b>Figure 7B-5</b> Example of Signing for a School Zone with Higher Fines for All Traffic Violations</span></a><a class="tfig" href="/SoCal-Super-Standards/ca-mutcd/7b/#fig-7b-101ca"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ca-mutcd/p1487.webp" alt="Figure 7B-101(CA)"><span><b>Figure 7B-101(CA)</b> Example of School Area Signs with Flashing Yellow Beacons * Refer to</span></a><a class="tfig" href="/SoCal-Super-Standards/ca-mutcd/7c/#fig-7c-101ca"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ca-mutcd/p1496.webp" alt="Figure 7C-101(CA)"><span><b>Figure 7C-101(CA)</b> Pavement Word Markings for School Areas NOT TO SCALE 8 in 4 in 8 in 4 in 8 in 4 in</span></a></div>

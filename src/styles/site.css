@@ -229,3 +229,5 @@ a.pbig:hover{border-color:var(--sss-orange)}
 
 .hero{padding-block:1.5rem 0 !important}
 .hero .tagline{max-width:52rem}
+.note-box{background:#fff8ef;border:1px solid #ecd3b6;border-left:4px solid var(--sss-orange);border-radius:8px;padding:.6rem .9rem;font-size:.9rem;margin:1rem 0}
+table.outline tr.lv1 td{background:var(--sss-tan-2)}

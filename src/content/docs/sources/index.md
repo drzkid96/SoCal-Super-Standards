@@ -23,10 +23,11 @@ description: Every source on this site, its edition, and its status.
 | LADOT Geometric (Striping) Plan Sample | As provided | Reference | [Sample sheet](/SoCal-Super-Standards/ladot/geometric-plan-sample/) |
 | City of Burbank Traffic Standard Plans BT-400 to BT-452, General Traffic Control Requirements | Sheets 1992 to 2025 (BT-417 and BT-418 dated 7/23/2025) | Current as provided | [All sheets](/SoCal-Super-Standards/burbank/standard-plans/) |
 | City of Pasadena DOT Standard Plans S-702 to S-718 | Sheets 2001 to 2023 (S-707 Rev. 10, 4/19/2023) | Current as provided | [All sheets](/SoCal-Super-Standards/pasadena/standard-plans/) |
-| FHWA STEP Guide (2018), FHWA Intersection Design | 2018 / various | Current | Phase 2 |
-| U.S. Access Board ADA Guide, Ch. 4 Ramps and Curb Ramps | Current online edition | Current | Phase 2 |
-| CPBS PLTS Application and Validation | July 2025 | Current | Phase 2 (summary) |
-| NACTO Urban Street Design Guide, Urban Bikeway Design Guide | 2013 / current | Copyrighted | Phase 2 (summary and page references only) |
+| [FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (STEP)](/SoCal-Super-Standards/fhwa/step-uncontrolled-crossings/) | July 2018, updated | Current | Full document |
+| [FHWA Missouri Division Interchange Design Promptlist](/SoCal-Super-Standards/fhwa/interchange-design-promptlist/) | Web page printed 7/23/2026 | Reference | Full document (uploaded as Intersection Design) |
+| [U.S. Access Board Guide to the ADA Standards, Ch. 4 Ramps and Curb Ramps](/SoCal-Super-Standards/ada/curb-ramps/) | Current online edition | Current | Full document |
+| [CPBS Pedestrian Level of Traffic Stress Application and Validation](/SoCal-Super-Standards/guides/cpbs-plts/) | July 2025 | Current research | Outline and page index |
+| [NACTO Urban Street Design Guide](/SoCal-Super-Standards/guides/nacto-urban-street/) and [Urban Bikeway Design Guide](/SoCal-Super-Standards/guides/nacto-urban-bikeway/) | 2013 / third edition | Copyrighted | Outline and page index only |
 
 ## Superseded and removed
 - CA MUTCD 2014 Revision 9 was replaced by CA MUTCD 2026 on January 18, 2026, and is not on this site.

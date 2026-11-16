@@ -1,0 +1,9 @@
+---
+title: Design guides (outline only)
+description: Copyrighted national design guides, indexed by heading and page so you can go straight to the right page in your copy.
+tableOfContents: false
+---
+
+These guides are copyrighted. The site indexes their headings and page numbers and links each heading to the matching topic page. It does not reproduce their text or figures.
+
+<div class="tcards"><a class="tcard" href="/SoCal-Super-Standards/guides/nacto-urban-bikeway/"><b>NACTO Urban Bikeway Design Guide</b><span>NACTO's national guide to designing bikeways and bike intersections for all ages and abilities. It covers network planning, bike lane and protected bikeway types, intersection treatments and maintenance. It is guidance, not a standard: in California, CA MUTCD 2026 and Caltrans and local standards govern devices and markings.</span><em>Third edition (Island Press) &middot; 57 headings</em></a><a class="tcard" href="/SoCal-Super-Standards/guides/nacto-urban-street/"><b>NACTO Urban Street Design Guide</b><span>NACTO's guide to designing city streets: street types, street design elements (lanes, sidewalks, curb extensions, transit), interim strategies, intersections, intersection design elements, and design controls such as design speed and design vehicle. Guidance only.</span><em>2013 (Island Press) &middot; 208 headings</em></a><a class="tcard" href="/SoCal-Super-Standards/guides/cpbs-plts/"><b>Pedestrian Level of Traffic Stress (PLTS) Application and Validation</b><span>A research report that applies and validates a pedestrian level of traffic stress (PLTS) method for rating how stressful streets and crossings feel to walk along and across. Appendix A has the PLTS criteria. Use it for network analysis and prioritization, not as a design standard.</span><em>July 2025, Center for Pedestrian and Bicyclist Safety (Schneider et al.) &middot; 31 headings</em></a></div>

@@ -24,7 +24,7 @@ for src, figs, lab in (("CA MUTCD 2026", ca_figs, "ca"), ("Federal MUTCD", fed_f
                       "img": BASE + f["image"] if f.get("image") else "", "url": f["url"], "topics": topics_for(f["title"]),
                       "part": f["chapter"][0]})
 
-cfg = json.load(open("pipeline/config/ladot.json")) + json.load(open("pipeline/config/agencies.json"))
+cfg = json.load(open("pipeline/config/ladot.json")) + json.load(open("pipeline/config/agencies.json")) + json.load(open("pipeline/config/guides.json"))
 signs = {s["code"]: s for s in json.load(open("data/signs/signs.json"))}
 ca_secs = {s["num"]: s for s in json.load(open("data/ca-mutcd/sections.json"))}
 for f in glob.glob("src/content/docs/details/*/*.md"):

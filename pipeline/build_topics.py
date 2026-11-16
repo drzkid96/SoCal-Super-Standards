@@ -36,6 +36,7 @@ def excerpt(anchor):
 from collections import Counter
 
 from topics_def import LABEL, T, CHAPS, GROUPS
+TOPIC_RX_ALL = {t[0]: re.compile(t[4] + "|" + t[6], re.I) for t in T}
 os.makedirs("src/content/docs/topics", exist_ok=True)
 for f in glob.glob("src/content/docs/topics/*.md"):
     os.remove(f)
@@ -44,6 +45,8 @@ DP = {(a, k): sl for a, k, t, sl in json.load(open("data/docs/drawing_pages.json
 ORDER = {sl: i for i, sl in enumerate([x for g in GROUPS for x in g[1]], 1)}
 GROUP_OF = {x: g[0] for g in GROUPS for x in g[1]}
 DET = json.load(open("public/data/details.json"))
+GUIDES = [json.load(open(f"data/docs/{c['slug'].replace('/', '__')}.json")) | {"cfg": c} for c in json.load(open("pipeline/config/guides.json"))]
+REF = json.load(open("data/refcards.json"))
 for order, (slug, name, intro, sec_rx, fig_rx, sign_pref, ladot_rx, ladot_tags) in enumerate(T, 1):
     srx, frx, lrx = re.compile(sec_rx, re.I), re.compile(fig_rx, re.I), re.compile(ladot_rx, re.I)
     chs = CHAPS.get(slug, [])
@@ -87,6 +90,19 @@ for order, (slug, name, intro, sec_rx, fig_rx, sign_pref, ladot_rx, ladot_tags) 
             if p["image"] and (lrx.search(p["title"] or "") or (ladot_tags and set(ladot_tags) <= set(p["topics"]) and len(p["topics"]) <= 3)):
                 lpages.append((d["short"], p))
     lthumbs = "".join(f'<a class="tfig" href="{p["url"]}"><img loading="lazy" src="{p["image"].replace("/figs/", "/thumbs/figs/")}" alt="{esc(a)} page {p["page"]}"><span><b>{esc(a)}</b> p{p["page"]} {esc((p["title"] or "")[:70])}</span></a>' for a, p in lpages[:30])
+    # federal guidance pages (FHWA, Access Board)
+    gp = []
+    for d in GUIDES:
+        for p in d["pages"]:
+            if TOPIC_RX_ALL[slug].search((p["title"] or "") + " " + " ".join(p["keywords"][:6])):
+                gp.append((d, p))
+    ghtml = "".join(f'<li><a href="{p["url"]}">{esc(d["short"])}, page {p["page"]}{(": " + esc(p["title"][:90])) if p["title"] else ""}</a></li>' for d, p in gp[:25])
+    # outline-only design guides
+    rr = []
+    for g in REF:
+        for e in g["entries"]:
+            if slug in e["topics"]:
+                rr.append(f'<li><a href="{BASE}/guides/{g["slug"]}/">{esc(g["short"])}</a>: {esc(e["title"])} <span class="src-page">PDF p. {e["page"]}{("-" + str(e["end"])) if e["end"] > e["page"] else ""}</span></li>')
     q = f"Compare what CA MUTCD 2026, the federal MUTCD and LADOT say about {name.lower()}; note conflicts and which governs."
     md = f'''---
 title: "{name}"
@@ -114,6 +130,16 @@ CA MUTCD 2026 governs in California. Each row shows the section's first Standard
 {("<table class=\"dwtab\"><thead><tr><th>Drawing</th><th>Title</th><th>Document</th><th></th></tr></thead><tbody>" + "".join(lrows) + "</tbody></table>") if lrows else "<p class=\"muted\">No LADOT standard drawing is titled for this topic; see the pages below and search.</p>"}
 
 {("<div class=\"tgrid\">" + lthumbs + "</div>") if lthumbs else ""}
+
+## Federal guidance (FHWA, U.S. Access Board)
+
+{("<ul>" + ghtml + "</ul>") if ghtml else "<p class=\"muted\">No FHWA or Access Board page on this topic yet.</p>"}
+
+## National design guides (NACTO, CPBS)
+
+These are copyrighted, so only their headings and page numbers are listed.
+
+{("<ul class=\"reflist\">" + "".join(rr[:30]) + "</ul>") if rr else "<p class=\"muted\">No matching heading.</p>"}
 
 ## Figures
 

@@ -1,0 +1,36 @@
+[
+ {
+  "slug": "fhwa/step-uncontrolled-crossings",
+  "path": "/mnt/user-data/uploads/fca89202-FHWA-STEP-GUIDE-IMPROVING-PED-SAFETY-UNCONTROLLED-CROSSINGS-2018.pdf",
+  "agency": "FHWA",
+  "title": "FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (STEP)",
+  "short": "FHWA STEP Guide",
+  "edition": "July 2018, updated",
+  "publisher": "Federal Highway Administration",
+  "toc_filter": "^(?!Figure|Table|Cover|Notice|Technical Report|List of|Table of)",
+  "chunk": 10
+ },
+ {
+  "slug": "fhwa/interchange-design-promptlist",
+  "path": "/mnt/user-data/uploads/36090251-FHWA-INTERSECTION-DESIGN.pdf",
+  "agency": "FHWA",
+  "title": "FHWA Missouri Division Interchange Design Promptlist",
+  "short": "FHWA Interchange Promptlist",
+  "edition": "web page printed 7/23/2026",
+  "publisher": "Federal Highway Administration",
+  "mode": "chunk",
+  "chunk": 14,
+  "note": "Printout of a highways.dot.gov web page (FHWA Missouri Division). The uploaded file was named Intersection Design."
+ },
+ {
+  "slug": "ada/curb-ramps",
+  "path": "/mnt/user-data/uploads/789dc177-ADA-GUIDE-CH-4-RAMPS-AND-CURB-RAMPS.pdf",
+  "agency": "US Access Board",
+  "title": "U.S. Access Board Guide to the ADA Standards, Chapter 4: Ramps and Curb Ramps",
+  "short": "ADA Guide Ch. 4",
+  "edition": "current online edition",
+  "publisher": "U.S. Access Board",
+  "mode": "chunk",
+  "chunk": 19
+ }
+]

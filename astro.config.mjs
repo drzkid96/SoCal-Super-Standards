@@ -25,6 +25,9 @@ const fedParts = groups(fedChapters, 'mutcd');
 const topicDefs = JSON.parse(fs.readFileSync('./data/topics.json', 'utf8'));
 const topicGroups = topicDefs.map((g) => ({ label: g.group, collapsed: false, items: g.topics.map((t) => ({ label: t.name, link: `/topics/${t.slug}/` })) }));
 const ladotCfg = JSON.parse(fs.readFileSync('./pipeline/config/ladot.json', 'utf8'));
+const guideCfg = JSON.parse(fs.readFileSync('./pipeline/config/guides.json', 'utf8'));
+const guideDocs = guideCfg.map((c) => ({ label: c.short, link: `/${c.slug}/` }));
+const refCards = JSON.parse(fs.readFileSync('./data/refcards.json', 'utf8')).map((g) => ({ label: g.short + ' (outline)', link: `/guides/${g.slug}/` }));
 const agencyCfg = JSON.parse(fs.readFileSync('./pipeline/config/agencies.json', 'utf8'));
 const agencyDocs = agencyCfg.map((c) => ({ label: c.title.replace(/^City of /, '').replace(/ Department.*$/, '').replace(/ Public Works.*$/, '') + ' standard plans', link: `/${c.slug}/` }));
 const ladotDocs = ladotCfg.map((c) => {
@@ -91,6 +94,8 @@ export default defineConfig({
           { label: 'Federal MUTCD 11th Ed. Rev. 1', collapsed: true, items: [{ label: 'About this manual', link: '/mutcd/' }, ...fedParts] },
           { label: 'LADOT', collapsed: true, items: [{ label: 'All LADOT documents', link: '/ladot/' }, ...ladotDocs] },
           { label: 'Other agencies', collapsed: true, items: agencyDocs },
+          { label: 'Federal guides (FHWA, ADA)', collapsed: true, items: guideDocs },
+          { label: 'National design guides', collapsed: true, items: [{ label: 'About these guides', link: '/guides/' }, ...refCards] },
           { label: 'Sources and versions', link: '/sources/' },
         ] },
       ],

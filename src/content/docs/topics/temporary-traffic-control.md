@@ -11,7 +11,7 @@ sidebar:
 
 <div class="topic-stats"><span><b>108</b> CA MUTCD sections</span><span><b>191</b> standards (shall)</span><span><b>200</b> guidance (should)</span><span><b>194</b> options (may)</span><span><b>46</b> signs</span><span><b>2</b> local standard drawings</span></div>
 
-<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=temporary-traffic-control">Browse all 88 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20temporary%20traffic%20control;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
+<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=temporary-traffic-control">Browse all 89 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20temporary%20traffic%20control;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
 
 ## The rules
 
@@ -24,6 +24,16 @@ CA MUTCD 2026 governs in California. Each row shows the section's first Standard
 <table class="dwtab"><thead><tr><th>Drawing</th><th>Title</th><th>Document</th><th></th></tr></thead><tbody><tr><td><strong>S-518.0</strong></td><td>Typical Street Closure for Farmers' Market</td><td>MPP 531</td><td><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-518-0/">open drawing</a></td></tr><tr><td><strong>S-519.0</strong></td><td>Typical Street Closure for Neighborhood Block Party</td><td>MPP 531</td><td><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-519-0/">open drawing</a></td></tr></tbody></table>
 
 <div class="tgrid"><a class="tfig" href="/SoCal-Super-Standards/ladot/mpp-531/12-drawings-s-512-to-s-523-0/#p169"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0169.webp" alt="MPP 531 page 169"><span><b>MPP 531</b> p169 S-518.0 Typical Street Closure for Farmers' Market</span></a><a class="tfig" href="/SoCal-Super-Standards/ladot/mpp-531/12-drawings-s-512-to-s-523-0/#p170"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0170.webp" alt="MPP 531 page 170"><span><b>MPP 531</b> p170 S-519.0 Typical Street Closure for Neighborhood Block Party</span></a></div>
+
+## Federal guidance (FHWA, U.S. Access Board)
+
+<ul><li><a href="/SoCal-Super-Standards/ada/curb-ramps/01-pages-1-19/#p16">ADA Guide Ch. 4, page 16: Common Questions</a></li></ul>
+
+## National design guides (NACTO, CPBS)
+
+These are copyrighted, so only their headings and page numbers are listed.
+
+<ul class="reflist"><li><a href="/SoCal-Super-Standards/guides/nacto-urban-bikeway/">NACTO UBDG</a>: 5.2: Bikeways and Construction Management Plans <span class="src-page">PDF p. 378-393</span></li><li><a href="/SoCal-Super-Standards/guides/nacto-urban-street/">NACTO USDG</a>: Temporary Street Closures <span class="src-page">PDF p. 93-96</span></li></ul>
 
 ## Figures
 
