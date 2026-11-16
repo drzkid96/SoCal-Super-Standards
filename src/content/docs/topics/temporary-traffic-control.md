@@ -2,14 +2,16 @@
 title: "Temporary traffic control"
 description: "Work zones, closures, detours, tapers, channelizing devices and pedestrian and bicycle accommodation through work zones."
 sidebar:
-  order: 10
+  order: 11
 ---
+
+<div class="crumb"><a href="/SoCal-Super-Standards/topics/">Topics</a> &rsaquo; Work zones and rail</div>
 
 <div class="topic-intro">Work zones, closures, detours, tapers, channelizing devices and pedestrian and bicycle accommodation through work zones.</div>
 
 <div class="topic-stats"><span><b>108</b> CA MUTCD sections</span><span><b>191</b> standards (shall)</span><span><b>200</b> guidance (should)</span><span><b>194</b> options (may)</span><span><b>46</b> signs</span><span><b>2</b> LADOT drawings</span></div>
 
-<p><a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20temporary%20traffic%20control;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
+<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=temporary-traffic-control">Browse all 87 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20temporary%20traffic%20control;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
 
 ## The rules
 
@@ -19,7 +21,7 @@ CA MUTCD 2026 governs in California. Each row shows the section's first Standard
 
 ## LADOT requirements
 
-<table class="dwtab"><thead><tr><th>Drawing</th><th>Title</th><th>Document</th><th></th></tr></thead><tbody><tr><td><strong>S-518.0</strong></td><td>Typical Street Closure for Farmers' Market</td><td>MPP 531</td><td><a href="/SoCal-Super-Standards/ladot/mpp-531/12-drawings-s-512-to-s-523-0/#p169">open</a></td></tr><tr><td><strong>S-519.0</strong></td><td>Typical Street Closure for Neighborhood Block Party</td><td>MPP 531</td><td><a href="/SoCal-Super-Standards/ladot/mpp-531/12-drawings-s-512-to-s-523-0/#p170">open</a></td></tr></tbody></table>
+<table class="dwtab"><thead><tr><th>Drawing</th><th>Title</th><th>Document</th><th></th></tr></thead><tbody><tr><td><strong>S-518.0</strong></td><td>Typical Street Closure for Farmers' Market</td><td>MPP 531</td><td><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-518-0/">open drawing</a></td></tr><tr><td><strong>S-519.0</strong></td><td>Typical Street Closure for Neighborhood Block Party</td><td>MPP 531</td><td><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-519-0/">open drawing</a></td></tr></tbody></table>
 
 <div class="tgrid"><a class="tfig" href="/SoCal-Super-Standards/ladot/mpp-531/12-drawings-s-512-to-s-523-0/#p169"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0169.webp" alt="MPP 531 page 169"><span><b>MPP 531</b> p169 S-518.0 Typical Street Closure for Farmers' Market</span></a><a class="tfig" href="/SoCal-Super-Standards/ladot/mpp-531/12-drawings-s-512-to-s-523-0/#p170"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0170.webp" alt="MPP 531 page 170"><span><b>MPP 531</b> p170 S-519.0 Typical Street Closure for Neighborhood Block Party</span></a></div>
 

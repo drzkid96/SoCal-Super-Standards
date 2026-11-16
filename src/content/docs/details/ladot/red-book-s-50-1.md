@@ -1,0 +1,39 @@
+---
+title: "S-50.1 Standard drawing"
+description: "Red Book standard drawing S-50.1: Standard drawing. 4 sheet(s)."
+tableOfContents: false
+---
+
+<div class="dwg-head"><div><span class="dwg-num">S-50.1</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
+<div class="dwg-facts"><span><b>4</b> sheet(s)</span><span>Pages 27, 28, 29, 30</span></div></div>
+
+<div class="dwg-nav"> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-51-8/">S-51.8 &rarr;</a></div>
+
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a> <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
+
+
+
+## Sheets
+
+### Sheet 1 of 4 (document page 27)
+
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0027.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0027.webp" alt="S-50.1 sheet 1"></a><figcaption>Red Book S-50.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p27">Open in the document</a>.</figcaption></figure>
+<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>PROPOSED 8° &lt;q &lt;—_e a &lt;4} ° ma 8° &lt;}—e be EXISTING 8" &lt;] 0 &lt;H—oO 1 &lt;H—o EXISTING TO BE REMOVED 8°&lt;o Fp -- &lt;&lt; f}---0 £4 &lt;&lt; f}---0 Oo C3 8"&lt;c}p-- A 18"&lt;&lt;H == A T &lt;&lt; f}---0 SIGNAL HEAD, THREE 8” (200 MM) SECTION HEADS (Footnote A) SIGNAL HEAD, THREE 12” (300 MM) SECTIONS (Footnote A) SIGNAL HEAD WITH BEVELED VISOR (LEFT BEVEL SHOWN) (Footnote A) SIGNAL STANDARD SIGNAL HEAD, THREE 8” (200 MM) SECTIONS WITH LONG VISOR (Footnote A) SIGNAL HEAD, FOUR SECTIONS — THREE 8” SECTIONS (R, Y, G) + 12” GREEN ARROW (Footnotes A &amp; B) SIGNAL HEAD, FOUR SECTIONS — THREE 12” SECTIONS (R, Y, G) + 12” GREEN ARROW (Footnotes A &amp; B) SIGNAL HEAD, THREE SECTIONS — TWO 8” SECTIONS (R, Y) + 12” GREEN UP ARROW (Footnote A) may SIGNAL HEAD, THREE SECTIONS — ONE 12” &lt;&lt; f-EUAG SECTION (R) + 12” YELLOW AND GREEN ARROWS (Footnotes A &amp; B) AAA ” ian SIGNAL HEAD, THREE SECTIONS — 12 &lt; FREER RED, YELLOW AND GREEN ARROWS (Footnotes A &amp; B) Aa, SIGNAL HEAD, FIVE SECTIONS — THREE 8” | | 8’ &lt;&lt; }----&lt;) SECTIONS (R, Y, G) + 12” YELLOW &amp; GREEN ARROWS (Footnotes A &amp; B) NA SIGNAL HEAD, FIVE SECTIONS — THREE 12” Oo &lt;4b--3 SECTIONS (R, Y, G) + 12” YELLOW AND GREEN ae “?- ARROWS — CLUSTER HEAD IF ON MAST ARM FOR LEFT TURN PHASE (Footnotes A &amp; B) SIGNAL HEAD, THREE 12” PROGRAMMED VISIBILITY py &lt;&lt; }+---©) SECTIONS (R, Y, G) (Footnote A) Zit &lt;c}}——.c) LOUVERED SIGNAL INDICATIONS === (8” OR 12”), (FOOTNOTES A,F) DWN | MT 7-28-11 | Title G CKD Traffic Signal Symbols T.E. Sr. T.E. CITY OF LOS ANGELES Pr. T.E. DEPARTMENT OF TRANSPORTATION Approved Fe A “&gt; 10-28-11 Drawing No. S-50.1 Jaime de la Vega, General Manager 20 </p></details>
+
+### Sheet 2 of 4 (document page 28)
+
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0028.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0028.webp" alt="S-50.1 sheet 2"></a><figcaption>Red Book S-50.1, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p28">Open in the document</a>.</figcaption></figure>
+<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>PROPOSED EXISTING EXISTING TO BE REMOVED 8” 8” B’&lt;c thi R/FL.R/Y R/FL.R/Y R/FL.R/Y LRT &lt;@}——_-@ LRT &lt;&lt; H——_O LRT &lt;c tL --- ro oO) | —|_ \/ Vv r-LE---0 | == \/ Vv 5] | =s I _ 4 \/ Vv [e] [0] 1 0 io 8 x 1e! 54 OH OH OH” F.O. f.o f.o. LF | Ci——_® CL +—©O aH teeter) PPB ppb ppb &amp; EPB ® epb epb &amp; BPB bpb bpb © APS —INDICATES DEVICE WITH ACCESSIBLE SIGNAL HEAD, THREE 8” SECTIONS— STEADY RED, FOLLOWED BY FLASHING RED, FOLLOWED BY STEADY YELLOW (Footnote A) LIGHT RAIL SIGNAL, PER PLAN DETAILS STANDARD WITH MAST ARM AND WITHOUT LUMINAIRE (Footnotes A &amp; C) STANDARD WITH MAST ARM AND LUMINAIRE (Footnotes A &amp; C) CD954 STANDARD WITH MAST ARM AND WITHOUT LUMINAIRE; PLATFORM MOUNTED (TEMPORARY SIGNAL) (Footnotes A &amp; C) CD954 STANDARD WITH MAST ARM AND LUMINAIRE; PLATFORM MOUNTED (TEMPORARY SIGNAL) (Footnotes A &amp; C) TYPE 1 STANDARD, PLATFORM MOUNTED (TEMPORARY SIGNAL) ELECTROLIER, PENDANT TYPE ELECTROLIER, UPRIGHT TYPE OVERHEAD CABLE FIBER OPTIC CABLE SIGNAL CONDUCTORS FIBER SPLICE VAULT PEDESTRIAN SIGNAL PEDESTRIAN PUSHBUTTON EQUESTRIAN PUSHBUTTON (MOUNTING HEIGHT PER PLAN) BICYCLIST PUSHBUTTON PEDESTRIAN SIGNAL FEATURES CITY OF LOS ANGELES DEPARTMENT OF TRANSPORTATION Title Traffic Signal Symbols Drawing No. S-50.1 21 </p></details>
+
+### Sheet 3 of 4 (document page 29)
+
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0029.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0029.webp" alt="S-50.1 sheet 3"></a><figcaption>Red Book S-50.1, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p29">Open in the document</a>.</figcaption></figure>
+<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>PROPOSED EXISTING EXISTING TO BE REMOVED 0) 12) 'o) TYPE 7 PUSHBUTTON STANDARD (PPB SHOWN) = | =&lt;) Bx7 SIGNAL CONTROLLER CABINET GPS GPS GPS &gt;&lt; xX Ex SIGNAL CONTROLLER WITH GPS TIME RECEIVER 6 &amp; &amp; COMMUNICATION CABINET oO cy TYPE 2 PULLBOX e) S&amp;S] TYPE 3 PULLBOX bx bed STREET LIGHTING PULLBOX aw a a L i ° TREE (SHOWING APPROXIMATE OVERHANG) \ y NL a i BAZ PALM TREE S eA 4 i % % -—~---s---- FENCE | | TRAFFIC SIGN e@ fe) oO SIGN POST | oO [2 PHOTO ENFORCEMENT POLE O S.P. O s.p Oo S.p SERVICE POLE (With Pole Number Listed) P.P. p.p p.p e O 'e POWER POLE C——_®© e———O nn?) POWER POLE WITH GUY ANCHOR rr) ro) KY FIRE HYDRANT Title Drawing No. CITY OF LOS ANGELES DEPARTMENT OF TRANSPORTATION Traffic Signal Symbols S-50.1 22 </p></details>
+
+### Sheet 4 of 4 (document page 30)
+
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0030.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0030.webp" alt="S-50.1 sheet 4"></a><figcaption>Red Book S-50.1, sheet 4. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p30">Open in the document</a>.</figcaption></figure>
+<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>EXISTING BE REMOVED PROPOSED EXISTING TO c.b. B (D) WW) &gt; | N &lt;4 - - —( -; ad aN CATCH BASIN MANHOLE FLASHING BEACON INDUCTIVE LOOP DETECTOR —6—FOOT DIAMETER BICYCLE LOOP DETECTOR PER LADOT STD. DWG. NO. S—70.1D INDUCTIVE LOOP DETECTOR (SIZE NOTED PER PLAN) MR MR MR OVERHEAD DETECTOR b: g S MICROWAVE/RADAR (MR), VIDEO (V.), OPTICAL (0.) I . INFRARED. (1) wa c_] aan &gt;&gt; &lt;&gt; “On VIDEO CAMERA &gt; &gt; D&gt; PHOTO ENFORCEMENT CAMERA rT7 PZ rag SPREAD SPECTRUM RADIO. UNIT a= as ge IN ROADWAY LIGHTING oe o—e) ae PEDESTRIAN BARRICADE FOOTNOTES: A. WITH BACKPLATES D. ALL SIGNAL HEADS SHOWN WITH SIGNAL B. SYMBOL SHALL DESIGNATE STANDARD: EITHER RIGHT OR LEFT ARROW(S) E. PEDESTRIAN SIGNAL AND PUSH BUTTONS C. MAST ARM LENGTH SHALL BE 15’, SHOWN: WITH STANDARD. UNLESS OTHERWISE NOTED F. FOR SPECIAL APPLICATIONS ONLY. Title Drawing No. CITY OF LOS ANGELES DEPARTMENT OF TRANSPORTATION Traffic Signal Symbols S-50.1 23 </p></details>
+
+
+<div class="kw">Keywords: signal, sections, head, three, green, footnotes, footnote, yellow, arrows, arrow, existing, section, visor, left, standard, mast, luminaire, platform, mounted, temporary, type, pedestrian, pushbutton, steady, followed, pole, pullbox, controller, cabinet, tree</div>

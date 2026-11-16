@@ -21,6 +21,8 @@ const groups = (list, dir) => Object.entries(PARTS).map(([k, label]) => ({
 })).filter((g) => g.items.length);
 const caParts = groups(chapters, 'ca-mutcd');
 const fedParts = groups(fedChapters, 'mutcd');
+const topicDefs = JSON.parse(fs.readFileSync('./data/topics.json', 'utf8'));
+const topicGroups = topicDefs.map((g) => ({ label: g.group, collapsed: false, items: g.topics.map((t) => ({ label: t.name, link: `/topics/${t.slug}/` })) }));
 const ladotCfg = JSON.parse(fs.readFileSync('./pipeline/config/ladot.json', 'utf8'));
 const ladotDocs = ladotCfg.map((c) => {
   const d = JSON.parse(fs.readFileSync(`./data/docs/${c.slug.replace('/', '__')}.json`, 'utf8'));
@@ -64,15 +66,28 @@ export default defineConfig({
           { label: 'Home', link: '/' },
           { label: 'Ask the standards (AI)', link: '/ask/' },
           { label: 'How to use this site', link: '/guide/' },
+        ] },
+        { label: 'Find by number', items: [
+          { label: 'Detail and Drawing Index', link: '/details/' },
+          { label: 'Sign Library', link: '/signs/' },
+          { label: 'LADOT standard drawings', link: '/ladot/' },
+        ] },
+        { label: 'Design by topic', items: [
+          { label: 'All topics', link: '/topics/' },
+          ...topicGroups,
+        ] },
+        { label: 'Plan production', collapsed: true, items: [
+          { label: 'MPP 531 plan preparation', link: '/ladot/mpp-531/01-policies-and-procedures/' },
+          { label: 'LADOT drafting (CAD) standards', link: '/ladot/cad-standards/' },
+          { label: 'MPP 521 signal design guidelines', link: '/ladot/mpp-521/' },
+          { label: 'Red Book signal provisions', link: '/ladot/red-book/' },
+        ] },
+        { label: 'Source documents', items: [
+          { label: 'CA MUTCD 2026', collapsed: true, items: [{ label: 'About this manual', link: '/ca-mutcd/' }, ...caParts] },
+          { label: 'Federal MUTCD 11th Ed. Rev. 1', collapsed: true, items: [{ label: 'About this manual', link: '/mutcd/' }, ...fedParts] },
+          { label: 'LADOT', collapsed: true, items: [{ label: 'All LADOT documents', link: '/ladot/' }, ...ladotDocs] },
           { label: 'Sources and versions', link: '/sources/' },
         ] },
-        { label: 'Topics', items: [{ autogenerate: { directory: 'topics' } }] },
-        { label: 'Libraries', items: [
-          { label: 'Sign Library', link: '/signs/' },
-        ] },
-        { label: 'LADOT', collapsed: true, items: [{ label: 'All LADOT standards and drawing index', link: '/ladot/' }, ...ladotDocs] },
-        { label: 'CA MUTCD 2026', items: [{ label: 'About this manual', link: '/ca-mutcd/' }, ...caParts] },
-        { label: 'Federal MUTCD 11th Ed. Rev. 1', collapsed: true, items: [{ label: 'About this manual', link: '/mutcd/' }, ...fedParts] },
       ],
     }),
   ],

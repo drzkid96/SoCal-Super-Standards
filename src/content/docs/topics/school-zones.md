@@ -2,14 +2,16 @@
 title: "School zones"
 description: "School area signs, school speed limits, school crosswalks, crossing guards and pick-up/drop-off areas."
 sidebar:
-  order: 8
+  order: 3
 ---
+
+<div class="crumb"><a href="/SoCal-Super-Standards/topics/">Topics</a> &rsaquo; Pedestrians</div>
 
 <div class="topic-intro">School area signs, school speed limits, school crosswalks, crossing guards and pick-up/drop-off areas.</div>
 
 <div class="topic-stats"><span><b>16</b> CA MUTCD sections</span><span><b>53</b> standards (shall)</span><span><b>36</b> guidance (should)</span><span><b>43</b> options (may)</span><span><b>20</b> signs</span><span><b>0</b> LADOT drawings</span></div>
 
-<p><a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20school%20zones;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
+<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=school-zones">Browse all 19 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20school%20zones;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
 
 ## The rules
 
