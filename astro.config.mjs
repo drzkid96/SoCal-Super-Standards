@@ -41,6 +41,11 @@ export default defineConfig({
       ],
       social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/drzkid96/SoCal-Super-Standards' }],
       lastUpdated: false,
+      components: {
+        ThemeProvider: './src/components/ThemeProvider.astro',
+        ThemeSelect: './src/components/ThemeSelect.astro',
+      },
+      head: [{ tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js', defer: true } }],
       pagination: true,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },
       sidebar: [
@@ -48,6 +53,9 @@ export default defineConfig({
           { label: 'Home', link: '/' },
           { label: 'How to use this site', link: '/guide/' },
           { label: 'Sources and versions', link: '/sources/' },
+        ] },
+        { label: 'Libraries', items: [
+          { label: 'Sign Library', link: '/signs/' },
         ] },
         { label: 'CA MUTCD 2026', items: [{ label: 'About this manual', link: '/ca-mutcd/' }, ...caParts] },
         { label: 'Federal MUTCD 11th Ed. Rev. 1', collapsed: true, items: [{ label: 'About this manual', link: '/mutcd/' }, ...fedParts] },

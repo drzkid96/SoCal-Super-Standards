@@ -75,3 +75,43 @@ h3.subch { font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; c
 .badge.ca-amend { background: #dbe6f7; color: #1f4f9a; }
 .badge.ca-same { background: #e3eee3; color: #2f6b4f; }
 .badge.muted { background: #eee; color: #777; }
+
+/* ---------- sign references + hover preview ---------- */
+a.sref { text-decoration: none; border-bottom: 1px dotted var(--sss-green); font-weight: 600; white-space: nowrap; }
+.sref-tip { position: fixed; z-index: 1000; width: 170px; padding: 10px; background: #fff; border: 1px solid #ddd; border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.15); pointer-events: none; opacity: 0; transform: translateY(4px); transition: opacity .12s, transform .12s; text-align: center; }
+.sref-tip.on { opacity: 1; transform: none; }
+.sref-tip img { width: 130px; height: 130px; object-fit: contain; display: block; margin: 0 auto 6px; }
+.sref-tip span { font-weight: 700; font-size: .85rem; color: var(--sss-ink); }
+
+/* ---------- sign library ---------- */
+.sfilter { position: sticky; top: calc(var(--sl-nav-height) + .25rem); z-index: 5; background: rgba(251,250,246,.94); backdrop-filter: blur(6px);
+  border: 1px solid var(--sl-color-gray-5); border-radius: 12px; padding: .75rem; margin: 1rem 0; display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.sfilter input[type=search] { flex: 1 1 260px; padding: .55rem .8rem; border: 1px solid #cfc8b8; border-radius: 8px; font: inherit; }
+.sbtns { display: flex; flex-wrap: wrap; gap: .3rem; }
+.sbtns button { font: inherit; font-size: .8rem; border: 1px solid #cfc8b8; background: #fff; border-radius: 999px; padding: .3rem .75rem; cursor: pointer; }
+.sbtns button.on { background: var(--sss-green); color: #fff; border-color: var(--sss-green); }
+.scheck { font-size: .8rem; } .scount { font-size: .8rem; color: var(--sl-color-gray-3); margin-left: auto; }
+.sgroup .count { font-size: .8rem; color: var(--sl-color-gray-3); font-weight: 500; }
+.sseries h3 { font-size: .95rem; color: var(--sss-green); margin-top: 1.5rem; }
+.sgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: .6rem; }
+.scard { display: flex; flex-direction: column; align-items: center; text-align: center; padding: .6rem .4rem; border: 1px solid #e6e0d2;
+  border-radius: 10px; background: #fff; text-decoration: none; color: var(--sss-ink); transition: transform .12s, box-shadow .12s; position: relative; }
+.scard:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.08); }
+.simg { width: 84px; height: 84px; display: flex; align-items: center; justify-content: center; }
+.simg img { max-width: 84px; max-height: 84px; }
+.scode { font-weight: 700; font-size: .8rem; margin-top: .35rem; } .sname { font-size: .7rem; color: #555; line-height: 1.2; }
+.sflag.na { position: absolute; top: 4px; right: 4px; font-size: .55rem; font-weight: 700; background: #f3dfd2; color: #8a3d12; border-radius: 999px; padding: 0 .35rem; }
+.sdetail { display: grid; grid-template-columns: minmax(200px, 320px) 1fr; gap: 2rem; align-items: start; }
+@media (max-width: 700px) { .sdetail { grid-template-columns: 1fr; } }
+.sdetail-img { background: #fff; border: 1px solid #e6e0d2; border-radius: 14px; padding: 1.25rem; text-align: center; }
+.sdetail-img img { max-width: 100%; max-height: 300px; } .sdetail-img img.sheet { max-height: 140px; margin-top: .75rem; }
+.scode-big { font-size: 2rem; font-weight: 700; margin: 0; color: var(--sss-green); }
+.sdetail dl { display: grid; grid-template-columns: auto 1fr; gap: .3rem 1rem; font-size: .9rem; } .sdetail dt { font-weight: 600; }
+table.dims { font-size: .82rem; } .note { font-size: .8rem; color: var(--sl-color-gray-3); }
+
+/* ---------- navigation helpers ---------- */
+.to-top { position: fixed; right: 1.25rem; bottom: 1.25rem; z-index: 50; border: 0; border-radius: 999px; padding: .55rem .9rem; font: inherit; font-weight: 600;
+  background: var(--sss-green); color: #fff; box-shadow: 0 6px 18px rgba(0,0,0,.18); opacity: 0; pointer-events: none; transition: opacity .2s; cursor: pointer; }
+.to-top.show { opacity: 1; pointer-events: auto; }
+.read-bar { position: fixed; top: 0; left: 0; right: 0; height: 3px; background: var(--sss-orange); transform-origin: 0 50%; transform: scaleX(0); z-index: 1000; }

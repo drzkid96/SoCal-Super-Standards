@@ -1,0 +1,29 @@
+---
+title: "R3-8ze Advance Circular Intersection Lane Control (2 lanes)"
+description: "R3-8ze Advance Circular Intersection Lane Control (2 lanes): Regulatory Signs, series R3. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+tableOfContents: false
+---
+
+<div class="sdetail">
+<div class="sdetail-img"><img src="/SoCal-Super-Standards/signs/R3-8ze.svg" alt="R3-8ze"></div>
+<div class="sdetail-info">
+<p class="scode-big">R3-8ze</p>
+<p><span class="badge muted">National only (not shown in CA MUTCD)</span></p>
+<dl>
+<dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
+<dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r3">R3 &middot; Movement prohibition and lane control</a></dd>
+<dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE)</dd>
+<dt>Source</dt><dd>FHWA SHS 2024, Releases 1-4, page 2-71</dd>
+</dl>
+</div>
+</div>
+
+## Sizes and layout dimensions (inches)
+
+<table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>J</th><th>K</th><th>L</th><th>M</th><th>N</th></tr></thead><tbody><tr><td>36</td><td>0.625</td><td>0.875</td><td>3</td><td>4.75</td><td>7.75</td><td>4</td><td>D*</td><td>1.375</td><td>1.5</td><td>18</td><td>24.875</td><td>19.25</td><td>28.5</td></tr><tr><td>3.637</td><td>11.75</td><td>1.512</td><td>10.418</td><td>8.293</td><td>2.75</td><td>17.125</td><td>6.700</td><td>10.125</td><td>11.625</td><td>5.375</td><td>18.625</td><td>13.133</td></tr><tr><td>3.125</td><td>7</td><td>2.5</td><td>7.5</td><td>21.375</td><td>7.125</td><td>2.625</td><td>2.016</td><td>19.125</td><td>2.354</td><td>12.944</td><td>9.875</td><td>2.25</td></tr></tbody></table>
+
+<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
+
+## Governing sections
+
+<ul class="ments"><li>No section text mentions this code directly.</li></ul>
