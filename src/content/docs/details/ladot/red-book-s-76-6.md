@@ -1,6 +1,6 @@
 ---
-title: "S-76.6 Standard drawing"
-description: "Red Book standard drawing S-76.6: Standard drawing. 1 sheet(s)."
+title: "S-76.6 Visor, 12 in Diameter, Beveled"
+description: "Red Book standard drawing S-76.6: Visor, 12 in Diameter, Beveled. Shows the 12 in diameter beveled signal visor, with the left-beveled version drawn and an ear detail."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-76-3/">&larr; S-76.3</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-78-5-1/">S-78.5.1 &rarr;</a></div>
 
-
+<p class="dwg-sum">Shows the 12 in diameter beveled signal visor, with the left-beveled version drawn and an ear detail. A right-beveled visor is made by beveling the opposite side. Other details are in LADOT Purchase Specification #92-061-06.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a> <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></p>
 
 
 
@@ -18,7 +19,9 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 58)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0058.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0058.webp" alt="S-76.6 sheet 1"></a><figcaption>Red Book S-76.6, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p58">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>sy |_- Left Beveled Note: LU 4? + Voy” Ih" + Von” Je'R£¥52°—~ | ” ‘i Ear Detail See Ear Detail Bevel opposite side for Right Beveled Visor. Refer to LADOT Purchase Specification # 92-061-06 for all other details. DWN MT 1-05-11 CKD RSM 1-26-11 T.E. Title VISOR, 12" DIA., BEVELED Sr. T.E. Pr. T.E. CITY OF LOS ANGELES DEPARTMENT OF TRANSPORTATION Approved January 26, 2011 Drawing No. Chi ©. Keck S-76.6 for Amir Sedadi, Interim General Manager 51 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Visor, 12 in dia., beveled.</p>
+<p>Left beveled visor shown. See ear detail. Bevel opposite side for right beveled visor.</p>
+<p>Note: Refer to LADOT Purchase Specification #92-061-06 for all other details.</p></details>
 
 
-<div class="kw">Keywords: beveled, detail, visor, left, note, bevel, opposite, side, right, refer, ladot, purchase, specification, details</div>
+<div class="kw">Keywords: beveled visor, 12 inch visor, signal visor, left beveled visor, right beveled visor, signal head visor, traffic signal visor, ear detail, purchase specification 92-061-06</div>

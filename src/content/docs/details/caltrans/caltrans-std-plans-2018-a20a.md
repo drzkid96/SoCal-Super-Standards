@@ -1,6 +1,6 @@
 ---
 title: "A20A Pavement Markers and Traffic Lines, Typical Details"
-description: "Caltrans Std. Plans 2018 standard drawing A20A: Pavement Markers and Traffic Lines, Typical Details. 1 sheet(s), dated 01-26-18."
+description: "Caltrans Std. Plans 2018 standard drawing A20A: Pavement Markers and Traffic Lines, Typical Details. Caltrans typical layouts for centerlines on 2-lane highways and lane lines on multilane highways, with the placement of retroreflective pavement markers and painted line patterns."
 tableOfContents: false
 ---
 
@@ -9,6 +9,7 @@ tableOfContents: false
 
 <div class="dwg-nav"> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2018">All Caltrans Std. Plans 2018 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a20b/">A20B &rarr;</a></div>
 
+<p class="dwg-sum">Caltrans typical layouts for centerlines on 2-lane highways and lane lines on multilane highways, with the placement of retroreflective pavement markers and painted line patterns. It also covers no-passing zone layouts for one and two directions. Line and gap dimensions are shown on the details, for example 7'-0" and 17'-0" lane line patterns and 48'-0" or 36'-0" cycles. Several detail numbers are marked deleted.</p>
 <p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
 
 
@@ -18,7 +19,26 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 1)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0001.webp" alt="A20A sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A20A, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p1">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>ZL CENTERLINES DETAIL 1 (2 LANE HIGHWAYS) AIL -- 7-0" 17-0" 7’-0"__17/-0" _7’-0" Pssst] ReSSy] ey - DETAIL 2 &lt;= - SEAS DETAIL 3 DELETED Dep DETAIL 4 DELETED DETAIL 5 &lt;5 120", 36’-0 .12/-0", Ry) REY - DETAIL 6 f 48’-0" , -&lt;-os 18/-0" 12/-0" 18’-0) &amp; ESSER] &amp; - bE DETAIL 7 DELETED LANELINES DETAIL 8 (MULTILANE HIGHWAYS) L -_ 7-0", 17'-0" 7/0", 17’-0" -_7’-0" CO Co a - DETAIL 9 be 48'-0" + -- 8/-6",7/-0"_17/-0"_7’-0"|_8’-6 a Co Co i - DETAIL 9A son SEE NOTE t 48-0 ] SERA DETAIL 10 DELETED DETAIL 11 oO 36/-0" wy t2'20" | | Co - LANELINES (Cont) (MULTILANE HIGHWAYS) NO PASSING ZONES-ONE DIRECTION DETAIL 15 7'-0" 17-0" 7/-0" 17’'-0" LOL ~~~ % - DETAIL 16 i NO PASSING ZONES-TWO DIRECTION DETAIL 12 f 48’-0" j DETAIL 21 -- 18’-0" 12’-0" 18’-0" - a -- om oo 4 | SSR EE SEES _- oe = rl Se DETAIL 12A le 48'-0" 7 SEE NOTE = 18/-0" 12/-0" 18-0 B | B - - DERH+H DETAIL 13 DELETED DEA DETAIL 14 DELETED DEA eS DETAIL 23 DELETED BETA +44 DETAIL 14 DELETED LEGEND MARKERS (HB TYPE C RED-CLEAR RETROREFLECTIVE RY TYPE D TWO-WAY YELLOW RETROREFLECTIVE (HM TYPE G ONE-WAY CLEAR RETROREFLECTIVE Rl TYPE H ONE-WAY YELLOW RETROREFLECTIVE 6" WHITE 6" YELLOW 3% 41/0" MMMM ~~ E el | - DETAIL 19 &lt;= LOL - - 18-0" 12’-0" TYPE C AND TYPE D [Dist] COUNTY ROUTE TUES. SHEET) 101 POST M AL TOTAL PROJECT SHEETS nice CIVIL ENGINEER May 31, 2018 PLANS APPROVAL DATE THE STATE OF CALIFORNIA OR ITS OFFICERS OR AGENTS SHALL NOT BE RESPONSIBLE FOR THE ACCURACY OR COMPLETENESS OF SCANNED COPIES OF THIS PLAN SHEET. 3Ip"- 47/0" LN = vVOcV NVid GHYVGNVLS 8102 TYPE G AND TYPE H DETAIL 20 DELETED NOTE: FOR FREEWAY APPLICATION ONLY PAVEMENT MARKERS AND TRAFFIC LINES RETROREFLECTIVE FACE STATE OF CALIFORNIA DEPARTMENT OF TRANSPORTATION TYPICAL DETAILS NO SCALE A20A 1-26-18 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markers and traffic lines, typical details. A20A. No scale.</p>
+<p>Centerlines</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-1" data-svg="/SoCal-Super-Standards/linetypes/detail-1.svg">Detail 1</a> (2-lane highways).</p>
+<p>Details 2 and 5 and 6 as shown. Details 3, 4 and 7 deleted.</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-5" data-svg="/SoCal-Super-Standards/linetypes/detail-5.svg">Detail 5</a> and <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-6" data-svg="/SoCal-Super-Standards/linetypes/detail-6.svg">Detail 6</a> show 12&#x27;-0&quot; and 18&#x27;-0&quot; dimensions within 36&#x27;-0&quot; and 48&#x27;-0&quot; cycles.</p>
+<p>Lanelines</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-8" data-svg="/SoCal-Super-Standards/linetypes/detail-8.svg">Detail 8</a> (multilane highways): 7&#x27;-0&quot; and 17&#x27;-0&quot; pattern.</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-9" data-svg="/SoCal-Super-Standards/linetypes/detail-9.svg">Detail 9</a> and <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-9a" data-svg="/SoCal-Super-Standards/linetypes/detail-9a.svg">Detail 9A</a> (see note): 48&#x27;-0&quot; cycle with 8&#x27;-6&quot; and 7&#x27;-0&quot; dimensions. Details 10 and 11 as shown, Detail 10 deleted.</p>
+<p>Lanelines (cont.) (multilane highways)</p>
+<p>No passing zones, one direction</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-15" data-svg="/SoCal-Super-Standards/linetypes/detail-15.svg">Detail 15</a> and <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-16" data-svg="/SoCal-Super-Standards/linetypes/detail-16.svg">Detail 16</a>: 7&#x27;-0&quot; and 17&#x27;-0&quot; pattern.</p>
+<p>No passing zones, two direction</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-12" data-svg="/SoCal-Super-Standards/linetypes/detail-12.svg">Detail 12</a>, <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-12a" data-svg="/SoCal-Super-Standards/linetypes/detail-12a.svg">Detail 12A</a> and <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a>: 48&#x27;-0&quot; cycles with 18&#x27;-0&quot; and 12&#x27;-0&quot; dimensions (see note).</p>
+<p>Details 13, 14 and 23 deleted.</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-19" data-svg="/SoCal-Super-Standards/linetypes/detail-19.svg">Detail 19</a> and Detail 20: Type G and Type H markers. Detail 20 deleted. Type C and Type D markers.</p>
+<p>Legend</p>
+<p>Markers: Type C red-clear retroreflective, Type D two-way yellow retroreflective, Type G one-way clear retroreflective, Type H one-way yellow retroreflective.</p>
+<p>6&quot; white line. 6&quot; yellow line.</p>
+<p>Note: For freeway application only.</p>
+<p>Retroreflective face.</p></details>
 
 
-<div class="kw">Keywords: detail, deleted, type, retroreflective, highways, note, yellow, lanelines, multilane, passing, direction, markers, one-way, sheet</div>
+<div class="kw">Keywords: centerline, lane line, pavement markers, raised pavement markers, RPM, traffic lines, no passing zone, 2 lane highway striping, multilane highway striping, Type C marker, Type D marker, Type G marker, Type H marker, Caltrans A20A, double yellow line, detail 1, detail 8</div>

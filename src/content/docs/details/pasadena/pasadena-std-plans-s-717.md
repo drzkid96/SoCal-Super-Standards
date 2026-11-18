@@ -1,6 +1,6 @@
 ---
 title: "S-717 STOP Sign and Post Replacement"
-description: "Pasadena Std. Plans standard drawing S-717: STOP Sign and Post Replacement. 1 sheet(s), dated 07-23-01."
+description: "Pasadena Std. Plans standard drawing S-717: STOP Sign and Post Replacement. Pasadena detail for replacing a STOP sign and its post."
 tableOfContents: false
 ---
 
@@ -9,6 +9,7 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-716/">&larr; S-716</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-718/">S-718 &rarr;</a></div>
 
+<p class="dwg-sum">Pasadena detail for replacing a STOP sign and its post. A 760 mm (30 in) high intensity <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> STOP sign is mounted on a 3.0 m (10 ft) long galvanized square tube post that slides into a 610 mm (24 in) long galvanized anchor tube driven about 1.0 m (3 ft) into the ground. The sheet gives tube sizes, hole and rivet sizes, and concrete or consolidated backfill requirements, with a concrete sidewalk sloped to drain.</p>
 
 
 
@@ -18,7 +19,13 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 22)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0022.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0022.webp" alt="S-717 sheet 1"></a><figcaption>Pasadena Std. Plans S-717, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p22">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>(2”) 50 mm TE LF A AF A AP sy Y f 4 f 4 y f 11 mm er} HOLE 9.5 mm (3/8” RIVET SECTION A-A 11. mm (7/16”) DIA. IN EACH TUBE FOR 9.5 mm (3/8”) ch L - kha d abe E 760 mm (30”) El HIGH INTENSITY EAN wn (9. R1R _ STOP o.! 11 mm (7/16”) na HOLE, 9 § mm (3/8") RIVET NX q a GALVANIZED 75 mm (3”) LY 0.D. SQUARE ANCHOR TUBE ¢ GALVANIZED --7/|/ [WALL THICKNESS 5 mm (3/16”)] e 6&amp;5 mm 610 mm (24”) LONG, nw 62,172") 0.0. ASTM-A500 GRADE B =~ © SQUARE TUBE S (12 GAUGE), || / 3.0 m (10°) E LONG / - ASTM-A446 ee YD N a | N 1.0 m (3’) / 7 | 8 / Eke S ® wv | 2 =) \ - / © “heaSLOPE \ ; - Te UT me Lis" } Ne a | &amp;e {1h *, Ell z |x ait 3 Leas I Zel?e oO - 15 eed £2) €: or =| 2) al ES; EN HOLE i co oe = Hh A 2 |2 DRIVE TAMPED BACKFILL a TYPICA ee ene ( L) Deeelencd PLUG END OF ANCHOR 305 mm | (12”) MIN. TUBE TO EXCLUDE CONCRETE 455 mm (18”) MAX. RIVET | NOTES: CONCRETE SHALL COMPLY WITH CONSTRUCTION,” LATEST EDITION. GQ) CONSOLIDATED BACKFILL OR CONCRETE SIDEWALK, SLOPE TO DRAIN. 2) CONCRETE MAY BE PREMIXED, SACKED CONCRETE OR FIELD PROPORTIONED CEMENT AND AGGREGATE WITH WATER ADDED AND MIXING OCCURRING ON THE JOB SITE. 2% CALCIUM CHLORIDE (BY WEIGHT OF CEMENT) MAY BE ADDED TO PRODUCE A QUICKSET CONCRETE. “STANDARD SPECIFICATIONS FOR PUBLIC WORKS CITY OF PASADENA - PUBLIC WORKS &amp; TRANSPORTATION DEPARTMENT MAGGE OE STOP SIGN en _[ DUA seer | AND POST REPLACEMENT ==" MA VAON rse $-717 [CHRSTING HERNANDEZ amet ADMINISTRATOR RTE NO. 1820 EXPIRES JUNE 30,2005 7-3-0 | SHEET 1 OF | </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>STOP sign and post replacement. Sheet 1 of 1.</p>
+<p>Section A-A: 11 mm (7/16 in) dia. hole in each tube for 9.5 mm (3/8 in) rivet. 50 mm (2 in) dimension.</p>
+<p>Detail: 760 mm (30 in) high intensity <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> STOP sign. 11 mm (7/16 in) hole with 9.5 mm (3/8 in) rivet. Galvanized 62.5 mm (2 1/2 in) O.D. square tube (12 gauge), 3.0 m (10 ft) long, ASTM A446. Galvanized 75 mm (3 in) O.D. square anchor tube, 610 mm (24 in) long, wall thickness 5 mm (3/16 in), ASTM A500 Grade B. Drive 1.0 m (3 ft) into ground. Plug end of anchor tube to exclude concrete. Tamped backfill typical. 305 mm (12 in) minimum to 455 mm (18 in) maximum dimension shown on the sheet.</p>
+<p>Notes</p>
+<p>1. Concrete shall comply with the latest edition of the Standard Specifications for Public Works Construction.</p>
+<p>2. Concrete may be premixed, sacked concrete or field proportioned cement and aggregate with water added and mixing occurring on the job site. 2% calcium chloride (by weight of cement) may be added to produce a quickset concrete.</p>
+<p>3. Consolidated backfill or concrete sidewalk, slope to drain.</p></details>
 
 
-<div class="kw">Keywords: concrete, tube, hole, rivet, stop, galvanized, square, anchor, long, astm-a, backfill, cement, added, public</div>
+<div class="kw">Keywords: stop sign, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a>, stop sign replacement, stop sign post, anchor tube, galvanized square tube, 30 inch stop sign, high intensity sign, post replacement, sign post backfill, drive rivet, concrete backfill, quickset concrete, 12 gauge tube, sign post detail</div>

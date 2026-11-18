@@ -1,0 +1,440 @@
+[
+ {
+  "id": "ladot__red-book|p108",
+  "title": "Overhead Sign Structure Tubular Structural Frame Details - 1",
+  "summary": "Sheet S-2 of 5 of the LADOT overhead sign structure standard drawings. It shows the elevation of a tubular post with W6 x 12 sign support arms at 6 ft maximum spacing and an optional luminaire arm, plus corner, arm splice, cantilever arm connection and sign support arm bolt details. A design luminaire table lists three structure sizes by sign length (10-20 ft, 20-30 ft, 30-40 ft) with 2, 3 or 4 LED modules.",
+  "keywords": [
+   "overhead sign structure",
+   "tubular sign structure",
+   "sign support arm",
+   "W6x12 arm",
+   "luminaire support arm",
+   "cantilever arm connection",
+   "arm splice detail",
+   "sign bracket bolts",
+   "S-99.0",
+   "tubular structural frame",
+   "overhead sign post",
+   "sign structure details",
+   "design luminaire",
+   "stiffener plate"
+  ],
+  "sheets": [
+   {
+    "page": 108,
+    "notes": "Section A (elevation, scale 1 1/2\" = 1'-0\")\nLuminaire support arm 4'-0\" long, 1'-2\" below the top. Luminaires and luminaire support arms as required.\nW6 x 12 sign support arm @ 6' max spacing.\nDimensions SH and SH/2 shown for post height.\n\nDesign luminaire\nStyle: MAQ-A120-7-LED-E1-SW-GM-DM-RD or equivalent. Projected area 3.3 FT2. Weight 60 lbs.\nStructure 1: sign length 10' - 20', 2 LED.\nStructure 2: sign length 20' - 30', 3 LED.\nStructure 3: sign length 30' - 40', 4 LED.\n\nI7 Corner detail (scale 3\" = 1'-0\")\nFull depth 1/4\" plate stiffener each side of web (clip corners for zinc drain). W6 x 12. Provide 1\" dia hole for conduit. 1\" dia cope. Extend top flange of horizontal member as shown or add 1/4\" plate each side of web. CJP, backgouge.\n\nI10 Arm splice detail (scale 3\" = 1'-0\")\nLuminaire support arm if luminaire is required. W6 x 12. Always provide plate on sign support arm. Top of sign.\n\nI14 Section B (scale 3\" = 1'-0\")\n7/16\" dia hole for 5/8\" dia class 5 or greater bolt (not provided with luminaire). 6\" x 9\" x 1/4\" plate. 1\" dia hole. Cope bottom flange of W6 x 12. Dimensions shown: 1 1/2\", 5\", 1\" CL typ, 8 1/2\", 3 1/2\".\n\nE7 Cantilever arm connection (scale 3\" = 1'-0\")\n5/8\" dia x (Wa + 4 1/2\") threaded rod, typ. W6 x 12 sign support arm. C6 x 10.5. 4 - 1/2\" dia x HS bolts with nut and hardened washer. Dimensions: Wa + 5/8\", 3\".\n\nE13 Section C (scale 3\" = 1'-0\")\nSign support arm. 1/2\" plate sign support.\n\nA13 Section G (scale 3\" = 1'-0\")\n4 - 5/8\" dia x WA + 4 1/2\" threaded rods (double nut each rod). 5/8\" thick rectangular washers w/ 2 - 11/16\" dia holes. Sign support arm. C6 x 10.5 w/ 4 - 11/16\" x 1\" slotted holes.\n\nA1 Section D (scale 3\" = 1'-0\")\n1/2\" x 5/8\" dia holes for 5/8\" dia x HS bolt with nut and hardened washer, 4 places. 1\" dia hole for conduit. Dimensions 5\" and 2\".\n\nA5 Section E (scale 3\" = 1'-0\")\nInstall sign support arm in vertical position. 1/2\" thick plate. 8\" dia bolt circle. 9/16\" x 11/16\" slots on 8\" dia bolt circle symmetrical about plate CL. Sign support arm.\n\nA9 Section F (scale 3\" = 1'-0\")\n1/2\" thick plate. C6 x 10.5. 8\" dia bolt circle. 9/16\" x 11/16\" slots on 8\" dia bolt circle symmetrical about plate CL. 1\" dia hole for conduit. Sign support arm.\n\nCity of Los Angeles Department of Transportation. Overhead Sign Structure Standard Drawings. Tubular Structural Frame Details - 1. S-99.0. Sheet S-2 of 5."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p109",
+  "title": "Overhead Sign Structure Tubular Structural Frame Details - 2",
+  "summary": "Sheet S-3 of 5 of the LADOT overhead sign structure standard drawings. It covers the arm-to-post connection with flange plate weld detail, post and arm cap details with drill-and-tap stainless bolts, and sections through the post and arm. An arm-to-post connection table gives bolt counts, spacings and dimensions for three structure sizes.",
+  "keywords": [
+   "overhead sign structure",
+   "arm-to-post connection",
+   "flange plate weld",
+   "post cap detail",
+   "arm cap detail",
+   "tubular structural frame",
+   "stainless steel bolts",
+   "connection table",
+   "sign structure arm",
+   "S-99.0",
+   "HS bolts",
+   "backing ring",
+   "sign post details"
+  ],
+  "sheets": [
+   {
+    "page": 109,
+    "notes": "I1 Arm-to-post connection (scale 1\" = 1'-0\")\n(3) - 1/2\" diameter holes to match 3/8\" diameter stainless steel bolts. Dimensions Wa, Wb, Dp.\n\nI5 Flange plate weld detail (NTS)\nFlange plate. \"db\" dia HS bolt. CJP. Arm. Connection plate. 1\" x 1/2\" backing ring.\n\nI9 Section A (scale 1\" = 1'-0\")\n6\" dia hole through flange plates and post wall. Dimensions Wf, Wa, NH @ HS, NV @ VS, E.\n\nI13 Section B (scale 1\" = 1'-0\")\nDimensions Wa, tf, tb, Wr, 2\".\n\nE1 Arm-to-post connection table (NTS)\nStructure 1: Wf 2'-2\", tf 2\", NH 5, HS 5 1/2\", NV 3, VS 5 1/2\", Wb 1'-4\", tb 1/2\", Wr 4\", tr 1\", db 1\", E 2\".\nStructure 2: Wf 2'-8\", tf 2\", NH 7, HS 4 1/2\", NV 5, VS 4 1/2\", Wb 1'-10\", tb 1/2\", Wr 4\", tr 1\", db 1\", E 2 1/2\".\nStructure 3: Wf 3'-2\", tf 2\", NH 9, HS 4 1/2\", NV 7, VS 4 1/2\", Wb 2'-4\", tb 1/2\", Wr 4\", tr 1\", db 1\", E 2\".\nNH = number of bolts in horizontal row.\nNV = number of bolts in vertical column.\nHS = spacing of bolts in horizontal row.\nVS = spacing of bolts in vertical column.\n\nE7 Post cap detail (scale 3\" = 1'-0\")\nCap shall be 1/8\" convex at center to shed water. 3/8\" thick plate. Post cap ring - 1\" x 0.5\". Drill and tap for (3) - 3/8\" dia 1\" hex head stainless steel bolts.\nNote: See tube selection table on sheet S-1 for tp.\n\nE12 Section C (scale 3\" = 1'-0\")\nPost. Post cap ring - 1\" x 0.5\". Drill and tap for (3) - 3/8\" dia 1\" hex head stainless steel bolts.\n\nA1 Arm cap detail (scale 3\" = 1'-0\")\n3/8\" thick plate. Post cap ring - 1\" x 0.5\". Drill and tap for (4) - 3/8\" dia 1\" hex head stainless steel bolts.\nNote: See tube selection table on sheet S-1 for ta.\n\nA6 Section D (scale 3\" = 1'-0\")\nArm. Arm cap ring - 1\" x 0.5\". Drill and tap for (4) - 3/8\" dia 1\" hex head stainless steel bolts.\n\nCity of Los Angeles Department of Transportation. Overhead Sign Structure Standard Drawings. Tubular Structural Frame Details - 2. S-99.0. Sheet S-3 of 5."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p110",
+  "title": "Overhead Sign Structure Tubular Base Plate and Anchorage Details",
+  "summary": "Sheet S-4 of 5 of the LADOT overhead sign structure standard drawings. It shows the post handhole and cover plate, post-to-base-plate weld, base plate, anchor plate, conduit hub and the anchor bolt template assembly. A base plate table gives plate size, thickness, bolt circle, hole count and anchor rod diameter for three structure sizes.",
+  "keywords": [
+   "overhead sign structure",
+   "base plate",
+   "anchor bolt",
+   "anchor rod",
+   "anchor bolt template",
+   "handhole details",
+   "handhole cover plate",
+   "conduit hub",
+   "tubular post base",
+   "anchorage details",
+   "S-99.0",
+   "sign structure foundation",
+   "base plate table",
+   "concrete pedestal"
+  ],
+  "sheets": [
+   {
+    "page": 110,
+    "notes": "J1 Handhole details (scale 3\" = 1'-0\")\n1\" x 3\" handhole reinforcement. Drill and tap frame for 1/4\" x 1\" stainless steel screws. 6\" wide opening, R=3\". Dimension Dp.\n\nH1 Handhole cover plate (scale 3\" = 1'-0\")\nDrill 5/16\" dia holes in cover. 3/16\" thick cover plate. 6\" wide, R=3\".\n\nD1 Section A (scale 3\" = 1'-0\")\nPost. CJP. 1\" gap.\n\nA1 Post to base plate connection detail (NTS)\nPost. 1\" x 3/16\" backing ring. CJP. Base plate. 1 1/4\" dia galvanizing drain hole, typ, 3/4\" clear of backing ring.\n\nJ6 Base plate details (scale 3/4\" = 1'-0\")\n\"N\" holes. Hole dia = bolt dia \"DAR\" + 1/8\". Locate anchor rod hole here. Arm side. Post tube. Base plate thickness = tbp.\nNote: See base plate table for base plate and anchor bolt information.\n\nG6 Anchor plate details (scale 3/4\" = 1'-0\")\nHoles for anchor rods to match base plate. Hole dia = DB + 1/16\". Anchor plate thickness = 1 1/2\" (not galvanized).\n\nJ11 Base plate table (NTS)\nStructure 1: Dbp 2'-9\", tbp 2 1/4\", Dh 6\", Dbc 2'-4\", N 8, angle 45, DAR 2 1/4\".\nStructure 2: Dbp 3'-4\", tbp 2 1/4\", Dh 6\", Dbc 2'-10\", N 12, angle 30, DAR 2 1/4\".\nStructure 3: Dbp 3'-10\", tbp 2 1/4\", Dh 6\", Dbc 3'-4\", N 16, angle 22.5, DAR 2 1/4\".\n\nG11 Hub detail (scale 3\" = 1'-0\")\n2\" conduit for post and 3/4\" conduit for arm. Forged steel 1 1/2\" NPT class 3000 threaded half coupling. Inside edge of conduit hub shall be smooth. Provide threaded insert plug at locations where conduit is not installed.\n\nA6 Anchor bolt template assembly (scale 3\" = 1'-0\")\n\"DAR\" dia anchor rod w/ 4 nuts and 4 hardened washers. Top nut. Base plate. Bearing nut. Top of concrete pedestal. Anchor plate. 8\" btm thread. Top thread length and rod projection. Anchor rod length 6'-2\". 2 1/2\" nom, 3\" max.\n\nCity of Los Angeles Department of Transportation. Overhead Sign Structure Standard Drawings. Tubular Base Plate and Anchorage Details. S-99.0. Sheet S-4 of 5."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p112",
+  "title": "Backplates",
+  "summary": "Signal head backplate shapes for one-section through five-section vertical heads and multi-section cluster heads, with a 2-inch yellow retroreflective strip around the border. Width dimension A is 5 inches typical and corner radius R is 2 inches typical. Notes cover nominal 1/8 inch ABS construction, flange, finish and Type XI retroreflective sheeting.",
+  "keywords": [
+   "signal backplate",
+   "backplates",
+   "traffic signal backplate",
+   "yellow retroreflective strip",
+   "retroreflective border",
+   "signal head backplate",
+   "ABS backplate",
+   "Type XI sheeting",
+   "ASTM D4956",
+   "3-section head",
+   "4-section head",
+   "5-section head",
+   "S-77.8A",
+   "louvered backplate"
+  ],
+  "sheets": [
+   {
+    "page": 112,
+    "notes": "Drawing shows backplate outlines for signal heads with one, two, three, four and five vertical sections, a three-section head with a larger lower section, and clustered five-section and three-section heads. 2-inch yellow retroreflective strip. Dimensions A and R, typ.\n\nNotes:\n1. The width dimension, \"A\" should be 5\" typ. and the corner radius dimension, \"R\", should be 2\" typ. The backplate shall have a nominal thickness of 1/8\". All outside and inside edges shall be formed with a 1/2\" to 5/8\" flange (inside dimension), turned away from the front surface.\n2. For all manufactured signal heads, backplates shall be designed so as to show no background light between the backplate and the head. The fabrication shall be vacuum formed as one piece with a black lusterless, haircell finish on the front side. All surfaces shall be flat and straight without blisters, buckling or warping. Flanges shall be straight, uniform and have a consistent flange dimension throughout.\n3. The backplate material shall be compounded from virgin ABS containing 60% styrene, 20% rubber and 20% acrylic. It shall contain ultra violet inhibitors and stabilizers for protection against ultra violet degradation. The backplate must meet a falling dart impact test of 16 ft/lb.\n4. The internal shapes and dimensions shall match various manufactured signal heads.\n5. Retroreflective sheeting must be Type XI and comply with ASTM D4956. Retroreflective sheeting must have class 1, 3, or 4 adhesive backing. The adhesive backing must be pressure sensitive and fungus resistant. Retroreflective sheeting must be applied at the fabrication plant under the retroreflective sheeting manufacturer's instruction without appreciable stretching, tearing or other damage.\n\nBackplates. City of Los Angeles Department of Transportation. Approved October 20, 2025. Drawing No. S-77.8A."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p113",
+  "title": "Mast Arm Mounted Street Name Signs",
+  "summary": "Standard layouts for mast arm mounted street name signs and freeway ramp signs. Street name signs use white 8-inch upper case and 6-inch lower case Series E letters on a blue background. Freeway ramp signs use Series D letters on a Warboys green background with an 18-inch high route shield.",
+  "keywords": [
+   "mast arm street name sign",
+   "street name signs",
+   "mast arm sign",
+   "freeway ramp sign",
+   "blue street name sign",
+   "Series E letters",
+   "Series D letters",
+   "interstate shield",
+   "one-line arrow",
+   "Warboys green",
+   "sign blade length",
+   "S-486.0",
+   "street name blade"
+  ],
+  "sheets": [
+   {
+    "page": 113,
+    "notes": "A. Street name signs\nExamples: Jefferson Bl; Mulholland Dr / Valley Circle Bl. Dimensions shown: 12\" and 18\" sign heights, 30\" length, 12\" and 7\" dimensions. Street name signs as required (see Note 4).\n\nNotes:\n1. Legend size: 8\" upper case, 6\" lower case, Series \"E\" letters.\n2. Color: white legend, blue background.\n3. 11-1/4\" x 12-3/4\" one-line arrow.\n4. Reflectivity: high intensity letters on super engineer grade background or reverse screening on high intensity sheeting.\n5. Where the length of the sign blade would exceed 96\" (generally 16 letters and spaces) the street name titles, \"ST\", \"AVE\", \"BL\", \"PL\", \"DR\", \"RD\", etc. may be deleted.\n\nB. Freeway ramp signs\nExample: Interstate (405) North, 72\" length.\n1. Legend size: 8\" and 6\" Series D capital letters. 11-1/4\" x 24\" by 12-3/4\" one-line arrow. 18\" high US, California or Interstate shield, as appropriate with proportional numbers.\n2. Color: white legend, Warboys green (L.A. No. 1) background. Black on white US shield. White on green California shield. White on blue and red Interstate shield.\n3. Reflectivity: high intensity letters on super engineer grade or reverse screening on high intensity sheeting.\n\nMast Arm Mounted Street Name Signs. City of Los Angeles Department of Transportation. Approved March 4, 2005. S-486.0, sheet 1 of 2."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p114",
+  "title": "Mast Arm Mounted Street Name Signs",
+  "summary": "Rear and side views of a mast arm mounted street name sign, including a freeway on-ramp and off-ramp example. The sign mounts with the mast arm sign bracket per Standard Plan S-457.0 and uses a Signfix medium section stiffener on the back of .080 inch aluminum sign material.",
+  "keywords": [
+   "mast arm street name sign",
+   "sign bracket",
+   "Signfix stiffener",
+   "aluminum sign panel",
+   "freeway onramp sign",
+   "freeway offramp sign",
+   "sign banding",
+   "fiber lock nut",
+   "S-486.0",
+   "S-457.0",
+   "S-476.0",
+   "street name sign mounting"
+  ],
+  "sheets": [
+   {
+    "page": 114,
+    "notes": "Front sign examples: FWY. ONRAMP Jefferson Bl; JEFFERSON BLVD; FWY. OFFRAMP.\nRear view and side view: Mast arm sign bracket per Standard Plan S-457.0. Banding. Fiber lock nut. Signfix medium section stiffener secured to back of sign with pop rivets at 6\" spacing. Sign material .080\" aluminum. Typical placement shown.\n\nNotes:\n1. For installation details see Std. Plan S-457.0.\n2. For Signfix aluminum channel framing system details see Standard Plan S-476.0.\n\nMast Arm Mounted Street Name Signs. City of Los Angeles Department of Transportation. S-486.0, sheet 2 of 2."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p115",
+  "title": "Mast Arm Street Name Sign Bracket Type 1",
+  "summary": "Product details for the M10J-OCB250AL adjustable length swing sign bracket and the M10J-OCB250FL fixed length non-adjustable swing sign bracket used to hang street name signs from signal mast arms. Both are aluminum 6061T6 with stainless steel components. Notes give the supplier, 12 inch clearance to adjacent signs and stainless steel banding requirements.",
+  "keywords": [
+   "street name sign bracket",
+   "mast arm sign bracket",
+   "swing sign bracket",
+   "adjustable sign bracket",
+   "fixed length sign bracket",
+   "M10J-OCB250AL",
+   "M10J-OCB250FL",
+   "stainless steel banding",
+   "sign banding",
+   "Hawkins Traffic Safety Supply",
+   "signal mast arm sign mount",
+   "S-457.0"
+  ],
+  "sheets": [
+   {
+    "page": 115,
+    "notes": "M10J-OCB250AL adjustable length swing sign bracket\nAll aluminum 6061T6 alloy and stainless steel components. 5/8\" from bottom of sign mounting hole to bottom of bracket. Loosen lock nut, adjust bracket teeth to level sign.\n\nM10J-OCB250FL fixed length non-adjustable swing sign bracket\nAll aluminum 6061T6 alloy and stainless steel components. 9\" overall length including axle housing (8\" overall length to top of axle housing). 5/8\" from bottom of sign mounting hole to bottom of bracket.\n\nCallouts:\n1. Pivotal upper bracket.\n2. 1\" slot for double strapping to electrolier mast arm. Cat. No. M2G-34S(HD) .032\" x 3/4\" heavy duty stainless steel strap with Cat. No. M2G-34B(HD) buckle recommended.\n3. 3/8\"-13 x 1 1/2\" stainless steel hex head bolt with stainless steel hex lock nut and 3/8\" stainless steel washer (both sides). Allows upper bracket to pivot and align with electrolier mast arm. Do not tighten past nut locking feature for pivot action to be operational.\n4. 5 5/8\" overall length fixed length sign bracket.\n5. Stainless steel dampener spring (removable).\n6. Stainless steel hex lock nut with 3/8\" stainless steel washer. Do not tighten, it binds hinges.\n7. 1\" O.D. axle housing, 3/8\"-13 x 4\" stainless steel hex head bolt with 3/8\" stainless steel washer. Do not tighten lock nut past locking feature, it binds hinges.\n8. Oilite bushing.\n9. Sign mounting sets, consisting of two each 5/16\"-18 x 1\" stainless steel hex head bolt with stainless steel hex lock nut. Two holes on 1 1/2\" centers provide positive lock sign mounting to bracket.\n10. 7 7/8\" overall length upper adjustable sign bracket section.\n\nNotes:\n1. Brackets available from: Hawkins Traffic Safety Supply, 1255 Eastshore Highway, Berkeley, CA 94710, (415) 525-4040.\n2. If another sign is installed on the mast arm next to the signal head, the street name sign shall be installed with 12\" clearance to the edge of that sign.\n3. Sign bracket shall be attached to mast arm with 3/4\" wide type 201 stainless steel sign banding secured with a banding buckle. Banding shall be 0.020\" thick double banded or 0.030\" thick single banded.\n\nMast Arm Street Name Sign Bracket Type 1. City of Los Angeles Department of Transportation. Approved 12-1-88. S-457.0."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p117",
+  "title": "No Left and No Right Turn Electric Sign",
+  "summary": "Sign face and visor enclosure for the LADOT no left turn and no right turn electric sign, sheet 2 of 2. The standard sign face is 24 inches by 24 inches and the pedestrian head version is 16.25 inches wide by 14.5 inches high. The visor enclosure is 24 inches wide and 24 inches tall with 6 inch sides and 2 inch radius corners.",
+  "keywords": [
+   "no left turn electric sign",
+   "no right turn electric sign",
+   "electric sign",
+   "LED turn prohibition sign",
+   "pedestrian head sign",
+   "visor enclosure",
+   "24 inch sign face",
+   "turn restriction signal sign",
+   "S-58.13",
+   "dotted arrow sign",
+   "signal mounted sign"
+  ],
+  "sheets": [
+   {
+    "page": 117,
+    "notes": "Sign face (not to scale)\nStandard sign: 24\" x 24\".\nPedestrian head sign: 16.25\" wide x 14.5\" high.\n\nVisor enclosure (not to scale)\n24\" wide, 24\" tall, 6\" deep sides, 2\" Rad. corners.\n\nNo Left & No Right Turn Electric Sign. City of Los Angeles Department of Transportation. Drawing No. S-58.13, sheet 2 of 2."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p118",
+  "title": "Use Tunnel Electric Sign",
+  "summary": "LED electric sign reading USE TUNNEL with an arrow, mounted below a regular pedestrian signal head. The sign uses red LED diodes on a black background, is housed in two standard pedestrian signal enclosures stacked vertically, and may be displayed only with the hand symbol of the pedestrian signal.",
+  "keywords": [
+   "use tunnel sign",
+   "electric sign",
+   "LED sign",
+   "pedestrian tunnel sign",
+   "pedestrian signal head",
+   "red LED sign",
+   "pedestrian signal enclosure",
+   "tunnel crossing sign",
+   "S-58.14",
+   "hand symbol",
+   "pedestrian electric sign"
+  ],
+  "sheets": [
+   {
+    "page": 118,
+    "notes": "Regular pedestrian signal heads with LED signs below. Sign width 18-1/2\". Sign shows USE TUNNEL with left or right arrow. See Note 4.\n\nNotes:\n1. The \"USE TUNNEL\" sign shall be internally illuminated by super LED diodes. The diodes shall emit red colored light. The sign background shall be black.\n2. The sign message \"USE TUNNEL\" shall be 4\" in height with brush stroke width of 1/2\". The arrow shall be 6-1/2\" long with brush stroke width of 1\".\n3. The sign housing shall consist of two (2) standard pedestrian signal enclosures connected to one another in a vertical manner.\n4. Minimum space shall be provided to allow free movement of door openings.\n5. The \"USE TUNNEL\" electric sign shall be displayed only with the hand symbol of the pedestrian signal head.\n\nUse Tunnel Electric Sign. City of Los Angeles Department of Transportation. Approved 3-18-92. Drawing No. S-58.14."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p119",
+  "title": "R3-5 Electric Sign",
+  "summary": "Fiber optic electric sign that displays the R3-5L (left arrow with ONLY) and R3-5R (right arrow with ONLY) lane use messages in lunar white. Messages are formed by fiber optic bundles spaced 0.50 inch center to center, and the sign blanks out completely when not energized. Housing is described on S-58.21 and mounting on S-63.1.4.",
+  "keywords": [
+   "R3-5 electric sign",
+   "R3-5L",
+   "R3-5R",
+   "lane use sign",
+   "left arrow only",
+   "right arrow only",
+   "fiber optic sign",
+   "lunar white",
+   "visor enclosure",
+   "electric sign",
+   "S-58.17",
+   "LADOT specification 82-049-03",
+   "overhead lane control sign"
+  ],
+  "sheets": [
+   {
+    "page": 119,
+    "notes": "Dimensions shown: 30\" and 13-1/2\". Visor enclosure with 2\" Rad.\n\nNotes:\n1. Sign shall be capable of displaying the following messages:\nA: Lunar white - R3-5L (left arrow w/ONLY). Width of arrow - 1.5\" stroke.\nB: Lunar white - R3-5R (right arrow w/ONLY). Letters are Series \"C\", 1\" stroke.\n2. Messages shall be formed with rows of fiber optic bundles spaced 0.50 inch (center to center).\n3. Fiber optic bundles shall alternate between two or more lamp sources so that in the event of a lamp failure the sign shall continue to display a discernable and readable message.\n4. Sign shall completely blank out when not energized.\n5. Door frame, face plate, and interior of housing and visor shall be painted flat black non-reflective finish.\n6. Visor enclosure shall be fastened securely to the front frame of the sign.\n7. Refer to LADOT Std. Dwg. No. S-63.1.4 for mounting assembly.\n8. Sign shall conform to LADOT Specification No. 82-049-03.\n9. For housing description, see LADOT Std. Dwg. No. S-58.21.\n\nR3-5 Electric Sign. City of Los Angeles Department of Transportation. Approved July 9, 2008. Drawing No. S-58.17."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p120",
+  "title": "Lane Usage Control Electric Sign",
+  "summary": "Fiber optic lane usage control sign that shows a red X or a green down arrow. Each symbol is formed with rows of fiber optic bundles spaced 0.50 inch center to center and has a 1.5 inch stroke. The sign blanks out completely when not energized, and housing and mounting are covered by S-58.21 and S-63.1.4.",
+  "keywords": [
+   "lane usage control sign",
+   "lane control signal",
+   "red X sign",
+   "green arrow sign",
+   "reversible lane sign",
+   "fiber optic sign",
+   "electric sign",
+   "visor enclosure",
+   "S-58.18",
+   "lane control electric sign",
+   "LADOT specification 82-049-03",
+   "overhead lane signal"
+  ],
+  "sheets": [
+   {
+    "page": 120,
+    "notes": "Dimensions shown: 24\" sign width and height, 15-3/8\". Visor enclosure with 2\" Rad.\n\nNotes:\n1. Sign shall be capable of displaying the following messages:\nA: Red \"X\". Width of \"X\" - 1.5\" stroke.\nB: Green arrow (down). Width of arrow - 1.5\" stroke.\n2. The red \"X\" shall be formed with rows of fiber optic bundles spaced 0.50 inch (center to center). The green down arrow shall be formed with rows of fiber optic bundles, spaced 0.50 inch (center to center).\n3. Fiber optic bundles shall alternate between two or more lamp sources so that in the event of a lamp failure the sign shall continue to display a discernable and readable message.\n4. Sign shall completely blank out when not energized.\n5. Door frame, face plate, and interior of housing and visor shall be painted flat black non-reflective finish.\n6. Visor enclosure shall be fastened securely to the front frame of the sign.\n7. Refer to LADOT Std. Dwg. No. S-63.1.4 for mounting assembly.\n8. Sign shall conform to LADOT Specification No. 82-049-03.\n9. For housing description, see LADOT Std. Dwg. No. S-58.21.\n\nLane Usage Control Electric Sign. City of Los Angeles Department of Transportation. Approved 11-03-00. Drawing No. S-58.18."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p121",
+  "title": "R3-9a Electric Sign",
+  "summary": "Fiber optic electric sign that displays the R3-9a message with left arrows in lunar white, with a 1.5 inch arrow stroke. Messages are formed with fiber optic bundles spaced 0.50 inch center to center, and the sign blanks out when not energized. Housing is described on S-58.21 and mounting on S-63.1.4.",
+  "keywords": [
+   "R3-9a electric sign",
+   "R3-9a",
+   "left arrows sign",
+   "lane use sign",
+   "fiber optic sign",
+   "lunar white",
+   "electric sign",
+   "visor enclosure",
+   "S-58.19",
+   "LADOT specification 82-049-03",
+   "lane control sign"
+  ],
+  "sheets": [
+   {
+    "page": 121,
+    "notes": "Dimensions shown: 24\" and 24\", 3-3/4\", 16-1/2\", 3-3/4\". Visor enclosure with 2\" Rad.\n\nNotes:\n1. Sign shall be capable of displaying the following messages:\nA: Lunar white - R3-9a (left arrows). Width of arrows - 1.5\" stroke.\n2. Messages shall be formed with rows of fiber optic bundles spaced 0.50 inch (center to center).\n3. Fiber optic bundles shall alternate between two or more lamp sources so that in the event of a lamp failure the sign shall continue to display a discernable and readable message.\n4. Sign shall completely blank out when not energized.\n5. Door frame, face plate, and interior of housing and visor shall be painted flat black non-reflective finish.\n6. Visor enclosure shall be fastened securely to the front frame of the sign.\n7. Refer to LADOT Std. Dwg. No. S-63.1.4 for mounting assembly.\n8. Sign shall conform to LADOT Specification No. 82-049-03.\n9. For housing description, see LADOT Std. Dwg. No. S-58.21.\n\nR3-9a Electric Sign. City of Los Angeles Department of Transportation. Approved July 9, 2008. Drawing No. S-58.19."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p122",
+  "title": "Sign Enclosure",
+  "summary": "Housing details for LADOT fiber optic electric signs, including the section through the extruded aluminum housing and door frame, welding requirements and a 26-item parts list. Housing and door frame are .125 inch extruded aluminum, with a polycarbonate lens, aluminum visor and back plate, stainless steel hardware and a neoprene door gasket. It is the housing referenced by the S-58 electric sign drawings.",
+  "keywords": [
+   "sign enclosure",
+   "electric sign housing",
+   "sign housing",
+   "extruded aluminum housing",
+   "fiber optic sign parts list",
+   "polycarbonate lens",
+   "door gasket",
+   "link locks",
+   "corner posts",
+   "visor",
+   "transformer shelf",
+   "S-58.21",
+   "housing description",
+   "sign cabinet"
+  ],
+  "sheets": [
+   {
+    "page": 122,
+    "notes": "Section A-A. Dimensions shown: 26-1/2\" or 32-1/2\" (see notes), 6-3/4\", 2\" dia. hole. Heli-arc weld one side of corner post to door frame, both ends. Heli-arc weld seams of door frame as shown, hinge side only. Use corner posts on other side. Heli-arc weld all seams of housing, 4 corners. Message area shown.\n\nItem / description / quantity\n1. Housing, .125\" extruded aluminum - 1\n2. Door frame, .125\" extruded aluminum - 1\n3. Face plate, .08\" aluminum - 1\n4. Matte/clear polycarbonate lens, .125\" thick - 1\n5. Visor .063\" aluminum - 1\n6. Back plate, .063\" aluminum - 1\n7. Optics enclosure, .02\" aluminum - 1\n8. Transformer shelf, .063\" aluminum - 1\n9. Lamps, solid state 7W max. - as req.\n10. Transformers, 120 VAC pri., 12 VAC 25 VA sec. - as req.\n11. Common ends (light input), aluminum - as req.\n12. End tips (light outputs), nylon - as req.\n13. Fiber optic glass bundles, dia. varies - as req.\n14. Continuous hinge, 1-1/4\" (open) x .040\" stainless steel - 1\n15. 1/4-turn link locks, stainless steel - 3\n16. Door gasket, 1\" x 3/16\" neoprene (all sides continuous) - 1\n17. Terminal block (3 pt.) - 1\n18. Corner posts, aluminum - 2\n19. #8 x 5/16\" slotted pan head screws, stainless steel - as req.\n20. 4 1/2\" x 4 1/2\" x 1/4\" reinforcement aluminum plate (see detail \"A\") - 2\n21. #8-32 x 3/4\" slotted round head machine screw, hex nuts & lock washers (stainless steel) - 32\n22. Lens stiffener blocks, acrylic - 2\n23. 5/16\" x 1-1/4\" hex head machine screw bolt & hex nut visor screws (stainless steel) - 12\n24. 5/16\" x 1\" hex head machine screw bolt & hex nut & lock washers (stainless steel) - 8\n25. Mounting bracket - 1\n26. 1/2\" wire entry bushing - 1\n\nSign Enclosure. City of Los Angeles Department of Transportation. Approved June 26, 2008. Not to scale. Drawing No. S-58.21."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p123",
+  "title": "Electric Train and Bus Warning Sign",
+  "summary": "Fiber optic electric warning signs for pedestrian crossings, a TRAIN sign with the front of a train and a BUS sign with a bus symbol. Messages are yellow on a black background, formed by fiber optic glass bundles. The sign housing has four 3/16 inch drain holes, and housing and mounting are covered by S-58.21 and S-63.1.4.",
+  "keywords": [
+   "train warning sign",
+   "bus warning sign",
+   "electric train sign",
+   "electric bus sign",
+   "fiber optic sign",
+   "railroad crossing pedestrian sign",
+   "light rail warning",
+   "yellow message sign",
+   "pedestrian head sign",
+   "S-58.25",
+   "visor enclosure",
+   "LADOT specification 82-049-03",
+   "Pelco Astro-Brac"
+  ],
+  "sheets": [
+   {
+    "page": 123,
+    "notes": "Two sign faces, TRAIN and BUS, each with a 2\" Rad. visor enclosure. Overall sign sizes shown: 26.75\" and 24\" wide. Pedestrian head sign versions shown at smaller size (T=46\", L=29\"). Dimension table letters A through J are shown on the drawing (including 1.5, 13\", 3\", 6\", 2.094\", 2.688\", 16.25\"). Five 1\" spaces to delineate the railroad track. Stainless steel link locks.\n\nNotes:\n1. Messages shall be formed by rows of fiber optic glass bundles.\n2. Dual rows of fiber optic bundles shall be used to form the word \"TRAIN\".\n3. Letters in the bus warning sign message shall have a brush stroke of 1-inch. Bus symbol and letters shall also conform to the latest edition of the FHWA Standard Highway Signs book.\n4. The front view of the train or bus shall be solid formed by rows of fiber optic glass bundles.\n5. The color of the messages shall be yellow. The sign background shall be black.\n6. Fiber optic glass bundles shall alternate between two or more lamp sources. In the event of a lamp failure, the sign shall continue to display a readable and discernable message.\n7. Sign housing shall be equipped with four (4) 3/16\" drain holes at the bottom.\n8. The visor enclosure shall be fastened securely to the front frame of the sign.\n9. Housing shall contain 4 1/2\" x 4 1/2\" x 1/4\" reinforcement plate located on the top and bottom for use with the Pelco Astro-Brac installation.\n10. Refer to Std. Dwg. No. S-63.1.4 for the mounting assembly.\n11. Sign shall conform to LADOT Specification No. 82-049-03.\n12. For housing description see LADOT Std. Dwg. No. S-58.21.\n\nElectric Train & Bus Warning Sign. City of Los Angeles Department of Transportation. Approved June 26, 2008. Drawing No. S-58.25."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p124",
+  "title": "Transit Priority Unit Cabinet Detail - Front View",
+  "summary": "Front view of a Model 2070 controller cabinet showing where the transit priority equipment is installed, including the 2070 controller, the active input files and the 283LA transit sensors. The drawing depicts a two sensor configuration where each sensor can accommodate up to two loops. Notes give the slot locations and serial cable routing.",
+  "keywords": [
+   "transit priority unit",
+   "transit priority cabinet",
+   "2070 controller cabinet",
+   "283LA transit sensor",
+   "input file",
+   "transit signal priority",
+   "TSP cabinet",
+   "DB9 serial cable",
+   "C2S C20S port",
+   "loop detector sensor",
+   "controller cabinet front view",
+   "S-70.3",
+   "ATSAC"
+  ],
+  "sheets": [
+   {
+    "page": 124,
+    "notes": "Controller cabinet - front view, Model 2070. Labels: 2070 controller, DB9 serial cable (see Note 3), active input files, 283LA sensor (see Note 2). Section detail not to scale.\n\nNotes:\n1. This drawing depicts a two sensor configuration. Each sensor can accommodate up to two loops.\n2. Install 283LA transit sensors in slots 10 of the I and J input files. Connect sensor cable ends (B1/B2, B3/B4) to the sensor J1 serial ports.\n3. Route serial communications cable behind cabinet chassis. Connect 2070 cable end to the 2070 C21S port. Secure cable to cabinet chassis with wire ties.\n\nTransit Priority Unit Cabinet Detail. City of Los Angeles Department of Transportation. Approved 2/20/2001. Drawing No. S-70.3."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p125",
+  "title": "Transit Priority Unit Cabinet Detail - Rear View",
+  "summary": "Rear view of the Model 2070 controller cabinet showing the C20 harness and panel for transit priority, the C2 harness and panel for ATSAC, the DB9 serial cable and the TBO connection. The C20 harness and panel are installed on the rack above the C2 panel.",
+  "keywords": [
+   "transit priority unit",
+   "controller cabinet rear view",
+   "2070 controller cabinet",
+   "C20 harness",
+   "C20 panel",
+   "C2 harness",
+   "C2 panel",
+   "ATSAC harness",
+   "DB9 serial cable",
+   "TBO",
+   "detector loops",
+   "S-70.3A",
+   "transit signal priority cabinet"
+  ],
+  "sheets": [
+   {
+    "page": 125,
+    "notes": "Controller cabinet - rear view. Labels: 2070 controller, DB9 serial cable (see sheet 5/6), C20 panel (see sheet 6/6), hinge, C20 harness (transit), TBO (see sheet 4/6), C2 harness (ATSAC), C2 panel, DLC to loops. Section detail not to scale.\n\nNote:\n1. Install C20 harness and panel on rack above C2 panel.\n\nTransit Priority Unit Cabinet Detail. City of Los Angeles Department of Transportation. Drawing No. S-70.3A."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p126",
+  "title": "Transit Priority Unit Cabinet Detail - Rear View with Harness Connections",
+  "summary": "Rear view of the controller cabinet showing the connections for the transit priority unit: DB9 serial cable, C20 transit harness, C2 ATSAC harness, input file harness and TBO. Notes give the port connections for the 2070 cable and the C20 harness and the input file harness route from TBO to the input file backplane.",
+  "keywords": [
+   "transit priority unit",
+   "controller cabinet rear view",
+   "input file harness",
+   "C20 harness",
+   "C2 harness",
+   "ATSAC harness",
+   "DB9 serial cable",
+   "TBO",
+   "C20S port",
+   "C21S port",
+   "input file backplane",
+   "2070 controller cabinet",
+   "S-70.35A",
+   "cabinet wiring"
+  ],
+  "sheets": [
+   {
+    "page": 126,
+    "notes": "Controller cabinet - rear view. Labels: DB9 serial cable (see Note 1), C20 harness (see Note 3 - transit), C2 harness (ATSAC), input file harness, TBO (see Note 2), C20S and C1S ports, power cable, see sheet.\n\nNotes:\n1. Connect 2070 cable end to the 2070 C21S port.\n2. Install input file harness from TBO to input file backplane.\n3. Connect C20 harness to the C20S port.\n\nTransit Priority Unit Cabinet Detail. City of Los Angeles Department of Transportation. Drawing No. S-70.35A."
+   }
+  ]
+ }
+]

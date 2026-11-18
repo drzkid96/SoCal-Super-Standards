@@ -1,6 +1,6 @@
 ---
 title: "BT-406 Driveway Transitions"
-description: "Burbank Std. Plans standard drawing BT-406: Driveway Transitions. 1 sheet(s), dated 06-01-92."
+description: "Burbank Std. Plans standard drawing BT-406: Driveway Transitions. Profiles and tables for driveway vertical transitions between the curb and a garage."
 tableOfContents: false
 ---
 
@@ -9,6 +9,7 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-405/">&larr; BT-405</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-407/">BT-407 &rarr;</a></div>
 
+<p class="dwg-sum">Profiles and tables for driveway vertical transitions between the curb and a garage. Case 1 is a garage above street level with a 16.5' minimum setback from curb face. Case 2 is a garage below street level with a 20.5' minimum setback. Both use a 20 percent tangent slope with a 1/4" per foot sidewalk slope, and tables give minimum distance A or B for each rise or fall.</p>
 <p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/transit/">Transit, bus lanes and bus stops</a> <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a></p>
 
 
@@ -18,7 +19,53 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 11)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0011.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0011.webp" alt="BT-406 sheet 1"></a><figcaption>Burbank Std. Plans BT-406, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p11">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>Pa Os Max ‘ae I | | | | | | | | 8 Q f °q Qo id | | I: | | | DRIVEWAY TRANSITIONS Garage Selbock-Min.i6.5' From Curb Face. Vertical Curve ee Floor Level 0.60" Max Rise 126 + OR4 Soe Table ad 0.3" Max NO SCALE Garage Selbock-Min.-20.5° From Curb Face Ws St Min. 5 Vertcd Grve Distonce Bo? V.C 5 1' S' Min 3 A. § | al: eal iq Sidew ak Lia irc. (Shee i pap gCeUEES ox~ Rn. ages ae See NR ea Top Of Curb (TO Level ae ES: } 2, T X CASE 2 R X ° NO SCALE TABLE-CASE 1-GARAGE ABOVE STREET LEVEL TABLE-CASE 2-GARAGE BELOW STREET LEVEL MINIMUM DISTANCE RISE MINIMUM DISTANCE FALL SETBACK (FT) ‘A’ ABOVE TC SETBACK (FT) ‘8’ BELOW TC 16.5 0 1'-3 1/8" 20.5 0 O'-4 1/4" 18.5 2" 1-7 7/8" 22.5 2' 0'-9 3/8" 20.5 4 2'-0 3/4" 24.5 4 1'-2 1/2" 22.5 6' 2°-5 3/2" 26.5 6' 1-7" 24.5 8° 2'-10 3/8" 28.5 8" 1'-11 3/4" 26.5 10° 3'-3 1/4" 30.5 10° 2'=4 1/2" 28.5 12° 3'-7 7/8" 32.5 12° 2’-9 3/8" 30.5 14° 4'-0 3/4" 34.5 14° 3'-2 1/8” 32.5 16° 4-5 1/2" 36.5 16° 3-7" 34.5 18° 4'-10 3/8" 38.5 18° 3'-11 3/4" 36.5 20° 5-3 1/8" 40.5 20° a4 1/2" 38.5 22° 5'-7 7/8" 42.5 22' 4'-9 3/8" 40.5 24° 6'-0 3/4" 44.5 24° 5'-2 1/8" 42.5 26' 6'-5 1/2" 46.5 26° 5'-7" 445 28° 6*-10 3/8" 48.5 28° §'-11 3/4" 46.5 30° 7'-3 1/8" 50.5 30" 6'-4 1/2" 48.5 32" 7-7 7/8" 52.5 32" 69 3/8" NOTES: on o . All driveways which do not conform to City Standard must be pr d by . The distances and vertical curves shown hereon are the minimum which can be used with a minimum tangent slope of 20% without causing cars to drag on the paved surfaces. . The sidewalk slope af 1/4" per 1' shall be carried from the curb to the beginning of the vertical curve for Case 1 and Case 2. . If the back of the existing sidewalk is more than 5’ from the curb face in Case 1, or more than 11.5' from the curb face in Case 2, the vertical curve shall begin at the back of the existing sidewalk, and the mini Qarage setb k increased accordingly to provide desired rise or fall to garage level. . Where existing conditions make this profile inapplicable, the applicant shall file a plan and profile of the proposed driveway at a scale of 1" = 2' with the Traffic Engineer for approval. pecial permit. R q for said permit is made with the Traffic Engineer for checking and approval. CITY OF BURBANK - PUBLIC WORKS DEPARTMENT REV py __| pate DRIVEWAY TRANSITIONS STANDARD PLAN APPROVED BY“ LE” G-/-%xX | BT-406 Public Works or Date SHEET 1 OF 1 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>DRIVEWAY TRANSITIONS</h5>
+<p>Case 1: garage above street level (no scale)</p>
+<p>Garage setback minimum 16.5&#x27; from curb face. Profile shows 5&#x27; minimum, 5&#x27; vertical curve, distance A, 6&#x27; vertical curve, 3&#x27; level, sidewalk slope 1/4&quot; per 1&#x27;, 20% slope, top of curb (TC) level, garage floor level. Max rise 1.26&#x27; + 0.24&#x27; (see table).</p>
+<p>Case 2: garage below street level (no scale)</p>
+<p>Garage setback minimum 20.5&#x27; from curb face. Profile shows 5&#x27; minimum, 11.5&#x27; minimum, 6&#x27; vertical curve, distance B, 2&#x27; vertical curve, 1&#x27;, sidewalk slope 1/4&quot; per 1&#x27;, 20% slope, top of curb (TC) level, garage floor level. Max fall 0.38&#x27; + 0.28&#x27; (see table).</p>
+<p>Table, Case 1 (garage above street level): minimum setback (ft) | distance A | rise above TC</p>
+<p>16.5 | 0 | 1&#x27;-3 1/8&quot;</p>
+<p>18.5 | 2&#x27; | 1&#x27;-7 7/8&quot;</p>
+<p>20.5 | 4&#x27; | 2&#x27;-0 3/4&quot;</p>
+<p>22.5 | 6&#x27; | 2&#x27;-5 1/2&quot;</p>
+<p>24.5 | 8&#x27; | 2&#x27;-10 3/8&quot;</p>
+<p>26.5 | 10&#x27; | 3&#x27;-3 1/4&quot;</p>
+<p>28.5 | 12&#x27; | 3&#x27;-7 7/8&quot;</p>
+<p>30.5 | 14&#x27; | 4&#x27;-0 3/4&quot;</p>
+<p>32.5 | 16&#x27; | 4&#x27;-5 1/2&quot;</p>
+<p>34.5 | 18&#x27; | 4&#x27;-10 3/8&quot;</p>
+<p>36.5 | 20&#x27; | 5&#x27;-3 1/8&quot;</p>
+<p>38.5 | 22&#x27; | 5&#x27;-7 7/8&quot;</p>
+<p>40.5 | 24&#x27; | 6&#x27;-0 3/4&quot;</p>
+<p>42.5 | 26&#x27; | 6&#x27;-5 1/2&quot;</p>
+<p>44.5 | 28&#x27; | 6&#x27;-10 3/8&quot;</p>
+<p>46.5 | 30&#x27; | 7&#x27;-3 1/8&quot;</p>
+<p>48.5 | 32&#x27; | 7&#x27;-7 7/8&quot;</p>
+<p>Table, Case 2 (garage below street level): minimum setback (ft) | distance B | fall below TC</p>
+<p>20.5 | 0 | 0&#x27;-4 1/4&quot;</p>
+<p>22.5 | 2&#x27; | 0&#x27;-9 3/8&quot;</p>
+<p>24.5 | 4&#x27; | 1&#x27;-2 1/2&quot;</p>
+<p>26.5 | 6&#x27; | 1&#x27;-7&quot;</p>
+<p>28.5 | 8&#x27; | 1&#x27;-11 3/4&quot;</p>
+<p>30.5 | 10&#x27; | 2&#x27;-4 1/2&quot;</p>
+<p>32.5 | 12&#x27; | 2&#x27;-9 3/8&quot;</p>
+<p>34.5 | 14&#x27; | 3&#x27;-2 1/8&quot;</p>
+<p>36.5 | 16&#x27; | 3&#x27;-7&quot;</p>
+<p>38.5 | 18&#x27; | 3&#x27;-11 3/4&quot;</p>
+<p>40.5 | 20&#x27; | 4&#x27;-4 1/2&quot;</p>
+<p>42.5 | 22&#x27; | 4&#x27;-9 3/8&quot;</p>
+<p>44.5 | 24&#x27; | 5&#x27;-2 1/8&quot;</p>
+<p>46.5 | 26&#x27; | 5&#x27;-7&quot;</p>
+<p>48.5 | 28&#x27; | 5&#x27;-11 3/4&quot;</p>
+<p>50.5 | 30&#x27; | 6&#x27;-4 1/2&quot;</p>
+<p>52.5 | 32&#x27; | 6&#x27;-9 3/8&quot;</p>
+<h5>Notes:</h5>
+<p>1. The distances and vertical curves shown hereon are the minimum which can be used with a minimum tangent slope of 20% without causing cars to drag on the paved surfaces.</p>
+<p>2. The sidewalk slope of 1/4&quot; per 1&#x27; shall be carried from the curb to the beginning of the vertical curve for Case 1 and Case 2.</p>
+<p>3. If the back of the existing sidewalk is more than 5&#x27; from the curb face in Case 1, or more than 11.5&#x27; from the curb face in Case 2, the vertical curve shall begin at the back of the existing sidewalk, and the minimum garage setback increased accordingly to provide desired rise or fall to garage level.</p>
+<p>4. Where existing conditions make this profile inapplicable, the applicant shall file a plan and profile of the proposed driveway at a scale of 1&quot; = 2&#x27; with the Traffic Engineer for approval.</p>
+<p>5. All driveways which do not conform to City Standard must be processed by special permit. Request for said permit is made with the Traffic Engineer for checking and approval.</p></details>
 
 
-<div class="kw">Keywords: curb, garage, level, case, face, vertical, minimum, driveway, curve, rise, scale, sidewalk, existing, transitions</div>
+<div class="kw">Keywords: driveway transition, driveway profile, vertical curve, garage setback, garage above street, garage below street, 20 percent slope, scraping, driveway drag, sidewalk slope, top of curb, rise above curb, fall below curb, driveway apron, special permit driveway</div>

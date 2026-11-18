@@ -452,24 +452,37 @@ sidebar:
 
 <span id="p85" class="anchor"></span>
 
-### Page 85 - References (S-450, S-456)
+### Page 85 - Sidewalk Area References: Street Trees
 
 <div class="pmeta">Drawings: <strong>S-450</strong>, <strong>S-456</strong> &middot; Topics: parking-curb, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp" alt="Complete Streets DG page 85 References (S-450, S-456)"></a><figcaption>Complete Streets DG, page 85. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>77</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
-<h4>References</h4>
-<p>Urban Forestry Department (UFD) Residential Parkway Landscaping Guidelines</p>
-<p>UFD Street Tree Selection Guide</p>
-<p>BOE Standard Plan S-456-1: Tree well, root barrier and planting</p>
-<p>BOE Standard Plan S-450</p>
-<p>Current permitting through Bureau of Street Services: Tree Root Prune Permits, Tree Prune Permits, Tree Removal Permits, Tree Planting Permits</p>
-<p>♦♦Mature height: no limits/maximums, but should be appropriate and complement roadway scale/ use and land uses.</p>
-<p>♦♦Spacing from other elements: Trees with mature canopy diameter of 30 feet or less may be 20 feet from street lights. Trees may be 10 feet from pedestrian lights if their canopies are pruned up 2 feet above the lights. Trees may be 10 feet from utility poles if canopies are pruned to allow access on the poles. In certain locations, smaller clearances may provide greater flexibility in tree spacing and allow for a more complete tree canopy; these clearances may be used with UFD approval. Tree size at planting: Arterials: 36-inch box recommended (not currently standard); Non- arterials: 24-inch boxTrunk diameter: Arterials – 2-2.5 inches; Non Arterials – 1-1.5 inches</p>
-<p>♦♦Height: recommended Arterials – 14’; Non Arterials– 10’</p>
-<p>♦♦Adequate clear space should be provided between trees and awnings, canopies, balconies, and signs so they will not come into conflict through normal growth or require excessive pruning to remediate such conflicts.</p>
-<p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: tree, arterials, feet, permits, trees, street, standard, planting, lights, canopies, complete, guide, plan, root</div>
+<div class="pclean"><p class="psum"><b>Sidewalk Area References: Street Trees.</b> Reference list and planting guidance for street trees in the sidewalk area of the LADOT Complete Streets Design Guide. It cites the Urban Forestry Department guidelines and BOE Standard Plans S-450 and S-456-1. It gives tree spacing from street lights, pedestrian lights and utility poles, plus recommended planting sizes for arterials and non-arterials.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>4. Sidewalk Area</p>
+<p>References</p>
+<p>- Urban Forestry Department (UFD) Residential Parkway Landscaping Guidelines</p>
+<p>- UFD Street Tree Selection Guide</p>
+<p>- BOE Standard Plan S-456-1: Tree well, root barrier and planting</p>
+<p>- BOE Standard Plan S-450</p>
+<p>- Current permitting through Bureau of Street Services: Tree Root Prune Permits, Tree Prune Permits, Tree Removal Permits, Tree Planting Permits</p>
+<p>Mature height: no limits/maximums, but should be appropriate and complement roadway scale/use and land uses.</p>
+<p>Spacing from other elements: Trees with mature canopy diameter of 30 feet or less may be 20 feet from street lights. Trees may be 10 feet from pedestrian lights if their canopies are pruned up 2 feet above the lights. Trees may be 10 feet from utility poles if canopies are pruned to allow access on the poles. In certain locations, smaller clearances may provide greater flexibility in tree spacing and allow for a more complete tree canopy. These clearances may be used with UFD approval.</p>
+<p>Tree size at planting: Arterials: 36-inch box recommended (not currently standard). Non-arterials: 24-inch box.</p>
+<p>Trunk diameter: Arterials, 2-2.5 inches. Non-arterials, 1-1.5 inches.</p>
+<p>Height: recommended Arterials 14&#x27;. Non-arterials 10&#x27;.</p>
+<p>Adequate clear space should be provided between trees and awnings, canopies, balconies, and signs so they will not come into conflict through normal growth or require excessive pruning to remediate such conflicts.</p></details></div>
+<div class="pclean"><p class="psum"><b>Sidewalk Area References: Street Trees.</b> Reference list and planting guidance for street trees in the sidewalk area of the LADOT Complete Streets Design Guide. It cites the Urban Forestry Department guidelines and BOE Standard Plans S-450 and S-456-1. It gives tree spacing from street lights, pedestrian lights and utility poles, plus recommended planting sizes for arterials and non-arterials.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>4. Sidewalk Area</p>
+<p>References</p>
+<p>- Urban Forestry Department (UFD) Residential Parkway Landscaping Guidelines</p>
+<p>- UFD Street Tree Selection Guide</p>
+<p>- BOE Standard Plan S-456-1: Tree well, root barrier and planting</p>
+<p>- BOE Standard Plan S-450</p>
+<p>- Current permitting through Bureau of Street Services: Tree Root Prune Permits, Tree Prune Permits, Tree Removal Permits, Tree Planting Permits</p>
+<p>Mature height: no limits/maximums, but should be appropriate and complement roadway scale/use and land uses.</p>
+<p>Spacing from other elements: Trees with mature canopy diameter of 30 feet or less may be 20 feet from street lights. Trees may be 10 feet from pedestrian lights if their canopies are pruned up 2 feet above the lights. Trees may be 10 feet from utility poles if canopies are pruned to allow access on the poles. In certain locations, smaller clearances may provide greater flexibility in tree spacing and allow for a more complete tree canopy. These clearances may be used with UFD approval.</p>
+<p>Tree size at planting: Arterials: 36-inch box recommended (not currently standard). Non-arterials: 24-inch box.</p>
+<p>Trunk diameter: Arterials, 2-2.5 inches. Non-arterials, 1-1.5 inches.</p>
+<p>Height: recommended Arterials 14&#x27;. Non-arterials 10&#x27;.</p>
+<p>Adequate clear space should be provided between trees and awnings, canopies, balconies, and signs so they will not come into conflict through normal growth or require excessive pruning to remediate such conflicts.</p></details></div>
+<div class="kw">Keywords: street trees, tree spacing, tree planting, street light clearance, utility pole clearance, tree well, root barrier, urban forestry, S-450, S-456-1, tree box size, arterial trees, canopy pruning, sidewalk trees</div>
 
 
 <span id="p86" class="anchor"></span>
@@ -712,7 +725,7 @@ sidebar:
 
 <span id="p96" class="anchor"></span>
 
-### Page 96 - Considerations and Guidance
+### Page 96 - Location and Placement of Bicycle Racks
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, transit, parking-curb, accessibility</div>
 <div class="dtext"><p>88</p>
@@ -733,58 +746,83 @@ sidebar:
 <p>•• For all clearance and accessibility requirements for bicycle rack placement, refer to BOE Standard Plan S-671-0. ADA accessibility requirements must be met. In order to ensure accessibility and ADA compliance, the</p>
 <p>Bicycle lockers provide high security and protection from natural elements.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, racks, parking, bicycles, placement, space, rack, support, accessibility, placed, locations, bike, compliance, lockers</div>
+<div class="pclean"><p class="psum"><b>Location and Placement of Bicycle Racks.</b> Guidance on where to place bicycle racks in the sidewalk area and for bicycle corrals in the roadway, tied to BOE Standard Plan S-671. In the amenity zone racks parallel to the curb need at least 24 inches from the curbline (preferably 36 inches beside a travel lane) and 5 feet from other street furniture. Corrals need 25 feet from a fire hydrant and 30 feet from intersection departure and 50 feet from approach.</p></div>
+<div class="pclean"><p class="psum"><b>Location and Placement of Bicycle Racks.</b> Guidance on where to place bicycle racks in the sidewalk area and for bicycle corrals in the roadway, tied to BOE Standard Plan S-671. In the amenity zone racks parallel to the curb need at least 24 inches from the curbline (preferably 36 inches beside a travel lane) and 5 feet from other street furniture. Corrals need 25 feet from a fire hydrant and 30 feet from intersection departure and 50 feet from approach.</p></div>
+<div class="kw">Keywords: bike rack, bicycle rack placement, bike parking, inverted U rack, bicycle corral, S-671, amenity zone, frontage zone, curbline clearance, bike repair station, fire hydrant clearance, bicycle parking ordinance, curb extension bike rack, street furniture clearance</div>
 
 
 <span id="p97" class="anchor"></span>
 
-### Page 97 - Location and Placement of Bicycle Racks (S-671)
+### Page 97 - Location and Placement of Bicycle Racks
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, parking-curb, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp" alt="Complete Streets DG page 97 Location and Placement of Bicycle Racks (S-671)"></a><figcaption>Complete Streets DG, page 97. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>89</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
-<p>♦♦Have mounting hardware that can be unscrewed with common tools</p>
-<p>♦♦Requires the bicyclist to lift their bicycle onto the rack</p>
-<p>•• While the inverted-U design is the accepted standard in Los Angeles for bicycle parking in the public right-of- way, other rack designs may be accepted for use at the discretion of LADOT and approval of the Department of Public Works. The installation of creatively-designed racks can provide a public art amenity; these should be encouraged, especially in pedestrian-oriented districts.</p>
-<p>•• In addition, property owners are encouraged to install bicycle racks in the frontage zone near building entrances (after receiving the required conditional permit from BOE) or on private property near building entrances.</p>
-<p>•• New development projects must provide a minimum number of bicycle parking spaces per the Los Angeles Bicycle Parking Ordinance, section 12.21.AA16 of the Municipal Code.</p>
-<h4>Location and Placement of Bicycle Racks</h4>
-<p>Amenity Zone:</p>
-<p>Bicycle racks that are parallel to the curb should be a minimum 24 inches from the curbline to allow for access to parked vehicles and provide adequate space for cyclists to maneuver. To provide added safety for bicyclists, when fronting a curbside vehicular travel lane racks should be set back further, preferably at least 36 inches from the curbline.</p>
-<p>•• The rack should allow a minimum of 5 feet of clearance when placed parallel to the roadway (along a single line), measured from center of base plate to center of base plate. In areas with curbside vehicular parking, a rack oriented parallel to the curbline must be a minimum of 90 inches from another curbside rack to ensure pedestrians with clear access to and from the curb parking between two parked parallel bicycles (BOE S-671 Standard Plan).</p>
-<p>•• The rack should maintain 5 feet of clearance from other street furniture. Other street furniture includes but is not limited to: parking meters, trees, tree wells, newspaper racks, light poles, sign poles, telephone poles, utility meters, benches, mailboxes, fire hydrants, and trash cans.</p>
-<p>Wide sidewalk areas afford opportunities to consolidate multiple racks in groups.</p>
-<p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, racks, rack, parking, provide, minimum, parallel, public, inches, curbline, curbside, poles, design, sidewalk</div>
+<div class="pclean"><p class="psum"><b>Location and Placement of Bicycle Racks.</b> Guidance on where to place bicycle racks in the sidewalk area and for bicycle corrals in the roadway, tied to BOE Standard Plan S-671. In the amenity zone racks parallel to the curb need at least 24 inches from the curbline (preferably 36 inches beside a travel lane) and 5 feet from other street furniture. Corrals need 25 feet from a fire hydrant and 30 feet from intersection departure and 50 feet from approach.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>4. Sidewalk Area</p>
+<p>- Mounting hardware that can be unscrewed with common tools (listed among rack characteristics).</p>
+<p>- Requires the bicyclist to lift their bicycle onto the rack (listed among rack characteristics).</p>
+<p>- While the inverted-U design is the accepted standard in Los Angeles for bicycle parking in the public right-of-way, other rack designs may be accepted at the discretion of LADOT and approval of the Department of Public Works. Creatively designed racks can provide a public art amenity and should be encouraged, especially in pedestrian-oriented districts.</p>
+<p>- Property owners are encouraged to install bicycle racks in the frontage zone near building entrances (after receiving the required conditional permit from BOE) or on private property near building entrances.</p>
+<p>- New development projects must provide a minimum number of bicycle parking spaces per the Los Angeles Bicycle Parking Ordinance, section 12.21.AA16 of the Municipal Code.</p>
+<p>Location and Placement of Bicycle Racks</p>
+<h5>Amenity Zone:</h5>
+<p>- Bicycle racks parallel to the curb should be a minimum 24 inches from the curbline to allow access to parked vehicles and adequate space for cyclists to maneuver. When fronting a curbside vehicular travel lane, racks should be set back further, preferably at least 36 inches from the curbline.</p>
+<p>- The rack should allow a minimum of 5 feet of clearance when placed parallel to the roadway (along a single line), measured from center of base plate to center of base plate. In areas with curbside vehicular parking, a rack oriented parallel to the curbline must be a minimum of 90 inches from another curbside rack so pedestrians have clear access to and from the curb parking between two parked parallel bicycles (BOE S-671 Standard Plan).</p>
+<p>- The rack should maintain 5 feet of clearance from other street furniture, including parking meters, trees, tree wells, newspaper racks, light poles, sign poles, telephone poles, utility meters, benches, mailboxes, fire hydrants, and trash cans.</p>
+<p>Wide sidewalk areas afford opportunities to consolidate multiple racks in groups.</p></details></div>
+<div class="pclean"><p class="psum"><b>Location and Placement of Bicycle Racks.</b> Guidance on where to place bicycle racks in the sidewalk area and for bicycle corrals in the roadway, tied to BOE Standard Plan S-671. In the amenity zone racks parallel to the curb need at least 24 inches from the curbline (preferably 36 inches beside a travel lane) and 5 feet from other street furniture. Corrals need 25 feet from a fire hydrant and 30 feet from intersection departure and 50 feet from approach.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>4. Sidewalk Area</p>
+<p>- Mounting hardware that can be unscrewed with common tools (listed among rack characteristics).</p>
+<p>- Requires the bicyclist to lift their bicycle onto the rack (listed among rack characteristics).</p>
+<p>- While the inverted-U design is the accepted standard in Los Angeles for bicycle parking in the public right-of-way, other rack designs may be accepted at the discretion of LADOT and approval of the Department of Public Works. Creatively designed racks can provide a public art amenity and should be encouraged, especially in pedestrian-oriented districts.</p>
+<p>- Property owners are encouraged to install bicycle racks in the frontage zone near building entrances (after receiving the required conditional permit from BOE) or on private property near building entrances.</p>
+<p>- New development projects must provide a minimum number of bicycle parking spaces per the Los Angeles Bicycle Parking Ordinance, section 12.21.AA16 of the Municipal Code.</p>
+<p>Location and Placement of Bicycle Racks</p>
+<h5>Amenity Zone:</h5>
+<p>- Bicycle racks parallel to the curb should be a minimum 24 inches from the curbline to allow access to parked vehicles and adequate space for cyclists to maneuver. When fronting a curbside vehicular travel lane, racks should be set back further, preferably at least 36 inches from the curbline.</p>
+<p>- The rack should allow a minimum of 5 feet of clearance when placed parallel to the roadway (along a single line), measured from center of base plate to center of base plate. In areas with curbside vehicular parking, a rack oriented parallel to the curbline must be a minimum of 90 inches from another curbside rack so pedestrians have clear access to and from the curb parking between two parked parallel bicycles (BOE S-671 Standard Plan).</p>
+<p>- The rack should maintain 5 feet of clearance from other street furniture, including parking meters, trees, tree wells, newspaper racks, light poles, sign poles, telephone poles, utility meters, benches, mailboxes, fire hydrants, and trash cans.</p>
+<p>Wide sidewalk areas afford opportunities to consolidate multiple racks in groups.</p></details></div>
+<div class="kw">Keywords: bike rack, bicycle rack placement, bike parking, inverted U rack, bicycle corral, S-671, amenity zone, frontage zone, curbline clearance, bike repair station, fire hydrant clearance, bicycle parking ordinance, curb extension bike rack, street furniture clearance</div>
 
 
 <span id="p98" class="anchor"></span>
 
-### Page 98 - Other Discussion (S-671)
+### Page 98 - Location and Placement of Bicycle Racks
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, transit, parking-curb, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp" alt="Complete Streets DG page 98 Other Discussion (S-671)"></a><figcaption>Complete Streets DG, page 98. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>90</p>
-<p>4. SIDEWALK AREA Complete Streets Design Guide</p>
-<p>•• A bicycle rack should not be installed in a bus stop zone, taxi zone or loading zone. A rack should not be installed near a fire hydrant or near handicap- accessible parking.</p>
-<p>Frontage Zone:</p>
-<p>•• In the frontage zone, bicycle racks can be placed perpendicular, angled, or parallel to a building or property frontage. Perpendicular or angled parking should be provided if space permits; these orientations allow for better-accessible clustered parking.</p>
-<p>•• Racks located parallel to the property line should be placed at least 30” from the structure. When racks are placed side by side, each rack should be spaced at least 60” from one another in order to accommodate both rider and bicycle in the aisle.</p>
-<p>Flex Zone – Curb Extensions</p>
-<p>Bicycle racks located on mid-block curb extensions should comply with all guidelines stated above for racks located in the amenity zone. Bicycle racks should gener­ ally not be located on corner bulbouts near intersections because they hinder visibility for pedestrians, bicyclists, and motorists.</p>
-<h4>Other Discussion</h4>
-<p>Los Angeles code does not currently allow decommissioned parking meters to be retrofitted to accommodate bicycle parking, although LADOT has completed pilot retrofit projects. This is common tpractice in many other localities and should be considered in Los Angeles.</p>
-<p>Bike repair stations are a valuable convenience for cyclists. These should be located in strategic locations with high bicycle traffic, ideally placed adjacent to clustered parking facilities. To ensure security and safety, they should be placed in a secure part of the street that is highly-visible and well-lit.</p>
-<p>The current placement of bicycle racks should be checked for compliance with standards. Racks that are not in compliance should be relocated, as designated by LADOT under guidance by the above guidelines as well as those in Standard Plan S-671.</p>
-<h4>References</h4>
-<p>APBP Bicycle Parking Guidelines</p>
-<p>NACTO Urban Bikeway Design Guide</p>
-<p>BOE Standard Plan S-671</p>
-<p>2013 Bicycle Parking Ordinance (LAMC Ord. No. 182386)</p>
-<p>Bike repair stations are a valuable public convenience for bicycle riders.</p>
-<p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, parking, racks, zone, placed, located, rack, near, frontage, guidelines, design, guide, installed, perpendicular</div>
+<div class="pclean"><p class="psum"><b>Location and Placement of Bicycle Racks.</b> Guidance on where to place bicycle racks in the sidewalk area and for bicycle corrals in the roadway, tied to BOE Standard Plan S-671. In the amenity zone racks parallel to the curb need at least 24 inches from the curbline (preferably 36 inches beside a travel lane) and 5 feet from other street furniture. Corrals need 25 feet from a fire hydrant and 30 feet from intersection departure and 50 feet from approach.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>4. Sidewalk Area</p>
+<p>- A bicycle rack should not be installed in a bus stop zone, taxi zone or loading zone. A rack should not be installed near a fire hydrant or near handicap-accessible parking.</p>
+<h5>Frontage Zone:</h5>
+<p>- Bicycle racks can be placed perpendicular, angled, or parallel to a building or property frontage. Perpendicular or angled parking should be provided if space permits, because these orientations allow better-accessible clustered parking.</p>
+<p>- Racks parallel to the property line should be placed at least 30 inches from the structure. When racks are placed side by side, each rack should be spaced at least 60 inches from one another to accommodate both rider and bicycle in the aisle.</p>
+<p>Flex Zone - Curb Extensions</p>
+<p>Bicycle racks on mid-block curb extensions should comply with all guidelines stated above for racks in the amenity zone. Bicycle racks should generally not be located on corner bulbouts near intersections because they hinder visibility for pedestrians, bicyclists, and motorists.</p>
+<p>Other Discussion</p>
+<p>Los Angeles code does not currently allow decommissioned parking meters to be retrofitted to accommodate bicycle parking, although LADOT has completed pilot retrofit projects. This is common practice in many other localities and should be considered in Los Angeles.</p>
+<p>Bike repair stations are a valuable convenience for cyclists. They should be located in strategic locations with high bicycle traffic, ideally adjacent to clustered parking facilities, and placed in a secure, highly visible, well-lit part of the street.</p>
+<p>The current placement of bicycle racks should be checked for compliance with standards. Racks that are not in compliance should be relocated, as designated by LADOT under these guidelines and Standard Plan S-671.</p>
+<p>References</p>
+<p>- APBP Bicycle Parking Guidelines</p>
+<p>- NACTO Urban Bikeway Design Guide</p>
+<p>- BOE Standard Plan S-671</p>
+<p>- 2013 Bicycle Parking Ordinance (LAMC Ord. No. 182386)</p></details></div>
+<div class="pclean"><p class="psum"><b>Location and Placement of Bicycle Racks.</b> Guidance on where to place bicycle racks in the sidewalk area and for bicycle corrals in the roadway, tied to BOE Standard Plan S-671. In the amenity zone racks parallel to the curb need at least 24 inches from the curbline (preferably 36 inches beside a travel lane) and 5 feet from other street furniture. Corrals need 25 feet from a fire hydrant and 30 feet from intersection departure and 50 feet from approach.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>4. Sidewalk Area</p>
+<p>- A bicycle rack should not be installed in a bus stop zone, taxi zone or loading zone. A rack should not be installed near a fire hydrant or near handicap-accessible parking.</p>
+<h5>Frontage Zone:</h5>
+<p>- Bicycle racks can be placed perpendicular, angled, or parallel to a building or property frontage. Perpendicular or angled parking should be provided if space permits, because these orientations allow better-accessible clustered parking.</p>
+<p>- Racks parallel to the property line should be placed at least 30 inches from the structure. When racks are placed side by side, each rack should be spaced at least 60 inches from one another to accommodate both rider and bicycle in the aisle.</p>
+<p>Flex Zone - Curb Extensions</p>
+<p>Bicycle racks on mid-block curb extensions should comply with all guidelines stated above for racks in the amenity zone. Bicycle racks should generally not be located on corner bulbouts near intersections because they hinder visibility for pedestrians, bicyclists, and motorists.</p>
+<p>Other Discussion</p>
+<p>Los Angeles code does not currently allow decommissioned parking meters to be retrofitted to accommodate bicycle parking, although LADOT has completed pilot retrofit projects. This is common practice in many other localities and should be considered in Los Angeles.</p>
+<p>Bike repair stations are a valuable convenience for cyclists. They should be located in strategic locations with high bicycle traffic, ideally adjacent to clustered parking facilities, and placed in a secure, highly visible, well-lit part of the street.</p>
+<p>The current placement of bicycle racks should be checked for compliance with standards. Racks that are not in compliance should be relocated, as designated by LADOT under these guidelines and Standard Plan S-671.</p>
+<p>References</p>
+<p>- APBP Bicycle Parking Guidelines</p>
+<p>- NACTO Urban Bikeway Design Guide</p>
+<p>- BOE Standard Plan S-671</p>
+<p>- 2013 Bicycle Parking Ordinance (LAMC Ord. No. 182386)</p></details></div>
+<div class="kw">Keywords: bike rack, bicycle rack placement, bike parking, inverted U rack, bicycle corral, S-671, amenity zone, frontage zone, curbline clearance, bike repair station, fire hydrant clearance, bicycle parking ordinance, curb extension bike rack, street furniture clearance</div>
 
 
 <span id="p99" class="anchor"></span>
@@ -1351,11 +1389,14 @@ sidebar:
 
 <span id="p123" class="anchor"></span>
 
-### Page 123
+### Page 123 - Complete Streets Design Guide: Roadways (Section Divider)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0123.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0123.webp" alt="Complete Streets DG page 123 "></a><figcaption>Complete Streets DG, page 123 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>COMPLETE STREETS DESIGN GUIDE ROADWAYS </p></details>
-<div class="kw">Keywords: complete, streets, design, guide, roadways</div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Roadways (Section Divider).</b> Section divider page for the Roadways chapter. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
+<p>Roadways</p></details></div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Roadways (Section Divider).</b> Section divider page for the Roadways chapter. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
+<p>Roadways</p></details></div>
+<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, roadways, section divider, roadway design</div>
 
 
 <span id="p124" class="anchor"></span>

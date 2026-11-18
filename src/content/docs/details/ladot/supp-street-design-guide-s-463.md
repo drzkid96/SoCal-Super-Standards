@@ -1,6 +1,6 @@
 ---
-title: "S-463 TYPE II FLOATING BUS BULB STREET ELEVATION BIKE LANE INTEGRATED WITH STREET CROSSING"
-description: "Supp. Street Design Guide standard drawing S-463: TYPE II FLOATING BUS BULB STREET ELEVATION BIKE LANE INTEGRATED WITH STREET CROSSING. 1 sheet(s)."
+title: "S-463 Type II Floating Bus Bulb Street Elevation, Bike Lane Integrated with Street Crossing"
+description: "Supp. Street Design Guide standard drawing S-463: Type II Floating Bus Bulb Street Elevation, Bike Lane Integrated with Street Crossing. Plan views of a Type II floating bus bulb with a Class IV bike lane passing behind it and integrated with the street crossing."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/supp-street-design-guide-s-442/">&larr; S-442</a> <a href="/SoCal-Super-Standards/details/?src=Supp. Street Design Guide">All Supp. Street Design Guide drawings</a> <a href="/SoCal-Super-Standards/details/ladot/supp-street-design-guide-s-470/">S-470 &rarr;</a></div>
 
-<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a> <a class="chip" href="/SoCal-Super-Standards/topics/bikeways/">Bikeways and bicycle facilities</a> <a class="chip" href="/SoCal-Super-Standards/topics/transit/">Transit, bus lanes and bus stops</a> <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="chip" href="/SoCal-Super-Standards/topics/rail-crossings/">Railroad and light rail crossings</a></p>
+<p class="dwg-sum">Plan views of a Type II floating bus bulb with a Class IV bike lane passing behind it and integrated with the street crossing. The bike lane is at least 5 ft wide, the forward boarding and alighting area is 5 ft x 8 ft minimum, and the rear area is 12 ft x 4 ft or 5 ft x 8 ft minimum. Bicycle ramps are 12.5 percent maximum slope, the bus bulb accessible route is 4 ft minimum (5 ft preferred), and the bike crossing uses <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, yield lines and recommended green colored surface.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a> <a class="chip" href="/SoCal-Super-Standards/topics/bikeways/">Bikeways and bicycle facilities</a> <a class="chip" href="/SoCal-Super-Standards/topics/transit/">Transit, bus lanes and bus stops</a> <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a> <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="chip" href="/SoCal-Super-Standards/topics/rail-crossings/">Railroad and light rail crossings</a></p>
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/OM1-1.svg" alt="OM1-1"><span><b>OM1-1</b> Object Marker Type 1 marker</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R9-6.svg" alt="R9-6"><span><b>R9-6</b> Bicycles Yield to Pedestrians regulatory</span></a></div>
 
@@ -18,7 +19,23 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 159)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0159.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0159.webp" alt="S-463 sheet 1"></a><figcaption>Supp. Street Design Guide S-463, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/09-pages-145-162/#p159">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet</summary><p>10' FROM CROSS- WALK STREET TYPE II FLOATING BUS BULB STREET ELEVATION BIKE LANE INTEGRATED WITH STREET CROSSING STREET 12" WHITE OR YELLOW CROSSWALK BICYCLE LANE SYMBOL 24" WHITE OR YELLOW CROSSWALK 12" WHITE OR YELLOW CROSSWALK GREEN COLORED SURFACE RECOMMENDED, SEE NOTE 2 BICYCLE YIELD LINE (TYP) <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> AND <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> BUS BULB LENGTH SEE NOTE 6 5' x 8' MIN. FORWARD BOARDING AND ALIGHTING AREA (SEE NOTE 5) POTENTIAL BUS SHELTER LOCATION (SEE NOTE 3) RED CURB 8' MIN (SEE NOTE 5,10 &amp; 11) CLASS IV BIKE LANE 5' MIN. WIDTH EXISTING SIDEWALK SEE NOTE 7 12' x 4' OR 5' x 8' MIN. CLEAR ZONE FOR REAR BOARDING AND ALIGHTING AREA (SEE NOTE 8) 10' FROM CROSS- WALK STREET STREET TYPE II FLOATING BUS BULB INTERMEDIATE ELEVATION BIKE LANE 12" WHITE OR YELLOW CROSSWALK BICYCLE LANE SYMBOL 24" WHITE OR YELLOW CROSSWALK GREEN COLORED SURFACE RECOMMENDED, SEE NOTE 2 BICYCLE YIELD LINE (TYP) BICYCLE RAMP MARKING (CHEVRON IV) (TYP) POTENTIAL BUS SHELTER LOCATION (SEE NOTE 3) <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> AND <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> BUS BULB LENGTH SEE NOTE 6 RED CURB 5' x 8' MIN. FORWARD BOARDING AND ALIGHTING AREA (SEE NOTE 5) 5' MIN. WIDTH EXISTING SIDEWALK SEE NOTE 7 8' MIN (SEE NOTE 5, 10 &amp; 11) CLASS IV BIKE LANE BICYCLE RAMP 12.5% MAX. SLOPE BICYCLE RAMP 12.5% MAX. SLOPE 12' x 4' OR 5' x 8' MIN. CLEAR ZONE FOR REAR BOARDING AND ALIGHTING AREA (SEE NOTE 8) 24" MIN MIN BUS BULB ACCESSIBLE ROUTE 4' MIN, 5' PREF BUS SHELTER BIKE LANE SIDEWALK 10" 18" PEDESTRIAN HANDRAIL (SEE NOTES 1 &amp; 12 AND S-463) <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> YIELD TO PEDS SHELTER AND RAILING PLACEMENT GUIDANCE </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Type II floating bus bulb street elevation, bike lane integrated with street crossing (two plan views: street elevation and intermediate elevation)</p>
+<p>10&#x27; from crosswalk.</p>
+<p>12&quot; white or yellow crosswalk. 24&quot; white or yellow crosswalk. Bicycle lane symbol.</p>
+<p>Green colored surface recommended, see note 2.</p>
+<p>Bicycle yield line (typ). <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>.</p>
+<p>Bicycle ramp marking (Chevron IV) (typ) on the intermediate elevation.</p>
+<p>Bus bulb length, see note 6.</p>
+<p>5&#x27; x 8&#x27; min. forward boarding and alighting area (see note 5).</p>
+<p>Potential bus shelter location (see note 3).</p>
+<p>Red curb. 8&#x27; min (see notes 5, 10 and 11).</p>
+<p>Class IV bike lane. 5&#x27; min. width.</p>
+<p>Existing sidewalk, see note 7.</p>
+<p>12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; min. clear zone for rear boarding and alighting area (see note 8).</p>
+<p>Bicycle ramp, 12.5% max. slope.</p>
+<p>Bus bulb accessible route: 4&#x27; min, 5&#x27; pref.</p>
+<p>24&quot; min.</p>
+<p>Shelter and railing placement guidance: bus shelter, bike lane, sidewalk, pedestrian handrail (see notes 1 and 12 and S-463), 10&quot; and 18&quot; dimensions, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> (yield to peds).</p></details>
 
 
-<div class="kw">Keywords: note, lane, bicycle, street, bulb, bike, white, yellow, crosswalk, boarding, alighting, area, shelter, yield</div>
+<div class="kw">Keywords: floating bus bulb, type ii bus bulb, bus boarding island, bike lane behind bus stop, class iv bike lane, bicycle ramp 12.5 percent, r9-6, om1-1, bicycle yield line, bus shelter location, boarding and alighting area, red curb, bicycle ramp marking chevron iv, s-463, pedestrian handrail</div>

@@ -1,6 +1,6 @@
 ---
 title: "BT-414 Standard 3-inch Speed Hump"
-description: "Burbank Std. Plans standard drawing BT-414: Standard 3-inch Speed Hump. 2 sheet(s), dated 12-21-16."
+description: "Burbank Std. Plans standard drawing BT-414: Standard 3-inch Speed Hump. Shows plan, section and signing for a standard 3 inch asphalt speed hump, 12' long in the travel direction with a 12' taper and a 15 mph advance sign."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-413-1/">&larr; BT-413-1</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-415-1/">BT-415-1 &rarr;</a></div>
 
-<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/speed-and-calming/">Speed limits, speed zones and traffic calming</a></p>
+<p class="dwg-sum">Shows plan, section and signing for a standard 3 inch asphalt speed hump, 12' long in the travel direction with a 12" taper and a 15 mph advance sign. Humps are spaced about 250' to 300' apart, with BUMP legends and thermoplastic chevron markings. Advance signs are a 30"x30" <a class="sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg">W8-1</a> modified BUMPS sign over an 18"x18" W13-1 (15) plaque.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/speed-and-calming/">Speed limits, speed zones and traffic calming</a> <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W8-1.svg" alt="W8-1"><span><b>W8-1</b> Bump warning sign</span></a></div>
 
@@ -18,12 +19,27 @@ tableOfContents: false
 ### Sheet 1 of 2 (document page 18)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0018.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0018.webp" alt="BT-414 sheet 1"></a><figcaption>Burbank Std. Plans BT-414, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p18">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>250' - 300° +/- 200'-250' +/-. 12" 50’ , -- 8° TYPICAL ‘ ria ys 4 | lf y a = i} ran} in _ - &lt; wo am = x © / \ fi . ° y Ao 8-1 V/ ASPHALT SPEED HUMP Wi3-1 THERMOPLASTIC " OR 2 COATS OF TRAFFIC PAINT SIGN LOCATIONS AS DIRECTED BY ENGINEER 30"X30" <a class="sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg">W8-1</a> MODIFIED COPY : SIGNS SHALL HAVE 3M HIGH A.C. STANDARD 12 INTENSITY PRISMATIC SHEETING 3/8” MIX MIN. (SERIES #3930) WITH 3M PREMIUM D2--AR-4000 PROTECTIVE OVERLAY FILM 5.6% ASPHALT (SERIES #1160) io" BINDER FOR USE ca TAPER PERFORMANCE “yan” Wy z_ GRADING PER 18"X18" W13-1 (15) 6" TP. OA CrRAKS STANDARDS MPH @ ee ae os F OR og CK COAT EXISTING ASPHALT __] PAVEMENT ADVANCE SIGNS SECTION A-A NOT TO SCALE NOT TO SCALE INSTALLATION DETAILS: 1. SPEED HUMPS SHOULD NOT BE PLACED OVER MANHOLES, WATER VALVES, ETC. 2. EDGE OF SPEED HUMP SHALL BE 5 FEET MINIMUM FROM EDGE OF DRIVEWAY. 3. WHENEVER POSSIBLE SPEED HUMPS SHALL BE PLACED ADJACENT TO STREET LIGHTS. 4, FINISH GRADE OF ASPHALT MAY VARY BY 1/4" (HIGHER OR LOWER). CITY OF BURBANK - PUBLIC WORKS DEPARTMENT REVIEW | INITIAL DATE STANDARD ol SPEED HUMP STANDARD PLAN Ava. | SY | izpefiv APPROVED BY: No) b\v \ iz/eilye BT--414 Aig) &amp; PUBLIC WQRKS DIRECTOR DATE’ SHEET 1 OF 2 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>STANDARD 3&quot; SPEED HUMP</h5>
+<p>Plan: 12&#x27; hump length, 50&#x27; to next BUMP legend, 8&#x27; typical, humps spaced 250&#x27; - 300&#x27; +/-, 200&#x27; - 250&#x27; +/- from the intersection. BUMP legend and chevron in thermoplastic or 2 coats of traffic paint. Asphalt speed hump. Roadway width varies.</p>
+<p>Advance signs (not to scale)</p>
+<p>Sign locations as directed by Engineer. 12&#x27; min. 6.5&#x27; min. mounting height.</p>
+<p>30&quot;x30&quot; <a class="sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg">W8-1</a> modified copy &quot;BUMPS&quot;. Signs shall have 3M high intensity prismatic sheeting (Series #3930) with 3M premium protective overlay film (Series #1160).</p>
+<p>18&quot;x18&quot; W13-1 (15).</p>
+<p><a class="sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg">W8-1</a> and W13-1 signs at the approach.</p>
+<p>Section A-A (not to scale)</p>
+<p>Dimensions 6&quot;, 18&quot; typ. and 12&quot; taper at the curb face. A.C. standard 3/8&quot; mix D2-AR-4000, 5.6% asphalt binder for use performance grading per Caltrans standards. Tack coat over existing asphalt pavement.</p>
+<h5>Installation details:</h5>
+<p>1. Speed humps should not be placed over manholes, water valves, etc.</p>
+<p>2. Edge of speed hump shall be 5 feet minimum from edge of driveway.</p>
+<p>3. Whenever possible speed humps shall be placed adjacent to street lights.</p>
+<p>4. Finish grade of asphalt may vary by 1/4&quot; (higher or lower).</p></details>
 
 ### Sheet 2 of 2 (document page 19)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0019.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0019.webp" alt="BT-414 sheet 2"></a><figcaption>Burbank Std. Plans BT-414, sheet 2. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p19">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>10’ TYPICAL PARKING LANE | j--- ¢ OF ROADWAY . | | | 5! 15°] [- | TYPICAL 12’ TYPICAL | | 1’ TAPER-H ke | 12” WHITE MARKINGS j 12” THERMOPLASTIC OR 2 COATS OF TRAFFIC "| t PAINT SPEED HUMP MARKING NOT TO SCALE 6" TYP. =} SECTION B-B NOT TO SCALE CITY OF BURBANK - PUBLIC WORKS DEPARTMENT oe NL Ee STANDARD 3" SPEED HUMP STANDARD PLAN Awail | JY | \2/2/ib APPROVED BY: Dot + VWs it | 2 [Iu nin Acti PUBLIC WORKS DIRECTOR DATE ' SHEET 2 OF 2 Sf </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>STANDARD 3&quot; SPEED HUMP, sheet 2</p>
+<p>Speed hump marking (not to scale): 12&quot; white markings, 12&quot; thermoplastic or 2 coats of traffic paint. Dimensions shown: 10&#x27; typical parking lane, 5&#x27;, 15&#x27;, 12&#x27; typical, 1&#x27; taper, centerline of roadway.</p>
+<p>Section B-B (not to scale): 6&quot; typ.</p></details>
 
 
-<div class="kw">Keywords: speed, asphalt, hump, standard, signs, series, scale, humps, placed, edge, public, date, typical, thermoplastic, works, parking, lane, j---, roadway, taper-h, white, markings</div>
+<div class="kw">Keywords: speed hump, 3 inch speed hump, traffic calming, <a class="sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg">W8-1</a>, W13-1, bump sign, 15 mph advisory, hump markings, BUMP legend, hump chevron, hump spacing, asphalt hump, residential traffic calming, hump section, hump taper</div>

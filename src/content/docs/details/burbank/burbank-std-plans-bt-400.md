@@ -1,6 +1,6 @@
 ---
 title: "BT-400 Driveway and Turning Areas"
-description: "Burbank Std. Plans standard drawing BT-400: Driveway and Turning Areas. 1 sheet(s), dated 06-01-92."
+description: "Burbank Std. Plans standard drawing BT-400: Driveway and Turning Areas. Shows how to lay out circulation driveways and aisle geometry for angled parking in a private lot."
 tableOfContents: false
 ---
 
@@ -9,6 +9,7 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-tc-req/">&larr; TC-REQ</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-401/">BT-401 &rarr;</a></div>
 
+<p class="dwg-sum">Shows how to lay out circulation driveways and aisle geometry for angled parking in a private lot. Minimum driveway width is 13' for one-way traffic with parking angles of 45 to 90 degrees and 16' for angles of 30 to 44 degrees, plus 10' for two-way traffic. Includes an R=20' turning radius detail, access driveway dimensions, and rules for obstructions next to stalls.</p>
 <p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a></p>
 
 
@@ -18,7 +19,22 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 1)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0001.webp" alt="BT-400 sheet 1"></a><figcaption>Burbank Std. Plans BT-400, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p1">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>DRIVEWAY AND TURNING AREAS (PROPERTY LINE * DRIVEWAY=13' MIN. FOR ONE-WAY TRAFFIC ARKING ANGLES OF PROM 90° TO 45° f RIVEWAY®! * DRIVEW * DRIVEWAY ¥ FOR. ONE-WAY MIRAFFIC &amp; PARKING ANGLES OF Cgperazet | FROM 30° TO 44° * THE DRIVEWAY DIMENSION SHALL BE INCREASED BY 10-0" FOR TWO- WAY TRAFFIC - NOT LESS THAN BAY WIDTHS SHOWN ON ATTACHED TABLES BASIC STALL WDTH AISLE BLES OBSTRUCTIONS ADJOINING STALLS NOTES: STANDARD SPACE SHALL BE MINIMUM OF 10’ WIDE IF POST OR OBSTRUCTION IS IN CROSS-HATCHED AREA ON EITHER ONE OR BOTH SIDES. END STALLS SHALL BE MINIMUM OF 11’ WIDE OR THE ACCESS AISLE MUST EXTEND 3’ BEYOND THE BAY. FOR COMPACT SPACES, THE MINIMUMS SHALL BE 1’ LESS THAN THE ABOVE REQUIREMENTS. (SEE SHEET 10 FOR ANGLES OF SPACES LESS THAN 75 DEGREES.) CIRCULATION DRIVEWAYS FOR VARIOUS PARKING ANGLES 37'-8" ACCESS DRIVEWAY to) ro) - 10°-0° ee ; 8 5 Ry 12'-0 ee 2 pose NOTE: 10° MIN ADD ony DRIVE FOR TWO-WAY “7 TRAFFIC, OR MORE St-7: oe 20 CARS c” ZONE OR 40 CARS IN 37'-8* “R° OR °M” ZONE. CIRCULATION DRIVEWAYS CITY OF BURBANK - PUBLIC WORKS DEPARTMENT REV BY DATE DRIVEWAY AND TURNING AREAS APPROVED BY: Public Works 6 S-F.2 Date STANDARD PLAN BT-400 SHEET 1 OF 1 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>DRIVEWAY AND TURNING AREAS</h5>
+<p>Circulation driveways for various parking angles</p>
+<p>* Driveway = 13&#x27; min. for one-way traffic and parking angles of from 90 degrees to 45 degrees.</p>
+<p>* Driveway = 16&#x27; min. for one-way traffic and parking angles of from 30 degrees to 44 degrees.</p>
+<p>* The driveway dimension shall be increased by 10&#x27;-0&quot; for two-way traffic.</p>
+<p>Not less than bay widths shown on attached tables. Turning radius R=20&#x27;.</p>
+<p>Obstructions adjoining stalls</p>
+<p>Dimensions shown: 4&#x27;, 8&#x27;, 4&#x27;, 2&#x27; along the stall, with basic stall width and aisle.</p>
+<h5>Notes:</h5>
+<p>Standard space shall be minimum of 10&#x27; wide if post or obstruction is in cross-hatched area on either one or both sides.</p>
+<p>End stalls shall be minimum of 11&#x27; wide or the access aisle must extend 3&#x27; beyond the bay.</p>
+<p>For compact spaces, the minimums shall be 1&#x27; less than the above requirements.</p>
+<p>(See sheet 10 for angles of spaces less than 75 degrees.)</p>
+<p>Circulation driveways</p>
+<p>Access driveway 10&#x27;-0&quot; wide with R=20&#x27; radius and 90 degree arcs. Dimensions shown: 37&#x27;-8&quot;, 31&#x27;-7&quot;, 12&#x27;-0&quot;, 10&#x27;-0&quot;, 10&#x27; min.</p>
+<p>Note: Add 9&#x27; to drive for two-way traffic or more than 20 cars in &quot;C&quot; zone or 40 cars in &quot;R&quot; or &quot;M&quot; zone.</p></details>
 
 
-<div class="kw">Keywords: driveway, angles, traffic, turning, areas, one-way, parking, aisle, stalls, standard, minimum, wide, access, spaces</div>
+<div class="kw">Keywords: driveway width, turning radius, parking lot circulation, angled parking, one-way driveway, two-way driveway, access driveway, parking aisle, stall obstruction, end stall width, compact stall, bay width, 10 foot minimum, R=20, parking angle, site access</div>

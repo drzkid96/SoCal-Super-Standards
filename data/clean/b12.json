@@ -1,0 +1,234 @@
+[
+ {
+  "id": "ladot__parking|S-405.0",
+  "title": "Table 1 - Application of Striping and Pavement Markings (Cont'd)",
+  "summary": "Continuation of the LADOT MPP Section 531 table that says what each type of striping and pavement marking does and which MUTCD or California figure and detail governs it. Covers reversible lane markings, lane lines, barrier lines, edge and channelization lines, striped islands, lane drop (elephant track) lines, bike lane lines, cross-hatch, chevrons, hook and bar, and marked crosswalks. Key values include a 2 foot minimum internal separation for striped islands, bike lane lines broken at least 96' upstream of the intersection, and 12\" crosswalk lines 10 or 15 feet apart with a 10 foot minimum width.",
+  "keywords": [
+   "striping table",
+   "pavement markings",
+   "application of striping",
+   "lane line",
+   "barrier line",
+   "edge line",
+   "channelization line",
+   "striped island",
+   "elephant track",
+   "lane drop line",
+   "bike lane line",
+   "cross-hatch",
+   "chevron",
+   "hook and bar",
+   "marked crosswalk",
+   "mpp 531"
+  ],
+  "sheets": [
+   {
+    "page": 49,
+    "notes": "Table 1 - Application of Striping and Pavement Markings (Cont'd)\nLos Angeles DOT Manual of Policies and Procedures, Section 531, Application for Striping, Channelization, and Special Signing. Date 05-20, page 16.\nReversible Lane Marking: Delineates a lane that is reversed in directional flow during various times of the day. Figure 3B-6.\nLane Line: Separates concurrent through lanes. Figure 3A-102 (CA), Detail 8.\nBarrier Line: Separates turn lanes from through lanes or other turn lanes. Figure 3A-112 (CA), Detail 38A.\nRight Edge Line: Delineates the right edge of roadway and is parallel to the edge of roadway. Figure 3A-106 (CA), Detail 27B.\nRight Channelization Line: Delineates right edge of travel path where it is not parallel to the edge of roadway. Figure 3A-112 (CA), Detail 38A.\nStriped Island: Physically separates converging or diverging traffic flows and prohibits vehicular crossing. Internal separation must be at least 2 feet for enforcement. Figure 3B-8 (CA), 3B-9 (CA), 3B-12 and 3B-15.\nLane Drop Line or \"Elephant Track\": Transition striping for an entrapped-turn lane or an advance turn lane. See S-491.0. Figure 3A-111 (CA), Detail 37B and Figure 3B-11 (CA).\nBike Lane Line: Separates the travel path between bicycles and motor vehicles. The Bike Lane Line is broken at least 96' upstream of the intersection in order to identify where right turning motor vehicles may cross the bicycle lane. Figure 3A-112 (CA) Details 39 and 39A, and Figure 9C-6.\nRight Edge Cross-Hatch: Provides emphasis in striped islands or between the right edge of roadway and Right Channelization Line or Right Edge Line, at least 5 feet in width. Also clarifies that the area is not part of the traveled way. Aligned at 45 degrees diagonally forward with respect to the direction of travel. See S-444.0 and 485.0 (not shown).\nChevron: Provides emphasis within a striped island or a gore area at least 5 feet in width where concurrent traffic travels on either side. See S-493.0, Sheets 5 and 6 of 7. Figure 3B-12 and 3B-15.\nHook (Wrap) and Bar: Used at the downstream end of a Barrier Line for a Trap Turn Lane, where the adjacent lane is a through lane. Where the adjacent lane is a concurrent turn lane the Bar is not used. See S-491.0 and S-405.0. Figure 3B-13.\nCrosswalk (Marked): Emphasizes the legal crosswalk at signalized intersections, indicates a preferred legal crosswalk at non-signalized intersections, and identifies a legal marked crosswalk where no legal unmarked crosswalk exists. Parallel lines, 12\" wide, generally 15 feet or 10 feet apart, with minimum width of 10 feet. See S-490.0 and S-493.0. Figure 3B-17."
+   }
+  ]
+ },
+ {
+  "id": "ladot__parking|S-470",
+  "title": "Arterial Streets (Standard Street Dimensions)",
+  "summary": "City of Los Angeles Standard Plan S-470-1 gives standard street dimensions in four sheets. It lists right-of-way, sidewalk and roadway widths for arterial streets (Boulevard I and II, Avenue I, II and III), non-arterial streets (collector, industrial and local), and hillside streets. It also shows shared streets, pedestrian walkways, service roads, cul-de-sacs, flare sections, alleys and cut corners, with general notes on dedications and corner cut requirements. The same four sheets appear twice in the source document.",
+  "keywords": [
+   "standard street dimensions",
+   "s-470",
+   "right-of-way width",
+   "street width",
+   "boulevard",
+   "avenue",
+   "major highway",
+   "secondary highway",
+   "collector street",
+   "local street",
+   "hillside street",
+   "cul-de-sac",
+   "alley width",
+   "service road",
+   "shared street",
+   "corner cut"
+  ],
+  "sheets": [
+   {
+    "page": 78,
+    "notes": "Arterial streets\nRight-of-way width / sidewalk (each side) / roadway width / half-roadway (each side of centerline):\nBoulevard I (Major Highway Class I): 136' right-of-way, 18' sidewalks, 100' roadway, 50' each side of centerline.\nBoulevard II (Major Highway Class II): 110' right-of-way, 15' sidewalks, 80' roadway, 40' each side of centerline.\nAvenue I (Secondary Highway): 100' right-of-way, 15' sidewalks, 70' roadway, 35' each side of centerline.\nAvenue II (Secondary Highway): 86' right-of-way, 15' sidewalks, 56' roadway, 28' each side of centerline.\nAvenue III (Secondary Highway): 72' right-of-way, 13' sidewalks, 46' roadway, 23' each side of centerline.\nStandard Street Dimensions. City of Los Angeles Standard Plan S-470-1, sheet 1 of 4. Supersedes D-22549 and S-470-0. Vault index number B-4738."
+   },
+   {
+    "page": 79,
+    "notes": "Non-arterial streets\nRight-of-way width / sidewalk (each side) / roadway width / half-roadway (each side of centerline):\nCollector Street: 66' right-of-way, 13' sidewalks, 40' roadway, 20' each side.\nIndustrial Collector Street: 68' right-of-way, 10' sidewalks, 48' roadway, 24' each side.\nIndustrial Local Street: 64' right-of-way, 10' sidewalks, 44' roadway, 22' each side.\nLocal Street - Standard: 60' right-of-way, 12' sidewalks, 36' roadway, 18' each side.\nLocal Street - Limited Standard: 50' right-of-way, 10' sidewalks, 30' roadway, 15' each side.\nHillside streets\nHillside Collector: 50' right-of-way, 5' sidewalks, 40' roadway, 20' each side. Berm on private property, 3' dimension, 2% maximum cross slope, 1' minimum.\nHillside Local: 44' right-of-way, 4' sidewalks, 36' roadway, 18' each side. 2% maximum cross slope, 2' minimum and 1' minimum dimensions shown.\nHillside Limited Standard: 36' right-of-way, 4' sidewalks, 28' roadway, 14' each side. 2% maximum cross slope, 2' minimum and 1' minimum dimensions shown.\nPublic stairway: 10' minimum, variable, 5' minimum, variable. Constructed in accordance with Bureau of Engineering Standard Plans.\nStandard Plan No. S-470-1, sheet 2 of 4. Vault index number B-4738."
+   },
+   {
+    "page": 80,
+    "notes": "Other public rights-of-way\nShared Street: 17' minimum between property lines.\nPedestrian Walkway: 10' minimum between property lines, with a variable dimension on one side and 5' minimum on the other.\nOne-Way Service Road: 26' total, or 32' with parking on one side. Dimensions shown are 10', 12' (or 18' with parking on one side) and 4'. Adjacent to an arterial street.\nBi-Directional Service Road: 34' total, or 42' with parking on one side. Dimensions shown are 10', 20' (or 28' with parking on one side) and 4'. Adjacent to an arterial street.\nCul-de-sac (plan view)\nVariable roadway width, R=50' curb returns, R=35' minimum, 10' walk. May be unsymmetrical.\nNote: For fire truck clearance, no obstruction taller than 6\" shall be permitted within 3 ft of the curb. On-street parking shall be prohibited.\nTransitional extensions\nStandard Flare Section (plan view): R=25' curves at the property line points of intersection, a taper length of 30X (X is the offset), then 150' to the property line.\nAlleys\nStandard Turning Area (plan view): 20' wide alley, 60' long cross alley, R=20' returns, 20' dimension.\nMinimum Turning Area (plan view): 20' alley, 25', 20', 30' dimensions, R=20' returns.\nStandard Cut Corners for 90 degree Intersection (plan view): 10' x 10' cut corners (14.14' diagonal), 20' alley width.\nStandard Cross-Section (plan view): 20' between property lines, redwood header or join existing concrete at property line.\nStandard Plan No. S-470-1, sheet 3 of 4. Vault index number B-4738."
+   },
+   {
+    "page": 81,
+    "notes": "Notes\n1. City Council may, by ordinance, adopt specific standards for individual streets that differ from these official standard street dimensions. Community plans and specific plans should be reviewed for footnotes, instructions and/or modified street dimensions that would require standards different than those indicated on this standard plan.\n2. For additional guidance as to the use of the roadway and sidewalk area, please refer to the Complete Street Design Guide and manuals.\n3. For discretionary projects requiring action from the Department of City Planning (Planning), Planning may include specific information as to the design and utilization of the sidewalk area.\n4. Where a designated arterial crosses another designated arterial street and then changes in designation to a street of lesser standard width, the arterial shall be tapered in a standard flare section on both sides, as on sheet 3, to meet the width of lesser designation and provide an orderly transition.\n5. Private street development should conform to the standard public street dimensions shown on the sheet, where appropriate. Variations may be approved on a case-by-case basis by the City.\n6. Fifty-foot curb radii (instead of the standard 35' curb radii) shall be provided for cul-de-sacs in industrial areas. See cul-de-sac illustration for further design standards.\n7. Alleys shall be a minimum of 20' in width and intersections and/or dead-end terminuses shall be designed to conform to the alley illustrations included herein.\n8. For intersections of streets, the following dedications shall apply:\nA. Intersections of arterial streets with any other street: 15' x 15' cut corner or 20' curved corner radius.\nB. Intersections on non-arterial and/or hillside streets: 10' x 10' cut corner or 15' curved corner radius.\n9. Streets that are accompanied by a parallel frontage and/or service road are deemed to meet the street standards set forth herein and the dedication requirement shall be no more than is necessary to bring the abutting sidewalk dimension into compliance with the street standard.\n10. Due to their unique character and dimensions all streets designated as divided are considered to have met their street standard and the dedication shall be no more than is necessary to bring the abutting sidewalk dimension compliant with the street standard.\n11. The dimension of any median, divided strip and/or transit way shall be included when determining the right-of-way dimension.\n12. The location of the drainage gutter is not restricted to the center of the shared street and can be placed where necessary as approved by the City.\n13. A shared street shall provide a dedicated pedestrian access route.\nStandard Plan No. S-470-1, sheet 4 of 4. Vault index number B-4738."
+   },
+   {
+    "page": 130,
+    "notes": "Arterial streets\nRight-of-way width / sidewalk (each side) / roadway width / half-roadway (each side of centerline):\nBoulevard I (Major Highway Class I): 136' right-of-way, 18' sidewalks, 100' roadway, 50' each side of centerline.\nBoulevard II (Major Highway Class II): 110' right-of-way, 15' sidewalks, 80' roadway, 40' each side of centerline.\nAvenue I (Secondary Highway): 100' right-of-way, 15' sidewalks, 70' roadway, 35' each side of centerline.\nAvenue II (Secondary Highway): 86' right-of-way, 15' sidewalks, 56' roadway, 28' each side of centerline.\nAvenue III (Secondary Highway): 72' right-of-way, 13' sidewalks, 46' roadway, 23' each side of centerline.\nStandard Street Dimensions. City of Los Angeles Standard Plan S-470-1, sheet 1 of 4. Supersedes D-22549 and S-470-0. Vault index number B-4738."
+   },
+   {
+    "page": 131,
+    "notes": "Non-arterial streets\nRight-of-way width / sidewalk (each side) / roadway width / half-roadway (each side of centerline):\nCollector Street: 66' right-of-way, 13' sidewalks, 40' roadway, 20' each side.\nIndustrial Collector Street: 68' right-of-way, 10' sidewalks, 48' roadway, 24' each side.\nIndustrial Local Street: 64' right-of-way, 10' sidewalks, 44' roadway, 22' each side.\nLocal Street - Standard: 60' right-of-way, 12' sidewalks, 36' roadway, 18' each side.\nLocal Street - Limited Standard: 50' right-of-way, 10' sidewalks, 30' roadway, 15' each side.\nHillside streets\nHillside Collector: 50' right-of-way, 5' sidewalks, 40' roadway, 20' each side. Berm on private property, 3' dimension, 2% maximum cross slope, 1' minimum.\nHillside Local: 44' right-of-way, 4' sidewalks, 36' roadway, 18' each side. 2% maximum cross slope, 2' minimum and 1' minimum dimensions shown.\nHillside Limited Standard: 36' right-of-way, 4' sidewalks, 28' roadway, 14' each side. 2% maximum cross slope, 2' minimum and 1' minimum dimensions shown.\nPublic stairway: 10' minimum, variable, 5' minimum, variable. Constructed in accordance with Bureau of Engineering Standard Plans.\nStandard Plan No. S-470-1, sheet 2 of 4. Vault index number B-4738."
+   },
+   {
+    "page": 132,
+    "notes": "Other public rights-of-way\nShared Street: 17' minimum between property lines.\nPedestrian Walkway: 10' minimum between property lines, with a variable dimension on one side and 5' minimum on the other.\nOne-Way Service Road: 26' total, or 32' with parking on one side. Dimensions shown are 10', 12' (or 18' with parking on one side) and 4'. Adjacent to an arterial street.\nBi-Directional Service Road: 34' total, or 42' with parking on one side. Dimensions shown are 10', 20' (or 28' with parking on one side) and 4'. Adjacent to an arterial street.\nCul-de-sac (plan view)\nVariable roadway width, R=50' curb returns, R=35' minimum, 10' walk. May be unsymmetrical.\nNote: For fire truck clearance, no obstruction taller than 6\" shall be permitted within 3 ft of the curb. On-street parking shall be prohibited.\nTransitional extensions\nStandard Flare Section (plan view): R=25' curves at the property line points of intersection, a taper length of 30X (X is the offset), then 150' to the property line.\nAlleys\nStandard Turning Area (plan view): 20' wide alley, 60' long cross alley, R=20' returns, 20' dimension.\nMinimum Turning Area (plan view): 20' alley, 25', 20', 30' dimensions, R=20' returns.\nStandard Cut Corners for 90 degree Intersection (plan view): 10' x 10' cut corners (14.14' diagonal), 20' alley width.\nStandard Cross-Section (plan view): 20' between property lines, redwood header or join existing concrete at property line.\nStandard Plan No. S-470-1, sheet 3 of 4. Vault index number B-4738."
+   },
+   {
+    "page": 133,
+    "notes": "Notes\n1. City Council may, by ordinance, adopt specific standards for individual streets that differ from these official standard street dimensions. Community plans and specific plans should be reviewed for footnotes, instructions and/or modified street dimensions that would require standards different than those indicated on this standard plan.\n2. For additional guidance as to the use of the roadway and sidewalk area, please refer to the Complete Street Design Guide and manuals.\n3. For discretionary projects requiring action from the Department of City Planning (Planning), Planning may include specific information as to the design and utilization of the sidewalk area.\n4. Where a designated arterial crosses another designated arterial street and then changes in designation to a street of lesser standard width, the arterial shall be tapered in a standard flare section on both sides, as on sheet 3, to meet the width of lesser designation and provide an orderly transition.\n5. Private street development should conform to the standard public street dimensions shown on the sheet, where appropriate. Variations may be approved on a case-by-case basis by the City.\n6. Fifty-foot curb radii (instead of the standard 35' curb radii) shall be provided for cul-de-sacs in industrial areas. See cul-de-sac illustration for further design standards.\n7. Alleys shall be a minimum of 20' in width and intersections and/or dead-end terminuses shall be designed to conform to the alley illustrations included herein.\n8. For intersections of streets, the following dedications shall apply:\nA. Intersections of arterial streets with any other street: 15' x 15' cut corner or 20' curved corner radius.\nB. Intersections on non-arterial and/or hillside streets: 10' x 10' cut corner or 15' curved corner radius.\n9. Streets that are accompanied by a parallel frontage and/or service road are deemed to meet the street standards set forth herein and the dedication requirement shall be no more than is necessary to bring the abutting sidewalk dimension into compliance with the street standard.\n10. Due to their unique character and dimensions all streets designated as divided are considered to have met their street standard and the dedication shall be no more than is necessary to bring the abutting sidewalk dimension compliant with the street standard.\n11. The dimension of any median, divided strip and/or transit way shall be included when determining the right-of-way dimension.\n12. The location of the drainage gutter is not restricted to the center of the shared street and can be placed where necessary as approved by the City.\n13. A shared street shall provide a dedicated pedestrian access route.\nStandard Plan No. S-470-1, sheet 4 of 4. Vault index number B-4738."
+   }
+  ]
+ },
+ {
+  "id": "ladot__parking|p63",
+  "title": "Fire Prevention and Public Safety Bureau Requirement #74",
+  "summary": "Closing page of LAFD Fire Prevention and Public Safety Bureau Requirement #74, revised July 24, 2020. It directs questions to the Research Unit at (213) 978-3580 and requires Commanding Officers to review the requirement with all members in their command. The requirement's technical content is not on this page.",
+  "keywords": [
+   "fire prevention",
+   "fire department",
+   "fpb requirement 74",
+   "lafd",
+   "fire code requirement",
+   "fire bureau",
+   "public safety bureau",
+   "requirement 74",
+   "fire access"
+  ],
+  "sheets": [
+   {
+    "page": 63,
+    "notes": "Fire Prevention and Public Safety Bureau, Requirement #74. Revised July 24, 2020.\nAny questions regarding this requirement should be directed to the Research Unit at (213) 978-3580. To ensure all members have a clear understanding of this requirement, Commanding Officers shall review this FPB Requirement #74 with all members in their command."
+   }
+  ]
+ },
+ {
+  "id": "ladot__parking|p83",
+  "title": "Letter of Determination, CPC-2021-3512-VZC-VCU (8700 Beverly Boulevard)",
+  "summary": "Los Angeles City Planning Commission letter of determination dated Nov 09 2021 for the Cedars-Sinai Medical Center project at 8700 Beverly Boulevard. It approves a new 405,000 square-foot hospital wing with 203 patient beds, a CEQA exemption, a vesting zone change and a vesting conditional use. The vote was 6-0.",
+  "keywords": [
+   "letter of determination",
+   "city planning commission",
+   "cedars-sinai",
+   "8700 beverly boulevard",
+   "hospital wing",
+   "vesting zone change",
+   "conditional use",
+   "ceqa exemption",
+   "cpc-2021-3512",
+   "q and d conditions",
+   "development agreement",
+   "wilshire plan area"
+  ],
+  "sheets": [
+   {
+    "page": 83,
+    "notes": "Los Angeles City Planning Commission, 200 North Spring Street, Room 272, Los Angeles, California 90012-4801, (213) 978-1300, www.planning.lacity.org\nLetter of Determination\nMailing date: Nov 09 2021\nCase No. CPC-2021-3512-VZC-VCU. Council District: 5 - Koretz. CEQA: ENV-2021-3513-CE. Plan Area: Wilshire. Related Case: CPC-2008-619-ZC-DA-M1.\nProject Site: 8700 Beverly Boulevard (8575 West 3rd Street, 8723 West Alden Drive, 8660-8730 West Beverly Boulevard, 110 North George Burns Road, 103-139 South George Burns Road, 8705-8750 West Gracie Allen Drive, 111 North San Vicente Boulevard).\nApplicant: Richard B. Jacobs, Cedars-Sinai Medical Center. Representative: Jeffrey Haber and Michael Nytzen, Paul Hastings LLP.\nAt its meeting of October 21, 2021, the Los Angeles City Planning Commission took the actions below in conjunction with the approval of the following project: modification of existing [Q] and [D] conditions and amendment to an existing Development Agreement to allow a new 405,000 square-foot hospital wing with 203 patient beds pursuant to California's Alfred E. Alquist Hospital Facilities Seismic Safety Act, which requires that, by 2030, all acute care hospitals in California be able to withstand a major earthquake and remain functioning.\n1. Determined, based on the whole of the administrative record, that the project is exempt from CEQA pursuant to CEQA Guidelines Section 15302, Class 2, and that there is no substantial evidence demonstrating that an exception to a categorical exemption pursuant to CEQA Guidelines Section 15300.2 applies.\n2. Approved and recommended that the City Council adopt, pursuant to Section 12.32 Q of the Los Angeles Municipal Code (LAMC), a Vesting Zone Change from [T][Q]C2-2D-O to [T][Q]C2-2D-O, subject to the Tentative \"T\" and Qualified \"Q\" Classifications and \"D\" Development Limitation.\n3. Approved, pursuant to LAMC Section 12.24 T.3(a), a Vesting Conditional Use to permit the addition of a new 405,000 square-foot hospital wing with 203 patient beds.\n4. Adopted the attached Modified Conditions of Approval.\n5. Adopted the attached Findings.\nThe vote proceeded as follows: Moved: Perlman. Second: Hornstock. Ayes: Campbell, Choe, Leung, Lopez-Ledesma. Absent: Mack, Millman, Dake Wilson. Vote: 6-0."
+   }
+  ]
+ },
+ {
+  "id": "ladot__parking|p84",
+  "title": "Letter of Determination, CPC-2021-3512-VZC-VCU (Page 2)",
+  "summary": "Second page of the City Planning Commission letter for case CPC-2021-3512-VZC-VCU. It states there is no General Fund impact and explains appeal rights. Appeals other than for the zone change go to the City Council within 20 days of the mailing date, and the final appeal date is Nov 29 2021.",
+  "keywords": [
+   "letter of determination",
+   "appeal period",
+   "20 days appeal",
+   "city council appeal",
+   "final appeal date",
+   "cpc-2021-3512",
+   "development service centers",
+   "ceqa appeal",
+   "judicial review",
+   "fiscal impact statement",
+   "city planning commission"
+  ],
+  "sheets": [
+   {
+    "page": 84,
+    "notes": "CPC-2021-3512-VZC-VCU, page 2\nCecilia Lamas, Commission Executive Assistant, Los Angeles City Planning Commission\nFiscal Impact Statement: There is no General Fund impact as administrative costs are recovered through fees.\nEffective Date/Appeals: The decision of the Los Angeles City Planning Commission as it relates to the Vesting Zone Change is appealable by the Applicant only, if disapproved in whole or in part by the Commission. The decision of the Los Angeles City Planning Commission, regarding the remaining approvals, is appealable to the Los Angeles City Council within 20 days after the mailing date of this determination letter. Any appeal not filed within the 20-day period shall not be considered by the Council. All appeals shall be filed on forms provided at the Planning Department's Development Service Centers located at: 201 North Figueroa Street, Fourth Floor, Los Angeles; 6262 Van Nuys Boulevard, Suite 251, Van Nuys; or 1828 Sawtelle Boulevard, West Los Angeles.\nFINAL APPEAL DATE: Nov 29 2021\nNotice: An appeal of the CEQA clearance for the Project pursuant to Public Resources Code Section 21151(c) is only available if the Determination of the non-elected decision-making body (e.g., ZA, AA, APC, CPC) is not further appealable and the decision is final. If you seek judicial review of any decision of the City pursuant to California Code of Civil Procedure Section 1094.5, the petition for writ of mandate pursuant to that section must be filed no later than the 90th day following the date on which the City's decision became final pursuant to California Code of Civil Procedure Section 1094.6. There may be other time limits which also affect your ability to seek judicial review.\nAttachments: Zone Change Ordinance, Map, Modified Conditions of Approval, Findings, Interim Appeal Filing Procedures\nc: Heather Bleemers, Senior City Planner. Esther Ahn, City Planner."
+   }
+  ]
+ },
+ {
+  "id": "ladot__parking|p86",
+  "title": "Letter of Determination, CPC-2019-6216-VZC-CU-CDP (Cedars-Sinai Marina Del Rey Hospital)",
+  "summary": "Los Angeles City Planning Commission letter of determination dated May 26 2020 for replacing the Cedars-Sinai Marina Del Rey Hospital at 4640-4660 South Lincoln Boulevard. The project is a nine-story, 258,500 square-foot hospital with 160 beds plus support buildings, 392 automobile parking spaces (292 on-site, 100 off-site), and 54 long-term and 27 short-term bicycle spaces. The page records the CEQA exemption and the vesting zone change.",
+  "keywords": [
+   "letter of determination",
+   "cedars-sinai marina del rey",
+   "lincoln boulevard",
+   "replacement hospital",
+   "parking spaces",
+   "bicycle parking",
+   "vesting zone change",
+   "ceqa exemption",
+   "coastal development permit",
+   "cpc-2019-6216",
+   "palms mar vista del rey",
+   "city planning commission"
+  ],
+  "sheets": [
+   {
+    "page": 86,
+    "notes": "Los Angeles City Planning Commission, 200 North Spring Street, Room 272, Los Angeles, California 90012-4801, (213) 978-1300, www.planning.lacity.org\nLetter of Determination\nMailing date: May 26 2020\nCase No. CPC-2019-6216-VZC-CU-CDP. Council District: 11 - Bonin. CEQA: ENV-2019-6217-CE. Plan Area: Palms - Mar Vista - Del Rey. Related Cases: DIR-2019-3689-CDP, DIR-2018-4427-CDP.\nProject Site: 4640-4660 South Lincoln Boulevard, 13201-13205 West Mindanao Way.\nApplicant: CFHS Holdings, Inc. and Centinela Freeman Holdings, Inc. (dba Cedars-Sinai Marina Del Rey Hospital). Representative: Jeff Haber and Michael Nytzen, Paul Hastings LLP.\nAt its meeting of May 14, 2020, the Los Angeles City Planning Commission took the actions below in conjunction with the approval of the following project: replacement of the existing Cedars-Sinai Marina Del Rey Hospital with new acute care hospital facilities, in compliance with the Alfred E. Alquist Hospital Facilities Seismic Safety Act. The Project will be constructed on the existing hospital site. To maintain hospital operations, the new replacement hospital building will be constructed prior to demolition of the existing 96,480 square-foot hospital building (licensed for 133 patient beds). The Project will construct the following replacement facilities:\n1. A nine-story, 258,500 square-foot hospital measuring 191 feet in height and providing a total of 160 patient beds.\n2. A new two-story energy center building with approximately 6,000 square feet of floor area and 14,000 square feet of mechanical area, measuring 55 feet in height.\n3. An approximately 4,500 square-foot loading dock.\n4. A 300 square-foot fire pump building.\n5. A medical gas enclosure and a DWP substation and switchgear enclosure.\nThe Project will also include a comprehensive sign program. The Project will provide a total of 392 automobile parking spaces, with 292 parking spaces located on-site and a total of 100 parking spaces located off-site. A total of 54 long-term and 27 short-term bicycle parking spaces will be provided on-site. The Project will include two (53-foot by 11-foot) temporary mobile imaging trailers on-site for MRI and CT scans during construction, to be removed upon completion of the replacement hospital building.\n1. Determined, based on the whole of the administrative record, that the Project is exempt from CEQA pursuant to CEQA Guidelines Section 15302, Class 2, and that there is no substantial evidence demonstrating that an exception to a categorical exemption pursuant to CEQA Guidelines Section 15300.2 applies.\n2. Approved and recommended that the City Council adopt, pursuant to Sections 12.32 F and 12.32 Q of the Los Angeles Municipal Code (LAMC), a Vesting Zone Change from [Q]C2-1 and P-1 to (T)(Q)C2-1."
+   }
+  ]
+ },
+ {
+  "id": "ladot__parking|p87",
+  "title": "Letter of Determination, CPC-2019-6216-VZC-CU-CDP (Page 2)",
+  "summary": "Second page of the City Planning Commission letter for case CPC-2019-6216-VZC-CU-CDP. It lists the approvals of a vesting conditional use permit for a major development project and a Coastal Development Permit, the vote of 6-0, and the appeal procedures. The final appeal date is Jun 15 2020.",
+  "keywords": [
+   "letter of determination",
+   "coastal development permit",
+   "conditional use permit",
+   "major development project",
+   "appeal period",
+   "final appeal date",
+   "cpc-2019-6216",
+   "city council appeal",
+   "single-permit jurisdiction",
+   "coastal zone",
+   "city planning commission"
+  ],
+  "sheets": [
+   {
+    "page": 87,
+    "notes": "CPC-2019-6216-VZC-CU-CDP, page 2\n3. Approved, pursuant to LAMC Sections 12.24 T and 12.24 U.14, a Vesting Conditional Use Permit for a Major Development Project that creates more than 100,000 square feet of nonresidential floor area in the C2 Zone.\n4. Approved, pursuant to LAMC Section 12.20.2, a Coastal Development Permit authorizing the Proposed Project located within the Single-Permit Jurisdiction of the California Coastal Zone.\n5. Adopted the attached Modified Conditions of Approval.\n6. Adopted the attached Findings.\nThe vote proceeded as follows: Moved: Millman. Second: Khorsand. Ayes: Ambroz, Leung, Mack, Mitchell. Absent: Choe, Padilla-Campos, Perlman. Vote: 6-0.\nCecilia Lamas, Commission Executive Assistant, Los Angeles City Planning Commission\nFiscal Impact Statement: There is no General Fund impact as administrative costs are recovered through fees.\nEffective Date/Appeals: The decision of the Los Angeles City Planning Commission as it relates to the Vesting Zone Change is appealable by the Applicant only, if disapproved in whole or in part by the Commission. The decision of the Los Angeles City Planning Commission, regarding the remaining approvals, is appealable to the Los Angeles City Council within 20 days after the mailing date of this determination letter. Any appeal not filed within the 20-day period shall not be considered by the Council. All appeals shall be filed on forms provided at the Planning Department's Development Service Centers located at: 201 North Figueroa Street, Fourth Floor, Los Angeles; 6262 Van Nuys Boulevard, Suite 251, Van Nuys; or 1828 Sawtelle Boulevard, West Los Angeles.\nFINAL APPEAL DATE: Jun 15 2020\nNotice: An appeal of the CEQA clearance for the Project pursuant to Public Resources Code Section 21151(c) is only available if the Determination of the non-elected decision-making body (e.g., ZA, AA, APC, CPC) is not further appealable and the decision is final. If you seek judicial review of any decision of the City pursuant to California Code of Civil Procedure Section 1094.5, the petition for writ of mandate pursuant to that section must be filed no later than the 90th day following the date on which the City's decision became final pursuant to California Code of Civil Procedure Section 1094.6. There may be other time limits which also affect your ability to seek judicial review.\nAttachments: Zone Change Ordinance, Map, Modified Conditions of Approval, Findings, Interim Appeal Procedure\nc: Faisal Roble, Principal City Planner. Juliet Oh, Senior City Planner. Esther Serrato, City Planner."
+   }
+  ]
+ },
+ {
+  "id": "ladot__parking|p89",
+  "title": "Letter of Determination, CPC-2017-5090-VCU-CU-SPR (6040-6060 Sunset Boulevard)",
+  "summary": "Los Angeles City Planning Commission letter of determination dated Oct 27 2020 for the Hudson Pacific Properties project at 6040-6060 Sunset Boulevard in Hollywood. The project adds 619,942 square feet of creative office and sound stage space for a total of 1,040,148 square feet, with 1,244 new parking spaces. The page lists the EIR finding and the conditional use approvals, including floor area averaging and a commercial corner development.",
+  "keywords": [
+   "letter of determination",
+   "sunset boulevard",
+   "hudson pacific",
+   "hollywood plan area",
+   "creative office",
+   "sound stage",
+   "vesting conditional use",
+   "floor area averaging",
+   "commercial corner development",
+   "eir",
+   "cpc-2017-5090",
+   "parking spaces",
+   "city planning commission"
+  ],
+  "sheets": [
+   {
+    "page": 89,
+    "notes": "Los Angeles City Planning Commission, 200 North Spring Street, Room 272, Los Angeles, California 90012-4801, (213) 978-1300, www.planning.lacity.org\nLetter of Determination\nMailing date: Oct 27 2020\nCase No. CPC-2017-5090-VCU-CU-SPR. Council District: 13 - O'Farrell. CEQA: ENV-2017-5091-EIR, SCH No. 2018011071. Plan Area: Hollywood. Related Case: VTT-80310.\nProject Site: 6040-6060 Sunset Boulevard, 1432 and 1445-1455 North Beachwood Drive, 1443-1455 Gordon Street, 1438 North Gower Street, 6065 Fountain Avenue, APNs 5545013057 and 5545013058.\nApplicant: Hudson Pacific Properties, Inc. Representative: Cindy Starrett and Benjamin Hanelin, Latham & Watkins, LLP.\nAt its meeting of October 22, 2020, the Los Angeles City Planning Commission took the actions below in conjunction with the approval of the following project: demolition of 130,169 square feet of existing floor area and construction of 619,942 square feet of new floor area, consisting of 556,557 square feet of creative office and 62,385 square feet of sound stage and production support space within four buildings (Buildings A, B, D, and E), with a maximum building height of 15 stories (240 feet). Overall, the Project would result in a total of 828,339 square feet of creative office space, 65,319 square feet of production support, 205,202 square feet of sound stages, and 6,516 square feet of restaurant space on the Project Site, with a total floor area of 1,040,148 square feet. The Project will preserve and relocate the United Recording Building on-site. Parking would be provided in four subterranean levels below the existing basecamp and Building E, four subterranean levels below Building D, and three subterranean levels below Building A, for a total of 1,244 new parking spaces. The Project Site's existing 1,398 parking spaces would remain. A total of 316,500 cubic yards of material would be exported from the site.\n1. Found, based on the independent judgment of the decision-maker, after consideration of the whole of the administrative record, that the Project was assessed in Environmental Impact Report (EIR) No. ENV-2017-5091-EIR (State Clearinghouse No. 2018021071), which includes the Draft EIR dated May 2020 and the Final EIR dated August 2020, previously certified on September 22, 2020, and that pursuant to CEQA Guidelines Sections 15162 and 15164, no subsequent EIR, negative declaration, or addendum is required for approval of the Project.\n2. Approved, pursuant to Sections 12.24 T.3(b) and 12.24 U.14 of the Los Angeles Municipal Code (LAMC), a Vesting Conditional Use Permit for a Major Development Project for the addition of more than 100,000 square feet of non-residential floor area.\n3. Approved, pursuant to LAMC Section 12.24 W.19, a Conditional Use Permit to permit Floor Area Averaging across the project site.\n4. Approved, pursuant to LAMC Section 12.24 W.27 and 12.24 F, a Conditional Use Permit for a Commercial Corner Development with hours of operation past 11:00 pm, and a maximum building height of 60 feet in lieu of a maximum height of 45 feet as otherwise required by LAMC Section 12.22 A.23."
+   }
+  ]
+ }
+]

@@ -1,0 +1,180 @@
+[
+ {
+  "id": "ladot__mpp-521|S-73.2",
+  "title": "Accessible Pedestrian Signal (APS)",
+  "summary": "Shows how accessible pedestrian signals (APS) behave and how they are wired. Sheet 1 compares ped-actuated crossings with pre-timed and rest-in-walk crossings, and gives the audio and vibrotactile specifications. Sheet 2 gives field wiring for ped-actuated crossings with the APS pushbutton on the same pole as the pedestrian head, on a different pole, or on a Type 7 post. APS is required wherever new pedestrian pushbuttons are installed or existing ones are replaced for maintenance, and countdown pedestrian heads go at every APS location.",
+  "keywords": [
+   "aps",
+   "accessible pedestrian signal",
+   "pedestrian pushbutton",
+   "ppb wiring",
+   "locator tone",
+   "vibrotactile",
+   "walk tone",
+   "countdown pedestrian head",
+   "rest in walk",
+   "pre-timed crossing",
+   "ped actuated",
+   "type 7 post",
+   "gray cable",
+   "pull box",
+   "tactile arrow",
+   "ped head wiring"
+  ],
+  "sheets": [
+   {
+    "page": 27,
+    "notes": "Ped-actuated pedestrian crossing (pushbutton activates accessible pedestrian signals and the WALK interval)\nPre-timed and rest-in-walk pedestrian crossing (pushbutton activates accessible pedestrian signals only, WALK interval is on recall)\nIndications and timer for each crossing: START CROSSING, Watch for vehicles (WALK). DON'T START, Finish crossing if started (flashing, with the time remaining to finish crossing shown on the timer). DON'T CROSS (steady, with the timer showing steady).\nPed-actuated: wires to controller pedestrian pushbutton (PPB) input.\nPre-timed and rest-in-walk: no wires connected to controller pedestrian pushbutton (PPB) input.\nNotes:\nAPS shall be used for situations where new pedestrian pushbuttons are being installed or where they are being replaced due to maintenance.\nAudio specifications:\n- WALK interval: rapid \"tick\" tone is activated with a duration of 0.15 seconds and repeats at 0.25-second intervals for a maximum of 7 seconds. Then APS returns to the locator tone for the remainder of the WALK interval.\n- FLASHING DON'T WALK interval and SOLID DON'T WALK interval: locator tone shall have a duration of 0.15 seconds and repeat at 1-second intervals.\nVibrotactile specifications:\n- Pushbutton vibrates only during the first 7 seconds of the WALK interval.\n- Tactile arrows shall be aligned parallel to the direction of travel on the associated crosswalk.\n- WALK tones and vibrotactile require actuation, even at pre-timed crossings.\nSee California MUTCD 2014, Figures 4E-3 and 4E-4 for pushbutton locations.\nCountdown pedestrian heads shall be installed at all accessible pedestrian signal locations.\nSee sheet 2/2 for accessible pedestrian signal field wiring for ped-actuated pedestrian crossing.\nLow voltage \"gray cable\" on sheet 2/2 refers to manufacturer-supplied cable that is included with the APS unit.\n4 CC on sheet 2/2 as per LADOT Spec. 92-097-01."
+   },
+   {
+    "page": 28,
+    "notes": "APS pushbutton and associated pedestrian head on same pole for ped-actuated pedestrian crossing\nLabels: PED HEAD (4p), APS control unit, low voltage, LED ped module, low voltage \"gray cable\", phase 4 APS button, 3 CC (or 2 #14) PPB wires, 5 CC for ped phase, pull box.\n\nAPS pushbutton and associated pedestrian head not on same pole for ped-actuated pedestrian crossing\nLabels: PED HEAD (2p) and PED HEAD (4p), APS control unit, low voltage \"gray cable\", phase 4 APS button and phase 2 APS button, 3 CC (or 2 #14) PPB wires, 5 CC for ped phase, pull box, spares (5 CC if no spares).\n\nAPS pushbutton on Type 7 post and associated pedestrian head not on same pole for ped-actuated pedestrian crossing\nLabels: PED HEAD (2p) and PED HEAD (4p), APS control unit, Type 7 post, phase 4 APS button and phase 2 APS button, low voltage \"gray cable\", 4 CC, 5 CC for ped phase, 3 CC (or 2 #14) PPB wires, pull box, spares (5 CC if no spares)."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-521|S-75.0",
+  "title": "Special Detector Applications",
+  "summary": "Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.",
+  "keywords": [
+   "bus priority detection",
+   "bus loop",
+   "special detector",
+   "bicycle detection",
+   "bike lane detector",
+   "advance detector",
+   "inductive loop",
+   "pb3 pull box",
+   "bus zone",
+   "transit signal priority",
+   "divided street detection",
+   "detector loop",
+   "s-70.1d",
+   "extend green bicyclists"
+  ],
+  "sheets": [
+   {
+    "page": 33,
+    "notes": "Bicycle detection notes:\n1. The bicycle detector is used in bicycle lanes, on streets where the adjacent vehicle lanes are actuated, to call and extend the green for bicyclists.\n2. The special detector configuration is sensitive to the limited metal content in bicycles.\n3. The placement of the advance detectors recognizes the slower travel speed of bicyclists (approximately 10 miles per hour) relative to motor vehicles, and enables bicyclists to extend the green in order to clear the intersection before the red is displayed.\n4. Bicyclists at or upstream of the advance detectors can comfortably decelerate to a stop.\n5. Bicycle detectors are shown in S-70.1D.\n\nBus Priority Detection with an Arterial Cross Street\nBus loops B1 and B2 are 3 ft wide and set 15 ft from the bus zone, each connected to a PB3 pull box. Existing interconnect conduit (EXIST. I/C) is shown. Notes 1, 3 and 4 are referenced.\n\nBus Priority Detection with a Minor Cross Street\nBus loop B1 is placed 3 ft from each end of the intersection area and connected to a PB3 pull box. Notes 1, 4 and 5 are referenced. An alternative connection is shown (see Note 5).\n\nBus Priority Detection on a Divided Street\nBus loops B1, B2, B3 and B4 are 3 ft typical in width and set 15 ft from the bus zone, each connected to a PB3 pull box. Notes 1, 2 and 3 are referenced."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-521|S-85.0",
+  "title": "Application of Visibility-Limited Traffic Signal Heads",
+  "summary": "Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.",
+  "keywords": [
+   "visibility limited signal head",
+   "programmed visibility",
+   "pv head",
+   "beveled visor",
+   "left beveled visor",
+   "right beveled visor",
+   "long visor",
+   "visibility nomograph",
+   "signal head visibility",
+   "lens visibility",
+   "conflicting approach",
+   "limit line",
+   "louvered signal head",
+   "skewed intersection signal",
+   "50 percent lens visibility",
+   "signal head alignment"
+  ],
+  "sheets": [
+   {
+    "page": 38,
+    "notes": "Visibility nomograph for standard visor head\nPlace the line for \"Center of Signal Head Alignment\" along assumed alignment of head. Determine conformance with restricted visibility to conflicting approaches.\nAngles: 0% visibility of lens at 45 degrees each side of centerline. 50% visibility of lens at 27 degrees each side of centerline (54 degrees total).\nThe shaded area between the 50% visibility lines is \"Not to be seen by conflicting approach.\"\nSheet 4 of 11."
+   },
+   {
+    "page": 39,
+    "notes": "Visibility nomograph for beveled visor head\nAngles: 0% visibility of lens at 45 degrees on one side and 24 degrees on the other side of the centerline. 50% visibility of lens at 27 degrees on one side and 13 degrees on the other side (40 degrees total).\nThe shaded area between the 50% visibility lines is \"Not to be seen by conflicting approach.\"\nSheet 5 of 11."
+   },
+   {
+    "page": 40,
+    "notes": "Visibility nomograph for right beveled visor head\nPlace the line for \"Center of Signal Head Alignment\" along assumed alignment of head. Use to determine conformance with restricted visibility to conflicting approaches.\nAngles: 0% visibility of lens at 45 degrees on one side and 24 degrees on the other side of the centerline. 50% visibility of lens at 27 degrees on one side and 13 degrees on the other side (40 degrees total).\nThe shaded area between the 50% visibility lines is \"Not to be seen by conflicting approach.\"\nSheet 6 of 11."
+   },
+   {
+    "page": 43,
+    "notes": "Lateral visibility: beveled visor application\nArden St. and Diagonal St.\nA = 54 degrees. Angle of 50% lens visibility of a standard signal head. The signal head shown is intended for Arden Street motorists. However, it can be seen too easily by Diagonal Street motorists, since the Angle A shading crosses that limit line.\nB = 40 degrees. Angle of 50% lens visibility of a left-beveled visor signal head. Since the Angle B shading does not cross the limit line on Diagonal Street, a left-beveled visor would adequately restrict lateral visibility.\nSheet 9 of 11."
+   },
+   {
+    "page": 45,
+    "notes": "Lateral visibility: programmed visibility head application\nClarita Ave and Diagonal St.\nA = 54 degrees. Angle of 50% lens visibility of a standard signal head. The signal head shown is intended for Diagonal Street motorists. However, it can be seen too easily by Clarita Avenue motorists, since the Angle A shading crosses that limit line.\nB = 40 degrees. Angle of 50% lens visibility of a right-beveled visor signal head. However, it too can be seen too easily by Clarita Avenue motorists, since the Angle B shading crosses that limit line.\nC = The masked angle of a programmed visibility signal head. It is masked on the right side so that the Angle C shading does not cross the limit line on Clarita Avenue. During dark weather and at night Angle C may \"bleed\" beyond the nominal limits shown.\nSheet 11 of 11."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-521|S-100.0",
+  "title": "Operation and Design of Signalized Jogged Intersections",
+  "summary": "Guidance for signalizing jogged (offset) intersections, with a selection procedure and plan examples for left and right jogs. The designer determines the jog direction, the internal storage distance D (interior limit lines are required if D is more than 40 ft, otherwise the jog operates as a single intersection), the angles theta 1 and theta 2 (opposed phasing for the minor street if either exceeds 20 degrees with D under 40 ft), and the distances X1 and X2 (internal mastarms if both exceed 50 ft, external if under 50 ft). Plan sheets show signal head, APS, R9-3a and phasing layouts for each case, including KEEP CLEAR markings where D is 20 ft or more.",
+  "keywords": [
+   "jogged intersection",
+   "offset intersection",
+   "left jog",
+   "right jog",
+   "internal mastarm",
+   "external mastarm",
+   "opposed phasing",
+   "interior limit line",
+   "keep clear marking",
+   "slot clearance",
+   "programmed visibility",
+   "pv head",
+   "beveled visor",
+   "r9-3a",
+   "cat tracked left turn lanes",
+   "back to back left turn lanes"
+  ],
+  "sheets": [
+   {
+    "page": 46,
+    "notes": "Operational challenges for the minor street approaches to signalized jogged intersections\nRight jog:\n- Pedestrians might not be seen early on by right-turning motorists.\n- Opposing vehicles might not be seen early on.\n- Opposing arterial left turns might interlock.\nLeft jog:\n- Pedestrians might not be seen early on by left-turning motorists.\n- Opposing vehicles might not be seen early on.\n- Opposing left turns interlock.\n- Difficult to determine if a motorist is making a left turn or a jogged through move.\n- So-called opposing moves momentarily can be positioned at approximately right angles to each other.\nTo select the most appropriate design for minimizing the above challenges see Sheet 2."
+   },
+   {
+    "page": 47,
+    "notes": "Definitions:\nTheta 1 and theta 2 = angle between a motorist looking straight ahead and the back of the opposing vehicle.\nX1 and X2 = distance along the arterial from the crosswalk line or limit line to the signal pole or BCR at the far side of the first intersecting leg.\nD = internal storage distance between real or hypothetical interior limit lines. For a minor offset D may be a small or negative number.\nTo select the most appropriate design:\n1. Determine if there is a left jog or a right jog. See Sheets 3, 5, 7, 9, 10 and 11 for left jogged intersections and Sheets 4, 6, 8 and 12 for right jogged intersections.\n2. Determine D. If D > 40 ft then interior limit lines are required. If D < 40 ft then the jog is operated as a single intersection. See Sheets 10, 11 and 12 for intersections with interior limit lines and Sheets 3 through 9 for single intersection operation.\n3. Determine theta 1 and theta 2. If theta 1 or theta 2 is > 20 degrees and D < 40 ft then some form of opposed phasing is required for the minor street. See Sheets 7 through 9 for situations requiring opposed phasing. See Sheets 3 through 6 for situations for which concurrent phasing is adequate. Note that for Sheets 4 and 6 opposed phasing is required if diagonal crosswalks are not feasible, due to the unexpected presence of pedestrians crossing the path of right-turning motorists.\n4. Determine X1 and X2. If X1 and X2 > 50 ft and D < 40 ft then only internal mastarms are to be used on the arterial street. If X1 and X2 < 50 ft then only external mastarms are to be used on the arterial street. See Sheets 3, 4, 7 and 8 for internal mastarm designs and Sheets 5, 6 and 9 for external mastarm designs.\nNote: The drawings on Sheets 3 through 12 are not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown."
+   },
+   {
+    "page": 48,
+    "notes": "Left jogged intersection, internal mastarms\n1. Install where:\na) D < 40 ft, and\nb) theta 1 and theta 2 < 20 degrees, and\nc) X1 and X2 > 50 ft.\n2. The beveled visors shown should be installed only where cross-traffic motorists would see 50% or more of the lens area of a far-side signal as they wait at the limit line. PV heads should be used if beveled visors would not be adequate.\nPlan labels: APS pushbuttons, pedestrian heads 4P, 6P and 8P, R9-3a signs, phases 1 through 8."
+   },
+   {
+    "page": 49,
+    "notes": "Right jogged intersection, prohibited left turn\n1. Install where:\na) D < 40 ft, and\nb) theta 1 and theta 2 < 20 degrees, and\nc) X1 and X2 > 50 ft, and\nd) diagonal crosswalks are feasible.\n2. Where diagonal crosswalks are not feasible, use opposed phasing, as shown on Sheet 8.\n3. The treatment to allow arterial left turns in one direction and prohibit them in the other direction is an operational option. For other typical left turn operations on the arterial street see Sheets 6 and 8.\nThe beveled visors shown should be installed only where cross-traffic motorists would see 50% or more of the lens area of a far-side signal as they wait at the limit line. PV heads should be used if beveled visors would not be adequate.\nPlan labels: WATCH OPPOSING TRAFFIC signs, APS pushbuttons, phases 1 through 8."
+   },
+   {
+    "page": 50,
+    "notes": "Left jogged intersection, external mastarms\n1. Install where:\na) D < 40 ft, and\nb) theta 1 and theta 2 < 20 degrees, and\nc) X1 and X2 < 50 ft.\nPlan labels: APS pushbuttons, pedestrian heads 2P, 4P, 6P and 8P, R9-3a signs, WATCH OPPOSING TRAFFIC signs, phases 1 through 8."
+   },
+   {
+    "page": 51,
+    "notes": "Right jogged intersection, protected left turn\n1. Install where:\na) D < 40 ft, and\nb) theta 1 and theta 2 < 20 degrees, and\nc) X1 and X2 < 50 ft, and\nd) diagonal crosswalks are feasible.\n2. Where diagonal crosswalks are not feasible, use opposed phasing, as shown on Sheet 8.\n3. If arterial left turns are to be allowed in both directions, at least one direction shall have protected left turns, as shown. For other typical left turn options on the arterial street see Sheets 4 and 8.\nPlan labels: OPPOSING TRAFFIC, APS pushbuttons, pedestrian head 6P, phases 1 through 8."
+   },
+   {
+    "page": 52,
+    "notes": "Left jogged intersection, internal mastarms, opposed phasing\n1. Install where:\na) D < 40 ft, and\nb) theta 1 or theta 2 > 20 degrees.\n2. The alternate signal phasing schemes shown below, with corresponding signal head modifications (not shown), should be used only where the intersection would be operating near capacity with the more conventional opposed phasing. Generally, the alternate phasing would be necessary where pedestrian calls occur on most cycles. Where used, the lighter volume side street approach should have the left arrow indications. If one or both of the crosswalks across the arterial street can be eliminated, then the intersection operation can have more efficient phasing than shown.\n3. Where D >= 20 ft, \"KEEP CLEAR\" pavement markings should be installed between the cross street legs, as shown.\nPhasing diagrams: standard opposed phasing, Alternate 1 and Alternate 2 (phases 1 through 8)."
+   },
+   {
+    "page": 53,
+    "notes": "Right jogged intersection, internal mastarms, opposed phasing\n1. Install where:\na) D < 40 ft, and\nb) theta 1 or theta 2 > 20 degrees, and\nc) X1 and X2 >= 50 ft.\n2. The arterial, cat-tracked side-by-side left-turn lanes, as shown, are possible only where the painted median channelization is at least 18 ft wide. For other typical left turn options on the arterial street see Sheets 4 and 6.\n3. The alternate signal phasing schemes shown below with corresponding signal head modifications should be used only where the intersection would be operating near capacity with the more conventional opposed phasing. Generally, the alternate phasing would be necessary where pedestrian calls occur on most cycles. Where used, the lighter volume side street approach should have the right arrow indications. If one or both of the crosswalks across the arterial street can be eliminated, then the intersection operation can have more efficient phasing than shown.\n4. Where D >= 20 ft, \"KEEP CLEAR\" pavement markings should be installed between the cross street legs, as shown in Sheet 7.\nDimensions shown: 18 ft minimum left-turn channelization width, 9 ft minimum.\nPhasing diagrams: standard opposed phasing, Alternate 1 and Alternate 2 (phases 1 through 8)."
+   },
+   {
+    "page": 54,
+    "notes": "Left jogged intersection, external mastarms, opposed phasing\n1. Install where:\na) D < 40 ft, and\nb) theta 1 or theta 2 > 20 degrees, and\nc) X1 and X2 < 50 ft.\n2. See Sheet 7 for alternate signal phasing schemes.\nPlan labels: APS pushbuttons, R9-3a signs, phases 1 through 8."
+   },
+   {
+    "page": 55,
+    "notes": "Left jogged intersection, interior limit lines\nInstall where D > 40 ft.\nPlan labels: APS pushbuttons, pedestrian heads 2P, 4P and 8P, R9-3a signs, phases 1 through 8."
+   },
+   {
+    "page": 56,
+    "notes": "Left jogged intersection, interior limit lines, slot clearance\nInstall where:\na) 40 ft <= D <= 200 ft, and\nb) there have been 4 or more right angle accidents or 4 or more left turn accidents in a recent 12-month period at one of the intersections involving vehicles departing from the interior limit line.\nOLA and OLB include slot clearance.\nPlan labels: PV cut-off, PV (G,R only) heads, overlap phases OLA and OLB, APS pushbuttons, R9-3a signs, phases 1 through 8."
+   },
+   {
+    "page": 57,
+    "notes": "Right jogged intersection, interior limit lines\n1. Install where 40 ft <= D <= 200 ft.\n2. Mask only the green and red lenses of the PV heads.\n3. The back-to-back left-turn lanes, as shown, are possible only where D >= 70 ft. Where not possible, a left-turn lane in one direction, possibly with a left-turn restriction in the other direction, should be considered.\nOLA and OLB include slot clearance.\nPlan labels: PV cut-off, PV (G,R only) heads, overlap phases OLA and OLB, APS pushbuttons, R9-3a signs, phases 1 through 8."
+   }
+  ]
+ }
+]

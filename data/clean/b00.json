@@ -1,0 +1,505 @@
+[
+ {
+  "id": "burbank__standard-plans|BT-400",
+  "title": "Driveway and Turning Areas",
+  "summary": "Shows how to lay out circulation driveways and aisle geometry for angled parking in a private lot. Minimum driveway width is 13' for one-way traffic with parking angles of 45 to 90 degrees and 16' for angles of 30 to 44 degrees, plus 10' for two-way traffic. Includes an R=20' turning radius detail, access driveway dimensions, and rules for obstructions next to stalls.",
+  "keywords": [
+   "driveway width",
+   "turning radius",
+   "parking lot circulation",
+   "angled parking",
+   "one-way driveway",
+   "two-way driveway",
+   "access driveway",
+   "parking aisle",
+   "stall obstruction",
+   "end stall width",
+   "compact stall",
+   "bay width",
+   "10 foot minimum",
+   "R=20",
+   "parking angle",
+   "site access"
+  ],
+  "sheets": [
+   {
+    "page": 1,
+    "notes": "DRIVEWAY AND TURNING AREAS\n\nCirculation driveways for various parking angles\n* Driveway = 13' min. for one-way traffic and parking angles of from 90 degrees to 45 degrees.\n* Driveway = 16' min. for one-way traffic and parking angles of from 30 degrees to 44 degrees.\n* The driveway dimension shall be increased by 10'-0\" for two-way traffic.\nNot less than bay widths shown on attached tables. Turning radius R=20'.\n\nObstructions adjoining stalls\nDimensions shown: 4', 8', 4', 2' along the stall, with basic stall width and aisle.\n\nNotes:\nStandard space shall be minimum of 10' wide if post or obstruction is in cross-hatched area on either one or both sides.\nEnd stalls shall be minimum of 11' wide or the access aisle must extend 3' beyond the bay.\nFor compact spaces, the minimums shall be 1' less than the above requirements.\n(See sheet 10 for angles of spaces less than 75 degrees.)\n\nCirculation driveways\nAccess driveway 10'-0\" wide with R=20' radius and 90 degree arcs. Dimensions shown: 37'-8\", 31'-7\", 12'-0\", 10'-0\", 10' min.\nNote: Add 9' to drive for two-way traffic or more than 20 cars in \"C\" zone or 40 cars in \"R\" or \"M\" zone."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-401",
+  "title": "Allowable Standard and Compact Parking Width Dimension",
+  "summary": "Gives minimum access aisle widths for standard and compact parking stalls and lists special requirements for parking facilities. Also covers driveway widths, maximum driveway slopes (20 percent) and cross slopes (10 percent), and where parking stalls may not back onto streets.",
+  "keywords": [
+   "parking stall width",
+   "access aisle width",
+   "compact parking",
+   "standard parking stall",
+   "driveway width",
+   "driveway slope",
+   "ramp slope",
+   "cross slope",
+   "parking stall slope",
+   "backing onto street",
+   "parking dimensions",
+   "aisle width chart",
+   "10 percent transition",
+   "20 percent maximum",
+   "two dwelling units"
+  ],
+  "sheets": [
+   {
+    "page": 2,
+    "notes": "ALLOWABLE STANDARD AND COMPACT PARKING WIDTH DIMENSION\n\nChart No. 1, standard size automobile spaces adjoining access aisle (basic stall width, access aisle width):\n8'-6\" | 27'-4\"\n8'-8\" | 26'-8\"\n9'-0\" | 25'-4\"\n9'-4\" | 24'-0\"\n\nChart No. 2, compact automobile spaces adjoining access aisle (basic stall width, access aisle width):\n7'-6\" | 25'-4\"\n7'-10\" | 24'-0\"\n8'-2\" | 22'-8\"\n8'-4\" | 22'-0\"\n\nWhere parking adjoining the access aisle is a combination of standard size and compact size automobile spaces, Chart No. 1 shall be used for determination of minimum access aisle width.\n\nSPECIAL REQUIREMENTS\n\nDriveway widths and locations\nA. 10' minimum in all zones.\nB. 19' minimum when serving more than 40 cars in an \"R\" or \"M\" zone, or more than 20 cars in a \"C\" zone, or in lieu thereof there shall be two 10' minimum access driveways. Traffic Division approval for the location and size of driveways shall be obtained for every parking area or garage.\n\nDriveway slopes and ramps (see sheet 11)\nA. 20% maximum slope on driveway or ramp.\nB. 10% maximum cross slope of a driveway or ramp.\nC. 5% maximum slope in any direction in a parking stall.\nD. Transition slopes are required when the slope of the driveway or ramp exceeds 10%.\nThere shall be a maximum change in gradient of 10% in any 10 foot section of the driveway including the driveway approach within the street right of way, except that on a driveway sloping up from the property line the gradient within the first 5 feet from the property line shall not exceed 10%.\n\nParking stall location\nA. No parking stall is to be located so that an automobile is required to back onto a major or secondary highway.\nB. No automobile is allowed to back from any lot onto a street unless the parking area or garage and the driveway leading to this parking serves no more than two dwelling units."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-402",
+  "title": "General Off-Street Parking Standards",
+  "summary": "Sets general provisions and minimum parking space widths by land use under B.M.C. 31-1041. Minimum widths are 8'-6\" for residential, industrial and office, and 9'-0\" for retail, banks and medical offices. Also states vertical clearances (7' residential, 8'-2\" commercial) and allows up to 45 percent small car spaces at least 7'-6\" wide for industrial and office uses.",
+  "keywords": [
+   "off-street parking",
+   "parking space width",
+   "minimum stall width",
+   "B.M.C. 31-1041",
+   "vertical clearance",
+   "garage clearance",
+   "small car spaces",
+   "compact spaces",
+   "Drachman parking system",
+   "residential parking",
+   "commercial parking",
+   "medical office parking",
+   "bank parking",
+   "parking standards",
+   "8 foot 2 inch clearance"
+  ],
+  "sheets": [
+   {
+    "page": 3,
+    "notes": "GENERAL OFF-STREET PARKING STANDARDS\n\nGeneral provisions\nParking space dimensions, B.M.C. 31-1041. The following minimum parking space widths shall be provided:\nUses, minimum width\n(1) Residential: 8'-6\"\n(2) Retail and services commercial: 9'-0\"\n(3) Banks and savings and loan institutions: 9'-0\"\n(4) Medical offices: 9'-0\"\n(5) Industrial: 8'-6\"\n(6) Offices: 8'-6\"\n\nThe minimum width of parking spaces adjacent to walls, columns or other vertical obstructions shall be determined by standards established by the Public Works Director.\n\nMinimum parking space widths for uses not mentioned shall be determined by the Public Works Director, and every residential parking space shall maintain a vertical height clearance of seven (7) feet and every commercial parking space shall maintain a vertical height clearance of eight (8) feet two (2) inches.\n\nWhere banks, savings and loan institutions, and retail and service commercial uses are part of an office building or retail complex, the Public Works Director shall ascertain the number and location of those parking spaces which will be required to have a minimum width of nine (9) feet.\n\nFor industrial and office uses (but not including medical offices, banks and savings and loan institutions, and commercial retail uses) forty-five (45) percent of all parking spaces provided may be small car spaces if the spaces are clearly marked for small cars and the plan is approved by the Public Works Director. Parking spaces for small cars shall be at least seven and one-half (7-1/2) feet in width.\n\nThe Drachman Parking System, whereby parking layout design discourages the use of small car spaces by large vehicles, may be used where possible.\n\nMinor deviations from all foregoing standards may be authorized by the Public Works Director to accommodate the safe ingress and egress of vehicles.\n\nThe following tables (Nos. 1 thru 5) shall be used when determining overall parking space dimensions and aisle width."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-403",
+  "title": "Parking Bay Widths",
+  "summary": "Five lookup tables of required parking bay widths for angled parking from 30 to 90 degrees. Tables 1 to 4 cover standard cars with 8'-6\" to 9'-4\" stalls for one-way and two-way traffic with double or single loaded aisles. Table 5 covers compact cars with 7'-6\" by 15'-0\" stalls.",
+  "keywords": [
+   "parking bay width",
+   "angled parking",
+   "parking angle table",
+   "double loaded aisle",
+   "single loaded aisle",
+   "one-way aisle",
+   "two-way aisle",
+   "standard car stall",
+   "compact car stall",
+   "parking lot layout",
+   "stall width 9 feet",
+   "60 degree parking",
+   "45 degree parking",
+   "90 degree parking",
+   "aisle width table"
+  ],
+  "sheets": [
+   {
+    "page": 4,
+    "notes": "STANDARD CARS\nTable No. 1: Parking bay widths for one-way traffic and double loaded aisles\nColumns are stall widths: 8'-6\" | 8'-8\" | 8'-10\" | 9'-0\" | 9'-2\" | 9'-4\"\n30 deg: 43'-0\" | 43'-0\" | 43'-0\" | 43'-0\" | 43'-0\" | 43'-0\"\n32.5 deg: 44'-2\" | 44'-2\" | 44'-2\" | 44'-2\" | 44'-2\" | 44'-2\"\n35 deg: 45'-3\" | 45'-3\" | 45'-3\" | 45'-3\" | 45'-3\" | 45'-3\"\n37.5 deg: 46'-3\" | 46'-3\" | 46'-3\" | 46'-3\" | 46'-3\" | 46'-3\"\n40 deg: 47'-0\" | 47'-0\" | 47'-0\" | 47'-0\" | 47'-0\" | 47'-0\"\n42.5 deg: 48'-4\" | 47'-10\" | 47'-8\" | 47'-8\" | 47'-8\" | 47'-8\"\n45 deg: 49'-10\" | 49'-5\" | 49'-0\" | 48'-7\" | 48'-7\" | 48'-5\"\n47.5 deg: 51'-1\" | 50'-8\" | 50'-3\" | 49'-10\" | 49'-5\" | 49'-0\"\n50 deg: 52'-3\" | 51'-10\" | 51'-5\" | 51'-0\" | 50'-6\" | 50'-1\"\n52.5 deg: 53'-3\" | 52'-10\" | 52'-5\" | 52'-0\" | 51'-6\" | 51'-1\"\n55 deg: 54'-2\" | 53'-9\" | 53'-4\" | 52'-11\" | 52'-5\" | 52'-0\"\n57.5 deg: 55'-0\" | 54'-7\" | 54'-1\" | 53'-8\" | 53'-2\" | 52'-9\"\n60 deg: 55'-11\" | 55'-5\" | 55'-0\" | 54'-6\" | 54'-0\" | 53'-7\"\n62.5 deg: 56'-10\" | 56'-4\" | 55'-10\" | 55'-4\" | 54'-9\" | 54'-5\"\n65 deg: 57'-8\" | 57'-2\" | 56'-8\" | 56'-2\" | 55'-8\" | 55'-2\"\n67.5 deg: 58'-3\" | 57'-9\" | 57'-3\" | 56'-9\" | 56'-3\" | 55'-9\"\n70 deg: 59'-0\" | 58'-6\" | 58'-0\" | 57'-6\" | 57'-0\" | 56'-6\"\n72.5 deg: 59'-8\" | 59'-2\" | 58'-7\" | 58'-1\" | 57'-7\" | 57'-1\"\n75 deg: 60'-4\" | 59'-9\" | 59'-2\" | 58'-8\" | 58'-1\" | 57'-7\"\n77.5 deg: 61'-0\" | 60'-5\" | 59'-10\" | 59'-3\" | 58'-8\" | 58'-2\"\n80 deg: 61'-7\" | 61'-0\" | 60'-5\" | 59'-10\" | 59'-3\" | 58'-8\"\n82.5 deg: 62'-0\" | 61'-5\" | 60'-10\" | 60'-3\" | 59'-8\" | 59'-1\"\n85 deg: 62'-6\" | 61'-11\" | 61'-3\" | 60'-8\" | 60'-1\" | 59'-6\"\n87.5 deg: 62'-11\" | 62'-3\" | 61'-7\" | 61'-0\" | 60'-4\" | 59'-9\"\n90 deg: 63'-4\" | 62'-8\" | 62'-0\" | 61'-4\" | 60'-8\" | 60'-0\""
+   },
+   {
+    "page": 5,
+    "notes": "STANDARD CARS\nTable No. 2: Parking bay widths for one-way traffic and single loaded aisles\nColumns are stall widths: 8'-6\" | 8'-8\" | 8'-10\" | 9'-0\" | 9'-2\" | 9'-4\"\n30 deg: 27'-6\" | 27'-6\" | 27'-6\" | 27'-6\" | 27'-6\" | 27'-6\"\n32.5 deg: 28'-1\" | 28'-1\" | 28'-1\" | 28'-1\" | 28'-1\" | 28'-1\"\n35 deg: 28'-7\" | 28'-7\" | 28'-7\" | 28'-7\" | 28'-7\" | 28'-7\"\n37.5 deg: 29'-1\" | 29'-1\" | 29'-1\" | 29'-1\" | 29'-1\" | 29'-1\"\n40 deg: 29'-6\" | 29'-6\" | 29'-6\" | 29'-6\" | 29'-6\" | 29'-6\"\n42.5 deg: 30'-6\" | 30'-1\" | 29'-10\" | 29'-10\" | 29'-10\" | 29'-10\"\n45 deg: 31'-6\" | 31'-1\" | 30'-8\" | 30'-3\" | 30'-3\" | 30'-2\"\n47.5 deg: 32'-6\" | 32'-1\" | 31'-8\" | 31'-3\" | 30'-10\" | 30'-5\"\n50 deg: 33'-5\" | 33'-0\" | 32'-7\" | 32'-2\" | 31'-9\" | 31'-4\"\n52.5 deg: 34'-3\" | 33'-9\" | 33'-4\" | 32'-11\" | 32'-6\" | 32'-1\"\n55 deg: 35'-1\" | 34'-7\" | 34'-2\" | 33'-8\" | 33'-3\" | 32'-10\"\n57.5 deg: 35'-11\" | 35'-5\" | 35'-0\" | 34'-6\" | 34'-0\" | 33'-7\"\n60 deg: 36'-9\" | 36'-3\" | 35'-9\" | 35'-3\" | 34'-9\" | 34'-4\"\n62.5 deg: 37'-6\" | 37'-0\" | 36'-6\" | 36'-0\" | 35'-6\" | 35'-0\"\n65 deg: 38'-2\" | 37'-8\" | 37'-2\" | 36'-8\" | 36'-2\" | 35'-8\"\n67.5 deg: 38'-11\" | 38'-5\" | 37'-11\" | 37'-4\" | 36'-10\" | 36'-4\"\n70 deg: 39'-8\" | 39'-2\" | 38'-7\" | 38'-1\" | 37'-6\" | 37'-0\"\n72.5 deg: 40'-4\" | 39'-10\" | 39'-3\" | 38'-9\" | 38'-2\" | 37'-8\"\n75 deg: 41'-1\" | 40'-7\" | 40'-0\" | 39'-5\" | 38'-10\" | 38'-4\"\n77.5 deg: 41'-10\" | 41'-3\" | 40'-8\" | 40'-1\" | 39'-6\" | 39'-0\"\n80 deg: 42'-6\" | 41'-11\" | 41'-4\" | 40'-9\" | 40'-2\" | 39'-7\"\n82.5 deg: 43'-1\" | 42'-6\" | 41'-11\" | 41'-4\" | 40'-9\" | 40'-2\"\n85 deg: 43'-10\" | 43'-3\" | 42'-7\" | 42'-0\" | 41'-4\" | 40'-9\"\n87.5 deg: 44'-7\" | 43'-11\" | 43'-4\" | 42'-8\" | 42'-0\" | 41'-5\"\n90 deg: 45'-4\" | 44'-8\" | 44'-0\" | 43'-4\" | 42'-8\" | 42'-0\""
+   },
+   {
+    "page": 6,
+    "notes": "STANDARD CARS\nTable No. 3: Parking bay widths for two-way traffic and double loaded aisles\nColumns are stall widths: 8'-6\" | 8'-8\" | 8'-10\" | 9'-0\" | 9'-2\" | 9'-4\"\n30 deg: 51'-2\" | 51'-2\" | 51'-2\" | 51'-2\" | 51'-2\" | 51'-2\"\n32.5 deg: 52'-4\" | 52'-4\" | 52'-4\" | 52'-4\" | 52'-4\" | 52'-4\"\n35 deg: 53'-3\" | 53'-3\" | 53'-3\" | 53'-3\" | 53'-3\" | 53'-3\"\n37.5 deg: 54'-2\" | 54'-2\" | 54'-2\" | 54'-2\" | 54'-2\" | 54'-2\"\n40 deg: 54'-10\" | 54'-10\" | 54'-10\" | 54'-10\" | 54'-10\" | 54'-10\"\n42.5 deg: 55'-7\" | 55'-7\" | 55'-7\" | 55'-7\" | 55'-7\" | 55'-7\"\n45 deg: 56'-4\" | 56'-4\" | 56'-4\" | 56'-4\" | 56'-4\" | 56'-4\"\n47.5 deg: 57'-0\" | 57'-0\" | 57'-0\" | 57'-0\" | 57'-0\" | 57'-0\"\n50 deg: 57'-8\" | 57'-7\" | 57'-7\" | 57'-7\" | 57'-6\" | 57'-6\"\n52.5 deg: 58'-3\" | 58'-2\" | 58'-2\" | 58'-1\" | 58'-0\" | 58'-0\"\n55 deg: 58'-9\" | 58'-8\" | 58'-7\" | 58'-6\" | 58'-5\" | 58'-4\"\n57.5 deg: 59'-4\" | 59'-2\" | 59'-1\" | 58'-11\" | 58'-9\" | 58'-8\"\n60 deg: 59'-9\" | 59'-7\" | 59'-5\" | 59'-3\" | 59'-1\" | 58'-11\"\n62.5 deg: 60'-2\" | 60'-0\" | 59'-9\" | 59'-7\" | 59'-4\" | 59'-2\"\n65 deg: 60'-8\" | 60'-5\" | 60'-2\" | 59'-11\" | 59'-8\" | 58'-5\"\n67.5 deg: 61'-1\" | 60'-9\" | 60'-6\" | 60'-2\" | 59'-10\" | 59'-7\"\n70 deg: 61'-5\" | 61'-1\" | 60'-9\" | 60'-5\" | 60'-1\" | 59'-9\"\n72.5 deg: 61'-10\" | 61'-5\" | 61'-0\" | 60'-7\" | 60'-2\" | 59'-10\"\n75 deg: 62'-1\" | 61'-8\" | 61'-3\" | 60'-9\" | 60'-4\" | 59'-11\"\n77.5 deg: 62'-5\" | 61'-11\" | 61'-5\" | 60'-11\" | 60'-5\" | 60'-0\"\n80 deg: 62'-8\" | 62'-2\" | 61'-7\" | 61'-1\" | 60'-6\" | 60'-0\"\n82.5 deg: 62'-11\" | 62'-4\" | 61'-9\" | 61'-2\" | 60'-7\" | 60'-0\"\n85 deg: 63'-1\" | 62'-6\" | 61'-10\" | 61'-3\" | 60'-7\" | 60'-0\"\n87.5 deg: 63'-3\" | 62'-7\" | 61'-11\" | 61'-3\" | 60'-7\" | 60'-0\"\n90 deg: 63'-4\" | 62'-8\" | 62'-0\" | 61'-4\" | 60'-8\" | 60'-0\""
+   },
+   {
+    "page": 7,
+    "notes": "STANDARD CARS\nTable No. 4: Parking bay widths for two-way traffic and single loaded aisles\nColumns are stall widths: 8'-6\" | 8'-8\" | 8'-10\" | 9'-0\" | 9'-2\" | 9'-4\"\n30 deg: 35'-6\" | 35'-6\" | 35'-6\" | 35'-6\" | 35'-6\" | 35'-6\"\n32.5 deg: 36'-0\" | 36'-0\" | 36'-0\" | 36'-0\" | 36'-0\" | 36'-0\"\n35 deg: 36'-6\" | 36'-6\" | 36'-6\" | 36'-6\" | 36'-6\" | 36'-6\"\n37.5 deg: 37'-0\" | 37'-0\" | 37'-0\" | 37'-0\" | 37'-0\" | 37'-0\"\n40 deg: 37'-6\" | 37'-6\" | 37'-5\" | 37'-5\" | 37'-5\" | 37'-5\"\n42.5 deg: 38'-0\" | 37'-11\" | 37'-11\" | 37'-11\" | 37'-10\" | 37'-10\"\n45 deg: 38'-6\" | 38'-5\" | 38'-5\" | 38'-4\" | 38'-4\" | 38'-3\"\n47.5 deg: 38'-11\" | 38'-10\" | 38'-10\" | 38'-9\" | 38'-8\" | 38'-8\"\n50 deg: 39'-4\" | 39'-3\" | 39'-3\" | 39'-2\" | 39'-1\" | 39'-0\"\n52.5 deg: 39'-9\" | 39'-8\" | 39'-7\" | 39'-6\" | 39'-5\" | 39'-4\"\n55 deg: 40'-1\" | 40'-0\" | 39'-11\" | 39'-10\" | 39'-9\" | 39'-8\"\n57.5 deg: 40'-6\" | 40'-5\" | 40'-4\" | 40'-2\" | 40'-1\" | 40'-0\"\n60 deg: 40'-11\" | 40'-10\" | 40'-8\" | 40'-7\" | 40'-5\" | 40'-4\"\n62.5 deg: 41'-4\" | 41'-2\" | 41'-0\" | 40'-10\" | 40'-8\" | 40'-7\"\n65 deg: 41'-8\" | 41'-6\" | 41'-4\" | 41'-2\" | 41'-0\" | 40'-10\"\n67.5 deg: 42'-1\" | 41'-11\" | 41'-8\" | 41'-6\" | 41'-3\" | 41'-1\"\n70 deg: 42'-6\" | 42'-3\" | 42'-0\" | 41'-9\" | 41'-6\" | 41'-4\"\n72.5 deg: 42'-10\" | 42'-7\" | 42'-4\" | 42'-0\" | 41'-9\" | 41'-6\"\n75 deg: 43'-3\" | 42'-11\" | 42'-7\" | 42'-3\" | 41'-11\" | 41'-8\"\n77.5 deg: 43'-7\" | 43'-3\" | 42'-11\" | 42'-6\" | 42'-2\" | 41'-10\"\n80 deg: 44'-0\" | 43'-7\" | 43'-2\" | 42'-9\" | 42'-4\" | 41'-11\"\n82.5 deg: 44'-4\" | 43'-10\" | 43'-5\" | 42'-11\" | 42'-5\" | 42'-0\"\n85 deg: 44'-8\" | 44'-2\" | 43'-7\" | 43'-1\" | 42'-6\" | 42'-0\"\n87.5 deg: 45'-0\" | 44'-5\" | 43'-10\" | 43'-2\" | 42'-7\" | 42'-0\"\n90 deg: 45'-4\" | 44'-8\" | 44'-0\" | 43'-4\" | 42'-8\" | 42'-0\""
+   },
+   {
+    "page": 8,
+    "notes": "COMPACT CARS\nTable No. 5: Standard stall width = 7'-6\", standard stall length = 15'-0\"\nBay widths by parking angle\n30 deg: one-way double loaded 40'-0\", one-way single loaded 26'-0\", two-way double loaded 48'-2\", two-way single loaded 34'-0\"\n32.5 deg: one-way double loaded 40'-11\", one-way single loaded 25'-6\", two-way double loaded 49'-1\", two-way single loaded 34'-5\"\n35 deg: one-way double loaded 41'-10\", one-way single loaded 26'-10\", two-way double loaded 49'-10\", two-way single loaded 34'-9\"\n37.5 deg: one-way double loaded 42'-7\", one-way single loaded 27'-3\", two-way double loaded 50'-6\", two-way single loaded 35'-2\"\n40 deg: one-way double loaded 43'-2\", one-way single loaded 27'-7\", two-way double loaded 50'-11\", two-way single loaded 35'-6\"\n42.5 deg: one-way double loaded 43'-7\", one-way single loaded 27'-10\", two-way double loaded 51'-6\", two-way single loaded 35'-10\"\n45 deg: one-way double loaded 44'-4\", one-way single loaded 28'-2\", two-way double loaded 52'-1\", two-way single loaded 36'-3\"\n47.5 deg: one-way double loaded 45'-5\", one-way single loaded 29'-0\", two-way double loaded 52'-7\", two-way single loaded 36'-6\"\n50 deg: one-way double loaded 46'-5\", one-way single loaded 29'-10\", two-way double loaded 52'-11\", two-way single loaded 36'-10\"\n52.5 deg: one-way double loaded 47'-3\", one-way single loaded 30'-6\", two-way double loaded 53'-4\", two-way single loaded 37'-2\"\n55 deg: one-way double loaded 48'-0\", one-way single loaded 31'-3\", two-way double loaded 53'-7\", two-way single loaded 37'-4\"\n57.5 deg: one-way double loaded 48'-7\", one-way single loaded 31'-11\", two-way double loaded 53'-10\", two-way single loaded 37'-8\"\n60 deg: one-way double loaded 49'-4\", one-way single loaded 32'-8\", two-way double loaded 54'-1\", two-way single loaded 37'-11\"\n62.5 deg: one-way double loaded 50'-0\", one-way single loaded 33'-4\", two-way double loaded 54'-3\", two-way single loaded 38'-2\"\n65 deg: one-way double loaded 50'-9\", one-way single loaded 33'-11\", two-way double loaded 54'-6\", two-way single loaded 38'-5\"\n67.5 deg: one-way double loaded 51'-3\", one-way single loaded 34'-7\", two-way double loaded 54'-8\", two-way single loaded 38'-9\"\n70 deg: one-way double loaded 51'-10\", one-way single loaded 35'-3\", two-way double loaded 54'-9\", two-way single loaded 38'-11\"\n72.5 deg: one-way double loaded 52'-4\", one-way single loaded 35'-10\", two-way double loaded 54'-10\", two-way single loaded 39'-2\"\n75 deg: one-way double loaded 52'-10\", one-way single loaded 36'-6\", two-way double loaded 54'-11\", two-way single loaded 39'-4\"\n80 deg: one-way double loaded 53'-11\", one-way single loaded 37'-10\", two-way double loaded 55'-2\", two-way single loaded 39'-10\"\n82.5 deg: one-way double loaded 54'-4\", one-way single loaded 38'-4\", two-way double loaded 55'-3\", two-way single loaded 39'-11\"\n85 deg: one-way double loaded 54'-8\", one-way single loaded 39'-0\", two-way double loaded 55'-3\", two-way single loaded 40'-1\"\n87.5 deg: one-way double loaded 55'-0\", one-way single loaded 39'-8\", two-way double loaded 55'-3\", two-way single loaded 40'-2\"\n90 deg: one-way double loaded 55'-4\", one-way single loaded 40'-4\", two-way double loaded 55'-4\", two-way single loaded 40'-4\""
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-404",
+  "title": "Striping for Parking Stalls",
+  "summary": "Shows stripe layout and dimensions for standard and compact angled and 90 degree parking stalls under B.M.C. 31-1417. Standard stalls are 18' long with 7'-0\" clear, and compact stalls are 15' long with 6'-0\" clear. Spaces are double-striped with 4\" stripes, white for standard cars and yellow for small cars, or white if marked COMPACT or SMALL CAR.",
+  "keywords": [
+   "parking stall striping",
+   "double striping",
+   "parking stall dimensions",
+   "compact stall striping",
+   "small car space",
+   "B.M.C. 31-1417",
+   "4 inch stripe",
+   "yellow compact stall",
+   "white stall stripe",
+   "stall length 18 feet",
+   "parking angle",
+   "directional arrows",
+   "parking lot markings",
+   "7 foot clear",
+   "stall line"
+  ],
+  "sheets": [
+   {
+    "page": 9,
+    "notes": "STRIPING FOR PARKING STALLS\n\nStandard parking stalls\n18' stall length. 7'-0\" clear between stripes. Stall length 16'-0\" min for 45 degrees and above, 15'-0\" min for less than 45 degrees (angled stalls). 16'-0\" min for 90 degree stalls.\n\nCompact parking stalls\n15' stall length. 6'-0\" clear between stripes. Stall length 13'-0\" min for 45 degrees and above, 12'-0\" min for less than 45 degrees (angled stalls). 13'-0\" min for 90 degree stalls.\n\nB.M.C. 31-1417\nParking spaces shall be double-striped and access lanes clearly defined including directional arrows to guide internal movements. Striping for standard car spaces shall be white in color, whereas striping for small car spaces shall be yellow in color or may be painted white if marked \"COMPACT\" or \"SMALL CAR\". All painted stripes shall be 4\" in width."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-405",
+  "title": "Column Placement with Angle Parking",
+  "summary": "Shows where structural columns may be placed next to angled parking stalls in garages. Cross-hatched zones along the stall sides are kept clear, with 4' and 8' dimensions shown on 18' stalls. Angles below 65 degrees and from 65 to 75 degrees follow the layouts shown, and any greater angle uses the 90 degree standard.",
+  "keywords": [
+   "column placement",
+   "parking garage columns",
+   "angled parking",
+   "obstruction in stall",
+   "cross-hatched area",
+   "parking structure",
+   "post clearance",
+   "stall obstruction",
+   "65 degree parking",
+   "75 degree parking",
+   "90 degree standard",
+   "18 foot stall",
+   "garage layout",
+   "pillar",
+   "parking column"
+  ],
+  "sheets": [
+   {
+    "page": 10,
+    "notes": "COLUMN PLACEMENT WITH ANGLE PARKING\n\nAngle below 65 degrees to be as shown.\nAngle 65 degrees to 75 degrees to be as shown.\nAny angle greater to use 90 degree standard. (See sheet no. 1.)\nDimensions shown: 4', 8' cross-hatched zones, 18' stall length, 9' stall width.\n\nNotes:\n1. No columns to be placed in cross-hatched areas.\n2. No columns to be placed to the rear of any portion of any space."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-406",
+  "title": "Driveway Transitions",
+  "summary": "Profiles and tables for driveway vertical transitions between the curb and a garage. Case 1 is a garage above street level with a 16.5' minimum setback from curb face. Case 2 is a garage below street level with a 20.5' minimum setback. Both use a 20 percent tangent slope with a 1/4\" per foot sidewalk slope, and tables give minimum distance A or B for each rise or fall.",
+  "keywords": [
+   "driveway transition",
+   "driveway profile",
+   "vertical curve",
+   "garage setback",
+   "garage above street",
+   "garage below street",
+   "20 percent slope",
+   "scraping",
+   "driveway drag",
+   "sidewalk slope",
+   "top of curb",
+   "rise above curb",
+   "fall below curb",
+   "driveway apron",
+   "special permit driveway"
+  ],
+  "sheets": [
+   {
+    "page": 11,
+    "notes": "DRIVEWAY TRANSITIONS\n\nCase 1: garage above street level (no scale)\nGarage setback minimum 16.5' from curb face. Profile shows 5' minimum, 5' vertical curve, distance A, 6' vertical curve, 3' level, sidewalk slope 1/4\" per 1', 20% slope, top of curb (TC) level, garage floor level. Max rise 1.26' + 0.24' (see table).\n\nCase 2: garage below street level (no scale)\nGarage setback minimum 20.5' from curb face. Profile shows 5' minimum, 11.5' minimum, 6' vertical curve, distance B, 2' vertical curve, 1', sidewalk slope 1/4\" per 1', 20% slope, top of curb (TC) level, garage floor level. Max fall 0.38' + 0.28' (see table).\n\nTable, Case 1 (garage above street level): minimum setback (ft) | distance A | rise above TC\n16.5 | 0 | 1'-3 1/8\"\n18.5 | 2' | 1'-7 7/8\"\n20.5 | 4' | 2'-0 3/4\"\n22.5 | 6' | 2'-5 1/2\"\n24.5 | 8' | 2'-10 3/8\"\n26.5 | 10' | 3'-3 1/4\"\n28.5 | 12' | 3'-7 7/8\"\n30.5 | 14' | 4'-0 3/4\"\n32.5 | 16' | 4'-5 1/2\"\n34.5 | 18' | 4'-10 3/8\"\n36.5 | 20' | 5'-3 1/8\"\n38.5 | 22' | 5'-7 7/8\"\n40.5 | 24' | 6'-0 3/4\"\n42.5 | 26' | 6'-5 1/2\"\n44.5 | 28' | 6'-10 3/8\"\n46.5 | 30' | 7'-3 1/8\"\n48.5 | 32' | 7'-7 7/8\"\n\nTable, Case 2 (garage below street level): minimum setback (ft) | distance B | fall below TC\n20.5 | 0 | 0'-4 1/4\"\n22.5 | 2' | 0'-9 3/8\"\n24.5 | 4' | 1'-2 1/2\"\n26.5 | 6' | 1'-7\"\n28.5 | 8' | 1'-11 3/4\"\n30.5 | 10' | 2'-4 1/2\"\n32.5 | 12' | 2'-9 3/8\"\n34.5 | 14' | 3'-2 1/8\"\n36.5 | 16' | 3'-7\"\n38.5 | 18' | 3'-11 3/4\"\n40.5 | 20' | 4'-4 1/2\"\n42.5 | 22' | 4'-9 3/8\"\n44.5 | 24' | 5'-2 1/8\"\n46.5 | 26' | 5'-7\"\n48.5 | 28' | 5'-11 3/4\"\n50.5 | 30' | 6'-4 1/2\"\n52.5 | 32' | 6'-9 3/8\"\n\nNotes:\n1. The distances and vertical curves shown hereon are the minimum which can be used with a minimum tangent slope of 20% without causing cars to drag on the paved surfaces.\n2. The sidewalk slope of 1/4\" per 1' shall be carried from the curb to the beginning of the vertical curve for Case 1 and Case 2.\n3. If the back of the existing sidewalk is more than 5' from the curb face in Case 1, or more than 11.5' from the curb face in Case 2, the vertical curve shall begin at the back of the existing sidewalk, and the minimum garage setback increased accordingly to provide desired rise or fall to garage level.\n4. Where existing conditions make this profile inapplicable, the applicant shall file a plan and profile of the proposed driveway at a scale of 1\" = 2' with the Traffic Engineer for approval.\n5. All driveways which do not conform to City Standard must be processed by special permit. Request for said permit is made with the Traffic Engineer for checking and approval."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-407",
+  "title": "Alley-Driveway Intersection Cutoff",
+  "summary": "Shows the corner cutoff required where a driveway meets an alley, based on alley width. The chart covers alley widths from 15' to 27' in 1' steps, with the cutoff stepping in 1' increments along a 10' driveway edge.",
+  "keywords": [
+   "alley driveway",
+   "alley cutoff",
+   "corner cutoff",
+   "driveway at alley",
+   "alley width",
+   "sight distance corner",
+   "alley intersection",
+   "driveway cutoff",
+   "alley 15 feet",
+   "alley 27 feet",
+   "corner clipping",
+   "alley access",
+   "driveway taper",
+   "alley approach",
+   "visibility triangle"
+  ],
+  "sheets": [
+   {
+    "page": 12,
+    "notes": "ALLEY-DRIVEWAY INTERSECTION CUTOFF\n\nCutoff required for various combinations of alley and driveway width.\nAlley width shown from 15' to 27' in 1' increments (15', 16', 17', 18', 19', 20', 21', 22', 23', 24', 25', 26', 27'). Driveway edge dimension 10' with 1' cutoff steps."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-409A-1",
+  "title": "Controlled High Visibility Crosswalk",
+  "summary": "Shows layout of a high visibility (continental style) crosswalk at controlled locations with a stop line, curb ramp and alignment lines. Alignment line 1 sits distance B behind the curb face based on curb return distance A, and alignment line 2 is at least 10' from line 1. Longitudinal bars are 2' wide and centered on lane lines and lane midpoints.",
+  "keywords": [
+   "high visibility crosswalk",
+   "continental crosswalk",
+   "ladder crosswalk",
+   "zebra crosswalk",
+   "controlled crosswalk",
+   "alignment lines",
+   "longitudinal bars",
+   "stop line",
+   "signalized crosswalk",
+   "push button",
+   "curb ramp",
+   "crosswalk bars 2 feet wide",
+   "bar spacing",
+   "BCR",
+   "marked crosswalk",
+   "curb return"
+  ],
+  "sheets": [
+   {
+    "page": 13,
+    "notes": "CONTROLLED HIGH VISIBILITY CROSSWALK\n\nCallouts: double yellow to crosswalk bar, stop line, edge of gutter, curb face, BCR, alignment line #1, alignment line #2, 10' minimum between alignment lines, 5' max from alignment line #2 to push button, centerline.\n\nTable, distance 'A' | distance 'B':\n15' to 19' | 1'\n20' to 24' | 2'\n25' to 29' | 3.5'\n30' to 34' | 5'\n35' to 39' | 6'\n\nNotes:\n1. Alignment line #1 shall be distance 'B' behind curb face based on distance 'A'.\n2. Alignment line #2 must be a minimum of 10 feet from alignment line #1. At signalized intersections, alignment line #2 must be within 5 feet of a crosswalk push button.\n3. Longitudinal lines near gutter may have length reduced.\n4. Longitudinal lines shall be centered at lane lines and at midpoint of travel lanes.\n5. Curb lanes or approaches with one travel lane shall have longitudinal lines separated by 3 feet, edge to edge (5 feet, center to center).\n\nAlignment lines shall be parallel to street centerline.\n\nLongitudinal lines shall be 2 feet wide. Longitudinal lines shall have length increased to ensure curb ramps are within alignment lines.\n\nStop lines shall be installed per Burbank Standard Plan BT-411-1."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-410-1",
+  "title": "Pavement Turn Arrows",
+  "summary": "Shows where to place left and right turn arrows on approaches to uncontrolled, signalized and stop-controlled intersections. Two arrows go 25' from the end of stripe at a two-way left turn lane, and one arrow goes 8' from the start of a turn lane, with an added arrow if the turn lane is longer than 60'. Arrows use Caltrans Standard Plan A24A Type IV(L) and IV(R).",
+  "keywords": [
+   "turn arrows",
+   "pavement arrows",
+   "left turn arrow",
+   "right turn arrow",
+   "two-way left turn lane",
+   "TWLTL",
+   "turn lane marking",
+   "Caltrans A24A",
+   "Type IV arrow",
+   "uncontrolled intersection",
+   "signalized intersection",
+   "stop controlled intersection",
+   "pavement markings",
+   "arrow spacing",
+   "60 foot turn lane"
+  ],
+  "sheets": [
+   {
+    "page": 14,
+    "notes": "PAVEMENT TURN ARROWS\n\nShows arrow placement for uncontrolled intersection, signalized intersection and stop controlled intersection, with stop line and \"STOP\" marking.\n\nNotes:\n1. Intersection with two-way left turn lane, install two arrows 25 feet from end of stripe.\n2. Intersection with turn lane, install one arrow 8 feet from beginning of turn lane.\n3. If a turn lane is longer than 60 feet, install one additional arrow 8 feet from:\n- End of stripe (uncontrolled intersection)\n- Stop line (signalized intersection)\n- \"STOP\" marking (stop controlled intersection)\n\nLeft turn lane shall use Caltrans Standard Plan A24A, Type IV(L) arrow.\nRight turn lane shall use Caltrans Standard Plan A24A, Type IV(R) arrow.\n\nCrosswalks shall be installed per Burbank Standard Plan BT-409A-1.\nStop lines and stop markings shall be installed per Burbank Standard Plan BT-411-1."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-411-1",
+  "title": "Stop Bar Detail",
+  "summary": "Shows stop line and STOP word marking placement for single lane and multiple lane approaches, with unmarked and marked crosswalks. Stop lines are solid white 12 inch lines placed distance B from the BCR based on curb return distance A, or 4' from a marked crosswalk. STOP markings go 8' behind the stop line.",
+  "keywords": [
+   "stop bar",
+   "stop line",
+   "STOP legend",
+   "stop marking",
+   "12 inch stop line",
+   "marked crosswalk",
+   "unmarked crosswalk",
+   "single lane approach",
+   "multiple lane approach",
+   "Detail 21 stripe",
+   "Caltrans A20A",
+   "BCR",
+   "stop line setback",
+   "double yellow centerline",
+   "stop control"
+  ],
+  "sheets": [
+   {
+    "page": 15,
+    "notes": "STOP BAR DETAIL\n\nSingle lane approach: unmarked crosswalk and marked crosswalk. Multiple lane approach. Dimensions shown: 2' from double yellow stripe to STOP marking, 8' from stop line to STOP marking, 4' from marked crosswalk to stop line.\n\nTable, distance 'A' | distance 'B':\n15' to 19' | -3'\n20' to 24' | 1'\n25' to 29' | 4.5'\n30' to 34' | 8'\n35' to 39' | 12'\n\nNotes:\n1. Install solid white 12 inch stop line at distance 'B' from BCR based on distance 'A'.\n2. Install solid white 12 inch stop line 4 feet from a marked crosswalk.\n3. Install \"STOP\" marking 2 feet from double yellow stripe and 8 feet from stop line.\n4. Install 50 feet of Detail 21 stripe per Caltrans Standard Plan A20A.\n5. Install \"STOP\" marking centered in each lane and 8 feet from stop line.\n\nMarked crosswalks shall be installed per Burbank Standard Plan BT-409A-1.\nPavement arrows shall be installed per Burbank Standard Plan BT-410-1."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-412-1",
+  "title": "Sign Post",
+  "summary": "Shows the standard 2\"x2\" 12 gage square sign post set in a galvanized anchor sleeve. The sign is secured with drive rivets, the post is 7' minimum, and the detail shows 36\" minimum from the existing edge of sidewalk. Regulatory and warning signs must be at least 0.063 inch with 3M high intensity prismatic sheeting (Series #3930) and overlay film (Series #1160).",
+  "keywords": [
+   "sign post",
+   "square tube post",
+   "telespar",
+   "12 gage post",
+   "anchor sleeve",
+   "sign installation",
+   "drive rivet",
+   "sign sheeting",
+   "3M 3930",
+   "0.063 inch sign",
+   "regulatory sign",
+   "warning sign",
+   "sign mounting height",
+   "sign setback",
+   "breakaway post"
+  ],
+  "sheets": [
+   {
+    "page": 16,
+    "notes": "SIGN POST (not to scale)\n\n2\"x2\" square post (12 gage), 7' minimum.\n1/4\" holes. Insert sign post and fasten with rivets.\nSecure sign with drive rivet.\n6\" min. 36\" min. from existing edge of sidewalk.\nExisting concrete curb and gutter, asphalt paving.\nGalvanized 2 1/2\" x 2 1/2\" square heavy duty anchor sleeve (Telespar or equal).\n\nAll regulatory and warning signs shall be minimum 0.063 inch with 3M high intensity prismatic sheeting (Series #3930) with 3M premium protective overlay film (Series #1160)."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-413-1",
+  "title": "Sign and Post in Median",
+  "summary": "Shows how to mount a W12-1 or R4-7 sign with a yellow OM1-3 object marker on a 2\"x2\" square post in a median. Standard sizes are 24\" x 24\" for the W12-1 and 24\" x 30\" for the R4-7. If the median is less than 3' wide, use an 18\" x 24\" R4-7 and an OM3-L object marker.",
+  "keywords": [
+   "median sign",
+   "R4-7",
+   "W12-1",
+   "OM1-3",
+   "OM3-L",
+   "object marker",
+   "keep right sign",
+   "median post",
+   "narrow median",
+   "sign in median",
+   "yellow object marker",
+   "sign sheeting",
+   "telespar post",
+   "anchor sleeve",
+   "median nose"
+  ],
+  "sheets": [
+   {
+    "page": 17,
+    "notes": "SIGN AND POST IN MEDIAN (not to scale)\n\nSecure sign with drive rivet.\nInstall W12-1 sign (24\" x 24\") or R4-7 sign (24\" x 30\")*.\nInstall Type OM1-3 yellow object marker (24\" x 24\")*.\n2\"x2\" square post (12 gage), 7\" minimum, 6\" min. 1/4\" holes. Insert sign post and fasten with rivets.\nExisting concrete or asphalt paving. Existing concrete curb and gutter.\nGalvanized 2 1/2\" x 2 1/2\" square heavy duty anchor sleeve (Telespar or equal).\n\n* If median width is less than 3 feet, use R4-7 (18\" x 24\") sign and OM3-L object marker.\n\nAll regulatory and warning signs shall be minimum 0.063 inch thick and have 3M high intensity prismatic sheeting (Series #3930) with 3M premium protective overlay film (Series #1160)."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-414",
+  "title": "Standard 3\" Speed Hump",
+  "summary": "Shows plan, section and signing for a standard 3 inch asphalt speed hump, 12' long in the travel direction with a 12\" taper and a 15 mph advance sign. Humps are spaced about 250' to 300' apart, with BUMP legends and thermoplastic chevron markings. Advance signs are a 30\"x30\" W8-1 modified BUMPS sign over an 18\"x18\" W13-1 (15) plaque.",
+  "keywords": [
+   "speed hump",
+   "3 inch speed hump",
+   "traffic calming",
+   "W8-1",
+   "W13-1",
+   "bump sign",
+   "15 mph advisory",
+   "hump markings",
+   "BUMP legend",
+   "hump chevron",
+   "hump spacing",
+   "asphalt hump",
+   "residential traffic calming",
+   "hump section",
+   "hump taper"
+  ],
+  "sheets": [
+   {
+    "page": 18,
+    "notes": "STANDARD 3\" SPEED HUMP\n\nPlan: 12' hump length, 50' to next BUMP legend, 8' typical, humps spaced 250' - 300' +/-, 200' - 250' +/- from the intersection. BUMP legend and chevron in thermoplastic or 2 coats of traffic paint. Asphalt speed hump. Roadway width varies.\n\nAdvance signs (not to scale)\nSign locations as directed by Engineer. 12' min. 6.5' min. mounting height.\n30\"x30\" W8-1 modified copy \"BUMPS\". Signs shall have 3M high intensity prismatic sheeting (Series #3930) with 3M premium protective overlay film (Series #1160).\n18\"x18\" W13-1 (15).\nW8-1 and W13-1 signs at the approach.\n\nSection A-A (not to scale)\nDimensions 6\", 18\" typ. and 12\" taper at the curb face. A.C. standard 3/8\" mix D2-AR-4000, 5.6% asphalt binder for use performance grading per Caltrans standards. Tack coat over existing asphalt pavement.\n\nInstallation details:\n1. Speed humps should not be placed over manholes, water valves, etc.\n2. Edge of speed hump shall be 5 feet minimum from edge of driveway.\n3. Whenever possible speed humps shall be placed adjacent to street lights.\n4. Finish grade of asphalt may vary by 1/4\" (higher or lower)."
+   },
+   {
+    "page": 19,
+    "notes": "STANDARD 3\" SPEED HUMP, sheet 2\n\nSpeed hump marking (not to scale): 12\" white markings, 12\" thermoplastic or 2 coats of traffic paint. Dimensions shown: 10' typical parking lane, 5', 15', 12' typical, 1' taper, centerline of roadway.\n\nSection B-B (not to scale): 6\" typ."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-415-1",
+  "title": "Bicycle Detector",
+  "summary": "Shows saw-cut inductive loop layouts for bicycle detection, with Case 1 octagonal loops for bicycle lanes and Case 2 circular loops for vehicle lanes. Includes winding detail (twisted clockwise, at least 2 turns per foot), layout dimensions, pullbox connection and saw-cut sections. Saw-cut depth is 3.5 to 4 inches.",
+  "keywords": [
+   "bicycle detector",
+   "bike loop",
+   "inductive loop",
+   "loop detector",
+   "bike lane detection",
+   "saw cut",
+   "loop winding",
+   "octagonal loop",
+   "circular loop",
+   "pullbox",
+   "curb termination",
+   "ES-5D",
+   "stopline detection",
+   "signal detection bicycle",
+   "quadrupole loop"
+  ],
+  "sheets": [
+   {
+    "page": 20,
+    "notes": "BICYCLE DETECTOR\n\nCase 1 and Case 2\nWinding detail: twisted clockwise, at least 2 turns per foot (typ.). To pullbox (typ.), conductors 1 2 3 4.\nLayout detail: loops placed with 3' and 1' dimensions from the stopline and curb face for Case 1, and 6', 10', 6', 1' and 2' from the lane line for Case 2. Pullbox at curb face, gutter, stopline, lane line.\nSections A-A through E-E show saw cut slots with 1/8\" max (typ.).\n\nNotes:\n1. Curb termination shall be Type A per Caltrans Standard Plan ES-5D.\n2. Sawcut depth shall be 3.5 inches to 4 inches.\n3. Sawcut width shall be 1/4 inch to 3/8 inch.\n4. Sawcut width shall be 1/2 inch to 5/8 inch.\n\nUse Case 1 for bicycle lanes. Use Case 2 for vehicle lanes.\nLoops shall be centered in lane, unless otherwise noted."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-416",
+  "title": "Bicycle Markings",
+  "summary": "Shows pavement marking layouts for Class II bike lanes with and without parking and with and without a buffer, plus Class III shared roadway markings. Bike lane symbols and arrows are placed 6' from the end of curb return, with 100' dashed lines at intersections. Class III markings use a table of dimensions A and B based on lane width.",
+  "keywords": [
+   "bike lane markings",
+   "class II bike lane",
+   "class III sharrow",
+   "shared lane marking",
+   "buffered bike lane",
+   "bike lane arrow",
+   "bike symbol",
+   "Caltrans A24A",
+   "Caltrans A24C",
+   "Caltrans A20D",
+   "detail 39",
+   "detail 39A",
+   "detail 27B",
+   "bike lane intersection line",
+   "dashed bike lane",
+   "ECR BCR"
+  ],
+  "sheets": [
+   {
+    "page": 21,
+    "notes": "BICYCLE MARKINGS\n\nClass II lane with parking.\nClass II lane without parking.\nClass II lane with buffer and parking.\nClass II lane with buffer and without parking.\nClass III lane.\nEach layout shows ECR and BCR, markings 6' from ECR, 100' dashed lines and 50' lengths at intersections, 1:1 buffer tapers, and shared roadway marking installed if greater than 250' from ECR.\n\nClass III table, distance 'A' | distance 'B':\n10' to 13' | 4'\n14' to 16' | 1.5'\n17' to 18' | 12'\n19' to 20' | 13'\n21' to 23' | 14'\n24'+ | 11.5'\n\nNotes:\n1. Bicycle lane symbol with person per Caltrans Std Plan A24C.\n2. Bike lane arrow per Caltrans Std Plan A24A.\n3. Bike lane line, Detail 39 per Caltrans Std Plan A20D.\n4. Bike lane intersection line, Detail 39A per Caltrans Std Plan A20D.\n5. Right edgeline, Detail 27B per Caltrans Std Plan A20B.\n6. Shared roadway bicycle marking per Caltrans Std Plan A24C."
+   }
+  ]
+ },
+ {
+  "id": "burbank__standard-plans|BT-417",
+  "title": "Standard 3.0\" Speed Cushion",
+  "summary": "Shows plan, signing, markings and construction notes for a 3.0 inch speed cushion that leaves a gap at the centerline. Cushions are 12' long and spaced 250' to 300' apart, with BUMP legends and a 6' chevron in 12\" solid white thermoplastic. The advance sign is a 30\"x30\" W84(CA) SPEED BUMPS AHEAD with an 18\"x18\" W13-1 (15) plaque, placed about 100' to 125' ahead.",
+  "keywords": [
+   "speed cushion",
+   "3 inch speed cushion",
+   "traffic calming",
+   "W84(CA)",
+   "W13-1",
+   "speed bumps ahead",
+   "BUMP legend",
+   "cushion markings",
+   "Detail 21 centerline",
+   "cushion spacing",
+   "emergency vehicle friendly",
+   "thermoplastic markings",
+   "15 mph advisory",
+   "chevron marking",
+   "cushion gap"
+  ],
+  "sheets": [
+   {
+    "page": 22,
+    "notes": "STANDARD 3.0\" SPEED CUSHION\n\nPlan: install Detail 21 per Caltrans Std Plan A20A at the centerline. Cushion length 12', 50' to BUMP legend, 20' typ. each side of centerline gap. Cushions spaced 250' to 300'. Advance sign +/-100'-125' ahead of first cushion. Roadway width varies. W84(CA) and W13-1 signs at each end.\n\nAdvance sign to be placed ahead of first speed cushion from each direction: W84(CA) 30\"x30\", W13-1(15) 18\"x18\" (15 MPH). Not to scale.\n\nMarking Detail 1: 12\" solid white chevron, 6' wide by 6' high, with 16\" and 12\" dimensions.\nMarking Detail 2: BUMP legend, 6'-4\" wide by 8' high, 4\" and 8\" dimensions.\n\nConstruction notes:\n1. Install marking per Marking Detail 1 and sheet 2.\n2. Install \"BUMP\" per Marking Detail 2.\n\nGeneral notes:\n1. Speed cushions shall not be placed over utility manholes, water valves, or other subsurface utilities access features.\n2. Edge of speed cushion shall be minimum 5 feet from driveway apron.\n3. Whenever possible, speed cushions shall be installed near street lights.\n4. Finish grade of asphalt may vary by 1/4\" (higher or lower).\n5. All markings shall be thermoplastic.\n6. All signs shall be installed per Burbank Standard Plan BT-412-1."
+   },
+   {
+    "page": 23,
+    "notes": "STANDARD 3.0\" SPEED CUSHION, sheet 2\n\nPlan view: speed cushion centered on street centerline between sidewalks, with width of roadway varying. Section A-A (not to scale): 1.5\" A.C. standard 3/8\" mix D2-AR-4000, taper, edge of existing curb and gutter, existing AC pavement, apply tack coat. Section B-B (not to scale) across the cushion."
+   }
+  ]
+ }
+]

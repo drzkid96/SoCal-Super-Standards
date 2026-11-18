@@ -1,6 +1,6 @@
 ---
 title: "A24B Pavement Markings, Arrows and Symbols"
-description: "Caltrans Std. Plans 2018 standard drawing A24B: Pavement Markings, Arrows and Symbols. 1 sheet(s), dated 01-26-18."
+description: "Caltrans Std. Plans 2018 standard drawing A24B: Pavement Markings, Arrows and Symbols. Caltrans dimensioned layouts for additional pavement arrows and the railroad crossing symbol, each with its area in square feet."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a24a/">&larr; A24A</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2018">All Caltrans Std. Plans 2018 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a24d/">A24D &rarr;</a></div>
 
-<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
+<p class="dwg-sum">Caltrans dimensioned layouts for additional pavement arrows and the railroad crossing symbol, each with its area in square feet. Arrow types shown include Type VII (L), Type VIII (B) and Type I (L) and (B) style arrows, and the railroad crossing symbol is 70 square feet, not counting the 2-foot by variable width transverse lines. Mirror images are used for right-hand versions.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="chip" href="/SoCal-Super-Standards/topics/rail-crossings/">Railroad and light rail crossings</a></p>
 
 
 
@@ -18,7 +19,10 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 5)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0005.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0005.webp" alt="A24B sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A24B, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p5">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>Bl 2-0" x WIDTH OF LANE 3 = 6-0" j 11'-0' Le 8'-0" -! | | | oo+ + ne ee ee a 20 -_ | "9" -_ | iN /| TN a L-| J e 3 T _ 1-0" GRID | 1-0" 1-0" GRID | 1/0" 2’-0" x WIDTH 2 OF LANE A=42 ft A=73 +2 TYPE MI (L) ARROW TYPE I (B) ARROW (For Type Il (R) use mirror image) 1’-0" GRID A=70 ft? &amp; NOTE: RAILROAD CROSSING SYMBOL Minor variations in dimensions % 70 ft? does not include the 2’-0" x variable may be accepted by the Engineer. width transverse lines. 24’ LAL TIN \ \ \ | N IN 1'-0" GRID _ 1/-0" A=45 ft? TYPE I (L) ARROW (For Type I (R) use mirror image) Dist} COUNTY ROUTE POST MILES ]SHEET] TOTAL TOTAL PROJECT |” No. |SHEETS May 31, 2018 nists CIVIL eneER PLANS APPROVAL DATE THE ACCURACY OR Ct COPIES OF THIS PLAN SHEET. THE STATE OF CALIFORNIA OR ITS OFFICERS \% ®P- OR AGENTS SHALL NOT BE RESPONSIBLE FOR S "OMPLETENESS OF SCANNED i | |\ | LIN - 1’-0" GRID _| 1’-0" A=59 ft2 TYPE I (B) ARROW STATE OF CALIFORNIA DEPARTMENT OF TRANSPORTATION PAVEMENT MARKINGS ARROWS AND SYMBOLS NO SCALE A24B avev NV1id GHYVGNVILS 8102 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markings, arrows and symbols. A24B. No scale.</p>
+<p>Arrow layouts on a 1&#x27;-0&quot; grid with areas as shown: A = 42 ft2, A = 73 ft2, A = 45 ft2 and A = 59 ft2. For the (R) version use the mirror image.</p>
+<p>Railroad crossing symbol, A = 70 ft2. The 70 ft2 does not include the 2&#x27;-0&quot; x variable width transverse lines. Transverse lines are 2&#x27;-0&quot; x width of lane.</p>
+<p>Note: Minor variations in dimensions may be accepted by the Engineer.</p></details>
 
 
-<div class="kw">Keywords: type, grid, arrow, width, lane, mirror, image, sheet, total, state, california, note, railroad, crossing</div>
+<div class="kw">Keywords: pavement arrows, railroad crossing symbol, RXR symbol, left turn arrow, two-way left turn arrow, combination arrow, arrow dimensions, pavement symbols, railroad crossing markings, transverse lines, Caltrans A24B, 1 foot grid, lane arrow area</div>

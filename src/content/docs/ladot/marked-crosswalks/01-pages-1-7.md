@@ -9,7 +9,7 @@ sidebar:
 
 <span id="p1" class="anchor"></span>
 
-### Page 1 - MARKED CROSSWALK GUIDELINES
+### Page 1 - Marked Uncontrolled Crosswalk Guidelines: Minimum Requirements
 
 <div class="pmeta">Drawings: <strong>S-481.0</strong> &middot; MUTCD: <a href="/SoCal-Super-Standards/s/ca/4B.04/">Section 4B.04</a> &middot; Topics: crosswalks, signals, parking-curb, signs, intersections</div>
 <div class="dtext"><h4>MARKED CROSSWALK GUIDELINES</h4>
@@ -29,46 +29,33 @@ sidebar:
 <p>*In the absence of 24 hour volume data, Vehicle ADT can be estimated using the product of 10 multiplied by the peak one hour volume of a street in each respective direction, or the product of 2.5 multiplied by the sum of the peak six (6) hour volumes of a street in each respective direction. New marked crosswalks should be installed (per S-481.0), only if the location satisfies all the conditions listed below under Section A. MINIMUM REQUIREMENTS, and one or more of Section B. GUIDELINES 1 - 4.</p>
 <p>Traffic signal control (Traffic Signal Warrants Worksheet) should be considered as part of any evaluation of a location for a new marked crosswalk. However, traffic signals can bring unintended consequences such as exacerbating neighborhood cut-through traffic, an increase in vehicular delay, and an increase in certain types of crashes (ref. CA MUTCD <a href="/SoCal-Super-Standards/s/ca/4B.04/">Section 4B.04</a>.01). Marked crosswalks (with beacons as appropriate) are typically more suitable to address pedestrian issues and needs (ref. CA MUTCD <a href="/SoCal-Super-Standards/s/ca/4B.04/">Section 4B.04</a>.02). As such, locations that meet Warrant 4 (Pedestrian Volume) or Warrant 5 (School Crossing) and no other warrants from the Traffic Signal Warrants Worksheet may be considered for a crosswalk with beacons as appropriate in lieu of a traffic signal.</p>
 <p>Retention or removal of existing marked crosswalks and evaluation of beacons for existing marked crosswalks, subject to these guidelines, is at the discretion of the Department. Permanent removal or temporary removal/relocation of marked crosswalks shall require an investigation and assessment, utilizing these guidelines. If a determination is made to remove a crosswalk, per Section 21950.05 of the California Vehicle Code, "Public Notice" signs must be posted at the crosswalk, and should be in place for at least two weeks in advance of the 30- day period prior to the anticipated date of the removal. When the public input has resulted in compelling factors not previously considered, the proposed removal may be reconsidered. If little or no compelling public input is received, a Traffic Control Report (TCR) with supporting data and the record of public comments shall be prepared, or the removal may be shown on a new design plan in lieu of a TCR. Additional information on the procedure to retain or remove an existing crosswalk can be found in in Section 344 E. of the Manual of Policies and Procedures.</p></div>
-<div class="kw">Keywords: marked, traffic, crosswalk, removal, section, guidelines, crosswalks, signal, public, require, date, street, vehicle, hour</div>
+<div class="pclean"><p class="psum"><b>Marked Uncontrolled Crosswalk Guidelines: Minimum Requirements.</b> Page 2 of 7 of LADOT&#x27;s Marked Uncontrolled Crosswalk Guidelines (Rev. 10-05-2020), listing the minimum requirements (a) through (e) with yes/no checks. Requirements cover pedestrian visibility from distance A shown in S-481.0, at least 20 pedestrian units in one hour, stopping sight distance from adjacent signals, no regular queue spillback, and ADA curb ramps at both landings.</p></div>
+<div class="kw">Keywords: marked crosswalk, uncontrolled crosswalk, crosswalk guidelines, S-481.0, pedestrian volume 20 units, stopping sight distance, crosswalk warrant, ADA curb ramps, nighttime visibility, crosswalk lighting, queuing spillback, pedestrian units, mid-block crosswalk, minimum requirements checklist</div>
 
 
 <span id="p2" class="anchor"></span>
 
-### Page 2 - A. MINIMUM REQUIREMENTS YES NO (S-481.0)
+### Page 2 - Marked Uncontrolled Crosswalk Guidelines: Minimum Requirements
 
 <div class="pmeta">Drawings: <strong>S-481.0</strong> &middot; Topics: crosswalks, transit, signals, parking-curb, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0002.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0002.webp" alt="Crosswalk Guidelines page 2 A. MINIMUM REQUIREMENTS YES NO (S-481.0)"></a><figcaption>Crosswalk Guidelines, page 2. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>Marked Uncontrolled Crosswalk Guidelines (Rev. 10-05-2020) Page 2 of 7</p>
-<h4>A. MINIMUM REQUIREMENTS YES NO</h4>
-<h4>ALL SATISFIED?  </h4>
-<p>(a) Motorists in all approach lanes would be able to see pedestrians in both waiting areas for</p>
-<p>the proposed crosswalk from distance "A", as shown in S-481.0, during both daytime and nighttime conditions. The waiting areas are defined as follows: for locations with full-time parking lanes (where pedestrians are expected to wait to cross from within the parking lane): a point within the proposed crosswalk, 4 feet from the nearest curb face of the street being crossed near each landing; for locations without full-time parking lanes and active travel lanes adjacent to the curb (where pedestrians are expected to wait to cross from the edge of the sidewalk): at the edge of the curb at each landing. Where additional nighttime visibility is required, the crosswalk may be authorized, contingent upon the installation of additional lighting.</p>
-<h4> </h4>
-<p>(b) Pedestrian volume is at least 20 units during a one-hour period during any day of the week. All</p>
-<p>pedestrians crossing the major street mid-block, up to one block away from the proposed crossing may be counted if they are expected to benefit and be served by the proposed crosswalk. Pedestrians crossing at the next upstream and downstream intersections may also be counted if those intersections do not feature a marked crosswalk. All pedestrians as noted above should be counted during one singular one hour period.</p>
+<div class="pclean"><p class="psum"><b>Marked Uncontrolled Crosswalk Guidelines: Minimum Requirements.</b> Page 2 of 7 of LADOT&#x27;s Marked Uncontrolled Crosswalk Guidelines (Rev. 10-05-2020), listing the minimum requirements (a) through (e) with yes/no checks. Requirements cover pedestrian visibility from distance A shown in S-481.0, at least 20 pedestrian units in one hour, stopping sight distance from adjacent signals, no regular queue spillback, and ADA curb ramps at both landings.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Marked Uncontrolled Crosswalk Guidelines (Rev. 10-05-2020), Page 2 of 7</p>
+<p>A. Minimum Requirements (each item has Yes / No boxes, with an All Satisfied? check)</p>
+<p>(a) Motorists in all approach lanes would be able to see pedestrians in both waiting areas for the proposed crosswalk from distance &quot;A&quot;, as shown in S-481.0, during both daytime and nighttime conditions. The waiting areas are defined as follows: for locations with full-time parking lanes (where pedestrians are expected to wait to cross from within the parking lane), a point within the proposed crosswalk, 4 feet from the nearest curb face of the street being crossed near each landing. For locations without full-time parking lanes and with active travel lanes adjacent to the curb (where pedestrians are expected to wait to cross from the edge of the sidewalk), at the edge of the curb at each landing. Where additional nighttime visibility is required, the crosswalk may be authorized, contingent upon the installation of additional lighting.</p>
+<p>(b) Pedestrian volume is at least 20 units during a one-hour period during any day of the week. All pedestrians crossing the major street mid-block, up to one block away from the proposed crossing, may be counted if they are expected to benefit and be served by the proposed crosswalk. Pedestrians crossing at the next upstream and downstream intersections may also be counted if those intersections do not feature a marked crosswalk. All pedestrians as noted above should be counted during one singular one-hour period.</p>
 <p>Note 1: For both cases, children who appear to be under 13 years of age, elderly who appear to be over 64 years of age, persons pushing strollers, and disabled persons count as two (2) pedestrian units.</p>
-<p>Note 2: Marked uncontrolled crosswalks can induce demand, particularly adjacent to attractors such as transit stops, schools, and commercial centers (ref. NACTO Urban Street Design Guide, Intersection Design Elements, Crosswalks and Crossings, Pages 110-111). A reduced threshold of pedestrian units can be used to satisfy this requirement if the projected pedestrian volume exceeds 20 units and such a projection is documented.</p>
-<h4> </h4>
-<p>(c) The distance between the location and adjacent signalized intersections is greater than the</p>
-<p>minimum stopping sight distance based on the posted speed or 85th percentile speed, whichever is greater. Stopping sight distance is shown in the following table:</p>
-<h4> </h4>
-<p>Posted or 85th Percentile Speed</p>
-<p>(mph)</p>
-<p>Stopping_Sight Distance</p>
-<p>(ft)</p>
-<p>25 153</p>
-<p>30 195</p>
-<p>35 242</p>
-<p>40 294</p>
-<p>45 350</p>
-<p>50 415</p>
-<p>(d) There is no documented history or field observations of queuing from downstream</p>
-<p>intersections that regularly spills into the location of the proposed crosswalk; if such queuing is observed or documented, it must be resolved prior to, or in conjunction with the installation of the proposed crosswalk.</p>
-<h4> </h4>
-<p>(e) ADA-accessible curb ramps are present at both landings of the proposed crosswalk, or will</p>
-<p>be installed as part of the installation of the crosswalk. If such curb ramps are not technically feasible, this requirement is waived, contingent upon a documented determination from the Department on Disability that a marked crosswalk at the proposed location without curb ramps would be a "reasonable accommodation."</p>
-<h4> </h4></div>
-<div class="kw">Keywords: crosswalk, proposed, pedestrians, curb, distance, marked, lanes, pedestrian, units, intersections, documented, parking, expected, street</div>
+<p>Note 2: Marked uncontrolled crosswalks can induce demand, particularly adjacent to attractors such as transit stops, schools, and commercial centers (ref. NACTO Urban Street Design Guide, Intersection Design Elements, Crosswalks and Crossings, pages 110-111). A reduced threshold of pedestrian units can be used to satisfy this requirement if the projected pedestrian volume exceeds 20 units and such a projection is documented.</p>
+<p>(c) The distance between the location and adjacent signalized intersections is greater than the minimum stopping sight distance based on the posted speed or 85th percentile speed, whichever is greater. Stopping sight distance:</p>
+<p>Posted or 85th percentile speed (mph) / Stopping sight distance (ft)</p>
+<p>25 / 153</p>
+<p>30 / 195</p>
+<p>35 / 242</p>
+<p>40 / 294</p>
+<p>45 / 350</p>
+<p>50 / 415</p>
+<p>(d) There is no documented history or field observations of queuing from downstream intersections that regularly spills into the location of the proposed crosswalk. If such queuing is observed or documented, it must be resolved prior to, or in conjunction with, the installation of the proposed crosswalk.</p>
+<p>(e) ADA-accessible curb ramps are present at both landings of the proposed crosswalk, or will be installed as part of the installation of the crosswalk. If such curb ramps are not technically feasible, this requirement is waived, contingent upon a documented determination from the Department on Disability that a marked crosswalk at the proposed location without curb ramps would be a &quot;reasonable accommodation.&quot;</p></details></div>
+<div class="kw">Keywords: marked crosswalk, uncontrolled crosswalk, crosswalk guidelines, S-481.0, pedestrian volume 20 units, stopping sight distance, crosswalk warrant, ADA curb ramps, nighttime visibility, crosswalk lighting, queuing spillback, pedestrian units, mid-block crosswalk, minimum requirements checklist</div>
 
 
 <span id="p3" class="anchor"></span>

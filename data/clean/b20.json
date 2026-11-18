@@ -1,0 +1,333 @@
+[
+ {
+  "id": "pasadena__standard-plans|S-707",
+  "title": "Speed Humps and Speed Cushions",
+  "summary": "Pasadena standard for installing 3.5 inch asphalt speed humps and speed cushions, with installation notes, warning sign and temporary signing requirements. Separate sheets give hump layouts for streets under 50 ft wide and 50 ft or wider, and cushion layouts for streets 28 ft to 38 ft and 38 ft and greater. Humps are 12 ft long in the direction of travel with a 3.5 inch nominal height, built of Type D2 PG 64-10 asphalt, and marked with thermoplastic. A W17-1 SPEED HUMP sign and a flashing barricade with W8-1 or W17-1 and W13-1 signs are required until the pavement markings are in place.",
+  "keywords": [
+   "speed hump",
+   "speed cushion",
+   "speed bump",
+   "traffic calming",
+   "vertical deflection",
+   "W17-1",
+   "W8-1",
+   "W13-1",
+   "speed hump sign",
+   "warning flags",
+   "flashing barricade",
+   "thermoplastic markings",
+   "3.5 inch speed hump",
+   "hump marking layout",
+   "temporary signing",
+   "asphalt concrete hump"
+  ],
+  "sheets": [
+   {
+    "page": 5,
+    "notes": "Installation details\n1. Speed humps shall not be placed over manholes, watergates, junction chambers, etc.\n2. Edge of speed hump should be 10 ft minimum from edge and uphill of driveway.\n3. Height of speed hump shall nominally be 3.5 in +/- 0.25 in at all cross sections.\n4. Whenever possible, speed humps shall be placed at property lines instead of mid-lot.\n5. Whenever possible, speed humps shall be placed adjacent to street lights.\n6. Speed humps shall be marked using thermoplastic material.\n7. Speed hump signs shall be installed per Figure A, where noted on plans.\n\nFigure A: Speed hump warning sign (typical)\nWarning flags (first 30 days). 30 in x 30 in, black on yellow, W17-1 \"SPEED HUMP\", 6 in Series E letters.\nSign locations: as directed by Engineer.\n\nTemporary signage details\n1. The contractor shall furnish and maintain a flashing barricade, 50 ft from each speed hump location in both directions, until the first application of paint has been applied showing the pavement messages and striping.\n2. Mount 30 in x 30 in W8-1 or W17-1 warning sign (black on yellow, 6 in Series E letters) and W13-1 sign per MUTCD with the California Supplement, on each of the barricades at each speed hump location.\n\nSpeed hump/cushion installation channelization/temporary signing requirements. Sheet 1 of 5."
+   },
+   {
+    "page": 6,
+    "notes": "Standard 3.5 in speed hump (for street width less than 50 ft). Sheet 2 of 5.\nPlan view: center of speed hump at center of roadway. Markings are 6 ft and 3 ft from center of roadway, with 12 in markings. Note: white markings when street is less than 28 ft wide. See DOT Engineer for location of speed hump markings.\nSection A-A: edge of pavement, curb face, existing gutter. 1 ft and 2 ft dimensions at the curb end.\nSection B-B: 2 ft max taper at the curb face (width varies), 5.6% asphalt binder, 3/8 in mix A.C. standard D2 PG 64-10, tack coat. Profile heights 1.1 in, 1.5 in, 1.9 in, 2.3 in, 0.0 in, 0.6 in and 6.0 in typical. Hump length 12 ft, with 6 ft to the crest."
+   },
+   {
+    "page": 7,
+    "notes": "Standard 3.5 in speed hump (for street width 50 ft or greater). Sheet 3 of 5.\nPlan view: 9 ft 6 in and 4 ft from center line of roadway, 12 in white markings.\nSection A-A: edge of pavement, curb face, existing gutter. 1 ft and 2 ft dimensions at the curb end.\nSection B-B: 2 ft max taper at the curb face (width varies), 5.6% asphalt binder, 3/8 in mix A.C. standard D2 PG 64-10, tack coat. Profile height 6.0 in typical at the crest. Hump length 12 ft, with 6 ft to the crest."
+   },
+   {
+    "page": 8,
+    "notes": "Standard 3.5 in speed cushion (for street width 28 ft to 38 ft). Sheet 4 of 5.\nSection A-A: center of speed cushions. Center cushion cross-section with marking 5 ft wide. Cushion spacing dimensions of 7 ft and 3 ft taper at the center cushion, with 1 ft 6 in tapers.\nSection B-B: roadway half cross-section from center of roadway. Edge of pavement, curb faces, existing gutter. 3.5 in height, 2 ft taper, tack coat, 3/8 in mix A.C. standard D2 PG 64-10, 5.6% asphalt binder.\nSection C-C: speed cushion cross-section for 14 ft to 19 ft, with 2 ft taper and curb face (width varies). Profile length 12 ft with 6 ft to the crest, 6.0 in typical."
+   },
+   {
+    "page": 9,
+    "notes": "Standard 3.5 in speed cushion (for street width 38 ft and greater). Sheet 5 of 5.\nSection A-A: center of speed cushions. Center cushion cross-section, 6 ft wide with 7 ft dimensions, white markings.\nSection B-B: roadway half cross-section from center of roadway. Edge of pavement, curb faces, existing gutter. 3.5 in height, 2 ft taper, tack coat, 3/8 in mix A.C. standard D2 PG 64-10, 5.6% asphalt binder.\nSection C-C: speed cushion cross-section for 19 ft and greater. 1 ft 6 in tapers, 1 ft max, curb face (width varies). Profile length 12 ft with 6 ft to the crest, 6.0 in typical."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-709",
+  "title": "Crosswalk Installation",
+  "summary": "Pasadena standard layouts for marked crosswalks, covering the basic crosswalk, the zebra crosswalk and the continental crosswalk. All striping is 12 in white or yellow thermoplastic or similar material. Bar spacing starts from the street center line and avoids the wheel path, and bars are parallel to traffic flow at skewed or offset intersections. Continental bars are 2 ft wide and 14 ft long, and a 12 in white limit line is typically used only in advance of signalized intersections.",
+  "keywords": [
+   "crosswalk",
+   "marked crosswalk",
+   "zebra crosswalk",
+   "continental crosswalk",
+   "ladder crosswalk",
+   "high visibility crosswalk",
+   "limit line",
+   "stop bar",
+   "crosswalk bars",
+   "skewed intersection crosswalk",
+   "thermoplastic striping",
+   "double yellow center line",
+   "12 inch white line",
+   "crosswalk layout"
+  ],
+  "sheets": [
+   {
+    "page": 10,
+    "notes": "Crosswalk installation. Sheet 1 of 3.\nPlan shows the approach to intersection and the leaving side of intersection, with the double yellow center line (DYCL), curb face and edge of gutter. Dimension callouts of 4 ft and 12 ft are shown for the crosswalk lines.\nAll striping shall be 12 in white or yellow, in thermoplastic or similar material.\nWhite 12 in limit line in advance of crosswalks typically installed only in advance of signalized intersections. Other locations only when specified. In thermoplastic or similar material."
+   },
+   {
+    "page": 11,
+    "notes": "\"Zebra\" crosswalk. Sheet 2 of 3.\nPlan shows the double yellow center line (DYCL), approach to intersection, leaving side of intersection, curb face and edge of gutter. Dimensions shown include 3 ft and a 1.5 ft minimum.\nNotes\nAll striping shall be 12 in white or yellow, in thermoplastic or similar material.\nSpacing of crosswalk bars shall start from center line of street, avoiding wheel path.\nFor intersections not perpendicular or 90 degrees (skewed or offset), all crosswalk \"bars\" shall be parallel to flow of traffic.\nFor crosswalk layout, refer to sheet 1 of 3."
+   },
+   {
+    "page": 12,
+    "notes": "Continental crosswalk. Sheet 3 of 3.\nPlan shows the double yellow center line (DYCL), approach to intersection, leaving side of intersection, curb face and edge of gutter. Bar spacing dimensions are shown, unless otherwise specified (may be up to 5 ft at the direction of the Engineer).\nNotes\n1. All continental bars shall be 2 ft wide and full length 14 ft, white or yellow, in thermoplastic or similar material.\n2. Start of first bar shall be centered to the DYCL, avoiding wheel path. Continental crosswalk \"bars\" shall meet edge of gutter. For skewed or offset intersections, all crosswalk \"bars\" shall be parallel to flow of traffic, in thermoplastic or similar materials.\n3. White 12 in limit line in advance of crosswalks typically installed only in advance of signalized intersections. Other locations only when specified. In thermoplastic or similar material.\nFor crosswalk layout, refer to sheet 1 of 3."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-710",
+  "title": "Raised Pavement Marker Installation Detail",
+  "summary": "Pasadena detail for placing raised pavement markers (RPMs) with different stripe types. Twelve details cover two-way no passing zones, painted medians, left and right turn lane stripes, lane lines, dashed centerlines, reversals into a left turn lane, left edge lines, two-way left turn lanes, and lead-in and lead-out patterns. RPMs are placed at least 150 mm (6 in) from any crosswalk or limit line. Marker types shown are Type D two-way yellow reflective and Type G one-way clear reflective, with lead-in spacing of 6.1 m (20 ft) minimum, 7.3 m (24 ft) standard and 9.1 m (30 ft) maximum.",
+  "keywords": [
+   "raised pavement markers",
+   "RPM",
+   "reflective markers",
+   "Botts dots",
+   "pavement markers",
+   "type D marker",
+   "type G marker",
+   "two-way left turn lane markers",
+   "lane line markers",
+   "centerline markers",
+   "lead-in lead-out markers",
+   "marker spacing",
+   "no passing zone markers",
+   "left edge line markers",
+   "turn lane markers"
+  ],
+  "sheets": [
+   {
+    "page": 13,
+    "notes": "Raised pavement marker installation detail. Sheet 1 of 3. Dimensions in metric with U.S. units in parentheses.\nDetail 1: Two-way no passing, with painted stripe. Marker spacing 7.3 m (24 ft). Through traffic side shown.\nDetail 2: Painted median. Through traffic side. Spacing 7.3 m (24 ft).\nDetail 3: White left turn lane stripe, 200 mm (8 in) stripe, 50 mm (2 in) typical. Spacing 7.3 m (24 ft).\nDetail 4: White right turn lane stripe, 200 mm (8 in) stripe. Through traffic side. Offsets 2.6 m (8.5 ft), 2.1 m (7 ft), 5.2 m (17 ft), 2.1 m (7 ft), 2.6 m (8.5 ft).\nDetail 5: White lane line stripe. Total 14.6 m (48 ft). Offsets 2.6 m (8.5 ft) and 2.1 m (7 ft).\nDetail 6: Dashed centerline. Spacing 7.3 m (24 ft), 50 mm (2 in) typical.\nDetail 7: Reversal into left turn lane. Dimensions 3.6 m (12 ft) and 7.3 m (24 ft). Note: this striping is to be used only in the reversal.\nDetail 8: Left edge line with single yellow stripe. Median side. 50 mm.\nRaised pavement markers to be installed at a minimum distance of 150 mm (6 in) from any crosswalk line or limit line."
+   },
+   {
+    "page": 14,
+    "notes": "Raised pavement marker installation detail. Sheet 2 of 3.\nDetail 9: Left edge line without painted stripe. Median, through traffic side. Marker spacing 29.2 m (96 ft) in total.\nDetail 10: Two-way left turn lane. Widths 5.5 m (18 ft), 3.6 m (12 ft), 11.0 m (36 ft), 3.6 m (12 ft) and 5.5 m (18 ft).\nMarker profiles: 100 mm (4 in) wide, 3.0 mm (0.12 in) reflective surface height, 118.4 mm (0.75 in) overall. Reflective surface angles 28 to 32 degrees typical.\nType D: two-way yellow reflective marker.\nType G: one-way clear reflective marker.\nLegend\nType D 2-way yellow\nType G 1-way clear\nYellow stripe\nWhite stripe"
+   },
+   {
+    "page": 15,
+    "notes": "Raised pavement marker installation detail. Sheet 3 of 3.\nDetail 11: Lead-in single yellow line. Dimensions 2.6 m (8.5 ft), 5.2 m (17 ft), 7.3 m (24 ft), 2.1 m (7 ft), 21.9 m (72 ft) minimum, 29.3 m (96 ft) maximum. Even spacing (see notes). Stripe 50 mm (2 in).\nNotes\n1. Always place beginning and end R.P.M.\n2. Distance between R.P.M. varies with length of single yellow lead-in. Minimum spacing: 6.1 m (20 ft). Standard spacing: 7.3 m (24 ft). Maximum spacing: 9.1 m (30 ft).\n3. R.P.M. shall not be placed on painted stripes.\n\nDetail 12: Lead-in/lead-out solid white lane line. Dimensions 2.1 m (7 ft), 5.2 m (17 ft), 4.6 m (48 ft) minimum as shown on the sheet, 21.9 m (72 ft) maximum, 15.2 m (50 ft), 7.6 m (25 ft).\nNotes\n1. Always place beginning and end R.P.M.\n2. Distance between R.P.M. varies with length of solid white lead-in/lead-out. Minimum spacing: 6.1 m (20 ft). Standard spacing: 7.3 m (24 ft). Maximum spacing: 9.1 m (30 ft).\n3. If left turn pocket is included, the length of lead-in solid white lane line shall equal the length of the left turn pocket unless otherwise specified."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-711",
+  "title": "Two-Way Left Turn Lane, Single Yellow Centerline, Solid White Lane Line",
+  "summary": "Pasadena layout for a two-way left turn lane marked with a single yellow center line and solid white lane lines. The plan shows lane widths of 3.6 m (12 ft) and 11.0 m (36 ft) segments, a 7.3 m (24 ft) center line dash pattern, and lead-in white lane line lengths of 21.9 m (72 ft) minimum to 29.3 m (96 ft) maximum. If a left turn pocket is included, the lead-in white lane line length equals the pocket length unless otherwise specified. Raised pavement markers, if required, follow S-710 Details 10, 11 and 12.",
+  "keywords": [
+   "two-way left turn lane",
+   "TWLTL",
+   "single yellow centerline",
+   "solid white lane line",
+   "center turn lane",
+   "left turn lane lead-in",
+   "lane line striping",
+   "S-710 raised pavement markers",
+   "left turn pocket",
+   "center line striping",
+   "12 ft lane",
+   "continuous left turn lane"
+  ],
+  "sheets": [
+   {
+    "page": 16,
+    "notes": "Two-way left turn lane (yellow). Sheet 1 of 1.\nLane widths 3.6 m (12 ft), 11.0 m (36 ft), 3.6 m (12 ft), 11.0 m (36 ft), 3.6 m (12 ft). Yellow line width 76 mm (3 in).\nSingle yellow center line: 7.3 m (24 ft) pattern, with 2.1 m (7 ft) and 5.2 m (17 ft) dimensions, 21.9 m (72 ft) minimum to 29.3 m (96 ft) maximum.\nWhite lane line: 14.6 m (48 ft) minimum lead-in with 2.1 m (7 ft), 5.2 m (17 ft) and 7.3 m (24 ft) dimensions, 15.2 m (50 ft).\nNotes\n1. If left turn pocket is included, the length of the lead-in solid white lane line shall equal the length of the left turn pocket unless otherwise specified.\n2. If raised pavement markers are required, see Standard Plan S-710, Details 10, 11 and 12."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-712",
+  "title": "Pavement Markings for Left and Right Turn Lanes",
+  "summary": "Pasadena standard for turn arrow pavement markings in left and right turn lanes. Arrows are solid white and centered in the lane. An additional arrow is installed if the turn pocket is 18.3 m (60 ft) or longer. Dimensions of 2.4 m (8 ft) are shown at the arrow.",
+  "keywords": [
+   "turn arrow",
+   "left turn arrow",
+   "right turn arrow",
+   "pavement arrows",
+   "turn lane markings",
+   "pavement markings",
+   "turn pocket arrow",
+   "lane arrow spacing",
+   "white arrow",
+   "left turn lane",
+   "right turn lane",
+   "arrow marking",
+   "additional arrow 60 ft"
+  ],
+  "sheets": [
+   {
+    "page": 17,
+    "notes": "Pavement markings for left and right turn lanes. Sheet 1 of 1.\nDimension shown: 2.4 m (8 ft) at each arrow.\nNotes\n1. Arrow pavement markings to be solid white.\n2. Pavement markings to be centered in lane.\n* Install additional arrow if pocket is 18.3 m (60 ft) or longer."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-713",
+  "title": "Limit Line and STOP Pavement Markings",
+  "summary": "Pasadena standard for locating limit lines and STOP pavement markings. The standard limit line location is 500 mm back from the curb line or property line depending on the sidewalk condition, and is installed only when authorized by the Traffic Engineer. Where the property line or sidewalk location is unknown, the exact location is set by work order. The limit line extends to the street center line unless channelization requires otherwise, with a distance of 1.2 m (4 ft) minimum to 9.1 m (30 ft) maximum shown.",
+  "keywords": [
+   "limit line",
+   "stop bar",
+   "stop line",
+   "STOP pavement marking",
+   "stop legend",
+   "limit line location",
+   "back of sidewalk",
+   "property line",
+   "curb line",
+   "stop sign pavement marking",
+   "stop bar placement",
+   "4 ft minimum",
+   "30 ft maximum",
+   "traffic engineer authorization"
+  ],
+  "sheets": [
+   {
+    "page": 18,
+    "notes": "Limit line and STOP pavement markings. Sheet 1 of 1.\nStandard location for limit line unless otherwise specified: 500 mm back from the curb line, shown with the property line, back of sidewalk and 2.4 m (8 ft) dimensions.\nCondition: known property line and/or sidewalk location. Install only when authorized by Traffic Engineer. Limit line location to be within this area (typical).\nCondition: unknown property line or sidewalk location. Exact location to be set by work order.\nExtend limit line to street center line unless channelization requires otherwise.\nDistance from STOP marking: 1.2 m (4 ft) minimum, 9.1 m (30 ft) maximum.\nNotes\n1. If existing limit line falls outside hatched area, notify Traffic Engineering before repainting."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-714",
+  "title": "Layout, 3 m (10 ft) Wide Turn Bay Transition",
+  "summary": "Pasadena layout for striping a 3 m (10 ft) wide turn bay transition. A five-step procedure establishes points A through H, locating the straight lines and forming the two curves. The diagram is dimensioned for a 27 m (90 ft) transition, using 4.5 m (15 ft) and 9 m (30 ft) segments, with values in brackets for an 18 m (60 ft) transition using 3 m (10 ft) and 6 m (20 ft) segments.",
+  "keywords": [
+   "turn bay transition",
+   "taper layout",
+   "turn lane taper",
+   "left turn bay",
+   "striping layout",
+   "transition curves",
+   "27 m taper",
+   "18 m taper",
+   "90 ft transition",
+   "60 ft transition",
+   "10 ft turn bay",
+   "lane transition",
+   "bay taper striping",
+   "pavement marking layout"
+  ],
+  "sheets": [
+   {
+    "page": 19,
+    "notes": "Layout 3 m [10 ft] wide turn bay transition. Sheet 1 of 1.\nDiagram: start of transition to end of transition, with segments of 4.5 m (15 ft), 4.5 m (15 ft), 9 m (30 ft), 4.5 m (15 ft), 4.5 m (15 ft). For the 18 m (60 ft) transition, use the figures in brackets: 3 m (10 ft), 3 m (10 ft), 6 m (20 ft), 3 m (10 ft), 3 m (10 ft).\nProcedure to install transition\n1. Lay out points A, B, E and F.\n2. Use points B and E to determine a straight line and mark C and D.\n3. Mark G and H by measuring in 190 mm (7 1/2 in) perpendicular to lines A-B and E-F (for 27 m (90 ft) and 18 m (60 ft) transitions).\n4. Form curves A-G-C and D-H-F.\n5. Stripe.\nFor 18 m (60 ft) transition, use figures in parentheses shown on diagram and proceed with steps 1 through 5."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-715",
+  "title": "New Sign Post Installation",
+  "summary": "Pasadena detail for installing a new sign post using a driven anchor and anchor sleeve. The anchor is driven about 1.0 m (3 ft) into the ground, an anchor sleeve one size larger and 455 mm (18 in) long is driven over it, and the sign post is inserted and fastened with drive rivets. Clearance from the curb face is 455 mm (18 in) desirable and 305 mm (12 in) minimum, with at least 2.1 m (7 ft) from the ground to the bottom of the lowest sign.",
+  "keywords": [
+   "sign post",
+   "new sign post",
+   "sign post installation",
+   "anchor sleeve",
+   "post anchor",
+   "12 gage square tube",
+   "drive rivet",
+   "telespar",
+   "breakaway post",
+   "sign clearance",
+   "7 ft sign clearance",
+   "curb clearance",
+   "sign mounting height",
+   "square tube post",
+   "2 inch square post"
+  ],
+  "sheets": [
+   {
+    "page": 20,
+    "notes": "New sign post installation. Sheet 1 of 1.\nPlan: 455 mm (18 in) clearance from curb face desirable, 305 mm (12 in) minimum. 51 mm (2 in) sq. O.D. (12 gage) sign post. Two (2) holes at 90 degrees in anchor sleeve. Four holes in sign post. Two (2) drive rivets at 90 degrees, 0 mm to 15 mm (0 to 1/2 in) above surface (typical).\nAnchor sleeve options: 63 mm (2 1/2 in) sq. O.D. (12 gage) and 57 mm (2 1/4 in) sq. O.D. (12 gage).\nNotes\n1. Drive sign post anchor into ground approximately 1.0 m (3 ft). Leave one hole exposed above ground for rivet connection.\n2. Drive in anchor sleeve which is one size larger than post anchor and 455 mm (18 in) long.\n3. Insert sign post and fasten in place.\n4. 2.1 m (7 ft) minimum clearance to bottom of the lowest sign."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-716",
+  "title": "Post Extension and Sign Mounting",
+  "summary": "Pasadena detail for extending an existing U-channel post and for strap mounting signs on an existing street light or other pole. Hardware includes a galvanized steel post extension with 8 mm (5/16 in) square head bolts, a stainless steel strap, and a galvanized steel mounting bracket with a neoprene washer. Clearance from the ground to the bottom of the lowest sign must be 2.1 m (7 ft).",
+  "keywords": [
+   "post extension",
+   "u-channel post extension",
+   "sign mounting",
+   "strap mounting",
+   "street light pole sign",
+   "sign bracket",
+   "stainless steel strap",
+   "sign on existing pole",
+   "sign clearance",
+   "7 ft clearance",
+   "galvanized steel bracket",
+   "neoprene washer",
+   "bolt and square nut",
+   "street name sign mounting"
+  ],
+  "sheets": [
+   {
+    "page": 21,
+    "notes": "Post extension and sign mounting. Sheet 1 of 1.\nStrap mounting on existing street light or other pole: sign, 5 1/8 in dimension, 3 mm (1/8 in) fiber washer, 2 each per sign. Galvanized steel bracket with 8 mm (5/16 in) tapped hole, stainless steel button head bolt and square nut, neoprene washer. Stainless steel strap, 16 mm x 0.75 mm (5/8 in x 0.03 in).\nPost extension: existing galvanized steel U-channel post, U-channel post extension, 8 mm (5/16 in) square head bolt with square nut and washer.\nNote: Clearance from the ground to the bottom of the lowest sign shall be 2.1 m (7 ft)."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-717",
+  "title": "STOP Sign and Post Replacement",
+  "summary": "Pasadena detail for replacing a STOP sign and its post. A 760 mm (30 in) high intensity R1-1 STOP sign is mounted on a 3.0 m (10 ft) long galvanized square tube post that slides into a 610 mm (24 in) long galvanized anchor tube driven about 1.0 m (3 ft) into the ground. The sheet gives tube sizes, hole and rivet sizes, and concrete or consolidated backfill requirements, with a concrete sidewalk sloped to drain.",
+  "keywords": [
+   "stop sign",
+   "R1-1",
+   "stop sign replacement",
+   "stop sign post",
+   "anchor tube",
+   "galvanized square tube",
+   "30 inch stop sign",
+   "high intensity sign",
+   "post replacement",
+   "sign post backfill",
+   "drive rivet",
+   "concrete backfill",
+   "quickset concrete",
+   "12 gauge tube",
+   "sign post detail"
+  ],
+  "sheets": [
+   {
+    "page": 22,
+    "notes": "STOP sign and post replacement. Sheet 1 of 1.\nSection A-A: 11 mm (7/16 in) dia. hole in each tube for 9.5 mm (3/8 in) rivet. 50 mm (2 in) dimension.\nDetail: 760 mm (30 in) high intensity R1-1 STOP sign. 11 mm (7/16 in) hole with 9.5 mm (3/8 in) rivet. Galvanized 62.5 mm (2 1/2 in) O.D. square tube (12 gauge), 3.0 m (10 ft) long, ASTM A446. Galvanized 75 mm (3 in) O.D. square anchor tube, 610 mm (24 in) long, wall thickness 5 mm (3/16 in), ASTM A500 Grade B. Drive 1.0 m (3 ft) into ground. Plug end of anchor tube to exclude concrete. Tamped backfill typical. 305 mm (12 in) minimum to 455 mm (18 in) maximum dimension shown on the sheet.\nNotes\n1. Concrete shall comply with the latest edition of the Standard Specifications for Public Works Construction.\n2. Concrete may be premixed, sacked concrete or field proportioned cement and aggregate with water added and mixing occurring on the job site. 2% calcium chloride (by weight of cement) may be added to produce a quickset concrete.\n3. Consolidated backfill or concrete sidewalk, slope to drain."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-718",
+  "title": "STOP Sign Post Extension for Street Name Signs Installation",
+  "summary": "Pasadena detail for adding a street name sign extension to an existing STOP sign post. A 57 mm (2 1/4 in) O.D. galvanized square steel tube extension with 12 gauge wall (3 mm, 0.118 in) is attached with 9.5 mm (3/8 in) drive rivets through 11 mm (7/16 in) holes, 4 places in the post and 3 places in the extension. Salvaged street name signs and brackets are remounted, and new stainless steel strap and buckle (15 mm x 0.75 mm) secures them to the tube extension or street light standard.",
+  "keywords": [
+   "street name sign",
+   "stop sign post extension",
+   "street name sign mounting",
+   "post extension",
+   "stop sign post",
+   "square steel tube extension",
+   "drive rivets",
+   "stainless steel strap and buckle",
+   "salvaged street name signs",
+   "sign brackets",
+   "street light standard",
+   "12 gauge tube",
+   "street sign installation",
+   "sign extension"
+  ],
+  "sheets": [
+   {
+    "page": 23,
+    "notes": "STOP sign post extension (for street name signs). Sheet 1 of 1.\n57 mm (2 1/4 in) O.D. square steel tube extension, wall thickness of 12 gauge [3 mm (0.118 in)], galvanized.\n11 mm (7/16 in) diam. holes for 9.5 mm (3/8 in) drive rivets (typical): 4 places in post, 3 places in extension.\nSalvaged street name signs and brackets (typical). Existing mounting holes on STOP sign post.\nNew stainless steel strap and buckle, 15 mm x 0.75 mm (5/8 in x 0.03 in), for tube extension or street light standard."
+   }
+  ]
+ }
+]

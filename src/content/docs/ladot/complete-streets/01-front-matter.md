@@ -9,11 +9,14 @@ sidebar:
 
 <span id="p1" class="anchor"></span>
 
-### Page 1
+### Page 1 - Complete Streets Design Guide Cover
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0001.webp" alt="Complete Streets DG page 1 "></a><figcaption>Complete Streets DG, page 1 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>Great Streets for Los Angeles COMPLETE a STREETS = DESIGN GUIDE </p></details>
-<div class="kw">Keywords: streets, great, angeles, complete, design, guide</div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide Cover.</b> Cover page of the City of Los Angeles Complete Streets Design Guide, with the tagline Great Streets for Los Angeles. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Great Streets for Los Angeles</p>
+<p>Complete Streets Design Guide</p></details></div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide Cover.</b> Cover page of the City of Los Angeles Complete Streets Design Guide, with the tagline Great Streets for Los Angeles. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Great Streets for Los Angeles</p>
+<p>Complete Streets Design Guide</p></details></div>
+<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, cover, great streets for los angeles</div>
 
 
 <span id="p2" class="anchor"></span>
@@ -196,11 +199,14 @@ sidebar:
 
 <span id="p9" class="anchor"></span>
 
-### Page 9
+### Page 9 - Complete Streets Design Guide: Introduction (Section Divider)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0009.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0009.webp" alt="Complete Streets DG page 9 "></a><figcaption>Complete Streets DG, page 9 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>COMPLETE STREETS DESIGN GUIDE INTRODUCTION </p></details>
-<div class="kw">Keywords: complete, streets, design, guide, introduction</div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Introduction (Section Divider).</b> Section divider page for the Introduction chapter of the Complete Streets Design Guide. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
+<p>Introduction</p></details></div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Introduction (Section Divider).</b> Section divider page for the Introduction chapter of the Complete Streets Design Guide. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
+<p>Introduction</p></details></div>
+<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, introduction, section divider</div>
 
 
 <span id="p10" class="anchor"></span>

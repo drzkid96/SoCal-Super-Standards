@@ -528,11 +528,14 @@ sidebar:
 
 <span id="p63" class="anchor"></span>
 
-### Page 63
+### Page 63 - Complete Streets Design Guide: Sidewalk Area (Section Divider)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0063.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0063.webp" alt="Complete Streets DG page 63 "></a><figcaption>Complete Streets DG, page 63 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>COMPLETE STREETS DESIGN GUIDE SIDEWALK AREA </p></details>
-<div class="kw">Keywords: complete, streets, design, guide, sidewalk, area</div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Sidewalk Area (Section Divider).</b> Section divider page for the Sidewalk Area chapter. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
+<p>Sidewalk Area</p></details></div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Sidewalk Area (Section Divider).</b> Section divider page for the Sidewalk Area chapter. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
+<p>Sidewalk Area</p></details></div>
+<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, sidewalk area, section divider, pedestrian realm</div>
 
 
 <span id="p64" class="anchor"></span>

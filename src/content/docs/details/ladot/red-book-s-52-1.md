@@ -1,6 +1,6 @@
 ---
-title: "S-52.1 Standard drawing"
-description: "Red Book standard drawing S-52.1: Standard drawing. 3 sheet(s)."
+title: "S-52.1 Steel Signal Standards Types 1, 1A, 8, 8A and 9; RRFB Sign Arm; Foundation Types F-1 and F-8"
+description: "Red Book standard drawing S-52.1: Steel Signal Standards Types 1, 1A, 8, 8A and 9; RRFB Sign Arm; Foundation Types F-1 and F-8. Group of three LADOT sheets."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-0/">&larr; S-52.0</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1-3/">S-52.1.3 &rarr;</a></div>
 
-
+<p class="dwg-sum">Group of three LADOT sheets. The first gives structural details for tapered steel pole Types 1, 1A, 8, 8A and 9 (0.1196 in wall, base plate, hand hole, pole top tenon). The second gives the sign arm data and sign sizes for a Rectangular Rapid Flashing Beacon (<a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> and W16-7p). The third gives foundation Types F-1 and F-8 for signal standards and the Type 337 post-top cabinet, with a 36 in by 24 in by 4 in slab at each cabinet door opening in unpaved areas.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a> <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></p>
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W11-2.svg" alt="W11-2"><span><b>W11-2</b> Pedestrian warning sign</span></a></div>
 
@@ -18,17 +19,49 @@ tableOfContents: false
 ### Sheet 1 of 3 (document page 32)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0032.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0032.webp" alt="S-52.1 sheet 1"></a><figcaption>Red Book S-52.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p32">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>4%" 0.D. a ¥4" Min. an V% “Typ 4 NPS Std — | —S== \ Tt 74 | | 1" L— 94" bolt circle | | 4.00 - ‘ 6 NI il ! T ad [i - 5, | Ky R with Q" = | 16 | | central hole Kets A | | 2 | 8%" bolt circle 30° Max. S _ Pole shaft yo ~—— ; Contact ; a" X 1%" slot | KH] &lt;a Angle Detail B (Pole Top Tenon) Base Plate for anchor bolt | S&amp;/= _ qa Detail B ae tar ssr 00“ | Ww mn. at top Pole T ( Wall thickness ) -— = 0.1196" Detail A in 34" base plate Detail B res vy" . _ wo / nd See Detail A an OO 4.06" OD. : ‘2 ' ~~ at top T (Wall thickness ) a, x 2%," hole : = " " ~N 4 = = 0.1196 ’ | (Drill 1 side only) &lt; Elevation A a Detail B | | TT in Two %"@ holes ie) 4.29" O.D. ~] | (Drill through) Ns at top in io ~t + 5 = sh S ro R FP [PK 4800. 3" X 5" Hand hole at top reinforced with 1%" X 2" T_ 4.5"0.D. . ring welded to outside _ at top = of pole and )" cover co a ; 4.73" O.D. 4.83" O.D. 5.25" 0.D. 5.48" O.D. plate oN . 5.48" 0.D at base b) at base b) at base at base f) p) at base 7 {Kk {| tin | ; a Elevation A i TYPE 8 TYPE 8A TYPE 9 —/| TYPE 1A 4 A © Notes: “ «| 0.50" NC square nut 1. All standards shall be tapered steel posts with Foundation. | == 7 holder with fastener for 0.1196" wall thickness. see S-52.1 ’ grounding welded to 2. Max. taper of posts shall be 0.143" per foot. 24" X 24" interior of pole shaft at 24" @ optional 180° from hand hole rim TYPE 1 BUREAU OF ENGINEERING DWN | MT | 83-16 | Title STANDARDS GARY LEE MOORE, PE, ENV SP, CITY ENGINEER REV +o texe] TYPE 1, 1A, 8, 8A&amp;9 STRUCTURAL DESIGN CHECKED BY: VIGEN GHARIBIAN, SE E APPROVED BY: Sr.T.£.| MA | 83-16 CITY OF LOS ANGELES . VA, 8-9-16 Pr.T.E.| VW | 83-16 DEPARTMENT OF TRANSPORTATION Approved \ 8-4-16 Drawing No. SHAILESH PATEL, SE, DIVISION ENGINEER ¥ &lt; ,} _ STRUCTURAL ENGINEERING DIVISION S o1 . 1 . 3A Seleta J. Reynolds , General Manager 25 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Standards Type 1, 1A, 8, 8A and 9 (structural design). Sheet 1 of 1.</p>
+<p>Details shown: base plate (10 in sq., 9 1/2 in and 8 1/2 in bolt circles, 1 1/4 in x 1 3/4 in slots for anchor bolts), Elevation A, Detail A (weld, 30 degrees max. contact angle, 1.57 T min. and 1.83 T min.), and Detail B (pole top tenon: 4 1/2 in O.D., 4 NPS Std, 4.00 in, 1/4 in plate with 2 in central hole).</p>
+<p>T (wall thickness) = 0.1196 in. 3/4 in base plate.</p>
+<p>Type 8: 1 ft 8 in tall, 4.5 in O.D. at top, 4.73 in O.D. at base.</p>
+<p>Type 8A: 2 ft 4 in tall, 4.5 in O.D. at top, 4.83 in O.D. at base.</p>
+<p>Type 9: 7 ft 2 in tall, 4.29 in O.D. at top, 5.25 in O.D. at base.</p>
+<p>Type 1: 10 ft 6 in tall, 4.06 in O.D. at top, 5.48 in O.D. at base, foundation see S-52.1, 24 in x 24 in (24 in dia. optional), 3 ft 6 in deep. 2 ft 11.5 in to the top drill pattern: 2 1/4 in dia. hole (drill 1 side only) and two 3/4 in dia. holes (drill through), 4.5 in spacing.</p>
+<p>Type 1A: 14 ft 0 in tall, 3.57 in O.D. at top, 5.48 in O.D. at base. Drill pattern 6 ft 5.5 in from the top, same hole sizes, 4.5 in spacing.</p>
+<p>3 in x 5 in hand hole reinforced with 1/4 in x 2 in ring welded to outside of pole and 1/8 in cover plate.</p>
+<p>0.50 in NC square nut holder with fastener for grounding welded to interior of pole shaft at 180 degrees from hand hole rim.</p>
+<h5>Notes:</h5>
+<p>1. All standards shall be tapered steel posts with 0.1196 in wall thickness.</p>
+<p>2. Max. taper of posts shall be 0.143 in per foot.</p></details>
 
 ### Sheet 2 of 3 (document page 43)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0043.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0043.webp" alt="S-52.1 sheet 2"></a><figcaption>Red Book S-52.1, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p43">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>8’ max. DETAIL C DETAIL B Not to scale SIGN ARM DATA ARM SPAN [FIXED END "L” (ET.) | DIA. (IN) FREE END DIA. (IN) GA. DEGREE RISE 8’-0” 3.52 2.4 11 0.50 SIGN ARM MATERIAL DATA BASE COAT: HOT DIP GALVANIZED TO ASTM A123 PRIME COAT: NONE COLOR: NONE FINISH COAT: NONE ASTM MIN.YIELD COMPONENT DESIGNATION | (KSI) SIGN ARM SHAFT A595 GR. A 55 CLAMP A572 55 SIGN ARM CONN. BOLTS A325 55 HARDWARE. COATING HOT DIP ZINC (PELCO AB-3004) FINISH NOTES DETAIL C_ Not to scale SYSTEM: GALVANIZED (GV) SIGN DIMENSIONS CONVENTIONAL ROAD SIGN DESIGNATION SIGN OR PLAQUE SINGLE LANE | MULTICLANE <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> PEDESTRIAN 30x30* 36x36 W16-7p DOWNWARD _ DIAGONAL ARROW 24x12 24x12 * The minimum size required for diamond-shaped warning signs facing traffic on multi-lane conventional roads shall be 36x36 per MUTCD section 2C.04. CITY OF LOS ANGELES DEPARTMENT OF TRANSPORTATION RECTANGULAR RAPID FLASHING BEACON S-52.1 7 Title Drawing No. SIGN ARM 36 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Rectangular Rapid Flashing Beacon sign arm. Sheet 2 of 4.</p>
+<p>Detail B (not to scale): sign arm span 8 ft max.</p>
+<p>Detail C (not to scale): clamp (Pelco AB-3004).</p>
+<p>Sign arm data: arm span L 8 ft 0 in, fixed end dia. 3.52 in, free end dia. 2.4 in, gage 11, degree rise 0.50.</p>
+<h5>Sign arm material data:</h5>
+<p>Sign arm shaft: A595 Gr. A, min. yield 55 ksi.</p>
+<p>Clamp: A572, 55 ksi.</p>
+<p>Sign arm connection bolts: A325, 55 ksi.</p>
+<p>Hardware coating: hot dip zinc.</p>
+<p>Finish notes: system galvanized (GV). Base coat hot dip galvanized to ASTM A123. Prime coat none. Color none. Finish coat none.</p>
+<h5>Sign dimensions, conventional road (single lane / multi-lane):</h5>
+<p><a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> Pedestrian: 30x30* / 36x36.</p>
+<p>W16-7p Downward diagonal arrow: 24x12 / 24x12.</p>
+<p>* The minimum size required for diamond-shaped warning signs facing traffic on multi-lane conventional roads shall be 36x36 per MUTCD section 2C.04.</p></details>
 
 ### Sheet 3 of 3 (document page 86)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0086.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0086.webp" alt="S-52.1 sheet 3"></a><figcaption>Red Book S-52.1, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p86">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>24" 4" thick slab Notes: 1. Type F-1 --2" nominal size conduit, unless otherwise specified. Type F-8 &amp; Type F-8A --3" nominal size conduit, unless otherwise specified. Unless otherwise specified, in unpaved 36" areas a 36" X 24" X 4" slab shall be provided for each door opening in the case of a model 336 cabinet. On Type F-8 &amp; Type F-8A, ground rod shall be installed in controller pullbox. 24" —— “A 45° 36" Curb Face ——————___| p 8%" Bolt Circle 0.50" NC square nut holder with fastener for grounding welded to interior of pole shaft at 180° from hand hole rim #8 Green bonding wire Anchor bolt-thread top 8" and galvanize 12" (2 nuts and 2 washers required per ee 4" thick slab Pole Lt, 3" X 5" reinforced hand hole and cover bolt ), total 4 zo Finished grade Base plate 10" X 10" X 4" 2" Min. to 3" Max. Mortar. —————_____ - ah fl Curb Face He J: it |! le. } &lt; After plumbing standard, place mortar all 04050 2 * 4 4"Minw £&amp; around bolts. Finish with slope ranging : Topping = from 45° to 90° including drain holes 4 a 1" X 3'-0" anchor bolts thread bottom 6", ¥ : 4 NS See note ia (2 nuts and 2 washers, total 4 required | 4&amp;2 per bolt ) 4 Anchor plate 10"X 10"X3"——————S | 24" X 24" 3° Min. J 24" optional BUREAU OF ENGINEERING DWN | MT | 930-15 | Title STRUCTURAL ENGINEERING DIVISION CKD FOUNDATION (Vf) CITY ENGINEER: GARY LEE MOORE, PE,ENVSP [+e |g, loaoas TYPE F-1 &amp; F-8 STRUCTURAL DESIGN CHECKED BY: PETER CHIU, SE Sr.T.E.| MA — | 10-1-15 CITY OF LOS ANGELES APPROVED BY: DATE 1-26-16 Pr.T.E.| WJ 10-2-15 DEPARTMENT OF TRANSPORTATION bites, Lz SHAILESH PATEL, SE, DIVISION ENGINEER Approved ( \ ( Date 11-20-15 Drawing No. S-52.1 Seleta J. Reynolds, General Manager 79 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Foundation Type F-1 and F-8. Sheet 1 of 1.</p>
+<h5>Notes:</h5>
+<p>1. Type F-1: 2 in nominal size conduit, unless otherwise specified.</p>
+<p>2. Type F-8 and Type F-8A: 3 in nominal size conduit, unless otherwise specified.</p>
+<p>3. Unless otherwise specified, in unpaved areas a 36 in x 24 in x 4 in slab shall be provided for each door opening in the case of a model 336 cabinet.</p>
+<p>4. On Type F-8 and Type F-8A, ground rod shall be installed in controller pullbox.</p>
+<p>Top view: 4 in thick slab, 24 in wide, 36 in + 24 in + 36 in long, 8 1/2 in bolt circle, 45 degree bolt spacing, curb face shown.</p>
+<p>Section: base plate 10 in x 10 in x 3/4 in. Anchor bolts 1 in dia. x 3 ft 0 in, thread bottom 6 in (2 nuts and 2 washers, total 4 required per bolt). Anchor plate 10 in x 10 in x 3/4 in. Anchor bolt threaded top 8 in and galvanized 12 in. 2 in min. to 3 in max. mortar. After plumbing the standard, place mortar all around bolts and finish with slope ranging from 45 to 90 degrees including drain holes. 3 in x 5 in reinforced hand hole and cover. #8 green bonding wire. 0.50 in NC square nut holder with fastener for grounding welded to interior of pole shaft at 180 degrees from hand hole rim. 4 in min. topping. Foundation 24 in x 24 in (24 in dia. optional), 42 in deep, 14 in min. to conduit, 3 in min. below anchor plate. 36 in from curb face.</p></details>
 
 
-<div class="kw">Keywords: base, detail, type, pole, hole, bolt, plate, wall, thickness, circle, shaft, drill, elevation, hand, sign, coat, none, scale, data, galvanized, astm, finish, designation, conventional, span, fixed, free, slab, unless, otherwise</div>
+<div class="kw">Keywords: type 1 standard, type 1a standard, type 8 standard, type 9 standard, pole foundation, foundation type f-1, foundation type f-8, anchor bolts, base plate, hand hole, rectangular rapid flashing beacon, rrfb sign arm, w11-2, w16-7p, pedestrian signal pole, controller cabinet foundation, tapered steel pole, pole top tenon</div>

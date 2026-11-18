@@ -3,6 +3,9 @@
 - public/data/details.json: every figure, table, standard drawing and design-guide figure page across all sources.
 - public/data/lookup.json: instant resolver for sign codes, section numbers, figure/table ids and drawing numbers.
 """
+import sys, os as _os
+sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from apply_clean_util import notes_html
 import html, json, os, re, sys, glob
 import pymupdf
 sys.path.insert(0, os.path.dirname(__file__))
@@ -61,14 +64,17 @@ for c in cfg:
     for i, k in enumerate(order):
         sheets = groups[k]
         meta = d.get("drawing_titles", {}).get(k, {})
-        title = meta.get("title") or (sheets[0]["title"] or "").replace(f"({k})", "").strip() or "Standard drawing"
+        cl = sheets[0].get("clean") or {}
+        title = meta.get("title") or cl.get("title") or (sheets[0]["title"] or "").replace(f"({k})", "").strip() or "Standard drawing"
+        summary = cl.get("summary", "")
         slug = f"{doc_slug}-{slugify(k)}"
         url = f"{BASE}/details/{ag}/{slug}/"
         codes = sorted({x for p in sheets for x in p["sign_codes"]})
         secs = sorted({x for p in sheets for x in p["sections"]})
-        kw = []
-        for p in sheets:
-            kw += [w for w in p["keywords"] if w not in kw]
+        kw = list(cl.get("keywords") or [])
+        if not kw:
+            for p in sheets:
+                kw += [w for w in p["keywords"] if w not in kw]
         tops = topics_for(title + " " + " ".join(kw[:12]))
         dwg_pages.append((c, k, title, slug, url))
         prev_l = f'<a href="{BASE}/details/{ag}/{doc_slug}-{slugify(order[i-1])}/">&larr; {esc(order[i-1])}</a>' if i else ""
@@ -82,13 +88,13 @@ for c in cfg:
                             f'<details class="orig"><summary>Original LADOT sheet</summary>' if red else "") +
                            f'<figure class="dfig"><a href="{p["image"]}" target="_blank"><img loading="lazy" src="{p["image"]}" alt="{esc(k)} sheet {j}"></a>'
                            f'<figcaption>{esc(c["short"])} {esc(k)}, sheet {j}. <a href="{p["url"]}">Open in the document</a>.</figcaption></figure>\n'
-                           f'{"</details>" if red else ""}<details class="ocr"><summary>Notes and text on this sheet{" (OCR)" if p["ocr"] else ""}</summary><p>{esc(p["text"][:5000])}</p></details>\n')
+                           f'{"</details>" if red else ""}' + (f'<details class="ocr" open><summary>Notes on this sheet (cleaned from the {"scan" if p["ocr"] else "PDF text"})</summary>{notes_html(p["clean"]["notes"])}</details>\n' if (p.get("clean") or {}).get("notes") else f'<details class="ocr"><summary>Notes and text on this sheet{" (OCR)" if p["ocr"] else ""}</summary><p>{esc(p["text"][:5000])}</p></details>\n'))
         sign_html = "".join(f'<a class="tsign sref" href="{BASE}/signs/{signs[x]["slug"]}/" data-svg="{BASE}{signs[x]["svg"]}"><img loading="lazy" src="{BASE}{signs[x]["svg"]}" alt="{esc(x)}"><span><b>{esc(x)}</b> {esc(signs[x]["descriptor"][:40])}</span></a>' for x in codes if x in signs)
         sec_html = ", ".join(f'<a href="{ca_secs[x]["url"]}">CA MUTCD {esc(x)} {esc(ca_secs[x]["title"][:60])}</a>' for x in secs if x in ca_secs)
         top_html = " ".join(f'<a class="chip" href="{BASE}/topics/{t}/">{esc(TOPIC_NAME[t])}</a>' for t in tops)
         md = f'''---
 title: "{k} {title.replace(chr(34), "'")}"
-description: "{c['short']} standard drawing {k}: {title.replace(chr(34), "'")}. {len(sheets)} sheet(s){(', dated ' + meta['date']) if meta.get('date') else ''}."
+description: "{c['short']} standard drawing {k}: {title.replace(chr(34), "'")}. {(summary.split('. ')[0].rstrip('.').replace(chr(34), "'") + '.') if summary else (str(len(sheets)) + ' sheet(s).')}"
 tableOfContents: false
 ---
 
@@ -97,6 +103,7 @@ tableOfContents: false
 
 <div class="dwg-nav">{prev_l} <a href="{BASE}/details/?src={esc(c["short"])}">All {esc(c["short"])} drawings</a> {next_l}</div>
 
+{('<p class="dwg-sum">' + esc(summary) + '</p>') if summary else ''}
 {('<p class="dwg-topics">Topics: ' + top_html + '</p>') if top_html else ''}
 {('<p>Referenced MUTCD sections: ' + sec_html + '</p>') if sec_html else ''}
 {('<h2>Signs on this drawing</h2><div class="tsigns">' + sign_html + '</div>') if sign_html else ''}
@@ -109,17 +116,17 @@ tableOfContents: false
         open(f"src/content/docs/details/{ag}/{slug}.md", "w").write(md)
         items.append({"src": c["short"], "sg": AG, "type": "Standard drawing", "num": k, "title": title, "img": sheets[0]["image"],
                       "url": url, "topics": tops, "date": meta.get("date", ""), "sheets": len(sheets), "signs": codes[:12],
-                      "kw": " ".join(kw[:20])})
+                      "kw": " ".join(kw[:20]), "sum": summary[:400]})
     # design-guide figure pages without a drawing number
     for p in d["pages"]:
         if p["image"] and not p["drawings"]:
             lab = run.get(p["page"], "")
-            t = p["title"] or lab or f"Page {p['page']}"
+            t = (p.get("clean") or {}).get("title") or p["title"] or lab or f"Page {p['page']}"
             if lab and p["title"] and lab not in p["title"]:
                 t = f"{lab}: {p['title']}"
             items.append({"src": c["short"], "sg": AG, "type": "Figure page", "num": f"p{p['page']}", "title": t[:150], "img": p["image"],
                           "url": p["url"], "topics": topics_for(t + " " + " ".join(p["keywords"][:8])), "signs": p["sign_codes"][:8],
-                          "kw": " ".join(p["keywords"][:12])})
+                          "kw": " ".join((p.get("clean") or {}).get("keywords") or p["keywords"][:12]), "sum": (p.get("clean") or {}).get("summary", "")[:400]})
 
 # small thumbnails for index grids
 from PIL import Image

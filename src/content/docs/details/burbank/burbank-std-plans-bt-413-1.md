@@ -1,6 +1,6 @@
 ---
 title: "BT-413-1 Sign and Post in Median"
-description: "Burbank Std. Plans standard drawing BT-413-1: Sign and Post in Median. 1 sheet(s), dated 11-14-19."
+description: "Burbank Std. Plans standard drawing BT-413-1: Sign and Post in Median. Shows how to mount a W12-1 or R4-7 sign with a yellow OM1-3 object marker on a 2'x2' square post in a median."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-412-1/">&larr; BT-412-1</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-414/">BT-414 &rarr;</a></div>
 
-<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a></p>
+<p class="dwg-sum">Shows how to mount a <a class="sref" href="/SoCal-Super-Standards/signs/w12-1/" data-svg="/SoCal-Super-Standards/signs/W12-1.svg">W12-1</a> or <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> sign with a yellow <a class="sref" href="/SoCal-Super-Standards/signs/om1-3/" data-svg="/SoCal-Super-Standards/signs/OM1-3.svg">OM1-3</a> object marker on a 2"x2" square post in a median. Standard sizes are 24" x 24" for the <a class="sref" href="/SoCal-Super-Standards/signs/w12-1/" data-svg="/SoCal-Super-Standards/signs/W12-1.svg">W12-1</a> and 24" x 30" for the <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>. If the median is less than 3' wide, use an 18" x 24" <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and an OM3-L object marker.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/om1-3/" data-svg="/SoCal-Super-Standards/signs/OM1-3.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/OM1-3.svg" alt="OM1-3"><span><b>OM1-3</b> Object Marker Type 1 marker</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R4-7.svg" alt="R4-7"><span><b>R4-7</b> Keep Right regulatory sign</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/w12-1/" data-svg="/SoCal-Super-Standards/signs/W12-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W12-1.svg" alt="W12-1"><span><b>W12-1</b> Double Arrow warning sign</span></a></div>
 
@@ -18,7 +19,15 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 17)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0017.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0017.webp" alt="BT-413-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-413-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p17">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>SECURE SIGN WITH DRIVE RIVET , INSTALL <a class="sref" href="/SoCal-Super-Standards/signs/w12-1/" data-svg="/SoCal-Super-Standards/signs/W12-1.svg">W12-1</a> SIGN (24” X 24”) 6 MIN OR <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> SIGN (24” X 30”)* 2”X2” SQUARE POST ta (12 GAGE) INSTALL TYPE <a class="sref" href="/SoCal-Super-Standards/signs/om1-3/" data-svg="/SoCal-Super-Standards/signs/OM1-3.svg">OM1-3</a> YELLOW 6” MIN. OBJECT MARKER (24” X 24”)* %” HOLES. INSERT SIGN POST AND FASTEN Nn WITH RIVETS 7”_ MINIMUM aN XK EXIST. CONCRETE OR ASPHALT PAVING EX. CONCRETE CURB AND GUTTER Zz ASPHALT PAVING 2%” X 2%” SQUARE HEAVY DUTY GALVANIZED ANCHOR SLEEVE (TELESPAR OR EQUAL) (NOT TO SCALE) * IF MEDIAN WIDTH IS LESS THAN 3 FEET, USE <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> (18” X 24”) SIGN AND OM3-L OBJECT MARKER. ALL REGULATORY AND WARNING SIGNS SHALL BE MINIMUM 0.063 INCH THICK AND HAVE 3M HIGH INTENSITY PRISMATIC SHEETING (SERIES #3930) WITH 3M PREMIUM PROTECTIVE OVERLAY FILM (SERIES #1160). CITY OF BURBANK - PUBLIC WORKS DEPARTMENT REVIEW imal _|_DATE SIGN AND POST. IN MEDIAN STANDARD PLAN BLIC WORKS DIRECTOR Amy | uls}4 | APPROVED BY: (ide lhe | 4 BT 415~ PU 4k TE SHEET 1 OF 1 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>SIGN AND POST IN MEDIAN (not to scale)</p>
+<p>Secure sign with drive rivet.</p>
+<p>Install <a class="sref" href="/SoCal-Super-Standards/signs/w12-1/" data-svg="/SoCal-Super-Standards/signs/W12-1.svg">W12-1</a> sign (24&quot; x 24&quot;) or <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> sign (24&quot; x 30&quot;)*.</p>
+<p>Install Type <a class="sref" href="/SoCal-Super-Standards/signs/om1-3/" data-svg="/SoCal-Super-Standards/signs/OM1-3.svg">OM1-3</a> yellow object marker (24&quot; x 24&quot;)*.</p>
+<p>2&quot;x2&quot; square post (12 gage), 7&quot; minimum, 6&quot; min. 1/4&quot; holes. Insert sign post and fasten with rivets.</p>
+<p>Existing concrete or asphalt paving. Existing concrete curb and gutter.</p>
+<p>Galvanized 2 1/2&quot; x 2 1/2&quot; square heavy duty anchor sleeve (Telespar or equal).</p>
+<p>* If median width is less than 3 feet, use <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> (18&quot; x 24&quot;) sign and OM3-L object marker.</p>
+<p>All regulatory and warning signs shall be minimum 0.063 inch thick and have 3M high intensity prismatic sheeting (Series #3930) with 3M premium protective overlay film (Series #1160).</p></details>
 
 
-<div class="kw">Keywords: sign, post, install, square, object, marker, minimum, concrete, asphalt, paving, median, series, works, secure</div>
+<div class="kw">Keywords: median sign, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/w12-1/" data-svg="/SoCal-Super-Standards/signs/W12-1.svg">W12-1</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-3/" data-svg="/SoCal-Super-Standards/signs/OM1-3.svg">OM1-3</a>, OM3-L, object marker, keep right sign, median post, narrow median, sign in median, yellow object marker, sign sheeting, telespar post, anchor sleeve, median nose</div>

@@ -9,11 +9,14 @@ sidebar:
 
 <span id="p1" class="anchor"></span>
 
-### Page 1
+### Page 1 - Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (Cover)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0001.webp" alt="FHWA STEP Guide page 1 "></a><figcaption>FHWA STEP Guide, page 1 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>Q US.Department of Transportation r(S CEi Dt - Federal Highway Administration Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations 1! wt </p></details>
-<div class="kw">Keywords: department, transportation, federal, highway, administration, guide, improving, pedestrian, safety, uncontrolled, crossing, locations</div>
+<div class="pclean"><p class="psum"><b>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (Cover).</b> Cover page of the FHWA STEP guide for improving pedestrian safety at uncontrolled crossing locations. It carries the U.S. Department of Transportation and Federal Highway Administration names and the guide title only.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>U.S. Department of Transportation, Federal Highway Administration</p>
+<p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p></details></div>
+<div class="pclean"><p class="psum"><b>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (Cover).</b> Cover page of the FHWA STEP guide for improving pedestrian safety at uncontrolled crossing locations. It carries the U.S. Department of Transportation and Federal Highway Administration names and the guide title only.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>U.S. Department of Transportation, Federal Highway Administration</p>
+<p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p></details></div>
+<div class="kw">Keywords: STEP guide, uncontrolled crossings, pedestrian safety, FHWA pedestrian guide, Safe Transportation for Every Pedestrian, unsignalized crosswalk, crosswalk safety, pedestrian crossing treatments, FHWA cover page</div>
 
 
 <span id="p2" class="anchor"></span>

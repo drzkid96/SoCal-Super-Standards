@@ -1,6 +1,6 @@
 ---
-title: "S-76.3 (S-76.3, S-76.7)"
-description: "Red Book standard drawing S-76.3: (S-76.3, S-76.7). 3 sheet(s)."
+title: "S-76.3 Signal Visors: Long Visor, Tunnel (Pigeon) Visor and Full Circle Visor, 8 in and 12 in"
+description: "Red Book standard drawing S-76.3: Signal Visors: Long Visor, Tunnel (Pigeon) Visor and Full Circle Visor, 8 in and 12 in. Three sheets showing LADOT signal visor types for 8 in and 12 in heads."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-73-0/">&larr; S-73.0</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-76-6/">S-76.6 &rarr;</a></div>
 
-
+<p class="dwg-sum">Three sheets showing LADOT signal visor types for 8 in and 12 in heads. The sheets cover the long visor (8 in x 18 in and 12 in x 27 in full circle), the tunnel or pigeon visor (8 in x 8 in and 12 in x 12 in), and the standard full circle visor (8 in and 12 in). Each refers to the ear detail on S-76.3 and to LADOT Purchase Specification #92-061-06.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></p>
 
 
 
@@ -18,17 +19,26 @@ tableOfContents: false
 ### Sheet 1 of 3 (document page 59)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0059.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0059.webp" alt="S-76.3 sheet 1"></a><figcaption>Red Book S-76.3, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p59">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>See Ear Detail on | Std. Dwg. No. S-76.3 Long Visor, 8" X 18" full circle Not to Scale . See Ear Detail on | Std. Dwg. No. S-76.3 Long Visor, 12" X 27" full circle Not to Scale Note: Refer to LADOT Purchase Specification # 92-061-06 for all other details. -05- Titl ao Ren] LONG VISOR TE 8" &amp; 12" DIAMETER FULL CIRCLE Sr.T.E. CITY OF LOS ANGELES Pr.T.E. DEPARTMENT OF TRANSPORTATION Approved January 26, 2017 | Drawing No. See fs Keadial S-76.7 for Amir Sedadi, Interim General Manager 52 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Long visor, 8 in and 12 in diameter, full circle (S-76.7).</p>
+<p>Long visor, 8 in x 18 in full circle. Not to scale. See ear detail on Std. Dwg. No. S-76.3.</p>
+<p>Long visor, 12 in x 27 in full circle. Not to scale. See ear detail on Std. Dwg. No. S-76.3.</p>
+<p>Note: Refer to LADOT Purchase Specification #92-061-06 for all other details.</p></details>
 
 ### Sheet 2 of 3 (document page 60)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0060.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0060.webp" alt="S-76.3 sheet 2"></a><figcaption>Red Book S-76.3, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p60">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>R H- a ro See Ear Detail on Std. Dwg. No. S-76.3 Visor, 8" X 8" Tunnel Not to Scale Visor, 12" X 12" Tunnel See Ear Detail on Not to Scale Note: Refer to LADOT Purchase Specification # 92-061-06 for all other details. Std. Dwg. No. S-76.3 ste e PIGEON (TUNNEL) VISOR TE 8" &amp; 12" DIAMETER Sr.T.E. CITY OF LOS ANGELES Pr. T.E. DEPARTMENT OF TRANSPORTATION Approved ca January 26, 2071 | Drawing No. Ged Readhiad S-76.8 for Amir Sedadi, Interim General Manager 53 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pigeon (tunnel) visor, 8 in and 12 in diameter (S-76.8).</p>
+<p>Visor, 8 in x 8 in tunnel. Not to scale. See ear detail on Std. Dwg. No. S-76.3.</p>
+<p>Visor, 12 in x 12 in tunnel. Not to scale. See ear detail on Std. Dwg. No. S-76.3.</p>
+<p>Note: Refer to LADOT Purchase Specification #92-061-06 for all other details.</p></details>
 
 ### Sheet 3 of 3 (document page 61)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0061.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0061.webp" alt="S-76.3 sheet 3"></a><figcaption>Red Book S-76.3, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p61">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>00, H- xs ro) N H- &gt; ro See Ear Detail on | Std. Dwg. No. S-76.3 Visor, 8" full circle Not to Scale See Ear Detail on ff Std. Dwg. No. S-76.3 Visor, 12" full circle Not to Scale Note: Refer to LADOT Purchase Specification # 92-061-06 for all other details. ow he VISOR — 8" &amp; 12" DIAMETER FULL CIRCLE Sr. T.E. CITY OF LOS ANGELES Pr. T.E. DEPARTMENT OF TRANSPORTATION Approved January 26, 2011} Drawing No. be 2. hechu S-76.9 Amir Sedadi, Interim General Manager 54 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Visor, 8 in and 12 in diameter, full circle (S-76.9).</p>
+<p>Visor, 8 in full circle. Not to scale. See ear detail on Std. Dwg. No. S-76.3.</p>
+<p>Visor, 12 in full circle. Not to scale. See ear detail on Std. Dwg. No. S-76.3.</p>
+<p>Note: Refer to LADOT Purchase Specification #92-061-06 for all other details.</p></details>
 
 
-<div class="kw">Keywords: long, visor, full, circle, detail, scale, note, refer, ladot, purchase, specification, details, titl, diameter, tunnel, pigeon, city, angeles</div>
+<div class="kw">Keywords: long visor, tunnel visor, pigeon visor, full circle visor, 8 inch visor, 12 inch visor, signal head visor, traffic signal visor, visor ear detail, purchase specification 92-061-06, s-76.7, s-76.8, s-76.9</div>

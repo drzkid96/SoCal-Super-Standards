@@ -398,11 +398,14 @@ sidebar:
 
 <span id="p41" class="anchor"></span>
 
-### Page 41
+### Page 41 - Complete Streets Design Guide: Complete Street Diagrams (Section Divider)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0041.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0041.webp" alt="Complete Streets DG page 41 "></a><figcaption>Complete Streets DG, page 41 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>COMPLETE STREETS DESIGN GUIDE COMPLETE STREET DIAGRAMS </p></details>
-<div class="kw">Keywords: complete, streets, design, guide, street, diagrams</div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Complete Street Diagrams (Section Divider).</b> Section divider page for the Complete Street Diagrams chapter. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
+<p>Complete Street Diagrams</p></details></div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Complete Street Diagrams (Section Divider).</b> Section divider page for the Complete Street Diagrams chapter. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
+<p>Complete Street Diagrams</p></details></div>
+<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, complete street diagrams, section divider, street cross sections</div>
 
 
 <span id="p42" class="anchor"></span>

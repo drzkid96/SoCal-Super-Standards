@@ -1,6 +1,6 @@
 ---
 title: "S-715 New Sign Post Installation"
-description: "Pasadena Std. Plans standard drawing S-715: New Sign Post Installation. 1 sheet(s), dated 07-07-03."
+description: "Pasadena Std. Plans standard drawing S-715: New Sign Post Installation. Pasadena detail for installing a new sign post using a driven anchor and anchor sleeve."
 tableOfContents: false
 ---
 
@@ -9,6 +9,7 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-714/">&larr; S-714</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-716/">S-716 &rarr;</a></div>
 
+<p class="dwg-sum">Pasadena detail for installing a new sign post using a driven anchor and anchor sleeve. The anchor is driven about 1.0 m (3 ft) into the ground, an anchor sleeve one size larger and 455 mm (18 in) long is driven over it, and the sign post is inserted and fastened with drive rivets. Clearance from the curb face is 455 mm (18 in) desirable and 305 mm (12 in) minimum, with at least 2.1 m (7 ft) from the ground to the bottom of the lowest sign.</p>
 <p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a></p>
 
 
@@ -18,7 +19,14 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 20)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0020.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0020.webp" alt="S-715 sheet 1"></a><figcaption>Pasadena Std. Plans S-715, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p20">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>| 0 mm TO 15 mm (0” TO 1/2”) UA DRIVE RIVET -&lt;&lt; (TYPICAL) Pl 455 mm 18”) CLEARANCE FROM~ ( CURB FACE DESIRABLE 305 mm (12”) MINIMUM - Ht - HH - Zz = 51 mm (2”) SQ. O.D. 214) PLAN (12 GAGE) SIGN POST € oi TWO (2) HOLES AT 90° IN ANCHOR SLEEVE 4 HOLES IN SIGN POST __-- Ne SURFACE fe -_ FE XS \C 7) - RYO | NO" a el Two (2) DRIVE rw o RIVETS @ 90° 4 = ed a Q wy Zo. K € VY 1) o 63 mm S (2 1/2”) SQ. 57 mm (2 1/4”) SQ. Ipf, 0.D. (12 GAGE) 0.D. (12 GAGE) VtX ANCHOR SLEEVE \, ANCHOR SLEEVE 4K “ [_NoTeS: | OU Our ® qd) DRIVE SIGN POST ANCHOR INTO GROUND APPROXIMATELY 1.0 m (3’). LEAVE ONE HOLE EXPOSED ABOVE GROUND FOR RIVET CONNECTION. (2) DRIVE IN ANCHOR SLEEVE WHICH IS ONE SIZE LARGER THAN POST ANCHOR AND 455 mm (18”) LONG. () INSERT SIGN POST AND FASTEN IN PLACE. (4) 2.1 m (7’) MINIMUM CLEARANCE TO BOTTOM OF THE LOWEST SIGN. CITY OF PASADENA - PUBLIC WORKS &amp; TRANSPORTATION DEPARTMENT DRAWNBY: ¢f REVISION: - | UNITS: 1 DUAL ~~ -| NEW SIGN POST INSTALLATION [axoxone JOSE LOERA i _ NORMAN SORINAO EC 7 z/e 3 S-718 |NORMAN TRANSPORTATION ADMINISTRATOR RTE NO. 1520 EXPIRES JUNE 30,2005 DATE S71S-I-REVLDWG 7/8/03 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>New sign post installation. Sheet 1 of 1.</p>
+<p>Plan: 455 mm (18 in) clearance from curb face desirable, 305 mm (12 in) minimum. 51 mm (2 in) sq. O.D. (12 gage) sign post. Two (2) holes at 90 degrees in anchor sleeve. Four holes in sign post. Two (2) drive rivets at 90 degrees, 0 mm to 15 mm (0 to 1/2 in) above surface (typical).</p>
+<p>Anchor sleeve options: 63 mm (2 1/2 in) sq. O.D. (12 gage) and 57 mm (2 1/4 in) sq. O.D. (12 gage).</p>
+<p>Notes</p>
+<p>1. Drive sign post anchor into ground approximately 1.0 m (3 ft). Leave one hole exposed above ground for rivet connection.</p>
+<p>2. Drive in anchor sleeve which is one size larger than post anchor and 455 mm (18 in) long.</p>
+<p>3. Insert sign post and fasten in place.</p>
+<p>4. 2.1 m (7 ft) minimum clearance to bottom of the lowest sign.</p></details>
 
 
-<div class="kw">Keywords: sign, post, anchor, drive, sleeve, gage, rivet, clearance, minimum, holes, ground, transportation, norman, typical</div>
+<div class="kw">Keywords: sign post, new sign post, sign post installation, anchor sleeve, post anchor, 12 gage square tube, drive rivet, telespar, breakaway post, sign clearance, 7 ft sign clearance, curb clearance, sign mounting height, square tube post, 2 inch square post</div>

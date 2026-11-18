@@ -1,6 +1,6 @@
 ---
-title: "S-70.3 Standard drawing"
-description: "Red Book standard drawing S-70.3: Standard drawing. 1 sheet(s)."
+title: "S-70.3 Multi-Lead-In Cable Pair Loop"
+description: "Red Book standard drawing S-70.3: Multi-Lead-In Cable Pair Loop. Wiring diagram showing how up to eight detector loops are connected to a 4-pair multi-lead-in cable, with the pair colors and the actuation phase each loop serves."
 tableOfContents: false
 ---
 
@@ -9,6 +9,7 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-1/">&larr; S-70.1</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-72-0/">S-72.0 &rarr;</a></div>
 
+<p class="dwg-sum">Wiring diagram showing how up to eight detector loops are connected to a 4-pair multi-lead-in cable, with the pair colors and the actuation phase each loop serves. Loops are wired in series in groups of two to four per pair, never in parallel. Typical installation is shown, and two or three pair cable may be used when the signal plan shows it.</p>
 <p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></p>
 
 
@@ -18,7 +19,14 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 73)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0073.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0073.webp" alt="S-70.3 sheet 1"></a><figcaption>Red Book S-70.3, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p73">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>Actuation/ Phase Loops LOOP 2 2 sf VY la LOOP 1 E 1 LOOP 3 LOOP 4 s( YY \6 7 8 LOOP 5 LOOP 6 9 10 1 12 LOOP 7 LOOP 8 13 14 15 16 NOTES: 1. CONNECT TWO TO FOUR LOOPS IN SERIES TO EACH PAIR, DO NOT USE PARALLEL CONNECTIONS. 2. DO NOT CONNECT ANY UNUSED CABLE PAIRS. _— DIRECTION OF TRAVEL CURB LINE 4 PAIR CABLE BLUE/WHITE ORANGE /WHITE GREEN /WHITE BROWN /WHITE 3. TYPICAL INSTALLATION SHOWN. TWO OR THREE PAIR CABLE MAY BE USED WHEN SHOWN ON SIGNAL PLAN. DRAIN WIRE CONNECTED TO EARTH GROUND AT CONTROLLER CABINET DWN MT 05-07-08 CKD T. E. Title MULTI— LEAD—IN CABLE PAIR LOOP ) Sr. T. E. Pr. T. E. CITY OF LOS ANGELES DEPARTMENT OF TRANSPORTATION Approved June 26, 2008 OF RE eT Drawing No. S-70.3 Rita L. Robinson, General Manager </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Actuation/Phase Loops</p>
+<p>Loops 1 through 8 are shown along the direction of travel next to the curb line, wired to cable pairs 1 through 16.</p>
+<p>4 pair cable colors: blue/white, orange/white, green/white, brown/white.</p>
+<p>Drain wire connected to earth ground at controller cabinet.</p>
+<h5>Notes:</h5>
+<p>1. Connect two to four loops in series to each pair. Do not use parallel connections.</p>
+<p>2. Do not connect any unused cable pairs.</p>
+<p>3. Typical installation shown. Two or three pair cable may be used when shown on signal plan.</p></details>
 
 
-<div class="kw">Keywords: loop, pair, cable, white, loops, connect, shown, actuation, phase, notes, four, series, parallel, connections</div>
+<div class="kw">Keywords: detector loops, loop wiring, lead-in cable, multi-lead-in cable, 4 pair cable, loop series connection, no parallel connections, cable pair colors, actuation phase, drain wire, inductive loop, controller cabinet ground, loop detector wiring</div>

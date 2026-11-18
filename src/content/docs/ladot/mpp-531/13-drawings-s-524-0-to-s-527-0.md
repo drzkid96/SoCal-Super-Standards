@@ -9,118 +9,73 @@ sidebar:
 
 <span id="p175" class="anchor"></span>
 
-### Page 175 - S-523.0 Bus Bulbs
+### Page 175 - Bus Bulbs
 
 <div class="pmeta">Drawings: <strong>S-523.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> &middot; Topics: crosswalks, bikeways, transit, parking-curb, signs, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0175.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0175.webp" alt="MPP 531 page 175 S-523.0 Bus Bulbs"></a><figcaption>MPP 531, page 175. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>STREET</p>
-<h4>CONSTRAINED TYPE II BUS BULB</h4>
-<h4>RAISED BIKE LANE</h4>
-<p>SIDEWALK</p>
-<p>BIKE LANE</p>
-<p>GREEN COLORED SURFACE RECOMMENDED, (SEE NOTE 2)</p>
-<p>BICYCLE YIELD LINE (TYP)</p>
-<p>5' X 3' DIRECTIONAL INDICATOR STRIP (OPTIONAL)</p>
-<p>12" WHITE OR YELLOW CROSSWALK ALIGNED WITH BUS DOORS (TYP)</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> AND <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a></p>
-<p>BUS STOP SIGN</p>
-<p>BICYCLE RAMP MARKING</p>
-<p>(CHEVRON IV) (TYP)</p>
-<p>BICYCLE LANE SYMBOL RED CURB (SEE NOTE 11)</p>
-<p>5' x 8' MIN. FORWARD BOARDING AND ALIGHTING AREA (SEE NOTE 5)</p>
-<p>POTENTIAL BUS SHELTER</p>
-<p>LOCATION (SEE NOTE 4)</p>
-<p>BUS BULB LENGTH</p>
-<p>SEE NOTE 6</p>
-<p>2' WIDE DETECTABLE WARNING SURFACES (TYP)</p>
-<p>BICYCLE RAMP 12.5% MAX. SLOPE</p>
-<p>BICYCLE RAMP 12.5% MAX. SLOPE</p>
-<p>12' x 4' OR 5' x 8' MIN. CLEAR ZONE FOR REAR BOARDING AND ALIGHTING</p>
-<p>AREA (SEE NOTE 8)</p>
-<p>STREET</p>
-<h4>CONSTRAINED TYPE II BUS BULB RAISED BIKE LANE WITH NARROW BOARDING AND ALIGHTING AREA</h4>
-<p>SIDEWALK</p>
-<p>CLASS IV BIKE LANE</p>
-<p>5' X 3' DIRECTIONAL INDICATOR STRIP (OPTIONAL) 2' WIDE DETECTABLE WARNING SURFACES (TYP)</p>
-<p>4' (MIN)</p>
-<p>3' (MIN)</p>
-<p>BUS STOP SIGN BICYCLE RAMP MARKING</p>
-<p>(CHEVRON IV) (TYP)</p>
-<p>BICYCLE LANE SYMBOL</p>
-<p>GREEN COLORED SURFACE RECOMMENDED,</p>
-<p>SEE NOTE 2</p>
-<p>12" WHITE OR YELLOW CROSSWALK ALIGNED WITH BUS DOORS (TYP)</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> AND <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a></p>
-<p>RED CURB (SEE NOTE 11)</p>
-<p>PLASTIC BOLLARD OR</p>
-<p>PLASTIC POST, (TYP)</p>
-<p>POTENTIAL BUS SHELTER LOCATION (SEE NOTE 4)</p>
-<p>BUS BULB LENGTH</p>
-<p>SEE NOTE 6</p>
-<p>BIKE LANE</p>
-<p>5' x 8' MIN. FORWARD BOARDING AND ALIGHTING AREA (SEE NOTE 5)</p>
-<p>BICYCLE RAMP 12.5% MAX. SLOPE</p>
-<p>BICYCLE RAMP 12.5% MAX. SLOPE</p>
-<p>12' x 4' OR 5' x 8' MIN. CLEAR ZONE FOR REAR BOARDING AND ALIGHTING AREA (SEE NOTE 8)</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a></p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a></p>
-<h4>YIELD</h4>
-<h4>TO PEDS</h4></div>
-<div class="kw">Keywords: note, bicycle, lane, ramp, bike, boarding, alighting, area, bulb, slope, street, constrained, type, raised</div>
+<div class="pclean"><p class="psum"><b>Bus Bulbs.</b> Plan and elevation layouts for Type II bus bulbs where a Class IV bike lane passes behind the bus stop. Sheets show a floating bus bulb with an integrated bike lane, a constrained bulb with a raised bike lane and a narrow boarding area, and a shelter and handrail placement guide. A table of LADOT, DASH and Metro bus series gives door spacing and minimum bulb lengths from 21 ft to 30 ft, and boarding areas of 5&#x27; x 8&#x27; minimum at the accessible door with a 12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; clear zone at the other door.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Street Constrained Type II Bus Bulb, raised bike lane, and the same with a narrow boarding and alighting area.</p>
+<p>Callouts: raised bike lane; sidewalk; green colored surface recommended (see Note 2); bicycle yield line (typ); 5&#x27; x 3&#x27; directional indicator strip (optional); 12&quot; white or yellow crosswalk aligned with bus doors (typ); <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>; bus stop sign; bicycle ramp marking (chevron IV) (typ); bicycle lane symbol; red curb (see Note 11); 5&#x27; x 8&#x27; min. forward boarding and alighting area (see Note 5); potential bus shelter location (see Note 4); bus bulb length, see Note 6; 2&#x27; wide detectable warning surfaces (typ); bicycle ramp 12.5% max. slope; 12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; min. clear zone for rear boarding and alighting area (see Note 8); Class IV bike lane; plastic bollard or plastic post (typ); narrow area dimensions 4&#x27; (min) and 3&#x27; (min); <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> and <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> Yield to Peds.</p></details></div>
+<div class="pclean"><p class="psum"><b>Bus Bulbs.</b> Plan and elevation layouts for Type II bus bulbs where a Class IV bike lane passes behind the bus stop. Sheets show a floating bus bulb with an integrated bike lane, a constrained bulb with a raised bike lane and a narrow boarding area, and a shelter and handrail placement guide. A table of LADOT, DASH and Metro bus series gives door spacing and minimum bulb lengths from 21 ft to 30 ft, and boarding areas of 5&#x27; x 8&#x27; minimum at the accessible door with a 12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; clear zone at the other door.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Street Constrained Type II Bus Bulb, raised bike lane, and the same with a narrow boarding and alighting area.</p>
+<p>Callouts: raised bike lane; sidewalk; green colored surface recommended (see Note 2); bicycle yield line (typ); 5&#x27; x 3&#x27; directional indicator strip (optional); 12&quot; white or yellow crosswalk aligned with bus doors (typ); <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>; bus stop sign; bicycle ramp marking (chevron IV) (typ); bicycle lane symbol; red curb (see Note 11); 5&#x27; x 8&#x27; min. forward boarding and alighting area (see Note 5); potential bus shelter location (see Note 4); bus bulb length, see Note 6; 2&#x27; wide detectable warning surfaces (typ); bicycle ramp 12.5% max. slope; 12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; min. clear zone for rear boarding and alighting area (see Note 8); Class IV bike lane; plastic bollard or plastic post (typ); narrow area dimensions 4&#x27; (min) and 3&#x27; (min); <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> and <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> Yield to Peds.</p></details></div>
+<div class="kw">Keywords: bus bulb, bus stop bulb, floating bus stop, bus boarding island, bus stop with bike lane, class IV bike lane at bus stop, raised bike lane, bus bulb length, bus door spacing, boarding and alignment area, bus shelter location, <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> yield to peds, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>, detectable warning surface, bicycle ramp, chevron markings, curb extension bus stop</div>
 
 
 <span id="p176" class="anchor"></span>
 
-### Page 176 - S-523.0 Bus Bulbs
+### Page 176 - Bus Bulbs
 
 <div class="pmeta">Drawings: <strong>S-523.0</strong> &middot; Topics: transit, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0176.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0176.webp" alt="MPP 531 page 176 S-523.0 Bus Bulbs"></a><figcaption>MPP 531, page 176. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>DOOR 1 36" WIDE DOOR 2 36" WIDE DOOR 3 36" WIDE</p>
-<p>DOOR SPACING</p>
-<p>DOOR 1 DOOR 2</p>
-<p>MINIMUM BUS BULB LENGTH</p>
-<p>BUS LENGTH PREFERABLE BUS BULB LENGTH</p>
-<p>DOOR 1 (FRONT DOOR) DEPICTED AS WHEELCHAIR ACCESSIBLE DOOR</p>
-<p>AGENCY BUS SERIES</p>
-<p>LENGTH</p>
-<p>(ft)</p>
-<p>DOOR SPACING** FRONT DOOR WIDTH REAR DOOR WIDTH ACCESSIBLE</p>
-<p>DOOR*</p>
-<p>TOTAL LENGTH OF DOORS</p>
-<p>AND SPACE BETWEEN (ft)</p>
-<p>MINIMUM BUS BULB LENGTH (ft) 1-2 (in) 1-2 (ft) (in) (ft) (in) (ft)</p>
-<p>DASH LADOT</p>
-<p>EZRIDER 32 148 12.33 36 3 36 3 REAR* 15.33 21 EZRIDER II 32 156 13.00 36 3 36 3 FRONT 16.00 22 AXESS 35 180 15.00 36 3 36 3 FRONT 18.00 24 GILLIG 30 165 13.75 36 3 30 2.5 FRONT 16.50 23 K9LR 32 156 13.00 36 3 36 3 FRONT 16.00 22 K7M 30 146 12.17 44 3.67 47 3.92 REAR* 15.96 21 PROTERRA 35 221 18.42 33 2.75 39 3.25 FRONT 21.42 27</p>
-<p>METRO</p>
-<p>1001-1005 40 237 19.75 30 2.5 30 2.5 FRONT 22.25 29</p>
-<p>3850-4199 40 249 20.75 30 2.5 30 2.5 FRONT 23.25 30</p>
-<p>4200-4205 42 195 16.25 36 3 36 3 FRONT 19.25 25</p>
-<p>5300-5522 40 257 21.42 30 2.5 30 2.5 FRONT 23.92 30</p>
-<p>5600-6149 40 249 20.75 30 2.5 30 2.5 FRONT 23.25 30</p>
-<p>7000-7949 40 207 17.25 30 2.5 30 2.5 FRONT 19.75 26</p>
-<p>7980 40 208 17.33 30 2.5 30 2.5 FRONT 19.83 26</p>
-<p>8000-8650 45 255 21.25 30 2.5 30 2.5 FRONT 23.75 30</p>
-<p>* DRAWING DEPICTS ACCESSIBLE DOOR AT FRONT OF BUS. IF ACCESSIBLE DOOR IS AT REAR OF BUS, 5' x 8' BOARDING AND ALIGHTING</p>
-<p>AREA MUST BE LOCATED AT REAR DOOR AND 12' x 4' BOARDING ALIGHTING AREA WILL BE LOCATED AT FRONT DOOR. ENSURE THAT ACCESSIBLE AREAS ARE PROVIDED BASED ON ALL BUSES EXPECTED TO USE THE BUS STOP. ** DOOR SPACING MEASURED CENTER TO CENTER ON THE DOORS.</p>
-<h4>BUS BULB LENGTHS (STANDARD BUS)</h4>
-<p>MINIMUM BUS BULB LENGTH = 48 FEET</p>
-<p>BUS LENGTH = 60 FEET PREFERABLE BUS BULB LENGTH</p>
-<h4>BUS BULB LENGTHS (METRO 9200-9595 SERIES ARTICULATED BUS)</h4>
-<p>16.25 FEET 22.92 FEET</p>
-<p>12' x 4' OR 5' x 8' MIN. CLEAR ZONE CENTERED ON NON-WHEELCHAIR</p>
-<p>ACCESSIBLE DOOR (SEE NOTE 8)</p>
-<p>5' x 8' MIN. BOARDING AND ALIGHTING AREA CENTERED ON WHEELCHAIR ACCESSIBLE DOOR (SEE NOTE 5)</p>
-<p>12' x 4' MIN. CLEAR ZONE CENTERED ON NON-WHEELCHAIR</p>
-<p>ACCESSIBLE DOOR (SEE NOTE 8)</p>
-<p>5' x 8' MIN. BOARDING AND ALIGHTING AREA CENTERED ON WHEELCHAIR ACCESSIBLE DOOR (SEE NOTE 5)</p>
-<p>(SEE NOTE 6)</p>
-<p>(SEE NOTE 6)</p></div>
-<div class="kw">Keywords: door, front, length, accessible, bulb, note, rear, boarding, alighting, area, feet, centered, wide, spacing</div>
+<div class="pclean"><p class="psum"><b>Bus Bulbs.</b> Plan and elevation layouts for Type II bus bulbs where a Class IV bike lane passes behind the bus stop. Sheets show a floating bus bulb with an integrated bike lane, a constrained bulb with a raised bike lane and a narrow boarding area, and a shelter and handrail placement guide. A table of LADOT, DASH and Metro bus series gives door spacing and minimum bulb lengths from 21 ft to 30 ft, and boarding areas of 5&#x27; x 8&#x27; minimum at the accessible door with a 12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; clear zone at the other door.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Bus bulb length and door spacing. Door 1 (front door) is depicted as the wheelchair accessible door. Doors are 36&quot; wide in the drawing. Minimum bus bulb length and preferable bus bulb length are shown with bus length.</p>
+<p>Table. Columns: agency and bus series; length (ft); door spacing (in and ft); front door width; rear door width (in and ft); accessible door; total length of doors and space between (ft); minimum bus bulb length (ft).</p>
+<p>DASH LADOT: EzRider 32 ft, 148 in (12.33 ft), doors 36 in (3 ft), accessible REAR*, 15.33 ft, min bulb 21 ft.</p>
+<p>EzRider II 32 ft, 156 in (13.00 ft), 36 in, FRONT, 16.00 ft, 22 ft.</p>
+<p>Axess 35 ft, 180 in (15.00 ft), 36 in, FRONT, 18.00 ft, 24 ft.</p>
+<p>Gillig 30 ft, 165 in (13.75 ft), front 36 in, rear 30 in (2.5 ft), FRONT, 16.50 ft, 23 ft.</p>
+<p>K9LR 32 ft, 156 in (13.00 ft), 36 in, FRONT, 16.00 ft, 22 ft.</p>
+<p>K7M 30 ft, 146 in (12.17 ft), front 44 in (3.67 ft), rear 47 in (3.92 ft), REAR*, 15.96 ft, 21 ft.</p>
+<p>Proterra 35 ft, 221 in (18.42 ft), front 33 in (2.75 ft), rear 39 in (3.25 ft), FRONT, 21.42 ft, 27 ft.</p>
+<p>Metro 1001-1005: 40 ft, 237 in (19.75 ft), 30 in (2.5 ft), FRONT, 22.25 ft, 29 ft.</p>
+<p>Metro 3850-4199: 40 ft, 249 in (20.75 ft), 30 in, FRONT, 23.25 ft, 30 ft.</p>
+<p>Metro 4200-4205: 42 ft, 195 in (16.25 ft), 36 in, FRONT, 19.25 ft, 25 ft.</p>
+<p>Metro 5300-5522: 40 ft, 257 in (21.42 ft), 30 in, FRONT, 23.92 ft, 30 ft.</p>
+<p>Metro 5600-6149: 40 ft, 249 in (20.75 ft), 30 in, FRONT, 23.25 ft, 30 ft.</p>
+<p>Metro 7000-7949: 40 ft, 207 in (17.25 ft), 30 in, FRONT, 19.75 ft, 26 ft.</p>
+<p>Metro 7980: 40 ft, 208 in (17.33 ft), 30 in, FRONT, 19.83 ft, 26 ft.</p>
+<p>Metro 8000-8650: 45 ft, 255 in (21.25 ft), 30 in, FRONT, 23.75 ft, 30 ft.</p>
+<p>* Drawing depicts accessible door at front of bus. If accessible door is at rear of bus, 5&#x27; x 8&#x27; boarding and alighting area must be located at rear door and 12&#x27; x 4&#x27; boarding and alighting area will be located at front door. Ensure that accessible areas are provided based on all buses expected to use the bus stop.</p>
+<p>** Door spacing measured center to center on the doors.</p>
+<p>Bus bulb lengths (standard bus): minimum bus bulb length = 48 feet, bus length = 60 feet.</p>
+<p>Bus bulb lengths (Metro 9200-9595 series articulated bus): 16.25 feet and 22.92 feet are shown on the drawing.</p>
+<p>12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; min. clear zone centered on non-wheelchair accessible door (see Note 8). 5&#x27; x 8&#x27; min. boarding and alighting area centered on wheelchair accessible door (see Note 5). See Note 6.</p></details></div>
+<div class="pclean"><p class="psum"><b>Bus Bulbs.</b> Plan and elevation layouts for Type II bus bulbs where a Class IV bike lane passes behind the bus stop. Sheets show a floating bus bulb with an integrated bike lane, a constrained bulb with a raised bike lane and a narrow boarding area, and a shelter and handrail placement guide. A table of LADOT, DASH and Metro bus series gives door spacing and minimum bulb lengths from 21 ft to 30 ft, and boarding areas of 5&#x27; x 8&#x27; minimum at the accessible door with a 12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; clear zone at the other door.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Bus bulb length and door spacing. Door 1 (front door) is depicted as the wheelchair accessible door. Doors are 36&quot; wide in the drawing. Minimum bus bulb length and preferable bus bulb length are shown with bus length.</p>
+<p>Table. Columns: agency and bus series; length (ft); door spacing (in and ft); front door width; rear door width (in and ft); accessible door; total length of doors and space between (ft); minimum bus bulb length (ft).</p>
+<p>DASH LADOT: EzRider 32 ft, 148 in (12.33 ft), doors 36 in (3 ft), accessible REAR*, 15.33 ft, min bulb 21 ft.</p>
+<p>EzRider II 32 ft, 156 in (13.00 ft), 36 in, FRONT, 16.00 ft, 22 ft.</p>
+<p>Axess 35 ft, 180 in (15.00 ft), 36 in, FRONT, 18.00 ft, 24 ft.</p>
+<p>Gillig 30 ft, 165 in (13.75 ft), front 36 in, rear 30 in (2.5 ft), FRONT, 16.50 ft, 23 ft.</p>
+<p>K9LR 32 ft, 156 in (13.00 ft), 36 in, FRONT, 16.00 ft, 22 ft.</p>
+<p>K7M 30 ft, 146 in (12.17 ft), front 44 in (3.67 ft), rear 47 in (3.92 ft), REAR*, 15.96 ft, 21 ft.</p>
+<p>Proterra 35 ft, 221 in (18.42 ft), front 33 in (2.75 ft), rear 39 in (3.25 ft), FRONT, 21.42 ft, 27 ft.</p>
+<p>Metro 1001-1005: 40 ft, 237 in (19.75 ft), 30 in (2.5 ft), FRONT, 22.25 ft, 29 ft.</p>
+<p>Metro 3850-4199: 40 ft, 249 in (20.75 ft), 30 in, FRONT, 23.25 ft, 30 ft.</p>
+<p>Metro 4200-4205: 42 ft, 195 in (16.25 ft), 36 in, FRONT, 19.25 ft, 25 ft.</p>
+<p>Metro 5300-5522: 40 ft, 257 in (21.42 ft), 30 in, FRONT, 23.92 ft, 30 ft.</p>
+<p>Metro 5600-6149: 40 ft, 249 in (20.75 ft), 30 in, FRONT, 23.25 ft, 30 ft.</p>
+<p>Metro 7000-7949: 40 ft, 207 in (17.25 ft), 30 in, FRONT, 19.75 ft, 26 ft.</p>
+<p>Metro 7980: 40 ft, 208 in (17.33 ft), 30 in, FRONT, 19.83 ft, 26 ft.</p>
+<p>Metro 8000-8650: 45 ft, 255 in (21.25 ft), 30 in, FRONT, 23.75 ft, 30 ft.</p>
+<p>* Drawing depicts accessible door at front of bus. If accessible door is at rear of bus, 5&#x27; x 8&#x27; boarding and alighting area must be located at rear door and 12&#x27; x 4&#x27; boarding and alighting area will be located at front door. Ensure that accessible areas are provided based on all buses expected to use the bus stop.</p>
+<p>** Door spacing measured center to center on the doors.</p>
+<p>Bus bulb lengths (standard bus): minimum bus bulb length = 48 feet, bus length = 60 feet.</p>
+<p>Bus bulb lengths (Metro 9200-9595 series articulated bus): 16.25 feet and 22.92 feet are shown on the drawing.</p>
+<p>12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; min. clear zone centered on non-wheelchair accessible door (see Note 8). 5&#x27; x 8&#x27; min. boarding and alighting area centered on wheelchair accessible door (see Note 5). See Note 6.</p></details></div>
+<div class="kw">Keywords: bus bulb, bus stop bulb, floating bus stop, bus boarding island, bus stop with bike lane, class IV bike lane at bus stop, raised bike lane, bus bulb length, bus door spacing, boarding and alignment area, bus shelter location, <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> yield to peds, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>, detectable warning surface, bicycle ramp, chevron markings, curb extension bus stop</div>
 
 
 <span id="p177" class="anchor"></span>
 
-### Page 177 - S-523.0
+### Page 177 - Bus Bulbs
 
 <div class="pmeta">Drawings: <strong>S-523.0</strong> &middot; Topics: crosswalks, bikeways, transit, parking-curb, accessibility</div>
 <div class="dtext"><p>NOTES</p>
@@ -138,274 +93,172 @@ sidebar:
 <p>ARE PROVIDED.</p>
 <p>11. BUS BULBS SHALL HAVE RED CURB ALONG THEIR ENTIRE LENGTH ADJACENT TO THE STREET. ADDITIONAL RED CURB PRIOR TO AND AFTER THE BUS BULB MAY BE REQUIRED BY LADOT.</p>
 <p>12. A HANDRAIL IS REQUIRED IF DROP-OFF FROM THE BUS BULB TO THE ADJACENT BIKE LANE EXCEEDS 8 INCHES. A MINIMUM OF 10 INCH SETBACK IS NEEDED FROM A BIKE LANE FACE OF CURB TO THE FACE OF PEDESTRIAN HAND RAIL ON THE BUS BULB.</p></div>
-<div class="kw">Keywords: bulb, minimum, foot, length, accessible, provided, lane, boarding, alighting, curb, area, face, green, colored</div>
+<div class="pclean"><p class="psum"><b>Bus Bulbs.</b> Plan and elevation layouts for Type II bus bulbs where a Class IV bike lane passes behind the bus stop. Sheets show a floating bus bulb with an integrated bike lane, a constrained bulb with a raised bike lane and a narrow boarding area, and a shelter and handrail placement guide. A table of LADOT, DASH and Metro bus series gives door spacing and minimum bulb lengths from 21 ft to 30 ft, and boarding areas of 5&#x27; x 8&#x27; minimum at the accessible door with a 12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; clear zone at the other door.</p></div>
+<div class="pclean"><p class="psum"><b>Bus Bulbs.</b> Plan and elevation layouts for Type II bus bulbs where a Class IV bike lane passes behind the bus stop. Sheets show a floating bus bulb with an integrated bike lane, a constrained bulb with a raised bike lane and a narrow boarding area, and a shelter and handrail placement guide. A table of LADOT, DASH and Metro bus series gives door spacing and minimum bulb lengths from 21 ft to 30 ft, and boarding areas of 5&#x27; x 8&#x27; minimum at the accessible door with a 12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; clear zone at the other door.</p></div>
+<div class="kw">Keywords: bus bulb, bus stop bulb, floating bus stop, bus boarding island, bus stop with bike lane, class IV bike lane at bus stop, raised bike lane, bus bulb length, bus door spacing, boarding and alignment area, bus shelter location, <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> yield to peds, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>, detectable warning surface, bicycle ramp, chevron markings, curb extension bus stop</div>
 
 
 <span id="p178" class="anchor"></span>
 
-### Page 178 - S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles
+### Page 178 - Mini-Roundabouts and Neighborhood Traffic Circles
 
 <div class="pmeta">Drawings: <strong>S-524.0</strong>, <strong>S-481.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> R6-4 <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a> <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> <a class="sref" href="/SoCal-Super-Standards/signs/w16-17p/" data-svg="/SoCal-Super-Standards/signs/W16-17P.svg">W16-17P</a> W16-7PL W16-8 <a class="sref" href="/SoCal-Super-Standards/signs/w2-6/" data-svg="/SoCal-Super-Standards/signs/W2-6.svg">W2-6</a> &middot; Topics: crosswalks, parking-curb, speed-calming, signs, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0178.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0178.webp" alt="MPP 531 page 178 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 178. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>7TH AVE.</p>
-<p>(OPTIONAL)</p>
-<p>(OPTIONAL)</p>
-<p>CENTER ISLAND MOUNTABLE</p>
-<p>OR PAINTED SEE NOTE 1 AND SEE SHEET 2</p>
-<p>4" SOLID YELLOW EDGE LINE, 1' OFF MOUNTABLE CENTER ISLAND</p>
-<p>SOLID WHITE EDGE LINE</p>
-<p>MOUNTABLE SPLITTER ISLAND</p>
-<p>SOLID WHITE ARROW SYMBOLS (OPTIONAL FOR RAISED ISLANDS, REQUIRED FOR PAINTED ISLANDS)</p>
-<p>DASHED WHITE ENTRANCE LINE, 12" WIDE, 2' LONG @ 2' GAP</p>
-<p>OPTIONAL SPLITTER ISLAND FORMED BY TWO SETS OF DOUBLE YELLOW LINES SEE NOTE 1 ON SHEET 2</p>
-<p>4" SOLID YELLOW EDGE LINE, 1' OFF MOUNTABLE SPLITTER ISLAND</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a></p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a></p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a></p>
-<p>W16-7PL</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/w2-6/" data-svg="/SoCal-Super-Standards/signs/W2-6.svg">W2-6</a></p>
-<p>NOTES:</p>
-<p>1. THIS DRAWING SHOWS OPTIONS WITH BOTH MOUNTABLE AND PAINTED ISLANDS ON THE APPROACHES; HOWEVER,THE ACTUAL DESIGN SHOULD USE CONSISTENT TREATMENTS ON EACH APPROACH. MOUNTABLE ISLANDS ARE PREFERRED; PAINTED ISLANDS MAY BE USED WHEN ISLANDS ARE LESS THAN 50 SF IN SIZE. IF RAISED CENTER ISLAND IS USED, ROUNDABOUT DIRECTIONAL ARROW SIGNS (R6-4) SHOULD BE INCLUDED IN THE CENTER ISLAND.</p>
-<p>2. ALL SIGNS AND PAVEMENT MARKINGS SHOWN IN CA MUTCD, CURRENT EDITION SHALL BE IMPLEMENTED AS SPECIFIED.</p>
-<p>3. SIGNS SHOWN FOR ONLY ONE APPROACH, BUT SHOULD BE PROVIDED CONSISTENTLY ON EACH APPROACH.</p>
-<p>4. FOR DIAMETER DIMENSIONS OF CENTER ISLAND, SEE SHEET 4 OF 4</p>
-<p>5. INSTALL NEW CURB RAMPS AND CROSSWALKS AS SHOWN. DIAGONAL RAMPS MAY NOT BE USED. EXISTING RAMPS WITHIN THE CIRCULATING LANE MUST BE REMOVED.</p>
-<p>6. CROSSWALKS MAY BE SUPPLEMENTED WITH PEDESTRIAN ACTIVATED RECTANGULAR RAPID FLASHING BEACONS (RRFB'S).</p>
-<p>7. SEE CITY OF LOS ANGELES SUPPLEMENTAL STREET DESIGN GUIDE DETAIL 710 FOR MINI- ROUNDABOUT DETAILS.</p>
-<p>20'</p>
-<p>CROSSWALK</p>
-<p>MARKINGS SEE NOTE 6</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> W16-7PL</p>
-<p>ROUNDABOUT (OPTIONAL) OR</p>
-<p>W16-8</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/w16-17p/" data-svg="/SoCal-Super-Standards/signs/W16-17P.svg">W16-17P</a></p>
-<p>panelStyle:warning.ssi panelName:<a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> panelQuantity:1 panelStation:none panelMaterial:0 legendMaterial:0 panelMounting:0 panelWidthLock:0 panelHeightLock:0 marginAlign:9 panelRoundCorners:0</p>
-<p>panelSizes:MIN.:24x24,STD.:30x30,EXP.:36x36,SPCL.:48x48</p>
-<p>constructPanelMode:0 constructPanels:36|24|18</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a></p>
-<p>100' 32' 200'</p>
-<p>OPTIONAL</p>
-<p>RED CURB SEE DOT STD PLAN S-481</p>
-<h4>YIELD</h4>
-<p>OR ASSEMBLY "B" (CA)</p>
-<p>OR ASSEMBLY "D" (CA)</p>
-<p>OR ASSEMBLY "B" (CA)</p>
-<p>(TYP)</p>
-<p>NON-WALKABLE AREA</p>
-<h4>MINI-ROUNDABOUTS</h4></div>
-<div class="kw">Keywords: island, optional, mountable, islands, center, painted, solid, line, note, sheet, yellow, edge, white, splitter</div>
+<div class="pclean"><p class="psum"><b>Mini-Roundabouts and Neighborhood Traffic Circles.</b> Layouts for mini-roundabouts and neighborhood traffic circles on local streets, with a center island geometry schedule. Mini-roundabouts show mountable or painted splitter and center islands, entrance and edge lines, signs such as <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, and crosswalks about 20 ft back. Neighborhood traffic circles use stop control on a center island with object markers. Center island diameter ranges from 18 ft to 38 ft by street width (28 ft to 40 ft) and curb return radius (15, 20 or 25 ft), and the opening width is 16 ft to 20 ft depending on offset.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Mini-Roundabouts, sheet 1 of 4.</p>
+<p>Callouts: center island mountable or painted (optional), see Note 1 and sheet 2; 4&quot; solid yellow edge line, 1&#x27; off mountable center island; solid white edge line; mountable splitter island; solid white arrow symbols (optional for raised islands, required for painted islands); dashed white entrance line, 12&quot; wide, 2&#x27; long at 2&#x27; gap; optional splitter island formed by two sets of double yellow lines, see Note 1 on sheet 2; 4&quot; solid yellow edge line, 1&#x27; off mountable splitter island; crosswalk markings 20&#x27; back, see Note 6; optional red curb, see DOT Std Plan S-481; yield or Assembly &quot;B&quot; (CA) or Assembly &quot;D&quot; (CA); non-walkable area; distances 100&#x27;, 32&#x27; and 200&#x27;.</p>
+<p>Signs: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a>, W16-7PL, <a class="sref" href="/SoCal-Super-Standards/signs/w2-6/" data-svg="/SoCal-Super-Standards/signs/W2-6.svg">W2-6</a>, W16-7PL, W16-8, <a class="sref" href="/SoCal-Super-Standards/signs/w16-17p/" data-svg="/SoCal-Super-Standards/signs/W16-17P.svg">W16-17P</a>, roundabout (optional).</p>
+<h5>Notes:</h5>
+<p>1. This drawing shows options with both mountable and painted islands on the approaches. However, the actual design should use consistent treatments on each approach. Mountable islands are preferred. Painted islands may be used when islands are less than 50 SF in size. If raised center island is used, roundabout directional arrow signs (R6-4) should be included in the center island.</p>
+<p>2. All signs and pavement markings shown in CA MUTCD, current edition shall be implemented as specified.</p>
+<p>3. Signs shown for only one approach, but should be provided consistently on each approach.</p>
+<p>4. For diameter dimensions of center island, see sheet 4 of 4.</p>
+<p>5. Install new curb ramps and crosswalks as shown. Diagonal ramps may not be used. Existing ramps within the circulating lane must be removed.</p>
+<p>6. Crosswalks may be supplemented with pedestrian activated rectangular rapid flashing beacons (RRFBs).</p>
+<p>7. See City of Los Angeles Supplemental Street Design Guide Detail 710 for mini-roundabout details.</p></details></div>
+<div class="pclean"><p class="psum"><b>Mini-Roundabouts and Neighborhood Traffic Circles.</b> Layouts for mini-roundabouts and neighborhood traffic circles on local streets, with a center island geometry schedule. Mini-roundabouts show mountable or painted splitter and center islands, entrance and edge lines, signs such as <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, and crosswalks about 20 ft back. Neighborhood traffic circles use stop control on a center island with object markers. Center island diameter ranges from 18 ft to 38 ft by street width (28 ft to 40 ft) and curb return radius (15, 20 or 25 ft), and the opening width is 16 ft to 20 ft depending on offset.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Mini-Roundabouts, sheet 1 of 4.</p>
+<p>Callouts: center island mountable or painted (optional), see Note 1 and sheet 2; 4&quot; solid yellow edge line, 1&#x27; off mountable center island; solid white edge line; mountable splitter island; solid white arrow symbols (optional for raised islands, required for painted islands); dashed white entrance line, 12&quot; wide, 2&#x27; long at 2&#x27; gap; optional splitter island formed by two sets of double yellow lines, see Note 1 on sheet 2; 4&quot; solid yellow edge line, 1&#x27; off mountable splitter island; crosswalk markings 20&#x27; back, see Note 6; optional red curb, see DOT Std Plan S-481; yield or Assembly &quot;B&quot; (CA) or Assembly &quot;D&quot; (CA); non-walkable area; distances 100&#x27;, 32&#x27; and 200&#x27;.</p>
+<p>Signs: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a>, W16-7PL, <a class="sref" href="/SoCal-Super-Standards/signs/w2-6/" data-svg="/SoCal-Super-Standards/signs/W2-6.svg">W2-6</a>, W16-7PL, W16-8, <a class="sref" href="/SoCal-Super-Standards/signs/w16-17p/" data-svg="/SoCal-Super-Standards/signs/W16-17P.svg">W16-17P</a>, roundabout (optional).</p>
+<h5>Notes:</h5>
+<p>1. This drawing shows options with both mountable and painted islands on the approaches. However, the actual design should use consistent treatments on each approach. Mountable islands are preferred. Painted islands may be used when islands are less than 50 SF in size. If raised center island is used, roundabout directional arrow signs (R6-4) should be included in the center island.</p>
+<p>2. All signs and pavement markings shown in CA MUTCD, current edition shall be implemented as specified.</p>
+<p>3. Signs shown for only one approach, but should be provided consistently on each approach.</p>
+<p>4. For diameter dimensions of center island, see sheet 4 of 4.</p>
+<p>5. Install new curb ramps and crosswalks as shown. Diagonal ramps may not be used. Existing ramps within the circulating lane must be removed.</p>
+<p>6. Crosswalks may be supplemented with pedestrian activated rectangular rapid flashing beacons (RRFBs).</p>
+<p>7. See City of Los Angeles Supplemental Street Design Guide Detail 710 for mini-roundabout details.</p></details></div>
+<div class="kw">Keywords: mini roundabout, neighborhood traffic circle, traffic circle, roundabout, splitter island, center island diameter, center island, truck apron, traffic calming, curb return radius, opening width, painted island, mountable island, <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a>, <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> stop sign, type D pavement marker, object marker</div>
 
 
 <span id="p179" class="anchor"></span>
 
-### Page 179 - S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles
+### Page 179 - Mini-Roundabouts and Neighborhood Traffic Circles
 
 <div class="pmeta">Drawings: <strong>S-524.0</strong> &middot; Topics: speed-calming, striping, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0179.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0179.webp" alt="MPP 531 page 179 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 179. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>CENTER ISLAND</p>
-<p>20' 10' (TYP) 15' DESIRABLE</p>
-<p>SPLITTER</p>
-<p>ISLAND</p>
-<p>WIDTH VARIES BY SITE CONDITIONS. SEE NOTE 3</p>
-<p>11' - 14'</p>
-<p>CURB RAMP TYPE VARIES</p>
-<h4>ISLAND DIMENSIONS WHEN PAINTED</h4>
-<p>RAISED PAVEMENT</p>
-<p>MARKERS,</p>
-<p>TYPE D (SEE NOTE 4)</p>
-<p>NON- WALKABLE AREA</p>
-<h4>MINI-ROUNDABOUTS</h4>
-<p>NOTES:</p>
-<p>1. PAINTED SPLITTER ISLANDS MAY BE USED WHEN SITE GEOMETRY LEADS TO ISLANDS LESS THAN 50 SF IN SIZE.</p>
-<p>2. USE DIMENSION SCHEDULE ON SHEET 4 OF 4 AS A DESIGN GUIDE. FINAL DIMENSIONS TO BE DETERMINED BY THE ENGINEER.</p>
-<p>3. WHERE CROSSING STREETS ARE NOT THE SAME WIDTH, CONSIDER CURB EXTENSIONS ON WIDER ROAD TO CREATE CONSISTENT APPROACH WIDTHS.</p>
-<p>4. TYPE D PAVEMENT MARKERS PLACED ON THE YELLOW CENTERLINE ARE REQUIRED FOR PAINTED CENTER ISLANDS AND SPLITTER ISLANDS AND RECOMMENDED FOR RAISED SPLITTER AND CENTER ISLANDS. USE 12 FOR &lt;= 15' DIA. USE 16 FOR &gt; 15' DIA. &lt; 20' DIA. USE 20 FOR &gt;= 20' DIA.</p></div>
-<div class="kw">Keywords: islands, splitter, center, island, type, painted, width, varies, site, note, curb, dimensions, raised, pavement</div>
+<div class="pclean"><p class="psum"><b>Mini-Roundabouts and Neighborhood Traffic Circles.</b> Layouts for mini-roundabouts and neighborhood traffic circles on local streets, with a center island geometry schedule. Mini-roundabouts show mountable or painted splitter and center islands, entrance and edge lines, signs such as <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, and crosswalks about 20 ft back. Neighborhood traffic circles use stop control on a center island with object markers. Center island diameter ranges from 18 ft to 38 ft by street width (28 ft to 40 ft) and curb return radius (15, 20 or 25 ft), and the opening width is 16 ft to 20 ft depending on offset.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Mini-Roundabouts, sheet 2 of 4. Island dimensions when painted.</p>
+<p>Callouts: center island; 20&#x27;; 10&#x27; (typ); 15&#x27; desirable splitter island; width varies by site conditions, see Note 3; 11&#x27; - 14&#x27;; curb ramp type varies; raised pavement markers, Type D (see Note 4); non-walkable area.</p>
+<h5>Notes:</h5>
+<p>1. Painted splitter islands may be used when site geometry leads to islands less than 50 SF in size.</p>
+<p>2. Use dimension schedule on sheet 4 of 4 as a design guide. Final dimensions to be determined by the engineer.</p>
+<p>3. Where crossing streets are not the same width, consider curb extensions on wider road to create consistent approach widths.</p>
+<p>4. Type D pavement markers placed on the yellow centerline are required for painted center islands and splitter islands and recommended for raised splitter and center islands. Use 12 for &lt;= 15&#x27; dia. Use 16 for &gt; 15&#x27; dia. &lt; 20&#x27; dia. Use 20 for &gt;= 20&#x27; dia.</p></details></div>
+<div class="pclean"><p class="psum"><b>Mini-Roundabouts and Neighborhood Traffic Circles.</b> Layouts for mini-roundabouts and neighborhood traffic circles on local streets, with a center island geometry schedule. Mini-roundabouts show mountable or painted splitter and center islands, entrance and edge lines, signs such as <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, and crosswalks about 20 ft back. Neighborhood traffic circles use stop control on a center island with object markers. Center island diameter ranges from 18 ft to 38 ft by street width (28 ft to 40 ft) and curb return radius (15, 20 or 25 ft), and the opening width is 16 ft to 20 ft depending on offset.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Mini-Roundabouts, sheet 2 of 4. Island dimensions when painted.</p>
+<p>Callouts: center island; 20&#x27;; 10&#x27; (typ); 15&#x27; desirable splitter island; width varies by site conditions, see Note 3; 11&#x27; - 14&#x27;; curb ramp type varies; raised pavement markers, Type D (see Note 4); non-walkable area.</p>
+<h5>Notes:</h5>
+<p>1. Painted splitter islands may be used when site geometry leads to islands less than 50 SF in size.</p>
+<p>2. Use dimension schedule on sheet 4 of 4 as a design guide. Final dimensions to be determined by the engineer.</p>
+<p>3. Where crossing streets are not the same width, consider curb extensions on wider road to create consistent approach widths.</p>
+<p>4. Type D pavement markers placed on the yellow centerline are required for painted center islands and splitter islands and recommended for raised splitter and center islands. Use 12 for &lt;= 15&#x27; dia. Use 16 for &gt; 15&#x27; dia. &lt; 20&#x27; dia. Use 20 for &gt;= 20&#x27; dia.</p></details></div>
+<div class="kw">Keywords: mini roundabout, neighborhood traffic circle, traffic circle, roundabout, splitter island, center island diameter, center island, truck apron, traffic calming, curb return radius, opening width, painted island, mountable island, <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a>, <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> stop sign, type D pavement marker, object marker</div>
 
 
 <span id="p180" class="anchor"></span>
 
-### Page 180 - S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles
+### Page 180 - Mini-Roundabouts and Neighborhood Traffic Circles
 
 <div class="pmeta">Drawings: <strong>S-524.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a> &middot; Topics: speed-calming, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0180.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0180.webp" alt="MPP 531 page 180 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 180. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>18" X 18" YELLOW HIGH INTENSITY TYPE 1 OBJECT MARKER PLACED IN TRAFFIC CIRCLE FOR EACH APPROACH. ALL SIGNS TO BE MOUNTED ON SINGLE POST. LOCATION TO BE DETERMINED BY ENGINEER. SIGN HEIGHT: 5' FROM BOTTOM OF LOWER SIGN TO BARK MULCH.</p>
-<p>30" X 30" BLACK ON YELLOW PLACED 75' TO 100' BACK FROM TRAFFIC CIRCLE ON EACH APPROACH (OPTIONAL).</p>
-<p>SIGN A</p>
-<p>SIGN B</p>
-<p>NOTES</p>
-<p>1. SEE CITY OF LOS ANGELES SUPPLEMENTAL STREET DESIGN GUIDE, DETAIL 700 FOR NEIGHBORHOOD</p>
-<p>TRAFFIC CIRCLE DETAILS.</p>
-<p>2. TWO-WAY STOP CONTROL IS OPTIONAL.</p>
-<p>3. USE DIMENSION SCHEDULE AS SHOWN ON SHEET 4 OF 4 AS A DESIGN GUIDE. FINAL DIMENSIONS TO BE DETERMINED BY THE ENGINEER.</p>
-<p>SIGN B (OPTIONAL)</p>
-<p>SIGN B (OPTIONAL)</p>
-<p>SIGN B (OPTIONAL)</p>
-<p>SIGN B (OPTIONAL)</p>
-<p>SIGN A (TYP) AND <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a> (OPTIONAL)</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> SEE NOTE 2</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> SEE NOTE 2</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> SEE NOTE 2</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> SEE NOTE 2</p>
-<h4>NEIGHBORHOOD TRAFFIC CIRCLES</h4></div>
-<div class="kw">Keywords: sign, optional, traffic, note, circle, yellow, placed, approach, determined, engineer, design, guide, neighborhood, high</div>
+<div class="pclean"><p class="psum"><b>Mini-Roundabouts and Neighborhood Traffic Circles.</b> Layouts for mini-roundabouts and neighborhood traffic circles on local streets, with a center island geometry schedule. Mini-roundabouts show mountable or painted splitter and center islands, entrance and edge lines, signs such as <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, and crosswalks about 20 ft back. Neighborhood traffic circles use stop control on a center island with object markers. Center island diameter ranges from 18 ft to 38 ft by street width (28 ft to 40 ft) and curb return radius (15, 20 or 25 ft), and the opening width is 16 ft to 20 ft depending on offset.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Neighborhood Traffic Circles, sheet 3 of 4.</p>
+<p>Callouts: 18&quot; x 18&quot; yellow high intensity Type 1 object marker placed in traffic circle for each approach; all signs to be mounted on single post; location to be determined by engineer; sign height: 5&#x27; from bottom of lower sign to bark mulch; Sign A: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> stop sign (typ) and <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a> (optional), see Note 2; Sign B (optional): 30&quot; x 30&quot; black on yellow, placed 75&#x27; to 100&#x27; back from traffic circle on each approach.</p>
+<h5>Notes:</h5>
+<p>1. See City of Los Angeles Supplemental Street Design Guide, Detail 700 for neighborhood traffic circle details.</p>
+<p>2. Two-way stop control is optional.</p>
+<p>3. Use dimension schedule as shown on sheet 4 of 4 as a design guide. Final dimensions to be determined by the engineer.</p></details></div>
+<div class="pclean"><p class="psum"><b>Mini-Roundabouts and Neighborhood Traffic Circles.</b> Layouts for mini-roundabouts and neighborhood traffic circles on local streets, with a center island geometry schedule. Mini-roundabouts show mountable or painted splitter and center islands, entrance and edge lines, signs such as <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, and crosswalks about 20 ft back. Neighborhood traffic circles use stop control on a center island with object markers. Center island diameter ranges from 18 ft to 38 ft by street width (28 ft to 40 ft) and curb return radius (15, 20 or 25 ft), and the opening width is 16 ft to 20 ft depending on offset.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Neighborhood Traffic Circles, sheet 3 of 4.</p>
+<p>Callouts: 18&quot; x 18&quot; yellow high intensity Type 1 object marker placed in traffic circle for each approach; all signs to be mounted on single post; location to be determined by engineer; sign height: 5&#x27; from bottom of lower sign to bark mulch; Sign A: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> stop sign (typ) and <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a> (optional), see Note 2; Sign B (optional): 30&quot; x 30&quot; black on yellow, placed 75&#x27; to 100&#x27; back from traffic circle on each approach.</p>
+<h5>Notes:</h5>
+<p>1. See City of Los Angeles Supplemental Street Design Guide, Detail 700 for neighborhood traffic circle details.</p>
+<p>2. Two-way stop control is optional.</p>
+<p>3. Use dimension schedule as shown on sheet 4 of 4 as a design guide. Final dimensions to be determined by the engineer.</p></details></div>
+<div class="kw">Keywords: mini roundabout, neighborhood traffic circle, traffic circle, roundabout, splitter island, center island diameter, center island, truck apron, traffic calming, curb return radius, opening width, painted island, mountable island, <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a>, <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> stop sign, type D pavement marker, object marker</div>
 
 
 <span id="p181" class="anchor"></span>
 
-### Page 181 - S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles
+### Page 181 - Mini-Roundabouts and Neighborhood Traffic Circles
 
 <div class="pmeta">Drawings: <strong>S-524.0</strong> &middot; Topics: parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0181.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0181.webp" alt="MPP 531 page 181 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 181. Click to enlarge.</figcaption></figure>
-<div class="dtext"><h4>C CENTER ISLAND</h4>
-<h4>DIAMETER B CURB RETURN</h4>
-<h4>RADIUS A STREET</h4>
-<p>WIDTH</p>
-<h4>CENTER ISLAND GEOMETRY</h4>
-<h4>DIMENSIONS</h4>
-<p>NOTES</p>
-<p>1. USE DIMENSION SCHEDULE AS</p>
-<p>A DESIGN GUIDE. FINAL DIMENSIONS TO BE DETERMINED BY THE ENGINEER.</p>
-<p>2. WHERE CROSSING STREETS ARE NOT THE SAME WIDTH, CONSIDER CURB EXTENSIONS ON WIDER ROAD TO CREATE CONSISTENT APPROACH WIDTHS.</p>
-<p>3. FOR LOCATIONS WITH NON-STANDARD STREET WIDTHS, THE RELATIONSHIP BETWEEN THE OFFSET AND THE OPENING WIDTH IS DETERMINED BY THE OPENING WIDTH TABLE:</p>
-<p>4. WHERE THE CIRCULATING WIDTH IS LESS THAN 20 FEET WIDE, A MOUNTABLE TRUCK APRON MAY BE REQUIRED.</p>
-<p>38' 34' 32'</p>
-<p>27' 29' 33'</p>
-<h4>40'</h4>
-<p>25' 20' 15'</p>
-<h4>25' 20' 15' 36'</h4>
-<p>24' 22' 20'</p>
-<p>25' 20' 15'</p>
-<p>22' 20' 18'</p>
-<p>25' 20' 15'</p>
-<h4>30' (LOCAL STREET</h4>
-<h4>LIMITED)</h4>
-<h4>(LOCAL STREET</h4>
-<h4>STANDARD)</h4>
-<h4>(COLLECTOR)</h4>
-<h4>(HILLSIDE LIMITED</h4>
-<h4>STANDARD)</h4>
-<h4>28'</h4>
-<p>CENTER ISLAND</p>
-<p>OPENING WIDTH VARIES 16'-20' SEE NOTE 3 &amp; 4</p>
-<p>OFFSET (5.5' MAX) SEE NOTE 3</p>
-<p>4.5 5.0 5.5' (MAX)</p>
-<p>3.5 OR LESS 4.0 18' 17' 16' (MIN)</p>
-<p>20' (MAX) 19'</p>
-<p>OFFSET OPENING WIDTH</p>
-<p>OPTIONAL TRUCK APRON</p>
-<h4>OPENING WIDTH</h4></div>
-<div class="kw">Keywords: width, opening, street, center, island, offset, curb, dimensions, determined, widths, truck, apron, local, limited</div>
+<div class="pclean"><p class="psum"><b>Mini-Roundabouts and Neighborhood Traffic Circles.</b> Layouts for mini-roundabouts and neighborhood traffic circles on local streets, with a center island geometry schedule. Mini-roundabouts show mountable or painted splitter and center islands, entrance and edge lines, signs such as <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, and crosswalks about 20 ft back. Neighborhood traffic circles use stop control on a center island with object markers. Center island diameter ranges from 18 ft to 38 ft by street width (28 ft to 40 ft) and curb return radius (15, 20 or 25 ft), and the opening width is 16 ft to 20 ft depending on offset.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Center Island Geometry, sheet 4 of 4. A = street width, B = curb return radius, C = center island diameter. Offset is 5.5&#x27; max. Opening width varies 16&#x27;-20&#x27;, see Notes 3 and 4. Optional truck apron.</p>
+<h5>Notes:</h5>
+<p>1. Use dimension schedule as a design guide. Final dimensions to be determined by the engineer.</p>
+<p>2. Where crossing streets are not the same width, consider curb extensions on wider road to create consistent approach widths.</p>
+<p>3. For locations with non-standard street widths, the relationship between the offset and the opening width is determined by the opening width table.</p>
+<p>4. Where the circulating width is less than 20 feet wide, a mountable truck apron may be required.</p>
+<p>Opening width (offset to opening width): 5.5&#x27; (max) = 16&#x27; (min); 5.0 = 17&#x27;; 4.5 = 18&#x27;; 4.0 = 19&#x27;; 3.5 or less = 20&#x27; (max).</p>
+<p>Dimensions (A street width; B curb return radius; C center island diameter):</p>
+<p>28&#x27; (Hillside Limited Standard): B 15&#x27;, 20&#x27;, 25&#x27; gives C 18&#x27;, 20&#x27;, 22&#x27;.</p>
+<p>30&#x27; (Local Street Limited): B 15&#x27;, 20&#x27;, 25&#x27; gives C 20&#x27;, 22&#x27;, 24&#x27;.</p>
+<p>36&#x27; (Local Street Standard): B 15&#x27;, 20&#x27;, 25&#x27; gives C 27&#x27;, 29&#x27;, 33&#x27;.</p>
+<p>40&#x27; (Collector): B 15&#x27;, 20&#x27;, 25&#x27; gives C 32&#x27;, 34&#x27;, 38&#x27;.</p></details></div>
+<div class="pclean"><p class="psum"><b>Mini-Roundabouts and Neighborhood Traffic Circles.</b> Layouts for mini-roundabouts and neighborhood traffic circles on local streets, with a center island geometry schedule. Mini-roundabouts show mountable or painted splitter and center islands, entrance and edge lines, signs such as <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, and crosswalks about 20 ft back. Neighborhood traffic circles use stop control on a center island with object markers. Center island diameter ranges from 18 ft to 38 ft by street width (28 ft to 40 ft) and curb return radius (15, 20 or 25 ft), and the opening width is 16 ft to 20 ft depending on offset.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Center Island Geometry, sheet 4 of 4. A = street width, B = curb return radius, C = center island diameter. Offset is 5.5&#x27; max. Opening width varies 16&#x27;-20&#x27;, see Notes 3 and 4. Optional truck apron.</p>
+<h5>Notes:</h5>
+<p>1. Use dimension schedule as a design guide. Final dimensions to be determined by the engineer.</p>
+<p>2. Where crossing streets are not the same width, consider curb extensions on wider road to create consistent approach widths.</p>
+<p>3. For locations with non-standard street widths, the relationship between the offset and the opening width is determined by the opening width table.</p>
+<p>4. Where the circulating width is less than 20 feet wide, a mountable truck apron may be required.</p>
+<p>Opening width (offset to opening width): 5.5&#x27; (max) = 16&#x27; (min); 5.0 = 17&#x27;; 4.5 = 18&#x27;; 4.0 = 19&#x27;; 3.5 or less = 20&#x27; (max).</p>
+<p>Dimensions (A street width; B curb return radius; C center island diameter):</p>
+<p>28&#x27; (Hillside Limited Standard): B 15&#x27;, 20&#x27;, 25&#x27; gives C 18&#x27;, 20&#x27;, 22&#x27;.</p>
+<p>30&#x27; (Local Street Limited): B 15&#x27;, 20&#x27;, 25&#x27; gives C 20&#x27;, 22&#x27;, 24&#x27;.</p>
+<p>36&#x27; (Local Street Standard): B 15&#x27;, 20&#x27;, 25&#x27; gives C 27&#x27;, 29&#x27;, 33&#x27;.</p>
+<p>40&#x27; (Collector): B 15&#x27;, 20&#x27;, 25&#x27; gives C 32&#x27;, 34&#x27;, 38&#x27;.</p></details></div>
+<div class="kw">Keywords: mini roundabout, neighborhood traffic circle, traffic circle, roundabout, splitter island, center island diameter, center island, truck apron, traffic calming, curb return radius, opening width, painted island, mountable island, <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a>, <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg">W16-7P</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> stop sign, type D pavement marker, object marker</div>
 
 
 <span id="p182" class="anchor"></span>
 
-### Page 182 - S-525.0 Crossing Islands
+### Page 182 - Crossing Islands
 
 <div class="pmeta">Drawings: <strong>S-525.0</strong> &middot; Topics: crosswalks, speed-calming, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0182.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0182.webp" alt="MPP 531 page 182 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 182. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>DIAGONAL CURB RAMP CROSSING ISLAND MATCH CROSSWALK WIDTH WHERE POSSIBLE (SEE NOTE 5) 8' MIN MATCH CROSSWALK WIDTH WHERE POSSIBLE (SEE NOTE 5) DETECTABLE WARNING SURFACE - SEE NOTE 4 OPTION WHEN ISLAND IS LESS THAN 6' WIDE CHANNELIZING BOLLARDS (SEE NOTE 1) YELLOW MOUNTABLE RUBBER SPEED HUMP 8' MIN LESS THAN 6' 8" SOLID YELLOW LINE CONTRASTING COLORED SURFACE (OPTIONAL, SEE NOTE 2) YELLOW MOUNTABLE RUBBER SPEED HUMP 6' MIN, SEE NOTE 6 CURB LINE PROLONGATION 30' 12" SOLID YELLOW LINE SPACED 20' C-C TOTAL CROSSING SEE NOTE 10 TOTAL CROSSING SEE NOTE 10 CROSSING ISLAND 4' MIN SEE NOTE 6 </p></details>
-<div class="kw">Keywords: note, crossing, yellow, island, line, curb, match, crosswalk, width, possible, surface, mountable, rubber, speed</div>
+<div class="pclean"><p class="psum"><b>Crossing Islands.</b> Plan layouts for pedestrian crossing islands in a street, with directional curb ramp (Case A) and diagonal curb ramp (Case B) options. Islands are 6&#x27; minimum wide, or less than 6&#x27; with an optional treatment, with an 8&#x27; minimum total island length and 4&#x27; minimum cut-through. Yellow mountable rubber speed humps, channelizing bollards, 12&quot; solid yellow lines spaced 20&#x27; c-c, 4&quot; solid yellow center line 1&#x27; off the island, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, and detectable warning surfaces are shown. Crossing island is also shown with a hardened centerline and curb options.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Crossing island plan with diagonal curb ramp.</p>
+<p>Callouts: match crosswalk width where possible (see Note 5); 8&#x27; min; detectable warning surface, see Note 4; option when island is less than 6&#x27; wide: channelizing bollards (see Note 1) and yellow mountable rubber speed hump; 8&quot; solid yellow line; contrasting colored surface (optional, see Note 2); 6&#x27; min, see Note 6; curb line prolongation; 30&#x27;; 12&quot; solid yellow line spaced 20&#x27; c-c; total crossing, see Note 10; crossing island 4&#x27; min, see Note 6.</p></details></div>
+<div class="pclean"><p class="psum"><b>Crossing Islands.</b> Plan layouts for pedestrian crossing islands in a street, with directional curb ramp (Case A) and diagonal curb ramp (Case B) options. Islands are 6&#x27; minimum wide, or less than 6&#x27; with an optional treatment, with an 8&#x27; minimum total island length and 4&#x27; minimum cut-through. Yellow mountable rubber speed humps, channelizing bollards, 12&quot; solid yellow lines spaced 20&#x27; c-c, 4&quot; solid yellow center line 1&#x27; off the island, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, and detectable warning surfaces are shown. Crossing island is also shown with a hardened centerline and curb options.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Crossing island plan with diagonal curb ramp.</p>
+<p>Callouts: match crosswalk width where possible (see Note 5); 8&#x27; min; detectable warning surface, see Note 4; option when island is less than 6&#x27; wide: channelizing bollards (see Note 1) and yellow mountable rubber speed hump; 8&quot; solid yellow line; contrasting colored surface (optional, see Note 2); 6&#x27; min, see Note 6; curb line prolongation; 30&#x27;; 12&quot; solid yellow line spaced 20&#x27; c-c; total crossing, see Note 10; crossing island 4&#x27; min, see Note 6.</p></details></div>
+<div class="kw">Keywords: crossing island, pedestrian refuge island, median refuge, pedestrian crossing island, directional curb ramps, diagonal curb ramp, detectable warning surface, hardened centerline, mountable speed hump, channelizing bollards, curb line prolongation, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>, island nose, raised median crossing, rubber speed hump, plastic curb</div>
 
 
 <span id="p183" class="anchor"></span>
 
-### Page 183 - S-525.0 Crossing Islands
+### Page 183 - Crossing Islands
 
 <div class="pmeta">Drawings: <strong>S-525.0</strong> &middot; Topics: crosswalks, speed-calming, striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0183.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0183.webp" alt="MPP 531 page 183 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 183. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>HARDENED CENTERLINE YELLOW HARDENED CENTERLINE SEE OPTIONS THIS SHEET YELLOW MOUNTABLE RUBBER SPEED HUMP 12" 4.5" MATCH CROSSWALK WIDTH FLEXIBLE BOLLARD PRECAST CONCRETE CURB OPTIONS PLASTIC CURB CURB LINE PROLONGATION </p></details>
-<div class="kw">Keywords: curb, hardened, centerline, yellow, options, sheet, mountable, rubber, speed, hump, match, crosswalk, width, flexible</div>
+<div class="pclean"><p class="psum"><b>Crossing Islands.</b> Plan layouts for pedestrian crossing islands in a street, with directional curb ramp (Case A) and diagonal curb ramp (Case B) options. Islands are 6&#x27; minimum wide, or less than 6&#x27; with an optional treatment, with an 8&#x27; minimum total island length and 4&#x27; minimum cut-through. Yellow mountable rubber speed humps, channelizing bollards, 12&quot; solid yellow lines spaced 20&#x27; c-c, 4&quot; solid yellow center line 1&#x27; off the island, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, and detectable warning surfaces are shown. Crossing island is also shown with a hardened centerline and curb options.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Crossing island options. Hardened centerline (yellow) options: yellow mountable rubber speed hump; 12&quot; and 4.5&quot; dimensions; match crosswalk width; flexible bollard; precast concrete curb; plastic curb. Curb line prolongation. See options this sheet.</p></details></div>
+<div class="pclean"><p class="psum"><b>Crossing Islands.</b> Plan layouts for pedestrian crossing islands in a street, with directional curb ramp (Case A) and diagonal curb ramp (Case B) options. Islands are 6&#x27; minimum wide, or less than 6&#x27; with an optional treatment, with an 8&#x27; minimum total island length and 4&#x27; minimum cut-through. Yellow mountable rubber speed humps, channelizing bollards, 12&quot; solid yellow lines spaced 20&#x27; c-c, 4&quot; solid yellow center line 1&#x27; off the island, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, and detectable warning surfaces are shown. Crossing island is also shown with a hardened centerline and curb options.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Crossing island options. Hardened centerline (yellow) options: yellow mountable rubber speed hump; 12&quot; and 4.5&quot; dimensions; match crosswalk width; flexible bollard; precast concrete curb; plastic curb. Curb line prolongation. See options this sheet.</p></details></div>
+<div class="kw">Keywords: crossing island, pedestrian refuge island, median refuge, pedestrian crossing island, directional curb ramps, diagonal curb ramp, detectable warning surface, hardened centerline, mountable speed hump, channelizing bollards, curb line prolongation, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>, island nose, raised median crossing, rubber speed hump, plastic curb</div>
 
 
 <span id="p184" class="anchor"></span>
 
-### Page 184 - S-525.0 Crossing Islands
+### Page 184 - Crossing Islands
 
 <div class="pmeta">Drawings: <strong>S-525.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> &middot; Topics: crosswalks, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0184.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0184.webp" alt="MPP 531 page 184 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 184. Click to enlarge.</figcaption></figure>
-<div class="dtext"><h4>CASE A - DIRECTIONAL RAMPS</h4>
-<p>PEDESTRIAN PUSH BUTTON SEE NOTE 3</p>
-<p>SEE NOTE 3</p>
-<p>LESS</p>
-<p>THAN 6'</p>
-<p>MATCH CROSSWALK WIDTH WHERE POSSIBLE</p>
-<h4>(SEE NOTE 5) OPTION WHEN ISLAND IS LESS THAN 6' WIDE</h4>
-<p>DIRECTIONAL</p>
-<p>CURB RAMPS</p>
-<p>MATCH CROSSWALK WIDTH WHERE POSSIBLE (SEE NOTE 5)</p>
-<p>4' MIN</p>
-<p>8' MIN</p>
-<p>CROSSING ISLAND</p>
-<p>APPROACH NOSE -</p>
-<p>DESIGN FOR SITE CONDITIONS</p>
-<p>DETECTABLE WARNING</p>
-<p>SURFACE - SEE NOTE 4</p>
-<p>CURB LINE PROLONGATION</p>
-<p>RPM (TYP), SEE NOTE 9 12" SOLID YELLOW LINE SPACED 20' C-C</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> (TYP)</p>
-<p>4" SOLID YELLOW LINE 1' OFF CENTER MEDIAN</p>
-<p>APPROACH NOSE -</p>
-<p>DESIGN FOR SITE CONDITIONS</p>
-<p>6' MIN, SEE NOTE 6</p>
-<p>CROSSING ISLAND</p>
-<p>18" MAX.</p>
-<p>2% MAX</p>
-<p>TOTAL CROSSING SEE NOTE 10</p>
-<p>TOTAL CROSSING</p>
-<p>SEE NOTE 10</p>
-<p>4' MIN 8' MIN</p>
-<p>4' MIN SEE NOTE 6</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> (TYP)</p></div>
-<div class="kw">Keywords: note, crossing, island, line, directional, ramps, match, crosswalk, width, possible, curb, approach, nose, design</div>
+<div class="pclean"><p class="psum"><b>Crossing Islands.</b> Plan layouts for pedestrian crossing islands in a street, with directional curb ramp (Case A) and diagonal curb ramp (Case B) options. Islands are 6&#x27; minimum wide, or less than 6&#x27; with an optional treatment, with an 8&#x27; minimum total island length and 4&#x27; minimum cut-through. Yellow mountable rubber speed humps, channelizing bollards, 12&quot; solid yellow lines spaced 20&#x27; c-c, 4&quot; solid yellow center line 1&#x27; off the island, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, and detectable warning surfaces are shown. Crossing island is also shown with a hardened centerline and curb options.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Case A - Directional ramps.</p>
+<p>Callouts: pedestrian push button, see Note 3; less than 6&#x27;; match crosswalk width where possible (see Note 5); option when island is less than 6&#x27; wide; directional curb ramps; 4&#x27; min; 8&#x27; min; crossing island; approach nose, design for site conditions; detectable warning surface, see Note 4; curb line prolongation; RPM (typ), see Note 9; 12&quot; solid yellow line spaced 20&#x27; c-c; <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> (typ); 4&quot; solid yellow line 1&#x27; off center median; 6&#x27; min, see Note 6; 18&quot; max, 2% max; total crossing, see Note 10; 4&#x27; min, see Note 6.</p></details></div>
+<div class="pclean"><p class="psum"><b>Crossing Islands.</b> Plan layouts for pedestrian crossing islands in a street, with directional curb ramp (Case A) and diagonal curb ramp (Case B) options. Islands are 6&#x27; minimum wide, or less than 6&#x27; with an optional treatment, with an 8&#x27; minimum total island length and 4&#x27; minimum cut-through. Yellow mountable rubber speed humps, channelizing bollards, 12&quot; solid yellow lines spaced 20&#x27; c-c, 4&quot; solid yellow center line 1&#x27; off the island, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, and detectable warning surfaces are shown. Crossing island is also shown with a hardened centerline and curb options.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Case A - Directional ramps.</p>
+<p>Callouts: pedestrian push button, see Note 3; less than 6&#x27;; match crosswalk width where possible (see Note 5); option when island is less than 6&#x27; wide; directional curb ramps; 4&#x27; min; 8&#x27; min; crossing island; approach nose, design for site conditions; detectable warning surface, see Note 4; curb line prolongation; RPM (typ), see Note 9; 12&quot; solid yellow line spaced 20&#x27; c-c; <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> (typ); 4&quot; solid yellow line 1&#x27; off center median; 6&#x27; min, see Note 6; 18&quot; max, 2% max; total crossing, see Note 10; 4&#x27; min, see Note 6.</p></details></div>
+<div class="kw">Keywords: crossing island, pedestrian refuge island, median refuge, pedestrian crossing island, directional curb ramps, diagonal curb ramp, detectable warning surface, hardened centerline, mountable speed hump, channelizing bollards, curb line prolongation, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>, island nose, raised median crossing, rubber speed hump, plastic curb</div>
 
 
 <span id="p185" class="anchor"></span>
 
-### Page 185 - S-525.0 Crossing Islands
+### Page 185 - Crossing Islands
 
 <div class="pmeta">Drawings: <strong>S-525.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> &middot; Topics: crosswalks, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0185.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0185.webp" alt="MPP 531 page 185 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 185. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>DIAGONAL CURB RAMP</p>
-<h4>CASE B - DIAGONAL RAMPS</h4>
-<p>2' MIN</p>
-<p>LESS</p>
-<p>THAN 6'</p>
-<p>MATCH CROSSWALK WIDTH WHERE POSSIBLE (SEE NOTE 5)</p>
-<p>CROSSING ISLAND</p>
-<p>8' MIN</p>
-<p>MATCH CROSSWALK WIDTH WHERE POSSIBLE (SEE NOTE 5)</p>
-<p>CROSSING ISLAND</p>
-<p>DETECTABLE WARNING</p>
-<p>SURFACE - SEE NOTE 4</p>
-<h4>OPTION WHEN ISLAND IS LESS THAN 6' WIDE</h4>
-<p>2' MIN</p>
-<p>APPROACH NOSE -</p>
-<p>DESIGN FOR SITE CONDITIONS</p>
-<p>(SEE NOTE 5)</p>
-<p>6' MIN, SEE NOTE 6</p>
-<p>SEE NOTE 3</p>
-<p>CURB LINE PROLONGATION</p>
-<p>12" SOLID YELLOW LINE SPACED 20' C-C</p>
-<p>APPROACH NOSE DESIGN FOR SITE CONDITIONS, SEE NOTE 5</p>
-<p>ALIGN EDGE WITH BASE OF DIAGONAL</p>
-<p>CURB RAMPS</p>
-<p>4" SOLID YELLOW LINE 1' OFF CENTER MEDIAN</p>
-<p>RPM (TYP), SEE NOTE 9</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> (TYP)</p>
-<p>2% MAX</p>
-<p>4' MIN SEE NOTE 6</p>
-<p>TOTAL CROSSING SEE NOTE 10</p>
-<p>8' MIN</p>
-<p>TOTAL CROSSING</p>
-<p>SEE NOTE 10</p>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> (TYP)</p></div>
-<div class="kw">Keywords: note, crossing, diagonal, curb, island, line, ramps, match, crosswalk, width, possible, approach, nose, design</div>
+<div class="pclean"><p class="psum"><b>Crossing Islands.</b> Plan layouts for pedestrian crossing islands in a street, with directional curb ramp (Case A) and diagonal curb ramp (Case B) options. Islands are 6&#x27; minimum wide, or less than 6&#x27; with an optional treatment, with an 8&#x27; minimum total island length and 4&#x27; minimum cut-through. Yellow mountable rubber speed humps, channelizing bollards, 12&quot; solid yellow lines spaced 20&#x27; c-c, 4&quot; solid yellow center line 1&#x27; off the island, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, and detectable warning surfaces are shown. Crossing island is also shown with a hardened centerline and curb options.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Case B - Diagonal ramps.</p>
+<p>Callouts: diagonal curb ramp; 2&#x27; min; less than 6&#x27;; match crosswalk width where possible (see Note 5); crossing island; 8&#x27; min; detectable warning surface, see Note 4; option when island is less than 6&#x27; wide; approach nose, design for site conditions (see Note 5); 6&#x27; min, see Note 6; see Note 3; curb line prolongation; 12&quot; solid yellow line spaced 20&#x27; c-c; align edge with base of diagonal curb ramps; 4&quot; solid yellow line 1&#x27; off center median; RPM (typ), see Note 9; <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> (typ); 2% max; 4&#x27; min, see Note 6; total crossing, see Note 10.</p></details></div>
+<div class="pclean"><p class="psum"><b>Crossing Islands.</b> Plan layouts for pedestrian crossing islands in a street, with directional curb ramp (Case A) and diagonal curb ramp (Case B) options. Islands are 6&#x27; minimum wide, or less than 6&#x27; with an optional treatment, with an 8&#x27; minimum total island length and 4&#x27; minimum cut-through. Yellow mountable rubber speed humps, channelizing bollards, 12&quot; solid yellow lines spaced 20&#x27; c-c, 4&quot; solid yellow center line 1&#x27; off the island, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, and detectable warning surfaces are shown. Crossing island is also shown with a hardened centerline and curb options.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Case B - Diagonal ramps.</p>
+<p>Callouts: diagonal curb ramp; 2&#x27; min; less than 6&#x27;; match crosswalk width where possible (see Note 5); crossing island; 8&#x27; min; detectable warning surface, see Note 4; option when island is less than 6&#x27; wide; approach nose, design for site conditions (see Note 5); 6&#x27; min, see Note 6; see Note 3; curb line prolongation; 12&quot; solid yellow line spaced 20&#x27; c-c; align edge with base of diagonal curb ramps; 4&quot; solid yellow line 1&#x27; off center median; RPM (typ), see Note 9; <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> (typ); 2% max; 4&#x27; min, see Note 6; total crossing, see Note 10.</p></details></div>
+<div class="kw">Keywords: crossing island, pedestrian refuge island, median refuge, pedestrian crossing island, directional curb ramps, diagonal curb ramp, detectable warning surface, hardened centerline, mountable speed hump, channelizing bollards, curb line prolongation, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>, island nose, raised median crossing, rubber speed hump, plastic curb</div>
 
 
 <span id="p186" class="anchor"></span>
 
-### Page 186 - S-525.0
+### Page 186 - Crossing Islands
 
 <div class="pmeta">Drawings: <strong>S-525.0</strong> &middot; Topics: crosswalks, bikeways, signals, parking-curb, striping, accessibility, intersections</div>
 <div class="dtext"><p>NOTES</p>
@@ -420,61 +273,31 @@ sidebar:
 <p>9. RAISED PAVEMENT MARKERS (RPM'S) ONE-WAY CLEAR (WHITE) OR ONE-WAY AMBER (YELLOW) SPACED 2' CENTER-TO-CENTER MAY BE INSTALLED ON THE CROSSING ISLAND DEPENDING ON ITS LOCATION.</p>
 <p>10. THE TOTAL LENGTH OF THE CROSSING ISLANDS AND CROSSWALK SHALL BE LIMITED TO 30 FEET OR LESS ON STREETS WITH ONLY ONE THROUGH LANE IN EACH DIRECTION.</p>
 <p>11. SEE CITY OF LOS ANGELES SUPPLEMENTAL STREET DESIGN GUIDE, DETAIL 500 FOR CROSSING ISLAND DETAILS.</p></div>
-<div class="kw">Keywords: crossing, island, pedestrian, feet, bollards, located, push, detectable, width, inches, minimum, buttons, islands, warning</div>
+<div class="pclean"><p class="psum"><b>Crossing Islands.</b> Plan layouts for pedestrian crossing islands in a street, with directional curb ramp (Case A) and diagonal curb ramp (Case B) options. Islands are 6&#x27; minimum wide, or less than 6&#x27; with an optional treatment, with an 8&#x27; minimum total island length and 4&#x27; minimum cut-through. Yellow mountable rubber speed humps, channelizing bollards, 12&quot; solid yellow lines spaced 20&#x27; c-c, 4&quot; solid yellow center line 1&#x27; off the island, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, and detectable warning surfaces are shown. Crossing island is also shown with a hardened centerline and curb options.</p></div>
+<div class="pclean"><p class="psum"><b>Crossing Islands.</b> Plan layouts for pedestrian crossing islands in a street, with directional curb ramp (Case A) and diagonal curb ramp (Case B) options. Islands are 6&#x27; minimum wide, or less than 6&#x27; with an optional treatment, with an 8&#x27; minimum total island length and 4&#x27; minimum cut-through. Yellow mountable rubber speed humps, channelizing bollards, 12&quot; solid yellow lines spaced 20&#x27; c-c, 4&quot; solid yellow center line 1&#x27; off the island, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> signs, and detectable warning surfaces are shown. Crossing island is also shown with a hardened centerline and curb options.</p></div>
+<div class="kw">Keywords: crossing island, pedestrian refuge island, median refuge, pedestrian crossing island, directional curb ramps, diagonal curb ramp, detectable warning surface, hardened centerline, mountable speed hump, channelizing bollards, curb line prolongation, <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>, island nose, raised median crossing, rubber speed hump, plastic curb</div>
 
 
 <span id="p187" class="anchor"></span>
 
-### Page 187 - S-526.0 Truck Aprons
+### Page 187 - Truck Aprons
 
 <div class="pmeta">Drawings: <strong>S-526.0</strong>, <strong>S-410.0</strong> &middot; Topics: striping, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0187.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0187.webp" alt="MPP 531 page 187 S-526.0 Truck Aprons"></a><figcaption>MPP 531, page 187. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>MOUNTABLE TRUCK APRON STREET FLOWLINE TYPE C INTEGRAL CURB &amp; GUTTER, SEE S-410 8" WHITE EDGE LANE LINE 12" WHITE LINES SPACED 12" TO 36" ON CENTER DIRECTIONAL CURB RAMP, TYP TRUCK APRON SEE SUPPLEMENTAL DESIGN GUIDE DETAIL 300 POINT OF CURVATURE MOUNTABLE CURB POINT OF TANGENCY TRUCK APRON WIDTH 5' MIN, 15' MAX 1. SEE CITY OF LOS ANGELES SUPPLEMENTAL STREET DESIGN GUIDE, DETAIL 300 FOR TRUCK APRON DETAILS. NOTE: </p></details>
-<div class="kw">Keywords: truck, apron, curb, mountable, street, white, supplemental, design, guide, detail, point, flowline, type, integral</div>
+<div class="pclean"><p class="psum"><b>Truck Aprons.</b> Plan layout of a mountable truck apron at a corner, between the street flowline and a mountable curb. The apron is 5 ft minimum and 15 ft maximum wide and is marked with 12&quot; white lines spaced 12&quot; to 36&quot; on center and an 8&quot; white edge lane line. It refers to Supplemental Street Design Guide Detail 300.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Callouts: mountable truck apron; street flowline; Type C integral curb and gutter, see S-410; 8&quot; white edge lane line; 12&quot; white lines spaced 12&quot; to 36&quot; on center; directional curb ramp, typ; truck apron, see Supplemental Design Guide Detail 300; point of curvature; mountable curb; point of tangency; truck apron width 5&#x27; min, 15&#x27; max.</p>
+<h5>Note:</h5>
+<p>1. See City of Los Angeles Supplemental Street Design Guide, Detail 300 for truck apron details.</p></details></div>
+<div class="kw">Keywords: truck apron, mountable apron, mountable curb, corner truck apron, traffic calming apron, apron width, 12 inch white lines, edge lane line, directional curb ramp, type C curb and gutter, S-410, detail 300, street flowline, point of curvature, point of tangency</div>
 
 
 <span id="p188" class="anchor"></span>
 
-### Page 188 - S-527.0 Curb Extensions
+### Page 188 - Curb Extensions
 
 <div class="pmeta">Drawings: <strong>S-527.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> &middot; Topics: accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0188.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0188.webp" alt="MPP 531 page 188 S-527.0 Curb Extensions"></a><figcaption>MPP 531, page 188. Click to enlarge.</figcaption></figure>
-<div class="dtext"><p>STREET</p>
-<p>2' MIN.</p>
-<p>STREET</p>
-<p>EXISTING DIAGONAL CURB RAMP</p>
-<p>EXISTING DIRECTIONAL CURB RAMP</p>
-<h4>TYPE II CURB EXTENSION WITH DUAL UNI-DIRECTIONAL</h4>
-<h4>RAMPS</h4>
-<h4>TYPE II CURB EXTENSION</h4>
-<h4>WITH DIAGONAL RAMP</h4>
-<p><a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> (OPTIONAL)</p>
-<p>8" SOLID WHITE EDGE LINE (OPTIONAL)</p>
-<p>8" SOLID WHITE EDGE LINE (OPTIONAL)</p>
-<p>RADIUS, SEE NOTE 1</p>
-<p>CONTRASTING COLORED</p>
-<p>SURFACE (OPTIONAL),</p>
-<p>SEE NOTE 3</p>
-<p>CHANNELIZING BOLLARDS (OPTIONAL),</p>
-<p>SEE NOTE 2</p>
-<p>8" SOLID WHITE EDGE</p>
-<p>LINE (OPTIONAL)</p>
-<p>CONTRASTING COLORED SURFACE SEE NOTE 3 (OPTIONAL)</p>
-<p>CHANNELIZING BOLLARDS</p>
-<p>(OPTIONAL), SEE NOTE 2</p>
-<p>8" SOLID WHITE EDGE LINE (OPTIONAL)</p>
-<p>48" MIN</p>
-<p>TYPE II CURB EXTENSION, SEE</p>
-<p>NOTE 4</p>
-<p>TYPE II CURB EXTENSION, SEE</p>
-<p>NOTE 4</p>
-<p>REPAIR OR RECONSTRUCT STREET PAVING AS NECESSARY, 2' MIN,</p>
-<p>12" STOP BAR</p>
-<p>12" STOP BAR</p>
-<p>2'R</p>
-<p>2'R</p>
-<p>25'R</p>
-<p>2'R 10' MIN.</p>
-<p>4' MIN.</p>
-<p>6' MIN. TO 8' MAX.</p></div>
-<div class="kw">Keywords: optional, note, curb, type, extension, solid, white, edge, line, street, ramp, existing, diagonal, contrasting</div>
+<div class="pclean"><p class="psum"><b>Curb Extensions.</b> Plan layouts for Type II curb extensions, including dual uni-directional ramps, a diagonal ramp, a protected intersection with directional ramps, and a temporary or retrofit extension with diagonal ramp. Typical features are a 25&#x27; radius, 2&#x27; radius corners, 12&quot; stop bars, optional 8&quot; white edge lines, optional channelizing bollards and contrasting colored surface, and <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> or <a class="sref" href="/SoCal-Super-Standards/signs/w11-15/" data-svg="/SoCal-Super-Standards/signs/W11-15.svg">W11-15</a> signs. Extensions are 6&#x27; minimum to 8&#x27; maximum wide.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Type II curb extension with dual uni-directional ramps and Type II curb extension with diagonal ramp.</p>
+<p>Callouts: street; 2&#x27; min.; existing diagonal curb ramp; existing directional curb ramp; <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> (optional); 8&quot; solid white edge line (optional); radius, see Note 1; contrasting colored surface (optional), see Note 3; channelizing bollards (optional), see Note 2; 48&quot; min; Type II curb extension, see Note 4; repair or reconstruct street paving as necessary, 2&#x27; min; 12&quot; stop bar; 2&#x27;R; 25&#x27;R; 10&#x27; min.; 4&#x27; min.; 6&#x27; min. to 8&#x27; max.</p></details></div>
+<div class="pclean"><p class="psum"><b>Curb Extensions.</b> Plan layouts for Type II curb extensions, including dual uni-directional ramps, a diagonal ramp, a protected intersection with directional ramps, and a temporary or retrofit extension with diagonal ramp. Typical features are a 25&#x27; radius, 2&#x27; radius corners, 12&quot; stop bars, optional 8&quot; white edge lines, optional channelizing bollards and contrasting colored surface, and <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> or <a class="sref" href="/SoCal-Super-Standards/signs/w11-15/" data-svg="/SoCal-Super-Standards/signs/W11-15.svg">W11-15</a> signs. Extensions are 6&#x27; minimum to 8&#x27; maximum wide.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Type II curb extension with dual uni-directional ramps and Type II curb extension with diagonal ramp.</p>
+<p>Callouts: street; 2&#x27; min.; existing diagonal curb ramp; existing directional curb ramp; <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> (optional); 8&quot; solid white edge line (optional); radius, see Note 1; contrasting colored surface (optional), see Note 3; channelizing bollards (optional), see Note 2; 48&quot; min; Type II curb extension, see Note 4; repair or reconstruct street paving as necessary, 2&#x27; min; 12&quot; stop bar; 2&#x27;R; 25&#x27;R; 10&#x27; min.; 4&#x27; min.; 6&#x27; min. to 8&#x27; max.</p></details></div>
+<div class="kw">Keywords: curb extension, bulb out, curb bulb, corner bulbout, diagonal curb ramp, directional curb ramp, dual uni-directional ramps, protected intersection, retrofit curb extension, temporary curb extension, channelizing bollards, contrasting colored surface, <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/w11-15/" data-svg="/SoCal-Super-Standards/signs/W11-15.svg">W11-15</a>, stop bar, corner radius, quick build</div>

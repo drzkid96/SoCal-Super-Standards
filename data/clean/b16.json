@@ -1,0 +1,609 @@
+[
+ {
+  "id": "ladot__red-book|p44",
+  "title": "Rectangular Rapid Flashing Beacon Sign Arm",
+  "summary": "Shows the sign arm and clamp used to attach a sign to a pole for a rectangular rapid flashing beacon (RRFB), with the arm up to 8'-0\" long and tapering from a 3.52\" fixed end to a 2.4\" free end. A table gives the clamp dimension A for pole diameters from 3.75\"-5.00\" up to 15.75\"-17.00\". Detail E gives the clamp bolts, anti-rotation pin, and field-drilled holes.",
+  "keywords": [
+   "rrfb",
+   "rectangular rapid flashing beacon",
+   "sign arm",
+   "sign arm attachment",
+   "pole clamp",
+   "clamp range",
+   "anti-rotation pin",
+   "beacon sign mounting",
+   "cotter pin",
+   "wiring access hole",
+   "hex bolt",
+   "pole diameter",
+   "s-52.1.7",
+   "flashing beacon"
+  ],
+  "sheets": [
+   {
+    "page": 44,
+    "notes": "Detail D: Sign arm attachment (not to scale)\nRemovable cap. Arm length 8'-0\" max. Fixed end diameter 3.52\". Free end diameter 2.4\". Clamp per Detail E.\n\nSign arm attachment data\nClamp range (diameter) / A\n3.75\"-5.00\" / 7.08\"\n4.75\"-6.00\" / 8.24\"\n5.75\"-7.00\" / 9.36\"\n6.75\"-8.00\" / 10.42\"\n7.75\"-9.00\" / 11.49\"\n8.75\"-10.00\" / 12.59\"\n9.75\"-11.00\" / 13.64\"\n10.75\"-12.00\" / 14.64\"\n11.75\"-13.00\" / 15.71\"\n12.75\"-14.00\" / 16.74\"\n13.75\"-15.00\" / 17.77\"\n14.75\"-16.00\" / 18.79\"\n15.75\"-17.00\" / 19.81\"\n\nDetail E: Clamp (not to scale)\n(4) 0.50\" dia. hex bolt with (1) HH nut, (2) FL washers and (1) LK washer per bolt.\nHole in pole for 0.63\" x 2\" anti-rotation pins to be field drilled.\n0.13\" x 1.50\" cotter pin (holds anti-rotation pin in place).\n1.25\" diameter wiring access hole in pole shaft to be field drilled.\nClamp plate dimensions 4\" and 6\", 3\" spacing, 0.313\" thick minimum."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p47",
+  "title": "Signal, Temporary for Type CD954 Standard (Without Luminaire Arm)",
+  "summary": "Shows a temporary traffic signal on a Type CD954 standard without a luminaire arm, set on a 60\" x 60\" x 3/4\" steel plate weighted with precast concrete blocks and tied with coil chain. The mast arm is limited to 15'-0\" and carries one 3-section head at its end, with up to two 5-section heads and two pedestrian heads on the shaft. Temporary overhead signal wires may span a maximum of 100 feet.",
+  "keywords": [
+   "temporary traffic signal",
+   "type cd954",
+   "cd954 standard",
+   "temporary signal",
+   "mast arm",
+   "precast concrete block",
+   "steel base plate",
+   "signal head",
+   "pedestrian head",
+   "temporary overhead signal wires",
+   "coil chain",
+   "s-57.2c",
+   "bolt circle",
+   "traffic signal yellow paint"
+  ],
+  "sheets": [
+   {
+    "page": 47,
+    "notes": "Notes:\n1. The CD954 standard (without luminaire arm) shall conform to Dept. of Transportation, City of Los Angeles Standard Dwg. # S-51.9.6 (foundation excluded).\n2. The mast arm length shall not exceed 15'-0\".\n3. There shall be a maximum of 2 - 5 section signal heads and 2 - ped. heads mounted to the shaft and one 3-section signal head mounted at the end of mast arm.\n\nPlan\n60\" x 60\" x 3/4\" steel plate. Tie with 3/8\" coil chain. 25\" x 3\" x 1/2\" angles welded to plate. 23\" x 23\" x 30\" precast conc. block (4 req.). 23\" x 13\" x 30\" precast conc. block (4 req.). Drill holes (4 req.) to accommodate 1-1/8\" bolt size and 11-1/2\" bolt circle. 3/8\" cable, embed 12\" deep (8 req.).\n\nSection A-A\n1-1/8\" x 4\" hex. hd. bolt, hex. nut, flat washer (4 req.). Weld bolts to 3/4\" plate. 4\" x 4\" x 1/4\" plate washer (4 req.). Level by mortar leveling bed, wedge edges until mortar sets (mortar is not required on C.A.B., dirt or when slope is less than 1/4\" per ft.). A.C. or P.C.C. surface. Coat plate assembly with primer and traffic signal yellow paint.\n\nElevation\nType CD954 std. (without luminaire arm). Temporary O.H. signal wires (maximum span 100 feet). Mast arm 15'-0\" max. All 12\" sections. 2 signal heads, 2 pedestrian heads, street name sign. See plan and Section A-A."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p48",
+  "title": "Signal, Temporary for Type CD954 Standard, Section A-A",
+  "summary": "Continues the temporary signal for a Type CD954 standard with the elevation, plan, and Section A-A of the base. The 60\" x 60\" x 3/4\" steel plate is tied with 3/8\" coil chain to precast concrete blocks and bolted with four 1-1/8\" x 4\" bolts. The mast arm is limited to 15'-0\" and all signal heads must be polycarbonate.",
+  "keywords": [
+   "temporary traffic signal",
+   "type cd954",
+   "section a-a",
+   "temporary signal base",
+   "precast concrete block",
+   "steel base plate",
+   "polycarbonate signal heads",
+   "mast arm",
+   "pedestrian heads",
+   "plate washer",
+   "mortar leveling bed",
+   "s-57.2d",
+   "temporary overhead cable",
+   "bolt circle"
+  ],
+  "sheets": [
+   {
+    "page": 48,
+    "notes": "Notes:\nThe CD954 standard shall conform to Dept. of Transportation, City of Los Angeles, Standard Drawing # S-51.9.6 (foundation excluded).\n1. Temporary O.H. signal cable (maximum span 100 feet).\n2. The mast arm length shall not exceed 15'-0\".\n3. There shall be a maximum of 2 - 5 section signal heads and 2 - ped. heads mounted to the shaft and one 3-section signal head mounted at the end of mast arm. All signal heads to be polycarbonate type.\n\nElevation\nType CD954 std. Mast arm 15'-0\" max. All 12\" sections. 6\" min. Signal heads (see Note 3). 2 pedestrian heads. Street name sign. See plan and Section A-A. Roadway.\n\nPlan\nTie with 3/8\" coil chain. 60\" steel plate. Weld angles to plate. 23\" x 13\" x 30\" precast concrete block (4 req.). 2\" hole. 4\" x 4\" x 1/2\" plate washer (4 req.). Drill 1-1/2\" diameter holes (4 req.) for 1-1/8\" bolt size and 11-1/2\" bolt circle. 3/8\" cable, embed 12\" deep (8 req.).\n\nSection A-A\n1-1/8\" x 4\" hex. hd. bolt, hex. nut, flat washer (4 req.). Weld bolts and 4\" x 4\" x 1/2\" plate washers to 3/4\" plate. 4\" x 4\" x 1/2\" plate washer (4 req.). A.C. or P.C.C. surface. 60\" x 60\" x 3/4\" steel plate. Level by mortar, wedge edges until mortar sets (mortar is not required on C.A.B., dirt or when slope is less than 1/4\" per foot). Coat plate assembly with primer and traffic signal yellow paint."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p49",
+  "title": "Temporary Controller for Type 8 Standard",
+  "summary": "Shows two weighted bases for a temporary signal controller cabinet, a 36\" square steel platform and a Type 8 standard base assembly. The platform is 1/4\" hot dip galvanized steel with a 2\" lip, loaded with four concrete-filled 5 gallon cans and a minimum weight of 90 lbs. Steel coil chain ties the cans and locks around the platform, and the base is marked with LADOT or the contractor name on at least two sides.",
+  "keywords": [
+   "temporary controller",
+   "type 8 standard",
+   "type 337 cabinet",
+   "weight block",
+   "steel platform",
+   "5 gallon can concrete",
+   "coil chain",
+   "temporary signal cabinet",
+   "galvanized platform",
+   "controller cabinet base",
+   "wood shims",
+   "temporary traffic signal"
+  ],
+  "sheets": [
+   {
+    "page": 49,
+    "notes": "Weight block (not to scale)\n36\" x 36\" square x 1/4\" thick steel platform, hot dip galvanized per ASTM 123. Type 1 base with 4 1\" dia. x 3-1/2\" bolts and nuts with 2 washers for each bolt. Min. weight: 90 lbs. 3/8\" dia. steel coil chain tied to each 5 gal. block and locked around the platform. 2\" high x 1/4\" thick perimeter lip resting on ground.\n\nType 1 standard, top view detail, with 337 cabinet (not to scale)\n5 gal. can filled with concrete. Four cans are required, spaced 36\" as shown.\n\nBottom view (not to scale)\n1-3/4\" x 1-3/4\" x 1/4\" steel angle brackets welded to plate. 4 holes at 1-1/4\" dia. on an 8-1/2\" dia. bolt circle. 1\" x 1\" notches for cable. 3/8\" dia. steel coil chain tied to each 5 gal. block and locked around the platform.\n\nType 8 standard base assembly (not to scale)\n5 gal. can filled with concrete. \"LADOT\" or contractor name embossed or welded on at least two sides. 1\" x 1\" notch for cable. 1/2\" dia. steel rod, 9\" deep. For slopes greater than 1/2\" rise per foot, temporary standard to be on grading or wood shims."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p50",
+  "title": "Fittings, Typical, Post Top Mounting",
+  "summary": "Shows a typical post top mounting fitting for a signal head, made of a slip fitter and a lock ring that each have 72 teeth. The fitting is secured with six hot dip galvanized 1/4\"-16 NC square head cup point set screws. Construction, material, and finish painting follow the latest Caltrans Standard Specifications.",
+  "keywords": [
+   "post top mounting",
+   "slip fitter",
+   "lock ring",
+   "72 teeth",
+   "signal head fitting",
+   "set screw",
+   "signal mounting hardware",
+   "hot dip galvanized",
+   "fittings",
+   "traffic signal fittings",
+   "cup point set screw",
+   "s-61.1",
+   "post top"
+  ],
+  "sheets": [
+   {
+    "page": 50,
+    "notes": "Slip fitter, 72 teeth. Lock ring, 72 teeth.\nCup point set screw: 1/4\"-16 N.C. square head, hot dip galvanized, (6) req.\n\nNote:\n1. Construction, material and finish painting shall conform to \"Standard Specifications\" (latest edition), Dept. of Transportation, State of California."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p51",
+  "title": "Fittings, Typical, Clamp Mounting",
+  "summary": "Shows typical clamp mounting fittings for traffic signal heads, including a special 90 degree elbow and a special tee, each using 72 tooth slip fitters and lock rings. Nipples are used with 2-way heads and a U-bolt clamp attaches the fitting. Construction, material, and finish painting follow the latest Caltrans Standard Specifications.",
+  "keywords": [
+   "clamp mounting",
+   "signal head fitting",
+   "special 90 degree elbow",
+   "special tee",
+   "u-bolt",
+   "lock ring",
+   "72 teeth",
+   "condulet",
+   "nipple",
+   "two-way heads",
+   "traffic signal fittings",
+   "s-62.1",
+   "pole clamp"
+  ],
+  "sheets": [
+   {
+    "page": 51,
+    "notes": "Special 90 degree elbow. Special tee.\nU-bolt. Condulet TB. Length nipple typical for 2-way heads. Minimum thread length 4\". 1-1/4\" pipe threads. Lock ring, 72 teeth. Snap-on cover.\n\nNote:\n1. Construction, material and finish painting shall conform to \"Standard Specifications\" (latest edition), Dept. of Transportation, State of California."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p53",
+  "title": "Special Mast Arm Mountings (Sheet 1 of 2)",
+  "summary": "Shows five Pelco brand mounting hardware items A through E for attaching signal heads or electric signs to mast arms and poles. Item A is a 6\" tenon with 2-3/8\" outside diameter, B and C are bracket assemblies on gusseted tubes with vinyl inserts, D is a modified sign mounting, and E is the clamp kit. Sheet 2 carries the notes and Detail A.",
+  "keywords": [
+   "special mast arm mountings",
+   "mast arm mounting",
+   "signal head mounting",
+   "pelco",
+   "plumbizer",
+   "tenon",
+   "clamp kit",
+   "gusseted tube",
+   "vinyl insert",
+   "sign mounting bracket",
+   "programmed visibility head",
+   "ab-3008",
+   "ab-116",
+   "ab-103",
+   "ab-0129",
+   "s-63.1.4"
+  ],
+  "sheets": [
+   {
+    "page": 53,
+    "notes": "Item \"A\" (Pelco AB-3008): tenon 6\" long, 2-3/8\" diameter.\nItem \"B\" (Pelco AB-116): gusseted tube with vinyl insert (typical), item \"E\" (typical), set screws (typical).\nItem \"C\" (Pelco AB-103).\nItem \"D\" (Pelco AB-0129 T-L) (modified): see Note No. 9 and Detail \"A\", see Note No. 10.\nItem \"E\" (Pelco AB-3004): clamp kit."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p54",
+  "title": "Special Mast Arm Mountings (Sheet 2 of 2)",
+  "summary": "Gives the notes explaining when to use mounting items A through E, which are Pelco products or equivalent. Item A is the basic mast arm mounting with a 6\" tenon, B mounts standard heads, C mounts programmed visibility heads, D mounts electric signs, and E is the clamp kit. The standard 29\" band fits 4\" to 8.6\" diameters and bands up to 56\" can be used for larger poles. Detail A shows a 4-1/2\" x 4-1/2\" x 1/4\" aluminum plate for sign box reinforcement.",
+  "keywords": [
+   "special mast arm mountings",
+   "mast arm mounting",
+   "signal head mounting",
+   "pelco",
+   "plumbizer",
+   "programmed visibility head",
+   "clamp kit",
+   "band length",
+   "sign box reinforcement",
+   "aluminum plate",
+   "electric sign bracket",
+   "pedestrian head installation",
+   "s-63.1.4"
+  ],
+  "sheets": [
+   {
+    "page": 54,
+    "notes": "Notes:\n1. Item \"A\" is the basic mounting design for most mast arm signal installations when standard tenon location on the mast arm cannot be utilized. It uses a 6\" tenon length with 2-3/8\" outside diameter for plumbizer mounting.\n2. Item \"B\" is used for installation of traffic signal heads, except programmed visibility (P.V.) heads, when it is desired to mount them horizontally or to adjust the height vertically by movement of item \"E\".\n3. Item \"C\" is used for installation of horizontal or vertical programmed visibility (P.V.) heads. It is equipped with 14\" arms which allow for replacement of signal lamps located in the rear of the signal head.\n4. Item \"D\" is used for installation of electric signs.\n5. Item \"E\" is a standard clamp kit designed to be used for fastening items \"B\", \"C\", and \"D\" to mast arms or poles in a vertical or horizontal position.\n6. The bottom arms in items \"B\", \"C\", and \"D\" are stationary and are held in place with pipe threads and set screws. The upper arms slide along the shaft and are held in place with set screws.\n7. The standard 29\" band for items \"A\" and \"E\" fits a 4\" to 8.6\" diameter. Band lengths up to 56\" can be used for larger diameter installations.\n8. Items \"A\" through \"E\" are available from Pelco Products Inc. or equivalent.\n9. The 1-1/2\" x 1-1/2\" aluminum lock nut shown with item \"D\" is commonly used for signal head and pedestrian head installations.\n10. The 4-1/2\" x 4-1/2\" x 1/4\" aluminum plate is used for sign box reinforcement at bracket installation location and must be specially fabricated.\n\nDetail \"A\": 4-1/2\" x 4-1/2\" x 1/4\" aluminum plate (not to scale)\n4-1/2\" by 4-1/2\" with 3/4\" typical edge distance. 2\" dia. hole. 3/8\" dia. holes. 0.4\" x 0.2\" slot."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p55",
+  "title": "Fittings, Mast Arm Mounting",
+  "summary": "Shows the typical fittings for mounting a signal head on a mast arm, including a plumbizer slip fitter and lock ring with 72 teeth each. Hardware includes two hot dip galvanized 1/4\"-16 NC square head cup point set screws, a square head bolt with two nuts and two flat washers, a special modified hex head screw, and a raintight connector. Construction, material, and finish painting follow the latest Caltrans Standard Specifications.",
+  "keywords": [
+   "mast arm mounting",
+   "plumbizer",
+   "slip fitter",
+   "lock ring",
+   "72 teeth",
+   "signal head fitting",
+   "raintight connector",
+   "set screw",
+   "hot dip galvanized",
+   "mast arm fittings",
+   "signal mounting hardware",
+   "s-67.1",
+   "square head bolt"
+  ],
+  "sheets": [
+   {
+    "page": 55,
+    "notes": "1/4\"-16 N.C. x 1/2\" square head cup point set screw, hot dip galvanized, (2) req.\n1/4\"-16 N.C. x 4\" square head bolt with 2 nuts and 2 flat washers, hot dip galvanized.\nPlumbizer slip fitter, 72 teeth. Lock ring, 72 teeth.\nSpecial screw 1/4\"-13 NC modified hex head, hot dip galvanized.\nTypical raintight connector.\n\nNote:\n1. Construction, material and finish painting shall conform to \"Standard Specifications\" (latest edition), Dept. of Transportation, State of California."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p56",
+  "title": "Removable Lifting Plate for Controller Cabinets",
+  "summary": "Shows the removable lifting plate bolted to the top of a traffic signal controller cabinet so it can be lifted. The plate is ASTM A36 steel, hot dip galvanized per ASTM A-123, and attaches with two cadmium plated hex head bolts and nuts. Four holes are drilled in the cabinet to match the plate.",
+  "keywords": [
+   "removable lifting plate",
+   "controller cabinet lifting plate",
+   "cabinet lift plate",
+   "controller cabinet",
+   "astm a36 steel",
+   "galvanized plate",
+   "lifting eye",
+   "hex head bolt",
+   "cabinet installation",
+   "traffic signal controller",
+   "s-68.1"
+  ],
+  "sheets": [
+   {
+    "page": 56,
+    "notes": "Drill four (4) holes to match removable lifting plate.\nHex head bolt and nut, cad. plated (2 req.).\nController cabinet wall (ref.).\n\nNotes:\n1. Material: ASTM A36 steel plate.\n2. Hot dip galvanized plate per ASTM Spec. A-123."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p57",
+  "title": "Visor, 8\" Dia., Beveled",
+  "summary": "Shows the beveled visor for an 8 inch diameter signal head, in left beveled and right beveled versions. The right beveled visor is made by beveling the opposite side. All other details follow LADOT Purchase Specification # 92-061-06.",
+  "keywords": [
+   "signal visor",
+   "beveled visor",
+   "8 inch signal head",
+   "left beveled visor",
+   "right beveled visor",
+   "signal head visor",
+   "traffic signal head",
+   "purchase specification 92-061-06",
+   "8 inch visor",
+   "s-76.3"
+  ],
+  "sheets": [
+   {
+    "page": 57,
+    "notes": "Left beveled. Right beveled. Ear detail.\nNote: Bevel opposite side for right beveled visor. Refer to LADOT Purchase Specification # 92-061-06 for all other details."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p64",
+  "title": "Bicycle Pushbutton Sign",
+  "summary": "Shows the sign mounted at a bicycle pushbutton, with a push button for green light and a left, right, or double arrow as needed. It is powder coated .063 aluminum with a black legend on a white background and four 1/4\" inside diameter brass grommets. Sign dimensions of 4\" and 5\" are shown.",
+  "keywords": [
+   "bicycle pushbutton sign",
+   "bike push button",
+   "bicycle signal actuation",
+   "push button for green light",
+   "bike signal sign",
+   "pushbutton sign",
+   "brass grommet",
+   "aluminum sign",
+   "arrow",
+   "bicycle detection sign",
+   "bike push button sign"
+  ],
+  "sheets": [
+   {
+    "page": 64,
+    "notes": "1/4\" inside diameter brass grommet, 4 places (typ.).\nPush button for green light. Dimensions 4\" and 5\".\n* Use left, right or double arrow as necessary.\n\nNote: Sign shall be powder coated aluminum with black legend on white background as shown.\nMaterial: .063 aluminum."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p66",
+  "title": "Pedestrian Pushbutton Sign Actuated",
+  "summary": "Shows the pedestrian pushbutton instruction sign with a push button to cross and a left, right, or double arrow as needed. Its panels explain the signal phases, with a walking person for start crossing and watch for vehicles, a flashing hand for don't start and finish crossing if started, a timer for time remaining, and a steady hand for don't cross. The sign is .063 aluminum, powder coated with a black legend on white and orange hand and timer symbols.",
+  "keywords": [
+   "pedestrian pushbutton sign",
+   "ped push button",
+   "push button to cross",
+   "pedestrian signal instructions",
+   "start crossing",
+   "don't start finish crossing",
+   "flashing hand",
+   "steady hand",
+   "timer symbol",
+   "pedestrian actuated",
+   "ped signal sign",
+   "aluminum sign",
+   "walk don't walk"
+  ],
+  "sheets": [
+   {
+    "page": 66,
+    "notes": "1/4\" inside diameter, 4 places (typ.).\nStart crossing. Watch for vehicles.\nDon't start. Finish crossing if started. Time remaining to finish crossing (flashing).\nDon't cross (steady).\nPush button to cross.\n* Use left, right or double arrow as necessary.\n\nNotes:\n1. Sign shall be .063 aluminum.\n2. Powder coated with black legend on white background and orange hand and timer symbols."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p67",
+  "title": "Inductive Loop Installation",
+  "summary": "Shows how to install inductive detector loops in a pavement sawcut, including winding details, slot sections, and the lead-in to a pullbox. Each detector gets 3 clockwise turns of loop wire unless the signal plan shows otherwise. The slot is filled with loop sealant to within 1/16\" of the top, no more than 8 wires go in each sawcut slot, and loop wire is twisted at least 2 turns per foot. Slot depth must not exceed the pavement depth, and concrete (P.C.C.) surfaces need at least 2.5\" of cover over the loop wire.",
+  "keywords": [
+   "inductive loop",
+   "loop detector",
+   "loop installation",
+   "sawcut slot",
+   "loop sealant",
+   "loop wire",
+   "detector loop",
+   "vehicle detection",
+   "pullbox",
+   "winding details",
+   "clockwise turns",
+   "pcc cover",
+   "loop lead-in",
+   "s-70.1a",
+   "advance loop"
+  ],
+  "sheets": [
+   {
+    "page": 67,
+    "notes": "Winding details (not to scale)\nLoop 1, loop 2. Direction of traffic flow. 3'-0\" max. to pullbox. Twisted clockwise (at least 2 turns per ft.) into a pair to pullbox.\nFill slot with loop sealant to within 1/16\" of top (do not overfill).\n\nSection A-A: 3\" min.* (see Note 1). 1/2\" max.\nSection B-B and Section C-C: 5\" min.* 8 wires maximum per sawcut slot. 1/2\" max.\n\n* Depth of slot not to exceed depth of pavement. For P.C.C. (concrete) surfaces, the minimum cover above loop wire shall be 2.5\" minimum.\n\nNotes:\n1. Install 3 clockwise turns of loop wire for each detector, unless otherwise shown on signal plan.\n2. See LADOT Material Specification No. 92-081-05 or latest revision.\n3. Any non-round shaped loops must conform to all other specifications shown on this standard drawing."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p68",
+  "title": "Inductive Loop Installation (Sheet 2)",
+  "summary": "Gives the sequence for installing inductive loops and the stub-out detail from the street to the pullbox. The pavement is opened at least 42\" from the curb face and at least 18\" from the edge of gutter, with an opening of no more than 12\" x 16\". A 2\" PVC (SC80) or PVC flex (SC40) conduit with a 45 degree elbow runs from the pullbox pit, at least 18\" below street grade, and each stub-out carries no more than 8 loops or 16 wires.",
+  "keywords": [
+   "inductive loop",
+   "loop stub-out",
+   "loop detector",
+   "stub out detail",
+   "pullbox",
+   "2 inch pvc conduit",
+   "pvc flex",
+   "hot patch asphalt",
+   "rubberized asphalt sealant",
+   "duct seal",
+   "star drill",
+   "bus pad",
+   "loop wires",
+   "sawcut",
+   "s-70.1a",
+   "loop installation order"
+  ],
+  "sheets": [
+   {
+    "page": 68,
+    "notes": "Section D-D (not to scale)\nCurb and gutter. 42\" min. Hot patch asphalt concrete. 16\" max. 2\" PVC or 2\" PVC flex. Existing pavement. Loop wires, 16\" max. Loop sealant.\n\nStub-out detail (top view, not to scale)\nExisting pavement, sand, sub base, hot patch asphalt concrete, 2\" PVC or PVC conduit, 2\" PVC flex conduit.\n\nNotes: Perform loop installation in the following order:\n1. Open the pavement at least 42\" from curb face and at least 18\" from edge of gutter using a star drill or a jack hammer (asphalt concrete only). Open no more than a 12\" x 16\" area. In cases where there is a concrete bus pad adjacent to the gutter, install the stub-out beyond the edge of the bus pad.\n2. Install 2\" PVC (SC80) or PVC flex (SC40) from the pullbox pit with a 45 degree elbow at the stub-out as shown. Depth of the conduit shall be at least 18\" below street grade.\n3. Patch street using hot patch asphalt concrete and sand as shown.\n4. Install duct seal where wires enter 2\" PVC or 2\" PVC flex.\n5. Fill sawcut slot with Caltrans approved hot-melt rubberized asphalt sealant. No more than 8 loops or 16 wires per stub-out."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p70",
+  "title": "Preformed Loop Installation",
+  "summary": "Shows a preformed detector loop built from 1/2\" I.D. polypropylene with a 3/4\" O.D., with 4 turns of continuous #16 TFFN wire, and filled with hot rubberized asphalt. Each loop head has a 5\" contraction/expansion joint with a 9\" long by 3/4\" Schedule 80 PVC cover slide, and the 3/8\" O.D. lead-in hose runs in 2\" PVC conduit from the pullbox to the pavement slab. Lead-in wires are twisted at least 2 times per foot, and any variation needs design engineer approval.",
+  "keywords": [
+   "preformed loop",
+   "preformed detector loop",
+   "loop detector",
+   "loop installation",
+   "expansion joint",
+   "polypropylene loop",
+   "hydraulic hose lead-in",
+   "rubberized asphalt",
+   "tffn wire",
+   "cpvc tee",
+   "pullbox",
+   "pavement slab loop",
+   "reinforcing bars",
+   "concrete pavement loop",
+   "s-70.1e"
+  ],
+  "sheets": [
+   {
+    "page": 70,
+    "notes": "Winding details (not to scale)\n6' expansion joint. CPVC tee. 3/4\" O.D. asphalt rubber filled hydraulic hose. CVPC cross. Expansion joint. 3/8\" O.D. asphalt rubber filled hydraulic hose. Twisted clockwise (at least 2 turns per ft.) to pullbox. 3'-0\" max. Twisted tail.\n\nSection A-A (not to scale)\nDetector loop conductors. 3/8\" O.D. asphalt rubber filled hydraulic hose. Pavement. To detector per plan. Schedule 80 PVC 2\" conduit (see Note 7) (typical).\n\nNotes:\n1. Pre-formed loop shall be constructed from 1/2\" I.D. polypropylene, with an O.D. of 3/4\" inch.\n2. Loop is to have one continuous #16 TFFN wire through the loop head and lead-in to prevent loop malfunction due to splicing. Loop shall have four (4) turns of wire.\n3. The conduit shall be completely filled with hot, rubberized asphalt which will allow the loop to retain flexibility once cooled, prevent incursion of moisture and set the wire turns firmly in place.\n4. Each loop head shall be provided with a 5\" contraction/expansion joint to allow for movement of pavement and to prevent breakage of the wire and/or conduit. The joint is to have a 9\" long by 3/4\" Schedule 80 PVC cover slide to be placed over the joint for protection from the elements.\n5. Encase lead-in wires in a non-conductive 250 psi flex hose with seamless fiber braid reinforcement and a non-conductive seamless extruded urethane non-perforated jacket. Fill lead-in hose completely with hot rubberized asphalt. Twist wires at least two times per foot for entire run. Attach lead-in to loop head with a Schedule 80 CVPC tee and a CVPC adapter bushing.\n6. Any variation to the installation as described above shall be approved by the design engineer prior to installation.\n7. The 3/8\" O.D. lead-in hose shall be installed in 2\" PVC conduit between pullbox and entry to pavement slab. Loop shall be attached to top of reinforcing bars when used in the pavement slab."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p71",
+  "title": "Transit Priority Loop Symbol",
+  "summary": "Shows the saw slot detail and winding detail for a transit priority loop. Loops with a length under 40' get 2 turns and those over 40' get 1 turn, with a minimum slot depth of 3\" for 2 turns and 5\" for 1 turn. Slot corners are cut with a 3' radius (R=3').",
+  "keywords": [
+   "transit priority loop",
+   "transit priority detector",
+   "bus loop",
+   "loop detector",
+   "saw slot",
+   "winding detail",
+   "loop turns",
+   "signal priority",
+   "transit signal priority",
+   "loop symbol",
+   "s-70.1f",
+   "loop depth"
+  ],
+  "sheets": [
+   {
+    "page": 71,
+    "notes": "Saw slot detail of loop. Winding detail.\nLength / number of turns: under 40' = 2 turns. Over 40' = 1 turn.\n2 turns: depth 3\" min. 1 turn: depth 5\" min.\nR = 3'."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p72",
+  "title": "System Detector Loop Lead-In Cable (2,3,4 Pair)",
+  "summary": "Shows wiring color codes for one, two, three, and four loop hookups using 2, 3, or 4 pair shielded lead-in cable. Pairs are blue/white (pair 1), orange/white (pair 2), green/white (pair 3), and brown/white (pair 4), with the drain wire connected to earth ground at the controller cabinet only. System loops use a single pair for each loop, and electrical connections must be soldered and waterproofed.",
+  "keywords": [
+   "system detector loop",
+   "loop lead-in cable",
+   "detector lead-in",
+   "loop hookup",
+   "2 pair cable",
+   "3 pair cable",
+   "4 pair cable",
+   "pair color code",
+   "drain wire",
+   "earth ground",
+   "shielded cable",
+   "loop wiring",
+   "controller cabinet",
+   "s-70.2",
+   "detector cable"
+  ],
+  "sheets": [
+   {
+    "page": 72,
+    "notes": "One-loop hookup: 2 pair cable. Two-loop hookup: 2 pair cable. Three-loop hookup: 3 pair cable. Four-loop hookup: 4 pair cable.\nPair colors: blue/white (pair 1), orange/white (pair 2), green/white (pair 3), brown/white (pair 4).\nDrain wire connected to earth ground at controller cabinet. Do not connect at the loop end.\n\nNotes:\n1. This standard drawing describes a two, three or four pair loop detector lead-in cable, individually shielded and jacketed and suitable for installation in a pavement sawcut, conduit, or direct burial. The detector lead-in cable can be wired in either a single, double, triple or quadruple channel configuration.\n2. Loop numbers shown are typical.\n3. Electrical connections shall be carefully soldered and waterproofed.\n4. See LADOT Material Specification No. 92-082-03 or latest revision.\n5. Loop numbers shown are typical.\n6. System loops use a single pair for each loop."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p75",
+  "title": "Light Rail Train (LRT) Track Detector Loop",
+  "summary": "Shows a preformed detector loop for new embedded light rail track, with 4 turns of wire installed in a 2\" Schedule 80 PVC conduit 30\" deep to a termination pullbox. No rebar or metal other than the track rails may be placed within 3 feet horizontally or vertically of the loop. The preformed loop uses 1/2\" I.D. polypropylene, #16 TFFN wire, a 5\" expansion joint, and rubberized asphalt fill.",
+  "keywords": [
+   "lrt detector loop",
+   "light rail detector",
+   "embedded track",
+   "track detector loop",
+   "preformed loop",
+   "light rail train",
+   "rail loop",
+   "termination pullbox",
+   "loop detector",
+   "2 inch pvc schedule 80",
+   "hot rubberized asphalt",
+   "handhole",
+   "s-70.4a"
+  ],
+  "sheets": [
+   {
+    "page": 75,
+    "notes": "LRT detector for new track (embedded)\n4 turns of wire. 30\". Embedded track. Termination pullbox. P.C.C. or asphalt concrete. Detector handhole type A. Subbase. Termination pull box. Preformed loop. Subballast bed. 2\" PVC Sched. 80 conduit 30\" deep. Section: embedded track.\n\nNotes:\n1. Preformed loop to be used for new installations in embedded track.\n2. No rebar or metal of any kind other than the track rails shall be placed within three feet (3') horizontally or vertically from LRT loop.\n3. See page 2 and 3 for preformed LRT loop details.\n\nLRT preformed loop details\nNotes:\n1. Pre-formed loop shall be constructed from 1/2\" I.D. polypropylene, with an O.D. of 3/4 inch.\n2. Loop is to have one continuous #16 TFFN wire through the loop head and lead-in to prevent loop malfunction due to splicing. Loop shall have four (4) turns of wire.\n3. The conduit shall be completely filled with hot, rubberized asphalt which will allow the loop to retain flexibility once cooled, prevent incursion of moisture and set the wire turns firmly in place.\n4. Each loop head shall be provided with a 5\" contraction/expansion joint to allow for movement of pavement and to prevent breakage of the wire and/or conduit. The joint is to have a 9\" long by 3/4\" schedule 80 PVC cover slide to be placed over the joint for protection from the elements.\n5. Encase lead-in wire in a non-conductive 250 psi flex hose, seamless, with fiber braid reinforcement and a non-conductive seamless extruded urethane non-perforated jacket. Fill lead-in hose completely with hot rubberized asphalt. Twist wires at least two times per foot for entire run. Attach lead-in to loop head with a schedule 80 CVPC tee and a CVPC adapter bushing.\n6. Any variation to the installation as described above shall be approved by the design engineer prior to installation."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p77",
+  "title": "Type 337 Cabinet (Post-Top Mounted)",
+  "summary": "Shows the front, rear, and bottom views of a Type 337 post-top mounted traffic signal controller cabinet, with a front police door, louvered vents of at least 20 sq in flow area, and removable lifting plates per S-68.1. Doors use a 3-point latch with a hasp for a padlock, and the cabinet has standard 19\" rack mounting rails. Dimension tolerance is plus or minus 0.125\".",
+  "keywords": [
+   "type 337 cabinet",
+   "337 cabinet",
+   "post top mounted cabinet",
+   "controller cabinet",
+   "traffic signal cabinet",
+   "police door",
+   "louvered vents",
+   "19 inch rack rails",
+   "3-point latch",
+   "foundation adapter",
+   "cabinet details",
+   "lifting plate",
+   "drainage holes",
+   "type 170 cabinet",
+   "s-75"
+  ],
+  "sheets": [
+   {
+    "page": 77,
+    "notes": "Type 337 cabinet (post-top mounted)\nRemovable lifting plates per S-68.1. Identification (required on front door). Rear door. Fan. Vent. Police door with shroud to provide access to switches and indicators only (required on front door). Front door. Louvered vents with 20 sq in. min. flow area (required in front door). Cabinet doors shall be secured by a 3-point latch mechanism. Latch handle shall be equipped with hasp for addition of padlock (required on front and rear doors).\nBottom view (post-top mount): 5-1/2\" dia. bolt circle. 4 holes required for drainage. Foundation adapter. Type F foundation.\nDimension tolerance +/- 0.125 inch.\n\nNotes:\n1. Cabinet construction, ventilation requirements and other necessary accessories shall conform to the latest specification for \"Cabinet Assembly - Type 337 post-top mounted\", Dept. of Transportation, City of Los Angeles.\n2. Cabinet shall be equipped with rails for mounting equipment. Rails shall be of standard 19\" rack configuration."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p78",
+  "title": "Type M Controller Cabinet",
+  "summary": "Shows the Type M controller cabinet with a Type F-12A foundation, filtered ventilating louvers, a police door cutout, and a removable lifting plate per S-68.1. When used as an ATSAC type communication cabinet, a 1\" screened drain pipe must go through the foundation, and a 3/4\" thick plywood mounting panel of at least 19\" x 33\" is installed on the inside of the rear wall. See Specification No. 92-044-04 or latest revision.",
+  "keywords": [
+   "type m cabinet",
+   "controller cabinet",
+   "atsac communication cabinet",
+   "f-12a foundation",
+   "police door",
+   "filtered louvers",
+   "plywood mounting panel",
+   "drain pipe",
+   "anchor bolt",
+   "removable lifting plate",
+   "traffic signal cabinet",
+   "cabinet foundation",
+   "s-75.5.3"
+  ],
+  "sheets": [
+   {
+    "page": 78,
+    "notes": "Note:\n1. When this cabinet is used as an ATSAC type communication cabinet, a one-inch (1\") screened drain pipe shall be provided through the foundation. A 19\" x 33\" or larger 3/4-inch thick plywood mounting panel shall be installed on the inside of the rear wall. Machine screws and bolts shall not protrude beyond the outside wall of the cabinet.\n\nFiltered ventilating louvers. Removable lifting plate per S-68.1 if required. Cutout for police door. Anchor bolt layout. Door opening. D = 16\" min. Type F-12A foundation.\nSpecification No. 92-044-04 or latest revision."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p79",
+  "title": "Type II Communication Cabinet and Foundation",
+  "summary": "Shows the front, rear, side, and plan views of the Type II communication cabinet and its foundation, with continuous hinge, stainless steel venting louvers with protective screens, a removable staple for a padlock, and adjustable panel mounting studs. It has a 3/4\" plywood mounting panel and 2-3\" PVC conduits. Material is .125\" thick AL 5052 H32 with anodized finish per MIL-A-8625C, per Spec. No. 92-067-02.",
+  "keywords": [
+   "type ii communication cabinet",
+   "communication cabinet",
+   "atsac cabinet",
+   "cabinet foundation",
+   "aluminum cabinet",
+   "venting louvers",
+   "plywood panel",
+   "ground rod",
+   "pvc conduits",
+   "anodized aluminum",
+   "padlock staple",
+   "mounting flange",
+   "s-75.0c",
+   "traffic signal communication cabinet"
+  ],
+  "sheets": [
+   {
+    "page": 79,
+    "notes": "Front view, rear view, side view, plan view.\nContinuous hinge. Stainless steel venting louvers with protective screens. Adjustable panel mounting studs. Removable staple for padlock. 3/4\" plywood panel. 2-3\" PVC conduits. 1-1/2\" x 1-1/2\" x 1/4\" thick aluminum mounting flange welded to cabinet. 1/2\" dia. x 8' ground rod. Cabinet opening. Dimensions 12\", 12\", 7-1/4\", 20\".\n\nNotes:\nMaterial: .125\" thick AL 5052 H32.\n1) Finish: anodized per MIL-A-8625C.\nSpec. No. 92-067-02."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p83",
+  "title": "Special Cover for Pull Box",
+  "summary": "Shows a special steel frame and cover for Type 2 and Type 3 signal pullboxes, with plan, edge sections, and a lift plug detail. The cover is marked SIGNAL in 1\" stamped letters and has two 2-3/4\" brass lift plugs with 3/4\"-10 UNC threaded steel sleeves. A table gives dimensions A through G for each pullbox type, and all metal surfaces are galvanized after welding, machining, and drilling.",
+  "keywords": [
+   "pull box cover",
+   "special cover for pull box",
+   "pullbox lid",
+   "type 2 pullbox",
+   "type 3 pullbox",
+   "signal pullbox cover",
+   "brass lift plug",
+   "steel frame and cover",
+   "galvanized cover",
+   "sidewalk pullbox",
+   "stamped letters signal",
+   "lift plug threads",
+   "s-78.8"
+  ],
+  "sheets": [
+   {
+    "page": 83,
+    "notes": "Plan: Cover and frame. 2-3/4\" brass lift plug (2). SIGNAL, 1\" stamped letters. Dimensions A (cover outside), B (frame inside), C (frame inside dim.), D.\nSection: 1/8\" (typ.). 3/16\" plate. Cover. 1/2\" x 1/2\" continuous steel bar. End and mid-point (typ.). 4\" x 3/16\" steel plate typical all sides. 8 degree slope. Frame. Typical all four (4) sides of frame and cover. Height 1-13/16\".\nSteel sleeve internal thread 3/4\"-10 UNC full length to match brass lift plug. Slot 3/8\" square and 3/8\" deep. 3/16\" steel plate.\nInstalled: sidewalk grade, frame inside C and G, pull box, 4\" x 3/16\" steel plate typical all sides.\n\nDimensions\nFor Type 2 pullbox: A 18-3/4\", B 19\", C 29\", D 9-1/2\", E 28-3/4\", F 28-1/4\", G 27-7/8\".\nFor Type 3 pullbox: A 25-3/4\", B 26\", C 38\", D 13\", E 37-3/4\", F 37-1/4\", G 36-7/8\".\n\nNotes:\n1. All metal surfaces for special frame and cover shall have a galvanized finish.\n2. All welding, machining and drilling shall be done before galvanizing.\n3. Plug threads must be greased thoroughly prior to installation."
+   }
+  ]
+ }
+]

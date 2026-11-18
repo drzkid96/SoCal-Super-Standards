@@ -1,0 +1,427 @@
+[
+ {
+  "id": "ladot__red-book|S-50.1",
+  "title": "Traffic Signal Symbols",
+  "summary": "Legend of the symbols used on LADOT traffic signal plans. It covers signal heads, signal standards, mast arms, pedestrian signals and pushbuttons, cabinets, pullboxes, detectors, cameras, poles, trees, fire hydrants and other features, each shown as proposed, existing, and existing to be removed. Footnotes A through F set common conditions such as backplates on all heads and a 15 ft default mast arm length.",
+  "keywords": [
+   "traffic signal symbols",
+   "signal plan legend",
+   "signal head symbols",
+   "signal standard",
+   "mast arm",
+   "pedestrian pushbutton",
+   "loop detector symbol",
+   "pullbox symbol",
+   "signal controller cabinet",
+   "proposed existing removed",
+   "bicycle loop detector",
+   "accessible pedestrian signal",
+   "light rail signal",
+   "louvered signal indications",
+   "street lighting pullbox"
+  ],
+  "sheets": [
+   {
+    "page": 27,
+    "notes": "Symbols shown as proposed, existing, and existing to be removed.\nSignal head, three 8 in (200 mm) section heads (Footnote A)\nSignal head, three 12 in (300 mm) sections (Footnote A)\nSignal head with beveled visor, left bevel shown (Footnote A)\nSignal standard\nSignal head, three 8 in (200 mm) sections with long visor (Footnote A)\nSignal head, four sections: three 8 in sections (R, Y, G) + 12 in green arrow (Footnotes A & B)\nSignal head, four sections: three 12 in sections (R, Y, G) + 12 in green arrow (Footnotes A & B)\nSignal head, three sections: two 8 in sections (R, Y) + 12 in green up arrow (Footnote A)\nSignal head, three sections: one 12 in section (R) + 12 in yellow and green arrows (Footnotes A & B)\nSignal head, three sections: 12 in red, yellow and green arrows (Footnotes A & B)\nSignal head, five sections: three 8 in sections (R, Y, G) + 12 in yellow and green arrows (Footnotes A & B)\nSignal head, five sections: three 12 in sections (R, Y, G) + 12 in yellow and green arrows, cluster head if on mast arm for left turn phase (Footnotes A & B)\nSignal head, three 12 in programmed visibility sections (R, Y, G) (Footnote A)\nLouvered signal indications (8 in or 12 in) (Footnotes A, F)"
+   },
+   {
+    "page": 28,
+    "notes": "Signal head, three 8 in sections: steady red, followed by flashing red, followed by steady yellow (Footnote A)\nLight rail signal, per plan details\nStandard with mast arm and without luminaire (Footnotes A & C)\nStandard with mast arm and luminaire (Footnotes A & C)\nStandard with mast arm and without luminaire, platform mounted, temporary signal (Footnotes A & C)\nStandard with mast arm and luminaire, platform mounted, temporary signal (Footnotes A & C)\nType 1 standard, platform mounted (temporary signal)\nElectrolier, pendant type\nElectrolier, upright type\nOverhead cable\nFiber optic cable\nSignal conductors\nFiber splice vault\nPedestrian signal\nPedestrian pushbutton\nEquestrian pushbutton (mounting height per plan)\nBicyclist pushbutton\nPedestrian signal features: APS indicates device with accessible pedestrian signal"
+   },
+   {
+    "page": 29,
+    "notes": "Type 7 pushbutton standard (PPB shown)\nSignal controller cabinet\nSignal controller with GPS time receiver\nCommunication cabinet\nType 2 pullbox\nType 3 pullbox\nStreet lighting pullbox\nTree (showing approximate overhang)\nPalm tree\nFence\nTraffic sign\nSign post\nPhoto enforcement pole\nService pole (with pole number listed)\nPower pole\nPower pole with guy anchor\nFire hydrant"
+   },
+   {
+    "page": 30,
+    "notes": "Catch basin\nManhole\nFlashing beacon\nInductive loop detector, 6 foot diameter\nBicycle loop detector per LADOT Std. Dwg. No. S-70.1D\nInductive loop detector (size noted per plan)\nOverhead detector: microwave/radar (MR), video (V), optical (O), infrared (I)\nVideo camera\nPhoto enforcement camera\nSpread spectrum radio unit\nIn roadway lighting\nPedestrian barricade\n\nFootnotes:\nA. With backplates.\nB. Symbol shall designate standard: either right or left arrow(s) shown.\nC. Mast arm length shall be 15 ft, unless otherwise noted.\nD. All signal heads shown with signal standard.\nE. Pedestrian signal and pushbuttons shown with standard.\nF. For special applications only."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-52.1",
+  "title": "Steel Signal Standards Types 1, 1A, 8, 8A and 9; RRFB Sign Arm; Foundation Types F-1 and F-8",
+  "summary": "Group of three LADOT sheets. The first gives structural details for tapered steel pole Types 1, 1A, 8, 8A and 9 (0.1196 in wall, base plate, hand hole, pole top tenon). The second gives the sign arm data and sign sizes for a Rectangular Rapid Flashing Beacon (W11-2 and W16-7p). The third gives foundation Types F-1 and F-8 for signal standards and the Type 337 post-top cabinet, with a 36 in by 24 in by 4 in slab at each cabinet door opening in unpaved areas.",
+  "keywords": [
+   "type 1 standard",
+   "type 1a standard",
+   "type 8 standard",
+   "type 9 standard",
+   "pole foundation",
+   "foundation type f-1",
+   "foundation type f-8",
+   "anchor bolts",
+   "base plate",
+   "hand hole",
+   "rectangular rapid flashing beacon",
+   "rrfb sign arm",
+   "w11-2",
+   "w16-7p",
+   "pedestrian signal pole",
+   "controller cabinet foundation",
+   "tapered steel pole",
+   "pole top tenon"
+  ],
+  "sheets": [
+   {
+    "page": 32,
+    "notes": "Standards Type 1, 1A, 8, 8A and 9 (structural design). Sheet 1 of 1.\nDetails shown: base plate (10 in sq., 9 1/2 in and 8 1/2 in bolt circles, 1 1/4 in x 1 3/4 in slots for anchor bolts), Elevation A, Detail A (weld, 30 degrees max. contact angle, 1.57 T min. and 1.83 T min.), and Detail B (pole top tenon: 4 1/2 in O.D., 4 NPS Std, 4.00 in, 1/4 in plate with 2 in central hole).\nT (wall thickness) = 0.1196 in. 3/4 in base plate.\nType 8: 1 ft 8 in tall, 4.5 in O.D. at top, 4.73 in O.D. at base.\nType 8A: 2 ft 4 in tall, 4.5 in O.D. at top, 4.83 in O.D. at base.\nType 9: 7 ft 2 in tall, 4.29 in O.D. at top, 5.25 in O.D. at base.\nType 1: 10 ft 6 in tall, 4.06 in O.D. at top, 5.48 in O.D. at base, foundation see S-52.1, 24 in x 24 in (24 in dia. optional), 3 ft 6 in deep. 2 ft 11.5 in to the top drill pattern: 2 1/4 in dia. hole (drill 1 side only) and two 3/4 in dia. holes (drill through), 4.5 in spacing.\nType 1A: 14 ft 0 in tall, 3.57 in O.D. at top, 5.48 in O.D. at base. Drill pattern 6 ft 5.5 in from the top, same hole sizes, 4.5 in spacing.\n3 in x 5 in hand hole reinforced with 1/4 in x 2 in ring welded to outside of pole and 1/8 in cover plate.\n0.50 in NC square nut holder with fastener for grounding welded to interior of pole shaft at 180 degrees from hand hole rim.\nNotes:\n1. All standards shall be tapered steel posts with 0.1196 in wall thickness.\n2. Max. taper of posts shall be 0.143 in per foot."
+   },
+   {
+    "page": 43,
+    "notes": "Rectangular Rapid Flashing Beacon sign arm. Sheet 2 of 4.\nDetail B (not to scale): sign arm span 8 ft max.\nDetail C (not to scale): clamp (Pelco AB-3004).\nSign arm data: arm span L 8 ft 0 in, fixed end dia. 3.52 in, free end dia. 2.4 in, gage 11, degree rise 0.50.\nSign arm material data:\nSign arm shaft: A595 Gr. A, min. yield 55 ksi.\nClamp: A572, 55 ksi.\nSign arm connection bolts: A325, 55 ksi.\nHardware coating: hot dip zinc.\nFinish notes: system galvanized (GV). Base coat hot dip galvanized to ASTM A123. Prime coat none. Color none. Finish coat none.\nSign dimensions, conventional road (single lane / multi-lane):\nW11-2 Pedestrian: 30x30* / 36x36.\nW16-7p Downward diagonal arrow: 24x12 / 24x12.\n* The minimum size required for diamond-shaped warning signs facing traffic on multi-lane conventional roads shall be 36x36 per MUTCD section 2C.04."
+   },
+   {
+    "page": 86,
+    "notes": "Foundation Type F-1 and F-8. Sheet 1 of 1.\nNotes:\n1. Type F-1: 2 in nominal size conduit, unless otherwise specified.\n2. Type F-8 and Type F-8A: 3 in nominal size conduit, unless otherwise specified.\n3. Unless otherwise specified, in unpaved areas a 36 in x 24 in x 4 in slab shall be provided for each door opening in the case of a model 336 cabinet.\n4. On Type F-8 and Type F-8A, ground rod shall be installed in controller pullbox.\nTop view: 4 in thick slab, 24 in wide, 36 in + 24 in + 36 in long, 8 1/2 in bolt circle, 45 degree bolt spacing, curb face shown.\nSection: base plate 10 in x 10 in x 3/4 in. Anchor bolts 1 in dia. x 3 ft 0 in, thread bottom 6 in (2 nuts and 2 washers, total 4 required per bolt). Anchor plate 10 in x 10 in x 3/4 in. Anchor bolt threaded top 8 in and galvanized 12 in. 2 in min. to 3 in max. mortar. After plumbing the standard, place mortar all around bolts and finish with slope ranging from 45 to 90 degrees including drain holes. 3 in x 5 in reinforced hand hole and cover. #8 green bonding wire. 0.50 in NC square nut holder with fastener for grounding welded to interior of pole shaft at 180 degrees from hand hole rim. 4 in min. topping. Foundation 24 in x 24 in (24 in dia. optional), 42 in deep, 14 in min. to conduit, 3 in min. below anchor plate. 36 in from curb face."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-51.8",
+  "title": "Type 337 Post-Top Mounted Cabinet",
+  "summary": "Shows a typical installation of a Type 337 post-top mounted signal cabinet on a Type 8 shaft with a slip fitter and a Type F-8 foundation. The cabinet is mounted with its doors perpendicular to the curb and swinging toward the curb. The shaft is set 36 in from the curb face with a 3 in conduit at 14 in min.",
+  "keywords": [
+   "type 337 cabinet",
+   "post-top mounted cabinet",
+   "ptm cabinet",
+   "signal controller cabinet",
+   "cabinet installation",
+   "type 8 shaft",
+   "foundation f-8",
+   "slip fitter",
+   "cabinet door orientation",
+   "3 inch conduit",
+   "curb face offset",
+   "controller cabinet mounting"
+  ],
+  "sheets": [
+   {
+    "page": 34,
+    "notes": "Type 337 post-top mounted cabinet. Sheet 1 of 1.\nDetail: door openings on Type 337 PTM cabinet shown relative to the curb face.\nTypical cabinet installation (Type 337 post-top mounted cabinet): slip fitter, Type 8 shaft, Foundation Type F-8, 3 in conduit.\nDimensions: 36 in from curb face to shaft, 14 in min. conduit depth.\nNote: Type 337 PTM cabinet to be mounted with doors perpendicular to curb and doors swing towards curb. See detail upper left."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-52.2",
+  "title": "Standard, Type 16 (Signal Mast Arm Pole) and Foundation, Type F-2",
+  "summary": "Two LADOT sheets. The first gives the Type 16 tapered steel signal standard with a mast arm of 15 ft (max. 20 ft), a minimum signal mounting height of 17 ft 6 in, pole and arm schedules, base plate and hand hole details. The second gives Foundation Type F-2, a 32 in square footing 48 in deep plus 4 in topping with 4 anchor bolts on an 11 1/2 in bolt circle.",
+  "keywords": [
+   "type 16 standard",
+   "signal mast arm pole",
+   "foundation type f-2",
+   "mast arm 15 ft",
+   "pole base plate",
+   "anchor bolts 1 1/8",
+   "signal mounting height",
+   "hand hole",
+   "pole schedule",
+   "signal arm data",
+   "steel pole astm a611",
+   "pole foundation",
+   "street lighting conduit",
+   "bonding strap"
+  ],
+  "sheets": [
+   {
+    "page": 36,
+    "notes": "Standard, Type 16. Pole and signal arm details.\nSignal arm projected length 15 ft 0 in unless otherwise noted (max. 20 ft). Traffic signal mounting height 17 ft 6 in min. Pole height 18 ft 0 in.\nProvide removable rain-tight cap. 18 in x 66 in sign. See Detail \"A\".\nDimensions at the pole: 7 ft 6 in, 11 ft 3 in, 15 ft 6 in, 17 ft 6 in, 18 ft 0 in. Foundation Type F-2 (S-52.2), 32 in x 32 in x (48 in + 4 in topping), 560-C-3250 concrete. Anchor bolt 1 1/8 in x 40 in, ASTM A307. Top 3 in of foundation to be poured level with sidewalk except on structures. 36 in from curb.\nDetail \"A\" (not to scale): tap pole plate for hex. head cap screw ASTM A325, 3/4 in-10 x 1 3/4 in long, total 3. 1 in dia. chased outlet for electrical conductors. 2 1/4 in drill, one side, opposite quadrant of mast arm. 3/4 in drill thru 2 holes (typ. 2 places). Bar 2 in x 1/4 in x 0 ft 5 in. 10 ga. plate 1/4 in, 7 ga. plate 5/16 in. Note: dimensions shown here apply to both the post and signal arm plate.\nPole base plate (no scale): 4 in x 6 1/2 in handhole reinforced with No. 3 gage ring 1 1/2 in wide welded to outside of pole. Cover of 10 gage plate. Locate in opposite quadrant of mast arm. Bar 1 in x 1/4 in backing ring, tack weld to plate. 11 1/2 in bolt circle on axis of mast arm. 11 1/2 in sq. plate, hole dia. = 5 3/4 in, R = 1 1/2 in, 1 3/8 in x 1 1/2 in slot for anchor bolt.\nPole schedule: round tapered steel pole, height 18.0 ft, gage 10 GA., min. O.D. 7 3/4 in base and 5 1/4 in top, signal arm length 15 to 20 ft.\nSignal arm data (1): projected length 15 ft 0 in, 10 GA., min. O.D. at pole 4.6 in, mounting height 22.3 ft. 18 ft 0 in, 10 GA., 5.2 in, 23.3 ft. 20 ft 0 in, 7 GA., 5.0 in, 23.3 ft.\nNotes:\n(1) Round tapered steel tube with maximum taper of 0.15 in per foot. End section O.D. of 2 3/8 in for mounting hardware. Standard 2 in pipe extensions of 3 ft 0 in max. length may be used at the option of the manufacturer.\n(2) 4 anchor bolts each base plate. Length indicated does not include required 4 in 90 degree bend. Each anchor bolt is threaded 6 in at the top and is furnished with 2 nuts and 2 washers. One anchor bolt bonded to conduit.\n1. Pole and signal arm shall be fabricated from sheet steel conforming to the specifications of ASTM Designation A611 Grade C, or ASTM Designation A570 Grade C.\n2. All welding shall conform to AWS D2.0 \"Specifications for Welded Highway and Railway Bridges.\"\n3. All structural steel shall conform to ASTM designation A36, except as otherwise shown.\nNotes, continued:\n1. Alternative details approved by the Engineer may be substituted for the arm connections and configurations shown.\n2. Fabricators electing to use larger than min. arm diameters must adjust the details as required to permit solid seating of cap screws.\n3. In lieu of the torque requirements for HS bolts, cap screws shall be tightened by the turn-of-nut method 1/6 turn from snug tight condition. No washer will be required.\n4. Only one signal head may be mounted on each signal arm.\n5. All metal parts shall be galvanized after fabrication.\n6. All arms shall be bent to the approximate configuration shown."
+   },
+   {
+    "page": 87,
+    "notes": "Foundation, Type F-2. Sheet 1 of 1.\nPlan: 32 in sq. footing, 8 1/8 in sq. base plate, 11 1/2 in bolt circle, anchor bolts at 45 degrees. 36 in from curb.\nSection: minimum topping 4 in, 14 in min. to conduit, footing depth 48 in, 6 in min. Anchor bolts 1 1/8 in x 40 in x 4 in (2 nuts and 2 washers required per bolt). Bonding strap or wire. Bushing.\nNotes:\n1. Use 1 in galvanized conduit for street lighting and 2 in schedule 80 PVC conduit for traffic signal unless otherwise specified.\n2. Conduit stubs from foundation shall be in the direction of the nearest corresponding pullbox unless otherwise specified.\n3. Topping shall be considered as a part of the foundation."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-52.0",
+  "title": "100 MPH Poles (Sheet 1 of 2)",
+  "summary": "Gives the pole, mast arm and cast-in-drilled-hole (CIDH) pile foundation data for LADOT 100 mph signal poles. A schedule lists each pole type by standard height (17 ft, 18.5 ft or 30 ft), mast arm length (15 ft to 65 ft), minimum signal spacing, pile diameter and depth, cage size, anchor bolts and base plate size. Poles are fabricated to the 2006 Caltrans Standard Plans.",
+  "keywords": [
+   "100 mph poles",
+   "signal pole schedule",
+   "cidh pile foundation",
+   "mast arm length",
+   "pole base plate",
+   "anchor bolts 2 inch",
+   "pile foundation depth",
+   "type 16-3-100",
+   "pole height 30 ft",
+   "reinforcing cage",
+   "traffic signal conduit",
+   "street lighting conduit",
+   "hand hole",
+   "wind load poles"
+  ],
+  "sheets": [
+   {
+    "page": 38,
+    "notes": "100 MPH Poles, sheet 1 of 2.\nSection A-A, cast-in-drilled-hole (CIDH) pile foundation: 2 in clearance, #8 total 10 bars, #4 at 6 in or #4 spiral at 6 in pitch with 1 ft 6 in lap at splice and 135 degree hook at terminations.\nElevation: 36 in offset. 0.50 in NC square nut holder with fastener for grounding welded to interior of pole shaft at 180 degrees from hand hole rim. #8 green bonding wire. 4 in x 6 1/2 in hand hole reinforced with ring welded to outside of pole, see note 2, 1/8 in cover plate. Anchor bolt threaded top 8 in and galvanized 12 in. 1 in plus or minus 1/4 in. 2 in min. to 3 in max. mortar. After plumbing standard, place mortar all around bolts and finish with slope ranging from 45 to 90 degrees including drain holes. 18 in min. depth. Traffic signal conduit (2 in). Street lighting conduit (1 in). Anchor bolts (2 nuts and 2 washers required per bolt), total 4. Type 560-C-3250 concrete. Reinforcing cage with 3 in clearance. Base plate dimension C with bolt circle, slot size 2 3/8 in (2 5/8 in for 60-5-100 and 61-5-100), 1 1/2 in and 3 in edge dimensions as shown.\nSchedule (type, standard height, mast arm length, F min. spacing):\n16-3-100: 18.5 ft; 17-3-100: 30 ft. Mast arm 15 ft or 20 ft, F = 8 ft.\n18-4-100: 17 ft; 19-4-100: 30 ft. Mast arm 25 ft or 30 ft, F = 12 ft.\n23-4-100: 17 ft; 24-4-100: 30 ft. Mast arm 35 ft, F = 14 ft.\n26-4-100: 30 ft; 27-4-100: 17 ft. Mast arm 40 ft or 45 ft, F = 15 ft.\n28-5-100: 17 ft; 29-5-100: 30 ft. Mast arm 50 ft or 55 ft, F1 = 15 ft, F2 = 12 ft.\n60-5-100: 17 ft; 61-5-100: 30 ft. Mast arm 60 ft or 65 ft, F1 = 15 ft, F2 = 12 ft.\nCIDH pile: diameter 36 in, cage diameter 32 in. Depth 9 ft with cage depth 8 ft 6 in for the lighter types, 9 ft 2 in with cage depth 8 ft 8 in for types 28-5-100 and 29-5-100, 16 ft with cage depth 15 ft 6 in for types 60-5-100 and 61-5-100.\nAnchor bolts 2 in dia. x 42 in x 6 in (2 1/4 in dia. x 60 in x 6 in for types 60-5-100 and 61-5-100). Bolt circle 18 in (21 in for types 28-5-100 and 29-5-100, 23 in for types 60-5-100 and 61-5-100), with * for the first two types: fabricate and install with 18 in bolt circle. Plate dimension C: 18 in, 21 in or 23 in to match.\nNotes:\n1. Fabrication of the standards shall conform to the 2006 State of California Department of Transportation Standard Plans.\n2. Hand hole reinforcement ring shall be 1/4 in x 2 in for 0.1196 in to 0.2391 in thick poles, 3/8 in x 2 in for 0.3125 in thick poles.\n3. Base plate to be fabricated as shown.\n4. Luminaire arm length per street lighting sheet.\n5. Standard to be pre-drilled as shown.\n6. Attach stamped metal tag above hand hole on pole and on mast arm (minimum 1/4 in height numbers, see sheet 2)."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-52.1.6",
+  "title": "100 MPH Poles (Sheet 2 of 2): Side Mount Indications Drill Detail",
+  "summary": "Shows how a 100 mph signal pole is drilled for side-mounted signal indications and tagged. A hole pattern on the side opposite the mast arm sets 9 in spacing, and signal heads mount at 11 ft 3 in and 7 ft 6 in above grade. Metal tags give the pole type, load case, design wind velocity, mast arm length and height.",
+  "keywords": [
+   "100 mph poles",
+   "side mount indications",
+   "drill detail",
+   "signal pole drilling",
+   "mast arm length",
+   "pole metal tag",
+   "hand hole",
+   "cidh foundation",
+   "pedestrian signal mounting height",
+   "signal head spacing",
+   "pole tag format",
+   "standard height"
+  ],
+  "sheets": [
+   {
+    "page": 39,
+    "notes": "100 MPH Poles, sheet 2 of 2. Side Mount Indications Drill Detail.\nElevation: mast arm length measured from the pole to the outermost signal head. Signal head spacing F1 and F2 along the arm. Standard height shown at the pole. Side-mounted signal indications at 11 ft 3 in and 7 ft 6 in above grade. Hand hole near the base. CIDH foundation, see detail on sheet 1.\nSide view opposite of mast arm: two 3/4 in dia. holes (drill through) and one 2 1/4 in dia. hole (drill 1 side only), spaced 4 1/2 in and 9 in as shown.\nMetal tag on mast arm: LA-XX-X-XXX-XX, reading Type, Load case, Design wind velocity, Actual mast arm length (ft).\nMetal tag at hand hole: LA-XX-X-XXX-XX-XX, reading Type, Load case, Design wind velocity, Max. mast arm length (ft), Height (ft)."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-52.1.71",
+  "title": "Foundation Details (Sheet 4 of 4)",
+  "summary": "Shows a 36 in diameter round concrete footing, 60 in deep with 4 in min. topping, for a signal or street light pole with an 11 1/2 in bolt circle. It lists the rebar, anchor bolts, 1 in street light conduit and 2 in traffic signal conduit. Conduit stubs run toward the nearest pullbox, and the bolt circle must be coordinated with the light pole base plate.",
+  "keywords": [
+   "foundation details",
+   "round footing",
+   "36 inch footing",
+   "pole foundation",
+   "anchor bolts 1 1/8",
+   "street light conduit",
+   "traffic signal conduit",
+   "bolt circle 11 1/2",
+   "rapid flashing beacon pole",
+   "rebar cage",
+   "astm f1554",
+   "bonding strap",
+   "conduit stub direction"
+  ],
+  "sheets": [
+   {
+    "page": 45,
+    "notes": "Foundation details. Sheet 4 of 4.\nPlan: 36 in dia. footing (min. 3000 psi concrete), 11 1/2 in bolt circle, 8 1/8 in sq. base, anchor bolts at 45 degrees.\nSection: 36 in from curb. Bonding strap or wire. Bushing. 4 in min. topping. 2 3/4 in. 14 in min. to conduit. 60 in footing depth. 6 in min. 36 in dia. 3 in clearance. 2 in clearance. (8) #10 long reinforced. #4 ties at 9 in OC typ. (provide (2) ties at 2 in OC at top). 1 in dia. street light conduit. 2 in dia. traffic signal conduit. Anchor bolts 1 1/8 in x 40 in x 4 in (2 nuts and 2 washers required per bolt) (ASTM F1554 Gr 55 bolts).\nNotes:\n1. Use 1 in galvanized conduit for street lighting and 2 in schedule 80 PVC conduit for traffic signal unless otherwise specified.\n2. Conduit stubs from foundation shall be in the direction of the nearest corresponding pullbox unless otherwise specified.\n3. Topping shall be considered as a part of the foundation.\n4. Coordinate bolt circle with light pole base plate prior to anchor bolt installation.\n5. Coordinate conduit size and placement with electrical prior to installation."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-57.0",
+  "title": "Temporary Signal for Type 1 Standard",
+  "summary": "Shows a temporary traffic signal on a Type 1 standard held down by a 36 in square steel platform with four 5 gallon cans filled with concrete, locked on with steel coil chain. Heads are 12 in to match the permanent heads being replaced. The standard is set level on slopes greater than 1/2 in rise per foot by grading or wood shims.",
+  "keywords": [
+   "temporary signal",
+   "type 1 standard",
+   "temporary traffic signal",
+   "portable signal base",
+   "steel platform",
+   "weight block",
+   "concrete filled cans",
+   "5 gallon cans",
+   "temporary signal base",
+   "12 inch heads",
+   "construction signal",
+   "chain tie down"
+  ],
+  "sheets": [
+   {
+    "page": 46,
+    "notes": "Temporary signal for Type 1 standard. Sheet 1 of 1.\nUse 12 in heads corresponding to permanent heads being replaced.\nPlatform (top view detail, not to scale): 36 in x 36 in. 36 in sq. x 1/4 in thick steel platform, hot dip galvanized per ASTM 123. Type 1 base with 4 1 in dia. x 3-1/2 in bolts and nuts with 2 washers for each bolt. 3/8 in dia. steel coil chain tied to each 5 gal. block and locked around the Type 1 standard. 5 gal. can filled with concrete, four cans are required, spaced as shown.\nPlatform (bottom view detail, not to scale): 36 in x 36 in. 2 in high x 1/4 in thick perimeter lip resting on ground. 1-3/4 in x 1-3/4 in x 1/4 in steel angle brackets welded to plate. 4 holes at 1-1/4 in dia. 8-1/2 in dia. bolt circle. 1 in x 1 in notches for cable.\nWeight block (not to scale): 5 gal. can filled with concrete, min. weight 90 lbs. 1/2 in dia. steel rod embedded 9 in deep. Block 12 in wide x 14 in high, 4 in rod width, 3 in rod projection.\nType 1 standard (not to scale): street name sign, pedestrian signal, 3/8 in dia. steel coil chain tied to each 5 gal. block and locked around the Type 1 standard. 5 gal. can filled with concrete. Base assembly. \"LADOT\" or contractor name embossed or welded on at least two sides. 2 in lip. 1 in x 1 in notch for cable.\nFor slopes greater than 1/2 in rise per foot, temporary standard to be set level through the use of grading or wood shims."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-63.1",
+  "title": "Fittings, Typical, Terminal Compartment and Pole Plate Mounting",
+  "summary": "Shows typical fittings for mounting a signal terminal compartment, side mount or post-top mount, on a signal standard, along with the pole plate for side mountings. It lists the bolts, washers, lock ring, slip fitter threads and teeth counts used. Construction, material and finish painting follow the State of California Standard Specifications.",
+  "keywords": [
+   "terminal compartment",
+   "signal fittings",
+   "pole plate mounting",
+   "side mount terminal compartment",
+   "post-top mount",
+   "slip fitter",
+   "lock ring",
+   "signal head mounting hardware",
+   "special tee",
+   "cable guide",
+   "signal standard fittings",
+   "set screws"
+  ],
+  "sheets": [
+   {
+    "page": 52,
+    "notes": "Fittings, typical, terminal compartment and pole plate mounting.\nTerminal compartment, side mount: 3/4 in-11 N.C. hex. hd. bolt with lock washer and flat washer, hot dip galvanized. Flat washer and curved washer. Cover. Special tee. 72 teeth. Cable guide, omit on cover. Lock ring. Pipe threads. 5/16-16 N.C. x 7/8 in sq. hd. cup pt. set screw, hot dip galvanized (6 req.). 4 in (min. thread).\nTerminal compartment, post-top mount: 72 teeth upper plate. Washer curved to fit standard. Detail \"A\": 1 1/2 in pipe thread. Detail A: flat washer, 5/8 in-11 N.C. hex. hd. bolt, hot dip galvanized, nut, washer, 3/4 in lockwasher and 7/8 in flat washer, signal standard.\nPole plate for side mountings.\nNote: Construction, material and finish painting shall conform to \"Standard Specifications\" (latest edition), Dept. of Transportation, State of California."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-76.6",
+  "title": "Visor, 12 in Diameter, Beveled",
+  "summary": "Shows the 12 in diameter beveled signal visor, with the left-beveled version drawn and an ear detail. A right-beveled visor is made by beveling the opposite side. Other details are in LADOT Purchase Specification #92-061-06.",
+  "keywords": [
+   "beveled visor",
+   "12 inch visor",
+   "signal visor",
+   "left beveled visor",
+   "right beveled visor",
+   "signal head visor",
+   "traffic signal visor",
+   "ear detail",
+   "purchase specification 92-061-06"
+  ],
+  "sheets": [
+   {
+    "page": 58,
+    "notes": "Visor, 12 in dia., beveled.\nLeft beveled visor shown. See ear detail. Bevel opposite side for right beveled visor.\nNote: Refer to LADOT Purchase Specification #92-061-06 for all other details."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-76.3",
+  "title": "Signal Visors: Long Visor, Tunnel (Pigeon) Visor and Full Circle Visor, 8 in and 12 in",
+  "summary": "Three sheets showing LADOT signal visor types for 8 in and 12 in heads. The sheets cover the long visor (8 in x 18 in and 12 in x 27 in full circle), the tunnel or pigeon visor (8 in x 8 in and 12 in x 12 in), and the standard full circle visor (8 in and 12 in). Each refers to the ear detail on S-76.3 and to LADOT Purchase Specification #92-061-06.",
+  "keywords": [
+   "long visor",
+   "tunnel visor",
+   "pigeon visor",
+   "full circle visor",
+   "8 inch visor",
+   "12 inch visor",
+   "signal head visor",
+   "traffic signal visor",
+   "visor ear detail",
+   "purchase specification 92-061-06",
+   "s-76.7",
+   "s-76.8",
+   "s-76.9"
+  ],
+  "sheets": [
+   {
+    "page": 59,
+    "notes": "Long visor, 8 in and 12 in diameter, full circle (S-76.7).\nLong visor, 8 in x 18 in full circle. Not to scale. See ear detail on Std. Dwg. No. S-76.3.\nLong visor, 12 in x 27 in full circle. Not to scale. See ear detail on Std. Dwg. No. S-76.3.\nNote: Refer to LADOT Purchase Specification #92-061-06 for all other details."
+   },
+   {
+    "page": 60,
+    "notes": "Pigeon (tunnel) visor, 8 in and 12 in diameter (S-76.8).\nVisor, 8 in x 8 in tunnel. Not to scale. See ear detail on Std. Dwg. No. S-76.3.\nVisor, 12 in x 12 in tunnel. Not to scale. See ear detail on Std. Dwg. No. S-76.3.\nNote: Refer to LADOT Purchase Specification #92-061-06 for all other details."
+   },
+   {
+    "page": 61,
+    "notes": "Visor, 8 in and 12 in diameter, full circle (S-76.9).\nVisor, 8 in full circle. Not to scale. See ear detail on Std. Dwg. No. S-76.3.\nVisor, 12 in full circle. Not to scale. See ear detail on Std. Dwg. No. S-76.3.\nNote: Refer to LADOT Purchase Specification #92-061-06 for all other details."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-72.0",
+  "title": "Pushbutton, Installation",
+  "summary": "Shows how a pedestrian pushbutton is installed on steel and concrete signal standards, with tapped holes and a typical arrangement at the curb. Pushbutton mounting height is adjusted to 42 in above the surface pedestrians are expected to use to reach the button, with a typical 3 ft 6 in height shown.",
+  "keywords": [
+   "pushbutton installation",
+   "pedestrian pushbutton",
+   "pushbutton mounting height",
+   "42 inch pushbutton height",
+   "ada pushbutton",
+   "pushbutton standard insert",
+   "steel standards",
+   "concrete standards",
+   "pole drilling",
+   "ped button mounting",
+   "reach range"
+  ],
+  "sheets": [
+   {
+    "page": 62,
+    "notes": "Pushbutton, installation. Sheet 1 of 1.\nNo. 7 drill, 1/4 in-20 N.C. tap, 2 holes. Parallel to crosswalk. Steel standards. Standard inserts for concrete standards, tapped 1/4 in-20 N.C., for which intended. Concrete standards. Curb. Typical arrangement. Pushbutton. 3 ft 6 in typical.\nAdjust pushbutton mounting height to 42 in above the surface pedestrians are expected to access pushbutton from."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-72.1.1",
+  "title": "Pushbutton",
+  "summary": "Shows the LADOT pedestrian pushbutton assembly in post-top and side mounting on signal standards, with push button station housing and 2 in diameter pushbuttons. It shows the pedestrian signal instruction messages, such as Walk, Don't Start, Flashing Don't Cross, and Time Remaining. Mounting hardware is four 8-32 x 3/4 in screws, and construction follows LADOT material specifications 92-052-02 and 92-053-02.",
+  "keywords": [
+   "pedestrian pushbutton",
+   "pushbutton assembly",
+   "push button sign",
+   "post-top mounting",
+   "side mounting",
+   "pushbutton station",
+   "2 inch pushbutton",
+   "ped signal instruction sign",
+   "type 5 standard",
+   "type 6 standard",
+   "material specification 92-052-02",
+   "bicycle pushbutton",
+   "start crossing"
+  ],
+  "sheets": [
+   {
+    "page": 63,
+    "notes": "Pushbutton. Sheet 1 of 1.\nPost-top mounting (see S-51.7 for installation): back of casting shaped to fit 2 1/2 in dia. standard. Sign text: Start Crossing, Watch for Vehicles, Flashing: if started finish crossing, Time remaining to finish crossing, Don't Start, Steady: Don't cross, Timer, Push button to cross.\nSide mounting (see S-72.0A for installation): back of casting shaped to fit curvature of standard. Same sign text.\nType 5 and 6 standards only, side mounting (see S-72.0A for installation).\nNotes:\n1. Pedestrian pushbuttons: see Standard Drawings S-73.0 and S-73.1. Bicycle pushbuttons: see Standard Drawings S-72.2.\n2. Mounting hardware consists of four (4) 8-32 x 3/4 in long.\nHousing: construction, materials and finish painting shall conform to LADOT material specification 92-052-02 or latest version.\nAssembly: construction, materials and finish painting shall conform to LADOT material specification 92-053-02 or latest version. Pushbuttons shall be 2 in in diameter."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-73.0",
+  "title": "Pedestrian Pushbutton Sign, Non-Actuated",
+  "summary": "Shows the pedestrian pushbutton sign used for non-actuated crossings. The sign is .063 aluminum, powder coated with black legend on a white background and orange hand and timer symbols. The sign text covers Start Crossing, Watch for Vehicles, Flashing, Time Remaining, Don't Start and Steady Don't Cross, with a Timer symbol. Four 1/4 in inside diameter mounting holes are shown.",
+  "keywords": [
+   "pedestrian pushbutton sign",
+   "non-actuated pushbutton sign",
+   "pedestrian signal instruction sign",
+   "r10 series sign",
+   "ped sign aluminum",
+   "start crossing sign",
+   "orange hand symbol",
+   "countdown timer sign",
+   "sign mounting holes",
+   "ped button sign"
+  ],
+  "sheets": [
+   {
+    "page": 65,
+    "notes": "Pedestrian pushbutton sign, non-actuated. Sheet 1 of 1.\n1/4 in inside diameter, 4 places (typ.).\nSign text: Start Crossing, Watch for Vehicles, Flashing: if started finish crossing, Time remaining to finish crossing, Don't Start, Steady: Don't Cross, Timer.\nDimensions as shown: R = 1/2 in corner radius, 4 in and 5 in.\nNotes:\n1. Sign shall be .063 aluminum.\n2. Powder coated with black legend on white background and orange hand and timer symbols."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|S-70.0",
+  "title": "Bicycle Detector; Light Rail Train (LRT) Track Detector Loop",
+  "summary": "Two LADOT detector sheets. The first (S-70.1D) shows bicycle detector loops. Case I is a pair of 3 ft loops for bicycle only (bike lane) and Case II is a pair of 6 ft loops for bicycle and vehicle, with winding details and saw cut sections. The second (S-70.4A, sheet 3 of 3) shows the preformed 30 in LRT track detector loop and the Type A LRT detector handhole.",
+  "keywords": [
+   "bicycle detector",
+   "bicycle loop detector",
+   "inductive loop",
+   "bike lane loop",
+   "loop winding detail",
+   "saw cut slot",
+   "case i bicycle only",
+   "case ii bicycle and vehicle",
+   "lrt detector loop",
+   "light rail track detector",
+   "type a handhole",
+   "preformed loop",
+   "loop sealant",
+   "loop conductor twist",
+   "s-70.1d",
+   "s-70.4a"
+  ],
+  "sheets": [
+   {
+    "page": 69,
+    "notes": "Bicycle detector. Sheet 1 of 1.\nWinding detail (not to scale): loops 1 and 2. Twisted clockwise (at least 2 turns per ft.) into a pair. To pullbox. Wire pairs 1, 2, 3, 4.\nCase I (bicycle only): loop 1 and loop 2 each 3 ft, spaced 3 ft apart. Pullbox 3 ft 0 in max. from the curb face.\nCase II (bicycle and vehicle): loop 1 and loop 2 each 6 ft, spaced 8 ft apart. Pullbox 3 ft 0 in max. from the curb face.\nDirection of traffic flow shown.\nSaw cut sections:\nSect. A-A: 3/8 in wide, 3.5 in deep*.\nSect. B-B: 1/2 in wide, 5 in deep*.\nSect. C-C: 3/8 in wide, 5 in deep*.\nSect. D-D: 1/2 in max. wide, 5 in deep*, 8 wires max. per 1/2 in sawcut.\nSect. E-E: 1/2 in max. wide, 5 in deep*.\n* Depth of slot not to exceed depth of pavement.\nNotes:\n1. Install four (4) complete alternating turns of loop wires, unless otherwise specified.\n2. For stub-out and conduit details refer to page 2 of S-70.1A.\n3. See LADOT Material Specification No. 92-081-05 or latest revision.\n4. Use Case I loops for bike lane installations. Use Case II loops when vehicular loops are intended to detect bicycles.\n5. An octagonal shaped loop or other non-round shaped loop may be used instead of the round loop with prior LADOT approval.\n6. Same winding pattern to be used in both loops for Case I with 1 pair from each loop leading to the pullbox.\n7. Loops installed in bike lanes with parking shall be placed with the near edge of the loop 1 ft to the right of the bike lane delineation line, unless otherwise specified.\n8. Loops installed in bike lanes adjacent to the roadside without parking shall be centered in the bike lane, or between the gutter and the bike delineation line, unless otherwise specified.\n9. Any LADOT approved non-round shaped loops must conform to all other specifications shown on this standard drawing."
+   },
+   {
+    "page": 76,
+    "notes": "Light Rail Train (LRT) track detector loop. Sheet 3 of 3 (S-70.4A).\nLRT preformed loop details (cont'd).\nPreformed loop: 30 in diameter. 3/4 in O.D. asphalt rubber filled hydraulic hose. Expansion joint. CVCC tee. 3/8 in O.D. asphalt rubber filled hydraulic hose to Type A handhole. Twisted tail.\nWinding details (not to scale): twisted clockwise (at least 2 turns per ft.) into a pair, to Type A handhole. Pairs 1 and 2.\nType 'A' LRT detector handhole:\nThroat dia. 9 in. 4 in min. 12 in total depth, 11-3/8 in inside depth, 8 in min. 6 in min. below the box. 10-3/8 in box width, 1 in wall. 3 in min. around the handhole. Cast iron frame and cover (cover 11-1/8 in, frame 14-1/4 in, marked LADOT). Loop sealant. Ballast, PCC or hot AC to match adjacent roadbed material. Precast reinforced concrete box. Cables of shielded loop conductor pairs. Portland cement concrete. Conduit to termination pullbox, 2 in Schedule 80 PVC (30 in deep). Clean, crushed rock sump.\nNotes:\n1. Splices shall only be made in the handhole.\n2. Splices shall be soldered and water proofed."
+   }
+  ]
+ }
+]

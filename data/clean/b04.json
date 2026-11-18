@@ -1,0 +1,150 @@
+[
+ {
+  "id": "ladot__mpp-521|S-101.0",
+  "title": "Typical Traffic Signal Layouts",
+  "summary": "Typical signal head and mastarm layouts for a T intersection, a 4-leg intersection, a one-way street, left-turn phasing, a signalized driveway, signalized midblock crosswalks on two-way and one-way streets, and an intersection with a signalized frontage road. Each layout shows head numbering and phase numbers 1 through 8. Notes cover mastarm placement within 5 feet of the approach lane center on one-way streets under 46 feet wide, a near side primary head for protected left turns, and the flashing red display during the Phase 4 pedestrian sequence at midblock crossings. Every sheet states that the drawing does not show the required safety lighting design.",
+  "keywords": [
+   "typical traffic signal layout",
+   "signal head placement",
+   "mastarm signal head",
+   "t intersection signal",
+   "4-leg intersection signal",
+   "one-way street signal",
+   "protected left turn signal head",
+   "signalized driveway",
+   "midblock crosswalk signal",
+   "pedestrian signal head",
+   "highmount signal head",
+   "signalized frontage road",
+   "programmed visibility head",
+   "phase numbering",
+   "ped xing sign",
+   "near side primary head"
+  ],
+  "sheets": [
+   {
+    "page": 58,
+    "notes": "T Intersection\nHighmount signal head shown. If the approach is one lane, then this head should be deleted.\nThis drawing is not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown."
+   },
+   {
+    "page": 59,
+    "notes": "4-Leg Intersection\nThis drawing is not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown."
+   },
+   {
+    "page": 60,
+    "notes": "One Way Street\nA mastarm dimension of not less than 20' and not greater than 35' is shown.\nNotes:\nFor one-way streets with a roadway width less than 46 feet, a single mastarm signal head with the mastarm signal head placed within 5 feet of the center of the approach lane(s) should be installed.\nThis drawing is not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown."
+   },
+   {
+    "page": 61,
+    "notes": "Left-Turn Phasing\nFor each approach having protected left-turn phasing, a near side primary signal head is added. This is not necessary for protected permissive phasing.\nNotes:\n1. Protected left-turn phasing is shown. See S-65.0 for mastarm head placement for other types of left-turn phasing.\n2. This drawing is not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown."
+   },
+   {
+    "page": 62,
+    "notes": "Signalized Driveway\nWhere traffic is moderately high or where the driveway is offset from the side street, then opposed phasing should be considered.\nDetail A and Detail B are shown. See Detail \"A\" and Note 3.\nNotes:\n1. This typical design is appropriate where a review of use has determined that the driveway should be signalized. Normally, this design would be used only where the driveway could not easily be reconstructed to be configured with curb returns and a \"step down\" design along the path of pedestrians. New development driveways with higher traffic volumes at intersections should be required to construct street like driveways with a layout for a \"T\" or 4-leg intersection, as appropriate.\n2. This drawing is not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown.\n3. Detail \"B\" may be used where visibility is good and a flashing yellow indication provides adequate control of driveway traffic."
+   },
+   {
+    "page": 63,
+    "notes": "Signalized Midblock Crosswalk - Two Way Street\nDetails A, B and C are shown. PED XING sign: black letters on yellow background. A dimension X greater than 10' is called out.\nNotes:\n1. Signal equipment should be combined with street lighting where feasible.\n2. See S-493.0, Cases 13 & 14 for limit line locations. See S-481.0 for ladder crosswalk detail.\n3. Where X is greater than 10', install a pole for the pedestrian head at the location shown, and a separate pole for the secondary vehicle head at the limit line, as shown in Detail \"C\".\n4. This drawing is not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown.\n5. During Phase 4 pedestrian sequence, Phases 2 & 6 receive a flashing red signal display."
+   },
+   {
+    "page": 64,
+    "notes": "Signalized Midblock Crosswalk - One Way Street\nMastarm dimension of not less than 20' and not greater than 35' is shown, with 50' min. PED XING sign: black letters on yellow background. Details A and B are shown.\nNotes:\n1. Signal equipment should be combined with street lighting where feasible.\n2. See S-493.0, Cases 13 & 14 for limit line locations. See S-481.0 for ladder crosswalk detail.\n3. For one-way streets with a roadway width less than 46 feet, a single mastarm signal head placed within 5 feet of the center of the approach lane(s) should be installed.\n4. During Phase 4 pedestrian sequence, Phase 2 receives a flashing red signal display."
+   },
+   {
+    "page": 65,
+    "notes": "Intersection with Signalized Frontage Road\nSigns shown include R13A, R9-3A(2), R9-3B(2), and an R10-6 sign. 50' min. dimension is shown. High mount heads and a top mount head (PV cutoff) are called out. OLA includes slot clearance.\nNotes:\n1. This drawing is not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown.\n2. Mask only the green and red lenses of the programmed visibility (PV) heads.\n3. To be used in Case 9 of S-493.0."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-521|S-418.6",
+  "title": "Overhead Guide Signing",
+  "summary": "A 16-sheet LADOT standard for overhead guide signs on arterial streets. It covers where overhead signs are used (divergent or skewed arterials, unshadowed left-turn lanes, grade separations, priority lanes, street name changes, end of one-way operation), legend sizes, arrow styles, route shield and W61(CA) sign sizes, example roadway layouts, sample sign formats A through U, and 18 application notes. Minimum legend is 8 inch upper case and 6 inch lower case, increasing to 10.67 and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or greater. Lane Assignment signs go 600 to 1300 feet upstream of turns or divergences associated with grade separations.",
+  "keywords": [
+   "overhead guide sign",
+   "overhead signing",
+   "lane assignment sign",
+   "diagrammatic arrows",
+   "R3-5",
+   "R3-6",
+   "W61B(CA)",
+   "W61F(CA)",
+   "route shield size",
+   "freeway on-ramp sign",
+   "bus and carpool lane sign",
+   "divergent arterial",
+   "skewed intersection",
+   "unshadowed left-turn lane",
+   "legend size",
+   "elephant track striping",
+   "street name change sign",
+   "one-way end sign"
+  ],
+  "sheets": [
+   {
+    "page": 68,
+    "notes": "Overhead Guide Signing (index sheet)\n1. Applications of Overhead Guide Signs: See Sheet 2.\n2. Overhead Sign Format Details: See Sheet 3.\n3. Arrow Styles and Specifications: See Sheet 4.\n4. Route Shield Sizes: See Sheet 5.\n5. W61 Signs: See Sheet 5.\n6. Roadway Examples: See Sheets 6 & 7.\n7. Sign Formats: See Sheets 8-14.\n8. Application Notes: See Sheets 15 & 16."
+   },
+   {
+    "page": 69,
+    "notes": "Application of Overhead Guide Signs\nGeneral\nThese signs are desirable to provide a high degree of visibility to forewarn and direct motorists on multi-lane approaches of roadway access or lane assignment conditions that generally cannot be anticipated. Situations where overhead signs generally should be provided include:\n- Divergent arterial roadways\n- Skewed arterial approaches\n- Unshadowed left-turn lanes\n- Arterial grade separations, especially those which involve freeways\n- Priority lanes, such as bus and/or carpool lanes\n- Street name changes\n- End of one-way operation\nWhile overhead signing should be used for the above situations, extenuating circumstances occasionally may suggest an alternative. Accordingly, roadside signing shall be used in the above situations where overhead signing is not used.\nDivergent Arterial Roadways\nOverhead signs are desirable because motorists cannot otherwise anticipate lane assignment and street name changes at the divergence. Where the intersecting street is not an arterial street and no lanes are entrapped onto it then overhead signing is not required. Also, where one of the arterial roadways has no change in horizontal alignment nor name and has no lanes that are entrapped onto the intersecting arterial roadway then no divergence exists and thus overhead signing is not required. See Signs A and B with related notes.\nSkewed Arterial Approaches\nOverhead signs are desirable because the deviation from right angles formed between the intersection legs can result in lane assignment ambiguity. See Signs C and D with related notes.\nUnshadowed Left-Turn Lanes\nOverhead signs are desirable on two-way streets so that motorists will readily recognize that the lane is entrapped and that there may be opposing traffic in the lane downstream. If there is a raised median then ground-mounted signing in the median may be adequate. See Signs B, C and D that display R3-5 signs with related notes and Signs S and U.\nArterial Grade Separations\nOverhead signs are desirable because motorists cannot otherwise anticipate whether the connecting ramp configuration is on the left or right of the arterial approach. \"Action\" overhead signs show the immediate left-turn or divergent move necessary for access to the grade-separated facility. If there is a raised median then ground-mounted signing in the median may be adequate. \"Action\" overhead signs are not necessary for right turns or right-divergent moves, since \"Lane Assignment\" signs will direct motorists to the right lane(s) from where they can readily read roadside signing. See Signs E, F, G, H, H-Alternate, I, I-Alternate with related notes.\n\"Lane Assignment\" signs forewarn motorists as to which lanes of a multi-lane approach provide on-ramp access. Section 2D.45 of the California MUTCD requires \"Lane Assignment\" signs on multi-lane approaches to freeways. See Signs J, K, L, M and N with related notes.\nPriority Lanes\nOverhead signs are desirable for this rare regulatory condition which cannot otherwise be anticipated. See Signs O, P and Q with related notes.\nStreet Name Changes\nOverhead signs are desirable at selected non-divergent locations and major junctions to advise motorists of the change in route name. Selected locations would be near regionally-significant activity centers. See Sign R.\nEnd of One-Way Operation\nOverhead signs are desirable so that motorists in the opposing direction (on the two-way leg of the intersection) may readily recognize that they must turn left and/or right. See Signs S, T and U."
+   },
+   {
+    "page": 70,
+    "notes": "Overhead Sign Format Details\nLegend Size\nThe minimum size of letters on overhead signs is 8 inches upper case and 6 inches lower case. On streets with three or more approach lanes or with a posted speed limit of 40 miles per hour or greater 10.67 inch upper case and 8 inch lower case letters should be used. Series E letter widths should be used, but in constrained situations Series C letter widths may be used.\nSupplemental or clarifying wording on regulatory and guide signs (such as \"ONTO BEVERLY DR\", \"200 FT\" or \"3 OR MORE\") shall be 6 inch series D capital letters and numbers. Lane Assignment wording (\"RIGHT LANE\", etc.) shall be 6 inch Series D capital letters.\nCardinal directions shall have the first letter (N, S, E, W) larger so as to improve cardinal recognition. Where the general legend is 10.67 inches upper case and 8 inches lower case the cardinal direction should have 10 inch and 8 inch Series D letters. Where the general legend is 8 inches upper case and 6 inches lower case the cardinal direction should have 8 inch and 6 inch Series D letters.\nThe size of horizontal and vertical spacing should be equal to the height of the upper case letter. In constrained formats a minimum of one-half of these dimensions may be used. Division and border lines should be 1-1/2 inches wide. See Sheets 4 and 5 for the sizes of arrows, route shields, and W61B(CA) and W61F(CA) signs.\nSign Size\nThe size of the sign is governed by the size of its elements. Sign software programs should be used to determine overall sign size.\nSign Structure\nFabrication of the sign from laminated, honeycomb panels using aluminum framing is shown in S-45.0. Cantilevered sign supports are shown in S92.2, S92.3, S98.0 and Plans S40N, S40P and S40Q of the State of California, Standard Plans.\nSign Retroreflectivity Material\nWhite Legend: Diamond Grade (DG3) or Type VIII\nBlack Legend: Non-reflective Vinyl\nRed Legend: EC Film\nGreen Background: Type III\nWhite Background: Type III\nYellow Background: Type III\nAll signs are to have matched component UV/Anti Graffiti film."
+   },
+   {
+    "page": 71,
+    "notes": "Arrow Styles & Specifications\nArrow types shown with dimensions: One Line arrows, Advance Arrow, Down Vertical Arrow, Diagrammatic Arrows (typical dimensions are shown on the drawing)."
+   },
+   {
+    "page": 72,
+    "notes": "Route Shield Sizes\nU.S. route 101 shield: 28\" wide by 24\" high, 10\" numerals.\nState route shield, 1 or 2 digits (example 27): 28\" wide by 25\" high, 10\" numerals.\nState route shield, 3 digits (example 134): 32\" wide, 10\" numerals.\nInterstate shield, 1 or 2 digits (example 5): 24\" wide by 24\" high, 10\" numerals.\nInterstate shield, 3 digits (example 405): 30\" wide by 25\" high, 8\" numerals.\nW 61(CA) Signs\nW61F(CA): ONLY with Down Vertical Arrow, 84\" wide by 20\" high, 10\" legend. Yellow or white background as per Note 4.\nW61B(CA): ONLY, 44\" wide by 20\" high, 10\" legend. Yellow or white background as per Note 4."
+   },
+   {
+    "page": 73,
+    "notes": "Roadway Examples (Sheet 6 of 16)\nThree example roadway layouts with sign locations: Signs A and B at a divergence of Arden Boulevard, Beverly Drive and Clarita Avenue (the second layout also adds Dolphin Street), and Signs C and D at a skewed five-leg intersection of Arden Boulevard, Beverly Drive, Clarita Avenue and a Drive. Medians and traffic directions are shown with arrows."
+   },
+   {
+    "page": 74,
+    "notes": "Roadway Examples (Sheet 7 of 16)\nOverall example network showing the location of Signs E through U. It includes Upper Street, Lower Avenue, Minor Road, Suburban and City Drive, a Golden State Freeway (Interstate 5) interchange with ramps, and a diagonal arterial approach. Signs J and R are on Upper Street, K and F on Street, E near Upper Street, S, T and U at one-way street ends, G and L on Lower Avenue, H, H Alt., I, I Alt., M and N at the Boulevard interchange, and O, P and Q at the freeway ramp and Road."
+   },
+   {
+    "page": 75,
+    "notes": "Sign A (3 approach lanes shown)\nBeverly Drive and Clarita Ave destinations. Diagrammatic Arrows are shown due to optional lane, as per Note 3. See Notes 1-5.\nTwo-Line vertical and diagonal arrows shown since optional lanes are not involved, as per Note 3. See Notes 1-5.\nSign B (3 and 4 approach lanes shown)\nArden Blvd, Dolphin St and Beverly Dr destinations with One-Line Arrows. See Notes 6 and 7. R3-5 and R3-6 shown, as per Note 7."
+   },
+   {
+    "page": 76,
+    "notes": "Sign C (2 and more approach lanes shown)\nClarita Ave, Arden Blvd and Beverly Dr destinations with One-Line Arrows. See Notes 6 and 7.\nSign D (3 approach lanes shown)\nBeverly Dr WEST, Arden Blvd SOUTH and EAST destinations with ONLY panels. See Notes 7 and 9.\nSign E\nLower Ave, with One-Line Arrow. See Notes 6, 7, 8 and 9."
+   },
+   {
+    "page": 77,
+    "notes": "Sign F\nTo Lower Ave, One-Line Arrow. See Notes 6 and 10.\nSign G (2 approach lanes shown)\nGolden State Fwy NORTH and SOUTH. See Notes 6 and 11 (One-Line Arrow), Notes 7 and 11, and Notes 2, 3, 4, 5 and 11 (Two-line Arrows and Diagrammatic Arrows).\nSign H\nFwy NORTH with ONLY panel. See Notes 7 and 11."
+   },
+   {
+    "page": 78,
+    "notes": "Sign H Alternate\nFwy NORTH and SOUTH, 300 FT. Advance Arrow and One-Line Arrow. See Notes 11 and 12.\nSign I\nFwy SOUTH, with ONLY panel. See Notes 6 and 11 (One-Line Arrow) and Notes 7 and 11.\nSign I Alternate\nFreeway SOUTH, 300 FT. Advance Arrow and One-Line Arrow. See Notes 11 and 12."
+   },
+   {
+    "page": 79,
+    "notes": "Sign J\nLower Ave lane assignment formats: Down Vertical Arrow, Down Vertical Arrow for W61F sign (as per Note 14), ONLY panel, LEFT LANE, NEXT LEFT, and SECOND LEFT. See Notes 13 and 14.\nSign K\nTo Lower Ave lane assignment formats: Down Vertical Arrow, ONLY panel, LEFT LANE, NEXT LEFT, and SECOND LEFT. See Notes 10, 13, 14 and 15."
+   },
+   {
+    "page": 80,
+    "notes": "Sign L (2 approach lanes shown)\nGolden State Fwy NORTH and SOUTH lane assignment. See Notes 11, 13 and 14, and Notes 11, 13, 14 and 15.\nSign M (2 approach lanes shown)\nFreeway NORTH and SOUTH, LEFT LANE and RIGHT LANE. See Notes 11, 13 and 14.\nSign N (2 approach lanes shown)\nFreeway SOUTH LEFT LANE and NORTH RIGHT LANE. See Notes 11, 13, 14 and 15."
+   },
+   {
+    "page": 81,
+    "notes": "Sign O\nBUSES & CARPOOLS, Freeway SOUTH, ONLY, 200 FT. See Notes 7, 11, 12, 16, 17 and 18.\nSign P\nBUSES & CARPOOLS, Freeway NORTH, ONLY, 3 OR MORE. See Notes 3, 5, 11, 16, 17 and 18.\nSign Q\nTRANSIT BUSES ONLY, OTHER VEHICLES. See Notes 7, 12, 17 and 18.\nSign R\nCity Drive with Vertical Down Arrow.\nSign S (2 approach lanes shown)\nLower Ave, ONLY, WEST ONLY.\nSign T\nDO NOT ENTER.\nSign U (2 approach lanes shown)\nLower Ave, ONLY."
+   },
+   {
+    "page": 82,
+    "notes": "Application Notes\n1. At roadway divergences show all arterial street destinations, including those where the street name does not change. This is necessary because sometimes the street name continues on the left leg, sometimes on the right leg and sometimes diverges into two different names.\n2. At roadway divergences with two or more approach lanes, utilize elephant track striping as per S-491.0.\n3. At roadway divergences use Two-Line Vertical and Diagonal Arrows (with flared tails) over each applicable lane where optional lanes are not involved. However, where optional lanes are involved use Diagrammatic (non-flared) Arrows over each applicable lane in order to better convey the optional lane use.\n4. Use the black on yellow \"W 61B(CA)\" plates to forewarn of the entrapped lane or divergence ahead. However, where the point of divergence is less than 200 feet downstream from the overhead sign, use R3-5 and R3-6 signs to regulate lane assignment.\n5. Position arrows as close as practical over the middle of the applicable lanes and position the applicable arterial street destinations preferably above or immediately adjacent to appropriate arrow heads, as space permits. Vertical lines may be shown to distinguish lane groups.\n6. Use the single or stacked line destination format in advance of intersections where entrapped turn lanes are not involved. List street and destination names in the following vertical order from the top, associated with the following directional one-line arrows: diagonal-vertical left, horizontal left, diagonal down left, vertical, diagonal-vertical right, horizontal right, and diagonal down right. Show left arrows to the left of the legends and vertical and right arrows to the right of the legends. Show vertical arrows to the left of the legends when the other destinations have right arrows, and to the right when the other destinations have left arrows.\n7. At intersections where unshadowed (entrapped) turn lanes or interior optional lanes are involved use R3-5 and R3-6 signs positioned as close as practical over the middle of the applicable lanes.\n8. Use the customized R3-2 sign where protected-only phasing is provided for one but not both of the possible left turns, such as the diagonal left-turn but not the sharper left-turn shown.\n9. On the diagonal approach of a five-legged intersection the striping can be designed so that the through move is directed to either the right leg or left leg. The combination of striping and overhead signing should be coordinated to clarify and reinforce the intended operation. The first case shows two lanes directed to westbound Arden Boulevard, while the second shows two lanes directed to southbound Beverly Boulevard. Note that some secondary destinations requiring more than a ninety degree turn from an optional lane are not shown, due to space limitations."
+   },
+   {
+    "page": 83,
+    "notes": "10. Where the destination roadway must be accessed via another named roadway the name should be preceded with the word \"To\". Ground mounted trailblazer signs should be provided to direct motorists in advance of every decision point enroute to the destination roadway.\n11. Where a freeway on-ramp is within one mile of a freeway-to-freeway interchange, the full freeway name should be shown followed by the appropriate route shield and number. However, in constrained situations the full freeway name may be deleted. In all other situations the appropriate route shield and number followed by the word \"Fwy\" or \"Freeway\" is sufficient.\n12. Use the Advance Arrow and \"XXX FT\" legends where there is an intervening roadway 100 feet or less upstream of the overhead sign.\n13. Lane Assignment signs should be provided 600 to 1300 feet upstream of turns or divergences associated with grade separations.\n14. For Lane Assignment signs use the Down Vertical Arrow format where there is an entrapped turn lane or where it is possible to position arrows over each of the applicable lanes. They should be placed as close as practical over the middle of each lane. Where this is not possible use the \"LEFT (RIGHT) LANE\" or \"NEXT LEFT (RIGHT)\" format. The \"NEXT LEFT (RIGHT)\" message may be used only where there is no intervening intersection. The \"SECOND LEFT (RIGHT)\" message may be used instead of \"NEXT LEFT (RIGHT)\" where there is close spacing between intersections.\n15. The black-on-yellow \"W61F(CA)\" sign is used for advance warning of a trap lane, per S-491.0.\n16. The sign panel pertaining to the bus and carpool lane shall have a black legend on a white background and the diamond shall be white legend on a black background.\n17. See S-487.0 for exclusive bus lane striping.\n18. For exclusive lanes where two-person carpools are allowed it is not necessary to identify the required vehicle occupancy. Other required occupancies shall be identified with and below the diamond symbol."
+   }
+  ]
+ }
+]

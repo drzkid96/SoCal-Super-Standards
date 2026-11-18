@@ -1,6 +1,6 @@
 ---
 title: "BT-418 Standard 3-inch Speed Table"
-description: "Burbank Std. Plans standard drawing BT-418: Standard 3-inch Speed Table. 2 sheet(s), dated 07-23-25."
+description: "Burbank Std. Plans standard drawing BT-418: Standard 3-inch Speed Table. Shows the layout, cross-section, signing and pavement markings for a 22-foot-long, 3-inch-high asphalt speed table on a City of Burbank street."
 tableOfContents: false
 ---
 
@@ -9,6 +9,7 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-417/">&larr; BT-417</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-452/">BT-452 &rarr;</a></div>
 
+<p class="dwg-sum">Shows the layout, cross-section, signing and pavement markings for a 22-foot-long, 3-inch-high asphalt speed table on a City of Burbank street. Tables are spaced about 250 to 300 feet apart, with a W84 (CA) / W13-1 (15) advance sign placed 100 to 125 feet ahead of the first table from each direction. Markings are 12-inch solid white thermoplastic chevrons and BUMP legends, and the table must be at least 5 feet from the edge of a driveway.</p>
 <p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/speed-and-calming/">Speed limits, speed zones and traffic calming</a> <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
 
 
@@ -18,12 +19,41 @@ tableOfContents: false
 ### Sheet 1 of 2 (document page 24)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0024.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0024.webp" alt="BT-418 sheet 1"></a><figcaption>Burbank Std. Plans BT-418, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p24">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>THERMOPLASTIC ASPHALT 508’ THERMOP SPEED TABLE ATS OF \ 22 TYP. | TYP. TRAFFIC PAINT NK es (CA) A A A A a ¥ \ Y Ys \ vA v hi v + NY -- -- VARIES * w84 (CA) | wi3-1 ~- 100'-125" +/- ADVANCE SIGN TO BE PLACED AHEAD OF FIRST SPEED TABLE FROM EACH DIRECTION W84 (CA) 30”X30” 250’ - 300° +/- 18” 6” TYP. 12” TAPER | - A rt | MARKING DETAIL 2 ) A.C. STANDARD 3/8” MIX TACK COAT EXISTING ASPHALT PAVEMENT SECTION A-A NOT TO SCALE ~~ D2-AR--4000 5.6% ASPHALT BINDER FOR USE PERFORMANCE GRADING PER CALTRANS STANDARDS W13-1 (15) x 18”X18” _ . \ 12” SOLID WHITE ’ 8’ ¢ y ‘4 16” nr ene, | | | "4 8” ! 6" uy } ADVANCE _ SIGN MARKING DETAIL 1 MARKING DETAIL NOT TO SCALE GENERAL NOTES: 1. SPEED TABLES SHALL NOT BE PLACED OVER MANHOLES, WATER VALVES, ETC. 2. EDGE OF SPEED TABLE SHALL BE 5 FEET MINIMUM FROM EDGE OF DRIVEWAY. 3. WHENEVER POSSIBLE SPEED TABLES SHALL BE PLACED ADJACENT TO STREET LIGHTS. 4. FINISH GRADE OF ASPHALT MAY VARY BY 1/4” (HIGHER OR LOWER). 6. ALL MARKINGS SHALL BE THERMOPLASTIC. 7. ALL SIGNS SHALL BE INSTALLED PER BURBANK STANDARD PLAN BT-412-1. CITY OF BURBANK -- PUBLIC WORKS DEPARTMENT ee STANDARD 3" SPEED TABLE STANDARD PLAN ba = BT-418 APPROVED BY: Kaan TA3A5 “CITY ENGINEER DATE SHEET 1 OF 2 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Plan view</p>
+<p>Asphalt speed table, 22&#x27; long. Spacing between tables 250&#x27; - 300&#x27; +/-. Advance sign 100&#x27;-125&#x27; +/- ahead of the first table. Roadway width varies.</p>
+<p>Markings: thermoplastic or 2 coats of traffic paint. Chevrons 20&#x27; typ. from table edges. BUMP legend 8&#x27; typ. high, placed 50&#x27; typ. before the table. See Marking <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-2" data-svg="/SoCal-Super-Standards/linetypes/detail-2.svg">Detail 2</a>.</p>
+<p>Signs: W84 (CA) and W13-1 at each approach.</p>
+<p>Section A-A (not to scale)</p>
+<p>6&quot; typ. from curb face, 18&quot; typ., 12&quot; taper.</p>
+<p>A.C. standard 3/8&quot; mix, D2-AR-4000, 5.6% asphalt binder (for use, performance grading per Caltrans standards).</p>
+<p>Tack coat over existing asphalt pavement.</p>
+<p>Advance sign (not to scale)</p>
+<p>Advance sign to be placed ahead of first speed table from each direction.</p>
+<p>W84 (CA) 30&quot;x30&quot; SPEED BUMPS AHEAD.</p>
+<p>W13-1 (15) 18&quot;x18&quot; 15 MPH plaque.</p>
+<p>Marking <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-1" data-svg="/SoCal-Super-Standards/linetypes/detail-1.svg">Detail 1</a></p>
+<p>12&quot; solid white chevron, 6&#x27; wide, 6&#x27; tall, 16&quot; and 12&quot; leg dimensions as shown.</p>
+<p>Marking <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-2" data-svg="/SoCal-Super-Standards/linetypes/detail-2.svg">Detail 2</a></p>
+<p>BUMP legend, 6&#x27;-4&quot; wide by 8&#x27; tall, 4&quot; and 8&quot; stroke dimensions as shown.</p>
+<h5>General notes:</h5>
+<p>1. Speed tables shall not be placed over manholes, water valves, etc.</p>
+<p>2. Edge of speed table shall be 5 feet minimum from edge of driveway.</p>
+<p>3. Whenever possible speed tables shall be placed adjacent to street lights.</p>
+<p>4. Finish grade of asphalt may vary by 1/4&quot; (higher or lower).</p>
+<p>6. All markings shall be thermoplastic.</p>
+<p>7. All signs shall be installed per Burbank Standard Plan BT-412-1.</p></details>
 
 ### Sheet 2 of 2 (document page 25)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0025.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0025.webp" alt="BT-418 sheet 2"></a><figcaption>Burbank Std. Plans BT-418, sheet 2. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p25">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>10’ (Flat Top) WIDTH OF ROADWAY -- =» B ¢ STREET INSTALL DETAIL 21 , PER CALTRANS 18° TYPICAL STD PLAN A20A 5) ---- |] | SIDEWALK MARKING DETAIL 1 SIDEWALK EDGE OF GUTTER FLOWLINE 4 t SPEED TABLE MARKING NOT TO SCALE IK-- € OF ROADWAY 1-2’ __| TYPICAL 1’ Li. B TAPER -Rwgebaaa % x m © 2 ANNNAN SS red et || TYP. 22’ SECTION B-B NOT TO SCALE CITY OF BURBANK - PUBLIC’ WORKS DEPARTMENT REVIEW INITIAL DATE STANDARD 3" SPEED TABLE APPROVED BY: PGA ie, Ke TARAS QITY ENGINEER DATE STANDARD PLAN BI-418 SHEET 2 OF 2 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Speed table marking (not to scale)</p>
+<p>Width of roadway. Centerline of street, 18&#x27; typical to table edge. 5&#x27; from centerline to chevron.</p>
+<p>Install <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> per Caltrans Std Plan A20A at the centerline.</p>
+<p>Flat top 10&#x27; wide, centered on the speed table centerline, with 6&#x27; sloped sections on each side.</p>
+<p>Gutter and sidewalk at each edge. 1&#x27;-2&#x27; typical and 1&#x27; taper at the gutter edge. Marking <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-1" data-svg="/SoCal-Super-Standards/linetypes/detail-1.svg">Detail 1</a> chevrons at each end of the table, pointing toward oncoming traffic.</p>
+<p>Section B-B (not to scale)</p>
+<p>22&#x27; overall length, 6&#x27; ramp then 5&#x27; to the centerline of roadway, with the 10&#x27; flat top.</p>
+<p>Height above pavement at 6&quot; typ. starting points along the 6&#x27; ramp: 0&quot;, .50&quot;, .92&quot;, 1.31&quot;, 1.67&quot;, 1.98&quot;, 2.25&quot;, 2.48&quot;, 2.67&quot;, 2.81&quot;, 2.92&quot;, 2.98&quot;, 3.00&quot;.</p></details>
 
 
-<div class="kw">Keywords: speed, asphalt, table, standard, placed, marking, detail, thermoplastic, advance, sign, scale, tables, edge, burbank, roadway, typical, plan, sidewalk, date, flat, width, street</div>
+<div class="kw">Keywords: speed table, speed hump, 3 inch speed table, traffic calming, bump legend, speed bump markings, chevron markings, W13-1, W84 (CA), advisory speed 15 mph, thermoplastic markings, asphalt speed table, Burbank BT-418, flat top 10 feet, driveway clearance, Caltrans A20A detail 21</div>

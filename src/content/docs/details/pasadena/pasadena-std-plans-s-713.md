@@ -1,6 +1,6 @@
 ---
 title: "S-713 Limit Line and STOP Pavement Markings"
-description: "Pasadena Std. Plans standard drawing S-713: Limit Line and STOP Pavement Markings. 1 sheet(s), dated 06-04-01."
+description: "Pasadena Std. Plans standard drawing S-713: Limit Line and STOP Pavement Markings. Pasadena standard for locating limit lines and STOP pavement markings."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-712/">&larr; S-712</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-714/">S-714 &rarr;</a></div>
 
-<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a> <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
+<p class="dwg-sum">Pasadena standard for locating limit lines and STOP pavement markings. The standard limit line location is 500 mm back from the curb line or property line depending on the sidewalk condition, and is installed only when authorized by the Traffic Engineer. Where the property line or sidewalk location is unknown, the exact location is set by work order. The limit line extends to the street center line unless channelization requires otherwise, with a distance of 1.2 m (4 ft) minimum to 9.1 m (30 ft) maximum shown.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a> <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a> <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
 
 
 
@@ -18,7 +19,14 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 18)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0018.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0018.webp" alt="S-713 sheet 1"></a><figcaption>Pasadena Std. Plans S-713, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p18">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>STANDARD LOCATION ” FOR LIMIT LINE-UNLESS 500 mm gee OTHERWISE SPECIFIED 2 £ PROPERTY LINE BACK LINE OF ; SIDEWALK CURB LINE 2.4 (8’) CONDITION KNOWN PROPERTY LINE INSTALL ONLY WHEN AND/OR SIDEWALK LOCATION AUTHORIZED BY TRAFFIC ENGINEER LIMIT LINE LOCATION TO BE WITHIN THIS AREA (TYP.) \ \ cure LINE CONDITION UNKNOWN PROPERTY LINE OR SIDEWALK LOCATION. EXACT LOCATION TO BE WORK ORDER. oN EXTEND LIMIT LINE TO | STREET CENTER LINE | UNLESS CHANNELIZATION REQUIRES OTHERWISE 1.2 m (4’) (MIN.) 9.1 m(30’) (MAX.) NOTES: 1. IF EXISTING LIMIT LINE FALLS OUTSIDE HATCHED AREA NOTIFY TRAFFIC ENGINEERING BEFORE REPAINTING. CITY OF PASADENA - PUBLIC WORKS &amp; TRANSPORTATION DEPARTMENT madre LIMIT LINE AND STOP) ss [| ow Senare PAVEMENT MARKINGS -- 8-713 mar | Bab elylo\ | ~spearroe: TRANSPORTATION ADMINISTRATOR RTE NO. 1820 EXPIRES JUNE 30, 2005 DATE $713-1-ACVLBVG S/2erm </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Limit line and STOP pavement markings. Sheet 1 of 1.</p>
+<p>Standard location for limit line unless otherwise specified: 500 mm back from the curb line, shown with the property line, back of sidewalk and 2.4 m (8 ft) dimensions.</p>
+<p>Condition: known property line and/or sidewalk location. Install only when authorized by Traffic Engineer. Limit line location to be within this area (typical).</p>
+<p>Condition: unknown property line or sidewalk location. Exact location to be set by work order.</p>
+<p>Extend limit line to street center line unless channelization requires otherwise.</p>
+<p>Distance from STOP marking: 1.2 m (4 ft) minimum, 9.1 m (30 ft) maximum.</p>
+<p>Notes</p>
+<p>1. If existing limit line falls outside hatched area, notify Traffic Engineering before repainting.</p></details>
 
 
-<div class="kw">Keywords: line, location, limit, property, sidewalk, otherwise, condition, traffic, area, transportation, standard, line-unless, specified, back</div>
+<div class="kw">Keywords: limit line, stop bar, stop line, STOP pavement marking, stop legend, limit line location, back of sidewalk, property line, curb line, stop sign pavement marking, stop bar placement, 4 ft minimum, 30 ft maximum, traffic engineer authorization</div>

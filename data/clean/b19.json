@@ -1,0 +1,513 @@
+[
+ {
+  "id": "ladot__red-book|p127",
+  "title": "Transit Priority Unit Cabinet Detail (12-Position Dual Barrier Strip Wiring)",
+  "summary": "Wiring detail for the transit priority unit in the signal cabinet, showing a 12-position dual barrier strip and the harnesses (B1 to B4) that connect to input file J, slot 10 of the backplane. The second harness to input file J is required only for 3 and 4 loop installations. All connections must be soldered. This is page 1 of the S-70.3A cabinet detail set (printed sheet 120).",
+  "keywords": [
+   "transit priority unit",
+   "transit signal priority",
+   "tsp cabinet detail",
+   "barrier strip",
+   "12-position barrier strip",
+   "dual barrier strip",
+   "harness wiring",
+   "input file j",
+   "backplane slot 10",
+   "loop detector wiring",
+   "dlc drain wires",
+   "s-70.3a",
+   "signal cabinet wiring",
+   "soldered connections"
+  ],
+  "sheets": [
+   {
+    "page": 127,
+    "notes": "12-position dual barrier strip\nB1 harness (file J, slot 10 backplane)\nB2 harness (file J, slot 10 backplane)\nB3 harness* (file J, slot 10 backplane)\nB4 harness* (file J, slot 10 backplane)\nHarness pins: to pin D, to pin E, to pin J, to pin K (shown for each harness).\nNot used terminals are marked on the barrier strip.\nDLC (1-pair #12 AWG), drain wires.\n* Second harness to input file J is only required for 3 and 4 loop installation.\nNote:\n1. All connections shall be soldered.\nDrawing title: Transit Priority Unit Cabinet Detail, S-70.3A (printed sheet 120)."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p128",
+  "title": "Transit Priority Unit Cabinet Detail (Sensor to Controller Cable)",
+  "summary": "Cable detail for the transit priority unit showing a 1 ft DB9 male connector to the 283LA sensor J1 port, and a 3 ft #22 AWG stranded 5-conductor cable from a DB9 male to the 2070 controller C21S port. A pin table lists the function of each of the 9 pins on the 2070 side and the 283LA side. This is page 2 of the S-70.3A cabinet detail set (printed sheet 121).",
+  "keywords": [
+   "transit priority unit",
+   "283la sensor",
+   "2070 controller",
+   "c21s port",
+   "db9 cable",
+   "serial cable pinout",
+   "pin function table",
+   "tsp cabinet detail",
+   "#22 awg stranded cable",
+   "5 conductor cable",
+   "s-70.3a",
+   "rs-232 tx rx",
+   "cabinet wiring"
+  ],
+  "sheets": [
+   {
+    "page": 128,
+    "notes": "Length = 1 ft. DB9 male to 283LA sensor J1 port.\n#22 AWG stranded 5-conductor cable (length = 3 ft). DB9 male to 2070 controller C21S port.\nPin, function on 2070 side, function on 283LA side:\n1. N/C, N/C\n2. TX, RX\n3. RX, TX\n4. N/C, N/C\n5. GND, GND\n6. N/C, N/C\n7. CTS, RTS\n8. RTS, CTS\n9. GND, GND\nDrawing title: Transit Priority Unit Cabinet Detail, S-70.3A (printed sheet 121)."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p129",
+  "title": "Transit Priority Unit Cabinet Detail (Terminal Panel and C20 Connector)",
+  "summary": "Layout of the 5.0 in x 7.0 in white aluminum terminal panel for the transit priority unit. It carries CTB-4, a 6-position dual barrier strip with audio in and audio out lines to CTB-1, and CTB-5, an 8-position single barrier strip for +5V, -5V, CD, RTS, TX, RX, CTS and GND. A 6 ft C20 harness runs to the 2070 controller C20S port, with a pin function table for the C20 connector. This is the last sheet (6 of 6) of the S-70.3A set, printed sheet 122.",
+  "keywords": [
+   "transit priority unit",
+   "c20 harness",
+   "c20 connector",
+   "c20s port",
+   "2070 controller",
+   "audio in audio out",
+   "ctb-1",
+   "ctb-4",
+   "ctb-5",
+   "barrier strip",
+   "aluminum panel",
+   "mounting holes",
+   "pin function table",
+   "tsp cabinet detail",
+   "s-70.3a",
+   "soldered connections"
+  ],
+  "sheets": [
+   {
+    "page": 129,
+    "notes": "Panel: 0.125 (1/8\") white aluminum panel, 5.0\" wide x 7.0\" tall, 1/2\" radius corners, 1/4\" mounting holes (see note 1).\nCTB-4, 6-position dual barrier strip: N/C, N/C, audio in +, audio in -, audio out +, audio out - (audio lines go to CTB-1).\nCTB-5, 8-position single barrier strip: +5V, -5V, CD, RTS, TX, RX, CTS, GND.\nC20 harness (length = 6 ft) to 2070 controller (C20S port).\nC20 connector, pin and function:\nA. Audio in +\nB. Audio in -\nC. Audio out +\nD. +5 VDC\nE. Audio out -\nF. N/C\nH. CD\nJ. RTS\nK. TX\nL. RX\nM. CTS\nN. DC GND\nP. N/C\nN. N/C\nNotes:\n1. Provide two (2) 1/4\" mounting holes centered 0.325\" from top and bottom edges.\n2. All connections shall be soldered."
+   }
+  ]
+ },
+ {
+  "id": "ladot__red-book|p130",
+  "title": "Pedestrian Barricade",
+  "summary": "Elevation and post anchorage detail for a pedestrian barricade at a crosswalk, using a 1 1/2 inch nominal pipe size galvanized standard pipe post with an R9-3a or R9-3b sign (18 in x 24 in). The post is set in PCC sidewalk on a base plate with four 5/8 inch expansion anchors, and is set 1 ft 6 in back from the face of the curb unless otherwise specified. Left, right or double arrow signs are used as needed.",
+  "keywords": [
+   "pedestrian barricade",
+   "sidewalk closed sign",
+   "r9-3a",
+   "r9-3b",
+   "sign post anchorage",
+   "pipe post",
+   "base plate",
+   "expansion anchors",
+   "crosswalk closed",
+   "sidewalk barricade",
+   "galvanized pipe",
+   "pedestrian detour",
+   "s-454.2",
+   "post set back from curb"
+  ],
+  "sheets": [
+   {
+    "page": 130,
+    "notes": "Elevation\nR9-3a and R9-3b, 18\" x 24\" sign, with left, right or double arrow.\n1 1/2\" nominal pipe size galvanized standard pipe post.\nThreaded pipe collar on base plate.\nTop of sidewalk, PCC sidewalk.\n4 bolts, 5/8\" x 2 1/2\" long, with 5/8\" dia. expansion anchors (4).\n5\" bolt circle, 11/16\" dia. holes in base plate.\nPost anchorage detail (see post anchorage detail for base plate and anchors).\nCrosswalk shown beside the barricade.\nNotes:\n1. Pipe post to be set 1'-6\" back from face of curb unless otherwise specified.\n2. For minimum pipe diameters and wall thickness refer to ASTM A6M.\n3. Use left, right or double arrow on sign as needed.\nDrawn 05-03-06. Approved June 26, 2008. Drawing title: Pedestrian Barricade, S-454.2 (printed sheet 123)."
+   }
+  ]
+ },
+ {
+  "id": "ladot__supplemental-street-design-guide|S-470",
+  "title": "Table 1-1: Street Enhancements Applied to Functional Classifications",
+  "summary": "Table from Section 1.5 of the Supplemental Street Design Guide showing which street enhancement networks apply to each functional classification. The networks are Neighborhood Enhanced (NEN), Bicycle Enhanced (BEN), Transit Enhanced (TEN) and Vehicle Enhanced (VEN). Boulevards I and II have BEN, TEN and VEN, Avenue I has all four, and standard dimensions for each classification are on Standard Plan S-470.",
+  "keywords": [
+   "functional classification",
+   "street enhancement",
+   "neighborhood enhanced network",
+   "bicycle enhanced network",
+   "transit enhanced network",
+   "vehicle enhanced network",
+   "nen ben ten ven",
+   "boulevard avenue collector local",
+   "mobility plan 2035",
+   "complete streets design guide",
+   "corner radius",
+   "street type",
+   "s-470",
+   "street classification table"
+  ],
+  "sheets": [
+   {
+    "page": 14,
+    "notes": "1.4 Applications\nA corner radius is required at the intersection of all streets, roads, driveways (Case 3), and alleys. The geometric design of the corner radii will vary based on the street classification, proposed street enhancements, the transportation context, and the type of vehicles.\nAs noted above, smaller corner radii can improve pedestrian safety by shortening crossing distances (reducing exposure), increasing pedestrian visibility, and decreasing vehicle turning speed. Smaller corner radii also provide better geometry for installing directional curb ramps at each corner, resulting in a straight direction of travel for pedestrians. Smaller curb radii are especially beneficial at intersections with pedestrian and bicyclist activity and intersections where crashes result from motorist failure to yield due to higher right turning speeds.\n1.5 Identifying Street Type (Functional Class & Enhancement)\nThe functional classifications and enhancements of intersecting streets influence the type of vehicles operating on the street and the street design features. The City of Los Angeles Mobility Plan 2035 identifies street types and enhancements throughout the City. The Complete Streets Design Guide (LA CSDG) identifies how street enhancements apply to different functional classifications. These are summarized in Table 1-1.\nTable 1-1: Street Enhancements Applied to Functional Classifications\nFunctional classification*: enhancements that apply (NEN = Neighborhood Enhanced Network, BEN = Bicycle Enhanced Network, TEN = Transit Enhanced Network, VEN = Vehicle Enhanced Network)\nBoulevard I: BEN, TEN, VEN\nBoulevard II: BEN, TEN, VEN\nAvenue I: NEN, BEN, TEN, VEN\nAvenue II: NEN, BEN\nAvenue III: NEN\nCollector: NEN\nIndustrial Collector: NEN\nIndustrial Local: none\nLocal Standard: NEN\nLocal Limited: none\n*Refer to Standard Plan S-470 for standard street dimensions of each functional classification."
+   }
+  ]
+ },
+ {
+  "id": "ladot__supplemental-street-design-guide|S-433",
+  "title": "Figure 4-3 - Typical Bus Bulb Layout",
+  "summary": "Page of the Supplemental Street Design Guide covering bus bulb design, with Figure 4-3 showing a typical bus bulb layout. It covers gutter use on Type I and Type II bulbs, right-turn-on-red considerations at near-side stops, bus pad design per Bureau of Engineering Standard Plan S-433, bulb location options, and bus shelter and furniture placement for sight distance. The figure itself is a layout drawing with no readable text.",
+  "keywords": [
+   "bus bulb",
+   "bus bulb layout",
+   "type i bus bulb",
+   "type ii bus bulb",
+   "curb extension",
+   "bus pad",
+   "s-433",
+   "bus shelter placement",
+   "near-side stop",
+   "far-side stop",
+   "right turn on red restriction",
+   "sight distance",
+   "gutter at bus bulb",
+   "transit boarding"
+  ],
+  "sheets": [
+   {
+    "page": 51,
+    "notes": "- The gutter may be used along the street edge of Type I or Type II bus bulbs where it is necessary to improve constructability or to manage water flows. Where provision of a gutter will result in unacceptable travel lane widths for the street segment in constrained locations, the gutter should be omitted.\n- Bus bulbs attached to the curb should follow the general design guidance for a bus bulb and for Type I Curb Extension as shown in Figure 4-3.\nFigure 4-3 - Typical Bus Bulb Layout\nWhen applied at near-side stops, bus bulbs may require right-turn-on-red restrictions, as the addition of the curb extension may require that the design vehicle complete their right turn into the second lane on the intersecting street. For more information, refer to the Encroachment Policy (in Corner Radius design guidance). The design of the bus pad should follow Bureau of Engineering Standard Plan S-433.\n4.5.2 Location Considerations\nBus bulbs may be located at the near side or far side of intersections or midblock locations based upon transit provider needs and LADOT approval. Bus bulbs may be located adjacent to driveways and alleys as long as the bus bulb design accommodates the needs of the turning vehicles swept path into and out of the driveway or alley (see Corner Radius guidance).\n4.5.3 Bus Bulb Furniture Considerations\nShelter amenities should follow Metro and accessibility guidance. Shelters should be located to not obstruct the sight distance for motorists entering or exiting driveways, alleys, or streets near bus bulbs. Shelter designs which maximize visibility should be used where sight distance may be restricted. This may require the use of non-advertising bus shelters or the elimination of a shelter at some locations. To minimize the need for wider bus bulbs, shelters should not be aligned with the forward boarding and"
+   }
+  ]
+ },
+ {
+  "id": "ladot__supplemental-street-design-guide|S-481.0",
+  "title": "Figure 5-7 Typical One-way Street Layout with Crossing Island and Hardened Centerline",
+  "summary": "Guidance page on pavement markings, signs and accessibility for crossing islands, plus the S-483.1 raised crosswalk detail sheet showing raised side street crosswalks. Crossing islands must be at least 6 ft wide to count as a pedestrian refuge. Uncontrolled crossings follow LADOT Standard Drawing S-481.0, and RRFBs or the R1-6 in-street sign may supplement multi-lane crossings. The raised crosswalk sheet shows standard curb ramp and depressed corner versions with a bicycle crossing, optional solid green pavement, 24 in and 12 in white crosswalks, and a 10 ft minimum width.",
+  "keywords": [
+   "crossing island",
+   "pedestrian refuge",
+   "hardened centerline",
+   "one-way street crossing",
+   "uncontrolled crossing",
+   "rrfb",
+   "rectangular rapid flashing beacon",
+   "r1-6 in-street sign",
+   "raised side street crosswalk",
+   "bicycle crossing marking",
+   "chevron iii",
+   "chevron iv",
+   "green colored pavement",
+   "s-481.0",
+   "s-483.1"
+  ],
+  "sheets": [
+   {
+    "page": 71,
+    "notes": "Figure 5-7 Typical One-way Street Layout with Crossing Island and Hardened Centerline\n5.5.3 Pavement Markings and Signs\nAt uncontrolled crossings, the use of pavement markings and signs should follow LADOT Standard Drawing S-481.0. At multi-lane crossings, a Rectangular Rapid Flashing Beacon (RRFB) or the In-Street Pedestrian Crossing sign (R1-6) may be used as supplemental treatments (in a gateway configuration at the crossing) to increase motorist yielding rates. Advanced yield lines and additional traffic control treatments should be considered, per LADOT Marked Uncontrolled Crosswalk Guidelines, where crossing islands are provided.\nIf Rectangular Rapid Flashing Beacons (RRFBs) are used, they shall follow LADOT guidelines for installation and operation and allow actuation from within the refuge island. This may require the installation of 2 additional pedestrian push buttons at locations where only 2 RRFBs are provided.\n5.6 Accessibility Considerations\n5.6.1 Design Considerations\nCrossing islands shall be a minimum of 6 feet in width to be considered a pedestrian refuge to meet accessibility requirements. To maximize accessibility for people with mobility challenges, the cut"
+   },
+   {
+    "page": 156,
+    "notes": "Raised side street crosswalk, standard curb ramp\nRaised side street crosswalk, depressed corner\nLabels: curb ramp, raised side street crosswalk, limit line (if needed), bicycle yield line, 24\" white crosswalk, 12\" white crosswalk, raised crosswalk marking (Chevron III) see sheet 1, bicycle ramp marking (Chevron IV) see sheet 1, bicycle crossing marking, optional solid green colored pavement, sidewalk, 10' bicycle approach length, 2' dimension to limit line.\nNotes:\n1. The width of the top of raised crosswalks should match the width of the connecting sidewalk, shared use path, or desired crosswalk, but not less than 10' in width.\n2. The placement of advanced warning signs and markings shall follow the guidance for advanced sign posting (C**) shown on S-481.0.\n3. See City of Los Angeles Supplemental Street Design Guide, Detail 600 for raised crossing details."
+   }
+  ]
+ },
+ {
+  "id": "ladot__supplemental-street-design-guide|S-322",
+  "title": "Figure 6-9 Example of Case B Raised Crosswalk with Sidewalk Culvert (Edmond, OK)",
+  "summary": "Guidance page on raised crossing drainage, covering sidewalk culverts and the Case C option that keeps existing gutter flow. The culvert follows BOE Standard Plan S-322 (at least 4 in of depth) or DL-2327 (may need more depth for a concrete lid). Case C uses a transverse ramp limited to 5 percent slope, so it applies only to streets with cross slope up to 3.33 percent and unrestricted on-street parking, and the raised crossing is 2 in to 4 in above existing pavement.",
+  "keywords": [
+   "raised crosswalk",
+   "sidewalk culvert",
+   "raised crossing drainage",
+   "case b raised crosswalk",
+   "case c gutter flow",
+   "transverse ramp",
+   "s-322",
+   "dl-2327",
+   "gutter flow",
+   "cross slope 3.33 percent",
+   "flexible delineator posts",
+   "standard plan 483.1",
+   "stormwater",
+   "speed table"
+  ],
+  "sheets": [
+   {
+    "page": 84,
+    "notes": "The design of the sidewalk culvert should follow BOE Standard Plan S-322, which requires a depth of at least 4\" to install the culvert, or BOE Standard Plan DL-2327 which may require additional depth to accommodate a concrete lid. See Maintenance Considerations for more information on maintenance of sidewalk culverts. The street should be designed such that the sidewalk culvert is visible to all street users. Flexible delineator posts and/or pavement marking should be used upstream of the raised crossing to ensure motorists and bicyclists do not inadvertently use this space (see LADOT Standard Plan 483.1).\n6.5.4.3 Case C - Existing Gutter Flow\nWhere Case A is not feasible, and where a Case B is not desirable, the existing gutter flow should be maintained by sloping the raised crossing down to match the edge of the gutter (see Figure 6-11). This is achieved by using a transverse ramp. This design is only feasible where there is unrestricted (by time of day) on-street parking, which ensures that the transverse ramp occurs outside of the travel lane.\nThe slope of the transverse ramp is limited to 5%. Therefore, this design is only applicable to streets with an existing cross slope not exceeding 3.33%. On streets with a cross slope exceeding 3.33%, the transverse ramp will not be able to achieve a raised crossing within the parking area.\nWhen this design is feasible, a full height raised crossing may not be achievable. The raised crossing should be between 2\" and 4\" above the existing pavement. The sidewalk should meet the existing gutter elevation by using a curb ramp. The sidewalk should not be depressed with this design, which would lower the existing curb height, resulting in a wider gutter pan to achieve sufficient stormwater flow capacity.\nFigure 6-9 Example of Case B Raised Crosswalk with Sidewalk Culvert (Edmond, OK)"
+   }
+  ]
+ },
+ {
+  "id": "ladot__supplemental-street-design-guide|S-442",
+  "title": "Geometric Design for Channelized Right Turns (Detail 100)",
+  "summary": "Supplemental Design Guide Detail 100 (2 sheets) showing constrained and unconstrained geometry for channelized right turns, plus the S-527.0 sheet 2 detail for a Type II protected intersection and a temporary/retrofit curb extension. Constrained design uses R = 25 ft to 40 ft corners and a right-angle approach with 48 in landings at curb ramps. A mountable truck apron is provided if a lane wider than 14 ft is needed for the design vehicle. The protected intersection detail shows a 9 ft minimum and 5 ft minimum bikeway, 25 ft radii and green colored surface recommended.",
+  "keywords": [
+   "channelized right turn",
+   "slip lane",
+   "right turn island",
+   "pedestrian island",
+   "corner radius",
+   "curb ramp landing 48 inch",
+   "truck apron",
+   "protected intersection",
+   "type ii protected intersection",
+   "temporary curb extension",
+   "retrofit curb extension",
+   "channelizing bollards",
+   "detectable warning surface",
+   "s-442",
+   "s-527.0",
+   "raised crosswalk and bike crossing"
+  ],
+  "sheets": [
+   {
+    "page": 101,
+    "notes": "Constrained geometric design for channelized right turns, right angle approach (Supplemental Design Guide Detail 100, sheet 1 of 2)\n48\" landing, typ. at top of all curb ramps. See note 2.\nIf >9' wide, install bollard(s) in DWS at 2' maximum from the flow line, allowing a minimum 4' path in between bollards.\n4' min on both sides.\n55 to 70 degree angle shown.\n5' min.\nIntegral curb and gutter, R=2', typ.\nR=25' to 40'. See corner radius policy.\nParallel curb ramp, see S-442.\nUnidirectional curb ramp without flares, typ. See S-442.\n11' min., 14' max. See note 1.\nIntegral curb and gutter, R=150' to 275'.\nNarrow sidewalk (<9').\nNotes:\n1. Provide mountable truck apron along outside curb line if lane width greater than 14' is needed to accommodate design vehicle.\n2. Provide 48\" minimum clear space with 2% max. slope in all directions for landing area."
+   },
+   {
+    "page": 102,
+    "notes": "Unconstrained geometric design for channelized right turns (Supplemental Design Guide Detail 100, sheet 2 of 2)\nBike lane crossing and pedestrian crossing.\n3' min.\nUnidirectional curb ramp without flares, typ. See S-442.\n6' min. detectable warning surface.\nGrass buffer.\nR=25' to 40'. See corner radius policy.\n4' min on both sides.\nNon-walkable surface.\nRaised divisional island or curbing, typ.\nR=5' min.; R=10' min.\n11' min., 14' max. See note 1.\n(Optional) raised crosswalk and bike crossing, see Supplemental Design Guide Detail 600.\nIntegral curb and gutter, R=2'. Right turn radius 150' to 275'.\nNotes:\n1. Provide mountable truck apron along outside curb line if lane width greater than 14' is needed to accommodate design vehicle.\n2. Provide 48\" minimum clear space with 2% max. slope in all directions for landing area.\nTypical section at pedestrian/bicyclist island: non-walkable surface, repair or reconstruct street paving as necessary, 2' min. typ., 8' min. variable sidewalk width, 6' min. bike lane, right turn lane, island warning curb, integral curb and gutter, battered curb without gutter (typ.). See Supplemental Design Guide Detail 400 for steep road cross slopes."
+   },
+   {
+    "page": 174,
+    "notes": "Type II protected intersection with directional ramps\nW11-15 (optional), two locations.\n12\" white stop line, see note 5.\nGreen colored surface recommended, see note 6.\nBicycle lane symbol.\n8\" wide white edge line.\n12\" white crosswalk.\n12\" wide white line, see note 7.\nDetectable warning surfaces, see S-442 for detail.\nCurb.\n12\" stop bar.\n6' max. and 24\" min. dimensions at the crosswalk and refuge.\n25' R and 25' R curb radii.\n9' min. and 5' min. bikeway dimensions.\nTemporary/retrofit curb extension with diagonal ramp\n8\" solid white edge line; radius, see note 1.\nContrasting colored surface, see note 3 (optional).\nChannelizing bollards (optional), see note 2.\n12\" solid white lines, 45 degrees spaced at 5' o.c.\n48\" min.\nMatch parking restriction.\n12\" stop bar."
+   }
+  ]
+ },
+ {
+  "id": "ladot__supplemental-street-design-guide|S-410",
+  "title": "Truck Aprons (Detail 300)",
+  "summary": "Supplemental Design Guide Detail 300 (sheets 1 and 2 of 6) for mountable truck aprons at corners, plus the S-526.0 striping layout. The apron is 5 ft minimum to 15 ft maximum wide, with a mountable curb, 3 in minimum curb height at the Type A curb, and an 8 in concrete apron on 8 in minimum subbase. Directional curb ramps are located outside the truck apron. S-526.0 shows 12 in white lines spaced 12 in to 36 in on center and an 8 in white edge lane line over the apron.",
+  "keywords": [
+   "truck apron",
+   "mountable truck apron",
+   "mountable curb",
+   "corner radius",
+   "curb ramp",
+   "directional curb ramp",
+   "integral curb and gutter",
+   "type c curb and gutter",
+   "s-410",
+   "s-526.0",
+   "apron width 5 ft to 15 ft",
+   "concrete apron section",
+   "12 inch white lines",
+   "striped truck apron",
+   "detail 300"
+  ],
+  "sheets": [
+   {
+    "page": 114,
+    "notes": "Truck aprons, Supplemental Design Guide Detail 300, sheet 1 of 6\nMountable truck apron. Point of tangency (R3), point of curvature (R2), radius R2 = 15' typ.\nFace of curb. Mountable curb, see note 1. Mountable truck apron, see note 4.\nCurb 3\" min. curb height, see note 2. Flowline. Street.\nDirectional curb ramps located outside truck apron.\nCurb ramp, typ. Directional curb ramp shown, but may vary based on available sidewalk space, see S-442.\nIntegral curb & gutter, see S-410.\nMountable truck apron width varies (5' min, 15' max).\nRepair or reconstruct street paving as necessary, 2' min. See note 3.\n0.25% min. and 1% max. slope, see note 6.\nMountable curb, see sheet 2.\nSection A: 8\" concrete apron on 8\" min subbase, see note 4."
+   },
+   {
+    "page": 115,
+    "notes": "Mountable truck apron and curb ramp area, Supplemental Design Guide Detail 300, sheet 2 of 6\nMountable truck apron. Integral curb & gutter, see S-410. Face of curb & gutter.\nRadius R1, mountable curb, see note 1. Grade break. Point of tangency (R2).\nWarp apron to match bottom landing of curb ramp. Type A curb, 3\" min. curb height, see note 2.\nDirectional curb ramp shown, but may vary based on available sidewalk space, see S-442. Curb ramp, typ.\n4'x4' curb ramp landing. 48\" curb ramp landing (length varies). Curb ramp transition area, see note 5.\nStreet flowline. Point of curvature (R1).\nRepair or reconstruct street paving as necessary, 2' min. See note 3.\n0\" curb height at mountable truck apron, flowline width varies.\n8.33% max. and 5% max. slopes shown.\nMountable curb, see this sheet. Detectable warning surface, see note 5.\nCurb along back of truck apron (smooth surface).\nSection A: 8\" concrete on 8\" min subbase. Section: mountable curb and concrete pavement."
+   },
+   {
+    "page": 172,
+    "notes": "Mountable truck apron (S-526.0, Truck Aprons)\nPoint of tangency. Point of curvature.\n12\" white lines spaced 12\" to 36\" on center.\n8\" white edge lane line.\nMountable curb.\nTruck apron, see Supplemental Design Guide Detail 300. Truck apron width 5' min, 15' max.\nStreet flowline.\nDirectional curb ramp, typ.\nType C integral curb & gutter, see S-410.\nNote:\n1. See City of Los Angeles Supplemental Street Design Guide, Detail 300 for truck apron details."
+   }
+  ]
+ },
+ {
+  "id": "ladot__supplemental-street-design-guide|S-509.0",
+  "title": "Raised Crosswalk Marking and Signs",
+  "summary": "Plan view of a raised crosswalk showing Chevron III markings, advance warning pavement marking per S-509.0, and crosswalk and advance sign assemblies placed at a distance C** from the crosswalk. The crosswalk assembly is a W11-2 with W17-1bP RAISED CROSSWALK and W16-7P arrow plaque, and the advance assembly is a W11-15 with W17-1bP and W16-9P AHEAD. Each carries a W13-1 advisory speed plaque of 15, 20, 25 or 30 MPH as appropriate for the design speed.",
+  "keywords": [
+   "raised crosswalk",
+   "raised crosswalk signs",
+   "chevron iii marking",
+   "w11-2",
+   "w11-15",
+   "w17-1bp",
+   "w16-7p",
+   "w16-9p",
+   "w13-1 advisory speed",
+   "humps pavement marking",
+   "advance warning marking",
+   "crosswalk sign assembly",
+   "s-509.0",
+   "s-483.1",
+   "speed hump crosswalk"
+  ],
+  "sheets": [
+   {
+    "page": 155,
+    "notes": "Raised crosswalk marking and signs\nCurb ramp.\nHumps (advanced warning pavement marking, see standard detail S-509.0, see note 2).\nChevron III marking, typ. See standard detail.\nCrosswalk sign assembly.\nAdvance sign assembly, see note 2.\nC** dimension from crosswalk to advance sign assembly.\nRaised crosswalk sign assemblies\nCrosswalk assembly: W11-2, W17-1bP (RAISED CROSSWALK), W16-7P (arrow), W13-1 (15 MPH)*.\nAdvance assembly: W11-15, W17-1bP (RAISED CROSSWALK), W16-9P (AHEAD), W13-1 (15 MPH)*.\nAdvisory speed plaques: W13-1 (15 MPH), W13-1 (20 MPH), W13-1 (25 MPH), W13-1 (30 MPH).\n*As appropriate for raised crosswalk design speed."
+   }
+  ]
+ },
+ {
+  "id": "ladot__supplemental-street-design-guide|S-481.1",
+  "title": "Pedestrian Island Channelized Right Turn",
+  "summary": "Sheets showing a raised crosswalk at a pedestrian island on a channelized right turn, with and without a bike lane. Approach and departure ramps are at least 6 ft long, or 9 ft minimum where WB-50 trucks or buses are expected. The bike lane version uses a 2 ft green colored bicycle crossing and R1-5L MOD and R1-5R MOD yield signs with W17-1bP, and green pavement is optional and recommended. The raised crosswalk is at least 10 ft wide per S-483.1.",
+  "keywords": [
+   "channelized right turn",
+   "pedestrian island",
+   "raised crosswalk",
+   "right turn slip lane",
+   "yield here to pedestrians",
+   "r1-5l",
+   "r1-5r",
+   "w11-2",
+   "w17-1bp",
+   "bike lane crossing",
+   "green colored pavement",
+   "approach ramp departure ramp",
+   "s-481.1",
+   "s-483.1",
+   "raised crosswalk ahead"
+  ],
+  "sheets": [
+   {
+    "page": 157,
+    "notes": "Pedestrian island channelized right turn\nRaised crosswalk, see S-483.1.\n2' white or yellow, 5' c-c raised crosswalk marking (Chevron III), see S-483.1.\nSidewalk.\n12\" stop line.\nRaised crosswalk ahead assembly: W11-2, W17-1bP (RAISED CROSSWALK).\nR1-1, see S-494.0.\nMarked pedestrian crosswalk, typ. See detail S-481.1.\nWhite edge line.\nR1-5L, R1-5R with W17-1bP (YIELD HERE TO PEDESTRIANS, RAISED CROSSWALK).\nYield line.\nApproach ramp, see note 4. Departure ramp, see note 4.\nDimensions shown: 10' min., 10' min., 20' min.\nRaised crosswalk ahead assembly detail."
+   },
+   {
+    "page": 158,
+    "notes": "Pedestrian island channelized right turn with bike lane\nRaised crosswalk marking (Chevron III), see S-483.1.\nGrass buffer. Sidewalk. Bike lane.\n20' min.\n2' white or yellow, 5' c-c.\n2' green colored bicycle crossing, 5' c-c.\nPedestrian crossing.\nRaised crosswalk ahead assembly: R1-5R MOD, W17-1bP, R1-5L MOD.\nMarked bike lane. Bike symbol, see notes.\nMarked pedestrian crosswalk, typ., see S-481.1.\nR1-1. Bike lane symbol, typ. White edge lines, typ.\nGreen colored surface recommended, see note 2.\n10' min. 12\" stop line.\nApproach ramp, see note 4. Departure ramp, see note 4. 10' min.\nYield here to (pedestrians): R1-5L MOD, R1-5R MOD.\nNotes:\n1. Bike lane symbols are recommended to clarify the intended operation of the bike lane space.\n2. Optional use of green colored pavement to enhance visibility and conspicuity of bicycle lane. Green colored pavement may be installed for the entire length of the bicycle lane or for only a portion (or portions) of the bicycle lane. All green colored pavement should comply with FHWA Interim Approval for Optional Use of Green Colored Pavement for Bike Lanes (IA-14) and approved by LADOT.\n3. See City of Los Angeles Supplemental Street Design Guide, Detail 100 and Detail 600 for pedestrian/bicyclist island and raised crosswalk details.\n4. Approach and departure ramps should be a minimum of 6' in length. Where WB-50's or buses are expected the ramp length should be 9' minimum."
+   }
+  ]
+ },
+ {
+  "id": "ladot__supplemental-street-design-guide|S-463",
+  "title": "Type II Floating Bus Bulb Street Elevation, Bike Lane Integrated with Street Crossing",
+  "summary": "Plan views of a Type II floating bus bulb with a Class IV bike lane passing behind it and integrated with the street crossing. The bike lane is at least 5 ft wide, the forward boarding and alighting area is 5 ft x 8 ft minimum, and the rear area is 12 ft x 4 ft or 5 ft x 8 ft minimum. Bicycle ramps are 12.5 percent maximum slope, the bus bulb accessible route is 4 ft minimum (5 ft preferred), and the bike crossing uses R9-6 and OM1-1 signs, yield lines and recommended green colored surface.",
+  "keywords": [
+   "floating bus bulb",
+   "type ii bus bulb",
+   "bus boarding island",
+   "bike lane behind bus stop",
+   "class iv bike lane",
+   "bicycle ramp 12.5 percent",
+   "r9-6",
+   "om1-1",
+   "bicycle yield line",
+   "bus shelter location",
+   "boarding and alighting area",
+   "red curb",
+   "bicycle ramp marking chevron iv",
+   "s-463",
+   "pedestrian handrail"
+  ],
+  "sheets": [
+   {
+    "page": 159,
+    "notes": "Type II floating bus bulb street elevation, bike lane integrated with street crossing (two plan views: street elevation and intermediate elevation)\n10' from crosswalk.\n12\" white or yellow crosswalk. 24\" white or yellow crosswalk. Bicycle lane symbol.\nGreen colored surface recommended, see note 2.\nBicycle yield line (typ). R9-6 and OM1-1.\nBicycle ramp marking (Chevron IV) (typ) on the intermediate elevation.\nBus bulb length, see note 6.\n5' x 8' min. forward boarding and alighting area (see note 5).\nPotential bus shelter location (see note 3).\nRed curb. 8' min (see notes 5, 10 and 11).\nClass IV bike lane. 5' min. width.\nExisting sidewalk, see note 7.\n12' x 4' or 5' x 8' min. clear zone for rear boarding and alighting area (see note 8).\nBicycle ramp, 12.5% max. slope.\nBus bulb accessible route: 4' min, 5' pref.\n24\" min.\nShelter and railing placement guidance: bus shelter, bike lane, sidewalk, pedestrian handrail (see notes 1 and 12 and S-463), 10\" and 18\" dimensions, OM1-1, R9-6 (yield to peds)."
+   }
+  ]
+ },
+ {
+  "id": "ladot__supplemental-street-design-guide|S-481",
+  "title": "Mini-Roundabouts (Yield Control, Sheet 1)",
+  "summary": "Plan of a mini-roundabout with yield control, showing optional mountable or painted center and splitter islands, signs and markings. Mountable islands are preferred, and painted islands may be used when islands are under 50 SF. Painted islands require white arrow symbols. Entry uses a 12 in wide dashed white entrance line (2 ft long, 2 ft gap), 20 ft crosswalk markings, and signs W11-2, R6-5P, R1-2, W16-7PL and W2-6 on each approach, with details in Supplemental Design Guide Detail 710.",
+  "keywords": [
+   "mini roundabout",
+   "mini-roundabout",
+   "roundabout yield control",
+   "mountable island",
+   "painted island",
+   "splitter island",
+   "center island",
+   "dashed entrance line",
+   "r1-2 yield",
+   "r6-5p",
+   "w2-6",
+   "w16-7pl",
+   "roundabout crosswalk rrfb",
+   "s-481",
+   "detail 710",
+   "non-walkable area"
+  ],
+  "sheets": [
+   {
+    "page": 163,
+    "notes": "Mini-roundabouts\n7th Ave. (street name shown on plan).\nCenter island, mountable or painted (optional). See note 1 and see sheet 2.\n4\" solid yellow edge line, 1' off mountable center island.\nSolid white edge line. Mountable splitter island.\nSolid white arrow symbols (optional for raised islands, required for painted islands).\nDashed white entrance line, 12\" wide, 2' long @ 2' gap.\nOptional splitter island formed by two sets of double yellow lines, see note 1 on sheet 2.\n4\" solid yellow edge line, 1' off mountable splitter island.\nSigns: W11-2, R6-5P, R1-2, W16-7PL (or W16-8), W2-6, W16-17P (roundabout optional).\n20' crosswalk markings, see note 6.\nDimensions shown: 100', 32', 200'.\nOptional red curb. See DOT Std Plan S-481. Yield or Assembly \"B\" (CA) or Assembly \"D\" (CA) (typ). Non-walkable area.\nNotes:\n1. This drawing shows options with both mountable and painted islands on the approaches. However, the actual design should use consistent treatments on each approach. Mountable islands are preferred. Painted islands may be used when islands are less than 50 SF in size. If raised center island is used, roundabout directional arrow signs (R6-4) should be included in the center island.\n2. All signs and pavement markings shown in CA MUTCD, current edition shall be implemented as specified.\n3. Signs shown for only one approach, but should be provided consistently on each approach.\n4. For diameter dimensions of center island, see sheet 4 of 4.\n5. Install new curb ramps and crosswalks as shown. Diagonal ramps may not be used. Existing ramps within the circulating lane must be removed.\n6. Crosswalks may be supplemented with pedestrian activated rectangular rapid flashing beacons (RRFB's).\n7. See City of Los Angeles Supplemental Street Design Guide Detail 710 for mini-roundabout details."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-702",
+  "title": "Turn Bay Transition - Single Double Centerline",
+  "summary": "Layout of a turn bay transition where a single centerline shifts into a double centerline. The transition is 45 m (150 ft) long, with a 27 m (90 ft) straight 30:1 taper from point A to point B, followed by curves that offset the line 1.5 m (5 ft) on one side and 3 m (10 ft) on the other. A six-step layout procedure using points A to J gives the striping geometry.",
+  "keywords": [
+   "turn bay transition",
+   "left turn pocket",
+   "two-way left turn lane transition",
+   "centerline transition",
+   "double centerline",
+   "30:1 taper",
+   "striping layout procedure",
+   "left turn lane taper",
+   "pasadena standard plan",
+   "s-702",
+   "centerline shift",
+   "reverse curve striping"
+  ],
+  "sheets": [
+   {
+    "page": 1,
+    "notes": "Dimensions (metric with US customary in parentheses):\nStart of transition to end of transition: 45 m (150').\n30:1 taper from point A to point B: 27 m (90').\nThen segments of 3 m (10'), 3 m (10'), 6 m (20'), 3 m (10'), 3 m (10').\nOffset from centerline of street: 1.5 m (5') on one side and 3 m (10') on the other.\nPoints A to J are labeled along the centerline of street.\nProcedure to install transition\n1. Layout points A, D, G, & H.\n2. Use points A & D to determine a straight line and mark B & C.\n3. Use points C & G to determine a straight line and mark E & F.\n4. Mark J by measuring 180 mm (7\") in from C. Mark I by measuring 150 mm (6\") in from G.\n5. Form curves B-J-E & F-I-H.\n6. Stripe."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-704",
+  "title": "Parking Tee Installation",
+  "summary": "Layout of parking tee markings that delineate parallel parking spaces along a curb. Spaces are 12 m (40 ft) in total, made of two 6 m (20 ft) stalls, with tees set 2.1 m (7 ft) from the curb line. Each tee is formed with 100 mm (4 in) white stripes, and red curb 2.4 m (8 ft) long is used at the ends. Detail A gives the stripe dimensions.",
+  "keywords": [
+   "parking tee",
+   "parallel parking stall markings",
+   "parking space striping",
+   "parking t marking",
+   "stall markings",
+   "red curb",
+   "white stripe 4 inch",
+   "20 ft parking stall",
+   "pasadena standard plan",
+   "s-704",
+   "curb parking delineation",
+   "tee marks"
+  ],
+  "sheets": [
+   {
+    "page": 2,
+    "notes": "Overall: 12 m (40'), made of two 6 m (20') spaces.\nTees set 2.1 m (7') from curb line.\nRed curb (typ.) 2.4 m (8') long.\nSee detail \"A\".\nDetail \"A\"\n100 mm (4\") white stripe (typ.).\nDistance between tees: 6 m (20').\nTee stem length: 1 m (3'). Tee bar lengths: 0.6 m (2') on the first tee, and 0.6 m (2') each side (1.2 m (4') total) on the second tee.\nOffset of bar from end of stem: 0.4 m (1').\nSpace between tees: 4.9 m (16')."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-705",
+  "title": "Slow School Xing Pavement Markings",
+  "summary": "Pavement word message layout for school crossings. Condition A is a centerline-only street and Condition B is multi-lane, with yellow school crosswalks. The messages XING, SCHOOL and SLOW are spaced 8 m (25 ft) minimum apart, working back from the crosswalk. Word messages are centered 1.7 m (5.5 ft) off the marked centerline or lane line for lanes 3.7 m (12 ft) or greater, and centered in the lane for narrower lanes.",
+  "keywords": [
+   "school crossing markings",
+   "slow school xing",
+   "school xing pavement legend",
+   "yellow school crosswalk",
+   "pavement word message",
+   "school zone markings",
+   "xing school slow",
+   "8 m 25 ft spacing",
+   "lane width 12 ft message placement",
+   "pasadena standard plan",
+   "s-705",
+   "school crosswalk"
+  ],
+  "sheets": [
+   {
+    "page": 3,
+    "notes": "Condition A: centerline only (marked or unmarked).\nCondition B: multi-lane.\nYellow school crosswalks.\nCenterline of message*.\nWord messages from crosswalk back: XING, SCHOOL, SLOW. Distance from crosswalk to XING varies.\nSpacing between messages: 8 m (25') min between XING and SCHOOL, and 8 m (25') min between SCHOOL and SLOW.\n1.7 m (5.5') offset of message centerline.\nCenter word message in lane (multi-lane).\n* Locate center of word message at a point 1.7 m (5.5') off marked centerline or lane line for lanes 3.7 m (12') or greater. For lanes less than 3.7 m (12'), center message within lane."
+   }
+  ]
+ },
+ {
+  "id": "pasadena__standard-plans|S-706",
+  "title": "Pedestrian Crossing Pavement Markings",
+  "summary": "Pavement word message layout for pedestrian crossings. Condition A is a centerline-only street and Condition B is multi-lane. The messages PED and XING are each 2.4 m (8 ft) tall and spaced 8 m (25 ft) minimum apart, working back from the crosswalk. Messages are centered 1.7 m (5.5 ft) off the marked centerline or lane line for lanes 3.7 m (12 ft) or greater, and centered in the lane for narrower lanes.",
+  "keywords": [
+   "pedestrian crossing markings",
+   "ped xing",
+   "ped xing pavement legend",
+   "crosswalk word message",
+   "pavement legend spacing",
+   "pavement word message",
+   "2.4 m 8 ft letter height",
+   "lane width 12 ft message placement",
+   "pasadena standard plan",
+   "s-706",
+   "crosswalk approach markings"
+  ],
+  "sheets": [
+   {
+    "page": 4,
+    "notes": "Condition A: centerline only (marked or unmarked).\nCondition B: multi-lane.\nCrosswalk.\nCenterline of message*.\nWord messages from crosswalk back: XING, PED. Distance from crosswalk to XING varies.\nEach word message is 2.4 m (8') tall, with 8 m (25') min between XING and PED.\n1.7 m (5.5') offset of message centerline.\nCenter word message in lane (multi-lane).\nNote:\n* Locate center of word message at a point 1.7 m (5.5') off marked centerline or lane line for lanes 3.7 m (12') or greater. For lanes less than 3.7 m (12'), center message within lane."
+   }
+  ]
+ }
+]

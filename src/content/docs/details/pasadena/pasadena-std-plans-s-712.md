@@ -1,6 +1,6 @@
 ---
 title: "S-712 Pavement Markings for Left and Right Turn Lanes"
-description: "Pasadena Std. Plans standard drawing S-712: Pavement Markings for Left and Right Turn Lanes. 1 sheet(s), dated 06-04-01."
+description: "Pasadena Std. Plans standard drawing S-712: Pavement Markings for Left and Right Turn Lanes. Pasadena standard for turn arrow pavement markings in left and right turn lanes."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-711/">&larr; S-711</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-713/">S-713 &rarr;</a></div>
 
-<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a> <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
+<p class="dwg-sum">Pasadena standard for turn arrow pavement markings in left and right turn lanes. Arrows are solid white and centered in the lane. An additional arrow is installed if the turn pocket is 18.3 m (60 ft) or longer. Dimensions of 2.4 m (8 ft) are shown at the arrow.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
 
 
 
@@ -18,7 +19,12 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 17)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0017.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0017.webp" alt="S-712 sheet 1"></a><figcaption>Pasadena Std. Plans S-712, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p17">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>2.4m (8°) y 2.4 m (8°) NOTES: 1. ARROW PAVEMENT MARKINGS TO BE SOLID WHITE. 2. PAVEMENT MARKINGS TO BE CENTERED IN LANE. * INSTALL ADDITIONAL ARROW IF POCKET IS 18.3 m (60°) OR LONGER. CITY OF PASADENA - PUBLIC WORKS &amp; TRANSPORTATION DEPARTMENT DAWN A A7 | PAVEMENT MARKINGS remOR: [UTE eee FOR LEFT AND cle DUAL D. OMEGA) RIGHT TURN LANES $-719 we HERNANOEAN alae Gly let | geet ior 1 TRANSPORTATION ADMINISTRATOR RTE NO. 1620 EXPIRES JUNE $0, 2005 DATE S7ie--eevIG 325m </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markings for left and right turn lanes. Sheet 1 of 1.</p>
+<p>Dimension shown: 2.4 m (8 ft) at each arrow.</p>
+<p>Notes</p>
+<p>1. Arrow pavement markings to be solid white.</p>
+<p>2. Pavement markings to be centered in lane.</p>
+<p>* Install additional arrow if pocket is 18.3 m (60 ft) or longer.</p></details>
 
 
-<div class="kw">Keywords: pavement, markings, arrow, transportation, notes, solid, white, centered, lane, install, additional, pocket, longer, city</div>
+<div class="kw">Keywords: turn arrow, left turn arrow, right turn arrow, pavement arrows, turn lane markings, pavement markings, turn pocket arrow, lane arrow spacing, white arrow, left turn lane, right turn lane, arrow marking, additional arrow 60 ft</div>

@@ -1,0 +1,208 @@
+[
+ {
+  "id": "ladot__mpp-521|S-497.0",
+  "title": "Restricted Sight Distance Criteria for Protected Left-Turn Phasing",
+  "summary": "Supplements Table 1 of Section 521 and sets when restricted sight distance justifies protected left-turn phasing at signalized intersections. Table A gives minimum sight distances for permissive left turns by speed (15 to 55 mi/hr, using the speed limit or advisory speed plus 5 mi/hr) and number of opposing through lanes, based on an acceptable gap of (5.0 + 0.5n) seconds. Figures 1 to 6 show restrictions from horizontal curves, vertical alignment, physical obstructions, and negatively offset left turn lanes, including the 10,000 ADT and 15% queue-not-clearing thresholds and the 40V/N 85th percentile queue estimate.",
+  "keywords": [
+   "protected left turn",
+   "permissive left turn",
+   "restricted sight distance",
+   "left turn phasing warrant",
+   "negative offset left turn lane",
+   "opposing left turn queue",
+   "sight distance table",
+   "acceptable gap",
+   "85th percentile queue",
+   "horizontal curve sight distance",
+   "vertical curve sight distance",
+   "raised median island removal",
+   "section 521",
+   "left turn lane offset"
+  ],
+  "sheets": [
+   {
+    "page": 84,
+    "notes": "Notes:\n1. This standard plan supplements Table 1 of Section 521, pertaining to restricted sight distance which justifies protected left-turn phasing at signalized intersections.\n2. Motorists require both an acceptable gap in opposing traffic and sufficient sight distance in order to execute permissive left turns. Studies have shown that the value of an acceptable gap is equal to (5.0 + 0.5n) seconds of travel time, where \"n\" is the number of opposing through lanes. Sufficient sight distance is the distance associated with an acceptable gap, or the gap time multiplied by the design speed. The design speed for opposing through traffic is five miles per hour above the posted or prima facie speed limit. However, where there is restrictive horizontal or vertical alignment the design speed is five miles per hour above the posted advisory speed. See Table 1.\n\nTable A: Minimum Sight Distance Requirements for Permissive Left Turns, ft (rounded)*\nColumns: speed limit or advisory speed (mi/hr), then gap time and number of opposing through lanes: 5.5 sec (1 lane), 6.0 sec (2 lanes), 6.5 sec (3 lanes), 7.0 sec (4 lanes).\n15 mi/hr: 165, 180, 195, 210\n20 mi/hr: 205, 220, 240, 260\n25 mi/hr: 240, 260, 290, 310\n30 mi/hr: 280, 310, 330, 360\n35 mi/hr: 320, 350, 380, 410\n40 mi/hr: 360, 400, 430, 460\n45 mi/hr: 400, 440, 480, 510\n50 mi/hr: 440, 480, 520, 570\n55 mi/hr: 480, 530, 570, 620\n*Based on the speed limit or advisory speed plus 5 mi/hr.\n\n3. Several types of sight distance restrictions can occur. Permanent type restrictions, due to horizontal curvature, vertical alignment or physical obstructions cannot be readily overcome. Where the sight distances for permanent type restrictions are less than that shown in Table A, and left turns are allowed, then protected left-turn phasing is required. See Figures 1, 2 and 3 which illustrate these types of restrictions.\n4. Sight distance also can be restricted due to opposing left turn vehicles at locations where left turn lanes are negatively offset. Where the opposing left turn demand is light it tends to be accommodated during the same signal cycle of arrival. In this case, left turn motorists would be afforded adequate sight distance to execute left turns at some point during the green or yellow after opposing left turn motorists clear. Thus, protected left turn phasing would not be necessary. See Figure 4. However, where an opposing left turn queue is frequent and persistent and the sight distances are less than those shown in Table A then left turn motorists are not afforded an opportunity to turn with adequate sight distance. In this case, island removal with restriping or protected left-turn phasing is necessary and required. See Figure 5.\n5. A unique situation occurs with negatively offset left turn lanes in combination with a right horizontal curve. As illustrated in Figure 6, left turn motorists can see opposing through traffic both upstream from the front and downstream from the back of a left turn queue. However, motorists cannot continuously see downstream from the front of the queue. If the required sight distance is at a point which is not obstructed by the opposing queue then protected left turn phasing would not be necessary. However, where the required sight distance is at a point which is obstructed by the opposing queue then visibility is inadequate for left turning decisions and protected left turn phasing is required."
+   },
+   {
+    "page": 85,
+    "notes": "Figure 1: Example of Restricted Sight Distance Due To Left Horizontal Curvature\nProtected left turn phasing is required if any minimum sight distance is not met and left turns are allowed."
+   },
+   {
+    "page": 86,
+    "notes": "Figure 2: Example of Restricted Sight Distance Due To Vertical Alignment\nSee Table A for (5.0 + 0.5n) sec, where n = number of opposing thru lanes.\nProtected left turn phasing is required if any minimum sight distance is not met and left turns are allowed."
+   },
+   {
+    "page": 87,
+    "notes": "Figure 3: Example of Restricted Sight Distance Due To Physical Obstruction\nSee Table A for 5.5 sec.\nProtected left turn phasing is required if any minimum sight distance along Line A is not met and left turns are allowed. See Figure 6 and examine Line B distances if the obstruction distance is relatively short."
+   },
+   {
+    "page": 88,
+    "notes": "Figure 4: Example of Infrequently Restricted Sight Distance Due to Negatively Offset Left Turn Lanes with Light Opposing Left Turn Demand\nGenerally fewer than 2 vehicles per cycle. Cross street generally less than 10,000 ADT.\nThis figure is for general use on arterial highways with negatively offset left turn lanes at intersections with lower volume cross streets and/or low volume left turns from the arterial streets. In these situations the queuing from the opposing left turns will be short or infrequent and will usually clear during the cycle, thus resulting in a period of unrestricted sight distance for permissive left turns.\nInfrequently restricted sight distance generally would be assumed to occur if the cross street has less than 10,000 ADT and opposing left turns are less than two cars per cycle during the peak hour. However, a left turn study may be conducted in place of these guidelines to document the frequency of restricted sight distance. When such a study is conducted, refer to Figure 5."
+   },
+   {
+    "page": 89,
+    "notes": "Figure 5: Example of Frequently Restricted Sight Distance Due To Negatively Offset Left Turn Lanes with Moderate Opposing Left Turn Demand\nThis figure is for general use on arterial highways or high volume collector streets with negatively offset left turn lanes at higher volume cross streets. In these situations, the negative offset, in combination with moderate opposing left turn demand, may result in frequently restricted sight distance for permissive left turns.\nThe determination of frequently restricted sight distance can be made by: 1) assessing the frequency of restricted sight distance, and 2) measuring the sight distance. Restricted sight distance will be assumed to occur frequently with moderate opposing left-turn demand if the cross street has more than 10,000 ADT. However, a left turn study may be conducted in place of this guideline to document the actual frequency of restricted sight distance. If the study shows that more than 15% of queues do not clear during their cycles of arrival during the peak hour then restricted visibility is judged to be frequent.\nThe sight distance can be plotted on a striping plan as shown in this figure or as measured in the field. If the sight distance is frequently restricted and is less than the values shown in Table A then remedial action should be taken.\nRemedial action should first consider removal of the raised median island and restriping to eliminate the negative offset. If this is not feasible then protected left turn phasing is required.\nDiagram: arterial or high volume collector street (10,000 ADT), turning path, 10 ft separation.\nOffset table: W (ft) / X (ft): 9 / 1.5, 10 / 2.0, 11 / 2.5, 12 / 3.0"
+   },
+   {
+    "page": 90,
+    "notes": "Figure 6: Example of Frequently Restricted Sight Distance Due To Moderate Opposing Left Turn Demand in Combination with Right Horizontal Curvature\nLeft turning motorists can see downstream of Line A (which is defined by the first vehicle in a queue) and upstream of Line B which is defined by the last vehicle in an 85th percentile queue. They cannot, however, see between Lines A and B. If opposing vehicles can be seen at the required sight distances, shown in Table A, either downstream of Line A or upstream of Line B, then protected left turn phasing is not required. If however, the required sight distances lie between Lines A and B then visibility is inadequate for left turning decisions and protected left turn phasing is required.\nIn the absence of documented observations, the 85th percentile queue length, in feet, is assumed to be 40V/N, where V equals the peak hour left turn volume and N equals the number of signal cycles per hour.\nDiagram: turning path, 10 ft separation.\nOffset table: W (ft) / X (ft): 9 / 1.5, 10 / 2.0, 11 / 2.5, 12 / 3.0"
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-100.0",
+  "title": "Operation and Design of Signalized Jogged Intersections",
+  "summary": "Guides the design and signal operation of signalized left-jogged and right-jogged intersections. Sheet 2 gives a selection procedure based on the interior storage distance D (single intersection operation if D is under 40 ft, interior limit lines if D is over 40 ft), the angles \u03b81 and \u03b82 (opposed phasing for the minor street if over 20 degrees), and the mastarm distances X1 and X2 (internal mastarms if over 50 ft, external if under 50 ft). The remaining sheets show typical layouts for each case, including R9-3a signs, APS, beveled visors, PV heads, alternate phasing, KEEP CLEAR markings, and slot clearance.",
+  "keywords": [
+   "jogged intersection",
+   "offset intersection",
+   "left jog",
+   "right jog",
+   "staggered intersection",
+   "interior limit line",
+   "internal mastarm",
+   "external mastarm",
+   "opposed phasing",
+   "concurrent phasing",
+   "slot clearance",
+   "R9-3a",
+   "keep clear marking",
+   "diagonal crosswalk",
+   "beveled visor",
+   "cat tracks",
+   "signal head layout"
+  ],
+  "sheets": [
+   {
+    "page": 21,
+    "notes": "Operational challenges for the minor street approaches to signalized jogged intersections.\nRight jog:\n- Pedestrians might not be seen early on by right-turning motorists.\n- Opposing vehicles might not be seen early on.\n- Opposing arterial left turns might interlock.\nLeft jog:\n- Pedestrians might not be seen early on by left-turning motorists.\n- Opposing vehicles might not be seen early on.\n- Opposing left turns interlock.\n- Difficult to determine if a motorist is making a left turn or a jogged through move.\n- So-called opposing moves momentarily can be positioned at approximately right angles to each other.\nTo select the most appropriate design for minimizing the above challenges see Sheet 2."
+   },
+   {
+    "page": 22,
+    "notes": "Definitions:\n\u03b81 and \u03b82 = angle between motorist looking straight ahead and back of opposing vehicle.\nX1 and X2 = distance along arterial from the crosswalk line or limit line to the signal pole or BCR at the far side of the first intersecting leg.\nD = internal storage distance between real or hypothetical interior limit lines. For minor offset D may be a small or negative number.\nTo select the most appropriate design:\n1) Determine if there is a Left Jog or a Right Jog. See Sheets 3, 5, 7, 9, 10 and 11 for left jogged intersections and Sheets 4, 6, 8 and 12 for right jogged intersections.\n2) Determine D. If D > 40' then interior limit lines are required. If D < 40' then the jog is operated as a single intersection. See Sheets 10, 11 and 12 for intersections with interior limit lines and Sheets 3 through 9 for single intersection operation.\n3) Determine \u03b81 and \u03b82. If \u03b81 or \u03b82 is > 20 degrees and D < 40' then some form of opposed phasing is required for the minor street. See Sheets 7 through 9 for situations requiring opposed phasing. See Sheets 3 through 6 for situations for which concurrent phasing is adequate. Note that for Sheets 4 and 6 opposed phasing is required if diagonal crosswalks are not feasible, due to the unexpected presence of pedestrians crossing the path of right-turning motorists.\n4) Determine X1 and X2. If X1 and X2 > 50' and D < 40' then only internal mastarms are to be used on the arterial street. If X1 and X2 < 50' then only external mastarms are to be used on the arterial street. See Sheets 3, 4, 7 and 8 for internal mastarm designs and Sheets 5, 6 and 9 for external mastarm designs.\nNote: The drawings on Sheets 3 through 12 are not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown."
+   },
+   {
+    "page": 23,
+    "notes": "Left jogged intersection, internal mastarms.\n1) Install where: a) D < 40'; and b) \u03b81 and \u03b82 < 20 degrees; and c) X1 and X2 > 50'.\n2) The beveled visors shown should be installed only where cross-traffic motorists would see 50% or more of the lens area of a far-side signal as they wait at the limit line. PV heads should be used if beveled visors would not be adequate.\nCallouts: APS, R9-3a signs (WATCH FOR OPPOSING TRAFFIC), signal heads numbered 1 to 8."
+   },
+   {
+    "page": 24,
+    "notes": "Right jogged intersection, prohibited left turn.\n1) Install where: a) D < 40'; and b) \u03b81 and \u03b82 < 20 degrees; and c) X1 and X2 > 50'; and d) diagonal crosswalks are feasible.\n2) Where diagonal crosswalks are not feasible, use opposed phasing, as shown on Sheet 8.\n3) The treatment to allow arterial left turns in one direction and prohibited in the other direction is an operational option. For other typical left turn operations on the arterial street see Sheets 6 and 8.\nThe beveled visors shown should be installed only where cross-traffic motorists would see 50% or more of the lens area of a far-side signal as they wait at the limit line. PV heads should be used if beveled visors would not be adequate.\nCallouts: APS, WATCH FOR OPPOSING TRAFFIC signs, signal heads numbered 1 to 8."
+   },
+   {
+    "page": 25,
+    "notes": "Left jogged intersection, external mastarms.\n1) Install where: a) D < 40'; and b) \u03b81 and \u03b82 < 20 degrees; and c) X1 and X2 < 50'.\nCallouts: APS, R9-3a signs (WATCH FOR OPPOSING TRAFFIC), signal heads numbered 1 to 8."
+   },
+   {
+    "page": 26,
+    "notes": "Right jogged intersection, protected left turn.\n1) Install where: a) D < 40'; and b) \u03b81 and \u03b82 < 20 degrees; and c) X1 and X2 < 50'; and d) diagonal crosswalks are feasible.\n2) Where diagonal crosswalks are not feasible, use opposed phasing, as shown on Sheet 8.\n3) If arterial left turns are to be allowed in both directions, at least one direction shall have protected left turns, as shown. For other typical left turn options on the arterial street see Sheets 4 and 8.\nCallouts: OPPOSING TRAFFIC, APS, signal heads numbered 1 to 8."
+   },
+   {
+    "page": 27,
+    "notes": "Left jogged intersection, internal mastarms, opposed phasing.\n1) Install where: a) D < 40'; and b) \u03b81 or \u03b82 > 20 degrees.\n2) The alternate signal phasing schemes shown below, with corresponding signal head modifications (not shown), should be used only where the intersection would be operating near capacity with the more conventional opposed phasing. Generally, the alternate phasing would be necessary where pedestrian calls occur on most cycles. Where used, the lighter volume side street approach should have the left arrow indications. If one or both of the crosswalks across the arterial street can be eliminated, then the intersection operation can have more efficient phasing than shown.\n3) Where D > 20', \"KEEP CLEAR\" pavement markings should be installed between the cross street legs, as shown.\nPhasing diagrams: Alternate 1 and Alternate 2."
+   },
+   {
+    "page": 28,
+    "notes": "Right jogged intersection, internal mastarms, opposed phasing.\n1) Install where: a) D < 40'; and b) \u03b81 or \u03b82 > 20 degrees; and c) X1 and X2 > 50'.\n2) The arterial, cat-tracked side-by-side left-turn lanes, as shown, are possible only where the painted median channelization is at least 18' wide (18' min.). For other typical left turn options on the arterial street see Sheets 4 and 6.\nThe alternate signal phasing schemes shown below with corresponding signal head modifications should be used only where the intersection would be operating near capacity with the more conventional opposed phasing. Generally, the alternate phasing would be necessary where pedestrian calls occur on most cycles. Where used, the lighter volume side street approach should have the right arrow indications. If one or both of the crosswalks across the arterial street can be eliminated, then the intersection operation can have more efficient phasing than shown. Where D > 20', \"KEEP CLEAR\" pavement markings should be installed between the cross street legs, as shown in Sheet 7.\nPhasing diagrams: Alternate 1 and Alternate 2."
+   },
+   {
+    "page": 29,
+    "notes": "Left jogged intersection, external mastarms, opposed phasing.\n1) Install where: a) D < 40'; and b) \u03b81 or \u03b82 > 20 degrees; and c) X1 and X2 < 50'.\n2) See Sheet 7 for alternate signal phasing schemes.\nCallouts: APS, R9-3a signs, signal heads numbered 1 to 8."
+   },
+   {
+    "page": 30,
+    "notes": "Left jogged intersection, interior limit lines.\nInstall where D > 40'.\nCallouts: APS, R9-3a signs (WATCH FOR OPPOSING TRAFFIC), signal heads numbered 1 to 8."
+   },
+   {
+    "page": 31,
+    "notes": "Left jogged intersection, interior limit lines, slot clearance.\nInstall where: a) 40' < D < 200'; and b) there have been 4 or more right angle accidents or 4 or more left turn accidents in a recent 12 month period at one of the intersections involving vehicles departing from the interior limit line.\nOLA and OLB include slot clearance.\nCallouts: APS, PV heads (G, R only), CUT-OFF, R9-3a signs, signal heads numbered 1 to 8."
+   },
+   {
+    "page": 32,
+    "notes": "Right jogged intersection, interior limit lines, slot clearance.\n1) Install where 40' < D < 200'.\n2) Mask only the green and red lenses of the PV heads. The back-to-back left-turn lanes, as shown, are possible only where D > 70'. Where not possible, a left-turn lane in one direction, possibly with a left-turn restriction in the other direction, should be considered.\nOLA and OLB include slot clearance.\nCallouts: APS, PV heads (G, R only), CUT-OFF, R9-3a signs, signal heads numbered 1 to 8."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-221.3",
+  "title": "Street Name Sign Posting",
+  "summary": "Sets where street name signs are posted at intersections. Signs go as close to the near-right B.C.R. as practical (or the extension of the near left), in advance of obstructions, and on existing posts or electroliers where practical. Parallel roadways with different names are treated as separate streets, and the diagrams show how posting changes at offset intersections when the offset distance X is less than 100 ft or 100 ft or greater.",
+  "keywords": [
+   "street name sign",
+   "street name sign posting",
+   "sign placement",
+   "street sign location",
+   "near right corner",
+   "sign post location",
+   "offset intersection signs",
+   "service road sign",
+   "electrolier mounting",
+   "sign on existing pole",
+   "intersection street name",
+   "S-221.3"
+  ],
+  "sheets": [
+   {
+    "page": 33,
+    "notes": "Notes:\n1. All signs shall be posted as close to the near-right B.C.R. or the extension of the near left as is practical.\n2. Post sign in advance of obstructions where encountered.\n3. Existing sign posts and/or electroliers shall be used to post street name signs wherever practical.\n4. Two parallel roadways with different street names (for example, Huntington Drive North and Huntington Drive) shall be treated as two different streets for sign posting purposes.\nDiagram: street name sign examples such as \"W. Avenue B\" and \"Avenue B\" at an intersection."
+   },
+   {
+    "page": 34,
+    "notes": "Offset intersection of \"A\" Street and \"D\" Avenue, with X measured along the street between the two legs of \"D\" Avenue.\nWhen X is less than 100':\nWhen X is 100' or Greater:"
+   },
+   {
+    "page": 35,
+    "notes": "Street name sign locations at a divided roadway intersection with service roads, showing \"F\" St., \"G\" St., \"H\" St., \"I\" St., a Service Rd. and \"A\" Street, with posts shown at the corners and medians."
+   },
+   {
+    "page": 36,
+    "notes": "Street name sign locations at an intersection with several cross streets (\"K\" St., \"L\" St., \"M\" St., \"N\" St.).\nOmit this sign when Y is less than 100'."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-401.0",
+  "title": "Typical Major Highway Striping Treatments",
+  "summary": "Typical striping layouts for major highways with a two-way left turn lane (open-ended and closed-ended), a raised median, and Class I and Class II highway sections with flare at intersections. Notes set minimum left turn pocket lengths at signalized intersections (100 ft at major and secondary highways, 60 ft at collector streets, 40 ft at local streets), 10 ft wide left turn channelization (12 ft where large vehicles are significant), and 60 ft or 80 ft reversals depending on posted speed. Bike lanes with all-day parking may replace a curb lane where the width is 13 ft or greater.",
+  "keywords": [
+   "major highway striping",
+   "two-way left turn lane",
+   "2WLTL",
+   "center left turn lane",
+   "left turn pocket length",
+   "painted reversal",
+   "raised median",
+   "critical driveway",
+   "stopping prohibition",
+   "lane widths major highway",
+   "flare at intersection",
+   "bike lane with parking",
+   "protected left turn island",
+   "100 ft right of way",
+   "striping taper"
+  ],
+  "sheets": [
+   {
+    "page": 37,
+    "notes": "MAJOR HIGHWAYS (prior to 11-10-99)\n100' R/W - 80' roadway\nNotes:\n1. Selection of length of left turn pocket lane depends on demand, spacing between intersections and location of critical driveways to be served by two-way left turn lanes (2WLTL). The desirable length at signalized intersections is at least 40' of storage per vehicle per signal cycle averaged during the peak hour. However, this desirable length often may not be feasible. Minimum lengths at signalized intersections on highways with continuous median channelization are:\n100' at major highways\n100' at secondary highways\n60' at collector streets\n40' at local streets\nMinimum pocket lengths for major highways without continuous median channelization may be less than the above, depending on turning volumes and parking impacts.\n2. In general, 10' wide left turn channelization should be used. However, a 12-foot median should be used if large vehicles are a significant portion of turning vehicles.\n3. Utilize 60' reversals for posted speed limits of 35 mph and less, and 80' reversals for posted speed limits of 40 mph and greater. A 40' minimum reversal may be used in exceptional situations for critical driveways.\n4. Selection of an open-ended (as shown in first drawing) versus closed ended (as shown in second drawing) 2WLTL is dependent, in part, on the proximity of a critical driveway to be served by a 2WLTL. Minimum distances to critical driveways are shown.\n5. The painted reversal for a single left turn lane may be eliminated at a signalized intersection on a selective basis if spillover is recurrent and if it is not feasible to lengthen the left-turn pocket.\n6. For new raised median installations, the width of the island should be limited to 8' to allow wider adjacent through lanes.\n7. The 4' wide island adjacent to the left turn lane should be removed, where feasible, so as to avoid left turn lane offsets which reduce left turn driver visibility of approaching through vehicles. Where an island adjacent to the left-turn lane is proposed, or is to be retained, protected left-turn phasing shall be considered. See Standard Plan S-497.0.\n8. Third through lanes should be installed when conditions so justify. Right turn only lanes may be installed instead of the third through lane, as appropriate.\n9. Bike lanes with all day parking may be installed in place of a curb lane or right turn lane where the width is 13' or greater (or 12' in selected cases).\nDrawings: open-ended 2WLTL with 60' or 80' reversal and 30' min. to a critical driveway, and closed-ended 2WLTL with taper, 100' to 120' transition and 70' min. to a critical driveway. Stopping prohibition shown along the curb. Lane widths shown include 10' to 12' median and 11' to 13' curb lanes. 100' R/W, 80' roadway (40' each side of centerline)."
+   },
+   {
+    "page": 38,
+    "notes": "Major highways, 100' R/W - 80' roadway (prior to 11-10-99).\nDrawing shows a 12\" yellow line with a 100' to 120' transition (taper), 4-lane-plus-median striping with 10' to 12' center turn lane, and bike lane (see Note 9) at the curb. Dimensions shown: 10' parking or curb width each side, 70' min. and 130' min. to a critical driveway, 60' or 80' reversal, stopping prohibition at the curb."
+   },
+   {
+    "page": 39,
+    "notes": "Major highways, 100' R/W - 80' roadway (prior to 11-10-99). See Sheet 1 for notes.\nRaised median treatments with 4\" yellow lines, stopping prohibition at the curb, and left turn lane details. See Notes 6 and 7."
+   },
+   {
+    "page": 40,
+    "notes": "Major highway Class I, 126' R/W - 102' roadway (with 136' R/W - 112' roadway flare at intersection). See Sheet 1 for notes.\nDrawing shows standard flare section with 150' flare length and CR = 25' curb returns, 60' or 80' reversal, 30' min. to a critical driveway, taper and 100' to 120' transition, raised median with 4\" yellow lines (see Note 6), and stopping prohibition."
+   },
+   {
+    "page": 41,
+    "notes": "Major highway Class II, 104' R/W - 80' roadway (with 114' R/W - 90' roadway flare at intersection). See Sheet 1 for notes.\nDrawing shows standard flare section with 150' flare length and CR = 25' curb returns, 60' or 80' reversal, 30' min. to a critical driveway, taper and 100' to 120' transition, raised median with 4\" yellow lines (see Note 6), and stopping prohibition."
+   }
+  ]
+ }
+]

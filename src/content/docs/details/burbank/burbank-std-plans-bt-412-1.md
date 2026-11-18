@@ -1,6 +1,6 @@
 ---
 title: "BT-412-1 Sign Post"
-description: "Burbank Std. Plans standard drawing BT-412-1: Sign Post. 1 sheet(s), dated 11-14-19."
+description: "Burbank Std. Plans standard drawing BT-412-1: Sign Post. Shows the standard 2'x2' 12 gage square sign post set in a galvanized anchor sleeve."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-411-1/">&larr; BT-411-1</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-413-1/">BT-413-1 &rarr;</a></div>
 
-
+<p class="dwg-sum">Shows the standard 2"x2" 12 gage square sign post set in a galvanized anchor sleeve. The sign is secured with drive rivets, the post is 7' minimum, and the detail shows 36" minimum from the existing edge of sidewalk. Regulatory and warning signs must be at least 0.063 inch with 3M high intensity prismatic sheeting (Series #3930) and overlay film (Series #1160).</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a></p>
 
 
 
@@ -18,7 +19,14 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 16)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0016.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0016.webp" alt="BT-412-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-412-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p16">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>6” MIN. 7’ MINIMUM 2”X2” SQUARE POST (12 GAGE) %° HOLES. INSERT SIGN POST AND FASTEN WITH RIVETS 36” MIN. \- EX. EDGE OF SIDEWALK + Ae) Po ae &lt;4. SECURE SIGN WITH DRIVE RIVET EX. CONCRETE CURB AND GUTTER ah ASPHALT PAVING GALVANIZED ANCH ¥ Vv oy X 2%” SQUARE HEAVY DUTY OR SLEEVE (TELESPAR OR EQUAL) (NOT TO SCALE) ALL REGULATORY AND WARNING SIGNS SHALL BE MINIMUM 0.063 INCH WITH 3M HIGH INTENSITY PRISMATIC SHEETING (SERIES #3930) WITH 3M PREMIUM PROTECTIVE OVERLAY FILM (SERIES #1160). CITY OF BURBANK PUBLIC WORKS DEPARTMENT REVIEW NITIAL DATE Aan |iilfi4 SIGN POST APPROVED BY: dab due PUBIC WORKS DIRECTOR Ajit) DATE STANDARD PLAN Bl-412--1 SHEET 1 OF 1 VU </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>SIGN POST (not to scale)</p>
+<p>2&quot;x2&quot; square post (12 gage), 7&#x27; minimum.</p>
+<p>1/4&quot; holes. Insert sign post and fasten with rivets.</p>
+<p>Secure sign with drive rivet.</p>
+<p>6&quot; min. 36&quot; min. from existing edge of sidewalk.</p>
+<p>Existing concrete curb and gutter, asphalt paving.</p>
+<p>Galvanized 2 1/2&quot; x 2 1/2&quot; square heavy duty anchor sleeve (Telespar or equal).</p>
+<p>All regulatory and warning signs shall be minimum 0.063 inch with 3M high intensity prismatic sheeting (Series #3930) with 3M premium protective overlay film (Series #1160).</p></details>
 
 
-<div class="kw">Keywords: post, sign, minimum, square, series, works, date, gage, holes, insert, fasten, rivets, edge, sidewalk</div>
+<div class="kw">Keywords: sign post, square tube post, telespar, 12 gage post, anchor sleeve, sign installation, drive rivet, sign sheeting, 3M 3930, 0.063 inch sign, regulatory sign, warning sign, sign mounting height, sign setback, breakaway post</div>

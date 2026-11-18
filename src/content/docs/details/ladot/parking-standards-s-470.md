@@ -1,6 +1,6 @@
 ---
-title: "S-470 ARTERIAL STREETS"
-description: "Parking Standards standard drawing S-470: ARTERIAL STREETS. 8 sheet(s)."
+title: "S-470 Arterial Streets (Standard Street Dimensions)"
+description: "Parking Standards standard drawing S-470: Arterial Streets (Standard Street Dimensions). City of Los Angeles Standard Plan S-470-1 gives standard street dimensions in four sheets."
 tableOfContents: false
 ---
 
@@ -9,6 +9,7 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/parking-standards-s-405-0/">&larr; S-405.0</a> <a href="/SoCal-Super-Standards/details/?src=Parking Standards">All Parking Standards drawings</a> <a href="/SoCal-Super-Standards/details/ladot/parking-standards-s-502-0/">S-502.0 &rarr;</a></div>
 
+<p class="dwg-sum">City of Los Angeles Standard Plan S-470-1 gives standard street dimensions in four sheets. It lists right-of-way, sidewalk and roadway widths for arterial streets (Boulevard I and II, Avenue I, II and III), non-arterial streets (collector, industrial and local), and hillside streets. It also shows shared streets, pedestrian walkways, service roads, cul-de-sacs, flare sections, alleys and cut corners, with general notes on dedications and corner cut requirements. The same four sheets appear twice in the source document.</p>
 
 
 
@@ -18,42 +19,142 @@ tableOfContents: false
 ### Sheet 1 of 8 (document page 78)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/parking/p0078.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/parking/p0078.webp" alt="S-470 sheet 1"></a><figcaption>Parking Standards S-470, sheet 1. <a href="/SoCal-Super-Standards/ladot/parking/04-pages-61-80/#p78">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet</summary><p>ARTERIAL STREETS 136' - 18' 100' ~ 50' 50' I Cl. I I I BOULEVARD I (MAJOR HIGHWAY CLASS I) 110' 15' 80' 40' I 40' I Cl. I I BOULEVARD II (MAJOR HIGHWAY CLASS II) 100' 15' 70' - 35' 35' I Cl. I I I AVENUE I (SECONDARY HIGHWAY) 86' 15' 56' 28' 28' - - I Cl. I I AVENUE II (SECONDARY HIGHWAY) 72' 13' 46' 13' 23' 23' I Cl. I I I AVENUE Ill (SECONDARY HIGHWAY) BUREAU OF ENGINEERING DEPARTMENT OF PUBLIC WORKS PREPARED KITTY SIU, P.E. BUREAU OF ENGINEERING CHECKED RAFFI MASSABKI, P.E. BUREAU OF ENGINEERING STANDARD STREET DIMENSIONS SUBMITTED /0 13 SAMARA ALI-AH AD, P.E. ENGINEER OF ESIGN BUREAU OF El"IGINEERING APPROVED ·~~~~ /0-Zo--t 5 DATE I0·2.. · \S D RTMENT OF T DATE ~~ ~ fl JLJ4 I /1 - GE ERAL MANAGER ::::REDD,PE (o~!TE I, ;?Zt.:t, ~-:ii_~ f~·l/·f5 DEPUTY CITY ENGINEER DIRECTOiOf PLANNIN(;&lt;== DATE - 15' 15' 18' - 15' CITY OF LOS ANGELES STANDARD PLAN S-470-1 SUPERSEDES D-22549 S-470-0 REFERENCES VAULT INDEX NUMBER: SHEET 1 OF 4 SHEETS B-4738 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Arterial streets</p>
+<p>Right-of-way width / sidewalk (each side) / roadway width / half-roadway (each side of centerline):</p>
+<p>Boulevard I (Major Highway Class I): 136&#x27; right-of-way, 18&#x27; sidewalks, 100&#x27; roadway, 50&#x27; each side of centerline.</p>
+<p>Boulevard II (Major Highway Class II): 110&#x27; right-of-way, 15&#x27; sidewalks, 80&#x27; roadway, 40&#x27; each side of centerline.</p>
+<p>Avenue I (Secondary Highway): 100&#x27; right-of-way, 15&#x27; sidewalks, 70&#x27; roadway, 35&#x27; each side of centerline.</p>
+<p>Avenue II (Secondary Highway): 86&#x27; right-of-way, 15&#x27; sidewalks, 56&#x27; roadway, 28&#x27; each side of centerline.</p>
+<p>Avenue III (Secondary Highway): 72&#x27; right-of-way, 13&#x27; sidewalks, 46&#x27; roadway, 23&#x27; each side of centerline.</p>
+<p>Standard Street Dimensions. City of Los Angeles Standard Plan S-470-1, sheet 1 of 4. Supersedes D-22549 and S-470-0. Vault index number B-4738.</p></details>
 
 ### Sheet 2 of 8 (document page 79)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/parking/p0079.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/parking/p0079.webp" alt="S-470 sheet 2"></a><figcaption>Parking Standards S-470, sheet 2. <a href="/SoCal-Super-Standards/ladot/parking/04-pages-61-80/#p79">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet</summary><p>NON-ARTERIAL STREETS It 66' 13' 40' 13' 20' 20' I Ii.. I - I COLLECTOR STREET It 68' It 10' 48' 10' - - - - 24' 24' I Ii.. I I INDUSTRIAL COLLECTOR STREET It 64' 10' 44' 10' 22' 22' I - Ii.. I I INDUSTRIAL LOCAL STREET It It 60' 12' 36' 12' 18' 18' I Ii.. I - I - LOCAL STREET-STANDARD 50' 10' 30' 10' 15' 15' I Ii.. I I LOCAL STREET - LIMITED STANDARD PLAN NO. S-470-1 It 5' ~. HILLSIDE STREETS 50' 40' 20' 20' 5' 3' BERM ON PRIVATE PROPERTY ·7 ~ 2% I - Ii.. MAX MAX - 2% --- J I I I i-1' MIN • HILLSIDE COLLECTOR It 44' ~. 4' 36' 4' ·7 18' ~ 2% I - Ii.. 18' 2% MAX MAX _3·_· -i l""'j~. 2' MIN. - I- ".'-r j I I I -1'MIN. HILLSIDE LOCAL 36' 4' 28' 4' ~. ·7 ~~~ 14' I Ii.. 14' 2% MAX MAX J-1~MIN . I -~ .. , 3' ~j 2'MIN. - ~~ I HILLSIDE LIMITED STANDARD 10' MIN. VAR. 5' MIN. VAR. PUBLIC STAIRWAY CONSTRUCTED IN ACCORDANCE WITH BUREAU OF ENGINEERING STANDARD PLANS VAULT INDEX NUMBER SHEET 2 OF 4 SHEETS B-4738 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Non-arterial streets</p>
+<p>Right-of-way width / sidewalk (each side) / roadway width / half-roadway (each side of centerline):</p>
+<p>Collector Street: 66&#x27; right-of-way, 13&#x27; sidewalks, 40&#x27; roadway, 20&#x27; each side.</p>
+<p>Industrial Collector Street: 68&#x27; right-of-way, 10&#x27; sidewalks, 48&#x27; roadway, 24&#x27; each side.</p>
+<p>Industrial Local Street: 64&#x27; right-of-way, 10&#x27; sidewalks, 44&#x27; roadway, 22&#x27; each side.</p>
+<p>Local Street - Standard: 60&#x27; right-of-way, 12&#x27; sidewalks, 36&#x27; roadway, 18&#x27; each side.</p>
+<p>Local Street - Limited Standard: 50&#x27; right-of-way, 10&#x27; sidewalks, 30&#x27; roadway, 15&#x27; each side.</p>
+<p>Hillside streets</p>
+<p>Hillside Collector: 50&#x27; right-of-way, 5&#x27; sidewalks, 40&#x27; roadway, 20&#x27; each side. Berm on private property, 3&#x27; dimension, 2% maximum cross slope, 1&#x27; minimum.</p>
+<p>Hillside Local: 44&#x27; right-of-way, 4&#x27; sidewalks, 36&#x27; roadway, 18&#x27; each side. 2% maximum cross slope, 2&#x27; minimum and 1&#x27; minimum dimensions shown.</p>
+<p>Hillside Limited Standard: 36&#x27; right-of-way, 4&#x27; sidewalks, 28&#x27; roadway, 14&#x27; each side. 2% maximum cross slope, 2&#x27; minimum and 1&#x27; minimum dimensions shown.</p>
+<p>Public stairway: 10&#x27; minimum, variable, 5&#x27; minimum, variable. Constructed in accordance with Bureau of Engineering Standard Plans.</p>
+<p>Standard Plan No. S-470-1, sheet 2 of 4. Vault index number B-4738.</p></details>
 
 ### Sheet 3 of 8 (document page 80)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/parking/p0080.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/parking/p0080.webp" alt="S-470 sheet 3"></a><figcaption>Parking Standards S-470, sheet 3. <a href="/SoCal-Super-Standards/ladot/parking/04-pages-61-80/#p80">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet</summary><p>OTHER PUBLIC RIGHTS-OF-WAY w .....J en &lt;( Cl'.'. &lt;( &gt; 17' MIN. LJ SHARED STREET 10' MIN VAR. 5'MIN LJ PEDESTRIAN WALKWAY 26' OR 32' (W/ PARKING ON ONE SIDE) 10' 12' OR 4' 18' (W/ PARKING ON ONE SIDE) - - - ARTERIAL STREET ONE-WAY SERVICE ROAD 34' OR 42' (WI PARKING ON ONE SIDE) 10' 20'0R 4' 28' (W/ PARKING ON ONE SIDE) I r- ARTERIAL STREET Bl-DIRECTIONAL SERVICE ROAD w .....J en &lt;( Cl'.'. &lt;( &gt; CUL-DE-SAC VARIABLE R=50' R=50' MAY BE UNSYMMETRICAL (PLAN VIEW) /VARIABLE NOTE: FOR FIRE TRUCK CLEARANCE, NO OBSTRUCTION TALLER THAN 6" SHALL BE PERMITTED WITHIN 3FT. OF THE CURB. ON-STREET PARKING SHALL BE PROHIBITED. STANDARD PLAN NO. S-470-1 TRANSITIONAL EXTENSIONS P.I. OF PL x R=25' P.I. OF PL 30X 150' t 20' STANDARD FLARE SECTION (PLAN VIEW) ALLEYS 20' 1 · · 1 60' L~----- STANDARD TURNING AREA (PLAN VIEW) 25' 20' .1 MINIMUM TURNING AREA (PLAN VIEW) D 20' 'L I · 1 ~ ~~~ _J f ~~ --"-----~· 20' L Ii ~-110·1~~. 7~ -t . 7. T ~, ~ STANDARD CUT CORNERS FOR 90° INTERSECTION (PLAN VIEW) i----- -20• _____ __, STANDARD CROSS-SECTION (PLAN VIEW) 20' 30' I REDWOOD HEADER OR JOIN EX CONCRETE AT~ VAULT INDEX NUMBER SHEET 3 OF 4 SHEETS B-4738 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Other public rights-of-way</p>
+<p>Shared Street: 17&#x27; minimum between property lines.</p>
+<p>Pedestrian Walkway: 10&#x27; minimum between property lines, with a variable dimension on one side and 5&#x27; minimum on the other.</p>
+<p>One-Way Service Road: 26&#x27; total, or 32&#x27; with parking on one side. Dimensions shown are 10&#x27;, 12&#x27; (or 18&#x27; with parking on one side) and 4&#x27;. Adjacent to an arterial street.</p>
+<p>Bi-Directional Service Road: 34&#x27; total, or 42&#x27; with parking on one side. Dimensions shown are 10&#x27;, 20&#x27; (or 28&#x27; with parking on one side) and 4&#x27;. Adjacent to an arterial street.</p>
+<p>Cul-de-sac (plan view)</p>
+<p>Variable roadway width, R=50&#x27; curb returns, R=35&#x27; minimum, 10&#x27; walk. May be unsymmetrical.</p>
+<p>Note: For fire truck clearance, no obstruction taller than 6&quot; shall be permitted within 3 ft of the curb. On-street parking shall be prohibited.</p>
+<p>Transitional extensions</p>
+<p>Standard Flare Section (plan view): R=25&#x27; curves at the property line points of intersection, a taper length of 30X (X is the offset), then 150&#x27; to the property line.</p>
+<p>Alleys</p>
+<p>Standard Turning Area (plan view): 20&#x27; wide alley, 60&#x27; long cross alley, R=20&#x27; returns, 20&#x27; dimension.</p>
+<p>Minimum Turning Area (plan view): 20&#x27; alley, 25&#x27;, 20&#x27;, 30&#x27; dimensions, R=20&#x27; returns.</p>
+<p>Standard Cut Corners for 90 degree Intersection (plan view): 10&#x27; x 10&#x27; cut corners (14.14&#x27; diagonal), 20&#x27; alley width.</p>
+<p>Standard Cross-Section (plan view): 20&#x27; between property lines, redwood header or join existing concrete at property line.</p>
+<p>Standard Plan No. S-470-1, sheet 3 of 4. Vault index number B-4738.</p></details>
 
 ### Sheet 4 of 8 (document page 81)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/parking/p0081.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/parking/p0081.webp" alt="S-470 sheet 4"></a><figcaption>Parking Standards S-470, sheet 4. <a href="/SoCal-Super-Standards/ladot/parking/05-pages-81-100/#p81">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet</summary><p>NOTES 1. CITY COUNCIL MAY, BY ORDINANCE, ADOPT SPECIFIC STANDARDS FOR INDIVIDUAL STREETS THAT DIFFER FROM THESE OFFICIAL STANDARD STREET DIMENSIONS. COMMUNITY PLANS AND SPECIFIC PLANS SHOULD BE REVIEWED FOR FOOTNOTES, INSTRUCTIONS AND/OR MODIFIED STREET DIMENSIONS THAT WOULD REQUIRE STANDARDS DIFFERENT THAN THOSE INDICATED ON THIS STANDARD PLAN. 2. FOR ADDITIONAL GUIDANCE AS TO THE USE OF THE ROADWAY AND SIDEWALK AREA, PLEASE REFER TO THE COMPLETE STREET DESIGN GUIDE AND MANUALS. 3. FOR DISCRETIONARY PROJECTS REQUIRING ACTION FROM THE DEPARTMENT OF CITY PLANNING (PLANNING), PLANNING MAY INCLUDE SPECIFIC INFORMATION AS TO THE DESIGN AND UTILIZATION OF THE SIDEWALK AREA. 4. WHERE A DESIGNATED ARTERIAL CROSSES ANOTHER DESIGNATED ARTERIAL STREET AND THEN CHANGES IN DESIGNATION TO A STREET OF LESSER STANDARD WIDTH, THE ARTERIAL SHALL BE TAPERED IN A STANDARD FLARE SECTION ON BOTH SIDES, AS ON SHEET 3, TO MEET THE WIDTH OF LESSER DESIGNATION AND PROVIDE AN ORDERLY TRANSITION. 5. PRIVATE STREET DEVELOPMENT SHOULD CONFORM TO THE STANDARD PUBLIC STREET DIMENSIONS SHOWN ON THE SHEET, WHERE APPROPRIATE. VARIATIONS MAY BE APPROVED ON A CASE-BY-CASE BASIS BY THE CITY. 6. FIFTY-FOOT CURB RADII (INSTEAD OF THE STANDARD 35' CURB RADII) SHALL BE PROVIDED FOR CUL-DE-SACS IN INDUSTRIAL AREAS. SEE CUL-DE-SAC ILLUSTRATION FOR FURTHER DESIGN STANDARDS. 7. ALLEYS SHALL BE A MINIMUM OF 20' IN WIDTH AND INTERSECTIONS AND/OR DEAD-END TERMINUSES SHALL BE DESIGNED TO CONFORM TO THE ALLEY ILLUSTRATIONS INCLUDED HEREIN. 8. FOR INTERSECTIONS OF STREETS, THE FOLLOWING DEDICATIONS SHALL APPLY; A. INTERSECTIONS OF ARTERIAL STREETS WITH ANY OTHER STREET: 15' X 15' CUT CORNER OR 20' CURVED CORNER RADIUS. B. INTERSECTIONS ON NON-ARTERIAL AND/OR HILLSIDE STREETS: 10' X 10' CUT CORNER OR 15' CURVED CORNER RADIUS. 9. STREETS THAT ARE ACCOMPANIED BY A PARALLEL FRONTAGE AND/OR SERVICE ROAD ARE DEEMED TO MEET THE STREET STANDARDS SET FORTH HEREIN AND THE DEDICATION REQUIREMENT SHALL BE NO MORE THAN IS NECESSARY TO BRING THE ABUTTING SIDEWALK DIMENSION INTO COMPLIANCE WITH THE STREET STANDARD. 10. DUE TO THEIR UNIQUE CHARACTER AND DIMENSIONS ALL STREETS DESIGNATED AS DIVIDED ARE CONSIDERED TO HAVE MET THEIR STREET STANDARD AND THE DEDICATION SHALL BE NO MORE THAN IS NECESSARY TO BRING THE ABUTTING SIDEWALK DIMENSION COMPLIANT WITH THE STREET STANDARD. 11. THE DIMENSION OF ANY MEDIAN, DIVIDED STRIP AND/OR TRANSIT WAY SHALL BE INCLUDED WHEN DETERMINING THE RIGHT-OF-WAY DIMENSION. 12. THE LOCATION OF THE DRAINAGE GUTTER IS NOT RESTRICTED TO THE CENTER OF THE SHARED STREET AND CAN BE PLACED WHERE NECESSARY AS APPROVED BY THE CITY. 13. A SHARED STREET SHALL PROVIDE A DEDICATED PEDESTRIAN ACCESS ROUTE. STANDARD PLAN NO. S-470-1 VAULT INDEX NUMBER SHEET 4 OF 4 SHEETS B-4738 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Notes</p>
+<p>1. City Council may, by ordinance, adopt specific standards for individual streets that differ from these official standard street dimensions. Community plans and specific plans should be reviewed for footnotes, instructions and/or modified street dimensions that would require standards different than those indicated on this standard plan.</p>
+<p>2. For additional guidance as to the use of the roadway and sidewalk area, please refer to the Complete Street Design Guide and manuals.</p>
+<p>3. For discretionary projects requiring action from the Department of City Planning (Planning), Planning may include specific information as to the design and utilization of the sidewalk area.</p>
+<p>4. Where a designated arterial crosses another designated arterial street and then changes in designation to a street of lesser standard width, the arterial shall be tapered in a standard flare section on both sides, as on sheet 3, to meet the width of lesser designation and provide an orderly transition.</p>
+<p>5. Private street development should conform to the standard public street dimensions shown on the sheet, where appropriate. Variations may be approved on a case-by-case basis by the City.</p>
+<p>6. Fifty-foot curb radii (instead of the standard 35&#x27; curb radii) shall be provided for cul-de-sacs in industrial areas. See cul-de-sac illustration for further design standards.</p>
+<p>7. Alleys shall be a minimum of 20&#x27; in width and intersections and/or dead-end terminuses shall be designed to conform to the alley illustrations included herein.</p>
+<p>8. For intersections of streets, the following dedications shall apply:</p>
+<p>A. Intersections of arterial streets with any other street: 15&#x27; x 15&#x27; cut corner or 20&#x27; curved corner radius.</p>
+<p>B. Intersections on non-arterial and/or hillside streets: 10&#x27; x 10&#x27; cut corner or 15&#x27; curved corner radius.</p>
+<p>9. Streets that are accompanied by a parallel frontage and/or service road are deemed to meet the street standards set forth herein and the dedication requirement shall be no more than is necessary to bring the abutting sidewalk dimension into compliance with the street standard.</p>
+<p>10. Due to their unique character and dimensions all streets designated as divided are considered to have met their street standard and the dedication shall be no more than is necessary to bring the abutting sidewalk dimension compliant with the street standard.</p>
+<p>11. The dimension of any median, divided strip and/or transit way shall be included when determining the right-of-way dimension.</p>
+<p>12. The location of the drainage gutter is not restricted to the center of the shared street and can be placed where necessary as approved by the City.</p>
+<p>13. A shared street shall provide a dedicated pedestrian access route.</p>
+<p>Standard Plan No. S-470-1, sheet 4 of 4. Vault index number B-4738.</p></details>
 
 ### Sheet 5 of 8 (document page 130)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/parking/p0130.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/parking/p0130.webp" alt="S-470 sheet 5"></a><figcaption>Parking Standards S-470, sheet 5. <a href="/SoCal-Super-Standards/ladot/parking/07-pages-121-140/#p130">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet</summary><p>ARTERIAL STREETS 136' - 18' 100' ~ 50' 50' I Cl. I I I BOULEVARD I (MAJOR HIGHWAY CLASS I) 110' 15' 80' 40' I 40' I Cl. I I BOULEVARD II (MAJOR HIGHWAY CLASS II) 100' 15' 70' - 35' 35' I Cl. I I I AVENUE I (SECONDARY HIGHWAY) 86' 15' 56' 28' 28' - - I Cl. I I AVENUE II (SECONDARY HIGHWAY) 72' 13' 46' 13' 23' 23' I Cl. I I I AVENUE Ill (SECONDARY HIGHWAY) BUREAU OF ENGINEERING DEPARTMENT OF PUBLIC WORKS PREPARED KITTY SIU, P.E. BUREAU OF ENGINEERING CHECKED RAFFI MASSABKI, P.E. BUREAU OF ENGINEERING STANDARD STREET DIMENSIONS SUBMITTED /0 13 SAMARA ALI-AH AD, P.E. ENGINEER OF ESIGN BUREAU OF El"IGINEERING APPROVED ·~~~~ /0-Zo--t 5 DATE I0·2.. · \S D RTMENT OF T DATE ~~ ~ fl JLJ4 I /1 - GE ERAL MANAGER ::::REDD,PE (o~!TE I, ;?Zt.:t, ~-:ii_~ f~·l/·f5 DEPUTY CITY ENGINEER DIRECTOiOf PLANNIN(;&lt;== DATE - 15' 15' 18' - 15' CITY OF LOS ANGELES STANDARD PLAN S-470-1 SUPERSEDES D-22549 S-470-0 REFERENCES VAULT INDEX NUMBER: SHEET 1 OF 4 SHEETS B-4738 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Arterial streets</p>
+<p>Right-of-way width / sidewalk (each side) / roadway width / half-roadway (each side of centerline):</p>
+<p>Boulevard I (Major Highway Class I): 136&#x27; right-of-way, 18&#x27; sidewalks, 100&#x27; roadway, 50&#x27; each side of centerline.</p>
+<p>Boulevard II (Major Highway Class II): 110&#x27; right-of-way, 15&#x27; sidewalks, 80&#x27; roadway, 40&#x27; each side of centerline.</p>
+<p>Avenue I (Secondary Highway): 100&#x27; right-of-way, 15&#x27; sidewalks, 70&#x27; roadway, 35&#x27; each side of centerline.</p>
+<p>Avenue II (Secondary Highway): 86&#x27; right-of-way, 15&#x27; sidewalks, 56&#x27; roadway, 28&#x27; each side of centerline.</p>
+<p>Avenue III (Secondary Highway): 72&#x27; right-of-way, 13&#x27; sidewalks, 46&#x27; roadway, 23&#x27; each side of centerline.</p>
+<p>Standard Street Dimensions. City of Los Angeles Standard Plan S-470-1, sheet 1 of 4. Supersedes D-22549 and S-470-0. Vault index number B-4738.</p></details>
 
 ### Sheet 6 of 8 (document page 131)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/parking/p0131.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/parking/p0131.webp" alt="S-470 sheet 6"></a><figcaption>Parking Standards S-470, sheet 6. <a href="/SoCal-Super-Standards/ladot/parking/07-pages-121-140/#p131">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet</summary><p>NON-ARTERIAL STREETS It 66' 13' 40' 13' 20' 20' I Ii.. I - I COLLECTOR STREET It 68' It 10' 48' 10' - - - - 24' 24' I Ii.. I I INDUSTRIAL COLLECTOR STREET It 64' 10' 44' 10' 22' 22' I - Ii.. I I INDUSTRIAL LOCAL STREET It It 60' 12' 36' 12' 18' 18' I Ii.. I - I - LOCAL STREET-STANDARD 50' 10' 30' 10' 15' 15' I Ii.. I I LOCAL STREET - LIMITED STANDARD PLAN NO. S-470-1 It 5' ~. HILLSIDE STREETS 50' 40' 20' 20' 5' 3' BERM ON PRIVATE PROPERTY ·7 ~ 2% I - Ii.. MAX MAX - 2% --- J I I I i-1' MIN • HILLSIDE COLLECTOR It 44' ~. 4' 36' 4' ·7 18' ~ 2% I - Ii.. 18' 2% MAX MAX _3·_· -i l""'j~. 2' MIN. - I- ".'-r j I I I -1'MIN. HILLSIDE LOCAL 36' 4' 28' 4' ~. ·7 ~~~ 14' I Ii.. 14' 2% MAX MAX J-1~MIN . I -~ .. , 3' ~j 2'MIN. - ~~ I HILLSIDE LIMITED STANDARD 10' MIN. VAR. 5' MIN. VAR. PUBLIC STAIRWAY CONSTRUCTED IN ACCORDANCE WITH BUREAU OF ENGINEERING STANDARD PLANS VAULT INDEX NUMBER SHEET 2 OF 4 SHEETS B-4738 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Non-arterial streets</p>
+<p>Right-of-way width / sidewalk (each side) / roadway width / half-roadway (each side of centerline):</p>
+<p>Collector Street: 66&#x27; right-of-way, 13&#x27; sidewalks, 40&#x27; roadway, 20&#x27; each side.</p>
+<p>Industrial Collector Street: 68&#x27; right-of-way, 10&#x27; sidewalks, 48&#x27; roadway, 24&#x27; each side.</p>
+<p>Industrial Local Street: 64&#x27; right-of-way, 10&#x27; sidewalks, 44&#x27; roadway, 22&#x27; each side.</p>
+<p>Local Street - Standard: 60&#x27; right-of-way, 12&#x27; sidewalks, 36&#x27; roadway, 18&#x27; each side.</p>
+<p>Local Street - Limited Standard: 50&#x27; right-of-way, 10&#x27; sidewalks, 30&#x27; roadway, 15&#x27; each side.</p>
+<p>Hillside streets</p>
+<p>Hillside Collector: 50&#x27; right-of-way, 5&#x27; sidewalks, 40&#x27; roadway, 20&#x27; each side. Berm on private property, 3&#x27; dimension, 2% maximum cross slope, 1&#x27; minimum.</p>
+<p>Hillside Local: 44&#x27; right-of-way, 4&#x27; sidewalks, 36&#x27; roadway, 18&#x27; each side. 2% maximum cross slope, 2&#x27; minimum and 1&#x27; minimum dimensions shown.</p>
+<p>Hillside Limited Standard: 36&#x27; right-of-way, 4&#x27; sidewalks, 28&#x27; roadway, 14&#x27; each side. 2% maximum cross slope, 2&#x27; minimum and 1&#x27; minimum dimensions shown.</p>
+<p>Public stairway: 10&#x27; minimum, variable, 5&#x27; minimum, variable. Constructed in accordance with Bureau of Engineering Standard Plans.</p>
+<p>Standard Plan No. S-470-1, sheet 2 of 4. Vault index number B-4738.</p></details>
 
 ### Sheet 7 of 8 (document page 132)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/parking/p0132.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/parking/p0132.webp" alt="S-470 sheet 7"></a><figcaption>Parking Standards S-470, sheet 7. <a href="/SoCal-Super-Standards/ladot/parking/07-pages-121-140/#p132">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet</summary><p>OTHER PUBLIC RIGHTS-OF-WAY w .....J en &lt;( Cl'.'. &lt;( &gt; 17' MIN. LJ SHARED STREET 10' MIN VAR. 5'MIN LJ PEDESTRIAN WALKWAY 26' OR 32' (W/ PARKING ON ONE SIDE) 10' 12' OR 4' 18' (W/ PARKING ON ONE SIDE) - - - ARTERIAL STREET ONE-WAY SERVICE ROAD 34' OR 42' (WI PARKING ON ONE SIDE) 10' 20'0R 4' 28' (W/ PARKING ON ONE SIDE) I r- ARTERIAL STREET Bl-DIRECTIONAL SERVICE ROAD w .....J en &lt;( Cl'.'. &lt;( &gt; CUL-DE-SAC VARIABLE R=50' R=50' MAY BE UNSYMMETRICAL (PLAN VIEW) /VARIABLE NOTE: FOR FIRE TRUCK CLEARANCE, NO OBSTRUCTION TALLER THAN 6" SHALL BE PERMITTED WITHIN 3FT. OF THE CURB. ON-STREET PARKING SHALL BE PROHIBITED. STANDARD PLAN NO. S-470-1 TRANSITIONAL EXTENSIONS P.I. OF PL x R=25' P.I. OF PL 30X 150' t 20' STANDARD FLARE SECTION (PLAN VIEW) ALLEYS 20' 1 · · 1 60' L~----- STANDARD TURNING AREA (PLAN VIEW) 25' 20' .1 MINIMUM TURNING AREA (PLAN VIEW) D 20' 'L I · 1 ~ ~~~ _J f ~~ --"-----~· 20' L Ii ~-110·1~~. 7~ -t . 7. T ~, ~ STANDARD CUT CORNERS FOR 90° INTERSECTION (PLAN VIEW) i----- -20• _____ __, STANDARD CROSS-SECTION (PLAN VIEW) 20' 30' I REDWOOD HEADER OR JOIN EX CONCRETE AT~ VAULT INDEX NUMBER SHEET 3 OF 4 SHEETS B-4738 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Other public rights-of-way</p>
+<p>Shared Street: 17&#x27; minimum between property lines.</p>
+<p>Pedestrian Walkway: 10&#x27; minimum between property lines, with a variable dimension on one side and 5&#x27; minimum on the other.</p>
+<p>One-Way Service Road: 26&#x27; total, or 32&#x27; with parking on one side. Dimensions shown are 10&#x27;, 12&#x27; (or 18&#x27; with parking on one side) and 4&#x27;. Adjacent to an arterial street.</p>
+<p>Bi-Directional Service Road: 34&#x27; total, or 42&#x27; with parking on one side. Dimensions shown are 10&#x27;, 20&#x27; (or 28&#x27; with parking on one side) and 4&#x27;. Adjacent to an arterial street.</p>
+<p>Cul-de-sac (plan view)</p>
+<p>Variable roadway width, R=50&#x27; curb returns, R=35&#x27; minimum, 10&#x27; walk. May be unsymmetrical.</p>
+<p>Note: For fire truck clearance, no obstruction taller than 6&quot; shall be permitted within 3 ft of the curb. On-street parking shall be prohibited.</p>
+<p>Transitional extensions</p>
+<p>Standard Flare Section (plan view): R=25&#x27; curves at the property line points of intersection, a taper length of 30X (X is the offset), then 150&#x27; to the property line.</p>
+<p>Alleys</p>
+<p>Standard Turning Area (plan view): 20&#x27; wide alley, 60&#x27; long cross alley, R=20&#x27; returns, 20&#x27; dimension.</p>
+<p>Minimum Turning Area (plan view): 20&#x27; alley, 25&#x27;, 20&#x27;, 30&#x27; dimensions, R=20&#x27; returns.</p>
+<p>Standard Cut Corners for 90 degree Intersection (plan view): 10&#x27; x 10&#x27; cut corners (14.14&#x27; diagonal), 20&#x27; alley width.</p>
+<p>Standard Cross-Section (plan view): 20&#x27; between property lines, redwood header or join existing concrete at property line.</p>
+<p>Standard Plan No. S-470-1, sheet 3 of 4. Vault index number B-4738.</p></details>
 
 ### Sheet 8 of 8 (document page 133)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/parking/p0133.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/parking/p0133.webp" alt="S-470 sheet 8"></a><figcaption>Parking Standards S-470, sheet 8. <a href="/SoCal-Super-Standards/ladot/parking/07-pages-121-140/#p133">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet</summary><p>NOTES 1. CITY COUNCIL MAY, BY ORDINANCE, ADOPT SPECIFIC STANDARDS FOR INDIVIDUAL STREETS THAT DIFFER FROM THESE OFFICIAL STANDARD STREET DIMENSIONS. COMMUNITY PLANS AND SPECIFIC PLANS SHOULD BE REVIEWED FOR FOOTNOTES, INSTRUCTIONS AND/OR MODIFIED STREET DIMENSIONS THAT WOULD REQUIRE STANDARDS DIFFERENT THAN THOSE INDICATED ON THIS STANDARD PLAN. 2. FOR ADDITIONAL GUIDANCE AS TO THE USE OF THE ROADWAY AND SIDEWALK AREA, PLEASE REFER TO THE COMPLETE STREET DESIGN GUIDE AND MANUALS. 3. FOR DISCRETIONARY PROJECTS REQUIRING ACTION FROM THE DEPARTMENT OF CITY PLANNING (PLANNING), PLANNING MAY INCLUDE SPECIFIC INFORMATION AS TO THE DESIGN AND UTILIZATION OF THE SIDEWALK AREA. 4. WHERE A DESIGNATED ARTERIAL CROSSES ANOTHER DESIGNATED ARTERIAL STREET AND THEN CHANGES IN DESIGNATION TO A STREET OF LESSER STANDARD WIDTH, THE ARTERIAL SHALL BE TAPERED IN A STANDARD FLARE SECTION ON BOTH SIDES, AS ON SHEET 3, TO MEET THE WIDTH OF LESSER DESIGNATION AND PROVIDE AN ORDERLY TRANSITION. 5. PRIVATE STREET DEVELOPMENT SHOULD CONFORM TO THE STANDARD PUBLIC STREET DIMENSIONS SHOWN ON THE SHEET, WHERE APPROPRIATE. VARIATIONS MAY BE APPROVED ON A CASE-BY-CASE BASIS BY THE CITY. 6. FIFTY-FOOT CURB RADII (INSTEAD OF THE STANDARD 35' CURB RADII) SHALL BE PROVIDED FOR CUL-DE-SACS IN INDUSTRIAL AREAS. SEE CUL-DE-SAC ILLUSTRATION FOR FURTHER DESIGN STANDARDS. 7. ALLEYS SHALL BE A MINIMUM OF 20' IN WIDTH AND INTERSECTIONS AND/OR DEAD-END TERMINUSES SHALL BE DESIGNED TO CONFORM TO THE ALLEY ILLUSTRATIONS INCLUDED HEREIN. 8. FOR INTERSECTIONS OF STREETS, THE FOLLOWING DEDICATIONS SHALL APPLY; A. INTERSECTIONS OF ARTERIAL STREETS WITH ANY OTHER STREET: 15' X 15' CUT CORNER OR 20' CURVED CORNER RADIUS. B. INTERSECTIONS ON NON-ARTERIAL AND/OR HILLSIDE STREETS: 10' X 10' CUT CORNER OR 15' CURVED CORNER RADIUS. 9. STREETS THAT ARE ACCOMPANIED BY A PARALLEL FRONTAGE AND/OR SERVICE ROAD ARE DEEMED TO MEET THE STREET STANDARDS SET FORTH HEREIN AND THE DEDICATION REQUIREMENT SHALL BE NO MORE THAN IS NECESSARY TO BRING THE ABUTTING SIDEWALK DIMENSION INTO COMPLIANCE WITH THE STREET STANDARD. 10. DUE TO THEIR UNIQUE CHARACTER AND DIMENSIONS ALL STREETS DESIGNATED AS DIVIDED ARE CONSIDERED TO HAVE MET THEIR STREET STANDARD AND THE DEDICATION SHALL BE NO MORE THAN IS NECESSARY TO BRING THE ABUTTING SIDEWALK DIMENSION COMPLIANT WITH THE STREET STANDARD. 11. THE DIMENSION OF ANY MEDIAN, DIVIDED STRIP AND/OR TRANSIT WAY SHALL BE INCLUDED WHEN DETERMINING THE RIGHT-OF-WAY DIMENSION. 12. THE LOCATION OF THE DRAINAGE GUTTER IS NOT RESTRICTED TO THE CENTER OF THE SHARED STREET AND CAN BE PLACED WHERE NECESSARY AS APPROVED BY THE CITY. 13. A SHARED STREET SHALL PROVIDE A DEDICATED PEDESTRIAN ACCESS ROUTE. STANDARD PLAN NO. S-470-1 VAULT INDEX NUMBER SHEET 4 OF 4 SHEETS B-4738 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Notes</p>
+<p>1. City Council may, by ordinance, adopt specific standards for individual streets that differ from these official standard street dimensions. Community plans and specific plans should be reviewed for footnotes, instructions and/or modified street dimensions that would require standards different than those indicated on this standard plan.</p>
+<p>2. For additional guidance as to the use of the roadway and sidewalk area, please refer to the Complete Street Design Guide and manuals.</p>
+<p>3. For discretionary projects requiring action from the Department of City Planning (Planning), Planning may include specific information as to the design and utilization of the sidewalk area.</p>
+<p>4. Where a designated arterial crosses another designated arterial street and then changes in designation to a street of lesser standard width, the arterial shall be tapered in a standard flare section on both sides, as on sheet 3, to meet the width of lesser designation and provide an orderly transition.</p>
+<p>5. Private street development should conform to the standard public street dimensions shown on the sheet, where appropriate. Variations may be approved on a case-by-case basis by the City.</p>
+<p>6. Fifty-foot curb radii (instead of the standard 35&#x27; curb radii) shall be provided for cul-de-sacs in industrial areas. See cul-de-sac illustration for further design standards.</p>
+<p>7. Alleys shall be a minimum of 20&#x27; in width and intersections and/or dead-end terminuses shall be designed to conform to the alley illustrations included herein.</p>
+<p>8. For intersections of streets, the following dedications shall apply:</p>
+<p>A. Intersections of arterial streets with any other street: 15&#x27; x 15&#x27; cut corner or 20&#x27; curved corner radius.</p>
+<p>B. Intersections on non-arterial and/or hillside streets: 10&#x27; x 10&#x27; cut corner or 15&#x27; curved corner radius.</p>
+<p>9. Streets that are accompanied by a parallel frontage and/or service road are deemed to meet the street standards set forth herein and the dedication requirement shall be no more than is necessary to bring the abutting sidewalk dimension into compliance with the street standard.</p>
+<p>10. Due to their unique character and dimensions all streets designated as divided are considered to have met their street standard and the dedication shall be no more than is necessary to bring the abutting sidewalk dimension compliant with the street standard.</p>
+<p>11. The dimension of any median, divided strip and/or transit way shall be included when determining the right-of-way dimension.</p>
+<p>12. The location of the drainage gutter is not restricted to the center of the shared street and can be placed where necessary as approved by the City.</p>
+<p>13. A shared street shall provide a dedicated pedestrian access route.</p>
+<p>Standard Plan No. S-470-1, sheet 4 of 4. Vault index number B-4738.</p></details>
 
 
-<div class="kw">Keywords: highway, bureau, avenue, secondary, engineering, date, boulevard, major, class, standard, engineer, city, arterial, streets, street, local, hillside, collector, industrial, limited, non-arterial, street-standard, plan, berm, private, property, view, parking, side, service</div>
+<div class="kw">Keywords: standard street dimensions, s-470, right-of-way width, street width, boulevard, avenue, major highway, secondary highway, collector street, local street, hillside street, cul-de-sac, alley width, service road, shared street, corner cut</div>

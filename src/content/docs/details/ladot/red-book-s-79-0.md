@@ -1,6 +1,6 @@
 ---
-title: "S-79.0 (S-79.0, S-79.8)"
-description: "Red Book standard drawing S-79.0: (S-79.0, S-79.8). 3 sheet(s)."
+title: "S-79.0 Over Head Service and Under Ground Service, Dept. of Water & Power, with Service Grounding"
+description: "Red Book standard drawing S-79.0: Over Head Service and Under Ground Service, Dept. of Water & Power, with Service Grounding. Details for connecting a traffic signal to a Dept."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-78-5-3/">&larr; S-78.5.3</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-92-2/">S-92.2 &rarr;</a></div>
 
-<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></p>
+<p class="dwg-sum">Details for connecting a traffic signal to a Dept. of Water and Power electrical service, shown for overhead service (S-79.8), underground service (S-79.9) and service grounding with PVC or galvanized conduit (S-79.9B). Shows the service pole, a PB-3 service pullbox 5 to 15 feet from the pole, 2 inch conduits, wire sizes, a 60 amp in-line fuse and the ground rod and bonding. DWP installs the #2 aluminum service wires and the contractor installs a continuous dedicated #6 green ground to the controller cabinet.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a> <a class="chip" href="/SoCal-Super-Standards/topics/street-name-and-guide-signs/">Street name and guide signs</a></p>
 
 
 
@@ -18,17 +19,39 @@ tableOfContents: false
 ### Sheet 1 of 3 (document page 93)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0093.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0093.webp" alt="S-79.0 sheet 1"></a><figcaption>Red Book S-79.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p93">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>Notes: 3 #2 Alum. wires by DWP Service T.S. &amp; S.L. Pullbox Cover | Neutral | my 6 #6 Standard copper wires (12” long) by DWP 60 Amp fuse in-line Waterproof Fuseholder for Traffic Signals / Service pole #6 Traffic Signal 10’—0” Service Wires #6 Spare for Traffic Signal Bond Neutral to (when specified) Ground Rod 2” Conduit 3 #6 Wires for B.S.L. J (See Street Lighting Plan) 2—0 to 15 —0 — Pullbox PB-3 ‘One street lighting service Bonding Wire conduit when specified on val Bureau of Street Lighting plan Install Ground Rod One Traffic Signal service conduit (2”) 14 Min. 1. Department of Water &amp; Power to install 3 #2 stranded aluminum wires from service pole to pullbox. At the terminus of each #2 aluminum wire the Dept. of Water &amp; Power to splice 2 #6 stranded copper wires, (12” long) using compression type connectors. The exposed ends of each copper wire shall be taped when not in use. 2. Install continuous and dedicated #6 green service ground conductor to controller cabinet. 3. See Standard Specsifications | pwn MT 9-14-11 | Title j for Public Works Construction, CKD RSM oat Over Head Service, sec. 307—2.8 -E Dept. of Water &amp; Power (/;) 4. See Standard Drawing — S-79.9B for grounding details. | Se T-&amp; CITY OF LOS ANGELES Pr. T.E. DEPARTMENT OF TRANSPORTATION Approved 10-27-11 Drawing No. eb Ga) S-79.8 Jaime de la Vega, General Manager 86 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Overhead service (S-79.8)</p>
+<p>Pullbox cover marked: Service T.S. &amp; S.L.</p>
+<p>3 #2 Alum. wires by DWP. Neutral. 6 #6 standard copper wires (12&quot; long) by DWP. 60 Amp fuse in-line waterproof fuseholder for traffic signals. #6 traffic signal service wires. #6 spare for traffic signal (when specified). 3 #6 wires for B.S.L. (see street lighting plan). Bond neutral to ground rod.</p>
+<p>Service pole with 2&quot; conduit, 10&#x27;-0&quot; to the pole detail, pullbox 5&#x27;-0&quot; to 15&#x27;-0&quot; from the pole. Service pullbox PB-3, 14&quot; min. One traffic signal service conduit (2&quot;). One street lighting service conduit when specified on Bureau of Street Lighting plan. Bonding wire. Install ground rod.</p>
+<h5>Notes:</h5>
+<p>1. Department of Water &amp; Power to install 3 #2 stranded aluminum wires from service pole to pullbox. At the terminus of each #2 aluminum wire the Dept. of Water &amp; Power to splice 2 #6 stranded copper wires (12&quot; long) using compression type connectors. The exposed ends of each copper wire shall be taped when not in use.</p>
+<p>2. Install continuous and dedicated #6 green service ground conductor to controller cabinet.</p>
+<p>3. See Standard Specifications for Public Works Construction, Sec. 307-2.8.</p>
+<p>4. See Standard Drawing S-79.9B for grounding details.</p></details>
 
 ### Sheet 2 of 3 (document page 94)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0094.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0094.webp" alt="S-79.0 sheet 2"></a><figcaption>Red Book S-79.0, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p94">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>3 #2 Alum. wires by DWP Service T.S. &amp; S.L. Neutral \ 6 #6 Standard copper . . Pullbox Cover for wires (12” long) by DWP Combination Service 60 Amp fuse in-line Waterproof Fuseholder for Traffic Signals #6 Spare for Traffic Signal (when _ specified) #6 Traffic Signal Service Wires 3 #6 Wires for B.S.L. (See Street Lighting Plan) Bond Neutral to Ground Rod Service Pullbox PB-—J3 i ny abo ~ a of . . ‘s eng a ak “ 4 iS &gt; ry “ es . ae ‘ ae as N \_ one Traffic Signal service Conduit &amp; Wires by conduit (2”) DWP. from Manhole Bonding Wire One street lighting service conduit when specified on Install Ground Rod Bureau of Street Lighting plan Notes: 1. Department of Water &amp; Power to install 3 #2 stranded aluminum wires from service pole to pullbox. At the terminus of each #2 aluminum wire the Dept. of Water &amp; Power to splice 2 #6 stranded copper wires, (12” long) using compression type connectors. The exposed ends of each copper wire shall be taped when not in use. 2. Install continuous and dedicated #6 green service ground conductor to controller cabinet. 3. See Standard Specsifications for Public Works Construction, DWN MT Brit | THe Under Ground Service, sec. 30/~2.8 a {RSM en Dept. of Water &amp; Power (/;) 4. See Standard Drawing TE S-79.9B for grounding details. Sr.T.E. CITY OF LOS ANGELES Pr. T.E. DEPARTMENT OF TRANSPORTATION Approved 10-27-11 Drawing No. _ Xk oa S-79.9 Jaime de la Vega, General Manager 87 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Underground service (S-79.9)</p>
+<p>Pullbox cover for combination service marked: Service T.S. &amp; S.L.</p>
+<p>3 #2 Alum. wires by DWP. Neutral. 6 #6 standard copper wires (12&quot; long) by DWP. 60 Amp fuse in-line waterproof fuseholder for traffic signals. #6 traffic signal service wires. #6 spare for traffic signal (when specified). 3 #6 wires for B.S.L. (see street lighting plan). Bond neutral to ground rod.</p>
+<p>Service pullbox PB-3. Conduit and wires by DWP from manhole. One traffic signal service conduit (2&quot;). One street lighting service conduit when specified on Bureau of Street Lighting plan. Bonding wire. Install ground rod.</p>
+<h5>Notes:</h5>
+<p>1. Department of Water &amp; Power to install 3 #2 stranded aluminum wires from service pole to pullbox. At the terminus of each #2 aluminum wire the Dept. of Water &amp; Power to splice 2 #6 stranded copper wires (12&quot; long) using compression type connectors. The exposed ends of each copper wire shall be taped when not in use.</p>
+<p>2. Install continuous and dedicated #6 green service ground conductor to controller cabinet.</p>
+<p>3. See Standard Specifications for Public Works Construction, Under Ground Service, Sec. 307-2.8.</p>
+<p>4. See Standard Drawing S-79.9B for grounding details.</p></details>
 
 ### Sheet 3 of 3 (document page 96)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0096.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0096.webp" alt="S-79.0 sheet 3"></a><figcaption>Red Book S-79.0, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p96">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>PVC Conduit System * Note: Use a ground rod wire clamp for each wire (Acorn) Service Pullbox Traffic Signal Cabinet Cabinet Equipment Service Ground Block Bus Compression Ground Type Fitting Service Fuse Bonded Galvanized Conduit eonieated ervice # 6 Black #6 Green ee 80 # 6 White From #8 Utility Green | schedule ove 80 Type Fitting AC+ none 80 PVC AC- ; Cabinet AC+ Service Ground Rod: Ground Rod: BFT xX" Yn 8FT X72 # 8 Green Bond Wire # 8 Green Bond Wire : : Traffic Signal Cabinet Galvanized Conduit System | Equipment Ground * Note: Bus Use a ground rod wire clamp for each wire (Acorn) Service Pullbox Compression Type Fitting Controller Pullbox Cabinet Service Block Ground Service Fuse Bonded Galvanized Use a bushing on all metal conduit Bonded Galvanized conduit Schedule 80 Conduit Dedicated Service # 6 Black From #6 Green Utility Green # 6 White Bond AC+ Wire AC- Service AC+ Ground Rod: 8FT X%" PVC Schedule 80 PVC Compression Type Fitting Cabinet Ground Rod: 8FT X %" # 8 Green Bond Wire om | | SERVICE GROUNDING LE CONDUIT SYSTEM Sr. T.E. CITY OF LOS ANGELES Pr.T.£.| SS 9-9-11 DEPARTMENT OF TRANSPORTATION Approved . September 9, 2011 | Drawing No. Get 2. heede S-79.9B for Jaime de la Vega, General Manager 89 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Service grounding (S-79.9B)</p>
+<p>PVC conduit system</p>
+<p>Note: Use a ground rod wire clamp for each wire (Acorn).</p>
+<p>Service pullbox with compression type fitting and ground rod 8 ft x 3/4&quot;. Schedule 80 PVC conduit to traffic signal cabinet. Service ground block, service fuse, equipment ground bus in cabinet. Conductors: #6 black AC+, #6 white AC-, #6 green dedicated service ground, #8 green bond wire. Ground rod: 8 ft x 3/4&quot; at cabinet. Utility green from service.</p>
+<p>Galvanized conduit system</p>
+<p>Note: Use a ground rod wire clamp for each wire (Acorn). Use a bushing on all metal conduit.</p>
+<p>Service pullbox with compression type fitting. Bonded galvanized conduit, Schedule 80 conduit. Dedicated service ground, #6 black AC+, #6 white AC-, #6 green, #8 green bond wire, utility green. Ground rod: 8 ft x 3/4&quot; at service pullbox and at cabinet.</p></details>
 
 
-<div class="kw">Keywords: service, wires, traffic, pullbox, standard, copper, signal, ground, conduit, street, lighting, wire, install, water, green, cabinet, type, fitting, galvanized, bond, system, compression, bonded</div>
+<div class="kw">Keywords: service pole, dwp service, overhead service, underground service, service pullbox, pb-3, traffic signal service, service grounding, ground rod, bonding wire, 60 amp fuse, #6 service wires, department of water and power, street lighting service, S-79.9B, S-79.9, S-79.8</div>

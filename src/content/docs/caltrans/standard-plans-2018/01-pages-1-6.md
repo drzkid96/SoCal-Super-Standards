@@ -9,59 +9,211 @@ sidebar:
 
 <span id="p1" class="anchor"></span>
 
-### Page 1 - A20A Pavement Markers and Traffic Lines, Typical Details
+### Page 1 - Pavement Markers and Traffic Lines, Typical Details
 
 <div class="pmeta">Drawings: <strong>A20A</strong> &middot; Topics: striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0001.webp" alt="Caltrans Std. Plans 2018 page 1 A20A Pavement Markers and Traffic Lines, Typical Details"></a><figcaption>Caltrans Std. Plans 2018, page 1 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>ZL CENTERLINES DETAIL 1 (2 LANE HIGHWAYS) AIL -- 7-0" 17-0" 7’-0"__17/-0" _7’-0" Pssst] ReSSy] ey - DETAIL 2 &lt;= - SEAS DETAIL 3 DELETED Dep DETAIL 4 DELETED DETAIL 5 &lt;5 120", 36’-0 .12/-0", Ry) REY - DETAIL 6 f 48’-0" , -&lt;-os 18/-0" 12/-0" 18’-0) &amp; ESSER] &amp; - bE DETAIL 7 DELETED LANELINES DETAIL 8 (MULTILANE HIGHWAYS) L -_ 7-0", 17'-0" 7/0", 17’-0" -_7’-0" CO Co a - DETAIL 9 be 48'-0" + -- 8/-6",7/-0"_17/-0"_7’-0"|_8’-6 a Co Co i - DETAIL 9A son SEE NOTE t 48-0 ] SERA DETAIL 10 DELETED DETAIL 11 oO 36/-0" wy t2'20" | | Co - LANELINES (Cont) (MULTILANE HIGHWAYS) NO PASSING ZONES-ONE DIRECTION DETAIL 15 7'-0" 17-0" 7/-0" 17’'-0" LOL ~~~ % - DETAIL 16 i NO PASSING ZONES-TWO DIRECTION DETAIL 12 f 48’-0" j DETAIL 21 -- 18’-0" 12’-0" 18’-0" - a -- om oo 4 | SSR EE SEES _- oe = rl Se DETAIL 12A le 48'-0" 7 SEE NOTE = 18/-0" 12/-0" 18-0 B | B - - DERH+H DETAIL 13 DELETED DEA DETAIL 14 DELETED DEA eS DETAIL 23 DELETED BETA +44 DETAIL 14 DELETED LEGEND MARKERS (HB TYPE C RED-CLEAR RETROREFLECTIVE RY TYPE D TWO-WAY YELLOW RETROREFLECTIVE (HM TYPE G ONE-WAY CLEAR RETROREFLECTIVE Rl TYPE H ONE-WAY YELLOW RETROREFLECTIVE 6" WHITE 6" YELLOW 3% 41/0" MMMM ~~ E el | - DETAIL 19 &lt;= LOL - - 18-0" 12’-0" TYPE C AND TYPE D [Dist] COUNTY ROUTE TUES. SHEET) 101 POST M AL TOTAL PROJECT SHEETS nice CIVIL ENGINEER May 31, 2018 PLANS APPROVAL DATE THE STATE OF CALIFORNIA OR ITS OFFICERS OR AGENTS SHALL NOT BE RESPONSIBLE FOR THE ACCURACY OR COMPLETENESS OF SCANNED COPIES OF THIS PLAN SHEET. 3Ip"- 47/0" LN = vVOcV NVid GHYVGNVLS 8102 TYPE G AND TYPE H DETAIL 20 DELETED NOTE: FOR FREEWAY APPLICATION ONLY PAVEMENT MARKERS AND TRAFFIC LINES RETROREFLECTIVE FACE STATE OF CALIFORNIA DEPARTMENT OF TRANSPORTATION TYPICAL DETAILS NO SCALE A20A 1-26-18 </p></details>
-<div class="kw">Keywords: detail, deleted, type, retroreflective, highways, note, yellow, lanelines, multilane, passing, direction, markers, one-way, sheet</div>
+<div class="pclean"><p class="psum"><b>Pavement Markers and Traffic Lines, Typical Details.</b> Caltrans typical layouts for centerlines on 2-lane highways and lane lines on multilane highways, with the placement of retroreflective pavement markers and painted line patterns. It also covers no-passing zone layouts for one and two directions. Line and gap dimensions are shown on the details, for example 7&#x27;-0&quot; and 17&#x27;-0&quot; lane line patterns and 48&#x27;-0&quot; or 36&#x27;-0&quot; cycles. Several detail numbers are marked deleted.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markers and traffic lines, typical details. A20A. No scale.</p>
+<p>Centerlines</p>
+<p>Detail 1 (2-lane highways).</p>
+<p>Details 2 and 5 and 6 as shown. Details 3, 4 and 7 deleted.</p>
+<p>Detail 5 and Detail 6 show 12&#x27;-0&quot; and 18&#x27;-0&quot; dimensions within 36&#x27;-0&quot; and 48&#x27;-0&quot; cycles.</p>
+<p>Lanelines</p>
+<p>Detail 8 (multilane highways): 7&#x27;-0&quot; and 17&#x27;-0&quot; pattern.</p>
+<p>Detail 9 and Detail 9A (see note): 48&#x27;-0&quot; cycle with 8&#x27;-6&quot; and 7&#x27;-0&quot; dimensions. Details 10 and 11 as shown, Detail 10 deleted.</p>
+<p>Lanelines (cont.) (multilane highways)</p>
+<p>No passing zones, one direction</p>
+<p>Detail 15 and Detail 16: 7&#x27;-0&quot; and 17&#x27;-0&quot; pattern.</p>
+<p>No passing zones, two direction</p>
+<p>Detail 12, Detail 12A and Detail 21: 48&#x27;-0&quot; cycles with 18&#x27;-0&quot; and 12&#x27;-0&quot; dimensions (see note).</p>
+<p>Details 13, 14 and 23 deleted.</p>
+<p>Detail 19 and Detail 20: Type G and Type H markers. Detail 20 deleted. Type C and Type D markers.</p>
+<p>Legend</p>
+<p>Markers: Type C red-clear retroreflective, Type D two-way yellow retroreflective, Type G one-way clear retroreflective, Type H one-way yellow retroreflective.</p>
+<p>6&quot; white line. 6&quot; yellow line.</p>
+<p>Note: For freeway application only.</p>
+<p>Retroreflective face.</p></details></div>
+<div class="pclean"><p class="psum"><b>Pavement Markers and Traffic Lines, Typical Details.</b> Caltrans typical layouts for centerlines on 2-lane highways and lane lines on multilane highways, with the placement of retroreflective pavement markers and painted line patterns. It also covers no-passing zone layouts for one and two directions. Line and gap dimensions are shown on the details, for example 7&#x27;-0&quot; and 17&#x27;-0&quot; lane line patterns and 48&#x27;-0&quot; or 36&#x27;-0&quot; cycles. Several detail numbers are marked deleted.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markers and traffic lines, typical details. A20A. No scale.</p>
+<p>Centerlines</p>
+<p>Detail 1 (2-lane highways).</p>
+<p>Details 2 and 5 and 6 as shown. Details 3, 4 and 7 deleted.</p>
+<p>Detail 5 and Detail 6 show 12&#x27;-0&quot; and 18&#x27;-0&quot; dimensions within 36&#x27;-0&quot; and 48&#x27;-0&quot; cycles.</p>
+<p>Lanelines</p>
+<p>Detail 8 (multilane highways): 7&#x27;-0&quot; and 17&#x27;-0&quot; pattern.</p>
+<p>Detail 9 and Detail 9A (see note): 48&#x27;-0&quot; cycle with 8&#x27;-6&quot; and 7&#x27;-0&quot; dimensions. Details 10 and 11 as shown, Detail 10 deleted.</p>
+<p>Lanelines (cont.) (multilane highways)</p>
+<p>No passing zones, one direction</p>
+<p>Detail 15 and Detail 16: 7&#x27;-0&quot; and 17&#x27;-0&quot; pattern.</p>
+<p>No passing zones, two direction</p>
+<p>Detail 12, Detail 12A and Detail 21: 48&#x27;-0&quot; cycles with 18&#x27;-0&quot; and 12&#x27;-0&quot; dimensions (see note).</p>
+<p>Details 13, 14 and 23 deleted.</p>
+<p>Detail 19 and Detail 20: Type G and Type H markers. Detail 20 deleted. Type C and Type D markers.</p>
+<p>Legend</p>
+<p>Markers: Type C red-clear retroreflective, Type D two-way yellow retroreflective, Type G one-way clear retroreflective, Type H one-way yellow retroreflective.</p>
+<p>6&quot; white line. 6&quot; yellow line.</p>
+<p>Note: For freeway application only.</p>
+<p>Retroreflective face.</p></details></div>
+<div class="kw">Keywords: centerline, lane line, pavement markers, raised pavement markers, RPM, traffic lines, no passing zone, 2 lane highway striping, multilane highway striping, Type C marker, Type D marker, Type G marker, Type H marker, Caltrans A20A, double yellow line, detail 1, detail 8</div>
 
 
 <span id="p2" class="anchor"></span>
 
-### Page 2 - A20B Pavement Markers and Traffic Lines, Typical Details
+### Page 2 - Pavement Markers and Traffic Lines, Typical Details
 
 <div class="pmeta">Drawings: <strong>A20B</strong> &middot; Topics: striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0002.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0002.webp" alt="Caltrans Std. Plans 2018 page 2 A20B Pavement Markers and Traffic Lines, Typical Details"></a><figcaption>Caltrans Std. Plans 2018, page 2 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>El LEFT EDGELINES (DIVIDED HIGHWAYS) DETAIL 24 - DETAIL 25 z -p- “EDGE OF TRAVELED WAY ml Ce BE DETAIL 25A - 24'-0" 24’-0" of \coce OF TRAVELED WAY DETAIL 26 y- EDGE OF TRAVELED WAY - e 48'-0 8 N DETAIL 27 _ asl SER 2 BT =&gt; ma EDGE OF TRAVELED WAY pp I L 48-0" | * RIGHT EDGELINES BER 2A DETAIL 27A DELETED DETAIL 27B - x ( Q | eDGE OF TRAVELED way RIGHT EDGELINE EXTENSION THROUGH INTERSECTIONS DETAIL 27C - CI CI s-o"} [12-0 JL r2o" | 12-0" | | 3-0 so DETAIL 28 DETAIL 31 &lt;= LOL- - - DETAIL 32 LEGEND LINES piss| county | route | rorar pRosect | No. |sHEETS MEDIAN ISLANDS MARKERS J] TYPE D TWO-WAY ce Qtipe JeroQ- YELLOW sed ELON REGISTERED CIVIL ENGINEER RETROREFLECTIVE QE TYPE H ONE-WAY May 31, 2018 YELLOW PLANS APPROVAL DATE aon Fite at EPO ie, BA TYPE RY RED-YELLOW INTERSECTION COPIES OF THIS PLAN SHEET. RETROREFLECTIVE TT le 100’-0" Min \ wl DETAIL 34 ae 100’-0" Min - c 24'-0 24’-0" 24'-0 v DETAIL 30 DELETED CENTERLINE INTERSECTING STREET 100-0" Min ‘-0 [TYPICAL] “TYPICAL” DETAIL 33 DELETED PAVEMENT MARKERS AND TRAFFIC N ° = oe a = &gt; z 0 &gt; Ea 0 vu r MARKER DETAILS a ZI" 4Ve" 5 &gt; WZ oS ~F a = VE TYPE RY AND TYPE D RETROREFLECTIVE FACE TYPE _H STATE OF CALIFORNIA DEPARTMENT OF TRANSPORTATION LINES TYPICAL DETAILS NO SCALE A20B 1-26-18 </p></details>
-<div class="kw">Keywords: detail, type, traveled, edge, deleted, retroreflective, typical, edgelines, right, lines, markers, yellow, details, left</div>
+<div class="pclean"><p class="psum"><b>Pavement Markers and Traffic Lines, Typical Details.</b> Caltrans typical layouts for left edgelines on divided highways, right edgelines, edgeline extensions through intersections, and median island markings. It also shows the marker types used, including Type D, Type H, and Type RY retroreflective markers. Dimensions on the sheet include 24&#x27;-0&quot; and 48&#x27;-0&quot; cycles, and a 100&#x27;-0&quot; minimum along the centerline of an intersecting street.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markers and traffic lines, typical details. A20B. No scale.</p>
+<p>Left edgelines (divided highways)</p>
+<p>Detail 24, Detail 25, Detail 25A, Detail 26 and Detail 27 show edgeline patterns at the edge of traveled way with 24&#x27;-0&quot; and 48&#x27;-0&quot; dimensions.</p>
+<p>Right edgelines</p>
+<p>Detail 27A deleted. Detail 27B. Detail 27C (right edgeline extension through intersections), 3&#x27;-0&quot; and 12&#x27;-0&quot; dimensions as shown. Detail 28 and Detail 31 and Detail 32 as shown.</p>
+<p>Median islands</p>
+<p>Detail 34 with 100&#x27;-0&quot; min on each side along the centerline of the intersecting street, and 24&#x27;-0&quot; dimensions. Details 30 and 33 deleted.</p>
+<p>Legend</p>
+<p>Lines. Markers: Type D two-way yellow retroreflective, Type H one-way yellow, Type RY red-yellow intersection retroreflective.</p>
+<p>Marker details: Type RY and Type D retroreflective face. Type H.</p></details></div>
+<div class="pclean"><p class="psum"><b>Pavement Markers and Traffic Lines, Typical Details.</b> Caltrans typical layouts for left edgelines on divided highways, right edgelines, edgeline extensions through intersections, and median island markings. It also shows the marker types used, including Type D, Type H, and Type RY retroreflective markers. Dimensions on the sheet include 24&#x27;-0&quot; and 48&#x27;-0&quot; cycles, and a 100&#x27;-0&quot; minimum along the centerline of an intersecting street.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markers and traffic lines, typical details. A20B. No scale.</p>
+<p>Left edgelines (divided highways)</p>
+<p>Detail 24, Detail 25, Detail 25A, Detail 26 and Detail 27 show edgeline patterns at the edge of traveled way with 24&#x27;-0&quot; and 48&#x27;-0&quot; dimensions.</p>
+<p>Right edgelines</p>
+<p>Detail 27A deleted. Detail 27B. Detail 27C (right edgeline extension through intersections), 3&#x27;-0&quot; and 12&#x27;-0&quot; dimensions as shown. Detail 28 and Detail 31 and Detail 32 as shown.</p>
+<p>Median islands</p>
+<p>Detail 34 with 100&#x27;-0&quot; min on each side along the centerline of the intersecting street, and 24&#x27;-0&quot; dimensions. Details 30 and 33 deleted.</p>
+<p>Legend</p>
+<p>Lines. Markers: Type D two-way yellow retroreflective, Type H one-way yellow, Type RY red-yellow intersection retroreflective.</p>
+<p>Marker details: Type RY and Type D retroreflective face. Type H.</p></details></div>
+<div class="kw">Keywords: edgeline, left edgeline, right edgeline, divided highway striping, median island markings, edgeline extension through intersection, Type RY marker, Type D marker, Type H marker, pavement markers, traffic lines, edge of traveled way, intersection striping, Caltrans A20B, detail 27B, detail 34</div>
 
 
 <span id="p3" class="anchor"></span>
 
-### Page 3 - RSP A20D Pavement Markers and Traffic Lines, Typical Details
+### Page 3 - Pavement Markers and Traffic Lines, Typical Details (Revised Standard Plan RSP A20D)
 
 <div class="pmeta">Drawings: <strong>A20D</strong> &middot; Topics: bikeways, parking-curb, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0003.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0003.webp" alt="Caltrans Std. Plans 2018 page 3 RSP A20D Pavement Markers and Traffic Lines, Typical Details"></a><figcaption>Caltrans Std. Plans 2018, page 3 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>© 2018 California Department of Transportation All Rights Reserved CHANNELIZING LINE ee DETAIL 38 8" WHITE LINE | TYPE C RED-CLEAR RETROREFLECTIVE b aaa 4 ay | TYPE G ONE-WAY CLEAR RETROREFLECTIVE oO Oo rT 6" YELLOW LINE | 24'-0" I 24’-0" | THROUGH TRAFFIC [=&gt; MARKER DETAILS DETAIL 38A 8" WHITE LINE x Si I Kn. | 39%"-4YQ" Se sete, 4 8 8 =~ Lili y--N = = DETAIL 388 8" WHITE LINE 8 a iff . GF L | H ar | md | | | i 24’-0" " 24/-0" 8 aT Ys jy TYPE C TYPE G BEHH-386 DETAIL 38C DELETED RETROREFLECTIVE FACE DETAIL 38D (EXIT RAMPS ONLY) 8” WHITE LINE ; ; FINISHED FINISHED ROADWAY SURFACE { 4 i ROADWAY SURFACE a 24’-0" ve 24'-0" ’ af t S10 8 | BIKE LANE LINE oy i pee DETAIL 39 mn WHITE LINE STRIPING MATERIAL - f DETAIL FOR RECESSED TRAFFIC STRIPE INTERSECTION LINE See Notes A and B. BIKE LANE RECESSED NOTES: DETAIL 39A_ , 200’-0" INTERSECTION A. See typical traffic line details for an Pavement marking patterns. - C4 a B. See standard specifications for recess Co SS foal Lew 6" WHITE LINE LANE LINE EXTENSIONS THROUGH INTERSECTIONS depth and recess striping material thickness. DETAIL 40A DELETED RETROREFLECTIVE PAVEMENT MARKER AT DOWNSTREAM END OF RECESS 0 TO ¥_", SEE NOTE 3 RETROREFLECTIVE PAVEMENT MARKER AT CENTER OF RECESS 1 ina L ic) SECTION B-B = RETROREFLECTIVE PAVEMENT MARKER AT DOWNSTREAM END OF RECESS é- asa Ve 2'-0" 1/-0" Min Min + PLAN ~ TYPE 1 5H" RETROREFLECTIVE PAVEMENT MARKER Dist] COUNTY TLES_ [SHEET] TOTAL ROUTE No. POST M TOTAL PROJECT SHEETS naive CIVIL ENGINEER October 19, 2018 PLANS APPROVAL DATE THE STATE OF CALIFORNIA OR ITS OFFICERS OR AGENTS SHALL NOT BE RESPONSIBLE FOR THE ACCURACY OP COMPLETENESS OF SCANNED COPIES OF THIS PLAN SHEET, TO ACCOMPANY PLANS DATED ro TO ¥6", SEE NOTE 3 1 RETROREFLECTIVE PAVEMENT MARKER AT A a SECTION A-A &gt; es RECESS DETAIL FOR &lt;2 PLAN = TYPE 2 46-4" fe" 4 - Te" Hy"-y 2"-2'/o" TYPE C, TYPE RY, AND TYPE D RETROREFLECTI RETROREFLECTIVE FACE See Note 4 4H e"- Yo" = --E KZLLA Ye" Ne 2"- 2p" TYPE G, TYPE R, AND TYPE H VE PAVEMENT MARKER FOR RECESSED INSTALLATION RECESSED MARKER NOTES: 1. See typical traffic line details for marker patterns to be used with recessed pavement markers. 2. The retroreflective pavement markers shown for recessed installations are not to be used for non-recessed installations. 3. The top of pavement markers installed in recesses shall be 0 to ¥%e" below the pavement surface. 4, Use Type 1 recess for pavement markers with one-way retroreflective face. Use Type 2 recess for pavement markers with two-way retroreflective face. qaocv dSY NVW1id GHYVGNVLS GHSIAAY 8LlO72 DETAIL 41A DELETED DETAIL 40 1'-0" 6’-0" DETAH-404 ae O Oo oO oO 6" WHITE LINE CENTER LINE EXTENSIONS THROUGH INTERSECTIONS DETAIL 41 BERAH-4+H4 1’-0" 6’-0" Ee Ee) Ee Ee) 6" YELLOW LINE See Notes 1 and 2. STATE OF CALIFORNIA DEPARTMENT OF TRANSPORTATION PAVEMENT MARKERS AND TRAFFIC LINES TYPICAL DETAILS NO SCALE RSP A20D DATED OCTOBER 19, 2018 SUPERSEDES STANDARD PLAN A20D DATED MAY 31, 2018 - PAGE 15 OF THE STANDARD PLANS BOOK DATED 2018, | REVISED STANDARD PLAN RSP A20D 5-10-18 </p></details>
-<div class="kw">Keywords: line, type, pavement, detail, retroreflective, marker, recess, white, recessed, markers, traffic, plan, details, face</div>
+<div class="pclean"><p class="psum"><b>Pavement Markers and Traffic Lines, Typical Details (Revised Standard Plan RSP A20D).</b> Revised Caltrans details for channelizing lines (Details 38, 38A, 38B, 38D), bike lane lines (Detail 39) and intersection bike lane lines (Detail 39A), recessed traffic stripe and recessed pavement marker installation, and lane line and centerline extensions through intersections (Details 40 and 41). Notes give the recess marker requirements, including that markers in recesses sit 0 to 1/16 inch below the pavement surface. RSP A20D dated October 19, 2018 supersedes standard plan A20D dated May 31, 2018.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Channelizing line</p>
+<p>Detail 38: 8&quot; white line, 6&quot; yellow line, 24&#x27;-0&quot; dimensions, through traffic. Markers: Type C red-clear retroreflective, Type G one-way clear retroreflective.</p>
+<p>Detail 38A and Detail 38B: 8&quot; white line, 24&#x27;-0&quot; dimensions. Detail 38C deleted.</p>
+<p>Detail 38D (exit ramps only): 8&quot; white line.</p>
+<p>Bike lane line</p>
+<p>Detail 39: bike lane line, 6&quot; white line, intersection line. Detail 39A: bike lane line, 200&#x27;-0&quot; intersection.</p>
+<p>Lane line extensions through intersections</p>
+<p>Detail 40: 6&quot; white line, 1&#x27;-0&quot; and 6&#x27;-0&quot; dimensions. Detail 40A deleted.</p>
+<p>Centerline extensions through intersections</p>
+<p>Detail 41: 6&quot; yellow line, 1&#x27;-0&quot; and 6&#x27;-0&quot; dimensions. Detail 41A deleted.</p>
+<p>Recess detail for recessed traffic stripe</p>
+<p>See Notes A and B. Finished roadway surface, striping material, recessed.</p>
+<h5>Notes:</h5>
+<p>A. See typical traffic line details for pavement marking patterns.</p>
+<p>B. See standard specifications for recess depth and recess striping material thickness.</p>
+<p>Recess detail for pavement markers for recessed installation</p>
+<p>Type 1 recess: retroreflective pavement marker at downstream end of recess and at center of recess. Section A-A and Section B-B. Plan dimensions include 2&#x27;-0&quot; and 1&#x27;-0&quot; min.</p>
+<p>Type 2 recess: Type C, Type RY and Type D retroreflective pavement markers. Type G, Type R and Type H retroreflective pavement markers. See Note 4.</p>
+<h5>Recessed marker notes:</h5>
+<p>1. See typical traffic line details for marker patterns to be used with recessed pavement markers.</p>
+<p>2. The retroreflective pavement markers shown for recessed installations are not to be used for non-recessed installations.</p>
+<p>3. The top of pavement markers installed in recesses shall be 0 to 1/16&quot; below the pavement surface.</p>
+<p>4. Use Type 1 recess for pavement markers with one-way retroreflective face. Use Type 2 recess for pavement markers with two-way retroreflective face.</p>
+<p>RSP A20D dated October 19, 2018 supersedes Standard Plan A20D dated May 31, 2018, page 15 of the Standard Plans book dated 2018.</p></details></div>
+<div class="pclean"><p class="psum"><b>Pavement Markers and Traffic Lines, Typical Details (Revised Standard Plan RSP A20D).</b> Revised Caltrans details for channelizing lines (Details 38, 38A, 38B, 38D), bike lane lines (Detail 39) and intersection bike lane lines (Detail 39A), recessed traffic stripe and recessed pavement marker installation, and lane line and centerline extensions through intersections (Details 40 and 41). Notes give the recess marker requirements, including that markers in recesses sit 0 to 1/16 inch below the pavement surface. RSP A20D dated October 19, 2018 supersedes standard plan A20D dated May 31, 2018.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Channelizing line</p>
+<p>Detail 38: 8&quot; white line, 6&quot; yellow line, 24&#x27;-0&quot; dimensions, through traffic. Markers: Type C red-clear retroreflective, Type G one-way clear retroreflective.</p>
+<p>Detail 38A and Detail 38B: 8&quot; white line, 24&#x27;-0&quot; dimensions. Detail 38C deleted.</p>
+<p>Detail 38D (exit ramps only): 8&quot; white line.</p>
+<p>Bike lane line</p>
+<p>Detail 39: bike lane line, 6&quot; white line, intersection line. Detail 39A: bike lane line, 200&#x27;-0&quot; intersection.</p>
+<p>Lane line extensions through intersections</p>
+<p>Detail 40: 6&quot; white line, 1&#x27;-0&quot; and 6&#x27;-0&quot; dimensions. Detail 40A deleted.</p>
+<p>Centerline extensions through intersections</p>
+<p>Detail 41: 6&quot; yellow line, 1&#x27;-0&quot; and 6&#x27;-0&quot; dimensions. Detail 41A deleted.</p>
+<p>Recess detail for recessed traffic stripe</p>
+<p>See Notes A and B. Finished roadway surface, striping material, recessed.</p>
+<h5>Notes:</h5>
+<p>A. See typical traffic line details for pavement marking patterns.</p>
+<p>B. See standard specifications for recess depth and recess striping material thickness.</p>
+<p>Recess detail for pavement markers for recessed installation</p>
+<p>Type 1 recess: retroreflective pavement marker at downstream end of recess and at center of recess. Section A-A and Section B-B. Plan dimensions include 2&#x27;-0&quot; and 1&#x27;-0&quot; min.</p>
+<p>Type 2 recess: Type C, Type RY and Type D retroreflective pavement markers. Type G, Type R and Type H retroreflective pavement markers. See Note 4.</p>
+<h5>Recessed marker notes:</h5>
+<p>1. See typical traffic line details for marker patterns to be used with recessed pavement markers.</p>
+<p>2. The retroreflective pavement markers shown for recessed installations are not to be used for non-recessed installations.</p>
+<p>3. The top of pavement markers installed in recesses shall be 0 to 1/16&quot; below the pavement surface.</p>
+<p>4. Use Type 1 recess for pavement markers with one-way retroreflective face. Use Type 2 recess for pavement markers with two-way retroreflective face.</p>
+<p>RSP A20D dated October 19, 2018 supersedes Standard Plan A20D dated May 31, 2018, page 15 of the Standard Plans book dated 2018.</p></details></div>
+<div class="kw">Keywords: channelizing line, bike lane line, bike lane intersection striping, recessed pavement markers, recessed traffic stripe, exit ramp striping, lane line extension, centerline extension through intersection, 8 inch white line, 6 inch yellow line, RSP A20D, Caltrans A20D, Type C marker, Type G marker, detail 38, detail 39</div>
 
 
 <span id="p4" class="anchor"></span>
 
-### Page 4 - A24A Pavement Markings, Arrows
+### Page 4 - Pavement Markings, Arrows
 
 <div class="pmeta">Drawings: <strong>A24A</strong> &middot; Topics: bikeways</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0004.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0004.webp" alt="Caltrans Std. Plans 2018 page 4 A24A Pavement Markings, Arrows"></a><figcaption>Caltrans Std. Plans 2018, page 4 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>Lt 1’-0" GRID 1/-0" o" A=14 Ft? TYPE I 10’-0" ARROW 24'- | jee | 1’-0" GRID 1/-0" A=25 Ft? am TYPE I 18’-0" ARROW [ 4 N 1-0" crID_ | 1-0" A=31 ft? TYPE I 24’-0"' ARROW 1’-0" GRID 1/-0" A=15 ft? TYPE W (L) ARROW (For Type Iv (R) arrow, use mirror image) NOTE: Minor variations in dimensions may be accepted by the Engineer. &gt; lL] 6 -~| 8 18’-0" aN V7 15 SW rN \ Or 5 Aveyey, |, 2-0 I ey Ni vy A=42 Ft? TYPE W ARROW Right lane drop arrow (For left lane, use mirror image) 6" GRID _| Le" A=3.5 ft? BIKE LANE ARROW 1/-0" GRID 1-0" A=36 ft? TYPE Wi ARROW L 7-3" 4 [\ ZATENNN i 9 = | N 1’-0" GRID _l 1-0" A=27 ft? TYPE Wi (L) ARROW (For Type WI (R) arrow, use mirror image) Dist] COUNTY ROUTE POST MILES |SHEET| TOTAL T TOTAL PROJECT SHEETS nists CIVIL eneER May 31, 2018 PLANS APPROVAL DATE OR AGENTS SHALL NOT BE RESPONSIBLE FOR THE ACCURACY OR COMPLETENESS OF SCANNED COPIES OF THIS PLAN SHEET. 3 s N 2'-0" ] ° x 1-0" A=33 ft? TYPE ¥V ARROW STATE OF CALIFORNIA DEPARTMENT OF TRANSPORTATION PAVEMENT MARKINGS ARROWS NO SCALE Vvcv NVid GHYVGNVLS 8102 A24A </p></details>
-<div class="kw">Keywords: arrow, type, grid, mirror, image, lane, sheet, total, crid, note, minor, variations, dimensions, accepted</div>
+<div class="pclean"><p class="psum"><b>Pavement Markings, Arrows.</b> Caltrans dimensioned layouts for pavement arrows, drawn on a 1-foot grid, with the area of each in square feet. It covers Type I arrows at 10, 18 and 24 feet long, Type II (L) and (R) arrows, the Type III lane drop arrow, Type IV, Type V and Type VI arrows, and the bike lane arrow. Mirror images are used for opposite-hand versions.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markings, arrows. A24A. No scale.</p>
+<p>1&#x27;-0&quot; grid unless noted.</p>
+<p>Type I 10&#x27;-0&quot; arrow, A = 14 ft2.</p>
+<p>Type I 18&#x27;-0&quot; arrow, A = 25 ft2.</p>
+<p>Type I 24&#x27;-0&quot; arrow, A = 31 ft2.</p>
+<p>Type II (L) arrow, A = 15 ft2. (For Type II (R) arrow, use mirror image.)</p>
+<p>Type III arrow: right lane drop arrow, A = 42 ft2. (For left lane, use mirror image.)</p>
+<p>Bike lane arrow, 6&quot; grid, A = 3.5 ft2.</p>
+<p>Type IV arrow, A = 36 ft2.</p>
+<p>Type V (L) arrow, A = 27 ft2. (For Type V (R) arrow, use mirror image.)</p>
+<p>Type VI arrow, A = 33 ft2.</p>
+<p>Note: Minor variations in dimensions may be accepted by the Engineer.</p></details></div>
+<div class="pclean"><p class="psum"><b>Pavement Markings, Arrows.</b> Caltrans dimensioned layouts for pavement arrows, drawn on a 1-foot grid, with the area of each in square feet. It covers Type I arrows at 10, 18 and 24 feet long, Type II (L) and (R) arrows, the Type III lane drop arrow, Type IV, Type V and Type VI arrows, and the bike lane arrow. Mirror images are used for opposite-hand versions.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markings, arrows. A24A. No scale.</p>
+<p>1&#x27;-0&quot; grid unless noted.</p>
+<p>Type I 10&#x27;-0&quot; arrow, A = 14 ft2.</p>
+<p>Type I 18&#x27;-0&quot; arrow, A = 25 ft2.</p>
+<p>Type I 24&#x27;-0&quot; arrow, A = 31 ft2.</p>
+<p>Type II (L) arrow, A = 15 ft2. (For Type II (R) arrow, use mirror image.)</p>
+<p>Type III arrow: right lane drop arrow, A = 42 ft2. (For left lane, use mirror image.)</p>
+<p>Bike lane arrow, 6&quot; grid, A = 3.5 ft2.</p>
+<p>Type IV arrow, A = 36 ft2.</p>
+<p>Type V (L) arrow, A = 27 ft2. (For Type V (R) arrow, use mirror image.)</p>
+<p>Type VI arrow, A = 33 ft2.</p>
+<p>Note: Minor variations in dimensions may be accepted by the Engineer.</p></details></div>
+<div class="kw">Keywords: pavement arrows, turn arrow, left turn arrow, right turn arrow, through arrow, lane drop arrow, bike lane arrow, Type I arrow, Type II arrow, Type V arrow, arrow dimensions, pavement markings, Caltrans A24A, 1 foot grid, straight arrow</div>
 
 
 <span id="p5" class="anchor"></span>
 
-### Page 5 - A24B Pavement Markings, Arrows and Symbols
+### Page 5 - Pavement Markings, Arrows and Symbols
 
 <div class="pmeta">Drawings: <strong>A24B</strong></div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0005.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0005.webp" alt="Caltrans Std. Plans 2018 page 5 A24B Pavement Markings, Arrows and Symbols"></a><figcaption>Caltrans Std. Plans 2018, page 5 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>Bl 2-0" x WIDTH OF LANE 3 = 6-0" j 11'-0' Le 8'-0" -! | | | oo+ + ne ee ee a 20 -_ | "9" -_ | iN /| TN a L-| J e 3 T _ 1-0" GRID | 1-0" 1-0" GRID | 1/0" 2’-0" x WIDTH 2 OF LANE A=42 ft A=73 +2 TYPE MI (L) ARROW TYPE I (B) ARROW (For Type Il (R) use mirror image) 1’-0" GRID A=70 ft? &amp; NOTE: RAILROAD CROSSING SYMBOL Minor variations in dimensions % 70 ft? does not include the 2’-0" x variable may be accepted by the Engineer. width transverse lines. 24’ LAL TIN \ \ \ | N IN 1'-0" GRID _ 1/-0" A=45 ft? TYPE I (L) ARROW (For Type I (R) use mirror image) Dist} COUNTY ROUTE POST MILES ]SHEET] TOTAL TOTAL PROJECT |” No. |SHEETS May 31, 2018 nists CIVIL eneER PLANS APPROVAL DATE THE ACCURACY OR Ct COPIES OF THIS PLAN SHEET. THE STATE OF CALIFORNIA OR ITS OFFICERS \% ®P- OR AGENTS SHALL NOT BE RESPONSIBLE FOR S "OMPLETENESS OF SCANNED i | |\ | LIN - 1’-0" GRID _| 1’-0" A=59 ft2 TYPE I (B) ARROW STATE OF CALIFORNIA DEPARTMENT OF TRANSPORTATION PAVEMENT MARKINGS ARROWS AND SYMBOLS NO SCALE A24B avev NV1id GHYVGNVILS 8102 </p></details>
-<div class="kw">Keywords: type, grid, arrow, width, lane, mirror, image, sheet, total, state, california, note, railroad, crossing</div>
+<div class="pclean"><p class="psum"><b>Pavement Markings, Arrows and Symbols.</b> Caltrans dimensioned layouts for additional pavement arrows and the railroad crossing symbol, each with its area in square feet. Arrow types shown include Type VII (L), Type VIII (B) and Type I (L) and (B) style arrows, and the railroad crossing symbol is 70 square feet, not counting the 2-foot by variable width transverse lines. Mirror images are used for right-hand versions.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markings, arrows and symbols. A24B. No scale.</p>
+<p>Arrow layouts on a 1&#x27;-0&quot; grid with areas as shown: A = 42 ft2, A = 73 ft2, A = 45 ft2 and A = 59 ft2. For the (R) version use the mirror image.</p>
+<p>Railroad crossing symbol, A = 70 ft2. The 70 ft2 does not include the 2&#x27;-0&quot; x variable width transverse lines. Transverse lines are 2&#x27;-0&quot; x width of lane.</p>
+<p>Note: Minor variations in dimensions may be accepted by the Engineer.</p></details></div>
+<div class="pclean"><p class="psum"><b>Pavement Markings, Arrows and Symbols.</b> Caltrans dimensioned layouts for additional pavement arrows and the railroad crossing symbol, each with its area in square feet. Arrow types shown include Type VII (L), Type VIII (B) and Type I (L) and (B) style arrows, and the railroad crossing symbol is 70 square feet, not counting the 2-foot by variable width transverse lines. Mirror images are used for right-hand versions.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markings, arrows and symbols. A24B. No scale.</p>
+<p>Arrow layouts on a 1&#x27;-0&quot; grid with areas as shown: A = 42 ft2, A = 73 ft2, A = 45 ft2 and A = 59 ft2. For the (R) version use the mirror image.</p>
+<p>Railroad crossing symbol, A = 70 ft2. The 70 ft2 does not include the 2&#x27;-0&quot; x variable width transverse lines. Transverse lines are 2&#x27;-0&quot; x width of lane.</p>
+<p>Note: Minor variations in dimensions may be accepted by the Engineer.</p></details></div>
+<div class="kw">Keywords: pavement arrows, railroad crossing symbol, RXR symbol, left turn arrow, two-way left turn arrow, combination arrow, arrow dimensions, pavement symbols, railroad crossing markings, transverse lines, Caltrans A24B, 1 foot grid, lane arrow area</div>
 
 
 <span id="p6" class="anchor"></span>
 
-### Page 6 - A24D Pavement Markings, Words
+### Page 6 - Pavement Markings, Words
 
 <div class="pmeta">Drawings: <strong>A24D</strong> &middot; Topics: bikeways, signals</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0006.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0006.webp" alt="Caltrans Std. Plans 2018 page 6 A24D Pavement Markings, Words"></a><figcaption>Caltrans Std. Plans 2018, page 6 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>7 POST MILES SHEET] TOTAL Dist] COUNTY ROUTE TOTAL PROJECT PRE SHEETS nists CIVIL ENGINEER May 31, 2018 PLANS APPROVAL DATE im 7 THE STATE OF CALIFORNIA OR ITS OFFICERS OR AGENTS SHALL NOT BE _RESPON: SIBLE FOR THE ACCURACY OR COMPLETENESS OF SCANNED COPIES OF THIS PLAN SHEET, 02g 2 = 2 35 ft A=31_ ft A=24 ft® A=26 ft2 A=21 +2 N N N NOTES: N 1. If a message consists of more than one word, it must read "UP", i.e., the first word must be nearest the driver. 2. The space between words must be at least four times the height of the characters for low speed roads, but \ Y not more than ten times the height of the characters. The space may be reduced appropriately where there is Y /) limited space because of local conditions. avev NVid GHYVGNVLS 8102 3. Minor variations in dimensions may be accepted by the Engineer. 4 4 4 2 4 ‘=| 4. Portions of a letter, number or symbol may be separated by Y connecting segments not to exceed 2" in width. 32 +2 A=19 ft? A=26 f+2 az22 ¢t2 SHE A=18 +2 WORD MARKINGS et et a Lt f eit ITEM Ft? ITEM ft? ITEM Ft? ITEM Ft? N TNO XING | 21 | YieLD| 24 BIKE 5 PED 78 AHEAD 31 SCHOOL 35 SLOW 23 COMPACT 10 N WAIT 19 SIGNAL’ 32 STOP. 22 RUNAWAY 43 LANE 6 TURN 24 LEFT 19 VEHICLES 42 RIGHT 26 HERE 26 Y STATE OF CALIFORNIA DEPARTMENT OF TRANSPORTATION PAVEMENT MARKINGS h + WORDS A A=10 f+? A=5 f+? ait A=6 £42 ait NO SCALE ADD 1226-18 </p></details>
-<div class="kw">Keywords: item, word, space, sheet, total, engineer, state, california, words, times, height, characters, markings, post</div>
+<div class="pclean"><p class="psum"><b>Pavement Markings, Words.</b> Caltrans table of standard word pavement markings with the area of each in square feet. Words include STOP, YIELD, SLOW, BIKE, LANE, SCHOOL, PED, XING, AHEAD, SIGNAL, TURN, LEFT, RIGHT, ONLY-type messages and others. Notes set the reading order for multi-word messages and the spacing between words, which must be at least four times and not more than ten times the character height.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markings, words. A24D. No scale.</p>
+<p>Word markings (item, area in ft2)</p>
+<p>NO 10, XING 21, YIELD 24, WAIT 19, TURN 24, LEFT 19, HERE 26, BIKE 5, LANE 6, SIGNAL 32, SCHOOL 35, SLOW 23, STOP 22, PED 78, AHEAD 31, COMPACT 10, RUNAWAY 43, VEHICLES 42, RIGHT 26.</p>
+<p>Some area values are not clearly legible on the scanned sheet.</p>
+<h5>Notes:</h5>
+<p>1. If a message consists of more than one word, it must read &quot;UP&quot;, i.e., the first word must be nearest the driver.</p>
+<p>2. The space between words must be at least four times the height of the characters for low speed roads, but not more than ten times the height of the characters. The space may be reduced appropriately where there is limited space because of local conditions.</p>
+<p>3. Minor variations in dimensions may be accepted by the Engineer.</p>
+<p>4. Portions of a letter, number or symbol may be separated by connecting segments not to exceed 2&quot; in width.</p></details></div>
+<div class="pclean"><p class="psum"><b>Pavement Markings, Words.</b> Caltrans table of standard word pavement markings with the area of each in square feet. Words include STOP, YIELD, SLOW, BIKE, LANE, SCHOOL, PED, XING, AHEAD, SIGNAL, TURN, LEFT, RIGHT, ONLY-type messages and others. Notes set the reading order for multi-word messages and the spacing between words, which must be at least four times and not more than ten times the character height.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement markings, words. A24D. No scale.</p>
+<p>Word markings (item, area in ft2)</p>
+<p>NO 10, XING 21, YIELD 24, WAIT 19, TURN 24, LEFT 19, HERE 26, BIKE 5, LANE 6, SIGNAL 32, SCHOOL 35, SLOW 23, STOP 22, PED 78, AHEAD 31, COMPACT 10, RUNAWAY 43, VEHICLES 42, RIGHT 26.</p>
+<p>Some area values are not clearly legible on the scanned sheet.</p>
+<h5>Notes:</h5>
+<p>1. If a message consists of more than one word, it must read &quot;UP&quot;, i.e., the first word must be nearest the driver.</p>
+<p>2. The space between words must be at least four times the height of the characters for low speed roads, but not more than ten times the height of the characters. The space may be reduced appropriately where there is limited space because of local conditions.</p>
+<p>3. Minor variations in dimensions may be accepted by the Engineer.</p>
+<p>4. Portions of a letter, number or symbol may be separated by connecting segments not to exceed 2&quot; in width.</p></details></div>
+<div class="kw">Keywords: pavement words, word markings, STOP pavement legend, SCHOOL XING, PED XING, BIKE LANE legend, YIELD legend, SLOW legend, AHEAD, ONLY legend, word spacing, pavement legends, Caltrans A24D, pavement text, message reads up</div>

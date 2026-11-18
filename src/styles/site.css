@@ -319,3 +319,9 @@ details.orig{margin:.2rem 0 .6rem}details.orig summary{cursor:pointer;color:var(
 .rdg-s a{display:flex;flex-direction:column;align-items:center;text-decoration:none;font-size:.72rem;color:#555;border:1px solid #eee5d3;border-radius:8px;padding:.25rem;background:#fff}
 .rdg-s img{width:190px;height:auto;display:block}
 .rdg-s a:hover{border-color:var(--sss-orange)}
+
+/* cleaned drawing summaries and notes */
+.dwg-sum { font-size: 1.02rem; line-height: 1.55; max-width: 62rem; padding: .7rem 1rem; border-left: 3px solid var(--sl-color-accent); background: var(--sl-color-gray-7, #f6f6f4); }
+.pclean .psum { line-height: 1.5; }
+details.ocr h5 { margin: .8rem 0 .2rem; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; }
+details.ocr p { margin: .25rem 0; }

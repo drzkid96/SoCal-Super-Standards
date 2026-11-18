@@ -1,6 +1,6 @@
 ---
 title: "BT-403 Parking Bay Widths"
-description: "Burbank Std. Plans standard drawing BT-403: Parking Bay Widths. 5 sheet(s), dated 06-01-92."
+description: "Burbank Std. Plans standard drawing BT-403: Parking Bay Widths. Five lookup tables of required parking bay widths for angled parking from 30 to 90 degrees."
 tableOfContents: false
 ---
 
@@ -9,6 +9,7 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-402/">&larr; BT-402</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-404/">BT-404 &rarr;</a></div>
 
+<p class="dwg-sum">Five lookup tables of required parking bay widths for angled parking from 30 to 90 degrees. Tables 1 to 4 cover standard cars with 8'-6" to 9'-4" stalls for one-way and two-way traffic with double or single loaded aisles. Table 5 covers compact cars with 7'-6" by 15'-0" stalls.</p>
 <p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a></p>
 
 
@@ -18,27 +19,161 @@ tableOfContents: false
 ### Sheet 1 of 5 (document page 4)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0004.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0004.webp" alt="BT-403 sheet 1"></a><figcaption>Burbank Std. Plans BT-403, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p4">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>STANDARD CARS TABLE NO. 1 PARKING BAY WIDTHS FOR ONE-WAY TRAFFIC AND DOUBLE LOADED AISLES PARKING 8’-6" ie: 8'-10" 9'-0" g'-2" g'-4" ANGLE STALLS STALLS STALLS STALLS STALLS STALLS 30 43'-0" 43'-0" 43'-0" 43'-0" 43'-0" 43'-0" 32.5 44'-2" 44'-2" 44'-2" 44-2" 44'-2" “2 35 45'-3" 45'-3" 45'-3" 45'-3" 45'-3" 45'-3" 37.5 46'-3" 46'-3" 46'-3" 46'-3" 46'-3" 46'-3" 40 47'-0" 47'-0" 47'0" 47'-0" 47'-0" 47'-0" 42.5 48'-4" 47°-10° 47'-8° 47'-8" 47'-8" 47'-8" 45 49'-10" 49'-5" 49'-0" 48'-7" 48'-7" 48'-5" 47.5 51'-1" 50’-8" 50’-3" 49'-10° 49'-5" 49'-0" 50 52’-3" 51'-10° 51'-5" 51'-0" 50'-6" 50'-1" 52.5 53'-3" 52'-10" 52’-5" 52'-0" 51'-6" 51"-1" 55 54'-2" §3'-9" 53'-4" 52'-11" 52'-5" 52'-0" 57.5 55’-0" 54'-7" 54'-1" 53'-8" §3’-2" 52'-9" 60 55'-17" §5"-5" 55’-0" 54'-6" 54'-0" §3'-7" 62.5 56'-10" 56'-4" 55'-10" 55’-4" 54'-9" 54'-5" 65 57'-8" 57'-2" 56'-8" 56'-2" 55'-8" 55’-2" 67.5 58'-3" 57'-9" 57’-3" 56'-9" 56'-3' 55'-9" 70 59'-0" 58'-6" 58’-0" 57’-67 S70" 56'-6" 72.5 59'-8" 59'-2" 58'-7° 58'-1" 57'-7" 57"-1" 75 60'-4° 59'-9" 59"-2" 58'-8" 58'-1" 57'-7" 45 61'-0" 60'-5" 59'-10" 59'-3" 58'-8" 58'-2" 80 61'-7" 61'-0" 60'-5" 59-10" §9’-3" 58’-8" 82.5 62'-0" 61'-5" 60'-10" 60'-3" 59'-8" 59’-1" a5 62'-6" 61'-11" 61'-3" 60'-8" 60'-1" 59'-6" 87.5 62'-11" 62'-3" 61'-7" 61'-0" 60'-4" 59'-9" 30 63'-4" 62'-8" 62'-0" 61'-4" 60'-8" 60'-0" CITY OF BURBANK - PUBLIC WORKS DEPARTMENT REV BY DATE PARKING BAY WIDTHS C-/-For APPROVED BY: Public Works Digéctor Date STANDARD PLAN BT-403 SHEET 1 OF 5 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>STANDARD CARS</h5>
+<p>Table No. 1: Parking bay widths for one-way traffic and double loaded aisles</p>
+<p>Columns are stall widths: 8&#x27;-6&quot; | 8&#x27;-8&quot; | 8&#x27;-10&quot; | 9&#x27;-0&quot; | 9&#x27;-2&quot; | 9&#x27;-4&quot;</p>
+<p>30 deg: 43&#x27;-0&quot; | 43&#x27;-0&quot; | 43&#x27;-0&quot; | 43&#x27;-0&quot; | 43&#x27;-0&quot; | 43&#x27;-0&quot;</p>
+<p>32.5 deg: 44&#x27;-2&quot; | 44&#x27;-2&quot; | 44&#x27;-2&quot; | 44&#x27;-2&quot; | 44&#x27;-2&quot; | 44&#x27;-2&quot;</p>
+<p>35 deg: 45&#x27;-3&quot; | 45&#x27;-3&quot; | 45&#x27;-3&quot; | 45&#x27;-3&quot; | 45&#x27;-3&quot; | 45&#x27;-3&quot;</p>
+<p>37.5 deg: 46&#x27;-3&quot; | 46&#x27;-3&quot; | 46&#x27;-3&quot; | 46&#x27;-3&quot; | 46&#x27;-3&quot; | 46&#x27;-3&quot;</p>
+<p>40 deg: 47&#x27;-0&quot; | 47&#x27;-0&quot; | 47&#x27;-0&quot; | 47&#x27;-0&quot; | 47&#x27;-0&quot; | 47&#x27;-0&quot;</p>
+<p>42.5 deg: 48&#x27;-4&quot; | 47&#x27;-10&quot; | 47&#x27;-8&quot; | 47&#x27;-8&quot; | 47&#x27;-8&quot; | 47&#x27;-8&quot;</p>
+<p>45 deg: 49&#x27;-10&quot; | 49&#x27;-5&quot; | 49&#x27;-0&quot; | 48&#x27;-7&quot; | 48&#x27;-7&quot; | 48&#x27;-5&quot;</p>
+<p>47.5 deg: 51&#x27;-1&quot; | 50&#x27;-8&quot; | 50&#x27;-3&quot; | 49&#x27;-10&quot; | 49&#x27;-5&quot; | 49&#x27;-0&quot;</p>
+<p>50 deg: 52&#x27;-3&quot; | 51&#x27;-10&quot; | 51&#x27;-5&quot; | 51&#x27;-0&quot; | 50&#x27;-6&quot; | 50&#x27;-1&quot;</p>
+<p>52.5 deg: 53&#x27;-3&quot; | 52&#x27;-10&quot; | 52&#x27;-5&quot; | 52&#x27;-0&quot; | 51&#x27;-6&quot; | 51&#x27;-1&quot;</p>
+<p>55 deg: 54&#x27;-2&quot; | 53&#x27;-9&quot; | 53&#x27;-4&quot; | 52&#x27;-11&quot; | 52&#x27;-5&quot; | 52&#x27;-0&quot;</p>
+<p>57.5 deg: 55&#x27;-0&quot; | 54&#x27;-7&quot; | 54&#x27;-1&quot; | 53&#x27;-8&quot; | 53&#x27;-2&quot; | 52&#x27;-9&quot;</p>
+<p>60 deg: 55&#x27;-11&quot; | 55&#x27;-5&quot; | 55&#x27;-0&quot; | 54&#x27;-6&quot; | 54&#x27;-0&quot; | 53&#x27;-7&quot;</p>
+<p>62.5 deg: 56&#x27;-10&quot; | 56&#x27;-4&quot; | 55&#x27;-10&quot; | 55&#x27;-4&quot; | 54&#x27;-9&quot; | 54&#x27;-5&quot;</p>
+<p>65 deg: 57&#x27;-8&quot; | 57&#x27;-2&quot; | 56&#x27;-8&quot; | 56&#x27;-2&quot; | 55&#x27;-8&quot; | 55&#x27;-2&quot;</p>
+<p>67.5 deg: 58&#x27;-3&quot; | 57&#x27;-9&quot; | 57&#x27;-3&quot; | 56&#x27;-9&quot; | 56&#x27;-3&quot; | 55&#x27;-9&quot;</p>
+<p>70 deg: 59&#x27;-0&quot; | 58&#x27;-6&quot; | 58&#x27;-0&quot; | 57&#x27;-6&quot; | 57&#x27;-0&quot; | 56&#x27;-6&quot;</p>
+<p>72.5 deg: 59&#x27;-8&quot; | 59&#x27;-2&quot; | 58&#x27;-7&quot; | 58&#x27;-1&quot; | 57&#x27;-7&quot; | 57&#x27;-1&quot;</p>
+<p>75 deg: 60&#x27;-4&quot; | 59&#x27;-9&quot; | 59&#x27;-2&quot; | 58&#x27;-8&quot; | 58&#x27;-1&quot; | 57&#x27;-7&quot;</p>
+<p>77.5 deg: 61&#x27;-0&quot; | 60&#x27;-5&quot; | 59&#x27;-10&quot; | 59&#x27;-3&quot; | 58&#x27;-8&quot; | 58&#x27;-2&quot;</p>
+<p>80 deg: 61&#x27;-7&quot; | 61&#x27;-0&quot; | 60&#x27;-5&quot; | 59&#x27;-10&quot; | 59&#x27;-3&quot; | 58&#x27;-8&quot;</p>
+<p>82.5 deg: 62&#x27;-0&quot; | 61&#x27;-5&quot; | 60&#x27;-10&quot; | 60&#x27;-3&quot; | 59&#x27;-8&quot; | 59&#x27;-1&quot;</p>
+<p>85 deg: 62&#x27;-6&quot; | 61&#x27;-11&quot; | 61&#x27;-3&quot; | 60&#x27;-8&quot; | 60&#x27;-1&quot; | 59&#x27;-6&quot;</p>
+<p>87.5 deg: 62&#x27;-11&quot; | 62&#x27;-3&quot; | 61&#x27;-7&quot; | 61&#x27;-0&quot; | 60&#x27;-4&quot; | 59&#x27;-9&quot;</p>
+<p>90 deg: 63&#x27;-4&quot; | 62&#x27;-8&quot; | 62&#x27;-0&quot; | 61&#x27;-4&quot; | 60&#x27;-8&quot; | 60&#x27;-0&quot;</p></details>
 
 ### Sheet 2 of 5 (document page 5)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0005.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0005.webp" alt="BT-403 sheet 2"></a><figcaption>Burbank Std. Plans BT-403, sheet 2. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p5">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>STANDARD CARS TABLE NO. 2 PARKING BAY WIDTHS FOR ONE-WAY TRAFFIC AND SINGLE LOADED AISLES PARKING 8'-6" 8-8" B'-10" 9-0" 9'-2" 9'-4" ANGLE STALLS STALLS STALLS STALLS STALLS STALLS 30 27'-6" 27-6" 27-6" 27-6" 27'-6" 27'-6" 32.5 28-1" 28"-1" 2B'-1" 28'-1" 28-1" ao" 35 28"-7" 28'-7" 28'-7" 28'-7" 28'-7" 28-7" 37.5 29'.1" 29'-1" 29'-1" 29'-1" 29'-1" 29'-1" 40 29'-6" 29'-6" 29'-6" 29'-6" 29'-6" 29'-6" 42.5 30'-6" 30"-1" 29"-10" 29"-10" 29'-10" 29'-10" 45 31'-6" a1" 30'-8" 30'-3" 30'-3" 30'-2" 47.5 32'-6" a2-4° 31'-8" 31'-3" 30'-10" 30-5" 50 33'-5" 33'-0" a2.) 32'-2" 31'-9" 31'-4" 52.5 34'-3" 39'-9" 33'-4" 32-11" 32'-6" 32'-1" 55 35'-1" 34'-7" 34'-2" 33'-8" 33'-3" 32'-10" 57.5 a5'-11" 35'-5" a5'-0" 34'-6" 34'-0" 33'-7° 60 j 36'-9" 36'-3" 35'-9" 35'-3" 34'-9° 34-4" 62.5 37'-6" 37'-0" 36'-6" 36'-0" 35'-6" 35'-0" 65 36'-2" 37'-8" 37'-2" 36'-8" 36'-2" 35'-B" 67.5 38-11" 38-5" 37'-11"° 37'-4" 36'-10" 36'-4" 70 39'-8" 39'-2" 38"-7" 38'-1" 37-6" 37'-0" 72.5 40'-4" 39'-10" 39-3" 38'-9" 38'-2" 37-8" 75 4-1" 40'-7" 40'-0" 39-5" 38-10" 38'-4" 77.5 41'-10" 41'-3" 40'-8" 40'-1" 39'-6" 39'-0" 80 42'-6" 41'-11" 41'-4" 40'-9" 40'-2" 39'-7" 82.5 43'-1" 42-6" 4iat" 41'-4" 40'-9" 40'-2" Bh 43'-10" 43'-3" 42-7" 42'-0" 41-4" 40'-S" 87.5 44'-7" 43'-11" 43'-4" 42'-8" 42'-0" 41'-5" 90 45'-4" 44'-8° 44'-0" 43'-4" 42'-8" 42'-0" CITY OF BURBANK - PUBLIC WORKS DEPARTMENT REV BY DATE PARKING BAY WIDTHS STANDARD PLAN APPROVED 1 &gt; OL =&gt; G7S-G2 | BT-403 Public Works Dingttor Date SHEET 2 OF 5 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>STANDARD CARS</h5>
+<p>Table No. 2: Parking bay widths for one-way traffic and single loaded aisles</p>
+<p>Columns are stall widths: 8&#x27;-6&quot; | 8&#x27;-8&quot; | 8&#x27;-10&quot; | 9&#x27;-0&quot; | 9&#x27;-2&quot; | 9&#x27;-4&quot;</p>
+<p>30 deg: 27&#x27;-6&quot; | 27&#x27;-6&quot; | 27&#x27;-6&quot; | 27&#x27;-6&quot; | 27&#x27;-6&quot; | 27&#x27;-6&quot;</p>
+<p>32.5 deg: 28&#x27;-1&quot; | 28&#x27;-1&quot; | 28&#x27;-1&quot; | 28&#x27;-1&quot; | 28&#x27;-1&quot; | 28&#x27;-1&quot;</p>
+<p>35 deg: 28&#x27;-7&quot; | 28&#x27;-7&quot; | 28&#x27;-7&quot; | 28&#x27;-7&quot; | 28&#x27;-7&quot; | 28&#x27;-7&quot;</p>
+<p>37.5 deg: 29&#x27;-1&quot; | 29&#x27;-1&quot; | 29&#x27;-1&quot; | 29&#x27;-1&quot; | 29&#x27;-1&quot; | 29&#x27;-1&quot;</p>
+<p>40 deg: 29&#x27;-6&quot; | 29&#x27;-6&quot; | 29&#x27;-6&quot; | 29&#x27;-6&quot; | 29&#x27;-6&quot; | 29&#x27;-6&quot;</p>
+<p>42.5 deg: 30&#x27;-6&quot; | 30&#x27;-1&quot; | 29&#x27;-10&quot; | 29&#x27;-10&quot; | 29&#x27;-10&quot; | 29&#x27;-10&quot;</p>
+<p>45 deg: 31&#x27;-6&quot; | 31&#x27;-1&quot; | 30&#x27;-8&quot; | 30&#x27;-3&quot; | 30&#x27;-3&quot; | 30&#x27;-2&quot;</p>
+<p>47.5 deg: 32&#x27;-6&quot; | 32&#x27;-1&quot; | 31&#x27;-8&quot; | 31&#x27;-3&quot; | 30&#x27;-10&quot; | 30&#x27;-5&quot;</p>
+<p>50 deg: 33&#x27;-5&quot; | 33&#x27;-0&quot; | 32&#x27;-7&quot; | 32&#x27;-2&quot; | 31&#x27;-9&quot; | 31&#x27;-4&quot;</p>
+<p>52.5 deg: 34&#x27;-3&quot; | 33&#x27;-9&quot; | 33&#x27;-4&quot; | 32&#x27;-11&quot; | 32&#x27;-6&quot; | 32&#x27;-1&quot;</p>
+<p>55 deg: 35&#x27;-1&quot; | 34&#x27;-7&quot; | 34&#x27;-2&quot; | 33&#x27;-8&quot; | 33&#x27;-3&quot; | 32&#x27;-10&quot;</p>
+<p>57.5 deg: 35&#x27;-11&quot; | 35&#x27;-5&quot; | 35&#x27;-0&quot; | 34&#x27;-6&quot; | 34&#x27;-0&quot; | 33&#x27;-7&quot;</p>
+<p>60 deg: 36&#x27;-9&quot; | 36&#x27;-3&quot; | 35&#x27;-9&quot; | 35&#x27;-3&quot; | 34&#x27;-9&quot; | 34&#x27;-4&quot;</p>
+<p>62.5 deg: 37&#x27;-6&quot; | 37&#x27;-0&quot; | 36&#x27;-6&quot; | 36&#x27;-0&quot; | 35&#x27;-6&quot; | 35&#x27;-0&quot;</p>
+<p>65 deg: 38&#x27;-2&quot; | 37&#x27;-8&quot; | 37&#x27;-2&quot; | 36&#x27;-8&quot; | 36&#x27;-2&quot; | 35&#x27;-8&quot;</p>
+<p>67.5 deg: 38&#x27;-11&quot; | 38&#x27;-5&quot; | 37&#x27;-11&quot; | 37&#x27;-4&quot; | 36&#x27;-10&quot; | 36&#x27;-4&quot;</p>
+<p>70 deg: 39&#x27;-8&quot; | 39&#x27;-2&quot; | 38&#x27;-7&quot; | 38&#x27;-1&quot; | 37&#x27;-6&quot; | 37&#x27;-0&quot;</p>
+<p>72.5 deg: 40&#x27;-4&quot; | 39&#x27;-10&quot; | 39&#x27;-3&quot; | 38&#x27;-9&quot; | 38&#x27;-2&quot; | 37&#x27;-8&quot;</p>
+<p>75 deg: 41&#x27;-1&quot; | 40&#x27;-7&quot; | 40&#x27;-0&quot; | 39&#x27;-5&quot; | 38&#x27;-10&quot; | 38&#x27;-4&quot;</p>
+<p>77.5 deg: 41&#x27;-10&quot; | 41&#x27;-3&quot; | 40&#x27;-8&quot; | 40&#x27;-1&quot; | 39&#x27;-6&quot; | 39&#x27;-0&quot;</p>
+<p>80 deg: 42&#x27;-6&quot; | 41&#x27;-11&quot; | 41&#x27;-4&quot; | 40&#x27;-9&quot; | 40&#x27;-2&quot; | 39&#x27;-7&quot;</p>
+<p>82.5 deg: 43&#x27;-1&quot; | 42&#x27;-6&quot; | 41&#x27;-11&quot; | 41&#x27;-4&quot; | 40&#x27;-9&quot; | 40&#x27;-2&quot;</p>
+<p>85 deg: 43&#x27;-10&quot; | 43&#x27;-3&quot; | 42&#x27;-7&quot; | 42&#x27;-0&quot; | 41&#x27;-4&quot; | 40&#x27;-9&quot;</p>
+<p>87.5 deg: 44&#x27;-7&quot; | 43&#x27;-11&quot; | 43&#x27;-4&quot; | 42&#x27;-8&quot; | 42&#x27;-0&quot; | 41&#x27;-5&quot;</p>
+<p>90 deg: 45&#x27;-4&quot; | 44&#x27;-8&quot; | 44&#x27;-0&quot; | 43&#x27;-4&quot; | 42&#x27;-8&quot; | 42&#x27;-0&quot;</p></details>
 
 ### Sheet 3 of 5 (document page 6)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0006.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0006.webp" alt="BT-403 sheet 3"></a><figcaption>Burbank Std. Plans BT-403, sheet 3. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p6">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>STANDARD CARS : TABLE NO. 3 PARKING BAY WIDTHS FOR TWO-WAY TRAFFIC AND DOUBLE LOADED AISLES PARKING '-6" 8'-8" B’-10" 9'-0" 9'-2" g’-4" ANGLE STALLS STALLS STALLS STALLS STALLS STALLS 30 51'-2" 51"-2" 51*-2" 51’-2" 51'-2" 51'-2" 32.5 52'-4" 52'-4" 52'-4" 52'-4" 52'-4" 52'-4" 35 53'-3" 53'-3" 53’-3" 53’-3" 53°-3” 53'-3" 37.5 54'-2" 542" 54'-2" 54’-2" 54’-2" 54'-2" 40 54'-10" 54’-10" 2 54’-10" 54’-10" 54’-10" 54’-10" 42.5 55’-7" 55’-7* 55’-7* 55'-7" 55'-7" 55-7" 45 56'-4" 56’-4" 56’-4" 56'-4" 56'-4" 56'-4" 47.5 57'-0" 57'-0" 57'-0" 57'-0" 57'-0" 57'-0" 50 57'-8" 57-7" 57-7" 57-7" 57'-5" 57'-6" 52.5 58'-3° 58'-2" 58'-2" 58’-1" 58'-0" 58'-0" 55 58'-9" a8 - 58'-7" 58’-6" 58"-5" 58-4" 57.5 59'-4" 59'-2" 59'-1" 58-11" 58'-9" 58'-8" 60 59'-9" 59'-7" 59'-5" 59’-3" 59'-1" 58’-11" 62.5 60"-2" 60'-0" 59'-9" 59-7" 59'-4" 59’-2" 65 60'-8° 60-5" 60'-2" §9'-17" 59’-8" 58'-5" 67.5 61-1" 60'-9" 60'-6" 60'-2" 59’-10° 59'-77 70 61'-5° 61'-1" 60-9" 60'-5" 60'-1" 59'-9" 72.5 61'-10" 61'-5" 61'-0" 60'-7" 60'-2" 59'-10" re) 62-1" 61'-8" 61'-3" 60'-9" 60'-4" 59'-11" ree) §2'-5" 61'-11" 61'-5" 60'-11" 60'-5" 60'-0" 80 62'-8" 62'-2" 61'-7" : 61'-1" 60'-6" 60'-0" 82.5 62'-11" 62'-4" 61'-9" 61'-2" 60'-7" 60'-0" a5 63'-1" 62'-6" 61'-10"° 61'-3" 60-7" 60'-0" 87.5 63'-3" 62'-7" 61'-11" 61'-3" 60'-7" 60'-0" 90 63'-4" §2'-8" 62'-0" 61'-4" 60'-8" 60'-0" CITY OF BURBANK - PUBLIC WORKS DEPARTMENT REV BY DATE PARKING BAY WIDTHS APPROVED BY: Shan Public Works Dire¢tor GO -f- IR Date STANDARD PLAN BT-403 SHEET 3 OF 5 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>STANDARD CARS</h5>
+<p>Table No. 3: Parking bay widths for two-way traffic and double loaded aisles</p>
+<p>Columns are stall widths: 8&#x27;-6&quot; | 8&#x27;-8&quot; | 8&#x27;-10&quot; | 9&#x27;-0&quot; | 9&#x27;-2&quot; | 9&#x27;-4&quot;</p>
+<p>30 deg: 51&#x27;-2&quot; | 51&#x27;-2&quot; | 51&#x27;-2&quot; | 51&#x27;-2&quot; | 51&#x27;-2&quot; | 51&#x27;-2&quot;</p>
+<p>32.5 deg: 52&#x27;-4&quot; | 52&#x27;-4&quot; | 52&#x27;-4&quot; | 52&#x27;-4&quot; | 52&#x27;-4&quot; | 52&#x27;-4&quot;</p>
+<p>35 deg: 53&#x27;-3&quot; | 53&#x27;-3&quot; | 53&#x27;-3&quot; | 53&#x27;-3&quot; | 53&#x27;-3&quot; | 53&#x27;-3&quot;</p>
+<p>37.5 deg: 54&#x27;-2&quot; | 54&#x27;-2&quot; | 54&#x27;-2&quot; | 54&#x27;-2&quot; | 54&#x27;-2&quot; | 54&#x27;-2&quot;</p>
+<p>40 deg: 54&#x27;-10&quot; | 54&#x27;-10&quot; | 54&#x27;-10&quot; | 54&#x27;-10&quot; | 54&#x27;-10&quot; | 54&#x27;-10&quot;</p>
+<p>42.5 deg: 55&#x27;-7&quot; | 55&#x27;-7&quot; | 55&#x27;-7&quot; | 55&#x27;-7&quot; | 55&#x27;-7&quot; | 55&#x27;-7&quot;</p>
+<p>45 deg: 56&#x27;-4&quot; | 56&#x27;-4&quot; | 56&#x27;-4&quot; | 56&#x27;-4&quot; | 56&#x27;-4&quot; | 56&#x27;-4&quot;</p>
+<p>47.5 deg: 57&#x27;-0&quot; | 57&#x27;-0&quot; | 57&#x27;-0&quot; | 57&#x27;-0&quot; | 57&#x27;-0&quot; | 57&#x27;-0&quot;</p>
+<p>50 deg: 57&#x27;-8&quot; | 57&#x27;-7&quot; | 57&#x27;-7&quot; | 57&#x27;-7&quot; | 57&#x27;-6&quot; | 57&#x27;-6&quot;</p>
+<p>52.5 deg: 58&#x27;-3&quot; | 58&#x27;-2&quot; | 58&#x27;-2&quot; | 58&#x27;-1&quot; | 58&#x27;-0&quot; | 58&#x27;-0&quot;</p>
+<p>55 deg: 58&#x27;-9&quot; | 58&#x27;-8&quot; | 58&#x27;-7&quot; | 58&#x27;-6&quot; | 58&#x27;-5&quot; | 58&#x27;-4&quot;</p>
+<p>57.5 deg: 59&#x27;-4&quot; | 59&#x27;-2&quot; | 59&#x27;-1&quot; | 58&#x27;-11&quot; | 58&#x27;-9&quot; | 58&#x27;-8&quot;</p>
+<p>60 deg: 59&#x27;-9&quot; | 59&#x27;-7&quot; | 59&#x27;-5&quot; | 59&#x27;-3&quot; | 59&#x27;-1&quot; | 58&#x27;-11&quot;</p>
+<p>62.5 deg: 60&#x27;-2&quot; | 60&#x27;-0&quot; | 59&#x27;-9&quot; | 59&#x27;-7&quot; | 59&#x27;-4&quot; | 59&#x27;-2&quot;</p>
+<p>65 deg: 60&#x27;-8&quot; | 60&#x27;-5&quot; | 60&#x27;-2&quot; | 59&#x27;-11&quot; | 59&#x27;-8&quot; | 58&#x27;-5&quot;</p>
+<p>67.5 deg: 61&#x27;-1&quot; | 60&#x27;-9&quot; | 60&#x27;-6&quot; | 60&#x27;-2&quot; | 59&#x27;-10&quot; | 59&#x27;-7&quot;</p>
+<p>70 deg: 61&#x27;-5&quot; | 61&#x27;-1&quot; | 60&#x27;-9&quot; | 60&#x27;-5&quot; | 60&#x27;-1&quot; | 59&#x27;-9&quot;</p>
+<p>72.5 deg: 61&#x27;-10&quot; | 61&#x27;-5&quot; | 61&#x27;-0&quot; | 60&#x27;-7&quot; | 60&#x27;-2&quot; | 59&#x27;-10&quot;</p>
+<p>75 deg: 62&#x27;-1&quot; | 61&#x27;-8&quot; | 61&#x27;-3&quot; | 60&#x27;-9&quot; | 60&#x27;-4&quot; | 59&#x27;-11&quot;</p>
+<p>77.5 deg: 62&#x27;-5&quot; | 61&#x27;-11&quot; | 61&#x27;-5&quot; | 60&#x27;-11&quot; | 60&#x27;-5&quot; | 60&#x27;-0&quot;</p>
+<p>80 deg: 62&#x27;-8&quot; | 62&#x27;-2&quot; | 61&#x27;-7&quot; | 61&#x27;-1&quot; | 60&#x27;-6&quot; | 60&#x27;-0&quot;</p>
+<p>82.5 deg: 62&#x27;-11&quot; | 62&#x27;-4&quot; | 61&#x27;-9&quot; | 61&#x27;-2&quot; | 60&#x27;-7&quot; | 60&#x27;-0&quot;</p>
+<p>85 deg: 63&#x27;-1&quot; | 62&#x27;-6&quot; | 61&#x27;-10&quot; | 61&#x27;-3&quot; | 60&#x27;-7&quot; | 60&#x27;-0&quot;</p>
+<p>87.5 deg: 63&#x27;-3&quot; | 62&#x27;-7&quot; | 61&#x27;-11&quot; | 61&#x27;-3&quot; | 60&#x27;-7&quot; | 60&#x27;-0&quot;</p>
+<p>90 deg: 63&#x27;-4&quot; | 62&#x27;-8&quot; | 62&#x27;-0&quot; | 61&#x27;-4&quot; | 60&#x27;-8&quot; | 60&#x27;-0&quot;</p></details>
 
 ### Sheet 4 of 5 (document page 7)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0007.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0007.webp" alt="BT-403 sheet 4"></a><figcaption>Burbank Std. Plans BT-403, sheet 4. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p7">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>STANDARD CARS TABLE NO. 4 PARKING BAY WIDTHS FOR TWO-WAY TRAFFIC AND SINGLE LOADED AISLES PARKING 8'-6" 8-8" 8'-10" 9'-0" 9-2" 9'-4" ANGLE STALLS STALLS STALLS STALLS STALLS STALLS 30 35'-6" 35'-6" 35'-6" 35'-6" 35'-6" 35'-6" 32.5 36'-0" 36'-0" 36'-0" 36'-0" 36'-0" 36'-0" 35 36'-6" 36'-6" 36'-6" 36-6" 36-6" 36'-6" 37.5 37'-0" 37'-0" 37'-0" 37'-0" 37'-0" 37'-0" 40 37" 37'-6" 37'-5" 37"-5" 37'-5° 37'-5" 42.5 38'-0" 37'-11" 37-11" 37"-11" 37'-10" 37'-10" 45 38'-6" 38'-5" 38'-5" 38'-4" 38'-4" 38'-3" 47.5 38'-11" 38'-10° 38'-10" 38'-9" 38'-8° 38'-8" 50 39-4" 39'-3" 39'-3" 39'-2" 39'-1"* 39'-0" 52.5 39'-9" 39'-8° 39'-7" 39-6" 39'-5" 39'-4" 55 40'-1" 40'-0" ag’-11" 39'-10° 39'-9° 39'-8" 57.5 40'-6" 40'-5" 40'-4" 40'-2" 40'-1" 40'-0" 60 40'-11" 40'-10" 40'-8" 40'-7" 40'-5" 40'-4" 62.5 41'-4" 41-2" 41'-0" 40'-10" 40'-8" 40'-7" £5 41-8" 41'-6" 41'-4" 41'-2" 41'-0" 40'-10" 67.5 42'-1" 41'-11" 41-8" 41-6" 41'-3" 41-1" 70 42'-6" 42'-3" 42'-0" 41'-9" 41'-6" 41'-4" 72.5 42’-10° 42'-7" 42'-4" 42'-0" 41'-9° 41'-6" 75 43'-3" 42'-11" 42'-7" 42'-3" 41'-11" 41'-8" 77.5 43'-7" 43'-3" 42'-11" 42'-6" 42'-2" 41'-10" 80 44'-0" 43'-7" 43-2" 42'-9" 42'-4" 41-11" 82.5 44'-4" 43'-10" 43'-5" 42-11" 42'-5" 42'-0" 85 44'-8" 44'-2" 43'-7" 43'-1" 42'-6" 42'-0" 87.5 45-0" 44'-5" 43'-10" 43'-2" 42-7 42'-0" 90 45'-4" 44-8" 44'-0" 43'-4" 42-8" 42'-0" CITY OF BURBANK - PUBLIC WORKS DEPARTMENT BY DATE PARKING BAY WIDTHS =) - Fee. APPROVED BY: @ Public Works Dirggtor Date STANDARD PLAN BT-403 SHEET 4 OF 5 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>STANDARD CARS</h5>
+<p>Table No. 4: Parking bay widths for two-way traffic and single loaded aisles</p>
+<p>Columns are stall widths: 8&#x27;-6&quot; | 8&#x27;-8&quot; | 8&#x27;-10&quot; | 9&#x27;-0&quot; | 9&#x27;-2&quot; | 9&#x27;-4&quot;</p>
+<p>30 deg: 35&#x27;-6&quot; | 35&#x27;-6&quot; | 35&#x27;-6&quot; | 35&#x27;-6&quot; | 35&#x27;-6&quot; | 35&#x27;-6&quot;</p>
+<p>32.5 deg: 36&#x27;-0&quot; | 36&#x27;-0&quot; | 36&#x27;-0&quot; | 36&#x27;-0&quot; | 36&#x27;-0&quot; | 36&#x27;-0&quot;</p>
+<p>35 deg: 36&#x27;-6&quot; | 36&#x27;-6&quot; | 36&#x27;-6&quot; | 36&#x27;-6&quot; | 36&#x27;-6&quot; | 36&#x27;-6&quot;</p>
+<p>37.5 deg: 37&#x27;-0&quot; | 37&#x27;-0&quot; | 37&#x27;-0&quot; | 37&#x27;-0&quot; | 37&#x27;-0&quot; | 37&#x27;-0&quot;</p>
+<p>40 deg: 37&#x27;-6&quot; | 37&#x27;-6&quot; | 37&#x27;-5&quot; | 37&#x27;-5&quot; | 37&#x27;-5&quot; | 37&#x27;-5&quot;</p>
+<p>42.5 deg: 38&#x27;-0&quot; | 37&#x27;-11&quot; | 37&#x27;-11&quot; | 37&#x27;-11&quot; | 37&#x27;-10&quot; | 37&#x27;-10&quot;</p>
+<p>45 deg: 38&#x27;-6&quot; | 38&#x27;-5&quot; | 38&#x27;-5&quot; | 38&#x27;-4&quot; | 38&#x27;-4&quot; | 38&#x27;-3&quot;</p>
+<p>47.5 deg: 38&#x27;-11&quot; | 38&#x27;-10&quot; | 38&#x27;-10&quot; | 38&#x27;-9&quot; | 38&#x27;-8&quot; | 38&#x27;-8&quot;</p>
+<p>50 deg: 39&#x27;-4&quot; | 39&#x27;-3&quot; | 39&#x27;-3&quot; | 39&#x27;-2&quot; | 39&#x27;-1&quot; | 39&#x27;-0&quot;</p>
+<p>52.5 deg: 39&#x27;-9&quot; | 39&#x27;-8&quot; | 39&#x27;-7&quot; | 39&#x27;-6&quot; | 39&#x27;-5&quot; | 39&#x27;-4&quot;</p>
+<p>55 deg: 40&#x27;-1&quot; | 40&#x27;-0&quot; | 39&#x27;-11&quot; | 39&#x27;-10&quot; | 39&#x27;-9&quot; | 39&#x27;-8&quot;</p>
+<p>57.5 deg: 40&#x27;-6&quot; | 40&#x27;-5&quot; | 40&#x27;-4&quot; | 40&#x27;-2&quot; | 40&#x27;-1&quot; | 40&#x27;-0&quot;</p>
+<p>60 deg: 40&#x27;-11&quot; | 40&#x27;-10&quot; | 40&#x27;-8&quot; | 40&#x27;-7&quot; | 40&#x27;-5&quot; | 40&#x27;-4&quot;</p>
+<p>62.5 deg: 41&#x27;-4&quot; | 41&#x27;-2&quot; | 41&#x27;-0&quot; | 40&#x27;-10&quot; | 40&#x27;-8&quot; | 40&#x27;-7&quot;</p>
+<p>65 deg: 41&#x27;-8&quot; | 41&#x27;-6&quot; | 41&#x27;-4&quot; | 41&#x27;-2&quot; | 41&#x27;-0&quot; | 40&#x27;-10&quot;</p>
+<p>67.5 deg: 42&#x27;-1&quot; | 41&#x27;-11&quot; | 41&#x27;-8&quot; | 41&#x27;-6&quot; | 41&#x27;-3&quot; | 41&#x27;-1&quot;</p>
+<p>70 deg: 42&#x27;-6&quot; | 42&#x27;-3&quot; | 42&#x27;-0&quot; | 41&#x27;-9&quot; | 41&#x27;-6&quot; | 41&#x27;-4&quot;</p>
+<p>72.5 deg: 42&#x27;-10&quot; | 42&#x27;-7&quot; | 42&#x27;-4&quot; | 42&#x27;-0&quot; | 41&#x27;-9&quot; | 41&#x27;-6&quot;</p>
+<p>75 deg: 43&#x27;-3&quot; | 42&#x27;-11&quot; | 42&#x27;-7&quot; | 42&#x27;-3&quot; | 41&#x27;-11&quot; | 41&#x27;-8&quot;</p>
+<p>77.5 deg: 43&#x27;-7&quot; | 43&#x27;-3&quot; | 42&#x27;-11&quot; | 42&#x27;-6&quot; | 42&#x27;-2&quot; | 41&#x27;-10&quot;</p>
+<p>80 deg: 44&#x27;-0&quot; | 43&#x27;-7&quot; | 43&#x27;-2&quot; | 42&#x27;-9&quot; | 42&#x27;-4&quot; | 41&#x27;-11&quot;</p>
+<p>82.5 deg: 44&#x27;-4&quot; | 43&#x27;-10&quot; | 43&#x27;-5&quot; | 42&#x27;-11&quot; | 42&#x27;-5&quot; | 42&#x27;-0&quot;</p>
+<p>85 deg: 44&#x27;-8&quot; | 44&#x27;-2&quot; | 43&#x27;-7&quot; | 43&#x27;-1&quot; | 42&#x27;-6&quot; | 42&#x27;-0&quot;</p>
+<p>87.5 deg: 45&#x27;-0&quot; | 44&#x27;-5&quot; | 43&#x27;-10&quot; | 43&#x27;-2&quot; | 42&#x27;-7&quot; | 42&#x27;-0&quot;</p>
+<p>90 deg: 45&#x27;-4&quot; | 44&#x27;-8&quot; | 44&#x27;-0&quot; | 43&#x27;-4&quot; | 42&#x27;-8&quot; | 42&#x27;-0&quot;</p></details>
 
 ### Sheet 5 of 5 (document page 8)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0008.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0008.webp" alt="BT-403 sheet 5"></a><figcaption>Burbank Std. Plans BT-403, sheet 5. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p8">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>COMPACT CARS TABLE NO. 5 STANDARD STALL WIDTH = 7'-6" STANDARD STALL LENGTH = 15'-0" ONE-WAY TRAFFIC TWO-WAY TRAFFIC PARKING BAY WIDTH BAY WIDTH PARKING BAY WIDTH BAY WIDTH ANGLE (DOUBLE (SINGLE ANGLE (DOUBLE (SINGLE LOADED) LOADED) LOADED) LOADED) 30 40'-0" 26'-0" 30 48'-2" 34'-0" 32.5 40-11" 25'-6" 32.5 49'-1" 34-5" 35 41'-10° 26'-10° 35 49'-10" 34’-9" 37.5 42'-7" 27'-3" 37.5 50'-6" 35'-2" 40 43-2" 27'-7" 40 50'-11" 35’-6" 42.5 43'-7" 27'-10" 42.5 51'-6" 35’-10" 45 44'-4" 28'-2" 45 52'-1" 36'-3" 47.5 45'-5" 29'-0" 47.5 52'-7" 36'-6" 50 46'-5° 29'-10" 50 52'-11" 36’-10" 52.5 47-3" 30'-6" $2.5 53'-4" 37'-2" 55 48'-0" 31°-3° 55 §3'-7" 37'-4" 57.5 48-7" 31-17" 57.5 53'-10"° 37'-8" 60 49'-4" 32'-8" 60 54'-1" a7'-11" 62.5 50'-0" 33'-4" 62.5 54'-3" 38-2" 65 50'-9" 33°-11" 65 54'-6" 38'-5" 67.5 51'-3" 4-7" 67.5 54-8" 38’-9° 70 51'-10° 35'-3" 70 54'-9" 38'-11" 72.5 52'-4" 35'-10" 72.5 54'-10° 39"-2" 75 52'-10" 36'-6" 75 54'-11" 39'-4" 80 53'-11" 37'-10" BO §5'-2" 39'-10" 82.5 54'-4" 38'4" 82.5 55'-3" 39°-11" a5 54’-B" 39'-0" B5 55'-3" 40"-1" 87.5 55’-0" 39'-8" 87.5 55'-3" 40'-2" 90 §5'-4" 40'-4 _ 90 55'-4" 40'-4" CITY OF BURBANK - PUBLIC WORKS DEPARTMENT REV BY DATE PARKING BAY WIDTHS APPROVED BY: @ Public Works Dir r “1- GF 2 STANDARD PLAN BT-403 SHEET 5 OF 5 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>COMPACT CARS</h5>
+<p>Table No. 5: Standard stall width = 7&#x27;-6&quot;, standard stall length = 15&#x27;-0&quot;</p>
+<p>Bay widths by parking angle</p>
+<p>30 deg: one-way double loaded 40&#x27;-0&quot;, one-way single loaded 26&#x27;-0&quot;, two-way double loaded 48&#x27;-2&quot;, two-way single loaded 34&#x27;-0&quot;</p>
+<p>32.5 deg: one-way double loaded 40&#x27;-11&quot;, one-way single loaded 25&#x27;-6&quot;, two-way double loaded 49&#x27;-1&quot;, two-way single loaded 34&#x27;-5&quot;</p>
+<p>35 deg: one-way double loaded 41&#x27;-10&quot;, one-way single loaded 26&#x27;-10&quot;, two-way double loaded 49&#x27;-10&quot;, two-way single loaded 34&#x27;-9&quot;</p>
+<p>37.5 deg: one-way double loaded 42&#x27;-7&quot;, one-way single loaded 27&#x27;-3&quot;, two-way double loaded 50&#x27;-6&quot;, two-way single loaded 35&#x27;-2&quot;</p>
+<p>40 deg: one-way double loaded 43&#x27;-2&quot;, one-way single loaded 27&#x27;-7&quot;, two-way double loaded 50&#x27;-11&quot;, two-way single loaded 35&#x27;-6&quot;</p>
+<p>42.5 deg: one-way double loaded 43&#x27;-7&quot;, one-way single loaded 27&#x27;-10&quot;, two-way double loaded 51&#x27;-6&quot;, two-way single loaded 35&#x27;-10&quot;</p>
+<p>45 deg: one-way double loaded 44&#x27;-4&quot;, one-way single loaded 28&#x27;-2&quot;, two-way double loaded 52&#x27;-1&quot;, two-way single loaded 36&#x27;-3&quot;</p>
+<p>47.5 deg: one-way double loaded 45&#x27;-5&quot;, one-way single loaded 29&#x27;-0&quot;, two-way double loaded 52&#x27;-7&quot;, two-way single loaded 36&#x27;-6&quot;</p>
+<p>50 deg: one-way double loaded 46&#x27;-5&quot;, one-way single loaded 29&#x27;-10&quot;, two-way double loaded 52&#x27;-11&quot;, two-way single loaded 36&#x27;-10&quot;</p>
+<p>52.5 deg: one-way double loaded 47&#x27;-3&quot;, one-way single loaded 30&#x27;-6&quot;, two-way double loaded 53&#x27;-4&quot;, two-way single loaded 37&#x27;-2&quot;</p>
+<p>55 deg: one-way double loaded 48&#x27;-0&quot;, one-way single loaded 31&#x27;-3&quot;, two-way double loaded 53&#x27;-7&quot;, two-way single loaded 37&#x27;-4&quot;</p>
+<p>57.5 deg: one-way double loaded 48&#x27;-7&quot;, one-way single loaded 31&#x27;-11&quot;, two-way double loaded 53&#x27;-10&quot;, two-way single loaded 37&#x27;-8&quot;</p>
+<p>60 deg: one-way double loaded 49&#x27;-4&quot;, one-way single loaded 32&#x27;-8&quot;, two-way double loaded 54&#x27;-1&quot;, two-way single loaded 37&#x27;-11&quot;</p>
+<p>62.5 deg: one-way double loaded 50&#x27;-0&quot;, one-way single loaded 33&#x27;-4&quot;, two-way double loaded 54&#x27;-3&quot;, two-way single loaded 38&#x27;-2&quot;</p>
+<p>65 deg: one-way double loaded 50&#x27;-9&quot;, one-way single loaded 33&#x27;-11&quot;, two-way double loaded 54&#x27;-6&quot;, two-way single loaded 38&#x27;-5&quot;</p>
+<p>67.5 deg: one-way double loaded 51&#x27;-3&quot;, one-way single loaded 34&#x27;-7&quot;, two-way double loaded 54&#x27;-8&quot;, two-way single loaded 38&#x27;-9&quot;</p>
+<p>70 deg: one-way double loaded 51&#x27;-10&quot;, one-way single loaded 35&#x27;-3&quot;, two-way double loaded 54&#x27;-9&quot;, two-way single loaded 38&#x27;-11&quot;</p>
+<p>72.5 deg: one-way double loaded 52&#x27;-4&quot;, one-way single loaded 35&#x27;-10&quot;, two-way double loaded 54&#x27;-10&quot;, two-way single loaded 39&#x27;-2&quot;</p>
+<p>75 deg: one-way double loaded 52&#x27;-10&quot;, one-way single loaded 36&#x27;-6&quot;, two-way double loaded 54&#x27;-11&quot;, two-way single loaded 39&#x27;-4&quot;</p>
+<p>80 deg: one-way double loaded 53&#x27;-11&quot;, one-way single loaded 37&#x27;-10&quot;, two-way double loaded 55&#x27;-2&quot;, two-way single loaded 39&#x27;-10&quot;</p>
+<p>82.5 deg: one-way double loaded 54&#x27;-4&quot;, one-way single loaded 38&#x27;-4&quot;, two-way double loaded 55&#x27;-3&quot;, two-way single loaded 39&#x27;-11&quot;</p>
+<p>85 deg: one-way double loaded 54&#x27;-8&quot;, one-way single loaded 39&#x27;-0&quot;, two-way double loaded 55&#x27;-3&quot;, two-way single loaded 40&#x27;-1&quot;</p>
+<p>87.5 deg: one-way double loaded 55&#x27;-0&quot;, one-way single loaded 39&#x27;-8&quot;, two-way double loaded 55&#x27;-3&quot;, two-way single loaded 40&#x27;-2&quot;</p>
+<p>90 deg: one-way double loaded 55&#x27;-4&quot;, one-way single loaded 40&#x27;-4&quot;, two-way double loaded 55&#x27;-4&quot;, two-way single loaded 40&#x27;-4&quot;</p></details>
 
 
-<div class="kw">Keywords: stalls, parking, standard, widths, public, works, date, cars, table, one-way, traffic, double, loaded, aisles, single, two-way, width, stall, angle, compact</div>
+<div class="kw">Keywords: parking bay width, angled parking, parking angle table, double loaded aisle, single loaded aisle, one-way aisle, two-way aisle, standard car stall, compact car stall, parking lot layout, stall width 9 feet, 60 degree parking, 45 degree parking, 90 degree parking, aisle width table</div>

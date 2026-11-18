@@ -180,11 +180,18 @@ sidebar:
 
 <span id="p19" class="anchor"></span>
 
-### Page 19
+### Page 19 - Pedestrian Zones Diagram
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0019.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0019.webp" alt="Complete Streets DG page 19 "></a><figcaption>Complete Streets DG, page 19 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>Complete Streets Design Guide 1. INTRODUCTION Pedestrian Zone Frontage Zone Back to Table of Contents Amenity Zone 11 </p></details>
-<div class="kw">Keywords: zone, complete, streets, design, guide, introduction, pedestrian, frontage, back, table, contents, amenity</div>
+<div class="pclean"><p class="psum"><b>Pedestrian Zones Diagram.</b> Diagram page from the Introduction chapter labeling the pedestrian zones of a sidewalk: the Frontage Zone and the Amenity Zone within the Pedestrian Zone. No dimensions are given in the page text.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Introduction</p>
+<p>Pedestrian Zone</p>
+<p>Frontage Zone</p>
+<p>Amenity Zone</p></details></div>
+<div class="pclean"><p class="psum"><b>Pedestrian Zones Diagram.</b> Diagram page from the Introduction chapter labeling the pedestrian zones of a sidewalk: the Frontage Zone and the Amenity Zone within the Pedestrian Zone. No dimensions are given in the page text.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Introduction</p>
+<p>Pedestrian Zone</p>
+<p>Frontage Zone</p>
+<p>Amenity Zone</p></details></div>
+<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, pedestrian zone, frontage zone, amenity zone, sidewalk zones, sidewalk diagram, pedestrian realm</div>
 
 
 <span id="p20" class="anchor"></span>
@@ -198,11 +205,14 @@ sidebar:
 
 <span id="p21" class="anchor"></span>
 
-### Page 21
+### Page 21 - Complete Streets Design Guide: Street Classifications (Section Divider)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" alt="Complete Streets DG page 21 "></a><figcaption>Complete Streets DG, page 21 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>COMPLETE STREETS DESIGN GUIDE STREET CLASSIFICATIONS 7 , “af </p></details>
-<div class="kw">Keywords: complete, streets, design, guide, street, classifications</div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Street Classifications (Section Divider).</b> Section divider page for the Street Classifications chapter, with a photograph. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
+<p>Street Classifications</p></details></div>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Street Classifications (Section Divider).</b> Section divider page for the Street Classifications chapter, with a photograph. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
+<p>Street Classifications</p></details></div>
+<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, street classifications, section divider, street types</div>
 
 
 <span id="p22" class="anchor"></span>

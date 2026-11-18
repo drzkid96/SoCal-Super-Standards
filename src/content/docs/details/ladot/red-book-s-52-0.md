@@ -1,6 +1,6 @@
 ---
-title: "S-52.0 Standard drawing"
-description: "Red Book standard drawing S-52.0: Standard drawing. 1 sheet(s)."
+title: "S-52.0 100 MPH Poles (Sheet 1 of 2)"
+description: "Red Book standard drawing S-52.0: 100 MPH Poles (Sheet 1 of 2). Gives the pole, mast arm and cast-in-drilled-hole (CIDH) pile foundation data for LADOT 100 mph signal poles."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-51-8/">&larr; S-51.8</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1/">S-52.1 &rarr;</a></div>
 
-
+<p class="dwg-sum">Gives the pole, mast arm and cast-in-drilled-hole (CIDH) pile foundation data for LADOT 100 mph signal poles. A schedule lists each pole type by standard height (17 ft, 18.5 ft or 30 ft), mast arm length (15 ft to 65 ft), minimum signal spacing, pile diameter and depth, cage size, anchor bolts and base plate size. Poles are fabricated to the 2006 Caltrans Standard Plans.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></p>
 
 
 
@@ -18,7 +19,25 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 38)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0038.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0038.webp" alt="S-52.0 sheet 1"></a><figcaption>Red Book S-52.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p38">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>36" | 0.50" NC square nut holder with fastener for grounding welded to interior of pole shaft at 180° from hand hole rim Anchor bolt-thread #8 Green bonding wire 4" X 6 %" Hand Hole reinforced with ring welded to outside of pole. See note 2, %" cover Anchor bolts (2-7 ; ° nuts &amp; 2 washers 77 top 8" and After plumbing standard, galvanize 12" place mortar all around yn bolts. Finish with slope Wah ranging from 45° to 90° 2" Min. to 3" including drain holes. Max. mortar Finished grade i= = = [+ ~"— Traffic signal + conduit ( 2") plate. Diameter 2" clearance #8 - total 10 #4 @ 6' or #4 spiral j @ 6" pitch with 1'-6" lap @ splice and 135° hook @ terminations ¢ SECTION A-A CAST-IN-DRILLED-HOLE ( CIDH ) PILE FOUNDATION ¢ Street lighting ¢ 4 . required per bolt ), ‘ GJ. 4 L conduit ( 1") total 4 4 aay ae Cc 4 Ss B | y 4 a0 y g &gt; circle Alll~ * &lt;« 4}1]) a } ee) Type 560-C-3250- ~~ | J} 2fe sy ed, xd 6 concrete s e 4a © 3" N la 1S) \ ‘ \ 7 72 5 XX ¥ 4 3 fou) = 3fu 5fu Reinforcing cage | ola wi S a8 A 276 or - HH) ° 61 -5- 100) J { 1%" 4 4. = 4 4 BASE PLATE Diameter TYPE Standard | Mast Arm "pH CIDH Pile Foundation Anchor Bolt C Height Length Min. Spacing Dia. Depth Cage Dia. Cage Depth Bolts Circle 16-3- 100 18.5) 15! or 20) PY * r 17-3-100 30! ° 18-4-100 17' 95! or 30! 42 r 19-4-100 30' ° ' 1 @n 9 8 _ 6 18" 23 - 4-100 17' 35) 14) 2' X 42"X 6"! 18" 24 - 4-100 u " 30' 36 32 ao 04100 40! or 45' 15! 27-4- 100 or 17 eet 50! or 55 Q'-2 81-8 21 21 I or I 1 _ Hd 1 _ W W I 29 -5- 100 30' Fil = 15! 60 - 5 - 100 17' F2= 12! 1 r i 16' 1 eu VAL IL m " " 61.5- 100 30 60' or 65 15'-6 2 Ys"@ X 60" X 6 23 23 Notes: DWN MT 9-30-15 | Title 1. Fabrication of the standards shall conform to the 2006 State of California Department of Transportation Standard plans. CKD 1 00 M PH Poles (V2) 2. Hand Hole reinforcement ring shall be 4" X 2" for 0.1196" to T.E. JV 9-30-15 0.2391" thick poles, %" X 2" for 0.3125" thick poles. 3. Base plate to be fabricated as shown. Sr. T.E. | MA 10-1-15 CITY OF LOS ANGELES 4. Luminaire Arm Length per Street Lighting Sheet. 5. Standard to be pre-drilled as shown. Pr.T.E. | Wd 10-2-15 DEPARTMENT OF TRANSPORTATION 6. Attach stamped metal tag above hand hole on pole and on Approved 11-20-15 Drawing No. mast arm (minimum %" height numbers see sheet 2 ). ; * Fabricate and install with 18" bolt circle. S-52 1 6 Seleta J. Reynolds, General Manager 31 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>100 MPH Poles, sheet 1 of 2.</p>
+<p>Section A-A, cast-in-drilled-hole (CIDH) pile foundation: 2 in clearance, #8 total 10 bars, #4 at 6 in or #4 spiral at 6 in pitch with 1 ft 6 in lap at splice and 135 degree hook at terminations.</p>
+<p>Elevation: 36 in offset. 0.50 in NC square nut holder with fastener for grounding welded to interior of pole shaft at 180 degrees from hand hole rim. #8 green bonding wire. 4 in x 6 1/2 in hand hole reinforced with ring welded to outside of pole, see note 2, 1/8 in cover plate. Anchor bolt threaded top 8 in and galvanized 12 in. 1 in plus or minus 1/4 in. 2 in min. to 3 in max. mortar. After plumbing standard, place mortar all around bolts and finish with slope ranging from 45 to 90 degrees including drain holes. 18 in min. depth. Traffic signal conduit (2 in). Street lighting conduit (1 in). Anchor bolts (2 nuts and 2 washers required per bolt), total 4. Type 560-C-3250 concrete. Reinforcing cage with 3 in clearance. Base plate dimension C with bolt circle, slot size 2 3/8 in (2 5/8 in for 60-5-100 and 61-5-100), 1 1/2 in and 3 in edge dimensions as shown.</p>
+<h5>Schedule (type, standard height, mast arm length, F min. spacing):</h5>
+<p>16-3-100: 18.5 ft; 17-3-100: 30 ft. Mast arm 15 ft or 20 ft, F = 8 ft.</p>
+<p>18-4-100: 17 ft; 19-4-100: 30 ft. Mast arm 25 ft or 30 ft, F = 12 ft.</p>
+<p>23-4-100: 17 ft; 24-4-100: 30 ft. Mast arm 35 ft, F = 14 ft.</p>
+<p>26-4-100: 30 ft; 27-4-100: 17 ft. Mast arm 40 ft or 45 ft, F = 15 ft.</p>
+<p>28-5-100: 17 ft; 29-5-100: 30 ft. Mast arm 50 ft or 55 ft, F1 = 15 ft, F2 = 12 ft.</p>
+<p>60-5-100: 17 ft; 61-5-100: 30 ft. Mast arm 60 ft or 65 ft, F1 = 15 ft, F2 = 12 ft.</p>
+<p>CIDH pile: diameter 36 in, cage diameter 32 in. Depth 9 ft with cage depth 8 ft 6 in for the lighter types, 9 ft 2 in with cage depth 8 ft 8 in for types 28-5-100 and 29-5-100, 16 ft with cage depth 15 ft 6 in for types 60-5-100 and 61-5-100.</p>
+<p>Anchor bolts 2 in dia. x 42 in x 6 in (2 1/4 in dia. x 60 in x 6 in for types 60-5-100 and 61-5-100). Bolt circle 18 in (21 in for types 28-5-100 and 29-5-100, 23 in for types 60-5-100 and 61-5-100), with * for the first two types: fabricate and install with 18 in bolt circle. Plate dimension C: 18 in, 21 in or 23 in to match.</p>
+<h5>Notes:</h5>
+<p>1. Fabrication of the standards shall conform to the 2006 State of California Department of Transportation Standard Plans.</p>
+<p>2. Hand hole reinforcement ring shall be 1/4 in x 2 in for 0.1196 in to 0.2391 in thick poles, 3/8 in x 2 in for 0.3125 in thick poles.</p>
+<p>3. Base plate to be fabricated as shown.</p>
+<p>4. Luminaire arm length per street lighting sheet.</p>
+<p>5. Standard to be pre-drilled as shown.</p>
+<p>6. Attach stamped metal tag above hand hole on pole and on mast arm (minimum 1/4 in height numbers, see sheet 2).</p></details>
 
 
-<div class="kw">Keywords: hand, hole, standard, pole, anchor, bolts, plate, bolt, circle, cage, poles, welded, ring, mortar</div>
+<div class="kw">Keywords: 100 mph poles, signal pole schedule, cidh pile foundation, mast arm length, pole base plate, anchor bolts 2 inch, pile foundation depth, type 16-3-100, pole height 30 ft, reinforcing cage, traffic signal conduit, street lighting conduit, hand hole, wind load poles</div>

@@ -1,6 +1,6 @@
 ---
-title: "S-52.2 Standard drawing"
-description: "Red Book standard drawing S-52.2: Standard drawing. 2 sheet(s)."
+title: "S-52.2 Standard, Type 16 (Signal Mast Arm Pole) and Foundation, Type F-2"
+description: "Red Book standard drawing S-52.2: Standard, Type 16 (Signal Mast Arm Pole) and Foundation, Type F-2. Two LADOT sheets."
 tableOfContents: false
 ---
 
@@ -9,6 +9,7 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1-71/">&larr; S-52.1.71</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-2-2/">S-52.2.2 &rarr;</a></div>
 
+<p class="dwg-sum">Two LADOT sheets. The first gives the Type 16 tapered steel signal standard with a mast arm of 15 ft (max. 20 ft), a minimum signal mounting height of 17 ft 6 in, pole and arm schedules, base plate and hand hole details. The second gives Foundation Type F-2, a 32 in square footing 48 in deep plus 4 in topping with 4 anchor bolts on an 11 1/2 in bolt circle.</p>
 <p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></p>
 
 
@@ -18,12 +19,38 @@ tableOfContents: false
 ### Sheet 1 of 2 (document page 36)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0036.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0036.webp" alt="S-52.2 sheet 1"></a><figcaption>Red Book S-52.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p36">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>Tap pole plate for hex. head a ovina ca Unless otherwise noted (Max. 20’) ‘ * tong, ‘ yn X0-5 4" 3" 3" 4" 10 G , 4 Provide removable See Detail "A" i” __rain-tight cap J 7 Ga. “6 -——~+ 18" X 66" ae | Ly wo Sign “| nh fe. ; " iT) foe) mn ! 1 Ot = eT Ms nop &gt; | A Z4/ f Mi = = p—tene ff! | OA KY =) Wa Drillone side, 2 opposite quadrant {" i 2 _ of mast arm Note: c&lt; 5 OY 1" Dia. chased Dimensions shown here apply to both =|= Kt &amp; . outlet for electrical the post and signal arm plate e| &amp; ‘ = 9 = conductors —1G RB] g — ‘THAW 2 9° 7 Detail "A i 7 den | Not to scale _ 5) ° \ = aa a ayn 4" X 6/2" handhole rainforced with No. 3 to 74" Drill thru Ae" — gage ring 12" wide welded to outside of R 2 holes(Typ. pole. Cover of 10 gage plate. Locate in -2 places) opposite quadrant of mast arm. — Ze, = amnarie 5 Note: te ore s Top 3" of foundation to be 36: Undisturbed [ ; poured level with sidewalk ; earth Li ——- 117 Bolt except on structures. ar 3 Circle Bar 1" X/" —\\ Hl) Se Axis of @ Anchor Bolt Foundation, Type F-2 backing ring. co &gt;= Mast Arm 1/"X 40" VY (S-52.2) 32" X 32" Tack weld to ASTM A307 X (48"+4" Topping) late W 560-C-3250 Cone. P — ~ 1%"X 1/4" slot POLE SCHEDULE SIGNALARMDATA (A) R=1N" Hole for Anchor bolt RSTEEL POLE signa | CENGTH | ASE | op \@ POLE MREIGHT dia =574" HoT CAGE MIN. 0.D. Lene 150" SOGA. 46" 22.32" Pole Base Plate BASE | TOP 18'-0' 5.2' 23,38! No Scale 18.0" 10 GA. 7%" | 5%" | 15'- 20° 20'-0" 7 GA. 5.0" ~~ Notes: Notes: (4) Round tapered steel tube with maximum taper of .15 inches per foot. End 1. Alternative details approved by the Engineer may be subst. section O.D. of 2%" for mounting hardware. Standard 2" pipe extensions for the arm connections and configurations shown. of 3'-0" max. length may be used at the option of the manufacturer. 2. Fabricators electing to use larger than min. arm diameters must (2) 4 anchor bolts each base plate. Length indicated does not include required adjust the details as required to permit solid seating of cap screws. 4"-90° bend. Each anchor bolt is threaded 6" at the top and is furnished 3. In lieu of the torque requirements for HS bolts, cap screws shall be with 2 nuts &amp; 2 washers. One anchor bolt bonded to conduit. 1. Pole and signal arm shall be fabricated from sheet steel conforming to the tightened by the turn-of-nut method 1/6 turn from snug tight condition. No washer will be required. specifications of ASTM Designation A611 Grade C, or ASTM Designation 4. Only one signal head may be mounted on each signal arm. A 570 Grade C. 5. All metal parts shall be galvanized after fabrication. 2. All welding shall conform to AWS D2.0 "Specifications for welded Highway 6. All arms shall be bent to the approximate configuration shown. and Railway Bridges." 3. All structual steel shall conform to ASTM designation A36, except as otherwise shown. Drawn By Title Checked By VY STANDARD, TYPE 16 Supervised By Reviewed By CITY OF LOS ANGELES BRIDGE AND STRUCTURAL DESIGN DIVISION Revisions DEPARTMENT OF TRANSPORTATION Updated VW RO | 4-3-82 Frances T. Banerjee, General Manager CHECKED FOR STRUCTURAL DESICN Updated W |GH |3-27-92] Approved Nov. 13, 1998 | DRAWING NO. DIV. ENGR. Philip H. Skarin . DATE August_7, 1973 ——: S - 51 9.5 29 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Standard, Type 16. Pole and signal arm details.</p>
+<p>Signal arm projected length 15 ft 0 in unless otherwise noted (max. 20 ft). Traffic signal mounting height 17 ft 6 in min. Pole height 18 ft 0 in.</p>
+<p>Provide removable rain-tight cap. 18 in x 66 in sign. See Detail &quot;A&quot;.</p>
+<p>Dimensions at the pole: 7 ft 6 in, 11 ft 3 in, 15 ft 6 in, 17 ft 6 in, 18 ft 0 in. Foundation Type F-2 (S-52.2), 32 in x 32 in x (48 in + 4 in topping), 560-C-3250 concrete. Anchor bolt 1 1/8 in x 40 in, ASTM A307. Top 3 in of foundation to be poured level with sidewalk except on structures. 36 in from curb.</p>
+<p>Detail &quot;A&quot; (not to scale): tap pole plate for hex. head cap screw ASTM A325, 3/4 in-10 x 1 3/4 in long, total 3. 1 in dia. chased outlet for electrical conductors. 2 1/4 in drill, one side, opposite quadrant of mast arm. 3/4 in drill thru 2 holes (typ. 2 places). Bar 2 in x 1/4 in x 0 ft 5 in. 10 ga. plate 1/4 in, 7 ga. plate 5/16 in. Note: dimensions shown here apply to both the post and signal arm plate.</p>
+<p>Pole base plate (no scale): 4 in x 6 1/2 in handhole reinforced with No. 3 gage ring 1 1/2 in wide welded to outside of pole. Cover of 10 gage plate. Locate in opposite quadrant of mast arm. Bar 1 in x 1/4 in backing ring, tack weld to plate. 11 1/2 in bolt circle on axis of mast arm. 11 1/2 in sq. plate, hole dia. = 5 3/4 in, R = 1 1/2 in, 1 3/8 in x 1 1/2 in slot for anchor bolt.</p>
+<p>Pole schedule: round tapered steel pole, height 18.0 ft, gage 10 GA., min. O.D. 7 3/4 in base and 5 1/4 in top, signal arm length 15 to 20 ft.</p>
+<p>Signal arm data (1): projected length 15 ft 0 in, 10 GA., min. O.D. at pole 4.6 in, mounting height 22.3 ft. 18 ft 0 in, 10 GA., 5.2 in, 23.3 ft. 20 ft 0 in, 7 GA., 5.0 in, 23.3 ft.</p>
+<h5>Notes:</h5>
+<p>(1) Round tapered steel tube with maximum taper of 0.15 in per foot. End section O.D. of 2 3/8 in for mounting hardware. Standard 2 in pipe extensions of 3 ft 0 in max. length may be used at the option of the manufacturer.</p>
+<p>(2) 4 anchor bolts each base plate. Length indicated does not include required 4 in 90 degree bend. Each anchor bolt is threaded 6 in at the top and is furnished with 2 nuts and 2 washers. One anchor bolt bonded to conduit.</p>
+<p>1. Pole and signal arm shall be fabricated from sheet steel conforming to the specifications of ASTM Designation A611 Grade C, or ASTM Designation A570 Grade C.</p>
+<p>2. All welding shall conform to AWS D2.0 &quot;Specifications for Welded Highway and Railway Bridges.&quot;</p>
+<p>3. All structural steel shall conform to ASTM designation A36, except as otherwise shown.</p>
+<h5>Notes, continued:</h5>
+<p>1. Alternative details approved by the Engineer may be substituted for the arm connections and configurations shown.</p>
+<p>2. Fabricators electing to use larger than min. arm diameters must adjust the details as required to permit solid seating of cap screws.</p>
+<p>3. In lieu of the torque requirements for HS bolts, cap screws shall be tightened by the turn-of-nut method 1/6 turn from snug tight condition. No washer will be required.</p>
+<p>4. Only one signal head may be mounted on each signal arm.</p>
+<p>5. All metal parts shall be galvanized after fabrication.</p>
+<p>6. All arms shall be bent to the approximate configuration shown.</p></details>
 
 ### Sheet 2 of 2 (document page 87)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0087.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0087.webp" alt="S-52.2 sheet 2"></a><figcaption>Red Book S-52.2, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p87">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>8 1/8” Sq. 11 1/2” Bolt Circle | Minimum Topping —= 36” Bonding Strap or wire Vor _ 7 &gt; is ret . 4 : &amp; 2 1 tea es] E Brace st , “A 4 | a &lt;q [= 3 ° S J 4 q . ‘ + , ° 4 _ J _ 4 g a a 4. | A y 00 s fle dp. : Kv a 74) Anchor Bolts | “|f a8 1 Vg” X 40” X 4 « Go 1, (2 nuts &amp; 2 washers ——- 4 aM required per bolt) © —— ‘ 4 a 4a 4 4 4 , 1 6” Min. Notes: 1. Use 1” galvanized conduit for street lighting and 2” schedule 80 PVC conduit for traffic signal unless otherwise specified. 2. Conduit stubs from foundation shall be in the direction of the nearest corresponding pullbox unless otherwise specified. 3. Topping shall be considered as a part of the foundation. DWN MT 03-30-04 | Title CKD FOUNDATION, TYPE F-2 4) T. E. JV 6-1-06 Sr. T. £.| JW 6-1—-06 CITY OF LOS ANGELES Pr. T. E.| SS 6-2-06 DEPARTMENT OF TRANSPORTATION Approved June 2, 2006 | Drawing No. £ Lhe Aceh S-52.2 for Gloria J. Jeff, General Manager 80 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Foundation, Type F-2. Sheet 1 of 1.</p>
+<p>Plan: 32 in sq. footing, 8 1/8 in sq. base plate, 11 1/2 in bolt circle, anchor bolts at 45 degrees. 36 in from curb.</p>
+<p>Section: minimum topping 4 in, 14 in min. to conduit, footing depth 48 in, 6 in min. Anchor bolts 1 1/8 in x 40 in x 4 in (2 nuts and 2 washers required per bolt). Bonding strap or wire. Bushing.</p>
+<h5>Notes:</h5>
+<p>1. Use 1 in galvanized conduit for street lighting and 2 in schedule 80 PVC conduit for traffic signal unless otherwise specified.</p>
+<p>2. Conduit stubs from foundation shall be in the direction of the nearest corresponding pullbox unless otherwise specified.</p>
+<p>3. Topping shall be considered as a part of the foundation.</p></details>
 
 
-<div class="kw">Keywords: pole, plate, bolt, anchor, shown, signal, astm, mast, base, steel, required, designation, head, otherwise, conduit, foundation, topping, unless, specified, circle, minimum, bonding, strap, wire, brace</div>
+<div class="kw">Keywords: type 16 standard, signal mast arm pole, foundation type f-2, mast arm 15 ft, pole base plate, anchor bolts 1 1/8, signal mounting height, hand hole, pole schedule, signal arm data, steel pole astm a611, pole foundation, street lighting conduit, bonding strap</div>

@@ -9,7 +9,7 @@ sidebar:
 
 <span id="p34" class="anchor"></span>
 
-### Page 34 - Rest-In-Red Detection
+### Page 34 - Special Detector Applications
 
 <div class="pmeta">Drawings: <strong>S-75.0</strong>, <strong>S-65.0</strong>, <strong>S-70.0</strong> &middot; Topics: crosswalks, bikeways, transit, signals, parking-curb, striping, intersections</div>
 <div class="dtext"><h4>Rest-In-Red Detection</h4>
@@ -107,12 +107,14 @@ sidebar:
 <p>Max.</p>
 <p>B1</p>
 <p>6'</p></div>
-<div class="kw">Keywords: speed, loop, signal, detector, detection, decelerate, call, desired, distance, controller, priority, table, detectors, motorists</div>
+<div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p></div>
+<div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p></div>
+<div class="kw">Keywords: bus priority detection, bus loop, special detector, bicycle detection, bike lane detector, advance detector, inductive loop, pb3 pull box, bus zone, transit signal priority, divided street detection, detector loop, s-70.1d, extend green bicyclists</div>
 
 
 <span id="p35" class="anchor"></span>
 
-### Page 35 - S-85.0
+### Page 35 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals</div>
 <div class="dtext"><h4>S-85.0</h4>
@@ -199,12 +201,14 @@ sidebar:
 <p>January 30, 2006</p>
 <p>for</p>
 <p>1-25-06 SS</p></div>
-<div class="kw">Keywords: visibility, head, signal, sheet, alignment, lens, general, application-see, center, department, transportation, frances, banerjee, manager</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p36" class="anchor"></span>
 
-### Page 36 - S-85.0
+### Page 36 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: crosswalks, transit, signals, intersections</div>
 <div class="dtext"><h4>S-85.0</h4>
@@ -263,12 +267,14 @@ sidebar:
 <p>lication of</p>
 <h4>lity-Limited</h4>
 <p>Signal Heads</p></div>
-<div class="kw">Keywords: visibility, signal, head, display, ground, heads, downstream, line, lens, transportation, angeles, drawing, application, point</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p37" class="anchor"></span>
 
-### Page 37 - 50Visibility of Lens
+### Page 37 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals, intersections</div>
 <div class="dtext"><h4>50Visibility of Lens</h4>
@@ -297,93 +303,69 @@ sidebar:
 <h4>Application of Visibility-Limited</h4>
 <p>Traffic Signal Heads</p>
 <h4>applicability of each type of laterally restricted head. 6. Clear acetate copies of visibility nomographs should be used to d</h4></div>
-<div class="kw">Keywords: visibility, heads, restrict, lateral, programmed, lens, they, beveled, right, visors, line, traffic, signal, left</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p38" class="anchor"></span>
 
-### Page 38 - S-85.0 Application of Visibility-Limited Traffic Signal Heads
+### Page 38 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0038.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0038.webp" alt="MPP 521 page 38 S-85.0 Application of Visibility-Limited Traffic Signal Heads"></a><figcaption>MPP 521, page 38. Click to enlarge.</figcaption></figure>
-<div class="dtext"><h4>ARTMENT OF TRANSPORTATION</h4>
-<h4>S-85.0</h4>
-<p>1998</p>
-<p>CITY OF LOS ANGELES</p>
-<p>ral Manager</p>
-<p>Drawing No.</p>
-<p>6 12</p>
-<p>DE</p>
-<p>Frances T. Banerjee, Gen</p>
-<p>10-28-98</p>
-<p>Approved</p>
-<p>T. E.</p>
-<p>Sr. T. E.</p>
-<p>Pr. T. E.</p>
-<p>DWN</p>
-<p>CKD</p>
-<p>MT Title</p>
-<h4>50Visibility of Lens</h4>
-<p>sibility of Lens</p>
-<h4>ssumed alignment of head.</h4>
-<p>flicting approaches.</p>
-<h4>led Visor Head</h4>
-<h4>Center of Signal Head Alignment</h4>
-<h4>50Visibility of Lens</h4>
-<h4>0Visibility of Lens</h4>
-<h4>Not to be seen by</h4>
-<p>24°</p>
-<p>13°</p>
-<h4>Visibility Nomograph for Long</h4>
-<h4>Use to determine conformance with restricted visibility to c Place the line for "Center of Signal Head Alignment" along</h4>
-<h4>50Visibility of Lens</h4>
-<p>conflicting approach</p>
-<p>13°</p>
-<p>24°</p>
-<h4>Application of Visibility-Limited Traffic Signal Heads</h4>
-<p>26°</p>
-<h4>Title Drawing No. 4 11 S-85.0</h4>
-<p>CITY OF LOS ANGELES</p>
-<p>DEPARTMENT OF TRANSPORTATION</p>
-<h4>Application of Visibility-Limited</h4>
-<h4>Traffic Signal Heads</h4>
-<h4>Visibility Nomograph for Standard Visor Head</h4>
-<p>Place the line for "Center of Signal Head Alignment" along assumed alignment of head. Determine conformance with restricted visibility to conflicting approaches.</p>
-<p>45° 45°</p>
-<p>27° 27°</p>
-<h4>Not to be seen by conflicting approach</h4>
-<h4>50Visibility of Lens</h4>
-<h4>50Visibility of Lens</h4>
-<h4>0Visibility of Lens</h4>
-<h4>0Visibility of Lens</h4>
-<h4>Center of Signal Head Alignment</h4>
-<p>54°</p></div>
-<div class="kw">Keywords: visibility, lens, head, alignment, signal, center, conflicting, transportation, city, angeles, drawing, title, approaches, visor</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Visibility nomograph for standard visor head</p>
+<p>Place the line for &quot;Center of Signal Head Alignment&quot; along assumed alignment of head. Determine conformance with restricted visibility to conflicting approaches.</p>
+<p>Angles: 0% visibility of lens at 45 degrees each side of centerline. 50% visibility of lens at 27 degrees each side of centerline (54 degrees total).</p>
+<p>The shaded area between the 50% visibility lines is &quot;Not to be seen by conflicting approach.&quot;</p>
+<p>Sheet 4 of 11.</p></details></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Visibility nomograph for standard visor head</p>
+<p>Place the line for &quot;Center of Signal Head Alignment&quot; along assumed alignment of head. Determine conformance with restricted visibility to conflicting approaches.</p>
+<p>Angles: 0% visibility of lens at 45 degrees each side of centerline. 50% visibility of lens at 27 degrees each side of centerline (54 degrees total).</p>
+<p>The shaded area between the 50% visibility lines is &quot;Not to be seen by conflicting approach.&quot;</p>
+<p>Sheet 4 of 11.</p></details></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p39" class="anchor"></span>
 
-### Page 39 - S-85.0 Application of Visibility-Limited Traffic Signal Heads
+### Page 39 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0039.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0039.webp" alt="MPP 521 page 39 S-85.0 Application of Visibility-Limited Traffic Signal Heads"></a><figcaption>MPP 521, page 39. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>PARTMENT OF TRANSPORTATION S-85.0 1998 CITY OF LOS ANGELES ral Manager Drawing No. 7 12 Visor Head nflicting approaches. assumed alignment of head. 0Visibility of Lens Application of Visibility-Limited Traffic Signal Heads Title Drawing No. 5 11 S-85.0 CITY OF LOS ANGELES DEPARTMENT OF TRANSPORTATION Application of Visibility-Limited Traffic Signal Heads 0Visibility of Lens 45° 27° 50Visibility of Lens Center of Signal Head Alignment 0Visibility of Lens Not to be seen by 50Visibility of Lens 13° 24° conflicting approach 40° </p></details>
-<div class="kw">Keywords: visibility, lens, head, signal, transportation, city, angeles, drawing, alignment, application, visibility-limited, traffic, heads, partment</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Visibility nomograph for beveled visor head</p>
+<p>Angles: 0% visibility of lens at 45 degrees on one side and 24 degrees on the other side of the centerline. 50% visibility of lens at 27 degrees on one side and 13 degrees on the other side (40 degrees total).</p>
+<p>The shaded area between the 50% visibility lines is &quot;Not to be seen by conflicting approach.&quot;</p>
+<p>Sheet 5 of 11.</p></details></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Visibility nomograph for beveled visor head</p>
+<p>Angles: 0% visibility of lens at 45 degrees on one side and 24 degrees on the other side of the centerline. 50% visibility of lens at 27 degrees on one side and 13 degrees on the other side (40 degrees total).</p>
+<p>The shaded area between the 50% visibility lines is &quot;Not to be seen by conflicting approach.&quot;</p>
+<p>Sheet 5 of 11.</p></details></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p40" class="anchor"></span>
 
-### Page 40 - S-85.0 Application of Visibility-Limited Traffic Signal Heads
+### Page 40 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0040.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0040.webp" alt="MPP 521 page 40 S-85.0 Application of Visibility-Limited Traffic Signal Heads"></a><figcaption>MPP 521, page 40. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>Title Drawing No. 6 11 S-85.0 CITY OF LOS ANGELES DEPARTMENT OF TRANSPORTATION Application of Visibility-Limited Traffic Signal Heads 50Visibility of Lens 0Visibility of Lens 50Visibility of Lens Center of Signal Head Alignment 24° Not to be seen by 0Visibility of Lens 45° 27° 13° Place the line for "Center of Signal Head Alignment" along assumed alignment of head. Use to determine conformance with restricted visibility to conflicting approaches. Visibility Nomograph for Right Beveled Visor Head conflicting approach 40° </p></details>
-<div class="kw">Keywords: visibility, lens, head, signal, alignment, center, conflicting, title, drawing, city, angeles, department, transportation, application</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Visibility nomograph for right beveled visor head</p>
+<p>Place the line for &quot;Center of Signal Head Alignment&quot; along assumed alignment of head. Use to determine conformance with restricted visibility to conflicting approaches.</p>
+<p>Angles: 0% visibility of lens at 45 degrees on one side and 24 degrees on the other side of the centerline. 50% visibility of lens at 27 degrees on one side and 13 degrees on the other side (40 degrees total).</p>
+<p>The shaded area between the 50% visibility lines is &quot;Not to be seen by conflicting approach.&quot;</p>
+<p>Sheet 6 of 11.</p></details></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Visibility nomograph for right beveled visor head</p>
+<p>Place the line for &quot;Center of Signal Head Alignment&quot; along assumed alignment of head. Use to determine conformance with restricted visibility to conflicting approaches.</p>
+<p>Angles: 0% visibility of lens at 45 degrees on one side and 24 degrees on the other side of the centerline. 50% visibility of lens at 27 degrees on one side and 13 degrees on the other side (40 degrees total).</p>
+<p>The shaded area between the 50% visibility lines is &quot;Not to be seen by conflicting approach.&quot;</p>
+<p>Sheet 6 of 11.</p></details></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p41" class="anchor"></span>
 
-### Page 41 - Title Drawing No. 7 11 S-85.0
+### Page 41 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals</div>
 <div class="dtext"><h4>Title Drawing No. 7 11 S-85.0</h4>
@@ -405,12 +387,14 @@ sidebar:
 <p>13°</p>
 <p>24°</p>
 <p>26°</p></div>
-<div class="kw">Keywords: visibility, head, lens, signal, alignment, center, conflicting, title, drawing, city, angeles, department, transportation, application</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p42" class="anchor"></span>
 
-### Page 42 - Application of Visibility-Limited
+### Page 42 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals</div>
 <div class="dtext"><p>Title CITY OF LOS ANGELES</p>
@@ -430,39 +414,33 @@ sidebar:
 <h4>light conditions programmed visibility heads can "bleed" beyond the masked limits.</h4>
 <p>to see if the cone-of-visibility is adequate for all applicable approach lanes. Durin</p>
 <h4>these limits is Masked area within</h4></div>
-<div class="kw">Keywords: visibility, signal, head, alignment, masked, limits, heads, maximum, limit, center, approach, programmed, title, city</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p43" class="anchor"></span>
 
-### Page 43 - S-85.0 Application of Visibility-Limited Traffic Signal Heads
+### Page 43 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals, striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0043.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0043.webp" alt="MPP 521 page 43 S-85.0 Application of Visibility-Limited Traffic Signal Heads"></a><figcaption>MPP 521, page 43. Click to enlarge.</figcaption></figure>
-<div class="dtext"><h4>Arden St.</h4>
-<h4>Diagonal St.</h4>
-<h4>A = 54° Angle of 50lens visibility of a standard signal head. The signal</h4>
-<p>head shown is intended for Arden</p>
-<p>Street motorists. However, it can be</p>
-<p>seen too easily by Diagonal Street motorists, since the Angle A shading crosses that limit line.</p>
-<p>a left-beveled visor would adquately</p>
-<p>restrict lateral visibility.</p>
-<h4>of a left-beveled visor signal head. B = 40° Angle of 50lens visibility</h4>
-<p>Since the Angle B shading does not</p>
-<p>cross the limit line on Diagonal Street</p>
-<p>Center of Signal Head Alignment</p>
-<h4>Lateral Visibility: Beveled Visor Application ( or )</h4>
-<h4>Title Drawing No. 9 11 S-85.0</h4>
-<p>CITY OF LOS ANGELES</p>
-<p>DEPARTMENT OF TRANSPORTATION</p>
-<h4>Application of Visibility-Limited</h4>
-<p>Traffic Signal Heads</p></div>
-<div class="kw">Keywords: signal, angle, visibility, head, diagonal, street, visor, arden, lens, motorists, since, shading, limit, line</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Lateral visibility: beveled visor application</p>
+<p>Arden St. and Diagonal St.</p>
+<p>A = 54 degrees. Angle of 50% lens visibility of a standard signal head. The signal head shown is intended for Arden Street motorists. However, it can be seen too easily by Diagonal Street motorists, since the Angle A shading crosses that limit line.</p>
+<p>B = 40 degrees. Angle of 50% lens visibility of a left-beveled visor signal head. Since the Angle B shading does not cross the limit line on Diagonal Street, a left-beveled visor would adequately restrict lateral visibility.</p>
+<p>Sheet 9 of 11.</p></details></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Lateral visibility: beveled visor application</p>
+<p>Arden St. and Diagonal St.</p>
+<p>A = 54 degrees. Angle of 50% lens visibility of a standard signal head. The signal head shown is intended for Arden Street motorists. However, it can be seen too easily by Diagonal Street motorists, since the Angle A shading crosses that limit line.</p>
+<p>B = 40 degrees. Angle of 50% lens visibility of a left-beveled visor signal head. Since the Angle B shading does not cross the limit line on Diagonal Street, a left-beveled visor would adequately restrict lateral visibility.</p>
+<p>Sheet 9 of 11.</p></details></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p44" class="anchor"></span>
 
-### Page 44 - Title Drawing No. 10 11 S-85.0
+### Page 44 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals, striping</div>
 <div class="dtext"><h4>Title Drawing No. 10 11 S-85.0</h4>
@@ -485,138 +463,89 @@ sidebar:
 <h4>Beverly St.</h4>
 <h4>Diagonal St.</h4>
 <p>Center of Signal Head Alignment</p></div>
-<div class="kw">Keywords: signal, angle, visibility, head, street, beverly, clarita, long, visor, application, diagonal, motorists, avenue, since</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p45" class="anchor"></span>
 
-### Page 45 - S-85.0 Application of Visibility-Limited Traffic Signal Heads
+### Page 45 - Application of Visibility-Limited Traffic Signal Heads
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals, striping, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0045.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0045.webp" alt="MPP 521 page 45 S-85.0 Application of Visibility-Limited Traffic Signal Heads"></a><figcaption>MPP 521, page 45. Click to enlarge.</figcaption></figure>
-<div class="dtext"><h4>S-85.0 DEPARTMENT OF TRANSPORTATION</h4>
-<h4>Frances T. Banerjee, General Manager Approved Sr. T. E. Pr. T. E.</h4>
-<p>DWN T. E. CKD 10-28-98 MT Title</p>
-<h4>Drawing No. CITY OF LOS ANGELES</h4>
-<p>12 4</p>
-<p>1998</p>
-<h4>S-85.0 DEPARTMENT OF TRANSPORTATION CITY OF LOS ANGELES</h4>
-<p>10-28-98</p>
-<h4>Frances T. Banerjee, General Manager Approved</h4>
-<p>T. E. Pr. T. E. Sr. T. E.</p>
-<p>CKD DWN MT Title</p>
-<h4>Drawing No. 1998</h4>
-<p>12 1</p>
-<p>Longitudinal Visibility Application-See Sheet 2 Lateral Visibility General Notes-See Sheet 3 Beveled Visor Application-See Sheet 10 Long Visor Application-See Sheet 11 Programmed Visibility Application-See Sheet 12 Visibility Nomographs-See Sheets 4 ~ 9</p>
-<p>Visibility Nomograph for Standard Visor Head Place the line for "Center of Signal Head Alignment" along assumed alignment of head. Determine conformance with restricted visibility to conflicting approaches.</p>
-<p>45° 45° 27° 27°</p>
-<h4>Not to be seen by conflicting approach</h4>
-<h4>50Visibility of Lens</h4>
-<h4>50Visibility of Lens</h4>
-<h4>0Visibility of Lens</h4>
-<h4>0Visibility of Lens</h4>
-<h4>Center of Signal Head Alignment</h4>
-<h4>Application of Visibility-Limited Traffic Signal Heads</h4>
-<h4>Application of Visibility-Limited Traffic Signal Heads</h4>
-<p>54°</p>
-<h4>Frances T. Banerjee, Interim General Manager Approved Sr. T. E. Pr. T. E.</h4>
-<h4>DWN T. E. CKD Title</h4>
-<h4>Drawing No.</h4>
-<h4>S-85.0 CITY OF LOS ANGELES MT 12-06-05</h4>
-<h4>DEPARTMENT OF TRANSPORTATION</h4>
-<h4>11 Application of Visibility-Limited Traffic Signal Heads</h4>
-<p>Longitudinal Visibility Application-See Sheet 2 Lateral Visibility General Notes-See Sheet 3 Beveled Visor Application-See Sheet 10 Long Visor Application-See Sheet 11 Programmed Visibility Application-See Sheet 12 Visibility Nomographs-See Sheets 4 ~ 9</p>
-<h4>OF TRANSPORTATION</h4>
-<h4>S-85.0 1998 OF LOS ANGELES</h4>
-<h4>Drawing No.</h4>
-<p>8 12</p>
-<h4>S-85.0 OF TRANSPORTATION OF LOS ANGELES</h4>
-<p>1998</p>
-<p>11</p>
-<h4>Drawing No.</h4>
-<p>12</p>
-<p>Frances T. Banerjee, General Manager</p>
-<h4>DEPARTMENT</h4>
-<p>CKD DWN</p>
-<p>Pr. T. E. Sr. T. E. T. E.</p>
-<h4>Approved</h4>
-<p>CITY</p>
-<p>MT 10-28-98 Title</p>
-<h4>DEPARTMENT</h4>
-<p>CKD DWN</p>
-<p>Pr. T. E. Sr. T. E. T. E.</p>
-<h4>Approved</h4>
-<p>Frances T. Banerjee, General Manager</p>
-<p>10-28-98 MT Title</p>
-<p>CITY</p>
-<h4>eral visibility. rly Street nor oes not cross</h4>
-<h4>lens visibility head. Since ong visor would</h4>
-<h4>gonal St.</h4>
-<h4>Clarita Ave</h4>
-<h4>Diagonal St.</h4>
-<h4>Center of Signal Head Alignment</h4>
-<p>A = 54° Angle of 50le standard signal head. Th shown is intended for Dia motorists. However, it ca easily by Clartia Avenue the Angle A shading cros a right beveled visor sign by Clartia Avenue motoris However, it too can be s B = 40° Angle of 50le</p>
-<p>visibility signal head. It is C = The masked angle o right side so that the An does not cross the limit Avenue. During dark weat Angle C may "bleed" bey</p>
-<h4>Programmed Visibility Head Lateral Vis</h4>
-<h4>lity Head nt of head. se to restrict</h4>
-<h4>PV</h4>
-<p>iction. Check Place the line for "Center of Signal Head Alignment" along assumed align Check to see if the cone of visibility is adequate for all applicable appro Visibility Nomograph for LED Lens and</p>
-<h4>Center of Signal Head Alignment</h4>
-<p>27.5° 27.5°</p>
-<h4>Visibility Limit</h4>
-<h4>Visibil</h4>
-<h4>lication of lity-Limited Signal Heads App Visib Traffic</h4>
-<h4>App Visib Traffic lication of lity-Limited Signal Heads</h4>
-<h4>B shading crosses that l</h4>
-<h4>limits shown.</h4>
-<h4>limits. . During low</h4>
-<p>55</p>
-<h4>and is adequately restricted to conflicting approaches.</h4>
-<h4>Title Drawing No. 6 11 S-85.0 CITY OF LOS ANGELES DEPARTMENT OF TRANSPORTATION Application of Visibility-Limited Traffic Signal Heads</h4>
-<h4>50Visibility of Lens</h4>
-<h4>0Visibility of Lens</h4>
-<h4>50Visibility of Lens</h4>
-<h4>Center of Signal Head Alignment</h4>
-<p>24°</p>
-<h4>Not to be seen by</h4>
-<h4>0Visibility of Lens</h4>
-<p>45° 27° 13°</p>
-<p>Place the line for "Center of Signal Head Alignment" along assumed alignment of head. Use to determine conformance with restricted visibility to conflicting approaches. Visibility Nomograph for Right Beveled Visor Head</p>
-<h4>conflicting approach</h4>
-<p>40°</p>
-<h4>Title Drawing No. 11 11 S-85.0 CITY OF LOS ANGELES DEPARTMENT OF TRANSPORTATION Application of Visibility-Limited Traffic Signal Heads</h4>
-<h4>Clarita Ave</h4>
-<h4>Dia</h4>
-<h4>gonal St.</h4>
-<h4>Center</h4>
-<h4>of Signal Head Alignment</h4>
-<p>A = 54° Angle of 50lens visibility of a standard signal head. The signal head shown is intended for Diagonal Street motorists. However, it can be seen too easily by Clartia Avenue motorists, since the Angle A shading crosses that limit line. a right beveled visor signal head. by Clartia Avenue motorists, since the Angle However, it too can be seen to easily B = 40° Angle of 50lens visibility of</p>
-<p>visibility signal head. It is masked on the C = The masked angle of a programmed right side so that the Angle C shading does not cross the limit line on Clarita Avenue. During dark weather and at night Angle C may "bleed" beyond the nominal</p>
-<h4>Programmed Visibility Head Application ( ) Lateral Visibility:</h4>
-<h4>B shading crosses that limit line.</h4>
-<h4>limits shown.</h4>
-<h4>PV</h4>
-<p>June 26, 2008</p>
-<p>for</p>
-<p>1-25-06 SS</p></div>
-<div class="kw">Keywords: visibility, head, signal, lens, angle, sheet, alignment, visor, application-see, center, department, transportation, general, title</div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Lateral visibility: programmed visibility head application</p>
+<p>Clarita Ave and Diagonal St.</p>
+<p>A = 54 degrees. Angle of 50% lens visibility of a standard signal head. The signal head shown is intended for Diagonal Street motorists. However, it can be seen too easily by Clarita Avenue motorists, since the Angle A shading crosses that limit line.</p>
+<p>B = 40 degrees. Angle of 50% lens visibility of a right-beveled visor signal head. However, it too can be seen too easily by Clarita Avenue motorists, since the Angle B shading crosses that limit line.</p>
+<p>C = The masked angle of a programmed visibility signal head. It is masked on the right side so that the Angle C shading does not cross the limit line on Clarita Avenue. During dark weather and at night Angle C may &quot;bleed&quot; beyond the nominal limits shown.</p>
+<p>Sheet 11 of 11.</p></details></div>
+<div class="pclean"><p class="psum"><b>Application of Visibility-Limited Traffic Signal Heads.</b> Explains how to check whether a signal head is seen by drivers on conflicting approaches, using visibility nomographs for standard, beveled, long visor and programmed visibility (PV) heads. The nomograph is placed with its centerline along the assumed alignment of the head to see whether the 50 percent lens visibility angle crosses the limit line of a conflicting approach. The sheets here show the standard visor nomograph (54 degree angle of 50 percent visibility), the beveled visor nomographs (40 degrees), an Arden Street and Diagonal Street beveled visor example, and a Clarita Avenue and Diagonal Street programmed visibility example.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Lateral visibility: programmed visibility head application</p>
+<p>Clarita Ave and Diagonal St.</p>
+<p>A = 54 degrees. Angle of 50% lens visibility of a standard signal head. The signal head shown is intended for Diagonal Street motorists. However, it can be seen too easily by Clarita Avenue motorists, since the Angle A shading crosses that limit line.</p>
+<p>B = 40 degrees. Angle of 50% lens visibility of a right-beveled visor signal head. However, it too can be seen too easily by Clarita Avenue motorists, since the Angle B shading crosses that limit line.</p>
+<p>C = The masked angle of a programmed visibility signal head. It is masked on the right side so that the Angle C shading does not cross the limit line on Clarita Avenue. During dark weather and at night Angle C may &quot;bleed&quot; beyond the nominal limits shown.</p>
+<p>Sheet 11 of 11.</p></details></div>
+<div class="kw">Keywords: visibility limited signal head, programmed visibility, pv head, beveled visor, left beveled visor, right beveled visor, long visor, visibility nomograph, signal head visibility, lens visibility, conflicting approach, limit line, louvered signal head, skewed intersection signal, 50 percent lens visibility, signal head alignment</div>
 
 
 <span id="p46" class="anchor"></span>
 
-### Page 46 - S-100.0 Operation and Design of Signalized Jogged Intersections
+### Page 46 - Operation and Design of Signalized Jogged Intersections
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: signals, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0046.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0046.webp" alt="MPP 521 page 46 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 521, page 46 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>Pedestrians might not be seen early—on by right—turning motorists. Opposing vehicles might not be seen early—on. Opposing arterial left turns might interlock. Right Jog Left Jog Operational Challenges for the Minor Street Approaches to Signalized Jogged Intersections To select the most appropriate design for minimizing the above challenges see Sheet 2. Pedestrians might not be seen early—on by left—turning motorists. Opposing vehicles might not be seen early—on. @ Opposing left turns interlock. e Difficult to determine if motorist is making a left turn or jogged through move. So-called opposing moves momentarily can be positioned at approximatly right angles to each other. DWN EC |6-10-10] Title . . CKD Operation and Design of A) TE Signalized jogged Intersections Sr. T. E. CITY OF LOS ANGELES Pr. T. E. DEPARTMENT OF TRANSPORTATION Approved June 24, 2010 Drawing No. Chiw E. AxkJ) | S-100.0 for Rita L. Robinson, General Manager </p></details>
-<div class="kw">Keywords: might, opposing, left, seen, early, right, jogged, pedestrians, turning, motorists, vehicles, turns, interlock, challenges</div>
+<div class="pclean"><p class="psum"><b>Operation and Design of Signalized Jogged Intersections.</b> Guidance for signalizing jogged (offset) intersections, with a selection procedure and plan examples for left and right jogs. The designer determines the jog direction, the internal storage distance D (interior limit lines are required if D is more than 40 ft, otherwise the jog operates as a single intersection), the angles theta 1 and theta 2 (opposed phasing for the minor street if either exceeds 20 degrees with D under 40 ft), and the distances X1 and X2 (internal mastarms if both exceed 50 ft, external if under 50 ft). Plan sheets show signal head, APS, <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a> and phasing layouts for each case, including KEEP CLEAR markings where D is 20 ft or more.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Operational challenges for the minor street approaches to signalized jogged intersections</p>
+<h5>Right jog:</h5>
+<p>- Pedestrians might not be seen early on by right-turning motorists.</p>
+<p>- Opposing vehicles might not be seen early on.</p>
+<p>- Opposing arterial left turns might interlock.</p>
+<h5>Left jog:</h5>
+<p>- Pedestrians might not be seen early on by left-turning motorists.</p>
+<p>- Opposing vehicles might not be seen early on.</p>
+<p>- Opposing left turns interlock.</p>
+<p>- Difficult to determine if a motorist is making a left turn or a jogged through move.</p>
+<p>- So-called opposing moves momentarily can be positioned at approximately right angles to each other.</p>
+<p>To select the most appropriate design for minimizing the above challenges see Sheet 2.</p></details></div>
+<div class="pclean"><p class="psum"><b>Operation and Design of Signalized Jogged Intersections.</b> Guidance for signalizing jogged (offset) intersections, with a selection procedure and plan examples for left and right jogs. The designer determines the jog direction, the internal storage distance D (interior limit lines are required if D is more than 40 ft, otherwise the jog operates as a single intersection), the angles theta 1 and theta 2 (opposed phasing for the minor street if either exceeds 20 degrees with D under 40 ft), and the distances X1 and X2 (internal mastarms if both exceed 50 ft, external if under 50 ft). Plan sheets show signal head, APS, <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a> and phasing layouts for each case, including KEEP CLEAR markings where D is 20 ft or more.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Operational challenges for the minor street approaches to signalized jogged intersections</p>
+<h5>Right jog:</h5>
+<p>- Pedestrians might not be seen early on by right-turning motorists.</p>
+<p>- Opposing vehicles might not be seen early on.</p>
+<p>- Opposing arterial left turns might interlock.</p>
+<h5>Left jog:</h5>
+<p>- Pedestrians might not be seen early on by left-turning motorists.</p>
+<p>- Opposing vehicles might not be seen early on.</p>
+<p>- Opposing left turns interlock.</p>
+<p>- Difficult to determine if a motorist is making a left turn or a jogged through move.</p>
+<p>- So-called opposing moves momentarily can be positioned at approximately right angles to each other.</p>
+<p>To select the most appropriate design for minimizing the above challenges see Sheet 2.</p></details></div>
+<div class="kw">Keywords: jogged intersection, offset intersection, left jog, right jog, internal mastarm, external mastarm, opposed phasing, interior limit line, keep clear marking, slot clearance, programmed visibility, pv head, beveled visor, r9-3a, cat tracked left turn lanes, back to back left turn lanes</div>
 
 
 <span id="p47" class="anchor"></span>
 
-### Page 47 - S-100.0 Operation and Design of Signalized Jogged Intersections
+### Page 47 - Operation and Design of Signalized Jogged Intersections
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: crosswalks, signals, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0047.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0047.webp" alt="MPP 521 page 47 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 521, page 47 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page (OCR)</summary><p>61 &amp; 82=angle between motorist looking straight ahead and back of opposing vehicle X1 &amp; X2=Distance along arterial from the crosswalk line or limit line to the signal pole or BCR at the far side of the first intersecting leg. D=Internal storage distance between real or hypothetical interior limit lines. For minor offset D may be a small or negative number. To select the most appropriate design: 1) Determine if there is a Left Jog or a Right Jog See Sheets 3, 5, 7, 9, 10 and 11 for left jogged intersections and Sheets 4, 6, 8 and 12 for right jogged intersections. 2) Determine D lf D&gt;40’ then interior limit lines are required. If D&lt;40’ then the jog is operated as a single intersection. See Sheets 10, 11 and 12 for intersections with interior limit lines and Sheets 3 through 9 for single intersection operation. 3) Determine @1 and 62 If 61 or @2 is &gt;20° and D&lt;40’ then some form of opposed phasing is required for the minor street. See Sheets 7 through 9 for situations requiring opposed phasing. See Sheets 3 through 6 for situations for which concurrent phasing is adequate. Note that for Sheets 4 and 6 opposed phasing is required if diagonal crosswalks are not feasible, due to the unexpected presence of pedestrians crossing the path of right— turning motorists. 4) Determine X1and X2 If X1and X2&gt;50’ and D&lt;40’ then only internal mastarms are to be used on the arterial street. If X1and X &lt;50’ then only external mastarms are to be used on the arterial street. See Sheets 3, 4, 7, and 8 for internal mastarm designs and Sheets 5, 6 and 9 for external mastarm designs. Note: The drawings on Sheets 3 through 12 are not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and and likely will include other lighting locations not shown. CITY OF LOS ANGELES Title Operation and Design of @ Drawing No. DEPARTMENT OF TRANSPORTATION Signalized jogged Intersections S-100.0 </p></details>
-<div class="kw">Keywords: sheets, then, limit, determine, intersections, required, through, phasing, lighting, arterial, internal, interior, lines, design</div>
+<div class="pclean"><p class="psum"><b>Operation and Design of Signalized Jogged Intersections.</b> Guidance for signalizing jogged (offset) intersections, with a selection procedure and plan examples for left and right jogs. The designer determines the jog direction, the internal storage distance D (interior limit lines are required if D is more than 40 ft, otherwise the jog operates as a single intersection), the angles theta 1 and theta 2 (opposed phasing for the minor street if either exceeds 20 degrees with D under 40 ft), and the distances X1 and X2 (internal mastarms if both exceed 50 ft, external if under 50 ft). Plan sheets show signal head, APS, <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a> and phasing layouts for each case, including KEEP CLEAR markings where D is 20 ft or more.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>Definitions:</h5>
+<p>Theta 1 and theta 2 = angle between a motorist looking straight ahead and the back of the opposing vehicle.</p>
+<p>X1 and X2 = distance along the arterial from the crosswalk line or limit line to the signal pole or BCR at the far side of the first intersecting leg.</p>
+<p>D = internal storage distance between real or hypothetical interior limit lines. For a minor offset D may be a small or negative number.</p>
+<h5>To select the most appropriate design:</h5>
+<p>1. Determine if there is a left jog or a right jog. See Sheets 3, 5, 7, 9, 10 and 11 for left jogged intersections and Sheets 4, 6, 8 and 12 for right jogged intersections.</p>
+<p>2. Determine D. If D &gt; 40 ft then interior limit lines are required. If D &lt; 40 ft then the jog is operated as a single intersection. See Sheets 10, 11 and 12 for intersections with interior limit lines and Sheets 3 through 9 for single intersection operation.</p>
+<p>3. Determine theta 1 and theta 2. If theta 1 or theta 2 is &gt; 20 degrees and D &lt; 40 ft then some form of opposed phasing is required for the minor street. See Sheets 7 through 9 for situations requiring opposed phasing. See Sheets 3 through 6 for situations for which concurrent phasing is adequate. Note that for Sheets 4 and 6 opposed phasing is required if diagonal crosswalks are not feasible, due to the unexpected presence of pedestrians crossing the path of right-turning motorists.</p>
+<p>4. Determine X1 and X2. If X1 and X2 &gt; 50 ft and D &lt; 40 ft then only internal mastarms are to be used on the arterial street. If X1 and X2 &lt; 50 ft then only external mastarms are to be used on the arterial street. See Sheets 3, 4, 7 and 8 for internal mastarm designs and Sheets 5, 6 and 9 for external mastarm designs.</p>
+<p>Note: The drawings on Sheets 3 through 12 are not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown.</p></details></div>
+<div class="pclean"><p class="psum"><b>Operation and Design of Signalized Jogged Intersections.</b> Guidance for signalizing jogged (offset) intersections, with a selection procedure and plan examples for left and right jogs. The designer determines the jog direction, the internal storage distance D (interior limit lines are required if D is more than 40 ft, otherwise the jog operates as a single intersection), the angles theta 1 and theta 2 (opposed phasing for the minor street if either exceeds 20 degrees with D under 40 ft), and the distances X1 and X2 (internal mastarms if both exceed 50 ft, external if under 50 ft). Plan sheets show signal head, APS, <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a> and phasing layouts for each case, including KEEP CLEAR markings where D is 20 ft or more.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>Definitions:</h5>
+<p>Theta 1 and theta 2 = angle between a motorist looking straight ahead and the back of the opposing vehicle.</p>
+<p>X1 and X2 = distance along the arterial from the crosswalk line or limit line to the signal pole or BCR at the far side of the first intersecting leg.</p>
+<p>D = internal storage distance between real or hypothetical interior limit lines. For a minor offset D may be a small or negative number.</p>
+<h5>To select the most appropriate design:</h5>
+<p>1. Determine if there is a left jog or a right jog. See Sheets 3, 5, 7, 9, 10 and 11 for left jogged intersections and Sheets 4, 6, 8 and 12 for right jogged intersections.</p>
+<p>2. Determine D. If D &gt; 40 ft then interior limit lines are required. If D &lt; 40 ft then the jog is operated as a single intersection. See Sheets 10, 11 and 12 for intersections with interior limit lines and Sheets 3 through 9 for single intersection operation.</p>
+<p>3. Determine theta 1 and theta 2. If theta 1 or theta 2 is &gt; 20 degrees and D &lt; 40 ft then some form of opposed phasing is required for the minor street. See Sheets 7 through 9 for situations requiring opposed phasing. See Sheets 3 through 6 for situations for which concurrent phasing is adequate. Note that for Sheets 4 and 6 opposed phasing is required if diagonal crosswalks are not feasible, due to the unexpected presence of pedestrians crossing the path of right-turning motorists.</p>
+<p>4. Determine X1 and X2. If X1 and X2 &gt; 50 ft and D &lt; 40 ft then only internal mastarms are to be used on the arterial street. If X1 and X2 &lt; 50 ft then only external mastarms are to be used on the arterial street. See Sheets 3, 4, 7 and 8 for internal mastarm designs and Sheets 5, 6 and 9 for external mastarm designs.</p>
+<p>Note: The drawings on Sheets 3 through 12 are not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown.</p></details></div>
+<div class="kw">Keywords: jogged intersection, offset intersection, left jog, right jog, internal mastarm, external mastarm, opposed phasing, interior limit line, keep clear marking, slot clearance, programmed visibility, pv head, beveled visor, r9-3a, cat tracked left turn lanes, back to back left turn lanes</div>

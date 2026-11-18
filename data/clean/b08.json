@@ -1,0 +1,337 @@
+[
+ {
+  "id": "ladot__mpp-531|S-438.0",
+  "title": "Street Name Signs",
+  "summary": "Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.",
+  "keywords": [
+   "street name sign",
+   "street name blade",
+   "street blade",
+   "type a street sign",
+   "type b street sign",
+   "city seal sign",
+   "blade length",
+   "sign abbreviations",
+   "street name abbreviations",
+   "highway series b",
+   "block number",
+   "side mounted bracket",
+   "two line street sign",
+   "sign bracket aluminum",
+   "S-221.3",
+   "street sign placement"
+  ],
+  "sheets": [
+   {
+    "page": 89,
+    "notes": "Type A, one line\nTypical dimensions: 48\" overall length, 25.30\" center dimension, 2\" minimum left margin, symmetric ends vary, R=0.5\" corners.\nStreet name signs"
+   },
+   {
+    "page": 90,
+    "notes": "Type A, two line + title\nTypical dimensions: 25.30\" center dimension, 48\" overall, 12\" margins.\nExample blades shown: 36\" (Avenida de Santa Ynez, 16700), 48\" (Martin Luther King Jr Bl, 3200 W), 42\" (San Fernando Mission Bl, 14800) and 48\" (Astronaut Ellison S Onizuka Street, 100).\n* See the end statement for Note 9. 4\" upper case and 3\" lower case letters are required so that the message can fit on the largest sign."
+   },
+   {
+    "page": 91,
+    "notes": "Type B\nTypical dimensions: lengths of 42\", 48\", 54\" and 60\" shown, 24\" base, ends vary (symmetric).\nStreet name signs"
+   },
+   {
+    "page": 92,
+    "notes": "Notes\n1. Signs shall have Diamond Grade or Type VIII retro-reflective white lettering and numbers on a standard blue Type IV retro-reflective background with matching UV/anti-graffiti film. For Type A signs, all colors shall be provided in the official 4\" diameter City Seal. Signs shall be provided with a 10-year replacement warranty against wear, delamination or fading. An LADOT-approved vendor shall be used for fabrication.\n2. The sign blade material shall be 1/8 inch thick aluminum stock.\n3. Letters and numbers shall be Highway Series B, with at least one stroke width between letters (45% spacing). For Type A signs, the initial upper case letters shall be 6\" and the lower case letters shall be 4.5\", except as discussed in Note 9. For Type B signs, the initial upper case letters shall be 4\" and the lower case letters shall be 3\". Intermediate (non-first) words such as \"or\", \"the\", \"el\", \"la\", \"los\", \"las\", \"de\" and \"del\" shall have all lower case letters. The block number and the upper case letter representing the cardinal address direction, if any, shall be 3\". The space between words shall be the same width as an upper case letter \"O\". The legend shall appear on both sides of the aluminum blade. The street name text shall be left justified starting a minimum of 2\" from the left edge of the sign. The legend may be centered.\n4. Numbered streets shall be indicated by Arabic numerals and not letters. Where the number appears before the title (such as 3rd Street or 4th Avenue) the number shall be followed by an ordinal abbreviation, \"st\", \"nd\", \"rd\" or \"th\", at the same level, with a space between them. However, where the number appears after the title (such as Avenue 19), an ordinal abbreviation shall not be used. The space shall be the same width as an upper case letter \"O\".\n5. The block number shall be followed by an upper case letter representing the cardinal direction, only where the named street has address numbers in another direction (such as for Sepulveda Boulevard, Vermont Avenue, Olympic Boulevard, 3rd Street, etc.) within the City of Los Angeles or an adjacent city. The space between the block number and the upper case letter representing the cardinal direction shall be the same width as an upper case \"O\".\n6. Where the named street is a private street or driveway, the block number shall be replaced by \"PVT\" in 3\" upper case letters.\n7. Apostrophes shall be used, where appropriate. Accent and tilde markings shall be provided for non-English words and names, where appropriate. A lower case \"i\" or \"j\" shall be dotted.\n8. The Bureau of Engineering is the source for street names. If a private street or driveway requires a name, due to signalization or some other reason, the Bureau of Engineering must process the naming proposal.\n9. The following street name abbreviations shall be used, except where using the unabbreviated word would not require an increase in sign length (such as \"B Street\"). Periods shall not be used after abbreviations.\nAlley: no abbreviation\nAvenida: no abbreviation\nAvenue (end word): Av\nAvenue (first word): no abbreviation\nBoulevard: Bl\nCalle: no abbreviation\nCanyon (other than first word): Cyn\nCanyon (first word): no abbreviation\nCircle (end word): Cir\nCircle (other than end word): no abbreviation\nCourt (end word): Ct\nCourt (other than end word): no abbreviation\nDrive: Dr\nDriveway: Drwy\nEastway: Eway\nExpressway: ExpWy\nGeneral (when used as a title): Gen\nHeights: Hgts\nHighway: Hwy\nJunior (as part of a name): Jr\nLane: no abbreviation\nMount: Mt\nPark: no abbreviation\nParkway: Pkwy\nPaseo: no abbreviation\nPlace: Pl\nPlaza: no abbreviation\nRoad: Rd\nSaint: St\nSenior (as part of a name): Sr\nStreet: St\nSquare: Sq\nTerrace: no abbreviation\nTrail: no abbreviation\nWalk: no abbreviation\nWay: no abbreviation\nWestway: Wway"
+   },
+   {
+    "page": 93,
+    "notes": "In addition, cardinal direction names may be abbreviated to \"N\", \"S\", \"E\" or \"W\", only where the unabbreviated word would require the sign length to exceed 60\". For example, use \"Huntington Dr S\" (abbreviated) and \"Cahuenga Bl East\" (unabbreviated).\n10. The blade length should be determined using the table below. Columns: text including interword spaces (characters), blade length for Type A one-line signs, blade length for Type B signs.\n9 or less: 30\" / 30\"\n10: 36\" / 30\"\n11, 12: 42\" / 30\"\n13, 14: 48\" / 36\"\n15, 16: 54\" / 36\"\n17, 18: 60\" / 42\"\n19, 20: * / 48\"\n21, 22: * / 54\"\n23, 24: * / 54\"\n25, 26: * / 60\"\n* Longer street names for Type A signs shall use two-line blades. The width of the two-line blade shall be based on the text of the longer line. The maximum length of a two-line blade shall be 48 inches. Where the text of the longer line of a two-line blade exceeds 14 characters, 4\" upper case and 3\" lower case letters may be used.\n11. Type A and Type B signs that are 30\" or 36\" long shall be side-mounted only, as shown on sheets 6 and 7. Type A and Type B signs that are 42\" and longer shall be side-mounted with vertical support, as shown on sheets 8 and 9. Minor deviations in the sign brackets shown are permissible only with the prior written approval of LADOT.\n12. When provided for initial installation, replacement or maintenance, Type A signs shall be used at intersections when at least one approach is a designated Major, Secondary or Collector Street. When provided for initial installation, replacement or maintenance, Type B signs shall be used at intersections where all approaches are designated Local Streets.\n13. Street name signs shall be provided on the near-right side of each leg of a primary street at the named crossing street, flagged in the direction of the sidewalk or parkway, unless it is physically infeasible. If so, an alternate location shall be provided. If the named cross street does not intersect the primary street, due to a separation island, an additional near-right sign shall be provided on the island. For unusual situations, see S-221.3."
+   },
+   {
+    "page": 94,
+    "notes": "Bracket specifications for Type A one-line and Type B signs 30\" and 36\" long\nMaterial for bracket to be extruded aluminum alloy 6063-T6.\n2 holes, 4 slots required, R=1/8\".\nNot to scale."
+   },
+   {
+    "page": 95,
+    "notes": "Bracket specifications for Type A two-line signs 30\" and 36\" long\nSection A-A\nMaterial for bracket to be extruded aluminum alloy 6063-T6.\n4 slots required.\nNot to scale."
+   },
+   {
+    "page": 96,
+    "notes": "Bracket specifications for Type A one-line and Type B signs 42\" and longer\nMaterial for bracket to be aluminum alloy 6063-T6.\nBrackets every 3'. Support 9' minimum to 18' maximum.\n4 slots required.\nNot to scale."
+   },
+   {
+    "page": 97,
+    "notes": "Bracket specifications for Type A two-line signs 42\" and longer\nSection A-A\nMaterial for bracket to be aluminum alloy 6063-T6.\nBrackets every 3'. Support 9' minimum to 12' maximum.\n4 slots required.\nNot to scale."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-440.0",
+  "title": "On-Street Angle Parking Stalls",
+  "summary": "Shows striping and dimensions for on-street angle parking stalls from 37.5 to 75 degrees, based on a 9' x 16' stall with a 2' maximum vehicle overhang. A table gives dimensions A, B, C and E for each angle, with a 10' minimum adjacent travel lane. Notes set the minimum E dimension on local, collector and arterial streets, parking meter locations, and the accessible angle stall with blue curb and R99(CA) signs. A supplement table guides how many stalls fit between driveways and hydrants and the minimum roadway width.",
+  "keywords": [
+   "angle parking",
+   "diagonal parking",
+   "angled parking stalls",
+   "on-street angle parking",
+   "parking stall dimensions",
+   "stall layout",
+   "37.5 degree",
+   "45 degree parking",
+   "60 degree parking",
+   "back-in angle parking",
+   "accessible parking",
+   "disabled parking",
+   "R99(CA)",
+   "blue curb",
+   "parking meter location",
+   "minimum roadway width angle parking"
+  ],
+  "sheets": [
+   {
+    "page": 98,
+    "notes": "Parking meter locations: meters set P=4' from the stall end on one side and P=2' on the other, 20\" from the curb face. 4\" yellow edge line and 4\" white edge line along the travel lane.\nStall: 9' x 16' stall, 7' clear between stall lines, 4\" W stall lines with 10\" spacing, 2' maximum overhang, 10' minimum adjacent lane, 4\" W edge line, E dimension per Notes 3 and 4. Adjacent centerline treatment is a lane line, double yellow, 4\" dashed yellow line, or 4\" yellow edge line.\nTable (angle: A / B / C / E)\n37.5 degrees: 16.9' / 14.8' / 22' / 11'\n45 degrees: 17.7' / 12.7' / 17.7' / 11.1'\n50 degrees: 18.0' / 11.75' / 15.1' / 12'\n52.5 degrees: 18.2' / 11.3' / 13.9' / 13.1'\n60 degrees: 18.4' / 10.4' / 10.6' / 15.1'\n67.5 degrees: 18.2' / 9.7' / 7.5' / 17.3'\n75 degrees: 17.8' / 9.3' / 4.8' / 19.7'\nNotes\n1. All parking stall lines and edge lines shall be in alkyd-based thermoplastic.\n2. Calculations based on, but not limited to, L.A.M.C. Section 12.21, utilizing 9' x 16' stall size. Large vehicles requiring the 18-foot dimension are expected to overhang the curb, as shown. Stall design above requires 2-foot overhang for 18-foot vehicle.\n3. On local streets, collector streets, and those arterial streets which function as collector streets (see 4, below), the \"E\" dimension shall be 4' minimum where the parking angle is greater than 45 degrees. On those local and collector streets with angle parking 45 degrees or less, the \"E\" dimension may be reduced to a minimum of 2 feet. The 4' dimension is preferred, however, and should be provided if the roadway width permits.\n4. On arterial highways, the \"E\" dimensions shown in the above table shall be considered required minimums. This is intended to provide for maneuvers to and from the parking stall without obstructing traffic movement in the adjacent traveled lane. Arterial streets are designated in community plans. A designated arterial street may, for the purposes of this standard plan, be considered as a collector street if the daily volume is less than 10,000 vehicles, or the striping provides for only one through lane in each direction."
+   },
+   {
+    "page": 99,
+    "notes": "Handicap/disabled parking spaces\nBlue curb at the accessible stall. Signs R99(CA) and R99B(CA), or R99C(CA), posted at each stall. Curb ramp between stalls (see Note 2). Access aisle with 5', 3.75' and 8' clear dimensions and 4\" W lines, 9' x 16' stall as on page 1. Minimum fine $250 on the signs.\nNotes\n1. All parking stall lines and edge lines shall be in alkyd-based thermoplastic.\n2. Maximum slope 1:12.\n3. Other required dimensions shown on page 1."
+   },
+   {
+    "page": 100,
+    "notes": "On-street angle parking stalls, supplement to S-440.0\nThe following table should be used as a guide to determine the feasibility and numbers of spaces that may be installed with on-street angle parking stalls. DOT Standard Plan S-440.0 should be reviewed to determine other restrictions and requirements.\nContinuous linear footage between driveways, fire hydrants, etc., by number of spaces and angle (37.5 / 45 / 50 / 52.5 / 60 / 67.5 / 75 degrees)\n1 space: 36.8 / 30.4 / 26.9 / 25.2 / 21.0 / 17.2 / 14.1\n2 spaces: 51.6 / 43.1 / 38.6 / 36.5 / 31.4 / 26.9 / 23.4\n3 spaces: 66.4 / 55.8 / 50.4 / 47.8 / 41.8 / 36.6 / 32.7\n4 spaces: 81.2 / 68.5 / 62.1 / 59.1 / 52.2 / 46.3 / 42.0\n5 spaces: 96.0 / 81.2 / 73.9 / 70.4 / 62.6 / 56.0 / 51.3\n6 spaces: 110.8 / 93.9 / 85.6 / 81.7 / 73.0 / 65.7 / 60.6\n7 spaces: 125.6 / 106.6 / 97.4 / 93.0 / 83.4 / 75.4 / 69.9\n8 spaces: 140.4 / 119.3 / 109.1 / 104.3 / 93.8 / 85.1 / 79.2\n9 spaces: 155.2 / 132.0 / 120.9 / 115.6 / 104.2 / 94.8 / 88.5\n10 spaces: 170.0 / 144.7 / 132.6 / 126.9 / 114.6 / 104.5 / 97.8\nEach additional space (+B): +14.8 / +12.7 / +11.75 / +11.3 / +10.4 / +9.7 / +9.3\nMinimum E for local/collector streets: 2 / 2 / 4 / 4 / 4.1 / 6.3 / 8.7\nMinimum cross-section: stall depth 16.9 / 17.7 / 18 / 18.2 / 18.4 / 18.2 / 17.8, E (2 / 2 / 4 / 4 / 4.1 / 6.3 / 8.7), two 10' lanes (11' at 60, 67.5 and 75 degrees), and 18' parallel parking on the other side\nMinimum roadway width: 46.9 / 47.7 / 50.0 / 50.2 / 51.5 / 53.5 / 55.5\nThe minimum cross-section assumes angle parking on one side, parallel parking on the other, with one lane in each direction. Minimum E and adjacent lane width have been determined based upon the design requirement that a vehicle backing out of an angle parking space does not back over the double yellow centerline."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-444.0",
+  "title": "Narrowed Roadway Delineation (Without Lane Drop)",
+  "summary": "Shows two cases for striping where the roadway narrows without a lane drop. Case 1 uses an 8\" white channelizing edge line with 12\" white diagonals and an SW44(CA) down-left-arrow sign, and Case 2 allows the lane line and 8\" line to transition by table taper rate or curve-tangent-curve design. A table gives preferred taper rates from 15:1 at 25 mph to 60:1 at 55 mph. Use S-485.0 where a lane is dropped.",
+  "keywords": [
+   "narrowed roadway",
+   "road narrows",
+   "lane narrowing",
+   "channelizing line",
+   "8 inch white line",
+   "white diagonals",
+   "taper rate",
+   "edge line taper",
+   "SW44(CA)",
+   "down left arrow sign",
+   "roadway width transition",
+   "edge line transition",
+   "curve tangent curve",
+   "S-485.0",
+   "lane width reduction",
+   "pavement width change"
+  ],
+  "sheets": [
+   {
+    "page": 101,
+    "notes": "Case 1 and Case 2\nBoth cases: SW44(CA) (down left arrow) sign at the start of the narrowing, set 2' off recommended (1' minimum, 7' minimum with parking) from the edge. 8\" white line and 12\" white diagonals, spacing per plan (minimum two diagonals). Downstream edge at 2' or edge of gutter if parking is prohibited, 8' if parking is permitted. Case 2 downstream lane is 10' to 12'.\nNotes\n1. For Case 1 the 8\" channelizing line should be installed where:\nA) Downstream lane width is less than 13' (lane line to edge line) with parking prohibited, or\nB) Downstream lane width is less than 20' (lane line to edge of roadway) with parking permitted, or\nC) The change in roadway width is 6' or greater.\n2. For Case 1 the 8\" white edge line should be a minimum of 100 feet in length where conditions permit, to provide adequate visibility for approaching motorists. Taper rates in Case 1 should be 5:1 or greater.\n3. For Case 2 the lane line and 8\" channelizing line may be transitioned using the appropriate minimum taper rate from Table 1 or by appropriate curve-tangent-curve design.\n4. For narrowed roadway delineation with a lane drop see S-485.0.\n5. For Case 1 and Case 2, the addition of 12\" white diagonals should be installed to emphasize that large pavement areas are not intended as part of the traveled roadway.\n6. Taper rates shown in Table 1 are based on posted speed plus 5 mph. Where the 85% speed (critical speed) on the approach is determined to be equal to the posted speed, the table numbers for the next lower speed increment may be used.\nTable 1, speed limit (mph): preferred taper rate\n25: 15:1\n30: 20.5:1\n35: 26.7:1\n40: 45:1\n45: 50:1\n50: 55:1\n55: 60:1"
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-446.0",
+  "title": "Sign Posting for Street Termini",
+  "summary": "Shows where to post W31(CA) END signs with OM4-3 18\" x 18\" red object markers, and the W14-1 Dead End sign, at street termini. The signs are required at streets without cul-de-sacs and at cul-de-sacs whose frontage is not fully developed. One posting is used for streets 44' wide or less, two for 45' to 59', and three for 60' or greater, and posts may shift up to 10' to use existing poles or avoid driveways and utilities.",
+  "keywords": [
+   "street termini",
+   "dead end sign",
+   "end of street sign",
+   "W31(CA)",
+   "OM4-3",
+   "object marker",
+   "W14-1",
+   "dead end",
+   "cul-de-sac",
+   "street end markers",
+   "end sign",
+   "red object marker",
+   "sign posting",
+   "street width signs",
+   "MUTCD California supplement 3C-04"
+  ],
+  "sheets": [
+   {
+    "page": 102,
+    "notes": "W31(CA) and Type OM4-3 signs, preferred posting at the street centerline\nW31(CA) END sign 36\" x 36\", mounted above OM4-3 (18\" x 18\", red). Dimensions: 3.5' to the bottom of the W31(CA) sign and 4.0' to the bottom of the OM4-3 sign (MUTCD California Supplement Section 3C-04).\nW14-1 Dead End sign shown at the roadway edge.\nNotes\n1. W31(CA) and OM4-3 signs shall be posted at street termini as in a. and b. below:\na. Without cul-de-sac designs.\nb. With cul-de-sac designs where the frontage of the cul-de-sac is not fully developed.\n2. Where installed, the number of signs should be posted as shown below. However, they may deviate as much as 10' from the standard location in order to utilize existing street light standards or existing sign posts or to avoid driveways or utility installations.\nNumber of postings, street width\n1: 44' or less\n2: 45' to 59'\n3: 60' or greater"
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-452.0",
+  "title": "Sign Post Installation",
+  "summary": "Shows installation of a perforated square-tube sign post set in an anchor sleeve in the sidewalk, for signs up to 10 sq ft. The 2\" x 2\" post is inserted 6\" to 8\" into the anchor assembly and secured with two blind rivets, with a 2 1/2\" x 2 1/2\" x 18\" sleeve over a 2 1/4\" x 2 1/4\" x 30\" anchor. Mounting height is 7' minimum over pedestrian areas, with a 24\" minimum offset noted, and parking signs are set at 45 degrees to the curb while warning and regulatory signs are set at 90 degrees. Larger signs use S-476.1.",
+  "keywords": [
+   "sign post",
+   "sign post installation",
+   "square tube post",
+   "perforated post",
+   "telespar",
+   "anchor sleeve",
+   "sign anchor",
+   "blind rivet",
+   "sign mounting height",
+   "parking sign post",
+   "post angle to curb",
+   "street name sign height",
+   "sidewalk sign post",
+   "S-476.1",
+   "W31(CA)",
+   "sign height over sidewalk"
+  ],
+  "sheets": [
+   {
+    "page": 103,
+    "notes": "Sign post installation\nMaximum 10 sq ft sign area. For larger signs see Standard Plan S-476.1.\nBlind rivets at the sign corners, with a center blind rivet used on 36\" or larger signs.\nSign set 18\" from the curb face. 7' minimum over pedestrian area (see Note 3). 24\" minimum (see Note 1) of post above the anchor. Post inserted 6\" to 8\" into the anchor assembly.\nDetail: insert 2\" x 2\" post 6\" to 8\" deep into the anchor assembly, 2 blind rivets, 2 holes above surface (see Note 2). Sleeve 2 1/2\" x 2 1/2\" x 18\" over anchor 2 1/4\" x 2 1/4\" x 30\".\nNote\n1. 30\" typical for parking signs. 36\" typical for warning and regulatory signs.\n2. Posts for parking signs to be installed at 45 degree angle to curb. Posts for warning and regulatory signs to be installed at 90 degree angle to curb.\n3. 9'6\" minimum for street name signs, 7'6\" typical for parking signs, 4' typical for W31(CA), W1-6 and W1-7, 4' typical to top of sign for W1-8, W12-1, OM1-3 and OM4-3."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-456.0",
+  "title": "Typical Placement of Pavement Turn Arrows",
+  "summary": "Shows typical placement of pavement turn arrows in turn lanes approaching an intersection. An arrow is installed at the beginning of each turn lane, and a second arrow is installed at mid-length (L/2) only if the turn lane length L1 or L2 is 250' or more. Left-turn and right-turn arrows are shown on the same approach.",
+  "keywords": [
+   "pavement arrows",
+   "turn arrows",
+   "left turn arrow",
+   "right turn arrow",
+   "pavement markings arrows",
+   "turn lane arrows",
+   "arrow placement",
+   "lane arrows",
+   "turn lane length",
+   "250 feet turn lane",
+   "arrow spacing",
+   "intersection approach markings"
+  ],
+  "sheets": [
+   {
+    "page": 105,
+    "notes": "Install at beginning of lane.\nInstall only if L1 or L2 is 250' or more (second arrow at L1/2 or L2/2).\nL1 and L2 are the turn lane lengths."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-473.0",
+  "title": "One-Way Arrow Mast Arm Mounted",
+  "summary": "Shows a ONE WAY arrow sign mounted on a signal mast arm, with front, rear, side and mast arm installation views. The sign is 48\" long by 18\" high, made of .080\" aluminum, with a Diamond Grade face and 8\" Series D capital letters. It hangs from a mast arm sign bracket per S-457.0 and is secured to a 1-1/4\" x 1-1/4\" x 1/8\" aluminum angle on the back with pop rivets at 6\" spacing.",
+  "keywords": [
+   "one way sign",
+   "one-way arrow",
+   "mast arm sign",
+   "mast arm mounted sign",
+   "signal mast arm",
+   "R6-1",
+   "mast arm bracket",
+   "S-457.0",
+   "diamond grade",
+   "aluminum angle",
+   "pop rivets",
+   "sign banding",
+   "overhead one way sign",
+   "signal backplate",
+   "mast arm sign detail"
+  ],
+  "sheets": [
+   {
+    "page": 106,
+    "notes": "Front view: ONE WAY arrow sign 48\" long by 18\" high, with 5\", 36\" and 5\" dimensions across the top and 12\" at the arrow point. Sign face, see Note 1.\nMast arm installation: sign hung from the signal mast arm beside the signal head and backplate, 30\" dimension shown.\nSide view: banding, see Standard Plan S-457.0. Mast arm sign bracket per Standard Plan S-457.0. Sign material .080\" aluminum, 6061 or 5052-H38 alloy. 1-1/4\" x 1-1/4\" x 1/8\" aluminum angle.\nRear view: angle secured to back of sign with pop rivets at 6\" spacing.\nNotes\n1. Sign face shall be Diamond Grade reflective material. Letters shall be 8\" Series \"D\" caps. Sign face may be applied to the front or front and back of sign as specified."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-476.1",
+  "title": "Posting Detail for Large Roadside Signs",
+  "summary": "Shows mounting of large roadside signs by area: signs to 10 sq ft on a street light pole centered 15' above the sidewalk, signs 10 to 18 sq ft on one post, and signs 18 to 32 sq ft on two posts 4' minimum apart. Signs are set 18\" back from the curb with 7' bottom clearance and 4' minimum from the property line. Posts are 2 1/2\" x 2 1/2\" x 14', 10 gauge, set in a 3\" x 3\" x 30\" 7 gauge anchor base. Signs over 32 sq ft go on a cantilever standard.",
+  "keywords": [
+   "large roadside sign",
+   "large sign post",
+   "sign on street light",
+   "electrolier sign mounting",
+   "two post sign",
+   "sign stiffener",
+   "square tube post",
+   "anchor base",
+   "cantilever sign",
+   "sign setback 18 inches",
+   "sign property line",
+   "10 sq ft sign",
+   "32 sq ft sign",
+   "sign mounting detail",
+   "S-476.0",
+   "S-452.0"
+  ],
+  "sheets": [
+   {
+    "page": 107,
+    "notes": "Signs to 10 sq ft: center sign on pole, 15' above the sidewalk. For signs 42\" and longer secure to street light with heavy duty 2-bolt \"D\" clip in each stiffener channel.\nSigns 10 to 18 sq ft: secure to post with square head bolt in each stiffener channel. 18\" set back, 2' to the post, 6' maximum sign width, 7' bottom clearance, 4' minimum to the property line. See Note 1.\nSigns 18 to 32 sq ft: two posts, 4' minimum apart, 18\" set back, 7' bottom clearance, secure with square head bolt in each stiffener channel. See Note 1.\nDetail: 2 1/2\" x 2 1/2\" x 14', 10 gauge post. Insert post 6\" to 8\" into the anchor. 3\" x 3\" x 30\", 7 gauge non-perforated anchor base (2 drilled holes at the top).\nNotes\n1. See Detail for square tube sign post installation.\n2. Sign stiffener system and hardware per standard plan S-476.0.\n3. Signs greater than 32 sq ft should be placed on a cantilever standard.\n4. Sign may not extend beyond property line.\n5. Large roadside mountings on electroliers are permitted only when the poles are steel and embedded in concrete sidewalks."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-481.0",
+  "title": "Traffic Controls for Marked Crosswalks on Uncontrolled Approaches",
+  "summary": "Covers signing and markings for marked crosswalks at uncontrolled approaches, including crosswalk sign assemblies with W11-2 and W16-7p or W16-9p plates, advance warning signs, optional R1-5 yield-here-to-pedestrians signs with yield lines, PED XING or SCHOOL XING pavement markings, and optional RPMs. Sheets 2 and 3 give the red curb length for pedestrian sight distance as A = 4B/(W-7), or B/(W-10) with a curb extension, with tables by speed and curb lane width and a 50' minimum on arterial approaches. Sheet 4 shows centerline widening at intersections.",
+  "keywords": [
+   "marked crosswalk",
+   "uncontrolled crosswalk",
+   "midblock crosswalk",
+   "crosswalk signs",
+   "W11-2",
+   "W16-7p",
+   "R1-5",
+   "yield here to pedestrians",
+   "advance yield line",
+   "ped xing marking",
+   "school crosswalk",
+   "red curb",
+   "pedestrian sight distance",
+   "curb extension red curb",
+   "centerline widening"
+  ],
+  "sheets": [
+   {
+    "page": 108,
+    "notes": "Crosswalk sign assembly, advance signing and markings\nCrosswalk sign assembly: W11-2 with W16-7p (arrow) or W16-9p (AHEAD) plates, S1-1 school signs, and School Crosswalk Warning Assembly B and D (CA code).\nAdvance warning sign (W11-15, W11-2 or Assembly D (CA)) placed 20' to 50' per CA MUTCD, with dimension C from Table 2C-4 and Part 2. ** Field installation of signs or markings may exceed the figures in the table by up to 100 feet per work order or plan to adjust to field conditions.\nOptional R1-5 or R1-5a MOD (YIELD HERE TO PEDESTRIANS) signs and optional yield line (see Note 7 and Fig 3B-17(CA), CA MUTCD). Optional RPMs (see Note 6). Pavement markings \"PED XING\" or \"SLOW SCHOOL XING\" or \"SCHOOL XING\". Dimensions shown: 8', 32', 8'.\nInstall markings along striping and space at 4.5', 5', 5.5' and 6' center-to-center for 9', 10', 11' and 12' lanes, respectively. 2' white or yellow, centered on DYCL and lane lines.\nTable, posted speed (mph): C (ft)\n25: 100\n30: 100\n35: 125\n40: 175\nNotes\n1. Implementation. This standard plan applies to new installations and reinstallations of marked crosswalks and to marked crosswalks determined to be retained as a result of a study on multi-lane facilities. Use of signs shall be in coordination with all other controls shown on this plan.\n2. Sign posting at crosswalk. Crosswalk Sign Assembly signs shall be posted and should be positioned within ten feet of the crosswalk. These signs generally shall be posted back-to-back so that one sign is on the right and the other on the left. If a raised median with a width of 6' or greater exists, the left sign shall be in the median. These signs should be 36\" x 36\". The W16-9p or W16-7p plates shall be 36\" wide. All signs shall be fluorescent yellow-green.\n3. Advance sign posting. Advance Pedestrian Crossing W11-15, W11-2 signs, or Assembly D (CA) signs shall be posted as shown and shall be fluorescent yellow-green. R1-5 signs shall be posted and positioned within ten feet of the yield limit line. These locations may be adjusted to accommodate field conditions. All signs should be 36\" x 36\".\n4. Pavement markings. \"PED XING\" or \"SCHOOL XING\" pavement markings shall be installed as shown except the yellow \"SLOW SCHOOL XING\" pavement markings shall be installed in advance of uncontrolled yellow school crosswalks. If the crosswalk spacing is less than 500 feet, only one set of pavement markings is required in advance of the first crosswalk.\n5. Midblock crosswalks. This standard plan also applies at uncontrolled approaches to midblock crosswalks.\n6. Raised pavement markings (RPM). Install RPMs one each side of crosswalk bar facing approach lanes. Two-way clear (white) or two-way amber (yellow) per Caltrans standards and specifications may be installed corresponding to the crosswalk color.\n7. R1-5 (YIELD HERE TO PEDESTRIANS) signs and yield lines. For uncontrolled locations with more than one lane in each direction of travel, advance yield lines may be used. Yield lines shall be supplemented with R1-5 signs."
+   },
+   {
+    "page": 109,
+    "notes": "Red curb for sight distance to pedestrian crossings\nA = 4B / (W-7) = curb stopping prohibition necessary for a motorist to see a pedestrian at a point 4' into the roadway. LADOT practice is to install 50 feet of red curb on arterial approaches to side streets, measured from the side street curb line prolongation (per MPP Sec. 342). Install this minimum dimension whenever the calculated A distance results in a lesser dimension. (See Note 1.)\nB = safe stopping distance = 1.47 VT + 1.075 V^2/a\nV = posted speed + 5 mph (chart listings calculated on posted speed + 5 mph)\nT = perception-reaction time of 1.5 seconds (driver previously alerted with advance sign and pavement markings)\na = deceleration rate = 11.2 ft/s^2 (AASHTO Policy on Geometric Design of Highways and Streets, Stopping Sight Distance)\nW = curb lane width (driver is assumed to be 3' from lane line). Pedestrian is 4' into the roadway, parked vehicle width 8'.\nTable, posted speed (mph): B (ft)\n25: 153\n30: 195\n35: 242\n40: 294\nCalculated A distances (ft), by curb lane width W, at posted speed 25 / 30 / 35 / 40 mph\nW = 18': 56 / 71 / 88 / 107\nW = 19': 51 / 65 / 81 / 98\nW = 20': 47 / 60 / 74 / 90\nW = 21': 44 / 56 / 69 / 84\nW = 22': 41 / 52 / 65 / 78\nW = 23': 38 / 49 / 61 / 74\nW = 24': 36 / 46 / 57 / 69\nNotes\n1. One-way streets. Because one-way streets place drivers closer to the curb on the left side of the roadway, use A = 4B/(W-11) for left side pedestrian approach. This distance is not shown above.\n2. Signs. See Sheet 1 for appropriate signs."
+   },
+   {
+    "page": 110,
+    "notes": "Red curb for sight distance to pedestrian crossings with curb extension\nA = B/(W-10) = curb stopping prohibition necessary for a motorist to see a pedestrian at the curbline of the curb extension. This formula assumes that the curb extension is 7' wide compared to the 8' wide parking lane. Red curb at least 50' per MPP Sec. 342 where the calculated A is less.\nTable, posted speed (mph): B (ft)\n25: 153\n30: 195\n35: 242\n40: 294\nCalculated A distances (ft), by curb lane width W, at posted speed 25 / 30 / 35 / 40 mph\nW = 18': 19 / 24 / 30 / 37\nW = 19': 17 / 22 / 27 / 33\nW = 20': 15 / 20 / 24 / 29\nW = 21': 14 / 18 / 22 / 27\nW = 22': 13 / 16 / 20 / 25\nW = 23': 12 / 15 / 19 / 23\nW = 24': 11 / 14 / 17 / 21\nNotes\n1. Signs. See Sheet 1 for appropriate signs."
+   },
+   {
+    "page": 111,
+    "notes": "Centerline widening (typical) at intersections\nMin. 30' tapers. Install 100' of 4\" double white line. Install 100' of double white line. Min. 20' and min. 35' dimensions, 2' typical, 20' to 50' to the R1-6 paddle sign. R1-6 paddle sign \"optional\". RPMs \"optional\" (see Note 6, Sheet 1).\nNotes\n1. Signs. See Sheet 1 for appropriate signs."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-481.1",
+  "title": "Continental Crosswalks on Controlled Approaches",
+  "summary": "Shows continental (ladder) crosswalk markings for new and reinstalled marked crosswalks on signalized and stop-controlled approaches, per MPP Section 344. Markings are 2' wide white or yellow bars centered on the DYCL and lane lines, spaced 4.5', 5.0', 5.5' and 6.0' on center for 9', 10', 11' and 12' lanes, so wheels straddle the bars. Typical crosswalk width is 15 feet, a 12\" white limit line is used, and a signed plan takes precedence over this standard.",
+  "keywords": [
+   "continental crosswalk",
+   "ladder crosswalk",
+   "high visibility crosswalk",
+   "crosswalk bars",
+   "controlled crosswalk",
+   "signalized crosswalk",
+   "stop controlled crosswalk",
+   "crosswalk spacing",
+   "limit line",
+   "12 inch limit line",
+   "midblock crosswalk",
+   "MPP 344",
+   "S-493.0",
+   "S-490.0",
+   "cat tracks",
+   "DYCL"
+  ],
+  "sheets": [
+   {
+    "page": 112,
+    "notes": "Notes\n1. Implementation. This standard plan applies to installations in accordance with MPP Section 344 for continental crosswalks for new and reinstallations of marked crosswalks on signalized and stop-controlled approaches.\n2. Crosswalk width. Typical crosswalk widths are 15 feet but may vary according to site conditions. Continental markings shall be installed within existing dimensions unless otherwise indicated on a signed plan.\n3. Midblock crosswalks. This standard plan also applies at controlled midblock approaches in accordance with S-493.0, Location of Limit Lines and Crosswalks.\n4. Conflict between signed plan and standard plan. Should conflicts arise between this standard plan and a signed signal or geometric plan with their associated markings (e.g., \"cat tracks,\" extension of the DYCL, etc.), the signed plan shall take precedent.\n5. Retrofitting and resurfacing. Refer to MPP Section 344 for retrofitting and resurfacing.\nContinental crosswalks on controlled approaches, detail\nInstall 2' wide white or yellow markings along striping. Center the markings on DYCL and lane lines. Add markings according to the chart below. Marking should be installed such that wheels straddle the crosswalk markings.\nLane width (ft): spacing on center (ft)\n9': 4.5'\n10': 5.0'\n11': 5.5'\n12': 6.0'\n12\" white limit line at the crosswalk. 5' minimum to the limit line (refer to S-493.0). 2' maximum for uni-directional ramps and 7' maximum (see S-490.0 for details)."
+   }
+  ]
+ }
+]

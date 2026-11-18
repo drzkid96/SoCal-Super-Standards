@@ -1,0 +1,182 @@
+[
+ {
+  "id": "ladot__mpp-531|S-418.5",
+  "title": "Roadside Freeway Guide Signing",
+  "summary": "Sets out how to apply and lay out roadside (ground-mounted) freeway guide signs on cross streets that lead to freeways. It covers Lane Assignment, Action and Advance sign types, with formats for Signs A through Z, arrow styles, shield sizes and interchange examples. Roadside signing is used where freeway access is only from the right lane, where overhead signs are not feasible, or as interim signing. Action signs go 100 to 200 feet in advance of the turn, and 4'x8', 5'x6', 4'x6' and 3'x8' signs need dual posts.",
+  "keywords": [
+   "roadside freeway guide sign",
+   "freeway guide signing",
+   "lane assignment sign",
+   "action sign",
+   "advance freeway sign",
+   "freeway entrance signs",
+   "ground mounted guide sign",
+   "freeway shield",
+   "on-ramp signing",
+   "dual post sign",
+   "electrolier sign mounting",
+   "cardinal direction sign",
+   "series e letters",
+   "one line arrow",
+   "cal mutcd 2d.45",
+   "freeway access cross street"
+  ],
+  "sheets": [
+   {
+    "page": 63,
+    "notes": "Index of sheets\nGeneral Notes: See Sheet 2.\nArrow Styles: See Sheet 3.\nShield Sizes: See Sheet 3.\nInterchange Examples: See Sheet 4.\nSign Formats: See Sheets 5 to 9."
+   },
+   {
+    "page": 64,
+    "notes": "General Notes\n1. See S-418.6 regarding the use of overhead versus roadside freeway guide signs.\n2. Use roadside freeway guide signing where access to the freeway is provided only by the right lane, where overhead signing may not be feasible, or as interim signing until overhead signing can be installed.\n3. See S-476.1 regarding mounting of roadside freeway guide signing. 4'x8', 5'x6', 4'x6' and 3'x8' signs require dual posts, while 3'x6' signs may be installed on an electrolier or single post. Signs up to 10 sq ft may be installed on steel electroliers within concrete sidewalks.\n4. Lane Assignment freeway guide signs on multilane cross streets that have access to freeways are required per Section 2D.45 of the California MUTCD. Where roadside signs are to be used, apply the appropriate formats as shown in Signs B, C, F, G, I, L, R, S, W and X.\n5. Action freeway guide signs are an essential follow-up to Lane Assignment freeway guide signs for assisting motorists in accessing the desired directions to freeways. Where roadside signs are to be used, apply the appropriate formats as shown in Signs D, H, J, K, M, N, O, P, T, U, Y and Z. They should be placed 100' to 200' in advance of the turn. See Note 9.\n6. Advance freeway guide signs are necessary in advance of a pair of roadside Lane Assignment freeway guide signs in order to advise motorists early on that both directions of the freeway are accessible. See the appropriate formats in Signs A, E, Q and V.\n7. Freeway names are to be used only on the Advance sign, or on the Lane Assignment sign if an Advance sign is not appropriate, and only where the on-ramps are within one mile of a freeway-to-freeway interchange, as shown in Signs A and E. Where a long freeway name does not fit within the 8' wide format, as shown in Sign A, Series C upper and lower case letters may be used. Where the freeway name and the word \"Fwy\" can fit on the first line, the freeway shield shall be shown alone on the second line.\n8. The first capital letter of the cardinal direction is larger so as to provide improved recognition.\n9. The dual direction Action freeway guide sign format shown in Signs D and H, versus the split directional formats shown in Signs J, K, M, O, T, U, Y and Z, is to be used only when physical constraints preclude effective placement of split signs.\n10. The text on each line is to be centered."
+   },
+   {
+    "page": 65,
+    "notes": "Arrow styles and shield sizes\nHorizontal, vertical and diagonal arrows, with dimensions shown on the sheet (including R=5 1/2\" corner radii).\nOne-line advance arrow.\nInterstate shields: 1 or 2 digits and 3 digits, with the shield dimensions shown on the sheet.\nOther route shields: 1 or 2 digits and 5 digits."
+   },
+   {
+    "page": 66,
+    "notes": "Interchange examples\nUrban and suburban arterial approaches to a freeway, showing sign spacing along the approach. Distances shown include 300' min, 400' min, 500' min, 600' to 1500' and 1000' to 1500' between signs. The freeway is labeled with route 28 as an example."
+   },
+   {
+    "page": 67,
+    "notes": "Sign A\n8\" upper case, 6\" lower case, Series E.\n6\" caps, Series D.\n18\" shield, numbers in-line with letters.\nSeries C may be used in constrained situations.\nSign B\n18\" shield, numbers in-line with letters.\n8\" upper case, 6\" lower case, Series E.\n8\" and 6\" caps, Series D (cardinal direction).\nNote: Median not needed for one-lane approach.\nSign C\n6\" caps, Series D.\nSee details and note for Sign B."
+   },
+   {
+    "page": 68,
+    "notes": "Sign D\n13\"x15\" advance arrow, vertically centered.\n8\" and 6\" caps, Series D.\n1/4\" dividing line, typical.\n18\" shield, numbers in-line with letters.\n8\" upper case, 6\" lower case, Series E.\n12 3/4\" x 11 1/4\" one-line arrow, vertically centered.\nSign E\nSee Sign A.\nSign F\nSame as Sign B, except that \"EAST\" becomes \"WEST\".\nSign G\nSame as Sign C, except that \"WEST\" becomes \"EAST\".\nSign H\nSame as Sign D, except that \"EAST\" becomes \"WEST\" and vice versa."
+   },
+   {
+    "page": 69,
+    "notes": "Sign I\n18\" shield, numbers in-line with letters.\n8\" upper case, 6\" lower case, Series E.\n6\" caps, Series D.\nNote: For one-lane approaches see Sign Q.\nSign J\n18\" shield, numbers in-line with letters.\n8\" upper case, 6\" lower case, Series E.\n8\" and 6\" caps, Series D.\n12 1/4\" x 11 1/4\" one-line arrow.\nSign K\nSee details for Sign J.\nSign L\nSee Sign I."
+   },
+   {
+    "page": 70,
+    "notes": "Sign M\n18\" shield, numbers in-line with letters.\n8\" upper case, 6\" lower case, Series E.\n8\" and 6\" caps, Series D.\n12 1/4\" x 11 1/4\" one-line arrow.\nSign N\n18\" shield, numbers in-line with letters.\n8\" upper case, 6\" lower case, Series E.\n8\" and 6\" caps, Series D.\n12 1/4\" x 11 1/4\" one-line arrow.\nSign O\nSee Sign J.\nSign P\n8\" upper case, 6\" lower case, Series E (Series C may be used under constrained situations).\n12 1/4\" x 11 1/4\" one-line arrow.\nExample shown: Suburban Blvd with To Freeway 28 West."
+   },
+   {
+    "page": 71,
+    "notes": "Sign Q\nSee details for Sign I.\nSign R\nSee Sign B.\nSign S\nSee Sign C.\nSign T\n18\" shield, number in-line with letters.\n8\" upper case, 6\" lower case, Series E.\n8\" and 6\" caps, Series D.\n12 1/4\" x 11 1/4\" one-line arrow.\nSign U\nSee Sign N.\nSign V\nSee Sign Q.\nSign W\nSame as Sign B, except \"EAST\" becomes \"WEST\".\nSign X\nSame as Sign C, except \"WEST\" becomes \"EAST\".\nSign Y\nSame as Sign T, except \"EAST\" becomes \"WEST\".\nSign Z\nSame as Sign N, except \"WEST\" becomes \"EAST\"."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-418.6",
+  "title": "Overhead Guide Signing",
+  "summary": "Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.",
+  "keywords": [
+   "overhead guide sign",
+   "overhead signing",
+   "lane assignment sign",
+   "action sign",
+   "diagrammatic arrows",
+   "divergent roadway",
+   "skewed intersection signing",
+   "unshadowed left turn lane",
+   "r3-5 r3-6",
+   "w61f(ca) trap lane",
+   "w61b(ca)",
+   "freeway access signing",
+   "bus carpool lane sign",
+   "street name change sign",
+   "series e letters",
+   "elephant track striping",
+   "one line arrow",
+   "cal mutcd 2d.45"
+  ],
+  "sheets": [
+   {
+    "page": 72,
+    "notes": "Index of sheets\nApplications of Overhead Guide Signs: See Sheet 2.\nOverhead Sign Format Details: See Sheet 3.\nArrow Styles and Specifications: See Sheet 4.\nRoute Shield Sizes: See Sheet 5.\nW61 Signs: See Sheet 5.\nRoadway Examples: See Sheets 6 and 7.\nSign Formats: See Sheets 8 to 14.\nApplication Notes: See Sheets 15 and 16."
+   },
+   {
+    "page": 73,
+    "notes": "Application of Overhead Guide Signs\nGeneral\nThese signs are desirable to provide a high degree of visibility to forewarn and direct motorists on multilane approaches of roadway access or lane assignment conditions that generally cannot be anticipated. Situations where overhead signs generally should be provided include:\n- Divergent arterial roadways\n- Skewed arterial approaches\n- Unshadowed left-turn lanes\n- Arterial grade separations, especially those which involve freeways\n- Priority lanes, such as bus and/or carpool lanes\n- Street name changes\n- End of one-way operation\nWhile overhead signing should be used for the above situations, extenuating circumstances occasionally may suggest an alternative. Accordingly, roadside signing shall be used in the above situations where overhead signing is not used.\nDivergent Arterial Roadways\nOverhead signs are desirable because motorists cannot otherwise anticipate lane assignment and street name changes at the divergence. Where the intersecting street is not an arterial street and no lanes are entrapped onto it, overhead signing is not required. Also, where one of the arterial roadways has no change in horizontal alignment nor name and has no lanes that are entrapped onto the intersecting arterial roadway, no divergence exists and thus overhead signing is not required. See Signs A and B with related notes.\nSkewed Arterial Approaches\nOverhead signs are desirable because the deviation from right angles formed between the intersection legs can result in lane assignment ambiguity. See Signs C and D with related notes.\nUnshadowed Left-Turn Lanes\nOverhead signs are desirable on two-way streets so that motorists will readily recognize that the lane is entrapped and that there may be opposing traffic in the lane downstream. If there is a raised median, ground-mounted signing in the median may be adequate. See Signs B, C and D that display R3-5 signs with related notes, and Signs S and U.\nArterial Grade Separations\nOverhead signs are desirable because motorists cannot otherwise anticipate whether the connecting ramp configuration is on the left or right of the arterial approach. \"Action\" overhead signs show the immediate left-turn or divergent move necessary for access to the grade-separated facility. If there is a raised median, ground-mounted signing in the median may be adequate. \"Action\" overhead signs are not necessary for right turns or right-divergent moves, since \"Lane Assignment\" signs will direct motorists to the right lane(s) from where they can readily read roadside signing. See Signs E, F, G, H, H-Alternate, I, I-Alternate with related notes.\n\"Lane Assignment\" signs forewarn motorists as to which lanes of a multilane approach provide on-ramp access. Section 2D.45 of the California MUTCD requires \"Lane Assignment\" signs on multilane approaches to freeways. See Signs J, K, L, M and N with related notes.\nPriority Lanes\nOverhead signs are desirable for this rare regulatory condition which cannot otherwise be anticipated. See Signs O, P and Q with related notes.\nStreet Name Changes\nOverhead signs are desirable at selected non-divergent locations and major junctions to advise motorists of the change in route name. Selected locations would be near regionally significant activity centers. See Sign R.\nEnd of One-Way Operation\nOverhead signs are desirable so that motorists in the opposing direction (on the two-way leg of the intersection) may readily recognize that they must turn left and/or right. See Signs S, T and U."
+   },
+   {
+    "page": 74,
+    "notes": "Overhead Sign Format Details\nLegend Size\nThe minimum size of letters on overhead signs is 8 inches upper case and 6 inches lower case. On streets with three or more approach lanes or with a posted speed limit of 40 miles per hour or greater, 10.67 inch upper case and 8 inch lower case letters should be used. Series E letter widths should be used, but in constrained situations Series C letter widths may be used.\nSupplemental or clarifying wording on regulatory and guide signs (such as \"ONTO BEVERLY DR\", \"200 FT\" or \"3 OR MORE\") shall be 6 inch Series D capital letters and numbers. Lane Assignment wording (\"RIGHT LANE\", etc.) shall be 6 inch Series D capital letters.\nCardinal directions shall have the first letter (N, S, E, W) larger so as to improve cardinal recognition. Where the general legend is 10.67 inches upper case and 8 inches lower case, the cardinal direction should have 10 inch and 8 inch Series D letters. Where the general legend is 8 inches upper case and 6 inches lower case, the cardinal direction should have 8 inch and 6 inch Series D letters.\nThe size of horizontal and vertical spacing should be equal to the height of the upper case letter. In constrained formats a minimum of one-half of these dimensions may be used. Division and border lines should be 1 1/2 inches wide. See Sheets 4 and 5 for the sizes of arrows, route shields, and W61B(CA) and W61F(CA) signs.\nSign Size\nThe size of the sign is governed by the size of its elements. Sign software programs should be used to determine overall sign size.\nSign Structure\nFabrication of the sign from laminated, honeycomb panels using aluminum framing is shown in S-45.0. Cantilevered sign supports are shown in S92.2, S92.3, S98.0 and Plans S40N, S40P and S40Q of the State of California Standard Plans.\nSign Retroreflectivity Material\nWhite Legend: Diamond (DG III) or Type VIII\nBlack Legend: Non-reflective vinyl\nRed Legend: EC Film\nGreen Background: Type II\nWhite Background: Type III\nYellow Background: Type III\nAll signs are to have matched component UV/anti-graffiti film."
+   },
+   {
+    "page": 75,
+    "notes": "Arrow Styles and Specifications\nOne Line arrows\nTwo Line arrows\nAdvance Arrow\nDown Vertical Arrow\nDiagrammatic Arrows\nDimensions are shown on the sheet (including radii of R=5 5/8\" and R=9 5/8\" and an arrow width of 3/4\")."
+   },
+   {
+    "page": 76,
+    "notes": "Route Shield Sizes\nShield heights: 24\" for 1 or 2 digits and 30\" for 3 digits.\nW61(CA) Signs\nDown Vertical Arrow, with an ONLY panel.\nW61F(CA): yellow or white background as per Note 4.\nW61B(CA): yellow or white background as per Note 4.\n84\" dimension shown on the sheet."
+   },
+   {
+    "page": 77,
+    "notes": "Roadway Example 1\nDivergent arterial roadway example showing Arden Boulevard, Beverly Boulevard and an intersecting avenue, with lane arrows for each leg."
+   },
+   {
+    "page": 78,
+    "notes": "Roadway Example 2\nExample intersection of a minor road with a lower roadway, with Alt. alignment shown."
+   },
+   {
+    "page": 79,
+    "notes": "Sign A (3 approach lanes shown)\nBeverly Drive and Clarita Ave. See Notes 1 to 5.\nDiagrammatic Arrows shown due to optional lane, as per Note 3. See Notes 1 to 5.\nTwo-Line vertical and diagonal arrows shown since optional lanes are not involved, as per Note 3. See Notes 1 to 5.\nDiagrammatic Arrows. See Notes 1 to 5.\nTwo-Line Arrows. See Notes 1 to 5.\nSign B (3 and 4 approach lanes shown)\nArden Blvd, Dolphin St and Beverly Dr. See Note 6. One-Line Arrows.\nSee Note 7. R3-5 and R3-6 shown, as per Note 7.\nArden, Dolphin St and Beverly Dr with ONLY panels. See Notes 6 and 7. One-Line Arrows."
+   },
+   {
+    "page": 80,
+    "notes": "Sign C (2 and more approach lanes shown)\nClarita Ave, Arden Blvd and ONTO Beverly Dr. See Notes 6 and 8. One-Line Arrows.\nSee Notes 6, 7 and 8. One-Line Arrows with ONLY panels.\nSign D (3 approach lanes shown)\nBeverly Dr and Arden Blvd, with WEST, SOUTH and EAST legends and ONLY panels. See Notes 7 and 9.\nSign E\nLower Ave. See Note 6. One-Line Arrow.\nLower Ave with ONLY panel. See Notes 6 and 7."
+   },
+   {
+    "page": 81,
+    "notes": "Sign F\nTo Lower Ave with ONLY panel. See Notes 6 and 10. One-Line Arrow.\nSee Notes 6, 7 and 10.\nSign G (2 approach lanes shown)\nGolden State Fwy NORTH and SOUTH, with ONLY panels. See Notes 6 and 11. One-Line Arrow.\nSee Notes 7 and 11. One-Line Arrow.\nSee Notes 7 and 11.\nSign H\nFwy NORTH, with ONLY panel.\nSee Notes 2, 3, 4, 5 and 11. Two-Line Arrows.\nSee Notes 2, 3, 4, 5 and 11. Diagrammatic Arrows."
+   },
+   {
+    "page": 82,
+    "notes": "Sign H Alternate\nFwy NORTH and SOUTH with 300 FT legend. See Notes 11 and 12. Advance Arrow and One-Line Arrow.\nSign I\nFwy SOUTH, with ONLY panel. See Notes 6 and 11. One-Line Arrow.\nSee Notes 7 and 11. One-Line Arrow.\nSign I Alternate\nFreeway SOUTH and NORTH with 300 FT legend. See Notes 11 and 12. Advance Arrow and One-Line Arrow."
+   },
+   {
+    "page": 83,
+    "notes": "Sign J\nLower Ave with ONLY, LEFT LANE, NEXT LEFT and SECOND LEFT variations.\nSee Notes 13 and 14. Down Vertical Arrow.\nSee Notes 13 and 14. Down Vertical Arrow for W61F sign, as per Note 14.\nSee Notes 13, 14 and 15.\nSign K\nTo Lower Ave with ONLY, LEFT LANE, NEXT LEFT and SECOND LEFT variations.\nSee Notes 10, 13 and 14. Down Vertical Arrow.\nSee Notes 10, 13, 14 and 15. Down Vertical Arrow."
+   },
+   {
+    "page": 84,
+    "notes": "Sign L (2 approach lanes shown)\nGolden State Fwy NORTH and SOUTH, with ONLY panels. See Notes 11, 13 and 14. See Notes 11, 13, 14 and 15.\nSign M (2 approach lanes shown)\nFreeway NORTH and SOUTH with LEFT LANE and RIGHT LANE variations. See Notes 11, 13 and 14. See Notes 11, 13, 14 and 15.\nSign N (2 approach lanes shown)\nFreeway SOUTH and NORTH with LEFT LANE and RIGHT LANE variations. See Notes 11, 13 and 14. See Notes 11, 13, 14 and 15."
+   },
+   {
+    "page": 85,
+    "notes": "Sign O\nFreeway SOUTH ONLY, 200 FT.\nSign P\nBUSES & CARPOOLS, Freeway NORTH ONLY. See Notes 7, 12 and 16.\nSign Q\nTRANSIT BUSES, OTHER VEHICLES, ONLY.\nSign R\nCity Drive.\nSign S (2 approach lanes shown)\nLower Ave, ONLY, WEST ONLY.\nSign T\nSign U (2 approach lanes shown)\nLower Ave, ONLY.\nVertical Down Arrow. See Notes 7, 11, 16, 17 and 18. See Notes 3, 5, 11, 16, 17 and 18."
+   },
+   {
+    "page": 86,
+    "notes": "Application Notes\n1. At roadway divergences show all arterial street destinations, including those where the street name does not change. This is necessary because sometimes the street name continues on the left leg, sometimes on the right leg and sometimes diverges into two different names.\n2. At roadway divergences with two or more approach lanes, utilize elephant track striping as per S-491.0.\n3. At roadway divergences use Two-Line Vertical and Diagonal Arrows (with flared tails) over each applicable lane where optional lanes are not involved. However, where optional lanes are involved use Diagrammatic (non-flared) Arrows over each applicable lane in order to better convey the optional lane use.\n4. Use the black on yellow \"W61B(CA)\" plates to forewarn of the entrapped lane or divergence ahead. However, where the point of divergence is less than 200 feet downstream from the overhead sign, use R3-5 and R3-6 signs to regulate lane assignment.\n5. Position arrows as close as practical over the middle of the applicable lanes and position the applicable arterial street destinations preferably above or immediately adjacent to appropriate arrow heads, as space permits. Vertical lines may be shown to distinguish lane groups.\n6. Use the single or stacked line destination format in advance of intersections where entrapped turn lanes are not involved. List street and destination names in the following vertical order from the top, associated with the following directional one-line arrows: diagonal-vertical left, horizontal left, diagonal down left, vertical, diagonal-vertical right, horizontal right, and diagonal down right. Show left arrows to the left of the legends and vertical and right arrows to the right of the legends. Show vertical arrows to the left of the legends when the other destinations have right arrows, and to the right when the other destinations have left arrows.\n7. At intersections where unshadowed (entrapped) turn lanes or interior optional lanes are involved, use R3-5 and R3-6 signs positioned as close as practical over the middle of the applicable lanes.\n8. Use the customized R3-2 sign where protected-only phasing is provided for one but not both of the possible left turns, such as the diagonal left turn but not the sharper left turn shown.\n9. On the diagonal approach of a five-legged intersection the striping can be designed so that the through move is directed to either the right leg or left leg. The combination of striping and overhead signing should be coordinated to clarify and reinforce the intended operation. The first case shows two lanes directed to westbound Arden Boulevard, while the second shows two lanes directed to southbound Beverly Boulevard. Note that some secondary destinations requiring more than a ninety degree turn from an optional lane are not shown, due to space limitations."
+   },
+   {
+    "page": 87,
+    "notes": "10. Where the destination roadway must be accessed via another named roadway, the name should be preceded with the word \"To\". Ground-mounted trailblazer signs should be provided to direct motorists in advance of every decision point en route to the destination roadway.\n11. Where a freeway on-ramp is within one mile of a freeway-to-freeway interchange, the full freeway name should be shown followed by the appropriate route shield and number. However, in constrained situations the full freeway name may be deleted. In all other situations the appropriate route shield and number followed by the word \"Fwy\" or \"Freeway\" is sufficient.\n12. Use the Advance Arrow and \"XXX FT\" legends where there is an intervening roadway 100 feet or less upstream of the overhead sign.\n13. Lane Assignment signs should be provided 600 to 1300 feet upstream of turns or divergences associated with grade separations.\n14. For Lane Assignment signs use the Down Vertical Arrow format where there is an entrapped turn lane or where it is possible to position arrows over each of the applicable lanes. They should be placed as close as practical over the middle of each lane. Where this is not possible use the \"LEFT (RIGHT) LANE\" or \"NEXT LEFT (RIGHT)\" format. The \"NEXT LEFT (RIGHT)\" message may be used only where there is no intervening intersection. The \"SECOND LEFT (RIGHT)\" message may be used instead of \"NEXT LEFT (RIGHT)\" where there is close spacing between intersections.\n15. The black-on-yellow \"W61F(CA)\" sign is used for advance warning of a trap lane, per S-491.0.\n16. The sign panel pertaining to the bus and carpool lane shall have a black legend on a white background and the diamond shall be white legend on a black background.\n17. See S-487.0 for exclusive bus lane striping.\n18. For exclusive lanes where two-person carpools are allowed it is not necessary to identify the required vehicle occupancy. Other required occupancies shall be identified with and below the diamond symbol."
+   }
+  ]
+ },
+ {
+  "id": "ladot__mpp-531|S-436.0",
+  "title": "RXR Advance Marking",
+  "summary": "Shows pavement markings in advance of a railroad crossing: paired RXR symbols, bar lines and railroad limit lines, with W10-1 and W48(CA) signs where applicable. Railroad limit lines are set 15 feet from the edge of rail or 8 feet from the gate, and the advance marking distance comes from Table A by posted speed, from 50 feet at 25 and 30 mph up to 400 feet at 55 mph. It illustrates a two-lane road, a multilane road and an angled crossing of 60 degrees or greater.",
+  "keywords": [
+   "railroad crossing pavement marking",
+   "rxr marking",
+   "railroad advance warning marking",
+   "rail crossing striping",
+   "railroad limit line",
+   "stop line at railroad crossing",
+   "w10-1",
+   "w48(ca) tracks sign",
+   "bar line",
+   "railroad crossing 15 feet from rail",
+   "8 feet from gate",
+   "angled railroad crossing",
+   "grade crossing markings",
+   "mutcd table 2c-4",
+   "highway rail crossing striping"
+  ],
+  "sheets": [
+   {
+    "page": 88,
+    "notes": "Table A (approximate distance from the railroad limit line, by posted speed)\nPosted Speed (MPH) and Distance (feet):\n25 mph: 50 ft\n30 mph: 50 ft\n35 mph: 125 ft\n40 mph: 175 ft\n45 mph: 250 ft\n50 mph: 325 ft\n55 mph: 400 ft\nThe distances shown in Table A are approximate only. Dimensions of field installations may exceed the figures in the table by up to 100 feet in order to adjust to field conditions. Distances shown are from Table 2C-4 (MUTCD) using condition B and posted speed plus 5 mph.\nCallouts\nW10-1 and W48(CA) (if applicable). Install W48(CA) if two or more tracks.\nRailroad limit lines: 15' from edge of rail or 8' from gate.\nFor angled crossings of 60 degrees or greater, install as shown to the left.\nBar lines are placed 90 degrees to the lane, with 2' dimensions shown between the bar lines on the two-lane layout. Two RXR symbols are shown on the two-lane layout and three on the multilane layouts.\nEdge of traveled lane, parking lane or shoulder, and curb are labeled.\nStriped full time or peak hour curb lane."
+   }
+  ]
+ }
+]

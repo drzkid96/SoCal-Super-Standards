@@ -1,6 +1,6 @@
 ---
 title: "A20D Pavement Markers and Traffic Lines, Typical Details (Revised Standard Plan RSP A20D)"
-description: "Caltrans Std. Plans 2018 standard drawing A20D: Pavement Markers and Traffic Lines, Typical Details (Revised Standard Plan RSP A20D). 1 sheet(s), dated 10-19-18."
+description: "Caltrans Std. Plans 2018 standard drawing A20D: Pavement Markers and Traffic Lines, Typical Details (Revised Standard Plan RSP A20D). Revised Caltrans details for channelizing lines (Details 38, 38A, 38B, 38D), bike lane lines (Detail 39) and intersection bike lane lines (Detail 39A), recessed traffic stripe and recessed pavement marker installation, and lane line and centerline extensions through intersections (Details 40 and 41)."
 tableOfContents: false
 ---
 
@@ -9,7 +9,8 @@ tableOfContents: false
 
 <div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a20b/">&larr; A20B</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2018">All Caltrans Std. Plans 2018 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a24a/">A24A &rarr;</a></div>
 
-<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
+<p class="dwg-sum">Revised Caltrans details for channelizing lines (Details 38, 38A, 38B, 38D), bike lane lines (Detail 39) and intersection bike lane lines (Detail 39A), recessed traffic stripe and recessed pavement marker installation, and lane line and centerline extensions through intersections (Details 40 and 41). Notes give the recess marker requirements, including that markers in recesses sit 0 to 1/16 inch below the pavement surface. RSP A20D dated October 19, 2018 supersedes standard plan A20D dated May 31, 2018.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/bikeways/">Bikeways and bicycle facilities</a> <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></p>
 
 
 
@@ -18,7 +19,30 @@ tableOfContents: false
 ### Sheet 1 of 1 (document page 3)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0003.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0003.webp" alt="A20D sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A20D, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p3">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Notes and text on this sheet (OCR)</summary><p>© 2018 California Department of Transportation All Rights Reserved CHANNELIZING LINE ee DETAIL 38 8" WHITE LINE | TYPE C RED-CLEAR RETROREFLECTIVE b aaa 4 ay | TYPE G ONE-WAY CLEAR RETROREFLECTIVE oO Oo rT 6" YELLOW LINE | 24'-0" I 24’-0" | THROUGH TRAFFIC [=&gt; MARKER DETAILS DETAIL 38A 8" WHITE LINE x Si I Kn. | 39%"-4YQ" Se sete, 4 8 8 =~ Lili y--N = = DETAIL 388 8" WHITE LINE 8 a iff . GF L | H ar | md | | | i 24’-0" " 24/-0" 8 aT Ys jy TYPE C TYPE G BEHH-386 DETAIL 38C DELETED RETROREFLECTIVE FACE DETAIL 38D (EXIT RAMPS ONLY) 8” WHITE LINE ; ; FINISHED FINISHED ROADWAY SURFACE { 4 i ROADWAY SURFACE a 24’-0" ve 24'-0" ’ af t S10 8 | BIKE LANE LINE oy i pee DETAIL 39 mn WHITE LINE STRIPING MATERIAL - f DETAIL FOR RECESSED TRAFFIC STRIPE INTERSECTION LINE See Notes A and B. BIKE LANE RECESSED NOTES: DETAIL 39A_ , 200’-0" INTERSECTION A. See typical traffic line details for an Pavement marking patterns. - C4 a B. See standard specifications for recess Co SS foal Lew 6" WHITE LINE LANE LINE EXTENSIONS THROUGH INTERSECTIONS depth and recess striping material thickness. DETAIL 40A DELETED RETROREFLECTIVE PAVEMENT MARKER AT DOWNSTREAM END OF RECESS 0 TO ¥_", SEE NOTE 3 RETROREFLECTIVE PAVEMENT MARKER AT CENTER OF RECESS 1 ina L ic) SECTION B-B = RETROREFLECTIVE PAVEMENT MARKER AT DOWNSTREAM END OF RECESS é- asa Ve 2'-0" 1/-0" Min Min + PLAN ~ TYPE 1 5H" RETROREFLECTIVE PAVEMENT MARKER Dist] COUNTY TLES_ [SHEET] TOTAL ROUTE No. POST M TOTAL PROJECT SHEETS naive CIVIL ENGINEER October 19, 2018 PLANS APPROVAL DATE THE STATE OF CALIFORNIA OR ITS OFFICERS OR AGENTS SHALL NOT BE RESPONSIBLE FOR THE ACCURACY OP COMPLETENESS OF SCANNED COPIES OF THIS PLAN SHEET, TO ACCOMPANY PLANS DATED ro TO ¥6", SEE NOTE 3 1 RETROREFLECTIVE PAVEMENT MARKER AT A a SECTION A-A &gt; es RECESS DETAIL FOR &lt;2 PLAN = TYPE 2 46-4" fe" 4 - Te" Hy"-y 2"-2'/o" TYPE C, TYPE RY, AND TYPE D RETROREFLECTI RETROREFLECTIVE FACE See Note 4 4H e"- Yo" = --E KZLLA Ye" Ne 2"- 2p" TYPE G, TYPE R, AND TYPE H VE PAVEMENT MARKER FOR RECESSED INSTALLATION RECESSED MARKER NOTES: 1. See typical traffic line details for marker patterns to be used with recessed pavement markers. 2. The retroreflective pavement markers shown for recessed installations are not to be used for non-recessed installations. 3. The top of pavement markers installed in recesses shall be 0 to ¥%e" below the pavement surface. 4, Use Type 1 recess for pavement markers with one-way retroreflective face. Use Type 2 recess for pavement markers with two-way retroreflective face. qaocv dSY NVW1id GHYVGNVLS GHSIAAY 8LlO72 DETAIL 41A DELETED DETAIL 40 1'-0" 6’-0" DETAH-404 ae O Oo oO oO 6" WHITE LINE CENTER LINE EXTENSIONS THROUGH INTERSECTIONS DETAIL 41 BERAH-4+H4 1’-0" 6’-0" Ee Ee) Ee Ee) 6" YELLOW LINE See Notes 1 and 2. STATE OF CALIFORNIA DEPARTMENT OF TRANSPORTATION PAVEMENT MARKERS AND TRAFFIC LINES TYPICAL DETAILS NO SCALE RSP A20D DATED OCTOBER 19, 2018 SUPERSEDES STANDARD PLAN A20D DATED MAY 31, 2018 - PAGE 15 OF THE STANDARD PLANS BOOK DATED 2018, | REVISED STANDARD PLAN RSP A20D 5-10-18 </p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Channelizing line</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-38" data-svg="/SoCal-Super-Standards/linetypes/detail-38.svg">Detail 38</a>: 8&quot; white line, 6&quot; yellow line, 24&#x27;-0&quot; dimensions, through traffic. Markers: Type C red-clear retroreflective, Type G one-way clear retroreflective.</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-38a" data-svg="/SoCal-Super-Standards/linetypes/detail-38a.svg">Detail 38A</a> and <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-38b" data-svg="/SoCal-Super-Standards/linetypes/detail-38b.svg">Detail 38B</a>: 8&quot; white line, 24&#x27;-0&quot; dimensions. Detail 38C deleted.</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-38d" data-svg="/SoCal-Super-Standards/linetypes/detail-38d.svg">Detail 38D</a> (exit ramps only): 8&quot; white line.</p>
+<p>Bike lane line</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-39" data-svg="/SoCal-Super-Standards/linetypes/detail-39.svg">Detail 39</a>: bike lane line, 6&quot; white line, intersection line. <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-39a" data-svg="/SoCal-Super-Standards/linetypes/detail-39a.svg">Detail 39A</a>: bike lane line, 200&#x27;-0&quot; intersection.</p>
+<p>Lane line extensions through intersections</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-40" data-svg="/SoCal-Super-Standards/linetypes/detail-40.svg">Detail 40</a>: 6&quot; white line, 1&#x27;-0&quot; and 6&#x27;-0&quot; dimensions. Detail 40A deleted.</p>
+<p>Centerline extensions through intersections</p>
+<p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-41" data-svg="/SoCal-Super-Standards/linetypes/detail-41.svg">Detail 41</a>: 6&quot; yellow line, 1&#x27;-0&quot; and 6&#x27;-0&quot; dimensions. Detail 41A deleted.</p>
+<p>Recess detail for recessed traffic stripe</p>
+<p>See Notes A and B. Finished roadway surface, striping material, recessed.</p>
+<h5>Notes:</h5>
+<p>A. See typical traffic line details for pavement marking patterns.</p>
+<p>B. See standard specifications for recess depth and recess striping material thickness.</p>
+<p>Recess detail for pavement markers for recessed installation</p>
+<p>Type 1 recess: retroreflective pavement marker at downstream end of recess and at center of recess. Section A-A and Section B-B. Plan dimensions include 2&#x27;-0&quot; and 1&#x27;-0&quot; min.</p>
+<p>Type 2 recess: Type C, Type RY and Type D retroreflective pavement markers. Type G, Type R and Type H retroreflective pavement markers. See Note 4.</p>
+<h5>Recessed marker notes:</h5>
+<p>1. See typical traffic line details for marker patterns to be used with recessed pavement markers.</p>
+<p>2. The retroreflective pavement markers shown for recessed installations are not to be used for non-recessed installations.</p>
+<p>3. The top of pavement markers installed in recesses shall be 0 to 1/16&quot; below the pavement surface.</p>
+<p>4. Use Type 1 recess for pavement markers with one-way retroreflective face. Use Type 2 recess for pavement markers with two-way retroreflective face.</p>
+<p>RSP A20D dated October 19, 2018 supersedes Standard Plan A20D dated May 31, 2018, page 15 of the Standard Plans book dated 2018.</p></details>
 
 
-<div class="kw">Keywords: line, type, pavement, detail, retroreflective, marker, recess, white, recessed, markers, traffic, plan, details, face</div>
+<div class="kw">Keywords: channelizing line, bike lane line, bike lane intersection striping, recessed pavement markers, recessed traffic stripe, exit ramp striping, lane line extension, centerline extension through intersection, 8 inch white line, 6 inch yellow line, RSP A20D, Caltrans A20D, Type C marker, Type G marker, detail 38, detail 39</div>
