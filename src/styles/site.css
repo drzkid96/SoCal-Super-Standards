@@ -360,3 +360,4 @@ details.ocr p { margin: .25rem 0; }
 .kwaz li { break-inside: avoid; }
 .xchip b { white-space: nowrap; }
 .xidx > div { grid-template-columns: 11rem 1fr; }
+.dupnote, .alsopub { padding: .6rem .9rem; border-left: 3px solid var(--sl-color-gray-4); background: var(--sl-color-gray-7, #f6f6f4); font-size: .92rem; }

@@ -15,6 +15,7 @@ from topics_def import T
 
 BASE = "/SoCal-Super-Standards"
 esc = lambda t: html.escape(str(t), quote=True)
+nk = lambda t: re.sub(r"(?<=[a-z])(es|s)$", "", re.sub(r"[^a-z0-9]+", "", t.lower()))
 slugify = lambda t: re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
 TOPIC_NAME = {t[0]: t[1] for t in T}
 
@@ -54,6 +55,8 @@ def concepts(strong_text, weak_text=""):
 
 # ------------------------------------------------------------------ data
 det = json.load(open("public/data/details.json"))
+_dj = json.load(open("data/dups.json")) if os.path.exists("data/dups.json") else {"dups": {}, "blank": []}
+DROP = set(_dj["dups"]) | set(_dj["blank"])
 signs = json.load(open("public/data/signs-index.json"))
 lookup = json.load(open("public/data/lookup.json"))
 lt_ids = {x["detail"].upper(): x["url"] for x in json.load(open("public/data/linetypes.json"))}
@@ -161,13 +164,16 @@ for i in dwgs:
         continue
     s = open(mdp).read()
     kw_raw = re.search(r'<div class="kw">Keywords: (.*?)</div>', s)
-    kws = [k.strip() for k in html.unescape(re.sub(r"<[^>]+>", "", kw_raw.group(1))).split(",") if k.strip()] if kw_raw else []
+    kws0 = [k.strip() for k in html.unescape(re.sub(r"<[^>]+>", "", kw_raw.group(1))).split(",") if k.strip()] if kw_raw else []
+    kws, kwl = [], set()
+    for k in kws0:
+        if nk(k) not in kwl:
+            kwl.add(nk(k)); kws.append(k)
     aka = []
-    kwl = {k.lower() for k in kws}
     for cid in i["cs"]:
         for t in [CBY[cid]["term"]] + CBY[cid]["aka"]:
-            if t.lower() not in kwl and t.lower() not in {a.lower() for a in aka}:
-                aka.append(t)
+            if nk(t) not in kwl:
+                kwl.add(nk(t)); aka.append(t)
     rows = []
     if kws:
         rows.append(("Keywords", " ".join(f'<a class="kchip" href="{BASE}/details/?q={esc(k)}">{esc(k)}</a>' for k in kws)))
@@ -228,6 +234,12 @@ for c in sorted(LIST, key=lambda c: c["term"].lower()):
             xs.sort(key=lambda i: 0 if i["src"].startswith("CA") else 1)
         if ty == "Standard drawing":
             xs.sort(key=lambda i: (0 if c["id"] in i["cs"] else 1, i["src"], i["num"]))
+        _seen, _xs = set(), []
+        for x in xs:
+            key = (re.sub(r"[^a-z0-9]+", " ", (x["num"] + " " + x["title"]).lower() if x["type"] != "Figure page" else x["title"].lower()).strip(), x["src"])
+            if key not in _seen:
+                _seen.add(key); _xs.append(x)
+        xs = _xs
         if not xs:
             continue
         more = f'<li class="kmore"><a href="{BASE}/details/?q={esc(c["term"])}&type={esc(ty).replace(" ", "+")}">All {len(xs)} in the Detail Index</a></li>' if len(xs) > cap else ""
@@ -242,9 +254,9 @@ for c in sorted(LIST, key=lambda c: c["term"].lower()):
                           f'<p class="kaka">Also: {esc(", ".join(c["aka"]))}</p>{"".join(parts)}</div>'))
 
 # drawing keywords A to Z (terms not already covered by a concept)
-covered = set()
+covered, KFORM = set(), {}
 for c in LIST:
-    covered |= {c["term"].lower()} | {a.lower() for a in c["aka"]}
+    covered |= {nk(c["term"])} | {nk(a) for a in c["aka"]}
 kwmap = defaultdict(list)
 url_by_title = {}
 for i in det:
@@ -256,7 +268,7 @@ for f in glob.glob("data/docs/*__*.json"):
     d = json.load(open(f))
     for p in d.get("pages", []):
         cl = p.get("clean")
-        if not cl:
+        if not cl or p["url"] in DROP:
             continue
         url = (DWG_URL.get((d.get("short"), p["drawings"][0])) if p.get("image") and p.get("drawings") else None) or p["url"]
         it = url_by_title.get(url)
@@ -264,9 +276,12 @@ for f in glob.glob("data/docs/*__*.json"):
         src = it["src"] if it else d.get("short", "")
         for k in cl.get("keywords", []):
             k = k.strip().lower()
-            if len(k) < 3 or k in covered:
+            if len(k) < 3 or nk(k) in covered:
                 continue
-            if (url, lab) not in [(a, b) for a, b, _ in kwmap[k]]:
+            k = KFORM.setdefault(nk(k), k)
+            if url in DROP or url in [a for a, _, _ in kwmap[k]] or (lab.lower(), src) in [(b.lower(), c) for _, b, c in kwmap[k]]:
+                continue
+            if True:
                 kwmap[k].append((url, lab, src))
 kw_rows = []
 for k in sorted(kwmap, key=lambda x: re.sub(r"^[^a-z0-9]+", "", x)):

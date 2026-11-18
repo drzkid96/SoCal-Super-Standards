@@ -100,6 +100,8 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
       <div class="dx-body"><div class="dx-tag ${i.sg === 'MUTCD' ? (i.src.startsWith('CA') ? 'c' : 'f') : 'l'}">${i.src}</div>
       <b>${i.type === 'Figure page' ? '' : (i.type === 'Standard drawing' ? '' : i.type + ' ') + i.num}</b> ${(i.title || '').replace(/</g, '&lt;')}
       ${i.date ? `<div class="dx-meta">Dated ${i.date} &middot; ${i.sheets} sheet(s)</div>` : ''}
+      ${i.parts ? `<div class="dx-meta">${i.parts} sheets</div>` : ''}
+      ${i.also ? `<div class="dx-meta">Also published as ${i.also.map((x) => x.src + ' ' + (x.type === 'Standard drawing' ? x.num : 'p ' + x.num.replace(/^p/, ''))).join('; ')}</div>` : ''}
       ${i.sum ? `<div class="dx-sum">${i.sum.replace(/</g, '&lt;').slice(0, 150)}${i.sum.length > 150 ? '...' : ''}</div>` : ''}</div></a>`;
     function run(reset = true) {
       const pq = parse($('dx-q').value);

@@ -4,6 +4,7 @@ set -e
 python3 -I pipeline/apply_clean.py
 python3 -I pipeline/build_refcards.py
 python3 -I pipeline/build_details.py
+python3 -I pipeline/dedupe.py
 python3 -I pipeline/build_topics.py
 python3 -I pipeline/build_ladot_hub.py .
 python3 -I pipeline/build_linetypes.py
