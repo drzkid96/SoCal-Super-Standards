@@ -259,5 +259,60 @@
   "dwg_re": "\\b(S-7\\d\\d)\\b",
   "dwg_norm": false,
   "carry_label": false
+ },
+ {
+  "slug": "caltrans/standard-plans-2018",
+  "path": "/mnt/user-data/uploads/499862c6-CALTRANS-STD-PLANS-PVMK-ONLY-2018.pdf",
+  "agency": "Caltrans",
+  "title": "Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D)",
+  "short": "Caltrans Std. Plans 2018",
+  "edition": "2018 edition (RSP A20D dated 10-19-18); superseded by later Caltrans Standards",
+  "publisher": "California Department of Transportation",
+  "note": "Superseded: Caltrans has issued 2022, 2023, 2024, 2025 and 2026 Standards. Use the current edition for new work.",
+  "mode": "chunk",
+  "chunk": 6,
+  "page_labels": {
+   "1": "A20A Pavement Markers and Traffic Lines, Typical Details",
+   "2": "A20B Pavement Markers and Traffic Lines, Typical Details",
+   "3": "RSP A20D Pavement Markers and Traffic Lines, Typical Details",
+   "4": "A24A Pavement Markings, Arrows",
+   "5": "A24B Pavement Markings, Arrows and Symbols",
+   "6": "A24D Pavement Markings, Words"
+  },
+  "drawing_titles": {
+   "A20A": {
+    "title": "Pavement Markers and Traffic Lines, Typical Details",
+    "sheets": 1,
+    "date": "01-26-18"
+   },
+   "A20B": {
+    "title": "Pavement Markers and Traffic Lines, Typical Details",
+    "sheets": 1,
+    "date": "01-26-18"
+   },
+   "A20D": {
+    "title": "Pavement Markers and Traffic Lines, Typical Details (Revised Standard Plan RSP A20D)",
+    "sheets": 1,
+    "date": "10-19-18"
+   },
+   "A24A": {
+    "title": "Pavement Markings, Arrows",
+    "sheets": 1,
+    "date": "01-26-18"
+   },
+   "A24B": {
+    "title": "Pavement Markings, Arrows and Symbols",
+    "sheets": 1,
+    "date": "01-26-18"
+   },
+   "A24D": {
+    "title": "Pavement Markings, Words",
+    "sheets": 1,
+    "date": "01-26-18"
+   }
+  },
+  "dwg_re": "\\b(A2[04][A-Z])\\b",
+  "dwg_norm": false,
+  "carry_label": false
  }
 ]

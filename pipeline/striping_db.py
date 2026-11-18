@@ -10,8 +10,8 @@ N = 4  # normal line drawn at 4 in (CA: 4 to 6 in local agencies, 6 in on the St
 L = lambda y, c, pat=None, w=N: {"y": y, "c": c, "w": w, "pat": pat}
 M = lambda y, t, every, phase=0: {"y": y, "t": t, "every": every, "phase": phase}
 
-MARKERS = {"Y2": "Two-way yellow retroreflective marker", "Y1": "One-way yellow retroreflective marker",
-           "C1": "One-way clear retroreflective marker", "RC": "Red-clear retroreflective marker", "RY": "Red-yellow retroreflective marker"}
+MARKERS = {"Y2": "Two-way yellow retroreflective marker (Caltrans Type D)", "Y1": "One-way yellow retroreflective marker (Caltrans Type H)",
+           "C1": "One-way clear retroreflective marker (Caltrans Type G)", "RC": "Red-clear retroreflective marker (Caltrans Type C)", "RY": "Red-yellow retroreflective marker (Caltrans Type RY)"}
 
 D = [
  # ---------------- Centerlines, two-lane (3A-101(CA))

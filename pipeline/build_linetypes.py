@@ -55,6 +55,20 @@ def svg(rec):
     out.append("</svg>")
     return "\n".join(out)
 
+# Detail -> sheet, read from the 2018 sheets themselves (deleted details left out)
+CT_SHEETS = {
+ "A20A": "1 2 5 6 8 9 9A 11 12 12A 15 16 18 19 21 22",
+ "A20B": "24 25 25A 26 27 27B 27C 28 29 31 32 34 34A 35 35A",
+ "RSP A20D": "38 38A 38B 38D 39 39A 40 41",
+}
+CT = {}
+if os.path.exists("data/docs/caltrans__standard-plans-2018.json"):
+    pages = json.load(open("data/docs/caltrans__standard-plans-2018.json"))["pages"]
+    for sheet, dets in CT_SHEETS.items():
+        pg = next((p for p in pages if p["drawings"] and p["drawings"][0].upper() == sheet.replace("RSP ", "")), None)
+        if pg:
+            for dn in dets.split():
+                CT[dn] = (sheet, "/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-" + sheet.replace("RSP ", "").lower() + "/")
 rows_html, data = [], []
 for rec in D:
     k = rec["d"]
@@ -71,14 +85,15 @@ for rec in D:
     pattern = f'{rec["seg"]} ft line / {rec["gap"]} ft gap ({rec["cycle"]} ft cycle)' if rec.get("seg") else ("Continuous" if "olid" in rec["type"] else rec["type"])
     rec2 = {"detail": k, "function": rec["fn"], "use_case": rec["sub"], "color": rec["color"], "type": rec["type"], "pattern": pattern,
             "segment_ft": rec.get("seg"), "gap_ft": rec.get("gap"), "cycle_ft": rec.get("cycle"), "spacing": rec.get("spacing", ""),
-            "markers": rec["markers"], "speed": rec["speed"], "policy": use, "figure": rec["fig"], "plan_sheet": rec.get("plan", "Caltrans Std. Plans A20A to A20D"),
+            "markers": rec["markers"], "speed": rec["speed"], "policy": use, "figure": rec["fig"], "plan_sheet": (f"Caltrans Std. Plan {CT[k][0]} (2018 edition, shown on this site)" if k in CT else rec.get("plan", "Caltrans Std. Plans A20A to A20D")),
+            "plan_url": CT[k][1] if k in CT else "",
             "drawing": pic, "source_crop": crop, "url": f"{BASE}/markings/line-types/#detail-{k.lower()}"}
     data.append(rec2)
     q = " ".join(str(v) for v in rec2.values() if isinstance(v, (str, int, float))).lower()
     rows_html.append(f'''<div class="ltc" id="detail-{k.lower()}" data-q="{esc(q)}" data-fn="{esc(rec["fn"])}" data-color="{rec["color"]}" data-speed="{esc(rec["speed"])}" data-type="{esc(rec["type"].lower())}">
 <div class="ltc-head"><b>Detail {esc(k)}</b><span class="lt-chip {rec["color"].lower()}">{esc(rec["color"])}</span><span class="ltc-fn">{esc(rec["fn"])}</span><span class="ltc-sub">{esc(rec["sub"])}</span></div>
 <div class="ltc-pic">{f'<img loading="lazy" src="{pic}" alt="Standardized drawing of Caltrans Detail {esc(k)}">' if pic else (f'<img loading="lazy" class="src" src="{crop}" alt="CA MUTCD source drawing, Detail {esc(k)}">' if crop else '')}</div>
-<dl class="ltc-attr"><div><dt>Type</dt><dd>{esc(rec["type"])}</dd></div><div><dt>Line / gap</dt><dd>{esc(pattern)}</dd></div>{f'<div><dt>Spacing</dt><dd>{esc(rec["spacing"])}</dd></div>' if rec.get("spacing") else ''}<div><dt>Markers</dt><dd>{esc(rec["markers"])}</dd></div><div><dt>Speed</dt><dd>{esc(rec["speed"])}</dd></div><div><dt>Source</dt><dd><a href="{furl}">CA MUTCD Fig. {esc(rec["fig"])}</a></dd></div><div><dt>Plan sheet</dt><dd>{esc(rec2["plan_sheet"])}</dd></div></dl>
+<dl class="ltc-attr"><div><dt>Type</dt><dd>{esc(rec["type"])}</dd></div><div><dt>Line / gap</dt><dd>{esc(pattern)}</dd></div>{f'<div><dt>Spacing</dt><dd>{esc(rec["spacing"])}</dd></div>' if rec.get("spacing") else ''}<div><dt>Markers</dt><dd>{esc(rec["markers"])}</dd></div><div><dt>Speed</dt><dd>{esc(rec["speed"])}</dd></div><div><dt>Source</dt><dd><a href="{furl}">CA MUTCD Fig. {esc(rec["fig"])}</a></dd></div><div><dt>Plan sheet</dt><dd>{(f'<a href="{rec2["plan_url"]}">' + esc(rec2["plan_sheet"]) + '</a>') if rec2.get("plan_url") else esc(rec2["plan_sheet"])}</dd></div></dl>
 {f'<p class="lt-pol">Policy: {esc(use[:300])}</p>' if use else ''}{f'<details class="ltc-src"><summary>Source drawing from CA MUTCD 2026</summary><a href="{crop}" target="_blank"><img loading="lazy" src="{crop}" alt=""></a></details>' if crop and pic else ''}
 </div>''')
 json.dump(data, open("public/data/linetypes.json", "w"), indent=1)
@@ -131,7 +146,7 @@ Details grouped by line and gap geometry.
 - **Paint centerlines:** where the centerline material is paint, a 3 in black line is placed between the yellow lines on State highways, and may be placed on local streets. (Figure 3A-107(CA), Note 2)
 - **Marker legend:**
 <ul class="lt-legend">{mk}</ul>
-- **Plan sheet references** are given only where a cited local standard confirms the sheet. Otherwise, check Caltrans Standard Plans A20A to A20D for the current edition.
+- **Plan sheet references** come from the Caltrans 2018 Standard Plans sheets on this site (A20A, A20B, RSP A20D), read from each sheet's detail labels, or from a local standard that cites the sheet. Caltrans has issued newer editions since 2018, so check the current edition's sheet before citing it in a contract.
 
 <script>
 (function(){{const $=id=>document.getElementById(id);const rows=[...document.querySelectorAll('#lt .ltc')];
