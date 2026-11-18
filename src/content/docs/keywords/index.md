@@ -22,5 +22,6 @@ Plain-language keywords written for each drawing and scanned page, other than th
 
 <script>
 (function(){const q=document.getElementById('kq'),n=document.getElementById('kcount');const E=[...document.querySelectorAll('.kentry, .kwaz li')];
-q.addEventListener('input',()=>{const w=q.value.toLowerCase().trim();let c=0;E.forEach(el=>{const ok=!w||el.dataset.q.includes(w)||el.textContent.toLowerCase().includes(w);el.style.display=ok?'':'none';if(ok)c++});n.textContent=c+' matches'});})();
+q.addEventListener('input',()=>{const w=q.value.toLowerCase().trim();let c=0;E.forEach(el=>{const ok=!w||el.dataset.q.includes(w)||el.textContent.toLowerCase().includes(w);el.style.display=ok?'':'none';if(ok)c++});n.textContent=c+' matches'});
+const go=()=>{if(location.hash){const t=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t)t.scrollIntoView()}};addEventListener('load',()=>{go();setTimeout(go,400)});})();
 </script>

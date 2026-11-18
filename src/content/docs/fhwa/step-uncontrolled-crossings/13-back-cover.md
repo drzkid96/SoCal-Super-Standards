@@ -16,4 +16,8 @@ sidebar:
 <p>July 2018, Updated</p>
 <p>U.S. Department of Transportation, Federal Highway Administration</p>
 <p>Safe Roads for a Safer Future. Investment in roadway safety saves lives.</p></details></div>
+<div class="pclean"><p class="psum"><b>Back Cover.</b> Back cover of the FHWA STEP guide for improving pedestrian safety at uncontrolled crossing locations. It lists the publication number FHWA-SA-17-072, July 2018 (updated), and the Federal Highway Administration slogan. It has no technical content.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>FHWA-SA-17-072</h5>
+<p>July 2018, Updated</p>
+<p>U.S. Department of Transportation, Federal Highway Administration</p>
+<p>Safe Roads for a Safer Future. Investment in roadway safety saves lives.</p></details></div>
 <div class="kw">Keywords: FHWA-SA-17-072, STEP guide, uncontrolled crossings, pedestrian safety, FHWA back cover, Safe Roads for a Safer Future, publication number, July 2018</div>

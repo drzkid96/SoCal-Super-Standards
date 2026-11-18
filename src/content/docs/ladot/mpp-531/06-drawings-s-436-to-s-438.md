@@ -15,6 +15,8 @@ sidebar:
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0077.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0077.webp" alt="MPP 531 page 77 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 77 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
 <div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Roadway Example 1</p>
 <p>Divergent arterial roadway example showing Arden Boulevard, Beverly Boulevard and an intersecting avenue, with lane arrows for each leg.</p></details></div>
+<div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Roadway Example 1</p>
+<p>Divergent arterial roadway example showing Arden Boulevard, Beverly Boulevard and an intersecting avenue, with lane arrows for each leg.</p></details></div>
 <div class="kw">Keywords: overhead guide sign, overhead signing, lane assignment sign, action sign, diagrammatic arrows, divergent roadway, skewed intersection signing, unshadowed left turn lane, r3-5 r3-6, w61f(ca) trap lane, w61b(ca), freeway access signing, bus carpool lane sign, street name change sign, series e letters, elephant track striping, one line arrow, cal mutcd 2d.45</div>
 
 
@@ -24,6 +26,8 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0078.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0078.webp" alt="MPP 531 page 78 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 78 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Roadway Example 2</p>
+<p>Example intersection of a minor road with a lower roadway, with Alt. alignment shown.</p></details></div>
 <div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Roadway Example 2</p>
 <p>Example intersection of a minor road with a lower roadway, with Alt. alignment shown.</p></details></div>
 <div class="kw">Keywords: overhead guide sign, overhead signing, lane assignment sign, action sign, diagrammatic arrows, divergent roadway, skewed intersection signing, unshadowed left turn lane, r3-5 r3-6, w61f(ca) trap lane, w61b(ca), freeway access signing, bus carpool lane sign, street name change sign, series e letters, elephant track striping, one line arrow, cal mutcd 2d.45</div>
@@ -62,6 +66,14 @@ sidebar:
 <p>Sign E</p>
 <p>Lower Ave. See Note 6. One-Line Arrow.</p>
 <p>Lower Ave with ONLY panel. See Notes 6 and 7.</p></details></div>
+<div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign C (2 and more approach lanes shown)</p>
+<p>Clarita Ave, Arden Blvd and ONTO Beverly Dr. See Notes 6 and 8. One-Line Arrows.</p>
+<p>See Notes 6, 7 and 8. One-Line Arrows with ONLY panels.</p>
+<p>Sign D (3 approach lanes shown)</p>
+<p>Beverly Dr and Arden Blvd, with WEST, SOUTH and EAST legends and ONLY panels. See Notes 7 and 9.</p>
+<p>Sign E</p>
+<p>Lower Ave. See Note 6. One-Line Arrow.</p>
+<p>Lower Ave with ONLY panel. See Notes 6 and 7.</p></details></div>
 <div class="kw">Keywords: overhead guide sign, overhead signing, lane assignment sign, action sign, diagrammatic arrows, divergent roadway, skewed intersection signing, unshadowed left turn lane, r3-5 r3-6, w61f(ca) trap lane, w61b(ca), freeway access signing, bus carpool lane sign, street name change sign, series e letters, elephant track striping, one line arrow, cal mutcd 2d.45</div>
 
 
@@ -71,6 +83,17 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0081.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0081.webp" alt="MPP 531 page 81 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 81 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign F</p>
+<p>To Lower Ave with ONLY panel. See Notes 6 and 10. One-Line Arrow.</p>
+<p>See Notes 6, 7 and 10.</p>
+<p>Sign G (2 approach lanes shown)</p>
+<p>Golden State Fwy NORTH and SOUTH, with ONLY panels. See Notes 6 and 11. One-Line Arrow.</p>
+<p>See Notes 7 and 11. One-Line Arrow.</p>
+<p>See Notes 7 and 11.</p>
+<p>Sign H</p>
+<p>Fwy NORTH, with ONLY panel.</p>
+<p>See Notes 2, 3, 4, 5 and 11. Two-Line Arrows.</p>
+<p>See Notes 2, 3, 4, 5 and 11. Diagrammatic Arrows.</p></details></div>
 <div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign F</p>
 <p>To Lower Ave with ONLY panel. See Notes 6 and 10. One-Line Arrow.</p>
 <p>See Notes 6, 7 and 10.</p>
@@ -98,6 +121,13 @@ sidebar:
 <p>See Notes 7 and 11. One-Line Arrow.</p>
 <p>Sign I Alternate</p>
 <p>Freeway SOUTH and NORTH with 300 FT legend. See Notes 11 and 12. Advance Arrow and One-Line Arrow.</p></details></div>
+<div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign H Alternate</p>
+<p>Fwy NORTH and SOUTH with 300 FT legend. See Notes 11 and 12. Advance Arrow and One-Line Arrow.</p>
+<p>Sign I</p>
+<p>Fwy SOUTH, with ONLY panel. See Notes 6 and 11. One-Line Arrow.</p>
+<p>See Notes 7 and 11. One-Line Arrow.</p>
+<p>Sign I Alternate</p>
+<p>Freeway SOUTH and NORTH with 300 FT legend. See Notes 11 and 12. Advance Arrow and One-Line Arrow.</p></details></div>
 <div class="kw">Keywords: overhead guide sign, overhead signing, lane assignment sign, action sign, diagrammatic arrows, divergent roadway, skewed intersection signing, unshadowed left turn lane, r3-5 r3-6, w61f(ca) trap lane, w61b(ca), freeway access signing, bus carpool lane sign, street name change sign, series e letters, elephant track striping, one line arrow, cal mutcd 2d.45</div>
 
 
@@ -107,6 +137,15 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0083.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0083.webp" alt="MPP 531 page 83 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 83 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign J</p>
+<p>Lower Ave with ONLY, LEFT LANE, NEXT LEFT and SECOND LEFT variations.</p>
+<p>See Notes 13 and 14. Down Vertical Arrow.</p>
+<p>See Notes 13 and 14. Down Vertical Arrow for W61F sign, as per Note 14.</p>
+<p>See Notes 13, 14 and 15.</p>
+<p>Sign K</p>
+<p>To Lower Ave with ONLY, LEFT LANE, NEXT LEFT and SECOND LEFT variations.</p>
+<p>See Notes 10, 13 and 14. Down Vertical Arrow.</p>
+<p>See Notes 10, 13, 14 and 15. Down Vertical Arrow.</p></details></div>
 <div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign J</p>
 <p>Lower Ave with ONLY, LEFT LANE, NEXT LEFT and SECOND LEFT variations.</p>
 <p>See Notes 13 and 14. Down Vertical Arrow.</p>
@@ -131,6 +170,12 @@ sidebar:
 <p>Freeway NORTH and SOUTH with LEFT LANE and RIGHT LANE variations. See Notes 11, 13 and 14. See Notes 11, 13, 14 and 15.</p>
 <p>Sign N (2 approach lanes shown)</p>
 <p>Freeway SOUTH and NORTH with LEFT LANE and RIGHT LANE variations. See Notes 11, 13 and 14. See Notes 11, 13, 14 and 15.</p></details></div>
+<div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign L (2 approach lanes shown)</p>
+<p>Golden State Fwy NORTH and SOUTH, with ONLY panels. See Notes 11, 13 and 14. See Notes 11, 13, 14 and 15.</p>
+<p>Sign M (2 approach lanes shown)</p>
+<p>Freeway NORTH and SOUTH with LEFT LANE and RIGHT LANE variations. See Notes 11, 13 and 14. See Notes 11, 13, 14 and 15.</p>
+<p>Sign N (2 approach lanes shown)</p>
+<p>Freeway SOUTH and NORTH with LEFT LANE and RIGHT LANE variations. See Notes 11, 13 and 14. See Notes 11, 13, 14 and 15.</p></details></div>
 <div class="kw">Keywords: overhead guide sign, overhead signing, lane assignment sign, action sign, diagrammatic arrows, divergent roadway, skewed intersection signing, unshadowed left turn lane, r3-5 r3-6, w61f(ca) trap lane, w61b(ca), freeway access signing, bus carpool lane sign, street name change sign, series e letters, elephant track striping, one line arrow, cal mutcd 2d.45</div>
 
 
@@ -140,6 +185,20 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: transit, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0085.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0085.webp" alt="MPP 531 page 85 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 85 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign O</p>
+<p>Freeway SOUTH ONLY, 200 FT.</p>
+<p>Sign P</p>
+<p>BUSES &amp; CARPOOLS, Freeway NORTH ONLY. See Notes 7, 12 and 16.</p>
+<p>Sign Q</p>
+<h5>TRANSIT BUSES, OTHER VEHICLES, ONLY.</h5>
+<p>Sign R</p>
+<p>City Drive.</p>
+<p>Sign S (2 approach lanes shown)</p>
+<p>Lower Ave, ONLY, WEST ONLY.</p>
+<p>Sign T</p>
+<p>Sign U (2 approach lanes shown)</p>
+<p>Lower Ave, ONLY.</p>
+<p>Vertical Down Arrow. See Notes 7, 11, 16, 17 and 18. See Notes 3, 5, 11, 16, 17 and 18.</p></details></div>
 <div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign O</p>
 <p>Freeway SOUTH ONLY, 200 FT.</p>
 <p>Sign P</p>
@@ -191,6 +250,15 @@ sidebar:
 <p>16. The sign panel pertaining to the bus and carpool lane shall have a black legend on a white background and the diamond shall be white legend on a black background.</p>
 <p>17. See S-487.0 for exclusive bus lane striping.</p>
 <p>18. For exclusive lanes where two-person carpools are allowed it is not necessary to identify the required vehicle occupancy. Other required occupancies shall be identified with and below the diamond symbol.</p></details></div>
+<div class="pclean"><p class="psum"><b>Overhead Guide Signing.</b> Covers when and how to use overhead guide signs on arterial streets, including divergent and skewed approaches, unshadowed left-turn lanes, freeway access, priority lanes, street name changes and the end of one-way streets. It gives legend sizes, sign material and retroreflectivity, arrow and shield details, and sign formats A through U with sixteen sheets of application notes. Minimum letter size is 8 inch upper case and 6 inch lower case, rising to 10.67 inch and 8 inch on streets with three or more approach lanes or a posted speed of 40 mph or more. Lane Assignment signs go 600 to 1300 feet upstream of grade-separation turns or divergences.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>10. Where the destination roadway must be accessed via another named roadway, the name should be preceded with the word &quot;To&quot;. Ground-mounted trailblazer signs should be provided to direct motorists in advance of every decision point en route to the destination roadway.</p>
+<p>11. Where a freeway on-ramp is within one mile of a freeway-to-freeway interchange, the full freeway name should be shown followed by the appropriate route shield and number. However, in constrained situations the full freeway name may be deleted. In all other situations the appropriate route shield and number followed by the word &quot;Fwy&quot; or &quot;Freeway&quot; is sufficient.</p>
+<p>12. Use the Advance Arrow and &quot;XXX FT&quot; legends where there is an intervening roadway 100 feet or less upstream of the overhead sign.</p>
+<p>13. Lane Assignment signs should be provided 600 to 1300 feet upstream of turns or divergences associated with grade separations.</p>
+<p>14. For Lane Assignment signs use the Down Vertical Arrow format where there is an entrapped turn lane or where it is possible to position arrows over each of the applicable lanes. They should be placed as close as practical over the middle of each lane. Where this is not possible use the &quot;LEFT (RIGHT) LANE&quot; or &quot;NEXT LEFT (RIGHT)&quot; format. The &quot;NEXT LEFT (RIGHT)&quot; message may be used only where there is no intervening intersection. The &quot;SECOND LEFT (RIGHT)&quot; message may be used instead of &quot;NEXT LEFT (RIGHT)&quot; where there is close spacing between intersections.</p>
+<p>15. The black-on-yellow &quot;W61F(CA)&quot; sign is used for advance warning of a trap lane, per S-491.0.</p>
+<p>16. The sign panel pertaining to the bus and carpool lane shall have a black legend on a white background and the diamond shall be white legend on a black background.</p>
+<p>17. See S-487.0 for exclusive bus lane striping.</p>
+<p>18. For exclusive lanes where two-person carpools are allowed it is not necessary to identify the required vehicle occupancy. Other required occupancies shall be identified with and below the diamond symbol.</p></details></div>
 <div class="kw">Keywords: overhead guide sign, overhead signing, lane assignment sign, action sign, diagrammatic arrows, divergent roadway, skewed intersection signing, unshadowed left turn lane, r3-5 r3-6, w61f(ca) trap lane, w61b(ca), freeway access signing, bus carpool lane sign, street name change sign, series e letters, elephant track striping, one line arrow, cal mutcd 2d.45</div>
 
 
@@ -229,9 +297,6 @@ sidebar:
 <div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Type A, one line</p>
 <p>Typical dimensions: 48&quot; overall length, 25.30&quot; center dimension, 2&quot; minimum left margin, symmetric ends vary, R=0.5&quot; corners.</p>
 <p>Street name signs</p></details></div>
-<div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Type A, one line</p>
-<p>Typical dimensions: 48&quot; overall length, 25.30&quot; center dimension, 2&quot; minimum left margin, symmetric ends vary, R=0.5&quot; corners.</p>
-<p>Street name signs</p></details></div>
 <div class="kw">Keywords: street name sign, street name blade, street blade, type a street sign, type b street sign, city seal sign, blade length, sign abbreviations, street name abbreviations, highway series b, block number, side mounted bracket, two line street sign, sign bracket aluminum, S-221.3, street sign placement</div>
 
 
@@ -241,10 +306,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-438.0</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0090.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0090.webp" alt="MPP 531 page 90 S-438.0 Street Name Signs"></a><figcaption>MPP 531, page 90. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Type A, two line + title</p>
-<p>Typical dimensions: 25.30&quot; center dimension, 48&quot; overall, 12&quot; margins.</p>
-<p>Example blades shown: 36&quot; (Avenida de Santa Ynez, 16700), 48&quot; (Martin Luther King Jr Bl, 3200 W), 42&quot; (San Fernando Mission Bl, 14800) and 48&quot; (Astronaut Ellison S Onizuka Street, 100).</p>
-<p>* See the end statement for Note 9. 4&quot; upper case and 3&quot; lower case letters are required so that the message can fit on the largest sign.</p></details></div>
 <div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Type A, two line + title</p>
 <p>Typical dimensions: 25.30&quot; center dimension, 48&quot; overall, 12&quot; margins.</p>
 <p>Example blades shown: 36&quot; (Avenida de Santa Ynez, 16700), 48&quot; (Martin Luther King Jr Bl, 3200 W), 42&quot; (San Fernando Mission Bl, 14800) and 48&quot; (Astronaut Ellison S Onizuka Street, 100).</p>

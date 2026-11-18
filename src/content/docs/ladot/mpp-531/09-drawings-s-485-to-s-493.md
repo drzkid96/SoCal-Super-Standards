@@ -19,12 +19,6 @@ sidebar:
 <p>3. See City of Los Angeles Supplemental Street Design Guide, Detail 600 for raised crossing details.</p>
 <p>Raised side street crosswalk</p>
 <p>Shows a depressed corner and standard curb ramp, a 10&#x27; raised crosswalk marked by Chevron III (see Sheet 1), and a 10&#x27; bicycle ramp marking (Chevron IV, see Sheet 1). 24&quot; white crosswalk lines and 12&quot; white crosswalk lines as labeled. Bicycle yield line and limit line (if needed). Bicycle crossing marking with optional solid green colored pavement.</p></details></div>
-<div class="pclean"><p class="psum"><b>Raised Crosswalks.</b> Standard details for raised crosswalks with bicycle ramps across a bike lane, including approach and departure ramps, Chevron III and Chevron IV markings, and the sign assemblies for advance warning. The flat top is at least 10 ft wide and should match the connecting sidewalk or path. Ramps are at least 6 ft long with a 12.5% maximum slope. Sheet 3 shows a raised side street crosswalk at a standard curb ramp with optional green bicycle crossing.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Notes</p>
-<p>1. The width of the top of raised crosswalks should match the width of the connecting sidewalk, shared use path, or desired crosswalk, but not less than 10&#x27; in width.</p>
-<p>2. The placement of advanced warning signs and markings shall follow the guidance for advanced sign posting (C**) shown on S-481.0.</p>
-<p>3. See City of Los Angeles Supplemental Street Design Guide, Detail 600 for raised crossing details.</p>
-<p>Raised side street crosswalk</p>
-<p>Shows a depressed corner and standard curb ramp, a 10&#x27; raised crosswalk marked by Chevron III (see Sheet 1), and a 10&#x27; bicycle ramp marking (Chevron IV, see Sheet 1). 24&quot; white crosswalk lines and 12&quot; white crosswalk lines as labeled. Bicycle yield line and limit line (if needed). Bicycle crossing marking with optional solid green colored pavement.</p></details></div>
 <div class="kw">Keywords: raised crosswalk, raised crossing, speed table, chevron iii, chevron iv, bicycle ramp, approach ramp, departure ramp, w17-1bp, w16-7p, w11-2, w11-15, w13-1, advisory speed plaque, raised crosswalk ahead, green colored pavement, bike lane crossing</div>
 
 
@@ -76,19 +70,6 @@ sidebar:
 <p>1. Legend size: 8&quot; and 6&quot; Series D capital letters. 11-1/4&quot; x 12-3/4&quot; one-line arrow. 18&quot; high US, California or Interstate shield, as appropriate with proportional numbers.</p>
 <p>2. Color: white legend, Warboys green (L.A. No. 1) background. Black on white US shield, white on green California shield, white on blue and red Interstate shield.</p>
 <p>3. Reflectivity: high intensity letters on Super Engineer Grade or reverse screening on high intensity sheeting.</p></details></div>
-<div class="pclean"><p class="psum"><b>Mast Arm Mounted Street Name Signs.</b> Layout, size and material requirements for street name signs mounted on signal mast arms, including freeway ramp signs. Street name signs are 18 in high for one line and 30 in high for two lines, with white legend on blue background. Freeway ramp signs are 72 in by 24 in with white legend on green. Sheet 2 shows the sign bracket, banding and aluminum channel framing details.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>A. Street Name Signs</p>
-<p>One-line sign 18&quot; high, two-line sign 30&quot; high, with 12&quot; from each end to the mounting brackets and length as required (see Note 4). Examples: &quot;Jefferson Bl&quot;; &quot;Mulholland Dr&quot; with left arrow and &quot;Valley Circle Bl&quot; with right arrow.</p>
-<p>Notes</p>
-<p>1. Legend size: 8&quot; upper case, 6&quot; lower case, Series &quot;E&quot; letters. 11-1/4&quot; x 12-3/4&quot; one-line arrow.</p>
-<p>2. Color: white legend, blue background.</p>
-<p>3. Reflectivity: high intensity letters on Super Engineer Grade background or reverse screening on high intensity sheeting.</p>
-<p>4. Where the length of the sign blade would exceed 96&quot; (generally 16 letters and spaces) the street name titles, &quot;St&quot;, &quot;Ave&quot;, &quot;Bl&quot;, &quot;Pl&quot;, &quot;Dr&quot;, &quot;Rd&quot;, etc. may be deleted.</p>
-<p>B. Freeway Ramp Signs</p>
-<p>Sign 72&quot; wide by 24&quot; high with 12&quot; from each end to the mounting brackets. Example: left arrow, Interstate 405 shield, &quot;North&quot;.</p>
-<p>Notes</p>
-<p>1. Legend size: 8&quot; and 6&quot; Series D capital letters. 11-1/4&quot; x 12-3/4&quot; one-line arrow. 18&quot; high US, California or Interstate shield, as appropriate with proportional numbers.</p>
-<p>2. Color: white legend, Warboys green (L.A. No. 1) background. Black on white US shield, white on green California shield, white on blue and red Interstate shield.</p>
-<p>3. Reflectivity: high intensity letters on Super Engineer Grade or reverse screening on high intensity sheeting.</p></details></div>
 <div class="kw">Keywords: mast arm street name sign, street name sign, mast arm sign, overhead street name sign, freeway ramp sign, interstate shield, sign blade, signfix, sign bracket, blue background sign, series e letters, series d letters, high intensity sheeting, s-457.0, s-476.0</div>
 
 
@@ -98,11 +79,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-486.0</strong> &middot; Topics: signals, parking-curb, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0122.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0122.webp" alt="MPP 531 page 122 S-486.0 Mastarm Mounted Street Name Signs"></a><figcaption>MPP 531, page 122 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Mast Arm Mounted Street Name Signs.</b> Layout, size and material requirements for street name signs mounted on signal mast arms, including freeway ramp signs. Street name signs are 18 in high for one line and 30 in high for two lines, with white legend on blue background. Freeway ramp signs are 72 in by 24 in with white legend on green. Sheet 2 shows the sign bracket, banding and aluminum channel framing details.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Typical placement (example: Jefferson Bl, on-ramp)</p>
-<p>Mast arm sign bracket. Signfix medium section secured to back of sign with pop rivets at 6&quot; spacing. Fiber lock nut. Banding. Side view shows the front of the sign, sign material .080&quot; aluminum.</p>
-<h5>Notes:</h5>
-<p>1. For installation details see Std. Plan S-457.0.</p>
-<p>2. For Signfix aluminum channel framing system details see Standard Plan S-476.0.</p></details></div>
 <div class="pclean"><p class="psum"><b>Mast Arm Mounted Street Name Signs.</b> Layout, size and material requirements for street name signs mounted on signal mast arms, including freeway ramp signs. Street name signs are 18 in high for one line and 30 in high for two lines, with white legend on blue background. Freeway ramp signs are 72 in by 24 in with white legend on green. Sheet 2 shows the sign bracket, banding and aluminum channel framing details.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Typical placement (example: Jefferson Bl, on-ramp)</p>
 <p>Mast arm sign bracket. Signfix medium section secured to back of sign with pop rivets at 6&quot; spacing. Fiber lock nut. Banding. Side view shows the front of the sign, sign material .080&quot; aluminum.</p>
 <h5>Notes:</h5>
@@ -128,17 +104,6 @@ sidebar:
 <p>7. Mid-block pavement markings for bus only curb lanes shall be installed where the block length exceeds 700 feet.</p>
 <p>8. The &quot;BUS ONLY&quot; pavement markings shall conform to the 8&#x27; high Caltrans standard.</p>
 <p>9. All markings shall be Alkyd-Based thermoplastic.</p></details></div>
-<div class="pclean"><p class="psum"><b>Exclusive Bus Lane Pavement Markings.</b> Typical BUS ONLY pavement markings for exclusive bus lanes, shown at an intersection with markings placed on the approaches and at bus turn lanes. Typical spacings are 18 ft for a turn arrow and 16 ft and 8 ft for the legend words. Markings are installed at the start of bus turn lanes, at the start and end of each block with a bus only curb lane, and mid-block where the block exceeds 700 ft. Concurrent-flow lanes are delineated by 8 in solid white lines.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Typical spacings (shown on each approach): 18&#x27;, 16&#x27;, 8&#x27;, 8&#x27; and 16&#x27;, 8&#x27; between the turn arrow, the ONLY legend and the BUS legend. 8&quot; lines with reference to Note 5.</p>
-<p>Notes</p>
-<p>1. These pavement markings are supplementary to signing which regulates use of the exclusive bus lanes.</p>
-<p>2. Install the &quot;BUS ONLY&quot; pavement markings at the beginning of bus turn lanes and at the beginning and ending of each block where there is a bus only curb lane.</p>
-<p>3. Bus only turn lanes shall be supplemented with turn pavement arrows.</p>
-<p>4. Contra-flow bus only lanes shall be supplemented with straight ahead direction pavement arrows.</p>
-<p>5. Concurrent-flow bus only lanes shall be delineated by 8&quot; solid white lines. For a part-time bus lane installation, which is used as a mixed flow lane during non-restricted hours, a 4&quot; solid white line shall be used.</p>
-<p>6. Bus only left turn pocket lanes shall have a closed entrance delineated by the extension of the 8&quot; white barrier line.</p>
-<p>7. Mid-block pavement markings for bus only curb lanes shall be installed where the block length exceeds 700 feet.</p>
-<p>8. The &quot;BUS ONLY&quot; pavement markings shall conform to the 8&#x27; high Caltrans standard.</p>
-<p>9. All markings shall be Alkyd-Based thermoplastic.</p></details></div>
 <div class="kw">Keywords: bus only, bus lane, exclusive bus lane, bus only pavement marking, bus lane marking, bus turn lane, contra-flow bus lane, concurrent flow bus lane, bus only left turn pocket, 8 inch solid white line, thermoplastic markings, mid-block marking, bus lane arrows, curb lane bus only</div>
 
 
@@ -152,10 +117,6 @@ sidebar:
 <p>Curb, dimensions A, B and C shown.</p>
 <p>Case 2: Uni-directional ramps</p>
 <p>Curb, dimension C shown.</p></details></div>
-<div class="pclean"><p class="psum"><b>Crosswalk Alignment.</b> Guidance for aligning marked crosswalks relative to curb ramps at intersection corners. Case 1 covers bi-directional ramps and Case 2 covers uni-directional ramps, using offset dimensions A, B and C. Generally A and B are at least 2 ft and C is at most 7 ft, with C preferably 4 ft. A 15 ft crosswalk width is standard and 20 ft is used in high pedestrian areas.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Case 1: Bi-directional ramps</p>
-<p>Curb, dimensions A, B and C shown.</p>
-<p>Case 2: Uni-directional ramps</p>
-<p>Curb, dimension C shown.</p></details></div>
 <div class="kw">Keywords: crosswalk alignment, crosswalk location, curb ramp, bi-directional ramp, uni-directional ramp, curb return, curb radius, crosswalk width, 15 ft crosswalk, dual left turns, marked crosswalk, ramp alignment, gutter, curb return radius</div>
 
 
@@ -165,13 +126,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-490.0</strong> &middot; Topics: crosswalks, parking-curb, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0125.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0125.webp" alt="MPP 531 page 125 S-490.0 Crosswalk Alignment"></a><figcaption>MPP 531, page 125 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Crosswalk Alignment.</b> Guidance for aligning marked crosswalks relative to curb ramps at intersection corners. Case 1 covers bi-directional ramps and Case 2 covers uni-directional ramps, using offset dimensions A, B and C. Generally A and B are at least 2 ft and C is at most 7 ft, with C preferably 4 ft. A 15 ft crosswalk width is standard and 20 ft is used in high pedestrian areas.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Notes</p>
-<p>1. Crosswalk installations with an access ramp intended to serve Case 1 situations generally should be aligned so that A&gt;2&#x27;, B&gt;2&#x27; and C&lt;7&#x27;. However, if there is an all-day parking lane, a parallel approach right-turn lane or if the curb lane width for parallel through traffic is &gt;14&#x27;, the related A or B distance may be &gt;0.</p>
-<p>2. Countless combinations of existing intersectional angles, curb radii and ramp locations prevent selection of specific dimensions for A, B, and C in Case 1 situations. C should be set at a preferred 4&#x27; dimension wherever the criteria for A and B are met. However, at a right angle intersection with an existing ramp located at the M.C. and curb return radius of &lt;17&#x27;, C must be &lt;4&#x27; in order for A and B to be the desired 2&#x27; minimum needed when through curb lanes are &lt;14&#x27;. For a curb radius of 14&#x27;, set C=3&#x27; so that A &amp; B are equal to 2&#x27;. C dimensions for curb radii between 14&#x27; and 17&#x27; may be increased proportionately to 4&#x27;. For curb radii &lt;13&#x27;, set the C distance at the edge of gutter (generally 1&#x27; to 2&#x27;) when curb lanes are &lt;14&#x27;. With these smaller radii where curb lanes are &gt;14&#x27;, the A and B distances should be decreased to 0 to achieve a larger C dimension.</p>
-<p>3. At intersections where street resurfacing, street widening, or channelization projects require reinstallation or modification of an existing crosswalk, all crosswalks at the intersection should be realigned to meet the criteria of Notes 1 and 2 above.</p>
-<p>4. At curb returns without a ramp where a single ramp location would not meet the criteria of Note 1 above, unidirection ramps should be proposed, as shown in Case 2.</p>
-<p>5. For Case 2 situations, C&lt;2&#x27;.</p>
-<p>6. A crosswalk width of 15&#x27; is standard. Use 20&#x27; in high pedestrian areas, or on the receptive leg of dual left turns.</p></details></div>
 <div class="pclean"><p class="psum"><b>Crosswalk Alignment.</b> Guidance for aligning marked crosswalks relative to curb ramps at intersection corners. Case 1 covers bi-directional ramps and Case 2 covers uni-directional ramps, using offset dimensions A, B and C. Generally A and B are at least 2 ft and C is at most 7 ft, with C preferably 4 ft. A 15 ft crosswalk width is standard and 20 ft is used in high pedestrian areas.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Notes</p>
 <p>1. Crosswalk installations with an access ramp intended to serve Case 1 situations generally should be aligned so that A&gt;2&#x27;, B&gt;2&#x27; and C&lt;7&#x27;. However, if there is an all-day parking lane, a parallel approach right-turn lane or if the curb lane width for parallel through traffic is &gt;14&#x27;, the related A or B distance may be &gt;0.</p>
 <p>2. Countless combinations of existing intersectional angles, curb radii and ramp locations prevent selection of specific dimensions for A, B, and C in Case 1 situations. C should be set at a preferred 4&#x27; dimension wherever the criteria for A and B are met. However, at a right angle intersection with an existing ramp located at the M.C. and curb return radius of &lt;17&#x27;, C must be &lt;4&#x27; in order for A and B to be the desired 2&#x27; minimum needed when through curb lanes are &lt;14&#x27;. For a curb radius of 14&#x27;, set C=3&#x27; so that A &amp; B are equal to 2&#x27;. C dimensions for curb radii between 14&#x27; and 17&#x27; may be increased proportionately to 4&#x27;. For curb radii &lt;13&#x27;, set the C distance at the edge of gutter (generally 1&#x27; to 2&#x27;) when curb lanes are &lt;14&#x27;. With these smaller radii where curb lanes are &gt;14&#x27;, the A and B distances should be decreased to 0 to achieve a larger C dimension.</p>

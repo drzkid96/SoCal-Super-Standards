@@ -16,9 +16,6 @@ sidebar:
 <div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Type B</p>
 <p>Typical dimensions: lengths of 42&quot;, 48&quot;, 54&quot; and 60&quot; shown, 24&quot; base, ends vary (symmetric).</p>
 <p>Street name signs</p></details></div>
-<div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Type B</p>
-<p>Typical dimensions: lengths of 42&quot;, 48&quot;, 54&quot; and 60&quot; shown, 24&quot; base, ends vary (symmetric).</p>
-<p>Street name signs</p></details></div>
 <div class="kw">Keywords: street name sign, street name blade, street blade, type a street sign, type b street sign, city seal sign, blade length, sign abbreviations, street name abbreviations, highway series b, block number, side mounted bracket, two line street sign, sign bracket aluminum, S-221.3, street sign placement</div>
 
 
@@ -28,53 +25,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-438.0</strong> &middot; Topics: signals, parking-curb, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0092.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0092.webp" alt="MPP 531 page 92 S-438.0 Street Name Signs"></a><figcaption>MPP 531, page 92. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Notes</p>
-<p>1. Signs shall have Diamond Grade or Type VIII retro-reflective white lettering and numbers on a standard blue Type IV retro-reflective background with matching UV/anti-graffiti film. For Type A signs, all colors shall be provided in the official 4&quot; diameter City Seal. Signs shall be provided with a 10-year replacement warranty against wear, delamination or fading. An LADOT-approved vendor shall be used for fabrication.</p>
-<p>2. The sign blade material shall be 1/8 inch thick aluminum stock.</p>
-<p>3. Letters and numbers shall be Highway Series B, with at least one stroke width between letters (45% spacing). For Type A signs, the initial upper case letters shall be 6&quot; and the lower case letters shall be 4.5&quot;, except as discussed in Note 9. For Type B signs, the initial upper case letters shall be 4&quot; and the lower case letters shall be 3&quot;. Intermediate (non-first) words such as &quot;or&quot;, &quot;the&quot;, &quot;el&quot;, &quot;la&quot;, &quot;los&quot;, &quot;las&quot;, &quot;de&quot; and &quot;del&quot; shall have all lower case letters. The block number and the upper case letter representing the cardinal address direction, if any, shall be 3&quot;. The space between words shall be the same width as an upper case letter &quot;O&quot;. The legend shall appear on both sides of the aluminum blade. The street name text shall be left justified starting a minimum of 2&quot; from the left edge of the sign. The legend may be centered.</p>
-<p>4. Numbered streets shall be indicated by Arabic numerals and not letters. Where the number appears before the title (such as 3rd Street or 4th Avenue) the number shall be followed by an ordinal abbreviation, &quot;st&quot;, &quot;nd&quot;, &quot;rd&quot; or &quot;th&quot;, at the same level, with a space between them. However, where the number appears after the title (such as Avenue 19), an ordinal abbreviation shall not be used. The space shall be the same width as an upper case letter &quot;O&quot;.</p>
-<p>5. The block number shall be followed by an upper case letter representing the cardinal direction, only where the named street has address numbers in another direction (such as for Sepulveda Boulevard, Vermont Avenue, Olympic Boulevard, 3rd Street, etc.) within the City of Los Angeles or an adjacent city. The space between the block number and the upper case letter representing the cardinal direction shall be the same width as an upper case &quot;O&quot;.</p>
-<p>6. Where the named street is a private street or driveway, the block number shall be replaced by &quot;PVT&quot; in 3&quot; upper case letters.</p>
-<p>7. Apostrophes shall be used, where appropriate. Accent and tilde markings shall be provided for non-English words and names, where appropriate. A lower case &quot;i&quot; or &quot;j&quot; shall be dotted.</p>
-<p>8. The Bureau of Engineering is the source for street names. If a private street or driveway requires a name, due to signalization or some other reason, the Bureau of Engineering must process the naming proposal.</p>
-<p>9. The following street name abbreviations shall be used, except where using the unabbreviated word would not require an increase in sign length (such as &quot;B Street&quot;). Periods shall not be used after abbreviations.</p>
-<p>Alley: no abbreviation</p>
-<p>Avenida: no abbreviation</p>
-<p>Avenue (end word): Av</p>
-<p>Avenue (first word): no abbreviation</p>
-<p>Boulevard: Bl</p>
-<p>Calle: no abbreviation</p>
-<p>Canyon (other than first word): Cyn</p>
-<p>Canyon (first word): no abbreviation</p>
-<p>Circle (end word): Cir</p>
-<p>Circle (other than end word): no abbreviation</p>
-<p>Court (end word): Ct</p>
-<p>Court (other than end word): no abbreviation</p>
-<p>Drive: Dr</p>
-<p>Driveway: Drwy</p>
-<p>Eastway: Eway</p>
-<p>Expressway: ExpWy</p>
-<p>General (when used as a title): Gen</p>
-<p>Heights: Hgts</p>
-<p>Highway: Hwy</p>
-<p>Junior (as part of a name): Jr</p>
-<p>Lane: no abbreviation</p>
-<p>Mount: Mt</p>
-<p>Park: no abbreviation</p>
-<p>Parkway: Pkwy</p>
-<p>Paseo: no abbreviation</p>
-<p>Place: Pl</p>
-<p>Plaza: no abbreviation</p>
-<p>Road: Rd</p>
-<p>Saint: St</p>
-<p>Senior (as part of a name): Sr</p>
-<p>Street: St</p>
-<p>Square: Sq</p>
-<p>Terrace: no abbreviation</p>
-<p>Trail: no abbreviation</p>
-<p>Walk: no abbreviation</p>
-<p>Way: no abbreviation</p>
-<p>Westway: Wway</p></details></div>
 <div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Notes</p>
 <p>1. Signs shall have Diamond Grade or Type VIII retro-reflective white lettering and numbers on a standard blue Type IV retro-reflective background with matching UV/anti-graffiti film. For Type A signs, all colors shall be provided in the official 4&quot; diameter City Seal. Signs shall be provided with a 10-year replacement warranty against wear, delamination or fading. An LADOT-approved vendor shall be used for fabrication.</p>
 <p>2. The sign blade material shall be 1/8 inch thick aluminum stock.</p>
@@ -147,22 +97,6 @@ sidebar:
 <p>11. Type A and Type B signs that are 30&quot; or 36&quot; long shall be side-mounted only, as shown on sheets 6 and 7. Type A and Type B signs that are 42&quot; and longer shall be side-mounted with vertical support, as shown on sheets 8 and 9. Minor deviations in the sign brackets shown are permissible only with the prior written approval of LADOT.</p>
 <p>12. When provided for initial installation, replacement or maintenance, Type A signs shall be used at intersections when at least one approach is a designated Major, Secondary or Collector Street. When provided for initial installation, replacement or maintenance, Type B signs shall be used at intersections where all approaches are designated Local Streets.</p>
 <p>13. Street name signs shall be provided on the near-right side of each leg of a primary street at the named crossing street, flagged in the direction of the sidewalk or parkway, unless it is physically infeasible. If so, an alternate location shall be provided. If the named cross street does not intersect the primary street, due to a separation island, an additional near-right sign shall be provided on the island. For unusual situations, see S-221.3.</p></details></div>
-<div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>In addition, cardinal direction names may be abbreviated to &quot;N&quot;, &quot;S&quot;, &quot;E&quot; or &quot;W&quot;, only where the unabbreviated word would require the sign length to exceed 60&quot;. For example, use &quot;Huntington Dr S&quot; (abbreviated) and &quot;Cahuenga Bl East&quot; (unabbreviated).</p>
-<p>10. The blade length should be determined using the table below. Columns: text including interword spaces (characters), blade length for Type A one-line signs, blade length for Type B signs.</p>
-<p>9 or less: 30&quot; / 30&quot;</p>
-<p>10: 36&quot; / 30&quot;</p>
-<p>11, 12: 42&quot; / 30&quot;</p>
-<p>13, 14: 48&quot; / 36&quot;</p>
-<p>15, 16: 54&quot; / 36&quot;</p>
-<p>17, 18: 60&quot; / 42&quot;</p>
-<p>19, 20: * / 48&quot;</p>
-<p>21, 22: * / 54&quot;</p>
-<p>23, 24: * / 54&quot;</p>
-<p>25, 26: * / 60&quot;</p>
-<p>* Longer street names for Type A signs shall use two-line blades. The width of the two-line blade shall be based on the text of the longer line. The maximum length of a two-line blade shall be 48 inches. Where the text of the longer line of a two-line blade exceeds 14 characters, 4&quot; upper case and 3&quot; lower case letters may be used.</p>
-<p>11. Type A and Type B signs that are 30&quot; or 36&quot; long shall be side-mounted only, as shown on sheets 6 and 7. Type A and Type B signs that are 42&quot; and longer shall be side-mounted with vertical support, as shown on sheets 8 and 9. Minor deviations in the sign brackets shown are permissible only with the prior written approval of LADOT.</p>
-<p>12. When provided for initial installation, replacement or maintenance, Type A signs shall be used at intersections when at least one approach is a designated Major, Secondary or Collector Street. When provided for initial installation, replacement or maintenance, Type B signs shall be used at intersections where all approaches are designated Local Streets.</p>
-<p>13. Street name signs shall be provided on the near-right side of each leg of a primary street at the named crossing street, flagged in the direction of the sidewalk or parkway, unless it is physically infeasible. If so, an alternate location shall be provided. If the named cross street does not intersect the primary street, due to a separation island, an additional near-right sign shall be provided on the island. For unusual situations, see S-221.3.</p></details></div>
 <div class="kw">Keywords: street name sign, street name blade, street blade, type a street sign, type b street sign, city seal sign, blade length, sign abbreviations, street name abbreviations, highway series b, block number, side mounted bracket, two line street sign, sign bracket aluminum, S-221.3, street sign placement</div>
 
 
@@ -176,10 +110,6 @@ sidebar:
 <p>Material for bracket to be extruded aluminum alloy 6063-T6.</p>
 <p>2 holes, 4 slots required, R=1/8&quot;.</p>
 <p>Not to scale.</p></details></div>
-<div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Bracket specifications for Type A one-line and Type B signs 30&quot; and 36&quot; long</p>
-<p>Material for bracket to be extruded aluminum alloy 6063-T6.</p>
-<p>2 holes, 4 slots required, R=1/8&quot;.</p>
-<p>Not to scale.</p></details></div>
 <div class="kw">Keywords: street name sign, street name blade, street blade, type a street sign, type b street sign, city seal sign, blade length, sign abbreviations, street name abbreviations, highway series b, block number, side mounted bracket, two line street sign, sign bracket aluminum, S-221.3, street sign placement</div>
 
 
@@ -189,11 +119,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-438.0</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0095.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0095.webp" alt="MPP 531 page 95 S-438.0 Street Name Signs"></a><figcaption>MPP 531, page 95. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Bracket specifications for Type A two-line signs 30&quot; and 36&quot; long</p>
-<p>Section A-A</p>
-<p>Material for bracket to be extruded aluminum alloy 6063-T6.</p>
-<p>4 slots required.</p>
-<p>Not to scale.</p></details></div>
 <div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Bracket specifications for Type A two-line signs 30&quot; and 36&quot; long</p>
 <p>Section A-A</p>
 <p>Material for bracket to be extruded aluminum alloy 6063-T6.</p>
@@ -213,11 +138,6 @@ sidebar:
 <p>Brackets every 3&#x27;. Support 9&#x27; minimum to 18&#x27; maximum.</p>
 <p>4 slots required.</p>
 <p>Not to scale.</p></details></div>
-<div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Bracket specifications for Type A one-line and Type B signs 42&quot; and longer</p>
-<p>Material for bracket to be aluminum alloy 6063-T6.</p>
-<p>Brackets every 3&#x27;. Support 9&#x27; minimum to 18&#x27; maximum.</p>
-<p>4 slots required.</p>
-<p>Not to scale.</p></details></div>
 <div class="kw">Keywords: street name sign, street name blade, street blade, type a street sign, type b street sign, city seal sign, blade length, sign abbreviations, street name abbreviations, highway series b, block number, side mounted bracket, two line street sign, sign bracket aluminum, S-221.3, street sign placement</div>
 
 
@@ -227,12 +147,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-438.0</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0097.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0097.webp" alt="MPP 531 page 97 S-438.0 Street Name Signs"></a><figcaption>MPP 531, page 97. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Bracket specifications for Type A two-line signs 42&quot; and longer</p>
-<p>Section A-A</p>
-<p>Material for bracket to be aluminum alloy 6063-T6.</p>
-<p>Brackets every 3&#x27;. Support 9&#x27; minimum to 12&#x27; maximum.</p>
-<p>4 slots required.</p>
-<p>Not to scale.</p></details></div>
 <div class="pclean"><p class="psum"><b>Street Name Signs.</b> Shows the City of Los Angeles street name sign blades, Type A (one-line and two-line, with the City Seal) and Type B, with typical dimensions, letter sizes, blade lengths and side-mount bracket specifications. Notes set the sheeting, aluminum blade, Highway Series B lettering, numbered-street and block-number rules, the required abbreviations, and a table of blade length by character count. Type A is used where at least one approach is a Major, Secondary or Collector Street and Type B where all approaches are Local Streets, placed on the near-right side of each leg.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Bracket specifications for Type A two-line signs 42&quot; and longer</p>
 <p>Section A-A</p>
 <p>Material for bracket to be aluminum alloy 6063-T6.</p>
@@ -314,26 +228,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-444.0</strong> &middot; Topics: transit, parking-curb, striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0101.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0101.webp" alt="MPP 531 page 101 S-444.0 Narrowed Roadway Delineation (Without Lane Drop)"></a><figcaption>MPP 531, page 101 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Narrowed Roadway Delineation (Without Lane Drop).</b> Shows two cases for striping where the roadway narrows without a lane drop. Case 1 uses an 8&quot; white channelizing edge line with 12&quot; white diagonals and an SW44(CA) down-left-arrow sign, and Case 2 allows the lane line and 8&quot; line to transition by table taper rate or curve-tangent-curve design. A table gives preferred taper rates from 15:1 at 25 mph to 60:1 at 55 mph. Use S-485.0 where a lane is dropped.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Case 1 and Case 2</p>
-<p>Both cases: SW44(CA) (down left arrow) sign at the start of the narrowing, set 2&#x27; off recommended (1&#x27; minimum, 7&#x27; minimum with parking) from the edge. 8&quot; white line and 12&quot; white diagonals, spacing per plan (minimum two diagonals). Downstream edge at 2&#x27; or edge of gutter if parking is prohibited, 8&#x27; if parking is permitted. Case 2 downstream lane is 10&#x27; to 12&#x27;.</p>
-<p>Notes</p>
-<p>1. For Case 1 the 8&quot; channelizing line should be installed where:</p>
-<p>A) Downstream lane width is less than 13&#x27; (lane line to edge line) with parking prohibited, or</p>
-<p>B) Downstream lane width is less than 20&#x27; (lane line to edge of roadway) with parking permitted, or</p>
-<p>C) The change in roadway width is 6&#x27; or greater.</p>
-<p>2. For Case 1 the 8&quot; white edge line should be a minimum of 100 feet in length where conditions permit, to provide adequate visibility for approaching motorists. Taper rates in Case 1 should be 5:1 or greater.</p>
-<p>3. For Case 2 the lane line and 8&quot; channelizing line may be transitioned using the appropriate minimum taper rate from Table 1 or by appropriate curve-tangent-curve design.</p>
-<p>4. For narrowed roadway delineation with a lane drop see S-485.0.</p>
-<p>5. For Case 1 and Case 2, the addition of 12&quot; white diagonals should be installed to emphasize that large pavement areas are not intended as part of the traveled roadway.</p>
-<p>6. Taper rates shown in Table 1 are based on posted speed plus 5 mph. Where the 85% speed (critical speed) on the approach is determined to be equal to the posted speed, the table numbers for the next lower speed increment may be used.</p>
-<p>Table 1, speed limit (mph): preferred taper rate</p>
-<p>25: 15:1</p>
-<p>30: 20.5:1</p>
-<p>35: 26.7:1</p>
-<p>40: 45:1</p>
-<p>45: 50:1</p>
-<p>50: 55:1</p>
-<p>55: 60:1</p></details></div>
 <div class="pclean"><p class="psum"><b>Narrowed Roadway Delineation (Without Lane Drop).</b> Shows two cases for striping where the roadway narrows without a lane drop. Case 1 uses an 8&quot; white channelizing edge line with 12&quot; white diagonals and an SW44(CA) down-left-arrow sign, and Case 2 allows the lane line and 8&quot; line to transition by table taper rate or curve-tangent-curve design. A table gives preferred taper rates from 15:1 at 25 mph to 60:1 at 55 mph. Use S-485.0 where a lane is dropped.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Case 1 and Case 2</p>
 <p>Both cases: SW44(CA) (down left arrow) sign at the start of the narrowing, set 2&#x27; off recommended (1&#x27; minimum, 7&#x27; minimum with parking) from the edge. 8&quot; white line and 12&quot; white diagonals, spacing per plan (minimum two diagonals). Downstream edge at 2&#x27; or edge of gutter if parking is prohibited, 8&#x27; if parking is permitted. Case 2 downstream lane is 10&#x27; to 12&#x27;.</p>
 <p>Notes</p>
