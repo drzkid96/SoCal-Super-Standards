@@ -344,7 +344,7 @@ details.ocr p { margin: .25rem 0; }
 .knav { display: flex; flex-wrap: wrap; gap: .3rem; margin: 1rem 0; position: sticky; top: var(--sl-nav-height, 3.5rem); background: var(--sl-color-bg); padding: .4rem 0; z-index: 2; }
 .knav a { padding: .1rem .5rem; border: 1px solid var(--sl-color-gray-5); border-radius: .3rem; text-decoration: none; font-size: .85rem; }
 .kcats div { margin: .3rem 0; font-size: .88rem; line-height: 1.6; }
-.kentry { border-top: 1px solid var(--sl-color-gray-6); padding: .8rem 0 .4rem; scroll-margin-top: 12rem; }
+.kentry { border-top: 1px solid var(--sl-color-gray-6); padding: .8rem 0 .4rem; scroll-margin-top: 9rem; }
 .kentry h3 { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin: 0; font-size: 1.1rem; }
 .kcat { font-size: .7rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--sl-color-gray-3); }
 .kn { font-size: .72rem; padding: 0 .45rem; border-radius: 999px; background: var(--sl-color-gray-6); }

@@ -23,5 +23,5 @@ Plain-language keywords written for each drawing and scanned page, other than th
 <script>
 (function(){const q=document.getElementById('kq'),n=document.getElementById('kcount');const E=[...document.querySelectorAll('.kentry, .kwaz li')];
 q.addEventListener('input',()=>{const w=q.value.toLowerCase().trim();let c=0;E.forEach(el=>{const ok=!w||el.dataset.q.includes(w)||el.textContent.toLowerCase().includes(w);el.style.display=ok?'':'none';if(ok)c++});n.textContent=c+' matches'});
-const go=()=>{if(location.hash){const t=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t)t.scrollIntoView()}};addEventListener('load',()=>{go();setTimeout(go,400)});})();
+const go=()=>{if(location.hash){const t=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t)t.scrollIntoView()}};let user=false;['wheel','touchstart','keydown'].forEach(ev=>addEventListener(ev,()=>{user=true},{once:true,passive:true}));const g2=()=>{if(!user)go()};[0,300,900,1800,3000].forEach(ms=>setTimeout(g2,ms));addEventListener('load',g2);addEventListener('hashchange',go);})();
 </script>
