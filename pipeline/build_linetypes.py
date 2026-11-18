@@ -146,6 +146,7 @@ Details grouped by line and gap geometry.
 - **Paint centerlines:** where the centerline material is paint, a 3 in black line is placed between the yellow lines on State highways, and may be placed on local streets. (Figure 3A-107(CA), Note 2)
 - **Marker legend:**
 <ul class="lt-legend">{mk}</ul>
+
 - **Plan sheet references** come from the Caltrans 2018 Standard Plans sheets on this site (A20A, A20B, RSP A20D), read from each sheet's detail labels, or from a local standard that cites the sheet. Caltrans has issued newer editions since 2018, so check the current edition's sheet before citing it in a contract.
 
 <script>
