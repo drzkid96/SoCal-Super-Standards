@@ -187,10 +187,6 @@ sidebar:
 <p>Pedestrian Zone</p>
 <p>Frontage Zone</p>
 <p>Amenity Zone</p></details></div>
-<div class="pclean"><p class="psum"><b>Pedestrian Zones Diagram.</b> Diagram page from the Introduction chapter labeling the pedestrian zones of a sidewalk: the Frontage Zone and the Amenity Zone within the Pedestrian Zone. No dimensions are given in the page text.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Introduction</p>
-<p>Pedestrian Zone</p>
-<p>Frontage Zone</p>
-<p>Amenity Zone</p></details></div>
 <div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, pedestrian zone, frontage zone, amenity zone, sidewalk zones, sidewalk diagram, pedestrian realm</div>
 
 
@@ -208,8 +204,6 @@ sidebar:
 ### Page 21 - Complete Streets Design Guide: Street Classifications (Section Divider)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" alt="Complete Streets DG page 21 "></a><figcaption>Complete Streets DG, page 21 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Street Classifications (Section Divider).</b> Section divider page for the Street Classifications chapter, with a photograph. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
-<p>Street Classifications</p></details></div>
 <div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Street Classifications (Section Divider).</b> Section divider page for the Street Classifications chapter, with a photograph. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
 <p>Street Classifications</p></details></div>
 <div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, street classifications, section divider, street types</div>

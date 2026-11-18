@@ -116,7 +116,7 @@ tableOfContents: false
         open(f"src/content/docs/details/{ag}/{slug}.md", "w").write(md)
         items.append({"src": c["short"], "sg": AG, "type": "Standard drawing", "num": k, "title": title, "img": sheets[0]["image"],
                       "url": url, "topics": tops, "date": meta.get("date", ""), "sheets": len(sheets), "signs": codes[:12],
-                      "kw": " ".join(kw[:20]), "sum": summary[:400]})
+                      "kw": ", ".join(kw[:20]), "sum": summary[:400]})
     # design-guide figure pages without a drawing number
     for p in d["pages"]:
         if p["image"] and not p["drawings"]:
@@ -126,7 +126,7 @@ tableOfContents: false
                 t = f"{lab}: {p['title']}"
             items.append({"src": c["short"], "sg": AG, "type": "Figure page", "num": f"p{p['page']}", "title": t[:150], "img": p["image"],
                           "url": p["url"], "topics": topics_for(t + " " + " ".join(p["keywords"][:8])), "signs": p["sign_codes"][:8],
-                          "kw": " ".join((p.get("clean") or {}).get("keywords") or p["keywords"][:12]), "sum": (p.get("clean") or {}).get("summary", "")[:400]})
+                          "kw": ", ".join((p.get("clean") or {}).get("keywords") or p["keywords"][:12]), "sum": (p.get("clean") or {}).get("summary", "")[:400]})
 
 # small thumbnails for index grids
 from PIL import Image

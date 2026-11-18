@@ -75,6 +75,7 @@ export default defineConfig({
         ] },
         { label: 'Find by number', items: [
           { label: 'Detail and Drawing Index', link: '/details/' },
+          { label: 'Keyword Index A to Z', link: '/keywords/' },
           { label: 'Sign Library', link: '/signs/' },
           { label: 'Pavement Marking Library', link: '/markings/' },
           { label: 'Line Type Database', link: '/markings/line-types/' },

@@ -72,6 +72,24 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     const root = document.getElementById('dx');
     if (!root) return;
     const all = await (await fetch(BASE + '/data/details.json')).json();
+    let GL = [];
+    try { GL = await (await fetch(BASE + '/data/glossary.json')).json(); } catch (e) {}
+    const PHR = [];
+    GL.forEach((g) => [g.term, ...g.aka].forEach((t) => PHR.push([t.toLowerCase(), g.id])));
+    PHR.sort((a, b) => b[0].length - a[0].length);
+    const hay = (i) => (i.num + ' ' + i.title + ' ' + (i.kw || '') + ' ' + (i.kx || '') + ' ' + (i.sum || '') + ' ' + (i.signs || []).join(' ') + ' ' + i.src).toLowerCase();
+    all.forEach((i) => { i._h = hay(i); });
+    // split a query into concept ids (synonym-aware) and leftover words
+    function parse(raw) {
+      let s = ' ' + raw.toLowerCase().trim() + ' ';
+      const ids = [];
+      for (const [t, id] of PHR) {
+        if (t.length < 3) continue;
+        const k = ' ' + t + ' ';
+        if (s.includes(k)) { ids.push([id, t]); s = s.replace(k, ' '); }
+      }
+      return { ids, words: s.trim().split(/\s+/).filter(Boolean) };
+    }
     const $ = (id) => document.getElementById(id);
     const srcs = [...new Set(all.map((i) => i.src))];
     $('dx-src').innerHTML += srcs.map((s) => `<option>${s}</option>`).join('');
@@ -81,13 +99,15 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     const card = (i) => `<a class="dx-card" href="${i.url}"><div class="dx-img">${i.img ? `<img loading="lazy" src="${i.img}" alt="">` : ''}</div>
       <div class="dx-body"><div class="dx-tag ${i.sg === 'MUTCD' ? (i.src.startsWith('CA') ? 'c' : 'f') : 'l'}">${i.src}</div>
       <b>${i.type === 'Figure page' ? '' : (i.type === 'Standard drawing' ? '' : i.type + ' ') + i.num}</b> ${(i.title || '').replace(/</g, '&lt;')}
-      ${i.date ? `<div class="dx-meta">Dated ${i.date} &middot; ${i.sheets} sheet(s)</div>` : ''}</div></a>`;
+      ${i.date ? `<div class="dx-meta">Dated ${i.date} &middot; ${i.sheets} sheet(s)</div>` : ''}
+      ${i.sum ? `<div class="dx-sum">${i.sum.replace(/</g, '&lt;').slice(0, 150)}${i.sum.length > 150 ? '...' : ''}</div>` : ''}</div></a>`;
     function run(reset = true) {
-      const q = $('dx-q').value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+      const pq = parse($('dx-q').value);
       const sg = $('dx-sg').value, src = $('dx-src').value, ty = $('dx-type').value, tp = $('dx-topic').value, nf = $('dx-noFed').checked;
       list = all.filter((i) => (!sg || i.sg === sg) && (!src || i.src === src) && (!ty || i.type === ty) && (!tp || (i.topics || []).includes(tp))
         && (!nf || i.src !== 'Federal MUTCD')
-        && q.every((w) => (i.num + ' ' + i.title + ' ' + (i.kw || '') + ' ' + (i.signs || []).join(' ') + ' ' + i.src).toLowerCase().includes(w)));
+        && pq.ids.every(([id, t]) => (i.c || []).includes(id) || i._h.includes(t))
+        && pq.words.every((w) => i._h.includes(w)));
       if (reset) { shown = 0; $('dx-grid').innerHTML = ''; }
       const next = list.slice(shown, shown + 90);
       $('dx-grid').insertAdjacentHTML('beforeend', next.map(card).join(''));

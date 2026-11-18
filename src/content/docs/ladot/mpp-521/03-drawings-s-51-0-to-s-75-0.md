@@ -102,14 +102,6 @@ sidebar:
 <p>4. At school crossings, school related signs and pavement markings shall be used in place of those shown hereon, as per S-481.0.</p>
 <p>Plan and Detail &quot;A&quot; labels: Ped Xing, 20&#x27; mast arm, 36&quot; and 42&quot; dimensions, 30&#x27; dimension. Signs shown: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> (mod), W16 (mod), <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>&#x27;s and W16-7p&#x27;s, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-5/" data-svg="/SoCal-Super-Standards/signs/R1-5.svg">R1-5</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a>&#x27;s, R9-3b&#x27;s, R62E(CA) PPB.</p>
 <p>Title: Typical Layout for Activated Pedestrian Warning Device. Drawing No. S-55.0. June 24, 2010.</p></details></div>
-<div class="pclean"><p class="psum"><b>Typical Layout for Activated Pedestrian Warning Device.</b> LADOT typical layout for a pedestrian-activated flashing beacon warning device at a marked crosswalk, with advance signing, pavement markings and red curb. It shows the beacon flash pattern (LED heads, Model 2070 controller, 60 flash periods per minute with three pulses within 0.5 seconds and a 0.5 second pause, alternating between the two beacons) and signs including <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a>, R9-3b and R62E(CA). School crossings use school signs and markings per S-481.0.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Typical Layout for Activated Pedestrian Warning Device</p>
-<h5>Notes:</h5>
-<p>1. The flash pattern utilizes LED heads and a Model 2070 controller. There are 60 flash periods per minute. The flash period for each beacon includes three pulses within 0.5 seconds and a pause of 0.5 seconds. The pulses of one beacon alternate with the pause of the other beacon (timing diagram over 0 to 1.0 sec for Beacon One and Beacon Two, with On/Off, pulse intensity and duty cycle).</p>
-<p>2. Flash length is 3.5 seconds and retimes with each call. Flashing beacon activated by pedestrian push button.</p>
-<p>3. See S-481.0 for required advance signing, pavement marking, and red curb.</p>
-<p>4. At school crossings, school related signs and pavement markings shall be used in place of those shown hereon, as per S-481.0.</p>
-<p>Plan and Detail &quot;A&quot; labels: Ped Xing, 20&#x27; mast arm, 36&quot; and 42&quot; dimensions, 30&#x27; dimension. Signs shown: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> (mod), W16 (mod), <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>&#x27;s and W16-7p&#x27;s, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r1-5/" data-svg="/SoCal-Super-Standards/signs/R1-5.svg">R1-5</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a>&#x27;s, R9-3b&#x27;s, R62E(CA) PPB.</p>
-<p>Title: Typical Layout for Activated Pedestrian Warning Device. Drawing No. S-55.0. June 24, 2010.</p></details></div>
 <div class="kw">Keywords: pedestrian activated beacon, flashing beacon, pedestrian warning device, S-55.0, rectangular rapid flash, push button, <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, R62E(CA), <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a>, R9-3b, W16-7p, flash pattern, LED beacon, 2070 controller, crosswalk beacon</div>
 
 
@@ -119,21 +111,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-60.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/w11-8/" data-svg="/SoCal-Super-Standards/signs/W11-8.svg">W11-8</a> &middot; Topics: signals, parking-curb, signs, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0022.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0022.webp" alt="MPP 521 page 22 S-60.0 Fire Station Warning Beacons"></a><figcaption>MPP 521, page 22 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Fire Station Warning Beacons.</b> LADOT standard for yellow warning beacons at fire station driveways, with signing including <a class="sref" href="/SoCal-Super-Standards/signs/w11-8/" data-svg="/SoCal-Super-Standards/signs/W11-8.svg">W11-8</a>. It states when beacons are authorized (existing all-day beacons, or Fire Station Captain concurrence plus an engineering study documenting Condition A, B, C or D) and how they operate. Beacons are dark until a station officer activates them, flash alternately for about 45 seconds, and use signal preemption when Condition C applies or a signal is within 300 feet.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Fire Station Warning Beacons</p>
-<p>Plan notes: Activation switch located inside the fire station. Interconnect cable to controller at adjacent signal. Mast arms 20&#x27; minimum. Signs <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w11-8/" data-svg="/SoCal-Super-Standards/signs/W11-8.svg">W11-8</a> (Detail A). Note: Final street lighting may not include the depicted mast arm lighting (see Note 3 on preemption).</p>
-<p>Authorization</p>
-<h5>Fire Station Warning Beacons shown on this plan are authorized when:</h5>
-<p>1. There are existing warning beacons that flash all day or during non-emergency periods and it is desired to retain some form of warning beacons, or</p>
-<p>2. There are no existing warning beacons, the Fire Station Captain requests or concurs with the installation of Fire Station Warning Beacons, and an engineering study using LADOT guidelines documents Condition A, B, C or D below:</p>
-<p>A. An accident pattern involving emergency vehicles at or near the fire station driveway.</p>
-<p>B. The cross traffic visibility between the emergency vehicle driver and arterial street motorists is less than an acceptable gap.</p>
-<p>C. The queue extending from a nearby signal recurrently blocks the fire station driveway and &quot;KEEP CLEAR&quot; pavement markings have not been effective.</p>
-<p>D. There is an excess of 30 seconds of delay for exiting emergency vehicles.</p>
-<p>Operation</p>
-<p>1. The beacons are dark in the absence of a manual emergency response activation.</p>
-<p>2. Upon an emergency response, a station officer manually activates a switch to commence flashing of the yellow beacons. The beacons immediately flash alternately in push/pull fashion. The duration of emergency flashing operation generally is 45 seconds. The warning signs and flashing beacons complement Section 21806 of the California Vehicle Code regarding driver and pedestrian responsibilities near authorized emergency vehicles. They serve to alert motorists when an emergency is in effect and where emergency vehicles will be entering the street.</p>
-<p>3. If Condition C is satisfied or if there is an adjacent traffic signal within 300 feet, then it should operate under preemption operation. This preemption will hold vehicles from approaching the fire station in one direction, allow queued vehicles to clear the driveway in the opposite direction and enable emergency vehicles to clear the intersection. The operation is as follows: The phase receiving the green goes to normal pedestrian and yellow clearances followed by 3 seconds of all-red for all approaches with an opposing, permissive left-turn, in order to preclude a left-turn trap situation. Then the approach to the adjacent signalized intersection that is on the departure from the fire station goes to green and stays green. All other vehicle approaches stay red and pedestrian indications provide a solid Upraised Hand (Don&#x27;t Walk) display.</p>
-<p>4. At the end of emergency preemption, normal signal operation resumes from the current position. Flashing yellow beacons are extinguished.</p></details></div>
 <div class="pclean"><p class="psum"><b>Fire Station Warning Beacons.</b> LADOT standard for yellow warning beacons at fire station driveways, with signing including <a class="sref" href="/SoCal-Super-Standards/signs/w11-8/" data-svg="/SoCal-Super-Standards/signs/W11-8.svg">W11-8</a>. It states when beacons are authorized (existing all-day beacons, or Fire Station Captain concurrence plus an engineering study documenting Condition A, B, C or D) and how they operate. Beacons are dark until a station officer activates them, flash alternately for about 45 seconds, and use signal preemption when Condition C applies or a signal is within 300 feet.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Fire Station Warning Beacons</p>
 <p>Plan notes: Activation switch located inside the fire station. Interconnect cable to controller at adjacent signal. Mast arms 20&#x27; minimum. Signs <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w11-8/" data-svg="/SoCal-Super-Standards/signs/W11-8.svg">W11-8</a> (Detail A). Note: Final street lighting may not include the depicted mast arm lighting (see Note 3 on preemption).</p>
 <p>Authorization</p>
@@ -285,6 +262,29 @@ sidebar:
 <p>23&#x27; / 3&#x27; / 13&#x27;</p>
 <p>24&#x27; / 4&#x27; / 14&#x27;</p>
 <p>25&#x27; / 5&#x27; / 15&#x27;</p></details></div>
+<div class="pclean"><p class="psum"><b>Limit Line Inductive Loop Detector Placement.</b> LADOT standard for placing inductive loop detectors at the limit line. On single-lane approaches, one pair of loops is used when the distance A from the double yellow center line to the curb face is less than 20 feet, and dual pairs when A is 20 feet or more, with spacing tables by A. On multiple-lane approaches loops are centered in lanes, and the curb lane follows the single-lane rules. All loops are 6 feet in diameter with 8 feet between front and rear loops, and loops next to the limit line are bicycle detectors.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Limit Line Inductive Loop Detector Placement</p>
+<p>Single Lane Approaches</p>
+<p>For single lane approaches, the number of pairs of loop detectors is based on distance A, measured between the double yellow center line (DYCL) and the curb face. A single pair shall be used for distance A less than 20&#x27;. Dual pairs shall be used for distance A greater than or equal to 20&#x27;. Loop detectors should be installed as specified in the tables below.</p>
+<p>Case A: Single Pair</p>
+<p>Dist. between DYCL and curb face (A) / Dist. between inner loop and curb face (B)</p>
+<p>10&#x27; / 3&#x27;</p>
+<p>11&#x27; / 3&#x27;</p>
+<p>12&#x27; / 3&#x27;</p>
+<p>13&#x27; / 4&#x27;</p>
+<p>14&#x27; / 5&#x27;</p>
+<p>15&#x27; / 6&#x27;</p>
+<p>16&#x27; / 6&#x27;</p>
+<p>17&#x27; / 7&#x27;</p>
+<p>18&#x27; / 8&#x27;</p>
+<p>19&#x27; / 8&#x27;</p>
+<p>Case B: Dual Pair</p>
+<p>Dist. between DYCL and curb face (A) / Dist. between inner loop and curb face (B) / Dist. between outer loop and curb face (C)</p>
+<p>20&#x27; / 3&#x27; / 12&#x27;</p>
+<p>21&#x27; / 3&#x27; / 12&#x27;</p>
+<p>22&#x27; / 3&#x27; / 13&#x27;</p>
+<p>23&#x27; / 3&#x27; / 13&#x27;</p>
+<p>24&#x27; / 4&#x27; / 14&#x27;</p>
+<p>25&#x27; / 5&#x27; / 15&#x27;</p></details></div>
 <div class="kw">Keywords: loop detector, inductive loop, limit line detector, bicycle detector, S-70.0, detector placement, loop spacing, dual pair loops, single pair loops, signal detection, stop bar loop, 6 foot loop, multiple lane approach, S-70.1A</div>
 
 
@@ -294,6 +294,16 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-70.0</strong> &middot; Topics: crosswalks, bikeways, signals, parking-curb, striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0026.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0026.webp" alt="MPP 521 page 26 S-70.0 Limit Line Inductive Loop Detector Placement"></a><figcaption>MPP 521, page 26 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Limit Line Inductive Loop Detector Placement.</b> LADOT standard for placing inductive loop detectors at the limit line. On single-lane approaches, one pair of loops is used when the distance A from the double yellow center line to the curb face is less than 20 feet, and dual pairs when A is 20 feet or more, with spacing tables by A. On multiple-lane approaches loops are centered in lanes, and the curb lane follows the single-lane rules. All loops are 6 feet in diameter with 8 feet between front and rear loops, and loops next to the limit line are bicycle detectors.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Limit Line Inductive Loop Detector Placement</p>
+<p>Multiple Lane Approaches</p>
+<p>For multiple lane approaches, loop detectors should be centered in lanes. For the curb lane, follow the guidelines for single lane approaches. (Diagram shows loops centered in lane, with dimensions A, B, C, D.)</p>
+<h5>Notes:</h5>
+<p>1. This Standard Drawing applies to new installations and re-installations due to maintenance. Loop detectors should be re-installed at existing locations where the loop detectors extend 4&#x27; or more into marked crosswalks and limit lines.</p>
+<p>2. All loops are 6&#x27; diameter with 8&#x27; separation between front and rear loops.</p>
+<p>3. A, B, C, D dimensions shall be shown on plans.</p>
+<p>4. The loop detectors adjacent to the limit line shall be bicycle detectors.</p>
+<p>5. See Standard Drawing Nos. S-70.1A and S-70.1D for installation details.</p>
+<p>6. Types and locations of conduits, pullboxes and stub-outs to be installed per plan.</p></details></div>
 <div class="pclean"><p class="psum"><b>Limit Line Inductive Loop Detector Placement.</b> LADOT standard for placing inductive loop detectors at the limit line. On single-lane approaches, one pair of loops is used when the distance A from the double yellow center line to the curb face is less than 20 feet, and dual pairs when A is 20 feet or more, with spacing tables by A. On multiple-lane approaches loops are centered in lanes, and the curb lane follows the single-lane rules. All loops are 6 feet in diameter with 8 feet between front and rear loops, and loops next to the limit line are bicycle detectors.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Limit Line Inductive Loop Detector Placement</p>
 <p>Multiple Lane Approaches</p>
 <p>For multiple lane approaches, loop detectors should be centered in lanes. For the curb lane, follow the guidelines for single lane approaches. (Diagram shows loops centered in lane, with dimensions A, B, C, D.)</p>
@@ -332,25 +342,6 @@ sidebar:
 <p>See sheet 2/2 for accessible pedestrian signal field wiring for ped-actuated pedestrian crossing.</p>
 <p>Low voltage &quot;gray cable&quot; on sheet 2/2 refers to manufacturer-supplied cable that is included with the APS unit.</p>
 <p>4 CC on sheet 2/2 as per LADOT Spec. 92-097-01.</p></details></div>
-<div class="pclean"><p class="psum"><b>Accessible Pedestrian Signal (APS).</b> Shows how accessible pedestrian signals (APS) behave and how they are wired. Sheet 1 compares ped-actuated crossings with pre-timed and rest-in-walk crossings, and gives the audio and vibrotactile specifications. Sheet 2 gives field wiring for ped-actuated crossings with the APS pushbutton on the same pole as the pedestrian head, on a different pole, or on a Type 7 post. APS is required wherever new pedestrian pushbuttons are installed or existing ones are replaced for maintenance, and countdown pedestrian heads go at every APS location.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Ped-actuated pedestrian crossing (pushbutton activates accessible pedestrian signals and the WALK interval)</p>
-<p>Pre-timed and rest-in-walk pedestrian crossing (pushbutton activates accessible pedestrian signals only, WALK interval is on recall)</p>
-<p>Indications and timer for each crossing: START CROSSING, Watch for vehicles (WALK). DON&#x27;T START, Finish crossing if started (flashing, with the time remaining to finish crossing shown on the timer). DON&#x27;T CROSS (steady, with the timer showing steady).</p>
-<p>Ped-actuated: wires to controller pedestrian pushbutton (PPB) input.</p>
-<p>Pre-timed and rest-in-walk: no wires connected to controller pedestrian pushbutton (PPB) input.</p>
-<h5>Notes:</h5>
-<p>APS shall be used for situations where new pedestrian pushbuttons are being installed or where they are being replaced due to maintenance.</p>
-<h5>Audio specifications:</h5>
-<p>- WALK interval: rapid &quot;tick&quot; tone is activated with a duration of 0.15 seconds and repeats at 0.25-second intervals for a maximum of 7 seconds. Then APS returns to the locator tone for the remainder of the WALK interval.</p>
-<p>- FLASHING DON&#x27;T WALK interval and SOLID DON&#x27;T WALK interval: locator tone shall have a duration of 0.15 seconds and repeat at 1-second intervals.</p>
-<h5>Vibrotactile specifications:</h5>
-<p>- Pushbutton vibrates only during the first 7 seconds of the WALK interval.</p>
-<p>- Tactile arrows shall be aligned parallel to the direction of travel on the associated crosswalk.</p>
-<p>- WALK tones and vibrotactile require actuation, even at pre-timed crossings.</p>
-<p>See California MUTCD 2014, Figures 4E-3 and 4E-4 for pushbutton locations.</p>
-<p>Countdown pedestrian heads shall be installed at all accessible pedestrian signal locations.</p>
-<p>See sheet 2/2 for accessible pedestrian signal field wiring for ped-actuated pedestrian crossing.</p>
-<p>Low voltage &quot;gray cable&quot; on sheet 2/2 refers to manufacturer-supplied cable that is included with the APS unit.</p>
-<p>4 CC on sheet 2/2 as per LADOT Spec. 92-097-01.</p></details></div>
 <div class="kw">Keywords: aps, accessible pedestrian signal, pedestrian pushbutton, ppb wiring, locator tone, vibrotactile, walk tone, countdown pedestrian head, rest in walk, pre-timed crossing, ped actuated, type 7 post, gray cable, pull box, tactile arrow, ped head wiring</div>
 
 
@@ -360,12 +351,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-73.2</strong> &middot; Topics: crosswalks, signals, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0028.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0028.webp" alt="MPP 521 page 28 S-73.2 Accessible Pedestrian Signal (APS)"></a><figcaption>MPP 521, page 28 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Accessible Pedestrian Signal (APS).</b> Shows how accessible pedestrian signals (APS) behave and how they are wired. Sheet 1 compares ped-actuated crossings with pre-timed and rest-in-walk crossings, and gives the audio and vibrotactile specifications. Sheet 2 gives field wiring for ped-actuated crossings with the APS pushbutton on the same pole as the pedestrian head, on a different pole, or on a Type 7 post. APS is required wherever new pedestrian pushbuttons are installed or existing ones are replaced for maintenance, and countdown pedestrian heads go at every APS location.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>APS pushbutton and associated pedestrian head on same pole for ped-actuated pedestrian crossing</p>
-<p>Labels: PED HEAD (4p), APS control unit, low voltage, LED ped module, low voltage &quot;gray cable&quot;, phase 4 APS button, 3 CC (or 2 #14) PPB wires, 5 CC for ped phase, pull box.</p>
-<p>APS pushbutton and associated pedestrian head not on same pole for ped-actuated pedestrian crossing</p>
-<p>Labels: PED HEAD (2p) and PED HEAD (4p), APS control unit, low voltage &quot;gray cable&quot;, phase 4 APS button and phase 2 APS button, 3 CC (or 2 #14) PPB wires, 5 CC for ped phase, pull box, spares (5 CC if no spares).</p>
-<p>APS pushbutton on Type 7 post and associated pedestrian head not on same pole for ped-actuated pedestrian crossing</p>
-<p>Labels: PED HEAD (2p) and PED HEAD (4p), APS control unit, Type 7 post, phase 4 APS button and phase 2 APS button, low voltage &quot;gray cable&quot;, 4 CC, 5 CC for ped phase, 3 CC (or 2 #14) PPB wires, pull box, spares (5 CC if no spares).</p></details></div>
 <div class="pclean"><p class="psum"><b>Accessible Pedestrian Signal (APS).</b> Shows how accessible pedestrian signals (APS) behave and how they are wired. Sheet 1 compares ped-actuated crossings with pre-timed and rest-in-walk crossings, and gives the audio and vibrotactile specifications. Sheet 2 gives field wiring for ped-actuated crossings with the APS pushbutton on the same pole as the pedestrian head, on a different pole, or on a Type 7 post. APS is required wherever new pedestrian pushbuttons are installed or existing ones are replaced for maintenance, and countdown pedestrian heads go at every APS location.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>APS pushbutton and associated pedestrian head on same pole for ped-actuated pedestrian crossing</p>
 <p>Labels: PED HEAD (4p), APS control unit, low voltage, LED ped module, low voltage &quot;gray cable&quot;, phase 4 APS button, 3 CC (or 2 #14) PPB wires, 5 CC for ped phase, pull box.</p>
 <p>APS pushbutton and associated pedestrian head not on same pole for ped-actuated pedestrian crossing</p>
@@ -474,7 +459,6 @@ sidebar:
 <p>3-3-09 SS</p>
 <p>2-27-09 JW</p></div>
 <div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p></div>
-<div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p></div>
 <div class="kw">Keywords: bus priority detection, bus loop, special detector, bicycle detection, bike lane detector, advance detector, inductive loop, pb3 pull box, bus zone, transit signal priority, divided street detection, detector loop, s-70.1d, extend green bicyclists</div>
 
 
@@ -534,7 +518,6 @@ sidebar:
 <p>110 Bus 55 25</p>
 <p>Phase Phase Lagging</p>
 <h4>for phase actuations while tending to ensure a maximum of two cycles of delay for the second</h4></div>
-<div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p></div>
 <div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p></div>
 <div class="kw">Keywords: bus priority detection, bus loop, special detector, bicycle detection, bike lane detector, advance detector, inductive loop, pb3 pull box, bus zone, transit signal priority, divided street detection, detector loop, s-70.1d, extend green bicyclists</div>
 
@@ -605,7 +588,6 @@ sidebar:
 <p>1. The Bicycle Dectector is used in bicycle lanes, on streets where the adjacent vehicle</p>
 <p>Notes</p>
 <p>45'</p></div>
-<div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p></div>
 <div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p></div>
 <div class="kw">Keywords: bus priority detection, bus loop, special detector, bicycle detection, bike lane detector, advance detector, inductive loop, pb3 pull box, bus zone, transit signal priority, divided street detection, detector loop, s-70.1d, extend green bicyclists</div>
 
@@ -685,7 +667,6 @@ sidebar:
 <p>Notes</p>
 <p>Table below Distance per</p></div>
 <div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p></div>
-<div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p></div>
 <div class="kw">Keywords: bus priority detection, bus loop, special detector, bicycle detection, bike lane detector, advance detector, inductive loop, pb3 pull box, bus zone, transit signal priority, divided street detection, detector loop, s-70.1d, extend green bicyclists</div>
 
 
@@ -695,18 +676,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-75.0</strong>, <strong>S-70.0</strong> &middot; Topics: bikeways, transit, signals, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0033.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0033.webp" alt="MPP 521 page 33 S-75.0 Special Detector Applications"></a><figcaption>MPP 521, page 33. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>Bicycle detection notes:</h5>
-<p>1. The bicycle detector is used in bicycle lanes, on streets where the adjacent vehicle lanes are actuated, to call and extend the green for bicyclists.</p>
-<p>2. The special detector configuration is sensitive to the limited metal content in bicycles.</p>
-<p>3. The placement of the advance detectors recognizes the slower travel speed of bicyclists (approximately 10 miles per hour) relative to motor vehicles, and enables bicyclists to extend the green in order to clear the intersection before the red is displayed.</p>
-<p>4. Bicyclists at or upstream of the advance detectors can comfortably decelerate to a stop.</p>
-<p>5. Bicycle detectors are shown in S-70.1D.</p>
-<p>Bus Priority Detection with an Arterial Cross Street</p>
-<p>Bus loops B1 and B2 are 3 ft wide and set 15 ft from the bus zone, each connected to a PB3 pull box. Existing interconnect conduit (EXIST. I/C) is shown. Notes 1, 3 and 4 are referenced.</p>
-<p>Bus Priority Detection with a Minor Cross Street</p>
-<p>Bus loop B1 is placed 3 ft from each end of the intersection area and connected to a PB3 pull box. Notes 1, 4 and 5 are referenced. An alternative connection is shown (see Note 5).</p>
-<p>Bus Priority Detection on a Divided Street</p>
-<p>Bus loops B1, B2, B3 and B4 are 3 ft typical in width and set 15 ft from the bus zone, each connected to a PB3 pull box. Notes 1, 2 and 3 are referenced.</p></details></div>
 <div class="pclean"><p class="psum"><b>Special Detector Applications.</b> Plan details for bus priority detection loops at signalized intersections, shown for an arterial cross street, a minor cross street and a divided street. Loops are labeled B1 to B4 and are tied to PB3 pull boxes, with the bus loop set 15 ft from the bus zone and 3 ft wide as dimensioned. The sheet text also carries the bicycle detection notes, which explain that bicycle detectors are used in bike lanes to call and extend the green and refer to S-70.1D.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>Bicycle detection notes:</h5>
 <p>1. The bicycle detector is used in bicycle lanes, on streets where the adjacent vehicle lanes are actuated, to call and extend the green for bicyclists.</p>
 <p>2. The special detector configuration is sensitive to the limited metal content in bicycles.</p>
