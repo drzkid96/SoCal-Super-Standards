@@ -1,0 +1,30 @@
+---
+title: "S-68.1 Removable Lifting Plate for Controller Cabinets"
+description: "Red Book standard drawing S-68.1: Removable Lifting Plate for Controller Cabinets. Drawing S-68.1 gives the removable lifting plate for controller cabinets, a 1/8 in."
+tableOfContents: false
+---
+
+<div class="dwg-head"><div><span class="dwg-num">S-68.1</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
+<div class="dwg-facts"><span><b>1</b> sheet(s)</span><span>Pages 56</span></div></div>
+
+<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-67-1/">&larr; S-67.1</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-0/">S-70.0 &rarr;</a></div>
+
+<p class="dwg-sum" data-pagefind-weight="6">Drawing S-68.1 gives the removable lifting plate for controller cabinets, a 1/8 in. galvanized A36 steel plate with a 1 1/4 in. radius end, a 1 in. lifting hole and two 7/16 in. bolt holes bolted to the cabinet wall with 3/8 in. x 1 1/4 in. cad plated bolts. The cabinet wall is drilled with four 7/16 in. holes to match.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a> <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></p>
+
+
+
+## Sheets
+
+### Sheet 1 of 1 (document page 56)
+
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0056.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0056.webp" alt="S-68.1 sheet 1"></a><figcaption>Red Book S-68.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p56">Open in the document</a>.</figcaption></figure>
+<details class="sdesc" open><summary>What this sheet shows</summary><p>Plate elevation: a flat steel plate with a rounded top, drawn with its vertical centerline marked as symmetrical (CL SYMM.). The top end has a 1 1/4 in. radius and a 1 in. diameter hole at the center of the radius. Two 7/16 in. diameter holes are located 4 1/4 in. below the hole center, 3/4 in. each side of the centerline (1 1/2 in. apart). The plate extends 1 in. below the hole row. Drawn at scale 1/2 in. = 1 in.</p>
+<p>Side section: the plate edge-on, 1/8 in. (stock) thick, drawn against the controller cabinet wall (ref.), with a 3/8 in. x 1 1/4 in. N.C. hex head bolt and nut, cad. plated (2 Req.) through the lower hole. A callout reads Drill four (4) 7/16 in. holes to match removable lifting plate.</p>
+<p>Title block: City of Los Angeles Department of Transportation, Removable Lifting Plate for Controller Cabinets, drawing number S-68.1, drawn 9-27-83, approved October 3, 1983 by Donald R. Howery, General Manager. Page number 49.</p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Material: ASTM A36 steel plate.</p>
+<p>2. Hot dip galvanized plate per ASTM Spec. A-123.</p>
+<p>Callouts: 1 1/4 in. R. 1 in. Dia. Hole. 4 1/4 in. 1 in. 3/4 in. 1 1/2 in. 7/16 in. Dia. holes. Drill four (4) 7/16 in. holes to match removable lifting plate. 3/8 in. x 1 1/4 in. N.C. Hex. Head Bolt and nut, Cad. plated (2 Req.). 1/8 in. (Stock). Controller Cabinet Wall (Ref.). Scale: 1/2 in. = 1 in.</p></details>
+
+
+<section class="xidx-wrap" data-pagefind-weight="4"><h2 id="index-and-related">Index and related drawings</h2><dl class="xidx"><div><dt>Keywords</dt><dd><a class="kchip" href="/SoCal-Super-Standards/details/?q=removable lifting plate">removable lifting plate</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=controller cabinet lifting plate">controller cabinet lifting plate</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=cabinet lift plate">cabinet lift plate</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=controller cabinet">controller cabinet</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=astm a36 steel">astm a36 steel</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=galvanized plate">galvanized plate</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=lifting eye">lifting eye</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=hex head bolt">hex head bolt</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=cabinet installation">cabinet installation</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=traffic signal controller">traffic signal controller</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=s-68.1">s-68.1</a></dd></div><div><dt>Also searched as</dt><dd>traffic signal, signal, signalized intersection, traffic control signal, stoplight, traffic light, signal cabinet, Type 332, Type 337, Type 170, controller, ATC cabinet, service cabinet</dd></div><div><dt>Index entries</dt><dd>Traffic signals: <a href="/SoCal-Super-Standards/keywords/#c-signal">traffic signal</a> &middot; Electrical and lighting: <a href="/SoCal-Super-Standards/keywords/#c-cabinet">controller cabinet</a></dd></div><div><dt>Referred to by</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-75-5-3/"><b>S-75.5.3</b> Type M Controller Cabinet<span>Red Book</span></a></dd></div><div><dt>Related in Red Book</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-75-9a/"><b>S-75.9A</b> 337 Cabinet, Post-Top Mounted<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-57-3/"><b>S-57.3</b> Temporary Controller for Type 8 Standard<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-75-5-3/"><b>S-75.5.3</b> Type M Controller Cabinet<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-51-8/"><b>S-51.8</b> Type 337 Post-Top Mounted Cabinet<span>Red Book</span></a></dd></div></dl></section>

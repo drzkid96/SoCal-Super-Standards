@@ -1,0 +1,36 @@
+---
+title: "S-58.19 R3-9a Electric Sign"
+description: "Red Book standard drawing S-58.19: R3-9a Electric Sign. Fiber optic R3-9a electric sign with opposing left curved arrows, drawing S-58.19, approved July 9, 2008."
+tableOfContents: false
+---
+
+<div class="dwg-head"><div><span class="dwg-num">S-58.19</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
+<div class="dwg-facts"><span><b>1</b> sheet(s)</span><span>Pages 121</span></div></div>
+
+<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-18/">&larr; S-58.18</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-21/">S-58.21 &rarr;</a></div>
+
+<p class="dwg-sum" data-pagefind-weight="6">Fiber optic <a class="sref" href="/SoCal-Super-Standards/signs/r3-9a/" data-svg="/SoCal-Super-Standards/signs/R3-9a.svg">R3-9a</a> electric sign with opposing left curved arrows, drawing S-58.19, approved July 9, 2008. The face is 24 inches by 24 inches with the arrow group 16-1/2 inches square, and the visor is 24 inches wide, 24 inches tall and 17 to 12 inches deep.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="chip" href="/SoCal-Super-Standards/topics/temporary-traffic-control/">Temporary traffic control</a></p>
+
+<h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/r3-9a/" data-svg="/SoCal-Super-Standards/signs/R3-9a.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-9a.svg" alt="R3-9a"><span><b>R3-9a</b> Two-Way Left Turn Only (overhead) regula</span></a></div>
+
+## Sheets
+
+### Sheet 1 of 1 (document page 121)
+
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0121.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0121.webp" alt="S-58.19 sheet 1"></a><figcaption>Red Book S-58.19, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p121">Open in the document</a>.</figcaption></figure>
+<details class="sdesc" open><summary>What this sheet shows</summary><p>Sign face: A 24&quot; by 24&quot; square with two dotted curved arrows, one at the left pointing left and one at the right pointing right, drawn so the arrows curve away from each other. The arrow group is 16-1/2&quot; wide and 16-1/2&quot; tall. Side margins are 3-3/4&quot; left and right, and 3-3/4&quot; is also shown at the top and bottom of the arrow group.</p>
+<p>Visor enclosure: Isometric three-sided hood, top 24&quot; wide and 17&quot; deep, tapering to 12&quot; deep at the bottom, 24&quot; tall, lower front corners with 2&quot; Rad.</p>
+<p>Title block: <a class="sref" href="/SoCal-Super-Standards/signs/r3-9a/" data-svg="/SoCal-Super-Standards/signs/R3-9a.svg">R3-9a</a> Electric Sign, sheet 1 of 1, City of Los Angeles Department of Transportation, Drawing No. S-58.19. Drawn MT 7-01-08, checked RAR 7-09-08, T. E. JV 7-09-08, Sr. T. E. JW 7-09-08, Pr. T. E. SS 7-09-08. Approved July 9, 2008, signed for Rita L. Robinson, General Manager. Printed page number 114.</p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Sign shall be capable of displaying the following messages: A: Lunar white, <a class="sref" href="/SoCal-Super-Standards/signs/r3-9a/" data-svg="/SoCal-Super-Standards/signs/R3-9a.svg">R3-9a</a> (left arrows), width of arrows 1.5&quot; stroke.</p>
+<p>2. Messages shall be formed with rows of fiber optic bundles. Spaced 0.50 inch (center to center).</p>
+<p>3. Fiber optic bundles shall alternate between two or more lamp sources so that in the event of a lamp failure the sign shall continue to display a discernable and readable message.</p>
+<p>4. Sign shall completely blank out when not energized.</p>
+<p>5. Door frame, face plate, and interior of housing and visor shall be painted flat black, non-reflective finish.</p>
+<p>6. Visor enclosure shall be fastened securely to the front frame of the sign.</p>
+<p>7. Refer to LADOT Std. Dwg. No. S-63.1.4 for mounting assembly.</p>
+<p>8. Sign shall conform to LADOT Specification No. 82-049-03.</p>
+<p>9. For housing description, see LADOT Std. Dwg. No. S-58.21.</p></details>
+
+
+<section class="xidx-wrap" data-pagefind-weight="4"><h2 id="index-and-related">Index and related drawings</h2><dl class="xidx"><div><dt>Keywords</dt><dd><a class="kchip" href="/SoCal-Super-Standards/details/?q=R3-9a electric sign">R3-9a electric sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=R3-9a">R3-9a</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=left arrows sign">left arrows sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=lane use sign">lane use sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=fiber optic sign">fiber optic sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=lunar white">lunar white</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=electric sign">electric sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=visor enclosure">visor enclosure</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=S-58.19">S-58.19</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=LADOT specification 82-049-03">LADOT specification 82-049-03</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=lane control sign">lane control sign</a></dd></div><div><dt>Also searched as</dt><dd>signal communications, fiber optic, interconnect, communication cable, ATSAC, CCTV, twisted pair, turn restriction sign, no left turn, no right turn, R3-1, R3-2, no U turn, R3-4, blank-out sign, lane use control sign, lane assignment sign, R3-5, R3-6, R3-8, lane control, overhead lane use, R61</dd></div><div><dt>Index entries</dt><dd>Detection and communications: <a href="/SoCal-Super-Standards/keywords/#c-comms">signal communications</a> &middot; Signs: <a href="/SoCal-Super-Standards/keywords/#c-turnsign">turn restriction sign</a>, <a href="/SoCal-Super-Standards/keywords/#c-lanesign">lane use control sign</a></dd></div><div><dt>Refers to</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-63-1-4/"><b>S-63.1.4</b> Special Mast Arm Mountings<span>Red Book</span></a></dd></div><div><dt>Similar drawings at other agencies</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-418-6/"><b>S-418.6</b> Overhead Guide Signing<span>MPP 531</span></a></dd></div><div><dt>Related in Red Book</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-58-18/"><b>S-58.18</b> Lane Usage Control Electric Sign<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-58-17/"><b>S-58.17</b> R3-5 Electric Sign<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-58-13/"><b>S-58.13</b> No Left and No Right Turn Electric Sign<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-58-21/"><b>S-58.21</b> Sign Enclosure<span>Red Book</span></a></dd></div></dl></section>

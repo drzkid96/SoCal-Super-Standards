@@ -29,15 +29,31 @@ def notes_html(t):
             out.append(f"<p>{esc(line)}</p>")
     return "\n".join(out)
 
+OV = json.load(open("data/dwg_overrides.json")) if os.path.exists("data/dwg_overrides.json") else {}
 n_pages = n_md = 0
 for f in sorted(glob.glob("data/docs/*__*.json")):
     slug = os.path.basename(f)[:-5]
     d = json.load(open(f))
     changed_md = {}
+    FG = {}
     for p in d.get("pages", []):
+        o = p.get("drawings_orig", p.get("drawings") or [])
+        fin = OV.get(slug, {}).get(str(p["page"])) or (o[0] if o else None)
+        fin = None if fin == "-" else fin
+        if fin:
+            FG.setdefault(fin, []).append(p["page"])
+    for p in d.get("pages", []):
+        if "drawings_orig" not in p:
+            p["drawings_orig"] = list(p.get("drawings") or [])
+        nd = OV.get(slug, {}).get(str(p["page"]))
+        if nd == "-":
+            p["drawings"] = []
+            nd = None
+        elif nd:
+            p["drawings"] = [nd]
         u = None
-        if p.get("drawings") and f"{slug}|{p['drawings'][0]}" in U:
-            u = U[f"{slug}|{p['drawings'][0]}"]
+        if p["drawings_orig"] and f"{slug}|{p['drawings_orig'][0]}" in U:
+            u = U[f"{slug}|{p['drawings_orig'][0]}"]
         elif f"{slug}|p{p['page']}" in U:
             u = U[f"{slug}|p{p['page']}"]
         if not u:
@@ -49,9 +65,12 @@ for f in sorted(glob.glob("data/docs/*__*.json")):
         if r2:
             p["clean"]["notes"] = r2.get("notes") or p["clean"]["notes"]
             p["clean"]["description"] = r2.get("description", "")
-            if len(u.get("sheets", [])) <= 1:
+            grp = FG.get(p["drawings"][0], []) if p.get("drawings") else []
+            if len(u.get("sheets", [])) <= 1 or nd or sorted(grp) != sorted(x.get("page") for x in u.get("sheets", [])):
                 p["clean"]["title"] = r2.get("title") or p["clean"]["title"]
                 p["clean"]["summary"] = r2.get("summary") or p["clean"]["summary"]
+        if p.get("drawings") and f'{slug}|{p["drawings"][0]}' in OV.get("_titles", {}):
+            p["clean"]["title"] = OV["_titles"][f'{slug}|{p["drawings"][0]}']
         n_pages += 1
         # rewrite the page block in the chapter page
         m = re.match(rf"{BASE}/(.+?)/#p\d+$", p["url"])

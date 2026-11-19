@@ -12,7 +12,7 @@ sidebar:
 
 <div class="topic-stats"><span><b>36</b> CA MUTCD sections</span><span><b>115</b> standards (shall)</span><span><b>96</b> guidance (should)</span><span><b>73</b> options (may)</span><span><b>45</b> signs</span><span><b>11</b> local standard drawings</span></div>
 
-<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=crosswalks">Browse all 98 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20crosswalks%20and%20pedestrian%20crossings;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
+<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=crosswalks">Browse all 103 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20crosswalks%20and%20pedestrian%20crossings;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
 
 ## The rules
 

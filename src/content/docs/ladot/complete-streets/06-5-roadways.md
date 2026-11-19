@@ -454,18 +454,6 @@ sidebar:
 <p>- LADOT should consider developing a standard plan for the placement and design features of bicycle corrals, including striping, signage, dimensioning and other elements.</p>
 <p>- Bicycle corrals are part of LADOT&#x27;s Bicycle Friendly Business Program, a public-private partnership for stakeholders, business owners, or community partners interested in increasing bicycle friendliness by hosting a bicycle corral outside their establishment. LADOT pays for the corral, site design, and installation in the public right-of-way, while the requesting party agrees to become a maintenance partner that ensures the corral&#x27;s cleanliness and upkeep.</p>
 <p>Photo caption: York Boulevard, Highland Park.</p></details></div>
-<div class="pclean"><p class="psum"><b>Location and Placement of Bicycle Racks.</b> Guidance on where to place bicycle racks in the sidewalk area and for bicycle corrals in the roadway, tied to BOE Standard Plan S-671. In the amenity zone racks parallel to the curb need at least 24 inches from the curbline (preferably 36 inches beside a travel lane) and 5 feet from other street furniture. Corrals need 25 feet from a fire hydrant and 30 feet from intersection departure and 50 feet from approach.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>5. Roadways</p>
-<p>Bicycle Enhancements (bicycle corrals)</p>
-<p>References</p>
-<p>- LADOT Bike Blog: ladotbikeblog.wordpress.com/bike-corrals/</p>
-<p>- LADOT Bicycle Friendly Business Program: http://ladotbikeblog.wordpress.com/bicycle-friendly-business-program/</p>
-<p>- Standard Plan: S-671 Bicycle Rack</p>
-<p>- Corrals can be located in a red curb zone as long as standard clearances are met. There should be at least a 25 foot clearance from a fire hydrant.</p>
-<p>- Bicycle corrals should be located at least 30 feet from intersection departure and 50 feet from intersection approach.</p>
-<p>Other Discussion</p>
-<p>- LADOT should consider developing a standard plan for the placement and design features of bicycle corrals, including striping, signage, dimensioning and other elements.</p>
-<p>- Bicycle corrals are part of LADOT&#x27;s Bicycle Friendly Business Program, a public-private partnership for stakeholders, business owners, or community partners interested in increasing bicycle friendliness by hosting a bicycle corral outside their establishment. LADOT pays for the corral, site design, and installation in the public right-of-way, while the requesting party agrees to become a maintenance partner that ensures the corral&#x27;s cleanliness and upkeep.</p>
-<p>Photo caption: York Boulevard, Highland Park.</p></details></div>
 <div class="kw">Keywords: bike rack, bicycle rack placement, bike parking, inverted U rack, bicycle corral, S-671, amenity zone, frontage zone, curbline clearance, bike repair station, fire hydrant clearance, bicycle parking ordinance, curb extension bike rack, street furniture clearance</div>
 
 
@@ -548,22 +536,6 @@ sidebar:
 <p>- Effective Bus-Only Lanes: http://nacto.org/docs/usdg/effective_bus_only_lanes_kiesling.pdf</p>
 <p>- LADOT currently has a standard plan (S-487) for Exclusive Bus Lane Markings.</p>
 <p>Photo caption: Red paint on the curb emphasizes the lane&#x27;s exclusive dedication to bus use.</p></details></div>
-<div class="pclean"><p class="psum"><b>Bus Lane Design Guidance: Peak-Hour Bus Lane and Median Bus Lane.</b> Design guidance for peak-hour curbside bus lanes and for median bus lanes and busways, referencing LADOT standard plan S-487 for Exclusive Bus Lane Markings. Peak-hour lanes use parking signage, pavement markings, dashed lines at intersection approaches, bus pads and optional red paint. A median bus lane should be at least 11 feet wide.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>5. Roadways</p>
-<p>Bicycle Enhancements - Design Guidance (peak-hour bus lane)</p>
-<p>- Peak-hour bus lanes should be installed with the appropriate parking signage and pavement markings (see LADOT standard plan S-487 for Exclusive Bus Lane Markings).</p>
-<p>- At intersections, right turning movements by other motorists and bicyclists can be facilitated by marking dashed lines at the intersection approach. If buses in the lane experience significant delays, right turns at select intersections may need to be prohibited.</p>
-<p>- Transit signal prioritization should be given to buses operating in these lanes.</p>
-<p>- Bus pads should be installed at stops to prevent street warping.</p>
-<p>- Alternatively, a peak-hour bus lane can be offset, meaning the bus-only lane is one lane away from the curb (see Section 5.8 &quot;Offset Bus Lane&quot;).</p>
-<p>- Peak-hour bus lanes may also be designed as shared bike-bus lanes (see Section 5.6 &quot;Shared Bike/Bus Lane&quot;).</p>
-<p>- Red paint should be considered as a supplemental treatment to delineate and reinforce the lane for bus use only.</p>
-<p>Additional Discussion</p>
-<p>- Starting in 2013, Metro, in partnership with the City of Los Angeles, implemented curbside peak-hour bus lanes on a 7.7-mile segment of Wilshire Blvd as part of the Wilshire Bus Rapid Transit (BRT) Project. The project aims to improve bus passenger travel times, service reliability, and ridership along the corridor. The bus lanes operate weekdays from 7 am to 9 am and 4 pm to 7 pm, and bicyclists are also allowed in these lanes during the peak period.</p>
-<p>References</p>
-<p>- FTA Bus Lanes: http://www.fta.dot.gov/12351_4358.html</p>
-<p>- Effective Bus-Only Lanes: http://nacto.org/docs/usdg/effective_bus_only_lanes_kiesling.pdf</p>
-<p>- LADOT currently has a standard plan (S-487) for Exclusive Bus Lane Markings.</p>
-<p>Photo caption: Red paint on the curb emphasizes the lane&#x27;s exclusive dedication to bus use.</p></details></div>
 <div class="kw">Keywords: bus lane, peak hour bus lane, median bus lane, busway, S-487, exclusive bus lane markings, red bus lane paint, transit signal priority, bus pad, shared bike bus lane, offset bus lane, Wilshire BRT, median boarding island, transit enhancements</div>
 
 
@@ -600,7 +572,6 @@ sidebar:
 <p>The City of Los Angeles’ Department of Transportation currently has a standard plan (S-487) for Exclusive Bus Lane Markings. NACTO Urban Street Design Guide</p>
 <p>Back to Table of Contents</p></div>
 <div class="pclean"><p class="psum"><b>Bus Lane Design Guidance: Peak-Hour Bus Lane and Median Bus Lane.</b> Design guidance for peak-hour curbside bus lanes and for median bus lanes and busways, referencing LADOT standard plan S-487 for Exclusive Bus Lane Markings. Peak-hour lanes use parking signage, pavement markings, dashed lines at intersection approaches, bus pads and optional red paint. A median bus lane should be at least 11 feet wide.</p></div>
-<div class="pclean"><p class="psum"><b>Bus Lane Design Guidance: Peak-Hour Bus Lane and Median Bus Lane.</b> Design guidance for peak-hour curbside bus lanes and for median bus lanes and busways, referencing LADOT standard plan S-487 for Exclusive Bus Lane Markings. Peak-hour lanes use parking signage, pavement markings, dashed lines at intersection approaches, bus pads and optional red paint. A median bus lane should be at least 11 feet wide.</p></div>
 <div class="kw">Keywords: bus lane, peak hour bus lane, median bus lane, busway, S-487, exclusive bus lane markings, red bus lane paint, transit signal priority, bus pad, shared bike bus lane, offset bus lane, Wilshire BRT, median boarding island, transit enhancements</div>
 
 
@@ -610,22 +581,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-487</strong> &middot; Topics: crosswalks, transit, signals, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp" alt="Complete Streets DG page 147 5.9 Median Bus Lane / Busway (S-487)"></a><figcaption>Complete Streets DG, page 147. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Bus Lane Design Guidance: Peak-Hour Bus Lane and Median Bus Lane.</b> Design guidance for peak-hour curbside bus lanes and for median bus lanes and busways, referencing LADOT standard plan S-487 for Exclusive Bus Lane Markings. Peak-hour lanes use parking signage, pavement markings, dashed lines at intersection approaches, bus pads and optional red paint. A median bus lane should be at least 11 feet wide.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>5. Roadways</p>
-<p>5.9 Median Bus Lane / Busway</p>
-<p>A median bus lane enhances transit service by providing a dedicated right-of-way for buses to run down the center of corridors. A median busway functions similarly except that it provides a physical separation from vehicle traffic. For both facilities, passengers board and alight at station stops located on median boarding islands.</p>
-<p>Benefits</p>
-<p>- Minimizes conflicts with on-street curbside parking and vehicle turning movements</p>
-<p>- Improves speed and reliability of transit by eliminating the need for buses to pull into bus stops and merge back into traffic</p>
-<p>- Provides a lane for emergency vehicles to use in congested conditions</p>
-<p>Applications</p>
-<p>- Median bus lanes should be considered on multi-lane arterial corridors where major transit service suffers from poor on-time performance as a result of peak hour congestion.</p>
-<p>Design Guidance</p>
-<p>- The minimum width of a median bus lane should be 11&#x27;.</p>
-<p>- Median bus lanes should be installed with the appropriate pavement markings (see LADOT standard plan S-487 for Exclusive Bus Lane Markings).</p>
-<p>- Contiguous lanes that run in opposite directions should be separated by a solid single or double white stripe(s).</p>
-<p>- Median boarding islands should be placed in close proximity to safe, signalized crosswalks.</p>
-<p>- A median busway can be separated from other travel lanes using a curb strip or rumble strips.</p>
-<p>Image courtesy of NACTO.</p></details></div>
 <div class="pclean"><p class="psum"><b>Bus Lane Design Guidance: Peak-Hour Bus Lane and Median Bus Lane.</b> Design guidance for peak-hour curbside bus lanes and for median bus lanes and busways, referencing LADOT standard plan S-487 for Exclusive Bus Lane Markings. Peak-hour lanes use parking signage, pavement markings, dashed lines at intersection approaches, bus pads and optional red paint. A median bus lane should be at least 11 feet wide.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>5. Roadways</p>
 <p>5.9 Median Bus Lane / Busway</p>
 <p>A median bus lane enhances transit service by providing a dedicated right-of-way for buses to run down the center of corridors. A median busway functions similarly except that it provides a physical separation from vehicle traffic. For both facilities, passengers board and alight at station stops located on median boarding islands.</p>
@@ -1094,6 +1049,7 @@ sidebar:
 
 <div class="pmeta">Topics: intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp" alt="Complete Streets DG page 167 "></a><figcaption>Complete Streets DG, page 167 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Chapter 6, Intersections and Crossings (Section Divider).</b> Section divider page that opens Chapter 6, Intersections and Crossings, of the LADOT Complete Streets Design Guide. It shows the chapter number 6, the guide name and the chapter title over three tinted photographs of a downtown intersection. It contains no design content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Cover layout: a full-page section divider in a light gray field. In the upper left of the page area is a large gray numeral 6 set in a heavy sans-serif face, taking up the left half of the sheet. Centered in the upper right panel are two lines of text. A small, widely spaced teal line reads COMPLETE STREETS DESIGN GUIDE and below it a large bold gray heading reads INTERSECTIONS AND CROSSINGS (set on two lines). Along the bottom of the page, three tall duotone photograph strips run side by side with white gaps between them, one in purple, one in yellow and one in teal. The numeral overlaps the left edge of the purple strip. The three strips together show one downtown intersection with multistory masonry buildings, traffic signal heads, pedestrians walking across the street, and white crosswalk and stop line markings in the foreground. The page carries no body text, tables or dimensions.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Text on the page: 6. COMPLETE STREETS DESIGN GUIDE. INTERSECTIONS AND CROSSINGS. No other notes.</p></details></div>
 <div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Chapter 6, Intersections and Crossings (Section Divider).</b> Section divider page that opens Chapter 6, Intersections and Crossings, of the LADOT Complete Streets Design Guide. It shows the chapter number 6, the guide name and the chapter title over three tinted photographs of a downtown intersection. It contains no design content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Cover layout: a full-page section divider in a light gray field. In the upper left of the page area is a large gray numeral 6 set in a heavy sans-serif face, taking up the left half of the sheet. Centered in the upper right panel are two lines of text. A small, widely spaced teal line reads COMPLETE STREETS DESIGN GUIDE and below it a large bold gray heading reads INTERSECTIONS AND CROSSINGS (set on two lines). Along the bottom of the page, three tall duotone photograph strips run side by side with white gaps between them, one in purple, one in yellow and one in teal. The numeral overlaps the left edge of the purple strip. The three strips together show one downtown intersection with multistory masonry buildings, traffic signal heads, pedestrians walking across the street, and white crosswalk and stop line markings in the foreground. The page carries no body text, tables or dimensions.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Text on the page: 6. COMPLETE STREETS DESIGN GUIDE. INTERSECTIONS AND CROSSINGS. No other notes.</p></details></div>
 <div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, intersections and crossings, section divider, crosswalks</div>
 

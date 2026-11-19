@@ -12,7 +12,7 @@ sidebar:
 
 <div class="topic-stats"><span><b>12</b> CA MUTCD sections</span><span><b>36</b> standards (shall)</span><span><b>39</b> guidance (should)</span><span><b>20</b> options (may)</span><span><b>8</b> signs</span><span><b>1</b> local standard drawings</span></div>
 
-<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=accessibility">Browse all 31 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20accessibility:%20curb%20ramps%20and%20accessible%20signals;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
+<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=accessibility">Browse all 32 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20accessibility:%20curb%20ramps%20and%20accessible%20signals;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
 
 ## The rules
 

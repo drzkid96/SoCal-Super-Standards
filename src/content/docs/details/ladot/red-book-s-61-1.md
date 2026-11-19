@@ -1,0 +1,29 @@
+---
+title: "S-61.1 Fittings, Typical, Post Top Mounting"
+description: "Red Book standard drawing S-61.1: Fittings, Typical, Post Top Mounting. Drawing S-61.1 shows the typical post top mounting fittings, a slip fitter with six 3/8 in.-16 galvanized square head cup point set screws and a 72-tooth lock ring."
+tableOfContents: false
+---
+
+<div class="dwg-head"><div><span class="dwg-num">S-61.1</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
+<div class="dwg-facts"><span><b>1</b> sheet(s)</span><span>Pages 50</span></div></div>
+
+<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-23/">&larr; S-58.23</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-62-1/">S-62.1 &rarr;</a></div>
+
+<p class="dwg-sum" data-pagefind-weight="6">Drawing S-61.1 shows the typical post top mounting fittings, a slip fitter with six 3/8 in.-16 galvanized square head cup point set screws and a 72-tooth lock ring. The lock ring height is 5/16 in. One note requires construction, materials and finish painting to follow the State of California Standard Specifications.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></p>
+
+
+
+## Sheets
+
+### Sheet 1 of 1 (document page 50)
+
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0050.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0050.webp" alt="S-61.1 sheet 1"></a><figcaption>Red Book S-61.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p50">Open in the document</a>.</figcaption></figure>
+<details class="sdesc" open><summary>What this sheet shows</summary><p>Slip fitter: an isometric view of a cylindrical slip fitter that slides over a post top. It is a stack of two round collars, an upper and a lower, on a central cylinder, with a smaller round post top projecting from the upper surface. The top rim of the projecting post has a toothed edge with 72 teeth. Two square-head set screws are shown on the side at the upper and lower collars. A callout reads 3/8 in.-16 N.C. x 3/4 in. square head cup point set screw, hot dip galvanized, (6) required.</p>
+<p>Lock ring: an isometric view of a ring with a toothed upper rim of 72 teeth, an inner bore with two keyed notches on opposite sides, and a lower rim. A dimension of 5/16 in. is given for the ring height at the right.</p>
+<p>Title block: City of Los Angeles Department of Transportation, Fittings, Typical, Post Top Mounting, drawing number S-61.1, drawn 2-67, revised 3-14-83, approved April 5, 1967 by A. L. Hutchison, Asst. General Manager. Page number 43.</p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Construction, material and finish painting shall conform to &#x27;Standard Specifications&#x27;, (latest edition), Dept. of Transportation, State of California.</p>
+<p>Callouts: 72 teeth (slip fitter and lock ring). 3/8 in.-16 N.C. x 3/4 in. square head (Sq. Hd.) cup point (pt.) set screw, hot dip galvanized, (6) required (REQ.). Dimension 5/16 in.</p></details>
+
+
+<section class="xidx-wrap" data-pagefind-weight="4"><h2 id="index-and-related">Index and related drawings</h2><dl class="xidx"><div><dt>Keywords</dt><dd><a class="kchip" href="/SoCal-Super-Standards/details/?q=post top mounting">post top mounting</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=slip fitter">slip fitter</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=lock ring">lock ring</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=72 teeth">72 teeth</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=signal head fitting">signal head fitting</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=set screw">set screw</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=signal mounting hardware">signal mounting hardware</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=hot dip galvanized">hot dip galvanized</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=fittings">fittings</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=traffic signal fittings">traffic signal fittings</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=cup point set screw">cup point set screw</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=s-61.1">s-61.1</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=post top">post top</a></dd></div><div><dt>Also searched as</dt><dd>traffic signal, signal, signalized intersection, traffic control signal, stoplight, traffic light, signal head, signal indication, vehicle signal face, signal section, 3-section head, 5-section head, signal face, signal wiring, conductor, terminal compartment, pole plate, signal cable, lead-in cable</dd></div><div><dt>Index entries</dt><dd>Traffic signals: <a href="/SoCal-Super-Standards/keywords/#c-signal">traffic signal</a>, <a href="/SoCal-Super-Standards/keywords/#c-sighead">signal head</a> &middot; Electrical and lighting: <a href="/SoCal-Super-Standards/keywords/#c-wiring">signal wiring</a></dd></div><div><dt>Related in Red Book</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-62-1/"><b>S-62.1</b> Fittings, Typical, Clamp Mounting<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-67-1/"><b>S-67.1</b> Fittings, Mast Arm Mounting<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-63-1/"><b>S-63.1</b> Fittings, Typical, Terminal Compartment and Pole Plate Mounting<span>Red Book</span></a></dd></div></dl></section>

@@ -66,6 +66,9 @@ for c in cfg:
         meta = d.get("drawing_titles", {}).get(k, {})
         cl = sheets[0].get("clean") or {}
         title = meta.get("title") or cl.get("title") or (sheets[0]["title"] or "").replace(f"({k})", "").strip() or "Standard drawing"
+        if not meta.get("title"):
+            title = re.sub(r"\s*\((?:[^()]*\b(?:Sheet [\w-]+ of \d+|Standard Drawing|Drawing No\.?)\b[^()]*|S-[\d.]+[A-Z]?)\)\s*$", "", title)
+            title = re.sub(r",?\s*(?:Standard )?Drawing S-[\d.]+[A-Z]?\s*$", "", title).strip(" ,:") or title
         summary = cl.get("summary", "")
         slug = f"{doc_slug}-{slugify(k)}"
         url = f"{BASE}/details/{ag}/{slug}/"

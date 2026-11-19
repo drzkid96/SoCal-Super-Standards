@@ -1,0 +1,43 @@
+---
+title: "S-58.23 Electric Train and Bus Warning Sign"
+description: "Red Book standard drawing S-58.23: Electric Train and Bus Warning Sign. Fiber optic electric warning signs showing a train with the word TRAIN or a bus with the word BUS, drawing S-58.23, approved June 26, 2008."
+tableOfContents: false
+---
+
+<div class="dwg-head"><div><span class="dwg-num">S-58.23</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
+<div class="dwg-facts"><span><b>1</b> sheet(s)</span><span>Pages 123</span></div></div>
+
+<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-21/">&larr; S-58.21</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-61-1/">S-61.1 &rarr;</a></div>
+
+<p class="dwg-sum" data-pagefind-weight="6">Fiber optic electric warning signs showing a train with the word TRAIN or a bus with the word BUS, drawing S-58.23, approved June 26, 2008. The signs are yellow on black and come in a 24 inch by 30 inch face and a 16.25 inch by 14.5 inch pedestrian head size. A table gives the letter and symbol spacing, and 11 notes cover fiber optic bundles, the FHWA sign book, drain holes and mounting.</p>
+<p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a> <a class="chip" href="/SoCal-Super-Standards/topics/transit/">Transit, bus lanes and bus stops</a> <a class="chip" href="/SoCal-Super-Standards/topics/temporary-traffic-control/">Temporary traffic control</a> <a class="chip" href="/SoCal-Super-Standards/topics/rail-crossings/">Railroad and light rail crossings</a></p>
+
+
+
+## Sheets
+
+### Sheet 1 of 1 (document page 123)
+
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0123.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0123.webp" alt="S-58.23 sheet 1"></a><figcaption>Red Book S-58.23, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p123">Open in the document</a>.</figcaption></figure>
+<details class="sdesc" open><summary>What this sheet shows</summary><p>Train sign face: The housing is 26.75&quot; wide by 32.75&quot; high with a 24&quot; by 30&quot; face. The train symbol is 12&quot; wide. Stainless steel link locks are called out on the right side. Vertical layout letters A to F run top to bottom: A is the top margin, B the train symbol body, C the track, D the gap, E the letter height of TRAIN and F the bottom margin. Horizontal spacing G and H are shown at the letters T, R, A, I, N.</p>
+<p>Table of dimensions for the train sign: A = 1.5&quot;. B = 13&quot;. *C = 5&quot;. D = 3&quot;. E = 6&quot;. F = 1.5&quot;. G = 2.094&quot;. H = 2.688&quot;. Footnote: * Five 1&quot; spaces to delineate the rail road track.</p>
+<p>Bus sign face: The housing is 26.75&quot; wide by 32.75&quot; high with a 24&quot; by 30&quot; face, and 2.875&quot; side margins on each side of the 24&quot; face. The dotted bus symbol is 18.25&quot; wide. Vertical dimensions: 2&quot; top margin, 17.5&quot; bus height, 2.5&quot; gap, 6&quot; letter height for BUS and 2&quot; bottom margin, 30&quot; overall.</p>
+<p>Pedestrian head sign, train (not to scale): A rounded rectangle 16.25&quot; wide by 14.5&quot; high with the train symbol 8.3&quot; wide and 12.5&quot; tall, with 1&quot; top and 1&quot; bottom margins.</p>
+<p>Pedestrian head sign, bus: A rounded rectangle 16.25&quot; wide by 14.5&quot; high with the dotted bus symbol 13&quot; wide, 1.625&quot; side margins and 12.5&quot; tall, with 1&quot; top and 1&quot; bottom margins.</p>
+<p>Visor enclosure: Isometric visor hood with dimensions drawn as 24&#x27;, 17&#x27;, 30&#x27; and 11&#x27;, the same 24&quot; wide, 30&quot; tall hood that tapers from 17&quot; to 11&quot; deep seen on the <a class="sref" href="/SoCal-Super-Standards/signs/r3-5/" data-svg="/SoCal-Super-Standards/signs/R3-5.svg">R3-5</a> sign. The lower corners have a 2&quot; Rad. callout.</p>
+<p>Title block: Electric Train &amp; Bus Warning Sign, City of Los Angeles Department of Transportation, Drawing No. S-58.23. Drawn MT 4-16-08, Pr. T. E. SS 6-26-08, approved June 26, 2008, Rita L. Robinson, General Manager. Printed page number 116.</p></details>
+<details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Messages shall be formed by rows of fiber optic glass bundles.</p>
+<p>2. Dual rows of fiber optic bundles shall be used to form the word &quot;TRAIN&quot;. Letters in the bus warning sign message shall have a brush stroke of 1-inch. Bus symbol and letters shall also conform to the latest edition of the FHWA Standard Highway Signs book.</p>
+<p>3. The front view of the train or bus shall be solid formed by rows of fiber optic glass bundles.</p>
+<p>4. The color of the messages shall be yellow. The sign background shall be black.</p>
+<p>5. Fiber optic glass bundles shall alternate between two or more lamp sources. In the event of a lamp failure, the sign shall continue to display a readable and discernable message.</p>
+<p>6. Sign housing shall be equipped with four (4) 3/16&quot; drain holes at the bottom.</p>
+<p>7. The visor enclosure shall be fastened securely to the front frame of the sign.</p>
+<p>8. Housing shall contain 4 1/2&quot; x 4 1/2&quot; x 1/4&quot; reinforcement plate located on the top and bottom for use with the Pelco Astro Sign-Brac installation.</p>
+<p>9. Refer to Std. Dwg. No. S-63.1.4 for the mounting assembly (T=46&quot;, L=29&quot;).</p>
+<p>10. Sign shall conform to LADOT Specification No. 82-049-03.</p>
+<p>11. For housing description see LADOT Std. Dwg. No. S-58.21.</p>
+<p>Table footnote: * Five 1&quot; spaces to delineate the rail road track.</p></details>
+
+
+<section class="xidx-wrap" data-pagefind-weight="4"><h2 id="index-and-related">Index and related drawings</h2><dl class="xidx"><div><dt>Keywords</dt><dd><a class="kchip" href="/SoCal-Super-Standards/details/?q=train warning sign">train warning sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=bus warning sign">bus warning sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=electric train sign">electric train sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=electric bus sign">electric bus sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=fiber optic sign">fiber optic sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=railroad crossing pedestrian sign">railroad crossing pedestrian sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=light rail warning">light rail warning</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=yellow message sign">yellow message sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=pedestrian head sign">pedestrian head sign</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=S-58.25">S-58.25</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=visor enclosure">visor enclosure</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=LADOT specification 82-049-03">LADOT specification 82-049-03</a> <a class="kchip" href="/SoCal-Super-Standards/details/?q=Pelco Astro-Brac">Pelco Astro-Brac</a></dd></div><div><dt>Also searched as</dt><dd>signal communications, fiber optic, interconnect, communication cable, ATSAC, CCTV, twisted pair, warning sign, W-series, advance warning, curve warning, chevron sign, W1-8, advisory speed, supplemental plaque, light rail, LRT, light rail train, streetcar, rail transit, track detector, railroad crossing, RXR, grade crossing, highway-rail grade crossing, railroad crossing marking, crossbuck, R15-1, W10-1, railroad preemption</dd></div><div><dt>Index entries</dt><dd>Detection and communications: <a href="/SoCal-Super-Standards/keywords/#c-comms">signal communications</a> &middot; Signs: <a href="/SoCal-Super-Standards/keywords/#c-warnsign">warning sign</a> &middot; Rail crossings: <a href="/SoCal-Super-Standards/keywords/#c-lrt">light rail</a>, <a href="/SoCal-Super-Standards/keywords/#c-rxr">railroad crossing</a></dd></div><div><dt>Refers to</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-63-1-4/"><b>S-63.1.4</b> Special Mast Arm Mountings<span>Red Book</span></a></dd></div><div><dt>Similar drawings at other agencies</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-436-0/"><b>S-436.0</b> RXR Advance Marking<span>MPP 531</span></a></dd></div></dl></section>
