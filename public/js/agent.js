@@ -110,7 +110,13 @@ Identify what this is about for a California traffic engineer. Return ONLY JSON:
         }
       }
     } catch (e) { /* index optional */ }
-    const ctx = [...hits.values()].slice(0, 18).map((h, i) => `[${i + 1}] ${h.title}\nURL: ${h.url}\n${h.excerpt}`).join('\n\n');
+    let chk = {};
+    try { chk = await (await fetch(BASE + '/data/checks.json')).json(); } catch (e) { /* checks optional */ }
+    const flags = (u) => {
+      const k = new URL(u, location.origin).pathname.replace(/index\.html$/, '').replace(/\/?$/, '/');
+      return (chk[k] || []).filter((c) => c.sev === 'warn').map((c) => `SUPERSEDENCE FLAG: ${c.title}. ${c.text}`).join('\n');
+    };
+    const ctx = [...hits.values()].slice(0, 18).map((h, i) => `[${i + 1}] ${h.title}\nURL: ${h.url}\n${h.excerpt}${flags(h.url) ? '\n' + flags(h.url) : ''}`).join('\n\n');
     log('Writing the answer...');
     const answer = await claude([{ role: 'user', content: [
       ...images.map((im) => ({ type: 'image', source: { type: 'base64', media_type: im.media, data: im.data } })),
@@ -119,7 +125,7 @@ Identify what this is about for a California traffic engineer. Return ONLY JSON:
     `You are the SoCal Super Standards assistant for traffic engineers in Southern California.
 Answer using ONLY the provided search results, and link every claim to its URL with markdown links like [CA MUTCD 4I.06](url).
 Order of authority: CA MUTCD 2026 is the legal standard in California; federal MUTCD 11th Ed. Rev. 1 is the national baseline; LADOT documents add City of Los Angeles requirements; FHWA/NACTO/others are guidance.
-Say whether each item is a Standard (shall), Guidance (should), or Option (may) when the excerpt shows it. If sources overlap or conflict, say which governs and why.
+Say whether each item is a Standard (shall), Guidance (should), or Option (may) when the excerpt shows it. If sources overlap or conflict, say which governs and why. When a result carries a SUPERSEDENCE FLAG, say so and point to the newer source.
 Be concise: a short answer, then "Where to look" bullets. If the results don't answer it, say so.`, 1800);
     return { p, found, answer, hits: [...hits.values()] };
   }

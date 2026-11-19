@@ -90,9 +90,10 @@ def head(k, n):
     if k in SECTION_OF:
         sn = SECTION_OF[k]
         h += f'<p class="mcat-note"><a href="{secs[sn]["url"]}">Governing section: CA MUTCD {sn} {esc(secs[sn]["title"])}</a></p>'
-    ct = {"lines": [("A20A", "a20a"), ("A20B", "a20b"), ("RSP A20D", "a20d")], "arrows": [("A24A", "a24a"), ("A24B", "a24b")], "words": [("A24B", "a24b"), ("A24D", "a24d")]}
+    ct = {"lines": ["A20A", "A20B", "A20C", "A20D", "A20E", "A20F", "A20G"], "arrows": ["A24A", "A24B", "A24H"],
+          "words": ["A24B", "A24C", "A24D", "A24E", "A24G", "A24J", "A24L"], "crosswalks": ["A24F", "A24G"], "bike": ["A24C", "A24K"]}
     if k in ct:
-        h += '<p class="mcat-note">Caltrans 2018 Standard Plan sheets: ' + ", ".join(f'<a href="{BASE}/details/caltrans/caltrans-std-plans-2018-{s}/">{n}</a>' for n, s in ct[k]) + ' (superseded edition, for reference)</p>'
+        h += '<p class="mcat-note">Caltrans 2026 Standard Plan sheets: ' + ", ".join(f'<a href="{BASE}/details/caltrans/caltrans-std-plans-2026-{n.lower()}/">{n}</a>' for n in ct[k]) + '</p>'
     return h
 body = "".join(head(k, n) + f'<div class="mgrid">{"".join(cards[k])}</div>' for k, n in CAT)
 n_total = sum(len(v) for v in cards.values())

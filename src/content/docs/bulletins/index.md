@@ -17,7 +17,7 @@ Related Caltrans design memos: [Bikeway Facility Selection Guidance](https://dot
 
 ## Accessibility: ADA and PROWAG
 
-<table class="btab"><thead><tr><th>Reference</th><th>Issued</th><th>Status</th></tr></thead><tbody><tr><td><a href="/SoCal-Super-Standards/bulletins/prowag-2023/"><b>Public Right-of-Way Accessibility Guidelines (36 CFR 1190)</b></a></td><td>August 8, 2023</td><td>Final guidelines.</td></tr><tr><td><a href="/SoCal-Super-Standards/bulletins/ca-accessible-parking-2026/"><b>California Building Code Chapter 11B: Accessible Parking Signs</b></a></td><td>Effective January 1, 2026</td><td>In effect.</td></tr></tbody></table>
+<table class="btab"><thead><tr><th>Reference</th><th>Issued</th><th>Status</th></tr></thead><tbody><tr><td><a href="/SoCal-Super-Standards/bulletins/caltrans-dib-82-06/"><b>Pedestrian Accessibility Guidelines for Highway Projects (with 2025 transit stop supplement)</b></a></td><td>November 16, 2017; supplement January 16, 2025</td><td>In effect on the Caltrans DIB list.</td></tr><tr><td><a href="/SoCal-Super-Standards/bulletins/prowag-2023/"><b>Public Right-of-Way Accessibility Guidelines (36 CFR 1190)</b></a></td><td>August 8, 2023</td><td>Final guidelines.</td></tr><tr><td><a href="/SoCal-Super-Standards/bulletins/ca-accessible-parking-2026/"><b>California Building Code Chapter 11B: Accessible Parking Signs</b></a></td><td>Effective January 1, 2026</td><td>In effect.</td></tr></tbody></table>
 
 ## LADOT signing and striping policy guidance
 

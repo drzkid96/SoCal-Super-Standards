@@ -403,6 +403,37 @@ LA_REF = [
 
 # ------------------------------------------------------------------ accessibility (ADA / PROWAG)
 AD = [
+ dict(slug="caltrans-dib-82-06", num="DIB 82-06", title="Pedestrian Accessibility Guidelines for Highway Projects (with 2025 transit stop supplement)", date="November 16, 2017; supplement January 16, 2025",
+      url="https://dot.ca.gov/programs/design/design-information-bulletins-dibs", agency="Caltrans",
+      status="In effect on the Caltrans DIB list. Required for all work in the State highway right-of-way, including encroachment permit projects. The January 16, 2025 supplement applies the PROWAG transit stop rules to Caltrans projects from January 17, 2025.",
+      supersedes="DIB 82-05 (2013). The 2025 supplement amends Section 4.3.16 Bus Stops.",
+      area="Curb ramps, sidewalks, crossings, accessible pedestrian signals and bus stops on State highways",
+      topics=["accessibility", "transit", "crosswalks"],
+      kw="DIB 82, DIB 82-06, pedestrian accessibility guidelines, Caltrans ADA, curb ramp, pedestrian access route, PAR, bus stop accessibility, boarding platform, boarding and alighting area, detectable warning, exception to accessibility design standards, technical infeasibility, encroachment permit",
+      body=lambda: f"""
+## What it covers
+
+DIB 82 is Caltrans' accessibility design guidance for the State highway system. Caltrans requires it for every project in the State right-of-way, including encroachment permit work by other agencies, and the project engineer certifies compliance at Ready to List. Where full compliance is technically infeasible, the designer documents it on the DIB's "Exception to Accessibility Design Standards" form.
+
+## 2025 supplement: transit stops
+
+After U.S. DOT adopted PROWAG for transit stops, Caltrans issued supplemental guidance on January 16, 2025, effective for Caltrans projects on January 17, 2025. Projects already in construction, or with all Ready to List approvals by that date, are exempt.
+
+{table(["Element", "Requirement (supplement to Section 4.3.16)", "PROWAG"], [
+ ["Boarding and alighting areas, and the pedestrian access routes to them and to shelters", "48 in. minimum clear width", "R203.2.1"],
+ ["Boarding platforms not protected by screens or guards", "Detectable warnings along the boarding edge. Where a curb is at the boarding edge, the detectable warning may sit at the back of curb", "R205.5"],
+ ["Rail boarding areas at sidewalk or street level", "Same detectable warning rule and curb option", "R205.6"],
+ ["Fare vending machines", "PROWAG R403 and Section 707 of 36 CFR 1191 Appendix D, except 707.2 and 707.3", "R210, R403"],
+ ["Shelter lighting and heating", "Proximity actuated", "R309.2.3"],
+])}
+
+Infeasibility for transit stops follows PROWAG R202.3: meet the requirements to the maximum extent feasible and document it on the DIB 82-06 exception form.
+
+## Related on this site
+
+- <a href="{BASE}/bulletins/prowag-2023/">PROWAG digest</a>
+- Caltrans 2026 Standard Plans <a href="{BASE}/details/caltrans/caltrans-std-plans-2026-a88a/">A88A</a> and <a href="{BASE}/details/caltrans/caltrans-std-plans-2026-a88b/">A88B</a> (curb ramps and island passageways)
+"""),
  dict(slug="prowag-2023", num="PROWAG", title="Public Right-of-Way Accessibility Guidelines (36 CFR 1190)", date="August 8, 2023",
       url="https://www.access-board.gov/prowag/", agency="U.S. Access Board",
       status="Final guidelines. Enforceable only where adopted as a standard: U.S. DOT adopted PROWAG without modification for new construction and alterations of transit stops in the public right-of-way, effective January 17, 2025 (DOT deferred enforcement to March 20, 2025). The Department of Justice has not adopted it, so for other public right-of-way work it is the best available technical guidance rather than an enforceable standard.",

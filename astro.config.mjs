@@ -120,6 +120,7 @@ export default defineConfig({
             { label: 'LADOT S&S Plan Review Checklist', link: '/bulletins/ladot-ss-plan-checklist-2022/' },
             { label: 'LADOT Accessible Parking Zones', link: '/bulletins/ladot-accessible-parking-2017/' },
             { label: 'PROWAG (ADA right-of-way)', link: '/bulletins/prowag-2023/' },
+            { label: 'Caltrans DIB 82-06 Accessibility', link: '/bulletins/caltrans-dib-82-06/' },
             { label: 'CBC 11B accessible parking', link: '/bulletins/ca-accessible-parking-2026/' },
           ] },
           { label: 'National design guides', collapsed: true, items: [{ label: 'About these guides', link: '/guides/' }, ...refCards] },
