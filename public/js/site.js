@@ -17,9 +17,54 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     tip.classList.add('on');
   }
   function hide() { cur = null; tip.classList.remove('on'); }
-  document.addEventListener('mouseover', (e) => { const a = e.target.closest && e.target.closest('a.sref'); if (a) show(a); else if (cur) hide(); });
+  document.addEventListener('mouseover', (e) => { const a = e.target.closest && e.target.closest('a.sref, a[data-svg]'); if (a && a.dataset.svg) show(a); else if (cur) hide(); });
   document.addEventListener('focusin', (e) => { const a = e.target.closest && e.target.closest('a.sref'); if (a) show(a); });
   document.addEventListener('scroll', hide, { passive: true });
+  // Page previews for every internal link: one image, or a set for sign and marking pages.
+  const BASEP = '/SoCal-Super-Standards';
+  const ptip = document.createElement('div');
+  ptip.className = 'pv-tip';
+  window.__ready(() => document.body.appendChild(ptip));
+  let PV = null, pvLoading = null, pvCur = null, pvTimer = null;
+  const loadPV = () => pvLoading || (pvLoading = fetch(BASEP + '/data/previews.json').then((r) => r.json()).then((j) => (PV = j)).catch(() => (PV = {})));
+  function key(a) {
+    try {
+      const u = new URL(a.href, location.href);
+      if (u.origin !== location.origin || !u.pathname.startsWith(BASEP)) return null;
+      const p = u.pathname.slice(BASEP.length) || '/';
+      return [p + u.hash, p.endsWith('/') ? p : p + '/'];
+    } catch (e) { return null; }
+  }
+  function placeP(a, w, h) {
+    const r = a.getBoundingClientRect();
+    const top = r.bottom + 10 + h > innerHeight ? Math.max(8, r.top - h - 10) : r.bottom + 10;
+    ptip.style.left = Math.min(innerWidth - w - 8, Math.max(8, r.left)) + 'px';
+    ptip.style.top = top + 'px';
+  }
+  async function showP(a) {
+    const k = key(a); if (!k) return;
+    if (!PV) await loadPV();
+    if (pvCur !== a) return;
+    const here = location.pathname.slice(BASEP.length) + location.hash;
+    const e = PV[k[0]] || PV[k[1]];
+    if (!e || !e.i.length || k[0] === here) return;
+    const many = e.i.length > 1;
+    ptip.className = 'pv-tip' + (many ? ' many' + (e.i.length > 4 ? ' nine' : '') : '');
+    ptip.innerHTML = `<div class="pv-imgs">${e.i.map((x) => `<img alt="" src="${BASEP + x}">`).join('')}</div><div class="pv-t"></div>`;
+    ptip.querySelector('.pv-t').textContent = e.t;
+    placeP(a, many ? (e.i.length > 4 ? 330 : 300) : 260, many ? (e.i.length > 4 ? 340 : 260) : 230);
+    ptip.classList.add('on');
+  }
+  function hideP() { pvCur = null; clearTimeout(pvTimer); ptip.classList.remove('on'); }
+  document.addEventListener('mouseover', (ev) => {
+    const a = ev.target.closest && ev.target.closest('a[href]');
+    if (!a || a.matches('a.sref, a[data-svg], .dx-card') || a.closest('.pv-tip, .sref-tip')) { if (pvCur && a !== pvCur) hideP(); return; }
+    if (a === pvCur) return;
+    hideP(); pvCur = a; loadPV();
+    pvTimer = setTimeout(() => showP(a), 220);
+  });
+  document.addEventListener('mouseout', (ev) => { if (pvCur && !(ev.relatedTarget && pvCur.contains(ev.relatedTarget))) hideP(); });
+  document.addEventListener('scroll', hideP, { passive: true });
   // back-to-top button and reading progress
   window.__ready( () => {
     const b = document.createElement('button');

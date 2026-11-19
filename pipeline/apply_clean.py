@@ -14,6 +14,11 @@ for f in sorted(glob.glob("data/clean/*.json")):
     for u in json.load(open(f)):
         U[u["id"]] = u
 json.dump(U, open("data/clean.json", "w"), indent=0)
+# pass 2: full sheet descriptions and fully interpreted notes for scanned sheets, read from the images
+P2 = {}
+for f in sorted(glob.glob("data/clean2/*.json")):
+    for r in json.load(open(f)):
+        P2[(r["id"].split("|")[0], int(r["page"]))] = r
 
 def notes_html(t):
     out = []
@@ -40,6 +45,13 @@ for f in sorted(glob.glob("data/docs/*__*.json")):
         sh = next((s for s in u.get("sheets", []) if s.get("page") == p["page"]), None)
         p["clean"] = {"title": u.get("title", ""), "summary": u.get("summary", ""), "keywords": u.get("keywords", []),
                       "notes": (sh or {}).get("notes", "")}
+        r2 = P2.get((slug, p["page"]))
+        if r2:
+            p["clean"]["notes"] = r2.get("notes") or p["clean"]["notes"]
+            p["clean"]["description"] = r2.get("description", "")
+            if len(u.get("sheets", [])) <= 1:
+                p["clean"]["title"] = r2.get("title") or p["clean"]["title"]
+                p["clean"]["summary"] = r2.get("summary") or p["clean"]["summary"]
         n_pages += 1
         # rewrite the page block in the chapter page
         m = re.match(rf"{BASE}/(.+?)/#p\d+$", p["url"])
@@ -57,6 +69,7 @@ for f in sorted(glob.glob("data/docs/*__*.json")):
         blk = s[a:b]
         c = p["clean"]
         new = (f'<div class="pclean"><p class="psum"><b>{esc(c["title"])}.</b> {esc(c["summary"])}</p>'
+               + (f'<details class="sdesc" open><summary>What this sheet shows</summary>{notes_html(c["description"])}</details>' if c.get("description") else "")
                + (f'<details class="ocr" open><summary>Notes on this sheet (cleaned from the {"scan" if p.get("ocr") else "PDF text"})</summary>{notes_html(c["notes"])}</details>' if c["notes"] else "")
                + "</div>\n"
                + f'<div class="kw">Keywords: {esc(", ".join(c["keywords"]))}</div>\n')
