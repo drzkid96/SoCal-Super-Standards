@@ -34,3 +34,8 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b52">CA MUTCD 2026 &sect;2B.52</a> Parking, Standing, and Stopping Signs (R7 and R8 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
+
+<!-- ladot -->
+## In LADOT documents
+
+- [MPP 531, page 99 - S-440.0 On-Street Angle Parking Stalls](/SoCal-Super-Standards/ladot/mpp-531/07-drawings-s-440-0-to-s-454-2/#p99)

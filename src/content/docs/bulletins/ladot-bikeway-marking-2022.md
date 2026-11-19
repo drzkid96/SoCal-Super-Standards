@@ -6,7 +6,7 @@ description: "LADOT CSC Bikeway Marking (December 2022). Bike lane and bikeway p
 <div><b>Issued</b> December 2022</div>
 <div><b>Status</b> In effect. Current copy posted April 2026.</div>
 <div><b>Supersedes</b> Not stated.</div>
-<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/2026-04/bikeway-pavement-marking.pdf">LADOT PDF</a></div>
+<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/2026-04/bikeway-pavement-marking.pdf">LADOT official copy</a></div>
 </div>
 
 ## Rule

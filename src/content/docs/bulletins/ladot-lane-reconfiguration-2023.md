@@ -6,7 +6,7 @@ description: "LADOT CSC Lane Reconfiguration (April 2023). Road diets and lane r
 <div><b>Issued</b> April 2023</div>
 <div><b>Status</b> In effect. Listed in the LADOT Technical Reference Library.</div>
 <div><b>Supersedes</b> Update of the January 2020 Lane Reconfiguration Guidelines.</div>
-<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/2024-09/lane-reconfiguration-guidelines-update-april-2023.pdf">LADOT PDF</a></div>
+<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/2024-09/lane-reconfiguration-guidelines-update-april-2023.pdf">LADOT official copy</a></div>
 </div>
 
 ## When a reconfiguration is a candidate

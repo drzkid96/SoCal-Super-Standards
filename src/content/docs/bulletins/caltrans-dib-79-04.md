@@ -6,7 +6,7 @@ description: "Caltrans DIB 79-04 (October 2, 2019). 12 ft on two- and three-lane
 <div><b>Issued</b> October 2, 2019</div>
 <div><b>Status</b> In effect (listed on the Caltrans DIB page; posted copy dated March 1, 2023).</div>
 <div><b>Supersedes</b> Supersedes DIB 79-03. Inside a segment that uses DIB 94, DIB 94 standards replace the DIB 79 design standards.</div>
-<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/signed-dib-79-04-posting-030123-a11y.pdf">Caltrans PDF</a></div>
+<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/signed-dib-79-04-posting-030123-a11y.pdf">Caltrans official copy</a></div>
 </div>
 
 ## Where it applies

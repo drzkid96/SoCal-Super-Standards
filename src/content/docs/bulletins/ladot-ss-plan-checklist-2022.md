@@ -6,7 +6,7 @@ description: "LADOT S&S Plan Review Checklist (Version 1, August 2022). Signing 
 <div><b>Issued</b> Version 1, August 2022</div>
 <div><b>Status</b> In effect. Current copy posted April 2026.</div>
 <div><b>Supersedes</b> Not stated.</div>
-<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/2026-04/mca-checklist-restoration-signing-and-striping-plans.pdf">LADOT PDF</a></div>
+<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/2026-04/mca-checklist-restoration-signing-and-striping-plans.pdf">LADOT official copy</a></div>
 </div>
 
 ## What reviewers check

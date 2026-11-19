@@ -6,7 +6,7 @@ description: "Caltrans DIB 92 (November 9, 2018). 14 ft left-turn lanes through 
 <div><b>Issued</b> November 9, 2018</div>
 <div><b>Status</b> In effect. Projects already in development follow HDM Index 82.5.</div>
 <div><b>Supersedes</b> New bulletin; supplements the HDM, which applies except where DIB 92 says otherwise.</div>
-<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/f0005291-dib92-a11y.pdf">Caltrans PDF</a></div>
+<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/f0005291-dib92-a11y.pdf">Caltrans official copy</a></div>
 </div>
 
 ## Lane width (Section 3.4)

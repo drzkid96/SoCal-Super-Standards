@@ -410,7 +410,7 @@ def run(slug):
             svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {FW} {FH}" width="{FW*2}" height="{FH*2}">'
                    f'<style>text{{font-family:"Albert Sans",Arial,sans-serif}}</style><rect width="{FW}" height="{FH}" fill="#ffffff"/>' + "".join(body) + frame_and_tb(meta) + "</svg>")
             fn = f"{re.sub(r'[^a-z0-9]+', '-', k.lower()).strip('-')}-s{n}.svg"
-            open(f"{outdir}/{fn}", "w").write(svg)
+            open(f"{outdir}/{fn}", "w").write(re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", svg))
             recs.append({"drawing": k, "title": title, "sheet": n, "sheets": len(sheets), "page": p["page"], "kind": kind,
                          "svg": f"{BASE}/redraw/{slug.split('/')[-1]}/{fn}", "kb": round(len(svg) / 1024)})
     json.dump(recs, open(f"data/docs/redraw_{slug.split('/')[-1]}.json", "w"), indent=1)

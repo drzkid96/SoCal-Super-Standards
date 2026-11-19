@@ -6,7 +6,7 @@ description: "LADOT CSC Leading Pedestrian Interval (Revised June 2021). Signal 
 <div><b>Issued</b> Revised June 2021</div>
 <div><b>Status</b> In effect. Listed in the LADOT Technical Reference Library.</div>
 <div><b>Supersedes</b> Not stated (revised edition).</div>
-<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/2022-08/csc-policy-guidance-lpi-revised-june-2021.pdf">LADOT PDF</a></div>
+<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/2022-08/csc-policy-guidance-lpi-revised-june-2021.pdf">LADOT official copy</a></div>
 </div>
 
 ## Where to consider an LPI

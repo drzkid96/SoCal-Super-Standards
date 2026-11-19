@@ -15,6 +15,10 @@ Bulletins on the [Caltrans DIB list](https://dot.ca.gov/programs/design/design-i
 
 Related Caltrans design memos: [Bikeway Facility Selection Guidance](https://dot.ca.gov/-/media/dot-media/programs/design/documents/dod-bikeway-selection-memo_06302020_signed-a11y.pdf) (June 30, 2020) and [Complete Streets Decision Document implementation](https://dot.ca.gov/-/media/dot-media/programs/design/documents/csdd-memo20210210finalktyt-mdk--a11y.pdf) (February 11, 2021). The HDM lane width standard itself is Index 301.1.
 
+## Accessibility: ADA and PROWAG
+
+<table class="btab"><thead><tr><th>Reference</th><th>Issued</th><th>Status</th></tr></thead><tbody><tr><td><a href="/SoCal-Super-Standards/bulletins/prowag-2023/"><b>Public Right-of-Way Accessibility Guidelines (36 CFR 1190)</b></a></td><td>August 8, 2023</td><td>Final guidelines.</td></tr><tr><td><a href="/SoCal-Super-Standards/bulletins/ca-accessible-parking-2026/"><b>California Building Code Chapter 11B: Accessible Parking Signs</b></a></td><td>Effective January 1, 2026</td><td>In effect.</td></tr></tbody></table>
+
 ## LADOT signing and striping policy guidance
 
 Complete Streets Committee Policy and Design Guidance and the plan review checklist, from the [LADOT Technical Reference Library](https://ladot.lacity.gov/businesses/technical-reference-library).

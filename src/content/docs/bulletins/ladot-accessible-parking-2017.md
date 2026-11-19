@@ -6,7 +6,7 @@ description: "LADOT Accessible Parking Zones (June 20, 2017). Blue curb and on-s
 <div><b>Issued</b> June 20, 2017</div>
 <div><b>Status</b> In effect (still posted by LADOT).</div>
 <div><b>Supersedes</b> Not stated.</div>
-<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/documents/accessible-parking-zones-basic-placement-facts-06-20-2017_1_0.pdf">LADOT PDF</a></div>
+<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/documents/accessible-parking-zones-basic-placement-facts-06-20-2017_1_0.pdf">LADOT official copy</a></div>
 </div>
 
 ## Placement principles

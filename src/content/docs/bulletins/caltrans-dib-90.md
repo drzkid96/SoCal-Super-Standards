@@ -6,7 +6,7 @@ description: "Caltrans DIB 90 (December 14, 2017). Wider lanes in every lane thr
 <div><b>Issued</b> December 14, 2017</div>
 <div><b>Status</b> In effect.</div>
 <div><b>Supersedes</b> New bulletin. Within the DDI limits it governs where it conflicts with the HDM or the FHWA DDI guide.</div>
-<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/dib90-a11y.pdf">Caltrans PDF</a></div>
+<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/dib90-a11y.pdf">Caltrans official copy</a></div>
 </div>
 
 ## Lane and shoulder width

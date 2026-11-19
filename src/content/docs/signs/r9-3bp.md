@@ -34,3 +34,8 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b57">CA MUTCD 2026 &sect;2B.57</a> Pedestrian Crossing Signs (R9-2 and R9-3)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b57">MUTCD 11E R1 &sect;2B.57</a> Pedestrian Crossing Signs (R9-2 and R9-3)</li></ul>
+
+<!-- ladot -->
+## In LADOT documents
+
+- [Geometric Plan Sample, page 1](/SoCal-Super-Standards/ladot/geometric-plan-sample/01-pages-1-1/#p1)

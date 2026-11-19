@@ -12,7 +12,7 @@ tableOfContents: false
 <p class="dwg-sum" data-pagefind-weight="6">Fiber optic electric sign <a class="sref" href="/SoCal-Super-Standards/signs/r3-5/" data-svg="/SoCal-Super-Standards/signs/R3-5.svg">R3-5</a> (lane use arrow with ONLY), drawing S-58.17, approved July 9, 2008. The sign face is 24 inches wide by 30 inches tall with a curved arrow and the word ONLY, and the visor is 24 inches wide, 30 inches tall and 17 to 11 inches deep. Notes cover the lunar white messages, fiber optic spacing of 0.50 inch, black finish and conformance to specification 82-049-03.</p>
 <p class="dwg-topics">Topics: <a class="chip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="chip" href="/SoCal-Super-Standards/topics/temporary-traffic-control/">Temporary traffic control</a></p>
 
-
+<h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/r3-5/" data-svg="/SoCal-Super-Standards/signs/R3-5.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-5.svg" alt="R3-5"><span><b>R3-5</b> Mandatory Movement Lane Control - Turn O</span></a></div>
 
 ## Sheets
 

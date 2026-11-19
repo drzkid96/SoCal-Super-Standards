@@ -9,277 +9,238 @@ sidebar:
 
 <span id="p1" class="anchor"></span>
 
-### Page 1 - CANJBAIEB (S-457.0, S-486.0)
+### Page 1 - LADOT Standard Notes for Signal Design Plans (Sheet 1 of 2): Controller, Loops, Interconnect, Signs, Standards, Pullbox and Services
 
 <div class="pmeta">Drawings: <strong>S-457.0</strong>, <strong>S-486.0</strong>, <strong>S-52.7.1</strong>, <strong>S-70.0</strong>, <strong>S-77.0</strong>, <strong>S-79.8</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r2-1/" data-svg="/SoCal-Super-Standards/signs/R2-1.svg">R2-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-2/" data-svg="/SoCal-Super-Standards/signs/R3-2.svg">R3-2</a> &middot; Topics: crosswalks, bikeways, transit, signals, parking-curb, striping, signs, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0001.webp" alt="Signal Design Notes page 1 CANJBAIEB (S-457.0, S-486.0)"></a><figcaption>Signal Design Notes, page 1. Click to enlarge.</figcaption></figure>
-<div class="dtext"><h4>CANJBAIEB</h4>
-<p>C1 REMOVE CONTROLLER, CABINET AND FOUNDATION. ABANDON CONDUIT(S).</p>
-<p>C2 REMOVE CONTROLLER AND CABINET; RETAIN FOUNDATION.</p>
-<p>C3 REMOVE EXISTING CONTROLLER; INSTALL ATSAC 2070 CONTROLLER IN EXISTING CABINET. NOTIFY THE LADOT SIGNAL SHOP AT (213) 473-8468 FIFTEEN (15) WORKING DAYS PRIOR TO START OF CONSTRUCTION TO OBTAIN NEW CONFLICT MONITOR AND CONTROLLER TIMING PACKAGE. LADOT WILL MAKE ALL CONTROLLER MODIFICATIONS AND INSTALL THE NEW CONFLICT MONITOR IN THE EXISTING CONTROLLER CABINET.</p>
-<p>C4 INSTALL TRANSIT PRIORl'TY SENSOR UNITS AND COMMUNICATION CHANNEL CARDS IN CABINET.</p>
-<p>C5 FIELD MODIFICATION OF CONTROLLER IS REQUIRED. INSTALL CONFLICT MONITOR PACKAGE.</p>
-<p>C6 INSTALL ATSAC 2070 CONTROLLER IN 356 CABINET. THE CONTRACTOR SHAILL PROVIDE A COMPLETE FUNCTIONING CONTROLLER ASSEMBLY AND CABINET CONFORMING TO THE LATEST LADOT SPECIFICATION FOR 2070 CONTROLLER AND 356 CABINET WITH ADAPTER BASE, AND SHALL INCLUDE ALL NECESSARY AUXILIARY EQUIPMENT TO PROVIDE A COMPLETE AND FUNCTIONING CONTROLLER CABINET. CONTRACTOR TO DELIVER COMPLIETELY ASSEMBLED CONTROLLER CABINET FOR TESTING TO THE DEPARTMENT OF TRANSPORTATION GENERAL SHOP, PIPER TECHNICAL CENTER, 555 RAMIREZ STREET THIR'TY (30) DAYS PRIOR TO INSTALLATION. CONTRACTOR TO PICK UP AND INSTALL CONTROLLER CABINET ON F-332 FOUNDATION.</p>
-<p>C7 INSTALL ATSAC 2070 CONTROLLER IN 35_ CABINET. THE CONTRACTOR SHALL PROVIDE A COMPLETE FUNCTIONING CONTROLLER ASSEMBLY AND CABINET CONFORMING TO THE LATEST LADOT SPECIFICATION FOR 2070 CONTROLLER AND 35_ CABINET, AND SHALL INCLUDE ALL NECESSARY AUXILIARY EQUIPMENT TO PROVIDE A COMPLETE AND FUNCTIONING CONTROLLER CABINET. CONTRACTOR TO DELIVER COMPLETELY ASSEMBLED CONTROLLER CABINET FOR TESTING TO THE DEPARTMENT OF TRANSPORTATION GENERAL SHOP, PIPER TECHNICAL CENTER, 555 RAMIREZ STREET THIR'TY (30) DAYS PRIOR TO INSTALLATION. CONTRACTOR TO PICK UP AND INSTALL CONTROLLER CABINET ON F-__ FOUNDATION.</p>
-<p>FIELD MODIFICATION NOlE (ADDING A NEW PHASE: ON 2070 CONTROLLER OIII.V) CB FIELD MODIFICATION OF CONTROLLER REQUIRED. NOTIFY THE LADOT CONSTRUCTION SUPERVISOR 11 GEORGE NOCIFORE AT GEORGE.NOCIFORECIILACl'TY.ORG FIFTEEN (15) WORKING DAYS PRIOR TO START OF CONSTRUCTION TO OBTAIN NEW CONFLICT MONITOR AND CONTROLLER TIMING PACKAGE. LADOT WILL MAKE ALL CONTROLLER MODIFICATIONS AND INSTALL THE NEW CONFLICT MONITOR IN THE EXISTING CONTROLLER CABINET.</p>
-<p>C9 FIELD MODIFICATION OF CONTROLLER REQUIRED. NOTIFY THE CONSTRUCTION SUPERVISOR II GEORGE NOCIFORE AT GEORGE.NOCIFORECIILACl'TY.ORG FIFTEEN (15) WORKING DAYS PRIOR TO START OF CONSTRUCTION TO COORDINATE THE WORK.</p>
-<p>FIELD MODIFICATION NOlE (EXTENDING TIME DUE TO RE-AUGNMENT,ER:.) C10 THE CONTRACTOR SHALL CONTACT THE LADOT ------ YARD TRAFFIC SIGNAL INSPECTOR AT ( __ ) ---- FIFTEEN (15) WORKING DAYS PRIOR TO THE START OF CONSTRUCTION FOR FIELD MODIFICATION OF CONTROLLER. TIMING CHANGES SHALL BE IMPLEMENTED PRIOR TO THE START OF CONSTRUCTION.</p>
-<p>TIIING NOTE SIREEf WIDENING C11 CONTRACTOR SHALL NOTIFY LADOT --- YARD TRAFFIC SIGNAL INSPECTOR AT (_) ---- FIFTEEN (15) WORKING DAYS PRIOR TO START OF CONSTRUCTION FOR IMPLEMENTATION OF TIMING CHANGES. TIMING CHANGES ASSOCIATED WITH NEW PHASING SHALL BE IMPLEMENTED PRIOR TO COMPLETION OF THE PROJECT. TIMING CHANGES NOT ASSOCIATED WITH NEW PHASING, BUT NECESSITATED BY STREET WIDENING, SHALL BE IMPLEMENTED PRIOR TO THE BEGINNING OF CONSTRUCTION.</p>
-<p>C12 INSTALL ALL NECESSARY AUXILIARY EQUIPMENT IN 35_ CABINET TO INSURE PROPERLY FUNCTIONING CCTV (VIDEO) SYSTEM. CONTACT LADOT COMMUNICATION ENGINEER AT (213) 978-D150 FOR ACCEPTANCE OF MATERIALS AND EQUIPMENT SPECIFICATIONS PRIOR TO PURCHASE.</p>
-<p>oCONTACT INFORMATION CENTRAL TRAFFIC SIGNAL INSPECTOR (213) 485-1071 CENTRAL SIGNAL MAINTENANCE SUPV. (213) 485-7721</p>
-<p>WESTERN TRAFFIC SIGNAL INSPECTOR (213) 216-9739 WESTERN SIGNAL MAINTENANCE SUPV. (213) 485-6790</p>
-<p>VALLEY TRAFFIC SIGNAL INSPECTOR (818) 779-7433 VALLEY SIGNAL MAINTENANCE SUPV. (818) 779-7437</p>
-<p>Cl'TY WIDE INVESTIGATION: LOS ANGELES (213) 928-9625</p>
-<h4>SJREEI LIGHTING</h4>
-<p>SL1 SEE STREET LIGHTING SHEET FOR WORK ON STREET LIGHTING FACILITIES.</p>
-<p>SL2 CHIP INTO EXISTING STREET LIGHT FOUNDATION AND INSTALL CONDUIT.</p>
-<p>SL3 BSL TO REMOVE EXISTING STREET LIGHTING STANDARD AND FOUNDATION.</p>
-<p>L1 ABANDON AND DISCONNECT DETECTOR LOOP(S) IN PULLBOX AS SHOWN.</p>
-<p>L2 INSTALL DETECTOR LOOP(S) PER LADOT STD. DWG. NO. 5-70.1 A. CONTIRACTOR SHALL OBTAIN APPROVAL FROM LADOT INSPECTOR PRIOR TO INSTALLATION OF ANY LOOPS.</p>
-<p>L3 INSTALL DETECTOR LOOP(S) PER LADOT STD. DWG. NO. 5-70.1.A &amp; 5-70.1.D, CASE 11. CONTRACTOR SHALL OBTAIN APPROVAL FROM LADOT INSPECTOR PRIOR TO INSTALLATION OF ANY LOOPS.</p>
-<p>L4 INSTALL TRANSIT PRIORl'TY LOOP(S) PER LADOT STD. DWG. NO. S-7D.1 F. CONTRACTOR SHALL OBTAIN APPROVAL FROM LADOT INSPECTOR PRIOR TO INSTALLATION OF ANY LOOPS.</p>
-<p>L5 INSTALL BIKE LOOP(S) PER 5-70.1 D CASE I. CONTRACTOR SHALL OBTAIN APPROVAL FROM LADOT INSPECTOR PRIOR TO INSTALLATION OF ANY LOOPS.</p>
-<p>LS DISCONNECT VEHICLE DETECTOR LOOP(S) IN PULLBOX.</p>
-<h4>L7 DETECTOR LOOP(S) TO BE CONNECTED TO CONTROLLER AT ---·</h4>
-<p>L8 RENUMBER SYSTEM LOOP(S) AS SHOWN.</p>
-<p>L9 REWIRE DETECTOR LOOP(S) TO NEW PHASE AS SHOWN.</p>
-<p>L 1 D PROTECT EXISTING DETECTOR LOOP(S).</p>
-<p>L 11 PROTECT EXISTING DETECTOR LOOP(S). USE EXISTING STUB-OUT.</p>
-<p>L 12 REMOVE EXISTING DLC FROM PULLBOX TO CONTROLLER.</p>
-<p>L 13 INSTALL 2-INCH CONDUIT AT A DEPTH OF 18-INCHES FROM PULLBOX TO STUBOUT.</p>
-<h4>LOOpS lc;qnt'd)</h4>
-<p>L14 CONTRACTOR SHALL RE-USE EXISTING STUB-OUT. IF STUB-OUT IS NOT IN PLACE. CONTRACTOR SHALL INSTALL NEW STUB-OUT PER LADOT STD. DWG. NO. S-70.1A.</p>
-<p>L15 CONTRACTOR MAY RE-USE THE EXISTING DLC IN THE PULLBOX AS DETERMINED BY THE TIRAFFIC SIGNAL INSPECTOR. SHOULD THE CONTIRACTOR DAMAGE THE EXISTING CABLE, NEW DLC CABLE SHALL BE INSTALLED FROM THE PULILBOX TO THE CONTROLLER AT THE CONTRACTOR'S EXPENSE.</p>
-<p>L 16 CONNECT DETECTOR LOOP(S) TO A SEPARATE PAIR DLC.</p>
-<p>L 17 REMOVE RAILROAD TRACKS, AS NECESSARY, TO SUFFICIENT DEPTH.</p>
-<h4>INJEBCANNECJ &amp; "IDEA flBER</h4>
-<p>I 1 DISCONNECT EXISTING INTERCONNECT WIRES IN PULLBOX.</p>
-<p>I 2 DISCONNECT FIRE ALARM INTERCONNECT. COORDINATE WITH THE LADOT ATSAC TRAFFIC SIGNAL ELECTRICIAN TEN (10) WORKING DAYS PRIOR TO REMOVAL OF FIRE AILARM INTERCONNECT.</p>
-<p>I 3 DISCONNECT TELEPHONE INTERCONNECT. COORDINATE WITH THE LADOT ATSAC TIRAFFIC SIGNAL ELECTRICIAN TEN (10) WORKING DAYS PRIOR TO THE INSTALLATION OR REMOVAL OF TELEPHONE INTERCONNECT EQUIPMENT.</p>
-<p>I 4 FOR INTERCONNECT/VIDEO FIBER CONSTRUCTION DETAILS, SEE SIGNAL INTERCONNECT/VIDEO FIBER PLANS.</p>
-<p>I 5 DISCONNECT EXISTING INTERCONNECT CABLE FROM CONTROLLER AT AND CONNECT TO CONTROLLER AT THIS INTERSECTION. INSTALL A NEW _ PAIR INTERCONNECT CABLE FROM CONTROLLER AT THIS INTERSECTION TO CONTROLLER AT -----</p>
-<p>1 6 CONTRACTOR SHALL DISCONNECT THE _ -PAIR INTERCONNECT IN THE EXISTING CONTROLLER CABINET /COMMUNICATION CABINET (SEE LADOT SPECIAL PROVISIONS, SECTION 5 TITILED "NOTIFICATION", FOR INFORMATION REGARDING WORK AFFECTING MAJOR ATSAC COMMUNICATION FACILmES). CONTIRACTOR MAY REROUTE EXISTING CABLE TO THE PROPOSED CONDUIT ON THIS PLAN BY USING THE COILED SLACK IN THE CONTROLLER CABINET /COMMUNICATION CABINET AND INTERMEDIATE PULLBOXES. IN THE EVENT THAT THE SLACK IN THE CABLE IS NOT SUFFICIENT TO ACCOMPLISH THE PROPOSED INSTALLATION AS SHOWN ON THIS PLAN. THE CONTRACTOR SHALL BE REQUIRED TO INSTALL A NEW _ -PAIR INTERCONNECT FROM THE CONTROLLER CABINET/COMMUNICATION CABINET AT THIS INTERSECTION TO THE CONTROLLER AT (APPROX. __ '),</p>
-<p>I 7 CONTRACTOR SHALL DISCONNECT THE __ VIDEO FIBER CABLES IN THE EXISTING CONTROLLER CABINET/COMMUNICATION CABINET/SPLICE VAULT (SEE LADOT SPECIAL PROVISIONS, SECTION 5 TITLED "NOTIFICATION", FOR INFORMATION REGARDING WORK AFFECTING MAJOR ATSAC COMMUNICATION FACILITIES). CONTRACTOR MAY REROUTE EXISTING CABLE TO THE PROPOSED CONDUIT ON THIS PLAN BY USING THE COILED SLACK IN THE CONTROLLER CABINET/COMMUNICATION CABINET/SPLICE VAULT AND INTERMEDIATE PULILBOXES. IN THE EVENT THAT THE SLACK IN THE CABLE IS NOT SUFFICIENT TO ACCOMPLISH THE PROPOSED INSTALLATION AS SHOWN ON THIS PLAN, THE CONTRACTOR SHALL BE REQUIRED TO INSTALL A NEW __ VIDEO FIBER CABLE FROM THE CONTROLLER CABINET /COMMUNICATION CABINET /SPLICE VAULT AT THIS INTERSECTION TO THE CONTROLLER AT __ ST. (APPROX. __ '). CONTRACTOR SHALL CONTACT LADOT COMMUNICATION ENGINEER THREE (3) WORKING DAYS PRIOR TO CONSTRUCTION AT (213) 978-0150 TO COORDINATE AND REVIEW THE INSTAULATION AND SPLICE PROCEDURE FOR FIBER OPTIC AND VIDEO FIBER CABUES.</p>
-<p>I 8 INSTALL _ PAIR INTERCONNECT FROM CONTROLLER AT THIS INTERSECTION TO CONTROLLER AT SEE INTERCONNECT KEY MAP FOR DETAILS.</p>
-<h4>SIGNS, SJRIPING &amp; MARKING$</h4>
-<p>SN1 INSTALL STREET-NAME SIGN PER LADOT STD. DWG. NO. 5-457.0 &amp; 5-486.0.</p>
-<p>SN2 INSTALL SIGN(S), OR SIGN(S) AND POST(S) AS SHOWN.</p>
-<p>SN3 REMOVE SIGN(S). OR SIGN(S) AND POST(S) AS SHOWN.</p>
-<p>SN4 RELOCATE STREET-NAME SIGN TO NEW MAST ARM/STANDARD.</p>
-<p>SN5 RELOCATE SIGN(S) TO NEW MAST ARM/STANDARD.</p>
-<p>SN6 INSTALL R62E FACE PLATE ON PUSHBUTTON ASSEMBLY.</p>
-<p>SN7 CONTRACTOR TO RELOCATE EXISTING STREET-NAME SIGN(S) TO MAST ARM PER LADOT STD. DWG. S-457.0 AND S-486.0.</p>
-<p>SNB MAINTAIN <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> SIGN DURING CONSTRUCTION; REMOVE <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> SIGN AND POST UPON ACTIVATION OF TRAFFIC SIGNAL</p>
-<p>SN9 INSTALL <a class="sref" href="/SoCal-Super-Standards/signs/r2-1/" data-svg="/SoCal-Super-Standards/signs/R2-1.svg">R2-1</a> SIGN ON TOP OF SPEED FEEDBACK SIGN (SEE DETAIL _).</p>
-<p>SN10 CONTRACTOR TO INSTALL <a class="sref" href="/SoCal-Super-Standards/signs/r3-2/" data-svg="/SoCal-Super-Standards/signs/R3-2.svg">R3-2</a> F.O. SIGN ON MAST ARM USING SIGN BRACKETS PER LADOT STD. DWG. NO. 5-457 .0.</p>
-<p>SN11 INSTALL FIBER OPTIC TRAIN SIGN (DETAIL _) ON MAST ARM PER LADOT STD. DWG. NO. 5-58.23 USING PELCO ASTRO BRACKET (AB-116) PER LADOT STD. DWG. NO. 5-63.1.4.</p>
-<h4>SN12 INSTALL/REMOVE SIGN(S), STRIPING &amp; PAVEMENT MARKINGS PER LADOT GEOMETRIC DESIGN DWG. NO. A-__ •</h4>
-<p>SN13 REMOVE STRIPING AND/OR PAVEMENT MARKINGS AS SHOWN.</p>
-<p>SN14 INSTALL STRIPING AND/OR PAVEMENT MARKINGS AS SHOWN.</p>
-<p>SN15 THE CONTRACTOR SHALL FURNISH AND INSTALL HIGH LEVEL (LARGE) AND LOW LEVEL (SMALL) STREET-NAME SIGNS PER LADOT STANDARD DRAWING NOS. S-457.0, S-486.0, 5-221.3 AND 5-438.0. IF LARGE STREET-NAME SIGN IS INSTALLED ON SIGNAL POLE STANDARD. USE SIGNFIX CHANNELING MOUNT WITH UNIVERSAL CLAMP SX0220. IF LARGE STREET-NAME SIGN IS INSTALLED ON 'TYPE 1 OR 1A POLE, USE LADOT SIGNAL SADDLE BRACKET AND GUIDE.</p>
-<p>SN16 ADJUST VISIBILITY OF SIGNS WITH NEW LADOT SIGNAL SADDLE BRACKET AND GUIDE AS NEEDED.</p>
-<p>SN17 INSTALL CONTINENTAL CROSSWAUK(S) PER LADOT STD. DWG. NO. 5-481.1.</p>
-<p>SN18 ADJUST MOUNTING OF SIGN(S) TO PROVIDE ADEQUATE VISIBIU'TY OF RRFB(S).</p>
-<p>SN19 INSTALL ADDmONAL RED CURB.</p>
-<p>SN20 INSTALL WHITE TWO-WAY RETROREFLECTIVE RAISED PAVEMENT MARKERS.</p>
-<h4>SJMQARQS &amp; HEAQS</h4>
-<p>STD1 REMOVE MAST ARM VEHICLE HEAD(S) AND MAST ARM.</p>
-<p>STD2 REMOVE PEDESTRIAN PUSHBUTTON/PEDESTRIAN HEAD AND PLUG HOLE(S).</p>
-<p>STD3 ALL NEW VEHICLE AND COUNTDOWN PEDESTRIAN TRAFFIC SIGNAL HEADS SHALL BE LED MODULES PER LADOT SPECIFICATION 92-088-07 (LATEST EDmON).</p>
-<p>STD4 REMOVE EXISTING TIRAFFIC SIGNAL EQUIPMENT, STANDARD, PULLBOX, FOUNDATION AND AIBANDON EXISTING CONDUIT(S).</p>
-<p>STD5 REMOVE EXISTING TIRAFFIC SIGNAL EQUIPMENT AND STANDARD; RETAIN FOUNDATION.</p>
-<p>STD6 REMOVE EXISTING TIRAFFIC SIGNAL EQUIPMENT. AIBANDON CONDUIT.</p>
-<p>STD7 INSTALL EQUESTRIAN PUSHBUTTON (EPB) 6-FEET ABOVE ADJACENT GROUND SURFACE.</p>
-<p>STDB INSTALL ACCESSIBLE PEDESTRIAN SIGNAL (APS) AS PER LADOT STD. DWG. NO. 5-73.2.</p>
-<p>STD9 INSTALL AN ARROW ON 12-INCH CIRCULAR GREEN LENS.</p>
-<p>STD10 INSTALL LED FILASHING BEACONS. TOP-MOUNT THE FIRST BEACON AT THE END OF THE MAST ARM. USE UNIVERSAL SIGNAL HEAD MOUNTING PER LADOT STD. DWG. NO. 5-63.1.4 TO MOUNT THE SECOND BEACON AT THE SAME LEVEL AS THE FIRST. SEE DETAIL A FOR THE MOUNTING LOCATION OF THE SECOND BEACON.</p>
-<h4>STD11 INSTALL RECTANGULAR RAPID FILASHING BEACON (RRFB) AS PER DETAIL -·</h4>
-<p>STD12 INSTALL ACCESSIBLE PEDESTRIAN PUSHBUTTON (APP) AS PER DETAIL _.</p>
-<p>STD13 INSTALL PEDESTRIAN HYBRID BEACON (PHB) AS PER DETAIL _.</p>
-<p>STD14 INSTALL STANDARD _ FEET BEHIND CURB FACE.</p>
-<p>STD15 INSTALL TYPE 7 STANDARD 9-INCHES BEHIND CURB FACE OF RAMP. MOUNT PUSHBUTTON AT 3-FEET HEIGHT FROM TOP OF CURB.</p>
-<p>STD16 INSTALL STANDARD 18-INCHES BEHIND CURB FACE. MOUNT PUSHBUTTON AT 3-FEET HEIGHT FROM TOP OF CURB.</p>
-<p>STD17 USE STRAP-ON TENON AB-116 PER LADOT STD DWG. NO. 5-63.1.4, TO MOUNT SIGNAL HEAD ON MAST ARM. ADJUST THE MOUNTING BRACKET TO MAINTAIN 17-FEET CLEARANCE OVER ROADWAY.</p>
-<p>STD18 INSTALL LED SPEED FEEDBACK SIGN ASSEMBLY ON EXISTING BSL STANDARD (SEE DETAIL _).</p>
-<h4>SfBYICES</h4>
-<p>51 INSTALL TWO-INCH (2") RISER AT THE _ O'CLOCK POSITION OF SERVICE POLE NO. ---· INSTAILL A 60-AMP FIJSE IN AN IN-LINE WATERPROOF FIJSE HOLDER IN THE SERVICE PULLBOX AND RUN THREE (3) /16 SERVICE WIRES FROM THE SERVICE PULLBOX TO CONTROLLER. INSTALLATION SHALL BE PER LADOT STD. DWG. NO. 5-79.8. &amp; 5-79.98. WORK ON ANY ELECTRICAL SERVICE EQUIPMENT TO BE DONE IN CONJUNCTION WITH DEPARTMENT OF WATER &amp; POWER (DWP) PERSONNEL. CONTACT DWP AT (213) 367-9966 SEVEN (7) WORKING DAYS PRIOR TO BEGINNING WORK ON THE SERVICE LINE.</p>
-<p>52 REPLACE THE EXISTING STREET LIGHTING PULLBOX WITH A TYPE PB-3 PULLBOX WITH "ST. LTG./TRF. SIG." LID. INSTAILL A FIVE (5) AMP FUSE IN AN IN-LINE WATERPROOF FIJSE HOLDER IN COMBINATION PULILBOX.</p>
-<p>53 REPLACE THE EXISTING SERVICE CABINET WITH NEW SERVICE CABINET (COMBINATION OF SERVICE) AND BATTERY BACK-UP SYSTEM (MEVG35-PB/PBM.1250 UPS).</p>
-<p>54 REPLACE EXISTING FUSE WITH 60-AMP FIJSE IN AN IN-LINE WATERPROOF FUSE HOLDER. WORK ON ANY ELECTRICAL SERVICE EQUIPMENT TO BE DONE IN CONJUNCTION WITH DEPARTMENT OF WATER &amp; POWER (DWP) PERSONNEL. CONTACT DWP AT (213) 367-9966 SEVEN (7) WORKING DAYS PRIOR TO BEGINNING WORK ON THE SERVICE LINE.</p>
-<p>55 USE EXISTING STREET LIGHTING SERVICE ON POLE NO. ---· CONVERT STREET LIGHTING SERVICE TO A COMBINATION "STREET UGHT/TIRAFFIC SIGNAL" SERVICE PER LADOT STANDARD DWG. NO. 5-79.8. &amp; 5-79.98. REPLACE THE EXISTING STREET LIGHTING SERVICE PULLBOX WITH A TYPE PB-3 PULLBOX WITH "ST. LTG./TRF. SIG." LID. INSTALL A 60-AMP FIJSE IN AN IN-LINE WATERPROOF FIJSE HOLDER IN THE SERVICE PULLBOX AND RUN THREE (3) {/6 SERVICE WIRES FROM THE SERVICE PULLBOX TO CONTROLLER. WORK ON ANY ELECTRICAL SERVICE EQUIPMENT TO BE DONE ONLY IN CONJUNCTION WITH DEPARTMENT OF WATER AND POWER (DWP) PERSONNEL. CONTACT DWP AT (213) 367-9966 SEVEN (7) WORKING DAYS PRIOR TO INSTALLATION OF THE SERVICE LINE.</p>
-<p>56 INSTALL A FIVE (5)-AMP FUSE IN AN IN-LINE WATER PROOF FIJSE HOLDER IN THE HAND HOLE OF THE BSL POLE IN PARALLEL AND ON THE LINE SIDE OF BSL FIJSE. NEW FIJSE HOLDER TO BE TAGGED WITH LADOT SIGN.</p>
-<p>57 INSTALL TWO (2) #14 WIRES FROM THE FIJSE TO THE SPEED FEEDBACK SIGN THROUGH EXISTING BSL CONDUIT.</p>
-<p>SB INSTALL A FIVE (5)-AMP FUSE IN AN IN-LINE WATER PROOF FIJSE HOLDER IN EXISTING SERVICE PULLBOX ADJACENT TO SERVICE POLE NO. ___ • NEW FUSE HOLDER TO BE TAGGED WITH LADOT SIGN.</p>
-<p>59 INSTALL TWO (2) #10 SERVICE WIRES FROM THE SERVICE PULLBOX ADJACENT TO SERVICE POLE NO. ___ TO THE PULLBOX ADJACENT TO SPEED FEEDBACK SIGN.</p>
-<p>S10 INSTALL A 5-AMP FIJSE IN AN IN-LINE WATER PROOF FIJSE HOLDER IN THE EXISTING BSL STD19 HIGHMOUNT VEHICLE HEAD AT _ FEET; ADJUST EXISTING SIGNS ACCORDINGLY. PULLBOX IN PARALLEL AND ON THE LINE SIDE OF THE BSL FIJSE. NEW FIJSE HOLDER TO BE TAGGED WITH LADOT SIGN. STD20 INSTALL VEHICLE HEAD AND/OR PED HEAD ON __ SIDE OF POLE. 511 STD21 TOP MOUNT VEHICLE HEAD ON MAST ARM. S12 STD22 ALL VEHICLE HEADS SHOWN ARE 12-INCH UNUESS OTHERWISE NOTED.</p>
-<p>STD23 INSTALL ADAPTER BASE PLATE FOR F-1 TO F-7 FOUNDATION PER S-52.7.1.</p>
-<p>STD24 INSTALL ADAPTER BASE PLATE FOR F-2 TO F-1 FOUNDATION PER 5-52.7.4.</p>
-<p>STD25 INSTALL LED SPEED FEEDBACK SIGN ASSEMBLY ON 'TYPE IA STANDARD.</p>
-<p>STD26 AT LOCATION(S) @ DWP CLEARANCE IS REQUIRED FOR OVERHEAD WIRES. CONTACT DWP S13 AT (213) 367-9966 PRIOR TO REMOVAL OR INSTALLATION OF THE POLE AND FOUNDATION.</p>
-<p>STD27 ~08~~~~~~.®i/ R~~~:D.F~~~~~~~:Alo~~~iig~1Ri~A~u~ET~N E~l~INiF THE FOUNDATION SHOWN IN THE SIGNAL STANDARD SCHEDULE. SEE CONTRACT DOCUMENTS FOR DETAILS REGARDING SPECIAL FOUNDATION ALLOWANCE.</p>
-<p>STD28 PROGRAM APS WITH AUDIBLE SPEECH PUSHBUTTON INFORMATION MESSAGE "WAIT, WAIT TO CROSS A STREET AT B STREET" WHEN APS IS PRESSED AND APS WITH AUDIBLE SPEECH WAUK MESSAGE "A STREET WALK SIGN IS ON TO CROSS A STREET" WHEN WAUK IS ON.</p>
-<p>STD29 ALL NEW VEHICLE HEADS SHALL HAVE 2-INCH YELLOW RETROREFLECTIVE SHEETING INSTALLED ON THE BACKPLATE AS PER LADOT STD. NO. S-77.BA.</p>
-<p>INSTALL TWO (2) #14 WIRES FROM THE PULLBOX TO THE SPEED FEEDBACK SIGN.</p>
-<p>INSTALL STAND-OFF BRACKET AT _ O'CLOCK POSITION OF SERVICE POLE NO. __ • USE POSITION _ ON STAND BRACKET TO INSTALL TWO-INCH (2") RISER (SEE DETAIL _). INSTALL THREE (3) (/6 SERVICE WIRES FROM PULLBOX TO CONTROLLER AND A 60-AMP FIJSE IN AN IN-LINE WATERPROOF FUSE HOLDER IN THE SERVICE PULLBOX. INSTAULATION SHALL BE PER LADOT STD. DWG. NO. S-79.8. &amp; S-79.98. WORK ON ANY ELECTRICAL SERVICE EQUIPMENT TO BE DONE IN CONJUNCTION WITH DEPARTMENT OF WATER &amp; POWER (DWP) PERSONNEL. CONTACT DWP AT (213) 367-9966 SEVEN (7) WORKING DAYS PRIOR TO BEGINNING WORK ON THE SERVICE LINE.</p>
-<p>INSTALL A 'TYPE PB-3 PULILBOX NEXT TO EXISTING STREET LIGHTING PULILBOX. INSTALL A 3-INCH CONDUIT BETWEEN THE TWO PULLBOXES. INSTAILL THREE (3) {/6 SERVICE WIRES FROM PULLBOX TO CONTROLLER AND A 60-AMP FUSE IN AN IN-LINE WATERPROOF FIJSE HOLDER IN THE SERVICE PULILBOX. INSTAULATION SHALL BE PER LADOT STD. DWG. NO. S-79.8. &amp; S-79.98. WORK ON ANY ELECTRICAL SERVICE EQUIPMENT TO BE DONE IN CONJUNCTION WITH DEPARTMENT OF WATER &amp; POWER (DWP) PERSONNEL. CONTACT DWP AT (213) 367-9966 SEVEN (7) WORKING DAYS PRIOR TO BEGINNING WORK ON THE SERVICE LINE.</p>
-<h4>"' ~</h4>
-<h4>lii</h4>
-<p>~ 0</p>
-<h4>lii</h4>
-<h4>oi " z "' Iii a ' ~ 0</h4>
-<h4>z 0 - I-</h4>
-<h4>Q. - 0:: u "' "' 0</h4>
-<h4>0 - "' - &gt; "' 0::</h4>
-<h4>STD30 INSTALL NEW BACKPLATE WITH 2-INCH YELLOW RETROREFLECTIVE SHEETING AS PER LADOT STD. NO. S-77.BA. C&gt;g</h4>
-<h4>u ~ "</h4>
-<h4>~ ~ u 0 z ~ ~ ~ ~ :ii - "' F 0 "</h4>
-<p>I I I I I I</p>
-<p>I I I I I ~ I I I I I</p>
-<h4>" 0:: z 0 0:: i ~ ~ "' z ~ ~ "' "</h4>
-<h4>0 "' Q. i!i ...J i ::, 0:: 0:: "' "'</h4>
-<h4>0 "'0 Ii:</h4>
-<h4>............................................... puu.eox &amp; CANQUIJS</h4>
-<p>PB1 JOIN AND EXTEND CONDUIT(S) INTO PULLBOX.</p>
-<p>PB2 REMOVE PULLBOX; AIBANDON CONDUIT(S).</p>
-<p>PB3 REMOVE PULLBOX.</p>
-<p>PB4 REMOVE PULLBOX; JOIN AND EXTEND CONDUIT(S) INTO PULLBOX.</p>
-<p>PB5 JOIN AND EXTEND CONDUIT(S) INTO PULLBOX. DISCONNECT EXISTING 1/C CABLE(S) AND/OR VIDEO FIBER CABLE(S) FROM CONTROLLER/AUXILIARY CABINET AND PULL CABLE(S) OUT TO NEAREST PULLBOX NORTHERLY/SOUTHERLY/EASTERLY/WESTERLY. REINSTAILL AND RECONNECT 1/C CABLE(S) AND/OR VIDEO FIBER CABLE(S) BACK TO CONTROLLER/AUXILIARY CABINET. INSTALL NEW CABLE(S) IF SLACK IN THE CABLE(S) IS NOT SUFFICIENT.</p>
-<p>PB6 INSTALL METAL COVERED TIRAFFIC PULLBOX PER LADOT STD. DWG. NO. 5-78.5.2.</p>
-<p>PB7 CONTIRACTOR TO RELOCATE BSL PULLBOX AND REROUTE CONDUIT AS NEEDED.</p>
-<h4>SUBMITTED----- 20 - I</h4>
-<h4>Transportation Engineer</h4>
-<h4>PR£VIOUS R£WSl0N OCT. 2022</h4>
-<h4>REXXlM __ •_EN_DED_,_ ---------------20_-_ 1-N'-PROIIED----~~~~~~==--·-O_-_</h4>
-<p>Senior Transportation Engineer Principal Transportation Engineer AS BUILT an" OF LOS ANGELES """'., 1,..,11at1on,____ DEPAR1MENT OF 1RANSPORTA110N CONNIE LLANOS, Interim General Manager i.:::l.ADOT=_:l":'pecto:::r.:.======..fl-ll!l.l.------------------"-------1</p>
-<h4>CondlUon M Of:------</h4>
-<h4>LADOT Engineer:</h4>
-<h4>Dlatrfct:</h4>
-<h4>Thomas Gulde ........... AB.D REF1</h4>
-<h4>PGE GR</h4>
-<h4>STANDARD N07ES I Project No._</h4>
-<p>NOTICE: F PLAN HAS NOT BEEN IIPLEMENTED WITHN TMJ (2) Y£MS OF lHE lflPRO't'AL l:MlE, IT IIJST IE RESlalmED Tt&gt; LAOOT SIGNAL DESIGN SECTION FOR REVEW Ml&gt; APPRO't'AI... I SCALES :i---,.,;:~ ..... ;~a...· -~::-----: SHEET - OF - I INDEX NUMBER L----\~,.:,:'9'~~,~~,&lt;-l _____________________________________________________________________ _.. _____ _.,_ ___________ ...._ _______________ .._ ____________________ &amp;,... ______ __,</p></div>
-<div class="kw">Keywords: install, controller, ladot, existing, cabinet, service, pullbox, sign, signal, prior, contractor, remove, street, fijse</div>
+<div class="pclean"><p class="psum"><b>LADOT Standard Notes for Signal Design Plans (Sheet 1 of 2): Controller, Loops, Interconnect, Signs, Standards, Pullbox and Services.</b> Sheet 1 of 2 of the LADOT standard notes library for traffic signal plans (revised March 2023). It lists numbered fill-in notes for controller work, street lighting, detector loops, interconnect and video fiber, signs and striping, signal standards and heads, pullboxes and conduits, and electrical services. Designers select the applicable notes and fill in the blanks for each plan.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Document layout: A text-only sheet with no drawing views. It is a landscape LADOT standard notes sheet laid out in columns of numbered note blocks, each under an underlined heading. The notes are a library of standard callouts that a signal designer picks from when preparing a plan. Blanks (underscores) in the text are fill-ins for the designer. Reading left to right the headings are CONTROLLER (notes C1 to C12 with two field modification notes, a timing note and a contact information list), STREET LIGHTING (SL1 to SL3), LOOPS (L1 to L13), LOOPS (cont&#x27;d) (L14 to L17), INTERCONNECT &amp; VIDEO FIBER (I 1 to I 8), SIGNS, STRIPING &amp; MARKINGS (SN1 to SN20), STANDARDS &amp; HEADS (STD1 to STD30), PULLBOX &amp; CONDUITS (PB1 to PB7), and SERVICES (S1 to S13). The full text of every note is in the notes field.</p>
+<p>Title block and revision block: City of Los Angeles Department of Transportation, Connie Llanos, Interim General Manager. Title STANDARD NOTES. File name STDNOTES.DWG. Intersection No. and Project No. are blank dashes. Sheet and index number fields are blank (SHEET - OF -). Signature lines for Submitted (Transportation Engineer), Recommended (Senior Transportation Engineer) and Approved (Principal Transportation Engineer) are blank. An AS BUILT box (date of installation, LADOT inspector, condition as of, LADOT engineer, district, Thomas Guide PGE GR, references FIELD and REF1) is blank. A large diagonal stamp reads SHEET 1 OF 2 REV. MAR. 2023 with the path G:\Signal_Design_STDS\Standard Notes\General\STDNOTES.dwg. PREVIOUS REVISION OCT. 2022. A notice reads: If plan has not been implemented within two (2) years of the approval date, it must be resubmitted to LADOT Signal Design Section for review and approval. A scales box reads HORIZ. 1&quot;= and VERT. 1&quot;=. A right-hand revision strip has blank columns for Timing, District, Geometric, ATSAC and Metro Rail, Supervisor, Designer, Sr. Drafting, Drafting, Field and Base with date and by fields, and a revision description table (No., Revision Description, Div./Dist. Engr., Date). Footer: (LADOT Revised 6/04) (Drafting Std. 11/04).</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>CONTROLLER</h5>
+<p>C1. Remove controller, cabinet and foundation. Abandon conduit(s).</p>
+<p>C2. Remove controller and cabinet. Retain foundation.</p>
+<p>C3. Remove existing controller. Install ATSAC (Automated Traffic Surveillance and Control) 2070 controller in existing cabinet. Notify the LADOT Signal Shop at (213) 473-8468 fifteen (15) working days prior to start of construction to obtain new conflict monitor and controller timing package. LADOT will make all controller modifications and install the new conflict monitor in the existing controller cabinet.</p>
+<p>C4. Install transit priority sensor units and communication channel cards in cabinet.</p>
+<p>C5. Field modification of controller is required. Install conflict monitor package.</p>
+<p>C6. Install ATSAC 2070 controller in 356 cabinet. The contractor shall provide a complete functioning controller assembly and cabinet conforming to the latest LADOT specification for 2070 controller and 356 cabinet with adapter base, and shall include all necessary auxiliary equipment to provide a complete and functioning controller cabinet. Contractor to deliver completely assembled controller cabinet for testing to the Department of Transportation General Shop, Piper Technical Center, 555 Ramirez Street thirty (30) days prior to installation. Contractor to pick up and install controller cabinet on F-332 foundation.</p>
+<p>C7. Install ATSAC 2070 controller in 35_ cabinet. The contractor shall provide a complete functioning controller assembly and cabinet conforming to the latest LADOT specification for 2070 controller and 35_ cabinet, and shall include all necessary auxiliary equipment to provide a complete and functioning controller cabinet. Contractor to deliver completely assembled controller cabinet for testing to the Department of Transportation General Shop, Piper Technical Center, 555 Ramirez Street thirty (30) days prior to installation. Contractor to pick up and install controller cabinet on F-___ foundation.</p>
+<p>Field modification note (adding a new phase: on 2070 controller only)</p>
+<p>C8. Field modification of controller required. Notify the LADOT Construction Supervisor II George Nocifore at GEORGE.NOCIFORE@LACITY.ORG fifteen (15) working days prior to start of construction to obtain new conflict monitor and controller timing package. LADOT will make all controller modifications and install the new conflict monitor in the existing controller cabinet.</p>
+<p>C9. Field modification of controller required. Notify the Construction Supervisor II George Nocifore at GEORGE.NOCIFORE@LACITY.ORG fifteen (15) working days prior to start of construction to coordinate the work.</p>
+<p>Field modification note (extending time due to re-alignment, etc.)</p>
+<p>C10. The contractor shall contact the LADOT ___________ yard traffic signal inspector at (___) ___-____ fifteen (15) working days prior to the start of construction for field modification of controller. Timing changes shall be implemented prior to the start of construction.</p>
+<p>Timing note street widening</p>
+<p>C11. Contractor shall notify LADOT _______ yard traffic signal inspector at (___) ___-____ fifteen (15) working days prior to start of construction for implementation of timing changes. Timing changes associated with new phasing shall be implemented prior to completion of the project. Timing changes not associated with new phasing, but necessitated by street widening, shall be implemented prior to the beginning of construction.</p>
+<p>C12. Install all necessary auxiliary equipment in 35_ cabinet to insure properly functioning CCTV (video) system. Contact LADOT Communication Engineer at (213) 978-0150 for acceptance of materials and equipment specifications prior to purchase.</p>
+<p>*Contact information</p>
+<p>Central Traffic Signal Inspector (213) 485-1071</p>
+<p>Central Signal Maintenance Supv. (213) 485-7721</p>
+<p>Western Traffic Signal Inspector (213) 216-9739</p>
+<p>Western Signal Maintenance Supv. (213) 485-6790</p>
+<p>Valley Traffic Signal Inspector (818) 779-7433</p>
+<p>Valley Signal Maintenance Supv. (818) 779-7437</p>
+<p>City wide investigation: Los Angeles (213) 928-9625</p>
+<h5>STREET LIGHTING</h5>
+<p>SL1. See street lighting sheet for work on street lighting facilities.</p>
+<p>SL2. Chip into existing street light foundation and install conduit.</p>
+<p>SL3. BSL to remove existing street lighting standard and foundation.</p>
+<h5>LOOPS</h5>
+<p>L1. Abandon and disconnect detector loop(s) in pullbox as shown.</p>
+<p>L2. Install detector loop(s) per LADOT Std. Dwg. No. S-70.1A. Contractor shall obtain approval from LADOT inspector prior to installation of any loops.</p>
+<p>L3. Install detector loop(s) per LADOT Std. Dwg. No. S-70.1A &amp; S-70.1D, Case II. Contractor shall obtain approval from LADOT inspector prior to installation of any loops.</p>
+<p>L4. Install transit priority loop(s) per LADOT Std. Dwg. No. S-70.1F. Contractor shall obtain approval from LADOT inspector prior to installation of any loops.</p>
+<p>L5. Install bike loop(s) per S-70.1D Case I. Contractor shall obtain approval from LADOT inspector prior to installation of any loops.</p>
+<p>L6. Disconnect vehicle detector loop(s) in pullbox.</p>
+<p>L7. Detector loop(s) to be connected to controller at ______.</p>
+<p>L8. Renumber system loop(s) as shown.</p>
+<p>L9. Rewire detector loop(s) to new phase as shown.</p>
+<p>L10. Protect existing detector loop(s).</p>
+<p>L11. Protect existing detector loop(s). Use existing stub-out.</p>
+<p>L12. Remove existing DLC from pullbox to controller.</p>
+<p>L13. Install 2-inch conduit at a depth of 18-inches from pullbox to stubout.</p>
+<p>LOOPS (cont&#x27;d)</p>
+<p>L14. Contractor shall re-use existing stub-out. If stub-out is not in place, contractor shall install new stub-out per LADOT Std. Dwg. No. S-70.1A.</p>
+<p>L15. Contractor may re-use the existing DLC in the pullbox as determined by the traffic signal inspector. Should the contractor damage the existing cable, new DLC cable shall be installed from the pullbox to the controller at the contractor&#x27;s expense.</p>
+<p>L16. Connect detector loop(s) to a separate pair DLC.</p>
+<p>L17. Remove railroad tracks, as necessary, to sufficient depth.</p>
+<h5>INTERCONNECT &amp; VIDEO FIBER</h5>
+<p>I 1. Disconnect existing interconnect wires in pullbox.</p>
+<p>I 2. Disconnect fire alarm interconnect. Coordinate with the LADOT ATSAC traffic signal electrician ten (10) working days prior to removal of fire alarm interconnect.</p>
+<p>I 3. Disconnect telephone interconnect. Coordinate with the LADOT ATSAC traffic signal electrician ten (10) working days prior to the installation or removal of telephone interconnect equipment.</p>
+<p>I 4. For interconnect/video fiber construction details, see signal interconnect/video fiber plans.</p>
+<p>I 5. Disconnect existing interconnect cable from controller at __________ and connect to controller at this intersection. Install a new __ pair interconnect cable from controller at this intersection to controller at __________.</p>
+<p>I 6. Contractor shall disconnect the __-pair interconnect in the existing controller cabinet/communication cabinet (see LADOT Special Provisions, Section 5 titled &quot;Notification&quot;, for information regarding work affecting major ATSAC communication facilities). Contractor may reroute existing cable to the proposed conduit on this plan by using the coiled slack in the controller cabinet/communication cabinet and intermediate pullboxes. In the event that the slack in the cable is not sufficient to accomplish the proposed installation as shown on this plan, the contractor shall be required to install a new __-pair interconnect from the controller cabinet/communication cabinet at this intersection to the controller at __________ (approx. ____&#x27;).</p>
+<p>I 7. Contractor shall disconnect the ____ video fiber cables in the existing controller cabinet/communication cabinet/splice vault (see LADOT Special Provisions, Section 5 titled &quot;Notification&quot;, for information regarding work affecting major ATSAC communication facilities). Contractor may reroute existing cable to the proposed conduit on this plan by using the coiled slack in the controller cabinet/communication cabinet/splice vault and intermediate pullboxes. In the event that the slack in the cable is not sufficient to accomplish the proposed installation as shown on this plan, the contractor shall be required to install a new ____ video fiber cable from the controller cabinet/communication cabinet/splice vault at this intersection to the controller at _____ St. (approx. ____&#x27;). Contractor shall contact LADOT Communication Engineer three (3) working days prior to construction at (213) 978-0150 to coordinate and review the installation and splice procedure for fiber optic and video fiber cables.</p>
+<p>I 8. Install __ pair interconnect from controller at this intersection to controller at __________. See interconnect key map for details.</p>
+<h5>SIGNS, STRIPING &amp; MARKINGS</h5>
+<p>SN1. Install street-name sign per LADOT Std. Dwg. No. S-457.0 &amp; S-486.0.</p>
+<p>SN2. Install sign(s), or sign(s) and post(s) as shown.</p>
+<p>SN3. Remove sign(s), or sign(s) and post(s) as shown.</p>
+<p>SN4. Relocate street-name sign to new mast arm/standard.</p>
+<p>SN5. Relocate sign(s) to new mast arm/standard.</p>
+<p>SN6. Install R62E face plate on pushbutton assembly.</p>
+<p>SN7. Contractor to relocate existing street-name sign(s) to mast arm per LADOT Std. Dwg. S-457.0 and S-486.0.</p>
+<p>SN8. Maintain <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> sign during construction. Remove <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> sign and post upon activation of traffic signal.</p>
+<p>SN9. Install <a class="sref" href="/SoCal-Super-Standards/signs/r2-1/" data-svg="/SoCal-Super-Standards/signs/R2-1.svg">R2-1</a> sign on top of speed feedback sign (see detail _).</p>
+<p>SN10. Contractor to install <a class="sref" href="/SoCal-Super-Standards/signs/r3-2/" data-svg="/SoCal-Super-Standards/signs/R3-2.svg">R3-2</a> F.O. sign on mast arm using sign brackets per LADOT Std. Dwg. No. S-457.0.</p>
+<p>SN11. Install fiber optic train sign (detail _) on mast arm per LADOT Std. Dwg. No. S-58.23 using Pelco Astro bracket (AB-116) per LADOT Std. Dwg. No. S-63.1.4.</p>
+<p>SN12. Install/remove sign(s), striping &amp; pavement markings per LADOT geometric design dwg. no. A-____.</p>
+<p>SN13. Remove striping and/or pavement markings as shown.</p>
+<p>SN14. Install striping and/or pavement markings as shown.</p>
+<p>SN15. The contractor shall furnish and install high level (large) and low level (small) street-name signs per LADOT Standard Drawing Nos. S-457.0, S-486.0, S-221.3 and S-438.0. If large street-name sign is installed on signal pole standard, use Signfix channeling mount with universal clamp SX0220. If large street-name sign is installed on Type 1 or 1A pole, use LADOT signal saddle bracket and guide.</p>
+<p>SN16. Adjust visibility of signs with new LADOT signal saddle bracket and guide as needed.</p>
+<p>SN17. Install continental crosswalk(s) per LADOT Std. Dwg. No. S-481.1.</p>
+<p>SN18. Adjust mounting of sign(s) to provide adequate visibility of RRFB(s).</p>
+<p>SN19. Install additional red curb.</p>
+<p>SN20. Install white two-way retroreflective raised pavement markers.</p>
+<h5>STANDARDS &amp; HEADS</h5>
+<p>STD1. Remove mast arm vehicle head(s) and mast arm.</p>
+<p>STD2. Remove pedestrian pushbutton/pedestrian head and plug hole(s).</p>
+<p>STD3. All new vehicle and countdown pedestrian traffic signal heads shall be LED modules per LADOT Specification 92-088-07 (latest edition).</p>
+<p>STD4. Remove existing traffic signal equipment, standard, pullbox, foundation and abandon existing conduit(s).</p>
+<p>STD5. Remove existing traffic signal equipment and standard. Retain foundation.</p>
+<p>STD6. Remove existing traffic signal equipment. Abandon conduit.</p>
+<p>STD7. Install equestrian pushbutton (EPB) 6-feet above adjacent ground surface.</p>
+<p>STD8. Install accessible pedestrian signal (APS) as per LADOT Std. Dwg. No. S-73.2.</p>
+<p>STD9. Install an arrow on 12-inch circular green lens.</p>
+<p>STD10. Install LED flashing beacons. Top-mount the first beacon at the end of the mast arm. Use universal signal head mounting per LADOT Std. Dwg. No. S-63.1.4 to mount the second beacon at the same level as the first. See Detail A for the mounting location of the second beacon.</p>
+<p>STD11. Install rectangular rapid flashing beacon (RRFB) as per detail _.</p>
+<p>STD12. Install accessible pedestrian pushbutton (APP) as per detail _.</p>
+<p>STD13. Install pedestrian hybrid beacon (PHB) as per detail _.</p>
+<p>STD14. Install standard __ feet behind curb face.</p>
+<p>STD15. Install Type 7 standard 9-inches behind curb face of ramp. Mount pushbutton at 3-feet height from top of curb.</p>
+<p>STD16. Install standard 18-inches behind curb face. Mount pushbutton at 3-feet height from top of curb.</p>
+<p>STD17. Use strap-on tenon AB-116 per LADOT Std. Dwg. No. S-63.1.4, to mount signal head on mast arm. Adjust the mounting bracket to maintain 17-feet clearance over roadway.</p>
+<p>STD18. Install LED speed feedback sign assembly on existing BSL standard (see detail _).</p>
+<p>STD19. Highmount vehicle head at __ feet. Adjust existing signs accordingly.</p>
+<p>STD20. Install vehicle head and/or ped head on _____ side of pole.</p>
+<p>STD21. Top mount vehicle head on mast arm.</p>
+<p>STD22. All vehicle heads shown are 12-inch unless otherwise noted.</p>
+<p>STD23. Install adapter base plate for F-1 to F-7 foundation per S-52.7.1.</p>
+<p>STD24. Install adapter base plate for F-2 to F-1 foundation per S-52.7.4.</p>
+<p>STD25. Install LED speed feedback sign assembly on Type IA standard.</p>
+<p>STD26. At location(s) (circled X) DWP clearance is required for overhead wires. Contact DWP at (213) 367-9966 prior to removal or installation of the pole and foundation.</p>
+<p>STD27. At location(s) (circled X) a special foundation may be required due to existing substructures. If required, the special foundation shall be in lieu of the foundation shown in the signal standard schedule. See contract documents for details regarding special foundation allowance.</p>
+<p>STD28. Program APS with audible speech pushbutton information message &quot;Wait, wait to cross A Street at B Street&quot; when APS is pressed and APS with audible speech walk message &quot;A Street walk sign is on to cross A Street&quot; when walk is on.</p>
+<p>STD29. All new vehicle heads shall have 2-inch yellow retroreflective sheeting installed on the backplate as per LADOT Std. No. S-77.8A.</p>
+<p>STD30. Install new backplate with 2-inch yellow retroreflective sheeting as per LADOT Std. No. S-77.8A.</p>
+<h5>PULLBOX &amp; CONDUITS</h5>
+<p>PB1. Join and extend conduit(s) into pullbox.</p>
+<p>PB2. Remove pullbox. Abandon conduit(s).</p>
+<p>PB3. Remove pullbox.</p>
+<p>PB4. Remove pullbox. Join and extend conduit(s) into pullbox.</p>
+<p>PB5. Join and extend conduit(s) into pullbox. Disconnect existing I/C cable(s) and/or video fiber cable(s) from controller/auxiliary cabinet and pull cable(s) out to nearest pullbox northerly/southerly/easterly/westerly. Reinstall and reconnect I/C cable(s) and/or video fiber cable(s) back to controller/auxiliary cabinet. Install new cable(s) if slack in the cable(s) is not sufficient.</p>
+<p>PB6. Install metal covered traffic pullbox per LADOT Std. Dwg. No. S-78.5.2.</p>
+<p>PB7. Contractor to relocate BSL pullbox and reroute conduit as needed.</p>
+<h5>SERVICES</h5>
+<p>S1. Install two-inch (2&quot;) riser at the __ o&#x27;clock position of service pole no. ______. Install a 60-amp fuse in an in-line waterproof fuse holder in the service pullbox and run three (3) #6 service wires from the service pullbox to controller. Installation shall be per LADOT Std. Dwg. No. S-79.8. &amp; S-79.9B. Work on any electrical service equipment to be done in conjunction with Department of Water &amp; Power (DWP) personnel. Contact DWP at (213) 367-9966 seven (7) working days prior to beginning work on the service line.</p>
+<p>S2. Replace the existing street lighting pullbox with a Type PB-3 pullbox with &quot;ST. LTG./TRF. SIG.&quot; lid. Install a five (5) amp fuse in an in-line waterproof fuse holder in combination pullbox.</p>
+<p>S3. Replace the existing service cabinet with new service cabinet (combination of service) and battery back-up system (MEVG35-PB/PBM.1250 UPS).</p>
+<p>S4. Replace existing fuse with 60-amp fuse in an in-line waterproof fuse holder. Work on any electrical service equipment to be done in conjunction with Department of Water &amp; Power (DWP) personnel. Contact DWP at (213) 367-9966 seven (7) working days prior to beginning work on the service line.</p>
+<p>S5. Use existing street lighting service on pole no. ______. Convert street lighting service to a combination &quot;street light/traffic signal&quot; service per LADOT Standard Dwg. No. S-79.8. &amp; S-79.9B. Replace the existing street lighting service pullbox with a Type PB-3 pullbox with &quot;ST. LTG./TRF. SIG.&quot; lid. Install a 60-amp fuse in an in-line waterproof fuse holder in the service pullbox and run three (3) #6 service wires from the service pullbox to controller. Work on any electrical service equipment to be done only in conjunction with Department of Water and Power (DWP) personnel. Contact DWP at (213) 367-9966 seven (7) working days prior to installation of the service line.</p>
+<p>S6. Install a five (5)-amp fuse in an in-line water proof fuse holder in the hand hole of the BSL pole in parallel and on the line side of BSL fuse. New fuse holder to be tagged with LADOT sign.</p>
+<p>S7. Install two (2) #14 wires from the fuse to the speed feedback sign through existing BSL conduit.</p>
+<p>S8. Install a five (5)-amp fuse in an in-line water proof fuse holder in existing service pullbox adjacent to service pole no. _______. New fuse holder to be tagged with LADOT sign.</p>
+<p>S9. Install two (2) #10 service wires from the service pullbox adjacent to service pole no. ______ to the pullbox adjacent to speed feedback sign.</p>
+<p>S10. Install a 5-amp fuse in an in-line water proof fuse holder in the existing BSL pullbox in parallel and on the line side of the BSL fuse. New fuse holder to be tagged with LADOT sign.</p>
+<p>S11. Install two (2) #14 wires from the pullbox to the speed feedback sign.</p>
+<p>S12. Install stand-off bracket at __ o&#x27;clock position of service pole no. _____. Use position _ on stand bracket to install two-inch (2&quot;) riser (see detail _). Install three (3) #6 service wires from pullbox to controller and a 60-amp fuse in an in-line waterproof fuse holder in the service pullbox. Installation shall be per LADOT Std. Dwg. No. S-79.8. &amp; S-79.9B. Work on any electrical service equipment to be done in conjunction with Department of Water &amp; Power (DWP) personnel. Contact DWP at (213) 367-9966 seven (7) working days prior to beginning work on the service line.</p>
+<p>S13. Install a Type PB-3 pullbox next to existing street lighting pullbox. Install a 3-inch conduit between the two pullboxes. Install three (3) #6 service wires from pullbox to controller and a 60-amp fuse in an in-line waterproof fuse holder in the service pullbox. Installation shall be per LADOT Std. Dwg. No. S-79.8. &amp; S-79.9B. Work on any electrical service equipment to be done in conjunction with Department of Water &amp; Power (DWP) personnel. Contact DWP at (213) 367-9966 seven (7) working days prior to beginning work on the service line.</p>
+<p>The notes continue on sheet 2 of 2.</p></details></div>
+<div class="kw">Keywords: </div>
 
 
 <span id="p2" class="anchor"></span>
 
-### Page 2 - MISCEI I 6NEAY$ (S-442.0, S-444.0)
+### Page 2 - LADOT Standard Notes for Signal Design Plans (Sheet 2 of 2): Miscellaneous, Temporary Traffic Signal, Video and Fiber Work, Schedule Notes
 
 <div class="pmeta">Drawings: <strong>S-442.0</strong>, <strong>S-444.0</strong>, <strong>S-454.2</strong>, <strong>S-52.1.6</strong>, <strong>S-55.0</strong>, <strong>S-57.0</strong> &middot; Topics: crosswalks, transit, signals, parking-curb, striping, signs, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0002.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0002.webp" alt="Signal Design Notes page 2 MISCEI I 6NEAY$ (S-442.0, S-444.0)"></a><figcaption>Signal Design Notes, page 2. Click to enlarge.</figcaption></figure>
-<div class="dtext"><h4>MISCEI I 6NEAY$</h4>
-<p>M1 REQUEST FOR INSTALLATION OF ACCESS RAMPS SENT TO BUREAU OF STREET SERVICES.</p>
-<p>M2 INSTALL (MODIFIED) CASE _ CURB RAMP PER DEPARTMENT OF PUBLIC WORKS STD. DWG. NO. S-442-5. ALL CURB RAMPS SHALL HAVE TRUNCATED DOMES ON THE "W" PORTIONS.</p>
-<p>M3 INSTALL 4-INCH THICK CONCRETE SLAB IN UNPAVED AREA, FLUSH WITH TOP OF CURB AND EDGE OF SIDEWALK.</p>
-<h4>M4 THIS PLAN ASSUMES COMPLETION OF -----• PROJECT NO. __ •</h4>
-<p>M5 CONTACT U.S. POSTAL SERVICE. AT (800) 275-8777 FOR RELOCATION OF MAILBOX.</p>
-<p>M6 CONTACT BUREAU OF STREET SERVICES AT (213) 847-6000 FOR RELOCATION OF NEWSPAPER RACK(S).</p>
-<p>M7 CONTRACTOR TO INSTALL CONCRETE LANDING AREA AS SHOWN AS PER STANDARD SPECIFICATIONS FOR PUBLIC WORKS CONSTRUCTION, SECTION 303-5.</p>
-<p>M8 CONTRACTOR SHALL INFORM MTA STOPS AND ZONES REPRESENTATIVE AT (213) 922-5185 AT LEAST FIVE (5) WORKING DAYS PRIOR TO INSTALLATION OF LANDING AREA IN ACCORDANCE WITH ADA REQUIREMENTS AS SHOWN.</p>
-<p>M9 INSTALL THE UNDIRECTIONAL IN-ROADWAY LED WARNING LIGHTS AT THE CENTER OF LADDER MARKINGS AS SHOWN, 1-FOOT FROM OUTSIDE EDGE OF CROSSWALK LINE. THE LED IN-ROADWAY LIGHTS ARE TO FLASH SYNCHRONOUSLY WITH THE FLASHING BEACONS. THE FLASHING PATTERNS SHALL BE PER STANDARD PLAN S-55.0.</p>
-<p>M10 REQUEST FOR TREE TRIMMING HAS BEEN SENT TO THE BUREAU OF STREET SERVICES.</p>
-<p>M11 CONTRACTOR TO REMOVE EXISTING TREE. CONTRACTOR TO REMOVE AND REPLACE ALL OFF-GRADE SIDEWALK IN VICINITY OF REMOVED TREE IN CONJUNCTION WITH THE INSTALLATION OF THE TRAFFIC SIGNAL EQUIPMENT. COORDINATE WITH STREET TREE DIVISION AT (213) 847-3077.</p>
-<p>M12 CONTRACTOR SHALL TRIM TREE(S) AND/OR FOLIAGE TO ASSURE ADEQUATE VISIBILITY OF TRAFFIC SIGNAL INDICATIONS. NOTIFY BUREAU OF STREET SERVICES, URBAN FORESTRY DIVISION AT (213) 485-5675 FIVE (5) WORKING DAYS PRIOR TO TRIMMING FOR A REPRESENTATIVE TO INSPECT AND ISSUE THE NECESSARY PERMITS.</p>
-<p>M13 CONTRACTOR TO REMOVE TREE. PRIOR TO THE REMOVAL OF ANY STREET TREE, A BOARD REPORT MUST BE SUBMITTED AND APPROVED BY THE BOARD OF PUBLIC WORKS. A COPY OF THE PERMIT IS REQUIRED TO BE ON THE JOB SITE WHILE THE TREE WORK IS TAKING PLACE.</p>
-<p>M14 CONTRACTOR SHALL OBSERVE ALL INDUSTRY SAFETY STANDARDS, PARTICULARLY SECTION 2946 AND 2948 OF TITLE 8 OF CAL-OSHA REGARDING WORK NEAR OVERHEAD LINES.</p>
-<p>M15 CONTRACTOR SHALL NOTIFY MTA AT (213) 922-4632 FIVE (5) WORKING DAYS PRIOR TO CONSTRUCTION TO COORDINATE THE RELOCATION OF THE BUS STOP.</p>
-<p>M16 INSTALL PREFORMED VEHICLE DETECTOR LOOP(S) PER LADOT STD. DWG. NO. S-70.1E. LOOPS SHALL BE ATTACHED TO TOP OF REINFORCED BARS.</p>
-<p>M17 INSTALL THREE (3) 1.5-INCH CONDUITS FROM PULLBOX TO ENTRY SLAB. THE LEAD-IN HOSES OF EACH PAIR OF LOOPS IN THE SAME TRAVELED LANE SHALL BE INSTALLED IN A 1.5-INCH CONDUIT.</p>
-<p>M18 INSTALL __ -FEET WIDTH CONCRETE SIDEWALK PER DEPARTMENT OF PUBLIC WORKS STO.</p>
-<h4>JEl4PAB68Y JJWFIC $1QN6L-</h4>
-<p>n NOTIFY LADOT TEMPORARY TRAFFIC MANAGEMENT SECTION AT (213) 972-5968 AND LADOT llRAFFIC SIGNAL INSPECTOR AT (_) ---- AT UEAST FIVE (5) DAYS PRIOR TO START OF CONSTRUCTION.</p>
-<p>T2 TEMPORARY SIGNAL PLATFORM SHALL BE PLACED AS SHOWN WITH A MINIMUM 2-FEET CLEARANCE FROM THE FACE OF THE PLATFORM TO THE EDGE OF THE TRAVELED ROADWAY (15-FEET CLEARANCE IF NOT PROTECTED BY CRASH CUSHION OR BEHIND K-RAIL OR CURB). OVERHEAD CABLES SHALL MAINTAIN A 20-FEET VERTICAL CLEARANCE AIBOVE THE llRAVELED ROADWAY AND 12-FEET CUEARANCE OVER THE SIDEWALK. COIL AN ADDmONAL 25-FEET LENGTH OF 12-FEET CLEARANCE OVER THE SIDEWALK. COIL AN ADDmONAL 25-FEET LENGTH OF OVERHEAD CAIBLE AT THE TEMPORAIRY PLATFORM SIGNAL TO FACILITATE CHANGE IN POSITION. ALTERNATE LOCATIONS OF THE TEMPORARY SIGNAL EQUIPMENT, BASED ON CONSTRUCTION CONDmONS, REQUIRES APPROVAL OF THE LADOT TRAFFIC SIGNAL INSPECTOR.</p>
-<p>T3 IF TEMPORARY STREET LIGHTING IS REQUIRED BY LABSL, CONTRACTOR TO PROVIDE CD954 ON PLATFORMS AS NEEDED PER LADOT STANDARD DWG. NO. S-57.2D, OR S-57.2C TO SUPPORT THE OVERHEAD CONNECTION AS SHOWN. TEMPORARY STREET LIGHTING SYSTEM SHALL BE APPROVED BY LABSL. LOCATION SHOWN FOR PLACEMENT OF THE TEMPORARY SIGNAL PLATFORMS ARE APPROXIMATE. THE EXACT LOCATION FOR PLACEMENT WILL BE CONFIRMED BY THE LADOT TEMPORARY llRAFFlC MANAGEMENT AT (213) 972-5968.</p>
-<p>T4 FIELD MODIFICATION OF CONTROLLER REQUIRED. NOTIFY THE LADOT TRAFFIC SIGNAL INSPECTOR AT (_) ---- FIFTEEN (15) WORKING DAYS PRIOR TO START OF CONSTRUCTION TO OBTAIN A NEW CONTROULER TIMING PACKAGE. LADOT WILL MAKE ALL CONTROLLER MODIFICATIONS IN THE EXISTING CONTROLLER CABINET.</p>
-<p>T5 RELOCATE 35_ CAIBINET, ATSAC CONTROLLER AND AUXILIARY EQUIPMENT. ALL RELOCATED EQUIPMENT SHALL BE UNDAMAGED AT THE CONCLUSION OF THE RELOCATION AS DETERMINED BY THE llRAFFlC SIGNAL INSPECTOR. DAMAGED EQUIPMENT SHALL BE REPLACED WITH NEW EQUIPMENT AT THE CONTIRACTOR'S EXPENSE. CONTRACTOR TO RELOCATE AND INSTALL CONTROLLER ON F-_ FOUNDATION.</p>
-<p>T6 CONTRACTOR TO MAINTAIN TRAFFIC SIGNAL EQUIPMENT AND LADOT TO OPERATE AND TIME INTERSECTION. FOR llRAFFlC SIGNAL EMERGENCY, CALL LADOT EMERGENCY RADIO ROOM AT (818) 752-5112.</p>
-<p>T7 REMOVE EXISTING DLC. INSTALL NEW DLC AND RE-ROUTE TO CONTROLLER VIA OVERHEAD AS SHOWN ON THE PLAN.</p>
-<p>T8 DISABLE AND PROTECT EXISTING LOOP(S) FOR THE DURATION OF THIS CONSTRUCTION STAGE.</p>
-<p>T9 CONTRACTOR SHALL PROTECT CONDUIT IN PLACE. IF CONDUITS/CABUES ARE DAMAGED DURING CONSTRUCTION, NEW CONDUIT /CABLE SHALL BE INSTALLED AT CONTRACTOR'S EXPENSE.</p>
-<p>Tl O DISCONNECT VEHICLE DETECTOR LOOP(S) IN CONTROLLER. CONTRACTOR SHALL NOTIFY llRAFFIC SIGNAL INSPECTOR AT (213) 220-6597 TEN (10) WORKING DAYS PRIOR TO START OF CONSTRUCTION. LADOT WILL MAKE ALL MODIFICATIONS IN THE EXISTING CONTROULER CAIBINET.</p>
-<p>T11 COVER VEHICLE HEAD WITH DETACHAIBLE HEAD COVER (PER LADOT SPEC. NO. 92-086-03) AND DE-ENERGIZE AS DIRECTED BY TRAFFIC SIGNAL INSPECTOR.</p>
-<p>T12 COVER GREEN AND YELLOW LEFT ARROW WITH DETACHABLE HEAD COVER (PER LADOT SPEC. NO. 92-086-03) AND DE-ENERGIZE AS DIRECTED BY llRAFFIC SIGNAL INSPECTOR.</p>
-<p>DWG. NO. S-444-0. CONTRACTOR SHALL OBTAIN ALL APPLICAIBLE PERMITS NECESSAIRY FOR T13 COVER PUSHBUTTON/APS AND DE-ENERGIZE AS DIRECTED BY llRAFFIC SIGNAL INSPECTOR. CONSTRUCTION OF SIDEWALK. Tl 4 UNCOVER VEHICLE HEAD AND ENERGIZE AS DIRECTED BY llRAFFIC SIGNAL INSPECTOR. M19a CONTRACTOR SHALL CONTACT LADOT SIGNAL DESIGN SECTION AT (213) 928-9640 FOR ANY SIGNAL RELATED PROBLEMS ENCOUNTERED DURING CONSTRUCTION. T15 UNCOVER GREEN AND YELLOW LEFT ARROW AND ENERGIZE AS DIRECTED BY llRAFFIC SIGNAL INSPECTOR. M19b CONTRACTOR SHALL CONTACT LADOT COMPLETE STREETS DESIGN SECTION AT (213) 928-9633 FOR ANY SIGNAL RELATED PROBLEMS ENCOUNTERED DURING CONSTRUCTION. T16 UNCOVER PUSHBUTTON/APS AND ENERGIZE AS DIRECTED BY TRAFFIC SIGNAL INSPECTOR.</p>
-<p>M20 CONTRACTOR SHALL CONTACT THE TRAFFIC CONSULTANT FOR ANY PROBLEMS ENCOUNTERED DURING CONSTRUCTION. THE TRAFFIC CONSULTANT SHALL CONTACT LADOT SIGNAL SECTION AT (213) 928-9640 FOR RESOLUTION OF SIGNAL RELATED CONSTRUCTION PROBLEMS.</p>
-<p>M21 CONTRACTOR SHALL FURNISH AND INSTALL BATTERY BACKUP SYSTEM PER THE LATEST APPROVED SPECIFICATIONS INCLUDING 352 CABINET, FOUNDATION AND CONDUIT. SEE LADOT SPECIFICATION 92-066-02 (OR LATEST) AND SECTION 4-A FOR 352 CAIBINET INSTALLATION. CONTACT LADOT SIGNAL SYSTEM SUPERVISOR AT (213) 847-2943 FOR SPECIFICATIONS.</p>
-<p>M22 TRAFFIC CONSULTANT SHALL BE RESPONSIBLE FOR IDENTIFYING AND RESOLVING ALL INTERCONNECT (1/C), VIDEO FIBER (V.F.) AND FIBER OPTIC (F.O.) DISCREPANCIES DURING THE DESIGN PHASE AND INSTALLATION OF TRAFFIC SIGNAL EQUIPMENT.</p>
-<p>M23 TRAFFIC CONSULTANT SHALL BE RESPONSIBLE FOR IDENTIFYING AND RESOLVING SUBSTRUCTURE CONFLICT WITH PROPOSED FOUNDATIONS DURING THE DESIGN AND IMPLEMENTATION PHASES, SUBJECT TO LADOT APPROVAL.</p>
-<p>M24 CONTRACTOR SHALL CONTACT LADOT METER PLANNING AT (213) 473-8270 WITHIN TEN (10) WORKING DAYS PRIOR TO THE START OF CONSTRUCTION TO ARRANGE FOR THE INSTALLATION/REMOVAL OF PARKING METER(S)/PARKING STALL(S) BY LADOT.</p>
-<p>M25 THE PROPOSED FOUNDATION SHALL BE INITIALLY HAND-DUG BY THE CONTRACTOR TO VERIFY THE LOCATION OF THE EXISTING UTILITIES. THE CONTRACTOR SHALL EXERCISE DUE CAUTION DURING THE EXCAVATION PROCEDURE TO PROTECT SUBJECT UTILITIES.</p>
-<p>M26 ALL EXISTING SANITARY SEWER AND STORM DRAIN MAINTENANCE HOLES WITHIN THE WORK AREA THAT WILL REMAIN IN OPERATION AIFTER CONSTRUCTION SHALL BE ADJUSTED TO GRADE.</p>
-<p>M27 UNLESS OTHERWISE NOTED, THE CONTRACTOR SHALL ADJUST WATER SERVICES AND WATER GATE VALVES TO GRADE AFTER NOTIFYING AND COORDINATING WITH DWP - WS.</p>
-<p>M28 CONTRACTOR SHALL RELOCATE AND/OR ADJUST STREET LIGHTING PULUBOX, TRAFFIC SIGNAL PULLBOX, CATV PULLBOX, FIRE HYDRANT, ELECTROLIER, DWP-PS VENT, DWP-PS MAINTENANCE HOLE, DWP-WS MAINTENANCE HOLE, WATER METER, DWP-PS POLE, WATER VALVE COVER AND STREET LIGHTING POLE TO GRADE. CONTRACTOR SHALL OBTAIN ALL APPLICABLE PERMITS NECESSARY FOR RELOCATION OF ---·</p>
-<p>M29 INSTALL PEDESTRIAN BARRICADE PER LADOT STD. DWG. NO. S-454.2.</p>
-<p>M30 SEE BUREAU OF ENGINEERING, DEPARTMENT OF PUBLIC WORKS CIVIL PLANS FOR ALL CIVIL RELATED WORK.</p>
-<p>M31 A TEMPORARY SIGNAL POLE SHALL BE USED WHEN THE DISTANCE BETWEEN THE PROPOSED AND EXISTING FOUNDATION IS LESS THAN 5-FEET.</p>
-<p>M32 CONTRACTOR TO PROVIDE A TEMPORARY TRAFFIC SIGNAL SYSTEM AT THE INTERSECTION DURING SIGNAL CONSTRUCTION. CONTRACTOR TO PROVIDE A PLAN FOR TEMPORARY SIGNALIZATION TO THE LADOT TEMPORARY TRAFFIC MANAGEMENT SECTION (213) 972-5968 AND TRAFFlC SIGNAL INSPECTOR (213) 485-1071, AND OBTAIN APPROVAL OF THE PLAN A MINIMUM OF FIVE DAYS PRIOR TO THE START OF CONSTRUCTION. CONTRACTOR IS RESPONSIBLE TO MAINTAIN ALL TRAFFIC SIGNAL EQUIPMENT, AND LADOT WILL OPERATE AND TIME THE SIGNALS.</p>
-<h4>T17 INSTALL A __ ARROW ON 12-INCH CIRCULAR GREEN/YELLOW/RED LENS.</h4>
-<p>T18 PROTECTION REQUIRED FOR ALL ABOVE GROUND CONDUITS TO AVOID TRIPPING. COVER WITH SECURELY PLACED 3/8-INCH THICK, 3-FEET MINIMUM WIDTH PLYWOOD BOARD OR APPROVED EQUIVALENT.</p>
-<p>T19 CONTRACTOR TO INSTALL PEDESTRIAN PUSHBUTTON AT THE EDGE OF THE PLATFORM AT HEIGHT OF 3-FEET TO FACILITATE ACCESS TO PUSHBUTTON.</p>
-<p>T20 S11RAP 2-INCH CONDUIT TO EXISTING POLE FOR ROUTING OF TEMPORARY CABLES/WIRES.</p>
-<p>T21 INSTALL/REMOVE STRIPING AND PAVEMENT MARKINGS PER WORKSITE llRAFFIC CONTROL PLAN (WTCP) WORK AREA --. CONTRACTOR TO CONTACT LADOT TEMPORARY TRAFFIC MANAGEMENT AT (213) 972-5968 AT LEAST FIFTEEN (15) DAYS PRIOR TO PERFORMING WORK.</p>
-<p>T22 llRAFFIC SIGNAL EQUIPMENT SHOWN SHALL BE POSITIONED AND DISPLAYED IN CONFORMANCE WITH THE APPUCAIBLE PHASE OF THE WORKSITE TRAFFIC CONTROL PLAN (WTCP). SEE WTCP WORK AREA -- FOR INSTALLATION/REMOVAL OF SIGNS, STRIPING, AND llRAFFIC CONTROL DEVICES.</p>
-<p>T23 CONTRACTOR TO INSTALL _ -FEET WIDE TEMPORARY A.C. RAMP WITH 3-INCH PVC DRAIN PIPE TO CONFORM TO ADA REQUIREMENTS.</p>
-<p>T24 AT THE CONCLUSION OF CONSTRUCTION, THE CONTIRACTOR SHALL RESTORE llRAFFlC SIGNAL AND STRIPING TO THE ORIGINAL EXISTING CONDITIONS PRIOR TO START OF CONSTRUCTION.</p>
-<p>T25 CONTRACTOR SHALL CONTACT THE llRAFFIC CONSULTANT FOR ANY PROBLEMS ENCOUNTERED IN THE FIELD DURING CONSTRUCTION. THE llRAFFIC CONSULTANT SHALL CONTACT THE LADOT TEMPORARY llRAFFIC MANAGEMENT OPERATIONS DIVISION AT (213) 972-5868 FOR RESOLUTION OR SIGNAL RELATED CONSTRUCTION PROBLEMS.</p>
-<p>T26 REMOVE EXISTING SERVICE WIRES AND FUSE. INSTALL A 60-AMP FUSE IN AN IN-LINE WATERPROOF FUSE HOLDER IN THE SERVICE PULUBOX PER LADOT STO. DWG. NO. S-79.8/79.9. INSTALL 3-#6 SERVICE WIRES TO CONTROULER VIA OVERHEAD AS SHOWN ON THE PLAN.</p>
-<p>T27 CONTRACTOR SHALL KEEP TRAFFIC SIGNAL INDICATIONS FREE OF VISUAL OBSTRUCTIONS DURING THIS CONSTRUCTION STAGE.</p>
-<p>T28 CONTRACTOR SHALL MAINTAIN THE LINE OF SIGHT VISIBILITY OF VEHICLE HEADS AND PEDESTRIAN HEADS ABOVE THE FENCE LINE.</p>
-<p>T29 CONTRACTOR TO MAINTAIN VIDEO CAMERA AND FIBER/CAIBUES AT ALL TIMES DURING CONSTRUCTION. CONTACT LADOT COMMUNICATION ENGINEER AT (213) 978-0150 BEFORE STARTING WORK ON VIDEO FACILITIES.</p>
-<p>T30 RELOCATE EXISTING STREET-NAME SIGNS FROM REMOVED STANDARDS TO THE PROPOSED TEMPORARY STANDARDS.</p>
-<h4>'IIQEQ ctMEBA I 'IP$ I FIBER oe:oc I 'IIQEO FIBER WQRK</h4>
-<p>CM 1 THE EXACT NUMBER OF DETECTOR ZONE SIZES AND PATTERNS TO BE DETERMINED IN THE FIELD.</p>
-<p>CM2 INSTALL COAXIAIL/POWER CAIBLE-SIAMESE RG-59U (TWO CONDUCTOR AND ONE COAXIAL CAIBLE) FROM CONTROULER TO EACH VIDEO DETECTOR CAMERA VIA A BELL BOX MODULE (COIL EXCESS CABLE IN THE BELL BOX MODULE).</p>
-<p>CM3 THE COAXIAL/POWER CABLE SHALL ENTER THE POLE THROUGH THE POLE CAP, FEED THROUGH THE STREET LIGHT TO THE CONTROULER. AN OPENING SHALL BE MADE AT THE LOWER END OF THE CAP IN ORDER TO ALLOW THE LEAST AMOUNT OF WATER ENTERING THE POLE, EPOXY SHALL BE USED TO SEAL THE HOLE AS NEEDED. SEE DETAIL _.</p>
-<p>CM4 INSTALL WATEC MODEL WAT-300D VIDEO DETECTOR CAMERA AND BELL BOX MODULE ON AN EXISTING STREET LIGHT POLE. SEE DETAIL _.</p>
-<p>CM5 REMOVE llRAFFICON VIDEO IMAGE PROCESSOR.</p>
-<p>CM6 REMOVE VIDEO DETECTOR CAMERA AND BELL BOX MODULE.</p>
-<p>CM7 INSTALL ITERIS VIDEO DETECTION SYSTEM (VDS). CONTACT LADOT COMMUNICATION ENGINEER AT (213) 978-0150 PRIOR TO PURCHASE FOR VDS SPECIFICATIONS. INSTALL VDS CAMERA ON LUMINAIRE ARM. - VDS EQUIPMENT UST: • 1 - 17" RACK MOUNT LCD MONITOR DRAWER • 1 - VANTAGE EDGE 2, DUAL VIDEO PROCESSORS • 1 - RZ-4 ADVANCED WDR VIDEO CAMERA</p>
-<p>CM8 CONFIGURE VIDEO DETECTION ZONE(S) AS SHOWN.</p>
-<p>CM9 INSTALL OPTELLECOM 9225DT-ST-SM IN 352 CABINET WITH COMPLETE STAND ALONE CHASSIS AND POWER SUPPLY. INSTALL OPTEULECOM 9221DR-ST-SM IN THE COMMUNICATION HUB AT (FIRE STATION _). CONTACT LADOT COMMUNICATION ENGINEER AT (213) 978-0150 FOR ACCEPTANCE OF MATERIALS AND EQUIPMENT SPECIFICATIONS PRIOR TO PURCHASE.</p>
-<p>CM10 CONTIRACTOR SHALL CONTACT LADOT COMMUNICATION ENGINEER THREE (3) WORKING DAYS PRIOR TO CONSTRUCTION AT (213) 978-0150 TO COORDINATE AND REVIEW THE INSTALLATION AND SPLICE PROCEDURE FOR FIBER OPTIC AND VIDEO FIBER CABLES.</p>
-<p>CM11 INSTALL A FIBER OPTIC PATCH PANEL (RACK MOUNT TYPE) INSIDE CONTROULER CAIBINET AND TERMINATE ALL FIBERS INSIDE PATCH PANEL USING "ST" TYPE OUTPUT CONNECTOR. INSTALL FIVE FEET (5') QTY. TWO (2) "ST-ST" SM FIBER JUMPER FROM PATCH PANEL TO OPTICAL VIDEO TX/RX MODULE. (1 AT CAMERA LOCATION, 1 AT COMMUNICATION HUB)</p>
-<p>CM12 INSTALL COHU MODEL 3965-5100-PEDD CCTV WITH ER3960 SHAFT. PROVIDE 5-YEAR COHU CCTV WARRANTY. INSTALL COHU CA297E CAMERA CAIBLE FROM CAMERA TO CONTROLLER CAIBINET. INSTALL COHU 7411444-001 3-INCH EXTENSION BRACKET WITH THE NEW CAMERA. CONTRACTOR SHALL PROVIDE ALL NECESSAIRY CAIBLE AND CONNECTORS TO ENSURE A PROPERLY FUNCTIONING CCTV (VIDEO) SYSTEM. CONTACT LADOT COMMUNICATION ENGINEER AT (213) 978-0150 FOR ACCEPTANCE OF VIDEO MATERIALS AND EQUIPMENT SPECIFICATIONS PRIOR TO PURCHASE.</p>
-<p>CM13 INSTALL ALL NECESSARY AUXILIAIRY EQUIPMENT IN 35_ CABINET TO ENSURE PROPERLY FUNCTIONING CCTV (VIDEO) SYSTEM. CONTACT LADOT COMMUNICATION ENGINEER AT (213) 978-0150 FOR ACCEPTANCE OF MATERIALS AND EQUIPMENT SPECIFICATIONS PRIOR TO PURCHASE.</p>
-<p>CM14 TERMINATE ALL FIBER USING GATOR PATCH MODEL FIBER CONNECTION FCP12530-76-0 OR SIMILAR. ALL FIBER CONNECTION SHALL BE 'ST' TYPE. FUSION SPLICE GATOR PATCH OR SIMILAR TO EXISTING FIBER INSIDE DOUBLE DEEP PULUBOX NEAR CONTROLLER CAIBINET. CONTACT LADOT COMMUNICATION ENGINEER AT (213) 978-0150 FOR ACCEPTANCE OF MATERIAL AND EQUIPMENT SPECIFICATIONS PRIOR TO PURCHASE.</p>
-<h4>NQJES BfJ OW CQNQUCJOB SCHEDYLE</h4>
-<p>CONDSCH 1 EX - EXISTING</p>
-<p>CONDSCH 2 • FOR EXISTING CONDUIT RUNS DESIGNATED WITH AN "•" (AIBOVE), THE CONDUCTOR SHALL ADD/INSTALL NEW CONDUCTORS/CAIBUES AND PROTECT AND MAINTAIN ALL EXISTING CONDUCTORS/CAIBUES.</p>
-<h4>NQJES BfJ OW SIQNtL- SJANPtBP SCHEDYLE</h4>
-<p>STOSCH 1</p>
-<p>STOSCH 2</p>
-<p>STOSCH 3</p>
-<p>STOSCH 4</p>
-<p>• EXISTING</p>
-<h4>** PER LADOT STD. DWG. NO. S-52.1.6, SIGNED NOVEMBER, 2015.</h4>
-<p>••• FOR REFERENCE ONLY; SEE STREET LIGHTING SHEET.</p>
-<h4>- SPECIAL FOUNDATION MAY BE REQUIRED, REFER TO NOTE -·</h4>
-<h4>"' ~</h4>
-<h4>lii</h4>
-<p>~ C</p>
-<h4>lii</h4>
-<h4>oi " z "' Iii a ' ~ C</h4>
-<h4>z 0 - I-</h4>
-<h4>Q. - 0:: u "' "' C</h4>
-<h4>0 - "' - &gt; "' 0:: C&gt;g</h4>
-<h4>SUBMITTED----- 20 - I</h4>
-<h4>Transportation Engineer</h4>
-<h4>PR£VIOUS R£WSl0N OCT. 2022</h4>
-<h4>REXXlM __ •_EN_DED_,_ ---------------20_-_ 1-N'-PROIIED----~~~~====--·-O_-_</h4>
-<p>Senior Transportation Engineer Principal Transportation Engineer AS BUILT an" OF LOS ANGELES """'., 1,..,,1at1on,____ DEPAR1MENT OF 1RANSPORTA110N CONNIE LLANOS, Interim General Manager i.:::LADOT=..:'":'pecto:::r.:.======-l'"ll!ll.------------------------1</p>
-<h4>CondlUon M Of:------</h4>
-<h4>LADOT Engineer:</h4>
-<h4>Dlatrfct:</h4>
-<h4>Thomas Gulde .......... AB.D REF1</h4>
-<h4>PGE GR</h4>
-<h4>STANDARD N07ES I Project No._</h4>
-<p>NOTICE: F PLAN HAS NOT BEEN IIPLEMENTED WITHN TMJ (2) Y£MS OF lHE lflPRO't'AL l:MlE, IT IIJST IE RESlalmED Tt&gt; LAOOT SIGNAL DESIGN SECTION FOR REVEW Ml&gt; APPRO't'AI...</p>
-<h4>u ~ t; ii: " ~ ~</h4>
-<h4>u 0 z ~ ~ :ii F 0 ~</h4>
-<p>I I I I I I</p>
-<p>I I I I I ~ I I I I I</p>
-<h4>" 0:: z 0 0:: i ~ ~ "' z ~ ~ "' "</h4>
-<h4>C "' Q. i!i ...J i ::, 0:: 0:: "' "'</h4>
-<p>C 1/1 C Ii:</p>
-<p>I SCALES :i--,.-.;:~ ..... ;~a...· -~::-----: SHEET - OF - I INDEX NUMBER L----\~,.:.:'9'~~.~~,&lt;-l _____________________________________________________________________ _.. _____ _.,_ ___________ ...._ _______________ .._ ____________________ &amp;-______ __,</p></div>
-<div class="kw">Keywords: signal, ladot, contractor, install, construction, traffic, contact, existing, prior, equipment, temporary, video, street, feet</div>
+<div class="pclean"><p class="psum"><b>LADOT Standard Notes for Signal Design Plans (Sheet 2 of 2): Miscellaneous, Temporary Traffic Signal, Video and Fiber Work, Schedule Notes.</b> Sheet 2 of 2 of the LADOT standard notes library for traffic signal plans (revised March 2023). It lists numbered fill-in notes for miscellaneous construction items, temporary traffic signals, video camera, video detection and fiber optic work, plus footnotes for the conductor schedule and the signal standard schedule.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Document layout: A text-only sheet with no drawing views. It is the second sheet of the LADOT standard notes library, in columns of numbered note blocks under underlined headings. Headings left to right are MISCELLANEOUS (M1 to M32, including M19a and M19b), TEMPORARY TRAFFIC SIGNAL (T1 to T30), VIDEO CAMERA / VDS / FIBER OPTIC / VIDEO FIBER WORK (CM1 to CM14), NOTES BELOW CONDUCTOR SCHEDULE (CONDSCH 1 and 2) and NOTES BELOW SIGNAL STANDARD SCHEDULE (STDSCH 1 to 4). Blanks (underscores) are fill-ins for the designer. The full text of every note is in the notes field.</p>
+<p>Title block and revision block: City of Los Angeles Department of Transportation, Connie Llanos, Interim General Manager. Title STANDARD NOTES. File name STDNOTES.DWG. Intersection No. and Project No. are blank dashes. Sheet and index number fields are blank (SHEET - OF -). Signature lines for Submitted (Transportation Engineer), Recommended (Senior Transportation Engineer) and Approved (Principal Transportation Engineer) are blank. An AS BUILT box (date of installation, LADOT inspector, condition as of, LADOT engineer, district, Thomas Guide PGE GR, references FIELD and REF1) is blank. A large diagonal stamp reads SHEET 2 OF 2 REV. MAR. 2023 with the path G:\Signal_Design_STDS\Standard Notes\General\STDNOTES.dwg. PREVIOUS REVISION OCT. 2022. A notice reads: If plan has not been implemented within two (2) years of the approval date, it must be resubmitted to LADOT Signal Design Section for review and approval. A scales box reads HORIZ. 1&quot;= and VERT. 1&quot;=. A right-hand revision strip has blank columns for Timing, District, Geometric, ATSAC and Metro Rail, Supervisor, Designer, Sr. Drafting, Drafting, Field and Base with date and by fields, and a revision description table (No., Revision Description, Div./Dist. Engr., Date). Footer: (LADOT Revised 6/04) (Drafting Std. 11/04).</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>MISCELLANEOUS</h5>
+<p>M1. Request for installation of access ramps sent to Bureau of Street Services.</p>
+<p>M2. Install (modified) Case _ curb ramp per Department of Public Works Std. Dwg. No. S-442-5. All curb ramps shall have truncated domes on the &quot;W&quot; portions.</p>
+<p>M3. Install 4-inch thick concrete slab in unpaved area, flush with top of curb and edge of sidewalk.</p>
+<p>M4. This plan assumes completion of _________, Project No. ____.</p>
+<p>M5. Contact U.S. Postal Service at (800) 275-8777 for relocation of mailbox.</p>
+<p>M6. Contact Bureau of Street Services at (213) 847-6000 for relocation of newspaper rack(s).</p>
+<p>M7. Contractor to install concrete landing area as shown as per Standard Specifications for Public Works Construction, Section 303-5.</p>
+<p>M8. Contractor shall inform MTA Stops and Zones representative at (213) 922-5185 at least five (5) working days prior to installation of landing area in accordance with ADA requirements as shown.</p>
+<p>M9. Install the undirectional in-roadway LED warning lights at the center of ladder markings as shown, 1-foot from outside edge of crosswalk line. The LED in-roadway lights are to flash synchronously with the flashing beacons. The flashing patterns shall be per Standard Plan S-55.0.</p>
+<p>M10. Request for tree trimming has been sent to the Bureau of Street Services.</p>
+<p>M11. Contractor to remove existing tree. Contractor to remove and replace all off-grade sidewalk in vicinity of removed tree in conjunction with the installation of the traffic signal equipment. Coordinate with Street Tree Division at (213) 847-3077.</p>
+<p>M12. Contractor shall trim tree(s) and/or foliage to assure adequate visibility of traffic signal indications. Notify Bureau of Street Services, Urban Forestry Division at (213) 485-5675 five (5) working days prior to trimming for a representative to inspect and issue the necessary permits.</p>
+<p>M13. Contractor to remove tree. Prior to the removal of any street tree, a board report must be submitted and approved by the Board of Public Works. A copy of the permit is required to be on the job site while the tree work is taking place.</p>
+<p>M14. Contractor shall observe all industry safety standards, particularly Section 2946 and 2948 of Title 8 of Cal-OSHA regarding work near overhead lines.</p>
+<p>M15. Contractor shall notify MTA at (213) 922-4632 five (5) working days prior to construction to coordinate the relocation of the bus stop.</p>
+<p>M16. Install preformed vehicle detector loop(s) per LADOT Std. Dwg. No. S-70.1E. Loops shall be attached to top of reinforced bars.</p>
+<p>M17. Install three (3) 1.5-inch conduits from pullbox to entry slab. The lead-in hoses of each pair of loops in the same traveled lane shall be installed in a 1.5-inch conduit.</p>
+<p>M18. Install __-feet width concrete sidewalk per Department of Public Works Std. Dwg. No. S-444-0. Contractor shall obtain all applicable permits necessary for construction of sidewalk.</p>
+<p>M19a. Contractor shall contact LADOT Signal Design Section at (213) 928-9640 for any signal related problems encountered during construction.</p>
+<p>M19b. Contractor shall contact LADOT Complete Streets Design Section at (213) 928-9633 for any signal related problems encountered during construction.</p>
+<p>M20. Contractor shall contact the traffic consultant for any problems encountered during construction. The traffic consultant shall contact LADOT Signal Section at (213) 928-9640 for resolution of signal related construction problems.</p>
+<p>M21. Contractor shall furnish and install battery backup system per the latest approved specifications including 352 cabinet, foundation and conduit. See LADOT Specification 92-066-02 (or latest) and Section 4-A for 352 cabinet installation. Contact LADOT Signal System Supervisor at (213) 847-2943 for specifications.</p>
+<p>M22. Traffic consultant shall be responsible for identifying and resolving all interconnect (I/C), video fiber (V.F.) and fiber optic (F.O.) discrepancies during the design phase and installation of traffic signal equipment.</p>
+<p>M23. Traffic consultant shall be responsible for identifying and resolving substructure conflict with proposed foundations during the design and implementation phases, subject to LADOT approval.</p>
+<p>M24. Contractor shall contact LADOT Meter Planning at (213) 473-8270 within ten (10) working days prior to the start of construction to arrange for the installation/removal of parking meter(s)/parking stall(s) by LADOT.</p>
+<p>M25. The proposed foundation shall be initially hand-dug by the contractor to verify the location of the existing utilities. The contractor shall exercise due caution during the excavation procedure to protect subject utilities.</p>
+<p>M26. All existing sanitary sewer and storm drain maintenance holes within the work area that will remain in operation after construction shall be adjusted to grade.</p>
+<p>M27. Unless otherwise noted, the contractor shall adjust water services and water gate valves to grade after notifying and coordinating with DWP - WS.</p>
+<p>M28. Contractor shall relocate and/or adjust street lighting pullbox, traffic signal pullbox, CATV pullbox, fire hydrant, electrolier, DWP-PS vent, DWP-PS maintenance hole, DWP-WS maintenance hole, water meter, DWP-PS pole, water valve cover and street lighting pole to grade. Contractor shall obtain all applicable permits necessary for relocation of ______.</p>
+<p>M29. Install pedestrian barricade per LADOT Std. Dwg. No. S-454.2.</p>
+<p>M30. See Bureau of Engineering, Department of Public Works civil plans for all civil related work.</p>
+<p>M31. A temporary signal pole shall be used when the distance between the proposed and existing foundation is less than 5-feet.</p>
+<p>M32. Contractor to provide a temporary traffic signal system at the intersection during signal construction. Contractor to provide a plan for temporary signalization to the LADOT Temporary Traffic Management Section (213) 972-5968 and traffic signal inspector (213) 485-1071, and obtain approval of the plan a minimum of five days prior to the start of construction. Contractor is responsible to maintain all traffic signal equipment, and LADOT will operate and time the signals.</p>
+<h5>TEMPORARY TRAFFIC SIGNAL</h5>
+<p>T1. Notify LADOT Temporary Traffic Management Section at (213) 972-5968 and LADOT traffic signal inspector at (___) ___-____ at least five (5) days prior to start of construction.</p>
+<p>T2. Temporary signal platform shall be placed as shown with a minimum 2-feet clearance from the face of the platform to the edge of the traveled roadway (15-feet clearance if not protected by crash cushion or behind K-rail or curb). Overhead cables shall maintain a 20-feet vertical clearance above the traveled roadway and 12-feet clearance over the sidewalk. Coil an additional 25-feet length of 12-feet clearance over the sidewalk. Coil an additional 25-feet length of overhead cable at the temporary platform signal to facilitate change in position. Alternate locations of the temporary signal equipment, based on construction conditions, requires approval of the LADOT traffic signal inspector.</p>
+<p>T3. If temporary street lighting is required by LABSL, contractor to provide CD954 on platforms as needed per LADOT Standard Dwg. No. S-57.2D, or S-57.2C to support the overhead connection as shown. Temporary street lighting system shall be approved by LABSL. Location shown for placement of the temporary signal platforms are approximate. The exact location for placement will be confirmed by the LADOT Temporary Traffic Management at (213) 972-5968.</p>
+<p>T4. Field modification of controller required. Notify the LADOT traffic signal inspector at (___) ___-____ fifteen (15) working days prior to start of construction to obtain a new controller timing package. LADOT will make all controller modifications in the existing controller cabinet.</p>
+<p>T5. Relocate 35_ cabinet, ATSAC controller and auxiliary equipment. All relocated equipment shall be undamaged at the conclusion of the relocation as determined by the traffic signal inspector. Damaged equipment shall be replaced with new equipment at the contractor&#x27;s expense. Contractor to relocate and install controller on F-___ foundation.</p>
+<p>T6. Contractor to maintain traffic signal equipment and LADOT to operate and time intersection. For traffic signal emergency, call LADOT Emergency Radio Room at (818) 752-5112.</p>
+<p>T7. Remove existing DLC. Install new DLC and re-route to controller via overhead as shown on the plan.</p>
+<p>T8. Disable and protect existing loop(s) for the duration of this construction stage.</p>
+<p>T9. Contractor shall protect conduit in place. If conduits/cables are damaged during construction, new conduit/cable shall be installed at contractor&#x27;s expense.</p>
+<p>T10. Disconnect vehicle detector loop(s) in controller. Contractor shall notify traffic signal inspector at (213) 220-6597 ten (10) working days prior to start of construction. LADOT will make all modifications in the existing controller cabinet.</p>
+<p>T11. Cover vehicle head with detachable head cover (per LADOT Spec. No. 92-086-03) and de-energize as directed by traffic signal inspector.</p>
+<p>T12. Cover green and yellow left arrow with detachable head cover (per LADOT Spec. No. 92-086-03) and de-energize as directed by traffic signal inspector.</p>
+<p>T13. Cover pushbutton/APS and de-energize as directed by traffic signal inspector.</p>
+<p>T14. Uncover vehicle head and energize as directed by traffic signal inspector.</p>
+<p>T15. Uncover green and yellow left arrow and energize as directed by traffic signal inspector.</p>
+<p>T16. Uncover pushbutton/APS and energize as directed by traffic signal inspector.</p>
+<p>T17. Install a _____ arrow on 12-inch circular green/yellow/red lens.</p>
+<p>T18. Protection required for all above ground conduits to avoid tripping. Cover with securely placed 3/8-inch thick, 3-feet minimum width plywood board or approved equivalent.</p>
+<p>T19. Contractor to install pedestrian pushbutton at the edge of the platform at height of 3-feet to facilitate access to pushbutton.</p>
+<p>T20. Strap 2-inch conduit to existing pole for routing of temporary cables/wires.</p>
+<p>T21. Install/remove striping and pavement markings per worksite traffic control plan (WTCP) work area --. Contractor to contact LADOT Temporary Traffic Management at (213) 972-5968 at least fifteen (15) days prior to performing work.</p>
+<p>T22. Traffic signal equipment shown shall be positioned and displayed in conformance with the applicable phase of the worksite traffic control plan (WTCP). See WTCP work area -- for installation/removal of signs, striping, and traffic control devices.</p>
+<p>T23. Contractor to install __-feet wide temporary A.C. ramp with 3-inch PVC drain pipe to conform to ADA requirements.</p>
+<p>T24. At the conclusion of construction, the contractor shall restore traffic signal and striping to the original existing conditions prior to start of construction.</p>
+<p>T25. Contractor shall contact the traffic consultant for any problems encountered in the field during construction. The traffic consultant shall contact the LADOT Temporary Traffic Management Operations Division at (213) 972-5868 for resolution or signal related construction problems.</p>
+<p>T26. Remove existing service wires and fuse. Install a 60-amp fuse in an in-line waterproof fuse holder in the service pullbox per LADOT Std. Dwg. No. S-79.8/79.9. Install 3-#6 service wires to controller via overhead as shown on the plan.</p>
+<p>T27. Contractor shall keep traffic signal indications free of visual obstructions during this construction stage.</p>
+<p>T28. Contractor shall maintain the line of sight visibility of vehicle heads and pedestrian heads above the fence line.</p>
+<p>T29. Contractor to maintain video camera and fiber/cables at all times during construction. Contact LADOT Communication Engineer at (213) 978-0150 before starting work on video facilities.</p>
+<p>T30. Relocate existing street-name signs from removed standards to the proposed temporary standards.</p>
+<h5>VIDEO CAMERA / VDS / FIBER OPTIC / VIDEO FIBER WORK</h5>
+<p>CM1. The exact number of detector zone sizes and patterns to be determined in the field.</p>
+<p>CM2. Install coaxial/power cable-Siamese RG-59U (two conductor and one coaxial cable) from controller to each video detector camera via a bell box module (coil excess cable in the bell box module).</p>
+<p>CM3. The coaxial/power cable shall enter the pole through the pole cap, feed through the street light to the controller. An opening shall be made at the lower end of the cap in order to allow the least amount of water entering the pole, epoxy shall be used to seal the hole as needed. See detail _.</p>
+<p>CM4. Install Watec model WAT-300D video detector camera and bell box module on an existing street light pole. See detail _.</p>
+<p>CM5. Remove Trafficon video image processor.</p>
+<p>CM6. Remove video detector camera and bell box module.</p>
+<p>CM7. Install Iteris video detection system (VDS). Contact LADOT Communication Engineer at (213) 978-0150 prior to purchase for VDS specifications. Install VDS camera on luminaire arm. VDS equipment list: 1 - 17&quot; rack mount LCD monitor drawer; 1 - Vantage Edge 2, dual video processors; 1 - RZ-4 advanced WDR video camera.</p>
+<p>CM8. Configure video detection zone(s) as shown.</p>
+<p>CM9. Install Optellecom 9225DT-ST-SM in 352 cabinet with complete stand alone chassis and power supply. Install Optellecom 9221DR-ST-SM in the communication hub at (Fire Station __). Contact LADOT Communication Engineer at (213) 978-0150 for acceptance of materials and equipment specifications prior to purchase.</p>
+<p>CM10. Contractor shall contact LADOT Communication Engineer three (3) working days prior to construction at (213) 978-0150 to coordinate and review the installation and splice procedure for fiber optic and video fiber cables.</p>
+<p>CM11. Install a fiber optic patch panel (rack mount type) inside controller cabinet and terminate all fibers inside patch panel using &quot;ST&quot; type output connector. Install five feet (5&#x27;) qty. two (2) &quot;ST-ST&quot; SM fiber jumper from patch panel to optical video TX/RX module. (1 at camera location, 1 at communication hub)</p>
+<p>CM12. Install Cohu model 3965-5100-PEDD CCTV with ER3960 shaft. Provide 5-year Cohu CCTV warranty. Install Cohu CA297E camera cable from camera to controller cabinet. Install Cohu 7411444-001 3-inch extension bracket with the new camera. Contractor shall provide all necessary cable and connectors to ensure a properly functioning CCTV (video) system. Contact LADOT Communication Engineer at (213) 978-0150 for acceptance of video materials and equipment specifications prior to purchase.</p>
+<p>CM13. Install all necessary auxiliary equipment in 35_ cabinet to ensure properly functioning CCTV (video) system. Contact LADOT Communication Engineer at (213) 978-0150 for acceptance of materials and equipment specifications prior to purchase.</p>
+<p>CM14. Terminate all fiber using Gator Patch model fiber connection FCP12530-76-0 or similar. All fiber connection shall be &#x27;ST&#x27; type. Fusion splice Gator Patch or similar to existing fiber inside double deep pullbox near controller cabinet. Contact LADOT Communication Engineer at (213) 978-0150 for acceptance of material and equipment specifications prior to purchase.</p>
+<h5>NOTES BELOW CONDUCTOR SCHEDULE</h5>
+<p>CONDSCH 1. EX - Existing.</p>
+<p>CONDSCH 2. * For existing conduit runs designated with an &quot;*&quot; (above), the conductor shall add/install new conductors/cables and protect and maintain all existing conductors/cables.</p>
+<h5>NOTES BELOW SIGNAL STANDARD SCHEDULE</h5>
+<p>STDSCH 1. * Existing.</p>
+<p>STDSCH 2. ** Per LADOT Std. Dwg. No. S-52.1.6, signed November, 2015.</p>
+<p>STDSCH 3. *** For reference only; see street lighting sheet.</p>
+<p>STDSCH 4. ^ Special foundation may be required, refer to Note _.</p></details></div>
+<div class="kw">Keywords: </div>

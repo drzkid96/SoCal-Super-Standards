@@ -6,7 +6,7 @@ description: "Caltrans DIB 89-02 (February 7, 2022). Does not set travel lane wi
 <div><b>Issued</b> February 7, 2022</div>
 <div><b>Status</b> In effect. Effective immediately on issue. Projects already in development follow HDM Index 82.5.</div>
 <div><b>Supersedes</b> Supersedes DIB 89-01 (May 3, 2018). Inside a project segment that uses DIB 94, DIB 94 governs; DIB 89-02 applies where DIB 94 is silent.</div>
-<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/dib-89-02-final-a11y.pdf">Caltrans PDF</a></div>
+<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/dib-89-02-final-a11y.pdf">Caltrans official copy</a></div>
 </div>
 
 ## Where it applies

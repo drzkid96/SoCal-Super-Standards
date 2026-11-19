@@ -6,7 +6,7 @@ description: "Caltrans DIB 93 (December 23, 2020). 12 ft standard on evacuation 
 <div><b>Issued</b> December 23, 2020</div>
 <div><b>Status</b> In effect.</div>
 <div><b>Supersedes</b> New bulletin; supplements the HDM.</div>
-<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/signed-dib-93-evacuation-route-a11y.pdf">Caltrans PDF</a></div>
+<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/signed-dib-93-evacuation-route-a11y.pdf">Caltrans official copy</a></div>
 </div>
 
 ## Where it applies

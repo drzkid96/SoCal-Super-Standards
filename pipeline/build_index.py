@@ -73,7 +73,7 @@ for f in glob.glob("data/docs/*__*.json"):
         if not url:
             continue
         cl = p.get("clean") or {}
-        notes_by_url[url] += "\n" + (cl.get("notes") or "")
+        notes_by_url[url] += "\n" + (cl.get("notes") or "") + "\n" + (cl.get("description") or "")
         raw_by_url[url] += "\n" + (p.get("text") or "")
 
 # ------------------------------------------------------------------ tag every item

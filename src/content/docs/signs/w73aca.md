@@ -34,3 +34,8 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c50">CA MUTCD 2026 &sect;2C.50</a> RIGHT (LEFT) LANE FOR EXIT ONLY Sign (W9-7)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c103ca">CA MUTCD 2026 &sect;2C.103(CA)</a> Safety Corridor Sign (SW33(CA))</li></ul>
+
+<!-- ladot -->
+## In LADOT documents
+
+- [MPP 531, page 126 - S-491.0 Advance Turn Lanes](/SoCal-Super-Standards/ladot/mpp-531/09-drawings-s-485-to-s-493/#p126)

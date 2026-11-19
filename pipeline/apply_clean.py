@@ -16,7 +16,7 @@ for f in sorted(glob.glob("data/clean/*.json")):
 json.dump(U, open("data/clean.json", "w"), indent=0)
 # pass 2: full sheet descriptions and fully interpreted notes for scanned sheets, read from the images
 P2 = {}
-for f in sorted(glob.glob("data/clean2/*.json")) + sorted(glob.glob("data/clean3/*.json")):
+for f in sorted(glob.glob("data/clean2/*.json")) + sorted(glob.glob("data/clean3/*.json")) + sorted(glob.glob("data/clean4/*.json")):
     for r in json.load(open(f)):
         P2[(r["id"].split("|")[0], int(r["page"]))] = r
 
@@ -29,6 +29,8 @@ def notes_html(t):
             out.append(f"<p>{esc(line)}</p>")
     return "\n".join(out)
 
+SIGNS = set(json.load(open("public/data/signs-index.json"))) if os.path.exists("public/data/signs-index.json") else set()
+SIGN_RE = re.compile(r"(?<![A-Za-z0-9-])((?:[RWSDGMOE]|SW|SR|SG)\d{1,3}(?:-\d{1,3})?[A-Za-z]{0,2}(?:\(CA\))?)(?![A-Za-z0-9-])")
 OV = json.load(open("data/dwg_overrides.json")) if os.path.exists("data/dwg_overrides.json") else {}
 n_pages = n_md = 0
 for f in sorted(glob.glob("data/docs/*__*.json")):
@@ -73,6 +75,14 @@ for f in sorted(glob.glob("data/docs/*__*.json")):
             if len(u.get("sheets", [])) <= 1 or nd or sorted(grp) != sorted(x.get("page") for x in u.get("sheets", [])):
                 p["clean"]["title"] = r2.get("detail_title") or r2.get("title") or p["clean"]["title"]
                 p["clean"]["summary"] = r2.get("summary") or p["clean"]["summary"]
+        txt = (p["clean"].get("description") or "") + " " + (p["clean"].get("notes") or "")
+        found = []
+        for m in SIGN_RE.findall(txt):
+            for c in (m, m.upper(), m[:-1] + m[-1].upper() if m.endswith("p") else m):
+                if c in SIGNS and c not in found:
+                    found.append(c); break
+        if found:
+            p["sign_codes"] = list(dict.fromkeys((p.get("sign_codes") or []) + found))
         if p.get("drawings") and f'{slug}|{p["drawings"][0]}' in OV.get("_titles", {}):
             p["clean"]["title"] = OV["_titles"][f'{slug}|{p["drawings"][0]}']
         n_pages += 1

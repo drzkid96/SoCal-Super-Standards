@@ -6,7 +6,7 @@ description: "Caltrans DIB 81-03 (November 8, 2024). No numeric widths. Restripi
 <div><b>Issued</b> November 8, 2024</div>
 <div><b>Status</b> In effect.</div>
 <div><b>Supersedes</b> Supersedes DIB 81-02.</div>
-<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/dib-81-03-a11y.pdf">Caltrans PDF</a></div>
+<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/dib-81-03-a11y.pdf">Caltrans official copy</a></div>
 </div>
 
 ## Where it applies

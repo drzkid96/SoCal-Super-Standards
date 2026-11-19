@@ -6,7 +6,7 @@ description: "LADOT CSC Exclusive Pedestrian Phase (January 2017). Scramble phas
 <div><b>Issued</b> January 2017</div>
 <div><b>Status</b> In effect. Listed in the LADOT Technical Reference Library.</div>
 <div><b>Supersedes</b> Not stated.</div>
-<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/2022-08/exclusive-pedestrian-phase-policy-design-guide-final-2017.pdf">LADOT PDF</a></div>
+<div><b>Official copy</b> <a href="https://ladot.lacity.gov/sites/default/files/2022-08/exclusive-pedestrian-phase-policy-design-guide-final-2017.pdf">LADOT official copy</a></div>
 </div>
 
 ## When to consider it (all three)

@@ -400,6 +400,63 @@ LA_REF = [
  ("Drafting Standards for Striping and Signal Plans (Final Drafting Manual)", "February 2005", "https://ladot.lacity.gov/sites/default/files/documents/final-drafting-manual.pdf", "Line types, weights, text, title blocks"),
 ]
 
+
+# ------------------------------------------------------------------ accessibility (ADA / PROWAG)
+AD = [
+ dict(slug="prowag-2023", num="PROWAG", title="Public Right-of-Way Accessibility Guidelines (36 CFR 1190)", date="August 8, 2023",
+      url="https://www.access-board.gov/prowag/", agency="U.S. Access Board",
+      status="Final guidelines. Enforceable only where adopted as a standard: U.S. DOT adopted PROWAG without modification for new construction and alterations of transit stops in the public right-of-way, effective January 17, 2025 (DOT deferred enforcement to March 20, 2025). The Department of Justice has not adopted it, so for other public right-of-way work it is the best available technical guidance rather than an enforceable standard.",
+      supersedes="Replaces the 2011 proposed guidelines and the 2013 shared use path supplement as the Access Board's guidance. Does not replace the 2010 ADA Standards where those apply.",
+      area="Sidewalks, curb ramps, detectable warnings, accessible pedestrian signals, on-street parking, transit stops",
+      topics=["accessibility", "crosswalks", "transit", "curb-parking-loading"],
+      kw="PROWAG, public right-of-way accessibility guidelines, ADA, detectable warning surface, truncated domes, accessible pedestrian signal, APS, on-street accessible parking, access aisle, transit stop accessibility, 36 CFR 1190",
+      body=lambda: f"""
+## Status (checked {CHECKED})
+
+- The Access Board published the final guidelines on August 8, 2023 (88 FR 53604).
+- U.S. DOT adopted them, without changes, as its ADA standard for new construction and alterations of transit stops in the public right-of-way. The rule (89 FR 102800, December 18, 2024) took effect January 17, 2025, and DOT deferred enforcement to March 20, 2025.
+- The Department of Justice has not adopted PROWAG for Title II entities generally. For city sidewalks, crossings and curb ramps outside transit stops, PROWAG is the current technical guidance and is widely used as the design basis, while the 2010 ADA Standards remain the adopted standard where they apply.
+
+## Signing and striping items to know
+
+{table(["Item", "PROWAG section", "What it requires"], [
+ ["Detectable warning surfaces", "R305", "Truncated domes in a square or radial grid that contrast visually with the adjacent surface (light-on-dark or dark-on-light), at least 24 in. deep in the direction of travel. Placement on perpendicular, parallel and blended curb ramps follows R305.2."],
+ ["Accessible pedestrian signals", "R209", "Where pedestrian signals are provided at a street crossing, they must include accessible pedestrian signals and pedestrian pushbuttons. The final rule does not list specific alteration triggers: signals follow the same alteration rules as other pedestrian facilities."],
+ ["On-street parking", "R214, R309", "Where on-street parking on a block perimeter is marked or metered, a share of the spaces must be accessible, scaled by the total marked or metered spaces on that block perimeter. Angled or perpendicular accessible spaces need an 8 ft access aisle."],
+ ["Rail crossings", "R305", "Pedestrian at-grade rail crossings inside a street at a crosswalk do not get detectable warnings next to the railway."],
+])}
+
+The table paraphrases the guidelines. Use the official text for design.
+
+## How this relates to other references on this site
+
+- Caltrans curb ramp details: 2026 Standard Plans A88A and A88B (October 19, 2026 edition) and DIB 82-06.
+- U.S. Access Board curb ramp guide: <a href="{BASE}/ada/curb-ramps/">on this site</a>.
+- LADOT on-street placement: <a href="{BASE}/bulletins/ladot-accessible-parking-2017/">Accessible Parking Zones</a> and the blue curb rules on the <a href="{BASE}/ladot/curb-paint/">curb paint page</a>.
+- CA MUTCD 2026 deleted the California pushbutton signs R62A(CA), R62B(CA), R62C(CA) and R62E(CA). Use the federal pushbutton signs in CA MUTCD 2026 instead (see the <a href="{BASE}/bulletins/standards-status/">standards status page</a>).
+"""),
+ dict(slug="ca-accessible-parking-2026", num="CBC 11B (2025)", title="California Building Code Chapter 11B: Accessible Parking Signs", date="Effective January 1, 2026",
+      url="https://www.dgs.ca.gov/BSC/Codes", agency="California Building Standards Commission",
+      status="In effect. The 2025 California Building Standards Code (Title 24, Parts 2 to 12) took effect January 1, 2026.",
+      supersedes="Supersedes the 2022 CBC.",
+      area="Off-street (site) accessible parking signs and markings",
+      topics=["curb-parking-loading", "accessibility"],
+      kw="CBC 11B, accessible parking sign, tow-away sign, International Symbol of Accessibility, van accessible, access aisle, 11B-502, 11B-216.5, disabled parking",
+      body=lambda: f"""
+## Where it applies
+
+Parking lots and structures serving buildings and facilities (off-street). On-street accessible parking is set by the Vehicle Code, the CA MUTCD and local rules (in Los Angeles, LADOT's Accessible Parking Zones); PROWAG R214 is the federal guidance for on-street spaces.
+
+## Key points
+
+- Parking spaces complying with 11B-502 must be identified by signs complying with 11B-502.6 and 11B-502.8 (11B-216.5.1).
+- Signs identifying electric vehicle charging spaces follow 11B-812.8 (11B-216.5.2).
+- The 2025 CBC took effect January 1, 2026. Projects permitted under the 2022 CBC follow that edition.
+
+See the official DSA references for the full sign content, mounting height and pavement marking requirements.
+"""),
+]
+
 # ------------------------------------------------------------------ lane width comparison
 LW_ROWS = [
  ["Through lane, low speed", "10.5 ft (20-35 mph, urban)", "10 ft desirable, 9 ft min (35 mph and below)", "11 ft standard; 10 ft desirable min; 9 ft absolute min; 12 ft max (not speed-based)"],
@@ -426,7 +483,7 @@ description: "{agency} {it["num"]} ({it["date"]}). {(it.get("lane") or it.get("a
 <div><b>Issued</b> {esc(it["date"])}</div>
 <div><b>Status</b> {esc(it["status"])}</div>
 <div><b>Supersedes</b> {esc(it["supersedes"])}</div>
-<div><b>Official copy</b> <a href="{it["url"]}">{esc(agency)} PDF</a></div>
+<div><b>Official copy</b> <a href="{it["url"]}">{esc(agency)} official copy</a></div>
 </div>
 
 '''
@@ -440,6 +497,8 @@ for it in CT:
     page(it, "Caltrans")
 for it in LA:
     page(it, "LADOT")
+for it in AD:
+    page(it, it["agency"])
 
 ct_rows = [[f'<a href="{BASE}/bulletins/{i["slug"]}/"><b>{esc(i["num"])}</b></a>', esc(i["title"]), esc(i["date"]), esc(i["lane"])] for i in CT]
 la_rows = [[f'<a href="{BASE}/bulletins/{i["slug"]}/"><b>{esc(i["title"])}</b></a>', esc(i["date"]), esc(i["area"])] for i in LA]
@@ -460,6 +519,10 @@ Bulletins on the [Caltrans DIB list]({DIB_PAGE}) that set or change lane widths.
 {table(["Bulletin", "Title", "Issued", "Lane width"], ct_rows)}
 
 Related Caltrans design memos: [Bikeway Facility Selection Guidance](https://dot.ca.gov/-/media/dot-media/programs/design/documents/dod-bikeway-selection-memo_06302020_signed-a11y.pdf) (June 30, 2020) and [Complete Streets Decision Document implementation](https://dot.ca.gov/-/media/dot-media/programs/design/documents/csdd-memo20210210finalktyt-mdk--a11y.pdf) (February 11, 2021). The HDM lane width standard itself is Index 301.1.
+
+## Accessibility: ADA and PROWAG
+
+{table(["Reference", "Issued", "Status"], [[f'<a href="{BASE}/bulletins/{i["slug"]}/"><b>{esc(i["title"])}</b></a>', esc(i["date"]), esc(i["status"].split(". ")[0] + ".")] for i in AD])}
 
 ## LADOT signing and striping policy guidance
 
@@ -508,9 +571,9 @@ det = json.load(open("public/data/details.json"))
 det = [i for i in det if i.get("type") != "Bulletin"]
 lookup = json.load(open("public/data/lookup.json"))
 norm = lambda s: re.sub(r"\s+", "", s.upper())
-for it, ag in [(i, "Caltrans") for i in CT] + [(i, "LADOT") for i in LA]:
+for it, ag in [(i, "Caltrans") for i in CT] + [(i, "LADOT") for i in LA] + [(i, i["agency"]) for i in AD]:
     url = f"{BASE}/bulletins/{it['slug']}/"
-    det.append({"src": f"{ag} bulletins", "sg": ag, "type": "Bulletin", "num": it["num"], "title": it["title"], "img": "",
+    det.append({"src": f"{ag} bulletins" if ag in ("Caltrans", "LADOT") else "Accessibility guidance", "sg": ag if ag in ("Caltrans", "LADOT") else "ADA", "type": "Bulletin", "num": it["num"], "title": it["title"], "img": "",
                 "url": url, "topics": it["topics"], "kw": it["kw"], "date": it["date"],
                 "sum": (it.get("lane") or it.get("area", ""))})
     for k in {norm(it["num"]), norm(it["num"].replace("DIB ", "DIB-")), norm("Caltrans " + it["num"])}:
@@ -527,4 +590,4 @@ for k in ["LANEWIDTH", "LANEWIDTHS"]:
         lookup.setdefault(k, []).append(ent)
 json.dump(det, open("public/data/details.json", "w"))
 json.dump(lookup, open("public/data/lookup.json", "w"))
-print("bulletins:", len(CT), "Caltrans,", len(LA), "LADOT")
+print("bulletins:", len(CT), "Caltrans,", len(LA), "LADOT,", len(AD), "ADA")

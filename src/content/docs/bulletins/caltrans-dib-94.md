@@ -6,7 +6,7 @@ description: "Caltrans DIB 94 (January 16, 2024). 10.5 to 12 ft for through and 
 <div><b>Issued</b> January 16, 2024</div>
 <div><b>Status</b> In effect. Effective immediately on issue. Projects already in development follow HDM Index 82.5.</div>
 <div><b>Supersedes</b> Where a project segment uses DIB 94, its standards replace the HDM and DIB 89 standards in that segment (and, through the HDM, DIB 79 design standards). Where DIB 94 is silent, the HDM and DIB 89 still apply.</div>
-<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/dib-94-010224-a11y.pdf">Caltrans PDF</a></div>
+<div><b>Official copy</b> <a href="https://dot.ca.gov/-/media/dot-media/programs/design/documents/dib-94-010224-a11y.pdf">Caltrans official copy</a></div>
 </div>
 
 ## Where it applies

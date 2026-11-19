@@ -61,7 +61,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
   function md(text) {
     // minimal markdown: links, bold, bullets, paragraphs
     let h = text.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-    h = h.replace(/\[([^\]]+)\]\((\/?[^)\s]+)\)/g, (m, t, u) => `<a href="${u}">${t}</a>`);
+    h = h.replace(/\[([^\]]+)\]\((\/?[^)\s]+)\)/g, (m, t, u) => `<a href="${/^(https?:\/\/|\/)/.test(u) ? u : '#'}">${t}</a>`);
     h = h.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     h = h.split(/\n{2,}/).map((p) => /^\s*[-*] /m.test(p)
       ? '<ul>' + p.split('\n').filter((l) => l.trim()).map((l) => '<li>' + l.replace(/^\s*[-*] /, '') + '</li>').join('') + '</ul>'

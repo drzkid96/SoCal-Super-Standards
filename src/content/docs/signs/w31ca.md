@@ -34,3 +34,9 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c24">CA MUTCD 2026 &sect;2C.24</a> DEAD END, NO OUTLET, and ROAD ENDS Signs (W14-1, W14-1a, W14-2, W14-2a, W8-26, and W8-26a)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c73">CA MUTCD 2026 &sect;2C.73</a> Object Markers for Ends of Roadways</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c103ca">CA MUTCD 2026 &sect;2C.103(CA)</a> Safety Corridor Sign (SW33(CA))</li></ul>
+
+<!-- ladot -->
+## In LADOT documents
+
+- [MPP 531, page 102 - S-446.0 Sign Posting for Street Termini](/SoCal-Super-Standards/ladot/mpp-531/07-drawings-s-440-0-to-s-454-2/#p102)
+- [MPP 531, page 103 - •' (S-452.0, S-476.1)](/SoCal-Super-Standards/ladot/mpp-531/07-drawings-s-440-0-to-s-454-2/#p103)

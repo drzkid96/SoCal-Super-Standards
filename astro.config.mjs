@@ -64,6 +64,7 @@ export default defineConfig({
       head: [
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js?v=' + BUILD, defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/panel.js?v=' + BUILD, defer: true } },
       ],
       pagination: true,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },
@@ -103,6 +104,7 @@ export default defineConfig({
           { label: 'Federal guides (FHWA, ADA)', collapsed: true, items: guideDocs },
           { label: 'Bulletins and policy memos', collapsed: true, items: [
             { label: 'All bulletins and memos', link: '/bulletins/' },
+            { label: 'Standards status (what supersedes what)', link: '/bulletins/standards-status/' },
             { label: 'Lane width comparison', link: '/bulletins/lane-widths/' },
             { label: 'Caltrans DIB 94 Complete Streets', link: '/bulletins/caltrans-dib-94/' },
             { label: 'Caltrans DIB 89-02 Class IV', link: '/bulletins/caltrans-dib-89-02/' },
@@ -117,6 +119,8 @@ export default defineConfig({
             { label: 'LADOT Exclusive Pedestrian Phase', link: '/bulletins/ladot-exclusive-ped-phase-2017/' },
             { label: 'LADOT S&S Plan Review Checklist', link: '/bulletins/ladot-ss-plan-checklist-2022/' },
             { label: 'LADOT Accessible Parking Zones', link: '/bulletins/ladot-accessible-parking-2017/' },
+            { label: 'PROWAG (ADA right-of-way)', link: '/bulletins/prowag-2023/' },
+            { label: 'CBC 11B accessible parking', link: '/bulletins/ca-accessible-parking-2026/' },
           ] },
           { label: 'National design guides', collapsed: true, items: [{ label: 'About these guides', link: '/guides/' }, ...refCards] },
           { label: 'Sources and versions', link: '/sources/' },

@@ -3,6 +3,8 @@ title: Sources and versions
 description: Every source on this site, its edition, and its status.
 ---
 
+See [Standards status](/SoCal-Super-Standards/bulletins/standards-status/) for what supersedes what. Every page also has a Checks panel on its right edge.
+
 | Source | Edition | Status | On this site |
 |---|---|---|---|
 | [California MUTCD 2026](https://dot.ca.gov/programs/safety-programs/camutcd) (Caltrans) | 2026 Edition, effective Jan 18, 2026 | Current, legal standard in California | Full text, all parts and appendices |
@@ -23,9 +25,11 @@ description: Every source on this site, its edition, and its status.
 | LADOT Geometric (Striping) Plan Sample | As provided | Reference | [Sample sheet](/SoCal-Super-Standards/ladot/geometric-plan-sample/) |
 | City of Burbank Traffic Standard Plans BT-400 to BT-452, General Traffic Control Requirements | Sheets 1992 to 2025 (BT-417 and BT-418 dated 7/23/2025) | Current as provided | [All sheets](/SoCal-Super-Standards/burbank/standard-plans/) |
 | City of Pasadena DOT Standard Plans S-702 to S-718 | Sheets 2001 to 2023 (S-707 Rev. 10, 4/19/2023) | Current as provided | [All sheets](/SoCal-Super-Standards/pasadena/standard-plans/) |
-| Caltrans Standard Plans A20A, A20B, RSP A20D, A24A, A24B, A24D (pavement markers, traffic lines, arrows, symbols and words) | 2018 edition (RSP A20D dated 10/19/2018) | Superseded by the 2022, 2023, 2024 and later Caltrans Standard Plans; check the current edition before citing in a contract | [All sheets](/SoCal-Super-Standards/caltrans/standard-plans-2018/) |
+| Caltrans Standard Plans A20A, A20B, RSP A20D, A24A, A24B, A24D (pavement markers, traffic lines, arrows, symbols and words) | 2018 edition (RSP A20D dated 10/19/2018) | Superseded. The [2026 Standard Plans](https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications) apply to projects submitted on or after October 19, 2026 (A20A marker details for Types G and H revised) | [All sheets](/SoCal-Super-Standards/caltrans/standard-plans-2018/) |
 | [FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (STEP)](/SoCal-Super-Standards/fhwa/step-uncontrolled-crossings/) | July 2018, updated | Current | Full document |
 | [FHWA Missouri Division Interchange Design Promptlist](/SoCal-Super-Standards/fhwa/interchange-design-promptlist/) | Web page printed 7/23/2026 | Reference | Full document (uploaded as Intersection Design) |
+| [PROWAG, 36 CFR 1190](/SoCal-Super-Standards/bulletins/prowag-2023/) (U.S. Access Board) | Final, August 8, 2023 | Enforceable at transit stops (U.S. DOT, effective Jan 17, 2025); guidance elsewhere | Digest |
+| [California Building Code Chapter 11B](/SoCal-Super-Standards/bulletins/ca-accessible-parking-2026/) | 2025 edition, effective Jan 1, 2026 | Current | Digest (accessible parking signs) |
 | [U.S. Access Board Guide to the ADA Standards, Ch. 4 Ramps and Curb Ramps](/SoCal-Super-Standards/ada/curb-ramps/) | Current online edition | Current | Full document |
 | [CPBS Pedestrian Level of Traffic Stress Application and Validation](/SoCal-Super-Standards/guides/cpbs-plts/) | July 2025 | Current research | Outline and page index |
 | [NACTO Urban Street Design Guide](/SoCal-Super-Standards/guides/nacto-urban-street/) and [Urban Bikeway Design Guide](/SoCal-Super-Standards/guides/nacto-urban-bikeway/) | 2013 / third edition | Copyrighted | Outline and page index only |
@@ -34,4 +38,4 @@ description: Every source on this site, its edition, and its status.
 - CA MUTCD 2014 Revision 9 was replaced by CA MUTCD 2026 on January 18, 2026, and is not on this site.
 - MUTCD 2009 Edition was replaced by the 11th Edition (effective January 18, 2024).
 - LADOT MPP 531 of 06/23/2022 was replaced by the 02/2023 edition, and the 2028 Games Corridors Design Guide of 09/2025 by the 06/2026 print. Neither older version is on this site.
-- Signs on Caltrans' CA MUTCD 2026 Deleted CA Sign Specification List are excluded from the Sign Library.
+- Signs on Caltrans' CA MUTCD 2026 Deleted CA Sign Specification List (July 1, 2026) are excluded from the Sign Library, except four kept for reference and flagged on their pages. Older LADOT drawings that still cite deleted signs are flagged in the Checks panel. See [Standards status](/SoCal-Super-Standards/bulletins/standards-status/).

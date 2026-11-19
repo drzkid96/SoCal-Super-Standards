@@ -1,0 +1,31 @@
+---
+title: "PROWAG: Public Right-of-Way Accessibility Guidelines (36 CFR 1190)"
+description: "U.S. Access Board PROWAG (August 8, 2023). Sidewalks, curb ramps, detectable warnings, accessible pedestrian signals, on-street parking, transit stops"
+---
+<div class="bul-meta">
+<div><b>Issued</b> August 8, 2023</div>
+<div><b>Status</b> Final guidelines. Enforceable only where adopted as a standard: U.S. DOT adopted PROWAG without modification for new construction and alterations of transit stops in the public right-of-way, effective January 17, 2025 (DOT deferred enforcement to March 20, 2025). The Department of Justice has not adopted it, so for other public right-of-way work it is the best available technical guidance rather than an enforceable standard.</div>
+<div><b>Supersedes</b> Replaces the 2011 proposed guidelines and the 2013 shared use path supplement as the Access Board's guidance. Does not replace the 2010 ADA Standards where those apply.</div>
+<div><b>Official copy</b> <a href="https://www.access-board.gov/prowag/">U.S. Access Board official copy</a></div>
+</div>
+
+## Status (checked November 18, 2026)
+
+- The Access Board published the final guidelines on August 8, 2023 (88 FR 53604).
+- U.S. DOT adopted them, without changes, as its ADA standard for new construction and alterations of transit stops in the public right-of-way. The rule (89 FR 102800, December 18, 2024) took effect January 17, 2025, and DOT deferred enforcement to March 20, 2025.
+- The Department of Justice has not adopted PROWAG for Title II entities generally. For city sidewalks, crossings and curb ramps outside transit stops, PROWAG is the current technical guidance and is widely used as the design basis, while the 2010 ADA Standards remain the adopted standard where they apply.
+
+## Signing and striping items to know
+
+<table class="btab"><thead><tr><th>Item</th><th>PROWAG section</th><th>What it requires</th></tr></thead><tbody><tr><td>Detectable warning surfaces</td><td>R305</td><td>Truncated domes in a square or radial grid that contrast visually with the adjacent surface (light-on-dark or dark-on-light), at least 24 in. deep in the direction of travel. Placement on perpendicular, parallel and blended curb ramps follows R305.2.</td></tr><tr><td>Accessible pedestrian signals</td><td>R209</td><td>Where pedestrian signals are provided at a street crossing, they must include accessible pedestrian signals and pedestrian pushbuttons. The final rule does not list specific alteration triggers: signals follow the same alteration rules as other pedestrian facilities.</td></tr><tr><td>On-street parking</td><td>R214, R309</td><td>Where on-street parking on a block perimeter is marked or metered, a share of the spaces must be accessible, scaled by the total marked or metered spaces on that block perimeter. Angled or perpendicular accessible spaces need an 8 ft access aisle.</td></tr><tr><td>Rail crossings</td><td>R305</td><td>Pedestrian at-grade rail crossings inside a street at a crosswalk do not get detectable warnings next to the railway.</td></tr></tbody></table>
+
+The table paraphrases the guidelines. Use the official text for design.
+
+## How this relates to other references on this site
+
+- Caltrans curb ramp details: 2026 Standard Plans A88A and A88B (October 19, 2026 edition) and DIB 82-06.
+- U.S. Access Board curb ramp guide: <a href="/SoCal-Super-Standards/ada/curb-ramps/">on this site</a>.
+- LADOT on-street placement: <a href="/SoCal-Super-Standards/bulletins/ladot-accessible-parking-2017/">Accessible Parking Zones</a> and the blue curb rules on the <a href="/SoCal-Super-Standards/ladot/curb-paint/">curb paint page</a>.
+- CA MUTCD 2026 deleted the California pushbutton signs R62A(CA), R62B(CA), R62C(CA) and R62E(CA). Use the federal pushbutton signs in CA MUTCD 2026 instead (see the <a href="/SoCal-Super-Standards/bulletins/standards-status/">standards status page</a>).
+
+<p class="bul-foot">Plain-language digest with section references, checked against the official copy on November 18, 2026. Cite the official document, and check the issuing agency's list before relying on it, since bulletins are revised and retired without notice. Back to <a href="/SoCal-Super-Standards/bulletins/">all bulletins and policy memos</a> or the <a href="/SoCal-Super-Standards/bulletins/lane-widths/">lane width comparison</a>.</p>
