@@ -425,7 +425,7 @@ After U.S. DOT adopted PROWAG for transit stops, Caltrans issued supplemental gu
  ["Rail boarding areas at sidewalk or street level", "Same detectable warning rule and curb option", "R205.6"],
  ["Fare vending machines", "PROWAG R403 and Section 707 of 36 CFR 1191 Appendix D, except 707.2 and 707.3", "R210, R403"],
  ["Shelter lighting and heating", "Proximity actuated", "R309.2.3"],
-])}
+], cls="btab wide2")}
 
 Infeasibility for transit stops follows PROWAG R202.3: meet the requirements to the maximum extent feasible and document it on the DIB 82-06 exception form.
 
@@ -455,7 +455,7 @@ Infeasibility for transit stops follows PROWAG R202.3: meet the requirements to 
  ["Accessible pedestrian signals", "R209", "Where pedestrian signals are provided at a street crossing, they must include accessible pedestrian signals and pedestrian pushbuttons. The final rule does not list specific alteration triggers: signals follow the same alteration rules as other pedestrian facilities."],
  ["On-street parking", "R214, R309", "Where on-street parking on a block perimeter is marked or metered, a share of the spaces must be accessible, scaled by the total marked or metered spaces on that block perimeter. Angled or perpendicular accessible spaces need an 8 ft access aisle."],
  ["Rail crossings", "R305", "Pedestrian at-grade rail crossings inside a street at a crosswalk do not get detectable warnings next to the railway."],
-])}
+], cls="btab wide3")}
 
 The table paraphrases the guidelines. Use the official text for design.
 

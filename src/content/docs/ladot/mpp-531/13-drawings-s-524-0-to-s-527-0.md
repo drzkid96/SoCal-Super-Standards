@@ -259,21 +259,6 @@ sidebar:
 <p>- Mountable curb.</p>
 <p>- Point of tangency.</p>
 <p>- Truck apron width 5&#x27; minimum (MIN), 15&#x27; maximum (MAX).</p></details></div>
-<div class="pclean"><p class="psum"><b>Truck Aprons.</b> Plan view of a mountable truck apron at a street corner, placed between the street flowline and a mountable curb. The apron is 5 ft minimum to 15 ft maximum wide and is marked with 12 in. white bars spaced 12 in. to 36 in. on center and an 8 in. white edge lane line. Details are in the Supplemental Street Design Guide, Detail 300.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Plan view, Mountable Truck Apron: A curved street corner is drawn in plan. Two crosswalks of transverse bars are shown, one across the cross street at the lower left and one across the other street at the upper right. At the corner an arc of Type C integral curb and gutter forms the street flowline (the inner arc), and a mountable curb is drawn just outside it. Outside the mountable curb a band of stippled pavement forms the mountable truck apron, which curves from the point of curvature at the lower left around to the point of tangency at the upper right. The apron is bounded on its outer side by a heavy 8&quot; white edge lane line that follows the outer arc and runs straight down at the lower left end. Inside that edge line, 12&quot; white lines are drawn as diagonal bars across the apron, spaced 12&quot; to 36&quot; on center. The apron width is dimensioned along a diagonal as TRUCK APRON WIDTH 5&#x27; MIN, 15&#x27; MAX. A directional curb ramp (TYP) is drawn on the corner at the bottom of the arc and another at the top right with a detectable warning surface. A callout reads TRUCK APRON, SEE SUPPLEMENTAL DESIGN GUIDE DETAIL 300. The Type C integral curb and gutter is called out as SEE S-410.</p>
-<p>Title block: City of Los Angeles Department of Transportation, title TRUCK APRONS, drawing number S-526.0, sheet 1 of 1, approved 02-20-2020 by Seleta Reynolds, General Manager.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>Note:</h5>
-<p>1. See City of Los Angeles Supplemental Street Design Guide, Detail 300 for truck apron details.</p>
-<h5>Callouts:</h5>
-<p>- Mountable truck apron.</p>
-<p>- Street flowline.</p>
-<p>- Type C integral curb and gutter, see S-410.</p>
-<p>- 8&quot; white edge lane line.</p>
-<p>- 12&quot; white lines spaced 12&quot; to 36&quot; on center.</p>
-<p>- Directional curb ramp, typical (TYP).</p>
-<p>- Truck apron, see Supplemental Design Guide Detail 300.</p>
-<p>- Point of curvature.</p>
-<p>- Mountable curb.</p>
-<p>- Point of tangency.</p>
-<p>- Truck apron width 5&#x27; minimum (MIN), 15&#x27; maximum (MAX).</p></details></div>
 <div class="kw">Keywords: truck apron, mountable apron, mountable curb, corner truck apron, traffic calming apron, apron width, 12 inch white lines, edge lane line, directional curb ramp, type C curb and gutter, S-410, detail 300, street flowline, point of curvature, point of tangency</div>
 
 
