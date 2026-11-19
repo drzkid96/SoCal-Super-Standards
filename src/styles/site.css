@@ -431,4 +431,4 @@ details.sdesc p { margin: .35rem 0; line-height: 1.55; }
 @media print { .sp { display: none; } }
 .sp-cite { padding: .35rem .65rem; border: 1px solid #d6d3cc; border-radius: 6px; background: #faf9f6; font: inherit; font-size: .82rem; cursor: pointer; }
 .btab.wide2 th:nth-child(1) { width: 34%; } .btab.wide2 th:nth-child(2) { width: 50%; } .btab.wide3 th:nth-child(3) { width: 60%; }
-.btab.wide2, .btab.wide3 { display: table; width: 100%; table-layout: fixed; } .btab.wide2 td, .btab.wide3 td, .btab.wide2 th, .btab.wide3 th { white-space: normal; overflow-wrap: break-word; }
+.btab.wide2, .btab.wide3 { display: table; width: 100%; table-layout: fixed; } table.btab.wide2 td, table.btab.wide3 td, table.btab.wide2 th, table.btab.wide3 th { white-space: normal; overflow-wrap: break-word; }
