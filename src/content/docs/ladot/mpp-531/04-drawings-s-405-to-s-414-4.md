@@ -14,6 +14,7 @@ sidebar:
 <div class="pmeta">Drawings: <strong>S-404.3</strong> &middot; Topics: parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0049.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0049.webp" alt="MPP 531 page 49 S-404.3 Shared Mobility Parking (SMP) Zones On-Street and Sidewalk"></a><figcaption>MPP 531, page 49 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
 <div class="pclean"><p class="psum"><b>Shared Mobility Parking (SMP) Zones On-Street and Sidewalk.</b> Marking layouts for shared mobility parking zones for bikes and scooters, one on-street and one on the sidewalk, with the 24 inch bike, P and scooter circle symbols, 4 inch white boundary lines and rubberized wheel stops. The on-street zone is 11 ft minimum to 19 ft maximum long and 7 ft minimum to 8 ft maximum deep, and the sidewalk zone is 8.5 ft minimum long and 4 ft minimum to 7.5 ft maximum deep. The notes give clearances from driveways, fire hydrants, crosswalks and bus zones, and prohibit zones that block building entrances, utilities or sidewalk furniture, while keeping at least 5 ft of sidewalk clear.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement symbols for the zone, each in a circle 24&quot; in diameter: scooter, P, and bicycle. Not to scale.</p></details></div>
+<div class="pclean"><p class="psum"><b>Shared Mobility Parking (SMP) Zones On-Street and Sidewalk.</b> Marking layouts for shared mobility parking zones for bikes and scooters, one on-street and one on the sidewalk, with the 24 inch bike, P and scooter circle symbols, 4 inch white boundary lines and rubberized wheel stops. The on-street zone is 11 ft minimum to 19 ft maximum long and 7 ft minimum to 8 ft maximum deep, and the sidewalk zone is 8.5 ft minimum long and 4 ft minimum to 7.5 ft maximum deep. The notes give clearances from driveways, fire hydrants, crosswalks and bus zones, and prohibit zones that block building entrances, utilities or sidewalk furniture, while keeping at least 5 ft of sidewalk clear.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Pavement symbols for the zone, each in a circle 24&quot; in diameter: scooter, P, and bicycle. Not to scale.</p></details></div>
 <div class="kw">Keywords: shared mobility parking, smp zone, scooter parking, bike share parking, e-scooter corral, micromobility parking, sidewalk smp, on-street smp, wheel stop, flexible bollard, om-3r, om-3l, fire hydrant clearance, bus zone clearance, 24 inch symbol, pedestrian clear width</div>
 
 
@@ -51,6 +52,34 @@ sidebar:
 <p>C. Obstruct the use of sidewalk furniture such as benches, newsstands, mailboxes, bus shelters, etc.</p>
 <p>Miscellaneous</p>
 <p>17. All pavement markings shall be skid-resistant.</p></details></div>
+<div class="pclean"><p class="psum"><b>Shared Mobility Parking (SMP) Zones On-Street and Sidewalk.</b> Marking layouts for shared mobility parking zones for bikes and scooters, one on-street and one on the sidewalk, with the 24 inch bike, P and scooter circle symbols, 4 inch white boundary lines and rubberized wheel stops. The on-street zone is 11 ft minimum to 19 ft maximum long and 7 ft minimum to 8 ft maximum deep, and the sidewalk zone is 8.5 ft minimum long and 4 ft minimum to 7.5 ft maximum deep. The notes give clearances from driveways, fire hydrants, crosswalks and bus zones, and prohibit zones that block building entrances, utilities or sidewalk furniture, while keeping at least 5 ft of sidewalk clear.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>Notes:</h5>
+<p>Shared mobility parking: on-street</p>
+<p>1. Parking meter heads, posts and signs shall be removed or adjusted as needed if shared mobility parking (SMP) is installed in a parking meter zone.</p>
+<p>2. Rubberized wheel stops shall be used at the ends of the SMP zones if located next to on-street parking.</p>
+<p>3. Minimum clearance from the top of driveway shall be 5&#x27;.</p>
+<p>4. Minimum clearance from a fire hydrant shall be 15&#x27;.</p>
+<p>5. SMP zones shall remain clear of bus zones.</p>
+<p>6. SMP zones shall not be installed in peak hour lanes, red curb zones, or in parking restricted areas (i.e. Tow-Away No Stopping Any Time &quot;T.A.N.S.A.T.&quot;, No Parking Any Time &quot;N.P.A.T.&quot;, etc.)</p>
+<p>7. Minimum clearance from two or more consecutive parking spaces shall be 5&#x27;.</p>
+<p>8. SMP zones shall not be installed within 30&#x27; of a limit line at a traffic signal or within 25&#x27; of a &quot;Stop&quot; or &quot;Yield&quot; sign.</p>
+<p>Shared mobility parking: sidewalk</p>
+<p>9. A minimum of 5&#x27; of unobstructed sidewalk must be maintained for a pedestrian pathway.</p>
+<p>10. Where there is no parking on the adjacent street, provide:</p>
+<p>A. Minimum clearance of 1&#x27;-6&quot; from the face of curb to the edge of the SMP zone.</p>
+<p>11. Where there is parking on the adjacent street, provide:</p>
+<p>A. Minimum clearance of 3&#x27; from the face of curb to the edge of the SMP zone.</p>
+<p>B. Minimum clearance of 4&#x27; from the face of curb to the edge of the SMP zone if the adjacent parking is a loading zone or disabled parking space.</p>
+<p>C. Minimum clearance of 4&#x27; of unobstructed pathway at the ends of the SMP zone.</p>
+<p>12. Minimum clearance of 5&#x27; from the marked crosswalk line or top of curb ramp.</p>
+<p>13. Minimum clearance of 5&#x27; from the top of driveway.</p>
+<p>14. Minimum clearance from a fire hydrant shall be 15&#x27;.</p>
+<p>15. SMP zones shall remain clear of bus loading and unloading zones.</p>
+<p>16. SMP zones shall not:</p>
+<p>A. Block access to building entrances or exits.</p>
+<p>B. Obstruct utility accesses such as manholes, pullboxes, street light poles, power poles, etc.</p>
+<p>C. Obstruct the use of sidewalk furniture such as benches, newsstands, mailboxes, bus shelters, etc.</p>
+<p>Miscellaneous</p>
+<p>17. All pavement markings shall be skid-resistant.</p></details></div>
 <div class="kw">Keywords: shared mobility parking, smp zone, scooter parking, bike share parking, e-scooter corral, micromobility parking, sidewalk smp, on-street smp, wheel stop, flexible bollard, om-3r, om-3l, fire hydrant clearance, bus zone clearance, 24 inch symbol, pedestrian clear width</div>
 
 
@@ -60,6 +89,10 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-405.0</strong> &middot; Topics: parking-curb, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0051.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0051.webp" alt="MPP 531 page 51 S-405.0 Intersection Striping"></a><figcaption>MPP 531, page 51. Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Intersection Striping.</b> Plan layout and policy for dotted intersection striping (cat tracks) through intersections, including multiple left and right turns, trap right-turn lanes, added right-turn lanes and a special double turn detail. Cat tracks are 4 inch wide, about 1 ft long and 7 ft center to center, and match the color of the stripe they extend. The policy sheet sets where cat tracks begin and end, when the line may be offset 1 ft (with 20 ft or 12 ft minimum curb-side width), crosswalk widths at the receiving end, and the conditions that require longitudinal cat tracks.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Intersection striping plan (see sheet 2 of 2 for policy and criteria)</p>
+<p>Labels: trap right turn lane, added right turn lane, parked vehicle, cat tracks 4&quot; Y (Note 2), 15&#x27; typ., curve radii R1, R2, R3, points BC, EC, BCR, ECR with 90 degree radial lines. See Notes 3, 4, 5, 6.</p>
+<p>Special double turn detail</p>
+<p>Labels: No.1 lane width. Curb lane (or No.2 and No.3 combined) width. 20&#x27; minimum with parking. 12&#x27; minimum with no parking (see Note 6). 1&#x27; offset. Alternative locations for cat tracks. See Note 6. See Note 9.</p></details></div>
 <div class="pclean"><p class="psum"><b>Intersection Striping.</b> Plan layout and policy for dotted intersection striping (cat tracks) through intersections, including multiple left and right turns, trap right-turn lanes, added right-turn lanes and a special double turn detail. Cat tracks are 4 inch wide, about 1 ft long and 7 ft center to center, and match the color of the stripe they extend. The policy sheet sets where cat tracks begin and end, when the line may be offset 1 ft (with 20 ft or 12 ft minimum curb-side width), crosswalk widths at the receiving end, and the conditions that require longitudinal cat tracks.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><p>Intersection striping plan (see sheet 2 of 2 for policy and criteria)</p>
 <p>Labels: trap right turn lane, added right turn lane, parked vehicle, cat tracks 4&quot; Y (Note 2), 15&#x27; typ., curve radii R1, R2, R3, points BC, EC, BCR, ECR with 90 degree radial lines. See Notes 3, 4, 5, 6.</p>
 <p>Special double turn detail</p>
@@ -112,6 +145,15 @@ sidebar:
 <p>2. Post to be level, straight.</p>
 <p>3. Area to be left clean.</p>
 <p>4. Cement grout - 1 (cement) : 2 1/2 (sand).</p></details></div>
+<div class="pclean"><p class="psum"><b>Parking Meter Post Installation Dirt or Asphalt Setting.</b> Detail for setting a parking meter post in dirt or asphalt with a concrete footing and cement grout. The post is 2 inch standard weight galvanized steel pipe, 42 inches long, with a reamed top, set in a footing at least 8 inches square or round. The notes call for the specified concrete class, a level and straight post, a clean area and a grout mix of 1 part cement to 2 1/2 parts sand.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Parking meter post installation, dirt or asphalt setting</p>
+<p>Detail labels: reamed inside of top. Post flange set in cement grout. Drill 1/4&quot; hole (one side only). 20&quot; dimension. Concrete post footing 8&quot; min. square or round. Top of curb, curb face, gutter.</p>
+<p>Specification for post</p>
+<p>Steel pipe, standard weight, 2&quot; x 42&quot; long, ASTM A120-63T, new and unused, hot dipped galvanized, top reamed.</p>
+<p>Notes</p>
+<p>1. Concrete to be Class 560-C-3250.</p>
+<p>2. Post to be level, straight.</p>
+<p>3. Area to be left clean.</p>
+<p>4. Cement grout - 1 (cement) : 2 1/2 (sand).</p></details></div>
 <div class="kw">Keywords: parking meter post, meter post installation, dirt setting, asphalt setting, concrete footing, cement grout, galvanized steel pipe post, 2 inch pipe 42 inch long, post flange, astm a120, top of curb, gutter, curb face, parking meter detail</div>
 
 
@@ -129,6 +171,14 @@ sidebar:
 <p>1. Post to be level, straight.</p>
 <p>2. Area to be left clean.</p>
 <p>3. Cement grout - 1 (cement) : 2 1/2 (sand).</p></details></div>
+<div class="pclean"><p class="psum"><b>Parking Meter Post Installation Concrete Setting.</b> Detail for setting a parking meter post in an existing concrete sidewalk. A 3 1/4 inch diameter hole is cut in the sidewalk, dirt is cleaned out from under the sidewalk, and the post is held upright with wooden wedges and set with cement grout. The post is 2 inch standard weight galvanized steel pipe, 42 inches long, with a reamed top, and the grout mix is 1 part cement to 2 1/2 parts sand.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Parking meter post installation, concrete setting</p>
+<p>Detail labels: reamed inside of top. Finish surface. Wooden wedges to hold post upright. Post flange set on 1/4&quot; dia. hole in cement grout, one side only. 20&quot; dimension. Cut 3 1/4&quot; dia. hole in sidewalk. Clean out dirt under sidewalk approx. as shown. Curb face, gutter.</p>
+<p>Specification for post</p>
+<p>Steel pipe, standard weight, 2&quot; x 42&quot; long, ASTM A120-63T, new and unused, hot dipped galvanized, top reamed.</p>
+<p>Notes</p>
+<p>1. Post to be level, straight.</p>
+<p>2. Area to be left clean.</p>
+<p>3. Cement grout - 1 (cement) : 2 1/2 (sand).</p></details></div>
 <div class="kw">Keywords: parking meter post, meter post installation, concrete setting, sidewalk setting, 3 1/4 inch hole, cement grout, wooden wedges, galvanized steel pipe post, post flange, astm a120, finish surface, curb face, gutter, parking meter detail</div>
 
 
@@ -138,6 +188,15 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-410.4.3</strong> &middot; Topics: parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0055.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0055.webp" alt="MPP 531 page 55 S-410.4.3 Parking Meter Post Installation on Concrete Bridge"></a><figcaption>MPP 531, page 55 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Parking Meter Post Installation on Concrete Bridge.</b> Detail for mounting a parking meter post on a concrete bridge using a welded post flange base bolted down with anchors. The post is 2 inch standard weight galvanized steel pipe, 30 inches long, welded to a flange base made of 1/4 inch hot rolled steel plate. The base is fastened with four 1/2 inch by 3 inch stud bolt anchors in holes drilled 1 7/8 inches deep, with steel hex nuts and flat galvanized washers that may be used as shims for leveling.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Parking meter post installation on concrete bridge</p>
+<p>Detail labels: 30&quot; and 26&quot; dimensions. Post flange base (see detail below). Reamed inside of top. Post flange set in cement grout. 20&quot; dimension. Drill 1/4&quot; hole (one side only). Top of curb, curb face, gutter.</p>
+<p>4 - 1/2&quot; holes to be drilled 1 7/8&quot; deep to receive 4 stud bolt anchors 1/2&quot; x 3&quot;.</p>
+<p>Nuts to be steel hex, galvanized. 1/2&quot; washers to be flat steel, galvanized. Washers may be used under base as shims for leveling.</p>
+<p>30&quot; unthreaded post welded onto the flange. Continuous weld.</p>
+<p>Detail: post flange base. 1/4&quot; hot roll steel plate. 4 holes, 3/4&quot; drill and 1/2&quot; drill.</p>
+<p>Specification for post</p>
+<p>Steel pipe, standard weight, 2&quot; x 30&quot; long, ASTM A120-63T, new and unused, hot dipped galvanized, top reamed.</p>
+<p>Cement grout - 1 (cement) : 2 1/2 (sand).</p></details></div>
 <div class="pclean"><p class="psum"><b>Parking Meter Post Installation on Concrete Bridge.</b> Detail for mounting a parking meter post on a concrete bridge using a welded post flange base bolted down with anchors. The post is 2 inch standard weight galvanized steel pipe, 30 inches long, welded to a flange base made of 1/4 inch hot rolled steel plate. The base is fastened with four 1/2 inch by 3 inch stud bolt anchors in holes drilled 1 7/8 inches deep, with steel hex nuts and flat galvanized washers that may be used as shims for leveling.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Parking meter post installation on concrete bridge</p>
 <p>Detail labels: 30&quot; and 26&quot; dimensions. Post flange base (see detail below). Reamed inside of top. Post flange set in cement grout. 20&quot; dimension. Drill 1/4&quot; hole (one side only). Top of curb, curb face, gutter.</p>
 <p>4 - 1/2&quot; holes to be drilled 1 7/8&quot; deep to receive 4 stud bolt anchors 1/2&quot; x 3&quot;.</p>

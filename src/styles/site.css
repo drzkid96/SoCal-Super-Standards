@@ -361,3 +361,11 @@ details.ocr p { margin: .25rem 0; }
 .xchip b { white-space: nowrap; }
 .xidx > div { grid-template-columns: 11rem 1fr; }
 .dupnote, .alsopub { padding: .6rem .9rem; border-left: 3px solid var(--sl-color-gray-4); background: var(--sl-color-gray-7, #f6f6f4); font-size: .92rem; }
+
+/* bulletins */
+.bul-meta { display: grid; gap: .3rem; padding: .8rem 1rem; border: 1px solid var(--sl-color-gray-5); border-radius: .5rem; font-size: .92rem; }
+.bul-meta b { display: inline-block; min-width: 7.5rem; font-size: .75rem; letter-spacing: .04em; text-transform: uppercase; color: var(--sl-color-gray-3); }
+table.btab th, table.btab td { vertical-align: middle; }
+table.btab td:first-child { white-space: nowrap; }
+.bul-foot { margin-top: 2rem; font-size: .85rem; color: var(--sl-color-gray-3); border-top: 1px solid var(--sl-color-gray-6); padding-top: .7rem; }
+a.cta { display: inline-block; padding: .55rem 1rem; border-radius: .45rem; background: var(--sl-color-accent); color: var(--sl-color-white, #fff); text-decoration: none; font-weight: 600; }

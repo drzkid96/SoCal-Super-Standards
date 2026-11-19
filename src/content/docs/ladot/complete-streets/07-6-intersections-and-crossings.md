@@ -1379,8 +1379,6 @@ sidebar:
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0225.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0225.webp" alt="Complete Streets DG page 225 "></a><figcaption>Complete Streets DG, page 225 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
 <div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Off-Street Non-Vehicular Treatments and Strategies (Section Divider).</b> Section divider page for the Off-Street Non-Vehicular Treatments and Strategies chapter. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
 <p>Off-Street Non-Vehicular Treatments and Strategies</p></details></div>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Off-Street Non-Vehicular Treatments and Strategies (Section Divider).</b> Section divider page for the Off-Street Non-Vehicular Treatments and Strategies chapter. It contains no technical requirements.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Complete Streets Design Guide</p>
-<p>Off-Street Non-Vehicular Treatments and Strategies</p></details></div>
 <div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, off-street, non-vehicular, section divider, bike paths, trails</div>
 
 

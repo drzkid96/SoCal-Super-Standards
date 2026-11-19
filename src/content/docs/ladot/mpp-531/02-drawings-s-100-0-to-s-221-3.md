@@ -193,12 +193,6 @@ sidebar:
 <p>3. Existing sign posts and/or electroliers shall be used to post street name signs wherever practical.</p>
 <p>4. Two parallel roadways with different street names (for example, Huntington Drive North and Huntington Drive) shall be treated as two different streets for sign posting purposes.</p>
 <p>Diagram: street name sign examples such as &quot;W. Avenue B&quot; and &quot;Avenue B&quot; at an intersection.</p></details></div>
-<div class="pclean"><p class="psum"><b>Street Name Sign Posting.</b> Sets where street name signs are posted at intersections. Signs go as close to the near-right B.C.R. as practical (or the extension of the near left), in advance of obstructions, and on existing posts or electroliers where practical. Parallel roadways with different names are treated as separate streets, and the diagrams show how posting changes at offset intersections when the offset distance X is less than 100 ft or 100 ft or greater.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>Notes:</h5>
-<p>1. All signs shall be posted as close to the near-right B.C.R. or the extension of the near left as is practical.</p>
-<p>2. Post sign in advance of obstructions where encountered.</p>
-<p>3. Existing sign posts and/or electroliers shall be used to post street name signs wherever practical.</p>
-<p>4. Two parallel roadways with different street names (for example, Huntington Drive North and Huntington Drive) shall be treated as two different streets for sign posting purposes.</p>
-<p>Diagram: street name sign examples such as &quot;W. Avenue B&quot; and &quot;Avenue B&quot; at an intersection.</p></details></div>
 <div class="kw">Keywords: street name sign, street name sign posting, sign placement, street sign location, near right corner, sign post location, offset intersection signs, service road sign, electrolier mounting, sign on existing pole, intersection street name, S-221.3</div>
 
 
@@ -208,9 +202,6 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-221.3</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0034.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0034.webp" alt="MPP 531 page 34 S-221.3 Street Name Sign Posting"></a><figcaption>MPP 531, page 34 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Street Name Sign Posting.</b> Sets where street name signs are posted at intersections. Signs go as close to the near-right B.C.R. as practical (or the extension of the near left), in advance of obstructions, and on existing posts or electroliers where practical. Parallel roadways with different names are treated as separate streets, and the diagrams show how posting changes at offset intersections when the offset distance X is less than 100 ft or 100 ft or greater.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Offset intersection of &quot;A&quot; Street and &quot;D&quot; Avenue, with X measured along the street between the two legs of &quot;D&quot; Avenue.</p>
-<h5>When X is less than 100&#x27;:</h5>
-<h5>When X is 100&#x27; or Greater:</h5></details></div>
 <div class="pclean"><p class="psum"><b>Street Name Sign Posting.</b> Sets where street name signs are posted at intersections. Signs go as close to the near-right B.C.R. as practical (or the extension of the near left), in advance of obstructions, and on existing posts or electroliers where practical. Parallel roadways with different names are treated as separate streets, and the diagrams show how posting changes at offset intersections when the offset distance X is less than 100 ft or 100 ft or greater.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Offset intersection of &quot;A&quot; Street and &quot;D&quot; Avenue, with X measured along the street between the two legs of &quot;D&quot; Avenue.</p>
 <h5>When X is less than 100&#x27;:</h5>
 <h5>When X is 100&#x27; or Greater:</h5></details></div>

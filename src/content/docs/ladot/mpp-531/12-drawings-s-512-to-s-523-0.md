@@ -20,6 +20,13 @@ sidebar:
 <p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacturer &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
 <p>4. The background color is white. The large &quot;P&quot; is black. The circle and slash, all text, arrow and border are red.</p>
 <p>5. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
+<div class="pclean"><p class="psum"><b>Red Flag Days - No Parking Sign.</b> Details the 12 inch by 18 inch Red Flag Days No Parking sign, which has a red tow-truck header panel 4 inches tall, an 8 inch outside diameter circle and slash with a 5 inch Series E P, the legend RED FLAG DAYS in 1 inch Series D, a double, left or right arrow 1 1/2 inch tall, and the line &quot;To recover impounded vehicle call 3-1-1&quot;. The background is white with a black P and red circle, slash, text, arrow and border. Signs are .080 aluminum with reflective SEG Type II material and graffiti film.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign dimensions: 12 inch wide by 18 inch tall, 1 1/2 inch radius typical. Red header panel 4 inches tall with tow truck graphic. 8 inch outside diameter circle and slash. 5 inch tall Series E P. Legend &quot;RED FLAG DAYS&quot; in 1 inch Series D, double arrow 8 inches long, and bottom line &quot;TO RECOVER IMPOUNDED VEHICLE CALL 3-1-1&quot; in 1/4 inch Series C.</p>
+<p>Notes</p>
+<p>1. Sign shall be fabricated by a qualified, professional sign manufacturer approved by LADOT.</p>
+<p>2. Sign size is 12 inch x 18 inch, and legend lettering size shall be as noted above. The arrow is 1 1/2 inch in height and can be Double, Left or Right. All lines of legend are to be centered. The border shall be 1/4 inch wide and spaced 1/4 inch from edge of sign.</p>
+<p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacturer &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
+<p>4. The background color is white. The large &quot;P&quot; is black. The circle and slash, all text, arrow and border are red.</p>
+<p>5. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
 <div class="kw">Keywords: red flag days, red flag no parking, fire danger no parking, red flag parking restriction, no parking sign, tow away sign, impounded vehicle call 3-1-1, parking restriction sign, circle slash P, sign fabrication, sign dimensions 12 x 18, reflective sheeting type II, graffiti film</div>
 
 
@@ -36,6 +43,13 @@ sidebar:
 <p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacturer &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
 <p>4. The background color is white. The large &quot;P&quot; is black. The circle and slash, all text and border are red.</p>
 <p>5. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
+<div class="pclean"><p class="psum"><b>No Parking - Unhitched Trailers Sign.</b> Details the 12 inch by 18 inch No Parking Unhitched Trailers sign citing L.A.M.C. 80.69.1(C), with a 9 inch outside diameter circle and slash, a 6 inch Series E P, and Highway Gothic Series C legend. The background is white with a black P and red circle, slash, text and border. Signs are .080 aluminum with reflective SEG Type II material and graffiti film.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign dimensions: 12 inch wide by 18 inch tall. 9 inch outside diameter circle and slash, 1 inch slash. 6 inch Series E P. Legend &quot;UNHITCHED TRAILERS&quot; in 1 3/4 inch Series C, &quot;L.A.M.C. 80.69.1(C)&quot; in 1/2 inch Series C.</p>
+<p>Notes</p>
+<p>1. Signs shall be fabricated by a qualified, professional sign manufacturer approved by LADOT.</p>
+<p>2. Sign size is 12 inch x 18 inch, and legend lettering size shall be as noted above. The font is Highway Gothic Series C type. All lines of legend are to be centered. The border shall be 1/4 inch wide and spaced 1/4 inch from edge of sign.</p>
+<p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacturer &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
+<p>4. The background color is white. The large &quot;P&quot; is black. The circle and slash, all text and border are red.</p>
+<p>5. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
 <div class="kw">Keywords: unhitched trailers, no parking unhitched trailers, trailer parking restriction, LAMC 80.69.1(C), no parking sign, parking restriction sign, circle slash P, highway gothic series C, sign fabrication, sign dimensions 12 x 18, reflective sheeting type II, graffiti film</div>
 
 
@@ -45,6 +59,14 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-514.0</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0163.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0163.webp" alt="MPP 531 page 163 S-514.0 Oversize Vehicles No Parking Sign"></a><figcaption>MPP 531, page 163 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Oversize Vehicles No Parking Sign.</b> Details the 18 inch by 24 inch Oversize Vehicles No Parking sign reading &quot;2AM to 6AM, Vehicles over 7&#x27; high or 22&#x27; long, except by permit, call 3-1-1 for information, L.A.M.C. 80.69.4&quot;. It has a 9.8 inch outside diameter circle and slash with a 6 inch Series E P, and a 2 inch radius at the four corners. The background is white with a black P and red circle, slash, text and border. Signs are .080 aluminum with reflective SEG Type II material and graffiti film.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign dimensions: 18 inch wide by 24 inch tall, R = 2 inch at 4 corners. 9.8 inch outside diameter circle and slash, 1 inch slash. 6 inch Series E P.</p>
+<p>Legend: &quot;2AM TO 6AM&quot; (2.8 inch, 2.3 inch and 1 inch Series C), &quot;VEHICLES OVER 7&#x27; HIGH OR 22&#x27; LONG&quot; (1.2 inch Series C), &quot;EXCEPT BY PERMIT&quot; and &quot;CALL 3-1-1 FOR INFORMATION&quot; (0.8 inch Series C), &quot;L.A.M.C. 80.69.4&quot; (0.3 inch Series C).</p>
+<p>Notes</p>
+<p>1. Signs shall be fabricated by a qualified, professional sign manufacturer approved by LADOT.</p>
+<p>2. Sign size is 18 inch x 24 inch, and legend lettering size shall be as noted above. The font is as noted. All lines of legend are to be centered. The border shall be 1/4 inch wide and spaced 1/4 inch from edge of sign.</p>
+<p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacturer &quot;code&quot; and date of fabrication e.g. &quot;MS 12/06&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
+<p>4. The background color is white. The large &quot;P&quot; is black. The circle and slash, all text, arrow and border are red.</p>
+<p>5. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
 <div class="pclean"><p class="psum"><b>Oversize Vehicles No Parking Sign.</b> Details the 18 inch by 24 inch Oversize Vehicles No Parking sign reading &quot;2AM to 6AM, Vehicles over 7&#x27; high or 22&#x27; long, except by permit, call 3-1-1 for information, L.A.M.C. 80.69.4&quot;. It has a 9.8 inch outside diameter circle and slash with a 6 inch Series E P, and a 2 inch radius at the four corners. The background is white with a black P and red circle, slash, text and border. Signs are .080 aluminum with reflective SEG Type II material and graffiti film.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign dimensions: 18 inch wide by 24 inch tall, R = 2 inch at 4 corners. 9.8 inch outside diameter circle and slash, 1 inch slash. 6 inch Series E P.</p>
 <p>Legend: &quot;2AM TO 6AM&quot; (2.8 inch, 2.3 inch and 1 inch Series C), &quot;VEHICLES OVER 7&#x27; HIGH OR 22&#x27; LONG&quot; (1.2 inch Series C), &quot;EXCEPT BY PERMIT&quot; and &quot;CALL 3-1-1 FOR INFORMATION&quot; (0.8 inch Series C), &quot;L.A.M.C. 80.69.4&quot; (0.3 inch Series C).</p>
 <p>Notes</p>
@@ -75,6 +97,19 @@ sidebar:
 <p>2. Sign size is 18&quot; x 24&quot;, and legend lettering size shall be as noted above. The font is as noted. All lines of legend are to be centered. The border shall be 1/4&quot; wide and spaced 1/4&quot; from edge of sign.</p>
 <p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacture &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
 <p>4. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
+<div class="pclean"><p class="psum"><b>Tow Away No Stopping Peak Period Sign.</b> Fabrication layouts for LADOT Anti-Gridlock Zone tow-away signs with peak-period No Stopping legends. Four versions are shown: 18&quot; x 24&quot; signs reading 4 to 6 PM or 7 to 9 AM and 4 to 6 PM, and 18&quot; x 36&quot; signs that add a 2 Hour or 1 Hour Parking panel below. Each sheet gives lettering sizes and series, the 1/2&quot; corner radius, the 1/4&quot; border, and notes on manufacturer, required bottom markings, and .080 aluminum with SEG Type II graffiti-film sheeting.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>Sheet 1 of 4. Sign legend, top to bottom:</h5>
+<p>ANTI-GRIDLOCK ZONE (2&quot; Series C), L.A.M.C. 80.70 (1/2&quot; Series C)</p>
+<p>Tow-away graphic</p>
+<p>NO STOPPING (3&quot; Series B)</p>
+<p>4 TO 6 PM (3&quot; / 2&quot; / 1&quot; Series C)</p>
+<p>EXCEPT SATURDAY &amp; SUNDAY (1/2&quot; Series C)</p>
+<p>TO RECOVER IMPOUNDED VEHICLE CALL 3-1-1 (1/2&quot; Series C)</p>
+<p>Sign is 18&quot; wide x 24&quot; high with a 1-1/2&quot; radius. The header panel is 6&quot; high.</p>
+<h5>Notes:</h5>
+<p>1. Sign shall be fabricated by a qualified, professional sign manufacturer approved by LADOT.</p>
+<p>2. Sign size is 18&quot; x 24&quot;, and legend lettering size shall be as noted above. The font is as noted. All lines of legend are to be centered. The border shall be 1/4&quot; wide and spaced 1/4&quot; from edge of sign.</p>
+<p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacture &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
+<p>4. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
 <div class="kw">Keywords: tow away sign, no stopping sign, peak period, anti-gridlock zone, LAMC 80.70, tow away no stopping, rush hour parking restriction, sign fabrication, sign legend size, series C lettering, 18x24 sign, 18x36 sign, 2 hour parking sign, 1 hour parking sign, impounded vehicle call 3-1-1</div>
 
 
@@ -84,6 +119,20 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-515.0</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0165.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0165.webp" alt="MPP 531 page 165 S-515.0 Tow Away No Stopping Peak Period Sign"></a><figcaption>MPP 531, page 165 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Tow Away No Stopping Peak Period Sign.</b> Fabrication layouts for LADOT Anti-Gridlock Zone tow-away signs with peak-period No Stopping legends. Four versions are shown: 18&quot; x 24&quot; signs reading 4 to 6 PM or 7 to 9 AM and 4 to 6 PM, and 18&quot; x 36&quot; signs that add a 2 Hour or 1 Hour Parking panel below. Each sheet gives lettering sizes and series, the 1/2&quot; corner radius, the 1/4&quot; border, and notes on manufacturer, required bottom markings, and .080 aluminum with SEG Type II graffiti-film sheeting.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>Sheet 2 of 4. Sign legend, top to bottom:</h5>
+<p>ANTI-GRIDLOCK ZONE (2&quot; Series C), L.A.M.C. 80.70 (1/2&quot; Series C)</p>
+<p>Tow-away graphic</p>
+<p>NO STOPPING (3&quot; Series B)</p>
+<p>7 TO 9 AM (2-1/2&quot; / 1-3/4&quot; / 1&quot; Series C)</p>
+<p>4 TO 6 PM (2-1/2&quot; / 1-3/4&quot; / 1&quot; Series C)</p>
+<p>EXCEPT SATURDAY &amp; SUNDAY (1/2&quot; Series C)</p>
+<p>TO RECOVER IMPOUNDED VEHICLE CALL 3-1-1 (1/2&quot; Series C)</p>
+<p>Sign is 18&quot; wide x 24&quot; high with a 1-1/2&quot; radius.</p>
+<h5>Notes:</h5>
+<p>1. Sign shall be fabricated by a qualified, professional sign manufacturer approved by LADOT.</p>
+<p>2. Sign size is 18&quot; x 24&quot;, and legend lettering size shall be as noted above. The font is as noted. All lines of legend are to be centered. The border shall be 1/4&quot; wide and spaced 1/4&quot; from edge of sign.</p>
+<p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacture &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
+<p>4. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
 <div class="pclean"><p class="psum"><b>Tow Away No Stopping Peak Period Sign.</b> Fabrication layouts for LADOT Anti-Gridlock Zone tow-away signs with peak-period No Stopping legends. Four versions are shown: 18&quot; x 24&quot; signs reading 4 to 6 PM or 7 to 9 AM and 4 to 6 PM, and 18&quot; x 36&quot; signs that add a 2 Hour or 1 Hour Parking panel below. Each sheet gives lettering sizes and series, the 1/2&quot; corner radius, the 1/4&quot; border, and notes on manufacturer, required bottom markings, and .080 aluminum with SEG Type II graffiti-film sheeting.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><h5>Sheet 2 of 4. Sign legend, top to bottom:</h5>
 <p>ANTI-GRIDLOCK ZONE (2&quot; Series C), L.A.M.C. 80.70 (1/2&quot; Series C)</p>
 <p>Tow-away graphic</p>
@@ -123,6 +172,22 @@ sidebar:
 <p>2. Sign size is 18&quot; x 36&quot;, and legend lettering size shall be as noted above. The font is as noted. All lines of legend are to be centered. The border shall be 1/4&quot; wide and spaced 1/4&quot; from edge of sign.</p>
 <p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacture &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
 <p>4. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
+<div class="pclean"><p class="psum"><b>Tow Away No Stopping Peak Period Sign.</b> Fabrication layouts for LADOT Anti-Gridlock Zone tow-away signs with peak-period No Stopping legends. Four versions are shown: 18&quot; x 24&quot; signs reading 4 to 6 PM or 7 to 9 AM and 4 to 6 PM, and 18&quot; x 36&quot; signs that add a 2 Hour or 1 Hour Parking panel below. Each sheet gives lettering sizes and series, the 1/2&quot; corner radius, the 1/4&quot; border, and notes on manufacturer, required bottom markings, and .080 aluminum with SEG Type II graffiti-film sheeting.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sheet 3 of 4. Two-panel sign, 18&quot; wide x 36&quot; high with a 1-1/2&quot; radius. Upper panel:</p>
+<h5>ANTI-GRIDLOCK ZONE, L.A.M.C. 80.70</h5>
+<p>Tow-away graphic</p>
+<p>NO STOPPING (3&quot; Series B)</p>
+<p>4 TO 6 PM (3&quot; / 2&quot; / 1&quot; Series C)</p>
+<h5>EXCEPT SATURDAY &amp; SUNDAY</h5>
+<h5>TO RECOVER IMPOUNDED VEHICLE CALL 3-1-1</h5>
+<h5>Lower green panel (12&quot; high):</h5>
+<p>2 HOUR PARKING (2&quot; Series E for HOUR, 3-1/2&quot; Series D for the 2)</p>
+<p>8 AM TO 4 PM (2-1/2&quot; / 1-3/4&quot; / 1&quot; Series C)</p>
+<p>EXCEPT SUNDAY (1/2&quot; Series C)</p>
+<h5>Notes:</h5>
+<p>1. Sign shall be fabricated by a qualified, professional sign manufacturer approved by LADOT.</p>
+<p>2. Sign size is 18&quot; x 36&quot;, and legend lettering size shall be as noted above. The font is as noted. All lines of legend are to be centered. The border shall be 1/4&quot; wide and spaced 1/4&quot; from edge of sign.</p>
+<p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacture &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
+<p>4. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
 <div class="kw">Keywords: tow away sign, no stopping sign, peak period, anti-gridlock zone, LAMC 80.70, tow away no stopping, rush hour parking restriction, sign fabrication, sign legend size, series C lettering, 18x24 sign, 18x36 sign, 2 hour parking sign, 1 hour parking sign, impounded vehicle call 3-1-1</div>
 
 
@@ -132,6 +197,22 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-515.0</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0167.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0167.webp" alt="MPP 531 page 167 S-515.0 Tow Away No Stopping Peak Period Sign"></a><figcaption>MPP 531, page 167 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Tow Away No Stopping Peak Period Sign.</b> Fabrication layouts for LADOT Anti-Gridlock Zone tow-away signs with peak-period No Stopping legends. Four versions are shown: 18&quot; x 24&quot; signs reading 4 to 6 PM or 7 to 9 AM and 4 to 6 PM, and 18&quot; x 36&quot; signs that add a 2 Hour or 1 Hour Parking panel below. Each sheet gives lettering sizes and series, the 1/2&quot; corner radius, the 1/4&quot; border, and notes on manufacturer, required bottom markings, and .080 aluminum with SEG Type II graffiti-film sheeting.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sheet 4 of 4. Two-panel sign, 18&quot; wide x 36&quot; high with a 1-1/2&quot; radius. Upper panel:</p>
+<h5>ANTI-GRIDLOCK ZONE, L.A.M.C. 80.70</h5>
+<p>Tow-away graphic</p>
+<p>NO STOPPING (3&quot; Series B)</p>
+<p>7 TO 9 AM and 4 TO 6 PM (2-1/2&quot; / 1-3/4&quot; / 1&quot; Series C)</p>
+<h5>EXCEPT SATURDAY &amp; SUNDAY</h5>
+<h5>TO RECOVER IMPOUNDED VEHICLE CALL 3-1-1</h5>
+<h5>Lower green panel (12&quot; high):</h5>
+<p>1 HOUR PARKING (2&quot; Series E for HOUR, 3-1/2&quot; Series D for the 1)</p>
+<p>9 AM TO 4 PM (2-1/2&quot; / 1-3/4&quot; / 1&quot; Series C)</p>
+<p>EXCEPT SUNDAY (1/2&quot; Series C)</p>
+<h5>Notes:</h5>
+<p>1. Sign shall be fabricated by a qualified, professional sign manufacturer approved by LADOT.</p>
+<p>2. Sign size is 18&quot; x 36&quot;, and legend lettering size shall be as noted above. The font is as noted. All lines of legend are to be centered. The border shall be 1/4&quot; wide and spaced 1/4&quot; from edge of sign.</p>
+<p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacture &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
+<p>4. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
 <div class="pclean"><p class="psum"><b>Tow Away No Stopping Peak Period Sign.</b> Fabrication layouts for LADOT Anti-Gridlock Zone tow-away signs with peak-period No Stopping legends. Four versions are shown: 18&quot; x 24&quot; signs reading 4 to 6 PM or 7 to 9 AM and 4 to 6 PM, and 18&quot; x 36&quot; signs that add a 2 Hour or 1 Hour Parking panel below. Each sheet gives lettering sizes and series, the 1/2&quot; corner radius, the 1/4&quot; border, and notes on manufacturer, required bottom markings, and .080 aluminum with SEG Type II graffiti-film sheeting.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sheet 4 of 4. Two-panel sign, 18&quot; wide x 36&quot; high with a 1-1/2&quot; radius. Upper panel:</p>
 <h5>ANTI-GRIDLOCK ZONE, L.A.M.C. 80.70</h5>
 <p>Tow-away graphic</p>
@@ -213,6 +294,12 @@ sidebar:
 <p>Signs shall be installed on two heavy duty sign posts. Signs may not be installed on traffic signal poles, or on street lighting poles. Signs should be installed at a clearance height of 10 feet so they will be less prone to vandalism.</p>
 <p>Authority</p>
 <p>District Office is responsible for determining the exact name and spelling on the sign. Fabrication and installation work orders should be initiated by District Office. Field Operations should install the signs on or before the effective date the new Councilmember assumes office.</p></details></div>
+<div class="pclean"><p class="psum"><b>Council District Field Office Signs.</b> Specification for the blue and white sign identifying a Council District field office. The sign is 36&quot; high by 60&quot; wide with a blue reflectorized background, white letters and border, and 2&quot; corner radius. It is mounted on two heavy duty posts, not on signal or street light poles, at a 10 foot clearance height.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign legend: councilmember name and district, then FIELD OFFICE (Series C lettering, with 4&quot; and 10&quot; spaces between lines). Sign is 36&quot; high x 60&quot; wide with a 2&quot; radius.</p>
+<p>Sign size shall be 36&quot; vertically and 60&quot; horizontally. Background color shall be blue and reflectorized. Letters and border are white. Anti-graffiti film shall be used. Material shall be 0.08 inch minimum thickness aluminum stock. Corners of sign shall be 2 inch radius.</p>
+<p>Installation</p>
+<p>Signs shall be installed on two heavy duty sign posts. Signs may not be installed on traffic signal poles, or on street lighting poles. Signs should be installed at a clearance height of 10 feet so they will be less prone to vandalism.</p>
+<p>Authority</p>
+<p>District Office is responsible for determining the exact name and spelling on the sign. Fabrication and installation work orders should be initiated by District Office. Field Operations should install the signs on or before the effective date the new Councilmember assumes office.</p></details></div>
 <div class="kw">Keywords: council district field office sign, field office sign, councilmember sign, council district, city council sign, sign size 36x60, blue reflective sign, sign installation, sign clearance height, anti-graffiti film, district office sign, sign posts</div>
 
 
@@ -228,6 +315,12 @@ sidebar:
 <p>2. Sign size is 18&quot; x 24&quot;, and legend lettering size shall be as noted above. The font is as noted. All lines of legend are to be centered. The border shall be 1/4&quot; wide and spaced 1/4&quot; from edge of sign.</p>
 <p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacture &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
 <p>4. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
+<div class="pclean"><p class="psum"><b>Tow Away No Stopping In This Area Sign.</b> Fabrication layout for an 18&quot; x 24&quot; LADOT tow-away sign reading NO STOPPING IN THIS AREA with the 3-1-1 impound call line. Notes cover the sign manufacturer, lettering and border, required bottom markings, and .080 aluminum with SEG Type II graffiti-film sheeting.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign legend: NO STOPPING IN THIS AREA (2-1/2&quot; Series C); TO RECOVER IMPOUNDED VEHICLE CALL 3-1-1 (1/2&quot; Series C). Sign is 18&quot; wide x 24&quot; high with a 1-1/2&quot; radius.</p>
+<h5>Notes:</h5>
+<p>1. Sign shall be fabricated by a qualified, professional sign manufacturer approved by LADOT.</p>
+<p>2. Sign size is 18&quot; x 24&quot;, and legend lettering size shall be as noted above. The font is as noted. All lines of legend are to be centered. The border shall be 1/4&quot; wide and spaced 1/4&quot; from edge of sign.</p>
+<p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacture &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
+<p>4. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
 <div class="kw">Keywords: tow away sign, no stopping in this area, no stopping sign, tow away no stopping, sign fabrication, sign legend, 18x24 sign, impounded vehicle call 3-1-1, series C lettering, special event no stopping, temporary no stopping, sign border</div>
 
 
@@ -237,6 +330,13 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-522.0</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0173.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0173.webp" alt="MPP 531 page 173 S-522.0 Tow Away No Stopping Any Time Sign"></a><figcaption>MPP 531, page 173 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
+<div class="pclean"><p class="psum"><b>Tow Away No Stopping Any Time Sign.</b> Fabrication layout for an 18&quot; x 18&quot; LADOT tow-away sign reading NO STOPPING ANY TIME with a double, left or right 1&quot; arrow. The background is white with red text, arrow and border. Notes cover the manufacturer, lettering and border, required bottom markings, and .080 aluminum with SEG Type II graffiti-film sheeting.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign legend: NO STOPPING ANY TIME with arrow; TO RECOVER IMPOUNDED VEHICLE CALL 3-1-1 (1/2&quot; Series C). Sign is 18&quot; x 18&quot; with a 1&quot; radius.</p>
+<h5>Notes:</h5>
+<p>1. Sign shall be fabricated by a qualified, professional sign manufacturer approved by LADOT.</p>
+<p>2. Sign size is 18&quot; x 18&quot;, and legend lettering size shall be as noted above. The arrow is 1&quot; in height and can be Double, Left or Right. All lines of legend are to be centered. The border shall be 1/4&quot; wide and spaced 1/4&quot; from edge of sign.</p>
+<p>3. All signs shall include (reading left to right) at the bottom of the sign the following information: a) if fabricated by a private contractor, a manufacture &quot;code&quot; and date of fabrication e.g. &quot;SM 09/05&quot;, b) &quot;Property of City of Los Angeles&quot;, c) LADOT Stock Number (four numbers).</p>
+<p>4. The background color is white. All text, arrow and border are red.</p>
+<p>5. Sign shall be made of .080 aluminum and have reflective SEG Type II material with graffiti film.</p></details></div>
 <div class="pclean"><p class="psum"><b>Tow Away No Stopping Any Time Sign.</b> Fabrication layout for an 18&quot; x 18&quot; LADOT tow-away sign reading NO STOPPING ANY TIME with a double, left or right 1&quot; arrow. The background is white with red text, arrow and border. Notes cover the manufacturer, lettering and border, required bottom markings, and .080 aluminum with SEG Type II graffiti-film sheeting.</p><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Sign legend: NO STOPPING ANY TIME with arrow; TO RECOVER IMPOUNDED VEHICLE CALL 3-1-1 (1/2&quot; Series C). Sign is 18&quot; x 18&quot; with a 1&quot; radius.</p>
 <h5>Notes:</h5>
 <p>1. Sign shall be fabricated by a qualified, professional sign manufacturer approved by LADOT.</p>

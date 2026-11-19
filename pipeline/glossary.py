@@ -133,6 +133,8 @@ G = [
  ("radius", "geo", "curb radius", ["corner radius", "curb return", "BCR", "ECR", "effective turning radius", "tight corner"]),
  ("sightdist", "geo", "sight distance", ["stopping sight distance", "intersection sight distance", "sight triangle", "visibility triangle", "restricted sight distance"]),
  ("xsection", "geo", "street cross-section", ["roadway width", "right of way", "R/W", "lane width", "street classification", "major highway", "secondary highway", "collector street", "local street", "Avenue I", "Boulevard II", "hillside street"]),
+ ("lanewidth", "geo", "lane width", ["travel lane width", "lane widths", "narrow lanes", "10.5 foot lane", "11 foot lane", "12 foot lane", "minimum lane width", "lane diet", "HDM 301.1"]),
+ ("dib", "ops", "design information bulletin", ["DIB", "Caltrans DIB", "design bulletin", "policy memo", "Complete Streets Committee guidance", "CSC guidance", "design memo"]),
  ("roaddiet", "geo", "road diet", ["lane reconfiguration", "rechannelization", "complete street", "4 to 3 conversion"]),
  ("interchange", "geo", "interchange", ["freeway ramp", "on-ramp", "off-ramp", "ramp terminal", "diamond interchange", "exit ramp", "entrance ramp"]),
  ("gradesep", "geo", "grade separation", ["overpass", "underpass", "undercrossing", "freeway overcrossing"]),
