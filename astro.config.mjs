@@ -29,7 +29,7 @@ const guideCfg = JSON.parse(fs.readFileSync('./pipeline/config/guides.json', 'ut
 const guideDocs = guideCfg.map((c) => ({ label: c.short, link: `/${c.slug}/` }));
 const refCards = JSON.parse(fs.readFileSync('./data/refcards.json', 'utf8')).map((g) => ({ label: g.short + ' (outline)', link: `/guides/${g.slug}/` }));
 const agencyCfg = JSON.parse(fs.readFileSync('./pipeline/config/agencies.json', 'utf8'));
-const agencyDocs = agencyCfg.map((c) => ({ label: c.title.replace(/^City of /, '').replace(/ Department.*$/, '').replace(/ Public Works.*$/, '') + ' standard plans', link: `/${c.slug}/` }));
+const agencyDocs = agencyCfg.filter((c) => !c.slug.includes('la28')).map((c) => ({ label: c.title.replace(/^City of /, '').replace(/ Department.*$/, '').replace(/ Public Works.*$/, '') + ' standard plans', link: `/${c.slug}/` }));
 const ladotDocs = ladotCfg.map((c) => {
   const d = JSON.parse(fs.readFileSync(`./data/docs/${c.slug.replace('/', '__')}.json`, 'utf8'));
   return { label: c.short, collapsed: true, items: [
@@ -97,7 +97,7 @@ export default defineConfig({
           { label: 'Red Book signal provisions', link: '/ladot/red-book/' },
         ] },
         { label: 'Source documents', items: [
-          { label: 'CA MUTCD 2026', collapsed: true, items: [{ label: 'About this manual', link: '/ca-mutcd/' }, ...caParts] },
+          { label: 'CA MUTCD 2026', collapsed: true, items: [{ label: 'About this manual', link: '/ca-mutcd/' }, ...caParts, { label: 'LA28 Supplement (Games Route Network)', link: '/caltrans/la28-supplement/' }] },
           { label: 'Federal MUTCD 11th Ed. Rev. 1', collapsed: true, items: [{ label: 'About this manual', link: '/mutcd/' }, ...fedParts] },
           { label: 'LADOT', collapsed: true, items: [{ label: 'All LADOT documents', link: '/ladot/' }, ...ladotDocs] },
           { label: 'Other agencies', collapsed: true, items: agencyDocs },

@@ -19,6 +19,6 @@ Parking lots and structures serving buildings and facilities (off-street). On-st
 - Signs identifying electric vehicle charging spaces follow 11B-812.8 (11B-216.5.2).
 - The 2025 CBC took effect January 1, 2026. Projects permitted under the 2022 CBC follow that edition.
 
-See the official DSA references for the full sign content, mounting height and pavement marking requirements.
+Caltrans 2026 Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90a/">A90A</a> shows off-street accessible parking and <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90b/">A90B</a> on-street accessible parking for State work. See the official code text for the full sign content, mounting height and pavement marking requirements.
 
 <p class="bul-foot">Plain-language digest with section references, checked against the official copy on November 18, 2026. Cite the official document, and check the issuing agency's list before relying on it, since bulletins are revised and retired without notice. Back to <a href="/SoCal-Super-Standards/bulletins/">all bulletins and policy memos</a> or the <a href="/SoCal-Super-Standards/bulletins/lane-widths/">lane width comparison</a>.</p>

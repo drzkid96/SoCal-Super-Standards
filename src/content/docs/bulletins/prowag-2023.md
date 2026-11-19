@@ -23,7 +23,7 @@ The table paraphrases the guidelines. Use the official text for design.
 
 ## How this relates to other references on this site
 
-- Caltrans curb ramp details: 2026 Standard Plans A88A and A88B (October 19, 2026 edition) and DIB 82-06.
+- Caltrans curb ramp and accessible parking details: 2026 Standard Plans <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a88a/">A88A</a>, <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a88b/">A88B</a>, <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90a/">A90A</a> (off-street) and <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90b/">A90B</a> (on-street).
 - U.S. Access Board curb ramp guide: <a href="/SoCal-Super-Standards/ada/curb-ramps/">on this site</a>.
 - LADOT on-street placement: <a href="/SoCal-Super-Standards/bulletins/ladot-accessible-parking-2017/">Accessible Parking Zones</a> and the blue curb rules on the <a href="/SoCal-Super-Standards/ladot/curb-paint/">curb paint page</a>.
 - CA MUTCD 2026 deleted the California pushbutton signs R62A(CA), R62B(CA), R62C(CA) and R62E(CA). Use the federal pushbutton signs in CA MUTCD 2026 instead (see the <a href="/SoCal-Super-Standards/bulletins/standards-status/">standards status page</a>).

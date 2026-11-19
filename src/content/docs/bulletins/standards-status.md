@@ -11,7 +11,7 @@ Checked November 18, 2026. Every page on this site shows a **Checks** panel (rig
 |---|---|---|
 | California MUTCD | 2026 Edition, effective January 18, 2026 | Governs on all California streets. Caltrans has a revision in process through the CTCDC to adopt federal Revision 1. |
 | Federal MUTCD | 11th Edition Revision 1, effective March 5, 2026 | States have two years to adopt. Reference only in California until the CA MUTCD revision takes effect. |
-| Caltrans Standard Plans | 2026 edition (revision digest October 19, 2026) | Supersedes the 2018 Standard Plans shown on this site. A20 pavement marker details revised (Types G and H). |
+| Caltrans Standard Plans | 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026) | On this site: A20A to A24L, A88A, A88B, A90A and A90B. Supersedes the 2018 sheets also shown here. The A20A marker details for Types G and H were revised. |
 | Caltrans Highway Design Manual | Updated August 8, 2025 | Lane width design values are in DIB 94. |
 | California Building Code, Chapter 11B | 2025 edition, effective January 1, 2026 | Governs off-street accessible parking signs and markings. |
 | PROWAG (36 CFR 1190) | Final, August 8, 2023 | Enforceable for transit stops in the public right-of-way (U.S. DOT, effective January 17, 2025). Not adopted by DOJ; best available guidance elsewhere. |

@@ -16,7 +16,7 @@ for f in sorted(glob.glob("data/clean/*.json")):
 json.dump(U, open("data/clean.json", "w"), indent=0)
 # pass 2: full sheet descriptions and fully interpreted notes for scanned sheets, read from the images
 P2 = {}
-for f in sorted(glob.glob("data/clean2/*.json")) + sorted(glob.glob("data/clean3/*.json")) + sorted(glob.glob("data/clean4/*.json")):
+for f in sorted(glob.glob("data/clean2/*.json")) + sorted(glob.glob("data/clean3/*.json")) + sorted(glob.glob("data/clean4/*.json")) + sorted(glob.glob("data/clean5/*.json")) + sorted(glob.glob("data/clean6/*.json")):
     for r in json.load(open(f)):
         P2[(r["id"].split("|")[0], int(r["page"]))] = r
 
@@ -60,7 +60,7 @@ for f in sorted(glob.glob("data/docs/*__*.json")):
             u = U[f"{slug}|p{p['page']}"]
         if not u and (slug, p["page"]) in P2:
             r = P2[(slug, p["page"])]
-            u = {"title": r.get("detail_title") or r.get("title", ""), "summary": r.get("summary", ""), "keywords": [],
+            u = {"title": r.get("detail_title") or r.get("title", ""), "summary": r.get("summary", ""), "keywords": r.get("keywords", []),
                  "sheets": [{"page": p["page"], "notes": r.get("notes", "")}]}
         if not u:
             continue

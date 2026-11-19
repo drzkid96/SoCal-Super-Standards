@@ -55,18 +55,24 @@ def svg(rec):
     out.append("</svg>")
     return "\n".join(out)
 
-# Detail -> sheet, read from the 2018 sheets themselves (deleted details left out)
-CT_SHEETS = {
- "A20A": "1 2 5 6 8 9 9A 11 12 12A 15 16 18 19 21 22",
- "A20B": "24 25 25A 26 27 27B 27C 28 29 31 32 34 34A 35 35A",
- "RSP A20D": "38 38A 38B 38D 39 39A 40 41",
-}
-CT = {}
-if os.path.exists("data/docs/caltrans__standard-plans-2018.json"):
-    pages = json.load(open("data/docs/caltrans__standard-plans-2018.json"))["pages"]
-    for sheet, dets in CT_SHEETS.items():
-        pg = next((p for p in pages if p["drawings"] and p["drawings"][0].upper() == sheet.replace("RSP ", "")), None)
-        if pg:
+# Detail -> sheet. Prefer the 2026 Standard Plans (read from the sheets' own detail labels, deleted details left out);
+# fall back to the 2018 sheets when the 2026 set is not loaded.
+CT, CT_ED = {}, ""
+if os.path.exists("data/caltrans_2026_details.json") and os.path.exists("data/docs/caltrans__standard-plans-2026.json"):
+    m = json.load(open("data/caltrans_2026_details.json"))
+    for sheet, dets in m["sheets"].items():
+        for dn in dets:
+            CT[dn] = (sheet, "/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-" + sheet.lower() + "/")
+    CT_DEL, CT_ED = set(m["deleted"]), "2026"
+else:
+    CT_SHEETS = {
+     "A20A": "1 2 5 6 8 9 9A 11 12 12A 15 16 18 19 21 22",
+     "A20B": "24 25 25A 26 27 27B 27C 28 29 31 32 34 34A 35 35A",
+     "RSP A20D": "38 38A 38B 38D 39 39A 40 41",
+    }
+    CT_DEL, CT_ED = set(), "2018"
+    if os.path.exists("data/docs/caltrans__standard-plans-2018.json"):
+        for sheet, dets in CT_SHEETS.items():
             for dn in dets.split():
                 CT[dn] = (sheet, "/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-" + sheet.replace("RSP ", "").lower() + "/")
 rows_html, data = [], []
@@ -85,7 +91,7 @@ for rec in D:
     pattern = f'{rec["seg"]} ft line / {rec["gap"]} ft gap ({rec["cycle"]} ft cycle)' if rec.get("seg") else ("Continuous" if "olid" in rec["type"] else rec["type"])
     rec2 = {"detail": k, "function": rec["fn"], "use_case": rec["sub"], "color": rec["color"], "type": rec["type"], "pattern": pattern,
             "segment_ft": rec.get("seg"), "gap_ft": rec.get("gap"), "cycle_ft": rec.get("cycle"), "spacing": rec.get("spacing", ""),
-            "markers": rec["markers"], "speed": rec["speed"], "policy": use, "figure": rec["fig"], "plan_sheet": (f"Caltrans Std. Plan {CT[k][0]} (2018 edition, shown on this site)" if k in CT else rec.get("plan", "Caltrans Std. Plans A20A to A20D")),
+            "markers": rec["markers"], "speed": rec["speed"], "policy": use, "figure": rec["fig"], "plan_sheet": (f"Caltrans Std. Plan {CT[k][0]} ({CT_ED} edition)" if k in CT else (f"Deleted from the Caltrans {CT_ED} Standard Plans" if k in CT_DEL else rec.get("plan", "Caltrans Std. Plans A20A to A20F"))),
             "plan_url": CT[k][1] if k in CT else "",
             "drawing": pic, "source_crop": crop, "url": f"{BASE}/markings/line-types/#detail-{k.lower()}"}
     data.append(rec2)
@@ -147,7 +153,7 @@ Details grouped by line and gap geometry.
 - **Marker legend:**
 <ul class="lt-legend">{mk}</ul>
 
-- **Plan sheet references** come from the Caltrans 2018 Standard Plans sheets on this site (A20A, A20B, RSP A20D), read from each sheet's detail labels, or from a local standard that cites the sheet. Caltrans has issued newer editions since 2018, so check the current edition's sheet before citing it in a contract.
+- **Plan sheet references** come from the Caltrans 2026 Standard Plans sheets on this site (A20A to A20F, dated September 18, 2026), read from each sheet's detail labels. Details Caltrans has deleted are marked as deleted. The 2018 sheets remain on the site for reference only.
 
 <script>
 (function(){{const $=id=>document.getElementById(id);const rows=[...document.querySelectorAll('#lt .ltc')];

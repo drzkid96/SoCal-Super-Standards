@@ -80,13 +80,13 @@ for x in det:
     if x["src"].startswith("Caltrans Std. Plans 2018"):
         add(x["url"], "warn", "Caltrans 2026 Standard Plans supersede the 2018 sheets",
             "Caltrans issued the 2026 Standard Plans (revision digest October 19, 2026). The A20 pavement marker details were revised, including Types G and H markers. Check the 2026 sheet before citing this one on a State highway project.",
-            [("Caltrans Standard Plans (current)", CT26), ("Standards status", f"{B}/standards-status/")], x["num"])
+            [("Caltrans 2026 sheets on this site", f"{BASE}/caltrans/standard-plans-2026/"), ("Caltrans Standard Plans (official)", CT26)], x["num"])
 for f in glob.glob("src/content/docs/caltrans/standard-plans-2018/**/*.md", recursive=True):
     p = f[len("src/content/docs"):-3]
     p = BASE + (p[:-6] if p.endswith("/index") else p) + "/"
     add(p, "warn", "Caltrans 2026 Standard Plans supersede the 2018 sheets",
         "Caltrans issued the 2026 Standard Plans (revision digest October 19, 2026). The A20 pavement marker details were revised, including Types G and H markers.",
-        [("Caltrans Standard Plans (current)", CT26), ("Standards status", f"{B}/standards-status/")])
+        [("Caltrans 2026 sheets on this site", f"{BASE}/caltrans/standard-plans-2026/"), ("Caltrans Standard Plans (official)", CT26)])
 
 # ---------------------------------------------------------------- rule: deleted CA signs referenced
 sign_re = re.compile(r"\b([A-Z]{1,3}\d{1,3}(?:-\d{1,3})?[A-Z]{0,2}(?:-\d)?[A-Z]?)\s?\((?:CA)\)")
@@ -126,6 +126,28 @@ for f in glob.glob("src/content/docs/ca-mutcd/*.md"):
         "FHWA issued MUTCD 11th Edition Revision 1 (effective March 5, 2026). Caltrans has a CA MUTCD revision in process through the CTCDC. This edition governs until that revision takes effect.",
         [("Standards status", f"{B}/standards-status/")])
 
+# ---------------------------------------------------------------- rule: LA28 Supplement amends CA MUTCD chapters on the GRN
+L28 = f"{BASE}/caltrans/la28-supplement/"
+l28_secs = collections.defaultdict(lambda: collections.OrderedDict())
+for f in sorted(glob.glob("src/content/docs/caltrans/la28-supplement/*.md")):
+    t = open(f).read()
+    for sec in re.findall(r"<p><a href=\"[^\"]*/s/ca/(\d[A-Z])\.(\d{2,3})/\">Section \1\.\2</a> [A-Z]", t):
+        l28_secs[sec[0]][sec[0] + "." + sec[1]] = page_path(f)
+    add(page_path(f), "info", "LA28 Supplement applies only on the Games Route Network",
+        "These provisions supplement CA MUTCD 2026 for roadways in the established Games Route Network (GRN). LA28 and PERMIT ONLY markings are in place from June 1 to September 1, 2028 and are then removed and the prior markings restored.",
+        [("CA MUTCD 2026", f"{BASE}/ca-mutcd/"), ("LADOT 2028 Games Corridors guide", f"{BASE}/ladot/games-corridors/")])
+for ch, secs in l28_secs.items():
+    first = next(iter(secs.values()))
+    for root, lab in (("ca-mutcd", "warn"), ("mutcd", "info")):
+        if os.path.exists(f"src/content/docs/{root}/{ch.lower()}.md"):
+            add(f"{BASE}/{root}/{ch.lower()}/", "info", f"LA28 Supplement amends Chapter {ch} on the Games Route Network",
+                f"On GRN roadways during the 2028 Games, the LA28 Supplement (effective July 15, 2026) adds to Section{'s' if len(secs) > 1 else ''} {', '.join(list(secs)[:10])}{' and others' if len(secs) > 10 else ''}.",
+                [("LA28 Supplement, Chapter " + ch, first), ("LA28 Supplement overview", L28)])
+for f in glob.glob("src/content/docs/ladot/games-corridors/*.md"):
+    add(page_path(f), "info", "CA MUTCD LA28 Supplement (July 15, 2026)",
+        "Caltrans' LA28 Supplement sets the LA28 plaques and panels (light blue), PERMIT ONLY signs, LA28 word markings and CMS messages for Games Route Network lanes. Check it against this guide's details.",
+        [("LA28 Supplement", L28)])
+
 # ---------------------------------------------------------------- rule: concept-driven guidance in effect
 RULES = [
     ({"lanewidth", "xsection", "dib"}, "Lane widths: DIB 94, MPP 531 and BOE differ",
@@ -145,13 +167,13 @@ RULES = [
      [("Lane Reconfiguration (2023)", f"{B}/ladot-lane-reconfiguration-2023/")]),
     ({"curbramp", "dws", "ada"}, "PROWAG and current curb ramp details",
      "PROWAG (2023) is enforceable at transit stops through U.S. DOT and is the current federal guidance elsewhere. Detectable warnings must be at least 24 in. deep and contrast visually. Caltrans 2026 Standard Plans A88A and A88B carry the current State curb ramp details.",
-     [("PROWAG digest", f"{B}/prowag-2023/"), ("Curb ramp guide", f"{BASE}/ada/curb-ramps/")]),
+     [("PROWAG digest", f"{B}/prowag-2023/"), ("Caltrans 2026 A88A", f"{BASE}/details/caltrans/caltrans-std-plans-2026-a88a/"), ("Curb ramp guide", f"{BASE}/ada/curb-ramps/")]),
     ({"aps", "pushbutton"}, "Accessible pedestrian signals and pushbutton signs",
      "PROWAG R209 requires accessible pedestrian signals wherever pedestrian signals are provided. CA MUTCD 2026 deleted the California R62 pushbutton signs: use the current pushbutton signs in CA MUTCD 2026.",
      [("PROWAG digest", f"{B}/prowag-2023/"), ("Deleted CA signs", f"{B}/standards-status/#deleted-california-signs")]),
     ({"disparking"}, "Accessible parking: CBC 2025 and PROWAG",
      "Off-street spaces follow the 2025 CBC Chapter 11B (effective January 1, 2026). On-street spaces follow LADOT Accessible Parking Zones in Los Angeles, with PROWAG R214 as federal guidance.",
-     [("CBC 11B digest", f"{B}/ca-accessible-parking-2026/"), ("LADOT Accessible Parking Zones", f"{B}/ladot-accessible-parking-2017/"), ("PROWAG digest", f"{B}/prowag-2023/")]),
+     [("CBC 11B digest", f"{B}/ca-accessible-parking-2026/"), ("LADOT Accessible Parking Zones", f"{B}/ladot-accessible-parking-2017/"), ("Caltrans 2026 A90B on-street", f"{BASE}/details/caltrans/caltrans-std-plans-2026-a90b/")]),
 ]
 GL = {g["id"]: [g["term"].lower()] + [a.lower() for a in g.get("aka", [])] for g in json.load(open("public/data/glossary.json"))}
 
@@ -187,7 +209,7 @@ in_lib = [c for c in signs if re.sub(r"\s+", "", c.upper()) in DEL]
 rows = "\n".join(f"| {a} | {b} | {c} |" for a, b, c in [
     ("California MUTCD", "2026 Edition, effective January 18, 2026", "Governs on all California streets. Caltrans has a revision in process through the CTCDC to adopt federal Revision 1."),
     ("Federal MUTCD", "11th Edition Revision 1, effective March 5, 2026", "States have two years to adopt. Reference only in California until the CA MUTCD revision takes effect."),
-    ("Caltrans Standard Plans", "2026 edition (revision digest October 19, 2026)", "Supersedes the 2018 Standard Plans shown on this site. A20 pavement marker details revised (Types G and H)."),
+    ("Caltrans Standard Plans", "2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)", "On this site: A20A to A24L, A88A, A88B, A90A and A90B. Supersedes the 2018 sheets also shown here. The A20A marker details for Types G and H were revised."),
     ("Caltrans Highway Design Manual", "Updated August 8, 2025", "Lane width design values are in DIB 94."),
     ("California Building Code, Chapter 11B", "2025 edition, effective January 1, 2026", "Governs off-street accessible parking signs and markings."),
     ("PROWAG (36 CFR 1190)", "Final, August 8, 2023", "Enforceable for transit stops in the public right-of-way (U.S. DOT, effective January 17, 2025). Not adopted by DOJ; best available guidance elsewhere."),

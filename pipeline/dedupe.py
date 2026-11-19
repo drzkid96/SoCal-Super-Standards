@@ -14,7 +14,7 @@ from collections import defaultdict
 from PIL import Image
 
 BASE = "/SoCal-Super-Standards"
-PRI = ["MPP 531", "MPP 521", "Red Book", "Burbank Std. Plans", "Pasadena Std. Plans", "Caltrans Std. Plans 2018"]
+PRI = ["MPP 531", "MPP 521", "Red Book", "Burbank Std. Plans", "Pasadena Std. Plans", "Caltrans Std. Plans 2026", "Caltrans Std. Plans 2018"]
 det = json.load(open("public/data/details.json"))
 
 def dhash(url):

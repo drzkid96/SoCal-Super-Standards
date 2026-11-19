@@ -266,9 +266,9 @@
   "agency": "Caltrans",
   "title": "Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D)",
   "short": "Caltrans Std. Plans 2018",
-  "edition": "2018 edition (RSP A20D dated 10-19-18); superseded by later Caltrans Standards",
+  "edition": "2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans",
   "publisher": "California Department of Transportation",
-  "note": "Superseded: Caltrans has issued 2022, 2023, 2024, 2025 and 2026 Standards. Use the current edition for new work.",
+  "note": "Superseded by the Caltrans 2026 Standard Plans (also on this site). Use the 2026 sheets for new work.",
   "mode": "chunk",
   "chunk": 6,
   "page_labels": {
@@ -312,6 +312,246 @@
    }
   },
   "dwg_re": "\\b(A2[04][A-Z])\\b",
+  "dwg_norm": false,
+  "carry_label": false
+ },
+ {
+  "slug": "caltrans/la28-supplement",
+  "path": "/home/claude/work/agency/caltrans-la28-supplement-2026.pdf",
+  "agency": "Caltrans",
+  "title": "CA MUTCD 2026 LA28 Supplement (2028 Olympic and Paralympic Games Route Network)",
+  "short": "LA28 Supplement",
+  "edition": "July 15, 2026 (effective July 15, 2026, FHWA accepted)",
+  "publisher": "California Department of Transportation",
+  "note": "Not copyrighted; may be reprinted freely",
+  "skip_pages": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "chapters": [
+   [
+    "Cover and release letter",
+    1,
+    4
+   ],
+   [
+    "Introduction",
+    20,
+    21
+   ],
+   [
+    "Part 1: Definitions, color code and abbreviations",
+    22,
+    24
+   ],
+   [
+    "Chapter 2A: General (LA28 plaques, panels and light blue)",
+    25,
+    30
+   ],
+   [
+    "Chapter 2B: Regulatory signs",
+    31,
+    33
+   ],
+   [
+    "Chapter 2D: Guide signs, conventional roads",
+    34,
+    38
+   ],
+   [
+    "Chapter 2E: Guide signs, freeways and expressways",
+    39,
+    40
+   ],
+   [
+    "Chapter 2G: Preferential and managed lane signs (GRN lanes)",
+    41,
+    61
+   ],
+   [
+    "Chapter 2L: Changeable message signs",
+    62,
+    67
+   ],
+   [
+    "Part 3: Pavement markings (LA28 and PERMIT ONLY)",
+    68,
+    74
+   ],
+   [
+    "Part 4: Traffic signals",
+    75,
+    75
+   ],
+   [
+    "Part 6: Temporary traffic control",
+    76,
+    77
+   ]
+  ]
+ },
+ {
+  "slug": "caltrans/standard-plans-2026",
+  "path": "/home/claude/work/agency/caltrans-standard-plans-2026-markings-ada.pdf",
+  "agency": "Caltrans",
+  "title": "Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B)",
+  "short": "Caltrans Std. Plans 2026",
+  "edition": "2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)",
+  "publisher": "California Department of Transportation",
+  "note": "Current edition. Supersedes the 2018 sheets on this site.",
+  "mode": "chunk",
+  "chunk": 6,
+  "page_labels": {
+   "1": "A20A Pavement Markers and Traffic Lines, Typical Details",
+   "2": "A20B Pavement Markers and Traffic Lines, Typical Details",
+   "3": "A20C Pavement Markers and Traffic Lines, Typical Details",
+   "4": "A20D Pavement Markers and Traffic Lines, Typical Details",
+   "5": "A20E Traffic Lines, Typical Details for Contrast Striping",
+   "6": "A20F Pavement Markers and Traffic Lines, Typical Details",
+   "7": "A20G Exit Ramp with Enhanced Pavement Markers for Wrong Way Details",
+   "8": "A24A Pavement Markings, Arrows",
+   "9": "A24B Pavement Markings, Arrows and Symbols",
+   "10": "A24C Pavement Markings, Symbols and Numerals",
+   "11": "A24D Pavement Markings, Words",
+   "12": "A24E Pavement Markings, Words",
+   "13": "A24F Pavement Markings, Crosswalks",
+   "14": "A24G Pavement Markings, Yield Lines, Limit Lines and Wrong Way Details",
+   "15": "A24H Pavement Markings, Arrows",
+   "16": "A24J Pavement Markings, Speed Measurement",
+   "17": "A24K Pavement Markings, Bicycle Obstruction Markings",
+   "18": "A24L Pavement Markings, Speed Reduction",
+   "19": "A88A Curb Ramp Details",
+   "20": "A88B Curb Ramp and Island Passageway Details",
+   "21": "A90A Accessible Parking Off-Street",
+   "22": "A90B Accessible Parking On-Street"
+  },
+  "drawing_titles": {
+   "A20A": {
+    "title": "Pavement Markers and Traffic Lines, Typical Details",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A20B": {
+    "title": "Pavement Markers and Traffic Lines, Typical Details",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A20C": {
+    "title": "Pavement Markers and Traffic Lines, Typical Details",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A20D": {
+    "title": "Pavement Markers and Traffic Lines, Typical Details",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A20E": {
+    "title": "Traffic Lines, Typical Details for Contrast Striping",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A20F": {
+    "title": "Pavement Markers and Traffic Lines, Typical Details",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A20G": {
+    "title": "Exit Ramp with Enhanced Pavement Markers for Wrong Way Details",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24A": {
+    "title": "Pavement Markings, Arrows",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24B": {
+    "title": "Pavement Markings, Arrows and Symbols",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24C": {
+    "title": "Pavement Markings, Symbols and Numerals",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24D": {
+    "title": "Pavement Markings, Words",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24E": {
+    "title": "Pavement Markings, Words",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24F": {
+    "title": "Pavement Markings, Crosswalks",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24G": {
+    "title": "Pavement Markings, Yield Lines, Limit Lines and Wrong Way Details",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24H": {
+    "title": "Pavement Markings, Arrows",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24J": {
+    "title": "Pavement Markings, Speed Measurement",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24K": {
+    "title": "Pavement Markings, Bicycle Obstruction Markings",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A24L": {
+    "title": "Pavement Markings, Speed Reduction",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A88A": {
+    "title": "Curb Ramp Details",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A88B": {
+    "title": "Curb Ramp and Island Passageway Details",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A90A": {
+    "title": "Accessible Parking Off-Street",
+    "sheets": 1,
+    "date": "09-18-26"
+   },
+   "A90B": {
+    "title": "Accessible Parking On-Street",
+    "sheets": 1,
+    "date": "09-18-26"
+   }
+  },
+  "dwg_re": "\\b(A2[04][A-Z]|A88[AB]|A90[AB])\\b",
   "dwg_norm": false,
   "carry_label": false
  }
