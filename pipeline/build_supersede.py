@@ -153,11 +153,20 @@ RULES = [
      "Off-street spaces follow the 2025 CBC Chapter 11B (effective January 1, 2026). On-street spaces follow LADOT Accessible Parking Zones in Los Angeles, with PROWAG R214 as federal guidance.",
      [("CBC 11B digest", f"{B}/ca-accessible-parking-2026/"), ("LADOT Accessible Parking Zones", f"{B}/ladot-accessible-parking-2017/"), ("PROWAG digest", f"{B}/prowag-2023/")]),
 ]
+GL = {g["id"]: [g["term"].lower()] + [a.lower() for a in g.get("aka", [])] for g in json.load(open("public/data/glossary.json"))}
+
+
+def strong(x, cid):
+    """Concept named in the drawing's own title, keywords or summary (not only in sheet notes)."""
+    t = " ".join([x.get("title", ""), x.get("kw", ""), x.get("sum", "")]).lower()
+    return any(re.search(r"\b" + re.escape(w) + r"\b", t) for w in GL.get(cid, []))
+
+
 STRONG_TYPES = {"Standard drawing", "Figure page", "Figure", "Marking", "Line type"}
 for x in det:
     if x["type"] not in STRONG_TYPES or x["src"].endswith("bulletins"):
         continue
-    cs = set(x.get("c", []))
+    cs = {c for c in x.get("c", []) if strong(x, c)}
     for ids, title, text, links in RULES:
         if cs & ids and not any(l[1].split("#")[0] == x["url"].split("#")[0] for l in links):
             add(x["url"], "info", title, text, links, x["num"])
