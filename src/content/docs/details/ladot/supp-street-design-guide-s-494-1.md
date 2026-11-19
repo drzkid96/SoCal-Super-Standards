@@ -1,6 +1,6 @@
 ---
-title: "S-481.1 Pedestrian Island Channelized Right Turn"
-description: "Supp. Street Design Guide standard drawing S-481.1: Pedestrian Island Channelized Right Turn. Sheets showing a raised crosswalk at a pedestrian island on a channelized right turn, with and without a bike lane."
+title: "S-494.1 Channelized Right Turns With Raised Crosswalks"
+description: "Supp. Street Design Guide standard drawing S-494.1: Channelized Right Turns With Raised Crosswalks. LADOT standard drawing S-494.1 sheet 1 of 2 as reproduced in the guide appendix."
 tableOfContents: false
 ---
 

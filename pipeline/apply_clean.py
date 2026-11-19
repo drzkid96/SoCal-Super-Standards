@@ -16,7 +16,7 @@ for f in sorted(glob.glob("data/clean/*.json")):
 json.dump(U, open("data/clean.json", "w"), indent=0)
 # pass 2: full sheet descriptions and fully interpreted notes for scanned sheets, read from the images
 P2 = {}
-for f in sorted(glob.glob("data/clean2/*.json")):
+for f in sorted(glob.glob("data/clean2/*.json")) + sorted(glob.glob("data/clean3/*.json")):
     for r in json.load(open(f)):
         P2[(r["id"].split("|")[0], int(r["page"]))] = r
 
@@ -56,6 +56,10 @@ for f in sorted(glob.glob("data/docs/*__*.json")):
             u = U[f"{slug}|{p['drawings_orig'][0]}"]
         elif f"{slug}|p{p['page']}" in U:
             u = U[f"{slug}|p{p['page']}"]
+        if not u and (slug, p["page"]) in P2:
+            r = P2[(slug, p["page"])]
+            u = {"title": r.get("detail_title") or r.get("title", ""), "summary": r.get("summary", ""), "keywords": [],
+                 "sheets": [{"page": p["page"], "notes": r.get("notes", "")}]}
         if not u:
             continue
         sh = next((s for s in u.get("sheets", []) if s.get("page") == p["page"]), None)
@@ -67,7 +71,7 @@ for f in sorted(glob.glob("data/docs/*__*.json")):
             p["clean"]["description"] = r2.get("description", "")
             grp = FG.get(p["drawings"][0], []) if p.get("drawings") else []
             if len(u.get("sheets", [])) <= 1 or nd or sorted(grp) != sorted(x.get("page") for x in u.get("sheets", [])):
-                p["clean"]["title"] = r2.get("title") or p["clean"]["title"]
+                p["clean"]["title"] = r2.get("detail_title") or r2.get("title") or p["clean"]["title"]
                 p["clean"]["summary"] = r2.get("summary") or p["clean"]["summary"]
         if p.get("drawings") and f'{slug}|{p["drawings"][0]}' in OV.get("_titles", {}):
             p["clean"]["title"] = OV["_titles"][f'{slug}|{p["drawings"][0]}']

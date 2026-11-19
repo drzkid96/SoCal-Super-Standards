@@ -12,7 +12,7 @@ sidebar:
 
 <div class="topic-stats"><span><b>87</b> CA MUTCD sections</span><span><b>252</b> standards (shall)</span><span><b>195</b> guidance (should)</span><span><b>181</b> options (may)</span><span><b>72</b> signs</span><span><b>25</b> local standard drawings</span></div>
 
-<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=striping-intersections">Browse all 467 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20lane%20lines,%20striping%20and%20intersection%20markings;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
+<p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=striping-intersections">Browse all 456 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20lane%20lines,%20striping%20and%20intersection%20markings;%20note%20conflicts%20and%20which%20governs.">Ask Claude to compare all sources on this topic</a></p>
 
 ## The rules
 
