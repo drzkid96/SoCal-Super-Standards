@@ -480,7 +480,7 @@ description: Lane widths side by side from Caltrans DIB 94, LADOT MPP 531 and th
 
 Which values apply depends on who owns the street. On a State highway, the HDM (Index 301.1, 12 ft) applies unless a segment uses <a href="{BASE}/bulletins/caltrans-dib-94/">DIB 94</a>, or a project falls under <a href="{BASE}/bulletins/caltrans-dib-79-04/">DIB 79</a>, <a href="{BASE}/bulletins/caltrans-dib-93/">DIB 93</a> or an interchange bulletin. On City of Los Angeles streets, LADOT stripes to <a href="{BASE}/ladot/mpp-531/">MPP 531</a>, and the Bureau of Engineering street standards set the design criteria for new streets.
 
-{table(["Lane", "Caltrans DIB 94 (State highways, opt-in)", "LADOT MPP 531, 02/2023 (striping)", "City of LA BOE E 612.21 (street design)"], LW_ROWS)}
+{table(["Lane", "Caltrans DIB 94 (State highways, opt-in)", "LADOT MPP 531, 02/2023 (striping)", "City of LA BOE E 612.21 (street design)"], [[c or 'Not set' for c in r] for r in LW_ROWS])}
 
 ## State highway cases outside DIB 94
 
