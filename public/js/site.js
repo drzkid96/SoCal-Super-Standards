@@ -129,6 +129,8 @@ window.__openSiteSearch = function (query) {
 
   const HUBS = [
     ['Lane Width Comparison (DIB 94 vs. MPP 531 vs. LA Streets)', BASE + '/bulletins/lane-widths/', 'Tool', 'lane width comparison dib 94 mpp 531 road diet travel lane'],
+    ['Bikeway Design Comparison (HDM Ch. 1000, DIB 89-02, CA MUTCD & AASHTO GBF-5)', BASE + '/bulletins/bikeway-design-comparison/', 'Tool', 'bikeway design comparison aashto gbf-5 hdm 1000 dib 89-02 class iv separated bike lane shared use path sharrow'],
+    ['AASHTO Bike Guide, 5th Edition (GBF-5, 2024) — 16 Chapters, 256 Figures, 50 Tables', BASE + '/guides/aashto-bike-guide/', 'Guide', 'aashto guide for the development of bicycle facilities 5th edition gbf-5 2024 errata bikeway'],
     ['LADOT Curb Paint, Red Curb & S-481.0 Calculator', BASE + '/ladot/curb-paint/', 'Tool', 'red curb paint daylighting blue yellow green white s-481 calculator'],
     ['Line Type Database (Caltrans 2026 Details 1-45)', BASE + '/markings/line-types/', 'Tool', 'line type striping detail 1 2 8 9 12 21 22 25 27b 32 38 39 a20a a20b'],
     ['Standards Status (What Governs & 219 Deleted CA Signs)', BASE + '/bulletins/standards-status/', 'Status', 'standards status superseded current edition deleted california signs'],

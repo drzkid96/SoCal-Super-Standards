@@ -32,6 +32,8 @@ See [Standards status](/SoCal-Super-Standards/bulletins/standards-status/) for w
 | [PROWAG, 36 CFR 1190](/SoCal-Super-Standards/bulletins/prowag-2023/) (U.S. Access Board) | Final, August 8, 2023 | Enforceable at transit stops (U.S. DOT, effective Jan 17, 2025); guidance elsewhere | Digest |
 | [California Building Code Chapter 11B](/SoCal-Super-Standards/bulletins/ca-accessible-parking-2026/) | 2025 edition, effective Jan 1, 2026 | Current | Digest (accessible parking signs) |
 | [U.S. Access Board Guide to the ADA Standards, Ch. 4 Ramps and Curb Ramps](/SoCal-Super-Standards/ada/curb-ramps/) | Current online edition | Current | Full document |
+| [Caltrans HDM Chapter 1000: Bicycle Transportation Design](/SoCal-Super-Standards/bulletins/caltrans-hdm-ch1000/) | 7th Edition, rev. Dec 16, 2024 (eff. Jan 1, 2025) | Current, statutory minimum criteria statewide (SHC &sect; 891) | Verified digest &amp; official Caltrans figures |
+| [AASHTO Guide for the Development of Bicycle Facilities (GBF-5)](/SoCal-Super-Standards/guides/aashto-bike-guide/) | 5th Edition, Dec 2024 (with Dec 2024 Errata) | Current national guidance (supersedes 2012 4th Ed.); CA HDM/DIB/MUTCD govern | Full 16-chapter section, figure, table &amp; errata index |
 | [CPBS Pedestrian Level of Traffic Stress Application and Validation](/SoCal-Super-Standards/guides/cpbs-plts/) | July 2025 | Current research | Outline and page index |
 | [NACTO Urban Street Design Guide](/SoCal-Super-Standards/guides/nacto-urban-street/) and [Urban Bikeway Design Guide](/SoCal-Super-Standards/guides/nacto-urban-bikeway/) | 2013 / third edition | Copyrighted | Outline and page index only |
 

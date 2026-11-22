@@ -1,0 +1,7426 @@
+{
+  "title": "AASHTO Guide for the Development of Bicycle Facilities, 5th Edition",
+  "short": "AASHTO Bike Guide (5th Ed.)",
+  "item_code": "GBF-5",
+  "isbn": "978-1-56051-820-4",
+  "edition": "5th Edition, December 2024 (incorporates December 2024 Errata)",
+  "pages": 626,
+  "checked_date": "November 22, 2026",
+  "url": "https://store.transportation.org/item/publicationdetail/5371",
+  "errata_url": "https://downloads.transportation.org/GBF-5-Errata.pdf",
+  "chapters": [
+    {
+      "num": 1,
+      "title": "Introduction",
+      "status": "Revised",
+      "summary": "Overview of purpose, scope, structure, and range of design values."
+    },
+    {
+      "num": 2,
+      "title": "Bicyclist Operation and Safety",
+      "status": "Revised",
+      "summary": "Bicyclist design user profiles, bicycle types and performance characteristics, operational preferences, and crash/safety challenges."
+    },
+    {
+      "num": 3,
+      "title": "Bicycle Planning",
+      "status": "Revised",
+      "summary": "Low-stress bicycle network principles (safety, comfort, connectivity, legibility), planning processes, and transit integration."
+    },
+    {
+      "num": 4,
+      "title": "Guidance for Choosing a Bikeway Type",
+      "status": "New",
+      "summary": "Bikeway selection framework based on motor vehicle speed, volume, and land-use context (aligned with FHWA Bikeway Selection Guide)."
+    },
+    {
+      "num": 5,
+      "title": "Elements of Design",
+      "status": "New",
+      "summary": "Design controls common across all bikeways: design speed, sight distance, operating space, geometric crossing treatments, and common traffic control devices."
+    },
+    {
+      "num": 6,
+      "title": "Design of Shared Use Paths",
+      "status": "Revised",
+      "summary": "Independently aligned shared use paths (trails/paths/greenways): widths, shoulders, vertical/horizontal curves, grades, barriers, lighting, and roadway crossings."
+    },
+    {
+      "num": 7,
+      "title": "Design of Separated Bike Lanes and Side Paths",
+      "status": "New",
+      "summary": "One-way and two-way separated bike lanes and side paths: street/sidewalk buffers, vertical separation, protected intersections, curb ramps, transit stops, and parking/loading."
+    },
+    {
+      "num": 8,
+      "title": "Bicycle Boulevard Planning and Design",
+      "status": "New",
+      "summary": "Traffic calming, volume management, speed management, and major street crossings on bicycle boulevards (neighborhood greenways)."
+    },
+    {
+      "num": 9,
+      "title": "Design of Shared Lanes and Bike Lanes",
+      "status": "Revised",
+      "summary": "Shared lanes, paved shoulders, conventional bike lanes, and buffered bike lanes at midblock and intersection locations."
+    },
+    {
+      "num": 10,
+      "title": "Traffic Signals and Pedestrian Hybrid Beacons",
+      "status": "New",
+      "summary": "Accommodating bicyclists at traffic signals and PHBs: bicycle signal faces, phasing, clearance intervals, timing, and detection."
+    },
+    {
+      "num": 11,
+      "title": "Bicycle Facility Design at Interchanges, Alternative Intersections, and Roundabouts",
+      "status": "New",
+      "summary": "Design principles for freeway interchanges, DDIs, DLTs, quadrant intersections, and roundabouts."
+    },
+    {
+      "num": 12,
+      "title": "Rural Area Bikeways and Roadways",
+      "status": "New",
+      "summary": "Rural highway and small-town connector bicycle design strategies, shoulders, and rumble strip accommodations."
+    },
+    {
+      "num": 13,
+      "title": "Structures",
+      "status": "New",
+      "summary": "Overpasses, underpasses, bridges, railings, and grade-separated crossings for shared use paths and bikeways."
+    },
+    {
+      "num": 14,
+      "title": "Wayfinding Systems for Bicyclists",
+      "status": "New",
+      "summary": "Bicycle wayfinding sign systems supplementing MUTCD 11th Edition guide sign provisions."
+    },
+    {
+      "num": 15,
+      "title": "Maintenance and Operations",
+      "status": "Revised",
+      "summary": "Maintenance policy, design for maintainability, surface management, sweeping, and operations."
+    },
+    {
+      "num": 16,
+      "title": "Bicycle Parking, Bike Share Siting, and End-of-Trip Facilities",
+      "status": "Revised",
+      "summary": "Short- and long-term bicycle parking, rack design, bike share station siting, and end-of-trip facilities."
+    }
+  ],
+  "sections": [
+    {
+      "level": 1,
+      "chapter": 1,
+      "num": "Ch. 1",
+      "title": "Introduction",
+      "page": "1-2"
+    },
+    {
+      "level": 2,
+      "chapter": 1,
+      "num": "1.1",
+      "title": "Design Imperative for Bicycle Facilities",
+      "page": "1-2"
+    },
+    {
+      "level": 2,
+      "chapter": 1,
+      "num": "1.2",
+      "title": "Purpose",
+      "page": "1-2"
+    },
+    {
+      "level": 2,
+      "chapter": 1,
+      "num": "1.3",
+      "title": "Design Flexibility",
+      "page": "1-3"
+    },
+    {
+      "level": 2,
+      "chapter": 1,
+      "num": "1.4",
+      "title": "Use of Values in the Guide",
+      "page": "1-3"
+    },
+    {
+      "level": 3,
+      "chapter": 1,
+      "num": "1.4.1",
+      "title": "Minimum Range",
+      "page": "1-5"
+    },
+    {
+      "level": 3,
+      "chapter": 1,
+      "num": "1.4.2",
+      "title": "Recommended Values Range",
+      "page": "1-6"
+    },
+    {
+      "level": 3,
+      "chapter": 1,
+      "num": "1.4.3",
+      "title": "Maximum Range",
+      "page": "1-6"
+    },
+    {
+      "level": 3,
+      "chapter": 1,
+      "num": "1.4.4",
+      "title": "Additional Guidance Considerations",
+      "page": "1-6"
+    },
+    {
+      "level": 2,
+      "chapter": 1,
+      "num": "1.5",
+      "title": "Scope",
+      "page": "1-7"
+    },
+    {
+      "level": 2,
+      "chapter": 1,
+      "num": "1.6",
+      "title": "Relationship to Other Design Guides and Manuals",
+      "page": "1-7"
+    },
+    {
+      "level": 3,
+      "chapter": 1,
+      "num": "1.6.1",
+      "title": "Manual on Uniform Traffic Control Devices for Streets and Highways (MUTCD)",
+      "page": "1-7"
+    },
+    {
+      "level": 3,
+      "chapter": 1,
+      "num": "1.6.2",
+      "title": "A Policy on Geometric Design of Highways and Streets (the Green Book)",
+      "page": "1-8"
+    },
+    {
+      "level": 3,
+      "chapter": 1,
+      "num": "1.6.3",
+      "title": "Compliance with ADA and Accessibility Guidelines",
+      "page": "1-9"
+    },
+    {
+      "level": 3,
+      "chapter": 1,
+      "num": "1.6.4",
+      "title": "Guide for the Planning, Design, and Operation of Pedestrian Facilities",
+      "page": "1-10"
+    },
+    {
+      "level": 2,
+      "chapter": 1,
+      "num": "1.7",
+      "title": "Structure of This Guide",
+      "page": "1-11"
+    },
+    {
+      "level": 2,
+      "chapter": 1,
+      "num": "1.8",
+      "title": "Definitions",
+      "page": "1-11"
+    },
+    {
+      "level": 2,
+      "chapter": 1,
+      "num": "",
+      "title": "Chapter 1 References",
+      "page": "1-17"
+    },
+    {
+      "level": 1,
+      "chapter": 2,
+      "num": "Ch. 2",
+      "title": "Bicyclist Operation and Safety",
+      "page": "2-2"
+    },
+    {
+      "level": 2,
+      "chapter": 2,
+      "num": "2.1",
+      "title": "Introduction",
+      "page": "2-2"
+    },
+    {
+      "level": 2,
+      "chapter": 2,
+      "num": "2.2",
+      "title": "Safety of Bikeways and Shared Lanes",
+      "page": "2-2"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.2.1",
+      "title": "Relationship between Perceived Comfort and Substantive Safety",
+      "page": "2-2"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.2.2",
+      "title": "Safety in Numbers",
+      "page": "2-3"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.2.3",
+      "title": "Bicyclist Crash Data",
+      "page": "2-3"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.2.3.1",
+      "title": "Data Source Considerations",
+      "page": "2-3"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.2.3.2",
+      "title": "Highway Safety Manual Considerations",
+      "page": "2-4"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.2.3.3",
+      "title": "Overall Findings",
+      "page": "2-5"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.2.4",
+      "title": "Bicyclist Fatality Data",
+      "page": "2-7"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.2.5",
+      "title": "Contributing Factors of Crashes Involving Bicyclists",
+      "page": "2-9"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.2.5.1",
+      "title": "Motor Vehicle Speed",
+      "page": "2-9"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.2.5.2",
+      "title": "Freight and Other Large Vehicles",
+      "page": "2-10"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.2.5.3",
+      "title": "Wrong-Way Bicycling",
+      "page": "2-10"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.2.5.4",
+      "title": "Parked Vehicles",
+      "page": "2-10"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.2.5.5",
+      "title": "Sidewalk Bicycling",
+      "page": "2-11"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.2.5.6",
+      "title": "Bicycling during Dusk and Evening Hours",
+      "page": "2-11"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.2.5.7",
+      "title": "Other Crashes",
+      "page": "2-12"
+    },
+    {
+      "level": 2,
+      "chapter": 2,
+      "num": "2.3",
+      "title": "Bicyclist Design User Profiles",
+      "page": "2-12"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.3.1",
+      "title": "Highly Confident Bicyclist",
+      "page": "2-13"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.3.2",
+      "title": "Somewhat Confident Bicyclist",
+      "page": "2-14"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.3.3",
+      "title": "Interested but Concerned Bicyclist",
+      "page": "2-14"
+    },
+    {
+      "level": 2,
+      "chapter": 2,
+      "num": "2.4",
+      "title": "Bicyclist Safety and Performance Characteristics",
+      "page": "2-14"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.4.1",
+      "title": "Children",
+      "page": "2-15"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.4.2",
+      "title": "Teens and Young Adults",
+      "page": "2-15"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.4.3",
+      "title": "Adults",
+      "page": "2-16"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.4.4",
+      "title": "Older Adults",
+      "page": "2-16"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.4.5",
+      "title": "People with Disabilities",
+      "page": "2-17"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.4.6",
+      "title": "Baseline Performance Characteristics for Design",
+      "page": "2-18"
+    },
+    {
+      "level": 2,
+      "chapter": 2,
+      "num": "2.5",
+      "title": "Design Vehicle and Bicyclist Operating Criteria",
+      "page": "2-19"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.5.1",
+      "title": "Types of Bicycles (Shapes and Sizes)",
+      "page": "2-19"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.1.1",
+      "title": "Bicyclist Minimum Turning Radius Considerations",
+      "page": "2-19"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.5.2",
+      "title": "Electric Assist Bicycles, Electric Scooters, and Other Power-Driven Mobility Devices",
+      "page": "2-20"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.2.1",
+      "title": "Definition and Regulation of Electric Assist Bicycles",
+      "page": "2-20"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.2.2",
+      "title": "Types of Electric Assist Bicycles and Characteristics",
+      "page": "2-21"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.2.3",
+      "title": "Electric Scooters and Other Power-Driven Mobility Devices",
+      "page": "2-22"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.5.3",
+      "title": "Bicyclist Operating Space",
+      "page": "2-23"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.3.1",
+      "title": "Physical Space",
+      "page": "2-23"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.3.2",
+      "title": "Lateral Shy Distances",
+      "page": "2-24"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.3.2.1",
+      "title": "Intermittent Vertical Elements",
+      "page": "2-24"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.3.2.2",
+      "title": "Traffic Signs, Signposts, and Pushbuttons",
+      "page": "2-24"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.3.2.3",
+      "title": "Continuous Vertical Elements",
+      "page": "2-25"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.3.2.4",
+      "title": "Curb and Gutter",
+      "page": "2-25"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.3.3",
+      "title": "Vertical Clearance",
+      "page": "2-26"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.5.3.4",
+      "title": "Operating Space",
+      "page": "2-26"
+    },
+    {
+      "level": 2,
+      "chapter": 2,
+      "num": "2.6",
+      "title": "Operating Principles for Bicyclists",
+      "page": "2-28"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.6.1",
+      "title": "Bicyclists\u2019 Lateral Position on the Roadway",
+      "page": "2-28"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.6.1.1",
+      "title": "Ride on the Right Provisions",
+      "page": "2-28"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.6.1.2",
+      "title": "Safe Passing Statutes",
+      "page": "2-29"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.6.1.3",
+      "title": "Bicycling in the Same Direction of Motor Vehicle Traffic",
+      "page": "2-29"
+    },
+    {
+      "level": 4,
+      "chapter": 2,
+      "num": "2.6.1.4",
+      "title": "Intersection Destination Positioning for Turns",
+      "page": "2-29"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.6.2",
+      "title": "Bicyclists\u2019 Use of Bikeways",
+      "page": "2-31"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.6.3",
+      "title": "Bicyclists\u2019 Use of Sidewalks and Crosswalks",
+      "page": "2-32"
+    },
+    {
+      "level": 3,
+      "chapter": 2,
+      "num": "2.6.4",
+      "title": "Bicyclists Operating Two Abreast",
+      "page": "2-32"
+    },
+    {
+      "level": 2,
+      "chapter": 2,
+      "num": "2.7",
+      "title": "Guiding Principles for Bicyclist Safety",
+      "page": "2-32"
+    },
+    {
+      "level": 2,
+      "chapter": 2,
+      "num": "",
+      "title": "Chapter 2 References",
+      "page": "2-35"
+    },
+    {
+      "level": 1,
+      "chapter": 3,
+      "num": "Ch. 3",
+      "title": "Bicycle Planning",
+      "page": "3-2"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "3.1",
+      "title": "Introduction",
+      "page": "3-2"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "3.2",
+      "title": "Bicycle Planning Principles",
+      "page": "3-2"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.2.1",
+      "title": "Safety",
+      "page": "3-3"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.2.2",
+      "title": "Comfort",
+      "page": "3-3"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.2.3",
+      "title": "Connectivity",
+      "page": "3-4"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.2.4",
+      "title": "Legibility",
+      "page": "3-5"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "3.3",
+      "title": "Primary Considerations for Bicycle Planning",
+      "page": "3-6"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.3.1",
+      "title": "Geographic Scale",
+      "page": "3-6"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.3.2",
+      "title": "Trip Distance",
+      "page": "3-7"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.3.3",
+      "title": "Trip Purpose",
+      "page": "3-7"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.3.3.1",
+      "title": "Utilitarian Trips",
+      "page": "3-7"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.3.3.1.1",
+      "title": "Work Trips",
+      "page": "3-7"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.3.3.1.2",
+      "title": "School Trips",
+      "page": "3-8"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.3.3.1.3",
+      "title": "Non-Work Trips",
+      "page": "3-8"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.3.3.2",
+      "title": "Social and Recreational Trips",
+      "page": "3-8"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.3.3.2.1",
+      "title": "Mountain Bike Trips",
+      "page": "3-9"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.3.3.2.2",
+      "title": "Visitor Trips",
+      "page": "3-9"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.3.3.3",
+      "title": "Planning for Non-Discretionary Bicycling",
+      "page": "3-10"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "3.4",
+      "title": "Planning for Desired Outcomes",
+      "page": "3-10"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.4.1",
+      "title": "Designing for the Intended Users",
+      "page": "3-10"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.4.1.1",
+      "title": "Low-Stress Bicycle Network",
+      "page": "3-10"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.4.1.2",
+      "title": "Baseline Bicycle Network",
+      "page": "3-11"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.4.1.3",
+      "title": "Traffic-Tolerant Bicycle Network",
+      "page": "3-11"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.4.2",
+      "title": "Bicycle Mode Share Goals",
+      "page": "3-12"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.4.3",
+      "title": "Other Goals and Performance Measures",
+      "page": "3-13"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "3.5",
+      "title": "Deciding Where Bikeways Are Needed",
+      "page": "3-13"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "3.6",
+      "title": "Integrating Bicycle Facilities with Transit: First- and Last-Mile Connections",
+      "page": "3-15"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "3.7",
+      "title": "Bike Parking and End of Trip Support",
+      "page": "3-16"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "3.8",
+      "title": "Types of Transportation Planning Processes",
+      "page": "3-16"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.8.1",
+      "title": "Comprehensive Transportation Plans",
+      "page": "3-16"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.8.2",
+      "title": "Bicycle Master Plans",
+      "page": "3-17"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.8.2.1",
+      "title": "Coordination with Other Documents and Planning Processes",
+      "page": "3-17"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.8.2.2",
+      "title": "Typical Plan Contents",
+      "page": "3-18"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.8.3",
+      "title": "Transportation Impact/Traffic Studies",
+      "page": "3-19"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.8.4",
+      "title": "Small-Area and Corridor-Level Planning",
+      "page": "3-19"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.8.5",
+      "title": "Campus Plans",
+      "page": "3-19"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.8.6",
+      "title": "Safety Audits and Safety Action Plans",
+      "page": "3-20"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "3.9",
+      "title": "Technical Analysis Tools That Support Bicycle Planning",
+      "page": "3-21"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.9.1",
+      "title": "Data Collection",
+      "page": "3-21"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.9.1.1",
+      "title": "Methods of Counting Bicycles",
+      "page": "3-22"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.9.1.2",
+      "title": "Traffic Monitoring Guide",
+      "page": "3-22"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.9.1.3",
+      "title": "Behavior Analysis",
+      "page": "3-23"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.9.2",
+      "title": "Quality of Service and Bicycle Level of Service Tools",
+      "page": "3-23"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.9.2.1",
+      "title": "Bicycle Level of Service",
+      "page": "3-23"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.9.2.2",
+      "title": "Level of Traffic Stress",
+      "page": "3-24"
+    },
+    {
+      "level": 4,
+      "chapter": 3,
+      "num": "3.9.2.3",
+      "title": "Qualitative Indices",
+      "page": "3-25"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.9.3",
+      "title": "Safety Analysis",
+      "page": "3-25"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.9.4",
+      "title": "Bicycle Travel Demand Analysis and Volume Estimation",
+      "page": "3-26"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.9.5",
+      "title": "Equity Analysis",
+      "page": "3-27"
+    },
+    {
+      "level": 3,
+      "chapter": 3,
+      "num": "3.9.6",
+      "title": "Cost\u2013Benefit Analysis",
+      "page": "3-27"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "3.10",
+      "title": "Public Input",
+      "page": "3-28"
+    },
+    {
+      "level": 2,
+      "chapter": 3,
+      "num": "",
+      "title": "Chapter 3 References",
+      "page": "3-29"
+    },
+    {
+      "level": 1,
+      "chapter": 4,
+      "num": "Ch. 4",
+      "title": "Guidance for Choosing a Bikeway Type",
+      "page": "4-2"
+    },
+    {
+      "level": 2,
+      "chapter": 4,
+      "num": "4.1",
+      "title": "Introduction",
+      "page": "4-2"
+    },
+    {
+      "level": 2,
+      "chapter": 4,
+      "num": "4.2",
+      "title": "Project Performance Goals and Objectives",
+      "page": "4-2"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.2.1",
+      "title": "Project Limits and Bikeway Connectivity",
+      "page": "4-3"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.2.2",
+      "title": "Context",
+      "page": "4-3"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.2.3",
+      "title": "Selecting a Bicyclist Design User Profile",
+      "page": "4-4"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.2.4",
+      "title": "Safety and Crash Data",
+      "page": "4-5"
+    },
+    {
+      "level": 2,
+      "chapter": 4,
+      "num": "4.3",
+      "title": "Selecting the Preferred Bikeway Type",
+      "page": "4-5"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.3.1",
+      "title": "Streets in Urban Core, Urban, Suburban and Rural Town Contexts",
+      "page": "4-6"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.3.2",
+      "title": "Rural Roadways",
+      "page": "4-7"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.3.3",
+      "title": "Conditions Where Increasing Separation from Motor Vehicles Is Appropriate",
+      "page": "4-9"
+    },
+    {
+      "level": 2,
+      "chapter": 4,
+      "num": "4.4",
+      "title": "Strategies to Achieve the Preferred Bikeway",
+      "page": "4-10"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.4.1",
+      "title": "Design Flexibility",
+      "page": "4-11"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.4.2",
+      "title": "Example Strategies for Constrained Rights-of-Way",
+      "page": "4-11"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.4.2.1",
+      "title": "Traffic Analysis Approach",
+      "page": "4-11"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.4.2.2",
+      "title": "Narrowing Travel Lanes",
+      "page": "4-12"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.4.2.3",
+      "title": "Removing Travel Lanes",
+      "page": "4-12"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.4.2.4",
+      "title": "Reorganizing Street Space",
+      "page": "4-13"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.4.2.5",
+      "title": "Making Changes to On-Street Parking",
+      "page": "4-13"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.4.2.5.1",
+      "title": "Removing Parking on One Side",
+      "page": "4-13"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.4.2.5.2",
+      "title": "Converting Diagonal Parking to Parallel Parking",
+      "page": "4-14"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.4.2.5.3",
+      "title": "Converting Parallel Parking to Reverse-Angle Parking on One Side",
+      "page": "4-14"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.4.2.6",
+      "title": "Reducing Bikeway Widths",
+      "page": "4-14"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.4.2.7",
+      "title": "Reducing Motor Vehicle Traffic Volumes and Speeds",
+      "page": "4-14"
+    },
+    {
+      "level": 2,
+      "chapter": 4,
+      "num": "4.5",
+      "title": "Evaluating Design Alternatives and Trade-offs to Select a Bikeway",
+      "page": "4-14"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.5.1",
+      "title": "Evaluate Bikeway Alternatives Against Project Objectives",
+      "page": "4-15"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.5.2",
+      "title": "Example of Trade-off Considerations Between Common Bikeway Types",
+      "page": "4-15"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.5.2.1",
+      "title": "Conventional Bike Lanes (Option A)",
+      "page": "4-17"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.5.2.2",
+      "title": "Two-Way Separated Bike Lane (Option B)",
+      "page": "4-18"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.5.2.3",
+      "title": "One-Way Separated Bike Lane (Option C)",
+      "page": "4-18"
+    },
+    {
+      "level": 4,
+      "chapter": 4,
+      "num": "4.5.2.4",
+      "title": "Side Path (Option D)",
+      "page": "4-19"
+    },
+    {
+      "level": 3,
+      "chapter": 4,
+      "num": "4.5.3",
+      "title": "Selecting the Next Best Facility When the Preferred Bikeway Is Not Feasible",
+      "page": "4-20"
+    },
+    {
+      "level": 2,
+      "chapter": 4,
+      "num": "",
+      "title": "Chapter 4 References",
+      "page": "4-22"
+    },
+    {
+      "level": 1,
+      "chapter": 5,
+      "num": "Ch. 5",
+      "title": "Elements of Design",
+      "page": "5-2"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.1",
+      "title": "Introduction",
+      "page": "5-2"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.2",
+      "title": "Design User",
+      "page": "5-2"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.3",
+      "title": "Design Speed",
+      "page": "5-2"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.3.1",
+      "title": "Design Speed Considerations at Conflict Point",
+      "page": "5-3"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.3.2",
+      "title": "Acceleration and Deceleration",
+      "page": "5-4"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.3.3",
+      "title": "Considerations for Posted and Operating Speeds on Roadways",
+      "page": "5-4"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.4",
+      "title": "Understanding Assignment of Right-of-Way",
+      "page": "5-5"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.5",
+      "title": "Sight Distance",
+      "page": "5-6"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.5.1",
+      "title": "Criteria for Measuring Sight Distance",
+      "page": "5-7"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.5.2",
+      "title": "Stopping Sight Distance",
+      "page": "5-8"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.5.3",
+      "title": "Intersection Sight Distance",
+      "page": "5-10"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.5.4",
+      "title": "Determining Sight Triangles",
+      "page": "5-10"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.1",
+      "title": "Sight Distance and Approach Clear Space for Bikeways at Roadway Intersections",
+      "page": "5-11"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.1.1",
+      "title": "Case S\u2014Right-Turning Motorist across Separated Bike Lane or Side Path",
+      "page": "5-13"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.1.2",
+      "title": "Case T\u2014Left-Turning Motorist across Separated Bike Lane or Side Path",
+      "page": "5-13"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.1.3",
+      "title": "Case U\u2014Through Motorist Crossing of a Separated Bike Lane or Shared Use Path",
+      "page": "5-16"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.1.3.1",
+      "title": "U1\u2014Near-Side Crossing",
+      "page": "5-16"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.1.3.2",
+      "title": "U2\u2014Far-Side Bikeway Crossing from the Minor Road",
+      "page": "5-16"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.1.3.3",
+      "title": "U3\u2014Mid-Block Shared Use Path Crossing of an Uncontrolled Roadway",
+      "page": "5-19"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.1.4",
+      "title": "Case V\u2014Bicyclist Crossing an Uncontrolled Roadway from a Stop-Controlled Minor Road",
+      "page": "5-22"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.2",
+      "title": "Sight Distances for Pedestrians and Bicyclists at Non-Roadway Intersections",
+      "page": "5-25"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.2.1",
+      "title": "Case W\u2014Shared Use Path Crossing of Another Shared Use Path",
+      "page": "5-25"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.2.2",
+      "title": "Case X\u2014Bikeway Crossing of a Walkway",
+      "page": "5-25"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.5.4.3",
+      "title": "Sight Distance at Horizontal Curves",
+      "page": "5-27"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.6",
+      "title": "Surface and Geometric Design Elements",
+      "page": "5-29"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.6.1",
+      "title": "Surface Considerations",
+      "page": "5-29"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.6.2",
+      "title": "Horizontal Alignment and Tapers",
+      "page": "5-31"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.6.3",
+      "title": "Cross Slope",
+      "page": "5-33"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.6.4",
+      "title": "Vertical Alignment",
+      "page": "5-33"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.7",
+      "title": "Characteristics of Intersections",
+      "page": "5-33"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.8",
+      "title": "Intersection Design Objectives",
+      "page": "5-35"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.8.1",
+      "title": "Minimize Exposure to Conflicts",
+      "page": "5-35"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.8.2",
+      "title": "Reduce Speeds at Conflict Points",
+      "page": "5-38"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.8.3",
+      "title": "Communicate Right-of-Way Priority",
+      "page": "5-38"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.8.4",
+      "title": "Providing Adequate Sight Distance",
+      "page": "5-38"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.8.5",
+      "title": "Transitions to Other Facilities",
+      "page": "5-39"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.8.6",
+      "title": "Accommodating Persons with Disabilities",
+      "page": "5-39"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.9",
+      "title": "Evaluating Bicycle and Pedestrian Roadway Crossings",
+      "page": "5-39"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.9.1",
+      "title": "Evaluation of Right-of-Way Assignment",
+      "page": "5-40"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.1.1",
+      "title": "Volume Assessment",
+      "page": "5-41"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.1.2",
+      "title": "Considerations for Crossings with No Control",
+      "page": "5-41"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.1.3",
+      "title": "Considerations for Yield or Stop Control",
+      "page": "5-41"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.9.2",
+      "title": "Evaluations of Uncontrolled Roadway Approaches to Bicycle Crossings",
+      "page": "5-42"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.2.1",
+      "title": "Factors That Impact Motorist Yielding Rates",
+      "page": "5-42"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.2.2",
+      "title": "Evaluate Crossing Opportunities",
+      "page": "5-43"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.2.2.1",
+      "title": "Recommended Crossing Opportunities",
+      "page": "5-43"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.2.2.2",
+      "title": "Gap Studies and Crossing Delay",
+      "page": "5-44"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.2.3",
+      "title": "Apply Countermeasures to Improve Yielding",
+      "page": "5-45"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.2.3.1",
+      "title": "Tier 1 Countermeasures",
+      "page": "5-46"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.2.3.2",
+      "title": "Tier 2 Countermeasures",
+      "page": "5-47"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.2.3.3",
+      "title": "Tier 3 Countermeasures",
+      "page": "5-48"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.9.3",
+      "title": "Evaluation of a Traffic Control Signal or Pedestrian Hybrid Beacon",
+      "page": "5-48"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.3.1",
+      "title": "Pedestrian and Bicycle Count Considerations for MUTCD Warrants and Guidelines",
+      "page": "5-48"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.3.2",
+      "title": "MUTCD Traffic Control Signal Warrants",
+      "page": "5-49"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.9.3.3",
+      "title": "MUTCD PHB Guidelines",
+      "page": "5-49"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.10",
+      "title": "Geometric Design Treatments to Improve Intersection Safety",
+      "page": "5-50"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.10.1",
+      "title": "Medians, Pedestrian Refuge Islands, and Hardened Centerlines",
+      "page": "5-50"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.10.1.1",
+      "title": "Medians and Pedestrian Refuge Islands",
+      "page": "5-50"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.10.1.2",
+      "title": "Median Islands and Hardened Centerlines",
+      "page": "5-52"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.10.2",
+      "title": "Curb Extensions",
+      "page": "5-53"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.10.3",
+      "title": "Curb Radius",
+      "page": "5-53"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.10.4",
+      "title": "Mountable Truck Aprons",
+      "page": "5-54"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.10.5",
+      "title": "Raised Crossings",
+      "page": "5-56"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.10.6",
+      "title": "Multiple Threat Crossing Solutions",
+      "page": "5-58"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.10.7",
+      "title": "Bicycle Ramps",
+      "page": "5-59"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.10.8",
+      "title": "Directional Indicators",
+      "page": "5-61"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.11",
+      "title": "Warning and Regulatory Traffic Control Devices",
+      "page": "5-62"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.1",
+      "title": "Bike Lane Regulatory Signs",
+      "page": "5-63"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.2",
+      "title": "Bicycle and Pedestrian or Bicycle Crossing Warning Signs",
+      "page": "5-63"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.3",
+      "title": "Yield Here to/Stop Here For Pedestrians/Bicyclists Sign",
+      "page": "5-64"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.4",
+      "title": "In-Street and Overhead Crossing STATE LAW Signs",
+      "page": "5-65"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.11.4.1",
+      "title": "In-Street Crossing",
+      "page": "5-65"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.11.4.2",
+      "title": "Overhead Street Crossing",
+      "page": "5-66"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.5",
+      "title": "Turning Vehicles Yield to Pedestrians/Bicyclists Signs",
+      "page": "5-66"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.6",
+      "title": "Active Warning Beacons",
+      "page": "5-67"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.7",
+      "title": "Rectangular Rapid Flashing Beacons",
+      "page": "5-68"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.8",
+      "title": "Wrong Way Bicycling Sign",
+      "page": "5-69"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.9",
+      "title": "Blank-Out Signs",
+      "page": "5-69"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.10",
+      "title": "Except Bicycles Plaque",
+      "page": "5-70"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.11",
+      "title": "Bicycles Yield to Pedestrians",
+      "page": "5-70"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.11.12",
+      "title": "Bicycles Merge Sign",
+      "page": "5-70"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.12",
+      "title": "Pavement Markings",
+      "page": "5-71"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.1",
+      "title": "Stop Lines",
+      "page": "5-71"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.2",
+      "title": "Yield Lines",
+      "page": "5-72"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.3",
+      "title": "Centerlines",
+      "page": "5-72"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.4",
+      "title": "Lane Lines",
+      "page": "5-72"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.5",
+      "title": "Edge Lines",
+      "page": "5-73"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.6",
+      "title": "Bike Lane Symbol",
+      "page": "5-73"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.7",
+      "title": "Intersection Bicycle Crossing Markings",
+      "page": "5-73"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.12.7.1",
+      "title": "Bicycle Lane Extension Markings",
+      "page": "5-73"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.12.7.2",
+      "title": "Bicycle Crossings with Parallel Pedestrian Crossings",
+      "page": "5-74"
+    },
+    {
+      "level": 4,
+      "chapter": 5,
+      "num": "5.12.7.3",
+      "title": "Shared Use Path and Pedestrian Crosswalks",
+      "page": "5-75"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.8",
+      "title": "Bicycle Boxes",
+      "page": "5-76"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.9",
+      "title": "Two-Stage Bicycle Turn Box",
+      "page": "5-80"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.10",
+      "title": "Advance Word or Symbol Markings",
+      "page": "5-82"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.12.11",
+      "title": "Green-Colored Pavement",
+      "page": "5-83"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.13",
+      "title": "Bicycle Travel Near Rail Lines",
+      "page": "5-83"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.13.1",
+      "title": "Design Principles for Railroad Crossings",
+      "page": "5-84"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.13.2",
+      "title": "Skew Angle",
+      "page": "5-84"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.13.3",
+      "title": "Consideration for Roadways with Streetcar Operations",
+      "page": "5-87"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "5.14",
+      "title": "Other Design Features",
+      "page": "5-89"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.14.1",
+      "title": "Barriers, Railings, and Fences",
+      "page": "5-89"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.14.2",
+      "title": "Lighting",
+      "page": "5-90"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.14.3",
+      "title": "Drainage",
+      "page": "5-92"
+    },
+    {
+      "level": 3,
+      "chapter": 5,
+      "num": "5.14.4",
+      "title": "Utilities",
+      "page": "5-93"
+    },
+    {
+      "level": 2,
+      "chapter": 5,
+      "num": "",
+      "title": "Chapter 5 References",
+      "page": "5-95"
+    },
+    {
+      "level": 1,
+      "chapter": 6,
+      "num": "Ch. 6",
+      "title": "Design of Shared Use Paths",
+      "page": "6-2"
+    },
+    {
+      "level": 2,
+      "chapter": 6,
+      "num": "6.1",
+      "title": "Introduction",
+      "page": "6-2"
+    },
+    {
+      "level": 2,
+      "chapter": 6,
+      "num": "6.2",
+      "title": "Shared Use Path Users",
+      "page": "6-3"
+    },
+    {
+      "level": 2,
+      "chapter": 6,
+      "num": "6.3",
+      "title": "Side Path Considerations",
+      "page": "6-4"
+    },
+    {
+      "level": 2,
+      "chapter": 6,
+      "num": "6.4",
+      "title": "Path Width Considerations",
+      "page": "6-4"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.4.1",
+      "title": "Social Function of Shared Use Paths",
+      "page": "6-4"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.4.2",
+      "title": "Shared Use Path Level of Service",
+      "page": "6-5"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.4.3",
+      "title": "Recommended Shared Use Path Widths",
+      "page": "6-7"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.4.4",
+      "title": "Separation of Pedestrians and Bicyclists",
+      "page": "6-10"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.4.4.1",
+      "title": "Land Use Considerations Where Separation is Desirable",
+      "page": "6-10"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.4.4.2",
+      "title": "Volume Thresholds Where Separation is Desirable",
+      "page": "6-10"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.4.4.3",
+      "title": "Separation Strategies",
+      "page": "6-11"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.4.4.4",
+      "title": "Accessibility Considerations",
+      "page": "6-12"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.4.5",
+      "title": "Shared Use Path Design Considerations with Power-Driven Mobility Devices, Mopeds, Motorcycles, Snowmobiles, Inline Skaters, and Equestrians Activity",
+      "page": "6-13"
+    },
+    {
+      "level": 2,
+      "chapter": 6,
+      "num": "6.5",
+      "title": "Design Speed",
+      "page": "6-14"
+    },
+    {
+      "level": 2,
+      "chapter": 6,
+      "num": "6.6",
+      "title": "General Design Considerations",
+      "page": "6-15"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.6.1",
+      "title": "Shy Distance, Clearances, and Shoulders",
+      "page": "6-15"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.1.1",
+      "title": "Shared Use Path Shoulders",
+      "page": "6-15"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.1.2",
+      "title": "Vertical Clearances to Overhead Elements",
+      "page": "6-16"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.1.3",
+      "title": "Clearances to Continuous Vertical Elements",
+      "page": "6-16"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.1.4",
+      "title": "Clearances to Intermittent Vertical Elements",
+      "page": "6-16"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.6.2",
+      "title": "Surface Considerations",
+      "page": "6-17"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.6.3",
+      "title": "Horizontal Alignment",
+      "page": "6-17"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.3.1",
+      "title": "Calculating Minimum Horizontal Curve Radius Using Lean Angle",
+      "page": "6-17"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.3.2",
+      "title": "Calculating Minimum Horizontal Curve Radius Using Superelevation",
+      "page": "6-18"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.3.3",
+      "title": "Tapers and Path Widening at Constrained Corners",
+      "page": "6-19"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.6.4",
+      "title": "Vertical Alignment",
+      "page": "6-20"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.4.1",
+      "title": "Grades",
+      "page": "6-20"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.4.2",
+      "title": "Vertical Curves",
+      "page": "6-21"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.6.5",
+      "title": "Cross Slope and Superelevation",
+      "page": "6-22"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.6.6",
+      "title": "Drainage",
+      "page": "6-23"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.6.7",
+      "title": "Barriers Near Hazardous Conditions",
+      "page": "6-24"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.6.8",
+      "title": "Lighting",
+      "page": "6-25"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.6.9",
+      "title": "Considerations for Pavement Markings on Shared Use Paths",
+      "page": "6-26"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.9.1",
+      "title": "Center Lines",
+      "page": "6-26"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.9.2",
+      "title": "Edge Lines",
+      "page": "6-26"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.9.3",
+      "title": "Obstruction Markings",
+      "page": "6-27"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.9.4",
+      "title": "Marked Crosswalks",
+      "page": "6-28"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.9.5",
+      "title": "Stop and Yield Lines",
+      "page": "6-28"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.9.6",
+      "title": "Advance Word or Symbol Markings",
+      "page": "6-28"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.9.7",
+      "title": "Narrow Path Conditions",
+      "page": "6-28"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.6.10",
+      "title": "Considerations for Traffic Control Signs on Shared Use Paths",
+      "page": "6-29"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.10.1",
+      "title": "Shared Use Path Crossing Assembly",
+      "page": "6-29"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.10.2",
+      "title": "Traffic Control Regulatory Signs, Signals, and Beacons",
+      "page": "6-29"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.10.3",
+      "title": "Intersection and Advance Traffic Control Warning Signs",
+      "page": "6-30"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.10.4",
+      "title": "Guide Signs",
+      "page": "6-30"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.6.10.5",
+      "title": "Warning Signs",
+      "page": "6-30"
+    },
+    {
+      "level": 2,
+      "chapter": 6,
+      "num": "6.7",
+      "title": "Shared Use Path Intersections and Transitions",
+      "page": "6-30"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.7.1",
+      "title": "Reducing Speeds on Path Approaches to Intersections",
+      "page": "6-31"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.7.2",
+      "title": "Curb Ramps and Aprons",
+      "page": "6-31"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.7.3",
+      "title": "Shared Use Path Widening at Intersections",
+      "page": "6-33"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.7.4",
+      "title": "Intersection of Two Shared Use Paths",
+      "page": "6-33"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.7.5",
+      "title": "Transitions to Other Facility Types",
+      "page": "6-33"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.7.6",
+      "title": "Crossing Realignment",
+      "page": "6-34"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.7.7",
+      "title": "Examples of Mid-Block Shared Use Path Crossings",
+      "page": "6-34"
+    },
+    {
+      "level": 3,
+      "chapter": 6,
+      "num": "6.7.8",
+      "title": "Restricting Motor Vehicles",
+      "page": "6-39"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.7.8.1",
+      "title": "Bollard Design",
+      "page": "6-40"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.7.8.2",
+      "title": "Bollard Placement",
+      "page": "6-40"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.7.8.3",
+      "title": "Bollard Markings",
+      "page": "6-41"
+    },
+    {
+      "level": 4,
+      "chapter": 6,
+      "num": "6.7.8.4",
+      "title": "Railroad Crossings",
+      "page": "6-42"
+    },
+    {
+      "level": 2,
+      "chapter": 6,
+      "num": "6.8",
+      "title": "Design Considerations to Promote Personal Security",
+      "page": "6-42"
+    },
+    {
+      "level": 2,
+      "chapter": 6,
+      "num": "6.9",
+      "title": "Shared Use Path Entrance and Wayside Amenities",
+      "page": "6-43"
+    },
+    {
+      "level": 2,
+      "chapter": 6,
+      "num": "",
+      "title": "Chapter 6 References",
+      "page": "6-45"
+    },
+    {
+      "level": 1,
+      "chapter": 7,
+      "num": "Ch. 7",
+      "title": "Design of Separated Bike Lanes and Side Paths",
+      "page": "7-2"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.1",
+      "title": "Introduction",
+      "page": "7-2"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.2",
+      "title": "General Design Considerations",
+      "page": "7-2"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.2.1",
+      "title": "Retrofit and Permanent Design Considerations",
+      "page": "7-4"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.2.2",
+      "title": "Separated Bike Lane and Side Path Elevation",
+      "page": "7-5"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.2.2.1",
+      "title": "Sidewalk-Level Separated Bike Lanes and Side Paths",
+      "page": "7-5"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.2.2.2",
+      "title": "Street-Level Separated Bike Lanes and Side Paths",
+      "page": "7-6"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.2.2.3",
+      "title": "Intermediate-Level Separated Bike Lanes",
+      "page": "7-7"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.2.3",
+      "title": "Determining One-Way vs. Two-Way Operation",
+      "page": "7-8"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.2.4",
+      "title": "Determining Where to Locate the Separated Bike Lane",
+      "page": "7-9"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.3",
+      "title": "Bike Lane Zone",
+      "page": "7-11"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.3.1",
+      "title": "Bike Lane Surface",
+      "page": "7-11"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.3.2",
+      "title": "Curbs Adjacent to the Bike Lane Zone",
+      "page": "7-12"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.3.3",
+      "title": "Shy Distance Considerations for Separated Bike Lanes and Side Paths",
+      "page": "7-13"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.3.4",
+      "title": "Bike Lane Width",
+      "page": "7-14"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.3.5",
+      "title": "Design Speed",
+      "page": "7-17"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.4",
+      "title": "Street Buffer Zone",
+      "page": "7-18"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.4.1",
+      "title": "Street Buffer Width",
+      "page": "7-18"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.4.2",
+      "title": "Vertical Elements",
+      "page": "7-19"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.4.2.1",
+      "title": "Raised Medians",
+      "page": "7-21"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.4.2.2",
+      "title": "Continuous Concrete Barriers (or Other Rigid Barriers)",
+      "page": "7-22"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.4.2.3",
+      "title": "Vehicle Parking",
+      "page": "7-22"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.4.2.4",
+      "title": "Flexible Delineator Posts",
+      "page": "7-23"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.4.2.5",
+      "title": "Precast Curbs (or Parking Stops)",
+      "page": "7-23"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.4.2.6",
+      "title": "Planters",
+      "page": "7-24"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.4.2.7",
+      "title": "Rigid Bollards",
+      "page": "7-25"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.5",
+      "title": "Sidewalk Buffer Zone",
+      "page": "7-25"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.6",
+      "title": "Considerations for Zone Widths in Constrained Locations",
+      "page": "7-27"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.7",
+      "title": "Utility Considerations",
+      "page": "7-27"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.7.1",
+      "title": "Drainage and Stormwater Management",
+      "page": "7-27"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.7.2",
+      "title": "Street Lighting",
+      "page": "7-30"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.7.3",
+      "title": "Other Utilities",
+      "page": "7-30"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.8",
+      "title": "Landscaping Considerations",
+      "page": "7-31"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.8.1",
+      "title": "Landscaping",
+      "page": "7-31"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.9",
+      "title": "Separated Bike Lane and Side Path Intersection Design",
+      "page": "7-32"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.1",
+      "title": "Minimizing Exposure to Conflicts",
+      "page": "7-32"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.2",
+      "title": "Reducing Speeds at Conflict Points",
+      "page": "7-32"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.3",
+      "title": "Transitions between Elevations",
+      "page": "7-33"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.4",
+      "title": "Right-of-Way Priority",
+      "page": "7-33"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.5",
+      "title": "Sight Distance",
+      "page": "7-34"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.6",
+      "title": "Restricting Motor Vehicles",
+      "page": "7-36"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.7",
+      "title": "Elements of Protected Intersections",
+      "page": "7-36"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.7.1",
+      "title": "Corner Island",
+      "page": "7-39"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.7.2",
+      "title": "Forward Bicycle Queuing Area",
+      "page": "7-40"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.7.3",
+      "title": "Motorist Yield Zone",
+      "page": "7-40"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.7.4",
+      "title": "Pedestrian Refuge Median",
+      "page": "7-41"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.7.5",
+      "title": "Pedestrian Crossing of Separated Bike Lane",
+      "page": "7-42"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.7.6",
+      "title": "Pedestrian Curb Ramp",
+      "page": "7-42"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.7.7",
+      "title": "Bicycle Crossing of Travel Lanes",
+      "page": "7-43"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.7.8",
+      "title": "Pedestrian Crossing of Travel Lanes",
+      "page": "7-43"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.7.9",
+      "title": "Bicycle Corner Radius",
+      "page": "7-43"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.8",
+      "title": "Design Strategies for Protected Intersections in Constrained Conditions",
+      "page": "7-43"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.8.1",
+      "title": "Bend-Out Deflection",
+      "page": "7-44"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.8.2",
+      "title": "Bend-In Deflection",
+      "page": "7-44"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.9",
+      "title": "Intersection Design with Mixing Zones",
+      "page": "7-45"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.10",
+      "title": "Driveway Crossings",
+      "page": "7-48"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.11",
+      "title": "Access Management",
+      "page": "7-50"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.12",
+      "title": "On-Street Motor Vehicle Parking",
+      "page": "7-50"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.12.1",
+      "title": "Accessible Motor Vehicle Parking",
+      "page": "7-51"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.9.12.2",
+      "title": "Mid-Block Accessible Parking",
+      "page": "7-51"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.13",
+      "title": "Loading Zones",
+      "page": "7-52"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.9.14",
+      "title": "Transit Stops",
+      "page": "7-54"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.10",
+      "title": "Transitions between Facilities",
+      "page": "7-60"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "7.11",
+      "title": "Raised Bike Lanes",
+      "page": "7-67"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.11.1",
+      "title": "Raised Bike Lane Elevation",
+      "page": "7-67"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.11.2",
+      "title": "Width Considerations",
+      "page": "7-69"
+    },
+    {
+      "level": 3,
+      "chapter": 7,
+      "num": "7.11.3",
+      "title": "Raised Bike Lanes at Intersections",
+      "page": "7-70"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.11.3.1",
+      "title": "Option 1",
+      "page": "7-71"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.11.3.2",
+      "title": "Option 2",
+      "page": "7-71"
+    },
+    {
+      "level": 4,
+      "chapter": 7,
+      "num": "7.11.3.3",
+      "title": "Option 3",
+      "page": "7-71"
+    },
+    {
+      "level": 2,
+      "chapter": 7,
+      "num": "",
+      "title": "Chapter 7 References",
+      "page": "7-72"
+    },
+    {
+      "level": 1,
+      "chapter": 8,
+      "num": "Ch. 8",
+      "title": "Bicycle Boulevard Planning and Design",
+      "page": "8-2"
+    },
+    {
+      "level": 2,
+      "chapter": 8,
+      "num": "8.1",
+      "title": "Introduction",
+      "page": "8-2"
+    },
+    {
+      "level": 2,
+      "chapter": 8,
+      "num": "8.2",
+      "title": "Bicycle Boulevard Principles",
+      "page": "8-2"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.2.1",
+      "title": "Manage Motorized Through Traffic Volumes and Speeds",
+      "page": "8-3"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.2.2",
+      "title": "Prioritize Right-of-Way at Local Street Crossings",
+      "page": "8-4"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.2.3",
+      "title": "Provide Safe and Convenient Crossings at Major Streets",
+      "page": "8-4"
+    },
+    {
+      "level": 2,
+      "chapter": 8,
+      "num": "8.3",
+      "title": "Bicycle Boulevard Minimum Design Elements",
+      "page": "8-5"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.3.1",
+      "title": "Route Identification",
+      "page": "8-5"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.3.1.1",
+      "title": "Wayfinding",
+      "page": "8-5"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.3.1.2",
+      "title": "Shared Lane Markings",
+      "page": "8-5"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.3.1.3",
+      "title": "Bicycles May Use Full Lane Signs",
+      "page": "8-6"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.3.2",
+      "title": "Reduced Speed Limits",
+      "page": "8-6"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.3.2.1",
+      "title": "Use of Regulatory Speed Limit Sign",
+      "page": "8-6"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.3.2.2",
+      "title": "Use of Advisory Speed Plaque",
+      "page": "8-6"
+    },
+    {
+      "level": 2,
+      "chapter": 8,
+      "num": "8.4",
+      "title": "Traffic Calming Strategies (Speed Management)",
+      "page": "8-6"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.4.1",
+      "title": "Creating Enclosure",
+      "page": "8-7"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.4.1.1",
+      "title": "Center Line Markings",
+      "page": "8-7"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.4.1.2",
+      "title": "Narrow (Yield) Streets",
+      "page": "8-7"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.4.1.3",
+      "title": "Neckdowns",
+      "page": "8-8"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.4.2",
+      "title": "Horizontal Deflection Treatments",
+      "page": "8-8"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.4.2.1",
+      "title": "One-Lane Pinch Points",
+      "page": "8-9"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.4.2.2",
+      "title": "Chicanes",
+      "page": "8-9"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.4.2.3",
+      "title": "Neighborhood Mini-Circles",
+      "page": "8-10"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.4.3",
+      "title": "Vertical Deflections",
+      "page": "8-11"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.4.3.1",
+      "title": "Speed Humps, Raised Crosswalks, and Speed Tables",
+      "page": "8-12"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.4.3.2",
+      "title": "Raised Intersection",
+      "page": "8-12"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.4.3.3",
+      "title": "Speed Cushions",
+      "page": "8-13"
+    },
+    {
+      "level": 2,
+      "chapter": 8,
+      "num": "8.5",
+      "title": "Traffic Diversion Strategies (Volume Management)",
+      "page": "8-14"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.5.1",
+      "title": "Regulatory Signs",
+      "page": "8-14"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.5.2",
+      "title": "Major Street Medians",
+      "page": "8-15"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.5.2.1",
+      "title": "Median Crossing Purpose",
+      "page": "8-15"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.5.2.2",
+      "title": "Median Opening Size",
+      "page": "8-15"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.5.3",
+      "title": "Diagonal Diverter",
+      "page": "8-15"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.5.4",
+      "title": "Forced Turn",
+      "page": "8-17"
+    },
+    {
+      "level": 2,
+      "chapter": 8,
+      "num": "8.6",
+      "title": "Traffic Controls for Minor Street Crossings",
+      "page": "8-19"
+    },
+    {
+      "level": 2,
+      "chapter": 8,
+      "num": "8.7",
+      "title": "Traffic Controls for Major Street Crossings",
+      "page": "8-19"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.7.1",
+      "title": "Traffic Signals",
+      "page": "8-19"
+    },
+    {
+      "level": 3,
+      "chapter": 8,
+      "num": "8.7.2",
+      "title": "Offset Intersection Treatments",
+      "page": "8-20"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.7.2.1",
+      "title": "Bicycle Lane with Two-Stage Bicycle Turn Box",
+      "page": "8-20"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.7.2.2",
+      "title": "Two-Way Separated Bike Lane or Side Path Connection",
+      "page": "8-20"
+    },
+    {
+      "level": 4,
+      "chapter": 8,
+      "num": "8.7.2.3",
+      "title": "Center Left-Turn Lanes",
+      "page": "8-22"
+    },
+    {
+      "level": 2,
+      "chapter": 8,
+      "num": "",
+      "title": "Chapter 8 References",
+      "page": "8-25"
+    },
+    {
+      "level": 1,
+      "chapter": 9,
+      "num": "Ch. 9",
+      "title": "Design of Shared Lanes and Bike Lanes",
+      "page": "9-2"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.1",
+      "title": "Introduction",
+      "page": "9-2"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.2",
+      "title": "Design User Profile Considerations",
+      "page": "9-2"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.3",
+      "title": "Shared Lanes and Shared Roadways",
+      "page": "9-2"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.3.1",
+      "title": "Measuring Shared Travel Lane Width",
+      "page": "9-4"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.3.2",
+      "title": "Limited Effectiveness of Wide Outside Lanes",
+      "page": "9-4"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.3.3",
+      "title": "Markings for Shared Lanes",
+      "page": "9-5"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.3.3.1",
+      "title": "SLM Placement in Travel Lanes <14 ft in Width on Streets without Parking",
+      "page": "9-6"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.3.3.2",
+      "title": "SLM Placement in Travel Lanes >14 ft on Streets without Parking",
+      "page": "9-7"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.3.3.3",
+      "title": "SLM Placement in Lanes adjacent to a Parking Lane",
+      "page": "9-7"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.3.3.4",
+      "title": "Shared Lane Marking Guidance for Bicyclists Approaching or within Intersections",
+      "page": "9-8"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.3.3.5",
+      "title": "Shared Lane Marking Longitudinal Placement Guidance",
+      "page": "9-9"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.3.4",
+      "title": "Signs for Shared Roadways",
+      "page": "9-9"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.3.4.1",
+      "title": "Bicycles May Use Full Lane Sign",
+      "page": "9-11"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.3.4.2",
+      "title": "W11-1 Warning Sign with an IN LANE or ON ROAD Supplemental Plaque",
+      "page": "9-11"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.3.4.3",
+      "title": "Active Beacons for Shared Lane Conditions with Higher Potential for Conflicts",
+      "page": "9-11"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.4",
+      "title": "Bicycle Lanes: General Considerations",
+      "page": "9-12"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.4.1",
+      "title": "Bicycle Lane Widths",
+      "page": "9-13"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.4.1.1",
+      "title": "Bicycle Lane Surface Considerations",
+      "page": "9-13"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.4.1.2",
+      "title": "Measuring Bicycle Lane Widths",
+      "page": "9-13"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.4.1.3",
+      "title": "Range of Bicycle Lane Widths",
+      "page": "9-14"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.4.2",
+      "title": "Markings for Bicycle Lanes",
+      "page": "9-15"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.4.3",
+      "title": "Signs for Bicycle Lanes",
+      "page": "9-17"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.5",
+      "title": "Buffered Bicycle Lanes",
+      "page": "9-17"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.6",
+      "title": "Bicycle Lane Considerations adjacent to Parking and Loading",
+      "page": "9-19"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.6.1",
+      "title": "Curbside Management or Parking Removal",
+      "page": "9-19"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.6.2",
+      "title": "Loading Zone Considerations",
+      "page": "9-20"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.6.3",
+      "title": "Parking and Loading Lane Widths",
+      "page": "9-20"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.6.4",
+      "title": "Bicycle Lanes adjacent to Parallel Parking and Loading",
+      "page": "9-20"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.6.4.1",
+      "title": "Minimum Width Bike Lane Considerations",
+      "page": "9-21"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.6.4.2",
+      "title": "Wider Bicycle Lanes",
+      "page": "9-22"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.6.4.3",
+      "title": "Buffered Door Zone",
+      "page": "9-22"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.6.5",
+      "title": "Bicycle Lanes adjacent to Diagonal Parking",
+      "page": "9-22"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.7",
+      "title": "Bicycle Lane Considerations at Bus Stops",
+      "page": "9-25"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.8",
+      "title": "Advisory Bicycle Lanes (Experimental)",
+      "page": "9-26"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.9",
+      "title": "Bicycle Lanes on One-Way Streets",
+      "page": "9-30"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.10",
+      "title": "Bicycle Lanes on One Side of a Two-Way Street",
+      "page": "9-31"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.11",
+      "title": "Counterflow Bicycle Lanes",
+      "page": "9-32"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "9.12",
+      "title": "Bicycle Lanes at Intersections, Driveways, and Alleys",
+      "page": "9-33"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.12.1",
+      "title": "Dotted vs. Solid Approach Markings at Intersections",
+      "page": "9-34"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.12.2",
+      "title": "Crossings of Alleys and Driveways Guidance",
+      "page": "9-35"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.12.3",
+      "title": "Right-Turn Lane Considerations",
+      "page": "9-35"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.12.3.1",
+      "title": "Bicycle Lane Ends to Develop a Right-Turn Lane",
+      "page": "9-35"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.12.3.2",
+      "title": "Bicycle Lane Transitions to a Shared Right-Turn Lane",
+      "page": "9-35"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.12.3.3",
+      "title": "Bicycle Lane Transitions to a Shared Through Lane",
+      "page": "9-36"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.12.3.4",
+      "title": "Bicycle Lane Transitions to an Off-Street Bikeway or Sidewalk",
+      "page": "9-36"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.12.3.5",
+      "title": "Bike Lane adjacent to a Right-Turn Only",
+      "page": "9-37"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.12.3.6",
+      "title": "Through Lane Transitions to Right-Turn Only Lane or Auxiliary Lane",
+      "page": "9-39"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.12.3.7",
+      "title": "Optional Through Right-Turn Lane and Right-Turn Only Lane",
+      "page": "9-39"
+    },
+    {
+      "level": 4,
+      "chapter": 9,
+      "num": "9.12.3.8",
+      "title": "Dual Right-Turn Only Lanes",
+      "page": "9-41"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.12.4",
+      "title": "Left-Turn Lane Considerations",
+      "page": "9-41"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.12.5",
+      "title": "Buffered Bike Lane Considerations at Intersections, Driveways, and Alleys",
+      "page": "9-43"
+    },
+    {
+      "level": 3,
+      "chapter": 9,
+      "num": "9.12.6",
+      "title": "Counterflow Bike Lanes at Intersections",
+      "page": "9-43"
+    },
+    {
+      "level": 2,
+      "chapter": 9,
+      "num": "",
+      "title": "Chapter 9 References",
+      "page": "9-45"
+    },
+    {
+      "level": 1,
+      "chapter": 10,
+      "num": "Ch. 10",
+      "title": "Traffic Signals and Pedestrian Hybrid Beacons",
+      "page": "10-2"
+    },
+    {
+      "level": 2,
+      "chapter": 10,
+      "num": "10.1",
+      "title": "Introduction",
+      "page": "10-2"
+    },
+    {
+      "level": 2,
+      "chapter": 10,
+      "num": "10.2",
+      "title": "Design Guidance for Traffic Signal Control",
+      "page": "10-2"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.2.1",
+      "title": "Considerations by Type of Control",
+      "page": "10-3"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.2.2",
+      "title": "Signal Cycle Length Considerations",
+      "page": "10-3"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.2.3",
+      "title": "Signal Coordination Considerations",
+      "page": "10-3"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.2.3.1",
+      "title": "Signal Cycle Lengths",
+      "page": "10-4"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.2.3.2",
+      "title": "Progression Speed",
+      "page": "10-4"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.2.3.3",
+      "title": "Counterflow Operations",
+      "page": "10-5"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.2.4",
+      "title": "Traffic Signal Indication Options for Bicyclists",
+      "page": "10-5"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.2.4.1",
+      "title": "Pedestrian Signal Heads",
+      "page": "10-5"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.2.4.2",
+      "title": "Standard Traffic Signal Face Designated for Bicycle Use",
+      "page": "10-7"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.2.4.3",
+      "title": "Bicycle Signal Faces",
+      "page": "10-7"
+    },
+    {
+      "level": 2,
+      "chapter": 10,
+      "num": "10.3",
+      "title": "Traffic Signal Phasing for Managing Conflicts",
+      "page": "10-7"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.3.1",
+      "title": "Types of Conflicts",
+      "page": "10-8"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.3.1.1",
+      "title": "Left-Hook Crashes",
+      "page": "10-8"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.3.1.2",
+      "title": "Right-Hook Crashes",
+      "page": "10-8"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.3.2",
+      "title": "Determining Phasing for Separated Bike Lanes and Side Paths",
+      "page": "10-9"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.3.3",
+      "title": "Restricting Vehicle Movements",
+      "page": "10-10"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.3.4",
+      "title": "Managing Turn Conflicts",
+      "page": "10-10"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.3.5",
+      "title": "Signal Phasing Schemes for Reducing Conflicts",
+      "page": "10-11"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.3.5.1",
+      "title": "Exclusive Bicycle Phase",
+      "page": "10-11"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.3.5.2",
+      "title": "Protected Bicycle Phase",
+      "page": "10-12"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.3.5.3",
+      "title": "Leading Bicycle Interval",
+      "page": "10-12"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.3.5.4",
+      "title": "Concurrent Bicycle Phase with Permissive Vehicle Turns (No Bicycle Signal Face)",
+      "page": "10-13"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.3.5.5",
+      "title": "Bicycle Signal Faces and Concurrent Vehicle Turns (Experimental)",
+      "page": "10-14"
+    },
+    {
+      "level": 2,
+      "chapter": 10,
+      "num": "10.4",
+      "title": "Traffic Signal Timing for Bicyclists",
+      "page": "10-14"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.4.1",
+      "title": "Green Time, Change Interval, and Clearance Intervals for Bicyclists",
+      "page": "10-15"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.4.1.1",
+      "title": "Bicycle Minimum Green",
+      "page": "10-15"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.4.1.2",
+      "title": "Yellow Change Interval",
+      "page": "10-19"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.4.1.3",
+      "title": "Red Clearance Interval",
+      "page": "10-20"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.4.2",
+      "title": "Bicycle Green Extension",
+      "page": "10-22"
+    },
+    {
+      "level": 2,
+      "chapter": 10,
+      "num": "10.5",
+      "title": "Bicycle Signal Design Considerations",
+      "page": "10-22"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.5.1",
+      "title": "Size of Displays",
+      "page": "10-22"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.5.2",
+      "title": "Number of Displays",
+      "page": "10-23"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.5.3",
+      "title": "Visibility of Signals",
+      "page": "10-24"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.5.4",
+      "title": "Placement",
+      "page": "10-24"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.5.5",
+      "title": "Mounting Height",
+      "page": "10-25"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.5.6",
+      "title": "Considerations for Placement with Pedestrian Signal Equipment",
+      "page": "10-25"
+    },
+    {
+      "level": 2,
+      "chapter": 10,
+      "num": "10.6",
+      "title": "Detection for Bicycles",
+      "page": "10-26"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.6.1",
+      "title": "Detection Techniques",
+      "page": "10-27"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.6.1.1",
+      "title": "Pushbuttons for Bicyclists",
+      "page": "10-27"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.6.1.2",
+      "title": "Inductive Loop Detection",
+      "page": "10-30"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.6.1.3",
+      "title": "Video Detection Systems",
+      "page": "10-30"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.6.1.4",
+      "title": "Microwave (Radar) Detection and Speed Sensing Systems",
+      "page": "10-31"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.6.1.5",
+      "title": "Use of Detection in Counting",
+      "page": "10-31"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.6.1.6",
+      "title": "Detector Confirmation Indication (Experimental)",
+      "page": "10-32"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.6.2",
+      "title": "Location of Detection and Detector Settings",
+      "page": "10-32"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.6.3",
+      "title": "Signs and Markings for Detection",
+      "page": "10-33"
+    },
+    {
+      "level": 2,
+      "chapter": 10,
+      "num": "10.7",
+      "title": "Design Guidance for Pedestrian Hybrid Beacons",
+      "page": "10-34"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.7.1",
+      "title": "Pedestrian Hybrid Beacon Considerations for Bicycle Traffic",
+      "page": "10-34"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.7.1.1",
+      "title": "Stop Sign Control",
+      "page": "10-35"
+    },
+    {
+      "level": 4,
+      "chapter": 10,
+      "num": "10.7.1.2",
+      "title": "Pedestrian Signal Control",
+      "page": "10-35"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.7.2",
+      "title": "Pedestrian Hybrid Beacon Timing Considerations",
+      "page": "10-37"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.7.3",
+      "title": "Other PHB Design Considerations",
+      "page": "10-38"
+    },
+    {
+      "level": 2,
+      "chapter": 10,
+      "num": "10.8",
+      "title": "Toucan Crossings with Traffic Signals",
+      "page": "10-38"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.8.1",
+      "title": "Geometric Design Features and Signal Equipment Placement Considerations",
+      "page": "10-39"
+    },
+    {
+      "level": 3,
+      "chapter": 10,
+      "num": "10.8.2",
+      "title": "Toucan Crossing Signal Timing Considerations",
+      "page": "10-41"
+    },
+    {
+      "level": 2,
+      "chapter": 10,
+      "num": "",
+      "title": "Chapter 10 References",
+      "page": "10-42"
+    },
+    {
+      "level": 1,
+      "chapter": 11,
+      "num": "Ch. 11",
+      "title": "Bicycle Facility Design at Interchanges, Alternative Intersections, and Roundabouts",
+      "page": "11-2"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "11.1",
+      "title": "Introduction",
+      "page": "11-2"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "11.2",
+      "title": "Basic Design Principles",
+      "page": "11-2"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.2.1",
+      "title": "Identifying Conflict Scenarios",
+      "page": "11-3"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.2.2",
+      "title": "Bicyclist Routing and Delay",
+      "page": "11-4"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.2.3",
+      "title": "Minimize Conflicts with Motor Vehicles",
+      "page": "11-4"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.2.4",
+      "title": "Minimize Conflicts with Pedestrians",
+      "page": "11-5"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "11.3",
+      "title": "Exit and Entrance Ramps",
+      "page": "11-5"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.3.1",
+      "title": "Ramp Skew",
+      "page": "11-5"
+    },
+    {
+      "level": 4,
+      "chapter": 11,
+      "num": "11.3.1.1",
+      "title": "Potential Conflict Mitigation Treatments",
+      "page": "11-6"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.3.2",
+      "title": "Bicycle Crossings of Ramps",
+      "page": "11-6"
+    },
+    {
+      "level": 4,
+      "chapter": 11,
+      "num": "11.3.2.1",
+      "title": "Entrance Ramps",
+      "page": "11-6"
+    },
+    {
+      "level": 4,
+      "chapter": 11,
+      "num": "11.3.2.2",
+      "title": "Exit Ramps and Merging Areas",
+      "page": "11-10"
+    },
+    {
+      "level": 4,
+      "chapter": 11,
+      "num": "11.3.2.3",
+      "title": "Additional Conflict Mitigation Treatments",
+      "page": "11-12"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.3.3",
+      "title": "Merging and Weaving Areas",
+      "page": "11-13"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "11.4",
+      "title": "Multiple-Threat Conditions",
+      "page": "11-14"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "11.5",
+      "title": "Motorist Left Turns",
+      "page": "11-15"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "11.6",
+      "title": "Designs that Place Bicyclists in Constrained Areas",
+      "page": "11-15"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "11.7",
+      "title": "Conflicts between Bicyclists and Pedestrians in Shared Space",
+      "page": "11-17"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "11.8",
+      "title": "Channelized Right-Turn Lanes",
+      "page": "11-18"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "11.9",
+      "title": "Alternative Intersection Design Considerations",
+      "page": "11-20"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.9.1",
+      "title": "Expectations about Traffic Directionality",
+      "page": "11-22"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.9.2",
+      "title": "Unconventional Bicycle Routing",
+      "page": "11-22"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.9.3",
+      "title": "Multi-Stage Crossings",
+      "page": "11-22"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.9.4",
+      "title": "Signal Timing for On-Street Bikeways",
+      "page": "11-23"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "11.10",
+      "title": "Roundabouts",
+      "page": "11-23"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.10.1",
+      "title": "Transitions to Separated Bikeways at Roundabouts",
+      "page": "11-23"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.10.2",
+      "title": "Separated Bike Lanes at Roundabouts",
+      "page": "11-25"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.10.3",
+      "title": "Shared Use Paths at Roundabouts",
+      "page": "11-27"
+    },
+    {
+      "level": 3,
+      "chapter": 11,
+      "num": "11.10.4",
+      "title": "On-Street Bicycle Travel through Roundabouts",
+      "page": "11-27"
+    },
+    {
+      "level": 2,
+      "chapter": 11,
+      "num": "",
+      "title": "Chapter 11 References",
+      "page": "11-28"
+    },
+    {
+      "level": 1,
+      "chapter": 12,
+      "num": "Ch. 12",
+      "title": "Rural Area Bikeways and Roadways",
+      "page": "12-2"
+    },
+    {
+      "level": 2,
+      "chapter": 12,
+      "num": "12.1",
+      "title": "Introduction",
+      "page": "12-2"
+    },
+    {
+      "level": 2,
+      "chapter": 12,
+      "num": "12.2",
+      "title": "Safety Context of Rural Roads",
+      "page": "12-2"
+    },
+    {
+      "level": 2,
+      "chapter": 12,
+      "num": "12.3",
+      "title": "Design User Profiles",
+      "page": "12-3"
+    },
+    {
+      "level": 2,
+      "chapter": 12,
+      "num": "12.4",
+      "title": "Rural Bikeway Treatments",
+      "page": "12-4"
+    },
+    {
+      "level": 3,
+      "chapter": 12,
+      "num": "12.4.1",
+      "title": "Shared Roadways and Shared Lanes",
+      "page": "12-4"
+    },
+    {
+      "level": 3,
+      "chapter": 12,
+      "num": "12.4.2",
+      "title": "Signs for Shared Roadways",
+      "page": "12-5"
+    },
+    {
+      "level": 3,
+      "chapter": 12,
+      "num": "12.4.3",
+      "title": "Paved Shoulders",
+      "page": "12-5"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.4.3.1",
+      "title": "General Benefits and Considerations",
+      "page": "12-6"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.4.3.2",
+      "title": "Widths of Paved Shoulders",
+      "page": "12-6"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.4.3.2.1",
+      "title": "Shoulder Allocation in Constrained Locations",
+      "page": "12-8"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.4.3.3",
+      "title": "Shoulder Considerations at Railroad Crossings",
+      "page": "12-8"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.4.3.4",
+      "title": "Paved Shoulder Intersection Design",
+      "page": "12-8"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.4.3.4.1",
+      "title": "Shoulder Design with Bypass Lanes",
+      "page": "12-10"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.4.3.5",
+      "title": "Options for Enhancing Shoulder Conspicuity",
+      "page": "12-11"
+    },
+    {
+      "level": 3,
+      "chapter": 12,
+      "num": "12.4.4",
+      "title": "Advisory Shoulders (Experimental)",
+      "page": "12-12"
+    },
+    {
+      "level": 2,
+      "chapter": 12,
+      "num": "12.5",
+      "title": "Pavement Surface Quality on Rural Roadways",
+      "page": "12-13"
+    },
+    {
+      "level": 3,
+      "chapter": 12,
+      "num": "12.5.1",
+      "title": "Rumble Strip Placement and Design",
+      "page": "12-13"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.5.1.1",
+      "title": "Shoulder Rumble Strip Placement",
+      "page": "12-14"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.5.1.2",
+      "title": "Rumble Strip Design",
+      "page": "12-15"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.5.1.3",
+      "title": "Shoulder Rumble Strip Gaps for Bicycle Crossings",
+      "page": "12-16"
+    },
+    {
+      "level": 4,
+      "chapter": 12,
+      "num": "12.5.1.4",
+      "title": "Considerations for Bicyclists' Safety on Roadways with Center Line Rumble Strips",
+      "page": "12-17"
+    },
+    {
+      "level": 3,
+      "chapter": 12,
+      "num": "12.5.2",
+      "title": "Intersections with Unpaved Driveways, Streets, or Paths",
+      "page": "12-17"
+    },
+    {
+      "level": 2,
+      "chapter": 12,
+      "num": "12.6",
+      "title": "Shared Use Paths and Side Paths",
+      "page": "12-17"
+    },
+    {
+      "level": 2,
+      "chapter": 12,
+      "num": "12.7",
+      "title": "Design Considerations for Bridges, Viaducts, and Tunnels in Rural Areas",
+      "page": "12-18"
+    },
+    {
+      "level": 2,
+      "chapter": 12,
+      "num": "12.8",
+      "title": "Bicycle Travel Along Interstates, Freeways, and Limited-Access Highways",
+      "page": "12-18"
+    },
+    {
+      "level": 2,
+      "chapter": 12,
+      "num": "12.9",
+      "title": "Roundabouts",
+      "page": "12-19"
+    },
+    {
+      "level": 2,
+      "chapter": 12,
+      "num": "",
+      "title": "Chapter 12 References",
+      "page": "12-20"
+    },
+    {
+      "level": 1,
+      "chapter": 13,
+      "num": "Ch. 13",
+      "title": "Structures",
+      "page": "13-2"
+    },
+    {
+      "level": 2,
+      "chapter": 13,
+      "num": "13.1",
+      "title": "Introduction",
+      "page": "13-2"
+    },
+    {
+      "level": 2,
+      "chapter": 13,
+      "num": "13.2",
+      "title": "General Design Principles for Structures",
+      "page": "13-2"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.2.1",
+      "title": "Roadway Structures with Bikeways",
+      "page": "13-2"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.2.2",
+      "title": "Bikeway Structures",
+      "page": "13-4"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.2.3",
+      "title": "Evaluating a Bridge, Underpass, or Tunnel for Bikeway Structures",
+      "page": "13-6"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.2.4",
+      "title": "Separation from Motor Vehicles",
+      "page": "13-6"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.2.5",
+      "title": "Personal Security Considerations",
+      "page": "13-7"
+    },
+    {
+      "level": 2,
+      "chapter": 13,
+      "num": "13.3",
+      "title": "Design Details for Bridges",
+      "page": "13-7"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.3.1",
+      "title": "Bikeway Dimensions",
+      "page": "13-7"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.3.2",
+      "title": "Considerations for Viewing Areas",
+      "page": "13-8"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.3.3",
+      "title": "Railings, Barriers, and Fence Considerations on Bridges",
+      "page": "13-8"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.3.4",
+      "title": "Joints and Transitions",
+      "page": "13-9"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.3.5",
+      "title": "Additional Considerations for Independent Shared Use Path Bridges",
+      "page": "13-10"
+    },
+    {
+      "level": 2,
+      "chapter": 13,
+      "num": "13.4",
+      "title": "Design Details for Tunnels and Underpasses",
+      "page": "13-11"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.4.1",
+      "title": "Bikeway Dimensions",
+      "page": "13-11"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.4.2",
+      "title": "Separation of Motorized and Nonmotorized Vehicle Traffic",
+      "page": "13-12"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.4.3",
+      "title": "Tunnel and Underpass Lighting",
+      "page": "13-12"
+    },
+    {
+      "level": 3,
+      "chapter": 13,
+      "num": "13.4.4",
+      "title": "Additional Considerations for Independent Shared Use Path Tunnels",
+      "page": "13-14"
+    },
+    {
+      "level": 2,
+      "chapter": 13,
+      "num": "13.5",
+      "title": "Options for Retrofitting Existing Structures",
+      "page": "13-14"
+    },
+    {
+      "level": 2,
+      "chapter": 13,
+      "num": "13.6",
+      "title": "Connections to Nearby Facilities",
+      "page": "13-15"
+    },
+    {
+      "level": 2,
+      "chapter": 13,
+      "num": "",
+      "title": "Chapter 13 References",
+      "page": "13-18"
+    },
+    {
+      "level": 1,
+      "chapter": 14,
+      "num": "Ch. 14",
+      "title": "Wayfinding Systems for Bicyclists",
+      "page": "14-2"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.1",
+      "title": "Introduction",
+      "page": "14-2"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.2",
+      "title": "Core Wayfinding Principles",
+      "page": "14-2"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.3",
+      "title": "When to Use Bicycle Wayfinding Signs",
+      "page": "14-2"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.4",
+      "title": "Design User Profile",
+      "page": "14-3"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.5",
+      "title": "Bicycle Wayfinding Approaches",
+      "page": "14-4"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.5.1",
+      "title": "Destination-Based Wayfinding",
+      "page": "14-4"
+    },
+    {
+      "level": 4,
+      "chapter": 14,
+      "num": "14.5.1.1",
+      "title": "MUTCD D Series",
+      "page": "14-4"
+    },
+    {
+      "level": 4,
+      "chapter": 14,
+      "num": "14.5.1.2",
+      "title": "MUTCD Community Wayfinding Series",
+      "page": "14-4"
+    },
+    {
+      "level": 4,
+      "chapter": 14,
+      "num": "14.5.1.3",
+      "title": "NPS UniGuide Style",
+      "page": "14-4"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.5.2",
+      "title": "Route-Based Wayfinding",
+      "page": "14-4"
+    },
+    {
+      "level": 4,
+      "chapter": 14,
+      "num": "14.5.2.1",
+      "title": "National Routes",
+      "page": "14-5"
+    },
+    {
+      "level": 4,
+      "chapter": 14,
+      "num": "14.5.2.2",
+      "title": "State Routes",
+      "page": "14-5"
+    },
+    {
+      "level": 4,
+      "chapter": 14,
+      "num": "14.5.2.3",
+      "title": "Local, State, or Nationally Significant Shared Use Paths",
+      "page": "14-6"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.6",
+      "title": "Bicycle Wayfinding Sign Assemblies",
+      "page": "14-6"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.6.1",
+      "title": "Confirmation Sign Assemblies",
+      "page": "14-8"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.6.2",
+      "title": "Advance Turn Sign Assemblies",
+      "page": "14-8"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.6.3",
+      "title": "Junction Sign Assemblies",
+      "page": "14-9"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.7",
+      "title": "Supplemental Information",
+      "page": "14-9"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.7.1",
+      "title": "Measuring Distance",
+      "page": "14-9"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.7.2",
+      "title": "Abbreviations and Other Information",
+      "page": "14-10"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.8",
+      "title": "Supplemental Wayfinding Elements",
+      "page": "14-10"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.8.1",
+      "title": "Mile Markers",
+      "page": "14-10"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.8.2",
+      "title": "Information Signs and Map Kiosks",
+      "page": "14-10"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.8.3",
+      "title": "Street Name Signs",
+      "page": "14-10"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.8.4",
+      "title": "Identification Signs",
+      "page": "14-10"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.9",
+      "title": "Wayfinding Sign Design: Style and Branding",
+      "page": "14-11"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.9.1",
+      "title": "Unique Community Wayfinding Signs",
+      "page": "14-11"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.9.2",
+      "title": "Lettering and Font Size",
+      "page": "14-11"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.10",
+      "title": "Wayfinding Sign Placement and Installation",
+      "page": "14-11"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.10.1",
+      "title": "Horizontal and Vertical Clearance",
+      "page": "14-12"
+    },
+    {
+      "level": 4,
+      "chapter": 14,
+      "num": "14.10.1.1",
+      "title": "Mounting Height",
+      "page": "14-12"
+    },
+    {
+      "level": 4,
+      "chapter": 14,
+      "num": "14.10.1.2",
+      "title": "Lateral Offset",
+      "page": "14-12"
+    },
+    {
+      "level": 3,
+      "chapter": 14,
+      "num": "14.10.2",
+      "title": "Wayfinding Sign Placement at Intersections",
+      "page": "14-13"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "14.11",
+      "title": "Wayfinding for Bicycle Detours and Work Zones",
+      "page": "14-15"
+    },
+    {
+      "level": 2,
+      "chapter": 14,
+      "num": "",
+      "title": "Chapter 14 References",
+      "page": "14-17"
+    },
+    {
+      "level": 1,
+      "chapter": 15,
+      "num": "Ch. 15",
+      "title": "Maintenance and Operations",
+      "page": "15-2"
+    },
+    {
+      "level": 2,
+      "chapter": 15,
+      "num": "15.1",
+      "title": "Introduction",
+      "page": "15-2"
+    },
+    {
+      "level": 2,
+      "chapter": 15,
+      "num": "15.2",
+      "title": "Maintenance Policy and Programs",
+      "page": "15-3"
+    },
+    {
+      "level": 2,
+      "chapter": 15,
+      "num": "15.3",
+      "title": "Designing for Ease of Maintenance",
+      "page": "15-4"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.3.1",
+      "title": "Involvement of Maintenance Departments",
+      "page": "15-4"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.3.2",
+      "title": "Life Cycle Cost Considerations",
+      "page": "15-4"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.3.3",
+      "title": "Maintenance Expectations",
+      "page": "15-5"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.3.4",
+      "title": "Accessibility Considerations for Shared Use Facilities",
+      "page": "15-6"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.3.5",
+      "title": "Drainage",
+      "page": "15-7"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.3.6",
+      "title": "Access for Equipment",
+      "page": "15-7"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.3.7",
+      "title": "Visibility of Bikeways for Maintenance Personnel",
+      "page": "15-8"
+    },
+    {
+      "level": 2,
+      "chapter": 15,
+      "num": "15.4",
+      "title": "Maintenance Activities",
+      "page": "15-9"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.4.1",
+      "title": "Surface Repairs",
+      "page": "15-9"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.1.1",
+      "title": "Asphalt Patching",
+      "page": "15-9"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.1.2",
+      "title": "Asphalt Crack Sealing and Crack Filling",
+      "page": "15-10"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.1.3",
+      "title": "Fog Sealing",
+      "page": "15-10"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.1.4",
+      "title": "Chip Sealing",
+      "page": "15-11"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.1.5",
+      "title": "Slurry Sealing",
+      "page": "15-11"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.1.6",
+      "title": "Microsurfacing",
+      "page": "15-12"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.4.2",
+      "title": "Pavement Overlays",
+      "page": "15-12"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.4.3",
+      "title": "Maintenance of Concrete Pavements",
+      "page": "15-13"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.4.4",
+      "title": "Clearing and Sweeping",
+      "page": "15-14"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.4.1",
+      "title": "Sweeping",
+      "page": "15-14"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.4.2",
+      "title": "Snow and Ice Removal",
+      "page": "15-14"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.4.2.1",
+      "title": "On-Street Bikeways and Shoulders",
+      "page": "15-15"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.4.2.2",
+      "title": "Separated Bike Lanes (May Include On-Street or Curb-Separated Facilities)",
+      "page": "15-15"
+    },
+    {
+      "level": 4,
+      "chapter": 15,
+      "num": "15.4.4.2.3",
+      "title": "Shared Use Paths",
+      "page": "15-16"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.4.5",
+      "title": "Vegetation Removal",
+      "page": "15-16"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.4.6",
+      "title": "Traffic Signal Equipment",
+      "page": "15-17"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.4.7",
+      "title": "Drainage Facilities",
+      "page": "15-17"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.4.8",
+      "title": "Signs and Pavement Markings",
+      "page": "15-17"
+    },
+    {
+      "level": 2,
+      "chapter": 15,
+      "num": "15.5",
+      "title": "Temporary Traffic Control for Bicyclists (Maintenance of Traffic)",
+      "page": "15-18"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.5.1",
+      "title": "Rural Highway Construction Applications",
+      "page": "15-19"
+    },
+    {
+      "level": 3,
+      "chapter": 15,
+      "num": "15.5.2",
+      "title": "Urban Roadway Construction Applications",
+      "page": "15-19"
+    },
+    {
+      "level": 2,
+      "chapter": 15,
+      "num": "",
+      "title": "Chapter 15 References",
+      "page": "15-22"
+    },
+    {
+      "level": 1,
+      "chapter": 16,
+      "num": "Ch. 16",
+      "title": "Bicycle Parking, Bike Share Siting, and End-of-Trip Facilities",
+      "page": "16-2"
+    },
+    {
+      "level": 2,
+      "chapter": 16,
+      "num": "16.1",
+      "title": "Introduction",
+      "page": "16-2"
+    },
+    {
+      "level": 2,
+      "chapter": 16,
+      "num": "16.2",
+      "title": "Planning for Bicycle Parking",
+      "page": "16-2"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.2.1",
+      "title": "Types of Bicycle Parking",
+      "page": "16-2"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.2.2",
+      "title": "Basic Bicycle Parking Principles",
+      "page": "16-3"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.2.3",
+      "title": "Assessing the Need",
+      "page": "16-3"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.2.4",
+      "title": "Policy and Guidance",
+      "page": "16-5"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.2.5",
+      "title": "Signage and Wayfinding",
+      "page": "16-5"
+    },
+    {
+      "level": 2,
+      "chapter": 16,
+      "num": "16.3",
+      "title": "Short-Term Parking",
+      "page": "16-5"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.3.1",
+      "title": "Types of Short-Term Parking",
+      "page": "16-6"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.3.2",
+      "title": "Location",
+      "page": "16-6"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.3.3",
+      "title": "Access",
+      "page": "16-6"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.3.4",
+      "title": "Example Designs with Unique Considerations",
+      "page": "16-6"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.3.4.1",
+      "title": "Sheltered Parking",
+      "page": "16-6"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.3.4.2",
+      "title": "On-Street Parking",
+      "page": "16-8"
+    },
+    {
+      "level": 2,
+      "chapter": 16,
+      "num": "16.4",
+      "title": "Long-Term Parking",
+      "page": "16-8"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.4.1",
+      "title": "Types of Long-Term Bicycle Parking Facilities",
+      "page": "16-8"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.1.1",
+      "title": "Bike Rooms",
+      "page": "16-8"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.1.2",
+      "title": "Bicycle Cages",
+      "page": "16-8"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.1.3",
+      "title": "Bike Lockers",
+      "page": "16-8"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.1.4",
+      "title": "Bicycle Station",
+      "page": "16-9"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.1.5",
+      "title": "High-Capacity Bicycle Parking Facilities",
+      "page": "16-9"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.4.2",
+      "title": "Location",
+      "page": "16-10"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.4.3",
+      "title": "Access",
+      "page": "16-11"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.3.1",
+      "title": "Access Routes",
+      "page": "16-11"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.3.2",
+      "title": "Floor Level",
+      "page": "16-11"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.3.3",
+      "title": "Elevators and Stairs",
+      "page": "16-11"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.3.4",
+      "title": "Entrances",
+      "page": "16-11"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.3.5",
+      "title": "High-Capacity Rack Access",
+      "page": "16-11"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.3.6",
+      "title": "Layout",
+      "page": "16-11"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.4.3.7",
+      "title": "Parking Garages",
+      "page": "16-12"
+    },
+    {
+      "level": 2,
+      "chapter": 16,
+      "num": "16.5",
+      "title": "Rack Design",
+      "page": "16-12"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.5.1",
+      "title": "Rack Performance Criteria",
+      "page": "16-12"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.5.2",
+      "title": "Recommended Racks",
+      "page": "16-11"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.5.2.1",
+      "title": "Inverted U-Racks",
+      "page": "16-12"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.5.2.2",
+      "title": "Post and Ring Racks",
+      "page": "16-12"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.5.2.3",
+      "title": "Vertical Parking",
+      "page": "16-13"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.5.2.4",
+      "title": "Tiered Parking",
+      "page": "16-13"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.5.3",
+      "title": "Not Recommended",
+      "page": "16-13"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.5.3.1",
+      "title": "Schoolyard Racks",
+      "page": "16-13"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.5.3.2",
+      "title": "Wave Racks",
+      "page": "16-14"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.5.3.3",
+      "title": "Wheelwell Racks",
+      "page": "16-14"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.5.4",
+      "title": "Considerations for Decorative Racks",
+      "page": "16-14"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.5.5",
+      "title": "Materials and Installation Surface",
+      "page": "16-15"
+    },
+    {
+      "level": 2,
+      "chapter": 16,
+      "num": "16.6",
+      "title": "Short-Term and Long-Term Bicycle Parking Site Design",
+      "page": "16-15"
+    },
+    {
+      "level": 2,
+      "chapter": 16,
+      "num": "16.7",
+      "title": "Bike Parking at Special Events",
+      "page": "16-18"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.7.1",
+      "title": "Types of Event Parking",
+      "page": "16-18"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.7.1.1",
+      "title": "Unattended",
+      "page": "16-18"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.7.1.2",
+      "title": "Supervised Self-Parking",
+      "page": "16-18"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.7.1.3",
+      "title": "Valet Parking",
+      "page": "16-19"
+    },
+    {
+      "level": 2,
+      "chapter": 16,
+      "num": "16.8",
+      "title": "Bike Share Parking",
+      "page": "16-19"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.8.1",
+      "title": "Bike Share Technologies",
+      "page": "16-19"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.8.1.1",
+      "title": "Smart Dock Systems",
+      "page": "16-19"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.8.1.2",
+      "title": "Smart Bike Systems",
+      "page": "16-20"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.8.1.3",
+      "title": "Dockless Systems",
+      "page": "16-20"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.8.2",
+      "title": "Bike Share Placement Considerations",
+      "page": "16-20"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.8.2.1",
+      "title": "General Placement Considerations",
+      "page": "16-20"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.8.2.2",
+      "title": "On-Street Placement",
+      "page": "16-21"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.8.2.3",
+      "title": "Sidewalk Placement",
+      "page": "16-21"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.8.2.4",
+      "title": "Parking Lot Placement",
+      "page": "16-23"
+    },
+    {
+      "level": 4,
+      "chapter": 16,
+      "num": "16.8.2.5",
+      "title": "Parks, Plazas, and Public Property",
+      "page": "16-23"
+    },
+    {
+      "level": 2,
+      "chapter": 16,
+      "num": "16.9",
+      "title": "Locker Rooms, Showers, and Repair Stations (End-of-Trip Facilities)",
+      "page": "16-24"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.9.1",
+      "title": "Locker Rooms",
+      "page": "16-24"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.9.2",
+      "title": "Showers and Shower Rooms",
+      "page": "16-24"
+    },
+    {
+      "level": 3,
+      "chapter": 16,
+      "num": "16.9.3",
+      "title": "Repair Stations",
+      "page": "16-24"
+    },
+    {
+      "level": 2,
+      "chapter": 16,
+      "num": "",
+      "title": "Chapter 16 References",
+      "page": "16-26"
+    }
+  ],
+  "figures": [
+    {
+      "num": "1-1",
+      "chapter": 1,
+      "title": "Design Range",
+      "page": "1-4"
+    },
+    {
+      "num": "1-2",
+      "chapter": 1,
+      "title": "Example Performance Trade-Offs Relative to Fitness of Purpose of Design Values",
+      "page": "1-5"
+    },
+    {
+      "num": "2-1",
+      "chapter": 2,
+      "title": "Risk of Bicyclist Injury Severity Relative to Motorist Impact Speed",
+      "page": "2-10"
+    },
+    {
+      "num": "2-2",
+      "chapter": 2,
+      "title": "Comfort Typology of Bicyclists",
+      "page": "2-13"
+    },
+    {
+      "num": "2-3",
+      "chapter": 2,
+      "title": "Typical Dimensions of Common Adult Bicycles",
+      "page": "2-22"
+    },
+    {
+      "num": "2-4",
+      "chapter": 2,
+      "title": "Typical Electric Assist Pedestrian Mobility Devices",
+      "page": "2-23"
+    },
+    {
+      "num": "2-5",
+      "chapter": 2,
+      "title": "Typical Adult Bicyclist Operating Space",
+      "page": "2-27"
+    },
+    {
+      "num": "2-6",
+      "chapter": 2,
+      "title": "Common Maneuvers for Bicyclists Turning Left at an Intersection",
+      "page": "2-30"
+    },
+    {
+      "num": "3-1",
+      "chapter": 3,
+      "title": "Examples of Contrasting Connectivity",
+      "page": "3-4"
+    },
+    {
+      "num": "3-2",
+      "chapter": 3,
+      "title": "Photos of Bikes-on-Bus Service and Roll-on Rail Service",
+      "page": "3-15"
+    },
+    {
+      "num": "3-3",
+      "chapter": 3,
+      "title": "Example of Bicycle Master Plan Recommendations Map",
+      "page": "3-19"
+    },
+    {
+      "num": "4-1",
+      "chapter": 4,
+      "title": "Preferred Bikeway Type for Urban Core, Urban, Suburban, and Rural Town Contexts",
+      "page": "4-7"
+    },
+    {
+      "num": "4-2",
+      "chapter": 4,
+      "title": "Preferred Paved Shoulder Widths for Rural Roadways to Accommodate Highly Confident or Somewhat Confident Bicyclists",
+      "page": "4-8"
+    },
+    {
+      "num": "4-3",
+      "chapter": 4,
+      "title": "Common Bikeway Options within a 48-ft Cross Section",
+      "page": "4-16"
+    },
+    {
+      "num": "5-1",
+      "chapter": 5,
+      "title": "Intersection Sight Distance: Case S",
+      "page": "5-12"
+    },
+    {
+      "num": "5-2",
+      "chapter": 5,
+      "title": "Intersection Sight Distance: Case T",
+      "page": "5-15"
+    },
+    {
+      "num": "5-3",
+      "chapter": 5,
+      "title": "Intersection Sight Distance: Case U1",
+      "page": "5-16"
+    },
+    {
+      "num": "5-4",
+      "chapter": 5,
+      "title": "Intersection Sight Distance: Case U2",
+      "page": "5-18"
+    },
+    {
+      "num": "5-5",
+      "chapter": 5,
+      "title": "Sight Triangle for Uncontrolled Mid-Block Path Crossing of an Uncontrolled Roadway: Case U3",
+      "page": "5-20"
+    },
+    {
+      "num": "5-6",
+      "chapter": 5,
+      "title": "Bicyclist Crossing from a Stop-Controlled Minor Road: Case V",
+      "page": "5-24"
+    },
+    {
+      "num": "5-7",
+      "chapter": 5,
+      "title": "Bicyclist Crossing a Shared Use Path from a Shared Use Path: Case W",
+      "page": "5-25"
+    },
+    {
+      "num": "5-8",
+      "chapter": 5,
+      "title": "Minimum Path-Walkway Sight Triangle: Case X",
+      "page": "5-25"
+    },
+    {
+      "num": "5-9",
+      "chapter": 5,
+      "title": "Pedestrian Crossing at Shared Use Path or a Separated Bike Lane Sight Triangle: Case X",
+      "page": "5-26"
+    },
+    {
+      "num": "5-10",
+      "chapter": 5,
+      "title": "Diagram Illustrating Components for Determining Horizontal Sightline Offset",
+      "page": "5-27"
+    },
+    {
+      "num": "5-11",
+      "chapter": 5,
+      "title": "Edge Taper vs. Facility Shift",
+      "page": "5-32"
+    },
+    {
+      "num": "5-12",
+      "chapter": 5,
+      "title": "Crossing Locations Relative to Intersection Functional Area",
+      "page": "5-34"
+    },
+    {
+      "num": "5-13",
+      "chapter": 5,
+      "title": "Comparison of Bicyclist Exposure to Motor Vehicles at Intersections",
+      "page": "5-37"
+    },
+    {
+      "num": "5-14",
+      "chapter": 5,
+      "title": "Motorist Yielding at Uncontrolled Crossings Based on Roadway Characteristics",
+      "page": "5-43"
+    },
+    {
+      "num": "5-15",
+      "chapter": 5,
+      "title": "Raised Refuge Median Design",
+      "page": "5-52"
+    },
+    {
+      "num": "5-16",
+      "chapter": 5,
+      "title": "Example of a Hardened Centerline",
+      "page": "5-52"
+    },
+    {
+      "num": "5-17",
+      "chapter": 5,
+      "title": "Recessed Stop Line with Mountable Truck Apron",
+      "page": "5-54"
+    },
+    {
+      "num": "5-18",
+      "chapter": 5,
+      "title": "Mountable Truck Apron",
+      "page": "5-55"
+    },
+    {
+      "num": "5-19",
+      "chapter": 5,
+      "title": "Mountable Truck Apron at a Roundabout, Burlington County, NJ",
+      "page": "5-55"
+    },
+    {
+      "num": "5-20",
+      "chapter": 5,
+      "title": "Raised Side Street Crossing",
+      "page": "5-57"
+    },
+    {
+      "num": "5-21",
+      "chapter": 5,
+      "title": "Raised Driveway Crossing",
+      "page": "5-57"
+    },
+    {
+      "num": "5-22",
+      "chapter": 5,
+      "title": "Multiple Treat Crash and Treatment to Address",
+      "page": "5-58"
+    },
+    {
+      "num": "5-23",
+      "chapter": 5,
+      "title": "Bicycle Ramp Alignments",
+      "page": "5-60"
+    },
+    {
+      "num": "5-24",
+      "chapter": 5,
+      "title": "Sidewalk-Level Separated Bike Lane with Directional Indicator",
+      "page": "5-61"
+    },
+    {
+      "num": "5-25",
+      "chapter": 5,
+      "title": "Bike Lane Sign",
+      "page": "5-63"
+    },
+    {
+      "num": "5-26",
+      "chapter": 5,
+      "title": "Advance Bicycle Crossing Warning and Bicycle Crossing Assembly Panel",
+      "page": "5-64"
+    },
+    {
+      "num": "5-27",
+      "chapter": 5,
+      "title": "Yield Here to (or Stop Here for) Bicyclists Signs",
+      "page": "5-65"
+    },
+    {
+      "num": "5-28",
+      "chapter": 5,
+      "title": "In-Street Crossing Signs",
+      "page": "5-66"
+    },
+    {
+      "num": "5-29",
+      "chapter": 5,
+      "title": "Turning Vehicles Yield to (or Stop for) Bicyclists Signs",
+      "page": "5-67"
+    },
+    {
+      "num": "5-30",
+      "chapter": 5,
+      "title": "Rectangular Rapid Flashing Beacons at a Crossing Location",
+      "page": "5-68"
+    },
+    {
+      "num": "5-31",
+      "chapter": 5,
+      "title": "Wrong Way and Ride with Traffic Bicycling Signs",
+      "page": "5-69"
+    },
+    {
+      "num": "5-32",
+      "chapter": 5,
+      "title": "Except Bicycles Plaque Signs",
+      "page": "5-70"
+    },
+    {
+      "num": "5-33",
+      "chapter": 5,
+      "title": "Bicycles Merging Sign",
+      "page": "5-71"
+    },
+    {
+      "num": "5-34",
+      "chapter": 5,
+      "title": "Yield Lines",
+      "page": "5-72"
+    },
+    {
+      "num": "5-35",
+      "chapter": 5,
+      "title": "Bicycle Crossing Pavement Markings",
+      "page": "5-75"
+    },
+    {
+      "num": "5-36",
+      "chapter": 5,
+      "title": "Bicycle Box Configuration across One Lane of Through Traffic",
+      "page": "5-77"
+    },
+    {
+      "num": "5-37",
+      "chapter": 5,
+      "title": "Bicycle Box Configuration across Multiple Lanes of Traffic",
+      "page": "5-79"
+    },
+    {
+      "num": "5-38",
+      "chapter": 5,
+      "title": "Two-Stage Bicycle Turn Box Pavement Markings",
+      "page": "5-81"
+    },
+    {
+      "num": "5-39",
+      "chapter": 5,
+      "title": "Two-Stage Left Turn Box Placement",
+      "page": "5-82"
+    },
+    {
+      "num": "5-40",
+      "chapter": 5,
+      "title": "Correction for Skewed Railroad Grade Crossing\u2014Separate Pathway",
+      "page": "5-85"
+    },
+    {
+      "num": "5-41",
+      "chapter": 5,
+      "title": "Correction for Skewed Railroad Grade Crossing\u2014Widened Shoulder",
+      "page": "5-86"
+    },
+    {
+      "num": "5-42",
+      "chapter": 5,
+      "title": "Correction for Skewed Streetcar Crossing\u2014Pavement Markings",
+      "page": "5-88"
+    },
+    {
+      "num": "5-43",
+      "chapter": 5,
+      "title": "Railing Designed to Accommodate Bicycle Handlebars",
+      "page": "5-90",
+      "errata": "Dec 2024 Errata corrected caption from 'Correction for Skewed Streetcar Crossing\u2014Pavement Markings'."
+    },
+    {
+      "num": "5-44",
+      "chapter": 5,
+      "title": "Example of Path Lighting",
+      "page": "5-91"
+    },
+    {
+      "num": "5-45",
+      "chapter": 5,
+      "title": "Examples of Bicycle Compatible Drainage Grates",
+      "page": "5-93"
+    },
+    {
+      "num": "6-1",
+      "chapter": 6,
+      "title": "People Walking and Bicycling Naturally Prefer to Socialize by Traveling Side-by-Side, Metropolitan Branch Trail, Washington, DC",
+      "page": "6-5"
+    },
+    {
+      "num": "6-2",
+      "chapter": 6,
+      "title": "Constrained 8- to 10-ft Width Shared Use Path along an Active Rail Line, Portland, OR",
+      "page": "6-10"
+    },
+    {
+      "num": "6-3",
+      "chapter": 6,
+      "title": "Burke-Gilman Shared Use Path (2008) and Separated Paths (2021), Seattle, WA",
+      "page": "6-11"
+    },
+    {
+      "num": "6-4",
+      "chapter": 6,
+      "title": "Options for Separating Bicyclists and Other Wheeled Users from Pedestrians",
+      "page": "6-12"
+    },
+    {
+      "num": "6-5",
+      "chapter": 6,
+      "title": "Shoulders and Shy Distance on Shared Use Paths",
+      "page": "6-16"
+    },
+    {
+      "num": "6-6",
+      "chapter": 6,
+      "title": "Shared Use Path Horizontal Alignment in Constrained Areas",
+      "page": "6-20"
+    },
+    {
+      "num": "6-7",
+      "chapter": 6,
+      "title": "Use of Barriers Near Hazardous Conditions along Shared Use Paths",
+      "page": "6-24"
+    },
+    {
+      "num": "6-8",
+      "chapter": 6,
+      "title": "Example of LED Directional Lighting Along a Shared Use Path which Has Motion Sensors to Increase Brightness",
+      "page": "6-25"
+    },
+    {
+      "num": "6-9",
+      "chapter": 6,
+      "title": "Example of LED Directional Lighting at a Shared Use Path\u2013Roadway Intersection",
+      "page": "6-25"
+    },
+    {
+      "num": "6-10",
+      "chapter": 6,
+      "title": "Obstruction Marking at Edge of Shared Use Path",
+      "page": "6-27"
+    },
+    {
+      "num": "6-11",
+      "chapter": 6,
+      "title": "Path Curb Ramp and Apron",
+      "page": "6-32"
+    },
+    {
+      "num": "6-12",
+      "chapter": 6,
+      "title": "Shared Use Path Crossing Realignment",
+      "page": "6-34"
+    },
+    {
+      "num": "6-13",
+      "chapter": 6,
+      "title": "Shared Use Path Stops or Yields",
+      "page": "6-35"
+    },
+    {
+      "num": "6-14",
+      "chapter": 6,
+      "title": "Road Stops",
+      "page": "6-36"
+    },
+    {
+      "num": "6-15",
+      "chapter": 6,
+      "title": "Multilane Road Uncontrolled with Advance Yield Line",
+      "page": "6-37"
+    },
+    {
+      "num": "6-16",
+      "chapter": 6,
+      "title": "Multilane Road with Signals",
+      "page": "6-38"
+    },
+    {
+      "num": "6-17",
+      "chapter": 6,
+      "title": "Bollard Approach Markings",
+      "page": "6-41"
+    },
+    {
+      "num": "7-1",
+      "chapter": 7,
+      "title": "Separated Bike Lane Zones",
+      "page": "7-3"
+    },
+    {
+      "num": "7-2",
+      "chapter": 7,
+      "title": "Sidewalk-Level Separated Bike Lane",
+      "page": "7-6"
+    },
+    {
+      "num": "7-3",
+      "chapter": 7,
+      "title": "Street-Level Separated Bike Lane",
+      "page": "7-7"
+    },
+    {
+      "num": "7-4",
+      "chapter": 7,
+      "title": "Intermediate-Level Separated Bike Lane",
+      "page": "7-8"
+    },
+    {
+      "num": "7-5",
+      "chapter": 7,
+      "title": "Curb Types for Separated Bike Lanes",
+      "page": "7-13"
+    },
+    {
+      "num": "7-6",
+      "chapter": 7,
+      "title": "Bicyclist Shy Distance to Curb Types",
+      "page": "7-14"
+    },
+    {
+      "num": "7-7",
+      "chapter": 7,
+      "title": "Separated Bike Lane Width",
+      "page": "7-15"
+    },
+    {
+      "num": "7-8",
+      "chapter": 7,
+      "title": "Vertical Elements in the Street Buffer Zone",
+      "page": "7-20"
+    },
+    {
+      "num": "7-9",
+      "chapter": 7,
+      "title": "Sidewalk-Level Separated Bike Lane Designed to Operate as a Side Path, Minneapolis, MN",
+      "page": "7-26"
+    },
+    {
+      "num": "7-10",
+      "chapter": 7,
+      "title": "Green Stormwater Infrastructure in an Urban Street Context",
+      "page": "7-28"
+    },
+    {
+      "num": "7-11",
+      "chapter": 7,
+      "title": "Examples of Separated Bike Lane Drainage Options",
+      "page": "7-29"
+    },
+    {
+      "num": "7-12",
+      "chapter": 7,
+      "title": "Intersection Sight Distance\u2014Single-Stage Crossing Scenario",
+      "page": "7-35"
+    },
+    {
+      "num": "7-13",
+      "chapter": 7,
+      "title": "Protected Intersection Design for Separated Bike Lanes and Side Paths",
+      "page": "7-37"
+    },
+    {
+      "num": "7-14",
+      "chapter": 7,
+      "title": "Elements of Protected Intersections for Separated Bike Lanes and Side Paths",
+      "page": "7-38"
+    },
+    {
+      "num": "7-15",
+      "chapter": 7,
+      "title": "Corner Island with Flexible Delineator Posts",
+      "page": "7-39"
+    },
+    {
+      "num": "7-16",
+      "chapter": 7,
+      "title": "Recessed Crossing at a Side Path Intersection",
+      "page": "7-41"
+    },
+    {
+      "num": "7-17",
+      "chapter": 7,
+      "title": "Side Path Curb Ramps at Constrained Intersection",
+      "page": "7-42"
+    },
+    {
+      "num": "7-18",
+      "chapter": 7,
+      "title": "Bend-Out Example",
+      "page": "7-44"
+    },
+    {
+      "num": "7-19",
+      "chapter": 7,
+      "title": "Bend-In Example with Existing Diagonal Curb Ramp",
+      "page": "7-45"
+    },
+    {
+      "num": "7-20",
+      "chapter": 7,
+      "title": "Angled Crossing Mixing Zone with Bike Lane",
+      "page": "7-47"
+    },
+    {
+      "num": "7-21",
+      "chapter": 7,
+      "title": "Angled Crossing Mixing Zone with Shared Lane",
+      "page": "7-48"
+    },
+    {
+      "num": "7-22",
+      "chapter": 7,
+      "title": "Accessible On-Street Motor Vehicle Parking at Intersections",
+      "page": "7-51"
+    },
+    {
+      "num": "7-23",
+      "chapter": 7,
+      "title": "Accessible On-Street Motor Vehicle Parking Mid-Block",
+      "page": "7-52"
+    },
+    {
+      "num": "7-24",
+      "chapter": 7,
+      "title": "Commercial Loading Zone",
+      "page": "7-53"
+    },
+    {
+      "num": "7-25",
+      "chapter": 7,
+      "title": "Accessible Loading Zone",
+      "page": "7-53"
+    },
+    {
+      "num": "7-26",
+      "chapter": 7,
+      "title": "Example Configuration: Floating Transit Stop (Mid-Block)",
+      "page": "7-55"
+    },
+    {
+      "num": "7-27",
+      "chapter": 7,
+      "title": "Example Configuration: Floating Transit Stop with Intermediate-Level Separated Bike Lane (Far-Side)",
+      "page": "7-56"
+    },
+    {
+      "num": "7-28",
+      "chapter": 7,
+      "title": "Example Configuration: Floating Transit Stop with Street-Level Separated Bike Lane (Mid-Block)",
+      "page": "7-57"
+    },
+    {
+      "num": "7-29",
+      "chapter": 7,
+      "title": "Example Configuration: Floating Transit Stop with Sidewalk-Level Separated Bike Lane (Near-Side)",
+      "page": "7-57"
+    },
+    {
+      "num": "7-30",
+      "chapter": 7,
+      "title": "Example Configuration: Transit Stop in Constrained Conditions",
+      "page": "7-59"
+    },
+    {
+      "num": "7-31",
+      "chapter": 7,
+      "title": "Example Configuration: Floating Transit Stops (Near-Side)",
+      "page": "7-60"
+    },
+    {
+      "num": "7-32",
+      "chapter": 7,
+      "title": "Transition to Shared Lane",
+      "page": "7-61"
+    },
+    {
+      "num": "7-33",
+      "chapter": 7,
+      "title": "Transition to Conventional Bike Lane",
+      "page": "7-62"
+    },
+    {
+      "num": "7-34",
+      "chapter": 7,
+      "title": "Transition to Conventional Bike Lane on Intersecting Street",
+      "page": "7-63"
+    },
+    {
+      "num": "7-35",
+      "chapter": 7,
+      "title": "Transition from One-Way to Two-Way Separated Bike Lanes at Protected Intersection",
+      "page": "7-64"
+    },
+    {
+      "num": "7-36",
+      "chapter": 7,
+      "title": "Transition from One-Way to Two-Way Separated Bike Lanes with Two-Stage Bicycle Turn Box",
+      "page": "7-65"
+    },
+    {
+      "num": "7-37",
+      "chapter": 7,
+      "title": "Transitions between Offset Intersections with Two-Way Separated Bike Lanes",
+      "page": "7-66"
+    },
+    {
+      "num": "7-38",
+      "chapter": 7,
+      "title": "Transitions between Two-Way Separated Bike Lanes and Shared Lanes",
+      "page": "7-67"
+    },
+    {
+      "num": "7-39",
+      "chapter": 7,
+      "title": "Intermediate-Level and Sidewalk-Level Raised Bike Lanes",
+      "page": "7-70"
+    },
+    {
+      "num": "7-40",
+      "chapter": 7,
+      "title": "Raised Bike Lane Transitions at Intersections",
+      "page": "7-71"
+    },
+    {
+      "num": "8-1",
+      "chapter": 8,
+      "title": "Motorist Passing Events Based on ADT\u201420 mph Posted Speed Limit",
+      "page": "8-3"
+    },
+    {
+      "num": "8-2",
+      "chapter": 8,
+      "title": "Example Two-Way Yield Street",
+      "page": "8-7"
+    },
+    {
+      "num": "8-3",
+      "chapter": 8,
+      "title": "Neckdown with Horizontal Lane Shift",
+      "page": "8-8"
+    },
+    {
+      "num": "8-4",
+      "chapter": 8,
+      "title": "One-Lane Pinch Point Example",
+      "page": "8-9"
+    },
+    {
+      "num": "8-5",
+      "chapter": 8,
+      "title": "Example of a Chicane Treatment on a Two-Way Street Created by a Median and Curb Extensions",
+      "page": "8-10"
+    },
+    {
+      "num": "8-6",
+      "chapter": 8,
+      "title": "Example of a Chicane Treatment Created by Alternating Parking from One Side of the Street to the Other",
+      "page": "8-10"
+    },
+    {
+      "num": "8-7",
+      "chapter": 8,
+      "title": "Example of a Mini-Traffic Circle",
+      "page": "8-11"
+    },
+    {
+      "num": "8-8",
+      "chapter": 8,
+      "title": "Vertical Approach Profiles of Vertical Traffic Calming Features",
+      "page": "8-12"
+    },
+    {
+      "num": "8-9",
+      "chapter": 8,
+      "title": "Typical Geometry for a Speed Hump and Speed Table (Raised Crosswalk)",
+      "page": "8-13"
+    },
+    {
+      "num": "8-10",
+      "chapter": 8,
+      "title": "Typical Geometry for a Speed Cushion",
+      "page": "8-14"
+    },
+    {
+      "num": "8-11",
+      "chapter": 8,
+      "title": "Example of a Median Used to Divert Traffic at a Major Street Crossing",
+      "page": "8-16"
+    },
+    {
+      "num": "8-12",
+      "chapter": 8,
+      "title": "Example of a Median Used to Create a Diagonal Diverter at Intersection of Two Local Streets",
+      "page": "8-17"
+    },
+    {
+      "num": "8-13",
+      "chapter": 8,
+      "title": "Example of a Forced Turn",
+      "page": "8-18"
+    },
+    {
+      "num": "8-14",
+      "chapter": 8,
+      "title": "Example of Connecting Offset Bicycle Boulevard Segments Using Bike Lanes and Two-Stage Bicycle Turn Boxes",
+      "page": "8-21"
+    },
+    {
+      "num": "8-15",
+      "chapter": 8,
+      "title": "Example of Connecting Offset Bicycle Boulevard Segments Using a Two-Way Separated Bike Lane",
+      "page": "8-23"
+    },
+    {
+      "num": "8-16",
+      "chapter": 8,
+      "title": "Example of Connecting Offset Bicycle Boulevard Segments Using Center Left-Turn Lanes",
+      "page": "8-24"
+    },
+    {
+      "num": "9-1",
+      "chapter": 9,
+      "title": "Shared Lane Conditions (Rural Context, Suburban Context, Urban Context)",
+      "page": "9-3"
+    },
+    {
+      "num": "9-2",
+      "chapter": 9,
+      "title": "Measuring Lane Width Considering Edge of Pavement, Curb, Gutter, and Parking Conditions",
+      "page": "9-4"
+    },
+    {
+      "num": "9-3",
+      "chapter": 9,
+      "title": "Shared Lane Marking Lateral Placement in Travel Lanes <14 ft without Parking",
+      "page": "9-6"
+    },
+    {
+      "num": "9-4",
+      "chapter": 9,
+      "title": "Shared Lane Marking Lateral Placement in Lanes >14 ft in Width on Streets without Parking",
+      "page": "9-7"
+    },
+    {
+      "num": "9-5",
+      "chapter": 9,
+      "title": "Shared Lane Marking Lateral Placement in Travel Lanes adjacent to a Parking Lane",
+      "page": "9-8"
+    },
+    {
+      "num": "9-6",
+      "chapter": 9,
+      "title": "Longitudinal Placement of Shared Lane Markings along a Roadway",
+      "page": "9-10"
+    },
+    {
+      "num": "9-7",
+      "chapter": 9,
+      "title": "Active Warning Beacons for Bicyclist Operating in Shared Lane Conditions with Higher Potential for Conflicts",
+      "page": "9-12"
+    },
+    {
+      "num": "9-8",
+      "chapter": 9,
+      "title": "Typical Bike Lane Pavement Markings and Traffic Control Signs",
+      "page": "9-16"
+    },
+    {
+      "num": "9-9",
+      "chapter": 9,
+      "title": "Buffer Design Options",
+      "page": "9-18"
+    },
+    {
+      "num": "9-10",
+      "chapter": 9,
+      "title": "Constrained Bike Lane Adjacent to Parking Example",
+      "page": "9-21"
+    },
+    {
+      "num": "9-11",
+      "chapter": 9,
+      "title": "Bike Lane with a Door Zone Buffer adjacent to Parking",
+      "page": "9-23"
+    },
+    {
+      "num": "9-12",
+      "chapter": 9,
+      "title": "Example Bike Lane adjacent to Back-In Diagonal Parking",
+      "page": "9-23"
+    },
+    {
+      "num": "9-13",
+      "chapter": 9,
+      "title": "Design Criteria for Back-In Diagonal Parking",
+      "page": "9-24"
+    },
+    {
+      "num": "9-14",
+      "chapter": 9,
+      "title": "Separated Bike Lane behind a Floating Bus Stop",
+      "page": "9-25"
+    },
+    {
+      "num": "9-15",
+      "chapter": 9,
+      "title": "Example of an Advisory Bicycle Lane in Alexandria, VA",
+      "page": "9-26"
+    },
+    {
+      "num": "9-16",
+      "chapter": 9,
+      "title": "Comparison of Vehicle Interactions for Center Operating Space Wide and Narrow Cross Sections",
+      "page": "9-27"
+    },
+    {
+      "num": "9-17",
+      "chapter": 9,
+      "title": "Advisory Bicycle Lane Design",
+      "page": "9-29"
+    },
+    {
+      "num": "9-18",
+      "chapter": 9,
+      "title": "Example Left-Side Bike Lane, Boston, MA",
+      "page": "9-30"
+    },
+    {
+      "num": "9-19",
+      "chapter": 9,
+      "title": "Example of a Climbing Bicycle Lane on Steep Street, Seattle, WA",
+      "page": "9-31"
+    },
+    {
+      "num": "9-20",
+      "chapter": 9,
+      "title": "Example Counterflow Bike Lane to Allow Two-Way Bicycle Travel on Street Designed for One-Way Motorist Operation",
+      "page": "9-32"
+    },
+    {
+      "num": "9-21",
+      "chapter": 9,
+      "title": "Example of Bike Lane Approach Markings to an Intersection, Los Angeles, CA",
+      "page": "9-34"
+    },
+    {
+      "num": "9-22",
+      "chapter": 9,
+      "title": "Example Right-Turn Only Lane with Shared Lane Markings",
+      "page": "9-36"
+    },
+    {
+      "num": "9-23",
+      "chapter": 9,
+      "title": "Example Bike Lanes on Streets",
+      "page": "9-37"
+    },
+    {
+      "num": "9-24",
+      "chapter": 9,
+      "title": "Example Bike Lanes On Streets >40 mph or Right-Turn Lanes >200 ft in Length",
+      "page": "9-38"
+    },
+    {
+      "num": "9-25",
+      "chapter": 9,
+      "title": "Through Lane Drops to Right-Turn Lane with Bike Lane",
+      "page": "9-39"
+    },
+    {
+      "num": "9-26",
+      "chapter": 9,
+      "title": "Example Bike Lane Approach to a Through-Right and a Right-Turn Only Lane",
+      "page": "9-40"
+    },
+    {
+      "num": "9-27",
+      "chapter": 9,
+      "title": "Bike Left-Turn Only Lane",
+      "page": "9-42"
+    },
+    {
+      "num": "9-28",
+      "chapter": 9,
+      "title": "Buffered Bike Lane Treatments at Merge Areas and Crossings",
+      "page": "9-43"
+    },
+    {
+      "num": "9-29",
+      "chapter": 9,
+      "title": "Typical Intersection Transition for One-Way Street Designed for Two-Way Bicycle Travel",
+      "page": "9-44"
+    },
+    {
+      "num": "10-1",
+      "chapter": 10,
+      "title": "Example Green Wave Progression Sign",
+      "page": "10-4"
+    },
+    {
+      "num": "10-2",
+      "chapter": 10,
+      "title": "Examples of Signal Indication Options for Bicyclists",
+      "page": "10-6"
+    },
+    {
+      "num": "10-3",
+      "chapter": 10,
+      "title": "Left-Hook and Right-Hook Graphic",
+      "page": "10-8"
+    },
+    {
+      "num": "10-4",
+      "chapter": 10,
+      "title": "Intersection Phasing Diagram Showing Exclusive Bicycle and Pedestrian Phase",
+      "page": "10-11"
+    },
+    {
+      "num": "10-5",
+      "chapter": 10,
+      "title": "Intersection Phasing Diagram Showing Concurrent Bicycle Phase and Protected Turn Movement",
+      "page": "10-12"
+    },
+    {
+      "num": "10-6",
+      "chapter": 10,
+      "title": "Intersection Phasing Diagram Showing Leading Bicycle and Pedestrian Interval",
+      "page": "10-13"
+    },
+    {
+      "num": "10-7",
+      "chapter": 10,
+      "title": "Intersection Phasing Diagram Showing Permissive Conflicts",
+      "page": "10-14"
+    },
+    {
+      "num": "10-8",
+      "chapter": 10,
+      "title": "Bicycle Position at End of Minimum Green and Bicycle Minimum Green",
+      "page": "10-16"
+    },
+    {
+      "num": "10-9",
+      "chapter": 10,
+      "title": "Bicycle Position During Red Clearance",
+      "page": "10-21"
+    },
+    {
+      "num": "10-10",
+      "chapter": 10,
+      "title": "Example of Near-Side and Far-Side Bicycle Signal Faces",
+      "page": "10-23"
+    },
+    {
+      "num": "10-11",
+      "chapter": 10,
+      "title": "Accessible Pedestrian Pushbutton Location with Separated Bike Lane",
+      "page": "10-26"
+    },
+    {
+      "num": "10-12",
+      "chapter": 10,
+      "title": "Pushbutton Locations",
+      "page": "10-29"
+    },
+    {
+      "num": "10-13",
+      "chapter": 10,
+      "title": "Example of Curbside Bicycle Pushbutton",
+      "page": "10-29"
+    },
+    {
+      "num": "10-14",
+      "chapter": 10,
+      "title": "Examples of Inductive Loop Detection",
+      "page": "10-30"
+    },
+    {
+      "num": "10-15",
+      "chapter": 10,
+      "title": "Example of Detector Confirmation Indication",
+      "page": "10-32"
+    },
+    {
+      "num": "10-16",
+      "chapter": 10,
+      "title": "Example of Detection Zone Locations",
+      "page": "10-33"
+    },
+    {
+      "num": "10-17",
+      "chapter": 10,
+      "title": "Bicycle Detector Marking Options",
+      "page": "10-34"
+    },
+    {
+      "num": "10-18",
+      "chapter": 10,
+      "title": "Pedestrian Hybrid Beacon and Separated Bike Lane",
+      "page": "10-36"
+    },
+    {
+      "num": "10-19",
+      "chapter": 10,
+      "title": "Pedestrian Hybrid Beacon with Separated Bicycle Lane",
+      "page": "10-37"
+    },
+    {
+      "num": "10-20",
+      "chapter": 10,
+      "title": "Toucan Crossing Example",
+      "page": "10-40"
+    },
+    {
+      "num": "10-21",
+      "chapter": 10,
+      "title": "Toucan Crossing Example (Photo)",
+      "page": "10-41"
+    },
+    {
+      "num": "11-1",
+      "chapter": 11,
+      "title": "Example Interchange Bicyclist/Motorist Conflict Areas",
+      "page": "11-3"
+    },
+    {
+      "num": "11-2",
+      "chapter": 11,
+      "title": "Examples of 30-, 60-, and 90-Degree Roadway Intersections",
+      "page": "11-6"
+    },
+    {
+      "num": "11-3",
+      "chapter": 11,
+      "title": "Entrance Ramp with Truck Apron and Bike Lane",
+      "page": "11-7"
+    },
+    {
+      "num": "11-4",
+      "chapter": 11,
+      "title": "Entrance Ramp with Truck Apron and Separated Bike Lane",
+      "page": "11-8"
+    },
+    {
+      "num": "11-5",
+      "chapter": 11,
+      "title": "Entrance Ramp with Right-Turn Lane, Bike Lane, and Side Path",
+      "page": "11-9"
+    },
+    {
+      "num": "11-6",
+      "chapter": 11,
+      "title": "Bicycle Lane Carried across an Exit Ramp Throat",
+      "page": "11-10"
+    },
+    {
+      "num": "11-7",
+      "chapter": 11,
+      "title": "Bicycle Lane Shifted Perpendicular to Crossing of an Exit Ramp",
+      "page": "11-11"
+    },
+    {
+      "num": "11-8",
+      "chapter": 11,
+      "title": "Exit Ramp with Bike Lane Crossing and Advance Warning or Traffic Signal",
+      "page": "11-12"
+    },
+    {
+      "num": "11-9",
+      "chapter": 11,
+      "title": "Bike Lane Positioned in High-Exposure Weaving Area",
+      "page": "11-14"
+    },
+    {
+      "num": "11-10",
+      "chapter": 11,
+      "title": "Median Shared Use Path (10 ft wide) with 6-ft Buffers",
+      "page": "11-16"
+    },
+    {
+      "num": "11-11",
+      "chapter": 11,
+      "title": "Constrained Median Shared Use Path (10 ft wide) with Concrete Barrier Buffers",
+      "page": "11-16"
+    },
+    {
+      "num": "11-12",
+      "chapter": 11,
+      "title": "Side Path between Travel Lanes and Bridge Piers with Preferred Buffers",
+      "page": "11-17"
+    },
+    {
+      "num": "11-13",
+      "chapter": 11,
+      "title": "Channelized Right-Turn Lane Approach Angles",
+      "page": "11-18"
+    },
+    {
+      "num": "11-14",
+      "chapter": 11,
+      "title": "Channelized Right-Turn Refuge Island",
+      "page": "11-19"
+    },
+    {
+      "num": "11-15",
+      "chapter": 11,
+      "title": "Side Path Design for SPDI",
+      "page": "11-21"
+    },
+    {
+      "num": "11-16",
+      "chapter": 11,
+      "title": "Typical Layout of Bike Lane Transitions to Shared Use Path at Multilane Roundabout with Bike Ramps",
+      "page": "11-24"
+    },
+    {
+      "num": "11-17",
+      "chapter": 11,
+      "title": "Typical Layout of Separated Bike Lanes at Roundabout",
+      "page": "11-25"
+    },
+    {
+      "num": "12-1",
+      "chapter": 12,
+      "title": "Example of a Rural Shared Lane",
+      "page": "12-4"
+    },
+    {
+      "num": "12-2",
+      "chapter": 12,
+      "title": "Example of a Paved Shoulder",
+      "page": "12-6"
+    },
+    {
+      "num": "12-3",
+      "chapter": 12,
+      "title": "Shoulder Widening on Uphill Section of Roadway to Accommodate Bicycling",
+      "page": "12-8"
+    },
+    {
+      "num": "12-4",
+      "chapter": 12,
+      "title": "Example Shoulder Marking to Accommodate Bicycling at Locations with and without Right-Turn Lanes",
+      "page": "12-9"
+    },
+    {
+      "num": "12-5",
+      "chapter": 12,
+      "title": "Shoulder Transition to Bike Lane at a Right-Turn Lane on a Rural Arterial",
+      "page": "12-10"
+    },
+    {
+      "num": "12-6",
+      "chapter": 12,
+      "title": "Bypass Lane with Paved Shoulder",
+      "page": "12-11"
+    },
+    {
+      "num": "12-7",
+      "chapter": 12,
+      "title": "Example of Advisory Shoulders in Hanover, NH",
+      "page": "12-12"
+    },
+    {
+      "num": "12-8",
+      "chapter": 12,
+      "title": "Rumble Strip Placement Options",
+      "page": "12-14"
+    },
+    {
+      "num": "12-9",
+      "chapter": 12,
+      "title": "Rumble Strip Minimum Gap Illustration",
+      "page": "12-16"
+    },
+    {
+      "num": "12-10",
+      "chapter": 12,
+      "title": "Sidepath along a Rural Road",
+      "page": "12-18"
+    },
+    {
+      "num": "13-1",
+      "chapter": 13,
+      "title": "Bikeway along the Interstate 90 Bridge over Lake Washington, WA",
+      "page": "13-2"
+    },
+    {
+      "num": "13-2",
+      "chapter": 13,
+      "title": "Examples of Warning Beacons Advising Motorists of Shared Lanes within a Tunnel and on a Bridge",
+      "page": "13-4"
+    },
+    {
+      "num": "13-3",
+      "chapter": 13,
+      "title": "Examples of Structured Shared Use Path Crossings on the Washington and Old Dominion Trail over Fairfax County Parkway in Virginia (left), the Midtown Greenway in Minneapolis, MN (center), and the Palouse Trail Underpass of Washington State Route 270, Pullman, WA (right)",
+      "page": "13-4"
+    },
+    {
+      "num": "13-4",
+      "chapter": 13,
+      "title": "Example of a Bridge with Accessible Ramps and Staircases and At-Grade Road Crossing Access",
+      "page": "13-5"
+    },
+    {
+      "num": "13-5",
+      "chapter": 13,
+      "title": "Horizontal Clearances for Shared Use Paths on Bridges along Roads",
+      "page": "13-8"
+    },
+    {
+      "num": "13-6",
+      "chapter": 13,
+      "title": "Sabo Bridge over Hiawatha Avenue, Minneapolis, MN",
+      "page": "13-11"
+    },
+    {
+      "num": "13-7",
+      "chapter": 13,
+      "title": "Example of Tunnel Lighting",
+      "page": "13-13"
+    },
+    {
+      "num": "13-8",
+      "chapter": 13,
+      "title": "Example of a Shared Use Path Cantilever Retrofit to Existing Railroad Bridge, Portland, OR",
+      "page": "13-15"
+    },
+    {
+      "num": "13-9",
+      "chapter": 13,
+      "title": "Example of Bike Channels on a Stairway along the Burke Gilman Trail in Seattle, WA",
+      "page": "13-16"
+    },
+    {
+      "num": "13-10",
+      "chapter": 13,
+      "title": "Bike Channel Design Guidance for a Stairway",
+      "page": "13-17"
+    },
+    {
+      "num": "14-1",
+      "chapter": 14,
+      "title": "National Routes",
+      "page": "14-5"
+    },
+    {
+      "num": "14-2",
+      "chapter": 14,
+      "title": "State Bicycle Route Sign",
+      "page": "14-5"
+    },
+    {
+      "num": "14-3",
+      "chapter": 14,
+      "title": "D11 Series Bicycle Route Signs",
+      "page": "14-6"
+    },
+    {
+      "num": "14-4",
+      "chapter": 14,
+      "title": "Examples of Confirmation, Decision, and Turn Sign Assemblies",
+      "page": "14-7"
+    },
+    {
+      "num": "14-5",
+      "chapter": 14,
+      "title": "D1 Series Destination Guide Signs",
+      "page": "14-7"
+    },
+    {
+      "num": "14-6",
+      "chapter": 14,
+      "title": "Turn Plaques",
+      "page": "14-8"
+    },
+    {
+      "num": "14-7",
+      "chapter": 14,
+      "title": "Example of Community Wayfinding",
+      "page": "14-11"
+    },
+    {
+      "num": "14-8",
+      "chapter": 14,
+      "title": "Horizontal and Vertical Sign Clearances",
+      "page": "14-12"
+    },
+    {
+      "num": "14-9",
+      "chapter": 14,
+      "title": "Wayfinding Sign Placement at Intersections",
+      "page": "14-14"
+    },
+    {
+      "num": "14-10",
+      "chapter": 14,
+      "title": "On-Road Detour for Shared Use Path",
+      "page": "14-16"
+    },
+    {
+      "num": "15-1",
+      "chapter": 15,
+      "title": "Examples of Debris, Faded Markings, and Snow Clearing",
+      "page": "15-2"
+    },
+    {
+      "num": "15-2",
+      "chapter": 15,
+      "title": "Bicycle Infrastructure Life Cycle",
+      "page": "15-5"
+    },
+    {
+      "num": "15-3",
+      "chapter": 15,
+      "title": "Full-Depth Permanent Patch on a Shared Use Path",
+      "page": "15-10"
+    },
+    {
+      "num": "15-4",
+      "chapter": 15,
+      "title": "Fog Sealing a Shared Use Path",
+      "page": "15-11"
+    },
+    {
+      "num": "15-5",
+      "chapter": 15,
+      "title": "Milled Roadway with Smooth Seam at Gutter with Constrained Bike Lane",
+      "page": "15-12"
+    },
+    {
+      "num": "15-6",
+      "chapter": 15,
+      "title": "Recommended Safety EdgeSM Configuration for Asphalt Pavements and Overlays",
+      "page": "15-13"
+    },
+    {
+      "num": "15-7",
+      "chapter": 15,
+      "title": "Example of an Articulated Plow (V-Plow)",
+      "page": "15-15"
+    },
+    {
+      "num": "15-8",
+      "chapter": 15,
+      "title": "Example of a Root Barrier",
+      "page": "15-16"
+    },
+    {
+      "num": "15-9",
+      "chapter": 15,
+      "title": "Non-Recessed Preformed Pavement Markings Damaged by Snowplows (left) and Recessed Pavement Markings Undamaged by Snowplows (right)",
+      "page": "15-18"
+    },
+    {
+      "num": "15-10",
+      "chapter": 15,
+      "title": "Example Construction Zone with Bicycles \u201cMAY USE FULL LANE\u201d Sign and Shared Lane Markings",
+      "page": "15-20"
+    },
+    {
+      "num": "15-11",
+      "chapter": 15,
+      "title": "Example of Steel Plates with Slip Resistant Edges",
+      "page": "15-21"
+    },
+    {
+      "num": "16-1",
+      "chapter": 16,
+      "title": "Directional Signage for Bicycle Parking",
+      "page": "16-5"
+    },
+    {
+      "num": "16-2",
+      "chapter": 16,
+      "title": "On-Street Bicycle Corrals",
+      "page": "16-7"
+    },
+    {
+      "num": "16-3",
+      "chapter": 16,
+      "title": "Bicycle Station",
+      "page": "16-9"
+    },
+    {
+      "num": "16-4",
+      "chapter": 16,
+      "title": "Bicycle Parking Garage with 5,000 Bicycle Capacity beneath Central Station Rotterdam, Netherlands",
+      "page": "16-9"
+    },
+    {
+      "num": "16-5",
+      "chapter": 16,
+      "title": "Separated Bicycle Lane Connecting Directly to Bicycle Parking Garage at a University in Utrecht, Netherlands",
+      "page": "16-10"
+    },
+    {
+      "num": "16-6",
+      "chapter": 16,
+      "title": "Examples of Recommended and Not Recommended Racks",
+      "page": "16-13"
+    },
+    {
+      "num": "16-7",
+      "chapter": 16,
+      "title": "At left: Bikes Locked to a Schoolyard Rack in Inefficient and Unintended Ways; at right: A Schoolyard Rack with Extra Capacity and a Bike Locked to a Decorative Streetscape Structure that Better Meets Bike Rack Guidelines",
+      "page": "16-14"
+    },
+    {
+      "num": "16-8",
+      "chapter": 16,
+      "title": "Decorative Bicycle Rack that Meets Guidelines",
+      "page": "16-14"
+    },
+    {
+      "num": "16-9",
+      "chapter": 16,
+      "title": "Bike Parking Footprint",
+      "page": "16-16"
+    },
+    {
+      "num": "16-10",
+      "chapter": 16,
+      "title": "Site Planning Dimensions",
+      "page": "16-17"
+    },
+    {
+      "num": "16-11",
+      "chapter": 16,
+      "title": "Site Planning Dimensions for a Bike Room",
+      "page": "16-18"
+    },
+    {
+      "num": "16-12",
+      "chapter": 16,
+      "title": "Valet Special Event Parking",
+      "page": "16-19"
+    },
+    {
+      "num": "16-13",
+      "chapter": 16,
+      "title": "On-Street Bike Share Dock Placement",
+      "page": "16-22"
+    },
+    {
+      "num": "16-14",
+      "chapter": 16,
+      "title": "Sidewalk Bike Share Dock Placement",
+      "page": "16-23"
+    },
+    {
+      "num": "16-15",
+      "chapter": 16,
+      "title": "Lockers and Showers for Bicycle Commuters",
+      "page": "16-24"
+    },
+    {
+      "num": "16-16",
+      "chapter": 16,
+      "title": "Bicycle Repair Station and Sign",
+      "page": "16-25"
+    }
+  ],
+  "tables": [
+    {
+      "num": "2-1",
+      "chapter": 2,
+      "title": "Common Crash Types and Pre-Crash Maneuvers",
+      "page": "2-6"
+    },
+    {
+      "num": "2-2",
+      "chapter": 2,
+      "title": "Top 12 Rural Bicyclist Fatality Types from 2014 to 2020 FARS Summarized by PBCAT Coding",
+      "page": "2-7"
+    },
+    {
+      "num": "2-3",
+      "chapter": 2,
+      "title": "Top 12 Urban Bicyclist Fatality Types from 2014 to 2020 FARS Summarized by PBCAT Coding",
+      "page": "2-8"
+    },
+    {
+      "num": "2-4",
+      "chapter": 2,
+      "title": "Typical Adult Bicyclist Performance Characteristics",
+      "page": "2-20"
+    },
+    {
+      "num": "2-5",
+      "chapter": 2,
+      "title": "Bicyclist Lateral Shy Distance to Physical Elements",
+      "page": "2-26"
+    },
+    {
+      "num": "3-1",
+      "chapter": 3,
+      "title": "Recreational, Commute, and Other Utilitarian Trip Characteristics",
+      "page": "3-9"
+    },
+    {
+      "num": "3-2",
+      "chapter": 3,
+      "title": "Relationship between Network Type and Mode Share",
+      "page": "3-12"
+    },
+    {
+      "num": "3-3",
+      "chapter": 3,
+      "title": "Factors to Consider in Planning the Location of New Bikeways",
+      "page": "3-14"
+    },
+    {
+      "num": "3-4",
+      "chapter": 3,
+      "title": "Levels of Traffic Stress",
+      "page": "3-25"
+    },
+    {
+      "num": "5-1",
+      "chapter": 5,
+      "title": "Minimum Bicyclist Stopping Sight Distance",
+      "page": "5-8"
+    },
+    {
+      "num": "5-2",
+      "chapter": 5,
+      "title": "Minimum Bicyclist Stopping Sight Distance vs. Grades for Various Design Speeds\u20142.5-Second Reaction Time",
+      "page": "5-9"
+    },
+    {
+      "num": "5-3",
+      "chapter": 5,
+      "title": "Minimum Bicyclist Stopping Sight Distance vs. Grades for Various Design Speeds\u20141.5-Second Reaction Time",
+      "page": "5-9"
+    },
+    {
+      "num": "5-4",
+      "chapter": 5,
+      "title": "Recommended Intersection Approach Clear Space by Vehicular Turning Design Speed",
+      "page": "5-13"
+    },
+    {
+      "num": "5-5",
+      "chapter": 5,
+      "title": "Intersection Sight Distance: Case U2",
+      "page": "5-17"
+    },
+    {
+      "num": "5-6",
+      "chapter": 5,
+      "title": "Length of Roadway Approach Sight Triangle Equation: Case U3",
+      "page": "5-20"
+    },
+    {
+      "num": "5-7",
+      "chapter": 5,
+      "title": "Length of Path Approach Sight Triangle Equation: Case U3",
+      "page": "5-21"
+    },
+    {
+      "num": "5-8",
+      "chapter": 5,
+      "title": "Length of Path and Roadway Sight Triangle for Uncontrolled Crossings: Case U3",
+      "page": "5-22"
+    },
+    {
+      "num": "5-9",
+      "chapter": 5,
+      "title": "Bicyclist Sight Distance Crossing from a Stop-Controlled Minor Road: Case V",
+      "page": "5-23"
+    },
+    {
+      "num": "5-10",
+      "chapter": 5,
+      "title": "Pedestrian and Bicyclist Intersection Sight Distance Equation: Case X",
+      "page": "5-26"
+    },
+    {
+      "num": "5-11",
+      "chapter": 5,
+      "title": "Horizontal Sightline Offset Look-Up",
+      "page": "5-28"
+    },
+    {
+      "num": "5-12",
+      "chapter": 5,
+      "title": "Horizontal Sightline Offset for Horizontal Curves Equation",
+      "page": "5-29"
+    },
+    {
+      "num": "5-13",
+      "chapter": 5,
+      "title": "Shifting Taper Equation",
+      "page": "5-32"
+    },
+    {
+      "num": "5-14",
+      "chapter": 5,
+      "title": "Recommended Minimum Range of Hourly Crossing Opportunities",
+      "page": "5-44"
+    },
+    {
+      "num": "5-15",
+      "chapter": 5,
+      "title": "Uncontrolled Crossing Evaluation",
+      "page": "5-46"
+    },
+    {
+      "num": "6-1",
+      "chapter": 6,
+      "title": "Shared Use Path Operating Conditions Based on Level of Service Criteria",
+      "page": "6-6"
+    },
+    {
+      "num": "6-2",
+      "chapter": 6,
+      "title": "Shared Use Path Level of Service Look-Up Table, Typical Mode Split",
+      "page": "6-7"
+    },
+    {
+      "num": "6-3",
+      "chapter": 6,
+      "title": "Recommended Shared Use Path Widths* to Achieve SUP LOS \u201cC\u201d",
+      "page": "6-8"
+    },
+    {
+      "num": "6-4",
+      "chapter": 6,
+      "title": "Minimum Radius of Curvature Based on Lean Angle Equation",
+      "page": "6-17"
+    },
+    {
+      "num": "6-5",
+      "chapter": 6,
+      "title": "Minimum Radii for Horizontal Curves at 20-Degree Lean Angles",
+      "page": "6-18"
+    },
+    {
+      "num": "6-6",
+      "chapter": 6,
+      "title": "Minimum Radius of Curvature Based on Superelevation Equation",
+      "page": "6-19"
+    },
+    {
+      "num": "6-7",
+      "chapter": 6,
+      "title": "Length of Crest Vertical Curve to Provide Sight Distance Equations",
+      "page": "6-21"
+    },
+    {
+      "num": "6-8",
+      "chapter": 6,
+      "title": "Minimum Length of Crest Vertical Curve Based on Stopping Sight Distance",
+      "page": "6-22"
+    },
+    {
+      "num": "7-1",
+      "chapter": 7,
+      "title": "Separated Bike Lane Configurations on a One-Way Street",
+      "page": "7-10"
+    },
+    {
+      "num": "7-2",
+      "chapter": 7,
+      "title": "Separated Bike Lane Configurations on a Two-Way Street",
+      "page": "7-11"
+    },
+    {
+      "num": "7-3",
+      "chapter": 7,
+      "title": "One-Way Separated Bike Lane Widths Based on Existing or Anticipated Volumes",
+      "page": "7-16"
+    },
+    {
+      "num": "7-4",
+      "chapter": 7,
+      "title": "Two-Way Separated Bike Lane Widths Based on Existing or Anticipated Volumes",
+      "page": "7-17"
+    },
+    {
+      "num": "7-5",
+      "chapter": 7,
+      "title": "Raised Bike Lane Widths",
+      "page": "7-69"
+    },
+    {
+      "num": "8-1",
+      "chapter": 8,
+      "title": "Bicycle Boulevard Motor Vehicle Traffic Volume and Speed Performance Criteria",
+      "page": "8-3"
+    },
+    {
+      "num": "8-2",
+      "chapter": 8,
+      "title": "Lane Shift Taper Equation for Traffic Calming Treatments",
+      "page": "8-9"
+    },
+    {
+      "num": "9-1",
+      "chapter": 9,
+      "title": "One-Way Standard Bicycle Lane Widths",
+      "page": "9-15"
+    },
+    {
+      "num": "10-1",
+      "chapter": 10,
+      "title": "Recommended Hourly Turning Traffic Thresholds for Time-Separated Bicycle Movements",
+      "page": "10-9"
+    },
+    {
+      "num": "10-2",
+      "chapter": 10,
+      "title": "Bicycle Minimum Green Time Equation",
+      "page": "10-17"
+    },
+    {
+      "num": "10-3",
+      "chapter": 10,
+      "title": "Bicycle Minimum Green Time",
+      "page": "10-18"
+    },
+    {
+      "num": "10-4",
+      "chapter": 10,
+      "title": "Total Phase Length and Minimum Green",
+      "page": "10-19"
+    },
+    {
+      "num": "10-5",
+      "chapter": 10,
+      "title": "Bicycle Red Clearance Equation",
+      "page": "10-20"
+    },
+    {
+      "num": "12-1",
+      "chapter": 12,
+      "title": "Paved Shoulder Widths for Bicycling",
+      "page": "12-7"
+    },
+    {
+      "num": "15-1",
+      "chapter": 15,
+      "title": "Maintenance Equipment Types",
+      "page": "15-8"
+    },
+    {
+      "num": "15-2",
+      "chapter": 15,
+      "title": "Types of Pavement Marking Materials",
+      "page": "15-17"
+    },
+    {
+      "num": "16-1",
+      "chapter": 16,
+      "title": "Sample Short-Term Bicycle Parking Quantity Requirements",
+      "page": "16-4"
+    },
+    {
+      "num": "16-2",
+      "chapter": 16,
+      "title": "Sample Long-Term Bicycle Parking Quantity Requirements",
+      "page": "16-5"
+    }
+  ],
+  "errata": [
+    {
+      "page": "xxxix",
+      "section": "List of Figures",
+      "stale": "Figure 5-43: Correction for Skewed Streetcar Crossing\u2014Pavement Markings",
+      "corrected": "Figure 5-43: Railing Designed to Accommodate Bicycle Handlebars"
+    },
+    {
+      "page": "5-66",
+      "section": "5.11.4.1",
+      "stale": "(see Figure 5-29)",
+      "corrected": "(see Figure 5-28)"
+    },
+    {
+      "page": "5-90",
+      "section": "Figure 5-43",
+      "stale": "Caption: Correction for Skewed Streetcar Crossing\u2014Pavement Markings",
+      "corrected": "Caption: Railing Designed to Accommodate Bicycle Handlebars"
+    },
+    {
+      "page": "6-21",
+      "section": "Table 6-7",
+      "stale": "Misaligned 'when S > L' crest vertical curve sight equations",
+      "corrected": "Equations realigned so 'when S > L' is fully legible (h1 = 3.83 ft recumbent eye height, h2 = 0 ft)"
+    },
+    {
+      "page": "7-9",
+      "section": "7.2.4",
+      "stale": "Section 5.12.12",
+      "corrected": "Section 5.12.11 (green-colored pavement or markings)"
+    },
+    {
+      "page": "7-46",
+      "section": "7.9.9",
+      "stale": "Section 5.12.12",
+      "corrected": "Section 5.12.11"
+    },
+    {
+      "page": "8-16",
+      "section": "Figure 8-11",
+      "stale": "Sign text overflow & missing 'R1-5c' label on STOP HERE FOR PEDESTRIANS",
+      "corrected": "Sign artwork fixed and 'R1-5c' label restored"
+    },
+    {
+      "page": "8-22",
+      "section": "8.7.2.2",
+      "stale": "Section 5.12.12",
+      "corrected": "Section 5.12.11 (green-colored pavement within the bikeway)"
+    },
+    {
+      "page": "12-10",
+      "section": "12.4.3.4",
+      "stale": "Section 9.13",
+      "corrected": "Section 9.12"
+    }
+  ]
+}

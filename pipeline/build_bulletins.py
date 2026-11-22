@@ -135,6 +135,53 @@ Design criteria and guidance for Class IV (separated) bikeways in California. It
 
 DIB 89-02 gives no travel lane widths. At loading zones, transit stops and drop-off zones it says the vehicle lane or the bikeway may need to be narrowed (FHWA guide Figures 20 and 21).
 """),
+ dict(slug="caltrans-hdm-ch1000", num="HDM Ch. 1000", title="Bicycle Transportation Design (Caltrans Highway Design Manual)", date="December 16, 2024 (eff. January 1, 2025)",
+      url="https://dot.ca.gov/-/media/dot-media/programs/design/documents/chp1000-a11y.pdf",
+      status="In effect. Mandatory minimum safety design criteria statewide under California Streets and Highways Code (SHC) Section 891.",
+      supersedes="7th Edition HDM Chapter 1000, Manual Change Transmittal 4 (effective January 1, 2025; adds SHC Section 891.9 shared-lane marking speed restriction). Companion to DIB 89-02 (Class IV) and CA MUTCD 2026 Part 9.",
+      lane="Does not set motor-vehicle travel lane widths (see HDM Index 301.1 or DIB 94). Sets statutory Class I, II, III and trail criteria.",
+      topics=["bikeways", "crosswalks", "accessibility"],
+      kw="HDM Chapter 1000, Index 1003.1, Class I bike path, bikeway width, Table 1003.1, bike path design speed, stopping sight distance, crest vertical curve, horizontal curve clearance, SHC 891, SHC 891.9, sharrow 30 mph, bollards, Figure 1003.1A, Figure 1003.1B, Figure 1003.1C, Figure 1003.1D, Figure 1003.5",
+      body=lambda: f"""
+## Statutory authority (Topic 1001)
+
+- **SHC &sect; 891 (Mandatory):** All city, county, regional, and other local agencies responsible for developing or operating bikeways shall utilize the minimum safety design criteria established in HDM Chapter 1000 and uniform symbols in CA MUTCD Part 9.
+- **SHC &sect; 890.4:** Establishes California's four bikeway classes: Class I (Bike Path), Class II (Bike Lane), Class III (Bike Route), and Class IV (Separated Bikeway; see <a href="{BASE}/bulletins/caltrans-dib-89-02/">DIB 89-02</a>).
+- **SHC &sect; 891.9 (Mandatory, eff. Jan 1, 2025):** Prohibits installing a new Shared Lane Marking (sharrow) on a highway with a posted speed limit greater than **30 mph**, except at or near an intersection to connect a Class I, Class II, or Class IV bikeway through the intersection.
+
+## Class I bike path geometric criteria (Index 1003.1)
+
+{table(["Element", "Requirement / Value", "Rule &amp; Index"], [
+ ["Two-way paved traveled way", "8 ft minimum (floor); 10 ft preferred; 12 ft+ for heavy bike/ped volume", "Shall (min) / Should (pref) &middot; 1003.1(1)(a)"],
+ ["One-way paved traveled way", "5 ft minimum (floor); rare one-direction-only situations", "Shall (min) &middot; 1003.1(1)(a)"],
+ ["Shoulders (each side, off structure)", "2 ft minimum (floor), 3 ft preferred; 2%&ndash;5% cross slope away from path", "Shall (min &amp; slope) / Should (3 ft) &middot; 1003.1(1)(b), (16)"],
+ ["Horizontal clearance to obstructions", "2 ft minimum (floor) from paved edge; 3 ft preferred", "Shall (min) / Should (3 ft) &middot; 1003.1(3)"],
+ ["Clear width on structures (between railings)", "10 ft minimum (floor); 14 ft desirable (path + shoulders)", "Shall (min) &middot; 1003.1(3)"],
+ ["Vertical clearance", "8 ft minimum over path, 7 ft over shoulder (floor); 10 ft desirable", "Shall (min) &middot; 1003.1(3)"],
+ ["Separation from parallel street/highway", "5 ft + standard shoulder width minimum (unpaved, excludes curbs/sidewalks); continuous barrier if &lt; 10 ft from shoulder edge; physical barrier inside freeway clear zone", "Shall (min &amp; freeway barrier) &middot; 1003.1(7)"],
+ ["Bike path in roadway median", "Prohibited in freeway/expressway median; discouraged in State highway or local road median", "Shall not (fwy/expwy) / Should not &middot; 1003.1(8)"],
+ ["Design speed (Table 1003.1)", "20 mph min (mopeds prohibited); 30 mph min (mopeds permitted or downgrades &gt; 4% and &gt; 500 ft)", "Shall (floor) &middot; 1003.1(9), Table 1003.1"],
+ ["Horizontal curve radius &amp; superelevation", "Max superelevation 2%; min radius 90 ft (20 mph), 160 ft (25 mph), 260 ft (30 mph); no superelevation needed at &ge; 100 / 180 / 320 ft", "Should &middot; 1003.1(10)"],
+ ["Stopping sight distance (SSD)", "125 ft (20 mph), 175 ft (25 mph), 230 ft (30 mph); eye height 4.5 ft, object height 0.5 ft", "Shall (floor) &middot; 1003.1(11)"],
+ ["Grades &amp; cross slope", "Max grade 5% recommended, 2% sustained (must meet DIB 82); cross slope 1% min to 2% max", "Should / DIB 82 &middot; 1003.1(14), (16)"],
+ ["Paving at unpaved crossings", "15 ft minimum paved approach on crossing roadway/driveway", "Shall (floor) &middot; 1003.1(6)"],
+ ["Entry control bollards / posts", "3-step approach; fold-down posts/bollards prohibited in paved area; if used: 5 ft min clear face-to-face, even number of openings, 2 ft min from edge, 10&ndash;30 ft back from intersection", "Shall not (fold-down) / Should &middot; 1003.1(17)"],
+], "wide2")}
+
+## Class II, Class III &amp; miscellaneous criteria (Index 1003.2&ndash;1003.5)
+
+- **Class II (Bike Lanes, Index 1003.2):** Signing and markings per CA MUTCD Part 9; shoulder/lane width design distributed across HDM Chapters 300 and 1000.
+- **Class III (Bike Routes, Index 1003.3):** Shared roadways designated by signs or permanent markings; subject to **SHC &sect; 891.9** (no new sharrows above 30 mph posted speed except at/near intersections connecting Class I/II/IV). Sidewalks are **not** to be designated as bikeways. Shared exclusive bus-bike lanes are discouraged except at &le; 25 mph bus operating speed and &le; 5% grade.
+- **Drainage grates &amp; driveways (Index 1003.5(2)):** Grates in bicycle travel areas shall be bicycle-safe and maintained flush when resurfacing; avoid vertical driveway-to-gutter lip (limit to &le; 0.5 in if needed).
+
+## Official Caltrans HDM Chapter 1000 Figures
+
+<figure class="dfig"><a href="{BASE}/figs/caltrans/hdm-ch1000/fig-1003-1a.webp" target="_blank"><img loading="lazy" src="{BASE}/figs/caltrans/hdm-ch1000/fig-1003-1a.webp" alt="Caltrans HDM Figure 1003.1A Two-Way Class I Bikeway"></a><figcaption>Figure 1003.1A: Two-Way Class I Bikeway (Bike Path), HDM p. 1000-8.</figcaption></figure>
+<figure class="dfig"><a href="{BASE}/figs/caltrans/hdm-ch1000/fig-1003-1b.webp" target="_blank"><img loading="lazy" src="{BASE}/figs/caltrans/hdm-ch1000/fig-1003-1b.webp" alt="Caltrans HDM Figure 1003.1B Class I Bikeway Parallel to Highway"></a><figcaption>Figure 1003.1B: Typical Cross Section of Class I Bikeway Parallel to Highway, HDM p. 1000-10.</figcaption></figure>
+<figure class="dfig"><a href="{BASE}/figs/caltrans/hdm-ch1000/fig-1003-1c.webp" target="_blank"><img loading="lazy" src="{BASE}/figs/caltrans/hdm-ch1000/fig-1003-1c.webp" alt="Caltrans HDM Figure 1003.1C Crest Vertical Curve"></a><figcaption>Figure 1003.1C: Minimum Length of Bicycle Path Crest Vertical Curve (L) Based on Stopping Sight Distance (S), HDM p. 1000-13.</figcaption></figure>
+<figure class="dfig"><a href="{BASE}/figs/caltrans/hdm-ch1000/fig-1003-1d.webp" target="_blank"><img loading="lazy" src="{BASE}/figs/caltrans/hdm-ch1000/fig-1003-1d.webp" alt="Caltrans HDM Figure 1003.1D Horizontal Curve Lateral Clearance"></a><figcaption>Figure 1003.1D: Minimum Lateral Clearance (m) on Bicycle Path Horizontal Curves, HDM p. 1000-14.</figcaption></figure>
+<figure class="dfig"><a href="{BASE}/figs/caltrans/hdm-ch1000/fig-1003-5.webp" target="_blank"><img loading="lazy" src="{BASE}/figs/caltrans/hdm-ch1000/fig-1003-5.webp" alt="Caltrans HDM Figure 1003.5 Railroad Crossing Class I Bikeway"></a><figcaption>Figure 1003.5: Railroad Crossing Class I Bikeway, HDM p. 1000-20.</figcaption></figure>
+"""),
  dict(slug="caltrans-dib-79-04", num="DIB 79-04", title="Design Guidance and Standards for Major Pavement Rehabilitation Projects (2R and 3R)", date="October 2, 2019",
       url="https://dot.ca.gov/-/media/dot-media/programs/design/documents/signed-dib-79-04-posting-030123-a11y.pdf",
       status="In effect (listed on the Caltrans DIB page; posted copy dated March 1, 2023).",
@@ -638,13 +685,13 @@ description: Caltrans Design Information Bulletins that set lane widths, and LAD
 
 Design bulletins and policy memos change design values faster than the manuals do. This page lists the ones in effect as of {CHECKED}. Each digest gives the scope, the key values and the section numbers, with a link to the official copy.
 
-<p><a class="cta" href="{BASE}/bulletins/lane-widths/">Lane width comparison: DIB 94, MPP 531 and the City street standards side by side</a></p>
+<p><a class="cta" href="{BASE}/bulletins/lane-widths/">Lane width comparison: DIB 94, MPP 531 and the City street standards</a> &nbsp; <a class="cta" href="{BASE}/bulletins/bikeway-design-comparison/">Bikeway design comparison: HDM Ch. 1000, DIB 89-02, CA MUTCD 2026, LADOT &amp; AASHTO GBF-5</a></p>
 
-## Caltrans Design Information Bulletins on lane width
+## Caltrans Design Information Bulletins &amp; HDM standards
 
-Bulletins on the [Caltrans DIB list]({DIB_PAGE}) that set or change lane widths. Caltrans says DIBs may supersede the Highway Design Manual. None of these is marked retired.
+Bulletins on the [Caltrans DIB list]({DIB_PAGE}) and HDM Chapter 1000. Caltrans says DIBs may supersede the Highway Design Manual. None of these is marked retired.
 
-{table(["Bulletin", "Title", "Issued", "Lane width"], ct_rows)}
+{table(["Bulletin", "Title", "Issued", "Lane / bikeway scope"], ct_rows)}
 
 Related Caltrans design memos: [Bikeway Facility Selection Guidance](https://dot.ca.gov/-/media/dot-media/programs/design/documents/dod-bikeway-selection-memo_06302020_signed-a11y.pdf) (June 30, 2020) and [Complete Streets Decision Document implementation](https://dot.ca.gov/-/media/dot-media/programs/design/documents/csdd-memo20210210finalktyt-mdk--a11y.pdf) (February 11, 2021). The HDM lane width standard itself is Index 301.1.
 
@@ -694,6 +741,56 @@ Sources: Caltrans DIB 94 Section 5.3 and Table 5.3; LADOT MPP 531 (02/2023) Lane
 '''
 open(f"{OUT}/lane-widths.md", "w").write(lw)
 
+bw = f'''---
+title: Bikeway Design Comparison (California vs. AASHTO GBF-5)
+description: Side-by-side comparison of California governing bikeway standards (Caltrans HDM Ch. 1000, DIB 89-02, CA MUTCD 2026 Part 9, LADOT) and AASHTO Guide for the Development of Bicycle Facilities, 5th Edition (2024).
+---
+
+<div class="note-box"><b>Governing hierarchy in California:</b> Under CA Streets and Highways Code &sect; 891, <a href="{BASE}/bulletins/caltrans-hdm-ch1000/">Caltrans HDM Chapter 1000</a> (rev. 12/16/2024), <a href="{BASE}/bulletins/caltrans-dib-89-02/">Caltrans DIB 89-02</a> (Class IV), and <a href="{BASE}/ca-mutcd/9a/">CA MUTCD 2026 Part 9</a> govern statewide. <a href="{BASE}/guides/aashto-bike-guide/">AASHTO GBF-5 (December 2024)</a> is national engineering guidance that supplements &mdash; but does not override &mdash; California or local agency standards.</div>
+
+## 1. Facility taxonomy &amp; selection
+
+{table(["Element", "California governing standard", "LADOT local direction", "AASHTO GBF-5 (2024) reference"], [
+ ["Bikeway classes", "SHC &sect; 890.4 &amp; CA MUTCD 2026 &sect; 9E.01: Class I (Bike Path), Class II (Bike Lane, incl. buffer-separated), Class III (Bike Route), Class IV (Separated Bikeway; vertical separation required).", "Uses CA Class I&ndash;IV taxonomy across Mobility Plan 2035, MPP 531, and 2028 Games ATDG.", "Ch. 4 (&sect; 4.1&ndash;4.4): Shared Use Path, Separated Bike Lane / Side Path, Bicycle Boulevard, Bike Lane / Paved Shoulder. Excludes shared lanes/sharrows from the definition of Bikeway."],
+ ["Bikeway selection framework", "Caltrans Bikeway Facility Selection Guidance (6/30/2020) &amp; HDM Topic 1002.", "Mobility Plan 2035 BEN / Complete Streets Design Guide / 2028 Games ATDG.", "Ch. 4 (&sect; 4.2&ndash;4.4, Figures 4-1 to 4-3): Speed/volume/context matrices aligned with FHWA Bikeway Selection Guide."],
+ ["Shared-lane markings (sharrows)", "<b>SHC &sect; 891.9 (Mandatory):</b> Prohibited on roadways with posted speed &gt; 30 mph, except at/near intersections connecting Class I, II, or IV bikeways.", "MPP 531 &amp; CSC Bikeway Marking (2022): 90 mil preformed thermoplastic.", "Ch. 9 (&sect; 9.3, Figure 9-4): Shared lane marking lateral placement; no CA 30 mph statutory bar &mdash; <b>CA law governs</b>."],
+], "wide3")}
+
+## 2. Class I / Shared Use Path geometry
+
+{table(["Element", "Caltrans HDM Ch. 1000 (Mandatory / Guidance)", "AASHTO GBF-5 (2024) reference &amp; key differences"], [
+ ["Two-way paved width", "<b>Shall:</b> 8 ft floor; <b>Should:</b> 10 ft preferred, 12 ft+ high volume (Index 1003.1(1)(a)).", "Ch. 6 (&sect; 6.4.3, Tables 6-1 to 6-3, Figure 6-2): 10 ft standard minimum, 11 ft+ encouraged for 3 operational lanes / SUP LOS C; separation of pedestrians and wheeled users (&sect; 6.4.4, Figure 6-4)."],
+ ["Shoulders &amp; shy distance", "<b>Shall:</b> 2 ft min each side (3 ft pref), 2%&ndash;5% slope away; 2 ft min horizontal clearance to obstructions (3 ft pref) (Index 1003.1(1)(b), (3)).", "Ch. 6 (&sect; 6.6.1, Figure 6-5): Shy distance, clearances, and shoulders; Ch. 5 (&sect; 5.14.1, Figure 5-43 per Dec 2024 Errata): smooth rub-rail 36&ndash;44 in where handlebars may contact railing."],
+ ["Vertical clearance", "<b>Shall:</b> 8 ft min over path, 7 ft over shoulder (floor); 10 ft desirable (Index 1003.1(3)).", "Ch. 6 (&sect; 6.6.1): Vertical clearances and shy distance along shared use paths."],
+ ["Design speed &amp; horizontal curves", "<b>Shall:</b> 20 mph min (mopeds prohibited), 30 mph min (mopeds permitted or downgrades &gt; 4% and &gt; 500 ft) (Table 1003.1). Max superelevation 2%; min radius 90 / 160 / 260 ft for 20 / 25 / 30 mph (Index 1003.1(10)).", "Ch. 5 (&sect; 5.3) &amp; Ch. 6 (&sect; 6.5, &sect; 6.6.3, &sect; 6.6.5, Tables 6-4 to 6-6): Design speed, lean-angle (20&deg;) and superelevation radius equations."],
+ ["Stopping sight distance &amp; crest vertical curves", "<b>Shall:</b> SSD 125 ft (20 mph), 175 ft (25 mph), 230 ft (30 mph); eye height <b>4.5 ft</b>, object height <b>0.5 ft</b> (Index 1003.1(11), Figure 1003.1C).", "Ch. 5 (&sect; 5.5.2, Tables 5-1 to 5-3) &amp; Ch. 6 (&sect; 6.6.4, Tables 6-7 &amp; 6-8, Dec 2024 Errata): Uses <b>3.83 ft (46 in) recumbent eye height</b> and <b>0 ft object height</b> (more conservative crest vertical curve lengths than HDM)."],
+ ["Parallel roadway separation", "<b>Shall:</b> 5 ft + standard shoulder width min; continuous barrier if &lt; 10 ft from shoulder; physical barrier inside freeway clear zone (Index 1003.1(7), Figure 1003.1B).", "Ch. 7 (&sect; 7.2&ndash;7.4, Figures 7-5 to 7-9): Side paths and street buffer zone design."],
+ ["Bollards / entry control", "<b>Shall not:</b> No fold-down bollards in paved area; 3-step evaluation; 5 ft min clear between posts, even number of openings (Index 1003.1(17)).", "Ch. 6 (&sect; 6.7.8): Restricting motor vehicles and bollard alternatives."],
+], "wide3")}
+
+## 3. Class IV / Separated Bike Lanes &amp; Class II Bike Lanes
+
+{table(["Element", "California governing standard (DIB 89-02 &amp; CA MUTCD 2026)", "LADOT local direction", "AASHTO GBF-5 (2024) reference"], [
+ ["Class IV one-way width", "DIB 89-02 &sect; 3.4: 5 ft min (floor), 7 ft preferred; 4 ft temporary narrowing at bus island or APZ.", "LADOT 2028 Games ATDG &amp; Supp. Street Design Guide.", "Ch. 7 (&sect; 7.3.4, Table 7-3, Figure 7-7): Volume-based one-way SBL widths."],
+ ["Class IV two-way width", "DIB 89-02 &sect; 3.4: Per Class I (HDM Index 1003.1: 8 ft min, 10 ft pref); 3 ft min paved lane next to gutter; 8 ft temporary narrowing.", "LADOT 2028 Games ATDG &amp; MPP 531.", "Ch. 7 (&sect; 7.3.4, Table 7-4): Volume-based two-way SBL widths; &sect; 7.11 (Table 7-5) raised bike lane widths."],
+ ["Class IV street buffer &amp; separation", "DIB 89-02 &sect; 3.3: 2 ft min / 3 ft pref (flex posts, raised island, barrier &le; 35 mph); 3 ft min with parking; 5 ft at accessible parking; vertical separation <b>shall</b> be provided per CA MUTCD &sect; 9E.01.", "MPP 531 &amp; 2028 Games ATDG (Zicla / K71 / curb details).", "Ch. 7 (&sect; 7.3.2&ndash;7.3.3, &sect; 7.4, Figures 7-5, 7-6, 7-8): Curb types, shy distances to curbs, vertical elements in street buffer zone."],
+ ["Class II buffer markings", "CA MUTCD 2026 &sect; 9E.06: Chevron/diagonal markings <b>shall</b> be applied when buffer &gt; 3 ft wide; diagonals <b>shall</b> slant away from motor-vehicle lane.", "MPP 531 &amp; CSC Bikeway Marking (2022): 90 mil preformed thermoplastic, helmeted bike symbol.", "Ch. 9 (&sect; 9.4&ndash;9.5, Table 9-1): One-way standard and buffered bike lane widths and markings."],
+ ["Bikeway signing (CA vs. Federal)", "CA MUTCD 2026 Part 9 &amp; Deleted CA Sign List (7/1/2026): Use <b>R3-17(CA)</b> (R81(CA) deleted 7/1/2026).", "MPP 531 (older sheets citing R81(CA) flagged in Checks panel).", "Ch. 5 (&sect; 5.11, Figure 5-27) &amp; Ch. 14: References Federal MUTCD 11th Ed. (e.g., R1-5d/e, R1-6d/e); verify CA MUTCD 2026 adoption before specifying."],
+], "wide3")}
+
+## 4. Intersections, signals &amp; transit stops
+
+{table(["Element", "California governing standard", "AASHTO GBF-5 (2024) reference"], [
+ ["Protected intersections &amp; setbacks", "CA MUTCD 2026 Part 9 &amp; DIB 89-02; Caltrans Standard Plans A24C/A24F.", "Ch. 7 (&sect; 7.9.5&ndash;7.9.8, Figures 7-12 to 7-19): Intersection sight distance, protected intersections, recessed crossings, bend-in/bend-out; Ch. 5 (&sect; 5.5.4, Table 5-4): Approach clear space."],
+ ["Bus boarding islands &amp; accessible parking", f'DIB 89-02 &sect; 3.3&ndash;3.4 (5 ft buffer / 5 ft opening at accessible parking; temporary bikeway narrowing to 4 ft one-way / 8 ft two-way) &amp; <a href="{BASE}/bulletins/prowag-2023/">PROWAG</a> (enforceable at transit stops eff. 1/17/2025).', "Ch. 7 (&sect; 7.9.12&ndash;7.9.14, Figures 7-22 to 7-29): On-street motor vehicle parking, loading zones, and transit stops."],
+ ["Bicycle signals, phasing &amp; clearance", "CA MUTCD 2026 Chapter 4H &amp; Part 9; LADOT MPP 521 / Red Book.", "Ch. 10 (&sect; 10.2, Tables 10-1 to 10-5, Figure 10-3): Turning thresholds for time-separated bike movements, minimum green, and bicycle red clearance equations."],
+ ["Green-colored pavement", "CA MUTCD 2026 Chapter 3H &amp; Part 9; LADOT CSC Bikeway Marking (2022).", "Ch. 5 (&sect; 5.12.11 &mdash; corrected from 5.12.12 in Dec 2024 Errata)."],
+], "wide3")}
+
+<p class="bul-foot">Cross-agency comparison checked against primary official sources on {CHECKED}: Caltrans HDM Ch. 1000 (12/16/2024), Caltrans DIB 89-02 (2/7/2022), CA MUTCD 2026 Part 9 (1/18/2026), and AASHTO GBF-5 (December 2024 + December 2024 Errata). See <a href="{BASE}/guides/aashto-bike-guide/">AASHTO GBF-5 full index</a> and <a href="{BASE}/topics/bikeways/">Bikeways topic hub</a>.</p>
+'''
+open(f"{OUT}/bikeway-design-comparison.md", "w").write(bw)
+
 # ------------------------------------------------------------------ index entries
 det = json.load(open("public/data/details.json"))
 det = [i for i in det if i.get("type") != "Bulletin"]
@@ -712,10 +809,25 @@ det.append({"src": "Bulletins", "sg": "Caltrans", "type": "Bulletin", "num": "La
             "img": "", "url": f"{BASE}/bulletins/lane-widths/", "topics": ["striping-intersections"],
             "kw": "lane width, travel lane width, minimum lane width, 10 foot lane, 11 foot lane, 12 foot lane, turn lane width, bus lane width, curb lane, parking lane width",
             "sum": "Lane widths side by side from Caltrans DIB 94, LADOT MPP 531 and the City of Los Angeles street standards."})
+det.append({"src": "Bulletins", "sg": "Caltrans", "type": "Bulletin", "num": "Bikeway comparison", "title": "Bikeway Design Comparison: HDM Ch. 1000, DIB 89-02, CA MUTCD 2026, LADOT & AASHTO GBF-5",
+            "img": "", "url": f"{BASE}/bulletins/bikeway-design-comparison/", "topics": ["bikeways"],
+            "kw": "AASHTO bike guide, GBF-5, HDM 1000, DIB 89-02, Class I, Class II, Class III, Class IV, separated bike lane, shared use path, sharrow 30 mph, SHC 891.9, protected intersection",
+            "sum": "California governing bikeway standards compared side by side with AASHTO Guide for the Development of Bicycle Facilities, 5th Edition (2024)."})
 for k in ["LANEWIDTH", "LANEWIDTHS"]:
     ent = ["Lane width comparison (DIB 94, MPP 531, BOE)", f"{BASE}/bulletins/lane-widths/"]
     if ent not in lookup.get(k, []):
         lookup.setdefault(k, []).append(ent)
+for k in ["HDM1000", "CH1000", "CHAPTER1000", "1003.1", "SHC891", "SHC891.9"]:
+    ent = ["Caltrans HDM Ch. 1000: Bicycle Transportation Design", f"{BASE}/bulletins/caltrans-hdm-ch1000/"]
+    if ent not in lookup.get(k, []):
+        lookup.setdefault(k, []).append(ent)
+for k in ["GBF5", "GBF-5", "AASHTOBIKE", "AASHTOGBF5", "BIKEGUIDE"]:
+    ent = ["AASHTO Bike Guide, 5th Edition (GBF-5, 2024)", f"{BASE}/guides/aashto-bike-guide/"]
+    if ent not in lookup.get(k, []):
+        lookup.setdefault(k, []).append(ent)
+    ent2 = ["Bikeway Design Comparison (CA vs. AASHTO GBF-5)", f"{BASE}/bulletins/bikeway-design-comparison/"]
+    if ent2 not in lookup.get(k, []):
+        lookup.setdefault(k, []).append(ent2)
 json.dump(det, open("public/data/details.json", "w"))
 json.dump(lookup, open("public/data/lookup.json", "w"))
 print("bulletins:", len(CT), "Caltrans,", len(LA), "LADOT,", len(AD), "ADA")

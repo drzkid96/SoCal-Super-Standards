@@ -112,6 +112,8 @@ export default defineConfig({
           { label: 'All bulletins and memos', link: '/bulletins/' },
           { label: 'Standards status (what supersedes what)', link: '/bulletins/standards-status/' },
           { label: 'Lane width comparison', link: '/bulletins/lane-widths/' },
+          { label: 'Bikeway design comparison', link: '/bulletins/bikeway-design-comparison/' },
+          { label: 'Caltrans HDM Ch. 1000 Bikeways', link: '/bulletins/caltrans-hdm-ch1000/' },
           { label: 'Caltrans DIB 94 Complete Streets', link: '/bulletins/caltrans-dib-94/' },
           { label: 'Caltrans DIB 89-02 Class IV', link: '/bulletins/caltrans-dib-89-02/' },
           { label: 'Caltrans DIB 82-06 Accessibility', link: '/bulletins/caltrans-dib-82-06/' },

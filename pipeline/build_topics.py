@@ -153,9 +153,15 @@ for order, (slug, name, intro, sec_rx, fig_rx, sign_pref, ladot_rx, ladot_tags) 
     # outline-only design guides
     rr = []
     for g in REF:
-        for e in g["entries"]:
-            if slug in e["topics"]:
-                rr.append(f'<li><a href="{BASE}/guides/{g["slug"]}/">{esc(g["short"])}</a>: {esc(e["title"])} <span class="src-page">PDF p. {e["page"]}{("-" + str(e["end"])) if e["end"] > e["page"] else ""}</span></li>')
+        hits = [e for e in g["entries"] if slug in e["topics"]]
+        for e in hits[:15]:
+            pg = e["page"]
+            end = e.get("end", pg)
+            if isinstance(pg, str):
+                plab = f'p. {esc(pg)}'
+            else:
+                plab = f'PDF p. {pg}{("-" + str(end)) if end > pg else ""}'
+            rr.append(f'<li><a href="{BASE}/guides/{g["slug"]}/">{esc(g["short"])}</a>: {esc(e["title"])} <span class="src-page">{plab}</span></li>')
     # bulletins & policy memos matching this topic
     def trunc(s, n=120):
         s = str(s or "").strip()

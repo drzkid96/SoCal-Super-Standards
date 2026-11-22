@@ -12,7 +12,8 @@ Checked November 18, 2026. Every page on this site shows a **Checks** panel (rig
 | California MUTCD | 2026 Edition, effective January 18, 2026 | Governs on all California streets. Caltrans has a revision in process through the CTCDC to adopt federal Revision 1. |
 | Federal MUTCD | 11th Edition Revision 1, effective March 5, 2026 | States have two years to adopt. Reference only in California until the CA MUTCD revision takes effect. |
 | Caltrans Standard Plans | 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026) | On this site: A20A to A24L, A88A, A88B, A90A and A90B. Supersedes the 2018 sheets also shown here. The A20A marker details for Types G and H were revised. |
-| Caltrans Highway Design Manual | Updated August 8, 2025 | Lane width design values are in DIB 94. |
+| Caltrans Highway Design Manual (HDM Ch. 1000) | Chapter 1000 updated December 16, 2024 (eff. January 1, 2025); HDM Index updated August 8, 2025 | Mandatory minimum bikeway design criteria under SHC Section 891 (including SHC Section 891.9 30 mph sharrow prohibition). Class IV guidance is in DIB 89-02; lane width values are in DIB 94. |
+| AASHTO Guide for the Development of Bicycle Facilities | 5th Edition (GBF-5), December 2024 (with December 2024 Errata) | Supersedes the 2012 4th Edition. National engineering guidance only; in California, HDM Ch. 1000, DIB 89-02 and CA MUTCD 2026 Part 9 govern. |
 | California Building Code, Chapter 11B | 2025 edition, effective January 1, 2026 | Governs off-street accessible parking signs and markings. |
 | PROWAG (36 CFR 1190) | Final, August 8, 2023 | Enforceable for transit stops in the public right-of-way (U.S. DOT, effective January 17, 2025). Not adopted by DOJ; best available guidance elsewhere. |
 | LADOT MPP 531 | February 2023 | Controls over older LADOT reprints of the same drawing numbers. |

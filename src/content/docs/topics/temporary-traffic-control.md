@@ -32,7 +32,7 @@ CA MUTCD 2026 governs in California. Each row shows the section's first Standard
 
 These are copyrighted, so only their headings and page numbers are listed.
 
-<ul class="reflist"><li><a href="/SoCal-Super-Standards/guides/nacto-urban-bikeway/">NACTO UBDG</a>: 5.2: Bikeways and Construction Management Plans <span class="src-page">PDF p. 378-393</span></li><li><a href="/SoCal-Super-Standards/guides/nacto-urban-street/">NACTO USDG</a>: Temporary Street Closures <span class="src-page">PDF p. 93-96</span></li></ul>
+<ul class="reflist"><li><a href="/SoCal-Super-Standards/guides/aashto-bike-guide/">AASHTO Bike Guide (5th Ed.)</a>: 14.11 Wayfinding for Bicycle Detours and Work Zones <span class="src-page">p. 14-15</span></li><li><a href="/SoCal-Super-Standards/guides/aashto-bike-guide/">AASHTO Bike Guide (5th Ed.)</a>: 15.5 Temporary Traffic Control for Bicyclists (Maintenance of Traffic) <span class="src-page">p. 15-18</span></li><li><a href="/SoCal-Super-Standards/guides/nacto-urban-bikeway/">NACTO UBDG</a>: 5.2: Bikeways and Construction Management Plans <span class="src-page">PDF p. 378-393</span></li><li><a href="/SoCal-Super-Standards/guides/nacto-urban-street/">NACTO USDG</a>: Temporary Street Closures <span class="src-page">PDF p. 93-96</span></li></ul>
 
 ## Figures
 
