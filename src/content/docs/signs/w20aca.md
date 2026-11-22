@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Weight Limit signs warning sign</dd>
 <dt>Legend</dt><dd>WEIGHT LIMIT 12T 16T</dd>
-<dt>Keywords</dt><dd class="kw">w20a(ca), weight limit signs, weight limit 12t 16t, weight, limit, warning sign, work zones, work zone, construction, ttc</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w20">W20 &middot; Work zones</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

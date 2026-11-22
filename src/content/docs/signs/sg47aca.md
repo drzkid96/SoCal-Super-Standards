@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>California Welcome Center R 2 Miles guide sign</dd>
 <dt>Legend</dt><dd>CALIFORNIA WELCOME CENTER R 2 MILES</dd>
-<dt>Keywords</dt><dd class="kw">sg47a(ca), california welcome center r 2 miles, california, welcome, center, miles, guide sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#guide">Guide Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sg47">SG47 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

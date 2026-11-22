@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Truck-Bus Speed Limit plaque</dd>
 <dt>Legend</dt><dd>TRUCK-BUS SPEED LIMIT (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">r2-2bp, truck-bus speed limit (plaque), regulatory sign, speed limits, speed, speed zone, traffic calming, white, black, transit</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r2">R2 &middot; Speed limits</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE)</dd>

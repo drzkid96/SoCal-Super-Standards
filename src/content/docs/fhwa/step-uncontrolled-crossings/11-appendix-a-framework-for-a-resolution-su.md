@@ -18,7 +18,6 @@ sidebar:
 <h4>Appendix A: Framework for a Resolution Supporting Pedestrian Safety</h4>
 <p>Agency policies respond to a need or opportunity, such as pedestrian safety crash and fatality trends. A resolution may help decision-makers, including elected officials or appointed commissioners, better understand the need for pedestrian crash countermeasure policy or design guidance.</p>
 <p>The following is a list of possible elements for a local or Statewide resolution in support of a pedestrian crossing policy. These elements may be developed into “Whereas” statements or be included as explanatory text introducing the policy. The list of resolution elements is presented as four categories covering a spectrum of pedestrian safety issues.</p></div>
-<div class="kw">Keywords: pedestrian, safety, resolution, policy, elements, crossing, appendix, framework, supporting, need, crash, list, guide, improving</div>
 
 
 <span id="p37" class="anchor"></span>
@@ -52,7 +51,6 @@ sidebar:
 <p>lower-cost treatments.</p>
 <p>» Many pedestrian crash countermeasures</p>
 <p>have been evaluated as highly effective.</p></div>
-<div class="kw">Keywords: pedestrian, safety, fatalities, road, users, crashes, percent, countermeasures, sample, language, whereas, number, year, traffic</div>
 
 
 <span id="p38" class="anchor"></span>
@@ -83,4 +81,3 @@ sidebar:
 <p>inclusion of pedestrian accommodations as part of other transportation projects.</p>
 <p>» Vision Zero or Towards Zero Deaths</p>
 <p>initiative strives to reduce or eliminate all traffic-related fatalities, including pedestrians.</p></div>
-<div class="kw">Keywords: safety, pedestrian, highway, includes, state, crossing, plan, improvement, program, funding, list, planning, statewide, treatments</div>

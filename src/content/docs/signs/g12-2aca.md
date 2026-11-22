@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Dedicated To Chp Officer Joe Smith guide sign</dd>
 <dt>Legend</dt><dd>DEDICATED TO CHP Officer Joe Smith</dd>
-<dt>Keywords</dt><dd class="kw">g12-2a(ca), dedicated to chp officer joe smith, dedicated, chp, officer, guide sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#guide">Guide Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-g12">G12 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

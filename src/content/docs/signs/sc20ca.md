@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Slow For The Cone Zone work zone sign</dd>
 <dt>Legend</dt><dd>SLOW W FOR THE CONE ZONE</dd>
-<dt>Keywords</dt><dd class="kw">sc20(ca), slow for the cone zone, slow w for the cone zone, slow, for, the, cone, zone, work zone sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#ttc">Temporary Traffic Control Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sc20">SC20 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

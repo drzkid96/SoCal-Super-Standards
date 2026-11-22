@@ -33,7 +33,6 @@ sidebar:
 <p>05 The material used for the white color legend for the LA28 and PERMIT ONLY word pavement markings shall be retroreflective, as these pavement markings are traffic control devices under this Caltrans experimentation request specific application. Guidance:</p>
 <p>06 The materials used for LA28 and PERMIT ONLY word pavement markings should provide the white color through their temporary use period from June 1, 2028 to September 1, 2028.</p>
 <p>07 Consideration should be given to selecting pavement marking materials that will minimize tripping or loss of traction for road users, including pedestrians, bicyclists, and motorcyclists.</p></div>
-<div class="kw">Keywords: pavement, markings, word, permit, chapter, games, marking, white, color, section, lanes, legend, general, part</div>
 
 
 <span id="p69" class="anchor"></span>
@@ -50,7 +49,6 @@ sidebar:
 <p><a href="/SoCal-Super-Standards/s/ca/3A.05/">Section 3A.05</a> Maintaining Minimum Pavement Marking Retroreflectivity The following is added to this section:</p>
 <p>Support:</p>
 <p>09 The provisions of this Section requiring a method designed to maintain minimum pavement marking retroreflectivity do not apply to word pavement markings, which includes the LA28 and PERMIT ONLY word pavement markings (See CA MUTCD 2026 <a href="/SoCal-Super-Standards/s/ca/3A.05/">Section 3A.05</a>, Paragraph 6).</p></div>
-<div class="kw">Keywords: pavement, section, markings, color, word, black, marking, mutcd, following, added, white, permit, minimum, retroreflectivity</div>
 
 
 <span id="p70" class="anchor"></span>
@@ -78,25 +76,22 @@ sidebar:
 <p>24 If used, each of the LA28, PERMIT and ONLY word pavement marking used on freeway and arterial streets segments in the GRN, should be spaced 50 feet apart, as shown in Figure 3B-107(LA28) Part B.</p>
 <p>25 If used, each of the LA28, PERMIT and ONLY word pavement marking used on continuous lane segments in the GRN, should be spaced 250 feet apart, as shown in Figure 3B-108(LA28) Part C.</p>
 <p>26 When used, the LA28 and PERMIT ONLY word pavement markings letter heights should be as shown in Figure 3B-108(LA28).</p></div>
-<div class="kw">Keywords: pavement, word, markings, permit, marking, signs, information, figure, section, sign, conjunction, standard, shown, mutcd</div>
 
 
 <span id="p71" class="anchor"></span>
 
 ### Page 71 - Figure 3B-107(LA28). LA28 and PERMIT ONLY Word Pavement Markings
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0071.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0071.webp" alt="LA28 Supplement page 71 Figure 3B-107(LA28). LA28 and PERMIT ONLY Word Pavement Markings"></a><figcaption>LA28 Supplement, page 71. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>Figure 3B-107(LA28). LA28 and PERMIT ONLY Word Pavement Markings GRN lane t LA28 Markings GRN lane I0l LA28 and P E RMIT ONLY Markings Legend - Direction of travel CA MUTCD 2026 LA28 Supplement Chapter 3B - Pavement and Curb Markings (Figures) Part 3 Markings Page 71 July 15, 2026 </p></details>
-<div class="kw">Keywords: markings, pavement, lane, figure, permit, word, rmit, legend, direction, travel, mutcd, supplement, chapter, curb</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0071.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0071.webp" alt="LA28 Supplement page 71 Figure 3B-107(LA28). LA28 and PERMIT ONLY Word Pavement Markings"></a><figcaption>LA28 Supplement, page 71.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>Figure 3B-107(LA28). LA28 and PERMIT ONLY Word Pavement Markings GRN lane t LA28 Markings GRN lane I0l LA28 and P E RMIT ONLY Markings Legend - Direction of travel CA MUTCD 2026 LA28 Supplement Chapter 3B - Pavement and Curb Markings (Figures) Part 3 Markings Page 71 July 15, 2026 </p></details>
 
 
 <span id="p72" class="anchor"></span>
 
 ### Page 72 - Figure 3B-10B(LA28). Examples of GRN Pavement Markings
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0072.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0072.webp" alt="LA28 Supplement page 72 Figure 3B-10B(LA28). Examples of GRN Pavement Markings"></a><figcaption>LA28 Supplement, page 72. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>CA MUTCD 2026 LA28 Supplement Figure 3B-10B(LA28). Examples of GRN Pavement Markings A- LA28 Pavement Marking ' ll ' r-..- I I r-- I A=28 ft2 B - LA28 PERMIT ONLY at GRN Lane Opening (Freeway) and Arterial Streets 124' ■    ===I w 50' w 50' w C - LA28 PERMIT ONLY at Continuous GRN Lane  CX&gt; 524" k-1 _25_ o· -kl-_250_ ' -I Chapter 3B - Pavement and Curb Markings (Figures) Part 3 Markings Page 72 July 15, 2026 ONLY </p></details>
-<div class="kw">Keywords: pavement, markings, permit, lane, mutcd, supplement, figure, examples, marking, opening, freeway, arterial, streets, continuous</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0072.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0072.webp" alt="LA28 Supplement page 72 Figure 3B-10B(LA28). Examples of GRN Pavement Markings"></a><figcaption>LA28 Supplement, page 72.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>CA MUTCD 2026 LA28 Supplement Figure 3B-10B(LA28). Examples of GRN Pavement Markings A- LA28 Pavement Marking ' ll ' r-..- I I r-- I A=28 ft2 B - LA28 PERMIT ONLY at GRN Lane Opening (Freeway) and Arterial Streets 124' ■       ===I w 50' w 50' w C - LA28 PERMIT ONLY at Continuous GRN Lane   CX&gt; 524" k-1 _25_ o· -kl-_250_ ' -I Chapter 3B - Pavement and Curb Markings (Figures) Part 3 Markings Page 72 July 15, 2026 ONLY </p></details>
 
 
 <span id="p73" class="anchor"></span>
@@ -119,7 +114,6 @@ sidebar:
 <p>19 The location for the LA28, and if used, PERMIT ONLY word pavement markings should be based on engineering judgment that considers the prevailing speed, block lengths, distance from intersections, and other factors that affect clear communication to the road user.</p>
 <p>20 If used, the spacing interval shown in Figure 3B-108(LA28) should be used based on the roadway classification.</p>
 <p>21 The LA28, and if used, PERMIT ONLY word pavement markings should be placed on roadways in the established GRN at strategic locations such as major decision points, departures from the GRN lane, and along access to and from adjacent general- purpose lanes.</p></div>
-<div class="kw">Keywords: lane, markings, word, preferential, vehicles, permit, pavement, chapter, section, lanes, roadways, established, supplement, using</div>
 
 
 <span id="p74" class="anchor"></span>
@@ -134,4 +128,3 @@ sidebar:
 <p>Support:</p>
 <p>22 The provisions of Chapter 3G for delineators shall apply to all roadways included in the established GRN in locations specified by Caltrans experimentation request to FHWA. Option:</p>
 <p>23 Delineators may be used on GRN roadways at locations where the alignment might be confusing or unexpected, to identify and separate dedicated lanes from general purpose lanes, to facilitate travel during LA28 games.</p></div>
-<div class="kw">Keywords: chapter, delineators, section, roadways, locations, lanes, mutcd, supplement, page, colored, pavement, july, part, markings</div>

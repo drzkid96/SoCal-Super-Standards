@@ -30,7 +30,6 @@ sidebar:
 <p>13 The GRN message should be appropriately shortened or otherwise modified to comply with the provisions of <a href="/SoCal-Super-Standards/s/ca/2L.05/">Section 2L.05</a> when it is displayed on a CMS.</p>
 <p>14 The GRN message should be similar to the static GRN regulatory and guide sign legends that are included in CA MUTCD 2026 LA28 Supplement in Chapter 2G. Support:</p>
 <p>15 Table 2L-101(LA28) provides examples of GRN messages for CMS that can be used in GRN dedicated lane(s) for Olympic Games vehicles to travel between venues that is included in the established GRN.</p></div>
-<div class="kw">Keywords: message, changeable, signs, messages, section, included, chapter, lane, games, travel, established, mutcd, supplement, dedicated</div>
 
 
 <span id="p63" class="anchor"></span>
@@ -38,7 +37,7 @@ sidebar:
 ### Page 63 - Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 1 of 2)
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0063.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0063.webp" alt="LA28 Supplement page 63 Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 1 of 2)"></a><figcaption>LA28 Supplement, page 63. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0063.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0063.webp" alt="LA28 Supplement page 63 Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 1 of 2)"></a><figcaption>LA28 Supplement, page 63.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 63</p>
 <p>Chapter 2L - Changeable Message Signs (Tables) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 1 of 2)</h4>
@@ -68,7 +67,6 @@ sidebar:
 <p>2 USE N110 TO PICO EXIT</p>
 <h4>Note: Examples shown are for single-color CMS with pixel spacing greater than 20 mm and</h4>
 <p>use all upper-case lettering. Multi-color, full- matrix CMS with pixel spacing of 20 mm or less should use upper- and lower-case lettering where appropriate and proper legend and background colors.</p></div>
-<div class="kw">Keywords: message, lane, permit, signs, example, advance, definition, official, vehicles, pixel, spacing, lettering, mutcd, supplement</div>
 
 
 <span id="p64" class="anchor"></span>
@@ -76,7 +74,7 @@ sidebar:
 ### Page 64 - Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 2 of 2)
 
 <div class="pmeta">Topics: parking-curb, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0064.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0064.webp" alt="LA28 Supplement page 64 Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 2 of 2)"></a><figcaption>LA28 Supplement, page 64. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0064.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0064.webp" alt="LA28 Supplement page 64 Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 2 of 2)"></a><figcaption>LA28 Supplement, page 64.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 64</p>
 <p>Chapter 2L - Changeable Message Signs (Tables) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 2 of 2)</h4>
@@ -96,7 +94,6 @@ sidebar:
 <p>LANE</p>
 <h4>Note: Examples shown are messages with black legend on white background. Multi-color, full</h4>
 <p>matrix CMS with pixel spacing of 20 mm or less should use upper- and lower-case lettering where appropriate and proper legend and background colors.</p></div>
-<div class="kw">Keywords: vehicles, message, signs, example, messages, lane, legend, background, mutcd, supplement, page, chapter, changeable, tables</div>
 
 
 <span id="p65" class="anchor"></span>
@@ -104,7 +101,7 @@ sidebar:
 ### Page 65 - Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 1 of 3)
 
 <div class="pmeta">Topics: parking-curb, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0065.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0065.webp" alt="LA28 Supplement page 65 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 1 of 3)"></a><figcaption>LA28 Supplement, page 65. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0065.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0065.webp" alt="LA28 Supplement page 65 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 1 of 3)"></a><figcaption>LA28 Supplement, page 65.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 65</p>
 <p>Chapter 2L - Changeable Message Signs (Tables) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 1 of 3)</h4>
@@ -128,7 +125,6 @@ sidebar:
 <p>1 NO TRUCKS ALLOWED</p>
 <p>2 NORTH</p>
 <p>OF RTE 105</p></div>
-<div class="kw">Keywords: message, signs, examples, portable, permit, left, ahead, lane, vehicles, mutcd, supplement, page, chapter, changeable</div>
 
 
 <span id="p66" class="anchor"></span>
@@ -136,7 +132,7 @@ sidebar:
 ### Page 66 - Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 2 of 3)
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0066.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0066.webp" alt="LA28 Supplement page 66 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 2 of 3)"></a><figcaption>LA28 Supplement, page 66. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0066.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0066.webp" alt="LA28 Supplement page 66 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 2 of 3)"></a><figcaption>LA28 Supplement, page 66.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 66</p>
 <p>Chapter 2L - Changeable Message Signs (Tables) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 2 of 3)</h4>
@@ -167,7 +163,6 @@ sidebar:
 <p>2 USE WILSHIRE</p>
 <p>EXIT</p>
 <h4>* Examples shown are for a portable CMS where the display width is generally limited to 8 characters per line of legend.</h4></div>
-<div class="kw">Keywords: olympic, exit, message, signs, examples, portable, vehicles, traffic, next, mutcd, supplement, page, chapter, changeable</div>
 
 
 <span id="p67" class="anchor"></span>
@@ -175,7 +170,7 @@ sidebar:
 ### Page 67 - Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 3 of 3)
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0067.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0067.webp" alt="LA28 Supplement page 67 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 3 of 3)"></a><figcaption>LA28 Supplement, page 67. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0067.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0067.webp" alt="LA28 Supplement page 67 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 3 of 3)"></a><figcaption>LA28 Supplement, page 67.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 67</p>
 <p>Chapter 2L - Changeable Message Signs (Tables) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 3 of 3)</h4>
@@ -211,4 +206,3 @@ sidebar:
 <p>2 LA28 VEHICLES</p>
 <p>ONLY</p>
 <h4>* Examples shown are for a portable CMS where the display width is generally limited to 8 characters per line of legend.</h4></div>
-<div class="kw">Keywords: exit, message, signs, examples, portable, closed, routes, jammed, ahead, mutcd, supplement, page, chapter, changeable</div>

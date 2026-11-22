@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Historical Landmark Signs guide sign</dd>
 <dt>Legend</dt><dd>MISSION SANTA CRUZ 2 MILES HISTORICAL LANDMARK NO. 342</dd>
-<dt>Keywords</dt><dd class="kw">g13-1a(ca), historical landmark signs, mission santa cruz 2 miles historical landmark no. 342, mission, santa, miles, historical, landmark, guide sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#guide">Guide Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-g13">G13 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

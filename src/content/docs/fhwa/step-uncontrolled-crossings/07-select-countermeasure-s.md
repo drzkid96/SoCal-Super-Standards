@@ -24,7 +24,6 @@ sidebar:
 <p>The agency should also reference the MUTCD and other national, State, and local guidelines when making the final selection of countermeasures.</p>
 <p>For example, the agency may evaluate a 5-lane road with no raised median, an AADT of 12,000, and a 35 mph posted speed limit. The matrix recommends the agency strongly consider high-visibility crosswalks, adequate lighting, and parking restrictions on the approaches. In addition, the agency should strongly consider adding advance Yield Here To (Stop Here For) Pedestrians signs and yield (stop) lines, pedestrian refuge islands, and PHBs. Other candidate treatments include implementing a Road Diet along the corridor and adding curb extensions.</p>
 <h4>Select Countermeasure(s)</h4></div>
-<div class="kw">Keywords: agency, countermeasures, countermeasure, pedestrian, select, crossing, safety, reference, table, roadway, options, matrix, consider, uncontrolled</div>
 
 
 <span id="p23" class="anchor"></span>
@@ -32,7 +31,7 @@ sidebar:
 ### Page 23 - 16
 
 <div class="pmeta">Topics: crosswalks, bikeways, parking-curb, speed-calming, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0023.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0023.webp" alt="FHWA STEP Guide page 23 16"></a><figcaption>FHWA STEP Guide, page 23. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0023.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0023.webp" alt="FHWA STEP Guide page 23 16"></a><figcaption>FHWA STEP Guide, page 23.</figcaption></figure>
 <div class="dtext"><h4>16</h4>
 <h4>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</h4>
 <h4>Select Countermeasure(s)</h4>
@@ -66,7 +65,6 @@ sidebar:
 <p>1 High-visibility crosswalk markings, parking restrictions on crosswalk approach, adequate nighttime lighting levels, and crossing warning signs 2 Raised crosswalk 3 Advance Yield Here To (Stop Here For) Pedestrians sign and yield (stop) line 4 In-Street Pedestrian Crossing sign 5 Curb extension 6 Pedestrian refuge island 7 Rectangular Rapid-Flashing Beacon (RRFB)** 8 Road Diet 9 Pedestrian Hybrid Beacon (PHB)**</p>
 <h4>Table 1. Application of pedestrian crash countermeasures by roadway feature.</h4>
 <p>*Refer to Chapter 4, 'Using Table 1 and Table 2 to Select Countermeasures,' for more information about using multiple countermeasures. **It should be noted that the PHB and RRFB are not both installed at the same crossing location. This table was developed using information from: Zegeer, C.V., J.R. Stewart, H.H. Huang, P.A. Lagerwey, J. Feaganes, and B.J. Campbell. (2005). Safety effects of marked versus unmarked crosswalks at uncontrolled locations: Final report and recommended guidelines. FHWA, No. FHWA-HRT-04-100, Washington, D.C.; FHWA. Manual on Uniform Traffic Control Devices, 2009 Edition. (revised 2012). Chapter 4F, Pedestrian Hybrid Beacons. FHWA, Washington, D.C.; FHWA. Crash Modification Factors (CMF) Clearinghouse. http://www.cmfclearinghouse.org/; FHWA. Pedestrian Safety Guide and Countermeasure Selection System (PEDSAFE). http://www.pedbikesafe.org/PEDSAFE/; Zegeer, C., R. Srinivasan, B. Lan, D. Carter, S. Smith, C. Sundstrom, N.J. Thirsk, J. Zegeer, C. Lyon, E. Ferguson, and R. Van Houten. (2017). NCHRP Report 841: Development of Crash Modification Factors for Uncontrolled Pedestrian Crossing Treatments. Transportation Research Board, Washington, D.C.; Thomas, Thirsk, and Zegeer. (2016). NCHRP Synthesis 498: Application of Pedestrian Crossing Treatments for Streets and Highways. Transportation Research Board, Washington, D.C.; and personal interviews with selected pedestrian safety practitioners.</p></div>
-<div class="kw">Keywords: pedestrian, crossing, lanes, countermeasure, uncontrolled, table, countermeasures, crosswalk, zegeer, direction, raised, fhwa, safety, roadway</div>
 
 
 <span id="p24" class="anchor"></span>
@@ -74,7 +72,7 @@ sidebar:
 ### Page 24 - Safety Issues Addressed per Countermeasure
 
 <div class="pmeta">Topics: crosswalks</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0024.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0024.webp" alt="FHWA STEP Guide page 24 Safety Issues Addressed per Countermeasure"></a><figcaption>FHWA STEP Guide, page 24. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0024.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0024.webp" alt="FHWA STEP Guide page 24 Safety Issues Addressed per Countermeasure"></a><figcaption>FHWA STEP Guide, page 24.</figcaption></figure>
 <div class="dtext"><p>17</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Select Countermeasure(s)</p>
@@ -84,7 +82,6 @@ sidebar:
 <p>Table 2 shows the specific safety issues that each countermeasure may address. For example, the addition of PHBs has been consistently shown to improve motorist yielding by 90 percent or greater, when compared with no traffic control or warning type devices.</p>
 <p>Table 2. Safety issues addressed per countermeasure.</p>
 <p>*These countermeasures make up the STEP countermeasure “crosswalk visibility enhancements.” Multiple countermeasures may be implemented at a location as part of crosswalk visibility enhancements.</p></div>
-<div class="kw">Keywords: safety, countermeasure, issues, visibility, crossing, locations, countermeasures, guide, uncontrolled, addressed, risk, improve, address, additional</div>
 
 
 <span id="p25" class="anchor"></span>
@@ -106,7 +103,6 @@ sidebar:
 <p>High-visibility crosswalks may include a variety of crosswalk striping designs, such as ladder, continental, or bar pairs. A high-visibility crosswalk is much easier for</p>
 <p>an approaching motorist to see than the traditional parallel lines. The agency should strongly consider providing high-visibility crosswalks at all established midblock pedestrian crossings. The high-visibility markings may be supplemented with the pedestrian crossing warning signs (sign <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> in the MUTCD) on each approach to the crosswalk. MUTCD <a href="/SoCal-Super-Standards/s/ca/2C.50/">Section 2C.50</a>— Non Vehicular Warning Signs and <a href="/SoCal-Super-Standards/s/ca/3B.18/">Section 3B.18</a>—Crosswalk Markings provide additional information.</p>
 <p>The agency should also strongly consider implementing parking restrictions on the crosswalk approach at all established</p></div>
-<div class="kw">Keywords: pedestrian, crosswalk, crossing, countermeasures, countermeasure, table, agency, crossings, mutcd, high-visibility, locations, select, roadway, marked</div>
 
 
 <span id="p26" class="anchor"></span>
@@ -128,7 +124,6 @@ sidebar:
 <p>A curb extension or "bulbout" extends the sidewalk or curb line into the street or parking lane, thus reducing the street width and improving sight distance between the driver and pedestrian. A curb extension is a candidate treatment for any uncontrolled pedestrian crossing, particularly where parking lanes exist. Curb extensions should not extend into paths of travel for bicyclists.</p>
 <p>Raised crosswalk</p>
 <p>Raised crosswalks function as an extension of the sidewalk and allow a pedestrian to cross the street at a constant grade. A raised crosswalk is typically a candidate treatment on 2-lane or 3-lane roads with speed limits of 30 mph or less and AADTs below 9,000. Raised crossings are generally</p></div>
-<div class="kw">Keywords: pedestrian, signs, stop, crosswalk, crossing, here, pedestrians, street, lane, yield, advance, roads, curb, crossings</div>
 
 
 <span id="p27" class="anchor"></span>
@@ -150,7 +145,6 @@ sidebar:
 <p>Figure 6. Rendering of a PHB.</p>
 <p>Source: FHWA STEP Countermeasure Tech Sheets.</p>
 <p>(Note: Drawing not to scale.)</p></div>
-<div class="kw">Keywords: pedestrian, crossing, mutcd, section, speed, markings, phbs, island, crossings, greater, traffic, figure, countermeasure, roads</div>
 
 
 <span id="p28" class="anchor"></span>
@@ -170,7 +164,6 @@ sidebar:
 <p>uncontrolled marked crosswalks. RRFBs are placed on both ends of a crosswalk. If the crosswalk contains a pedestrian refuge island or other type of median, an RRFB should be placed to the right of the crosswalk and on the median (instead of the left side of the crosswalk). The RRFB's irregular flashing pattern pattern is unlit when not activated and can be activated manually by pedestrians using a push button or passively by a pedestrian detection system. This device is not currently included in the MUTCD, but FHWA has issued Interim Approval 21 (IA-21) for the use of the RRFB. State and local agencies must request and receive permission to use this interim approval before they can use the RRFB. IA-21 provides additional information about the conditions of use, including dimensions, placement, and flashing requirements. IA-21 does not provide guidance or criteria based on number of lanes, speed, or traffic volumes.</p>
 <p>The RRFB is a treatment option at many types of established pedestrian crossings. Research indicates RRFBs can result in motorist yielding rates as high as 98 percent at marked crosswalks. However, yielding rates as low as 19 percent have also been noted. Compliance rates varied most per the city location, posted speed limit, crossing distance, and whether the road was one- or two-way.1 RRFBs are particularly effective at multilane crossings with speed limits less than 40 mph. Consider the PHB instead of RRFBs for roadways with higher speeds. Table 1 provides specific conditions where practitioners should strongly consider the PHB instead of the RRFB.</p>
 <p>1Fitzpatrick, K., M. Brewer, R. Avelar, and T. Lindheimer. Will You Stop for Me? Roadway Design and Traffic Control Device Influences on Drivers Yielding to Pedestrians in a Crosswalk with a Rectangular Rapid-Flashing Beacon. Report No. TTI-CTS-0010. Texas A&amp;M Transportation Institute, College Station, Texas. June 2016. https://static.tti.tamu.edu/tti.tamu.edu/documents/TTI-CTS-0010.pdf</p></div>
-<div class="kw">Keywords: road, rrfb, pedestrian, crossing, roadway, lanes, rrfbs, crosswalk, diet, traffic, safety, uncontrolled, lane, consider</div>
 
 
 <span id="p29" class="anchor"></span>
@@ -193,4 +186,3 @@ sidebar:
 <p>CMF Clearinghouse The CMF Clearinghouse is an online database of countermeasures and corresponding CMFs. The database describes the confidence of the study that produced the CMF with an assigned “star quality rating.” The clearinghouse includes CMFs for most of the STEP countermeasures.</p>
 <p>NCHRP Report 841: Development of CMFs for Uncontrolled Pedestrian Crossing Treatments (2017) This report describes the safety benefits and CMFs for four types of pedestrian crossing treatments— rectangular rapid flashing beacons, PHBs, pedestrian refuge islands, and advance crosswalk signs and pavement markings.</p>
 <p>NCHRP Synthesis 498: Application of Pedestrian Crossing Treatments for Streets and Highways (2016) This is a compilation of existing practices regarding the selection and implementation of pedestrian crossing improvements, as well as a literature review of research on more than 25 pedestrian crossing treatments.</p></div>
-<div class="kw">Keywords: pedestrian, safety, crossing, treatments, uncontrolled, countermeasure, resource, cmfs, selection, countermeasures, manual, transportation, guidance, design</div>

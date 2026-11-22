@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>FLOODING AHEAD TURN AROUND DON’T DROWN W86 work zone sign</dd>
 <dt>Legend</dt><dd>FLOODING AHEAD TURN AROUND DON’T DROWN</dd>
-<dt>Keywords</dt><dd class="kw">w86(ca), flooding ahead turn around don’t drown w86, flooding ahead turn around don’t drown, flooding, ahead, turn, around, don, drown, work zone sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#ttc">Temporary Traffic Control Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w86">W86 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

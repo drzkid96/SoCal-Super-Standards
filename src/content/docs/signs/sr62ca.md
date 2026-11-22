@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>No Idling Commercial Vehicles And All Buses 13 Ccr 2480 &amp; 24 regulatory sign</dd>
 <dt>Legend</dt><dd>NO IDLING COMMERCIAL VEHICLES AND ALL BUSES 13 CCR 2480 &amp; 2485 PENALTIES APPLY</dd>
-<dt>Keywords</dt><dd class="kw">sr62(ca), no idling commercial vehicles and all buses 13 ccr 2480 &amp; 24, no idling commercial vehicles and all buses 13 ccr 2480 &amp; 2485 penalties apply, idling, commercial, vehicles, and, all, buses, ccr, penalties, apply, regulatory sign, other, transit</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sr62">SR62 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

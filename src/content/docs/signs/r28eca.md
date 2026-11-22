@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>No Public Parking Subject To Citation And Removal At Owner’S regulatory sign</dd>
 <dt>Legend</dt><dd>NO PUBLIC PARKING SUBJECT TO CITATION AND REMOVAL AT OWNER’S EXPENSE CALL POLICE DEPARTMENT AT (123) 456-7890 TO RECLAIM VEHICLE</dd>
-<dt>Keywords</dt><dd class="kw">r28e(ca), no public parking subject to citation and removal at owner’s, no public parking subject to citation and removal at owner’s expense call police department at (123) 456-7890 to reclaim vehicle, public, parking, subject, citation, and, removal, owner, expense, call, police, department, reclaim, vehicle, regulatory sign, other, curb, loading</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r28">R28 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

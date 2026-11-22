@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Object Marker Type 2 marker</dd>
 <dt>Legend</dt><dd>OBJECT MARKER TYPE 2</dd>
-<dt>Keywords</dt><dd class="kw">om2-1h, object marker type 2, warning sign, object markers, object marker, hazard, white, yellow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-om">OM &middot; Object markers</a></dd>
 <dt>Colors</dt><dd>REFLECTORS — YELLOW (RETROREFLECTIVE) BACKGROUND — WHITE (RETROREFLECTIVE) NO BORDER</dd>

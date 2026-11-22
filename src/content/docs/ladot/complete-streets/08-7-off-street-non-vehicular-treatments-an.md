@@ -13,12 +13,11 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>219</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON- VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON- VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7. OFF-STREET NON- VEHICULAR TREATMENTS AND STRATEGIES</h4>
 <h4>Introduction</h4>
 <p>This chapter presents design guidance for several features often located outside of the public right-of-way. In addition to physical elements such as bicycle ramps and paths, this chapter also presents programmatic interventions that provide vitality to Complete Streets, such as farmers markets and “Pop-Up Retail” events.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: complete, streets, design, off-street, non-, vehicular, treatments, strategies, chapter, presents, guide, introduction, guidance, several</div>
 
 
 <span id="p228" class="anchor"></span>
@@ -42,7 +41,6 @@ sidebar:
 <p>•• One alternative used in other countries is to incorporate center-running concrete ramps or channels into stairway design. Unfortunately, this treatment is problematic because it creates a hazard especially for the visually-impaired.</p>
 <p>•• Bicycle channels are easier to use on stairways with slopes which are smaller than standard. Bicycle channels on steep stairways are often underutilized because it is easier for most cyclists to lift their bicycles. A steep slope makes it more difficult to gain sufficient leverage to push a bicycle up the stairway, and it also makes it less convenient for guiding a bicycle down the stairway.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, stairways, channels, design, down, stairway, channel, ramps, stair, handrail, guide, cyclists, bicycles, existing</div>
 
 
 <span id="p229" class="anchor"></span>
@@ -51,7 +49,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, accessibility</div>
 <div class="dtext"><p>221</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>Design Guidance</h4>
 <p>•• A metal channel is fabricated of “U” or “L” shaped stock steel and has one or two sides to guide the bicycle’s wheels and keep them from straying.</p>
 <p>•• For “L”-shaped channels, the upright of the “L” goes next to the outside (handrail-side) and the bike leans against the bicyclist for stability.</p>
@@ -61,7 +59,6 @@ sidebar:
 <p>•• Stair handrails can be placed in the center of the stairway to allow for easier use of the side bicycle channels, as long as all ADA requirements are met.</p>
 <p>•• New stairways can be designed with slopes that are slightly more gradual than standard; this ensures full usability of the bicycle channels.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: channels, bicycle, design, channel, guide, metal, shaped, surface, stairways, integrated, stairway, back, table, contents</div>
 
 
 <span id="p230" class="anchor"></span>
@@ -85,7 +82,6 @@ sidebar:
 <p>♦♦There is adequate access to local cross-streets and other facilities along the route.</p>
 <p>♦♦Grade separated structures do not add substan­ tial out-of-direction travel.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, path, facilities, class, design, paths, along, off-street, streets, caltrans, california, provide, traffic, separated</div>
 
 
 <span id="p231" class="anchor"></span>
@@ -94,7 +90,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, signs, intersections</div>
 <div class="dtext"><p>223</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>Considerations</h4>
 <p>•• Both the Caltrans Highway Design Manual (HDM) and the AASHTO Guide for the Development of Bicycle Facilities generally recommend against the development of bicycle paths directly adjacent to roadways. Also known as “sidepaths”, these facilities may create a situation where a portion of the bicycle traffic rides against the normal flow of motor vehicle traffic and can result in wrong-way riding when either entering or exiting the path. This can also result in unsafe situations where motorists entering or crossing the roadway at intersections and driveways do not notice bicyclists coming from their right, as they are not expecting traffic from that direction. In addition, stopped cross-street motor vehicle traffic or vehicles exiting side streets or driveways may frequently block paths or pull out unexpectedly. Bicyclists traveling from an unexpected direction may go unnoticed by motorists, especially when sight distances are poor.</p>
 <h4>Design Guidance</h4>
@@ -107,7 +103,6 @@ sidebar:
 <p>Separating pedestrians from bicycle traffic on bicycle paths avoids pedestrian-bicycle conflicts.</p>
 <p>A bicycle path next to a roadway should include physical barriers to prevent bicyclists from encroaching on highway traffic.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, traffic, path, design, bicyclists, paths, motor, motorists, roadway, intersections, access, streets, guide, off-street</div>
 
 
 <span id="p232" class="anchor"></span>
@@ -128,7 +123,6 @@ sidebar:
 <p>•• Striping: The City of Los Angeles requires a 4-inch dashed yellow centerline stripe with 4-inch solid white edge lines to delineate bi-directional bicycle travel, and the shoulder needs a 2’ white stripped shoulder for pedestrian use.</p>
 <p>•• Separation from Roadway: Bicycle paths closer than 5 feet from the edge of the shoulder shall include a physical barrier to prevent bicyclists from encroaching onto the highway. Bicycle paths within the clear recovery zone of freeways shall include a physical</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, foot, shoulder, feet, design, width, minimum, clearance, city, angeles, two-way, path, travel, required</div>
 
 
 <span id="p233" class="anchor"></span>
@@ -137,14 +131,13 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>225</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <p>barrier separation. Suitable barriers may include chain link fences.</p>
 <p>•• Noise and dust: Bicycle path corridors adjacent to busy roadways, freeways or rail lines may be subject to noise, dust, vibration or vandalism, which may discourage use of the path. Methods of reducing this impact include the addition of vegetation or baffles to fencing barriers. This can increase the initial cost and ongoing maintenance cost.</p>
 <p>•• Surfacing: The use of asphalt surfacing is the most common surface used for new bicycle paths in Los Angeles and has proven to be the most suitable for long-term use. However, the material composition and construction methods used can have a significant determination on the longevity of the pathway. Thicker asphalt sections (min. 4”) and a well-prepared subgrade will reduce deformation over time and reduce long-term maintenance costs. If asphalt is to be used for surface material, redwood headers must be used to form the pathway. Using modern construction practices, asphalt provides a smooth ride with low maintenance costs and provides for easy repair of surface anomalies.</p>
 <p>•• Concrete is also a common surface for bicycle paths. The surface must be cross-broomed and the crack- control joints should be saw-cut, not troweled. Concrete paths cost more to build than asphalt paths, and can be highly durable, but concrete is subject to frequent cracking, and repairs to concrete path are more costly and time consuming than repairs to asphalt paths.</p>
 <p>•• Off-street paths should be designed with sufficient surfacing structural depth for the subgrade soil type to support maintenance and emergency vehicles. Where the path must be constructed over a very poor subgrade (wet and/or poor material), treatment of the subgrade with lime, cement or geotextile fabric should be used.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: asphalt, paths, surface, path, maintenance, subgrade, concrete, bicycle, cost, surfacing, material, off-street, suitable, barriers</div>
 
 
 <span id="p234" class="anchor"></span>
@@ -163,7 +156,6 @@ sidebar:
 <p>Bicycle Paths on Long Downgrades (steeper than 4%, longer than 50 feet) 30 mph</p>
 <p>•• For most bicycle path applications the superelevation rate will vary from a minimum of 2 percent (the minimum necessary to encourage adequate drainage) to a maximum of approximately 5 percent (beyond which maneuvering difficulties by slow bicyclists and adult tricyclists might be expected). A straight 2 percent cross slope is recommended on tangent sections. The minimum superelevation rate of 2 percent will be adequate for most conditions and will simplify construction. Superelevation rates steeper than 5 percent should be avoided on bicycle paths expected to have adult tricycle traffic.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, speed, design, minimum, paths, superelevation, percent, table, surface, rate, path, long, downgrades, bicyclists</div>
 
 
 <span id="p235" class="anchor"></span>
@@ -172,7 +164,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, parking-curb, signs</div>
 <div class="dtext"><p>227</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <p>•• The minimum radius of curvature can be selected from the table below. When smaller curve radii (i.e., smaller than the minimum radii shown below) must be used on bicycle paths because of right of way and/or topographical considerations, then standard curve warning signs and supplemental pavement markings should be installed. The negative effects of nonstandard curves can also be partially offset by widening the pavement through the curves.</p>
 <h4>Curve Radii and Superelevation</h4>
 <h4>Minimum Radius (feet)</h4>
@@ -197,7 +189,6 @@ sidebar:
 <p>25 176 197 232 300 507</p>
 <p>30 246 279 332 440 763</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, design, grade, paths, stopping, grades, minimum, table, superelevation, speed, distance, bicyclists, below, curve</div>
 
 
 <span id="p236" class="anchor"></span>
@@ -214,7 +205,6 @@ sidebar:
 <p>Caltrans Highway Design Manual</p>
 <p>California MUTCD</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: lighting, bicycle, paths, design, grades, considered, levels, standards, recommended, percent, steeper, intersections, path, highway</div>
 
 
 <span id="p237" class="anchor"></span>
@@ -223,7 +213,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>229</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7.3 Multi-Purpose Paths in River and Utility Corridors</h4>
 <p>Multi-Purpose Paths in river and utility corridors provide unique bicycling and pedestrian opportunities. Utility corridors typically include powerline and sewer corridors, while waterway corridors include flood control channels, drainage ditches, rivers, and beaches.</p>
 <h4>Benefits</h4>
@@ -240,7 +230,6 @@ sidebar:
 <p>♦♦Flood control channel utility maintenance or other activities</p>
 <p>♦♦Inclement weather or the prediction of storm conditions</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: corridors, path, utility, paths, access, design, river, flood, control, multi-purpose, provide, pedestrian, opportunities, include</div>
 
 
 <span id="p238" class="anchor"></span>
@@ -258,7 +247,6 @@ sidebar:
 <p>AASHTO Guide for the Development of Bicycle Facilities</p>
 <p>Fencing along the edge of a path can protext bicyclists from hazards.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: fencing, path, bicycle, channel, design, guide, public, flood, control, channels, hazards, fences, railings, along</div>
 
 
 <span id="p239" class="anchor"></span>
@@ -267,7 +255,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, transit, striping</div>
 <div class="dtext"><p>231</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7.4 Multi-Purpose Paths in Existing Active Rail Corridor</h4>
 <p>Existing active rail corridors can provide bicycling and pedestrian facilities (“rail-with-trail”) if the neces­ sary right-of-way can be accommodated.</p>
 <h4>Benefits</h4>
@@ -283,7 +271,6 @@ sidebar:
 <p>Setback:</p>
 <p>♦♦The setback is the distance from the centerline of the railroad to the edge of the bicycle path fa­ cility. Each railroad generally has its own policies on bicycle paths adjacent to active rail lines. For example, the BNSF’s policy on “Trails with Rails” states, “Where train speeds are greater than 90 mph, trails are not acceptable. No trail will be constructed within 100 ft. of any mainline track</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: rail, bicycle, path, active, corridors, design, paths, existing, pedestrian, facilities, rail-with-trail, right-of-way, some, feasibility</div>
 
 
 <span id="p240" class="anchor"></span>
@@ -314,7 +301,6 @@ sidebar:
 <p>•• Separation: Separation is any physical barrier that keeps bicycle path users from accessing railroad operations. Separation can take the form of fencing, walls, vegetation, vertical grade, and ditches or swales. Fencing is the most common form of separation and can vary from chain link to wire, wrought iron, vinyl, steel picket, galvanized pipe, and wooden rail. Fencing should be a minimum of 5 feet in height with higher fencing usually next to sensitive areas such as switching yards.</p>
 <p>•• Fencing: Railroads typically require fencing with all rail-with-trail projects. Concerns with trespassing and safety can vary with the amount and type of train traffic on the adjacent rail line and the setting</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: feet, fencing, design, track, train, speeds, line, bicycle, path, rail, main, separation, scrra, railroad</div>
 
 
 <span id="p241" class="anchor"></span>
@@ -323,7 +309,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, transit, striping</div>
 <div class="dtext"><p>233</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7.5 Multi-Purpose Path Constructed within New Transit Corridor</h4>
 <p>New transit corridors can provide bicycling and pedestrian facilities if the necessary right-of-way can be accommodated.</p>
 <h4>Benefits</h4>
@@ -343,7 +329,6 @@ sidebar:
 <p>AASHTO Guide for the Development of Bicycle Facilities.</p>
 <p>The Orange Line Bikeway has separate lanes for bicycles and pedestrians.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: design, bicyclists, pedestrians, path, transit, pedestrian, facilities, markings, guide, treatments, provides, bicycle, high, orange</div>
 
 
 <span id="p242" class="anchor"></span>
@@ -371,7 +356,6 @@ sidebar:
 <p>•• Pavement Markings: Standard pavement markings should be used per the CA MUTCD. In order to reinforce the need for separation of bicyclists and pedestrians, graphic markings may be used.</p>
 <p>•• Surfacing: Paved surface thickness 4”, adequate to support maintenance vehicles. Redwood headers if asphalt surface.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: path, coastal, paths, markings, design, many, types, users, bicyclists, pedestrians, pedestrian, provides, recreational, enjoy</div>
 
 
 <span id="p243" class="anchor"></span>
@@ -380,7 +364,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, bikeways, striping</div>
 <div class="dtext"><p>235</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <p>•• To provide an adequate and pleasant facility, adequate widths and separation are needed to maintain an enjoyable pathway environment.</p>
 <p>•• Offsetting of the pedestrian path should be provided if possible. Otherwise, separation should be provided in the form of striping or landscaping.</p>
 <p>•• The bicycle path should be located on whichever side of the path will result in the fewest number of anticipated pedestrian crossings. Site analysis of each project is required to determine expected pedestrian behavior.</p>
@@ -389,7 +373,6 @@ sidebar:
 <p>Caltrans Highway Design Manual</p>
 <p>AASHTO Guide for the Development of Bicycle Facilities</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrian, path, design, guide, adequate, separation, provided, bicycle, back, table, contents, complete, streets, off-street</div>
 
 
 <span id="p244" class="anchor"></span>
@@ -417,7 +400,6 @@ sidebar:
 <p>♦♦An at-grade crossing is not feasible.</p>
 <p>♦♦Crossing is needed over a grade-separated facili­ ty such as a freeway or rail line</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: crossing, undercrossings, overcrossings, bicycle, high, volumes, grade-separated, provide, path, crossings, bicyclists, considered, vehicle, speeds</div>
 
 
 <span id="p245" class="anchor"></span>
@@ -425,9 +407,9 @@ sidebar:
 ### Page 245 - Considerations
 
 <div class="pmeta">Topics: bikeways, parking-curb, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0245.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0245.webp" alt="Complete Streets DG page 245 Considerations"></a><figcaption>Complete Streets DG, page 245. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0245.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0245.webp" alt="Complete Streets DG page 245 Considerations"></a><figcaption>Complete Streets DG, page 245.</figcaption></figure>
 <div class="dtext"><p>237</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <p>•• An undercrossing or overcrossing may be appropriate where bicycle demand exists to cross a freeway in a specific location, or where a flood control channel (e.g., the Los Angeles River) separates a neighborhood from a nearby bicyclist destination.</p>
 <p>•• These facilities may also overcome barriers posed by railroads, and are appropriate in areas where frequent or high-speed trains would create at-grade crossing safety issues, and in areas where trains frequently stop and block a desired bicycle crossing point.</p>
 <p>•• They may also be required by the California Public Utilities Commission (PUC) which often prohibits new at-grade railroad crossings for bicyclists, or to replace existing at-grade crossings for efficiency, safety, and liability reasons.</p>
@@ -445,7 +427,6 @@ sidebar:
 <p>•• Lighting: Vandal-resistant lighting should be installed with all undercrossings in culverts or tunnels.</p>
 <p>•• Grade Requirements: As with other path sections, grade should not exceed 5%.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: undercrossing, crossing, bicycle, at-grade, crossings, bicyclists, feet, lighting, markings, design, overcrossing, appropriate, areas, trains</div>
 
 
 <span id="p246" class="anchor"></span>
@@ -470,7 +451,6 @@ sidebar:
 <p>AASHTO Guide Specifications for Design of Pedestrian Bridges</p>
 <p>When a bicycle path follows a low-lying flood control channel, an undercrossing is often necessary.</p>
 <p>Back to Table of Contents Back to Table of Contents</p></div>
-<div class="kw">Keywords: design, pedestrian, guide, overcrossings, width, minimum, provided, facilities, bicycle, caltrans, path, separate, vertical, clearance</div>
 
 
 <span id="p247" class="anchor"></span>
@@ -479,7 +459,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>239</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7.8 Fencing for Bike Paths</h4>
 <p>Fencing can serve multiple purposes along path facilities, including access control, visual screening, channeling of path users, and safety.</p>
 <h4>Benefits</h4>
@@ -492,7 +472,6 @@ sidebar:
 <p>•• Fencing height: The height and design of a fence influences whether lateral movement will be inhibited. Few fences are successful at preventing people from continuing to cross at historic illegal crossing locations. Fencing that cannot be climbed will typically be cut or otherwise vandalized. Heavy-duty fencing such as wrought iron or steel mesh security fencing that are difficult to climb or cut are often much more expensive.</p>
 <p>•• Noise and dust: Bicycle path corridors adjacent to busy roadways, freeways or rail lines may be subject to noise, dust, vibration or vandalism, which may discourage use of the path. Methods of reducing this impact include the addition of vegetation or baffles to fencing barriers. This can increase the initial cost and ongoing maintenance cost.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: fencing, path, along, safety, cost, design, users, barriers, height, noise, dust, complete, streets, guide</div>
 
 
 <span id="p248" class="anchor"></span>
@@ -517,7 +496,6 @@ sidebar:
 <p>Caltrans Highway Design Manual</p>
 <p>AASHTO Guide for the Development of Bicycle Facilities</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: fencing, chain-link, fence, path, bicycle, provide, security, handle, chain, link, visual, buffering, difficult, design</div>
 
 
 <span id="p249" class="anchor"></span>
@@ -526,7 +504,7 @@ sidebar:
 
 <div class="pmeta">Topics: parking-curb</div>
 <div class="dtext"><p>241</p>
-<p>Complete Streets Design Guide 7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
+<p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7.9 Programming and Temporary Treatments</h4>
 <h4>Pop-Up Retail</h4>
 <p>Also known as a pop-up shop or flash retailing, pop-up retail (pop-up) is a temporary transformation of a vacant commercial space by a local entrepreneur or small-business owner. Pop-up businesses typical­ ly sell clothing, food, seasonal items, art, and other merchandise. Pop-ups activate streets and can help reduce commercial vacancies by demonstrating the business potential for these spaces.</p>
@@ -538,7 +516,6 @@ sidebar:
 <h4>Pop-Up Plazas</h4>
 <p>Pop-Up Plazas are underutilized spaces, sometimes roadways, which are transformed into temporary pedestrian spaces. Delineated using temporary materials, such as paint or planters, these public spaces can have community and economic benefits by allowing for such things as outdoor seating, live music, or public art. Like pop-up retail, pop-up plazas can demonstrate the potential for a permanent pedestrian plaza.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pop-up, spaces, temporary, farmers, retail, activate, help, public, underutilized, markets, plazas, streets, treatments, commercial</div>
 
 
 <span id="p250" class="anchor"></span>
@@ -558,21 +535,17 @@ sidebar:
 <p>Public EV Charging Stations</p>
 <p>Electric Vehicles (EVs) are a sustainable mobility alternative and are increasing in consumer demand. According to a study by the UCLA Luskin Center for Innovation, the adoption of EVs has the potential to help reduce carbon emissions and traffic noise. The study’s market analysis found that Los Angeles has a strong market potential for EVs. Similar to meter parking, The City of Los Angeles can price EV charging stations to fund for its maintenance and other improvement projects. Installing EV charging stations in strategized locations can help to prepare and accommodate for future EV demand.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: furniture, street, community, help, charging, stations, treatments, pallet, often, locations, public, enhance, encouraging, while</div>
 
 
 <span id="p251" class="anchor"></span>
 
 ### Page 251
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0251.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0251.webp" alt="Complete Streets DG page 251 "></a><figcaption>Complete Streets DG, page 251. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0251.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0251.webp" alt="Complete Streets DG page 251 "></a><figcaption>Complete Streets DG, page 251.</figcaption></figure>
 
 
 <span id="p252" class="anchor"></span>
 
 ### Page 252
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0252.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0252.webp" alt="Complete Streets DG page 252 "></a><figcaption>Complete Streets DG, page 252. Click to enlarge.</figcaption></figure>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0252.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0252.webp" alt="Complete Streets DG page 252 "></a><figcaption>Complete Streets DG, page 252.</figcaption></figure>

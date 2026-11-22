@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Passenger Loading Only 7Am 7A7 To4Pm School Days 5 Minute Li regulatory sign</dd>
 <dt>Legend</dt><dd>PASSENGER LOADING ONLY 7AM 7A7 TO4PM SCHOOL DAYS 5 MINUTE LIMIT</dd>
-<dt>Keywords</dt><dd class="kw">r25e(ca), passenger loading only 7am 7a7 to4pm school days 5 minute li, passenger loading only 7am 7a7 to4pm school days 5 minute limit, passenger, loading, only, school, days, minute, limit, regulatory sign, other, srts</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r25">R25 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

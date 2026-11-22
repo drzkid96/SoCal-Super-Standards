@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Except Buses plaque</dd>
 <dt>Legend</dt><dd>EXCEPT BUSES (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">r3-7ap, except buses (plaque), except, buses, regulatory sign, movement prohibition and lane control, lane use, turn restriction, intersection, white, black, transit</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r3">R3 &middot; Movement prohibition and lane control</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE) 24 12 0.375 0.5 2 3 D 6.905 6.904 5.930 1.5 A B C D E F G H J K</dd>

@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Advance Circular Intersection Lane Control (2 lanes) regulatory sign</dd>
 <dt>Legend</dt><dd>ADVANCE CIRCULAR INTERSECTION LANE CONTROL (2 LANES)</dd>
-<dt>Keywords</dt><dd class="kw">r3-8zd, advance circular intersection lane control (2 lanes), only, regulatory sign, movement prohibition and lane control, lane use, turn restriction, intersection, white, black</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r3">R3 &middot; Movement prohibition and lane control</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE) A B C D E F G H J K L M N P 36 0.625 0.875 3 4.75 7.75 4 D* 1.301 2.016 14.488 14.5 15.842 16.300 28.5 Q R S T U V W X Y Z AA BB CC DD 16.75 2.800 5.375 11.75 2.75 10.418 3.637 19.25 7.5 5.933 10.757 8 4.5 17.433 EE FF GG HH JJ KK LL MM NN PP QQ RR SS 2.706 6.5 16.875 6.178 12.944 5.433 11.925 4.833 10.310 2 2 7 2.25</dd>

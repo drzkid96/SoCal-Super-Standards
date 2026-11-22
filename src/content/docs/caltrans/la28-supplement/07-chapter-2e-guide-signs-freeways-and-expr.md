@@ -36,7 +36,6 @@ sidebar:
 <p>Option:</p>
 <p>19 The LA28 sign plaque or the LA28 sign panel, including if it is combined with the word message PERMIT ONLY, may be used on any existing or new Interchange Advance Guide signs, where engineering judgment determines the need to identify dedicated lanes on GRN roadways to facilitate travel during LA28 games. Support:</p>
 <p>20 Refer to Figures 2E-9 and 2E-9(CA) for Interchange Advance Guide signs, and 2G-6(LA28) for examples showing the sign plaque addition and affixing the sign panel to the face of the guide signs.</p></div>
-<div class="kw">Keywords: signs, guide, section, sign, mutcd, following, added, support, refer, identify, dedicated, lanes, facilitate, travel</div>
 
 
 <span id="p40" class="anchor"></span>
@@ -66,4 +65,3 @@ sidebar:
 <p>Option:</p>
 <p>08 The LA28 sign plaque or the LA28 sign panel, including if it is combined with the word message PERMIT ONLY, may be used on any existing or new Route signs or Trailblazer Assemblies, where engineering judgment determines the need to identify dedicated lanes on GRN roadways to facilitate travel during LA28 games. Support:</p>
 <p>09 Refer to Figures 2D-4 and 2D-8 and 2D-4(CA) through 2D-6(CA) for Route signs and Trailblazer Assemblies, and 2G-6(LA28) for examples showing the sign plaque addition and affixing the sign panel to the face of the guide signs.</p></div>
-<div class="kw">Keywords: signs, sign, plaque, section, panel, guide, exit, following, added, option, including, combined, word, message</div>

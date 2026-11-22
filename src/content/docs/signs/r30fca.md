@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>No Stopping 7 To8 Am 2 To3 Pm School Days regulatory sign</dd>
 <dt>Legend</dt><dd>NO STOPPING 7 TO8 AM 2 TO3 PM SCHOOL DAYS</dd>
-<dt>Keywords</dt><dd class="kw">r30f(ca), no stopping 7 to8 am 2 to3 pm school days, stopping, school, days, regulatory sign, other, stop control, srts</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r30">R30 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

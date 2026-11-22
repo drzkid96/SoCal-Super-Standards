@@ -22,10 +22,14 @@ TOPIC_NAME = {t[0]: t[1] for t in T}
 # ------------------------------------------------------------------ concept matchers
 def term_re(t):
     t = t.strip()
-    body = re.escape(t).replace(r"\ ", r"[\s-]+").replace(r"\-", r"[\s-]?")
+    is_code = bool(re.search(r"[A-Z]+\d+-\d+", t))
+    if is_code:
+        body = re.escape(t)
+    else:
+        body = re.escape(t).replace(r"\ ", r"[\s-]+").replace(r"\-", r"[\s-]?")
     abbr = len(t) <= 6 and re.fullmatch(r"[A-Z0-9&/().\-]+", t) and re.search(r"[A-Z]", t)
-    tail = "" if abbr else r"(?:s|es)?"
-    return body + tail, bool(abbr)
+    tail = "" if (abbr or is_code) else r"(?:s|es)?"
+    return body + tail, bool(abbr or is_code)
 
 MATCH = []
 for c in LIST:
@@ -221,22 +225,6 @@ for i in dwgs:
     if not os.path.exists(mdp):
         continue
     s = open(mdp).read()
-    # preserve plain keywords losslessly across re-runs
-    kw_raw = re.search(r'<div class="kw">Keywords: (.*?)</div>', s)
-    if kw_raw:
-        kws0 = [k.strip() for k in html.unescape(re.sub(r"<[^>]+>", "", kw_raw.group(1))).split(",") if k.strip()]
-    else:
-        ex_kw = re.findall(r'<a class="kchip" href="/SoCal-Super-Standards/details/\?q=[^"]*">([^<]+)</a>', s)
-        kws0 = [html.unescape(k).strip() for k in ex_kw if k.strip()] if ex_kw else [k.strip() for k in re.split(r"[,;]+", i.get("kw", "")) if k.strip()][:16]
-    kws, kwl = [], set()
-    for k in kws0:
-        if nk(k) not in kwl:
-            kwl.add(nk(k)); kws.append(k)
-    aka = []
-    for cid in i["cs"]:
-        for t in [CBY[cid]["term"]] + CBY[cid]["aka"]:
-            if nk(t) not in kwl:
-                kwl.add(nk(t)); aka.append(t)
 
     rel_rows = []
     if same_num_map[i["url"]]:
@@ -260,35 +248,28 @@ for i in dwgs:
     if i.get("topics"):
         rel_rows.append(("Topics", " ".join(
             f'<a class="kchip tchip" href="{BASE}/topics/{t}/">{esc(TOPIC_NAME.get(t, t))}</a>' for t in i["topics"])))
-    dsigns = [c for c in (i.get("signs") or []) if c in signs]
-    if dsigns:
-        rel_rows.append(("Signs on this drawing", " ".join(
-            f'<a class="kchip sref" href="{signs[c]["url"]}" data-svg="{signs[c]["svg"]}">{esc(c)}</a>' for c in dsigns[:18])))
-
-    meta_rows = []
-    if i["c"]:
+    idx_c = i["cs"] or i["c"][:6]
+    if idx_c:
         bycat = defaultdict(list)
-        for cid in i["c"]:
+        for cid in idx_c[:10]:
             bycat[CBY[cid]["cat"]].append(cid)
-        meta_rows.append(("Index entries", " &middot; ".join(
+        rel_rows.append(("Index entries", " &middot; ".join(
             f'<b>{esc(CATS[cat])}:</b> ' + ", ".join(f'<a href="{BASE}/keywords/#c-{cid}">{esc(CBY[cid]["term"])}</a>' for cid in ids)
             for cat, ids in bycat.items())))
-    if kws:
-        meta_rows.append(("Keywords", " ".join(f'<a class="kchip" href="{BASE}/details/?q={esc(k)}">{esc(k)}</a>' for k in kws)))
-
-    aka_html = (f'<details class="xidx-aka"><summary>Also searched as ({len(aka[:40])} synonyms and alternate terms)</summary>'
-                f'<p>{", ".join(esc(a) for a in aka[:40])}</p></details>') if aka else ""
 
     block = (
         '<section class="xidx-wrap" data-pagefind-weight="4">'
         '<h2 id="index-and-related">Related standards and index</h2>'
-        + ('<dl class="xidx">' + "".join(f"<div><dt>{esc(a)}</dt><dd>{b}</dd></div>" for a, b in rel_rows) + "</dl>" if rel_rows else "")
-        + ('<div class="xidx-meta"><dl class="xidx xidx-sub">' + "".join(f"<div><dt>{esc(a)}</dt><dd>{b}</dd></div>" for a, b in meta_rows) + "</dl>" + aka_html + "</div>" if (meta_rows or aka_html) else "")
-        + "</section>"
-    )
-    s = re.sub(r'<section class="xidx-wrap".*?</section>', lambda _: block, s, flags=re.S) if 'class="xidx-wrap"' in s else \
-        re.sub(r'<div class="kw">Keywords: .*?</div>', lambda _: block, s, count=1, flags=re.S)
-    s = s.replace('<p class="dwg-sum">', '<p class="dwg-sum" data-pagefind-weight="6">')
+        '<dl class="xidx">' + "".join(f"<div><dt>{esc(a)}</dt><dd>{b}</dd></div>" for a, b in rel_rows) + "</dl>"
+        "</section>"
+    ) if rel_rows else ""
+
+    if 'class="xidx-wrap"' in s:
+        s = re.sub(r'<section class="xidx-wrap".*?</section>', lambda _: block, s, flags=re.S)
+    elif '<div class="kw">' in s:
+        s = re.sub(r'<div class="kw">Keywords: .*?</div>', lambda _: block, s, count=1, flags=re.S)
+    elif block:
+        s = s.rstrip() + "\n\n" + block + "\n"
     open(mdp, "w").write(s)
 
 # ------------------------------------------------------------------ related sections on Sign Library pages

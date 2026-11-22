@@ -24,7 +24,6 @@ sidebar:
 <p>Support:</p>
 <p>02 The following list of acronyms are related to traffic control devices and provided for ease of use and as a handy reference: 25a. GRN Games Route Network 104a. LA28 Los Angeles 2028 Olympics and Paralympics</p>
 <p>03 The acronym “LA28” refers to the name of the event, named by the host city plus the 2-digit year (e.g. Paris24). Abbreviating the year allows the word message to be as brief as practical while keeping it simple, allowing for easier accommodation when used on the plaque, panel or as word message pavement marking.</p></div>
-<div class="kw">Keywords: manual, section, following, acronyms, definitions, abbreviations, games, network, chapter, part, general, words, phrases, added</div>
 
 
 <span id="p23" class="anchor"></span>
@@ -43,7 +42,6 @@ sidebar:
 <p><a href="/SoCal-Super-Standards/s/ca/1D.08/">Section 1D.08</a> Abbreviations Used on Traffic Control Devices The following is added to this section:</p>
 <h4>Standard:</h4>
 <p>03a When the word messages shown in Table 1D-101(LA28) need to be abbreviated on a changeable message sign or portable changeable message sign, the abbreviations shown in Table 1D-101(LA28) will be used.</p></div>
-<div class="kw">Keywords: color, section, general, sign, mutcd, traffic, control, devices, part, light, message, chapter, provisions, applicable</div>
 
 
 <span id="p24" class="anchor"></span>
@@ -62,4 +60,3 @@ sidebar:
 <h4>Should Follow the</h4>
 <h4>Abbreviation Example</h4>
 <h4>Los Angeles 2028 LA28 Permit (Optional) LA28 PERMIT ONLY PERMIT ONLY PERMIT ONLY LA28 LA28 PERMIT ONLY</h4></div>
-<div class="kw">Keywords: permit, word, abbreviation, general, changeable, message, prompt, mutcd, supplement, page, chapter, provisions, applicable, traffic</div>

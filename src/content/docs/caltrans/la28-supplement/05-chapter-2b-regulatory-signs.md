@@ -37,7 +37,6 @@ sidebar:
 <p><a href="/SoCal-Super-Standards/s/ca/2B.29/">Section 2B.29</a> Optional Movement Lane Control Signs (<a class="sref" href="/SoCal-Super-Standards/signs/r3-6/" data-svg="/SoCal-Super-Standards/signs/R3-6__Sheet_1_of_2.svg">R3-6</a> Series) The following is added to this section:</p>
 <p>Option:</p>
 <p>07 The LA28 sign plaque or the LA28 sign panel, including if it is combined with the word message PERMIT ONLY, may be used on any existing or new Optional Movement Lane Control signs, where engineering judgment determines the need to identify</p></div>
-<div class="kw">Keywords: signs, sign, section, regulatory, plaque, panel, movement, lane, control, permit, following, added, combined, word</div>
 
 
 <span id="p32" class="anchor"></span>
@@ -57,7 +56,6 @@ sidebar:
 <p>Option:</p>
 <p>02 The BEGIN (<a class="sref" href="/SoCal-Super-Standards/signs/r3-9cp/" data-svg="/SoCal-Super-Standards/signs/R3-9cP.svg">R3-9cP</a>) or END (<a class="sref" href="/SoCal-Super-Standards/signs/r3-9dp/" data-svg="/SoCal-Super-Standards/signs/R3-9dP.svg">R3-9dP</a>) plaque may be used to supplement any regulatory sign that, based on engineering judgment, is being used to identify dedicated lanes on GRN roadways to facilitate travel during LA28 games. The legend BEGIN or END may be used within the border of the main sign itself, or on an <a class="sref" href="/SoCal-Super-Standards/signs/r3-9cp/" data-svg="/SoCal-Super-Standards/signs/R3-9cP.svg">R3-9cP</a> or <a class="sref" href="/SoCal-Super-Standards/signs/r3-9dp/" data-svg="/SoCal-Super-Standards/signs/R3-9dP.svg">R3-9dP</a> plaque mounted immediately above it. Support:</p>
 <p>03 Refer to Figures 2B-4, 2B-6, and 2G-1(LA28) for examples showing the BEGIN (<a class="sref" href="/SoCal-Super-Standards/signs/r3-9cp/" data-svg="/SoCal-Super-Standards/signs/R3-9cP.svg">R3-9cP</a>) or END (<a class="sref" href="/SoCal-Super-Standards/signs/r3-9dp/" data-svg="/SoCal-Super-Standards/signs/R3-9dP.svg">R3-9dP</a>) plaques and using the legend BEGIN or END within the border of the regulatory signs.</p></div>
-<div class="kw">Keywords: signs, sign, regulatory, plaque, begin, lane, control, section, dedicated, lanes, roadways, facilitate, travel, games</div>
 
 
 <span id="p33" class="anchor"></span>
@@ -65,7 +63,7 @@ sidebar:
 ### Page 33 - Figure 2B-4(LA28). Examples of LA28 Sign Panel and Plaque Usage on Lane Control Signs
 
 <div class="pmeta">Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r3-8/" data-svg="/SoCal-Super-Standards/signs/R3-8.svg">R3-8</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-8a/" data-svg="/SoCal-Super-Standards/signs/R3-8a.svg">R3-8a</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-8b/" data-svg="/SoCal-Super-Standards/signs/R3-8b.svg">R3-8b</a> R61-1 &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0033.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0033.webp" alt="LA28 Supplement page 33 Figure 2B-4(LA28). Examples of LA28 Sign Panel and Plaque Usage on Lane Control Signs"></a><figcaption>LA28 Supplement, page 33. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0033.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0033.webp" alt="LA28 Supplement page 33 Figure 2B-4(LA28). Examples of LA28 Sign Panel and Plaque Usage on Lane Control Signs"></a><figcaption>LA28 Supplement, page 33.</figcaption></figure>
 <div class="dtext"><h4>Figure 2B-4(LA28). Examples of LA28 Sign Panel and Plaque Usage on Lane Control Signs</h4>
 <h4>I ONLY ONLY ONLY</h4>
 <h4><a class="sref" href="/SoCal-Super-Standards/signs/r3-8/" data-svg="/SoCal-Super-Standards/signs/R3-8.svg">R3-8</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-8a/" data-svg="/SoCal-Super-Standards/signs/R3-8a.svg">R3-8a</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-8b/" data-svg="/SoCal-Super-Standards/signs/R3-8b.svg">R3-8b</a></h4>
@@ -79,4 +77,3 @@ sidebar:
 <p>CA MUTCD 2026 LA28 Supplement Page 33</p>
 <p>Chapter 2B - Regulatory Signs, Barricades, and Gates (Figures) Part 2 Signs</p>
 <p>July 15, 2026</p></div>
-<div class="kw">Keywords: signs, figure, examples, sign, panel, lane, control, plaque, usage, note, refer, showing, affixing, legend</div>

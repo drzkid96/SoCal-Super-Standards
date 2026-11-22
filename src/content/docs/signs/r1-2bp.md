@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>To Traffic in Circle plaque</dd>
 <dt>Legend</dt><dd>TO TRAFFIC IN CIRCLE (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">r1-2bp, to traffic in circle (plaque), traffic, circle, regulatory sign, stop, yield, and pedestrian crossing, intersection control, right of way, crosswalk, white, black, ped, pedestrian crossing, stop control, yield control</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r1">R1 &middot; STOP, YIELD, and pedestrian crossing</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE) 2-4 B J K M L N K P Q</dd>

@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Tow-Away No Parking Pap 4 5 Am To E X C E P T S U N D A Y P regulatory sign</dd>
 <dt>Legend</dt><dd>TOW-AWAY NO PARKING PAP 4 5 AM TO E X C E P T S U N D A Y P F H O R N E T O W 3 E 2 D 1 C - 2 A 0 R 2 S 0 2 HOUR PARKING 9 6PM AM TO E X C E P T S U N D A Y</dd>
-<dt>Keywords</dt><dd class="kw">r38(ca), tow-away no parking pap 4 5 am to e x c e p t s u n d a y p, tow-away no parking pap 4 5 am to e x c e p t s u n d a y p f h o r n e t o w 3 e 2 d 1 c, 2 a 0 r 2 s 0 2 hour parking 9 6pm am to e x c e p t s u n d a y, tow, away, parking, hour, regulatory sign, other, curb, loading</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r38">R38 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -29,12 +28,10 @@ tableOfContents: false
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
 
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
-
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b52">CA MUTCD 2026 &sect;2B.52</a> Parking, Standing, and Stopping Signs (R7 and R8 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
 
 <!-- rel-sign -->
-<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r38aca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r38aca.webp" alt="R38A(CA)"><span><b>R38A(CA)</b> Tow-Away No Stopping Sts Topping 7Am To9Am…</span></a></div></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/temporary-traffic-control/">Temporary traffic control</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/street-name-and-guide-signs/">Street name and guide signs</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/transit/">Transit, bus lanes and bus stops</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-lanesign">lane use control sign</a></dd></div></dl></section>
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r38aca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r38aca.webp" alt="R38A(CA)"><span><b>R38A(CA)</b> Tow-Away No Stopping Sts Topping 7Am To9Am…</span></a></div></dd></div></dl></section>
 <!-- /rel-sign -->

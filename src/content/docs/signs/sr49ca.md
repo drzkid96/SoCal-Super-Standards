@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Tow-Away No Parking When Snow Removal Conditions Exist Count regulatory sign</dd>
 <dt>Legend</dt><dd>TOW-AWAY NO PARKING WHEN SNOW REMOVAL CONDITIONS EXIST COUNTY ORD. NO. 00-000</dd>
-<dt>Keywords</dt><dd class="kw">sr49(ca), tow-away no parking when snow removal conditions exist count, tow-away no parking when snow removal conditions exist county ord. no. 00-000, tow, away, parking, when, snow, removal, conditions, exist, county, ord, regulatory sign, other, curb, loading</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sr49">SR49 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

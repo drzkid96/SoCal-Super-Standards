@@ -5,7 +5,9 @@ Writes: data/clean.json (id -> unit), adds "clean" fields to data/docs/*.json pa
 and rewrites the page text blocks in the generated document chapter pages.
 Idempotent: safe to run after every extract_doc run.
 """
-import glob, html, json, os, re
+import glob, html, json, os, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from apply_clean_util import clean_notes, notes_html
 
 BASE = "/SoCal-Super-Standards"
 esc = html.escape
@@ -19,15 +21,6 @@ P2 = {}
 for f in sorted(glob.glob("data/clean2/*.json")) + sorted(glob.glob("data/clean3/*.json")) + sorted(glob.glob("data/clean4/*.json")) + sorted(glob.glob("data/clean5/*.json")) + sorted(glob.glob("data/clean6/*.json")):
     for r in json.load(open(f)):
         P2[(r["id"].split("|")[0], int(r["page"]))] = r
-
-def notes_html(t):
-    out = []
-    for line in [x.strip() for x in (t or "").split("\n") if x.strip()]:
-        if len(line) < 70 and (line.isupper() or line.endswith(":")) and not re.match(r"^\d+\.", line):
-            out.append(f"<h5>{esc(line)}</h5>")
-        else:
-            out.append(f"<p>{esc(line)}</p>")
-    return "\n".join(out)
 
 SIGNS = set(json.load(open("public/data/signs-index.json"))) if os.path.exists("public/data/signs-index.json") else set()
 SIGN_RE = re.compile(r"(?<![A-Za-z0-9-])((?:[RWSDGMOE]|SW|SR|SG)\d{1,3}(?:-\d{1,3})?[A-Za-z]{0,2}(?:\(CA\))?)(?![A-Za-z0-9-])")
@@ -101,16 +94,15 @@ for f in sorted(glob.glob("data/docs/*__*.json")):
         b = len(s) if b < 0 else b
         blk = s[a:b]
         c = p["clean"]
-        new = (f'<div class="pclean"><p class="psum"><b>{esc(c["title"])}.</b> {esc(c["summary"])}</p>'
-               + (f'<details class="sdesc" open><summary>What this sheet shows</summary>{notes_html(c["description"])}</details>' if c.get("description") else "")
-               + (f'<details class="ocr" open><summary>Notes on this sheet (cleaned from the {"scan" if p.get("ocr") else "PDF text"})</summary>{notes_html(c["notes"])}</details>' if c["notes"] else "")
-               + "</div>\n"
-               + f'<div class="kw">Keywords: {esc(", ".join(c["keywords"]))}</div>\n')
-        blk2 = re.sub(r'<div class="pclean">.*?</div>\n<div class="kw">.*?</div>\n', lambda _: new, blk, flags=re.S)
-        if blk2 == blk:
-            blk2 = re.sub(r'(<details class="ocr">.*?</details>\n)?<div class="kw">.*?</div>\n', lambda _: new, blk, count=1, flags=re.S)
-        if c["notes"]:
-            blk2 = re.sub(r'<div class="dtext">.*?</div>\n', '', blk2, flags=re.S)
+        real_notes = clean_notes(c.get("notes", ""))
+        new = (f'<details class="ocr"><summary>Sheet notes</summary>{notes_html(real_notes)}</details>\n') if real_notes else ""
+        # Strip all prior generated pclean, sdesc, ocr, and kw blocks cleanly (prevents duplication)
+        blk2 = re.sub(r'<div class="pclean">.*?</div>\n?', '', blk, flags=re.S)
+        blk2 = re.sub(r'<details class="(?:sdesc|ocr)"[^>]*>.*?</details>\n?', '', blk2, flags=re.S)
+        blk2 = re.sub(r'<div class="kw">.*?</div>\n?', '', blk2, flags=re.S)
+        if real_notes:
+            blk2 = re.sub(r'<div class="dtext">.*?</div>\n?', '', blk2, flags=re.S)
+        blk2 = blk2.rstrip() + "\n" + new + "\n"
         # generic page heading -> cleaned title
         blk2 = re.sub(r"(### Page \d+)( - [^\n]*)?\n", lambda mm: f"{mm.group(1)} - {esc(c['title'])}\n", blk2, count=1)
         s = s[:a] + blk2 + s[b:]

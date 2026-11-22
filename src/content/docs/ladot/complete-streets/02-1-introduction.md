@@ -12,7 +12,7 @@ sidebar:
 ### Page 11 - 1. INTRODUCTION
 
 <div class="pmeta">Topics: bikeways, transit, accessibility</div>
-<div class="dtext"><p>Complete Streets Design Guide 1. INTRODUCTION</p>
+<div class="dtext"><p>Complete Streets Design Guide  1. INTRODUCTION</p>
 <h4>1. INTRODUCTION</h4>
 <h4>Goals of the Guide</h4>
 <p>Great Streets for Los Angeles: Complete Streets Design Guide lays out a vision for designing safe, accessible and vibrant streets in Los Angeles. As outlined in California’s Complete Streets Act of 2008 (AB 1358), the goal of Complete Streets is to ensure that the safety, accessibility, and convenience of all transportation users – pedestrians, bicyclists, transit riders, and motorists – is accommodated.</p>
@@ -20,7 +20,6 @@ sidebar:
 <p>Los Angeles’ streets serve a much larger purpose than just moving cars. They can provide lively gathering places that foster community building and neighborhood identity. Complete Streets encourage healthy recreational activities such as walking, running, and bicycling, and they can boost the economic activity and visibility of storefront businesses. When cars travel at slower, safer speeds, the number of collisions between motorists and active transportation users decreases. Moreover, fewer cars on the road means lower levels of air pollution. Overall, a city that is designed for Complete Streets prioritizes people over cars, and safety over speed.</p>
 <p>The Complete Streets Design Guide provides a compilation of design concepts and best practices that promote the major tenets of Complete Streets—safety and accessibility. The Guide is meant to supplement existing engineering practices and requirements in order to meet the goals of Complete Streets. Due to specific site and operational characteristics associated with any given street, any proposed street improvement project must still undergo a detailed technical analysis by the appropriate city departments. Specific design guidance that is in a demonstration phase and has yet to be incorporated into the California Manual on Uniform Traffic Control Devices (CA MUTCD)</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: streets, complete, design, guide, they, safety, cars, angeles, motorists, introduction, goals, california, accessibility, transportation</div>
 
 
 <span id="p12" class="anchor"></span>
@@ -37,7 +36,6 @@ sidebar:
 <h4>Applicability</h4>
 <p>The Complete Streets Design Guide is intended to serve a variety of users. For City departments that oversee the implementation of street improvement projects, the Guide serves as a guiding document that ensures all projects are designed with Complete Street principles in mind. Private developers can also use the Guide to tailor their projects to support Complete Street principles. Elected officials can consult the Guide when proposing public improvements in their jurisdictions, while communities and local groups can refer to the Guide when advocating for safety treatments in their neighborhoods.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: complete, streets, guide, design, street, city, plan, angeles, safety, treatments, projects, mobility, principles, departments</div>
 
 
 <span id="p13" class="anchor"></span>
@@ -45,7 +43,7 @@ sidebar:
 ### Page 13 - Design Immunity
 
 <div class="pmeta">Topics: crosswalks, bikeways, transit, signals, accessibility, intersections</div>
-<div class="dtext"><p>Complete Streets Design Guide 1. INTRODUCTION</p>
+<div class="dtext"><p>Complete Streets Design Guide  1. INTRODUCTION</p>
 <h4>Design Immunity</h4>
 <p>Because the design of Complete Streets may involve deviations from traditional engineering standards, it is important to embrace an environment where the many benefits of Complete Streets outweigh the complexities of conventional street design. Design immunity is a powerful defense available to local agencies to defend against tort lawsuits that allege dangerous conditions of public property (e.g., streets and highways). It involves specific statutory requirements set out in section 830.6 of the Government Code. While there is no guarantee in all cases that a judge will determine that a local agency is protected against liability by design immunity, local agencies will be well- positioned if their engineers properly document engineering judgments made in approving the design of projects prior to construction.</p>
 <h4>Guide Organization</h4>
@@ -57,7 +55,6 @@ sidebar:
 <p>Chapter 6. Intersections &amp; Crossings This chapter presents enhancements to infrastructure and signaliza­ tion at roadway intersections and mid-block pedestrian crossings.</p>
 <p>Chapter 7. Off-Street Non-Vehicular Treatments This chapter presents design guidance for several features that are located outside of a street right-of-way.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: chapter, design, street, complete, streets, immunity, local, presents, guide, introduction, engineering, environment, agencies, against</div>
 
 
 <span id="p14" class="anchor"></span>
@@ -84,7 +81,6 @@ sidebar:
 <h4>NACTO. National Association of City Transportation Officials</h4>
 <h4>UFD. Urban Forestry Division of the City of Los Angeles Bureau of Street Services</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: angeles, city, department, bureau, public, works, transportation, street, association, highway, officials, services, introduction, complete</div>
 
 
 <span id="p15" class="anchor"></span>
@@ -92,7 +88,7 @@ sidebar:
 ### Page 15 - Definitions
 
 <div class="pmeta">Topics: transit, parking-curb, intersections</div>
-<div class="dtext"><p>Complete Streets Design Guide 1. INTRODUCTION</p>
+<div class="dtext"><p>Complete Streets Design Guide  1. INTRODUCTION</p>
 <h4>Definitions</h4>
 <p>City departments and bureaus often have different definitions of elements within the street right-of-way. The following are definitions used in the Co Complete Streets Design Guide. If applicable, where they differ from the definition used by the Bureau of Engineering in its 1970 Street Design Manual, the difference is noted. Terminology in this document generally conforms to that found in U.S. Department of Transportation Federal Highway Administration publications in an attempt to standardize City of Los Angeles terminology and synchronize it with that of other municipalities in the United States.</p>
 <p>Above Ground Infrastructure (AGI). Any utility structure or other appurtenance that is installed above the surrounding grade in the public right-of-way</p>
@@ -104,7 +100,6 @@ sidebar:
 <p>Curb extension. A curb extension extends the curb line and Sidewalk Area out into the roadway, reducing the effective roadway width while increasing the Sidewalk Area for pedestrians. Curb extensions can be in the form of a corner bulbout, neckdown, chicane, or bus bulb.</p>
 <p>Curb radius. A geometrical measurement of the sharpness of the curb angle at intersections. Also referred to by LADOT and BOE as curb return.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: curb, street, area, right-of-way, sidewalk, design, guide, definitions, period, zone, referred, complete, streets, city</div>
 
 
 <span id="p16" class="anchor"></span>
@@ -126,7 +121,6 @@ sidebar:
 <p>Parking Lane. A curbside lane on the roadway utilized primarily for the parking of vehicles.</p>
 <p>Parkway. The commonly-used term for a landscaped portion of the Sidewalk Area (Border) between the face of curb and the pedestrian walkway.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: streets, traffic, zone, lane, area, design, parking, curb, roadway, sidewalk, portion, functional, travel, stormwater</div>
 
 
 <span id="p17" class="anchor"></span>
@@ -134,7 +128,7 @@ sidebar:
 ### Page 17
 
 <div class="pmeta">Topics: parking-curb, striping, intersections</div>
-<div class="dtext"><p>Complete Streets Design Guide 1. INTRODUCTION</p>
+<div class="dtext"><p>Complete Streets Design Guide  1. INTRODUCTION</p>
 <p>Pedestrian Zone. Also known as the Pedestrian Access Route (PAR), the Pedestrian Zone is a continuous and unobstructed path of travel provided along the Sidewalk Area. The pedestrian zone is intended to be a seamless pathway for wheelchair and white cane users, composed of a firm, stable, and slip-resistant surface (typically concrete). It should be at least 5 feet wide to provide adequate space for two pedestrians to comfortably pass or walk side by side. BOE refers to the paved pedestrian path as the “sidewalk”.</p>
 <p>Raised Landscaped Median. A raised longitudinal space separating the two main directions of traffic, generally with 6-inch curbs and an unpaved, planted surface.</p>
 <p>Right-of-Way (ROW). The entire area between property lines as shown on Navigate LA. Not as defined by BOE (“A general term denoting land, property or interest therein, usually in a strip acquired for or devoted to Public Works projects”)</p>
@@ -148,7 +142,6 @@ sidebar:
 <p>Vehicle Miles Traveled (VMT). A measurement of miles traveled by vehicles in a specified region for a specified time period.</p>
 <p>Walkway. In this guide, this is referred to as the “Pedestrian Zone” or “Pedestrian Access Route”.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrian, guide, zone, area, roadway, travel, sidewalk, portion, lanes, streets, median, right-of-way, property, term</div>
 
 
 <span id="p18" class="anchor"></span>
@@ -175,42 +168,31 @@ sidebar:
 <h4>Right-of-Way Zones and Sample Uses</h4>
 <p>The public right-of-way is composed of two primary areas: the Roadway, which is used mainly by motor vehicles, public transit, and bicycles; and the Sidewalk Area, which represents the pedestrian realm. The Sidewalk Area is typically partitioned into three zones: Frontage Zone, Pedestrian Zone, and Amenity Zone. In addition, the Flex Zone represents a part of the right-of- way that can include Complete Streets enhancements for either roadway or pedestrian uses; vehicle uses take place at the roadway level, while pedestrian uses typically take place at sidewalk-level curb extensions. Each zone has its own distinct function in a Complete Street. Their boundaries are not always fixed, and many features can be located in more than one zone. Not all zones may be present; most low-density residential districts do not have a frontage zone because the property line abuts the walkway (Pedestrian Zone). The diagram below illustrates sample uses within each zone.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: zone, pedestrian, public, paving, lane, roadway, uses, area, concrete, asphalt, parking, zones, complete, frontage</div>
 
 
 <span id="p19" class="anchor"></span>
 
 ### Page 19 - Pedestrian Zones Diagram
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0019.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0019.webp" alt="Complete Streets DG page 19 "></a><figcaption>Complete Streets DG, page 19 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Pedestrian Zones Diagram.</b> Photo diagram of a Los Angeles sidewalk divided by dotted lines into the Frontage Zone next to buildings, the Pedestrian Zone in the middle and the Amenity Zone next to the curb. It is page 11 of the Introduction chapter.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Pedestrian Zones Diagram: A page headed Complete Streets Design Guide (top left, purple rule beneath) and 1. INTRODUCTION (top right). The page has no body text. A single wide color photograph of a commercial sidewalk spans the middle: on the left a green brick storefront with glass door, a red folding chair and a bicycle against a planter, in the center a sidewalk with pedestrians walking away from the viewer, and on the right a sidewalk cafe with a chalkboard sign, a person seated in a chair and a wooden planter box with tall plants. Below the photo are three labels, each separated by a vertical dotted gray line and a diagonal dotted white line cutting across the photo: Frontage Zone (left, next to the building), Pedestrian Zone (center), and Amenity Zone (right, next to the curb). At the bottom center is a link, Back to Table of Contents. Page number 11 at the lower right.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Zone labels from building to curb: Frontage Zone, Pedestrian Zone, Amenity Zone. 2. Navigation link: Back to Table of Contents. 3. Running header: Complete Streets Design Guide, 1. Introduction. Page 11.</p></details></div>
-<div class="pclean"><p class="psum"><b>Pedestrian Zones Diagram.</b> Photo diagram of a Los Angeles sidewalk divided by dotted lines into the Frontage Zone next to buildings, the Pedestrian Zone in the middle and the Amenity Zone next to the curb. It is page 11 of the Introduction chapter.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Pedestrian Zones Diagram: A page headed Complete Streets Design Guide (top left, purple rule beneath) and 1. INTRODUCTION (top right). The page has no body text. A single wide color photograph of a commercial sidewalk spans the middle: on the left a green brick storefront with glass door, a red folding chair and a bicycle against a planter, in the center a sidewalk with pedestrians walking away from the viewer, and on the right a sidewalk cafe with a chalkboard sign, a person seated in a chair and a wooden planter box with tall plants. Below the photo are three labels, each separated by a vertical dotted gray line and a diagonal dotted white line cutting across the photo: Frontage Zone (left, next to the building), Pedestrian Zone (center), and Amenity Zone (right, next to the curb). At the bottom center is a link, Back to Table of Contents. Page number 11 at the lower right.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Zone labels from building to curb: Frontage Zone, Pedestrian Zone, Amenity Zone. 2. Navigation link: Back to Table of Contents. 3. Running header: Complete Streets Design Guide, 1. Introduction. Page 11.</p></details></div>
-<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, pedestrian zone, frontage zone, amenity zone, sidewalk zones, sidewalk diagram, pedestrian realm</div>
-
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0019.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0019.webp" alt="Complete Streets DG page 19 "></a><figcaption>Complete Streets DG, page 19.</figcaption></figure>
+<details class="ocr"><summary>Sheet notes</summary><p>1. Zone labels from building to curb: Frontage Zone, Pedestrian Zone, Amenity Zone. 2. Navigation link: Back to Table of Contents. 3. Running header: Complete Streets Design Guide, 1. Introduction. Page 11.</p></details>
 
 <span id="p20" class="anchor"></span>
 
 ### Page 20
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0020.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0020.webp" alt="Complete Streets DG page 20 "></a><figcaption>Complete Streets DG, page 20. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0020.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0020.webp" alt="Complete Streets DG page 20 "></a><figcaption>Complete Streets DG, page 20.</figcaption></figure>
 
 
 <span id="p21" class="anchor"></span>
 
 ### Page 21 - Complete Streets Design Guide: Street Classifications (Section Divider)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" alt="Complete Streets DG page 21 "></a><figcaption>Complete Streets DG, page 21 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Street Classifications (Section Divider).</b> Chapter 2 divider of the LADOT Complete Streets Design Guide. It shows a large numeral 2, the title Street Classifications, and three tinted street photos.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Section divider page for Chapter 2. A light gray page with a very large gray numeral 2 at the left. At the center top, small teal letter-spaced text reads COMPLETE STREETS DESIGN GUIDE, with STREET CLASSIFICATIONS below in large bold gray capitals on two lines. A row of three tall photo strips runs along the bottom, tinted purple, yellow and teal: a palm-lined boulevard with cars, a tall pointed-roof tower building at a street, and a road with utility poles and wires. No other text.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Section divider text: Complete Streets Design Guide, Street Classifications (Chapter 2).</p></details></div>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Street Classifications (Section Divider).</b> Chapter 2 divider of the LADOT Complete Streets Design Guide. It shows a large numeral 2, the title Street Classifications, and three tinted street photos.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Section divider page for Chapter 2. A light gray page with a very large gray numeral 2 at the left. At the center top, small teal letter-spaced text reads COMPLETE STREETS DESIGN GUIDE, with STREET CLASSIFICATIONS below in large bold gray capitals on two lines. A row of three tall photo strips runs along the bottom, tinted purple, yellow and teal: a palm-lined boulevard with cars, a tall pointed-roof tower building at a street, and a road with utility poles and wires. No other text.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>1. Section divider text: Complete Streets Design Guide, Street Classifications (Chapter 2).</p></details></div>
-<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, street classifications, section divider, street types</div>
-
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" alt="Complete Streets DG page 21 "></a><figcaption>Complete Streets DG, page 21.</figcaption></figure>
+<details class="ocr"><summary>Sheet notes</summary><p>1. Section divider text: Complete Streets Design Guide, Street Classifications (Chapter 2).</p></details>
 
 <span id="p22" class="anchor"></span>
 
 ### Page 22
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0022.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0022.webp" alt="Complete Streets DG page 22 "></a><figcaption>Complete Streets DG, page 22. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0022.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0022.webp" alt="Complete Streets DG page 22 "></a><figcaption>Complete Streets DG, page 22.</figcaption></figure>

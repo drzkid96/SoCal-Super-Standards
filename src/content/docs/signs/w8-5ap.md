@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Ice plaque</dd>
 <dt>Legend</dt><dd>ICE (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">w8-5ap, ice (plaque), warning sign, roadway and weather conditions, black, yellow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w8">W8 &middot; Roadway and weather conditions</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE) A B C D E F G H J 24 12 0.375 0.625 3 6 E 6.602 6.601 1.5 30 18 0.375 0.625 5 8 E 8.802 8.802 1.5</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>See the FHWA layout sheet for dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

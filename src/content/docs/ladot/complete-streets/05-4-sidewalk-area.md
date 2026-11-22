@@ -13,13 +13,12 @@ sidebar:
 
 <div class="pmeta">Topics: accessibility</div>
 <div class="dtext"><p>57</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4. SIDEWALK AREA</h4>
 <h4>Introduction</h4>
 <p>The Sidewalk Area represents the pedestrian realm located between the curb and the property line. While its primary function is to provide a safe and accessible means of travel for pedestrians travelling along the street, the sidewalk area can also be a vibrant place where people can enjoy the urban environment. This chapter introduces a variety of structural, natural and functional components that may be applied based on contextual factors including adjacent land uses, pedestrian volumes, and sidewalk area dimensions. Used individually or in coordination with other interventions in this guide, these components enhance safety, security, accessibility, and the overall urban experience for all users.</p>
 <p>The Sidewalk Area can be partitioned into four zones: Frontage Zone, Pedestrian Zone, Amenity Zone, and Flex Zone. Each zone (defined and illustrated in chapter 1) has its own distinct function in a Complete Street. Their boundaries are not always fixed, and many features can be located in more than one zone.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: sidewalk, area, zone, pedestrian, complete, guide, located, function, street, urban, chapter, components, streets, design</div>
 
 
 <span id="p66" class="anchor"></span>
@@ -46,7 +45,6 @@ sidebar:
 <p>Building entries can be enhanced by revsourceful and imaginative utilization of the frontage zone. Treat­ ments include lighting, awnings, pavement decoration, and landscape planters.</p>
 <p>Marquees and entrance canopies mark important entries and can contribute to a vibrant, enjoyable street environment. Landscape planters and awnings can distinguish a building entry.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: entry, zone, building, planters, entrance, sidewalk, area, design, pedestrian, walkway, awnings, frontage, light, environment</div>
 
 
 <span id="p67" class="anchor"></span>
@@ -54,7 +52,7 @@ sidebar:
 ### Page 67 - Resources
 
 <div class="dtext"><p>59</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Resources</h4>
 <p>BOE/BSS R-Permit procedure BOE Entrance Canopy Permit procedure</p>
 <p>•• In many older sidewalk-oriented commercial districts in Los Angeles, building owners gave prominence to their entranceways by utilizing decorative paving, marquees, and/or metal awnings. These provide visual and spatial interest in the pedestrian realm, and they should be preserved when possible</p>
@@ -64,7 +62,6 @@ sidebar:
 <p>Metal roll-up security doors should generally not be used, because they detract from the street experience and conceal storefronts and entries.</p>
 <p>Compared to solid metal roll-up doors, grated security gates provide a more interesting street environment and a more pleasant pedestrian experience, while still ensuring security.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: doors, metal, roll-up, security, design, r-permit, they, street, procedure, entrance, canopy, permit, angeles, building</div>
 
 
 <span id="p68" class="anchor"></span>
@@ -85,7 +82,6 @@ sidebar:
 <h4>Design Guidance</h4>
 <p>•• The utilization of the sidewalk area for signage and/or merchandising is possible only when the sidewalk area has sufficient width to ensure the required accessible pedestrian access route (PAR). When determining placement of signage and merchandise displays, owners and permitting agencies must take into account the active space around the fixtures likely to be used by shoppers.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: sidewalk, signage, area, merchandising, businesses, merchandise, displays, public, design, pedestrian-oriented, retail, placed, realm, complete</div>
 
 
 <span id="p69" class="anchor"></span>
@@ -94,7 +90,7 @@ sidebar:
 
 <div class="pmeta">Topics: parking-curb, signs</div>
 <div class="dtext"><p>61</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Other Discussion</h4>
 <p>In Los Angeles, a business owner is granted conditional use of the public right-of-way by obtaining a Revocable Permit (R-Permit) issued by the Department of Public Work’s Bureau of Engineering (BOE) with approval from the Bureau of Street Services (BSS). The R-Permit review process ensures that encroachments are checked for compliance with the City’s specifications for design and use.</p>
 <p>Other sidewalk merchandising includes newsracks and newsstands, although both are becoming less utilized in today’s urban environment. BOE grants newsrack permits after BSS has approved their placement per guidelines in the municipal code. Newsstand permits are granted in a similar manner. Both newsracks and newsstands should be located near areas of high pedestrian activity. Newsracks should be consolidated in groups of two or more; a multi-unit newsrack is preferred to individual racks placed side-to-side. As trends continue to shift toward non-print media, there is a decline in the utilization of newsracks and newsstands. Unused and/or unmaintained newsracks can be a visual blight; the removal of under-utilized newsracks should be encouraged.</p>
@@ -107,7 +103,6 @@ sidebar:
 <p>The placement of portable signage should not encroach on the pedestrian zone. Sandwich boards should be located fully within either the frontage or amenity zones.</p>
 <p>Multiple newspaper racks consolidated into a single location can be artfully screened from the street, making an attractive contribution to the sidewalk environment.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: newsracks, sidewalk, environment, portable, signage, design, r-permit, newsstands, newsrack, located, pedestrian, racks, area, business</div>
 
 
 <span id="p70" class="anchor"></span>
@@ -128,7 +123,6 @@ sidebar:
 <p>•• Generally, roadway-oriented signage is sited according to existing standards (e.g., distances from intersections/crossings, distances between signs, etc.). The placement of pedestrian-oriented signs, however, is largely dependent on specific contexts. As for all other physical features in the sidewalk area, these signs should comply with required clearances from other street elements and comply with ADA accessibility requirements.</p>
 <p>•• Pedestrian-oriented signage is most appropriate in areas with high pedestrian volumes including commercial districts, tourist-oriented locations, historic districts, and cultural districts. Wayfinding programs can be used to provide signage to enhance pedestrian mobility throughout the city; they can deliver directional information to guide pedestrians to special destinations such as parks, historic buildings, cultural amenities, bus stops and Metro stations. Signs can be used to convey spatial information through the use of maps and written directions.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: signs, signage, information, districts, pedestrian, placement, wayfinding, convey, directional, sidewalk, area, streets, design, guide</div>
 
 
 <span id="p71" class="anchor"></span>
@@ -137,7 +131,7 @@ sidebar:
 
 <div class="pmeta">Topics: transit, parking-curb, signs</div>
 <div class="dtext"><p>63</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Considerations</h4>
 <p>•• A major challenge is to avoid adding to the visual clutter that often exists along the roadways and sidewalks in Los Angeles. Too many signs clustered together can make them indecipherable and ineffective.</p>
 <h4>Guidance</h4>
@@ -152,7 +146,6 @@ sidebar:
 <p>•• Parking sign designs that utilize graphics and numbers (in lieu of an abundance of text) should be considered for use in the City. These designs communicate parking hours and restrictions in a clear manner for all road users including non-English speakers.</p>
 <p>Pavement plaques can be an enjoyable alternative to above- ground wayfinding signage.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: signs, sign, poles, transit, parking, visual, clutter, many, agencies, clear, stops, flag, number, they</div>
 
 
 <span id="p72" class="anchor"></span>
@@ -174,7 +167,6 @@ sidebar:
 <h4>References</h4>
 <p>Traffic and directional signage: CA MUTCD Los Angeles Municipal Code Sign Regulations‑</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: signage, design, wayfinding, kiosks, information, mutcd, distinct, neighborhood, district, areas, provide, they, transit, traffic</div>
 
 
 <span id="p73" class="anchor"></span>
@@ -183,7 +175,7 @@ sidebar:
 
 <div class="pmeta">Topics: transit, parking-curb</div>
 <div class="dtext"><p>65</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.4 Public Seating</h4>
 <p>Public seating contributes to an active pedestrian environment by enhancing the role of the sidewalk as an enjoyable public space. Seating serves short-term needs to rest or wait, and it also fosters socialization and enjoyment of the urban environment. Examples of public seating include fixed benches, sitting rounds, seats built into other amenities like landscape planters, and even movable chairs and tables.</p>
 <h4>Benefits</h4>
@@ -201,7 +193,6 @@ sidebar:
 <p>•• Benches to accommodate transit users should be provided at all transit stops.</p>
 <p>•• Seating in outdoor dining areas is discussed in “Outdoor Dining”, section 4.5 below.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: seating, public, sidewalk, environment, areas, streets, pedestrian, benches, curb, located, zone, area, contributes, active</div>
 
 
 <span id="p74" class="anchor"></span>
@@ -209,7 +200,7 @@ sidebar:
 ### Page 74 - Considerations and Guidance
 
 <div class="pmeta">Topics: transit, parking-curb, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0074.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0074.webp" alt="Complete Streets DG page 74 Considerations and Guidance"></a><figcaption>Complete Streets DG, page 74. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0074.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0074.webp" alt="Complete Streets DG page 74 Considerations and Guidance"></a><figcaption>Complete Streets DG, page 74.</figcaption></figure>
 <div class="dtext"><p>66</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• The placement of seating fixtures must be balanced with other sidewalk elements and functions. Seating should be integrated with the placement of other street furniture (e.g., pedestrian lighting and trash receptacles).</p>
@@ -224,7 +215,6 @@ sidebar:
 <p>•• Public-private partnerships between City agencies (mainly the Bureau of Street Services) and business or neighborhood groups are a powerful tool for installing and maintaining abundant and varied seating opportunities throughout the City’s diverse districts and neighborhoods. Other creative financing opportunities include bench sponsorship programs and incentives to business owners for the installation and maintenance of public amenities outside their businesses. These methods can support broader streetscape improvements incorporating other streetscape elements such as trees, landscaping, wayfinding signage, and lighting.</p>
 <p>Wide sidewalks provide abundant space for public seating that encourages social interaction. Trees placed adjacent to seating provide shade and contribute to a comfortable, attractive pedestrian environment</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: seating, sidewalk, street, pedestrian, placement, fixtures, streetscape, buildings, public, business, space, curb, zones, zone</div>
 
 
 <span id="p75" class="anchor"></span>
@@ -233,7 +223,7 @@ sidebar:
 
 <div class="pmeta">Topics: transit</div>
 <div class="dtext"><p>67</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>•• Curbside seating should be avoided where there is a curbside vehicular travel lane, although it is acceptable at transit stops (see further discussion in “Transit Stops”, below). The lack of an adequate buffer between seating and traffic results in lower safety and comfort.</p>
 <p>•• Informal seating opportunities may be used as an alternative to free-standing benches. These include low walls, sitting rounds, seating built into planter walls, or leaning bars.</p>
 <p>•• On streets with ground-floor commercial uses and medium to high pedestrian volumes, seating for 3 (e.g. one 6-foot-long bench) should be provided at least every 200 feet.</p>
@@ -243,7 +233,6 @@ sidebar:
 <p>This fanciful seating is part of a streetscape project completed through the City’s Great Streets Initiative.</p>
 <p>There are many innovative alternatives to traditional bench seating, including seating at the edge of landscape planters.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: seating, street, streets, design, sidewalk, area, curbside, transit, stops, further, discussion, walls, bench, feet</div>
 
 
 <span id="p76" class="anchor"></span>
@@ -263,7 +252,6 @@ sidebar:
 <h4>4.5 Outdoor Dining</h4>
 <p>Sidewalk dining facilities encourage social use of the public realm, helping to foster a vibrant urban envi­ ronment. Common features include tables, chairs, sheltering elements (e.g., awnings and umbrellas), and enclosing elements (e.g., planters and fencing). Dining uses in the public right-of-way exist in a variety of forms and intensities; for example, sidewalk dining can be as simple as a pair of small tables placed in front of a local cafe, or it can be as substantial as a semi-enclosed dining patio.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: dining, sidewalk, facilities, provides, patrons, urban, environment, additional, space, frontage, below, outdoor, public, tables</div>
 
 
 <span id="p77" class="anchor"></span>
@@ -272,7 +260,7 @@ sidebar:
 
 <div class="pmeta">Topics: parking-curb, accessibility, intersections</div>
 <div class="dtext"><p>69</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Considerations</h4>
 <p>•• Care must be given to the design and layout of sidewalk dining facilities to ensure that sidewalk functionality is maintained. The minimum (or desired) Pedestrian Access Route (PAR) should remain clear, and ADA requirements must be met. When considering the effects of non-enclosed dining facilities on pedestrian mobility, business owners and city staff should account for space used for wait staff and for additional items like strollers and shopping bags.</p>
 <p>•• Tables and chairs in the amenity and flex zones should maintain access to parked vehicles, and they should not be located on sidewalks adjacent to handicap- accessible parking, commercial loading, and passenger loading lanes. Placement of tables and chairs on the sidewalk must not interfere with curb ramps, access to building entries, intersection/driveway/alley visibility, fire escapes, and access to above-ground infrastructure. Minimum clear widths between dining furniture and the above street elements are identical to those for seating and other physical sidewalk elements.</p>
@@ -284,14 +272,13 @@ sidebar:
 <p>•• Dining furniture – including tables, umbrellas, chairs, and enclosing elements – can be either freestanding or fixed. In most settings, furniture should be freestanding so it is removable at the end of business hours, yet care must be taken in its placement to ensure a clear walkway. Dining furniture should be fabricated of durable materials that are compatible with the surrounding visual character and that are resistant to sun and water damage. Furniture must be stable and have sufficient weight to avoid being tipped over by wind.</p>
 <p>•• For dining areas in the amenity and flex zones, sufficient buffering elements (e.g., parked vehicles or landscape planters) must be present to protect patrons from passing vehicles. Generally, dining areas should not be located in the amenity or flex zones on streets with design speeds over 30mph.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: dining, sidewalk, access, design, area, furniture, clear, space, amenity, flex, zones, elements, public, facilities</div>
 
 
 <span id="p78" class="anchor"></span>
 
 ### Page 78 - Other Discussion
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0078.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0078.webp" alt="Complete Streets DG page 78 Other Discussion"></a><figcaption>Complete Streets DG, page 78. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0078.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0078.webp" alt="Complete Streets DG page 78 Other Discussion"></a><figcaption>Complete Streets DG, page 78.</figcaption></figure>
 <div class="dtext"><p>70</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <h4>Other Discussion</h4>
@@ -299,7 +286,6 @@ sidebar:
 <h4>Resources</h4>
 <p>BOE R-Permit procedure</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: r-permit, process, design, bureau, city, sidewalk, area, complete, streets, guide, discussion, currently, business, owner</div>
 
 
 <span id="p79" class="anchor"></span>
@@ -308,7 +294,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, parking-curb</div>
 <div class="dtext"><p>71</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.6 Public Art</h4>
 <p>Public art takes many forms with a wide array of functions and benefits. For example, art can reward pass­ ersby with a moment of visual delight, provide interactive/participatory opportunities for learning and play, act as a focal point, and/or provide a functional use (e.g., wayfinding, seating or bicycle parking). On a larger scale, public art can be a placemaking element that reinforces a community’s identity and culture.</p>
 <h4>Benefits</h4>
@@ -323,7 +309,6 @@ sidebar:
 <p>•• Public art can also be interactive, encouraging play and recreation. The best art provides these benefits for people of all ages.</p>
 <p>Utility boxes provide abundant opportunities to enliven the street environment.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: public, sidewalk, area, provide, benefits, opportunities, streets, design, visual, delight, interactive, play, focal, point</div>
 
 
 <span id="p80" class="anchor"></span>
@@ -347,7 +332,6 @@ sidebar:
 <h4>Other Discussion</h4>
 <p>Public art affords a rich opportunity for public-private partnerships to improve the built environment through collaboration and coordination. A successful public arts program involves a robust public-private partnership including City agencies, business owners, cultural organizations and neighborhood groups.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: public, murals, arts, angeles, cultural, program, private, municipal, code, section, department, city, sidewalk, affairs</div>
 
 
 <span id="p81" class="anchor"></span>
@@ -356,7 +340,7 @@ sidebar:
 
 <div class="pmeta">Topics: speed-calming</div>
 <div class="dtext"><p>73</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.7 Street Trees and Landscaping</h4>
 <p>Street trees and landscaping are essential for an attractive, enjoyable and sustainable urban environment. They provide numerous aesthetic, environmental, health, and even psychological benefits.</p>
 <h4>Benefits</h4>
@@ -373,14 +357,13 @@ sidebar:
 <p>Nontraditional landscaping in the parkway might provide accessibility issues to parked cars, and should be approved by the Bureau of Street Services’ Urban Forestry Department.</p>
 <p>Street trees provide shade and shelter for pedestrians and make the street more visually attractive</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: street, trees, landscaping, provide, property, area, public, parkway, streets, sidewalk, attractive, urban, they, benefits</div>
 
 
 <span id="p82" class="anchor"></span>
 
 ### Page 82 - Considerations
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0082.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0082.webp" alt="Complete Streets DG page 82 Considerations"></a><figcaption>Complete Streets DG, page 82. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0082.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0082.webp" alt="Complete Streets DG page 82 Considerations"></a><figcaption>Complete Streets DG, page 82.</figcaption></figure>
 <div class="dtext"><p>74</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• Landscaping and trees can also be planted in the frontage zone where there is sufficient width; trees should only be placed in the frontage zone when they are spaced appropriately far enough away from buildings. (In residential settings, there is typically no frontage zone between the pedestrian walkway and the property line; the property line abuts the sidewalk.) In addition, trees and landscaping should be an integral part of sidewalk curb extensions in the flex zone.</p>
@@ -391,7 +374,6 @@ sidebar:
 <p>•• Generally, adjacent property owners and/or community/business groups are responsible to care for plantings in the amenity zone. Landscaping and trees are also planted in center medians within the roadway; generally, the city is responsible for planting and maintaining a landscape median.</p>
 <p>Appropriate plantings (such as climbing vines) can turn an unsightly fence into a “green wall” that separates pedestrians from unsightly land uses and adds comfort to the pedestrian environment.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: trees, zone, sidewalk, landscaping, frontage, property, water, tree, area, planted, they, pedestrian, line, addition</div>
 
 
 <span id="p83" class="anchor"></span>
@@ -400,7 +382,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, accessibility</div>
 <div class="dtext"><p>75</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Plant Selection and Placement</h4>
 <p>•• Selecting plants and trees that are adapted to a site’s climate and local rain cycles can create a more- sustainable urban forest. Landscaping and trees in Los Angeles need to survive with minimal irrigation upon establishment. Selected plants should tolerate urban environmental elements, such as radiant heat from the sidewalk or street surface.</p>
 <p>•• Planting in the amenity zone (in parkway strips or planter beds) should use species that:</p>
@@ -425,7 +407,6 @@ sidebar:
 <p>connecting the convenience strip to the primary</p>
 <p>pedestrian walkway.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: trees, planter, tree, sidewalk, plants, urban, elements, street, strips, feet, curb, strip, selection, planting</div>
 
 
 <span id="p84" class="anchor"></span>
@@ -433,7 +414,7 @@ sidebar:
 ### Page 84
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0084.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0084.webp" alt="Complete Streets DG page 84 "></a><figcaption>Complete Streets DG, page 84. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0084.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0084.webp" alt="Complete Streets DG page 84 "></a><figcaption>Complete Streets DG, page 84.</figcaption></figure>
 <div class="dtext"><p>76</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• In commercial areas where the visibility of façade- mounted signs is a concern, choose species whose mature canopy allows for visibility.</p>
@@ -447,7 +428,6 @@ sidebar:
 <p>•• Typically, trees on commercial streets will not achieve the same scale as they will on residential streets where greater effective root zone volumes may be achieved. On commercial streets with existing multi- story buildings and narrow sidewalks, select trees with a narrower canopy than can be accommodated on the limited sidewalk width.</p>
 <p>Ample space should be allotted between street trees and commercial signs so that the trees do not impede the visibility of the signs</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: trees, tree, canopy, streets, commercial, species, street, areas, visibility, signs, feet, narrower, sidewalk, mature</div>
 
 
 <span id="p85" class="anchor"></span>
@@ -455,11 +435,8 @@ sidebar:
 ### Page 85 - Sidewalk Area: Street Tree Guidance and References
 
 <div class="pmeta">Drawings: <strong>S-450</strong>, <strong>S-456</strong> &middot; Topics: parking-curb, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp" alt="Complete Streets DG page 85 References (S-450, S-456)"></a><figcaption>Complete Streets DG, page 85. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Sidewalk Area: Street Tree Guidance and References.</b> Page 77 of the LADOT Complete Streets Design Guide, in Section 4 Sidewalk Area. It gives street tree guidance on mature height, spacing from street lights, pedestrian lights and utility poles, planting size, trunk diameter, height and clearance to building elements. It lists references including UFD guidelines and BOE Standard Plans S-456-1 and S-450 and the Bureau of Street Services tree permits.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Text page: Printed page 77 of the Complete Streets Design Guide, section header 4. SIDEWALK AREA. The page has two columns of text. The left column is a bulleted list of street tree guidance. The right column is a References list placed above a photograph.</p>
-<p>Photograph 1 (right column): A sidewalk with a mature street tree whose canopy covers the walkway, with pedestrians, seated people and parked cars beside it. No caption.</p>
-<p>Photographs 2 and 3 (lower half, side by side across the page): A row of young street trees planted in a landscaped parkway strip between the curb and the sidewalk. The left photo shows a blue street light pole, a parked car and a yellow fire hydrant beside the curb. The right photo shows the same tree row along a sidewalk with a pedestrian and a red painted curb. No captions.</p>
-<p>The page ends with a Back to Table of Contents link and the page number 77.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>Guidance bullets (left column):</h5>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp" alt="Complete Streets DG page 85 References (S-450, S-456)"></a><figcaption>Complete Streets DG, page 85.</figcaption></figure>
+<details class="ocr"><summary>Sheet notes</summary><h5>Guidance bullets (left column):</h5>
 <p>1. Mature height: no limits or maximums, but should be appropriate and complement roadway scale, use and land uses.</p>
 <p>2. Spacing from other elements: Trees with a mature canopy diameter of 30 feet or less may be 20 feet from street lights. Trees may be 10 feet from pedestrian lights if their canopies are pruned up 2 feet above the lights. Trees may be 10 feet from utility poles if canopies are pruned to allow access on the poles. In certain locations, smaller clearances may provide greater flexibility in tree spacing and allow for a more complete tree canopy. These clearances may be used with Urban Forestry Department (UFD) approval.</p>
 <p>3. Tree size at planting: Arterials, 36-inch box recommended (not currently standard). Non-arterials, 24-inch box.</p>
@@ -471,9 +448,7 @@ sidebar:
 <p>- UFD Street Tree Selection Guide</p>
 <p>- Bureau of Engineering (BOE) Standard Plan S-456-1: Tree well, root barrier and planting</p>
 <p>- BOE Standard Plan S-450</p>
-<p>- Current permitting through Bureau of Street Services: Tree Root Prune Permits, Tree Prune Permits, Tree Removal Permits, Tree Planting Permits</p></details></div>
-<div class="kw">Keywords: street trees, tree spacing, tree planting, street light clearance, utility pole clearance, tree well, root barrier, urban forestry, S-450, S-456-1, tree box size, arterial trees, canopy pruning, sidewalk trees</div>
-
+<p>- Current permitting through Bureau of Street Services: Tree Root Prune Permits, Tree Prune Permits, Tree Removal Permits, Tree Planting Permits</p></details>
 
 <span id="p86" class="anchor"></span>
 
@@ -496,7 +471,6 @@ sidebar:
 <h4>4.8 Stormwater Treatment and Management</h4>
 <p>While conventional stormwater controls in the public right-of-way aim to move water off-site and into storm drains as quickly as possible, sustainable methods for stormwater treatment and management pro­ vide on-site retention, filtration, and infiltration to reduce urban runoff and naturally reduce contaminants. These methods and their associated physical systems are commonly known as Best Management Practices (BMPs). In the public right-of-way, the primary goal of BMPs is to capture, filter and treat stormwater runoff from the roadway, driveways, and sidewalk area.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: infiltration, stormwater, runoff, through, water, management, facility, natural, storm, urban, public, bmps, methods, sidewalk</div>
 
 
 <span id="p87" class="anchor"></span>
@@ -505,7 +479,7 @@ sidebar:
 
 <div class="pmeta">Topics: parking-curb, intersections</div>
 <div class="dtext"><p>79</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>and biological decomposition properties of soils, plant roots, and micro organisms. Because it is often impractical to infiltrate runoff at the same rate that it is generated, most infiltration facilities have a functional component that allows for temporary storage. In addition, infiltration BMPs recharge groundwater reserves and improve the quality of groundwater. Infiltration BMPs are most practical in areas where there is sufficient open space and where soil, hydrological, and geotechnical characteristics are favorable for infiltration.</p>
 <p>♦♦BMPs which allow for partial infiltration include many of the same facilities used for infiltration. Unlike infiltration BMPs, partial infiltration BMPs have a structural drainage component which conveys overflow to the conventional stormwater system or to a natural detention facility such as a detention basin. These facilities reduce runoff and recharge groundwater at rates that are lower than facilities that allow for full infiltration. Partial infiltration BMPs are typically located in areas with limited infiltration capacity due to soil and/or site characteristics.</p>
 <p>♦♦Flow-through facilities are structural methods that do not allow for infiltration into surrounding subsoils; infiltration is limited to the soil capacity within the facility itself. Stormwater flows through the facility and is treated before being conveyed to a discharge point. Like most BMPs, these structural facilities typically allow for temporary storage, so they also help to regularize runoff flow rates. Flow-through BMPs include self-contained planters that are impermeable to surrounding soils and utilize drain pipes to discharge treated water back into the storm drain system. Flow-through facilities are most commonly employed in areas where site conditions do not support infiltration, or in dense urban areas where soil saturation could undermine building foundations and/or street infrastructure.</p>
@@ -514,7 +488,6 @@ sidebar:
 <p>•• Opportunities for the installation of BMPs are greatest when they can be integrated into development projects, street infrastructure projects, and/or streetscape projects. When part of a multifaceted project, planning and installation costs for BMPs are reduced.</p>
 <p>•• Because LA’s existing sidewalks are often too narrow to accommodate BMPs, curb extensions are an invaluable tool for integrating stormwater treatment and management into the streetscape. Stormwater facilities should be considered in the design of all curb extensions – including mid-block neckdowns, corner bulbouts, and other sidewalk extensions used to expand the pedestrian realm. (Also see discussion of curb extensions in Chapter 6 “Intersections and Crossings”.) Curb extensions can also be developed solely for the purpose of stormwater treatment and management (see Vegetated Stormwater Curb Extension section below).</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: infiltration, bmps, facilities, stormwater, runoff, areas, allow, management, curb, extensions, groundwater, soil, structural, sidewalk</div>
 
 
 <span id="p88" class="anchor"></span>
@@ -523,7 +496,7 @@ sidebar:
 
 <div class="pmeta">Topics: parking-curb, accessibility</div>
 <div class="dtext"><p>80</p>
-<p>4. SIDEWALK AREA Complete Streets Design Guide</p>
+<p>4. SIDEWALK AREA  Complete Streets Design Guide</p>
 <h4>Considerations</h4>
 <p>•• Conditions that can limit the use of infiltration include soil properties, proximity to building foundations and street infrastructure, geotechnical hazards (e.g., liquefaction and landslide potential), and potential adverse impacts on groundwater quality such as industrial pollutants and contaminated soils. To ensure that infiltration would be feasible and beneficial, a screening of site feasibility criteria must be completed prior to the use of infiltration BMPs.</p>
 <p>•• Impermeable clay soil is not conducive to infiltration facilities. Unfortunately, this soil type is prevalent in Los Angeles except for much of the San Fernando Valley. Clay limits the type of feasible stormwater treatment and management facilities to retention and flow-through rather than infiltration.</p>
@@ -541,7 +514,6 @@ sidebar:
 <p>•• All BMPs should conform to the standards of the American With Disabilities Act (ADA), the standard specifications for the public works construction (SSPWC) as amended by Los Angeles City Brown Book, and any other applicable regulations.</p>
 <p>•• Where street parking exists, design solutions should ensure pedestrian access between the sidewalk area and the parking lane. There should be a minimum 18”- wide convenience strip that is adjacent and parallel to the back of curb, allow ingress and egress for occupants of parked vehicles. The convenience strip</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: infiltration, soil, ensure, stormwater, facility, bmps, facilities, potential, rates, maintenance, vegetation, design, street, groundwater</div>
 
 
 <span id="p89" class="anchor"></span>
@@ -549,9 +521,9 @@ sidebar:
 ### Page 89 - Common Treatments in the Public Right-of-Way
 
 <div class="pmeta">Topics: parking-curb, speed-calming</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0089.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0089.webp" alt="Complete Streets DG page 89 Common Treatments in the Public Right-of-Way"></a><figcaption>Complete Streets DG, page 89. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0089.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0089.webp" alt="Complete Streets DG page 89 Common Treatments in the Public Right-of-Way"></a><figcaption>Complete Streets DG, page 89.</figcaption></figure>
 <div class="dtext"><p>81</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>can be either paved, planted with low growing drought tolerant turf substitutes, or drought tolerant turf. In all cases, the convenience strip shall form a commonly accepted walking surface, and its finished surface and/ or grade shall be flush with the top of curb.</p>
 <p>•• Plants are integral to the success of a BMP, so the selection of plant type(s) is exceptionally important.. Plants should be chosen based on their effectiveness in existing related BMPs and from the City-approved plant materials list provided by the Bureau of Street Services (BSS) and the Bureau of Engineering (BOE).</p>
 <p>•• Streetwater management practices can be integrated into the myriad design elements in the public right-of- way. For example, traffic calming and road diets can double as streetwater harvesting strategies.</p>
@@ -562,7 +534,6 @@ sidebar:
 <p>Planters provide opportunities for stormwater treatment/ management in many urban conditions because the can take up relatively little width (a minimum of 4 feet) and can be incorporated into streetscape projects. They are typically located adjacent to the curb either in the amenity zone or in a curb extension. Typically, roadway runoff enters a facility directly from the street through curb cuts. Where there is curbside parking, a paved convenience strip of at least 24” must allow access to parked vehicles.</p>
 <p>Riverdale Avenue before (above) and after “Green Street” improvements (below)</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: curb, street, planters, typically, allow, through, public, stormwater, installations, infiltration, facility, design, either, paved</div>
 
 
 <span id="p90" class="anchor"></span>
@@ -585,7 +556,6 @@ sidebar:
 <p>Infiltration planters have impermeable sides to keep water from saturating nearby topsoil, while the bottom is open to allow for water to percolate the surrounding subsoil. When the subsoil is saturated, excess water collects in a perforated pipe and then drains to a discharge point.</p>
 <p>Flow-Through Planters provide stormwater treatment through filtration and absorption within a completely contained structure.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: planters, infiltration, water, bottom, planter, surrounding, facility, flow-through, through, runoff, impermeable, while, allow, subsoil</div>
 
 
 <span id="p91" class="anchor"></span>
@@ -594,7 +564,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-484</strong> &middot; Topics: parking-curb</div>
 <div class="dtext"><p>83</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>•• Flow-through planters are most appropriate in locations where infiltration is not feasible due to soil qualities, contamination, or where the groundwater table is within 10 feet of the surface. In addition, flow- through planters are often the best option for urban settings where saturated soils could cause damage to urban infrastructure and/or building foundations.</p>
 <p>C. Vegetated Stormwater Curb Extension</p>
 <p>•• A Vegetated Stormwater Curb Extension (VSCE) is similar in function to infiltration or flow-through planters in that it captures stormwater runoff from nearby streets, sidewalks, and driveways. Guidelines for VSCEs are similar to those of planters. VSCEs can be installed as an alternative to planters in the sidewalk area, especially when sidewalk widths are inadequate, or they can be applied as supplements to planters.</p>
@@ -606,7 +576,6 @@ sidebar:
 <p>An example of an infiltration planter within a curb extension</p>
 <p>An example of permeable paving. Rainwater drains through gaps between the pavement stones.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: permeable, paving, planters, stormwater, infiltration, sidewalk, curb, extension, similar, vsces, streets, design, area, flow-through</div>
 
 
 <span id="p92" class="anchor"></span>
@@ -628,7 +597,6 @@ sidebar:
 <p>An example of permeable paving</p>
 <p>When the bioswale has reached full retention capacity, excess water can leave the facility through small curb openings.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: permeable, paving, areas, water, pedestrian, because, they, sidewalk, area, systems, sidewalks, driveways, alleys, bmps</div>
 
 
 <span id="p93" class="anchor"></span>
@@ -637,7 +605,7 @@ sidebar:
 
 <div class="pmeta">Topics: striping</div>
 <div class="dtext"><p>85</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>•• High moisture content beneath sidewalk can attract tree roots and cause deformation, cracking and lifting of the sidewalk. “Structural soils” can be used to improve soil permeability and control tree root growth while maintaining tree health. (See Section 4.7 “Landscaping and Trees” for further discussion.)</p>
 <p>•• Type and pattern of permeable pavers must be approved by the Bureau of Engineering. Approved pavers are listed on the “Approved products for use in the public right-of-way pavers list”.</p>
 <h4>Other BMPs Located in the Public Right- of-Way</h4>
@@ -650,7 +618,6 @@ sidebar:
 <p>A bioswale on Elmer Avenue in Low Angeles during a dry period.</p>
 <p>The same bioswale during a rain event.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: flows, vegetated, swale, sidewalk, high, tree, pavers, approved, vegetation, gradual, runoff, filter, water, streets</div>
 
 
 <span id="p94" class="anchor"></span>
@@ -686,7 +653,6 @@ sidebar:
 <p>The City’s Low Impact Development (LID) Ordinance (2011), ensures that many development and redevelopment projects mitigate runoff in a manner that captures rainwater at its source, while utilizing natural resources. The LID Ordinance requires the first ¾-inch of rain from a storm event to be captured, infiltrated and/or used onsite at most developments and redevelopments where more than 500 square feet of impervious surface is added. Adopted in November 2011, the LID Ordinance requires stormwater mitigation for a much larger number of development and redevelopment projects than was previously required under the Standard Urban Stormwater Mitigation Plan (SUSMP).</p>
 <p>Most single family residences can comply by planting landscaped areas and installing simple BMPs such as rain barrels, permeable pavement and rainwater storage tanks. Larger developments can utilize a wide variety of methods; depending on site conditions, the LID requirements could encourage an aggressive use of</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: angeles, water, runoff, stormwater, development, street, public, requirements, trench, bmps, city, quality, storm, requires</div>
 
 
 <span id="p95" class="anchor"></span>
@@ -695,7 +661,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb, accessibility</div>
 <div class="dtext"><p>87</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.9 Bicycle Parking</h4>
 <p>Secure bicycle parking is an integral part of the bikeway network. Most commonly, the City of Los Angeles Department of Transportation (LADOT) installs curbside inverted-U bicycle racks, usually placed individ­ ually or in pairs. As bicycling continues to become an attractive travel option for Angelenos, there are increased opportunities to provide enhanced parking facilities such as bicycle lockers, sheltered bicycle parking, bike corrals, and bike hubs with shower and changing facilities.</p>
 <h4>Benefits</h4>
@@ -710,7 +676,6 @@ sidebar:
 <p>The “inverted-U” rack is the City’s accepted standard for on-street bicycle parking.</p>
 <p>Bicycle racks can be fanciful pieces of public art, while still meeting required specifications.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, parking, racks, placed, bike, facilities, transit, sidewalk, inverted-u, corrals, near, commonly, city, angeles</div>
 
 
 <span id="p96" class="anchor"></span>
@@ -736,19 +701,14 @@ sidebar:
 <p>•• For all clearance and accessibility requirements for bicycle rack placement, refer to BOE Standard Plan S-671-0. ADA accessibility requirements must be met. In order to ensure accessibility and ADA compliance, the</p>
 <p>Bicycle lockers provide high security and protection from natural elements.</p>
 <p>Back to Table of Contents</p></div>
-<div class="pclean"><p class="psum"><b>Location and Placement of Bicycle Racks.</b> Guidance on where to place bicycle racks in the sidewalk area and for bicycle corrals in the roadway, tied to BOE Standard Plan S-671. In the amenity zone racks parallel to the curb need at least 24 inches from the curbline (preferably 36 inches beside a travel lane) and 5 feet from other street furniture. Corrals need 25 feet from a fire hydrant and 30 feet from intersection departure and 50 feet from approach.</p></div>
-<div class="kw">Keywords: bike rack, bicycle rack placement, bike parking, inverted U rack, bicycle corral, S-671, amenity zone, frontage zone, curbline clearance, bike repair station, fire hydrant clearance, bicycle parking ordinance, curb extension bike rack, street furniture clearance</div>
-
 
 <span id="p97" class="anchor"></span>
 
 ### Page 97 - Bicycle Racks: Rack Characteristics, Policy and Amenity Zone Placement
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, parking-curb, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp" alt="Complete Streets DG page 97 Location and Placement of Bicycle Racks (S-671)"></a><figcaption>Complete Streets DG, page 97. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Bicycle Racks: Rack Characteristics, Policy and Amenity Zone Placement.</b> Page 89 of the LADOT Complete Streets Design Guide, Section 4 Sidewalk Area. It finishes the list of rack characteristics, states the inverted-U rack as the standard and then gives amenity zone placement. Racks parallel to the curb need at least 24 inches from the curbline (preferably 36 inches beside a travel lane), 5 feet of clearance along a line, 90 inches between curbside racks and 5 feet from other street furniture.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Text page: Printed page 89, section header 4. SIDEWALK AREA, running header Complete Streets Design Guide. Two columns. The left column carries the end of a bulleted list of rack characteristics (two sub-bullets with diamond markers) followed by three policy bullets. The right column carries the heading Location and Placement of Bicycle Racks, the sub-heading Amenity Zone, one paragraph and two bullets.</p>
-<p>Photograph (lower center, across both columns): Several bicycles locked to racks at the curb in front of a planted tree bed on a sidewalk, with a street and traffic in the background and a pedestrian at the right. Caption: Wide sidewalk areas afford opportunities to consolidate multiple racks in groups.</p>
-<p>The page ends with a Back to Table of Contents link and the page number 89.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>Left column:</h5>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp" alt="Complete Streets DG page 97 Location and Placement of Bicycle Racks (S-671)"></a><figcaption>Complete Streets DG, page 97.</figcaption></figure>
+<details class="ocr"><summary>Sheet notes</summary><h5>Left column:</h5>
 <p>(Continuation of the rack characteristics list from the previous page; each item is introduced by an earlier lead-in not on this sheet.)</p>
 <p>- Have mounting hardware that can be unscrewed with common tools.</p>
 <p>- Requires the bicyclist to lift their bicycle onto the rack.</p>
@@ -759,19 +719,15 @@ sidebar:
 <p>4. Bicycle racks that are parallel to the curb should be a minimum of 24 inches from the curbline to allow for access to parked vehicles and provide adequate space for cyclists to maneuver. To provide added safety for bicyclists, when fronting a curbside vehicular travel lane racks should be set back further, preferably at least 36 inches from the curbline.</p>
 <p>5. The rack should allow a minimum of 5 feet of clearance when placed parallel to the roadway (along a single line), measured from center of base plate to center of base plate. In areas with curbside vehicular parking, a rack oriented parallel to the curbline must be a minimum of 90 inches from another curbside rack to ensure pedestrians have clear access to and from the curb parking between two parked parallel bicycles (BOE S-671 Standard Plan).</p>
 <p>6. The rack should maintain 5 feet of clearance from other street furniture. Other street furniture includes but is not limited to: parking meters, trees, tree wells, newspaper racks, light poles, sign poles, telephone poles, utility meters, benches, mailboxes, fire hydrants and trash cans.</p>
-<p>Photo caption: Wide sidewalk areas afford opportunities to consolidate multiple racks in groups.</p></details></div>
-<div class="kw">Keywords: bike rack, bicycle rack placement, bike parking, inverted U rack, bicycle corral, S-671, amenity zone, frontage zone, curbline clearance, bike repair station, fire hydrant clearance, bicycle parking ordinance, curb extension bike rack, street furniture clearance</div>
-
+<p>Photo caption: Wide sidewalk areas afford opportunities to consolidate multiple racks in groups.</p></details>
 
 <span id="p98" class="anchor"></span>
 
 ### Page 98 - Bicycle Racks: Frontage Zone, Flex Zone, Other Discussion and References
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, transit, parking-curb, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp" alt="Complete Streets DG page 98 Other Discussion (S-671)"></a><figcaption>Complete Streets DG, page 98. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Bicycle Racks: Frontage Zone, Flex Zone, Other Discussion and References.</b> Page 90 of the LADOT Complete Streets Design Guide, Section 4 Sidewalk Area, continuing the bicycle rack placement guidance. It covers racks near bus stops and hydrants, frontage zone orientation and spacing (30 inches from the structure, 60 inches side by side), flex zone curb extensions, and other discussion on meters, repair stations and compliance. References include APBP, NACTO, BOE Standard Plan S-671 and the 2013 Bicycle Parking Ordinance.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Text page: Printed page 90, section header 4. SIDEWALK AREA, running header Complete Streets Design Guide. The left column continues the amenity zone bullet and then gives Frontage Zone and Flex Zone Curb Extensions guidance. The right column has Other Discussion (three paragraphs) and a References list.</p>
-<p>Photograph (lower center): A bicycle hung by its front wheel on a black bike repair stand at the curb of a street, with parked cars and a lot in the background. Caption: Bike repair stations are a valuable public convenience for bicycle riders.</p>
-<p>The page ends with the page number 90 and a Back to Table of Contents link.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>Left column (continues Amenity Zone):</h5>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp" alt="Complete Streets DG page 98 Other Discussion (S-671)"></a><figcaption>Complete Streets DG, page 98.</figcaption></figure>
+<details class="ocr"><summary>Sheet notes</summary><h5>Left column (continues Amenity Zone):</h5>
 <p>1. A bicycle rack should not be installed in a bus stop zone, taxi zone or loading zone. A rack should not be installed near a fire hydrant or near handicap-accessible parking.</p>
 <h5>Frontage Zone:</h5>
 <p>2. In the frontage zone, bicycle racks can be placed perpendicular, angled or parallel to a building or property frontage. Perpendicular or angled parking should be provided if space permits. These orientations allow for better-accessible clustered parking.</p>
@@ -787,18 +743,16 @@ sidebar:
 <p>- NACTO Urban Bikeway Design Guide</p>
 <p>- BOE Standard Plan S-671</p>
 <p>- 2013 Bicycle Parking Ordinance (LAMC Ord. No. 182386)</p>
-<p>Photo caption: Bike repair stations are a valuable public convenience for bicycle riders.</p></details></div>
-<div class="kw">Keywords: bike rack, bicycle rack placement, bike parking, inverted U rack, bicycle corral, S-671, amenity zone, frontage zone, curbline clearance, bike repair station, fire hydrant clearance, bicycle parking ordinance, curb extension bike rack, street furniture clearance</div>
-
+<p>Photo caption: Bike repair stations are a valuable public convenience for bicycle riders.</p></details>
 
 <span id="p99" class="anchor"></span>
 
 ### Page 99 - Benefits
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0099.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0099.webp" alt="Complete Streets DG page 99 Benefits"></a><figcaption>Complete Streets DG, page 99. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0099.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0099.webp" alt="Complete Streets DG page 99 Benefits"></a><figcaption>Complete Streets DG, page 99.</figcaption></figure>
 <div class="dtext"><p>91</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Benefits</h4>
 <p>•• Provides a convenient transportation option that can be used for short trips and “first-mile last-mile” connections</p>
 <p>•• Provides health benefits by encouraging physical activity</p>
@@ -812,7 +766,6 @@ sidebar:
 <p>•• Bikeshare stations are especially valuable near major transit stops to provide valuable “first-mile last-mile” connections, near places of interest, and in locations where short trips are commonplace (e.g., high-density mixed use districts and around college campuses).</p>
 <p>•• Stations are located either in the sidewalk area (typically in the amenity zone) or in the roadway parking lane (flex zone).</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bikeshare, provides, convenient, stations, program, sidewalk, area, benefits, transportation, option, short, trips, first-mile, last-mile</div>
 
 
 <span id="p100" class="anchor"></span>
@@ -820,7 +773,7 @@ sidebar:
 ### Page 100 - Considerations
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0100.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0100.webp" alt="Complete Streets DG page 100 Considerations"></a><figcaption>Complete Streets DG, page 100. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0100.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0100.webp" alt="Complete Streets DG page 100 Considerations"></a><figcaption>Complete Streets DG, page 100.</figcaption></figure>
 <div class="dtext"><p>92</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <h4>Considerations</h4>
@@ -835,7 +788,6 @@ sidebar:
 <h4>Other Discussion</h4>
 <p>•• The Los Angeles City bikeshare program is a component of the regional bikeshare program, which is a partnership between the City, LA Metro, and other cities.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bikeshare, stations, design, bicycle, city, located, standard, street, least, feet, intersection, ladot, corral, clearances</div>
 
 
 <span id="p101" class="anchor"></span>
@@ -844,7 +796,7 @@ sidebar:
 
 <div class="pmeta">Topics: parking-curb, accessibility</div>
 <div class="dtext"><p>93</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Benefits</h4>
 <p>•• Offers motorists the convenience of multiple payment options and the opportunity to add time remotely by cell phone or internet</p>
 <p>•• When using multi-space pay stations, reduces visual clutter in the urban landscape by allowing for the removal of single-space parking meters. Multi-space pay stations are also less expensive for the City to operate and service than numerous single-space meters.</p>
@@ -857,7 +809,6 @@ sidebar:
 <h4>4.11 Parking Meters and Pay Stations</h4>
 <p>Modern-day “smart” parking meters and pay stations give motorists convenient payment options. They also provide the City with an opportunity to expand variable pricing programs. Multi-space pay stations that typically serve 8-10 vehicles can be a beneficial alternative to single-space meters.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: parking, meters, stations, single-space, multi-space, design, motorists, payment, options, opportunity, reduces, visual, clutter, urban</div>
 
 
 <span id="p102" class="anchor"></span>
@@ -876,7 +827,6 @@ sidebar:
 <p>In locations where filming is common, conversion of individual meter poles to multi-space pay stations can be especially beneficial because this reduces the number of obstacles in front of parked production trucks.</p>
 <p>Decommissioned parking meter poles can be repurposed into bicycle racks. Pole repurposing should only be considered where there is a sufficient clear distance between the rack and the curbline. Los Angeles code does not currently allow decommissioned parking meters to be retrofitted to accommodate bicycle parking, although LADOT has completed pilot retrofit projects. Relatedly, bicyclists often use functioning meter poles as impromptu bicycle racks, blocking curbside access as well as access to the meter itself. To avoid this problem, locations with parking meter poles should contain enough dedicated bicycle racks to meet demand (see section 4.9 “Bicycle Parking”).</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: parking, bicycle, multi-space, stations, meter, racks, poles, number, area, design, meters, decommissioned, they, sidewalk</div>
 
 
 <span id="p103" class="anchor"></span>
@@ -885,7 +835,7 @@ sidebar:
 
 <div class="pmeta">Topics: transit, signals, accessibility</div>
 <div class="dtext"><p>95</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Benefits</h4>
 <p>Well-placed utilities and other infrastructure:</p>
 <p>•• Reduce clutter on the sidewalk</p>
@@ -902,7 +852,6 @@ sidebar:
 <p>•• Tree removal should be avoided and minimized during the routing of large-scale utility undergrounding projects.</p>
 <p>•• Many projects involving sidewalk widening or curb extensions require the demolition or excavation of an existing walkway, and existing underground utilities may be impacted. Utility companies should be contacted and provided with plans outlining the proposed improvements.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: utilities, street, sidewalk, amenities, utility, placement, landscaping, infrastructure, reduce, maintenance, trees, power, underground, lighting</div>
 
 
 <span id="p104" class="anchor"></span>
@@ -926,7 +875,6 @@ sidebar:
 <p>•• Trenchless technologies, such as moling and tunneling, should be used wherever possible to avoid excavation and disruption of streetscape elements.</p>
 <p>•• In pedestrian-oriented residential and commercial areas, surface-mounted utilities (SMUs) should be screened with landscaping and/or decorative screens whenever practicable.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: utility, lines, street, sidewalk, located, trees, vaults, utilities, curb, public, lighting, roadway, overhead, aesthetic</div>
 
 
 <span id="p105" class="anchor"></span>
@@ -934,9 +882,9 @@ sidebar:
 ### Page 105 - Benefits
 
 <div class="pmeta">Topics: crosswalks, bikeways, transit, signs, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0105.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0105.webp" alt="Complete Streets DG page 105 Benefits"></a><figcaption>Complete Streets DG, page 105. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0105.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0105.webp" alt="Complete Streets DG page 105 Benefits"></a><figcaption>Complete Streets DG, page 105.</figcaption></figure>
 <div class="dtext"><p>97</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Benefits</h4>
 <p>Well-designed, properly-located, and appropriately- scaled street lighting:</p>
 <p>•• Improves nighttime safety and security by illuminating the roadway and sidewalk area to benefit all users of the public right-of-way including motorists, bicyclists, transit users, and pedestrians</p>
@@ -951,7 +899,6 @@ sidebar:
 <p>Street lighting serves a necessary public function by illuminating the roadway and sidewalk area to ensure safety, security, and accessibility for all road users. Through their type, scale, and design, street lighting elements affect the aesthetic qualities and character of a street, especially at night when they play a piv­ otal role in shaping the nighttime environment. In particular, pedestrian-scale lighting of the sidewalk area creates a safer and more enjoyable pedestrian realm.</p>
 <p>A pedestrian-oriented light fixture can share a single pole with a roadway light fixture. In some instances, new pedestrian-oriented lighting fixtures can be affixed to existing roadway light poles.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lighting, light, street, roadway, sidewalk, area, fixtures, streets, illuminating, users, poles, design, improves, nighttime</div>
 
 
 <span id="p106" class="anchor"></span>
@@ -970,7 +917,6 @@ sidebar:
 <p>•• The placement of light poles should be coordinated with the placement of landscaping, street furniture, transit stops and other utilities. Their placement should comply with clearance requirements in relation to other facilities, curbs, intersections, and crossings.</p>
 <p>•• Roadway lighting fixtures should be placed between trees to facilitate maximum lighting and to ensure that the tree canopy is maintained and that excessive tree pruning is avoided. When the illumination of the sidewalk is provided solely by roadway lighting, trees often create shadowed areas that may not be safely lit (especially when the placement of trees and light fixtures is not well-coordinated). Because they can</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lighting, pedestrian, sidewalk, fixtures, light, placement, areas, area, installed, roadway, streets, zone, building, trees</div>
 
 
 <span id="p107" class="anchor"></span>
@@ -978,9 +924,9 @@ sidebar:
 ### Page 107
 
 <div class="pmeta">Topics: transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0107.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0107.webp" alt="Complete Streets DG page 107 "></a><figcaption>Complete Streets DG, page 107. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0107.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0107.webp" alt="Complete Streets DG page 107 "></a><figcaption>Complete Streets DG, page 107.</figcaption></figure>
 <div class="dtext"><p>99</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>be located below the tree canopy, pedestrian-scale lighting offers increased safety and more-uniform illumination along a pathway. In this way the tree canopy can be retained without sacrificing accessibility and safety.</p>
 <p>•• Retrofits of existing street lights and new installations should include pedestrian-scale lighting, especially in areas with high pedestrian activity. As a cost-saving measure, pedestrian lighting could be added to existing street light poles; in these situations it is often beneficial to provide additional sidewalk area lighting by installing pedestrian light fixtures between roadway light poles.</p>
 <p>•• The potential for unwanted light trespass onto private property should be investigated before installing roadway and pedestrian light fixtures.</p>
@@ -991,7 +937,6 @@ sidebar:
 <p>•• Pedestrian light sources should provide a warm (yellow, not blue) light if using metal halide or high-pressure sodium bulbs; LED pedestrian lights should produce a similar quality of light.</p>
 <p>•• As appropriate, dark sky-compliant lighting should be selected to minimize light pollution cast into the sky while maximizing light cast onto the ground. A minimum of 95% of emitted light should be directed toward the ground.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: light, lighting, design, pedestrian, fixtures, street, illumination, provide, roadway, sidewalk, area, tree, canopy, pedestrian-scale</div>
 
 
 <span id="p108" class="anchor"></span>
@@ -1015,7 +960,6 @@ sidebar:
 <p>Los Angeles has over 200,000 streetlights in more than 400 different styles. According to the Bureau of Street Lighting, ”street lights provide illumination of both the roadways and sidewalks to the levels required by the Bureau of Street Lighting (BSL) for safety and security.” Additionally, ”lighting systems are designed and constructed to conform to nationally accepted standards which are sponsored by the Illuminating Engineering Society and approved by the American National standards Institute.”</p>
 <p>Street poles can be outfitted with clamp-on brackets for banners, adding to the visual quality of the streetscape. These banners generally consist of placemaking themes pertinent to a particular district (adding to the character and cultural heritage of a place), and informational uses to promote cultural and civic events and amenities including festivals, museum exhibitions, and special events. (Also see Section 4.3 “Streetscape Signage and Wayfinding” and Section 4.6 “Public Art”.)</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lighting, street, light, special, standards, illumination, sidewalk, design, safety, installation, maintenance, projects, streetscape, residential</div>
 
 
 <span id="p109" class="anchor"></span>
@@ -1024,7 +968,7 @@ sidebar:
 
 <div class="pmeta">Topics: transit</div>
 <div class="dtext"><p>101</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.14 Waste and Recycling Receptacles</h4>
 <p>Well-designed and strategically-located receptacles are an essential component of a clean, enjoyable side­ walk environment. Their effectiveness in keeping litter off the streets is largely dependent on their place­ ment, functional design, and volume capacities.</p>
 <h4>Benefits</h4>
@@ -1038,7 +982,6 @@ sidebar:
 <p>Solar-powered waste receptacles allow for “just-in-time” collection by wirelessly communicating fullness levels to service operators. Some also incorporate compactors to effectively increase receptacle capacity and reduce the frequency of servicing.</p>
 <p>Waste receptacles can be street design elements that complement the design of surrounding street furniture.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: receptacles, design, waste, street, trash, streets, stops, receptacle, recycling, enjoyable, environment, litter, reducing, provides</div>
 
 
 <span id="p110" class="anchor"></span>
@@ -1060,7 +1003,6 @@ sidebar:
 <p>Wire basket waste receptacles are unattractive and its contents are open to the effects of wind.</p>
 <p>A typical waste receptacle used in Los Angeles.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: receptacles, waste, design, street, trash, locations, located, zone, removal, recycling, pedestrian, they, ensure, practice</div>
 
 
 <span id="p111" class="anchor"></span>
@@ -1069,7 +1011,7 @@ sidebar:
 
 <div class="pmeta">Topics: transit, parking-curb</div>
 <div class="dtext"><p>103</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Other Discussion</h4>
 <p>The benefits of waste receptacles are only attained with regular installation, maintenance, and servicing. However, there is no coordinated program in Los Angeles for the installation, maintenance, and servicing of waste and recycling receptacles. Instead, these services are provided by a variety of public agencies, community organizations, and private companies:</p>
 <p>•• The Bureau of Sanitation services approximately 3,000 receptacles. Other city departments such as the Department of Recreation and Parks provide and service receptacles adjacent to their facilities.</p>
@@ -1079,7 +1021,6 @@ sidebar:
 <p>•• The Bureau of Street Services (BSS) oversees two contractors that provide receptacles adjacent to transit furniture. Martin Outdoor Media, LLC installs and services around 2,000 receptacles placed adjacent to bus benches that they also maintain. As part of the City’s Coordinated Street Furniture Program, CBS Decaux, LLC services around 1700 trash receptacles that are placed adjacent to their transit shelters.</p>
 <p>Waste recptacles can be a street design element.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: receptacles, services, adjacent, waste, program, organizations, service, placed, street, design, installation, maintenance, servicing, coordinated</div>
 
 
 <span id="p112" class="anchor"></span>
@@ -1105,7 +1046,6 @@ sidebar:
 <p>Huntington Drive, El Sereno</p>
 <p>Spring Street, Downtown Los Angeles</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: parklets, public, sidewalk, production, design, parking, space, area, spaces, they, typically, incorporate, bicycle, business</div>
 
 
 <span id="p113" class="anchor"></span>
@@ -1113,9 +1053,9 @@ sidebar:
 ### Page 113 - Guidance
 
 <div class="pmeta">Topics: bikeways, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0113.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0113.webp" alt="Complete Streets DG page 113 Guidance"></a><figcaption>Complete Streets DG, page 113. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0113.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0113.webp" alt="Complete Streets DG page 113 Guidance"></a><figcaption>Complete Streets DG, page 113.</figcaption></figure>
 <div class="dtext"><p>105</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Guidance</h4>
 <p>Location and Placement</p>
 <p>•• Parklets should generally be located only along streets with a speed limit of 25 MPH or less.</p>
@@ -1129,7 +1069,6 @@ sidebar:
 <p>York Boulevard, Highland Park</p>
 <p>Spring Street, Downtown Los Angeles</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: parking, parklets, design, provide, lane, parklet, streets, guide, generally, located, least, space, street, vehicular</div>
 
 
 <span id="p114" class="anchor"></span>
@@ -1149,7 +1088,6 @@ sidebar:
 <h4>References</h4>
 <p>City of Los Angeles Department of Transportation’s “People St” program (peoplest.lacity.org)</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: area, planters, parklet, sidewalk, parklets, design, using, wheel, stops, platform, safety, clearly, roadway, signage</div>
 
 
 <span id="p115" class="anchor"></span>
@@ -1157,9 +1095,9 @@ sidebar:
 ### Page 115 - 4.16 Bus Stop Location
 
 <div class="pmeta">Topics: crosswalks, transit, signals, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0115.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0115.webp" alt="Complete Streets DG page 115 4.16 Bus Stop Location"></a><figcaption>Complete Streets DG, page 115. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0115.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0115.webp" alt="Complete Streets DG page 115 4.16 Bus Stop Location"></a><figcaption>Complete Streets DG, page 115.</figcaption></figure>
 <div class="dtext"><p>107</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.16 Bus Stop Location</h4>
 <p>Bus stops that are optimally located provide riders with convenient access to jobs, destinations and resi­ dences. Bus stops can be placed on the near side or far side of the intersection, or at the midblock.</p>
 <h4>Benefits</h4>
@@ -1180,7 +1118,6 @@ sidebar:
 <p>♦♦May minimize the number of red lights that buses encounter when transit signal priority is absent</p>
 <p>♦♦Allows riders to utilize the crosswalk closest to the bus’ front door</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: side, riders, buses, intersection, traffic, stops, located, near, midblock, light, provides, stop, location, access</div>
 
 
 <span id="p116" class="anchor"></span>
@@ -1219,7 +1156,6 @@ sidebar:
 <p>♦♦Buses may obstruct sight distances for motorists approaching intersections</p>
 <p>♦♦Buses may have to stop twice -- once at an intersection approach, and then again at the far side stop</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: stop, midblock, location, side, stops, buses, intersection, sidewalk, near, queuing, pedestrian, crosswalk, spacing, while</div>
 
 
 <span id="p117" class="anchor"></span>
@@ -1227,9 +1163,9 @@ sidebar:
 ### Page 117 - 4.17 Bus Bulb
 
 <div class="pmeta">Topics: transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0117.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0117.webp" alt="Complete Streets DG page 117 4.17 Bus Bulb"></a><figcaption>Complete Streets DG, page 117. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0117.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0117.webp" alt="Complete Streets DG page 117 4.17 Bus Bulb"></a><figcaption>Complete Streets DG, page 117.</figcaption></figure>
 <div class="dtext"><p>109</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.17 Bus Bulb</h4>
 <p>A bus bulb is a curb extension that increases transit performance by allowing buses to stop in the travel lane at bus stops. It also adds valuable space that can be dedicated to transit amenities (e.g., shelters, benches, and kiosks) without encroaching on the pedestrian walkway.</p>
 <h4>Benefits</h4>
@@ -1243,7 +1179,6 @@ sidebar:
 <p>•• They can be applied at locations where the on-time performance of major high-frequency bus routes (such as Metro Rapid lines) are hindered by having to merge back into the travel lane</p>
 <p>•• They can also be applied where the existing sidewalk width is too narrow to accommodate a bus shelter.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: space, buses, transit, performance, travel, lane, pedestrian, back, applied, sidewalk, bulb, curb, allowing, stop</div>
 
 
 <span id="p118" class="anchor"></span>
@@ -1252,7 +1187,7 @@ sidebar:
 
 <div class="pmeta">Topics: transit, striping, intersections</div>
 <div class="dtext"><p>110</p>
-<p>4. SIDEWALK AREA Complete Streets Design Guide</p>
+<p>4. SIDEWALK AREA  Complete Streets Design Guide</p>
 <h4>Considerations</h4>
 <p>•• Vehicle traffic in the travel lane is blocked while buses are stopped at a bus bulb. This may prompt unsafe vehicle maneuvers to pass stopped buses.</p>
 <p>•• Bus bulbs at near-side stops affect streets that experience heavy right turn vehicle movements.</p>
@@ -1265,7 +1200,6 @@ sidebar:
 <p>•• Bus bulb tapers should have a return angle of 45 degrees.</p>
 <p>•• When applied at near-side stops, bus bulbs may require right-turn-on-red restrictions.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: buses, bulbs, vehicle, stop, accommodate, back, streets, design, stopped, bulb, near-side, stops, extend, length</div>
 
 
 <span id="p119" class="anchor"></span>
@@ -1273,9 +1207,9 @@ sidebar:
 ### Page 119 - 4.18 Sidewalk Equestrian Trails
 
 <div class="pmeta">Topics: striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0119.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0119.webp" alt="Complete Streets DG page 119 4.18 Sidewalk Equestrian Trails"></a><figcaption>Complete Streets DG, page 119. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0119.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0119.webp" alt="Complete Streets DG page 119 4.18 Sidewalk Equestrian Trails"></a><figcaption>Complete Streets DG, page 119.</figcaption></figure>
 <div class="dtext"><p>111</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.18 Sidewalk Equestrian Trails</h4>
 <p>Equestrian trails allow individuals to enjoy a unique form of recreation and travel within the City of Los Angeles. An integrated network of trails promotes horseback riding and provides a safe means for recre­ ational riders to experience scenic parts of the City.</p>
 <h4>Benefits</h4>
@@ -1290,7 +1224,6 @@ sidebar:
 <p>•• A minimum height of 4 feet is recommended for all fences and barriers along trails. A greater height may be permitted for trails adjacent to high speed roads where traffic may startle horses. Height should be tapered down as trail approaches intersections or end, to maximize horse/rider view.</p>
 <p>•• Low walls or fences with railings added for more height are acceptable. Bollards or barrier posts can help separate equestrian from other uses. Barrier posts should be an odd number to prevent confusion, and placed 5 feet apart to allow equestrians to pass through.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: trails, city, feet, design, equestrian, trail, height, sidewalk, provides, barrier, streets, allow, horseback, riding</div>
 
 
 <span id="p120" class="anchor"></span>
@@ -1298,7 +1231,7 @@ sidebar:
 ### Page 120 - References
 
 <div class="pmeta">Topics: signals, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0120.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0120.webp" alt="Complete Streets DG page 120 References"></a><figcaption>Complete Streets DG, page 120. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0120.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0120.webp" alt="Complete Streets DG page 120 References"></a><figcaption>Complete Streets DG, page 120.</figcaption></figure>
 <div class="dtext"><p>112</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• Urban trails should be designed in accordance with traffic engineering standards. The Metropolitan Transportation Authority Congestion Management Plan (CMP) and the Transportation element of the County of Los Angeles General Plan should be consulted to determine the traffic impacts of a trail.</p>
@@ -1312,7 +1245,6 @@ sidebar:
 <p>•• Use of native plants for landscaping is encouraged. Low walls or fences can include vegetation facing the trail to improve appearance, especially along trails with pipe railing. Vegetation should be trimmed to less than 4 feet high for crime prevention purposes, and trimmed to avoid injury to equines.</p>
 <p>•• Plants toxic to equines must be removed or identified with signage.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: trails, plan, angeles, trail, feet, guide, traffic, transportation, county, equestrian, include, appearance, signal, plants</div>
 
 
 <span id="p121" class="anchor"></span>
@@ -1321,7 +1253,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, signals, intersections</div>
 <div class="dtext"><p>113</p>
-<p>Complete Streets Design Guide 4. SIDEWALK AREA</p>
+<p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.19 Esplanade</h4>
 <p>An esplanade integrates an offstreet bicycle path (typically two-way), a pedestrian walkway, trees, and landscaping into a travel corridor alongside a vehicular roadway. An esplanade creates an inviting pathway that is safe and enjoyable for a wide range of users.</p>
 <h4>Benefits</h4>
@@ -1341,32 +1273,23 @@ sidebar:
 <p>•• For further design guidance regarding the bicycle path, see Section 5.3 “Protected Bicycle Lane”.</p>
 <p>•• For design guidance regarding intersections and mid- block crossings with a roadway, as well as instances where pedestrian walkways cross a bicycle path, see Section 5.3 “Protected Bicycle Lane” and Section 6.11 “Bicycle Lanes at Intersections”.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, esplanade, path, pedestrian, roadway, design, walkway, streets, sidewalk, two-way, trees, landscaping, wide, users</div>
 
 
 <span id="p122" class="anchor"></span>
 
 ### Page 122
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0122.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0122.webp" alt="Complete Streets DG page 122 "></a><figcaption>Complete Streets DG, page 122. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0122.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0122.webp" alt="Complete Streets DG page 122 "></a><figcaption>Complete Streets DG, page 122.</figcaption></figure>
 
 
 <span id="p123" class="anchor"></span>
 
 ### Page 123 - Complete Streets Design Guide: Chapter 5, Roadways (Section Divider)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0123.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0123.webp" alt="Complete Streets DG page 123 "></a><figcaption>Complete Streets DG, page 123 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Chapter 5, Roadways (Section Divider).</b> Section divider page that opens Chapter 5, Roadways, of the LADOT Complete Streets Design Guide. It shows the chapter number 5, the guide name and the chapter title over three tinted street photographs with palm trees. It contains no design content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Cover layout: a full-page section divider in a light gray field. In the upper left of the page area is a large gray numeral 5 set in a heavy sans-serif face, taking up the left half of the sheet. Centered in the upper right panel are two lines of text. A small, widely spaced teal line reads COMPLETE STREETS DESIGN GUIDE and below it a large bold gray heading reads ROADWAYS. Along the bottom of the page, three tall duotone photograph strips run side by side with white gaps between them, one in purple, one in yellow and one in teal. The numeral overlaps the left edge of the purple strip. The purple strip shows a palm-lined street with parked and moving cars, storefronts and a crosswalk. The yellow strip shows a street looking down the block with palm trees on both sides, a pedestrian in a crosswalk and dashed lane lines. The teal strip shows tall palms beside a street with dashed lane lines and a crosswalk ahead. The page carries no body text, tables or dimensions.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Text on the page: 5. COMPLETE STREETS DESIGN GUIDE. ROADWAYS. No other notes.</p></details></div>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Chapter 5, Roadways (Section Divider).</b> Section divider page that opens Chapter 5, Roadways, of the LADOT Complete Streets Design Guide. It shows the chapter number 5, the guide name and the chapter title over three tinted street photographs with palm trees. It contains no design content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Cover layout: a full-page section divider in a light gray field. In the upper left of the page area is a large gray numeral 5 set in a heavy sans-serif face, taking up the left half of the sheet. Centered in the upper right panel are two lines of text. A small, widely spaced teal line reads COMPLETE STREETS DESIGN GUIDE and below it a large bold gray heading reads ROADWAYS. Along the bottom of the page, three tall duotone photograph strips run side by side with white gaps between them, one in purple, one in yellow and one in teal. The numeral overlaps the left edge of the purple strip. The purple strip shows a palm-lined street with parked and moving cars, storefronts and a crosswalk. The yellow strip shows a street looking down the block with palm trees on both sides, a pedestrian in a crosswalk and dashed lane lines. The teal strip shows tall palms beside a street with dashed lane lines and a crosswalk ahead. The page carries no body text, tables or dimensions.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Text on the page: 5. COMPLETE STREETS DESIGN GUIDE. ROADWAYS. No other notes.</p></details></div>
-<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, roadways, section divider, roadway design</div>
-
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0123.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0123.webp" alt="Complete Streets DG page 123 "></a><figcaption>Complete Streets DG, page 123.</figcaption></figure>
 
 <span id="p124" class="anchor"></span>
 
 ### Page 124
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0124.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0124.webp" alt="Complete Streets DG page 124 "></a><figcaption>Complete Streets DG, page 124. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0124.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0124.webp" alt="Complete Streets DG page 124 "></a><figcaption>Complete Streets DG, page 124.</figcaption></figure>

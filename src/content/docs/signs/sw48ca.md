@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>TRACTOR-SEMIS OVER ___ FEET KINGPIN TO REAR AXLE NOT ADVISED warning sign</dd>
 <dt>Legend</dt><dd>TRACTOR-SEMIS CTOR-SEMIS OVER VER FEET KINGPIN TO REAR AXLE NOT ADVISED VISED</dd>
-<dt>Keywords</dt><dd class="kw">sw48(ca), tractor-semis over ___ feet kingpin to rear axle not advised, tractor-semis ctor-semis over ver feet kingpin to rear axle not advised vised, tractor, semis, over, feet, kingpin, rear, axle, not, advised, warning sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sw48">SW48 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

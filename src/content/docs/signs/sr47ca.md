@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Off Highway Vehicle Signs regulatory sign</dd>
 <dt>Legend</dt><dd>OFF HIGHWAY VEHICLE COMBINED USE NEXT MILES</dd>
-<dt>Keywords</dt><dd class="kw">sr47(ca), off highway vehicle signs, off highway vehicle combined use next miles, off, highway, vehicle, combined, use, next, miles, regulatory sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sr47">SR47 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

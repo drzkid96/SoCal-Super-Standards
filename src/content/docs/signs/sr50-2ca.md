@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Hov Violation Ata $ Minimum Fine regulatory sign</dd>
 <dt>Legend</dt><dd>HOV VIOLATION ATA $ MINIMUM FINE</dd>
-<dt>Keywords</dt><dd class="kw">sr50-2(ca), hov violation ata $ minimum fine, hov, violation, minimum, fine, regulatory sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sr50">SR50 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

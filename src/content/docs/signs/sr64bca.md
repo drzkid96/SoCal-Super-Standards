@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Bike Turn-out Signs SR64A regulatory sign</dd>
 <dt>Legend</dt><dd>BIKE TURN-OUT 45 o</dd>
-<dt>Keywords</dt><dd class="kw">sr64b(ca), bike turn-out signs sr64a, bike turn-out 45 o, bike, turn, out, regulatory sign, other, bicycle, cyclist</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sr64">SR64 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

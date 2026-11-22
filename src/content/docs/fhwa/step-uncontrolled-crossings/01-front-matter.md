@@ -11,15 +11,7 @@ sidebar:
 
 ### Page 1 - Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (Cover)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0001.webp" alt="FHWA STEP Guide page 1 "></a><figcaption>FHWA STEP Guide, page 1 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (Cover).</b> Cover of the FHWA guide for improving pedestrian safety at uncontrolled crossing locations, dated July 2018 (updated). It shows the US DOT, Federal Highway Administration and Every Day Counts logos over a street crossing photograph. It has no technical content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Front cover of the FHWA guide. The background is a photograph of a signalized pedestrian crossing on a tree-lined street, with a semi-transparent blue grid of squares over the sky. In the photo, a mast arm carries red signal heads and a sign reading CROSSWALK STOP ON RED, a pedestrian crosses the street in a crosswalk carrying a bag, and a yellow in-street sign with a yield to pedestrian symbol stands in the roadway (photo credit VHB). A white panel holds the US Department of Transportation and Federal Highway Administration logos, the EDC (Every Day Counts) logo, and the title Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations. At the upper right is the date July 2018, Updated.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>July 2018, Updated.</p>
-<p>Photo credit: VHB.</p>
-<p>No other notes on this page.</p></details></div>
-<div class="pclean"><p class="psum"><b>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (Cover).</b> Cover of the FHWA guide for improving pedestrian safety at uncontrolled crossing locations, dated July 2018 (updated). It shows the US DOT, Federal Highway Administration and Every Day Counts logos over a street crossing photograph. It has no technical content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Front cover of the FHWA guide. The background is a photograph of a signalized pedestrian crossing on a tree-lined street, with a semi-transparent blue grid of squares over the sky. In the photo, a mast arm carries red signal heads and a sign reading CROSSWALK STOP ON RED, a pedestrian crosses the street in a crosswalk carrying a bag, and a yellow in-street sign with a yield to pedestrian symbol stands in the roadway (photo credit VHB). A white panel holds the US Department of Transportation and Federal Highway Administration logos, the EDC (Every Day Counts) logo, and the title Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations. At the upper right is the date July 2018, Updated.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>July 2018, Updated.</p>
-<p>Photo credit: VHB.</p>
-<p>No other notes on this page.</p></details></div>
-<div class="kw">Keywords: STEP guide, uncontrolled crossings, pedestrian safety, FHWA pedestrian guide, Safe Transportation for Every Pedestrian, unsignalized crosswalk, crosswalk safety, pedestrian crossing treatments, FHWA cover page</div>
-
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0001.webp" alt="FHWA STEP Guide page 1 "></a><figcaption>FHWA STEP Guide, page 1.</figcaption></figure>
 
 <span id="p2" class="anchor"></span>
 
@@ -28,7 +20,6 @@ sidebar:
 <div class="dtext"><h4>NOTICE</h4>
 <p>This document is disseminated under the sponsorship of the U.S. Department of Transportation in the interest of information exchange. The U.S. Government assumes no liability for the use of the information contained in this document. This report does not constitute a standard, specification, or regulation.</p>
 <p>The U.S. Government does not endorse products or manufacturers. Trademarks or manufacturers’ names appear in this report only because they are considered essential to the objective of the document.</p></div>
-<div class="kw">Keywords: document, information, government, report, does, manufacturers, notice, disseminated, sponsorship, department, transportation, interest, exchange, assumes</div>
 
 
 <span id="p3" class="anchor"></span>
@@ -71,4 +62,3 @@ sidebar:
 <h4>20. SECURITY CLASSIF. (OF THIS PAGE) Unclassified</h4>
 <h4>21. NO. OF PAGES 38 22. PRICE</h4>
 <p>Form DOT F 1700.7 (8-72) Reproduction of completed page authorized.</p></div>
-<div class="kw">Keywords: report, guide, pedestrian, safety, uncontrolled, page, crossing, locations, performing, organization, hsrc, address, countermeasures, agencies</div>

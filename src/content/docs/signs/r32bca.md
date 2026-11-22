@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>No Parking 4 To 7 Am 2 Hour Parking 7 6Pm Am To Except Sunda regulatory sign</dd>
 <dt>Legend</dt><dd>NO PARKING 4 TO 7 AM 2 HOUR PARKING 7 6PM AM TO EXCEPT SUNDAY</dd>
-<dt>Keywords</dt><dd class="kw">r32b(ca), no parking 4 to 7 am 2 hour parking 7 6pm am to except sunda, no parking 4 to 7 am 2 hour parking 7 6pm am to except sunday, parking, hour, except, sunday, regulatory sign, other, curb, loading</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r32">R32 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

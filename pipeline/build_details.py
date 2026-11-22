@@ -5,9 +5,12 @@
 """
 import sys, os as _os
 sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
-from apply_clean_util import notes_html
+from apply_clean_util import clean_notes, notes_html
 import html, json, os, re, sys, glob
-import pymupdf
+try:
+    import pymupdf
+except ImportError:
+    pymupdf = None
 sys.path.insert(0, os.path.dirname(__file__))
 from topics_def import T, GROUPS
 BASE = "/SoCal-Super-Standards"
@@ -17,6 +20,12 @@ TOPIC_RX = {t[0]: re.compile(t[4] + "|" + t[6], re.I) for t in T}
 TOPIC_NAME = {t[0]: t[1] for t in T}
 def topics_for(text):
     return [k for k, rx in TOPIC_RX.items() if rx.search(text or "")]
+
+prev_fig_titles = {}
+if os.path.exists("public/data/details.json"):
+    for _it in json.load(open("public/data/details.json")):
+        if _it.get("type") == "Figure page" and _it.get("url") and _it.get("title"):
+            prev_fig_titles[_it["url"]] = _it["title"]
 
 items = []
 ca_figs = json.load(open("data/ca-mutcd/figures.json"))
@@ -36,17 +45,19 @@ dwg_pages = []
 for c in cfg:
     d = json.load(open(f"data/docs/{c['slug'].replace('/', '__')}.json"))
     pages = {p["page"]: p for p in d["pages"]}
-    # running section labels from bookmarks (level <= 2) for design guides
-    doc = pymupdf.open(c["path"])
-    toc = [t for t in doc.get_toc() if t[0] <= 2 and t[2] >= 1 and not t[1].startswith(("_", "section", "toc-", "typical-")) and not t[1].lower().endswith(".pdf")]
-    run, cur = {}, ""
-    tocd = {}
-    for lvl, title, pg in toc:
-        tocd.setdefault(pg, []).append(re.sub(r"\s+", " ", title).strip())
-    for pno in range(1, len(doc) + 1):
-        if pno in tocd:
-            cur = tocd[pno][-1]
-        run[pno] = cur
+    # running section labels from bookmarks (level <= 2) for design guides when PDF is present
+    run = {}
+    if pymupdf and os.path.exists(c["path"]):
+        doc = pymupdf.open(c["path"])
+        toc = [t for t in doc.get_toc() if t[0] <= 2 and t[2] >= 1 and not t[1].startswith(("_", "section", "toc-", "typical-")) and not t[1].lower().endswith(".pdf")]
+        cur = ""
+        tocd = {}
+        for lvl, title, pg in toc:
+            tocd.setdefault(pg, []).append(re.sub(r"\s+", " ", title).strip())
+        for pno in range(1, len(doc) + 1):
+            if pno in tocd:
+                cur = tocd[pno][-1]
+            run[pno] = cur
     # group sheets by primary drawing
     groups = {}
     AG = c.get("agency", "LADOT"); ag = AG.lower()
@@ -85,36 +96,43 @@ for c in cfg:
         sheet_html = ""
         for j, p in enumerate(sheets, 1):
             red = rd.get(p["page"])
-            sheet_html += (f'\n### Sheet {j} of {len(sheets)} (document page {p["page"]})\n\n' +
+            c_notes = clean_notes((p.get("clean") or {}).get("notes", ""))
+            raw_notes = "" if (p.get("clean") or {}).get("notes") is not None else clean_notes(p.get("text", "")[:5000])
+            if c_notes:
+                notes_blk = f'<details class="ocr"><summary>Sheet notes</summary>{notes_html(c_notes)}</details>\n'
+            elif raw_notes:
+                notes_blk = f'<details class="ocr"><summary>Sheet text</summary><p>{esc(raw_notes)}</p></details>\n'
+            else:
+                notes_blk = ""
+            sh_head = f'\n### Sheet {j} of {len(sheets)} (page {p["page"]})\n\n' if len(sheets) > 1 else "\n"
+            sheet_html += (sh_head +
                            (f'<figure class="dfig redraw"><a href="{red["svg"]}" target="_blank"><img loading="lazy" src="{red["svg"]}" alt="{esc(k)} sheet {j}, redrawn"></a>'
-                            f'<figcaption>Redrawn in consistent SoCal Super Standards detail style ({"vector rebuild" if red["kind"] == "vector" else "traced from the scan, text re-set from OCR"}). Click to open full size. Reference only; the original LADOT sheet is below.</figcaption></figure>'
+                            f'<figcaption>Redrawn reference diagram. Original LADOT sheet below.</figcaption></figure>'
                             f'<details class="orig"><summary>Original LADOT sheet</summary>' if red else "") +
                            f'<figure class="dfig"><a href="{p["image"]}" target="_blank"><img loading="lazy" src="{p["image"]}" alt="{esc(k)} sheet {j}"></a>'
                            f'<figcaption>{esc(c["short"])} {esc(k)}, sheet {j}. <a href="{p["url"]}">Open in the document</a>.</figcaption></figure>\n'
-                           f'{"</details>" if red else ""}' + (f'<details class="sdesc" open><summary>What this sheet shows</summary>{notes_html(p["clean"]["description"])}</details>\n' if (p.get("clean") or {}).get("description") else "") + (f'<details class="ocr" open><summary>Notes on this sheet (cleaned from the {"scan" if p["ocr"] else "PDF text"})</summary>{notes_html(p["clean"]["notes"])}</details>\n' if (p.get("clean") or {}).get("notes") else f'<details class="ocr"><summary>Notes and text on this sheet{" (OCR)" if p["ocr"] else ""}</summary><p>{esc(p["text"][:5000])}</p></details>\n'))
+                           f'{"</details>" if red else ""}' + notes_blk)
         sign_html = "".join(f'<a class="tsign sref" href="{BASE}/signs/{signs[x]["slug"]}/" data-svg="{BASE}{signs[x]["svg"]}"><img loading="lazy" src="{BASE}{signs[x]["svg"]}" alt="{esc(x)}"><span><b>{esc(x)}</b> {esc(signs[x]["descriptor"][:40])}</span></a>' for x in codes if x in signs)
         sec_html = ", ".join(f'<a href="{ca_secs[x]["url"]}">CA MUTCD {esc(x)} {esc(ca_secs[x]["title"][:60])}</a>' for x in secs if x in ca_secs)
-        top_html = " ".join(f'<a class="chip" href="{BASE}/topics/{t}/">{esc(TOPIC_NAME[t])}</a>' for t in tops)
+        sheet_word = "sheet" if len(sheets) == 1 else "sheets"
+        page_word = "Page" if len(sheets) == 1 else "Pages"
+        sheets_h = "## Sheet" if len(sheets) == 1 else "## Sheets"
         md = f'''---
 title: "{k} {title.replace(chr(34), "'")}"
-description: "{c['short']} standard drawing {k}: {title.replace(chr(34), "'")}. {(summary.split('. ')[0].rstrip('.').replace(chr(34), "'") + '.') if summary else (str(len(sheets)) + ' sheet(s).')}"
+description: "{c['short']} standard drawing {k}: {title.replace(chr(34), "'")}. {(summary.split('. ')[0].rstrip('.').replace(chr(34), "'") + '.') if summary else (str(len(sheets)) + ' ' + sheet_word + '.')}"
 tableOfContents: false
 ---
 
 <div class="dwg-head"><div><span class="dwg-num">{esc(k)}</span><span class="dwg-src">{esc(c["title"])} &middot; {esc(c["edition"])}</span></div>
-<div class="dwg-facts"><span><b>{len(sheets)}</b> sheet(s)</span>{f'<span>Dated <b>{esc(meta["date"])}</b></span>' if meta.get("date") else ""}<span>Pages {", ".join(str(p["page"]) for p in sheets)}</span></div></div>
+<div class="dwg-facts"><span><b>{len(sheets)}</b> {sheet_word}</span>{f'<span>Dated <b>{esc(meta["date"])}</b></span>' if meta.get("date") else ""}<span>{page_word} {", ".join(str(p["page"]) for p in sheets)}</span></div></div>
 
 <div class="dwg-nav">{prev_l} <a href="{BASE}/details/?src={esc(c["short"])}">All {esc(c["short"])} drawings</a> {next_l}</div>
 
-{('<p class="dwg-sum">' + esc(summary) + '</p>') if summary else ''}
-{('<p class="dwg-topics">Topics: ' + top_html + '</p>') if top_html else ''}
 {('<p>Referenced MUTCD sections: ' + sec_html + '</p>') if sec_html else ''}
 {('<h2>Signs on this drawing</h2><div class="tsigns">' + sign_html + '</div>') if sign_html else ''}
 
-## Sheets
+{sheets_h}
 {sheet_html}
-
-<div class="kw">Keywords: {esc(", ".join(kw[:30]))}</div>
 '''
         open(f"src/content/docs/details/{ag}/{slug}.md", "w").write(md)
         items.append({"src": c["short"], "sg": AG, "type": "Standard drawing", "num": k, "title": title, "img": sheets[0]["image"],
@@ -124,9 +142,11 @@ tableOfContents: false
     for p in d["pages"]:
         if p["image"] and not p["drawings"]:
             lab = run.get(p["page"], "")
-            t = (p.get("clean") or {}).get("title") or p["title"] or lab or f"Page {p['page']}"
+            t = (p.get("clean") or {}).get("title") or p["title"] or lab or prev_fig_titles.get(p["url"]) or f"Page {p['page']}"
             if lab and p["title"] and lab not in p["title"]:
                 t = f"{lab}: {p['title']}"
+            elif not run and prev_fig_titles.get(p["url"]) and not (p.get("clean") or {}).get("title"):
+                t = prev_fig_titles[p["url"]]
             items.append({"src": c["short"], "sg": AG, "type": "Figure page", "num": f"p{p['page']}", "title": t[:150], "img": p["image"],
                           "url": p["url"], "topics": topics_for(t + " " + " ".join(p["keywords"][:8])), "signs": p["sign_codes"][:8],
                           "kw": ", ".join((p.get("clean") or {}).get("keywords") or p["keywords"][:12]), "sum": (p.get("clean") or {}).get("summary", "")[:400]})

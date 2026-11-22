@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>CAUTION FREQUENT STOPPING AND BACKING STAY BACK 100 FEET Sign work zone sign</dd>
 <dt>Legend</dt><dd>CAUTION FREQUENT STOPPING AND BACKING STAY BACK 100 FEET</dd>
-<dt>Keywords</dt><dd class="kw">sc21(ca), caution frequent stopping and backing stay back 100 feet sign, caution frequent stopping and backing stay back 100 feet, caution, frequent, stopping, and, backing, stay, back, feet, work zone sign, other, stop control</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#ttc">Temporary Traffic Control Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sc21">SC21 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

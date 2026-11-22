@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>8 Hour Parking Unauthorized Vehicles Parked For More Than 8 school sign</dd>
 <dt>Legend</dt><dd>8 HOUR PARKING UNAUTHORIZED VEHICLES PARKED FOR MORE THAN 8 HOURS WITHIN A ROADSIDE OA RE ES ST T OR VI STA TA POINT MAY BE TOWED AT OWNER’S EXPENSE. FACILITIES AC WITHIN 7 MILES OF EACH OTHER ARE CONSIDERED TO BE THE SAME FACILITY. (Telephone Te Number) TELEPHONE:</dd>
-<dt>Keywords</dt><dd class="kw">s23(ca), 8 hour parking unauthorized vehicles parked for more than 8, 8 hour parking unauthorized vehicles parked for more than 8 hours within a roadside oa re es st t or vi sta ta point may be towed at owner’s expense. facilities ac within 7 miles of each other are considered to be the same facility. (telephone te number) telephone:, hour, parking, unauthorized, vehicles, parked, for, more, than, hours, within, roadside, point, may, towed, owner, expense, facilities, miles, each, other, are, considered, the, same, facility</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#school">School Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-s23">S23 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

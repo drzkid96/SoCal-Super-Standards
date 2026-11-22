@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>No Soliciting Streets And Highways Code - Section 225.5 school sign</dd>
 <dt>Legend</dt><dd>NO SOLICITING STREETS AND HIGHWAYS CODE - SECTION 225.5</dd>
-<dt>Keywords</dt><dd class="kw">s24(ca), no soliciting streets and highways code, section 225.5, soliciting, streets, and, highways, code, section, school sign, other, srts</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#school">School Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-s24">S24 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

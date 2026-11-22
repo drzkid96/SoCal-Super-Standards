@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Citywide plaque</dd>
 <dt>Legend</dt><dd>CITYWIDE (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">r2-5ap, citywide (plaque), citywide, regulatory sign, speed limits, speed, speed zone, traffic calming, white, black</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r2">R2 &middot; Speed limits</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE)</dd>

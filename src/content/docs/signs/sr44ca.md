@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Bus and Truck Registration Sign regulatory sign</dd>
 <dt>Legend</dt><dd>BUS AND TRUCK INTERSTATE CARRIERS MUST REGISTER WITH THE CALIFORNIA P.U.C. TEL (415) 703 - 2177</dd>
-<dt>Keywords</dt><dd class="kw">sr44(ca), bus and truck registration sign, bus and truck interstate carriers must register with the california p.u.c. tel (415) 703, 2177, bus, and, truck, interstate, carriers, must, register, with, the, california, regulatory sign, other, transit</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sr44">SR44 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

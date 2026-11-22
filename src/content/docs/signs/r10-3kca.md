@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Push Or Wave At Button To Turn On Warning Lights regulatory sign</dd>
 <dt>Legend</dt><dd>PUSH OR WAVE AT BUTTON TO TURN ON WARNING LIGHTS</dd>
-<dt>Keywords</dt><dd class="kw">r10-3k(ca), push or wave at button to turn on warning lights, push, wave, button, turn, warning, lights, regulatory sign, traffic signals, traffic signal, signal operation</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r10">R10 &middot; Traffic signals</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

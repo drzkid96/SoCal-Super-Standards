@@ -22,7 +22,6 @@ sidebar:
 <p>1NHSTA, “FARS Data Query: 2016 Data.” Fatality Analysis Reporting System (FARS) Encyclopedia. (2017). https://www-fars.nhtsa.dot.gov//QueryTool/QuerySection/ SelectYear.aspx</p>
 <p>Figure 1. Process diagram for selecting countermeasures at uncontrolled pedestrian</p>
 <p>crossing locations.</p></div>
-<div class="kw">Keywords: pedestrian, locations, crossing, guide, safety, uncontrolled, fars, occur, steps, agency, selecting, countermeasures, introduction, pedestrians</div>
 
 
 <span id="p9" class="anchor"></span>
@@ -37,4 +36,3 @@ sidebar:
 <p>Building a safe and connected pedestrian network requires consideration of topics beyond what is included in this guide. This guide does not include methods for prioritizing sidewalk improvements, but agencies should consider giving special attention to connecting the pedestrian network with sidewalks, walkways, paved shoulders, and trails and paths. The ActiveTrans Priority Tool was created through the National Cooperative Highway Research Program and can provide agencies with automated resources to prioritize pedestrian and bicycle improvements.</p>
 <p>Pedestrian crossings in or near school zones are not specifically addressed in this guide, as these crossings may be subject to other guidance or other considerations. Agencies may refer to the "Safe Routes to School Briefing Sheets: School Area Traffic Control" produced by the Institute of Transportation Engineers (ITE) for guidance on improving pedestrian crossings near schools.</p>
 <p>This guide does not describe pedestrian crossing requirements per the Americans with Disabilities Act (ADA), although ADA requirements should be addressed as part of any pedestrian crossing improvements project. For more information about ADA accessibility requirements, the agency should consult the US Access Board's 1991 ADA Accessibility Guidelines (ADAAG), the 2010 Standards for Accessible Design, and the 2011 Proposed Accessibility Guidelines for Pedestrian Facilities in the Public Right-of-Way (proposed PROWAG).</p></div>
-<div class="kw">Keywords: pedestrian, guide, countermeasures, agency, reference, design, safety, crossing, traffic, does, guidelines, improvements, agencies, crossings</div>

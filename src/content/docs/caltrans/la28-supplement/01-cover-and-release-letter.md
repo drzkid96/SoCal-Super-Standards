@@ -11,9 +11,8 @@ sidebar:
 
 ### Page 1 - Los Angeles 2028 Olympics and Paralympics (LA28)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0001.webp" alt="LA28 Supplement page 1 Los Angeles 2028 Olympics and Paralympics (LA28)"></a><figcaption>LA28 Supplement, page 1. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>Los Angeles 2028 Olympics and Paralympics (LA28) SUPPLEMENT To CA MUTCD 2026 (FHWA's MUTCD 2023 Edition, as amended for use in California) July 15, 2026 </p></details>
-<div class="kw">Keywords: mutcd, angeles, olympics, paralympics, supplement, fhwa, edition, amended, california, july</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0001.webp" alt="LA28 Supplement page 1 Los Angeles 2028 Olympics and Paralympics (LA28)"></a><figcaption>LA28 Supplement, page 1.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>Los Angeles 2028 Olympics and Paralympics (LA28) SUPPLEMENT To CA MUTCD 2026 (FHWA's MUTCD 2023 Edition, as amended for use in California) July 15, 2026 </p></details>
 
 
 <span id="p2" class="anchor"></span>
@@ -25,7 +24,6 @@ sidebar:
 <h4>NOTE: The contents of this publication are not copyrighted. They may be reprinted freely.</h4>
 <h4>The CA MUTCD 2026 LA28 Supplement is available on the Caltrans Web Page at:</h4>
 <h4>https://dot.ca.gov/programs/safety-programs/camutcd</h4></div>
-<div class="kw">Keywords: mutcd, supplement, page, july, note, contents, publication, copyrighted, they, reprinted, freely, available, caltrans, https</div>
 
 
 <span id="p3" class="anchor"></span>
@@ -33,7 +31,7 @@ sidebar:
 ### Page 3 - GAVIN NEWSOM, GOVERNOR
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0003.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0003.webp" alt="LA28 Supplement page 3 GAVIN NEWSOM, GOVERNOR"></a><figcaption>LA28 Supplement, page 3. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0003.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0003.webp" alt="LA28 Supplement page 3 GAVIN NEWSOM, GOVERNOR"></a><figcaption>LA28 Supplement, page 3.</figcaption></figure>
 <div class="dtext"><p>CALIFORNIA STATE TRANSPORTATION AGENCY</p>
 <p>California Department of Transportation</p>
 <p>DIVIS ION OF SA FETY PROGRAMS P .0 . BOX 942873, MS-49 I SACRAMENTO , CA 9 4273-0001 (9 1 6) 654-6 1 30 [ FAX (9 1 6) 653-5776 TTY 7 1 1 [ www.dot.ca.gov</p>
@@ -48,14 +46,13 @@ sidebar:
 <p>" Im provin g l ives a nd communities through tra nsportatio n . "</p>
 <p>CA MUTCD 2026 LA28 Supplement Page 3</p>
 <p>Letters July 15, 2026</p></div>
-<div class="kw">Keywords: california, request, supplement, experiment, fhwa, traffic, devices, ctcdc, caltrans, transportation, department, july, county, control</div>
 
 
 <span id="p4" class="anchor"></span>
 
 ### Page 4 - Cisweey Cisweey
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0004.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0004.webp" alt="LA28 Supplement page 4 Cisweey Cisweey"></a><figcaption>LA28 Supplement, page 4. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0004.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0004.webp" alt="LA28 Supplement page 4 Cisweey Cisweey"></a><figcaption>LA28 Supplement, page 4.</figcaption></figure>
 <div class="dtext"><p>ta n|yoT qqS n nnnnfUhi n}y  y[|0 ruV| qY n}y   uVri X S}o ss geI gegg uT`[ g</p>
 <p>Id[ tmgh y~q[u[y  } nm tN J nngegg i rqV[ ~| [Z|z f[ r y[z[ T i d iddZ}aXTaa|d}b TudU\[U}cTueXTuXY lU{Z j U TXd [Z | d[ Ty uk  j}y }\ e j [uTiqa</p>
 <p>nTqT{ j `U [\q} d[nKnnn v[uW[  \} } kZjz` jzT sTW s[  kv[T{Z ~~| \} d[ Y[[ s|~u[z |] f i ~  q[u[z  | f[ nmtOIn ngegga</p>
@@ -71,4 +68,3 @@ sidebar:
 <p>==7&lt;H</p>
 <p>!H</p>
 <p>D)GH  H  H</p></div>
-<div class="kw">Keywords: gegg, tmgh, cisweey, ytyx, ntyu, nfuh, iddz, axtaa, extu, utiqa, nknnn, kzjz, toin, gegga</div>

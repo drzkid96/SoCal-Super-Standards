@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Trucks Not Given Bypass Pa Signal Mu St Enter Open Scales regulatory sign</dd>
 <dt>Legend</dt><dd>TRUCKS NOT GIVEN BYPASS PA SIGNAL MU ST ENTER OPEN SCALES</dd>
-<dt>Keywords</dt><dd class="kw">sr17(ca), trucks not given bypass pa signal mu st enter open scales, trucks, not, given, bypass, signal, enter, open, scales, regulatory sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sr17">SR17 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

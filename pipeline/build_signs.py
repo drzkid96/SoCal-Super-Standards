@@ -344,7 +344,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>{esc(rec['descriptor'])}</dd>
 <dt>Legend</dt><dd>{esc(rec.get('caption') or '-')}</dd>
-<dt>Keywords</dt><dd class="kw">{esc(', '.join(rec['keywords']))}</dd>
 <dt>Type</dt><dd><a href="{BASE}/signs/#{CATS.get(rec['category'], 'other')}">{esc(rec['category'])}</a></dd>
 <dt>Series</dt><dd><a href="{BASE}/signs/#series-{rec['series'].lower()}">{esc(rec['series'])} &middot; {esc(rec['series_name'])}</a></dd>
 <dt>Colors</dt><dd>{esc(rec['colors'].split(rec['code'])[0].strip() if rec['colors'] else 'See layout')}</dd>
@@ -360,8 +359,7 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 {tbl or ('<p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>' if rec.get('ca_only') else '<p>See the FHWA layout sheet for dimensions.</p>')}
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
+{('<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>') if tbl else ''}
 
 ## Governing sections
 

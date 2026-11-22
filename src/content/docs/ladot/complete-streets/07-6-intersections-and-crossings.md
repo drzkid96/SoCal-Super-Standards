@@ -13,12 +13,11 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, signals, intersections</div>
 <div class="dtext"><p>161</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6. INTERSECTIONS AND CROSSINGS</h4>
 <h4>Introduction</h4>
 <p>Intersections and crossings are where all travel modes converge and intermix, so their design is especially important to the creation of Complete Streets. Pedestrians and bicyclists are most at risk for injury in the event of a crash with a motor vehicle, so the design of intersections and crossings should prioritize their needs. This chapter presents design components that improve safety and efficiency using a variety of methods, including structural enhancements, surface treatments, signal timing, and signal prioritization.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: design, intersections, crossings, complete, streets, signal, guide, introduction, travel, modes, converge, intermix, especially, important</div>
 
 
 <span id="p170" class="anchor"></span>
@@ -46,7 +45,6 @@ sidebar:
 <h4>Considerations</h4>
 <p>•• Crossings should be provided on all legs of the intersection unless an intersection’s unique geometry (with LADOT’s engineering judgment) warrants restricting access for safety and visibility reasons.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrian, crossings, crosswalk, intersections, stop, intersection, pedestrians, motorists, volumes, vehicular, crossing, controlled, traffic, signals</div>
 
 
 <span id="p171" class="anchor"></span>
@@ -55,7 +53,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, signals, striping, signs, accessibility, intersections</div>
 <div class="dtext"><p>163</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Design Guidance</h4>
 <p>•• Continental striping is now a common crosswalk treatment in Los Angeles (see LADOT standard plan 481.1). Continental striping provides high visibility for both motorists and pedestrians. They consist of 24” wide bars (placed perpendicular to the path of travel), with bars generally painted in line with lane and centerline striping; in this arrangement vehicle tire paths go between the bars to reduce wear, reducing the frequency of repainting.</p>
 <p>•• The engineering study should consider the number of lanes, the presence of a median, the distance from adjacent signalized intersections, the pedestrian volumes and delays, the average daily traffic (ADT), the posted or statutory speed limit or 85th-percentile speed, the geometry of the location, the possible consolidation of multiple crossing points, the availability of street lighting, and other appropriate factors.</p>
@@ -67,7 +65,6 @@ sidebar:
 <h4>Physical Enhancements - Pedestrian</h4>
 <p>Continental crosswalks can be an important component of safe mid-block crossings.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: crosswalk, striping, crosswalks, crossings, continental, pedestrians, bars, pedestrian, speed, curb, streets, design, intersections, high</div>
 
 
 <span id="p172" class="anchor"></span>
@@ -88,7 +85,6 @@ sidebar:
 <p>CA Vehicle Code (21368)***</p>
 <h4>Physical Enhancements - Pedestrian</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: crosswalks, pedestrian, design, guide, city, angeles, department, transportation, standard, approaches, crosswalk, long, high, vehicle</div>
 
 
 <span id="p173" class="anchor"></span>
@@ -97,7 +93,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-481.0</strong>, <strong>S-481.1</strong>, <strong>S-601</strong> &middot; Topics: crosswalks, accessibility, intersections</div>
 <div class="dtext"><p>165</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.2 Decorative Pavement Materials</h4>
 <p>Decorative pavement materials can utilize different colors, textures, and patterns to distinguish crosswalk markings and/or intersections in certain environments. However, use is discouraged with priority given to LADOT’s standard plans for high-visibility continental crosswalls.</p>
 <h4>Physical Enhancements - Pedestrian</h4>
@@ -118,7 +114,6 @@ sidebar:
 <h4>References</h4>
 <p>ADA and Title 24 standards for more information.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: decorative, pavement, materials, crosswalks, they, intersections, crossings, standard, continental, pedestrian, design, colors, textures, patterns</div>
 
 
 <span id="p174" class="anchor"></span>
@@ -147,7 +142,6 @@ sidebar:
 <p>LA County Model Design Manual for Living Streets</p>
 <p>FHWA PedSafe -- http://www.pedbikesafe.org/PEDSAFE/ countermeasures_detail.cfm?CM_NUM=13</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: advance, yield, markings, crosswalks, unsignalized, uncontrolled, design, pedestrians, pedestrian, crossing, stop, streets, placed, motorists</div>
 
 
 <span id="p175" class="anchor"></span>
@@ -155,9 +149,9 @@ sidebar:
 ### Page 175 - 6.4 Raised Crosswalk
 
 <div class="pmeta">Topics: crosswalks, transit, signals, speed-calming, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0175.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0175.webp" alt="Complete Streets DG page 175 6.4 Raised Crosswalk"></a><figcaption>Complete Streets DG, page 175. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0175.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0175.webp" alt="Complete Streets DG page 175 6.4 Raised Crosswalk"></a><figcaption>Complete Streets DG, page 175.</figcaption></figure>
 <div class="dtext"><p>167</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.4 Raised Crosswalk</h4>
 <p>A raised crosswalk is a pedestrian walkway that is at the same level of the sidewalk. In addition, a raised crosswalk also serves as a speed table that slows approaching traffic.</p>
 <h4>Physical Enhancements - Pedestrian</h4>
@@ -172,7 +166,6 @@ sidebar:
 <p>•• They are useful in situations where unsafe vehicle speeds pose a threat to pedestrians, particularly around schools, parks, retail districts, and other pedestrian-heavy destinations.</p>
 <p>•• They should also be considered at crossings where there are issues of poor pedestrian visibility and motorist yielding, or where there is a pattern of collisions indicating points of conflicts between pedestrians and motorists.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrians, crossings, raised, crosswalk, pedestrian, they, motorists, streets, intersections, table, especially, curb, visibility, midblock</div>
 
 
 <span id="p176" class="anchor"></span>
@@ -180,7 +173,7 @@ sidebar:
 ### Page 176 - Considerations
 
 <div class="pmeta">Topics: crosswalks, transit, parking-curb, speed-calming, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0176.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0176.webp" alt="Complete Streets DG page 176 Considerations"></a><figcaption>Complete Streets DG, page 176. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0176.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0176.webp" alt="Complete Streets DG page 176 Considerations"></a><figcaption>Complete Streets DG, page 176.</figcaption></figure>
 <div class="dtext"><p>168</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>Considerations</h4>
@@ -199,7 +192,6 @@ sidebar:
 <h4>References</h4>
 <p>ITE/FHWA document Traffic Calming: State of the Practice</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: raised, crosswalks, streets, wide, crossings, design, impact, speed, materials, they, table, enhancements, order, pedestrians</div>
 
 
 <span id="p177" class="anchor"></span>
@@ -208,7 +200,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, transit, signals, parking-curb, accessibility, intersections</div>
 <div class="dtext"><p>169</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.5 Corner Bulbout</h4>
 <p>A corner bulbout is a curb extension at intersection corners, making vehicular turning movements safer and pedestrian crossings shorter.</p>
 <h4>Physical Enhancements - Pedestrian</h4>
@@ -229,7 +221,6 @@ sidebar:
 <p>Image courtesy of Cityworks Design</p>
 <p>Image courtesy of Cityworks Design</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: turning, design, crossings, curb, pedestrian, pedestrians, space, bulbouts, they, vehicles, streets, intersections, corner, bulbout</div>
 
 
 <span id="p178" class="anchor"></span>
@@ -237,7 +228,7 @@ sidebar:
 ### Page 178 - Design Guidance
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb, striping, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0178.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0178.webp" alt="Complete Streets DG page 178 Design Guidance"></a><figcaption>Complete Streets DG, page 178. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0178.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0178.webp" alt="Complete Streets DG page 178 Design Guidance"></a><figcaption>Complete Streets DG, page 178.</figcaption></figure>
 <div class="dtext"><p>170</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>Design Guidance</h4>
@@ -253,7 +244,6 @@ sidebar:
 <h4>References</h4>
 <p>AASHTO Guide for the Planning, Design and Operation of Pedestrian Facilities</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: curb, bulbout, design, bulbouts, guide, pedestrian, intersections, width, lane, drainage, flows, types, extensions, interim</div>
 
 
 <span id="p179" class="anchor"></span>
@@ -262,7 +252,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, bikeways, parking-curb, accessibility, intersections</div>
 <div class="dtext"><p>171</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.6 Curb Radius</h4>
 <p>The curb radius determines the shape of the curb at street corners. A corner curb with a large radius has a broad arc, while a curb with a smaller radius has a sharper curve. Smaller radii generally encourage slower, safer vehicular turning movements. The curb radius is a primary factor in determining the effective turning radius, which is the actual radius available for a vehicle to make a turn at an intersection.</p>
 <h4>Physical Enhancements - Pedestrian</h4>
@@ -280,7 +270,6 @@ sidebar:
 <p>A smaller curb radius also makes it possible for unidirectional curb ramps to lead directly to crosswalks.</p>
 <p>The effective turning radius is a property of both the actual curb radius and the placement of turning lanes.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: curb, radius, turning, smaller, corner, radii, effective, street, movements, pedestrian, lanes, intersections, corners, large</div>
 
 
 <span id="p180" class="anchor"></span>
@@ -289,7 +278,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, transit, striping, accessibility, intersections</div>
 <div class="dtext"><p>172</p>
-<p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
+<p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Design Guidance</h4>
 <p>•• Curb radii should be minimized as much as possible. A larger curb radius may be necessary for some roadways with high truck volumes (such as truck routes).</p>
 <p>•• A curb designed with a smaller curb radius should incorporate unidirectional curb ramps, where applicable: unidirectional ramps direct pedestrians – especially the visually impaired – in line with the crosswalk. Unidirectional curb ramps have a distinct advantage over bidirectional curb ramps; in the latter, pedestrians waiting at the base of the corner ramp may be vulnerable to injury by motorists that inadvertently mount the curb. (For further discussion, see Section 6.7 “Curb Ramp”.)</p>
@@ -303,7 +292,6 @@ sidebar:
 <p>♦♦Transit buses: At intersections along transit routes, curb and/or effective radii should be designed for a bus with a wheelbase of 40 feet (BU-40) or greater.</p>
 <p>Examples of different curb radii</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: curb, radius, radii, ramps, vehicles, able, trucks, design, some, routes, designed, unidirectional, corner, pedestrian</div>
 
 
 <span id="p181" class="anchor"></span>
@@ -312,7 +300,7 @@ sidebar:
 
 <div class="pmeta">Topics: transit, parking-curb, striping, intersections</div>
 <div class="dtext"><p>173</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>General guidelines for curb radii:</h4>
 <p>♦♦15’ for new construction</p>
 <p>♦♦15’ for intersections without corner bulbouts or curbside parking</p>
@@ -326,7 +314,6 @@ sidebar:
 <h4>Physical Enhancements - Pedestrian</h4>
 <p>Turning movements for long vehicles can be accomodated by setting the stop line further back from the intersection</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: streets, intersections, corner, bulbouts, turning, design, curb, curbside, parking, truck, high, volumes, enhanced, interim</div>
 
 
 <span id="p182" class="anchor"></span>
@@ -353,7 +340,6 @@ sidebar:
 <p>•• Feasibility and cost considerations may favor not installing unidirectional ramps because of existing utilities and physical site-specific conditions.</p>
 <p>•• The accumulation of water or debris at the base of curb ramps should be avoided.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: ramp, curb, ramps, intersections, corner, bidirectional, users, pedestrians, unidirectional, placed, intersection, base, crossings, design</div>
 
 
 <span id="p183" class="anchor"></span>
@@ -362,7 +348,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-442</strong> &middot; Topics: crosswalks, parking-curb, accessibility, intersections</div>
 <div class="dtext"><p>175</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Design Guidance</h4>
 <p>•• A level landing pad, no greater than 2% slope in any direction and a minimum of 4’ wide perpendicular to the curb, must be provided on the sidewalk.</p>
 <p>•• Curb ramps should be accompanied by detectable warning strips that meet ADA standards.</p>
@@ -377,7 +363,6 @@ sidebar:
 <h4>Physical Enhancements - Pedestrian</h4>
 <p>A unidrectional ramp leads directly to the crosswalk in the desired direction of travel.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: curb, ramps, design, ramp, intersections, crossings, direction, detectable, warning, street, local, state, pedestrian, complete</div>
 
 
 <span id="p184" class="anchor"></span>
@@ -386,7 +371,7 @@ sidebar:
 
 <div class="pmeta">Topics: transit, signals, parking-curb, intersections</div>
 <div class="dtext"><p>176</p>
-<p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
+<p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>6.8 Crossing Refuge Island</h4>
 <p>A crossing refuge island provides a waiting area on the street median to help pedestrians complete long crossings.</p>
 <h4>Physical Enhancements - Pedestrian</h4>
@@ -403,7 +388,6 @@ sidebar:
 <p>•• They can be applied on wider multi-lane roadways (at least four total lanes) at the midblock or intersection, when crossing distances cannot be conveniently traversed with one stage.</p>
 <p>•• They should be located in places where pedestrians commonly cross, such as schools, large offices, retail destinations, senior housing, transit stations, and major midblock bus stops.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrians, crossing, refuge, island, midblock, crossings, allows, cross, vehicle, they, intersections, complete, streets, provides</div>
 
 
 <span id="p185" class="anchor"></span>
@@ -411,9 +395,9 @@ sidebar:
 ### Page 185 - Considerations
 
 <div class="pmeta">Topics: crosswalks, signs, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0185.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0185.webp" alt="Complete Streets DG page 185 Considerations"></a><figcaption>Complete Streets DG, page 185. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0185.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0185.webp" alt="Complete Streets DG page 185 Considerations"></a><figcaption>Complete Streets DG, page 185.</figcaption></figure>
 <div class="dtext"><p>177</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <p>•• Crossing refuge islands should be considered where crossing distances are greater than 50’.</p>
 <p>•• They should have proper lighting, signage, reflectors, and drainage accommodations.</p>
 <p>•• On narrower medians, the refuge island should be as wide as the crosswalk (at least 6’ wide but preferably 8’-10’) and be level with the roadway.</p>
@@ -431,7 +415,6 @@ sidebar:
 <h4>Physical Enhancements - Pedestrian</h4>
 <p>Crossing Refuge Islands should be marked by signs.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: crossing, islands, refuge, design, median, wide, raised, visibility, crossings, they, drainage, medians, island, crosswalk</div>
 
 
 <span id="p186" class="anchor"></span>
@@ -456,7 +439,6 @@ sidebar:
 <p>•• Where a driveway crosses the sidewalk, it should maintain a level walkway. Driveway aprons that encroach onto the pedestrian zone can render a sidewalk impassable to users of wheelchairs, walkers, and crutches.</p>
 <p>•• Whenever possible, driveways should be equipped with the proper signage, blind spot mirrors, and tactile surface treatments to alert drivers that pedestrians may be crossing the sidewalk.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: driveways, sidewalk, pedestrian, driveway, pedestrians, design, drivers, while, they, potential, bicyclists, fewer, vehicles, signage</div>
 
 
 <span id="p187" class="anchor"></span>
@@ -465,7 +447,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-440</strong> &middot; Topics: parking-curb, intersections</div>
 <div class="dtext"><p>179</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <p>•• Commercial, industrial, and large residential properties should consolidate driveways. Where possible, parking should be shared amongst multiple uses, including loading areas for trucks.</p>
 <p>•• Where applicable, site access should be designed from the alley.</p>
 <p>•• Corner lots should locate driveways on the minor street to avoid conflicts on the major arterial.</p>
@@ -477,7 +459,6 @@ sidebar:
 <p>•• The Los Angeles Municipal Code discusses driveway location in Sections 62.105.1, 62.105.2, 62.105.3 and 62.105.4</p>
 <h4>Physical Enhancements - Pedestrian</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: driveways, angeles, design, city, discusses, driveway, complete, streets, guide, intersections, crossings, commercial, industrial, large</div>
 
 
 <span id="p188" class="anchor"></span>
@@ -504,7 +485,6 @@ sidebar:
 <h4>Considerations</h4>
 <p>•• If a full bike lane pocket cannot be accommodated, a shared bicycle/right turn lane can be installed that places a standard-width bike lane on the left side of a dedicated right-turn lane. This treatment may include signs advising motorists and bicyclists of proper positioning within the lane.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, bike, lanes, intersections, bicycle, streets, motorists, right-turn, markings, approaching, intersection, bicyclists, they, applied</div>
 
 
 <span id="p189" class="anchor"></span>
@@ -513,7 +493,7 @@ sidebar:
 
 <div class="pmeta">Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r4-4/" data-svg="/SoCal-Super-Standards/signs/R4-4.svg">R4-4</a> &middot; Topics: bikeways, transit, intersections</div>
 <div class="dtext"><p>181</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Physical Enhancements - Bicycle</h4>
 <p>•• In cases where there is insufficient roadway space to accommodate a bike lane pocket, the bicycle lane may have to be dropped altogether. However, sharrows provide an alternative option for marking a bikeway through an intersection where a bike lane pocket cannot be accommodated.</p>
 <h4>Design Guidance</h4>
@@ -523,7 +503,6 @@ sidebar:
 <p>•• Include signage (MUTCD <a class="sref" href="/SoCal-Super-Standards/signs/r4-4/" data-svg="/SoCal-Super-Standards/signs/R4-4.svg">R4-4</a>) signifying merging of bike lane and vehicle.</p>
 <p>•• Include signage (MUTCD R3.7R) to force vehicle in right- turn lane to turn right.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, pocket, bicycle, bike, intersection, turn, design, roadway, through, merging, right, include, signage, mutcd</div>
 
 
 <span id="p190" class="anchor"></span>
@@ -531,9 +510,9 @@ sidebar:
 ### Page 190 - Physical Enhancements - Bicycle
 
 <div class="pmeta">Topics: bikeways, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0190.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0190.webp" alt="Complete Streets DG page 190 Physical Enhancements - Bicycle"></a><figcaption>Complete Streets DG, page 190. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0190.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0190.webp" alt="Complete Streets DG page 190 Physical Enhancements - Bicycle"></a><figcaption>Complete Streets DG, page 190.</figcaption></figure>
 <div class="dtext"><p>182</p>
-<p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
+<p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Physical Enhancements - Bicycle</h4>
 <h4>Other Discussion</h4>
 <p>Bicycle Lanes at Double Right Turn Intersections</p>
@@ -545,7 +524,6 @@ sidebar:
 <p>AASHTO Guide for the Development of Bicycle Facilities</p>
 <p>NACTO Urban Bikeway Design Guide</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, bicycle, lanes, right, turn, design, guide, double, across, bicyclists, outside, bicyclist, intersections, discussion</div>
 
 
 <span id="p191" class="anchor"></span>
@@ -553,9 +531,9 @@ sidebar:
 ### Page 191 - 6.11 Bicycle Pavement Markings through an Intersection
 
 <div class="pmeta">Topics: bikeways, signals, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0191.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0191.webp" alt="Complete Streets DG page 191 6.11 Bicycle Pavement Markings through an Intersection"></a><figcaption>Complete Streets DG, page 191. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0191.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0191.webp" alt="Complete Streets DG page 191 6.11 Bicycle Pavement Markings through an Intersection"></a><figcaption>Complete Streets DG, page 191.</figcaption></figure>
 <div class="dtext"><p>183</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.11 Bicycle Pavement Markings through an Intersection</h4>
 <p>Bicycle pavement markings provide a clear boundary to help guide bicyclists safely through intersections.</p>
 <h4>Physical Enhancements - Bicycle</h4>
@@ -572,7 +550,6 @@ sidebar:
 <h4>Considerations</h4>
 <p>•• Striping may not be required for every signalized intersection, and should be evaluated and implemented on a case-by-case basis.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: intersection, bicyclists, through, intersections, bicycle, markings, path, guide, pavement, motorists, streets, clear, straight, direct</div>
 
 
 <span id="p192" class="anchor"></span>
@@ -580,9 +557,9 @@ sidebar:
 ### Page 192 - Design Guidance
 
 <div class="pmeta">Topics: bikeways, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0192.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0192.webp" alt="Complete Streets DG page 192 Design Guidance"></a><figcaption>Complete Streets DG, page 192. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0192.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0192.webp" alt="Complete Streets DG page 192 Design Guidance"></a><figcaption>Complete Streets DG, page 192.</figcaption></figure>
 <div class="dtext"><p>184</p>
-<p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
+<p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Design Guidance</h4>
 <p>•• Dashed lines shall bind the path of travel (MUTCD 3B.08)</p>
 <p>•• Striping width should be a minimum of 6” adjacent to motor vehicle travel lanes and / or should otherwise match the striping dimensions and lateral positioning of the leading bike lane.</p>
@@ -593,7 +570,6 @@ sidebar:
 <p>NACTO Urban Bikeway Design Guide.</p>
 <h4>Physical Enhancements - Bicycle</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: dashed, lines, white, design, guide, striping, intersections, travel, mutcd, lane, bicycle, crossings, complete, streets</div>
 
 
 <span id="p193" class="anchor"></span>
@@ -602,7 +578,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, signals, striping, intersections</div>
 <div class="dtext"><p>185</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.12 Bicycle Box</h4>
 <p>A bicycle box is generally a right angle extension to a bicycle lane at the head of a signalized intersection. Bicycle boxes give bicyclists a clear, designated space in front of queued vehicles while waiting for a green light at intersections. Motorists must stop behind the white limit line at the back-end of the bicycle box and are restricted from making a right turn on a red light at the intersection. Bicycle boxes allow bicyclists to safely position themselves before shifting into their desired travel lane.</p>
 <h4>Physical Enhancements - Bicycle</h4>
@@ -620,7 +596,6 @@ sidebar:
 <p>•• They should be applied where a bicyclist’s left turn is required to follow a designated bike facility.</p>
 <p>•• They should be applied when the majority of motor vehicle traffic on the street turns right but bicycle traffic continues through the intersection.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, bicyclists, right, intersection, intersections, boxes, position, turns, applied, vehicles, light, motorists, turn, safely</div>
 
 
 <span id="p194" class="anchor"></span>
@@ -643,7 +618,6 @@ sidebar:
 <p>NACTO Urban Bikeway Guide</p>
 <p>Coloring a Bicycle Box increases the box’s visibility.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, design, stop, mutcd, vehicles, guide, allow, line, back, edge, present, turn, white, treatment</div>
 
 
 <span id="p195" class="anchor"></span>
@@ -651,9 +625,9 @@ sidebar:
 ### Page 195 - Benefits
 
 <div class="pmeta">Topics: crosswalks, bikeways, signals, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0195.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0195.webp" alt="Complete Streets DG page 195 Benefits"></a><figcaption>Complete Streets DG, page 195. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0195.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0195.webp" alt="Complete Streets DG page 195 Benefits"></a><figcaption>Complete Streets DG, page 195.</figcaption></figure>
 <div class="dtext"><p>187</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Benefits</h4>
 <p>•• Improves bicyclist ability to safely and comfortably make left turns</p>
 <p>•• Provides a formal queuing space for bicyclists making a two-stage turn</p>
@@ -665,7 +639,6 @@ sidebar:
 <h4>Physical Enhancements - Bicycle</h4>
 <p>A Two-Stage Turn Queue Box separates turning bicyclists from through bicyclists.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicyclists, turn, left, two-stage, queue, turning, complete, intersections, bicyclist, turns, queuing, conflicts, bike, lane</div>
 
 
 <span id="p196" class="anchor"></span>
@@ -695,7 +668,6 @@ sidebar:
 <p>NACTO Urban Bikeway Design Guide</p>
 <p>The pedestrian crosswalk can be realigned to create space for a Queue Box.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, queue, turn, intersections, bicyclists, pedestrian, they, crosswalk, crossings, design, considered, turns, right, lane</div>
 
 
 <span id="p197" class="anchor"></span>
@@ -704,7 +676,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, signals, striping, signs, intersections</div>
 <div class="dtext"><p>189</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Design Guidance</h4>
 <h4>•• The bicycle left turn pocket should be 4’ minimum in width, with 5’ preferred.</h4>
 <p>•• Signs and raised median design restrictions should be provided that prohibit motorists from turning, while allowing access to bicyclists.</p>
@@ -726,7 +698,6 @@ sidebar:
 <p>Bicycle-Only Left Turn Pockets can be defined by striping if necessary.</p>
 <p>A bicycle-only Left Turn Pocket grants bicyclists exclusive left-turn access from the center turn lane.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: left, turn, bicycle, pocket, intersections, bicyclists, bicycle-only, streets, local, design, access, travel, jogged, pockets</div>
 
 
 <span id="p198" class="anchor"></span>
@@ -734,7 +705,7 @@ sidebar:
 ### Page 198 - 6.15 Diverter
 
 <div class="pmeta">Topics: bikeways, speed-calming, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0198.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0198.webp" alt="Complete Streets DG page 198 6.15 Diverter"></a><figcaption>Complete Streets DG, page 198. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0198.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0198.webp" alt="Complete Streets DG page 198 6.15 Diverter"></a><figcaption>Complete Streets DG, page 198.</figcaption></figure>
 <div class="dtext"><p>190</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <p>Diverters increase accessibility of local streets for bicyclists.</p>
@@ -750,7 +721,6 @@ sidebar:
 <p>•• Diverters are appropriate for select local streets where through high volume vehicle traffic is not desirable.</p>
 <p>•• They are applicable to local streets that experience high volumes of spillover traffic from nearby streets or freeways.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: streets, traffic, local, diverters, accessibility, bicyclists, diverter, bicycle, neighborhoods, increases, through, high, intersections, crossings</div>
 
 
 <span id="p199" class="anchor"></span>
@@ -759,7 +729,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, parking-curb, speed-calming, intersections</div>
 <div class="dtext"><p>191</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Considerations</h4>
 <p>•• Diverters may affect access for emergency vehicles; Designs that allow emergency vehicle access are required and should be coordinated with emergency responders.</p>
 <p>•• Street maintenance operations should be coordinated with diverter installation.</p>
@@ -776,7 +746,6 @@ sidebar:
 <p>There is no currently adopted Federal or State guidance for this treatment.</p>
 <h4>Physical Enhancements - Bicycle</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: design, diverters, access, emergency, guide, affect, vehicles, allow, coordinated, maintenance, diverter, installation, landscaping, provided</div>
 
 
 <span id="p200" class="anchor"></span>
@@ -804,7 +773,6 @@ sidebar:
 <p>•• Traffic mini-circles should not be installed on transit routes that make bus turning movements difficult and burdensome.</p>
 <p>•• Larger vehicles may have difficulty navigating around the mini-circle, while drivers of emergency vehicles may be concerned with the treatment’s impact on response times.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: traffic, mini-circles, streets, vehicle, speeds, mini-circle, vehicles, intersections, residential, unsafe, volumes, bicycle, movements, collisions</div>
 
 
 <span id="p201" class="anchor"></span>
@@ -813,7 +781,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, speed-calming, intersections</div>
 <div class="dtext"><p>193</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <p>•• Proper design should ensure that traffic mini-circles do not create confusion or an inconvenience for pedestrians with visual impairments.</p>
 <p>•• Landscaping and vegetation on the mini-circle should be maintained so that it does not obstruct a driver or pedestrian’s visibility.</p>
 <p>•• High volume streets and intersections should consider mini roundabouts as a more appropriate treatment</p>
@@ -831,7 +799,6 @@ sidebar:
 <h4>Physical Enhancements - Other Traffic Calming Treatments</h4>
 <p>•• Traffic mini-circles should have “Keep Right” signage to safely guide drivers.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: circle, design, traffic, streets, guide, mini-circles, right, center, island, safely, around, curb, vehicles, intersections</div>
 
 
 <span id="p202" class="anchor"></span>
@@ -840,7 +807,7 @@ sidebar:
 
 <div class="pmeta">Topics: parking-curb, speed-calming, intersections</div>
 <div class="dtext"><p>194</p>
-<p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
+<p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Other Discussion</h4>
 <p>•• Examples of other places in Southern California where traffic mini-circles have been installed include Long Beach, Pasadena, Santa Barbara, West Hollywood, and Santa Monica</p>
 <p>•• Traffic Mini-Circle Design Dimensions in Seattle, WA</p>
@@ -852,7 +819,6 @@ sidebar:
 <p>FHWA Pedestrian Safety Guide</p>
 <h4>Physical Enhancements - Other Traffic Calming Treatments</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: traffic, distance, circle, curb, maximum, width, design, guide, santa, off-set, opening, minimum, feet, pavement</div>
 
 
 <span id="p203" class="anchor"></span>
@@ -861,7 +827,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, bikeways, signals, speed-calming, intersections</div>
 <div class="dtext"><p>195</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.17 Mini-Roundabout</h4>
 <p>A mini-roundabout is a larger, raised island placed in an intersection to control higher traffic speeds and reduce delay. Unlike mini traffic-circles, they come equipped with splitter islands on all approaches and utilize yielding signage and markings to facilitate traffic flow.</p>
 <h4>Physical Enhancements - Other Traffic Calming Treatments</h4>
@@ -878,7 +844,6 @@ sidebar:
 <p>•• They are most effective in lower speed environments in which all approaching roadways have a posted speed of 30 mph or less and an 85th-percentile speed of less than 35 mph near the proposed yield and/or entrance line</p>
 <p>Roundabouts ease movement at intersections for bicyclists.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: traffic, intersections, intersection, control, they, vehicle, movements, stop, speed, streets, mini-roundabout, speeds, approaches, reduces</div>
 
 
 <span id="p204" class="anchor"></span>
@@ -887,7 +852,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, signals, parking-curb, speed-calming, signs, accessibility, intersections</div>
 <div class="dtext"><p>196</p>
-<p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
+<p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Considerations</h4>
 <p>•• Mini-roundabouts require a larger spatial footprint for the intersection.</p>
 <p>•• They may require modification to street drainage infrastructure and underground utilities.</p>
@@ -904,7 +869,6 @@ sidebar:
 <h4>Physical Enhancements - Other Traffic Calming Treatments</h4>
 <p>Signs at a Roundabout entrance instruct incoming traffic to yield.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: traffic, crossing, island, least, paths, crossings, design, require, pedestrians, visual, impairments, entrance, circulatory, roadway</div>
 
 
 <span id="p205" class="anchor"></span>
@@ -912,9 +876,9 @@ sidebar:
 ### Page 205 - References
 
 <div class="pmeta">Topics: crosswalks, signals, speed-calming, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0205.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0205.webp" alt="Complete Streets DG page 205 References"></a><figcaption>Complete Streets DG, page 205. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0205.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0205.webp" alt="Complete Streets DG page 205 References"></a><figcaption>Complete Streets DG, page 205.</figcaption></figure>
 <div class="dtext"><p>197</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <p>•• Clear sight lines between crosswalks and approaching traffic should be provided.</p>
 <p>•• At single lane roundabouts, the pedestrian crossing should be at least one vehicle length (25 feet) from the yield line at the intersection with the roundabout to allow one car to queue beyond the crossing.</p>
 <p>•• Landscaping within the center island should be less than 3’ tall within 4’ of the edge of the curb</p>
@@ -924,7 +888,6 @@ sidebar:
 <h4>Signalization Enhancements - Pedestrian</h4>
 <p>Caption goes here</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: design, roundabouts, pedestrian, crossing, intersection, roundabout, fhwa, complete, streets, guide, intersections, crossings, clear, sight</div>
 
 
 <span id="p206" class="anchor"></span>
@@ -932,9 +895,9 @@ sidebar:
 ### Page 206 - Applications
 
 <div class="pmeta">Topics: crosswalks, transit, signals, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0206.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0206.webp" alt="Complete Streets DG page 206 Applications"></a><figcaption>Complete Streets DG, page 206. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0206.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0206.webp" alt="Complete Streets DG page 206 Applications"></a><figcaption>Complete Streets DG, page 206.</figcaption></figure>
 <div class="dtext"><p>198</p>
-<p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
+<p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Applications</h4>
 <p>•• Exclusive pedestrian phases are applicable at intersections where a high frequency of turning vehicles with high pedestrian volumes (e.g., 1,200 pedestrian crossings per day)</p>
 <p>•• They are ideally suited to intersections that have shorter crossings, and where sight distances and unique roadway geometries are problematic.</p>
@@ -946,7 +909,6 @@ sidebar:
 <h4>6.18 Exclusive Pedestrian Phase</h4>
 <p>An exclusive pedestrian phase, or pedestrian scramble, allows intersection crossings in all directions (including diagonally) while vehicles are stopped.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrian, crossings, intersections, exclusive, applicable, high, vehicles, they, allows, pedestrians, cross, diagonally, intersection, phase</div>
 
 
 <span id="p207" class="anchor"></span>
@@ -955,7 +917,7 @@ sidebar:
 
 <div class="pmeta">Topics: signals, parking-curb, signs, accessibility, intersections</div>
 <div class="dtext"><p>199</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Signalization Enhancements - Pedestrian</h4>
 <p>An intersection utilizing an exclusive pedestrian phase, located near the UCLA campus in Westwood. s</p>
 <h4>Considerations</h4>
@@ -969,7 +931,6 @@ sidebar:
 <h4>Reference</h4>
 <p>LADOT Signal Treatment Toolbox adapted from Steps to a Walkable Community: A Guide for Citizens, Planners, and Engineers and FHWA’s Proven Countermeasures list.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrian, exclusive, phase, intersection, crossings, pedestrians, signal, treatment, traffic, complete, design, guide, intersections, wait</div>
 
 
 <span id="p208" class="anchor"></span>
@@ -994,7 +955,6 @@ sidebar:
 <p>•• A flashing beacon, such as a RFFBs, are placed curbside below the pedestrian crossing sign and above the arrow indication pointing at the crossing. They should always be accompanied by the appropriate pedestrian crossing signage. The installation should include an audible message confirming that the device is activated and instructing pedestrians to wait until cars have stopped before crossing. Another LED panel should be placed facing the pedestrian to indicate that the beacon has been activated (See MUTCD Chapter 4K, “Flashing Beacons”).</p>
 <p>A flashing light accompanies the pedestrian crossing sign.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrian, crossing, beacon, flashing, they, crossings, design, pedestrians, beacons, activated, intersections, cross, light, motorists</div>
 
 
 <span id="p209" class="anchor"></span>
@@ -1003,7 +963,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-55</strong> &middot; Topics: crosswalks, signals, parking-curb, intersections</div>
 <div class="dtext"><p>201</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <p>•• A pedestrian hybrid beacon, such as HAWKs, should only be installed at a marked crosswalk, in conjunction with signage and advanced yield markings (See MUTCD Chapter 4F, “Pedestrian Hybrid Beacons”)</p>
 <p>•• The pushbutton and other components of the crosswalk must abide by all other accessibility requirements.</p>
 <p>•• Pedestrian beacons can also be fitted with solar panels to able to generate and sustain their own energy needs.</p>
@@ -1015,7 +975,6 @@ sidebar:
 <h4>Signalization Enhancements - Pedestrian</h4>
 <p>Lincoln Blvd., Los Angeles</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrian, beacons, hybrid, mutcd, chapter, crosswalk, angeles, provides, guidance, flashing, complete, streets, design, guide</div>
 
 
 <span id="p210" class="anchor"></span>
@@ -1044,7 +1003,6 @@ sidebar:
 <p>Stage 1: Pedestrian only</p>
 <p>Stage 2: Pedestrian and vehicular</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrian, vehicles, leading, pedestrians, turning, intersections, intersection, crossings, design, interval, turn, reduces, intervals, green</div>
 
 
 <span id="p211" class="anchor"></span>
@@ -1053,14 +1011,13 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, signals, intersections</div>
 <div class="dtext"><p>203</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Other Discussion</h4>
 <p>•• At intersections where bicycle through movements conflicts with turning traffic, a leading bicycle interval can be implemented along with a leading pedestrian interval. A leading bicycle interval facilitates bicycle through-travel more quickly through the intersection and can help prevent right hook collisions by vehicles.</p>
 <h4>References</h4>
 <p>NACTO Urban Street Design Guid</p>
 <h4>Signalization Enhancements - Pedestrian</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, leading, interval, design, intersections, through, pedestrian, complete, streets, guide, crossings, discussion, movements, conflicts</div>
 
 
 <span id="p212" class="anchor"></span>
@@ -1090,7 +1047,6 @@ sidebar:
 <p>CA MUTCD’s Sections 4E.09, 4E.10, 4E.11, 4E.12, and 4E.13 for Accessible Pedestrian Signals and Detectors</p>
 <p>FHWA: Designing Sidewalks and Trails for Access Part II of II: Best Practices Design Guide</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: pedestrian, accessible, signal, signals, audible, intersections, design, pedestrians, signalized, they, tone, crossings, guide, information</div>
 
 
 <span id="p213" class="anchor"></span>
@@ -1099,7 +1055,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, transit, signals, intersections</div>
 <div class="dtext"><p>205</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.22 Shorter Signal Cycle Length</h4>
 <p>A shorter signal cycle length at intersections prioritizes pedestrian convenience by decreasing wait times to cross the street.</p>
 <h4>Signalization Enhancements - Pedestrian</h4>
@@ -1118,7 +1074,6 @@ sidebar:
 <p>Corridor-based signal timing with longer cycles</p>
 <p>Balanced signal timing with shorter cycles</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: cycle, signal, pedestrian, lengths, shorter, length, times, vehicle, users, streets, design, intersections, prioritizes, wait</div>
 
 
 <span id="p214" class="anchor"></span>
@@ -1140,7 +1095,6 @@ sidebar:
 <p>NACTO Urban Street Design Guide</p>
 <h4>Signalization Enhancements - Pedestrian</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lengths, shorter, crossing, design, signal, pedestrian, streets, guide, time, street, refuge, bulbouts, bicyclists, cycle</div>
 
 
 <span id="p215" class="anchor"></span>
@@ -1149,7 +1103,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, bikeways, signals, intersections</div>
 <div class="dtext"><p>207</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.23 Split Phasing</h4>
 <p>Split phasing provides turns at intersections to mitigate potential conflicts between pedestrian crossings, bicycle crossings, and turning vehicular traffic.</p>
 <h4>Signalization Enhancements - Bicycle</h4>
@@ -1170,7 +1124,6 @@ sidebar:
 <p>Phase 2</p>
 <p>Phase 3</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: crossings, split, phasing, applied, intersections, pedestrian, traffic, intersection, bicycle, turning, vehicular, vehicles, through, movements</div>
 
 
 <span id="p216" class="anchor"></span>
@@ -1192,7 +1145,6 @@ sidebar:
 <h4>FHWA-HRT-04-091 Signalized Intersections: Informational Guide</h4>
 <h4>Signalization Enhancements - Bicycle</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: phasing, phase, design, guide, seconds, pedestrians, traffic, left-turn, intersections, crossings, through, given, green, while</div>
 
 
 <span id="p217" class="anchor"></span>
@@ -1201,7 +1153,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, signals, intersections</div>
 <div class="dtext"><p>209</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.24 Bicycle-Only Signal</h4>
 <p>A bicycle signal head is a traffic control device at intersections that facilitates bicycle movements separately from cars.</p>
 <h4>Signalization Enhancements - Bicycle</h4>
@@ -1216,7 +1168,6 @@ sidebar:
 <p>•• They should be applied at intersections that experience heavy bicycle traffic, high volumes of bicycle turning movements, and/or have a noticeable collision history.</p>
 <p>•• They should be applied where predominant bicycle movements conflict with predominant motor vehicle movements during the same green light phase.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, movements, intersections, signal, applied, traffic, motor, vehicle, light, complex, they, predominant, complete, streets</div>
 
 
 <span id="p218" class="anchor"></span>
@@ -1235,7 +1186,6 @@ sidebar:
 <p>See CA MUTCD Sections 4C.102 (Bicycle Signal Warrant) and 4D.104 (Bicycle Signals)</p>
 <h4>Signalization Enhancements - Bicycle</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: signal, bicycle, design, face, indications, heads, sign, every, intended, bicyclists, intersections, crossings, complete, streets</div>
 
 
 <span id="p219" class="anchor"></span>
@@ -1244,7 +1194,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, signals, parking-curb, striping, intersections</div>
 <div class="dtext"><p>211</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.25 Bicycle Loop Detector</h4>
 <p>A bicycle loop detector notifies traffic signals to change when bicyclists are waiting at a red light. When a bike is positioned squarely on top of the designated pavement marking (where the loop detector lies underneath), it will be picked up and trigger a green light at the next available signal phase for the bicyclist.</p>
 <h4>Signalization Enhancements - Bicycle</h4>
@@ -1263,7 +1213,6 @@ sidebar:
 <h4>Design Guidance</h4>
 <p>•• One loop detector should be installed within the bicycle lane, about 100’ from the intersection approach, while a second loop is placed right behind the intersection’s limit line.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, loop, bicyclists, detector, light, intersection, signal, design, intersections, traffic, underneath, green, phase, reduces</div>
 
 
 <span id="p220" class="anchor"></span>
@@ -1286,7 +1235,6 @@ sidebar:
 <p>Caltrans Standard Plans (1999) ES-5B</p>
 <h4>Signalization Enhancements - Bicycle</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: line, limit, detection, lane, zone, mutcd, bicycle, design, guide, centered, intersection, standard, detector, section</div>
 
 
 <span id="p221" class="anchor"></span>
@@ -1295,7 +1243,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, transit, signals, speed-calming, intersections</div>
 <div class="dtext"><p>213</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.26 Bicycle Green Wave</h4>
 <p>A green wave is when traffic signals are deliberately timed to coordinate successive green lights along a corridor. Therefore, bicyclists that travel along a green wave street at moderate speeds benefit from not having to intermittently stop at intersections.</p>
 <h4>Signalization Enhancements - Transit</h4>
@@ -1315,7 +1263,6 @@ sidebar:
 <p>•• The appropriate signage should be posted to let bicyclists know they are traveling on a street with a green wave.</p>
 <p>Bicycle Green Waves facilitate movement for bicycles while encouraging cars to travel at slower speeds..</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: green, wave, bicycle, speeds, traffic, along, intersections, bicyclists, corridors, they, streets, design, corridor, travel</div>
 
 
 <span id="p222" class="anchor"></span>
@@ -1331,7 +1278,6 @@ sidebar:
 <p>NACTO Urban Street Design Guide</p>
 <h4>Signalization Enhancements - Bicycle</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: streets, francisco, green, design, guide, wave, city, intersections, crossings, complete, discussion, municipal, transportation, authority</div>
 
 
 <span id="p223" class="anchor"></span>
@@ -1340,7 +1286,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, transit, signals, parking-curb, intersections</div>
 <div class="dtext"><p>215</p>
-<p>Complete Streets Design Guide 6. INTERSECTIONS AND CROSSINGS</p>
+<p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.27 Transit Signal Prioritization</h4>
 <p>Transit signal prioritization allows transit vehicles to shorten red lights or extend green lights at signalized intersections without disrupting the overall signal timing system.</p>
 <h4>Benefits</h4>
@@ -1360,32 +1306,23 @@ sidebar:
 <p>•• Signal priority differs from signal preemption in that the former merely modifies normal signal operations (e.g., transit vehicles) by shortening or lengthening the current phase, while the latter abruptly interrupts the current phase to trigger a green light (e.g., police/ emergency vehicles).</p>
 <p>•• A queue jump lane is another traffic signal concept that prioritizes transit operations. At an intersection, an early green signal is granted to buses waiting at the front of a designated queue jump lane. Meanwhile, other vehicles traveling in the same direction must wait at a red light while the bus gets a jumpstart. Queue jump lanes can be can be used at intersections that either have or do not have a bus stop.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: transit, signal, vehicles, intersections, prioritization, green, lane, traffic, queue, jump, design, lights, signalized, timing</div>
 
 
 <span id="p224" class="anchor"></span>
 
 ### Page 224
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0224.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0224.webp" alt="Complete Streets DG page 224 "></a><figcaption>Complete Streets DG, page 224. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0224.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0224.webp" alt="Complete Streets DG page 224 "></a><figcaption>Complete Streets DG, page 224.</figcaption></figure>
 
 
 <span id="p225" class="anchor"></span>
 
 ### Page 225 - Complete Streets Design Guide: Chapter 7, Off-Street Non-Vehicular Treatments and Strategies (Section Divider)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0225.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0225.webp" alt="Complete Streets DG page 225 "></a><figcaption>Complete Streets DG, page 225 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Chapter 7, Off-Street Non-Vehicular Treatments and Strategies (Section Divider).</b> Section divider page that opens Chapter 7, Off-Street Non-Vehicular Treatments and Strategies, of the LADOT Complete Streets Design Guide. It shows the chapter number 7, the guide name and the four-line chapter title over three tinted photographs of a riverside path. It contains no design content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Cover layout: a full-page section divider in a light gray field. In the upper left of the page area is a large gray numeral 7 set in a heavy sans-serif face, taking up the left half of the sheet. Centered in the upper right panel are two lines of text. A small, widely spaced teal line reads COMPLETE STREETS DESIGN GUIDE and below it a large bold gray heading reads OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES (set on four lines). Along the bottom of the page, three tall duotone photograph strips run side by side with white gaps between them, one in purple, one in yellow and one in teal. The numeral overlaps the left edge of the purple strip. The purple strip shows an aerial view of a concrete river channel with a paved path and hillside. The yellow strip shows two people walking on a paved path beside a channel, with a post-and-cable fence on the channel side and a hillside beyond. The teal strip shows trees and vegetation along the channel bank. The page carries no body text, tables or dimensions.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Text on the page: 7. COMPLETE STREETS DESIGN GUIDE. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES. No other notes.</p></details></div>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Chapter 7, Off-Street Non-Vehicular Treatments and Strategies (Section Divider).</b> Section divider page that opens Chapter 7, Off-Street Non-Vehicular Treatments and Strategies, of the LADOT Complete Streets Design Guide. It shows the chapter number 7, the guide name and the four-line chapter title over three tinted photographs of a riverside path. It contains no design content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Cover layout: a full-page section divider in a light gray field. In the upper left of the page area is a large gray numeral 7 set in a heavy sans-serif face, taking up the left half of the sheet. Centered in the upper right panel are two lines of text. A small, widely spaced teal line reads COMPLETE STREETS DESIGN GUIDE and below it a large bold gray heading reads OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES (set on four lines). Along the bottom of the page, three tall duotone photograph strips run side by side with white gaps between them, one in purple, one in yellow and one in teal. The numeral overlaps the left edge of the purple strip. The purple strip shows an aerial view of a concrete river channel with a paved path and hillside. The yellow strip shows two people walking on a paved path beside a channel, with a post-and-cable fence on the channel side and a hillside beyond. The teal strip shows trees and vegetation along the channel bank. The page carries no body text, tables or dimensions.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Text on the page: 7. COMPLETE STREETS DESIGN GUIDE. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES. No other notes.</p></details></div>
-<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, off-street, non-vehicular, section divider, bike paths, trails</div>
-
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0225.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0225.webp" alt="Complete Streets DG page 225 "></a><figcaption>Complete Streets DG, page 225.</figcaption></figure>
 
 <span id="p226" class="anchor"></span>
 
 ### Page 226
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0226.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0226.webp" alt="Complete Streets DG page 226 "></a><figcaption>Complete Streets DG, page 226. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0226.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0226.webp" alt="Complete Streets DG page 226 "></a><figcaption>Complete Streets DG, page 226.</figcaption></figure>

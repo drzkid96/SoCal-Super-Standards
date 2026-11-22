@@ -21,7 +21,6 @@ sidebar:
 <p>By focusing on uncontrolled crossing locations, local and State agencies can address a significant national safety problem and improve quality of life for pedestrians of all ages and abilities. STEP promotes the following six effective and lower-cost countermeasures that communities can deploy based on their specific needs:</p>
 <p>» Crosswalk visibility enhancements (i.e., high-visibility crosswalk markings, parking restriction on crosswalk approach, improved lighting, advance Yield Here To [Stop Here For] Pedestrians sign and yield [stop] line, In- Street Pedestrian Crossing sign, and curb extension). » Raised crosswalk. » Pedestrian refuge island. » Pedestrian Hybrid Beacon (PHB). » Road Diet. » Rectangular Rapid-Flashing Beacon (RRFB).</p>
 <p>These countermeasures and their safety benefits are described further in this guide. The guide also includes best practices for identifying locations and installing countermeasures at uncontrolled pedestrian crossing locations.</p></div>
-<div class="kw">Keywords: pedestrian, crossing, locations, uncontrolled, guide, safety, countermeasures, step, agencies, crosswalk, local, transportation, traffic, stop</div>
 
 
 <span id="p5" class="anchor"></span>
@@ -42,7 +41,6 @@ sidebar:
 <p>Glossary ...............................................................................................27</p>
 <p>Appendix A: Framework for a Resolution Supporting Pedestrian Safety ...................................................................................................29</p>
 <p>Appendix B: CRF and CMF Summary Table ....................................32</p></div>
-<div class="kw">Keywords: safety, pedestrian, locations, table, appendix, guide, improving, uncontrolled, crossing, contents, introduction, collect, data, engage</div>
 
 
 <span id="p6" class="anchor"></span>
@@ -63,7 +61,6 @@ sidebar:
 <p>Table 1. Application of pedestrian crash countermeasures by roadway feature.................................................................................16</p>
 <p>Table 2. Safety issues addressed per countermeasure. ...............17</p>
 <p>Table 3. CRFs and CMFs by countermeasure. ................................32</p></div>
-<div class="kw">Keywords: figure, pedestrian, crossing, table, safety, uncontrolled, locations, list, countermeasures, crash, countermeasure, guide, improving, figures</div>
 
 
 <span id="p7" class="anchor"></span>
@@ -96,4 +93,3 @@ sidebar:
 <p>STEP Safe Transportation for Every Pedestrian</p>
 <p>TZD Toward Zero Deaths</p>
 <p>VZ Vision Zero</p></div>
-<div class="kw">Keywords: safety, highway, traffic, pedestrian, transportation, average, daily, association, crash, factor, every, system, administration, plan</div>

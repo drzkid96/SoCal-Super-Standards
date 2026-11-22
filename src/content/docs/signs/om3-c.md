@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Object Marker Type 3 marker</dd>
 <dt>Legend</dt><dd>OBJECT MARKER TYPE 3</dd>
-<dt>Keywords</dt><dd class="kw">om3-c, object marker type 3, warning sign, object markers, object marker, hazard, black, yellow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-om">OM &middot; Object markers</a></dd>
 <dt>Colors</dt><dd>STRIPES — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE)</dd>

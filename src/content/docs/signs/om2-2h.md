@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Object Marker Type 2 marker</dd>
 <dt>Legend</dt><dd>OBJECT MARKER TYPE 2</dd>
-<dt>Keywords</dt><dd class="kw">om2-2h, object marker type 2, warning sign, object markers, object marker, hazard, yellow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-om">OM &middot; Object markers</a></dd>
 <dt>Colors</dt><dd>BACKGROUND — YELLOW (RETROREFLECTIVE) NO BORDER</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>See the FHWA layout sheet for dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

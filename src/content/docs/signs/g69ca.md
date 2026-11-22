@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>± Minimum 3) Ft Note 50 (See Ft 4 Slower Traffic R4-3 Keep R guide sign</dd>
 <dt>Legend</dt><dd>± Minimum 3) ft Note 50 (See ft 4 SLOWER TRAFFIC R4-3 KEEP RIGHT PASSING G69(CA) PASSING LANE AHEAD</dd>
-<dt>Keywords</dt><dd class="kw">g69(ca), ± minimum 3) ft note 50 (see ft 4 slower traffic r4-3 keep r, ± minimum 3) ft note 50 (see ft 4 slower traffic r4-3 keep right passing g69(ca) passing lane ahead, minimum, note, see, slower, traffic, keep, right, passing, lane, ahead, guide sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#guide">Guide Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-g69">G69 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

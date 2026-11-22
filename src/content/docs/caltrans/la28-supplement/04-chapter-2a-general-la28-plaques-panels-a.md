@@ -32,7 +32,6 @@ sidebar:
 <p>14 The LA28 sign panel may be used within an existing or new sign where engineering judgment determines the panel is needed.</p>
 <h4>15 The LA28 sign plaque and LA28 sign panel, each shall not be used alone. Support:</h4>
 <p>16 If signs using the LA28 sign plaque or LA28 sign panel need to be installed at new locations to identify GRN dedicated lanes during LA28 games, refer to <a href="/SoCal-Super-Standards/s/ca/2A.13/">Section 2A.13</a> in current CA MUTCD 2026.</p></div>
-<div class="kw">Keywords: sign, panel, signs, plaque, regulatory, section, guide, existing, legend, mutcd, games, configuration, header, supplement</div>
 
 
 <span id="p26" class="anchor"></span>
@@ -59,7 +58,6 @@ sidebar:
 <h4>Standard:</h4>
 <p>09 The light blue color to be used as background color on LA28 sign plaque and LA28 sign panel, the white or black "LA28" word legend, and their specific use on these sign plaques and sign panels shall be as provided in the applicable Sections of this CA MUTCD 2026 LA28 Supplement. Where required by the CA MUTCD 2026, the LA28 plaque and LA28 sign panel shall use the standard color scheme applicable to the sign category or policy under which they are used. Support:</p>
 <p>10 Tolerance limits for light blue color are contained in 23 CFR Part 655, Appendix to Subpart F which is available at the Federal Highway Administration’s MUTCD Web site at http://mutcd.fhwa.dot.gov. Nighttime color specification limits for retroreflective material of the light blue color can be determined using ASTM test methods included in 23 CFR Part 655.</p></div>
-<div class="kw">Keywords: color, sign, light, blue, mutcd, standard, section, legend, plaque, panel, caltrans, part, signs, word</div>
 
 
 <span id="p27" class="anchor"></span>
@@ -90,7 +88,6 @@ sidebar:
 <p><a href="/SoCal-Super-Standards/s/ca/2A.13/">Section 2A.13</a> Standardization of Location The following is added to this section:</p>
 <p>Guidance:</p>
 <p>12a If engineering judgment determines the need to identify dedicated lanes on GRN roadways to facilitate travel during LA28 games, at either existing sign locations or new locations with no signs, and space is limited for sign installation and there is a</p></div>
-<div class="kw">Keywords: sign, section, plaque, panel, signs, color, standard, word, following, added, games, mutcd, supplement, light</div>
 
 
 <span id="p28" class="anchor"></span>
@@ -113,7 +110,6 @@ sidebar:
 <p>03a The LA28 Sign Plaque and Sign Panel shall be retroreflective (see <a href="/SoCal-Super-Standards/s/ca/2A.22/">Section 2A.22</a>) or illuminated to show the same shape and similar color by both day and night. Option:</p>
 <p>07a Retroreflection of LA28 Sign Plaque and Sign Panel elements may be accomplished by the means shown in Table 2A-2(LA28). Standard:</p>
 <p>09 The uniformity of the sign design shall be maintained without any decrease in visibility, legibility, or driver comprehension during either daytime or nighttime conditions.</p></div>
-<div class="kw">Keywords: sign, signs, section, plaque, panel, information, critical, regulatory, following, added, games, road, guidance, using</div>
 
 
 <span id="p29" class="anchor"></span>
@@ -121,9 +117,8 @@ sidebar:
 ### Page 29 - Figure 2A-101(LA28). LA28 and PERMIT ONLY Plaques and Panels
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0029.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0029.webp" alt="LA28 Supplement page 29 Figure 2A-101(LA28). LA28 and PERMIT ONLY Plaques and Panels"></a><figcaption>LA28 Supplement, page 29. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>Figure 2A-101(LA28). LA28 and PERMIT ONLY Plaques and Panels LA28 Plaque (Horizontal) LA28 Plaque (Vertical) PERMIT ONLY PERMIT ONLY Plaque LA28 Panel (Horizontal) LA28 Pane l (Vertical) PERMIT ONLY LA28 PERMIT ONLY Panel CA MUTCD 2026 LA28 Supplement Chapter 2A - General (Figures) Part 2 Signs Page 29 July 15, 2026 </p></details>
-<div class="kw">Keywords: permit, plaque, horizontal, vertical, panel, figure, plaques, panels, pane, mutcd, supplement, chapter, general, figures</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0029.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0029.webp" alt="LA28 Supplement page 29 Figure 2A-101(LA28). LA28 and PERMIT ONLY Plaques and Panels"></a><figcaption>LA28 Supplement, page 29.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>Figure 2A-101(LA28). LA28 and PERMIT ONLY Plaques and Panels LA28 Plaque (Horizontal) LA28 Plaque (Vertical) PERMIT ONLY PERMIT ONLY Plaque LA28 Panel (Horizontal) LA28 Pane l (Vertical) PERMIT ONLY LA28 PERMIT ONLY Panel CA MUTCD 2026 LA28 Supplement Chapter 2A - General (Figures) Part 2 Signs Page 29 July 15, 2026 </p></details>
 
 
 <span id="p30" class="anchor"></span>
@@ -131,7 +126,7 @@ sidebar:
 ### Page 30 - Table 2A-2(LA28). Common Uses of Sign Colors
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0030.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0030.webp" alt="LA28 Supplement page 30 Table 2A-2(LA28). Common Uses of Sign Colors"></a><figcaption>LA28 Supplement, page 30. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0030.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0030.webp" alt="LA28 Supplement page 30 Table 2A-2(LA28). Common Uses of Sign Colors"></a><figcaption>LA28 Supplement, page 30.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 30</p>
 <p>Chapter 2A - General (Figures) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2A-2(LA28). Common Uses of Sign Colors</h4>
@@ -170,4 +165,3 @@ sidebar:
 <h4>1 2 3 4 X Y X Y X Y X Y</h4>
 <h4>Daytime 0.18 0.26 0.24 0.30 0.27 0.26 0.23 0.20</h4>
 <h4>Nighttime 0.35 0.41 0.35 0.42 0.39 0.42 0.39 0.41</h4></div>
-<div class="kw">Keywords: fluorescent, blue, light, supplement, signs, table, sign, black, green, white, yellow, brown, orange, yellow-green</div>

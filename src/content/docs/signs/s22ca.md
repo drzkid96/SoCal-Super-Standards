@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign school sign</dd>
 <dt>Legend</dt><dd>NO LOITERING, CAMPING, VENDING OR PARKING OF VEHICLES 30 FEET OR LONGER</dd>
-<dt>Keywords</dt><dd class="kw">s22(ca), no loitering, camping, vending or parking of vehicles 30 feet or longer sign, vending or parking of vehicles 30 feet or longer, loitering, vending, parking, vehicles, feet, longer, school sign, other, curb, loading, srts</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#school">School Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-s22">S22 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

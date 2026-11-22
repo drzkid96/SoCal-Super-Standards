@@ -261,7 +261,7 @@ for ci, (ctitle, a, b) in enumerate(chapters):
         block = head + ('<div class="pmeta">' + " &middot; ".join(meta) + "</div>\n" if meta else "")
         if img:
             block += (f'<figure class="dfig"><a href="{img}" target="_blank"><img loading="lazy" src="{img}" alt="{esc(cfg["short"])} page {pno + 1} {esc(title)}"></a>'
-                      f'<figcaption>{esc(cfg["short"])}, page {pno + 1}{" (scanned, cleaned and sharpened)" if scanned else ""}. Click to enlarge.</figcaption></figure>\n')
+                      f'<figcaption>{esc(cfg["short"])}, page {pno + 1}.</figcaption></figure>\n')
         if bl and not (graphic and len(native.strip()) < 600):
             body = []
             for kind, t in bl:
@@ -269,9 +269,8 @@ for ci, (ctitle, a, b) in enumerate(chapters):
                 body.append(f"<h4>{t2}</h4>" if kind == "h" else f"<p>{t2}</p>")
             block += '<div class="dtext">' + "\n".join(body) + "</div>\n"
         elif flat.strip():
-            block += (f'<details class="ocr"><summary>Text on this page{" (OCR)" if scanned else ""}</summary>'
+            block += (f'<details class="ocr"><summary>Page text</summary>'
                       f"<p>{link_codes(esc(flat[:6000]))}</p></details>\n")
-        block += f'<div class="kw">Keywords: {esc(", ".join(kw))}</div>\n'
         parts.append(block)
     fm = (f'---\ntitle: "{cfg["short"]}: {ctitle.replace(chr(34), chr(39))}"\n'
           f'description: "{cfg["title"].replace(chr(34), chr(39))}, {ctitle.replace(chr(34), chr(39))}, pages {a}-{b}."\n'

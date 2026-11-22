@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Take Ticket Xx Miles plaque</dd>
 <dt>Legend</dt><dd>TAKE TICKET XX MILES (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">w9-6gp, take ticket xx miles (plaque), take, ticket, miles, warning sign, lane ends, lane drop, black, yellow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w9">W9 &middot; Lane ends</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE) A B C D E F G H J K L M N P Q 216 30 0.75 1.25 9 12 E 15 E 7.5 VAR 45.135 59.652 VAR VAR VAR 6</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>See the FHWA layout sheet for dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

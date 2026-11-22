@@ -13,19 +13,18 @@ sidebar:
 
 <div class="pmeta">Topics: transit</div>
 <div class="dtext"><p>117</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>5. ROADWAYS</h4>
 <h4>Introduction</h4>
 <p>This chapter presents several treatments and techniques that provide com­ plete street enhancements in the roadway, which is defined as the area be­ tween the curbs. The following interventions represent “tools” in the complete streets design “toolkit”. Their application varies based on many factors includ­ ing land use context, street configuration, pedestrian and traffic volumes, and vehicle speeds. Used individually or in coordination with other interventions in this guide, they provide safer vehicular speeds, improved goods movement, transit prioritization, and even pedestrian use of the roadway zone.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: complete, streets, design, guide, roadways, provide, street, roadway, interventions, pedestrian, speeds, introduction, chapter, presents</div>
 
 
 <span id="p126" class="anchor"></span>
 
 ### Page 126 - 5.1 Pedestrian Plaza
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0126.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0126.webp" alt="Complete Streets DG page 126 5.1 Pedestrian Plaza"></a><figcaption>Complete Streets DG, page 126. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0126.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0126.webp" alt="Complete Streets DG page 126 5.1 Pedestrian Plaza"></a><figcaption>Complete Streets DG, page 126.</figcaption></figure>
 <div class="dtext"><p>118</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>5.1 Pedestrian Plaza</h4>
@@ -42,7 +41,6 @@ sidebar:
 <p>•• They should be applied in locations where a community partner agrees to maintain the plaza’s cleanliness and furniture.</p>
 <p>•• Land uses such as restaurants, cafes, and retail shops, should complement the site of the plaza.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: plaza, pedestrian, public, community, streets, roadways, sense, spaces, neighborhood, provides, street, traffic, complete, design</div>
 
 
 <span id="p127" class="anchor"></span>
@@ -51,7 +49,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, parking-curb, striping</div>
 <div class="dtext"><p>119</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Considerations</h4>
 <p>•• While bicycle parking should be installed within the plaza, vehicle parking should be prohibited unless for loading purposes at specific hours when the plaza is not occupied.</p>
 <p>•• Access for emergency vehicles must be accommodated</p>
@@ -67,7 +65,6 @@ sidebar:
 <p>Sunset Triangle Plaza, Silver Lake</p>
 <p>NoHo Plaza, North Hollywood</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: plaza, design, people, program, bicycle, parking, pedestrian, plazas, ladot, guide, roadways, street, local, sunset</div>
 
 
 <span id="p128" class="anchor"></span>
@@ -102,7 +99,6 @@ sidebar:
 <p>•• Apply on streets/corridors which allow the placement of bike lanes adjacent to the existing curb.</p>
 <p>•• Apply on streets/corridors where there are parking lanes provided and which allow the provision of bike lanes through the reallocation of existing street space, i.e. the narrowing of travel lanes, the reconfiguration of parking lanes, and/or the removal of travel lanes.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lanes, bike, streets, bicyclists, lane, travel, parking, bicycle, space, considered, allow, moving, vehicles, one-way</div>
 
 
 <span id="p129" class="anchor"></span>
@@ -111,7 +107,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, parking-curb, striping</div>
 <div class="dtext"><p>121</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Design Guidance</h4>
 <p>•• The City of Los Angeles Department of Transportation lists the following widths for bike lanes:</p>
 <p>•• Interior Bike lane:</p>
@@ -133,7 +129,6 @@ sidebar:
 <h4>Bicycle Enhancements</h4>
 <p>Painted striping provides a spatial buffer from passing vehicles, providing protection from fast- moving vehicles. Note that, in this case, there is insufficient space to also incorporate a buffer in the “door zone” next to parked vehicles.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, minimum, bike, desirable, parking, bicycle, space, vehicles, design, lanes, absolute, gutter, striping, white</div>
 
 
 <span id="p130" class="anchor"></span>
@@ -142,7 +137,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, parking-curb, intersections</div>
 <div class="dtext"><p>122</p>
-<p>5. ROADWAYS Complete Streets Design Guide</p>
+<p>5. ROADWAYS  Complete Streets Design Guide</p>
 <p>Standard dimensions for a bicycle lane next to on-street parallel parking</p>
 <p>space is available, the preferred design provides a buffer zone between parked cars and the bicycle lane.</p>
 <p>♦ ♦Caltrans Highway Design Manual: The figure below depicts bicycle lanes on an urban type curbed street where parking stalls (or continuous parking stripes) are marked. Bicycle lanes are located between the parking area and the traffic lanes.</p>
@@ -164,7 +159,6 @@ sidebar:
 <p>♦ ♦Discussion: Bicycle lanes adjacent to on-street parallel parking are the most common type used in the United States. Crashes caused by a sudden­ ly opened vehicle door are a hazard for bicyclists using this type of facility. Providing wider bicycle lanes is one way to mitigate against potential bicyclist collisions with car doors. However, if the outer edge of the bicycle lane abuts the parking stall, bicyclists may still ride too close to parked cars. Bicycle lanes that are too wide may also encourage vehicles to use the bicycle lane as a loading zone in busy areas where on-street park­ ing is typically full or motorists may try to drive in them. Design treatments to encourage bicy­ clists to ride farther away from parked vehicles will increase the safety of the facility. If sufficient</p>
 <h4>Bicycle Enhancements</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, lane, lanes, parking, design, on-street, parallel, parked, type, beginning, side, crossings, next, preferred</div>
 
 
 <span id="p131" class="anchor"></span>
@@ -173,7 +167,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, parking-curb, signs, intersections</div>
 <div class="dtext"><p>123</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <p>As indicated, 5 feet shall be the minimum width of bicycle lane where parking stalls are marked. If parking volume is substantial or turnover high, an additional one to two feet of width is desirable. Bicycle lanes shall not be placed between the parking area and the curb. Such facilities increase the conflict between bicyclists and opening car doors and reduce visibility at intersections. Also, they prevent bicyclists from leaving the bicy­ cle lane to turn left and cannot be effectively maintained. Bicycle lanes are established in conjunction with the parking areas. As indicated, 11 or 12 feet (depending on the type of curb) shall be the minimum width of the bicycle lane where parking is permitted. This type of lane is satis­ factory where parking is not extensive and where turnover of parked cars is infrequent. However, if parking is substantial, turnover of parked cars is high, truck traffic is substantial, or if vehicle speeds exceed 55 km/h, additional width is rec­ ommended</p>
 <h4>Bicycle Enhancements</h4>
 <p>♦ ♦AASHTO Guide for the Development of Bicycle Fa­ cilities (1999): If parking is permitted, the bicycle lane should be placed between the parking area and the travel lane and have a minimum width of 5 feet. Where parking is permitted but a parking stripe or stalls are not utilized, the shared area should be a minimum of 11 feet without a curb face and 12 feet adjacent to a curb face as shown in figure below. If the parking volume is substan­ tial or turnover is high, an additional 1 to 2 feet of width is desirable</p>
@@ -185,7 +179,6 @@ sidebar:
 <p>A typical curbside bicycle lane in Los Angeles</p>
 <p>Standard dimensions for a curbside bicycle lane (no on-street parking).</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, bicycle, parking, width, feet, curb, minimum, high, lanes, turnover, bicyclists, substantial, additional, desirable</div>
 
 
 <span id="p132" class="anchor"></span>
@@ -212,7 +205,6 @@ sidebar:
 <p>♦ ♦Where adjacent to parallel parking, left side bicy­ cle lanes may result in poorer visibility to motor­ ists leaving parking spaces.</p>
 <p>Standard dimensions for a bicycle lane on the left side of a one-way street.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, left, side, street, lane, right, bicyclists, lanes, one-way, roadways, streets, adjacent, left-side, turn</div>
 
 
 <span id="p133" class="anchor"></span>
@@ -221,7 +213,7 @@ sidebar:
 
 <div class="pmeta">Signs: D11-1 R4-11 &middot; Topics: bikeways, parking-curb, striping, signs</div>
 <div class="dtext"><p>125</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <p>Uphill Climbing Bicycle Lanes</p>
 <p>•• Lane Width: 5 or 6 feet wide (6’ is preferred for extra maneuvering room on steep grades).</p>
 <p>•• Striping: On the uphill side, use a 6” stripe between the vehicle travel lane and bike lane, and a 4” stripe between the bicycle lane and the parking lane or shoulder. On the downhill side, use a 4” shoulder stripe or edgeline between vehicle travel lane and the parking lane shoulder and/or add sharrows to the travel lane.</p>
@@ -233,7 +225,6 @@ sidebar:
 <h4>Bicycle Enhancements</h4>
 <p>Uphill climbing bicycle lane with a downhill “sharrowed” multi-modal travel lane</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, bicycle, travel, uphill, lanes, parking, width, wide, side, stripe, signage, climbing, vehicle, shoulder</div>
 
 
 <span id="p134" class="anchor"></span>
@@ -263,7 +254,6 @@ sidebar:
 <p>•• Discussion: Wide bicycle lanes may encourage less- experienced bicyclists to ride farther to the right (door zone) to maximize distance from passing traffic. Diagonal stripes may be added to encourage bicyclists to ride to the left of the bicycle lane. This treatment is not standard and should be studied before use. Providing a buffer between parking stalls and the outside bicycle lane stripe are preferred (see Preferred Design for Bicycle Lane Next to On-Street Parallel Parking). However, the treatment at right may be used in areas where parking stalls are undesirable or otherwise cannot be used.</p>
 <h4>Bicycle Enhancements</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, bicycle, parking, bicyclists, design, left, streets, standard, markings, wide, contra-flow, lanes, guide, floating</div>
 
 
 <span id="p135" class="anchor"></span>
@@ -271,9 +261,9 @@ sidebar:
 ### Page 135 - 5.3 Protected Bicycle Lane
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0135.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0135.webp" alt="Complete Streets DG page 135 5.3 Protected Bicycle Lane"></a><figcaption>Complete Streets DG, page 135. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0135.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0135.webp" alt="Complete Streets DG page 135 5.3 Protected Bicycle Lane"></a><figcaption>Complete Streets DG, page 135.</figcaption></figure>
 <div class="dtext"><p>127</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>5.3 Protected Bicycle Lane</h4>
 <p>A protected bicycle lane, or “cycle track,” is a type of bicycle facility that provides a physical separation for bicyclists traveling on the roadway.</p>
 <h4>Bicycle Enhancements</h4>
@@ -291,7 +281,6 @@ sidebar:
 <p>•• Apply in relation to school routes, dense commercial districts, and arterials heavily traveled by bicyclists.</p>
 <p>•• Apply along streets with long blocks and few or no driveway or midblock access points for vehicles. Protected Bicycle Lanes located on one-way streets will have fewer potential conflicts than those on two- way streets.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, protected, streets, one-way, lane, bicyclists, lanes, roadway, street, side, complete, cycle, track, on-street</div>
 
 
 <span id="p136" class="anchor"></span>
@@ -299,9 +288,9 @@ sidebar:
 ### Page 136 - Design Guidance
 
 <div class="pmeta">Topics: bikeways, parking-curb, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0136.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0136.webp" alt="Complete Streets DG page 136 Design Guidance"></a><figcaption>Complete Streets DG, page 136. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0136.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0136.webp" alt="Complete Streets DG page 136 Design Guidance"></a><figcaption>Complete Streets DG, page 136.</figcaption></figure>
 <div class="dtext"><p>128</p>
-<p>5. ROADWAYS Complete Streets Design Guide</p>
+<p>5. ROADWAYS  Complete Streets Design Guide</p>
 <p>•• Apply along routes where there are more destinations on one side of a street or if the Protected Bicycle Lane will be connecting to a shared use path or other bicycle facility on one side of the street.</p>
 <h4>Design Guidance</h4>
 <p>Separation</p>
@@ -310,7 +299,6 @@ sidebar:
 <p>Protected bike lane with a landscaped buffer</p>
 <p>Painted buffers and soft-hit posts (as seen here in Chicago, Illinois) are inexpensive interim treatments to establish protected bicycle lanes before more-costly permanent facilities can be constructed.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, protected, lane, barrier, parking, lanes, on-street, design, side, street, separation, buffer, roadways, complete</div>
 
 
 <span id="p137" class="anchor"></span>
@@ -318,9 +306,9 @@ sidebar:
 ### Page 137 - Bicycle Enhancements
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0137.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0137.webp" alt="Complete Streets DG page 137 Bicycle Enhancements"></a><figcaption>Complete Streets DG, page 137. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0137.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0137.webp" alt="Complete Streets DG page 137 Bicycle Enhancements"></a><figcaption>Complete Streets DG, page 137.</figcaption></figure>
 <div class="dtext"><p>129</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <p>This conceptual rendering for 7th Street incorporates a wide buffered area that can accommodate non-car uses such as transit boarding islands, bikeshare stations, and bicycle parking corrals. (Image courtesy of Melendrez)</p>
 <p>The Figueroa Street streetscape plan envisions protected bicycle lanes intermixing with bus boarding islands. (image courtesy of Melendrez)</p>
 <p>Protected Bicycle Lane Only</p>
@@ -332,7 +320,6 @@ sidebar:
 <p>Protected Bicycle Lane adjacent to Parking Lane / Peak Hour Bus Lane</p>
 <p>♦ ♦Protected Bicycle Lanes, when designed adjacent to Parking Lanes / Peak-Time Bus Lanes should be placed between the lane and the sidewalk. This treatment prevents the conflict of bicyclists riding between two travel lanes. At intersections where Protected Bicycle Lanes meet bus stops, a bus stop island, 4’ – 5’ wide, should be provided, between the Protected Bicycle Lane and the Peak- Time Bus Lane, which allows pedestrians to board the bus. Additionally, the Protected Bicycle Lane should have yield signs at such conflict zones, and it should be raised to be at-grade with the sidewalk and bus stop island, before descending to be at-grade with the travel lanes.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, lane, parking, protected, lanes, adjacent, buffer, feet, width, wide, raised, street, accommodate, boarding</div>
 
 
 <span id="p138" class="anchor"></span>
@@ -357,7 +344,6 @@ sidebar:
 <p>A conceptual rendering of a protected bicycle lane (cycle track) on Huntington Drive in El Sereno.</p>
 <p>A buffered bicycle lane on 2nd Street in downtown Los Angeles provides separation and protection from vehicular traffic.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: design, cycle, require, parking, track, street, protected, bicycle, lane, buffers, lanes, guide, along, route</div>
 
 
 <span id="p139" class="anchor"></span>
@@ -365,9 +351,9 @@ sidebar:
 ### Page 139 - 5.4 Shared Lane Marking (Sharrow)
 
 <div class="pmeta">Topics: bikeways</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0139.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0139.webp" alt="Complete Streets DG page 139 5.4 Shared Lane Marking (Sharrow)"></a><figcaption>Complete Streets DG, page 139. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0139.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0139.webp" alt="Complete Streets DG page 139 5.4 Shared Lane Marking (Sharrow)"></a><figcaption>Complete Streets DG, page 139.</figcaption></figure>
 <div class="dtext"><p>131</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>5.4 Shared Lane Marking (Sharrow)</h4>
 <p>Shared Lane Markings serve as a visual cue for motorists to be aware of bicyclists traveling on the street. The presence of Shared Lane Markings indicate that that particular street serves as a vital connection for bicyclists, however, physical roadway constraints make it infeasible to implement a bicycle lane.</p>
 <h4>Bicycle Enhancements</h4>
@@ -382,7 +368,6 @@ sidebar:
 <p>•• Shared Lane Markings should be provided only after fully considering the feasibility of a bike lane.</p>
 <p>Shared Lane markings should be placed so as to encourage bicyclists to ride at least 3 feet away from parked cars in order to prevent “dooring” collisions..</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, bicyclists, shared, markings, streets, bicycle, travel, bike, serve, motorists, street, roadway, ride, away</div>
 
 
 <span id="p140" class="anchor"></span>
@@ -404,7 +389,6 @@ sidebar:
 <h4>References</h4>
 <p>CA MUTCD 9C.07 – Shared Lane Marking</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, shared, curb, marking, markings, on-street, parking, placed, face, design, edge, pavement, absent, mutcd</div>
 
 
 <span id="p141" class="anchor"></span>
@@ -412,9 +396,9 @@ sidebar:
 ### Page 141 - Benefits
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0141.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0141.webp" alt="Complete Streets DG page 141 Benefits"></a><figcaption>Complete Streets DG, page 141. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0141.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0141.webp" alt="Complete Streets DG page 141 Benefits"></a><figcaption>Complete Streets DG, page 141.</figcaption></figure>
 <div class="dtext"><p>133</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Benefits</h4>
 <p>•• Benefits local businesses by increasing the overall supply of on-street parking</p>
 <p>•• Makes bicycling more convenient (especially for local trips) when users know that bicycle parking is present</p>
@@ -433,7 +417,6 @@ sidebar:
 <p>•• Reflective flexible delineators, wheel stops or planters should serve as buffers for the corral at both ends. Object marker signage can further increase the visibility of bicycle corrals.</p>
 <p>•• There should be adequate clearances from bus stops, fire hydrants, utilities (including manhole covers), driveways, tree wells, and other street furniture.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: bicycle, parking, corral, racks, on-street, especially, bicycles, corrals, design, benefits, local, parked, street, furniture</div>
 
 
 <span id="p142" class="anchor"></span>
@@ -441,10 +424,8 @@ sidebar:
 ### Page 142 - Bicycle Corrals: Placement, Other Discussion and References
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, parking-curb, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0142.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0142.webp" alt="Complete Streets DG page 142 References (S-671)"></a><figcaption>Complete Streets DG, page 142. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Bicycle Corrals: Placement, Other Discussion and References.</b> Page 134 of the LADOT Complete Streets Design Guide, Section 5 Roadways, Bicycle Enhancements. It gives bicycle corral siting rules: a red curb zone is allowed if standard clearances are met, with at least 25 feet from a fire hydrant, 30 feet from intersection departure and 50 feet from intersection approach. It also describes the Bicycle Friendly Business Program and lists references including Standard Plan S-671.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Text page: Printed page 134, section header 5. ROADWAYS, running header Complete Streets Design Guide, tab label Bicycle Enhancements. Two columns. The left column has two bullets of corral placement guidance followed by an Other Discussion heading with two bullets. The right column has a References list.</p>
-<p>Photograph (lower center, across both columns): A storefront on York Boulevard with inverted-U bicycle racks at the curb holding several parked bicycles, a street tree, a sign post, a traffic signal pole and a curb painted red near the corner. Caption: York Boulevard, Highland Park.</p>
-<p>The page ends with the page number 134 and a Back to Table of Contents link.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>Placement bullets:</h5>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0142.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0142.webp" alt="Complete Streets DG page 142 References (S-671)"></a><figcaption>Complete Streets DG, page 142.</figcaption></figure>
+<details class="ocr"><summary>Sheet notes</summary><h5>Placement bullets:</h5>
 <p>1. Corrals can be located in a red curb zone as long as standard clearances are met. There should be at least a 25 foot clearance from a fire hydrant.</p>
 <p>2. Bicycle corrals should be located at least 30 feet from intersection departure and 50 feet from intersection approach.</p>
 <h5>Other Discussion:</h5>
@@ -454,9 +435,7 @@ sidebar:
 <p>- LADOT Bike Blog: ladotbikeblog.wordpress.com/bike-corrals/</p>
 <p>- LADOT Bicycle Friendly Business Program http://ladotbikeblog.wordpress.com/bicycle-friendly-business-program/</p>
 <p>- Standard Plan: S-671 Bicycle Rack</p>
-<p>Photo caption: York Boulevard, Highland Park</p></details></div>
-<div class="kw">Keywords: bike rack, bicycle rack placement, bike parking, inverted U rack, bicycle corral, S-671, amenity zone, frontage zone, curbline clearance, bike repair station, fire hydrant clearance, bicycle parking ordinance, curb extension bike rack, street furniture clearance</div>
-
+<p>Photo caption: York Boulevard, Highland Park</p></details>
 
 <span id="p143" class="anchor"></span>
 
@@ -464,7 +443,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, transit, intersections</div>
 <div class="dtext"><p>135</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Bicycle Enhancements</h4>
 <h4>5.6 Shared Bicycle-Bus Lane</h4>
 <p>A shared bicycle-bus lane provides bicyclists and buses with an exclusive travel lane on the roadway, especially where constrained roadways cannot accommodate separate facilities for both modes.</p>
@@ -487,7 +466,6 @@ sidebar:
 <p>•• To minimize delays to transit vehicles and bicyclists, vehicular right turns should be limited or prohibited at locations.</p>
 <p>•• There is no current standard CA MUTCD signage for a shared bicycle-bus lane. Many cities have developed their own signage.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, shared, bicyclists, buses, bicycle-bus, travel, space, roadways, bicycle, right, vehicles, design, provides, roadway</div>
 
 
 <span id="p144" class="anchor"></span>
@@ -495,7 +473,7 @@ sidebar:
 ### Page 144 - Considerations
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0144.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0144.webp" alt="Complete Streets DG page 144 Considerations"></a><figcaption>Complete Streets DG, page 144. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0144.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0144.webp" alt="Complete Streets DG page 144 Considerations"></a><figcaption>Complete Streets DG, page 144.</figcaption></figure>
 <div class="dtext"><p>136</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <p>Peak-hour Bus Lanes allow buses to stay on schedule at hours when vehicle lanes tend to get congested..</p>
@@ -512,7 +490,6 @@ sidebar:
 <h4>Applications</h4>
 <p>•• Peak-hour bus lanes should be considered on multi- lane arterial corridors where major transit service suffers from poor on-time performance, as a result of peak hour congestion.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, peak-hour, peak, hours, transit, lanes, travel, buses, street, curbside, result, on-street, parking, bicycle</div>
 
 
 <span id="p145" class="anchor"></span>
@@ -520,10 +497,8 @@ sidebar:
 ### Page 145 - Peak-Hour Bus Lane: Design Guidance, Additional Discussion and References
 
 <div class="pmeta">Drawings: <strong>S-487</strong> &middot; Topics: bikeways, transit, signals, parking-curb, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0145.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0145.webp" alt="Complete Streets DG page 145 Bicycle Enhancements (S-487)"></a><figcaption>Complete Streets DG, page 145. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Peak-Hour Bus Lane: Design Guidance, Additional Discussion and References.</b> Page 137 of the LADOT Complete Streets Design Guide, Section 5 Roadways. It gives design guidance for peak-hour curbside bus lanes, pointing to LADOT standard plan S-487 for Exclusive Bus Lane Markings, and describes the Wilshire Boulevard BRT peak-hour lanes (7.7 miles, weekdays 7 to 9 am and 4 to 7 pm). A photo shows a bus lane with ONLY legend and a red curb.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Text page: Printed page 137, section header 5. ROADWAYS, running header Complete Streets Design Guide, tab label Bicycle Enhancements. Two columns. The left column is the Design Guidance bullet list, which continues on the right with the last bullet, then Additional Discussion and References.</p>
-<p>Photograph (lower center, across both columns): A street in downtown Los Angeles with a curbside bus lane. White pavement legend text reading ONLY and part of another word are visible in the lane, with dashed white lane lines, a bus ahead in the lane, a gray SUV in the adjacent lane, and a red painted curb along the sidewalk with a street tree. Caption: Red paint on the curb emphasizes the lane&#x27;s exclusive dedication to bus use.</p>
-<p>The page ends with a Back to Table of Contents link and the page number 137.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>Design Guidance:</h5>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0145.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0145.webp" alt="Complete Streets DG page 145 Bicycle Enhancements (S-487)"></a><figcaption>Complete Streets DG, page 145.</figcaption></figure>
+<details class="ocr"><summary>Sheet notes</summary><h5>Design Guidance:</h5>
 <p>1. Peak-hour bus lanes should be installed with the appropriate parking signage and pavement markings (See City of Los Angeles&#x27; Department of Transportation standard plan S-487 for Exclusive Bus Lane Markings for further detail).</p>
 <p>2. At intersections, right turning movements by other motorists and bicyclists can be facilitated by marking dashed lines at the intersection approach. If buses traveling in the lane experience significant delays, right turns at select intersections may need to be prohibited.</p>
 <p>3. Transit signal prioritization should be given to buses operating in these lanes.</p>
@@ -537,9 +512,7 @@ sidebar:
 <p>- FTA Bus Lanes http://www.fta.dot.gov/12351_4358.html</p>
 <p>- Effective Bus-Only Lanes http://nacto.org/docs/usdg/effective_bus_only_lanes_kiesling.pdf</p>
 <p>- The City of Los Angeles&#x27; Department of Transportation currently has a standard plan (S-487) for Exclusive Bus Lane Markings.</p>
-<p>Photo caption: Red paint on the curb emphasizes the lane&#x27;s exclusive dedication to bus use.</p></details></div>
-<div class="kw">Keywords: bus lane, peak hour bus lane, median bus lane, busway, S-487, exclusive bus lane markings, red bus lane paint, transit signal priority, bus pad, shared bike bus lane, offset bus lane, Wilshire BRT, median boarding island, transit enhancements</div>
-
+<p>Photo caption: Red paint on the curb emphasizes the lane&#x27;s exclusive dedication to bus use.</p></details>
 
 <span id="p146" class="anchor"></span>
 
@@ -573,19 +546,14 @@ sidebar:
 <h4>References</h4>
 <p>The City of Los Angeles’ Department of Transportation currently has a standard plan (S-487) for Exclusive Bus Lane Markings. NACTO Urban Street Design Guide</p>
 <p>Back to Table of Contents</p></div>
-<div class="pclean"><p class="psum"><b>Bus Lane Design Guidance: Peak-Hour Bus Lane and Median Bus Lane.</b> Design guidance for peak-hour curbside bus lanes and for median bus lanes and busways, referencing LADOT standard plan S-487 for Exclusive Bus Lane Markings. Peak-hour lanes use parking signage, pavement markings, dashed lines at intersection approaches, bus pads and optional red paint. A median bus lane should be at least 11 feet wide.</p></div>
-<div class="kw">Keywords: bus lane, peak hour bus lane, median bus lane, busway, S-487, exclusive bus lane markings, red bus lane paint, transit signal priority, bus pad, shared bike bus lane, offset bus lane, Wilshire BRT, median boarding island, transit enhancements</div>
-
 
 <span id="p147" class="anchor"></span>
 
 ### Page 147 - 5.9 Median Bus Lane / Busway
 
 <div class="pmeta">Drawings: <strong>S-487</strong> &middot; Topics: crosswalks, transit, signals, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp" alt="Complete Streets DG page 147 5.9 Median Bus Lane / Busway (S-487)"></a><figcaption>Complete Streets DG, page 147. Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>5.9 Median Bus Lane / Busway.</b> Page 139 of the LADOT Complete Streets Design Guide, Section 5.9, Transit Enhancements. It defines median bus lanes and busways and lists their benefits, applications and design guidance, including a minimum median bus lane width of 11&#x27; and S-487 for Exclusive Bus Lane Markings. A NACTO rendering shows red median bus lanes with boarding islands and crosswalks.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Text page: Printed page 139, section header 5. ROADWAYS, running header Complete Streets Design Guide, tab label Transit Enhancements. Heading 5.9 Median Bus Lane / Busway with an introductory paragraph spanning both columns. Below it, the left column has Benefits and Applications and the right column has Design Guidance.</p>
-<p>Illustration (lower half, across both columns): A perspective rendering of an urban arterial with a center median bus lane colored red, with a white line between the two directions of bus travel, buses running in the median, a median boarding island with a shelter canopy, signalized crosswalks, median planting, signal poles and mast arms, general travel lanes with cars on the near side and street trees, sidewalks and pedestrians. Caption: Image courtesy of NACTO.</p>
-<p>The page ends with a Back to Table of Contents link and the page number 139.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the PDF text)</summary><h5>Introduction:</h5>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp" alt="Complete Streets DG page 147 5.9 Median Bus Lane / Busway (S-487)"></a><figcaption>Complete Streets DG, page 147.</figcaption></figure>
+<details class="ocr"><summary>Sheet notes</summary><h5>Introduction:</h5>
 <p>A median bus lane enhances transit service by providing a dedicated right-of-way for buses to run down the center of corridors. A median busway functions similarly to a median bus lane except that it provides a physical separation from vehicle traffic. For both of these facilities, passengers board and alight at station stops that are located on median boarding islands.</p>
 <h5>Benefits:</h5>
 <p>1. Minimizes conflicts with on-street curbside parking and vehicle turning movements.</p>
@@ -599,9 +567,7 @@ sidebar:
 <p>7. Contiguous lanes that run in opposite directions should be separated by a solid single or double white stripe(s).</p>
 <p>8. Median boarding islands should be placed in close proximity to safe, signalized crosswalks.</p>
 <p>9. A median busway can be separated from other travel lanes using a curb strip or rumble strips.</p>
-<p>Image caption: Image courtesy of NACTO.</p></details></div>
-<div class="kw">Keywords: bus lane, peak hour bus lane, median bus lane, busway, S-487, exclusive bus lane markings, red bus lane paint, transit signal priority, bus pad, shared bike bus lane, offset bus lane, Wilshire BRT, median boarding island, transit enhancements</div>
-
+<p>Image caption: Image courtesy of NACTO.</p></details>
 
 <span id="p148" class="anchor"></span>
 
@@ -621,7 +587,6 @@ sidebar:
 <h4>References</h4>
 <p>NACTO Urban Street Design Guide</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lanes, design, guide, transit, signal, buses, street, considered, lane, roadways, complete, streets, enhancements, prioritization</div>
 
 
 <span id="p149" class="anchor"></span>
@@ -630,7 +595,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-433</strong> &middot; Topics: bikeways, transit</div>
 <div class="dtext"><p>141</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Benefits</h4>
 <p>•• Helps prevent long-term damage (e.g., gaps, cracks, and ripples) to the roadway surface</p>
 <p>•• Maintains smooth road surface for bicyclists and vehicles</p>
@@ -647,7 +612,6 @@ sidebar:
 <p>Where no bus pad exists, the weight of heavy vehicles causes rippling and cracking of the asphalt surface.s</p>
 <p>A concrete bus pad under construction</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: surface, vehicles, concrete, pads, design, roadway, frequent, service, exists, minimum, length, city, angeles, bureau</div>
 
 
 <span id="p150" class="anchor"></span>
@@ -655,7 +619,7 @@ sidebar:
 ### Page 150 - 5.11 Median Bus Boarding Island
 
 <div class="pmeta">Topics: crosswalks, bikeways, transit</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0150.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0150.webp" alt="Complete Streets DG page 150 5.11 Median Bus Boarding Island"></a><figcaption>Complete Streets DG, page 150. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0150.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0150.webp" alt="Complete Streets DG page 150 5.11 Median Bus Boarding Island"></a><figcaption>Complete Streets DG, page 150.</figcaption></figure>
 <div class="dtext"><p>142</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>5.11 Median Bus Boarding Island</h4>
@@ -673,7 +637,6 @@ sidebar:
 <p>•• Pedestrian crossings from the sidewalk to the median boarding island should be designed and supplemented with the appropriate signage to reduce the risk of collision.</p>
 <p>Image Courtesy of Omnitrans</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: boarding, transit, island, median, provides, protected, bicycle, lanes, design, cycle, tracks, they, pedestrian, crossings</div>
 
 
 <span id="p151" class="anchor"></span>
@@ -681,9 +644,9 @@ sidebar:
 ### Page 151 - Transit Enhancements
 
 <div class="pmeta">Topics: crosswalks, bikeways, transit, parking-curb, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0151.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0151.webp" alt="Complete Streets DG page 151 Transit Enhancements"></a><figcaption>Complete Streets DG, page 151. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0151.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0151.webp" alt="Complete Streets DG page 151 Transit Enhancements"></a><figcaption>Complete Streets DG, page 151.</figcaption></figure>
 <div class="dtext"><p>143</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Transit Enhancements</h4>
 <p>•• Transit boarding islands should be at least as long as the distance between the front of the vehicle and its back door, with an additional 5’ clearance at the rear end.</p>
 <p>•• If applicable, the boarding island should be long enough to accommodate multiple buses with a 5’ buffer space between each pair of stopped buses.</p>
@@ -693,7 +656,6 @@ sidebar:
 <p>•• Boarding islands should warrant high visibility crossings connecting the platform to the sidewalk, complete with detectable warning plates, ADA ramps, and Braille signage.</p>
 <p>•• Platform amenities such as seating and fare machines should not obstruct waiting areas or nudge waiting passengers toward the center lane.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: boarding, islands, transit, long, island, platform, waiting, complete, back, buses, ramp, passengers, traffic, streets</div>
 
 
 <span id="p152" class="anchor"></span>
@@ -719,7 +681,6 @@ sidebar:
 <p>In a “road diet” project, a street’s roadway space is reconfigured to prioritize safer vehicle speeds, fewer collisions, and a pedestrian- and bicycle-friendly environment. A typical road diet project involves restriping the roadway to provide a center turn lane and bicycle lanes by reducing a travel lane in each</p>
 <p>A “traditional 4:3” Road Diet</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: road, diet, lane, bicycle, streets, vehicle, speeds, center, turn, vehicles, traffic, roadway, project, safer</div>
 
 
 <span id="p153" class="anchor"></span>
@@ -727,9 +688,8 @@ sidebar:
 ### Page 153 - Design Guidance
 
 <div class="pmeta">Topics: bikeways, transit, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0153.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0153.webp" alt="Complete Streets DG page 153 Design Guidance"></a><figcaption>Complete Streets DG, page 153. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>145 Complete Streets Design Guide 5. ROADWAYS Design Guidance •• The nature of the road diet depends on a street’s existing configuration, traffic operations, user needs, and safety concerns. For instance, a four-lane street (two travel lanes in each direction) could be modified to include one travel lane in each direction, a center turn lane, and bicycle lanes. References FHWA “Road Diet” - http://safety.fhwa.dot.gov/provencounter­ measures/fhwa_sa_12_013.pdf Transit Enhancements Before road diet After road diet: Images courtesy of NACTO Back to Table of Contents </p></details>
-<div class="kw">Keywords: road, diet, fhwa, design, street, safety, travel, lanes, direction, lane, complete, streets, guide, roadways</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0153.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0153.webp" alt="Complete Streets DG page 153 Design Guidance"></a><figcaption>Complete Streets DG, page 153.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>145 Complete Streets Design Guide  5. ROADWAYS Design Guidance •• The nature of the road diet depends on a street’s existing configuration, traffic operations, user needs, and safety concerns. For instance, a four-lane street (two travel lanes in each direction) could be modified to include one travel lane in each direction, a center turn lane, and bicycle lanes. References FHWA “Road Diet” - http://safety.fhwa.dot.gov/provencounter­ measures/fhwa_sa_12_013.pdf Transit Enhancements Before road diet After road diet: Images courtesy of NACTO Back to Table of Contents </p></details>
 
 
 <span id="p154" class="anchor"></span>
@@ -738,7 +698,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, transit, speed-calming</div>
 <div class="dtext"><p>146</p>
-<p>5. ROADWAYS Complete Streets Design Guide</p>
+<p>5. ROADWAYS  Complete Streets Design Guide</p>
 <h4>5.13 Lane Narrowing</h4>
 <p>Roadway space can be optimized by narrowing the width of travel lanes in order to make room for other beneficial roadway features (such as bicycle lanes) and provide traffic calming benefits.</p>
 <h4>Transit Enhancements</h4>
@@ -758,7 +718,6 @@ sidebar:
 <p>LADOT Manual of Policies and Procedures – Section 531, Page 8-9.</p>
 <p>NACTO Urban Street Design Guide – Lane Width http://nacto. org/usdg/lane-width/</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, minimum, width, travel, narrowing, lanes, design, traffic, speeds, wider, considered, safety, absolute, roadways</div>
 
 
 <span id="p155" class="anchor"></span>
@@ -767,7 +726,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, transit, parking-curb, speed-calming, striping, accessibility</div>
 <div class="dtext"><p>147</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>5.14 Neckdown</h4>
 <p>A neckdown, also known as a “choker” or “pinchpoint,” consists of curb extensions on both sides of a street at the midblock. The narrower roadway helps calm vehicle speeds, while also decreasing the distance of pedestrian crossings.</p>
 <h4>Other Traffic Calming Treatments</h4>
@@ -789,7 +748,6 @@ sidebar:
 <h4>Interim Design Strategies</h4>
 <p>•• Neckdowns, like other curb extensions, can be installed using low-cost, interim materials such as plastic bollards, planters, or striping. These temporary treatments provide safety benefits until funding becomes available to construct an actual concrete neckdown.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: neckdown, street, design, curb, speeds, pedestrian, crosswalk, pedestrians, vehicles, extensions, midblock, distance, crossings, treatments</div>
 
 
 <span id="p156" class="anchor"></span>
@@ -797,9 +755,9 @@ sidebar:
 ### Page 156 - 5.15 Chicane
 
 <div class="pmeta">Topics: bikeways, speed-calming</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0156.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0156.webp" alt="Complete Streets DG page 156 5.15 Chicane"></a><figcaption>Complete Streets DG, page 156. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0156.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0156.webp" alt="Complete Streets DG page 156 5.15 Chicane"></a><figcaption>Complete Streets DG, page 156.</figcaption></figure>
 <div class="dtext"><p>148</p>
-<p>5. ROADWAYS Complete Streets Design Guide</p>
+<p>5. ROADWAYS  Complete Streets Design Guide</p>
 <h4>5.15 Chicane</h4>
 <p>Chicanes are alternating curb extensions on the roadway that encourage motorists to drive at slower, safer speeds. Chicanes form an S-shaped curve, forcing cars to slow down.</p>
 <h4>Other Traffic Calming Treatments</h4>
@@ -811,7 +769,6 @@ sidebar:
 <p>•• Chicanes are typically applied on streets in residential contexts where unsafe vehicle speeds pose a threat to pedestrians and bicyclists.</p>
 <p>•• They are applied at the midblock on narrower streets where there is a travel lane in each direction, or on one-way roads.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: streets, chicanes, motorists, speeds, applied, roadways, complete, design, guide, chicane, alternating, curb, extensions, roadway</div>
 
 
 <span id="p157" class="anchor"></span>
@@ -820,7 +777,7 @@ sidebar:
 
 <div class="pmeta">Topics: parking-curb, speed-calming, striping</div>
 <div class="dtext"><p>149</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Design Guidance</h4>
 <p>•• Chicanes typically consist of a set of 2 or 3 curb extensions set in an alternating pattern.</p>
 <p>•• The desired design speed of the street should help inform the degree of horizontal deflection (i.e., the lateral movement of vehicles around the chicane). Some European manuals recommend that chicanes should have a displacement of at least one lane and the angle of deflection should be at least 45 degrees.</p>
@@ -836,7 +793,6 @@ sidebar:
 <p>Institute of Transportation Engineers – Traffic Calming Mea­ sures: Chicane http://www.ite.org/traffic/chicane.asp</p>
 <h4>Other Traffic Calming Treatments</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: design, chicanes, curb, chicane, traffic, guide, extensions, help, calming, street, deflection, least, striping, complete</div>
 
 
 <span id="p158" class="anchor"></span>
@@ -844,7 +800,7 @@ sidebar:
 ### Page 158 - 5.16 Landscaped Median
 
 <div class="pmeta">Topics: crosswalks, bikeways, parking-curb, speed-calming</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0158.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0158.webp" alt="Complete Streets DG page 158 5.16 Landscaped Median"></a><figcaption>Complete Streets DG, page 158. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0158.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0158.webp" alt="Complete Streets DG page 158 5.16 Landscaped Median"></a><figcaption>Complete Streets DG, page 158.</figcaption></figure>
 <div class="dtext"><p>150</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>5.16 Landscaped Median</h4>
@@ -865,7 +821,6 @@ sidebar:
 <h4>Considerations</h4>
 <p>•• Continuous medians may not be the most appropriate treatment in every situation. In some cases, they can increase traffic speeds by decreasing the perceived friction through separating traffic flow directions. They may also take up space that can be better used for wider sidewalks, bicycle lanes, landscaping buffer strips, or on-street parking.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: traffic, streets, landscaped, median, provides, apply, calming, plants, landscaping, appropriate, pedestrian, speeds, lanes, considered</div>
 
 
 <span id="p159" class="anchor"></span>
@@ -874,7 +829,7 @@ sidebar:
 
 <div class="pmeta">Topics: crosswalks, speed-calming, striping, signs, intersections</div>
 <div class="dtext"><p>151</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Other Traffic Calming Treatments</h4>
 <p>•• Design must account for impact of raised median on emergency vehicle movement and access. Landscaping or stormwater source controls require a partner for ongoing maintenance.</p>
 <p>•• Continuous raised median may prevent left turns into driveways on opposite side of street. On streets that have a limited right of way, other treatments should be considered first before application of this treatment.</p>
@@ -888,7 +843,6 @@ sidebar:
 <p>•• Irrigation: Overspray and runoff onto the roadway pavement from irrigation is prohibited. Refer to BSS for specific requirements.</p>
 <p>•• Other elements: Gateway signs or elements, art, pathways on wide medians, and other elements can also be provided on medians. If a median is particularly wide, seating and recreational elements may be provided.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: median, wide, stormwater, feet, elements, design, maintenance, minimum, trees, medians, roadway, runoff, streets, treatments</div>
 
 
 <span id="p160" class="anchor"></span>
@@ -919,7 +873,6 @@ sidebar:
 <h4>References</h4>
 <p>MUTCD Chapter 2L. Changeable Message Signs</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: speed, feedback, signs, vehicle, speeds, they, design, streets, collisions, drivers, traveling, street, users, applied</div>
 
 
 <span id="p161" class="anchor"></span>
@@ -928,7 +881,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, parking-curb, speed-calming</div>
 <div class="dtext"><p>153</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>5.18 On-Street Carshare Parking</h4>
 <p>Carsharing is designed to give individuals short-term access to cars when they need it. Typically, a user checks out a vehicle from a designated off-street lot or garage. Access to shared vehicles can be easy or inconvenient depending on where one lives. By assigning a select number of on-street parking spaces for carshare use, shared vehicles will be available in more locations to serve more users.</p>
 <h4>Other Traffic Calming Treatments</h4>
@@ -947,7 +900,6 @@ sidebar:
 <p>•• The San Francisco Municipal Transportation Agency (SFMTA) is currently in the middle of their On-Street Car Share Pilot Project where they have converted 150 on- street spaces for carsharing use for a two-year period from 2013 to 2015. The pilot program will help inform where the demand for carshare services is highest and help further establish definitive locations where carshare will continue to thrive and serve communities in the future.</p>
 <p>•• CA Vehicle Code Section 22507.1. outlines local regulations for parking privileges for car share or ridesharing programs. It states in part ‘a’ that “A local authority may, by ordinance or resolution, designate certain streets or portions of streets for the exclusive parking privilege of motor vehicles participating in a car share vehicle program or ridesharing program. The ordinance or resolution shall establish the criteria for a public or private company or organization to participate in the program, and may limit the types of motor vehicles that may be included in the program. Under the car share vehicle program a car share vehicle or ridesharing vehicle shall be assigned a permit by the local authority that allows that vehicle to park in the exclusive designated parking areas.”</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: carshare, parking, vehicle, on-street, share, program, vehicles, spaces, carsharing, access, they, locations, users, streets</div>
 
 
 <span id="p162" class="anchor"></span>
@@ -974,7 +926,6 @@ sidebar:
 <p>•• Motorists must be aware of cyclists as they attempt to back into an angled space.</p>
 <p>•• Exhaust pipe emissions from parked cars are directed toward pedestrians on the sidewalk.</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: parking, back-in, motorists, angle, back, bicyclists, pedestrians, parallel, roadways, streets, design, traffic, cars, on-street</div>
 
 
 <span id="p163" class="anchor"></span>
@@ -983,7 +934,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-440</strong> &middot; Topics: bikeways, parking-curb, speed-calming, striping</div>
 <div class="dtext"><p>155</p>
-<p>Complete Streets Design Guide 5. ROADWAYS</p>
+<p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Other Traffic Calming Treatments</h4>
 <h4>Design Guidance</h4>
 <p>•• Although not drawn to specifically reflect the design for back-in angled parking, the City of Los Angeles Department of Transportation does currently have a Standard Plan (S-440) for On-Street Angle Parking Stalls.</p>
@@ -995,7 +946,6 @@ sidebar:
 <p>•• Pedestrian and Bicycle Information Center – Back-in Angle Parking http://www.pedbikeinfo.org/data/faq_ details.cfm?id=3974</p>
 <p>•• Charlotte Bicycle Master Plan http://charmeck.org/ city/charlotte/Transportation/PedBike/Documents/ ChapterSeven070708.pdf</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: parking, angle, lane, stall, design, back-in, angled, plan, stalls, space, bicycle, traffic, city, transportation</div>
 
 
 <span id="p164" class="anchor"></span>
@@ -1025,25 +975,20 @@ sidebar:
 <p>LADOT - Colored Curb Zones http://www.ladot.lacity.org/ WhatWeDo/Parking/CanIParkThere/ColoredCurbZones/ index.htm</p>
 <p>Loading and unloading zones should be designated by both signs and yellow-colored curbs..</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: loading, zones, commercial, unloading, parking, vehicles, roadway, designated, ladot, yellow, curb, design, deliveries, locations</div>
 
 
 <span id="p165" class="anchor"></span>
 
 ### Page 165
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0165.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0165.webp" alt="Complete Streets DG page 165 "></a><figcaption>Complete Streets DG, page 165. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0165.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0165.webp" alt="Complete Streets DG page 165 "></a><figcaption>Complete Streets DG, page 165.</figcaption></figure>
 
 
 <span id="p166" class="anchor"></span>
 
 ### Page 166
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0166.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0166.webp" alt="Complete Streets DG page 166 "></a><figcaption>Complete Streets DG, page 166. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0166.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0166.webp" alt="Complete Streets DG page 166 "></a><figcaption>Complete Streets DG, page 166.</figcaption></figure>
 
 
 <span id="p167" class="anchor"></span>
@@ -1051,16 +996,10 @@ sidebar:
 ### Page 167 - Complete Streets Design Guide: Chapter 6, Intersections and Crossings (Section Divider)
 
 <div class="pmeta">Topics: intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp" alt="Complete Streets DG page 167 "></a><figcaption>Complete Streets DG, page 167 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Chapter 6, Intersections and Crossings (Section Divider).</b> Section divider page that opens Chapter 6, Intersections and Crossings, of the LADOT Complete Streets Design Guide. It shows the chapter number 6, the guide name and the chapter title over three tinted photographs of a downtown intersection. It contains no design content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Cover layout: a full-page section divider in a light gray field. In the upper left of the page area is a large gray numeral 6 set in a heavy sans-serif face, taking up the left half of the sheet. Centered in the upper right panel are two lines of text. A small, widely spaced teal line reads COMPLETE STREETS DESIGN GUIDE and below it a large bold gray heading reads INTERSECTIONS AND CROSSINGS (set on two lines). Along the bottom of the page, three tall duotone photograph strips run side by side with white gaps between them, one in purple, one in yellow and one in teal. The numeral overlaps the left edge of the purple strip. The three strips together show one downtown intersection with multistory masonry buildings, traffic signal heads, pedestrians walking across the street, and white crosswalk and stop line markings in the foreground. The page carries no body text, tables or dimensions.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Text on the page: 6. COMPLETE STREETS DESIGN GUIDE. INTERSECTIONS AND CROSSINGS. No other notes.</p></details></div>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Chapter 6, Intersections and Crossings (Section Divider).</b> Section divider page that opens Chapter 6, Intersections and Crossings, of the LADOT Complete Streets Design Guide. It shows the chapter number 6, the guide name and the chapter title over three tinted photographs of a downtown intersection. It contains no design content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Cover layout: a full-page section divider in a light gray field. In the upper left of the page area is a large gray numeral 6 set in a heavy sans-serif face, taking up the left half of the sheet. Centered in the upper right panel are two lines of text. A small, widely spaced teal line reads COMPLETE STREETS DESIGN GUIDE and below it a large bold gray heading reads INTERSECTIONS AND CROSSINGS (set on two lines). Along the bottom of the page, three tall duotone photograph strips run side by side with white gaps between them, one in purple, one in yellow and one in teal. The numeral overlaps the left edge of the purple strip. The three strips together show one downtown intersection with multistory masonry buildings, traffic signal heads, pedestrians walking across the street, and white crosswalk and stop line markings in the foreground. The page carries no body text, tables or dimensions.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Text on the page: 6. COMPLETE STREETS DESIGN GUIDE. INTERSECTIONS AND CROSSINGS. No other notes.</p></details></div>
-<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, intersections and crossings, section divider, crosswalks</div>
-
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp" alt="Complete Streets DG page 167 "></a><figcaption>Complete Streets DG, page 167.</figcaption></figure>
 
 <span id="p168" class="anchor"></span>
 
 ### Page 168
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0168.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0168.webp" alt="Complete Streets DG page 168 "></a><figcaption>Complete Streets DG, page 168. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0168.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0168.webp" alt="Complete Streets DG page 168 "></a><figcaption>Complete Streets DG, page 168.</figcaption></figure>

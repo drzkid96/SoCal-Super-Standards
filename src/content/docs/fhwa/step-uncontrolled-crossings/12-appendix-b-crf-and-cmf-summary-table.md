@@ -12,7 +12,7 @@ sidebar:
 ### Page 39 - Appendix B: CRF and CMF Summary Table
 
 <div class="pmeta">Topics: crosswalks, parking-curb, speed-calming, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0039.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0039.webp" alt="FHWA STEP Guide page 39 Appendix B: CRF and CMF Summary Table"></a><figcaption>FHWA STEP Guide, page 39. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0039.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0039.webp" alt="FHWA STEP Guide page 39 Appendix B: CRF and CMF Summary Table"></a><figcaption>FHWA STEP Guide, page 39.</figcaption></figure>
 <div class="dtext"><p>32</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Appendix B: CRF and CMF Summary Table</p>
@@ -37,7 +37,6 @@ sidebar:
 <p>References</p>
 <p>1. Zegeer, C., R. Srinivasan, B. Lan, D. Carter, S. Smith, C. Sundstrom, N.J. Thirsk, J. Zegeer, C. Lyon, E. Ferguson, and R. Van Houten. NCHRP Report 841: Development of Crash Modification Factors for Uncontrolled Pedestrian Crossing Treatments. NCHRP, Transportation Research Board, Washington, DC, 2017.</p>
 <p>2. Harkey, D.L., R. Srinivasan, J. Baek, F. Council, K. Eccles, N. Lefler, F. Gross, B. Persaud, C. Lyon, E. Hauer, and J. Bonneson. NCHRP Report 617: Accident Modification Factors for Traffic Engineering and ITS Improvements. NCHRP, Transportation Research Board, Washington, DC, 2008.</p></div>
-<div class="kw">Keywords: pedestrian, crashes, zegeer, crossing, markings, crosswalk, nchrp, table, countermeasure, total, high-visibility, road, uncontrolled, appendix</div>
 
 
 <span id="p40" class="anchor"></span>
@@ -54,4 +53,3 @@ sidebar:
 <p>6. Elvik, R., P. Christensen, and A. Amundsen. "Speed and Road Accidents An Evaluation of the Power Model." Transportokonomisk Institutt, Oslo, Norway, 2004.</p>
 <p>7. Pawlovich, M.D., W. Li, A. Carriquiry, and T. Welch. "Iowa's Experience with Road Diet Measures—Use of Bayesian Approach to Assess Impacts on Crash Frequencies and Crash Rates." Transportation Research Record: Journal of the Transportation Research Board, No. 1953, Transportation Research Board, Washington, D.C., 2006.</p>
 <p>8. Persaud, B., B. Lan, C. Lyon, and R. Bhim. "Comparison of empirical Bayes and full Bayes approaches for before–after road safety evaluations." Accident Analysis &amp; Prevention, Volume 42, Issue 1, 2010, pp. 38-43.</p></div>
-<div class="kw">Keywords: transportation, research, safety, crash, board, road, chen, countermeasures, reduction, accident, analysis, prevention, empirical, bayesian</div>

@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>2 Hour Parking 8Am To6Pm Motorcycle Parking Only regulatory sign</dd>
 <dt>Legend</dt><dd>2 HOUR PARKING 8AM TO6PM MOTORCYCLE PARKING ONLY</dd>
-<dt>Keywords</dt><dd class="kw">r32f(ca), 2 hour parking 8am to6pm motorcycle parking only, hour, parking, motorcycle, only, regulatory sign, other, curb, loading</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r32">R32 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

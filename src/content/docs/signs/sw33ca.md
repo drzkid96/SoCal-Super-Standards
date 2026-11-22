@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Safety Corridor Sign warning sign</dd>
 <dt>Legend</dt><dd>12 SAFETY TY AWARENESS ARENESS ZONE DRIVE SAFELY LY</dd>
-<dt>Keywords</dt><dd class="kw">sw33(ca), safety corridor sign, 12 safety ty awareness areness zone drive safely ly, safety, awareness, zone, drive, safely, warning sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sw33">SW33 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

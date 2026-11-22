@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Tow-Away No Stopping Sts 7 9 To Am 4 6 Pm To E X C E P T S U regulatory sign</dd>
 <dt>Legend</dt><dd>TOW-AWAY NO STOPPING STS 7 9 TO AM 4 6 PM TO E X C E P T S U N D A Y F O R T O W E D C A R S P H O N E 3 2 1 - 2 0 2 0 NO PARKING PAP 9AM 4PM TO E X C E P T S U N D A Y</dd>
-<dt>Keywords</dt><dd class="kw">r37(ca), tow-away no stopping sts 7 9 to am 4 6 pm to e x c e p t s u, tow-away no stopping sts 7 9 to am 4 6 pm to e x c e p t s u n d a y f o r t o w e d c a r s p h o n e 3 2 1, 2 0 2 0 no parking pap 9am 4pm to e x c e p t s u n d a y, tow, away, stopping, parking, regulatory sign, other, curb, loading, stop control</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r37">R37 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

@@ -20,7 +20,6 @@ sidebar:
 <p><a href="/SoCal-Super-Standards/s/ca/6A.03/">Section 6A.03</a> TTC Devices The following is added to this section:</p>
 <h4>Standard:</h4>
 <p>07 If used, the provisions for temporary traffic control devices in Part 6, shall apply to all temporary traffic control devices used on roadways included in the established GRN in locations specified by Caltrans experimentation request to FHWA.</p></div>
-<div class="kw">Keywords: temporary, traffic, control, part, devices, chapter, general, section, mutcd, supplement, page, july, following, added</div>
 
 
 <span id="p77" class="anchor"></span>
@@ -39,4 +38,3 @@ sidebar:
 <p>42 Table 2L-102(LA28) provides examples of GRN messages for Portable CMS that can be used in GRN dedicated lane(s) for Olympic Games vehicles to travel between venues that is included in the established GRN. Standard:</p>
 <p>43 GRN messages used on portable changeable message signs shall be used only if the portable changeable message signs are located in or on approaches to GRN dedicated lane(s) for Olympic Games vehicles to travel between venues that is included in the established GRN.</p>
 <p>44 Portable changeable message signs used on GRN roadways shall comply with the applicable design and application principles established in Chapter 2A.</p></div>
-<div class="kw">Keywords: signs, portable, changeable, message, chapter, traffic, control, lane, games, travel, established, messages, section, dedicated</div>

@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>No Merge Area plaque</dd>
 <dt>Legend</dt><dd>NO MERGE AREA (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">w4-5ap, no merge area (plaque), merge, area, warning sign, merging and lanes, lane drop, black, yellow, orange</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w4">W4 &middot; Merging and lanes</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE) TTC SIGN COLORS: LEGEND, BORDER — BLACK BACKGROUND — ORANGE (RETROREFLECTIVE)</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>See the FHWA layout sheet for dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

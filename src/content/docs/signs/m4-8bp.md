@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>End plaque</dd>
 <dt>Legend</dt><dd>END (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">m4-8bp, end (plaque), work zone sign, other, black</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#ttc">Temporary Traffic Control Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-m4">M4 &middot; Other</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — FLUORESCENT PINK</dd>

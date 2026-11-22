@@ -36,7 +36,6 @@ sidebar:
 <p>Option:</p>
 <p>03 The LA28 sign plaque, including if it is combined with the word message PERMIT ONLY, may be used in conjunction with any existing or new Lane Designation Auxiliary plaques, where engineering judgment determines the need to identify dedicated lanes on GRN roadways to facilitate travel during LA28 games. Support:</p>
 <p>04 Refer to Figure 2D-6 for Lane Designation Auxiliary plaques, and 2D-6(LA28), 2D-6(CA)(LA28), and 2G-6(LA28) for examples showing the sign plaque addition to the guide signs.</p></div>
-<div class="kw">Keywords: section, sign, guide, mutcd, signs, identify, dedicated, lanes, roadways, following, added, facilitate, travel, games</div>
 
 
 <span id="p35" class="anchor"></span>
@@ -66,7 +65,6 @@ sidebar:
 <p>Option:</p>
 <p>06 The LA28 sign plaque or the LA28 sign panel, including if it is combined with the word message PERMIT ONLY, may be used on any existing or new Directional Assemblies, where engineering judgment determines the need to identify dedicated lanes on GRN roadways to facilitate travel during LA28 games. Support:</p>
 <p>07 Refer to Figure 2D-8 for Directional Assemblies, and 2G-6(LA28) for examples showing the sign plaque addition and affixing the sign panel to the face of the guide signs.</p></div>
-<div class="kw">Keywords: sign, section, plaque, panel, assemblies, signs, guide, directional, route, following, added, option, including, combined</div>
 
 
 <span id="p36" class="anchor"></span>
@@ -96,7 +94,6 @@ sidebar:
 <p>Option:</p>
 <p>47 The LA28 sign plaque or the LA28 sign panel, including if it is combined with the word message PERMIT ONLY, may be used on any existing or new Community Wayfinding signs, where engineering judgment determines the need to identify dedicated lanes on GRN roadways to facilitate travel during LA28 games. Support:</p>
 <p>48 Refer to Figures 2D-30 through 2D-32 for Community Wayfinding signs, and 2G-6(LA28) for examples showing the sign plaque addition and affixing the sign panel to the face of the guide signs.</p></div>
-<div class="kw">Keywords: sign, signs, guide, section, plaque, panel, destination, following, added, option, including, combined, word, message</div>
 
 
 <span id="p37" class="anchor"></span>
@@ -104,7 +101,7 @@ sidebar:
 ### Page 37 - Figure 2D-6(LA28). Examples of LA28 Sign Plaque Usage on Advance Turn
 
 <div class="pmeta">Signs: G20-1 (CA) <a class="sref" href="/SoCal-Super-Standards/signs/g20-3ca/" data-svg="/SoCal-Super-Standards/signs/ca/g20-3ca.webp">G20-3(CA)</a> <a class="sref" href="/SoCal-Super-Standards/signs/g20-5ca/" data-svg="/SoCal-Super-Standards/signs/ca/g20-5ca.webp">G20-5(CA)</a> <a class="sref" href="/SoCal-Super-Standards/signs/g20-7ca/" data-svg="/SoCal-Super-Standards/signs/ca/g20-7ca.webp">G20-7(CA)</a> G33-1 <a class="sref" href="/SoCal-Super-Standards/signs/g78-4ca/" data-svg="/SoCal-Super-Standards/signs/ca/g78-4ca.webp">G78-4(CA)</a> M5-2P M5-3P M5-4P M5-5P M5-6P M6-1 M6-2P M6-2aP M6-3P M6-4P M6-5P M6-6P M6-7P &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0037.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0037.webp" alt="LA28 Supplement page 37 Figure 2D-6(LA28). Examples of LA28 Sign Plaque Usage on Advance Turn"></a><figcaption>LA28 Supplement, page 37. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0037.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0037.webp" alt="LA28 Supplement page 37 Figure 2D-6(LA28). Examples of LA28 Sign Plaque Usage on Advance Turn"></a><figcaption>LA28 Supplement, page 37.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 37</p>
 <p>Chapter 2E - Guide Signs - Freeways and Expressways July 15, 2026 Part 2 Signs</p>
 <h4>Figure 2D-6(LA28). Examples of LA28 Sign Plaque Usage on Advance Turn</h4>
@@ -137,7 +134,7 @@ sidebar:
 <h4>1@0</h4>
 <h4>SO UTH "</h4>
 <p>G78- 1 (CA)</p>
-<h4>H arbor Fwy   N ORT H</h4>
+<h4>H arbor Fwy     N ORT H</h4>
 <p><a class="sref" href="/SoCal-Super-Standards/signs/g78-4ca/" data-svg="/SoCal-Super-Standards/signs/ca/g78-4ca.webp">G78-4(CA)</a></p>
 <h4>(2) E Asr</h4>
 <h4>Fa i rfi e l d R I G HT LA N E</h4>
@@ -174,7 +171,6 @@ sidebar:
 <p>Part 2 Signs</p>
 <p>Page 37</p>
 <p>July 15, 2026</p></div>
-<div class="kw">Keywords: signs, mutcd, supplement, page, chapter, guide, freeways, expressways, july, part, lane, figure, examples, sign</div>
 
 
 <span id="p38" class="anchor"></span>
@@ -182,6 +178,5 @@ sidebar:
 ### Page 38 - Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0038.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0038.webp" alt="LA28 Supplement page 38 Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs"></a><figcaption>LA28 Supplement, page 38. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>CA MUTCD 2026 LA28 Supplement Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs Comcast Squash Center NEXT RIGHT Rose Bowl USE@ WEST Chapter 2E - Guide Signs - Freeways and Expressways Part 2 Signs - - - - - - - Rose Bowl NEXT EXIT Santa Anita+ Park anta Anita Par USE Baldwin Ave EXIT I Santa Anita Park /f /f Page 38 July 15, 2026 </p></details>
-<div class="kw">Keywords: signs, anita, next, rose, bowl, exit, santa, park, mutcd, supplement, figure, sign, panel, destination</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0038.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0038.webp" alt="LA28 Supplement page 38 Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs"></a><figcaption>LA28 Supplement, page 38.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>CA MUTCD 2026 LA28 Supplement Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs Comcast Squash Center NEXT RIGHT Rose Bowl USE@ WEST Chapter 2E - Guide Signs - Freeways and Expressways Part 2 Signs - - - - - - - Rose Bowl NEXT EXIT Santa Anita+ Park anta Anita Par USE Baldwin Ave EXIT I Santa Anita Park /f /f Page 38 July 15, 2026 </p></details>

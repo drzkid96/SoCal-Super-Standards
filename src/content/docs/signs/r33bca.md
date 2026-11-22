@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>6 To 9 Am Mon - Fri Except Buses And Hov 2+ regulatory sign</dd>
 <dt>Legend</dt><dd>6 TO 9 AM MON - FRI EXCEPT BUSES AND HOV 2+</dd>
-<dt>Keywords</dt><dd class="kw">r33b(ca), 6 to 9 am mon, fri except buses and hov 2+, mon, fri, except, buses, and, hov, regulatory sign, other, transit</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r33">R33 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

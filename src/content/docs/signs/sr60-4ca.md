@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Right Lane Bus Taxis Only 24 Hours regulatory sign</dd>
 <dt>Legend</dt><dd>RIGHT LANE BUS TAXIS ONLY 24 HOURS</dd>
-<dt>Keywords</dt><dd class="kw">sr60-4(ca), right lane bus taxis only 24 hours, right, lane, bus, taxis, only, hours, regulatory sign, other, transit</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sr60">SR60 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

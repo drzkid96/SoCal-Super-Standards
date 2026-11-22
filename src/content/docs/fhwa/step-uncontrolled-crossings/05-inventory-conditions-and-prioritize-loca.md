@@ -36,7 +36,6 @@ sidebar:
 <p>» On-street parking, alignment, and marked</p>
 <p>or signed restrictions.</p>
 <h4>Inventory Conditions and Prioritize Locations</h4></div>
-<div class="kw">Keywords: locations, roadway, characteristics, conditions, pedestrian, inventory, document, create, volumes, priority, speeds, lanes, traffic, prioritize</div>
 
 
 <span id="p16" class="anchor"></span>
@@ -44,9 +43,8 @@ sidebar:
 ### Page 16
 
 <div class="pmeta">Topics: crosswalks, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0016.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0016.webp" alt="FHWA STEP Guide page 16 "></a><figcaption>FHWA STEP Guide, page 16. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>9 Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations Inventory Conditions and Prioritize Locations Figure 3. Example crossing inventory worksheet. Source: City of Boulder, Pedestrian Crossing Treatment Installation Guidelines (2011). </p></details>
-<div class="kw">Keywords: crossing, pedestrian, locations, inventory, guide, improving, safety, uncontrolled, conditions, prioritize, figure, example, worksheet, source</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0016.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0016.webp" alt="FHWA STEP Guide page 16 "></a><figcaption>FHWA STEP Guide, page 16.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>9 Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations Inventory Conditions and Prioritize Locations Figure 3. Example crossing inventory worksheet. Source: City of Boulder, Pedestrian Crossing Treatment Installation Guidelines (2011). </p></details>
 
 
 <span id="p17" class="anchor"></span>
@@ -88,14 +86,13 @@ sidebar:
 <p>In addition to collecting inventory information about the priority sites, it is important that the agency categorize each crossing as either controlled or uncontrolled. Uncontrolled pedestrian crossing locations occur where sidewalks or designated walkways intersect a roadway at a location where no traffic control (i.e., traffic signal or STOP sign) is present. These common crossing types occur at intersections (where they may be marked or unmarked) and at non-intersection or midblock locations (where they must be marked as crossings). This guide describes countermeasures applicable to uncontrolled crossings. Some of these countermeasures can also be used for controlled crossings, and the agency should consult other guidance for specific implementation criteria at those sites.</p>
 <h4>Screen the Network for High- Crash or High-Risk Locations</h4>
 <p>By following a data-driven approach, the agency can readily explain and defend how it selected priority sites for improvement. An agency can study, or screen, the safety conditions for the road network within its jurisdiction. The screening process uses geo-coded pedestrian crash data and other information to identify different types of locations. Network screening may take the form of spot safety or systemic safety analysis. Spot safety analysis is based on crash history at individual locations and identified high-crash locations. The systemic approach analyzes crash history on an aggregate basis to identify roadways that have high-crash experience, as well as high-risk characteristics at other sites before crashes occur, so countermeasures can be selected to address these characteristics.</p></div>
-<div class="kw">Keywords: pedestrian, crossing, locations, agency, safety, uncontrolled, crossings, sites, signal, traffic, crosswalk, crash, inventory, conditions</div>
 
 
 <span id="p18" class="anchor"></span>
 
 ### Page 18
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0018.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0018.webp" alt="FHWA STEP Guide page 18 "></a><figcaption>FHWA STEP Guide, page 18. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0018.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0018.webp" alt="FHWA STEP Guide page 18 "></a><figcaption>FHWA STEP Guide, page 18.</figcaption></figure>
 <div class="dtext"><p>11</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Inventory Conditions and Prioritize Locations</p>
@@ -106,4 +103,3 @@ sidebar:
 <p>The systemic analysis can cover different geographies; an agency may choose to analyze for an area of interest or the entire jurisdiction. Systemic analysis considers factors such as inadequate roadway design and traffic control devices, lighting conditions, vehicle speeds, and nearby pedestrian destinations. Combinations of these factors help identify countermeasures to address and prevent pedestrian crashes.</p>
 <p>Figure 4. Crash cluster analysis map: Richmond, VA.</p>
 <p>Source: Virginia Department of Transportation (2017).</p></div>
-<div class="kw">Keywords: pedestrian, crashes, analysis, locations, crash, areas, cluster, spot, roadway, area, systemic, agency, factors, safety</div>

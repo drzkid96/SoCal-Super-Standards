@@ -27,7 +27,6 @@ sidebar:
 <p>The Strategic Highway Safety Plan (SHSP) is a statewide-coordinated, data-driven safety plan that provides a comprehensive framework for reducing highway fatalities and serious injuries on all public roads. States are required to update the SHSP at least once every five years. The SHSP may include an emphasis area and strategies for improving pedestrian safety. The agency should review the SHSP for pedestrian crash statistics and strategies for pedestrian safety improvements.</p>
 <p>The SHSP informs the State's Highway Safety Improvement Program (HSIP). The HSIP is a program of highway safety improvement</p>
 <h4>Collect Data and Engage the Public</h4></div>
-<div class="kw">Keywords: safety, pedestrian, crash, data, public, locations, shsp, collect, highway, engage, improving, crossing, existing, process</div>
 
 
 <span id="p11" class="anchor"></span>
@@ -44,7 +43,6 @@ sidebar:
 <p>The agency may have adopted a policy for eliminating traffic-related fatalities, such as a Vision Zero or Toward Zero Deaths initiative. The programs focus on eliminating or significantly reducing traffic fatalities and prioritize strategies for the most vulnerable roadway users, such as pedestrians. These programs may summarize how all agency departments can improve pedestrian and traffic safety, and may include metrics that establish the need for safety at uncontrolled pedestrian crossings.</p>
 <h4>Review Pedestrian Master Plans for Proposed Projects</h4>
 <p>Another approach to identify pedestrian issues is to review existing local or regional plans, particularly those with a focus on pedestrians, for potential locations for safety projects and to identify needed countermeasures. A State or local pedestrian master plan may include recommendations for pedestrian safety projects, identified infrastructure deficiencies, and/or documentation</p></div>
-<div class="kw">Keywords: pedestrian, safety, projects, agency, improvements, highway, crossing, hsip, consider, performance, fatalities, traffic, programs, policy</div>
 
 
 <span id="p12" class="anchor"></span>
@@ -52,7 +50,7 @@ sidebar:
 ### Page 12 - Initiate a Pedestrian Safety Action Plan (PSAP)
 
 <div class="pmeta">Topics: bikeways, speed-calming</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0012.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0012.webp" alt="FHWA STEP Guide page 12 Initiate a Pedestrian Safety Action Plan (PSAP)"></a><figcaption>FHWA STEP Guide, page 12. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0012.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0012.webp" alt="FHWA STEP Guide page 12 Initiate a Pedestrian Safety Action Plan (PSAP)"></a><figcaption>FHWA STEP Guide, page 12.</figcaption></figure>
 <div class="dtext"><p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Collect Data and Engage the Public</p>
 <p>about safety concerns. This step leverages prior analyses and helps to identify countermeasures that that the agency is already considering.</p>
@@ -66,7 +64,6 @@ sidebar:
 <p>Figure 2. Excerpt from "Walkability Checklist."</p>
 <p>Source: Pedestrian and Bicycle Information Center. Created in collaboration with FHWA, NHTSA, National Center for Safe</p>
 <p>Routes to School, and United States Environmental Protection Agency.</p></div>
-<div class="kw">Keywords: pedestrian, safety, agency, locations, identify, walkability, concerns, community, stakeholders, improving, psap, leaders, input, agencies</div>
 
 
 <span id="p13" class="anchor"></span>
@@ -90,7 +87,6 @@ sidebar:
 <p>NHTSA posts the States’ current HSP outlining non-infrastructure strategies for improving roadway safety. A State HSP is likely to contain a pedestrian fatality and injury reduction goal, an associated performance measure, and describe non-infrastructure initiatives like enforcement and education programs. For example, Colorado DOT's 2017 HSP (called the 2017 Integrated Safety Plan) supports the Denver Police Department’s “Decoy Pedestrian Program” to enforce driver yielding compliance at high-crash pedestrian crossings.</p>
 <p>Vision Zero Network</p>
 <p>This collaborative website posts case studies and tracks cities who are implementing Vision Zero plans or goals. The Vision Zero Network website also notes best practices by agencies who are working to eliminate traffic fatalities and serious injuries. Vision Zero goals are accompanied by policies, strategies, and target dates. For example, Columbia, Missouri’s Vision Zero Action Plan contains an outreach campaign to educate pedestrians and drivers on new and potentially confusing infrastructure improvements like pedestrian hybrid beacons and enhanced pedestrian crosswalks.</p></div>
-<div class="kw">Keywords: pedestrian, safety, state, complete, streets, vision, zero, resources, policies, example, shsp, projects, nhtsa, annual</div>
 
 
 <span id="p14" class="anchor"></span>
@@ -106,4 +102,3 @@ sidebar:
 <p>This resource focuses on flexibility and options for the design of pedestrian and bicycle networks designed to minimize crash conflicts, including case studies to illustrate various design treatments.</p>
 <p>Walkability Checklist</p>
 <p>This tool can be used by community leaders during a walkability audit to evaluate pedestrian infrastructure and traffic behavior.</p></div>
-<div class="kw">Keywords: pedestrian, safety, bicycle, crash, design, locations, data, fhwa, action, plans, infrastructure, networks, flexibility, conflicts</div>

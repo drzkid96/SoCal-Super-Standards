@@ -13,7 +13,7 @@ sidebar:
 
 <div class="pmeta">Topics: bikeways, transit</div>
 <div class="dtext"><p>35</p>
-<p>Complete Streets Design Guide 3. COMPLETE STREET DIAGRAMS</p>
+<p>Complete Streets Design Guide  3. COMPLETE STREET DIAGRAMS</p>
 <h4>3. COMPLETE STREET DIAGRAMS</h4>
 <h4>Introduction</h4>
 <p>The following cross-sections and plan-view illustrations provide examples of how Complete Streets principles may be implemented within different street designations and along different networks. The illustrations do not represent a finite list but merely represent a series of examples that could be applied depending upon the street classification and the network assignment.</p>
@@ -35,7 +35,6 @@ sidebar:
 <h4>3 Transit Enhanced (TEN)</h4>
 <h4>4 Vehicle Enhanced (VEN)</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: street, complete, network, highway, enhanced, diagrams, classification, avenue, secondary, streets, illustrations, examples, different, represent</div>
 
 
 <span id="p44" class="anchor"></span>
@@ -43,7 +42,7 @@ sidebar:
 ### Page 44 - LEGEND FOR ALL EXAMPLE CROSS SECTIONS
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0044.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0044.webp" alt="Complete Streets DG page 44 LEGEND FOR ALL EXAMPLE CROSS SECTIONS"></a><figcaption>Complete Streets DG, page 44. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0044.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0044.webp" alt="Complete Streets DG page 44 LEGEND FOR ALL EXAMPLE CROSS SECTIONS"></a><figcaption>Complete Streets DG, page 44.</figcaption></figure>
 <div class="dtext"><p>36</p>
 <p>3. COMPLETE STREET DIAGRAMS Complete Streets Design Guide</p>
 <p>70'</p>
@@ -68,7 +67,6 @@ sidebar:
 <p>Raised median or roadway-level turn lane (variable depending on location along the street segment)</p>
 <h4>Legend for Complete Street Cross Sections</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, minimum, width, raised, complete, street, typical, cross, median, transit, legend, sections, roadway-level, painted</div>
 
 
 <span id="p45" class="anchor"></span>
@@ -76,9 +74,9 @@ sidebar:
 ### Page 45 - A. Boulevard I (Major Highway Class I)
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0045.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0045.webp" alt="Complete Streets DG page 45 A. Boulevard I (Major Highway Class I)"></a><figcaption>Complete Streets DG, page 45. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0045.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0045.webp" alt="Complete Streets DG page 45 A. Boulevard I (Major Highway Class I)"></a><figcaption>Complete Streets DG, page 45.</figcaption></figure>
 <div class="dtext"><p>37</p>
-<p>Complete Streets Design Guide 3. COMPLETE STREET DIAGRAMS</p>
+<p>Complete Streets Design Guide  3. COMPLETE STREET DIAGRAMS</p>
 <p>100' (86')</p>
 <p>136' (122')</p>
 <p>18' 18' 7'(5') 12'(10') 10' 11'(10') 10' 4'(3') 12'(10') 4'(3') 7'(5') 12'(10') 11'(10')</p>
@@ -99,7 +97,6 @@ sidebar:
 <h4>3.1 Full-time or peak period transit lane + 3.1 .1 Cycle Track</h4>
 <h4>Sample Cross Sections</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: cycle, transit, complete, enhanced, curbside, parking, full-time, peak, period, lane, streets, design, guide, street</div>
 
 
 <span id="p46" class="anchor"></span>
@@ -107,7 +104,7 @@ sidebar:
 ### Page 46
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0046.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0046.webp" alt="Complete Streets DG page 46 "></a><figcaption>Complete Streets DG, page 46. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0046.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0046.webp" alt="Complete Streets DG page 46 "></a><figcaption>Complete Streets DG, page 46.</figcaption></figure>
 <div class="dtext"><p>38</p>
 <p>3. COMPLETE STREET DIAGRAMS Complete Streets Design Guide</p>
 <p>100'(90')</p>
@@ -131,7 +128,6 @@ sidebar:
 <p>10' 13' 10' 13' 10' 10' 10' 10' 10' 2' 2'</p>
 <p>At/approaching platform - 1’ additional roadway each side (shown) or 1’ wide BRT shoulder</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: transit, lane, complete, roadway, full-time, platform, street, diagrams, streets, design, guide, boulevard, major, highway</div>
 
 
 <span id="p47" class="anchor"></span>
@@ -139,9 +135,9 @@ sidebar:
 ### Page 47 - A. Boulevard I (Major Highway Class I)--136’ ROW, 100’ Roadway (Typical) 3.2 Bus Rapid Transit (BRT) (At Platform) + 3.1 .1 Cycle Track
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0047.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0047.webp" alt="Complete Streets DG page 47 A. Boulevard I (Major Highway Class I)--136’ ROW, 100’ Roadway (Typical) 3.2 Bus Rapid Transit (BRT) (At Platform) + 3.1 .1 Cycle Track"></a><figcaption>Complete Streets DG, page 47. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0047.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0047.webp" alt="Complete Streets DG page 47 A. Boulevard I (Major Highway Class I)--136’ ROW, 100’ Roadway (Typical) 3.2 Bus Rapid Transit (BRT) (At Platform) + 3.1 .1 Cycle Track"></a><figcaption>Complete Streets DG, page 47.</figcaption></figure>
 <div class="dtext"><p>39</p>
-<p>Complete Streets Design Guide 3. COMPLETE STREET DIAGRAMS</p>
+<p>Complete Streets Design Guide  3. COMPLETE STREET DIAGRAMS</p>
 <p>100'(96')</p>
 <p>136'(130')</p>
 <p>18' 18'</p>
@@ -168,7 +164,6 @@ sidebar:
 <p>13'(10') 12'(10') 11'(10') 10' 10' 10' 10' 11'(10') 13'(10')</p>
 <h4>4 Vehicle Enhanced (VEN) 4.1 With full-time or off-peak curbside parking</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: rapid, transit, platform, curbside, parking, complete, bicycle, lane, streets, design, guide, street, diagrams, boulevard</div>
 
 
 <span id="p48" class="anchor"></span>
@@ -176,9 +171,9 @@ sidebar:
 ### Page 48
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0048.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0048.webp" alt="Complete Streets DG page 48 "></a><figcaption>Complete Streets DG, page 48. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0048.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0048.webp" alt="Complete Streets DG page 48 "></a><figcaption>Complete Streets DG, page 48.</figcaption></figure>
 <div class="dtext"><p>40</p>
-<p>3. COMPLETE STREET DIAGRAMS Complete Streets Design Guide</p>
+<p>3. COMPLETE STREET DIAGRAMS  Complete Streets Design Guide</p>
 <p>80'(66') 15' 15'</p>
 <p>110'(96')</p>
 <p>7'(5') 12'(10') 11'(10') 4'(3') 12'(10') 11'(10') 12'(10') 4'(3') 7'(5')</p>
@@ -196,7 +191,6 @@ sidebar:
 <p>6' 4' 12' 8' 10' 10' 12' 8' 6' 4'</p>
 <p>3.1 Full-time or peak period transit lane+ 3.1 .1 a. Cycle track with curbside parking</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, parking, curbside, transit, complete, bicycle, enhanced, cycle, track, full-time, peak, period, street, diagrams</div>
 
 
 <span id="p49" class="anchor"></span>
@@ -204,9 +198,9 @@ sidebar:
 ### Page 49
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0049.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0049.webp" alt="Complete Streets DG page 49 "></a><figcaption>Complete Streets DG, page 49. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0049.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0049.webp" alt="Complete Streets DG page 49 "></a><figcaption>Complete Streets DG, page 49.</figcaption></figure>
 <div class="dtext"><p>41</p>
-<p>Complete Streets Design Guide 3. COMPLETE STREET DIAGRAMS</p>
+<p>Complete Streets Design Guide  3. COMPLETE STREET DIAGRAMS</p>
 <p>80'(79') 15' 15'</p>
 <p>110'(109')</p>
 <p>9'(8') 10' 10' 10' 10' 12' 8' 7' 4'</p>
@@ -227,7 +221,6 @@ sidebar:
 <p>3.2 Bus Rapid Rransit (BRT) (center-running)</p>
 <p>Midblock</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: lane, complete, curbside, parking, peak, period, transit, streets, design, guide, street, diagrams, boulevard, major</div>
 
 
 <span id="p50" class="anchor"></span>
@@ -235,7 +228,7 @@ sidebar:
 ### Page 50
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0050.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0050.webp" alt="Complete Streets DG page 50 "></a><figcaption>Complete Streets DG, page 50. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0050.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0050.webp" alt="Complete Streets DG page 50 "></a><figcaption>Complete Streets DG, page 50.</figcaption></figure>
 <div class="dtext"><p>42</p>
 <p>3. COMPLETE STREET DIAGRAMS Complete Streets Design Guide</p>
 <p>80'</p>
@@ -264,7 +257,6 @@ sidebar:
 <p>15'</p>
 <p>3.2 Bus Rapid Transit (BRT) (Midblock)+ 3.2 .3 Bicycle lane and curbside parking</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: platform, rapid, transit, complete, center-running, curbside, parking, street, diagrams, streets, design, guide, boulevard, major</div>
 
 
 <span id="p51" class="anchor"></span>
@@ -272,9 +264,8 @@ sidebar:
 ### Page 51
 
 <div class="pmeta">Topics: bikeways, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0051.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0051.webp" alt="Complete Streets DG page 51 "></a><figcaption>Complete Streets DG, page 51. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p> 43 Complete Streets Design Guide 3. COMPLETE STREET DIAGRAMS 80'(70') 15' 15' 110'(100') 13'(10') 11'(10') 10' 10' 13'(10') 11'(10') 12'(10') B. Boulevard II (Major Highway Class II)--110’ ROW, 80’ Roadway (Typical) 4 Vehicle Enhanced (VEN) 4.1 b. With full-time or off-peak curbside 80'(70') 15' 15' 110'(100') 13'(10') 11'(10') 10' 10' 13'(10') 11'(10') 12'(10') 4.2 Without curbside parking Back to Table of Contents </p></details>
-<div class="kw">Keywords: complete, curbside, streets, design, guide, street, diagrams, boulevard, major, highway, class, roadway, typical, vehicle</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0051.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0051.webp" alt="Complete Streets DG page 51 "></a><figcaption>Complete Streets DG, page 51.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p> 43 Complete Streets Design Guide  3. COMPLETE STREET DIAGRAMS 80'(70') 15' 15' 110'(100') 13'(10') 11'(10') 10' 10' 13'(10') 11'(10') 12'(10') B. Boulevard II (Major Highway Class II)--110’ ROW, 80’ Roadway (Typical) 4 Vehicle Enhanced (VEN) 4.1 b. With full-time or off-peak curbside 80'(70') 15' 15' 110'(100') 13'(10') 11'(10') 10' 10' 13'(10') 11'(10') 12'(10') 4.2 Without curbside parking Back to Table of Contents </p></details>
 
 
 <span id="p52" class="anchor"></span>
@@ -282,7 +273,7 @@ sidebar:
 ### Page 52
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0052.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0052.webp" alt="Complete Streets DG page 52 "></a><figcaption>Complete Streets DG, page 52. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0052.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0052.webp" alt="Complete Streets DG page 52 "></a><figcaption>Complete Streets DG, page 52.</figcaption></figure>
 <div class="dtext"><p>44</p>
 <p>3. COMPLETE STREET DIAGRAMS Complete Streets Design Guide</p>
 <p>70' 15' 15'</p>
@@ -304,7 +295,6 @@ sidebar:
 <p>6' 3' 10' 10' 11' 10' 11' 6' 3'</p>
 <p>3. Transit Enhanced (TEN) 3.1 Full-time or peak period transit lane+ 3.1 .1 a. Cycle track (two way)</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: enhanced, curbside, parking, cycle, track, complete, network, bicycle, lane, transit, street, diagrams, streets, design</div>
 
 
 <span id="p53" class="anchor"></span>
@@ -312,9 +302,8 @@ sidebar:
 ### Page 53 - 3 Transit Enhanced (TEN) 3.1 .1 b. Cycle Track (one-way)
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0053.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0053.webp" alt="Complete Streets DG page 53 3 Transit Enhanced (TEN) 3.1 .1 b. Cycle Track (one-way)"></a><figcaption>Complete Streets DG, page 53. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>45 Complete Streets Design Guide 3. COMPLETE STREET DIAGRAMS 70'(69') 100'(99') 15' 15' 8' 10' 12' 10' 10' 9'(8') 7' 4' 3 Transit Enhanced (TEN) 3.1 .1 b. Cycle Track (one-way) 70' 15' 15' 100' 10' 10' 12' 8' 12' 8' 10' 3.1 Full-time or peak period transit lane 3.1 .2 Curbside Parking 70'(62') 100'(92') 15' 15' 7'(5') 10' 10' 12'(11') 12'(10') 12'(11') 7'(5') 3.1 Full-time or peak period transit lane+ 3.1 .3 Bicycle lane Back to Table of Contents </p></details>
-<div class="kw">Keywords: transit, lane, complete, full-time, peak, period, streets, design, guide, street, diagrams, enhanced, cycle, track</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0053.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0053.webp" alt="Complete Streets DG page 53 3 Transit Enhanced (TEN) 3.1 .1 b. Cycle Track (one-way)"></a><figcaption>Complete Streets DG, page 53.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>45 Complete Streets Design Guide  3. COMPLETE STREET DIAGRAMS 70'(69') 100'(99') 15' 15' 8' 10' 12' 10' 10' 9'(8') 7' 4' 3 Transit Enhanced (TEN) 3.1 .1 b. Cycle Track (one-way) 70' 15' 15' 100' 10' 10' 12' 8' 12' 8' 10' 3.1 Full-time or peak period transit lane 3.1 .2 Curbside Parking 70'(62') 100'(92') 15' 15' 7'(5') 10' 10' 12'(11') 12'(10') 12'(11') 7'(5') 3.1 Full-time or peak period transit lane+ 3.1 .3 Bicycle lane Back to Table of Contents </p></details>
 
 
 <span id="p54" class="anchor"></span>
@@ -322,7 +311,7 @@ sidebar:
 ### Page 54 - c. Avenue I (Secondary Highway) -- 100’ ROW, 70’ Roadway (Typical) 3.2 Bus Rapid Transit (BRT) (at platform) at platform
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0054.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0054.webp" alt="Complete Streets DG page 54 c. Avenue I (Secondary Highway) -- 100’ ROW, 70’ Roadway (Typical) 3.2 Bus Rapid Transit (BRT) (at platform) at platform"></a><figcaption>Complete Streets DG, page 54. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0054.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0054.webp" alt="Complete Streets DG page 54 c. Avenue I (Secondary Highway) -- 100’ ROW, 70’ Roadway (Typical) 3.2 Bus Rapid Transit (BRT) (at platform) at platform"></a><figcaption>Complete Streets DG, page 54.</figcaption></figure>
 <div class="dtext"><p>46</p>
 <p>3. COMPLETE STREET DIAGRAMS Complete Streets Design Guide</p>
 <p>70'(62')</p>
@@ -354,7 +343,6 @@ sidebar:
 <p>10' 10' 10' 10' 10' 10' 10'</p>
 <h4>4 Vehicle Enhanced (VEN) 4.1 With full-time or off peak curbside parking</h4>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: rapid, transit, curbside, parking, complete, platform, midblock, street, diagrams, streets, design, guide, avenue, secondary</div>
 
 
 <span id="p55" class="anchor"></span>
@@ -362,9 +350,9 @@ sidebar:
 ### Page 55
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0055.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0055.webp" alt="Complete Streets DG page 55 "></a><figcaption>Complete Streets DG, page 55. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0055.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0055.webp" alt="Complete Streets DG page 55 "></a><figcaption>Complete Streets DG, page 55.</figcaption></figure>
 <div class="dtext"><p>47</p>
-<p>Complete Streets Design Guide 3. COMPLETE STREET DIAGRAMS</p>
+<p>Complete Streets Design Guide  3. COMPLETE STREET DIAGRAMS</p>
 <p>70' 15' 15'</p>
 <p>100'</p>
 <p>10' 10' 10' 10' 10' 10' 10'</p>
@@ -386,7 +374,6 @@ sidebar:
 <p>11' 11' 6' 4' 6' 7' 7' 4'</p>
 <p>3 Transit Enhanced (TEN) 3.1 Full-time on peak period transit lane+ 3.1 a. Cycle Track with parking</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: parking, enhanced, curbside, cycle, track, complete, bicycle, lane, transit, streets, design, guide, street, diagrams</div>
 
 
 <span id="p56" class="anchor"></span>
@@ -394,7 +381,7 @@ sidebar:
 ### Page 56
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0056.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0056.webp" alt="Complete Streets DG page 56 "></a><figcaption>Complete Streets DG, page 56. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0056.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0056.webp" alt="Complete Streets DG page 56 "></a><figcaption>Complete Streets DG, page 56.</figcaption></figure>
 <div class="dtext"><p>48</p>
 <p>3. COMPLETE STREET DIAGRAMS Complete Streets Design Guide</p>
 <p>56' 15' 15'</p>
@@ -418,7 +405,6 @@ sidebar:
 <p>14'(13') 14'(13') 2' 2' 12'(10') 12'(10')</p>
 <p>3.2 a. Bus Rapid Transit (BRT) (Center-running) Midblock</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: transit, lane, complete, cycle, track, parking, full-time, peak, period, street, diagrams, streets, design, guide</div>
 
 
 <span id="p57" class="anchor"></span>
@@ -426,9 +412,9 @@ sidebar:
 ### Page 57
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0057.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0057.webp" alt="Complete Streets DG page 57 "></a><figcaption>Complete Streets DG, page 57. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0057.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0057.webp" alt="Complete Streets DG page 57 "></a><figcaption>Complete Streets DG, page 57.</figcaption></figure>
 <div class="dtext"><p>49</p>
-<p>Complete Streets Design Guide 3. COMPLETE STREET DIAGRAMS</p>
+<p>Complete Streets Design Guide  3. COMPLETE STREET DIAGRAMS</p>
 <p>62'</p>
 <p>Platform</p>
 <p>12' 12'</p>
@@ -456,7 +442,6 @@ sidebar:
 <p>10' 8' 10' 10' 8'</p>
 <p>1.2 Shared lane markings and curbside parking</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: platform, curbside, parking, complete, avenue, secondary, highway, roadway, typical, enhanced, lane, streets, design, guide</div>
 
 
 <span id="p58" class="anchor"></span>
@@ -484,7 +469,6 @@ sidebar:
 <p>H. Local Street (Standard) -- 60’ ROW, 36’ Roadway (Typical)</p>
 <p>1 Neighborhood Enhanced (NEN) 1.1 Shared lane markings and curbside parking</p>
 <p>Back to Table of Contents</p></div>
-<div class="kw">Keywords: street, roadway, typical, neighborhood, enhanced, shared, lane, markings, curbside, parking, complete, collector, diagrams, streets</div>
 
 
 <span id="p59" class="anchor"></span>
@@ -492,9 +476,8 @@ sidebar:
 ### Page 59 - Complete Street Sample Plan Views
 
 <div class="pmeta">Topics: transit</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0059.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0059.webp" alt="Complete Streets DG page 59 Complete Street Sample Plan Views"></a><figcaption>Complete Streets DG, page 59. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>51 Complete Streets Design Guide 3. COMPLETE STREET DIAGRAMS Complete Street Sample Plan Views Boulevard I (Major HIghway Class I) - Transit Enhanced Network with Bus Rapid Transit (BRT) Back to Table of Contents </p></details>
-<div class="kw">Keywords: complete, street, transit, streets, design, guide, diagrams, sample, plan, views, boulevard, major, highway, class</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0059.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0059.webp" alt="Complete Streets DG page 59 Complete Street Sample Plan Views"></a><figcaption>Complete Streets DG, page 59.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>51 Complete Streets Design Guide  3. COMPLETE STREET DIAGRAMS Complete Street Sample Plan Views Boulevard I (Major HIghway Class I) - Transit Enhanced Network with Bus Rapid Transit (BRT) Back to Table of Contents </p></details>
 
 
 <span id="p60" class="anchor"></span>
@@ -502,9 +485,8 @@ sidebar:
 ### Page 60
 
 <div class="pmeta">Topics: bikeways</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0060.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0060.webp" alt="Complete Streets DG page 60 "></a><figcaption>Complete Streets DG, page 60. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>52 3. COMPLETE STREET DIAGRAMS Complete Streets Design Guide Boulevard II (Major HIghway Class II) - Bicycle Enhanced Network with Protected Bike Lanes Back to Table of Contents </p></details>
-<div class="kw">Keywords: complete, street, diagrams, streets, design, guide, boulevard, major, highway, class, bicycle, enhanced, network, protected</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0060.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0060.webp" alt="Complete Streets DG page 60 "></a><figcaption>Complete Streets DG, page 60.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>52 3. COMPLETE STREET DIAGRAMS Complete Streets Design Guide Boulevard II (Major HIghway Class II) - Bicycle Enhanced Network with Protected Bike Lanes Back to Table of Contents </p></details>
 
 
 <span id="p61" class="anchor"></span>
@@ -512,34 +494,25 @@ sidebar:
 ### Page 61
 
 <div class="pmeta">Topics: bikeways, transit</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0061.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0061.webp" alt="Complete Streets DG page 61 "></a><figcaption>Complete Streets DG, page 61. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>53 Complete Streets Design Guide 3. COMPLETE STREET DIAGRAMS Avenue I (Secondary Highway) - Transit Enhanced Network with Bus-Bike Only Lanes Back to Table of Contents </p></details>
-<div class="kw">Keywords: complete, streets, design, guide, street, diagrams, avenue, secondary, highway, transit, enhanced, network, bus-bike, lanes</div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0061.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0061.webp" alt="Complete Streets DG page 61 "></a><figcaption>Complete Streets DG, page 61.</figcaption></figure>
+<details class="ocr"><summary>Page text</summary><p>53 Complete Streets Design Guide  3. COMPLETE STREET DIAGRAMS Avenue I (Secondary Highway) - Transit Enhanced Network with Bus-Bike Only Lanes Back to Table of Contents </p></details>
 
 
 <span id="p62" class="anchor"></span>
 
 ### Page 62
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0062.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0062.webp" alt="Complete Streets DG page 62 "></a><figcaption>Complete Streets DG, page 62. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0062.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0062.webp" alt="Complete Streets DG page 62 "></a><figcaption>Complete Streets DG, page 62.</figcaption></figure>
 
 
 <span id="p63" class="anchor"></span>
 
 ### Page 63 - Complete Streets Design Guide: Chapter 4, Sidewalk Area (Section Divider)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0063.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0063.webp" alt="Complete Streets DG page 63 "></a><figcaption>Complete Streets DG, page 63 (scanned, cleaned and sharpened). Click to enlarge.</figcaption></figure>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Chapter 4, Sidewalk Area (Section Divider).</b> Section divider page that opens Chapter 4, Sidewalk Area, of the LADOT Complete Streets Design Guide. It shows the chapter number 4, the guide name and the chapter title over three tinted sidewalk photographs. It contains no design content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Cover layout: a full-page section divider in a light gray field. In the upper left of the page area is a large gray numeral 4 set in a heavy sans-serif face, taking up the left half of the sheet. Centered in the upper right panel are two lines of text. A small, widely spaced teal line reads COMPLETE STREETS DESIGN GUIDE and below it a large bold gray heading reads SIDEWALK AREA. Along the bottom of the page, three tall duotone photograph strips run side by side with white gaps between them, one in purple, one in yellow and one in teal. The numeral overlaps the left edge of the purple strip. The purple strip shows a pedestrian passing a street clock on a post in front of an arched, arcaded building. The yellow strip shows two people standing on a sidewalk under shop awnings and tree canopy. The teal strip shows a wide sidewalk lined with a row of trees. The page carries no body text, tables or dimensions.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Text on the page: 4. COMPLETE STREETS DESIGN GUIDE. SIDEWALK AREA. No other notes.</p></details></div>
-<div class="pclean"><p class="psum"><b>Complete Streets Design Guide: Chapter 4, Sidewalk Area (Section Divider).</b> Section divider page that opens Chapter 4, Sidewalk Area, of the LADOT Complete Streets Design Guide. It shows the chapter number 4, the guide name and the chapter title over three tinted sidewalk photographs. It contains no design content.</p><details class="sdesc" open><summary>What this sheet shows</summary><p>Cover layout: a full-page section divider in a light gray field. In the upper left of the page area is a large gray numeral 4 set in a heavy sans-serif face, taking up the left half of the sheet. Centered in the upper right panel are two lines of text. A small, widely spaced teal line reads COMPLETE STREETS DESIGN GUIDE and below it a large bold gray heading reads SIDEWALK AREA. Along the bottom of the page, three tall duotone photograph strips run side by side with white gaps between them, one in purple, one in yellow and one in teal. The numeral overlaps the left edge of the purple strip. The purple strip shows a pedestrian passing a street clock on a post in front of an arched, arcaded building. The yellow strip shows two people standing on a sidewalk under shop awnings and tree canopy. The teal strip shows a wide sidewalk lined with a row of trees. The page carries no body text, tables or dimensions.</p></details><details class="ocr" open><summary>Notes on this sheet (cleaned from the scan)</summary><p>Text on the page: 4. COMPLETE STREETS DESIGN GUIDE. SIDEWALK AREA. No other notes.</p></details></div>
-<div class="kw">Keywords: complete streets design guide, LADOT, los angeles, design guide section, sidewalk area, section divider, pedestrian realm</div>
-
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0063.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0063.webp" alt="Complete Streets DG page 63 "></a><figcaption>Complete Streets DG, page 63.</figcaption></figure>
 
 <span id="p64" class="anchor"></span>
 
 ### Page 64
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0064.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0064.webp" alt="Complete Streets DG page 64 "></a><figcaption>Complete Streets DG, page 64. Click to enlarge.</figcaption></figure>
-<details class="ocr"><summary>Text on this page</summary><p>T H I S PA G E I S I N T E N T I O N A L LY L E F T B L A N K </p></details>
-<div class="kw">Keywords: </div>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0064.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0064.webp" alt="Complete Streets DG page 64 "></a><figcaption>Complete Streets DG, page 64.</figcaption></figure>

@@ -32,4 +32,3 @@ sidebar:
 <p>AASHTO Guide for the Planning, Design, and Operation of Pedestrian Facilities, 1st Edition (2004)</p>
 <p>This guide provides recommendations for the planning, design, and operation of accommodations for pedestrians on public rights-of-way. This guide also discusses the impact of land use and site design on pedestrian safety and connectivity.</p>
 <h4>Consult Design and Installation Resources</h4></div>
-<div class="kw">Keywords: design, pedestrian, consult, countermeasures, guidance, agency, installation, guide, mutcd, part, traffic, resources, additional, considerations</div>

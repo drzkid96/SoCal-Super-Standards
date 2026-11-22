@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Watch H For Snow Ow Remov Oval Va Al Equipment warning sign</dd>
 <dt>Legend</dt><dd>WATCH H FOR SNOW OW REMOV OVAL VA AL EQUIPMENT</dd>
-<dt>Keywords</dt><dd class="kw">sw58(ca), watch h for snow ow remov oval va al equipment, watch, for, snow, oval, equipment, warning sign, other</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sw58">SW58 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

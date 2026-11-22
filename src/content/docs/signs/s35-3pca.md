@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>In Memory Of John &amp; Jane Doe Mary Smith Paul Brown school sign</dd>
 <dt>Legend</dt><dd>IN MEMORY OF JOHN &amp; JANE DOE MARY SMITH PAUL BROWN</dd>
-<dt>Keywords</dt><dd class="kw">s35-3p(ca), in memory of john &amp; jane doe mary smith paul brown, memory, john, doe, brown, school sign, other, srts</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#school">School Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-s35">S35 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

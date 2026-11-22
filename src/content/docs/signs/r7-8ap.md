@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Van Accessible plaque</dd>
 <dt>Legend</dt><dd>VAN ACCESSIBLE (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">r7-8ap, van accessible (plaque), regulatory sign, parking, curb management, white, green, curb, loading</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r7">R7 &middot; Parking</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — GREEN (RETROREFLECTIVE) BACKGROUND — WHITE (RETROREFLECTIVE)</dd>

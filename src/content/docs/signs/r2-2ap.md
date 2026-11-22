@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Bus Speed Limit plaque</dd>
 <dt>Legend</dt><dd>BUS SPEED LIMIT (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">r2-2ap, bus speed limit (plaque), regulatory sign, speed limits, speed, speed zone, traffic calming, white, black, transit</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r2">R2 &middot; Speed limits</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE) A B C D E F G H J K L M 24 0.375 0.625 4 4 D 2.5 10 E 3.5 7.907 7.906 VAR* 1.5 36 0.625 0.875 6 6 D 5 13 E 6 11.860 11.860 VAR* 2.25 48 0.75 1.25 8 8 D 8 16 E 8 15.813 15.813 VAR* 3</dd>

@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>No Stopping 7 10 Am To 4 7 To Pm E X C E P T S U N D A Y No regulatory sign</dd>
 <dt>Legend</dt><dd>NO STOPPING 7 10 AM TO 4 7 TO PM E X C E P T S U N D A Y NO PARKING 10AM 4PM TO E X C E P T S U N D A Y</dd>
-<dt>Keywords</dt><dd class="kw">r29(ca), no stopping 7 10 am to 4 7 to pm e x c e p t s u n d a y no, no stopping 7 10 am to 4 7 to pm e x c e p t s u n d a y no parking 10am 4pm to e x c e p t s u n d a y, stopping, parking, regulatory sign, other, curb, loading, stop control</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r29">R29 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

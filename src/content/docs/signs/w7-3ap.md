@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Next XX Miles plaque</dd>
 <dt>Legend</dt><dd>NEXT XX MILES (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">w7-3ap, next xx miles (plaque), warning sign, grades, black, yellow, orange</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w7">W7 &middot; Grades</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — YELLOW (RETROREFLECTIVE) TTC SIGN COLORS: LEGEND, BORDER — BLACK BACKGROUND — ORANGE (RETROREFLECTIVE)</dd>

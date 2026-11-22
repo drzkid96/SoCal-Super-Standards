@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>Fines Double plaque</dd>
 <dt>Legend</dt><dd>FINES DOUBLE (PLAQUE)</dd>
-<dt>Keywords</dt><dd class="kw">r2-6ap, fines double (plaque), fines, double, regulatory sign, speed limits, speed, speed zone, traffic calming, white, black</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r2">R2 &middot; Speed limits</a></dd>
 <dt>Colors</dt><dd>LEGEND, BORDER — BLACK BACKGROUND — WHITE (RETROREFLECTIVE) 24 18 0.375 0.625 3.5 4 D 3 4 D* 6.984 9.555 9.554 1.5 36 24 0.375 0.625 4.125 6 D 3.75 6 D* 10.476 14.332 14.332 1.5 48 36 0.625 0.875 7 8 D 6 8 D* 13.968 19.109 19.109 2.25 A B C D E F G H J K L M</dd>

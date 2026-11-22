@@ -33,7 +33,6 @@ sidebar:
 <p>» Address gaps in pedestrian</p>
 <p>accommodations through other State or Federal funding programs such as Transportation Alternatives Program, Congestion Mitigation and Air Quality, and Surface Transportation Block Grant (STBG).</p>
 <h4>Identify Opportunities and Monitor Outcomes</h4></div>
-<div class="kw">Keywords: funding, safety, pedestrian, countermeasures, state, consider, projects, transportation, opportunities, monitor, crossing, local, program, federal</div>
 
 
 <span id="p32" class="anchor"></span>
@@ -54,7 +53,6 @@ sidebar:
 <p>The agency may consider phasing in the improvements. For example, a refuge island can be implemented initially by pavement markings and flexible delineators in the center lane. The agency can later add a raised median and appropriate landscaping at the refuge island.</p>
 <h4>Monitor Results of Implementation</h4>
 <p>The agency should consider monitoring the impacts of countermeasures per defined performance measures. Specific performance measures can be outlined in plans, such as a PSAP. The PSAP may</p></div>
-<div class="kw">Keywords: agency, pedestrian, crossing, improvements, treatments, safety, identify, countermeasures, roadway, consider, project, public, opportunities, help</div>
 
 
 <span id="p33" class="anchor"></span>
@@ -79,4 +77,3 @@ sidebar:
 <p>This resource includes a matrix comparing eligibility of various federal transportation funding programs for different types of bicycle and pedestrian projects.</p>
 <p>NCHRP Report 803: Pedestrian and Bicycle Transportation Along Existing Roads—ActiveTrans Priority Tool Guidebook (2015)</p>
 <p>This resource includes an interactive tool and guidance to help agencies prioritize pedestrian and bicycle improvements, including safety projects, either as standalone or incidental to a roadway project.</p></div>
-<div class="kw">Keywords: pedestrian, data, countermeasures, projects, bicycle, safety, public, local, traffic, crash, installation, project, information, collect</div>

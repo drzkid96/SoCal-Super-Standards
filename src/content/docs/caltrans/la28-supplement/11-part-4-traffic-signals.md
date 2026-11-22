@@ -21,4 +21,3 @@ sidebar:
 <h4>Standard:</h4>
 <p>03 The provisions of Part 4 regarding highway traffic signals in general, features, faces, indications, phases, location and types, shall apply to all roadways included in the established GRN in locations specified by Caltrans experimentation request to FHWA. Support:</p>
 <p>04 Any change to signal timing, signal phasing, signal coordination for coordinated mode in a progressive system for advanced signal synchronization, would be in accordance with Part 4 provisions. However, some aspects of these operational strategies deployed to coordinate and synchronize traffic signals for operational improvements, aren’t traffic control device policies and although related to the traffic control devices, they constitute engineering practices and are not covered by CA MUTCD.</p></div>
-<div class="kw">Keywords: traffic, signals, control, general, part, signal, highway, mutcd, chapter, section, provisions, operational, supplement, page</div>

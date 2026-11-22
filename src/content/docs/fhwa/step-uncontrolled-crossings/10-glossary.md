@@ -38,7 +38,6 @@ sidebar:
 <p>A pedestrian crossing that is delineated by white crosswalk pavement markings.</p>
 <p>Parking restriction</p>
 <p>Parking restriction can include the removal of parking space markings, installation of new “parking prohibition” pavement markings or curb paint, and signs.</p></div>
-<div class="kw">Keywords: traffic, pedestrian, crossing, highway, crash, curb, roads, markings, parking, safety, average, complete, streets, factor</div>
 
 
 <span id="p35" class="anchor"></span>
@@ -69,4 +68,3 @@ sidebar:
 <p>A line of stopped vehicles in a single travel lane, commonly caused by traffic control at an intersection.</p>
 <p>Vision Zero (VZ)</p>
 <p>Similar to TZD, Vision Zero is a vision to eliminate traffic fatalities and serious injuries within the transportation system. VZ employs comprehensive strategies to address roadway design, traffic behavior, and law enforcement.</p></div>
-<div class="kw">Keywords: pedestrian, safety, traffic, crossing, crosswalk, road, island, zero, vision, uncontrolled, beacon, roadway, placed, refuge</div>

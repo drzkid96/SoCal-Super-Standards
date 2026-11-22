@@ -12,7 +12,6 @@ tableOfContents: false
 <dl>
 <dt>Descriptor</dt><dd>End 35 Speed Limit regulatory sign</dd>
 <dt>Legend</dt><dd>END 35 SPEED LIMIT</dd>
-<dt>Keywords</dt><dd class="kw">r3(ca), end 35 speed limit, end, speed, limit, regulatory sign, movement prohibition and lane control, lane use, turn restriction, intersection</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r3">R3 &middot; Movement prohibition and lane control</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -28,8 +27,6 @@ tableOfContents: false
 ## Sizes and layout dimensions (inches)
 
 <p>California sign: see the Caltrans sign specification sheet for layout dimensions.</p>
-
-<p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
 ## Governing sections
 

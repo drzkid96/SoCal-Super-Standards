@@ -32,7 +32,6 @@ sidebar:
 <p>» Pedestrian crossing behaviors.</p>
 <p>» Built environment or area type.</p>
 <h4>Analyze Crash Types and Safety Issues</h4></div>
-<div class="kw">Keywords: crash, safety, pedestrian, types, site, diagrams, agency, issues, information, diagram, crashes, data, associated, analysis</div>
 
 
 <span id="p20" class="anchor"></span>
@@ -40,7 +39,7 @@ sidebar:
 ### Page 20 - Conduct a Road Safety Audit (RSA)
 
 <div class="pmeta">Topics: crosswalks, transit, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0020.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0020.webp" alt="FHWA STEP Guide page 20 Conduct a Road Safety Audit (RSA)"></a><figcaption>FHWA STEP Guide, page 20. Click to enlarge.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0020.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0020.webp" alt="FHWA STEP Guide page 20 Conduct a Road Safety Audit (RSA)"></a><figcaption>FHWA STEP Guide, page 20.</figcaption></figure>
 <div class="dtext"><p>13</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Analyze Crash Types and Safety Issues</p>
@@ -58,7 +57,6 @@ sidebar:
 <p>An RSA is the formal safety performance examination of an existing or future road or intersection by an independent, multidisciplinary team. It qualitatively estimates and reports on potential road safety issues and identifies opportunities for improvements in safety for all road users. An RSA considers all users of the roadway and human factors and generates a formal report and response upon its conclusion. The agency can use the field conditions inventory and crash type summary during the RSA process. RSAs typically produce multiple planning-level countermeasure recommendations for the study corridor or area.</p>
 <p>Figure 5. Pedestrian collision summary.</p>
 <p>Source: City of Phoenix, AZ. 2015 Pedestrian Collision Summary (2015).</p></div>
-<div class="kw">Keywords: safety, pedestrian, road, summary, crossing, crash, types, issues, intersection, presence, factors, formal, users, collision</div>
 
 
 <span id="p21" class="anchor"></span>
@@ -81,4 +79,3 @@ sidebar:
 <p>This website provides links to several examples of RSAs focused on identifying pedestrian safety risks and improvement strategies. For example, the City of Tucson, Arizona conducted an RSA of roadways with PHBs to improve the countermeasures’ visibility and usability.</p>
 <p>PEDSAFE: Pedestrian Crash Typing</p>
 <p>PEDSAFE provides definitions for 12 key pedestrian crash types identified by the software package, the Pedestrian and Bicycle Crash Analysis Tool (PBCAT). PBCAT is still used by many agencies but may not be compatible with some current operating systems.</p></div>
-<div class="kw">Keywords: pedestrian, safety, crash, issues, rsas, locations, team, informal, site, evaluation, types, agency, representatives, prompt</div>
