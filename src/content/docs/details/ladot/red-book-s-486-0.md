@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-486.0</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 113, 114</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-457-0/">&larr; S-457.0</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> </div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 113)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0113.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0113.webp" alt="S-486.0 sheet 1"></a><figcaption>Red Book S-486.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p113">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0113.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0113.webp" alt="S-486.0 sheet 1"></a><figcaption>Red Book S-486.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p113">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>A. Street name signs, notes:</h5>
 <p>1. Legend size: 8&quot; upper case, 6&quot; lower case, Series &quot;E&quot; letters; 11-1/4&quot; x 12-3/4&quot; one-line arrow.</p>
 <p>2. Color: white legend, blue background.</p>
@@ -29,7 +28,7 @@ tableOfContents: false
 
 ### Sheet 2 of 2 (page 114)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0114.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0114.webp" alt="S-486.0 sheet 2"></a><figcaption>Red Book S-486.0, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p114">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0114.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0114.webp" alt="S-486.0 sheet 2"></a><figcaption>Red Book S-486.0, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p114">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. For installation details see Std. Plan S-457.0.</p>
 <p>2. For Signfix aluminum channel framing system details see Standard Plan S-476.0.</p>

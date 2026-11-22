@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-405</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-01-92</b></span><span>Page 10</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-404/">&larr; BT-404</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-406/">BT-406 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0010.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0010.webp" alt="BT-405 sheet 1"></a><figcaption>Burbank Std. Plans BT-405, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p10">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0010.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0010.webp" alt="BT-405 sheet 1"></a><figcaption>Burbank Std. Plans BT-405, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p10">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Column placement with angle parking:</h5>
 <p>Angle below 65 degrees to be as shown.</p>
 <p>Angle 65 degrees to 75 degrees to be as shown.</p>

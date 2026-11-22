@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-706</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-04-01</b></span><span>Page 4</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-705/">&larr; S-705</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-707/">S-707 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0004.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0004.webp" alt="S-706 sheet 1"></a><figcaption>Pasadena Std. Plans S-706, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p4">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0004.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0004.webp" alt="S-706 sheet 1"></a><figcaption>Pasadena Std. Plans S-706, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p4">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Condition A: centerline only (marked or unmarked).</p>
 <p>2. Condition B: multi-lane.</p>
 <p>3. Word messages, working back from the crosswalk: XING, PED. The distance from the crosswalk to XING varies.</p>

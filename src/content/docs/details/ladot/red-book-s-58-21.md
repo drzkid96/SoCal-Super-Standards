@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-58.21</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 122</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-19/">&larr; S-58.19</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-23/">S-58.23 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0122.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0122.webp" alt="S-58.21 sheet 1"></a><figcaption>Red Book S-58.21, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p122">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0122.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0122.webp" alt="S-58.21 sheet 1"></a><figcaption>Red Book S-58.21, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p122">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Message area (See notes). No numbered general notes are printed on this sheet.</p>
 <p>2. Heli-arc weld one side of corner post to door frame, both ends.</p>
 <p>3. Heli-arc weld seams of door frame as shown, hinge side only. Use corner posts other side.</p>

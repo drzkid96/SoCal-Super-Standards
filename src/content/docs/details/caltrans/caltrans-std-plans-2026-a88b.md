@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A88B</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 20</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a88a/">&larr; A88A</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2026">All Caltrans Std. Plans 2026 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90a/">A90A &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0020.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0020.webp" alt="A88B sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A88B, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/04-pages-19-22/#p20">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0020.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0020.webp" alt="A88B sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A88B, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/04-pages-19-22/#p20">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Sidewalk, ramp and passageway thickness &quot;T&quot;, shall be 3 1/2&quot; minimum.</p>
 <p>2. For details of detectable warning surfaces, see Standard Plan A88A.</p>
 <p>3. Where an island passageway length is greater than or equal to 6&#x27;-0&quot;, but less than 8&#x27;-0&quot;, each detectable warning surface shall extend the full width and 2&#x27;-0&quot; depth of the passageway length. Where an island passageway length is greater than or equal to 8&#x27;-0&quot;, each detectable warning surface shall extend the full width and 3&#x27;-0&quot; depth of the passageway length. Detectable warning surfaces shall extend the full width of the island passageway except a maximum gap of 1&quot; is allowed on each side of the passageway.</p>

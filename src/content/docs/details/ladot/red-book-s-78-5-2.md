@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-78.5.2</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 81</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-78-5-1/">&larr; S-78.5.1</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-78-5-3/">S-78.5.3 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0081.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0081.webp" alt="S-78.5.2 sheet 1"></a><figcaption>Red Book S-78.5.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p81">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0081.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0081.webp" alt="S-78.5.2 sheet 1"></a><figcaption>Red Book S-78.5.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p81">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>NOTES:</h5>
 <p>1. Traffic pullboxes in driveways, alleys and locations with vehicular traffic shall be metal covered per this standard.</p>
 <p>2. Pullbox details not shown on this plan shall conform to Caltrans Standard Plan ES-8.</p>

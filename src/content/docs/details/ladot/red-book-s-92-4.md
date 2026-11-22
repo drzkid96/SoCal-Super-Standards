@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-92.4</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 103, 104</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-92-3/">&larr; S-92.3</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-98-0/">S-98.0 &rarr;</a></div>
 
 
 
@@ -16,14 +15,14 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 103)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0103.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0103.webp" alt="S-92.4 sheet 1"></a><figcaption>Red Book S-92.4, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p103">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0103.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0103.webp" alt="S-92.4 sheet 1"></a><figcaption>Red Book S-92.4, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p103">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Callouts: Sign arm 8XX-Strong pipe (max. sign weight = 750#). Post 8XX-Strong pipe. 5&#x27;X12&#x27; CMS (max.). 1&quot; conduit to T. S. (traffic signal) pull box. Cast in drilled hole, 36&quot; O.D. See Section A-A for reinforcing. Continuous 3/4&quot; bar, see Note 1 (Details A and B).</p>
 <p>The numbered notes referenced (Note 1) are not on this sheet and continue on sheet 2 of 2.</p>
 <p>Approval: Approved on 11-21-05, Structural Engineering Division, Bureau of Engineering (BOE), by Peter Chiu.</p></details>
 
 ### Sheet 2 of 2 (page 104)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0104.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0104.webp" alt="S-92.4 sheet 2"></a><figcaption>Red Book S-92.4, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p104">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0104.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0104.webp" alt="S-92.4 sheet 2"></a><figcaption>Red Book S-92.4, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p104">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Specifications. Design: 2001 American Association of State Highway and Transportation Officials (AASHTO) Standard Specifications for structural supports for Highway Signs, Luminaires, and Traffic Signals. Wind velocity: 85 miles per hour (MPH).</p>
 <h5>General notes:</h5>
 <p>1. All pipes shall conform to ASTM A53 Grade B Specifications.</p>

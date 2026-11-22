@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-99.0</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>5</b> sheets</span><span>Pages 107, 108, 109, 110, 111</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-98-0/">&larr; S-98.0</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-454-2/">S-454.2 &rarr;</a></div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 5 (page 107)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0107.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0107.webp" alt="S-99.0 sheet 1"></a><figcaption>Red Book S-99.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p107">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0107.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0107.webp" alt="S-99.0 sheet 1"></a><figcaption>Red Book S-99.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p107">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>General notes:</h5>
 <h5>Design:</h5>
 <p>- Sign support structures designed in accordance with AASHTO Standard Specifications for Structural Support for Highway Signs, Luminaires and Traffic Signals: 5th edition.</p>
@@ -49,7 +48,7 @@ tableOfContents: false
 
 ### Sheet 2 of 5 (page 108)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0108.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0108.webp" alt="S-99.0 sheet 2"></a><figcaption>Red Book S-99.0, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p108">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0108.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0108.webp" alt="S-99.0 sheet 2"></a><figcaption>Red Book S-99.0, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p108">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
 <p>- Full depth 1/4&quot; plate stiffener each side of web (clip corners for zinc drain).</p>
 <p>- Luminaires and luminaire arms as required.</p>
@@ -70,7 +69,7 @@ tableOfContents: false
 
 ### Sheet 3 of 5 (page 109)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0109.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0109.webp" alt="S-99.0 sheet 3"></a><figcaption>Red Book S-99.0, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p109">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0109.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0109.webp" alt="S-99.0 sheet 3"></a><figcaption>Red Book S-99.0, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p109">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
 <p>- (3) - 1/2&quot; diameter holes to match 3/8&quot; diameter stainless steel bolts.</p>
 <p>- 6&quot; dia hole through flange plates and post wall.</p>
@@ -82,7 +81,7 @@ tableOfContents: false
 
 ### Sheet 4 of 5 (page 110)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0110.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0110.webp" alt="S-99.0 sheet 4"></a><figcaption>Red Book S-99.0, sheet 4. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p110">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0110.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0110.webp" alt="S-99.0 sheet 4"></a><figcaption>Red Book S-99.0, sheet 4. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p110">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
 <p>- Note: see base plate table for base plate and anchor bolt information.</p>
 <p>- &quot;N&quot; holes. Hole dia. = bolt dia. &quot;DAR&quot; + 1/4&quot;.</p>
@@ -100,7 +99,7 @@ tableOfContents: false
 
 ### Sheet 5 of 5 (page 111)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0111.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0111.webp" alt="S-99.0 sheet 5"></a><figcaption>Red Book S-99.0, sheet 5. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p111">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0111.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0111.webp" alt="S-99.0 sheet 5"></a><figcaption>Red Book S-99.0, sheet 5. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p111">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
 <p>- Final grade slope shall not exceed 1:2.5 within 5&#x27;-0&quot; of support centerline (CL).</p>
 <p>- CL post = CL shaft.</p>

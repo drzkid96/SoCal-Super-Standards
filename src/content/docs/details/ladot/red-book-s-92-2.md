@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-92.2</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 100, 101</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-79-9b/">&larr; S-79.9B</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-92-3/">S-92.3 &rarr;</a></div>
 
 
 
@@ -16,14 +15,14 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 100)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0100.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0100.webp" alt="S-92.2 sheet 1"></a><figcaption>Red Book S-92.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p100">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0100.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0100.webp" alt="S-92.2 sheet 1"></a><figcaption>Red Book S-92.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p100">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Specification. Design: American Association of State Highway Officials (A.A.S.H.O.) Specifications for the Design and Construction of Supports for Highway Signs, dated 1968. Loading: wind, normal to sign face: 23.3 pounds per square foot (psf); transverse to face: 0.2 of normal force. Unit stresses: concrete n=10, f&#x27;c = 3000 pounds per square inch (psi), fc = 1200 psi; reinforcing steel fs = 24,000 psi; structural steel fb = 23,000 psi; soil bearing pressure = 23,000 psf.</p>
 <p>Callouts that refer to notes: Dimension B (See Notes) and Sign (See Notes). The numbered notes are not on this sheet and continue on sheet 2 of 2.</p>
 <p>Detail note: See &quot;Weld Detail&quot; (Detail C plan view).</p></details>
 
 ### Sheet 2 of 2 (page 101)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0101.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0101.webp" alt="S-92.2 sheet 2"></a><figcaption>Red Book S-92.2, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p101">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0101.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0101.webp" alt="S-92.2 sheet 2"></a><figcaption>Red Book S-92.2, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p101">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>General notes:</h5>
 <p>1. Total sign area shall not exceed 180 sq. ft.</p>
 <p>2. Length &quot;B&quot; shall not exceed 22&#x27; with maximum sign area.</p>

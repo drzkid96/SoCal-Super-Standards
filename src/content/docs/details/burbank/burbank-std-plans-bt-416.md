@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-416</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>11-14-19</b></span><span>Page 21</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-415-1/">&larr; BT-415-1</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-417/">BT-417 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0021.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0021.webp" alt="BT-416 sheet 1"></a><figcaption>Burbank Std. Plans BT-416, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p21">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0021.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0021.webp" alt="BT-416 sheet 1"></a><figcaption>Burbank Std. Plans BT-416, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p21">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Bicycle lane symbol with person per Caltrans Std Plan A24C.</p>
 <p>2. Bike lane arrow per Caltrans Std Plan A24A.</p>
 <p>3. Bike lane line, <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-39" data-svg="/SoCal-Super-Standards/linetypes/detail-39.svg">Detail 39</a> per Caltrans Std Plan A20D.</p>

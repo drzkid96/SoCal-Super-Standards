@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-76.6</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 58</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-76-3/">&larr; S-76.3</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-76-7/">S-76.7 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0058.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0058.webp" alt="S-76.6 sheet 1"></a><figcaption>Red Book S-76.6, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p58">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0058.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0058.webp" alt="S-76.6 sheet 1"></a><figcaption>Red Book S-76.6, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p58">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Left beveled visor shown. See ear detail. Bevel opposite side for right beveled visor.</p>
 <p>2. Refer to LADOT Purchase Specification #92-061-06 for all other details.</p></details>
 

@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A24A</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>01-26-18</b></span><span>Page 4</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a20d/">&larr; A20D</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2018">All Caltrans Std. Plans 2018 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a24b/">A24B &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0004.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0004.webp" alt="A24A sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A24A, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p4">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0004.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0004.webp" alt="A24A sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A24A, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p4">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Note: Minor variations in dimensions may be accepted by the Engineer.</p>
 <p>Type IV (R) and Type VII (R) arrows use the mirror image of the (L) arrows. Type VI arrow is a right lane drop arrow (for left lane, use mirror image).</p>
 <p>The State of California or its officers or agents shall not be responsible for the accuracy or completeness of scanned copies of this plan sheet.</p></details>

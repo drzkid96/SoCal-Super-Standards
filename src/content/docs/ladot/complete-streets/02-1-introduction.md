@@ -174,25 +174,25 @@ sidebar:
 
 ### Page 19 - Pedestrian Zones Diagram
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0019.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0019.webp" alt="Complete Streets DG page 19 "></a><figcaption>Complete Streets DG, page 19.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0019.webp" alt="Complete Streets DG page 19 "></a><figcaption>Complete Streets DG, page 19.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Zone labels from building to curb: Frontage Zone, Pedestrian Zone, Amenity Zone. 2. Navigation link: Back to Table of Contents. 3. Running header: Complete Streets Design Guide, 1. Introduction. Page 11.</p></details>
 
 <span id="p20" class="anchor"></span>
 
 ### Page 20
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0020.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0020.webp" alt="Complete Streets DG page 20 "></a><figcaption>Complete Streets DG, page 20.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0020.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0020.webp" alt="Complete Streets DG page 20 "></a><figcaption>Complete Streets DG, page 20.</figcaption></figure>
 
 
 <span id="p21" class="anchor"></span>
 
 ### Page 21 - Complete Streets Design Guide: Street Classifications (Section Divider)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" alt="Complete Streets DG page 21 "></a><figcaption>Complete Streets DG, page 21.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0021.webp" alt="Complete Streets DG page 21 "></a><figcaption>Complete Streets DG, page 21.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Section divider text: Complete Streets Design Guide, Street Classifications (Chapter 2).</p></details>
 
 <span id="p22" class="anchor"></span>
 
 ### Page 22
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0022.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0022.webp" alt="Complete Streets DG page 22 "></a><figcaption>Complete Streets DG, page 22.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0022.webp" alt="Complete Streets DG page 22 "></a><figcaption>Complete Streets DG, page 22.</figcaption></figure>

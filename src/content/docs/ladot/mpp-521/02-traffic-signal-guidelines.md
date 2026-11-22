@@ -264,7 +264,7 @@ sidebar:
 ### Page 18 - and failed cycles. Livable Neighborhoods
 
 <div class="pmeta">Topics: transit, signals, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0018.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0018.webp" alt="MPP 521 page 18 and failed cycles. Livable Neighborhoods"></a><figcaption>MPP 521, page 18.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0018.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0018.webp" alt="MPP 521 page 18 and failed cycles. Livable Neighborhoods"></a><figcaption>MPP 521, page 18.</figcaption></figure>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>

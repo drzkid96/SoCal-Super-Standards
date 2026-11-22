@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A20D</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>10-19-18</b></span><span>Page 3</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a20b/">&larr; A20B</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2018">All Caltrans Std. Plans 2018 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a24a/">A24A &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0003.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0003.webp" alt="A20D sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A20D, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p3">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0003.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0003.webp" alt="A20D sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A20D, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p3">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Recessed notes:</h5>
 <p>A. See typical traffic line details for pavement marking patterns.</p>
 <p>B. See standard specifications for recess depth and recess striping material thickness.</p>

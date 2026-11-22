@@ -116,7 +116,7 @@ def main():
                 crop_figure(pg, fig["num"], f"{fig_dir}/{fname}")
                 extracted_figs += 1
                 parts.append(
-                    f'<figure class="dfig"><a href="{BASE}/figs/aashto/gbf-5/{fname}" target="_blank">'
+                    f'<figure class="dfig"><a href="{BASE}/figs/aashto/gbf-5/{fname}">'
                     f'<img loading="lazy" src="{BASE}/figs/aashto/gbf-5/{fname}" alt="AASHTO GBF-5 Figure {esc(fig["num"])}"></a>'
                     f'<figcaption>Figure {esc(fig["num"])}: {esc(fig["title"])} (GBF-5 p. {esc(lbl)}).</figcaption></figure>\n'
                 )

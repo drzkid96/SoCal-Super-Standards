@@ -92,7 +92,7 @@ sidebar:
 ### Page 21 - Typical Layout for Activated Pedestrian Warning Device
 
 <div class="pmeta">Drawings: <strong>S-55.0</strong>, <strong>S-481.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r1-5/" data-svg="/SoCal-Super-Standards/signs/R1-5.svg">R1-5</a> <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a> R9-3b <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> W16-7p &middot; Topics: crosswalks, signals, parking-curb, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0021.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0021.webp" alt="MPP 521 page 21 S-55.0 Typical Layout for Activated Pedestrian Warning Device"></a><figcaption>MPP 521, page 21.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0021.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0021.webp" alt="MPP 521 page 21 S-55.0 Typical Layout for Activated Pedestrian Warning Device"></a><figcaption>MPP 521, page 21.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Legend: Flashing beacon activated by pedestrian push button (beacon symbol at top left).</p>
 <h5>Notes:</h5>
 <p>1. The flash pattern utilizes LED heads and a Model 2070 controller. There are 60 flash periods per minute. The flash period for each beacon includes three pulses within 0.5 seconds and a pause of 0.5 seconds. The pulses of one beacon alternate with the pause of the other beacon, as shown below.</p>
@@ -107,7 +107,7 @@ sidebar:
 ### Page 22 - Fire Station Warning Beacons (Standard Drawing S-60.0)
 
 <div class="pmeta">Drawings: <strong>S-60.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/w11-8/" data-svg="/SoCal-Super-Standards/signs/W11-8.svg">W11-8</a> &middot; Topics: signals, parking-curb, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0022.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0022.webp" alt="MPP 521 page 22 S-60.0 Fire Station Warning Beacons"></a><figcaption>MPP 521, page 22.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0022.webp" alt="MPP 521 page 22 S-60.0 Fire Station Warning Beacons"></a><figcaption>MPP 521, page 22.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Plan notes:</h5>
 <p>- To activation switch located inside Fire Station.</p>
 <p>- Dimensions: 0 ft to 20 ft and 5 ft to 20 ft (as drawn 0&#x27;~20&#x27; and 5&#x27;~20&#x27;).</p>
@@ -236,7 +236,7 @@ sidebar:
 ### Page 25 - Limit Line Inductive Loop Detector Placement
 
 <div class="pmeta">Drawings: <strong>S-70.0</strong> &middot; Topics: signals, parking-curb, striping</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0025.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0025.webp" alt="MPP 521 page 25 S-70.0 Limit Line Inductive Loop Detector Placement"></a><figcaption>MPP 521, page 25.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0025.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0025.webp" alt="MPP 521 page 25 S-70.0 Limit Line Inductive Loop Detector Placement"></a><figcaption>MPP 521, page 25.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Single lane approaches: For single lane approaches, the number of pairs of loop detectors is based on distance A measured between the double yellow center line (DYCL) and the curb face. A single pair shall be used for distance A less than 20 ft. Dual pairs shall be used for distance A greater than or equal to 20 ft. Loop detectors should be installed as specified in the tables below.</p>
 <p>Case A: Single pair. Distance between DYCL and curb face (A) / distance between inner loop and curb face (B):</p>
 <p>10 ft / 3 ft</p>
@@ -263,7 +263,7 @@ sidebar:
 ### Page 26 - Limit Line Inductive Loop Detector Placement
 
 <div class="pmeta">Drawings: <strong>S-70.0</strong> &middot; Topics: crosswalks, bikeways, signals, parking-curb, striping</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0026.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0026.webp" alt="MPP 521 page 26 S-70.0 Limit Line Inductive Loop Detector Placement"></a><figcaption>MPP 521, page 26.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0026.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0026.webp" alt="MPP 521 page 26 S-70.0 Limit Line Inductive Loop Detector Placement"></a><figcaption>MPP 521, page 26.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Multiple lane approaches: For multiple lane approaches, loop detectors should be centered in lanes. For curb lane, follow the guidelines for single lane approach. See guidelines on single lane approaches (callout at the curb lane loops). Loops are centered in lanes (callout).</p>
 <h5>Notes:</h5>
 <p>1. This Standard Drawing applies to new installations and re-installations due to maintenance. Loop detectors should be re-installed at existing locations where the loop detectors extend 4 ft or more into marked crosswalks and limit lines.</p>
@@ -278,7 +278,7 @@ sidebar:
 ### Page 27 - Accessible Pedestrian Signal (APS)
 
 <div class="pmeta">Drawings: <strong>S-73.2</strong> &middot; Topics: crosswalks, signals, parking-curb, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0027.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0027.webp" alt="MPP 521 page 27 S-73.2 Accessible Pedestrian Signal (APS)"></a><figcaption>MPP 521, page 27.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0027.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0027.webp" alt="MPP 521 page 27 S-73.2 Accessible Pedestrian Signal (APS)"></a><figcaption>MPP 521, page 27.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Display and unit labels: START CROSSING, Watch For Vehicles. DON&#x27;T START, Finish Crossing If Started (flashing), TIME REMAINING To Finish Crossing (timer). DON&#x27;T CROSS (steady). PUSH BUTTON TO CROSS (ped-actuated unit only). Wires to controller pedestrian pushbutton (PPB) input (ped-actuated). No wires connected to controller pedestrian pushbutton (PPB) input (pre-timed and rest-in-walk).</p>
 <h5>Notes:</h5>
 <p>1. APS shall be used for situations where new pedestrian pushbuttons are being installed or where they are being replaced, due to maintenance.</p>
@@ -300,7 +300,7 @@ sidebar:
 ### Page 28 - Accessible Pedestrian Signal (APS)
 
 <div class="pmeta">Drawings: <strong>S-73.2</strong> &middot; Topics: crosswalks, signals, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0028.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0028.webp" alt="MPP 521 page 28 S-73.2 Accessible Pedestrian Signal (APS)"></a><figcaption>MPP 521, page 28.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0028.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0028.webp" alt="MPP 521 page 28 S-73.2 Accessible Pedestrian Signal (APS)"></a><figcaption>MPP 521, page 28.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Labels, arrangement 1 (pushbutton and pedestrian head on same pole): PED HEAD (4p), APS control unit, low voltage, LED ped module, low voltage &quot;gray cable&quot;, phase 4 APS button (phi 4 APS BUTTON), 3 CC (or 2 #14) PPB wires, 5 CC for ped phase, pull box, A/C.</p>
 <p>Labels, arrangement 2 (not on same pole): PED HEAD (2p) and PED HEAD (4p), APS control unit, low voltage &quot;gray cable&quot;, phi 4 APS button and phi 2 APS button, 3 CC (or 2 #14) PPB wires, 5 CC for ped phase, pull box, spares (5 CC if no spares).</p>
 <p>Labels, arrangement 3 (Type 7 post): PED HEAD (2p) and PED HEAD (4p), APS control unit, Type 7 post, phi 4 APS button and phi 2 APS button, low voltage &quot;gray cable&quot;, 4 CC, 5 CC for ped phase, 3 CC (or 2 #14) PPB wires, pull box, spares (5 CC if no spares).</p>
@@ -610,5 +610,5 @@ sidebar:
 ### Page 33 - Special Detector Applications: Bus Priority Detection
 
 <div class="pmeta">Drawings: <strong>S-75.0</strong>, <strong>S-70.0</strong> &middot; Topics: bikeways, transit, signals, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0033.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0033.webp" alt="MPP 521 page 33 S-75.0 Special Detector Applications"></a><figcaption>MPP 521, page 33.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0033.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0033.webp" alt="MPP 521 page 33 S-75.0 Special Detector Applications"></a><figcaption>MPP 521, page 33.</figcaption></figure>
 

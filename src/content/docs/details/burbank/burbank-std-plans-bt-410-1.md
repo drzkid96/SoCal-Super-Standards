@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-410-1</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>11-14-19</b></span><span>Page 14</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-409a-1/">&larr; BT-409A-1</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-411-1/">BT-411-1 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0014.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0014.webp" alt="BT-410-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-410-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p14">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0014.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0014.webp" alt="BT-410-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-410-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p14">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. Intersection with two-way left turn lane, install two arrows 25 feet from end of stripe.</p>
 <p>2. Intersection with turn lane, install one arrow 8 feet from beginning of turn lane.</p>

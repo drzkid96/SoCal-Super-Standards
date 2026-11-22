@@ -12,7 +12,7 @@ sidebar:
 ### Page 175 - Bus Bulbs - Constrained Type II Bus Bulb with Raised Bike Lane
 
 <div class="pmeta">Drawings: <strong>S-523.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> &middot; Topics: crosswalks, bikeways, transit, parking-curb, signs, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0175.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0175.webp" alt="MPP 531 page 175 S-523.0 Bus Bulbs"></a><figcaption>MPP 531, page 175.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0175.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0175.webp" alt="MPP 531 page 175 S-523.0 Bus Bulbs"></a><figcaption>MPP 531, page 175.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Callouts and legends (no numbered notes are printed on this sheet): 1. Constrained Type II bus bulb, raised bike lane. 2. Constrained Type II bus bulb, raised bike lane with narrow boarding and alighting area. 3. Bicycle ramp 12.5% maximum (MAX.) slope. 4. Bicycle ramp marking (Chevron IV) (typ). 5. Bicycle lane symbol. 6. 2&#x27; wide detectable warning surfaces (typ). 7. <a class="sref" href="/SoCal-Super-Standards/signs/r9-6/" data-svg="/SoCal-Super-Standards/signs/R9-6.svg">R9-6</a> and <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a>. 8. Green colored surface recommended, see Note 2. 9. Red curb, see Note 11. 10. 12&quot; white or yellow crosswalk aligned with bus doors (typ). 11. Bicycle yield line (typ). 12. 5&#x27; x 8&#x27; minimum forward boarding and alighting area, see Note 5. 13. 12&#x27; x 4&#x27; or 5&#x27; x 8&#x27; minimum clear zone for rear boarding and alighting area, see Note 8. 14. Bus bulb length, see Note 6. 15. Potential bus shelter location, see Note 4. 16. 5&#x27; x 3&#x27; directional indicator strip (optional). 17. Bus stop sign. 18. Plastic bollard or plastic post (typ). 19. Narrow area dimensions 4&#x27; (MIN) and 3&#x27; (MIN). Notes 2, 4, 5, 6, 8 and 11 are referenced but are not printed on this sheet.</p></details>
 
 <span id="p176" class="anchor"></span>
@@ -20,7 +20,7 @@ sidebar:
 ### Page 176 - Bus Bulbs - Bus Bulb Length and Door Spacing Table
 
 <div class="pmeta">Drawings: <strong>S-523.0</strong> &middot; Topics: transit, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0176.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0176.webp" alt="MPP 531 page 176 S-523.0 Bus Bulbs"></a><figcaption>MPP 531, page 176.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0176.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0176.webp" alt="MPP 531 page 176 S-523.0 Bus Bulbs"></a><figcaption>MPP 531, page 176.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Table footnotes:</h5>
 <p>* Drawing depicts accessible door at front of bus. If accessible door is at rear of bus, 5&#x27; x 8&#x27; boarding and alighting area must be located at rear door and 12&#x27; x 4&#x27; boarding alighting area will be located at front door. Ensure that accessible areas are provided based on all buses expected to use the bus stop.</p>
 <p>** Door spacing measured center to center on the doors.</p>
@@ -52,7 +52,7 @@ sidebar:
 ### Page 178 - Mini-Roundabouts and Neighborhood Traffic Circles
 
 <div class="pmeta">Drawings: <strong>S-524.0</strong>, <strong>S-481.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> R6-4 <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a> <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> <a class="sref" href="/SoCal-Super-Standards/signs/w16-17p/" data-svg="/SoCal-Super-Standards/signs/W16-17P.svg">W16-17P</a> W16-7PL W16-8 <a class="sref" href="/SoCal-Super-Standards/signs/w2-6/" data-svg="/SoCal-Super-Standards/signs/W2-6.svg">W2-6</a> &middot; Topics: crosswalks, parking-curb, speed-calming, signs, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0178.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0178.webp" alt="MPP 531 page 178 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 178.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0178.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0178.webp" alt="MPP 531 page 178 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 178.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>NOTES:</h5>
 <p>1. This drawing shows options with both mountable and painted islands on the approaches; however, the actual design should use consistent treatments on each approach. Mountable islands are preferred; painted islands may be used when islands are less than 50 square feet (SF) in size. If raised center island is used, roundabout directional arrow signs (R6-4) should be included in the center island.</p>
 <p>2. All signs and pavement markings shown in California Manual on Uniform Traffic Control Devices (CA MUTCD), current edition shall be implemented as specified.</p>
@@ -68,7 +68,7 @@ sidebar:
 ### Page 179 - Mini-Roundabouts and Neighborhood Traffic Circles
 
 <div class="pmeta">Drawings: <strong>S-524.0</strong> &middot; Topics: speed-calming, striping, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0179.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0179.webp" alt="MPP 531 page 179 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 179.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0179.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0179.webp" alt="MPP 531 page 179 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 179.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>NOTES:</h5>
 <p>1. Painted splitter islands may be used when site geometry leads to islands less than 50 SF in size.</p>
 <p>2. Use dimension schedule on sheet 4 of 4 as a design guide. Final dimensions to be determined by the engineer.</p>
@@ -81,7 +81,7 @@ sidebar:
 ### Page 180 - Mini-Roundabouts and Neighborhood Traffic Circles
 
 <div class="pmeta">Drawings: <strong>S-524.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r6-5p/" data-svg="/SoCal-Super-Standards/signs/R6-5P.svg">R6-5P</a> &middot; Topics: speed-calming, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0180.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0180.webp" alt="MPP 531 page 180 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 180.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0180.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0180.webp" alt="MPP 531 page 180 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 180.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>NOTES</h5>
 <p>1. See City of Los Angeles Supplemental Street Design Guide, Detail 700 for neighborhood traffic circle details.</p>
 <p>2. Two-way stop control is optional.</p>
@@ -94,7 +94,7 @@ sidebar:
 ### Page 181 - Mini-Roundabouts and Neighborhood Traffic Circles
 
 <div class="pmeta">Drawings: <strong>S-524.0</strong> &middot; Topics: parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0181.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0181.webp" alt="MPP 531 page 181 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 181.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0181.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0181.webp" alt="MPP 531 page 181 S-524.0 Mini-Roundabouts and Neighborhood Traffic Circles"></a><figcaption>MPP 531, page 181.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>NOTES</h5>
 <p>1. Use dimension schedule as a design guide. Final dimensions to be determined by the engineer.</p>
 <p>2. Where crossing streets are not the same width, consider curb extensions on wider road to create consistent approach widths.</p>
@@ -107,7 +107,7 @@ sidebar:
 ### Page 182 - Crossing Islands (Diagonal Curb Ramp)
 
 <div class="pmeta">Drawings: <strong>S-525.0</strong> &middot; Topics: crosswalks, speed-calming, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0182.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0182.webp" alt="MPP 531 page 182 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 182.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0182.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0182.webp" alt="MPP 531 page 182 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 182.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Callouts (no numbered notes are printed on this sheet): 1. Diagonal curb ramp. 2. 6&#x27; minimum (MIN), see Note 6. 3. Detectable warning surface, see Note 4. 4. Yellow mountable rubber speed hump. 5. Match crosswalk width where possible (see Note 5). 6. Curb line prolongation. 7. Total crossing, see Note 10. 8. 8&#x27; minimum (MIN) island length. 9. Contrasting colored surface (optional, see Note 2). 10. 8&quot; solid yellow line. 11. Channelizing bollards (see Note 1). 12. 12&quot; solid yellow line spaced 20&#x27; center to center (C-C). 13. 30&#x27; dimension. 14. Option when island is less than 6&#x27; wide: less than 6&#x27;, 4&#x27; MIN (see Note 6), 8&#x27; MIN. 15. Crossing island. Notes 1 through 10 are referenced but are not printed on this sheet.</p></details>
 
 <span id="p183" class="anchor"></span>
@@ -115,7 +115,7 @@ sidebar:
 ### Page 183 - Crossing Islands - Hardened Centerline and Options
 
 <div class="pmeta">Drawings: <strong>S-525.0</strong> &middot; Topics: crosswalks, speed-calming, striping</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0183.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0183.webp" alt="MPP 531 page 183 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 183.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0183.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0183.webp" alt="MPP 531 page 183 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 183.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Callouts (no numbered notes are printed on this sheet): Hardened centerline. Yellow hardened centerline, see options this sheet. Yellow mountable rubber speed hump. Match crosswalk width. Curb line prolongation. Options: precast concrete curb (4.5&quot; high, 12&quot; wide), flexible bollard, plastic curb.</p></details>
 
 <span id="p184" class="anchor"></span>
@@ -123,7 +123,7 @@ sidebar:
 ### Page 184 - Crossing Islands - Case A Directional Ramps
 
 <div class="pmeta">Drawings: <strong>S-525.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> &middot; Topics: crosswalks, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0184.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0184.webp" alt="MPP 531 page 184 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 184.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0184.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0184.webp" alt="MPP 531 page 184 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 184.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Callouts (no numbered notes are printed on this sheet): 1. Case A - directional ramps. 2. Pedestrian push button, see Note 3. 3. Detectable warning surface, see Note 4. 4. 6&#x27; minimum (MIN), see Note 6. 5. Approach nose, design for site conditions. 6. <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a>, <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> (typ). 7. Raised pavement marker (RPM) (typ), see Note 9. 8. 4&#x27; MIN. 9. 8&#x27; MIN. 10. 18&quot; maximum (MAX.). 11. 2% maximum (MAX). 12. Match crosswalk width where possible (see Note 5). 13. Curb line prolongation. 14. Directional curb ramps. 15. Total crossing, see Note 10. 16. 4&quot; solid yellow line 1&#x27; off center median. 17. 12&quot; solid yellow line spaced 20&#x27; center to center (C-C). 18. Crossing island. 19. Option when island is less than 6&#x27; wide, see Note 3. 20. Less than 6&#x27; (LESS THAN 6&#x27;), 4&#x27; MIN, see Note 6. Notes 1 through 10 are referenced but are not printed on this sheet.</p></details>
 
 <span id="p185" class="anchor"></span>
@@ -131,7 +131,7 @@ sidebar:
 ### Page 185 - Crossing Islands - Case B, Diagonal Ramps (Sheet 4 of 5)
 
 <div class="pmeta">Drawings: <strong>S-525.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg">OM1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> &middot; Topics: crosswalks, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0185.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0185.webp" alt="MPP 531 page 185 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 185.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0185.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0185.webp" alt="MPP 531 page 185 S-525.0 Crossing Islands"></a><figcaption>MPP 531, page 185.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Notes 1 to 10 are referenced on this sheet but are not printed on it. They appear on other sheets of the S-525.0 set. Callouts on this sheet:</p>
 <p>- Diagonal curb ramp.</p>
 <p>- 6&#x27; minimum (MIN.), see Note 6.</p>
@@ -176,7 +176,7 @@ sidebar:
 ### Page 187 - Truck Aprons
 
 <div class="pmeta">Drawings: <strong>S-526.0</strong>, <strong>S-410.0</strong> &middot; Topics: striping, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0187.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0187.webp" alt="MPP 531 page 187 S-526.0 Truck Aprons"></a><figcaption>MPP 531, page 187.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0187.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0187.webp" alt="MPP 531 page 187 S-526.0 Truck Aprons"></a><figcaption>MPP 531, page 187.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Note:</h5>
 <p>1. See City of Los Angeles Supplemental Street Design Guide, Detail 300 for truck apron details.</p>
 <h5>Callouts:</h5>
@@ -197,7 +197,7 @@ sidebar:
 ### Page 188 - Curb Extensions - Type II with Dual Uni-Directional Ramps and Diagonal Ramp (Sheet 1 of 3)
 
 <div class="pmeta">Drawings: <strong>S-527.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> &middot; Topics: accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0188.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0188.webp" alt="MPP 531 page 188 S-527.0 Curb Extensions"></a><figcaption>MPP 531, page 188.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0188.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0188.webp" alt="MPP 531 page 188 S-527.0 Curb Extensions"></a><figcaption>MPP 531, page 188.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Notes 1 to 4 are referenced on this sheet but are not printed on it. Callouts on this sheet:</p>
 <p>- Street.</p>
 <p>- 2&#x27; minimum (MIN.).</p>

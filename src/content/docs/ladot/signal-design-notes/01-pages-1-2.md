@@ -12,7 +12,7 @@ sidebar:
 ### Page 1 - LADOT Standard Notes for Signal Design Plans (Sheet 1 of 2): Controller, Loops, Interconnect, Signs, Standards, Pullbox and Services
 
 <div class="pmeta">Drawings: <strong>S-457.0</strong>, <strong>S-486.0</strong>, <strong>S-52.7.1</strong>, <strong>S-70.0</strong>, <strong>S-77.0</strong>, <strong>S-79.8</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r2-1/" data-svg="/SoCal-Super-Standards/signs/R2-1.svg">R2-1</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-2/" data-svg="/SoCal-Super-Standards/signs/R3-2.svg">R3-2</a> &middot; Topics: crosswalks, bikeways, transit, signals, parking-curb, striping, signs, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0001.webp" alt="Signal Design Notes page 1 CANJBAIEB (S-457.0, S-486.0)"></a><figcaption>Signal Design Notes, page 1.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0001.webp" alt="Signal Design Notes page 1 CANJBAIEB (S-457.0, S-486.0)"></a><figcaption>Signal Design Notes, page 1.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>CONTROLLER</h5>
 <p>C1. Remove controller, cabinet and foundation. Abandon conduit(s).</p>
 <p>C2. Remove controller and cabinet. Retain foundation.</p>
@@ -150,7 +150,7 @@ sidebar:
 ### Page 2 - LADOT Standard Notes for Signal Design Plans (Sheet 2 of 2): Miscellaneous, Temporary Traffic Signal, Video and Fiber Work, Schedule Notes
 
 <div class="pmeta">Drawings: <strong>S-442.0</strong>, <strong>S-444.0</strong>, <strong>S-454.2</strong>, <strong>S-52.1.6</strong>, <strong>S-55.0</strong>, <strong>S-57.0</strong> &middot; Topics: crosswalks, transit, signals, parking-curb, striping, signs, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0002.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0002.webp" alt="Signal Design Notes page 2 MISCEI I 6NEAY$ (S-442.0, S-444.0)"></a><figcaption>Signal Design Notes, page 2.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0002.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/signal-design-notes/p0002.webp" alt="Signal Design Notes page 2 MISCEI I 6NEAY$ (S-442.0, S-444.0)"></a><figcaption>Signal Design Notes, page 2.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>MISCELLANEOUS</h5>
 <p>M1. Request for installation of access ramps sent to Bureau of Street Services.</p>
 <p>M2. Install (modified) Case _ curb ramp per Department of Public Works Std. Dwg. No. S-442-5. All curb ramps shall have truncated domes on the &quot;W&quot; portions.</p>

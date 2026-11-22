@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">Detail 600</span><span class="dwg-src">Los Angeles Supplemental Street Design Guide &middot; February 2020, rev. May 2020</span></div>
 <div class="dwg-facts"><span><b>8</b> sheets</span><span>Pages 137, 138, 139, 140, 141, 142, 143, 144</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/supp-street-design-guide-s-527-0/">&larr; S-527.0</a> <a href="/SoCal-Super-Standards/details/?src=Supp. Street Design Guide">All Supp. Street Design Guide drawings</a> <a href="/SoCal-Super-Standards/details/ladot/supp-street-design-guide-detail-700/">Detail 700 &rarr;</a></div>
 
 
 
@@ -16,36 +15,36 @@ tableOfContents: false
 
 ### Sheet 1 of 8 (page 137)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0137.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0137.webp" alt="Detail 600 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p137">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0137.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0137.webp" alt="Detail 600 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p137">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>No general notes are printed on this sheet. Callouts refer to notes 2 and 3 of Detail 600, to sheets 3, 4 and 5 of the detail, to Standard Plan S-442 for curb ramps, and to LADOT Standard Drawing S-483.1 for pavement markings.</p></details>
 
 ### Sheet 2 of 8 (page 138)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0138.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0138.webp" alt="Detail 600 sheet 2"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 2. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p138">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0138.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0138.webp" alt="Detail 600 sheet 2"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 2. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p138">Open in the document</a>.</figcaption></figure>
 
 ### Sheet 3 of 8 (page 139)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0139.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0139.webp" alt="Detail 600 sheet 3"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 3. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p139">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0139.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0139.webp" alt="Detail 600 sheet 3"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 3. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p139">Open in the document</a>.</figcaption></figure>
 
 ### Sheet 4 of 8 (page 140)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0140.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0140.webp" alt="Detail 600 sheet 4"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 4. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p140">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0140.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0140.webp" alt="Detail 600 sheet 4"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 4. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p140">Open in the document</a>.</figcaption></figure>
 
 ### Sheet 5 of 8 (page 141)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0141.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0141.webp" alt="Detail 600 sheet 5"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 5. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p141">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0141.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0141.webp" alt="Detail 600 sheet 5"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 5. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p141">Open in the document</a>.</figcaption></figure>
 
 ### Sheet 6 of 8 (page 142)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0142.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0142.webp" alt="Detail 600 sheet 6"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 6. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p142">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0142.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0142.webp" alt="Detail 600 sheet 6"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 6. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p142">Open in the document</a>.</figcaption></figure>
 
 ### Sheet 7 of 8 (page 143)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0143.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0143.webp" alt="Detail 600 sheet 7"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 7. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p143">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0143.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0143.webp" alt="Detail 600 sheet 7"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 7. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p143">Open in the document</a>.</figcaption></figure>
 
 ### Sheet 8 of 8 (page 144)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0144.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0144.webp" alt="Detail 600 sheet 8"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 8. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p144">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0144.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0144.webp" alt="Detail 600 sheet 8"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 8. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p144">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. The width of the top of raised crosswalks should match the width of the connecting sidewalk, shared use path, or desired crosswalk, but not less than 10 ft in width.</p>
 <p>2. Bottom edge of raised crossing approach ramp to be aligned with curb line of intersecting street to minimize impacts to surface stormwater flowline.</p>
 <p>3. Modifications to existing street paving, cold plane and overlay asphalt or completely reconstruct paving as necessary to restore a smooth transition and street crown (Standard Plan S-433, similar), match paving materials and thickness, see S-410 for standard curbs and gutters, and warp new gutter to join invert at inlet.</p>

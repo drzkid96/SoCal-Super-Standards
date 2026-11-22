@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-52.1.6</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 38, 39</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1-4b/">&larr; S-52.1.4B</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1-7/">S-52.1.7 &rarr;</a></div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 38)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0038.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0038.webp" alt="S-52.1.6 sheet 1"></a><figcaption>Red Book S-52.1.6, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p38">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0038.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0038.webp" alt="S-52.1.6 sheet 1"></a><figcaption>Red Book S-52.1.6, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p38">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. Fabrication of the standards shall conform to the 2006 State of California Department of Transportation Standard plans.</p>
 <p>2. Hand Hole reinforcement ring shall be 1/4&quot; X 2&quot; for 0.1196&quot; to 0.2391&quot; thick poles, 3/8&quot; X 2&quot; for 0.3125&quot; thick poles.</p>
@@ -29,7 +28,7 @@ tableOfContents: false
 
 ### Sheet 2 of 2 (page 39)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0039.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0039.webp" alt="S-52.1.6 sheet 2"></a><figcaption>Red Book S-52.1.6, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p39">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0039.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0039.webp" alt="S-52.1.6 sheet 2"></a><figcaption>Red Book S-52.1.6, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p39">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Title of detail: Side Mount Indications Drill Detail.</p>
 <p>2. Mast arm length is measured from the pole to the outermost signal head. Signal head spacings are labeled F1 and F2, values not given on this sheet.</p>
 <p>3. Side view opposite of mast arm: two 3/4 in. diameter holes (drill through) and one 2 1/4 in. diameter hole (drill 1 side only), spaced 4 1/2 in. and 9 in. as shown.</p>

@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">Detail 500</span><span class="dwg-src">Los Angeles Supplemental Street Design Guide &middot; February 2020, rev. May 2020</span></div>
 <div class="dwg-facts"><span><b>3</b> sheets</span><span>Pages 134, 135, 136</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/supp-street-design-guide-s-494-1/">&larr; S-494.1</a> <a href="/SoCal-Super-Standards/details/?src=Supp. Street Design Guide">All Supp. Street Design Guide drawings</a> <a href="/SoCal-Super-Standards/details/ladot/supp-street-design-guide-s-523-0/">S-523.0 &rarr;</a></div>
 
 
 
@@ -16,15 +15,15 @@ tableOfContents: false
 
 ### Sheet 1 of 3 (page 134)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0134.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0134.webp" alt="Detail 500 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 500, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p134">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0134.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0134.webp" alt="Detail 500 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 500, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p134">Open in the document</a>.</figcaption></figure>
 
 ### Sheet 2 of 3 (page 135)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0135.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0135.webp" alt="Detail 500 sheet 2"></a><figcaption>Supp. Street Design Guide Detail 500, sheet 2. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p135">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0135.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0135.webp" alt="Detail 500 sheet 2"></a><figcaption>Supp. Street Design Guide Detail 500, sheet 2. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p135">Open in the document</a>.</figcaption></figure>
 
 ### Sheet 3 of 3 (page 136)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0136.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0136.webp" alt="Detail 500 sheet 3"></a><figcaption>Supp. Street Design Guide Detail 500, sheet 3. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p136">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0136.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0136.webp" alt="Detail 500 sheet 3"></a><figcaption>Supp. Street Design Guide Detail 500, sheet 3. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p136">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. A minimum of 6 foot width is required to provide pedestrian refuge. Widths of 8 to 10 feet are prefred [sic] where pedestrian volumes are high, where people with mobility devices cross, or where bicyclists cross. The minimum width is 4 feet, below which a hardened centerline is preferred where it is desired to slow left-turning motorists.</p>
 <p>2. The total length of the crossing islands and crosswalk shall be limited to 30 feet or less on streets with only one through lane in each direction.</p>
 <p>3. At signalized intersections, if the crossing island is at least 6 feet wide, then a pedestrian push button may be provided within the crossing island with LADOT approval. Push buttons should be located at the center of the island, but wider islands may necessitate two push buttons closer to the edge of the island. Push buttons should be located within 18 inches from curb face. If crossing islands are less than 6 feet wide, then pedestrian crossing signals must be timed to allow complete crossing and no push buttons shall be located in the crossing island.</p>

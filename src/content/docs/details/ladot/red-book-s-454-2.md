@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-454.2</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 130</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-99-0/">&larr; S-99.0</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-457-0/">S-457.0 &rarr;</a></div>
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R9-3a.svg" alt="R9-3a"><span><b>R9-3a</b> No Pedestrian Crossing regulatory sign</span></a></div>
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0130.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0130.webp" alt="S-454.2 sheet 1"></a><figcaption>Red Book S-454.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/09-pages-129-130/#p130">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0130.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0130.webp" alt="S-454.2 sheet 1"></a><figcaption>Red Book S-454.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/09-pages-129-130/#p130">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Pipe post to be set 1&#x27;-6&quot; back from face of curb unless otherwise specified.</p>
 <p>2. For minimum pipe diameters and wall thickness refer to ASTM A6M.</p>
 <p>3. Use left, right or double arrow on sign as needed.</p></details>

@@ -12,21 +12,21 @@ sidebar:
 ### Page 77 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0077.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0077.webp" alt="MPP 531 page 77 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 77.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0077.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0077.webp" alt="MPP 531 page 77 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 77.</figcaption></figure>
 
 <span id="p78" class="anchor"></span>
 
 ### Page 78 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0078.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0078.webp" alt="MPP 531 page 78 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 78.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0078.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0078.webp" alt="MPP 531 page 78 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 78.</figcaption></figure>
 
 <span id="p79" class="anchor"></span>
 
 ### Page 79 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r3-5/" data-svg="/SoCal-Super-Standards/signs/R3-5.svg">R3-5</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-6/" data-svg="/SoCal-Super-Standards/signs/R3-6__Sheet_1_of_2.svg">R3-6</a> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0079.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0079.webp" alt="MPP 531 page 79 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 79.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0079.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0079.webp" alt="MPP 531 page 79 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 79.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Captions on the sheet: Sign A layout 1: See Notes 1~5. Diagrammatic Arrows shown due to optional lane, as per Note 3. Sign A layout 2: See Notes 1~5. Two-Line vertical and diagonal shown since optional lanes are not involved, as per Note 3. Sign A layout 3: See Notes 1~5. Diagrammatic Arrows. Sign A layout 4: See Notes 1~5. Two-Line Arrows. Sign B layout 1: See Note 6. One-Line Arrows. Sign B layout 2: See Note 7. <a class="sref" href="/SoCal-Super-Standards/signs/r3-5/" data-svg="/SoCal-Super-Standards/signs/R3-5.svg">R3-5</a> and <a class="sref" href="/SoCal-Super-Standards/signs/r3-6/" data-svg="/SoCal-Super-Standards/signs/R3-6__Sheet_1_of_2.svg">R3-6</a> shown, as per Note 7. Sign B layout 3: See Notes 6 and 7. One-Line Arrows. The referenced Notes 1 to 7 are not on this sheet.</p></details>
 
 <span id="p80" class="anchor"></span>
@@ -34,7 +34,7 @@ sidebar:
 ### Page 80 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0080.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0080.webp" alt="MPP 531 page 80 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 80.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0080.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0080.webp" alt="MPP 531 page 80 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 80.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Captions on the sheet: Sign C layout 1: See Notes 6 and 8. One-Line Arrows. Sign C layout 2: See Notes 6, 7, 8 and 9. One-Line Arrows. Sign D layout 1: See Notes 7 and 9. Sign D layout 2: See Notes 7 and 9. Sign E layout 1: See Notes 6. One-Line Arrow. Sign E layout 2: See Notes 6 and 7. Sign legends include ONTO BEVERLY DR, ONLY, WEST, EAST, SOUTH. The referenced Notes 6 to 9 are not on this sheet.</p></details>
 
 <span id="p81" class="anchor"></span>
@@ -42,7 +42,7 @@ sidebar:
 ### Page 81 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0081.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0081.webp" alt="MPP 531 page 81 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 81.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0081.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0081.webp" alt="MPP 531 page 81 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 81.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Captions on the sheet: Sign F layout 1: See Notes 6 and 10. One-Line Arrow. Sign F layout 2: See Notes 6, 7 and 10. Sign G layout 1: See Notes 2, 3, 4, 5 and 11. Two-line Arrows. Sign G layout 2: See Notes 2, 3, 4, 5 and 11. Diagrammatic Arrows. Sign G layout 3: See notes 2, 3, 4, 5 and 11. Diagrammatic Arrows. Sign H layout 1: See Notes 6 and 11. One-Line Arrow. Sign H layout 2: See Notes 7 and 11. One-Line Arrow. Sign H layout 3: See Notes 7 and 11. The referenced notes are not on this sheet.</p></details>
 
 <span id="p82" class="anchor"></span>
@@ -50,7 +50,7 @@ sidebar:
 ### Page 82 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0082.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0082.webp" alt="MPP 531 page 82 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 82.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0082.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0082.webp" alt="MPP 531 page 82 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 82.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Captions on the sheet: Sign H Alternate: See Notes 11 and 12. Advance Arrow and One-Line Arrow. Sign I layout 1: See Notes 6 and 11. One-Line Arrow. Sign I layout 2: See Notes 7 and 11. One-Line Arrow. Sign I layout 3: See Notes 7 and 11. Sign I Alternate: See Notes 11 and 12. Advance Arrow and One-Line Arrow. The referenced notes are not on this sheet.</p></details>
 
 <span id="p83" class="anchor"></span>
@@ -58,7 +58,7 @@ sidebar:
 ### Page 83 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0083.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0083.webp" alt="MPP 531 page 83 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 83.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0083.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0083.webp" alt="MPP 531 page 83 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 83.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Captions on the sheet: Sign J layout 1: See Notes 13 and 14. Down Vertical Arrow. Sign J layout 2: See Notes 13 and 14. Down Vertical Arrow for W61F sign, as per Note 14. Sign J layout 3: See Notes 13 and 14. Sign J layout 4: See Notes 13, 14 and 15. Sign J layout 5: See Notes 13, 14 and 15. Sign K layout 1: See Notes 10, 13 and 14. Down Vertical Arrow. Sign K layout 2: See Notes 10, 13, 14 and 15. Down Vertical Arrow. Sign K layout 3: See Notes 10, 13 and 14. Sign K layout 4: See Notes 10, 13 and 14. Sign K layout 5: See Notes 10, 13 and 14. The referenced notes are not on this sheet.</p></details>
 
 <span id="p84" class="anchor"></span>
@@ -66,7 +66,7 @@ sidebar:
 ### Page 84 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0084.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0084.webp" alt="MPP 531 page 84 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 84.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0084.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0084.webp" alt="MPP 531 page 84 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 84.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Sign L (2 approach lanes shown): Golden State Fwy with Interstate 5 shield, NORTH and SOUTH cells with ONLY panels and arrows. See Notes 11, 13, 14 and 15.</p>
 <p>Sign M (2 approach lanes shown): Freeway with Interstate 5 shield, NORTH and SOUTH, with arrow and with LEFT LANE and RIGHT LANE variations. See Notes 11, 13 and 14.</p>
 <p>Sign N (2 approach lanes shown): Freeway with Interstate 5 shield, SOUTH and NORTH, with arrow and with LEFT LANE and RIGHT LANE variations. See Notes 11, 13 and 14.</p></details>
@@ -76,7 +76,7 @@ sidebar:
 ### Page 85 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: transit, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0085.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0085.webp" alt="MPP 531 page 85 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 85.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0085.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0085.webp" alt="MPP 531 page 85 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 85.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Sign O: BUSES &amp; CARPOOLS left-turn ONLY panel with diamond symbol, Freeway SOUTH 200 FT with Interstate 5 shield, and a left-turn ONLY panel. See Notes 7, 11, 12, 16, 17 and 18.</p>
 <p>Sign P: diamond symbol with 3 OR MORE, BUSES &amp; CARPOOLS OK with a right-turn arrow, Freeway NORTH with Interstate 5 shield, and right-turn ONLY panel. See Notes 3, 5, 11, 16, 17 and 18.</p>
 <p>Sign Q: TRANSIT BUSES ONLY with down arrow, and ALL OTHER VEHICLES right-turn ONLY panel. See Notes 7, 12, 17 and 18.</p>
@@ -90,7 +90,7 @@ sidebar:
 ### Page 86 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r3-2/" data-svg="/SoCal-Super-Standards/signs/R3-2.svg">R3-2</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-6/" data-svg="/SoCal-Super-Standards/signs/R3-6__Sheet_1_of_2.svg">R3-6</a> &middot; Topics: signals, striping, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0086.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0086.webp" alt="MPP 531 page 86 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 86.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0086.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0086.webp" alt="MPP 531 page 86 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 86.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Application Notes</p>
 <p>1. At roadway divergences show all arterial street destinations, including those where the street name does not change. This is necessary because sometimes the street name continues on the left leg, sometimes on the right leg and sometimes diverges into two different names.</p>
 <p>2. At roadway divergences with two or more approach lanes, utilize elephant track striping as per S-491.0.</p>
@@ -107,7 +107,7 @@ sidebar:
 ### Page 87 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: transit, striping, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0087.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0087.webp" alt="MPP 531 page 87 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 87.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0087.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0087.webp" alt="MPP 531 page 87 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 87.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>10. Where the destination roadway must be accessed via another named roadway the name should be preceded with the word, &quot;To&quot;. Ground mounted trailblazer signs should be provided to direct motorist in advance of every decision point enroute to the destination roadway.</p>
 <p>11. Where a freeway on-ramp is within one mile of a freeway-to-freeway interchange, the full freeway name should be shown followed by the appropriate route shield and number. However, in constrained situations the full freeway name may be deleted. In all other situations the appropriate route shield and number followed by the word, &quot;Fwy&quot; or &quot;Freeway&quot; is sufficient.</p>
 <p>12. Use the Advance Arrow and &quot;XXX FT&quot; legends where there is an intervening roadway 100 feet or less upstream of the overhead sign.</p>
@@ -123,7 +123,7 @@ sidebar:
 ### Page 88 - RXR Advance Marking
 
 <div class="pmeta">Drawings: <strong>S-436.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/w10-1/" data-svg="/SoCal-Super-Standards/signs/W10-1.svg">W10-1</a> &middot; Topics: parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0088.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0088.webp" alt="MPP 531 page 88 S-436.0 RXR Advance Marking"></a><figcaption>MPP 531, page 88.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0088.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0088.webp" alt="MPP 531 page 88 S-436.0 RXR Advance Marking"></a><figcaption>MPP 531, page 88.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>* The distances shown in Table A are approximate only. Dimensions of field installations may exceed the figures in the table by up to 100 feet in order to adjust to field conditions. Distances shown are from Table 2C-4 (MUTCD) using condition B and posted speed plus 5 mph.</p>
 <p>Callouts: <a class="sref" href="/SoCal-Super-Standards/signs/w10-1/" data-svg="/SoCal-Super-Standards/signs/W10-1.svg">W10-1</a> and W48(CA) (if applicable). W48(CA): install if two or more tracks.</p>
 <p>Railroad limit lines: 15&#x27; from edge of rail or 8&#x27; from gate. For angled crossings of 60 degrees or greater, install as shown to left.</p>
@@ -135,13 +135,13 @@ sidebar:
 ### Page 89 - Street Name Signs
 
 <div class="pmeta">Drawings: <strong>S-438.0</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0089.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0089.webp" alt="MPP 531 page 89 S-438.0 Street Name Signs"></a><figcaption>MPP 531, page 89.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0089.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0089.webp" alt="MPP 531 page 89 S-438.0 Street Name Signs"></a><figcaption>MPP 531, page 89.</figcaption></figure>
 
 <span id="p90" class="anchor"></span>
 
 ### Page 90 - Street Name Signs
 
 <div class="pmeta">Drawings: <strong>S-438.0</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0090.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0090.webp" alt="MPP 531 page 90 S-438.0 Street Name Signs"></a><figcaption>MPP 531, page 90.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0090.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0090.webp" alt="MPP 531 page 90 S-438.0 Street Name Signs"></a><figcaption>MPP 531, page 90.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>* See the end statement for Note 9. 4&quot; upper case and 3&quot; lower case letters are required so that the message can fit on the largest sign.</p></details>
 

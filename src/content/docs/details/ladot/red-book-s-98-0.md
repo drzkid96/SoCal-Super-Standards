@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-98.0</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 98</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-92-4/">&larr; S-92.4</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-99-0/">S-99.0 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0098.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0098.webp" alt="S-98.0 sheet 1"></a><figcaption>Red Book S-98.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p98">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0098.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0098.webp" alt="S-98.0 sheet 1"></a><figcaption>Red Book S-98.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p98">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Specification. Design: Design loading, wind loading 20 pounds per square foot (psf). Design stresses: concrete n = 10, f&#x27;c = 3,000 pounds per square inch (psi), fc = 1,200 psi; reinforcing steel fs = 20,000 psi; structural steel fb = 18,000 psi; soil bearing pressure 3,000 psi.</p>
 <p>Callouts: Caisson concrete shall be 560-C-3250 (revision 1). Four anchor bolts 1-1/2&quot; dia. x 54&quot; (includes a 6&quot; right angle bend), threaded (thrd.) 8&quot;, galvanized (galv.) top 12&quot;, 2 hex. nuts and 2 standard (std.) washers each. 3&quot; x 5&quot; hand hole with frame and removable cover, 1&quot; radius corners in hand hole.</p>
 <h5>General notes:</h5>

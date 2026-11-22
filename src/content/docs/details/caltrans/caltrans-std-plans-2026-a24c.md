@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A24C</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 10</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24b/">&larr; A24B</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2026">All Caltrans Std. Plans 2026 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24d/">A24D &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0010.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0010.webp" alt="A24C sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A24C, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/02-pages-7-12/#p10">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0010.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0010.webp" alt="A24C sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A24C, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/02-pages-7-12/#p10">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Minor variations in dimensions may be accepted by the Engineer.</p>
 <p>Symbol labels and colors: ISA marking shown in white and blue. Return to Table of Contents link at the bottom of the page.</p></details>
 

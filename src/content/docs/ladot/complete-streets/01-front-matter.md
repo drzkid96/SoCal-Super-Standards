@@ -11,21 +11,21 @@ sidebar:
 
 ### Page 1 - Complete Streets Design Guide Cover
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0001.webp" alt="Complete Streets DG page 1 "></a><figcaption>Complete Streets DG, page 1.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0001.webp" alt="Complete Streets DG page 1 "></a><figcaption>Complete Streets DG, page 1.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Cover text: City of Los Angeles, Complete Streets Design Guide. 2. Tagline: Great Streets for Los Angeles. 3. Seal text: City of Los Angeles, Founded 1781.</p></details>
 
 <span id="p2" class="anchor"></span>
 
 ### Page 2
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0002.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0002.webp" alt="Complete Streets DG page 2 "></a><figcaption>Complete Streets DG, page 2.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0002.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0002.webp" alt="Complete Streets DG page 2 "></a><figcaption>Complete Streets DG, page 2.</figcaption></figure>
 
 
 <span id="p3" class="anchor"></span>
 
 ### Page 3 - Complete Streets Design Guide
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0003.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0003.webp" alt="Complete Streets DG page 3 Complete Streets Design Guide"></a><figcaption>Complete Streets DG, page 3.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0003.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0003.webp" alt="Complete Streets DG page 3 Complete Streets Design Guide"></a><figcaption>Complete Streets DG, page 3.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Complete Streets Design Guide ACTIVITY LOG Street Standards Committee Amendments Date Amendment III Complete Streets Design Guide  ACTIVITY LOG April 3, 2025 Added the HLA Standard Elements Table as a supplemental document </p></details>
 
 
@@ -33,7 +33,7 @@ sidebar:
 
 ### Page 4
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0004.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0004.webp" alt="Complete Streets DG page 4 "></a><figcaption>Complete Streets DG, page 4.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0004.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0004.webp" alt="Complete Streets DG page 4 "></a><figcaption>Complete Streets DG, page 4.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Date Amendment IV ACTIVITY LOG  Complete Streets Design Guide </p></details>
 
 
@@ -41,7 +41,7 @@ sidebar:
 
 ### Page 5
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0005.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0005.webp" alt="Complete Streets DG page 5 "></a><figcaption>Complete Streets DG, page 5.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0005.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0005.webp" alt="Complete Streets DG page 5 "></a><figcaption>Complete Streets DG, page 5.</figcaption></figure>
 
 
 <span id="p6" class="anchor"></span>
@@ -179,18 +179,18 @@ sidebar:
 
 ### Page 8
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0008.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0008.webp" alt="Complete Streets DG page 8 "></a><figcaption>Complete Streets DG, page 8.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0008.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0008.webp" alt="Complete Streets DG page 8 "></a><figcaption>Complete Streets DG, page 8.</figcaption></figure>
 
 
 <span id="p9" class="anchor"></span>
 
 ### Page 9 - Complete Streets Design Guide: Introduction (Section Divider)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0009.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0009.webp" alt="Complete Streets DG page 9 "></a><figcaption>Complete Streets DG, page 9.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0009.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0009.webp" alt="Complete Streets DG page 9 "></a><figcaption>Complete Streets DG, page 9.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Section divider text: Complete Streets Design Guide, Introduction (Chapter 1).</p></details>
 
 <span id="p10" class="anchor"></span>
 
 ### Page 10
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0010.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0010.webp" alt="Complete Streets DG page 10 "></a><figcaption>Complete Streets DG, page 10.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0010.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0010.webp" alt="Complete Streets DG page 10 "></a><figcaption>Complete Streets DG, page 10.</figcaption></figure>

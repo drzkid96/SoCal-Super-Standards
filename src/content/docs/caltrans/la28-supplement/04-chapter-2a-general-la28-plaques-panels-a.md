@@ -117,7 +117,7 @@ sidebar:
 ### Page 29 - Figure 2A-101(LA28). LA28 and PERMIT ONLY Plaques and Panels
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0029.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0029.webp" alt="LA28 Supplement page 29 Figure 2A-101(LA28). LA28 and PERMIT ONLY Plaques and Panels"></a><figcaption>LA28 Supplement, page 29.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0029.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0029.webp" alt="LA28 Supplement page 29 Figure 2A-101(LA28). LA28 and PERMIT ONLY Plaques and Panels"></a><figcaption>LA28 Supplement, page 29.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Figure 2A-101(LA28). LA28 and PERMIT ONLY Plaques and Panels LA28 Plaque (Horizontal) LA28 Plaque (Vertical) PERMIT ONLY PERMIT ONLY Plaque LA28 Panel (Horizontal) LA28 Pane l (Vertical) PERMIT ONLY LA28 PERMIT ONLY Panel CA MUTCD 2026 LA28 Supplement Chapter 2A - General (Figures) Part 2 Signs Page 29 July 15, 2026 </p></details>
 
 
@@ -126,7 +126,7 @@ sidebar:
 ### Page 30 - Table 2A-2(LA28). Common Uses of Sign Colors
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0030.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0030.webp" alt="LA28 Supplement page 30 Table 2A-2(LA28). Common Uses of Sign Colors"></a><figcaption>LA28 Supplement, page 30.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0030.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0030.webp" alt="LA28 Supplement page 30 Table 2A-2(LA28). Common Uses of Sign Colors"></a><figcaption>LA28 Supplement, page 30.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 30</p>
 <p>Chapter 2A - General (Figures) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2A-2(LA28). Common Uses of Sign Colors</h4>

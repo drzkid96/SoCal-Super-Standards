@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-75.9A</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 77</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-75-5-3/">&larr; S-75.5.3</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-76-3/">S-76.3 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0077.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0077.webp" alt="S-75.9A sheet 1"></a><figcaption>Red Book S-75.9A, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p77">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0077.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0077.webp" alt="S-75.9A sheet 1"></a><figcaption>Red Book S-75.9A, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p77">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Cabinet construction, ventilation requirements and other necessary accessories shall conform to the latest specification for &quot;Cabinet Assembly - Type 337 post-top mounted&quot;, Dept. of Transportation, City of Los Angeles.</p>
 <p>2. Cabinet shall be equipped with rails for mounting equipment. Rails shall be of standard 19&quot; rack configuration.</p>
 <p>Cabinet details: dimension tolerance +/-0.125 inch.</p>

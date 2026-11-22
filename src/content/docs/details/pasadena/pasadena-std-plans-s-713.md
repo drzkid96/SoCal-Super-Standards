@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-713</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-04-01</b></span><span>Page 18</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-712/">&larr; S-712</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-714/">S-714 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0018.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0018.webp" alt="S-713 sheet 1"></a><figcaption>Pasadena Std. Plans S-713, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p18">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0018.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0018.webp" alt="S-713 sheet 1"></a><figcaption>Pasadena Std. Plans S-713, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p18">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. If existing limit line falls outside hatched area, notify Traffic Engineering before repainting.</p>
 <p>Labels: Standard location for limit line, unless otherwise specified. 300 mm (12 in) white stripe. Curb line. Property line. Back line of sidewalk. Install only when authorized by Traffic Engineer. Condition: known property line and/or sidewalk location. Condition: unknown property line or sidewalk location, exact location to be specified on work order. Limit line location to be within this area (TYP.). Extend limit line to street center line unless channelization requires otherwise. Dimensions: 2.4 m (8 ft), 1.2 m (4 ft) minimum (MIN.), 9.1 m (30 ft) maximum (MAX.).</p></details>

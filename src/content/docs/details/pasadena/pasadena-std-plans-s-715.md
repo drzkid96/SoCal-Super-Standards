@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-715</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>07-07-03</b></span><span>Page 20</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-714/">&larr; S-714</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-716/">S-716 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0020.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0020.webp" alt="S-715 sheet 1"></a><figcaption>Pasadena Std. Plans S-715, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p20">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0020.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0020.webp" alt="S-715 sheet 1"></a><figcaption>Pasadena Std. Plans S-715, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p20">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. Drive sign post anchor into ground approximately 1.0 m (3 ft). Leave one hole exposed above ground for rivet connection.</p>
 <p>2. Drive in anchor sleeve which is one size larger than post anchor and 455 mm (18 in) long.</p>

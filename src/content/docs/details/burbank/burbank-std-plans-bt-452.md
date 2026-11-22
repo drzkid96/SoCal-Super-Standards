@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-452</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>08-14-06</b></span><span>Page 26</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-418/">&larr; BT-418</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> </div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0026.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0026.webp" alt="BT-452 sheet 1"></a><figcaption>Burbank Std. Plans BT-452, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p26">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0026.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0026.webp" alt="BT-452 sheet 1"></a><figcaption>Burbank Std. Plans BT-452, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p26">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Note: Construction shall not extend beyond this line.</p>
 <p>Proposed dwelling addition: Guide for determining adequate access to garage.</p>
 <p>(Not to scale.)</p>

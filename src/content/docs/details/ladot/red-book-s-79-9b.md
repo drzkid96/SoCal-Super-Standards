@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-79.9B</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 96</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-79-9a/">&larr; S-79.9A</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-92-2/">S-92.2 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0096.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0096.webp" alt="S-79.9B sheet 1"></a><figcaption>Red Book S-79.9B, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p96">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0096.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0096.webp" alt="S-79.9B sheet 1"></a><figcaption>Red Book S-79.9B, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p96">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>* Note (both diagrams): Use a ground rod wire clamp for each wire (Acorn).</p>
 <p>PVC Conduit System callouts: Service pullbox. Service fuse. Bonded galvanized conduit. NC. From utility AC+, AC-, AC+. #8 green bond wire. Schedule 80 PVC. Service ground rod: 8FT x 1/2&quot;. Dedicated service #6 black, #6 green, #6 white. Black, Green, White. Controller pullbox. Compression type fitting. Traffic signal cabinet. Cabinet service block (Ground, AC+, AC-). Equipment ground bus. Cabinet ground rod: 8FT x 1/2&quot;.</p>
 <p>Galvanized Conduit System callouts: Use a bushing on all metal conduit. Bonded galvanized conduit. Other callouts as in the PVC system.</p></details>

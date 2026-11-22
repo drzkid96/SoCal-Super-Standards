@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A90B</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 22</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90a/">&larr; A90A</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2026">All Caltrans Std. Plans 2026 drawings</a> </div>
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/r99ca/" data-svg="/SoCal-Super-Standards/signs/ca/r99ca.webp"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r99ca.webp" alt="R99(CA)"><span><b>R99(CA)</b> Parking Only regulatory sign</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r99bca/" data-svg="/SoCal-Super-Standards/signs/ca/r99bca.webp"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r99bca.webp" alt="R99B(CA)"><span><b>R99B(CA)</b> Minimum Fine $250 regulatory sign</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r99cca/" data-svg="/SoCal-Super-Standards/signs/ca/r99cca.webp"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r99cca.webp" alt="R99C(CA)"><span><b>R99C(CA)</b> Parking Arking Only Ly Minimum Fine $250</span></a></div>
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp" alt="A90B sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A90B, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/04-pages-19-22/#p22">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp" alt="A90B sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A90B, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/04-pages-19-22/#p22">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Parking spaces shall be so located that persons with disabilities are not compelled to wheel or walk behind parked vehicles other than their own.</p>
 <p>2. Surface slopes of accessible on-street parking spaces shall be the minimum feasible.</p>
 <p>3. Where Plaque <a class="sref" href="/SoCal-Super-Standards/signs/r99bca/" data-svg="/SoCal-Super-Standards/signs/ca/r99bca.webp">R99B(CA)</a> or Sign <a class="sref" href="/SoCal-Super-Standards/signs/r99cca/" data-svg="/SoCal-Super-Standards/signs/ca/r99cca.webp">R99C(CA)</a> are installed, the bottom of the sign or plaque panel shall be a minimum of 7&#x27;-0&quot; above the surrounding surface.</p>

@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-52.1.4B</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 40, 41</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1-3/">&larr; S-52.1.3</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1-6/">S-52.1.6 &rarr;</a></div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 40)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0040.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0040.webp" alt="S-52.1.4B sheet 1"></a><figcaption>Red Book S-52.1.4B, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p40">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0040.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0040.webp" alt="S-52.1.4B sheet 1"></a><figcaption>Red Book S-52.1.4B, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p40">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Pole specifications:</h5>
 <p>Base plate and flanges: ASTM A-36.</p>
 <p>Shaft: steel of 48,000 PSI minimum yield after fabrication. Design yield of Fy = 48,000 PSI in order that Fu/Fy &gt; 1.5.</p>
@@ -35,7 +34,7 @@ tableOfContents: false
 
 ### Sheet 2 of 2 (page 41)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0041.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0041.webp" alt="S-52.1.4B sheet 2"></a><figcaption>Red Book S-52.1.4B, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p41">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0041.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0041.webp" alt="S-52.1.4B sheet 2"></a><figcaption>Red Book S-52.1.4B, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p41">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Pan and tilt mounting flange detail: 4 - 3/8 in. diameter stainless steel studs, equally spaced on 4 3/4 in. diameter B.C. 6 1/2 in. diameter (ASTM A-36). 4 NF threads, stainless nuts and bolts. 1/2 in. plate. 1 1/4 in. 1/4 in. fillet weld.</p>
 <p>Upper handhole and coupling detail: 2 in. coupling. 18 in. from pole top. Cable hook* welded to inside of shaft oriented directly opposite coupling and above handhole. 3 in. x 5 in. handhole rim (1/4 in. plate x 2 in. wide) and cover. 1/4 in. welds.</p>
 <p>* Each cable shall be supported inside the pole by Kellems grips (or equivalent) one at the top and a second at the mid-point. Two 1/8 in. diameter galvanized steel wires shall secure mid-point grips to the top cable hook.</p>

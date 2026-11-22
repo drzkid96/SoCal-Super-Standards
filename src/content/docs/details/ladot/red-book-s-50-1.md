@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-50.1</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>4</b> sheets</span><span>Pages 27, 28, 29, 30</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-45-0/">&larr; S-45.0</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-51-1-2a/">S-51.1.2A &rarr;</a></div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 4 (page 27)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0027.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0027.webp" alt="S-50.1 sheet 1"></a><figcaption>Red Book S-50.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p27">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0027.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0027.webp" alt="S-50.1 sheet 1"></a><figcaption>Red Book S-50.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p27">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Column headings: PROPOSED, EXISTING, EXISTING TO BE REMOVED.</p>
 <h5>Legend entries (symbol meaning, with footnotes cited on the sheet):</h5>
 <p>1. Signal head, three 8&quot; (200 mm) section heads (Footnote A).</p>
@@ -38,7 +37,7 @@ tableOfContents: false
 
 ### Sheet 2 of 4 (page 28)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0028.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0028.webp" alt="S-50.1 sheet 2"></a><figcaption>Red Book S-50.1, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p28">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0028.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0028.webp" alt="S-50.1 sheet 2"></a><figcaption>Red Book S-50.1, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p28">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Legend entries:</h5>
 <p>1. Signal head, three 8&quot; sections - steady red, followed by flashing red, followed by steady yellow (Footnote A). Label on plan: 8&quot; R/FL.R/Y.</p>
 <p>2. Light rail signal, per plan details. Label on plan: LRT.</p>
@@ -63,7 +62,7 @@ tableOfContents: false
 
 ### Sheet 3 of 4 (page 29)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0029.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0029.webp" alt="S-50.1 sheet 3"></a><figcaption>Red Book S-50.1, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p29">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0029.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0029.webp" alt="S-50.1 sheet 3"></a><figcaption>Red Book S-50.1, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p29">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Legend entries:</h5>
 <p>1. Type 7 pushbutton standard (PPB shown).</p>
 <p>2. Signal controller cabinet.</p>
@@ -86,7 +85,7 @@ tableOfContents: false
 
 ### Sheet 4 of 4 (page 30)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0030.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0030.webp" alt="S-50.1 sheet 4"></a><figcaption>Red Book S-50.1, sheet 4. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p30">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0030.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0030.webp" alt="S-50.1 sheet 4"></a><figcaption>Red Book S-50.1, sheet 4. <a href="/SoCal-Super-Standards/ladot/red-book/02-pages-17-32/#p30">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Legend entries:</h5>
 <p>1. Catch basin (C.B.).</p>
 <p>2. Manhole.</p>

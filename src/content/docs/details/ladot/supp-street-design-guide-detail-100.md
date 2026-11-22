@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">Detail 100</span><span class="dwg-src">Los Angeles Supplemental Street Design Guide &middot; February 2020, rev. May 2020</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 101, 102</span></div></div>
 
-<div class="dwg-nav"> <a href="/SoCal-Super-Standards/details/?src=Supp. Street Design Guide">All Supp. Street Design Guide drawings</a> <a href="/SoCal-Super-Standards/details/ladot/supp-street-design-guide-detail-200/">Detail 200 &rarr;</a></div>
 
 
 
@@ -16,14 +15,14 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 101)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0101.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0101.webp" alt="Detail 100 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 100, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/06-pages-91-108/#p101">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0101.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0101.webp" alt="Detail 100 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 100, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/06-pages-91-108/#p101">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>NOTES:</h5>
 <p>1. Provide mountable truck apron along outside curb line if lane width greater than 14&#x27; is needed to accommodate design vehicle.</p>
 <p>2. Provide 48&quot; minimum (MIN.) clear space with 2% maximum (MAX.) slope in all directions for landing area.</p></details>
 
 ### Sheet 2 of 2 (page 102)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0102.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0102.webp" alt="Detail 100 sheet 2"></a><figcaption>Supp. Street Design Guide Detail 100, sheet 2. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/06-pages-91-108/#p102">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0102.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0102.webp" alt="Detail 100 sheet 2"></a><figcaption>Supp. Street Design Guide Detail 100, sheet 2. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/06-pages-91-108/#p102">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>NOTES:</h5>
 <p>1. Provide mountable truck apron along outside curb line if lane width greater than 14&#x27; is needed to accommodate design vehicle.</p>
 <p>2. Provide 48&quot; minimum (MIN.) clear space with 2% maximum (MAX.) slope in all directions for landing area.</p></details>

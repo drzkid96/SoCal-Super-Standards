@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-70.2</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 72</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-1f/">&larr; S-70.1F</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-3/">S-70.3 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0072.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0072.webp" alt="S-70.2 sheet 1"></a><figcaption>Red Book S-70.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p72">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0072.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0072.webp" alt="S-70.2 sheet 1"></a><figcaption>Red Book S-70.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p72">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. This standard drawing describes a two, three or four pair loop detector lead-in cable, individually shielded and jacketed and suitable for installation in a pavement sawcut, conduit, or direct burial.</p>
 <p>2. The detector lead-in cable can be wired in either a single, double, triple or quadruple channel configuration.</p>
 <p>3. Electrical connections shall be carefully soldered and waterproofed.</p>

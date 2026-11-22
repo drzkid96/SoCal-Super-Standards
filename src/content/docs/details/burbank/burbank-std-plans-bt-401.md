@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-401</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-01-92</b></span><span>Page 2</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-400/">&larr; BT-400</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-402/">BT-402 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0002.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0002.webp" alt="BT-401 sheet 1"></a><figcaption>Burbank Std. Plans BT-401, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p2">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0002.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0002.webp" alt="BT-401 sheet 1"></a><figcaption>Burbank Std. Plans BT-401, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p2">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Under the charts: Where parking adjoining the access aisle is a combination of standard size and compact size automobile spaces, Chart No. 1 shall be used for determination of minimum access aisle width.</p>
 <p>Special requirements.</p>
 <h5>Driveway widths and locations:</h5>

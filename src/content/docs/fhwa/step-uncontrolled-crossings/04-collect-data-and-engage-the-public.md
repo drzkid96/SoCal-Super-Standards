@@ -50,7 +50,7 @@ sidebar:
 ### Page 12 - Initiate a Pedestrian Safety Action Plan (PSAP)
 
 <div class="pmeta">Topics: bikeways, speed-calming</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0012.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0012.webp" alt="FHWA STEP Guide page 12 Initiate a Pedestrian Safety Action Plan (PSAP)"></a><figcaption>FHWA STEP Guide, page 12.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0012.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0012.webp" alt="FHWA STEP Guide page 12 Initiate a Pedestrian Safety Action Plan (PSAP)"></a><figcaption>FHWA STEP Guide, page 12.</figcaption></figure>
 <div class="dtext"><p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Collect Data and Engage the Public</p>
 <p>about safety concerns. This step leverages prior analyses and helps to identify countermeasures that that the agency is already considering.</p>

@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-51.7</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 33</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-51-1-3a/">&larr; S-51.1.3A</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-51-8/">S-51.8 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0033.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0033.webp" alt="S-51.7 sheet 1"></a><figcaption>Red Book S-51.7, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p33">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0033.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0033.webp" alt="S-51.7 sheet 1"></a><figcaption>Red Book S-51.7, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p33">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. Shaft material: 2 1/2&quot; Std. Schedule 40 pipe.</p>
 <p>2. Finish: Hot dip galvanize after fabrication per ASTM spec. A-120.</p>

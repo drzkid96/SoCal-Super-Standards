@@ -523,3 +523,349 @@ window.__openSiteSearch = function (query) {
     run();
   });
 })();
+
+/* ---------- session back / forward / recent pages, sheet jumper & keyboard prev/next ---------- */
+(() => {
+  const KEY = 'sss_recent_v1';
+  const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  window.__ready(() => {
+    // 1. Track recent pages in this browser tab
+    const curUrl = location.pathname + location.search;
+    const h1 = document.querySelector('h1');
+    const curTitle = (h1 ? h1.textContent : document.title.split('|')[0]).trim();
+    let list = [];
+    try { list = JSON.parse(sessionStorage.getItem(KEY) || '[]'); } catch (e) { list = []; }
+    if (!Array.isArray(list)) list = [];
+    list = [{ u: curUrl, t: curTitle }, ...list.filter((x) => x && x.u !== curUrl)].slice(0, 14);
+    try { sessionStorage.setItem(KEY, JSON.stringify(list)); } catch (e) {}
+
+    // Wire Back / Forward / Recent controls in topbar
+    const backBtn = document.querySelector('[data-nav-back]');
+    const fwdBtn = document.querySelector('[data-nav-fwd]');
+    if (backBtn) {
+      backBtn.addEventListener('click', () => {
+        if (history.length > 1) history.back();
+        else {
+          const prev = list.find((x) => x.u !== curUrl);
+          if (prev) location.href = prev.u;
+        }
+      });
+    }
+    if (fwdBtn) {
+      fwdBtn.addEventListener('click', () => history.forward());
+    }
+
+    const recBtn = document.querySelector('[data-recent-toggle]');
+    const recMenu = document.querySelector('.sss-recent-menu');
+    if (recBtn && recMenu) {
+      const others = list.filter((x) => x.u !== curUrl);
+      if (!others.length) {
+        recBtn.disabled = true;
+        recBtn.title = 'Visit another page to populate recent history';
+      } else {
+        recMenu.innerHTML = others
+          .map((x) => `<a role="menuitem" href="${esc(x.u)}">${esc(x.t)}</a>`)
+          .join('');
+        const closeMenu = () => {
+          recMenu.hidden = true;
+          recBtn.setAttribute('aria-expanded', 'false');
+        };
+        recBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const open = recMenu.hidden;
+          recMenu.hidden = !open;
+          recBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
+        document.addEventListener('click', (e) => {
+          if (!recMenu.hidden && !recMenu.contains(e.target) && e.target !== recBtn) closeMenu();
+        });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMenu(); });
+      }
+    }
+
+    // 2. Multi-page chapter sheet jumper (pages with 2+ <span id="pN" class="anchor">)
+    const anchors = Array.from(document.querySelectorAll('main span.anchor[id^="p"]'));
+    if (anchors.length >= 2) {
+      const bar = document.createElement('nav');
+      bar.className = 'sss-sheetbar print:hidden';
+      bar.setAttribute('aria-label', 'Jump to page in this chapter');
+      const items = anchors.map((sp) => {
+        const num = sp.id.replace(/^p/, '');
+        const nxt = sp.nextElementSibling;
+        const tip = nxt ? nxt.textContent.trim() : `Page ${num}`;
+        return { id: sp.id, num, tip, el: sp };
+      });
+      bar.innerHTML =
+        `<button type="button" class="sss-sstep" data-step="-1" title="Previous page in chapter">&lsaquo; Prev</button>` +
+        `<div class="sss-spills">${items.map((it, idx) => `<a href="#${esc(it.id)}" data-idx="${idx}" title="${esc(it.tip)}">p.${esc(it.num)}</a>`).join('')}</div>` +
+        `<button type="button" class="sss-sstep" data-step="1" title="Next page in chapter">Next &rsaquo;</button>`;
+      const srcbar = document.querySelector('main .srcbar');
+      if (srcbar && srcbar.parentNode) srcbar.insertAdjacentElement('afterend', bar);
+      else anchors[0].insertAdjacentElement('beforebegin', bar);
+
+      const pills = Array.from(bar.querySelectorAll('.sss-spills a'));
+      let curIdx = 0;
+      const setActive = (idx) => {
+        curIdx = Math.max(0, Math.min(items.length - 1, idx));
+        pills.forEach((a, i) => a.classList.toggle('on', i === curIdx));
+        const active = pills[curIdx];
+        if (active && active.scrollIntoView) {
+          try { active.scrollIntoView({ inline: 'nearest', block: 'nearest' }); } catch (e) {}
+        }
+      };
+      const syncScroll = () => {
+        const y = window.scrollY + 130;
+        let best = 0;
+        for (let i = 0; i < items.length; i++) {
+          const top = items[i].el.getBoundingClientRect().top + window.scrollY;
+          if (top <= y) best = i; else break;
+        }
+        if (best !== curIdx) setActive(best);
+      };
+      setActive(0);
+      window.addEventListener('scroll', syncScroll, { passive: true });
+      bar.addEventListener('click', (e) => {
+        const btn = e.target.closest('button[data-step]');
+        if (!btn) return;
+        const targetIdx = Math.max(0, Math.min(items.length - 1, curIdx + Number(btn.dataset.step)));
+        items[targetIdx].el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setActive(targetIdx);
+      });
+    }
+
+    // 3. Keyboard shortcuts '[' (previous page) and ']' (next page)
+    document.addEventListener('keydown', (e) => {
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      if (document.querySelector('.sss-lb.open')) return;
+      const t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
+      if (e.key === '[') {
+        const prev = document.querySelector('a[rel="prev"]');
+        if (prev) { e.preventDefault(); prev.click(); }
+      } else if (e.key === ']') {
+        const next = document.querySelector('a[rel="next"]');
+        if (next) { e.preventDefault(); next.click(); }
+      }
+    });
+  });
+})();
+
+/* ---------- in-tab image viewer (lightbox with zoom, pan, prev/next stepping — zero new tabs) ---------- */
+(() => {
+  const IMG_EXT = /\.(?:webp|png|jpe?g|svg|gif)(?:[?#].*)?$/i;
+
+  window.__ready(() => {
+    const lb = document.createElement('div');
+    lb.className = 'sss-lb';
+    lb.setAttribute('role', 'dialog');
+    lb.setAttribute('aria-modal', 'true');
+    lb.setAttribute('aria-label', 'Image viewer');
+    lb.hidden = true;
+    lb.innerHTML = `
+      <div class="sss-lb-bar">
+        <div class="sss-lb-title"><span class="sss-lb-count"></span><span class="sss-lb-cap"></span></div>
+        <div class="sss-lb-ctrls">
+          <button type="button" data-lb="prev" title="Previous image (Left arrow)">&larr; Prev</button>
+          <button type="button" data-lb="next" title="Next image (Right arrow)">Next &rarr;</button>
+          <span class="sss-lb-sep" aria-hidden="true"></span>
+          <button type="button" data-lb="zout" title="Zoom out (-)">&minus;</button>
+          <button type="button" data-lb="fit" title="Fit to window (0)">Fit</button>
+          <button type="button" data-lb="zin" title="Zoom in (+)">+</button>
+          <button type="button" class="sss-lb-close" data-lb="close" aria-label="Close image viewer (Esc)">&times;</button>
+        </div>
+      </div>
+      <div class="sss-lb-stage">
+        <img class="sss-lb-img" alt="" draggable="false" />
+      </div>`;
+    document.body.appendChild(lb);
+
+    const imgEl = lb.querySelector('.sss-lb-img');
+    const stage = lb.querySelector('.sss-lb-stage');
+    const capEl = lb.querySelector('.sss-lb-cap');
+    const cntEl = lb.querySelector('.sss-lb-count');
+    const prevBtn = lb.querySelector('[data-lb="prev"]');
+    const nextBtn = lb.querySelector('[data-lb="next"]');
+    const fitBtn = lb.querySelector('[data-lb="fit"]');
+
+    let gallery = [];
+    let index = 0;
+    let scale = 1, tx = 0, ty = 0;
+    let dragging = false, didDrag = false, sx = 0, sy = 0, stx = 0, sty = 0;
+    let lastFocus = null;
+
+    const applyTransform = () => {
+      imgEl.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
+      stage.classList.toggle('zoomed', scale > 1.02);
+      fitBtn.textContent = scale === 1 ? 'Fit' : Math.round(scale * 100) + '%';
+    };
+    const resetZoom = () => { scale = 1; tx = 0; ty = 0; applyTransform(); };
+
+    const captionFor = (el) => {
+      const fig = el.closest('figure');
+      if (fig) {
+        const fc = fig.querySelector('figcaption');
+        if (fc) return fc.textContent.trim();
+      }
+      const card = el.closest('.mcard, .ltc, .sdetail');
+      if (card) {
+        const h = card.querySelector('.mbody strong, .ltc-head b, .scode-big');
+        if (h) return h.textContent.trim();
+      }
+      const im = el.tagName === 'IMG' ? el : el.querySelector('img');
+      return (im && im.alt) || el.getAttribute('title') || el.textContent.trim() || 'Image';
+    };
+
+    const collectGallery = () => {
+      const items = [];
+      const seen = new Set();
+      const root = document.querySelector('main') || document.body;
+      root.querySelectorAll('a[href], .sdetail-img img, .ltc-pic img').forEach((el) => {
+        if (el.closest('.sss-lb, .pv-tip, .sref-tip, nav, .rsign-grid')) return;
+        let src = '';
+        if (el.tagName === 'A') {
+          const href = el.getAttribute('href') || '';
+          if (!IMG_EXT.test(href)) return;
+          src = el.href;
+        } else {
+          if (el.closest('a[href]')) return;
+          src = el.currentSrc || el.src;
+        }
+        if (!src || seen.has(src)) return;
+        seen.add(src);
+        items.push({ src, cap: captionFor(el), el });
+      });
+      return items;
+    };
+
+    const renderItem = () => {
+      const item = gallery[index];
+      if (!item) return;
+      resetZoom();
+      imgEl.src = item.src;
+      imgEl.alt = item.cap;
+      capEl.textContent = item.cap;
+      cntEl.textContent = gallery.length > 1 ? `${index + 1} / ${gallery.length}` : '';
+      prevBtn.hidden = gallery.length <= 1;
+      nextBtn.hidden = gallery.length <= 1;
+      prevBtn.disabled = index <= 0;
+      nextBtn.disabled = index >= gallery.length - 1;
+    };
+
+    const openAt = (src, fallbackEl) => {
+      gallery = collectGallery();
+      index = gallery.findIndex((x) => x.src === src);
+      if (index < 0) {
+        gallery.unshift({ src, cap: captionFor(fallbackEl), el: fallbackEl });
+        index = 0;
+      }
+      lastFocus = document.activeElement;
+      lb.hidden = false;
+      lb.classList.add('open');
+      document.documentElement.classList.add('sss-lb-lock');
+      renderItem();
+      lb.querySelector('[data-lb="close"]').focus();
+    };
+
+    const closeLb = () => {
+      if (lb.hidden) return;
+      lb.classList.remove('open');
+      lb.hidden = true;
+      document.documentElement.classList.remove('sss-lb-lock');
+      imgEl.removeAttribute('src');
+      if (lastFocus && lastFocus.focus) try { lastFocus.focus(); } catch (e) {}
+    };
+
+    const zoomBy = (factor) => {
+      scale = Math.max(1, Math.min(6, +(scale * factor).toFixed(3)));
+      if (scale === 1) { tx = 0; ty = 0; }
+      applyTransform();
+    };
+
+    // Intercept clicks on any image link or standalone figure image inside main
+    document.addEventListener('click', (e) => {
+      if (e.defaultPrevented || e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+      if (e.target.closest('.sss-lb')) return;
+      const a = e.target.closest('a[href]');
+      if (a) {
+        const href = a.getAttribute('href') || '';
+        if (IMG_EXT.test(href)) {
+          e.preventDefault();
+          openAt(a.href, a);
+          return;
+        }
+        return;
+      }
+      const im = e.target.closest('.sdetail-img img, .ltc-pic img, .dfig img, .mfig img');
+      if (im && (im.currentSrc || im.src)) {
+        e.preventDefault();
+        openAt(im.currentSrc || im.src, im);
+      }
+    });
+
+    // Toolbar actions
+    lb.addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-lb]');
+      if (btn) {
+        const act = btn.dataset.lb;
+        if (act === 'close') closeLb();
+        else if (act === 'prev' && index > 0) { index--; renderItem(); }
+        else if (act === 'next' && index < gallery.length - 1) { index++; renderItem(); }
+        else if (act === 'zin') zoomBy(1.35);
+        else if (act === 'zout') zoomBy(1 / 1.35);
+        else if (act === 'fit') resetZoom();
+        return;
+      }
+      // Click on backdrop closes viewer (not when finishing a pan drag)
+      if (didDrag) { didDrag = false; return; }
+      if (e.target === stage) closeLb();
+    });
+
+    // Double-click toggles Fit <-> 220% zoom
+    stage.addEventListener('dblclick', (e) => {
+      if (e.target !== imgEl && e.target !== stage) return;
+      if (scale > 1.05) resetZoom();
+      else { scale = 2.2; tx = 0; ty = 0; applyTransform(); }
+    });
+
+    // Wheel zoom
+    stage.addEventListener('wheel', (e) => {
+      if (lb.hidden) return;
+      e.preventDefault();
+      zoomBy(e.deltaY < 0 ? 1.18 : 1 / 1.18);
+    }, { passive: false });
+
+    // Drag to pan when zoomed
+    stage.addEventListener('pointerdown', (e) => {
+      if (scale <= 1.02 || e.button !== 0) return;
+      dragging = true;
+      didDrag = false;
+      sx = e.clientX; sy = e.clientY; stx = tx; sty = ty;
+      stage.classList.add('dragging');
+      stage.setPointerCapture && stage.setPointerCapture(e.pointerId);
+    });
+    stage.addEventListener('pointermove', (e) => {
+      if (!dragging) return;
+      const dx = e.clientX - sx, dy = e.clientY - sy;
+      if (Math.hypot(dx, dy) > 4) didDrag = true;
+      tx = stx + dx;
+      ty = sty + dy;
+      applyTransform();
+    });
+    const endDrag = () => { dragging = false; stage.classList.remove('dragging'); };
+    stage.addEventListener('pointerup', endDrag);
+    stage.addEventListener('pointercancel', endDrag);
+
+    // Keyboard controls inside lightbox
+    document.addEventListener('keydown', (e) => {
+      if (lb.hidden) return;
+      if (e.key === 'Escape') { e.preventDefault(); closeLb(); }
+      else if (e.key === 'ArrowLeft' && index > 0) { e.preventDefault(); index--; renderItem(); }
+      else if (e.key === 'ArrowRight' && index < gallery.length - 1) { e.preventDefault(); index++; renderItem(); }
+      else if (e.key === '+' || e.key === '=') { e.preventDefault(); zoomBy(1.3); }
+      else if (e.key === '-') { e.preventDefault(); zoomBy(1 / 1.3); }
+      else if (e.key === '0') { e.preventDefault(); resetZoom(); }
+    });
+  });
+})();
+

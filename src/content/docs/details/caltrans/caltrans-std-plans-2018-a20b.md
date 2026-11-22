@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A20B</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>01-26-18</b></span><span>Page 2</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a20a/">&larr; A20A</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2018">All Caltrans Std. Plans 2018 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a20d/">A20D &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0002.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0002.webp" alt="A20B sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A20B, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p2">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0002.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0002.webp" alt="A20B sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A20B, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p2">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Legend: Markers: Type D two-way yellow retroreflective. Type H one-way yellow retroreflective. Type RY red-yellow retroreflective. Lines: 6&quot; white. 6&quot; yellow.</p>
 <p>Deleted details: 27A, 30 and 33.</p>
 <p>Dimensions: edge of traveled way, minimum (MIN.) 2&#x27;-0&quot; between yellow line pairs in median islands, 12&#x27;-0&quot; typical for the two-way left turn lane width, and 100&#x27;-0&quot; minimum for intersection treatments.</p>

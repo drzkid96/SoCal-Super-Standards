@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-73.1</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 66</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-73-0/">&larr; S-73.0</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-75-0c/">S-75.0C &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0066.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0066.webp" alt="S-73.1 sheet 1"></a><figcaption>Red Book S-73.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p66">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0066.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0066.webp" alt="S-73.1 sheet 1"></a><figcaption>Red Book S-73.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p66">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Sign shall be .063 aluminum.</p>
 <p>2. Powder coated with black legend on white background and orange hand and timer symbols.</p>
 <p>* Use left, right or double arrow as necessary.</p>

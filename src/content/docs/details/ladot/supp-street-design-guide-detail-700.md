@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">Detail 700</span><span class="dwg-src">Los Angeles Supplemental Street Design Guide &middot; February 2020, rev. May 2020</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 145, 146</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/supp-street-design-guide-detail-600/">&larr; Detail 600</a> <a href="/SoCal-Super-Standards/details/?src=Supp. Street Design Guide">All Supp. Street Design Guide drawings</a> <a href="/SoCal-Super-Standards/details/ladot/supp-street-design-guide-detail-710/">Detail 710 &rarr;</a></div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 145)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0145.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0145.webp" alt="Detail 700 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 700, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/09-pages-145-162/#p145">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0145.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0145.webp" alt="Detail 700 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 700, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/09-pages-145-162/#p145">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Landscaping requires Streets-LA review and approval. Plantings and trees must not inhibit intersection sight distances by ensuring a clear zone of visibility between 36 inches high and 80 inches high from the pavement elevation.</p>
 <p>2. Monument protection/preservation: notify the BOE Survey Division prior to monument adjustment. Raise monument to grade in appropriate casing.</p>
 <p>3. Curb shall be constructed of PCC conforming to Greenbook subsection 201-1 and 303-5.</p>
@@ -26,7 +25,7 @@ tableOfContents: false
 
 ### Sheet 2 of 2 (page 146)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0146.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0146.webp" alt="Detail 700 sheet 2"></a><figcaption>Supp. Street Design Guide Detail 700, sheet 2. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/09-pages-145-162/#p146">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0146.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0146.webp" alt="Detail 700 sheet 2"></a><figcaption>Supp. Street Design Guide Detail 700, sheet 2. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/09-pages-145-162/#p146">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Use dimension schedule as a design guide. Final dimensions to be determined by the Engineer.</p>
 <p>2. Where crossing streets are not the same width, consider curb extensions on wider road to create consistent approach widths.</p>
 <p>3. For locations with non-standard street widths, the relationship between the offset and the opening width is determined by the opening width table.</p>

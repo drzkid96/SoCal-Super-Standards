@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A24D</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>01-26-18</b></span><span>Page 6</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a24b/">&larr; A24B</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2018">All Caltrans Std. Plans 2018 drawings</a> </div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0006.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0006.webp" alt="A24D sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A24D, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p6">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0006.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0006.webp" alt="A24D sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A24D, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p6">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. If a message consists of more than one word, it must read &quot;UP&quot;, i.e., the first word must be nearest the driver.</p>
 <p>2. The space between words must be at least four times the height of the characters for low speed roads, but not more than ten times the height of the characters. The space may be reduced appropriately where there is limited space because of local conditions.</p>
 <p>3. Minor variations in dimensions may be accepted by the Engineer.</p>

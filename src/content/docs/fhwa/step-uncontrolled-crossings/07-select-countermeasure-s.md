@@ -31,7 +31,7 @@ sidebar:
 ### Page 23 - 16
 
 <div class="pmeta">Topics: crosswalks, bikeways, parking-curb, speed-calming, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0023.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0023.webp" alt="FHWA STEP Guide page 23 16"></a><figcaption>FHWA STEP Guide, page 23.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0023.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0023.webp" alt="FHWA STEP Guide page 23 16"></a><figcaption>FHWA STEP Guide, page 23.</figcaption></figure>
 <div class="dtext"><h4>16</h4>
 <h4>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</h4>
 <h4>Select Countermeasure(s)</h4>
@@ -72,7 +72,7 @@ sidebar:
 ### Page 24 - Safety Issues Addressed per Countermeasure
 
 <div class="pmeta">Topics: crosswalks</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0024.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0024.webp" alt="FHWA STEP Guide page 24 Safety Issues Addressed per Countermeasure"></a><figcaption>FHWA STEP Guide, page 24.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0024.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0024.webp" alt="FHWA STEP Guide page 24 Safety Issues Addressed per Countermeasure"></a><figcaption>FHWA STEP Guide, page 24.</figcaption></figure>
 <div class="dtext"><p>17</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Select Countermeasure(s)</p>

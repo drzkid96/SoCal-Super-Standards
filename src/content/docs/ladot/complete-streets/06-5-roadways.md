@@ -24,7 +24,7 @@ sidebar:
 
 ### Page 126 - 5.1 Pedestrian Plaza
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0126.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0126.webp" alt="Complete Streets DG page 126 5.1 Pedestrian Plaza"></a><figcaption>Complete Streets DG, page 126.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0126.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0126.webp" alt="Complete Streets DG page 126 5.1 Pedestrian Plaza"></a><figcaption>Complete Streets DG, page 126.</figcaption></figure>
 <div class="dtext"><p>118</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>5.1 Pedestrian Plaza</h4>
@@ -261,7 +261,7 @@ sidebar:
 ### Page 135 - 5.3 Protected Bicycle Lane
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0135.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0135.webp" alt="Complete Streets DG page 135 5.3 Protected Bicycle Lane"></a><figcaption>Complete Streets DG, page 135.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0135.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0135.webp" alt="Complete Streets DG page 135 5.3 Protected Bicycle Lane"></a><figcaption>Complete Streets DG, page 135.</figcaption></figure>
 <div class="dtext"><p>127</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>5.3 Protected Bicycle Lane</h4>
@@ -288,7 +288,7 @@ sidebar:
 ### Page 136 - Design Guidance
 
 <div class="pmeta">Topics: bikeways, parking-curb, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0136.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0136.webp" alt="Complete Streets DG page 136 Design Guidance"></a><figcaption>Complete Streets DG, page 136.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0136.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0136.webp" alt="Complete Streets DG page 136 Design Guidance"></a><figcaption>Complete Streets DG, page 136.</figcaption></figure>
 <div class="dtext"><p>128</p>
 <p>5. ROADWAYS  Complete Streets Design Guide</p>
 <p>•• Apply along routes where there are more destinations on one side of a street or if the Protected Bicycle Lane will be connecting to a shared use path or other bicycle facility on one side of the street.</p>
@@ -306,7 +306,7 @@ sidebar:
 ### Page 137 - Bicycle Enhancements
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0137.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0137.webp" alt="Complete Streets DG page 137 Bicycle Enhancements"></a><figcaption>Complete Streets DG, page 137.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0137.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0137.webp" alt="Complete Streets DG page 137 Bicycle Enhancements"></a><figcaption>Complete Streets DG, page 137.</figcaption></figure>
 <div class="dtext"><p>129</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <p>This conceptual rendering for 7th Street incorporates a wide buffered area that can accommodate non-car uses such as transit boarding islands, bikeshare stations, and bicycle parking corrals. (Image courtesy of Melendrez)</p>
@@ -351,7 +351,7 @@ sidebar:
 ### Page 139 - 5.4 Shared Lane Marking (Sharrow)
 
 <div class="pmeta">Topics: bikeways</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0139.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0139.webp" alt="Complete Streets DG page 139 5.4 Shared Lane Marking (Sharrow)"></a><figcaption>Complete Streets DG, page 139.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0139.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0139.webp" alt="Complete Streets DG page 139 5.4 Shared Lane Marking (Sharrow)"></a><figcaption>Complete Streets DG, page 139.</figcaption></figure>
 <div class="dtext"><p>131</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>5.4 Shared Lane Marking (Sharrow)</h4>
@@ -396,7 +396,7 @@ sidebar:
 ### Page 141 - Benefits
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0141.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0141.webp" alt="Complete Streets DG page 141 Benefits"></a><figcaption>Complete Streets DG, page 141.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0141.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0141.webp" alt="Complete Streets DG page 141 Benefits"></a><figcaption>Complete Streets DG, page 141.</figcaption></figure>
 <div class="dtext"><p>133</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Benefits</h4>
@@ -424,7 +424,7 @@ sidebar:
 ### Page 142 - Bicycle Corrals: Placement, Other Discussion and References
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, parking-curb, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0142.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0142.webp" alt="Complete Streets DG page 142 References (S-671)"></a><figcaption>Complete Streets DG, page 142.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0142.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0142.webp" alt="Complete Streets DG page 142 References (S-671)"></a><figcaption>Complete Streets DG, page 142.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Placement bullets:</h5>
 <p>1. Corrals can be located in a red curb zone as long as standard clearances are met. There should be at least a 25 foot clearance from a fire hydrant.</p>
 <p>2. Bicycle corrals should be located at least 30 feet from intersection departure and 50 feet from intersection approach.</p>
@@ -473,7 +473,7 @@ sidebar:
 ### Page 144 - Considerations
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0144.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0144.webp" alt="Complete Streets DG page 144 Considerations"></a><figcaption>Complete Streets DG, page 144.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0144.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0144.webp" alt="Complete Streets DG page 144 Considerations"></a><figcaption>Complete Streets DG, page 144.</figcaption></figure>
 <div class="dtext"><p>136</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <p>Peak-hour Bus Lanes allow buses to stay on schedule at hours when vehicle lanes tend to get congested..</p>
@@ -497,7 +497,7 @@ sidebar:
 ### Page 145 - Peak-Hour Bus Lane: Design Guidance, Additional Discussion and References
 
 <div class="pmeta">Drawings: <strong>S-487</strong> &middot; Topics: bikeways, transit, signals, parking-curb, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0145.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0145.webp" alt="Complete Streets DG page 145 Bicycle Enhancements (S-487)"></a><figcaption>Complete Streets DG, page 145.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0145.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0145.webp" alt="Complete Streets DG page 145 Bicycle Enhancements (S-487)"></a><figcaption>Complete Streets DG, page 145.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Design Guidance:</h5>
 <p>1. Peak-hour bus lanes should be installed with the appropriate parking signage and pavement markings (See City of Los Angeles&#x27; Department of Transportation standard plan S-487 for Exclusive Bus Lane Markings for further detail).</p>
 <p>2. At intersections, right turning movements by other motorists and bicyclists can be facilitated by marking dashed lines at the intersection approach. If buses traveling in the lane experience significant delays, right turns at select intersections may need to be prohibited.</p>
@@ -552,7 +552,7 @@ sidebar:
 ### Page 147 - 5.9 Median Bus Lane / Busway
 
 <div class="pmeta">Drawings: <strong>S-487</strong> &middot; Topics: crosswalks, transit, signals, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp" alt="Complete Streets DG page 147 5.9 Median Bus Lane / Busway (S-487)"></a><figcaption>Complete Streets DG, page 147.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp" alt="Complete Streets DG page 147 5.9 Median Bus Lane / Busway (S-487)"></a><figcaption>Complete Streets DG, page 147.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Introduction:</h5>
 <p>A median bus lane enhances transit service by providing a dedicated right-of-way for buses to run down the center of corridors. A median busway functions similarly to a median bus lane except that it provides a physical separation from vehicle traffic. For both of these facilities, passengers board and alight at station stops that are located on median boarding islands.</p>
 <h5>Benefits:</h5>
@@ -619,7 +619,7 @@ sidebar:
 ### Page 150 - 5.11 Median Bus Boarding Island
 
 <div class="pmeta">Topics: crosswalks, bikeways, transit</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0150.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0150.webp" alt="Complete Streets DG page 150 5.11 Median Bus Boarding Island"></a><figcaption>Complete Streets DG, page 150.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0150.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0150.webp" alt="Complete Streets DG page 150 5.11 Median Bus Boarding Island"></a><figcaption>Complete Streets DG, page 150.</figcaption></figure>
 <div class="dtext"><p>142</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>5.11 Median Bus Boarding Island</h4>
@@ -644,7 +644,7 @@ sidebar:
 ### Page 151 - Transit Enhancements
 
 <div class="pmeta">Topics: crosswalks, bikeways, transit, parking-curb, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0151.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0151.webp" alt="Complete Streets DG page 151 Transit Enhancements"></a><figcaption>Complete Streets DG, page 151.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0151.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0151.webp" alt="Complete Streets DG page 151 Transit Enhancements"></a><figcaption>Complete Streets DG, page 151.</figcaption></figure>
 <div class="dtext"><p>143</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Transit Enhancements</h4>
@@ -688,7 +688,7 @@ sidebar:
 ### Page 153 - Design Guidance
 
 <div class="pmeta">Topics: bikeways, transit, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0153.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0153.webp" alt="Complete Streets DG page 153 Design Guidance"></a><figcaption>Complete Streets DG, page 153.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0153.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0153.webp" alt="Complete Streets DG page 153 Design Guidance"></a><figcaption>Complete Streets DG, page 153.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>145 Complete Streets Design Guide  5. ROADWAYS Design Guidance •• The nature of the road diet depends on a street’s existing configuration, traffic operations, user needs, and safety concerns. For instance, a four-lane street (two travel lanes in each direction) could be modified to include one travel lane in each direction, a center turn lane, and bicycle lanes. References FHWA “Road Diet” - http://safety.fhwa.dot.gov/provencounter­ measures/fhwa_sa_12_013.pdf Transit Enhancements Before road diet After road diet: Images courtesy of NACTO Back to Table of Contents </p></details>
 
 
@@ -755,7 +755,7 @@ sidebar:
 ### Page 156 - 5.15 Chicane
 
 <div class="pmeta">Topics: bikeways, speed-calming</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0156.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0156.webp" alt="Complete Streets DG page 156 5.15 Chicane"></a><figcaption>Complete Streets DG, page 156.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0156.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0156.webp" alt="Complete Streets DG page 156 5.15 Chicane"></a><figcaption>Complete Streets DG, page 156.</figcaption></figure>
 <div class="dtext"><p>148</p>
 <p>5. ROADWAYS  Complete Streets Design Guide</p>
 <h4>5.15 Chicane</h4>
@@ -800,7 +800,7 @@ sidebar:
 ### Page 158 - 5.16 Landscaped Median
 
 <div class="pmeta">Topics: crosswalks, bikeways, parking-curb, speed-calming</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0158.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0158.webp" alt="Complete Streets DG page 158 5.16 Landscaped Median"></a><figcaption>Complete Streets DG, page 158.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0158.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0158.webp" alt="Complete Streets DG page 158 5.16 Landscaped Median"></a><figcaption>Complete Streets DG, page 158.</figcaption></figure>
 <div class="dtext"><p>150</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>5.16 Landscaped Median</h4>
@@ -981,14 +981,14 @@ sidebar:
 
 ### Page 165
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0165.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0165.webp" alt="Complete Streets DG page 165 "></a><figcaption>Complete Streets DG, page 165.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0165.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0165.webp" alt="Complete Streets DG page 165 "></a><figcaption>Complete Streets DG, page 165.</figcaption></figure>
 
 
 <span id="p166" class="anchor"></span>
 
 ### Page 166
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0166.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0166.webp" alt="Complete Streets DG page 166 "></a><figcaption>Complete Streets DG, page 166.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0166.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0166.webp" alt="Complete Streets DG page 166 "></a><figcaption>Complete Streets DG, page 166.</figcaption></figure>
 
 
 <span id="p167" class="anchor"></span>
@@ -996,10 +996,10 @@ sidebar:
 ### Page 167 - Complete Streets Design Guide: Chapter 6, Intersections and Crossings (Section Divider)
 
 <div class="pmeta">Topics: intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp" alt="Complete Streets DG page 167 "></a><figcaption>Complete Streets DG, page 167.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp" alt="Complete Streets DG page 167 "></a><figcaption>Complete Streets DG, page 167.</figcaption></figure>
 
 <span id="p168" class="anchor"></span>
 
 ### Page 168
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0168.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0168.webp" alt="Complete Streets DG page 168 "></a><figcaption>Complete Streets DG, page 168.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0168.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0168.webp" alt="Complete Streets DG page 168 "></a><figcaption>Complete Streets DG, page 168.</figcaption></figure>

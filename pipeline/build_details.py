@@ -106,10 +106,10 @@ for c in cfg:
                 notes_blk = ""
             sh_head = f'\n### Sheet {j} of {len(sheets)} (page {p["page"]})\n\n' if len(sheets) > 1 else "\n"
             sheet_html += (sh_head +
-                           (f'<figure class="dfig redraw"><a href="{red["svg"]}" target="_blank"><img loading="lazy" src="{red["svg"]}" alt="{esc(k)} sheet {j}, redrawn"></a>'
+                           (f'<figure class="dfig redraw"><a href="{red["svg"]}"><img loading="lazy" src="{red["svg"]}" alt="{esc(k)} sheet {j}, redrawn"></a>'
                             f'<figcaption>Redrawn reference diagram. Original LADOT sheet below.</figcaption></figure>'
                             f'<details class="orig"><summary>Original LADOT sheet</summary>' if red else "") +
-                           f'<figure class="dfig"><a href="{p["image"]}" target="_blank"><img loading="lazy" src="{p["image"]}" alt="{esc(k)} sheet {j}"></a>'
+                           f'<figure class="dfig"><a href="{p["image"]}"><img loading="lazy" src="{p["image"]}" alt="{esc(k)} sheet {j}"></a>'
                            f'<figcaption>{esc(c["short"])} {esc(k)}, sheet {j}. <a href="{p["url"]}">Open in the document</a>.</figcaption></figure>\n'
                            f'{"</details>" if red else ""}' + notes_blk)
         sign_html = "".join(f'<a class="tsign sref" href="{BASE}/signs/{signs[x]["slug"]}/" data-svg="{BASE}{signs[x]["svg"]}"><img loading="lazy" src="{BASE}{signs[x]["svg"]}" alt="{esc(x)}"><span><b>{esc(x)}</b> {esc(signs[x]["descriptor"][:40])}</span></a>' for x in codes if x in signs)
@@ -126,7 +126,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">{esc(k)}</span><span class="dwg-src">{esc(c["title"])} &middot; {esc(c["edition"])}</span></div>
 <div class="dwg-facts"><span><b>{len(sheets)}</b> {sheet_word}</span>{f'<span>Dated <b>{esc(meta["date"])}</b></span>' if meta.get("date") else ""}<span>{page_word} {", ".join(str(p["page"]) for p in sheets)}</span></div></div>
 
-<div class="dwg-nav">{prev_l} <a href="{BASE}/details/?src={esc(c["short"])}">All {esc(c["short"])} drawings</a> {next_l}</div>
 
 {('<p>Referenced MUTCD sections: ' + sec_html + '</p>') if sec_html else ''}
 {('<h2>Signs on this drawing</h2><div class="tsigns">' + sign_html + '</div>') if sign_html else ''}

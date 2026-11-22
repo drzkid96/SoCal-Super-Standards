@@ -311,7 +311,7 @@ sidebar:
 
 ### Page 36 - Bi-Directional Service Road
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0036.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0036.webp" alt="Complete Streets DG page 36 Bi-Directional Service Road"></a><figcaption>Complete Streets DG, page 36.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0036.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0036.webp" alt="Complete Streets DG page 36 Bi-Directional Service Road"></a><figcaption>Complete Streets DG, page 36.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>28 2. STREET CLASSIFICATIONS Complete Streets Design Guide Bi-Directional Service Road Right-of-way width: 33-41’ Roadway width: 20-28’ Curb separation from arterial street: 3’ 33’- 41’ 20’-28’ 10’ 3’ Arterial Street Back to Table of Contents </p></details>
 
 
@@ -366,25 +366,25 @@ sidebar:
 
 ### Page 39
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0039.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0039.webp" alt="Complete Streets DG page 39 "></a><figcaption>Complete Streets DG, page 39.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0039.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0039.webp" alt="Complete Streets DG page 39 "></a><figcaption>Complete Streets DG, page 39.</figcaption></figure>
 
 
 <span id="p40" class="anchor"></span>
 
 ### Page 40
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0040.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0040.webp" alt="Complete Streets DG page 40 "></a><figcaption>Complete Streets DG, page 40.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0040.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0040.webp" alt="Complete Streets DG page 40 "></a><figcaption>Complete Streets DG, page 40.</figcaption></figure>
 
 
 <span id="p41" class="anchor"></span>
 
 ### Page 41 - Complete Streets Design Guide: Complete Street Diagrams (Section Divider)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0041.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0041.webp" alt="Complete Streets DG page 41 "></a><figcaption>Complete Streets DG, page 41.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0041.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0041.webp" alt="Complete Streets DG page 41 "></a><figcaption>Complete Streets DG, page 41.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Section divider text: Complete Streets Design Guide, Complete Street Diagrams (Chapter 3).</p></details>
 
 <span id="p42" class="anchor"></span>
 
 ### Page 42
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0042.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0042.webp" alt="Complete Streets DG page 42 "></a><figcaption>Complete Streets DG, page 42.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0042.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0042.webp" alt="Complete Streets DG page 42 "></a><figcaption>Complete Streets DG, page 42.</figcaption></figure>

@@ -100,7 +100,7 @@ for rec in D:
 <div class="ltc-head"><b>Detail {esc(k)}</b><span class="lt-chip {rec["color"].lower()}">{esc(rec["color"])}</span><span class="ltc-fn">{esc(rec["fn"])}</span><span class="ltc-sub">{esc(rec["sub"])}</span></div>
 <div class="ltc-pic">{f'<img loading="lazy" src="{pic}" alt="Standardized drawing of Caltrans Detail {esc(k)}">' if pic else (f'<img loading="lazy" class="src" src="{crop}" alt="CA MUTCD source drawing, Detail {esc(k)}">' if crop else '')}</div>
 <dl class="ltc-attr"><div><dt>Type</dt><dd>{esc(rec["type"])}</dd></div><div><dt>Line / gap</dt><dd>{esc(pattern)}</dd></div>{f'<div><dt>Spacing</dt><dd>{esc(rec["spacing"])}</dd></div>' if rec.get("spacing") else ''}<div><dt>Markers</dt><dd>{esc(rec["markers"])}</dd></div><div><dt>Speed</dt><dd>{esc(rec["speed"])}</dd></div><div><dt>Source</dt><dd><a href="{furl}">CA MUTCD Fig. {esc(rec["fig"])}</a></dd></div><div><dt>Plan sheet</dt><dd>{(f'<a href="{rec2["plan_url"]}">' + esc(rec2["plan_sheet"]) + '</a>') if rec2.get("plan_url") else esc(rec2["plan_sheet"])}</dd></div></dl>
-{f'<p class="lt-pol">Policy: {esc(use[:300])}</p>' if use else ''}{f'<details class="ltc-src"><summary>Source drawing from CA MUTCD 2026</summary><a href="{crop}" target="_blank"><img loading="lazy" src="{crop}" alt=""></a></details>' if crop and pic else ''}
+{f'<p class="lt-pol">Policy: {esc(use[:300])}</p>' if use else ''}{f'<details class="ltc-src"><summary>Source drawing from CA MUTCD 2026</summary><a href="{crop}"><img loading="lazy" src="{crop}" alt=""></a></details>' if crop and pic else ''}
 </div>''')
 json.dump(data, open("public/data/linetypes.json", "w"), indent=1)
 

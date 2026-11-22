@@ -71,7 +71,7 @@ sidebar:
 ### Page 134 - Channelized Right Turns
 
 <div class="pmeta">Drawings: <strong>S-494.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> &middot; Topics: signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0134.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0134.webp" alt="MPP 531 page 134 S-494.0 Channelized Right Turns"></a><figcaption>MPP 531, page 134.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0134.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0134.webp" alt="MPP 531 page 134 S-494.0 Channelized Right Turns"></a><figcaption>MPP 531, page 134.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>CASE 1: STOP SIGN CONTROL. Note: Use Stop sign operation where the curb return radius is less than 20 feet (10 miles per hour design speed), pedestrian traffic across the channelized right turn is high, cross-traffic visibility is restricted, or where the use of a Yield sign has been shown to be inadequate.</p>
 <p>CASE 2: YIELD SIGN CONTROL. Note: Use Yield sign operation where the curb return radius is 20 feet (10 miles per hour design speed) or greater and pedestrian traffic across the channelized right turn is low.</p>
 <p>Callouts: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> (stop sign), <a class="sref" href="/SoCal-Super-Standards/signs/r1-2/" data-svg="/SoCal-Super-Standards/signs/R1-2.svg">R1-2</a> (yield sign), 2&#x27; white or yellow, 5&#x27; center to center (C-C), Radius.</p></details>
@@ -81,7 +81,7 @@ sidebar:
 ### Page 135 - Channelized Right Turns (Sheet 2 of 5): Case 3, Yield Sign Control
 
 <div class="pmeta">Drawings: <strong>S-494.0</strong> &middot; Topics: crosswalks, parking-curb, striping, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0135.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0135.webp" alt="MPP 531 page 135 S-494.0 Channelized Right Turns"></a><figcaption>MPP 531, page 135.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0135.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0135.webp" alt="MPP 531 page 135 S-494.0 Channelized Right Turns"></a><figcaption>MPP 531, page 135.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Notes</p>
 <p>1. Use Yield sign operation where the available distance &quot;x&quot; for acceleration and merging is less than &quot;D&quot;, as determined by the tables in Case 4.</p>
 <p>2. Installation of the Yield limit line is optional.</p>
@@ -92,7 +92,7 @@ sidebar:
 ### Page 136 - Channelized Right Turns (Sheet 3 of 5): Case 4, Merge Operation
 
 <div class="pmeta">Drawings: <strong>S-494.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> <a class="sref" href="/SoCal-Super-Standards/signs/w4-1/" data-svg="/SoCal-Super-Standards/signs/W4-1.svg">W4-1</a> &middot; Topics: crosswalks, signals, parking-curb, striping, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0136.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0136.webp" alt="MPP 531 page 136 S-494.0 Channelized Right Turns"></a><figcaption>MPP 531, page 136.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0136.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0136.webp" alt="MPP 531 page 136 S-494.0 Channelized Right Turns"></a><figcaption>MPP 531, page 136.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Case 4: Merge Operation</p>
 <p>D = Minimum distance necessary for accelerating and merging.</p>
 <p>D1 = Minimum distance necessary for accelerating from point x at the initial speed, S1, to point y at the speed limit, S2. See Tables 1 &amp; 2. Consideration should be given to using a design speed greater than the speed limit where higher speeds are known to occur.</p>
@@ -109,7 +109,7 @@ sidebar:
 ### Page 137 - Channelized Right Turns (Sheet 4 of 5): Tables 1, 2 and 3 for S1, D1 and D2
 
 <div class="pmeta">Drawings: <strong>S-494.0</strong> &middot; Topics: striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0137.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0137.webp" alt="MPP 531 page 137 S-494.0 Channelized Right Turns"></a><figcaption>MPP 531, page 137.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0137.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0137.webp" alt="MPP 531 page 137 S-494.0 Channelized Right Turns"></a><figcaption>MPP 531, page 137.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Table 2 acceleration rate: a = 3 ft/sec2.</p>
 <p>For determining D2, use the posted speed limit plus 5 mph (35 mph speed limit + 5 mph = 40 mph for S2). Where the 85% speed (critical speed) in the vicinity of the taper is determined to be equal or less than the posted speed, use the speed limit for S2.</p></details>
 
@@ -118,7 +118,7 @@ sidebar:
 ### Page 138 - Channelized Right Turns (Sheet 5 of 5): Case 5, Added Lane Operation
 
 <div class="pmeta">Drawings: <strong>S-494.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> <a class="sref" href="/SoCal-Super-Standards/signs/w4-3/" data-svg="/SoCal-Super-Standards/signs/W4-3.svg">W4-3</a> &middot; Topics: crosswalks, signals, parking-curb, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0138.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0138.webp" alt="MPP 531 page 138 S-494.0 Channelized Right Turns"></a><figcaption>MPP 531, page 138.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0138.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0138.webp" alt="MPP 531 page 138 S-494.0 Channelized Right Turns"></a><figcaption>MPP 531, page 138.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Case 5: Added Lane Operation</p>
 <p>Notes</p>
 <p>1) Use Added Lane operation where the receiving lane is available all day and equals or exceeds 1/2 mile in length.</p>
@@ -131,7 +131,7 @@ sidebar:
 ### Page 139 - Channelized Right Turns with Raised Crosswalks
 
 <div class="pmeta">Drawings: <strong>S-494.1</strong>, <strong>S-481.1</strong>, <strong>S-483.1</strong>, <strong>S-494.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> R1-5L R1-5R <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> W17-1bP &middot; Topics: crosswalks, speed-calming, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0139.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0139.webp" alt="MPP 531 page 139 S-494.1 Channelized Right Turns with Raised Crosswalks"></a><figcaption>MPP 531, page 139.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0139.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0139.webp" alt="MPP 531 page 139 S-494.1 Channelized Right Turns with Raised Crosswalks"></a><figcaption>MPP 531, page 139.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Callouts (no numbered notes on this sheet): 1. Marked pedestrian crosswalk, typ., see detail S-481.1. 2. Raised crosswalk, see S-483.1. 3. Raised crosswalk marking (Chevron III), see S-483.1. 4. 2&#x27; white or yellow, 5&#x27; center to center (C-C). 5. 12&quot; stop line. 6. <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a>, see S-494.0. 7. Departure ramp, see Note 4. 8. Approach ramp, see Note 4. 9. 10&#x27; minimum (10&#x27; MIN.) approach ramp and departure ramp dimensions. 10. 20&#x27; minimum (20&#x27; MIN.) dimension. 11. R1-5R, W17-1bP. 12. R1-5L, W17-1bP. 13. White edge line. 14. Yield line. 15. Raised crosswalk ahead assembly. Sign labels: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>, RAISED CROSSWALK AHEAD, R1-5L, R1-5R, W17-1bP (RAISED CROSSWALK). Note 4 is referenced but printed on sheet 2 of 2 (S-494.1).</p></details>
 
 <span id="p140" class="anchor"></span>
@@ -139,7 +139,7 @@ sidebar:
 ### Page 140 - Channelized Right Turns with Raised Crosswalks
 
 <div class="pmeta">Drawings: <strong>S-494.1</strong>, <strong>S-481.1</strong>, <strong>S-483.1</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> R1-5L R1-5R W17-1bP &middot; Topics: crosswalks, bikeways, parking-curb, speed-calming, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0140.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0140.webp" alt="MPP 531 page 140 S-494.1 Channelized Right Turns with Raised Crosswalks"></a><figcaption>MPP 531, page 140.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0140.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0140.webp" alt="MPP 531 page 140 S-494.1 Channelized Right Turns with Raised Crosswalks"></a><figcaption>MPP 531, page 140.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Callouts: Marked bike lane. Bike symbol, see notes. White edge lines, typ. Pedestrian crossing. Green colored surface recommended, see Note 2. R1-5R MOD, W17-1bP. R1-5L MOD, W17-1bP. Grass buffer. Bike lane. Sidewalk. 10&#x27; minimum (MIN) approach and departure ramps, see Note 4. 20&#x27; minimum (20&#x27; MIN). Marked pedestrian crosswalk, typ., see S-481.1. 12&quot; stop line. <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a>. Departure ramp, see Note 4. 2&#x27; white or yellow, 5&#x27; center to center (C-C). 2&#x27; green colored bicycle crossing, 5&#x27; C-C. Raised crosswalk marking (Chevron III), see S-483.1. Approach ramp, see Note 4. Bike lane symbol, typ. Raised crosswalk ahead assembly.</p>
 <h5>NOTES:</h5>
 <p>1. Bike lane symbols are recommended to clarify the intended operation of the bike lane space.</p>
@@ -152,7 +152,7 @@ sidebar:
 ### Page 141 - Restricted Sight Distance Criteria for Protected Left-Turn Phasing (Sheet 1 of 7)
 
 <div class="pmeta">Drawings: <strong>S-497.0</strong> &middot; Topics: signals, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0141.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0141.webp" alt="MPP 531 page 141 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 141.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0141.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0141.webp" alt="MPP 531 page 141 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 141.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. This standard plan supplements Table 1 of Section 521, pertaining to restricted sight distance which justifies protected left-turn phasing at signalized intersections.</p>
 <p>2. Motorists require both an acceptable gap in opposing traffic and sufficient sight distance in order to execute permissive left turns. Studies have shown that the value of an acceptable gap is equal to (5.0 + 0.5 n) seconds of travel time, where &quot;n&quot; is the number of opposing through lanes. Sufficient sight distance is the distance associated with an acceptable gap, or the gap time multiplied by the design speed. The design speed for opposing through traffic is five miles per hour above the posted or prima facie speed limit. However, where there is restrictive horizontal or vertical alignment the design speed is five miles per hour above the posted advisory speed. See Table 1.</p>
@@ -165,7 +165,7 @@ sidebar:
 ### Page 142 - Restricted Sight Distance Criteria for Protected Left-Turn Phasing (Sheet 2 of 7): Figure 1, Left Horizontal Curvature
 
 <div class="pmeta">Drawings: <strong>S-497.0</strong> &middot; Topics: signals</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0142.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0142.webp" alt="MPP 531 page 142 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 142.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0142.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0142.webp" alt="MPP 531 page 142 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 142.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Figure 1: Example of Restricted Sight Distance Due To Left Horizontal Curvature. See Table A for 5.5 sec. See Table A for 6.0 sec. Parked Vehicles. Protected left turn phasing is required if any minimum sight distance is not met and left turns are allowed.</p></details>
 
 <span id="p143" class="anchor"></span>
@@ -173,7 +173,7 @@ sidebar:
 ### Page 143 - Restricted Sight Distance Criteria for Protected Left-Turn Phasing
 
 <div class="pmeta">Drawings: <strong>S-497.0</strong> &middot; Topics: signals</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0143.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0143.webp" alt="MPP 531 page 143 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 143.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0143.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0143.webp" alt="MPP 531 page 143 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 143.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. See Table A for (5.0 + 0.5n) seconds (sec), where n = number of opposing through (thru) lanes.</p>
 <p>2. Protected left turn phasing is required if any minimum sight distance is not met and left turns are allowed.</p>
 <p>Figure labels: Left-turn motorist, height of eye 3.5 feet. Thru motorist, height of vehicle 4.25 feet.</p>
@@ -184,7 +184,7 @@ sidebar:
 ### Page 144 - Restricted Sight Distance Criteria for Protected Left-Turn Phasing
 
 <div class="pmeta">Drawings: <strong>S-497.0</strong> &middot; Topics: signals</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0144.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0144.webp" alt="MPP 531 page 144 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 144.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0144.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0144.webp" alt="MPP 531 page 144 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 144.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. See Table A for 6.0 sec.</p>
 <p>2. See Table A for 5.5 sec.</p>
 <p>3. Protected left turn phasing is required if any minimum sight distance along Line A is not met and left turns are allowed. See Figure 6 and examine Line B distances if the obstruction distance is relatively short.</p>
@@ -196,7 +196,7 @@ sidebar:
 ### Page 145 - Restricted Sight Distance Criteria for Protected Left-Turn Phasing
 
 <div class="pmeta">Drawings: <strong>S-497.0</strong> &middot; Topics: signals, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0145.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0145.webp" alt="MPP 531 page 145 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 145.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0145.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0145.webp" alt="MPP 531 page 145 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 145.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Generally less than (&lt;) 2 vehicles per cycle (figure label at the queued left-turn car).</p>
 <p>2. Cross street: generally less than 10,000 average daily traffic (ADT) (figure label).</p>
 <p>3. This figure is for general use on arterial highways with negatively offset left turn lanes at intersections with lower volume cross streets and/or low volume left turns from the arterial streets. In these situations the queuing from the opposing left turns will be short or infrequent and will usually clear during the cycle, thus resulting in a period of unrestricted sight distance for permissive left turns.</p>
@@ -208,7 +208,7 @@ sidebar:
 ### Page 146 - Restricted Sight Distance Criteria for Protected Left-Turn Phasing
 
 <div class="pmeta">Drawings: <strong>S-497.0</strong> &middot; Topics: signals, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0146.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0146.webp" alt="MPP 531 page 146 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 146.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0146.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0146.webp" alt="MPP 531 page 146 S-497.0 Restricted Sight Distance Criteria for Protected Left-Turn Phasing"></a><figcaption>MPP 531, page 146.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. See Table A for 6.0 sec.</p>
 <p>2. See Table A for 5.5 sec.</p>
 <p>3. Turning path for 10&#x27; separation.</p>

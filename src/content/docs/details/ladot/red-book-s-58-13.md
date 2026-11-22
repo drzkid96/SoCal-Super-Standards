@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-58.13</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 116, 117</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-57-3/">&larr; S-57.3</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-14/">S-58.14 &rarr;</a></div>
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/r3-1/" data-svg="/SoCal-Super-Standards/signs/R3-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-1.svg" alt="R3-1"><span><b>R3-1</b> Movement Prohibition - No Right Turn reg</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r3-2/" data-svg="/SoCal-Super-Standards/signs/R3-2.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-2.svg" alt="R3-2"><span><b>R3-2</b> Movement Prohibition - No Left Turn regu</span></a></div>
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 116)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0116.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0116.webp" alt="S-58.13 sheet 1"></a><figcaption>Red Book S-58.13, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p116">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0116.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0116.webp" alt="S-58.13 sheet 1"></a><figcaption>Red Book S-58.13, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p116">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. Sign shall be capable of displaying the following messages: <a class="sref" href="/SoCal-Super-Standards/signs/r3-1/" data-svg="/SoCal-Super-Standards/signs/R3-1.svg">R3-1</a> (No Right Turn symbol), <a class="sref" href="/SoCal-Super-Standards/signs/r3-2/" data-svg="/SoCal-Super-Standards/signs/R3-2.svg">R3-2</a> (No Left Turn symbol). Message colors: Red - circle and diagonal, width of circle and diagonal - 1.5&quot; stroke - 3 pixel. Lunar white - left arrow or right arrow, width of arrow - 2&quot; stroke - 4 pixel.</p>
 <p>2. The &quot;NO LEFT TURN&quot; and &quot;NO RIGHT TURN&quot; symbols shall be formed by rows of fiber optic bundles spaced 0.50 inch (center to center).</p>
@@ -29,7 +28,7 @@ tableOfContents: false
 
 ### Sheet 2 of 2 (page 117)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0117.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0117.webp" alt="S-58.13 sheet 2"></a><figcaption>Red Book S-58.13, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p117">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0117.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0117.webp" alt="S-58.13 sheet 2"></a><figcaption>Red Book S-58.13, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p117">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Sign face (SIGN FACE), not to scale. Standard sign is 24&quot; by 24&quot;. Pedestrian head sign is 16.25&quot; wide by 14.5&quot; high.</p>
 <p>2. Visor enclosure (VISOR ENCLOSURE), not to scale. 24&quot; wide, 24&quot; tall, 6&quot; deep sides, 2&quot; radius (Rad.) corners.</p>
 <p>3. No Left &amp; No Right Turn Electric Sign. City of Los Angeles Department of Transportation. Drawing No. S-58.13, sheet 2 of 2. There are no numbered notes on this sheet.</p></details>

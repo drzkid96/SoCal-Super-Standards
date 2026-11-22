@@ -149,7 +149,7 @@ sidebar:
 ### Page 175 - 6.4 Raised Crosswalk
 
 <div class="pmeta">Topics: crosswalks, transit, signals, speed-calming, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0175.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0175.webp" alt="Complete Streets DG page 175 6.4 Raised Crosswalk"></a><figcaption>Complete Streets DG, page 175.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0175.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0175.webp" alt="Complete Streets DG page 175 6.4 Raised Crosswalk"></a><figcaption>Complete Streets DG, page 175.</figcaption></figure>
 <div class="dtext"><p>167</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.4 Raised Crosswalk</h4>
@@ -173,7 +173,7 @@ sidebar:
 ### Page 176 - Considerations
 
 <div class="pmeta">Topics: crosswalks, transit, parking-curb, speed-calming, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0176.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0176.webp" alt="Complete Streets DG page 176 Considerations"></a><figcaption>Complete Streets DG, page 176.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0176.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0176.webp" alt="Complete Streets DG page 176 Considerations"></a><figcaption>Complete Streets DG, page 176.</figcaption></figure>
 <div class="dtext"><p>168</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>Considerations</h4>
@@ -228,7 +228,7 @@ sidebar:
 ### Page 178 - Design Guidance
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb, striping, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0178.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0178.webp" alt="Complete Streets DG page 178 Design Guidance"></a><figcaption>Complete Streets DG, page 178.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0178.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0178.webp" alt="Complete Streets DG page 178 Design Guidance"></a><figcaption>Complete Streets DG, page 178.</figcaption></figure>
 <div class="dtext"><p>170</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>Design Guidance</h4>
@@ -395,7 +395,7 @@ sidebar:
 ### Page 185 - Considerations
 
 <div class="pmeta">Topics: crosswalks, signs, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0185.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0185.webp" alt="Complete Streets DG page 185 Considerations"></a><figcaption>Complete Streets DG, page 185.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0185.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0185.webp" alt="Complete Streets DG page 185 Considerations"></a><figcaption>Complete Streets DG, page 185.</figcaption></figure>
 <div class="dtext"><p>177</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <p>•• Crossing refuge islands should be considered where crossing distances are greater than 50’.</p>
@@ -510,7 +510,7 @@ sidebar:
 ### Page 190 - Physical Enhancements - Bicycle
 
 <div class="pmeta">Topics: bikeways, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0190.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0190.webp" alt="Complete Streets DG page 190 Physical Enhancements - Bicycle"></a><figcaption>Complete Streets DG, page 190.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0190.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0190.webp" alt="Complete Streets DG page 190 Physical Enhancements - Bicycle"></a><figcaption>Complete Streets DG, page 190.</figcaption></figure>
 <div class="dtext"><p>182</p>
 <p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Physical Enhancements - Bicycle</h4>
@@ -531,7 +531,7 @@ sidebar:
 ### Page 191 - 6.11 Bicycle Pavement Markings through an Intersection
 
 <div class="pmeta">Topics: bikeways, signals, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0191.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0191.webp" alt="Complete Streets DG page 191 6.11 Bicycle Pavement Markings through an Intersection"></a><figcaption>Complete Streets DG, page 191.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0191.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0191.webp" alt="Complete Streets DG page 191 6.11 Bicycle Pavement Markings through an Intersection"></a><figcaption>Complete Streets DG, page 191.</figcaption></figure>
 <div class="dtext"><p>183</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.11 Bicycle Pavement Markings through an Intersection</h4>
@@ -557,7 +557,7 @@ sidebar:
 ### Page 192 - Design Guidance
 
 <div class="pmeta">Topics: bikeways, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0192.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0192.webp" alt="Complete Streets DG page 192 Design Guidance"></a><figcaption>Complete Streets DG, page 192.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0192.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0192.webp" alt="Complete Streets DG page 192 Design Guidance"></a><figcaption>Complete Streets DG, page 192.</figcaption></figure>
 <div class="dtext"><p>184</p>
 <p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Design Guidance</h4>
@@ -625,7 +625,7 @@ sidebar:
 ### Page 195 - Benefits
 
 <div class="pmeta">Topics: crosswalks, bikeways, signals, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0195.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0195.webp" alt="Complete Streets DG page 195 Benefits"></a><figcaption>Complete Streets DG, page 195.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0195.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0195.webp" alt="Complete Streets DG page 195 Benefits"></a><figcaption>Complete Streets DG, page 195.</figcaption></figure>
 <div class="dtext"><p>187</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Benefits</h4>
@@ -705,7 +705,7 @@ sidebar:
 ### Page 198 - 6.15 Diverter
 
 <div class="pmeta">Topics: bikeways, speed-calming, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0198.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0198.webp" alt="Complete Streets DG page 198 6.15 Diverter"></a><figcaption>Complete Streets DG, page 198.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0198.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0198.webp" alt="Complete Streets DG page 198 6.15 Diverter"></a><figcaption>Complete Streets DG, page 198.</figcaption></figure>
 <div class="dtext"><p>190</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <p>Diverters increase accessibility of local streets for bicyclists.</p>
@@ -876,7 +876,7 @@ sidebar:
 ### Page 205 - References
 
 <div class="pmeta">Topics: crosswalks, signals, speed-calming, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0205.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0205.webp" alt="Complete Streets DG page 205 References"></a><figcaption>Complete Streets DG, page 205.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0205.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0205.webp" alt="Complete Streets DG page 205 References"></a><figcaption>Complete Streets DG, page 205.</figcaption></figure>
 <div class="dtext"><p>197</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <p>•• Clear sight lines between crosswalks and approaching traffic should be provided.</p>
@@ -895,7 +895,7 @@ sidebar:
 ### Page 206 - Applications
 
 <div class="pmeta">Topics: crosswalks, transit, signals, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0206.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0206.webp" alt="Complete Streets DG page 206 Applications"></a><figcaption>Complete Streets DG, page 206.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0206.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0206.webp" alt="Complete Streets DG page 206 Applications"></a><figcaption>Complete Streets DG, page 206.</figcaption></figure>
 <div class="dtext"><p>198</p>
 <p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Applications</h4>
@@ -1312,17 +1312,17 @@ sidebar:
 
 ### Page 224
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0224.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0224.webp" alt="Complete Streets DG page 224 "></a><figcaption>Complete Streets DG, page 224.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0224.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0224.webp" alt="Complete Streets DG page 224 "></a><figcaption>Complete Streets DG, page 224.</figcaption></figure>
 
 
 <span id="p225" class="anchor"></span>
 
 ### Page 225 - Complete Streets Design Guide: Chapter 7, Off-Street Non-Vehicular Treatments and Strategies (Section Divider)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0225.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0225.webp" alt="Complete Streets DG page 225 "></a><figcaption>Complete Streets DG, page 225.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0225.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0225.webp" alt="Complete Streets DG page 225 "></a><figcaption>Complete Streets DG, page 225.</figcaption></figure>
 
 <span id="p226" class="anchor"></span>
 
 ### Page 226
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0226.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0226.webp" alt="Complete Streets DG page 226 "></a><figcaption>Complete Streets DG, page 226.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0226.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0226.webp" alt="Complete Streets DG page 226 "></a><figcaption>Complete Streets DG, page 226.</figcaption></figure>

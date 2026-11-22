@@ -200,7 +200,7 @@ sidebar:
 ### Page 74 - Considerations and Guidance
 
 <div class="pmeta">Topics: transit, parking-curb, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0074.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0074.webp" alt="Complete Streets DG page 74 Considerations and Guidance"></a><figcaption>Complete Streets DG, page 74.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0074.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0074.webp" alt="Complete Streets DG page 74 Considerations and Guidance"></a><figcaption>Complete Streets DG, page 74.</figcaption></figure>
 <div class="dtext"><p>66</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• The placement of seating fixtures must be balanced with other sidewalk elements and functions. Seating should be integrated with the placement of other street furniture (e.g., pedestrian lighting and trash receptacles).</p>
@@ -278,7 +278,7 @@ sidebar:
 
 ### Page 78 - Other Discussion
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0078.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0078.webp" alt="Complete Streets DG page 78 Other Discussion"></a><figcaption>Complete Streets DG, page 78.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0078.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0078.webp" alt="Complete Streets DG page 78 Other Discussion"></a><figcaption>Complete Streets DG, page 78.</figcaption></figure>
 <div class="dtext"><p>70</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <h4>Other Discussion</h4>
@@ -363,7 +363,7 @@ sidebar:
 
 ### Page 82 - Considerations
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0082.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0082.webp" alt="Complete Streets DG page 82 Considerations"></a><figcaption>Complete Streets DG, page 82.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0082.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0082.webp" alt="Complete Streets DG page 82 Considerations"></a><figcaption>Complete Streets DG, page 82.</figcaption></figure>
 <div class="dtext"><p>74</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• Landscaping and trees can also be planted in the frontage zone where there is sufficient width; trees should only be placed in the frontage zone when they are spaced appropriately far enough away from buildings. (In residential settings, there is typically no frontage zone between the pedestrian walkway and the property line; the property line abuts the sidewalk.) In addition, trees and landscaping should be an integral part of sidewalk curb extensions in the flex zone.</p>
@@ -414,7 +414,7 @@ sidebar:
 ### Page 84
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0084.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0084.webp" alt="Complete Streets DG page 84 "></a><figcaption>Complete Streets DG, page 84.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0084.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0084.webp" alt="Complete Streets DG page 84 "></a><figcaption>Complete Streets DG, page 84.</figcaption></figure>
 <div class="dtext"><p>76</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• In commercial areas where the visibility of façade- mounted signs is a concern, choose species whose mature canopy allows for visibility.</p>
@@ -435,7 +435,7 @@ sidebar:
 ### Page 85 - Sidewalk Area: Street Tree Guidance and References
 
 <div class="pmeta">Drawings: <strong>S-450</strong>, <strong>S-456</strong> &middot; Topics: parking-curb, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp" alt="Complete Streets DG page 85 References (S-450, S-456)"></a><figcaption>Complete Streets DG, page 85.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp" alt="Complete Streets DG page 85 References (S-450, S-456)"></a><figcaption>Complete Streets DG, page 85.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Guidance bullets (left column):</h5>
 <p>1. Mature height: no limits or maximums, but should be appropriate and complement roadway scale, use and land uses.</p>
 <p>2. Spacing from other elements: Trees with a mature canopy diameter of 30 feet or less may be 20 feet from street lights. Trees may be 10 feet from pedestrian lights if their canopies are pruned up 2 feet above the lights. Trees may be 10 feet from utility poles if canopies are pruned to allow access on the poles. In certain locations, smaller clearances may provide greater flexibility in tree spacing and allow for a more complete tree canopy. These clearances may be used with Urban Forestry Department (UFD) approval.</p>
@@ -521,7 +521,7 @@ sidebar:
 ### Page 89 - Common Treatments in the Public Right-of-Way
 
 <div class="pmeta">Topics: parking-curb, speed-calming</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0089.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0089.webp" alt="Complete Streets DG page 89 Common Treatments in the Public Right-of-Way"></a><figcaption>Complete Streets DG, page 89.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0089.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0089.webp" alt="Complete Streets DG page 89 Common Treatments in the Public Right-of-Way"></a><figcaption>Complete Streets DG, page 89.</figcaption></figure>
 <div class="dtext"><p>81</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>can be either paved, planted with low growing drought tolerant turf substitutes, or drought tolerant turf. In all cases, the convenience strip shall form a commonly accepted walking surface, and its finished surface and/ or grade shall be flush with the top of curb.</p>
@@ -707,7 +707,7 @@ sidebar:
 ### Page 97 - Bicycle Racks: Rack Characteristics, Policy and Amenity Zone Placement
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, parking-curb, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp" alt="Complete Streets DG page 97 Location and Placement of Bicycle Racks (S-671)"></a><figcaption>Complete Streets DG, page 97.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp" alt="Complete Streets DG page 97 Location and Placement of Bicycle Racks (S-671)"></a><figcaption>Complete Streets DG, page 97.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Left column:</h5>
 <p>(Continuation of the rack characteristics list from the previous page; each item is introduced by an earlier lead-in not on this sheet.)</p>
 <p>- Have mounting hardware that can be unscrewed with common tools.</p>
@@ -726,7 +726,7 @@ sidebar:
 ### Page 98 - Bicycle Racks: Frontage Zone, Flex Zone, Other Discussion and References
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, transit, parking-curb, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp" alt="Complete Streets DG page 98 Other Discussion (S-671)"></a><figcaption>Complete Streets DG, page 98.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp" alt="Complete Streets DG page 98 Other Discussion (S-671)"></a><figcaption>Complete Streets DG, page 98.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Left column (continues Amenity Zone):</h5>
 <p>1. A bicycle rack should not be installed in a bus stop zone, taxi zone or loading zone. A rack should not be installed near a fire hydrant or near handicap-accessible parking.</p>
 <h5>Frontage Zone:</h5>
@@ -750,7 +750,7 @@ sidebar:
 ### Page 99 - Benefits
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0099.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0099.webp" alt="Complete Streets DG page 99 Benefits"></a><figcaption>Complete Streets DG, page 99.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0099.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0099.webp" alt="Complete Streets DG page 99 Benefits"></a><figcaption>Complete Streets DG, page 99.</figcaption></figure>
 <div class="dtext"><p>91</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Benefits</h4>
@@ -773,7 +773,7 @@ sidebar:
 ### Page 100 - Considerations
 
 <div class="pmeta">Topics: bikeways, transit, parking-curb, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0100.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0100.webp" alt="Complete Streets DG page 100 Considerations"></a><figcaption>Complete Streets DG, page 100.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0100.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0100.webp" alt="Complete Streets DG page 100 Considerations"></a><figcaption>Complete Streets DG, page 100.</figcaption></figure>
 <div class="dtext"><p>92</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <h4>Considerations</h4>
@@ -882,7 +882,7 @@ sidebar:
 ### Page 105 - Benefits
 
 <div class="pmeta">Topics: crosswalks, bikeways, transit, signs, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0105.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0105.webp" alt="Complete Streets DG page 105 Benefits"></a><figcaption>Complete Streets DG, page 105.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0105.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0105.webp" alt="Complete Streets DG page 105 Benefits"></a><figcaption>Complete Streets DG, page 105.</figcaption></figure>
 <div class="dtext"><p>97</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Benefits</h4>
@@ -924,7 +924,7 @@ sidebar:
 ### Page 107
 
 <div class="pmeta">Topics: transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0107.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0107.webp" alt="Complete Streets DG page 107 "></a><figcaption>Complete Streets DG, page 107.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0107.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0107.webp" alt="Complete Streets DG page 107 "></a><figcaption>Complete Streets DG, page 107.</figcaption></figure>
 <div class="dtext"><p>99</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>be located below the tree canopy, pedestrian-scale lighting offers increased safety and more-uniform illumination along a pathway. In this way the tree canopy can be retained without sacrificing accessibility and safety.</p>
@@ -1053,7 +1053,7 @@ sidebar:
 ### Page 113 - Guidance
 
 <div class="pmeta">Topics: bikeways, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0113.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0113.webp" alt="Complete Streets DG page 113 Guidance"></a><figcaption>Complete Streets DG, page 113.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0113.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0113.webp" alt="Complete Streets DG page 113 Guidance"></a><figcaption>Complete Streets DG, page 113.</figcaption></figure>
 <div class="dtext"><p>105</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Guidance</h4>
@@ -1095,7 +1095,7 @@ sidebar:
 ### Page 115 - 4.16 Bus Stop Location
 
 <div class="pmeta">Topics: crosswalks, transit, signals, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0115.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0115.webp" alt="Complete Streets DG page 115 4.16 Bus Stop Location"></a><figcaption>Complete Streets DG, page 115.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0115.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0115.webp" alt="Complete Streets DG page 115 4.16 Bus Stop Location"></a><figcaption>Complete Streets DG, page 115.</figcaption></figure>
 <div class="dtext"><p>107</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.16 Bus Stop Location</h4>
@@ -1163,7 +1163,7 @@ sidebar:
 ### Page 117 - 4.17 Bus Bulb
 
 <div class="pmeta">Topics: transit, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0117.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0117.webp" alt="Complete Streets DG page 117 4.17 Bus Bulb"></a><figcaption>Complete Streets DG, page 117.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0117.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0117.webp" alt="Complete Streets DG page 117 4.17 Bus Bulb"></a><figcaption>Complete Streets DG, page 117.</figcaption></figure>
 <div class="dtext"><p>109</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.17 Bus Bulb</h4>
@@ -1207,7 +1207,7 @@ sidebar:
 ### Page 119 - 4.18 Sidewalk Equestrian Trails
 
 <div class="pmeta">Topics: striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0119.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0119.webp" alt="Complete Streets DG page 119 4.18 Sidewalk Equestrian Trails"></a><figcaption>Complete Streets DG, page 119.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0119.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0119.webp" alt="Complete Streets DG page 119 4.18 Sidewalk Equestrian Trails"></a><figcaption>Complete Streets DG, page 119.</figcaption></figure>
 <div class="dtext"><p>111</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.18 Sidewalk Equestrian Trails</h4>
@@ -1231,7 +1231,7 @@ sidebar:
 ### Page 120 - References
 
 <div class="pmeta">Topics: signals, parking-curb</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0120.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0120.webp" alt="Complete Streets DG page 120 References"></a><figcaption>Complete Streets DG, page 120.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0120.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0120.webp" alt="Complete Streets DG page 120 References"></a><figcaption>Complete Streets DG, page 120.</figcaption></figure>
 <div class="dtext"><p>112</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• Urban trails should be designed in accordance with traffic engineering standards. The Metropolitan Transportation Authority Congestion Management Plan (CMP) and the Transportation element of the County of Los Angeles General Plan should be consulted to determine the traffic impacts of a trail.</p>
@@ -1279,17 +1279,17 @@ sidebar:
 
 ### Page 122
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0122.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0122.webp" alt="Complete Streets DG page 122 "></a><figcaption>Complete Streets DG, page 122.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0122.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0122.webp" alt="Complete Streets DG page 122 "></a><figcaption>Complete Streets DG, page 122.</figcaption></figure>
 
 
 <span id="p123" class="anchor"></span>
 
 ### Page 123 - Complete Streets Design Guide: Chapter 5, Roadways (Section Divider)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0123.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0123.webp" alt="Complete Streets DG page 123 "></a><figcaption>Complete Streets DG, page 123.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0123.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0123.webp" alt="Complete Streets DG page 123 "></a><figcaption>Complete Streets DG, page 123.</figcaption></figure>
 
 <span id="p124" class="anchor"></span>
 
 ### Page 124
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0124.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0124.webp" alt="Complete Streets DG page 124 "></a><figcaption>Complete Streets DG, page 124.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0124.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0124.webp" alt="Complete Streets DG page 124 "></a><figcaption>Complete Streets DG, page 124.</figcaption></figure>

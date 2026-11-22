@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A88A</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 19</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24l/">&larr; A24L</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2026">All Caltrans Std. Plans 2026 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a88b/">A88B &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp" alt="A88A sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A88A, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/04-pages-19-22/#p19">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp" alt="A88A sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A88A, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/04-pages-19-22/#p19">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. As site conditions dictate, Case A through Case G curb ramps may be used for corner installations similar to those shown in Detail A and Detail B. The case of curb ramps used in Detail A do not have to be the same. Case A through Case G curb ramps also may be used at mid block locations, as site conditions dictate. For specific site condition configuration, including the conform to existing sidewalk, see Project Plans.</p>
 <p>2. If distance from curb to back of sidewalk is too short to accommodate ramp and 4&#x27;-2&quot; platform (landing) as shown in Case A, the sidewalk may be depressed longitudinally as in Case B or C or may be widened as in Case D.</p>
 <p>3. When ramp is located in center of curb return, crosswalk configuration must be similar to that shown for Detail B.</p>

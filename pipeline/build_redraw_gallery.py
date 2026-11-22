@@ -29,7 +29,7 @@ for slug, short in (("mpp-531", "MPP 531"), ("mpp-521", "MPP 521")):
         page = dp.get((short, k), "")
         cards.append(f'<div class="rdg"><div class="rdg-h"><b>{esc(k)}</b> {esc(rs[0]["title"])} <span class="muted">{len(rs)} sheet(s)</span>'
                      + (f' <a href="{page}">drawing page</a>' if page else "") + '</div><div class="rdg-s">'
-                     + "".join(f'<a href="{r["svg"]}" target="_blank" title="Sheet {r["sheet"]}"><img loading="lazy" src="{r["thumb"]}" alt="{esc(k)} sheet {r["sheet"]}"><span>Sheet {r["sheet"]}{" &middot; traced" if r["kind"] == "scan" else ""}</span></a>' for r in rs)
+                     + "".join(f'<a href="{r["svg"]}" title="Sheet {r["sheet"]}"><img loading="lazy" src="{r["thumb"]}" alt="{esc(k)} sheet {r["sheet"]}"><span>Sheet {r["sheet"]}{" &middot; traced" if r["kind"] == "scan" else ""}</span></a>' for r in rs)
                      + "</div></div>")
     secs.append(f"## LADOT {short}\n\n<div class=\"rdgl\">{''.join(cards)}</div>\n")
 open("src/content/docs/ladot/mpp-details.md", "w").write(f'''---

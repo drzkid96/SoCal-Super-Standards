@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-704</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-04-01</b></span><span>Page 2</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-702/">&larr; S-702</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-705/">S-705 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0002.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0002.webp" alt="S-704 sheet 1"></a><figcaption>Pasadena Std. Plans S-704, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p2">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0002.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0002.webp" alt="S-704 sheet 1"></a><figcaption>Pasadena Std. Plans S-704, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p2">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Overall parking layout: 12 m (40&#x27;), made of two 6 m (20&#x27;) spaces.</p>
 <p>2. Parking tees are set 2.1 m (7&#x27;) from the curb line.</p>
 <p>3. Red curb (TYP) is 2.4 m (8&#x27;) long.</p>

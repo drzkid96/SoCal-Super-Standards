@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-404</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-01-92</b></span><span>Page 9</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-403/">&larr; BT-403</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-405/">BT-405 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0009.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0009.webp" alt="BT-404 sheet 1"></a><figcaption>Burbank Std. Plans BT-404, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p9">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0009.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0009.webp" alt="BT-404 sheet 1"></a><figcaption>Burbank Std. Plans BT-404, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p9">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Standard parking stalls: 18&#x27; stall length. 7&#x27;-0&quot; clear between stripes. Stall length 16&#x27;-0&quot; minimum (MIN.) for 45 degrees and above, 15&#x27;-0&quot; MIN. for less than 45 degrees (angled stalls). 16&#x27;-0&quot; MIN. for 90 degree stalls.</p>
 <p>Compact parking stalls: 15&#x27; stall length. 6&#x27;-0&quot; clear between stripes. Stall length 13&#x27;-0&quot; MIN. for 45 degrees and above, 12&#x27;-0&quot; MIN. for less than 45 degrees (angled stalls). 13&#x27;-0&quot; MIN. for 90 degree stalls.</p>
 <p>Burbank Municipal Code (B.M.C.) 31-1417: Parking spaces shall be double-striped and access lanes clearly defined including directional arrows to guide internal movements. Striping for standard car spaces shall be white in color, whereas striping for small car spaces shall be yellow in color or may be painted white if marked &quot;COMPACT&quot; or &quot;SMALL CAR&quot;. All painted stripes shall be 4&quot; in width.</p></details>

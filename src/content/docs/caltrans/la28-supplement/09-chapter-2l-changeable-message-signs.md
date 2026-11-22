@@ -37,7 +37,7 @@ sidebar:
 ### Page 63 - Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 1 of 2)
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0063.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0063.webp" alt="LA28 Supplement page 63 Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 1 of 2)"></a><figcaption>LA28 Supplement, page 63.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0063.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0063.webp" alt="LA28 Supplement page 63 Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 1 of 2)"></a><figcaption>LA28 Supplement, page 63.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 63</p>
 <p>Chapter 2L - Changeable Message Signs (Tables) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 1 of 2)</h4>
@@ -74,7 +74,7 @@ sidebar:
 ### Page 64 - Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 2 of 2)
 
 <div class="pmeta">Topics: parking-curb, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0064.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0064.webp" alt="LA28 Supplement page 64 Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 2 of 2)"></a><figcaption>LA28 Supplement, page 64.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0064.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0064.webp" alt="LA28 Supplement page 64 Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 2 of 2)"></a><figcaption>LA28 Supplement, page 64.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 64</p>
 <p>Chapter 2L - Changeable Message Signs (Tables) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2L-101(LA28). Example of GRN Messages for CMS (Sheet 2 of 2)</h4>
@@ -101,7 +101,7 @@ sidebar:
 ### Page 65 - Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 1 of 3)
 
 <div class="pmeta">Topics: parking-curb, signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0065.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0065.webp" alt="LA28 Supplement page 65 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 1 of 3)"></a><figcaption>LA28 Supplement, page 65.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0065.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0065.webp" alt="LA28 Supplement page 65 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 1 of 3)"></a><figcaption>LA28 Supplement, page 65.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 65</p>
 <p>Chapter 2L - Changeable Message Signs (Tables) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 1 of 3)</h4>
@@ -132,7 +132,7 @@ sidebar:
 ### Page 66 - Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 2 of 3)
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0066.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0066.webp" alt="LA28 Supplement page 66 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 2 of 3)"></a><figcaption>LA28 Supplement, page 66.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0066.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0066.webp" alt="LA28 Supplement page 66 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 2 of 3)"></a><figcaption>LA28 Supplement, page 66.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 66</p>
 <p>Chapter 2L - Changeable Message Signs (Tables) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 2 of 3)</h4>
@@ -170,7 +170,7 @@ sidebar:
 ### Page 67 - Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 3 of 3)
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0067.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0067.webp" alt="LA28 Supplement page 67 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 3 of 3)"></a><figcaption>LA28 Supplement, page 67.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0067.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0067.webp" alt="LA28 Supplement page 67 Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 3 of 3)"></a><figcaption>LA28 Supplement, page 67.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 67</p>
 <p>Chapter 2L - Changeable Message Signs (Tables) July 15, 2026 Part 2 Signs</p>
 <h4>Table 2L-102(LA28). Examples of GRN Messages for Portable CMS* (Sheet 3 of 3)</h4>

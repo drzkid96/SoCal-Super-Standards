@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-70.1F</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 71</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-1e/">&larr; S-70.1E</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-2/">S-70.2 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0071.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0071.webp" alt="S-70.1F sheet 1"></a><figcaption>Red Book S-70.1F, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p71">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0071.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0071.webp" alt="S-70.1F sheet 1"></a><figcaption>Red Book S-70.1F, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p71">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Table: Length of loop less than 40&#x27;, number of turns 2. Length of loop 40&#x27; or more, number of turns 1.</p>
 <p>(No numbered notes on this sheet.)</p></details>
 

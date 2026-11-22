@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-418</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Dated <b>07-23-25</b></span><span>Pages 24, 25</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-417/">&larr; BT-417</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-452/">BT-452 &rarr;</a></div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 24)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0024.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0024.webp" alt="BT-418 sheet 1"></a><figcaption>Burbank Std. Plans BT-418, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p24">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0024.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0024.webp" alt="BT-418 sheet 1"></a><figcaption>Burbank Std. Plans BT-418, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p24">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>General notes:</h5>
 <p>1. Speed tables shall not be placed over manholes, water valves, etc.</p>
 <p>2. Edge of speed table shall be 5 feet minimum from edge of driveway.</p>
@@ -29,7 +28,7 @@ tableOfContents: false
 
 ### Sheet 2 of 2 (page 25)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0025.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0025.webp" alt="BT-418 sheet 2"></a><figcaption>Burbank Std. Plans BT-418, sheet 2. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p25">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0025.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0025.webp" alt="BT-418 sheet 2"></a><figcaption>Burbank Std. Plans BT-418, sheet 2. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p25">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Install <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> per Caltrans Std Plan A20A.</p>
 <p>Marking detail 1 (see sheet 1).</p>
 <p>Speed table marking and Section B-B are not to scale.</p>

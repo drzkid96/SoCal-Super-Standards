@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A20G</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 7</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20f/">&larr; A20F</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2026">All Caltrans Std. Plans 2026 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24a/">A24A &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0007.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0007.webp" alt="A20G sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A20G, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/02-pages-7-12/#p7">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0007.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0007.webp" alt="A20G sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A20G, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/02-pages-7-12/#p7">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. May be a limit line or crosswalk.</p>
 <p>2. See Standard Plans A24F and A24G for crosswalk and pavement marker details.</p>
 <p>3. For raised markers, place Type R one-way red retroreflective markers on outermost limit line or crosswalk line with red facing the intersection. For recessed markers, place Type R one-way retroreflective markers with red facing the intersection and as shown on Standard Plan A24G.</p>

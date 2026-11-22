@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-63.1.4</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 53, 54</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-63-1/">&larr; S-63.1</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-67-1/">S-67.1 &rarr;</a></div>
 
 
 
@@ -16,12 +15,12 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 53)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0053.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0053.webp" alt="S-63.1.4 sheet 1"></a><figcaption>Red Book S-63.1.4, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p53">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0053.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0053.webp" alt="S-63.1.4 sheet 1"></a><figcaption>Red Book S-63.1.4, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p53">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Callouts: 6 in. tenon length, 2 3/8 in. diameter. Item A (Pelco AB-3008). Gusseted tube with vinyl insert (typical). Item E (typical). Set screws (typical). Item B (Pelco AB-116). Item C (Pelco AB-103). Item D (Pelco AB-0129 T-L) (modified). Item E (Pelco AB-3004). See Note No. 9. Detail A, see Note No. 10. The numbered notes continue on sheet 2 (page 54).</p></details>
 
 ### Sheet 2 of 2 (page 54)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0054.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0054.webp" alt="S-63.1.4 sheet 2"></a><figcaption>Red Book S-63.1.4, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p54">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0054.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0054.webp" alt="S-63.1.4 sheet 2"></a><figcaption>Red Book S-63.1.4, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p54">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Item A is the basic mounting design for most mast arm signal installations when standard tenon location on the mast arm cannot be utilized. It uses a 6 in. tenon length with 2 3/8 in. outside diameter for plumbizer mounting.</p>
 <p>2. Item B is used for installation of traffic signal heads, except programmed visibility (P.V.) heads, when it is desired to mount them horizontally or to adjust the height vertically by movement of Item E.</p>
 <p>3. Item C is used for installation of horizontal or vertical programmed visibility (P.V.) heads. It is equipped with 14 in. arms which allow for replacement of signal lamps located in the rear of the signal head.</p>

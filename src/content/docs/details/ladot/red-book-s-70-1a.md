@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-70.1A</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 67, 68</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-68-1/">&larr; S-68.1</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-1d/">S-70.1D &rarr;</a></div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 67)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0067.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0067.webp" alt="S-70.1A sheet 1"></a><figcaption>Red Book S-70.1A, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p67">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0067.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0067.webp" alt="S-70.1A sheet 1"></a><figcaption>Red Book S-70.1A, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p67">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>* Depth of slot not to exceed depth of pavement. For P.C.C. (concrete) surfaces, the minimum cover above loop wire shall be 2.5&quot; minimum.</p>
 <h5>Notes:</h5>
 <p>1. Install 3 clockwise turns of loop wire for each detector, unless otherwise shown on signal plan.</p>
@@ -26,7 +25,7 @@ tableOfContents: false
 
 ### Sheet 2 of 2 (page 68)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0068.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0068.webp" alt="S-70.1A sheet 2"></a><figcaption>Red Book S-70.1A, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p68">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0068.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0068.webp" alt="S-70.1A sheet 2"></a><figcaption>Red Book S-70.1A, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p68">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes: Perform loop installation in the following order:</h5>
 <p>1. Open the pavement at least 42&quot; from curb face and at least 18&quot; from edge of gutter using a star drill or a jack hammer (asphalt concrete only). Open no more than a 12&quot; x 16&quot; area. In cases where there is a concrete bus pad adjacent to the gutter, install the stubout beyond the edge of the bus pad.</p>
 <p>2. Install 2&quot; PVC (SC80) or PVC flex (SC40) from the pullbox pit with a 45 degree elbow at the stub-out as shown. Depth of the conduit shall be at least 18&quot; below the street grade.</p>

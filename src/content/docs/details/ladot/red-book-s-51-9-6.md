@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-51.9.6</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 37</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-51-9-5/">&larr; S-51.9.5</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1/">S-52.1 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0037.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0037.webp" alt="S-51.9.6 sheet 1"></a><figcaption>Red Book S-51.9.6, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p37">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0037.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0037.webp" alt="S-51.9.6 sheet 1"></a><figcaption>Red Book S-51.9.6, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p37">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Note: Standard must conform to Bureau of Street Lighting Plan L-103-0.</p>
 <p>Callouts: Mast Arm; 3/4&quot; Drill Thru, 2 Holes; 2 1/4&quot; Drill, One side; Detail - Side Opposite Mast Arm; Pole Base Plate; Street Grade; Top of Curb; Tapered steel pole; Foundation, Type F-2; Anchor Bolts 1 1/8&quot; X 40&quot; X 4&quot; (4 required).</p>
 <p>Table: Mast Arm Length 15&#x27; mounting height 22.3&#x27; +/- ; 18&#x27; mounting height 23.3&#x27; +/- ; 20&#x27; mounting height 23.3&#x27; +/- .</p></details>

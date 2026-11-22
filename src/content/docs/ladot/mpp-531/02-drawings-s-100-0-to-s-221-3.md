@@ -12,7 +12,7 @@ sidebar:
 ### Page 21 - Operation and Design of Signalized Jogged Intersections (Sheet 1 of 12, Operational Challenges for the Minor Street Approaches)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: signals, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0021.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0021.webp" alt="MPP 531 page 21 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 21.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0021.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0021.webp" alt="MPP 531 page 21 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 21.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Right Jog: Pedestrians might not be seen early-on by right-turning motorists. Opposing vehicles might not be seen early-on. Opposing arterial left turns might interlock.</p>
 <p>2. Left Jog: Pedestrians might not be seen early-on by left-turning motorists. Opposing vehicles might not be seen early-on. Opposing left turns interlock. Difficult to determine if motorist is making a left turn or jogged through move. So-called opposing moves momentarily can be positioned at approximately right angles to each other.</p>
 <p>3. Operational Challenges for the Minor Street Approaches to Signalized Jogged Intersections.</p>
@@ -24,7 +24,7 @@ sidebar:
 ### Page 22 - Operation and Design of Signalized Jogged Intersections (Sheet 2 of 12, Design Selection Procedure)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: crosswalks, signals, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0022.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0022.webp" alt="MPP 531 page 22 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 22.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0022.webp" alt="MPP 531 page 22 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 22.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Theta 1 and theta 2 (symbols T1 and T2) = angle between motorist looking straight ahead and back of opposing vehicle.</p>
 <p>2. X1 and X2 = Distance along arterial from the crosswalk line or limit line to the signal pole or BCR at the far side of the first intersecting leg.</p>
 <p>3. D = Internal storage distance between real or hypothetical interior limit lines. For minor offset D may be a small or negative number.</p>
@@ -41,7 +41,7 @@ sidebar:
 ### Page 23 - Operation and Design of Signalized Jogged Intersections (Sheet 3 of 12, Left Jogged Intersection, Internal Mastarms)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: signals, parking-curb, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0023.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0023.webp" alt="MPP 531 page 23 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 23.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0023.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0023.webp" alt="MPP 531 page 23 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 23.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install where: a) D&lt;40&#x27;; and b) theta 1 and theta 2 &lt;= 20 degrees; and c) X1 and X2 &gt;= 50&#x27;.</p>
 <p>2. The beveled visors shown should be installed only where cross-traffic motorists would see 50% or more of the lens area of a far-side signal as they wait at the limit line. PV heads should be used if beveled visors would not be adequate.</p>
 <p>3. Labels on the drawing: WATCH OPPOSING TRAFFIC; <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a>&#x27;S; R=30&#x27; min.; APS (accessible pedestrian signal); 2P, 4P, 6P, 8P (pedestrian heads); phases 2, 4, 6, 8.</p>
@@ -52,7 +52,7 @@ sidebar:
 ### Page 24 - Operation and Design of Signalized Jogged Intersections (Sheet 4 of 12, Right Jogged Intersection, Prohibited Left Turn)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: crosswalks, signals, parking-curb, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0024.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0024.webp" alt="MPP 531 page 24 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 24.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0024.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0024.webp" alt="MPP 531 page 24 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 24.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install where: a) D&lt;40&#x27;; and b) theta 1 and theta 2 &lt;=20 degrees; and c) X1 and X2 &gt;=50&#x27;; and d) Diagonal crosswalks are feasible.</p>
 <p>2. Where diagonal crosswalks are not feasible, use opposed phasing, as shown on Sheet 8.</p>
 <p>3. The treatment to allow arterial left turns in one direction and prohibited in the other direction is an operational option. For other typical left turn operations on the arterial street see Sheets 6 and 8.</p>
@@ -65,7 +65,7 @@ sidebar:
 ### Page 25 - Operation and Design of Signalized Jogged Intersections (Sheet 5 of 12, Left Jogged Intersection, External Mastarms)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: signals, parking-curb, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0025.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0025.webp" alt="MPP 531 page 25 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 25.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0025.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0025.webp" alt="MPP 531 page 25 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 25.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install where: a) D&lt;40&#x27;; and b) theta 1 and theta 2 &lt;= 20 degrees; and c) X1 and X2 &lt;50&#x27;.</p>
 <p>2. Labels on the drawing: WATCH OPPOSING TRAFFIC; <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a>&#x27;S; R=30&#x27; min.; APS (accessible pedestrian signal); 2P, 4P, 6P, 8P (pedestrian signal heads); phases 2, 4, 6 and 8.</p>
 <p>3. Left jogged Intersection, External Mastarms.</p>
@@ -76,7 +76,7 @@ sidebar:
 ### Page 26 - Operation and Design of Signalized Jogged Intersections (Sheet 6 of 12, Right Jogged Intersection, Protected Left Turn)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: crosswalks, signals, parking-curb, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0026.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0026.webp" alt="MPP 531 page 26 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 26.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0026.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0026.webp" alt="MPP 531 page 26 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 26.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install where: a) D&lt;40&#x27;; and b) theta 1 and theta 2 &lt;= 20 degrees; and c) X1 and X2 &lt;50&#x27;; and d) Diagonal crosswalks are feasible.</p>
 <p>2. Where diagonal crosswalks are not feasible, use opposed phasing, as shown on Sheet 8.</p>
 <p>3. If arterial left turns are to be allowed in both directions, at least one direction shall have protected left turns, as shown. For other typical left turn options on the arterial street see Sheets 4 and 8.</p>
@@ -88,7 +88,7 @@ sidebar:
 ### Page 27 - Operation and Design of Signalized Jogged Intersections (Sheet 7 of 12, Left Jogged Intersection, Internal Mastarms/Opposed Phasing)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: crosswalks, signals, parking-curb, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0027.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0027.webp" alt="MPP 531 page 27 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 27.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0027.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0027.webp" alt="MPP 531 page 27 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 27.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install where: a) D&lt;40&#x27;; and b) theta 1 or theta 2 &gt;20 degrees.</p>
 <p>2. The alternate signal phasing schemes shown below, with corresponding signal head modifications (not shown), should be used only where the intersection would be operating near capacity with the more conventional opposed phasing. Generally, the alternate phasing would be necessary where pedestrian calls occur on most cycles. Where used, the lighter volume side street approach should have the left arrow indications. If one or both of the crosswalks across the arterial street can be eliminated, then the intersection operation can have more efficient phasing than shown.</p>
 <p>3. Where D&gt;=20&#x27;, &quot;KEEP CLEAR&quot; pavement markings should be installed between the cross street legs, as shown.</p>
@@ -100,7 +100,7 @@ sidebar:
 ### Page 28 - Operation and Design of Signalized Jogged Intersections (Sheet 8 of 12, Right Jogged Intersection, Internal Mastarms/Opposed Phasing)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: crosswalks, signals, parking-curb, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0028.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0028.webp" alt="MPP 531 page 28 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 28.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0028.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0028.webp" alt="MPP 531 page 28 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 28.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install where: a) D&lt;40&#x27;; and b) theta 1 or theta 2 &gt;20 degrees; and c) X1 and X2 &gt;= 50&#x27;.</p>
 <p>2. The arterial, cat-tracked side-by-side left-turn lanes, as shown, are possible only where the painted median channelization is at least 18&#x27; wide. For other typical left turn options on the arterial street see Sheets 4 and 6.</p>
 <p>3. The alternate signal phasing schemes shown below with corresponding signal head modifications should be used only where the intersection would be operating near capacity with the more conventional opposed phasing. Generally, the alternate phasing would be necessary where pedestrian calls occur on most cycles. Where used, the lighter volume side street approach should have the right arrow indications. If one or both of the crosswalks across the arterial street can be eliminated, then the intersection operation can have more efficient phasing than shown.</p>
@@ -113,7 +113,7 @@ sidebar:
 ### Page 29 - Operation and Design of Signalized Jogged Intersections (Sheet 9 of 12, Left Jogged Intersection, External Mastarms/Opposed Phasing)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: signals, parking-curb, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0029.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0029.webp" alt="MPP 531 page 29 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 29.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0029.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0029.webp" alt="MPP 531 page 29 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 29.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install where: a) D&lt;40&#x27;; and b) theta 1 or theta 2 &gt;20 degrees; and c) X1 and X2 &lt;50&#x27;.</p>
 <p>2. See Sheet 7 for alternate signal phasing schemes.</p>
 <p>3. Labels on the drawing: <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a>&#x27;S; APS; 2P, 3P, 4P, 6P; phases 2, 3, 4 and 6.</p>
@@ -124,7 +124,7 @@ sidebar:
 ### Page 30 - Operation and Design of Signalized Jogged Intersections (Sheet 10 of 12, Left Jogged Intersection, Interior Limit Lines)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a> &middot; Topics: signals, parking-curb, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0030.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0030.webp" alt="MPP 531 page 30 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 30.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0030.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0030.webp" alt="MPP 531 page 30 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 30.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install where D&gt;=40&#x27;.</p>
 <p>2. Labels on the drawing: <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a>&#x27;S; APS; 2P, 4P, 6P, 8P; phases 2, 4, 6 and 8.</p>
 <p>3. Left jogged Intersection, Interior Limit Lines.</p>
@@ -135,7 +135,7 @@ sidebar:
 ### Page 31 - Operation and Design of Signalized Jogged Intersections (Sheet 11 of 12, Left Jogged Intersection, Interior Limit Lines, Slot Clearance)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: signals, parking-curb, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0031.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0031.webp" alt="MPP 531 page 31 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 31.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0031.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0031.webp" alt="MPP 531 page 31 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 31.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install where: a) 40&#x27;&lt;=D&lt;=200&#x27; and b) There have been 4 or more Right Angle accidents or 4 or more Left Turn accidents in a recent 12 month period at one of the intersections involving vehicles departing from the interior limit line.</p>
 <p>2. OLA and OLB include slot clearance.</p>
 <p>3. Labels on the drawing: OLA PV CUT-OFF; OLB PV CUT-OFF; PV (G,R only); OLA; OLB; <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a>&#x27;S; APS; 2P, 4P, 6P, 8P; phases 1, 2, 4, 5, 6 and 8.</p>
@@ -146,7 +146,7 @@ sidebar:
 ### Page 32 - Operation and Design of Signalized Jogged Intersections (Sheet 12 of 12, Right Jogged Intersection, Interior Limit Lines)
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg">R9-3a</a> &middot; Topics: signals, parking-curb, striping, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0032.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0032.webp" alt="MPP 531 page 32 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 32.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0032.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0032.webp" alt="MPP 531 page 32 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 531, page 32.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install where 40&#x27;&lt;=D&lt;=200&#x27;.</p>
 <p>2. Mask only the Green and Red lenses of the PV heads.</p>
 <p>3. The back-to-back left-turn lanes, as shown, are possible only where D&gt;=70&#x27;. Where not possible, a left-turn lane in one direction, possibly with a left-turn restriction in the other direction, should be considered.</p>
@@ -159,7 +159,7 @@ sidebar:
 ### Page 33 - Street Name Sign Posting
 
 <div class="pmeta">Drawings: <strong>S-221.3</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0033.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0033.webp" alt="MPP 531 page 33 S-221.3 Street Name Sign Posting"></a><figcaption>MPP 531, page 33.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0033.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0033.webp" alt="MPP 531 page 33 S-221.3 Street Name Sign Posting"></a><figcaption>MPP 531, page 33.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Note:</h5>
 <p>1. All signs shall be posted as close to the near-right B.C. or the extension of the near left as is practical.</p>
 <p>2. Post sign in advance of obstructions where encountered.</p>
@@ -171,7 +171,7 @@ sidebar:
 ### Page 34 - Street Name Sign Posting (Sheet 2 of 4, Jogged Intersection Offset X)
 
 <div class="pmeta">Drawings: <strong>S-221.3</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0034.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0034.webp" alt="MPP 531 page 34 S-221.3 Street Name Sign Posting"></a><figcaption>MPP 531, page 34.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0034.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0034.webp" alt="MPP 531 page 34 S-221.3 Street Name Sign Posting"></a><figcaption>MPP 531, page 34.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. When X is less than 100&#x27;.</p>
 <p>2. When X is 100&#x27; or Greater.</p>
 <p>3. Labels on the drawing: &quot;D&quot; AVENUE; &quot;A&quot; STREET; dimension X.</p>

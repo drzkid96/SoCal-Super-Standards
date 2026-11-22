@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-70.3</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 73</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-2/">&larr; S-70.2</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-3a/">S-70.3A &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0073.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0073.webp" alt="S-70.3 sheet 1"></a><figcaption>Red Book S-70.3, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p73">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0073.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0073.webp" alt="S-70.3 sheet 1"></a><figcaption>Red Book S-70.3, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p73">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Connect two to four loops in series to each pair, do not use parallel connections.</p>
 <p>2. Do not connect any unused cable pairs.</p>
 <p>3. Typical installation shown. Two or three pair cable may be used when shown on signal plan.</p>

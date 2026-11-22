@@ -248,7 +248,7 @@ def parse_chapter(c, write_figs):
             anchors = "".join(f'<span id="{fig_slug(k)}"></span>' for k in found)
             cap = "; ".join(f"{v[0]} {k}. {v[1]}" for k, v in found.items())
             st["pending_figs"].append(
-                f'<figure class="mfig">{anchors}<a href="{BASE}/figs/mutcd/{img}" target="_blank">'
+                f'<figure class="mfig">{anchors}<a href="{BASE}/figs/mutcd/{img}">'
                 f'<img loading="lazy" src="{BASE}/figs/mutcd/{img}" alt="{html.escape(cap)}"></a>'
                 f'<figcaption>{esc(cap)} <span class="src-page">p {pp}</span></figcaption></figure>')
             for k, v in found.items():

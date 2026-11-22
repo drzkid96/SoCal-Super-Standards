@@ -35,7 +35,7 @@ sidebar:
 ### Page 2 - Marked Uncontrolled Crosswalk Guidelines: A. Minimum Requirements
 
 <div class="pmeta">Drawings: <strong>S-481.0</strong> &middot; Topics: crosswalks, transit, signals, parking-curb, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0002.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0002.webp" alt="Crosswalk Guidelines page 2 A. MINIMUM REQUIREMENTS YES NO (S-481.0)"></a><figcaption>Crosswalk Guidelines, page 2.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0002.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0002.webp" alt="Crosswalk Guidelines page 2 A. MINIMUM REQUIREMENTS YES NO (S-481.0)"></a><figcaption>Crosswalk Guidelines, page 2.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>A. Minimum requirements (each requirement has Yes and No check boxes, plus an All Satisfied? row with Yes and No boxes):</p>
 <p>(a) Motorists in all approach lanes would be able to see pedestrians in both waiting areas for the proposed crosswalk from distance &quot;A&quot;, as shown in S-481.0, during both daytime and nighttime conditions. The waiting areas are defined as follows: for locations with full-time parking lanes (where pedestrians are expected to wait to cross from within the parking lane): a point within the proposed crosswalk, 4 feet from the nearest curb face of the street being crossed near each landing. For locations without full-time parking lanes and with active travel lanes adjacent to the curb (where pedestrians are expected to wait to cross from the edge of the sidewalk): at the edge of the curb at each landing. Where additional nighttime visibility is required, the crosswalk may be authorized, contingent upon the installation of additional lighting.</p>
 <p>(b) Pedestrian volume is at least 20 units during a one-hour period during any day of the week. All pedestrians crossing the major street mid-block, up to one block away from the proposed crossing, may be counted if they are expected to benefit and be served by the proposed crosswalk. Pedestrians crossing at the next upstream and downstream intersections may also be counted if those intersections do not feature a marked crosswalk. All pedestrians as noted above should be counted during one singular one-hour period.</p>
@@ -107,7 +107,7 @@ sidebar:
 ### Page 5 - D. BEACONS
 
 <div class="pmeta">Topics: crosswalks, signals, parking-curb, speed-calming, signs, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0005.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0005.webp" alt="Crosswalk Guidelines page 5 D. BEACONS"></a><figcaption>Crosswalk Guidelines, page 5.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0005.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0005.webp" alt="Crosswalk Guidelines page 5 D. BEACONS"></a><figcaption>Crosswalk Guidelines, page 5.</figcaption></figure>
 <div class="dtext"><p>Marked Uncontrolled Crosswalk Guidelines (Rev. 10-05-2020) Page 5 of 7</p>
 <h4>D. BEACONS</h4>
 <h4>1. AT INTERSECTIONS</h4>

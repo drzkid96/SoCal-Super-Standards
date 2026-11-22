@@ -1,0 +1,39 @@
+---
+import DefaultPagination from '@astrojs/starlight/components/Pagination.astro';
+import { getPageNav } from '../lib/nav';
+
+const entry = Astro.locals.starlightRoute.entry;
+const id = (entry.id || '').replace(/\/index$/, '').replace(/^index$/, '');
+const nav = id && id !== '404' ? getPageNav(id) : undefined;
+---
+
+{nav && (nav.prev || nav.up || nav.next) ? (
+  <nav class="sss-pager print:hidden" aria-label="Page navigation">
+    <div class="sss-pager-slot">
+      {nav.prev && (
+        <a class="sss-pcard prev" href={nav.prev.href} rel="prev">
+          <span class="sss-pk">&larr; Previous</span>
+          <strong>{nav.prev.label}</strong>
+        </a>
+      )}
+    </div>
+    <div class="sss-pager-slot mid">
+      {nav.up && (
+        <a class="sss-pcard up" href={nav.up.href}>
+          <span class="sss-pk">&uarr; Section</span>
+          <strong>{nav.up.label}</strong>
+        </a>
+      )}
+    </div>
+    <div class="sss-pager-slot">
+      {nav.next && (
+        <a class="sss-pcard next" href={nav.next.href} rel="next">
+          <span class="sss-pk">Next &rarr;</span>
+          <strong>{nav.next.label}</strong>
+        </a>
+      )}
+    </div>
+  </nav>
+) : (
+  <DefaultPagination />
+)}

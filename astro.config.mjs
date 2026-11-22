@@ -75,6 +75,7 @@ export default defineConfig({
       components: {
         Header: './src/components/Header.astro',
         PageTitle: './src/components/PageTitle.astro',
+        Pagination: './src/components/Pagination.astro',
         ThemeProvider: './src/components/ThemeProvider.astro',
         ThemeSelect: './src/components/ThemeSelect.astro',
       },

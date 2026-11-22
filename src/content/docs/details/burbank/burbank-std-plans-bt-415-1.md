@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-415-1</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>11-14-19</b></span><span>Page 20</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-414/">&larr; BT-414</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-416/">BT-416 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0020.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0020.webp" alt="BT-415-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-415-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p20">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0020.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0020.webp" alt="BT-415-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-415-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p20">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Curb termination shall be Type A per Caltrans Standard Plan ES-5D.</p>
 <p>2. Sawcut depth shall be 3.5 inches to 4 inches.</p>
 <p>3. Sawcut width shall be 1/4 inch to 3/8 inch.</p>

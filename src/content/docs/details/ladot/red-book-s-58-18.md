@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-58.18</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 120</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-17/">&larr; S-58.17</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-19/">S-58.19 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0120.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0120.webp" alt="S-58.18 sheet 1"></a><figcaption>Red Book S-58.18, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p120">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0120.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0120.webp" alt="S-58.18 sheet 1"></a><figcaption>Red Book S-58.18, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p120">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Sign shall be capable of displaying the following messages: A: Red &quot;X&quot;, width of &quot;X&quot; 1.5&quot; stroke. B: Green arrow (down), width of arrow 1.5&quot; stroke.</p>
 <p>2. The red &quot;X&quot; shall be formed with rows of fiber optic bundles spaced 0.50 inch (center to center). The green down arrow shall be formed with rows of fiber optic bundles, spaced 0.50 inch (center to center).</p>
 <p>3. Fiber optic bundles shall alternate between two or more lamp sources so that in the event of a lamp failure the sign shall continue to display a discernable and readable message.</p>

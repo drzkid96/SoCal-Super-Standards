@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-70.4A</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>3</b> sheets</span><span>Pages 74, 75, 76</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-3a/">&larr; S-70.3A</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-72-0a/">S-72.0A &rarr;</a></div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 3 (page 74)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0074.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0074.webp" alt="S-70.4A sheet 1"></a><figcaption>Red Book S-70.4A, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p74">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0074.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0074.webp" alt="S-70.4A sheet 1"></a><figcaption>Red Book S-70.4A, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p74">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Saw cut loops (octagonal or circular) to be used for existing installations only.</p>
 <p>2. See LADOT Std. Dwg. S-70.1.A for inductive loop installation details not shown hereon.</p>
 <p>(Notes for the new track (ballasted) installation)</p>
@@ -27,7 +26,7 @@ tableOfContents: false
 
 ### Sheet 2 of 3 (page 75)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0075.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0075.webp" alt="S-70.4A sheet 2"></a><figcaption>Red Book S-70.4A, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p75">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0075.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0075.webp" alt="S-70.4A sheet 2"></a><figcaption>Red Book S-70.4A, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p75">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes (new track, embedded):</h5>
 <p>1. Preformed loop to be used for new installations in embedded track.</p>
 <p>2. No rebar or metal of any kind other than the track rails shall be placed within three feet (3&#x27;) horizontally or vertically from LRT loop.</p>
@@ -42,7 +41,7 @@ tableOfContents: false
 
 ### Sheet 3 of 3 (page 76)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0076.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0076.webp" alt="S-70.4A sheet 3"></a><figcaption>Red Book S-70.4A, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p76">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0076.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0076.webp" alt="S-70.4A sheet 3"></a><figcaption>Red Book S-70.4A, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p76">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Splices shall only be made in the handhole.</p>
 <p>2. Splices shall be soldered and water proofed.</p>
 <p>Callouts: 3/4&quot; O.D. asphalt rubber filled hydraulic hose. 3/8&quot; O.D. asphalt rubber filled hydraulic hose to Type A Handhole. CVCC tee. Expansion joint. Twisted tail. Twisted clockwise (at least 2 turns per ft.) into a pair. Ballast, PCC or hot AC to match adjacent roadbed material. Precast reinforced concrete box. Conduit to termination pullbox. 2&quot; Schedule 80 PVC (30&quot; deep). Clean, crushed rock sump. Loop sealant. Cables of shielded loop conductor pairs. Portland cement concrete. 3&quot; min. around the handhole. Cast iron frame and cover.</p></details>

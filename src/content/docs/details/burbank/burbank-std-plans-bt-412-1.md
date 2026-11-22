@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-412-1</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>11-14-19</b></span><span>Page 16</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-411-1/">&larr; BT-411-1</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-413-1/">BT-413-1 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0016.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0016.webp" alt="BT-412-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-412-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p16">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0016.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0016.webp" alt="BT-412-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-412-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p16">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Callouts: 2&quot;x2&quot; square post (12 gage). 3/8&quot; holes, insert sign post and fasten with rivets. Secure sign with drive rivet. 7&#x27; minimum from sidewalk to bottom of sign. 6&quot; minimum (MIN.) from sign to curb face. 36&quot; MIN. from existing (EX.) edge of sidewalk. 4&quot; and 2&#x27; dimensions at the anchor sleeve. EX. concrete curb and gutter. EX. asphalt paving. 2-1/4&quot; x 2-1/4&quot; square heavy duty galvanized anchor sleeve (Telespar or equal). (Not to scale.)</p>
 <p>All regulatory and warning signs shall be minimum 0.063 inch with 3M high intensity prismatic sheeting (Series #3930) with 3M premium protective overlay film (Series #1160).</p></details>
 

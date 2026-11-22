@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-414</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Dated <b>12-21-16</b></span><span>Pages 18, 19</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-413-1/">&larr; BT-413-1</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-415-1/">BT-415-1 &rarr;</a></div>
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W8-1.svg" alt="W8-1"><span><b>W8-1</b> Bump warning sign</span></a></div>
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 18)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0018.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0018.webp" alt="BT-414 sheet 1"></a><figcaption>Burbank Std. Plans BT-414, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p18">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0018.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0018.webp" alt="BT-414 sheet 1"></a><figcaption>Burbank Std. Plans BT-414, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p18">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Plan callouts: Asphalt speed hump. Thermoplastic or 2 coats of traffic paint (BUMP legend and chevrons). Roadway width varies. Humps are 12&#x27; long, 50&#x27; to next BUMP legend, 8&#x27; typical, humps spaced 250&#x27; - 300&#x27; +/-, and 200&#x27; - 250&#x27; +/- from the intersection.</p>
 <p>Advance signs: Sign locations as directed by Engineer. 12&#x27; minimum (MIN.). 6.5&#x27; MIN. mounting height. 30&quot;x30&quot; <a class="sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg">W8-1</a> modified copy &quot;BUMPS&quot;. Signs shall have 3M high intensity prismatic sheeting (Series #3930) with 3M premium protective overlay film (Series #1160). 18&quot;x18&quot; W13-1 (15). Not to scale.</p>
 <p>Section A-A callouts: 6&quot;, 18&quot; typical (TYP.), 12&quot; taper, curb face, A.C. standard 3/8&quot; mix D2-AR-4000, 5.6% asphalt binder for use performance grading per Caltrans standards, tack coat, existing asphalt pavement. Not to scale.</p>
@@ -28,7 +27,7 @@ tableOfContents: false
 
 ### Sheet 2 of 2 (page 19)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0019.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0019.webp" alt="BT-414 sheet 2"></a><figcaption>Burbank Std. Plans BT-414, sheet 2. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p19">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0019.webp" alt="BT-414 sheet 2"></a><figcaption>Burbank Std. Plans BT-414, sheet 2. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p19">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Speed hump marking (not to scale): 12&quot; white markings, thermoplastic or 2 coats of traffic paint. Dimensions: 12&#x27; typical (TYP.) hump length with 6&#x27; on each side of the center of speed hump, 1&#x27; taper, 6&#x27; chevron width, 5&#x27; to center of travel lane, 10&#x27; TYP. travel lane, 8&#x27; parking lane, 1.5&#x27; TYP. gutter, centerline (CL) of roadway, edge of gutter, flow line.</p>
 <p>Section B-B (not to scale): 6&quot; TYP. ordinate spacing. Heights above the base at each station: 0&quot;, .90&quot;, .92&quot;, 1.31&quot;, 1.67&quot;, 1.98&quot;, 2.25&quot;, 2.48&quot;, 2.67&quot;, 2.81&quot;, 2.92&quot;, 2.98&quot;, 3.00&quot;. Overall length 12&#x27;, with 6&#x27; from the end to the crest.</p>
 <p>No numbered notes appear on this sheet. See sheet 1 of 2 for installation details.</p></details>

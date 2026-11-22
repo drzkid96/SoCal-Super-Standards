@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">TC-REQ</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>03-19-19</b></span><span>Page 27</span></div></div>
 
-<div class="dwg-nav"> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-400/">BT-400 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0027.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0027.webp" alt="TC-REQ sheet 1"></a><figcaption>Burbank Std. Plans TC-REQ, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p27">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0027.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0027.webp" alt="TC-REQ sheet 1"></a><figcaption>Burbank Std. Plans TC-REQ, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p27">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. It is the responsibility of the Contractor performing work on a public street to install and maintain the traffic control devices according to the latest edition of the California Manual on Uniform Traffic Control Devices (California MUTCD) or Work Area Traffic Control Handbook (WATCH) to insure the safe movement of traffic and pedestrians through or around the work area and provide protection and safety to construction workers.</p>
 <p>2. The Contractor must submit a traffic control plan for approval when requested by the Traffic Division or when traffic handling cannot use a typical application in the latest California MUTCD or WATCH. Any revisions to the traffic control plans or requirements shall be approved by the Assistant Public Works Director-Traffic.</p>
 <p>3. All traffic control devices (signs, delineators, barricades, type K temporary railing, portable changeable message signs, etc.) shall conform to the Caltrans Standard Specifications, Section 12. All devices must be in place and shall be repaired, replaced, or cleaned as necessary until work is complete and traffic control is not required.</p>

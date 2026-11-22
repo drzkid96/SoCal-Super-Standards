@@ -321,7 +321,7 @@ for order, (code, c) in enumerate(chapters.items()):
         anchors = "".join(f'<span id="{fig_slug(i)}"></span>' for i in ids)
         cap = "; ".join(f"{found[i][0]} {i}. {found[i][1]}" for i in found) or f"{p['kind'][:-1]} page {pno + 1}"
         figs_html.append(
-            f'<figure class="mfig">{anchors}<a href="{BASE}/figs/ca-mutcd/p{pno + 1:04d}.webp" target="_blank">'
+            f'<figure class="mfig">{anchors}<a href="{BASE}/figs/ca-mutcd/p{pno + 1:04d}.webp">'
             f'<img loading="lazy" src="{BASE}/figs/ca-mutcd/p{pno + 1:04d}.webp" alt="{html.escape(cap)}"></a>'
             f'<figcaption>{esc(cap)} <span class="src-page">p {pno + 1}</span></figcaption></figure>')
         for i in found:

@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-76.3</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 57</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-75-9a/">&larr; S-75.9A</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-76-6/">S-76.6 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0057.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0057.webp" alt="S-76.3 sheet 1"></a><figcaption>Red Book S-76.3, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p57">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0057.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0057.webp" alt="S-76.3 sheet 1"></a><figcaption>Red Book S-76.3, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p57">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Note: Bevel opposite side for Right Beveled Visor. Refer to LADOT Purchase Specification # 92-061-06 for all other details.</p>
 <p>Dimensions: 18 in. +/- 1/16 in. 8 in. +/- 1/16 in. 8 1/8 in. +/- 1/16 in. diameter. 3.5 degrees. Ear detail: 3/4 in. +/- 1/32 in., 3/8 in. +/- 1/32 in., 1/8 in. R +/- 1/32 in., 3/8 in. R +/- 1/32 in. End view: 90 degrees, 45 degrees, 6 7/16 in. +/- 1/16 in., 8 15/16 in. +/- 1/16 in.</p></details>
 

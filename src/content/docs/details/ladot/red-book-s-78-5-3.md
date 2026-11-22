@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-78.5.3</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 82</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-78-5-2/">&larr; S-78.5.2</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-78-8/">S-78.8 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0082.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0082.webp" alt="S-78.5.3 sheet 1"></a><figcaption>Red Book S-78.5.3, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p82">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0082.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0082.webp" alt="S-78.5.3 sheet 1"></a><figcaption>Red Book S-78.5.3, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p82">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. Refer to Dept. of Public Works Standard Drawing # L-201-1 for additional details and requirements.</p>
 <p>2. Galvanized conduits in pull box must be bonded with copper ground strap around the neck of each conduit. PVC conduits must have their #8 green ground wires spliced together.</p>

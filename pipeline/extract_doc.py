@@ -260,7 +260,7 @@ for ci, (ctitle, a, b) in enumerate(chapters):
             meta.append("Topics: " + ", ".join(topics))
         block = head + ('<div class="pmeta">' + " &middot; ".join(meta) + "</div>\n" if meta else "")
         if img:
-            block += (f'<figure class="dfig"><a href="{img}" target="_blank"><img loading="lazy" src="{img}" alt="{esc(cfg["short"])} page {pno + 1} {esc(title)}"></a>'
+            block += (f'<figure class="dfig"><a href="{img}"><img loading="lazy" src="{img}" alt="{esc(cfg["short"])} page {pno + 1} {esc(title)}"></a>'
                       f'<figcaption>{esc(cfg["short"])}, page {pno + 1}.</figcaption></figure>\n')
         if bl and not (graphic and len(native.strip()) < 600):
             body = []

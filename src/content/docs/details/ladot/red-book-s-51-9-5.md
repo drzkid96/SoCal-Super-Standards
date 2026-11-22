@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-51.9.5</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 36</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-51-9a/">&larr; S-51.9A</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-51-9-6/">S-51.9.6 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0036.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0036.webp" alt="S-51.9.5 sheet 1"></a><figcaption>Red Book S-51.9.5, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p36">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0036.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0036.webp" alt="S-51.9.5 sheet 1"></a><figcaption>Red Book S-51.9.5, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p36">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes (circled):</h5>
 <p>(1) Round tapered steel tube with maximum taper of .15 inches per foot. End section O.D. of 2 3/8&quot; for mounting hardware. Standard 2&quot; pipe extensions of 3&#x27;-0&quot; max. length may be used at the option of the manufacturer.</p>
 <p>(2) 4 anchor bolts each base plate. Length indicated does not include required 4&quot;-90 degree bend. Each anchor bolt is threaded 6&quot; at the top and is furnished with 2 nuts &amp; 2 washers. One anchor bolt bonded to conduit.</p>

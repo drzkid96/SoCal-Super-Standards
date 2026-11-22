@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-709</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>3</b> sheets</span><span>Dated <b>12-26-19</b></span><span>Pages 10, 11, 12</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-707/">&larr; S-707</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-710/">S-710 &rarr;</a></div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 3 (page 10)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0010.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0010.webp" alt="S-709 sheet 1"></a><figcaption>Pasadena Std. Plans S-709, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p10">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0010.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0010.webp" alt="S-709 sheet 1"></a><figcaption>Pasadena Std. Plans S-709, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p10">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. All striping shall be 12 in white or yellow, in thermoplastic or similar material.</p>
 <p>2. White 12 in limit line in advance of crosswalks typically installed only in advance of signalized intersections, other locations and only when specified. In thermoplastic material or similar material.</p>
@@ -24,7 +23,7 @@ tableOfContents: false
 
 ### Sheet 2 of 3 (page 11)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0011.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0011.webp" alt="S-709 sheet 2"></a><figcaption>Pasadena Std. Plans S-709, sheet 2. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p11">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0011.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0011.webp" alt="S-709 sheet 2"></a><figcaption>Pasadena Std. Plans S-709, sheet 2. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p11">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. All striping shall be 12 in white or yellow, in thermoplastic or similar material. Spacing of crosswalk bars shall start from center line of street, avoiding wheel path. For intersections not perpendicular or 90 degrees (skewed or offset), all crosswalk (XWALK) bars shall be parallel to flow of traffic.</p>
 <p>2. For crosswalk layout, refer to Sheet 1 of 3.</p>
@@ -32,7 +31,7 @@ tableOfContents: false
 
 ### Sheet 3 of 3 (page 12)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0012.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0012.webp" alt="S-709 sheet 3"></a><figcaption>Pasadena Std. Plans S-709, sheet 3. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p12">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0012.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0012.webp" alt="S-709 sheet 3"></a><figcaption>Pasadena Std. Plans S-709, sheet 3. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p12">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. All continental bars shall be 2 ft wide and full length 14 ft, white or yellow, in thermoplastic or similar material.</p>
 <p>2. Start of first bar shall be centered to DYCL, avoiding wheel path. Continental crosswalk (XWALK) bars shall meet edge of gutter. For skewed or offset intersections, all crosswalk bars shall be parallel to flow of traffic, in thermoplastic or similar materials.</p>

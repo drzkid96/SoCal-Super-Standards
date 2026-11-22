@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-710</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>3</b> sheets</span><span>Dated <b>06-04-01</b></span><span>Pages 13, 14, 15</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-709/">&larr; S-709</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-711/">S-711 &rarr;</a></div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 3 (page 13)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0013.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0013.webp" alt="S-710 sheet 1"></a><figcaption>Pasadena Std. Plans S-710, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p13">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0013.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0013.webp" alt="S-710 sheet 1"></a><figcaption>Pasadena Std. Plans S-710, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p13">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Note: Raised pavement markers to be installed at a minimum distance of 150 mm (6 in) from any crosswalk line or limit line.</p>
 <p>Details on this sheet: <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-1" data-svg="/SoCal-Super-Standards/linetypes/detail-1.svg">Detail 1</a>: Two-way no passing with painted stripe. <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-2" data-svg="/SoCal-Super-Standards/linetypes/detail-2.svg">Detail 2</a>: Painted median (through traffic side). Detail 3: 200 mm (8 in) white left turn lane stripe (through traffic side). Detail 4: 200 mm (8 in) white right turn lane stripe (through traffic side). <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-5" data-svg="/SoCal-Super-Standards/linetypes/detail-5.svg">Detail 5</a>: White lane line stripe. <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-6" data-svg="/SoCal-Super-Standards/linetypes/detail-6.svg">Detail 6</a>: Dashed centerline. Detail 7: Reversal into left turn lane. <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-8" data-svg="/SoCal-Super-Standards/linetypes/detail-8.svg">Detail 8</a>: Left edge line with single yellow stripe (median side).</p>
 <p>Note on Detail 7: 3.6 m (12 ft) striping to be used only in the reversal.</p>
@@ -24,7 +23,7 @@ tableOfContents: false
 
 ### Sheet 2 of 3 (page 14)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0014.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0014.webp" alt="S-710 sheet 2"></a><figcaption>Pasadena Std. Plans S-710, sheet 2. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p14">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0014.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0014.webp" alt="S-710 sheet 2"></a><figcaption>Pasadena Std. Plans S-710, sheet 2. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p14">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-9" data-svg="/SoCal-Super-Standards/linetypes/detail-9.svg">Detail 9</a>: Left edge line without painted stripe (median, through traffic side), markers at 7.3 m (24 ft) spacing, 50 mm (2 in) (TYP.).</p>
 <p>Detail 10: Two-way left turn lane. Overall 29.2 m (96 ft). Dash offsets 5.5 m (18 ft), 3.6 m (12 ft), 11.0 m (36 ft), 3.6 m (12 ft) and 5.5 m (18 ft).</p>
 <p>Type D: two-way yellow reflective marker. 100 mm (4 in) by 100 mm (4 in). Reflective surface 25 degrees to 32 degrees typ. Thickness 3.0 mm (0.12 in). Overall height 18.4 mm (0.73 in) (MAX).</p>
@@ -33,7 +32,7 @@ tableOfContents: false
 
 ### Sheet 3 of 3 (page 15)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0015.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0015.webp" alt="S-710 sheet 3"></a><figcaption>Pasadena Std. Plans S-710, sheet 3. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p15">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0015.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0015.webp" alt="S-710 sheet 3"></a><figcaption>Pasadena Std. Plans S-710, sheet 3. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p15">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Detail 11, lead-in single yellow line. Notes:</h5>
 <p>1. Always place beginning and end R.P.M. (raised pavement marker).</p>
 <p>2. Distance between R.P.M. varies with length of single yellow lead-in. Minimum spacing: 6.1 m (20 ft). Standard spacing: 7.3 m (24 ft). Maximum spacing: 9.1 m (30 ft).</p>

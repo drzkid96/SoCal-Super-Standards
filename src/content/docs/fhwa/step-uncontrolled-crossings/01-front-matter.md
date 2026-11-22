@@ -11,7 +11,7 @@ sidebar:
 
 ### Page 1 - Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (Cover)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0001.webp" alt="FHWA STEP Guide page 1 "></a><figcaption>FHWA STEP Guide, page 1.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0001.webp" alt="FHWA STEP Guide page 1 "></a><figcaption>FHWA STEP Guide, page 1.</figcaption></figure>
 
 <span id="p2" class="anchor"></span>
 

@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A20A</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>01-26-18</b></span><span>Page 1</span></div></div>
 
-<div class="dwg-nav"> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2018">All Caltrans Std. Plans 2018 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2018-a20b/">A20B &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0001.webp" alt="A20A sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A20A, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p1">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2018/p0001.webp" alt="A20A sheet 1"></a><figcaption>Caltrans Std. Plans 2018 A20A, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2018/01-pages-1-6/#p1">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Note: For freeway application only (applies to Details 9A and 12A).</p>
 <p>Legend: Markers: Type C red-clear retroreflective. Type D two-way yellow retroreflective. Type G one-way clear retroreflective. Type H one-way yellow retroreflective. Lines: 6&quot; white. 6&quot; yellow.</p>
 <p>Deleted details: 3, 4, 7, 10, 13, 14, 14A, 17, 20 and 23.</p>

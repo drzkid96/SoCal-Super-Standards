@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-67.1</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 55</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-63-1-4/">&larr; S-63.1.4</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-68-1/">S-68.1 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0055.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0055.webp" alt="S-67.1 sheet 1"></a><figcaption>Red Book S-67.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p55">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0055.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0055.webp" alt="S-67.1 sheet 1"></a><figcaption>Red Book S-67.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p55">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Construction, material and finish painting shall conform to &#x27;Standard Specifications&#x27; (latest edition), Dept. of Transportation, State of California.</p>
 <p>Callouts: 3/8 in.-16 N.C. x 3/4 in. sq. hd. cup pt. set screw, hot dip galvanized, (2) Req. 3/8 in.-16 N.C. x 4 in. sq. hd. bolt with 2 nuts and 2 flatwashers, hot dip galvanized. 72 teeth. Special screw 1/2 in.-13NC x 3/4 in. modified hex. head, hot dip galvanized. 5/16 in. Views: Plumbizer, Slip Fitter, Typical Raintight Connector, Lock Ring.</p></details>
 

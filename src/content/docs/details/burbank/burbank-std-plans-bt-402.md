@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-402</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-01-92</b></span><span>Page 3</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-401/">&larr; BT-401</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-403/">BT-403 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0003.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0003.webp" alt="BT-402 sheet 1"></a><figcaption>Burbank Std. Plans BT-402, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p3">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0003.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0003.webp" alt="BT-402 sheet 1"></a><figcaption>Burbank Std. Plans BT-402, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p3">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>General provisions. Parking space dimensions, Burbank Municipal Code (B.M.C.) 31-1041. The following minimum parking space widths shall be provided:</p>
 <p>Uses and minimum width: (1) Residential, 8&#x27;-6&quot;. (2) Retail and services commercial, 9&#x27;-0&quot;. (3) Banks and savings and loan institutions, 9&#x27;-0&quot;. (4) Medical offices, 9&#x27;-0&quot;. (5) Industrial, 8&#x27;-6&quot;. (6) Offices, 8&#x27;-6&quot;.</p>
 <p>The minimum width of parking spaces adjacent to walls, columns or other vertical obstructions shall be determined by standards established by the Public Works Director.</p>

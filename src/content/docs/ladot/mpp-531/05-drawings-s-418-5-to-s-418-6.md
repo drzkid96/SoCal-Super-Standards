@@ -12,7 +12,7 @@ sidebar:
 ### Page 63 - Roadside Freeway Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.5</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0063.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0063.webp" alt="MPP 531 page 63 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 63.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0063.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0063.webp" alt="MPP 531 page 63 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 63.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Index of sheets:</h5>
 <p>. General Notes: See Sheet 2</p>
 <p>. Arrow Styles: See Sheet 3</p>
@@ -25,7 +25,7 @@ sidebar:
 ### Page 64 - Roadside Freeway Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.5</strong> &middot; MUTCD: <a href="/SoCal-Super-Standards/s/ca/2D.45/">Section 2D.45</a> &middot; Topics: parking-curb, signs, accessibility</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0064.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0064.webp" alt="MPP 531 page 64 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 64.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0064.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0064.webp" alt="MPP 531 page 64 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 64.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. See S-418.6 regarding the use of overhead versus roadside freeway guide signs. Use roadside freeway guide signing where access to the freeway is provided only by the right lane, where overhead signing may not be feasible or as interim signing until overhead signing can be installed.</p>
 <p>2. See S-476.1 regarding mounting of roadside freeway guide signing. 4&#x27;x8&#x27;, 5&#x27;x6&#x27;, 4&#x27;x6&#x27; and 3&#x27;x8&#x27; signs require dual posts, while 3&#x27;x6&#x27; signs may be installed on an electrolier or single post. Signs up to 10 square feet (sq-ft) may be installed on steel electroliers within concrete sidewalks.</p>
 <p>3. Lane Assignment freeway guide signs on multilane cross streets that have access to freeways are required per Section 2D.45 of the California MUTCD. Where roadside signs are to be used, apply the appropriate formats as shown in Signs B, C, F, G, I, L, R, S, W and X.</p>
@@ -42,7 +42,7 @@ sidebar:
 ### Page 65 - Roadside Freeway Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.5</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0065.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0065.webp" alt="MPP 531 page 65 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 65.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0065.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0065.webp" alt="MPP 531 page 65 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 65.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Arrow labels: One Line; Advance. Arrow corner radius: R = 5/8&quot;. Shield captions: 1 or 2 digits (21&quot; wide shields); 3 digits (24&quot; wide shields). Shield label text shown: 101, 2, INTERSTATE 10, 170, INTERSTATE 405. No numbered notes on this sheet.</p></details>
 
 <span id="p66" class="anchor"></span>
@@ -50,7 +50,7 @@ sidebar:
 ### Page 66 - Roadside Freeway Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.5</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0066.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0066.webp" alt="MPP 531 page 66 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 66.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0066.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0066.webp" alt="MPP 531 page 66 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 66.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Dimension labels on the sheet: 1000&#x27;~1500&#x27; (shown at each of the four outer approaches), 600&#x27;~1500&#x27; (shown on the middle cross street left and right), 400&#x27; min., 300&#x27; min., 300&#x27; min. (sign spacing from the outermost sign toward the interchange), 1 mile. Labels in the drawing: Freeway; Metropoliton; Urban; Freeway (Interstate 205 shield at the Urban Freeway); route shield 28; sign location letters A through Z. A north arrow is shown. No numbered notes on this sheet.</p></details>
 
 <span id="p67" class="anchor"></span>
@@ -58,7 +58,7 @@ sidebar:
 ### Page 67 - Roadside Freeway Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.5</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0067.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0067.webp" alt="MPP 531 page 67 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 67.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0067.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0067.webp" alt="MPP 531 page 67 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 67.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Sign B note: Sign not needed for one-lane approach.</p>
 <p>Sign C note: See details and note for Sign B.</p>
 <p>Lettering callouts: Sign A first line: 8&quot; u.c., 6&quot; l.c., Series E (Series C may be used under constrained situations). Sign A second line: 8&quot; u.c., 6&quot; l.c., Series E; shield 18&quot;, numbers in-line with letters; third line 6&quot; caps, Series D. Sign B: 18&quot; shield, numbers in-line with letters; 8&quot; u.c., 6&quot; l.c., Series E; 8&quot; and 6&quot; caps, Series D; 6&quot; caps, Series D. Abbreviations: u.c. = upper case; l.c. = lower case. No numbered notes on this sheet.</p></details>
@@ -68,7 +68,7 @@ sidebar:
 ### Page 68 - Roadside Freeway Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.5</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0068.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0068.webp" alt="MPP 531 page 68 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 68.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0068.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0068.webp" alt="MPP 531 page 68 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 68.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Sign D: 13&quot;x15&quot; Advance Arrow vertically centered. 8&quot; and 6&quot; caps, Series D, 1 1/4&quot; dividing line, typical. 18&quot; shield, numbers in-line with letters. 8&quot; upper case (u.c.), 6&quot; lower case (l.c.), Series E. 8&quot; and 6&quot; caps, Series D. 12 3/4&quot; x 11 1/4&quot; One Line Arrow, vertically centered.</p>
 <p>Sign E: See Sign A.</p>
 <p>Sign F: Same as Sign B, except that &#x27;EAST&#x27; becomes &#x27;WEST&#x27;.</p>
@@ -80,7 +80,7 @@ sidebar:
 ### Page 69 - Roadside Freeway Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.5</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0069.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0069.webp" alt="MPP 531 page 69 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 69.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0069.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0069.webp" alt="MPP 531 page 69 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 69.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Sign I: 18&quot; shield, numbers in-line with letters. 8&quot; upper case (u.c.), 6&quot; lower case (l.c.), Series E. 6&quot; caps, Series D. Note: For one-lane approaches see Sign Q.</p>
 <p>Sign J: 18&quot; shield, numbers in-line with letters. 8&quot; u.c., 6&quot; l.c., Series E. 8&quot; and 6&quot; caps, Series D. 12 3/4&quot; x 11 1/4&quot; One Line Arrow.</p>
 <p>Sign K: See details for Sign J.</p>
@@ -91,7 +91,7 @@ sidebar:
 ### Page 70 - Roadside Freeway Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.5</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0070.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0070.webp" alt="MPP 531 page 70 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 70.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0070.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0070.webp" alt="MPP 531 page 70 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 70.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Sign M: 18&quot; shield, numbers in-line with letters. 8&quot; upper case (u.c.), 6&quot; lower case (l.c.), Series E. 8&quot; and 6&quot; caps, Series D. 12 3/4&quot; x 11 1/4&quot; One Line Arrow.</p>
 <p>Sign N: 18&quot; shield, numbers in-line with letters. 8&quot; u.c., 6&quot; l.c., Series E. 8&quot; and 6&quot; caps, Series D. 12 3/4&quot; x 11 1/4&quot; One Line Arrow.</p>
 <p>Sign O: See Sign J.</p>
@@ -102,7 +102,7 @@ sidebar:
 ### Page 71 - Roadside Freeway Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.5</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0071.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0071.webp" alt="MPP 531 page 71 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 71.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0071.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0071.webp" alt="MPP 531 page 71 S-418.5 Roadside Freeway Guide Signing"></a><figcaption>MPP 531, page 71.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Sign Q: See details for Sign I.</p>
 <p>Sign R: See Sign B.</p>
 <p>Sign S: See Sign C.</p>
@@ -119,7 +119,7 @@ sidebar:
 ### Page 72 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0072.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0072.webp" alt="MPP 531 page 72 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 72.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0072.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0072.webp" alt="MPP 531 page 72 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 72.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Index of sheets:</h5>
 <p>. Applications of Overhead Guide Signs: See Sheet 2</p>
 <p>. Overhead Sign Format Details: See Sheet 3</p>
@@ -135,7 +135,7 @@ sidebar:
 ### Page 73 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; MUTCD: <a href="/SoCal-Super-Standards/s/ca/2D.45/">Section 2D.45</a> &middot; Topics: transit, signs, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0073.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0073.webp" alt="MPP 531 page 73 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 73.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0073.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0073.webp" alt="MPP 531 page 73 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 73.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>APPLICATION OF OVERHEAD GUIDE SIGNS</h5>
 <p>General: These signs are desirable to provide a high degree of visibility to forewarn and direct motorists on multi-lane approaches of roadway access or lane assignment conditions that generally cannot be anticipated. Situations where overhead signs generally should be provided include: divergent arterial roadways; skewed arterial approaches; unshadowed left-turn lanes; arterial grade separations, especially those which involve freeways; priority lanes, such as bus and/or carpool lanes; street name changes; end of one-way operation. While overhead signing should be used for the above situations, extenuating circumstances occasionally may suggest an alternative. Accordingly, roadside signing shall be used in the above situations where overhead signing is not used.</p>
 <p>Divergent Arterial Roadways: Overhead signs are desirable because motorists cannot otherwise anticipate lane assignment and street name changes at the divergence. Where the intersecting street is not an arterial street and no lanes are entrapped onto it then overhead signing is not required. Also, where one of the arterial roadways has no change in horizontal alignment nor name and has no lanes that are entrapped onto the intersecting arterial roadway then no divergence exists and thus overhead signing is not required. See Signs A and B with related notes.</p>
@@ -151,7 +151,7 @@ sidebar:
 ### Page 74 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0074.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0074.webp" alt="MPP 531 page 74 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 74.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0074.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0074.webp" alt="MPP 531 page 74 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 74.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>OVERHEAD SIGN FORMAT DETAILS</h5>
 <p>Legend Size: The minimum size of letters on overhead signs is 8 inches upper case and 6 inches lower case. On streets with three or more approach lanes or with a posted speed limit of 40 miles per hour or greater 10.67 inch upper case and 8 inch lower case letters should be used.</p>
 <p>Series E letter widths should be used, but in constrained situations Series C letter widths may be used.</p>
@@ -176,7 +176,7 @@ sidebar:
 ### Page 75 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0075.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0075.webp" alt="MPP 531 page 75 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 75.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0075.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0075.webp" alt="MPP 531 page 75 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 75.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Arrow labels: One Line; Two Line; Advance Arrow; Down Vertical Arrow; Diagrammatic Arrows. Typical (typ.) dimensions apply to all diagrammatic arrows. Corner radii: R = 13/16 in. for the One Line and Two Line arrows, R = 5/8 in. for the Advance Arrow. No numbered notes on this sheet.</p></details>
 
 <span id="p76" class="anchor"></span>
@@ -184,6 +184,6 @@ sidebar:
 ### Page 76 - Overhead Guide Signing
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0076.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0076.webp" alt="MPP 531 page 76 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 76.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0076.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0076.webp" alt="MPP 531 page 76 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 531, page 76.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Route Shield Sizes captions: 1 or 2 digits; 3 digits. Labels: INTERSTATE 5; INTERSTATE 405; route numbers 101, 27, 134. W 61(CA) Signs: Yellow or White Background as per Note 4 (W61F(CA) and W61B(CA)). Callout: Down Vertical Arrow. No numbered notes on this sheet.</p></details>
 

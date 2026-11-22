@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-716</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>07-23-01</b></span><span>Page 21</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-715/">&larr; S-715</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-717/">S-717 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0021.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0021.webp" alt="S-716 sheet 1"></a><figcaption>Pasadena Std. Plans S-716, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p21">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0021.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0021.webp" alt="S-716 sheet 1"></a><figcaption>Pasadena Std. Plans S-716, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p21">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Note: Clearance from the ground to the bottom of the lowest sign shall be 2.1 m (7&#x27;).</p>
 <p>Callouts: Section as specified 1.0 m (3&#x27;) or 1.2 m (4&#x27;). 205 mm (8&quot;) minimum (MIN.). 0.3 m (1&#x27;) MIN. overlap as needed for sign height. 5 mm (1/8&quot;) spacer with fiber washer, 2 each (EA.) sign. Galvanized steel 8 mm (5/16&quot;) button head bolt and square nut. Galvanized steel 8 mm (5/16&quot;) square head bolt, square washer. Galvanized steel strapped-on bracket with 8 mm (5/16&quot;) tapped hole, stainless steel bracket, and neoprene washer. 16 mm x 0.75 mm (5/8&quot; x 0.03&quot;) stainless steel strap.</p></details>
 

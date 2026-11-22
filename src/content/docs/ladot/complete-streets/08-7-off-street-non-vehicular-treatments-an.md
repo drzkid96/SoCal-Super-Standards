@@ -407,7 +407,7 @@ sidebar:
 ### Page 245 - Considerations
 
 <div class="pmeta">Topics: bikeways, parking-curb, accessibility, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0245.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0245.webp" alt="Complete Streets DG page 245 Considerations"></a><figcaption>Complete Streets DG, page 245.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0245.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0245.webp" alt="Complete Streets DG page 245 Considerations"></a><figcaption>Complete Streets DG, page 245.</figcaption></figure>
 <div class="dtext"><p>237</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <p>•• An undercrossing or overcrossing may be appropriate where bicycle demand exists to cross a freeway in a specific location, or where a flood control channel (e.g., the Los Angeles River) separates a neighborhood from a nearby bicyclist destination.</p>
@@ -541,11 +541,11 @@ sidebar:
 
 ### Page 251
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0251.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0251.webp" alt="Complete Streets DG page 251 "></a><figcaption>Complete Streets DG, page 251.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0251.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0251.webp" alt="Complete Streets DG page 251 "></a><figcaption>Complete Streets DG, page 251.</figcaption></figure>
 
 
 <span id="p252" class="anchor"></span>
 
 ### Page 252
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0252.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0252.webp" alt="Complete Streets DG page 252 "></a><figcaption>Complete Streets DG, page 252.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0252.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0252.webp" alt="Complete Streets DG page 252 "></a><figcaption>Complete Streets DG, page 252.</figcaption></figure>

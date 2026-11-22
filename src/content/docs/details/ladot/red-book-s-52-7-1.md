@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-52.7.1</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 90</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-7/">&larr; S-52.7</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-57-2b/">S-57.2B &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0090.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0090.webp" alt="S-52.7.1 sheet 1"></a><figcaption>Red Book S-52.7.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p90">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0090.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0090.webp" alt="S-52.7.1 sheet 1"></a><figcaption>Red Book S-52.7.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p90">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Note:</h5>
 <p>Base plate shall be hot dipped galvanized after machining in accordance with the latest edition of ASTM designation A-123.</p>
 <p>Spec. No. 92-056-01.</p>

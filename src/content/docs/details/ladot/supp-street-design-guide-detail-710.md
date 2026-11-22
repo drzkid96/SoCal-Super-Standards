@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">Detail 710</span><span class="dwg-src">Los Angeles Supplemental Street Design Guide &middot; February 2020, rev. May 2020</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 147, 148</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/supp-street-design-guide-detail-700/">&larr; Detail 700</a> <a href="/SoCal-Super-Standards/details/?src=Supp. Street Design Guide">All Supp. Street Design Guide drawings</a> </div>
 
 
 
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 147)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0147.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0147.webp" alt="Detail 710 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 710, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/09-pages-145-162/#p147">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0147.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0147.webp" alt="Detail 710 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 710, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/09-pages-145-162/#p147">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. All splitter island corners use minimum 1 ft radius.</p>
 <p>2. Splitter island corner on approach use small radius (MIN 1 ft) to encourage entry deflection.</p>
 <p>3. Splitter island corner on exit use larger radius to minimize damage from impacts.</p>
@@ -28,7 +27,7 @@ tableOfContents: false
 
 ### Sheet 2 of 2 (page 148)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0148.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0148.webp" alt="Detail 710 sheet 2"></a><figcaption>Supp. Street Design Guide Detail 710, sheet 2. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/09-pages-145-162/#p148">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0148.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0148.webp" alt="Detail 710 sheet 2"></a><figcaption>Supp. Street Design Guide Detail 710, sheet 2. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/09-pages-145-162/#p148">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Center of island typically designed as high point. In certain locations a constant slope across island may be desirable. Final dimensions to be determined by Engineer.</p>
 <p>2. Mountable splitter islands are preferred, as shown. Painted islands may be used when site conditions lead to splitter islands less than 50 SF in size.</p>
 <p>3. PCC pavement within islands shall be distinct from the roadway and sidewalks. PCC application may use integral color, and surface texture may also be applied.</p>

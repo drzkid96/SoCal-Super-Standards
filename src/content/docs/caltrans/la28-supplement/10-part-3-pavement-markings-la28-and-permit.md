@@ -82,7 +82,7 @@ sidebar:
 
 ### Page 71 - Figure 3B-107(LA28). LA28 and PERMIT ONLY Word Pavement Markings
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0071.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0071.webp" alt="LA28 Supplement page 71 Figure 3B-107(LA28). LA28 and PERMIT ONLY Word Pavement Markings"></a><figcaption>LA28 Supplement, page 71.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0071.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0071.webp" alt="LA28 Supplement page 71 Figure 3B-107(LA28). LA28 and PERMIT ONLY Word Pavement Markings"></a><figcaption>LA28 Supplement, page 71.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Figure 3B-107(LA28). LA28 and PERMIT ONLY Word Pavement Markings GRN lane t LA28 Markings GRN lane I0l LA28 and P E RMIT ONLY Markings Legend - Direction of travel CA MUTCD 2026 LA28 Supplement Chapter 3B - Pavement and Curb Markings (Figures) Part 3 Markings Page 71 July 15, 2026 </p></details>
 
 
@@ -90,7 +90,7 @@ sidebar:
 
 ### Page 72 - Figure 3B-10B(LA28). Examples of GRN Pavement Markings
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0072.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0072.webp" alt="LA28 Supplement page 72 Figure 3B-10B(LA28). Examples of GRN Pavement Markings"></a><figcaption>LA28 Supplement, page 72.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0072.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0072.webp" alt="LA28 Supplement page 72 Figure 3B-10B(LA28). Examples of GRN Pavement Markings"></a><figcaption>LA28 Supplement, page 72.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>CA MUTCD 2026 LA28 Supplement Figure 3B-10B(LA28). Examples of GRN Pavement Markings A- LA28 Pavement Marking ' ll ' r-..- I I r-- I A=28 ft2 B - LA28 PERMIT ONLY at GRN Lane Opening (Freeway) and Arterial Streets 124' ■       ===I w 50' w 50' w C - LA28 PERMIT ONLY at Continuous GRN Lane   CX&gt; 524" k-1 _25_ o· -kl-_250_ ' -I Chapter 3B - Pavement and Curb Markings (Figures) Part 3 Markings Page 72 July 15, 2026 ONLY </p></details>
 
 

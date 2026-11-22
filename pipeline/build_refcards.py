@@ -87,7 +87,7 @@ if os.path.exists("data/aashto_gbf5.json"):
         tops = [k for k, rx in TOPIC_RX.items() if rx.search(fig["title"])]
         chips = " ".join(f'<a class="chip" href="{BASE}/topics/{k}/">{esc(TN[k])}</a>' for k in tops[:3])
         fslug = f'fig-{fig["num"].lower()}.webp'
-        fimg = f' <a href="{BASE}/figs/aashto/gbf-5/{fslug}" target="_blank">View figure</a>' if (has_extracted_figs and os.path.exists(f"{gbf_figs_dir}/{fslug}")) else ""
+        fimg = f' <a href="{BASE}/figs/aashto/gbf-5/{fslug}">View figure</a>' if (has_extracted_figs and os.path.exists(f"{gbf_figs_dir}/{fslug}")) else ""
         enote = f' <span class="badge rev" title="{esc(fig["errata"])}">Errata</span>' if fig.get("errata") else ""
         idx_rows.append(
             f'<tr data-kind="fig" data-ch="{fig["chapter"]}">'

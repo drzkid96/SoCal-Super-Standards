@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-57.2D</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 48</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-57-2c/">&larr; S-57.2C</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-57-3/">S-57.3 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0048.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0048.webp" alt="S-57.2D sheet 1"></a><figcaption>Red Book S-57.2D, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p48">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0048.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0048.webp" alt="S-57.2D sheet 1"></a><figcaption>Red Book S-57.2D, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p48">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. The CD954 standard shall conform to Dept. of Transportation, City of Los Angeles, standard drawing # S-51.9.6 (foundation excluded).</p>
 <p>2. The mast arm length shall not exceed 15&#x27;-0&quot;.</p>
 <p>3. There shall be a maximum of 2 - 5 section signal heads and 2 - ped. heads mounted to the shaft and one 3-section signal head mounted at the end of mast arm. All signal heads to be polycarbonate type.</p>

@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-406</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-01-92</b></span><span>Page 11</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-405/">&larr; BT-405</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-407/">BT-407 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0011.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0011.webp" alt="BT-406 sheet 1"></a><figcaption>Burbank Std. Plans BT-406, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p11">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0011.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0011.webp" alt="BT-406 sheet 1"></a><figcaption>Burbank Std. Plans BT-406, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p11">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>Case 1: garage above street level (no scale). Garage setback minimum (MIN.) 16.5&#x27; from curb face. Top of curb (TC) level, garage floor level, 20% slope, sidewalk slope 1/4&quot; per 1&#x27;. Maximum (MAX.) rise 1.26&#x27; + 0.24&#x27; (see table).</p>
 <p>Case 2: garage below street level (no scale). Garage setback MIN. 20.5&#x27; from curb face. Maximum fall 0.38&#x27; + 0.28&#x27; (see table).</p>
 <h5>Notes:</h5>

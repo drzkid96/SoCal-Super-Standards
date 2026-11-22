@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-711</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-04-01</b></span><span>Page 16</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-710/">&larr; S-710</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-712/">S-712 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0016.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0016.webp" alt="S-711 sheet 1"></a><figcaption>Pasadena Std. Plans S-711, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p16">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0016.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0016.webp" alt="S-711 sheet 1"></a><figcaption>Pasadena Std. Plans S-711, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p16">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. If left turn pocket is included, the length of the lead-in solid white lane line shall equal the length of the left turn pocket unless otherwise specified.</p>
 <p>2. If raised pavement markers are required, see Standard Plan S-710, Details 10, 11, and 12.</p>
 <p>Labels: Two-way left turn lane (yellow), 76 mm (3 in) line width. Single yellow center line. White lane line. Dimensions: 3.6 m (12 ft), 11.0 m (36 ft), 7.3 m (24 ft), 2.1 m (7 ft), 5.2 m (17 ft), 21.9 m (72 ft) minimum to 29.3 m (96 ft) maximum, 14.6 m (48 ft) minimum to 21.9 m (72 ft) maximum, 15.2 m (50 ft).</p></details>

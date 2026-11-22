@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A24F</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 13</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24e/">&larr; A24E</a> <a href="/SoCal-Super-Standards/details/?src=Caltrans Std. Plans 2026">All Caltrans Std. Plans 2026 drawings</a> <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24g/">A24G &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp" alt="A24F sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A24F, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/03-pages-13-18/#p13">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp" alt="A24F sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A24F, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/03-pages-13-18/#p13">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Spaces between markings must be placed in wheel tracks of each lane.</p>
 <p>2. Spacings not to exceed 2.5 times width of longitudinal line.</p>
 <p>3. All crosswalk markings must be white except those near schools must be yellow.</p></details>

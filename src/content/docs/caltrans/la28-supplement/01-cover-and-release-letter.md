@@ -11,7 +11,7 @@ sidebar:
 
 ### Page 1 - Los Angeles 2028 Olympics and Paralympics (LA28)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0001.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0001.webp" alt="LA28 Supplement page 1 Los Angeles 2028 Olympics and Paralympics (LA28)"></a><figcaption>LA28 Supplement, page 1.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0001.webp" alt="LA28 Supplement page 1 Los Angeles 2028 Olympics and Paralympics (LA28)"></a><figcaption>LA28 Supplement, page 1.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Los Angeles 2028 Olympics and Paralympics (LA28) SUPPLEMENT To CA MUTCD 2026 (FHWA's MUTCD 2023 Edition, as amended for use in California) July 15, 2026 </p></details>
 
 
@@ -31,7 +31,7 @@ sidebar:
 ### Page 3 - GAVIN NEWSOM, GOVERNOR
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0003.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0003.webp" alt="LA28 Supplement page 3 GAVIN NEWSOM, GOVERNOR"></a><figcaption>LA28 Supplement, page 3.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0003.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0003.webp" alt="LA28 Supplement page 3 GAVIN NEWSOM, GOVERNOR"></a><figcaption>LA28 Supplement, page 3.</figcaption></figure>
 <div class="dtext"><p>CALIFORNIA STATE TRANSPORTATION AGENCY</p>
 <p>California Department of Transportation</p>
 <p>DIVIS ION OF SA FETY PROGRAMS P .0 . BOX 942873, MS-49 I SACRAMENTO , CA 9 4273-0001 (9 1 6) 654-6 1 30 [ FAX (9 1 6) 653-5776 TTY 7 1 1 [ www.dot.ca.gov</p>
@@ -52,7 +52,7 @@ sidebar:
 
 ### Page 4 - Cisweey Cisweey
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0004.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0004.webp" alt="LA28 Supplement page 4 Cisweey Cisweey"></a><figcaption>LA28 Supplement, page 4.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0004.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0004.webp" alt="LA28 Supplement page 4 Cisweey Cisweey"></a><figcaption>LA28 Supplement, page 4.</figcaption></figure>
 <div class="dtext"><p>ta n|yoT qqS n nnnnfUhi n}y  y[|0 ruV| qY n}y   uVri X S}o ss geI gegg uT`[ g</p>
 <p>Id[ tmgh y~q[u[y  } nm tN J nngegg i rqV[ ~| [Z|z f[ r y[z[ T i d iddZ}aXTaa|d}b TudU\[U}cTueXTuXY lU{Z j U TXd [Z | d[ Ty uk  j}y }\ e j [uTiqa</p>
 <p>nTqT{ j `U [\q} d[nKnnn v[uW[  \} } kZjz` jzT sTW s[  kv[T{Z ~~| \} d[ Y[[ s|~u[z |] f i ~  q[u[z  | f[ nmtOIn ngegga</p>

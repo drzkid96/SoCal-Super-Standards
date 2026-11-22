@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-409A-1</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>11-14-19</b></span><span>Page 13</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-407/">&larr; BT-407</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-410-1/">BT-410-1 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0013.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0013.webp" alt="BT-409A-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-409A-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p13">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0013.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0013.webp" alt="BT-409A-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-409A-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p13">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. Alignment line #1 shall be distance &#x27;B&#x27; behind curb face based on distance &#x27;A&#x27;.</p>
 <p>2. Alignment line #2 must be a minimum (MIN.) of 10 feet from alignment line #1. At signalized intersections, alignment line #2 must be within 5 feet of a crosswalk push button.</p>

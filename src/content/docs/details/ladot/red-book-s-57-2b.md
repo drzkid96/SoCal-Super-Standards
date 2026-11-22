@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-57.2B</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 46</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-7-1/">&larr; S-52.7.1</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-57-2c/">S-57.2C &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0046.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0046.webp" alt="S-57.2B sheet 1"></a><figcaption>Red Book S-57.2B, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p46">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0046.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0046.webp" alt="S-57.2B sheet 1"></a><figcaption>Red Book S-57.2B, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p46">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Use 12 in. heads corresponding to permanent heads being replaced.</p>
 <p>2. 36 in. square (SQ.) x 1/4 in. thick (THK.) steel platform, hot dip galvanized per ASTM 123.</p>
 <p>3. Type 1 base with 4 1 in. diameter x 3-1/2 in. bolts and nuts with 2 washers for each bolt.</p>

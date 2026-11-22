@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-68.1</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 56</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-67-1/">&larr; S-67.1</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-1a/">S-70.1A &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0056.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0056.webp" alt="S-68.1 sheet 1"></a><figcaption>Red Book S-68.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p56">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0056.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0056.webp" alt="S-68.1 sheet 1"></a><figcaption>Red Book S-68.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p56">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Material: ASTM A36 steel plate.</p>
 <p>2. Hot dip galvanized plate per ASTM Spec. A-123.</p>
 <p>Callouts: 1 1/4 in. R. 1 in. Dia. Hole. 4 1/4 in. 1 in. 3/4 in. 1 1/2 in. 7/16 in. Dia. holes. Drill four (4) 7/16 in. holes to match removable lifting plate. 3/8 in. x 1 1/4 in. N.C. Hex. Head Bolt and nut, Cad. plated (2 Req.). 1/8 in. (Stock). Controller Cabinet Wall (Ref.). Scale: 1/2 in. = 1 in.</p></details>

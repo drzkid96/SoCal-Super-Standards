@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-417</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Dated <b>07-23-25</b></span><span>Pages 22, 23</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-416/">&larr; BT-416</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-418/">BT-418 &rarr;</a></div>
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/w84ca/" data-svg="/SoCal-Super-Standards/signs/ca/w84ca.webp"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/w84ca.webp" alt="W84(CA)"><span><b>W84(CA)</b> Speed Humps Ahead warning sign</span></a></div>
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 22)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0022.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0022.webp" alt="BT-417 sheet 1"></a><figcaption>Burbank Std. Plans BT-417, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p22">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0022.webp" alt="BT-417 sheet 1"></a><figcaption>Burbank Std. Plans BT-417, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p22">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Construction notes:</h5>
 <p>1. Install marking per marking detail 1 and sheet 2.</p>
 <p>2. Install &quot;BUMP&quot; per marking detail 2.</p>
@@ -31,7 +30,7 @@ tableOfContents: false
 
 ### Sheet 2 of 2 (page 23)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0023.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0023.webp" alt="BT-417 sheet 2"></a><figcaption>Burbank Std. Plans BT-417, sheet 2. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p23">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0023.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0023.webp" alt="BT-417 sheet 2"></a><figcaption>Burbank Std. Plans BT-417, sheet 2. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p23">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Install marking per marking detail 1 (callout 1, edge of taper shown).</p>
 <p>Install <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> per Caltrans Std Plan A20A.</p>
 <p>Existing curb and gutter. Existing AC pavement. A.C. standard 3/8&quot; mix D2-AR-4000. Apply tack coat.</p>

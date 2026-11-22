@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-78.5.1</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 80</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-77-8a/">&larr; S-77.8A</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-78-5-2/">S-78.5.2 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0080.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0080.webp" alt="S-78.5.1 sheet 1"></a><figcaption>Red Book S-78.5.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p80">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0080.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0080.webp" alt="S-78.5.1 sheet 1"></a><figcaption>Red Book S-78.5.1, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p80">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>NOTES:</h5>
 <p>1. Pullbox details not shown on this plan shall conform to Department (Dept.) of Public Works Standard Drawing # L-201-0.</p>
 <p>2. Outside dimension: Type PB2 is 15&quot; x 25&quot;, Type PB3 is 22&quot; x 34&quot;.</p>

@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-70.1D</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 69</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-1a/">&larr; S-70.1A</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-1e/">S-70.1E &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0069.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0069.webp" alt="S-70.1D sheet 1"></a><figcaption>Red Book S-70.1D, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p69">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0069.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0069.webp" alt="S-70.1D sheet 1"></a><figcaption>Red Book S-70.1D, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p69">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. Install four (4) complete alternating turns of loop wires, unless otherwise specified.</p>
 <p>2. For stub-out and conduit details refer to page 2 of S-70.1A.</p>

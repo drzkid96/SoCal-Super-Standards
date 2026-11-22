@@ -39,7 +39,7 @@ sidebar:
 ### Page 20 - Conduct a Road Safety Audit (RSA)
 
 <div class="pmeta">Topics: crosswalks, transit, intersections</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0020.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0020.webp" alt="FHWA STEP Guide page 20 Conduct a Road Safety Audit (RSA)"></a><figcaption>FHWA STEP Guide, page 20.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0020.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0020.webp" alt="FHWA STEP Guide page 20 Conduct a Road Safety Audit (RSA)"></a><figcaption>FHWA STEP Guide, page 20.</figcaption></figure>
 <div class="dtext"><p>13</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Analyze Crash Types and Safety Issues</p>

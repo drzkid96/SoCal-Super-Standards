@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-72.0A</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 62</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-4a/">&larr; S-70.4A</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-72-1-1/">S-72.1.1 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0062.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0062.webp" alt="S-72.0A sheet 1"></a><figcaption>Red Book S-72.0A, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p62">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0062.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0062.webp" alt="S-72.0A sheet 1"></a><figcaption>Red Book S-72.0A, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p62">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>* Adjust pushbutton mounting height to 42&quot; above the surface pedestrians are expected to access pushbutton from.</p>
 <p>(Callouts on the drawing) Steel standards: No. 7 drill, 1/4&quot;-20 N.C. tap, 2 holes; 1 1/8&quot; drill. Concrete standards: standard inserts for concrete standards, tapped 1/4&quot;-20 N.C.; 5/8&quot; hole. Parallel to crosswalk for which intended. Pushbutton 3&#x27;-6&quot; typical*.</p></details>
 

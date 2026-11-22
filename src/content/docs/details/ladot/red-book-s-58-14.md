@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-58.14</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 118</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-13/">&larr; S-58.13</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-16/">S-58.16 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0118.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0118.webp" alt="S-58.14 sheet 1"></a><figcaption>Red Book S-58.14, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p118">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0118.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0118.webp" alt="S-58.14 sheet 1"></a><figcaption>Red Book S-58.14, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p118">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. The &quot;USE TUNNEL&quot; sign shall be internally illuminated by super LED diodes. The diodes shall emit red colored light. The sign background shall be black.</p>
 <p>2. The sign message &quot;USE TUNNEL&quot; shall be 4&quot; in height with brush stroke width of 1/2&quot;. The arrow shall be 6-1/2&quot; long with brush stroke width of 1&quot;.</p>
 <p>3. The sign housing shall consist of two (2) standard* pedestrian signal enclosures connected to one another in a vertical manner.</p>

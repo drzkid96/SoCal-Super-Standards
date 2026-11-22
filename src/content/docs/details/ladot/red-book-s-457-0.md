@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-457.0</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 115</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-454-2/">&larr; S-454.2</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-486-0/">S-486.0 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0115.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0115.webp" alt="S-457.0 sheet 1"></a><figcaption>Red Book S-457.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p115">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0115.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0115.webp" alt="S-457.0 sheet 1"></a><figcaption>Red Book S-457.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/08-pages-113-128/#p115">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Component legend (circled numbers):</h5>
 <p>(1) Pivotal upper bracket.</p>
 <p>(2) 1&quot; x 1/4&quot; slot for double strapping to electrolier mast arm. Cat. No. M2G-34S(HD) .032&quot; x 1/4&quot; heavy duty stainless steel strap with Cat. No. M2G-34B(HD) buckle recommended.</p>

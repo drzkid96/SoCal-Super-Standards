@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-72.2</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 64</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-72-1-1/">&larr; S-72.1.1</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-73-0/">S-73.0 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0064.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0064.webp" alt="S-72.2 sheet 1"></a><figcaption>Red Book S-72.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p64">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0064.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0064.webp" alt="S-72.2 sheet 1"></a><figcaption>Red Book S-72.2, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/04-pages-49-64/#p64">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Note: Sign shall be powder coated aluminum with black legend on white background as shown.</p>
 <p>2. Material: .063 aluminum.</p>
 <p>3. * Use left, right or double arrow as necessary.</p>

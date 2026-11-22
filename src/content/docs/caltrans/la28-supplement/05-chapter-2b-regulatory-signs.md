@@ -63,7 +63,7 @@ sidebar:
 ### Page 33 - Figure 2B-4(LA28). Examples of LA28 Sign Panel and Plaque Usage on Lane Control Signs
 
 <div class="pmeta">Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r3-8/" data-svg="/SoCal-Super-Standards/signs/R3-8.svg">R3-8</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-8a/" data-svg="/SoCal-Super-Standards/signs/R3-8a.svg">R3-8a</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-8b/" data-svg="/SoCal-Super-Standards/signs/R3-8b.svg">R3-8b</a> R61-1 &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0033.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0033.webp" alt="LA28 Supplement page 33 Figure 2B-4(LA28). Examples of LA28 Sign Panel and Plaque Usage on Lane Control Signs"></a><figcaption>LA28 Supplement, page 33.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0033.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0033.webp" alt="LA28 Supplement page 33 Figure 2B-4(LA28). Examples of LA28 Sign Panel and Plaque Usage on Lane Control Signs"></a><figcaption>LA28 Supplement, page 33.</figcaption></figure>
 <div class="dtext"><h4>Figure 2B-4(LA28). Examples of LA28 Sign Panel and Plaque Usage on Lane Control Signs</h4>
 <h4>I ONLY ONLY ONLY</h4>
 <h4><a class="sref" href="/SoCal-Super-Standards/signs/r3-8/" data-svg="/SoCal-Super-Standards/signs/R3-8.svg">R3-8</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-8a/" data-svg="/SoCal-Super-Standards/signs/R3-8a.svg">R3-8a</a> <a class="sref" href="/SoCal-Super-Standards/signs/r3-8b/" data-svg="/SoCal-Super-Standards/signs/R3-8b.svg">R3-8b</a></h4>

@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-77.8A</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 112</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-76-9/">&larr; S-76.9</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-78-5-1/">S-78.5.1 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0112.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0112.webp" alt="S-77.8A sheet 1"></a><figcaption>Red Book S-77.8A, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p112">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0112.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0112.webp" alt="S-77.8A sheet 1"></a><figcaption>Red Book S-77.8A, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p112">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. The width dimension, &quot;A&quot;, should be 5&quot; typical (TYP.) and the corner radius dimension, &quot;R&quot;, should be 2&quot; TYP. The backplate shall have a nominal thickness of 1/8&quot;. All outside and inside edges shall be formed with a 1/2&quot; to 5/8&quot; flange (inside dimension), turned away from the front surface.</p>
 <p>2. For all manufactured signal heads, backplates shall be designed so as to show no background light between the backplate and the head. The fabrication shall be vacuum formed as one piece with a black lusterless, haircell finish on the front side. All surfaces shall be flat and straight without blisters, buckling or warping. Flanges shall be straight, uniform and have a consistent flange dimension throughout.</p>
 <p>3. The backplate material shall be compounded from virgin ABS containing 60% styrene, 20% rubber and 20% acrylic. It shall contain ultra violet inhibitors and stabilizers for protection against ultra violet degradation. The backplate must meet a falling dart impact test of 16 ft/lb.</p>

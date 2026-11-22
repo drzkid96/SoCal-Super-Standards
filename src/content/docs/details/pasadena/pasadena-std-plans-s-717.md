@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-717</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>07-23-01</b></span><span>Page 22</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-716/">&larr; S-716</a> <a href="/SoCal-Super-Standards/details/?src=Pasadena Std. Plans">All Pasadena Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-718/">S-718 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0022.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0022.webp" alt="S-717 sheet 1"></a><figcaption>Pasadena Std. Plans S-717, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p22">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/pasadena/standard-plans/p0022.webp" alt="S-717 sheet 1"></a><figcaption>Pasadena Std. Plans S-717, sheet 1. <a href="/SoCal-Super-Standards/pasadena/standard-plans/01-pages-1-23/#p22">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>1. Consolidated backfill or concrete sidewalk, slope to drain.</p>
 <p>2. Concrete may be premixed, sacked concrete or field proportioned cement and aggregate with water added and mixing occurring on the job site. 2% calcium chloride (by weight of cement) may be added to produce a quickset concrete. Concrete shall comply with &quot;Standard Specifications for Public Works Construction,&quot; latest edition.</p>

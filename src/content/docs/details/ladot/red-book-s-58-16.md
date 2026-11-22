@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-58.16</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 105, 106</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-14/">&larr; S-58.14</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-58-17/">S-58.17 &rarr;</a></div>
 
 
 
@@ -16,13 +15,13 @@ tableOfContents: false
 
 ### Sheet 1 of 2 (page 105)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0105.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0105.webp" alt="S-58.16 sheet 1"></a><figcaption>Red Book S-58.16, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p105">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0105.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0105.webp" alt="S-58.16 sheet 1"></a><figcaption>Red Book S-58.16, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p105">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>* Width can be increased by 12 inches to accommodate &quot;North&quot; or &quot;South&quot; legend.</p>
 <p>Callouts: Installation per Std. Dwg. S-98.0. Unistrut installation (Detail &quot;A&quot;). Cantilever pole with 12&#x27; arm (Std. Dwg. S98.0). 1&quot; flex conduit. Trailblazer LED sign. Static guide sign (optional).</p></details>
 
 ### Sheet 2 of 2 (page 106)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0106.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0106.webp" alt="S-58.16 sheet 2"></a><figcaption>Red Book S-58.16, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p106">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0106.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0106.webp" alt="S-58.16 sheet 2"></a><figcaption>Red Book S-58.16, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p106">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Trailblazer signs to be used in conjunction with static freeway overhead guide signs.</p>
 <p>2. Use one or two arrows on the trailblazer sign as appropriate.</p>
 <p>3. Sign shall utilize Light Emitting Diodes (LED) for message illumination. The individual LEDs shall equal or exceed in quality as those manufactured by Hewlett-Packard, high power ALInGAP amber type, catalog #HLMA-DL00.</p>

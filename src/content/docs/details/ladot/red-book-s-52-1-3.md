@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-52.1.3</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 92</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1-2b/">&larr; S-52.1.2B</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1-4b/">S-52.1.4B &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0092.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0092.webp" alt="S-52.1.3 sheet 1"></a><figcaption>Red Book S-52.1.3, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p92">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0092.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0092.webp" alt="S-52.1.3 sheet 1"></a><figcaption>Red Book S-52.1.3, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/06-pages-81-96/#p92">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>NOTE:</h5>
 <p>1. No pullbox to be located within the front or rear 24&quot; x 36&quot; concrete slab.</p>
 <p>2. See Standard Drawing No. S-79.9B for grounding details.</p>

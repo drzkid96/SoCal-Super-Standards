@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-45.0</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 102</span></div></div>
 
-<div class="dwg-nav"> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-50-1/">S-50.1 &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0102.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0102.webp" alt="S-45.0 sheet 1"></a><figcaption>Red Book S-45.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p102">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0102.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0102.webp" alt="S-45.0 sheet 1"></a><figcaption>Red Book S-45.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p102">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>General notes:</h5>
 <p>1. Overhead sign panels shall be Type &quot;A&quot; laminated sign panel per LADOT Spec. 82-052-01.</p>
 <p>2. See LADOT Std. Dwg. Nos. S-92.2, S-92.3, or S-98.0 for dimensions, spacings, quantities, and other requirements dependent on mast arm specifications.</p>

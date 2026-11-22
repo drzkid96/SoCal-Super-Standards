@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-413-1</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>11-14-19</b></span><span>Page 17</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-412-1/">&larr; BT-412-1</a> <a href="/SoCal-Super-Standards/details/?src=Burbank Std. Plans">All Burbank Std. Plans drawings</a> <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-414/">BT-414 &rarr;</a></div>
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/om1-3/" data-svg="/SoCal-Super-Standards/signs/OM1-3.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/OM1-3.svg" alt="OM1-3"><span><b>OM1-3</b> Object Marker Type 1 marker</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R4-7.svg" alt="R4-7"><span><b>R4-7</b> Keep Right regulatory sign</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/w12-1/" data-svg="/SoCal-Super-Standards/signs/W12-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W12-1.svg" alt="W12-1"><span><b>W12-1</b> Double Arrow warning sign</span></a></div>
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0017.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0017.webp" alt="BT-413-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-413-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p17">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0017.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0017.webp" alt="BT-413-1 sheet 1"></a><figcaption>Burbank Std. Plans BT-413-1, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p17">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
 <p>* If median width is less than 3 feet, use <a class="sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg">R4-7</a> (18&quot; x 24&quot;) sign and OM3-L object marker.</p>
 <p>All regulatory and warning signs shall be minimum 0.063 inch thick and have 3M high intensity prismatic sheeting (Series #3930) with 3M premium protective overlay film (Series #1160).</p>

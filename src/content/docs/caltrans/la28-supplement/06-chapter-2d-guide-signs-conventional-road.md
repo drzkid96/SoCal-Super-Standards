@@ -101,7 +101,7 @@ sidebar:
 ### Page 37 - Figure 2D-6(LA28). Examples of LA28 Sign Plaque Usage on Advance Turn
 
 <div class="pmeta">Signs: G20-1 (CA) <a class="sref" href="/SoCal-Super-Standards/signs/g20-3ca/" data-svg="/SoCal-Super-Standards/signs/ca/g20-3ca.webp">G20-3(CA)</a> <a class="sref" href="/SoCal-Super-Standards/signs/g20-5ca/" data-svg="/SoCal-Super-Standards/signs/ca/g20-5ca.webp">G20-5(CA)</a> <a class="sref" href="/SoCal-Super-Standards/signs/g20-7ca/" data-svg="/SoCal-Super-Standards/signs/ca/g20-7ca.webp">G20-7(CA)</a> G33-1 <a class="sref" href="/SoCal-Super-Standards/signs/g78-4ca/" data-svg="/SoCal-Super-Standards/signs/ca/g78-4ca.webp">G78-4(CA)</a> M5-2P M5-3P M5-4P M5-5P M5-6P M6-1 M6-2P M6-2aP M6-3P M6-4P M6-5P M6-6P M6-7P &middot; Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0037.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0037.webp" alt="LA28 Supplement page 37 Figure 2D-6(LA28). Examples of LA28 Sign Plaque Usage on Advance Turn"></a><figcaption>LA28 Supplement, page 37.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0037.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0037.webp" alt="LA28 Supplement page 37 Figure 2D-6(LA28). Examples of LA28 Sign Plaque Usage on Advance Turn"></a><figcaption>LA28 Supplement, page 37.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 37</p>
 <p>Chapter 2E - Guide Signs - Freeways and Expressways July 15, 2026 Part 2 Signs</p>
 <h4>Figure 2D-6(LA28). Examples of LA28 Sign Plaque Usage on Advance Turn</h4>
@@ -178,5 +178,5 @@ sidebar:
 ### Page 38 - Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs
 
 <div class="pmeta">Topics: signs</div>
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0038.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0038.webp" alt="LA28 Supplement page 38 Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs"></a><figcaption>LA28 Supplement, page 38.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0038.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0038.webp" alt="LA28 Supplement page 38 Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs"></a><figcaption>LA28 Supplement, page 38.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>CA MUTCD 2026 LA28 Supplement Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs Comcast Squash Center NEXT RIGHT Rose Bowl USE@ WEST Chapter 2E - Guide Signs - Freeways and Expressways Part 2 Signs - - - - - - - Rose Bowl NEXT EXIT Santa Anita+ Park anta Anita Par USE Baldwin Ave EXIT I Santa Anita Park /f /f Page 38 July 15, 2026 </p></details>

@@ -7,14 +7,13 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-70.1E</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 70</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-1d/">&larr; S-70.1D</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-70-1f/">S-70.1F &rarr;</a></div>
 
 
 
 
 ## Sheet
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0070.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0070.webp" alt="S-70.1E sheet 1"></a><figcaption>Red Book S-70.1E, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p70">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0070.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0070.webp" alt="S-70.1E sheet 1"></a><figcaption>Red Book S-70.1E, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/05-pages-65-80/#p70">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Pre-formed loop shall be constructed from 1/2&quot; I.D. polypropylene, with an O.D. of 3/4&quot; inch.</p>
 <p>2. Loop is to have one continuous #16 TFFN wire through the loop head and lead-in to prevent loop malfunction due to splicing. Loop shall have four (4) turns of wire.</p>
 <p>3. The conduit shall be completely filled with hot, rubberized asphalt which will allow the loop to retain flexibility once cooled, prevent incursion of moisture and set the wire turns firmly in place.</p>

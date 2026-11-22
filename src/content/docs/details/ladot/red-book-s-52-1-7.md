@@ -7,7 +7,6 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-52.1.7</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>4</b> sheets</span><span>Pages 42, 43, 44, 45</span></div></div>
 
-<div class="dwg-nav"><a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-1-6/">&larr; S-52.1.6</a> <a href="/SoCal-Super-Standards/details/?src=Red Book">All Red Book drawings</a> <a href="/SoCal-Super-Standards/details/ladot/red-book-s-52-2/">S-52.2 &rarr;</a></div>
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W11-2.svg" alt="W11-2"><span><b>W11-2</b> Pedestrian warning sign</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W16-7P.svg" alt="W16-7P"><span><b>W16-7P</b> Downward Diagonal Arrow plaque</span></a></div>
@@ -16,7 +15,7 @@ tableOfContents: false
 
 ### Sheet 1 of 4 (page 42)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0042.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0042.webp" alt="S-52.1.7 sheet 1"></a><figcaption>Red Book S-52.1.7, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p42">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0042.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0042.webp" alt="S-52.1.7 sheet 1"></a><figcaption>Red Book S-52.1.7, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p42">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Tilt solar panel to 60 degrees and rotate assembly so collector panel will face due south.</p>
 <p>2. Arm projection 8&#x27; max. from the pole.</p>
 <p>3. Signs and devices: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>(2), RRFB&#x27;s (back to back), W16-7p(2), pedestrian pushbutton, control cabinet. Detail B (back to back), Detail D.</p>
@@ -26,7 +25,7 @@ tableOfContents: false
 
 ### Sheet 2 of 4 (page 43)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0043.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0043.webp" alt="S-52.1.7 sheet 2"></a><figcaption>Red Book S-52.1.7, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p43">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0043.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0043.webp" alt="S-52.1.7 sheet 2"></a><figcaption>Red Book S-52.1.7, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p43">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Detail B and Detail C are not to scale.</p>
 <p>2. Maximum (max.) sign arm length is 8&#x27;.</p>
 <p>3. Sign arm data: arm span L 8&#x27;-0&quot;, fixed end diameter 3.52 in., free end diameter 2.4 in., gauge 11, degree rise 0.50.</p>
@@ -38,7 +37,7 @@ tableOfContents: false
 
 ### Sheet 3 of 4 (page 44)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0044.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0044.webp" alt="S-52.1.7 sheet 3"></a><figcaption>Red Book S-52.1.7, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p44">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0044.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0044.webp" alt="S-52.1.7 sheet 3"></a><figcaption>Red Book S-52.1.7, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p44">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Removable cap at the free end. Arm length 8&#x27;-0&quot; max.</p>
 <p>2. Fixed end diameter 3.52 in. Free end diameter 2.4 in.</p>
 <p>3. (4) 0.50 in. diameter hex bolt with (1) hex head (HH) nut, (2) flat (FL) washers and (1) lock (LK) washer per bolt.</p>
@@ -50,7 +49,7 @@ tableOfContents: false
 
 ### Sheet 4 of 4 (page 45)
 
-<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0045.webp" target="_blank"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0045.webp" alt="S-52.1.7 sheet 4"></a><figcaption>Red Book S-52.1.7, sheet 4. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p45">Open in the document</a>.</figcaption></figure>
+<figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0045.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0045.webp" alt="S-52.1.7 sheet 4"></a><figcaption>Red Book S-52.1.7, sheet 4. <a href="/SoCal-Super-Standards/ladot/red-book/03-pages-33-48/#p45">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Sheet notes</summary><p>1. Use 1 in. galvanized conduit for street lighting and 2 in. schedule 80 PVC conduit for traffic signal unless otherwise specified.</p>
 <p>2. Conduit stubs from foundation shall be in the direction of the nearest corresponding pullbox unless otherwise specified.</p>
 <p>3. Topping shall be considered as a part of the foundation.</p>
