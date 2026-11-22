@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b102ca">CA MUTCD 2026 &sect;2B.102(CA)</a> $1000 Fine Signs (R47(CA) and R47A(CA))</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r47ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r47ca.webp" alt="R47(CA)"><span><b>R47(CA)</b> $1000 Fine Signs regulatory sign</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

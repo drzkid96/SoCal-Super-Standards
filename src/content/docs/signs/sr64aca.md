@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/9a/#9a101ca">CA MUTCD 2026 &sect;9A.101(CA)</a> Traffic Controls for Bicycle Facilities at Rail Crossings</li><li><a href="/SoCal-Super-Standards/ca-mutcd/9b/#9b101ca">CA MUTCD 2026 &sect;9B.101(CA)</a> Bike Turn-out Signs SR64A(CA) and SR64B(CA)</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/sr64bca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/sr64bca.webp" alt="SR64B(CA)"><span><b>SR64B(CA)</b> Bike Turn-out Signs SR64A regulatory sign</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

@@ -135,36 +135,99 @@ for i in dwgs:
             if g.upper() in lt_ids and g.upper() not in ctdet[i["url"]]:
                 ctdet[i["url"]].append(g.upper())
 
-# similar drawings (IDF-weighted overlap of strong concepts)
+# similar drawings (IDF-weighted strong concepts + shared signs + shared topics)
 df = Counter(c for i in dwgs for c in set(i["cs"]))
 N = len(dwgs)
 idf = {c: math.log((N + 1) / (n + 0.5)) for c, n in df.items()}
 def sim(a, b):
     A, B = set(a["cs"]), set(b["cs"])
-    if not A or not B:
-        return 0
-    inter = sum(idf[c] for c in A & B)
-    uni = sum(idf[c] for c in A | B)
-    return inter / uni if uni else 0
-similar = {}
-for i in dwgs:
-    sc = sorted(((sim(i, j), j) for j in dwgs if j is not i), key=lambda x: -x[0])
-    other = [j for s, j in sc if s >= 0.28 and j["src"] != i["src"]][:6]
-    same = [j for s, j in sc if s >= 0.35 and j["src"] == i["src"]][:4]
-    similar[i["url"]] = (other, same)
+    c_sc = 0.0
+    if A and B:
+        inter = sum(idf[c] for c in A & B)
+        uni = sum(idf[c] for c in A | B)
+        c_sc = inter / uni if uni else 0.0
+    SA, SB = set(a.get("signs") or []), set(b.get("signs") or [])
+    s_sc = (len(SA & SB) / len(SA | SB)) if (SA and SB) else 0.0
+    TA, TB = set(a.get("topics") or []), set(b.get("topics") or [])
+    t_sc = (len(TA & TB) / len(TA | TB)) if (TA and TB) else 0.0
+    if not c_sc and s_sc < 0.25:
+        return 0.0
+    return 0.72 * c_sc + 0.20 * s_sc + 0.08 * t_sc
 
-# ------------------------------------------------------------------ drawing page index blocks
-def dlink(j):
-    return f'<a class="xchip" href="{j["url"]}"><b>{esc(j["num"])}</b> {esc(j["title"][:70])}<span>{esc(j["src"])}</span></a>'
-ag_dir = {}
+SRC_PRI = {"Caltrans Std. Plans 2026": 0, "MPP 531": 1, "MPP 521": 2, "Red Book": 3, "Burbank Std. Plans": 4, "Pasadena Std. Plans": 5, "Caltrans Std. Plans 2018": 9}
+similar = {}
+same_num_map = {}
+for i in dwgs:
+    num_u = i["num"].upper()
+    is_2018 = i["src"] == "Caltrans Std. Plans 2018"
+    same_num = [j for j in dwgs if j is not i and j["sg"] == i["sg"] and j["num"].upper() == num_u]
+    same_num.sort(key=lambda x: SRC_PRI.get(x["src"], 6))
+    same_num_map[i["url"]] = same_num
+
+    sc = sorted(((sim(i, j), j) for j in dwgs if j is not i), key=lambda x: (-x[0], SRC_PRI.get(x[1]["src"], 6)))
+    other, seen_o = [], set()
+    same, seen_s = [], set()
+    for s_val, j in sc:
+        if j["num"].upper() == num_u and j["sg"] == i["sg"]:
+            continue
+        if j["src"] == "Caltrans Std. Plans 2018" and not is_2018:
+            continue
+        if j["sg"] != i["sg"] and s_val >= 0.26:
+            k = (j["sg"], j["num"].upper())
+            if k not in seen_o:
+                seen_o.add(k); other.append(j)
+                if len(other) >= 6:
+                    pass
+        elif j["sg"] == i["sg"] and s_val >= 0.30:
+            k = j["num"].upper()
+            if k not in seen_s:
+                seen_s.add(k); same.append(j)
+    similar[i["url"]] = (other[:6], same[:6])
+
+# match bulletins to drawings
+buls = [x for x in det if x.get("type") == "Bulletin"]
+def match_bulletins(item):
+    it_t = set(item.get("topics") or [])
+    it_c = set(item.get("cs") or [])
+    scored = []
+    for b in buls:
+        bt = set(b.get("topics") or [])
+        bc = set(b.get("cs") or [])
+        ov_c = len(it_c & bc)
+        ov_t = len(it_t & bt)
+        if not (ov_c >= 2 or (ov_c >= 1 and ov_t >= 1)):
+            continue
+        ag_bonus = 1.2 if (item.get("sg") == b.get("sg")) else 0.0
+        scored.append((ov_c * 2.2 + ov_t * 0.9 + ag_bonus, b))
+    scored.sort(key=lambda x: (-x[0], x[1]["num"]))
+    return [b for _, b in scored[:4]]
+
+# ------------------------------------------------------------------ drawing page index & related blocks
+def trunc(s, n=66):
+    s = str(s or "").strip()
+    if len(s) <= n:
+        return s
+    cut = s[:n].rsplit(" ", 1)[0].rstrip(" ,;:-(")
+    return (cut or s[:n].rstrip()) + "\u2026"
+
+def dlink(j, show_date=False):
+    sup = ' <em class="xchip-sup">superseded</em>' if j["src"] == "Caltrans Std. Plans 2018" else ""
+    dt = f' &middot; {esc(j["date"])}' if (show_date and j.get("date")) else ""
+    return f'<a class="xchip" href="{j["url"]}"><b>{esc(j["num"])}</b> {esc(trunc(j["title"], 68))}<span>{esc(j["src"])}{dt}</span>{sup}</a>'
+
 for i in dwgs:
     rel = i["url"].replace(BASE + "/", "", 1).rstrip("/")
     mdp = f"src/content/docs/{rel}.md"
     if not os.path.exists(mdp):
         continue
     s = open(mdp).read()
+    # preserve plain keywords losslessly across re-runs
     kw_raw = re.search(r'<div class="kw">Keywords: (.*?)</div>', s)
-    kws0 = [k.strip() for k in html.unescape(re.sub(r"<[^>]+>", "", kw_raw.group(1))).split(",") if k.strip()] if kw_raw else []
+    if kw_raw:
+        kws0 = [k.strip() for k in html.unescape(re.sub(r"<[^>]+>", "", kw_raw.group(1))).split(",") if k.strip()]
+    else:
+        ex_kw = re.findall(r'<a class="kchip" href="/SoCal-Super-Standards/details/\?q=[^"]*">([^<]+)</a>', s)
+        kws0 = [html.unescape(k).strip() for k in ex_kw if k.strip()] if ex_kw else [k.strip() for k in re.split(r"[,;]+", i.get("kw", "")) if k.strip()][:16]
     kws, kwl = [], set()
     for k in kws0:
         if nk(k) not in kwl:
@@ -174,36 +237,165 @@ for i in dwgs:
         for t in [CBY[cid]["term"]] + CBY[cid]["aka"]:
             if nk(t) not in kwl:
                 kwl.add(nk(t)); aka.append(t)
-    rows = []
-    if kws:
-        rows.append(("Keywords", " ".join(f'<a class="kchip" href="{BASE}/details/?q={esc(k)}">{esc(k)}</a>' for k in kws)))
-    if aka:
-        rows.append(("Also searched as", ", ".join(esc(a) for a in aka[:40])))
+
+    rel_rows = []
+    if same_num_map[i["url"]]:
+        rel_rows.append(("Also published in", "".join(dlink(j, show_date=True) for j in same_num_map[i["url"]][:6])))
+    if refs[i["url"]]:
+        rel_rows.append(("Refers to", "".join(dlink(j) for j in refs[i["url"]][:12])))
+    if refby[i["url"]]:
+        rel_rows.append(("Referred to by", "".join(dlink(j) for j in refby[i["url"]][:12])))
+    if ctdet[i["url"]]:
+        rel_rows.append(("Caltrans striping details", " ".join(
+            f'<a class="kchip dref" href="{lt_ids[d]}" data-svg="{BASE}/linetypes/detail-{d.lower()}.svg">Detail {d}</a>' for d in ctdet[i["url"]])))
+    oth, same = similar[i["url"]]
+    if same:
+        rel_rows.append((f"Related in {i['sg']}", "".join(dlink(j) for j in same)))
+    if oth:
+        rel_rows.append(("Similar at other agencies", "".join(dlink(j) for j in oth)))
+    mbuls = match_bulletins(i)
+    if mbuls:
+        rel_rows.append(("Related bulletins & memos", "".join(
+            f'<a class="xchip" href="{b["url"]}"><b>{esc(b["num"])}</b> {esc(trunc(b["title"], 64))}<span>{esc(b["src"])}</span></a>' for b in mbuls)))
+    if i.get("topics"):
+        rel_rows.append(("Topics", " ".join(
+            f'<a class="kchip tchip" href="{BASE}/topics/{t}/">{esc(TOPIC_NAME.get(t, t))}</a>' for t in i["topics"])))
+    dsigns = [c for c in (i.get("signs") or []) if c in signs]
+    if dsigns:
+        rel_rows.append(("Signs on this drawing", " ".join(
+            f'<a class="kchip sref" href="{signs[c]["url"]}" data-svg="{signs[c]["svg"]}">{esc(c)}</a>' for c in dsigns[:18])))
+
+    meta_rows = []
     if i["c"]:
         bycat = defaultdict(list)
         for cid in i["c"]:
             bycat[CBY[cid]["cat"]].append(cid)
-        rows.append(("Index entries", " &middot; ".join(
-            f'{esc(CATS[cat])}: ' + ", ".join(f'<a href="{BASE}/keywords/#c-{cid}">{esc(CBY[cid]["term"])}</a>' for cid in ids)
+        meta_rows.append(("Index entries", " &middot; ".join(
+            f'<b>{esc(CATS[cat])}:</b> ' + ", ".join(f'<a href="{BASE}/keywords/#c-{cid}">{esc(CBY[cid]["term"])}</a>' for cid in ids)
             for cat, ids in bycat.items())))
-    if refs[i["url"]]:
-        rows.append(("Refers to", "".join(dlink(j) for j in refs[i["url"]][:12])))
-    if refby[i["url"]]:
-        rows.append(("Referred to by", "".join(dlink(j) for j in refby[i["url"]][:12])))
-    if ctdet[i["url"]]:
-        rows.append(("Caltrans striping details named", " ".join(
-            f'<a class="kchip dref" href="{lt_ids[d]}" data-svg="{BASE}/linetypes/detail-{d.lower()}.svg">Detail {d}</a>' for d in ctdet[i["url"]])))
-    oth, same = similar[i["url"]]
-    if oth:
-        rows.append(("Similar drawings at other agencies", "".join(dlink(j) for j in oth)))
-    if same:
-        rows.append((f"Related in {i['src']}", "".join(dlink(j) for j in same)))
-    block = ('<section class="xidx-wrap" data-pagefind-weight="4"><h2 id="index-and-related">Index and related drawings</h2><dl class="xidx">'
-             + "".join(f"<div><dt>{esc(a)}</dt><dd>{b}</dd></div>" for a, b in rows) + "</dl></section>")
+    if kws:
+        meta_rows.append(("Keywords", " ".join(f'<a class="kchip" href="{BASE}/details/?q={esc(k)}">{esc(k)}</a>' for k in kws)))
+
+    aka_html = (f'<details class="xidx-aka"><summary>Also searched as ({len(aka[:40])} synonyms and alternate terms)</summary>'
+                f'<p>{", ".join(esc(a) for a in aka[:40])}</p></details>') if aka else ""
+
+    block = (
+        '<section class="xidx-wrap" data-pagefind-weight="4">'
+        '<h2 id="index-and-related">Related standards and index</h2>'
+        + ('<dl class="xidx">' + "".join(f"<div><dt>{esc(a)}</dt><dd>{b}</dd></div>" for a, b in rel_rows) + "</dl>" if rel_rows else "")
+        + ('<div class="xidx-meta"><dl class="xidx xidx-sub">' + "".join(f"<div><dt>{esc(a)}</dt><dd>{b}</dd></div>" for a, b in meta_rows) + "</dl>" + aka_html + "</div>" if (meta_rows or aka_html) else "")
+        + "</section>"
+    )
     s = re.sub(r'<section class="xidx-wrap".*?</section>', lambda _: block, s, flags=re.S) if 'class="xidx-wrap"' in s else \
         re.sub(r'<div class="kw">Keywords: .*?</div>', lambda _: block, s, count=1, flags=re.S)
     s = s.replace('<p class="dwg-sum">', '<p class="dwg-sum" data-pagefind-weight="6">')
     open(mdp, "w").write(s)
+
+# ------------------------------------------------------------------ related sections on Sign Library pages
+signs_full = json.load(open("data/signs/signs.json")) if os.path.exists("data/signs/signs.json") else []
+dwgs_by_sign = defaultdict(list)
+for i in dwgs:
+    if i["src"] == "Caltrans Std. Plans 2018":
+        continue
+    for code in i.get("signs") or []:
+        dwgs_by_sign[code].append(i)
+for code in dwgs_by_sign:
+    dwgs_by_sign[code].sort(key=lambda x: (SRC_PRI.get(x["src"], 6), x["num"]))
+
+signs_by_series = defaultdict(list)
+sign_by_code = {}
+for rec in signs_full:
+    sign_by_code[rec["code"]] = rec
+    signs_by_series[rec.get("series", "")].append(rec)
+
+def sign_stem(code):
+    # e.g. R3-17aP -> R3-17, W11-2 -> W11-2, R1-5b -> R1-5
+    m = re.match(r"^([A-Z]+\d+-\d+)", code)
+    return m.group(1) if m else code
+
+# map glossary concepts to topics using details.json co-occurrence
+c_topics = defaultdict(Counter)
+for i in det:
+    for cid in i.get("cs") or []:
+        for t in i.get("topics") or []:
+            c_topics[cid][t] += 1
+
+sign_rel_count = 0
+for rec in signs_full:
+    code = rec["code"]
+    mdp = f"src/content/docs/signs/{rec['slug']}.md"
+    if not os.path.exists(mdp):
+        continue
+    stem = sign_stem(code)
+    ser = signs_by_series.get(rec.get("series", ""), [])
+    my_c = set(sign_c.get(code, []))
+    # 1. Paired plaques & closely related signs in same series
+    peers = []
+    for o in ser:
+        if o["code"] == code:
+            continue
+        sc = 0
+        if sign_stem(o["code"]) == stem:
+            sc += 50
+        oc = set(sign_c.get(o["code"], []))
+        if my_c and oc:
+            sc += len(my_c & oc) * 10
+        if o.get("ca_status") == "not adopted":
+            sc -= 5
+        if sc > 0 or len(ser) <= 12:
+            peers.append((sc, o))
+    peers.sort(key=lambda x: (-x[0], x[1]["code"]))
+    peers = [o for _, o in peers[:8]]
+
+    # 2. Standard drawings citing this sign (deduplicated by agency+num)
+    sdwgs, seen_sd = [], set()
+    for d in dwgs_by_sign.get(code, []):
+        k = (d["sg"], d["num"].upper())
+        if k not in seen_sd:
+            seen_sd.add(k); sdwgs.append(d)
+            if len(sdwgs) >= 8:
+                break
+
+    # 3. Topics & keyword index entries
+    tc = Counter()
+    for d in sdwgs:
+        for t in d.get("topics") or []:
+            tc[t] += 2
+    for cid in my_c:
+        tc.update(c_topics[cid])
+    stopics = [t for t, _ in tc.most_common(4)]
+    sconcepts = [cid for cid in sign_c.get(code, []) if cid in CBY][:6]
+
+    rows = []
+    if peers:
+        cards = "".join(
+            f'<a class="rsign" href="{BASE}/signs/{o["slug"]}/">'
+            f'<img loading="lazy" src="{BASE}{o["svg"]}" alt="{esc(o["code"])}">'
+            f'<span><b>{esc(o["code"])}</b> {esc(trunc(o.get("descriptor", o["name"]), 46))}</span></a>'
+            for o in peers
+        )
+        rows.append(("Related signs & plaques", f'<div class="rsign-grid">{cards}</div>'))
+    if sdwgs:
+        rows.append(("Standard drawings citing this sign", "".join(dlink(d) for d in sdwgs)))
+    if stopics:
+        rows.append(("Topics", " ".join(f'<a class="kchip tchip" href="{BASE}/topics/{t}/">{esc(TOPIC_NAME.get(t, t))}</a>' for t in stopics)))
+    if sconcepts:
+        rows.append(("Keyword Index", " ".join(f'<a class="kchip" href="{BASE}/keywords/#c-{cid}">{esc(CBY[cid]["term"])}</a>' for cid in sconcepts)))
+
+    t = open(mdp).read()
+    t = re.sub(r"\n*<!-- rel-sign -->.*?<!-- /rel-sign -->\n*", "\n", t, flags=re.S)
+    if rows:
+        sign_rel_count += 1
+        rel_html = (
+            '\n<!-- rel-sign -->\n'
+            '<section class="xidx-wrap rel-sign" data-pagefind-weight="2">'
+            '<h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2>'
+            '<dl class="xidx">'
+            + "".join(f"<div><dt>{esc(a)}</dt><dd>{b}</dd></div>" for a, b in rows)
+            + "</dl></section>\n<!-- /rel-sign -->\n"
+        )
+        t = t.rstrip() + "\n" + rel_html
+    open(mdp, "w").write(t)
 
 # ------------------------------------------------------------------ keyword index page
 TYPES = [("Standard drawing", "Standard drawings", 60), ("Line type", "Caltrans striping details", 12), ("Marking", "Pavement markings", 10),
@@ -233,7 +425,7 @@ for c in sorted(LIST, key=lambda c: c["term"].lower()):
         if ty == "Figure":
             xs.sort(key=lambda i: 0 if i["src"].startswith("CA") else 1)
         if ty == "Standard drawing":
-            xs.sort(key=lambda i: (0 if c["id"] in i["cs"] else 1, i["src"], i["num"]))
+            xs.sort(key=lambda i: (0 if c["id"] in i["cs"] else 1, SRC_PRI.get(i["src"], 6), i["src"], i["num"]))
         _seen, _xs = set(), []
         for x in xs:
             key = (re.sub(r"[^a-z0-9]+", " ", (x["num"] + " " + x["title"]).lower() if x["type"] != "Figure page" else x["title"].lower()).strip(), x["src"])
@@ -262,8 +454,6 @@ url_by_title = {}
 for i in det:
     if i["type"] in ("Standard drawing", "Figure page"):
         url_by_title[i["url"]] = i
-# map clean units to items through their keywords: use details.json kw which holds the cleaned keywords joined by spaces,
-# so rebuild from the clean data per page record instead
 for f in glob.glob("data/docs/*__*.json"):
     d = json.load(open(f))
     for p in d.get("pages", []):
@@ -281,8 +471,7 @@ for f in glob.glob("data/docs/*__*.json"):
             k = KFORM.setdefault(nk(k), k)
             if url in DROP or url in [a for a, _, _ in kwmap[k]] or (lab.lower(), src) in [(b.lower(), c) for _, b, c in kwmap[k]]:
                 continue
-            if True:
-                kwmap[k].append((url, lab, src))
+            kwmap[k].append((url, lab, src))
 kw_rows = []
 for k in sorted(kwmap, key=lambda x: re.sub(r"^[^a-z0-9]+", "", x)):
     v = kwmap[k]
@@ -293,7 +482,7 @@ by_letter = defaultdict(list)
 for c, n, h in entries:
     by_letter[c["term"][0].upper()].append(h)
 cat_nav = "".join(f'<div><b>{esc(CATS[cat])}</b> ' + ", ".join(f'<a href="#c-{c["id"]}">{esc(c["term"])}</a>' for c, _, _ in entries if c["cat"] == cat) + "</div>" for cat in CATS)
-body = "".join(f'<h2 id="l-{L}">{L}</h2>' + "".join(by_letter[L]) for L in letters)
+body = "".join(f'<div class="ksec" data-letter="{L}"><h2 id="l-{L}">{L}</h2>' + "".join(by_letter[L]) + "</div>" for L in letters)
 md = f'''---
 title: Keyword Index
 description: A to Z index of design concepts across every standard drawing, manual figure, table, marking, line type, sign and design-guide page on the site, with synonyms and abbreviations.
@@ -310,22 +499,45 @@ Each entry gathers every drawing, figure, table, marking and sign on the site th
 
 {body}
 
+<div class="ksec-kw">
 <h2 id="kw-az">Drawing keywords, A to Z</h2>
 
 Plain-language keywords written for each drawing and scanned page, other than the index entries above.
 
 <ul class="kwaz">{"".join(kw_rows)}</ul>
+</div>
 
 <script>
-(function(){{const q=document.getElementById('kq'),n=document.getElementById('kcount');const E=[...document.querySelectorAll('.kentry, .kwaz li')];
-q.addEventListener('input',()=>{{const w=q.value.toLowerCase().trim();let c=0;E.forEach(el=>{{const ok=!w||el.dataset.q.includes(w)||el.textContent.toLowerCase().includes(w);el.style.display=ok?'':'none';if(ok)c++}});n.textContent=c+' matches'}});
-const go=()=>{{if(location.hash){{const t=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t)t.scrollIntoView()}}}};let user=false;['wheel','touchstart','keydown'].forEach(ev=>addEventListener(ev,()=>{{user=true}},{{once:true,passive:true}}));const g2=()=>{{if(!user)go()}};[0,300,900,1800,3000].forEach(ms=>setTimeout(g2,ms));addEventListener('load',g2);addEventListener('hashchange',go);}})();
+(function(){{
+  const q=document.getElementById('kq'),n=document.getElementById('kcount');
+  const E=[...document.querySelectorAll('.kentry, .kwaz li')];
+  const secs=[...document.querySelectorAll('.ksec')];
+  const kwSec=document.querySelector('.ksec-kw');
+  E.forEach(el=>{{el._t=(el.dataset.q+' '+el.textContent).toLowerCase();}});
+  function run(){{
+    const words=q.value.toLowerCase().trim().split(/\\s+/).filter(Boolean);
+    let c=0;
+    E.forEach(el=>{{const ok=!words.length||words.every(w=>el._t.includes(w));el.style.display=ok?'':'none';if(ok)c++;}});
+    secs.forEach(s=>{{s.style.display=[...s.querySelectorAll('.kentry')].some(e=>e.style.display!=='none')?'':'none';}});
+    if(kwSec) kwSec.style.display=[...kwSec.querySelectorAll('.kwaz li')].some(e=>e.style.display!=='none')?'':'none';
+    n.textContent=words.length?(c+' matches'):'{len(entries)} index entries \u00b7 {len(kw_rows)} drawing keywords';
+    const u=new URLSearchParams(location.search);
+    if(q.value.trim()) u.set('q',q.value.trim()); else u.delete('q');
+    history.replaceState(null,'',location.pathname+(u.toString()?'?'+u:'')+location.hash);
+  }}
+  q.addEventListener('input',run);
+  const initQ=new URLSearchParams(location.search).get('q');
+  if(initQ){{q.value=initQ;run();}}
+  const go=()=>{{if(location.hash){{const t=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(t)t.scrollIntoView()}}}};
+  let user=false;['wheel','touchstart','keydown'].forEach(ev=>addEventListener(ev,()=>{{user=true}},{{once:true,passive:true}}));
+  const g2=()=>{{if(!user)go()}};[0,300,900,1800,3000].forEach(ms=>setTimeout(g2,ms));addEventListener('load',g2);addEventListener('hashchange',go);
+}})();
 </script>
 '''
 os.makedirs("src/content/docs/keywords", exist_ok=True)
 open("src/content/docs/keywords/index.md", "w").write(md)
 
-# ------------------------------------------------------------------ data files
+# ------------------------------------------------------------------ data files (deduplicate & authority-sort lookup.json)
 json.dump([{"id": c["id"], "cat": CATS[c["cat"]], "term": c["term"], "aka": c["aka"]} for c in LIST], open("public/data/glossary.json", "w"))
 norm = lambda s: re.sub(r"\s+", "", s.upper())
 for c, n, _ in entries:
@@ -334,10 +546,40 @@ for c, n, _ in entries:
         ent = [f"Keyword Index: {c['term']} ({n})", f"{BASE}/keywords/#c-{c['id']}"]
         if ent not in lookup.get(k, []):
             lookup.setdefault(k, []).append(ent)
+
+def look_rank(ent):
+    lbl, u = ent[0], ent[1]
+    if "standard-plans-2018" in u or "2018" in lbl and "/caltrans/" in u:
+        return 90
+    if "/ca-mutcd/" in u or "/s/ca/" in u or "/la28-supplement/" in u:
+        return 10
+    if "caltrans-std-plans-2026" in u or "/caltrans/standard-plans-2026/" in u:
+        return 15
+    if "/details/ladot/mpp-531" in u or "/details/ladot/mpp-521" in u or "/details/ladot/red-book" in u:
+        return 20
+    if "/bulletins/" in u or "/markings/line-types/" in u:
+        return 25
+    if "/signs/" in u:
+        return 30
+    if "/details/" in u:
+        return 35
+    if "/keywords/" in u:
+        return 45
+    if "/mutcd/" in u or "/s/fed/" in u:
+        return 60
+    return 40
+
+for k in list(lookup.keys()):
+    seen_u, dedup = set(), []
+    for ent in sorted(lookup[k], key=look_rank):
+        if ent[1] not in seen_u:
+            seen_u.add(ent[1]); dedup.append(ent)
+    lookup[k] = dedup
+
 for i in det:
     i.pop("cs", None)
 json.dump(det, open("public/data/details.json", "w"))
 json.dump(lookup, open("public/data/lookup.json", "w"))
 print("concepts used", len(entries), "of", len(LIST), "| tagged items", sum(1 for i in det if i["c"]), "of", len(det),
       "| refs", sum(len(v) for v in refs.values()), "| striping detail links", sum(len(v) for v in ctdet.values()),
-      "| similar", sum(1 for v in similar.values() if v[0]), "| drawing keywords", len(kw_rows))
+      "| similar", sum(1 for v in similar.values() if v[0]), "| sign pages enriched", sign_rel_count, "| drawing keywords", len(kw_rows))

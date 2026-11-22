@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/8b/#8b06">CA MUTCD 2026 &sect;8B.06</a> Grade Crossing Advance Warning Signs (W10-1 through W10-4)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/8b/#8b20">CA MUTCD 2026 &sect;8B.20</a> NO TRAIN HORN Sign or Plaque (W10-9 and W10-9P)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/8b/#8b103ca">CA MUTCD 2026 &sect;8B.103(CA)</a> Private Grade Crossing Sign (R15-1X(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/speed-and-calming/">Speed limits, speed zones and traffic calming</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/rail-crossings/">Railroad and light rail crossings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-warnsign">warning sign</a></dd></div></dl></section>
+<!-- /rel-sign -->

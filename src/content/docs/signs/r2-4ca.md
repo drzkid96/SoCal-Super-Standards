@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b21">CA MUTCD 2026 &sect;2B.21</a> Speed Limit Sign (R2-1)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li><li><a href="/SoCal-Super-Standards/ca-mutcd/6g/#6g08">CA MUTCD 2026 &sect;6G.08</a> Work Zone and Higher Fines Signs and Plaques</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r2-4p/"><img loading="lazy" src="/SoCal-Super-Standards/signs/R2-4P.svg" alt="R2-4P"><span><b>R2-4P</b> Minimum Speed Limit plaque</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r2-4a/"><img loading="lazy" src="/SoCal-Super-Standards/signs/R2-4a.svg" alt="R2-4a"><span><b>R2-4a</b> Combined Maximum and Minimum Speed Limits…</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

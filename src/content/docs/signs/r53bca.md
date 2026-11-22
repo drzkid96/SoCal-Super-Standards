@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b38">CA MUTCD 2026 &sect;2B.38</a> KEEP RIGHT EXCEPT TO PASS Sign (R4-16), SLOWER TRAFFIC KEEP RIGHT Sign (R4-3), and TRUCKS USE RIGHT LANE Sign (R4-5)</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r53dca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r53dca.webp" alt="R53D(CA)"><span><b>R53D(CA)</b> Autos With Trailers Trucks Prohibited…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r53eca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r53eca.webp" alt="R53E(CA)"><span><b>R53E(CA)</b> End Truck Lane Control regulatory sign</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

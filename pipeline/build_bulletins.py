@@ -504,6 +504,99 @@ LW_ROWS = [
 ]
 
 # ------------------------------------------------------------------ write pages
+ALL_BULS = [(i, "Caltrans") for i in CT] + [(i, "LADOT") for i in LA] + [(i, i["agency"]) for i in AD]
+TOPIC_MAP = {t["slug"]: t["name"] for g in json.load(open("data/topics.json")) for t in g["topics"]} if os.path.exists("data/topics.json") else {}
+DET_ALL = json.load(open("public/data/details.json")) if os.path.exists("public/data/details.json") else []
+CURRENT_DWGS = [d for d in DET_ALL if d.get("type") == "Standard drawing" and d.get("src") != "Caltrans Std. Plans 2018"]
+BUL_TOOLS = {
+    "caltrans-dib-94": [("Lane width comparison", f"{BASE}/bulletins/lane-widths/")],
+    "caltrans-dib-79-04": [("Lane width comparison", f"{BASE}/bulletins/lane-widths/")],
+    "caltrans-dib-81-03": [("Lane width comparison", f"{BASE}/bulletins/lane-widths/")],
+    "caltrans-dib-93": [("Lane width comparison", f"{BASE}/bulletins/lane-widths/")],
+    "caltrans-dib-92": [("Lane width comparison", f"{BASE}/bulletins/lane-widths/")],
+    "caltrans-dib-90": [("Lane width comparison", f"{BASE}/bulletins/lane-widths/")],
+    "caltrans-dib-89-02": [("Pavement Marking Library (Bike)", f"{BASE}/markings/#bike"), ("Line Type Database", f"{BASE}/markings/line-types/")],
+    "caltrans-dib-82-06": [("Standards status", f"{BASE}/bulletins/standards-status/"), ("Caltrans 2026 A88A & A88B", f"{BASE}/caltrans/standard-plans-2026/")],
+    "prowag-2023": [("Standards status", f"{BASE}/bulletins/standards-status/"), ("ADA Curb Ramp Guide", f"{BASE}/ada/curb-ramps/")],
+    "ca-accessible-parking-2026": [("Caltrans 2026 A90A & A90B", f"{BASE}/caltrans/standard-plans-2026/"), ("LADOT curb paint & blue curb", f"{BASE}/ladot/curb-paint/")],
+    "ladot-lane-reconfiguration-2023": [("Lane width comparison", f"{BASE}/bulletins/lane-widths/"), ("LADOT MPP 531", f"{BASE}/ladot/mpp-531/")],
+    "ladot-bikeway-marking-2022": [("Pavement Marking Library (Bike)", f"{BASE}/markings/#bike"), ("Line Type Database", f"{BASE}/markings/line-types/")],
+    "ladot-lpi-2021": [("LADOT MPP 521 Signal Guidelines", f"{BASE}/ladot/mpp-521/"), ("LADOT Red Book", f"{BASE}/ladot/red-book/")],
+    "ladot-exclusive-ped-phase-2017": [("LADOT MPP 521 Signal Guidelines", f"{BASE}/ladot/mpp-521/"), ("LADOT Red Book", f"{BASE}/ladot/red-book/")],
+    "ladot-ss-plan-checklist-2022": [("MPP 531 plan preparation", f"{BASE}/ladot/mpp-531/01-policies-and-procedures/"), ("LADOT CAD standards", f"{BASE}/ladot/cad-standards/")],
+    "ladot-accessible-parking-2017": [("LADOT curb paint & blue curb", f"{BASE}/ladot/curb-paint/"), ("Caltrans 2026 A90B", f"{BASE}/details/caltrans/caltrans-std-plans-2026-a90b/")],
+}
+
+def trunc(s, n=62):
+    s = str(s or "").strip()
+    if len(s) <= n:
+        return s
+    cut = s[:n].rsplit(" ", 1)[0].rstrip(" ,;:-(")
+    return (cut or s[:n].rstrip()) + "\u2026"
+
+def related_block(it, agency):
+    ts = it.get("topics") or []
+    kw_tokens = {w.strip().lower() for w in re.split(r"[,;]+", it.get("kw", "")) if len(w.strip()) >= 3}
+    # 1. Related topics
+    tchips = " ".join(f'<a class="kchip tchip" href="{BASE}/topics/{t}/">{esc(TOPIC_MAP.get(t, t))}</a>' for t in ts)
+    # 2. Related bulletins & memos sharing topics
+    peers = []
+    for o, oag in ALL_BULS:
+        if o["slug"] == it["slug"]:
+            continue
+        shared = len(set(ts) & set(o.get("topics") or []))
+        if shared:
+            peers.append((shared + (0.5 if oag == agency else 0), o, oag))
+    peers.sort(key=lambda x: (-x[0], x[1]["num"]))
+    bchips = "".join(
+        f'<a class="xchip" href="{BASE}/bulletins/{o["slug"]}/"><b>{esc(o["num"])}</b> {esc(trunc(o["title"], 62))}<span>{esc(oag)}</span></a>'
+        for _, o, oag in peers[:6]
+    )
+    # 3. Related current standard drawings (prefer matching agency + keyword/topic overlap)
+    scored_dwgs = []
+    seen_num = set()
+    for d in CURRENT_DWGS:
+        overlap_t = len(set(ts) & set(d.get("topics") or []))
+        hay = (d.get("title", "") + " " + d.get("kw", "") + " " + d.get("sum", "")).lower()
+        overlap_k = sum(1 for k in kw_tokens if k in hay)
+        if not (overlap_k >= 2 or (overlap_t and overlap_k >= 1)):
+            continue
+        ag_bonus = 2.0 if (agency == "LADOT" and d.get("sg") == "LADOT") or (agency == "Caltrans" and d.get("sg") == "Caltrans") else 0.0
+        pri = 1.0 if d.get("src") in ("MPP 531", "MPP 521", "Caltrans Std. Plans 2026") else 0.0
+        scored_dwgs.append((overlap_k * 2 + overlap_t + ag_bonus + pri, d))
+    scored_dwgs.sort(key=lambda x: (-x[0], x[1]["num"]))
+    dchips = []
+    for _, d in scored_dwgs:
+        key = (d["sg"], d["num"])
+        if key in seen_num:
+            continue
+        seen_num.add(key)
+        dchips.append(f'<a class="xchip" href="{d["url"]}"><b>{esc(d["num"])}</b> {esc(trunc(d["title"], 60))}<span>{esc(d["src"])}</span></a>')
+        if len(dchips) >= 6:
+            break
+    # 4. Tools
+    tools = BUL_TOOLS.get(it["slug"], [])
+    tool_html = " ".join(f'<a class="kchip" href="{u}">{esc(lbl)}</a>' for lbl, u in tools)
+
+    rows = []
+    if tchips:
+        rows.append(("Topics", tchips))
+    if tool_html:
+        rows.append(("Tools & references", tool_html))
+    if bchips:
+        rows.append(("Related bulletins & memos", bchips))
+    if dchips:
+        rows.append(("Related standard drawings", "".join(dchips)))
+    if not rows:
+        return ""
+    return (
+        '\n\n<section class="xidx-wrap rel-bul" data-pagefind-weight="2">'
+        '<h2 id="related-on-this-site">Related on this site</h2>'
+        '<dl class="xidx">'
+        + "".join(f"<div><dt>{esc(a)}</dt><dd>{b}</dd></div>" for a, b in rows)
+        + "</dl></section>"
+    )
+
 def page(it, agency):
     fm = f'''---
 title: "{it["num"]}: {it["title"]}"
@@ -518,11 +611,15 @@ description: "{agency} {it["num"]} ({it["date"]}). {(it.get("lane") or it.get("a
 </div>
 
 '''
+    body = it["body"]().strip()
+    # avoid duplicate "Related on this site" heading in body
+    body = re.sub(r"\n+## Related on this site\b.*", "", body, flags=re.S)
+    rel = related_block(it, agency)
     tail = f'''
 
-<p class="bul-foot">Plain-language digest with section references, checked against the official copy on {CHECKED}. Cite the official document, and check the issuing agency's list before relying on it, since bulletins are revised and retired without notice. Back to <a href="{BASE}/bulletins/">all bulletins and policy memos</a> or the <a href="{BASE}/bulletins/lane-widths/">lane width comparison</a>.</p>
+<p class="bul-foot">Plain-language digest with section references, checked against the official copy on {CHECKED}. Cite the official document, and check the issuing agency's list before relying on it, since bulletins are revised and retired without notice. Back to <a href="{BASE}/bulletins/">all bulletins and policy memos</a>, <a href="{BASE}/bulletins/standards-status/">standards status</a>, or the <a href="{BASE}/bulletins/lane-widths/">lane width comparison</a>.</p>
 '''
-    open(f"{OUT}/{it['slug']}.md", "w").write(fm + head + it["body"]().strip() + tail)
+    open(f"{OUT}/{it['slug']}.md", "w").write(fm + head + body + rel + tail)
 
 for it in CT:
     page(it, "Caltrans")

@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2m/#2m104ca">CA MUTCD 2026 &sect;2M.104(CA)</a> Historic Bridge Signs (S29(CA), S29-1(CA) and S29-2(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/g12-1ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/g12-1ca.webp" alt="G12-1(CA)"><span><b>G12-1(CA)</b> Joe Smith Tunnel guide sign</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/g12-3ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/g12-3ca.webp" alt="G12-3(CA)"><span><b>G12-3(CA)</b> John Doe Memorial Bikeway guide sign</span></a></div></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/street-name-and-guide-signs/">Street name and guide signs</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/transit/">Transit, bus lanes and bus stops</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/bikeways/">Bikeways and bicycle facilities</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-guidesign">guide sign</a></dd></div></dl></section>
+<!-- /rel-sign -->

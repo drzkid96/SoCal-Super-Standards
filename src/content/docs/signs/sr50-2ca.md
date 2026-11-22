@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2g/#2g101ca">CA MUTCD 2026 &sect;2G.101(CA)</a> Preferential Lane Enforcement Signing (SR50(CA) Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2g/#2g102ca">CA MUTCD 2026 &sect;2G.102(CA)</a> Regulatory Signs for Preferential Lanes at Metered On-Ramps</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/sr50-1ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/sr50-1ca.webp" alt="SR50-1(CA)"><span><b>SR50-1(CA)</b> Hov Violation $ Minimum Fine regulatory sign</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

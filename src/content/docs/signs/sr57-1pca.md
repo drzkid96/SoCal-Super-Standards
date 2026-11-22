@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2d/#2d51">CA MUTCD 2026 &sect;2D.51</a> WEIGH STATION Signing (D8 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b65">CA MUTCD 2026 &sect;2B.65</a> Weigh Station Sign (R13-1)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/sr57-1ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/sr57-1ca.webp" alt="SR57-1(CA)"><span><b>SR57-1(CA)</b> All Trucks Stop At Scales regulatory sign</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/sr57ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/sr57ca.webp" alt="SR57(CA)"><span><b>SR57(CA)</b> All Trucks - 2 Axle And More - Stop At Scale…</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

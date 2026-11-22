@@ -156,11 +156,36 @@ Details grouped by line and gap geometry.
 - **Plan sheet references** come from the Caltrans 2026 Standard Plans sheets on this site (A20A to A20F, dated September 18, 2026), read from each sheet's detail labels. Details Caltrans has deleted are marked as deleted. The 2018 sheets remain on the site for reference only.
 
 <script>
-(function(){{const $=id=>document.getElementById(id);const rows=[...document.querySelectorAll('#lt .ltc')];
-function run(){{const w=$('ltq').value.toLowerCase().trim().split(/\\s+/).filter(Boolean),fn=$('ltfn').value,c=$('ltcol').value,sp=$('ltsp').value,ty=$('ltty').value;let n=0;
-rows.forEach(r=>{{const ok=(!fn||r.dataset.fn===fn)&&(!c||r.dataset.color===c)&&(!sp||r.dataset.speed===sp)&&(!ty||r.dataset.type.includes(ty))&&w.every(x=>r.dataset.q.includes(x));r.style.display=ok?'':'none';if(ok)n++}});$('ltn').textContent=n+' of '+rows.length+' details';}}
-['ltq','ltfn','ltcol','ltsp','ltty'].forEach(i=>$(i).addEventListener('input',run));run();
-if(location.hash){{const t=document.querySelector(location.hash);if(t)t.classList.add('lt-hit');}}}})();
+(function(){{
+  const $=id=>document.getElementById(id);
+  const rows=[...document.querySelectorAll('#lt .ltc')];
+  const alnum=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
+  rows.forEach(r=>{{r._a=alnum(r.dataset.q||'');}});
+  function run(){{
+    const w=$('ltq').value.toLowerCase().trim().split(/\\s+/).filter(Boolean),fn=$('ltfn').value,c=$('ltcol').value,sp=$('ltsp').value,ty=$('ltty').value;
+    let n=0;
+    rows.forEach(r=>{{
+      const ok=(!fn||r.dataset.fn===fn)&&(!c||r.dataset.color===c)&&(!sp||r.dataset.speed===sp)&&(!ty||r.dataset.type.includes(ty))
+        &&w.every(x=>r.dataset.q.includes(x)||(alnum(x).length>=2&&r._a.includes(alnum(x))));
+      r.style.display=ok?'':'none';
+      if(ok)n++;
+    }});
+    $('ltn').textContent=n+' of '+rows.length+' details';
+    const u=new URLSearchParams();
+    if($('ltq').value.trim()) u.set('q',$('ltq').value.trim());
+    if(fn) u.set('fn',fn); if(c) u.set('col',c); if(sp) u.set('sp',sp); if(ty) u.set('ty',ty);
+    history.replaceState(null,'',location.pathname+(u.toString()?'?'+u:'')+location.hash);
+  }}
+  const p=new URLSearchParams(location.search);
+  if(p.get('q')) $('ltq').value=p.get('q');
+  if(p.get('fn')) $('ltfn').value=p.get('fn');
+  if(p.get('col')) $('ltcol').value=p.get('col');
+  if(p.get('sp')) $('ltsp').value=p.get('sp');
+  if(p.get('ty')) $('ltty').value=p.get('ty');
+  ['ltq','ltfn','ltcol','ltsp','ltty'].forEach(i=>$(i).addEventListener('input',run));
+  run();
+  if(location.hash){{const t=document.querySelector(location.hash);if(t)t.classList.add('lt-hit');}}
+}})();
 </script>
 '''
 os.makedirs("src/content/docs/markings", exist_ok=True)

@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/9a/#9a101ca">CA MUTCD 2026 &sect;9A.101(CA)</a> Traffic Controls for Bicycle Facilities at Rail Crossings</li><li><a href="/SoCal-Super-Standards/ca-mutcd/9b/#9b06">CA MUTCD 2026 &sect;9B.06</a> Bicycle WRONG WAY Sign and RIDE WITH TRAFFIC Plaque (R5-1b and R9-3cP)</li><li><a href="/SoCal-Super-Standards/mutcd/9b/#9b06">MUTCD 11E R1 &sect;9B.06</a> Bicycle Wrong Way Sign and RIDE WITH TRAFFIC Plaque (R5-1b and R9-3cP)</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r9-3/"><img loading="lazy" src="/SoCal-Super-Standards/signs/R9-3.svg" alt="R9-3"><span><b>R9-3</b> No Pedestrian Crossing (symbol) regulatory…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r9-3a/"><img loading="lazy" src="/SoCal-Super-Standards/signs/R9-3a.svg" alt="R9-3a"><span><b>R9-3a</b> No Pedestrian Crossing regulatory sign</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r9-3bp/"><img loading="lazy" src="/SoCal-Super-Standards/signs/R9-3bP.svg" alt="R9-3bP"><span><b>R9-3bP</b> Use Crosswalk plaque</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

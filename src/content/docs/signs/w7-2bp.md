@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c14">CA MUTCD 2026 &sect;2C.14</a> Hill Signs (W7-1 and W7-1a)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c103ca">CA MUTCD 2026 &sect;2C.103(CA)</a> Safety Corridor Sign (SW33(CA))</li><li><a href="/SoCal-Super-Standards/mutcd/2c/#2c14">MUTCD 11E R1 &sect;2C.14</a> Hill Signs (W7-1 and W7-1a)</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/w7-2p/"><img loading="lazy" src="/SoCal-Super-Standards/signs/W7-2P.svg" alt="W7-2P"><span><b>W7-2P</b> Use Low Gear plaque</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

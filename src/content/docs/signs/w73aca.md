@@ -39,3 +39,7 @@ tableOfContents: false
 ## In LADOT documents
 
 - [MPP 531, page 126 - S-491.0 Advance Turn Lanes](/SoCal-Super-Standards/ladot/mpp-531/09-drawings-s-485-to-s-493/#p126)
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/w73bca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/w73bca.webp" alt="W73B(CA)"><span><b>W73B(CA)</b> 2 Right Lanes For Exit Only warning sign</span></a></div></dd></div><div><dt>Standard drawings citing this sign</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-491-0/"><b>S-491.0</b> Advance Turn Lanes<span>MPP 531</span></a></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/speed-and-calming/">Speed limits, speed zones and traffic calming</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/rail-crossings/">Railroad and light rail crossings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-warnsign">warning sign</a></dd></div></dl></section>
+<!-- /rel-sign -->

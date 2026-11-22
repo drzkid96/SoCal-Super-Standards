@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2m/#2m10">CA MUTCD 2026 &sect;2M.10</a> Memorial or Dedication Signing</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2m/#2m104ca">CA MUTCD 2026 &sect;2M.104(CA)</a> Historic Bridge Signs (S29(CA), S29-1(CA) and S29-2(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/s35ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/s35ca.webp" alt="S35(CA)"><span><b>S35(CA)</b> Please Don’T Drink And Drive school sign</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/s35-2pca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/s35-2pca.webp" alt="S35-2P(CA)"><span><b>S35-2P(CA)</b> In Memory Of John &amp; Jane Doe Mary Smith…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/s35-3pca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/s35-3pca.webp" alt="S35-3P(CA)"><span><b>S35-3P(CA)</b> In Memory Of John &amp; Jane Doe Mary Smith Paul…</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

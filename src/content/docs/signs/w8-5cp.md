@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li>No section text mentions this code directly.</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/w8-5/"><img loading="lazy" src="/SoCal-Super-Standards/signs/W8-5.svg" alt="W8-5"><span><b>W8-5</b> Slippery When Wet warning sign</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/w8-5p/"><img loading="lazy" src="/SoCal-Super-Standards/signs/W8-5P.svg" alt="W8-5P"><span><b>W8-5P</b> When Wet plaque</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/w8-5ap/"><img loading="lazy" src="/SoCal-Super-Standards/signs/W8-5aP.svg" alt="W8-5aP"><span><b>W8-5aP</b> Ice plaque</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/w8-5bp/"><img loading="lazy" src="/SoCal-Super-Standards/signs/W8-5bP.svg" alt="W8-5bP"><span><b>W8-5bP</b> Steel Deck plaque</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

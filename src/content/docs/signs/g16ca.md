@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2h/#2h06">CA MUTCD 2026 &sect;2H.06</a> Geographical Feature Signs (I2-2)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2h/#2h102ca">CA MUTCD 2026 &sect;2H.102(CA)</a> The POST OFFICE (SG60A(CA)) Sign</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/street-name-and-guide-signs/">Street name and guide signs</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/transit/">Transit, bus lanes and bus stops</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/bikeways/">Bikeways and bicycle facilities</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-guidesign">guide sign</a></dd></div></dl></section>
+<!-- /rel-sign -->

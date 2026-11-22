@@ -95,7 +95,7 @@ def head(k, n):
     if k in ct:
         h += '<p class="mcat-note">Caltrans 2026 Standard Plan sheets: ' + ", ".join(f'<a href="{BASE}/details/caltrans/caltrans-std-plans-2026-{n.lower()}/">{n}</a>' for n in ct[k]) + '</p>'
     return h
-body = "".join(head(k, n) + f'<div class="mgrid">{"".join(cards[k])}</div>' for k, n in CAT)
+body = "".join(f'<section class="mcat-sec">{head(k, n)}<div class="mgrid">{"".join(cards[k])}</div></section>' for k, n in CAT)
 n_total = sum(len(v) for v in cards.values())
 md = f'''---
 title: Pavement Marking Library
@@ -103,7 +103,7 @@ description: Every Caltrans striping detail, arrow, word and symbol marking, cro
 tableOfContents: false
 ---
 
-<div class="sfilter mfilter"><input id="mq" type="search" placeholder="Filter markings: Detail 22, Type IV arrow, two-way left-turn, bike lane line, red curb..."><span id="mcount">{n_total} markings</span></div>
+<div class="sfilter mfilter"><input id="mq" type="search" placeholder="Filter markings: Detail 22, Type IV arrow, two-way left-turn, bike lane line, red curb..."><span id="mcount" class="scount">{n_total} markings</span></div>
 <nav class="mnav">{nav}</nav>
 
 <p><a class="ai-btn" href="{BASE}/markings/line-types/">Open the Line Type Database</a> <a class="ai-btn ghost" href="{BASE}/ladot/curb-paint/">LADOT curb paint and red curb</a></p>
@@ -113,8 +113,30 @@ In California, longitudinal lines follow the Caltrans striping details (Detail 1
 {body}
 
 <script>
-(function(){{const q=document.getElementById('mq'),n=document.getElementById('mcount');const cards=[...document.querySelectorAll('.mcard')];
-q.addEventListener('input',()=>{{const w=q.value.toLowerCase().trim().split(/\\s+/).filter(Boolean);let c=0;cards.forEach(el=>{{const ok=w.every(x=>el.dataset.q.includes(x));el.style.display=ok?'':'none';if(ok)c++}});n.textContent=c+' markings'}});}})();
+(function(){{
+  const q=document.getElementById('mq'),n=document.getElementById('mcount');
+  const cards=[...document.querySelectorAll('.mcard')];
+  const secs=[...document.querySelectorAll('.mcat-sec')];
+  const alnum=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
+  cards.forEach(el=>{{el._a=alnum(el.dataset.q||'');}});
+  function run(){{
+    const w=q.value.toLowerCase().trim().split(/\\s+/).filter(Boolean);
+    let c=0;
+    cards.forEach(el=>{{
+      const ok=!w.length||w.every(x=>el.dataset.q.includes(x)||(alnum(x).length>=2&&el._a.includes(alnum(x))));
+      el.style.display=ok?'':'none';
+      if(ok)c++;
+    }});
+    secs.forEach(s=>{{s.style.display=[...s.querySelectorAll('.mcard')].some(el=>el.style.display!=='none')?'':'none';}});
+    n.textContent=c+' of '+cards.length+' markings';
+    const u=new URLSearchParams(location.search);
+    if(q.value.trim()) u.set('q',q.value.trim()); else u.delete('q');
+    history.replaceState(null,'',location.pathname+(u.toString()?'?'+u:'')+location.hash);
+  }}
+  q.addEventListener('input',run);
+  const q0=new URLSearchParams(location.search).get('q');
+  if(q0){{q.value=q0;run();}}
+}})();
 </script>
 '''
 os.makedirs("src/content/docs/markings", exist_ok=True)

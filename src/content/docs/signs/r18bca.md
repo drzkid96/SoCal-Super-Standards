@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b28">CA MUTCD 2026 &sect;2B.28</a> Mandatory Movement Lane Control Signs (R3-5, R3-5a, R3-7, R3-19 Series, and R3-20) and Plaques</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r18cca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r18cca.webp" alt="R18C(CA)"><span><b>R18C(CA)</b> Right 2 Lanes Must Exit regulatory sign</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r18dca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r18dca.webp" alt="R18D(CA)"><span><b>R18D(CA)</b> Right 2 Lanes Must Exit regulatory sign</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

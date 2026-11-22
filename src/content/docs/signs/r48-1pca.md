@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b21">CA MUTCD 2026 &sect;2B.21</a> Speed Limit Sign (R2-1)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r48ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r48ca.webp" alt="R48(CA)"><span><b>R48(CA)</b> Off Highway Vehicle Signs regulatory sign</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r48-2ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r48-2ca.webp" alt="R48-2(CA)"><span><b>R48-2(CA)</b> Speed Enforced By Aircraft regulatory sign</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

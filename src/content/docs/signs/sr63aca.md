@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b52">CA MUTCD 2026 &sect;2B.52</a> Parking, Standing, and Stopping Signs (R7 and R8 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/sr63ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/sr63ca.webp" alt="SR63(CA)"><span><b>SR63(CA)</b> No Idling 13 Ccr 2480 &amp; 2485 Penalties Apply…</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

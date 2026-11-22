@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b52">CA MUTCD 2026 &sect;2B.52</a> Parking, Standing, and Stopping Signs (R7 and R8 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r100aca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r100aca.webp" alt="R100A(CA)"><span><b>R100A(CA)</b> T O W - A W Ay Special Pla Lacard Card Or…</span></a></div></dd></div><div><dt>Standard drawings citing this sign</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90a/"><b>A90A</b> Accessible Parking Off-Street<span>Caltrans Std. Plans 2026</span></a></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/accessibility/">Accessibility: curb ramps and accessible signals</a></dd></div></dl></section>
+<!-- /rel-sign -->

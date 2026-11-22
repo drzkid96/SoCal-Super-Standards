@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/6i/#6i02">CA MUTCD 2026 &sect;6I.02</a> Detour Signs and Plaques (M4-8P, M4-8a, M4-8bP, M4-9, M4-9a, M4-9b, M4-9c, and M4-</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/temporary-traffic-control/">Temporary traffic control</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/bikeways/">Bikeways and bicycle facilities</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-ttc">temporary traffic control</a></dd></div></dl></section>
+<!-- /rel-sign -->

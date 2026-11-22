@@ -299,13 +299,17 @@ tableOfContents: false
 (() => {
   const q = document.getElementById('sq'), ca = document.getElementById('sca'), cnt = document.getElementById('scount');
   let cat = 'all';
+  const alnum = s => s.toLowerCase().replace(/[^a-z0-9]/g, '');
   const cards = [...document.querySelectorAll('.scard')];
+  cards.forEach(c => { c._c = c.dataset.code.toLowerCase(); c._ca = alnum(c.dataset.code); c._n = c.dataset.name; });
   function run() {
-    const t = q.value.trim().toLowerCase();
+    const raw = q.value.trim().toLowerCase();
+    const words = raw.split(/\s+/).filter(Boolean);
     let n = 0;
     cards.forEach(c => {
-      const ok = (cat === 'all' || c.dataset.cat === cat) && (!ca.checked || c.dataset.ca !== 'not-adopted') &&
-        (!t || c.dataset.code.toLowerCase().includes(t) || c.dataset.name.includes(t));
+      const ok = (cat === 'all' || c.dataset.cat === cat)
+        && (!ca.checked || c.dataset.ca !== 'not-adopted')
+        && (!words.length || words.every(w => c._c.includes(w) || c._n.includes(w) || (alnum(w).length >= 2 && c._ca.includes(alnum(w)))));
       c.hidden = !ok; if (ok) n++;
     });
     document.querySelectorAll('.sseries').forEach(s => s.hidden = !s.querySelector('.scard:not([hidden])'));
@@ -314,13 +318,24 @@ tableOfContents: false
       while (el && !el.classList.contains('sgroup')) { if (el.classList.contains('sseries') && !el.hidden) any = true; el = el.nextElementSibling; }
       h.hidden = !any;
     });
-    cnt.textContent = n + ' signs';
+    cnt.textContent = n + ' of ' + cards.length + ' signs';
+    const u = new URLSearchParams();
+    if (q.value.trim()) u.set('q', q.value.trim());
+    if (cat !== 'all') u.set('cat', cat);
+    if (ca.checked) u.set('ca', '1');
+    history.replaceState(null, '', location.pathname + (u.toString() ? '?' + u : '') + location.hash);
   }
   q.addEventListener('input', run); ca.addEventListener('change', run);
   document.querySelectorAll('.sbtns button').forEach(b => b.addEventListener('click', () => {
     document.querySelectorAll('.sbtns button').forEach(x => x.classList.remove('on')); b.classList.add('on'); cat = b.dataset.f; run();
   }));
-  const h = new URLSearchParams(location.search).get('q'); if (h) q.value = h;
+  const p = new URLSearchParams(location.search);
+  if (p.get('q')) q.value = p.get('q');
+  if (p.get('ca') === '1') ca.checked = true;
+  if (p.get('cat')) {
+    const btn = document.querySelector(`.sbtns button[data-f="${p.get('cat')}"]`);
+    if (btn) { document.querySelectorAll('.sbtns button').forEach(x => x.classList.remove('on')); btn.classList.add('on'); cat = btn.dataset.f; }
+  }
   run();
 })();
 </script>

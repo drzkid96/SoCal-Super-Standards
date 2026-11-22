@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/9a/#9a101ca">CA MUTCD 2026 &sect;9A.101(CA)</a> Traffic Controls for Bicycle Facilities at Rail Crossings</li><li><a href="/SoCal-Super-Standards/ca-mutcd/9b/#9b17">CA MUTCD 2026 &sect;9B.17</a> Signing for Bicycles on Freeways and Expressways</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r44a-1ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r44a-1ca.webp" alt="R44A-1(CA)"><span><b>R44A-1(CA)</b> Bike Path No Motor Vehicles Or Motorized…</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

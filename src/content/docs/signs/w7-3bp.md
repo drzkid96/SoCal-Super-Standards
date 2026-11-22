@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c14">CA MUTCD 2026 &sect;2C.14</a> Hill Signs (W7-1 and W7-1a)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c64">CA MUTCD 2026 &sect;2C.64</a> Hill-Related Plaques (W7-2 Series and W7-3 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c103ca">CA MUTCD 2026 &sect;2C.103(CA)</a> Safety Corridor Sign (SW33(CA))</li><li><a href="/SoCal-Super-Standards/mutcd/2c/#2c14">MUTCD 11E R1 &sect;2C.14</a> Hill Signs (W7-1 and W7-1a)</li><li><a href="/SoCal-Super-Standards/mutcd/2c/#2c64">MUTCD 11E R1 &sect;2C.64</a> Hill-Related Plaques (W7-2 Series and W7-3 Series)</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/w7-3p/"><img loading="lazy" src="/SoCal-Super-Standards/signs/W7-3P.svg" alt="W7-3P"><span><b>W7-3P</b> XX% Grade plaque</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/w7-3ap/"><img loading="lazy" src="/SoCal-Super-Standards/signs/W7-3aP.svg" alt="W7-3aP"><span><b>W7-3aP</b> Next XX Miles plaque</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

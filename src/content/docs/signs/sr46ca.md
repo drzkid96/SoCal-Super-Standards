@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b106ca">CA MUTCD 2026 &sect;2B.106(CA)</a> EMERGENCY ACCESS KEEP CLEAR Sign (SR46(CA))</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/school-zones/">School zones</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-legend">pavement legend</a> <a class="kchip" href="/SoCal-Super-Standards/keywords/#c-keepclear">keep clear marking</a> <a class="kchip" href="/SoCal-Super-Standards/keywords/#c-fire">fire access</a></dd></div></dl></section>
+<!-- /rel-sign -->

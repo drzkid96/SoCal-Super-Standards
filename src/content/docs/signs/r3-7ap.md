@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b28">CA MUTCD 2026 &sect;2B.28</a> Mandatory Movement Lane Control Signs (R3-5, R3-5a, R3-7, R3-19 Series, and R3-20) and Plaques</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b28">MUTCD 11E R1 &sect;2B.28</a> Mandatory Movement Lane Control Signs (R3-5, R3-5a, R3-7, R3-19 Series, and R3-20) and Plaques</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r3-7/"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-7__Sheet_1_of_2.svg" alt="R3-7"><span><b>R3-7</b> Regulatory sign</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r3-7bp/"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-7bP.svg" alt="R3-7bP"><span><b>R3-7bP</b> Except Bicycles plaque</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b45">CA MUTCD 2026 &sect;2B.45</a> Selective Exclusion Signs and Plaques</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li><li><a href="/SoCal-Super-Standards/mutcd/2b/#2b45">MUTCD 11E R1 &sect;2B.45</a> Selective Exclusion Signs and Plaques</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r5-2/"><img loading="lazy" src="/SoCal-Super-Standards/signs/R5-2.svg" alt="R5-2"><span><b>R5-2</b> No Trucks regulatory sign</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r5-2b/"><img loading="lazy" src="/SoCal-Super-Standards/signs/R5-2b.svg" alt="R5-2b"><span><b>R5-2b</b> No Thru Trucks regulatory sign</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b52">CA MUTCD 2026 &sect;2B.52</a> Parking, Standing, and Stopping Signs (R7 and R8 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r38ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r38ca.webp" alt="R38(CA)"><span><b>R38(CA)</b> Tow-Away No Parking Pap 4 5 Am To E X C E P T…</span></a></div></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb, parking and loading zones</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/accessibility/">Accessibility: curb ramps and accessible signals</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/bikeways/">Bikeways and bicycle facilities</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-curbcolor">curb color</a></dd></div></dl></section>
+<!-- /rel-sign -->

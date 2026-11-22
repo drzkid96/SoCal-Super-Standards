@@ -13,10 +13,15 @@ for d in docs:
     for k, v in d["drawings"].items():
         t = d.get("drawing_titles", {}).get(k, {})
         dw.append((k, t.get("title", ""), t.get("date", ""), d["short"], d["slug"], v))
+DP = {(a, k): sl for a, k, _, sl in json.load(open(f"{ROOT}/data/docs/drawing_pages.json"))} if os.path.exists(f"{ROOT}/data/docs/drawing_pages.json") else {}
 key = lambda x: [int(n) for n in re.findall(r"\d+", x[0])]
-dwrows = "".join(f'<tr data-q="{esc((k + " " + t + " " + s).lower())}"><td><strong>{esc(k)}</strong></td><td>{esc(t)}</td><td>{esc(dt)}</td><td>{esc(s)}</td><td>'
-                 + " ".join(f'<a href="{BASE}/{sl}/{p["chapter"]}/#p{p["page"]}">p{p["page"]}</a>' for p in v[:8]) + "</td></tr>"
-                 for k, t, dt, s, sl, v in sorted(dw, key=key))
+dwrows = "".join(
+    f'<tr data-q="{esc((k + " " + t + " " + s + " " + re.sub(r"[^a-z0-9]", "", k.lower())).lower())}">'
+    f'<td>{"<a href=" + chr(34) + DP[(s, k)] + chr(34) + "><strong>" + esc(k) + "</strong></a>" if (s, k) in DP else "<strong>" + esc(k) + "</strong>"}</td>'
+    f'<td>{esc(t)}</td><td>{esc(dt)}</td><td>{esc(s)}</td><td>'
+    + " ".join(f'<a href="{BASE}/{sl}/{p["chapter"]}/#p{p["page"]}">p{p["page"]}</a>' for p in v[:8]) + "</td></tr>"
+    for k, t, dt, s, sl, v in sorted(dw, key=key)
+)
 md = f"""---
 title: LADOT standards
 description: Every LADOT manual, policy and standard drawing on this site, with a combined standard-drawing index.
@@ -27,25 +32,42 @@ tableOfContents: false
 
 Every page of every LADOT document is here: native text where the PDF has it, OCR where it is a scan or outlined CAD text, and a sharpened image of every drawing or figure page. Sign codes link to the [Sign Library]({BASE}/signs/) and MUTCD section references link to the manuals. Search (Ctrl+K) covers all of it, OCR text included.
 
+<p><a class="ai-btn" href="{BASE}/ladot/curb-paint/">LADOT curb paint &amp; S-481.0 calculator</a> <a class="ai-btn ghost" href="{BASE}/ladot/mpp-details/">MPP drawings, redrawn</a> <a class="ai-btn ghost" href="{BASE}/bulletins/">LADOT policy memos &amp; bulletins</a></p>
+
 ## Documents
 
 <table class="dwtab"><thead><tr><th>Document</th><th>Edition</th><th>Pages</th><th>Drawing and figure pages</th><th>Std. drawings</th></tr></thead><tbody>{rows}</tbody></table>
 
-**Superseded, not on this site:** MPP 531 dated 06/23/2022 (replaced by 02/2023) and the 2028 Games Corridors Design Guide of 09/2025 (replaced by the 06/2026 print). LADOT CSC documents (LPI, EPP, Lane Reconfiguration, Bikeway Marking) and the Drafting Manual are not loaded yet.
+**Superseded, not on this site:** MPP 531 dated 06/23/2022 (replaced by 02/2023) and the 2028 Games Corridors Design Guide of 09/2025 (replaced by the 06/2026 print). LADOT Complete Streets Committee policy memos (LPI, Exclusive Pedestrian Phase, Lane Reconfiguration, Bikeway Marking, Accessible Parking Zones, S&amp;S Plan Review Checklist) are in [Bulletins and policy memos]({BASE}/bulletins/).
 
 ## Standard drawing index
 
 Numbers are as printed on each document. MPP 531 drawings are the S-100 to S-527 striping and signing series; MPP 521 and the Red Book use the S-50 to S-99 signal series, so the same number can mean different things in different documents.
 
-<input id="dwq" class="dwq" type="search" placeholder="Filter drawings: number, title or document (e.g. crosswalk, S-481, bus bulb)">
+<div class="sfilter"><input id="dwq" type="search" placeholder="Filter drawings: number, title or document (e.g. crosswalk, S-481, S481, bus bulb)"><span id="dwcount" class="scount">{len(dw)} drawings</span></div>
 
 <table class="dwtab" id="dwtab"><thead><tr><th>Drawing</th><th>Title</th><th>Dated</th><th>Document</th><th>Sheets</th></tr></thead><tbody>{dwrows}</tbody></table>
 
 <script>
-document.getElementById('dwq').addEventListener('input', e => {{
-  const q = e.target.value.toLowerCase().trim();
-  document.querySelectorAll('#dwtab tbody tr').forEach(r => r.style.display = !q || r.dataset.q.includes(q) ? '' : 'none');
-}});
+(function(){{
+  const inp = document.getElementById('dwq'), cnt = document.getElementById('dwcount');
+  const rows = [...document.querySelectorAll('#dwtab tbody tr')];
+  const alnum = s => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+  function run() {{
+    const words = inp.value.toLowerCase().trim().split(/\\s+/).filter(Boolean);
+    let n = 0;
+    rows.forEach(r => {{
+      const q = r.dataset.q || '';
+      const ok = !words.length || words.every(w => q.includes(w) || (alnum(w).length >= 2 && q.includes(alnum(w))));
+      r.style.display = ok ? '' : 'none';
+      if (ok) n++;
+    }});
+    cnt.textContent = n + ' of ' + rows.length + ' drawings';
+  }}
+  inp.addEventListener('input', run);
+  const q0 = new URLSearchParams(location.search).get('q');
+  if (q0) {{ inp.value = q0; run(); }}
+}})();
 </script>
 """
 open(f"{ROOT}/src/content/docs/ladot/index.md", "w").write(md)

@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b52">CA MUTCD 2026 &sect;2B.52</a> Parking, Standing, and Stopping Signs (R7 and R8 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r27aca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r27aca.webp" alt="R27A(CA)"><span><b>R27A(CA)</b> No Parking On Bridge regulatory sign</span></a></div></dd></div></dl></section>
+<!-- /rel-sign -->

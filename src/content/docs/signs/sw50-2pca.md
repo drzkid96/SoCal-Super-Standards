@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c55">CA MUTCD 2026 &sect;2C.55</a> Non-Vehicular Warning Signs (W11-2, W11-3, W11-4, W11-6, W11-7, W11-9, and W11-16 through W11-22)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c103ca">CA MUTCD 2026 &sect;2C.103(CA)</a> Safety Corridor Sign (SW33(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/sw50-1pca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/sw50-1pca.webp" alt="SW50-1P(CA)"><span><b>SW50-1P(CA)</b> Senior Zone warning sign</span></a></div></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/speed-and-calming/">Speed limits, speed zones and traffic calming</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/rail-crossings/">Railroad and light rail crossings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-warnsign">warning sign</a></dd></div></dl></section>
+<!-- /rel-sign -->

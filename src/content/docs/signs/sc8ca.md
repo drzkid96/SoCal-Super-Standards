@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/6g/#6g101ca">CA MUTCD 2026 &sect;6G.101(CA)</a> RAMP CLOSED (C2(CA)) and RAMP CLOSED, USE RAMP AT __ (SC7(CA)) Signs</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/temporary-traffic-control/">Temporary traffic control</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/street-name-and-guide-signs/">Street name and guide signs</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/signals/">Traffic signals and pedestrian signals</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-interchange">interchange</a> <a class="kchip" href="/SoCal-Super-Standards/keywords/#c-ttc">temporary traffic control</a></dd></div></dl></section>
+<!-- /rel-sign -->

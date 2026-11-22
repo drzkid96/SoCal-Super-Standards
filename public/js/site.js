@@ -1,10 +1,32 @@
 window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', f) : f()));
-// Hover / focus previews for sign codes (a.sref) and keyboard helpers.
+
+// Helper: open Starlight's Pagefind search modal and optionally prefill a query.
+window.__openSiteSearch = function (query) {
+  const btn = document.querySelector('site-search button, button[data-open-modal]');
+  if (!btn) return;
+  btn.click();
+  if (!query || !query.trim()) return;
+  const q = query.trim();
+  let tries = 0;
+  const fill = () => {
+    const inp = document.querySelector('.pagefind-ui__search-input, dialog input[type="search"], dialog input[type="text"]');
+    if (inp) {
+      inp.value = q;
+      inp.dispatchEvent(new Event('input', { bubbles: true }));
+      inp.focus();
+      return;
+    }
+    if (++tries < 25) setTimeout(fill, 60);
+  };
+  setTimeout(fill, 40);
+};
+
+// Hover / focus previews for sign codes (a.sref), page previews, back-to-top, reading progress, and navigation helpers.
 (() => {
   const tip = document.createElement('div');
   tip.className = 'sref-tip';
   tip.innerHTML = '<img alt=""><span></span>';
-  window.__ready( () => document.body.appendChild(tip));
+  window.__ready(() => document.body.appendChild(tip));
   let cur = null;
   function show(a) {
     cur = a;
@@ -20,6 +42,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
   document.addEventListener('mouseover', (e) => { const a = e.target.closest && e.target.closest('a.sref, a[data-svg]'); if (a && a.dataset.svg) show(a); else if (cur) hide(); });
   document.addEventListener('focusin', (e) => { const a = e.target.closest && e.target.closest('a.sref'); if (a) show(a); });
   document.addEventListener('scroll', hide, { passive: true });
+
   // Page previews for every internal link: one image, or a set for sign and marking pages.
   const BASEP = '/SoCal-Super-Standards';
   const ptip = document.createElement('div');
@@ -58,15 +81,16 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
   function hideP() { pvCur = null; clearTimeout(pvTimer); ptip.classList.remove('on'); }
   document.addEventListener('mouseover', (ev) => {
     const a = ev.target.closest && ev.target.closest('a[href]');
-    if (!a || a.matches('a.sref, a[data-svg], .dx-card') || a.closest('.pv-tip, .sref-tip')) { if (pvCur && a !== pvCur) hideP(); return; }
+    if (!a || a.matches('a.sref, a[data-svg], .dx-card, .sss-navlink') || a.closest('.pv-tip, .sref-tip, .ql-res')) { if (pvCur && a !== pvCur) hideP(); return; }
     if (a === pvCur) return;
     hideP(); pvCur = a; loadPV();
     pvTimer = setTimeout(() => showP(a), 220);
   });
   document.addEventListener('mouseout', (ev) => { if (pvCur && !(ev.relatedTarget && pvCur.contains(ev.relatedTarget))) hideP(); });
   document.addEventListener('scroll', hideP, { passive: true });
-  // back-to-top button and reading progress
-  window.__ready( () => {
+
+  // Back-to-top button, reading progress, sidebar active scroll, and '/' search shortcut
+  window.__ready(() => {
     const b = document.createElement('button');
     b.className = 'to-top'; b.type = 'button'; b.setAttribute('aria-label', 'Back to top'); b.textContent = 'Top';
     b.onclick = () => scrollTo({ top: 0, behavior: 'smooth' });
@@ -76,55 +100,287 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
       const h = document.documentElement; const p = h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight);
       bar.style.transform = `scaleX(${p})`; b.classList.toggle('show', h.scrollTop > 600);
     }, { passive: true });
+
+    // Scroll active sidebar link smoothly into view if off-screen
+    const curSide = document.querySelector('#starlight__sidebar a[aria-current="page"]');
+    if (curSide && curSide.scrollIntoView) {
+      try { curSide.scrollIntoView({ block: 'nearest' }); } catch (e) {}
+    }
+
+    // Pressing '/' focuses the primary on-page filter/lookup input (or opens site search)
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+      const t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
+      const target = document.querySelector('.quick-lookup input, #dx-q, #sq, #mq, #ltq, #kq, #dwq');
+      e.preventDefault();
+      if (target) { target.focus(); target.select && target.select(); }
+      else window.__openSiteSearch('');
+    });
   });
 })();
 
-/* ---------- quick lookup: numbers to pages ---------- */
+/* ---------- unified quick lookup: numbers, signs, concepts, bulletins, topics & tools ---------- */
 (function () {
   const BASE = '/SoCal-Super-Standards';
-  let LOOK = null;
-  const norm = (s) => s.toUpperCase().replace(/^(FIGURE|FIG\.?|TABLE|SECTION|SEC\.?|DWG\.?|DRAWING|STD\.?)\s*/, '').replace(/\s+/g, '');
-  async function look(q) {
-    if (!LOOK) LOOK = await (await fetch(BASE + '/data/lookup.json')).json();
-    const k = norm(q);
-    if (!k) return [];
-    if (LOOK[k]) return LOOK[k];
-    const out = [];
-    for (const key in LOOK) { if (key.startsWith(k)) { out.push(...LOOK[key]); if (out.length > 12) break; } }
-    return out;
+  const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  const norm = (s) => s.toUpperCase().replace(/^(FIGURE|FIG\.?|TABLE|SECTION|SEC\.?|DWG\.?|DRAWING|STD\.?|DETAIL)\s*/, '').replace(/\s+/g, '');
+  const alnum = (s) => s.toUpperCase().replace(/[^A-Z0-9]/g, '');
+
+  const HUBS = [
+    ['Lane Width Comparison (DIB 94 vs. MPP 531 vs. LA Streets)', BASE + '/bulletins/lane-widths/', 'Tool', 'lane width comparison dib 94 mpp 531 road diet travel lane'],
+    ['LADOT Curb Paint, Red Curb & S-481.0 Calculator', BASE + '/ladot/curb-paint/', 'Tool', 'red curb paint daylighting blue yellow green white s-481 calculator'],
+    ['Line Type Database (Caltrans 2026 Details 1-45)', BASE + '/markings/line-types/', 'Tool', 'line type striping detail 1 2 8 9 12 21 22 25 27b 32 38 39 a20a a20b'],
+    ['Standards Status (What Governs & 219 Deleted CA Signs)', BASE + '/bulletins/standards-status/', 'Status', 'standards status superseded current edition deleted california signs'],
+    ['Caltrans 2026 Standard Plans (A20-A24, A88, A90)', BASE + '/caltrans/standard-plans-2026/', 'Caltrans 2026', 'caltrans 2026 standard plans a20a a24a a88a a88b a90a a90b curb ramp'],
+    ['LA28 Supplement to CA MUTCD 2026 (Games Route Network)', BASE + '/caltrans/la28-supplement/', 'CA MUTCD', 'la28 olympics paralympics games route network grn permit only'],
+    ['Bulletins & Policy Memos (Caltrans DIBs, LADOT, PROWAG, CBC 11B)', BASE + '/bulletins/', 'Bulletin', 'bulletins policy memos dib 94 89-02 82-06 prowag cbc 11b lpi'],
+    ['Sign Library (1,148 Federal & CA Signs)', BASE + '/signs/', 'Sign', 'sign library regulatory warning school guide ca signs'],
+    ['Pavement Marking Library (203 Markings)', BASE + '/markings/', 'Marking', 'pavement marking library arrows symbols words crosswalk bike'],
+    ['Detail and Drawing Index (1,529 Items)', BASE + '/details/', 'Tool', 'detail drawing index standard drawings figures tables'],
+    ['Keyword Index A to Z', BASE + '/keywords/', 'Keyword', 'keyword index glossary synonyms abbreviations'],
+    ['Ask the Standards (AI)', BASE + '/ask/', 'Tool', 'ask ai claude screenshot plan review comment'],
+    ['Topic: Crosswalks and Pedestrian Crossings', BASE + '/topics/crosswalks/', 'Topic', 'crosswalks pedestrian crossing uncontrolled midblock ladder continental rrfb'],
+    ['Topic: Accessibility (Curb Ramps & APS)', BASE + '/topics/accessibility/', 'Topic', 'accessibility ada prowag curb ramp detectable warning aps truncated domes'],
+    ['Topic: Bikeways and Bicycle Facilities', BASE + '/topics/bikeways/', 'Topic', 'bikeways bike lane class ii class iv separated cycle track sharrow green paint'],
+    ['Topic: Transit, Bus Lanes and Bus Stops', BASE + '/topics/transit/', 'Topic', 'transit bus lane bus stop bus bulb boarding island'],
+    ['Topic: Curb, Parking and Loading Zones', BASE + '/topics/curb-parking-loading/', 'Topic', 'curb parking loading zone red curb blue curb accessible parking'],
+    ['Topic: Speed Limits and Traffic Calming', BASE + '/topics/speed-and-calming/', 'Topic', 'speed limit speed hump cushion table traffic calming roundabouts'],
+    ['Topic: Traffic Signals and Pedestrian Signals', BASE + '/topics/signals/', 'Topic', 'traffic signal pedestrian signal lpi countdown detector loop controller'],
+    ['Topic: Lane Lines, Striping and Intersection Markings', BASE + '/topics/striping-intersections/', 'Topic', 'lane lines striping intersection markings turn bay taper cat tracks limit line'],
+    ['Topic: School Zones', BASE + '/topics/school-zones/', 'Topic', 'school zone slow school xing yellow crosswalk safe routes'],
+    ['Topic: Street Name and Guide Signs', BASE + '/topics/street-name-and-guide-signs/', 'Topic', 'street name sign guide sign wayfinding overhead'],
+    ['Topic: Temporary Traffic Control (Work Zones)', BASE + '/topics/temporary-traffic-control/', 'Topic', 'temporary traffic control ttc work zone lane closure flagger detour'],
+    ['Topic: Railroad and Light Rail Crossings', BASE + '/topics/rail-crossings/', 'Topic', 'railroad light rail lrt grade crossing preemption gates'],
+  ];
+
+  let LOOK = null, LOOK_KEYS = null, DET = null, DET_PROM = null;
+  async function loadLook() {
+    if (LOOK) return;
+    LOOK = await (await fetch(BASE + '/data/lookup.json')).json();
+    LOOK_KEYS = Object.keys(LOOK).map((k) => [k, alnum(k)]);
   }
+  function loadDet() {
+    if (DET) return Promise.resolve(DET);
+    if (!DET_PROM) {
+      DET_PROM = fetch(BASE + '/data/details.json').then((r) => r.json()).then((arr) => {
+        arr.forEach((i) => {
+          i._h = (i.num + ' ' + i.title + ' ' + (i.kw || '') + ' ' + (i.kx || '') + ' ' + (i.sum || '') + ' ' + i.src).toLowerCase();
+          i._numA = alnum(i.num || '');
+        });
+        return (DET = arr);
+      }).catch(() => (DET = []));
+    }
+    return DET_PROM;
+  }
+
+  function classify(label, url) {
+    if (url.includes('/standard-plans-2018/') || /2018/.test(label) && url.includes('/caltrans/')) return { tag: 'Superseded', cls: 'sup', pri: -30 };
+    if (url.includes('/ca-mutcd/') || url.includes('/s/ca/') || url.includes('/la28-supplement/')) return { tag: 'CA MUTCD', cls: 'c', pri: 22 };
+    if (url.includes('/caltrans/standard-plans-2026/') || url.includes('caltrans-std-plans-2026')) return { tag: 'Caltrans 2026', cls: 'c', pri: 20 };
+    if (url.includes('/topics/')) return { tag: 'Topic', cls: 't', pri: 18 };
+    if (url.includes('/bulletins/')) return { tag: 'Bulletin', cls: 'b', pri: 17 };
+    if (url.includes('/markings/line-types/')) return { tag: 'Line Type', cls: 'm', pri: 16 };
+    if (url.includes('/markings/')) return { tag: 'Marking', cls: 'm', pri: 14 };
+    if (url.includes('/details/ladot/mpp-531') || url.includes('/details/ladot/mpp-521') || url.includes('/details/ladot/red-book')) return { tag: 'LADOT', cls: 'l', pri: 16 };
+    if (url.includes('/details/ladot/') || url.includes('/ladot/')) return { tag: 'LADOT', cls: 'l', pri: 11 };
+    if (url.includes('/details/burbank/') || url.includes('/burbank/')) return { tag: 'Burbank', cls: 'l', pri: 12 };
+    if (url.includes('/details/pasadena/') || url.includes('/pasadena/')) return { tag: 'Pasadena', cls: 'l', pri: 12 };
+    if (url.includes('/signs/')) return { tag: 'Sign', cls: 's', pri: 15 };
+    if (url.includes('/keywords/')) return { tag: 'Keyword', cls: 'k', pri: 13 };
+    if (url.includes('/mutcd/') || url.includes('/s/fed/')) return { tag: 'Fed MUTCD', cls: 'f', pri: 4 };
+    return { tag: 'Guide', cls: 'f', pri: 8 };
+  }
+
+  async function search(raw) {
+    const trimmed = raw.trim();
+    if (!trimmed) return [];
+    await loadLook();
+    const k = norm(trimmed);
+    const ka = alnum(trimmed);
+    const low = trimmed.toLowerCase();
+    const words = low.split(/\s+/).filter(Boolean);
+    const byUrl = new Map();
+
+    const add = (label, url, baseScore, forcedTag) => {
+      if (!url) return;
+      const meta = classify(label, url);
+      const score = baseScore + meta.pri;
+      const prev = byUrl.get(url);
+      if (!prev || score > prev.score) {
+        byUrl.set(url, { label, url, score, tag: forcedTag || meta.tag, cls: meta.cls });
+      }
+    };
+
+    // 1. Curated tools, topics & major hubs
+    for (const [label, url, tag, kw] of HUBS) {
+      const h = (label + ' ' + kw).toLowerCase();
+      if (words.every((w) => h.includes(w))) {
+        const boost = label.toLowerCase().includes(low) ? 75 : 55;
+        add(label, url, boost, tag);
+      }
+    }
+
+    // 2. Exact & prefix matches in lookup.json (both normalized and hyphen-stripped)
+    if (k && LOOK[k]) {
+      for (const [l, u] of LOOK[k]) add(l, u, 120);
+    }
+    if (ka && ka.length >= 2) {
+      let prefCount = 0;
+      for (const [key, keyA] of LOOK_KEYS) {
+        if (key === k) continue;
+        if (keyA === ka) {
+          for (const [l, u] of LOOK[key]) add(l, u, 115);
+        } else if (key.startsWith(k) || (ka.length >= 2 && keyA.startsWith(ka))) {
+          for (const [l, u] of LOOK[key]) add(l, u, 70 - Math.min(20, keyA.length - ka.length));
+          if (++prefCount > 40) break;
+        }
+      }
+    }
+
+    // 3. Multi-word / descriptive search across details.json when helpful
+    if (byUrl.size < 8 && trimmed.length >= 2) {
+      const det = await loadDet();
+      let hits = 0;
+      for (const i of det) {
+        const numExact = ka && i._numA === ka;
+        const numPref = ka && ka.length >= 2 && i._numA.startsWith(ka);
+        const wordHit = words.every((w) => i._h.includes(w) || (alnum(w).length >= 3 && i._numA.includes(alnum(w))));
+        if (!numExact && !numPref && !wordHit) continue;
+        let sc = numExact ? 110 : numPref ? 65 : 35;
+        if ((i.title || '').toLowerCase().includes(low)) sc += 25;
+        else if (words.every((w) => (i.title || '').toLowerCase().includes(w))) sc += 15;
+        const label = (i.num && i.type !== 'Figure page' ? i.num + ' ' : '') + (i.title || i.src) + (i.src ? ' — ' + i.src : '');
+        add(label, i.url, sc);
+        if (++hits >= 40) break;
+      }
+    }
+
+    return [...byUrl.values()].sort((a, b) => b.score - a.score).slice(0, 12);
+  }
+
   function mount(el) {
-    const inp = el.querySelector('input'), res = el.querySelector('.ql-res');
-    let t;
-    inp.addEventListener('input', () => { clearTimeout(t); t = setTimeout(async () => {
-      const r = await look(inp.value);
-      res.innerHTML = r.slice(0, 12).map(([l, u]) => `<a href="${u}">${l.replace(/</g, '&lt;')}</a>`).join('') || (inp.value.trim() ? '<span class="muted">No exact number match. Press Enter to search all text.</span>' : '');
-    }, 120); });
+    const inp = el.querySelector('input');
+    const res = el.querySelector('.ql-res');
+    const clearBtn = el.querySelector('.ql-clear');
+    const fullBtn = el.querySelector('[data-open-search]');
+    let t, idx = -1, items = [];
+
+    const setActive = (next) => {
+      const links = [...res.querySelectorAll('a.ql-item, button.ql-all')];
+      if (!links.length) { idx = -1; return; }
+      idx = ((next % links.length) + links.length) % links.length;
+      links.forEach((a, i) => {
+        a.classList.toggle('active', i === idx);
+        a.setAttribute('aria-selected', String(i === idx));
+      });
+      links[idx].scrollIntoView({ block: 'nearest' });
+    };
+
+    const render = (list, raw) => {
+      items = list;
+      idx = -1;
+      if (!raw.trim()) {
+        res.innerHTML = '';
+        res.classList.remove('open');
+        return;
+      }
+      const rows = list.map((r) =>
+        `<a class="ql-item" role="option" aria-selected="false" href="${r.url}"><span class="ql-tag ${r.cls}">${esc(r.tag)}</span><span class="ql-lbl">${esc(r.label)}</span></a>`
+      ).join('');
+      const empty = !list.length ? `<div class="ql-empty">No direct code or title match for &ldquo;${esc(raw.trim())}&rdquo;.</div>` : '';
+      const footer = `<button type="button" class="ql-all" role="option" aria-selected="false">Search full text across all 1,725 pages for &ldquo;${esc(raw.trim())}&rdquo; &rarr;</button>`;
+      res.innerHTML = rows + empty + footer;
+      res.classList.add('open');
+      const allBtn = res.querySelector('.ql-all');
+      if (allBtn) allBtn.onclick = () => window.__openSiteSearch(inp.value);
+    };
+
+    const runQuery = async () => {
+      const raw = inp.value;
+      if (clearBtn) clearBtn.hidden = !raw;
+      if (!raw.trim()) { render([], ''); return; }
+      const r = await search(raw);
+      if (inp.value === raw) render(r, raw);
+    };
+
+    inp.addEventListener('input', () => {
+      if (clearBtn) clearBtn.hidden = !inp.value;
+      clearTimeout(t);
+      t = setTimeout(runQuery, 110);
+    });
+    inp.addEventListener('focus', () => { if (inp.value.trim() && !res.classList.contains('open')) runQuery(); });
     inp.addEventListener('keydown', async (e) => {
+      if (e.key === 'ArrowDown') { e.preventDefault(); setActive(idx + 1); return; }
+      if (e.key === 'ArrowUp') { e.preventDefault(); setActive(idx - 1); return; }
+      if (e.key === 'Escape') { res.classList.remove('open'); idx = -1; return; }
       if (e.key !== 'Enter') return;
-      const r = await look(inp.value);
-      if (r.length) location.href = r[0][1];
-      else { const b = document.querySelector('site-search button, button[data-open-modal]'); if (b) b.click(); }
+      e.preventDefault();
+      const links = [...res.querySelectorAll('a.ql-item, button.ql-all')];
+      if (idx >= 0 && links[idx]) { links[idx].click(); return; }
+      const r = items.length ? items : await search(inp.value);
+      if (r.length) location.href = r[0].url;
+      else window.__openSiteSearch(inp.value);
+    });
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        inp.value = '';
+        clearBtn.hidden = true;
+        render([], '');
+        inp.focus();
+      });
+    }
+    if (fullBtn) {
+      fullBtn.addEventListener('click', () => window.__openSiteSearch(inp.value));
+    }
+
+    // Wire example chips in the same container (.home-search-wrap)
+    const wrap = el.closest('.home-search-wrap');
+    if (wrap) {
+      wrap.querySelectorAll('.ql-samples button[data-q]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          inp.value = btn.dataset.q || '';
+          if (clearBtn) clearBtn.hidden = false;
+          inp.focus();
+          runQuery();
+        });
+      });
+    }
+
+    document.addEventListener('click', (ev) => {
+      if (!el.contains(ev.target) && !(wrap && wrap.contains(ev.target))) res.classList.remove('open');
     });
   }
-  window.__ready( () => document.querySelectorAll('.quick-lookup').forEach(mount));
+
+  window.__ready(() => document.querySelectorAll('.quick-lookup').forEach(mount));
 })();
 
 /* ---------- detail and drawing index ---------- */
 (function () {
   const BASE = '/SoCal-Super-Standards';
-  window.__ready( async () => {
+  const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  const alnum = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+
+  window.__ready(async () => {
     const root = document.getElementById('dx');
     if (!root) return;
     const all = await (await fetch(BASE + '/data/details.json')).json();
     let GL = [];
     try { GL = await (await fetch(BASE + '/data/glossary.json')).json(); } catch (e) {}
+    const GBY = Object.fromEntries(GL.map((g) => [g.id, g]));
     const PHR = [];
     GL.forEach((g) => [g.term, ...g.aka].forEach((t) => PHR.push([t.toLowerCase(), g.id])));
     PHR.sort((a, b) => b[0].length - a[0].length);
+
     const hay = (i) => (i.num + ' ' + i.title + ' ' + (i.kw || '') + ' ' + (i.kx || '') + ' ' + (i.sum || '') + ' ' + (i.signs || []).join(' ') + ' ' + i.src).toLowerCase();
-    all.forEach((i) => { i._h = hay(i); });
-    // split a query into concept ids (synonym-aware) and leftover words
+    all.forEach((i) => {
+      i._h = hay(i);
+      i._na = alnum(i.num);
+      i._tl = (i.title || '').toLowerCase();
+      i._sup = i.src === 'Caltrans Std. Plans 2018';
+    });
+
     function parse(raw) {
       let s = ' ' + raw.toLowerCase().trim() + ' ';
       const ids = [];
@@ -133,39 +389,134 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
         const k = ' ' + t + ' ';
         if (s.includes(k)) { ids.push([id, t]); s = s.replace(k, ' '); }
       }
-      return { ids, words: s.trim().split(/\s+/).filter(Boolean) };
+      return { ids, words: s.trim().split(/\s+/).filter(Boolean), rawLow: raw.toLowerCase().trim(), rawA: alnum(raw) };
     }
+
     const $ = (id) => document.getElementById(id);
-    const srcs = [...new Set(all.map((i) => i.src))];
-    $('dx-src').innerHTML += srcs.map((s) => `<option>${s}</option>`).join('');
+    const allSrcs = [...new Set(all.map((i) => i.src))];
+    const srcsBySg = {};
+    all.forEach((i) => { (srcsBySg[i.sg] = srcsBySg[i.sg] || new Set()).add(i.src); });
+
+    function populateSrcs(sg, keepVal) {
+      const sel = $('dx-src');
+      const cur = keepVal !== undefined ? keepVal : sel.value;
+      const list = sg && srcsBySg[sg] ? [...srcsBySg[sg]] : allSrcs;
+      sel.innerHTML = '<option value="">Any document</option>' + list.map((s) => `<option>${esc(s)}</option>`).join('');
+      if (list.includes(cur)) sel.value = cur;
+    }
+
     const p = new URLSearchParams(location.search);
-    for (const [k, id] of [['q', 'dx-q'], ['src', 'dx-src'], ['type', 'dx-type'], ['topic', 'dx-topic'], ['sg', 'dx-sg']]) if (p.get(k)) $(id).value = p.get(k);
+    if (p.get('sg')) $('dx-sg').value = p.get('sg');
+    populateSrcs($('dx-sg').value, p.get('src') || '');
+    for (const [k, id] of [['q', 'dx-q'], ['type', 'dx-type'], ['topic', 'dx-topic'], ['sort', 'dx-sort']]) {
+      if (p.get(k) && $(id)) $(id).value = p.get(k);
+    }
+    if (p.get('noFed') === '1') $('dx-noFed').checked = true;
+    if (p.get('noSup') === '1' && $('dx-noSup')) $('dx-noSup').checked = true;
+
     let shown = 0, list = [];
-    const card = (i) => `<a class="dx-card" href="${i.url}"><div class="dx-img">${i.img ? `<img loading="lazy" src="${i.img}" alt="">` : ''}</div>
-      <div class="dx-body"><div class="dx-tag ${i.sg === 'MUTCD' ? (i.src.startsWith('CA') ? 'c' : 'f') : 'l'}">${i.src}</div>
-      <b>${i.type === 'Figure page' ? '' : (i.type === 'Standard drawing' ? '' : i.type + ' ') + i.num}</b> ${(i.title || '').replace(/</g, '&lt;')}
-      ${i.date ? `<div class="dx-meta">Dated ${i.date} &middot; ${i.sheets} sheet(s)</div>` : ''}
+    const card = (i) => `<a class="dx-card${i._sup ? ' is-sup' : ''}" href="${i.url}"><div class="dx-img">${i.img ? `<img loading="lazy" src="${i.img}" alt="">` : ''}</div>
+      <div class="dx-body"><div class="dx-tags"><span class="dx-tag ${i.sg === 'MUTCD' ? (i.src.startsWith('CA') ? 'c' : 'f') : 'l'}">${esc(i.src)}</span>${i._sup ? '<span class="dx-sup">Superseded</span>' : ''}</div>
+      <b>${i.type === 'Figure page' ? '' : (i.type === 'Standard drawing' ? '' : esc(i.type) + ' ') + esc(i.num)}</b> ${esc(i.title || '')}
+      ${i.date ? `<div class="dx-meta">Dated ${esc(i.date)} &middot; ${i.sheets} sheet(s)</div>` : ''}
       ${i.parts ? `<div class="dx-meta">${i.parts} sheets</div>` : ''}
-      ${i.also ? `<div class="dx-meta">Also published as ${i.also.map((x) => x.src + ' ' + (x.type === 'Standard drawing' ? x.num : 'p ' + x.num.replace(/^p/, ''))).join('; ')}</div>` : ''}
-      ${i.sum ? `<div class="dx-sum">${i.sum.replace(/</g, '&lt;').slice(0, 150)}${i.sum.length > 150 ? '...' : ''}</div>` : ''}</div></a>`;
+      ${i.also ? `<div class="dx-meta">Also published as ${esc(i.also.map((x) => x.src + ' ' + (x.type === 'Standard drawing' ? x.num : 'p ' + x.num.replace(/^p/, ''))).join('; '))}</div>` : ''}
+      ${i.sum ? `<div class="dx-sum">${esc(i.sum.slice(0, 150))}${i.sum.length > 150 ? '...' : ''}</div>` : ''}</div></a>`;
+
+    function scoreItem(i, pq) {
+      let sc = 0;
+      if (pq.rawA) {
+        if (i._na && i._na === pq.rawA) sc += 120;
+        else if (i._na && pq.rawA.length >= 2 && i._na.startsWith(pq.rawA)) sc += 70;
+      }
+      if (pq.rawLow) {
+        if (i._tl.includes(pq.rawLow)) sc += 45;
+        else if (pq.words.length && pq.words.every((w) => i._tl.includes(w))) sc += 25;
+      }
+      for (const [id] of pq.ids) {
+        if ((i.c || []).includes(id)) sc += 20;
+      }
+      if (i.src === 'CA MUTCD 2026' || i.src === 'Caltrans Std. Plans 2026' || i.src === 'MPP 531') sc += 8;
+      if (i.src === 'Federal MUTCD') sc -= 12;
+      if (i._sup) sc -= 30;
+      return sc;
+    }
+
     function run(reset = true) {
-      const pq = parse($('dx-q').value);
-      const sg = $('dx-sg').value, src = $('dx-src').value, ty = $('dx-type').value, tp = $('dx-topic').value, nf = $('dx-noFed').checked;
+      const rawQ = $('dx-q').value;
+      const pq = parse(rawQ);
+      const sg = $('dx-sg').value, src = $('dx-src').value, ty = $('dx-type').value, tp = $('dx-topic').value;
+      const nf = $('dx-noFed').checked, ns = $('dx-noSup') ? $('dx-noSup').checked : false;
+      const sort = $('dx-sort') ? $('dx-sort').value : 'rel';
+
+      const anyFilter = !!(rawQ.trim() || sg || src || ty || tp || nf || ns);
+      if ($('dx-reset')) $('dx-reset').hidden = !anyFilter;
+
+      // Show matched glossary concepts so engineers see synonym expansion at work
+      const chips = $('dx-chips');
+      if (chips) {
+        if (pq.ids.length) {
+          chips.innerHTML = '<span>Matched concepts:</span> ' + pq.ids.map(([id]) => {
+            const g = GBY[id];
+            return g ? `<a class="kchip" href="${BASE}/keywords/#c-${id}">${esc(g.term)}</a>` : '';
+          }).join('');
+          chips.hidden = false;
+        } else {
+          chips.hidden = true;
+          chips.innerHTML = '';
+        }
+      }
+
       list = all.filter((i) => (!sg || i.sg === sg) && (!src || i.src === src) && (!ty || i.type === ty) && (!tp || (i.topics || []).includes(tp))
         && (!nf || i.src !== 'Federal MUTCD')
+        && (!ns || !i._sup)
         && pq.ids.every(([id, t]) => (i.c || []).includes(id) || i._h.includes(t))
-        && pq.words.every((w) => i._h.includes(w)));
+        && pq.words.every((w) => {
+          const wa = alnum(w);
+          return i._h.includes(w) || (wa.length >= 2 && i._na && i._na.includes(wa));
+        }));
+
+      if (sort === 'num') {
+        list.sort((a, b) => (a.num || '').localeCompare(b.num || '', undefined, { numeric: true, sensitivity: 'base' }));
+      } else if (sort === 'src') {
+        list.sort((a, b) => (a.src || '').localeCompare(b.src || '') || (a.num || '').localeCompare(b.num || '', undefined, { numeric: true }));
+      } else if (rawQ.trim()) {
+        list.sort((a, b) => scoreItem(b, pq) - scoreItem(a, pq));
+      } else {
+        list.sort((a, b) => (a._sup ? 1 : 0) - (b._sup ? 1 : 0));
+      }
+
       if (reset) { shown = 0; $('dx-grid').innerHTML = ''; }
       const next = list.slice(shown, shown + 90);
       $('dx-grid').insertAdjacentHTML('beforeend', next.map(card).join(''));
       shown += next.length;
-      $('dx-count').textContent = `${list.length} of ${all.length} details`;
+      $('dx-count').textContent = `${list.length.toLocaleString()} of ${all.length.toLocaleString()} details`;
       $('dx-more').hidden = shown >= list.length;
+
       const u = new URLSearchParams();
-      for (const [k, id] of [['q', 'dx-q'], ['sg', 'dx-sg'], ['src', 'dx-src'], ['type', 'dx-type'], ['topic', 'dx-topic']]) if ($(id).value) u.set(k, $(id).value);
+      for (const [k, id] of [['q', 'dx-q'], ['sg', 'dx-sg'], ['src', 'dx-src'], ['type', 'dx-type'], ['topic', 'dx-topic']]) {
+        if ($(id) && $(id).value) u.set(k, $(id).value);
+      }
+      if (sort && sort !== 'rel') u.set('sort', sort);
+      if (nf) u.set('noFed', '1');
+      if (ns) u.set('noSup', '1');
       history.replaceState(null, '', location.pathname + (u.toString() ? '?' + u : ''));
     }
-    root.querySelectorAll('input,select').forEach((e) => e.addEventListener('input', () => run()));
+
+    $('dx-sg').addEventListener('change', () => { populateSrcs($('dx-sg').value); run(); });
+    root.querySelectorAll('input,select').forEach((e) => {
+      if (e.id !== 'dx-sg') e.addEventListener(e.type === 'checkbox' || e.tagName === 'SELECT' ? 'change' : 'input', () => run());
+    });
+    if ($('dx-reset')) {
+      $('dx-reset').onclick = () => {
+        ['dx-q', 'dx-sg', 'dx-src', 'dx-type', 'dx-topic'].forEach((id) => { if ($(id)) $(id).value = ''; });
+        if ($('dx-sort')) $('dx-sort').value = 'rel';
+        $('dx-noFed').checked = false;
+        if ($('dx-noSup')) $('dx-noSup').checked = false;
+        populateSrcs('');
+        run();
+      };
+    }
     $('dx-more').onclick = () => run(false);
     run();
   });

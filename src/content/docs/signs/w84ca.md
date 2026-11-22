@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c27">CA MUTCD 2026 &sect;2C.27</a> SPEED HUMP Sign (W17-1)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2c/#2c103ca">CA MUTCD 2026 &sect;2C.103(CA)</a> Safety Corridor Sign (SW33(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Standard drawings citing this sign</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-417/"><b>BT-417</b> Standard 3.0-inch Speed Cushion<span>Burbank Std. Plans</span></a></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/speed-and-calming/">Speed limits, speed zones and traffic calming</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/rail-crossings/">Railroad and light rail crossings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-warnsign">warning sign</a> <a class="kchip" href="/SoCal-Super-Standards/keywords/#c-hump">speed hump</a></dd></div></dl></section>
+<!-- /rel-sign -->

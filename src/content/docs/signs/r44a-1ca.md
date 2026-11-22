@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/9b/#9b07">CA MUTCD 2026 &sect;9B.07</a> NO MOTOR VEHICLES Sign (R5-3)</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r44bca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r44bca.webp" alt="R44B(CA)"><span><b>R44B(CA)</b> Bicycles Motor-Driven Cycles Must Exit…</span></a></div></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/rail-crossings/">Railroad and light rail crossings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/bikeways/">Bikeways and bicycle facilities</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/street-name-and-guide-signs/">Street name and guide signs</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-bikepath">bike path</a></dd></div></dl></section>
+<!-- /rel-sign -->

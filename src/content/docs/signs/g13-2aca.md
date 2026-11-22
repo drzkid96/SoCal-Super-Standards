@@ -34,3 +34,7 @@ tableOfContents: false
 ## Governing sections
 
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2m/#2m101ca">CA MUTCD 2026 &sect;2M.101(CA)</a> Historical Landmark Signs (G13-1A(CA), G13-2A(CA) and G14A(CA))</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2m/#2m104ca">CA MUTCD 2026 &sect;2M.104(CA)</a> Historic Bridge Signs (S29(CA), S29-1(CA) and S29-2(CA))</li></ul>
+
+<!-- rel-sign -->
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/g13-1aca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/g13-1aca.webp" alt="G13-1A(CA)"><span><b>G13-1A(CA)</b> Historical Landmark Signs guide sign</span></a></div></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/street-name-and-guide-signs/">Street name and guide signs</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/transit/">Transit, bus lanes and bus stops</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/bikeways/">Bikeways and bicycle facilities</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-guidesign">guide sign</a></dd></div></dl></section>
+<!-- /rel-sign -->

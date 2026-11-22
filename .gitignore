@@ -3,3 +3,4 @@ dist/
 .astro/
 sources/*.pdf
 *.log
+__pycache__/
