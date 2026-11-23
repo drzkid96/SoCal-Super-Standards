@@ -68,6 +68,11 @@ look=load('data/catalog/lookup.json')
 for key, entries in list(look.items()):
  look[key]=[pair for pair in entries if not re.search(r'/line-types/#detail-option [12]$',pair[1])]
  if not look[key]:del look[key]
+boe_catalog=Path('public/data/boe-sections.json')
+if boe_catalog.exists():
+ for section in load(boe_catalog):
+  code=re.match(r'^E[ -]*(\d+(?:\.\d+)*)\b',section['title'],re.I)
+  if code:look.setdefault('E'+code[1],[]).append(['LA BOE '+section['title'], section['url']])
 out=['---','title: California retired sign codes','---','','Caltrans · '+retired['date']+' · [Official deletion notice]('+retired['source']+')','']
 for code,name in retired['codes'].items():
  anchor=re.sub('[^a-z0-9]','',code.lower())

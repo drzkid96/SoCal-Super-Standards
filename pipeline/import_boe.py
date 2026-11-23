@@ -93,6 +93,7 @@ def main():
                 pages[u]=(title,d)
         todo={v for u in todo for v in children(pages[u][1],u)}-pages.keys()
     files={}
+    catalog=[]
     index=['---','title: "Los Angeles BOE Street Design Manual"','---','','City of Los Angeles Bureau of Engineering. Browse street-design provisions by chapter and section.','']
     for u,(title,d) in sorted(pages.items(),key=lambda item:item[1][0]):
         body=d.xpath('//main//*[contains(@class,"field--name-description") or contains(@class,"field--name-body") or contains(@class,"field--name-field-document-file")]')
@@ -106,12 +107,15 @@ def main():
         content=f'---\ntitle: {json.dumps(title)}\n---\n\n<a href="{escape(u)}">City of Los Angeles Bureau of Engineering · Official section</a>\n\n<div>'+text+'</div>\n'
         if links:content+='\n<ul>'+''.join(links)+'</ul>\n'
         files[slug(u)+'.md']=content
+        catalog.append({'title':title, 'url':BASE+'/'+slug(u)+'/', 'source':u, 'sections':len(child), 'tables':sum(len(n.xpath('.//table')) for n in body), 'illustrations':sum(len(n.xpath('.//img')) for n in body)})
         if u in seed:index.append(f'- [{title}]({BASE}/{slug(u)}/)')
     files['index.md']='\n'.join(index)+'\n'
     OUTPUT.mkdir(parents=True,exist_ok=True)
     for name,content in files.items():(OUTPUT/name).write_text(content)
     for old in OUTPUT.glob('*.md'):
         if old.name not in files:old.unlink()
+    destination=ROOT/'public/data/boe-sections.json'
+    destination.write_text(json.dumps(catalog, ensure_ascii=False, indent=1)+'\n')
     print(f'Imported {len(pages)} BOE pages from {len(seed)} navigation entries.')
 
 
