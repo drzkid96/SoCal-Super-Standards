@@ -5,6 +5,9 @@ sidebar:
   order: 11
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/signals.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/signals.webp" alt="LA28 Traffic Signal Operations" /></a><figcaption><strong>LA28 Traffic Signal Operations</strong> <em>Games corridor signal priority, transit preemption & pedestrian phases</em></figcaption></figure>
+
+
 <div class="srcbar">CA MUTCD 2026 LA28 Supplement (2028 Olympic and Paralympic Games Route Network) &middot; July 15, 2026 (effective July 15, 2026, FHWA accepted) &middot; pages 75&ndash;75</div>
 
 <span id="p75" class="anchor"></span>

@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/accessibility.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/accessibility.webp" alt="ADA Curb Ramps &amp; Accessible Routes" /></a><figcaption><strong>ADA Curb Ramps &amp; Accessible Routes</strong> <em>Directional concrete curb ramp with yellow detectable warning surface &amp; APS pole · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0019.webp" alt="Caltrans 2026 A88A" /></a><figcaption><strong>Caltrans 2026 A88A</strong><br><small>ADA curb ramp cases A–G</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0020.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0020.webp" alt="Caltrans 2026 A88B" /></a><figcaption><strong>Caltrans 2026 A88B</strong><br><small>Median & island curb ramps</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0021.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0021.webp" alt="Caltrans 2026 A90A" /></a><figcaption><strong>Caltrans 2026 A90A</strong><br><small>Off-street accessible parking</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/palmdale/standard-plans/pm-c-7-1.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/palmdale/standard-plans/pm-c-7-1.webp" alt="Palmdale C-7" /></a><figcaption><strong>Palmdale C-7</strong><br><small>Municipal arterial ADA curb ramp</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Curb ramps, detectable warnings, accessible pedestrian routes in work zones, accessible pedestrian signals and accessible parking.</div>
 
 

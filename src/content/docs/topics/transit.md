@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/transit.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/transit.webp" alt="Transit Priority &amp; Bus Stops" /></a><figcaption><strong>Transit Priority &amp; Bus Stops</strong> <em>Red-painted dedicated bus-only lane with concrete boarding pad and shelter · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-487-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-487-0-s1.webp" alt="LADOT S-487.0" /></a><figcaption><strong>LADOT S-487.0</strong><br><small>Exclusive bus lane markings</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-3b-city-center.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-3b-city-center.webp" alt="Caltrans DIB 94" /></a><figcaption><strong>Caltrans DIB 94</strong><br><small>Multimodal transit corridor section</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R3-5.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-5.svg" alt="Sign R3-5" /></a><figcaption><strong>Sign R3-5</strong><br><small>Mandatory lane movement control</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R7-107a.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R7-107a.svg" alt="Sign R7-107a" /></a><figcaption><strong>Sign R7-107a</strong><br><small>Bus Stop No Parking sign</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Preferential and bus-only lanes, red transit lanes, bus bulbs and stops, queue jumps, transit signals and light rail.</div>
 
 

@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/bikeways.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/bikeways.webp" alt="Separated &amp; Buffered Bikeways" /></a><figcaption><strong>Separated &amp; Buffered Bikeways</strong> <em>Class IV parking-protected green bikeway with vertical delineators · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/long-beach/standard-plans/lb-306-1.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/long-beach/standard-plans/lb-306-1.webp" alt="Long Beach LB 306" /></a><figcaption><strong>Long Beach LB 306</strong><br><small>Class IV bikeway & parking buffer</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p31-protected-intersection-std.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p31-protected-intersection-std.webp" alt="Culver City CSDS" /></a><figcaption><strong>Culver City CSDS</strong><br><small>Protected intersection geometry</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0017.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0017.webp" alt="Caltrans 2026 A24K" /></a><figcaption><strong>Caltrans 2026 A24K</strong><br><small>Green conflict & bike lane markings</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/west-hollywood/weho-protected-bike-lane.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/west-hollywood/weho-protected-bike-lane.webp" alt="West Hollywood" /></a><figcaption><strong>West Hollywood</strong><br><small>Protected bikeway curb treatment</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Bike lanes, separated bikeways (Class IV), buffered and green-colored lanes, bike boxes, two-stage turn queue boxes, shared lane markings, bike signals and bicycle signs.</div>
 
 

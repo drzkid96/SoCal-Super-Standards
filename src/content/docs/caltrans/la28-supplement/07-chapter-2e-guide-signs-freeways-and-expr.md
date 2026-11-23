@@ -5,6 +5,9 @@ sidebar:
   order: 7
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/signs.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/signs.webp" alt="LA28 Freeway & Expressway Guide Signing" /></a><figcaption><strong>LA28 Freeway & Expressway Guide Signing</strong> <em>Overhead & roadside venue guide sign overlays on Southern California freeways</em></figcaption></figure>
+
+
 <div class="srcbar">CA MUTCD 2026 LA28 Supplement (2028 Olympic and Paralympic Games Route Network) &middot; July 15, 2026 (effective July 15, 2026, FHWA accepted) &middot; pages 39&ndash;40</div>
 
 <span id="p39" class="anchor"></span>

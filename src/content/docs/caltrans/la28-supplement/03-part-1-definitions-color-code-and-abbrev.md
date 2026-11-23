@@ -5,6 +5,9 @@ sidebar:
   order: 3
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/signs.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/signs.webp" alt="LA28 GRN Color Codes & Abbreviations" /></a><figcaption><strong>LA28 GRN Color Codes & Abbreviations</strong> <em>Official Games Route Network sign colors, legends & venue abbreviations</em></figcaption></figure>
+
+
 <div class="srcbar">CA MUTCD 2026 LA28 Supplement (2028 Olympic and Paralympic Games Route Network) &middot; July 15, 2026 (effective July 15, 2026, FHWA accepted) &middot; pages 22&ndash;24</div>
 
 <span id="p22" class="anchor"></span>

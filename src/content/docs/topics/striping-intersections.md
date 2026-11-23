@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/striping-intersections.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/striping-intersections.webp" alt="Lane Lines, Arrows &amp; Intersection Striping" /></a><figcaption><strong>Lane Lines, Arrows &amp; Intersection Striping</strong> <em>Arterial dashed lane lines, double-yellow centerline &amp; left-turn pocket arrows · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0001.webp" alt="Caltrans 2026 A20A" /></a><figcaption><strong>Caltrans 2026 A20A</strong><br><small>6-in. traffic lines & RPMs</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-401-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-401-0-s1.webp" alt="LADOT S-401.0" /></a><figcaption><strong>LADOT S-401.0</strong><br><small>Major Highway striping layouts</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-405-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-405-0-s1.webp" alt="LADOT S-405.0" /></a><figcaption><strong>LADOT S-405.0</strong><br><small>Intersection striping transitions</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-414-4-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-414-4-s1.webp" alt="LADOT S-414.4" /></a><figcaption><strong>LADOT S-414.4</strong><br><small>Left-turn & median channelization</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Longitudinal markings, centerlines and lane lines, channelization, turn lanes, words and arrows, dotted extension lines and pavement marking materials.</div>
 <p><a class="ai-btn" href="/SoCal-Super-Standards/markings/line-types/">Line Type Database: every Caltrans striping detail</a></p>
 

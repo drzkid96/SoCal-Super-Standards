@@ -5,6 +5,13 @@ sidebar:
   order: 10
 ---
 
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/W11-2.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W11-2.svg" alt="Sign W11-2" /></a><figcaption><strong>Sign W11-2</strong><br><small>Pedestrian Crossing warning sign</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R1-6.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R1-6.svg" alt="Sign R1-6" /></a><figcaption><strong>Sign R1-6</strong><br><small>In-Street Pedestrian Crossing sign</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/W16-7P.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W16-7P.svg" alt="Plaque W16-7P" /></a><figcaption><strong>Plaque W16-7P</strong><br><small>Downward diagonal arrow plaque</small></figcaption></figure>
+</div>
+
+
 <div class="srcbar">FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (STEP) &middot; July 2018, updated &middot; pages 34&ndash;35</div>
 
 <span id="p34" class="anchor"></span>

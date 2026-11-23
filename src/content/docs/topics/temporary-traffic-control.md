@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/temporary-traffic-control.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/temporary-traffic-control.webp" alt="Work-Zone Temporary Traffic Control (TCP)" /></a><figcaption><strong>Work-Zone Temporary Traffic Control (TCP)</strong> <em>Arterial lane closure taper with orange cones, advance warning signs &amp; arrow board · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1008.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1008.webp" alt="Torrance T1008" /></a><figcaption><strong>Torrance T1008</strong><br><small>Arterial multi-lane closure TCP</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/glendora/standard-plans/gl-1-17-1.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/glendora/standard-plans/gl-1-17-1.webp" alt="Glendora 1.17" /></a><figcaption><strong>Glendora 1.17</strong><br><small>2024 traffic control requirements</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/W20-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W20-1.svg" alt="Sign W20-1" /></a><figcaption><strong>Sign W20-1</strong><br><small>Road Work Ahead warning sign</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/W20-5.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W20-5.svg" alt="Sign W20-5" /></a><figcaption><strong>Sign W20-5</strong><br><small>Right/Left Lane Closed Ahead</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Work zones, closures, detours, tapers, channelizing devices and pedestrian and bicycle accommodation through work zones.</div>
 
 

@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/rail-crossings.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/rail-crossings.webp" alt="Railroad &amp; Light-Rail (LRT) Grade Crossings" /></a><figcaption><strong>Railroad &amp; Light-Rail (LRT) Grade Crossings</strong> <em>At-grade light rail crossing with automatic gates, flashing red lights &amp; limit lines · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-436-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-436-0-s1.webp" alt="LADOT S-436.0" /></a><figcaption><strong>LADOT S-436.0</strong><br><small>RXR advance pavement marking</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/W10-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W10-1.svg" alt="Sign W10-1" /></a><figcaption><strong>Sign W10-1</strong><br><small>Grade Crossing Advance Warning</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R15-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R15-1.svg" alt="Sign R15-1" /></a><figcaption><strong>Sign R15-1</strong><br><small>Railroad Crossing Crossbuck</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R8-8.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R8-8.svg" alt="Sign R8-8" /></a><figcaption><strong>Sign R8-8</strong><br><small>Do Not Stop on Tracks</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Grade crossing signs, markings and signals, and light rail transit crossings.</div>
 
 

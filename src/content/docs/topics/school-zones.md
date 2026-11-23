@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/school-zones.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/school-zones.webp" alt="School Crossings &amp; Zones" /></a><figcaption><strong>School Crossings &amp; Zones</strong> <em>Yellow high-visibility school crosswalk, fluorescent yellow-green pentagon signs &amp; crossing guard · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/S1-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/S1-1.svg" alt="Sign S1-1" /></a><figcaption><strong>Sign S1-1</strong><br><small>School Advance Warning (FYG)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/S4-3P.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/S4-3P.svg" alt="Plaque S4-3P" /></a><figcaption><strong>Plaque S4-3P</strong><br><small>School Speed Limit plaque</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/S5-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/S5-1.svg" alt="Sign S5-1" /></a><figcaption><strong>Sign S5-1</strong><br><small>School Speed Limit 25 When Flashing</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-481-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-481-0-s1.webp" alt="LADOT S-481.0" /></a><figcaption><strong>LADOT S-481.0</strong><br><small>School crosswalk signing & markings</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">School area signs, school speed limits, school crosswalks, crossing guards and pick-up/drop-off areas.</div>
 
 

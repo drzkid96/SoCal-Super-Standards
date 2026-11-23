@@ -5,6 +5,13 @@ sidebar:
   order: 3
 ---
 
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-481-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-481-0-s1.webp" alt="LADOT S-481.0" /></a><figcaption><strong>LADOT S-481.0</strong><br><small>Uncontrolled crosswalk signing & yield lines</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0013.webp" alt="Caltrans 2026 A24F" /></a><figcaption><strong>Caltrans 2026 A24F</strong><br><small>Continental crosswalk & yield-line markings</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-483-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-483-1-s1.webp" alt="LADOT S-483.1" /></a><figcaption><strong>LADOT S-483.1</strong><br><small>Raised crosswalk vertical deflection</small></figcaption></figure>
+</div>
+
+
 <div class="srcbar">FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (STEP) &middot; July 2018, updated &middot; pages 8&ndash;9</div>
 
 <span id="p8" class="anchor"></span>

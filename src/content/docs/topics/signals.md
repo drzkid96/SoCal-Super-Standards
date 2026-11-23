@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/signals.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/signals.webp" alt="Traffic &amp; Pedestrian Signals" /></a><figcaption><strong>Traffic &amp; Pedestrian Signals</strong> <em>Mast-arm traffic signal heads, pedestrian countdown display &amp; stop-bar control · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-100-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-100-0-s1.webp" alt="LADOT S-100.0" /></a><figcaption><strong>LADOT S-100.0</strong><br><small>Signalized jogged intersections</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-497-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-497-0-s1.webp" alt="LADOT S-497.0" /></a><figcaption><strong>LADOT S-497.0</strong><br><small>Protected left-turn sight distance</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/gardena/standard-plans/gar-st-16.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/gardena/standard-plans/gar-st-16.webp" alt="Gardena ST-16" /></a><figcaption><strong>Gardena ST-16</strong><br><small>Inductive traffic loop detector</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-486-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-486-0-s1.webp" alt="LADOT S-486.0" /></a><figcaption><strong>LADOT S-486.0</strong><br><small>Mast-arm street name signs</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Signal warrants, signal heads and placement, phasing, pedestrian signal heads and countdowns, accessible pedestrian signals, detection and beacons.</div>
 
 

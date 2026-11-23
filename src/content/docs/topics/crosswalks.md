@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/crosswalks.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/crosswalks.webp" alt="High-Visibility Pedestrian Crossings" /></a><figcaption><strong>High-Visibility Pedestrian Crossings</strong> <em>Continental crosswalk bars and curb-extension bulb-out at an urban corner · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-481-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-481-0-s1.webp" alt="LADOT S-481.0" /></a><figcaption><strong>LADOT S-481.0</strong><br><small>Uncontrolled crosswalk controls</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-481-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-481-1-s1.webp" alt="LADOT S-481.1" /></a><figcaption><strong>LADOT S-481.1</strong><br><small>Continental crosswalks (controlled)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0013.webp" alt="Caltrans 2026 A24F" /></a><figcaption><strong>Caltrans 2026 A24F</strong><br><small>Crosswalk & yield-line dimensions</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-493-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-493-0-s1.webp" alt="LADOT S-493.0" /></a><figcaption><strong>LADOT S-493.0</strong><br><small>Limit line & crosswalk setbacks</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Marking, signing and controlling pedestrian crossings: crosswalk patterns, uncontrolled crossings, RRFBs, PHBs, raised crosswalks, limit lines and advance yield lines.</div>
 
 

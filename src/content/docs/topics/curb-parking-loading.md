@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/curb-parking-loading.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/curb-parking-loading.webp" alt="Curb Paint, Daylighting &amp; Parking Zones" /></a><figcaption><strong>Curb Paint, Daylighting &amp; Parking Zones</strong> <em>Red no-parking daylighting zone transitioning to metered parallel stalls · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-404-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-404-1-s1.webp" alt="LADOT S-404.1" /></a><figcaption><strong>LADOT S-404.1</strong><br><small>Parallel parking stall markings</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-440-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-440-0-s1.webp" alt="LADOT S-440.0" /></a><figcaption><strong>LADOT S-440.0</strong><br><small>Angle parking stall geometry</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0022.webp" alt="Caltrans 2026 A90B" /></a><figcaption><strong>Caltrans 2026 A90B</strong><br><small>On-street accessible parking</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-510-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-510-0-s1.webp" alt="LADOT S-510.0" /></a><figcaption><strong>LADOT S-510.0</strong><br><small>No Parking Anytime signing</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Curb paint colors, parking stalls, loading and passenger zones, no-parking and tow-away signs, shared mobility zones, meters and accessible parking.</div>
 <p><a class="ai-btn" href="/SoCal-Super-Standards/ladot/curb-paint/">LADOT curb paint, red curb distances and the S-481.0 calculator</a></p>
 

@@ -5,6 +5,9 @@ sidebar:
   order: 9
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/crosswalks.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/crosswalks.webp" alt="Before/After Safety Monitoring" /></a><figcaption><strong>Before/After Safety Monitoring</strong> <em>Systemic pedestrian crossing upgrades & crash-reduction tracking</em></figcaption></figure>
+
+
 <div class="srcbar">FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (STEP) &middot; July 2018, updated &middot; pages 31&ndash;33</div>
 
 <span id="p31" class="anchor"></span>

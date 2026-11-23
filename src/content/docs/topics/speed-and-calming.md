@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/speed-and-calming.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/speed-and-calming.webp" alt="Neighborhood Traffic Calming" /></a><figcaption><strong>Neighborhood Traffic Calming</strong> <em>Parabolic asphalt speed hump with white chevrons &amp; landscaped traffic circle · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-483-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-483-0-s1.webp" alt="LADOT S-483.0" /></a><figcaption><strong>LADOT S-483.0</strong><br><small>Speed hump profile & markings</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-483-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-483-1-s1.webp" alt="LADOT S-483.1" /></a><figcaption><strong>LADOT S-483.1</strong><br><small>Raised crosswalk geometry</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-509-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-509-0-s1.webp" alt="LADOT S-509.0" /></a><figcaption><strong>LADOT S-509.0</strong><br><small>HUMPS pavement legend</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R2-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R2-1.svg" alt="Sign R2-1" /></a><figcaption><strong>Sign R2-1</strong><br><small>Speed Limit regulatory sign</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Speed limit signs and speed zones, school and senior speed limits, speed humps, speed tables, traffic circles and roundabouts, and narrowed roadways.</div>
 
 

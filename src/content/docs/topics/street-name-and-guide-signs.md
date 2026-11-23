@@ -7,6 +7,16 @@ sidebar:
 
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/street-name-and-guide-signs.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/street-name-and-guide-signs.webp" alt="Street Name, Regulatory &amp; Guide Signs" /></a><figcaption><strong>Street Name, Regulatory &amp; Guide Signs</strong> <em>Overhead mast-arm street name blade, route wayfinding &amp; roadside regulatory signs · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
+## Key Standard Drawings & Signs
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-221-3-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-221-3-s1.webp" alt="LADOT S-221.3" /></a><figcaption><strong>LADOT S-221.3</strong><br><small>Roadside street name sign posting</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-438-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-438-0-s1.webp" alt="LADOT S-438.0" /></a><figcaption><strong>LADOT S-438.0</strong><br><small>Street name sign fabrication</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-486-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-486-0-s1.webp" alt="LADOT S-486.0" /></a><figcaption><strong>LADOT S-486.0</strong><br><small>Mast-arm street name signs</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-418-5-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-418-5-s1.webp" alt="LADOT S-418.5" /></a><figcaption><strong>LADOT S-418.5</strong><br><small>Roadside freeway guide signing</small></figcaption></figure>
+</div>
+
+
 <div class="topic-intro">Street name signs, overhead and mastarm-mounted name signs, advance street name signs, guide and wayfinding signs.</div>
 
 

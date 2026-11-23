@@ -4,6 +4,14 @@ description: A to Z index of design concepts across every standard drawing, manu
 tableOfContents: false
 ---
 
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0001.webp" alt="Caltrans A20A" /></a><figcaption><strong>Caltrans A20A</strong><br><small>Traffic lines & RPM details</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0013.webp" alt="Caltrans A24F" /></a><figcaption><strong>Caltrans A24F</strong><br><small>Crosswalks & limit lines</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0019.webp" alt="Caltrans A88A" /></a><figcaption><strong>Caltrans A88A</strong><br><small>ADA curb ramps</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/long-beach/standard-plans/lb-306-1.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/long-beach/standard-plans/lb-306-1.webp" alt="Long Beach LB 306" /></a><figcaption><strong>Long Beach LB 306</strong><br><small>Class IV bikeway markings</small></figcaption></figure>
+</div>
+
+
 <div class="sfilter kfilter"><input id="kq" type="search" placeholder="Filter the index: cat tracks, RRFB, bulb-out, pull box, 2WLTL..."><span id="kcount">127 index entries &middot; 2542 drawing keywords</span></div>
 
 Each entry gathers every drawing, figure, table, marking and sign on the site that deals with one design concept, under the name you are most likely to search plus its synonyms and abbreviations. Drawings that name the concept in their title, summary or keywords are listed first; drawings that only mention it in their notes follow. The same synonyms power the Detail Index filter and site search.
