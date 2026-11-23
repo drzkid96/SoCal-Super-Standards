@@ -172,6 +172,11 @@ function init() {
     [
       { label: 'Burbank Standard Plans', href: `${BASE}/burbank/standard-plans/` },
       { label: 'Pasadena Standard Plans', href: `${BASE}/pasadena/standard-plans/` },
+      { label: 'Long Beach Standard Plans', href: `${BASE}/long-beach/standard-plans/` },
+      { label: 'Palmdale Standard Drawings', href: `${BASE}/palmdale/standard-plans/` },
+      { label: 'Torrance Standard Plans', href: `${BASE}/torrance/standard-plans/` },
+      { label: 'Gardena Standard Plans', href: `${BASE}/gardena/standard-plans/` },
+      { label: 'Glendora 2024 Standards', href: `${BASE}/glendora/standard-plans/` },
       { label: 'Santa Monica Standard Details', href: `${BASE}/santa-monica/standard-plans/` },
       { label: 'West Hollywood Engineering', href: `${BASE}/west-hollywood/standard-plans/` },
       { label: 'Culver City Complete Streets', href: `${BASE}/culver-city/standard-plans/` },

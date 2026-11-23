@@ -1,0 +1,58 @@
+---
+title: "City of Torrance — Street, Signing & Work Area Traffic Control Plans"
+description: "19 official City of Torrance T-Series Standard Plans directly embedded: arterial lane widths (T120), street cross-sections (T101–T103), driveways, roadside sign placement (T502), barrier posts, and 10 Work Area Traffic Control plans (T1001–T1013)."
+---
+
+The City of Torrance Community Development / Engineering Services Division publishes the **T-Series Standard Plans**, including a comprehensive **10-sheet Work Area Traffic Control set (`T1001`–`T1013`)** covering local streets, flagging, arterial single/multi-lane closures, turn-pocket closures, and work beyond intersections, plus arterial minimum lane widths (`T120`) and roadside sign placement (`T502`).
+
+:::tip[Governing Hierarchy & Local Practice]
+**Governing hierarchy & key local rules:**
+- **Work-zone merge taper & buffer schedule (`T1004`–`T1013`, 12-ft lane basis):**
+  - **30 mph:** L = 180 ft · Taper delineators 30 ft · Tangent 60 ft · Buffer 100 ft
+  - **35 mph:** L = 245 ft · Taper 35 ft · Tangent 70 ft · Buffer 100 ft
+  - **40 mph:** L = 320 ft · Taper 40 ft · Tangent 80 ft · Buffer 100 ft
+  - **45 mph:** L = 540 ft · Taper 45 ft · Tangent 90 ft · Buffer 350 ft
+  - **50 mph:** L = 600 ft · Taper 50 ft · Tangent 100 ft · Buffer 350 ft
+- **Supplement:** For striping, signals, and curb ramps not covered by a T-Series sheet, Torrance adopts **CA MUTCD**, **Caltrans Standard Plans**, and **SPPWC (Greenbook)**.
+:::
+
+Click any sheet below to open the full-resolution drawing in the in-tab zoomable viewer. All **19 sheets** are also indexed in the [Detail and Drawing Index](/SoCal-Super-Standards/details/?sg=Torrance).
+
+## Street Sections, Lane Widths & Driveways
+
+<div class="mgrid">
+  <figure class="mfig" id="tor-t120"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t120.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t120.webp" alt="Torrance T120 — Minimum Lane Widths for Arterial Street" /></a><figcaption><strong>Torrance T120</strong> · Minimum Lane Widths for Arterial Street<br><small>Minimum through, curb, and turn lane widths for Torrance arterial streets.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t103-1"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t103-1.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t103-1.webp" alt="Torrance T103 (Sht 1) — Typical Section — Collector &amp; Arterial Street (Sheet 1)" /></a><figcaption><strong>Torrance T103 (Sht 1)</strong> · Typical Section — Collector &amp; Arterial Street (Sheet 1)<br><small>Arterial and collector street right-of-way, curb, parkway, and pavement cross-sections (Sheet 1 of 2).</small></figcaption></figure>
+  <figure class="mfig" id="tor-t103-2"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t103-2.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t103-2.webp" alt="Torrance T103 (Sht 2) — Typical Section — Collector &amp; Arterial Street (Sheet 2)" /></a><figcaption><strong>Torrance T103 (Sht 2)</strong> · Typical Section — Collector &amp; Arterial Street (Sheet 2)<br><small>Divided arterial median and structural section details (Sheet 2 of 2).</small></figcaption></figure>
+  <figure class="mfig" id="tor-t102"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t102.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t102.webp" alt="Torrance T102 — Typical Section — Local Street" /></a><figcaption><strong>Torrance T102</strong> · Typical Section — Local Street<br><small>Local residential street width, crown, curb, and parkway cross-section.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t101"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t101.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t101.webp" alt="Torrance T101 — Typical Section — Alley" /></a><figcaption><strong>Torrance T101</strong> · Typical Section — Alley<br><small>Standard alley inverted-crown concrete/AC cross-section.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t105"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t105.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t105.webp" alt="Torrance T105 — Radius Driveway with Depressed Sidewalk" /></a><figcaption><strong>Torrance T105</strong> · Radius Driveway with Depressed Sidewalk<br><small>Commercial radius curb-return driveway with ADA-compliant depressed sidewalk crossing.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t108"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t108.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t108.webp" alt="Torrance T108 — Driveway in Narrow Parkway" /></a><figcaption><strong>Torrance T108</strong> · Driveway in Narrow Parkway<br><small>Driveway approach geometry and sidewalk warp where parkway width is constrained.</small></figcaption></figure>
+</div>
+
+## Roadside Signing & Barrier Posts
+
+<div class="mgrid">
+  <figure class="mfig" id="tor-t502"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t502.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t502.webp" alt="Torrance T502 — Roadside Sign Placement" /></a><figcaption><strong>Torrance T502</strong> · Roadside Sign Placement<br><small>Standard lateral offset from curb face, vertical mounting height, and sign post foundation.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t500"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t500.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t500.webp" alt="Torrance T500 — Removable Barrier Post" /></a><figcaption><strong>Torrance T500</strong> · Removable Barrier Post<br><small>Locking removable steel bollard/barrier post for trail, bikeway, and emergency-only access points.</small></figcaption></figure>
+</div>
+
+## Work Area Traffic Control (T1001–T1013)
+
+<div class="mgrid">
+  <figure class="mfig" id="tor-t1001"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1001.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1001.webp" alt="Torrance T1001 — Typical Curbside Street Closure — Local Street" /></a><figcaption><strong>Torrance T1001</strong> · Typical Curbside Street Closure — Local Street<br><small>Work zone taper, delineator spacing, and warning signs for curbside work on local streets.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t1002"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1002.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1002.webp" alt="Torrance T1002 — Typical Center Street Closure — Local Street" /></a><figcaption><strong>Torrance T1002</strong> · Typical Center Street Closure — Local Street<br><small>Center-of-roadway work zone channelization and split-traffic signing on local streets.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t1003"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1003.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1003.webp" alt="Torrance T1003 — Typical Local Street Closure with Flaggers" /></a><figcaption><strong>Torrance T1003</strong> · Typical Local Street Closure with Flaggers<br><small>One-lane two-way flagging operation with C9A(CA) flagger advance signs on local streets.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t1004"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1004.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1004.webp" alt="Torrance T1004 — Arterial &amp; Collector — Right Lane Closure" /></a><figcaption><strong>Torrance T1004</strong> · Arterial &amp; Collector — Right Lane Closure<br><small>Multi-lane arterial/collector right-lane closure with speed-based merge taper and buffer table (30-50 mph).</small></figcaption></figure>
+  <figure class="mfig" id="tor-t1005"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1005.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1005.webp" alt="Torrance T1005 — Arterial &amp; Collector — Left Lane Closure" /></a><figcaption><strong>Torrance T1005</strong> · Arterial &amp; Collector — Left Lane Closure<br><small>Arterial/collector inside (left) lane closure with flashing arrow board and taper schedule.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t1006"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1006.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1006.webp" alt="Torrance T1006 — Arterial &amp; Collector — Center Lane Closure" /></a><figcaption><strong>Torrance T1006</strong> · Arterial &amp; Collector — Center Lane Closure<br><small>Center travel lane closure on multi-lane arterials with dual-side channelization.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t1007"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1007.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1007.webp" alt="Torrance T1007 — Arterial &amp; Collector — Left Turn Lane Closure" /></a><figcaption><strong>Torrance T1007</strong> · Arterial &amp; Collector — Left Turn Lane Closure<br><small>Left-turn pocket closure signing, delineators, and temporary turn prohibition.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t1008"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1008.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1008.webp" alt="Torrance T1008 — Arterial — Multi-Lane Closure" /></a><figcaption><strong>Torrance T1008</strong> · Arterial — Multi-Lane Closure<br><small>Double-lane closure on high-speed arterials with staggered merge tapers (L, 2L tangent, 1/2L buffer).</small></figcaption></figure>
+  <figure class="mfig" id="tor-t1011"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1011.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1011.webp" alt="Torrance T1011 — Right Lane Closure for Work Beyond Intersection" /></a><figcaption><strong>Torrance T1011</strong> · Right Lane Closure for Work Beyond Intersection<br><small>Intersection-spanning right lane closure keeping upstream turning movements clear.</small></figcaption></figure>
+  <figure class="mfig" id="tor-t1013"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1013.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1013.webp" alt="Torrance T1013 — Arterial &amp; Collector — Right Turn Lane Closure" /></a><figcaption><strong>Torrance T1013</strong> · Arterial &amp; Collector — Right Turn Lane Closure<br><small>Right-turn pocket closure at signalized/unsignalized arterial intersections.</small></figcaption></figure>
+</div>
+
+## Source & Reference
+
+- Official source: City of Torrance Standards, Details, & Plans (`torranceca.gov`).
+- Related: [Standards Status (What Governs)](/SoCal-Super-Standards/bulletins/standards-status/) · [Caltrans 2026 Standard Plans](/SoCal-Super-Standards/caltrans/standard-plans-2026/) · [LADOT Standards](/SoCal-Super-Standards/ladot/)

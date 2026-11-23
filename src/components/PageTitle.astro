@@ -89,7 +89,7 @@ if (id && id !== '404') {
     crumbs.push({ label: 'Burbank Standard Plans', href: `${BASE}/burbank/standard-plans/` });
   } else if (top === 'pasadena' && segs.length > 2) {
     crumbs.push({ label: 'Pasadena Standard Plans', href: `${BASE}/pasadena/standard-plans/` });
-  } else if (top === 'santa-monica' || top === 'west-hollywood' || top === 'culver-city') {
+  } else if (['santa-monica', 'west-hollywood', 'culver-city', 'long-beach', 'palmdale', 'torrance', 'gardena', 'glendora'].includes(top)) {
     crumbs.push({ label: 'SoCal Municipal Standards', href: `${BASE}/sources/` });
   } else if (top === 'fhwa') {
     if (segs.length > 2) {

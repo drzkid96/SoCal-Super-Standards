@@ -46,6 +46,11 @@ const agencyDocs = [
     .filter((c) => !c.slug.includes('la28'))
     .sort((a, b) => (AGENCY_ORDER.indexOf(a.slug) + 1 || 99) - (AGENCY_ORDER.indexOf(b.slug) + 1 || 99))
     .map((c) => ({ label: AGENCY_LABELS[c.slug] || c.short, link: `/${c.slug}/` })),
+  { label: 'Long Beach Traffic & Roadway Plans (22 sheets)', link: '/long-beach/standard-plans/' },
+  { label: 'Palmdale Street & Traffic Drawings (16 sheets)', link: '/palmdale/standard-plans/' },
+  { label: 'Torrance T-Series & TCP Plans (19 sheets)', link: '/torrance/standard-plans/' },
+  { label: 'Gardena Street & Loop Plans (14 sheets)', link: '/gardena/standard-plans/' },
+  { label: 'Glendora 2024 Street & TCP Standards (12 sheets)', link: '/glendora/standard-plans/' },
   { label: 'Santa Monica Standard Details (SM / B / SWSM)', link: '/santa-monica/standard-plans/' },
   { label: 'West Hollywood Engineering & Mobility', link: '/west-hollywood/standard-plans/' },
   { label: 'Culver City Complete Streets & Traffic', link: '/culver-city/standard-plans/' },

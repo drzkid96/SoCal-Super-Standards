@@ -158,6 +158,11 @@ window.__openSiteSearch = function (query) {
     ['Lane Width Comparison (DIB 94 vs. MPP 531 vs. LA Streets)', BASE + '/bulletins/lane-widths/', 'Tool', 'lane width comparison dib 94 mpp 531 road diet travel lane'],
     ['Bikeway Design Comparison (HDM Ch. 1000, DIB 89-02, CA MUTCD & AASHTO GBF-5)', BASE + '/bulletins/bikeway-design-comparison/', 'Tool', 'bikeway design comparison aashto gbf-5 hdm 1000 dib 89-02 class iv separated bike lane shared use path sharrow'],
     ['AASHTO Bike Guide, 5th Edition (GBF-5, 2024) — 16 Chapters, 256 Figures, 50 Tables', BASE + '/guides/aashto-bike-guide/', 'Guide', 'aashto guide for the development of bicycle facilities 5th edition gbf-5 2024 errata bikeway'],
+    ['Long Beach Traffic & Roadway Standard Plans (22 Sheets: Bikeways 302–306, Crosswalks, Speed Humps, Bus Pads)', BASE + '/long-beach/standard-plans/', 'Long Beach', 'long beach lb 302 303 304 305 306 307 308 309 310 311 315 317 122 112 113 bikeway class iv crosswalk speed hump bus pad'],
+    ['Palmdale Street, Curb Ramp & Traffic Standard Drawings (16 Sheets: S-1–S-2, C-7, G-4, M-1, M-5)', BASE + '/palmdale/standard-plans/', 'Palmdale', 'palmdale standard drawings s-1.1 s-1.2 s-1.3 s-2 c-7 curb ramp g-4 m-1 barricade m-5.1 street name sign'],
+    ['Torrance T-Series Street, Signing & Work Area Traffic Control Plans (19 Sheets: T101–T120, T502, T1001–T1013)', BASE + '/torrance/standard-plans/', 'Torrance', 'torrance standard plans t120 lane width t103 t502 sign t1001 t1004 t1005 t1008 t1011 t1013 tcp work zone closure'],
+    ['Gardena Street, Traffic Loop & Curb Ramp Standard Plans (14 Sheets: ST-1–ST-18)', BASE + '/gardena/standard-plans/', 'Gardena', 'gardena standard plans st-13 st-14 curb ramp st-16 traffic loop st-17 no excavation st-18 trench plating driveway'],
+    ['Glendora 2024 Street, Driveway & Traffic Control Standards (12 Sheets: 1.01–1.18, 4.01)', BASE + '/glendora/standard-plans/', 'Glendora', 'glendora 2024 standard designs 1.07 street section 1.10 trenching 1.13 1.15 1.16 driveway 1.17 1.18 traffic control 4.01'],
     ['Santa Monica Standard Details (SM 1–22A, B-1–B-5 Bikeways, SWSM Green Streets, Curb Ramps)', BASE + '/santa-monica/standard-plans/', 'Santa Monica', 'santa monica standard details sm 2 sm 5 sm 7 sm 19 sm 20 b-1 b-5 swsm curb ramp ttcp'],
     ['West Hollywood Engineering & Mobility Standards (Green Bike Lanes, NTMP, Pavement)', BASE + '/west-hollywood/standard-plans/', 'West Hollywood', 'west hollywood weho ntmp traffic calming green bike lane protected bike lane fountain willoughby pavement'],
     ['Culver City Complete Streets Design Standards (June 2025) & TCP Requirements', BASE + '/culver-city/standard-plans/', 'Culver City', 'culver city complete streets design standards csds tcp traffic control crosswalk bike box parklet'],
@@ -218,6 +223,11 @@ window.__openSiteSearch = function (query) {
     if (url.includes('/details/ladot/') || url.includes('/ladot/')) return { tag: 'LADOT', cls: 'l', pri: 11 };
     if (url.includes('/details/burbank/') || url.includes('/burbank/')) return { tag: 'Burbank', cls: 'l', pri: 12 };
     if (url.includes('/details/pasadena/') || url.includes('/pasadena/')) return { tag: 'Pasadena', cls: 'l', pri: 12 };
+    if (url.includes('/long-beach/')) return { tag: 'Long Beach', cls: 'l', pri: 13 };
+    if (url.includes('/palmdale/')) return { tag: 'Palmdale', cls: 'l', pri: 13 };
+    if (url.includes('/torrance/')) return { tag: 'Torrance', cls: 'l', pri: 13 };
+    if (url.includes('/gardena/')) return { tag: 'Gardena', cls: 'l', pri: 13 };
+    if (url.includes('/glendora/')) return { tag: 'Glendora', cls: 'l', pri: 13 };
     if (url.includes('/santa-monica/')) return { tag: 'Santa Monica', cls: 'l', pri: 13 };
     if (url.includes('/west-hollywood/')) return { tag: 'West Hollywood', cls: 'l', pri: 13 };
     if (url.includes('/culver-city/')) return { tag: 'Culver City', cls: 'l', pri: 13 };
