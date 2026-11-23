@@ -48,6 +48,12 @@ jobs:
           key: manual-art-v1-${{ hashFiles('data/reference/manual-illustrations.json') }}
       - name: Render original MUTCD charts and tables
         run: python pipeline/manual_art.py
+      - uses: actions/cache@v4
+        with:
+          path: .santa-monica-art
+          key: santa-monica-ttcp-${{ hashFiles('pipeline/santa_monica_art.py') }}
+      - name: Render Santa Monica original TTCP documents
+        run: python pipeline/santa_monica_art.py
       - uses: withastro/action@v3
         with:
           node-version: 22

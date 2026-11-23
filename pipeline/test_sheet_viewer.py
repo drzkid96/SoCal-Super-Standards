@@ -80,6 +80,13 @@ with TemporaryDirectory() as temp:
         browser.get(base+'details/ladot/mpp-531-s-481-0/')
         assert not browser.find_elements(By.CSS_SELECTOR,'a[href*="/redraw/"]')
         assert browser.find_element(By.CSS_SELECTOR,'.detail-description').is_displayed()
+        browser.get(base+'santa-monica/standard-plans/#sheet-ttcp-requirements-6')
+        uploads=browser.find_element(By.ID,'sheet-ttcp-requirements-6').find_element(By.XPATH,'ancestor::figure')
+        assert uploads.is_displayed()
+        viewer=uploads.find_element(By.XPATH,'ancestor::div[contains(@class,"sss-ms-wrap")]')
+        assert len(Select(viewer.find_element(By.TAG_NAME,'select')).options)==14
+        assert 'page 6 of 14' in uploads.text
+        assert '#page=6' in uploads.find_element(By.CSS_SELECTOR,'figcaption a').get_attribute('href')
         browser.get(base+'boe/street-design/')
         field=browser.find_element(By.ID,'boe-filter')
         field.send_keys('E550')

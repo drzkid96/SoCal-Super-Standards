@@ -12,7 +12,7 @@ ROUTES={
 'bikeways':[('Select the facility','/bulletins/bikeway-design-comparison/'),('Check California geometry','/bulletins/caltrans-hdm-ch1000/'),('Design separated bikeways','/bulletins/caltrans-dib-89-02/'),('Find bicycle signs and markings','/ca-mutcd/9e/')],
 'crosswalks':[('Review LADOT crossing criteria','/ladot/marked-crosswalks/'),('Place the markings','/ca-mutcd/3c/'),('Check red curb and visibility','/ladot/curb-paint/')],
 'accessibility':[('Check Caltrans accessibility guidance','/bulletins/caltrans-dib-82-06/'),('Lay out a curb ramp','/details/caltrans/caltrans-std-plans-2026-a88a/'),('Check accessible signals','/ca-mutcd/4k/')],
-'temporary-traffic-control':[('Plan tapers and work areas','/ca-mutcd/6b/'),('Select a typical application','/ca-mutcd/6p/'),('Check Santa Monica submittals','/santa-monica/standard-plans/')],
+'temporary-traffic-control':[('Plan tapers and work areas','/ca-mutcd/6b/'),('Select a typical application','/ca-mutcd/6p/'),('Check Santa Monica submittals','/santa-monica/standard-plans/#ttcp')],
 'signals':[('Evaluate signal warrants','/ca-mutcd/4c/'),('Read pedestrian indications','/ca-mutcd/4i/'),('Open LADOT signal drawings','/ladot/red-book/')],
 'striping-intersections':[('Select a line pattern','/markings/line-types/'),('Compare lane widths','/bulletins/lane-widths/'),('Open the A20 and A24 sheets','/caltrans/standard-plans-2026/')],
 'speed-and-calming':[('Review California speed guidance','/ca-mutcd/2b/'),('Compare traffic calming layouts','/burbank/standard-plans/'),('Check hump markings','/ca-mutcd/3b/')],
