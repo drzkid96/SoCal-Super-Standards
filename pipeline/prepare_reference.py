@@ -17,7 +17,7 @@ for manual in ('ca-mutcd','mutcd'):
  for path in (root/manual).glob('*.md'):
   src=path.read_text()
   def dest(m):
-   kind,num=m.groups();num=num.replace(' ','');owner=num.split('-')[0];pg=items.get(kind+' '+num)
+   kind,num=m.groups();kind=kind.rstrip('s');num=num.replace(' ','');owner=num.split('-')[0];pg=items.get(kind+' '+num)
    if pg and owner in chapters:
     if manual=='ca-mutcd' and owner in urls:return urls[owner]+'#page='+str(pg-chapters[owner]+1)
     image=f'/figs/{manual}/p{pg:04}.webp'
@@ -27,7 +27,7 @@ for manual in ('ca-mutcd','mutcd'):
   def link(m):
    target=dest(m)
    return '<a href="'+target+'">'+m[1]+' '+m[2]+'</a>' if target else m[1]+' '+m[2]
-  src=re.sub(r'<a href="#fig-[^"]+">(Figure|Table)\s+(\d[A-Z]-\d+(?:\s*\(CA\))?)</a>',link,src)
+  src=re.sub(r'<a href="#fig-[^"]+">(Figures?|Tables?)\s+(\d[A-Z]-\d+(?:\s*\(CA\))?)</a>',link,src)
   if manual=='ca-mutcd' and path.stem.upper() in urls:
    code=path.stem.upper(); file=ref/'provisions'/(path.stem+'.json');records=json.loads(file.read_text()) if file.exists() else {}
    sect=''; lines=[]
@@ -40,16 +40,8 @@ for manual in ('ca-mutcd','mutcd'):
      page=entry[0] if isinstance(entry,list) else entry
      url=urls[code]+('#page='+str(page) if page else '')
      if isinstance(entry,list):
-      groups=entry[1]; pos=0
-      # Preserve links/California additions when the complete wording can be located.
-      for deleted,t in groups:
-       if not deleted or not t.strip():continue
-       phrase=html.escape(t.strip(),quote=False)
-       pat=r'\s+'.join(re.escape(w) for w in phrase.split())
-       hit=re.search(pat,body[pos:])
-       if not hit:
-        body=' '.join(('<del data-pagefind-ignore>'+html.escape(x.strip())+'</del>' if d else html.escape(x.strip())) for d,x in groups);break
-       a=pos+hit.start();b=pos+hit.end();tag='<del data-pagefind-ignore>'+body[a:b]+'</del>';body=body[:a]+tag+body[b:];pos=a+len(tag)
+      # Use whole PDF text runs so a strike cannot split an HTML attribute or mark an earlier repeated word.
+      body=' '.join(('<del data-pagefind-ignore>'+html.escape(x.strip())+'</del>' if d else html.escape(x.strip())) for d,x in entry[1])
      if not page and ('class="ca"' in body or not records):
       body='Consult the official chapter for the marked-up provision.'
      line=f'<p id="{sect.lower().replace(".","").replace("(","").replace(")","")}-p{n}"><a class="pn" data-pagefind-ignore href="{url}" aria-label="Official source, paragraph {n}">{n}</a> {body}</p>'
@@ -73,6 +65,9 @@ for sign in load('data/signs/signs.json'):
 
 retired=load('data/ca_deleted_signs.json')
 look=load('data/catalog/lookup.json')
+for key, entries in list(look.items()):
+ look[key]=[pair for pair in entries if not re.search(r'/line-types/#detail-option [12]$',pair[1])]
+ if not look[key]:del look[key]
 out=['---','title: California retired sign codes','---','','Caltrans · '+retired['date']+' · [Official deletion notice]('+retired['source']+')','']
 for code,name in retired['codes'].items():
  anchor=re.sub('[^a-z0-9]','',code.lower())

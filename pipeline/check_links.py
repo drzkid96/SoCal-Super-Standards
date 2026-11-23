@@ -29,7 +29,7 @@ for (url,anchor),sources in refs.items():
     dest=root/url.removeprefix(base)
     route=url.removesuffix('index.html')
     if route not in ids:route=route.rstrip('/')+'/'
-    if not dest.is_file() and route not in ids or (anchor and route in ids and anchor not in ids[route] and not anchor.startswith(':~:text=')):
+    if not dest.is_file() and not (root/(str(dest.relative_to(root)).rstrip('/')+'.html')).is_file() and route not in ids or (anchor and route in ids and anchor not in ids[route] and not anchor.startswith(':~:text=')):
         bad.append((url+'#'+anchor,sorted(sources)[0]))
 for target,source in bad[:50]: print(target,'from',source)
 print(f'{len(pages)} HTML pages, {len(bad)} missing destinations')

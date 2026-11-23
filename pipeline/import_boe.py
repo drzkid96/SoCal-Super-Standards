@@ -69,7 +69,7 @@ def render(node, url, known):
     if key and node.get(key):
         target,frag=urldefrag(urljoin(url,node.get(key)))
         if urlsplit(target).scheme in ('https','http','mailto'):
-            target=BASE+'/'+slug(target)+'/' if target.rstrip('/') in known else target
+            target=BASE+'/'+slug(target.rstrip('/'))+'/' if target.rstrip('/') in known else target
             attrs[key]=target+('#'+frag if frag else '')
     att=''.join(f' {k}="{escape(v, quote=True)}"' for k,v in attrs.items())
     if tag in ('img','br','hr','col'):return f'<{tag}{att}>'
