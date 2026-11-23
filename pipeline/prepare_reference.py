@@ -108,6 +108,8 @@ ladot_originals={
 }
 for path in root.rglob('*.md'):
  s=path.read_text()
+ # Full sheet scans are readable in the article. Navigation thumbnails keep their smaller assets.
+ s=re.sub(r'(<figure\b[^>]*class="mfig"[^>]*>.*?<img\b[^>]*?\bsrc="[^"]*)/thumbs/figs/',r'\1/figs/',s,flags=re.S)
  for key in ('bike','crosswalks'):s=s.replace('/markings/#'+key+'"','/markings/#cat-'+key+'"').replace('/markings/#'+key+')','/markings/#cat-'+key+')')
  if 'class="dwg-head"' in s:
   signs=re.search(r'<h2>Signs on this drawing</h2><div class="tsigns">.*?</div>',s,re.S)

@@ -93,9 +93,9 @@ for c in cfg:
             c_notes = clean_notes((p.get("clean") or {}).get("notes", ""))
             raw_notes = "" if (p.get("clean") or {}).get("notes") is not None else clean_notes(p.get("text", "")[:5000])
             if c_notes:
-                notes_blk = f'<details class="ocr"><summary>Sheet notes</summary>{notes_html(c_notes)}</details>\n'
+                notes_blk = f'<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>{notes_html(c_notes)}</details>\n'
             elif raw_notes:
-                notes_blk = f'<details class="ocr"><summary>Sheet text</summary><p>{esc(raw_notes)}</p></details>\n'
+                notes_blk = f'<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>{esc(raw_notes)}</p></details>\n'
             else:
                 notes_blk = ""
             sh_head = f'\n### Sheet {j} of {len(sheets)} (page {p["page"]})\n\n' if len(sheets) > 1 else "\n"

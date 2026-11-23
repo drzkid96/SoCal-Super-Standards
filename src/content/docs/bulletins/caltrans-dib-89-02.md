@@ -18,11 +18,26 @@ Design criteria and guidance for Class IV (separated) bikeways in California. It
 
 ## Bikeway width (Section 3.4)
 
+<!-- DIB89-WIDTH -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-3-parking-protected.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/photo-3-parking-protected.webp" alt="One-Way Class IV — 7 ft Pref / 5 ft Min Width" /></a><figcaption><span class="type-badge">One-Way Class IV</span><br><strong>7 ft Pref / 5 ft Min Width</strong><br><small>Parking-protected separated bikeway (DIB 89-02 Photo 3)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-2-redondo-two-way.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/photo-2-redondo-two-way.webp" alt="Two-Way Class IV — 8–10 ft Width (Per Class I)" /></a><figcaption><span class="type-badge">Two-Way Class IV</span><br><strong>8–10 ft Width (Per Class I)</strong><br><small>Two-way cycle track in Redondo Beach (DIB 89-02 Photo 2)</small></figcaption></figure>
+</div>
+
+
 - One-way: 7 ft preferred, 5 ft minimum next to a roadway.
 - Two-way: same as a Class I bike path (HDM Index 1003.1). At street level next to a gutter pan, the lane by the gutter needs at least 3 ft of paved width.
 - Temporary narrowing at accessible parking or a raised bus stop island: 4 ft one-way, 8 ft two-way.
 
 ## Separation (Section 3.3)
+
+<!-- DIB89-SEP -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/long-beach/standard-plans/lb-306-1.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/long-beach/standard-plans/lb-306-1.webp" alt="Flex Posts + Parking — 3 ft Min Buffer w/ Parking" /></a><figcaption><span class="type-badge">Flex Posts + Parking</span><br><strong>3 ft Min Buffer w/ Parking</strong><br><small>Municipal Class IV buffer detail (Long Beach LB 306)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/west-hollywood/weho-protected-bike-lane.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/west-hollywood/weho-protected-bike-lane.webp" alt="Curb / Island — Physical Curb Separation" /></a><figcaption><span class="type-badge">Curb / Island</span><br><strong>Physical Curb Separation</strong><br><small>Separated bikeway curb treatment (West Hollywood)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-5-la-driveway-green.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/photo-5-la-driveway-green.webp" alt="Driveway Crossing — Green Conflict Markings" /></a><figcaption><span class="type-badge">Driveway Crossing</span><br><strong>Green Conflict Markings</strong><br><small>Continuous visual separation across driveways (LA Photo 5)</small></figcaption></figure>
+</div>
+
 
 <table class="btab"><thead><tr><th>Separation type</th><th>Width</th></tr></thead><tbody><tr><td>Grade separated, at sidewalk level</td><td>1.5 ft minimum including curb; 3 ft minimum with parking</td></tr><tr><td>Raised bikeway in the roadbed</td><td>3 ft preferred, 2 ft minimum without parking; 3 ft with parking; 5 ft at accessible parking</td></tr><tr><td>Flexible posts</td><td>Marked buffer 3 ft preferred, 2 ft minimum; on a sidewalk, posts at least 1.5 ft from curb face</td></tr><tr><td>Inflexible barrier</td><td>35 mph or less: 3 ft preferred, 2 ft minimum; higher speeds call for concrete barrier</td></tr><tr><td>On-street parking</td><td>3 ft minimum buffer; 5 ft at accessible parking</td></tr><tr><td>Raised island</td><td>3 ft preferred, 2 ft minimum without parking; 1 ft with flexible posts; 3 ft with parking; 5 ft at accessible parking</td></tr></tbody></table>
 
@@ -30,6 +45,13 @@ Design criteria and guidance for Class IV (separated) bikeways in California. It
 - Objects 30 in or taller: 6 in from curb face preferred (12 in without curb). Vertical clearance 8 ft minimum.
 
 ## Travel lanes
+
+<!-- DIB89-LANES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/fig-2-busbulb-island.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/fig-2-busbulb-island.webp" alt="Transit Island — Fig. 2 Busbulb Island Platform" /></a><figcaption><span class="type-badge">Transit Island</span><br><strong>Fig. 2 Busbulb Island Platform</strong><br><small>Temporary bikeway narrowing to 4 ft behind boarding island</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/fig-1-protected-intersection.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/fig-1-protected-intersection.webp" alt="Protected Int. — Fig. 1 Protected Intersection" /></a><figcaption><span class="type-badge">Protected Int.</span><br><strong>Fig. 1 Protected Intersection</strong><br><small>Corner island &amp; setback crossing at signalized intersections</small></figcaption></figure>
+</div>
+
 
 DIB 89-02 gives no travel lane widths. At loading zones, transit stops and drop-off zones it says the vehicle lane or the bikeway may need to be narrowed (FHWA guide Figures 20 and 21).
 

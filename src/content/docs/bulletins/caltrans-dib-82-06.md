@@ -11,9 +11,27 @@ description: "Caltrans DIB 82-06 (November 16, 2017; supplement January 16, 2025
 
 ## What it covers
 
+<!-- DIB82-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0019.webp" alt="Curb Ramps — Caltrans A88A Cases A–G" /></a><figcaption><span class="type-badge">Curb Ramps</span><br><strong>Caltrans A88A Cases A–G</strong><br><small>Perpendicular, parallel &amp; blended transition ramp geometries</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-82-06/fig-4-3-8-1-running-slope.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-82-06/fig-4-3-8-1-running-slope.webp" alt="Running Slope — ≤ 8.33% Ramp Running Slope" /></a><figcaption><span class="type-badge">Running Slope</span><br><strong>≤ 8.33% Ramp Running Slope</strong><br><small>Maximum ramp grade &amp; level top/bottom landings (DIB 82-06 Fig. 4.3.8-1)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-82-06/fig-4-3-8-8-curb-ramp-cross-slope.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-82-06/fig-4-3-8-8-curb-ramp-cross-slope.webp" alt="Cross Slope — ≤ 2.0% Max Cross Slope" /></a><figcaption><span class="type-badge">Cross Slope</span><br><strong>≤ 2.0% Max Cross Slope</strong><br><small>Pedestrian access route &amp; ramp cross-slope tolerance (DIB 82-06 Fig. 4.3.8-8)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-82-06/fig-4-3-14b-curb-ramp-dws.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-82-06/fig-4-3-14b-curb-ramp-dws.webp" alt="DWS / Domes — Detectable Warning Surface" /></a><figcaption><span class="type-badge">DWS / Domes</span><br><strong>Detectable Warning Surface</strong><br><small>Truncated domes aligned along curb/street edge (DIB 82-06 Fig. 4.3.14B)</small></figcaption></figure>
+</div>
+
+
 DIB 82 is Caltrans' accessibility design guidance for the State highway system. Caltrans requires it for every project in the State right-of-way, including encroachment permit work by other agencies, and the project engineer certifies compliance at Ready to List. Where full compliance is technically infeasible, the designer documents it on the DIB's "Exception to Accessibility Design Standards" form.
 
 ## 2025 supplement: transit stops
+
+<!-- DIB82-TRANSIT -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0123.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0123.webp" alt="Bus-Only Lane — Dedicated Transit Priority Lane" /></a><figcaption><span class="type-badge">Bus-Only Lane</span><br><strong>Dedicated Transit Priority Lane</strong><br><small>Red transit lane &amp; &#x27;BUS ONLY&#x27; legends (LADOT S-487.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p38-queue-jump-lane.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p38-queue-jump-lane.webp" alt="Queue Jump — Transit Queue Jump Lane" /></a><figcaption><span class="type-badge">Queue Jump</span><br><strong>Transit Queue Jump Lane</strong><br><small>Short right-turn/bus bypass lane with early transit signal (CSDS)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0174.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0174.webp" alt="Bus Bulb — Curbside Bus Boarding Extension" /></a><figcaption><span class="type-badge">Bus Bulb</span><br><strong>Curbside Bus Boarding Extension</strong><br><small>In-lane stop eliminates bus pull-out delay &amp; widens shelter area (LADOT S-523.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/fig-2-busbulb-island.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/fig-2-busbulb-island.webp" alt="Floating Island — Busbulb Island w/ Separated Bikeway" /></a><figcaption><span class="type-badge">Floating Island</span><br><strong>Busbulb Island w/ Separated Bikeway</strong><br><small>Bikeway routes behind boarding island (Caltrans DIB 89-02 Fig. 2)</small></figcaption></figure>
+</div>
+
 
 After U.S. DOT adopted PROWAG for transit stops, Caltrans issued supplemental guidance on January 16, 2025, effective for Caltrans projects on January 17, 2025. Projects already in construction, or with all Ready to List approvals by that date, are exempt.
 

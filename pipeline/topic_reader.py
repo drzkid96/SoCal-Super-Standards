@@ -64,14 +64,17 @@ def render(root,details):
         eligible=[r for r in details if slug in r['topics']]
         drawings=[r for r in eligible if r['type'] in ('Standard drawing','Agency sheet')]
         body=[head,intro,'','<nav class="topic-tasks" aria-label="Common design tasks">'+''.join('<a href="'+BASE+u+'">'+escape(label)+'</a>' for label,u in ROUTES[slug])+'</nav>','',
-              '## Drawings by agency','',
-              f'[Browse {len(eligible)} indexed details for this topic]({BASE}/details/?topic={slug})','']
-        by=defaultdict(list)
-        for row in drawings:by[row['src']].append((row['num']+' · '+row['title'],row['url']))
-        for agency,rows in sorted(by.items()):
-            body.append(f'<details class="topic-list"><summary>{escape(agency)} · {len(rows)}</summary>'+links(rows)+'</details>')
-        if not by:body.append('See the linked manual sections below for applicable layouts.')
+              '[Governing sections](#governing-sections-and-agency-guidance) · [Drawings by agency](#drawings-by-agency)','']
         body+=['','## Facility types and applications','']
+        def editorial(key):
+            marker='<!-- topic-'+key+' -->'
+            end='<!-- /topic-'+key+' -->'
+            if marker in old and end in old:
+                return old[old.index(marker):old.index(end)+len(end)]
+            return ''
+        statewide=editorial('statewide')
+        guides=editorial('guides')
+        if statewide:body.extend([statewide,''])
         for label,_,r,caption in groups.get(slug,[]):body+=['### '+label,'',graphic(label,r,caption),'']
         for number in EXTRA.get(slug,[]):
             agency='Federal MUTCD' if slug=='signals' else 'CA MUTCD 2026'
@@ -86,6 +89,13 @@ def render(root,details):
         for agency in ('CA MUTCD 2026','Federal MUTCD'):
             rows=[(r['type']+' '+r['num']+' · '+r['title'],r['url']) for r in eligible if r['src']==agency and r['type'] in ('Table','Figure')]
             if rows:body.append(f'<details class="topic-list"><summary>{agency} figures and tables · {len(rows)}</summary>'+links(rows)+'</details>')
+        if guides:body.extend(['',guides,''])
+        body+=['','## Drawings by agency','',f'[Browse {len(eligible)} indexed details for this topic]({BASE}/details/?topic={slug})','']
+        by=defaultdict(list)
+        for row in drawings:by[row['src']].append((row['num']+' · '+row['title'],row['url']))
+        for agency,rows in sorted(by.items()):
+            body.append(f'<details class="topic-list"><summary>{escape(agency)} · {len(rows)}</summary>'+links(rows)+'</details>')
+        if not by:body.append('See the linked manual sections above for applicable layouts.')
         active=[(r['code']+' · '+r['descriptor'],r['url']) for r in signs.values() if match.search(r.get('descriptor',''))]
         if active:body+=['',f'<details class="topic-list"><summary>Sign library matches · {len(active)}</summary>'+links(active)+'</details>']
         body+=['','[Search all sources]('+BASE+'/search/?q='+slug.split('-')[0]+') · [All design topics]('+BASE+'/topics/)','']

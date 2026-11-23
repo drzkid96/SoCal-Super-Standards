@@ -6,6 +6,15 @@ tableOfContents:
   maxHeadingLevel: 2
 ---
 
+<!-- CURB-PAINT-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0109.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0109.webp" alt="Red Curb · Standard — LADOT S-481.0 Sheet 2" /></a><figcaption><span class="type-badge">Red Curb · Standard</span><br><strong>LADOT S-481.0 Sheet 2</strong><br><small>Sight-distance red curb formula A = 4B/(W-7) at uncontrolled crosswalks</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0110.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0110.webp" alt="Red Curb · Bulb-Out — LADOT S-481.0 Sheet 3" /></a><figcaption><span class="type-badge">Red Curb · Bulb-Out</span><br><strong>LADOT S-481.0 Sheet 3</strong><br><small>Reduced red curb setback A = B/(W-10) with 7-ft curb extension</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0022.webp" alt="Blue Curb · ADA — Caltrans 2026 A90B" /></a><figcaption><span class="type-badge">Blue Curb · ADA</span><br><strong>Caltrans 2026 A90B</strong><br><small>Accessible on-street blue zone &amp; curb ramp layout</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0044.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0044.webp" alt="Parking Stalls — LADOT S-404.1" /></a><figcaption><span class="type-badge">Parking Stalls</span><br><strong>LADOT S-404.1</strong><br><small>Parallel parking stall length &amp; end-curb clearance</small></figcaption></figure>
+</div>
+
+
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/curb-parking-loading.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/curb-parking-loading.webp" alt="LADOT Curb Paint &amp; Red Curb Daylighting — Context" /></a><figcaption><strong>LADOT Curb Paint &amp; Red Curb Daylighting — Context</strong> <em>Red no-parking daylighting, yellow/white/green/blue curb zones · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
 
 <div class="srcbar">City of Los Angeles &middot; CVC 21458 sets the colors statewide; LAMC 80.55 to 80.57 sets how Los Angeles uses them; LADOT MPP 342, MPP 531 and S-481.0 set design practice &middot; researched November 2026</div>

@@ -7,6 +7,14 @@ Checked November 18, 2026. Every page on this site shows a **Checks** panel (rig
 
 ## Current editions
 
+<!-- STATUS-INLINE -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0001.webp" alt="2026 Current — Caltrans 2026 A20A" /></a><figcaption><span class="type-badge">2026 Current</span><br><strong>Caltrans 2026 A20A</strong><br><small>Supersedes 2018 Plans (required eff. Oct 19, 2026)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R3-17.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-17.svg" alt="Deleted CA Sign — Use R3-17(CA)" /></a><figcaption><span class="type-badge">Deleted CA Sign</span><br><strong>Use R3-17(CA)</strong><br><small>Replaces deleted R81(CA) Bike Lane sign (eff. Jul 1, 2026)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0019.webp" alt="ADA Current — Caltrans 2026 A88A" /></a><figcaption><span class="type-badge">ADA Current</span><br><strong>Caltrans 2026 A88A</strong><br><small>Current ADA curb ramp details aligned with PROWAG</small></figcaption></figure>
+</div>
+
+
 | Standard | Current edition | What it means here |
 |---|---|---|
 | California MUTCD | 2026 Edition, effective January 18, 2026 | Governs on all California streets. Caltrans has a revision in process through the CTCDC to adopt federal Revision 1. |

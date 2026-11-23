@@ -15,6 +15,13 @@ Capital preventive maintenance (minor pavement rehabilitation) on the State High
 
 ## What it says about lane width
 
+<!-- DIB81-INLINE -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0013.webp" alt="CAPM Overlay — Caltrans 2026 A24F" /></a><figcaption><span class="type-badge">CAPM Overlay</span><br><strong>Caltrans 2026 A24F</strong><br><small>Crosswalk &amp; limit-line restoration after CAPM paving</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0019.webp" alt="ADA Upgrade — Caltrans 2026 A88A" /></a><figcaption><span class="type-badge">ADA Upgrade</span><br><strong>Caltrans 2026 A88A</strong><br><small>ADA curb ramp compliance on CAPM resurfacing</small></figcaption></figure>
+</div>
+
+
 - It sets no lane or shoulder widths of its own.
 - Restriping is allowed during CAPM. If the new configuration introduces nonstandard geometric features, a Design Standard Decision Document is required (Section 2.3).
 - Its examples of design exceptions include reduced lane widths to fit a bike facility, and reduced shoulder width from a standard dike, guardrail or bridge approach rail.

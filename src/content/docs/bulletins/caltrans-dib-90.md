@@ -11,6 +11,14 @@ description: "Caltrans DIB 90 (December 14, 2017). Wider lanes in every lane thr
 
 ## Lane and shoulder width
 
+<!-- DIB90-INLINE -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0007.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0007.webp" alt="DDI Wrong-Way — Caltrans 2026 A20G" /></a><figcaption><span class="type-badge">DDI Wrong-Way</span><br><strong>Caltrans 2026 A20G</strong><br><small>Enhanced wrong-way pavement markers at crossover ramps</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0009.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0009.webp" alt="DDI Arrows — Caltrans 2026 A24A" /></a><figcaption><span class="type-badge">DDI Arrows</span><br><strong>Caltrans 2026 A24A</strong><br><small>Lane-use &amp; wrong-way arrow stencils at DDI crossovers</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0014.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0014.webp" alt="Yield Control — Caltrans 2026 A24G" /></a><figcaption><span class="type-badge">Yield Control</span><br><strong>Caltrans 2026 A24G</strong><br><small>Yield lines &amp; shark-tooth triangles at free-right merges</small></figcaption></figure>
+</div>
+
+
 - Lane width (Section 2.7): all lanes, not just the right-most, need extra width for truck offtracking. No single value; see HDM Index 301.1 and Table 504.3.
 
 <table class="btab"><thead><tr><th>Location</th><th>Width</th></tr></thead><tbody><tr><td>Left shoulder at crossover approach</td><td>0 ft, to discourage wrong-way entry</td></tr><tr><td>Left shoulder between crossovers</td><td>2 ft minimum, 4 ft preferred (wider for sight distance)</td></tr><tr><td>Right shoulder at approaches and between crossovers</td><td>4 ft minimum with curb or guardrail; 3 ft otherwise; 6 ft preferred next to barrier between crossovers</td></tr><tr><td>Shoulders at departures, ramps and turn lanes</td><td>HDM Index 302.1</td></tr><tr><td>Center walkway for pedestrians and bicyclists</td><td>10 ft minimum, 14 ft preferred</td></tr></tbody></table>

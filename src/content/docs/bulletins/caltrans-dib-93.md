@@ -15,6 +15,13 @@ Mainly rural communities with limited access where a State highway is an evacuat
 
 ## Lane and shoulder width
 
+<!-- DIB93-INLINE -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0001.webp" alt="Evac Route Lines — Caltrans 2026 A20A" /></a><figcaption><span class="type-badge">Evac Route Lines</span><br><strong>Caltrans 2026 A20A</strong><br><small>6-in. edge lines &amp; centerlines for evacuation corridors</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0002.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0002.webp" alt="Shoulders &amp; Medians — Caltrans 2026 A20B" /></a><figcaption><span class="type-badge">Shoulders &amp; Medians</span><br><strong>Caltrans 2026 A20B</strong><br><small>Double-yellow &amp; shoulder delineation on rural/urban routes</small></figcaption></figure>
+</div>
+
+
 - Travel lanes: 12 ft standard (HDM Index 301.1), and standard widths should be used on designated evacuation routes (Section 3.2).
 - 11 ft lanes are acceptable in rural town centers with low speeds and low truck volumes.
 - Where standard widths cannot fit, options include clearing parking lanes for traffic, adding a buffered Class II bike lane, or widening shoulders.

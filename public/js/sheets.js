@@ -1,117 +1,258 @@
-// Enhance the static sheets in place. Original links and all print pages remain available.
+// Multi-sheet viewer for standard drawings, multi-page chapter sheets, and multi-sheet MUTCD figures.
+// Preserves full printability and keeps multi-item visual galleries (.mfig-grid, .mgrid, .thumbgrid) as browsable grids.
 (() => {
   const article = document.querySelector('.sl-markdown-content');
   if (!article) return;
-  // Use the full scan even when an editorial grid originally supplied a thumbnail.
-  for (const img of article.querySelectorAll('.mfig a[href*="/figs/"] > img[src*="/thumbs/figs/"]')) {
-    img.src = img.parentElement.href;
-  }
-  const viewers = [];
-  const create = (tag, text) => Object.assign(document.createElement(tag), {textContent: text || ''});
 
-  function viewer(pages, labels, ids) {
+  const viewers = [];
+  const el = (tag, cls, text) => {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  };
+
+  function getThumbSrc(frame) {
+    const img = frame.matches('img') ? frame : frame.querySelector('img');
+    if (!img) return '';
+    return img.getAttribute('src') || img.currentSrc || '';
+  }
+
+  function shortLabel(full, idx) {
+    const m = full.match(/Sheet\s+(\d+)\s+of\s+\d+/i);
+    if (m) return 'Sheet ' + m[1];
+    const p = full.match(/Page\s+(\d+)/i);
+    if (p) return 'p. ' + p[1];
+    const pg = full.match(/\bp\s*(\d+)\b/i);
+    if (pg) return 'Sheet ' + (idx + 1) + ' · p.' + pg[1];
+    return 'Sheet ' + (idx + 1);
+  }
+
+  function buildViewer(container, pages, labels, ids, opts = {}) {
     if (pages.length < 2) return;
-    const bar = create('nav');
-    bar.className = 'sheet-controls';
-    bar.setAttribute('aria-label', 'Sheet navigation');
-    const prev = create('button', 'Previous');
-    const next = create('button', 'Next');
-    const select = create('select');
-    const count = create('span');
-    count.setAttribute('aria-live', 'polite');
-    select.setAttribute('aria-label', 'Choose sheet');
-    for (const label of labels) select.add(new Option(label));
-    prev.type = next.type = 'button';
-    bar.append(prev, select, next, count);
-    pages[0].before(bar);
+    const compact = Boolean(opts.compact);
+
+    const wrap = el('div', 'sss-ms-wrap' + (compact ? ' is-compact' : ''));
+    const bar = el('nav', 'sheet-controls not-content');
+    bar.setAttribute('aria-label', 'Multi-sheet navigation');
+
+    const prev = el('button', 'sc-btn sc-prev', '‹ Prev');
+    prev.type = 'button';
+    const badge = el('span', 'sc-badge');
+    badge.setAttribute('aria-live', 'polite');
+    const next = el('button', 'sc-btn sc-next', 'Next ›');
+    next.type = 'button';
+
+    const select = el('select', 'sc-select');
+    select.setAttribute('aria-label', 'Select sheet');
+    labels.forEach((lbl, i) => {
+      const clean = lbl.length > 90 ? lbl.slice(0, 87) + '…' : lbl;
+      select.add(new Option(clean || 'Sheet ' + (i + 1), String(i)));
+    });
+
+    const toggleAll = el('button', 'sc-btn sc-mode', compact ? 'Grid View' : 'All Sheets');
+    toggleAll.type = 'button';
+    toggleAll.setAttribute('aria-pressed', 'false');
+
+    const zoomBtn = el('button', 'sc-btn sc-zoom', 'Zoom ⤢');
+    zoomBtn.type = 'button';
+    zoomBtn.title = 'Open active sheet in fullscreen zoom viewer';
+
+    bar.append(prev, badge, next, select, toggleAll, zoomBtn);
+
+    // Filmstrip of clickable thumbnails (up to 32 sheets)
+    let strip = null;
+    const thumbs = [];
+    if (pages.length <= 32) {
+      strip = el('div', 'sheet-strip not-content');
+      strip.setAttribute('role', 'tablist');
+      strip.setAttribute('aria-label', 'Sheet thumbnails');
+      pages.forEach((p, i) => {
+        const btn = el('button', 'sc-thumb');
+        btn.type = 'button';
+        btn.setAttribute('role', 'tab');
+        btn.title = labels[i] || 'Sheet ' + (i + 1);
+        const src = getThumbSrc(p);
+        if (src) {
+          const im = document.createElement('img');
+          im.src = src;
+          im.alt = shortLabel(labels[i] || '', i);
+          im.loading = 'lazy';
+          btn.append(im);
+        }
+        btn.append(el('span', '', shortLabel(labels[i] || '', i)));
+        btn.addEventListener('click', () => {
+          if (showAll) setAll(false);
+          show(i, true);
+        });
+        strip.append(btn);
+        thumbs.push(btn);
+      });
+    }
+
+    const stage = el('div', 'sheet-stage');
+    pages[0].before(wrap);
+    wrap.append(bar);
+    if (strip) wrap.append(strip);
+    wrap.append(stage);
+    pages.forEach((p) => {
+      p.classList.add('sheet-frame');
+      stage.append(p);
+    });
+
     let index = 0;
+    let showAll = false;
+
+    const upgradeActiveScan = (frame) => {
+      frame.querySelectorAll('img[data-full-scan]').forEach((img) => {
+        if (img.dataset.fullScan) {
+          img.src = img.dataset.fullScan;
+          delete img.dataset.fullScan;
+        }
+      });
+    };
+
     const show = (i, updateHash = false) => {
       if (i < 0 || i >= pages.length) return;
       index = i;
-      pages.forEach((p,n) => { p.classList.add('sheet-frame'); p.hidden = n !== i; });
-      pages[i].querySelectorAll('img[data-full-scan]').forEach(img => { img.src = img.dataset.fullScan; });
+      if (!showAll) {
+        pages.forEach((p, n) => { p.hidden = n !== i; });
+      }
+      upgradeActiveScan(pages[i]);
       select.selectedIndex = i;
-      prev.disabled = i === 0;
-      next.disabled = i === pages.length - 1;
-      count.textContent = (i+1)+' of '+pages.length;
-      if (updateHash && ids[i]) history.replaceState(history.state,'','#'+encodeURIComponent(ids[i]));
+      prev.disabled = !showAll && i === 0;
+      next.disabled = !showAll && i === pages.length - 1;
+      badge.textContent = showAll ? `${pages.length} sheets` : `${i + 1} / ${pages.length}`;
+      thumbs.forEach((t, n) => {
+        const active = !showAll && n === i;
+        t.classList.toggle('is-active', active);
+        t.setAttribute('aria-selected', String(active));
+      });
+      if (strip && thumbs[i] && !showAll) {
+        const thumb = thumbs[i].getBoundingClientRect();
+        const rail = strip.getBoundingClientRect();
+        if (thumb.left < rail.left) strip.scrollLeft -= rail.left - thumb.left;
+        else if (thumb.right > rail.right) strip.scrollLeft += thumb.right - rail.right;
+      }
+      if (updateHash && ids[i]) {
+        history.replaceState(history.state, '', '#' + encodeURIComponent(ids[i]));
+      }
     };
-    prev.onclick = () => show(index - 1,true);
-    next.onclick = () => show(index + 1,true);
-    select.onchange = () => show(select.selectedIndex,true);
-    viewers.push({pages,show});
-    show(0);
+
+    const setAll = (all) => {
+      showAll = all;
+      wrap.classList.toggle('is-all', all);
+      toggleAll.setAttribute('aria-pressed', String(all));
+      toggleAll.textContent = all ? 'Single Sheet' : (compact ? 'Grid View' : 'All Sheets');
+      if (all) {
+        pages.forEach((p) => { p.hidden = false; upgradeActiveScan(p); });
+        prev.disabled = true;
+        next.disabled = true;
+        badge.textContent = `${pages.length} sheets`;
+        thumbs.forEach((t) => { t.classList.remove('is-active'); t.setAttribute('aria-selected', 'false'); });
+      } else {
+        show(index, false);
+      }
+    };
+
+    prev.onclick = () => { if (showAll) setAll(false); show(index - 1, true); };
+    next.onclick = () => { if (showAll) setAll(false); show(index + 1, true); };
+    select.onchange = () => { if (showAll) setAll(false); show(select.selectedIndex, true); };
+    toggleAll.onclick = () => setAll(!showAll);
+    zoomBtn.onclick = () => {
+      const frame = pages[index];
+      const targetImg = frame.matches('img') ? frame : frame.querySelector('img');
+      if (targetImg) targetImg.click();
+    };
+
+    if (container) container.classList.add('sheet-deck');
+    viewers.push({ pages, show, setAll });
+    show(0, false);
   }
 
-  // Keep each scan together with its original heading, notes, and local anchors.
-  const heads = [...article.children].filter(e => /^H[23]$/.test(e.tagName) && /^(Sheet \d+ of \d+|Page \d+\b)/i.test(e.textContent.trim()));
+  // 1. Multi-sheet detail & chapter pages (### Sheet X of Y or ### Page N with figure.dfig)
+  const heads = [...article.children].filter(
+    (e) => /^H[23]$/.test(e.tagName) && /^(Sheet \d+ of \d+|Page \d+\b)/i.test(e.textContent.trim())
+  );
   if (heads.length > 1 && article.querySelector('figure.dfig')) {
-    const starts = heads.map(h => h.previousElementSibling?.matches('p:has(> .anchor:only-child), span.anchor') ? h.previousElementSibling : h);
-    const frames = starts.map((start,i) => {
-      const frame = create('section');
+    const starts = heads.map((h) =>
+      h.previousElementSibling?.matches('p:has(> .anchor:only-child), span.anchor')
+        ? h.previousElementSibling
+        : h
+    );
+    const frames = starts.map((start, i) => {
+      const frame = el('section');
       start.before(frame);
-      let el = start;
-      while (el && el !== starts[i+1]) {
-        if (el !== start && el !== heads[i] && (el.matches('h2,h3,.xidx-wrap,.tsigns,nav,section'))) break;
-        const after = el.nextElementSibling;
-        frame.append(el); el = after;
+      let cur = start;
+      while (cur && cur !== starts[i + 1]) {
+        if (cur !== start && cur !== heads[i] && cur.matches('h2,h3,.xidx-wrap,.tsigns,nav,section')) break;
+        const after = cur.nextElementSibling;
+        frame.append(cur);
+        cur = after;
       }
       return frame;
     });
-    viewer(frames,heads.map(h=>h.textContent.trim()),heads.map((h,i)=>frames[i].querySelector('.anchor[id],figure[id]')?.id || h.id));
+    const labels = heads.map((h) => h.textContent.trim());
+    const ids = heads.map((h, i) => frames[i].querySelector('.anchor[id],figure[id]')?.id || h.id || 'sheet-' + (i + 1));
+    buildViewer(null, frames, labels, ids, { compact: false });
+    document.querySelectorAll('.sss-sheetbar').forEach((b) => b.remove());
+    document.documentElement.classList.add('has-sheet-deck');
   }
 
-  for (const group of article.querySelectorAll('.mfig-inline,.mfig-grid,.thumbgrid,.sdetail-img,.mgrid')) {
-    // Topic-card galleries remain browsable together. Page only groups made entirely of scan figures.
-    if (group.matches('.mgrid') && ![...group.children].every(e => e.matches('figure.mfig') && e.querySelector('a[href*="/figs/"]'))) continue;
-    // Independent design alternatives must remain visible side by side in the text.
-    if (group.matches('.mgrid') || group.matches('.thumbgrid')) continue;
-    const thumb = group.matches('.thumbgrid');
+  // Group consecutive pages of the same figure. Different charts stay visible together.
+  for (const group of article.querySelectorAll('.mfig-inline.multi, .mfig-grid, .sdetail-img')) {
     const sign = group.matches('.sdetail-img');
-    const pages = [...group.children].filter(el => el.matches(thumb ? 'a' : sign ? 'img' : 'figure'));
-    if (!pages.length) continue;
-    if (thumb) {
-      for (const a of pages) {
-        const img = a.querySelector('img[src*="/thumbs/figs/"]');
-        if (img) img.dataset.fullScan = img.getAttribute('src').replace('/thumbs/figs/','/figs/');
+    const rows = [...group.children].filter(child => child.matches(sign ? 'img' : 'figure'));
+    const runs = [];
+    for (const page of rows) {
+      const label = page.querySelector('img')?.alt || page.querySelector('figcaption')?.textContent || '';
+      const figure = label.match(/^\s*((?:Figure|Table)\s+\d+[A-Z]-\d+[A-Z]?(?:\s*\(CA\))?)/i);
+      const key = sign || page.querySelector('[id^="sheet-"]') ? 'sheet'
+        : figure ? figure[1].replace(/\s/g, '').toUpperCase()
+        : /^Figure page \d+/i.test(label) ? 'chapter-pages' : '';
+      if (key && runs.length && runs[runs.length - 1].key === key) {
+        runs[runs.length - 1].pages.push(page);
+      } else {
+        runs.push({key, pages: [page]});
       }
     }
-    if (pages.length === 1 && !sign) {
-      const img=pages[0].querySelector('img[data-full-scan]');
-      if (img) img.src=img.dataset.fullScan;
+    for (const {pages} of runs) {
+      if (pages.length < 2) continue;
+      const ids = pages.map((page, i) => {
+        let id = page.querySelector('[id]')?.id || page.id;
+        if (!id) page.id = id = 'sheet-view-' + (viewers.length + 1) + '-' + (i + 1);
+        return id;
+      });
+      const labels = pages.map((page, i) => {
+        const caption = page.querySelector('figcaption')?.cloneNode(true);
+        if (!caption) return page.getAttribute('alt') || 'Sheet ' + (i + 1);
+        caption.querySelectorAll('.detail-description').forEach(note => note.remove());
+        caption.querySelectorAll('br').forEach(br => br.replaceWith(' · '));
+        return caption.textContent.trim() || 'Sheet ' + (i + 1);
+      });
+      buildViewer(group, pages, labels, ids, {compact: true});
     }
-    if (pages.length < 2) continue;
-    group.classList.add('sheet-deck');
-    const ids = pages.map((p,i) => {
-      const id = p.querySelector('[id]')?.id || p.id;
-      if (id) return id;
-      p.id = 'sheet-view-'+(viewers.length+1)+'-'+(i+1);
-      return p.id;
-    });
-    const labels = pages.map((p,i) => {
-      const caption = p.querySelector('figcaption,span:not([id])');
-      if (!caption) return 'Sheet '+(i+1);
-      const copy = caption.cloneNode(true);
-      copy.querySelectorAll('.detail-description').forEach(el=>el.remove());
-      copy.querySelectorAll('br').forEach(br=>br.replaceWith(' · '));
-      return copy.textContent.trim() || 'Sheet '+(i+1);
-    });
-    viewer(pages,labels,ids);
   }
 
   function reveal(scroll) {
     let id;
     try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    if (!id) return;
     const target = document.getElementById(id);
     if (!target) return;
-    for (const {pages,show} of viewers) {
-      const n = pages.findIndex(p => p === target || p.contains(target));
-      if (n >= 0) show(n);
+    for (const { pages, show, setAll } of viewers) {
+      const n = pages.findIndex((p) => p === target || p.contains(target));
+      if (n >= 0) {
+        setAll(false);
+        show(n, false);
+      }
     }
     const details = target.closest('details');
     if (details) details.open = true;
-    if (scroll && target.closest('.sheet-frame')) target.scrollIntoView({block:'start'});
+    if (scroll && target.closest('.sheet-frame')) {
+      target.scrollIntoView({ block: 'start' });
+    }
   }
-  window.addEventListener('hashchange',()=>reveal(true));
+  window.addEventListener('hashchange', () => reveal(true));
   reveal(true);
 })();

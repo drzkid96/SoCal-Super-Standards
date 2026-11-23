@@ -483,11 +483,11 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
       }
     }
 
-    // 2. Multi-page chapter sheet jumper (pages with 2+ <span id="pN" class="anchor">)
+    // 2. Multi-page chapter sheet jumper (pages with 2+ <span id="pN" class="anchor"> that do NOT already use the full sheet deck)
     const anchors = Array.from(document.querySelectorAll('main span.anchor[id^="p"]'));
-    if (anchors.length >= 2) {
+    if (anchors.length >= 2 && !document.querySelector('.sheet-controls')) {
       const bar = document.createElement('nav');
-      bar.className = 'sss-sheetbar print:hidden';
+      bar.className = 'sss-sheetbar not-content print:hidden';
       bar.setAttribute('aria-label', 'Jump to page in this chapter');
       const items = anchors.map((sp) => {
         const num = sp.id.replace(/^p/, '');
