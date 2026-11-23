@@ -4,7 +4,7 @@ description: Direct access to traffic and roadway standard drawings across LADOT
 tableOfContents: false
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/striping-intersections.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/striping-intersections.webp" alt="Southern California Municipal Roadways — Context" /></a><figcaption><strong>Southern California Municipal Roadways — Context</strong> <em>Standard local details across LADOT and 10 LA County cities · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+<figure class="vibe-hero map-hero"><a href="/SoCal-Super-Standards/figs/vibes/la-county-map.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/la-county-map.webp" alt="Los Angeles County Jurisdictions" /></a><figcaption><strong>Los Angeles County Jurisdictions</strong> <em>LADOT + 10 LA County municipalities with embedded local standard drawings</em></figcaption></figure>
 
 Southern California traffic projects cross city lines constantly. Below are **LADOT plus 10 LA County municipalities** with their official local standard drawings, traffic control rules, and governing fallbacks directly embedded on-site—click any sheet to inspect full-resolution in the in-tab viewer.
 

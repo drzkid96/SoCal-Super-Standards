@@ -4,7 +4,7 @@ description: "Outline and page index for NACTO Urban Street Design Guide. Headin
 tableOfContents: false
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/crosswalks.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/crosswalks.webp" alt="NACTO Urban Street Design Guide — Real-World Context" /></a><figcaption><strong>NACTO Urban Street Design Guide — Real-World Context</strong> <em>Curb extensions, high-visibility crossings, multimodal boulevards &amp; Complete Streets · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/west-hollywood/weho-street-design-toolkit.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/west-hollywood/weho-street-design-toolkit.webp" alt="NACTO Urban Street Design Guide — Toolkit Context" /></a><figcaption><strong>NACTO Urban Street Design Guide — Toolkit Context</strong> <em>Complete street cross-sections, curb extensions, pedestrian plazas &amp; lane reallocation</em></figcaption></figure>
 
 <div class="srcbar"><span class="status-pill ref">Design Reference + Page Index</span> Island Press (2013) &middot; 193 pages &middot; National guidance (CA MUTCD 2026, Caltrans DIB 94 &amp; local city standards govern)</div>
 

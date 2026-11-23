@@ -3,6 +3,8 @@ title: Bikeway Design Comparison (California vs. AASHTO GBF-5)
 description: Side-by-side comparison of California governing bikeway standards (Caltrans HDM Ch. 1000, DIB 89-02, CA MUTCD 2026 Part 9, LADOT) and AASHTO Guide for the Development of Bicycle Facilities, 5th Edition (2024).
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-2-redondo-two-way.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-2-redondo-two-way.webp" alt="California vs. AASHTO Bikeway Design" /></a><figcaption><strong>California vs. AASHTO Bikeway Design</strong> <em>Real-world Southern California two-way separated bikeway (Redondo Beach)</em></figcaption></figure>
+
 <div class="note-box"><b>Governing hierarchy in California:</b> Under CA Streets and Highways Code &sect; 891, <a href="/SoCal-Super-Standards/bulletins/caltrans-hdm-ch1000/">Caltrans HDM Chapter 1000</a> (rev. 12/16/2024), <a href="/SoCal-Super-Standards/bulletins/caltrans-dib-89-02/">Caltrans DIB 89-02</a> (Class IV), and <a href="/SoCal-Super-Standards/ca-mutcd/9a/">CA MUTCD 2026 Part 9</a> govern statewide. <a href="/SoCal-Super-Standards/guides/aashto-bike-guide/">AASHTO GBF-5 (December 2024)</a> is national engineering guidance that supplements &mdash; but does not override &mdash; California or local agency standards.</div>
 
 ## 1. Facility taxonomy &amp; selection

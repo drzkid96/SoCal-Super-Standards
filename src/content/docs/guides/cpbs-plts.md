@@ -4,7 +4,7 @@ description: "Outline and page index for Pedestrian Level of Traffic Stress (PLT
 tableOfContents: false
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/accessibility.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/accessibility.webp" alt="Pedestrian Level of Traffic Stress (PLTS) — Context" /></a><figcaption><strong>Pedestrian Level of Traffic Stress (PLTS) — Context</strong> <em>Sidewalk width, buffer, crossing exposure &amp; ADA accessibility · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/west-hollywood/weho-bulbout-landscaping.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/west-hollywood/weho-bulbout-landscaping.webp" alt="Pedestrian Level of Traffic Stress (PLTS) — Context" /></a><figcaption><strong>Pedestrian Level of Traffic Stress (PLTS) — Context</strong> <em>Sidewalk width, landscaped buffer, crossing distance &amp; comfort factors</em></figcaption></figure>
 
 <div class="srcbar"><span class="status-pill ref">Methodology Reference + Index</span> July 2025, Center for Pedestrian and Bicyclist Safety (Schneider et al.) &middot; 66 pages &middot; Network analysis tool (not a design standard)</div>
 

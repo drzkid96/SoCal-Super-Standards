@@ -2,6 +2,9 @@
 title: "CSC Bikeway Marking: Bikeway Marking"
 description: "LADOT CSC Bikeway Marking (December 2022). Bike lane and bikeway pavement markings"
 ---
+
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-5-la-driveway-green.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-5-la-driveway-green.webp" alt="LADOT Green Bikeway Markings" /></a><figcaption><strong>LADOT Green Bikeway Markings</strong> <em>Green conflict-zone pavement markings across driveways &amp; mixing zones in LA</em></figcaption></figure>
+
 <div class="bul-meta">
 <div><b>Issued</b> December 2022</div>
 <div><b>Status</b> In effect. Current copy posted April 2026.</div>

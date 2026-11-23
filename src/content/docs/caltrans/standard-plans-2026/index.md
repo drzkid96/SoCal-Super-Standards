@@ -7,6 +7,8 @@ sidebar:
 tableOfContents: false
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/striping-intersections.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/striping-intersections.webp" alt="Caltrans 2026 Standard Plans (A20–A90)" /></a><figcaption><strong>Caltrans 2026 Standard Plans (A20–A90)</strong> <em>Traffic lines, pavement markers, arrows, crosswalks, ADA curb ramps &amp; accessible parking</em></figcaption></figure>
+
 <div class="srcbar">California Department of Transportation &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026) &middot; 22 pages &middot; Current edition. Supersedes the 2018 sheets on this site.</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/01-pages-1-6/">Pages 1-6</a> <span class="src-page">pp 1-6</span></li><li><a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/02-pages-7-12/">Pages 7-12</a> <span class="src-page">pp 7-12</span></li><li><a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/03-pages-13-18/">Pages 13-18</a> <span class="src-page">pp 13-18</span></li><li><a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/04-pages-19-22/">Pages 19-22</a> <span class="src-page">pp 19-22</span></li></ul>

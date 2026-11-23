@@ -4,7 +4,7 @@ description: "Complete 16-chapter section, figure, table, and errata index for A
 tableOfContents: false
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/bikeways.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/bikeways.webp" alt="AASHTO Bike Guide (5th Ed.) — Real-World Context" /></a><figcaption><strong>AASHTO Bike Guide (5th Ed.) — Real-World Context</strong> <em>National bikeway facility selection, Class I–IV cross-sections &amp; intersection design · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-5b-class-i.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-5b-class-i.webp" alt="AASHTO Bike Guide (5th Ed.) — Facility Context" /></a><figcaption><strong>AASHTO Bike Guide (5th Ed.) — Facility Context</strong> <em>National bikeway design guidance for Class I paths, Class II lanes &amp; Class IV separated bikeways</em></figcaption></figure>
 
 <div class="srcbar">5th Edition, December 2024 (incorporates December 2024 Errata) &middot; 626 pages &middot; ISBN 978-1-56051-820-4 &middot; 16 chapters, 774 sections, 256 figures, 50 tables</div>
 

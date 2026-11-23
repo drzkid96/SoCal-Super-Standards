@@ -4,7 +4,7 @@ description: "Outline and page index for NACTO Urban Bikeway Design Guide. Headi
 tableOfContents: false
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/bikeways.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/bikeways.webp" alt="NACTO Urban Bikeway Design Guide — Real-World Context" /></a><figcaption><strong>NACTO Urban Bikeway Design Guide — Real-World Context</strong> <em>Protected bike lanes, green conflict zones &amp; protected intersections · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-6-davis-protected-int.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-6-davis-protected-int.webp" alt="NACTO Urban Bikeway Design Guide — Real-World Context" /></a><figcaption><strong>NACTO Urban Bikeway Design Guide — Real-World Context</strong> <em>Protected intersection with corner refuge islands &amp; green bicycle crossings</em></figcaption></figure>
 
 <div class="srcbar"><span class="status-pill ref">Design Reference + Page Index</span> Third edition (Island Press) &middot; 427 pages &middot; National guidance (CA HDM Ch. 1000, DIB 89-02 &amp; CA MUTCD 2026 govern)</div>
 

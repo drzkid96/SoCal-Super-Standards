@@ -2,6 +2,9 @@
 title: "DIB 94: Complete Streets: Contextual Design Guidance"
 description: "Caltrans DIB 94 (January 16, 2024). 10.5 to 12 ft for through and turn lanes, by place type and speed (Table 5.3); 11 ft minimum for transit-only lanes and for right-hand and left-turn lanes on large-vehicle routes."
 ---
+
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/west-hollywood/weho-willoughby-vision.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/west-hollywood/weho-willoughby-vision.webp" alt="Complete Streets Context (Caltrans DIB 94)" /></a><figcaption><strong>Complete Streets Context (Caltrans DIB 94)</strong> <em>Balancing pedestrian, bicycle, transit &amp; roadway widths across land-use contexts</em></figcaption></figure>
+
 <div class="bul-meta">
 <div><b>Issued</b> January 16, 2024</div>
 <div><b>Status</b> In effect. Effective immediately on issue. Projects already in development follow HDM Index 82.5.</div>

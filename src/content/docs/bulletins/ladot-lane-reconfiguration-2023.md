@@ -2,6 +2,9 @@
 title: "CSC Lane Reconfiguration: Lane Reconfiguration Guidelines"
 description: "LADOT CSC Lane Reconfiguration (April 2023). Road diets and lane repurposing"
 ---
+
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/west-hollywood/weho-demo-treatments.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/west-hollywood/weho-demo-treatments.webp" alt="Lane Reconfiguration &amp; Road Diets" /></a><figcaption><strong>Lane Reconfiguration &amp; Road Diets</strong> <em>Quick-build &amp; permanent lane reallocation for multimodal safety</em></figcaption></figure>
+
 <div class="bul-meta">
 <div><b>Issued</b> April 2023</div>
 <div><b>Status</b> In effect. Listed in the LADOT Technical Reference Library.</div>

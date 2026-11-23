@@ -2,6 +2,9 @@
 title: "DIB 89-02: Class IV Bikeway Guidance (Separated Bikeways/Cycle Tracks)"
 description: "Caltrans DIB 89-02 (February 7, 2022). Does not set travel lane widths. Notes that lanes or the bikeway may need narrowing at loading zones, transit stops and passenger drop-off."
 ---
+
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-3-parking-protected.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-3-parking-protected.webp" alt="Class IV Separated Bikeway (Caltrans DIB 89-02)" /></a><figcaption><strong>Class IV Separated Bikeway (Caltrans DIB 89-02)</strong> <em>Parking-protected separated bikeway with physical buffer &amp; vertical separation</em></figcaption></figure>
+
 <div class="bul-meta">
 <div><b>Issued</b> February 7, 2022</div>
 <div><b>Status</b> In effect. Effective immediately on issue. Projects already in development follow HDM Index 82.5.</div>

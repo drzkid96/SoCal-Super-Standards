@@ -623,6 +623,7 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .vibe-hero figcaption { padding: .48rem .75rem; font-size: .78rem; color: #5b584d; background: #fbf9f4; border-top: 1px solid #eee5d3; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .35rem; }
 .vibe-hero figcaption strong { color: var(--sss-green); }
 .vibe-hero figcaption em { font-style: normal; opacity: .82; }
+.vibe-hero.map-hero img { max-height: 400px; object-fit: contain; background: #f4f1ea; }
 
 /* ---------- clean print / PDF export ---------- */
 @media print {
