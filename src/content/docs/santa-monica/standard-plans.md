@@ -6,11 +6,11 @@ tableOfContents:
   maxHeadingLevel: 2
 ---
 
-<div class="srcbar"><span class="status-pill digest">Direct Criteria + Full Verbatim Rules</span> City of Santa Monica Public Works &amp; SaMoDOT &middot; Off-Site Checklist (Rev. 6/27/2023) &amp; TTCP Requirements (effective 10/15/2026)</div>
+<div class="srcbar"><span class="status-pill digest">City review criteria</span> City of Santa Monica Public Works &amp; SaMoDOT &middot; Off-Site Checklist (Rev. 6/27/2023) &amp; TTCP Requirements (effective 10/15/2026)</div>
 
 <div class="note-box"><strong>Order of authority in Santa Monica:</strong> City of Santa Monica Standard Details (SM / B / SWSM), Curb Ramp Memo, and Off-Site Plan Check Checklist govern local public right-of-way improvements, supplemented by <strong>SPPWC ("Greenbook" — 2012 Plans / 2021 Specs)</strong>, <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/">Caltrans Standard Plans 2026</a>, and <a href="/SoCal-Super-Standards/ca-mutcd/">CA MUTCD 2026</a>.</div>
 
-## Santa Monica Curb Ramp &amp; Accessibility Standards (Stricter Than Baseline ADA)
+## Curb ramp design and plan review
 
 From Santa Monica Public Works *Plan Check Checklist — Offsite Improvements* (Rev. 6/27/2023, Items 94–96) and *City Curb Ramp Memo*:
 
@@ -20,7 +20,7 @@ From Santa Monica Public Works *Plan Check Checklist — Offsite Improvements* (
 | **Top landing dimensions** | **4'-2" wide × 5'-0" deep** in direction of ramp (PROWAG turning radius) | 4'-0" × 4'-0" min only at City Engineer discretion |
 | **Running slope** | **7.5% maximum** | 8.33% max only at City Engineer discretion |
 | **Cross slope** | **1.5% maximum** | 2.0% max only at City Engineer discretion |
-| **Dual curb ramps** | Required at corners | Single/diagonal ramp requires approved **Dual Curb Ramp Deviation Form** |
+| **Dual curb ramps** | Provide a separate ramp for each pedestrian crossing at a curb return serving two crossings. | Where a registered design professional determines this is technically infeasible, submit the [deviation form](https://www.santamonica.gov/city-policy-for-curb-ramp-design-and-deviation) for approval by the City Engineer or designee. |
 | **Plan view submittal** | Enlarged plan view of every curb ramp with **spot elevations and slopes** at all grade breaks &amp; slope changes | Must also show existing &amp; proposed pavement types/thicknesses and utilities (size, type, material, distance to property line) |
 
 ## Driveway &amp; Off-Site Plan Drafting Standards
@@ -36,7 +36,7 @@ From Santa Monica Public Works *Plan Check Checklist — Offsite Improvements* (
 
 ## Temporary Traffic Control Plan (TTCP) Rules (Effective Oct 15, 2026)
 
-From Santa Monica Public Works Mobility Division [*TTCP Review &amp; Submission Requirements*](https://www.santamonica.gov/process-explainers/how-to-submit-a-temporary-traffic-control-plan) (October 2026) and *Traffic Control Plan Supplement*:
+From Santa Monica Public Works Mobility Division [*TTCP Review &amp; Submission Requirements*](https://www.santamonica.gov/process-explainers/how-to-submit-a-temporary-traffic-control-plan) (October 2026) and *Traffic Control Plan Supplement*. The supplement is a project-specific form. Its conditions apply as marked on the signed and stamped copy.
 
 - **PE Stamp:** Plans must be stamped, signed, and dated by a CA-licensed **Civil or Traffic Engineer** (City reserves the right to require both seals).
 - **ProjectDox Upload Standards:** Each sheet uploaded as a **separate single-page PDF**, **landscape orientation**, **≤ 3 MB per PDF**, zero-padded naming (`TTCP01.pdf`, `TTCP02.pdf`, …) into the `"Plans"` folder.

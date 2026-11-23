@@ -27,7 +27,7 @@ jobs:
         run: |
           python -m pip install lxml
           find .boe-cache -name '*.html' -mtime +7 -delete 2>/dev/null || true
-          python pipeline/import_boe.py
+          python pipeline/import_boe.py --use-snapshot-on-network-error
       - uses: actions/upload-artifact@v4
         with:
           name: boe-street-design-source

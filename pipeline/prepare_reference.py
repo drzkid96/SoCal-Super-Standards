@@ -1,12 +1,16 @@
 import re,json,html
 from pathlib import Path
 from sign_releases import prepare as prepare_fhwa_layouts
+from boe_snapshot import CATALOG as BOE_CATALOG, restore as restore_boe
 import shutil
 source = Path('src/content/docs')
 root = Path('.standards/docs')
 shutil.copytree(source, root, dirs_exist_ok=True)
 for old in root.rglob('*'):
  if old.is_file() and not (source / old.relative_to(root)).exists():old.unlink()
+boe_folder=root/'boe/street-design'
+if not BOE_CATALOG.exists() or len(list(boe_folder.glob('*.md'))) <= 1:
+ restore_boe(boe_folder)
 ref=Path('data/reference')
 base='/SoCal-Super-Standards'
 urls=json.loads((ref/'ca-chapter-urls.json').read_text())
@@ -18,6 +22,7 @@ def revision_text(style, text):
 
 for manual in ('ca-mutcd','mutcd'):
  items=json.loads((ref/(manual+'-items.json')).read_text())
+ provision_urls={s['num']:s['url'] for s in json.loads(Path('data',manual,'sections.json').read_text())}
  chapters={c['code']:c['first'] for c in json.load(open('data/'+manual+'/chapters.json'))}
  anchors={}
  for path in (root/manual).glob('*.md'):
@@ -56,6 +61,10 @@ for manual in ('ca-mutcd','mutcd'):
      line=f'<p id="{sect.lower().replace(".","").replace("(","").replace(")","")}-p{key}"><a class="pn" data-pagefind-ignore href="{url}" aria-label="Official source, paragraph {n}">{n}</a> {body}</p>'
     lines.append(line)
    src='\n'.join(lines)+'\n'
+  def section_link(m):
+   num=m[1]
+   return f'<a href="{provision_urls[num]}">Section {num}</a>' if num in provision_urls else f'Section {num}'
+  src=re.sub(r'<a href="#">Section (\d[A-Z]\.\d+(?:\(CA\))?)</a>',section_link,src)
   if src!=path.read_text():path.write_text(src)
 
 def load(path):return json.loads(Path(path).read_text())

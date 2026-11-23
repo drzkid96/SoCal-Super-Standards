@@ -73,5 +73,11 @@ with TemporaryDirectory() as temp:
         browser.get(base+'ca-mutcd/6b/#6b08')
         assert browser.find_element(By.ID,'6b08').is_enabled()
         assert 'chapter for the marked-up' not in browser.find_element(By.ID,'6b08-p01').text
+        browser.get(base+'ca-mutcd/4i/#4i05-p10')
+        note=browser.find_element(By.ID,'4i05-p10')
+        assert 'adjacent to' in note.find_element(By.TAG_NAME,'del').text
+        assert 'immediately above' in note.find_element(By.CSS_SELECTOR,'.ca').text
+        browser.get(base+'ca-mutcd/2b/#2b04')
+        assert 'STOP' in browser.find_element(By.ID,'2b04-p01').text
     server.shutdown()
 print('Sheet viewer passed at 1280 and 390 pixels.')

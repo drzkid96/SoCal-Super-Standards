@@ -80,19 +80,27 @@ def render(node, url, known):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--cache',type=Path,default=ROOT/'.boe-cache')
+    parser.add_argument('--use-snapshot-on-network-error',action='store_true')
     args=parser.parse_args()
     args.cache.mkdir(parents=True,exist_ok=True)
-    start=fetch(START,args.cache)
-    seed={urljoin(ORIGIN,u) for u in start.xpath('//a/@href') if re.match(r'^/e-\d',u) and included(u,'')}
-    if len(seed)<40:raise ValueError('City navigation is incomplete')
-    pages={}
-    todo=seed
-    while todo:
-        with ThreadPoolExecutor(max_workers=5) as pool:
-            for u,d in zip(sorted(todo),pool.map(lambda x:fetch(x,args.cache),sorted(todo))):
-                title=' '.join(d.xpath('string(//main//h1)').split())
-                pages[u]=(title,d)
-        todo={v for u in todo for v in children(pages[u][1],u)}-pages.keys()
+    try:
+        start=fetch(START,args.cache)
+        seed={urljoin(ORIGIN,u) for u in start.xpath('//a/@href') if re.match(r'^/e-\d',u) and included(u,'')}
+        if len(seed)<40:raise ValueError('City navigation is incomplete')
+        pages={}
+        todo=seed
+        while todo:
+            with ThreadPoolExecutor(max_workers=5) as pool:
+                for u,d in zip(sorted(todo),pool.map(lambda x:fetch(x,args.cache),sorted(todo))):
+                    title=' '.join(d.xpath('string(//main//h1)').split())
+                    pages[u]=(title,d)
+            todo={v for u in todo for v in children(pages[u][1],u)}-pages.keys()
+    except OSError as error:
+        if not args.use_snapshot_on_network_error:raise
+        from boe_snapshot import restore
+        restore(OUTPUT)
+        print(f'Live BOE refresh unavailable ({error}). Built from the reviewed snapshot.')
+        return
     parents={}
     for parent,(_,doc) in pages.items():
         for child in children(doc,parent):
