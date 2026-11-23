@@ -4,6 +4,15 @@ description: Every LADOT manual, policy and standard drawing on this site, with 
 tableOfContents: false
 ---
 
+<div class="vis-strip">
+  <a class="vis-card" href="/SoCal-Super-Standards/ladot/mpp-details/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0108.webp" alt="MPP 531 · S-481.0" /><span><b>MPP 531 · S-481.0</b>Uncontrolled crosswalks &amp; red curb</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-483-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0113.webp" alt="MPP 531 · S-483.0" /><span><b>MPP 531 · S-483.0</b>Speed hump &amp; calming</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-485-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0120.webp" alt="MPP 531 · S-485.0" /><span><b>MPP 531 · S-485.0</b>Lane reduction &amp; road diets</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-487-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0123.webp" alt="MPP 531 · S-487.0" /><span><b>MPP 531 · S-487.0</b>Exclusive bus lane markings</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-493-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0127.webp" alt="MPP 531 · S-493.0" /><span><b>MPP 531 · S-493.0</b>Limit lines &amp; crosswalks</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-486-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0121.webp" alt="MPP 531 · S-486.0" /><span><b>MPP 531 · S-486.0</b>Mast-arm street name signs</span></a>
+</div>
+
 <div class="srcbar">City of Los Angeles Department of Transportation and partner agencies &middot; 12 documents &middot; 1253 pages</div>
 
 Every page of every LADOT document is here: native text where the PDF has it, OCR where it is a scan or outlined CAD text, and a sharpened image of every drawing or figure page. Sign codes link to the [Sign Library](/SoCal-Super-Standards/signs/) and MUTCD section references link to the manuals. Search (Ctrl+K) covers all of it, OCR text included.

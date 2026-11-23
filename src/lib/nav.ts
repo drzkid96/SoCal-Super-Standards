@@ -181,7 +181,7 @@ function init() {
       { label: 'West Hollywood Engineering', href: `${BASE}/west-hollywood/standard-plans/` },
       { label: 'Culver City Complete Streets', href: `${BASE}/culver-city/standard-plans/` },
     ],
-    { label: 'Sources & Versions', href: `${BASE}/sources/` },
+    { label: 'LA County Cities Hub', href: `${BASE}/cities/` },
   );
 
   // 9. Markings & LADOT utility subpages

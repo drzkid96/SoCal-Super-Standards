@@ -41,3 +41,12 @@ Caltrans published the list of California signs deleted in CA MUTCD 2026 on July
 </details>
 
 Sources: Caltrans CA MUTCD 2026 and deleted sign list; FHWA MUTCD 11th Edition Revision 1; Caltrans Standard Plans revision digest; U.S. Access Board and U.S. DOT final rules; California Building Standards Commission.
+
+## Visual Reference
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0001.webp" alt="Caltrans 2026 · A20A" /></a><figcaption><strong>Caltrans 2026 · A20A</strong><br><small>Current 2026 markers (supersedes 2018 Types G/H)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0013.webp" alt="Caltrans 2026 · A24F" /></a><figcaption><strong>Caltrans 2026 · A24F</strong><br><small>Current 2026 crosswalks &amp; markings</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0019.webp" alt="Caltrans 2026 · A88A" /></a><figcaption><strong>Caltrans 2026 · A88A</strong><br><small>Current 2026 ADA curb ramp details</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0022.webp" alt="Caltrans 2026 · A90B" /></a><figcaption><strong>Caltrans 2026 · A90B</strong><br><small>Current 2026 on-street accessible parking</small></figcaption></figure>
+</div>

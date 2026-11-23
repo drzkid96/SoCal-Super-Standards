@@ -18,3 +18,12 @@ Which values apply depends on who owns the street. On a State highway, the HDM (
 - Both agencies favor the wider lane on the outside where trucks and buses run. BOE E 612.22 says the same for streets with medians or slow traffic, and the opposite (widest lane near the centerline) on undivided, faster streets.
 
 Sources: Caltrans DIB 94 Section 5.3 and Table 5.3; LADOT MPP 531 (02/2023) Lane Widths; City of Los Angeles Complete Street Design Manual E 612.21 ([online](https://completestreetdesignmanual.engineering.lacity.gov/e-600-cross-section-elements/e-610-streets/e-612-width-standards-and-component-arrangements)). Values checked November 18, 2026.
+
+## Visual Reference
+
+<div class="mgrid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-3b-city-center.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-3b-city-center.webp" alt="Caltrans DIB 94 · Fig. 3B" /></a><figcaption><strong>Caltrans DIB 94 · Fig. 3B</strong><br><small>Complete Streets city-center lane &amp; multimodal allocation</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t120.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t120.webp" alt="Torrance · T120" /></a><figcaption><strong>Torrance · T120</strong><br><small>Municipal minimum lane widths for arterial streets</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0120.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0120.webp" alt="LADOT MPP 531 · S-485.0" /></a><figcaption><strong>LADOT MPP 531 · S-485.0</strong><br><small>Lane reduction taper &amp; transition geometry</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/palmdale/standard-plans/pm-s-1-2.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/palmdale/standard-plans/pm-s-1-2.webp" alt="Palmdale · S-1.2" /></a><figcaption><strong>Palmdale · S-1.2</strong><br><small>Street width schedule by roadway classification</small></figcaption></figure>
+</div>

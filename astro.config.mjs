@@ -23,7 +23,7 @@ const groups = (list, dir) => Object.entries(PARTS).map(([k, label]) => ({
 const caParts = groups(chapters, 'ca-mutcd');
 const fedParts = groups(fedChapters, 'mutcd');
 const topicDefs = JSON.parse(fs.readFileSync('./data/topics.json', 'utf8'));
-const topicGroups = topicDefs.map((g) => ({ label: g.group, collapsed: false, items: g.topics.map((t) => ({ label: t.name, link: `/topics/${t.slug}/` })) }));
+const flatTopics = topicDefs.flatMap((g) => g.topics.map((t) => ({ label: t.name, link: `/topics/${t.slug}/` })));
 const ladotCfg = JSON.parse(fs.readFileSync('./pipeline/config/ladot.json', 'utf8'));
 const guideCfg = JSON.parse(fs.readFileSync('./pipeline/config/guides.json', 'utf8'));
 const guideDocs = guideCfg.map((c) => ({ label: c.short, link: `/${c.slug}/` }));
@@ -35,25 +35,18 @@ const AGENCY_LABELS = {
   'burbank/standard-plans': 'Burbank Standard Plans (BT series)',
   'pasadena/standard-plans': 'Pasadena Standard Plans (S-700 series)',
 };
-const AGENCY_ORDER = [
-  'caltrans/standard-plans-2026',
-  'burbank/standard-plans',
-  'pasadena/standard-plans',
-  'caltrans/standard-plans-2018',
-];
-const agencyDocs = [
-  ...agencyCfg
-    .filter((c) => !c.slug.includes('la28'))
-    .sort((a, b) => (AGENCY_ORDER.indexOf(a.slug) + 1 || 99) - (AGENCY_ORDER.indexOf(b.slug) + 1 || 99))
-    .map((c) => ({ label: AGENCY_LABELS[c.slug] || c.short, link: `/${c.slug}/` })),
-  { label: 'Long Beach Traffic & Roadway Plans (22 sheets)', link: '/long-beach/standard-plans/' },
-  { label: 'Palmdale Street & Traffic Drawings (16 sheets)', link: '/palmdale/standard-plans/' },
-  { label: 'Torrance T-Series & TCP Plans (19 sheets)', link: '/torrance/standard-plans/' },
-  { label: 'Gardena Street & Loop Plans (14 sheets)', link: '/gardena/standard-plans/' },
-  { label: 'Glendora 2024 Street & TCP Standards (12 sheets)', link: '/glendora/standard-plans/' },
-  { label: 'Santa Monica Standard Details (SM / B / SWSM)', link: '/santa-monica/standard-plans/' },
-  { label: 'West Hollywood Engineering & Mobility', link: '/west-hollywood/standard-plans/' },
-  { label: 'Culver City Complete Streets & Traffic', link: '/culver-city/standard-plans/' },
+const cityAgencyDocs = [
+  { label: 'All LA County Cities (Hub)', link: '/cities/' },
+  { label: 'Long Beach (22 sheets)', link: '/long-beach/standard-plans/' },
+  { label: 'Palmdale (16 sheets)', link: '/palmdale/standard-plans/' },
+  { label: 'Torrance (19 sheets)', link: '/torrance/standard-plans/' },
+  { label: 'Pasadena (S-700 series)', link: '/pasadena/standard-plans/' },
+  { label: 'Burbank (BT series)', link: '/burbank/standard-plans/' },
+  { label: 'Santa Monica (SM / B / SWSM)', link: '/santa-monica/standard-plans/' },
+  { label: 'Gardena (14 sheets)', link: '/gardena/standard-plans/' },
+  { label: 'Glendora (12 sheets, 2024)', link: '/glendora/standard-plans/' },
+  { label: 'Culver City (45 sheets, 2025)', link: '/culver-city/standard-plans/' },
+  { label: 'West Hollywood (7 sheets)', link: '/west-hollywood/standard-plans/' },
 ];
 const ladotDocs = ladotCfg.map((c) => {
   const d = JSON.parse(fs.readFileSync(`./data/docs/${c.slug.replace('/', '__')}.json`, 'utf8'));
@@ -70,7 +63,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'SoCal Super Standards',
-      description: 'Searchable traffic engineering standards for Southern California: CA MUTCD 2026, federal MUTCD, LADOT, FHWA, ADA, and more.',
+      description: 'Searchable traffic engineering standards for Southern California: CA MUTCD 2026, federal MUTCD, Caltrans 2026, LADOT, and 10 LA County cities.',
       customCss: [
         '@fontsource/albert-sans/400.css',
         '@fontsource/albert-sans/500.css',
@@ -97,62 +90,66 @@ export default defineConfig({
       pagination: true,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },
       sidebar: [
-        { label: 'Start here', items: [
-          { label: 'Home', link: '/' },
-          { label: 'Ask the standards (AI)', link: '/ask/' },
-          { label: 'Standards status (what governs)', link: '/bulletins/standards-status/' },
-          { label: 'How to use this site', link: '/guide/' },
+        { label: 'Quick Lookup', items: [
+          { label: 'Detail & Drawing Index', link: '/details/' },
+          { label: 'Sign Library (1,148)', link: '/signs/' },
+          { label: 'Pavement Markings (203)', link: '/markings/' },
+          { label: 'Caltrans Line Types (49)', link: '/markings/line-types/' },
+          { label: 'Keyword Index A–Z', link: '/keywords/' },
+          { label: 'Ask the Standards (Free)', link: '/ask/' },
+          { label: 'What Governs (Status)', link: '/bulletins/standards-status/' },
         ] },
-        { label: 'Find by number & libraries', items: [
-          { label: 'Detail and Drawing Index', link: '/details/' },
-          { label: 'Keyword Index A to Z', link: '/keywords/' },
-          { label: 'Sign Library', link: '/signs/' },
-          { label: 'Pavement Marking Library', link: '/markings/' },
-          { label: 'Line Type Database', link: '/markings/line-types/' },
-          { label: 'MPP drawings, redrawn', link: '/ladot/mpp-details/' },
-          { label: 'All agency standard drawings', link: '/details/?type=Standard+drawing' },
+        { label: 'Design by Topic', collapsed: true, items: [
+          { label: 'All 12 Topics (Visual Hub)', link: '/topics/' },
+          ...flatTopics,
+          { label: 'Tool: Lane Width Comparison', link: '/bulletins/lane-widths/' },
+          { label: 'Tool: Bikeway Comparison', link: '/bulletins/bikeway-design-comparison/' },
+          { label: 'Tool: LADOT Curb Paint Calc', link: '/ladot/curb-paint/' },
         ] },
-        { label: 'Design by topic', items: [
-          { label: 'All topics', link: '/topics/' },
-          { label: 'LADOT curb paint & red curb', link: '/ladot/curb-paint/' },
-          ...topicGroups,
+        { label: 'State & Federal Standards', collapsed: true, items: [
+          { label: 'CA MUTCD 2026', collapsed: true, items: [{ label: 'Overview', link: '/ca-mutcd/' }, ...caParts, { label: 'LA28 Supplement (GRN)', link: '/caltrans/la28-supplement/' }] },
+          { label: 'Caltrans 2026 Standard Plans', link: '/caltrans/standard-plans-2026/' },
+          { label: 'Bulletins & Policy Memos', collapsed: true, items: [
+            { label: 'All Bulletins & Memos', link: '/bulletins/' },
+            { label: 'Caltrans HDM Ch. 1000 Bikeways', link: '/bulletins/caltrans-hdm-ch1000/' },
+            { label: 'Caltrans DIB 94 Complete Streets', link: '/bulletins/caltrans-dib-94/' },
+            { label: 'Caltrans DIB 89-02 Class IV', link: '/bulletins/caltrans-dib-89-02/' },
+            { label: 'Caltrans DIB 82-06 Accessibility', link: '/bulletins/caltrans-dib-82-06/' },
+            { label: 'Caltrans DIB 79-04 · 81-03 · 90 · 92 · 93', collapsed: true, items: [
+              { label: 'DIB 79-04 (2R/3R)', link: '/bulletins/caltrans-dib-79-04/' },
+              { label: 'DIB 81-03 (CAPM)', link: '/bulletins/caltrans-dib-81-03/' },
+              { label: 'DIB 90 (DDI)', link: '/bulletins/caltrans-dib-90/' },
+              { label: 'DIB 92 (SPI)', link: '/bulletins/caltrans-dib-92/' },
+              { label: 'DIB 93 (Evacuation Routes)', link: '/bulletins/caltrans-dib-93/' },
+            ] },
+            { label: 'LADOT Policy Memos & Checklist', collapsed: true, items: [
+              { label: 'LADOT Lane Reconfiguration (2023)', link: '/bulletins/ladot-lane-reconfiguration-2023/' },
+              { label: 'LADOT Bikeway Marking (2022)', link: '/bulletins/ladot-bikeway-marking-2022/' },
+              { label: 'LADOT Leading Pedestrian Interval', link: '/bulletins/ladot-lpi-2021/' },
+              { label: 'LADOT Exclusive Pedestrian Phase', link: '/bulletins/ladot-exclusive-ped-phase-2017/' },
+              { label: 'LADOT Accessible Parking Zones', link: '/bulletins/ladot-accessible-parking-2017/' },
+              { label: 'LADOT S&S Plan Review Checklist', link: '/bulletins/ladot-ss-plan-checklist-2022/' },
+            ] },
+            { label: 'PROWAG (ADA Right-of-Way)', link: '/bulletins/prowag-2023/' },
+            { label: 'CBC 11B Accessible Parking', link: '/bulletins/ca-accessible-parking-2026/' },
+          ] },
+          { label: 'Federal MUTCD 11th Ed. R1', collapsed: true, items: [{ label: 'Overview', link: '/mutcd/' }, ...fedParts] },
+          { label: 'Caltrans 2018 Plans (Archive)', link: '/caltrans/standard-plans-2018/' },
         ] },
-        { label: 'Bulletins & policy memos', collapsed: true, items: [
-          { label: 'All bulletins and memos', link: '/bulletins/' },
-          { label: 'Lane width comparison', link: '/bulletins/lane-widths/' },
-          { label: 'Bikeway design comparison', link: '/bulletins/bikeway-design-comparison/' },
-          { label: 'Caltrans HDM Ch. 1000 Bikeways', link: '/bulletins/caltrans-hdm-ch1000/' },
-          { label: 'Caltrans DIB 94 Complete Streets', link: '/bulletins/caltrans-dib-94/' },
-          { label: 'Caltrans DIB 89-02 Class IV', link: '/bulletins/caltrans-dib-89-02/' },
-          { label: 'Caltrans DIB 82-06 Accessibility', link: '/bulletins/caltrans-dib-82-06/' },
-          { label: 'Caltrans DIB 79-04 2R/3R', link: '/bulletins/caltrans-dib-79-04/' },
-          { label: 'Caltrans DIB 81-03 CAPM', link: '/bulletins/caltrans-dib-81-03/' },
-          { label: 'Caltrans DIB 93 Evacuation routes', link: '/bulletins/caltrans-dib-93/' },
-          { label: 'Caltrans DIB 92 SPI', link: '/bulletins/caltrans-dib-92/' },
-          { label: 'Caltrans DIB 90 DDI', link: '/bulletins/caltrans-dib-90/' },
-          { label: 'LADOT Lane Reconfiguration', link: '/bulletins/ladot-lane-reconfiguration-2023/' },
-          { label: 'LADOT Bikeway Marking', link: '/bulletins/ladot-bikeway-marking-2022/' },
-          { label: 'LADOT Leading Pedestrian Interval', link: '/bulletins/ladot-lpi-2021/' },
-          { label: 'LADOT Exclusive Pedestrian Phase', link: '/bulletins/ladot-exclusive-ped-phase-2017/' },
-          { label: 'LADOT Accessible Parking Zones', link: '/bulletins/ladot-accessible-parking-2017/' },
-          { label: 'PROWAG (ADA right-of-way)', link: '/bulletins/prowag-2023/' },
-          { label: 'CBC 11B accessible parking', link: '/bulletins/ca-accessible-parking-2026/' },
+        { label: 'LA County Agencies', collapsed: true, items: [
+          ...cityAgencyDocs,
+          { label: 'LADOT (12 Manuals & Drawings)', collapsed: true, items: [
+            { label: 'All LADOT Documents', link: '/ladot/' },
+            { label: 'MPP 531 Redrawn Gallery', link: '/ladot/mpp-details/' },
+            ...ladotDocs,
+          ] },
         ] },
-        { label: 'Plan production', collapsed: true, items: [
-          { label: 'MPP 531 plan preparation', link: '/ladot/mpp-531/01-policies-and-procedures/' },
-          { label: 'LADOT drafting (CAD) standards', link: '/ladot/cad-standards/' },
-          { label: 'MPP 521 signal design guidelines', link: '/ladot/mpp-521/' },
-          { label: 'Red Book signal provisions', link: '/ladot/red-book/' },
-          { label: 'LADOT S&S Plan Review Checklist', link: '/bulletins/ladot-ss-plan-checklist-2022/' },
-        ] },
-        { label: 'Source documents', items: [
-          { label: 'CA MUTCD 2026', collapsed: true, items: [{ label: 'About this manual', link: '/ca-mutcd/' }, ...caParts, { label: 'LA28 Supplement (Games Route Network)', link: '/caltrans/la28-supplement/' }] },
-          { label: 'Federal MUTCD 11th Ed. Rev. 1', collapsed: true, items: [{ label: 'About this manual', link: '/mutcd/' }, ...fedParts] },
-          { label: 'LADOT', collapsed: true, items: [{ label: 'All LADOT documents', link: '/ladot/' }, ...ladotDocs] },
-          { label: 'Caltrans & SoCal Cities', collapsed: true, items: agencyDocs },
-          { label: 'Federal guides (FHWA, ADA)', collapsed: true, items: guideDocs },
-          { label: 'Design guides & references', collapsed: true, items: [{ label: 'All guides & coverage', link: '/guides/' }, ...refCards] },
-          { label: 'Sources and versions', link: '/sources/' },
+        { label: 'National Design Guides', collapsed: true, items: [
+          { label: 'All Guides & Coverage', link: '/guides/' },
+          ...refCards,
+          ...guideDocs,
+          { label: 'Sources & Versions', link: '/sources/' },
+          { label: 'How to Use This Site', link: '/guide/' },
         ] },
       ],
     }),

@@ -4,6 +4,15 @@ description: Federal, state, and national street, bikeway, and pedestrian design
 tableOfContents: false
 ---
 
+<div class="vis-strip">
+  <a class="vis-card" href="/SoCal-Super-Standards/guides/aashto-bike-guide/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-5a-bike-selection.webp" alt="AASHTO GBF-5" /><span><b>AASHTO GBF-5</b>16 chapters · 256 figures</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/fhwa/step-uncontrolled-crossings/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0013.webp" alt="FHWA STEP Guide" /><span><b>FHWA STEP Guide</b>Uncontrolled crossing safety</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/ada/curb-ramps/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-82-06/fig-4-3-14b-curb-ramp-dws.webp" alt="ADA Ch. 4 Ramps" /><span><b>ADA Ch. 4 Ramps</b>Curb ramps &amp; landing slopes</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/guides/nacto-urban-bikeway/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/fig-1-protected-intersection.webp" alt="NACTO Bikeway" /><span><b>NACTO Bikeway</b>Protected intersections &amp; boxes</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/guides/nacto-urban-street/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-3b-city-center.webp" alt="NACTO Street" /><span><b>NACTO Street</b>Complete street cross-sections</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/guides/cpbs-plts/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-82-06/fig-4-3-5-cross-slope.webp" alt="CPBS PLTS" /><span><b>CPBS PLTS</b>Pedestrian stress scoring</span></a>
+</div>
+
 <div class="note-box"><strong>How to read this page:</strong> Not every guide on this site has the same depth or legal weight. In California, <strong>CA MUTCD 2026</strong>, <strong>Caltrans HDM Ch. 1000</strong> (statutory for bikeways), and local city standards govern; national guides (FHWA, AASHTO, NACTO) are <strong>design guidance</strong>. Each card below explicitly states <strong>what is hosted on this site</strong> vs. what requires the publisher's book.</div>
 
 ## Full Documents on This Site (Complete Text &amp; Figures)

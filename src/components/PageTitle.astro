@@ -90,7 +90,7 @@ if (id && id !== '404') {
   } else if (top === 'pasadena' && segs.length > 2) {
     crumbs.push({ label: 'Pasadena Standard Plans', href: `${BASE}/pasadena/standard-plans/` });
   } else if (['santa-monica', 'west-hollywood', 'culver-city', 'long-beach', 'palmdale', 'torrance', 'gardena', 'glendora'].includes(top)) {
-    crumbs.push({ label: 'SoCal Municipal Standards', href: `${BASE}/sources/` });
+    crumbs.push({ label: 'LA County Cities', href: `${BASE}/cities/` });
   } else if (top === 'fhwa') {
     if (segs.length > 2) {
       const label = segs[1] === 'step-uncontrolled-crossings' ? 'FHWA STEP Guide' : 'FHWA Interchange Promptlist';
