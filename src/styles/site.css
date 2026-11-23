@@ -673,8 +673,8 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .badge-traffic-engineering { background: rgba(27, 121, 90, 0.14); color: var(--fp-jade, #1B795A); }
 .badge-engineering-permits { background: rgba(86, 140, 187, 0.16); color: var(--fp-slate, #00242E); }
 .badge-public-works { background: var(--fp-cream, #EEEDE8); color: var(--fp-slate, #00242E); }
-.mfig-inline { margin: .75rem 0 1.15rem 1.05rem; }
-.mfig-inline.single { max-width: 580px; }
+.mfig-inline { margin: .75rem 0 1.15rem; width: 100%; box-sizing: border-box; }
+.mfig-inline.single { max-width: none; width: 100%; }
 .mfig-inline.multi { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: .85rem; align-items: start; }
 .mfig-inline > *, .mfig-inline .mfig { margin-top: 0 !important; margin-bottom: 0; }
 .mfig-inline .mfig { border: 1px solid var(--fp-grid, #E7E8E8); border-radius: 8px; background: var(--sl-color-bg); padding: .55rem; box-shadow: 0 1px 3px rgba(0,36,46,.05); }
