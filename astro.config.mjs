@@ -96,7 +96,6 @@ export default defineConfig({
           { label: 'Pavement Markings (203)', link: '/markings/' },
           { label: 'Caltrans Line Types (49)', link: '/markings/line-types/' },
           { label: 'Keyword Index A–Z', link: '/keywords/' },
-          { label: 'Ask the Standards (Free)', link: '/ask/' },
           { label: 'What Governs (Status)', link: '/bulletins/standards-status/' },
         ] },
         { label: 'Design by Topic', collapsed: true, items: [

@@ -651,6 +651,18 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .vibe-hero figcaption em { font-style: normal; opacity: .82; }
 .vibe-hero.map-hero img { max-height: 400px; object-fit: contain; background: #EEEDE8; }
 
+/* ---------- global alignment fix: prevent Starlight's `* + * { margin-top: 1rem }` from staggering buttons/cards inside flex & grid UI ---------- */
+.sl-markdown-content :is(.ai-row, .ql-samples, .ql-box, .home-stats, .home-tools, .vis-strip, .paths, .hgroups, .hgroup, .mgrid, .mfig-grid, .thumbgrid, .sgrid, .sbtns, .sfilter, .dx-filters, .dx-searchrow, .dx-grid, .dx-chips, .cardgrid, .tgrid, .topic-stats, .calc-out, .rdg-s, .rel-grid, .home-ai-bar, .ai-signs) > * {
+  margin-top: 0 !important;
+  margin-bottom: 0;
+}
+.ai-row, .sp-row, .ql-samples, .home-ai-bar { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+.ai-btn, .sp-send, .sp-clear { display: inline-flex; align-items: center; justify-content: center; line-height: 1.2; box-sizing: border-box; }
+.home-ai-bar { margin: .65rem 0 1.15rem; padding: .65rem .9rem; background: var(--fp-cream); border: 1px solid var(--fp-grid); border-left: 4px solid var(--fp-emerald); border-radius: 10px; font-size: .84rem; color: var(--fp-slate); }
+.home-ai-bar strong { color: var(--fp-emerald); }
+.home-ai-bar .home-ai-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin-left: auto; }
+.home-ai-bar progress { width: 110px; height: 8px; accent-color: var(--fp-emerald); }
+
 /* ---------- clean print / PDF export ---------- */
 @media print {
   .sss-topbar, .sss-seqbar, .sss-pager, .sss-sheetbar, .to-top, .read-bar, .sp, .ai-explain, .sss-lb, .sfilter, .dx-filters { display: none !important; }

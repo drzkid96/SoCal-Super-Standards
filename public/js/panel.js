@@ -1,5 +1,4 @@
-// Right-edge panel on every page: Checks (supersedence & currency) + unified zero-key Ask drawer.
-// Uses the exact same window.SSSAsk engine as /ask/ — zero API key required, and hides duplicate Ask tab on /ask/.
+// Right-edge utility drawer on every page: Checks | Ask (AI) | Calc (Traffic Engineering Calculators)
 (() => {
   const BASE = '/SoCal-Super-Standards';
   const OPEN_KEY = 'sss-panel-open', TAB_KEY = 'sss-panel-tab';
@@ -8,7 +7,6 @@
   const safeUrl = (u) => (/^(https?:\/\/|\/)/.test(u) ? u : '#');
 
   const path = location.pathname.replace(/index\.html$/, '').replace(/\/?$/, '/');
-  const isAskPage = path.endsWith('/ask/');
   const kind = path.includes('/details/') ? 'detail' : path.includes('/signs/') && !path.endsWith('/signs/') ? 'sign'
     : path.includes('/bulletins/') ? 'bulletin' : /\/(mutcd|ca-mutcd)\//.test(path) ? 'manual' : 'page';
 
@@ -41,29 +39,77 @@
   let checks = [];
   const ui = document.createElement('aside');
   ui.className = 'sp';
-  ui.setAttribute('aria-label', isAskPage ? 'Checks' : 'Checks and Ask');
+  ui.setAttribute('aria-label', 'Checks, Ask AI, and Calculators');
   ui.innerHTML = `
-    <button class="sp-tab" type="button" aria-expanded="false" title="${isAskPage ? 'Checks' : 'Checks and Ask'}"><span class="sp-tab-t">Checks</span><span class="sp-n"></span></button>
+    <button class="sp-tab" type="button" aria-expanded="false" title="Checks, Ask AI &amp; Calculators"><span class="sp-tab-t">Tools</span><span class="sp-n"></span></button>
     <div class="sp-body" hidden>
       <div class="sp-head">
         <div class="sp-tabs" role="tablist">
           <button role="tab" data-t="checks" type="button">Checks</button>
-          ${isAskPage ? '' : '<button role="tab" data-t="ask" type="button">Ask</button>'}
+          <button role="tab" data-t="ask" type="button">Ask AI</button>
+          <button role="tab" data-t="calc" type="button">Calc</button>
         </div>
         <button class="sp-x" type="button" aria-label="Close panel">&times;</button>
       </div>
+
       <section class="sp-pane" data-p="checks"></section>
-      ${isAskPage ? '' : `
+
       <section class="sp-pane" data-p="ask" hidden>
+        <div class="sp-ai-bar" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0.35rem;margin-bottom:0.45rem;padding:0.4rem 0.5rem;background:var(--fp-cream,#EEEDE8);border-radius:8px;font-size:0.74rem">
+          <span class="sp-ai-st" style="flex:1 1 120px">Instant search ready</span>
+          <div style="display:flex;gap:0.3rem;align-items:center">
+            <button type="button" class="sp-ai-oauth" style="font:inherit;font-weight:600;padding:0.15rem 0.45rem;border:1px solid var(--fp-emerald,#00574A);border-radius:6px;background:var(--fp-emerald,#00574A);color:#fff;cursor:pointer" title="1-click sign-in via OpenRouter (Google/GitHub)">Connect</button>
+            <button type="button" class="sp-ai-load" style="font:inherit;font-weight:600;padding:0.15rem 0.45rem;border:1px solid var(--fp-emerald,#00574A);border-radius:6px;background:#fff;color:var(--fp-emerald,#00574A);cursor:pointer" title="Free local in-browser model (no account)">Local AI</button>
+          </div>
+        </div>
         <div class="sp-pre"></div>
-        <textarea rows="2" placeholder="Ask about this page or any standard..."></textarea>
+        <textarea rows="2" placeholder="Ask about this page or any SoCal standard..."></textarea>
         <div class="sp-row">
           <button type="button" class="sp-send">Ask</button>
           <button type="button" class="sp-clear">Clear</button>
-          <a href="${BASE}/ask/" style="margin-left:auto;font-size:0.76rem;align-self:center">Full page &rarr;</a>
         </div>
         <div class="sp-out" aria-live="polite"></div>
-      </section>`}
+      </section>
+
+      <section class="sp-pane" data-p="calc" hidden>
+        <div style="display:flex;flex-direction:column;gap:0.75rem;font-size:0.82rem">
+          <div style="border:1px solid var(--fp-grid,#E7E8E8);border-radius:10px;padding:0.65rem;background:#fff">
+            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">1. Work-Zone Taper &amp; Buffer (CA MUTCD 6C)</strong>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;margin-bottom:0.45rem">
+              <label>Speed (mph)<input id="c-spd" type="number" value="35" min="15" max="70" step="5" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+              <label>Lane W (ft)<input id="c-lw" type="number" value="12" min="8" max="16" step="1" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+            </div>
+            <div id="c-tcp-out" style="background:var(--fp-band,#F2F2F2);padding:0.45rem 0.55rem;border-radius:6px;line-height:1.45"></div>
+          </div>
+
+          <div style="border:1px solid var(--fp-grid,#E7E8E8);border-radius:10px;padding:0.65rem;background:#fff">
+            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">2. ADA Curb Ramp Run (Caltrans A88A)</strong>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;margin-bottom:0.45rem">
+              <label>Curb Ht (in)<input id="c-ch" type="number" value="6" min="2" max="12" step="0.5" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+              <label>Slope (%)<input id="c-sl" type="number" value="7.5" min="4" max="8.33" step="0.25" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+            </div>
+            <div id="c-ramp-out" style="background:var(--fp-band,#F2F2F2);padding:0.45rem 0.55rem;border-radius:6px;line-height:1.45"></div>
+          </div>
+
+          <div style="border:1px solid var(--fp-grid,#E7E8E8);border-radius:10px;padding:0.65rem;background:#fff">
+            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">3. Ped Signal Walk + FDW (CA MUTCD 4I.06)</strong>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;margin-bottom:0.45rem">
+              <label>Cross Dist (ft)<input id="c-cd" type="number" value="56" min="15" max="160" step="2" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+              <label>Walk (sec)<input id="c-wk" type="number" value="7" min="4" max="20" step="1" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+            </div>
+            <div id="c-ped-out" style="background:var(--fp-band,#F2F2F2);padding:0.45rem 0.55rem;border-radius:6px;line-height:1.45"></div>
+          </div>
+
+          <div style="border:1px solid var(--fp-grid,#E7E8E8);border-radius:10px;padding:0.65rem;background:#fff">
+            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">4. Red Curb &amp; Stopping Sight Dist.</strong>
+            <div style="display:grid;grid-template-columns:1fr;gap:0.4rem;margin-bottom:0.45rem">
+              <label>Approach Speed (mph)<input id="c-ssd-v" type="number" value="35" min="15" max="65" step="5" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+            </div>
+            <div id="c-ssd-out" style="background:var(--fp-band,#F2F2F2);padding:0.45rem 0.55rem;border-radius:6px;line-height:1.45"></div>
+            <p style="margin:0.4rem 0 0;font-size:0.74rem"><a href="${BASE}/ladot/curb-paint/">Full LADOT S-481.0 Red Curb Calculator &rarr;</a></p>
+          </div>
+        </div>
+      </section>
     </div>`;
 
   const $ = (s) => ui.querySelector(s);
@@ -75,10 +121,45 @@
     ls.set(OPEN_KEY, o ? '1' : '0');
   }
   function setTab(t) {
-    const target = isAskPage ? 'checks' : t;
-    ui.querySelectorAll('.sp-tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.t === target)));
-    ui.querySelectorAll('.sp-pane').forEach((p) => (p.hidden = p.dataset.p !== target));
-    if (!isAskPage) ls.set(TAB_KEY, target);
+    ui.querySelectorAll('.sp-tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.t === t)));
+    ui.querySelectorAll('.sp-pane').forEach((p) => (p.hidden = p.dataset.p !== t));
+    ls.set(TAB_KEY, t);
+  }
+
+  window.SSSPanel = {
+    open: (tab) => { setOpen(true); if (tab) setTab(tab); },
+    close: () => setOpen(false),
+  };
+
+  function updateCalcs() {
+    // 1. Work-zone taper (CA MUTCD Table 6C-3/4)
+    const S = Math.max(15, Number($('#c-spd')?.value) || 35);
+    const W = Math.max(8, Number($('#c-lw')?.value) || 12);
+    const L = S <= 40 ? Math.ceil((W * S * S) / 60) : Math.ceil(W * S);
+    const shiftL = Math.ceil(L / 2);
+    const shldL = Math.ceil(L / 3);
+    const ssdBuf = Math.round(1.47 * S * 2.5 + (S * S) / (30 * 0.348));
+    $('#c-tcp-out').innerHTML = `Merge taper <b>L = ${L} ft</b> · Shift <b>${shiftL} ft</b> · Shoulder <b>${shldL} ft</b><br>Buffer (SSD): <b>${ssdBuf} ft</b> · Cone spacing: <b>${S} ft</b> taper / <b>${Math.min(100, S * 2)} ft</b> tangent`;
+
+    // 2. ADA Curb Ramp Run
+    const ch = Math.max(1, Number($('#c-ch')?.value) || 6);
+    const sl = Math.min(8.33, Math.max(2, Number($('#c-sl')?.value) || 7.5));
+    const runFt = ((ch / 12) / (sl / 100)).toFixed(1);
+    const minRunFt = ((ch / 12) / 0.0833).toFixed(1);
+    $('#c-ramp-out').innerHTML = `Design run @ ${sl}%: <b>${runFt} ft</b> (8.33% abs min: <b>${minRunFt} ft</b>)<br>Landing: <b>4 ft min</b> (2% max) · Flare: <b>10% max</b>`;
+
+    // 3. Ped Signal Timing (CA MUTCD 4I.06)
+    const cd = Math.max(10, Number($('#c-cd')?.value) || 56);
+    const wk = Math.max(4, Number($('#c-wk')?.value) || 7);
+    const fdw = Math.ceil(cd / 3.5);
+    const totalMin = Math.ceil(cd / 3.0);
+    const total = Math.max(wk + fdw, totalMin);
+    $('#c-ped-out').innerHTML = `FDW (@ 3.5 ft/s): <b>${fdw} sec</b> · Total Walk+FDW: <b>${total} sec</b><br><span style="opacity:0.8">(Checks 3.0 ft/s curb-to-curb min = ${totalMin} sec)</span>`;
+
+    // 4. Red Curb / SSD
+    const v = Math.max(15, Number($('#c-ssd-v')?.value) || 35);
+    const ssd = Math.round(1.47 * v * 2.5 + (v * v) / (30 * 0.348));
+    $('#c-ssd-out').innerHTML = `Stopping Sight Distance: <b>${ssd} ft</b><br>CA AB 413 Daylighting: <b>20 ft</b> min (<b>15 ft</b> w/ curb ext.)`;
   }
 
   function renderChecks() {
@@ -119,12 +200,11 @@
     try {
       if (!window.SSSAsk) throw new Error('Search engine is still loading — try again in a moment.');
       const r = await window.SSSAsk.askSite(q, {
-        compact: true,
         pageText: pageText(),
         pageChecks: checks,
         onLog: (m) => { item.querySelector('.sp-r').textContent = m; },
       });
-      item.querySelector('.sp-r').innerHTML = window.SSSAsk.renderResultHTML(r, true);
+      item.querySelector('.sp-r').innerHTML = window.SSSAsk.renderResultHTML(r);
     } catch (e) {
       item.querySelector('.sp-r').textContent = e.message;
     }
@@ -132,13 +212,39 @@
 
   window.__ready(async () => {
     document.body.append(ui);
-    if (!isAskPage) {
-      $('.sp-pre').innerHTML = (PRESETS[kind] || PRESETS.page).map(([t], i) => `<button type="button" data-i="${i}">${esc(t)}</button>`).join('');
-      $('.sp-pre').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) ask((PRESETS[kind] || PRESETS.page)[b.dataset.i][1]); });
-      $('.sp-send').addEventListener('click', () => { const t = $('textarea').value.trim(); if (t) ask(t); });
-      $('textarea').addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); const t = $('textarea').value.trim(); if (t) ask(t); } });
-      $('.sp-clear').addEventListener('click', () => { $('.sp-out').innerHTML = ''; $('textarea').value = ''; });
+    $('.sp-pre').innerHTML = (PRESETS[kind] || PRESETS.page).map(([t], i) => `<button type="button" data-i="${i}">${esc(t)}</button>`).join('');
+    $('.sp-pre').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) ask((PRESETS[kind] || PRESETS.page)[b.dataset.i][1]); });
+    $('.sp-send').addEventListener('click', () => { const t = $('textarea').value.trim(); if (t) ask(t); });
+    $('textarea').addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); const t = $('textarea').value.trim(); if (t) ask(t); } });
+    $('.sp-clear').addEventListener('click', () => { $('.sp-out').innerHTML = ''; $('textarea').value = ''; });
+
+    // Sync AI loader & OAuth status into sidebar Ask tab
+    const aiSt = $('.sp-ai-st'), aiLoad = $('.sp-ai-load'), aiOauth = $('.sp-ai-oauth');
+    if (window.SSSAsk) {
+      window.SSSAsk.onStatus(({ mode, loading, msg }) => {
+        if (aiSt) aiSt.textContent = msg;
+        if (aiOauth) aiOauth.textContent = mode === 'openrouter' ? 'Disconnect' : 'Connect';
+        if (aiLoad) {
+          if (mode === 'web-ai' || mode === 'chrome-ai') { aiLoad.textContent = 'Local Ready'; aiLoad.disabled = true; }
+          else if (loading) { aiLoad.textContent = 'Loading...'; aiLoad.disabled = true; }
+          else { aiLoad.textContent = 'Local AI'; aiLoad.disabled = false; }
+        }
+      });
     }
+    if (aiOauth) aiOauth.onclick = () => {
+      if (!window.SSSAsk) return;
+      if (window.SSSAsk.getState().mode === 'openrouter') window.SSSAsk.disconnectOAuth();
+      else window.SSSAsk.startOAuth();
+    };
+    if (aiLoad) aiLoad.onclick = () => { window.SSSAsk && window.SSSAsk.enableBrowserAI().catch(() => {}); };
+
+    // Wire live calculators
+    ['#c-spd', '#c-lw', '#c-ch', '#c-sl', '#c-cd', '#c-wk', '#c-ssd-v'].forEach((id) => {
+      const el = $(id);
+      if (el) el.addEventListener('input', updateCalcs);
+    });
+    updateCalcs();
+
     $('[data-p="checks"]').addEventListener('click', async (e) => {
       const b = e.target.closest('.sp-cite'); if (!b) return;
       try { await navigator.clipboard.writeText(citation()); b.textContent = 'Copied'; } catch { b.textContent = citation(); }
@@ -160,6 +266,11 @@
       checks = all[path] || all[decodeURI(path)] || [];
     } catch { checks = []; }
     renderChecks();
-    setOpen(!isAskPage && (ls.get(OPEN_KEY) === '1' || (ls.get(OPEN_KEY) === '' && checks.some((c) => c.sev === 'warn') && innerWidth > 1300)));
+    if (path.endsWith('/ask/')) {
+      setOpen(true);
+      setTab('ask');
+    } else {
+      setOpen(ls.get(OPEN_KEY) === '1' || (ls.get(OPEN_KEY) === '' && checks.some((c) => c.sev === 'warn') && innerWidth > 1300));
+    }
   });
 })();
