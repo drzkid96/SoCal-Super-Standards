@@ -6,9 +6,9 @@ tableOfContents:
   maxHeadingLevel: 2
 ---
 
-<div class="srcbar"><span class="status-pill digest">Direct Criteria + Full Verbatim Rules</span> City of Santa Monica Public Works &amp; SaMoDOT &middot; Off-Site Checklist (Rev. 6/27/2023) &amp; TTCP Requirements (10/16/2026)</div>
+<div class="srcbar"><span class="status-pill digest">Direct Criteria + Full Verbatim Rules</span> City of Santa Monica Public Works &amp; SaMoDOT &middot; Off-Site Checklist (Rev. 6/27/2023) &amp; TTCP Requirements (effective 10/15/2026)</div>
 
-<div class="note-box"><strong>Order of authority in Santa Monica:</strong> City of Santa Monica Standard Details (SM / B / SWSM), Curb Ramp Memo, and Off-Site Plan Check Checklist govern local public right-of-way improvements, supplemented by <strong>SPPWC ("Greenbook" — 2012 Plans / 2021 Specs)</strong>, <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/">Caltrans Standard Plans 2026</a>, and <a href="/SoCal-Super-Standards/ca-mutcd/">CA MUTCD 2026</a>. <em>Note: Santa Monica's PDF media host (<code>santamonica.gov/media/*</code>) sits behind an Imperva bot-verification gate; all verified numeric standards and plan-check rules are included directly below, and uploading the SM / B / SWSM PDFs to Drive will allow us to render those drawing sheets directly inline here.</em></div>
+<div class="note-box"><strong>Order of authority in Santa Monica:</strong> City of Santa Monica Standard Details (SM / B / SWSM), Curb Ramp Memo, and Off-Site Plan Check Checklist govern local public right-of-way improvements, supplemented by <strong>SPPWC ("Greenbook" — 2012 Plans / 2021 Specs)</strong>, <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/">Caltrans Standard Plans 2026</a>, and <a href="/SoCal-Super-Standards/ca-mutcd/">CA MUTCD 2026</a>.</div>
 
 ## Santa Monica Curb Ramp &amp; Accessibility Standards (Stricter Than Baseline ADA)
 
@@ -34,9 +34,9 @@ From Santa Monica Public Works *Plan Check Checklist — Offsite Improvements* (
   - Centerline stationing with labeled major ticks every **50 ft** starting at `10+00` or `0+00` at nearest intersection, increasing **left to right (W→E, S→N)**.
   - All existing improvements plotted **light weight (grey)**.
 
-## Temporary Traffic Control Plan (TTCP) Rules (Updated Oct 16, 2026)
+## Temporary Traffic Control Plan (TTCP) Rules (Effective Oct 15, 2026)
 
-From Santa Monica Public Works Mobility Division *TTCP Review &amp; Submission Requirements* (10/16/2026) and *Traffic Control Plan Supplement*:
+From Santa Monica Public Works Mobility Division [*TTCP Review &amp; Submission Requirements*](https://www.santamonica.gov/process-explainers/how-to-submit-a-temporary-traffic-control-plan) (October 2026) and *Traffic Control Plan Supplement*:
 
 - **PE Stamp:** Plans must be stamped, signed, and dated by a CA-licensed **Civil or Traffic Engineer** (City reserves the right to require both seals).
 - **ProjectDox Upload Standards:** Each sheet uploaded as a **separate single-page PDF**, **landscape orientation**, **≤ 3 MB per PDF**, zero-padded naming (`TTCP01.pdf`, `TTCP02.pdf`, …) into the `"Plans"` folder.
