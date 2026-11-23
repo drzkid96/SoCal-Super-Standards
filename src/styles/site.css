@@ -721,3 +721,12 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
   .sl-markdown-content .sheet-frame[hidden] {display:block!important}
 }
 .sl-markdown-content .sdetail-img.sheet-deck > img.sheet {max-height:none;margin:0}
+@media screen {
+  .sl-markdown-content .sheet-controls {
+    position:sticky; top:var(--sl-nav-height,4rem); z-index:3; background:var(--sl-color-bg);
+    padding:.35rem 0; border-bottom:1px solid var(--sl-color-gray-5);
+  }
+  .sheet-frame, .sheet-frame [id], .sheet-controls button, .sheet-controls select {
+    scroll-margin-block-start:calc(var(--sl-nav-height,4rem) + 4rem);
+  }
+}

@@ -36,6 +36,7 @@ with TemporaryDirectory() as temp:
             assert Select(selector).first_selected_option.text.startswith('Sheet 3')
             assert browser.find_element(By.ID,'sheet-3-note-1').is_displayed()
             bar=selector.find_element(By.XPATH,'..')
+            browser.execute_script("arguments[0].scrollIntoView({block:'center',behavior:'instant'})",bar)
             bar.find_elements(By.TAG_NAME,'button')[1].click()
             assert Select(selector).first_selected_option.text.startswith('Sheet 4')
             assert not bar.find_elements(By.TAG_NAME,'button')[1].is_enabled()

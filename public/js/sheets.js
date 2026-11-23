@@ -2,6 +2,10 @@
 (() => {
   const article = document.querySelector('.sl-markdown-content');
   if (!article) return;
+  // Use the full scan even when an editorial grid originally supplied a thumbnail.
+  for (const img of article.querySelectorAll('.mfig a[href*="/figs/"] > img[src*="/thumbs/figs/"]')) {
+    img.src = img.parentElement.href;
+  }
   const viewers = [];
   const create = (tag, text) => Object.assign(document.createElement(tag), {textContent: text || ''});
 
