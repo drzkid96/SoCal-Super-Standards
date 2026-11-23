@@ -6,7 +6,7 @@ description: Four ways in, matched to how traffic engineering work actually happ
 <div class="mgrid">
   <figure class="mfig"><a href="/SoCal-Super-Standards/figs/vibes/la-county-map.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/la-county-map.webp" alt="LA County Jurisdictions" /></a><figcaption><strong>LA County Jurisdictions</strong><br><small>10 embedded cities + 88-city S&S directory</small></figcaption></figure>
   <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0001.webp" alt="Caltrans 2026 Plans" /></a><figcaption><strong>Caltrans 2026 Plans</strong><br><small>Full-resolution in-tab lightbox viewer</small></figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-481-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-481-0-s1.webp" alt="LADOT Redrawn Sheets" /></a><figcaption><strong>LADOT Redrawn Sheets</strong><br><small>Clean vector redraws + original scans</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0108.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0108.webp" alt="LADOT original sheets" /></a><figcaption><strong>LADOT original sheets</strong><br><small>Original scan with sheet notes and title block</small></figcaption></figure>
 </div>
 
 

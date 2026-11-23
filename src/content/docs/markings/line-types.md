@@ -282,7 +282,7 @@ Details grouped by line and gap geometry.
 - **Marker legend:**
 <ul class="lt-legend"><li><svg width="18" height="12"><rect x="1" y="1" width="10" height="10" fill="#f6c700" stroke="#111"/></svg> Two-way yellow retroreflective marker (Caltrans Type D)</li><li><svg width="18" height="12"><rect x="1" y="1" width="10" height="10" fill="#f6c700" stroke="#111"/><rect x=6 y=1 width=5 height=10 fill=#141414 /></svg> One-way yellow retroreflective marker (Caltrans Type H)</li><li><svg width="18" height="12"><rect x="1" y="1" width="10" height="10" fill="#ffffff" stroke="#111"/><rect x=6 y=1 width=5 height=10 fill=#141414 /></svg> One-way clear retroreflective marker (Caltrans Type G)</li><li><svg width="18" height="12"><rect x="1" y="1" width="10" height="10" fill="#ffffff" stroke="#111"/><rect x=6 y=1 width=5 height=10 fill=#d22b2b /></svg> Red-clear retroreflective marker (Caltrans Type C)</li><li><svg width="18" height="12"><rect x="1" y="1" width="10" height="10" fill="#f6c700" stroke="#111"/><rect x=6 y=1 width=5 height=10 fill=#d22b2b /></svg> Red-yellow retroreflective marker (Caltrans Type RY)</li></ul>
 
-- **Plan sheet references** come from the Caltrans 2026 Standard Plans sheets on this site (A20A to A20F, dated September 18, 2026), read from each sheet's detail labels. Details Caltrans has deleted are marked as deleted. The 2018 sheets remain on the site for reference only.
+- **Plan sheet references** come from the Caltrans 2026 Standard Plans sheets on this site (A20A to A20F, dated September 18, 2026), read from each sheet's detail labels. Details Caltrans has deleted are marked as deleted.
 
 <script>
 (function(){

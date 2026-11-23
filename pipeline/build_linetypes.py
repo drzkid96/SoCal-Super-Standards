@@ -153,7 +153,7 @@ Details grouped by line and gap geometry.
 - **Marker legend:**
 <ul class="lt-legend">{mk}</ul>
 
-- **Plan sheet references** come from the Caltrans 2026 Standard Plans sheets on this site (A20A to A20F, dated September 18, 2026), read from each sheet's detail labels. Details Caltrans has deleted are marked as deleted. The 2018 sheets remain on the site for reference only.
+- **Plan sheet references** come from the Caltrans 2026 Standard Plans sheets on this site (A20A to A20F, dated September 18, 2026), read from each sheet's detail labels. Details Caltrans has deleted are marked as deleted.
 
 <script>
 (function(){{

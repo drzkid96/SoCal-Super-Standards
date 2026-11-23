@@ -1,26 +1,5 @@
 window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', f) : f()));
 
-// Helper: open Starlight's Pagefind search modal and optionally prefill a query.
-window.__openSiteSearch = function (query) {
-  const btn = document.querySelector('site-search button, button[data-open-modal]');
-  if (!btn) return;
-  btn.click();
-  if (!query || !query.trim()) return;
-  const q = query.trim();
-  let tries = 0;
-  const fill = () => {
-    const inp = document.querySelector('.pagefind-ui__search-input, dialog input[type="search"], dialog input[type="text"]');
-    if (inp) {
-      inp.value = q;
-      inp.dispatchEvent(new Event('input', { bubbles: true }));
-      inp.focus();
-      return;
-    }
-    if (++tries < 25) setTimeout(fill, 60);
-  };
-  setTimeout(fill, 40);
-};
-
 // Hover / focus previews for sign codes (a.sref), page previews, back-to-top, reading progress, and navigation helpers.
 (() => {
   const tip = document.createElement('div');
@@ -139,7 +118,7 @@ window.__openSiteSearch = function (query) {
       if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
       const t = e.target;
       if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
-      const target = document.querySelector('.quick-lookup input, #dx-q, #sq, #mq, #ltq, #kq, #dwq');
+      const target = document.querySelector('#standards-query, .quick-lookup input, #dx-q, #sq, #mq, #ltq, #kq, #dwq');
       e.preventDefault();
       if (target) { target.focus(); target.select && target.select(); }
       else window.__openSiteSearch('');
@@ -151,161 +130,7 @@ window.__openSiteSearch = function (query) {
 (function () {
   const BASE = '/SoCal-Super-Standards';
   const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-  const norm = (s) => s.toUpperCase().replace(/^(FIGURE|FIG\.?|TABLE|SECTION|SEC\.?|DWG\.?|DRAWING|STD\.?|DETAIL)\s*/, '').replace(/\s+/g, '');
-  const alnum = (s) => s.toUpperCase().replace(/[^A-Z0-9]/g, '');
-
-  const HUBS = [
-    ['Lane Width Comparison (DIB 94 vs. MPP 531 vs. LA Streets)', BASE + '/bulletins/lane-widths/', 'Tool', 'lane width comparison dib 94 mpp 531 road diet travel lane'],
-    ['Bikeway Design Comparison (HDM Ch. 1000, DIB 89-02, CA MUTCD & AASHTO GBF-5)', BASE + '/bulletins/bikeway-design-comparison/', 'Tool', 'bikeway design comparison aashto gbf-5 hdm 1000 dib 89-02 class iv separated bike lane shared use path sharrow'],
-    ['AASHTO Bike Guide, 5th Edition (GBF-5, 2024) — 16 Chapters, 256 Figures, 50 Tables', BASE + '/guides/aashto-bike-guide/', 'Guide', 'aashto guide for the development of bicycle facilities 5th edition gbf-5 2024 errata bikeway'],
-    ['LA County Municipal Standards Hub (LADOT + 10 Cities)', BASE + '/cities/', 'Cities', 'la county cities municipal standards hub long beach palmdale torrance pasadena burbank gardena glendora santa monica west hollywood culver city'],
-    ['Long Beach Traffic & Roadway Standard Plans (22 Sheets: Bikeways 302–306, Crosswalks, Speed Humps, Bus Pads)', BASE + '/long-beach/standard-plans/', 'Long Beach', 'long beach lb 302 303 304 305 306 307 308 309 310 311 315 317 122 112 113 bikeway class iv crosswalk speed hump bus pad'],
-    ['Palmdale Street, Curb Ramp & Traffic Standard Drawings (16 Sheets: S-1–S-2, C-7, G-4, M-1, M-5)', BASE + '/palmdale/standard-plans/', 'Palmdale', 'palmdale standard drawings s-1.1 s-1.2 s-1.3 s-2 c-7 curb ramp g-4 m-1 barricade m-5.1 street name sign'],
-    ['Torrance T-Series Street, Signing & Work Area Traffic Control Plans (19 Sheets: T101–T120, T502, T1001–T1013)', BASE + '/torrance/standard-plans/', 'Torrance', 'torrance standard plans t120 lane width t103 t502 sign t1001 t1004 t1005 t1008 t1011 t1013 tcp work zone closure'],
-    ['Gardena Street, Traffic Loop & Curb Ramp Standard Plans (14 Sheets: ST-1–ST-18)', BASE + '/gardena/standard-plans/', 'Gardena', 'gardena standard plans st-13 st-14 curb ramp st-16 traffic loop st-17 no excavation st-18 trench plating driveway'],
-    ['Glendora 2024 Street, Driveway & Traffic Control Standards (12 Sheets: 1.01–1.18, 4.01)', BASE + '/glendora/standard-plans/', 'Glendora', 'glendora 2024 standard designs 1.07 street section 1.10 trenching 1.13 1.15 1.16 driveway 1.17 1.18 traffic control 4.01'],
-    ['Santa Monica Standard Details (SM 1–22A, B-1–B-5 Bikeways, SWSM Green Streets, Curb Ramps)', BASE + '/santa-monica/standard-plans/', 'Santa Monica', 'santa monica standard details sm 2 sm 5 sm 7 sm 19 sm 20 b-1 b-5 swsm curb ramp ttcp'],
-    ['West Hollywood Engineering & Mobility Standards (Green Bike Lanes, NTMP, Pavement)', BASE + '/west-hollywood/standard-plans/', 'West Hollywood', 'west hollywood weho ntmp traffic calming green bike lane protected bike lane fountain willoughby pavement'],
-    ['Culver City Complete Streets Design Standards (June 2025) & TCP Requirements', BASE + '/culver-city/standard-plans/', 'Culver City', 'culver city complete streets design standards csds tcp traffic control crosswalk bike box parklet'],
-    ['LADOT Curb Paint, Red Curb & S-481.0 Calculator', BASE + '/ladot/curb-paint/', 'Tool', 'red curb paint daylighting blue yellow green white s-481 calculator'],
-    ['Line Type Database (Caltrans 2026 Details 1-45)', BASE + '/markings/line-types/', 'Tool', 'line type striping detail 1 2 8 9 12 21 22 25 27b 32 38 39 a20a a20b'],
-    ['Standards Status (What Governs & 219 Deleted CA Signs)', BASE + '/bulletins/standards-status/', 'Status', 'standards status superseded current edition deleted california signs'],
-    ['Caltrans 2026 Standard Plans (A20-A24, A88, A90)', BASE + '/caltrans/standard-plans-2026/', 'Caltrans 2026', 'caltrans 2026 standard plans a20a a24a a88a a88b a90a a90b curb ramp'],
-    ['LA28 Supplement to CA MUTCD 2026 (Games Route Network)', BASE + '/caltrans/la28-supplement/', 'CA MUTCD', 'la28 olympics paralympics games route network grn permit only'],
-    ['Bulletins & Policy Memos (Caltrans DIBs, LADOT, PROWAG, CBC 11B)', BASE + '/bulletins/', 'Bulletin', 'bulletins policy memos dib 94 89-02 82-06 prowag cbc 11b lpi'],
-    ['Sign Library (1,148 Federal & CA Signs)', BASE + '/signs/', 'Sign', 'sign library regulatory warning school guide ca signs'],
-    ['Pavement Marking Library (203 Markings)', BASE + '/markings/', 'Marking', 'pavement marking library arrows symbols words crosswalk bike'],
-    ['Detail and Drawing Index (1,531 Items)', BASE + '/details/', 'Tool', 'detail drawing index standard drawings figures tables'],
-    ['Keyword Index A to Z', BASE + '/keywords/', 'Keyword', 'keyword index glossary synonyms abbreviations'],
-    ['Ask the Standards (AI)', BASE + '/ask/', 'Tool', 'ask ai claude screenshot plan review comment'],
-    ['Topic: Crosswalks and Pedestrian Crossings', BASE + '/topics/crosswalks/', 'Topic', 'crosswalks pedestrian crossing uncontrolled midblock ladder continental rrfb'],
-    ['Topic: Accessibility (Curb Ramps & APS)', BASE + '/topics/accessibility/', 'Topic', 'accessibility ada prowag curb ramp detectable warning aps truncated domes'],
-    ['Topic: Bikeways and Bicycle Facilities', BASE + '/topics/bikeways/', 'Topic', 'bikeways bike lane class ii class iv separated cycle track sharrow green paint'],
-    ['Topic: Transit, Bus Lanes and Bus Stops', BASE + '/topics/transit/', 'Topic', 'transit bus lane bus stop bus bulb boarding island'],
-    ['Topic: Curb, Parking and Loading Zones', BASE + '/topics/curb-parking-loading/', 'Topic', 'curb parking loading zone red curb blue curb accessible parking'],
-    ['Topic: Speed Limits and Traffic Calming', BASE + '/topics/speed-and-calming/', 'Topic', 'speed limit speed hump cushion table traffic calming roundabouts'],
-    ['Topic: Traffic Signals and Pedestrian Signals', BASE + '/topics/signals/', 'Topic', 'traffic signal pedestrian signal lpi countdown detector loop controller'],
-    ['Topic: Lane Lines, Striping and Intersection Markings', BASE + '/topics/striping-intersections/', 'Topic', 'lane lines striping intersection markings turn bay taper cat tracks limit line'],
-    ['Topic: School Zones', BASE + '/topics/school-zones/', 'Topic', 'school zone slow school xing yellow crosswalk safe routes'],
-    ['Topic: Street Name and Guide Signs', BASE + '/topics/street-name-and-guide-signs/', 'Topic', 'street name sign guide sign wayfinding overhead'],
-    ['Topic: Temporary Traffic Control (Work Zones)', BASE + '/topics/temporary-traffic-control/', 'Topic', 'temporary traffic control ttc work zone lane closure flagger detour'],
-    ['Topic: Railroad and Light Rail Crossings', BASE + '/topics/rail-crossings/', 'Topic', 'railroad light rail lrt grade crossing preemption gates'],
-  ];
-
-  let LOOK = null, LOOK_KEYS = null, DET = null, DET_PROM = null;
-  async function loadLook() {
-    if (LOOK) return;
-    LOOK = await (await fetch(BASE + '/data/lookup.json')).json();
-    LOOK_KEYS = Object.keys(LOOK).map((k) => [k, alnum(k)]);
-  }
-  function loadDet() {
-    if (DET) return Promise.resolve(DET);
-    if (!DET_PROM) {
-      DET_PROM = fetch(BASE + '/data/details.json').then((r) => r.json()).then((arr) => {
-        arr.forEach((i) => {
-          i._h = (i.num + ' ' + i.title + ' ' + (i.kw || '') + ' ' + (i.kx || '') + ' ' + (i.sum || '') + ' ' + i.src).toLowerCase();
-          i._numA = alnum(i.num || '');
-        });
-        return (DET = arr);
-      }).catch(() => (DET = []));
-    }
-    return DET_PROM;
-  }
-
-  function classify(label, url) {
-    if (url.includes('/standard-plans-2018/') || /2018/.test(label) && url.includes('/caltrans/')) return { tag: 'Superseded', cls: 'sup', pri: -30 };
-    if (url.includes('/ca-mutcd/') || url.includes('/s/ca/') || url.includes('/la28-supplement/')) return { tag: 'CA MUTCD', cls: 'c', pri: 22 };
-    if (url.includes('/caltrans/standard-plans-2026/') || url.includes('caltrans-std-plans-2026')) return { tag: 'Caltrans 2026', cls: 'c', pri: 20 };
-    if (url.includes('/boe/street-design/')) return { tag: 'LA BOE', cls: 'l', pri: 19 };
-    if (url.includes('/signs/retired/')) return { tag: 'Retired · Caltrans', cls: 'sup', pri: 32 };
-    if (url.includes('/topics/')) return { tag: 'Topic', cls: 't', pri: 18 };
-    if (url.includes('/bulletins/')) return { tag: 'Bulletin', cls: 'b', pri: 17 };
-    if (url.includes('/markings/line-types/')) return { tag: 'Line Type', cls: 'm', pri: 16 };
-    if (url.includes('/markings/')) return { tag: 'Marking', cls: 'm', pri: 14 };
-    if (url.includes('/details/ladot/mpp-531') || url.includes('/details/ladot/mpp-521') || url.includes('/details/ladot/red-book')) return { tag: 'LADOT', cls: 'l', pri: 16 };
-    if (url.includes('/details/ladot/') || url.includes('/ladot/')) return { tag: 'LADOT', cls: 'l', pri: 11 };
-    if (url.includes('/details/burbank/') || url.includes('/burbank/')) return { tag: 'Burbank', cls: 'l', pri: 12 };
-    if (url.includes('/details/pasadena/') || url.includes('/pasadena/')) return { tag: 'Pasadena', cls: 'l', pri: 12 };
-    if (url.includes('/long-beach/')) return { tag: 'Long Beach', cls: 'l', pri: 13 };
-    if (url.includes('/palmdale/')) return { tag: 'Palmdale', cls: 'l', pri: 13 };
-    if (url.includes('/torrance/')) return { tag: 'Torrance', cls: 'l', pri: 13 };
-    if (url.includes('/gardena/')) return { tag: 'Gardena', cls: 'l', pri: 13 };
-    if (url.includes('/glendora/')) return { tag: 'Glendora', cls: 'l', pri: 13 };
-    if (url.includes('/santa-monica/')) return { tag: 'Santa Monica', cls: 'l', pri: 13 };
-    if (url.includes('/west-hollywood/')) return { tag: 'West Hollywood', cls: 'l', pri: 13 };
-    if (url.includes('/culver-city/')) return { tag: 'Culver City', cls: 'l', pri: 13 };
-    if (url.includes('/signs/')) return { tag: 'Sign', cls: 's', pri: 15 };
-    if (url.includes('/keywords/')) return { tag: 'Keyword', cls: 'k', pri: 13 };
-    if (url.includes('/mutcd/') || url.includes('/s/fed/')) return { tag: 'Fed MUTCD', cls: 'f', pri: 4 };
-    return { tag: 'Guide', cls: 'f', pri: 8 };
-  }
-
-  async function search(raw) {
-    const trimmed = raw.trim().replace(/^(?:LA\s+)?BOE\s+(?=E[ -]*\d)/i, '');
-    if (!trimmed) return [];
-    await loadLook();
-    const k = norm(trimmed);
-    const ka = alnum(trimmed);
-    const low = trimmed.toLowerCase();
-    const words = low.split(/\s+/).filter(Boolean);
-    const byUrl = new Map();
-
-    const add = (label, url, baseScore, forcedTag) => {
-      if (!url) return;
-      const meta = classify(label, url);
-      const score = baseScore + meta.pri;
-      const prev = byUrl.get(url);
-      if (!prev || score > prev.score) {
-        byUrl.set(url, { label, url, score, tag: forcedTag || meta.tag, cls: meta.cls });
-      }
-    };
-
-    // 1. Curated tools, topics & major hubs
-    for (const [label, url, tag, kw] of HUBS) {
-      const h = (label + ' ' + kw).toLowerCase();
-      if (words.every((w) => h.includes(w))) {
-        const boost = label.toLowerCase().includes(low) ? 75 : 55;
-        add(label, url, boost, tag);
-      }
-    }
-
-    // 2. Exact & prefix matches in lookup.json (both normalized and hyphen-stripped)
-    if (k && LOOK[k]) {
-      for (const [l, u] of LOOK[k]) add(l, u, 120);
-    }
-    if (ka && ka.length >= 2) {
-      let prefCount = 0;
-      for (const [key, keyA] of LOOK_KEYS) {
-        if (key === k) continue;
-        if (keyA === ka) {
-          for (const [l, u] of LOOK[key]) add(l, u, 115);
-        } else if (key.startsWith(k) || (ka.length >= 2 && keyA.startsWith(ka))) {
-          for (const [l, u] of LOOK[key]) add(l, u, 70 - Math.min(20, keyA.length - ka.length));
-          if (++prefCount > 40) break;
-        }
-      }
-    }
-
-    // 3. Multi-word / descriptive search across details.json when helpful
-    if (byUrl.size < 8 && trimmed.length >= 2) {
-      const det = await loadDet();
-      let hits = 0;
-      for (const i of det) {
-        const numExact = ka && i._numA === ka;
-        const numPref = ka && ka.length >= 2 && i._numA.startsWith(ka);
-        const wordHit = words.every((w) => i._h.includes(w) || (alnum(w).length >= 3 && i._numA.includes(alnum(w))));
-        if (!numExact && !numPref && !wordHit) continue;
-        let sc = numExact ? 110 : numPref ? 65 : 35;
-        if ((i.title || '').toLowerCase().includes(low)) sc += 25;
-        else if (words.every((w) => (i.title || '').toLowerCase().includes(w))) sc += 15;
-        const label = (i.num && i.type !== 'Figure page' ? i.num + ' ' : '') + (i.title || i.src) + (i.src ? ' — ' + i.src : '');
-        add(label, i.url, sc);
-        if (++hits >= 40) break;
-      }
-    }
-
-    return [...byUrl.values()].sort((a, b) => b.score - a.score).slice(0, 12);
-  }
+  const search = raw => window.SSSSearch.direct(raw);
 
   function mount(el) {
     const inp = el.querySelector('input');
@@ -353,7 +178,7 @@ window.__openSiteSearch = function (query) {
         `<a class="ql-item" id="${res.id}-${i}" role="option" aria-selected="false" href="${r.url}"><span class="ql-tag ${r.cls}">${esc(r.tag)}</span><span class="ql-lbl">${esc(r.label)}</span></a>`
       ).join('');
       const empty = !list.length ? `<div class="ql-empty">No direct code or title match for &ldquo;${esc(raw.trim())}&rdquo;.</div>` : '';
-      const footer = `<button type="button" class="ql-all" id="${res.id}-full" role="option" aria-selected="false">Search full text across all pages for &ldquo;${esc(raw.trim())}&rdquo; &rarr;</button>`;
+      const footer = `<button type="button" class="ql-all" id="${res.id}-full" role="option" aria-selected="false">See all results for &ldquo;${esc(raw.trim())}&rdquo; &rarr;</button>`;
       res.innerHTML = rows + empty + footer;
       res.classList.add('open');
       inp.setAttribute('aria-expanded', 'true');
@@ -462,7 +287,6 @@ window.__openSiteSearch = function (query) {
       i._h = hay(i);
       i._na = alnum(i.num);
       i._tl = (i.title || '').toLowerCase();
-      i._sup = i.src === 'Caltrans Std. Plans 2018';
     });
 
     function parse(raw) {
@@ -496,16 +320,15 @@ window.__openSiteSearch = function (query) {
       if (p.get(k) && $(id)) $(id).value = p.get(k);
     }
     if (p.get('noFed') === '1') $('dx-noFed').checked = true;
-    if (p.get('noSup') === '1' && $('dx-noSup')) $('dx-noSup').checked = true;
 
     let shown = 0, list = [];
-    const card = (i) => `<a class="dx-card${i._sup ? ' is-sup' : ''}" href="${i.url}">${i.img ? `<div class="dx-img"><img loading="lazy" src="${i.img}" alt=""></div>` : ''}
-      <div class="dx-body"><div class="dx-tags"><span class="dx-tag ${i.sg === 'MUTCD' ? (i.src.startsWith('CA') ? 'c' : 'f') : 'l'}">${esc(i.src)}</span>${i._sup ? '<span class="dx-sup">Superseded</span>' : ''}</div>
+    const card = (i) => `<a class="dx-card" href="${i.url}">${i.img ? `<div class="dx-img"><img loading="lazy" src="${i.img}" alt=""></div>` : ''}
+      <div class="dx-body"><div class="dx-tags"><span class="dx-tag ${i.sg === 'MUTCD' ? (i.src.startsWith('CA') ? 'c' : 'f') : 'l'}">${esc(i.src)}</span></div>
       <b>${i.type === 'Figure page' ? '' : (i.type === 'Standard drawing' ? '' : esc(i.type) + ' ') + esc(i.num)}</b> ${esc(i.title || '')}
       ${i.date ? `<div class="dx-meta">Dated ${esc(i.date)} &middot; ${i.sheets} sheet(s)</div>` : ''}
       ${i.parts ? `<div class="dx-meta">${i.parts} sheets</div>` : ''}
       ${i.also ? `<div class="dx-meta">Also published as ${esc(i.also.map((x) => x.src + ' ' + (x.type === 'Standard drawing' ? x.num : 'p ' + x.num.replace(/^p/, ''))).join('; '))}</div>` : ''}
-      ${i.sum ? `<div class="dx-sum">${esc(i.sum.slice(0, 150))}${i.sum.length > 150 ? '...' : ''}</div>` : ''}</div></a>`;
+      ${i.description ? `<p class="dx-sum">${esc(i.description)}</p>` : ''}</div></a>`;
 
     function scoreItem(i, pq) {
       let sc = 0;
@@ -522,7 +345,6 @@ window.__openSiteSearch = function (query) {
       }
       if (i.src === 'CA MUTCD 2026' || i.src === 'Caltrans Std. Plans 2026' || i.src === 'MPP 531') sc += 8;
       if (i.src === 'Federal MUTCD') sc -= 12;
-      if (i._sup) sc -= 30;
       return sc;
     }
 
@@ -530,10 +352,10 @@ window.__openSiteSearch = function (query) {
       const rawQ = $('dx-q').value;
       const pq = parse(rawQ);
       const sg = $('dx-sg').value, src = $('dx-src').value, ty = $('dx-type').value, tp = $('dx-topic').value;
-      const nf = $('dx-noFed').checked, ns = $('dx-noSup') ? $('dx-noSup').checked : false;
+      const nf = $('dx-noFed').checked;
       const sort = $('dx-sort') ? $('dx-sort').value : 'rel';
 
-      const anyFilter = !!(rawQ.trim() || sg || src || ty || tp || nf || ns);
+      const anyFilter = !!(rawQ.trim() || sg || src || ty || tp || nf);
       if ($('dx-reset')) $('dx-reset').hidden = !anyFilter;
 
       // Show matched glossary concepts so engineers see synonym expansion at work
@@ -553,7 +375,6 @@ window.__openSiteSearch = function (query) {
 
       list = all.filter((i) => (!sg || i.sg === sg) && (!src || i.src === src) && (!ty || i.type === ty) && (!tp || (i.topics || []).includes(tp))
         && (!nf || i.src !== 'Federal MUTCD')
-        && (!ns || !i._sup)
         && pq.ids.every(([id, t]) => (i.c || []).includes(id) || i._h.includes(t))
         && pq.words.every((w) => {
           const wa = alnum(w);
@@ -566,8 +387,6 @@ window.__openSiteSearch = function (query) {
         list.sort((a, b) => (a.src || '').localeCompare(b.src || '') || (a.num || '').localeCompare(b.num || '', undefined, { numeric: true }));
       } else if (rawQ.trim()) {
         list.sort((a, b) => scoreItem(b, pq) - scoreItem(a, pq));
-      } else {
-        list.sort((a, b) => (a._sup ? 1 : 0) - (b._sup ? 1 : 0));
       }
 
       if (reset) { shown = 0; $('dx-grid').innerHTML = ''; }
@@ -583,7 +402,6 @@ window.__openSiteSearch = function (query) {
       }
       if (sort && sort !== 'rel') u.set('sort', sort);
       if (nf) u.set('noFed', '1');
-      if (ns) u.set('noSup', '1');
       history.replaceState(null, '', location.pathname + (u.toString() ? '?' + u : ''));
     }
 
@@ -596,7 +414,6 @@ window.__openSiteSearch = function (query) {
         ['dx-q', 'dx-sg', 'dx-src', 'dx-type', 'dx-topic'].forEach((id) => { if ($(id)) $(id).value = ''; });
         if ($('dx-sort')) $('dx-sort').value = 'rel';
         $('dx-noFed').checked = false;
-        if ($('dx-noSup')) $('dx-noSup').checked = false;
         populateSrcs('');
         run();
       };

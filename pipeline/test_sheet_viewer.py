@@ -57,6 +57,21 @@ with TemporaryDirectory() as temp:
         q.send_keys('BOE E 550',Keys.ENTER)
         wait.until(lambda d:'/boe/street-design/' in d.current_url)
         assert browser.find_element(By.TAG_NAME,'h1').text.startswith('E 550')
+        for query, expected in [('G1-4(CA)', '/signs/g1-4ca/'), ('S 481.0','/details/ladot/mpp-531-s-481-0/'), ('Caltrans T31','#plan-t31')]:
+            browser.get(base+'search/?q='+__import__('urllib.parse',fromlist=['quote']).quote(query))
+            first=wait.until(lambda d:d.find_element(By.CSS_SELECTOR,'#standards-results li a'))
+            assert expected in first.get_attribute('href'), (query,first.text,first.get_attribute('href'))
+        browser.get(base+'search/?q=G14(CA)')
+        assert 'deletion notice' in wait.until(lambda d:d.find_element(By.CSS_SELECTOR,'#standards-results li a')).text
+        browser.get(base+'search/?q=pedestrian&source=Federal+MUTCD')
+        wait.until(lambda d:len(d.find_elements(By.CSS_SELECTOR,'#standards-results li'))>0)
+        assert all(x.text=='Federal MUTCD' for x in browser.find_elements(By.CSS_SELECTOR,'#standards-results small'))
+        browser.get(base+'topics/bikeways/')
+        assert len(browser.find_elements(By.CSS_SELECTOR,'.type-example img'))>=4
+        assert 'Motorcycle Parking' not in browser.find_element(By.CSS_SELECTOR,'.sl-markdown-content').get_attribute('textContent')
+        browser.get(base+'details/ladot/mpp-531-s-481-0/')
+        assert not browser.find_elements(By.CSS_SELECTOR,'a[href*="/redraw/"]')
+        assert browser.find_element(By.CSS_SELECTOR,'.detail-description').is_displayed()
         browser.get(base+'boe/street-design/')
         field=browser.find_element(By.ID,'boe-filter')
         field.send_keys('E550')

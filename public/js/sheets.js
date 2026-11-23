@@ -64,6 +64,8 @@
   for (const group of article.querySelectorAll('.mfig-inline,.mfig-grid,.thumbgrid,.sdetail-img,.mgrid')) {
     // Topic-card galleries remain browsable together. Page only groups made entirely of scan figures.
     if (group.matches('.mgrid') && ![...group.children].every(e => e.matches('figure.mfig') && e.querySelector('a[href*="/figs/"]'))) continue;
+    // Independent design alternatives must remain visible side by side in the text.
+    if (group.matches('.mgrid') || group.matches('.thumbgrid')) continue;
     const thumb = group.matches('.thumbgrid');
     const sign = group.matches('.sdetail-img');
     const pages = [...group.children].filter(el => el.matches(thumb ? 'a' : sign ? 'img' : 'figure'));
@@ -86,7 +88,15 @@
       p.id = 'sheet-view-'+(viewers.length+1)+'-'+(i+1);
       return p.id;
     });
-    viewer(pages,pages.map((p,i)=>p.querySelector('figcaption,span:not([id])')?.textContent.trim() || 'Sheet '+(i+1)),ids);
+    const labels = pages.map((p,i) => {
+      const caption = p.querySelector('figcaption,span:not([id])');
+      if (!caption) return 'Sheet '+(i+1);
+      const copy = caption.cloneNode(true);
+      copy.querySelectorAll('.detail-description').forEach(el=>el.remove());
+      copy.querySelectorAll('br').forEach(br=>br.replaceWith(' · '));
+      return copy.textContent.trim() || 'Sheet '+(i+1);
+    });
+    viewer(pages,labels,ids);
   }
 
   function reveal(scroll) {

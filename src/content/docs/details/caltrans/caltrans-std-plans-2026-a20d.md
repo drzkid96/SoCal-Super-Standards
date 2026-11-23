@@ -13,6 +13,8 @@ tableOfContents: false
 
 
 
+[Download the Caltrans A20D CAD drawing (DGN)](https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-dgn-files/2026__a20d.dgn)
+
 ## Sheet
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0004.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0004.webp" alt="A20D sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A20D, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/01-pages-1-6/#p4">Open in the document</a>.</figcaption></figure>

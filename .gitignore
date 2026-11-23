@@ -9,3 +9,6 @@ __pycache__/
 
 .fhwa-releases/
 public/figs/fhwa-shs/
+
+.manual-art/
+public/data/search-catalog.json

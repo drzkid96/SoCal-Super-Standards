@@ -13,6 +13,8 @@ tableOfContents: false
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/r99ca/" data-svg="/SoCal-Super-Standards/signs/ca/r99ca.webp"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r99ca.webp" alt="R99(CA)"><span><b>R99(CA)</b> Parking Only regulatory sign</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r99bca/" data-svg="/SoCal-Super-Standards/signs/ca/r99bca.webp"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r99bca.webp" alt="R99B(CA)"><span><b>R99B(CA)</b> Minimum Fine $250 regulatory sign</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r99cca/" data-svg="/SoCal-Super-Standards/signs/ca/r99cca.webp"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r99cca.webp" alt="R99C(CA)"><span><b>R99C(CA)</b> Parking Arking Only Ly Minimum Fine $250</span></a></div>
 
+[Download the Caltrans A90B CAD drawing (DGN)](https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-dgn-files/2026__a90b.dgn)
+
 ## Sheet
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp" alt="A90B sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A90B, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/04-pages-19-22/#p22">Open in the document</a>.</figcaption></figure>
