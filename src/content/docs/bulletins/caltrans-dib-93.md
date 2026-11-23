@@ -32,7 +32,6 @@ DIB 94 lists evacuation routes as a case where shoulders wider than 4 ft are exp
 ## Visual Reference
 
 <div class="mgrid">
-  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/W20-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W20-1.svg" alt="Sign W20-1" /></a><figcaption><strong>Sign W20-1</strong><br><small>Work-zone &amp; emergency route advance warning</small></figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1008.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1008.webp" alt="Torrance · T1008" /></a><figcaption><strong>Torrance · T1008</strong><br><small>Multi-lane arterial closure &amp; merge tapers</small></figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0001.webp" alt="Caltrans 2026 · A20A" /></a><figcaption><strong>Caltrans 2026 · A20A</strong><br><small>Edge line &amp; centerline delineation</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0001.webp" alt="Caltrans 2026 · A20A" /></a><figcaption><strong>Caltrans 2026 · A20A</strong><br><small>State highway edge line, lane line &amp; centerline delineation</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0002.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0002.webp" alt="Caltrans 2026 · A20B" /></a><figcaption><strong>Caltrans 2026 · A20B</strong><br><small>Double-yellow centerlines, TWLTL &amp; shoulder delineation</small></figcaption></figure>
 </div>
