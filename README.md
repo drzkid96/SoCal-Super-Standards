@@ -18,3 +18,9 @@ python3 -I pipeline/extract_camutcd.py path/to/camutcd-2026-all.pdf .
 npx astro build
 ```
 Pushing to `main` deploys to GitHub Pages.
+
+### Rebuilding the reference site
+
+Run `npm ci` and `npm run build`. Astro prepares the editorial pages and tracked catalog in a staging directory. The published drawing catalog is sourced from `data/catalog/details.json`. Edit the source catalog and curated Markdown when updating drawings. Run `node pipeline/test_calculations.mjs` and `python3 pipeline/check_links.py` after building.
+
+Pages deployment first runs `python pipeline/import_boe.py` (requires lxml) to traverse BOE’s official section tree and include nested provisions, tables, illustrations and document links. Run that command locally to refresh the BOE collection. Heavy civil sections are filtered by section title and ancestry. City-hosted attachments open at their original URLs.
