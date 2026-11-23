@@ -381,7 +381,7 @@ sidebar:
 ### Page 41 - Complete Streets Design Guide: Complete Street Diagrams (Section Divider)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0041.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0041.webp" alt="Complete Streets DG page 41 "></a><figcaption>Complete Streets DG, page 41.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Section divider text: Complete Streets Design Guide, Complete Street Diagrams (Chapter 3).</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>1. Section divider text: Complete Streets Design Guide, Complete Street Diagrams (Chapter 3).</p></details>
 
 <span id="p42" class="anchor"></span>
 

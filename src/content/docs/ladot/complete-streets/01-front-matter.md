@@ -12,7 +12,7 @@ sidebar:
 ### Page 1 - Complete Streets Design Guide Cover
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0001.webp" alt="Complete Streets DG page 1 "></a><figcaption>Complete Streets DG, page 1.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Cover text: City of Los Angeles, Complete Streets Design Guide. 2. Tagline: Great Streets for Los Angeles. 3. Seal text: City of Los Angeles, Founded 1781.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>1. Cover text: City of Los Angeles, Complete Streets Design Guide. 2. Tagline: Great Streets for Los Angeles. 3. Seal text: City of Los Angeles, Founded 1781.</p></details>
 
 <span id="p2" class="anchor"></span>
 
@@ -187,7 +187,7 @@ sidebar:
 ### Page 9 - Complete Streets Design Guide: Introduction (Section Divider)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0009.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0009.webp" alt="Complete Streets DG page 9 "></a><figcaption>Complete Streets DG, page 9.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Section divider text: Complete Streets Design Guide, Introduction (Chapter 1).</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>1. Section divider text: Complete Streets Design Guide, Introduction (Chapter 1).</p></details>
 
 <span id="p10" class="anchor"></span>
 

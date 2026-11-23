@@ -13,7 +13,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-101.0</strong> &middot; Topics: signals, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0062.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0062.webp" alt="MPP 521 page 62 S-101.0 Typical Traffic Signal Layouts"></a><figcaption>MPP 521, page 62.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Where phase 8 traffic is moderately high or where the driveway is offset from the side street then opposed phasing should be considered. (Text on the plan.)</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Where phase 8 traffic is moderately high or where the driveway is offset from the side street then opposed phasing should be considered. (Text on the plan.)</p>
 <h5>Notes:</h5>
 <p>1. This typical design is appropriate where a review of use has determined that the driveway should be signalized. Normally, this design would be used only where the driveway could not easily be reconstructed to be configured with curb returns and a &quot;step down&quot; design along the path of pedestrians. New development driveways with higher traffic volumes at intersections should be required to construct street like driveways with a layout for a &quot;T&quot; or 4-leg intersection, as appropriate.</p>
 <p>2. This drawing is not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown.</p>
@@ -26,7 +26,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-101.0</strong> &middot; Topics: crosswalks, signals, parking-curb, striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0063.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0063.webp" alt="MPP 521 page 63 S-101.0 Typical Traffic Signal Layouts"></a><figcaption>MPP 521, page 63.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Notes:</h5>
 <p>1. Signal equipment should be combined with street lighting where feasible.</p>
 <p>2. See S-493.0, Cases 13 &amp; 14 for limit line locations. See S-481.0 for ladder crosswalk detail.</p>
 <p>3. Where X is greater than 10&#x27;, install a pole for the pedestrian head at the location shown, and a separate pole for the secondary vehicle head at the limit line, as shown in Detail &quot;C&quot;.</p>
@@ -40,7 +40,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-101.0</strong> &middot; Topics: crosswalks, signals, parking-curb, striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0064.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0064.webp" alt="MPP 521 page 64 S-101.0 Typical Traffic Signal Layouts"></a><figcaption>MPP 521, page 64.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Notes:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Notes:</h5>
 <p>1. Signal equipment should be combined with street lighting where feasible.</p>
 <p>2. See S-493.0, Cases 13 &amp; 14 for limit line locations. See S-481.0 for ladder crosswalk detail.</p>
 <p>3. For one-way streets with a roadway width less than 46 feet, a single mastarm signal head placed within 5 feet of the center of the approach lane(s) should be installed.</p>
@@ -53,7 +53,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-101.0</strong>, <strong>S-493.0</strong> &middot; Signs: R9-3A R9-3B &middot; Topics: signals, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0065.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0065.webp" alt="MPP 521 page 65 S-101.0 Typical Traffic Signal Layouts"></a><figcaption>MPP 521, page 65.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>NOTES:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>NOTES:</h5>
 <p>1. This drawing is not intended to show the required safety lighting design. Final lighting designs may not include the depicted mastarm lighting and likely will include other lighting locations not shown.</p>
 <p>2. Mask only the green and red lenses of the programmed visibility (PV) heads.</p>
 <p>3. To be used in Case 9 of S-493.0.</p>
@@ -141,7 +141,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0068.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0068.webp" alt="MPP 521 page 68 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 521, page 68.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Applications of Overhead Guide Signs: See Sheet 2.</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>1. Applications of Overhead Guide Signs: See Sheet 2.</p>
 <p>2. Overhead Sign Format Details: See Sheet 3.</p>
 <p>3. Arrow Styles and Specifications: See Sheet 4.</p>
 <p>4. Route Shield Sizes: See Sheet 5.</p>
@@ -156,7 +156,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; MUTCD: <a href="/SoCal-Super-Standards/s/ca/2D.45/">Section 2D.45</a> &middot; Topics: transit, signs, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0069.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0069.webp" alt="MPP 521 page 69 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 521, page 69.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>General: These signs are desirable to provide a high degree of visibility to forewarn and direct motorists on multi-lane approaches of roadway access or lane assignment conditions that generally cannot be anticipated. Situations where overhead signs generally should be provided include:</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>General: These signs are desirable to provide a high degree of visibility to forewarn and direct motorists on multi-lane approaches of roadway access or lane assignment conditions that generally cannot be anticipated. Situations where overhead signs generally should be provided include:</p>
 <p>- Divergent arterial roadways</p>
 <p>- Skewed arterial approaches</p>
 <p>- Unshadowed left-turn lanes</p>
@@ -179,7 +179,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0070.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0070.webp" alt="MPP 521 page 70 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 521, page 70.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Legend Size</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Legend Size</p>
 <p>The minimum size of letters on overhead signs is 8 inches upper case and 6 inches lower case. On streets with three or more approach lanes or with a posted speed limit of 40 miles per hour or greater 10.67 inch upper case and 8 inch lower case letters should be used.</p>
 <p>Series E letter widths should be used, but in constrained situations Series C letter widths may be used.</p>
 <p>Supplemental or clarifying wording on regulatory and guide signs (such as &quot;ONTO BEVERLY DR&quot;, &quot;200 FT&quot; or &quot;3 OR MORE&quot;) shall be 6 inch series D capital letters and numbers.</p>
@@ -206,7 +206,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0071.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0071.webp" alt="MPP 521 page 71 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 521, page 71.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>No written notes on this sheet. All content is dimensioned arrow outlines. Labels: One Line, Two Line, Advance Arrow, Down Vertical Arrow, Diagrammatic Arrows. Dimensions marked typ. (typical) apply to every arrow of that type.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>No written notes on this sheet. All content is dimensioned arrow outlines. Labels: One Line, Two Line, Advance Arrow, Down Vertical Arrow, Diagrammatic Arrows. Dimensions marked typ. (typical) apply to every arrow of that type.</p></details>
 
 <span id="p72" class="anchor"></span>
 
@@ -214,7 +214,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0072.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0072.webp" alt="MPP 521 page 72 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 521, page 72.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Labels: Route Shield Sizes. 1 or 2 digits (for the 27 and 5 shields). 3 digits (for the 134 and 405 shields). W 61(CA) Signs. Down Vertical Arrow. W61F(CA): Yellow or White Background as per Note 4. W61B(CA): Yellow or White Background as per Note 4. (Note 4 is on the application notes sheets 15 and 16.)</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Labels: Route Shield Sizes. 1 or 2 digits (for the 27 and 5 shields). 3 digits (for the 134 and 405 shields). W 61(CA) Signs. Down Vertical Arrow. W61F(CA): Yellow or White Background as per Note 4. W61B(CA): Yellow or White Background as per Note 4. (Note 4 is on the application notes sheets 15 and 16.)</p></details>
 
 <span id="p73" class="anchor"></span>
 
@@ -222,7 +222,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0073.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0073.webp" alt="MPP 521 page 73 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 521, page 73.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>No written notes on this sheet. Labels: Arden, Boulevard, Avenue, Beverly Drive, Clarita, Dolphin Street, Drive. Sign location markers A, B, C and D.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>No written notes on this sheet. Labels: Arden, Boulevard, Avenue, Beverly Drive, Clarita, Dolphin Street, Drive. Sign location markers A, B, C and D.</p></details>
 
 <span id="p74" class="anchor"></span>
 
@@ -230,7 +230,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0074.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0074.webp" alt="MPP 521 page 74 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 521, page 74.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>No written notes on this sheet. Labels: Lower Avenue, Upper Street, Minor Road, Suburban, City Drive, Boulevard, Golden State Fwy (Interstate 5 shield). Sign markers: E, F, G, H, H Alt., I, I Alt., J, K, L, M, N, O, P, Q, R, S, T, U. North arrow.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>No written notes on this sheet. Labels: Lower Avenue, Upper Street, Minor Road, Suburban, City Drive, Boulevard, Golden State Fwy (Interstate 5 shield). Sign markers: E, F, G, H, H Alt., I, I Alt., J, K, L, M, N, O, P, Q, R, S, T, U. North arrow.</p></details>
 
 <span id="p75" class="anchor"></span>
 
@@ -238,5 +238,5 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-418.6</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0075.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0075.webp" alt="MPP 521 page 75 S-418.6 Overhead Guide Signing"></a><figcaption>MPP 521, page 75.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Callouts on the sheet, in order. Sign A layout 1: See Notes 1 to 5. Diagrammatic Arrows shown due to optional lane, as per Note 3. Sign A layout 2: See Notes 1 to 5. Two-Line vertical and diagonal shown since optional lanes are not involved, as per Note 3. Sign A layout 3: See Notes 1 to 5. Diagrammatic Arrows. Sign A layout 4: See Notes 1 to 5. Two-Line Arrows. Sign B layout 1: See Note 6. One-Line Arrows. Sign B layout 2: See Note 7. <a class="sref" href="/SoCal-Super-Standards/signs/r3-5/" data-svg="/SoCal-Super-Standards/signs/R3-5.svg">R3-5</a> and <a class="sref" href="/SoCal-Super-Standards/signs/r3-6/" data-svg="/SoCal-Super-Standards/signs/R3-6__Sheet_1_of_2.svg">R3-6</a> shown, as per Note 7. Sign B layout 3: See Notes 6 and 7. One-Line Arrows. (The numbered notes are on application notes sheets 15 and 16.)</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Callouts on the sheet, in order. Sign A layout 1: See Notes 1 to 5. Diagrammatic Arrows shown due to optional lane, as per Note 3. Sign A layout 2: See Notes 1 to 5. Two-Line vertical and diagonal shown since optional lanes are not involved, as per Note 3. Sign A layout 3: See Notes 1 to 5. Diagrammatic Arrows. Sign A layout 4: See Notes 1 to 5. Two-Line Arrows. Sign B layout 1: See Note 6. One-Line Arrows. Sign B layout 2: See Note 7. <a class="sref" href="/SoCal-Super-Standards/signs/r3-5/" data-svg="/SoCal-Super-Standards/signs/R3-5.svg">R3-5</a> and <a class="sref" href="/SoCal-Super-Standards/signs/r3-6/" data-svg="/SoCal-Super-Standards/signs/R3-6__Sheet_1_of_2.svg">R3-6</a> shown, as per Note 7. Sign B layout 3: See Notes 6 and 7. One-Line Arrows. (The numbered notes are on application notes sheets 15 and 16.)</p></details>
 

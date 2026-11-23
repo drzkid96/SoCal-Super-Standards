@@ -13,7 +13,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-404.3</strong> &middot; Topics: parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0049.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0049.webp" alt="MPP 531 page 49 S-404.3 Shared Mobility Parking (SMP) Zones On-Street and Sidewalk"></a><figcaption>MPP 531, page 49.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>NOT TO SCALE. No numbered notes on this sheet. Each symbol is dimensioned 24&quot;.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>NOT TO SCALE. No numbered notes on this sheet. Each symbol is dimensioned 24&quot;.</p></details>
 
 <span id="p50" class="anchor"></span>
 
@@ -21,7 +21,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-404.3</strong> &middot; Topics: parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0050.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0050.webp" alt="MPP 531 page 50 S-404.3 Shared Mobility Parking (SMP) Zones On-Street and Sidewalk"></a><figcaption>MPP 531, page 50.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>NOTES:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>NOTES:</h5>
 <h5>SHARED MOBILITY PARKING: ON-STREET</h5>
 <p>1. Parking meter heads, posts and signs shall be removed or adjusted as needed if shared mobility parking (SMP) is installed in a parking meter zone.</p>
 <p>2. Rubberized wheel stops shall be used at the ends of the SMP zones if located next to on-street parking.</p>
@@ -56,7 +56,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-405.0</strong> &middot; Topics: parking-curb, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0051.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0051.webp" alt="MPP 531 page 51 S-405.0 Intersection Striping"></a><figcaption>MPP 531, page 51.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. (See sheet 2 of 2 for policy and criteria.) The numbered notes referenced on this sheet (Notes 2, 3, 4, 5, 6, 8 and 9) are printed on sheet 2 of 2, not on this sheet.</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>1. (See sheet 2 of 2 for policy and criteria.) The numbered notes referenced on this sheet (Notes 2, 3, 4, 5, 6, 8 and 9) are printed on sheet 2 of 2, not on this sheet.</p>
 <p>2. Callouts on this sheet: cat tracks 4&quot; Y (see Note 2). See Note 3 at the crosswalk line. See Note 4 at the BC and EC curve points. See Note 5 at the added right turn lane. See Note 6 for the curb lane width and the alternative locations for cat tracks. See Note 8 at the trap right turn lane. See Note 9 at the diagonal cat track in the double turn detail.</p>
 <p>3. Curb lane (or No. 2 and No. 3 lanes combined) width: 20&#x27; minimum with parking, 12&#x27; minimum with no parking (see Note 6).</p>
 <p>4. Labels: trap right turn lane, added right turn lane, parked vehicle, 15&#x27; (TYP.), curve radii R1, R2 and R3, curve points BC (beginning of curve), EC (end of curve), BCR and ECR, each with 90 degree radial lines.</p></details>
@@ -67,7 +67,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-405.0</strong> &middot; Topics: crosswalks, signals, parking-curb, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0052.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0052.webp" alt="MPP 531 page 52 S-405.0 Intersection Striping"></a><figcaption>MPP 531, page 52.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>POLICY AND CRITERIA</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>POLICY AND CRITERIA</h5>
 <h5>GENERAL</h5>
 <p>1. Dotted intersection striping, more commonly known as &quot;cat tracks&quot;, shall be used for all multiple turns and under special conditions for longitudinal striping, as shown in Note 11.</p>
 <p>2. Cat tracks are 4&quot; in width and should be approximately one foot in length, 7&#x27; center to center (CA MUTCD <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-40" data-svg="/SoCal-Super-Standards/linetypes/detail-40.svg">Detail 40</a> and 41). They shall be the same color as the stripe they extend, except that cat tracks connecting to double yellow lines shall be 4&quot; yellow.</p>
@@ -95,7 +95,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-410.4.1</strong> &middot; Topics: parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0053.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0053.webp" alt="MPP 531 page 53 S-410.4.1 Parking Meter Post Installation Dirt or Asphalt Setting"></a><figcaption>MPP 531, page 53.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>SPECIFICATION FOR POST</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>SPECIFICATION FOR POST</h5>
 <p>Steel pipe, standard weight, 2&quot; x 42&quot; long, ASTM-A120-63T, new and unused, hot dipped galvanized, top reamed.</p>
 <h5>NOTES</h5>
 <p>1. Concrete to be Class 560-C-3250.</p>
@@ -109,7 +109,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-410.4.2</strong> &middot; Topics: parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0054.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0054.webp" alt="MPP 531 page 54 S-410.4.2 Parking Meter Post Installation Concrete Setting"></a><figcaption>MPP 531, page 54.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>SPECIFICATION FOR POST</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>SPECIFICATION FOR POST</h5>
 <p>Steel pipe, standard weight, 2&quot; x 42&quot; long, ASTM-A120-63T, new and unused, hot dipped galvanized, top reamed.</p>
 <h5>NOTES</h5>
 <p>1. Post to be level straight.</p>
@@ -123,7 +123,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-410.4.3</strong> &middot; Topics: parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0055.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0055.webp" alt="MPP 531 page 55 S-410.4.3 Parking Meter Post Installation on Concrete Bridge"></a><figcaption>MPP 531, page 55.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>4 - 1/2&quot; holes to be drilled 1 7/8&quot; deep to receive 4 stud bolt anchors. 1/2&quot; x 3&quot; nuts to be steel hex galvanized. 1/2&quot; washers to be flat steel galvanized. Washers may be used under base as shims for leveling. 30&quot; unthreaded post welded onto the flange.</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>4 - 1/2&quot; holes to be drilled 1 7/8&quot; deep to receive 4 stud bolt anchors. 1/2&quot; x 3&quot; nuts to be steel hex galvanized. 1/2&quot; washers to be flat steel galvanized. Washers may be used under base as shims for leveling. 30&quot; unthreaded post welded onto the flange.</p>
 <h5>SPECIFICATION FOR POST</h5>
 <p>Steel pipe, standard weight, 2&quot; x 30&quot; long, ASTM-A120-63T, new and unused, hot dipped galvanized, top reamed.</p>
 <p>Cement grout - 1 (cement) : 2 1/2 (sand).</p>
@@ -135,7 +135,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-414.4</strong></div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0056.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0056.webp" alt="MPP 531 page 56 S-414.4 Left Turn and Median Channelization Pavement Markings"></a><figcaption>MPP 531, page 56.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Notes referenced on this sheet: Note 2 (Cases 1 and 2), Note 3 (Case 3) and Note 4 (Case 4). The text of the notes is on the last sheet of this set and is not reproduced on this sheet.</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>1. Notes referenced on this sheet: Note 2 (Cases 1 and 2), Note 3 (Case 3) and Note 4 (Case 4). The text of the notes is on the last sheet of this set and is not reproduced on this sheet.</p>
 <p>2. Labels on this sheet: 12&quot; yellow (Cases 1, 2 and 4). 70&#x27; minimum and 30&#x27; minimum to a critical driveway (Case 3). 40&#x27; to 80&#x27; (Case 3). Circled S = stop sign.</p></details>
 
 <span id="p57" class="anchor"></span>
@@ -144,7 +144,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-414.4</strong></div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0057.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0057.webp" alt="MPP 531 page 57 S-414.4 Left Turn and Median Channelization Pavement Markings"></a><figcaption>MPP 531, page 57.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Notes are on sheet 7 of 7 of this drawing. Notes referenced on this sheet: NOTE 5 (Case 5), NOTE 6 and NOTE 7 (Case 6), NOTE 8 (Case 7), NOTE 9 (Case 9). Labels: 12&quot; YELLOW, DRIVEWAY, CRITICAL DRIVEWAY, MINOR DRIVEWAY, NO DRIVEWAYS, 200&#x27;, MAJOR OR STREET TYPE DRIVEWAY, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> (STOP sign).</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Notes are on sheet 7 of 7 of this drawing. Notes referenced on this sheet: NOTE 5 (Case 5), NOTE 6 and NOTE 7 (Case 6), NOTE 8 (Case 7), NOTE 9 (Case 9). Labels: 12&quot; YELLOW, DRIVEWAY, CRITICAL DRIVEWAY, MINOR DRIVEWAY, NO DRIVEWAYS, 200&#x27;, MAJOR OR STREET TYPE DRIVEWAY, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> (STOP sign).</p></details>
 
 <span id="p58" class="anchor"></span>
 
@@ -152,7 +152,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-414.4</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> &middot; Topics: striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0058.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0058.webp" alt="MPP 531 page 58 S-414.4 Left Turn and Median Channelization Pavement Markings"></a><figcaption>MPP 531, page 58.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Notes are on sheet 7 of 7 of this drawing. Notes referenced on this sheet: NOTE 10 (Case 10), NOTE 11 (Case 11), NOTE 12 (Case 12), NOTE 13 and NOTE 7 (Case 13). Labels: 12&quot; YELLOW, 30&#x27; MIN., 7&#x27; MIN., &lt;30&#x27;, 70&#x27; MIN., <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> (STOP sign).</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Notes are on sheet 7 of 7 of this drawing. Notes referenced on this sheet: NOTE 10 (Case 10), NOTE 11 (Case 11), NOTE 12 (Case 12), NOTE 13 and NOTE 7 (Case 13). Labels: 12&quot; YELLOW, 30&#x27; MIN., 7&#x27; MIN., &lt;30&#x27;, 70&#x27; MIN., <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> (STOP sign).</p></details>
 
 <span id="p59" class="anchor"></span>
 
@@ -160,7 +160,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-414.4</strong> &middot; Signs: R1i-1 &middot; Topics: striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0059.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0059.webp" alt="MPP 531 page 59 S-414.4 Left Turn and Median Channelization Pavement Markings"></a><figcaption>MPP 531, page 59.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Notes are on sheet 7 of 7 of this drawing. Notes referenced on this sheet: NOTE 10 (Case 14), NOTE 14 (Case 15), NOTE 15 (Case 16), NOTE 16 (Case 17). Labels: 30&#x27; MIN., &lt;30&#x27;, 15&#x27; MIN., 9&#x27; MIN., 12&quot; YELLOW, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> (STOP sign).</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Notes are on sheet 7 of 7 of this drawing. Notes referenced on this sheet: NOTE 10 (Case 14), NOTE 14 (Case 15), NOTE 15 (Case 16), NOTE 16 (Case 17). Labels: 30&#x27; MIN., &lt;30&#x27;, 15&#x27; MIN., 9&#x27; MIN., 12&quot; YELLOW, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> (STOP sign).</p></details>
 
 <span id="p60" class="anchor"></span>
 
@@ -168,7 +168,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-414.4</strong> &middot; Signs: <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> &middot; Topics: striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0060.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0060.webp" alt="MPP 531 page 60 S-414.4 Left Turn and Median Channelization Pavement Markings"></a><figcaption>MPP 531, page 60.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Notes are on sheet 7 of 7 of this drawing. Notes referenced on this sheet: NOTE 17 (Case 18), NOTE 18 and NOTE 19 (Case 19), NOTE 20 (Cases 20 and 21), NOTE 21 and NOTE 22 (Case 21). Labels: 12&quot; YELLOW, 8&quot; WHITE, 30&#x27; MIN., 70&#x27; MIN., 50&#x27; MIN., 9&#x27; MIN., TAPER, CRITICAL DRIVEWAY, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> (STOP sign).</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Notes are on sheet 7 of 7 of this drawing. Notes referenced on this sheet: NOTE 17 (Case 18), NOTE 18 and NOTE 19 (Case 19), NOTE 20 (Cases 20 and 21), NOTE 21 and NOTE 22 (Case 21). Labels: 12&quot; YELLOW, 8&quot; WHITE, 30&#x27; MIN., 70&#x27; MIN., 50&#x27; MIN., 9&#x27; MIN., TAPER, CRITICAL DRIVEWAY, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a> (STOP sign).</p></details>
 
 <span id="p61" class="anchor"></span>
 
@@ -176,7 +176,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-414.4</strong> &middot; Topics: parking-curb, striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0061.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0061.webp" alt="MPP 531 page 61 S-414.4 Left Turn and Median Channelization Pavement Markings"></a><figcaption>MPP 531, page 61.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Notes are on sheet 7 of 7 of this drawing. Notes referenced on this sheet: NOTE 23 (Case 22), NOTE 24 (Case 23), NOTE 25 (Case 25). Labels: RED CURB, CRITICAL DRIVEWAY, UNSTRIPED TAPER, TAPER, 18&#x27; MIN., 12&quot; YELLOW, OPTIONAL, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r3-5/" data-svg="/SoCal-Super-Standards/signs/R3-5.svg">R3-5</a>, Radius, 8&#x27;. The sign graphic reads ONLY with a right turn arrow.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Notes are on sheet 7 of 7 of this drawing. Notes referenced on this sheet: NOTE 23 (Case 22), NOTE 24 (Case 23), NOTE 25 (Case 25). Labels: RED CURB, CRITICAL DRIVEWAY, UNSTRIPED TAPER, TAPER, 18&#x27; MIN., 12&quot; YELLOW, OPTIONAL, <a class="sref" href="/SoCal-Super-Standards/signs/r1-1/" data-svg="/SoCal-Super-Standards/signs/R1-1.svg">R1-1</a>, <a class="sref" href="/SoCal-Super-Standards/signs/r3-5/" data-svg="/SoCal-Super-Standards/signs/R3-5.svg">R3-5</a>, Radius, 8&#x27;. The sign graphic reads ONLY with a right turn arrow.</p></details>
 
 <span id="p62" class="anchor"></span>
 
@@ -184,7 +184,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-414.4</strong> &middot; Topics: signals, parking-curb, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0062.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0062.webp" alt="MPP 531 page 62 S-414.4 Left Turn and Median Channelization Pavement Markings"></a><figcaption>MPP 531, page 62.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Notes</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Notes</p>
 <p>1. Refer to S-491.0 for channelization associated with advance left-turn lanes.</p>
 <p>2. Refer to S-401.0 Notes 1-5 regarding left turn lane details on the approach to signalized intersections.</p>
 <p>3. At a signalized approach the reversal may be deleted and the double yellow line extended as shown only if: 1) the minimum length of the left turn lane is provided per S-401.0; 2) spillover is recurrent; 3) there is a 2WLTL upstream of the left-turn; or 4) an operational decision has been made to provide left-turn storage into a critical driveway.</p>

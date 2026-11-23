@@ -12,7 +12,7 @@ sidebar:
 ### Page 41 - Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (Back Cover)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0041.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0041.webp" alt="FHWA STEP Guide page 41 Back Cover"></a><figcaption>FHWA STEP Guide, page 41.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>FHWA-SA-17-072.</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>FHWA-SA-17-072.</h5>
 <p>July 2018, Updated.</p>
 <p>Safe Roads for a Safer Future. Investment in roadway safety saves lives.</p></details>
 

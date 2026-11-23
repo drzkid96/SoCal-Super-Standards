@@ -436,7 +436,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-450</strong>, <strong>S-456</strong> &middot; Topics: parking-curb, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0085.webp" alt="Complete Streets DG page 85 References (S-450, S-456)"></a><figcaption>Complete Streets DG, page 85.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Guidance bullets (left column):</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Guidance bullets (left column):</h5>
 <p>1. Mature height: no limits or maximums, but should be appropriate and complement roadway scale, use and land uses.</p>
 <p>2. Spacing from other elements: Trees with a mature canopy diameter of 30 feet or less may be 20 feet from street lights. Trees may be 10 feet from pedestrian lights if their canopies are pruned up 2 feet above the lights. Trees may be 10 feet from utility poles if canopies are pruned to allow access on the poles. In certain locations, smaller clearances may provide greater flexibility in tree spacing and allow for a more complete tree canopy. These clearances may be used with Urban Forestry Department (UFD) approval.</p>
 <p>3. Tree size at planting: Arterials, 36-inch box recommended (not currently standard). Non-arterials, 24-inch box.</p>
@@ -708,7 +708,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, parking-curb, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0097.webp" alt="Complete Streets DG page 97 Location and Placement of Bicycle Racks (S-671)"></a><figcaption>Complete Streets DG, page 97.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Left column:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Left column:</h5>
 <p>(Continuation of the rack characteristics list from the previous page; each item is introduced by an earlier lead-in not on this sheet.)</p>
 <p>- Have mounting hardware that can be unscrewed with common tools.</p>
 <p>- Requires the bicyclist to lift their bicycle onto the rack.</p>
@@ -727,7 +727,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, transit, parking-curb, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0098.webp" alt="Complete Streets DG page 98 Other Discussion (S-671)"></a><figcaption>Complete Streets DG, page 98.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Left column (continues Amenity Zone):</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Left column (continues Amenity Zone):</h5>
 <p>1. A bicycle rack should not be installed in a bus stop zone, taxi zone or loading zone. A rack should not be installed near a fire hydrant or near handicap-accessible parking.</p>
 <h5>Frontage Zone:</h5>
 <p>2. In the frontage zone, bicycle racks can be placed perpendicular, angled or parallel to a building or property frontage. Perpendicular or angled parking should be provided if space permits. These orientations allow for better-accessible clustered parking.</p>

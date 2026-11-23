@@ -298,7 +298,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0038.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0038.webp" alt="MPP 521 page 38 S-85.0 Application of Visibility-Limited Traffic Signal Heads"></a><figcaption>MPP 521, page 38.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Place the line for &quot;Center of Signal Head Alignment&quot; along assumed alignment of head. Determine conformance with restricted visibility to conflicting approaches.</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>1. Place the line for &quot;Center of Signal Head Alignment&quot; along assumed alignment of head. Determine conformance with restricted visibility to conflicting approaches.</p>
 <p>Labels and angles: 0% Visibility of Lens at 45 degrees each side of the center line. 50% Visibility of Lens at 27 degrees each side of the center line (54 degrees total). The shaded area is Not to be seen by conflicting approach.</p></details>
 
 <span id="p39" class="anchor"></span>
@@ -307,7 +307,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0039.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0039.webp" alt="MPP 521 page 39 S-85.0 Application of Visibility-Limited Traffic Signal Heads"></a><figcaption>MPP 521, page 39.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Labels and angles: 0% Visibility of Lens at 45 degrees on the left side and 24 degrees on the right side of the center line. 50% Visibility of Lens at 27 degrees on the left side and 13 degrees on the right side (40 degrees total). The shaded area is Not to be seen by conflicting approach. The instruction text of the sheet is cut off at the page edge and is [illegible] on this page.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Labels and angles: 0% Visibility of Lens at 45 degrees on the left side and 24 degrees on the right side of the center line. 50% Visibility of Lens at 27 degrees on the left side and 13 degrees on the right side (40 degrees total). The shaded area is Not to be seen by conflicting approach. The instruction text of the sheet is cut off at the page edge and is [illegible] on this page.</p></details>
 
 <span id="p40" class="anchor"></span>
 
@@ -315,7 +315,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0040.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0040.webp" alt="MPP 521 page 40 S-85.0 Application of Visibility-Limited Traffic Signal Heads"></a><figcaption>MPP 521, page 40.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Place the line for &quot;Center of Signal Head Alignment&quot; along assumed alignment of head. Use to determine conformance with restricted visibility to conflicting approaches.</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>1. Place the line for &quot;Center of Signal Head Alignment&quot; along assumed alignment of head. Use to determine conformance with restricted visibility to conflicting approaches.</p>
 <p>Labels and angles: 0% Visibility of Lens at 24 degrees on the left side and 45 degrees on the right side of the center line. 50% Visibility of Lens at 13 degrees on the left side and 27 degrees on the right side (40 degrees total). The shaded area is Not to be seen by conflicting approach.</p></details>
 
 <span id="p41" class="anchor"></span>
@@ -372,7 +372,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals, striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0043.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0043.webp" alt="MPP 521 page 43 S-85.0 Application of Visibility-Limited Traffic Signal Heads"></a><figcaption>MPP 521, page 43.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>A = 54 degrees. Angle of 50% lens visibility of a standard signal head. The signal head shown is intended for Arden Street motorists. However, it can be seen too easily by Diagonal Street motorists, since the Angle A shading crosses that limit line.</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>A = 54 degrees. Angle of 50% lens visibility of a standard signal head. The signal head shown is intended for Arden Street motorists. However, it can be seen too easily by Diagonal Street motorists, since the Angle A shading crosses that limit line.</p>
 <p>B = 40 degrees. Angle of 50% lens visibility of a left-beveled visor signal head. Since the Angle B shading does not cross the limit line on Diagonal Street a left-beveled visor would adequately restrict lateral visibility.</p></details>
 
 <span id="p44" class="anchor"></span>
@@ -407,7 +407,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-85.0</strong> &middot; Topics: signals, striping, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0045.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0045.webp" alt="MPP 521 page 45 S-85.0 Application of Visibility-Limited Traffic Signal Heads"></a><figcaption>MPP 521, page 45.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>A = 54 degrees. Angle of 50% lens visibility of a standard signal head. The signal head shown is intended for Diagonal Street motorists. However, it can be seen too easily by Clartia [sic] Avenue motorists, since the Angle A shading crosses that limit line.</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>A = 54 degrees. Angle of 50% lens visibility of a standard signal head. The signal head shown is intended for Diagonal Street motorists. However, it can be seen too easily by Clartia [sic] Avenue motorists, since the Angle A shading crosses that limit line.</p>
 <p>B = 40 degrees. Angle of 50% lens visibility of a right beveled visor signal head. However, it too can be seen to [sic] easily by Clartia [sic] Avenue motorists, since the Angle B shading crosses that limit line.</p>
 <p>C = The masked angle of a programmed visibility signal head. It is masked on the right side so that the Angle C shading does not cross the limit line on Clarita Avenue. During dark weather and at night Angle C may &quot;bleed&quot; beyond the nominal limits shown.</p></details>
 
@@ -417,7 +417,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: signals, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0046.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0046.webp" alt="MPP 521 page 46 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 521, page 46.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Right Jog:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Right Jog:</h5>
 <p>- Pedestrians might not be seen early-on by right-turning motorists.</p>
 <p>- Opposing vehicles might not be seen early-on.</p>
 <p>- Opposing arterial left turns might interlock.</p>
@@ -435,7 +435,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-100.0</strong> &middot; Topics: crosswalks, signals, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0047.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0047.webp" alt="MPP 521 page 47 S-100.0 Operation and Design of Signalized Jogged Intersections"></a><figcaption>MPP 521, page 47.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Definitions:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Definitions:</h5>
 <p>theta 1 and theta 2 = angle between a motorist looking straight ahead and the back of the opposing vehicle.</p>
 <p>X1 and X2 = distance along the arterial from the crosswalk line or limit line to the signal pole or BCR at the far side of the first intersecting leg.</p>
 <p>D = internal storage distance between real or hypothetical interior limit lines. For a minor offset D may be a small or negative number.</p>

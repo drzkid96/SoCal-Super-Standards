@@ -425,7 +425,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-671</strong> &middot; Topics: bikeways, parking-curb, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0142.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0142.webp" alt="Complete Streets DG page 142 References (S-671)"></a><figcaption>Complete Streets DG, page 142.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Placement bullets:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Placement bullets:</h5>
 <p>1. Corrals can be located in a red curb zone as long as standard clearances are met. There should be at least a 25 foot clearance from a fire hydrant.</p>
 <p>2. Bicycle corrals should be located at least 30 feet from intersection departure and 50 feet from intersection approach.</p>
 <h5>Other Discussion:</h5>
@@ -498,7 +498,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-487</strong> &middot; Topics: bikeways, transit, signals, parking-curb, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0145.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0145.webp" alt="Complete Streets DG page 145 Bicycle Enhancements (S-487)"></a><figcaption>Complete Streets DG, page 145.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Design Guidance:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Design Guidance:</h5>
 <p>1. Peak-hour bus lanes should be installed with the appropriate parking signage and pavement markings (See City of Los Angeles&#x27; Department of Transportation standard plan S-487 for Exclusive Bus Lane Markings for further detail).</p>
 <p>2. At intersections, right turning movements by other motorists and bicyclists can be facilitated by marking dashed lines at the intersection approach. If buses traveling in the lane experience significant delays, right turns at select intersections may need to be prohibited.</p>
 <p>3. Transit signal prioritization should be given to buses operating in these lanes.</p>
@@ -553,7 +553,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-487</strong> &middot; Topics: crosswalks, transit, signals, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0147.webp" alt="Complete Streets DG page 147 5.9 Median Bus Lane / Busway (S-487)"></a><figcaption>Complete Streets DG, page 147.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Introduction:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Introduction:</h5>
 <p>A median bus lane enhances transit service by providing a dedicated right-of-way for buses to run down the center of corridors. A median busway functions similarly to a median bus lane except that it provides a physical separation from vehicle traffic. For both of these facilities, passengers board and alight at station stops that are located on median boarding islands.</p>
 <h5>Benefits:</h5>
 <p>1. Minimizes conflicts with on-street curbside parking and vehicle turning movements.</p>

@@ -13,7 +13,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-221.3</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0035.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0035.webp" alt="MPP 531 page 35 S-221.3 Street Name Sign Posting"></a><figcaption>MPP 531, page 35.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Labels on the drawing: &quot;F&quot; St.; &quot;G&quot; St.; &quot;H&quot; St.; &quot;I&quot; St.; &quot;A&quot; Street; Service Rd. (left and right, one-way arrows shown); Street.</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>1. Labels on the drawing: &quot;F&quot; St.; &quot;G&quot; St.; &quot;H&quot; St.; &quot;I&quot; St.; &quot;A&quot; Street; Service Rd. (left and right, one-way arrows shown); Street.</p>
 <p>2. Sheet 3 of 4, Drawing No. S-221.3.</p></details>
 
 <span id="p36" class="anchor"></span>
@@ -22,7 +22,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-221.3</strong> &middot; Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0036.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0036.webp" alt="MPP 531 page 36 S-221.3 Street Name Sign Posting"></a><figcaption>MPP 531, page 36.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Omit this sign when Y is less than 100&#x27; (callout pointing to the post at the &quot;N&quot; St. curb return near the service road).</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>1. Omit this sign when Y is less than 100&#x27; (callout pointing to the post at the &quot;N&quot; St. curb return near the service road).</p>
 <p>2. Labels on the drawing: &quot;J&quot; St.; &quot;K&quot; St.; &quot;L&quot; St.; &quot;M&quot; St.; &quot;N&quot; St.; &quot;A&quot;; Street; Service Rd. (one-way arrows shown); dimension Y.</p>
 <p>3. Sheet 4 of 4, Drawing No. S-221.3.</p></details>
 
@@ -32,7 +32,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-401.0</strong> &middot; Topics: bikeways, signals, parking-curb, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0037.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0037.webp" alt="MPP 531 page 37 S-401.0 Typical Major Highway Striping Treatments"></a><figcaption>MPP 531, page 37.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>NOTES:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>NOTES:</h5>
 <p>1. Selection of length of left turn pocket lane depends on demand, spacing between intersections and location of critical driveways to be served by two-way left turn lanes (2WLTL). The desirable length at signalized intersections is at least 40&#x27; of storage per vehicle per signal cycle averaged during the peak hour. However, this desirable length often may not be feasible. Minimum lengths at signalized intersections on highways with continuous median channelization are: 100&#x27; at major highways. 100&#x27; at secondary highways. 60&#x27; at collector streets. 40&#x27; at local streets. Minimum pocket lengths for major highways without continuous median channelization may be less than the above, depending on turning volumes and parking impacts.</p>
 <p>2. In general, 10&#x27; wide left turn channelization should be used. However a 12-foot median should be used if large vehicles are a significant portion of turning vehicles.</p>
 <p>3. Utilize 60&#x27; reversals for posted speed limits of 35 MPH and less, and 80&#x27; reversals for posted speed limits of 40 MPH and greater. A 40&#x27; minimum reversal may be used in exceptional situations for critical driveways.</p>
@@ -77,7 +77,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-401.1</strong> &middot; Topics: signals, parking-curb, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0042.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0042.webp" alt="MPP 531 page 42 S-401.1 Typical Secondary Highway Striping Treatments"></a><figcaption>MPP 531, page 42.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>NOTES:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>NOTES:</h5>
 <p>1. Selection of length of left turn pocket lane depends on demand, spacing between intersections and location of critical driveways to be served by two-way left turn lanes (2WLTL). The desirable length at signalized intersections is at least 40&#x27; of storage per vehicle per signal cycle averaged during the peak hour. However, this desirable length often may not be feasible. Minimum lengths at signalized intersections on highways with continuous median channelization are: 100&#x27; at major highways, 100&#x27; at secondary highways, 60&#x27; at collector streets, 40&#x27; at local streets. Minimum pocket lengths for secondary highways without continuous median channelization may be less, depending on turning volumes and parking impacts.</p>
 <p>2. Utilize 60&#x27; reversals for posted speed limits of 35 mph and less, and 80&#x27; reversals for posted speed limits of 40 mph and greater. A 40&#x27; minimum (MIN.) reversal may be used in exceptional situations for critical driveways.</p>
 <p>3. Selection of an open-ended (as shown in top drawing) versus closed-ended (as shown in middle drawing) 2WLTL is dependent, in part, on the proximity of a critical driveway to be served by a 2WLTL. Minimum distances to critical driveways are shown.</p>
@@ -89,7 +89,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-401.1</strong> &middot; Topics: striping</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0043.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0043.webp" alt="MPP 531 page 43 S-401.1 Typical Secondary Highway Striping Treatments"></a><figcaption>MPP 531, page 43.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>SEE SHEET 1 FOR NOTES. The notes are not repeated on this sheet. Labels: CRITICAL DRIVEWAY, 30&#x27; MIN., 40&#x27; MIN., 60&#x27; OR 80&#x27;, 100&#x27; to 120&#x27;, 12&quot; YELLOW, TAPER, STOPPING PROHIBITION.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>SEE SHEET 1 FOR NOTES. The notes are not repeated on this sheet. Labels: CRITICAL DRIVEWAY, 30&#x27; MIN., 40&#x27; MIN., 60&#x27; OR 80&#x27;, 100&#x27; to 120&#x27;, 12&quot; YELLOW, TAPER, STOPPING PROHIBITION.</p></details>
 
 <span id="p44" class="anchor"></span>
 
@@ -97,7 +97,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-404.1</strong> &middot; Topics: bikeways, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0044.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0044.webp" alt="MPP 531 page 44 S-404.1 On-Street Parallel Parking Stalls"></a><figcaption>MPP 531, page 44.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>Without bike lane (drawing not to scale):</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>Without bike lane (drawing not to scale):</h5>
 <p>* 18&#x27; may be used on the first and last stall in a block.</p>
 <p>Direction of vehicular travel (arrow).</p>
 <p>Labels and dimensions: 19&#x27;* stall length. T marking with 1&#x27;-6&quot; each side of the stem and a 1&#x27;-6&quot; stem. 4&quot; (TYP.) markings. 7&#x27;-6&quot; from face of curb to stall line. 8&#x27; between the end L markings over the red curb. Face of curb. Red curb. Parking meter 20&quot; from face of curb and 3&#x27; from the stall line.</p>
@@ -112,7 +112,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-404.2</strong> &middot; Topics: bikeways, parking-curb, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0045.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0045.webp" alt="MPP 531 page 45 S-404.2 On-Street Motorcycle Parking Stalls"></a><figcaption>MPP 531, page 45.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Both drawings are not to scale (WITHOUT BIKE LANE and WITH BIKE LANE).</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Both drawings are not to scale (WITHOUT BIKE LANE and WITH BIKE LANE).</p>
 <h5>Legend:</h5>
 <p>- Red curb (solid bar).</p>
 <p>- 6&quot; white marking (hatched bar).</p>
@@ -128,7 +128,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-404.2</strong> &middot; Topics: bikeways, parking-curb, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0046.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0046.webp" alt="MPP 531 page 46 S-404.2 On-Street Motorcycle Parking Stalls"></a><figcaption>MPP 531, page 46.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>Notes on this sheet (the numbered installation notes are on sheet 3 of 3):</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>Notes on this sheet (the numbered installation notes are on sheet 3 of 3):</p>
 <p>1. Both views are marked DRAWING NOT TO SCALE.</p>
 <p>2. The direction of vehicular travel is shown by an arrow pointing left.</p>
 <p>3. Red curb (R/C) is placed at each end of the stalls, next to the cross street curb return.</p>
@@ -146,7 +146,7 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-404.2</strong> &middot; Topics: parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0047.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0047.webp" alt="MPP 531 page 47 S-404.2 On-Street Motorcycle Parking Stalls"></a><figcaption>MPP 531, page 47.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>A. Installation notes:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><h5>A. Installation notes:</h5>
 <p>1. Parking meters may be replaced with a Pay Station Kiosk, and space numbering at the curb of each stall.</p>
 <p>2. All parking stall lines and edge lines shall be in Alkyd-based Thermoplastic in accordance with the current LADOT specifications.</p>
 <p>3. &quot;MOTORCYCLE&quot; pavement messages shall be in paint in accordance with the current LADOT specifications.</p>
@@ -174,5 +174,5 @@ sidebar:
 
 <div class="pmeta">Drawings: <strong>S-404.3</strong> &middot; Topics: parking-curb, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0048.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-531/p0048.webp" alt="MPP 531 page 48 S-404.3 Shared Mobility Parking (SMP) Zones On-Street and Sidewalk"></a><figcaption>MPP 531, page 48.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>SEE NOTE 2 (wheel stop) and SEE NOTES 10 &amp; 11 (sidewalk clearances) are referenced on this sheet. The notes are on sheet 3 of 3 of this drawing. Legend: flexible bollard sign, sign post, wheel stop rubberized (6&quot; wide x 48&quot; long x 4&quot; high).</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>SEE NOTE 2 (wheel stop) and SEE NOTES 10 &amp; 11 (sidewalk clearances) are referenced on this sheet. The notes are on sheet 3 of 3 of this drawing. Legend: flexible bollard sign, sign post, wheel stop rubberized (6&quot; wide x 48&quot; long x 4&quot; high).</p></details>
 
