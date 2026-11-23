@@ -2,6 +2,8 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import fs from 'node:fs';
+import { execFileSync } from 'node:child_process';
+execFileSync('python3', ['pipeline/prepare_reference.py'], { stdio: 'inherit' });
 const BUILD = Date.now().toString(36);
 
 const chapters = JSON.parse(fs.readFileSync('./data/ca-mutcd/chapters.json', 'utf8'));
@@ -85,6 +87,7 @@ export default defineConfig({
       head: [
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js?v=' + BUILD, defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/calculations.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/panel.js?v=' + BUILD, defer: true } },
       ],
       pagination: true,
@@ -136,6 +139,7 @@ export default defineConfig({
           { label: 'Caltrans 2018 Plans (Archive)', link: '/caltrans/standard-plans-2018/' },
         ] },
         { label: 'LA County Agencies', collapsed: true, items: [
+          { label: "LA BOE Street Design Manual", link: "/boe/street-design/" },
           ...cityAgencyDocs,
           { label: 'LADOT (12 Manuals & Drawings)', collapsed: true, items: [
             { label: 'All LADOT Documents', link: '/ladot/' },

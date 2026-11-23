@@ -216,6 +216,8 @@ window.__openSiteSearch = function (query) {
     if (url.includes('/standard-plans-2018/') || /2018/.test(label) && url.includes('/caltrans/')) return { tag: 'Superseded', cls: 'sup', pri: -30 };
     if (url.includes('/ca-mutcd/') || url.includes('/s/ca/') || url.includes('/la28-supplement/')) return { tag: 'CA MUTCD', cls: 'c', pri: 22 };
     if (url.includes('/caltrans/standard-plans-2026/') || url.includes('caltrans-std-plans-2026')) return { tag: 'Caltrans 2026', cls: 'c', pri: 20 };
+    if (url.includes('/boe/street-design/')) return { tag: 'LA BOE', cls: 'l', pri: 19 };
+    if (url.includes('/signs/retired/')) return { tag: 'Retired · Caltrans', cls: 'sup', pri: 32 };
     if (url.includes('/topics/')) return { tag: 'Topic', cls: 't', pri: 18 };
     if (url.includes('/bulletins/')) return { tag: 'Bulletin', cls: 'b', pri: 17 };
     if (url.includes('/markings/line-types/')) return { tag: 'Line Type', cls: 'm', pri: 16 };

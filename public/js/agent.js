@@ -79,7 +79,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     h = h.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, t, u) => `<a href="${safeUrl(u.replace(/&amp;/g, '&'))}">${t}</a>`);
     h = h.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     h = h.replace(/`([^`]+)`/g, '<code>$1</code>');
-    return h.split(/\n{2,}/).map((p) => {
+    return h.replace(/^(### [^\n]+)\n/gm, '$1\n\n').split(/\n{2,}/).map((p) => {
       if (/^###\s+/.test(p)) return '<h4>' + p.replace(/^###\s+/, '') + '</h4>';
       if (/^\s*[-*] /m.test(p)) {
         return '<ul>' + p.split('\n').filter((l) => l.trim()).map((l) => '<li>' + l.replace(/^\s*[-*] /, '') + '</li>').join('') + '</ul>';
@@ -277,6 +277,20 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     const pageContext = opts.pageText || '';
     const pageChecks = opts.pageChecks || [];
 
+    if (opts.action === 'checklist' || /checklist|plan review/i.test(cleanText)) {
+      const entries = [...document.querySelectorAll('ol.dwg-notes li[id], .prov p[id]')];
+      const lines = entries.map(el => {
+        const copy = el.cloneNode(true);
+        copy.querySelectorAll('del,.pn').forEach(node => node.remove());
+        return '- [' + el.id.replaceAll('-', ' ') + '](' + location.pathname + '#' + el.id + ') ' + copy.textContent.trim();
+      });
+      return {found: [], matchedDetails: [], hits: [], answer: '### Plan review checklist' + '\n\n' + (lines.join('\n') || 'This page has no indexed sheet notes. Open the source sheet to review its requirements.')};
+    }
+    const code = cleanText.toUpperCase().match(/\b[A-Z]+\d[\w-]*\s*\(CA\)/)?.[0].replace(/\s/g,'');
+    if (code) {
+      const retired = await (await fetch(BASE+'/data/retired.json')).json();
+      if (retired.codes[code]) return { found: [], matchedDetails: [], hits: [], answer: code+' · '+retired.codes[code]+'. Caltrans deleted this sign on '+retired.date+'. [Official notice]('+retired.source+')' };
+    }
     onLog('Searching standards...');
     const [sx, det, chk] = await Promise.all([loadSigns(), loadDetails(), loadChecks()]);
 
@@ -390,7 +404,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     while (el) {
       if (el.matches && el.matches('span.anchor')) break;
       if (/H2/.test(el.tagName)) { if (seenHeading) break; seenHeading = true; }
-      out.push(el.innerText || el.textContent || '');
+      const copy = el.cloneNode(true); copy.querySelectorAll('del,.pn').forEach(n => n.remove()); out.push(copy.textContent || '');
       el = el.nextElementSibling;
     }
     return out.join('\n').slice(0, 9000);

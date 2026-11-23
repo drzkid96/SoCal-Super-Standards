@@ -4,3 +4,5 @@ dist/
 sources/*.pdf
 *.log
 __pycache__/
+.boe-cache/
+.standards/

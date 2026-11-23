@@ -102,10 +102,10 @@
           </div>
 
           <div style="border:1px solid var(--fp-grid,#E7E8E8);border-radius:10px;padding:0.65rem;background:#fff">
-            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">1. Work-Zone Taper &amp; Buffer (CA MUTCD 6C)</strong>
+            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">1. Work-Zone Taper &amp; Buffer (CA MUTCD 6B &amp; 6K)</strong>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;margin-bottom:0.45rem">
-              <label>Speed (mph)<input id="c-spd" type="number" value="35" min="15" max="70" step="5" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
-              <label>Lane W (ft)<input id="c-lw" type="number" value="12" min="8" max="16" step="1" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+              <label>Speed (mph)<select id="c-spd">${[20,25,30,35,40,45,50,55,60,65,70,75].map(v => `<option ${v === 35 ? "selected" : ""}>${v}</option>`).join("")}</select></label>
+              <label>Lateral offset (ft)<input id="c-lw" type="number" value="12" min="0.01" step="any" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
             </div>
             <div id="c-tcp-out" style="background:var(--fp-band,#F2F2F2);padding:0.45rem 0.55rem;border-radius:6px;line-height:1.45"></div>
           </div>
@@ -120,10 +120,14 @@
           </div>
 
           <div style="border:1px solid var(--fp-grid,#E7E8E8);border-radius:10px;padding:0.65rem;background:#fff">
-            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">3. Ped Signal Walk + FDW (CA MUTCD 4I.06)</strong>
+            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">3. Pedestrian signal timing (CA MUTCD 4I.06)</strong>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;margin-bottom:0.45rem">
-              <label>Cross Dist (ft)<input id="c-cd" type="number" value="56" min="15" max="160" step="2" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
-              <label>Walk (sec)<input id="c-wk" type="number" value="7" min="4" max="20" step="1" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+              <label>Curb to far side (ft)<input id="c-cd" type="number" value="56" min="0.01" step="any" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+              <label>Requested WALK (s)<input id="c-wk" type="number" value="7" min="4" step="1" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+              <label>Clearance speed (ft/s)<input id="c-ped-speed" type="number" value="3.5" min="0.01" max="3.5" step="any"></label>
+              <label>Steady hand buffer (s)<input id="c-buffer" type="number" value="2" min="2" step="1"></label>
+              <label>Starting point<select id="c-start"><option value="curb">No detector (6 ft behind curb)</option><option value="detector">Pedestrian detector</option></select></label>
+              <label id="c-offset-label" hidden>Detector to curb (ft)<input id="c-offset" type="number" value="6" min="0" step="any"></label>
             </div>
             <div id="c-ped-out" style="background:var(--fp-band,#F2F2F2);padding:0.45rem 0.55rem;border-radius:6px;line-height:1.45"></div>
           </div>
@@ -160,15 +164,15 @@
   };
 
   function updateCalcs() {
-    // 1. Work-zone taper (CA MUTCD Table 6C-3/4)
-    const S = Math.max(15, Number($('#c-spd')?.value) || 35);
-    const W = Math.max(8, Number($('#c-lw')?.value) || 12);
-    const L = S <= 40 ? Math.ceil((W * S * S) / 60) : Math.ceil(W * S);
-    const shiftL = Math.ceil(L / 2);
-    const shldL = Math.ceil(L / 3);
-    const ssdBuf = Math.round(1.47 * S * 2.5 + (S * S) / (30 * 0.348));
-    $('#c-tcp-out').innerHTML = `Merge taper <b>L = ${L} ft</b> · Shift <b>${shiftL} ft</b> · Shoulder <b>${shldL} ft</b><br>Buffer (SSD): <b>${ssdBuf} ft</b> · Cone spacing: <b>${S} ft</b> taper / <b>${Math.min(100, S * 2)} ft</b> tangent`;
-
+    const input = (id) => $(id).value.trim() === '' ? NaN : Number($(id).value);
+    const zone = window.SSSCalculations.workZone(input('#c-spd'), input('#c-lw'));
+    $('#c-tcp-out').innerHTML = zone ? `Merge <b>${zone.merge} ft</b> · Shift <b>${zone.shift} ft</b> · Shoulder <b>${zone.shoulder} ft</b><br>
+      Level-road longitudinal buffer <b>${zone.buffer} ft</b><br>
+      Maximum device spacing · ordinary taper <b>${zone.taper} ft</b> · tangent <b>${zone.tangent} ft</b><br>
+      Conflicting or absent markings on intermediate- or short-term work · taper and tangent <b>${zone.conflict} ft</b><br>
+      One-lane, two-way or downstream taper · length <b>50–100 ft</b> · device spacing <b>${zone.specialSpacing} ft maximum</b><br>
+      <a href="https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/2026-camutcd-2026-6b-a11y.pdf#page=13">Taper criteria</a> · <a href="${BASE}/ca-mutcd/6k/#6k01">Device spacing</a>`
+      : 'Enter a positive lateral offset and a listed speed.';
     // 2. ADA Curb Ramp Run
     const ch = Math.max(1, Number($('#c-ch')?.value) || 6);
     const sl = Math.min(8.33, Math.max(2, Number($('#c-sl')?.value) || 7.5));
@@ -176,14 +180,14 @@
     const minRunFt = ((ch / 12) / 0.0833).toFixed(1);
     $('#c-ramp-out').innerHTML = `Design run @ ${sl}%: <b>${runFt} ft</b> (8.33% abs min: <b>${minRunFt} ft</b>)<br>Landing: <b>4 ft min</b> (2% max) · Flare: <b>10% max</b>`;
 
-    // 3. Ped Signal Timing (CA MUTCD 4I.06)
-    const cd = Math.max(10, Number($('#c-cd')?.value) || 56);
-    const wk = Math.max(4, Number($('#c-wk')?.value) || 7);
-    const fdw = Math.ceil(cd / 3.5);
-    const totalMin = Math.ceil(cd / 3.0);
-    const total = Math.max(wk + fdw, totalMin);
-    $('#c-ped-out').innerHTML = `FDW (@ 3.5 ft/s): <b>${fdw} sec</b> · Total Walk+FDW: <b>${total} sec</b><br><span style="opacity:0.8">(Checks 3.0 ft/s curb-to-curb min = ${totalMin} sec)</span>`;
-
+    const detector = $('#c-start').value === 'detector';
+    $('#c-offset-label').hidden = !detector;
+    const ped = window.SSSCalculations.pedestrian(input('#c-cd'), input('#c-wk'), input('#c-ped-speed'), input('#c-buffer'), detector ? input('#c-offset') : 6);
+    $('#c-ped-out').innerHTML = ped ? `WALK <b>${ped.walk} s</b> · flashing hand <b>${ped.change} s</b> · steady buffer <b>${ped.buffer} s</b><br>
+      Clearance <b>${ped.clearance} s</b> · total <b>${ped.total} s</b> · minimum at 3 ft/s from starting point <b>${ped.totalMinimum} s</b><br>
+      WALK is normally at least 7 s. A 4 s minimum applies where pedestrian volumes and characteristics permit. Consider a lower clearance speed where slower pedestrians routinely cross.
+      <a href="${BASE}/ca-mutcd/4i/#4i06">CA MUTCD §4I.06</a>`
+      : 'Enter a positive distance and clearance speed up to 3.5 ft/s, a whole WALK of at least 4 s, a whole buffer of at least 2 s and a nonnegative offset.';
     // 4. Red Curb / SSD
     const v = Math.max(15, Number($('#c-ssd-v')?.value) || 35);
     const ssd = Math.round(1.47 * v * 2.5 + (v * v) / (30 * 0.348));
@@ -241,6 +245,8 @@
     return kind === 'detail' || kind === 'sign' ? `<p><button type="button" class="sp-cite">Copy citation</button></p>` : '';
   }
   function citation() {
+    const button = document.querySelector('.agency-copy');
+    if (button) return button.dataset.citation + new URL(button.dataset.url, location.href).href;
     const h1 = (document.querySelector('h1')?.innerText || document.title).trim();
     const date = [...document.querySelectorAll('.sl-markdown-content td, .sl-markdown-content p')].map((e) => e.innerText).join(' ').match(/\b(?:dated|Date[d:]?)\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})/i);
     return `${h1}${date ? ` (sheet dated ${date[1]})` : ''}. SoCal Super Standards, accessed ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}. ${location.href}`;
@@ -248,10 +254,11 @@
 
   function pageText() {
     const m = document.querySelector('.sl-markdown-content') || document.querySelector('main');
-    return (m ? m.innerText : '').replace(/\n{3,}/g, '\n\n').slice(0, 14000);
+    const copy = m?.cloneNode(true); copy?.querySelectorAll('del,.pn').forEach(n => n.remove());
+    return (copy?.textContent || '').replace(/\n{3,}/g, '\n\n').slice(0, 14000);
   }
 
-  async function ask(q) {
+  async function ask(q, action) {
     const out = $('.sp-out');
     if (!out) return;
     const item = document.createElement('div');
@@ -261,7 +268,7 @@
     try {
       if (!window.SSSAsk) throw new Error('Search engine is still loading — try again in a moment.');
       const r = await window.SSSAsk.askSite(q, {
-        pageText: pageText(),
+        action, pageText: pageText(),
         pageChecks: checks,
         onLog: (m) => { item.querySelector('.sp-r').textContent = m; },
       });
@@ -274,7 +281,7 @@
   window.__ready(async () => {
     document.body.append(ui);
     $('.sp-pre').innerHTML = (PRESETS[kind] || PRESETS.page).map(([t], i) => `<button type="button" data-i="${i}">${esc(t)}</button>`).join('');
-    $('.sp-pre').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) ask((PRESETS[kind] || PRESETS.page)[b.dataset.i][1]); });
+    $('.sp-pre').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) ask((PRESETS[kind] || PRESETS.page)[b.dataset.i][1], b.textContent === 'Checklist' ? 'checklist' : undefined); });
     $('.sp-send').addEventListener('click', () => { const t = $('textarea').value.trim(); if (t) ask(t); });
     $('textarea').addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); const t = $('textarea').value.trim(); if (t) ask(t); } });
     $('.sp-clear').addEventListener('click', () => { $('.sp-out').innerHTML = ''; $('textarea').value = ''; });
@@ -300,7 +307,7 @@
     if (aiLoad) aiLoad.onclick = () => { window.SSSAsk && window.SSSAsk.enableBrowserAI().catch(() => {}); };
 
     // Wire live calculators
-    ['#c-spd', '#c-lw', '#c-ch', '#c-sl', '#c-cd', '#c-wk', '#c-ssd-v'].forEach((id) => {
+    ['#c-ped-speed', '#c-buffer', '#c-start', '#c-offset', '#c-spd', '#c-lw', '#c-ch', '#c-sl', '#c-cd', '#c-wk', '#c-ssd-v'].forEach((id) => {
       const el = $(id);
       if (el) el.addEventListener('input', updateCalcs);
     });
@@ -335,3 +342,11 @@
     }
   });
 })();
+
+document.addEventListener('click', async (event) => {
+  const button = event.target.closest('.agency-copy');
+  if (!button) return;
+  const citation = button.dataset.citation + new URL(button.dataset.url, location.href).href;
+  try { await navigator.clipboard.writeText(citation); button.textContent = 'Copied'; }
+  catch { button.textContent = citation; }
+});
