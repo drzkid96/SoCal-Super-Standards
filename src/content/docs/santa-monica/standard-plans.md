@@ -38,13 +38,22 @@ From Santa Monica Public Works *Plan Check Checklist — Offsite Improvements* (
 
 ## Temporary Traffic Control Plan (TTCP) Rules (Effective Oct 15, 2026)
 
-From Santa Monica Public Works Mobility Division [*TTCP Review &amp; Submission Requirements*](https://www.santamonica.gov/process-explainers/how-to-submit-a-temporary-traffic-control-plan) (October 2026) and *Traffic Control Plan Supplement*. The supplement is a project-specific form. Its conditions apply as marked on the signed and stamped copy.
+Santa Monica Public Works lists when its Traffic Engineering team reviews a plan in the [*TTCP Review &amp; Submission Requirements*, updated October 16, 2026](https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Submit%20a%20Temporary%20Traffic%20Control%20Plan/TTCP%20Review%20%26%20Submission%20Requirements.pdf). Start with the [review flowchart and Streets of Significance list](https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Submit%20a%20Temporary%20Traffic%20Control%20Plan/TTCP%20Review%20%26%20Submission%20Requirements.pdf#page=3) for the street where the work will take place. The [city submission portal](https://www.santamonica.gov/process-explainers/how-to-submit-a-temporary-traffic-control-plan) explains how to apply and pay the review fees.
 
-- **PE Stamp:** Plans must be stamped, signed, and dated by a CA-licensed **Civil or Traffic Engineer** (City reserves the right to require both seals).
-- **ProjectDox Upload Standards:** Each sheet uploaded as a **separate single-page PDF**, **landscape orientation**, **≤ 3 MB per PDF**, zero-padded naming (`TTCP01.pdf`, `TTCP02.pdf`, …) into the `"Plans"` folder.
-- **Downtown blackout days:** **No work in the Downtown area on Wednesdays or Saturdays** (Farmers' Market days).
-- **High-noise equipment hours (SMMC 4.12.060):** Jackhammers, pile drivers, pavement breakers, or equipment &gt; 90 dBA limited to **10:00 a.m. – 3:00 p.m.**
-- **Steel trench plates:** Must be **friction-surfaced** per Caltrans Encroachment Permits Manual § 602.1 (*Steel Trench Plating Guidelines*) with **cold-mix asphalt tapered edges**; smooth plates prohibited; post advance **W33 (Rough Road)** orange warning signs.
+### Preparing a submittal
+
+- **Engineer certification.** A California civil or traffic engineer must sign, stamp and date the plans. The city may require both seals. [Certification and required plan elements, p. 6](https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Submit%20a%20Temporary%20Traffic%20Control%20Plan/TTCP%20Review%20%26%20Submission%20Requirements.pdf#page=6)
+- **ProjectDox files.** Upload each drawing to the Plans folder as a separate landscape PDF of 3 MB or less. Supporting documents go in Supporting Docs. [File and upload standards, p. 6](https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Submit%20a%20Temporary%20Traffic%20Control%20Plan/TTCP%20Review%20%26%20Submission%20Requirements.pdf#page=6) · [ProjectDox](https://plans.smgov.net/projectdox) · [Applicant guide](https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Submit%20a%20Temporary%20Traffic%20Control%20Plan/TTCP%20Applicant%20Submittal%20Guide.pdf)
+- **Sheet names.** For fewer than ten sheets, use `TTCP1.0.pdf`, `TTCP2.0.pdf`, and so on. For more than ten, pad sheets 1–9 with a leading zero, as in `TTCP01.0.pdf`. Page 6 leaves a ten-sheet set unspecified. [City filename examples](https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Submit%20a%20Temporary%20Traffic%20Control%20Plan/TTCP%20Review%20%26%20Submission%20Requirements.pdf#page=6)
+- **General notes.** Include the city's current notes on one sheet in a multi-sheet set. The [general notes start on page 13](https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Submit%20a%20Temporary%20Traffic%20Control%20Plan/TTCP%20Review%20%26%20Submission%20Requirements.pdf#page=13).
+
+<!-- preview-ttcp-requirements -->
+
+### Traffic Control Plan Supplement
+
+The [*Traffic Control Plan Supplement*](https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Obtain%20a%20Roadway%20Closure%20Permit/Traffic%20Control%20Plan%20Supplement%202022.pdf) records the conditions approved for a particular location. Read the signature and stamp with the boxes checked for lane access, pedestrian passage and working hours. The form also addresses downtown market days, high-noise work and temporary trench plates. The city's [excavation permit instructions](https://www.santamonica.gov/process-explainers/how-to-get-an-excavation-permit) explain when a lane encroachment calls for the supplement.
+
+<!-- preview-ttcp-supplement -->
 
 ## Santa Monica Standard Detail Index (Public Works Portal)
 

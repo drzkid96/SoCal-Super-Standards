@@ -21,7 +21,7 @@ official.update({
 'California MUTCD 2026':BASE+'/ca-mutcd/',
 'MUTCD 11th Edition with Revision 1':BASE+'/mutcd/',
 'Standard Highway Signs':'https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/index.htm',
-'TTCP Review & Submission Requirements':'https://www.santamonica.gov/process-explainers/how-to-submit-a-temporary-traffic-control-plan',
+'TTCP Review & Submission Requirements':'https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Submit%20a%20Temporary%20Traffic%20Control%20Plan/TTCP%20Review%20%26%20Submission%20Requirements.pdf',
 'Traffic Control Plan Supplement':'https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Obtain%20a%20Roadway%20Closure%20Permit/Traffic%20Control%20Plan%20Supplement%202022.pdf',
 'Plan Check Checklist — Offsite Improvements':'https://www.santamonica.gov/media/Public%20Works/Engineering%20%26%20Street%20Services/Land%20Development/Offsite%20Improvements/Checklist%20-%20Off-site%20%20%28Rev%206-27-23%29.pdf',
 'City Curb Ramp Memo':'https://www.santamonica.gov/media/Public%20Works/Engineering%20%26%20Street%20Services/Standard%20Details%20and%20Specifications/Memorandum_CurbRampDesign%20s%20%281%29.pdf',
