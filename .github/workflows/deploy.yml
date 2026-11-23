@@ -43,6 +43,10 @@ jobs:
           for f in public/js/*.js; do node --check "$f"; done
           python3 -I pipeline/check_links.py
           python3 -I pipeline/check_bike_refs.py
+      - name: Test desktop and mobile sheet navigation
+        run: |
+          python -m pip install selenium
+          python pipeline/test_sheet_viewer.py
   deploy:
     if: github.event_name != 'pull_request'
     needs: build
