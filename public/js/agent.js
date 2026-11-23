@@ -1,65 +1,35 @@
 window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', f) : f()));
-// SoCal Super Standards Assistant:
-// - Works out-of-the-box with ZERO API key using built-in Pagefind + details.json + signs-index + checks.json synthesis
-// - Optional upgrade: Google Gemini (free tier, supports screenshots), OpenRouter (free models), Local Ollama (no key), or Anthropic Claude
+// Unified SoCal Super Standards Assistant (window.SSSAsk)
+// Powers: (1) /ask/ page, (2) Right-side Ask drawer (panel.js), (3) MUTCD section summarizer.
+// Zero API keys, zero setup. Instant built-in standards engine + optional 1-click in-browser AI model.
 (() => {
   const BASE = '/SoCal-Super-Standards';
-  const PROV_KEY = 'sss-ai-provider';
-  const KEY_STORE = 'sss-ai-key';
-  const LEGACY_KEY = 'sss-anthropic-key';
-  const MODEL_KEY = 'sss-ai-model';
-
-  const DEFAULT_MODELS = {
-    builtin: '',
-    gemini: 'gemini-2.5-flash',
-    openrouter: 'meta-llama/llama-3.3-70b-instruct:free',
-    ollama: 'llama3.2',
-    anthropic: 'claude-sonnet-4-5',
-  };
-  const PROVIDER_LABELS = {
-    builtin: 'Built-in Instant Engine (Free)',
-    gemini: 'Google Gemini (Free Tier)',
-    openrouter: 'OpenRouter',
-    ollama: 'Local Ollama',
-    anthropic: 'Anthropic Claude',
-  };
-
   let pagefind = null;
   let signs = null;
   let details = null;
   let checks = null;
 
-  const getProv = () => {
-    try {
-      const p = localStorage.getItem(PROV_KEY);
-      if (p && DEFAULT_MODELS[p] !== undefined) return p;
-      if (localStorage.getItem(LEGACY_KEY)) return 'anthropic';
-    } catch {}
-    return 'builtin';
-  };
-  const getKey = () => {
-    try { return localStorage.getItem(KEY_STORE) || localStorage.getItem(LEGACY_KEY) || ''; } catch { return ''; }
-  };
-  const getModel = (prov = getProv()) => {
-    try { return localStorage.getItem(MODEL_KEY) || DEFAULT_MODELS[prov] || ''; } catch { return DEFAULT_MODELS[prov] || ''; }
-  };
+  // Optional built-in browser AI (Chrome built-in LanguageModel or lazy Transformers.js Qwen2.5-0.5B)
+  let localPipe = null;
+  let localMode = 'instant'; // 'instant' | 'chrome-ai' | 'web-ai'
+  let localLoading = false;
 
   const strip = (h) => (h || '').replace(/<[^>]+>/g, '');
   const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  const safeUrl = (u) => (/^(https?:\/\/|\/)/.test(u) ? u : '#');
 
   function md(text) {
-    let h = String(text || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
-    h = h.replace(/\[([^\]]+)\]\((\/?[^)\s]+)\)/g, (m, t, u) => `<a href="${/^(https?:\/\/|\/)/.test(u) ? u : '#'}">${t}</a>`);
+    let h = esc(text);
+    h = h.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, t, u) => `<a href="${safeUrl(u.replace(/&amp;/g, '&'))}">${t}</a>`);
     h = h.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     h = h.replace(/`([^`]+)`/g, '<code>$1</code>');
-    h = h.split(/\n{2,}/).map((p) => {
+    return h.split(/\n{2,}/).map((p) => {
       if (/^###\s+/.test(p)) return '<h4>' + p.replace(/^###\s+/, '') + '</h4>';
       if (/^\s*[-*] /m.test(p)) {
         return '<ul>' + p.split('\n').filter((l) => l.trim()).map((l) => '<li>' + l.replace(/^\s*[-*] /, '') + '</li>').join('') + '</ul>';
       }
       return '<p>' + p.replace(/\n/g, '<br>') + '</p>';
     }).join('');
-    return h;
   }
 
   async function loadPagefind() {
@@ -70,22 +40,80 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     return pagefind;
   }
   async function loadSigns() {
-    if (!signs) {
-      try { signs = await (await fetch(BASE + '/data/signs-index.json')).json(); } catch { signs = {}; }
-    }
+    if (!signs) { try { signs = await (await fetch(BASE + '/data/signs-index.json')).json(); } catch { signs = {}; } }
     return signs;
   }
   async function loadDetails() {
-    if (!details) {
-      try { details = await (await fetch(BASE + '/data/details.json')).json(); } catch { details = []; }
-    }
+    if (!details) { try { details = await (await fetch(BASE + '/data/details.json')).json(); } catch { details = []; } }
     return details;
   }
   async function loadChecks() {
-    if (!checks) {
-      try { checks = await (await fetch(BASE + '/data/checks.json')).json(); } catch { checks = {}; }
-    }
+    if (!checks) { try { checks = await (await fetch(BASE + '/data/checks.json')).json(); } catch { checks = {}; } }
     return checks;
+  }
+
+  // Detect Chrome/Edge built-in on-device AI automatically (zero download, zero key)
+  async function detectChromeAI() {
+    try {
+      if (typeof LanguageModel !== 'undefined' && LanguageModel.availability) {
+        const av = await LanguageModel.availability();
+        if (av === 'available' || av === 'readily') {
+          localMode = 'chrome-ai';
+          return true;
+        }
+      }
+    } catch {}
+    return false;
+  }
+
+  // Lazy-load lightweight in-browser AI model (Qwen2.5-0.5B-Instruct via Transformers.js, cached in browser)
+  async function enableBrowserAI(onProgress) {
+    if (localMode === 'chrome-ai') return 'chrome-ai';
+    if (localPipe) { localMode = 'web-ai'; return 'web-ai'; }
+    if (localLoading) return localMode;
+    localLoading = true;
+    try {
+      if (await detectChromeAI()) {
+        if (onProgress) onProgress('Using built-in browser AI (ready).');
+        return 'chrome-ai';
+      }
+      if (onProgress) onProgress('Loading free in-browser AI model (first time ~250 MB, cached afterward)...');
+      const { pipeline } = await import(/* @vite-ignore */ 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.4.0');
+      localPipe = await pipeline('text-generation', 'onnx-community/Qwen2.5-0.5B-Instruct', {
+        dtype: 'q4',
+        progress_callback: (p) => {
+          if (onProgress && p && p.status === 'progress' && typeof p.progress === 'number') {
+            onProgress(`Loading in-browser AI: ${Math.round(p.progress)}%`);
+          }
+        },
+      });
+      localMode = 'web-ai';
+      if (onProgress) onProgress('In-browser AI ready (runs locally, no API key).');
+      return 'web-ai';
+    } catch (e) {
+      localMode = 'instant';
+      if (onProgress) onProgress('Using Instant Built-in Engine (browser AI unavailable here).');
+      throw e;
+    } finally {
+      localLoading = false;
+    }
+  }
+
+  async function runLocalLLM(system, prompt) {
+    if (localMode === 'chrome-ai' && typeof LanguageModel !== 'undefined') {
+      const sess = await LanguageModel.create({ systemPrompt: system });
+      try { return await sess.prompt(prompt); } finally { sess.destroy && sess.destroy(); }
+    }
+    if (localMode === 'web-ai' && localPipe) {
+      const out = await localPipe(
+        [{ role: 'system', content: system }, { role: 'user', content: prompt.slice(0, 3200) }],
+        { max_new_tokens: 320, temperature: 0.2, do_sample: false }
+      );
+      const gen = out?.[0]?.generated_text;
+      if (Array.isArray(gen)) return gen[gen.length - 1]?.content || '';
+      return String(gen || '');
+    }
+    return '';
   }
 
   async function pfSearch(q, n = 8) {
@@ -101,99 +129,6 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     return out;
   }
 
-  // Multi-provider cloud/local LLM call (only used when user explicitly selects a provider other than builtin)
-  async function callLLM(promptText, system, images = [], maxTokens = 1600) {
-    const prov = getProv();
-    const key = getKey();
-    const model = getModel(prov);
-
-    if (prov === 'gemini') {
-      if (!key) throw new Error('Add your free Google Gemini API key (aistudio.google.com/apikey) or switch to Built-in Instant Engine.');
-      const parts = [{ text: promptText }];
-      for (const im of images) parts.push({ inline_data: { mime_type: im.media, data: im.data } });
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model || 'gemini-2.5-flash')}:generateContent?key=${encodeURIComponent(key)}`;
-      const r = await fetch(url, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({
-          systemInstruction: { parts: [{ text: system }] },
-          contents: [{ role: 'user', parts }],
-          generationConfig: { maxOutputTokens: maxTokens },
-        }),
-      });
-      if (!r.ok) throw new Error('Gemini API error ' + r.status + ': ' + (await r.text()).slice(0, 240));
-      const j = await r.json();
-      return (j.candidates?.[0]?.content?.parts || []).map((p) => p.text || '').join('\n');
-    }
-
-    if (prov === 'openrouter') {
-      if (!key) throw new Error('Add your OpenRouter API key (openrouter.ai/keys) or switch to Built-in Instant Engine.');
-      const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'content-type': 'application/json',
-          'authorization': 'Bearer ' + key,
-          'HTTP-Referer': location.origin,
-          'X-Title': 'SoCal Super Standards',
-        },
-        body: JSON.stringify({
-          model: model || 'meta-llama/llama-3.3-70b-instruct:free',
-          max_tokens: maxTokens,
-          messages: [{ role: 'system', content: system }, { role: 'user', content: promptText }],
-        }),
-      });
-      if (!r.ok) throw new Error('OpenRouter error ' + r.status + ': ' + (await r.text()).slice(0, 240));
-      const j = await r.json();
-      return j.choices?.[0]?.message?.content || '';
-    }
-
-    if (prov === 'ollama') {
-      const r = await fetch('http://localhost:11434/api/chat', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({
-          model: model || 'llama3.2',
-          stream: false,
-          messages: [{ role: 'system', content: system }, { role: 'user', content: promptText }],
-        }),
-      });
-      if (!r.ok) throw new Error('Local Ollama error ' + r.status + ' (make sure Ollama is running with OLLAMA_ORIGINS=*).');
-      const j = await r.json();
-      return j.message?.content || '';
-    }
-
-    if (prov === 'anthropic') {
-      if (!key) throw new Error('Add your Anthropic API key or switch to Built-in Instant Engine.');
-      const content = [];
-      for (const im of images) content.push({ type: 'image', source: { type: 'base64', media_type: im.media, data: im.data } });
-      content.push({ type: 'text', text: promptText });
-      const r = await fetch('https://api.anthropic.com/v1/messages', {
-        method: 'POST',
-        headers: {
-          'content-type': 'application/json',
-          'x-api-key': key,
-          'anthropic-version': '2023-06-01',
-          'anthropic-dangerous-direct-browser-access': 'true',
-        },
-        body: JSON.stringify({ model: model || 'claude-sonnet-4-5', max_tokens: maxTokens, system, messages: [{ role: 'user', content }] }),
-      });
-      if (!r.ok) throw new Error('Claude API error ' + r.status + ': ' + (await r.text()).slice(0, 240));
-      const j = await r.json();
-      return j.content.filter((c) => c.type === 'text').map((c) => c.text).join('\n');
-    }
-
-    throw new Error('Unknown provider.');
-  }
-
-  function fileToB64(file) {
-    return new Promise((res, rej) => {
-      const fr = new FileReader();
-      fr.onload = () => res({ media: file.type || 'image/png', data: String(fr.result).split(',')[1] });
-      fr.onerror = rej;
-      fr.readAsDataURL(file);
-    });
-  }
-
   function classifyAuthority(url) {
     if (url.includes('/ca-mutcd/') || url.includes('/caltrans/la28-supplement/')) return { rank: 1, bucket: 'CA MUTCD 2026 (Legal Standard)' };
     if (url.includes('/caltrans/standard-plans-2026/') || url.includes('/details/caltrans/') || url.includes('/bulletins/caltrans-') || url.includes('/markings/')) return { rank: 2, bucket: 'Caltrans 2026 & State Bulletins' };
@@ -201,6 +136,11 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     if (/\/(long-beach|palmdale|torrance|gardena|glendora|burbank|pasadena|santa-monica|west-hollywood|culver-city|cities)\//.test(url)) return { rank: 4, bucket: 'LA County Municipal Standards' };
     if (url.includes('/topics/') || url.includes('/bulletins/')) return { rank: 5, bucket: 'Design Summaries & Comparisons' };
     return { rank: 6, bucket: 'Federal Baseline & National Guides' };
+  }
+
+  function tokenize(q) {
+    return (q || '').toLowerCase().replace(/[^a-z0-9.-]+/g, ' ').split(/\s+/)
+      .filter((t) => t.length >= 2 && !/^(the|and|for|with|what|how|does|are|can|use|per|in|of|to|on|at|is|a|an|this|page|about)$/.test(t));
   }
 
   function scoreDetail(d, qLower, tokens) {
@@ -223,20 +163,72 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     return s;
   }
 
-  // ------------------------------------------------------------------ ASK (Zero-Key Built-in + Optional LLM)
-  async function ask(text, images, log) {
-    const prov = getProv();
-    const cleanText = (text || '').trim();
-    if (!cleanText && !images.length) throw new Error('Type a question, sign code, detail number, or topic first.');
+  // Page-aware instant summary / checklist / Q&A (used by right-side drawer on any page)
+  function extractPageAnswer(q, pageText, pageChecks) {
+    const ql = (q || '').toLowerCase();
+    const sents = (pageText || '').replace(/\s+/g, ' ').split(/(?<=[.!?])\s+/).filter((s) => s.length > 18 && s.length < 340);
+    const out = [];
 
-    if (images.length && (prov === 'builtin' || prov === 'openrouter' || prov === 'ollama')) {
-      throw new Error('Screenshot vision requires Google Gemini (free API key) or Anthropic Claude. Expand the Optional AI panel below to connect free Gemini in 15 seconds, or type your question in text.');
+    if (/supersed|current|check|govern|flag/.test(ql)) {
+      if (pageChecks && pageChecks.length) {
+        out.push('### Status & Supersedence Checks on This Page');
+        pageChecks.forEach((c) => out.push(`- **${c.sev === 'warn' ? 'Check' : 'In effect'} — ${c.title}:** ${c.text}`));
+      } else {
+        out.push('No supersedence warnings are flagged on this page. In LA County, **CA MUTCD 2026** is the legal baseline, **Caltrans 2026 / HDM Ch. 1000** govern state design, and local city standard plans govern local right-of-way.');
+      }
+      return out.join('\n');
     }
 
-    log('Searching CA MUTCD 2026, Caltrans 2026, LADOT, 10 LA County cities & libraries...');
+    if (/checklist|requirement|shall|dimension|plan review/.test(ql)) {
+      const reqs = sents.filter((s) => /\b(shall|must|minimum|maximum|min\.|max\.|\d+\s*(?:ft|in\.|mph|%))\b/i.test(s)).slice(0, 7);
+      out.push('### Plan Review Checklist (from this page)');
+      if (reqs.length) reqs.forEach((s) => out.push('- ' + s));
+      else sents.slice(0, 5).forEach((s) => out.push('- ' + s));
+      return out.join('\n');
+    }
+
+    if (/summar|explain|key value|what/.test(ql) && tokenize(ql).length <= 4) {
+      const shalls = sents.filter((s) => /\bshall\b/i.test(s)).slice(0, 3);
+      const shoulds = sents.filter((s) => /\bshould\b/i.test(s) && !/\bshall\b/i.test(s)).slice(0, 2);
+      const dims = sents.filter((s) => /\d+\s*(?:ft|in\.|mph|%)/i.test(s)).slice(0, 3);
+      const picked = [...new Set([...shalls, ...dims, ...shoulds, ...sents.slice(0, 3)])].slice(0, 6);
+      out.push('### Quick Summary of This Page');
+      picked.forEach((s) => out.push('- ' + s));
+      return out.join('\n');
+    }
+
+    // Keyword match on current page first
+    const toks = tokenize(ql);
+    const scored = sents.map((s) => ({
+      s,
+      n: toks.reduce((acc, t) => acc + (s.toLowerCase().includes(t) ? 1 : 0), 0),
+    })).filter((x) => x.n > 0).sort((a, b) => b.n - a.n).slice(0, 4);
+
+    if (scored.length) {
+      out.push('### On This Page');
+      scored.forEach((x) => out.push('- ' + x.s));
+    }
+    return out.join('\n');
+  }
+
+  // Unified Ask function used by BOTH /ask/ and the right-side drawer
+  async function askSite(query, opts = {}) {
+    const cleanText = (query || '').trim();
+    if (!cleanText) throw new Error('Type a question, sign code, detail number, or city name.');
+    const onLog = opts.onLog || (() => {});
+    const pageContext = opts.pageText || '';
+    const pageChecks = opts.pageChecks || [];
+
+    onLog('Searching standards...');
     const [sx, det, chk] = await Promise.all([loadSigns(), loadDetails(), loadChecks()]);
 
-    // Extract sign codes & drawing numbers directly from query
+    // 1. Page-local answer if called from a specific page drawer
+    let pageAns = '';
+    if (pageContext) {
+      pageAns = extractPageAnswer(cleanText, pageContext, pageChecks);
+    }
+
+    // 2. Match signs
     const rawCodes = cleanText.match(/\b(?:R|W|G|S|D|E|M|C|OM|SR|SW|SG)\d+[A-Z0-9-]*(?:\(CA\))?\b/gi) || [];
     const foundSignsMap = new Map();
     for (const c of rawCodes) {
@@ -244,40 +236,68 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
       const hit = sx[up] || sx[up.replace(/\(CA\)$/, '')] || sx[up + '(CA)'];
       if (hit && !foundSignsMap.has(hit.code)) foundSignsMap.set(hit.code, hit);
     }
-
-    // Also match signs by keyword if fewer than 4 matched by code
-    const tokens = cleanText.toLowerCase().replace(/[^a-z0-9.-]+/g, ' ').split(/\s+/).filter((t) => t.length >= 2 && !/^(the|and|for|with|what|how|does|are|can|use|per|in|of|to|on|at|is|a|an)$/.test(t));
+    const tokens = tokenize(cleanText);
     if (foundSignsMap.size < 4 && tokens.length) {
       for (const s of Object.values(sx)) {
         if (foundSignsMap.size >= 6) break;
         const hay = ((s.code || '') + ' ' + (s.descriptor || '') + ' ' + (s.name || '')).toLowerCase();
-        if (tokens.filter((t) => hay.includes(t)).length >= Math.min(2, tokens.length)) {
-          foundSignsMap.set(s.code, s);
-        }
+        if (tokens.filter((t) => hay.includes(t)).length >= Math.min(2, tokens.length)) foundSignsMap.set(s.code, s);
       }
     }
     const found = [...foundSignsMap.values()].slice(0, 6);
 
-    // Match visual standard drawings & figures from details.json
+    // 3. Match standard drawings & figures
     const qLower = cleanText.toLowerCase();
     const matchedDetails = det
       .map((d) => ({ d, s: scoreDetail(d, qLower, tokens) }))
       .filter((x) => x.s >= 16)
       .sort((a, b) => b.s - a.s)
-      .slice(0, 6)
+      .slice(0, opts.compact ? 4 : 6)
       .map((x) => x.d);
 
-    // Pagefind full-text search
+    // 4. Full-site Pagefind search (skip if it's purely a "summarize/checklist/supersede this page" button)
+    const isPageOnly = pageContext && /^(explain this|summarize|plan review checklist|what could supersede|is it current|key values)/i.test(cleanText);
     const hits = new Map();
-    const queries = [cleanText];
-    if (tokens.length > 3) queries.push(tokens.slice(0, 4).join(' '));
-    for (const q of queries) {
-      for (const h of await pfSearch(q, 10)) {
-        if (!hits.has(h.url)) hits.set(h.url, h);
+    if (!isPageOnly) {
+      const queries = [cleanText];
+      if (tokens.length > 3) queries.push(tokens.slice(0, 4).join(' '));
+      for (const q of queries) {
+        for (const h of await pfSearch(q, opts.compact ? 5 : 10)) {
+          if (!hits.has(h.url)) hits.set(h.url, h);
+        }
       }
     }
+    const hitList = [...hits.values()].sort((a, b) => classifyAuthority(a.url).rank - classifyAuthority(b.url).rank);
 
-    // Supersedence flags
+    // 5. If in-browser AI is enabled, synthesize a concise plain-English answer grounded in the hits
+    let llmSummary = '';
+    if (localMode !== 'instant') {
+      try {
+        onLog('Writing plain-English answer with in-browser AI...');
+        const snippetCtx = [
+          pageContext ? 'CURRENT PAGE:\n' + pageContext.slice(0, 1400) : '',
+          hitList.slice(0, 5).map((h) => `- ${h.title}: ${h.excerpt}`).join('\n'),
+          matchedDetails.slice(0, 4).map((d) => `- ${d.num} ${d.title} (${d.src}): ${d.sum}`).join('\n'),
+        ].filter(Boolean).join('\n\n');
+        llmSummary = await runLocalLLM(
+          'You are a concise California traffic engineering assistant. Answer in 3-5 short plain-English bullets using ONLY the supplied standards excerpts. Name CA MUTCD 2026, Caltrans 2026, LADOT, or the specific city.',
+          `Question: ${cleanText}\n\nExcerpts:\n${snippetCtx}`
+        );
+      } catch {}
+    }
+
+    // 6. Compose clean markdown answer
+    const lines = [];
+    if (llmSummary) {
+      lines.push('### AI Summary');
+      lines.push(llmSummary.trim());
+      lines.push('');
+    }
+    if (pageAns) {
+      lines.push(pageAns);
+      lines.push('');
+    }
+
     const flagText = (u) => {
       try {
         const k = new URL(u, location.origin).pathname.replace(/index\.html$/, '').replace(/\/?$/, '/');
@@ -285,75 +305,61 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
       } catch { return ''; }
     };
 
-    const hitList = [...hits.values()].sort((a, b) => classifyAuthority(a.url).rank - classifyAuthority(b.url).rank);
-
-    // If user connected an optional LLM, synthesize with it
-    if (prov !== 'builtin') {
-      log(`Synthesizing answer with ${PROVIDER_LABELS[prov] || prov}...`);
-      const ctx = hitList.slice(0, 14).map((h, i) => {
+    if (!isPageOnly) {
+      const grouped = new Map();
+      const warnings = [];
+      for (const h of hitList.slice(0, opts.compact ? 6 : 12)) {
+        const b = classifyAuthority(h.url).bucket;
+        if (!grouped.has(b)) grouped.set(b, []);
+        if (grouped.get(b).length < (opts.compact ? 2 : 3)) grouped.get(b).push(h);
         const fl = flagText(h.url);
-        return `[${i + 1}] ${h.title}\nURL: ${h.url}\n${h.excerpt}${fl ? '\nSUPERSEDENCE FLAG: ' + fl : ''}`;
-      }).join('\n\n');
-      const detCtx = matchedDetails.map((d) => `- ${d.num} ${d.title} (${d.src}): ${d.sum} [Link](${d.url})`).join('\n');
-      const answer = await callLLM(
-        `Question: ${cleanText || '(see attached image)'}\n\nMatched drawings:\n${detCtx || 'none'}\n\nMatched signs: ${found.map((s) => s.code + ' ' + s.descriptor).join('; ') || 'none'}\n\nSite search results:\n${ctx}`,
-        `You are the SoCal Super Standards assistant for California traffic engineers.
-Answer concisely using ONLY the provided results. Cite every claim with markdown links like [CA MUTCD 3C.05](url).
-Order of authority: CA MUTCD 2026 is the legal standard in California; Caltrans 2026 Standard Plans & HDM/DIBs govern state design; LADOT and LA County city plans govern local ROW; FHWA/AASHTO/NACTO are guidance.
-Call out Standards (shall), Guidance (should), Options (may), and any SUPERSEDENCE FLAG.`,
-        images,
-        1600
-      );
-      return { summary: `Answered via ${PROVIDER_LABELS[prov]}`, found, matchedDetails, answer, hits: hitList };
-    }
-
-    // Built-in Instant Zero-Key Engineering Synthesis
-    const grouped = new Map();
-    const warnings = [];
-    for (const h of hitList.slice(0, 14)) {
-      const b = classifyAuthority(h.url).bucket;
-      if (!grouped.has(b)) grouped.set(b, []);
-      if (grouped.get(b).length < 4) grouped.get(b).push(h);
-      const fl = flagText(h.url);
-      if (fl) warnings.push(`**Supersedence flag on [${h.title}](${h.url}):** ${fl}`);
-    }
-
-    const lines = [];
-    if (warnings.length) {
-      lines.push('### Supersedence & Currency Alerts');
-      warnings.slice(0, 3).forEach((w) => lines.push('- ' + w));
-      lines.push('');
-    }
-    if (!hitList.length && !matchedDetails.length && !found.length) {
-      lines.push('No direct matches found for that phrasing. Try shorter engineering terms, a sign code (`R3-17`, `W11-2`), a Caltrans sheet (`A24F`, `A88A`, `Detail 22`), or a city name (`Long Beach`, `Torrance`, `Palmdale`).');
-    } else {
-      lines.push('**Order of authority in LA County:** **CA MUTCD 2026** (legal baseline) → **Caltrans 2026 Plans / HDM Ch. 1000 / DIBs** (statewide design criteria) → **LADOT or local LA County city standard plans** (local ROW) → **Federal MUTCD / AASHTO / FHWA / NACTO** (guidance).');
-      lines.push('');
+        if (fl) warnings.push(`**Check [${h.title}](${h.url}):** ${fl}`);
+      }
+      if (warnings.length) {
+        lines.push('### Supersedence Alerts');
+        warnings.slice(0, 2).forEach((w) => lines.push('- ' + w));
+        lines.push('');
+      }
       for (const [bucket, items] of grouped.entries()) {
         lines.push(`### ${bucket}`);
         for (const h of items) {
-          const ex = (h.excerpt || '').trim().slice(0, 220);
-          lines.push(`- **[${h.title}](${h.url})** — ${ex}${ex.length >= 220 ? '…' : ''}`);
+          const ex = (h.excerpt || '').trim().slice(0, opts.compact ? 140 : 210);
+          lines.push(`- **[${h.title}](${h.url})** — ${ex}${ex.length >= (opts.compact ? 140 : 210) ? '…' : ''}`);
         }
         lines.push('');
       }
     }
 
+    if (!lines.length && !matchedDetails.length && !found.length) {
+      lines.push('No direct matches found. Try a sign code (`R3-17`, `W11-2`), a Caltrans sheet (`A24F`, `A88A`), an LADOT drawing (`S-481.0`), or a city name (`Long Beach`, `Torrance`).');
+    }
+
     return {
-      summary: `Instant lookup across ${hitList.length} sections, ${matchedDetails.length} drawings, and ${found.length} signs (no API key needed).`,
-      found,
-      matchedDetails,
+      found: isPageOnly ? [] : found,
+      matchedDetails: isPageOnly ? [] : matchedDetails,
       answer: lines.join('\n'),
       hits: hitList,
+      mode: localMode,
     };
   }
 
-  // ------------------------------------------------------------------ EXPLAIN (Zero-Key + Optional LLM)
+  function renderResultHTML(r, compact = false) {
+    const signsHtml = r.found.length ? '<div class="ai-signs">' + r.found.map((s) =>
+      `<a class="scard" href="${esc(s.url)}"><span class="simg"><img src="${esc(s.svg)}" alt=""></span><span class="scode">${esc(s.code)}</span><span class="sname">${esc(s.descriptor || s.name || '')}</span></a>`).join('') + '</div>' : '';
+    const detHtml = r.matchedDetails.length ? '<div class="vis-strip" style="margin:0.6rem 0">' + r.matchedDetails.map((d) =>
+      `<a class="vis-card" href="${esc(d.url)}">${d.img ? `<img loading="lazy" src="${esc(d.img)}" alt="${esc(d.num)}">` : ''}<span><b>${esc(d.num)}</b>${esc((d.title || '').slice(0, compact ? 32 : 48))}</span></a>`).join('') + '</div>' : '';
+    const srcHtml = !compact && r.hits.length ? '<details class="ai-src"><summary>All matching pages (' + r.hits.length + ')</summary><ul>' + r.hits.map((h) => `<li><a href="${esc(h.url)}">${esc(h.title)}</a></li>`).join('') + '</ul></details>' : '';
+    return signsHtml + detHtml + '<div class="ai-answer">' + md(r.answer) + '</div>' + srcHtml;
+  }
+
+  // Expose unified global API for panel.js
+  window.SSSAsk = { askSite, renderResultHTML, enableBrowserAI, getMode: () => localMode, md, esc };
+
+  // ------------------------------------------------------------------ MUTCD SECTION SUMMARIZER
   function sectionText(root, anchorId) {
     const a = root.getElementById ? root.getElementById(anchorId) : root.querySelector('#' + anchorId);
     if (!a) return '';
-    let el = a.nextElementSibling, out = [];
-    let seenHeading = false;
+    let el = a.nextElementSibling, out = [], seenHeading = false;
     while (el) {
       if (el.matches && el.matches('span.anchor')) break;
       if (/H2/.test(el.tagName)) { if (seenHeading) break; seenHeading = true; }
@@ -363,71 +369,39 @@ Call out Standards (shall), Guidance (should), Options (may), and any SUPERSEDEN
     return out.join('\n').slice(0, 9000);
   }
 
-  function localExplain(here, other, isCA) {
-    const sents = here.replace(/\s+/g, ' ').split(/(?<=[.!?])\s+/).filter((s) => s.length > 20);
-    const shalls = sents.filter((s) => /\bshall\b/i.test(s)).slice(0, 5);
-    const shoulds = sents.filter((s) => /\bshould\b/i.test(s) && !/\bshall\b/i.test(s)).slice(0, 4);
-    const mays = sents.filter((s) => /\bmay\b/i.test(s) && !/\bshall\b|\bshould\b/i.test(s)).slice(0, 3);
-    const out = [];
-    out.push('### Standards (Shall — Mandatory)');
-    if (shalls.length) shalls.forEach((s) => out.push('- ' + s.slice(0, 260)));
-    else out.push('- No explicit `shall` statement detected in this excerpt.');
-    out.push('');
-    out.push('### Guidance (Should — Recommended)');
-    if (shoulds.length) shoulds.forEach((s) => out.push('- ' + s.slice(0, 240)));
-    else out.push('- None detected.');
-    out.push('');
-    if (mays.length) {
-      out.push('### Options (May — Permissive)');
-      mays.forEach((s) => out.push('- ' + s.slice(0, 220)));
-      out.push('');
-    }
-    out.push('### California vs. Federal Check');
-    if (!other) {
-      out.push(`- Matching ${isCA ? 'Federal MUTCD' : 'CA MUTCD'} section was not found — likely a California-specific or renumbered section.`);
-    } else {
-      const norm = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
-      if (norm(here) === norm(other)) {
-        out.push('- Text is substantively identical between CA MUTCD 2026 and Federal MUTCD 11th Ed. R1.');
-      } else {
-        const diffLen = here.length - other.length;
-        out.push(`- **California modifies this section** (${diffLen >= 0 ? '+' : ''}${diffLen} chars vs. ${isCA ? 'Federal' : 'CA'} counterpart). In California, **CA MUTCD 2026 governs** over Federal MUTCD.`);
-      }
-    }
-    return out.join('\n');
-  }
-
-  async function explain(anchorId, title, box) {
+  async function explainSection(anchorId, box) {
     const here = sectionText(document, anchorId);
     const isCA = location.pathname.includes('/ca-mutcd/');
     const ch = location.pathname.split('/').filter(Boolean).pop();
     let other = '';
     try {
       const url = BASE + (isCA ? '/mutcd/' : '/ca-mutcd/') + ch + '/';
-      const html = await (await fetch(url)).text();
-      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const doc = new DOMParser().parseFromString(await (await fetch(url)).text(), 'text/html');
       other = sectionText(doc, anchorId);
     } catch {}
-    const prov = getProv();
-    if (prov === 'builtin') {
-      box.innerHTML = md(localExplain(here, other, isCA));
-      return;
+    const sents = here.replace(/\s+/g, ' ').split(/(?<=[.!?])\s+/).filter((s) => s.length > 20);
+    const shalls = sents.filter((s) => /\bshall\b/i.test(s)).slice(0, 5);
+    const shoulds = sents.filter((s) => /\bshould\b/i.test(s) && !/\bshall\b/i.test(s)).slice(0, 4);
+    const mays = sents.filter((s) => /\bmay\b/i.test(s) && !/\bshall\b|\bshould\b/i.test(s)).slice(0, 3);
+    const out = ['### Standards (Shall — Mandatory)'];
+    if (shalls.length) shalls.forEach((s) => out.push('- ' + s.slice(0, 260)));
+    else out.push('- No explicit `shall` statement in this section.');
+    out.push('', '### Guidance (Should — Recommended)');
+    if (shoulds.length) shoulds.forEach((s) => out.push('- ' + s.slice(0, 240)));
+    else out.push('- None detected.');
+    if (mays.length) {
+      out.push('', '### Options (May — Permissive)');
+      mays.forEach((s) => out.push('- ' + s.slice(0, 220)));
     }
-    box.innerHTML = `<p class="ai-wait">Summarizing with ${esc(PROVIDER_LABELS[prov])}...</p>`;
-    try {
-      const out = await callLLM(
-        `Section: ${title}\n\n${isCA ? 'CA MUTCD 2026' : 'Federal MUTCD 11th Ed. Rev. 1'} text:\n${here}\n\n${isCA ? 'Federal MUTCD 11th Ed. Rev. 1' : 'CA MUTCD 2026'} text:\n${other || '(not found)'}`,
-        `Explain this MUTCD section to a practicing California traffic engineer:
-1) Standards (shall), Guidance (should), Options (may) — concise bullets.
-2) California vs. federal differences.
-3) Practical signing/striping plan review notes for Southern California.`,
-        [],
-        1400
-      );
-      box.innerHTML = md(out);
-    } catch (e) {
-      box.innerHTML = md(localExplain(here, other, isCA)) + '<p class="note">Cloud AI fallback note: ' + esc(e.message) + '</p>';
+    out.push('', '### California vs. Federal');
+    if (!other) out.push(`- No matching ${isCA ? 'Federal' : 'CA'} section found — likely California-specific or renumbered.`);
+    else {
+      const norm = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+      out.push(norm(here) === norm(other)
+        ? '- Substantively identical between CA MUTCD 2026 and Federal MUTCD 11th Ed. R1.'
+        : '- **California modifies this section.** In California, **CA MUTCD 2026 governs**.');
     }
+    box.innerHTML = md(out.join('\n'));
   }
 
   function addExplainButtons() {
@@ -437,110 +411,58 @@ Call out Standards (shall), Guidance (should), Options (may), and any SUPERSEDEN
       const target = h || a.nextElementSibling;
       if (!target) return;
       const btn = document.createElement('button');
-      btn.className = 'ai-explain'; btn.type = 'button'; btn.textContent = 'Summarize section (shall/should/may)';
+      btn.className = 'ai-explain'; btn.type = 'button'; btn.textContent = 'Summarize (shall / should / may)';
       const box = document.createElement('div'); box.className = 'ai-box'; box.hidden = true;
-      btn.onclick = () => { box.hidden = false; if (!box.dataset.done) { box.dataset.done = 1; explain(a.id, (h && h.textContent) || a.id, box); } };
+      btn.onclick = () => { box.hidden = false; if (!box.dataset.done) { box.dataset.done = 1; explainSection(a.id, box); } };
       target.insertAdjacentElement('afterend', box);
       target.insertAdjacentElement('afterend', btn);
     });
   }
 
-  // ------------------------------------------------------------------ ASK PAGE UI
-  function mountAsk() {
+  // ------------------------------------------------------------------ /ask/ PAGE UI
+  async function mountAsk() {
     const root = document.getElementById('sss-ask');
     if (!root) return;
     const $ = (s) => root.querySelector(s);
+    const status = $('#ai-status');
+    const localBtn = $('#ai-local-btn');
 
-    function syncUI() {
-      const p = getProv();
-      $('#ai-provider').value = p;
-      $('#ai-key').value = getKey() ? '••••••••••••' : '';
-      $('#ai-model').value = getModel(p);
-      $('#ai-mode-badge').innerHTML = 'Mode: <strong>' + esc(PROVIDER_LABELS[p] || p) + '</strong>';
+    if (await detectChromeAI()) {
+      status.textContent = 'Built-in browser AI active';
+      localBtn.hidden = true;
     }
-    syncUI();
+
+    localBtn.onclick = async () => {
+      localBtn.disabled = true;
+      try {
+        await enableBrowserAI((m) => { status.textContent = m; });
+        localBtn.textContent = 'In-Browser AI Active';
+      } catch {
+        localBtn.disabled = false;
+      }
+    };
 
     try { const q0 = new URLSearchParams(location.search).get('q'); if (q0) $('#ai-text').value = q0; } catch {}
 
-    $('#ai-provider').onchange = () => {
-      const p = $('#ai-provider').value;
-      $('#ai-model').value = DEFAULT_MODELS[p] || '';
-    };
-    $('#ai-save').onclick = () => {
-      const p = $('#ai-provider').value;
-      const v = $('#ai-key').value.trim();
-      const m = $('#ai-model').value.trim() || DEFAULT_MODELS[p] || '';
-      try {
-        localStorage.setItem(PROV_KEY, p);
-        if (v && !v.startsWith('••')) localStorage.setItem(KEY_STORE, v);
-        localStorage.setItem(MODEL_KEY, m);
-      } catch {}
-      syncUI();
-      $('#ai-keymsg').textContent = p === 'builtin' ? 'Using Built-in Instant Engine (free, no key).' : 'Saved in this browser only.';
-    };
-    $('#ai-forget').onclick = () => {
-      try {
-        localStorage.setItem(PROV_KEY, 'builtin');
-        localStorage.removeItem(KEY_STORE);
-        localStorage.removeItem(LEGACY_KEY);
-        localStorage.removeItem(MODEL_KEY);
-      } catch {}
-      syncUI();
-      $('#ai-keymsg').textContent = 'Reset to Built-in Instant Engine (free, no key).';
-    };
-
-    root.querySelectorAll('.ask-ex').forEach((b) => {
-      b.onclick = () => {
-        $('#ai-text').value = b.dataset.q || b.textContent;
-        $('#ai-go').click();
-      };
-    });
-
-    let images = [];
-    const thumbs = $('#ai-thumbs');
-    async function addFiles(files) {
-      for (const f of files) if (f.type.startsWith('image/')) {
-        images.push(await fileToB64(f));
-        const im = document.createElement('img'); im.src = URL.createObjectURL(f); thumbs.appendChild(im);
-      }
-    }
-    $('#ai-file').onchange = (e) => addFiles(e.target.files);
-    root.addEventListener('paste', (e) => addFiles([...e.clipboardData.files]));
-    const drop = $('#ai-drop');
-    drop.ondragover = (e) => { e.preventDefault(); drop.classList.add('over'); };
-    drop.ondragleave = () => drop.classList.remove('over');
-    drop.ondrop = (e) => { e.preventDefault(); drop.classList.remove('over'); addFiles([...e.dataTransfer.files]); };
-    $('#ai-clear').onclick = () => { images = []; thumbs.innerHTML = ''; $('#ai-text').value = ''; $('#ai-out').innerHTML = ''; };
-
-    $('#ai-go').onclick = async () => {
+    const run = async () => {
       const out = $('#ai-out');
-      const log = (m) => { out.innerHTML = '<p class="ai-wait">' + esc(m) + '</p>'; };
+      const q = $('#ai-text').value.trim();
+      if (!q) return;
+      out.innerHTML = '<p class="ai-wait">Searching standards...</p>';
       try {
-        const r = await ask($('#ai-text').value.trim(), images, log);
-        const signsHtml = r.found.length ? '<div class="ai-signs">' + r.found.map((s) =>
-          `<a class="scard" href="${esc(s.url)}"><span class="simg"><img src="${esc(s.svg)}" alt=""></span><span class="scode">${esc(s.code)}</span><span class="sname">${esc(s.descriptor || s.name || '')}</span></a>`).join('') + '</div>' : '';
-        const detHtml = r.matchedDetails.length ? '<div class="vis-strip" style="margin:0.75rem 0">' + r.matchedDetails.map((d) =>
-          `<a class="vis-card" href="${esc(d.url)}">${d.img ? `<img loading="lazy" src="${esc(d.img)}" alt="${esc(d.num)}">` : ''}<span><b>${esc(d.num)}</b>${esc((d.title || '').slice(0, 48))}</span></a>`).join('') + '</div>' : '';
-        out.innerHTML = (r.summary ? '<p class="ai-sum">' + esc(r.summary) + '</p>' : '') + signsHtml + detHtml + '<div class="ai-answer">' + md(r.answer) + '</div>'
-          + '<details class="ai-src"><summary>All matching pages (' + r.hits.length + ')</summary><ul>' + r.hits.map((h) => `<li><a href="${esc(h.url)}">${esc(h.title)}</a></li>`).join('') + '</ul></details>';
-      } catch (e) { out.innerHTML = '<p class="ai-err">' + esc(e.message) + '</p>'; }
+        const r = await askSite(q, { onLog: (m) => { out.innerHTML = '<p class="ai-wait">' + esc(m) + '</p>'; } });
+        out.innerHTML = renderResultHTML(r, false);
+      } catch (e) {
+        out.innerHTML = '<p class="ai-err">' + esc(e.message) + '</p>';
+      }
     };
 
-    $('#ai-text').addEventListener('keydown', (e) => {
-      if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') $('#ai-go').click();
+    $('#ai-go').onclick = run;
+    $('#ai-clear').onclick = () => { $('#ai-text').value = ''; $('#ai-out').innerHTML = ''; };
+    $('#ai-text').addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); run(); } });
+    root.querySelectorAll('.ask-ex').forEach((b) => {
+      b.onclick = () => { $('#ai-text').value = b.dataset.q || b.textContent; run(); };
     });
-
-    // Add a reference (works with or without API key)
-    $('#ref-go').onclick = async () => {
-      const box = $('#ref-out');
-      const src = $('#ref-src').value.trim();
-      if (!src) return;
-      const notes = $('#ref-notes').value.trim();
-      const body = `## New Standard / Reference Request\n\n- **Source / Document:** ${src}\n- **Notes:** ${notes || '(none provided)'}\n- **Status:** Please verify current edition & licensing before embedding.\n- **Requested extraction:** Key standard drawings, governing tables, and local deviations from CA MUTCD 2026 / Caltrans 2026.\n`;
-      const title = 'New reference: ' + src.slice(0, 80);
-      const url = 'https://github.com/drzkid96/SoCal-Super-Standards/issues/new?labels=new-reference&title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(body);
-      box.innerHTML = md(body) + `<p><a class="ai-btn" href="${url}" target="_blank" rel="noopener">Open GitHub issue to add it</a></p>`;
-    };
   }
 
   window.__ready(() => { mountAsk(); addExplainButtons(); });
