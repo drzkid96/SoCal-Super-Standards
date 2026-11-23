@@ -19,7 +19,7 @@ tableOfContents: false
 
 Every page of every LADOT document is here: native text where the PDF has it, OCR where it is a scan or outlined CAD text, and a sharpened image of every drawing or figure page. Sign codes link to the [Sign Library](/SoCal-Super-Standards/signs/) and MUTCD section references link to the manuals. Search (Ctrl+K) covers all of it, OCR text included.
 
-<p><a class="ai-btn" href="/SoCal-Super-Standards/ladot/curb-paint/">LADOT curb paint &amp; S-481.0 calculator</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?agency=LADOT">All LADOT standard drawings</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/bulletins/">LADOT policy memos &amp; bulletins</a></p>
+<p><a class="ai-btn" href="/SoCal-Super-Standards/ladot/curb-paint/">LADOT curb paint &amp; S-481.0 calculator</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/ladot/mpp-531/">MPP 531 original drawings</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?agency=LADOT">All LADOT standard drawings</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/bulletins/">LADOT policy memos &amp; bulletins</a></p>
 
 ## Documents
 

@@ -2,6 +2,7 @@ import re,json,html
 from pathlib import Path
 from sign_releases import prepare as prepare_fhwa_layouts
 from boe_snapshot import CATALOG as BOE_CATALOG, restore as restore_boe
+from current_catalog import prepare as prepare_current
 import shutil
 source = Path('src/content/docs')
 root = Path('.standards/docs')
@@ -21,7 +22,7 @@ def revision_text(style, text):
  return value
 
 for manual in ('ca-mutcd','mutcd'):
- items=json.loads((ref/(manual+'-items.json')).read_text())
+ items={key:record[1] for key,record in json.loads((ref/'manual-illustrations.json').read_text())[manual].items()}
  provision_urls={s['num']:s['url'] for s in json.loads(Path('data',manual,'sections.json').read_text())}
  chapters={c['code']:c['first'] for c in json.load(open('data/'+manual+'/chapters.json'))}
  anchors={}
@@ -98,23 +99,22 @@ if boe_catalog.exists():
    if group and 0 < int(group[2])-int(group[1]) <= 10:
     keys = ['E'+str(n) for n in range(int(group[1]),int(group[2])+1)]
    for key in keys:look.setdefault(key,[]).append(['LA BOE '+section['title'], section['url']])
-out=['---','title: California retired sign codes','---','','Caltrans · '+retired['date']+' · [Official deletion notice]('+retired['source']+')','']
-for code,name in retired['codes'].items():
- anchor=re.sub('[^a-z0-9]','',code.lower())
- target=base+'/signs/retired/#'+anchor
- out.append(f'<p id="{anchor}"><b>{html.escape(code)}</b> · {html.escape(name)} · Deleted by Caltrans on {retired["date"]}. <a href="{retired["source"]}">Official notice</a></p>')
- look.setdefault(code.upper().replace(' ',''),[]).insert(0,[f'{code} · {name} · Caltrans deleted {retired["date"]}',target])
-(root/'signs/retired.md').write_text('\n'.join(out))
+current_details = prepare_current(root, look, retired)
 Path('public/data/lookup.json').write_text(json.dumps(look))
-Path('public/data/retired.json').write_text(json.dumps(retired))
-shutil.copyfile('data/catalog/details.json','public/data/details.json')
+ladot_originals={
+ 'mpp-531':'https://ladot.lacity.gov/sites/default/files/2023-02/mpp_531_02212023.pdf',
+ 'mpp-521':'https://ladot.lacity.gov/sites/default/files/documents/traffic-signal-design-guidelines_0.pdf',
+ 'red-book':'https://ladot.lacity.gov/sites/default/files/2026-04/red-book-2026.pdf',
+}
 for path in root.rglob('*.md'):
  s=path.read_text()
+ # Full sheet scans are readable in the article. Navigation thumbnails keep their smaller assets.
+ s=re.sub(r'(<figure\b[^>]*class="mfig"[^>]*>.*?<img\b[^>]*?\bsrc="[^"]*)/thumbs/figs/',r'\1/figs/',s,flags=re.S)
  for key in ('bike','crosswalks'):s=s.replace('/markings/#'+key+'"','/markings/#cat-'+key+'"').replace('/markings/#'+key+')','/markings/#cat-'+key+')')
  if 'class="dwg-head"' in s:
   signs=re.search(r'<h2>Signs on this drawing</h2><div class="tsigns">.*?</div>',s,re.S)
   if signs:s=s[:signs.start()]+s[signs.end():]+'\n\n'+signs[0]+'\n'
-  # Original official LADOT sheets are rendered directly (MPP redraws removed).
+  s=re.sub(r'(<figure class="dfig redraw">.*?</figure>)<details class="orig"><summary>.*?</summary>(<figure class="dfig">.*?</figure>)\s*</details>',r'\2',s,flags=re.S)
   scans=re.findall(r'<figure class="dfig"><a href="([^"]+)"',s)
   drawer=re.search(r'<span class="dwg-num">([^<]+)</span><span class="dwg-src">([^<]+)</span>',s)
   if drawer and scans:
@@ -122,7 +122,10 @@ for path in root.rglob('*.md'):
    for i,scan in enumerate(scans,1):
     page=re.search(r'/p0*(\d+)\.',scan)
     direct=scan
-    if '/ladot/mpp-531/' in scan and page:direct='https://ladot.lacity.gov/sites/default/files/2023-02/mpp_531_02212023.pdf#page='+page[1]
+    for manual,pdf in ladot_originals.items():
+     if page and '/ladot/'+manual+'/' in scan:
+      direct=pdf+'#page='+page[1]
+      break
     citation=f'{html.unescape(drawer[2])}. Drawing {html.unescape(drawer[1])}, sheet {i} of {len(scans)}. '+(f'Page {page[1]}. ' if page else '')
     tools.append(f'<div><a href="#sheet-{i}">Sheet {i}</a> · <a href="{direct}">Open {"official PDF" if direct!=scan else "source scan"}</a> · <button type="button" class="agency-copy" data-url="{direct}" data-citation="{html.escape(citation)}">Copy agency citation</button></div>')
     s=s.replace(f'<figure class="dfig"><a href="{scan}"',f'<figure id="sheet-{i}" class="dfig"><a href="{scan}"',1)
@@ -135,3 +138,13 @@ for path in root.rglob('*.md'):
     lines.append(line)
    s='\n'.join(lines)+'\n'
  if s!=path.read_text():path.write_text(s)
+
+from detail_reader import enrich
+enrich(root, current_details, look)
+from topic_reader import render as render_topic_pages
+render_topic_pages(root,current_details)
+from current_catalog import save, PUBLIC
+save(PUBLIC/"details.json",current_details)
+Path("public/data/lookup.json").write_text(json.dumps(look))
+from search_catalog import build as build_search_catalog
+build_search_catalog(root, look, current_details)

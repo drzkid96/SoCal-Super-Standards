@@ -13,6 +13,8 @@ tableOfContents: false
 
 
 
+[Download the Caltrans A88A CAD drawing (DGN)](https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-dgn-files/2026__a88a.dgn)
+
 ## Sheet
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp" alt="A88A sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A88A, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/04-pages-19-22/#p19">Open in the document</a>.</figcaption></figure>

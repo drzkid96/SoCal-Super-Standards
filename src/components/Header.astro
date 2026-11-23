@@ -1,5 +1,4 @@
 ---
-import Search from '@astrojs/starlight/components/Search.astro';
 import SiteTitle from '@astrojs/starlight/components/SiteTitle.astro';
 import SocialIcons from '@astrojs/starlight/components/SocialIcons.astro';
 
@@ -32,7 +31,7 @@ const isActive = (prefixes: string[]) => prefixes.some((p) => relPath === p || r
       </a>
     ))}
   </nav>
-  <div class="sl-flex print:hidden sss-search-slot"><Search /></div>
+  <div class="sl-flex print:hidden sss-search-slot"><a class="sss-search-link" href={BASE+'/search/'} aria-label="Search all standards">Search <kbd aria-hidden="true">⌘ / Ctrl K</kbd></a></div>
   <div class="sl-hidden md:sl-flex print:hidden right-group">
     <div class="sl-flex social-icons"><SocialIcons /></div>
   </div>

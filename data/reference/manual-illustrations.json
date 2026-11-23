@@ -1,0 +1,5162 @@
+{
+ "ca-mutcd": {
+  "Figure 1A-101(CA)": [
+   "CA MUTCD Format Explanations",
+   60
+  ],
+  "Figure 1B-1": [
+   "Process for Requesting and Conducting Experimentations for New Traffic Control Devices",
+   78
+  ],
+  "Figure 1B-1(CA)": [
+   "Process for Incorporating New Traffic Control Devices into the MUTCD",
+   79
+  ],
+  "Figure 1B-2": [
+   "Process for Incorporating New Traffic Control Devices into the MUTCD",
+   80
+  ],
+  "Figure 1B-101(CA)": [
+   "Process for the Use of Traffic Control Devices in California Approved as Interim Approval (IA) by FHWA",
+   81
+  ],
+  "Figure 2A-1": [
+   "Examples of Enhanced Conspicuity for Signs",
+   140
+  ],
+  "Figure 2A-2": [
+   "Examples of Heights and Lateral Locations of Sign Installations",
+   141
+  ],
+  "Figure 2A-2(CA)": [
+   "California Examples of Heights and Lateral Locations of Sign Installations",
+   142
+  ],
+  "Figure 2A-3": [
+   "Examples of Locations for Some Typical Signs at Intersections",
+   143
+  ],
+  "Figure 2A-4": [
+   "Relative Locations of Regulatory, Warning, and Guide Signs on an Intersection Approach",
+   144
+  ],
+  "Figure 2A-5": [
+   "Intersection Configuration at a Divided Highway Crossing",
+   148
+  ],
+  "Figure 2B-1": [
+   "STOP and YIELD Signs and Plaques",
+   229
+  ],
+  "Figure 2B-2": [
+   "Unsignalized Pedestrian Crosswalk Signs",
+   230
+  ],
+  "Figure 2B-3": [
+   "Speed Limit Signs and Plaques",
+   231
+  ],
+  "Figure 2B-3(CA)": [
+   "Speed Limit and Photo Enforcement Signs and Plaques",
+   232
+  ],
+  "Figure 2B-4": [
+   "Movement Prohibition and Lane Control Signs and Plaques",
+   233
+  ],
+  "Figure 2B-4(CA)": [
+   "Movement Prohibition and Lane Control Signs and Plaques",
+   235
+  ],
+  "Figure 2B-5": [
+   "Intersection Lane Control Sign Arrow Options for Roundabouts",
+   236
+  ],
+  "Figure 2B-6": [
+   "Center and Reversible Lane Control Signs and Plaques",
+   237
+  ],
+  "Figure 2B-7": [
+   "Location of Reversible Two-Way Left-Turn Signs",
+   238
+  ],
+  "Figure 2B-8": [
+   "Jughandle Regulatory Signs",
+   239
+  ],
+  "Figure 2B-9": [
+   "Examples of Applications of Jughandle Regulatory and Guide Signing",
+   240
+  ],
+  "Figure 2B-10": [
+   "Passing, Keep Right, and Slow Traffic Signs",
+   243
+  ],
+  "Figure 2B-10(CA)": [
+   "Passing, Keep Right, and Slow Traffic Signs",
+   244
+  ],
+  "Figure 2B-11": [
+   "Examples of Keep Right and Keep Left Sign Placement",
+   245
+  ],
+  "Figure 2B-12": [
+   "Selective Exclusion Signs and Plaques",
+   246
+  ],
+  "Figure 2B-12(CA)": [
+   "Selective Exclusion Signs and Plaques",
+   247
+  ],
+  "Figure 2B-13": [
+   "DO NOT ENTER, WRONG WAY, ONE WAY, and Related Signs and Plaques",
+   248
+  ],
+  "Figure 2B-13(CA)": [
+   "DO NOT ENTER, WRONG WAY, ONE WAY, and Related Signs and Plaques",
+   248
+  ],
+  "Figure 2B-14": [
+   "Locations of DO NOT ENTER and WRONG WAY Signing for Divided Highway Crossings that Function as Two Separate Intersections",
+   249
+  ],
+  "Figure 2B-14(CA)": [
+   "Locations of DO NOT ENTER and WRONG WAY Signing for Divided Highway Crossings that Function as a Single Intersection",
+   250
+  ],
+  "Figure 2B-15": [
+   "Example of Application of Regulatory Signing and Pavement Markings at an Exit Ramp Termination to Deter Wrong-Way Entry",
+   251
+  ],
+  "Figure 2B-15(CA)": [
+   "Example of Application of Regulatory Signing and Pavement Markings at an Exit Ramp Termination to Deter Wrong-Way Entry",
+   252
+  ],
+  "Figure 2B-16": [
+   "Example of Application of Regulatory Signing and Pavement Markings at an Entrance Ramp Terminal",
+   257
+  ],
+  "Figure 2B-17": [
+   "Examples of Low-Mounted WRONG WAY Signs with DO NOT ENTER Signs for Wrong-Way Traffic Control",
+   258
+  ],
+  "Figure 2B-18": [
+   "Locations of ONE WAY Signs",
+   259
+  ],
+  "Figure 2B-19": [
+   "ONE WAY Signing for Divided Highway Crossings that Function as Two Separate Intersections",
+   260
+  ],
+  "Figure 2B-20": [
+   "ONE WAY, DO NOT ENTER, and WRONG WAY Signing for Divided Highway Crossings that Function as a Single Intersection",
+   261
+  ],
+  "Figure 2B-21": [
+   "Example of Regulatory and Warning Signs for a Mini-Roundabout",
+   262
+  ],
+  "Figure 2B-22": [
+   "Example of Regulatory and Warning Signs for a One-Lane Roundabout",
+   263
+  ],
+  "Figure 2B-23": [
+   "Example of Regulatory and Warning Signs for a Two-Lane Roundabout with Consecutive Double Lefts",
+   264
+  ],
+  "Figure 2B-24": [
+   "Example of Regulatory and Warning Signs for a Neighborhood Traffic Circle",
+   265
+  ],
+  "Figure 2B-25": [
+   "Parking, Standing, and Stopping Signs and Plaques (R7 and R8 Series)",
+   266
+  ],
+  "Figure 2B-25(CA)": [
+   "Parking, Standing, and Stopping Signs and Plaques",
+   268
+  ],
+  "Figure 2B-26": [
+   "Emergency Restriction Signs",
+   271
+  ],
+  "Figure 2B-27": [
+   "Pedestrian Signs and Plaques",
+   272
+  ],
+  "Figure 2B-27(CA)": [
+   "Pedestrian Signs and Plaques",
+   273
+  ],
+  "Figure 2B-28": [
+   "Traffic Signal Signs and Plaques",
+   274
+  ],
+  "Figure 2B-28(CA)": [
+   "Traffic Signal Signs and Plaques",
+   275
+  ],
+  "Figure 2B-29": [
+   "Ramp Metering Signs",
+   276
+  ],
+  "Figure 2B-29(CA)": [
+   "Ramp Metering Signs",
+   276
+  ],
+  "Figure 2B-30": [
+   "Road Closed and Weight Limit Signs",
+   277
+  ],
+  "Figure 2B-30(CA)": [
+   "Road Closed and Weight Limit Signs",
+   277
+  ],
+  "Figure 2B-31": [
+   "Truck Signs",
+   278
+  ],
+  "Figure 2B-31(CA)": [
+   "Truck Signs",
+   278
+  ],
+  "Figure 2B-32": [
+   "Photo Enforcement Signs and Plaques",
+   279
+  ],
+  "Figure 2B-33": [
+   "Other Regulatory Signs",
+   280
+  ],
+  "Figure 2B-33(CA)": [
+   "Other Regulatory Signs and Symbols",
+   280
+  ],
+  "Figure 2B-34": [
+   "Headlight Use Signs",
+   281
+  ],
+  "Figure 2B-34(CA)": [
+   "Headlight Use Signs",
+   281
+  ],
+  "Figure 2B-101(CA)": [
+   "Example of Speed Zone Survey Sheet",
+   282
+  ],
+  "Figure 2B-102(CA)": [
+   "Example of Cumulative Speed Curve Sheet",
+   283
+  ],
+  "Figure 2B-103(CA)": [
+   "Example of Vehicle Speed Survey Sheet for City and County Through Highways, Arterials, and Collector Roads",
+   284
+  ],
+  "Figure 2B-104(CA)": [
+   "Example of Vehicle Speed Survey Sheet (For 40 MPH and Under)",
+   285
+  ],
+  "Figure 2B-105(CA)": [
+   "U-Turn Signs for Signalized Intersections with Separate Turn Phase",
+   286
+  ],
+  "Figure 2B-106(CA)": [
+   "California Miscellaneous Regulatory Signs",
+   287
+  ],
+  "Figure 2C-1": [
+   "Horizontal Alignment Signs and Plaques",
+   347
+  ],
+  "Figure 2C-2": [
+   "Examples of Warning Signs for Changes in Horizontal Alignment",
+   348
+  ],
+  "Figure 2C-3": [
+   "Examples of Exit Ramp Advisory Speed and Other Warning Signs",
+   350
+  ],
+  "Figure 2C-4": [
+   "Vehicle Speed Feedback Sign and Plaque",
+   355
+  ],
+  "Figure 2C-5": [
+   "Vertical Grade Signs and Plaques",
+   356
+  ],
+  "Figure 2C-5(CA)": [
+   "Vertical Grade Signs and Plaques",
+   356
+  ],
+  "Figure 2C-6": [
+   "Miscellaneous Warning Signs",
+   357
+  ],
+  "Figure 2C-6(CA)": [
+   "Miscellaneous Warning Signs",
+   358
+  ],
+  "Figure 2C-7": [
+   "Roadway and Weather Condition Signs and Plaques",
+   359
+  ],
+  "Figure 2C-7(CA)": [
+   "Roadway and Weather Condition Signs and Plaques",
+   360
+  ],
+  "Figure 2C-8": [
+   "Advance Traffic Control Signs",
+   361
+  ],
+  "Figure 2C-8(CA)": [
+   "Advance Traffic Control Signs",
+   361
+  ],
+  "Figure 2C-9": [
+   "Reduced Speed Limit Ahead and Speed Zone Signs",
+   362
+  ],
+  "Figure 2C-10": [
+   "Intersection Warning Signs and Plaques",
+   363
+  ],
+  "Figure 2C-10(CA)": [
+   "Intersection Warning Signs and Plaques",
+   363
+  ],
+  "Figure 2C-11": [
+   "Merging and Passing Signs and Plaques",
+   364
+  ],
+  "Figure 2C-11(CA)": [
+   "Merging and Passing Signs and Plaques",
+   365
+  ],
+  "Figure 2C-12": [
+   "Examples of Merge and Added Lane Sign Placement for Entering and Converging Roadways",
+   366
+  ],
+  "Figure 2C-13": [
+   "Example Sequences for Lane Ends and Lane Merge Signs",
+   367
+  ],
+  "Figure 2C-14": [
+   "Vehicular Traffic Warning Signs and Plaques",
+   372
+  ],
+  "Figure 2C-14(CA)": [
+   "Vehicular Traffic Warning Signs and Plaques",
+   372
+  ],
+  "Figure 2C-15": [
+   "Non-Vehicular Warning Signs",
+   373
+  ],
+  "Figure 2C-15(CA)": [
+   "Non-Vehicular Warning Signs",
+   373
+  ],
+  "Figure 2C-16": [
+   "Supplemental Warning Plaques",
+   374
+  ],
+  "Figure 2C-17": [
+   "Object Markers",
+   375
+  ],
+  "Figure 2C-17(CA)": [
+   "California Object Markers",
+   376
+  ],
+  "Figure 2C-101(CA)": [
+   "Determination of Comfortable Speed From Ball Bank Indicator Readings",
+   377
+  ],
+  "Figure 2D-1": [
+   "Examples of Color-Coded Destination Guide Signs",
+   430
+  ],
+  "Figure 2D-2": [
+   "Examples of Uses of Abbreviations on Guide Signs",
+   431
+  ],
+  "Figure 2D-3": [
+   "Arrows for Use on Guide Signs",
+   432
+  ],
+  "Figure 2D-4": [
+   "Route Signs",
+   433
+  ],
+  "Figure 2D-4(CA)": [
+   "California Route Signs",
+   433
+  ],
+  "Figure 2D-5": [
+   "Route Sign Auxiliary Plaques and Combination Junction Sign",
+   434
+  ],
+  "Figure 2D-5(CA)": [
+   "California Route Sign Auxiliaries and Combination Junction Sign",
+   434
+  ],
+  "Figure 2D-6": [
+   "Advance Turn and Directional Arrow Auxiliary Plaques",
+   435
+  ],
+  "Figure 2D-6(CA)": [
+   "California Advance Turn and Directional Arrow Auxiliary Plaques",
+   435
+  ],
+  "Figure 2D-7": [
+   "Examples of Consolidation of Route Sign Assemblies into Guide Signs",
+   436
+  ],
+  "Figure 2D-8": [
+   "Illustration of Directional Assemblies and Other Route Signs",
+   438
+  ],
+  "Figure 2D-9": [
+   "Destination and Distance Signs",
+   442
+  ],
+  "Figure 2D-9(CA)": [
+   "California Destination and Distance Signs",
+   443
+  ],
+  "Figure 2D-10": [
+   "Examples of Overhead Signs at an Intersection",
+   444
+  ],
+  "Figure 2D-11": [
+   "Destination Signs for Circular Intersections",
+   447
+  ],
+  "Figure 2D-12": [
+   "Examples of Guide Signs for Circular Intersections",
+   448
+  ],
+  "Figure 2D-13": [
+   "Examples of Signing for Intersections with Indirect Left Turns",
+   452
+  ],
+  "Figure 2D-14": [
+   "Street Name and Parking Signs",
+   455
+  ],
+  "Figure 2D-15": [
+   "Example of Interchange Crossroad Guide Signing for a One-Lane Approach",
+   456
+  ],
+  "Figure 2D-16": [
+   "Example of Minor Interchange Crossroad Guide Signing",
+   457
+  ],
+  "Figure 2D-17": [
+   "Examples of Multi-Lane Crossroad Guide Signing for a Diamond Interchange",
+   458
+  ],
+  "Figure 2D-18": [
+   "Examples of Multi-Lane Crossroad Guide Signing for a Partial Cloverleaf Interchange",
+   459
+  ],
+  "Figure 2D-19": [
+   "Examples of Multi-Lane Crossroad Signing for a Cloverleaf Interchange",
+   460
+  ],
+  "Figure 2D-20": [
+   "Example of Crossroad Guide Signing for an Entrance Ramp with a Nearby Frontage Road",
+   461
+  ],
+  "Figure 2D-21": [
+   "Example of Transposed Alignment Crossroad Guide Signing at a Diamond Interchange",
+   462
+  ],
+  "Figure 2D-22": [
+   "Example of Crossroad Intersection Guide Signs for a Single-Point Urban Interchange",
+   463
+  ],
+  "Figure 2D-23": [
+   "Example of Weigh Station Signing – Conventional Road",
+   464
+  ],
+  "Figure 2D-24": [
+   "Crossover Signs",
+   465
+  ],
+  "Figure 2D-25": [
+   "Truck and Passing Lane Signs",
+   466
+  ],
+  "Figure 2D-26": [
+   "Example of Signing for a Truck Lane",
+   467
+  ],
+  "Figure 2D-27": [
+   "Example of Signing for an Intermittent Passing Lane",
+   468
+  ],
+  "Figure 2D-28": [
+   "Emergency and Slow Vehicle Turn-Out Signs",
+   469
+  ],
+  "Figure 2D-29": [
+   "Example of Signing for an Emergency Turn-Out",
+   470
+  ],
+  "Figure 2D-30": [
+   "Examples of Community Wayfinding Guide Signs",
+   471
+  ],
+  "Figure 2D-31": [
+   "Example of a Community Wayfinding Guide Sign System Showing Direction from a Freeway or Expressway",
+   472
+  ],
+  "Figure 2D-32": [
+   "Example of a Color-Coded Community Wayfinding Guide Sign System",
+   473
+  ],
+  "Figure 2D-33": [
+   "National Scenic Byways Sign and Plaque, and Examples of Use",
+   474
+  ],
+  "Figure 2D-34": [
+   "Byway Identification, State Scenic Byway, and National Historic Trail Signs and Plaques, and Examples of Use",
+   475
+  ],
+  "Figure 2D-35": [
+   "Example of Guide and Directional Signing for a National Historic Trail",
+   476
+  ],
+  "Figure 2D-36": [
+   "Example of Historic Trails Signing from an Expressway or Freeway",
+   477
+  ],
+  "Figure 2D-37": [
+   "Signs and Plaques for Rerouting Because of Traffic Incidents",
+   478
+  ],
+  "Figure 2D-38": [
+   "Example of Permanent Guide Signing for Rerouting Because of Traffic Incidents",
+   479
+  ],
+  "Figure 2D-39": [
+   "Example of a System of Major Guide Signs for an Airport Roadway Network",
+   480
+  ],
+  "Figure 2D-101(CA)": [
+   "California Miscellaneous Guide Signs",
+   483
+  ],
+  "Figure 2E-1": [
+   "Designation of Destination for Interchanges in Opposing Directions of Travel",
+   529
+  ],
+  "Figure 2E-2": [
+   "Typical Sequence of Interchange Guide Signs",
+   530
+  ],
+  "Figure 2E-3": [
+   "Examples of Interchange Exit Numbering",
+   531
+  ],
+  "Figure 2E-4": [
+   "Example of Interstate Loops and Spurs",
+   532
+  ],
+  "Figure 2E-5": [
+   "Example of Interchange Numbering for Mainline and Circumferential Routes",
+   533
+  ],
+  "Figure 2E-6": [
+   "Example of Interchange Numbering for Mainline and Loop Routes",
+   534
+  ],
+  "Figure 2E-7": [
+   "Example of Interchange Numbering for Mainline and Spur Routes",
+   535
+  ],
+  "Figure 2E-8": [
+   "Example of Interchange Numbering for Overlapping Routes",
+   536
+  ],
+  "Figure 2E-9": [
+   "Examples of Interchange Advance Guide Signs, Exit Number Plaques, and LEFT Plaque",
+   537
+  ],
+  "Figure 2E-10": [
+   "Example of an Interchange Sequence Sign",
+   539
+  ],
+  "Figure 2E-10(CA)": [
+   "California Example of an Interchange Sequence Sign",
+   539
+  ],
+  "Figure 2E-11": [
+   "Example of Using a Series of Interchange Sequence Signs for Closely-Spaced Interchanges",
+   540
+  ],
+  "Figure 2E-12": [
+   "Examples of Exit Direction Signs",
+   541
+  ],
+  "Figure 2E-12(CA)": [
+   "California Examples of Interchange Exit Direction Signs",
+   542
+  ],
+  "Figure 2E-13": [
+   "Exit Direction Sign Placement",
+   543
+  ],
+  "Figure 2E-14": [
+   "Examples of Exit Direction Signs with Advisory Speed Panels and Flashing Yellow Beacons",
+   544
+  ],
+  "Figure 2E-15": [
+   "Exit Gore Signs and Plaques",
+   545
+  ],
+  "Figure 2E-16": [
+   "Examples of Pull-Through Signs",
+   546
+  ],
+  "Figure 2E-16(CA)": [
+   "California Examples of Pull-Through Signs",
+   546
+  ],
+  "Figure 2E-17": [
+   "EXIT ONLY and LEFT Sign Panels",
+   547
+  ],
+  "Figure 2E-18": [
+   "Guide Signs for a Single-Lane Exit to the Left with a Dropped Lane",
+   548
+  ],
+  "Figure 2E-19": [
+   "Guide Signs for a Single-Lane Exit to the Right with a Dropped Lane",
+   549
+  ],
+  "Figure 2E-20": [
+   "Example of Overhead Guide Signs for a Dropped Auxiliary Lane between Separate Interchange Ramps",
+   550
+  ],
+  "Figure 2E-21": [
+   "Example of Post-Mounted Advance Guide and Supplemental Warning Signs for a Dropped Auxiliary Lane between Separate Interchange Ramps",
+   551
+  ],
+  "Figure 2E-22": [
+   "Example of Guide Signs for an Auxiliary Lane of at Least One-Half Mile in Length",
+   552
+  ],
+  "Figure 2E-23": [
+   "Examples of Signing for Mainline Terminations within an Interchange",
+   553
+  ],
+  "Figure 2E-24": [
+   "Example of Signing for an Intermediate Interchange within a Major Interchange",
+   554
+  ],
+  "Figure 2E-25": [
+   "Examples of Signing for an Interchange Exit Ramp with a Downstream Split",
+   555
+  ],
+  "Figure 2E-26": [
+   "Examples of Guide Signs for a Minor Interchange",
+   557
+  ],
+  "Figure 2E-27": [
+   "Example of Guide Signs for a Diamond Interchange",
+   558
+  ],
+  "Figure 2E-28": [
+   "Example of Guide Signs for a Diamond Interchange in an Urban Area",
+   559
+  ],
+  "Figure 2E-29": [
+   "Example of Guide Signs for a Full Cloverleaf Interchange",
+   560
+  ],
+  "Figure 2E-30": [
+   "Example of Guide Signs for a Full Cloverleaf Interchange with Collector-Distributor Roadways",
+   561
+  ],
+  "Figure 2E-31": [
+   "Example of Guide Signs for a Partial Cloverleaf Interchange",
+   562
+  ],
+  "Figure 2E-32": [
+   "Examples of Guide Signs for Successive Interchanges with Collector-Distributor Roadways",
+   563
+  ],
+  "Figure 2E-33": [
+   "Examples of Guide Signs for a Freeway-to-Freeway Interchange",
+   565
+  ],
+  "Figure 2E-34": [
+   "Example of Guide Signs for a Split with Dedicated Lanes",
+   567
+  ],
+  "Figure 2E-35": [
+   "Example of an Overhead Arrow-per-Lane Guide Sign for a Multi-Lane Exit with an Option Lane",
+   568
+  ],
+  "Figure 2E-36": [
+   "Example of Overhead Arrow-per-Lane Guide Signs for a Two-Lane Exit to the Right with an Option Lane",
+   569
+  ],
+  "Figure 2E-36(CA)": [
+   "California Example of Overhead Arrow-per-Lane Guide Signs for a Two-Lane Exit to the Right with an Option Lane",
+   570
+  ],
+  "Figure 2E-37": [
+   "Example of Overhead Arrow-per-Lane Guide Signs for a Two-Lane Exit to the Right with an Option Lane (Through Lanes Curve to the Left)",
+   571
+  ],
+  "Figure 2E-38": [
+   "Example of Overhead Arrow-per-Lane Guide Signs for a Split with an Option Lane",
+   572
+  ],
+  "Figure 2E-39": [
+   "Example of Guide Signing for a Narrow Gore at a Split with an Option Lane",
+   573
+  ],
+  "Figure 2E-40": [
+   "Example of Guide Signing for a Narrow Gore at a Two-Lane Exit with an Option Lane",
+   574
+  ],
+  "Figure 2E-41": [
+   "Examples of Diagrammatic Advance Guide Signs",
+   575
+  ],
+  "Figure 2E-42": [
+   "Example of Diagrammatic Advance Guide Sign Use",
+   576
+  ],
+  "Figure 2E-43": [
+   "Example of a Partial Width Overhead Arrow-per-Lane Guide Sign for Intermediate or Minor Interchanges",
+   577
+  ],
+  "Figure 2E-44": [
+   "Example of Signing for a Two-Lane Intermediate or Minor Interchange Exit with an Option Lane and a Dropped Lane Using Partial-Width Overhead Arrow-per-Lane Signs",
+   578
+  ],
+  "Figure 2E-45": [
+   "Example of Signing for a Two-Lane Intermediate or Minor Interchange Exit with Option and Auxiliary Lanes Using Partial-Width Overhead Arrow-per-Lane Signs",
+   579
+  ],
+  "Figure 2E-45(CA)": [
+   "California Example of Signing for a Two-Lane Intermediate or Minor Interchange Exit with Option and Auxiliary Lanes using Partial-Width Overhead Arrow-per-Lane Signs",
+   580
+  ],
+  "Figure 2E-46": [
+   "Example of Signing for a Two-Lane Intermediate or Minor Interchange Exit with an Option Lane and a Dropped Lane",
+   581
+  ],
+  "Figure 2E-47": [
+   "Example of Signing for a Two-Lane Intermediate or Minor Interchange Exit with Option and Auxiliary Lanes",
+   582
+  ],
+  "Figure 2E-48": [
+   "Example of Sign Spreading",
+   583
+  ],
+  "Figure 2E-49": [
+   "Next Exit Plaques",
+   584
+  ],
+  "Figure 2E-50": [
+   "Example of a Post-Interchange Distance Sign",
+   585
+  ],
+  "Figure 2E-51": [
+   "Example of a Post-Interchange Travel Time Sign",
+   586
+  ],
+  "Figure 2E-52": [
+   "Examples of Travel Time Signs",
+   587
+  ],
+  "Figure 2E-53": [
+   "Example of a Supplemental Guide Sign for a Multi-Exit Interchange",
+   588
+  ],
+  "Figure 2E-54": [
+   "Examples of Supplemental Guide Signs for a Park-and-Ride Facility",
+   589
+  ],
+  "Figure 2E-54(CA)": [
+   "California Examples of Supplemental Guide Signs for a Park-and-Ride Facility",
+   589
+  ],
+  "Figure 2E-55": [
+   "Example of a Community Interchanges Identification Sign",
+   590
+  ],
+  "Figure 2E-56": [
+   "Example of the Use of a Community Interchanges Identification Sign",
+   591
+  ],
+  "Figure 2E-57": [
+   "Example of a Next Exits Sign",
+   592
+  ],
+  "Figure 2E-58": [
+   "Example of the Use of a Next Exits Sign",
+   593
+  ],
+  "Figure 2E-59": [
+   "Example of Weigh Station Signing on Freeways",
+   594
+  ],
+  "Figure 2E-60": [
+   "Interstate, Off-Interstate, and U.S. Route Signs",
+   595
+  ],
+  "Figure 2E-61": [
+   "Eisenhower Interstate System Signs",
+   596
+  ],
+  "Figure 2E-62": [
+   "Example of Signing for Route Diversion by Vehicle Class",
+   597
+  ],
+  "Figure 2F-1": [
+   "Examples of ETC Account Pictographs and Use of Purple Backgrounds and Underlay Panels",
+   621
+  ],
+  "Figure 2F-2": [
+   "Toll Plaza Regulatory Signs and Plaques",
+   622
+  ],
+  "Figure 2F-3": [
+   "ETC Account-Only Auxiliary Signs for Use in Route Sign Assemblies",
+   623
+  ],
+  "Figure 2F-4": [
+   "Toll Plaza Warning Signs and Plaques",
+   624
+  ],
+  "Figure 2F-5": [
+   "Example of Minor Interchange Crossroad Signing for an Approach to a Toll Highway",
+   625
+  ],
+  "Figure 2F-6": [
+   "Example of Interchange Crossroad Signing for a One-Lane Approach to a Toll Highway",
+   626
+  ],
+  "Figure 2F-7": [
+   "Examples of Multi-Lane Crossroad Signing for a Diamond Interchange",
+   627
+  ],
+  "Figure 2F-8": [
+   "Examples of Guide Signs for Entrances to Toll Highways or Ramps",
+   628
+  ],
+  "Figure 2F-9": [
+   "Examples of Conventional Toll Plaza Advance Signs",
+   629
+  ],
+  "Figure 2F-10": [
+   "Example of an Overhead Arrow-per-Lane Guide Sign and Arrow for a Split with an Option Lane",
+   630
+  ],
+  "Figure 2F-11": [
+   "Examples of Guide Signs for a Split with an Option Lane for a Mainline Toll Plaza on a Diverging Alignment from Open-Road ETC Lanes",
+   631
+  ],
+  "Figure 2F-12": [
+   "Examples of Guide Signs for the Entrance to a Toll Highway on which Tolls are Collected Electronically Only",
+   632
+  ],
+  "Figure 2F-13": [
+   "Examples of Guide Signs for Alternative Toll and Non-Toll Ramp Connections to a Non-Toll Highway",
+   635
+  ],
+  "Figure 2F-14": [
+   "Examples of Mainline Toll Plaza Approach and Canopy Signing",
+   636
+  ],
+  "Figure 2F-15": [
+   "Examples of Guide Signs for a Mainline Toll Plaza on a Diverging Alignment from Open-Road ETC Lanes",
+   637
+  ],
+  "Figure 2F-16": [
+   "Examples of Toll Plaza Canopy Signs",
+   638
+  ],
+  "Figure 2F-101(CA)": [
+   "California Freeway Entrance Package to Toll Facilities",
+   639
+  ],
+  "Figure 2F-102(CA)": [
+   "California Example of Warning Sign and Plaque for Toll Crossings",
+   640
+  ],
+  "Figure 2G-1": [
+   "Preferential Lane Regulatory Signs and Plaque",
+   668
+  ],
+  "Figure 2G-1(CA)": [
+   "California Preferential Lane Regulatory Signs and Plaques",
+   670
+  ],
+  "Figure 2G-2": [
+   "Example of Signing for an Added Continuous-Access Contiguous or Buffer-Separated HOV Lane",
+   671
+  ],
+  "Figure 2G-3": [
+   "Example of Signing for a General-Purpose Lane that Becomes a Continuous-Access Contiguous or Buffer-Separated HOV Lane",
+   672
+  ],
+  "Figure 2G-4": [
+   "Examples of Warning Signs and Plaques Applicable Only to Preferential Lanes",
+   673
+  ],
+  "Figure 2G-5": [
+   "Example of an Overhead Advance Guide Sign for a Preferential Lane Entrance",
+   674
+  ],
+  "Figure 2G-6": [
+   "Examples of Overhead or Post-Mounted Preferential Lane Entrance Direction Signs",
+   675
+  ],
+  "Figure 2G-6(CA)": [
+   "California Examples of Overhead or Post-Mounted Preferential Lane Entrance Direction Signs",
+   675
+  ],
+  "Figure 2G-7": [
+   "Entrance Gore Signs for Barrier-Separated Preferential Lanes",
+   676
+  ],
+  "Figure 2G-8": [
+   "Example of Advance Guide and Entrance Direction Signs for a General-Purpose Lane that Becomes a Preferential Lane",
+   677
+  ],
+  "Figure 2G-9": [
+   "Example of Signing for an Entrance to Access-Restricted HOV Lanes",
+   678
+  ],
+  "Figure 2G-10": [
+   "Example of Signing for an Intermediate Entry to a Barrier-Separated or Buffer-Separated HOV Lane",
+   679
+  ],
+  "Figure 2G-11": [
+   "Example of Signing for the Intermediate Entry to, Egress from, and End of Access-Restricted HOV Lanes",
+   680
+  ],
+  "Figure 2G-12": [
+   "Examples of Barrier-Mounted Guide Signs for an Intermediate Egress from Preferential Lanes",
+   681
+  ],
+  "Figure 2G-13": [
+   "Examples of Signs for an Intermediate Egress from a Barrier-Separated or Buffer-Separated HOV Lane",
+   682
+  ],
+  "Figure 2G-14": [
+   "Example of Signing for a Direct Entrance Ramp to an HOV Lane from a Park-and-Ride Facility and a Local Street",
+   683
+  ],
+  "Figure 2G-15": [
+   "Exit Gore Sign for a Direct Exit from a Preferential Lane",
+   684
+  ],
+  "Figure 2G-15(CA)": [
+   "California Exit Gore Sign for a Direct Exit from a Preferential Lane",
+   684
+  ],
+  "Figure 2G-16": [
+   "Examples of Guide Signs for Direct HOV Lane Entrance and Exit Ramps",
+   685
+  ],
+  "Figure 2G-16(CA)": [
+   "California Example of Guide Signs For Direct HOV Lane Entrance",
+   686
+  ],
+  "Figure 2G-17": [
+   "Examples of Guide Signs for a Direct Access Ramp between HOV Lanes on Separate Freeways",
+   687
+  ],
+  "Figure 2G-18": [
+   "Regulatory Signs for Managed Lanes",
+   688
+  ],
+  "Figure 2G-19": [
+   "Examples of Guide Signs for Entrances to Priced Managed Lanes",
+   689
+  ],
+  "Figure 2G-20": [
+   "Example of Signing for the Entrance to an Access-Restricted Priced Managed Lane on which Registration in a Toll Account Program Is Not Required",
+   690
+  ],
+  "Figure 2G-21": [
+   "Example of Signing for the Entrance to an Access-Restricted Priced Managed Lane – ETC Account Required",
+   691
+  ],
+  "Figure 2G-22": [
+   "Example of Signing for the Entrance to an Access-Restricted Priced Managed Lane Where a General-Purpose Lane Becomes the Managed Lane",
+   692
+  ],
+  "Figure 2G-23": [
+   "Example of Signing for an Intermediate Entry to a Barrier-Separated or Buffer-Separated Priced Managed Lane",
+   693
+  ],
+  "Figure 2G-24": [
+   "Example of Signing for the Intermediate Entry to, Egress from, and End of Access-Restricted Priced Managed Lanes",
+   694
+  ],
+  "Figure 2G-25": [
+   "Example of an Exit Destinations Sign for a Managed Lane",
+   695
+  ],
+  "Figure 2G-26": [
+   "Example of a Comparative Travel Time Information Sign for Preferential or Managed Lanes",
+   696
+  ],
+  "Figure 2G-27": [
+   "Examples of Guide Signs for an Intermediate Egress from a Barrier-Separated or Buffer-Separated Managed Lane",
+   697
+  ],
+  "Figure 2G-28": [
+   "Examples of Guide Signs for Direct Managed Lane Entrance and Exit Ramps",
+   698
+  ],
+  "Figure 2G-29": [
+   "Examples of Guide Signs for a Direct Access Ramp between Managed Lanes on Separate Freeways",
+   699
+  ],
+  "Figure 2G-30": [
+   "Examples of Guide Signs for a Direct Entrance Ramp to a Priced Managed Lane and Trailblazing to a Nearby Entrance to the General-Purpose Lanes",
+   700
+  ],
+  "Figure 2G-31": [
+   "Examples of Guide Signs for Separate Entrance Ramps to General-Purpose and Priced Managed Lanes from the Same Crossroad",
+   701
+  ],
+  "Figure 2G-32": [
+   "Examples of Signing for Part-Time Travel on a Shoulder",
+   702
+  ],
+  "Figure 2G-32(CA)": [
+   "California Examples of Signing for Part-Time Travel on a Shoulder",
+   706
+  ],
+  "Figure 2G-33": [
+   "Example of Lane-Use Control Signals and Variable Speed Limit Signs for Active Lane Management During an Incident",
+   707
+  ],
+  "Figure 2G-101(CA)": [
+   "California Signs and Plaques for Part-Time Transit Bus on Shoulder",
+   708
+  ],
+  "Figure 2H-1": [
+   "General Information and Miscellaneous Information Signs and Plaques",
+   724
+  ],
+  "Figure 2H-1(CA)": [
+   "General Information and Miscellaneous Information Signs and Plaques",
+   725
+  ],
+  "Figure 2H-2": [
+   "Future Interstate Signs (I2-4, I2-4a)",
+   726
+  ],
+  "Figure 2H-3": [
+   "Examples of Project Information Signs",
+   727
+  ],
+  "Figure 2H-4": [
+   "Examples and Typical Placement of Grade Separation Identification Signs",
+   728
+  ],
+  "Figure 2H-5": [
+   "Reference Location Signs",
+   729
+  ],
+  "Figure 2H-6": [
+   "Intermediate Reference Location Signs",
+   730
+  ],
+  "Figure 2H-7": [
+   "Enhanced Reference Location Signs",
+   731
+  ],
+  "Figure 2H-8": [
+   "Examples of Acknowledgment Sign Designs",
+   732
+  ],
+  "Figure 2H-9": [
+   "Examples of Signs for Alternative Fuels Corridors",
+   733
+  ],
+  "Figure 2H-10": [
+   "Example of Signing for an Alternative Fuels Corridor",
+   734
+  ],
+  "Figure 2H-11": [
+   "Typical Signing from a Freeway Exit Ramp to a Service Facility",
+   735
+  ],
+  "Figure 2I-1": [
+   "General Service Signs and Plaques",
+   757
+  ],
+  "Figure 2I-1(CA)": [
+   "General Service Signs and Plaques",
+   758
+  ],
+  "Figure 2I-2": [
+   "Example of Next Services Plaque",
+   759
+  ],
+  "Figure 2I-3": [
+   "Examples of General Service Signs with and without Exit Numbering",
+   760
+  ],
+  "Figure 2I-4": [
+   "Examples of Interstate Oasis Signs and Plaques",
+   761
+  ],
+  "Figure 2I-5": [
+   "Rest Area and Other Roadside Area Signs",
+   762
+  ],
+  "Figure 2I-5(CA)": [
+   "Rest Area and Other Roadside Area Signs",
+   763
+  ],
+  "Figure 2I-6": [
+   "Brake Check Area and Chain-Up Area Signs",
+   764
+  ],
+  "Figure 2I-6(CA)": [
+   "Brake Check Area and Chain-Up Area Signs",
+   764
+  ],
+  "Figure 2I-7": [
+   "Examples of Tourist Information and Welcome Center Signs",
+   765
+  ],
+  "Figure 2I-7(CA)": [
+   "Examples of Tourist Information and Welcome Center Signs",
+   765
+  ],
+  "Figure 2I-8": [
+   "Radio, Telephone, and Carpool Information Signs",
+   766
+  ],
+  "Figure 2I-8(CA)": [
+   "Radio, Telephone, and Carpool Information Signs",
+   767
+  ],
+  "Figure 2I-9": [
+   "Examples of Truck Parking Availability Signs",
+   768
+  ],
+  "Figure 2I-10": [
+   "Examples of Use of Truck Parking Availability Signs",
+   769
+  ],
+  "Figure 2J-1": [
+   "Examples of Business Identification Panel Arrangements on Specific Service Signs",
+   783
+  ],
+  "Figure 2J-1(CA)": [
+   "Examples of Business Identification Panel Arrangements on Specific Service Signs",
+   784
+  ],
+  "Figure 2J-2": [
+   "Examples of Specific Service Sign Locations",
+   785
+  ],
+  "Figure 2J-3": [
+   "Example of General Service Signs Used in Conjunction with Specific Service Signs",
+   786
+  ],
+  "Figure 2J-4": [
+   "Examples of Supplemental Messages on Business Identification Sign Panels",
+   787
+  ],
+  "Figure 2J-5": [
+   "Example of Specific Services Signing for a Conventional Road Accessed within a Freeway-to-Freeway Interchange",
+   788
+  ],
+  "Figure 2J-6": [
+   "Example of Signing for Services Accessed from a Collector-Distributor Road Adjacent to a Freeway",
+   789
+  ],
+  "Figure 2J-7": [
+   "Examples of Specific Service Trailblazer Signs",
+   790
+  ],
+  "Figure 2K-1": [
+   "Examples of Tourist-Oriented Directional Signs",
+   797
+  ],
+  "Figure 2K-1(CA)": [
+   "Examples of Tourist-Oriented Directional Signs",
+   798
+  ],
+  "Figure 2K-2": [
+   "Examples of Tourist-Oriented Directional Signs on an Intersection Approach",
+   799
+  ],
+  "Figure 2L-1": [
+   "Example of CMS Capability to Display Sign Legends Based on Pixel Pitch",
+   810
+  ],
+  "Figure 2M-1": [
+   "Examples of Use of Arrows, Educational Plaques, and Prohibitive Circles and Diagonals",
+   825
+  ],
+  "Figure 2M-1(CA)": [
+   "Examples of Use of Arrows, Educational Plaques, and Prohibitive Circles and Diagonals",
+   825
+  ],
+  "Figure 2M-2": [
+   "Examples of Recreational and Cultural Interest Area Guide Signs",
+   826
+  ],
+  "Figure 2M-2(CA)": [
+   "Examples of Recreational and Cultural Interest Area Guide Signs",
+   827
+  ],
+  "Figure 2M-3": [
+   "Arrangement, Height, and Lateral Position of Signs Located within Recreational and Cultural Interest Areas",
+   828
+  ],
+  "Figure 2M-4": [
+   "Examples of Symbol and Destination Guide Signing Layout",
+   829
+  ],
+  "Figure 2M-5": [
+   "Recreational and Cultural Interest Area Symbol Signs for General Applications",
+   830
+  ],
+  "Figure 2M-6": [
+   "Recreational and Cultural Interest Area Symbol Signs for Accommodations",
+   831
+  ],
+  "Figure 2M-7": [
+   "Recreational and Cultural Interest Area Symbol Signs for Services",
+   832
+  ],
+  "Figure 2M-8": [
+   "Recreational and Cultural Interest Area Symbol Signs for Land Recreation",
+   833
+  ],
+  "Figure 2M-8(CA)": [
+   "Recreational and Cultural Interest Area Symbol Signs for Land Recreation",
+   833
+  ],
+  "Figure 2M-9": [
+   "Recreational and Cultural Interest Area Symbol Signs for Water Recreation",
+   834
+  ],
+  "Figure 2M-10": [
+   "Recreational and Cultural Interest Area Symbol Signs for Winter Recreation",
+   835
+  ],
+  "Figure 2M-10(CA)": [
+   "Recreational and Cultural Interest Area Symbol Signs for Winter Recreation",
+   835
+  ],
+  "Figure 2M-101(CA)": [
+   "Memorial or Dedication Signing",
+   836
+  ],
+  "Figure 2M-102(CA)": [
+   "Prohibited Recreational and Cultural Interest Area Symbol Signs and Educational Plaque",
+   837
+  ],
+  "Figure 2N-1": [
+   "Emergency Management Signs",
+   845
+  ],
+  "Figure 3A-101(CA)": [
+   "Centerlines - 2 Lane Highways",
+   851
+  ],
+  "Figure 3A-102(CA)": [
+   "Lane Lines - Multilane Highways",
+   852
+  ],
+  "Figure 3A-103(CA)": [
+   "No Passing Zones - One Direction",
+   854
+  ],
+  "Figure 3A-104(CA)": [
+   "No Passing Zones - Two Direction",
+   855
+  ],
+  "Figure 3A-105(CA)": [
+   "Left Edge Lines for Divided Highways",
+   856
+  ],
+  "Figure 3A-106(CA)": [
+   "Right Edge Line and Right Edge Line Extension Through Intersections",
+   857
+  ],
+  "Figure 3A-107(CA)": [
+   "Median Islands",
+   858
+  ],
+  "Figure 3A-108(CA)": [
+   "Two-Way Left-Turn Lanes",
+   859
+  ],
+  "Figure 3A-109(CA)": [
+   "Intersection Markings",
+   860
+  ],
+  "Figure 3A-110(CA)": [
+   "Freeway Exit and Entrance Ramp Channelizing Line",
+   861
+  ],
+  "Figure 3A-111(CA)": [
+   "Lane Drop Markings",
+   863
+  ],
+  "Figure 3A-112(CA)": [
+   "Channelizing Line and Lane Line/Centerline Extensions",
+   864
+  ],
+  "Figure 3A-113(CA)": [
+   "Examples of Preferential Lane Lines",
+   865
+  ],
+  "Figure 3A-114(CA)": [
+   "Exit Ramp with Enhanced Pavement Markers for Wrong Way Details",
+   866
+  ],
+  "Figure 3B-1": [
+   "Yellow Center Lines for Two-Lane, Two-Way Applications",
+   891
+  ],
+  "Figure 3B-2": [
+   "Yellow Center Lines for Four-or-More Lane, Two-Way Applications",
+   892
+  ],
+  "Figure 3B-3": [
+   "Yellow Center Lines for Three-Lane, Two-Way Applications",
+   893
+  ],
+  "Figure 3B-4": [
+   "Method of Locating and Determining the Limits of No-Passing Zones at Curves",
+   894
+  ],
+  "Figure 3B-5": [
+   "Application of Three-Lane, Two-Way Markings for Changing the Direction of the Center Lane",
+   895
+  ],
+  "Figure 3B-6": [
+   "Example of Yellow Pavement Markings for Reversible Lanes",
+   896
+  ],
+  "Figure 3B-7": [
+   "Examples of Two-Way Left-Turn Lane Marking Applications",
+   897
+  ],
+  "Figure 3B-7(CA)": [
+   "Example of Two-Way Left-Turn Lane Marking Applications",
+   898
+  ],
+  "Figure 3B-8": [
+   "Example of a Double Solid White Line Used to Prohibit Lane Changing",
+   899
+  ],
+  "Figure 3B-9": [
+   "Examples of Dotted Line and Channelizing Line Applications for Exit Ramp Markings",
+   900
+  ],
+  "Figure 3B-9(CA)": [
+   "Examples of Dotted Line, Chevron Markings, and Channelizing Line Applications for Exit Ramp Markings",
+   902
+  ],
+  "Figure 3B-10": [
+   "Examples of Dotted Line and Channelizing Line Applications for Entrance Ramp Markings",
+   903
+  ],
+  "Figure 3B-10(CA)": [
+   "Examples of Dotted Line and Channelizing Line Applications for Entrance Ramp Markings",
+   905
+  ],
+  "Figure 3B-11": [
+   "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+   907
+  ],
+  "Figure 3B-11(CA)": [
+   "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+   913
+  ],
+  "Figure 3B-12": [
+   "Examples of Applications of Conventional Road Lane-Drop Markings",
+   915
+  ],
+  "Figure 3B-13": [
+   "Examples of Line Extensions through Intersections",
+   917
+  ],
+  "Figure 3B-14": [
+   "Examples of Applications of Lane-Reduction Transition Markings",
+   919
+  ],
+  "Figure 3B-14(CA)": [
+   "Examples of Applications of Lane-Reduction Transition Markings",
+   920
+  ],
+  "Figure 3B-15": [
+   "Examples of Applications of Markings for Obstructions in the Roadway",
+   923
+  ],
+  "Figure 3B-16": [
+   "Examples of Yield Line Applications",
+   925
+  ],
+  "Figure 3B-17": [
+   "Example of Elongated Letters for Word Pavement Markings",
+   926
+  ],
+  "Figure 3B-18": [
+   "Examples of Elongated Route Shields and Markers Applied as Pavement Markings",
+   927
+  ],
+  "Figure 3B-18(CA)": [
+   "Examples of California Elongated Route Shields and Markers Applied as Pavement Markings",
+   927
+  ],
+  "Figure 3B-19": [
+   "International Symbol of Accessibility Parking Space Marking",
+   928
+  ],
+  "Figure 3B-19(CA)": [
+   "International Symbol of Accessibility Parking Space Marking and Related Markings",
+   929
+  ],
+  "Figure 3B-20": [
+   "Yield Ahead Triangle Symbols",
+   931
+  ],
+  "Figure 3B-21": [
+   "Examples of Standard Arrows for Pavement Markings",
+   932
+  ],
+  "Figure 3B-21(CA)": [
+   "Examples of Standard Arrows for Pavement Markings",
+   933
+  ],
+  "Figure 3B-22": [
+   "Examples of Lane-Use Control Word and Arrow Pavement Markings",
+   942
+  ],
+  "Figure 3B-23": [
+   "Examples of Parking Space Markings",
+   943
+  ],
+  "Figure 3B-24": [
+   "Do Not Block Intersection Markings",
+   944
+  ],
+  "Figure 3B-25": [
+   "Example of the Application of Speed Reduction Markings",
+   945
+  ],
+  "Figure 3B-26": [
+   "Pavement Markings for Speed Humps without Crosswalks",
+   946
+  ],
+  "Figure 3B-27": [
+   "Pavement Markings for Speed Tables or Speed Humps with Crosswalks",
+   947
+  ],
+  "Figure 3B-28": [
+   "Advance Warning Markings for Speed Humps or Speed Tables",
+   948
+  ],
+  "Figure 3B-29": [
+   "Example of Pavement Markings for a Diamond Interchange with a Transposed Alignment Crossroad",
+   949
+  ],
+  "Figure 3B-101(CA)": [
+   "Examples of Left-Turn Channelization Markings",
+   950
+  ],
+  "Figure 3B-102(CA)": [
+   "Examples of Intersection Markings",
+   951
+  ],
+  "Figure 3B-103(CA)": [
+   "Treatment for Divided Highway Illusion",
+   952
+  ],
+  "Figure 3B-104(CA)": [
+   "Passing Lanes",
+   953
+  ],
+  "Figure 3B-105(CA)": [
+   "Examples of Signing and Marking Turnouts",
+   954
+  ],
+  "Figure 3B-106(CA)": [
+   "Electric Vehicle Charging Station Pavement Legend Detail",
+   955
+  ],
+  "Figure 3C-1": [
+   "Crosswalk Markings",
+   963
+  ],
+  "Figure 3C-2": [
+   "Example of Crosswalk Markings for an Exclusive Pedestrian Phase that Permits Diagonal Crossings",
+   964
+  ],
+  "Figure 3C-101(CA)": [
+   "Examples of Crosswalk Enhancements at Uncontrolled Multilane Approaches",
+   965
+  ],
+  "Figure 3D-1": [
+   "Example of Markings for Approach and Circulatory Roadways at a Roundabout",
+   968
+  ],
+  "Figure 3D-2": [
+   "Example of Markings for a One-Lane Roundabout",
+   969
+  ],
+  "Figure 3D-3": [
+   "Example of Markings for a Two-Lane Roundabout with One-Lane and Two-Lane Approaches",
+   970
+  ],
+  "Figure 3D-4": [
+   "Example of Markings for a Two-Lane Roundabout with One-Lane Exits",
+   972
+  ],
+  "Figure 3D-5": [
+   "Example of Markings for a Two-Lane Roundabout with Two-Lane Exits",
+   973
+  ],
+  "Figure 3D-6": [
+   "Example of Markings for a Two-Lane Roundabout with a Double Left Turn",
+   974
+  ],
+  "Figure 3D-7": [
+   "Example of Markings for a Two-Lane Roundabout with a Double Right Turn",
+   975
+  ],
+  "Figure 3D-8": [
+   "Example of Markings for a Diamond Interchange with Two Circular-Shaped Roundabout Ramp Terminals",
+   976
+  ],
+  "Figure 3E-1": [
+   "Markings for Barrier-Separated Preferential Lanes",
+   980
+  ],
+  "Figure 3E-2": [
+   "Markings for Buffer-Separated Preferential Lanes",
+   981
+  ],
+  "Figure 3E-3": [
+   "Markings for Contiguous Preferential Lanes",
+   983
+  ],
+  "Figure 3E-4": [
+   "Markings for Contra-Flow Preferential Lanes on Divided Highways",
+   984
+  ],
+  "Figure 3E-5": [
+   "Markings for Part-Time Travel on Shoulder and Application of Pavement Word Markings",
+   985
+  ],
+  "Figure 3E-6": [
+   "Markings for Part-Time Travel on a Shoulder through an Intersection",
+   988
+  ],
+  "Figure 3E-101(CA)": [
+   "Diamond Symbol (HOV Lane)",
+   989
+  ],
+  "Figure 3G-1": [
+   "Examples of Delineator Placement",
+   998
+  ],
+  "Figure 3G-101(CA)": [
+   "Examples of Delineators",
+   999
+  ],
+  "Figure 3G-102(CA)": [
+   "Examples of Delineator Placement When Used at Intersections, Islands, Ramps, and Connectors",
+   1000
+  ],
+  "Figure 3G-103(CA)": [
+   "Examples of Runaway Truck Ramp Signs and Markings",
+   1002
+  ],
+  "Figure 3G-104(CA)": [
+   "Narrow Bridge Signs and Markings (One-Way and Two-Way Roadways)",
+   1003
+  ],
+  "Figure 3G-105(CA)": [
+   "Examples of Median Barrier Delineation",
+   1004
+  ],
+  "Figure 3H-1": [
+   "Aesthetic Treatments for Transverse Crosswalks",
+   1011
+  ],
+  "Figure 3H-2": [
+   "Examples of Yellow-Colored Pavement Applications",
+   1012
+  ],
+  "Figure 3H-3": [
+   "Examples of White-Colored Pavement Applications",
+   1013
+  ],
+  "Figure 3H-4": [
+   "Examples of Green-Colored Pavement Applications",
+   1014
+  ],
+  "Figure 3H-5": [
+   "Examples of Red-Colored Pavement Applications",
+   1015
+  ],
+  "Figure 3H-6": [
+   "Examples of Purple-Colored Pavement Applications",
+   1016
+  ],
+  "Figure 3I-1": [
+   "Examples of Tubular Markers Supplementing Pavement Markings in Advance of an Unsignalized Crosswalk",
+   1020
+  ],
+  "Figure 3I-101(CA)": [
+   "Example of Channelizers",
+   1022
+  ],
+  "Figure 3J-1": [
+   "Example of Markings for an Approach-End Treatment to an Island",
+   1027
+  ],
+  "Figure 3J-2": [
+   "Examples of Islands Designated by Pavement Markings",
+   1028
+  ],
+  "Figure 3J-3": [
+   "Examples of Curb Markings for Raised Islands",
+   1029
+  ],
+  "Figure 3J-4": [
+   "Examples of Pavement Markings for Raised Islands",
+   1030
+  ],
+  "Figure 3J-5": [
+   "Example of Optional Chevron and Diagonal Pavement Markings at a Raised Island",
+   1032
+  ],
+  "Figure 3J-6": [
+   "Examples of Sidewalk Extensions Designated by Pavement Markings and Channelization",
+   1033
+  ],
+  "Figure 3K-1": [
+   "Examples of Longitudinal Rumble Strip Markings",
+   1035
+  ],
+  "Figure 4C-1": [
+   "Warrant 2, Four-Hour Vehicular Volume",
+   1057
+  ],
+  "Figure 4C-2": [
+   "Warrant 2, Four-Hour Vehicular Volume (70% Factor)",
+   1058
+  ],
+  "Figure 4C-3": [
+   "Warrant 3, Peak Hour",
+   1059
+  ],
+  "Figure 4C-4": [
+   "Warrant 3, Peak Hour (70% Factor)",
+   1060
+  ],
+  "Figure 4C-5": [
+   "Warrant 4, Pedestrian Four-Hour Volume",
+   1061
+  ],
+  "Figure 4C-6": [
+   "Warrant 4, Pedestrian Peak Hour",
+   1062
+  ],
+  "Figure 4C-7": [
+   "Warrant 4, Pedestrian Four-Hour Volume (70% Factor)",
+   1063
+  ],
+  "Figure 4C-8": [
+   "Warrant 4, Pedestrian Peak Hour (70% Factor)",
+   1064
+  ],
+  "Figure 4C-9": [
+   "Warrant 9, Intersection Near a Grade Crossing (One Approach Lane at the Track Crossing)",
+   1065
+  ],
+  "Figure 4C-10": [
+   "Warrant 9, Intersection Near a Grade Crossing (Two or More Approach Lanes at the Track Crossing)",
+   1066
+  ],
+  "Figure 4C-101(CA)": [
+   "Traffic Signal Warrants Worksheet",
+   1067
+  ],
+  "Figure 4C-102(CA)": [
+   "Traffic Count Worksheet",
+   1072
+  ],
+  "Figure 4C-103(CA)": [
+   "Traffic Signal Warrants Worksheet (Average Traffic Estimate Form)",
+   1073
+  ],
+  "Figure 4D-1": [
+   "Recommended Vehicular Signal Faces for Approaches with Posted, Statutory, or 85th-Percentile Speed of 45 mph or Higher",
+   1086
+  ],
+  "Figure 4D-2": [
+   "Lateral and Longitudinal Location of Primary Signal Faces",
+   1087
+  ],
+  "Figure 4D-3": [
+   "Maximum Mounting Height of Signal Faces that Are Located between 40 Feet and 53 Feet from the Stop Line",
+   1088
+  ],
+  "Figure 4E-1": [
+   "Typical Arrangements of U-Turn Signal Faces",
+   1098
+  ],
+  "Figure 4E-2": [
+   "Typical Arrangements of Signal Sections in Signal Faces That Do Not Control Turning Movements",
+   1099
+  ],
+  "Figure 4F-1": [
+   "Typical Position and Arrangements of Shared Signal Faces for Permissive Only Mode Left Turns",
+   1124
+  ],
+  "Figure 4F-2": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Yellow Arrow for Permissive Only Mode Left Turns",
+   1125
+  ],
+  "Figure 4F-3": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Red Arrow for Permissive Only Mode and Protected/Permissive Mode Left Turns",
+   1126
+  ],
+  "Figure 4F-4": [
+   "Typical Positions and Arrangements of Shared Signal Faces for Protected Only Mode Left Turns",
+   1127
+  ],
+  "Figure 4F-5": [
+   "Typical Position and Arrangements of Separate Signal Faces for Protected Only Mode Left Turns",
+   1128
+  ],
+  "Figure 4F-6": [
+   "Typical Position and Arrangements of Shared Signal Faces for Protected/Permissive Mode Left Turns",
+   1129
+  ],
+  "Figure 4F-7": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Yellow Arrow for Protected/Permissive Mode and Variable Mode Left Turns",
+   1130
+  ],
+  "Figure 4F-8": [
+   "Typical Positions and Arrangements of Shared Signal Faces for Permissive Only Mode Right Turns",
+   1131
+  ],
+  "Figure 4F-9": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Yellow Arrow for Permissive Only Mode Right Turns",
+   1132
+  ],
+  "Figure 4F-10": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Red Arrow for Permissive Only Mode and Protected/Permissive Mode Right Turns",
+   1133
+  ],
+  "Figure 4F-11": [
+   "Typical Positions and Arrangements of Shared Signal Faces for Protected Only Mode Right Turns",
+   1134
+  ],
+  "Figure 4F-12": [
+   "Typical Position and Arrangements of Separate Signal Faces for Protected Only Mode Right Turns",
+   1135
+  ],
+  "Figure 4F-13": [
+   "Typical Positions and Arrangements of Shared Signal Faces for Protected/Permissive Mode Right Turns",
+   1136
+  ],
+  "Figure 4F-14": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Yellow Arrow for Protected/Permissive Mode and Variable Mode Right Turns",
+   1137
+  ],
+  "Figure 4F-15": [
+   "Signal Indications for Approaches with a Combined Left-Turn/Right-Turn Lane and No Through Movement",
+   1138
+  ],
+  "Figure 4H-1": [
+   "Typical Arrangements of Bicycle Signal Faces",
+   1150
+  ],
+  "Figure 4H-101(CA)": [
+   "Bicycle Detection Systems",
+   1151
+  ],
+  "Figure 4I-1": [
+   "Typical Pedestrian Signal Indications",
+   1161
+  ],
+  "Figure 4I-2": [
+   "Preferred Push Button Location Area",
+   1162
+  ],
+  "Figure 4I-3": [
+   "Typical Push Button Locations",
+   1163
+  ],
+  "Figure 4I-4": [
+   "Pedestrian Intervals",
+   1164
+  ],
+  "Figure 4J-1": [
+   "Guidelines for the Installation of Pedestrian Hybrid Beacons on Low-Speed Roadways",
+   1168
+  ],
+  "Figure 4J-2": [
+   "Guidelines for the Installation of Pedestrian Hybrid Beacons on High-Speed Roadways",
+   1169
+  ],
+  "Figure 4J-3": [
+   "Sequence for a Pedestrian Hybrid Beacon",
+   1170
+  ],
+  "Figure 4L-1": [
+   "Example of RRFBs at Uncontrolled, Marked Crosswalks at an Intersection",
+   1180
+  ],
+  "Figure 4L-1(CA)": [
+   "Example of RRFBs at Uncontrolled, Marked Crosswalks at an Intersection",
+   1181
+  ],
+  "Figure 4N-1": [
+   "Sequence for an Emergency-Vehicle Hybrid Beacon",
+   1186
+  ],
+  "Figure 4S-101(CA)": [
+   "Flashing Beacon at School Crossings Worksheet",
+   1198
+  ],
+  "Figure 4T-1": [
+   "Lane-Use Control Signal Indications",
+   1202
+  ],
+  "Figure 4U-101(CA)": [
+   "Typical Layout for In-Roadway Warning Lights (IRWLs)",
+   1206
+  ],
+  "Figure 6B-1": [
+   "Component Parts of a Temporary Traffic Control Zone",
+   1227
+  ],
+  "Figure 6B-2": [
+   "Types of Tapers and Buffer Spaces",
+   1228
+  ],
+  "Figure 6B-3": [
+   "Example of a One-Lane, Two-Way Traffic Taper",
+   1229
+  ],
+  "Figure 6D-1": [
+   "Use of Hand-Signaling Devices by Flaggers",
+   1244
+  ],
+  "Figure 6F-1": [
+   "Height and Lateral Location of Signs—Typical Installations",
+   1249
+  ],
+  "Figure 6F-2": [
+   "Methods of Mounting Signs Other Than on Posts",
+   1250
+  ],
+  "Figure 6G-1": [
+   "Regulatory Signs and Plaques in Temporary Traffic Control Zones",
+   1256
+  ],
+  "Figure 6G-101(CA)": [
+   "California Regulatory Signs and Plaques in Temporary Traffic Control Zones",
+   1258
+  ],
+  "Figure 6H-1": [
+   "Warning Signs and Plaques in Temporary Traffic Control Zones",
+   1273
+  ],
+  "Figure 6H-1(CA)": [
+   "California Warning Signs and Plaques in Temporary Traffic Control Zones",
+   1277
+  ],
+  "Figure 6H-101(CA)": [
+   "Examples of Object Markers in Temporary Traffic Control Zones",
+   1278
+  ],
+  "Figure 6I-1": [
+   "Exit Open and Closed and Detour Signs and Plaques",
+   1286
+  ],
+  "Figure 6I-1(CA)": [
+   "California Guide Signs and Plaques in Temporary Traffic Control Zones",
+   1287
+  ],
+  "Figure 6I-101(CA)": [
+   "California Guide Signs and Plaques in Temporary Traffic Control Zones",
+   1288
+  ],
+  "Figure 6K-1": [
+   "Examples of Channelizing Devices",
+   1302
+  ],
+  "Figure 6K-2": [
+   "Pedestrian Channelizing Device",
+   1303
+  ],
+  "Figure 6K-101(CA)": [
+   "Tubular Markers",
+   1304
+  ],
+  "Figure 6L-1": [
+   "Example of the Use of a STOP/SLOW Automated Flagger Assistance Device (AFAD)",
+   1317
+  ],
+  "Figure 6L-2": [
+   "Example of the Use of a Red/Yellow Lens Automated Flagger Assistance Device (AFAD)",
+   1318
+  ],
+  "Figure 6L-3": [
+   "Advance Warning Arrow Board Display Specifications",
+   1319
+  ],
+  "Figure 6L-101(CA)": [
+   "Typical Layout Using Channelizing Devices to Delineate a Portable Changeable Message Sign on Shoulder",
+   1320
+  ],
+  "Figure 6N-1": [
+   "Late Merge",
+   1339
+  ],
+  "Figure 6O-1": [
+   "Examples of Traffic Incident Management Area Signs",
+   1344
+  ],
+  "Figure 6O-1(CA)": [
+   "Examples of Traffic Incident Management Area Signs",
+   1345
+  ],
+  "Figure 6P-1": [
+   "Work Beyond the Shoulder (TA-1)",
+   1351
+  ],
+  "Figure 6P-2": [
+   "Blasting Zone (TA-2)",
+   1353
+  ],
+  "Figure 6P-3": [
+   "Work on the Shoulders (TA-3)",
+   1355
+  ],
+  "Figure 6P-4": [
+   "Short-Duration or Mobile Operation on a Shoulder (TA-4)",
+   1357
+  ],
+  "Figure 6P-5": [
+   "Shoulder Closure on a Freeway (TA-5)",
+   1359
+  ],
+  "Figure 6P-6": [
+   "Shoulder Work with Minor Encroachment (TA-6)",
+   1361
+  ],
+  "Figure 6P-7": [
+   "Road Closure with a Diversion (TA-7)",
+   1363
+  ],
+  "Figure 6P-8": [
+   "Road Closure with an Off-Site Detour (TA-8)",
+   1365
+  ],
+  "Figure 6P-9": [
+   "Overlapping Routes with a Detour (TA-9)",
+   1367
+  ],
+  "Figure 6P-10": [
+   "Lane Closure on a Two-Lane Road Using Flaggers (TA-10)",
+   1369
+  ],
+  "Figure 6P-11": [
+   "Lane Closure on a Two-Lane Road with Low Traffic Volumes (TA-11)",
+   1371
+  ],
+  "Figure 6P-12": [
+   "Lane Closure on a Two-Lane Road Using Temporary Traffic Control Signals (TA-12)",
+   1373
+  ],
+  "Figure 6P-13": [
+   "Temporary Road Closure (TA-13)",
+   1375
+  ],
+  "Figure 6P-14": [
+   "Haul Road Crossing (TA-14)",
+   1378
+  ],
+  "Figure 6P-15": [
+   "Work in the Center of a Road with Low Traffic Volumes (TA-15)",
+   1380
+  ],
+  "Figure 6P-16": [
+   "Surveying Along the Center Line of a Road with Low Traffic Volumes (TA-16)",
+   1382
+  ],
+  "Figure 6P-17": [
+   "Mobile Operations on a Two-Lane Road (TA-17)",
+   1384
+  ],
+  "Figure 6P-18": [
+   "Lane Closure on a Minor Street (TA-18)",
+   1386
+  ],
+  "Figure 6P-19": [
+   "Detour for One Travel Direction (TA-19)",
+   1388
+  ],
+  "Figure 6P-19(CA)": [
+   "Detour for One Travel Direction (TA-19(CA))",
+   1389
+  ],
+  "Figure 6P-20": [
+   "Detour for a Closed Street (TA-20)",
+   1391
+  ],
+  "Figure 6P-21": [
+   "Lane Closure on the Near Side of an Intersection (TA-21)",
+   1393
+  ],
+  "Figure 6P-22": [
+   "Right-Hand Lane Closure on the Far Side of an Intersection (TA-22)",
+   1395
+  ],
+  "Figure 6P-23": [
+   "Left-Hand Lane Closure on the Far Side of an Intersection (TA-23)",
+   1397
+  ],
+  "Figure 6P-24": [
+   "Half Road Closure on the Far Side of an Intersection (TA-24)",
+   1399
+  ],
+  "Figure 6P-24(CA)": [
+   "Half Road Closure on the Far Side of an Intersection (TA-24(CA))",
+   1400
+  ],
+  "Figure 6P-25": [
+   "Multiple Lane Closures at an Intersection (TA-25)",
+   1402
+  ],
+  "Figure 6P-26": [
+   "Closure in the Center of an Intersection (TA-26)",
+   1404
+  ],
+  "Figure 6P-27": [
+   "Closure at the Side of an Intersection (TA-27)",
+   1406
+  ],
+  "Figure 6P-28": [
+   "Sidewalk Detour or Diversion (TA-28)",
+   1408
+  ],
+  "Figure 6P-29": [
+   "Crosswalk Closures and Pedestrian Detours (TA-29)",
+   1410
+  ],
+  "Figure 6P-30": [
+   "Interior Lane Closure on a Multi-Lane Street (TA-30)",
+   1412
+  ],
+  "Figure 6P-31": [
+   "Lane Closures on a Street with Uneven Directional Volumes (TA-31)",
+   1414
+  ],
+  "Figure 6P-32": [
+   "Half Road Closure on a Multi-Lane, High-Speed Highway (TA-32)",
+   1416
+  ],
+  "Figure 6P-33": [
+   "Stationary Lane Closure on a Divided Highway (TA-33)",
+   1418
+  ],
+  "Figure 6P-34": [
+   "Lane Closure with a Temporary Traffic Barrier (TA-34)",
+   1420
+  ],
+  "Figure 6P-35": [
+   "Mobile Operation on a Multi-Lane Road (TA-35)",
+   1422
+  ],
+  "Figure 6P-36": [
+   "Lane Shift on a Freeway (TA-36)",
+   1425
+  ],
+  "Figure 6P-37": [
+   "Double Lane Closure on a Freeway (TA-37)",
+   1427
+  ],
+  "Figure 6P-38": [
+   "Interior Lane Closure on a Freeway (TA-38)",
+   1429
+  ],
+  "Figure 6P-39": [
+   "Median Crossover on a Freeway (TA-39)",
+   1431
+  ],
+  "Figure 6P-40": [
+   "Median Crossover for an Entrance Ramp (TA-40)",
+   1433
+  ],
+  "Figure 6P-41": [
+   "Median Crossover for an Exit Ramp (TA-41)",
+   1435
+  ],
+  "Figure 6P-42": [
+   "Work in the Vicinity of an Exit Ramp (TA-42)",
+   1437
+  ],
+  "Figure 6P-43": [
+   "Partial Exit Ramp Closure (TA-43)",
+   1439
+  ],
+  "Figure 6P-44": [
+   "Work in the Vicinity of an Entrance Ramp (TA-44)",
+   1441
+  ],
+  "Figure 6P-45": [
+   "Temporary Reversible Lane Using Movable Barriers (TA-45)",
+   1443
+  ],
+  "Figure 6P-46": [
+   "Work in the Vicinity of a Grade Crossing (TA-46)",
+   1445
+  ],
+  "Figure 6P-47": [
+   "Bicycle Lane Closure without a Detour (TA-47)",
+   1447
+  ],
+  "Figure 6P-48": [
+   "Bicycle Lane Closure with an On-Road Detour (TA-48)",
+   1449
+  ],
+  "Figure 6P-49": [
+   "Shared-Use Path Closure with a Diversion (TA-49)",
+   1451
+  ],
+  "Figure 6P-50": [
+   "On-Road Detour for a Shared-Use Path (TA-50)",
+   1453
+  ],
+  "Figure 6P-51": [
+   "Paved Shoulder Closure with a Bicycle Diversion onto a Temporary Path (TA-51)",
+   1455
+  ],
+  "Figure 6P-51(CA)": [
+   "Paved Shoulder Closure with Bicycle Diversion onto a Temporary Path (TA-51(CA))",
+   1456
+  ],
+  "Figure 6P-52": [
+   "Short-Term or Short-Duration Work in a Circular Intersection (TA-52)",
+   1458
+  ],
+  "Figure 6P-53": [
+   "Flagging Operation on a Single-Lane Circular Intersection (TA-53)",
+   1460
+  ],
+  "Figure 6P-54": [
+   "Inside Lane Closure on a Multi-Lane Circular Intersection (TA-54)",
+   1462
+  ],
+  "Figure 6P-101(CA)": [
+   "Right Lane and Bike Lane Closure on Far Side of Intersection (TA-101(CA))",
+   1464
+  ],
+  "Figure 6P-102(CA)": [
+   "Lane Shift on Road With Low Traffic Volumes (TA-102(CA))",
+   1466
+  ],
+  "Figure 7A-1": [
+   "Example of School Route Plan Map",
+   1469
+  ],
+  "Figure 7B-1": [
+   "Signs in School Areas and at School Crossings",
+   1478
+  ],
+  "Figure 7B-1(CA)": [
+   "Signs in School Areas and at School Crossings",
+   1480
+  ],
+  "Figure 7B-2": [
+   "Example of Signing for a School Zone with a School Speed Limit and a School Crossing",
+   1481
+  ],
+  "Figure 7B-2(CA)": [
+   "Example of Signing for a School Zone with a School Speed Limit and a School Crossing",
+   1482
+  ],
+  "Figure 7B-3": [
+   "Example of Signing for a School Crossing Outside of a School Zone",
+   1483
+  ],
+  "Figure 7B-4": [
+   "Example of Signing for a School Zone with a School Speed Limit and Higher Fines Only for Speeding",
+   1484
+  ],
+  "Figure 7B-5": [
+   "Example of Signing for a School Zone with Higher Fines for All Traffic Violations",
+   1485
+  ],
+  "Figure 7B-101(CA)": [
+   "Example of School Area Signs with Flashing Yellow Beacons",
+   1487
+  ],
+  "Figure 7B-102(CA)": [
+   "Example of Signing for Traffic Control in School Areas with Flashing Yellow Beacons",
+   1488
+  ],
+  "Figure 7B-103(CA)": [
+   "Example of Signing for School Area Traffic Control with Extended and/or Reduced School Zone Speed Limits",
+   1489
+  ],
+  "Figure 7B-104(CA)": [
+   "Example of Signing for School Crosswalk Warning Assembly",
+   1490
+  ],
+  "Figure 7C-1": [
+   "Two-Lane Pavement Marking of “SCHOOL”",
+   1495
+  ],
+  "Figure 7C-101(CA)": [
+   "Pavement Word Markings for School Areas",
+   1496
+  ],
+  "Figure 8B-1": [
+   "Regulatory Signs and Plaques for Grade Crossings",
+   1520
+  ],
+  "Figure 8B-1(CA)": [
+   "Regulatory Signs and Plaques for Grade Crossings",
+   1521
+  ],
+  "Figure 8B-2": [
+   "Crossbuck Assembly with a YIELD or STOP Sign on the Crossbuck Sign Support",
+   1522
+  ],
+  "Figure 8B-3": [
+   "Crossbuck Assembly with a YIELD or STOP Sign on a Separate Sign Support",
+   1523
+  ],
+  "Figure 8B-4": [
+   "Warning Signs and Plaques for Grade Crossings",
+   1525
+  ],
+  "Figure 8B-4(CA)": [
+   "Warning Signs and Plaques for Grade Crossings",
+   1526
+  ],
+  "Figure 8B-5": [
+   "Example of an Emergency Notification System Sign",
+   1527
+  ],
+  "Figure 8B-101(CA)": [
+   "Train Station Signs",
+   1528
+  ],
+  "Figure 8C-1": [
+   "Example of Placement of Warning Signs and Pavement Markings at Grade Crossings",
+   1534
+  ],
+  "Figure 8C-1(CA)": [
+   "Example of Placement of Warning Signs and Pavement Markings at Grade Crossings",
+   1535
+  ],
+  "Figure 8C-2": [
+   "Grade Crossing Pavement Markings",
+   1538
+  ],
+  "Figure 8C-3": [
+   "Example of Dynamic Envelope Pavement Markings at Grade Crossings",
+   1539
+  ],
+  "Figure 8C-4": [
+   "Example of Dynamic Envelope and Do Not Block Pavement Markings at Grade Crossings",
+   1540
+  ],
+  "Figure 8C-5": [
+   "Examples of Light Rail Transit Vehicle Dynamic Envelope Markings for Mixed-Use Alignments",
+   1541
+  ],
+  "Figure 8D-1": [
+   "Composite Drawing of Active Traffic Control Devices for Grade Crossings Showing Clearances",
+   1561
+  ],
+  "Figure 8D-2": [
+   "Examples of Location Plan for Flashing-Light Signals and Four-Quadrant Gates",
+   1562
+  ],
+  "Figure 8D-3": [
+   "Light Rail Transit Signal Indications",
+   1563
+  ],
+  "Figure 8D-3(CA)": [
+   "Light Rail Transit Signals",
+   1564
+  ],
+  "Figure 8E-1": [
+   "Illustration of the Difference between a Pathway Grade Crossing and a Sidewalk Grade Crossing",
+   1572
+  ],
+  "Figure 8E-2": [
+   "Example of an Active Traffic Control System for a Sidewalk or Pathway Grade Crossing",
+   1573
+  ],
+  "Figure 8E-3": [
+   "Example of Signing and Markings at a Pathway Grade Crossing",
+   1574
+  ],
+  "Figure 8E-4": [
+   "Example of Detectable Warning and Stop Lines for a Refuge Area at a Sidewalk Grade Crossing",
+   1575
+  ],
+  "Figure 8E-5": [
+   "Example of a Crossbuck Assembly at a Pathway or Sidewalk Grade Crossing",
+   1576
+  ],
+  "Figure 8E-6": [
+   "Example of an Automatic Pedestrian Gate and an Emergency Escape Route at a Pathway Grade Crossing",
+   1577
+  ],
+  "Figure 8E-8": [
+   "Example of an Automatic Pedestrian Gate at a Pathway or Sidewalk Grade Crossing",
+   1579
+  ],
+  "Figure 8E-9": [
+   "Example of Active Traffic Control Systems with Automatic Pedestrian Gates and Swing Gates at a Sidewalk Grade Crossing",
+   1580
+  ],
+  "Figure 8E-10": [
+   "Example of Traffic Control Devices for an Optional Swing Gate",
+   1581
+  ],
+  "Figure 8E-11": [
+   "Example of a Separate Automatic Pedestrian Gate",
+   1582
+  ],
+  "Figure 8E-12": [
+   "Example of an Automatic Pedestrian Gate with a Horizontal Hanging Bar at a Pathway or Sidewalk Grade Crossing",
+   1583
+  ],
+  "Figure 9A-1": [
+   "Sign Placement on Shared-Use Paths",
+   1588
+  ],
+  "Figure 9B-1": [
+   "Regulatory Signs and Plaques for Bicycle Facilities",
+   1601
+  ],
+  "Figure 9B-1(CA)": [
+   "California Regulatory Signs and Plaques for Bicycle Facilities",
+   1603
+  ],
+  "Figure 9B-2": [
+   "Examples of Applications of EXCEPT BICYCLES Regulatory Plaques",
+   1604
+  ],
+  "Figure 9B-3": [
+   "Examples of Bicycle Facilities Adjacent to Back-In Parking",
+   1605
+  ],
+  "Figure 9B-4": [
+   "Signing for Termination of Bicycle Access on Freeways and Expressways",
+   1606
+  ],
+  "Figure 9B-5": [
+   "Example of Two-Stage Bicycle Turn Box when Use is Mandatory",
+   1607
+  ],
+  "Figure 9B-6": [
+   "Example of Application of Bicycle Jughandle Sign",
+   1608
+  ],
+  "Figure 9C-1": [
+   "Warning Signs and Plaques and Object Markers for Bicycle Facilities",
+   1612
+  ],
+  "Figure 9D-1": [
+   "Guide Signs and Plaques for Bicycle Facilities",
+   1625
+  ],
+  "Figure 9D-1(CA)": [
+   "California Guide Signs and Plaques for Bicycle Facilities",
+   1628
+  ],
+  "Figure 9D-2": [
+   "Examples of Bicycle Guide Signing",
+   1629
+  ],
+  "Figure 9D-3": [
+   "Example of Bicycle Route Guide Signing",
+   1631
+  ],
+  "Figure 9D-4": [
+   "Examples of Route Signing for Numbered or Named Bicycle Routes",
+   1632
+  ],
+  "Figure 9D-5": [
+   "Examples of Mode-Specific Guide Signing on a Shared-Use Path",
+   1633
+  ],
+  "Figure 9D-6": [
+   "Examples of Destination Guide Signs for Shared-Use Paths",
+   1634
+  ],
+  "Figure 9D-7": [
+   "Example of Two-Stage Bicycle Turn Box when Use is Optional",
+   1635
+  ],
+  "Figure 9E-1": [
+   "Word, Symbol, and Arrow Pavement Markings for Bicycle Lanes",
+   1652
+  ],
+  "Figure 9E-2": [
+   "Example of Pavement Markings for Bicycle Lanes on a Two-Way Street",
+   1653
+  ],
+  "Figure 9E-2(CA)": [
+   "Example of Pavement Markings for Bicycle Lanes on a Two-Way Street",
+   1654
+  ],
+  "Figure 9E-3": [
+   "Examples of Bicycle Lane Markings on an Approach to an Intersection",
+   1656
+  ],
+  "Figure 9E-3(CA)": [
+   "Example of Bicycle Lane Markings on an Approach to an Intersection",
+   1659
+  ],
+  "Figure 9E-4": [
+   "Example of Bicycle Lane Markings on an Approach to an Intersection that Transitions from a Shared Lane",
+   1666
+  ],
+  "Figure 9E-5": [
+   "Examples of Pavement Markings for Mixing Zones",
+   1667
+  ],
+  "Figure 9E-6": [
+   "Examples of Markings for Buffer-Separated Bicycle Lanes",
+   1668
+  ],
+  "Figure 9E-6(CA)": [
+   "Examples of Markings for Buffer-Separated Bicycle Lanes",
+   1669
+  ],
+  "Figure 9E-7": [
+   "Examples of Lane Markings for Separated Bicycle Lanes",
+   1671
+  ],
+  "Figure 9E-8": [
+   "Example of Counter-Flow Bicycle Lanes at an Intersection",
+   1673
+  ],
+  "Figure 9E-9": [
+   "Examples of Shared-Lane Marking Applications",
+   1674
+  ],
+  "Figure 9E-10": [
+   "Examples of Two-Stage Turn Box Locations at Intersections",
+   1675
+  ],
+  "Figure 9E-11": [
+   "Example of a Two-Stage Turn Box Location at an Intersection with a Two-Way Bikeway",
+   1676
+  ],
+  "Figure 9E-12": [
+   "Examples of Intersection Bicycle Boxes",
+   1677
+  ],
+  "Figure 9E-13": [
+   "Examples of Center Line Markings for Shared-Use Paths",
+   1679
+  ],
+  "Figure 9E-14": [
+   "Example of Pavement Markings for a Shared-Use Path with Mode Separation",
+   1680
+  ],
+  "Figure 9E-15": [
+   "Example of Placement of Route Markers for Shared-Use Paths",
+   1681
+  ],
+  "Figure 9E-16": [
+   "Bicycle Detector Pavement Marking",
+   1682
+  ],
+  "Figure 9E-17": [
+   "Examples of Obstruction Pavement Markings",
+   1683
+  ],
+  "Figure 9E-101(CA)": [
+   "Examples of Bicycle Lane Treatment Where Vehicle Parking is Prohibited/Permitted",
+   1684
+  ],
+  "Figure 9E-102(CA)": [
+   "Example of Bicycle Lane Treatment Through an Interchange",
+   1685
+  ],
+  "Figure 9E-103(CA)": [
+   "Examples of Bicycle Lane Extensions Through Intersection",
+   1686
+  ],
+  "Figure 9E-104(CA)": [
+   "Example of Marking for a One-Lane Roundabout with Shared Lane Markings and Bicycle Lanes",
+   1687
+  ],
+  "Figure 9E-105(CA)": [
+   "Example of Placement of Shared Lane Markings",
+   1688
+  ],
+  "Figure 9E-106(CA)": [
+   "Examples of Markings for Separated Bikeways",
+   1689
+  ],
+  "Figure 9E-107(CA)": [
+   "Example of Intersection Pavement Markings and Signs—Bicycle Traveling Straight From Left Turn and Right Turn Only Lanes - One Way",
+   1693
+  ],
+  "Figure 9E-108(CA)": [
+   "Example of Intersection Pavement Markings and Signs—Bicycle Traveling Straight From Right Turn Only Lanes",
+   1694
+  ],
+  "Figure 9E-109(CA)": [
+   "Examples of Optional Green-Colored Pavement Applications",
+   1695
+  ],
+  "Table 1B-1": [
+   "Target Compliance Dates Established by the FHWA",
+   82
+  ],
+  "Table 1B-1(CA)": [
+   "Target Compliance Dates",
+   83
+  ],
+  "Table 1B-101(CA)": [
+   "Status of Interim Approvals Issued By FHWA in California",
+   84
+  ],
+  "Table 1D-1": [
+   "Acceptable Abbreviations",
+   117
+  ],
+  "Table 1D-2": [
+   "Abbreviations that Shall be Used Only for Temporary Messages on Portable Changeable Message Signs",
+   118
+  ],
+  "Table 1D-3": [
+   "Unacceptable Abbreviations",
+   119
+  ],
+  "Table 2A-1": [
+   "Use of Sign Shapes",
+   149
+  ],
+  "Table 2A-2": [
+   "Common Uses of Sign Colors",
+   150
+  ],
+  "Table 2A-3": [
+   "Illumination of Sign Elements",
+   151
+  ],
+  "Table 2A-4": [
+   "Retroreflection of Sign Elements",
+   151
+  ],
+  "Table 2A-5": [
+   "Minimum Maintained Retroreflectivity Levels",
+   152
+  ],
+  "Table 2B-1": [
+   "Regulatory Sign and Plaque Sizes",
+   288
+  ],
+  "Table 2B-1(CA)": [
+   "California Regulatory Sign and Plaque Sizes",
+   294
+  ],
+  "Table 2B-2": [
+   "Meanings of Symbols and Legends on Reversible Lane Control Signs",
+   300
+  ],
+  "Table 2B-101(CA)": [
+   "Standard Application of Speed Limits per California Vehicle Code",
+   301
+  ],
+  "Table 2B-102(CA)": [
+   "Standard Application of Speed Limits per California Vehicle Code",
+   302
+  ],
+  "Table 2B-103(CA)": [
+   "Examples showing the applicability of rounding and additional speed reduction",
+   303
+  ],
+  "Table 2B-104(CA)": [
+   "Safety Corridor Factors",
+   304
+  ],
+  "Table 2B-105(CA)": [
+   "Generators of High Concentrations of Bicyclists or Pedestrians",
+   305
+  ],
+  "Table 2C-1": [
+   "Warning Sign and Plaque Sizes",
+   378
+  ],
+  "Table 2C-1(CA)": [
+   "California Warning Sign and Plaque Sizes",
+   382
+  ],
+  "Table 2C-2": [
+   "Minimum Size of Supplemental Warning Plaques",
+   383
+  ],
+  "Table 2C-3": [
+   "Guidelines for Advance Placement of Warning Signs",
+   384
+  ],
+  "Table 2C-4": [
+   "Application of Traffic Control Devices for Changes in Horizontal Alignment",
+   385
+  ],
+  "Table 2C-5": [
+   "Typical Spacing of Chevron Alignment Signs on Horizontal Curves",
+   386
+  ],
+  "Table 2C-6": [
+   "Use of Advisory Speed Plaque for Horizontal Alignment Changes",
+   386
+  ],
+  "Table 2D-1": [
+   "Conventional Road Guide Sign and Plaque Sizes",
+   484
+  ],
+  "Table 2D-1(CA)": [
+   "California Conventional Road Guide Sign Sizes",
+   486
+  ],
+  "Table 2D-2": [
+   "Recommended Minimum Letter and Numeral Sizes for Conventional Road Guide Signs According to Speed",
+   487
+  ],
+  "Table 2D-3": [
+   "Acceptable Abbreviations for Street Name Descriptors",
+   489
+  ],
+  "Table 2D-4": [
+   "Street Name Descriptors Not Acceptable for Abbreviation",
+   489
+  ],
+  "Table 2D-5": [
+   "Overhead Arrow-per-Lane Arrow Height Based on Principal Legend Letter Height",
+   490
+  ],
+  "Table 2D-6": [
+   "Minimum Letter Heights on Street Name Signs",
+   490
+  ],
+  "Table 2D-101(CA)": [
+   "Criteria for Supplemental Destination Signs",
+   491
+  ],
+  "Table 2E-1": [
+   "Freeway or Expressway Guide Sign and Plaque Sizes",
+   598
+  ],
+  "Table 2E-1(CA)": [
+   "California Freeway or Expressway Guide Sign and Plaque Sizes",
+   601
+  ],
+  "Table 2E-2": [
+   "Minimum Letter and Numeral Sizes for Expressway Guide Signs According to Interchange Classification",
+   602
+  ],
+  "Table 2E-3": [
+   "Minimum Letter and Numeral Sizes for Expressway Guide Signs According to Sign Type",
+   603
+  ],
+  "Table 2E-4": [
+   "Minimum Letter and Numeral Sizes for Freeway Guide Signs According to Interchange Classification",
+   604
+  ],
+  "Table 2E-5": [
+   "Minimum Letter and Numeral Sizes for Freeway Guide Signs According to Sign Type",
+   605
+  ],
+  "Table 2E-6": [
+   "Overhead Arrow-per-Lane Arrow Height Based on Principal Legend Letter Height",
+   606
+  ],
+  "Table 2F-1": [
+   "Toll Road Sign and Plaque Minimum Sizes",
+   641
+  ],
+  "Table 2F-1(CA)": [
+   "California Toll Road Sign and Plaque Minimum Sizes",
+   642
+  ],
+  "Table 2G-1": [
+   "Managed and Preferential Lanes Sign and Plaque Minimum Sizes",
+   709
+  ],
+  "Table 2G-1(CA)": [
+   "California Managed and Preferential Lane Signs and Plaques Minimum Sizes",
+   711
+  ],
+  "Table 2H-1": [
+   "General Information Sign and Plaque Sizes",
+   736
+  ],
+  "Table 2H-1(CA)": [
+   "California General Information Sign and Plaque Sizes",
+   737
+  ],
+  "Table 2I-1": [
+   "General Service Sign and Plaque Sizes",
+   770
+  ],
+  "Table 2I-1(CA)": [
+   "California General Service Sign and Plaque Sizes",
+   772
+  ],
+  "Table 2J-1": [
+   "Minimum Letter and Numeral Sizes for Specific Service Signs According to Sign Type",
+   791
+  ],
+  "Table 2J-2": [
+   "Maximum Business Identification Sign Panel Sizes by Roadway Classification",
+   791
+  ],
+  "Table 2J-101(CA)": [
+   "California Specific Service Sign and Plaque Sizes",
+   792
+  ],
+  "Table 2K-101(CA)": [
+   "California Tourist-Oriented Directional Sign Sizes",
+   800
+  ],
+  "Table 2L-1": [
+   "Spacing between Message Characters, Words, and Lines of Text",
+   811
+  ],
+  "Table 2L-2": [
+   "Example of Units of Information",
+   811
+  ],
+  "Table 2L-3": [
+   "Examples of Message Construction for CMS",
+   812
+  ],
+  "Table 2L-4": [
+   "Examples of Message Construction for Portable CMS",
+   813
+  ],
+  "Table 2M-1": [
+   "Category Chart for Recreational and Cultural Interest Area Symbols",
+   838
+  ],
+  "Table 2M-1(CA)": [
+   "California Category Chart for Recreational and Cultural Interest Area Symbols",
+   839
+  ],
+  "Table 2M-101(CA)": [
+   "California Recreational and Cultural Interest Area Sign and Plaque Sizes",
+   840
+  ],
+  "Table 2N-1": [
+   "Emergency Management Sign Sizes",
+   846
+  ],
+  "Table 3B-1": [
+   "Minimum Passing Sight Distances for No-Passing Zone Markings",
+   956
+  ],
+  "Table 3E-1": [
+   "Standard Edge Line and Lane Line Markings for Preferential Lanes",
+   990
+  ],
+  "Table 3E-2": [
+   "Standard Center Line and Edge Line Markings for Counter-Flow Preferential Lanes on Divided Highways",
+   991
+  ],
+  "Table 3G-1": [
+   "Approximate Spacing for Delineators on Horizontal Curves",
+   1005
+  ],
+  "Table 4C-1": [
+   "Warrant 1, Eight-Hour Vehicular Volume",
+   1074
+  ],
+  "Table 4C-2": [
+   "Minimum Number of Reported Crashes in a One-Year Period",
+   1074
+  ],
+  "Table 4C-3": [
+   "Minimum Number of Reported Crashes in a Three-Year Period",
+   1075
+  ],
+  "Table 4C-4": [
+   "Minimum Number of Reported Crashes in a One-Year Period",
+   1075
+  ],
+  "Table 4C-5": [
+   "Minimum Number of Reported Crashes in a Three-Year Period",
+   1075
+  ],
+  "Table 4C-6": [
+   "Warrant 9, Adjustment Factor for Daily Frequency of Rail Traffic",
+   1076
+  ],
+  "Table 4C-7": [
+   "Warrant 9, Adjustment Factor for Percentage of High-Occupancy Buses",
+   1076
+  ],
+  "Table 4C-8": [
+   "Warrant 9, Adjustment Factor for Percentage of Tractor-Trailer Trucks",
+   1076
+  ],
+  "Table 4D-1": [
+   "Recommended Minimum Number of Primary Signal Faces for Through Traffic on Approaches with Posted, Statutory, or 85th-Percentile Speed of 45 mph or Higher",
+   1089
+  ],
+  "Table 4D-2": [
+   "Minimum Sight Distance for Signal Visibility",
+   1089
+  ],
+  "Table 4D-101(CA)": [
+   "Minimum Yellow Change Interval Timing",
+   1090
+  ],
+  "Table 4D-102(CA)": [
+   "Traffic Signal Timing Analysis Chart",
+   1091
+  ],
+  "Table 4D-103(CA)": [
+   "Signal Operations - Vehicular Speed",
+   1092
+  ],
+  "Table 4H-101(CA)": [
+   "Signal Operations - Minimum Bicycle Timing",
+   1154
+  ],
+  "Table 5A-1": [
+   "Automation Levels",
+   1210
+  ],
+  "Table 6B-1": [
+   "Recommended Advance Warning Sign Minimum Spacing",
+   1230
+  ],
+  "Table 6B-2": [
+   "Stopping Sight Distance as a Function of Speed on Level Roads (Used as suggested longitudinal buffer space length or location for flagger station)",
+   1231
+  ],
+  "Table 6B-2(CA)": [
+   "Stopping Sight Distance as a Function of Speed on Downgrades (Used as suggested longitudinal buffer space length or location for flagger station)",
+   1231
+  ],
+  "Table 6B-3": [
+   "Taper Length Criteria for Temporary Traffic Control Zones",
+   1232
+  ],
+  "Table 6B-3(CA)": [
+   "Taper Length Criteria for Temporary Traffic Control Zones (for 12 feet Offset Width)",
+   1232
+  ],
+  "Table 6B-4": [
+   "Formulas for Determining Taper Length",
+   1233
+  ],
+  "Table 6G-1": [
+   "Temporary Traffic Control Zone Regulatory Sign and Plaque Sizes",
+   1259
+  ],
+  "Table 6G-1(CA)": [
+   "California Temporary Traffic Control Zone Regulatory Sign and Plaque Sizes",
+   1260
+  ],
+  "Table 6H-1": [
+   "Temporary Traffic Control Zone Warning Sign and Plaque Sizes",
+   1279
+  ],
+  "Table 6H-1(CA)": [
+   "California Temporary Traffic Control Zone Warning Sign and Plaque Sizes",
+   1281
+  ],
+  "Table 6H-101(CA)": [
+   "Pavement Surface Tolerances",
+   1282
+  ],
+  "Table 6I-1": [
+   "Temporary Traffic Control Zone Guide Sign and Plaque Sizes",
+   1289
+  ],
+  "Table 6I-1(CA)": [
+   "California Temporary Traffic Control Zone Guide Sign and Plaque Sizes",
+   1289
+  ],
+  "Table 6K-101(CA)": [
+   "Maximum Spacing of Channelizing Devices",
+   1305
+  ],
+  "Table 6P-1": [
+   "Index to Typical Applications",
+   1347
+  ],
+  "Table 6P-1(CA)": [
+   "Index to Typical Applications",
+   1348
+  ],
+  "Table 6P-2": [
+   "Meaning of Symbols on Typical Application Diagrams",
+   1349
+  ],
+  "Table 7B-1": [
+   "School Area Sign and Plaque Sizes",
+   1491
+  ],
+  "Table 7B-1(CA)": [
+   "California School Area Sign Assembly Sizes",
+   1492
+  ],
+  "Table 8B-1": [
+   "Grade Crossing Sign and Plaque Minimum Sizes",
+   1529
+  ],
+  "Table 8B-1(CA)": [
+   "California Grade Crossing Sign and Plaque Minimum Sizes",
+   1530
+  ],
+  "Table 9A-1": [
+   "Bicycle Facility Sign and Plaque Minimum Sizes",
+   1589
+  ],
+  "Table 9A-1(CA)": [
+   "California Bicycle Facility Sign and Plaque Minimum Sizes",
+   1592
+  ]
+ },
+ "mutcd": {
+  "Figure 1B-1": [
+   "Process for Requesting and Conducting Experimentations for New Traffic Control Devices",
+   7
+  ],
+  "Figure 1B-2": [
+   "Process for Incorporating New Traffic Control Devices into the MUTCD",
+   10
+  ],
+  "Figure 2A-1": [
+   "Examples of Enhanced Conspicuity for Signs",
+   48
+  ],
+  "Figure 2A-2": [
+   "Examples of Heights and Lateral Locations of Sign Installations",
+   51
+  ],
+  "Figure 2A-3": [
+   "Examples of Locations for Some Typical Signs at Intersections",
+   52
+  ],
+  "Figure 2A-4": [
+   "Relative Locations of Regulatory, Warning, and Guide Signs on an Intersection Approach",
+   53
+  ],
+  "Figure 2A-5": [
+   "Intersection Configuration at a Divided Highway Crossing",
+   64
+  ],
+  "Figure 2B-1": [
+   "STOP and YIELD Signs and Plaques",
+   74
+  ],
+  "Figure 2B-2": [
+   "Unsignalized Pedestrian Crosswalk Signs",
+   82
+  ],
+  "Figure 2B-3": [
+   "Speed Limit Signs and Plaques",
+   86
+  ],
+  "Figure 2B-4": [
+   "Movement Prohibition and Lane Control Signs and Plaques",
+   90
+  ],
+  "Figure 2B-5": [
+   "Intersection Lane Control Sign Arrow Options for Roundabouts",
+   92
+  ],
+  "Figure 2B-6": [
+   "Center and Reversible Lane Control Signs and Plaques",
+   95
+  ],
+  "Figure 2B-7": [
+   "Location of Reversible Two-Way Left-Turn Signs",
+   96
+  ],
+  "Figure 2B-8": [
+   "Jughandle Regulatory Signs",
+   98
+  ],
+  "Figure 2B-9": [
+   "Examples of Applications of Jughandle Regulatory and Guide Signing",
+   99
+  ],
+  "Figure 2B-10": [
+   "Passing, Keep Right, and Slow Traffic Signs",
+   103
+  ],
+  "Figure 2B-11": [
+   "Examples of Keep Right and Keep Left Sign Placement",
+   105
+  ],
+  "Figure 2B-12": [
+   "Selective Exclusion Signs and Plaques",
+   107
+  ],
+  "Figure 2B-13": [
+   "DO NOT ENTER, WRONG WAY, ONE WAY, and Related Signs and Plaques",
+   109
+  ],
+  "Figure 2B-14": [
+   "Locations of DO NOT ENTER and WRONG WAY Signing for Divided Highway Crossings that Function as Two Separate Intersections",
+   110
+  ],
+  "Figure 2B-15": [
+   "Example of Application of Regulatory Signing and Pavement Markings at an Exit Ramp Termination to Deter Wrong-Way Entry",
+   112
+  ],
+  "Figure 2B-16": [
+   "Example of Application of Regulatory Signing and Pavement Markings at an Entrance Ramp Terminal",
+   113
+  ],
+  "Figure 2B-17": [
+   "Examples of Low-Mounted WRONG WAY Signs with DO NOT ENTER Signs for Wrong-Way Traffic Control",
+   115
+  ],
+  "Figure 2B-18": [
+   "Locations of ONE WAY Signs",
+   116
+  ],
+  "Figure 2B-19": [
+   "ONE WAY Signing for Divided Highway Crossings that Function as Two Separate Intersections",
+   117
+  ],
+  "Figure 2B-20": [
+   "ONE WAY, DO NOT ENTER, and WRONG WAY Signing for Divided Highway Crossings that Function as a Single Intersection",
+   118
+  ],
+  "Figure 2B-21": [
+   "Example of Regulatory and Warning Signs for a Mini-Roundabout",
+   119
+  ],
+  "Figure 2B-22": [
+   "Example of Regulatory and Warning Signs for a One-Lane Roundabout",
+   120
+  ],
+  "Figure 2B-23": [
+   "Example of Regulatory and Warning Signs for a Two-Lane Roundabout with Consecutive Double Lefts",
+   121
+  ],
+  "Figure 2B-24": [
+   "Example of Regulatory and Warning Signs for a Neighborhood Traffic Circle",
+   122
+  ],
+  "Figure 2B-25": [
+   "Parking, Standing, and Stopping Signs and Plaques (R7 and R8 Series)",
+   124
+  ],
+  "Figure 2B-26": [
+   "Emergency Restriction Signs",
+   127
+  ],
+  "Figure 2B-27": [
+   "Pedestrian Signs and Plaques",
+   129
+  ],
+  "Figure 2B-28": [
+   "Traffic Signal Signs and Plaques",
+   132
+  ],
+  "Figure 2B-29": [
+   "Ramp Metering Signs",
+   135
+  ],
+  "Figure 2B-30": [
+   "Road Closed and Weight Limit Signs",
+   136
+  ],
+  "Figure 2B-31": [
+   "Truck Signs",
+   139
+  ],
+  "Figure 2B-32": [
+   "Photo Enforcement Signs and Plaques",
+   140
+  ],
+  "Figure 2B-33": [
+   "Other Regulatory Signs",
+   140
+  ],
+  "Figure 2B-34": [
+   "Headlight Use Signs",
+   141
+  ],
+  "Figure 2C-1": [
+   "Horizontal Alignment Signs and Plaques",
+   153
+  ],
+  "Figure 2C-2": [
+   "Examples of Warning Signs for Changes in Horizontal Alignment",
+   156
+  ],
+  "Figure 2C-3": [
+   "Examples of Exit Ramp Advisory Speed and Other Warning Signs",
+   161
+  ],
+  "Figure 2C-4": [
+   "Vehicle Speed Feedback Sign and Plaque",
+   166
+  ],
+  "Figure 2C-5": [
+   "Vertical Grade Signs and Plaques",
+   167
+  ],
+  "Figure 2C-6": [
+   "Miscellaneous Warning Signs",
+   169
+  ],
+  "Figure 2C-7": [
+   "Roadway and Weather Condition Signs and Plaques",
+   174
+  ],
+  "Figure 2C-8": [
+   "Advance Traffic Control Signs",
+   177
+  ],
+  "Figure 2C-9": [
+   "Reduced Speed Limit Ahead and Speed Zone Signs",
+   179
+  ],
+  "Figure 2C-10": [
+   "Intersection Warning Signs and Plaques",
+   179
+  ],
+  "Figure 2C-11": [
+   "Merging and Passing Signs and Plaques",
+   182
+  ],
+  "Figure 2C-12": [
+   "Examples of Merge and Added Lane Sign Placement for Entering and Converging Roadways",
+   184
+  ],
+  "Figure 2C-13": [
+   "Example Sequences for Lane Ends and Lane Merge Signs",
+   185
+  ],
+  "Figure 2C-14": [
+   "Vehicular Traffic Warning Signs and Plaques",
+   191
+  ],
+  "Figure 2C-15": [
+   "Non-Vehicular Warning Signs",
+   193
+  ],
+  "Figure 2C-16": [
+   "Supplemental Warning Plaques",
+   195
+  ],
+  "Figure 2C-17": [
+   "Object Markers",
+   199
+  ],
+  "Figure 2D-1": [
+   "Examples of Color-Coded Destination Guide Signs",
+   206
+  ],
+  "Figure 2D-2": [
+   "Examples of Uses of Abbreviations on Guide Signs",
+   212
+  ],
+  "Figure 2D-3": [
+   "Arrows for Use on Guide Signs",
+   214
+  ],
+  "Figure 2D-4": [
+   "Route Signs",
+   217
+  ],
+  "Figure 2D-5": [
+   "Route Sign Auxiliary Plaques and Combination Junction Sign",
+   219
+  ],
+  "Figure 2D-6": [
+   "Advance Turn and Directional Arrow Auxiliary Plaques",
+   222
+  ],
+  "Figure 2D-7": [
+   "Examples of Consolidation of Route Sign Assemblies into Guide Signs",
+   224
+  ],
+  "Figure 2D-8": [
+   "Illustration of Directional Assemblies and Other Route Signs",
+   226
+  ],
+  "Figure 2D-9": [
+   "Destination and Distance Signs",
+   233
+  ],
+  "Figure 2D-10": [
+   "Examples of Overhead Signs at an Intersection",
+   235
+  ],
+  "Figure 2D-11": [
+   "Destination Signs for Circular Intersections",
+   239
+  ],
+  "Figure 2D-12": [
+   "Examples of Guide Signs for Circular Intersections",
+   240
+  ],
+  "Figure 2D-13": [
+   "Examples of Signing for Intersections with Indirect Left Turns",
+   244
+  ],
+  "Figure 2D-14": [
+   "Street Name and Parking Signs",
+   247
+  ],
+  "Figure 2D-15": [
+   "Example of Interchange Crossroad Guide Signing for a One-Lane Approach",
+   253
+  ],
+  "Figure 2D-16": [
+   "Example of Minor Interchange Crossroad Guide Signing",
+   254
+  ],
+  "Figure 2D-17": [
+   "Examples of Multi-Lane Crossroad Guide Signing for a Diamond Interchange",
+   255
+  ],
+  "Figure 2D-18": [
+   "Examples of Multi-Lane Crossroad Guide Signing for a Partial Cloverleaf Interchange",
+   256
+  ],
+  "Figure 2D-19": [
+   "Examples of Multi-Lane Crossroad Signing for a Cloverleaf Interchange",
+   257
+  ],
+  "Figure 2D-20": [
+   "Example of Crossroad Guide Signing for an Entrance Ramp with a Nearby Frontage Road",
+   258
+  ],
+  "Figure 2D-21": [
+   "Example of Transposed Alignment Crossroad Guide Signing at a Diamond Interchange",
+   259
+  ],
+  "Figure 2D-22": [
+   "Example of Crossroad Intersection Guide Signs for a Single-Point Urban Interchange",
+   260
+  ],
+  "Figure 2D-23": [
+   "Example of Weigh Station Signing – Conventional Road",
+   262
+  ],
+  "Figure 2D-24": [
+   "Crossover Signs",
+   263
+  ],
+  "Figure 2D-25": [
+   "Truck and Passing Lane Signs",
+   263
+  ],
+  "Figure 2D-26": [
+   "Example of Signing for a Truck Lane",
+   264
+  ],
+  "Figure 2D-27": [
+   "Example of Signing for an Intermittent Passing Lane",
+   265
+  ],
+  "Figure 2D-28": [
+   "Emergency and Slow Vehicle Turn-Out Signs",
+   266
+  ],
+  "Figure 2D-29": [
+   "Example of Signing for an Emergency Turn-Out",
+   267
+  ],
+  "Figure 2D-30": [
+   "Examples of Community Wayfinding Guide Signs",
+   268
+  ],
+  "Figure 2D-31": [
+   "Example of a Community Wayfinding Guide Sign System Showing Direction from a Freeway or Expressway",
+   269
+  ],
+  "Figure 2D-32": [
+   "Example of a Color-Coded Community Wayfinding Guide Sign System",
+   270
+  ],
+  "Figure 2D-33": [
+   "National Scenic Byways Sign and Plaque, and Examples of Use",
+   273
+  ],
+  "Figure 2D-34": [
+   "Byway Identification, State Scenic Byway, and National Historic Trail Signs and Plaques, and Examples of Use",
+   275
+  ],
+  "Figure 2D-35": [
+   "Example of Guide and Directional Signing for a National Historic Trail",
+   277
+  ],
+  "Figure 2D-36": [
+   "Example of Historic Trails Signing from an Expressway or Freeway",
+   278
+  ],
+  "Figure 2D-37": [
+   "Signs and Plaques for Rerouting Because of Traffic Incidents",
+   280
+  ],
+  "Figure 2D-38": [
+   "Example of Permanent Guide Signing for Rerouting Because of Traffic Incidents",
+   281
+  ],
+  "Figure 2D-39": [
+   "Example of a System of Major Guide Signs for an Airport Roadway Network",
+   283
+  ],
+  "Figure 2E-1": [
+   "Designation of Destination for Interchanges in Opposing Directions of Travel",
+   292
+  ],
+  "Figure 2E-2": [
+   "Typical Sequence of Interchange Guide Signs",
+   305
+  ],
+  "Figure 2E-3": [
+   "Examples of Interchange Exit Numbering",
+   307
+  ],
+  "Figure 2E-4": [
+   "Example of Interstate Loops and Spurs",
+   307
+  ],
+  "Figure 2E-5": [
+   "Example of Interchange Numbering for Mainline and Circumferential Routes",
+   308
+  ],
+  "Figure 2E-6": [
+   "Example of Interchange Numbering for Mainline and Loop Routes",
+   309
+  ],
+  "Figure 2E-7": [
+   "Example of Interchange Numbering for Mainline and Spur Routes",
+   310
+  ],
+  "Figure 2E-8": [
+   "Example of Interchange Numbering for Overlapping Routes",
+   311
+  ],
+  "Figure 2E-9": [
+   "Examples of Interchange Advance Guide Signs, Exit Number Plaques, and LEFT Plaque",
+   313
+  ],
+  "Figure 2E-10": [
+   "Example of an Interchange Sequence Sign",
+   314
+  ],
+  "Figure 2E-11": [
+   "Example of Using a Series of Interchange Sequence Signs for Closely-Spaced Interchanges",
+   315
+  ],
+  "Figure 2E-12": [
+   "Examples of Exit Direction Signs",
+   316
+  ],
+  "Figure 2E-13": [
+   "Exit Direction Sign Placement",
+   317
+  ],
+  "Figure 2E-14": [
+   "Examples of Exit Direction Signs with Advisory Speed Panels and Flashing Yellow Beacons",
+   318
+  ],
+  "Figure 2E-15": [
+   "Exit Gore Signs and Plaques",
+   319
+  ],
+  "Figure 2E-16": [
+   "Examples of Pull-Through Signs",
+   320
+  ],
+  "Figure 2E-17": [
+   "EXIT ONLY and LEFT Sign Panels",
+   321
+  ],
+  "Figure 2E-18": [
+   "Guide Signs for a Single-Lane Exit to the Left with a Dropped Lane",
+   322
+  ],
+  "Figure 2E-19": [
+   "Guide Signs for a Single-Lane Exit to the Right with a Dropped Lane",
+   323
+  ],
+  "Figure 2E-20": [
+   "Example of Overhead Guide Signs for a Dropped Auxiliary Lane between Separate Interchange Ramps",
+   325
+  ],
+  "Figure 2E-21": [
+   "Example of Post-Mounted Advance Guide and Supplemental Warning Signs for a Dropped Auxiliary Lane between Separate Interchange Ramps",
+   326
+  ],
+  "Figure 2E-22": [
+   "Example of Guide Signs for an Auxiliary Lane of at Least One-Half Mile in Length",
+   327
+  ],
+  "Figure 2E-23": [
+   "Examples of Signing for Mainline Terminations within an Interchange",
+   328
+  ],
+  "Figure 2E-24": [
+   "Example of Signing for an Intermediate Interchange within a Major Interchange",
+   329
+  ],
+  "Figure 2E-25": [
+   "Examples of Signing for an Interchange Exit Ramp with a Downstream Split",
+   330
+  ],
+  "Figure 2E-26": [
+   "Examples of Guide Signs for a Minor Interchange",
+   332
+  ],
+  "Figure 2E-27": [
+   "Example of Guide Signs for a Diamond Interchange",
+   334
+  ],
+  "Figure 2E-28": [
+   "Example of Guide Signs for a Diamond Interchange in an Urban Area",
+   335
+  ],
+  "Figure 2E-29": [
+   "Example of Guide Signs for a Full Cloverleaf Interchange",
+   336
+  ],
+  "Figure 2E-30": [
+   "Example of Guide Signs for a Full Cloverleaf Interchange with Collector-Distributor Roadways",
+   338
+  ],
+  "Figure 2E-31": [
+   "Example of Guide Signs for a Partial Cloverleaf Interchange",
+   339
+  ],
+  "Figure 2E-32": [
+   "Examples of Guide Signs for Successive Interchanges with Collector-Distributor Roadways",
+   340
+  ],
+  "Figure 2E-33": [
+   "Examples of Guide Signs for a Freeway-to-Freeway Interchange",
+   342
+  ],
+  "Figure 2E-34": [
+   "Example of Guide Signs for a Split with Dedicated Lanes",
+   345
+  ],
+  "Figure 2E-35": [
+   "Example of an Overhead Arrow-per-Lane Guide Sign for a Multi-Lane Exit with an Option Lane",
+   346
+  ],
+  "Figure 2E-36": [
+   "Example of Overhead Arrow-per-Lane Guide Signs for a Two-Lane Exit to the Right with an Option Lane",
+   348
+  ],
+  "Figure 2E-37": [
+   "Example of Overhead Arrow-per-Lane Guide Signs for a Two-Lane Exit to the Right with an Option Lane (Through Lanes Curve to the Left)",
+   349
+  ],
+  "Figure 2E-38": [
+   "Example of Overhead Arrow-per-Lane Guide Signs for a Split with an Option Lane",
+   350
+  ],
+  "Figure 2E-39": [
+   "Example of Guide Signing for a Narrow Gore at a Split with an Option Lane",
+   352
+  ],
+  "Figure 2E-40": [
+   "Example of Guide Signing for a Narrow Gore at a Two-Lane Exit with an Option Lane",
+   353
+  ],
+  "Figure 2E-41": [
+   "Examples of Diagrammatic Advance Guide Signs",
+   354
+  ],
+  "Figure 2E-42": [
+   "Example of Diagrammatic Advance Guide Sign Use",
+   355
+  ],
+  "Figure 2E-43": [
+   "Example of a Partial Width Overhead Arrow-per-Lane Guide Sign for Intermediate or Minor Interchanges",
+   356
+  ],
+  "Figure 2E-45": [
+   "Example of Signing for a Two-Lane Intermediate or Minor Interchange Exit with Option and Auxiliary Lanes Using Partial-Width Overhead Arrow-per-Lane Signs",
+   358
+  ],
+  "Figure 2E-46": [
+   "Example of Signing for a Two-Lane Intermediate or Minor Interchange Exit with an Option Lane and a Dropped Lane",
+   359
+  ],
+  "Figure 2E-47": [
+   "Example of Signing for a Two-Lane Intermediate or Minor Interchange Exit with Option and Auxiliary Lanes",
+   360
+  ],
+  "Figure 2E-48": [
+   "Example of Sign Spreading",
+   362
+  ],
+  "Figure 2E-49": [
+   "Next Exit Plaques",
+   364
+  ],
+  "Figure 2E-50": [
+   "Example of a Post-Interchange Distance Sign",
+   365
+  ],
+  "Figure 2E-51": [
+   "Example of a Post-Interchange Travel Time Sign",
+   365
+  ],
+  "Figure 2E-52": [
+   "Examples of Travel Time Signs",
+   366
+  ],
+  "Figure 2E-53": [
+   "Example of a Supplemental Guide Sign for a Multi-Exit Interchange",
+   367
+  ],
+  "Figure 2E-54": [
+   "Examples of Supplemental Guide Signs for a Park-and-Ride Facility",
+   367
+  ],
+  "Figure 2E-55": [
+   "Example of a Community Interchanges Identification Sign",
+   368
+  ],
+  "Figure 2E-56": [
+   "Example of the Use of a Community Interchanges Identification Sign",
+   369
+  ],
+  "Figure 2E-57": [
+   "Example of a Next Exits Sign",
+   370
+  ],
+  "Figure 2E-58": [
+   "Example of the Use of a Next Exits Sign",
+   371
+  ],
+  "Figure 2E-59": [
+   "Example of Weigh Station Signing on Freeways",
+   372
+  ],
+  "Figure 2E-60": [
+   "Interstate, Off-Interstate, and U.S. Route Signs",
+   373
+  ],
+  "Figure 2E-61": [
+   "Eisenhower Interstate System Signs",
+   374
+  ],
+  "Figure 2E-62": [
+   "Example of Signing for Route Diversion by Vehicle Class",
+   376
+  ],
+  "Figure 2F-1": [
+   "Examples of ETC Account Pictographs and Use of Purple Backgrounds and Underlay Panels",
+   382
+  ],
+  "Figure 2F-2": [
+   "Toll Plaza Regulatory Signs and Plaques",
+   383
+  ],
+  "Figure 2F-3": [
+   "ETC Account-Only Auxiliary Signs for Use in Route Sign Assemblies",
+   384
+  ],
+  "Figure 2F-4": [
+   "Toll Plaza Warning Signs and Plaques",
+   386
+  ],
+  "Figure 2F-5": [
+   "Example of Minor Interchange Crossroad Signing for an Approach to a Toll Highway",
+   388
+  ],
+  "Figure 2F-6": [
+   "Example of Interchange Crossroad Signing for a One-Lane Approach to a Toll Highway",
+   389
+  ],
+  "Figure 2F-7": [
+   "Examples of Multi-Lane Crossroad Signing for a Diamond Interchange",
+   390
+  ],
+  "Figure 2F-8": [
+   "Examples of Guide Signs for Entrances to Toll Highways or Ramps",
+   391
+  ],
+  "Figure 2F-9": [
+   "Examples of Conventional Toll Plaza Advance Signs",
+   392
+  ],
+  "Figure 2F-10": [
+   "Example of an Overhead Arrow-per-Lane Guide Sign and Arrow for a Split with an Option Lane",
+   393
+  ],
+  "Figure 2F-11": [
+   "Examples of Guide Signs for a Split with an Option Lane for a Mainline Toll Plaza on a Diverging Alignment from Open-Road ETC Lanes",
+   394
+  ],
+  "Figure 2F-12": [
+   "Examples of Guide Signs for the Entrance to a Toll Highway on which Tolls are Collected Electronically Only",
+   395
+  ],
+  "Figure 2F-13": [
+   "Examples of Guide Signs for Alternative Toll and Non-Toll Ramp Connections to a Non-Toll Highway",
+   398
+  ],
+  "Figure 2F-14": [
+   "Examples of Mainline Toll Plaza Approach and Canopy Signing",
+   400
+  ],
+  "Figure 2F-15": [
+   "Examples of Guide Signs for a Mainline Toll Plaza on a Diverging Alignment from Open-Road ETC Lanes",
+   401
+  ],
+  "Figure 2F-16": [
+   "Examples of Toll Plaza Canopy Signs",
+   402
+  ],
+  "Figure 2G-1": [
+   "Preferential Lane Regulatory Signs and Plaque",
+   410
+  ],
+  "Figure 2G-2": [
+   "Example of Signing for an Added Continuous-Access Contiguous or Buffer-Separated HOV Lane",
+   413
+  ],
+  "Figure 2G-3": [
+   "Example of Signing for a General-Purpose Lane that Becomes a Continuous-Access Contiguous or Buffer-Separated HOV Lane",
+   414
+  ],
+  "Figure 2G-4": [
+   "Examples of Warning Signs and Plaques Applicable Only to Preferential Lanes",
+   418
+  ],
+  "Figure 2G-5": [
+   "Example of an Overhead Advance Guide Sign for a Preferential Lane Entrance",
+   420
+  ],
+  "Figure 2G-6": [
+   "Examples of Overhead or Post-Mounted Preferential Lane Entrance Direction Signs",
+   421
+  ],
+  "Figure 2G-7": [
+   "Entrance Gore Signs for Barrier-Separated Preferential Lanes",
+   421
+  ],
+  "Figure 2G-8": [
+   "Example of Advance Guide and Entrance Direction Signs for a General-Purpose Lane that Becomes a Preferential Lane",
+   424
+  ],
+  "Figure 2G-9": [
+   "Example of Signing for an Entrance to Access-Restricted HOV Lanes",
+   425
+  ],
+  "Figure 2G-10": [
+   "Example of Signing for an Intermediate Entry to a Barrier-Separated or Buffer-Separated HOV Lane",
+   426
+  ],
+  "Figure 2G-11": [
+   "Example of Signing for the Intermediate Entry to, Egress from, and End of Access-Restricted HOV Lanes",
+   427
+  ],
+  "Figure 2G-12": [
+   "Examples of Barrier-Mounted Guide Signs for an Intermediate Egress from Preferential Lanes",
+   428
+  ],
+  "Figure 2G-13": [
+   "Examples of Signs for an Intermediate Egress from a Barrier-Separated or Buffer-Separated HOV Lane",
+   430
+  ],
+  "Figure 2G-14": [
+   "Example of Signing for a Direct Entrance Ramp to an HOV Lane from a Park-and-Ride Facility and a Local Street",
+   431
+  ],
+  "Figure 2G-15": [
+   "Exit Gore Sign for a Direct Exit from a Preferential Lane",
+   431
+  ],
+  "Figure 2G-16": [
+   "Examples of Guide Signs for Direct HOV Lane Entrance and Exit Ramps",
+   432
+  ],
+  "Figure 2G-17": [
+   "Examples of Guide Signs for a Direct Access Ramp between HOV Lanes on Separate Freeways",
+   433
+  ],
+  "Figure 2G-18": [
+   "Regulatory Signs for Managed Lanes",
+   436
+  ],
+  "Figure 2G-19": [
+   "Examples of Guide Signs for Entrances to Priced Managed Lanes",
+   437
+  ],
+  "Figure 2G-20": [
+   "Example of Signing for the Entrance to an Access-Restricted Priced Managed Lane on which Registration in a Toll Account Program Is Not Required",
+   438
+  ],
+  "Figure 2G-21": [
+   "Example of Signing for the Entrance to an Access-Restricted Priced Managed Lane – ETC Account Required",
+   439
+  ],
+  "Figure 2G-22": [
+   "Example of Signing for the Entrance to an Access-Restricted Priced Managed Lane Where a General-Purpose Lane Becomes the Managed Lane",
+   440
+  ],
+  "Figure 2G-23": [
+   "Example of Signing for an Intermediate Entry to a Barrier-Separated or Buffer-Separated Priced Managed Lane",
+   441
+  ],
+  "Figure 2G-24": [
+   "Example of Signing for the Intermediate Entry to, Egress from, and End of Access-Restricted Priced Managed Lanes",
+   442
+  ],
+  "Figure 2G-25": [
+   "Example of an Exit Destinations Sign for a Managed Lane",
+   443
+  ],
+  "Figure 2G-26": [
+   "Example of a Comparative Travel Time Information Sign for Preferential or Managed Lanes",
+   443
+  ],
+  "Figure 2G-27": [
+   "Examples of Guide Signs for an Intermediate Egress from a Barrier-Separated or Buffer-Separated Managed Lane",
+   444
+  ],
+  "Figure 2G-28": [
+   "Examples of Guide Signs for Direct Managed Lane Entrance and Exit Ramps",
+   445
+  ],
+  "Figure 2G-29": [
+   "Examples of Guide Signs for a Direct Access Ramp between Managed Lanes on Separate Freeways",
+   446
+  ],
+  "Figure 2G-30": [
+   "Examples of Guide Signs for a Direct Entrance Ramp to a Priced Managed Lane and Trailblazing to a Nearby Entrance to the General-Purpose Lanes",
+   448
+  ],
+  "Figure 2G-31": [
+   "Examples of Guide Signs for Separate Entrance Ramps to General-Purpose and Priced Managed Lanes from the Same Crossroad",
+   449
+  ],
+  "Figure 2G-32": [
+   "Examples of Signing for Part-Time Travel on a Shoulder",
+   450
+  ],
+  "Figure 2G-33": [
+   "Example of Lane-Use Control Signals and Variable Speed Limit Signs for Active Lane Management During an Incident",
+   456
+  ],
+  "Figure 2H-1": [
+   "General Information and Miscellaneous Information Signs and Plaques",
+   459
+  ],
+  "Figure 2H-2": [
+   "Future Interstate Signs (I2-4, I2-4a)",
+   463
+  ],
+  "Figure 2H-3": [
+   "Examples of Project Information Signs",
+   464
+  ],
+  "Figure 2H-4": [
+   "Examples and Typical Placement of Grade Separation Identification Signs",
+   465
+  ],
+  "Figure 2H-5": [
+   "Reference Location Signs",
+   466
+  ],
+  "Figure 2H-6": [
+   "Intermediate Reference Location Signs",
+   466
+  ],
+  "Figure 2H-7": [
+   "Enhanced Reference Location Signs",
+   467
+  ],
+  "Figure 2H-8": [
+   "Examples of Acknowledgment Sign Designs",
+   468
+  ],
+  "Figure 2H-9": [
+   "Examples of Signs for Alternative Fuels Corridors",
+   471
+  ],
+  "Figure 2H-10": [
+   "Example of Signing for an Alternative Fuels Corridor",
+   473
+  ],
+  "Figure 2H-11": [
+   "Typical Signing from a Freeway Exit Ramp to a Service Facility",
+   474
+  ],
+  "Figure 2I-1": [
+   "General Service Signs and Plaques",
+   478
+  ],
+  "Figure 2I-2": [
+   "Example of Next Services Plaque",
+   479
+  ],
+  "Figure 2I-3": [
+   "Examples of General Service Signs with and without Exit Numbering",
+   480
+  ],
+  "Figure 2I-4": [
+   "Examples of Interstate Oasis Signs and Plaques",
+   483
+  ],
+  "Figure 2I-5": [
+   "Rest Area and Other Roadside Area Signs",
+   485
+  ],
+  "Figure 2I-6": [
+   "Brake Check Area and Chain-Up Area Signs",
+   485
+  ],
+  "Figure 2I-7": [
+   "Examples of Tourist Information and Welcome Center Signs",
+   486
+  ],
+  "Figure 2I-8": [
+   "Radio, Telephone, and Carpool Information Signs",
+   488
+  ],
+  "Figure 2I-9": [
+   "Examples of Truck Parking Availability Signs",
+   490
+  ],
+  "Figure 2I-10": [
+   "Examples of Use of Truck Parking Availability Signs",
+   491
+  ],
+  "Figure 2J-1": [
+   "Examples of Business Identification Panel Arrangements on Specific Service Signs",
+   494
+  ],
+  "Figure 2J-2": [
+   "Examples of Specific Service Sign Locations",
+   495
+  ],
+  "Figure 2J-3": [
+   "Example of General Service Signs Used in Conjunction with Specific Service Signs",
+   497
+  ],
+  "Figure 2J-4": [
+   "Examples of Supplemental Messages on Business Identification Sign Panels",
+   497
+  ],
+  "Figure 2J-5": [
+   "Example of Specific Services Signing for a Conventional Road Accessed within a Freeway-to-Freeway Interchange",
+   500
+  ],
+  "Figure 2J-6": [
+   "Example of Signing for Services Accessed from a Collector-Distributor Road Adjacent to a Freeway",
+   502
+  ],
+  "Figure 2J-7": [
+   "Examples of Specific Service Trailblazer Signs",
+   503
+  ],
+  "Figure 2K-1": [
+   "Examples of Tourist-Oriented Directional Signs",
+   506
+  ],
+  "Figure 2K-2": [
+   "Examples of Tourist-Oriented Directional Signs on an Intersection Approach",
+   507
+  ],
+  "Figure 2L-1": [
+   "Example of CMS Capability to Display Sign Legends Based on Pixel Pitch",
+   515
+  ],
+  "Figure 2M-1": [
+   "Examples of Use of Arrows, Educational Plaques, and Prohibitive Circles and Diagonals",
+   522
+  ],
+  "Figure 2M-2": [
+   "Examples of Recreational and Cultural Interest Area Guide Signs",
+   524
+  ],
+  "Figure 2M-3": [
+   "Arrangement, Height, and Lateral Position of Signs Located within Recreational and Cultural Interest Areas",
+   525
+  ],
+  "Figure 2M-4": [
+   "Examples of Symbol and Destination Guide Signing Layout",
+   526
+  ],
+  "Figure 2M-5": [
+   "Recreational and Cultural Interest Area Symbol Signs for General Applications",
+   527
+  ],
+  "Figure 2M-6": [
+   "Recreational and Cultural Interest Area Symbol Signs for Accommodations",
+   527
+  ],
+  "Figure 2M-7": [
+   "Recreational and Cultural Interest Area Symbol Signs for Services",
+   528
+  ],
+  "Figure 2M-8": [
+   "Recreational and Cultural Interest Area Symbol Signs for Land Recreation",
+   528
+  ],
+  "Figure 2M-9": [
+   "Recreational and Cultural Interest Area Symbol Signs for Water Recreation",
+   529
+  ],
+  "Figure 2M-10": [
+   "Recreational and Cultural Interest Area Symbol Signs for Winter Recreation",
+   529
+  ],
+  "Figure 2N-1": [
+   "Emergency Management Signs",
+   531
+  ],
+  "Figure 3B-1": [
+   "Yellow Center Lines for Two-Lane, Two-Way Applications",
+   540
+  ],
+  "Figure 3B-2": [
+   "Yellow Center Lines for Four-or-More Lane, Two-Way Applications",
+   541
+  ],
+  "Figure 3B-3": [
+   "Yellow Center Lines for Three-Lane, Two-Way Applications",
+   542
+  ],
+  "Figure 3B-4": [
+   "Method of Locating and Determining the Limits of No-Passing Zones at Curves",
+   544
+  ],
+  "Figure 3B-5": [
+   "Application of Three-Lane, Two-Way Markings for Changing the Direction of the Center Lane",
+   545
+  ],
+  "Figure 3B-6": [
+   "Example of Yellow Pavement Markings for Reversible Lanes",
+   546
+  ],
+  "Figure 3B-7": [
+   "Examples of Two-Way Left-Turn Lane Marking Applications",
+   547
+  ],
+  "Figure 3B-8": [
+   "Example of a Double Solid White Line Used to Prohibit Lane Changing",
+   548
+  ],
+  "Figure 3B-9": [
+   "Examples of Dotted Line and Channelizing Line Applications for Exit Ramp Markings",
+   549
+  ],
+  "Figure 3B-10": [
+   "Examples of Dotted Line and Channelizing Line Applications for Entrance Ramp Markings",
+   551
+  ],
+  "Figure 3B-11": [
+   "Examples of Applications of Freeway and Expressway Lane-Drop Markings",
+   554
+  ],
+  "Figure 3B-12": [
+   "Examples of Applications of Conventional Road Lane-Drop Markings",
+   560
+  ],
+  "Figure 3B-13": [
+   "Examples of Line Extensions through Intersections",
+   564
+  ],
+  "Figure 3B-14": [
+   "Examples of Applications of Lane-Reduction Transition Markings",
+   567
+  ],
+  "Figure 3B-15": [
+   "Examples of Applications of Markings for Obstructions in the Roadway",
+   569
+  ],
+  "Figure 3B-16": [
+   "Examples of Yield Line Applications",
+   574
+  ],
+  "Figure 3B-17": [
+   "Example of Elongated Letters for Word Pavement Markings",
+   576
+  ],
+  "Figure 3B-18": [
+   "Examples of Elongated Route Shields and Markers Applied as Pavement Markings",
+   576
+  ],
+  "Figure 3B-19": [
+   "International Symbol of Accessibility Parking Space Marking",
+   577
+  ],
+  "Figure 3B-20": [
+   "Yield Ahead Triangle Symbols",
+   577
+  ],
+  "Figure 3B-21": [
+   "Examples of Standard Arrows for Pavement Markings",
+   579
+  ],
+  "Figure 3B-22": [
+   "Examples of Lane-Use Control Word and Arrow Pavement Markings",
+   580
+  ],
+  "Figure 3B-23": [
+   "Examples of Parking Space Markings",
+   582
+  ],
+  "Figure 3B-24": [
+   "Do Not Block Intersection Markings",
+   583
+  ],
+  "Figure 3B-25": [
+   "Example of the Application of Speed Reduction Markings",
+   584
+  ],
+  "Figure 3B-26": [
+   "Pavement Markings for Speed Humps without Crosswalks",
+   585
+  ],
+  "Figure 3B-27": [
+   "Pavement Markings for Speed Tables or Speed Humps with Crosswalks",
+   586
+  ],
+  "Figure 3B-28": [
+   "Advance Warning Markings for Speed Humps or Speed Tables",
+   587
+  ],
+  "Figure 3B-29": [
+   "Example of Pavement Markings for a Diamond Interchange with a Transposed Alignment Crossroad",
+   588
+  ],
+  "Figure 3C-1": [
+   "Crosswalk Markings",
+   590
+  ],
+  "Figure 3C-2": [
+   "Example of Crosswalk Markings for an Exclusive Pedestrian Phase that Permits Diagonal Crossings",
+   593
+  ],
+  "Figure 3D-1": [
+   "Example of Markings for Approach and Circulatory Roadways at a Roundabout",
+   596
+  ],
+  "Figure 3D-2": [
+   "Example of Markings for a One-Lane Roundabout",
+   597
+  ],
+  "Figure 3D-3": [
+   "Example of Markings for a Two-Lane Roundabout with One-Lane and Two-Lane Approaches",
+   598
+  ],
+  "Figure 3D-4": [
+   "Example of Markings for a Two-Lane Roundabout with One-Lane Exits",
+   600
+  ],
+  "Figure 3D-5": [
+   "Example of Markings for a Two-Lane Roundabout with Two-Lane Exits",
+   601
+  ],
+  "Figure 3D-6": [
+   "Example of Markings for a Two-Lane Roundabout with a Double Left Turn",
+   602
+  ],
+  "Figure 3D-7": [
+   "Example of Markings for a Two-Lane Roundabout with a Double Right Turn",
+   603
+  ],
+  "Figure 3D-8": [
+   "Example of Markings for a Diamond Interchange with Two Circular-Shaped Roundabout Ramp Terminals",
+   604
+  ],
+  "Figure 3E-1": [
+   "Markings for Barrier-Separated Preferential Lanes",
+   607
+  ],
+  "Figure 3E-2": [
+   "Markings for Buffer-Separated Preferential Lanes",
+   608
+  ],
+  "Figure 3E-3": [
+   "Markings for Contiguous Preferential Lanes",
+   610
+  ],
+  "Figure 3E-4": [
+   "Markings for Contra-Flow Preferential Lanes on Divided Highways",
+   611
+  ],
+  "Figure 3E-5": [
+   "Markings for Part-Time Travel on Shoulder and Application of Pavement Word Markings",
+   613
+  ],
+  "Figure 3E-6": [
+   "Markings for Part-Time Travel on a Shoulder through an Intersection",
+   616
+  ],
+  "Figure 3G-1": [
+   "Examples of Delineator Placement",
+   619
+  ],
+  "Figure 3H-1": [
+   "Aesthetic Treatments for Transverse Crosswalks",
+   623
+  ],
+  "Figure 3H-2": [
+   "Examples of Yellow-Colored Pavement Applications",
+   624
+  ],
+  "Figure 3H-3": [
+   "Examples of White-Colored Pavement Applications",
+   625
+  ],
+  "Figure 3H-4": [
+   "Examples of Green-Colored Pavement Applications",
+   627
+  ],
+  "Figure 3H-5": [
+   "Examples of Red-Colored Pavement Applications",
+   629
+  ],
+  "Figure 3H-6": [
+   "Examples of Purple-Colored Pavement Applications",
+   630
+  ],
+  "Figure 3I-1": [
+   "Examples of Tubular Markers Supplementing Pavement Markings in Advance of an Unsignalized Crosswalk",
+   633
+  ],
+  "Figure 3J-1": [
+   "Example of Markings for an Approach-End Treatment to an Island",
+   635
+  ],
+  "Figure 3J-2": [
+   "Examples of Islands Designated by Pavement Markings",
+   636
+  ],
+  "Figure 3J-3": [
+   "Examples of Curb Markings for Raised Islands",
+   637
+  ],
+  "Figure 3J-4": [
+   "Examples of Pavement Markings for Raised Islands",
+   637
+  ],
+  "Figure 3J-5": [
+   "Example of Optional Chevron and Diagonal Pavement Markings at a Raised Island",
+   639
+  ],
+  "Figure 3J-6": [
+   "Examples of Sidewalk Extensions Designated by Pavement Markings and Channelization",
+   640
+  ],
+  "Figure 3K-1": [
+   "Examples of Longitudinal Rumble Strip Markings",
+   642
+  ],
+  "Figure 4C-1": [
+   "Warrant 2, Four-Hour Vehicular Volume",
+   655
+  ],
+  "Figure 4C-2": [
+   "Warrant 2, Four-Hour Vehicular Volume (70% Factor)",
+   655
+  ],
+  "Figure 4C-3": [
+   "Warrant 3, Peak Hour",
+   657
+  ],
+  "Figure 4C-4": [
+   "Warrant 3, Peak Hour (70% Factor)",
+   657
+  ],
+  "Figure 4C-5": [
+   "Warrant 4, Pedestrian Four-Hour Volume",
+   658
+  ],
+  "Figure 4C-6": [
+   "Warrant 4, Pedestrian Peak Hour",
+   658
+  ],
+  "Figure 4C-7": [
+   "Warrant 4, Pedestrian Four-Hour Volume (70% Factor)",
+   659
+  ],
+  "Figure 4C-8": [
+   "Warrant 4, Pedestrian Peak Hour (70% Factor)",
+   659
+  ],
+  "Figure 4C-9": [
+   "Warrant 9, Intersection Near a Grade Crossing (One Approach Lane at the Track Crossing)",
+   664
+  ],
+  "Figure 4C-10": [
+   "Warrant 9, Intersection Near a Grade Crossing (Two or More Approach Lanes at the Track Crossing)",
+   664
+  ],
+  "Figure 4D-1": [
+   "Recommended Vehicular Signal Faces for Approaches with Posted, Statutory, or 85th-Percentile Speed of 45 mph or Higher",
+   669
+  ],
+  "Figure 4D-2": [
+   "Lateral and Longitudinal Location of Primary Signal Faces",
+   672
+  ],
+  "Figure 4D-3": [
+   "Maximum Mounting Height of Signal Faces that Are Located between 40 Feet and 53 Feet from the Stop Line",
+   674
+  ],
+  "Figure 4E-1": [
+   "Typical Arrangements of U-Turn Signal Faces",
+   676
+  ],
+  "Figure 4E-2": [
+   "Typical Arrangements of Signal Sections in Signal Faces That Do Not Control Turning Movements",
+   678
+  ],
+  "Figure 4F-1": [
+   "Typical Position and Arrangements of Shared Signal Faces for Permissive Only Mode Left Turns",
+   685
+  ],
+  "Figure 4F-2": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Yellow Arrow for Permissive Only Mode Left Turns",
+   686
+  ],
+  "Figure 4F-3": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Red Arrow for Permissive Only Mode and Protected/Permissive Mode Left Turns",
+   687
+  ],
+  "Figure 4F-4": [
+   "Typical Positions and Arrangements of Shared Signal Faces for Protected Only Mode Left Turns",
+   688
+  ],
+  "Figure 4F-5": [
+   "Typical Position and Arrangements of Separate Signal Faces for Protected Only Mode Left Turns",
+   689
+  ],
+  "Figure 4F-6": [
+   "Typical Position and Arrangements of Shared Signal Faces for Protected/Permissive Mode Left Turns",
+   690
+  ],
+  "Figure 4F-7": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Yellow Arrow for Protected/Permissive Mode and Variable Mode Left Turns",
+   691
+  ],
+  "Figure 4F-8": [
+   "Typical Positions and Arrangements of Shared Signal Faces for Permissive Only Mode Right Turns",
+   695
+  ],
+  "Figure 4F-9": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Yellow Arrow for Permissive Only Mode Right Turns",
+   695
+  ],
+  "Figure 4F-10": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Red Arrow for Permissive Only Mode and Protected/Permissive Mode Right Turns",
+   697
+  ],
+  "Figure 4F-11": [
+   "Typical Positions and Arrangements of Shared Signal Faces for Protected Only Mode Right Turns",
+   698
+  ],
+  "Figure 4F-12": [
+   "Typical Position and Arrangements of Separate Signal Faces for Protected Only Mode Right Turns",
+   699
+  ],
+  "Figure 4F-13": [
+   "Typical Positions and Arrangements of Shared Signal Faces for Protected/Permissive Mode Right Turns",
+   700
+  ],
+  "Figure 4F-14": [
+   "Typical Position and Arrangements of Separate Signal Faces with Flashing Yellow Arrow for Protected/Permissive Mode and Variable Mode Right Turns",
+   701
+  ],
+  "Figure 4F-15": [
+   "Signal Indications for Approaches with a Combined Left-Turn/Right-Turn Lane and No Through Movement",
+   705
+  ],
+  "Figure 4H-1": [
+   "Typical Arrangements of Bicycle Signal Faces",
+   715
+  ],
+  "Figure 4I-1": [
+   "Typical Pedestrian Signal Indications",
+   718
+  ],
+  "Figure 4I-2": [
+   "Preferred Push Button Location Area",
+   721
+  ],
+  "Figure 4I-3": [
+   "Typical Push Button Locations",
+   723
+  ],
+  "Figure 4I-4": [
+   "Pedestrian Intervals",
+   724
+  ],
+  "Figure 4J-1": [
+   "Guidelines for the Installation of Pedestrian Hybrid Beacons on Low-Speed Roadways",
+   727
+  ],
+  "Figure 4J-2": [
+   "Guidelines for the Installation of Pedestrian Hybrid Beacons on High-Speed Roadways",
+   728
+  ],
+  "Figure 4J-3": [
+   "Sequence for a Pedestrian Hybrid Beacon",
+   729
+  ],
+  "Figure 4L-1": [
+   "Example of RRFBs at Uncontrolled, Marked Crosswalks at an Intersection",
+   737
+  ],
+  "Figure 4N-1": [
+   "Sequence for an Emergency-Vehicle Hybrid Beacon",
+   742
+  ],
+  "Figure 4T-1": [
+   "Lane-Use Control Signal Indications",
+   755
+  ],
+  "Figure 6B-1": [
+   "Component Parts of a Temporary Traffic Control Zone",
+   772
+  ],
+  "Figure 6B-2": [
+   "Types of Tapers and Buffer Spaces",
+   774
+  ],
+  "Figure 6B-3": [
+   "Example of a One-Lane, Two-Way Traffic Taper",
+   777
+  ],
+  "Figure 6D-1": [
+   "Use of Hand-Signaling Devices by Flaggers",
+   784
+  ],
+  "Figure 6F-1": [
+   "Height and Lateral Location of Signs—Typical Installations",
+   790
+  ],
+  "Figure 6F-2": [
+   "Methods of Mounting Signs Other Than on Posts",
+   792
+  ],
+  "Figure 6G-1": [
+   "Regulatory Signs and Plaques in Temporary Traffic Control Zones",
+   794
+  ],
+  "Figure 6H-1": [
+   "Warning Signs and Plaques in Temporary Traffic Control Zones",
+   799
+  ],
+  "Figure 6I-1": [
+   "Exit Open and Closed and Detour Signs and Plaques",
+   812
+  ],
+  "Figure 6K-1": [
+   "Examples of Channelizing Devices",
+   816
+  ],
+  "Figure 6K-2": [
+   "Pedestrian Channelizing Device",
+   817
+  ],
+  "Figure 6L-1": [
+   "Example of the Use of a STOP/SLOW Automated Flagger Assistance Device (AFAD)",
+   827
+  ],
+  "Figure 6L-2": [
+   "Example of the Use of a Red/Yellow Lens Automated Flagger Assistance Device (AFAD)",
+   829
+  ],
+  "Figure 6L-3": [
+   "Advance Warning Arrow Board Display Specifications",
+   834
+  ],
+  "Figure 6N-1": [
+   "Late Merge",
+   853
+  ],
+  "Figure 6O-1": [
+   "Examples of Traffic Incident Management Area Signs",
+   855
+  ],
+  "Figure 6P-1": [
+   "Work Beyond the Shoulder (TA-1)",
+   861
+  ],
+  "Figure 6P-2": [
+   "Blasting Zone (TA-2)",
+   863
+  ],
+  "Figure 6P-3": [
+   "Work on the Shoulders (TA-3)",
+   865
+  ],
+  "Figure 6P-4": [
+   "Short-Duration or Mobile Operation on a Shoulder (TA-4)",
+   867
+  ],
+  "Figure 6P-5": [
+   "Shoulder Closure on a Freeway (TA-5)",
+   869
+  ],
+  "Figure 6P-6": [
+   "Shoulder Work with Minor Encroachment (TA-6)",
+   871
+  ],
+  "Figure 6P-7": [
+   "Road Closure with a Diversion (TA-7)",
+   873
+  ],
+  "Figure 6P-8": [
+   "Road Closure with an Off-Site Detour (TA-8)",
+   875
+  ],
+  "Figure 6P-9": [
+   "Overlapping Routes with a Detour (TA-9)",
+   877
+  ],
+  "Figure 6P-10": [
+   "Lane Closure on a Two-Lane Road Using Flaggers (TA-10)",
+   879
+  ],
+  "Figure 6P-11": [
+   "Lane Closure on a Two-Lane Road with Low Traffic Volumes (TA-11)",
+   881
+  ],
+  "Figure 6P-12": [
+   "Lane Closure on a Two-Lane Road Using Temporary Traffic Control Signals (TA-12)",
+   883
+  ],
+  "Figure 6P-13": [
+   "Temporary Road Closure (TA-13)",
+   885
+  ],
+  "Figure 6P-14": [
+   "Haul Road Crossing (TA-14)",
+   887
+  ],
+  "Figure 6P-15": [
+   "Work in the Center of a Road with Low Traffic Volumes (TA-15)",
+   889
+  ],
+  "Figure 6P-16": [
+   "Surveying Along the Center Line of a Road with Low Traffic Volumes (TA-16)",
+   891
+  ],
+  "Figure 6P-17": [
+   "Mobile Operations on a Two-Lane Road (TA-17)",
+   893
+  ],
+  "Figure 6P-18": [
+   "Lane Closure on a Minor Street (TA-18)",
+   895
+  ],
+  "Figure 6P-19": [
+   "Detour for One Travel Direction (TA-19)",
+   897
+  ],
+  "Figure 6P-20": [
+   "Detour for a Closed Street (TA-20)",
+   899
+  ],
+  "Figure 6P-21": [
+   "Lane Closure on the Near Side of an Intersection (TA-21)",
+   901
+  ],
+  "Figure 6P-22": [
+   "Right-Hand Lane Closure on the Far Side of an Intersection (TA-22)",
+   903
+  ],
+  "Figure 6P-23": [
+   "Left-Hand Lane Closure on the Far Side of an Intersection (TA-23)",
+   905
+  ],
+  "Figure 6P-24": [
+   "Half Road Closure on the Far Side of an Intersection (TA-24)",
+   907
+  ],
+  "Figure 6P-25": [
+   "Multiple Lane Closures at an Intersection (TA-25)",
+   909
+  ],
+  "Figure 6P-26": [
+   "Closure in the Center of an Intersection (TA-26)",
+   911
+  ],
+  "Figure 6P-27": [
+   "Closure at the Side of an Intersection (TA-27)",
+   913
+  ],
+  "Figure 6P-28": [
+   "Sidewalk Detour or Diversion (TA-28)",
+   915
+  ],
+  "Figure 6P-29": [
+   "Crosswalk Closures and Pedestrian Detours (TA-29)",
+   917
+  ],
+  "Figure 6P-30": [
+   "Interior Lane Closure on a Multi-Lane Street (TA-30)",
+   919
+  ],
+  "Figure 6P-31": [
+   "Lane Closures on a Street with Uneven Directional Volumes (TA-31)",
+   921
+  ],
+  "Figure 6P-32": [
+   "Half Road Closure on a Multi-Lane, High-Speed Highway (TA-32)",
+   923
+  ],
+  "Figure 6P-33": [
+   "Stationary Lane Closure on a Divided Highway (TA-33)",
+   925
+  ],
+  "Figure 6P-34": [
+   "Lane Closure with a Temporary Traffic Barrier (TA-34)",
+   927
+  ],
+  "Figure 6P-35": [
+   "Mobile Operation on a Multi-Lane Road (TA-35)",
+   929
+  ],
+  "Figure 6P-36": [
+   "Lane Shift on a Freeway (TA-36)",
+   931
+  ],
+  "Figure 6P-37": [
+   "Double Lane Closure on a Freeway (TA-37)",
+   933
+  ],
+  "Figure 6P-38": [
+   "Interior Lane Closure on a Freeway (TA-38)",
+   935
+  ],
+  "Figure 6P-39": [
+   "Median Crossover on a Freeway (TA-39)",
+   937
+  ],
+  "Figure 6P-40": [
+   "Median Crossover for an Entrance Ramp (TA-40)",
+   939
+  ],
+  "Figure 6P-41": [
+   "Median Crossover for an Exit Ramp (TA-41)",
+   941
+  ],
+  "Figure 6P-42": [
+   "Work in the Vicinity of an Exit Ramp (TA-42)",
+   943
+  ],
+  "Figure 6P-43": [
+   "Partial Exit Ramp Closure (TA-43)",
+   945
+  ],
+  "Figure 6P-44": [
+   "Work in the Vicinity of an Entrance Ramp (TA-44)",
+   947
+  ],
+  "Figure 6P-45": [
+   "Temporary Reversible Lane Using Movable Barriers (TA-45)",
+   949
+  ],
+  "Figure 6P-46": [
+   "Work in the Vicinity of a Grade Crossing (TA-46)",
+   951
+  ],
+  "Figure 6P-47": [
+   "Bicycle Lane Closure without a Detour (TA-47)",
+   953
+  ],
+  "Figure 6P-48": [
+   "Bicycle Lane Closure with an On-Road Detour (TA-48)",
+   955
+  ],
+  "Figure 6P-49": [
+   "Shared-Use Path Closure with a Diversion (TA-49)",
+   957
+  ],
+  "Figure 6P-50": [
+   "On-Road Detour for a Shared-Use Path (TA-50)",
+   959
+  ],
+  "Figure 6P-51": [
+   "Paved Shoulder Closure with a Bicycle Diversion onto a Temporary Path (TA-51)",
+   961
+  ],
+  "Figure 6P-52": [
+   "Short-Term or Short-Duration Work in a Circular Intersection (TA-52)",
+   963
+  ],
+  "Figure 6P-53": [
+   "Flagging Operation on a Single-Lane Circular Intersection (TA-53)",
+   965
+  ],
+  "Figure 6P-54": [
+   "Inside Lane Closure on a Multi-Lane Circular Intersection (TA-54)",
+   967
+  ],
+  "Figure 7A-1": [
+   "Example of School Route Plan Map",
+   969
+  ],
+  "Figure 7B-1": [
+   "Signs in School Areas and at School Crossings",
+   973
+  ],
+  "Figure 7B-2": [
+   "Example of Signing for a School Zone with a School Speed Limit and a School Crossing",
+   975
+  ],
+  "Figure 7B-3": [
+   "Example of Signing for a School Crossing Outside of a School Zone",
+   977
+  ],
+  "Figure 7B-4": [
+   "Example of Signing for a School Zone with a School Speed Limit and Higher Fines Only for Speeding",
+   979
+  ],
+  "Figure 7B-5": [
+   "Example of Signing for a School Zone with Higher Fines for All Traffic Violations",
+   981
+  ],
+  "Figure 7C-1": [
+   "Two-Lane Pavement Marking of “SCHOOL”",
+   984
+  ],
+  "Figure 8B-1": [
+   "Regulatory Signs and Plaques for Grade Crossings",
+   996
+  ],
+  "Figure 8B-2": [
+   "Crossbuck Assembly with a YIELD or STOP Sign on the Crossbuck Sign Support",
+   997
+  ],
+  "Figure 8B-3": [
+   "Crossbuck Assembly with a YIELD or STOP Sign on a Separate Sign Support",
+   998
+  ],
+  "Figure 8B-4": [
+   "Warning Signs and Plaques for Grade Crossings",
+   1002
+  ],
+  "Figure 8B-5": [
+   "Example of an Emergency Notification System Sign",
+   1007
+  ],
+  "Figure 8C-1": [
+   "Example of Placement of Warning Signs and Pavement Markings at Grade Crossings",
+   1010
+  ],
+  "Figure 8C-2": [
+   "Grade Crossing Pavement Markings",
+   1011
+  ],
+  "Figure 8C-3": [
+   "Example of Dynamic Envelope Pavement Markings at Grade Crossings",
+   1013
+  ],
+  "Figure 8C-4": [
+   "Example of Dynamic Envelope and Do Not Block Pavement Markings at Grade Crossings",
+   1014
+  ],
+  "Figure 8C-5": [
+   "Examples of Light Rail Transit Vehicle Dynamic Envelope Markings for Mixed-Use Alignments",
+   1015
+  ],
+  "Figure 8D-1": [
+   "Composite Drawing of Active Traffic Control Devices for Grade Crossings Showing Clearances",
+   1017
+  ],
+  "Figure 8D-2": [
+   "Examples of Location Plan for Flashing-Light Signals and Four-Quadrant Gates",
+   1022
+  ],
+  "Figure 8D-3": [
+   "Light Rail Transit Signal Indications",
+   1034
+  ],
+  "Figure 8E-1": [
+   "Illustration of the Difference between a Pathway Grade Crossing and a Sidewalk Grade Crossing",
+   1035
+  ],
+  "Figure 8E-2": [
+   "Example of an Active Traffic Control System for a Sidewalk or Pathway Grade Crossing",
+   1036
+  ],
+  "Figure 8E-3": [
+   "Example of Signing and Markings at a Pathway Grade Crossing",
+   1037
+  ],
+  "Figure 8E-4": [
+   "Example of Detectable Warning and Stop Lines for a Refuge Area at a Sidewalk Grade Crossing",
+   1038
+  ],
+  "Figure 8E-5": [
+   "Example of a Crossbuck Assembly at a Pathway or Sidewalk Grade Crossing",
+   1039
+  ],
+  "Figure 8E-6": [
+   "Example of an Automatic Pedestrian Gate and an Emergency Escape Route at a Pathway Grade Crossing",
+   1040
+  ],
+  "Figure 8E-7": [
+   "Example of a Flashing-Light Signal Assembly at a Pathway or Sidewalk Grade Crossing",
+   1041
+  ],
+  "Figure 8E-8": [
+   "Example of an Automatic Pedestrian Gate at a Pathway or Sidewalk Grade Crossing",
+   1043
+  ],
+  "Figure 8E-9": [
+   "Example of Active Traffic Control Systems with Automatic Pedestrian Gates and Swing Gates at a Sidewalk Grade Crossing",
+   1044
+  ],
+  "Figure 8E-10": [
+   "Example of Traffic Control Devices for an Optional Swing Gate",
+   1044
+  ],
+  "Figure 8E-11": [
+   "Example of a Separate Automatic Pedestrian Gate",
+   1045
+  ],
+  "Figure 8E-12": [
+   "Example of an Automatic Pedestrian Gate with a Horizontal Hanging Bar at a Pathway or Sidewalk Grade Crossing",
+   1046
+  ],
+  "Figure 9A-1": [
+   "Sign Placement on Shared-Use Paths",
+   1048
+  ],
+  "Figure 9B-1": [
+   "Regulatory Signs and Plaques for Bicycle Facilities",
+   1052
+  ],
+  "Figure 9B-2": [
+   "Examples of Applications of EXCEPT BICYCLES Regulatory Plaques",
+   1054
+  ],
+  "Figure 9B-3": [
+   "Examples of Bicycle Facilities Adjacent to Back-In Parking",
+   1057
+  ],
+  "Figure 9B-4": [
+   "Signing for Termination of Bicycle Access on Freeways and Expressways",
+   1060
+  ],
+  "Figure 9B-5": [
+   "Example of Two-Stage Bicycle Turn Box when Use is Mandatory",
+   1061
+  ],
+  "Figure 9B-6": [
+   "Example of Application of Bicycle Jughandle Sign",
+   1062
+  ],
+  "Figure 9C-1": [
+   "Warning Signs and Plaques and Object Markers for Bicycle Facilities",
+   1065
+  ],
+  "Figure 9D-1": [
+   "Guide Signs and Plaques for Bicycle Facilities",
+   1070
+  ],
+  "Figure 9D-2": [
+   "Examples of Bicycle Guide Signing",
+   1073
+  ],
+  "Figure 9D-3": [
+   "Example of Bicycle Route Guide Signing",
+   1075
+  ],
+  "Figure 9D-4": [
+   "Examples of Route Signing for Numbered or Named Bicycle Routes",
+   1076
+  ],
+  "Figure 9D-5": [
+   "Examples of Mode-Specific Guide Signing on a Shared-Use Path",
+   1082
+  ],
+  "Figure 9D-6": [
+   "Examples of Destination Guide Signs for Shared-Use Paths",
+   1083
+  ],
+  "Figure 9D-7": [
+   "Example of Two-Stage Bicycle Turn Box when Use is Optional",
+   1085
+  ],
+  "Figure 9E-1": [
+   "Word, Symbol, and Arrow Pavement Markings for Bicycle Lanes",
+   1086
+  ],
+  "Figure 9E-2": [
+   "Example of Pavement Markings for Bicycle Lanes on a Two-Way Street",
+   1088
+  ],
+  "Figure 9E-3": [
+   "Examples of Bicycle Lane Markings on an Approach to an Intersection",
+   1089
+  ],
+  "Figure 9E-4": [
+   "Example of Bicycle Lane Markings on an Approach to an Intersection that Transitions from a Shared Lane",
+   1092
+  ],
+  "Figure 9E-5": [
+   "Examples of Pavement Markings for Mixing Zones",
+   1094
+  ],
+  "Figure 9E-6": [
+   "Examples of Markings for Buffer-Separated Bicycle Lanes",
+   1096
+  ],
+  "Figure 9E-7": [
+   "Examples of Lane Markings for Separated Bicycle Lanes",
+   1099
+  ],
+  "Figure 9E-8": [
+   "Example of Counter-Flow Bicycle Lanes at an Intersection",
+   1101
+  ],
+  "Figure 9E-9": [
+   "Examples of Shared-Lane Marking Applications",
+   1102
+  ],
+  "Figure 9E-10": [
+   "Examples of Two-Stage Turn Box Locations at Intersections",
+   1104
+  ],
+  "Figure 9E-11": [
+   "Example of a Two-Stage Turn Box Location at an Intersection with a Two-Way Bikeway",
+   1105
+  ],
+  "Figure 9E-12": [
+   "Examples of Intersection Bicycle Boxes",
+   1106
+  ],
+  "Figure 9E-13": [
+   "Examples of Center Line Markings for Shared-Use Paths",
+   1108
+  ],
+  "Figure 9E-14": [
+   "Example of Pavement Markings for a Shared-Use Path with Mode Separation",
+   1109
+  ],
+  "Figure 9E-15": [
+   "Example of Placement of Route Markers for Shared-Use Paths",
+   1110
+  ],
+  "Figure 9E-16": [
+   "Bicycle Detector Pavement Marking",
+   1111
+  ],
+  "Figure 9E-17": [
+   "Examples of Obstruction Pavement Markings",
+   1112
+  ],
+  "Table 1B-1": [
+   "Target Compliance Dates Established by the FHWA",
+   5
+  ],
+  "Table 1D-1": [
+   "Acceptable Abbreviations",
+   35
+  ],
+  "Table 1D-2": [
+   "Abbreviations that Shall be Used Only for Temporary Messages on Portable Changeable Message Signs",
+   36
+  ],
+  "Table 1D-3": [
+   "Unacceptable Abbreviations",
+   37
+  ],
+  "Table 2A-1": [
+   "Use of Sign Shapes",
+   42
+  ],
+  "Table 2A-2": [
+   "Common Uses of Sign Colors",
+   44
+  ],
+  "Table 2A-3": [
+   "Illumination of Sign Elements",
+   62
+  ],
+  "Table 2A-4": [
+   "Retroreflection of Sign Elements",
+   62
+  ],
+  "Table 2A-5": [
+   "Minimum Maintained Retroreflectivity Levels",
+   63
+  ],
+  "Table 2B-1": [
+   "Regulatory Sign and Plaque Sizes",
+   68
+  ],
+  "Table 2B-2": [
+   "Meanings of Symbols and Legends on Reversible Lane Control Signs",
+   95
+  ],
+  "Table 2C-1": [
+   "Warning Sign and Plaque Sizes",
+   148
+  ],
+  "Table 2C-2": [
+   "Minimum Size of Supplemental Warning Plaques",
+   151
+  ],
+  "Table 2C-3": [
+   "Guidelines for Advance Placement of Warning Signs",
+   152
+  ],
+  "Table 2C-4": [
+   "Application of Traffic Control Devices for Changes in Horizontal Alignment",
+   155
+  ],
+  "Table 2C-5": [
+   "Typical Spacing of Chevron Alignment Signs on Horizontal Curves",
+   158
+  ],
+  "Table 2C-6": [
+   "Use of Advisory Speed Plaque for Horizontal Alignment Changes",
+   196
+  ],
+  "Table 2D-1": [
+   "Conventional Road Guide Sign and Plaque Sizes",
+   207
+  ],
+  "Table 2D-2": [
+   "Recommended Minimum Letter and Numeral Sizes for Conventional Road Guide Signs According to Speed",
+   210
+  ],
+  "Table 2D-3": [
+   "Acceptable Abbreviations for Street Name Descriptors",
+   213
+  ],
+  "Table 2D-4": [
+   "Street Name Descriptors Not Acceptable for Abbreviation",
+   213
+  ],
+  "Table 2D-5": [
+   "Overhead Arrow-per-Lane Arrow Height Based on Principal Legend Letter Height",
+   236
+  ],
+  "Table 2D-6": [
+   "Minimum Letter Heights on Street Name Signs",
+   248
+  ],
+  "Table 2E-1": [
+   "Freeway or Expressway Guide Sign and Plaque Sizes",
+   294
+  ],
+  "Table 2E-2": [
+   "Minimum Letter and Numeral Sizes for Expressway Guide Signs According to Interchange Classification",
+   297
+  ],
+  "Table 2E-3": [
+   "Minimum Letter and Numeral Sizes for Expressway Guide Signs According to Sign Type",
+   298
+  ],
+  "Table 2E-4": [
+   "Minimum Letter and Numeral Sizes for Freeway Guide Signs According to Interchange Classification",
+   299
+  ],
+  "Table 2E-5": [
+   "Minimum Letter and Numeral Sizes for Freeway Guide Signs According to Sign Type",
+   300
+  ],
+  "Table 2E-6": [
+   "Overhead Arrow-per-Lane Arrow Height Based on Principal Legend Letter Height",
+   351
+  ],
+  "Table 2F-1": [
+   "Toll Road Sign and Plaque Minimum Sizes",
+   381
+  ],
+  "Table 2G-1": [
+   "Managed and Preferential Lanes Sign and Plaque Minimum Sizes",
+   407
+  ],
+  "Table 2H-1": [
+   "General Information Sign and Plaque Sizes",
+   461
+  ],
+  "Table 2I-1": [
+   "General Service Sign and Plaque Sizes",
+   476
+  ],
+  "Table 2J-1": [
+   "Minimum Letter and Numeral Sizes for Specific Service Signs According to Sign Type",
+   498
+  ],
+  "Table 2J-2": [
+   "Maximum Business Identification Sign Panel Sizes by Roadway Classification",
+   499
+  ],
+  "Table 2L-1": [
+   "Spacing between Message Characters, Words, and Lines of Text",
+   513
+  ],
+  "Table 2L-2": [
+   "Example of Units of Information",
+   515
+  ],
+  "Table 2L-3": [
+   "Examples of Message Construction for CMS",
+   517
+  ],
+  "Table 2L-4": [
+   "Examples of Message Construction for Portable CMS",
+   518
+  ],
+  "Table 2M-1": [
+   "Category Chart for Recreational and Cultural Interest Area Symbols",
+   521
+  ],
+  "Table 2N-1": [
+   "Emergency Management Sign Sizes",
+   532
+  ],
+  "Table 3B-1": [
+   "Minimum Passing Sight Distances for No-Passing Zone Markings",
+   543
+  ],
+  "Table 3E-1": [
+   "Standard Edge Line and Lane Line Markings for Preferential Lanes",
+   607
+  ],
+  "Table 3E-2": [
+   "Standard Center Line and Edge Line Markings for Counter-Flow Preferential Lanes on Divided Highways",
+   609
+  ],
+  "Table 3G-1": [
+   "Approximate Spacing for Delineators on Horizontal Curves",
+   621
+  ],
+  "Table 4C-1": [
+   "Warrant 1, Eight-Hour Vehicular Volume",
+   653
+  ],
+  "Table 4C-2": [
+   "Minimum Number of Reported Crashes in a One-Year Period",
+   661
+  ],
+  "Table 4C-3": [
+   "Minimum Number of Reported Crashes in a Three-Year Period",
+   662
+  ],
+  "Table 4C-4": [
+   "Minimum Number of Reported Crashes in a One-Year Period",
+   662
+  ],
+  "Table 4C-5": [
+   "Minimum Number of Reported Crashes in a Three-Year Period",
+   662
+  ],
+  "Table 4C-6": [
+   "Warrant 9, Adjustment Factor for Daily Frequency of Rail Traffic",
+   665
+  ],
+  "Table 4C-7": [
+   "Warrant 9, Adjustment Factor for Percentage of High-Occupancy Buses",
+   665
+  ],
+  "Table 4C-8": [
+   "Warrant 9, Adjustment Factor for Percentage of Tractor-Trailer Trucks",
+   665
+  ],
+  "Table 4D-1": [
+   "Recommended Minimum Number of Primary Signal Faces for Through Traffic on Approaches with Posted, Statutory, or 85th-Percentile Speed of 45 mph or Higher",
+   669
+  ],
+  "Table 4D-2": [
+   "Minimum Sight Distance for Signal Visibility",
+   670
+  ],
+  "Table 5A-1": [
+   "Automation Levels",
+   760
+  ],
+  "Table 6B-1": [
+   "Recommended Advance Warning Sign Minimum Spacing",
+   773
+  ],
+  "Table 6B-2": [
+   "Stopping Sight Distance as a Function of Speed",
+   775
+  ],
+  "Table 6B-3": [
+   "Taper Length Criteria for Temporary Traffic Control Zones",
+   775
+  ],
+  "Table 6B-4": [
+   "Formulas for Determining Taper Length",
+   775
+  ],
+  "Table 6G-1": [
+   "Temporary Traffic Control Zone Regulatory Sign and Plaque Sizes",
+   796
+  ],
+  "Table 6H-1": [
+   "Temporary Traffic Control Zone Warning Sign and Plaque Sizes",
+   803
+  ],
+  "Table 6I-1": [
+   "Temporary Traffic Control Zone Guide Sign and Plaque Sizes",
+   811
+  ],
+  "Table 6P-1": [
+   "Index to Typical Applications",
+   858
+  ],
+  "Table 6P-2": [
+   "Meaning of Symbols on Typical Application Diagrams",
+   859
+  ],
+  "Table 7B-1": [
+   "School Area Sign and Plaque Sizes",
+   971
+  ],
+  "Table 8B-1": [
+   "Grade Crossing Sign and Plaque Minimum Sizes",
+   994
+  ],
+  "Table 9A-1": [
+   "Bicycle Facility Sign and Plaque Minimum Sizes",
+   1049
+  ]
+ }
+}

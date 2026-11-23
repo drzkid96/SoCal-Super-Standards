@@ -13,7 +13,7 @@
   };
 
   function getThumbSrc(frame) {
-    const img = frame.querySelector('img');
+    const img = frame.matches('img') ? frame : frame.querySelector('img');
     if (!img) return '';
     return img.getAttribute('src') || img.currentSrc || '';
   }
@@ -128,8 +128,11 @@
         t.classList.toggle('is-active', active);
         t.setAttribute('aria-selected', String(active));
       });
-      if (thumbs[i] && !showAll) {
-        try { thumbs[i].scrollIntoView({ inline: 'nearest', block: 'nearest' }); } catch {}
+      if (strip && thumbs[i] && !showAll) {
+        const thumb = thumbs[i].getBoundingClientRect();
+        const rail = strip.getBoundingClientRect();
+        if (thumb.left < rail.left) strip.scrollLeft -= rail.left - thumb.left;
+        else if (thumb.right > rail.right) strip.scrollLeft += thumb.right - rail.right;
       }
       if (updateHash && ids[i]) {
         history.replaceState(history.state, '', '#' + encodeURIComponent(ids[i]));
@@ -157,7 +160,8 @@
     select.onchange = () => { if (showAll) setAll(false); show(select.selectedIndex, true); };
     toggleAll.onclick = () => setAll(!showAll);
     zoomBtn.onclick = () => {
-      const targetImg = pages[index]?.querySelector('figure.dfig img, figure.mfig img, img');
+      const frame = pages[index];
+      const targetImg = frame.matches('img') ? frame : frame.querySelector('img');
       if (targetImg) targetImg.click();
     };
 
@@ -195,21 +199,39 @@
     document.documentElement.classList.add('has-sheet-deck');
   }
 
-  // 2. Multi-sheet inline MUTCD figures (.mfig-inline.multi) & multi-sheet sign details (.sdetail-img)
-  for (const group of article.querySelectorAll('.mfig-inline.multi, .sdetail-img')) {
-    const isSign = group.matches('.sdetail-img');
-    const pages = [...group.children].filter((c) => c.matches(isSign ? 'img' : 'figure'));
-    if (pages.length < 2) continue;
-    const ids = pages.map((p, i) => {
-      const id = p.querySelector('[id]')?.id || p.id;
-      if (id) return id;
-      p.id = 'sheet-view-' + (viewers.length + 1) + '-' + (i + 1);
-      return p.id;
-    });
-    const labels = pages.map((p, i) =>
-      p.querySelector('figcaption')?.textContent.trim() || p.getAttribute('alt') || 'Sheet ' + (i + 1)
-    );
-    buildViewer(group, pages, labels, ids, { compact: true });
+  // Group consecutive pages of the same figure. Different charts stay visible together.
+  for (const group of article.querySelectorAll('.mfig-inline.multi, .mfig-grid, .sdetail-img')) {
+    const sign = group.matches('.sdetail-img');
+    const rows = [...group.children].filter(child => child.matches(sign ? 'img' : 'figure'));
+    const runs = [];
+    for (const page of rows) {
+      const label = page.querySelector('img')?.alt || page.querySelector('figcaption')?.textContent || '';
+      const figure = label.match(/^\s*((?:Figure|Table)\s+\d+[A-Z]-\d+[A-Z]?(?:\s*\(CA\))?)/i);
+      const key = sign || page.querySelector('[id^="sheet-"]') ? 'sheet'
+        : figure ? figure[1].replace(/\s/g, '').toUpperCase()
+        : /^Figure page \d+/i.test(label) ? 'chapter-pages' : '';
+      if (key && runs.length && runs[runs.length - 1].key === key) {
+        runs[runs.length - 1].pages.push(page);
+      } else {
+        runs.push({key, pages: [page]});
+      }
+    }
+    for (const {pages} of runs) {
+      if (pages.length < 2) continue;
+      const ids = pages.map((page, i) => {
+        let id = page.querySelector('[id]')?.id || page.id;
+        if (!id) page.id = id = 'sheet-view-' + (viewers.length + 1) + '-' + (i + 1);
+        return id;
+      });
+      const labels = pages.map((page, i) => {
+        const caption = page.querySelector('figcaption')?.cloneNode(true);
+        if (!caption) return page.getAttribute('alt') || 'Sheet ' + (i + 1);
+        caption.querySelectorAll('.detail-description').forEach(note => note.remove());
+        caption.querySelectorAll('br').forEach(br => br.replaceWith(' · '));
+        return caption.textContent.trim() || 'Sheet ' + (i + 1);
+      });
+      buildViewer(group, pages, labels, ids, {compact: true});
+    }
   }
 
   function reveal(scroll) {

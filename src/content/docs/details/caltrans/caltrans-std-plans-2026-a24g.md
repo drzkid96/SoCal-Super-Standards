@@ -13,6 +13,8 @@ tableOfContents: false
 
 
 
+[Download the Caltrans A24G CAD drawing (DGN)](https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-dgn-files/2026__a24g.dgn)
+
 ## Sheet
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0014.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0014.webp" alt="A24G sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A24G, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/03-pages-13-18/#p14">Open in the document</a>.</figcaption></figure>

@@ -33,7 +33,6 @@ const refCards = JSON.parse(fs.readFileSync('./data/refcards.json', 'utf8')).map
 const agencyCfg = JSON.parse(fs.readFileSync('./pipeline/config/agencies.json', 'utf8'));
 const AGENCY_LABELS = {
   'caltrans/standard-plans-2026': 'Caltrans 2026 Standard Plans (current)',
-  'caltrans/standard-plans-2018': 'Caltrans 2018 Standard Plans (superseded)',
   'burbank/standard-plans': 'Burbank Standard Plans (BT series)',
   'pasadena/standard-plans': 'Pasadena Standard Plans (S-700 series)',
 };
@@ -62,6 +61,7 @@ export default defineConfig({
   site: 'https://drzkid96.github.io',
   base: '/SoCal-Super-Standards',
   trailingSlash: 'always',
+  redirects: Object.fromEntries(Object.entries(JSON.parse(fs.readFileSync('.standards/redirects.json','utf8'))).map(([from, to]) => [from, '/SoCal-Super-Standards'+to])),
   integrations: [
     { name: 'article-citations', hooks: { 'astro:build:done': ({ dir }) => {
       execFileSync('python3', ['pipeline/link_citations.py', decodeURIComponent(dir.pathname)], { stdio: 'inherit' });
@@ -88,6 +88,7 @@ export default defineConfig({
         ThemeSelect: './src/components/ThemeSelect.astro',
       },
       head: [
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/search.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/sheets.js?v=' + BUILD, defer: true } },
@@ -98,9 +99,10 @@ export default defineConfig({
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },
       sidebar: [
         { label: 'Quick Lookup', items: [
+          { label: 'Search all standards', link: '/search/' },
           { label: 'Detail & Drawing Index', link: '/details/' },
-          { label: 'Sign Library (1,148)', link: '/signs/' },
-          { label: 'Pavement Markings (203)', link: '/markings/' },
+          { label: 'Sign Library', link: '/signs/' },
+          { label: 'Pavement Markings', link: '/markings/' },
           { label: 'Caltrans Line Types (49)', link: '/markings/line-types/' },
           { label: 'Keyword Index A–Z', link: '/keywords/' },
           { label: 'What Governs (Status)', link: '/bulletins/standards-status/' },
@@ -140,7 +142,6 @@ export default defineConfig({
             { label: 'CBC 11B Accessible Parking', link: '/bulletins/ca-accessible-parking-2026/' },
           ] },
           { label: 'Federal MUTCD 11th Ed. R1', collapsed: true, items: [{ label: 'Overview', link: '/mutcd/' }, ...fedParts] },
-          { label: 'Caltrans 2018 Plans (Archive)', link: '/caltrans/standard-plans-2018/' },
         ] },
         { label: 'LA County Agencies', collapsed: true, items: [
           { label: "LA BOE Street Design Manual", link: "/boe/street-design/" },

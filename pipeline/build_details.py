@@ -101,7 +101,8 @@ for c in cfg:
             sh_head = f'\n### Sheet {j} of {len(sheets)} (page {p["page"]})\n\n' if len(sheets) > 1 else "\n"
             sheet_html += (sh_head +
                            f'<figure class="dfig"><a href="{p["image"]}"><img loading="lazy" src="{p["image"]}" alt="{esc(k)} sheet {j}"></a>'
-                           f'<figcaption>{esc(c["short"])} {esc(k)}, sheet {j}. <a href="{p["url"]}">Open in the document</a>.</figcaption></figure>\n' + notes_blk)
+                           f'<figcaption>{esc(c["short"])} {esc(k)}, sheet {j}. <a href="{p["url"]}">Open in the document</a>.</figcaption></figure>\n'
+                           + notes_blk)
         sign_html = "".join(f'<a class="tsign sref" href="{BASE}/signs/{signs[x]["slug"]}/" data-svg="{BASE}{signs[x]["svg"]}"><img loading="lazy" src="{BASE}{signs[x]["svg"]}" alt="{esc(x)}"><span><b>{esc(x)}</b> {esc(signs[x]["descriptor"][:40])}</span></a>' for x in codes if x in signs)
         sec_html = ", ".join(f'<a href="{ca_secs[x]["url"]}">CA MUTCD {esc(x)} {esc(ca_secs[x]["title"][:60])}</a>' for x in secs if x in ca_secs)
         sheet_word = "sheet" if len(sheets) == 1 else "sheets"

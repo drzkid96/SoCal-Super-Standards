@@ -21,7 +21,7 @@ for path in pages:
         full = urlsplit(urljoin(origin+source, unescape(url)))
         if full.netloc == 'drzkid96.github.io' and full.path.startswith(base):
             refs[(unquote(full.path),unquote(full.fragment))].add(source)
-for name in ('details','lookup','checks','previews'):
+for name in ('details','lookup','checks','previews','signs-index'):
     for url in set(re.findall(r'"('+base+r'[^"]*)"',(root/f'data/{name}.json').read_text())):
         u=urlsplit(url);refs[(unquote(u.path),unquote(u.fragment))].add('data/'+name)
 bad=[]

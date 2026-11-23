@@ -36,19 +36,24 @@ targets={k.casefold():v for k,v in official.items()}
 candidates=defaultdict(set)
 for s in read('data/signs/signs.json'):
     candidates[s['code'].upper()].add(BASE+'/signs/'+s['slug']+'/')
-for s in read('data/catalog/details.json'):
+for s in read(DIST/'data/details.json'):
     if s['type']=='Standard drawing' and re.fullmatch(r'[A-Z][A-Z\d .-]*\d[A-Z\d.-]*',s['num']):
         candidates[s['num'].upper()].add(s['url'])
 for k,v in candidates.items():
     if len(v)==1:targets[k.casefold()]=next(iter(v))
+deletion_notice=read('data/ca_deleted_signs.json')['source']
 for code in read('data/ca_deleted_signs.json')['codes']:
-    targets[code.casefold()]=BASE+'/signs/retired/#'+re.sub('[^a-z0-9]','',code.lower())
+    targets[code.casefold()]=deletion_notice
 if (DIST/'data/boe-sections.json').exists():
     for row in read(DIST/'data/boe-sections.json'):
         m=re.match(r'^(E\s*\d+(?:\.\d+)*)\b',row['title'])
         if m:targets[m[1].casefold()]=row['url']
 sections={edition:{x['num'].upper():x['url'] for x in read(f'data/{edition}/sections.json')} for edition in ('mutcd','ca-mutcd')}
-figures={edition:{(x['kind'].lower(), x['id'].upper().replace(' ','')):BASE+x['image'] for x in read('data/'+edition+'/figures.json') if x.get('image') and (DIST/x['image'].lstrip('/')).is_file()} for edition in sections}
+figures={edition:{} for edition in sections}
+for row in read(DIST/'data/details.json'):
+    if row['type'] in ('Figure','Table'):
+        edition='mutcd' if row['src']=='Federal MUTCD' else 'ca-mutcd'
+        figures[edition][row['type'].lower(),row['num'].upper().replace(' ','')]=row['url']
 titles='|'.join(re.escape(k) for k in sorted(targets,key=len,reverse=True))
 pattern=re.compile(r'(?<![\w/-])(?:(?P<web>https?://[^\s<>\x22\x27]+)|(?P<kind>Figure|Table)\s+(?P<fid>\d[A-Z]-\d+(?:\s*\(CA\))?)|(?P<section>(?:(?:CA|California|Federal) MUTCD\s+)?(?:Section\s+|§\s*)(?P<num>\d[A-Z]\.\d+(?:\(CA\))?))|'+titles+r')(?![\w/-])',re.I)
 tag_split=re.compile(r'(<!--.*?-->|</?[A-Za-z][^>]*>)',re.S)
