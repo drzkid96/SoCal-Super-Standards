@@ -6,3 +6,6 @@ sources/*.pdf
 __pycache__/
 .boe-cache/
 .standards/
+
+.fhwa-releases/
+public/figs/fhwa-shs/

@@ -6,7 +6,7 @@ tableOfContents: false
 
 <figure class="vibe-hero map-hero"><a href="/SoCal-Super-Standards/figs/vibes/la-county-map.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/la-county-map.webp" alt="Los Angeles County Jurisdictions" /></a><figcaption><strong>Los Angeles County Jurisdictions</strong> <em>LADOT + 10 LA County municipalities with embedded local standard drawings</em></figcaption></figure>
 
-Southern California traffic projects cross city lines constantly. Below are **LADOT plus 10 LA County municipalities** with their official local standard drawings, traffic control rules, and governing fallbacks directly embedded on-site—click any sheet to inspect full-resolution in the in-tab viewer.
+For Los Angeles street geometry, use the [BOE Street Design Manual](/SoCal-Super-Standards/boe/street-design/). For City traffic controls, open the [LADOT manuals and drawings](/SoCal-Super-Standards/ladot/). The municipal directory below links to the other ten cities’ design standards.
 
 :::tip[How Local Standards Interact with State Law]
 In every LA County city, **CA MUTCD 2026** is the legal baseline for signs, signals, and markings, and **Caltrans HDM Ch. 1000** sets statutory minimums for bikeways (SHC § 891). Local city standard plans govern **curb geometry, driveways, sidewalks, bus pads, detector loops, street lighting, and work-zone TCPs**, falling back to **Caltrans Standard Plans** and **SPPWC (Greenbook)** where no city sheet exists.

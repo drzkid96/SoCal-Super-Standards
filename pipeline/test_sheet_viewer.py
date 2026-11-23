@@ -8,6 +8,7 @@ from threading import Thread
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select, WebDriverWait
 
 
@@ -43,5 +44,40 @@ with TemporaryDirectory() as temp:
             Select(selector).select_by_index(0)
             assert browser.find_element(By.ID,'sheet-1').is_displayed()
             assert not browser.find_element(By.ID,'sheet-4').is_displayed()
+        browser.get(base)
+        q=browser.find_element(By.CSS_SELECTOR,'.quick-lookup input')
+        wait=WebDriverWait(browser,15)
+        q.send_keys('R81 (CA)')
+        wait.until(lambda d:'Retired' in d.find_element(By.CSS_SELECTOR,'.ql-item').text)
+        q.send_keys(Keys.ARROW_DOWN)
+        assert q.get_attribute('aria-activedescendant')
+        q.send_keys(Keys.ESCAPE)
+        assert q.get_attribute('aria-expanded')=='false'
+        q.clear()
+        q.send_keys('BOE E 550',Keys.ENTER)
+        wait.until(lambda d:'/boe/street-design/' in d.current_url)
+        assert browser.find_element(By.TAG_NAME,'h1').text.startswith('E 550')
+        browser.get(base+'boe/street-design/')
+        field=browser.find_element(By.ID,'boe-filter')
+        field.send_keys('E550')
+        hits=browser.find_elements(By.CSS_SELECTOR,'.boe-group:not([hidden]) li:not([hidden])')
+        assert len(hits)==1 and 'Intersections' in hits[0].text
+        field.clear()
+        field.send_keys('no such engineering phrase')
+        assert 'No matching sections' in browser.find_element(By.ID,'boe-count').text
+        browser.get(base+'signs/?q=R10-3b')
+        card=wait.until(lambda d:next((a for a in d.find_elements(By.CSS_SELECTOR,'.scard:not([hidden])') if a.get_attribute('data-code')=='R10-3b'),False))
+        card.click()
+        wait.until(lambda d:'R10-3b' in d.find_element(By.TAG_NAME,'h1').text)
+        assert len(browser.find_elements(By.CSS_SELECTOR,'.mfig-grid figure'))==2
+        browser.get(base+'ca-mutcd/6b/#6b08')
+        assert browser.find_element(By.ID,'6b08').is_enabled()
+        assert 'chapter for the marked-up' not in browser.find_element(By.ID,'6b08-p01').text
+        browser.get(base+'ca-mutcd/4i/#4i05-p10')
+        note=browser.find_element(By.ID,'4i05-p10')
+        assert 'adjacent to' in note.find_element(By.TAG_NAME,'del').text
+        assert 'immediately above' in note.find_element(By.CSS_SELECTOR,'.ca').text
+        browser.get(base+'ca-mutcd/2b/#2b04')
+        assert 'STOP' in browser.find_element(By.ID,'2b04-p01').text
     server.shutdown()
 print('Sheet viewer passed at 1280 and 390 pixels.')

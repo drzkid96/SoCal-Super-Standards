@@ -1,0 +1,3351 @@
+[
+ {
+  "code": "R10-3b",
+  "name": "Push Button Educational",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Regulatory_Signs.pdf",
+  "pages": [
+   1,
+   2
+  ]
+ },
+ {
+  "code": "R10-3c",
+  "name": "Push Button Educational",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Regulatory_Signs.pdf",
+  "pages": [
+   3,
+   4
+  ]
+ },
+ {
+  "code": "R10-3d",
+  "name": "Push Button Educational - Two-Stage Crossing",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Regulatory_Signs.pdf",
+  "pages": [
+   5,
+   6
+  ]
+ },
+ {
+  "code": "R10-3e",
+  "name": "Push Button Educational - Countdown Signal",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Regulatory_Signs.pdf",
+  "pages": [
+   7,
+   8
+  ]
+ },
+ {
+  "code": "R10-3f",
+  "name": "Push Button Educational - Street Name",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Regulatory_Signs.pdf",
+  "pages": [
+   9,
+   10
+  ]
+ },
+ {
+  "code": "R10-3g",
+  "name": "Push Button Educational - Street Name",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Regulatory_Signs.pdf",
+  "pages": [
+   11,
+   12
+  ]
+ },
+ {
+  "code": "R10-3h",
+  "name": "Push Button Educational - Street Name - Two-Stage Crossing",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Regulatory_Signs.pdf",
+  "pages": [
+   13,
+   14
+  ]
+ },
+ {
+  "code": "R10-3i",
+  "name": "Push Button Educational - Countdown Signal - Street Name",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Regulatory_Signs.pdf",
+  "pages": [
+   15,
+   16
+  ]
+ },
+ {
+  "code": "M1-1",
+  "name": "Interstate Route (1, 2 digits)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   1,
+   2
+  ]
+ },
+ {
+  "code": "M1-1a",
+  "name": "Interstate Route (1, 2 digits)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   3,
+   4
+  ]
+ },
+ {
+  "code": "M1-2",
+  "name": "Off-Interstate Route - Loop (1, 2 digits)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   5,
+   6
+  ]
+ },
+ {
+  "code": "M1-3",
+  "name": "Off-Interstate Route - Spur (1, 2 digits)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   7,
+   8
+  ]
+ },
+ {
+  "code": "M1-4",
+  "name": "U.S. Route (1, 2 digits)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   9,
+   10,
+   11,
+   12
+  ]
+ },
+ {
+  "code": "M1-5",
+  "name": "State Route (1, 2 digits)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   13,
+   14,
+   15,
+   16
+  ]
+ },
+ {
+  "code": "M1-6",
+  "name": "County Route",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   17
+  ]
+ },
+ {
+  "code": "M1-7",
+  "name": "Forest Route",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   18
+  ]
+ },
+ {
+  "code": "M1-8",
+  "name": "State or Local Bicycle Route",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   19
+  ]
+ },
+ {
+  "code": "M1-8a",
+  "name": "State or Local Bicycle Route",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   20
+  ]
+ },
+ {
+  "code": "M1-8b",
+  "name": "Non-Numbered Bicycle Route (2 lines)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   21
+  ]
+ },
+ {
+  "code": "M1-8c",
+  "name": "Non-Numbered Bicycle Route (3 lines)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   22
+  ]
+ },
+ {
+  "code": "M1-9",
+  "name": "U.S. Bicycle Route",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   23
+  ]
+ },
+ {
+  "code": "M1-10",
+  "name": "Eisenhower Interstate System",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   24
+  ]
+ },
+ {
+  "code": "M1-10a",
+  "name": "Eisenhower Interstate System",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   25
+  ]
+ },
+ {
+  "code": "M2-1P",
+  "name": "Junction (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   26,
+   27
+  ]
+ },
+ {
+  "code": "M2-2",
+  "name": "Combination Junction (2 route signs)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   28
+  ]
+ },
+ {
+  "code": "M3-1P",
+  "name": "Cardinal Direction - North (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   29,
+   30
+  ]
+ },
+ {
+  "code": "M3-2P",
+  "name": "Cardinal Direction - East (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   31,
+   32
+  ]
+ },
+ {
+  "code": "M3-3P",
+  "name": "Cardinal Direction -South (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   33,
+   34
+  ]
+ },
+ {
+  "code": "M3-4P",
+  "name": "Cardinal Direction - West (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   35,
+   36
+  ]
+ },
+ {
+  "code": "M4-1aP",
+  "name": "Alternate (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   39,
+   40
+  ]
+ },
+ {
+  "code": "M4-1P",
+  "name": "Alternate (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   37,
+   38
+  ]
+ },
+ {
+  "code": "M4-2P",
+  "name": "By-Pass (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   41,
+   42
+  ]
+ },
+ {
+  "code": "M4-3P",
+  "name": "Business (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   43,
+   44
+  ]
+ },
+ {
+  "code": "M4-4P",
+  "name": "Truck (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   45
+  ]
+ },
+ {
+  "code": "M4-5P",
+  "name": "To (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   46,
+   47
+  ]
+ },
+ {
+  "code": "M4-6P",
+  "name": "End (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   48,
+   49
+  ]
+ },
+ {
+  "code": "M4-7P",
+  "name": "Temporary (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   50,
+   51
+  ]
+ },
+ {
+  "code": "M4-7aP",
+  "name": "Temporary (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   52,
+   53
+  ]
+ },
+ {
+  "code": "M4-11",
+  "name": "Emergency Route",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   54,
+   55,
+   56
+  ]
+ },
+ {
+  "code": "M4-11a",
+  "name": "Emergency Route",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   57,
+   58,
+   59
+  ]
+ },
+ {
+  "code": "M4-11bP",
+  "name": "Emergency Route To (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   60
+  ]
+ },
+ {
+  "code": "M4-11cP",
+  "name": "Emergency Route To (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   61
+  ]
+ },
+ {
+  "code": "M4-12",
+  "name": "End Emergency Route",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   62
+  ]
+ },
+ {
+  "code": "M4-14P",
+  "name": "Begin (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   63,
+   64
+  ]
+ },
+ {
+  "code": "M4-17",
+  "name": "Toll Collector Symbol Panel",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   65
+  ]
+ },
+ {
+  "code": "M4-18",
+  "name": "Exact Change Symbol Panel",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   66
+  ]
+ },
+ {
+  "code": "M5-1P",
+  "name": "Advance Turn Arrow (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   67,
+   68
+  ]
+ },
+ {
+  "code": "M5-2P",
+  "name": "Advance Turn Arrow - Oblique (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   69,
+   70
+  ]
+ },
+ {
+  "code": "M5-3P",
+  "name": "Advance Turn Arrow - Circular Intersection (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   71,
+   72
+  ]
+ },
+ {
+  "code": "M5-4P",
+  "name": "Lane Designation - Left Lane (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   73,
+   74
+  ]
+ },
+ {
+  "code": "M5-5P",
+  "name": "Lane Designation - Center Lane (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   75,
+   76
+  ]
+ },
+ {
+  "code": "M5-6P",
+  "name": "Lane Designation - Right Lane (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   77,
+   78
+  ]
+ },
+ {
+  "code": "M6-1P",
+  "name": "Directional Arrow - Turn (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   79,
+   80
+  ]
+ },
+ {
+  "code": "M6-2aP",
+  "name": "Directional Arrow - Oblique, Downward (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   83,
+   84
+  ]
+ },
+ {
+  "code": "M6-2P",
+  "name": "Directional Arrow - Oblique (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   81,
+   82
+  ]
+ },
+ {
+  "code": "M6-3P",
+  "name": "Directional Arrow - Through (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   85,
+   86
+  ]
+ },
+ {
+  "code": "M6-4P",
+  "name": "Directional Arrow - Turn (Two-Way) (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   87,
+   88
+  ]
+ },
+ {
+  "code": "M6-5P",
+  "name": "Directional Arrow - Oblique (Two-Way) (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   89,
+   90
+  ]
+ },
+ {
+  "code": "M6-6P",
+  "name": "Directional Arrow - Through and Turn (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   91,
+   92
+  ]
+ },
+ {
+  "code": "M6-7P",
+  "name": "Directional Arrow - Through and Oblique (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   93,
+   94
+  ]
+ },
+ {
+  "code": "M10-1",
+  "name": "National Scenic Byway",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   95
+  ]
+ },
+ {
+  "code": "M10-1aP",
+  "name": "National Scenic Byway (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   96
+  ]
+ },
+ {
+  "code": "M10-2",
+  "name": "Byway Identification",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   97
+  ]
+ },
+ {
+  "code": "M10-2aP",
+  "name": "Byway Identification (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   98
+  ]
+ },
+ {
+  "code": "M10-3",
+  "name": "State Scenic Byway System",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   99
+  ]
+ },
+ {
+  "code": "M10-3a",
+  "name": "State Scenic Byway - Simple Graphic and Byway Identification",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   100
+  ]
+ },
+ {
+  "code": "M10-3bP",
+  "name": "Scenic Byway (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   101
+  ]
+ },
+ {
+  "code": "M11-1",
+  "name": "National Historic Trail - Identification",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   102
+  ]
+ },
+ {
+  "code": "M11-1aP",
+  "name": "National Historic Trail - Historic Route (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   103
+  ]
+ },
+ {
+  "code": "M11-1bP",
+  "name": "National Historic Trail - Crossing (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   104
+  ]
+ },
+ {
+  "code": "M11-1cP",
+  "name": "National Historic Trail - Auto Tour Route (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   105
+  ]
+ },
+ {
+  "code": "M11-1dP",
+  "name": "National Historic Trail - Distance (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   106
+  ]
+ },
+ {
+  "code": "D1-1",
+  "name": "Destination (1 line)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   1
+  ]
+ },
+ {
+  "code": "D1-1a",
+  "name": "Destination and Distance (1 line)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   2
+  ]
+ },
+ {
+  "code": "D1-1b",
+  "name": "Bicycle Destination (1 line)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   3
+  ]
+ },
+ {
+  "code": "D1-1c",
+  "name": "Bicycle Destination and Distance (1 line)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   4
+  ]
+ },
+ {
+  "code": "D1-1d",
+  "name": "Circular Intersection Destination (1 line)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   5
+  ]
+ },
+ {
+  "code": "D1-1e",
+  "name": "Circular Intersection Departure Guide",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   6
+  ]
+ },
+ {
+  "code": "D1-2",
+  "name": "Destination (2 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   7
+  ]
+ },
+ {
+  "code": "D1-2a",
+  "name": "Destination and Distance (2 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   8
+  ]
+ },
+ {
+  "code": "D1-2b",
+  "name": "Bicycle Destination (2 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   9
+  ]
+ },
+ {
+  "code": "D1-2c",
+  "name": "Bicycle Destination and Distance (2 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   10
+  ]
+ },
+ {
+  "code": "D1-2d",
+  "name": "Circular Intersection Destination (2 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   11
+  ]
+ },
+ {
+  "code": "D1-3",
+  "name": "Destination (3 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   12
+  ]
+ },
+ {
+  "code": "D1-3a",
+  "name": "Destination and Distance (3 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   13
+  ]
+ },
+ {
+  "code": "D1-3b",
+  "name": "Bicycle Destination (3 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   14
+  ]
+ },
+ {
+  "code": "D1-3c",
+  "name": "Bicycle Destination and Distance (3 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   15
+  ]
+ },
+ {
+  "code": "D1-3d",
+  "name": "Circular Intersection Destination (3 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   16
+  ]
+ },
+ {
+  "code": "D1-5",
+  "name": "Circular Intersection Diagrammatic Destination",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   17
+  ]
+ },
+ {
+  "code": "D1-5a",
+  "name": "Circular Intersection Diagrammatic Destination, Right-Turn Bypass",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   18
+  ]
+ },
+ {
+  "code": "D2-1",
+  "name": "Distance (1 line)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   19
+  ]
+ },
+ {
+  "code": "D2-1a",
+  "name": "Bike Route Destination and Distance (1 Line)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   20
+  ]
+ },
+ {
+  "code": "D2-2",
+  "name": "Distance (2 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   21
+  ]
+ },
+ {
+  "code": "D2-2a",
+  "name": "Bike Route Destination and Distance (2 Lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   22
+  ]
+ },
+ {
+  "code": "D2-3",
+  "name": "Distance (3 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   23
+  ]
+ },
+ {
+  "code": "D2-3a",
+  "name": "Bike Route Destination and Distance (3 Lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   24
+  ]
+ },
+ {
+  "code": "D3-1",
+  "name": "Street Name",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   25,
+   26,
+   27
+  ]
+ },
+ {
+  "code": "D3-1a",
+  "name": "Street Name with Route Sign",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   28
+  ]
+ },
+ {
+  "code": "D3-2",
+  "name": "Advance Street Name",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   29,
+   30,
+   31,
+   32
+  ]
+ },
+ {
+  "code": "D4-1",
+  "name": "Parking Area Directional",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   33
+  ]
+ },
+ {
+  "code": "D4-2",
+  "name": "Park - Ride",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   34
+  ]
+ },
+ {
+  "code": "D4-3",
+  "name": "Bicycle Parking Area Directional",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   35
+  ]
+ },
+ {
+  "code": "D4-4",
+  "name": "Bicycle Sharing Station Directional",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   36
+  ]
+ },
+ {
+  "code": "D4-4a",
+  "name": "Bicycle Lockers Directional",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   37
+  ]
+ },
+ {
+  "code": "D5-1",
+  "name": "Rest Area Advance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   38
+  ]
+ },
+ {
+  "code": "D5-1a",
+  "name": "Rest Area Advance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   39
+  ]
+ },
+ {
+  "code": "D5-2",
+  "name": "Rest Area Entrance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   40
+  ]
+ },
+ {
+  "code": "D5-2a",
+  "name": "Rest Area Gore",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   41
+  ]
+ },
+ {
+  "code": "D5-5",
+  "name": "Rest Area Directional",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   42
+  ]
+ },
+ {
+  "code": "D5-6",
+  "name": "Next Rest Area",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   43
+  ]
+ },
+ {
+  "code": "D5-7",
+  "name": "Rest Area Tourist Info Center Advance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   44,
+   45,
+   46
+  ]
+ },
+ {
+  "code": "D5-7a",
+  "name": "Rest Area Tourist Info Center Advance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   47,
+   48,
+   49
+  ]
+ },
+ {
+  "code": "D5-8",
+  "name": "Rest Area Tourist Info Center Entrance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   50
+  ]
+ },
+ {
+  "code": "D5-9",
+  "name": "Parking Area Advance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   51
+  ]
+ },
+ {
+  "code": "D5-9a",
+  "name": "Parking Area Entrance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   52
+  ]
+ },
+ {
+  "code": "D5-9b",
+  "name": "Parking Area Gore",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   53
+  ]
+ },
+ {
+  "code": "D5-10",
+  "name": "Picnic Area (Roadside Table, Roadside Park) Advance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   54,
+   55,
+   56
+  ]
+ },
+ {
+  "code": "D5-10a",
+  "name": "Picnic Area (Roadside Table, Roadside Park) Entrance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   57,
+   58,
+   59
+  ]
+ },
+ {
+  "code": "D5-10b",
+  "name": "Picnic Area (Roadside Table, Roadside Park) Gore",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   60,
+   61,
+   62
+  ]
+ },
+ {
+  "code": "D5-11",
+  "name": "Scenic Area (Scenic View, Scenic Overlook) Advance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   63,
+   64,
+   65
+  ]
+ },
+ {
+  "code": "D5-11a",
+  "name": "Scenic Area (Scenic View, Scenic Overlook) Entrance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   66,
+   67,
+   68
+  ]
+ },
+ {
+  "code": "D5-11b",
+  "name": "Scenic Area (Scenic View, Scenic Overlook) Gore",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   69,
+   70,
+   71
+  ]
+ },
+ {
+  "code": "D5-12",
+  "name": "Interstate Oasis",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   72
+  ]
+ },
+ {
+  "code": "D5-12aP",
+  "name": "Interstate Oasis (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   73
+  ]
+ },
+ {
+  "code": "D5-12b",
+  "name": "Interstate Oasis Directional",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   74,
+   75
+  ]
+ },
+ {
+  "code": "D5-13",
+  "name": "Brake Check Area Advance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   76
+  ]
+ },
+ {
+  "code": "D5-14",
+  "name": "Brake Check Area Entrance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   77
+  ]
+ },
+ {
+  "code": "D5-15",
+  "name": "Chain-Up Area Advance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   78
+  ]
+ },
+ {
+  "code": "D5-16",
+  "name": "Chain-Up Area Entrance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   79
+  ]
+ },
+ {
+  "code": "D8-1",
+  "name": "Advance Weigh Station Distance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   80,
+   81,
+   82
+  ]
+ },
+ {
+  "code": "D8-1a",
+  "name": "Weigh Station Ahead",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   83
+  ]
+ },
+ {
+  "code": "D8-2",
+  "name": "Weigh Station Advance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   84
+  ]
+ },
+ {
+  "code": "D8-3",
+  "name": "Weigh Station Entrance Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   85
+  ]
+ },
+ {
+  "code": "D9-1",
+  "name": "Telephone",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   86
+  ]
+ },
+ {
+  "code": "D9-2",
+  "name": "Hospital",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   87
+  ]
+ },
+ {
+  "code": "D9-3",
+  "name": "Camping",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   88
+  ]
+ },
+ {
+  "code": "D9-4",
+  "name": "Litter Container",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   89
+  ]
+ },
+ {
+  "code": "D9-6",
+  "name": "International Symbol of Accessibility",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   90
+  ]
+ },
+ {
+  "code": "D9-6P",
+  "name": "Van Accessible (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   91
+  ]
+ },
+ {
+  "code": "D9-7",
+  "name": "Gas",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   92
+  ]
+ },
+ {
+  "code": "D9-8",
+  "name": "Food",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   93
+  ]
+ },
+ {
+  "code": "D9-9",
+  "name": "Lodging",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   94
+  ]
+ },
+ {
+  "code": "D9-10",
+  "name": "Tourist Information",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   95
+  ]
+ },
+ {
+  "code": "D9-11",
+  "name": "Diesel Fuel",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   96
+  ]
+ },
+ {
+  "code": "D9-11a",
+  "name": "Alternative Fuel - Compressed Natural Gas",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   97
+  ]
+ },
+ {
+  "code": "D9-11b",
+  "name": "Electric Vehicle Charging",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   98
+  ]
+ },
+ {
+  "code": "D9-11bP",
+  "name": "Electric Vehicle Charging (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   99
+  ]
+ },
+ {
+  "code": "D9-11c",
+  "name": "Alternative Fuel - Ethanol",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   100
+  ]
+ },
+ {
+  "code": "D9-11d",
+  "name": "Alternative Fuel - Liquefied Natural Gas",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   101
+  ]
+ },
+ {
+  "code": "D9-11e",
+  "name": "Alternative Fuel - Liquefied Petroleum Gas",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   102
+  ]
+ },
+ {
+  "code": "D9-11f",
+  "name": "Alternative Fuel - Hydrogen",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   103
+  ]
+ },
+ {
+  "code": "D9-11g",
+  "name": "Alternative Fuel - Biofuel",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   104
+  ]
+ },
+ {
+  "code": "D9-12",
+  "name": "RV Sanitary Station",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   105
+  ]
+ },
+ {
+  "code": "D9-13",
+  "name": "Emergency Medical Services",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   106
+  ]
+ },
+ {
+  "code": "D9-13aP",
+  "name": "Hospital (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   107
+  ]
+ },
+ {
+  "code": "D9-13bP",
+  "name": "Ambulance Station (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   108
+  ]
+ },
+ {
+  "code": "D9-13cP",
+  "name": "Emergency Medical Care (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   109
+  ]
+ },
+ {
+  "code": "D9-13dP",
+  "name": "Trauma Center (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   110
+  ]
+ },
+ {
+  "code": "D9-14",
+  "name": "Police",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   111
+  ]
+ },
+ {
+  "code": "D9-16",
+  "name": "Truck Parking",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   112
+  ]
+ },
+ {
+  "code": "D9-16aP",
+  "name": "Truck External Power (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   113
+  ]
+ },
+ {
+  "code": "D9-16b",
+  "name": "Truck Parking Availability - Exit Number",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   114
+  ]
+ },
+ {
+  "code": "D9-16c",
+  "name": "Truck Parking Availability - Distance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   115
+  ]
+ },
+ {
+  "code": "D9-16d",
+  "name": "Truck Parking Availability - Rest Areas",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   116,
+   117
+  ]
+ },
+ {
+  "code": "D9-16e",
+  "name": "Truck Parking Availability - Combined",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   118,
+   119,
+   120,
+   121
+  ]
+ },
+ {
+  "code": "D9-17a",
+  "name": "Next EV Charging XX Miles",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   123
+  ]
+ },
+ {
+  "code": "D9-17P",
+  "name": "Next Services Advance (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   122
+  ]
+ },
+ {
+  "code": "D9-18",
+  "name": "General Services (up to 6 symbols) with Exit Number",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   124
+  ]
+ },
+ {
+  "code": "D9-18a",
+  "name": "General Services with Exit Number",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   125
+  ]
+ },
+ {
+  "code": "D9-18b",
+  "name": "General Services (up to 6 symbols) with Action Message",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   126
+  ]
+ },
+ {
+  "code": "D9-18c",
+  "name": "General Services with Action Message",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   127
+  ]
+ },
+ {
+  "code": "D9-18dP",
+  "name": "Rural Interchange General Services (up to 3 symbols) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   128
+  ]
+ },
+ {
+  "code": "D9-18eP",
+  "name": "Rural Interchange General Services (1 line) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   129
+  ]
+ },
+ {
+  "code": "D9-18fP",
+  "name": "Rural Interchange General Services (2 lines) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   130
+  ]
+ },
+ {
+  "code": "D9-19",
+  "name": "Alternative Fuels Corridor",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   131
+  ]
+ },
+ {
+  "code": "D9-19aP",
+  "name": "Alternative Fuels Corridor (1 line) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   132
+  ]
+ },
+ {
+  "code": "D9-19bP",
+  "name": "Alternative Fuels Corridor (2 lines) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   133
+  ]
+ },
+ {
+  "code": "D9-20",
+  "name": "Pharmacy",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   134
+  ]
+ },
+ {
+  "code": "D9-20aP",
+  "name": "24-Hour (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   135
+  ]
+ },
+ {
+  "code": "D9-21",
+  "name": "Telecommunication Device for the Deaf",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   136
+  ]
+ },
+ {
+  "code": "D9-22",
+  "name": "Wireless Internet",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   137
+  ]
+ },
+ {
+  "code": "D10-1",
+  "name": "Reference Location (1 digit)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   138
+  ]
+ },
+ {
+  "code": "D10-1a",
+  "name": "Intermediate Reference Location (2 digits)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   139
+  ]
+ },
+ {
+  "code": "D10-2",
+  "name": "Reference Location (2 digits)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   140
+  ]
+ },
+ {
+  "code": "D10-2a",
+  "name": "Intermediate Reference Location (3 digits)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   141
+  ]
+ },
+ {
+  "code": "D10-3",
+  "name": "Reference Location (3 digits)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   142
+  ]
+ },
+ {
+  "code": "D10-3a",
+  "name": "Intermediate Reference Location (4 digits)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   143
+  ]
+ },
+ {
+  "code": "D10-4",
+  "name": "Enhanced Reference Location",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   144
+  ]
+ },
+ {
+  "code": "D10-5",
+  "name": "Intermediate Enhanced Reference Location",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   145
+  ]
+ },
+ {
+  "code": "D11-1",
+  "name": "Bike Route",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   146
+  ]
+ },
+ {
+  "code": "D11-1bP",
+  "name": "Bike Route (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   147
+  ]
+ },
+ {
+  "code": "D11-1c",
+  "name": "Bike Route with Destination",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   148
+  ]
+ },
+ {
+  "code": "D11-10a",
+  "name": "Shared-Use Path Destination (1 line)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   149
+  ]
+ },
+ {
+  "code": "D11-10b",
+  "name": "Shared-Use Path Destination (2 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   150
+  ]
+ },
+ {
+  "code": "D11-10c",
+  "name": "Shared-Use Path Destination (3 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   151
+  ]
+ },
+ {
+  "code": "D11-10d",
+  "name": "Shared-Use Path Destination and Distance (1 line)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   152
+  ]
+ },
+ {
+  "code": "D11-10e",
+  "name": "Shared-Use Path Destination and Distance (2 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   153
+  ]
+ },
+ {
+  "code": "D11-10f",
+  "name": "Shared-Use Path Destination and Distance (3 lines)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   154
+  ]
+ },
+ {
+  "code": "D11-11",
+  "name": "Bicycles Directional",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   155
+  ]
+ },
+ {
+  "code": "D11-12",
+  "name": "Pedestrians Directional",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   156
+  ]
+ },
+ {
+  "code": "D11-13",
+  "name": "Skaters Directional",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   157
+  ]
+ },
+ {
+  "code": "D11-14",
+  "name": "Equestrians Directional",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   158
+  ]
+ },
+ {
+  "code": "D11-20",
+  "name": "Bicycle Left Turn May Use Turn Box",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   159,
+   160
+  ]
+ },
+ {
+  "code": "D11-20a",
+  "name": "Bicycle Left Turn Box (with arrow, oblique)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": []
+ },
+ {
+  "code": "D12-1",
+  "name": "Radio-Weather Information",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   163
+  ]
+ },
+ {
+  "code": "D12-1a",
+  "name": "Radio-Traffic Information",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   164
+  ]
+ },
+ {
+  "code": "D12-1bP",
+  "name": "Urgent Message When Flashing (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   165
+  ]
+ },
+ {
+  "code": "D12-2",
+  "name": "Carpool Information",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   166
+  ]
+ },
+ {
+  "code": "D12-3",
+  "name": "Channel 9 Monitored",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   167
+  ]
+ },
+ {
+  "code": "D12-4",
+  "name": "Emergency Call 911",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   168
+  ]
+ },
+ {
+  "code": "D12-5",
+  "name": "Travel Info Call 511 (Pictograph)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   169
+  ]
+ },
+ {
+  "code": "D12-5a",
+  "name": "Travel Info Call 511",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   170
+  ]
+ },
+ {
+  "code": "D12-6",
+  "name": "Roadside Assistance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   171
+  ]
+ },
+ {
+  "code": "D13-1",
+  "name": "Crossover (Directional)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   172
+  ]
+ },
+ {
+  "code": "D13-2",
+  "name": "Advance Crossover",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   173
+  ]
+ },
+ {
+  "code": "D13-3",
+  "name": "Freeway Entrance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   174,
+   175,
+   176
+  ]
+ },
+ {
+  "code": "D13-3a",
+  "name": "Freeway Entrance (Directional)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   177,
+   178,
+   179
+  ]
+ },
+ {
+  "code": "D15-1",
+  "name": "Combination Lane Use / Destination",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   180,
+   181
+  ]
+ },
+ {
+  "code": "D17-1",
+  "name": "Next Truck Lane XX Miles",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   182
+  ]
+ },
+ {
+  "code": "D17-2",
+  "name": "Advance Truck Lane",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   183
+  ]
+ },
+ {
+  "code": "D17-3",
+  "name": "Next Passing Lane",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   184
+  ]
+ },
+ {
+  "code": "D17-4",
+  "name": "Advance Passing Lane",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   185
+  ]
+ },
+ {
+  "code": "D17-5",
+  "name": "Advance Emergency Turn-Out",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   186
+  ]
+ },
+ {
+  "code": "D17-6",
+  "name": "Emergency Turn-Out (Directional)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   187
+  ]
+ },
+ {
+  "code": "D17-7",
+  "name": "Advance Slow Vehicle Turn-Out",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   188
+  ]
+ },
+ {
+  "code": "I1-1",
+  "name": "Traffic Signal Speed",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   107,
+   108
+  ]
+ },
+ {
+  "code": "I2-1",
+  "name": "Jurisdictional Boundary",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   109
+  ]
+ },
+ {
+  "code": "I2-2",
+  "name": "Geographical Feature",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   110
+  ]
+ },
+ {
+  "code": "I2-3",
+  "name": "Grade Separation Identification",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   111
+  ]
+ },
+ {
+  "code": "I2-3a",
+  "name": "Grade Separation Identification (2 lines)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   112
+  ]
+ },
+ {
+  "code": "I2-4",
+  "name": "Future Interstate Corridor",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   113
+  ]
+ },
+ {
+  "code": "I2-4a",
+  "name": "Future I-XX Corridor",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   114
+  ]
+ },
+ {
+  "code": "I2-5",
+  "name": "Project Information",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": []
+ },
+ {
+  "code": "I3-5",
+  "name": "Airport",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   115
+  ]
+ },
+ {
+  "code": "I3-6",
+  "name": "Bus Station",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   116
+  ]
+ },
+ {
+  "code": "I3-7",
+  "name": "Train Station",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   117
+  ]
+ },
+ {
+  "code": "I3-8",
+  "name": "Light Rail Transit Station",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   118
+  ]
+ },
+ {
+  "code": "I3-9",
+  "name": "Vehicle Ferry Terminal",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   119
+  ]
+ },
+ {
+  "code": "I3-10",
+  "name": "Passenger Only Ferry Terminal",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   120
+  ]
+ },
+ {
+  "code": "I3-10P",
+  "name": "Ferry (Plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   121
+  ]
+ },
+ {
+  "code": "I4-1",
+  "name": "Library",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   122
+  ]
+ },
+ {
+  "code": "I4-2",
+  "name": "Recycling Center",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   123
+  ]
+ },
+ {
+  "code": "I13-1",
+  "name": "Emergency Notificaiton",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": []
+ },
+ {
+  "code": "I13-2",
+  "name": "Push to Exit",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   124
+  ]
+ },
+ {
+  "code": "I20-1",
+  "name": "Acknowledgment",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": []
+ },
+ {
+  "code": "I20-2",
+  "name": "Acknowledgment",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": []
+ },
+ {
+  "code": "I20-3",
+  "name": "Acknowledgment",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": []
+ },
+ {
+  "code": "I20-4",
+  "name": "Acknowledgment - Rest Area",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   125
+  ]
+ },
+ {
+  "code": "I20-4a",
+  "name": "Acknowledgment - Welcome Center",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   126
+  ]
+ },
+ {
+  "code": "I20-5P",
+  "name": "Acknowledgment (plaque)",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": []
+ },
+ {
+  "code": "E1-1",
+  "name": "Advance Guide (1 destination)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   189,
+   190
+  ]
+ },
+ {
+  "code": "E1-2",
+  "name": "Advance Guide (2 destinations)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   191,
+   192
+  ]
+ },
+ {
+  "code": "E1-3",
+  "name": "Advance Guide (3 destinations)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   193,
+   194
+  ]
+ },
+ {
+  "code": "E1-5P",
+  "name": "Exit Number (1, 2 digits) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   195
+  ]
+ },
+ {
+  "code": "E1-5aP",
+  "name": "Exit Number (3 digits) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   196
+  ]
+ },
+ {
+  "code": "E1-5bP",
+  "name": "Exit Number (1, 2 digits with single-letter suffix) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   197
+  ]
+ },
+ {
+  "code": "E1-5cP",
+  "name": "Exit Number (3 digits with single-letter suffix) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   198
+  ]
+ },
+ {
+  "code": "E1-5dP",
+  "name": "Exit Number (1, 2 digits with dual-letter suffix) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   199
+  ]
+ },
+ {
+  "code": "E1-5eP",
+  "name": "Exit Number (3 digits with dual-letter suffix) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   200
+  ]
+ },
+ {
+  "code": "E1-5fP",
+  "name": "Left Exit Number (1, 2 digits) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   201
+  ]
+ },
+ {
+  "code": "E1-5gP",
+  "name": "Left Exit Number (3 digits) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   202
+  ]
+ },
+ {
+  "code": "E1-5hP",
+  "name": "Left Exit Number (1, 2 digits with single-letter suffix) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   203
+  ]
+ },
+ {
+  "code": "E1-5iP",
+  "name": "Left Exit Number (3 digits with single-letter suffix) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   204
+  ]
+ },
+ {
+  "code": "E1-5jP",
+  "name": "Left Exit Number (1, 2 digits with dual-letter suffix) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   205
+  ]
+ },
+ {
+  "code": "E1-5kP",
+  "name": "Left Exit Number (3 digits with dual-letter suffix) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   206
+  ]
+ },
+ {
+  "code": "E1-5mP",
+  "name": "Left (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   207
+  ]
+ },
+ {
+  "code": "E2-1aP",
+  "name": "Next Exit (2 lines) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   209
+  ]
+ },
+ {
+  "code": "E2-1P",
+  "name": "Next Exit (1 line) (plaque)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   208
+  ]
+ },
+ {
+  "code": "E3-1",
+  "name": "Supplemental (1 destination)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   210,
+   211,
+   212
+  ]
+ },
+ {
+  "code": "E3-2",
+  "name": "Supplemental (2 destinations)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   213,
+   214
+  ]
+ },
+ {
+  "code": "E4-1",
+  "name": "Exit Direction (1 destination)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   215,
+   216,
+   217,
+   218
+  ]
+ },
+ {
+  "code": "E4-2",
+  "name": "Exit Direction (2 destinations)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   219,
+   220,
+   221,
+   222
+  ]
+ },
+ {
+  "code": "E4-3",
+  "name": "Exit Direction (3 destinations)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   223,
+   224,
+   225,
+   226
+  ]
+ },
+ {
+  "code": "E5-1",
+  "name": "Exit Gore (no exit number)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   227
+  ]
+ },
+ {
+  "code": "E5-1a",
+  "name": "Exit Gore (1, 2 digits)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   228,
+   229,
+   230
+  ]
+ },
+ {
+  "code": "E5-1bP",
+  "name": "Exit Number (plaque) (1, 2 digits)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   231,
+   232,
+   233
+  ]
+ },
+ {
+  "code": "E5-1c",
+  "name": "Narrow Exit Gore",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   234
+  ]
+ },
+ {
+  "code": "E6-1",
+  "name": "Pull-Through",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   235
+  ]
+ },
+ {
+  "code": "E6-1a",
+  "name": "Pull-Through (Destination)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   236
+  ]
+ },
+ {
+  "code": "E6-2",
+  "name": "Pull-Through (Down Arrows)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   237
+  ]
+ },
+ {
+  "code": "E6-2a",
+  "name": "Pull-Through (Destination, Down Arrows)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   238
+  ]
+ },
+ {
+  "code": "E7-1",
+  "name": "Post-Interchange Distance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   239,
+   240
+  ]
+ },
+ {
+  "code": "E7-2",
+  "name": "Post-Interchange Distance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   241,
+   242
+  ]
+ },
+ {
+  "code": "E7-3",
+  "name": "Post-Interchange Distance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   243,
+   244,
+   245,
+   246,
+   247,
+   248,
+   249,
+   250
+  ]
+ },
+ {
+  "code": "E7-4",
+  "name": "Post-Interchange Travel Time",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   251,
+   252
+  ]
+ },
+ {
+  "code": "E7-5",
+  "name": "Distance and Travel Time",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   253,
+   254
+  ]
+ },
+ {
+  "code": "E7-6",
+  "name": "Comparative Travel Time",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   255
+  ]
+ },
+ {
+  "code": "E8-1",
+  "name": "Preferential Lane Entrance Gore",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   256
+  ]
+ },
+ {
+  "code": "E8-1a",
+  "name": "Preferential Lane Intermediate Entrance Gore",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   257
+  ]
+ },
+ {
+  "code": "E8-2",
+  "name": "Preferential Lane Entrance Direction (overhead)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   258
+  ]
+ },
+ {
+  "code": "E8-2a",
+  "name": "Preferential Lane Entrance Direction (post-mounted)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   259
+  ]
+ },
+ {
+  "code": "E8-3",
+  "name": "Preferential Lane Entrance Advance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   260
+  ]
+ },
+ {
+  "code": "E8-4",
+  "name": "Preferential Lane Direct Exit Gore",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   261
+  ]
+ },
+ {
+  "code": "E8-5",
+  "name": "Preferential Lane Intermediate Egress Direction",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   262
+  ]
+ },
+ {
+  "code": "E8-6",
+  "name": "Preferential Lane Intermediate Egress Advance",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   263
+  ]
+ },
+ {
+  "code": "E9-1",
+  "name": "Interchange Sequence (2 interchanges)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   264
+  ]
+ },
+ {
+  "code": "E9-2",
+  "name": "Interchange Sequence (3 interchanges)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   265
+  ]
+ },
+ {
+  "code": "E9-3",
+  "name": "Next Exits (1 destination)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   266
+  ]
+ },
+ {
+  "code": "E9-3a",
+  "name": "Next Exits (2 destinations)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   267,
+   268
+  ]
+ },
+ {
+  "code": "E9-4",
+  "name": "Community Interchanges (2 interchanges)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   269
+  ]
+ },
+ {
+  "code": "E9-5",
+  "name": "Community Interchanges (3 interchanges)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   270
+  ]
+ },
+ {
+  "code": "E11-1",
+  "name": "Exit Only (with Down arrow)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   271
+  ]
+ },
+ {
+  "code": "E11-1a",
+  "name": "Exit",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   272
+  ]
+ },
+ {
+  "code": "E11-1b",
+  "name": "Only",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   273
+  ]
+ },
+ {
+  "code": "E11-1c",
+  "name": "Exit Only",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   274
+  ]
+ },
+ {
+  "code": "E11-1d",
+  "name": "Exit Only (with Directional arrow)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   275
+  ]
+ },
+ {
+  "code": "E11-1e",
+  "name": "Exit Only (with two Directional arrows)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   276
+  ]
+ },
+ {
+  "code": "E11-1f",
+  "name": "Exit Only (with two Down arrows)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   277
+  ]
+ },
+ {
+  "code": "E11-2",
+  "name": "Left (panel)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   278
+  ]
+ },
+ {
+  "code": "E13-2",
+  "name": "Exit Direction Advisory Speed - Ramp (panel)",
+  "date": "2/10/2026",
+  "release": 6,
+  "file": "2024_SHS_Release_6-Guide_Signs.pdf",
+  "pages": [
+   279,
+   280
+  ]
+ },
+ {
+  "code": "EM1-1",
+  "name": "Evacuation Route",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   127
+  ]
+ },
+ {
+  "code": "EM1-1a",
+  "name": "Evacuation Route - Hurricane",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   128
+  ]
+ },
+ {
+  "code": "EM1-2",
+  "name": "Evacuation Route - Tsunami",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   129
+  ]
+ },
+ {
+  "code": "EM2-1",
+  "name": "Area Closed",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   130
+  ]
+ },
+ {
+  "code": "EM2-2",
+  "name": "Traffic Control Point",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   131
+  ]
+ },
+ {
+  "code": "EM2-3",
+  "name": "Maintain Top Safe Speed",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   132
+  ]
+ },
+ {
+  "code": "EM2-4",
+  "name": "Permit Required",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   133
+  ]
+ },
+ {
+  "code": "EM3-1",
+  "name": "Emergency Aid Center - Medical",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   134
+  ]
+ },
+ {
+  "code": "EM3-1a",
+  "name": "Emergency Aid Center - Welfare",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   135
+  ]
+ },
+ {
+  "code": "EM3-1b",
+  "name": "Emergency Aid Center - Registration",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   136
+  ]
+ },
+ {
+  "code": "EM3-1c",
+  "name": "Emergency Aid Center - Decontamination",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   137
+  ]
+ },
+ {
+  "code": "EM4-1",
+  "name": "Shelter Directional - Emergency",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   138
+  ]
+ },
+ {
+  "code": "EM4-1a",
+  "name": "Shelter Directional - Hurricane",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": [
+   139
+  ]
+ },
+ {
+  "code": "EM4-1b",
+  "name": "Shelter Directional - Fallout",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": []
+ },
+ {
+  "code": "EM4-1c",
+  "name": "Shelter Directional - Chemical",
+  "date": "8/29/2025",
+  "release": 5,
+  "file": "2024_SHS_Release_5-Guide_Signs.pdf",
+  "pages": []
+ }
+]

@@ -1,6 +1,7 @@
 """Build BOE manual pages from the City's navigation tree. Run before Astro."""
 from concurrent.futures import ThreadPoolExecutor
 from hashlib import sha256
+from datetime import datetime
 from html import escape
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, urldefrag, quote
@@ -79,22 +80,37 @@ def render(node, url, known):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--cache',type=Path,default=ROOT/'.boe-cache')
+    parser.add_argument('--use-snapshot-on-network-error',action='store_true')
     args=parser.parse_args()
     args.cache.mkdir(parents=True,exist_ok=True)
-    start=fetch(START,args.cache)
-    seed={urljoin(ORIGIN,u) for u in start.xpath('//a/@href') if re.match(r'^/e-\d',u) and included(u,'')}
-    if len(seed)<40:raise ValueError('City navigation is incomplete')
-    pages={}
-    todo=seed
-    while todo:
-        with ThreadPoolExecutor(max_workers=5) as pool:
-            for u,d in zip(sorted(todo),pool.map(lambda x:fetch(x,args.cache),sorted(todo))):
-                title=' '.join(d.xpath('string(//main//h1)').split())
-                pages[u]=(title,d)
-        todo={v for u in todo for v in children(pages[u][1],u)}-pages.keys()
+    try:
+        start=fetch(START,args.cache)
+        seed={urljoin(ORIGIN,u) for u in start.xpath('//a/@href') if re.match(r'^/e-\d',u) and included(u,'')}
+        if len(seed)<40:raise ValueError('City navigation is incomplete')
+        pages={}
+        todo=seed
+        while todo:
+            with ThreadPoolExecutor(max_workers=5) as pool:
+                for u,d in zip(sorted(todo),pool.map(lambda x:fetch(x,args.cache),sorted(todo))):
+                    title=' '.join(d.xpath('string(//main//h1)').split())
+                    pages[u]=(title,d)
+            todo={v for u in todo for v in children(pages[u][1],u)}-pages.keys()
+    except OSError as error:
+        if not args.use_snapshot_on_network_error:raise
+        from boe_snapshot import restore
+        restore(OUTPUT)
+        print(f'Live BOE refresh unavailable ({error}). Built from the reviewed snapshot.')
+        return
+    parents={}
+    for parent,(_,doc) in pages.items():
+        for child in children(doc,parent):
+            if child!=parent:parents.setdefault(child,parent)
     files={}
     catalog=[]
-    index=['---','title: "Los Angeles BOE Street Design Manual"','---','','City of Los Angeles Bureau of Engineering. Browse street-design provisions by chapter and section.','']
+    index=['---','title: "Los Angeles BOE Street Design Manual"','---','',
+           f'{len(pages)} City sections on street design. Search by subject or BOE section number, including subsections.','',
+           '<label for="boe-filter">Find a section</label> <input type="search" id="boe-filter" placeholder="E 550, intersection, access ramp…" autocomplete="off"><p id="boe-count" role="status"></p>','']
+    groups={}
     for u,(title,d) in sorted(pages.items(),key=lambda item:item[1][0]):
         body=d.xpath('//main//*[contains(@class,"field--name-description") or contains(@class,"field--name-body") or contains(@class,"field--name-field-document-file")]')
         child=list(dict.fromkeys(children(d,u)))
@@ -104,11 +120,29 @@ def main():
             nodes=d.xpath('//main//*[contains(@class,"region-content")]')
             if not nodes: raise ValueError('Unrecognized content template: '+u)
             text=''.join(render(n,u,pages) for n in nodes)
-        content=f'---\ntitle: {json.dumps(title)}\n---\n\n<a href="{escape(u)}">City of Los Angeles Bureau of Engineering · Official section</a>\n\n<div>'+text+'</div>\n'
+        breadcrumb=[]
+        if u in parents:
+            parent=parents[u]
+            breadcrumb.append(f'<a href="{BASE}/{slug(parent)}/">{escape(pages[parent][0])}</a>')
+        breadcrumb.insert(0,f'<a href="{BASE}/">Street Design Manual</a>')
+        nav='<nav class="boe-crumb" aria-label="Manual location">'+' <span aria-hidden="true">/</span> '.join(breadcrumb)+'</nav>'
+        revision=' '.join(d.xpath('string((//main//*[text()[contains(.,"Revised on")]])[1])').split())
+        stamp=re.search(r'Revised on (\d{1,2}-\d{1,2}-\d{4})',revision)
+        when=datetime.strptime(stamp[1],'%m-%d-%Y').strftime('%B %d, %Y').replace(' 0',' ') if stamp else ''
+        edition=' · City revision '+when if when else ''
+        content=f'---\ntitle: {json.dumps(title)}\n---\n\n{nav}\n\n<p class="boe-source"><a href="{escape(u)}">Official BOE section</a>{edition}</p>\n\n<div>'+text+'</div>\n'
         if links:content+='\n<ul>'+''.join(links)+'</ul>\n'
         files[slug(u)+'.md']=content
         catalog.append({'title':title, 'url':BASE+'/'+slug(u)+'/', 'source':u, 'sections':len(child), 'tables':sum(len(n.xpath('.//table')) for n in body), 'illustrations':sum(len(n.xpath('.//img')) for n in body)})
-        if u in seed:index.append(f'- [{title}]({BASE}/{slug(u)}/)')
+        top=u
+        visited=set()
+        while top in parents and top not in visited:
+            visited.add(top)
+            top=parents[top]
+        groups.setdefault(top,[]).append((title,u))
+    for top,entries in sorted(groups.items(),key=lambda pair:pages[pair[0]][0]):
+        items=''.join(f'<li><a href="{BASE}/{slug(v)}/">{escape(t)}</a></li>' for t,v in entries)
+        index.append(f'<details class="boe-group"><summary>{escape(pages[top][0])} <small>({len(entries)})</small></summary><ul>{items}</ul></details>')
     files['index.md']='\n'.join(index)+'\n'
     OUTPUT.mkdir(parents=True,exist_ok=True)
     for name,content in files.items():(OUTPUT/name).write_text(content)

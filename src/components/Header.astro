@@ -9,9 +9,9 @@ const path = Astro.url.pathname;
 const navItems = [
   { label: 'Details', href: `${BASE}/details/`, match: ['/details/', '/signs/', '/markings/', '/keywords/'] },
   { label: 'Topics', href: `${BASE}/topics/`, match: ['/topics/'] },
-  { label: 'CA MUTCD', href: `${BASE}/ca-mutcd/`, match: ['/ca-mutcd/', '/mutcd/'] },
+  { label: 'MUTCD', href: `${BASE}/ca-mutcd/`, match: ['/ca-mutcd/', '/mutcd/'] },
   { label: 'Caltrans', href: `${BASE}/caltrans/standard-plans-2026/`, match: ['/caltrans/', '/bulletins/'] },
-  { label: 'LA & Cities', href: `${BASE}/cities/`, match: ['/cities/', '/ladot/', '/burbank/', '/pasadena/', '/long-beach/', '/palmdale/', '/torrance/', '/gardena/', '/glendora/', '/santa-monica/', '/west-hollywood/', '/culver-city/'] },
+  { label: 'LA & Cities', href: `${BASE}/cities/`, match: ['/boe/', '/cities/', '/ladot/', '/burbank/', '/pasadena/', '/long-beach/', '/palmdale/', '/torrance/', '/gardena/', '/glendora/', '/santa-monica/', '/west-hollywood/', '/culver-city/'] },
   { label: 'Guides', href: `${BASE}/guides/`, match: ['/guides/', '/fhwa/', '/ada/', '/aashto/'] },
 ];
 
@@ -26,7 +26,7 @@ const isActive = (prefixes: string[]) => prefixes.some((p) => relPath === p || r
       <a
         href={item.href}
         class:list={['sss-navlink', { active: isActive(item.match) }]}
-        aria-current={isActive(item.match) ? 'page' : undefined}
+        aria-current={isActive(item.match) ? (path === item.href ? 'page' : 'location') : undefined}
       >
         {item.label}
       </a>

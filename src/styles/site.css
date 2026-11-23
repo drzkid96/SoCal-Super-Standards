@@ -730,3 +730,18 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
     scroll-margin-block-start:calc(var(--sl-nav-height,4rem) + 4rem);
   }
 }
+
+.city-shortcuts {display:grid;grid-template-columns:repeat(auto-fit,minmax(8rem,1fr));gap:.3rem .6rem}
+.city-shortcuts a {display:flex;align-items:center;min-height:2.5rem;padding:.25rem .5rem}
+.quick-lookup :is(a,button,input):focus-visible, .city-shortcuts a:focus-visible, .sheet-controls :focus-visible {outline:2px solid currentColor;outline-offset:2px}
+@media (prefers-reduced-motion:reduce) {html:focus-within {scroll-behavior:auto}}
+
+.sl-markdown-content .mgrid.sheet-deck {display:block;width:100%;max-width:none}
+.sl-markdown-content :is(.sgrid,.ql-box,.sp) [hidden] {display:none!important}
+.boe-crumb {display:flex;flex-wrap:wrap;gap:.3rem .6rem;font-size:.85rem}
+.sl-markdown-content .boe-source {margin-block:.5rem 1rem;color:var(--sl-color-gray-2);font-size:.85rem}
+#boe-filter {display:block;width:min(100%,35rem);min-height:2.6rem;padding:.4rem .7rem;border:1px solid var(--sl-color-gray-4);background:var(--sl-color-bg);color:inherit;border-radius:.4rem;font:inherit}
+.boe-group {border-block-end:1px solid var(--sl-color-gray-5);padding-block:.5rem}
+.boe-group summary {cursor:pointer;padding:.4rem .25rem;font-weight:650}
+.boe-group li {margin-block:.25rem}
+.boe-group[hidden],.boe-group li[hidden] {display:none!important}

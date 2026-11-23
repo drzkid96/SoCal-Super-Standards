@@ -10,7 +10,7 @@
  },
  {
   "num": "1A.02",
-  "title": "Traffic Control Devices \u2013 General Description",
+  "title": "Traffic Control Devices – General Description",
   "page": 56,
   "anchor": "1a02",
   "ca_changes": false,
@@ -46,7 +46,7 @@
  },
  {
   "num": "1A.06",
-  "title": "Uniform Vehicle Code \u2013 Rules of the Road",
+  "title": "Uniform Vehicle Code – Rules of the Road",
   "page": 59,
   "anchor": "1a06",
   "ca_changes": true,
@@ -1270,7 +1270,7 @@
  },
  {
   "num": "2C.05",
-  "title": "Horizontal Alignment Warning Signs \u2013 General",
+  "title": "Horizontal Alignment Warning Signs – General",
   "page": 310,
   "anchor": "2c05",
   "ca_changes": false,
@@ -3088,7 +3088,7 @@
  },
  {
   "num": "2F.12",
-  "title": "Toll Facility and Toll Plaza Guide Signs \u2013 General",
+  "title": "Toll Facility and Toll Plaza Guide Signs – General",
   "page": 615,
   "anchor": "2f12",
   "ca_changes": true,
@@ -3097,7 +3097,7 @@
  },
  {
   "num": "2F.13",
-  "title": "Electronic Toll Collection (ETC) Signs \u2013 General",
+  "title": "Electronic Toll Collection (ETC) Signs – General",
   "page": 616,
   "anchor": "2f13",
   "ca_changes": false,
@@ -3187,7 +3187,7 @@
  },
  {
   "num": "2G.03",
-  "title": "Regulatory Signs for Preferential Lanes \u2013 General",
+  "title": "Regulatory Signs for Preferential Lanes – General",
   "page": 645,
   "anchor": "2g03",
   "ca_changes": true,
@@ -3250,7 +3250,7 @@
  },
  {
   "num": "2G.10",
-  "title": "Preferential Lane Guide Signs \u2013 General",
+  "title": "Preferential Lane Guide Signs – General",
   "page": 653,
   "anchor": "2g10",
   "ca_changes": true,
@@ -3304,7 +3304,7 @@
  },
  {
   "num": "2G.16",
-  "title": "Signs for Managed Lanes \u2013 General",
+  "title": "Signs for Managed Lanes – General",
   "page": 659,
   "anchor": "2g16",
   "ca_changes": false,
@@ -3313,7 +3313,7 @@
  },
  {
   "num": "2G.17",
-  "title": "Signs for Priced Managed Lanes \u2013 General",
+  "title": "Signs for Priced Managed Lanes – General",
   "page": 659,
   "anchor": "2g17",
   "ca_changes": true,
@@ -3340,7 +3340,7 @@
  },
  {
   "num": "2G.20",
-  "title": "Signs for Part-Time Travel on a Shoulder \u2013 General",
+  "title": "Signs for Part-Time Travel on a Shoulder – General",
   "page": 662,
   "anchor": "2g20",
   "ca_changes": false,
@@ -4348,7 +4348,7 @@
  },
  {
   "num": "3B.14",
-  "title": "Raised Pavement Markers \u2013 General",
+  "title": "Raised Pavement Markers – General",
   "page": 877,
   "anchor": "3b14",
   "ca_changes": true,
@@ -4402,7 +4402,7 @@
  },
  {
   "num": "3B.20",
-  "title": "Word, Symbol, and Arrow Pavement Markings \u2013 General",
+  "title": "Word, Symbol, and Arrow Pavement Markings – General",
   "page": 882,
   "anchor": "3b20",
   "ca_changes": true,
@@ -5338,7 +5338,7 @@
  },
  {
   "num": "4E.01",
-  "title": "Signal Indications \u2013 Design, Illumination, Color, and Shape",
+  "title": "Signal Indications – Design, Illumination, Color, and Shape",
   "page": 1093,
   "anchor": "4e01",
   "ca_changes": false,
@@ -5356,7 +5356,7 @@
  },
  {
   "num": "4E.03",
-  "title": "Positions of Signal Indications Within a Signal Face \u2013 General",
+  "title": "Positions of Signal Indications Within a Signal Face – General",
   "page": 1094,
   "anchor": "4e03",
   "ca_changes": true,
@@ -5392,7 +5392,7 @@
  },
  {
   "num": "4F.02",
-  "title": "Signal Indications for Left-Turn Movements \u2013 General",
+  "title": "Signal Indications for Left-Turn Movements – General",
   "page": 1103,
   "anchor": "4f02",
   "ca_changes": false,
@@ -5455,7 +5455,7 @@
  },
  {
   "num": "4F.09",
-  "title": "Signal Indications for Right-Turn Movements \u2013 General",
+  "title": "Signal Indications for Right-Turn Movements – General",
   "page": 1110,
   "anchor": "4f09",
   "ca_changes": true,
@@ -5536,7 +5536,7 @@
  },
  {
   "num": "4F.18",
-  "title": "Preemption and Priority Control of Traffic Control Signals \u2013 General",
+  "title": "Preemption and Priority Control of Traffic Control Signals – General",
   "page": 1120,
   "anchor": "4f18",
   "ca_changes": true,
@@ -5563,7 +5563,7 @@
  },
  {
   "num": "4G.01",
-  "title": "Flashing Operation of Traffic Control Signals \u2013 General",
+  "title": "Flashing Operation of Traffic Control Signals – General",
   "page": 1141,
   "anchor": "4g01",
   "ca_changes": false,
@@ -5572,7 +5572,7 @@
  },
  {
   "num": "4G.02",
-  "title": "Flashing Operation \u2013 Transition Into Flashing Mode",
+  "title": "Flashing Operation – Transition Into Flashing Mode",
   "page": 1141,
   "anchor": "4g02",
   "ca_changes": false,
@@ -5581,7 +5581,7 @@
  },
  {
   "num": "4G.03",
-  "title": "Flashing Operation \u2013 Signal Indications During Flashing Mode",
+  "title": "Flashing Operation – Signal Indications During Flashing Mode",
   "page": 1141,
   "anchor": "4g03",
   "ca_changes": false,
@@ -5590,7 +5590,7 @@
  },
  {
   "num": "4G.04",
-  "title": "Flashing Operation \u2013 Transition Out of Flashing Mode",
+  "title": "Flashing Operation – Transition Out of Flashing Mode",
   "page": 1142,
   "anchor": "4g04",
   "ca_changes": false,
@@ -6318,6 +6318,15 @@
   "url": "/SoCal-Super-Standards/ca-mutcd/6b/#6b07"
  },
  {
+  "num": "6B.08",
+  "title": "Tapers",
+  "page": 1225,
+  "anchor": "6b08",
+  "ca_changes": true,
+  "chapter": "6B",
+  "url": "/SoCal-Super-Standards/ca-mutcd/6b/#6b08"
+ },
+ {
   "num": "6B.09",
   "title": "Detours and Diversions",
   "page": 1226,
@@ -6328,7 +6337,7 @@
  },
  {
   "num": "6C.01",
-  "title": "Pedestrian and Worker Safety \u2013 General",
+  "title": "Pedestrian and Worker Safety – General",
   "page": 1234,
   "anchor": "6c01",
   "ca_changes": true,
@@ -6436,7 +6445,7 @@
  },
  {
   "num": "6E.01",
-  "title": "One-Lane, Two-Way Traffic Control \u2013 General",
+  "title": "One-Lane, Two-Way Traffic Control – General",
   "page": 1245,
   "anchor": "6e01",
   "ca_changes": false,
@@ -7057,7 +7066,7 @@
  },
  {
   "num": "6I.01",
-  "title": "Guide Signs \u2013 General",
+  "title": "Guide Signs – General",
   "page": 1283,
   "anchor": "6i01",
   "ca_changes": true,
@@ -7129,7 +7138,7 @@
  },
  {
   "num": "6K.01",
-  "title": "Channelizing Devices \u2013 General",
+  "title": "Channelizing Devices – General",
   "page": 1293,
   "anchor": "6k01",
   "ca_changes": true,
@@ -7246,7 +7255,7 @@
  },
  {
   "num": "6L.02",
-  "title": "Automated Flagger Assistance Devices \u2013 General",
+  "title": "Automated Flagger Assistance Devices – General",
   "page": 1307,
   "anchor": "6l02",
   "ca_changes": false,
@@ -7597,7 +7606,7 @@
  },
  {
   "num": "6O.101(CA)",
-  "title": "FLOODING AHEAD TURN AROUND DON\u2019T DROWN W86(CA) Sign",
+  "title": "FLOODING AHEAD TURN AROUND DON’T DROWN W86(CA) Sign",
   "page": 1343,
   "anchor": "6o101ca",
   "ca_changes": true,
@@ -8371,7 +8380,7 @@
  },
  {
   "num": "8E.05",
-  "title": "Passive Traffic Control Devices\u2013 Crossbuck Assemblies",
+  "title": "Passive Traffic Control Devices– Crossbuck Assemblies",
   "page": 1567,
   "anchor": "8e05",
   "ca_changes": false,
@@ -8398,7 +8407,7 @@
  },
  {
   "num": "8E.08",
-  "title": "Active Traffic Control Devices \u2013 Signals",
+  "title": "Active Traffic Control Devices – Signals",
   "page": 1569,
   "anchor": "8e08",
   "ca_changes": true,
@@ -8407,7 +8416,7 @@
  },
  {
   "num": "8E.09",
-  "title": "Active Traffic Control Devices \u2013 Automatic Pedestrian Gates",
+  "title": "Active Traffic Control Devices – Automatic Pedestrian Gates",
   "page": 1570,
   "anchor": "8e09",
   "ca_changes": true,
@@ -8416,7 +8425,7 @@
  },
  {
   "num": "8E.10",
-  "title": "Active Traffic Control Devices \u2013 Multiple-Track Pathway or Sidewalk Grade Crossings",
+  "title": "Active Traffic Control Devices – Multiple-Track Pathway or Sidewalk Grade Crossings",
   "page": 1571,
   "anchor": "8e10",
   "ca_changes": false,
@@ -9079,5 +9088,68 @@
   "ca_changes": false,
   "chapter": "9F",
   "url": "/SoCal-Super-Standards/ca-mutcd/9f/#9f03"
+ },
+ {
+  "num": "2B.04",
+  "title": "STOP Sign (R1-1) and ALL-WAY Plaque (R1-3P)",
+  "page": 157,
+  "anchor": "2b04",
+  "ca_changes": true,
+  "chapter": "2B",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2b/#2b04"
+ },
+ {
+  "num": "2D.39",
+  "title": "Destination Signs at Circular Intersections",
+  "page": 409,
+  "anchor": "2d39",
+  "ca_changes": false,
+  "chapter": "2D",
+  "url": "/SoCal-Super-Standards/ca-mutcd/2d/#2d39"
+ },
+ {
+  "num": "5B.03",
+  "title": "Highway Traffic Signals",
+  "page": 1211,
+  "anchor": "5b03",
+  "ca_changes": true,
+  "chapter": "5B",
+  "url": "/SoCal-Super-Standards/ca-mutcd/5b/#5b03"
+ },
+ {
+  "num": "5B.05",
+  "title": "Traffic Control for Highway-Rail and Highway-Light Rail Transit Grade Crossings",
+  "page": 1212,
+  "anchor": "5b05",
+  "ca_changes": false,
+  "chapter": "5B",
+  "url": "/SoCal-Super-Standards/ca-mutcd/5b/#5b05"
+ },
+ {
+  "num": "5B.04",
+  "title": "Temporary Traffic Control",
+  "page": 1212,
+  "anchor": "5b04",
+  "ca_changes": true,
+  "chapter": "5B",
+  "url": "/SoCal-Super-Standards/ca-mutcd/5b/#5b04"
+ },
+ {
+  "num": "5B.02",
+  "title": "Markings",
+  "page": 1211,
+  "anchor": "5b02",
+  "ca_changes": true,
+  "chapter": "5B",
+  "url": "/SoCal-Super-Standards/ca-mutcd/5b/#5b02"
+ },
+ {
+  "num": "5B.06",
+  "title": "Traffic Control for Bicycle Facilities",
+  "page": 1213,
+  "anchor": "5b06",
+  "ca_changes": false,
+  "chapter": "5B",
+  "url": "/SoCal-Super-Standards/ca-mutcd/5b/#5b06"
  }
 ]

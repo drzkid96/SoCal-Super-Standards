@@ -111,10 +111,10 @@
           </div>
 
           <div style="border:1px solid var(--fp-grid,#E7E8E8);border-radius:10px;padding:0.65rem;background:#fff">
-            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">2. ADA Curb Ramp Run (Caltrans A88A)</strong>
+            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">2. Curb ramp horizontal run</strong>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;margin-bottom:0.45rem">
-              <label>Curb Ht (in)<input id="c-ch" type="number" value="6" min="2" max="12" step="0.5" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
-              <label>Slope (%)<input id="c-sl" type="number" value="7.5" min="4" max="8.33" step="0.25" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+              <label>Curb Ht (in)<input id="c-ch" type="number" value="6" min="0.01" step="any" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+              <label>Slope (%)<input id="c-sl" type="number" value="7.5" min="0.01" step="any" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
             </div>
             <div id="c-ramp-out" style="background:var(--fp-band,#F2F2F2);padding:0.45rem 0.55rem;border-radius:6px;line-height:1.45"></div>
           </div>
@@ -133,9 +133,9 @@
           </div>
 
           <div style="border:1px solid var(--fp-grid,#E7E8E8);border-radius:10px;padding:0.65rem;background:#fff">
-            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">4. Red Curb &amp; Stopping Sight Dist.</strong>
+            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">4. Level-road stopping sight distance</strong>
             <div style="display:grid;grid-template-columns:1fr;gap:0.4rem;margin-bottom:0.45rem">
-              <label>Approach Speed (mph)<input id="c-ssd-v" type="number" value="35" min="15" max="65" step="5" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
+              <label>Approach Speed (mph)<input id="c-ssd-v" type="number" value="35" min="20" max="75" step="5" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
             </div>
             <div id="c-ssd-out" style="background:var(--fp-band,#F2F2F2);padding:0.45rem 0.55rem;border-radius:6px;line-height:1.45"></div>
             <p style="margin:0.4rem 0 0;font-size:0.74rem"><a href="${BASE}/ladot/curb-paint/">Full LADOT S-481.0 Red Curb Calculator &rarr;</a></p>
@@ -174,11 +174,11 @@
       <a href="https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/2026-camutcd-2026-6b-a11y.pdf#page=13">Taper criteria</a> · <a href="${BASE}/ca-mutcd/6k/#6k01">Device spacing</a>`
       : 'Enter a positive lateral offset and a listed speed.';
     // 2. ADA Curb Ramp Run
-    const ch = Math.max(1, Number($('#c-ch')?.value) || 6);
-    const sl = Math.min(8.33, Math.max(2, Number($('#c-sl')?.value) || 7.5));
-    const runFt = ((ch / 12) / (sl / 100)).toFixed(1);
-    const minRunFt = ((ch / 12) / 0.0833).toFixed(1);
-    $('#c-ramp-out').innerHTML = `Design run @ ${sl}%: <b>${runFt} ft</b> (8.33% abs min: <b>${minRunFt} ft</b>)<br>Landing: <b>4 ft min</b> (2% max) · Flare: <b>10% max</b>`;
+    const run = window.SSSCalculations.rampRun(input('#c-ch'), input('#c-sl'));
+    $('#c-ramp-out').innerHTML = run === null ? 'Enter a positive rise and slope.' :
+      `Horizontal run <b>${run.toFixed(2)} ft</b>. Landing length is additional.
+      <a href="https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ramps/">Ramp and landing criteria</a> ·
+      <a href="${BASE}/santa-monica/standard-plans/">Santa Monica design criteria</a>`;
 
     const detector = $('#c-start').value === 'detector';
     $('#c-offset-label').hidden = !detector;
@@ -189,9 +189,10 @@
       <a href="${BASE}/ca-mutcd/4i/#4i06">CA MUTCD §4I.06</a>`
       : 'Enter a positive distance and clearance speed up to 3.5 ft/s, a whole WALK of at least 4 s, a whole buffer of at least 2 s and a nonnegative offset.';
     // 4. Red Curb / SSD
-    const v = Math.max(15, Number($('#c-ssd-v')?.value) || 35);
-    const ssd = Math.round(1.47 * v * 2.5 + (v * v) / (30 * 0.348));
-    $('#c-ssd-out').innerHTML = `Stopping Sight Distance: <b>${ssd} ft</b><br>CA AB 413 Daylighting: <b>20 ft</b> min (<b>15 ft</b> w/ curb ext.)`;
+    const distance = window.SSSCalculations.levelRoadSightDistance(input('#c-ssd-v'));
+    $('#c-ssd-out').innerHTML = distance === null ? 'Choose a speed from 20 to 75 mph in 5 mph increments.' :
+      `Stopping sight distance <b>${distance} ft</b> on a level road.
+      <a href="${BASE}/ca-mutcd/6b/#6b06">CA MUTCD §6B.06, Table 6B-2</a>`;
   }
 
   function evalArith(commit) {
