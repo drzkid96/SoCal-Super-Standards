@@ -5,6 +5,8 @@ sidebar:
   order: 11
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/temporary-traffic-control.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/temporary-traffic-control.webp" alt="Work-Zone Temporary Traffic Control (TCP)" /></a><figcaption><strong>Work-Zone Temporary Traffic Control (TCP)</strong> <em>Arterial lane closure taper with orange cones, advance warning signs &amp; arrow board · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">Work zones, closures, detours, tapers, channelizing devices and pedestrian and bicycle accommodation through work zones.</div>
 
 

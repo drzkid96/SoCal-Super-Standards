@@ -5,6 +5,8 @@ sidebar:
   order: 5
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/transit.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/transit.webp" alt="Transit Priority &amp; Bus Stops" /></a><figcaption><strong>Transit Priority &amp; Bus Stops</strong> <em>Red-painted dedicated bus-only lane with concrete boarding pad and shelter · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">Preferential and bus-only lanes, red transit lanes, bus bulbs and stops, queue jumps, transit signals and light rail.</div>
 
 

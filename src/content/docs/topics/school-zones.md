@@ -5,6 +5,8 @@ sidebar:
   order: 3
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/school-zones.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/school-zones.webp" alt="School Crossings &amp; Zones" /></a><figcaption><strong>School Crossings &amp; Zones</strong> <em>Yellow high-visibility school crosswalk, fluorescent yellow-green pentagon signs &amp; crossing guard · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">School area signs, school speed limits, school crosswalks, crossing guards and pick-up/drop-off areas.</div>
 
 

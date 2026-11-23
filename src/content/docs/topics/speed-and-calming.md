@@ -5,6 +5,8 @@ sidebar:
   order: 7
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/speed-and-calming.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/speed-and-calming.webp" alt="Neighborhood Traffic Calming" /></a><figcaption><strong>Neighborhood Traffic Calming</strong> <em>Parabolic asphalt speed hump with white chevrons &amp; landscaped traffic circle · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">Speed limit signs and speed zones, school and senior speed limits, speed humps, speed tables, traffic circles and roundabouts, and narrowed roadways.</div>
 
 

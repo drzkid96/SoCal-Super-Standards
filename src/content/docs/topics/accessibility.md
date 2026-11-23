@@ -5,6 +5,8 @@ sidebar:
   order: 2
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/accessibility.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/accessibility.webp" alt="ADA Curb Ramps &amp; Accessible Routes" /></a><figcaption><strong>ADA Curb Ramps &amp; Accessible Routes</strong> <em>Directional concrete curb ramp with yellow detectable warning surface &amp; APS pole · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">Curb ramps, detectable warnings, accessible pedestrian routes in work zones, accessible pedestrian signals and accessible parking.</div>
 
 

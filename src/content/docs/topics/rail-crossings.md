@@ -5,6 +5,8 @@ sidebar:
   order: 12
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/rail-crossings.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/rail-crossings.webp" alt="Railroad &amp; Light-Rail (LRT) Grade Crossings" /></a><figcaption><strong>Railroad &amp; Light-Rail (LRT) Grade Crossings</strong> <em>At-grade light rail crossing with automatic gates, flashing red lights &amp; limit lines · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">Grade crossing signs, markings and signals, and light rail transit crossings.</div>
 
 

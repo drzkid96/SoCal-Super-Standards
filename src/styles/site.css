@@ -616,6 +616,14 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .vis-card span { padding: .45rem .55rem; font-size: .74rem; color: #5b584d; line-height: 1.3; }
 .vis-card b { display: block; font-size: .82rem; color: var(--sss-green); margin-bottom: .1rem; }
 
+/* ---------- representative street-level context banner ---------- */
+.vibe-hero { margin: 0 0 1.15rem; border: 1px solid #e3dccb; border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 3px 10px rgba(80,60,20,.05); }
+.vibe-hero a { display: block; line-height: 0; }
+.vibe-hero img { width: 100%; max-height: 260px; object-fit: cover; object-position: center; display: block; }
+.vibe-hero figcaption { padding: .48rem .75rem; font-size: .78rem; color: #5b584d; background: #fbf9f4; border-top: 1px solid #eee5d3; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .35rem; }
+.vibe-hero figcaption strong { color: var(--sss-green); }
+.vibe-hero figcaption em { font-style: normal; opacity: .82; }
+
 /* ---------- clean print / PDF export ---------- */
 @media print {
   .sss-topbar, .sss-seqbar, .sss-pager, .sss-sheetbar, .to-top, .read-bar, .sp, .ai-explain, .sss-lb, .sfilter, .dx-filters { display: none !important; }

@@ -5,6 +5,8 @@ sidebar:
   order: 1
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/crosswalks.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/crosswalks.webp" alt="High-Visibility Pedestrian Crossings" /></a><figcaption><strong>High-Visibility Pedestrian Crossings</strong> <em>Continental crosswalk bars and curb-extension bulb-out at an urban corner · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">Marking, signing and controlling pedestrian crossings: crosswalk patterns, uncontrolled crossings, RRFBs, PHBs, raised crosswalks, limit lines and advance yield lines.</div>
 
 

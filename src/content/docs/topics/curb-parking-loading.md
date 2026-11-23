@@ -5,6 +5,8 @@ sidebar:
   order: 6
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/curb-parking-loading.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/curb-parking-loading.webp" alt="Curb Paint, Daylighting &amp; Parking Zones" /></a><figcaption><strong>Curb Paint, Daylighting &amp; Parking Zones</strong> <em>Red no-parking daylighting zone transitioning to metered parallel stalls · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">Curb paint colors, parking stalls, loading and passenger zones, no-parking and tow-away signs, shared mobility zones, meters and accessible parking.</div>
 <p><a class="ai-btn" href="/SoCal-Super-Standards/ladot/curb-paint/">LADOT curb paint, red curb distances and the S-481.0 calculator</a></p>
 

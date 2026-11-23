@@ -5,6 +5,8 @@ sidebar:
   order: 4
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/bikeways.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/bikeways.webp" alt="Separated &amp; Buffered Bikeways" /></a><figcaption><strong>Separated &amp; Buffered Bikeways</strong> <em>Class IV parking-protected green bikeway with vertical delineators · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">Bike lanes, separated bikeways (Class IV), buffered and green-colored lanes, bike boxes, two-stage turn queue boxes, shared lane markings, bike signals and bicycle signs.</div>
 
 

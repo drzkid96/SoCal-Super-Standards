@@ -5,6 +5,8 @@ sidebar:
   order: 9
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/striping-intersections.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/striping-intersections.webp" alt="Lane Lines, Arrows &amp; Intersection Striping" /></a><figcaption><strong>Lane Lines, Arrows &amp; Intersection Striping</strong> <em>Arterial dashed lane lines, double-yellow centerline &amp; left-turn pocket arrows · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">Longitudinal markings, centerlines and lane lines, channelization, turn lanes, words and arrows, dotted extension lines and pavement marking materials.</div>
 <p><a class="ai-btn" href="/SoCal-Super-Standards/markings/line-types/">Line Type Database: every Caltrans striping detail</a></p>
 

@@ -5,6 +5,8 @@ sidebar:
   order: 10
 ---
 
+<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/street-name-and-guide-signs.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/street-name-and-guide-signs.webp" alt="Street Name, Regulatory &amp; Guide Signs" /></a><figcaption><strong>Street Name, Regulatory &amp; Guide Signs</strong> <em>Overhead mast-arm street name blade, route wayfinding &amp; roadside regulatory signs · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
+
 <div class="topic-intro">Street name signs, overhead and mastarm-mounted name signs, advance street name signs, guide and wayfinding signs.</div>
 
 
