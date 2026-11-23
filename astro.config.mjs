@@ -147,7 +147,6 @@ export default defineConfig({
           ...cityAgencyDocs,
           { label: 'LADOT (12 Manuals & Drawings)', collapsed: true, items: [
             { label: 'All LADOT Documents', link: '/ladot/' },
-            { label: 'MPP 531 Redrawn Gallery', link: '/ladot/mpp-details/' },
             ...ladotDocs,
           ] },
         ] },

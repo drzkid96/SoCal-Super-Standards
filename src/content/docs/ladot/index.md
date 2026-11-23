@@ -7,7 +7,7 @@ tableOfContents: false
 <figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/transit.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/transit.webp" alt="City of Los Angeles (LADOT) Standards" /></a><figcaption><strong>City of Los Angeles (LADOT) Standards</strong> <em>MPP 531, MPP 521, Red Book, Complete Streets, Mobility Plan 2035 &amp; 2028 Games</em></figcaption></figure>
 
 <div class="vis-strip">
-  <a class="vis-card" href="/SoCal-Super-Standards/ladot/mpp-details/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0108.webp" alt="MPP 531 · S-481.0" /><span><b>MPP 531 · S-481.0</b>Uncontrolled crosswalks &amp; red curb</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-481-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0108.webp" alt="MPP 531 · S-481.0" /><span><b>MPP 531 · S-481.0</b>Uncontrolled crosswalks &amp; red curb</span></a>
   <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-483-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0113.webp" alt="MPP 531 · S-483.0" /><span><b>MPP 531 · S-483.0</b>Speed hump &amp; calming</span></a>
   <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-485-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0120.webp" alt="MPP 531 · S-485.0" /><span><b>MPP 531 · S-485.0</b>Lane reduction &amp; road diets</span></a>
   <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-487-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0123.webp" alt="MPP 531 · S-487.0" /><span><b>MPP 531 · S-487.0</b>Exclusive bus lane markings</span></a>
@@ -19,7 +19,7 @@ tableOfContents: false
 
 Every page of every LADOT document is here: native text where the PDF has it, OCR where it is a scan or outlined CAD text, and a sharpened image of every drawing or figure page. Sign codes link to the [Sign Library](/SoCal-Super-Standards/signs/) and MUTCD section references link to the manuals. Search (Ctrl+K) covers all of it, OCR text included.
 
-<p><a class="ai-btn" href="/SoCal-Super-Standards/ladot/curb-paint/">LADOT curb paint &amp; S-481.0 calculator</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/ladot/mpp-details/">MPP drawings, redrawn</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/bulletins/">LADOT policy memos &amp; bulletins</a></p>
+<p><a class="ai-btn" href="/SoCal-Super-Standards/ladot/curb-paint/">LADOT curb paint &amp; S-481.0 calculator</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?agency=LADOT">All LADOT standard drawings</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/bulletins/">LADOT policy memos &amp; bulletins</a></p>
 
 ## Documents
 

@@ -14,7 +14,7 @@ SETPAGE = re.compile(r"^(signs|markings)/|curb-paint|line-types|keywords", re.I)
 
 def rel_img(u):
     p = u.replace(BASE, "", 1)
-    if p.startswith("/figs/") or p.startswith("/redraw/"):   # prefer the light thumbnail when there is one
+    if p.startswith("/figs/"):   # prefer the light thumbnail when there is one
         for t in ("/thumbs" + p, "/thumbs" + re.sub(r"\.svg$", ".webp", p)):
             if os.path.exists("public" + t):
                 p = t

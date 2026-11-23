@@ -7,7 +7,7 @@ sidebar:
 
 <div class="mgrid">
   <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0019.webp" alt="Caltrans 2026 A88A" /></a><figcaption><strong>Caltrans 2026 A88A</strong><br><small>ADA curb ramp alignment at crossings</small></figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-493-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-493-0-s1.webp" alt="LADOT S-493.0" /></a><figcaption><strong>LADOT S-493.0</strong><br><small>Limit line & crosswalk setback</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0127.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0127.webp" alt="LADOT S-493.0" /></a><figcaption><strong>LADOT S-493.0</strong><br><small>Limit line & crosswalk setback</small></figcaption></figure>
   <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R1-5.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R1-5.svg" alt="Sign R1-5" /></a><figcaption><strong>Sign R1-5</strong><br><small>Yield Here to Pedestrians</small></figcaption></figure>
 </div>
 

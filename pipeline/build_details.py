@@ -66,11 +66,6 @@ for c in cfg:
         if p["image"] and p["drawings"] and not c.get("refs_only"):
             groups.setdefault(p["drawings"][0], []).append(p)
     doc_slug = slugify(c["short"])
-    rd = {}
-    rdp = f"data/docs/redraw_{c['slug'].split('/')[-1]}.json"
-    if os.path.exists(rdp):
-        for r_ in json.load(open(rdp)):
-            rd[r_["page"]] = r_
     order = sorted(groups, key=lambda k: [int(x) for x in re.findall(r"\d+", k)])
     for i, k in enumerate(order):
         sheets = groups[k]
@@ -95,23 +90,18 @@ for c in cfg:
         next_l = f'<a href="{BASE}/details/{ag}/{doc_slug}-{slugify(order[i+1])}/">{esc(order[i+1])} &rarr;</a>' if i + 1 < len(order) else ""
         sheet_html = ""
         for j, p in enumerate(sheets, 1):
-            red = rd.get(p["page"])
             c_notes = clean_notes((p.get("clean") or {}).get("notes", ""))
             raw_notes = "" if (p.get("clean") or {}).get("notes") is not None else clean_notes(p.get("text", "")[:5000])
             if c_notes:
-                notes_blk = f'<details class="ocr"><summary>Sheet notes</summary>{notes_html(c_notes)}</details>\n'
+                notes_blk = f'<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>{notes_html(c_notes)}</details>\n'
             elif raw_notes:
-                notes_blk = f'<details class="ocr"><summary>Sheet text</summary><p>{esc(raw_notes)}</p></details>\n'
+                notes_blk = f'<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>{esc(raw_notes)}</p></details>\n'
             else:
                 notes_blk = ""
             sh_head = f'\n### Sheet {j} of {len(sheets)} (page {p["page"]})\n\n' if len(sheets) > 1 else "\n"
             sheet_html += (sh_head +
-                           (f'<figure class="dfig redraw"><a href="{red["svg"]}"><img loading="lazy" src="{red["svg"]}" alt="{esc(k)} sheet {j}, redrawn"></a>'
-                            f'<figcaption>Redrawn reference diagram. Original LADOT sheet below.</figcaption></figure>'
-                            f'<details class="orig"><summary>Original LADOT sheet</summary>' if red else "") +
                            f'<figure class="dfig"><a href="{p["image"]}"><img loading="lazy" src="{p["image"]}" alt="{esc(k)} sheet {j}"></a>'
-                           f'<figcaption>{esc(c["short"])} {esc(k)}, sheet {j}. <a href="{p["url"]}">Open in the document</a>.</figcaption></figure>\n'
-                           f'{"</details>" if red else ""}' + notes_blk)
+                           f'<figcaption>{esc(c["short"])} {esc(k)}, sheet {j}. <a href="{p["url"]}">Open in the document</a>.</figcaption></figure>\n' + notes_blk)
         sign_html = "".join(f'<a class="tsign sref" href="{BASE}/signs/{signs[x]["slug"]}/" data-svg="{BASE}{signs[x]["svg"]}"><img loading="lazy" src="{BASE}{signs[x]["svg"]}" alt="{esc(x)}"><span><b>{esc(x)}</b> {esc(signs[x]["descriptor"][:40])}</span></a>' for x in codes if x in signs)
         sec_html = ", ".join(f'<a href="{ca_secs[x]["url"]}">CA MUTCD {esc(x)} {esc(ca_secs[x]["title"][:60])}</a>' for x in secs if x in ca_secs)
         sheet_word = "sheet" if len(sheets) == 1 else "sheets"

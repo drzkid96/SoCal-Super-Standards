@@ -191,11 +191,6 @@ function init() {
   });
   NAV_MAP.set('ladot/curb-paint', {
     up: { label: 'LADOT Standards', href: `${BASE}/ladot/` },
-    next: { label: 'MPP Redrawn Gallery', href: `${BASE}/ladot/mpp-details/` },
-  });
-  NAV_MAP.set('ladot/mpp-details', {
-    prev: { label: 'Curb Paint & Red Curb', href: `${BASE}/ladot/curb-paint/` },
-    up: { label: 'LADOT Standards', href: `${BASE}/ladot/` },
   });
 }
 

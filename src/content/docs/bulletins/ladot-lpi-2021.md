@@ -28,8 +28,8 @@ If one crosswalk gets an LPI, give the parallel crosswalk one too; perpendicular
 <!-- LADOT-LPI-TYPES -->
 <div class="type-gallery">
   <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R10-15.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R10-15.svg" alt="No Turn on Red — R10-11 / R10-15 Pairing" /></a><figcaption><span class="type-badge">No Turn on Red</span><br><strong>R10-11 / R10-15 Pairing</strong><br><small>Turning Vehicles Yield to Pedestrians sign</small></figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-481-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-481-1-s1.webp" alt="Continental Xwalk — LADOT S-481.1" /></a><figcaption><span class="type-badge">Continental Xwalk</span><br><strong>LADOT S-481.1</strong><br><small>High-visibility continental bars at LPI signals</small></figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-493-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-493-0-s1.webp" alt="Stop Bar Setback — LADOT S-493.0" /></a><figcaption><span class="type-badge">Stop Bar Setback</span><br><strong>LADOT S-493.0</strong><br><small>5 ft min stop-bar setback for ped visibility</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0112.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0112.webp" alt="Continental Xwalk — LADOT S-481.1" /></a><figcaption><span class="type-badge">Continental Xwalk</span><br><strong>LADOT S-481.1</strong><br><small>High-visibility continental bars at LPI signals</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0127.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0127.webp" alt="Stop Bar Setback — LADOT S-493.0" /></a><figcaption><span class="type-badge">Stop Bar Setback</span><br><strong>LADOT S-493.0</strong><br><small>5 ft min stop-bar setback for ped visibility</small></figcaption></figure>
 </div>
 
 

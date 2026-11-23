@@ -114,7 +114,7 @@ for path in root.rglob('*.md'):
  if 'class="dwg-head"' in s:
   signs=re.search(r'<h2>Signs on this drawing</h2><div class="tsigns">.*?</div>',s,re.S)
   if signs:s=s[:signs.start()]+s[signs.end():]+'\n\n'+signs[0]+'\n'
-  s=re.sub(r'(<figure class="dfig redraw">.*?</figure>)<details class="orig"><summary>.*?</summary>(<figure class="dfig">.*?</figure>)\s*</details>',r'\2<details><summary>Redrawn reference diagram</summary>\1</details>',s,flags=re.S)
+  # Original official LADOT sheets are rendered directly (MPP redraws removed).
   scans=re.findall(r'<figure class="dfig"><a href="([^"]+)"',s)
   drawer=re.search(r'<span class="dwg-num">([^<]+)</span><span class="dwg-src">([^<]+)</span>',s)
   if drawer and scans:

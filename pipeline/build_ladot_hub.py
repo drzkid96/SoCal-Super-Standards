@@ -32,7 +32,7 @@ tableOfContents: false
 
 Every page of every LADOT document is here: native text where the PDF has it, OCR where it is a scan or outlined CAD text, and a sharpened image of every drawing or figure page. Sign codes link to the [Sign Library]({BASE}/signs/) and MUTCD section references link to the manuals. Search (Ctrl+K) covers all of it, OCR text included.
 
-<p><a class="ai-btn" href="{BASE}/ladot/curb-paint/">LADOT curb paint &amp; S-481.0 calculator</a> <a class="ai-btn ghost" href="{BASE}/ladot/mpp-details/">MPP drawings, redrawn</a> <a class="ai-btn ghost" href="{BASE}/bulletins/">LADOT policy memos &amp; bulletins</a></p>
+<p><a class="ai-btn" href="{BASE}/ladot/curb-paint/">LADOT curb paint &amp; S-481.0 calculator</a> <a class="ai-btn ghost" href="{BASE}/details/?agency=LADOT">All LADOT standard drawings</a> <a class="ai-btn ghost" href="{BASE}/bulletins/">LADOT policy memos &amp; bulletins</a></p>
 
 ## Documents
 
