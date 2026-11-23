@@ -28,6 +28,16 @@ sidebar:
 
 <div class="rel-grid"><a class="rel-card" href="/SoCal-Super-Standards/bulletins/ladot-accessible-parking-2017/"><span class="rel-k">LADOT bulletins</span><strong>Accessible Parking Zones: Accessible Parking Zones: Basic Placement Facts</strong><span>Blue curb and on-street accessible parking placement</span></a><a class="rel-card" href="/SoCal-Super-Standards/bulletins/prowag-2023/"><span class="rel-k">Accessibility guidance</span><strong>PROWAG: Public Right-of-Way Accessibility Guidelines (36 CFR 1190)</strong><span>Sidewalks, curb ramps, detectable warnings, accessible pedestrian signals, on-street parking, transit stops</span></a><a class="rel-card" href="/SoCal-Super-Standards/bulletins/ca-accessible-parking-2026/"><span class="rel-k">Accessibility guidance</span><strong>CBC 11B (2025): California Building Code Chapter 11B: Accessible Parking Signs</strong><span>Off-street (site) accessible parking signs and markings</span></a></div>
 
+<!-- TOPIC-TYPES-CURB-PARKING-LOADING -->
+## Curb, Parking & Loading Zone Types (Visual Guide)
+
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-404-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-404-1-s1.webp" alt="Parallel Stalls — On-Street Parallel Parking" /></a><figcaption><span class="type-badge">Parallel Stalls</span><br><strong>On-Street Parallel Parking</strong><br><small>Stall length, end clearances &amp; T/L markings (LADOT S-404.1)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-440-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-440-0-s1.webp" alt="Angle Parking — Head-In / Back-In Angle Stalls" /></a><figcaption><span class="type-badge">Angle Parking</span><br><strong>Head-In / Back-In Angle Stalls</strong><br><small>45°/60° stall geometry &amp; aisle depth (LADOT S-440.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0022.webp" alt="Accessible Curb — On-Street Blue Zone (ADA)" /></a><figcaption><span class="type-badge">Accessible Curb</span><br><strong>On-Street Blue Zone (ADA)</strong><br><small>Sidewalk-level access aisle &amp; curb ramp pairing (Caltrans A90B)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p64-parklets.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p64-parklets.webp" alt="Parklets &amp; Dining — Curbside Parklets &amp; Loading" /></a><figcaption><span class="type-badge">Parklets &amp; Dining</span><br><strong>Curbside Parklets &amp; Loading</strong><br><small>Platform slope, wheel stops &amp; buffer barriers (Culver City CSDS)</small></figcaption></figure>
+</div>
+
 ## The rules
 
 CA MUTCD 2026 governs in California. Each row shows the section's first Standard (or Guidance, when there is no Standard), how many shall, should and may provisions it has, and the matching federal section. Open a section and use the **Ask AI** tab in the right-side **Tools** drawer to compare CA and federal differences.

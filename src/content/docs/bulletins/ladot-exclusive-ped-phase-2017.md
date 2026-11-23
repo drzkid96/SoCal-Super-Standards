@@ -20,6 +20,14 @@ description: "LADOT CSC Exclusive Pedestrian Phase (January 2017). Scramble phas
 
 ## Design
 
+<!-- LADOT-EPP-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0013.webp" alt="Scramble Crosswalk — Continental &amp; Diagonal Crossing" /></a><figcaption><span class="type-badge">Scramble Crosswalk</span><br><strong>Continental &amp; Diagonal Crossing</strong><br><small>Crosswalk bar geometry (Caltrans A24F)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-481-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-481-1-s1.webp" alt="Controlled Xwalk — LADOT S-481.1" /></a><figcaption><span class="type-badge">Controlled Xwalk</span><br><strong>LADOT S-481.1</strong><br><small>Controlled-approach continental crosswalks</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-493-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-493-0-s1.webp" alt="Setback Geometry — LADOT S-493.0" /></a><figcaption><span class="type-badge">Setback Geometry</span><br><strong>LADOT S-493.0</strong><br><small>Limit line &amp; crosswalk setback at signals</small></figcaption></figure>
+</div>
+
+
 - NO TURN ON RED is required on all approaches.
 - Diagonal crossings are optional; leaving them out may make sense where the diagonal would be over 100 ft.
 - If conflicts are limited to one or two legs (for example a one-way street), consider protected turns or an LPI instead.

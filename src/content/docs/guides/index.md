@@ -17,6 +17,15 @@ tableOfContents: false
 
 ## Full Documents on This Site (Complete Text &amp; Figures)
 
+<!-- GUIDES-INDEX-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0023.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/fhwa/step-uncontrolled-crossings/p0023.webp" alt="FHWA STEP — Table 1 Countermeasure Matrix" /></a><figcaption><span class="type-badge">FHWA STEP</span><br><strong>Table 1 Countermeasure Matrix</strong><br><small>Speed/ADT/lane crossing treatment chart (FHWA STEP)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-82-06/fig-4-3-8-1-running-slope.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-82-06/fig-4-3-8-1-running-slope.webp" alt="ADA Ch. 4 — Curb Ramp &amp; Slope Diagrams" /></a><figcaption><span class="type-badge">ADA Ch. 4</span><br><strong>Curb Ramp &amp; Slope Diagrams</strong><br><small>U.S. Access Board ADA accessibility geometry</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-5a-bike-selection.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-5a-bike-selection.webp" alt="Caltrans DIB 94 — Complete Streets &amp; Bike Selection" /></a><figcaption><span class="type-badge">Caltrans DIB 94</span><br><strong>Complete Streets &amp; Bike Selection</strong><br><small>Contextual lane widths &amp; bikeway classes</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/fig-1-protected-intersection.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/fig-1-protected-intersection.webp" alt="NACTO / AASHTO — Protected Intersections &amp; Calming" /></a><figcaption><span class="type-badge">NACTO / AASHTO</span><br><strong>Protected Intersections &amp; Calming</strong><br><small>Bikeway &amp; urban street design treatments</small></figcaption></figure>
+</div>
+
+
 <div class="tcards">
   <a class="tcard" href="/SoCal-Super-Standards/fhwa/step-uncontrolled-crossings/">
     <span class="status-pill full">Full Document + Figures</span>

@@ -12,6 +12,17 @@ tableOfContents: false
 
 ## Key Design Values &amp; Governing California Crosswalk
 
+<!-- NACTO-STREET-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-483-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-483-0-s1.webp" alt="Vertical · Speed Hump — Parabolic Speed Hump" /></a><figcaption><span class="type-badge">Vertical · Speed Hump</span><br><strong>Parabolic Speed Hump</strong><br><small>12–14 ft hump for 15–25 mph neighborhood streets (LADOT S-483.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/burbank/standard-plans/p0022.webp" alt="Vertical · Speed Cushion — 3.0-Inch Split Speed Cushion" /></a><figcaption><span class="type-badge">Vertical · Speed Cushion</span><br><strong>3.0-Inch Split Speed Cushion</strong><br><small>Wheel-base cutouts allow fire/emergency vehicles to straddle (Burbank BT-417)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-483-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-483-1-s1.webp" alt="Vertical · Raised Xwalk — Raised Crosswalk / Speed Table" /></a><figcaption><span class="type-badge">Vertical · Raised Xwalk</span><br><strong>Raised Crosswalk / Speed Table</strong><br><small>Sidewalk-level crossing plateau slows drivers at ped crossings (LADOT S-483.1)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p74-deflection.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p74-deflection.webp" alt="Horizontal · Deflection — Chicanes &amp; Pinch Points" /></a><figcaption><span class="type-badge">Horizontal · Deflection</span><br><strong>Chicanes &amp; Pinch Points</strong><br><small>Lateral lane shifts break long straight sightlines (Culver City CSDS)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-524-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-524-0-s1.webp" alt="Intersection · Circle — Mini-Roundabout / Traffic Circle" /></a><figcaption><span class="type-badge">Intersection · Circle</span><br><strong>Mini-Roundabout / Traffic Circle</strong><br><small>Center island forces slow turning path through intersection (LADOT S-524.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-527-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-527-0-s1.webp" alt="Curb · Bulb-Out — Curb Extension / Gateway" /></a><figcaption><span class="type-badge">Curb · Bulb-Out</span><br><strong>Curb Extension / Gateway</strong><br><small>Narrows travelway, shortens ped crossing &amp; blocks corner parking (LADOT S-527.0)</small></figcaption></figure>
+</div>
+
+
 | Street Element | NACTO Urban Street Guidance | Governing California / SoCal Standard on This Site |
 |---|---|---|
 | **Urban travel lane width** | **10 ft** standard; **11 ft** on designated transit / heavy freight routes | **10.5–12 ft** on State highways ([Caltrans DIB 94 Table 5.3](/SoCal-Super-Standards/bulletins/caltrans-dib-94/)); **10–11 ft** local ([Lane Width Comparison](/SoCal-Super-Standards/bulletins/lane-widths/)) |

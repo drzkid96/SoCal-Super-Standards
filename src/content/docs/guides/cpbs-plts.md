@@ -12,6 +12,15 @@ tableOfContents: false
 
 ## PLTS 1–4 Framework at a Glance
 
+<!-- CPBS-PLTS-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p69-sidewalks.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p69-sidewalks.webp" alt="PLTS 1 · Low Stress — Wide Sidewalk &amp; Landscaped Buffer" /></a><figcaption><span class="type-badge">PLTS 1 · Low Stress</span><br><strong>Wide Sidewalk &amp; Landscaped Buffer</strong><br><small>≥ 6 ft clear sidewalk, trees &amp; bulb-outs (Culver City CSDS)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p53-curb-extensions.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p53-curb-extensions.webp" alt="PLTS 2 · Moderate — Curb Extensions &amp; Marked Crossing" /></a><figcaption><span class="type-badge">PLTS 2 · Moderate</span><br><strong>Curb Extensions &amp; Marked Crossing</strong><br><small>Shortened crossing distance &amp; daylighting (Culver City CSDS)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-525-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-525-0-s1.webp" alt="PLTS 3 → 2 Upgrade — Median Refuge Island" /></a><figcaption><span class="type-badge">PLTS 3 → 2 Upgrade</span><br><strong>Median Refuge Island</strong><br><small>Two-stage crossing cuts multi-lane exposure (LADOT S-525.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0023.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/fhwa/step-uncontrolled-crossings/p0023.webp" alt="PLTS 4 → 1 Upgrade — Midblock Signal / PHB &amp; STEP Chart" /></a><figcaption><span class="type-badge">PLTS 4 → 1 Upgrade</span><br><strong>Midblock Signal / PHB &amp; STEP Chart</strong><br><small>FHWA STEP Table 1 countermeasure thresholds (FHWA STEP p. 23)</small></figcaption></figure>
+</div>
+
+
 | PLTS Level | Pedestrian Experience | Primary Segment &amp; Crossing Drivers | Governing Standards to Improve Score |
 |---|---|---|---|
 | **PLTS 1** | Comfortable for virtually all pedestrians (including children &amp; older adults) | Wide, good-condition sidewalk (≥ 6 ft) with wide buffer/trees; low speed (≤ 25 mph); narrow/signalized or refuge-protected crossings | [PROWAG 2023](/SoCal-Super-Standards/bulletins/prowag-2023/) &middot; [Caltrans DIB 94](/SoCal-Super-Standards/bulletins/caltrans-dib-94/) |

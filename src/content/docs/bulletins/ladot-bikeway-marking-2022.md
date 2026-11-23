@@ -14,6 +14,14 @@ description: "LADOT CSC Bikeway Marking (December 2022). Bike lane and bikeway p
 
 ## Rule
 
+<!-- LADOT-BIKEMARK-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-5-la-driveway-green.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/photo-5-la-driveway-green.webp" alt="Green Conflict — Driveway &amp; Mixing Zone Green" /></a><figcaption><span class="type-badge">Green Conflict</span><br><strong>Driveway &amp; Mixing Zone Green</strong><br><small>90-mil preformed thermoplastic green conflict treatment</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0011.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0011.webp" alt="Bike Symbols — Caltrans A24C Stencils" /></a><figcaption><span class="type-badge">Bike Symbols</span><br><strong>Caltrans A24C Stencils</strong><br><small>Helmeted rider symbol, arrows &amp; sharrow dimensions</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0017.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0017.webp" alt="Buffer &amp; Lane — Caltrans A24K Markings" /></a><figcaption><span class="type-badge">Buffer &amp; Lane</span><br><strong>Caltrans A24K Markings</strong><br><small>Bike lane lines, diagonal buffers &amp; intersection dashes</small></figcaption></figure>
+</div>
+
+
 The bike symbol is LADOT's preferred marking for new bikeways and for refreshing faded markings on existing ones. It is the only marking the CA MUTCD permits on every bikeway class.
 
 <table class="btab"><thead><tr><th>Bikeway</th><th>Markings the CA MUTCD permits</th><th>LADOT preference</th></tr></thead><tbody><tr><td>Class I path</td><td>Bike symbol or BIKE PATH</td><td>Bike symbol</td></tr><tr><td>Class II lane</td><td>Bike symbol, helmeted bicyclist or BIKE LANE</td><td>Bike symbol</td></tr><tr><td>Class III route</td><td>Bike symbol in the shared lane marking</td><td>Bike symbol</td></tr><tr><td>Class IV separated</td><td>Bike symbol or helmeted bicyclist</td><td>Bike symbol</td></tr></tbody></table>

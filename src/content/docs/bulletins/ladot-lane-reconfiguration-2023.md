@@ -14,6 +14,14 @@ description: "LADOT CSC Lane Reconfiguration (April 2023). Road diets and lane r
 
 ## When a reconfiguration is a candidate
 
+<!-- LADOT-RECONFIG-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-485-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-485-0-s1.webp" alt="4-to-3 Road Diet — Lane Reduction &amp; Taper" /></a><figcaption><span class="type-badge">4-to-3 Road Diet</span><br><strong>Lane Reduction &amp; Taper</strong><br><small>Transition striping &amp; merge arrows (LADOT S-485.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-444-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-444-0-s1.webp" alt="Narrowed Roadway — Roadway Narrowing (No Drop)" /></a><figcaption><span class="type-badge">Narrowed Roadway</span><br><strong>Roadway Narrowing (No Drop)</strong><br><small>Edge-line shifts &amp; shoulder buffer (LADOT S-444.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-401-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-401-0-s1.webp" alt="Major Highway — Arterial Cross-Section" /></a><figcaption><span class="type-badge">Major Highway</span><br><strong>Arterial Cross-Section</strong><br><small>LADOT S-401.0 standard arterial lane allocation</small></figcaption></figure>
+</div>
+
+
 A project should meet at least one of these:
 
 - More than one travel lane in each direction and no center two-way left-turn lane.

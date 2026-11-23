@@ -11,6 +11,13 @@ description: "Caltrans DIB 92 (November 9, 2018). 14 ft left-turn lanes through 
 
 ## Lane width (Section 3.4)
 
+<!-- DIB92-INLINE -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0002.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0002.webp" alt="SPI Turn Guides — Caltrans 2026 A20B" /></a><figcaption><span class="type-badge">SPI Turn Guides</span><br><strong>Caltrans 2026 A20B</strong><br><small>Dotted turn-guide lines through wide 14-ft SPI left turns</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0009.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0009.webp" alt="SPI Arrows — Caltrans 2026 A24A" /></a><figcaption><span class="type-badge">SPI Arrows</span><br><strong>Caltrans 2026 A24A</strong><br><small>Dual left-turn arrow geometry for single-point ramps</small></figcaption></figure>
+</div>
+
+
 - Left-turn lanes through the intersection: 14 ft. More may be needed for truck offtracking (HDM Table 504.3).
 - Other lanes and shoulders follow the HDM. Bikeways follow HDM Index 301.2 and DIB 89; sidewalks follow HDM Index 105.2 (Section 3.8).
 - An optional design keeps the bicycle crossing to about 85 ft, from the stop bar to the middle of the far lane, so a bicyclist can clear in one phase (Section 2.2).

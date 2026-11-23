@@ -15,6 +15,13 @@ Design procedures and standards for roadway rehabilitation projects whose main w
 
 ## Lane width (Section 3.3.3.6.1.1)
 
+<!-- DIB79-INLINE -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0001.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0001.webp" alt="2R/3R Overlay — Caltrans 2026 A20A" /></a><figcaption><span class="type-badge">2R/3R Overlay</span><br><strong>Caltrans 2026 A20A</strong><br><small>Restriping &amp; raised pavement markers on rehab overlays</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0019.webp" alt="ADA Trigger — Caltrans 2026 A88A" /></a><figcaption><span class="type-badge">ADA Trigger</span><br><strong>Caltrans 2026 A88A</strong><br><small>Curb ramp upgrades triggered by 2R/3R pavement rehab</small></figcaption></figure>
+</div>
+
+
 - All lanes on two- and three-lane conventional highway 3R projects are 12 ft, with these exceptions:
   - Urban turn lanes may be narrower because speeds are lower. Narrow the right-turn lane first, since the left-turn lane is next to oncoming traffic.
   - In severely constrained locations a right-turn lane may go down to 10 ft.

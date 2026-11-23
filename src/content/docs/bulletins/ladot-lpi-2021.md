@@ -25,6 +25,14 @@ If one crosswalk gets an LPI, give the parallel crosswalk one too; perpendicular
 
 ## Design
 
+<!-- LADOT-LPI-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R10-15.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R10-15.svg" alt="No Turn on Red — R10-11 / R10-15 Pairing" /></a><figcaption><span class="type-badge">No Turn on Red</span><br><strong>R10-11 / R10-15 Pairing</strong><br><small>Turning Vehicles Yield to Pedestrians sign</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-481-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-481-1-s1.webp" alt="Continental Xwalk — LADOT S-481.1" /></a><figcaption><span class="type-badge">Continental Xwalk</span><br><strong>LADOT S-481.1</strong><br><small>High-visibility continental bars at LPI signals</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-493-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-493-0-s1.webp" alt="Stop Bar Setback — LADOT S-493.0" /></a><figcaption><span class="type-badge">Stop Bar Setback</span><br><strong>LADOT S-493.0</strong><br><small>5 ft min stop-bar setback for ped visibility</small></figcaption></figure>
+</div>
+
+
 - WALK starts 3 to 7 seconds before the concurrent vehicle green, long enough to cross one lane or get in front of turning vehicles.
 - Use accessible pedestrian signals at LPI locations.
 - If conflicts remain: part-time or full-time turn prohibitions (always, or on red only), protected-only or protected-permissive turns, or curb extensions. At busy crossings, extend green past the pedestrian clearance so turning drivers find gaps.

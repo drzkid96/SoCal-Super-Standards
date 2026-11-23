@@ -24,6 +24,16 @@ sidebar:
 
 <p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=school-zones">Browse all 19 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20school%20zones;%20note%20conflicts%20and%20which%20governs.">Compare all sources in Ask AI</a></p>
 
+<!-- TOPIC-TYPES-SCHOOL-ZONES -->
+## School-Zone Signing & Crossing Treatments (Visual Guide)
+
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/S1-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/S1-1.svg" alt="School Warning — S1-1 Fluorescent Yellow-Green" /></a><figcaption><span class="type-badge">School Warning</span><br><strong>S1-1 Fluorescent Yellow-Green</strong><br><small>Mandatory FYG school crossing sign assembly (CA MUTCD 7B)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/S5-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/S5-1.svg" alt="School Speed — S5-1 Speed Limit When Flashing" /></a><figcaption><span class="type-badge">School Speed</span><br><strong>S5-1 Speed Limit When Flashing</strong><br><small>25 mph / 15 mph school zone speed assembly</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-481-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-481-0-s1.webp" alt="School Crosswalk — Yellow Crosswalk &amp; Advance Yield" /></a><figcaption><span class="type-badge">School Crosswalk</span><br><strong>Yellow Crosswalk &amp; Advance Yield</strong><br><small>Uncontrolled school crosswalk signing &amp; markings (LADOT S-481.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-483-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-483-1-s1.webp" alt="Raised Crossing — School-Zone Raised Crosswalk" /></a><figcaption><span class="type-badge">Raised Crossing</span><br><strong>School-Zone Raised Crosswalk</strong><br><small>Physical speed reduction at school pick-up crossings (LADOT S-483.1)</small></figcaption></figure>
+</div>
+
 ## The rules
 
 CA MUTCD 2026 governs in California. Each row shows the section's first Standard (or Guidance, when there is no Standard), how many shall, should and may provisions it has, and the matching federal section. Open a section and use the **Ask AI** tab in the right-side **Tools** drawer to compare CA and federal differences.

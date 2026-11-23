@@ -24,6 +24,16 @@ sidebar:
 
 <p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=rail-crossings">Browse all 107 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20railroad%20and%20light%20rail%20crossings;%20note%20conflicts%20and%20which%20governs.">Compare all sources in Ask AI</a></p>
 
+<!-- TOPIC-TYPES-RAIL-CROSSINGS -->
+## Railroad & LRT Crossing Treatments (Visual Guide)
+
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-436-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-436-0-s1.webp" alt="Advance Marking — RXR Pavement Marking Layout" /></a><figcaption><span class="type-badge">Advance Marking</span><br><strong>RXR Pavement Marking Layout</strong><br><small>20-ft X &amp; R markings ahead of tracks (LADOT S-436.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/W10-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W10-1.svg" alt="Advance Sign — W10-1 Circular Grade Crossing" /></a><figcaption><span class="type-badge">Advance Sign</span><br><strong>W10-1 Circular Grade Crossing</strong><br><small>Mandatory yellow round advance warning sign</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R15-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R15-1.svg" alt="Crossbuck — R15-1 Railroad Crossbuck" /></a><figcaption><span class="type-badge">Crossbuck</span><br><strong>R15-1 Railroad Crossbuck</strong><br><small>Immediate track-side yield/crossbuck regulatory sign</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/hdm-ch1000/fig-1003-5.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/hdm-ch1000/fig-1003-5.webp" alt="Bike Path Rail — Class I Bikeway Rail Crossing" /></a><figcaption><span class="type-badge">Bike Path Rail</span><br><strong>Class I Bikeway Rail Crossing</strong><br><small>Skew-angle flangeway &amp; crossing gate layout (HDM Fig. 1003.5)</small></figcaption></figure>
+</div>
+
 ## The rules
 
 CA MUTCD 2026 governs in California. Each row shows the section's first Standard (or Guidance, when there is no Standard), how many shall, should and may provisions it has, and the matching federal section. Open a section and use the **Ask AI** tab in the right-side **Tools** drawer to compare CA and federal differences.

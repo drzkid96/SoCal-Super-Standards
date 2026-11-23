@@ -24,6 +24,16 @@ sidebar:
 
 <p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=temporary-traffic-control">Browse all 90 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20temporary%20traffic%20control;%20note%20conflicts%20and%20which%20governs.">Compare all sources in Ask AI</a></p>
 
+<!-- TOPIC-TYPES-TEMPORARY-TRAFFIC-CONTROL -->
+## Work-Zone TCP & Staging Types (Visual Guide)
+
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/torrance/standard-plans/tor-t1008.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/torrance/standard-plans/tor-t1008.webp" alt="Multi-Lane Closure — Arterial Multi-Lane TCP" /></a><figcaption><span class="type-badge">Multi-Lane Closure</span><br><strong>Arterial Multi-Lane TCP</strong><br><small>Merge tapers, buffer space &amp; 30–50 mph cone spacing (Torrance T1008)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/tcp-example-s1.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/tcp-example-s1.webp" alt="Lane Shift / Single — Urban Lane Shift TCP" /></a><figcaption><span class="type-badge">Lane Shift / Single</span><br><strong>Urban Lane Shift TCP</strong><br><small>Two-way shift &amp; flagging control layout (Culver City TCP S1)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/tcp-example-s2.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/tcp-example-s2.webp" alt="Work Zone Staging — Intersection Work-Zone TCP" /></a><figcaption><span class="type-badge">Work Zone Staging</span><br><strong>Intersection Work-Zone TCP</strong><br><small>Turn-pocket closure &amp; signalized staging (Culver City TCP S2)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/tcp-example-s3.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/tcp-example-s3.webp" alt="Pedestrian Detour — ADA Temporary Ped Walkway" /></a><figcaption><span class="type-badge">Pedestrian Detour</span><br><strong>ADA Temporary Ped Walkway</strong><br><small>Barricaded sidewalk detour &amp; detectable edging (Culver City TCP S3)</small></figcaption></figure>
+</div>
+
 ## The rules
 
 CA MUTCD 2026 governs in California. Each row shows the section's first Standard (or Guidance, when there is no Standard), how many shall, should and may provisions it has, and the matching federal section. Open a section and use the **Ask AI** tab in the right-side **Tools** drawer to compare CA and federal differences.

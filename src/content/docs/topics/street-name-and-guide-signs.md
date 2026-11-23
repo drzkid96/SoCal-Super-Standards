@@ -24,6 +24,16 @@ sidebar:
 
 <p><a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?topic=street-name-and-guide-signs">Browse all 200 figures and drawings on this topic</a> <a class="ai-btn" href="/SoCal-Super-Standards/ask/?q=Compare%20what%20CA%20MUTCD%202026,%20the%20federal%20MUTCD%20and%20LADOT%20say%20about%20street%20name%20and%20guide%20signs;%20note%20conflicts%20and%20which%20governs.">Compare all sources in Ask AI</a></p>
 
+<!-- TOPIC-TYPES-STREET-NAME-AND-GUIDE-SIGNS -->
+## Street Name & Guide Sign Types (Visual Guide)
+
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-221-3-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-221-3-s1.webp" alt="Roadside SNS — Corner Street Name Sign Posting" /></a><figcaption><span class="type-badge">Roadside SNS</span><br><strong>Corner Street Name Sign Posting</strong><br><small>Post placement &amp; visibility quadrant rules (LADOT S-221.3)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-486-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-486-0-s1.webp" alt="Mast-Arm SNS — Signal Mast-Arm Street Name Sign" /></a><figcaption><span class="type-badge">Mast-Arm SNS</span><br><strong>Signal Mast-Arm Street Name Sign</strong><br><small>Overhead illuminated &amp; retroreflective sign mounts (LADOT S-486.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-438-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-438-0-s1.webp" alt="Blade Layout — Street Name Sign Fabrication" /></a><figcaption><span class="type-badge">Blade Layout</span><br><strong>Street Name Sign Fabrication</strong><br><small>Lettering height, block numbers &amp; borders (LADOT S-438.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p77-wayfinding-signage.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p77-wayfinding-signage.webp" alt="Wayfinding — Pedestrian &amp; Bike Wayfinding" /></a><figcaption><span class="type-badge">Wayfinding</span><br><strong>Pedestrian &amp; Bike Wayfinding</strong><br><small>Directional route signing &amp; destination plaques (Culver City CSDS)</small></figcaption></figure>
+</div>
+
 ## The rules
 
 CA MUTCD 2026 governs in California. Each row shows the section's first Standard (or Guidance, when there is no Standard), how many shall, should and may provisions it has, and the matching federal section. Open a section and use the **Ask AI** tab in the right-side **Tools** drawer to compare CA and federal differences.

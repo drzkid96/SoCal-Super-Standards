@@ -11,6 +11,14 @@ description: "LADOT Accessible Parking Zones (June 20, 2017). Blue curb and on-s
 
 ## Placement principles
 
+<!-- LADOT-APZ-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0022.webp" alt="On-Street Blue Zone — Caltrans A90B" /></a><figcaption><span class="type-badge">On-Street Blue Zone</span><br><strong>Caltrans A90B</strong><br><small>Accessible curb stall, access aisle &amp; curb ramp</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0021.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0021.webp" alt="Off-Street ADA Stall — Caltrans A90A" /></a><figcaption><span class="type-badge">Off-Street ADA Stall</span><br><strong>Caltrans A90A</strong><br><small>Van-accessible stall &amp; aisle dimensions</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R7-8.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R7-8.svg" alt="Regulatory Sign — R7-8 Accessible Parking" /></a><figcaption><span class="type-badge">Regulatory Sign</span><br><strong>R7-8 Accessible Parking</strong><br><small>Required accessible stall sign + R99C(CA) fine plaque</small></figcaption></figure>
+</div>
+
+
 - No one should have to walk or wheel behind a vehicle other than their own.
 - Accessible parking zones are not personal spaces and must meet State and federal accessibility guidance.
 - A good location has a sidewalk at least 8 ft wide running to the curb (no grass parkway), ramp access to the sidewalk, nothing beside the space that blocks doors or a lift, room for a rear-loading device to reach the corner, and no storm drain inlet in the path.

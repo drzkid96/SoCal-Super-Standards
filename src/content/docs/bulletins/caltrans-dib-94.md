@@ -24,6 +24,13 @@ Transitional areas, undeveloped areas and special use or protected lands are exc
 
 ## Lane width (Section 5.3)
 
+<!-- DIB94-LANE -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-3b-city-center.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-3b-city-center.webp" alt="Fig. 3B · City Center — Multimodal Lane Allocation" /></a><figcaption><span class="type-badge">Fig. 3B · City Center</span><br><strong>Multimodal Lane Allocation</strong><br><small>10.5–11 ft urban lanes with transit &amp; bike space</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p57-general-purpose-lanes.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p57-general-purpose-lanes.webp" alt="General Lanes — Travel Lane Context" /></a><figcaption><span class="type-badge">General Lanes</span><br><strong>Travel Lane Context</strong><br><small>Urban arterial lane widths &amp; buffer trade-offs (CSDS)</small></figcaption></figure>
+</div>
+
+
 The 10.5 ft floor comes from the Vehicle Code: CVC 35100(a) allows an 8.5 ft (102 in) vehicle, and CVC 35109 lets mirrors and devices stick out up to 10 in on each side. That makes a 122 in (about 10.2 ft) vehicle, so State lanes are not narrower than 10.5 ft.
 
 - Through, left-turn and right-turn lanes should generally be 10.5 to 12 ft. This does not apply to crossroads at interchanges inside State right of way.
@@ -47,6 +54,19 @@ The table is adapted from NCHRP Report 880 Exhibit 4.8, adjusted for the Vehicle
 - Expect more than 4 ft where there is a Class II bike lane or on-street parking (both counted as shoulder), gutter spread for drainage (HDM Chapter 830), an evacuation route (DIB 93) or transit use.
 
 ## Bikeway widths (Section 5.1)
+
+<!-- DIB94-BIKE -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-5b-class-i.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-5b-class-i.webp" alt="Class I · Path — Shared-Use Bike Path" /></a><figcaption><span class="type-badge">Class I · Path</span><br><strong>Shared-Use Bike Path</strong><br><small>Completely separated off-street right-of-way (HDM 1003.1 · 8–10+ ft)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-5d-class-ii-buffered.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-5d-class-ii-buffered.webp" alt="Class II · Bike Lane — Conventional &amp; Buffered Lane" /></a><figcaption><span class="type-badge">Class II · Bike Lane</span><br><strong>Conventional &amp; Buffered Lane</strong><br><small>Striped on-street lane; diagonal hatch if buffer &gt; 3 ft (DIB 94 Fig. 5D)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p44-bike-routes.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p44-bike-routes.webp" alt="Class III · Route — Bike Route / Neighborhood Greenway" /></a><figcaption><span class="type-badge">Class III · Route</span><br><strong>Bike Route / Neighborhood Greenway</strong><br><small>Shared roadway with signs &amp; sharrows (≤ 30 mph per SHC § 891.9)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/photo-3-parking-protected.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/photo-3-parking-protected.webp" alt="Class IV · Separated — Protected Bikeway / Cycle Track" /></a><figcaption><span class="type-badge">Class IV · Separated</span><br><strong>Protected Bikeway / Cycle Track</strong><br><small>Physical vertical separation: curb, posts, or parking (DIB 89-02)</small></figcaption></figure>
+</div>
+
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-5a-bike-selection.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-5a-bike-selection.webp" alt="Fig. 5A · Selection — Bikeway Selection Chart" /></a><figcaption><span class="type-badge">Fig. 5A · Selection</span><br><strong>Bikeway Selection Chart</strong><br><small>Facility selection by speed &amp; ADT</small></figcaption></figure>
+</div>
+
 
 <table class="btab"><thead><tr><th>Facility</th><th>Placement</th><th>Minimum</th><th>Preferred</th><th>Practical max</th></tr></thead><tbody><tr><td>Class II bike lane</td><td>At curb, pavement edge, parking, or between through and turn lanes</td><td>5 ft</td><td>6-7 ft</td><td>8 ft</td></tr><tr><td>Class II bike lane</td><td>Next to a buffer</td><td>4 ft</td><td>5-7 ft</td><td>8 ft</td></tr><tr><td>Class IV, one-way</td><td>Between curbs (raised island)</td><td>6 ft</td><td>7-9 ft</td><td>10 ft</td></tr><tr><td>Class IV, one-way</td><td>Curb to buffer, or curb to parking buffer</td><td>5-8 ft</td><td>6-8 ft</td><td>9 ft</td></tr><tr><td>Class IV, one-way</td><td>Pavement edge to buffer, or between through and right-turn lanes</td><td>4-7 ft</td><td>5-7 ft</td><td>8 ft</td></tr><tr><td>Class IV, two-way</td><td>Between curbs</td><td>10-14 ft</td><td>12-14 ft</td><td>16 ft</td></tr><tr><td>Class IV, two-way</td><td>Curb to buffer</td><td>9-12 ft</td><td>10-12 ft</td><td>14 ft</td></tr><tr><td>Class IV, two-way</td><td>Curb to parking buffer</td><td>9-14 ft</td><td>10-14 ft</td><td>16 ft</td></tr><tr><td>Class IV, two-way</td><td>Pavement edge to buffer</td><td>8-11 ft</td><td>9-11 ft</td><td>14 ft</td></tr><tr><td>Class I path, one-way</td><td></td><td>6-7 ft</td><td>7 ft</td><td>8 ft</td></tr><tr><td>Class I path, two-way</td><td></td><td>10-12 ft</td><td>10-12 ft</td><td>12-15 ft</td></tr></tbody></table>
 

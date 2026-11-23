@@ -4,6 +4,7 @@ description: "FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossin
 sidebar:
   order: 7
 ---
+<!-- STEP07-INLINE -->
 
 <div class="srcbar">FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (STEP) &middot; July 2018, updated &middot; pages 22&ndash;29</div>
 
@@ -101,7 +102,12 @@ sidebar:
 <p>To further increase visibility of pedestrian crossings, agencies often integrate multiple countermeasures. For example, the Pedestrian Hybrid Beacon is often installed in conjunction with advance stop markings and signs. Also, Road Diets present opportunities for adding pedestrian refuge islands and curb extensions at key crossing locations. Agencies should consider roadway geometry and the MUTCD when integrating multiple countermeasures.</p>
 <h4>Countermeasure Descriptions</h4>
 <p>This subsection describes considerations for implementation of each of the countermeasures included in Tables 1 and 2. The agency can review other guidance—such as the MUTCD, the AASHTO Pedestrian Guide, and/or agency policies and practices—to identify and select countermeasures for implementation.</p>
-<p>Crosswalk visibility enhancements</p>
+<h4>Crosswalk visibility enhancements</h4>
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-481-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-481-0-s1.webp" alt="Crosswalk Visibility — High-Visibility Crosswalk &amp; Daylighting" /></a><figcaption><span class="type-badge">Crosswalk Visibility</span><br><strong>High-Visibility Crosswalk &amp; Daylighting</strong><br><small>Continental bars, lighting &amp; parking setback (LADOT S-481.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/W11-2.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W11-2.svg" alt="Advance Warning — W11-2 Ped Crossing Sign" /></a><figcaption><span class="type-badge">Advance Warning</span><br><strong>W11-2 Ped Crossing Sign</strong><br><small>Fluorescent yellow-green sign at crosswalk</small></figcaption></figure>
+</div>
+
 <p>High-visibility crosswalks may include a variety of crosswalk striping designs, such as ladder, continental, or bar pairs. A high-visibility crosswalk is much easier for</p>
 <p>an approaching motorist to see than the traditional parallel lines. The agency should strongly consider providing high-visibility crosswalks at all established midblock pedestrian crossings. The high-visibility markings may be supplemented with the pedestrian crossing warning signs (sign <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> in the MUTCD) on each approach to the crosswalk. MUTCD <a href="/SoCal-Super-Standards/s/ca/2C.50/">Section 2C.50</a>— Non Vehicular Warning Signs and <a href="/SoCal-Super-Standards/s/ca/3B.18/">Section 3B.18</a>—Crosswalk Markings provide additional information.</p>
 <p>The agency should also strongly consider implementing parking restrictions on the crosswalk approach at all established</p></div>
@@ -117,14 +123,32 @@ sidebar:
 <p>Select Countermeasure(s)</p>
 <p>pedestrian crossings (both approaches) so there is adequate sight distance for motorists on the approaches to the crossings and ample sight distance for pedestrians attempting to cross. The minimum setback is 20 feet where speeds are 25 mph or less, and 30 feet between 26 mph and 35 mph. If this cannot be done, the curbs should be “bulbed out” to allow the pedestrian to see past the parked vehicle along the street. Adjacent bus stops should be placed downstream of the crosswalk and not on the crosswalk approach.</p>
 <p>The agency should consider providing an appropriate level of lighting at all established pedestrian crossings. Consideration should be given to placing the lights 10 to 15 feet in advance of the crosswalk on both sides of the street and on both approaches to better light the front of the pedestrian and avoid silhouette lighting (where possible).</p>
-<p>In-street Pedestrian Crossing sign</p>
+<h4>In-street Pedestrian Crossing sign</h4>
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R1-6.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R1-6.svg" alt="In-Street Sign — R1-6 In-Street Pedestrian Crossing" /></a><figcaption><span class="type-badge">In-Street Sign</span><br><strong>R1-6 In-Street Pedestrian Crossing</strong><br><small>Placed on centerline or refuge island on ≤ 30 mph streets</small></figcaption></figure>
+</div>
+
 <p>In-street signs are placed in the middle of the road at a crossing and are often used in conjunction with refuge islands. These signs may be appropriate on 2-lane or 3-lane roads with speed limits of 30 mph or less. On higher-speed, higher-volume, and/ or multilane roads, this treatment may not be as visually prominent; therefore, it may be less effective (drivers may not notice the signs in time to stop in advance of the crosswalk). For such roadways, more robust treatments will be needed. When making the choice to use these signs, the agency should consider making a plan and securing a funding source for the maintenance and prompt replacement of damaged signs. The MUTCD permits in- street pedestrian signs for installation on centerlines and along lane lines. MUTCD</p>
 <p><a href="/SoCal-Super-Standards/s/ca/2B.12/">Section 2B.12</a>—In-Street and Overhead Pedestrian Crossing Signs contains additional information about these signs.</p>
-<p>Advance Yield Here To (Stop Here For) Pedestrians sign and yield (stop) line</p>
+<h4>Advance Yield Here To (Stop Here For) Pedestrians sign and yield (stop) line</h4>
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R1-5.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R1-5.svg" alt="Advance Yield Sign — R1-5 Yield Here to Pedestrians" /></a><figcaption><span class="type-badge">Advance Yield Sign</span><br><strong>R1-5 Yield Here to Pedestrians</strong><br><small>Placed 30–50 ft ahead of uncontrolled crosswalk</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0013.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0013.webp" alt="Yield Line — Shark-Tooth Yield Line (A24F)" /></a><figcaption><span class="type-badge">Yield Line</span><br><strong>Shark-Tooth Yield Line (A24F)</strong><br><small>Caltrans 2026 A24F advance yield triangle layout</small></figcaption></figure>
+</div>
+
 <p>Advance Yield Here To (Stop Here For) Pedestrians signs are placed between 30 and 50 feet in advance of the marked crosswalk along with the stop line or “shark’s teeth” yield line. This is a candidate treatment for any uncontrolled pedestrian crossing, and should be strongly considered for any established pedestrian crossing on roads with four or more lanes and/or roads with speed limits of 35 mph or greater. Stop Here For Pedestrians signs should only be used where the law specifically requires that a driver must stop for a pedestrian in a crosswalk. MUTCD <a href="/SoCal-Super-Standards/s/ca/2B.11/">Section 2B.11</a>—Yield Here To Pedestrians Signs and Stop Here For Pedestrians Signs and <a href="/SoCal-Super-Standards/s/ca/3B.16/">Section 3B.16</a>—Stop and Yield Lines contain additional information.</p>
-<p>Curb extension</p>
+<h4>Curb extension</h4>
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-527-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-527-0-s1.webp" alt="Curb Extension — Curb Extension / Bulb-Out" /></a><figcaption><span class="type-badge">Curb Extension</span><br><strong>Curb Extension / Bulb-Out</strong><br><small>Extends curb 6 ft into parking lane for visibility (LADOT S-527.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p53-curb-extensions.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p53-curb-extensions.webp" alt="CSDS Detail — Culver City Curb Extension" /></a><figcaption><span class="type-badge">CSDS Detail</span><br><strong>Culver City Curb Extension</strong><br><small>Typical corner bulb-out &amp; ADA ramp layout</small></figcaption></figure>
+</div>
+
 <p>A curb extension or "bulbout" extends the sidewalk or curb line into the street or parking lane, thus reducing the street width and improving sight distance between the driver and pedestrian. A curb extension is a candidate treatment for any uncontrolled pedestrian crossing, particularly where parking lanes exist. Curb extensions should not extend into paths of travel for bicyclists.</p>
-<p>Raised crosswalk</p>
+<h4>Raised crosswalk</h4>
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-483-1-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-483-1-s1.webp" alt="Raised Crosswalk — Sidewalk-Level Raised Crosswalk" /></a><figcaption><span class="type-badge">Raised Crosswalk</span><br><strong>Sidewalk-Level Raised Crosswalk</strong><br><small>Ramp grades &amp; flat-top crossing geometry (LADOT S-483.1)</small></figcaption></figure>
+</div>
+
 <p>Raised crosswalks function as an extension of the sidewalk and allow a pedestrian to cross the street at a constant grade. A raised crosswalk is typically a candidate treatment on 2-lane or 3-lane roads with speed limits of 30 mph or less and AADTs below 9,000. Raised crossings are generally</p></div>
 
 
@@ -137,9 +161,18 @@ sidebar:
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Select Countermeasure(s)</p>
 <p>avoided on truck routes, emergency routes, and arterial streets. Drainage needs to be accommodated. See MUTCD <a href="/SoCal-Super-Standards/s/ca/3B.25/">Section 3B.25</a>—Speed Hump Markings for additional information about markings that can be used alongside raised crosswalks.</p>
-<p>Pedestrian refuge island</p>
+<h4>Pedestrian refuge island</h4>
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-525-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-525-0-s1.webp" alt="Refuge Island — Raised Pedestrian Crossing Island" /></a><figcaption><span class="type-badge">Refuge Island</span><br><strong>Raised Pedestrian Crossing Island</strong><br><small>6 ft+ raised median for two-stage crossings (LADOT S-525.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p61-medians.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p61-medians.webp" alt="Median Detail — Median Island Design (CSDS)" /></a><figcaption><span class="type-badge">Median Detail</span><br><strong>Median Island Design (CSDS)</strong><br><small>Cut-through refuge geometry &amp; nose markings</small></figcaption></figure>
+</div>
+
 <p>A pedestrian island is typically constructed in the middle of a 2-way street and provides a place for pedestrians to stand and wait for motorists to stop or yield. This countermeasure is highly desirable for midblock pedestrian crossings on roads with four or more lanes, and should be considered for undivided crossings of four or more lanes with speed limits of 35 mph or greater and/or AADTs of 9,000 or greater. Median islands may also be a candidate treatment for uncontrolled pedestrian crossings on 3-lane or 2-lane roads, especially where the street is wide and/or where vehicle speed or volumes are moderate to high. Consideration should be given to creating a two-stage crossing with the island to encourage pedestrians to cross one direction of traffic at a time and look towards oncoming traffic before completing the second part of the crossing. The minimum pedestrian refuge island width is approximately 6 feet. MUTCD <a href="/SoCal-Super-Standards/s/ca/3B.10/">Section 3B.10</a>— Approach Markings for Obstructions, <a href="/SoCal-Super-Standards/s/ca/3B.18/">Section 3B.18</a>—Crosswalk Markings, and <a href="/SoCal-Super-Standards/s/ca/3B.23/">Section 3B.23</a>—Curb Markings provide additional information.</p>
-<p>Pedestrian Hybrid Beacon (PHB)</p>
+<h4>Pedestrian Hybrid Beacon (PHB)</h4>
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p59-midblock-signal-crosswalks.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p59-midblock-signal-crosswalks.webp" alt="PHB / Midblock Signal — Midblock Signalized Crossing" /></a><figcaption><span class="type-badge">PHB / Midblock Signal</span><br><strong>Midblock Signalized Crossing</strong><br><small>Positive red stop control for ≥ 40 mph / high-ADT crossings</small></figcaption></figure>
+</div>
+
 <p>A PHB head consists of two red lenses above a single yellow lens, and is used in conjunction with pedestrian signal heads installed at each end of a marked crosswalk. Figure 6 shows a rendering of a PHB. The PHB has been referred to as the High-Intensity Activated crossWalK beacon (HAWK), but the MUTCD refers to this device as the PHB.</p>
 <p>Unlike a traffic signal, the PHB rests in dark until a pedestrian activates it via pushbutton or other form of detection. When activated, the beacon displays a sequence of flashing and solid lights that control vehicular traffic while the pedestrian signal heads indicate the pedestrian walk interval and a pedestrian clearance interval.</p>
 <p>The PHB should meet the installation guidelines—based on speed, pedestrian volume, vehicular volume, and crossing length—as provided in <a href="/SoCal-Super-Standards/s/ca/4F.01/">Section 4F.01</a> of the MUTCD (See Figure 4F-1 for speeds of 35 mph or less; Figure 4F-2 for speeds greater than 35 mph). Research indicates that PHBs are most effective at roads with three or more lanes that have AADTs above 9,000. PHBs should be strongly considered for all midblock crossings where the roadway speed limits are equal to or greater than 40 mph. Refer to Table 1 for other conditions where PHBs should be strongly considered. It should be noted that the PHB and RRFB are not both installed at the same crossing location.</p>
@@ -157,10 +190,19 @@ sidebar:
 <div class="dtext"><p>21</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Select Countermeasure(s)</p>
-<p>Road Diet</p>
+<h4>Road Diet</h4>
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-485-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-485-0-s1.webp" alt="Road Diet — 4-to-3 Lane Reconfiguration" /></a><figcaption><span class="type-badge">Road Diet</span><br><strong>4-to-3 Lane Reconfiguration</strong><br><small>Lane reduction taper &amp; center turn lane (LADOT S-485.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-3b-city-center.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-3b-city-center.webp" alt="Complete Street — Multimodal Lane Reallocation" /></a><figcaption><span class="type-badge">Complete Street</span><br><strong>Multimodal Lane Reallocation</strong><br><small>Reallocated space for bike lanes &amp; refuge islands (DIB 94 Fig. 3B)</small></figcaption></figure>
+</div>
+
 <p>A road diet reconfigures the roadway. A frequently-implemented Road Diet involves converting a 4-lane, undivided roadway into a 3-lane roadway with a center turn lane. This is a candidate treatment for any undivided road with wide travel lanes or multiple lanes that can be narrowed or repurposed to improve pedestrian crossing safety.</p>
 <p>After conducting a traffic analysis to consider its feasibility, the agency may determine that a Road Diet is a good candidate for use on roads with four or more lanes and traffic volumes of approximately 20,000 or less. In some cases, agencies have successfully implemented Road Diets on roads with AADTs of up to 25,000. By reducing the width of the roadway, pedestrians benefit from shorter crossing distances and often bike lanes or streetscape features can be added. Road Diets are often effectively accomplished during pavement resurfacing.</p>
-<p>Rectangular Rapid-Flashing Beacon (RRFB)</p>
+<h4>Rectangular Rapid-Flashing Beacon (RRFB)</h4>
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-521/s-55-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-521/s-55-0-s1.webp" alt="RRFB Layout — Activated Ped Warning Device" /></a><figcaption><span class="type-badge">RRFB Layout</span><br><strong>Activated Ped Warning Device</strong><br><small>Dual-sided &amp; median RRFB beacon placement (LADOT S-55.0)</small></figcaption></figure>
+</div>
+
 <p>An RRFB is a pedestrian-actuated conspicuity enhancement used in combination with a pedestrian, school, or trail crossing warning sign to improve safety at uncontrolled, marked crosswalks. The device includes two rectangular-shaped yellow indications, each with an LED-array-based light source, that flash with high frequency when activated.</p>
 <p>RRFBs may be used to enhance the conspicuity of standard pedestrian and school crossing warning signs at</p>
 <p>uncontrolled marked crosswalks. RRFBs are placed on both ends of a crosswalk. If the crosswalk contains a pedestrian refuge island or other type of median, an RRFB should be placed to the right of the crosswalk and on the median (instead of the left side of the crosswalk). The RRFB's irregular flashing pattern pattern is unlit when not activated and can be activated manually by pedestrians using a push button or passively by a pedestrian detection system. This device is not currently included in the MUTCD, but FHWA has issued Interim Approval 21 (IA-21) for the use of the RRFB. State and local agencies must request and receive permission to use this interim approval before they can use the RRFB. IA-21 provides additional information about the conditions of use, including dimensions, placement, and flashing requirements. IA-21 does not provide guidance or criteria based on number of lanes, speed, or traffic volumes.</p>

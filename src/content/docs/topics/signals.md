@@ -28,6 +28,16 @@ sidebar:
 
 <div class="rel-grid"><a class="rel-card" href="/SoCal-Super-Standards/bulletins/ladot-lpi-2021/"><span class="rel-k">LADOT bulletins</span><strong>CSC Leading Pedestrian Interval: Leading Pedestrian Interval</strong><span>Signal timing that affects crosswalks and turn restrictions</span></a><a class="rel-card" href="/SoCal-Super-Standards/bulletins/ladot-exclusive-ped-phase-2017/"><span class="rel-k">LADOT bulletins</span><strong>CSC Exclusive Pedestrian Phase: Exclusive Pedestrian Phase</strong><span>Scramble phases, diagonal crossings and NO TURN ON RED</span></a></div>
 
+<!-- TOPIC-TYPES-SIGNALS -->
+## Traffic Signal & Beacon Types (Visual Guide)
+
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/culver-city/csds/p30-signalized-intersections.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/culver-city/csds/p30-signalized-intersections.webp" alt="Standard Signal — Signalized Intersection Layout" /></a><figcaption><span class="type-badge">Standard Signal</span><br><strong>Signalized Intersection Layout</strong><br><small>Mast arms, ped heads, detection &amp; crosswalk alignment (CSDS)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-531/s-497-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-531/s-497-0-s1.webp" alt="Protected Left — Sight Distance for Protected LT" /></a><figcaption><span class="type-badge">Protected Left</span><br><strong>Sight Distance for Protected LT</strong><br><small>Geometric criteria for left-turn arrow phasing (LADOT S-497.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/redraw/mpp-521/s-55-0-s1.svg"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/redraw/mpp-521/s-55-0-s1.webp" alt="Ped Beacon / RRFB — Activated Ped Warning Device" /></a><figcaption><span class="type-badge">Ped Beacon / RRFB</span><br><strong>Activated Ped Warning Device</strong><br><small>Pushbutton-activated flashing beacon layout (LADOT S-55.0)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/gardena/standard-plans/gar-st-16.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/gardena/standard-plans/gar-st-16.webp" alt="Loop Detection — Inductive Traffic &amp; Bike Loops" /></a><figcaption><span class="type-badge">Loop Detection</span><br><strong>Inductive Traffic &amp; Bike Loops</strong><br><small>Loop geometry, lead-in &amp; no-excavation zone (Gardena ST-16)</small></figcaption></figure>
+</div>
+
 ## The rules
 
 CA MUTCD 2026 governs in California. Each row shows the section's first Standard (or Guidance, when there is no Standard), how many shall, should and may provisions it has, and the matching federal section. Open a section and use the **Ask AI** tab in the right-side **Tools** drawer to compare CA and federal differences.

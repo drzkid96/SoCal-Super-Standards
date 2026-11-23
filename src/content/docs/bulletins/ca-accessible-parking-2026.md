@@ -15,6 +15,14 @@ Parking lots and structures serving buildings and facilities (off-street). On-st
 
 ## Key points
 
+<!-- CA-ADA-PARK-TYPES -->
+<div class="type-gallery">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0021.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0021.webp" alt="Off-Street · A90A — Standard &amp; Van-Accessible Stalls" /></a><figcaption><span class="type-badge">Off-Street · A90A</span><br><strong>Standard &amp; Van-Accessible Stalls</strong><br><small>9 ft stall + 5 ft / 8 ft access aisle (Caltrans 2026 A90A)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0022.webp" alt="On-Street · A90B — Curbside Accessible Stall" /></a><figcaption><span class="type-badge">On-Street · A90B</span><br><strong>Curbside Accessible Stall</strong><br><small>Parallel stall paired with ADA curb ramp (Caltrans 2026 A90B)</small></figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/signs/R7-8.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R7-8.svg" alt="Signage · R7-8 — Reserved Parking Sign" /></a><figcaption><span class="type-badge">Signage · R7-8</span><br><strong>Reserved Parking Sign</strong><br><small>Paired with California $250 min fine plaque R99C(CA)</small></figcaption></figure>
+</div>
+
+
 - Parking spaces complying with 11B-502 must be identified by signs complying with 11B-502.6 and 11B-502.8 (11B-216.5.1).
 - Signs identifying electric vehicle charging spaces follow 11B-812.8 (11B-216.5.2).
 - The 2025 CBC took effect January 1, 2026. Projects permitted under the 2022 CBC follow that edition.
