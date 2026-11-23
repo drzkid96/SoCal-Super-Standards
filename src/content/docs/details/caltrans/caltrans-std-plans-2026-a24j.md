@@ -14,6 +14,10 @@ tableOfContents: false
 ## Sheet
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0016.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0016.webp" alt="A24J sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A24J, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/03-pages-13-18/#p16">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Install white &quot;X&quot; pavement marking at each end of the section if the markings are less than 1 mile apart.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
+<ol class="dwg-notes">
+<li value="1">Install white &quot;X&quot; pavement marking at each end of the section if the markings are less than 1 mile apart.</li>
+</ol>
+</details>
 
 <section class="xidx-wrap" data-pagefind-weight="4"><h2 id="index-and-related">Related standards and index</h2><dl class="xidx"><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/speed-and-calming/">Speed limits, speed zones and traffic calming</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></dd></div></dl></section>

@@ -16,9 +16,11 @@ sidebar:
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>GUIDING PRINCIPLES</h4>
 <p>This section can help the agency select countermeasures based on information previously collected and assessed. The agency can use the following resources to select countermeasures:</p>
-<p>» First, reference Table 1 to compare roadway and vehicle speed characteristics to countermeasure options.</p>
-<p>» Then, reference Table 2 to compare crash types and other observed safety issues to countermeasure options.</p>
-<p>» Review Appendix B for more information about countermeasure CRFs and CMFs.</p>
+<ul>
+  <li>First, reference Table 1 to compare roadway and vehicle speed characteristics to countermeasure options.</li>
+  <li>Then, reference Table 2 to compare crash types and other observed safety issues to countermeasure options.</li>
+  <li>Review Appendix B for more information about countermeasure CRFs and CMFs.</li>
+</ul>
 <h4>Application of Countermeasures by Roadway Feature</h4>
 <p>Table 1 includes a comprehensive matrix and list of STEP pedestrian crash countermeasures suggested for application at uncontrolled crossing locations per roadway and traffic features. The countermeasures are assigned to specific matrix cells based on safety research, best practices, and established national guidelines. When a pedestrian crossing is established, the agency should review the countermeasure options in the cells before selecting the optimal group of crossing treatments. The agency should consider the previously obtained characteristics such as pedestrian volume, operational speeds, land use context, and other site features when selecting countermeasures.</p>
 <p>The agency should also reference the MUTCD and other national, State, and local guidelines when making the final selection of countermeasures.</p>

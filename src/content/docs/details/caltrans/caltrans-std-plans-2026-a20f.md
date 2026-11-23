@@ -14,10 +14,14 @@ tableOfContents: false
 ## Sheet
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0006.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0006.webp" alt="A20F sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A20F, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/01-pages-1-6/#p6">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>* See pavement delineation plan for dimension.</p>
-<h5>Legend:</h5>
-<p>Type C red-clear retroreflective marker.</p>
-<p>8 in. white line.</p>
-<p>Details 43 and 43A are marked deleted. Return to Table of Contents link at the bottom of the page.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
+<p>* See pavement delineation plan for dimension.</p>
+<h5 class="dwg-sub">Legend</h5>
+<ul class="dwg-legend">
+<li>Type C red-clear retroreflective marker.</li>
+<li>8 in. white line.</li>
+<li>Details 43 and 43A are marked deleted.</li>
+</ul>
+</details>
 
 <section class="xidx-wrap" data-pagefind-weight="4"><h2 id="index-and-related">Related standards and index</h2><dl class="xidx"><div><dt>Referred to by</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20e/"><b>A20E</b> Traffic Lines, Typical Details for Contrast Striping<span>Caltrans Std. Plans 2026</span></a></dd></div><div><dt>Caltrans striping details</dt><dd><a class="kchip dref" href="/SoCal-Super-Standards/markings/line-types/#detail-42" data-svg="/SoCal-Super-Standards/linetypes/detail-42.svg">Detail 42</a> <a class="kchip dref" href="/SoCal-Super-Standards/markings/line-types/#detail-44a" data-svg="/SoCal-Super-Standards/linetypes/detail-44a.svg">Detail 44A</a> <a class="kchip dref" href="/SoCal-Super-Standards/markings/line-types/#detail-44b" data-svg="/SoCal-Super-Standards/linetypes/detail-44b.svg">Detail 44B</a> <a class="kchip dref" href="/SoCal-Super-Standards/markings/line-types/#detail-45" data-svg="/SoCal-Super-Standards/linetypes/detail-45.svg">Detail 45</a></dd></div><div><dt>Related in Caltrans</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20a/"><b>A20A</b> Pavement Markers and Traffic Lines, Typical Details<span>Caltrans Std. Plans 2026</span></a></dd></div><div><dt>Similar at other agencies</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-711/"><b>S-711</b> Two-Way Left Turn Lane, Single Yellow Centerline, Solid White Lane…<span>Pasadena Std. Plans</span></a></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/transit/">Transit, bus lanes and bus stops</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></dd></div><div><dt>Index entries</dt><dd><b>Pavement markings:</b> <a href="/SoCal-Super-Standards/keywords/#c-laneline">lane line</a>, <a href="/SoCal-Super-Standards/keywords/#c-rpm">raised pavement marker</a>, <a href="/SoCal-Super-Standards/keywords/#c-linetype">striping detail</a></dd></div></dl></section>

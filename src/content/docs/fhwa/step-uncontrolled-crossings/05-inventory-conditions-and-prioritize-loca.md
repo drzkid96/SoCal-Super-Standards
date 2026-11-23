@@ -16,24 +16,34 @@ sidebar:
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>GUIDING PRINCIPLES</h4>
 <p>This section describes how the agency can document field conditions (such as roadway characteristics) necessary for prioritizing locations and selecting countermeasures. The following are important considerations for this step:</p>
-<p>» Create a worksheet or checklist of roadway characteristics to record in the field (see Figure 3).</p>
-<p>» Document pedestrian volumes and driver behavior, especially where pedestrians are frequently expected such as at</p>
+<ul>
+  <li>Create a worksheet or checklist of roadway characteristics to record in the field (see Figure 3).</li>
+  <li>Document pedestrian volumes and driver behavior, especially where pedestrians are frequently expected such as at</li>
+</ul>
 <p>bus stop locations and near schools.</p>
-<p>» Classify pedestrian crossings as either uncontrolled or controlled locations.</p>
-<p>» Analyze data and create maps to show priority locations for pedestrian improvements.</p>
+<ul>
+  <li>Classify pedestrian crossings as either uncontrolled or controlled locations.</li>
+  <li>Analyze data and create maps to show priority locations for pedestrian improvements.</li>
+</ul>
 <h4>Inventory Roadway Characteristics</h4>
 <p>The process of collecting roadway characteristics includes compiling geospatial data to create base maps for each of the priority sites. Roadway conditions are key criteria for selecting countermeasures. The agency may document and map the following roadway characteristics for priority sites (see Glossary for more information):</p>
-<p>» Speeds, including posted speed limits and</p>
+<ul>
+  <li>Speeds, including posted speed limits and</li>
+</ul>
 <p>actual speeds (i.e., 85th percentile speeds).</p>
-<p>» Number of travel lanes for each approach.</p>
-<p>» Center turn lanes, medians, or refuge islands.</p>
-<p>» Intersection turn lanes.</p>
-<p>» Vehicle queue lengths at intersections.</p>
-<p>» Width of roadway, from curb to curb.</p>
-<p>» Traffic volumes (AADT or ADT).</p>
-<p>» Large truck traffic volumes or large trucks</p>
+<ul>
+  <li>Number of travel lanes for each approach.</li>
+  <li>Center turn lanes, medians, or refuge islands.</li>
+  <li>Intersection turn lanes.</li>
+  <li>Vehicle queue lengths at intersections.</li>
+  <li>Width of roadway, from curb to curb.</li>
+  <li>Traffic volumes (AADT or ADT).</li>
+  <li>Large truck traffic volumes or large trucks</li>
+</ul>
 <p>as a percentage of total traffic.</p>
-<p>» On-street parking, alignment, and marked</p>
+<ul>
+  <li>On-street parking, alignment, and marked</li>
+</ul>
 <p>or signed restrictions.</p>
 <h4>Inventory Conditions and Prioritize Locations</h4></div>
 
@@ -57,30 +67,54 @@ sidebar:
 <p>Inventory Conditions and Prioritize Locations</p>
 <h4>Inventory Pedestrian Crossings and Observed Traffic Behavior</h4>
 <p>The agency can also document pedestrian crossing conditions. Agency staff can visit the sites and record the following crossing site features:</p>
-<p>» Crosswalk markings, presence, and types.</p>
-<p>» Crosswalk distance (in feet) and crossing</p>
+<ul>
+  <li>Crosswalk markings, presence, and types.</li>
+  <li>Crosswalk distance (in feet) and crossing</li>
+</ul>
 <p>phase duration (in seconds).</p>
-<p>» Signage, such as advance, crosswalk, and</p>
+<ul>
+  <li>Signage, such as advance, crosswalk, and</li>
+</ul>
 <p>in-street.</p>
-<p>» Traffic control devices and signals, such</p>
+<ul>
+  <li>Traffic control devices and signals, such</li>
+</ul>
 <p>as pedestrian crossing signal, pedestrian signal detector, STOP sign, RRFB, and PHB.</p>
-<p>» Signal phasing and restrictions, such</p>
+<ul>
+  <li>Signal phasing and restrictions, such</li>
+</ul>
 <p>as Leading Pedestrian Interval, split or concurrent phasing type, and turn restrictions.</p>
-<p>» Vertical elements, such as refuge island or</p>
+<ul>
+  <li>Vertical elements, such as refuge island or</li>
+</ul>
 <p>raised crosswalk.</p>
-<p>» Horizontal elements, such as curb</p>
+<ul>
+  <li>Horizontal elements, such as curb</li>
+</ul>
 <p>extensions, narrowed curb radii, Road Diet, or lane reconfiguration.</p>
-<p>» Accessibility features, such as curb ramps,</p>
+<ul>
+  <li>Accessibility features, such as curb ramps,</li>
+</ul>
 <p>truncated domes, and accessible signal push buttons.</p>
-<p>» Lighting and visibility enhancements, such</p>
+<ul>
+  <li>Lighting and visibility enhancements, such</li>
+</ul>
 <p>as overhead lighting.</p>
-<p>» Pedestrian volumes, including transit</p>
+<ul>
+  <li>Pedestrian volumes, including transit</li>
+</ul>
 <p>boarding volumes from nearby stops.</p>
-<p>» Pedestrian crossing behaviors near</p>
+<ul>
+  <li>Pedestrian crossing behaviors near</li>
+</ul>
 <p>important activity centers such as transit stops, schools, and in downtown districts.</p>
-<p>» Driver behaviors at crosswalks and</p>
+<ul>
+  <li>Driver behaviors at crosswalks and</li>
+</ul>
 <p>intersections.</p>
-<p>» Sight distance and visual clearance of</p>
+<ul>
+  <li>Sight distance and visual clearance of</li>
+</ul>
 <p>crossing.</p>
 <h4>Classify Pedestrian Crossings as Controlled or Uncontrolled</h4>
 <p>In addition to collecting inventory information about the priority sites, it is important that the agency categorize each crossing as either controlled or uncontrolled. Uncontrolled pedestrian crossing locations occur where sidewalks or designated walkways intersect a roadway at a location where no traffic control (i.e., traffic signal or STOP sign) is present. These common crossing types occur at intersections (where they may be marked or unmarked) and at non-intersection or midblock locations (where they must be marked as crossings). This guide describes countermeasures applicable to uncontrolled crossings. Some of these countermeasures can also be used for controlled crossings, and the agency should consult other guidance for specific implementation criteria at those sites.</p>

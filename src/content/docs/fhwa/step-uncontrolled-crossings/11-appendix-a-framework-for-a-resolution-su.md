@@ -31,25 +31,41 @@ sidebar:
 <h4>1. Example statistics that may raise awareness of pedestrian safety trends.</h4>
 <h4>SAMPLE LANGUAGE</h4>
 <p>“Whereas the number of pedestrian crashes per year and the percent of pedestrian fatalities out of all traffic fatalities in [State] demonstrate the need for improved pedestrian safety at roadway crossings…”</p>
-<p>» Percent pedestrian fatalities of total traffic</p>
+<ul>
+  <li>Percent pedestrian fatalities of total traffic</li>
+</ul>
 <p>fatalities.</p>
-<p>» Number of total pedestrian crashes/</p>
+<ul>
+  <li>Number of total pedestrian crashes/</li>
+</ul>
 <p>fatalities per year.</p>
-<p>» Percent of pedestrian crashes occurring</p>
+<ul>
+  <li>Percent of pedestrian crashes occurring</li>
+</ul>
 <p>outside the intersection.</p>
 <h4>2. List of broad issues that agencies commonly consider when discussing pedestrian safety and crash countermeasures.</h4>
 <h4>SAMPLE LANGUAGE</h4>
 <p>“Whereas [Agency/State] recognizes that safety is a priority for all road users, and improvements to pedestrian safety often improve safety for all road users…”</p>
-<p>» Safety is a priority for all road users.</p>
-<p>» Crossings are essential to a complete</p>
+<ul>
+  <li>Safety is a priority for all road users.</li>
+  <li>Crossings are essential to a complete</li>
+</ul>
 <p>network for pedestrian mobility.</p>
-<p>» Pedestrian safety is part of overall quality</p>
+<ul>
+  <li>Pedestrian safety is part of overall quality</li>
+</ul>
 <p>of life and improved public health.</p>
-<p>» Improvements to pedestrian safety often</p>
+<ul>
+  <li>Improvements to pedestrian safety often</li>
+</ul>
 <p>improve safety for all road users.</p>
-<p>» Pedestrian countermeasures are genreally</p>
+<ul>
+  <li>Pedestrian countermeasures are genreally</li>
+</ul>
 <p>lower-cost treatments.</p>
-<p>» Many pedestrian crash countermeasures</p>
+<ul>
+  <li>Many pedestrian crash countermeasures</li>
+</ul>
 <p>have been evaluated as highly effective.</p></div>
 
 
@@ -64,20 +80,34 @@ sidebar:
 <p>3. List of example planning documents that frequently discuss Statewide pedestrian safety concerns and may include statistics or other compelling reasons for implementing pedestrian crossing treatments.</p>
 <h4>SAMPLE LANGUAGE</h4>
 <p>“Whereas [State]'s Strategic Highway Safety Plan addresses pedestrian safety as an emphasis area…”</p>
-<p>» State Strategic Highway Safety Plan</p>
+<ul>
+  <li>State Strategic Highway Safety Plan</li>
+</ul>
 <p>includes pedestrian safety as an emphasis area.</p>
-<p>» State Highway Safety Plan includes</p>
+<ul>
+  <li>State Highway Safety Plan includes</li>
+</ul>
 <p>pedestrian safety programs or enforcement support.</p>
-<p>» State Roadway Design Manual includes</p>
+<ul>
+  <li>State Roadway Design Manual includes</li>
+</ul>
 <p>guidance for countermeasure design.</p>
-<p>» Highway Safety Improvement Program</p>
+<ul>
+  <li>Highway Safety Improvement Program</li>
+</ul>
 <p>includes safety performance targets for non-motorists.</p>
 <h4>4. List of Statewide opportunities for promoting, planning, and funding the construction of pedestrian crossing treatments.</h4>
 <h4>SAMPLE LANGUAGE</h4>
 <p>“Whereas [Agency]'s Highway Safety Improvement Program includes specific funding for pedestrian crash countermeasures…”</p>
-<p>» Highway Safety Improvement Program</p>
+<ul>
+  <li>Highway Safety Improvement Program</li>
+</ul>
 <p>includes specific focus or funding for pedestrian crash countermeasures.</p>
-<p>» Complete Streets Policy directs the</p>
+<ul>
+  <li>Complete Streets Policy directs the</li>
+</ul>
 <p>inclusion of pedestrian accommodations as part of other transportation projects.</p>
-<p>» Vision Zero or Towards Zero Deaths</p>
+<ul>
+  <li>Vision Zero or Towards Zero Deaths</li>
+</ul>
 <p>initiative strives to reduce or eliminate all traffic-related fatalities, including pedestrians.</p></div>

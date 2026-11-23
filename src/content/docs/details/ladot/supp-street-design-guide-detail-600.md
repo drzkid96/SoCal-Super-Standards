@@ -16,7 +16,9 @@ tableOfContents: false
 ### Sheet 1 of 8 (page 137)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0137.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0137.webp" alt="Detail 600 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p137">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>No general notes are printed on this sheet. Callouts refer to notes 2 and 3 of Detail 600, to sheets 3, 4 and 5 of the detail, to Standard Plan S-442 for curb ramps, and to LADOT Standard Drawing S-483.1 for pavement markings.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
+<p>No general notes are printed on this sheet. Callouts refer to notes 2 and 3 of Detail 600, to sheets 3, 4 and 5 of the detail, to Standard Plan S-442 for curb ramps, and to LADOT Standard Drawing S-483.1 for pavement markings.</p>
+</details>
 
 ### Sheet 2 of 8 (page 138)
 
@@ -45,14 +47,18 @@ tableOfContents: false
 ### Sheet 8 of 8 (page 144)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0144.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0144.webp" alt="Detail 600 sheet 8"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 8. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p144">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. The width of the top of raised crosswalks should match the width of the connecting sidewalk, shared use path, or desired crosswalk, but not less than 10 ft in width.</p>
-<p>2. Bottom edge of raised crossing approach ramp to be aligned with curb line of intersecting street to minimize impacts to surface stormwater flowline.</p>
-<p>3. Modifications to existing street paving, cold plane and overlay asphalt or completely reconstruct paving as necessary to restore a smooth transition and street crown (Standard Plan S-433, similar), match paving materials and thickness, see S-410 for standard curbs and gutters, and warp new gutter to join invert at inlet.</p>
-<p>4. Where positive drainage cannot be achieved, install side-opening catch basin per Standard Plan S-351, and connect to existing stormwater conveyance system.</p>
-<p>5. A raised crossing set back from the main street may create a new low point in front of the raised crossing. Drainage and catch basin placement will need to be considered.</p>
-<p>6. Place crosswalk 2 ft (MIN) from poles, hydrants, or other vertical obstructions.</p>
-<p>7. The Case C section (see Sheet 5) is appropriate on roadways with parking. The raised crossing should reach full height outside of active travel lanes. The Case 3 section [as printed] may not be appropriate on abnormally crowned roadways, where the cross slope exceeds 3.3%.</p>
-<p>8. For stop controlled side street, the maximum change in grade is 8%. For uncontrolled or signalized intersections, or for mid-block locations, the maximum change in grade is 5%.</p>
-<p>9. Crosswalk cross slopes should be no greater than 2%, however, at locations without stop control the cross slopes may be 5% max. and at midblock locations the cross slope may match the existing street grade.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
+<ol class="dwg-notes">
+<li value="1">The width of the top of raised crosswalks should match the width of the connecting sidewalk, shared use path, or desired crosswalk, but not less than 10 ft in width.</li>
+<li value="2">Bottom edge of raised crossing approach ramp to be aligned with curb line of intersecting street to minimize impacts to surface stormwater flowline.</li>
+<li value="3">Modifications to existing street paving, cold plane and overlay asphalt or completely reconstruct paving as necessary to restore a smooth transition and street crown (Standard Plan S-433, similar), match paving materials and thickness, see S-410 for standard curbs and gutters, and warp new gutter to join invert at inlet.</li>
+<li value="4">Where positive drainage cannot be achieved, install side-opening catch basin per Standard Plan S-351, and connect to existing stormwater conveyance system.</li>
+<li value="5">A raised crossing set back from the main street may create a new low point in front of the raised crossing. Drainage and catch basin placement will need to be considered.</li>
+<li value="6">Place crosswalk 2 ft (MIN) from poles, hydrants, or other vertical obstructions.</li>
+<li value="7">The Case C section (see Sheet 5) is appropriate on roadways with parking. The raised crossing should reach full height outside of active travel lanes. The Case 3 section [as printed] may not be appropriate on abnormally crowned roadways, where the cross slope exceeds 3.3%.</li>
+<li value="8">For stop controlled side street, the maximum change in grade is 8%. For uncontrolled or signalized intersections, or for mid-block locations, the maximum change in grade is 5%.</li>
+<li value="9">Crosswalk cross slopes should be no greater than 2%, however, at locations without stop control the cross slopes may be 5% max. and at midblock locations the cross slope may match the existing street grade.</li>
+</ol>
+</details>
 
 <section class="xidx-wrap" data-pagefind-weight="4"><h2 id="index-and-related">Related standards and index</h2><dl class="xidx"><div><dt>Refers to</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-483-1/"><b>S-483.1</b> Raised Crosswalks<span>MPP 531</span></a></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/rail-crossings/">Railroad and light rail crossings</a></dd></div><div><dt>Index entries</dt><dd><b>Pavement markings:</b> <a href="/SoCal-Super-Standards/keywords/#c-crosswalk">crosswalk</a> &middot; <b>Pedestrians and accessibility:</b> <a href="/SoCal-Super-Standards/keywords/#c-uncontrolled">uncontrolled crossing</a>, <a href="/SoCal-Super-Standards/keywords/#c-curbramp">curb ramp</a> &middot; <b>Traffic calming:</b> <a href="/SoCal-Super-Standards/keywords/#c-raisedxwalk">raised crosswalk</a> &middot; <b>Plans and CAD:</b> <a href="/SoCal-Super-Standards/keywords/#c-cad">CAD standards</a></dd></div></dl></section>

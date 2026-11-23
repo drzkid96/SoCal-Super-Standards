@@ -14,10 +14,14 @@ tableOfContents: false
 ## Sheet
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0018.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0018.webp" alt="A24L sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A24L, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/03-pages-13-18/#p18">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>1. Exact location for speed reduction pavement markings will be determined by the Engineer.</p>
-<p>2. Do not cover pavement markings.</p>
-<p>3. Speed reduction markings are white. Contrast treatment is black.</p>
-<p>4. Engineer to determine length and spacing based on approach and target speeds in the field.</p>
-<p>Legend: arrow symbol means direction of travel.</p></details>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
+<ol class="dwg-notes">
+<li value="1">Exact location for speed reduction pavement markings will be determined by the Engineer.</li>
+<li value="2">Do not cover pavement markings.</li>
+<li value="3"><strong>Speed reduction markings are white.</strong> Contrast treatment is black.</li>
+<li value="4">Engineer to determine length and spacing based on approach and target speeds in the field.</li>
+</ol>
+<p>Legend: arrow symbol means direction of travel.</p>
+</details>
 
 <section class="xidx-wrap" data-pagefind-weight="4"><h2 id="index-and-related">Related standards and index</h2><dl class="xidx"><div><dt>Caltrans striping details</dt><dd><a class="kchip dref" href="/SoCal-Super-Standards/markings/line-types/#detail-25" data-svg="/SoCal-Super-Standards/linetypes/detail-25.svg">Detail 25</a> <a class="kchip dref" href="/SoCal-Super-Standards/markings/line-types/#detail-12a" data-svg="/SoCal-Super-Standards/linetypes/detail-12a.svg">Detail 12A</a> <a class="kchip dref" href="/SoCal-Super-Standards/markings/line-types/#detail-27b" data-svg="/SoCal-Super-Standards/linetypes/detail-27b.svg">Detail 27B</a></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/speed-and-calming/">Speed limits, speed zones and traffic calming</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a></dd></div><div><dt>Index entries</dt><dd><b>Pavement markings:</b> <a href="/SoCal-Super-Standards/keywords/#c-laneline">lane line</a> &middot; <b>Operations and analysis:</b> <a href="/SoCal-Super-Standards/keywords/#c-speed">speed management</a></dd></div></dl></section>

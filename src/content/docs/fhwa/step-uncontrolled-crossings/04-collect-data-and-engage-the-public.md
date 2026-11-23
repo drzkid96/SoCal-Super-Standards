@@ -15,11 +15,15 @@ sidebar:
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>GUIDING PRINCIPLES</h4>
 <p>This section describes optional methods for describing existing pedestrian safety trends and engaging stakeholders. The following are important considerations for this step in the process of selecting countermeasures:</p>
-<p>» Review existing plans for safety statistics and locations previously identified for safety improvements.</p>
-<p>» Develop a resolution or policy statement in support of improving pedestrian safety at uncontrolled crossing locations.</p>
-<p>» If a formal process is preferred, initiate a Pedestrian Safety Action Plan to engage the community and identify</p>
+<ul>
+  <li>Review existing plans for safety statistics and locations previously identified for safety improvements.</li>
+  <li>Develop a resolution or policy statement in support of improving pedestrian safety at uncontrolled crossing locations.</li>
+  <li>If a formal process is preferred, initiate a Pedestrian Safety Action Plan to engage the community and identify</li>
+</ul>
 <p>priority locations.</p>
-<p>» If a less formal process is preferred, document public comments previously received or conduct a walkability audit</p>
+<ul>
+  <li>If a less formal process is preferred, document public comments previously received or conduct a walkability audit</li>
+</ul>
 <p>to identify locations generally considered as less safe for pedestrians crossing.</p>
 <h4>Collect Pedestrian Crash and Safety Data</h4>
 <p>Crash reports completed by law enforcement agencies may include information about driver and pedestrian actions, as well as environmental conditions when and where the crash occurred. These data are helpful to understand safety issues in the area. Crash data may be geocoded and mapped. The agency can collect crash maps, request crash reports (as needed), and contact public health officials for other pedestrian injury data.</p>

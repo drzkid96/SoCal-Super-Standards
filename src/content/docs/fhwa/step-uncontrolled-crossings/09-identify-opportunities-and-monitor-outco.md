@@ -16,21 +16,31 @@ sidebar:
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>GUIDING PRINCIPLES</h4>
 <p>This section describes possible options for funding and implementation of the countermeasures described in this guide. The following are important considerations for this step:</p>
-<p>» Review the State's HSIP process for considering and funding pedestrian crossing countermeasures.</p>
-<p>» Review local traffic calming and land development policies for opportunities to install pedestrian crossing</p>
+<ul>
+  <li>Review the State's HSIP process for considering and funding pedestrian crossing countermeasures.</li>
+  <li>Review local traffic calming and land development policies for opportunities to install pedestrian crossing</li>
+</ul>
 <p>countermeasures.</p>
-<p>» Consider the costs to design, install, and maintain selected countermeasures.</p>
-<p>» Collect usage and crash data for at least three years after countermeasures are installed at priority sites.</p>
-<p>» Continue to monitor priority sites not funded for countermeasure installation.</p>
-<p>» Provide information to the public about planned countermeasure projects. Information should address the safety</p>
+<ul>
+  <li>Consider the costs to design, install, and maintain selected countermeasures.</li>
+  <li>Collect usage and crash data for at least three years after countermeasures are installed at priority sites.</li>
+  <li>Continue to monitor priority sites not funded for countermeasure installation.</li>
+  <li>Provide information to the public about planned countermeasure projects. Information should address the safety</li>
+</ul>
 <p>benefits and possible impacts to traffic operations.</p>
 <h4>Consider Funding Options</h4>
 <p>A major consideration when selecting a safety project or program is identifying and securing the funding to design, construct, operate, and maintain the project or program. FHWA, NHTSA, and other Federal agencies distribute funding to States and other jurisdictions for transportation safety projects. If local funding is scarce, agencies may approach the State Departments of Transportation for safety improvement funding consideration. Some projects may require a local match to leverage State or Federal dollars. The agency may consider the following steps:</p>
-<p>» Submit high-priority pedestrian crash</p>
+<ul>
+  <li>Submit high-priority pedestrian crash</li>
+</ul>
 <p>locations as HSIP projects.</p>
-<p>» Consider other State safety funding</p>
+<ul>
+  <li>Consider other State safety funding</li>
+</ul>
 <p>programs for low-cost pedestrian safety improvements.</p>
-<p>» Address gaps in pedestrian</p>
+<ul>
+  <li>Address gaps in pedestrian</li>
+</ul>
 <p>accommodations through other State or Federal funding programs such as Transportation Alternatives Program, Congestion Mitigation and Air Quality, and Surface Transportation Block Grant (STBG).</p>
 <h4>Identify Opportunities and Monitor Outcomes</h4></div>
 

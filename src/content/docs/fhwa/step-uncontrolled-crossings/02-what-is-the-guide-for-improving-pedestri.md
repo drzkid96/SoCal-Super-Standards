@@ -19,7 +19,14 @@ sidebar:
 <p>This document was produced by the Federal Highway Administration (FHWA) as part of the Safe Transportation for Every Pedestrian (STEP) program. STEP is part of the fourth round of Every Day Counts. STEP's purpose is to help transportation agencies address crashes by promoting countermeasures with known safety benefits at uncontrolled crossing locations.</p>
 <p>Uncontrolled pedestrian crossing locations occur where sidewalks or designated walkways intersect a roadway at a location where no traffic control (i.e. traffic signal or STOP sign) is present. These common crossing types occur at intersections (where they may be marked or unmarked) and at non-intersection or midblock locations (where they must be marked as crossings). Overall, uncontrolled pedestrian crossing locations correspond to higher pedestrian crash rates, often due to inadequate pedestrian crossing accommodations.</p>
 <p>By focusing on uncontrolled crossing locations, local and State agencies can address a significant national safety problem and improve quality of life for pedestrians of all ages and abilities. STEP promotes the following six effective and lower-cost countermeasures that communities can deploy based on their specific needs:</p>
-<p>» Crosswalk visibility enhancements (i.e., high-visibility crosswalk markings, parking restriction on crosswalk approach, improved lighting, advance Yield Here To [Stop Here For] Pedestrians sign and yield [stop] line, In- Street Pedestrian Crossing sign, and curb extension). » Raised crosswalk. » Pedestrian refuge island. » Pedestrian Hybrid Beacon (PHB). » Road Diet. » Rectangular Rapid-Flashing Beacon (RRFB).</p>
+<ul>
+  <li>Crosswalk visibility enhancements (i.e., high-visibility crosswalk markings, parking restriction on crosswalk approach, improved lighting, advance Yield Here To [Stop Here For] Pedestrians sign and yield [stop] line, In- Street Pedestrian Crossing sign, and curb extension).</li>
+  <li>Raised crosswalk.</li>
+  <li>Pedestrian refuge island.</li>
+  <li>Pedestrian Hybrid Beacon (PHB).</li>
+  <li>Road Diet.</li>
+  <li>Rectangular Rapid-Flashing Beacon (RRFB).</li>
+</ul>
 <p>These countermeasures and their safety benefits are described further in this guide. The guide also includes best practices for identifying locations and installing countermeasures at uncontrolled pedestrian crossing locations.</p></div>
 
 

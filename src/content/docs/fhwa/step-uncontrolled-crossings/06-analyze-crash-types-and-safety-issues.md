@@ -16,21 +16,29 @@ sidebar:
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>GUIDING PRINCIPLES</h4>
 <p>This section describes methods for summarizing pedestrian crash types and observed traffic safety issues. This information is important for selecting countermeasures. The following are important considerations for this step:</p>
-<p>» Diagram crashes according to information included on crash reports (see Figure 5 for a sample diagram).</p>
-<p>» Review the crash types described by the Pedestrian Safety Guide and Countermeasure Selection System (PEDSAFE).</p>
-<p>» Conduct a pedestrian Road Safety Audit (RSA) to formally engage representatives from various departments and</p>
+<ul>
+  <li>Diagram crashes according to information included on crash reports (see Figure 5 for a sample diagram).</li>
+  <li>Review the crash types described by the Pedestrian Safety Guide and Countermeasure Selection System (PEDSAFE).</li>
+  <li>Conduct a pedestrian Road Safety Audit (RSA) to formally engage representatives from various departments and</li>
+</ul>
 <p>interest groups.</p>
-<p>» Lead an informal site visit to engage stakeholders and describe conditions observed in the field.</p>
+<ul>
+  <li>Lead an informal site visit to engage stakeholders and describe conditions observed in the field.</li>
+</ul>
 <h4>Diagram Crash Reports</h4>
 <p>Crash diagrams are created to graphically illustrate crash data associated with a given site. Each crash is plotted on a schematic of the site at the approximate location where the crash occurred. Icons are used to represent crash types so that patterns are identifiable. Spatial analysis tools like GIS can also enhance the analysis. Crash diagrams are sometimes plotted on aerial imagery and cross referenced with a tabular listing of the associated crash data so that agency staff can easily access key information. Crash diagrams are useful when there are many crashes associated with a site. An agency may not have sufficient pedestrian crash history to reveal crash patterns, but the absence of crash</p>
 <p>data does not necessarily mean a safety problem does not exist. In these cases, an agency should consider systemic analysis.</p>
 <h4>Identify Crash Factors</h4>
 <p>Whether an agency is assembling the crash diagrams or simply conducting an exercise to identify potential factors for pedestrian crashes in their jurisdiction, these factors can be considered:</p>
-<p>» Vehicle speed.</p>
-<p>» Compliance with regulations and traffic</p>
+<ul>
+  <li>Vehicle speed.</li>
+  <li>Compliance with regulations and traffic</li>
+</ul>
 <p>devices.</p>
-<p>» Pedestrian crossing behaviors.</p>
-<p>» Built environment or area type.</p>
+<ul>
+  <li>Pedestrian crossing behaviors.</li>
+  <li>Built environment or area type.</li>
+</ul>
 <h4>Analyze Crash Types and Safety Issues</h4></div>
 
 
@@ -43,16 +51,24 @@ sidebar:
 <div class="dtext"><p>13</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Analyze Crash Types and Safety Issues</p>
-<p>» Intersection presence and types of traffic</p>
+<ul>
+  <li>Intersection presence and types of traffic</li>
+</ul>
 <p>control devices.</p>
-<p>» Pedestrian crossing distance.</p>
-<p>» Time of day/day of week/seasonal factors.</p>
-<p>» Alcohol involvement by pedestrians or</p>
+<ul>
+  <li>Pedestrian crossing distance.</li>
+  <li>Time of day/day of week/seasonal factors.</li>
+  <li>Alcohol involvement by pedestrians or</li>
+</ul>
 <p>drivers.</p>
-<p>» Demographics.</p>
-<p>» Special populations, such as school-aged</p>
+<ul>
+  <li>Demographics.</li>
+  <li>Special populations, such as school-aged</li>
+</ul>
 <p>children, older adults, and persons with disabilities.</p>
-<p>» Presence of transit stops.</p>
+<ul>
+  <li>Presence of transit stops.</li>
+</ul>
 <h4>Conduct a Road Safety Audit (RSA)</h4>
 <p>An RSA is the formal safety performance examination of an existing or future road or intersection by an independent, multidisciplinary team. It qualitatively estimates and reports on potential road safety issues and identifies opportunities for improvements in safety for all road users. An RSA considers all users of the roadway and human factors and generates a formal report and response upon its conclusion. The agency can use the field conditions inventory and crash type summary during the RSA process. RSAs typically produce multiple planning-level countermeasure recommendations for the study corridor or area.</p>
 <p>Figure 5. Pedestrian collision summary.</p>

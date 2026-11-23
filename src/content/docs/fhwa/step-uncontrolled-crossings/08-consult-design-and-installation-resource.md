@@ -16,17 +16,23 @@ sidebar:
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>GUIDING PRINCIPLES</h4>
 <p>This section identifies additional resources that refine countermeasure options for priority sites. The following are important considerations for this step:</p>
-<p>» Consult the MUTCD for recommendations for signage and roadway markings for all countermeasures.</p>
-<p>» Review the MUTCD (Part 4) for more considerations, including pedestrian volumes and vehicle operating speeds,</p>
+<ul>
+  <li>Consult the MUTCD for recommendations for signage and roadway markings for all countermeasures.</li>
+  <li>Review the MUTCD (Part 4) for more considerations, including pedestrian volumes and vehicle operating speeds,</li>
+</ul>
 <p>for the installation of PHBs.</p>
-<p>» Consult local and national design guidance for the preferred width and placement of these countermeasures.</p>
+<ul>
+  <li>Consult local and national design guidance for the preferred width and placement of these countermeasures.</li>
+</ul>
 <h4>Review Agency Design Guidelines</h4>
 <p>The agency can review and, if needed, enhance local guidance for traffic engineers and roadway designers to follow when installing countermeasures. The agency’s roadway design manual can include details, such as design and installation guidance, for each of the countermeasure options. The agency may also consider creating additional warrant and threshold guidance for countermeasures such as the Road Diet, considering local conditions.</p>
 <h4>Consult the MUTCD</h4>
 <p>The agency may focus on three parts of the MUTCD for additional considerations when installing countermeasures:</p>
-<p>» Part 2: Signs.</p>
-<p>» Part 3: Markings.</p>
-<p>» Part 4: Highway Traffic Signals (includes</p>
+<ul>
+  <li>Part 2: Signs.</li>
+  <li>Part 3: Markings.</li>
+  <li>Part 4: Highway Traffic Signals (includes</li>
+</ul>
 <p>detailed guidance for installing Pedestrian Hybrid Beacons based on traffic speeds, traffic volumes, and pedestrian volumes).</p>
 <h4>RESOURCE</h4>
 <p>AASHTO Guide for the Planning, Design, and Operation of Pedestrian Facilities, 1st Edition (2004)</p>

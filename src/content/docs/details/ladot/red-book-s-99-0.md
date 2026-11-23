@@ -16,8 +16,9 @@ tableOfContents: false
 ### Sheet 1 of 5 (page 107)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0107.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0107.webp" alt="S-99.0 sheet 1"></a><figcaption>Red Book S-99.0, sheet 1. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p107">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><h5>General notes:</h5>
-<h5>Design:</h5>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
+<h5 class="dwg-sub">General notes</h5>
+<h5 class="dwg-sub">Design</h5>
 <p>- Sign support structures designed in accordance with AASHTO Standard Specifications for Structural Support for Highway Signs, Luminaires and Traffic Signals: 5th edition.</p>
 <p>- Sign weight used for sign support structure design is 3 psf.</p>
 <p>- Basic wind speed (3 second gust) used for sign support structures design is 100 MPH, G = 1.14, I = 1.0 (50 year recurrence interval).</p>
@@ -44,12 +45,14 @@ tableOfContents: false
 <p>- Anchor rod washers shall conform to ASTM F436.</p>
 <p>- Anchor rod nuts shall conform to ASTM A563 GR. DH with supplementary requirements &quot;S1&quot; and &quot;S2&quot;.</p>
 <p>- Anchor rods shall be hot-dip galvanized full length.</p>
-<p>Plan callouts: 40&#x27;-0&quot; MAX sign length; 6&#x27;-0&quot; MAX sign height and support spacing; 2&#x27;-6&quot; MAX; 20&#x27;-0&quot; CLEAR; 25&#x27;-0&quot; MAX; centroid of sign area; level.</p></details>
+<p>Plan callouts: 40&#x27;-0&quot; MAX sign length; 6&#x27;-0&quot; MAX sign height and support spacing; 2&#x27;-6&quot; MAX; 20&#x27;-0&quot; CLEAR; 25&#x27;-0&quot; MAX; centroid of sign area; level.</p>
+</details>
 
 ### Sheet 2 of 5 (page 108)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0108.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0108.webp" alt="S-99.0 sheet 2"></a><figcaption>Red Book S-99.0, sheet 2. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p108">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
+<p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
 <p>- Full depth 1/4&quot; plate stiffener each side of web (clip corners for zinc drain).</p>
 <p>- Luminaires and luminaire arms as required.</p>
 <p>- Luminaire support arm if luminaire is required.</p>
@@ -65,24 +68,28 @@ tableOfContents: false
 <p>- 4 - 5/8&quot; dia. x WA + 4-1/2&quot; threaded rods (double nut each rod). 5/16&quot; thick rectangular washers with 2 - 11/16&quot; dia. holes. C6 x 10.5 with 4 - 11/16&quot; x 1&quot; slotted holes.</p>
 <p>- 4 - 1/2&quot; dia. x HS bolts with nut and hardened washer.</p>
 <p>- Design luminaire: style MAQ-A120-7-LED-E1-SW-GM-DM-RD or equivalent, projected area 3.3 FT2, weight 60 lbs, LED count 2, 3 and 4 for sign lengths of 10&#x27;-20&#x27;, 20&#x27;-30&#x27; and 30&#x27;-40&#x27;.</p>
-<p>- General notes for the series are on sheet S-1.</p></details>
+<p>- General notes for the series are on sheet S-1.</p>
+</details>
 
 ### Sheet 3 of 5 (page 109)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0109.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0109.webp" alt="S-99.0 sheet 3"></a><figcaption>Red Book S-99.0, sheet 3. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p109">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
+<p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
 <p>- (3) - 1/2&quot; diameter holes to match 3/8&quot; diameter stainless steel bolts.</p>
 <p>- 6&quot; dia hole through flange plates and post wall.</p>
 <p>- NH = number of bolts in horizontal row. NV = number of bolts in vertical column. HS = spacing of bolts in horizontal row. VS = spacing of bolts in vertical column.</p>
 <p>- Arm cap: drill and tap for (4) - 3/8&quot; dia. 1&quot; hex head stainless steel bolts. Post cap ring - 1&quot; x 0.5&quot;. Arm cap ring - 1&quot; x 0.5&quot;. 3/8&quot; thick plate. Note: see tube selection table on sheet S-1 for ta.</p>
 <p>- Post cap: cap shall be 1/8&quot; convex at center to shed water. Drill and tap for (3) - 3/8&quot; dia. 1&quot; hex head stainless steel bolts. Note: see tube selection table on sheet S-1 for tp.</p>
 <p>- Flange plate weld detail: CJP, 3/8&quot; and 3/16&quot; and 7/16&quot; welds, 1&quot; x 1/4&quot; backing ring, &quot;db&quot; dia HS bolt.</p>
-<p>- General notes for the series are on sheet S-1.</p></details>
+<p>- General notes for the series are on sheet S-1.</p>
+</details>
 
 ### Sheet 4 of 5 (page 110)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0110.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0110.webp" alt="S-99.0 sheet 4"></a><figcaption>Red Book S-99.0, sheet 4. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p110">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
+<p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
 <p>- Note: see base plate table for base plate and anchor bolt information.</p>
 <p>- &quot;N&quot; holes. Hole dia. = bolt dia. &quot;DAR&quot; + 1/4&quot;.</p>
 <p>- Locate anchor rod hole here (arm centerline).</p>
@@ -95,12 +102,14 @@ tableOfContents: false
 <p>- Forged steel 1/1/2&quot; NPT [printed as shown] class 3000 threaded half coupling. Inside edge of conduit hub shall be smooth.</p>
 <p>- Provide threaded insert plug at locations where conduit is not installed.</p>
 <p>- 1-1/4&quot; dia. galvanizing drain hole, typ, 1/4&quot; clear of backing ring.</p>
-<p>- General notes for the series are on sheet S-1.</p></details>
+<p>- General notes for the series are on sheet S-1.</p>
+</details>
 
 ### Sheet 5 of 5 (page 111)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/red-book/p0111.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/red-book/p0111.webp" alt="S-99.0 sheet 5"></a><figcaption>Red Book S-99.0, sheet 5. <a href="/SoCal-Super-Standards/ladot/red-book/07-pages-97-112/#p111">Open in the document</a>.</figcaption></figure>
-<details class="ocr"><summary>Sheet notes</summary><p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
+<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
+<p>This sheet has no numbered general notes. Notes and callouts on the sheet:</p>
 <p>- Final grade slope shall not exceed 1:2.5 within 5&#x27;-0&quot; of support centerline (CL).</p>
 <p>- CL post = CL shaft.</p>
 <p>- Double ties at top.</p>
@@ -108,6 +117,7 @@ tableOfContents: false
 <p>- 2&quot; dia conduit.</p>
 <p>- Lap 1&#x27;-3-3/4&quot; for the transverse reinforcement. 3&quot; CL. MIN. (clear minimum) cover.</p>
 <p>- This CL parallel to sign face.</p>
-<p>- General notes for the series are on sheet S-1.</p></details>
+<p>- General notes for the series are on sheet S-1.</p>
+</details>
 
 <section class="xidx-wrap" data-pagefind-weight="4"><h2 id="index-and-related">Related standards and index</h2><dl class="xidx"><div><dt>Related in LADOT</dt><dd><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-92-2/"><b>S-92.2</b> 34&#x27; Cantilever Sign Standard and Foundation Details<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-92-3/"><b>S-92.3</b> 22&#x27; Cantilever Sign Standard Detail<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-92-4/"><b>S-92.4</b> 14&#x27; Cantilever Changeable Message Sign<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-45-0/"><b>S-45.0</b> Laminated Overhead Sign Mounting System<span>Red Book</span></a><a class="xchip" href="/SoCal-Super-Standards/details/ladot/red-book-s-98-0/"><b>S-98.0</b> Sign, Cantilever, 12&#x27; Arm Special (Arm Mounting Height 20&#x27;-6&quot;)<span>Red Book</span></a></dd></div><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/street-name-and-guide-signs/">Street name and guide signs</a></dd></div><div><dt>Index entries</dt><dd><b>Poles, foundations and structures:</b> <a href="/SoCal-Super-Standards/keywords/#c-found">foundation</a>, <a href="/SoCal-Super-Standards/keywords/#c-overhead">overhead sign structure</a></dd></div></dl></section>
