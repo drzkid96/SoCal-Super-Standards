@@ -40,7 +40,7 @@ window.__openSiteSearch = function (query) {
   }
   function hide() { cur = null; tip.classList.remove('on'); }
   document.addEventListener('mouseover', (e) => { const a = e.target.closest && e.target.closest('a.sref, a[data-svg]'); if (a && a.dataset.svg) show(a); else if (cur) hide(); });
-  document.addEventListener('focusin', (e) => { const a = e.target.closest && e.target.closest('a.sref'); if (a) show(a); });
+  document.addEventListener('focusin', (e) => { const a = e.target.closest && e.target.closest('a.sref'); if (a?.dataset.svg) show(a); });
   document.addEventListener('scroll', hide, { passive: true });
 
   // Page previews for every internal link: one image, or a set for sign and marking pages.
@@ -241,7 +241,7 @@ window.__openSiteSearch = function (query) {
   }
 
   async function search(raw) {
-    const trimmed = raw.trim();
+    const trimmed = raw.trim().replace(/^(?:LA\s+)?BOE\s+(?=E[ -]*\d)/i, '');
     if (!trimmed) return [];
     await loadLook();
     const k = norm(trimmed);
@@ -312,7 +312,20 @@ window.__openSiteSearch = function (query) {
     const res = el.querySelector('.ql-res');
     const clearBtn = el.querySelector('.ql-clear');
     const fullBtn = el.querySelector('[data-open-search]');
-    let t, idx = -1, items = [];
+    let t, idx = -1, items = [], renderedQuery = '', request = 0;
+    res.id ||= 'lookup-list-' + [...document.querySelectorAll('.quick-lookup')].indexOf(el);
+    inp.setAttribute('role', 'combobox');
+    inp.setAttribute('aria-autocomplete', 'list');
+    inp.setAttribute('aria-controls', res.id);
+    inp.setAttribute('aria-expanded', 'false');
+    const close = () => {
+      request++;
+      clearTimeout(t);
+      idx = -1;
+      res.classList.remove('open');
+      inp.setAttribute('aria-expanded', 'false');
+      inp.removeAttribute('aria-activedescendant');
+    };
 
     const setActive = (next) => {
       const links = [...res.querySelectorAll('a.ql-item, button.ql-all')];
@@ -322,24 +335,28 @@ window.__openSiteSearch = function (query) {
         a.classList.toggle('active', i === idx);
         a.setAttribute('aria-selected', String(i === idx));
       });
+      inp.setAttribute('aria-activedescendant', links[idx].id);
       links[idx].scrollIntoView({ block: 'nearest' });
     };
 
     const render = (list, raw) => {
+      renderedQuery = raw;
+      inp.removeAttribute('aria-activedescendant');
       items = list;
       idx = -1;
       if (!raw.trim()) {
         res.innerHTML = '';
-        res.classList.remove('open');
+        close();
         return;
       }
-      const rows = list.map((r) =>
-        `<a class="ql-item" role="option" aria-selected="false" href="${r.url}"><span class="ql-tag ${r.cls}">${esc(r.tag)}</span><span class="ql-lbl">${esc(r.label)}</span></a>`
+      const rows = list.map((r, i) =>
+        `<a class="ql-item" id="${res.id}-${i}" role="option" aria-selected="false" href="${r.url}"><span class="ql-tag ${r.cls}">${esc(r.tag)}</span><span class="ql-lbl">${esc(r.label)}</span></a>`
       ).join('');
       const empty = !list.length ? `<div class="ql-empty">No direct code or title match for &ldquo;${esc(raw.trim())}&rdquo;.</div>` : '';
-      const footer = `<button type="button" class="ql-all" role="option" aria-selected="false">Search full text across all pages for &ldquo;${esc(raw.trim())}&rdquo; &rarr;</button>`;
+      const footer = `<button type="button" class="ql-all" id="${res.id}-full" role="option" aria-selected="false">Search full text across all pages for &ldquo;${esc(raw.trim())}&rdquo; &rarr;</button>`;
       res.innerHTML = rows + empty + footer;
       res.classList.add('open');
+      inp.setAttribute('aria-expanded', 'true');
       const allBtn = res.querySelector('.ql-all');
       if (allBtn) allBtn.onclick = () => window.__openSiteSearch(inp.value);
     };
@@ -348,27 +365,46 @@ window.__openSiteSearch = function (query) {
       const raw = inp.value;
       if (clearBtn) clearBtn.hidden = !raw;
       if (!raw.trim()) { render([], ''); return; }
-      const r = await search(raw);
-      if (inp.value === raw) render(r, raw);
+      const sequence = ++request;
+      try {
+        const r = await search(raw);
+        if (sequence === request && inp.value === raw) render(r, raw);
+      } catch {
+        if (sequence === request && inp.value === raw) {
+          render([], raw);
+          res.querySelector('.ql-empty').textContent = 'Quick lookup is unavailable. Try full-text search.';
+        }
+      }
     };
 
     inp.addEventListener('input', () => {
       if (clearBtn) clearBtn.hidden = !inp.value;
-      clearTimeout(t);
-      t = setTimeout(runQuery, 110);
+      close();
+      if (inp.value.trim()) t = setTimeout(runQuery, 110);
     });
     inp.addEventListener('focus', () => { if (inp.value.trim() && !res.classList.contains('open')) runQuery(); });
     inp.addEventListener('keydown', async (e) => {
+      if (e.key === 'Tab') { close(); return; }
+      if (['ArrowUp','ArrowDown'].includes(e.key) && !res.classList.contains('open')) {
+        if (!inp.value.trim()) return;
+        e.preventDefault();
+        await runQuery();
+        if (res.classList.contains('open')) setActive(e.key === 'ArrowUp' ? -1 : 0);
+        return;
+      }
       if (e.key === 'ArrowDown') { e.preventDefault(); setActive(idx + 1); return; }
-      if (e.key === 'ArrowUp') { e.preventDefault(); setActive(idx - 1); return; }
-      if (e.key === 'Escape') { res.classList.remove('open'); idx = -1; return; }
+      if (e.key === 'ArrowUp') { e.preventDefault(); setActive(idx < 0 ? -1 : idx - 1); return; }
+      if (e.key === 'Escape') { close(); return; }
       if (e.key !== 'Enter') return;
       e.preventDefault();
       const links = [...res.querySelectorAll('a.ql-item, button.ql-all')];
       if (idx >= 0 && links[idx]) { links[idx].click(); return; }
-      const r = items.length ? items : await search(inp.value);
+      const query = inp.value;
+      if (!query.trim()) return;
+      const r = renderedQuery === query ? items : await search(query).catch(() => []);
+      if (inp.value !== query) return;
       if (r.length) location.href = r[0].url;
-      else window.__openSiteSearch(inp.value);
+      else window.__openSiteSearch(query);
     });
 
     if (clearBtn) {
@@ -397,7 +433,7 @@ window.__openSiteSearch = function (query) {
     }
 
     document.addEventListener('click', (ev) => {
-      if (!el.contains(ev.target) && !(wrap && wrap.contains(ev.target))) res.classList.remove('open');
+      if (!el.contains(ev.target) && !(wrap && wrap.contains(ev.target))) close();
     });
   }
 
@@ -915,3 +951,29 @@ window.__openSiteSearch = function (query) {
   });
 })();
 
+
+window.__ready(() => {
+  const input = document.getElementById('boe-filter');
+  if (!input) return;
+  const groups = [...document.querySelectorAll('.boe-group')];
+  const count = document.getElementById('boe-count');
+  const clean = value => value.toLowerCase().replace(/\be[\s-]*(?=\d)/g, 'e').replace(/[^a-z0-9]+/g, ' ').trim();
+  let prior = null;
+  input.addEventListener('input', () => {
+    const terms = clean(input.value).split(' ').filter(Boolean);
+    if (terms.length && !prior) prior = groups.map(group => group.open);
+    let matches = 0;
+    groups.forEach((group,i) => {
+      let found = 0;
+      group.querySelectorAll('li').forEach(row => {
+        row.hidden = !terms.every(t => clean(row.textContent).includes(t));
+        if (!row.hidden) found++;
+      });
+      group.hidden = !found;
+      if (terms.length || prior) group.open = terms.length ? !!found : prior[i];
+      matches += found;
+    });
+    count.textContent = terms.length ? (matches ? matches+' matching sections' : 'No matching sections. Try a shorter term or a section number.') : '';
+    if (!terms.length) prior = null;
+  });
+});

@@ -34,6 +34,14 @@ jobs:
           path: |
             src/content/docs/boe/street-design
             public/data/boe-sections.json
+      - uses: actions/cache@v4
+        with:
+          path: .fhwa-releases
+          key: fhwa-layouts-${{ hashFiles('pipeline/render_fhwa_sheets.py') }}
+      - name: Prepare FHWA dimensioned layouts
+        run: |
+          python -m pip install pymupdf pillow
+          python pipeline/render_fhwa_sheets.py .fhwa-releases
       - uses: withastro/action@v3
         with:
           node-version: 22

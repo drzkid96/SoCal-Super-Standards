@@ -61,7 +61,9 @@
     viewer(frames,heads.map(h=>h.textContent.trim()),heads.map((h,i)=>frames[i].querySelector('.anchor[id],figure[id]')?.id || h.id));
   }
 
-  for (const group of article.querySelectorAll('.mfig-inline,.mfig-grid,.thumbgrid,.sdetail-img')) {
+  for (const group of article.querySelectorAll('.mfig-inline,.mfig-grid,.thumbgrid,.sdetail-img,.mgrid')) {
+    // Topic-card galleries remain browsable together. Page only groups made entirely of scan figures.
+    if (group.matches('.mgrid') && ![...group.children].every(e => e.matches('figure.mfig') && e.querySelector('a[href*="/figs/"]'))) continue;
     const thumb = group.matches('.thumbgrid');
     const sign = group.matches('.sdetail-img');
     const pages = [...group.children].filter(el => el.matches(thumb ? 'a' : sign ? 'img' : 'figure'));

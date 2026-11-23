@@ -83,7 +83,7 @@ for page in DIST.rglob('*.html'):
             phrase=match[0]; url=targets.get(phrase.casefold())
             lastchar=match.end()
             if match['web']:
-                phrase=phrase.rstrip('.,;:!?')
+                phrase=phrase.rstrip('.,;:!?]')
                 if phrase.endswith(')') and phrase.count(')')>phrase.count('('):phrase=phrase[:-1]
                 if not urlsplit(phrase).hostname:continue
                 lastchar=match.start()+len(phrase)

@@ -69,13 +69,14 @@ def span_runs(span, strokes):
 
 def provisions(path):
     records = {}
+    occurrences = {}
     section = number = None
     with fitz.open(path) as pdf:
         for physical, page in enumerate(pdf, 1):
             plain = page.get_text()
             if not re.search(r'Section\s+\d[A-Z]\.\d|^\s*\d{2}[a-z]?\s*$', plain, re.M):
                 continue
-            if re.search(r'Chapter [^\n]+\((Figures|Tables)\)', plain):
+            if re.match(r'\s*(?:Figure|Table)\s+\d[A-Z]-\d', plain) or re.search(r'Chapter [^\n]+\((Figures|Tables)\)', plain):
                 continue
             strokes = horizontal_strokes(page)
             for block in page.get_text('rawdict', flags=fitz.TEXTFLAGS_RAWDICT & ~fitz.TEXT_PRESERVE_IMAGES)['blocks']:
@@ -83,12 +84,14 @@ def provisions(path):
                     if not 38 < line['bbox'][1] < 730:
                         continue
                     spans = [(s, ''.join(c['c'] for c in s['chars'])) for s in line['spans']]
-                    spans = [(s,t) for s,t in spans if t.strip()]
+                    # Some Caltrans headings store each inter-word space in its own span.
+                    while spans and not spans[0][1].strip():
+                        spans.pop(0)
                     if not spans:
                         continue
                     first, text = spans[0]
                     raw = ''.join(t for _,t in spans).strip()
-                    heading = SECTION.match(raw) if 'Bold' in first['font'] and first['size'] >= 11.5 else None
+                    heading = SECTION.match(raw) if (first['size'] >= 11.5 or (first['size'] >= 10.5 and first['flags'] & 16 and first['origin'][0] < 40)) and first['origin'][0] < 100 else None
                     if heading:
                         section = heading[1].replace(' ', '')
                         number = None
@@ -97,18 +100,21 @@ def provisions(path):
                         number = None
                         continue
                     if first['size'] < 9 and PN.fullmatch(text.strip()) and first['origin'][0] < 95 and section:
-                        number = (section, text.strip())
-                        records.setdefault(number, [physical, []])
+                        pair = (section, text.strip())
+                        occurrences[pair] = occurrences.get(pair, 0) + 1
+                        number = (*pair, occurrences[pair])
+                        records[number] = [physical, []]
                         spans = spans[1:]
                     if number and spans:
                         runs = records[number][1]
                         runs.append((False, ' '))
                         for s, _ in spans:
-                            runs.extend(span_runs(s, strokes))
+                            color = 2 if s['color'] == 255 else 0
+                            runs.extend((int(deleted) | color, t) for deleted,t in span_runs(s, strokes))
     output = {}
-    for (section, num), (page, runs) in records.items():
+    for (section, num, occurrence), (page, runs) in records.items():
         # A compact integer is enough for paragraphs with no struck characters.
-        changes = any(deleted and t.strip() for deleted,t in runs)
+        changes = any(style & 1 and t.strip() for style,t in runs)
         entry = page
         if changes:
             grouped = []
@@ -116,7 +122,8 @@ def provisions(path):
                 segment = ''.join(t for _,t in group)
                 grouped.append([int(deleted), segment])
             entry = [page, grouped]
-        output.setdefault(section, {})[num] = entry
+        key = num if occurrence == 1 else f'{num}-{occurrence}'
+        output.setdefault(section, {})[key] = entry
     return output
 
 

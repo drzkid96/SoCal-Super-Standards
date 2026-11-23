@@ -1,6 +1,6 @@
 import re,json,html
 from pathlib import Path
-from difflib import SequenceMatcher
+from sign_releases import prepare as prepare_fhwa_layouts
 import shutil
 source = Path('src/content/docs')
 root = Path('.standards/docs')
@@ -10,6 +10,12 @@ for old in root.rglob('*'):
 ref=Path('data/reference')
 base='/SoCal-Super-Standards'
 urls=json.loads((ref/'ca-chapter-urls.json').read_text())
+def revision_text(style, text):
+ value=html.escape(text.strip())
+ if style & 2:value='<span class="ca">'+value+'</span>'
+ if style & 1:value='<del data-pagefind-ignore>'+value+'</del>'
+ return value
+
 for manual in ('ca-mutcd','mutcd'):
  items=json.loads((ref/(manual+'-items.json')).read_text())
  chapters={c['code']:c['first'] for c in json.load(open('data/'+manual+'/chapters.json'))}
@@ -30,21 +36,24 @@ for manual in ('ca-mutcd','mutcd'):
   src=re.sub(r'<a href="#fig-[^"]+">(Figures?|Tables?)\s+(\d[A-Z]-\d+(?:\s*\(CA\))?)</a>',link,src)
   if manual=='ca-mutcd' and path.stem.upper() in urls:
    code=path.stem.upper(); file=ref/'provisions'/(path.stem+'.json');records=json.loads(file.read_text()) if file.exists() else {}
-   sect=''; lines=[]
+   sect=''; lines=[]; seen={}
    for line in src.splitlines():
     sm=re.match(r'## (\d[A-Z]\.\d+(?:\(CA\))?)',line)
     if sm:sect=sm[1]
     m=re.fullmatch(r'<p><span class="pn">([^<]*)</span> (.*)</p>',line)
     if m:
-     n,body=m.groups();entry=records.get(sect,{}).get(n)
+     n,body=m.groups()
+     seen[sect,n]=seen.get((sect,n),0)+1
+     key=n if seen[sect,n]==1 else f'{n}-{seen[sect,n]}'
+     entry=records.get(sect,{}).get(key)
      page=entry[0] if isinstance(entry,list) else entry
      url=urls[code]+('#page='+str(page) if page else '')
      if isinstance(entry,list):
       # Use whole PDF text runs so a strike cannot split an HTML attribute or mark an earlier repeated word.
-      body=' '.join(('<del data-pagefind-ignore>'+html.escape(x.strip())+'</del>' if d else html.escape(x.strip())) for d,x in entry[1])
+      body=' '.join(revision_text(style,wording) for style,wording in entry[1] if wording.strip())
      if not page and ('class="ca"' in body or not records):
       body='Consult the official chapter for the marked-up provision.'
-     line=f'<p id="{sect.lower().replace(".","").replace("(","").replace(")","")}-p{n}"><a class="pn" data-pagefind-ignore href="{url}" aria-label="Official source, paragraph {n}">{n}</a> {body}</p>'
+     line=f'<p id="{sect.lower().replace(".","").replace("(","").replace(")","")}-p{key}"><a class="pn" data-pagefind-ignore href="{url}" aria-label="Official source, paragraph {n}">{n}</a> {body}</p>'
     lines.append(line)
    src='\n'.join(lines)+'\n'
   if src!=path.read_text():path.write_text(src)
@@ -65,6 +74,8 @@ for sign in load('data/signs/signs.json'):
 
 retired=load('data/ca_deleted_signs.json')
 look=load('data/catalog/lookup.json')
+prepare_fhwa_layouts(root,look)
+look.setdefault('6B.08',[]).insert(0,['CA MUTCD 6B.08 Tapers',base+'/ca-mutcd/6b/#6b08'])
 for key, entries in list(look.items()):
  look[key]=[pair for pair in entries if not re.search(r'/line-types/#detail-option [12]$',pair[1])]
  if not look[key]:del look[key]
@@ -72,7 +83,12 @@ boe_catalog=Path('public/data/boe-sections.json')
 if boe_catalog.exists():
  for section in load(boe_catalog):
   code=re.match(r'^E[ -]*(\d+(?:\.\d+)*)\b',section['title'],re.I)
-  if code:look.setdefault('E'+code[1],[]).append(['LA BOE '+section['title'], section['url']])
+  if code:
+   keys = ['E'+code[1]]
+   group = re.match(r'^E\s*(\d{3})[-–](\d{3})\b', section['title'])
+   if group and 0 < int(group[2])-int(group[1]) <= 10:
+    keys = ['E'+str(n) for n in range(int(group[1]),int(group[2])+1)]
+   for key in keys:look.setdefault(key,[]).append(['LA BOE '+section['title'], section['url']])
 out=['---','title: California retired sign codes','---','','Caltrans · '+retired['date']+' · [Official deletion notice]('+retired['source']+')','']
 for code,name in retired['codes'].items():
  anchor=re.sub('[^a-z0-9]','',code.lower())
