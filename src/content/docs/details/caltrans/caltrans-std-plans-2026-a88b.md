@@ -7,7 +7,7 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A88B</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 20</span></div></div>
 
-<div class="dwg-summary"><p><strong>Overview:</strong> Covers curb ramp details for medians, islands, driveways, and passageways where standard corner cases (A88A) do not fit.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Midblock pedestrian refuge islands, raised medians, and constrained urban corners.</p></div>
+<div class="dwg-summary"><p><strong>Overview:</strong> Covers curb ramp details for medians, islands, driveways, and passageways where standard corner cases (<a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a88a/">A88A</a>) do not fit.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Midblock pedestrian refuge islands, raised medians, and constrained urban corners.</p></div>
 
 
 
@@ -19,12 +19,12 @@ tableOfContents: false
 <details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
 <ol class="dwg-notes">
 <li value="1">Sidewalk, ramp and passageway thickness &quot;T&quot;, shall be 3 1/2&quot; minimum.</li>
-<li value="2">For details of detectable warning surfaces, see Standard Plan A88A.</li>
+<li value="2">For details of detectable warning surfaces, see Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a88a/">A88A</a>.</li>
 <li value="3">Where an island passageway length is greater than or equal to 6&#x27;-0&quot;, but less than 8&#x27;-0&quot;, each detectable warning surface shall extend the full width and 2&#x27;-0&quot; depth of the passageway length. Where an island passageway length is greater than or equal to 8&#x27;-0&quot;, each detectable warning surface shall extend the full width and 3&#x27;-0&quot; depth of the passageway length. Detectable warning surfaces shall extend the full width of the island passageway except a maximum gap of 1&quot; is allowed on each side of the passageway.</li>
 <li value="4">The adjacent surfaces at transitions at curb ramps to walks, gutters, and streets shall be at the same level.</li>
 <li value="5">Utility pull boxes, manholes, vaults and all other utility facilities within the boundaries of the curb ramp will be relocated or adjusted to grade by the owner prior to, or in conjunction with, curb ramp construction.</li>
 <li value="6">Detectable warning surface may have to be cut to allow removal of utility covers while maintaining detectable warning width and depth.</li>
-<li value="7">For additional curb ramp details, see Standard Plan A88A.</li>
+<li value="7">For additional curb ramp details, see Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a88a/">A88A</a>.</li>
 <li value="8">The detectable warning surface will be a rectangle as shown at the face of curb, unless modified in the Project Plans.</li>
 </ol>
 </details>

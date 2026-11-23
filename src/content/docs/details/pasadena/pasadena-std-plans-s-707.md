@@ -29,11 +29,11 @@ tableOfContents: false
 <li value="6">Speed humps shall be marked using thermoplastic material.</li>
 <li value="7">Speed hump signs shall be installed per Figure A, where noted on plans.</li>
 </ol>
-<p>Figure A: Speed hump warning sign (typical). Warning flags (first 30 days). 30 in x 30 in. Black on yellow or <a class="sref" href="/SoCal-Super-Standards/signs/w17-1/" data-svg="/SoCal-Super-Standards/signs/W17-1.svg">W17-1</a> SPEED HUMP, 6 in Series E letters. W13-1(15) sign. Sign locations: as directed by Engineer.</p>
+<p>Figure A: Speed hump warning sign (typical). Warning flags (first 30 days). 30 in x 30 in. Black on yellow or <a class="sref" href="/SoCal-Super-Standards/signs/w17-1/" data-svg="/SoCal-Super-Standards/signs/W17-1.svg">W17-1</a> SPEED HUMP, 6 in Series E letters. <a class="sref" href="/SoCal-Super-Standards/signs/w13-1p/">W13-1</a>(15) sign. Sign locations: as directed by Engineer.</p>
 <h5 class="dwg-sub">Temporary signage details</h5>
 <ol class="dwg-notes">
 <li value="1">The contractor shall furnish and maintain a flashing barricade, 50 feet from each speed hump location in both directions, until the first application of paint has been applied showing the pavement messages and striping.</li>
-<li value="2">Mount 30 in x 30 in <a class="sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg">W8-1</a> or <a class="sref" href="/SoCal-Super-Standards/signs/w17-1/" data-svg="/SoCal-Super-Standards/signs/W17-1.svg">W17-1</a> warning sign (black on yellow, 6 in Series E letters) and W13-1 sign per MUTCD with the California Supplement, on each of the barricades at each speed hump location.</li>
+<li value="2">Mount 30 in x 30 in <a class="sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg">W8-1</a> or <a class="sref" href="/SoCal-Super-Standards/signs/w17-1/" data-svg="/SoCal-Super-Standards/signs/W17-1.svg">W17-1</a> warning sign (black on yellow, 6 in Series E letters) and <a class="sref" href="/SoCal-Super-Standards/signs/w13-1p/">W13-1</a> sign per MUTCD with the California Supplement, on each of the barricades at each speed hump location.</li>
 </ol>
 </details>
 

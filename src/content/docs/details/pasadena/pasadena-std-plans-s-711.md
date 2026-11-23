@@ -19,7 +19,7 @@ tableOfContents: false
 <details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
 <ol class="dwg-notes">
 <li value="1">If left turn pocket is included, the length of the lead-in solid white lane line shall equal the length of the left turn pocket unless otherwise specified.</li>
-<li value="2">If raised pavement markers are required, see Standard Plan S-710, Details 10, 11, and 12.</li>
+<li value="2">If raised pavement markers are required, see Standard Plan <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-710/">S-710</a>, Details 10, 11, and 12.</li>
 </ol>
 <p>Labels: Two-way left turn lane (yellow), 76 mm (3 in) line width. Single yellow center line. White lane line. Dimensions: 3.6 m (12 ft), 11.0 m (36 ft), 7.3 m (24 ft), 2.1 m (7 ft), 5.2 m (17 ft), 21.9 m (72 ft) minimum to 29.3 m (96 ft) maximum, 14.6 m (48 ft) minimum to 21.9 m (72 ft) maximum, 15.2 m (50 ft).</p>
 </details>

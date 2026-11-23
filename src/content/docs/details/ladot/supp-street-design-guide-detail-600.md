@@ -19,7 +19,7 @@ tableOfContents: false
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0137.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/supplemental-street-design-guide/p0137.webp" alt="Detail 600 sheet 1"></a><figcaption>Supp. Street Design Guide Detail 600, sheet 1. <a href="/SoCal-Super-Standards/ladot/supplemental-street-design-guide/08-pages-127-144/#p137">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
-<p>No general notes are printed on this sheet. Callouts refer to notes 2 and 3 of Detail 600, to sheets 3, 4 and 5 of the detail, to Standard Plan S-442 for curb ramps, and to LADOT Standard Drawing S-483.1 for pavement markings.</p>
+<p>No general notes are printed on this sheet. Callouts refer to notes 2 and 3 of Detail 600, to sheets 3, 4 and 5 of the detail, to Standard Plan S-442 for curb ramps, and to LADOT Standard Drawing <a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-483-1/">S-483.1</a> for pavement markings.</p>
 </details>
 
 ### Sheet 2 of 8 (page 138)

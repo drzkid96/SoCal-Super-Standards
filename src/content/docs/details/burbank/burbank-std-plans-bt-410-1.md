@@ -26,8 +26,8 @@ tableOfContents: false
 <p>- End of stripe (uncontrolled intersection)</p>
 <p>- Stop line (signalized intersection)</p>
 <p>- &quot;STOP&quot; marking (stop controlled intersection)</p>
-<p>Left turn lane shall use Caltrans Standard Plan A24A, Type IV(L) arrow.</p>
-<p>Right turn lane shall use Caltrans Standard Plan A24A, Type IV(R) arrow.</p>
+<p>Left turn lane shall use Caltrans Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24a/">A24A</a>, Type IV(L) arrow.</p>
+<p>Right turn lane shall use Caltrans Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24a/">A24A</a>, Type IV(R) arrow.</p>
 <p>Crosswalks shall be installed per Burbank Standard Plan BT-409A-1.</p>
 <p>Stop lines and stop markings shall be installed per Burbank Standard Plan BT-411-1.</p>
 </details>

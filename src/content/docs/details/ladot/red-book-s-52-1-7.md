@@ -22,8 +22,8 @@ tableOfContents: false
 <ol class="dwg-notes">
 <li value="1">Tilt solar panel to 60 degrees and rotate assembly so collector panel will face due south.</li>
 <li value="2"><strong>Arm projection 8&#x27; max.</strong> from the pole.</li>
-<li value="3">Signs and devices: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>(2), RRFB&#x27;s (back to back), W16-7p(2), pedestrian pushbutton, control cabinet. Detail B (back to back), Detail D.</li>
-<li value="4"><strong>Dimensions: 17&#x27; min.</strong> above grade to the bottom of the upper RRFB assembly, 42 in. and 84 in. heights above grade at the pushbutton and W16-7p(2) levels, 36 in. from the pole centerline to the pad edge.</li>
+<li value="3">Signs and devices: <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a>(2), RRFB&#x27;s (back to back), <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/">W16-7p</a>(2), pedestrian pushbutton, control cabinet. Detail B (back to back), Detail D.</li>
+<li value="4"><strong>Dimensions: 17&#x27; min.</strong> above grade to the bottom of the upper RRFB assembly, 42 in. and 84 in. heights above grade at the pushbutton and <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/">W16-7p</a>(2) levels, 36 in. from the pole centerline to the pad edge.</li>
 <li value="5">Foundation details: see sheet 4.</li>
 <li value="6"><strong>Typical installation.</strong> Not to scale.</li>
 </ol>
@@ -39,7 +39,7 @@ tableOfContents: false
 <li value="3">Sign arm data: arm span L 8&#x27;-0&quot;, fixed end diameter 3.52 in., free end diameter 2.4 in., gauge 11, degree rise 0.50.</li>
 <li value="4">Sign arm material data: sign arm shaft ASTM A595 Grade A, 55 ksi minimum yield. Clamp ASTM A572, 55 ksi. Sign arm connection bolts ASTM A325, 55 ksi. Hardware coating hot dip zinc.</li>
 <li value="5"><strong>Finish notes: system galvanized (GV).</strong> Base coat hot dip galvanized to ASTM A123. Prime coat none. Color none. Finish coat none.</li>
-<li value="6">Sign dimensions in inches (conventional road, single lane / multi-lane): <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> pedestrian 30x30* / 36x36. W16-7p downward diagonal arrow 24x12 / 24x12.</li>
+<li value="6">Sign dimensions in inches (conventional road, single lane / multi-lane): <a class="sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg">W11-2</a> pedestrian 30x30* / 36x36. <a class="sref" href="/SoCal-Super-Standards/signs/w16-7p/">W16-7p</a> downward diagonal arrow 24x12 / 24x12.</li>
 </ol>
 <p>* The minimum size required for diamond-shaped warning signs facing traffic on multi-lane conventional roads shall be 36x36 per MUTCD section 2C.04.</p>
 <p>Detail C: (Pelco AB-3004).</p>

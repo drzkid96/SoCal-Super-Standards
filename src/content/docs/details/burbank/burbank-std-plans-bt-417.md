@@ -33,7 +33,7 @@ tableOfContents: false
 <li value="5">All markings shall be thermoplastic.</li>
 <li value="6">All signs shall be installed per Burbank Standard Plan BT-412-1.</li>
 </ol>
-<p>Sign callouts: Install <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> per Caltrans Std Plan A20A. <a class="sref" href="/SoCal-Super-Standards/signs/w84ca/" data-svg="/SoCal-Super-Standards/signs/ca/w84ca.webp">W84(CA)</a> and W13-1 sign assembly. Advance sign to be placed ahead of first speed cushion from each direction. <a class="sref" href="/SoCal-Super-Standards/signs/w84ca/" data-svg="/SoCal-Super-Standards/signs/ca/w84ca.webp">W84(CA)</a> 30&quot;x30&quot;. W13-1(15) 18&quot;x18&quot;. Marking detail 1: 12&quot; solid white.</p>
+<p>Sign callouts: Install <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> per Caltrans Std Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20a/">A20A</a>. <a class="sref" href="/SoCal-Super-Standards/signs/w84ca/" data-svg="/SoCal-Super-Standards/signs/ca/w84ca.webp">W84(CA)</a> and <a class="sref" href="/SoCal-Super-Standards/signs/w13-1p/">W13-1</a> sign assembly. Advance sign to be placed ahead of first speed cushion from each direction. <a class="sref" href="/SoCal-Super-Standards/signs/w84ca/" data-svg="/SoCal-Super-Standards/signs/ca/w84ca.webp">W84(CA)</a> 30&quot;x30&quot;. <a class="sref" href="/SoCal-Super-Standards/signs/w13-1p/">W13-1</a>(15) 18&quot;x18&quot;. Marking detail 1: 12&quot; solid white.</p>
 </details>
 
 ### Sheet 2 of 2 (page 23)
@@ -43,7 +43,7 @@ tableOfContents: false
 <ol class="dwg-notes">
 <li value="1">Install marking per marking detail 1 (callout 1, edge of taper shown).</li>
 </ol>
-<p>Install <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> per Caltrans Std Plan A20A.</p>
+<p>Install <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> per Caltrans Std Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20a/">A20A</a>.</p>
 <p>Existing curb and gutter. Existing AC pavement. A.C. standard 3/8&quot; mix D2-AR-4000. Apply tack coat.</p>
 <p>Section B-B and Section A-A are not to scale.</p>
 <p>See sheet 1 for construction notes and general notes.</p>

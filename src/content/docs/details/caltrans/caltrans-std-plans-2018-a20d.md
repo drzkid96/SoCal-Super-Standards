@@ -7,7 +7,7 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A20D</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>10-19-18</b></span><span>Page 3</span></div></div>
 
-<div class="dwg-summary"><p><strong>Overview:</strong> Standard Caltrans engineering drawing detailing design geometry, dimensions, and field installation criteria for Pavement Markers and Traffic Lines, Typical Details (Revised Standard Plan RSP A20D).</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving pavement markers and traffic lines, typical details (revised standard plan rsp a20d).</p></div>
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard Caltrans engineering drawing detailing design geometry, dimensions, and field installation criteria for Pavement Markers and Traffic Lines, Typical Details (Revised Standard Plan RSP <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20d/">A20D</a>).</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving pavement markers and traffic lines, typical details (revised standard plan rsp a20d).</p></div>
 
 
 
@@ -27,7 +27,7 @@ tableOfContents: false
 <li value="3">The top of pavement markers installed in recesses shall be 0 to 3/16 inch below the pavement surface.</li>
 <li value="4">Use Type 1 recess for pavement markers with one-way retroreflective face. Use Type 2 recess for pavement markers with two-way retroreflective face.</li>
 </ol>
-<p>RSP A20D dated October 19, 2018 supersedes Standard Plan A20D dated May 31, 2018, page 15 of the Standard Plans book dated 2018.</p>
+<p>RSP <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20d/">A20D</a> dated October 19, 2018 supersedes Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20d/">A20D</a> dated May 31, 2018, page 15 of the Standard Plans book dated 2018.</p>
 <p>Deleted details: 38C, 40A and 41A.</p>
 <p>Legend: Markers: Type C red-clear retroreflective. Type G one-way clear retroreflective. 6&quot; yellow line.</p>
 </details>

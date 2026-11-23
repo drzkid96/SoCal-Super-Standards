@@ -18,12 +18,12 @@ tableOfContents: false
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0021.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0021.webp" alt="BT-416 sheet 1"></a><figcaption>Burbank Std. Plans BT-416, sheet 1. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p21">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
 <ol class="dwg-notes">
-<li value="1">Bicycle lane symbol with person per Caltrans Std Plan A24C.</li>
-<li value="2">Bike lane arrow per Caltrans Std Plan A24A.</li>
-<li value="3">Bike lane line, <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-39" data-svg="/SoCal-Super-Standards/linetypes/detail-39.svg">Detail 39</a> per Caltrans Std Plan A20D.</li>
-<li value="4">Bike lane intersection line, <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-39a" data-svg="/SoCal-Super-Standards/linetypes/detail-39a.svg">Detail 39A</a> per Caltrans Std Plan A20D.</li>
-<li value="5">Right edgeline, <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-27b" data-svg="/SoCal-Super-Standards/linetypes/detail-27b.svg">Detail 27B</a> per Caltrans Std Plan A20B.</li>
-<li value="6">Shared roadway bicycle marking per Caltrans Std Plan A24C.</li>
+<li value="1">Bicycle lane symbol with person per Caltrans Std Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24c/">A24C</a>.</li>
+<li value="2">Bike lane arrow per Caltrans Std Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24a/">A24A</a>.</li>
+<li value="3">Bike lane line, <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-39" data-svg="/SoCal-Super-Standards/linetypes/detail-39.svg">Detail 39</a> per Caltrans Std Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20d/">A20D</a>.</li>
+<li value="4">Bike lane intersection line, <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-39a" data-svg="/SoCal-Super-Standards/linetypes/detail-39a.svg">Detail 39A</a> per Caltrans Std Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20d/">A20D</a>.</li>
+<li value="5">Right edgeline, <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-27b" data-svg="/SoCal-Super-Standards/linetypes/detail-27b.svg">Detail 27B</a> per Caltrans Std Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20b/">A20B</a>.</li>
+<li value="6">Shared roadway bicycle marking per Caltrans Std Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24c/">A24C</a>.</li>
 </ol>
 <p>Install if greater than 250&#x27; from the end of curb return (ECR) (Class III symbol, callout 6).</p>
 <p>Abbreviations on sheet: ECR is end of curb return and BCR is beginning of curb return.</p>

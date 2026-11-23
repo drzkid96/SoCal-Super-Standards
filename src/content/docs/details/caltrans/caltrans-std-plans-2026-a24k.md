@@ -20,7 +20,7 @@ tableOfContents: false
 <ol class="dwg-notes">
 <li value="1">L=WS, where W is the offset in feet and S is bicycle approach speed in mph.</li>
 <li value="2">Provide an additional foot of offset for a raised obstruction and use the formula L=(W+1)S for the taper length.</li>
-<li value="3">See Standard Plan A20D for <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-39" data-svg="/SoCal-Super-Standards/linetypes/detail-39.svg">Detail 39</a>.</li>
+<li value="3">See Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20d/">A20D</a> for <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-39" data-svg="/SoCal-Super-Standards/linetypes/detail-39.svg">Detail 39</a>.</li>
 <li value="4">Use markings only when there is 5&#x27;-0&quot; of clear space.</li>
 </ol>
 </details>

@@ -22,7 +22,7 @@ tableOfContents: false
 <li value="1">Install solid white 12 inch stop line at distance &#x27;B&#x27; from beginning of curb return (BCR) based on distance &#x27;A&#x27;.</li>
 <li value="2">Install solid white 12 inch stop line 4 feet from a marked crosswalk.</li>
 <li value="3">Install &quot;STOP&quot; marking 2 feet from double yellow stripe and 8 feet from stop line.</li>
-<li value="4">Install 50 feet of <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> stripe per Caltrans Standard Plan A20A.</li>
+<li value="4">Install 50 feet of <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> stripe per Caltrans Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20a/">A20A</a>.</li>
 <li value="5">Install &quot;STOP&quot; marking centered in each lane and 8 feet from stop line.</li>
 </ol>
 <p>Marked crosswalks shall be installed per Burbank Standard Plan BT-409A-1.</p>

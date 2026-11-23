@@ -18,7 +18,7 @@ tableOfContents: false
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0005.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0005.webp" alt="A20E sheet 1"></a><figcaption>Caltrans Std. Plans 2026 A20E, sheet 1. <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/01-pages-1-6/#p5">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
 <ol class="dwg-notes">
-<li value="1">See Standard Plans A20A, A20B, A20C, A20D, and A20F for traffic lines typical details.</li>
+<li value="1">See Standard Plans <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20a/">A20A</a>, <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20b/">A20B</a>, <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20c/">A20C</a>, <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20d/">A20D</a>, and <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20f/">A20F</a> for traffic lines typical details.</li>
 <li value="2"><a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-9" data-svg="/SoCal-Super-Standards/linetypes/detail-9.svg">Detail 9</a> traffic stripe shown. See project plans for traffic stripe details.</li>
 </ol>
 <p>Option labels: Option 1 typical lane line or edge line contrast detail. Option 2 typical lane line contrast detail.</p>

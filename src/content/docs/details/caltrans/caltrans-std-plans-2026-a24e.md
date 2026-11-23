@@ -22,7 +22,7 @@ tableOfContents: false
 <li value="2">The space between words must be at least four times the height of the characters for low speed roads, but not more than ten times the height of the characters. The space may be reduced appropriately where there is limited space because of local conditions.</li>
 <li value="3">Minor variations in dimensions may be accepted by the Engineer.</li>
 <li value="4">Portions of a letter, number, or symbol may be separated by connecting segments not to exceed 2 in. in width.</li>
-<li value="5">The words &quot;NO PARKING&quot; pavement marking is to be used for parking facilities. For typical locations of markings, see Standard Plans A90A and A90B.</li>
+<li value="5">The words &quot;NO PARKING&quot; pavement marking is to be used for parking facilities. For typical locations of markings, see Standard Plans <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90a/">A90A</a> and <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90b/">A90B</a>.</li>
 <li value="6">The words &quot;NO PARKING&quot; shall be painted in white letters no less than 1&#x27;-0&quot; high on a contrasting background and located so that it is visible to traffic enforcement officials.</li>
 </ol>
 </details>

@@ -35,7 +35,7 @@ tableOfContents: false
 <li value="5">If the pedestrian median opening is greater than 9 feet wide, then a bollard may be considered to prevent vehicles from encroaching into the pedestrian refuge space. Install bollards in detectable warning surface (DWS) at 2&#x27; maximum, allowing a minimum of 4&#x27; path in between bollards. From the flow line narrowing the pedestrian median opening to less than the crosswalk width may be considered in order to create sufficient space for an approach nose.</li>
 <li value="6">When diagonal ramps are present, an approach nose may be added by narrowing the crossing width (see note 5). When this is not desirable, a rubberized mountable approach nose shall be used instead.</li>
 <li value="7">Landscaping of crossing islands shall follow Section E 467.3 of the Bureau of Engineering Street Design Manual.</li>
-<li value="8">Raised pavement markers (RPM&#x27;s) one-way clear (white) or one-way amber (yellow) spaced 2&#x27; center-to-center may be installed on the crossing island depending on its location. See LADOT Standard Drawing S-525.0.</li>
+<li value="8">Raised pavement markers (RPM&#x27;s) one-way clear (white) or one-way amber (yellow) spaced 2&#x27; center-to-center may be installed on the crossing island depending on its location. See LADOT Standard Drawing <a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-525-0/">S-525.0</a>.</li>
 </ol>
 </details>
 

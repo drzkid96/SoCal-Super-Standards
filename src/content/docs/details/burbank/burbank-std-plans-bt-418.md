@@ -29,14 +29,14 @@ tableOfContents: false
 <li value="7">All signs shall be installed per Burbank Standard Plan BT-412-1.</li>
 </ol>
 <p>Note numbered 5 is not shown on the sheet.</p>
-<div class="dwg-callouts"><strong>Callouts:</strong> Asphalt speed table. Thermoplastic or 2 coats of traffic paint. Marking detail 2. W84 (CA), W13-1. A.C. standard 3/8&quot; mix D2-AR-4000 5.6% asphalt binder for use performance grading per Caltrans standards. Tack coat. Existing asphalt pavement. Curb face.</div>
+<div class="dwg-callouts"><strong>Callouts:</strong> Asphalt speed table. Thermoplastic or 2 coats of traffic paint. Marking detail 2. W84 (CA), <a class="sref" href="/SoCal-Super-Standards/signs/w13-1p/">W13-1</a>. A.C. standard 3/8&quot; mix D2-AR-4000 5.6% asphalt binder for use performance grading per Caltrans standards. Tack coat. Existing asphalt pavement. Curb face.</div>
 </details>
 
 ### Sheet 2 of 2 (page 25)
 
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/burbank/standard-plans/p0025.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/burbank/standard-plans/p0025.webp" alt="BT-418 sheet 2"></a><figcaption>Burbank Std. Plans BT-418, sheet 2. <a href="/SoCal-Super-Standards/burbank/standard-plans/01-pages-1-27/#p25">Open in the document</a>.</figcaption></figure>
 <details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
-<p>Install <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> per Caltrans Std Plan A20A.</p>
+<p>Install <a class="sref dref" href="/SoCal-Super-Standards/markings/line-types/#detail-21" data-svg="/SoCal-Super-Standards/linetypes/detail-21.svg">Detail 21</a> per Caltrans Std Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20a/">A20A</a>.</p>
 <p>Marking detail 1 (see sheet 1).</p>
 <p>Speed table marking and Section B-B are not to scale.</p>
 <p>See sheet 1 for general notes.</p>

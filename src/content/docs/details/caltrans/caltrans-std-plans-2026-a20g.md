@@ -19,11 +19,11 @@ tableOfContents: false
 <details class="ocr"><summary>Drawing Notes &amp; Specifications</summary>
 <ol class="dwg-notes">
 <li value="1">May be a limit line or crosswalk.</li>
-<li value="2">See Standard Plans A24F and A24G for crosswalk and pavement marker details.</li>
-<li value="3">For raised markers, place Type R one-way red retroreflective markers on outermost limit line or crosswalk line with red facing the intersection. For recessed markers, place Type R one-way retroreflective markers with red facing the intersection and as shown on Standard Plan A24G.</li>
+<li value="2">See Standard Plans <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24f/">A24F</a> and <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24g/">A24G</a> for crosswalk and pavement marker details.</li>
+<li value="3">For raised markers, place Type R one-way red retroreflective markers on outermost limit line or crosswalk line with red facing the intersection. For recessed markers, place Type R one-way retroreflective markers with red facing the intersection and as shown on Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24g/">A24G</a>.</li>
 <li value="4">The distances and marker spacings may be adjusted based on site specific conditions, exit ramp geometry, or loop detectors.</li>
-<li value="5">See Standard Plan A20D for recess details.</li>
-<li value="6">See Standard Plan A24G for Type V arrow detail with Type R one-way red retroreflective markers.</li>
+<li value="5">See Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a20d/">A20D</a> for recess details.</li>
+<li value="6">See Standard Plan <a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a24g/">A24G</a> for Type V arrow detail with Type R one-way red retroreflective markers.</li>
 <li value="7">The Type R marker body must be white in color.</li>
 </ol>
 <h5 class="dwg-sub">Legend (markers)</h5>
