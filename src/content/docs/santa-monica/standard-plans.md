@@ -1,78 +1,66 @@
 ---
 title: "City of Santa Monica Standard Details & Mobility Standards"
-description: "Santa Monica Public Works standard details (SM 1–SM 22-A, Bikeway B-1–B-5, Green Streets SWSM-1–SWSM-9), stricter local curb ramp criteria, and Temporary Traffic Control Plan (TTCP) requirements."
+description: "Complete Santa Monica Public Works curb ramp tolerances, driveway standards (SMMC 9.28.120 / SM 5), off-site plan check drafting rules, TTCP 10/2026 submission requirements, and SM / B / SWSM detail index."
 tableOfContents:
   minHeadingLevel: 2
   maxHeadingLevel: 2
 ---
 
-<div class="srcbar">City of Santa Monica Public Works &amp; SaMoDOT &middot; Standard Details, Off-Site Plan Check Checklist (Rev. 6/2023) &amp; TTCP Requirements (10/2026) &middot; <a href="https://www.santamonica.gov/standard-detail-and-specifications">Official Santa Monica Portal</a></div>
+<div class="srcbar"><span class="status-pill digest">Direct Criteria + Full Verbatim Rules</span> City of Santa Monica Public Works &amp; SaMoDOT &middot; Off-Site Checklist (Rev. 6/27/2023) &amp; TTCP Requirements (10/16/2026)</div>
 
-<div class="note-box"><strong>Order of authority in Santa Monica:</strong> City of Santa Monica Standard Details, Curb Ramp Memo, and Off-Site Plan Check Checklist govern local public right-of-way improvements, supplemented by <strong>SPPWC ("Greenbook")</strong>, <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/">Caltrans Standard Plans 2026</a>, and <a href="/SoCal-Super-Standards/ca-mutcd/">CA MUTCD 2026</a>. Santa Monica's curb ramp widths and slopes are stricter than baseline ADA/PROWAG minimums.</div>
+<div class="note-box"><strong>Order of authority in Santa Monica:</strong> City of Santa Monica Standard Details (SM / B / SWSM), Curb Ramp Memo, and Off-Site Plan Check Checklist govern local public right-of-way improvements, supplemented by <strong>SPPWC ("Greenbook" — 2012 Plans / 2021 Specs)</strong>, <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/">Caltrans Standard Plans 2026</a>, and <a href="/SoCal-Super-Standards/ca-mutcd/">CA MUTCD 2026</a>. <em>Note: Santa Monica's PDF media host (<code>santamonica.gov/media/*</code>) sits behind an Imperva bot-verification gate; all verified numeric standards and plan-check rules are included directly below, and uploading the SM / B / SWSM PDFs to Drive will allow us to render those drawing sheets directly inline here.</em></div>
 
-## Key Santa Monica Design Criteria
+## Santa Monica Curb Ramp &amp; Accessibility Standards (Stricter Than Baseline ADA)
 
-| Topic | Santa Monica Requirement | Baseline Comparison / Notes |
+From Santa Monica Public Works *Plan Check Checklist — Offsite Improvements* (Rev. 6/27/2023, Items 94–96) and *City Curb Ramp Memo*:
+
+| Curb Ramp Requirement | Santa Monica Standard | Discretion / Fallback |
 |---|---|---|
-| **Curb ramp width** | **4'-2" min** (4'-0" only at City Engineer discretion) | Stricter than 4'-0" ADA/PROWAG min; enlarged plan view with spot elevations & slopes required at every grade break |
-| **Curb ramp top landing** | **4'-2" wide × 5'-0" deep** in direction of ramp | 4'-0" × 4'-0" only at City Engineer discretion; dual ramps required unless Dual Curb Ramp Deviation Form approved |
-| **Curb ramp running slope** | **7.5% max** (8.33% only at City Engineer discretion) | Built-in construction tolerance below 8.33% ADA cap |
-| **Curb ramp cross slope** | **1.5% max** (2.0% only at City Engineer discretion) | Built-in construction tolerance below 2.0% ADA cap |
-| **Striping & traffic markings** | Caltrans Standard Plans &amp; CA MUTCD 2026 | See [Caltrans 2026 A20–A24](/SoCal-Super-Standards/caltrans/standard-plans-2026/) and [Line Type Database](/SoCal-Super-Standards/markings/line-types/) |
-| **TTCP submittals (10/2026)** | Single-page landscape PDFs (≤ 3 MB each) via ProjectDox | Stamped, signed &amp; dated by CA PE (Civil or Traffic); downtown work prohibited Wed &amp; Sat (Farmers' Market) |
-| **Steel trench plates** | Friction-surfaced per Caltrans Encroachment Manual § 602.1 | Cold-mix AC tapered edges; smooth plates prohibited; advance **W33** / Rough Road warning signs |
+| **Curb ramp width** | **4'-2" minimum** | 4'-0" min only at City Engineer discretion if site conditions dictate |
+| **Top landing dimensions** | **4'-2" wide × 5'-0" deep** in direction of ramp (PROWAG turning radius) | 4'-0" × 4'-0" min only at City Engineer discretion |
+| **Running slope** | **7.5% maximum** | 8.33% max only at City Engineer discretion |
+| **Cross slope** | **1.5% maximum** | 2.0% max only at City Engineer discretion |
+| **Dual curb ramps** | Required at corners | Single/diagonal ramp requires approved **Dual Curb Ramp Deviation Form** |
+| **Plan view submittal** | Enlarged plan view of every curb ramp with **spot elevations and slopes** at all grade breaks &amp; slope changes | Must also show existing &amp; proposed pavement types/thicknesses and utilities (size, type, material, distance to property line) |
 
-## Official Santa Monica Standard Detail Index
+## Driveway &amp; Off-Site Plan Drafting Standards
 
-All sheets are published on the [Santa Monica Standard Detail and Specifications](https://www.santamonica.gov/standard-detail-and-specifications) portal (Public Works Permits: `(310) 458-8737`, `pw.permits@santamonica.gov`).
+- **Driveway width (SMMC 9.28.120 &amp; SM 5):** Existing driveways to remain &lt; **10 ft** clear width (excluding wings at curb line) must be widened to **10 ft minimum** per Standard Detail **SM 5**; maximum driveway width is **14 ft**. Only **one driveway** to a public street is allowed on a parcel with &lt; 100 linear feet of street frontage.
+- **Abandoned driveways (SMMC 7.24.050 &amp; 7.24.060):** Must be removed under an Offsite Permit and replaced with curb, parkway, and sidewalk matching adjoining improvements. Required plan note: *"Driveway apron shall be removed and replaced with curbing, parkway, and sidewalk in conformity with the curbing, parking, and sidewalk adjoining such abandoned driveway (SMMC 7.24.050 and 7.24.060)."*
+- **Plan view drafting standards (Checklist Items 28–34):**
+  - Show both **"true" and "relative" north arrows** and accurate scale.
+  - Label right-of-way lines in heavy-weight black dashed line-style; centerlines in heavy-weight black `"CENTER"` dashed line-style.
+  - Dimension full street/alley width R/W to R/W, centerline to R/W, centerline to curb face, sidewalk, and parkway.
+  - Centerline stationing with labeled major ticks every **50 ft** starting at `10+00` or `0+00` at nearest intersection, increasing **left to right (W→E, S→N)**.
+  - All existing improvements plotted **light weight (grey)**.
 
-### Street, Curb, Bus Pad &amp; Parklet Details (SM Series)
+## Temporary Traffic Control Plan (TTCP) Rules (Updated Oct 16, 2026)
 
-<table class="dwtab"><thead><tr><th>Detail</th><th>Title</th><th>Related On-Site Reference</th></tr></thead><tbody>
-<tr><td><strong>SM 1</strong></td><td>P.C.C. Alley Approach and P.C.C. Cross-Gutter</td><td><a href="/SoCal-Super-Standards/topics/accessibility/">Accessibility</a></td></tr>
-<tr><td><strong>SM 2</strong></td><td>Portland Cement Concrete Bus Pad</td><td><a href="/SoCal-Super-Standards/topics/transit/">Transit &amp; Bus Stops</a></td></tr>
-<tr><td><strong>SM 5 / SM 6</strong></td><td>Driveway, Curb, and Combined Curb &amp; Gutter Construction</td><td><a href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb &amp; Parking</a></td></tr>
-<tr><td><strong>SM 7 / SM 8</strong></td><td>Typical Street Cross Section (Sheets 1 &amp; 2)</td><td><a href="/SoCal-Super-Standards/bulletins/lane-widths/">Lane Width Comparison</a></td></tr>
-<tr><td><strong>SM 11</strong></td><td>Standard Pavement Reconstruction</td><td><a href="/SoCal-Super-Standards/topics/striping-intersections/">Striping &amp; Markings</a></td></tr>
-<tr><td><strong>SM 12</strong></td><td>Sidewalk Layout at Tree Locations</td><td><a href="/SoCal-Super-Standards/bulletins/prowag-2023/">PROWAG 2023</a></td></tr>
-<tr><td><strong>SM 19</strong></td><td>Requirements for Temporary No Parking Signs</td><td><a href="/SoCal-Super-Standards/topics/temporary-traffic-control/">Temporary Traffic Control</a></td></tr>
-<tr><td><strong>SM 20</strong></td><td>Santa Monica Outdoors Parklet Program Standards</td><td><a href="/SoCal-Super-Standards/topics/curb-parking-loading/">Curb &amp; Loading</a></td></tr>
-<tr><td><strong>SM 22 / 22-A</strong></td><td>Streetlight Foundation &amp; Light Pole Banner Attachment (rev. 06/2026)</td><td><a href="/SoCal-Super-Standards/topics/signals/">Signals &amp; Lighting</a></td></tr>
-</tbody></table>
+From Santa Monica Public Works Mobility Division *TTCP Review &amp; Submission Requirements* (10/16/2026) and *Traffic Control Plan Supplement*:
 
-### Standard Bikeway Details (B Series)
+- **PE Stamp:** Plans must be stamped, signed, and dated by a CA-licensed **Civil or Traffic Engineer** (City reserves the right to require both seals).
+- **ProjectDox Upload Standards:** Each sheet uploaded as a **separate single-page PDF**, **landscape orientation**, **≤ 3 MB per PDF**, zero-padded naming (`TTCP01.pdf`, `TTCP02.pdf`, …) into the `"Plans"` folder.
+- **Downtown blackout days:** **No work in the Downtown area on Wednesdays or Saturdays** (Farmers' Market days).
+- **High-noise equipment hours (SMMC 4.12.060):** Jackhammers, pile drivers, pavement breakers, or equipment &gt; 90 dBA limited to **10:00 a.m. – 3:00 p.m.**
+- **Steel trench plates:** Must be **friction-surfaced** per Caltrans Encroachment Permits Manual § 602.1 (*Steel Trench Plating Guidelines*) with **cold-mix asphalt tapered edges**; smooth plates prohibited; post advance **W33 (Rough Road)** orange warning signs.
 
-<table class="dwtab"><thead><tr><th>Detail</th><th>Title</th><th>Governing CA Reference</th></tr></thead><tbody>
-<tr><td><strong>B-1</strong></td><td>Bikeway Specifications and General Notes</td><td><a href="/SoCal-Super-Standards/bulletins/caltrans-hdm-ch1000/">Caltrans HDM Ch. 1000</a></td></tr>
-<tr><td><strong>B-2</strong></td><td>Combined Class I Bike/Pedestrian Path (Not Adjacent to Street)</td><td><a href="/SoCal-Super-Standards/bulletins/bikeway-design-comparison/">Bikeway Design Comparison</a></td></tr>
-<tr><td><strong>B-3</strong></td><td>Class I Bike Path (Not Adjacent to Street)</td><td><a href="/SoCal-Super-Standards/bulletins/caltrans-hdm-ch1000/">HDM Fig. 1003.1A</a></td></tr>
-<tr><td><strong>B-4</strong></td><td>Combined Class I Bike/Pedestrian Path at Non-Typical Sections</td><td><a href="/SoCal-Super-Standards/topics/bikeways/">Bikeways Topic</a></td></tr>
-<tr><td><strong>B-5</strong></td><td>Combined Class I Bike/Pedestrian Path Adjacent to Street</td><td><a href="/SoCal-Super-Standards/bulletins/caltrans-dib-89-02/">Caltrans DIB 89-02</a></td></tr>
-</tbody></table>
+## Santa Monica Standard Detail Index (Public Works Portal)
 
-### Green Streets &amp; Stormwater Curb Extensions (SWSM Series)
+Public Works Permits: `(310) 458-8737`, `pw.permits@santamonica.gov` · [Official Portal](https://www.santamonica.gov/standard-detail-and-specifications).
 
-<table class="dwtab"><thead><tr><th>Detail</th><th>Title</th><th>Application</th></tr></thead><tbody>
-<tr><td><strong>SWSM-1</strong></td><td>General Requirements for Green Streets</td><td>Citywide green street projects</td></tr>
-<tr><td><strong>SWSM-2</strong></td><td>Vegetated Stormwater Curb Extension (Mid-Block Pedestrian Crossings)</td><td>Mid-block bulb-outs &amp; crossing shortening</td></tr>
-<tr><td><strong>SWSM-3</strong></td><td>Vegetated Stormwater Curb Extension (Corner)</td><td>Corner bulb-outs &amp; turning-speed reduction</td></tr>
-<tr><td><strong>SWSM-4</strong></td><td>Planter with Step-Out Zone (Without Underdrain)</td><td>Curbside parking step-out &amp; parkway buffer</td></tr>
-<tr><td><strong>SWSM-6 – 9</strong></td><td>Permeable Paving, Curb Cut Inlet, Extension Inlet/Outlet, Check Dam</td><td>Stormwater drainage interfaces</td></tr>
+<table class="dwtab"><thead><tr><th>Series</th><th>Detail Numbers &amp; Titles</th></tr></thead><tbody>
+<tr><td><strong>Street, Curb &amp; Bus (SM)</strong></td><td><b>SM 1</b> PCC Alley Approach &amp; Cross-Gutter &middot; <b>SM 2</b> PCC Bus Pad &middot; <b>SM 3</b> PCC Alley &middot; <b>SM 5</b> Driveway, Curb &amp; Combined Curb/Gutter &middot; <b>SM 6</b> Curb &amp; Gutter Construction &middot; <b>SM 7 / SM 8</b> Typical Street Cross Sections &middot; <b>SM 9</b> Construction Joints &middot; <b>SM 10</b> Curb Drain &middot; <b>SM 11</b> Pavement Reconstruction &middot; <b>SM 12</b> Sidewalk Layout at Tree Locations &middot; <b>SM 17</b> Street Cross Section Utility Zone &middot; <b>SM 18</b> Pervious Concrete Alley Gutter &middot; <b>SM 19</b> Temporary No Parking Signs &middot; <b>SM 20</b> Santa Monica Outdoors Parklet Program &middot; <b>SM 21</b> Micro Trenching &middot; <b>SM 22 / 22-A</b> Streetlight Foundation &amp; Banner Attachment (rev. 06/2026)</td></tr>
+<tr><td><strong>Bikeways (B)</strong></td><td><b>B-1</b> Bikeway Specifications &amp; General Notes &middot; <b>B-2</b> Combined Class I Bike/Ped Path (Not Adjacent to Street) &middot; <b>B-3</b> Class I Bike Path (Not Adjacent to Street) &middot; <b>B-4</b> Combined Class I Path (Non-Typical Sections) &middot; <b>B-5</b> Combined Class I Path (Adjacent to Street)</td></tr>
+<tr><td><strong>Green Streets (SWSM)</strong></td><td><b>SWSM-1</b> General Requirements &middot; <b>SWSM-2</b> Vegetated Stormwater Curb Extension (Mid-Block Crossing) &middot; <b>SWSM-3</b> Vegetated Stormwater Curb Extension (Corner) &middot; <b>SWSM-4</b> Planter with Step-Out Zone &middot; <b>SWSM-6</b> Parking Lane/Gutter Permeable Paving &middot; <b>SWSM-7</b> Curb Cut Inlet/Sediment Basin &middot; <b>SWSM-8</b> Curb Extension Inlet/Outlet &middot; <b>SWSM-9</b> Check Dam</td></tr>
 </tbody></table>
 
 ## Matching Governing California Visuals
 
-Santa Monica defers directly to Caltrans Standard Plans and DIBs for striping, curb ramp geometry, and bikeway cross-sections. Click any diagram to open in the in-tab zoom window:
+Santa Monica adopts Caltrans Standard Plans and DIBs directly for traffic striping, curb ramp geometry, and bikeway cross-sections. Click any diagram to zoom in-tab:
 
 <div class="mfig-grid">
   <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0019.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0019.webp" alt="Caltrans 2026 A88A Curb Ramp Details"></a><figcaption>Caltrans 2026 A88A Curb Ramp Details (apply Santa Monica 4'-2" width, 7.5% max running / 1.5% max cross slope)</figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/hdm-ch1000/fig-1003-1a.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/hdm-ch1000/fig-1003-1a.webp" alt="Caltrans HDM Figure 1003.1A Class I Bike Path"></a><figcaption>Caltrans HDM Fig. 1003.1A — Class I Bike Path minimum cross-section (pairs with SM B-1 to B-5)</figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/fig-1-protected-intersection.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/fig-1-protected-intersection.webp" alt="Caltrans DIB 89-02 Protected Intersection"></a><figcaption>Caltrans DIB 89-02 Fig. 1 — Protected Intersection geometry for separated bikeways</figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-82-06/fig-4-3-8-1-running-slope.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-82-06/fig-4-3-8-1-running-slope.webp" alt="Caltrans DIB 82-06 Curb Ramp Running Slope"></a><figcaption>Caltrans DIB 82-06 Fig. 4.3.8(1) — Curb ramp running slope &amp; grade break geometry</figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/hdm-ch1000/fig-1003-1a.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/hdm-ch1000/fig-1003-1a.webp" alt="Caltrans HDM Figure 1003.1A Class I Bike Path"></a><figcaption>Caltrans HDM Fig. 1003.1A &mdash; Class I Bike Path minimum cross-section (pairs with SM B-1 to B-5)</figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-89-02/fig-1-protected-intersection.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-89-02/fig-1-protected-intersection.webp" alt="Caltrans DIB 89-02 Protected Intersection"></a><figcaption>Caltrans DIB 89-02 Fig. 1 &mdash; Protected Intersection geometry</figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-82-06/fig-4-3-8-1-running-slope.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-82-06/fig-4-3-8-1-running-slope.webp" alt="Caltrans DIB 82-06 Curb Ramp Running Slope"></a><figcaption>Caltrans DIB 82-06 Fig. 4.3.8(1) &mdash; Curb ramp running slope &amp; grade break geometry</figcaption></figure>
 </div>
-
-## Official Links
-
-- [Santa Monica Standard Detail and Specifications](https://www.santamonica.gov/standard-detail-and-specifications) (SM 1–22A, B-1–B-5, SWSM-1–9, Curb Ramp Memo)
-- [Off-Site Improvements Plan Check Checklist (Rev. 6/27/2023, PDF)](https://www.santamonica.gov/media/Public%20Works/Engineering%20&%20Street%20Services/Land%20Development/Offsite%20Improvements/Checklist%20-%20Off-site%20%20(Rev%206-27-23).pdf)
-- [Temporary Traffic Control Plans Review &amp; Submission Requirements (Updated 10/16/2026, PDF)](https://www.santamonica.gov/media/Document%20Library/Process%20Explainers/How%20to%20Submit%20a%20Temporary%20Traffic%20Control%20Plan/TTCP%20Review%20%26%20Submission%20Requirements.pdf)
