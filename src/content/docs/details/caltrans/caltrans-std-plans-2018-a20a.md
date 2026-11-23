@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A20A</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>01-26-18</b></span><span>Page 1</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Caltrans 2026 baseline sheet for 6-inch longitudinal traffic lines and raised pavement marker (RPM) patterns—covering broken lane lines, solid edge lines, and standard centerline Details 1–22.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> All State highway striping plans and local agency projects that adopt Caltrans striping details.</p></div>
+
 
 
 

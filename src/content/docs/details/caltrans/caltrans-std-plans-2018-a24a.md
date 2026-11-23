@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A24A</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>01-26-18</b></span><span>Page 4</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standardizes Caltrans pavement arrow dimensions (Type I–VIII) for through, turn, combination, and lane-drop arrows.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Turn-bay layouts, lane-drop transitions, and thermoplastic pavement marking schedules.</p></div>
+
 
 
 

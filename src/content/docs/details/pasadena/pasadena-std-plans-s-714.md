@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-714</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-04-01</b></span><span>Page 19</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard Municipal engineering drawing detailing design geometry, dimensions, and field installation criteria for Layout, 3 m (10 ft) Wide Turn Bay Transition.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving layout, 3 m (10 ft) wide turn bay transition.</p></div>
+
 
 
 

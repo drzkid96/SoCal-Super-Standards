@@ -74,6 +74,34 @@
       <section class="sp-pane" data-p="calc" hidden>
         <div style="display:flex;flex-direction:column;gap:0.75rem;font-size:0.82rem">
           <div style="border:1px solid var(--fp-grid,#E7E8E8);border-radius:10px;padding:0.65rem;background:#fff">
+            <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">Quick Arithmetic Calculator</strong>
+            <input id="c-arith-in" type="text" inputmode="decimal" placeholder="e.g. (44 - 12*2) / 2" aria-label="Calculator expression" style="width:100%;box-sizing:border-box;padding:0.4rem 0.55rem;border:1px solid #D0D4D4;border-radius:6px;font-family:ui-monospace,monospace;font-size:0.95rem;text-align:right;margin-bottom:0.35rem">
+            <div id="c-arith-res" style="text-align:right;font-family:ui-monospace,monospace;font-weight:700;font-size:0.9rem;color:var(--fp-emerald,#00574A);min-height:1.25rem;margin-bottom:0.4rem"></div>
+            <div id="c-arith-pad" style="display:grid;grid-template-columns:repeat(4,1fr);gap:0.28rem">
+              <button type="button" data-k="C" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#F2F2F2;font-weight:700;cursor:pointer">C</button>
+              <button type="button" data-k="B" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#F2F2F2;font-weight:700;cursor:pointer">&larr;</button>
+              <button type="button" data-k="(" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#F2F2F2;cursor:pointer">(</button>
+              <button type="button" data-k=")" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#F2F2F2;cursor:pointer">)</button>
+              <button type="button" data-k="7" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">7</button>
+              <button type="button" data-k="8" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">8</button>
+              <button type="button" data-k="9" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">9</button>
+              <button type="button" data-k="/" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:var(--fp-pale-green,#D9F1D6);font-weight:700;cursor:pointer">&divide;</button>
+              <button type="button" data-k="4" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">4</button>
+              <button type="button" data-k="5" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">5</button>
+              <button type="button" data-k="6" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">6</button>
+              <button type="button" data-k="*" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:var(--fp-pale-green,#D9F1D6);font-weight:700;cursor:pointer">&times;</button>
+              <button type="button" data-k="1" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">1</button>
+              <button type="button" data-k="2" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">2</button>
+              <button type="button" data-k="3" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">3</button>
+              <button type="button" data-k="-" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:var(--fp-pale-green,#D9F1D6);font-weight:700;cursor:pointer">&minus;</button>
+              <button type="button" data-k="0" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">0</button>
+              <button type="button" data-k="." style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:#fff;cursor:pointer">.</button>
+              <button type="button" data-k="=" style="padding:0.35rem;border:1px solid var(--fp-emerald,#00574A);border-radius:6px;background:var(--fp-emerald,#00574A);color:#fff;font-weight:700;cursor:pointer">=</button>
+              <button type="button" data-k="+" style="padding:0.35rem;border:1px solid #D0D4D4;border-radius:6px;background:var(--fp-pale-green,#D9F1D6);font-weight:700;cursor:pointer">+</button>
+            </div>
+          </div>
+
+          <div style="border:1px solid var(--fp-grid,#E7E8E8);border-radius:10px;padding:0.65rem;background:#fff">
             <strong style="color:var(--fp-emerald,#00574A);display:block;margin-bottom:0.35rem">1. Work-Zone Taper &amp; Buffer (CA MUTCD 6C)</strong>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;margin-bottom:0.45rem">
               <label>Speed (mph)<input id="c-spd" type="number" value="35" min="15" max="70" step="5" style="width:100%;padding:0.25rem;border:1px solid #D0D4D4;border-radius:6px"></label>
@@ -161,6 +189,39 @@
     const ssd = Math.round(1.47 * v * 2.5 + (v * v) / (30 * 0.348));
     $('#c-ssd-out').innerHTML = `Stopping Sight Distance: <b>${ssd} ft</b><br>CA AB 413 Daylighting: <b>20 ft</b> min (<b>15 ft</b> w/ curb ext.)`;
   }
+
+  function evalArith(commit) {
+    const inp = $('#c-arith-in'), res = $('#c-arith-res');
+    if (!inp || !res) return;
+    const raw = inp.value.replace(/[×x]/gi, '*').replace(/÷/g, '/').replace(/−/g, '-').trim();
+    if (!raw) { res.textContent = ''; return; }
+    if (!/^[0-9+\-*/().\s%]+$/.test(raw)) { res.textContent = 'Invalid expression'; return; }
+    try {
+      const val = Function('"use strict"; return (' + raw + ')')();
+      if (typeof val === 'number' && Number.isFinite(val)) {
+        const fmt = Number(val.toFixed(6)).toString();
+        res.textContent = '= ' + fmt;
+        if (commit) inp.value = fmt;
+      } else {
+        res.textContent = 'Error';
+      }
+    } catch {
+      if (commit) res.textContent = 'Error';
+    }
+  }
+  $('#c-arith-in')?.addEventListener('input', () => evalArith(false));
+  $('#c-arith-in')?.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); evalArith(true); } });
+  $('#c-arith-pad')?.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-k]');
+    const inp = $('#c-arith-in');
+    if (!btn || !inp) return;
+    const k = btn.dataset.k;
+    if (k === 'C') { inp.value = ''; $('#c-arith-res').textContent = ''; }
+    else if (k === 'B') { inp.value = inp.value.slice(0, -1); evalArith(false); }
+    else if (k === '=') { evalArith(true); }
+    else { inp.value += k; evalArith(false); }
+    inp.focus();
+  });
 
   function renderChecks() {
     const n = checks.filter((c) => c.sev === 'warn').length;

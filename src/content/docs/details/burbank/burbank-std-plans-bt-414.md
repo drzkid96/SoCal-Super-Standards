@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-414</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Dated <b>12-21-16</b></span><span>Pages 18, 19</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard Municipal engineering drawing detailing design geometry, dimensions, and field installation criteria for Standard 3-inch Speed Hump.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving standard 3-inch speed hump.</p></div>
+
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/w8-1/" data-svg="/SoCal-Super-Standards/signs/W8-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W8-1.svg" alt="W8-1"><span><b>W8-1</b> Bump warning sign</span></a></div>

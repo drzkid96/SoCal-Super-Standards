@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-52.1.7</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>4</b> sheets</span><span>Pages 42, 43, 44, 45</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard LADOT engineering drawing detailing design geometry, dimensions, and field installation criteria for BSL Poles with Rectangular Rapid Flashing Beacon Sign Arm.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving bsl poles with rectangular rapid flashing beacon sign arm.</p></div>
+
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/w11-2/" data-svg="/SoCal-Super-Standards/signs/W11-2.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W11-2.svg" alt="W11-2"><span><b>W11-2</b> Pedestrian warning sign</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/w16-7p/" data-svg="/SoCal-Super-Standards/signs/W16-7P.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/W16-7P.svg" alt="W16-7P"><span><b>W16-7P</b> Downward Diagonal Arrow plaque</span></a></div>

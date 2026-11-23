@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-70.3</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 73</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard LADOT engineering drawing detailing design geometry, dimensions, and field installation criteria for Multi-Pair Loop Lead-In Cable.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving multi-pair loop lead-in cable.</p></div>
+
 
 
 

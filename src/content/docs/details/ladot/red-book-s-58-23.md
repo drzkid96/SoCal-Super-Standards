@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-58.23</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 123</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard LADOT engineering drawing detailing design geometry, dimensions, and field installation criteria for Electric Train and Bus Warning Sign.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving electric train and bus warning sign.</p></div>
+
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/r3-5/" data-svg="/SoCal-Super-Standards/signs/R3-5.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-5.svg" alt="R3-5"><span><b>R3-5</b> Mandatory Movement Lane Control - Turn O</span></a></div>

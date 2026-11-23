@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">Detail 300</span><span class="dwg-src">Los Angeles Supplemental Street Design Guide &middot; February 2020, rev. May 2020</span></div>
 <div class="dwg-facts"><span><b>6</b> sheets</span><span>Pages 114, 115, 116, 117, 118, 119</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard LADOT engineering drawing detailing design geometry, dimensions, and field installation criteria for Truck Aprons.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving truck aprons.</p></div>
+
 
 
 

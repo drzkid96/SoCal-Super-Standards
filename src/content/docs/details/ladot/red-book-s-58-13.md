@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-58.13</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 116, 117</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard LADOT engineering drawing detailing design geometry, dimensions, and field installation criteria for No Left and No Right Turn Electric Sign.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving no left and no right turn electric sign.</p></div>
+
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/r3-1/" data-svg="/SoCal-Super-Standards/signs/R3-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-1.svg" alt="R3-1"><span><b>R3-1</b> Movement Prohibition - No Right Turn reg</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r3-2/" data-svg="/SoCal-Super-Standards/signs/R3-2.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R3-2.svg" alt="R3-2"><span><b>R3-2</b> Movement Prohibition - No Left Turn regu</span></a></div>

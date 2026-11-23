@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-470-1</span><span class="dwg-src">LADOT Parking Standards (Council File 22-0922 exhibits) &middot; as filed 10/2022</span></div>
 <div class="dwg-facts"><span><b>8</b> sheets</span><span>Pages 78, 79, 80, 81, 130, 131, 132, 133</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard LADOT engineering drawing detailing design geometry, dimensions, and field installation criteria for Standard Street Dimensions - Arterial Streets.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving standard street dimensions - arterial streets.</p></div>
+
 
 
 

@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-702</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-04-01</b></span><span>Page 1</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard Municipal engineering drawing detailing design geometry, dimensions, and field installation criteria for Turn Bay Transition, Single Double Centerline.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving turn bay transition, single double centerline.</p></div>
+
 
 
 

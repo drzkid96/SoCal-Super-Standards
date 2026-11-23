@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A24F</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 13</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Defines Caltrans crosswalk patterns (standard transverse, continental/ladder, and diagonal), limit lines, yield triangles, and railroad crossing markings.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Crosswalk upgrades, advance yield-line installations, and intersection limit-line plans.</p></div>
+
 
 
 

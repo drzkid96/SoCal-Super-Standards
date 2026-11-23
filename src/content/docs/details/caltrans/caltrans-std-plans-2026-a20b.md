@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A20B</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 2</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Continues Caltrans 2026 longitudinal striping Details 25–39, including double-yellow centerlines, two-way left-turn lanes (Details 31/32), and wide channelizing/gore lines.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Arterial medians, TWLTL corridors, ramp gores, and auxiliary lane striping.</p></div>
+
 
 
 

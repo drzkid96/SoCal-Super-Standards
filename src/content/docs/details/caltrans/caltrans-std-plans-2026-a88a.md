@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A88A</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 19</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Caltrans 2026 ADA curb ramp standard (Cases A–G) specifying running slopes (&lt;=8.33%), cross slopes (&lt;=2.0%), 4-ft landings, flared sides, and detectable warning surfaces.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Every ADA curb-ramp design on State highways and LA County cities referencing Caltrans A88A.</p></div>
+
 
 
 

@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-715</span><span class="dwg-src">City of Pasadena Department of Transportation Standard Plans (S-700 series) &middot; Sheets dated 2001 to 2023, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>07-07-03</b></span><span>Page 20</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard Municipal engineering drawing detailing design geometry, dimensions, and field installation criteria for New Sign Post Installation.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving new sign post installation.</p></div>
+
 
 
 

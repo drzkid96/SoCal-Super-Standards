@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A24B</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>01-26-18</b></span><span>Page 5</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard Caltrans engineering drawing detailing design geometry, dimensions, and field installation criteria for Pavement Markings, Arrows and Symbols.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving pavement markings, arrows and symbols.</p></div>
+
 
 
 

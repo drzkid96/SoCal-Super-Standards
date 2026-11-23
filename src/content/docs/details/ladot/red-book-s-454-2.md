@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-454.2</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Page 130</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard LADOT engineering drawing detailing design geometry, dimensions, and field installation criteria for Pedestrian Barricade.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving pedestrian barricade.</p></div>
+
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/r9-3a/" data-svg="/SoCal-Super-Standards/signs/R9-3a.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R9-3a.svg" alt="R9-3a"><span><b>R9-3a</b> No Pedestrian Crossing regulatory sign</span></a></div>

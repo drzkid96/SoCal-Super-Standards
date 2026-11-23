@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">Detail 400</span><span class="dwg-src">Los Angeles Supplemental Street Design Guide &middot; February 2020, rev. May 2020</span></div>
 <div class="dwg-facts"><span><b>14</b> sheets</span><span>Pages 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard LADOT engineering drawing detailing design geometry, dimensions, and field installation criteria for Bus Bulbs.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving bus bulbs.</p></div>
+
 
 
 

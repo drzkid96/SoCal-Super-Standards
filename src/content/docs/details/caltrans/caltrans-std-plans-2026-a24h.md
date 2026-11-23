@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A24H</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 15</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard Caltrans engineering drawing detailing design geometry, dimensions, and field installation criteria for Pavement Markings, Arrows.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving pavement markings, arrows.</p></div>
+
 
 
 

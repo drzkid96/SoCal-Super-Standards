@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A20B</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>01-26-18</b></span><span>Page 2</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Continues Caltrans 2026 longitudinal striping Details 25–39, including double-yellow centerlines, two-way left-turn lanes (Details 31/32), and wide channelizing/gore lines.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Arterial medians, TWLTL corridors, ramp gores, and auxiliary lane striping.</p></div>
+
 
 
 

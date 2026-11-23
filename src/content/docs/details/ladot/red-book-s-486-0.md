@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-486.0</span><span class="dwg-src">LADOT Red Book: Special Provisions and Standard Drawings for Traffic Signals &middot; July 2008 base, revised (2026 file)</span></div>
 <div class="dwg-facts"><span><b>2</b> sheets</span><span>Pages 113, 114</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Governs internally illuminated and retroreflective mast-arm mounted street name signs on signalized intersections, including clamp placement and clearance from signal heads.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Traffic signal modifications, new signal installations, and arterial wayfinding upgrades.</p></div>
+
 
 
 

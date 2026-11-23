@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A90B</span><span class="dwg-src">Caltrans Standard Plans 2026, Pavement Markers, Traffic Lines, Pavement Markings, Curb Ramps and Accessible Parking (A20A to A24L, A88A, A88B, A90A, A90B) &middot; 2026 edition (sheets dated September 18, 2026; required for projects submitted on or after October 19, 2026)</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>09-18-26</b></span><span>Page 22</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard Caltrans engineering drawing detailing design geometry, dimensions, and field installation criteria for Accessible Parking On-Street.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving accessible parking on-street.</p></div>
+
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/r99ca/" data-svg="/SoCal-Super-Standards/signs/ca/r99ca.webp"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r99ca.webp" alt="R99(CA)"><span><b>R99(CA)</b> Parking Only regulatory sign</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r99bca/" data-svg="/SoCal-Super-Standards/signs/ca/r99bca.webp"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r99bca.webp" alt="R99B(CA)"><span><b>R99B(CA)</b> Minimum Fine $250 regulatory sign</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r99cca/" data-svg="/SoCal-Super-Standards/signs/ca/r99cca.webp"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r99cca.webp" alt="R99C(CA)"><span><b>R99C(CA)</b> Parking Arking Only Ly Minimum Fine $250</span></a></div>

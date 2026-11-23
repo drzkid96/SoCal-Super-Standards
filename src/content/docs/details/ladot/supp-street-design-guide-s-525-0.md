@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">S-525.0</span><span class="dwg-src">Los Angeles Supplemental Street Design Guide &middot; February 2020, rev. May 2020</span></div>
 <div class="dwg-facts"><span><b>4</b> sheets</span><span>Pages 167, 168, 169, 170</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard LADOT engineering drawing detailing design geometry, dimensions, and field installation criteria for Crossing Islands.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving crossing islands.</p></div>
+
 
 
 <h2>Signs on this drawing</h2><div class="tsigns"><a class="tsign sref" href="/SoCal-Super-Standards/signs/om1-1/" data-svg="/SoCal-Super-Standards/signs/OM1-1.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/OM1-1.svg" alt="OM1-1"><span><b>OM1-1</b> Object Marker Type 1 marker</span></a><a class="tsign sref" href="/SoCal-Super-Standards/signs/r4-7/" data-svg="/SoCal-Super-Standards/signs/R4-7.svg"><img loading="lazy" src="/SoCal-Super-Standards/signs/R4-7.svg" alt="R4-7"><span><b>R4-7</b> Keep Right regulatory sign</span></a></div>

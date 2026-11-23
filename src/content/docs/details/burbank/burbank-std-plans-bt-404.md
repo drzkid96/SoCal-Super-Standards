@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">BT-404</span><span class="dwg-src">City of Burbank Public Works Department Traffic Standard Plans (BT series) &middot; Sheets dated 1992 to 2025, as provided</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>06-01-92</b></span><span>Page 9</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Standard Municipal engineering drawing detailing design geometry, dimensions, and field installation criteria for Striping (Parking Stalls).</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Reference this sheet when preparing signing, striping, or civil right-of-way plan sets involving striping (parking stalls).</p></div>
+
 
 
 

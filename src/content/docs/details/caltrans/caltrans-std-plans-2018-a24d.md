@@ -7,6 +7,8 @@ tableOfContents: false
 <div class="dwg-head"><div><span class="dwg-num">A24D</span><span class="dwg-src">Caltrans Standard Plans 2018, Pavement Markers, Traffic Lines and Pavement Markings (A20A, A20B, RSP A20D, A24A, A24B, A24D) &middot; 2018 edition (RSP A20D dated 10-19-18); superseded by the 2026 Standard Plans</span></div>
 <div class="dwg-facts"><span><b>1</b> sheet</span><span>Dated <b>01-26-18</b></span><span>Page 6</span></div></div>
 
+<div class="dwg-summary"><p><strong>Overview:</strong> Details Caltrans pavement word legends (&#x27;STOP&#x27;, &#x27;AHEAD&#x27;, &#x27;SLOW&#x27;, &#x27;SCHOOL&#x27;, &#x27;XING&#x27;, &#x27;ONLY&#x27;, &#x27;PED&#x27;) with exact 8-foot letter elongation.</p><p class="dwg-use"><strong>Typical Use Cases:</strong> Crosswalk approaches, stop-controlled intersections, and school-zone pavement markings.</p></div>
+
 
 
 
