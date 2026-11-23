@@ -662,6 +662,12 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .home-ai-bar strong { color: var(--fp-emerald); }
 .home-ai-bar .home-ai-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin-left: auto; }
 .home-ai-bar progress { width: 110px; height: 8px; accent-color: var(--fp-emerald); }
+.city-ss-wrap { overflow-x: auto; }
+.badge-tier { display: inline-block; padding: 0.14rem 0.48rem; border-radius: 999px; font-size: 0.74rem; font-weight: 600; white-space: nowrap; }
+.badge-standard-plans { background: var(--fp-pale-green, #D9F1D6); color: var(--fp-emerald, #00574A); }
+.badge-traffic-engineering { background: rgba(27, 121, 90, 0.14); color: var(--fp-jade, #1B795A); }
+.badge-engineering-permits { background: rgba(86, 140, 187, 0.16); color: var(--fp-slate, #00242E); }
+.badge-public-works { background: var(--fp-cream, #EEEDE8); color: var(--fp-slate, #00242E); }
 
 /* ---------- clean print / PDF export ---------- */
 @media print {
