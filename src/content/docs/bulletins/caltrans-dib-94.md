@@ -51,6 +51,17 @@ The table is adapted from NCHRP Report 880 Exhibit 4.8, adjusted for the Vehicle
 - Buffers: 2 ft minimum, 2 to 4 ft preferred; 2 to 4 ft door-zone buffer next to parking.
 - Class II is recommended at 25 mph or less, buffered Class II at 35 mph or less. At 40 to 45 mph, use separation, or a Class II lane with at least a 4 ft buffer where separation is not feasible.
 
+## Official Caltrans DIB 94 Figures
+
+Click any diagram to open in the in-tab zoom window:
+
+<div class="mfig-grid">
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-3b-city-center.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-3b-city-center.webp" alt="DIB 94 Figure 3-B City Center place type"></a><figcaption>Figure 3-B &mdash; City Center place type example (US-101, San Francisco)</figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-5a-bike-selection.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-5a-bike-selection.webp" alt="DIB 94 Figure 5-A Recommended Bicycle Facilities"></a><figcaption>Figure 5-A &mdash; Recommended bicycle facilities by speed &amp; volume (Urban, Suburban, Rural Main Street)</figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-5b-class-i.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-5b-class-i.webp" alt="DIB 94 Figure 5-B Class I Bike Path"></a><figcaption>Figure 5-B &mdash; Class I Bike Path typical cross-section</figcaption></figure>
+  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/bulletins/dib-94/fig-5d-class-ii-buffered.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/bulletins/dib-94/fig-5d-class-ii-buffered.webp" alt="DIB 94 Figure 5-D Class II and Buffered Bike Lane"></a><figcaption>Figure 5-D &mdash; Class II Bike Lane &amp; Class II Buffered Bike Lane</figcaption></figure>
+</div>
+
 ## Contents
 
 Introduction; use of the guidance; design contexts and place types; vehicle speeds; roadway cross section (bicycle facilities, pedestrian facilities, lane width, shoulder width); crosswalks and enhanced crosswalks; bus transit; green streets; graphic examples by place type.

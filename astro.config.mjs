@@ -27,7 +27,7 @@ const topicGroups = topicDefs.map((g) => ({ label: g.group, collapsed: false, it
 const ladotCfg = JSON.parse(fs.readFileSync('./pipeline/config/ladot.json', 'utf8'));
 const guideCfg = JSON.parse(fs.readFileSync('./pipeline/config/guides.json', 'utf8'));
 const guideDocs = guideCfg.map((c) => ({ label: c.short, link: `/${c.slug}/` }));
-const refCards = JSON.parse(fs.readFileSync('./data/refcards.json', 'utf8')).map((g) => ({ label: g.short + ' (outline)', link: `/guides/${g.slug}/` }));
+const refCards = JSON.parse(fs.readFileSync('./data/refcards.json', 'utf8')).map((g) => ({ label: g.short, link: `/guides/${g.slug}/` }));
 const agencyCfg = JSON.parse(fs.readFileSync('./pipeline/config/agencies.json', 'utf8'));
 const AGENCY_LABELS = {
   'caltrans/standard-plans-2026': 'Caltrans 2026 Standard Plans (current)',
@@ -41,10 +41,15 @@ const AGENCY_ORDER = [
   'pasadena/standard-plans',
   'caltrans/standard-plans-2018',
 ];
-const agencyDocs = agencyCfg
-  .filter((c) => !c.slug.includes('la28'))
-  .sort((a, b) => (AGENCY_ORDER.indexOf(a.slug) + 1 || 99) - (AGENCY_ORDER.indexOf(b.slug) + 1 || 99))
-  .map((c) => ({ label: AGENCY_LABELS[c.slug] || c.short, link: `/${c.slug}/` }));
+const agencyDocs = [
+  ...agencyCfg
+    .filter((c) => !c.slug.includes('la28'))
+    .sort((a, b) => (AGENCY_ORDER.indexOf(a.slug) + 1 || 99) - (AGENCY_ORDER.indexOf(b.slug) + 1 || 99))
+    .map((c) => ({ label: AGENCY_LABELS[c.slug] || c.short, link: `/${c.slug}/` })),
+  { label: 'Santa Monica Standard Details (SM / B / SWSM)', link: '/santa-monica/standard-plans/' },
+  { label: 'West Hollywood Engineering & Mobility', link: '/west-hollywood/standard-plans/' },
+  { label: 'Culver City Complete Streets & Traffic', link: '/culver-city/standard-plans/' },
+];
 const ladotDocs = ladotCfg.map((c) => {
   const d = JSON.parse(fs.readFileSync(`./data/docs/${c.slug.replace('/', '__')}.json`, 'utf8'));
   return { label: c.short, collapsed: true, items: [
@@ -99,19 +104,16 @@ export default defineConfig({
           { label: 'Sign Library', link: '/signs/' },
           { label: 'Pavement Marking Library', link: '/markings/' },
           { label: 'Line Type Database', link: '/markings/line-types/' },
-          { label: 'LADOT standard drawings', link: '/ladot/' },
           { label: 'MPP drawings, redrawn', link: '/ladot/mpp-details/' },
           { label: 'All agency standard drawings', link: '/details/?type=Standard+drawing' },
         ] },
         { label: 'Design by topic', items: [
           { label: 'All topics', link: '/topics/' },
           { label: 'LADOT curb paint & red curb', link: '/ladot/curb-paint/' },
-          { label: 'Lane widths (all sources)', link: '/bulletins/lane-widths/' },
           ...topicGroups,
         ] },
         { label: 'Bulletins & policy memos', collapsed: true, items: [
           { label: 'All bulletins and memos', link: '/bulletins/' },
-          { label: 'Standards status (what supersedes what)', link: '/bulletins/standards-status/' },
           { label: 'Lane width comparison', link: '/bulletins/lane-widths/' },
           { label: 'Bikeway design comparison', link: '/bulletins/bikeway-design-comparison/' },
           { label: 'Caltrans HDM Ch. 1000 Bikeways', link: '/bulletins/caltrans-hdm-ch1000/' },
@@ -127,7 +129,6 @@ export default defineConfig({
           { label: 'LADOT Bikeway Marking', link: '/bulletins/ladot-bikeway-marking-2022/' },
           { label: 'LADOT Leading Pedestrian Interval', link: '/bulletins/ladot-lpi-2021/' },
           { label: 'LADOT Exclusive Pedestrian Phase', link: '/bulletins/ladot-exclusive-ped-phase-2017/' },
-          { label: 'LADOT S&S Plan Review Checklist', link: '/bulletins/ladot-ss-plan-checklist-2022/' },
           { label: 'LADOT Accessible Parking Zones', link: '/bulletins/ladot-accessible-parking-2017/' },
           { label: 'PROWAG (ADA right-of-way)', link: '/bulletins/prowag-2023/' },
           { label: 'CBC 11B accessible parking', link: '/bulletins/ca-accessible-parking-2026/' },
@@ -143,9 +144,9 @@ export default defineConfig({
           { label: 'CA MUTCD 2026', collapsed: true, items: [{ label: 'About this manual', link: '/ca-mutcd/' }, ...caParts, { label: 'LA28 Supplement (Games Route Network)', link: '/caltrans/la28-supplement/' }] },
           { label: 'Federal MUTCD 11th Ed. Rev. 1', collapsed: true, items: [{ label: 'About this manual', link: '/mutcd/' }, ...fedParts] },
           { label: 'LADOT', collapsed: true, items: [{ label: 'All LADOT documents', link: '/ladot/' }, ...ladotDocs] },
-          { label: 'Caltrans, Burbank & Pasadena', collapsed: true, items: agencyDocs },
+          { label: 'Caltrans & SoCal Cities', collapsed: true, items: agencyDocs },
           { label: 'Federal guides (FHWA, ADA)', collapsed: true, items: guideDocs },
-          { label: 'National design guides', collapsed: true, items: [{ label: 'About these guides', link: '/guides/' }, ...refCards] },
+          { label: 'Design guides & references', collapsed: true, items: [{ label: 'All guides & coverage', link: '/guides/' }, ...refCards] },
           { label: 'Sources and versions', link: '/sources/' },
         ] },
       ],

@@ -161,7 +161,13 @@
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && ui.classList.contains('open')) setOpen(false); });
     setTab(ls.get(TAB_KEY, 'checks'));
     try {
-      const all = await (await fetch(BASE + '/data/checks.json')).json();
+      const ckKey = 'sss_checks_' + ((document.querySelector('script[src*="panel.js"]')?.src || '').split('?v=')[1] || '1');
+      let all = null;
+      try { const cached = sessionStorage.getItem(ckKey); if (cached) all = JSON.parse(cached); } catch {}
+      if (!all) {
+        all = await (await fetch(BASE + '/data/checks.json')).json();
+        try { sessionStorage.setItem(ckKey, JSON.stringify(all)); } catch {}
+      }
       checks = all[path] || all[decodeURI(path)] || [];
     } catch { checks = []; }
     renderChecks();

@@ -101,10 +101,37 @@ window.__openSiteSearch = function (query) {
       bar.style.transform = `scaleX(${p})`; b.classList.toggle('show', h.scrollTop > 600);
     }, { passive: true });
 
-    // Scroll active sidebar link smoothly into view if off-screen
-    const curSide = document.querySelector('#starlight__sidebar a[aria-current="page"]');
-    if (curSide && curSide.scrollIntoView) {
-      try { curSide.scrollIntoView({ block: 'nearest' }); } catch (e) {}
+    // Auto-expand and jump sidebar to current page (or closest parent section on deep pages)
+    const side = document.getElementById('starlight__sidebar');
+    if (side) {
+      let curSide = side.querySelector('a[aria-current="page"]');
+      if (!curSide) {
+        const curPath = location.pathname.replace(/\/?$/, '/');
+        let best = null, bestLen = 0;
+        side.querySelectorAll('a[href]').forEach((a) => {
+          try {
+            const p = new URL(a.href, location.href).pathname.replace(/\/?$/, '/');
+            if (p !== BASEP + '/' && curPath.startsWith(p) && p.length > bestLen) {
+              best = a;
+              bestLen = p.length;
+            }
+          } catch (e) {}
+        });
+        if (best) {
+          curSide = best;
+          curSide.classList.add('sss-side-parent');
+        }
+      }
+      if (curSide) {
+        let det = curSide.closest('details');
+        while (det) {
+          det.open = true;
+          det = det.parentElement && det.parentElement.closest('details');
+        }
+        requestAnimationFrame(() => {
+          try { curSide.scrollIntoView({ block: 'center', behavior: 'auto' }); } catch (e) {}
+        });
+      }
     }
 
     // Pressing '/' focuses the primary on-page filter/lookup input (or opens site search)
@@ -131,6 +158,9 @@ window.__openSiteSearch = function (query) {
     ['Lane Width Comparison (DIB 94 vs. MPP 531 vs. LA Streets)', BASE + '/bulletins/lane-widths/', 'Tool', 'lane width comparison dib 94 mpp 531 road diet travel lane'],
     ['Bikeway Design Comparison (HDM Ch. 1000, DIB 89-02, CA MUTCD & AASHTO GBF-5)', BASE + '/bulletins/bikeway-design-comparison/', 'Tool', 'bikeway design comparison aashto gbf-5 hdm 1000 dib 89-02 class iv separated bike lane shared use path sharrow'],
     ['AASHTO Bike Guide, 5th Edition (GBF-5, 2024) — 16 Chapters, 256 Figures, 50 Tables', BASE + '/guides/aashto-bike-guide/', 'Guide', 'aashto guide for the development of bicycle facilities 5th edition gbf-5 2024 errata bikeway'],
+    ['Santa Monica Standard Details (SM 1–22A, B-1–B-5 Bikeways, SWSM Green Streets, Curb Ramps)', BASE + '/santa-monica/standard-plans/', 'Santa Monica', 'santa monica standard details sm 2 sm 5 sm 7 sm 19 sm 20 b-1 b-5 swsm curb ramp ttcp'],
+    ['West Hollywood Engineering & Mobility Standards (Green Bike Lanes, NTMP, Pavement)', BASE + '/west-hollywood/standard-plans/', 'West Hollywood', 'west hollywood weho ntmp traffic calming green bike lane protected bike lane fountain willoughby pavement'],
+    ['Culver City Complete Streets Design Standards (June 2025) & TCP Requirements', BASE + '/culver-city/standard-plans/', 'Culver City', 'culver city complete streets design standards csds tcp traffic control crosswalk bike box parklet'],
     ['LADOT Curb Paint, Red Curb & S-481.0 Calculator', BASE + '/ladot/curb-paint/', 'Tool', 'red curb paint daylighting blue yellow green white s-481 calculator'],
     ['Line Type Database (Caltrans 2026 Details 1-45)', BASE + '/markings/line-types/', 'Tool', 'line type striping detail 1 2 8 9 12 21 22 25 27b 32 38 39 a20a a20b'],
     ['Standards Status (What Governs & 219 Deleted CA Signs)', BASE + '/bulletins/standards-status/', 'Status', 'standards status superseded current edition deleted california signs'],
@@ -139,7 +169,7 @@ window.__openSiteSearch = function (query) {
     ['Bulletins & Policy Memos (Caltrans DIBs, LADOT, PROWAG, CBC 11B)', BASE + '/bulletins/', 'Bulletin', 'bulletins policy memos dib 94 89-02 82-06 prowag cbc 11b lpi'],
     ['Sign Library (1,148 Federal & CA Signs)', BASE + '/signs/', 'Sign', 'sign library regulatory warning school guide ca signs'],
     ['Pavement Marking Library (203 Markings)', BASE + '/markings/', 'Marking', 'pavement marking library arrows symbols words crosswalk bike'],
-    ['Detail and Drawing Index (1,529 Items)', BASE + '/details/', 'Tool', 'detail drawing index standard drawings figures tables'],
+    ['Detail and Drawing Index (1,531 Items)', BASE + '/details/', 'Tool', 'detail drawing index standard drawings figures tables'],
     ['Keyword Index A to Z', BASE + '/keywords/', 'Keyword', 'keyword index glossary synonyms abbreviations'],
     ['Ask the Standards (AI)', BASE + '/ask/', 'Tool', 'ask ai claude screenshot plan review comment'],
     ['Topic: Crosswalks and Pedestrian Crossings', BASE + '/topics/crosswalks/', 'Topic', 'crosswalks pedestrian crossing uncontrolled midblock ladder continental rrfb'],
@@ -188,6 +218,9 @@ window.__openSiteSearch = function (query) {
     if (url.includes('/details/ladot/') || url.includes('/ladot/')) return { tag: 'LADOT', cls: 'l', pri: 11 };
     if (url.includes('/details/burbank/') || url.includes('/burbank/')) return { tag: 'Burbank', cls: 'l', pri: 12 };
     if (url.includes('/details/pasadena/') || url.includes('/pasadena/')) return { tag: 'Pasadena', cls: 'l', pri: 12 };
+    if (url.includes('/santa-monica/')) return { tag: 'Santa Monica', cls: 'l', pri: 13 };
+    if (url.includes('/west-hollywood/')) return { tag: 'West Hollywood', cls: 'l', pri: 13 };
+    if (url.includes('/culver-city/')) return { tag: 'Culver City', cls: 'l', pri: 13 };
     if (url.includes('/signs/')) return { tag: 'Sign', cls: 's', pri: 15 };
     if (url.includes('/keywords/')) return { tag: 'Keyword', cls: 'k', pri: 13 };
     if (url.includes('/mutcd/') || url.includes('/s/fed/')) return { tag: 'Fed MUTCD', cls: 'f', pri: 4 };
@@ -291,7 +324,7 @@ window.__openSiteSearch = function (query) {
         `<a class="ql-item" role="option" aria-selected="false" href="${r.url}"><span class="ql-tag ${r.cls}">${esc(r.tag)}</span><span class="ql-lbl">${esc(r.label)}</span></a>`
       ).join('');
       const empty = !list.length ? `<div class="ql-empty">No direct code or title match for &ldquo;${esc(raw.trim())}&rdquo;.</div>` : '';
-      const footer = `<button type="button" class="ql-all" role="option" aria-selected="false">Search full text across all 1,725 pages for &ldquo;${esc(raw.trim())}&rdquo; &rarr;</button>`;
+      const footer = `<button type="button" class="ql-all" role="option" aria-selected="false">Search full text across all pages for &ldquo;${esc(raw.trim())}&rdquo; &rarr;</button>`;
       res.innerHTML = rows + empty + footer;
       res.classList.add('open');
       const allBtn = res.querySelector('.ql-all');
@@ -417,7 +450,7 @@ window.__openSiteSearch = function (query) {
     if (p.get('noSup') === '1' && $('dx-noSup')) $('dx-noSup').checked = true;
 
     let shown = 0, list = [];
-    const card = (i) => `<a class="dx-card${i._sup ? ' is-sup' : ''}" href="${i.url}"><div class="dx-img">${i.img ? `<img loading="lazy" src="${i.img}" alt="">` : ''}</div>
+    const card = (i) => `<a class="dx-card${i._sup ? ' is-sup' : ''}" href="${i.url}">${i.img ? `<div class="dx-img"><img loading="lazy" src="${i.img}" alt=""></div>` : ''}
       <div class="dx-body"><div class="dx-tags"><span class="dx-tag ${i.sg === 'MUTCD' ? (i.src.startsWith('CA') ? 'c' : 'f') : 'l'}">${esc(i.src)}</span>${i._sup ? '<span class="dx-sup">Superseded</span>' : ''}</div>
       <b>${i.type === 'Figure page' ? '' : (i.type === 'Standard drawing' ? '' : esc(i.type) + ' ') + esc(i.num)}</b> ${esc(i.title || '')}
       ${i.date ? `<div class="dx-meta">Dated ${esc(i.date)} &middot; ${i.sheets} sheet(s)</div>` : ''}

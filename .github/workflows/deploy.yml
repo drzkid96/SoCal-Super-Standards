@@ -18,6 +18,11 @@ jobs:
       - uses: withastro/action@v3
         with:
           node-version: 22
+      - name: Verify JS syntax, internal links, and bike citations
+        run: |
+          for f in public/js/*.js; do node --check "$f"; done
+          python3 -I pipeline/check_links.py
+          python3 -I pipeline/check_bike_refs.py
   deploy:
     needs: build
     runs-on: ubuntu-latest

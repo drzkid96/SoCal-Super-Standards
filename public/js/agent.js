@@ -57,6 +57,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     return out;
   }
   const strip = (h) => (h || '').replace(/<[^>]+>/g, '');
+  const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
   function md(text) {
     // minimal markdown: links, bold, bullets, paragraphs
@@ -165,7 +166,7 @@ Be concise: a short answer, then "Where to look" bullets. If the results don't a
 3) Practical notes for signing/striping plans and plan review in LA. Flag anything that overlaps or conflicts with other sources and say which governs.
 Keep it tight. Do not invent requirements not in the text.`, 1500);
       box.innerHTML = md(out);
-    } catch (e) { box.innerHTML = '<p class="ai-err">' + e.message + '</p>'; }
+    } catch (e) { box.innerHTML = '<p class="ai-err">' + esc(e.message) + '</p>'; }
   }
 
   function addExplainButtons() {
@@ -215,14 +216,14 @@ Keep it tight. Do not invent requirements not in the text.`, 1500);
     $('#ai-clear').onclick = () => { images = []; thumbs.innerHTML = ''; $('#ai-text').value = ''; $('#ai-out').innerHTML = ''; };
     $('#ai-go').onclick = async () => {
       const out = $('#ai-out');
-      const log = (m) => { out.innerHTML = '<p class="ai-wait">' + m + '</p>'; };
+      const log = (m) => { out.innerHTML = '<p class="ai-wait">' + esc(m) + '</p>'; };
       try {
         const r = await ask($('#ai-text').value.trim(), images, log);
         const signsHtml = r.found.length ? '<div class="ai-signs">' + r.found.map((s) =>
-          `<a class="scard" href="${s.url}"><span class="simg"><img src="${s.svg}" alt=""></span><span class="scode">${s.code}</span><span class="sname">${s.descriptor}</span></a>`).join('') + '</div>' : '';
-        out.innerHTML = (r.p.summary ? '<p class="ai-sum">' + r.p.summary + '</p>' : '') + signsHtml + '<div class="ai-answer">' + md(r.answer) + '</div>'
-          + '<details class="ai-src"><summary>Search results used (' + r.hits.length + ')</summary><ul>' + r.hits.map((h) => `<li><a href="${h.url}">${h.title}</a></li>`).join('') + '</ul></details>';
-      } catch (e) { out.innerHTML = '<p class="ai-err">' + e.message + '</p>'; }
+          `<a class="scard" href="${esc(s.url)}"><span class="simg"><img src="${esc(s.svg)}" alt=""></span><span class="scode">${esc(s.code)}</span><span class="sname">${esc(s.descriptor)}</span></a>`).join('') + '</div>' : '';
+        out.innerHTML = (r.p.summary ? '<p class="ai-sum">' + esc(r.p.summary) + '</p>' : '') + signsHtml + '<div class="ai-answer">' + md(r.answer) + '</div>'
+          + '<details class="ai-src"><summary>Search results used (' + r.hits.length + ')</summary><ul>' + r.hits.map((h) => `<li><a href="${esc(h.url)}">${esc(h.title)}</a></li>`).join('') + '</ul></details>';
+      } catch (e) { out.innerHTML = '<p class="ai-err">' + esc(e.message) + '</p>'; }
     };
     // Add a reference
     $('#ref-go').onclick = async () => {

@@ -597,3 +597,28 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .sss-lb-img { max-width: 96vw; max-height: calc(100vh - 5.2rem); object-fit: contain; background: #fff; border-radius: 6px; box-shadow: 0 18px 50px rgba(0,0,0,.55); transform-origin: center center; transition: transform .08s ease-out; }
 .sss-lb-stage.dragging .sss-lb-img { transition: none; }
 @media (max-width: 44rem) { .sss-lb-bar { flex-wrap: wrap; padding: .45rem .6rem; } .sss-lb-cap { max-width: 72vw; } }
+
+/* ---------- coverage & authority status pills ---------- */
+.status-pill { display: inline-block; align-self: flex-start; font-size: .68rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: .1rem .5rem; border-radius: 999px; margin-bottom: .15rem; }
+.status-pill.full { background: #dfeadf; color: #1f4a36; }
+.status-pill.digest { background: #e3edf9; color: #1f4f9a; }
+.status-pill.ref { background: #f6ead4; color: #7a4b14; }
+.srcbar .status-pill { margin-right: .45rem; margin-bottom: 0; vertical-align: middle; }
+
+/* ---------- active parent section highlight in sidebar ---------- */
+#starlight__sidebar a.sss-side-parent { background: var(--sl-color-accent-low); color: var(--sss-green); font-weight: 700; border-radius: 6px; }
+
+/* ---------- homepage visual quick-jump strip ---------- */
+.vis-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(158px, 1fr)); gap: .65rem; margin: 0 0 1.25rem; }
+.vis-card { display: flex; flex-direction: column; border: 1px solid #e3dccb; border-radius: 10px; background: #fff; text-decoration: none; overflow: hidden; transition: border-color .12s, transform .12s, box-shadow .12s; }
+.vis-card:hover { border-color: var(--sss-orange); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(80,60,20,.09); }
+.vis-card img { width: 100%; height: 112px; object-fit: cover; object-position: top center; background: #fbf9f4; border-bottom: 1px solid #eee5d3; display: block; }
+.vis-card span { padding: .45rem .55rem; font-size: .74rem; color: #5b584d; line-height: 1.3; }
+.vis-card b { display: block; font-size: .82rem; color: var(--sss-green); margin-bottom: .1rem; }
+
+/* ---------- clean print / PDF export ---------- */
+@media print {
+  .sss-topbar, .sss-seqbar, .sss-pager, .sss-sheetbar, .to-top, .read-bar, .sp, .ai-explain, .sss-lb, .sfilter, .dx-filters { display: none !important; }
+  .dfig, .mfig, table { break-inside: avoid; }
+  a[href]::after { content: none !important; }
+}

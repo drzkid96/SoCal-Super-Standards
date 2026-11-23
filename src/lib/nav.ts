@@ -131,6 +131,23 @@ function init() {
         { label: `All ${src} drawings`, href: `${BASE}/details/?src=${encodeURIComponent(src)}` },
       );
     }
+    // Secondary LADOT detail pages not listed as primary items in details.json
+    const ladotDir = './src/content/docs/details/ladot';
+    if (fs.existsSync(ladotDir)) {
+      const extras: NavLink[] = [];
+      for (const f of fs.readdirSync(ladotDir).sort()) {
+        if (!f.endsWith('.md')) continue;
+        const slug = f.slice(0, -3);
+        const id = `details/ladot/${slug}`;
+        if (!NAV_MAP.has(id)) {
+          const num = slug.replace(/^.*?(s-\d+(?:-\d+)?)$/i, '$1').toUpperCase().replace(/-/g, '.').replace(/^S\./, 'S-');
+          extras.push({ label: `${num} (secondary sheet)`, href: `${BASE}/${id}/` });
+        }
+      }
+      if (extras.length) {
+        registerSeq(extras, { label: 'All LADOT drawings', href: `${BASE}/details/?sg=LADOT&type=Standard+drawing` });
+      }
+    }
   } catch {}
 
   // 7. Sign Library pages (ordered as in data/signs/signs.json)
@@ -150,7 +167,19 @@ function init() {
     );
   } catch {}
 
-  // 8. Markings subpages
+  // 8. SoCal Municipal Standards sequence
+  registerSeq(
+    [
+      { label: 'Burbank Standard Plans', href: `${BASE}/burbank/standard-plans/` },
+      { label: 'Pasadena Standard Plans', href: `${BASE}/pasadena/standard-plans/` },
+      { label: 'Santa Monica Standard Details', href: `${BASE}/santa-monica/standard-plans/` },
+      { label: 'West Hollywood Engineering', href: `${BASE}/west-hollywood/standard-plans/` },
+      { label: 'Culver City Complete Streets', href: `${BASE}/culver-city/standard-plans/` },
+    ],
+    { label: 'Sources & Versions', href: `${BASE}/sources/` },
+  );
+
+  // 9. Markings & LADOT utility subpages
   NAV_MAP.set('markings/line-types', {
     prev: { label: 'Pavement Marking Library', href: `${BASE}/markings/` },
     up: { label: 'Pavement Markings', href: `${BASE}/markings/` },

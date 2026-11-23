@@ -7,10 +7,10 @@ See [Standards status](/SoCal-Super-Standards/bulletins/standards-status/) for w
 
 | Source | Edition | Status | On this site |
 |---|---|---|---|
-| [California MUTCD 2026](https://dot.ca.gov/programs/safety-programs/camutcd) (Caltrans) | 2026 Edition, effective Jan 18, 2026 | Current, legal standard in California | Full text, all parts and appendices |
+| [California MUTCD 2026](https://dot.ca.gov/programs/safety-programs/camutcd) (Caltrans) | 2026 Edition, effective Jan 18, 2026 | Current, legal standard in California | [Full text, all parts and appendices](/SoCal-Super-Standards/ca-mutcd/) |
 | [LA28 Supplement to CA MUTCD 2026](https://dot.ca.gov/programs/safety-programs/camutcd) (Caltrans) | July 15, 2026, effective on FHWA acceptance the same day | Current; applies to the Games Route Network (GRN) | [Full text, all figures and tables](/SoCal-Super-Standards/caltrans/la28-supplement/) |
-| [MUTCD 11th Edition with Revision 1](https://mutcd.fhwa.dot.gov/kno_11th_Editionr1.htm) (FHWA) | December 2025, effective Mar 5, 2026 | Current national standard | Full text, all parts and appendices |
-| [Standard Highway Signs, 2024 Edition](https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/index.htm) (FHWA) | Phased releases 1 to 6 | Current | Sign Library (next) |
+| [MUTCD 11th Edition with Revision 1](https://mutcd.fhwa.dot.gov/kno_11th_Editionr1.htm) (FHWA) | December 2025, effective Mar 5, 2026 | Current national standard | [Full text, all parts and appendices](/SoCal-Super-Standards/mutcd/) |
+| [Standard Highway Signs, 2024 Edition](https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/index.htm) (FHWA) | Phased releases 1 to 6 | Current | [Sign Library (1,148 signs)](/SoCal-Super-Standards/signs/) |
 | LADOT MPP 531 Striping, Channelization and Special Signing | 02/2023 | Current (supersedes 06/2022) | [Full document and S-100 to S-527 drawings](/SoCal-Super-Standards/ladot/mpp-531/) |
 | LADOT MPP 521 Traffic Signal Design Guidelines | 09/2016, drawings dated individually | Current as provided | [Full document and drawings](/SoCal-Super-Standards/ladot/mpp-521/) |
 | LADOT Red Book, Special Provisions and Standard Drawings for Traffic Signals | 2008 base, revised (2026 file) | Current as provided | [Full document](/SoCal-Super-Standards/ladot/red-book/) |
@@ -25,6 +25,9 @@ See [Standards status](/SoCal-Super-Standards/bulletins/standards-status/) for w
 | LADOT Geometric (Striping) Plan Sample | As provided | Reference | [Sample sheet](/SoCal-Super-Standards/ladot/geometric-plan-sample/) |
 | City of Burbank Traffic Standard Plans BT-400 to BT-452, General Traffic Control Requirements | Sheets 1992 to 2025 (BT-417 and BT-418 dated 7/23/2025) | Current as provided | [All sheets](/SoCal-Super-Standards/burbank/standard-plans/) |
 | City of Pasadena DOT Standard Plans S-702 to S-718 | Sheets 2001 to 2023 (S-707 Rev. 10, 4/19/2023) | Current as provided | [All sheets](/SoCal-Super-Standards/pasadena/standard-plans/) |
+| [City of Santa Monica Standard Details &amp; Mobility Standards](/SoCal-Super-Standards/santa-monica/standard-plans/) | SM 1–22A, B-1–B-5, SWSM-1–9; TTCP 10/2026 | Current | Verified criteria, detail index &amp; official links |
+| [City of West Hollywood Engineering &amp; Mobility Standards](/SoCal-Super-Standards/west-hollywood/standard-plans/) | Green bikeway policy (2025), NTMP, Pavement Restoration | Current | Verified policies, NTMP toolbox &amp; WeHo visuals |
+| [City of Culver City Complete Streets &amp; Traffic Standards](/SoCal-Super-Standards/culver-city/standard-plans/) | Complete Streets Design Standards 1st Ed. (June 2025) &amp; TCP Rules | Current | Verified criteria, TCP rules &amp; official links |
 | [Caltrans Standard Plans 2026](/SoCal-Super-Standards/caltrans/standard-plans-2026/): A20A to A20G, A24A to A24L, A88A, A88B, A90A, A90B (markers, traffic lines, markings, curb ramps, accessible parking) | 2026 edition, sheets dated September 18, 2026 | Current. Required for projects submitted on or after October 19, 2026 ([official](https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications)) | All 22 sheets |
 | Caltrans Standard Plans A20A, A20B, RSP A20D, A24A, A24B, A24D (pavement markers, traffic lines, arrows, symbols and words) | 2018 edition (RSP A20D dated 10/19/2018) | Superseded by the 2026 sheets above (A20A marker details for Types G and H revised). Kept for reference | [All sheets](/SoCal-Super-Standards/caltrans/standard-plans-2018/) |
 | [FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (STEP)](/SoCal-Super-Standards/fhwa/step-uncontrolled-crossings/) | July 2018, updated | Current | Full document |
