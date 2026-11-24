@@ -46,10 +46,22 @@
     img.classList.add('sized-scan');
   }
 
-  function setSize(value) {
+  function setSize(value, controls) {
     preference = value;
     save(sheetKey, value);
     for (const update of groups) update();
+    // Shrinking a sheet while its toolbar is pinned can move the end of the deck
+    // above the header. Keep the control the reader just used within reach.
+    const bar = controls.closest('.sheet-controls') || controls;
+    const restore = () => {
+      const header = document.querySelector('header.header');
+      const top = Math.max(0, header?.getBoundingClientRect().bottom || 0, parseFloat(getComputedStyle(bar).top) || 0);
+      if (bar.getBoundingClientRect().top < top - 1) {
+        (bar.closest('.sss-ms-wrap') || bar).scrollIntoView({block:'start',behavior:'instant'});
+      }
+    };
+    restore();
+    requestAnimationFrame(restore);
   }
   for (const [deck, images] of decks) {
     const scope = deck || article;
@@ -87,9 +99,9 @@
       slider.setAttribute('aria-valuetext',auto ? 'Fit page' : mode + ' percent');
     };
     groups.push(update);
-    fit.onclick = () => setSize('fit');
-    full.onclick = () => setSize(100);
-    slider.oninput = () => setSize(Number(slider.value));
+    fit.onclick = () => setSize('fit', controls);
+    full.onclick = () => setSize(100, controls);
+    slider.oninput = () => setSize(Number(slider.value), controls);
     update();
     const toolbar = deck?.querySelector('.sheet-controls') || controls;
     if (window.ResizeObserver) new ResizeObserver(() => {
