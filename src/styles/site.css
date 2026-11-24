@@ -1000,7 +1000,7 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .sgrid:is([data-chart-level="0"],[data-chart-level="1"]) .sname { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
 .sgrid:is([data-chart-level="0"],[data-chart-level="1"]) .scode { font-size:.68rem; line-height:1.15; }
 .mgrid:is([data-chart-level="0"],[data-chart-level="1"],[data-chart-level="2"]) .mbody { padding:.2rem; overflow-wrap:anywhere; }
-.mgrid:is([data-chart-level="0"],[data-chart-level="1"],[data-chart-level="2"]) .mbody > :is(.detail-description,.mdesc,.msub,.msrc) { display:none; }
+.mgrid:is([data-chart-level="0"],[data-chart-level="1"],[data-chart-level="2"]) .mbody > :is(.detail-description,.mdesc,.msub) { display:none; }
 @media (max-width:44rem) {
   .sheet-controls .reader-size { flex-basis:100%; }
   .chart-size select { max-width:11rem; }
