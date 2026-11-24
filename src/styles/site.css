@@ -1027,3 +1027,7 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .agency-heading a { display:inline-block; margin-top:.55rem; }
 :where(body) a:is([href^="http://"],[href^="https://"],[href^="//"]):not([href^="https://drzkid96.github.io/SoCal-Super-Standards/"]):not(:where(.social-icons a)):not(:has(> :is(img,svg):only-child)) { text-decoration-line:underline; text-decoration-style:dotted; text-underline-offset:.18em; }
 :where(body) a:is([href^="http://"],[href^="https://"],[href^="//"]):not([href^="https://drzkid96.github.io/SoCal-Super-Standards/"]):not(:where(.social-icons a)):not(:has(> :is(img,svg):only-child))::after { content:"↗"; content:"↗" / " (external site)"; font-size:.78em; margin-inline-start:.14em; white-space:nowrap; }
+
+.sheet-source-actions { display:flex; flex-wrap:wrap; gap:.35rem .85rem; align-items:center; margin-top:.35rem; }
+.sheet-source-actions button { font:inherit; color:var(--sl-color-text-accent); background:var(--sl-color-bg); border:1px solid var(--sl-color-gray-4); border-radius:.35rem; padding:.25rem .55rem; cursor:pointer; }
+@media print { .sheet-source-actions button { display:none; } }

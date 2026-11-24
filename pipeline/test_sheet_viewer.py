@@ -106,6 +106,19 @@ with TemporaryDirectory() as temp:
         field.clear()
         field.send_keys('no such engineering phrase')
         assert 'No matching sections' in browser.find_element(By.ID,'boe-count').text
+        browser.get(base+'search/?q=BOE+E+664.12')
+        storage=wait.until(lambda d:d.find_element(By.CSS_SELECTOR,'#standards-results li a'))
+        assert storage.get_attribute('href').endswith('#e-664-12'), storage.text
+        storage.click()
+        assert browser.find_element(By.ID,'e-664-12').text == 'E 664.12 Storage Length'
+        for width, menu in [(1280,'starlight-toc'),(390,'mobile-starlight-toc')]:
+            browser.set_window_size(width,900)
+            outline=browser.find_element(By.TAG_NAME,menu)
+            if menu.startswith('mobile'):
+                outline.find_element(By.TAG_NAME,'summary').click()
+            transition=outline.find_element(By.CSS_SELECTOR,'a[href="#e-664-21"]')
+            transition.click()
+            assert browser.current_url.endswith('#e-664-21')
         browser.get(base+'signs/?q=R10-3b')
         card=wait.until(lambda d:next((a for a in d.find_elements(By.CSS_SELECTOR,'.scard:not([hidden])') if a.get_attribute('data-code')=='R10-3b'),False))
         card.click()
@@ -141,6 +154,32 @@ with TemporaryDirectory() as temp:
             frame=deck.find_element(By.CSS_SELECTOR,'.sheet-frame:not([hidden])')
             images=frame.find_elements(By.CSS_SELECTOR,'figure.dfig')
             assert [img.get_attribute('id') for img in images]==[f'sheet-{number}']
+        deck.find_element(By.CSS_SELECTOR,'.sc-mode').click()
+        Select(deck.find_element(By.CSS_SELECTOR,'.sc-select')).select_by_index(7)
+        active=deck.find_element(By.CSS_SELECTOR,'.sheet-frame:not([hidden])')
+        source=active.find_element(By.CSS_SELECTOR,'.sheet-source-actions a').get_attribute('href')
+        assert source.endswith('#page=79') and browser.current_url.endswith('#sheet-8')
+        assert not browser.find_elements(By.CSS_SELECTOR,'nav[aria-label="Drawing sheets"]')
+        browser.execute_script("Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async value=>{window.lastCitation=value}}})")
+        browser.execute_script("document.querySelector('.sp-cite').click()")
+        assert 'sheet 8 of 16' in browser.execute_script('return window.lastCitation')
+        assert browser.execute_script('return window.lastCitation').endswith(source)
+        for query, fragment in [('MPP 531 S-418.6 sheet 8','#sheet-8'), ('MPP 531 S-418.6 p.79','#sheet-8'),
+                                ('CA MUTCD Figure 9E-3(CA) sheet 7','#fig-9e-3ca-sheet-7'),
+                                ('Santa Monica TTCP page 6','#sheet-ttcp-requirements-6')]:
+            browser.get(base+'search/?q='+__import__('urllib.parse',fromlist=['quote']).quote(query))
+            first=wait.until(lambda d:d.find_element(By.CSS_SELECTOR,'#standards-results li a'))
+            assert first.get_attribute('href').endswith(fragment), (query,first.text)
+        browser.get(base+'search/?q=pedestrian&source=Federal+MUTCD')
+        more=wait.until(lambda d:d.find_element(By.ID,'standards-more') if d.find_element(By.ID,'standards-more').is_displayed() else False)
+        more.click()
+        returned=wait.until(lambda d: d.find_elements(By.CSS_SELECTOR,'#standards-results li a')[18] if len(d.find_elements(By.CSS_SELECTOR,'#standards-results li a'))>18 else False)
+        target=returned.get_attribute('href')
+        returned.click()
+        wait.until(lambda d:'/search/' not in d.current_url)
+        browser.back()
+        wait.until(lambda d:len(d.find_elements(By.CSS_SELECTOR,'#standards-results li a'))>18)
+        assert browser.find_elements(By.CSS_SELECTOR,'#standards-results li a')[18].get_attribute('href')==target
         browser.get(base+'details/?agency=LADOT')
         assert wait.until(lambda d:Select(d.find_element(By.ID,'dx-sg')).first_selected_option.text=='LADOT')
         for agency in ['caltrans','fhwa','ada','boe','ladot']:

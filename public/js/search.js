@@ -11,7 +11,7 @@
     if (source) url.searchParams.set('source', source);
     return url.pathname + url.search;
   };
-  let catalogPromise, fullPromise;
+  let catalogPromise, fullPromise, sheetPromise;
   async function json(name) {
     const response = await fetch(base + '/data/' + name + '.json');
     if (!response.ok) throw Error('Search index unavailable');
@@ -48,9 +48,36 @@
     query = query.replace(/^(?:section|sec\.?|drawing|dwg\.?)\s+(?=\w*\d)/i, '');
     return {query, scope};
   }
+  const sheetQualifier = /^(.+?)[\s,;]+(sheet|page|p\.)\s*#?\s*(\d+)$/i;
+  async function findSheet(query, scope) {
+    const request = query.match(sheetQualifier);
+    if (!request) return [];
+    sheetPromise ||= json('search-sheets').catch(error => { sheetPromise = null; throw error; });
+    const key = compact(request[1]), bySheet = request[2].toLowerCase() === 'sheet';
+    const number = Number(request[3]);
+    const hits = [], available = [];
+    for (const doc of await sheetPromise) {
+      if ((scope && scope !== doc.tag) || !doc.keys.some(alias => compact(alias) === key)) continue;
+      const index = bySheet ? number-1 : doc.sheets.findIndex(([,page]) => page === number);
+      if (!doc.sheets[index]) {
+        const note = bySheet ? 'Available sheets 1–'+doc.sheets.length : 'Page '+number+' is outside this drawing';
+        available.push({tag:doc.tag, cls:'c', sheetMatch:true, missingSheet:true,
+          label:doc.label+' · '+note, url:base+doc.route+'#'+doc.sheets[0][0]});
+        continue;
+      }
+      const [anchor, page] = doc.sheets[index];
+      hits.push({tag:doc.tag, cls:'c', sheetMatch:true, url:base+doc.route+'#'+anchor,
+        label:doc.label+' · Sheet '+(index+1)+' of '+doc.sheets.length+' · p. '+page});
+    }
+    return hits.length ? hits : available;
+  }
   async function direct(raw, facet = '', limit = 12) {
     const {query, scope} = parse(raw, facet);
     if (!query) return [];
+    if (sheetQualifier.test(query)) {
+      const sheets = await findSheet(query, scope);
+      if (sheets.length) return sheets.slice(0, limit);
+    }
     const {records, withdrawn, synonyms} = await catalog();
     const code = compact(query), phrase = clean(query);
     if (!code) return [];
@@ -138,23 +165,44 @@
     status.textContent = seen.size ? seen.size+' result'+(seen.size===1?'':'s')+' shown.' : 'No matches. Try another code, fewer words, or a different source.';
     if (fullUnavailable || directUnavailable) status.textContent += ' '+(fullUnavailable && directUnavailable ? 'Search indexes are unavailable.' : fullUnavailable ? 'Full-text results are unavailable.' : 'Code and title results are unavailable.')+' Submit again to retry.';
   }
-  async function run() {
+  async function run(restore = null) {
     const id = ++generation, q = input.value.trim(), scope = source.value;
-    history.replaceState(null,'',urlFor(q,scope));
+    history.replaceState({...history.state, searchReturn:null},'',urlFor(q,scope));
     results.replaceChildren(); more.hidden=true; seen=new Set(); index=0;
     if (!q) { status.textContent='Enter a drawing number, section, or design question.'; return; }
     status.textContent='Searching…';
-    const [d,f] = await Promise.allSettled([direct(q,scope,250), full(q,scope)]);
+    const matches = direct(q,scope,250);
+    // An exact sheet has a verified destination and needs no full-text lookup.
+    const text = sheetQualifier.test(q)
+      ? matches.then(hits => hits[0]?.sheetMatch ? [] : full(q,scope), () => full(q,scope))
+      : full(q,scope);
+    const [d,f] = await Promise.allSettled([matches, text]);
     if (id !== generation) return;
     directUnavailable=d.status==='rejected'; fullUnavailable=f.status==='rejected';
     ready=d.value || []; pages=f.value || [];
     if (ready[0]?.tag==='Retired') pages=[];
     await append(id);
+    if (restore?.q === q && restore.scope === scope && id === generation) {
+      while (seen.size < restore.count && !more.hidden && id === generation) await append(id);
+      if (id !== generation) return;
+      const link = [...results.querySelectorAll('a')].find(a => a.href === restore.href);
+      if (link) {
+        link.focus({preventScroll:true});
+        link.scrollIntoView({block:'nearest',behavior:'instant'});
+      }
+    }
   }
   input.addEventListener('input', () => { generation++; clearTimeout(timer); more.hidden=true; timer=setTimeout(run,160); });
   source.addEventListener('change', () => {clearTimeout(timer); run();});
   form.addEventListener('submit', e => {e.preventDefault(); clearTimeout(timer); run();});
   more.addEventListener('click', () => append(generation));
+  results.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!link || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    history.replaceState({...history.state, searchReturn:{q:input.value.trim(), scope:source.value,
+      count:seen.size, href:link.href}},'');
+  });
   if (!input.value) input.focus({preventScroll:true});
-  run();
+  const restore = performance.getEntriesByType('navigation')[0]?.type === 'back_forward' ? history.state?.searchReturn : null;
+  run(restore);
 })();

@@ -246,7 +246,17 @@
     return kind === 'detail' || kind === 'sign' ? `<p><button type="button" class="sp-cite">Copy citation</button></p>` : '';
   }
   function citation() {
-    const button = document.querySelector('.agency-copy');
+    const deck = document.querySelector('.sss-ms-wrap:not(.is-compact)');
+    const frames = deck?.querySelectorAll('.sheet-stage > .sheet-frame');
+    let active = frames?.[deck.querySelector('.sc-select').selectedIndex];
+    if (deck?.classList.contains('is-all')) {
+      const top = Math.max(0, deck.querySelector('.sheet-controls').getBoundingClientRect().bottom);
+      active = [...frames].find(frame => {
+        const rect = frame.getBoundingClientRect();
+        return rect.bottom > top && rect.top < innerHeight;
+      }) || active;
+    }
+    const button = (active || document).querySelector('.agency-copy');
     if (button) return button.dataset.citation + new URL(button.dataset.url, location.href).href;
     const h1 = (document.querySelector('h1')?.innerText || document.title).trim();
     const date = [...document.querySelectorAll('.sl-markdown-content td, .sl-markdown-content p')].map((e) => e.innerText).join(' ').match(/\b(?:dated|Date[d:]?)\s*(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})/i);
