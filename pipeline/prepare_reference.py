@@ -147,6 +147,8 @@ enrich(root, current_details, look)
 from topic_reader import render as render_topic_pages
 render_topic_pages(root,current_details)
 from current_catalog import save, PUBLIC
+from boe_navigation import build as build_boe_navigation
+build_boe_navigation(root, look)
 save(PUBLIC/"details.json",current_details)
 Path("public/data/lookup.json").write_text(json.dumps(look))
 from santa_monica_art import insert_previews

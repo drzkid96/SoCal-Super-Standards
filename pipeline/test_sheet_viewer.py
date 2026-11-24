@@ -106,6 +106,19 @@ with TemporaryDirectory() as temp:
         field.clear()
         field.send_keys('no such engineering phrase')
         assert 'No matching sections' in browser.find_element(By.ID,'boe-count').text
+        browser.get(base+'search/?q=BOE+E+664.12')
+        storage=wait.until(lambda d:d.find_element(By.CSS_SELECTOR,'#standards-results li a'))
+        assert storage.get_attribute('href').endswith('#e-664-12'), storage.text
+        storage.click()
+        assert browser.find_element(By.ID,'e-664-12').text == 'E 664.12 Storage Length'
+        for width, menu in [(1280,'starlight-toc'),(390,'mobile-starlight-toc')]:
+            browser.set_window_size(width,900)
+            outline=browser.find_element(By.TAG_NAME,menu)
+            if menu.startswith('mobile'):
+                outline.find_element(By.TAG_NAME,'summary').click()
+            transition=outline.find_element(By.CSS_SELECTOR,'a[href="#e-664-21"]')
+            transition.click()
+            assert browser.current_url.endswith('#e-664-21')
         browser.get(base+'signs/?q=R10-3b')
         card=wait.until(lambda d:next((a for a in d.find_elements(By.CSS_SELECTOR,'.scard:not([hidden])') if a.get_attribute('data-code')=='R10-3b'),False))
         card.click()

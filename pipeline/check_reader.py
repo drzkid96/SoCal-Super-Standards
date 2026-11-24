@@ -69,3 +69,21 @@ for page in (dist / 'details' / 'ladot').rglob('index.html'):
     for index, (heading, sheet) in enumerate(zip(headings, sheets), 1):
         assert heading.text_content().startswith(f'Sheet {index} of {len(sheets)}'), page
         assert heading.getnext() == sheet, (page, sheet.get('id'))
+
+# Both the desktop and phone outlines must lead to the actual imported headings.
+manual_pages = read('.standards/boe-navigation.json')
+boe_heading_count = 0
+for url, manual_page in manual_pages.items():
+    page = dist / url.removeprefix(BASE).strip('/') / 'index.html'
+    doc = html.parse(str(page))
+    sidebar = doc.xpath('//*[@id="starlight__sidebar"]')[0]
+    current = sidebar.xpath('.//a[@aria-current="page"]/@href')
+    assert current == [url], (url, current)
+    actual = doc.xpath('//*[contains(concat(" ",@class," "), " sl-markdown-content ")]//*[self::h2 or self::h3 or self::h4 or self::h5 or self::h6][normalize-space()]')
+    assert [el.get('id') for el in actual] == [h['slug'] for h in manual_page['headings']], url
+    for menu in ('starlight-toc', 'mobile-starlight-toc'):
+        links = doc.xpath(f'//{menu}//a/@href')
+        assert [href for href in links if href != '#_top'] == ['#'+el.get('id') for el in actual], (url, menu)
+    boe_heading_count += len(actual)
+assert set(sidebar.xpath('.//a/@href')) >= set(manual_pages)
+print(f'{boe_heading_count} BOE headings and both navigation menus verified on {len(manual_pages)} pages.')

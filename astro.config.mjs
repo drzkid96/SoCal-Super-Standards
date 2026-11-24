@@ -96,6 +96,7 @@ export default defineConfig({
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/calculations.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/panel.js?v=' + BUILD, defer: true } },
       ],
+      routeMiddleware: './src/lib/boe-navigation.ts',
       pagination: true,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },
       sidebar: [
