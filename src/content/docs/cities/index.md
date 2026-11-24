@@ -4,7 +4,7 @@ description: Direct access to traffic and roadway standard drawings across LADOT
 tableOfContents: false
 ---
 
-<figure class="vibe-hero map-hero"><a href="/SoCal-Super-Standards/figs/vibes/la-county-map.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/la-county-map.webp" alt="Los Angeles County Jurisdictions" /></a><figcaption><strong>Los Angeles County Jurisdictions</strong> <em>LADOT + 10 LA County municipalities with embedded local standard drawings</em></figcaption></figure>
+<figure class="vibe-hero map-hero"><a href="/SoCal-Super-Standards/figs/county/la-county-planning.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/county/la-county-planning.webp" alt="Los Angeles County Jurisdictions" /></a><figcaption><strong>Los Angeles County cities and supervisorial districts</strong> · LA County Planning, revised July 2026. <a href="https://planning.lacounty.gov/wp-content/uploads/2026/08/Sup_Dist_2026_Countywide_reduced.pdf">Original county map (PDF)</a> · <a href="https://planning.lacounty.gov/maps-and-gis/map-catalog/">Map catalog</a></figcaption></figure>
 
 For Los Angeles street geometry, use the [BOE Street Design Manual](/SoCal-Super-Standards/boe/street-design/). For City traffic controls, open the [LADOT manuals and drawings](/SoCal-Super-Standards/ladot/). The municipal directory below links to the other ten cities’ design standards.
 

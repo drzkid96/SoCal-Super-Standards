@@ -147,7 +147,13 @@ table.dims { font-size: .82rem; } .note { font-size: .8rem; color: var(--sl-colo
 /* ---------- navigation helpers ---------- */
 .to-top { position: fixed; right: 1.25rem; bottom: 1.25rem; z-index: 50; border: 0; border-radius: 999px; padding: .55rem .9rem; font: inherit; font-weight: 600;
   background: var(--sss-green); color: #fff; box-shadow: 0 6px 18px rgba(0,0,0,.18); opacity: 0; pointer-events: none; transition: opacity .2s; cursor: pointer; }
-.to-top.show { opacity: 1; pointer-events: auto; }
+.to-top { visibility:hidden; }
+.to-top.show { visibility:visible; opacity:1; pointer-events:auto; }
+@media screen and (max-width:55.99rem) {
+  /* Keep floating actions clear of controls that use the full phone display. */
+  .to-top { position:static; display:block; width:fit-content; margin:1rem auto;
+    visibility:visible; opacity:1; pointer-events:auto; box-shadow:none; }
+}
 .read-bar { position: fixed; top: 0; left: 0; right: 0; height: 3px; background: var(--sss-orange); transform-origin: 0 50%; transform: scaleX(0); z-index: 1000; }
 
 /* ---------- AI ---------- */
@@ -968,3 +974,56 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .sl-markdown-content .mfig-grid:has(a[href*="/figs/ca-mutcd/"], a[href*="/figs/mutcd/"]) { grid-template-columns: minmax(0, 1fr); }
 .sl-markdown-content .type-gallery figure:has(a[href*="/p00"], a[href*="/fig-"]) { grid-column: 1 / -1; }
 .sl-markdown-content .type-gallery figure:has(a[href*="/p00"], a[href*="/fig-"]) img { width: 100%; height: auto; max-height: none; }
+
+/* Display controls are shared by sheets of the same document and by each chart category. */
+.reader-size { display:flex; flex-wrap:wrap; align-items:center; gap:.3rem .55rem; font-size:.82rem; color:var(--sl-color-text); }
+.reader-size > * { margin:0 !important; }
+.reader-size .size-label { font-weight:650; }
+.reader-size input[type=range] { flex:1 1 5rem; min-width:4.25rem; max-width:13rem; height:2rem; padding:0; cursor:pointer; accent-color:var(--sl-color-text-accent); }
+.reader-size :is(button,select) { min-height:2rem; border:1px solid var(--sl-color-gray-4); border-radius:.4rem; padding:.2rem .5rem; background:var(--sl-color-bg); color:inherit; font:inherit; cursor:pointer; }
+.reader-size button[aria-pressed=true] { color:var(--sl-color-text-accent); border-color:currentColor; font-weight:650; }
+.reader-size :focus-visible { outline:2px solid var(--sl-color-text-accent); outline-offset:2px; }
+.size-value { min-width:3.1ch; font-variant-numeric:tabular-nums; }
+.sheet-controls .reader-size { flex:1 1 19rem; }
+.sss-ms-wrap, .loose-size, .reader-size :is(button,input) { scroll-margin-block-start:calc(var(--sl-nav-height,3.5rem) + var(--sl-mobile-toc-height,0rem) + .5rem); }
+.sheet-stage { overflow-anchor:none; }
+.sl-markdown-content .loose-size { background:var(--sl-color-bg); border:1px solid var(--sl-color-gray-5); border-radius:.45rem; padding:.25rem .6rem; margin-block:.65rem; }
+.sticky-size { position:sticky; top:calc(var(--sl-nav-height,3.5rem) + var(--sl-mobile-toc-height,0rem)); z-index:8; }
+@media screen {
+  .sl-markdown-content img.sized-scan { display:block; margin-inline:auto; width:var(--scan-width,100%) !important; max-width:100%; height:auto !important; max-height:var(--scan-height,none) !important; object-fit:contain; }
+}
+.chart-size { flex:1 0 100%; min-width:0; }
+.chart-size select { max-width:min(100%,15rem); }
+.chart-size-value { min-width:5rem; }
+.sgrid[data-chart-level], .mgrid[data-chart-level] { grid-template-columns:repeat(auto-fill,minmax(min(100%,var(--card-size)),1fr)); }
+.sgrid[data-chart-level] .simg { width:min(var(--art-size),100%); height:var(--art-size); }
+.sgrid[data-chart-level] .simg img { max-width:100%; max-height:100%; }
+.mgrid[data-chart-level] .mimg { min-height:var(--art-size); }
+.mgrid[data-chart-level] .mimg img { max-height:var(--art-size); }
+.mgrid[data-chart-level] .mcard.wide { grid-column:auto; }
+.mgrid[data-chart-level] .mcard.swatch .sw { height:var(--art-size); }
+.sgrid:is([data-chart-level="0"],[data-chart-level="1"],[data-chart-level="2"]),
+.mgrid:is([data-chart-level="0"],[data-chart-level="1"],[data-chart-level="2"]) { gap:.22rem; }
+.sgrid:is([data-chart-level="0"],[data-chart-level="1"],[data-chart-level="2"]) .scard { padding:.18rem .08rem; overflow-wrap:anywhere; }
+.sgrid:is([data-chart-level="0"],[data-chart-level="1"]) .sname { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+.sgrid:is([data-chart-level="0"],[data-chart-level="1"]) .scode { font-size:.68rem; line-height:1.15; }
+.mgrid:is([data-chart-level="0"],[data-chart-level="1"],[data-chart-level="2"]) .mbody { padding:.2rem; overflow-wrap:anywhere; }
+.mgrid:is([data-chart-level="0"],[data-chart-level="1"],[data-chart-level="2"]) .mbody > :is(.detail-description,.mdesc,.msub) { display:none; }
+@media (max-width:44rem) {
+  .sheet-controls .reader-size { flex-basis:100%; }
+  .chart-size select { max-width:11rem; }
+  .reader-size { gap:.18rem .35rem; }
+}
+@media print { .reader-size { display:none !important; } }
+
+.agency-heading { --agency-ink:#21445b; --agency-trim:#6599ae; background:var(--agency-ink); color:white; border-inline-start:.45rem solid var(--agency-trim); border-radius:.4rem; padding:1rem 1.3rem; }
+.agency-heading[data-agency="caltrans"] { --agency-ink:#123b65; --agency-trim:#edb641; }
+.agency-heading[data-agency="fhwa"] { --agency-ink:#14334a; --agency-trim:#51a8ce; }
+.agency-heading[data-agency="ada"] { --agency-ink:#392963; --agency-trim:#bcb2e4; }
+.agency-heading[data-agency="boe"] { --agency-ink:#234a4d; --agency-trim:#81c6b1; }
+.agency-heading[data-agency="ladot"] { --agency-ink:#1c3847; --agency-trim:#f2a64a; }
+.agency-heading p { margin:0 0 .3rem; font-weight:600; font-size:.85rem; }
+.agency-heading h1, .agency-heading a { color:#fff; }
+.agency-heading a { display:inline-block; margin-top:.55rem; }
+:where(body) a:is([href^="http://"],[href^="https://"],[href^="//"]):not([href^="https://drzkid96.github.io/SoCal-Super-Standards/"]):not(:where(.social-icons a)):not(:has(> :is(img,svg):only-child)) { text-decoration-line:underline; text-decoration-style:dotted; text-underline-offset:.18em; }
+:where(body) a:is([href^="http://"],[href^="https://"],[href^="//"]):not([href^="https://drzkid96.github.io/SoCal-Super-Standards/"]):not(:where(.social-icons a)):not(:has(> :is(img,svg):only-child))::after { content:"↗"; content:"↗" / " (external site)"; font-size:.78em; margin-inline-start:.14em; white-space:nowrap; }

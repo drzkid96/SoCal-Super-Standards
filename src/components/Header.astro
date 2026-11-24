@@ -9,9 +9,9 @@ const navItems = [
   { label: 'Details', href: `${BASE}/details/`, match: ['/details/', '/signs/', '/markings/', '/keywords/'] },
   { label: 'Topics', href: `${BASE}/topics/`, match: ['/topics/'] },
   { label: 'MUTCD', href: `${BASE}/ca-mutcd/`, match: ['/ca-mutcd/', '/mutcd/'] },
-  { label: 'Caltrans', href: `${BASE}/caltrans/standard-plans-2026/`, match: ['/caltrans/', '/bulletins/'] },
-  { label: 'LA & Cities', href: `${BASE}/cities/`, match: ['/boe/', '/cities/', '/ladot/', '/burbank/', '/pasadena/', '/long-beach/', '/palmdale/', '/torrance/', '/gardena/', '/glendora/', '/santa-monica/', '/west-hollywood/', '/culver-city/'] },
-  { label: 'Guides', href: `${BASE}/guides/`, match: ['/guides/', '/fhwa/', '/ada/', '/aashto/'] },
+  { label: 'Agencies', href: `${BASE}/agencies/`, match: ['/agencies/', '/caltrans/', '/boe/', '/ladot/', '/fhwa/', '/ada/'] },
+  { label: 'LA & Cities', href: `${BASE}/cities/`, match: ['/cities/', '/burbank/', '/pasadena/', '/long-beach/', '/palmdale/', '/torrance/', '/gardena/', '/glendora/', '/santa-monica/', '/west-hollywood/', '/culver-city/'] },
+  { label: 'Guides', href: `${BASE}/guides/`, match: ['/guides/', '/bulletins/', '/aashto/'] },
 ];
 
 const relPath = path.startsWith(BASE) ? path.slice(BASE.length) || '/' : path;

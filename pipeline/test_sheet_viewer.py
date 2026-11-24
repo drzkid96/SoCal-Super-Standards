@@ -31,6 +31,12 @@ with TemporaryDirectory() as temp:
             art=browser.find_element(By.CSS_SELECTOR,'.sl-markdown-content')
             fig=art.find_element(By.CSS_SELECTOR,'.mfig-inline.single')
             assert abs(fig.rect['width']-art.rect['width'])<=2, (width,fig.rect,art.rect)
+            slider=art.find_element(By.CSS_SELECTOR,'.loose-size input[type=range]')
+            slider.send_keys(Keys.HOME)
+            standalone=fig.find_element(By.CSS_SELECTOR,'img.sized-scan')
+            assert standalone.rect['width'] < fig.rect['width']*.20
+            slider.send_keys(Keys.END)
+            assert standalone.rect['width'] > fig.rect['width']*.90
             browser.get(base+'details/ladot/mpp-531-s-481-0/#sheet-3-note-1')
             wait=WebDriverWait(browser,12)
             selector=wait.until(lambda d:d.find_element(By.CSS_SELECTOR,'.sheet-controls select'))
@@ -46,6 +52,11 @@ with TemporaryDirectory() as temp:
             assert not browser.find_element(By.ID,'sheet-4').is_displayed()
             scan=browser.find_element(By.CSS_SELECTOR,'.sheet-frame:not([hidden]) figure.dfig img')
             frame=scan.find_element(By.XPATH,'ancestor::figure')
+            fit=bar.find_element(By.XPATH,'.//button[text()="Fit page"]')
+            fit.click()
+            assert fit.get_attribute('aria-pressed')=='true'
+            assert scan.rect['height']<=browser.execute_script('return innerHeight')*.75
+            bar.find_element(By.XPATH,'.//button[text()="Full width"]').click()
             assert scan.rect['width'] >= frame.rect['width']*.94, (width,scan.rect,frame.rect)
             toggle=bar.find_element(By.CSS_SELECTOR,'.sc-mode')
             toggle.click()
@@ -100,6 +111,47 @@ with TemporaryDirectory() as temp:
         card.click()
         wait.until(lambda d:'R10-3b' in d.find_element(By.TAG_NAME,'h1').text)
         assert len(browser.find_elements(By.CSS_SELECTOR,'.mfig-grid figure'))==2
+        for route,groups in [('signs/', '.sseries .sgrid'),('markings/', '.mcat-sec .mgrid')]:
+            browser.get(base+route)
+            controls=browser.find_element(By.CSS_SELECTOR,'.chart-size')
+            selector=Select(controls.find_element(By.TAG_NAME,'select'))
+            slider=controls.find_element(By.CSS_SELECTOR,'input[type=range]')
+            assert len(selector.options)>2
+            slider.send_keys(Keys.HOME)
+            grids=browser.find_elements(By.CSS_SELECTOR,groups)
+            assert all(g.get_attribute('data-chart-level')=='0' for g in grids)
+            selector.select_by_index(1)
+            slider.send_keys(Keys.END)
+            levels={g.get_attribute('data-chart-level') for g in grids}
+            assert levels=={'0','6'}, (route,levels)
+            browser.refresh()
+            assert {g.get_attribute('data-chart-level') for g in browser.find_elements(By.CSS_SELECTOR,groups)}==levels
+        browser.get(base+'ca-mutcd/9e/#fig-9e-3ca-sheet-7')
+        seventh=browser.find_element(By.ID,'fig-9e-3ca-sheet-7').find_element(By.XPATH,'ancestor::figure')
+        assert seventh.is_displayed() and 'Sheet 7 of 7' in seventh.text
+        options=Select(seventh.find_element(By.XPATH,'ancestor::div[contains(@class,"sss-ms-wrap")]//select')).options
+        assert len(options)==7
+        assert all(option.text.startswith(f'Sheet {i} of 7') for i, option in enumerate(options, 1))
+        browser.get(base+'details/ladot/mpp-531-s-418-6/')
+        deck=browser.find_element(By.ID,'sheet-1').find_element(By.XPATH,'ancestor::div[contains(@class,"sss-ms-wrap")]')
+        tabs=deck.find_elements(By.CSS_SELECTOR,'.sheet-strip .sc-thumb')
+        assert len(tabs)==16, [tab.text for tab in tabs]
+        for number in (7,8,16):
+            tabs[number-1].click()
+            frame=deck.find_element(By.CSS_SELECTOR,'.sheet-frame:not([hidden])')
+            images=frame.find_elements(By.CSS_SELECTOR,'figure.dfig')
+            assert [img.get_attribute('id') for img in images]==[f'sheet-{number}']
+        browser.get(base+'details/?agency=LADOT')
+        assert wait.until(lambda d:Select(d.find_element(By.ID,'dx-sg')).first_selected_option.text=='LADOT')
+        for agency in ['caltrans','fhwa','ada','boe','ladot']:
+            browser.get(base+agency+'/')
+            heading=browser.find_element(By.CSS_SELECTOR,'.agency-heading')
+            assert heading.get_attribute('data-agency')==agency and heading.find_element(By.TAG_NAME,'h1').is_displayed()
+        browser.get(base+'cities/')
+        maplink=browser.find_element(By.CSS_SELECTOR,'.map-hero figcaption a[href$=".pdf"]')
+        assert maplink.get_attribute('textContent').strip()=='Original county map (PDF)'
+        assert 'planning.lacounty.gov/' in maplink.get_attribute('href')
+        assert browser.execute_script("return getComputedStyle(arguments[0],'::after').content",maplink).find('↗')>=0
         browser.get(base+'ca-mutcd/6b/#6b08')
         assert browser.find_element(By.ID,'6b08').is_enabled()
         assert 'chapter for the marked-up' not in browser.find_element(By.ID,'6b08-p01').text

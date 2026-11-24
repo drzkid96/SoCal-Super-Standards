@@ -92,6 +92,7 @@ export default defineConfig({
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/sheets.js?v=' + BUILD, defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/reader-size.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/calculations.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/panel.js?v=' + BUILD, defer: true } },
       ],
@@ -113,6 +114,14 @@ export default defineConfig({
           { label: 'Tool: Lane Width Comparison', link: '/bulletins/lane-widths/' },
           { label: 'Tool: Bikeway Comparison', link: '/bulletins/bikeway-design-comparison/' },
           { label: 'Tool: LADOT Curb Paint Calc', link: '/ladot/curb-paint/' },
+        ] },
+        { label: 'Issuing agencies', collapsed: true, items: [
+          { label: 'Browse agencies', link: '/agencies/' },
+          { label: 'Caltrans', link: '/caltrans/' },
+          { label: 'FHWA', link: '/fhwa/' },
+          { label: 'U.S. Access Board', link: '/ada/' },
+          { label: 'LA Bureau of Engineering', link: '/boe/' },
+          { label: 'LADOT', link: '/ladot/' },
         ] },
         { label: 'State & Federal Standards', collapsed: true, items: [
           { label: 'CA MUTCD 2026', collapsed: true, items: [{ label: 'Overview', link: '/ca-mutcd/' }, ...caParts, { label: 'LA28 Supplement (GRN)', link: '/caltrans/la28-supplement/' }] },

@@ -98,7 +98,7 @@ for c in cfg:
                 notes_blk = f'<details class="ocr"><summary>Drawing Notes &amp; Specifications</summary><p>{esc(raw_notes)}</p></details>\n'
             else:
                 notes_blk = ""
-            sh_head = f'\n### Sheet {j} of {len(sheets)} (page {p["page"]})\n\n' if len(sheets) > 1 else "\n"
+            sh_head = f'\n\n### Sheet {j} of {len(sheets)} (page {p["page"]})\n\n' if len(sheets) > 1 else "\n"
             sheet_html += (sh_head +
                            f'<figure class="dfig"><a href="{p["image"]}"><img loading="lazy" src="{p["image"]}" alt="{esc(k)} sheet {j}"></a>'
                            f'<figcaption>{esc(c["short"])} {esc(k)}, sheet {j}. <a href="{p["url"]}">Open in the document</a>.</figcaption></figure>\n'

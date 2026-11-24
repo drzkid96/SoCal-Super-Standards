@@ -46,8 +46,16 @@
     const select = el('select', 'sc-select');
     select.setAttribute('aria-label', 'Select sheet');
     labels.forEach((lbl, i) => {
-      const clean = lbl.length > 90 ? lbl.slice(0, 87) + '…' : lbl;
-      select.add(new Option(clean || 'Sheet ' + (i + 1), String(i)));
+      // Put the distinguishing sheet number first, even when a long figure title is truncated.
+      const sheet = lbl.match(/\bSheet\s+\d+\s+of\s+\d+\b/i);
+      let label = lbl;
+      if (sheet && sheet.index > 0) {
+        const title = lbl.slice(0, sheet.index).replace(/[·\s–—-]+$/, '');
+        label = sheet[0] + ' · ' + title;
+      }
+      const option = new Option(label.length > 90 ? label.slice(0, 87) + '…' : label || 'Sheet ' + (i + 1), String(i));
+      option.title = label;
+      select.add(option);
     });
 
     const toggleAll = el('button', 'sc-btn sc-mode', compact ? 'Grid View' : 'All Sheets');

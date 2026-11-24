@@ -4,6 +4,7 @@ from pathlib import Path
 from current_catalog import read
 
 ART = read('data/reference/manual-illustrations.json')
+SHEET_COUNTS = read('data/reference/manual-sheet-counts.json')
 CA = read('data/reference/ca-chapter-urls.json')
 FIRST = {e:{c['code']:c['first'] for c in read('data/'+e+'/chapters.json')} for e in ART}
 FHWA = 'https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/'
@@ -27,10 +28,12 @@ if __name__=='__main__':
     jobs=defaultdict(dict)
     for edition,items in ART.items():
         for key,(title,page) in items.items():
-            path=Path(f'public/figs/{edition}/p{page:04d}.webp')
-            if path.exists():continue
-            url,n=source(edition,key.split()[1],page)
-            jobs[url][n]=(page,path)
+            for offset in range(SHEET_COUNTS[edition].get(key,1)):
+                physical=page+offset
+                path=Path(f'public/figs/{edition}/p{physical:04d}.webp')
+                if path.exists():continue
+                url,n=source(edition,key.split()[1],physical)
+                jobs[url][n]=(physical,path)
     cache=Path('.manual-art')
     cache.mkdir(exist_ok=True)
     def render(job):
