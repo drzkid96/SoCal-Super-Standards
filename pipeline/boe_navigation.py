@@ -4,6 +4,7 @@ from pathlib import Path
 from lxml import html
 
 from current_catalog import BASE, PUBLIC, read, save
+from boe_references import prepare
 
 MANUAL = BASE + '/boe/street-design/'
 SECTION = re.compile(r'^E\s*\d+(?:\.\d+)*\b', re.I)
@@ -11,12 +12,20 @@ SECTION = re.compile(r'^E\s*\d+(?:\.\d+)*\b', re.I)
 
 def build(root, lookup):
     pages = {}
-    for entry in read(PUBLIC / 'boe-sections.json'):
+    catalog = read(PUBLIC / 'boe-sections.json')
+    documents = {}
+    files = {}
+    for entry in catalog:
         url = entry['url']
         path = root / (url.removeprefix(BASE + '/').strip('/') + '.md')
-        source = path.read_text()
-        front, delimiter, body = source.partition('\n---\n')
-        document = html.fragment_fromstring(body, create_parent='div')
+        front, delimiter, body = path.read_text().partition('\n---\n')
+        documents[url] = html.fragment_fromstring(body, create_parent='div')
+        files[url] = (path, front + delimiter)
+    prepare(documents)
+    for entry in catalog:
+        url = entry['url']
+        path, front = files[url]
+        document = documents[url]
         parents = document.xpath('.//nav[@class="boe-crumb"]/a/@href')
         parent = next((p for p in reversed(parents) if p != MANUAL), MANUAL)
         used = set(document.xpath('.//*[@id]/@id')) | {'_top'}
@@ -47,7 +56,7 @@ def build(root, lookup):
         # end a Markdown HTML block halfway through an image and swallow later headings.
         markup = html.tostring(document, encoding='unicode', with_tail=False)
         markup = markup.replace('\r', '&#13;').replace('\n', '&#10;')
-        path.write_text(front + delimiter + '\n' + markup + '\n')
+        path.write_text(front + '\n' + markup + '\n')
         pages[url] = {'label': entry['title'], 'parent': parent, 'headings': headings}
     for url in pages:
         ancestors = {url}
