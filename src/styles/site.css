@@ -1031,3 +1031,10 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .sheet-source-actions { display:flex; flex-wrap:wrap; gap:.35rem .85rem; align-items:center; margin-top:.35rem; }
 .sheet-source-actions button { font:inherit; color:var(--sl-color-text-accent); background:var(--sl-color-bg); border:1px solid var(--sl-color-gray-4); border-radius:.35rem; padding:.25rem .55rem; cursor:pointer; }
 @media print { .sheet-source-actions button { display:none; } }
+
+.boe-equation { display:inline-block; max-width:100%; overflow-x:auto; vertical-align:middle; padding:.15em .1em; }
+.boe-equation math { font-size:1.08em; }
+.sl-markdown-content figure[id^="boe-figure-"] { scroll-margin-block-start:calc(var(--sl-nav-height,4rem) + 3rem); }
+
+.boe-reading-note { border-inline-start:.2rem solid var(--sl-color-gray-4); padding-inline-start:.65rem; font-size:.9em; }
+.boe-legacy-note { font-size:.85em; margin-inline-start:.35em; }

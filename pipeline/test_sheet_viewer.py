@@ -200,5 +200,19 @@ with TemporaryDirectory() as temp:
         assert 'immediately above' in note.find_element(By.CSS_SELECTOR,'.ca').text
         browser.get(base+'ca-mutcd/2b/#2b04')
         assert 'STOP' in browser.find_element(By.ID,'2b04-p01').text
+        for width in (1280,390):
+            browser.set_window_size(width,900)
+            browser.get(base+'boe/street-design/e-664-median-left-turn-lanes-pockets-5917ecda/#e-664-12')
+            fractions=browser.find_elements(By.CSS_SELECTOR,'.boe-equation mfrac')
+            assert len(fractions)==4
+            for fraction in fractions:
+                assert browser.execute_script("""
+                    const [above,below]=arguments[0].children;
+                    return above.getBoundingClientRect().bottom <= below.getBoundingClientRect().top + 1;
+                """,fraction), (width, fraction.text)
+            link=browser.find_element(By.CSS_SELECTOR,'a.boe-figure-ref[href$="#boe-figure-464-2b"]')
+            link.click()
+            assert browser.current_url.endswith('#boe-figure-464-2b')
+            assert browser.find_element(By.ID,'boe-figure-464-2b').find_element(By.TAG_NAME,'img').is_displayed()
     server.shutdown()
 print('Sheet viewer passed at 1280 and 390 pixels.')

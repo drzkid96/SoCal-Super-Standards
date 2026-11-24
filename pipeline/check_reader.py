@@ -89,3 +89,42 @@ for url, manual_page in manual_pages.items():
     boe_heading_count += len(actual)
 assert set(sidebar.xpath('.//a/@href')) >= set(manual_pages)
 print(f'{boe_heading_count} BOE headings and both navigation menus verified on {len(manual_pages)} pages.')
+
+# A page can have zero broken URLs while showing unrendered math or unlinked citations.
+import re
+from boe_references import math_matches
+
+math_count = figure_links = footnote_links = 0
+for url in manual_pages:
+    path = dist / url.removeprefix(BASE).strip('/') / 'index.html'
+    article = html.parse(str(path)).xpath('//*[@class="sl-markdown-content"]')[0]
+    for node in article.xpath('.//text()[not(ancestor::math or ancestor::code or ancestor::pre)]'):
+        assert not math_matches(node) and not re.search(r'\\(?:frac|sqrt)\s*\{', node), (url, str(node)[:80])
+    equations = article.xpath('.//*[@data-source-tex]')
+    for eq in equations:
+        assert eq.xpath('.//math/semantics/annotation'), (url, eq.get('data-source-tex'))
+        for command, element in [(r'\frac', 'mfrac'), (r'\sqrt', 'msqrt')]:
+            assert eq.get('data-source-tex').count(command) == len(eq.xpath('.//'+element)), (url, command)
+    math_count += len(equations)
+    refs = article.xpath('.//a[@class="boe-figure-ref"]')
+    for anchor in refs:
+        target, fragment = anchor.get('href').split('#')
+        dest = dist / target.removeprefix(BASE).strip('/') / 'index.html'
+        if dest not in chapters:
+            chapters[dest] = html.parse(str(dest))
+        matches = chapters[dest].xpath('//*[@id=$id]',id=fragment)
+        assert len(matches)==1 and (matches[0].tag=='img' or matches[0].xpath('.//img[@src]')), anchor.get('href')
+    figure_links += len(refs)
+    notes = article.xpath('.//sup/a[starts-with(@href,"#boe-note-")]')
+    for anchor in notes:
+        assert article.xpath('.//li[@id=$id]',id=anchor.get('href')[1:]), (url, anchor.get('href'))
+    footnote_links += len(notes)
+    if '/e-664-median-left-turn-lanes-' in url:
+        assert len(equations)==5 and len(article.xpath('.//math//mfrac'))==4
+        layout = article.get_element_by_id('e-664-2').getnext()
+        assert [a.get('href').split('#')[-1] for a in layout.xpath('.//a[@class="boe-figure-ref"]')] == [
+            'boe-figure-464-2a','boe-figure-464-2b','boe-figure-464-2c','boe-figure-464-2b','boe-figure-464-2b']
+        assert 'no longer in use' in article.get_element_by_id('boe-note-1').text_content()
+        assert article.xpath('.//p[@class="boe-reading-note"]//a[@href]')
+assert math_count >= 41 and figure_links >= 100 and footnote_links > 0
+print(f'BOE presentation verified: {math_count} rendered equations, {figure_links} figure citations, {footnote_links} footnote links.')
