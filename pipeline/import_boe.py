@@ -7,6 +7,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit, urldefrag, quote
 from urllib.request import urlopen
 import argparse
+import base64
 import json
 import re
 import time
@@ -69,7 +70,14 @@ def render(node, url, known):
     key = {'a':'href','img':'src'}.get(tag)
     if key and node.get(key):
         target,frag=urldefrag(urljoin(url,node.get(key)))
-        if urlsplit(target).scheme in ('https','http','mailto'):
+        if tag == 'img' and node.get(key).startswith('data:image/'):
+            media, _, payload = node.get(key).partition(',')
+            signatures = {'data:image/png;base64': b'\x89PNG\r\n\x1a\n', 'data:image/jpeg;base64': b'\xff\xd8\xff'}
+            data = base64.b64decode(''.join(payload.split()), validate=True)
+            if media not in signatures or not data.startswith(signatures[media]):
+                raise ValueError(f'Unexpected embedded image on {url}: {media}')
+            attrs[key] = media + ',' + base64.b64encode(data).decode('ascii')
+        elif urlsplit(target).scheme in ('https','http','mailto'):
             target=BASE+'/'+slug(target.rstrip('/'))+'/' if target.rstrip('/') in known else target
             attrs[key]=target+('#'+frag if frag else '')
     att=''.join(f' {k}="{escape(v, quote=True)}"' for k,v in attrs.items())

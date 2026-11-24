@@ -44,10 +44,13 @@ for k,v in candidates.items():
 deletion_notice=read('data/ca_deleted_signs.json')['source']
 for code in read('data/ca_deleted_signs.json')['codes']:
     targets[code.casefold()]=deletion_notice
-if (DIST/'data/boe-sections.json').exists():
-    for row in read(DIST/'data/boe-sections.json'):
-        m=re.match(r'^(E\s*\d+(?:\.\d+)*)\b',row['title'])
-        if m:targets[m[1].casefold()]=row['url']
+# Use only uniquely resolved BOE sections, including the numbered article headings.
+boe = defaultdict(set)
+for key, entries in read(DIST/'data/lookup.json').items():
+    if re.fullmatch(r'E\s*\d+(?:\.\d+)*',key,re.I):
+        boe[key.casefold()].update(url for _,url in entries if url.startswith(BASE+'/boe/street-design/'))
+for key, urls in boe.items():
+    if len(urls)==1: targets[key]=next(iter(urls))
 sections={edition:{x['num'].upper():x['url'] for x in read(f'data/{edition}/sections.json')} for edition in ('mutcd','ca-mutcd')}
 figures={edition:{} for edition in sections}
 for row in read(DIST/'data/details.json'):
@@ -55,7 +58,7 @@ for row in read(DIST/'data/details.json'):
         edition='mutcd' if row['src']=='Federal MUTCD' else 'ca-mutcd'
         figures[edition][row['type'].lower(),row['num'].upper().replace(' ','')]=row['url']
 titles='|'.join(re.escape(k) for k in sorted(targets,key=len,reverse=True))
-pattern=re.compile(r'(?<![\w/-])(?:(?P<web>https?://[^\s<>\x22\x27]+)|(?P<kind>Figure|Table)\s+(?P<fid>\d[A-Z]-\d+(?:\s*\(CA\))?)|(?P<section>(?:(?:CA|California|Federal) MUTCD\s+)?(?:Section\s+|§\s*)(?P<num>\d[A-Z]\.\d+(?:\(CA\))?))|'+titles+r')(?![\w/-])',re.I)
+pattern=re.compile(r'(?<![\w/-])(?:(?P<web>https?://[^\s<>\x22\x27]+)|(?P<kind>Figure|Table)\s+(?P<fid>\d[A-Z]-\d+(?:\s*\(CA\))?)|(?P<section>(?:(?:CA|California|Federal) MUTCD\s+)?(?:Section\s+|§\s*)(?P<num>\d[A-Z]\.\d+(?:\(CA\))?))|'+titles+r')(?![\w/-]|\.\d)',re.I)
 tag_split=re.compile(r'(<!--.*?-->|</?[A-Za-z][^>]*>)',re.S)
 void={'br','hr','img','input','source','col','meta','link','wbr','area','embed','track'}
 exclude={'a','button','nav','code','pre','script','style','svg','textarea','select','del','summary','h1','h2','h3','h4','h5','h6'}

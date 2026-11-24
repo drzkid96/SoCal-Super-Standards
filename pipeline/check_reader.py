@@ -80,7 +80,9 @@ for url, manual_page in manual_pages.items():
     current = sidebar.xpath('.//a[@aria-current="page"]/@href')
     assert current == [url], (url, current)
     actual = doc.xpath('//*[contains(concat(" ",@class," "), " sl-markdown-content ")]//*[self::h2 or self::h3 or self::h4 or self::h5 or self::h6][normalize-space()]')
-    assert [el.get('id') for el in actual] == [h['slug'] for h in manual_page['headings']], url
+    expected_ids = [h['slug'] for h in manual_page['headings']]
+    assert [el.get('id') for el in actual] == expected_ids, (url, expected_ids, [el.get('id') for el in actual])
+    assert not doc.xpath('//*[contains(@class,"sl-markdown-content")]//img[not(normalize-space(@src))]'), url
     for menu in ('starlight-toc', 'mobile-starlight-toc'):
         links = doc.xpath(f'//{menu}//a/@href')
         assert [href for href in links if href != '#_top'] == ['#'+el.get('id') for el in actual], (url, menu)
