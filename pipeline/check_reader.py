@@ -58,3 +58,14 @@ for edition, items in SHEET_COUNTS.items():
             assert pdf + '#page=' + str(pdf_page) in sheet.xpath('./figcaption/a/@href'), (key, label)
             checked_sheets += 1
 print(f'{checked_sheets} individual sheets verified across {sum(map(len, SHEET_COUNTS.values()))} multi-sheet manual figures and tables.')
+
+for page in (dist / 'details' / 'ladot').rglob('index.html'):
+    doc = html.parse(str(page))
+    sheets = doc.xpath('//figure[starts-with(@id,"sheet-") and @class="dfig"]')
+    if len(sheets) < 2:
+        continue
+    headings = doc.xpath('//div[contains(concat(" ", @class, " "), " sl-markdown-content ")]/h3[starts-with(normalize-space(.),"Sheet ")]')
+    assert len(headings) == len(sheets), (page, len(headings), len(sheets))
+    for index, (heading, sheet) in enumerate(zip(headings, sheets), 1):
+        assert heading.text_content().startswith(f'Sheet {index} of {len(sheets)}'), page
+        assert heading.getnext() == sheet, (page, sheet.get('id'))

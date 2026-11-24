@@ -133,7 +133,14 @@ with TemporaryDirectory() as temp:
         assert len(options)==7
         assert all(option.text.startswith(f'Sheet {i} of 7') for i, option in enumerate(options, 1))
         browser.get(base+'details/ladot/mpp-531-s-418-6/')
-        assert len(browser.find_elements(By.CSS_SELECTOR,'.sheet-strip .sc-thumb'))==16
+        deck=browser.find_element(By.ID,'sheet-1').find_element(By.XPATH,'ancestor::div[contains(@class,"sss-ms-wrap")]')
+        tabs=deck.find_elements(By.CSS_SELECTOR,'.sheet-strip .sc-thumb')
+        assert len(tabs)==16, [tab.text for tab in tabs]
+        for number in (7,8,16):
+            tabs[number-1].click()
+            frame=deck.find_element(By.CSS_SELECTOR,'.sheet-frame:not([hidden])')
+            images=frame.find_elements(By.CSS_SELECTOR,'figure.dfig')
+            assert [img.get_attribute('id') for img in images]==[f'sheet-{number}']
         browser.get(base+'details/?agency=LADOT')
         assert wait.until(lambda d:Select(d.find_element(By.ID,'dx-sg')).first_selected_option.text=='LADOT')
         for agency in ['caltrans','fhwa','ada','boe','ladot']:

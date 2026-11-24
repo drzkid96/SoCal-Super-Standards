@@ -108,6 +108,9 @@ ladot_originals={
 }
 for path in root.rglob('*.md'):
  s=path.read_text()
+ # A blank line ends the HTML block before Markdown starts the next sheet heading.
+ if 'class="dfig"' in s:
+  s=re.sub(r'(?<=\S)\n(?=### (?:Sheet \d+ of \d+|Page \d+\b))','\n\n',s)
  # Full sheet scans are readable in the article. Navigation thumbnails keep their smaller assets.
  s=re.sub(r'(<figure\b[^>]*class="mfig"[^>]*>.*?<img\b[^>]*?\bsrc="[^"]*)/thumbs/figs/',r'\1/figs/',s,flags=re.S)
  for key in ('bike','crosswalks'):s=s.replace('/markings/#'+key+'"','/markings/#cat-'+key+'"').replace('/markings/#'+key+')','/markings/#cat-'+key+')')
