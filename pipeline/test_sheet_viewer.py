@@ -148,7 +148,8 @@ with TemporaryDirectory() as temp:
             heading=browser.find_element(By.CSS_SELECTOR,'.agency-heading')
             assert heading.get_attribute('data-agency')==agency and heading.find_element(By.TAG_NAME,'h1').is_displayed()
         browser.get(base+'cities/')
-        maplink=browser.find_element(By.LINK_TEXT,'Original county map (PDF)')
+        maplink=browser.find_element(By.CSS_SELECTOR,'.map-hero figcaption a[href$=".pdf"]')
+        assert maplink.get_attribute('textContent').strip()=='Original county map (PDF)'
         assert 'planning.lacounty.gov/' in maplink.get_attribute('href')
         assert browser.execute_script("return getComputedStyle(arguments[0],'::after').content",maplink).find('↗')>=0
         browser.get(base+'ca-mutcd/6b/#6b08')

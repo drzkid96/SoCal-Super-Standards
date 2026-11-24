@@ -73,7 +73,8 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     const b = document.createElement('button');
     b.className = 'to-top'; b.type = 'button'; b.setAttribute('aria-label', 'Back to top'); b.textContent = 'Top';
     b.onclick = () => scrollTo({ top: 0, behavior: 'smooth' });
-    document.body.appendChild(b);
+    const footer = document.querySelector('main footer') || document.querySelector('main') || document.body;
+    footer.appendChild(b);
     const bar = document.createElement('div'); bar.className = 'read-bar'; document.body.appendChild(bar);
     addEventListener('scroll', () => {
       const h = document.documentElement; const p = h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight);
