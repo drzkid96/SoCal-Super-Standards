@@ -129,7 +129,9 @@ with TemporaryDirectory() as temp:
         browser.get(base+'ca-mutcd/9e/#fig-9e-3ca-sheet-7')
         seventh=browser.find_element(By.ID,'fig-9e-3ca-sheet-7').find_element(By.XPATH,'ancestor::figure')
         assert seventh.is_displayed() and 'Sheet 7 of 7' in seventh.text
-        assert len(Select(seventh.find_element(By.XPATH,'ancestor::div[contains(@class,"sss-ms-wrap")]//select')).options)==7
+        options=Select(seventh.find_element(By.XPATH,'ancestor::div[contains(@class,"sss-ms-wrap")]//select')).options
+        assert len(options)==7
+        assert all(option.text.startswith(f'Sheet {i} of 7') for i, option in enumerate(options, 1))
         browser.get(base+'details/ladot/mpp-531-s-418-6/')
         assert len(browser.find_elements(By.CSS_SELECTOR,'.sheet-strip .sc-thumb'))==16
         browser.get(base+'details/?agency=LADOT')

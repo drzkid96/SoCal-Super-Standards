@@ -1019,5 +1019,5 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .agency-heading p { margin:0 0 .3rem; font-weight:600; font-size:.85rem; }
 .agency-heading h1, .agency-heading a { color:#fff; }
 .agency-heading a { display:inline-block; margin-top:.55rem; }
-:where(.sl-markdown-content,.agency-heading,.sss-topnav) a:is([href^="http://"],[href^="https://"],[href^="//"]):not([href^="https://drzkid96.github.io/SoCal-Super-Standards/"]):not(:has(>img:only-child)) { text-decoration-line:underline; text-decoration-style:dotted; text-underline-offset:.18em; }
-:where(.sl-markdown-content,.agency-heading,.sss-topnav) a:is([href^="http://"],[href^="https://"],[href^="//"]):not([href^="https://drzkid96.github.io/SoCal-Super-Standards/"]):not(:has(>img:only-child))::after { content:"↗"; content:"↗" / " (external site)"; font-size:.78em; margin-inline-start:.14em; white-space:nowrap; }
+:where(body) a:is([href^="http://"],[href^="https://"],[href^="//"]):not([href^="https://drzkid96.github.io/SoCal-Super-Standards/"]):not(:where(.social-icons a)):not(:has(> :is(img,svg):only-child)) { text-decoration-line:underline; text-decoration-style:dotted; text-underline-offset:.18em; }
+:where(body) a:is([href^="http://"],[href^="https://"],[href^="//"]):not([href^="https://drzkid96.github.io/SoCal-Super-Standards/"]):not(:where(.social-icons a)):not(:has(> :is(img,svg):only-child))::after { content:"↗"; content:"↗" / " (external site)"; font-size:.78em; margin-inline-start:.14em; white-space:nowrap; }
