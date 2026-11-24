@@ -3,7 +3,7 @@ title: Sources and versions
 description: Every source on this site, its edition, and its status.
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/la-county-map.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/la-county-map.webp" alt="Verified Official Standards Library" /></a><figcaption><strong>Verified Official Standards Library</strong> <em>CA MUTCD 2026, Caltrans 2026, LADOT & 88 LA County jurisdictions</em></figcaption></figure>
+<figure class="vibe-hero map-hero"><a href="/SoCal-Super-Standards/figs/county/la-county-planning.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/county/la-county-planning.webp" alt="City boundaries and supervisorial districts in Los Angeles County" /></a><figcaption><strong>Los Angeles County cities and supervisorial districts</strong> · LA County Planning, revised July 2026. <a href="https://planning.lacounty.gov/wp-content/uploads/2026/08/Sup_Dist_2026_Countywide_reduced.pdf">Original county map (PDF)</a> · <a href="https://planning.lacounty.gov/maps-and-gis/map-catalog/">Map catalog</a></figcaption></figure>
 
 
 See [Standards status](/SoCal-Super-Standards/bulletins/standards-status/) for what supersedes what. Every page also has a Checks panel on its right edge.

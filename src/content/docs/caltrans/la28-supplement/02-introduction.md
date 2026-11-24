@@ -5,7 +5,6 @@ sidebar:
   order: 2
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/la-county-map.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/la-county-map.webp" alt="LA28 Olympic & Paralympic Games Network" /></a><figcaption><strong>LA28 Olympic & Paralympic Games Network</strong> <em>Caltrans Games Route Network (GRN) signing, marking & operations supplement</em></figcaption></figure>
 
 
 <div class="srcbar">CA MUTCD 2026 LA28 Supplement (2028 Olympic and Paralympic Games Route Network) &middot; July 15, 2026 (effective July 15, 2026, FHWA accepted) &middot; pages 20&ndash;21</div>

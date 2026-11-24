@@ -6,7 +6,7 @@ from pathlib import Path
 import re
 
 from current_catalog import BASE, PUBLIC, read, save
-from manual_art import ART, source
+from manual_art import SHEET_COUNTS, ART, source
 
 # What a designer is looking for in each drawing family. Match the most specific use first.
 READING = [
@@ -155,7 +155,18 @@ def illustrations(root, details, lookup):
             def entry(key):
                 id_,r=entries[key]; seen.add(key)
                 caption=f'{escape(key)} · {escape(r["title"])}'
-                return f'<figure class="mfig"><span id="{id_}"></span><a href="{r["full"]}"><img loading="lazy" src="{r["full"]}" alt="{caption}"></a><figcaption>{caption} · <a href="{r["original"]}">Publisher PDF</a></figcaption></figure>'
+                total=SHEET_COUNTS[edition].get(key,1)
+                first=items[key][1]
+                sheets=[]
+                for offset in range(total):
+                    page=first+offset
+                    anchor=id_ if offset==0 else f'{id_}-sheet-{offset+1}'
+                    label=caption if total==1 else f'{caption} · Sheet {offset+1} of {total}'
+                    image=f'{BASE}/figs/{edition}/p{page:04d}.webp'
+                    pdf=cdn(edition,r['num'],page)
+                    sheets.append(f'<figure class="mfig"><span id="{anchor}"></span><a href="{image}"><img loading="lazy" src="{image}" alt="{label}"></a><figcaption>{label} · <a href="{pdf}">Publisher PDF</a></figcaption></figure>')
+                if total>1:return '<div class="mfig-inline multi manual-sheets">'+''.join(sheets)+'</div>'
+                return sheets[0]
             def replace(m):
                 raw=m[0]; cap=re.search(r'<figcaption>(Figure|Table)\s+(\d[A-Z]-\d+(?:\s*\(CA\))?)',raw)
                 if not cap:return raw
@@ -165,6 +176,7 @@ def illustrations(root, details, lookup):
                 if key not in entries:return ''
                 id_,r=entries[key]
                 if key not in seen:return entry(key)
+                if key in SHEET_COUNTS[edition]:return ''
                 # Preserve distinct continuation sheets already associated with the actual item.
                 src=re.search(r'<a href="([^"]+/p(\d+)\.webp)"',raw)
                 first=int(r['full'].split('/p')[-1][:-5])

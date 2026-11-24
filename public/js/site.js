@@ -314,7 +314,8 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     }
 
     const p = new URLSearchParams(location.search);
-    if (p.get('sg')) $('dx-sg').value = p.get('sg');
+    const agency = p.get('sg') || p.get('agency');
+    if (agency) $('dx-sg').value = agency;
     populateSrcs($('dx-sg').value, p.get('src') || '');
     for (const [k, id] of [['q', 'dx-q'], ['type', 'dx-type'], ['topic', 'dx-topic'], ['sort', 'dx-sort']]) {
       if (p.get(k) && $(id)) $(id).value = p.get(k);

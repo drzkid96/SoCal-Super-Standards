@@ -1,6 +1,7 @@
 ---
 import DefaultPageTitle from '@astrojs/starlight/components/PageTitle.astro';
 import fs from 'node:fs';
+import { agencies, type AgencyKey } from '../lib/agencies';
 import { BASE, getPageNav } from '../lib/nav';
 
 const entry = Astro.locals.starlightRoute.entry;
@@ -39,6 +40,15 @@ if (id && id !== '404') {
   const top = segs[0];
   crumbs.push({ label: 'Home', href: `${BASE}/` });
 
+  const agency = Object.hasOwn(agencies,top) ? agencies[top as AgencyKey] : undefined;
+  if (agency || ['mutcd','ca-mutcd'].includes(top)) {
+    crumbs.push({ label: 'Agencies', href: BASE+'/agencies/' });
+    if (segs.length > 1 && agency) crumbs.push({label: agency.short, href: BASE+'/'+top+'/'});
+    if (top === 'mutcd' || top === 'ca-mutcd') {
+      const publisher = top === 'mutcd' ? 'fhwa' : 'caltrans';
+      crumbs.push({label: agencies[publisher].short, href: BASE+'/'+publisher+'/'});
+    }
+  }
   if (top === 'topics') {
     if (segs.length > 1) {
       crumbs.push({ label: 'Topics', href: `${BASE}/topics/` });
@@ -69,7 +79,6 @@ if (id && id !== '404') {
     if (segs.length > 1) crumbs.push({ label: 'Federal MUTCD 11th Ed. R1', href: `${BASE}/mutcd/` });
   } else if (top === 'ladot') {
     if (segs.length > 1) {
-      crumbs.push({ label: 'LADOT Standards', href: `${BASE}/ladot/` });
       if (segs.length > 2 && LADOT_DOCS[segs[1]]) {
         crumbs.push({ label: LADOT_DOCS[segs[1]], href: `${BASE}/ladot/${segs[1]}/` });
       }
@@ -79,8 +88,6 @@ if (id && id !== '404') {
       crumbs.push({ label: 'Caltrans 2026 Standard Plans', href: `${BASE}/caltrans/standard-plans-2026/` });
     } else if (segs[1] === 'la28-supplement' && segs.length > 2) {
       crumbs.push({ label: 'LA28 Supplement', href: `${BASE}/caltrans/la28-supplement/` });
-    } else {
-      crumbs.push({ label: 'Sources & Versions', href: `${BASE}/sources/` });
     }
   } else if (top === 'burbank' && segs.length > 2) {
     crumbs.push({ label: 'Burbank Standard Plans', href: `${BASE}/burbank/standard-plans/` });
@@ -92,14 +99,10 @@ if (id && id !== '404') {
     if (segs.length > 2) {
       const label = segs[1] === 'step-uncontrolled-crossings' ? 'FHWA STEP Guide' : 'FHWA Interchange Promptlist';
       crumbs.push({ label, href: `${BASE}/fhwa/${segs[1]}/` });
-    } else {
-      crumbs.push({ label: 'Sources & Versions', href: `${BASE}/sources/` });
     }
   } else if (top === 'ada') {
     if (segs.length > 2) {
       crumbs.push({ label: 'ADA Guide Ch. 4', href: `${BASE}/ada/curb-ramps/` });
-    } else {
-      crumbs.push({ label: 'Sources & Versions', href: `${BASE}/sources/` });
     }
   } else if (top === 'guides') {
     if (segs.length > 1) crumbs.push({ label: 'National Design Guides', href: `${BASE}/guides/` });
@@ -109,6 +112,7 @@ if (id && id !== '404') {
   }
 }
 
+const activeHub = Object.hasOwn(agencies, id) ? agencies[id as AgencyKey] : undefined;
 const nav = id && id !== '404' ? getPageNav(id) : undefined;
 ---
 
@@ -134,7 +138,13 @@ const nav = id && id !== '404' ? getPageNav(id) : undefined;
     )}
   </div>
 )}
-<DefaultPageTitle />
+{activeHub ? (
+  <div class="agency-heading" data-agency={id}>
+    <p>{activeHub.agency}</p>
+    <DefaultPageTitle />
+    <a href={activeHub.official}>Agency website</a>
+  </div>
+) : <DefaultPageTitle />}
 {nav && (nav.prev || nav.next) && (
   <nav class="sss-seqbar print:hidden" aria-label="Previous and next page">
     <span class="sss-seq-prev">

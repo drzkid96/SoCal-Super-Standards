@@ -5,6 +5,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from lxml import html
 from current_catalog import BASE, read
+from manual_art import ART, SHEET_COUNTS, source
 
 dist=Path('dist')
 details=read(dist/'data/details.json')
@@ -29,3 +30,31 @@ for family,minimum in [('bikeways',4),('speed-and-calming',6),('signals',10)]:
     page=html.parse(str(dist/'topics'/family/'index.html'))
     assert len(page.xpath('//figure[@class="type-example"]//img'))>=minimum
 print(f'{len(details)} descriptions verified at their destinations. Original sheets, redirects and comparison illustrations passed.')
+
+chapters = {}
+checked_sheets = 0
+for edition, items in SHEET_COUNTS.items():
+    for key, count in items.items():
+        kind, number = key.split()
+        chapter = number.split('-')[0].lower()
+        route = dist / edition / chapter / 'index.html'
+        if route not in chapters:
+            chapters[route] = html.parse(str(route))
+        slug = number.lower().replace('(', '').replace(')', '')
+        anchor = ('fig-' if kind == 'Figure' else 'table-') + slug
+        group = chapters[route].xpath('//*[@id=$anchor]/ancestor::figure[1]/..', anchor=anchor)
+        assert len(group) == 1, (edition, key, 'missing or duplicate figure')
+        sheets = group[0].xpath('./figure')
+        assert len(sheets) == count, (edition, key, len(sheets), count)
+        first_page = ART[edition][key][1]
+        for index, sheet in enumerate(sheets, 1):
+            page = first_page + index - 1
+            label = f'Sheet {index} of {count}'
+            image = f'/figs/{edition}/p{page:04d}.webp'
+            pdf, pdf_page = source(edition, number, page)
+            assert sheet.xpath('./a/img/@src') == [BASE + image], (key, label, image)
+            assert (dist / image.lstrip('/')).is_file(), image
+            assert label in sheet.xpath('./figcaption')[0].text_content(), (key, label)
+            assert pdf + '#page=' + str(pdf_page) in sheet.xpath('./figcaption/a/@href'), (key, label)
+            checked_sheets += 1
+print(f'{checked_sheets} individual sheets verified across {sum(map(len, SHEET_COUNTS.values()))} multi-sheet manual figures and tables.')
