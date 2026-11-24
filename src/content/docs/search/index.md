@@ -7,7 +7,7 @@ pagefind: false
 
 <form id="standards-search" class="standards-search" role="search">
 <label for="standards-query">Code, topic, or exact wording</label>
-<input id="standards-query" name="q" type="search" placeholder="S-481.0, curb ramp, or temporary pedestrian access" autocomplete="off" />
+<input id="standards-query" name="q" type="search" placeholder="E 664.12, MPP 531 S-418.6 sheet 8, or curb ramp" autocomplete="off" />
 <label for="standards-source">Source</label>
 <select id="standards-source" name="source">
 <option value="">All sources</option><option>CA MUTCD</option><option>Federal MUTCD</option><option>Caltrans</option><option>LADOT</option><option>LA BOE</option><option>Local cities</option><option>Signs</option><option>Markings</option><option>Topics and tools</option><option>Guides and references</option>

@@ -118,21 +118,26 @@ for path in root.rglob('*.md'):
   signs=re.search(r'<h2>Signs on this drawing</h2><div class="tsigns">.*?</div>',s,re.S)
   if signs:s=s[:signs.start()]+s[signs.end():]+'\n\n'+signs[0]+'\n'
   s=re.sub(r'(<figure class="dfig redraw">.*?</figure>)<details class="orig"><summary>.*?</summary>(<figure class="dfig">.*?</figure>)\s*</details>',r'\2',s,flags=re.S)
-  scans=re.findall(r'<figure class="dfig"><a href="([^"]+)"',s)
+  figures=re.compile(r'<figure class="dfig"><a href="([^"]+)".*?</figcaption></figure>', re.S)
   drawer=re.search(r'<span class="dwg-num">([^<]+)</span><span class="dwg-src">([^<]+)</span>',s)
-  if drawer and scans:
-   tools=[]
-   for i,scan in enumerate(scans,1):
+  count=sum(1 for _ in figures.finditer(s))
+  if drawer and count:
+   numbers=iter(range(1,count+1))
+   def sheet_caption(match):
+    i=next(numbers)
+    scan=match[1]
     page=re.search(r'/p0*(\d+)\.',scan)
     direct=scan
     for manual,pdf in ladot_originals.items():
      if page and '/ladot/'+manual+'/' in scan:
       direct=pdf+'#page='+page[1]
       break
-    citation=f'{html.unescape(drawer[2])}. Drawing {html.unescape(drawer[1])}, sheet {i} of {len(scans)}. '+(f'Page {page[1]}. ' if page else '')
-    tools.append(f'<div><a href="#sheet-{i}">Sheet {i}</a> · <a href="{direct}">Open {"official PDF" if direct!=scan else "source scan"}</a> · <button type="button" class="agency-copy" data-url="{direct}" data-citation="{html.escape(citation)}">Copy agency citation</button></div>')
-    s=s.replace(f'<figure class="dfig"><a href="{scan}"',f'<figure id="sheet-{i}" class="dfig"><a href="{scan}"',1)
-   s=s.replace('<div class="dwg-summary">','<nav aria-label="Drawing sheets">' + ''.join(tools)+'</nav>\n\n<div class="dwg-summary">',1) if '<div class="dwg-summary">' in s else s.replace('## Sheet','\n<nav aria-label="Drawing sheets">' + ''.join(tools)+'</nav>\n\n## Sheet',1)
+    citation=f'{html.unescape(drawer[2])}. Drawing {html.unescape(drawer[1])}, sheet {i} of {count}. '+(f'Page {page[1]}. ' if page else '')
+    label='Agency PDF · p. '+page[1] if direct!=scan else 'Open source scan'
+    actions=f'<span class="sheet-source-actions"><a href="{direct}">{label}</a><button type="button" class="agency-copy" data-url="{direct}" data-citation="{html.escape(citation)}">Copy sheet citation</button></span>'
+    figure=match[0].replace('<figure class="dfig">',f'<figure id="sheet-{i}" class="dfig">',1)
+    return figure.replace('</figcaption>',actions+'</figcaption>')
+   s=figures.sub(sheet_caption,s)
    sheet=1;lines=[]
    for line in s.splitlines():
     f=re.search(r'id="sheet-(\d+)"',line)

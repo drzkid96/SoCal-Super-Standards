@@ -108,8 +108,15 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
           det.open = true;
           det = det.parentElement && det.parentElement.closest('details');
         }
-        requestAnimationFrame(() => {
-          try { curSide.scrollIntoView({ block: 'center', behavior: 'auto' }); } catch (e) {}
+        function revealCurrentInSidebar() {
+          const panel = side.getBoundingClientRect(), link = curSide.getBoundingClientRect();
+          if (panel.height && (link.top < panel.top || link.bottom > panel.bottom)) {
+            side.scrollTop += link.top - panel.top - (panel.height - link.height) / 2;
+          }
+        }
+        requestAnimationFrame(revealCurrentInSidebar);
+        side.addEventListener('toggle', event => {
+          if (event.target === side && event.newState === 'open') revealCurrentInSidebar();
         });
       }
     }
@@ -229,7 +236,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
       if (!query.trim()) return;
       const r = renderedQuery === query ? items : await search(query).catch(() => []);
       if (inp.value !== query) return;
-      if (r.length) location.href = r[0].url;
+      if (r.length && !r[0].missingSheet && !(r.length > 1 && r[0].sheetMatch)) location.href = r[0].url;
       else window.__openSiteSearch(query);
     });
 

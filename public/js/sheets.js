@@ -165,7 +165,11 @@
 
     prev.onclick = () => { if (showAll) setAll(false); show(index - 1, true); };
     next.onclick = () => { if (showAll) setAll(false); show(index + 1, true); };
-    select.onchange = () => { if (showAll) setAll(false); show(select.selectedIndex, true); };
+    select.onchange = () => {
+      const selected = select.selectedIndex;
+      if (showAll) setAll(false);
+      show(selected, true);
+    };
     toggleAll.onclick = () => setAll(!showAll);
     zoomBtn.onclick = () => {
       const frame = pages[index];
