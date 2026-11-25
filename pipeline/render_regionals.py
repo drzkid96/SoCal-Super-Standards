@@ -5,7 +5,7 @@ import json
 import os
 import shutil
 import time
-from concurrent.futures import ThreadPoolExecutor
+from multiprocessing import get_context
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -46,6 +46,6 @@ def prepare():
     with gzip.open(CATALOG,'rt',encoding='utf-8') as f: records=json.load(f)
     # PyMuPDF documents must be handled by separate processes.
     from concurrent.futures import ProcessPoolExecutor
-    with ProcessPoolExecutor(max_workers=min(5,os.cpu_count() or 1)) as pool:
+    with ProcessPoolExecutor(mp_context=get_context('fork'), max_workers=min(5,os.cpu_count() or 1)) as pool:
         list(pool.map(render,records))
     return records
