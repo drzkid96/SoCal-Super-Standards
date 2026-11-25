@@ -1,5 +1,6 @@
 """Place an actual publisher's graphic beside a discussed facility type or chart."""
 from html import escape, unescape
+from pathlib import Path
 import re
 
 # Display title, identifying terms, indexed source and designation, and what to look for.
@@ -64,10 +65,13 @@ def make_visuals(details):
     return groups,index
 
 
-def graphic(title,r,caption):
+def graphic(title,r,caption,compact=False):
     image=(r.get('full') or r['img']).replace('/thumbs/figs/','/figs/')
-    return (f'<figure class="type-example"><figcaption><strong>{escape(title)}</strong> {escape(caption)}</figcaption>'
-            f'<a href="{image}"><img src="{image}" loading="lazy" alt="{escape(title,quote=True)} — {escape(r["src"],quote=True)} {escape(r["num"],quote=True)}"></a>'
+    classes = 'type-example reading-example' if compact else 'type-example'
+    thumbnail = image.replace('/figs/', '/thumbs/figs/', 1)
+    preview = thumbnail if compact and Path('public'+thumbnail.removeprefix('/SoCal-Super-Standards')).is_file() else image
+    return (f'<figure class="{classes}"><figcaption><strong>{escape(title)}</strong> {escape(caption)}</figcaption>'
+            f'<a href="{image}"><img src="{preview}" loading="lazy" alt="{escape(title,quote=True)} — {escape(r["src"],quote=True)} {escape(r["num"],quote=True)}"></a>'
             f'<a class="source-sheet" href="{r["url"]}">{escape(r["src"])} · {escape(r["num"])} — open source</a></figure>')
 
 
@@ -103,11 +107,25 @@ def within_articles(root,groups,index):
                     examples.append((key+' · '+r['title'],None,r,r['description'].split('. ',1)[-1]))
             seen=set()
             cards=[]
-            for title,_,r,caption in examples:
+            lines=block.splitlines(keepends=True)
+            paragraphs=[(j,unescape(re.sub('<[^>]+>',' ',line))) for j,line in enumerate(lines)
+                        if re.fullmatch(r'<p(?: [^>]*)?>.*</p>\s*',line)]
+            for title,term,r,caption in examples:
                 image=r.get('full') or r['img']
                 if image in seen or image in seen_on_page or ('src="'+image+'"') in block:continue
-                seen.add(image);seen_on_page.add(image);cards.append(graphic(title,r,caption))
+                # Exact references in manual paragraphs get edition-specific citation cards.
+                if edition and term is None and any(title.split(' · ')[0] in text for _,text in paragraphs):
+                    continue
+                seen.add(image);seen_on_page.add(image)
+                card=graphic(title,r,caption,compact=True)
+                near=next((j for j,text in paragraphs if term and term.search(text)),None)
+                if near is None:
+                    cards.append(card)
+                else:
+                    lines[near]=lines[near].rstrip()+'\n'+card+'\n'
+                    change=True;inserted+=1
+            pieces[i]=''.join(lines)
             if cards:
-                pieces[i]=block.rstrip()+'\n\n'+'\n'.join(cards)+'\n\n';change=True;inserted+=len(cards)
+                pieces[i]=pieces[i].rstrip()+'\n\n'+'\n'.join(cards)+'\n\n';change=True;inserted+=len(cards)
         if change:path.write_text(head+sep+''.join(pieces))
     return inserted

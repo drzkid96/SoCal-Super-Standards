@@ -132,3 +132,6 @@ for url in manual_pages:
         assert article.xpath('.//p[@class="boe-reading-note"]//a[@href]')
 assert math_count >= 41 and figure_links >= 100 and footnote_links > 0
 print(f'BOE presentation verified: {math_count} rendered equations, {figure_links} figure citations, {footnote_links} footnote links.')
+
+import runpy
+runpy.run_path(str(Path(__file__).with_name('check_inline_examples.py')))
