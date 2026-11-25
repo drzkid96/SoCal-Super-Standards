@@ -92,6 +92,7 @@ export default defineConfig({
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/sheets.js?v=' + BUILD, defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/recent-pages.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/reader-size.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/calculations.js?v=' + BUILD, defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/panel.js?v=' + BUILD, defer: true } },

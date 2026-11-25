@@ -160,3 +160,6 @@ from santa_monica_art import insert_previews
 insert_previews(root/'santa-monica/standard-plans.md')
 from search_catalog import build as build_search_catalog
 build_search_catalog(root, look, current_details)
+
+from project_photos import place
+place(root)
