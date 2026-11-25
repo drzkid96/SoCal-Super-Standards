@@ -119,6 +119,7 @@ export default defineConfig({
         ] },
         { label: 'Issuing agencies', collapsed: true, items: [
           { label: 'Browse agencies', link: '/agencies/' },
+          { label: 'Southern California regional standards', link: '/regions/' },
           { label: 'Caltrans', link: '/caltrans/' },
           { label: 'FHWA', link: '/fhwa/' },
           { label: 'U.S. Access Board', link: '/ada/' },
