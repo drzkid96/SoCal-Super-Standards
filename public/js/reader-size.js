@@ -85,11 +85,11 @@
       if (!article.querySelector('.sheet-controls,.sfilter,.sss-sheetbar')) controls.classList.add('sticky-size');
     }
     const update = () => {
-      const mode = preference ?? (deck ? 'fit' : 100);
+      const mode = preference ?? (deck ? 'fit' : 42);
       const auto = mode === 'fit';
       // A deck sets its own sizing variables, including when it sits inside a mixed article.
       scope.style.setProperty('--scan-width', auto ? 'auto' : mode + '%');
-      scope.style.setProperty('--scan-height', auto ? 'min(74dvh, max(6rem, calc(100dvh - var(--sl-nav-height, 4rem) - var(--reader-controls-height, 3rem) - 4rem)))' : 'none');
+      scope.style.setProperty('--scan-height', auto ? 'min(44dvh, max(6rem, calc(100dvh - var(--sl-nav-height, 4rem) - var(--reader-controls-height, 3rem) - 4rem)))' : 'none');
       fit.setAttribute('aria-pressed',String(auto));
       full.setAttribute('aria-pressed',String(mode === 100));
       const measured = auto ? images.find(img => img.clientWidth && img.naturalWidth) : null;

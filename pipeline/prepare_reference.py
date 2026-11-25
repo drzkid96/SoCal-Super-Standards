@@ -185,3 +185,5 @@ build_search_catalog(root, look, current_details)
 
 from project_photos import place
 place(root)
+from publication_layout import build as build_publication_layout
+build_publication_layout(root)

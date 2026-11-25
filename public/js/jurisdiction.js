@@ -89,11 +89,19 @@
   const bar=document.querySelector('.reg-controls');
   if(bar){
     const pages=[...document.querySelectorAll('.reg-page')], select=bar.querySelector('select');
-    let group;
-    pages.forEach((p,index)=>{
-      if(index%25===0){group=document.createElement('optgroup');group.label='Pages '+(index+1)+'–'+Math.min(index+25,pages.length);select.append(group);}
-      group.append(new Option(p.dataset.label,p.id));
-    });
+    const filter=document.createElement('input');filter.type='search';filter.placeholder='Find a sheet or phrase';filter.ariaLabel=filter.placeholder;
+    const matches=document.createElement('span');matches.setAttribute('role','status');bar.prepend(filter,matches);
+    const records=pages.map(page=>({page,words:page.textContent.toLowerCase()}));
+    function filterList(){
+      const words=filter.value.toLowerCase().trim().split(/\s+/);
+      const rows=records.filter(row=>words.every(w=>row.words.includes(w)));
+      select.replaceChildren(...rows.map(({page})=>new Option(page.dataset.label,page.id)));
+      matches.textContent=filter.value?rows.length+' matches':'';
+      select.disabled=!rows.length;
+      if(rows.some(({page})=>page===bar._current))select.value=bar._current.id;
+      else if(rows.length && filter.value)go(rows[0].page.id);
+    }
+    filter.oninput=filterList;filterList();
     function draw(){
       const current=pages.find(p=>'#'+p.id===location.hash)||pages[0];
       (bar._current || pages[0]).hidden=true;
@@ -110,7 +118,7 @@
     const contact=document.querySelector('.reg-contact'),overview=bar.querySelector('.reg-overview');
     function showGrid(){
       contact.replaceChildren();
-      const start=Math.floor(select.selectedIndex/12)*12;
+      const start=Math.floor(pages.indexOf(bar._current)/12)*12;
       for(const page of pages.slice(start,start+12)){
         const card=document.createElement('a'),im=new Image();
         im.src=page.querySelector('.reg-scan').href;im.loading='lazy';im.alt='';
@@ -122,7 +130,7 @@
     overview.onclick=()=>{contact.hidden=!contact.hidden;overview.setAttribute('aria-expanded',String(!contact.hidden));if(!contact.hidden)showGrid();};
     function go(id){history.pushState(null,'','#'+id);draw();}
     select.onchange=()=>go(select.value);
-    bar.querySelectorAll('[data-step]').forEach(b=>b.onclick=()=>go(pages[select.selectedIndex+Number(b.dataset.step)].id));
+    bar.querySelectorAll('[data-step]').forEach(b=>b.onclick=()=>go(pages[pages.indexOf(bar._current)+Number(b.dataset.step)].id));
     bar.hidden=false;draw();window.addEventListener('hashchange',draw);window.addEventListener('popstate',draw);
   }
 })();

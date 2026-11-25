@@ -100,4 +100,8 @@ def build(root,lookup):
     paths=json.loads(Path('data/reference/regional/county-paths.json').read_text())
     maphtml='<svg viewBox="0 -20 460 380" aria-label="Southern California counties">'+''.join(f'<a href="{BASE}/regions/#county-{slug(n)}" aria-label="{n}"><title>{n}</title><path d="{d}"/></a>' for n,d in paths.items())+'</svg>'
     cols.append('<section class="home-column home-map"><h2>Geography</h2>'+maphtml+f'<a href="{BASE}/regions/">Browse counties and agencies →</a></section>')
-    home.write_text('---\ntitle: SoCal Super Standards\ntemplate: splash\n---\n\n'+search+'\n\n<div class="home-columns">'+''.join(cols)+'</div>\n\n'+f'<nav class="home-tools"><a href="{BASE}/details/">Drawing index</a> · <a href="{BASE}/signs/">Sign library</a> · <a href="{BASE}/markings/">Pavement markings</a></nav>\n')
+    photos=[('venice','Venice Boulevard, Los Angeles'),('orange-circle','Orange Bikeway, San Diego')]
+    for i,(photo,caption) in enumerate(photos):
+        figure=f'<figure class="home-photo"><img src="{BASE}/figs/projects/{photo}.webp" alt="{caption}" /><figcaption>{caption}</figcaption></figure>'
+        cols[i]=cols[i].replace('<h2>',figure+'<h2>',1)
+    home.write_text('---\ntitle: SoCal Super Standards\ntemplate: splash\n---\n\n'+search+'\n\n<div class="home-columns">'+''.join(cols)+'</div>\n\n'+f'<nav class="home-tools"><a href="{BASE}/details/">Drawing index</a> <a href="{BASE}/signs/">Sign library</a> <a href="{BASE}/markings/">Pavement markings</a></nav>\n')

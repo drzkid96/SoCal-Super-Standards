@@ -6,6 +6,12 @@
   const title=manual ? manual+' · '+heading : heading;
   const book=article.querySelector('.book-reader'),operator=article.querySelector('.operator-book');
   const route=location.pathname.replace(base+'/','').replace(/\/$/,'');
+  const publication=article.querySelector('[data-publication]');
+  if(book?.dataset.parentPage && (!location.hash || /^#p\d+$/.test(location.hash))){
+    const parent=new URL(base+'/'+book.dataset.book+'/',location.origin);
+    parent.search=location.search;parent.hash=location.hash||'p'+book.dataset.parentPage;
+    location.replace(parent);return;
+  }
   let manifest;
   const hierarchy=()=>manifest ||= fetch(base+'/api/v1/guides.json').then(check).then(r=>r.json());
   function check(r){if(!r.ok)throw Error('Source unavailable ('+r.status+')');return r;}
@@ -32,7 +38,7 @@
     if(!src)return;
     const parent=fig.closest('[data-chapter-url]');
     fig.id ||= 'ref-figure-'+(i+1);
-    const addr=new URL(parent?.dataset.chapterUrl||location.href,location.origin);addr.hash=fig.id;
+    const addr=new URL(parent?.dataset.chapterUrl||location.href,location.origin);addr.hash=fig.closest('.publication-window')?(location.hash||'#p1'):fig.id;
     const label=fig.querySelector('figcaption')?.textContent.trim()||im.alt||'Figure '+(i+1),bar=toolbar(fig);
     button(bar,'Copy image',()=>copyImage(src));button(bar,'Copy citation',()=>navigator.clipboard.writeText(citation(title+' · '+label,addr.href)));
     button(bar,'Sheet PDF',()=>single(src,title+' '+label));
@@ -62,6 +68,80 @@
     const more=create('button','Read next chapter');more.onclick=()=>next();article.append(more);pick.onchange=()=>next(true);await next();
     if('IntersectionObserver' in window)new IntersectionObserver(es=>{if(es[0].isIntersecting&&!more.hidden)next();},{rootMargin:'300px'}).observe(more);
   }
+  async function setupPublication(){
+    const rows=await fetch(base+'/data/publications/'+publication.dataset.publication+'.json').then(check).then(r=>r.json());
+    const controls=create('div');controls.className='publication-controls';
+    const filter=create('input');filter.type='search';filter.placeholder='Find a sheet or drawing';filter.ariaLabel='Find a sheet or drawing';
+    const list=create('select');list.ariaLabel='Publication contents';
+    const prev=create('button','Previous'),next=create('button','Next'),status=create('span');
+    status.setAttribute('role','status');controls.append(filter,list,prev,next,status);
+    const frame=create('section');frame.className='publication-window';frame.tabIndex=0;frame.ariaLabel='Selected source page';
+    publication.append(controls,frame);
+    const zoom=create('select');zoom.ariaLabel='Source page zoom';for(const size of [100,150,200])zoom.add(new Option(size+'%',size));
+    zoom.onchange=()=>frame.style.setProperty('--page-zoom',Number(zoom.value)/100);
+    controls.append(zoom);
+    let selected,sequence=0,loadedPath,cached;
+    const drawingOf=row=>row.drawings?.length===1?row.drawings[0]:null;
+    function options(){
+      const query=filter.value.toLowerCase().trim(),tokens=query.split(/\s+/);
+      const exactDrawing=query && rows.some(row=>row.drawings?.some(d=>d[0].toLowerCase()===query));
+      list.replaceChildren();let group,groupName=null,count=0;
+      for(const row of rows){
+        const drawing=drawingOf(row);
+        const label=row.page+' · '+row.title+(drawing && drawing[2]>1?' · Sheet '+drawing[1]+' of '+drawing[2]:'');
+        const words=[label,row.chapter,...row.codes,...(row.drawings||[]).map(d=>d[0]),row.terms].join(' ').toLowerCase();
+        if(exactDrawing?!row.drawings?.some(d=>d[0].toLowerCase()===query):!tokens.every(t=>words.includes(t)))continue;
+        const groupLabel=drawing && drawing[2]>1?drawing[0]+' · '+drawing[2]+' sheets':row.chapter;
+        if(groupLabel!==groupName){groupName=groupLabel;group=groupLabel?create('optgroup'):list;if(groupLabel){group.label=groupLabel;list.append(group);}}
+        group.append(new Option(label,row.page));count++;
+      }
+      if(selected && [...list.options].some(o=>o.value===String(selected.page)))list.value=selected.page;
+      status.textContent=filter.value?count+' matching pages':'Page '+(selected?.page||rows[0].page)+' of '+rows.length;
+      list.disabled=!count;
+    }
+    function go(row){if(!row)return;location.hash='p'+row.page;}
+    filter.oninput=()=>{options();if(list.options.length && ![...list.options].some(o=>o.value===String(selected?.page)))go(rows.find(r=>String(r.page)===list.value));};
+    list.onchange=()=>go(rows.find(r=>String(r.page)===list.value));
+    prev.onclick=()=>go(rows[rows.indexOf(selected)-1]);next.onclick=()=>go(rows[rows.indexOf(selected)+1]);
+    async function draw(){
+      const ticket=++sequence;
+      selected=rows.find(r=>'#p'+r.page===location.hash)||rows[0];
+      const row=selected;options();prev.disabled=row===rows[0];next.disabled=row===rows.at(-1);
+      if(loadedPath!==row.path){loadedPath=row.path;cached=fetchArticle(row.path);}
+      let source;try{source=await cached;}catch(error){if(ticket===sequence){loadedPath=null;frame.textContent='Source page unavailable. Select the page again to retry.';}return;}
+      if(ticket!==sequence)return;
+      const anchor=source.querySelector('#p'+row.page);
+      const block=create('div');block.className='publication-paper';
+      const heading=create('h2',row.title);block.append(heading);
+      const drawing=drawingOf(row);if(drawing && drawing[2]>1)block.append(create('p',drawing[0]+' · Sheet '+drawing[1]+' of '+drawing[2]+' · Publication page '+row.page));
+      setButton.hidden=!(drawing && drawing[2]>1 && rows.filter(r=>r.drawings?.some(d=>d[0]===drawing[0])).every(r=>r.image));
+      if(anchor){
+        let node=anchor;while(node.parentElement!==source)node=node.parentElement;
+        for(let sibling=node.nextElementSibling;sibling;sibling=sibling.nextElementSibling){
+          if(sibling.matches('[id^="p"].anchor')||sibling.querySelector('span.anchor[id^="p"]'))break;
+          if(sibling.tagName==='H3' || sibling.matches('.book-reader'))continue;
+          block.append(sibling.cloneNode(true));
+        }
+      }
+      block.querySelectorAll('a[href^="#"]').forEach(a=>a.href=base+'/'+row.path+'/'+a.getAttribute('href'));
+      frame.replaceChildren(block);frame.scrollTo(0,0);
+      frame.querySelectorAll('figure').forEach((fig,i)=>{fig.id='publication-p'+row.page+'-fig'+(i+1);figureTools(fig,i);});
+    }
+    button(top,'Page PDF',()=>selected.image?single(selected.image,title+' PAGE '+selected.page):exportDocs(false,{label:'Page '+selected.page,node:frame}));
+    const setButton=button(top,'Drawing set PDF',async()=>{
+      const code=drawingOf(selected)[0],pdf=await (await library()).PDFDocument.create();
+      for(const row of rows.filter(r=>r.drawings?.some(d=>d[0]===code)))await imagePage(pdf,row.image);
+      save(await pdf.save(),title+' '+code+' DRAWING SET','application/pdf');
+    });
+    setButton.hidden=true;
+    if(rows.some(r=>r.chapter))button(top,'Chapter PDF',async()=>{
+      const pdf=await (await library()).PDFDocument.create();
+      await addArticle(pdf,await fetchArticle(selected.path),selected.chapter||title);
+      save(await pdf.save(),title+' '+(selected.chapter||'Chapter'),'application/pdf');
+    });
+    button(top,'Guide PDF',()=>exportDocs(true));
+    window.addEventListener('hashchange',draw);await draw();
+  }
   function clean(root){const n=root.cloneNode(true);n.querySelectorAll('script,style,nav,button,select,input,.reference-actions,.book-reader,.sec-toc,.reg-controls,.reg-contact,.export-tools,.operator-book,[data-pagefind-filter]').forEach(e=>e.remove());return n;}
   // Reflow the article text into printable pages, preserving headings, figure order and table rows.
   async function addArticle(pdf,root,heading){
@@ -86,10 +166,32 @@
     else await addArticle(pdf,article,title);
     save(await pdf.save(),name,'application/pdf');
   }
-  if(operator){
+  if(publication){
+    setupPublication().catch(error=>{publication.append(create('p','Sheet index unavailable. '+error.message));});
+  }else if(operator){
     const field=operator.querySelector('input'),frame=operator.querySelector('img'),limit=Number(operator.dataset.count);
     const page=()=>Math.max(1,Math.min(limit,Number(field.value)||1));
     const show=()=>{let m=location.hash.match(/^#page-(\d+)$/);field.value=m?Math.min(limit,Number(m[1])):1;frame.src=operator.dataset.images+page()+'.webp';operator.querySelector('[data-turn="-1"]').disabled=page()===1;operator.querySelector('[data-turn="1"]').disabled=page()===limit;};
+    const native=create('button','View original PDF'),viewport=create('div');
+    viewport.className='native-pdf-window';viewport.hidden=true;operator.append(native,viewport);
+    let pdfFrame;
+    function syncPdf(){
+      if(!pdfFrame)return;
+      pdfFrame.src=operator.dataset.pdf+'#page='+page()+'&zoom=page-fit';
+      const external=viewport.querySelector('a');external.href=pdfFrame.src;
+    }
+    native.setAttribute('aria-expanded','false');
+    native.onclick=()=>{
+      viewport.hidden=!viewport.hidden;native.setAttribute('aria-expanded',String(!viewport.hidden));
+      native.textContent=viewport.hidden?'View original PDF':'Return to page preview';
+      frame.hidden=!viewport.hidden;
+      if(!viewport.hidden){
+        if(!pdfFrame){pdfFrame=create('iframe');pdfFrame.title=title+' original PDF';
+          const a=create('a','Open original in a separate tab');a.target='_blank';a.rel='noopener';viewport.append(a,pdfFrame);}
+        syncPdf();
+      }
+    };
+    new MutationObserver(()=>{if(!viewport.hidden)syncPdf();}).observe(frame,{attributes:true,attributeFilter:['src']});
     field.onchange=()=>location.hash='page-'+page();operator.querySelectorAll('[data-turn]').forEach(b=>b.onclick=()=>location.hash='page-'+(page()+Number(b.dataset.turn)));
     article.querySelectorAll('a[href^="#page-"]').forEach(a=>a.onclick=e=>{e.preventDefault();history.pushState(null,'',a.hash);show();operator.scrollIntoView();});
     window.addEventListener('hashchange',show);show();
@@ -117,5 +219,5 @@
   }
   button(top,'Copy citation',()=>navigator.clipboard.writeText(citation(title+(operator?' · page '+operator.querySelector('input').value:''),location.href)));
   if(location.hash.startsWith('#ref-figure-'))document.getElementById(location.hash.slice(1))?.scrollIntoView();
-  if(book && new URL(location.href).searchParams.get('read')==='1')continuous().then(()=>article.prepend(top));
+  if(book && !publication && new URL(location.href).searchParams.get('read')==='1')continuous().then(()=>article.prepend(top));
 })();
