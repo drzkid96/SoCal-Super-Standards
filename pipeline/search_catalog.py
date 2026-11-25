@@ -19,6 +19,7 @@ def scope_for(url):
     if path[0] == 'bulletins' and len(path)>1:
         if path[1].startswith('caltrans-'): return 'Caltrans'
         if path[1].startswith('ladot-'): return 'LADOT'
+    if path[0] == 'transit': return 'Transit operators'
     if path[0] == 'regions': return 'Regional standards'
     if path[0] in CITIES: return 'Local cities'
     return SCOPES.get(path[0], 'Guides and references')

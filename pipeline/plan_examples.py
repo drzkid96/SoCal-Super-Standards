@@ -50,7 +50,8 @@ def build(root, lookup):
         body=path.read_text()
         start=body.find('id="'+anchor+'"')
         if start<0: raise ValueError('Missing manual section '+number)
-        stop=body.find('<span id="',start+len(anchor)+5)
+        boundary=re.search(r'^<span id="[^"]+" class="anchor"></span>\s*$',body[start+len(anchor)+5:],re.M)
+        stop=start+len(anchor)+5+boundary.start() if boundary else len(body)
         if stop<0:stop=len(body)
         example='\n\n**Related plan details** · '+' · '.join(links)+'\n\n'
         path.write_text(body[:stop]+example+body[stop:])

@@ -208,7 +208,7 @@ sidebar:
 
 <div class="topic-stats"><span><b>{len(secs)}</b> CA MUTCD sections</span><span><b>{stats["std"]}</b> standards (shall)</span><span><b>{stats["gui"]}</b> guidance (should)</span><span><b>{stats["opt"]}</b> options (may)</span><span><b>{len(sg)}</b> signs</span><span><b>{len(lrows)}</b> agency drawings</span>{f'<span><b>{len(tbuls)}</b> bulletins &amp; memos</span>' if tbuls else ''}</div>
 
-<p><a class="ai-btn ghost" href="{BASE}/details/?topic={slug}">Browse all {sum(1 for x in DET if slug in x["topics"])} figures and drawings on this topic</a> <a class="ai-btn" href="{BASE}/ask/?q={html.escape(q.replace(" ", "%20"))}">Ask Claude to compare all sources on this topic</a></p>
+<p><a class="ai-btn ghost" href="{BASE}/details/?topic={slug}">Browse all {sum(1 for x in DET if slug in x["topics"])} figures and drawings on this topic</a></p>
 {bul_section}
 ## The rules
 

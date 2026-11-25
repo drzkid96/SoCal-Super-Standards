@@ -17,11 +17,9 @@ description: Four ways in, matched to how traffic engineering work actually happ
 - **The rules.** Every CA MUTCD 2026 section on the topic, its first Standard (or Guidance), a count of its shall, should and may provisions, and the matching federal section. A "CA amended" badge means California changed the federal text.
 - **LADOT requirements.** The City standard drawings for the topic, each opening its own drawing page.
 - **Figures and signs**, plus a link to every related figure and drawing in the Detail and Drawing Index.
-- **Ask AI to compare all sources** opens the AI with a comparison question already filled in.
 
 **2. You have a number or term.** Type a drawing number (`S-481.0` or `s481`), sign code (`R3-17`), section (`3C.05`), Caltrans detail (`Detail 22`), bulletin (`DIB 94`), or plain term (`red curb`, `curb ramp`) in the search bar on the home page or Detail Index and press Enter to jump straight there. Press <kbd>/</kbd> on any library page to focus its filter box, or <kbd>Ctrl</kbd> + <kbd>K</kbd> anywhere to run full-text search across every page, OCR text included.
 
-**3. You're answering a comment or reading a plan.** Open **Ask the standards**, then paste a screenshot, a plan snip or a reviewer comment. It finds the governing CA MUTCD sections, LADOT drawings and signs, and links each one. It uses your own Anthropic key, which is kept in your browser only.
 
 **4. You're reading the source.** Use the top navigation bar or **Source documents** in the sidebar for the full CA MUTCD 2026, LA28 Supplement, Caltrans 2026 Standard Plans, federal MUTCD 11th Edition Revision 1, bulletins and LADOT documents. **Standards status** and **Sources and versions** list current editions and what has been superseded.
 

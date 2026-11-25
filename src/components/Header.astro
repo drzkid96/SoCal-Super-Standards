@@ -9,6 +9,7 @@ const modes=JSON.parse(fs.readFileSync('public/data/agency-modes.json','utf8'));
 
 const navItems = [
   { label: 'Details', href: `${BASE}/details/`, match: ['/details/', '/signs/', '/markings/', '/keywords/'] },
+  { label: 'Transit', href: `${BASE}/transit/`, match: ['/transit/'] },
   { label: 'Topics', href: `${BASE}/topics/`, match: ['/topics/'] },
   { label: 'MUTCD', href: `${BASE}/mutcd/1a/`, match: ['/ca-mutcd/', '/mutcd/'] },
   { label: 'Agencies', href: `${BASE}/agencies/`, match: ['/agencies/', '/caltrans/', '/boe/', '/ladot/', '/fhwa/', '/ada/'] },

@@ -11,66 +11,22 @@
   const kind = path.includes('/details/') ? 'detail' : path.includes('/signs/') && !path.endsWith('/signs/') ? 'sign'
     : path.includes('/bulletins/') ? 'bulletin' : /\/(mutcd|ca-mutcd)\//.test(path) ? 'manual' : 'page';
 
-  const PRESETS = {
-    detail: [
-      ['Summarize sheet', 'Summarize this sheet and its key dimensions'],
-      ['Checklist', 'Plan review checklist for this drawing'],
-      ['What supersedes?', 'What could supersede this drawing?'],
-    ],
-    sign: [
-      ['Summarize sign', 'Summarize where and how to use this sign'],
-      ['Is it current?', 'Is this sign current in California or superseded?'],
-    ],
-    manual: [
-      ['Summarize', 'Summarize this chapter'],
-      ['Checklist', 'Plan review checklist'],
-      ['What supersedes?', 'What could supersede this section?'],
-    ],
-    bulletin: [
-      ['Key values', 'Key values and design criteria'],
-      ['Checklist', 'Plan review checklist'],
-    ],
-    page: [
-      ['Summarize', 'Summarize this page'],
-      ['Checklist', 'Plan review checklist'],
-      ['What supersedes?', 'What could supersede this page?'],
-    ],
-  };
-
   let checks = [];
   const ui = document.createElement('aside');
   ui.className = 'sp';
-  ui.setAttribute('aria-label', 'Checks, Ask AI, and Calculators');
+  ui.setAttribute('aria-label', 'Checks and calculators');
   ui.innerHTML = `
-    <button class="sp-tab" type="button" aria-expanded="false" title="Checks, Ask AI &amp; Calculators"><span class="sp-tab-t">Tools</span><span class="sp-n"></span></button>
+    <button class="sp-tab" type="button" aria-expanded="false" title="Checks and calculators"><span class="sp-tab-t">Tools</span><span class="sp-n"></span></button>
     <div class="sp-body" hidden>
       <div class="sp-head">
         <div class="sp-tabs" role="tablist">
           <button role="tab" data-t="checks" type="button">Checks</button>
-          <button role="tab" data-t="ask" type="button">Ask AI</button>
           <button role="tab" data-t="calc" type="button">Calc</button>
         </div>
         <button class="sp-x" type="button" aria-label="Close panel">&times;</button>
       </div>
 
       <section class="sp-pane" data-p="checks"></section>
-
-      <section class="sp-pane" data-p="ask" hidden>
-        <div class="sp-ai-bar" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0.35rem;margin-bottom:0.45rem;padding:0.4rem 0.5rem;background:var(--fp-cream,#EEEDE8);border-radius:8px;font-size:0.74rem">
-          <span class="sp-ai-st" style="flex:1 1 120px">Instant search ready</span>
-          <div style="display:flex;gap:0.3rem;align-items:center">
-            <button type="button" class="sp-ai-oauth" style="font:inherit;font-weight:600;padding:0.15rem 0.45rem;border:1px solid var(--fp-emerald,#00574A);border-radius:6px;background:var(--fp-emerald,#00574A);color:#fff;cursor:pointer" title="1-click sign-in via OpenRouter (Google/GitHub)">Connect</button>
-            <button type="button" class="sp-ai-load" style="font:inherit;font-weight:600;padding:0.15rem 0.45rem;border:1px solid var(--fp-emerald,#00574A);border-radius:6px;background:#fff;color:var(--fp-emerald,#00574A);cursor:pointer" title="Free local in-browser model (no account)">Local AI</button>
-          </div>
-        </div>
-        <div class="sp-pre"></div>
-        <textarea rows="2" placeholder="Ask about this page or any SoCal standard..."></textarea>
-        <div class="sp-row">
-          <button type="button" class="sp-send">Ask</button>
-          <button type="button" class="sp-clear">Clear</button>
-        </div>
-        <div class="sp-out" aria-live="polite"></div>
-      </section>
 
       <section class="sp-pane" data-p="calc" hidden>
         <div style="display:flex;flex-direction:column;gap:0.75rem;font-size:0.82rem">
@@ -154,6 +110,7 @@
     ls.set(OPEN_KEY, o ? '1' : '0');
   }
   function setTab(t) {
+    if(t!=='calc')t='checks';
     ui.querySelectorAll('.sp-tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.t === t)));
     ui.querySelectorAll('.sp-pane').forEach((p) => (p.hidden = p.dataset.p !== t));
     ls.set(TAB_KEY, t);
@@ -264,60 +221,8 @@
     return `${h1}${date ? ` (sheet dated ${date[1]})` : ''}. SoCal Super Standards, accessed ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}. ${location.href}`;
   }
 
-  function pageText() {
-    const m = document.querySelector('.sl-markdown-content') || document.querySelector('main');
-    const copy = m?.cloneNode(true); copy?.querySelectorAll('del,.pn').forEach(n => n.remove());
-    return (copy?.textContent || '').replace(/\n{3,}/g, '\n\n').slice(0, 14000);
-  }
-
-  async function ask(q, action) {
-    const out = $('.sp-out');
-    if (!out) return;
-    const item = document.createElement('div');
-    item.className = 'sp-a';
-    item.innerHTML = `<div class="sp-q">${esc(q)}</div><div class="sp-r">Searching...</div>`;
-    out.prepend(item);
-    try {
-      if (!window.SSSAsk) throw new Error('Search engine is still loading — try again in a moment.');
-      const r = await window.SSSAsk.askSite(q, {
-        action, pageText: pageText(),
-        pageChecks: checks,
-        onLog: (m) => { item.querySelector('.sp-r').textContent = m; },
-      });
-      item.querySelector('.sp-r').innerHTML = window.SSSAsk.renderResultHTML(r);
-    } catch (e) {
-      item.querySelector('.sp-r').textContent = e.message;
-    }
-  }
-
   window.__ready(async () => {
     document.body.append(ui);
-    $('.sp-pre').innerHTML = (PRESETS[kind] || PRESETS.page).map(([t], i) => `<button type="button" data-i="${i}">${esc(t)}</button>`).join('');
-    $('.sp-pre').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) ask((PRESETS[kind] || PRESETS.page)[b.dataset.i][1], b.textContent === 'Checklist' ? 'checklist' : undefined); });
-    $('.sp-send').addEventListener('click', () => { const t = $('textarea').value.trim(); if (t) ask(t); });
-    $('textarea').addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); const t = $('textarea').value.trim(); if (t) ask(t); } });
-    $('.sp-clear').addEventListener('click', () => { $('.sp-out').innerHTML = ''; $('textarea').value = ''; });
-
-    // Sync AI loader & OAuth status into sidebar Ask tab
-    const aiSt = $('.sp-ai-st'), aiLoad = $('.sp-ai-load'), aiOauth = $('.sp-ai-oauth');
-    if (window.SSSAsk) {
-      window.SSSAsk.onStatus(({ mode, loading, msg }) => {
-        if (aiSt) aiSt.textContent = msg;
-        if (aiOauth) aiOauth.textContent = mode === 'openrouter' ? 'Disconnect' : 'Connect';
-        if (aiLoad) {
-          if (mode === 'web-ai' || mode === 'chrome-ai') { aiLoad.textContent = 'Local Ready'; aiLoad.disabled = true; }
-          else if (loading) { aiLoad.textContent = 'Loading...'; aiLoad.disabled = true; }
-          else { aiLoad.textContent = 'Local AI'; aiLoad.disabled = false; }
-        }
-      });
-    }
-    if (aiOauth) aiOauth.onclick = () => {
-      if (!window.SSSAsk) return;
-      if (window.SSSAsk.getState().mode === 'openrouter') window.SSSAsk.disconnectOAuth();
-      else window.SSSAsk.startOAuth();
-    };
-    if (aiLoad) aiLoad.onclick = () => { window.SSSAsk && window.SSSAsk.enableBrowserAI().catch(() => {}); };
-
     // Wire live calculators
     ['#c-ped-speed', '#c-buffer', '#c-start', '#c-offset', '#c-spd', '#c-lw', '#c-ch', '#c-sl', '#c-cd', '#c-wk', '#c-ssd-v'].forEach((id) => {
       const el = $(id);
@@ -348,7 +253,7 @@
     renderChecks();
     if (path.endsWith('/ask/')) {
       setOpen(true);
-      setTab('ask');
+      setTab('checks');
     } else {
       setOpen(ls.get(OPEN_KEY) === '1' || (ls.get(OPEN_KEY) === '' && checks.some((c) => c.sev === 'warn') && innerWidth > 1300));
     }

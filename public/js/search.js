@@ -72,7 +72,7 @@
     }
     return hits.length ? hits : available;
   }
-  async function direct(raw, facet = '', limit = 12) {
+  async function direct(raw, facet = '', limit = 12, match = 'all') {
     const {query, scope} = parse(raw, facet);
     if (!query) return [];
     if (sheetQualifier.test(query)) {
@@ -89,12 +89,13 @@
     for (const record of records) {
       if (window.SSSAgency && !window.SSSAgency.inScope(record.url)) continue;
       if (scope && scope !== record.tag) continue;
+      if(match==='exact' && !record.exact.includes(designation(query)) && designation(record.label)!==designation(query))continue;
       let score;
       if (record.exact.includes(designation(query))) score = 135;
       else if (record.keys.includes(code)) score = 120;
       else if (record.names === phrase) score = 110;
       else if (record.names.includes(phrase)) score = 78;
-      else if (words.every(w => record.hay.includes(w))) score = 55;
+      else if (words.every(w => record.hay.split(' ').some(term=>term===w || (w.length>=3 && term.startsWith(w))))) score = 55;
       else if (expanded && record.hay.includes(expanded)) score = 43;
       else if (code.length >= 2 && /\d/.test(code) && record.keys.some(k => k.startsWith(code))) score = 38;
       else continue;
@@ -142,6 +143,21 @@
   const status = document.getElementById('standards-status'), more = document.getElementById('standards-more');
   const params = new URLSearchParams(location.search);
   input.value = params.get('q') || ''; source.value = window.SSSAgency?.active ? '' : (params.get('source') || '');
+  const matching=form.elements.match, suggestions=document.getElementById('query-guesses');
+  matching.value=params.get('match')||'all';
+  const vocabulary=['accessible parking','bus stop','bus boarding island','bicycle lane','California MUTCD','crosswalk','curb ramp','delineator','driveway','intersection','pavement marking','pedestrian refuge','protected intersection','traffic signal','transit signal priority','turn pocket','yield line'];
+  const closeWord=(a,b)=>{let row=Array.from({length:b.length+1},(_,i)=>i);for(let i=1;i<=a.length;i++){let next=[i];for(let j=1;j<=b.length;j++)next[j]=Math.min(row[j]+1,next[j-1]+1,row[j-1]+Number(a[i-1]!==b[j-1]));row=next;}return row[b.length];};
+  async function complete(){const q=clean(input.value);suggestions.replaceChildren();if(q.length<2)return;
+    for(const term of vocabulary.filter(t=>t.includes(q)||closeWord(q,t)<=Math.min(2,Math.floor(q.length/3))).slice(0,7))suggestions.append(new Option(term,term));
+    try {
+      const {records}=await catalog();if(q!==clean(input.value))return;
+      const labels=new Set(Array.from(suggestions.options,o=>o.value));
+      const add=record=>{if((!source.value||record.tag===source.value)&&labels.size<10&&record.label.length<=105)labels.add(record.label);};
+      for(const record of records){if(record.names.startsWith(q)||record.exact.some(k=>k.startsWith(designation(input.value))))add(record);if(labels.size===10)break;}
+      suggestions.replaceChildren(...[...labels].map(t=>new Option(t,t)));
+    }catch{} }
+  input.addEventListener('input',complete);
+  matching.addEventListener('change',()=>{clearTimeout(timer);run();});
   let generation = 0, timer, ready = [], pages = [], seen, index, fullUnavailable, directUnavailable;
   function showRows(rows) {
     for (const hit of rows) {
@@ -173,13 +189,13 @@
   }
   async function run(restore = null) {
     const id = ++generation, q = input.value.trim(), scope = source.value;
-    history.replaceState({...history.state, searchReturn:null},'',urlFor(q,scope));
+    const dest=new URL(urlFor(q,scope),location.origin);if(matching.value!=='all')dest.searchParams.set('match',matching.value);history.replaceState({...history.state, searchReturn:null},'',dest);
     results.replaceChildren(); more.hidden=true; seen=new Set(); index=0;
     if (!q) { status.textContent='Enter a drawing number, section, or design question.'; return; }
     status.textContent='Searching…';
-    const matches = direct(q,scope,250);
+    const matches = direct(q,scope,250,matching.value);
     // An exact sheet has a verified destination and needs no full-text lookup.
-    const text = sheetQualifier.test(q)
+    const text = matching.value!=='all' ? Promise.resolve([]) : sheetQualifier.test(q)
       ? matches.then(hits => hits[0]?.sheetMatch ? [] : full(q,scope), () => full(q,scope))
       : full(q,scope);
     const [d,f] = await Promise.allSettled([matches, text]);

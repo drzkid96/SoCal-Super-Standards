@@ -1183,3 +1183,18 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .reg-contact img{display:block;width:100%;height:9rem;object-fit:contain;}
 :root:is([data-readerscale="75"],[data-readerscale="125"],[data-readerscale="150"]) .sl-markdown-content :is(.dfig,.mfig,.reading-example) > a:has(>img){display:block;overflow:auto;}
 :root:is([data-readerscale="75"],[data-readerscale="125"],[data-readerscale="150"]) .sl-markdown-content :is(.dfig,.mfig,.reading-example) > a > img{width:var(--regional-scale)!important;max-width:none;max-height:none!important;height:auto!important;object-fit:contain;}
+.home-columns{display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:1rem;margin:1rem 0;}
+.home-column{padding:clamp(.6rem,1.5vw,1.4rem);border:1px solid var(--sl-color-gray-5);border-radius:.65rem;}
+.home-column h2{font-size:1.3rem;margin:0 0 .5rem;}
+.home-column>a{display:block;padding:.32rem 0;}
+.home-map svg{display:block;width:100%;height:clamp(8rem,20vh,13rem);}
+.home-map path{fill:#adc7b8;stroke:white;stroke-width:1.5}
+.home-map a:hover path,.home-map a:focus path{fill:#38755e;}
+body:has(.home-columns) .hero{padding-block:clamp(1rem,3vh,2rem);}
+body:has(.home-columns) .hero h1{font-size:clamp(2rem,4vw,3.8rem);}
+.reference-actions,.book-reader,.export-tools{display:flex;flex-wrap:wrap;gap:.4rem;margin:.45rem 0;}
+.reference-actions button,.operator-book button,.book-reader a,.continuous-chapter+button{border:1px solid var(--sl-color-gray-5);border-radius:.35rem;background:var(--sl-color-bg);color:var(--sl-color-text);padding:.28rem .55rem;cursor:pointer;font-size:.8rem;}
+.operator-book input{width:5rem;}.operator-book iframe,.operator-book>img{display:block;width:100%;height:min(70vh,55rem);object-fit:contain;background:white;border:0;}
+.continuous-chapter{border-top:2px solid var(--sl-color-gray-5);margin-top:2rem;padding-top:1rem;}
+@media(max-width:40rem){.home-columns{grid-template-columns:1fr 1fr;gap:.4rem;}.home-column{padding:.55rem;}.home-map{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;align-items:center;}.home-map svg{grid-row:1/3;grid-column:2;max-height:6rem;}.home-column>a{font-size:.85rem;padding:.18rem 0;}}
+@media print{.reference-actions,.book-reader,.export-tools{display:none;}}

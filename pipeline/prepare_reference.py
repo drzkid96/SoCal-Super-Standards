@@ -178,6 +178,8 @@ for manual,other in [('mutcd','ca-mutcd'),('ca-mutcd','mutcd')]:
     path.write_text('\n'.join(lines)+'\n')
 from plan_examples import build as build_plan_examples
 build_plan_examples(root, look)
+from workbench import build as build_workbench
+build_workbench(root,look)
 from search_catalog import build as build_search_catalog
 build_search_catalog(root, look, current_details)
 

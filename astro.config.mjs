@@ -92,7 +92,7 @@ export default defineConfig({
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/jurisdiction.js?v=' + scriptVersion('jurisdiction'), defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/search.js?v=' + scriptVersion('search'), defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js?v=' + scriptVersion('site'), defer: true } },
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js?v=' + scriptVersion('agent'), defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/reference-tools.js?v=' + scriptVersion('reference-tools'), defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/sheets.js?v=' + scriptVersion('sheets'), defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/recent-pages.js?v=' + scriptVersion('recent-pages'), defer: true } },
         { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/reader-size.js?v=' + scriptVersion('reader-size'), defer: true } },
