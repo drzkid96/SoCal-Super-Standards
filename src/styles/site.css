@@ -1181,3 +1181,5 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .reg-contact:not([hidden]){display:grid;grid-template-columns:repeat(var(--chosen-cols,auto-fit),minmax(min(100%,10rem),1fr));gap:.65rem;margin:.75rem 0;}
 .reg-contact a{padding:.4rem;border:1px solid var(--sl-color-gray-5);font-size:.82rem;}
 .reg-contact img{display:block;width:100%;height:9rem;object-fit:contain;}
+:root:is([data-readerscale="75"],[data-readerscale="125"],[data-readerscale="150"]) .sl-markdown-content :is(.dfig,.mfig,.reading-example) > a:has(>img){display:block;overflow:auto;}
+:root:is([data-readerscale="75"],[data-readerscale="125"],[data-readerscale="150"]) .sl-markdown-content :is(.dfig,.mfig,.reading-example) > a > img{width:var(--regional-scale)!important;max-width:none;max-height:none!important;height:auto!important;object-fit:contain;}

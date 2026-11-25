@@ -25,15 +25,35 @@ def build(root, lookup):
     sections.extend(['Westwood also labels a proposed left-turn traffic-calming detail as pending. Its sheet supplies no installable geometry.',''])
     for key,(title,topic) in catalog['details'].items():
         groups[topic].append((key,title))
+    provisions={row['num']:row for row in json.loads(Path('data/ca-mutcd/sections.json').read_text())}
+    section_numbers=['9E.03','9E.11','3B.19','3B.27','9E.17','9E.07','9E.07','3H.06',
+                     '2G.05','2G.05','9E.17','9E.06','3H.06','3B.19','3B.19','3B.27',
+                     '3B.29','9E.07','9E.07','9E.07','2D.10']
+    related=defaultdict(list)
     for topic,items in groups.items():
         label=topic.replace('-',' ').title()
         sections.extend(['## '+label,''])
         cards=[]
         for key,title in items:
+            number=section_numbers[ord(key[-1])-ord('a')]
+            provision=provisions[number]
             sections.append(figure(key,title))
+            sections.append(f'[CA MUTCD § {number} · {provision["title"]}]({provision["url"]})')
+            related[number].append(f'[{title}]({target}#{key})')
             cards.append(f'- [{title}]({target}#{key})')
             lookup.setdefault(title,[]).append([title,target+'#'+key])
         append(root/'topics'/(topic+'.md'),'## Signing and striping plan details\n\n'+'\n'.join(cards))
+    for number,links in related.items():
+        url=provisions[number]['url']
+        chapter,anchor=url.split('#')
+        path=root/(chapter.removeprefix(BASE+'/').rstrip('/')+'.md')
+        body=path.read_text()
+        start=body.find('id="'+anchor+'"')
+        if start<0: raise ValueError('Missing manual section '+number)
+        stop=body.find('<span id="',start+len(anchor)+5)
+        if stop<0:stop=len(body)
+        example='\n\n**Related plan details** · '+' · '.join(links)+'\n\n'
+        path.write_text(body[:stop]+example+body[stop:])
     sections.extend(['## Sign faces and variants','','The legend beneath each face reproduces its plan designation. A modified legend, time restriction, or arrow can differ from the catalog face.',''])
     def family(code):
         if code.startswith(('OM','W','SW')):return 'Warning signs and object markers'
