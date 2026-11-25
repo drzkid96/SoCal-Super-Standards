@@ -86,9 +86,32 @@ def footnotes(doc):
             link.text = n
 
 
+BLOCKS = {'p','li','td','dd','blockquote'}
+
+
+def thumbnails(wanted):
+    """Show each cited drawing as a small linked preview under the paragraph that cites it."""
+    for block,figures in wanted.items():
+        strip = html.Element('div')
+        strip.set('class','boe-fig-strip')
+        for code,(target,(src,alt)) in figures.items():
+            link = etree.SubElement(strip,'a',href=target)
+            link.set('class','boe-fig-thumb')
+            link.set('aria-label',f'Go to Figure E {code}')
+            image = etree.SubElement(link,'img',src=src,alt=alt or f'Figure E {code}')
+            image.set('loading','lazy')
+            label = etree.SubElement(link,'span')
+            label.text = f'Fig. E {code}'
+        if block.tag in ('p','blockquote'):
+            block.addnext(strip)
+        else:
+            block.append(strip)
+
+
 def prepare(documents):
     # The Drupal export uses formatting-only spans even in the middle of figure numbers.
     sources = defaultdict(dict)
+    thumbs = defaultdict(dict)
     for url,doc in documents.items():
         for span in doc.xpath('.//span[not(@*)]'):
             span.drop_tag()
@@ -107,6 +130,7 @@ def prepare(documents):
             anchor = figure.get('id') or 'boe-figure-'+re.sub(r'[^a-z0-9]+','-',code.lower()).strip('-')
             figure.set('id',anchor)
             sources[code][url] = url+'#'+anchor
+            thumbs[code][url] = (src, ' '.join((image.get('alt') or '').split()))
             caption = figure.find('figcaption')
             if caption is not None:
                 caption.text = f'Figure E {code} · '+(caption.text or '')
@@ -137,6 +161,7 @@ def prepare(documents):
                     notice.text = 'Legacy reference'
                     marker.getparent().addnext(notice)
 
+        wanted = {}
         for node in list(text_nodes(doc)):
             matches = []
             for m in REFERENCE.finditer(node):
@@ -152,4 +177,10 @@ def prepare(documents):
                     link.set('class','boe-figure-ref')
                     link.text=m[0]
                     matches.append((m.start(),m.end(),link))
+                    cited = next(u for u in (url,*locations) if locations.get(u)==target)
+                    owner = node.getparent().getparent() if node.is_tail else node.getparent()
+                    block = next((el for el in (owner,*owner.iterancestors()) if el.tag in BLOCKS),None)
+                    if block is not None:
+                        wanted.setdefault(block,{}).setdefault(code,(target,thumbs[code][cited]))
             substitute(node,matches)
+        thumbnails(wanted)

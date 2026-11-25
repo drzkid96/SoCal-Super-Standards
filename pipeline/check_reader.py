@@ -115,6 +115,10 @@ for url in manual_pages:
         matches = chapters[dest].xpath('//*[@id=$id]',id=fragment)
         assert len(matches)==1 and (matches[0].tag=='img' or matches[0].xpath('.//img[@src]')), anchor.get('href')
     figure_links += len(refs)
+    for anchor in refs:
+        block = next(el for el in (anchor, *anchor.iterancestors()) if el.tag in ('p','li','td','dd','blockquote'))
+        strip = block.getnext() if block.tag in ('p','blockquote') else block.xpath('./div[@class="boe-fig-strip"]')[0]
+        assert strip is not None and strip.get('class') == 'boe-fig-strip' and strip.xpath('.//a[@class="boe-fig-thumb"][@href=$h]/img[@src]', h=anchor.get('href')), (url, anchor.get('href'))
     notes = article.xpath('.//sup/a[starts-with(@href,"#boe-note-")]')
     for anchor in notes:
         assert article.xpath('.//li[@id=$id]',id=anchor.get('href')[1:]), (url, anchor.get('href'))
