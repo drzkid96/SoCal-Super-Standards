@@ -28,3 +28,15 @@ Pages deployment first runs `python pipeline/import_boe.py` (requires lxml) to t
 The BOE section archive at `data/reference/boe-street-design.zip` is checked in so local builds include the same manual as the deployed site. The Pages build refreshes it against City sources. For FHWA Releases 5 and 6, run `python pipeline/render_fhwa_sheets.py .fhwa-releases` with PyMuPDF and Pillow before a local build to include the full-width sheet previews. Each sign entry also links to its official source. The rendering command verifies the three source PDFs against their reviewed checksums.
 
 To refresh California provision metadata, supply the individual chapter PDFs and both official contents PDFs to `pipeline/index_pdf_sources.py`. The small provision number beside each paragraph opens the Caltrans source page.
+
+### Geographic index and source snapshots
+
+Open the project map from the home page or a jurisdiction profile. An intersection search accepts two street names and an optional city, for example `Holly St & Arroyo Pkwy, Pasadena`. A single street name opens its intersecting streets. The map accepts latitude and longitude, works with local boundary data, and links the selected place, road ownership category, and stop operators to the standards catalog. Street and USGS aerial basemaps are optional network layers.
+
+The first Pages build compiles the seven counties from public agency sources. Later builds restore the compiled databases from the Actions cache, keyed by the importer and pinned editions. Opening an article or the home page does not load the map engine or the geographic databases. The map loads regional boundaries and uses a worker to open SQLite partitions by county or bounding box. No server process or API key is required.
+
+The stable discovery endpoint is `api/v2/index.json`. It lists the authority directory, design topics, publication hierarchy, and site SQLite index. The geographic manifest gives file names, sizes, counts, source editions, and partition bounds. Within the site index, join `agency_reference` and `agency_topic_reference` to `reference` by URL. The layer and SQL documentation is available at `map/data/`.
+
+For a new geographic release install GDAL (including `ogr2ogr`), `pyshp==2.3.1`, and `shapely>=2,<3`. Run `python pipeline/atlas/compile.py` before `npm run build`. Set `SSS_ATLAS_CACHE` to reuse a local source directory. The compiler verifies the pinned Census county files and FHWA archive members, checks ArcGIS object IDs for complete responses, and checks SQLite integrity before packaging. Agency boundaries use state identifiers. Intersections use shared Census topology nodes, and the state highway and HPMS ownership inventories remain separate. Source editions can differ. The release is an index for design research and permitting coordination.
+
+The compiler also runs `pipeline/atlas/operator_feeds.py`. It pairs each multi-operator record with native GTFS trips and stop times, retaining the original feed group when the stop location or route set differs.

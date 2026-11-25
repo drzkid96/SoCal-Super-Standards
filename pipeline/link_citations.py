@@ -81,7 +81,7 @@ for page in DIST.rglob('*.html'):
     illustrated = set()
     paragraph_start = None
     family = page.relative_to(DIST).parts[0]
-    reading = family not in {'keywords','search','sources','signs'} and 'class="inline-examples"' not in body
+    reading = family not in {'keywords','search','sources','signs','map'} and 'class="inline-examples"' not in body
     for token in tag_split.split(body):
         if token.startswith('<'):
             tag=re.match(r'</?([\w-]+)',token)

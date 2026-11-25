@@ -16,3 +16,12 @@ public/data/search-catalog.json
 public/regional-sheets/
 public/data/agency-modes.json
 public/data/region-map.svg
+
+.atlas-cache/
+public/api/v2/
+public/vendor/atlas/
+
+/public/api/
+/public/vendor/atlas/
+/.santa-monica-art/
+/.transit-sources/

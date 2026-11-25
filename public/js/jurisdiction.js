@@ -30,7 +30,8 @@
     try { if(active)localStorage.setItem(store,active);else localStorage.removeItem(store); } catch {}
   }
   const searchPath=base+'/search/';
-  if(active && !inScope(location.href) && location.pathname!==searchPath){
+  const mapPath=base+'/map/';
+  if(active && !inScope(location.href) && location.pathname!==searchPath && !location.pathname.startsWith(mapPath)){
     location.replace(modes[active].home+'?agency='+encodeURIComponent(active)); return;
   }
   const select=document.querySelector('#agency-mode');
@@ -52,7 +53,7 @@
     document.querySelectorAll('.title-wrapper a').forEach(a=>a.href=modes[active].home);
     document.querySelectorAll('main a[href]').forEach(a=>{
       const dest=new URL(a.href);
-      if(dest.origin!==location.origin || !dest.pathname.startsWith(base+'/') || !dest.pathname.endsWith('/') || inScope(a.href) || dest.pathname===searchPath)return;
+      if(dest.origin!==location.origin || !dest.pathname.startsWith(base+'/') || !dest.pathname.endsWith('/') || inScope(a.href) || dest.pathname===searchPath || dest.pathname.startsWith(mapPath))return;
       const card=a.closest('figure,.dx-card,.pbig,.scard,li');
       if(card && !card.closest('.prov,.dtext'))card.hidden=true;
       else a.replaceWith(document.createTextNode(a.textContent));

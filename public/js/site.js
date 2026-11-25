@@ -803,3 +803,39 @@ window.__ready(() => {
     if (!terms.length) prior = null;
   });
 });
+
+// Use the published anchors, including raw publisher headings whose IDs live on a parent.
+window.__ready(() => {
+  const control=document.querySelector('.section-jump');
+  const article=document.querySelector('.sl-markdown-content');
+  if(!control || !article || article.querySelector('[data-atlas]'))return;
+  const select=control.querySelector('select');
+  const groups=[...article.querySelectorAll('h2')].filter(h=>!h.closest('details,.reg-page,.operator-book,.publication,.dfig,[hidden]'));
+  for(const h of groups){
+    const name=h.textContent.replace(/\s+/g,' ').trim();
+    if(!name)continue;
+    let target=h.id || h.closest('section[id]')?.id;
+    if(!target){
+      let i=1;do{target='read-section-'+i++;}while(document.getElementById(target));
+      h.id=target;
+    }
+    select.add(new Option(name,target));
+  }
+  if(select.options.length<3)return;
+  control.hidden=false;
+  select.onchange=()=>{if(select.value)location.hash=encodeURIComponent(select.value);};
+  const sync=()=>{let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}select.value=[...select.options].some(opt=>opt.value===id)?id:'';};
+  sync();window.addEventListener('hashchange',sync);
+});
+
+window.__ready(() => {
+  const reader=document.querySelector('[data-publisher-pdf]');
+  if(!reader)return;
+  const input=reader.querySelector('input'),frame=document.createElement('iframe');
+  frame.title='Riverside Transit Agency Bus Stop Design Guidelines';
+  reader.querySelector('button').onclick=()=>{
+    const page=Math.max(1,Math.min(Number(reader.dataset.pages),Number.parseInt(input.value,10)||1));
+    input.value=String(page);frame.src=reader.dataset.publisherPdf+'#page='+page+'&view=FitH';
+    reader.querySelector('div').replaceChildren(frame);
+  };
+});

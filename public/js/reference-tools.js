@@ -1,6 +1,6 @@
 (() => {
   const base='/SoCal-Super-Standards', article=document.querySelector('.sl-markdown-content');
-  if(!article || location.pathname===base+'/' || location.pathname===base+'/search/')return;
+  if(!article || article.querySelector('[data-atlas]') || location.pathname===base+'/' || location.pathname===base+'/search/')return;
   const heading=document.querySelector('h1')?.textContent.trim() || document.title.split('|')[0];
   const manual=location.pathname.includes('/ca-mutcd/')?'Caltrans · California MUTCD 2026':location.pathname.includes('/mutcd/')?'FHWA · MUTCD 11th Edition Revision 1':'';
   const title=manual ? manual+' · '+heading : heading;

@@ -180,6 +180,8 @@ from plan_examples import build as build_plan_examples
 build_plan_examples(root, look)
 from workbench import build as build_workbench
 build_workbench(root,look)
+from atlas_site import prepare as prepare_atlas, finish as finish_atlas
+atlas_profiles=prepare_atlas(root,look)
 from search_catalog import build as build_search_catalog
 build_search_catalog(root, look, current_details)
 
@@ -187,3 +189,5 @@ from project_photos import place
 place(root)
 from publication_layout import build as build_publication_layout
 build_publication_layout(root)
+
+finish_atlas(root,atlas_profiles)

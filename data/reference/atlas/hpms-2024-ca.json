@@ -1,0 +1,426 @@
+{
+ "item": "5e6a977c2d7c4ec1bdc82e684d3384f2",
+ "archiveBytes": 2623940113,
+ "layer": "HPMS_FULL_CA_2024",
+ "groups": [
+  [
+   {
+    "name": "a00000001.gdbindexes",
+    "start": 43,
+    "compressed": 79,
+    "size": 110,
+    "crc": 2529943236
+   },
+   {
+    "name": "a00000001.gdbtable",
+    "start": 185,
+    "compressed": 380,
+    "size": 1724,
+    "crc": 603380498
+   },
+   {
+    "name": "a00000001.gdbtablx",
+    "start": 626,
+    "compressed": 183,
+    "size": 5152,
+    "crc": 1785240125
+   },
+   {
+    "name": "a00000001.TablesByName.atx",
+    "start": 870,
+    "compressed": 640,
+    "size": 24598,
+    "crc": 3527415333
+   },
+   {
+    "name": "a00000002.gdbtable",
+    "start": 1579,
+    "compressed": 643,
+    "size": 2055,
+    "crc": 1868924595
+   },
+   {
+    "name": "a00000002.gdbtablx",
+    "start": 2283,
+    "compressed": 132,
+    "size": 5152,
+    "crc": 2165908499
+   },
+   {
+    "name": "a00000003.gdbindexes",
+    "start": 2476,
+    "compressed": 32,
+    "size": 42,
+    "crc": 279189289
+   },
+   {
+    "name": "a00000003.gdbtable",
+    "start": 2571,
+    "compressed": 337,
+    "size": 758,
+    "crc": 2010738183
+   },
+   {
+    "name": "a00000003.gdbtablx",
+    "start": 2969,
+    "compressed": 41,
+    "size": 5152,
+    "crc": 788637825
+   },
+   {
+    "name": "a00000004.CatItemsByPhysicalName.atx",
+    "start": 3071,
+    "compressed": 483,
+    "size": 20502,
+    "crc": 459358352
+   },
+   {
+    "name": "a00000004.CatItemsByType.atx",
+    "start": 3633,
+    "compressed": 227,
+    "size": 4118,
+    "crc": 1015422946
+   },
+   {
+    "name": "a00000004.FDO_UUID.atx",
+    "start": 3931,
+    "compressed": 1343,
+    "size": 4118,
+    "crc": 1609411650
+   },
+   {
+    "name": "a00000004.gdbindexes",
+    "start": 5339,
+    "compressed": 132,
+    "size": 310,
+    "crc": 548459433
+   },
+   {
+    "name": "a00000004.gdbtable",
+    "start": 5534,
+    "compressed": 271616,
+    "size": 2723268,
+    "crc": 2739332304
+   },
+   {
+    "name": "a00000004.gdbtablx",
+    "start": 277211,
+    "compressed": 278,
+    "size": 5152,
+    "crc": 3038768949
+   },
+   {
+    "name": "a00000004.horizon",
+    "start": 277550,
+    "compressed": 18,
+    "size": 32,
+    "crc": 810610692
+   },
+   {
+    "name": "a00000004.spx",
+    "start": 277628,
+    "compressed": 354,
+    "size": 176150,
+    "crc": 1789897012
+   },
+   {
+    "name": "a00000005.CatItemTypesByName.atx",
+    "start": 278038,
+    "compressed": 593,
+    "size": 12310,
+    "crc": 3850639570
+   },
+   {
+    "name": "a00000005.CatItemTypesByParentTypeID.atx",
+    "start": 278706,
+    "compressed": 297,
+    "size": 4118,
+    "crc": 2295687362
+   },
+   {
+    "name": "a00000005.CatItemTypesByUUID.atx",
+    "start": 279086,
+    "compressed": 986,
+    "size": 4118,
+    "crc": 473745867
+   },
+   {
+    "name": "a00000005.gdbindexes",
+    "start": 280147,
+    "compressed": 114,
+    "size": 296,
+    "crc": 2175196442
+   },
+   {
+    "name": "a00000005.gdbtable",
+    "start": 280324,
+    "compressed": 1268,
+    "size": 2071,
+    "crc": 3003294201
+   },
+   {
+    "name": "a00000005.gdbtablx",
+    "start": 281653,
+    "compressed": 138,
+    "size": 5152,
+    "crc": 3890784235
+   },
+   {
+    "name": "a00000006.CatRelsByDestinationID.atx",
+    "start": 281852,
+    "compressed": 1293,
+    "size": 4118,
+    "crc": 2400879243
+   },
+   {
+    "name": "a00000006.CatRelsByOriginID.atx",
+    "start": 283224,
+    "compressed": 175,
+    "size": 4118,
+    "crc": 1014368476
+   },
+   {
+    "name": "a00000006.CatRelsByType.atx",
+    "start": 283473,
+    "compressed": 173,
+    "size": 4118,
+    "crc": 897755909
+   },
+   {
+    "name": "a00000006.FDO_UUID.atx",
+    "start": 283716,
+    "compressed": 1296,
+    "size": 4118,
+    "crc": 3241753946
+   },
+   {
+    "name": "a00000006.gdbindexes",
+    "start": 285077,
+    "compressed": 128,
+    "size": 318,
+    "crc": 297724318
+   },
+   {
+    "name": "a00000006.gdbtable",
+    "start": 285268,
+    "compressed": 2082,
+    "size": 3986,
+    "crc": 1227136948
+   },
+   {
+    "name": "a00000006.gdbtablx",
+    "start": 287411,
+    "compressed": 154,
+    "size": 5152,
+    "crc": 1249916837
+   },
+   {
+    "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+    "start": 287626,
+    "compressed": 454,
+    "size": 12310,
+    "crc": 4240263739
+   },
+   {
+    "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+    "start": 288163,
+    "compressed": 327,
+    "size": 4118,
+    "crc": 3768853111
+   },
+   {
+    "name": "a00000007.CatRelTypesByForwardLabel.atx",
+    "start": 288574,
+    "compressed": 334,
+    "size": 12310,
+    "crc": 3072645628
+   },
+   {
+    "name": "a00000007.CatRelTypesByName.atx",
+    "start": 288990,
+    "compressed": 485,
+    "size": 12310,
+    "crc": 2209399044
+   },
+   {
+    "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+    "start": 289549,
+    "compressed": 498,
+    "size": 4118,
+    "crc": 1368499448
+   },
+   {
+    "name": "a00000007.CatRelTypesByUUID.atx",
+    "start": 290133,
+    "compressed": 681,
+    "size": 4118,
+    "crc": 500580306
+   },
+   {
+    "name": "a00000007.gdbindexes",
+    "start": 290888,
+    "compressed": 174,
+    "size": 602,
+    "crc": 3251437668
+   },
+   {
+    "name": "a00000007.gdbtable",
+    "start": 291125,
+    "compressed": 1687,
+    "size": 3626,
+    "crc": 671993229
+   },
+   {
+    "name": "a00000007.gdbtablx",
+    "start": 292873,
+    "compressed": 116,
+    "size": 5152,
+    "crc": 3699519756
+   },
+   {
+    "name": "a00000009.EditingTemplatesByDatasetGUID.atx",
+    "start": 293050,
+    "compressed": 33,
+    "size": 4118,
+    "crc": 838644589
+   },
+   {
+    "name": "a00000009.EditingTemplatesByName.atx",
+    "start": 293169,
+    "compressed": 34,
+    "size": 4118,
+    "crc": 2603126266
+   },
+   {
+    "name": "a00000009.EditingTemplatesByType.atx",
+    "start": 293282,
+    "compressed": 34,
+    "size": 4118,
+    "crc": 287571807
+   },
+   {
+    "name": "a00000009.FDO_GlobalID.atx",
+    "start": 293395,
+    "compressed": 33,
+    "size": 4118,
+    "crc": 838644589
+   },
+   {
+    "name": "a00000009.gdbindexes",
+    "start": 293497,
+    "compressed": 134,
+    "size": 378,
+    "crc": 3660012233
+   },
+   {
+    "name": "a00000009.gdbtable",
+    "start": 293694,
+    "compressed": 200,
+    "size": 334,
+    "crc": 1915354012
+   },
+   {
+    "name": "a00000009.gdbtablx",
+    "start": 293955,
+    "compressed": 9,
+    "size": 32,
+    "crc": 4221537549
+   },
+   {
+    "name": "a0000000a.EditingTemplateRelsByDestinationID.atx",
+    "start": 294025,
+    "compressed": 33,
+    "size": 4118,
+    "crc": 838644589
+   },
+   {
+    "name": "a0000000a.EditingTemplateRelsByOriginID.atx",
+    "start": 294149,
+    "compressed": 33,
+    "size": 4118,
+    "crc": 838644589
+   },
+   {
+    "name": "a0000000a.EditingTemplateRelsByType.atx",
+    "start": 294268,
+    "compressed": 34,
+    "size": 4118,
+    "crc": 287571807
+   },
+   {
+    "name": "a0000000a.gdbindexes",
+    "start": 294384,
+    "compressed": 136,
+    "size": 344,
+    "crc": 1931564489
+   },
+   {
+    "name": "a0000000a.gdbtable",
+    "start": 294583,
+    "compressed": 77,
+    "size": 127,
+    "crc": 2455977458
+   },
+   {
+    "name": "a0000000a.gdbtablx",
+    "start": 294721,
+    "compressed": 9,
+    "size": 32,
+    "crc": 4221537549
+   }
+  ],
+  [
+   {
+    "name": "a0000000f.gdbindexes",
+    "start": 217129844,
+    "compressed": 67,
+    "size": 116,
+    "crc": 1731915611
+   },
+   {
+    "name": "a0000000f.gdbtable",
+    "start": 217129974,
+    "compressed": 112361556,
+    "size": 225880988,
+    "crc": 1004049869
+   },
+   {
+    "name": "a0000000f.gdbtablx",
+    "start": 329491591,
+    "compressed": 2427772,
+    "size": 4792352,
+    "crc": 1105552790
+   },
+   {
+    "name": "a0000000f.horizon",
+    "start": 331919424,
+    "compressed": 18,
+    "size": 32,
+    "crc": 810610692
+   },
+   {
+    "name": "a0000000f.spx",
+    "start": 331919502,
+    "compressed": 1934868,
+    "size": 13013014,
+    "crc": 1765662848
+   }
+  ],
+  [
+   {
+    "name": "gdb",
+    "start": 2623904203,
+    "compressed": 4,
+    "size": 4,
+    "crc": 379203374
+   },
+   {
+    "name": "timestamps",
+    "start": 2623904253,
+    "compressed": 33,
+    "size": 400,
+    "crc": 796012860
+   }
+  ]
+ ]
+}

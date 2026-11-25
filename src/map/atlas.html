@@ -1,0 +1,20 @@
+<div class="atlas" data-atlas="%%BASE%%">
+  <form class="atlas-search" role="search" aria-label="Find a project location">
+    <label for="atlas-query">Project location</label>
+    <div class="atlas-fields"><input id="atlas-query" name="location" type="search" placeholder="Holly St &amp; Arroyo Pkwy, Pasadena" autocomplete="off" maxlength="200"><select aria-label="Search county" id="atlas-county"></select><button type="submit">Find location</button></div>
+    <p class="atlas-hint">Search a street, intersection, city, transit stop, or coordinates. You can also select a point on the map.</p>
+    <div id="atlas-results" aria-live="polite"></div>
+  </form>
+  <div class="atlas-workspace">
+    <div class="atlas-cartography"><div id="atlas-map" tabindex="0" aria-label="Southern California project map"></div>
+      <div class="atlas-options"><label>Basemap <select id="atlas-basemap"><option value="street">OpenStreetMap</option><option value="aerial">USGS aerial</option><option value="local">Boundaries only</option></select></label>
+        <label><input type="checkbox" id="atlas-cities" checked>City limits</label><label><input type="checkbox" id="atlas-highways" checked>State highways</label><label><input type="checkbox" id="atlas-stops" checked>Transit stops</label></div>
+      <p class="atlas-layer-status" id="atlas-layer-status" role="status"></p>
+    </div>
+    <aside class="atlas-report" aria-label="Location and standards"><div id="atlas-summary" aria-live="polite"></div><label class="atlas-topic">Design topic <select id="atlas-topic"><option value="">All design topics</option></select></label><div id="atlas-context" aria-busy="false"></div></aside>
+  </div>
+  <footer class="atlas-footer"><a href="%%BASE%%/regions/">Jurisdiction directory</a><a href="%%BASE%%/map/data/">Sources and database downloads</a><a href="%%BASE%%/api/v2/index.json">Geographic API</a></footer>
+</div>
+<noscript><p>Use the <a href="%%BASE%%/regions/">county and agency directory</a> to browse standards without JavaScript.</p></noscript>
+<link rel="stylesheet" href="%%BASE%%/vendor/atlas/leaflet.css">
+<script type="module" src="%%BASE%%/js/atlas/map.js"></script>

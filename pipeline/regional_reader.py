@@ -25,10 +25,13 @@ def subject(record):
 
 def build(root,lookup):
     docs=prepare()
+    from topic_reader import PATTERNS
+    titles=json.loads(Path('data/reference/atlas/regional-sheet-titles.json').read_text())
+    patterns={k:re.compile(v,re.I) for k,v in PATTERNS.items()}
     by=defaultdict(list)
     for d in docs:by[d['agency']].append(d)
     la=['Burbank','Pasadena','Long Beach','Palmdale','Torrance','Gardena','Glendora','Santa Monica','West Hollywood','Culver City']
-    counties={'Ventura':['Ventura County','Oxnard'],'Los Angeles':['LADOT','LA BOE',*la],
+    counties={'Ventura':['Ventura County','Oxnard'],'Los Angeles':['Los Angeles County Public Works','LADOT','LA BOE',*la],
       'Orange':['Orange County Public Works','Anaheim','Irvine','Santa Ana','Huntington Beach','OCTA'],
       'San Bernardino':['San Bernardino County','City of San Bernardino','Ontario','Fontana'],
       'Riverside':['Riverside County','City of Riverside','Moreno Valley'],
@@ -58,12 +61,17 @@ def build(root,lookup):
             body=[f'<p class="reg-credit">{escape(name)} · {count} pages · <a href="{escape(d["source"])}">Publisher PDF</a></p>',
                   '<div class="reg-controls" hidden><button type="button" data-step="-1">← Previous</button><label>Page <select aria-label="Select sheet"></select></label><button type="button" data-step="1">Next →</button><button type="button" class="reg-overview" aria-expanded="false">Sheet grid</button></div><div class="reg-contact" hidden></div>']
             for i,(label,txt) in enumerate(zip(d['labels'],d['texts'],strict=True),1):
+                label=titles.get(d['key'],{}).get(str(i),label)
                 img=f'{BASE}/regional-sheets/{d["key"]}/{i}.avif'
                 heading=f'Page {i}'+(' · '+label[:110] if label else '')
                 body.append(f'<section class="reg-page" id="p-{i}" data-label="{escape(heading,quote=True)}"><h2>{escape(heading)}</h2><a href="{img}" class="reg-scan" data-title="{escape(title,quote=True)}, page {i}">Open full sheet image</a><p><a href="{url}#p-{i}">Link to this page</a> · <a href="{escape(d["source"])}#page={i}">Publisher PDF, page {i}</a></p>')
                 if txt:body.append('<details><summary>Searchable page text</summary><p>'+escape(txt)+'</p></details>')
                 body.append('</section>')
-                if label:lookup.setdefault(name+' '+label[:100],[]).append([name+' · '+heading,url+'#p-'+str(i)])
+                ref=url+'#p-'+str(i)
+                listing=[name+' · '+(heading if label else title+' · p. '+str(i)),ref]
+                lookup.setdefault(name+' '+(label[:100] if label else title+' p. '+str(i)),[]).append(listing)
+                for topic,pattern in patterns.items():
+                    if pattern.search(txt):lookup.setdefault(name+' · '+topic,[]).append(listing)
             write(root,route,name+' · '+title,'\n'.join(body))
         lines+=['','## Search this collection','','<div class="agency-browser" data-agency="'+key+'"><input aria-label="Filter collection" placeholder="Filter by title or identifier"><div role="status"></div><ul></ul><button hidden>More results</button></div>']
         write(root,'regions/'+key,name,'\n'.join(lines))

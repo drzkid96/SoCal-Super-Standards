@@ -63,7 +63,7 @@ export default defineConfig({
     } } },
     starlight({
       title: 'SoCal Super Standards',
-      description: 'Searchable traffic engineering standards for Southern California: CA MUTCD 2026, federal MUTCD, Caltrans 2026, LADOT, and 10 LA County cities.',
+      description: 'Searchable traffic engineering standards for Southern California: search by project location, agency, guide, topic or drawing.',
       customCss: [
         '@fontsource/albert-sans/400.css',
         '@fontsource/albert-sans/500.css',
@@ -72,6 +72,7 @@ export default defineConfig({
         '@fontsource/albert-sans/400-italic.css',
         '@fontsource/albert-sans/700-italic.css',
         './src/styles/site.css',
+        './src/styles/atlas.css',
       ],
       social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/drzkid96/SoCal-Super-Standards' }],
       lastUpdated: false,

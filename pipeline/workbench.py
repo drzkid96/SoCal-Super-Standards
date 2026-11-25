@@ -15,6 +15,7 @@ def build(root,lookup):
     intro=['Choose the operator serving the stop. Use its guide alongside the street owner’s drawings and the applicable accessibility provisions.','']
     modes=json.loads(Path('public/data/agency-modes.json').read_text())
     instructions={
+       'ictc':'Use the on-street bus stop and transfer station chapters for Imperial Valley Transit projects. The handbook includes a stop relocation checklist.',
        'gold-coast':'Use the stop classification and amenity guidance when reviewing projects with the operator and the street owner.',
        'la-metro':'Start with the service design chapter for stop location, transfer movements and zone layout.',
        'octa':'Follow the street design and stop layout guidance from network planning to the curbside footprint.',
@@ -37,12 +38,17 @@ def build(root,lookup):
                         pix=page.get_pixmap(matrix=pymupdf.Matrix(1150/max(page.rect.width,page.rect.height),1150/max(page.rect.width,page.rect.height)),alpha=False)
                         Image.frombytes('RGB',(pix.width,pix.height),pix.samples).save(dest,'WEBP',quality=71)
                 toc=[(n,t,p) for n,t,p in doc.get_toc() if 1<=p<=len(doc)]
+                if key=='ictc':
+                    toc=[(1,t,n) for n,t in [(8,'Introduction'),(10,'Need and purpose'),(12,'Sustainability and transit-oriented development'),(14,'Transit vehicles'),(22,'On-street bus stops'),(40,'Off-street transfer stations'),(56,'Appendices and checklists')]]
                 if key=='la-metro':
                     toc=[(1,t,n) for n,t in [(7,'Introduction and purpose'),(11,'Bus system design'),(15,'Bus service design guidelines'),(38,'Bus service performance evaluation'),(42,'Metro Micro'),(48,'Customer information and amenities'),(54,'Service change process')]]
                 if key=='mts':
                     toc=[(1,t,n) for n,t in [(9,'Introduction'),(17,'Making transit work better for your community'),(31,'Transit-oriented communities'),(45,'Design standards for bus transit'),(63,'Development around light rail transit')]]
                 groups=sorted(set([1]+[p for n,t,p in toc if n==1]))
                 body.append(f'<div class="operator-book" data-pdf="{BASE}/transit-publications/{key}.pdf" data-sections="{",".join(map(str,groups))}" data-count="{len(doc)}" data-images="{BASE}/operator-pages/{key}/"><label>Page <input type="number" min="1" max="{len(doc)}" value="1"></label> of {len(doc)} <button type="button" data-turn="-1">Previous</button> <button type="button" data-turn="1">Next</button><div class="export-tools"></div><img alt="{escape(title)} · source page" src="{BASE}/operator-pages/{key}/1.webp"></div>')
+                for level, title_in_book, page_no in toc:
+                    if level<=2:
+                        lookup.setdefault(name+' '+title_in_book,[]).append([name+' · '+title_in_book,url+'#page-'+str(page_no)])
                 if toc:body+=['','## Contents','']+[f'- [{escape(t)}](#page-{p})' for n,t,p in toc if n<=2]
                 body+=['','## Find a source page','']
                 for i,page in enumerate(doc,1):
@@ -52,7 +58,22 @@ def build(root,lookup):
         elif key!='riverside-transit':
             body+=['','## Publisher edition','',f'[Read the complete {name} publication]({source}).']
         else:
-            body+=['','## Review by task','','- Development review · Chapter 2 identifies the project information RTA reviews.','- Vehicle fit · Chapter 3 covers fleet and street geometry.','- Stop placement · Chapter 4 covers spacing, pads and curbside configurations.','- Priority treatments · Chapter 5 covers queue jumps, signal priority and dedicated lanes.','- Boarding and amenities · Chapter 6 covers the boarding area, identification, benches and shelters.','- Submittal checks · Appendices A and B include the transit compatibility checklist and bus dimensions.','','## Source sections','','The publication covers stop placement, design and passenger amenities. [Open the 52-page agency PDF]('+source+').']
+            sections=[
+                (7,'Development review','Gather the project information RTA uses to review proposed stop changes.'),
+                (14,'Transit vehicle clearance','Check the design vehicle and its envelope before fixing the curb return.'),
+                (15,'Bus turning movements','Review the swept path where a route turns or enters an off-street facility.'),
+                (23,'Bus stop spacing and pads','Compare the stop spacing table and the concrete pad cross section.'),
+                (28,'Queue jumps and signal priority','Review the relationship between a bus bypass lane and the signal operation.'),
+                (31,'Bus stop signage','Check visibility for approaching operators and waiting riders.'),
+                (32,'Passenger amenities and accessibility','Review the boarding area, shelter, and accessible passenger path together.'),
+                (43,'Transit compatibility checklist','Use the operator checklist when coordinating development review.')]
+            body+=['<section class="publisher-reader" data-publisher-pdf="'+escape(source,quote=True)+'" data-pages="52"><p>August 2015 · 52 pages</p><label>PDF page <input type="number" value="1" min="1" max="52"></label> <button type="button">View publisher page</button><div></div></section>']
+            body+=['','## Review by task','','The August 2015 edition has 52 pages. Each entry opens the corresponding page in the publisher’s PDF.','']
+            for n,label,summary in sections:
+                chapter_id='page-'+str(n)
+                body+=['<section id="'+chapter_id+'"><h3>'+escape(label)+'</h3><p>'+summary+'</p><a href="'+source+'#page='+str(n)+'">Publisher PDF · p. '+str(n)+'</a></section>']
+                lookup.setdefault(name+' '+label,[]).append([name+' · '+label,url+'#'+chapter_id])
+
         write(root,route,name+' · '+title,'\n\n'.join(body))
         lookup[name+' transit guide']=[[name+' · '+title,url]]
         if key not in modes:modes[key]={'name':name,'roots':[],'home':url}

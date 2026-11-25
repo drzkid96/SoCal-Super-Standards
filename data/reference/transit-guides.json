@@ -25,7 +25,7 @@
     "Riverside Transit Agency",
     "Riverside",
     "Bus Stop Design Guidelines",
-    "https://www.riversidetransit.com/images/DOWNLOADS/PUBLICATIONS/DESIGN_GUIDES/RTA%20Bus%20Stop%20Design%20Guidelines.pdf"
+    "https://rtaprdapp.riversidetransit.com/images/DOWNLOADS/PUBLICATIONS/DESIGN_GUIDES/RTA%20Bus%20Stop%20Design%20Guidelines.pdf"
   ],
   [
     "mts",
@@ -40,5 +40,12 @@
     "Ventura",
     "Bus Stop Guidelines",
     "https://www.gctd.org/wp-content/uploads/2021/06/GCTDBusStopGuidelines2019.pdf"
+  ],
+  [
+    "ictc",
+    "Imperial County Transportation Commission",
+    "Imperial",
+    "Bus Stop Design and Safety Guideline Handbook",
+    "https://www.imperialctc.org/assets/documents/transit-and-non-motorized/ICTC-Bus-Stop-Design-and-Safety-Guideline-Handbook.pdf"
   ]
 ]

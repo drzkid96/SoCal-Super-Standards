@@ -1,3 +1,4 @@
+from check_atlas import verify as verify_atlas
 """Verify the published descriptions, original images, redirects and comparison layouts."""
 from collections import defaultdict
 from html import unescape
@@ -135,3 +136,5 @@ print(f'BOE presentation verified: {math_count} rendered equations, {figure_link
 
 import runpy
 runpy.run_path(str(Path(__file__).with_name('check_inline_examples.py')))
+
+verify_atlas()

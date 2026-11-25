@@ -55,6 +55,7 @@ def prepare():
                 with zipfile.ZipFile(joined) as archive:
                     archive.extractall(ASSETS)
     with gzip.open(CATALOG,'rt',encoding='utf-8') as f: records=json.load(f)
+    records.extend(json.loads(Path("data/reference/atlas/county-publications.json").read_text()))
     # PyMuPDF documents must be handled by separate processes.
     from concurrent.futures import ProcessPoolExecutor
     with ProcessPoolExecutor(mp_context=get_context('fork'), max_workers=min(5,os.cpu_count() or 1)) as pool:

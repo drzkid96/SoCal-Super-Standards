@@ -54,6 +54,17 @@ jobs:
           key: santa-monica-ttcp-${{ hashFiles('pipeline/santa_monica_art.py') }}
       - name: Render Santa Monica original TTCP documents
         run: python pipeline/santa_monica_art.py
+      - uses: actions/cache@v4
+        id: geography
+        with:
+          path: public/api/v2
+          key: socal-geography-v2-${{ hashFiles('pipeline/atlas/*.py', 'data/reference/atlas/tiger-2025.json', 'data/reference/atlas/hpms-2024-ca.json') }}
+      - name: Build the public geographic databases
+        if: steps.geography.outputs.cache-hit != 'true'
+        run: |
+          command -v ogr2ogr >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y gdal-bin)
+          python -m pip install 'pyshp==2.3.1' 'shapely>=2,<3'
+          python pipeline/atlas/compile.py
       - uses: withastro/action@v3
         with:
           node-version: 22
