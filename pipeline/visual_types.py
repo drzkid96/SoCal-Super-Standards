@@ -1,5 +1,6 @@
 """Place an actual publisher's graphic beside a discussed facility type or chart."""
-from html import escape, unescape
+from html import escape
+from pathlib import Path
 import re
 
 # Display title, identifying terms, indexed source and designation, and what to look for.
@@ -50,7 +51,6 @@ GROUPS={
  ('Buffer-separated preferential lane',r'buffer.separated preferential','CA MUTCD 2026','Figure 3E-2','A marked buffer separates the lanes. Compare its boundaries with the allowable access points.'),
  ('Contiguous preferential lane',r'contiguous preferential','CA MUTCD 2026','Figure 3E-3','The preferential lane adjoins the general-purpose lane. The lane-line treatment identifies the boundary.')],
 }
-FIGREF=re.compile(r'\b(Figure|Table)\s+(\d[A-Z]-\d+(?:\s*\(CA\))?)(?![\w(])',re.I)
 
 def make_visuals(details):
     index={(r['src'],(r['type']+' ' if r['type'] in ('Figure','Table') else '')+r['num']):r for r in details}
@@ -66,48 +66,10 @@ def make_visuals(details):
 
 def graphic(title,r,caption):
     image=(r.get('full') or r['img']).replace('/thumbs/figs/','/figs/')
+    small = image.replace('/figs/','/thumbs/figs/',1)
+    if not Path('public',small.removeprefix('/SoCal-Super-Standards/')).is_file():
+        small = image
     return (f'<figure class="type-example"><figcaption><strong>{escape(title)}</strong> {escape(caption)}</figcaption>'
-            f'<a href="{image}"><img src="{image}" loading="lazy" alt="{escape(title,quote=True)} — {escape(r["src"],quote=True)} {escape(r["num"],quote=True)}"></a>'
+            f'<a class="type-preview" href="{image}" aria-label="Enlarge {escape(title,quote=True)}"><img src="{small}" loading="lazy" decoding="async" alt="{escape(title,quote=True)} — {escape(r["src"],quote=True)} {escape(r["num"],quote=True)}"></a>'
             f'<a class="source-sheet" href="{r["url"]}">{escape(r["src"])} · {escape(r["num"])} — open source</a></figure>')
 
-
-def within_articles(root,groups,index):
-    inserted=0
-    for path in root.rglob('*.md'):
-        section=path.relative_to(root).parts[0]
-        if section in {'topics','details','signs','markings','keywords','search'}:continue
-        body=path.read_text();head,sep,article=body.partition('\n---\n')
-        if not sep:continue
-        pieces=re.split(r'(?=^##(?:#)? )',article,flags=re.M); change=False
-        seen_on_page=set()
-        for i,block in enumerate(pieces):
-            # Analyze authored text, excluding existing images, OCR, navigation and linked indexes.
-            prose=re.sub(r'<(?:figure|nav|script|details)\b.*?</(?:figure|nav|script|details)>',' ',block,flags=re.S)
-            prose=unescape(re.sub('<[^>]+>',' ',prose))
-            examples=[]
-            for family in groups.values():
-                matches=[v for v in family if v[1].search(prose)]
-                heading=prose.split('\n',1)[0]
-                if len(matches)>1 or any(v[1].search(heading) for v in matches): examples.extend(matches)
-            edition='Federal MUTCD' if section=='mutcd' else 'CA MUTCD 2026' if section=='ca-mutcd' else None
-            for kind,num in FIGREF.findall(prose):
-                number=re.sub(r'\s+','',num.upper())
-                key=kind.title()+' '+number
-                # Outside a manual, only resolve comparisons whose cited edition is explicit.
-                source=edition
-                if not edition:
-                    m=re.search(r'(Federal MUTCD|FHWA|CA MUTCD(?: 2026)?)\s*[,·:–-]?\s*'+re.escape(kind)+r'\s+'+re.escape(num),prose,re.I)
-                    source=('Federal MUTCD' if m and m[1].lower().startswith(('federal','fhwa')) else 'CA MUTCD 2026' if m else None)
-                r=index.get((source,key))
-                if r and (r.get('full') or r['img']) not in block:
-                    examples.append((key+' · '+r['title'],None,r,r['description'].split('. ',1)[-1]))
-            seen=set()
-            cards=[]
-            for title,_,r,caption in examples:
-                image=r.get('full') or r['img']
-                if image in seen or image in seen_on_page or ('src="'+image+'"') in block:continue
-                seen.add(image);seen_on_page.add(image);cards.append(graphic(title,r,caption))
-            if cards:
-                pieces[i]=block.rstrip()+'\n\n'+'\n'.join(cards)+'\n\n';change=True;inserted+=len(cards)
-        if change:path.write_text(head+sep+''.join(pieces))
-    return inserted

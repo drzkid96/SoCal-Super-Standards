@@ -2,6 +2,7 @@
 from collections import defaultdict
 from html import escape, unescape
 from pathlib import Path
+from reference_previews import ReferencePreviews
 import json
 import re
 import sys
@@ -63,6 +64,7 @@ tag_split=re.compile(r'(<!--.*?-->|</?[A-Za-z][^>]*>)',re.S)
 void={'br','hr','img','input','source','col','meta','link','wbr','area','embed','track'}
 exclude={'math','annotation','a','button','nav','code','pre','script','style','svg','textarea','select','del','summary','h1','h2','h3','h4','h5','h6'}
 counts=defaultdict(int)
+previews = ReferencePreviews(DIST)
 for page in DIST.rglob('*.html'):
     raw=page.read_text(); start=re.search(r'<div\b[^>]*class="sl-markdown-content"[^>]*>',raw)
     if not start:continue
@@ -110,6 +112,8 @@ for page in DIST.rglob('*.html'):
             chunks.extend((escape(value[last:match.start()],quote=False),f'<a class="source-ref" href="{escape(url,quote=True)}">{escape(phrase,quote=False)}</a>'))
             last=lastchar
         result.append(''.join(chunks)+escape(value[last:],quote=False) if last else token)
-    updated=''.join(result)
+    updated=previews.enhance(''.join(result),route)
     if updated!=body:page.write_text(raw[:start.end()]+updated+raw[end:])
 print('Added article references:',dict(counts))
+print('Inline illustration coverage:',dict(previews.counts),'on',sum(previews.families.values()),'pages.',dict(sorted(previews.families.items())))
+print('Unmatched edition-specific figure and table identifiers:',dict(sorted(previews.missing.items())))

@@ -210,9 +210,35 @@ with TemporaryDirectory() as temp:
                     const [above,below]=arguments[0].children;
                     return above.getBoundingClientRect().bottom <= below.getBoundingClientRect().top + 1;
                 """,fraction), (width, fraction.text)
+            tray=browser.find_element(By.CSS_SELECTOR,'#e-664-2 + p + .ref-previews')
+            labels=tray.find_elements(By.CSS_SELECTOR,'.ref-label')
+            assert [label.text for label in labels]==['Figure E 464.2A','Figure E 464.2B','Figure E 464.2C']
+            previews=tray.find_elements(By.CSS_SELECTOR,'.ref-image img')
+            browser.execute_script("arguments[0].scrollIntoView({block:'center',behavior:'instant'})",tray)
+            for image in previews:
+                assert image.is_displayed() and 60<=image.rect['width']<=205,(width,image.rect)
+                assert image.rect['height']<=160
+                assert browser.execute_script("return getComputedStyle(arguments[0]).objectFit",image)=='contain'
+            assert previews[0].rect['y']==previews[1].rect['y'],width
+            assert previews[2].rect['x']+previews[2].rect['width']<=width, width
+            if width==1280:
+                assert previews[2].rect['y']==previews[0].rect['y']
+            art=browser.find_element(By.ID,'boe-figure-464-2b').find_element(By.TAG_NAME,'img')
+            full=art.get_attribute('src')
+            previews[1].click()
+            opened=wait.until(lambda d:d.find_element(By.CSS_SELECTOR,'.sss-lb.open img'))
+            assert opened.get_attribute('src')==full
+            browser.find_element(By.CSS_SELECTOR,'.sss-lb [data-lb="close"]').click()
             link=browser.find_element(By.CSS_SELECTOR,'a.boe-figure-ref[href$="#boe-figure-464-2b"]')
             link.click()
             assert browser.current_url.endswith('#boe-figure-464-2b')
             assert browser.find_element(By.ID,'boe-figure-464-2b').find_element(By.TAG_NAME,'img').is_displayed()
+            for route in ('ca-mutcd/9e/','mutcd/4i/','topics/speed-and-calming/'):
+                browser.get(base+route)
+                selector='.type-preview img' if route.startswith('topics/') else '.ref-image img'
+                image=browser.find_element(By.CSS_SELECTOR,selector)
+                browser.execute_script("arguments[0].scrollIntoView({block:'center',behavior:'instant'})",image)
+                wait.until(lambda d: d.execute_script('return arguments[0].naturalWidth > 0',image))
+                assert image.is_displayed() and 60<=image.rect['width']<=205,(width,route,image.rect)
     server.shutdown()
 print('Sheet viewer passed at 1280 and 390 pixels.')

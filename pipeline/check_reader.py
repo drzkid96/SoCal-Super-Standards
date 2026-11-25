@@ -128,3 +128,55 @@ for url in manual_pages:
         assert article.xpath('.//p[@class="boe-reading-note"]//a[@href]')
 assert math_count >= 41 and figure_links >= 100 and footnote_links > 0
 print(f'BOE presentation verified: {math_count} rendered equations, {figure_links} figure citations, {footnote_links} footnote links.')
+
+# Verify the final artifact independently, including inline placement, original links,
+# and image availability. Navigation, captions and publisher footnotes are not prose.
+from collections import Counter
+from urllib.parse import unquote, urljoin
+
+figures = {r['url']:r for r in details if r['type'] in ('Figure','Table')}
+inline_pages = Counter()
+card_count = cited_blocks = examined = 0
+for path in dist.rglob('*.html'):
+    examined += 1
+    raw = path.read_text()
+    if 'sl-markdown-content' not in raw:
+        continue
+    doc = html.fromstring(raw)
+    articles = doc.xpath('//*[@class="sl-markdown-content"]')
+    if not articles:
+        continue
+    article = articles[0]
+    route = BASE+'/'+path.relative_to(dist).as_posix().removesuffix('index.html')
+    trays = article.xpath('.//div[@class="ref-previews"]')
+    for tray in trays:
+        assert tray.getparent().tag=='li' or tray.getprevious().tag=='p', (route,'orphaned previews')
+        links = tray.xpath('./div/a[@class="ref-label"]/@href')
+        assert links and len(set(links))==len(links), (route,links)
+        for card in tray:
+            anchor, = card.xpath('./a[@class="ref-image"]')
+            img, = anchor.xpath('./img[@loading="lazy" and @alt!=""]')
+            for src in [anchor.get('href'),img.get('src')]:
+                if src.startswith(BASE+'/'):
+                    assert (dist/unquote(urlsplit(src).path.removeprefix(BASE+'/'))).is_file(), (route,src)
+                else:
+                    assert urlsplit(src).scheme in ('http','https'),(route,src)
+            card_count += 1
+    if trays:
+        inline_pages[route.removeprefix(BASE+'/').split('/')[0]]+=1
+    for p in article.xpath('.//p[not(ancestor::figure or ancestor::table or ancestor::nav or ancestor::aside or ancestor::summary)]'):
+        if p.get('class') in ('detail-description','boe-source','secmeta'):
+            continue
+        expected = set()
+        for a in p.xpath('.//a[@href][not(ancestor::del or ancestor::sup or ancestor::code)]'):
+            dest = urljoin(route,a.get('href'))
+            if a.get('class')=='boe-figure-ref' or (dest in figures and re.search(r'\b(?:Figure|Table)s?\s+\d',a.text_content(),re.I)):
+                expected.add(dest)
+        if expected:
+            after = p.getnext()
+            actual = set(after.xpath('./div/a[@class="ref-label"]/@href')) if after is not None else set()
+            assert expected<=actual,(route,p.get('id'),expected-actual)
+            cited_blocks += 1
+assert all(inline_pages[k]>0 for k in ('boe','mutcd','ca-mutcd')) and cited_blocks>100
+print(f'Published inline QA: {examined} HTML pages scanned, {card_count} cards on {sum(inline_pages.values())} pages, '
+      f'{cited_blocks} citation paragraphs independently checked. Pages by family: {dict(sorted(inline_pages.items()))}')
