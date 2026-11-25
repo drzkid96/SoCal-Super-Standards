@@ -4,7 +4,10 @@ from html import escape
 BASE = '/SoCal-Super-Standards'
 
 DIB = BASE+'/bulletins/caltrans-dib-89-02/'
+SANDAG = 'https://www.sandag.org/projects-and-programs/bikeways-and-complete-streets/north-park-mid-city'
 PROJECTS = {
+ 'orange-circle': ('projects/orange-circle.webp','Orange Bikeway, San Diego','A rider approaches the splitter island and traffic circle.','SANDAG · North Park and Mid-City',SANDAG),
+ 'university-intersection': ('projects/university-intersection.webp','University Bikeway, San Diego','Green bike crossings and the corner island define separate paths through the intersection.','SANDAG · North Park and Mid-City',SANDAG),
  'venice': ('projects/venice.webp', 'Venice Boulevard, Los Angeles', 'Safety and Mobility Project', 'LADOT project story', 'https://ladot.lacity.gov/dotnews/ladot-and-metro-celebrate-completion-venice-blvd-safety-and-mobility-project'),
  'harvard': ('projects/harvard.webp', 'South Harvard Boulevard, Los Angeles', 'Mini-roundabout with a raised center island', 'City design guide · Figure 7-1', 'https://ladot.lacity.gov/sites/default/files/documents/supplemental-design-guide-073020-final.pdf#page=89'),
  'redondo': ('bulletins/dib-89-02/photo-2-redondo-two-way.webp', 'Redondo Beach', 'Two-way separated bikeway', 'Caltrans DIB 89-02 · Photo 2', DIB),
@@ -12,7 +15,7 @@ PROJECTS = {
 }
 PAGES = {
  'topics/bikeways.md': ('redondo',), 'topics/transit.md': ('venice',),
- 'topics/speed-and-calming.md': ('harvard',), 'topics/striping-intersections.md': ('driveway',),
+ 'topics/speed-and-calming.md': ('harvard','orange-circle'), 'topics/striping-intersections.md': ('driveway','university-intersection'),
 }
 def field_examples(root):
     for filename, keys in PAGES.items():
