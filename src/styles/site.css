@@ -1043,3 +1043,54 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .boe-fig-thumb { display:flex; flex-direction:column; align-items:center; gap:.2rem; width:11rem; padding:.3rem; border:1px solid var(--sl-color-gray-5); border-radius:.35rem; background:var(--sl-color-bg); font-size:.75rem; line-height:1.2; text-decoration:none; }
 .boe-fig-thumb img { display:block; width:100%; height:9rem; object-fit:contain; margin:0; }
 .boe-fig-thumb:hover, .boe-fig-thumb:focus-visible { border-color:var(--sl-color-text-accent); }
+
+/* Compact references within the reading flow, including narrow phone screens. */
+.sl-markdown-content .inline-examples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: .4rem;
+  margin: .45rem 0 1rem;
+  max-width: 52rem;
+}
+.sl-markdown-content .inline-examples a {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  margin: 0;
+  padding: .4rem .55rem;
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: .35rem;
+  max-width: 28rem;
+  color: var(--sl-color-text);
+  text-decoration: none;
+  font: 500 .82rem/1.3 var(--sl-font);
+}
+.sl-markdown-content .inline-examples a:hover,
+.sl-markdown-content .inline-examples a:focus-visible { border-color: var(--sl-color-text-accent); }
+.sl-markdown-content .inline-examples img {
+  flex: 0 0 6.5rem;
+  width: 6.5rem;
+  height: 5rem;
+  margin: 0;
+  object-fit: contain;
+  background: white;
+}
+.sl-markdown-content .inline-examples small {
+  display: block;
+  margin: 0 0 .15rem;
+  color: var(--sl-color-text-accent);
+  font-size: .71rem;
+}
+.sl-markdown-content .reading-example {
+  display: grid;
+  grid-template-columns: minmax(6rem, 28%) 1fr;
+  max-width: 36rem;
+  align-items: center;
+  padding: .45rem;
+  font-size: .86rem;
+}
+.reading-example > a:first-of-type { grid-column: 1; grid-row: 1 / 3; margin: 0; }
+.sl-markdown-content .reading-example img { height: 7rem; margin: 0; background: white; }
+.reading-example figcaption, .reading-example .source-sheet { grid-column: 2; margin: 0; }
+.reading-example figcaption { grid-row: 1; }
+.reading-example .source-sheet { grid-row: 2; font-size: .77rem; }

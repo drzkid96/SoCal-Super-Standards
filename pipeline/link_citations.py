@@ -62,6 +62,8 @@ pattern=re.compile(r'(?<![\w/-])(?:(?P<web>https?://[^\s<>\x22\x27]+)|(?P<kind>F
 tag_split=re.compile(r'(<!--.*?-->|</?[A-Za-z][^>]*>)',re.S)
 void={'br','hr','img','input','source','col','meta','link','wbr','area','embed','track'}
 exclude={'math','annotation','a','button','nav','code','pre','script','style','svg','textarea','select','del','summary','h1','h2','h3','h4','h5','h6'}
+from inline_examples import Artwork, BLOCKED
+artwork = Artwork(DIST)
 counts=defaultdict(int)
 for page in DIST.rglob('*.html'):
     raw=page.read_text(); start=re.search(r'<div\b[^>]*class="sl-markdown-content"[^>]*>',raw)
@@ -75,11 +77,30 @@ for page in DIST.rglob('*.html'):
     body=raw[start.end():end]
     route=BASE+'/'+page.relative_to(DIST).as_posix().removesuffix('index.html')
     seen=set(); stack=[]; result=[]
+    illustrated = set()
+    paragraph_start = None
+    family = page.relative_to(DIST).parts[0]
+    reading = family not in {'keywords','search','sources','signs'} and 'class="inline-examples"' not in body
     for token in tag_split.split(body):
         if token.startswith('<'):
             tag=re.match(r'</?([\w-]+)',token)
             if tag:
                 name=tag[1].lower()
+                if name == 'h2' and not token.startswith('</'):
+                    illustrated.clear()
+                if reading and name == 'p' and not BLOCKED.intersection(stack):
+                    if token.startswith('</') and paragraph_start is not None:
+                        result.append(token)
+                        paragraph = ''.join(result[paragraph_start:])
+                        preview = '' if 'boe-figure-ref' in paragraph else artwork.paragraph(paragraph, route, illustrated)
+                        if preview:
+                            result.append(preview)
+                            counts['inline examples'] += preview.count('<img ')
+                        paragraph_start = None
+                        if name in stack:del stack[len(stack)-1-stack[::-1].index(name):]
+                        continue
+                    if not token.startswith('</') and not re.search(r'class="(?:detail-description|boe-source|srcbar)',token):
+                        paragraph_start = len(result)
                 if token.startswith('</'):
                     if name in stack:del stack[len(stack)-1-stack[::-1].index(name):]
                 elif name not in void and not token.endswith('/>'):stack.append(name)
