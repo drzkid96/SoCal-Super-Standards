@@ -38,6 +38,8 @@ def verify():
                 target=urlsplit(ref['url'])
                 assert target.path.startswith(BASE) and (ROOT/target.path.removeprefix(BASE)/'index.html').exists(),ref
                 indexed+=1
+    assert not any('s-714/' in r['url'] for r in profiles['pasadena']['topics'].get('transit',[]))
+    assert any('s-709/' in r['url'] for r in profiles['pasadena']['topics']['crosswalks'])
     with open_db(API/'db/site.sqlite.gz') as db:
         assert not db.execute('PRAGMA foreign_key_check').fetchall()
         assert db.execute('SELECT count(*) FROM agency').fetchone()[0]==len(profiles)

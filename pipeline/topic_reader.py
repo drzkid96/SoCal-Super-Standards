@@ -24,7 +24,7 @@ ROUTES={
 }
 PATTERNS={
  'bikeways':r'\bbike|\bbicycl|bikeway|sharrow|shared.lane|shared.use path|two.stage turn|cycle track|cycling',
- 'signals':r'signal|detector|mast.arm|beacon|warrant|loop detector|countdown|pull box|controller',
+ 'signals':r'\bsignal|detector|mast.arm|beacon|warrant|loop detector|countdown|pull box|controller',
  'transit':r'\bbus(?:es)?\b|\btransit\b|\bbrt\b|boarding|preferential lane|light.rail',
  'crosswalks':r'crosswalk|pedestrian crossing|yield line|stop line|limit line|pedestrian hybrid beacon|rapid.flashing',
  'speed-and-calming':r'speed limit|speed hump|speed table|speed cushion|traffic calming|traffic circle|roundabout|chicane|traffic diverter|raised crosswalk|vertical deflection',
@@ -60,6 +60,7 @@ def render(root,details):
             prior=row.setdefault('topics',[])
             if matches(row):
                 if slug not in prior:prior.append(slug)
+            elif slug=='transit' and slug in prior and not match.search((row.get('kw') or '')+' '+(row.get('sum') or '')):prior.remove(slug)
             elif slug=='bikeways' and re.search(r'motorcycle',row['title'],re.I) and slug in prior:prior.remove(slug)
         eligible=[r for r in details if slug in r['topics']]
         drawings=[r for r in eligible if r['type'] in ('Standard drawing','Agency sheet')]

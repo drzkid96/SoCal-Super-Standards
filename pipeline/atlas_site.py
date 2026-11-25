@@ -261,12 +261,14 @@ def topic_references(p, collection, details):
         for key,pattern in PATTERNS.items():
             rank=int(p['name']+' · '+key in aliases)
             if re.search(pattern,plain,re.I):rank=4
-            if item and key in item.get('topics',[]):rank=max(2,rank)
+            if item and key in item.get('topics',[]) and re.search(pattern,(item.get('kw') or '')+' '+(item.get('sum') or ''),re.I):
+                rank=max(2,rank)
             if key=='transit' and p['kind']=='Transit agency' and url in books:rank=5
             if not rank:continue
             if not item and not url in books and title==p['name']:continue
             if item and item['type'] in ('Standard drawing','Agency sheet'):rank+=2
             if '#page-' in url and p['kind']=='Transit agency':rank+=2
+            if key=='transit' and re.search(r'bus stop|stop placement|bus transit|boarding|bus pad|bus bulb|stop location',plain,re.I):rank+=3
             by_topic[key].append((-rank,len(title),title,url))
     result={}
     for key,entries in by_topic.items():
