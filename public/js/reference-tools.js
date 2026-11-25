@@ -1,7 +1,9 @@
 (() => {
   const base='/SoCal-Super-Standards', article=document.querySelector('.sl-markdown-content');
   if(!article || location.pathname===base+'/' || location.pathname===base+'/search/')return;
-  const title=document.querySelector('h1')?.textContent.trim() || document.title.split('|')[0];
+  const heading=document.querySelector('h1')?.textContent.trim() || document.title.split('|')[0];
+  const manual=location.pathname.includes('/ca-mutcd/')?'Caltrans · California MUTCD 2026':location.pathname.includes('/mutcd/')?'FHWA · MUTCD 11th Edition Revision 1':'';
+  const title=manual ? manual+' · '+heading : heading;
   const book=article.querySelector('.book-reader'),operator=article.querySelector('.operator-book');
   const route=location.pathname.replace(base+'/','').replace(/\/$/,'');
   let manifest;
@@ -22,7 +24,8 @@
   function copyImage(src){const png=picture(src).then(c=>bytes(c,'image/png'));return navigator.clipboard.write([new ClipboardItem({'image/png':png})]);}
   async function imagePage(pdf,src){const c=await picture(src),data=await bytes(c,'image/jpeg'),img=await pdf.embedJpg(await data.arrayBuffer());const scale=792/Math.max(c.width,c.height);pdf.addPage([c.width*scale,c.height*scale]).drawImage(img,{x:0,y:0,width:c.width*scale,height:c.height*scale});}
   async function single(src,name){const pdf=await (await library()).PDFDocument.create();await imagePage(pdf,src);save(await pdf.save(),name,'application/pdf');}
-  const citation=(label,url)=>[label,'SoCal Super Standards','Accessed '+new Date().toISOString().slice(0,10),url].join('. ');
+  const publisher=article.querySelector('.reg-credit a')?.href || (operator?article.querySelector('a[href^="https://"]')?.href:null);
+  const citation=(label,url)=>[label,...(publisher?['Publisher '+publisher]:[]),'SoCal Super Standards','Accessed '+new Date().toISOString().slice(0,10),url].join('. ');
   function figureTools(fig,i){
     const im=fig.querySelector('img');if(!im||fig.querySelector('.reference-actions'))return;
     const orig=im.closest('a')?.href;const src=orig&&/\.(webp|avif|png|jpe?g|svg)(?:\?|$)/i.test(orig)?orig:im.src;
@@ -79,7 +82,7 @@
   async function exportDocs(all=false,section){
     const pdf=await (await library()).PDFDocument.create();let name=title;
     if(section){name=title+' '+section.label;await addArticle(pdf,section.node,name);}
-    else if(all&&book){name=book.dataset.book.replaceAll('/',' ');const list=(await hierarchy())[book.dataset.book];for(const [label,path] of list)await addArticle(pdf,await fetchArticle(path),label);}
+    else if(all&&book){name=manual||book.dataset.book.replaceAll('/',' ');const list=(await hierarchy())[book.dataset.book];for(const [label,path] of list)await addArticle(pdf,await fetchArticle(path),label);}
     else await addArticle(pdf,article,title);
     save(await pdf.save(),name,'application/pdf');
   }
@@ -107,7 +110,9 @@
     button(top,book&&route!==book.dataset.book?'Chapter PDF':'Page PDF',()=>exportDocs());
     if(book)button(top,'Guide PDF',()=>exportDocs(true));
     for(const h of article.querySelectorAll('h2')){if(!/^\d[A-Z]\.\d+/.test(h.textContent.trim()))continue;
-      const anchor=h.closest('.sl-heading-wrapper')||h;const b=toolbar(anchor.parentElement);anchor.after(b);button(b,'Section PDF',()=>{const node=create('div');for(let e=b.nextElementSibling;e&&!e.matches('h2,.anchor,.sl-heading-wrapper:has(h2)');e=e.nextElementSibling)node.append(e.cloneNode(true));return exportDocs(false,{label:h.textContent,node});});}
+      const anchor=h.closest('.sl-heading-wrapper')||h;const b=toolbar(anchor.parentElement);anchor.after(b);
+      button(b,'Copy section citation',()=>{const link=new URL(location.pathname,location.origin);link.hash=anchor.previousElementSibling?.matches('.anchor')?anchor.previousElementSibling.id:h.id;return navigator.clipboard.writeText(citation(title+' · '+h.textContent,link.href));});
+      button(b,'Section PDF',()=>{const node=create('div');for(let e=b.nextElementSibling;e&&!e.matches('h2,.anchor,.sl-heading-wrapper:has(h2)');e=e.nextElementSibling)node.append(e.cloneNode(true));return exportDocs(false,{label:h.textContent,node});});}
     enhance(article);
   }
   button(top,'Copy citation',()=>navigator.clipboard.writeText(citation(title+(operator?' · page '+operator.querySelector('input').value:''),location.href)));
