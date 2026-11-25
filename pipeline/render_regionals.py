@@ -3,7 +3,6 @@ import gzip
 import hashlib
 import json
 import os
-import io
 import zipfile
 import time
 from multiprocessing import get_context
@@ -44,10 +43,17 @@ def render(reg):
     marker.write_text(reg['sha256'])
 
 def prepare():
-    parts = sorted((CATALOG.parent/'anaheim').glob('part-*'))
-    if parts:
-        with zipfile.ZipFile(io.BytesIO(b''.join(p.read_bytes() for p in parts))) as archive:
-            archive.extractall(ASSETS)
+    import shutil
+    import tempfile
+    for bank in ('anaheim', 'sheets'):
+        parts = sorted((CATALOG.parent/bank).glob('part-*'))
+        if parts:
+            with tempfile.TemporaryFile() as joined:
+                for part in parts:
+                    with part.open('rb') as stream:
+                        shutil.copyfileobj(stream, joined)
+                with zipfile.ZipFile(joined) as archive:
+                    archive.extractall(ASSETS)
     with gzip.open(CATALOG,'rt',encoding='utf-8') as f: records=json.load(f)
     # PyMuPDF documents must be handled by separate processes.
     from concurrent.futures import ProcessPoolExecutor
