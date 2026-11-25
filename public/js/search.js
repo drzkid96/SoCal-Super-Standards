@@ -72,22 +72,23 @@
     }
     return hits.length ? hits : available;
   }
-  async function direct(raw, facet = '', limit = 12, match = 'all') {
+  async function direct(raw, facet = '', limit = 12, match = 'all', issuer = '') {
     const {query, scope} = parse(raw, facet);
     if (!query) return [];
     if (sheetQualifier.test(query)) {
       const sheets = await findSheet(query, scope);
-      if (sheets.length) return sheets.slice(0, limit);
+      if (sheets.length) return sheets.filter(hit=>!issuer||window.SSSAgency.inScope(hit.url,issuer)).slice(0, limit);
     }
     const {records, withdrawn, synonyms} = await catalog();
     const code = compact(query), phrase = clean(query);
     if (!code) return [];
-    if (!window.SSSAgency?.active && (!scope || ['Caltrans','Signs','CA MUTCD'].includes(scope)) && withdrawn.has(designation(query))) return [withdrawn.get(designation(query))];
+    if (!issuer && !window.SSSAgency?.active && (!scope || ['Caltrans','Signs','CA MUTCD'].includes(scope)) && withdrawn.has(designation(query))) return [withdrawn.get(designation(query))];
     const words = phrase.split(' '), expanded = synonyms.get(phrase);
     const priority = {'CA MUTCD': 6, LADOT: 5, Caltrans: 5, 'LA BOE': 4};
     const hits = [];
     for (const record of records) {
       if (window.SSSAgency && !window.SSSAgency.inScope(record.url)) continue;
+      if (issuer && !window.SSSAgency.inScope(record.url,issuer))continue;
       if (scope && scope !== record.tag) continue;
       if(match==='exact' && !record.exact.includes(designation(query)) && designation(record.label)!==designation(query))continue;
       let score;
@@ -111,13 +112,13 @@
       await api.options({baseUrl:base+'/'}); await api.init(); return api;
     }).catch(error => { fullPromise = null; throw error; });
   }
-  async function full(raw, facet = '') {
+  async function full(raw, facet = '', issuer = '') {
     const {query, scope} = parse(raw, facet);
     if (!query) return [];
     const api = await fullIndex();
     const filters = {};
     if(scope) filters.source=scope;
-    if(window.SSSAgency?.active) filters.agency=window.SSSAgency.active;
+    if(window.SSSAgency?.active || issuer) filters.agency=window.SSSAgency.active || issuer;
     const hits = await api.search(query,{filters});
     return hits.results;
   }
@@ -143,6 +144,10 @@
   const status = document.getElementById('standards-status'), more = document.getElementById('standards-more');
   const params = new URLSearchParams(location.search);
   input.value = params.get('q') || ''; source.value = window.SSSAgency?.active ? '' : (params.get('source') || '');
+  const issuer=form.elements.issuer;
+  for(const [key,mode] of Object.entries(window.__agencyCatalog||{}).sort((a,b)=>a[1].name.localeCompare(b[1].name)))issuer.add(new Option(mode.name,key));
+  issuer.value=window.SSSAgency?.active||params.get('issuer')||'';issuer.disabled=!!window.SSSAgency?.active;
+  issuer.onchange=()=>{clearTimeout(timer);run();};
   const matching=form.elements.match, suggestions=document.getElementById('query-guesses');
   matching.value=params.get('match')||'all';
   const vocabulary=['accessible parking','bus stop','bus boarding island','bicycle lane','California MUTCD','crosswalk','curb ramp','delineator','driveway','intersection','pavement marking','pedestrian refuge','protected intersection','traffic signal','transit signal priority','turn pocket','yield line'];
@@ -152,7 +157,7 @@
     try {
       const {records}=await catalog();if(q!==clean(input.value))return;
       const labels=new Set(Array.from(suggestions.options,o=>o.value));
-      const add=record=>{if((!source.value||record.tag===source.value)&&labels.size<10&&record.label.length<=105)labels.add(record.label);};
+      const add=record=>{if((!issuer.value||window.SSSAgency.inScope(record.url,issuer.value))&&(!source.value||record.tag===source.value)&&labels.size<10&&record.label.length<=105)labels.add(record.label);};
       for(const record of records){if(record.names.startsWith(q)||record.exact.some(k=>k.startsWith(designation(input.value))))add(record);if(labels.size===10)break;}
       suggestions.replaceChildren(...[...labels].map(t=>new Option(t,t)));
     }catch{} }
@@ -189,15 +194,15 @@
   }
   async function run(restore = null) {
     const id = ++generation, q = input.value.trim(), scope = source.value;
-    const dest=new URL(urlFor(q,scope),location.origin);if(matching.value!=='all')dest.searchParams.set('match',matching.value);history.replaceState({...history.state, searchReturn:null},'',dest);
+    const dest=new URL(urlFor(q,scope),location.origin);if(issuer.value&&!issuer.disabled)dest.searchParams.set('issuer',issuer.value);if(matching.value!=='all')dest.searchParams.set('match',matching.value);history.replaceState({...history.state, searchReturn:null},'',dest);
     results.replaceChildren(); more.hidden=true; seen=new Set(); index=0;
     if (!q) { status.textContent='Enter a drawing number, section, or design question.'; return; }
     status.textContent='Searching…';
-    const matches = direct(q,scope,250,matching.value);
+    const matches = direct(q,scope,250,matching.value,issuer.value);
     // An exact sheet has a verified destination and needs no full-text lookup.
     const text = matching.value!=='all' ? Promise.resolve([]) : sheetQualifier.test(q)
-      ? matches.then(hits => hits[0]?.sheetMatch ? [] : full(q,scope), () => full(q,scope))
-      : full(q,scope);
+      ? matches.then(hits => hits[0]?.sheetMatch ? [] : full(q,scope,issuer.value), () => full(q,scope,issuer.value))
+      : full(q,scope,issuer.value);
     const [d,f] = await Promise.allSettled([matches, text]);
     if (id !== generation) return;
     directUnavailable=d.status==='rejected'; fullUnavailable=f.status==='rejected';

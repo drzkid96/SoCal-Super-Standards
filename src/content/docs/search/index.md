@@ -12,6 +12,7 @@ pagefind: false
 <select id="standards-source" name="source">
 <option value="">All sources</option><option>CA MUTCD</option><option>Federal MUTCD</option><option>Caltrans</option><option>LADOT</option><option>LA BOE</option><option>Local cities</option><option>Regional standards</option><option>Transit operators</option><option>Signs</option><option>Markings</option><option>Topics and tools</option><option>Guides and references</option>
 </select>
+<label for="issuer-filter">Issuer</label><select id="issuer-filter" name="issuer"><option value="">All issuers</option></select>
 <label for="match-style">Match</label><select id="match-style" name="match"><option value="all">Titles and full text</option><option value="titles">Codes and titles</option><option value="exact">Exact identifier</option></select><datalist id="query-guesses"></datalist>
 <button type="submit">Search</button>
 </form>
