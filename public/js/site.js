@@ -60,7 +60,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
   function hideP() { pvCur = null; clearTimeout(pvTimer); ptip.classList.remove('on'); }
   document.addEventListener('mouseover', (ev) => {
     const a = ev.target.closest && ev.target.closest('a[href]');
-    if (!a || a.matches('a.sref, a[data-svg], .dx-card, .sss-navlink') || a.closest('.pv-tip, .sref-tip, .ql-res')) { if (pvCur && a !== pvCur) hideP(); return; }
+    if (!a || a.matches('a.sref, a[data-svg], .dx-card, .sss-navlink, .ref-previews a, .type-preview') || a.closest('.pv-tip, .sref-tip, .ql-res')) { if (pvCur && a !== pvCur) hideP(); return; }
     if (a === pvCur) return;
     hideP(); pvCur = a; loadPV();
     pvTimer = setTimeout(() => showP(a), 220);

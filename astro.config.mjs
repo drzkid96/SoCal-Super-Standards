@@ -77,6 +77,7 @@ export default defineConfig({
         '@fontsource/albert-sans/400-italic.css',
         '@fontsource/albert-sans/700-italic.css',
         './src/styles/site.css',
+        './src/styles/reference-previews.css',
       ],
       social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/drzkid96/SoCal-Super-Standards' }],
       lastUpdated: false,

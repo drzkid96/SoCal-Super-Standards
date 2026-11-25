@@ -6,7 +6,7 @@ import re
 
 from current_catalog import BASE, PUBLIC, read
 from topics_def import T,CHAPS
-from visual_types import graphic,make_visuals,within_articles
+from visual_types import graphic,make_visuals
 
 ROUTES={
 'bikeways':[('Select the facility','/bulletins/bikeway-design-comparison/'),('Check California geometry','/bulletins/caltrans-hdm-ch1000/'),('Design separated bikeways','/bulletins/caltrans-dib-89-02/'),('Find bicycle signs and markings','/ca-mutcd/9e/')],
@@ -108,5 +108,3 @@ def render(root,details):
     home=root/'index.mdx';text=home.read_text()
     text=re.sub(r'[0-9,]+(</b> details &amp; figures| details &amp; figures)',lambda m:f'{len(details):,}'+m[1],text)
     home.write_text(text)
-    inserts=within_articles(root,groups,index)
-    print(f'Placed {inserts} in-text source illustrations across reference articles.')

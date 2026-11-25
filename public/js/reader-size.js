@@ -35,7 +35,7 @@
   const saved = read(sheetKey, null);
   let preference = saved === 'fit' || (Number.isInteger(saved) && saved >= 10 && saved <= 100) ? saved : null;
   const groups = [];
-  const allScans = [...article.querySelectorAll('figure.dfig img, figure.mfig a > img, figure.type-example a > img, .sdetail-img img.sheet')].filter(
+  const allScans = [...article.querySelectorAll('figure.dfig img, figure.mfig a > img, .sdetail-img img.sheet')].filter(
     img => !img.closest('.vibe-hero, .sheet-strip, .sgrid, .thumbgrid') && !/\/vibes\/|\/photo[-/]/i.test(img.src)
   );
   const decks = new Map();
