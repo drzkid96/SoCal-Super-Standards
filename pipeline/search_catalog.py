@@ -92,3 +92,9 @@ def build(root,lookup,details):
         if sep:path.write_text(head+sep+'\n'+marker+'\n'+article)
     save(PUBLIC/'search-sheets.json',sheet_sets)
     save(PUBLIC/'search-catalog.json',[[url.removeprefix(BASE),*fields] for url,fields in records.items()])
+
+    rows=[[url.removeprefix(BASE),*fields] for url,fields in records.items()]
+    folder=PUBLIC/'collections'
+    folder.mkdir(exist_ok=True)
+    for key,agency in json.loads((PUBLIC/'agency-modes.json').read_text()).items():
+        save(folder/(key+'.json'),[row for row in rows if row[0].startswith(tuple(agency['roots']))])

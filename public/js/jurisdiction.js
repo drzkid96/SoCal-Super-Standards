@@ -2,6 +2,12 @@
   const base = '/SoCal-Super-Standards';
   const modes = window.__agencyCatalog;
   if (!modes) return;
+  for (const control of document.querySelectorAll('[data-pref]')) {
+    const key=control.dataset.pref;
+    const apply=()=>document.documentElement.dataset['reader'+key]=control.value;
+    try { const saved=localStorage.getItem('display-'+key); if([...control.options].some(o=>o.value===saved))control.value=saved; } catch {}
+    apply();control.onchange=()=>{apply();try{localStorage.setItem('display-'+key,control.value);}catch{}};
+  }
   const store = 'standards-agency';
   const url = new URL(location.href);
   let active = url.searchParams.get('agency');
@@ -65,7 +71,7 @@
   const browser=document.querySelector('.agency-browser');
   if(browser){
     const input=browser.querySelector('input'), list=browser.querySelector('ul'), count=browser.querySelector('[role=status]'), more=browser.querySelector('button');
-    fetch(base+'/data/search-catalog.json').then(r=>r.json()).then(all=>{
+    fetch(base+'/data/collections/'+browser.dataset.agency+'.json').then(r=>r.json()).then(all=>{
       const entries=all.filter(([path])=>inScope(base+path,browser.dataset.agency)&&base+path!==modes[browser.dataset.agency].home);
       let limit=30;
       function display(){
@@ -83,16 +89,40 @@
   const bar=document.querySelector('.reg-controls');
   if(bar){
     const pages=[...document.querySelectorAll('.reg-page')], select=bar.querySelector('select');
-    pages.forEach(p=>select.add(new Option(p.dataset.label,p.id)));
+    let group;
+    pages.forEach((p,index)=>{
+      if(index%25===0){group=document.createElement('optgroup');group.label='Pages '+(index+1)+'–'+Math.min(index+25,pages.length);select.append(group);}
+      group.append(new Option(p.dataset.label,p.id));
+    });
     function draw(){
       const current=pages.find(p=>'#'+p.id===location.hash)||pages[0];
-      pages.forEach(p=>p.hidden=p!==current);select.value=current.id;
+      (bar._current || pages[0]).hidden=true;
+      current.hidden=false;bar._current=current;select.value=current.id;
+      const scan=current.querySelector('.reg-scan');
+      if(scan && !scan.firstElementChild){
+        const im=new Image();im.src=scan.href;im.alt=scan.dataset.title;scan.replaceChildren(im);
+      }
+      if(!contact.hidden)showGrid();
       const n=pages.indexOf(current);
       bar.querySelector('[data-step="-1"]').disabled=n===0;bar.querySelector('[data-step="1"]').disabled=n===pages.length-1;
     }
+    pages.forEach(p=>p.hidden=true);
+    const contact=document.querySelector('.reg-contact'),overview=bar.querySelector('.reg-overview');
+    function showGrid(){
+      contact.replaceChildren();
+      const start=Math.floor(select.selectedIndex/12)*12;
+      for(const page of pages.slice(start,start+12)){
+        const card=document.createElement('a'),im=new Image();
+        im.src=page.querySelector('.reg-scan').href;im.loading='lazy';im.alt='';
+        card.href='#'+page.id;card.append(im,document.createTextNode(page.dataset.label));
+        card.onclick=e=>{e.preventDefault();contact.hidden=true;overview.setAttribute('aria-expanded','false');go(page.id);};
+        contact.append(card);
+      }
+    }
+    overview.onclick=()=>{contact.hidden=!contact.hidden;overview.setAttribute('aria-expanded',String(!contact.hidden));if(!contact.hidden)showGrid();};
     function go(id){history.pushState(null,'','#'+id);draw();}
     select.onchange=()=>go(select.value);
-    bar.querySelectorAll('button').forEach(b=>b.onclick=()=>go(pages[select.selectedIndex+Number(b.dataset.step)].id));
+    bar.querySelectorAll('[data-step]').forEach(b=>b.onclick=()=>go(pages[select.selectedIndex+Number(b.dataset.step)].id));
     bar.hidden=false;draw();window.addEventListener('hashchange',draw);window.addEventListener('popstate',draw);
   }
 })();

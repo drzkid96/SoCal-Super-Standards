@@ -160,6 +160,24 @@ from santa_monica_art import insert_previews
 insert_previews(root/'santa-monica/standard-plans.md')
 from regional_reader import build as build_regions
 build_regions(root, look)
+# Manual entry points follow the published chapter sequence in both editions.
+for manual,other in [('mutcd','ca-mutcd'),('ca-mutcd','mutcd')]:
+    path=root/manual/'index.md'
+    front=path.read_text().split('---',2)[1]
+    chapters=json.loads(Path('data',manual,'chapters.json').read_text())
+    chapters=[c for c in chapters if (root/manual/(c['code'].lower()+'.md')).exists()]
+    counterpart='California MUTCD' if other=='ca-mutcd' else 'Federal MUTCD'
+    lines=['---',front.strip(),'---','',f'[Read Chapter 1A · General]({base}/{manual}/1a/) · [Open the {counterpart}]({base}/{other}/)','']
+    part=None
+    for chapter in chapters:
+        code=chapter['code']
+        if part!=code[0]:
+            part=code[0]
+            lines.extend(['',f'## Part {part}',''])
+        lines.append(f'- [{code} · {chapter["title"]}]({base}/{manual}/{code.lower()}/)')
+    path.write_text('\n'.join(lines)+'\n')
+from plan_examples import build as build_plan_examples
+build_plan_examples(root, look)
 from search_catalog import build as build_search_catalog
 build_search_catalog(root, look, current_details)
 

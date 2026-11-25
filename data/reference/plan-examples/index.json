@@ -1,0 +1,215 @@
+{
+  "signs": {
+    "sign-0": "G28-2(CA)",
+    "sign-1": "M1-1",
+    "sign-2": "M1-4",
+    "sign-3": "OM1-3",
+    "sign-4": "R1-5-mod-bicycle",
+    "sign-5": "R1-5",
+    "sign-6": "R3-11e-mod",
+    "sign-7": "R4-4",
+    "sign-8": "R10-15-mod",
+    "sign-9": "R1-1",
+    "sign-10": "R2-1-25",
+    "sign-11": "R3-12f",
+    "sign-12": "R18A(CA)",
+    "sign-13": "R81(CA)",
+    "sign-14": "W53",
+    "sign-17": "R1-5R-mod",
+    "sign-18": "R3-4",
+    "sign-19": "R3-7R",
+    "sign-20": "R3-9cP",
+    "sign-21": "R3-11e",
+    "sign-23": "R3-17",
+    "sign-24": "R3-12g",
+    "sign-25": "R3-17bP",
+    "sign-26": "R6-1-left",
+    "sign-27": "R5-2",
+    "sign-28": "R9-3",
+    "sign-29": "R6-1-right",
+    "sign-30": "R9-3bP-right",
+    "sign-31": "R9-3bP-left",
+    "sign-33": "R10-11",
+    "sign-35": "R26L(CA)-mod",
+    "sign-36": "W73A",
+    "sign-37": "R99C(CA)",
+    "sign-40": "R1-5R",
+    "sign-41": "R1-5L-mod",
+    "sign-42": "R3-2",
+    "sign-45": "R3-7bP",
+    "sign-46": "R3-11b",
+    "sign-49": "R4-7",
+    "sign-50": "R5-2-6K",
+    "sign-51": "R10-7",
+    "sign-52": "R10-11-symbol",
+    "sign-54": "R10-23",
+    "sign-55": "SR60-7(CA)",
+    "sign-56": "W11-2",
+    "sign-57": "W14-2",
+    "sign-58": "W16-7P",
+    "sign-59": "W16-9P",
+    "sign-60": "W74",
+    "sign-62": "OM4-3",
+    "sign-64": "R2-1-35",
+    "sign-65": "R3-5-right",
+    "sign-73": "R41(CA)",
+    "sign-74": "W8-26a",
+    "sign-75": "W4-2",
+    "sign-76": "W12-2-14ft11",
+    "sign-77": "W12-1",
+    "sign-79": "W34A(CA)-500ft",
+    "sign-83": "R3-1",
+    "sign-91": "R4-11",
+    "sign-93": "R5-1a",
+    "sign-95": "R6-2-right",
+    "sign-97": "R73-6(CA)",
+    "sign-98": "S5-2",
+    "sign-99": "SR4-1(CA)",
+    "sign-100": "SW24-3(CA)",
+    "sign-101": "W1-1-left",
+    "sign-102": "W12-2-15ft",
+    "sign-103": "W13-1-15",
+    "sign-104": "W34A(CA)-1100ft",
+    "sign-110": "R3-8b",
+    "sign-113": "R3-17b",
+    "sign-114": "R3-18",
+    "sign-122": "R61-19(CA)",
+    "sign-125": "R81A(CA)",
+    "sign-127": "R118(CA)",
+    "sign-128": "W12-2-13ft",
+    "sign-129": "W34-A(CA)",
+    "sign-135": "R10-2",
+    "sign-136": "R10-2-mod",
+    "sign-137": "R13A(CA)",
+    "sign-138": "R2-1-20",
+    "sign-143": "R3-5-left",
+    "sign-144": "R3-7-left",
+    "sign-145": "R3-7aP",
+    "sign-146": "R3-7aP-mod",
+    "sign-147": "R33(CA)",
+    "sign-152": "R81B(CA)",
+    "sign-153": "W4-7",
+    "sign-156": "D11-1",
+    "sign-157": "D11-1-mod",
+    "sign-158": "I-13-mod",
+    "sign-159": "M6-4",
+    "sign-161": "R10-6",
+    "sign-163": "R107(CA)-mod",
+    "sign-164": "R15-1P",
+    "sign-165": "R15-6",
+    "sign-167": "R2-4(CA)-30",
+    "sign-174": "R3-3",
+    "sign-176": "R3-5-mod",
+    "sign-178": "R4-17-mod",
+    "sign-182": "R5-2-mod",
+    "sign-184": "R8-8",
+    "sign-186": "R9-3-mod",
+    "sign-187": "SW44(CA)",
+    "sign-188": "W10-1",
+    "sign-189": "W13-1P-15",
+    "sign-190": "W16-2P",
+    "sign-192": "W48(CA)",
+    "sign-193": "W8-1-mod",
+    "sign-194": "W82-1(CA)",
+    "sign-199": "R2-1-30",
+    "sign-209": "W17-1",
+    "sign-213": "M6-4-mod",
+    "sign-214": "R10-10b",
+    "sign-215": "R10-11b",
+    "sign-219": "R4-3",
+    "sign-221": "W11-1",
+    "sign-222": "W16-1",
+    "sign-226": "G33-1(CA)",
+    "sign-229": "R5-2-mod-variable",
+    "sign-230": "R10-15",
+    "sign-232": "R2-4-25",
+    "sign-233": "R33A(CA)",
+    "sign-235": "SR60-3-mod"
+  },
+  "details": {
+    "detail-a": [
+      "Intersection bikeway striping",
+      "bikeways"
+    ],
+    "detail-b": [
+      "Two-stage bicycle turn box",
+      "bikeways"
+    ],
+    "detail-c": [
+      "Vehicle yield triangles",
+      "striping-intersections"
+    ],
+    "detail-d": [
+      "International Symbol of Accessibility pavement marking",
+      "accessibility"
+    ],
+    "detail-e": [
+      "Wide modular curb separator",
+      "bikeways"
+    ],
+    "detail-f": [
+      "Parking-protected bikeway buffer",
+      "bikeways"
+    ],
+    "detail-g": [
+      "Parking-protected bikeway buffer variant",
+      "bikeways"
+    ],
+    "detail-h": [
+      "Driveway crossing through a protected bikeway",
+      "bikeways"
+    ],
+    "detail-i": [
+      "Bus-lane right-turn pocket with yield area",
+      "transit"
+    ],
+    "detail-j": [
+      "Bus-lane right-turn pocket",
+      "transit"
+    ],
+    "detail-k": [
+      "Low-profile bikeway delineator",
+      "bikeways"
+    ],
+    "detail-l": [
+      "Narrow bikeway buffer away from parking",
+      "bikeways"
+    ],
+    "detail-m": [
+      "Driveway crossing at a narrow buffer",
+      "bikeways"
+    ],
+    "detail-n": [
+      "Unsignalized side-street yield treatment",
+      "striping-intersections"
+    ],
+    "detail-o": [
+      "Side-street yield treatment with a narrow buffer",
+      "striping-intersections"
+    ],
+    "detail-p": [
+      "Accessible parking at a signalized intersection",
+      "accessibility"
+    ],
+    "detail-q": [
+      "Rubber speed hump",
+      "speed-and-calming"
+    ],
+    "detail-r": [
+      "Shared bus and bicycle boarding platform",
+      "transit"
+    ],
+    "detail-s": [
+      "Floating bus boarding island with ramp to sidewalk",
+      "transit"
+    ],
+    "detail-t": [
+      "Floating bus boarding island with ramp to crosswalk",
+      "transit"
+    ],
+    "detail-u": [
+      "Advance route guidance",
+      "street-name-and-guide-signs"
+    ]
+  }
+}

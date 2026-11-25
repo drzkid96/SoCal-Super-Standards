@@ -10,9 +10,9 @@ const modes=JSON.parse(fs.readFileSync('public/data/agency-modes.json','utf8'));
 const navItems = [
   { label: 'Details', href: `${BASE}/details/`, match: ['/details/', '/signs/', '/markings/', '/keywords/'] },
   { label: 'Topics', href: `${BASE}/topics/`, match: ['/topics/'] },
-  { label: 'MUTCD', href: `${BASE}/ca-mutcd/`, match: ['/ca-mutcd/', '/mutcd/'] },
+  { label: 'MUTCD', href: `${BASE}/mutcd/1a/`, match: ['/ca-mutcd/', '/mutcd/'] },
   { label: 'Agencies', href: `${BASE}/agencies/`, match: ['/agencies/', '/caltrans/', '/boe/', '/ladot/', '/fhwa/', '/ada/'] },
-  { label: 'Map', href: `${BASE}/regions/`, match: ['/cities/', '/burbank/', '/pasadena/', '/long-beach/', '/palmdale/', '/torrance/', '/gardena/', '/glendora/', '/santa-monica/', '/west-hollywood/', '/culver-city/'] },
+  { label: 'Map', href: `${BASE}/regions/`, match: ['/regions/', '/cities/', '/burbank/', '/pasadena/', '/long-beach/', '/palmdale/', '/torrance/', '/gardena/', '/glendora/', '/santa-monica/', '/west-hollywood/', '/culver-city/'] },
   { label: 'Guides', href: `${BASE}/guides/`, match: ['/guides/', '/bulletins/', '/aashto/'] },
 ];
 
@@ -33,6 +33,7 @@ const isActive = (prefixes: string[]) => prefixes.some((p) => relPath === p || r
       </a>
     ))}
   </nav>
+  <details class="display-menu"><summary>Display</summary><div><label>Reading width<select data-pref="width"><option value="auto">Adaptive</option><option value="narrow">Narrow</option><option value="wide">Wide</option></select></label><label>Figure grid<select data-pref="grid"><option value="auto">Automatic</option><option value="1">One column</option><option value="2">Two columns</option><option value="3">Three columns</option></select></label><label>Sheet scale<select data-pref="scale"><option value="100">Fit</option><option value="75">75%</option><option value="125">125%</option><option value="150">150%</option></select></label></div></details>
   <label class="agency-picker"><span>Workspace</span><select id="agency-mode" aria-label="Choose city or agency"><option value="">All agencies</option></select></label>
   <script is:inline define:vars={{modes}}>window.__agencyCatalog=modes;</script>
   <div class="sl-flex print:hidden sss-search-slot"><a class="sss-search-link" href={BASE+'/search/'} aria-label="Search all standards">Search <kbd aria-hidden="true">⌘ / Ctrl K</kbd></a></div>

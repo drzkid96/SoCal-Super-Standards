@@ -10,7 +10,18 @@ def slug(name): return re.sub('[^a-z0-9]+','-',name.lower()).strip('-')
 def write(root,route,title,body):
     path=root/route/'index.md'
     path.parent.mkdir(exist_ok=True,parents=True)
-    path.write_text('---\ntitle: '+json.dumps(title,ensure_ascii=False)+'\ntableOfContents: false\n---\n\n'+body+'\n')
+    path.write_text('---\ntitle: '+json.dumps(title,ensure_ascii=False)+'\ntemplate: splash\ntableOfContents: false\n---\n\n'+body+'\n')
+
+def subject(record):
+    title=record['title'].lower()
+    groups=[
+        ('Signals and detection',r'signal|detection|traffic loop|cctv'),
+        ('Crossings and accessibility',r'crosswalk|pedestrian|curb ramp|accessible'),
+        ('Bikeways and transit',r'bikeway|bicycle|bike lane|transit|bus stop'),
+        ('Signs and markings',r'sign|striping|marking|lane line|center ?line|turn pocket|turn lane|legend|stop bar|pavement marker'),
+        ('Parking and access',r'parking|driveway|loading|truck dock'),
+    ]
+    return next((label for label,pattern in groups if re.search(pattern,title)), 'Public works and street design')
 
 def build(root,lookup):
     docs=prepare()
@@ -36,16 +47,20 @@ def build(root,lookup):
         name=mode['name'];items=by.get(name,[])
         lines=[f'<button class="mode-action" data-set-mode="{key}">Use {escape(name)} mode</button>']
         if items: lines+=['','## Publications','']
-        for d in sorted(items,key=lambda row:row['title']):
+        last_subject=None
+        for d in sorted(items,key=lambda row:(subject(row),row['title'])):
+            if subject(d)!=last_subject and len(items)>3:
+                last_subject=subject(d)
+                lines+=['','### '+last_subject,'']
             route='regions/'+key+'/'+d['key'];url=BASE+'/'+route+'/'
             title=d['title'];count=d['pages']
             lines.append(f'- [{escape(title)}]({url}) · {count} '+('pages' if count!=1 else 'page'))
             body=[f'<p class="reg-credit">{escape(name)} · {count} pages · <a href="{escape(d["source"])}">Publisher PDF</a></p>',
-                  '<div class="reg-controls" hidden><button type="button" data-step="-1">← Previous</button><label>Page <select aria-label="Select sheet"></select></label><button type="button" data-step="1">Next →</button></div>']
+                  '<div class="reg-controls" hidden><button type="button" data-step="-1">← Previous</button><label>Page <select aria-label="Select sheet"></select></label><button type="button" data-step="1">Next →</button><button type="button" class="reg-overview" aria-expanded="false">Sheet grid</button></div><div class="reg-contact" hidden></div>']
             for i,(label,txt) in enumerate(zip(d['labels'],d['texts'],strict=True),1):
                 img=f'{BASE}/regional-sheets/{d["key"]}/{i}.avif'
                 heading=f'Page {i}'+(' · '+label[:110] if label else '')
-                body.append(f'<section class="reg-page" id="p-{i}" data-label="{escape(heading,quote=True)}"><h2>{escape(heading)}</h2><a href="{img}"><img src="{img}" loading="lazy" alt="{escape(title,quote=True)}, page {i}"></a><p><a href="{url}#p-{i}">Link to this page</a> · <a href="{escape(d["source"])}#page={i}">Publisher PDF, page {i}</a></p>')
+                body.append(f'<section class="reg-page" id="p-{i}" data-label="{escape(heading,quote=True)}"><h2>{escape(heading)}</h2><a href="{img}" class="reg-scan" data-title="{escape(title,quote=True)}, page {i}">Open full sheet image</a><p><a href="{url}#p-{i}">Link to this page</a> · <a href="{escape(d["source"])}#page={i}">Publisher PDF, page {i}</a></p>')
                 if txt:body.append('<details><summary>Searchable page text</summary><p>'+escape(txt)+'</p></details>')
                 body.append('</section>')
                 if label:lookup.setdefault(name+' '+label[:100],[]).append([name+' · '+heading,url+'#p-'+str(i)])

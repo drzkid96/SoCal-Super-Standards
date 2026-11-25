@@ -29,7 +29,7 @@ official.update({
 'LADOT MPP 521':BASE+'/ladot/mpp-521/',
 'SMMC 9.28.120':'https://ecode360.com/45330882',
 'Caltrans Encroachment Permits Manual':'https://dot.ca.gov/programs/traffic-operations/ep/ep-manual',
-'Steel Trench Plating Guidelines':'https://dot.ca.gov/programs/traffic-operations/ep/ep-manual',
+
 'LA BOE Street Design Manual':BASE+'/boe/street-design/',
 })
 targets={k.casefold():v for k,v in official.items()}

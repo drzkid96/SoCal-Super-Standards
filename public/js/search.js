@@ -18,7 +18,7 @@
     return response.json();
   }
   function catalog() {
-    return catalogPromise ||= Promise.all([json('search-catalog'), json('retired'), json('glossary')]).then(([rows, retired, glossary]) => {
+    return catalogPromise ||= Promise.all([json(window.SSSAgency?.active ? 'collections/'+window.SSSAgency.active : 'search-catalog'), json('retired'), json('glossary')]).then(([rows, retired, glossary]) => {
       const records = rows.map(([path, label, tag, keys]) => ({
         url: base + path, label, tag, names: clean(label),
         hay: clean(label + ' ' + tag + ' ' + path.replaceAll('/', ' ') + ' ' + keys.join(' ')),

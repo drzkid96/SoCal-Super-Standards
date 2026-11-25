@@ -4,7 +4,8 @@ import starlight from '@astrojs/starlight';
 import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 execFileSync('python3', ['pipeline/prepare_reference.py'], { stdio: 'inherit' });
-const BUILD = Date.now().toString(36);
+import { createHash } from 'node:crypto';
+const scriptVersion = name => createHash('sha256').update(fs.readFileSync('public/js/'+name+'.js')).digest('hex').slice(0,12);
 
 const chapters = JSON.parse(fs.readFileSync('./data/ca-mutcd/chapters.json', 'utf8'));
 const fedChapters = JSON.parse(fs.readFileSync('./data/mutcd/chapters.json', 'utf8'));
@@ -88,15 +89,15 @@ export default defineConfig({
         ThemeSelect: './src/components/ThemeSelect.astro',
       },
       head: [
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/jurisdiction.js?v=' + BUILD, defer: true } },
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/search.js?v=' + BUILD, defer: true } },
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js?v=' + BUILD, defer: true } },
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js?v=' + BUILD, defer: true } },
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/sheets.js?v=' + BUILD, defer: true } },
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/recent-pages.js?v=' + BUILD, defer: true } },
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/reader-size.js?v=' + BUILD, defer: true } },
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/calculations.js?v=' + BUILD, defer: true } },
-        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/panel.js?v=' + BUILD, defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/jurisdiction.js?v=' + scriptVersion('jurisdiction'), defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/search.js?v=' + scriptVersion('search'), defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/site.js?v=' + scriptVersion('site'), defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/agent.js?v=' + scriptVersion('agent'), defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/sheets.js?v=' + scriptVersion('sheets'), defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/recent-pages.js?v=' + scriptVersion('recent-pages'), defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/reader-size.js?v=' + scriptVersion('reader-size'), defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/calculations.js?v=' + scriptVersion('calculations'), defer: true } },
+        { tag: 'script', attrs: { src: '/SoCal-Super-Standards/js/panel.js?v=' + scriptVersion('panel'), defer: true } },
       ],
       routeMiddleware: './src/lib/boe-navigation.ts',
       pagination: true,

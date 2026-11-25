@@ -49,7 +49,10 @@ if (id && id !== '404') {
       crumbs.push({label: agencies[publisher].short, href: BASE+'/'+publisher+'/'});
     }
   }
-  if (top === 'topics') {
+  if (top === 'regions' && segs.length>1) {
+    crumbs.push({label:'Geographic browser',href:BASE+'/regions/'});
+    if(segs.length>2){const issuers=JSON.parse(fs.readFileSync('public/data/agency-modes.json','utf8'));const issuer=issuers[segs[1]];if(issuer)crumbs.push({label:issuer.name,href:issuer.home});}
+  } else if (top === 'topics') {
     if (segs.length > 1) {
       crumbs.push({ label: 'Topics', href: `${BASE}/topics/` });
       const grp = TOPIC_GROUP[segs[1]];

@@ -62,7 +62,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     const a = ev.target.closest && ev.target.closest('a[href]');
     if (!a || a.matches('a.sref, a[data-svg], .dx-card, .sss-navlink') || a.closest('.pv-tip, .sref-tip, .ql-res')) { if (pvCur && a !== pvCur) hideP(); return; }
     if (a === pvCur) return;
-    hideP(); pvCur = a; loadPV();
+    hideP(); pvCur = a;
     pvTimer = setTimeout(() => showP(a), 220);
   });
   document.addEventListener('mouseout', (ev) => { if (pvCur && !(ev.relatedTarget && pvCur.contains(ev.relatedTarget))) hideP(); });
