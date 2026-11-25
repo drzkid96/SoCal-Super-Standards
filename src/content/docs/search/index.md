@@ -10,7 +10,7 @@ pagefind: false
 <input id="standards-query" name="q" type="search" placeholder="E 664.12, MPP 531 S-418.6 sheet 8, or curb ramp" autocomplete="off" />
 <label for="standards-source">Source</label>
 <select id="standards-source" name="source">
-<option value="">All sources</option><option>CA MUTCD</option><option>Federal MUTCD</option><option>Caltrans</option><option>LADOT</option><option>LA BOE</option><option>Local cities</option><option>Signs</option><option>Markings</option><option>Topics and tools</option><option>Guides and references</option>
+<option value="">All sources</option><option>CA MUTCD</option><option>Federal MUTCD</option><option>Caltrans</option><option>LADOT</option><option>LA BOE</option><option>Local cities</option><option>Regional standards</option><option>Signs</option><option>Markings</option><option>Topics and tools</option><option>Guides and references</option>
 </select>
 <button type="submit">Search</button>
 </form>

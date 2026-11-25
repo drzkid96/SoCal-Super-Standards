@@ -158,6 +158,8 @@ save(PUBLIC/"details.json",current_details)
 Path("public/data/lookup.json").write_text(json.dumps(look))
 from santa_monica_art import insert_previews
 insert_previews(root/'santa-monica/standard-plans.md')
+from regional_reader import build as build_regions
+build_regions(root, look)
 from search_catalog import build as build_search_catalog
 build_search_catalog(root, look, current_details)
 

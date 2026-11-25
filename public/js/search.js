@@ -57,6 +57,7 @@
     const number = Number(request[3]);
     const hits = [], available = [];
     for (const doc of await sheetPromise) {
+      if (window.SSSAgency && !window.SSSAgency.inScope(base+doc.route)) continue;
       if ((scope && scope !== doc.tag) || !doc.keys.some(alias => compact(alias) === key)) continue;
       const index = bySheet ? number-1 : doc.sheets.findIndex(([,page]) => page === number);
       if (!doc.sheets[index]) {
@@ -81,11 +82,12 @@
     const {records, withdrawn, synonyms} = await catalog();
     const code = compact(query), phrase = clean(query);
     if (!code) return [];
-    if ((!scope || ['Caltrans','Signs','CA MUTCD'].includes(scope)) && withdrawn.has(designation(query))) return [withdrawn.get(designation(query))];
+    if (!window.SSSAgency?.active && (!scope || ['Caltrans','Signs','CA MUTCD'].includes(scope)) && withdrawn.has(designation(query))) return [withdrawn.get(designation(query))];
     const words = phrase.split(' '), expanded = synonyms.get(phrase);
     const priority = {'CA MUTCD': 6, LADOT: 5, Caltrans: 5, 'LA BOE': 4};
     const hits = [];
     for (const record of records) {
+      if (window.SSSAgency && !window.SSSAgency.inScope(record.url)) continue;
       if (scope && scope !== record.tag) continue;
       let score;
       if (record.exact.includes(designation(query))) score = 135;
@@ -112,7 +114,10 @@
     const {query, scope} = parse(raw, facet);
     if (!query) return [];
     const api = await fullIndex();
-    const hits = await api.search(query, scope ? {filters:{source:scope}} : {});
+    const filters = {};
+    if(scope) filters.source=scope;
+    if(window.SSSAgency?.active) filters.agency=window.SSSAgency.active;
+    const hits = await api.search(query,{filters});
     return hits.results;
   }
   function fullRow(d) {
@@ -136,11 +141,12 @@
   const input = form.elements.q, source = form.elements.source, results = document.getElementById('standards-results');
   const status = document.getElementById('standards-status'), more = document.getElementById('standards-more');
   const params = new URLSearchParams(location.search);
-  input.value = params.get('q') || ''; source.value = params.get('source') || '';
+  input.value = params.get('q') || ''; source.value = window.SSSAgency?.active ? '' : (params.get('source') || '');
   let generation = 0, timer, ready = [], pages = [], seen, index, fullUnavailable, directUnavailable;
   function showRows(rows) {
     for (const hit of rows) {
       const url = new URL(hit.url, location.href);
+      if (window.SSSAgency?.active && !window.SSSAgency.inScope(url.href)) continue;
       if (seen.has(url.href)) continue;
       seen.add(url.href);
       const item = document.createElement('li'), a = document.createElement('a'), label = document.createElement('small');

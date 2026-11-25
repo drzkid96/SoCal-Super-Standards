@@ -66,6 +66,7 @@ from inline_examples import Artwork, BLOCKED
 artwork = Artwork(DIST)
 counts=defaultdict(int)
 for page in DIST.rglob('*.html'):
+    if page.relative_to(DIST).parts[0] == 'regions':continue
     raw=page.read_text(); start=re.search(r'<div\b[^>]*class="sl-markdown-content"[^>]*>',raw)
     if not start:continue
     # Astro closes the content wrapper before the pagination. Consume only that balanced div.

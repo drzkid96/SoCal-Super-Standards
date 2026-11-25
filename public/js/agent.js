@@ -3,6 +3,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
 // Lives in the right-side drawer (panel.js) + homepage 1-click AI loader + MUTCD section summarizer.
 // Zero API keys. Instant built-in search engine + optional 1-click free in-browser AI model.
 (() => {
+  if(window.SSSAgency?.active) return;
   const BASE = '/SoCal-Super-Standards';
   const AI_PREF_KEY = 'sss-web-ai-enabled';
   const OR_KEY = 'sss-or-key';

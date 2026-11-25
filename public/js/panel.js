@@ -1,5 +1,6 @@
 // Right-edge utility drawer on every page: Checks | Ask (AI) | Calc (Traffic Engineering Calculators)
 (() => {
+  if(window.SSSAgency?.active) return;
   const BASE = '/SoCal-Super-Standards';
   const OPEN_KEY = 'sss-panel-open', TAB_KEY = 'sss-panel-tab';
   const ls = { get: (k, d = '') => { try { return localStorage.getItem(k) ?? d; } catch { return d; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch {} } };

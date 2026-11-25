@@ -12,3 +12,7 @@ public/figs/fhwa-shs/
 
 .manual-art/
 public/data/search-catalog.json
+.regional-cache/
+public/regional-sheets/
+public/data/agency-modes.json
+public/data/region-map.svg

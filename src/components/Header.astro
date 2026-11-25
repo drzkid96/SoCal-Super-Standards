@@ -4,13 +4,15 @@ import SocialIcons from '@astrojs/starlight/components/SocialIcons.astro';
 
 const BASE = '/SoCal-Super-Standards';
 const path = Astro.url.pathname;
+import fs from 'node:fs';
+const modes=JSON.parse(fs.readFileSync('public/data/agency-modes.json','utf8'));
 
 const navItems = [
   { label: 'Details', href: `${BASE}/details/`, match: ['/details/', '/signs/', '/markings/', '/keywords/'] },
   { label: 'Topics', href: `${BASE}/topics/`, match: ['/topics/'] },
   { label: 'MUTCD', href: `${BASE}/ca-mutcd/`, match: ['/ca-mutcd/', '/mutcd/'] },
   { label: 'Agencies', href: `${BASE}/agencies/`, match: ['/agencies/', '/caltrans/', '/boe/', '/ladot/', '/fhwa/', '/ada/'] },
-  { label: 'LA & Cities', href: `${BASE}/cities/`, match: ['/cities/', '/burbank/', '/pasadena/', '/long-beach/', '/palmdale/', '/torrance/', '/gardena/', '/glendora/', '/santa-monica/', '/west-hollywood/', '/culver-city/'] },
+  { label: 'Map', href: `${BASE}/regions/`, match: ['/cities/', '/burbank/', '/pasadena/', '/long-beach/', '/palmdale/', '/torrance/', '/gardena/', '/glendora/', '/santa-monica/', '/west-hollywood/', '/culver-city/'] },
   { label: 'Guides', href: `${BASE}/guides/`, match: ['/guides/', '/bulletins/', '/aashto/'] },
 ];
 
@@ -31,6 +33,8 @@ const isActive = (prefixes: string[]) => prefixes.some((p) => relPath === p || r
       </a>
     ))}
   </nav>
+  <label class="agency-picker"><span>Workspace</span><select id="agency-mode" aria-label="Choose city or agency"><option value="">All agencies</option></select></label>
+  <script is:inline define:vars={{modes}}>window.__agencyCatalog=modes;</script>
   <div class="sl-flex print:hidden sss-search-slot"><a class="sss-search-link" href={BASE+'/search/'} aria-label="Search all standards">Search <kbd aria-hidden="true">⌘ / Ctrl K</kbd></a></div>
   <div class="sl-hidden md:sl-flex print:hidden right-group">
     <div class="sl-flex social-icons"><SocialIcons /></div>
