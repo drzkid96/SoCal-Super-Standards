@@ -9,11 +9,11 @@ permissions:
   contents: read
   pages: write
   id-token: write
-concurrency:
-  group: pages-${{ github.ref }}
-  cancel-in-progress: false
 jobs:
   build:
+    concurrency:
+      group: standards-build-${{ github.ref }}
+      cancel-in-progress: true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -54,7 +54,7 @@ jobs:
           key: santa-monica-ttcp-${{ hashFiles('pipeline/santa_monica_art.py') }}
       - name: Render Santa Monica original TTCP documents
         run: python pipeline/santa_monica_art.py
-      - uses: actions/cache@v4
+      - uses: actions/cache/restore@v4
         id: geography
         with:
           path: public/api/v2
@@ -65,6 +65,11 @@ jobs:
           command -v ogr2ogr >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y gdal-bin)
           python -m pip install 'pyshp==2.3.1' 'shapely>=2,<3'
           python pipeline/atlas/compile.py
+      - uses: actions/cache/save@v4
+        if: steps.geography.outputs.cache-hit != 'true'
+        with:
+          path: public/api/v2
+          key: ${{ steps.geography.outputs.cache-primary-key }}
       - uses: withastro/action@v3
         with:
           node-version: 22
@@ -80,6 +85,9 @@ jobs:
           python -m pip install selenium
           python pipeline/test_sheet_viewer.py
   deploy:
+    concurrency:
+      group: standards-pages-publish
+      cancel-in-progress: false
     if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest

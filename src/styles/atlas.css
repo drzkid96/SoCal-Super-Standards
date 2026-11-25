@@ -67,3 +67,8 @@ body:has(.atlas) .section-heading p{font-size:.96rem}
 .publisher-reader{border:1px solid var(--sl-color-hairline);border-radius:.55rem;padding:.75rem 1rem}
 .publisher-reader input{width:5rem}.publisher-reader :where(input,button){font:inherit;margin:.25rem;padding:.35rem .6rem;color:var(--sl-color-text);background:var(--sl-color-bg);border:1px solid var(--sl-color-gray-5);border-radius:.35rem}
 .publisher-reader iframe{height:clamp(18rem,52vh,39rem);width:100%;margin-top:.65rem;border:1px solid var(--sl-color-hairline)}
+
+.section-heading.agency-heading{padding:.85rem clamp(1rem,2vw,1.65rem);border-inline-start-color:var(--agency-trim)}
+.section-heading.agency-heading .section-context,.section-heading.agency-heading p,.section-heading.agency-heading .section-jump span{color:#e6f1ed}
+.section-heading.agency-heading .section-context span+span::before{color:var(--agency-trim)}
+.section-heading.agency-heading .section-links a{margin:0}

@@ -144,7 +144,7 @@ const nav = id && id !== '404' ? getPageNav(id) : undefined;
   </div>
 )}
 {identity ? (
-  <header class="section-heading" data-section-identity={identity.type} data-tone={identity.tone}>
+  <header class:list={["section-heading", {"agency-heading":!!activeHub}]} data-agency={activeHub ? id : undefined} data-section-identity={identity.type} data-tone={identity.tone}>
     <div class="section-context"><span>{identity.label}</span><span>{identity.type}</span></div>
     <DefaultPageTitle />
     {(!id.includes('/') || id==='map/data') && <p>{identity.description}</p>}
