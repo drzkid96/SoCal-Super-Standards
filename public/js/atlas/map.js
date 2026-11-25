@@ -22,7 +22,9 @@ function inArea(x,y,g){
 
 const ownerLabels={1:'State highway agency',2:'County highway agency',3:'Town or township highway agency',4:'City or municipal highway agency',11:'State park, forest, or reservation agency',12:'Local park, forest, or reservation agency',21:'Other state agency',25:'Other local agency',26:'Private',27:'Railroad',31:'State toll authority',32:'Local toll authority',40:'Other public instrumentality',50:'Tribal nation',60:'Other federal agency',62:'Bureau of Indian Affairs',63:'U.S. Fish and Wildlife Service',64:'U.S. Forest Service',66:'National Park Service',67:'Tennessee Valley Authority',68:'Bureau of Land Management',69:'Bureau of Reclamation',70:'U.S. Army Corps of Engineers',72:'U.S. Air Force',73:'U.S. Navy',74:'U.S. Army',80:'Other'};
 function roadName(r){
-  if(r.name) return r.name;
+  if(r.name && r.name!==r.route_id)return r.name;
+  const state=/^SHS_0*(\d+)([A-Z]?)/i.exec(r.route_id||'');
+  if(state)return 'State highway route '+state[1]+state[2];
   const parts=(r.route_id||'').split('_');
   return parts.length>=4?parts.slice(2,-1).join(' '):r.route_id;
 }
@@ -142,7 +144,14 @@ async function start(){
         const matches=p.topics[topic]||[];
         for(const item of matches.slice(0,3))row.append(link(item.title,item.url));
         if(!matches.length)row.append(node('small','No indexed match for '+topics[topic]+'. Browse the collection by title.'));
-      }else if(p.publications[0])row.append(link(p.publications[0].title,p.publications[0].url));
+      }else{
+        const mainRoutes={caltrans:['/ca-mutcd/','/caltrans/standard-plans-2026/'],fhwa:['/mutcd/'],ladot:['/ladot/mpp-531/'],
+          'los-angeles-county-public-works':['/regions/los-angeles-county-public-works/la-road-plans/']};
+        const selected=p.kind==='Transit agency'?p.publications.filter(v=>v.url.includes('/transit/')):
+          p.publications.length===1?p.publications:(mainRoutes[key]||[]).map(path=>p.publications.find(v=>v.url===base+path)).filter(Boolean);
+        for(const book of selected)row.append(link(book.title,book.url));
+        if(!selected.length)row.append(link('Browse '+p.publications.length+' publications and drawings',p.home+'#publications-and-drawings'));
+      }
       items.append(row);
     }
     return items;
@@ -223,7 +232,7 @@ async function start(){
         const row=node('div',null,'atlas-record'),b=button(roadName(r)||'Recorded segment',()=>{
           selectedLayer.clearLayers();L.polyline(latLng(r.line),{color:'#cb5928',weight:6,interactive:false}).addTo(selectedLayer);
         });
-        row.append(b,node('span',(ownerLabels[r.owner]||'Owner code '+r.owner)+' · '+Math.round(r.distance)+' m'),node('small',r.route_id));roads.append(row);
+        row.append(b,node('span',(ownerLabels[r.owner]||'Owner code '+r.owner)+' · '+Math.round(r.distance)+' m'),node('small','HPMS ID '+r.route_id));roads.append(row);
       }
       if(found.highways.length){
         roads.append(node('p','Caltrans network within 40 m: '+found.highways.slice(0,4).map(h=>'Route '+h.route+' '+(h.direction||'')+' · District '+h.district).join(' / ')));
