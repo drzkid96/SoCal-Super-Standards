@@ -50,13 +50,7 @@ const cityAgencyDocs = [
   { label: 'Culver City (45 sheets, 2025)', link: '/culver-city/standard-plans/' },
   { label: 'West Hollywood (7 sheets)', link: '/west-hollywood/standard-plans/' },
 ];
-const ladotDocs = ladotCfg.map((c) => {
-  const d = JSON.parse(fs.readFileSync(`./data/docs/${c.slug.replace('/', '__')}.json`, 'utf8'));
-  return { label: c.short, collapsed: true, items: [
-    { label: 'Overview', link: `/${c.slug}/` },
-    ...d.chapters.map((ch) => ({ label: ch.title, link: `/${c.slug}/${ch.slug}/` })),
-  ] };
-});
+const ladotDocs = ladotCfg.map(doc => ({ label: doc.short, link: `/${doc.slug}/` }));
 
 export default defineConfig({
   site: 'https://drzkid96.github.io',
