@@ -96,7 +96,7 @@ def chart_tiles(content,by_url):
     for (base,hand,rest),urls in groups.items():
         if len(urls)<2:continue
         canonical=base+'('+hand+')'+rest
-        primary=min(urls,key=lambda url:(not any(r['code'].upper()==canonical for r in urls[url]),url))
+        primary=min(urls,key=lambda url:(not any(r['code'].upper()==canonical and r['signUrl']==url for r in urls[url]),url))
         # An official record may carry other variants. Preserve mixed-use routes.
         for url,records in urls.items():
             if url==primary or len(records)!=len(by_url[url]):continue
@@ -119,6 +119,8 @@ def chart_tiles(content,by_url):
         if not choices:return ''
         choices=sorted(choices,key=lambda r:(r['sourceDrawing']!='official-standard',r['sizeStatus']=='Reference size unknown',bool(r.get('observationIds')),r['id']))
         main=choices[0]
+        if url in aliases and main.get('preview'):
+            card=re.sub(r'(<span class="simg"><img[^>]*? src=")[^"]+',lambda m:m[1]+ESC(BASE+main['preview']),card,count=1)
         card=card.replace('class="scard','data-dwg="1" class="scard',1)
         if 'class="simg"' not in card and main.get('preview'):
             art=f'<span class="simg"><img loading="lazy" decoding="async" src="{BASE}{ESC(main["preview"])}" alt=""></span>'
