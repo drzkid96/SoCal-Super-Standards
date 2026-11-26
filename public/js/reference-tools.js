@@ -276,6 +276,7 @@
     if(!local)button(top,'Guide PDF',()=>exportDocs(true));
     disclosure?.addEventListener('toggle',()=>{if(disclosure.open && !frame.firstElementChild)draw();});
     window.addEventListener('hashchange',draw);await draw();
+    for(const link of publication.querySelectorAll('[data-reader-shortcut]'))link.href='#p'+link.dataset.readerShortcut;
   }
   function clean(root){const n=root.cloneNode(true);n.querySelectorAll('script,style,nav,button,select,input,.plan-source-alias,.plan-finder,.ladot-page-targets,.drawing-explanation>summary,.reference-actions,.book-reader,.sec-toc,.reg-controls,.reg-contact,.export-tools,.operator-book,[data-pagefind-filter]').forEach(e=>e.remove());return n;}
   // Reflow the article text into printable pages, preserving headings, figure order and table rows.

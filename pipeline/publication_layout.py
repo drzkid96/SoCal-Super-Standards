@@ -65,7 +65,10 @@ def build(root, ladot_sets=None):
         overview = PURPOSE.get(key, doc['title'])
         steps = ''
         if key == 'fhwa/step-uncontrolled-crossings':
-            steps = ' <a href="#p15">Inventory a site</a> · <a href="#p22">Select a countermeasure</a> · <a href="#p31">Monitor outcomes</a>.'
+            pages={row['page']:row['path'] for row in rows}
+            shortcuts=((15,'Inventory a site'),(22,'Select a countermeasure'),(31,'Monitor outcomes'))
+            steps=' '+' · '.join(f'<a id="p{page}" href="{BASE}/{pages[page]}/#p{page}" data-reader-shortcut="{page}">{label}</a>'
+                                for page,label in shortcuts)+'.'
         reader = (f'<section class="publication" data-publication="{key}"><p class="pub-intro">'
                   f'{escape(overview)}{steps}</p>'
                   f'<noscript><a href="{BASE}/{first["path"]}/#p{first["page"]}">Open the first source page</a></noscript></section>')
