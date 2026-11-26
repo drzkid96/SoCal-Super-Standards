@@ -1,0 +1,134 @@
+/* Keep direct reference actions beside the material they operate on. */
+.sl-markdown-content .reference-actions {
+  align-items: center;
+  gap: .2rem .35rem;
+  margin: .45rem 0;
+  line-height: 1.35;
+}
+.sl-markdown-content .reference-actions > *,
+.sl-markdown-content .book-reader > *,
+.sl-markdown-content .sheet-controls > * { margin-block: 0; }
+.sl-markdown-content .reference-actions > button,
+.sl-markdown-content .document-actions .book-reader > a {
+  min-height: 2rem;
+  padding: .3rem .54rem;
+  color: var(--sl-color-text);
+  background: var(--sl-color-bg);
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: .375rem;
+  font: inherit;
+  font-size: .79rem;
+  line-height: 1.25;
+}
+.sl-markdown-content .reference-actions button:hover,
+.sl-markdown-content .reference-actions a:hover { border-color: var(--sl-color-text-accent); }
+.sl-markdown-content .document-actions .book-reader { margin: 0 auto 0 0; }
+.sl-markdown-content .document-actions .book-reader > a {
+  display: inline-flex; align-items: center; color: var(--sl-color-text-accent);
+}
+.sl-markdown-content .srcbar {
+  margin-block: 0 .4rem;
+  padding: .38rem .7rem;
+  font-size: .82rem;
+  line-height: 1.5;
+}
+.sl-markdown-content .sec-toc {
+  margin-block: .6rem;
+  padding: .35rem .65rem;
+  background: var(--sl-color-bg);
+  color: var(--sl-color-text);
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: .4rem;
+}
+.sl-markdown-content .sec-toc summary { font-size: .86rem; line-height: 1.5; cursor: pointer; }
+.sl-markdown-content .sec-toc li { break-inside: avoid; }
+.sl-markdown-content .sec-toc ~ h2 { margin-block: 1.75rem .3rem; }
+.sl-markdown-content .secmeta { margin-block: .35rem .7rem; font-size: .77rem; line-height: 1.6; }
+.sl-markdown-content .secmeta .section-actions {
+  display: inline-flex;
+  margin: 0 0 0 .45rem;
+  vertical-align: middle;
+}
+.sl-markdown-content .section-actions button {
+  min-height: 1.75rem;
+  padding: .14rem .38rem;
+  font-size: .75rem;
+}
+.sl-markdown-content .prov { max-width: 85ch; }
+.sl-markdown-content .mfig figcaption,
+.sl-markdown-content .dfig figcaption { line-height: 1.5; }
+.sl-markdown-content .figure-actions { justify-content: flex-start; }
+.sl-markdown-content .figure-actions a { margin-inline-end: .35rem; }
+.sl-markdown-content .dwg-head {
+  display: grid;
+  gap: .25rem;
+  padding: .5rem .8rem;
+  border-radius: .45rem;
+  line-height: 1.45;
+}
+.sl-markdown-content .dwg-head :is(div,span,b) { margin-block: 0; }
+.sl-markdown-content .dwg-num { font-size: 1rem; }
+.sl-markdown-content .dwg-src { color: var(--sl-color-text); font-size: .82rem; }
+.sl-markdown-content .dwg-facts { flex-wrap: wrap; gap: .2rem .8rem; font-size: .78rem; }
+.sl-markdown-content .dwg-head ~ h2#sheets { margin-block: 1.3rem .5rem; }
+.sl-markdown-content .sheet-controls { min-width: 0; padding: .4rem .5rem; }
+.sl-markdown-content .sheet-strip { border-top: 1px solid var(--sl-color-gray-5); border-bottom: 0; }
+.sl-markdown-content .sheet-strip .sc-thumb { flex: 0 0 auto; }
+.sl-markdown-content .sheet-deck,
+.sl-markdown-content .sss-ms-wrap,
+.sl-markdown-content :is(.sheet-frame,.sheet-stage,.sdetail-info,.sdetail-img,.xidx dd) { min-width: 0; }
+.sl-markdown-content .sdetail-img { padding: .8rem; align-self: start; }
+.sl-markdown-content .sign-art { margin: 0; }
+.sl-markdown-content .sign-art > img { display: block; width: auto; margin: 0 auto; max-height: min(31vh,15rem); object-fit: contain; }
+.sl-markdown-content .sign-art .figure-actions { justify-content: center; }
+.sl-markdown-content .sdetail-info > * { margin-block: 0 .4rem; }
+.sl-markdown-content .sdetail :is(dt,dd) { margin: 0; overflow-wrap: anywhere; }
+.sl-markdown-content .xidx > div { grid-template-columns: minmax(8rem, 11rem) minmax(0, 1fr); }
+.sl-markdown-content .xidx :is(.xchip,.xchip b) { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+@media (max-width: 44rem) {
+  .sl-markdown-content .sec-toc ul { columns: 1; }
+  .sl-markdown-content .secmeta .section-actions { display: flex; margin: .2rem 0 0; }
+  .sl-markdown-content .sheet-controls {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto auto;
+    gap: .25rem;
+    position: static;
+  }
+  .sl-markdown-content .sheet-controls .sc-select { grid-area: 1 / 1 / 2 / 4; width: 100%; min-width: 0; }
+  .sl-markdown-content .sheet-controls .sc-badge { grid-area: 1 / 4; }
+  .sl-markdown-content .sheet-controls .sc-mode { grid-area: 2 / 2; }
+  .sl-markdown-content .sheet-controls .sc-prev { grid-area: 2 / 1; }
+  .sl-markdown-content .sheet-controls .sc-next { grid-area: 2 / 3; }
+  .sl-markdown-content .sheet-controls .sc-zoom { grid-area: 2 / 4; }
+  .sl-markdown-content .sheet-controls .reader-size { grid-column: 1 / -1; }
+  .sl-markdown-content .reader-size { gap: .2rem .35rem; }
+  .sl-markdown-content .reader-size input[type=range] { min-width: 2.4rem; width: 2.5rem; flex: 1 1 2.5rem; max-width: 7rem; }
+  .sl-markdown-content .reader-size :is(button,.size-label,.size-value) { font-size: .75rem; }
+  .sl-markdown-content .sheet-stage { padding: .6rem; }
+  .sl-markdown-content .sheet-deck { grid-template-columns: minmax(0,1fr); }
+  .sl-markdown-content .xidx > div { grid-template-columns: minmax(0, 1fr); gap: .3rem; }
+  .sl-markdown-content .xidx dd { margin-inline: 0; }
+  .sl-markdown-content .sdetail { gap: .65rem; }
+}
+@media print {
+  .sl-markdown-content .reference-actions,
+  .sl-markdown-content .sheet-controls,
+  .sl-markdown-content .sheet-strip { display: none !important; }
+}
+.sl-markdown-content .drawing-explanation {
+  margin-block: .25rem .7rem;
+  padding-inline: .55rem;
+  border-inline-start: 2px solid var(--sl-color-gray-5);
+  font-size: .9rem;
+  line-height: 1.6;
+}
+.sl-markdown-content .drawing-explanation > summary {
+  cursor: pointer; color: var(--sl-color-text-accent); font-size: .82rem; font-weight: 600;
+}
+@media print {
+  .drawing-explanation::details-content { display: contents; }
+  .drawing-explanation > summary { display: none; }
+}
+@media screen and (max-width: 44rem) {
+  .sl-markdown-content .sign-art:only-child > img { max-height: min(24vh, 12rem); }
+}

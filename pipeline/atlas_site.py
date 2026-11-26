@@ -155,8 +155,7 @@ def prepare(root,look):
     # Keep county anchors from previous editions and route every issuer through its profile.
     directory=root/'regions/index.md';text=directory.read_text()
     start=text.index('<div class="geobrowse">');end=text.index('<section class="county-group"',start)
-    text=text[:start]+('<p>Choose a city on the municipal standards map or browse issuing agencies by county.</p>\n'+
-                        anchor(route('map'),'Open the municipal standards map')+'\n\n')+text[end:]
+    text=text[:start]+('<p class="jurisdiction-intro">Browse by county or '+anchor(route('map'),'choose a city on the map')+'.</p>\n\n')+text[end:]
     for key,_,_,_,_ in editions:
         text=text.replace('"'+route('transit/'+key)+'"','"'+profiles[key]['home']+'"')
     for name,code in county_names.items():
@@ -177,7 +176,9 @@ def prepare(root,look):
         end=text.index('</section>',pos)
         directory_list='<details><summary>All '+str(len(cities))+' municipalities in '+escape(name)+' County</summary><ul>'+''.join(entries)+'</ul></details>'
         text=text[:end]+directory_list+text[end:]
-    directory.write_text(text)
+    first=text.index('<section class="county-group"')
+    last=text.rindex('</section>')+len('</section>')
+    directory.write_text(text[:first]+'<div class="county-directory">'+text[first:last]+'</div>'+text[last:])
     home=root/'index.mdx';text=home.read_text()
     for name,code in county_names.items():
         text=text.replace(route('regions')+'#county-'+slug(name),route('map')+'?county='+code)
@@ -217,24 +218,29 @@ def profile_body(p,profiles):
            'Regional agency':'Find regional planning guidance and identify the city, county, or operator responsible for implementation.',
            'Regional standards':'Find the regional drawing series, then check the adopting agency and its local supplements.'}
     mapurl=route('map')+'?issuer='+key
-    head=('<div class="authority-lead"><p>'+leads[p['kind']]+'</p><div class="authority-actions">'+
-          anchor(mapurl,'Browse map coverage')+f'<button class="mode-action" data-set-mode="{key}">Use {escape(name)} mode</button></div></div>')
+    head=(f'<div class="publisher-toolbar"><span>{escape(p["kind"])} · {escape(county_name)}</span>'+
+          anchor(mapurl,'View on map')+f'<button class="mode-action" data-set-mode="{key}">Use {escape(name)} mode</button></div>')
     cards=[]
     for doc in publications:
         n=doc.get('pages');chapters=doc.get('chapters')
         count=(f'{n} '+('page' if n==1 else 'pages') if n else f'{chapters} '+('chapter' if chapters==1 else 'chapters') if chapters else doc['kind'])
         card='<a href="'+escape(doc['url'])+'"><strong>'+escape(doc['title'])+'</strong><span>'+escape(count)+'</span></a>'
         cards.append((subject(doc),card))
-    if len(cards)<=6:
+    if len(cards)<=16:
         shelves='<div class="authority-books">'+''.join(c for _,c in cards)+'</div>'
     else:
         grouped=defaultdict(list)
         for label,card in cards:grouped[label].append(card)
-        shelves='<div class="authority-shelves">'+''.join('<details><summary>'+escape(label)+' <small>'+str(len(items))+'</small></summary><div class="authority-books">'+''.join(items)+'</div></details>' for label,items in sorted(grouped.items()))+'</div>'
-    sections=['<p class="authority-scope">'+escape(p['kind'])+' · '+escape(county_name)+'</p>',head,
+        groups=[]
+        for label,items in sorted(grouped.items()):
+            remaining=len(items)-2
+            more=('<details><summary>Show '+str(remaining)+' more</summary><div class="authority-books">'+''.join(items[2:])+'</div></details>') if remaining>0 else ''
+            groups.append('<section><h3>'+escape(label)+'</h3><div class="authority-books">'+''.join(items[:2])+'</div>'+more+'</section>')
+        shelves='<div class="publication-families">'+''.join(groups)+'</div>'
+    sections=[head,
               '## Publications and drawings',shelves,'## Find a reference',
-              f'<div class="agency-browser" data-agency="{key}"><label>Filter this collection <input aria-label="Filter collection" placeholder="Drawing number, title, or subject"></label><div role="status"></div><ul></ul><button hidden>More results</button></div>',
-              '## Project coordination','<div class="authority-related">'+''.join(anchor(profiles[k]['home'],profiles[k]['name']) for k in p['related'])+'</div>',
+              f'<div class="agency-browser" data-agency="{key}"><label><span class="sr-only">Search this collection</span><input type="search" aria-label="Search this collection" placeholder="Drawing number, title, or subject"></label><button type="button">Browse all references</button><div role="status" aria-live="polite"></div><ul></ul></div>',
+              '## Project coordination',leads[p['kind']],'<div class="authority-related">'+''.join(anchor(profiles[k]['home'],profiles[k]['name']) for k in p['related'])+'</div>',
               '## Publisher and coverage',anchor(p['official'],'Official publisher · '+domain(p['official']))+' · '+anchor(route('map/data'),'Geographic sources and coverage'),
               f'<span hidden data-pagefind-filter="agency:{key}"></span>']
     return '\n\n'.join(sections)
@@ -338,8 +344,9 @@ def finish(root,profiles):
         scoped={BASE+r[0] for r in coll if BASE+r[0]!=p['home']}
         p['referenceCount']=len(scoped)
         p['topics']=topic_references(p,coll,details)
-        path=root/'regions'/key/'index.md';txt=path.read_text().replace('## Find a reference',f'## Find a reference\n\n{len(scoped):,} indexed '+('destination' if len(scoped)==1 else 'destinations')+' in this collection.' )
-        path.write_text(txt.replace('## Find a reference','## Review by topic\n\n'+task_section(p)+'\n\n## Find a reference',1))
+        path=root/'regions'/key/'index.md'
+        txt=path.read_text().replace('Browse all references</button>',f'Browse all {len(scoped):,}</button>')
+        path.write_text(txt.replace('## Project coordination','## Review by topic\n\n'+task_section(p)+'\n\n## Project coordination',1))
         conn.execute('INSERT INTO agency VALUES(?,?,?,?,?,?)',(key,p['name'],p['kind'],p['county'],p['place'],p['home']))
         for topic,rows in p['topics'].items():
             conn.executemany('INSERT INTO agency_topic_reference VALUES(?,?,?,?)',[(key,topic,r['url'],i) for i,r in enumerate(rows,1)])

@@ -46,7 +46,7 @@
     document.title=modes[active].name+' · '+document.title;
     document.querySelectorAll('.sss-topnav,.sidebar-content,.right-sidebar-panel nav,.sss-pager').forEach(nav=>{
       nav.querySelectorAll('a[href]').forEach(a=>{
-        if(!inScope(a.href) && new URL(a.href).pathname!==searchPath) (a.closest('li')||a).hidden=true;
+        if(!inScope(a.href) && new URL(a.href).pathname!==searchPath && !new URL(a.href).pathname.startsWith(mapPath)) (a.closest('li')||a).hidden=true;
       });
       nav.querySelectorAll('details').forEach(d=>{if(![...d.querySelectorAll('a')].some(a=>!a.closest('[hidden]')))d.hidden=true;});
     });
@@ -58,11 +58,14 @@
       if(card && !card.closest('.prov,.dtext'))card.hidden=true;
       else a.replaceWith(document.createTextNode(a.textContent));
     });
-    const banner=document.createElement('nav');banner.className='mode-banner';
-    const home=document.createElement('a');home.href=modes[active].home;home.textContent=modes[active].name+' workspace';
-    const leave=document.createElement('button');leave.textContent='Show all agencies';leave.onclick=()=>change('');
-    banner.append(home,leave);document.querySelector('main')?.prepend(banner);
-    document.querySelectorAll('[data-set-mode],.sss-topnav,.right-group').forEach(e=>e.hidden=true);
+    const label=document.querySelector('[data-workspace-name]');
+    if(label)label.textContent=modes[active].name;
+    const preferences=label?.closest('details');
+    if(preferences){
+      const home=document.createElement('a');home.href=modes[active].home;home.textContent=modes[active].name+' standards';
+      preferences.querySelector('.nav-dropdown').prepend(home);
+    }
+    document.querySelectorAll('[data-set-mode]').forEach(e=>e.hidden=true);
     const searchLink=document.querySelector('.sss-search-link');
     if(searchLink)searchLink.setAttribute('aria-label','Search '+modes[active].name);
     const facets=document.querySelector('#standards-search select[name="source"]');
@@ -71,21 +74,38 @@
   document.querySelectorAll('[data-set-mode]').forEach(b=>b.onclick=()=>change(b.dataset.setMode));
   const browser=document.querySelector('.agency-browser');
   if(browser){
-    const input=browser.querySelector('input'), list=browser.querySelector('ul'), count=browser.querySelector('[role=status]'), more=browser.querySelector('button');
-    fetch(base+'/data/collections/'+browser.dataset.agency+'.json').then(r=>r.json()).then(all=>{
-      const entries=all.filter(([path])=>inScope(base+path,browser.dataset.agency)&&base+path!==modes[browser.dataset.agency].home);
-      let limit=30;
-      function display(){
-        const terms=input.value.trim().toLowerCase().split(/\s+/);
-        const found=entries.filter(([path,title,tag,keys])=>terms.every(t=>(title+' '+keys.join(' ')+' '+path).toLowerCase().includes(t)));
-        list.replaceChildren();
-        for(const [path,title] of found.slice(0,limit)){
-          const li=document.createElement('li'),a=document.createElement('a');a.href=base+path;a.textContent=title;li.append(a);list.append(li);
-        }
-        count.textContent=found.length.toLocaleString()+' matching references';more.hidden=found.length<=limit;
+    const input=browser.querySelector('input'), list=browser.querySelector('ul');
+    const count=browser.querySelector('[role=status]'), more=browser.querySelector('button');
+    const browseLabel=more.textContent;
+    let request, limit=12, browsed=false;
+
+    function collection(){
+      if(!request)request=fetch(base+'/data/collections/'+browser.dataset.agency+'.json')
+        .then(r=>{if(!r.ok)throw new Error('Index unavailable');return r.json();})
+        .then(rows=>rows.filter(([path])=>inScope(base+path,browser.dataset.agency)&&base+path!==modes[browser.dataset.agency].home))
+        .catch(error=>{request=undefined;throw error;});
+      return request;
+    }
+    async function display(){
+      if(!input.value.trim() && !browsed){
+        list.replaceChildren();count.textContent='';more.hidden=false;more.textContent=browseLabel;return;
       }
-      input.oninput=()=>{limit=30;display();};more.onclick=()=>{limit+=30;display();};display();
-    }).catch(()=>count.textContent='Collection index unavailable.');
+      try{
+        const entries=await collection();
+        const words=input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+        if(!words.length && !browsed)return;
+        const found=entries.filter(([path,title,tag,keys])=>words.every(t=>(title+' '+keys.join(' ')+' '+path).toLowerCase().includes(t)));
+        list.replaceChildren(...found.slice(0,limit).map(([path,title])=>{
+          const li=document.createElement('li'),a=document.createElement('a');a.href=base+path;a.textContent=title;li.append(a);return li;
+        }));
+        count.textContent=found.length ? 'Showing '+Math.min(limit,found.length)+' of '+found.length.toLocaleString() : 'No matching references';
+        more.textContent='Show more';more.hidden=found.length<=limit;
+      }catch{
+        count.textContent='Collection index unavailable.';more.hidden=false;more.textContent='Retry';
+      }
+    }
+    input.oninput=()=>{limit=12;browsed=false;display();};
+    more.onclick=()=>{if(browsed||input.value.trim())limit+=12;browsed=true;display();};
   }
   const bar=document.querySelector('.reg-controls');
   if(bar){

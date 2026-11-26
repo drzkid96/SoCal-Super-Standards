@@ -432,66 +432,11 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
   });
 })();
 
-/* ---------- session back / forward / recent pages, sheet jumper & keyboard prev/next ---------- */
+/* ---------- chapter sheet navigation and keyboard shortcuts ---------- */
 (() => {
-  const KEY = 'sss_recent_v1';
-  const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-
+  const esc = value => String(value ?? '').replaceAll('&','&amp;').replaceAll('"','&quot;')
+    .replaceAll('<','&lt;').replaceAll('>','&gt;');
   window.__ready(() => {
-    // 1. Track recent pages in this browser tab
-    const curUrl = location.pathname + location.search;
-    const h1 = document.querySelector('h1');
-    const curTitle = (h1 ? h1.textContent : document.title.split('|')[0]).trim();
-    let list = [];
-    try { list = JSON.parse(sessionStorage.getItem(KEY) || '[]'); } catch (e) { list = []; }
-    if (!Array.isArray(list)) list = [];
-    list = [{ u: curUrl, t: curTitle }, ...list.filter((x) => x && x.u !== curUrl)].slice(0, 14);
-    try { sessionStorage.setItem(KEY, JSON.stringify(list)); } catch (e) {}
-
-    // Wire Back / Forward / Recent controls in topbar
-    const backBtn = document.querySelector('[data-nav-back]');
-    const fwdBtn = document.querySelector('[data-nav-fwd]');
-    if (backBtn) {
-      backBtn.addEventListener('click', () => {
-        if (history.length > 1) history.back();
-        else {
-          const prev = list.find((x) => x.u !== curUrl);
-          if (prev) location.href = prev.u;
-        }
-      });
-    }
-    if (fwdBtn) {
-      fwdBtn.addEventListener('click', () => history.forward());
-    }
-
-    const recBtn = document.querySelector('[data-recent-toggle]');
-    const recMenu = document.querySelector('.sss-recent-menu');
-    if (recBtn && recMenu) {
-      const others = list.filter((x) => x.u !== curUrl);
-      if (!others.length) {
-        recBtn.disabled = true;
-        recBtn.title = 'Visit another page to populate recent history';
-      } else {
-        recMenu.innerHTML = others
-          .map((x) => `<a role="menuitem" href="${esc(x.u)}">${esc(x.t)}</a>`)
-          .join('');
-        const closeMenu = () => {
-          recMenu.hidden = true;
-          recBtn.setAttribute('aria-expanded', 'false');
-        };
-        recBtn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          const open = recMenu.hidden;
-          recMenu.hidden = !open;
-          recBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        document.addEventListener('click', (e) => {
-          if (!recMenu.hidden && !recMenu.contains(e.target) && e.target !== recBtn) closeMenu();
-        });
-        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMenu(); });
-      }
-    }
-
     // 2. Multi-page chapter sheet jumper (pages with 2+ <span id="pN" class="anchor"> that do NOT already use the full sheet deck)
     const anchors = Array.from(document.querySelectorAll('main span.anchor[id^="p"]'));
     if (anchors.length >= 2 && !document.querySelector('.sheet-controls')) {
@@ -838,4 +783,17 @@ window.__ready(() => {
     input.value=String(page);frame.src=reader.dataset.publisherPdf+'#page='+page+'&view=FitH';
     reader.querySelector('div').replaceChildren(frame);
   };
+});
+
+// Dismiss navigation menus without moving a reader's scroll position.
+window.__ready(() => {
+  const menus=[...document.querySelectorAll('.nav-menu,.page-navigation')];
+  document.addEventListener('click',event=>{
+    for(const menu of menus)if(menu.open&&!menu.contains(event.target))menu.open=false;
+  });
+  document.addEventListener('keydown',event=>{
+    if(event.key!=='Escape')return;
+    const menu=menus.find(item=>item.open&&item.contains(document.activeElement))||menus.find(item=>item.open);
+    if(menu){menu.open=false;menu.querySelector('summary')?.focus({preventScroll:true});}
+  });
 });

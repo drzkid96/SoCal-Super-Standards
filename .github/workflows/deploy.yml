@@ -84,9 +84,11 @@ jobs:
         run: |
           node pipeline/test_atlas_worker.mjs
           node pipeline/test_location_search.mjs
+          node pipeline/test_cad_sign_catalog.mjs
           python -m pip install selenium
           python pipeline/test_sheet_viewer.py
           python pipeline/test_atlas_browser.py
+          python pipeline/test_site_navigation.py
   deploy:
     concurrency:
       group: standards-pages-publish

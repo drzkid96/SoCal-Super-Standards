@@ -176,8 +176,11 @@ for manual,other in [('mutcd','ca-mutcd'),('ca-mutcd','mutcd')]:
             lines.extend(['',f'## Part {part}',''])
         lines.append(f'- [{code} · {chapter["title"]}]({base}/{manual}/{code.lower()}/)')
     path.write_text('\n'.join(lines)+'\n')
+from cad_sign_catalog import build as build_cad_sign_catalog
+build_cad_sign_catalog(root,look)
 from plan_examples import build as build_plan_examples
 build_plan_examples(root, look)
+save(PUBLIC/"lookup.json",look)
 from workbench import build as build_workbench
 build_workbench(root,look)
 from atlas_site import prepare as prepare_atlas, finish as finish_atlas

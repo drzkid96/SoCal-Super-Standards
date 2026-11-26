@@ -6,13 +6,15 @@ from html import escape
 from pathlib import Path
 from zipfile import ZipFile
 from current_catalog import BASE
+from cad_sign_catalog import CATALOG, DRAWINGS, designation_key, drawing_evidence, sign_destinations
 
 def build(root, lookup):
     source=Path('data/reference/plan-examples')
     with ZipFile(source/'illustrations.zip') as archive:
         archive.extractall('public/figs/plan-examples')
     catalog=json.loads((source/'index.json').read_text())
-    signs=json.loads(Path('public/data/signs-index.json').read_text())
+    records=json.loads(CATALOG.read_text())
+    signs=sign_destinations()
     groups=defaultdict(list)
     target=BASE+'/ladot/plan-reference/'
     intro='These examples come from signing and striping design sets. Check the cited manual and the adopting agency before carrying a treatment or a modified sign into a new design.'
@@ -62,18 +64,14 @@ def build(root, lookup):
         if code.startswith(('S5','SR4')):return 'School signs'
         return 'Regulatory signs and plaques'
     faces=defaultdict(list)
-    back=defaultdict(list)
     for key,label in catalog['signs'].items():
         faces[family(label)].append((key,label))
     for heading,items in sorted(faces.items()):
         sections.extend(['### '+heading,'','<div class="plan-faces">'])
         for key,label in sorted(items,key=lambda pair:pair[1]):
-            candidates=[label.upper(),re.sub(r'-(?:MOD.*|LEFT|RIGHT|[0-9]+(?:FT.*|K)?)$','',label.upper())]
-            match=next((signs[c] for c in candidates if c in signs),None)
+            url=signs[designation_key(label)]
             card=figure(key,label)
-            if match:
-                card=card.replace('</figcaption>',f' · <a href="{match["url"]}">Catalog face</a></figcaption>')
-                back[match['url']].append(f'[{label}]({target}#{key})')
+            card=card.replace('</figcaption>',f' · <a href="{url}">Sign record</a></figcaption>')
             sections.append(card)
             lookup.setdefault(label,[]).append([label+' · plan legend',target+'#'+key])
         sections.extend(['</div>',''])
@@ -87,7 +85,11 @@ def build(root, lookup):
         'striping-intersections':'Follow each vehicle and bicycle movement through the conflict point, then check the markings against the signal or yield control.',
         'speed-and-calming':'Check the device footprint, approach markings and installation details together.'
     }
-    cad_signs=set()
+    detail_signs=defaultdict(list)
+    for record in records:
+        for drawing in record['drawings']:
+            for detail in drawing.get('details',[]):
+                detail_signs[(drawing['source'],detail)].append(record)
     for series,edition in cad.items():
         name='Geometric design details' if series=='geo' else 'Urban corridor signing and striping details'
         sections.extend(['### '+name,''])
@@ -97,22 +99,36 @@ def build(root, lookup):
             topic=next((t for term,t in [('parking connecting','accessibility'),('accessible parking','accessibility'),('ada parking','accessibility'),('bus','transit'),('speed','speed-and-calming'),('intersection','striping-intersections'),('triangle','striping-intersections')] if term in phrase),'bikeways')
             label=f'{title} · {code}'
             sections.append(f'<p id="{key}"><strong>{escape(label)}</strong></p>')
+            if detail_signs[series,key]:
+                links=' · '.join(f'<a href="{r["url"]}">{escape(r["code"])}</a>' for r in detail_signs[series,key])
+                sections.append('Sign callouts · '+links)
             lookup.setdefault(title,[]).append([name+' · '+label,target+'#'+key])
             cad_links[topic].append(f'- [{label}]({target}#{key})')
-        cad_signs.update(edition['signs'])
     for topic,cards in cad_links.items():
         append(root/'topics'/(topic+'.md'),'## CAD details for plan checking\n\n'+guides[topic]+'\n\n'+'\n'.join(cards))
-    sections.extend(['<h3 id="cad-sign-callouts">CAD sign callouts</h3>','','These identifiers appear as drawing text in the source CAD files. The linked catalog record provides the reference face.',''])
-    for label in sorted(cad_signs):
-        match=signs.get(label.upper())
-        if match:
-            sections.append(f'- [{label}]({match["url"]})')
-            back[match['url']].append(f'[{label} · CAD callout]({target}#cad-sign-callouts)')
-        else:sections.append('- '+label)
-    for url,links in back.items():
-        folder=root/url.removeprefix(BASE).strip('/')
-        path=folder.with_suffix('.md') if folder.with_suffix('.md').exists() else folder/'index.md'
-        if path.exists():append(path,'## Plan legend examples\n\n'+' · '.join(links))
+    sections.extend(['<h2 id="cad-sign-callouts">CAD sign callouts</h2>','',
+                     'Find the designation under its source drawing. Each record links the drawing evidence, available sign artwork, and any matching catalog layout.',''])
+    if Path('public/data/cad-sign-evidence.json').is_file():
+        sections.append(f'[Download CAD drawing inventory and entity evidence (JSON)]({BASE}/data/cad-sign-evidence.json)')
+    for series,name in DRAWINGS.items():
+        sections.extend(['### '+name,''])
+        for record in records:
+            drawing=next((d for d in record['drawings'] if d['source']==series),None)
+            if not drawing:continue
+            label=record['code']
+            anchor=drawing['url'].split('#')[1]
+            literal=' / '.join(drawing.get('labels',[])) or label
+            sections.append(f'<p id="{anchor}"><a href="{record["url"]}">{escape(literal)}</a> · {escape(record["status"])}</p>')
+            search_label=f'{literal} · {name} · CAD evidence'
+            aliases=set(drawing.get('labels',[]))|{w['text'] for w in drawing.get('wording',[])}
+            for alias in sorted(aliases):
+                hits=lookup.setdefault(alias.upper(),[])
+                if not any(url==drawing['url'] for _,url in hits):hits.append([search_label,drawing['url']])
+            evidence=drawing_evidence(drawing)
+            if evidence:sections.append(evidence)
+            for key in drawing.get('details',[]):
+                detail=next((r for r in cad[series]['rows'] if r[0]==key),None)
+                if detail:sections.append(f'[Detail {detail[1]} · {detail[2]}](#{key})')
     path=root/'ladot/plan-reference.md'
     path.write_text('\n\n'.join(sections))
     for rel in ['ladot/index.md','details/index.md','signs/index.md']:

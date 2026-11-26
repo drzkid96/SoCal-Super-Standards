@@ -1,0 +1,30 @@
+.sl-markdown-content #sfilter.sign-chart-tools {
+  display:grid; grid-template-columns:minmax(7rem,1fr) auto auto; align-items:center;
+  gap:.35rem .65rem; padding:.55rem .7rem; margin:.8rem 0 1rem; position:static;
+  background:var(--sl-color-bg); color:var(--sl-color-text); box-shadow:none;
+}
+#sfilter.sign-chart-tools[hidden] {display:none!important}
+#sfilter.sign-chart-tools > * {margin:0}
+#sfilter.sign-chart-tools input[type=search] {width:100%; min-width:0; margin:0; font:inherit}
+#sfilter.sign-chart-tools details {display:contents}
+#sfilter.sign-chart-tools summary {
+  grid-row:1; grid-column:2; display:list-item; width:max-content; cursor:pointer;
+  padding:.35rem .55rem; border:1px solid var(--sl-color-hairline); border-radius:.45rem; font-weight:600;
+}
+#sfilter .scount {grid-row:1; grid-column:3; white-space:nowrap; margin:0}
+#sfilter .sign-chart-options {
+  grid-column:1/-1; grid-row:2; display:flex; flex-wrap:wrap; gap:.55rem 1rem; align-items:center;
+  padding:.6rem 0 .2rem; border-top:1px solid var(--sl-color-hairline);
+}
+#sfilter .sign-chart-options > * {margin:0}
+#sfilter .sign-chart-options small {flex-basis:100%}
+#sfilter .sign-chart-options .sbtns {flex-basis:100%}
+#sfilter .sign-chart-options label {display:inline-flex;gap:.3rem;align-items:center}
+@media(max-width:40rem) {
+  #sfilter.sign-chart-tools {grid-template-columns:minmax(0,1fr) auto}
+  #sfilter .scount {grid-column:1/-1;grid-row:2;text-align:start;font-size:.74rem}
+  #sfilter .sign-chart-options {grid-row:3}
+}
+#sfilter.sign-chart-tools summary {display:block;list-style:none}
+#sfilter.sign-chart-tools summary::-webkit-details-marker {display:none}
+.sign-chart-tools ~ .sgroup {margin-block-start:1.35rem}

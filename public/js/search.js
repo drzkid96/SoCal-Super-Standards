@@ -4,7 +4,15 @@
   const clean = s => s.normalize('NFKD').toLowerCase().replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
   const compact = s => clean(s).replace(/ /g, '');
   // Hyphens distinguish California designations, e.g. G1-4(CA) and G14(CA).
-  const designation = s => s.toUpperCase().replace(/[–—]/g,'-').replace(/[()\s]/g,'');
+  function designation(raw) {
+    let id=raw.trim().toUpperCase().replace(/[–—−]/g,'-').replace(/\(([^()]*)\)/g,(_,part)=>{
+      const word=part.trim().replace(/\s+/g,'-');
+      return word==='CA'?'CA':'-'+word;
+    }).replace(/[\s-]*\bMOD(?:IFIED)?\b[\s-]*/g,'-MOD-').replace(/([0-9A-Z])MOD(?=$|[ -])/g,'$1-MOD')
+      .replace(/-(LT|RT)(?=-|$)/g,(_,side)=>side==='LT'?'-LEFT':'-RIGHT');
+    if(/^(?:[A-Z]\.)+[A-Z]\.?$/.test(id))id=id.replaceAll('.','');
+    return id.replace(/\s/g,'').replace(/^-+|-+$/g,'');
+  }
   const urlFor = (q, source = '') => {
     const url = new URL(base + '/search/', location.origin);
     if (q.trim()) url.searchParams.set('q', q.trim());
@@ -24,16 +32,25 @@
         hay: clean(label + ' ' + tag + ' ' + path.replaceAll('/', ' ') + ' ' + keys.join(' ')),
         keys: keys.map(compact), exact:keys.map(designation)
       }));
+      const signIds=new Map();
+      for(const row of records)if(row.tag==='Signs')for(const code of row.exact){
+        if((/^[A-Z]{1,5}-?\d/.test(code)||row.url.includes('/signs/plan-')||row.url.includes('#plan-'))&&!signIds.has(code))signIds.set(code,[]);
+      }
+      for(const row of records)for(const code of new Set(row.exact)){
+        const found=signIds.get(code);
+        if(found)found.push(row);
+      }
       const withdrawn = new Map(Object.entries(retired.codes).map(([code, name]) =>
         [designation(code), {label: code + ' · ' + name + ' · Caltrans deletion notice', url: retired.source, tag: 'Retired', cls: 'sup'}]));
       const synonyms = new Map();
       for (const row of glossary) {
         for (const alias of row.aka) synonyms.set(clean(alias), clean(row.term));
       }
-      return {records, withdrawn, synonyms};
+      return {records, withdrawn, synonyms, signIds};
     }).catch(error => { catalogPromise = null; throw error; });
   }
   const sources = [
+    [/^sign\s+(?=[a-z]{1,4}-?\d)/i,'Signs'],
     [/^(?:california|ca)\s+mutcd\s+/i, 'CA MUTCD'], [/^(?:federal|fhwa)\s+mutcd\s+/i, 'Federal MUTCD'],
     [/^(?:la\s+)?boe\s+/i, 'LA BOE'], [/^ladot\s+/i, 'LADOT'], [/^caltrans\s+/i, 'Caltrans']
   ];
@@ -79,20 +96,25 @@
       const sheets = await findSheet(query, scope);
       if (sheets.length) return sheets.filter(hit=>!issuer||window.SSSAgency.inScope(hit.url,issuer)).slice(0, limit);
     }
-    const {records, withdrawn, synonyms} = await catalog();
+    const {records, withdrawn, synonyms, signIds} = await catalog();
     const code = compact(query), phrase = clean(query);
     if (!code) return [];
-    if (!issuer && !window.SSSAgency?.active && (!scope || ['Caltrans','Signs','CA MUTCD'].includes(scope)) && withdrawn.has(designation(query))) return [withdrawn.get(designation(query))];
+    const id=designation(query);
+    const retired=!issuer && !window.SSSAgency?.active && (!scope || ['Caltrans','Signs','CA MUTCD'].includes(scope)) ? withdrawn.get(id) : null;
     const words = phrase.split(' '), expanded = synonyms.get(phrase);
+    const signCode=signIds.has(id)||/^[A-Z]{1,5}-?\d/.test(id);
     const priority = {'CA MUTCD': 6, LADOT: 5, Caltrans: 5, 'LA BOE': 4};
     const hits = [];
-    for (const record of records) {
+    const pool=(!scope||scope==='Signs')&&signIds.has(id)?signIds.get(id):records;
+    for (const record of pool) {
       if (window.SSSAgency && !window.SSSAgency.inScope(record.url)) continue;
       if (issuer && !window.SSSAgency.inScope(record.url,issuer))continue;
       if (scope && scope !== record.tag) continue;
-      if(match==='exact' && !record.exact.includes(designation(query)) && designation(record.label)!==designation(query))continue;
+      const exact=record.exact.includes(id);
+      if(retired&&!(exact&&record.tag==='Signs'&&record.url.includes('/signs/plan-')))continue;
+      if(match==='exact' && !exact && designation(record.label)!==id)continue;
       let score;
-      if (record.exact.includes(designation(query))) score = 135;
+      if (exact) score = record.tag==='Signs' && signCode ? 155 : 135;
       else if (record.keys.includes(code)) score = 120;
       else if (record.names === phrase) score = 110;
       else if (record.names.includes(phrase)) score = 78;
@@ -103,9 +125,11 @@
       if (record.url.includes('/keywords/#')) score -= 10;
       if (record.url.includes('/topics/') && !/\d/.test(query)) score += 5;
       if (record.url.endsWith('/standard-plans/') && phrase === clean(record.url.split('/').at(-3))) score += 42;
-      hits.push({score: score+(priority[record.tag]||0), label:record.label, tag:record.tag, url:record.url, cls:'c'});
+      hits.push({signMatch:exact&&signCode&&record.tag==='Signs', exact, score: score+(priority[record.tag]||0), label:record.label, tag:record.tag, url:record.url, cls:'c'});
     }
-    return hits.sort((a,b) => b.score-a.score || a.label.length-b.label.length || a.label.localeCompare(b.label)).slice(0,limit);
+    if(retired)hits.unshift({...retired,score:200,exact:true});
+    const ranked=hits.some(hit=>hit.signMatch)?hits.filter(hit=>hit.exact):hits;
+    return ranked.sort((a,b) => b.score-a.score || a.label.length-b.label.length || a.label.localeCompare(b.label)).slice(0,limit);
   }
   function fullIndex() {
     return fullPromise ||= import(base+'/pagefind/pagefind.js').then(async api => {
@@ -128,7 +152,7 @@
     return {label: sub ? sub.title+' · '+d.meta.title : d.meta.title, url: sub?.url || d.url,
       tag: d.filters?.source?.[0] || 'Full text', excerpt: text};
   }
-  window.SSSSearch = {direct, full, fullRow, urlFor};
+  window.SSSSearch = {direct, full, fullRow, urlFor, designation};
   window.__openSiteSearch = q => {
     if (location.pathname === base+'/search/' && !q) { document.getElementById('standards-query')?.focus(); return; }
     location.assign(urlFor(q || ''));
@@ -199,9 +223,10 @@
     if (!q) { status.textContent='Enter a drawing number, section, or design question.'; return; }
     status.textContent='Searching…';
     const matches = direct(q,scope,250,matching.value,issuer.value);
-    // An exact sheet has a verified destination and needs no full-text lookup.
-    const text = matching.value!=='all' ? Promise.resolve([]) : sheetQualifier.test(q)
-      ? matches.then(hits => hits[0]?.sheetMatch ? [] : full(q,scope,issuer.value), () => full(q,scope,issuer.value))
+    // Exact drawing and sign identifiers can resolve from the local catalog alone.
+    const identifier=sheetQualifier.test(q)||/^(?:sign\s+)?[a-z]{1,5}\s*-?\d/i.test(q);
+    const text = matching.value!=='all' ? Promise.resolve([]) : identifier
+      ? matches.then(hits => hits[0]?.sheetMatch||hits[0]?.signMatch||hits[0]?.tag==='Retired' ? [] : full(q,scope,issuer.value), () => full(q,scope,issuer.value))
       : full(q,scope,issuer.value);
     const [d,f] = await Promise.allSettled([matches, text]);
     if (id !== generation) return;

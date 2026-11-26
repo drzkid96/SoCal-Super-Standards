@@ -68,13 +68,8 @@ def build(root):
                 content = file.read_text()
                 file.write_text(content.replace('class="book-reader"',f'data-parent-page="{chapter["first"]}" class="book-reader"',1))
 
-    groups = json.loads(Path('data/topics.json').read_text())
-    index = root/'topics/index.md'
-    text = index.read_text()
-    text = re.sub(r'<div class="vis-strip">.*?</div>', '', text, flags=re.S)
-    start = text.index('Each topic page')
-    end = text.index('<h2>', start)
-    index.write_text(text[:start]+'Choose the street element you are reviewing. Each topic connects design tasks, governing guidance, and agency drawings.\n\n<div class="topic-directory">\n'+text[end:].replace('<h2>', '<section><h2>',1).replace('</div><h2>', '</div></section><section><h2>').replace('</div>\n<h2>', '</div></section>\n<section><h2>')+'</section></div>')
+    from browse_hubs import directory_pages, treatments
+    groups = directory_pages(root)
     for group in groups:
         for topic in group['topics']:
             file = root/'topics'/(topic['slug']+'.md')
@@ -82,17 +77,24 @@ def build(root):
             sections = dict(zip(parts[1::2],parts[2::2]))
             order = ['Governing sections and agency guidance','Facility types and applications','Drawings by agency','Signing and striping plan details','CAD details for plan checking','NACTO design guidance','Local project examples']
             headings = [h for h in order if h in sections]+[h for h in sections if h not in order]
-            quick = {'Governing sections and agency guidance':'Check the governing text','Facility types and applications':'Compare treatments','Drawings by agency':'Find agency sheets','Local project examples':'See local examples'}
-            nav = '<nav class="topic-outline" aria-label="Browse this topic">'+''.join(f'<a href="#{slug(h)}">{quick[h]}</a>' for h in headings if h in quick)+'</nav>'
-            intro = re.sub(r'\[Governing sections\].*?\[Drawings by agency\]\([^)]*\)',nav,parts[0])
-            application = sections.get('Facility types and applications', '')
-            treatments = re.split(r'^### (.+)$', application, flags=re.M)
-            if len(treatments)>1:
-                links = []
-                for i in range(1,len(treatments),2):
-                    heading = treatments[i].strip()
-                    anchor = 'treatment-'+str((i+1)//2)
-                    links.append(f'<a href="#{anchor}">{escape(heading)}</a>')
-                    treatments[i] = f'<span id="{anchor}" class="anchor"></span>\n\n### '+heading+'\n'
-                sections['Facility types and applications'] = ('<nav class="treatment-index" aria-label="Treatment index">'+''.join(links)+'</nav>\n\n'+''.join(treatments))
+            # The design-task links open the actual governing sources. The site header already
+            # provides section navigation; keep a single navigation row in the article.
+            intro = re.sub(r'\[Governing sections\].*?\[Drawings by agency\]\([^)]*\)', '', parts[0])
+            if 'Facility types and applications' in sections:
+                sections['Facility types and applications']=treatments(sections['Facility types and applications'])
+            for name in ('Governing sections and agency guidance','Drawings by agency'):
+                if name in sections:
+                    content=sections[name]
+                    sections[name]=re.sub(r'(?:<details class="topic-list">.*?</details>\s*)+',lambda m:'<div class="topic-reference-index">'+m[0].strip()+'</div>\n\n',content,flags=re.S)
+            for name in ('Signing and striping plan details','CAD details for plan checking'):
+                if name not in sections:continue
+                content=sections[name]
+                rows=re.findall(r'^- \[([^\]]+)\]\(([^)]+)\)\s*$',content,re.M)
+                if not rows:continue
+                remaining=re.sub(r'^- \[[^\]]+\]\([^)]+\)\s*$','',content,flags=re.M).strip()
+                links=[f'<a href="{escape(url,quote=True)}">{escape(label)}</a>' for label,url in rows]
+                def grid(items):return '<div class="topic-plan-links">'+''.join(items)+'</div>'
+                sections[name]=remaining+'\n\n'+grid(links[:4])
+                if len(links)>4:
+                    sections[name]+=f'<details class="remaining-plan-links"><summary>{len(links)-4} more details from this set</summary>'+grid(links[4:])+'</details>'
             file.write_text(intro+''.join('## '+h+'\n'+sections[h].strip('\n')+'\n\n' for h in headings))

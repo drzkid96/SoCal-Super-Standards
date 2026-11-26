@@ -136,6 +136,13 @@ with TemporaryDirectory() as temp:
         card.click()
         wait.until(lambda d:'R10-3b' in d.find_element(By.TAG_NAME,'h1').text)
         assert len(browser.find_elements(By.CSS_SELECTOR,'.mfig-grid figure'))==2
+        browser.get(base+'signs/r1-1/')
+        sign_actions=wait.until(lambda d:d.find_elements(By.CSS_SELECTOR,'.sdetail .figure-actions button'))
+        assert {'Copy image','Sheet PDF','Page PDF','Copy citation'} <= {b.text for b in sign_actions if b.is_displayed()}
+        assert not browser.find_element(By.CSS_SELECTOR,'.sdetail .scode-big').is_displayed()
+        browser.get(base+'signs/r3-1h/#sheet-view-1-2')
+        assert wait.until(lambda d:d.find_element(By.ID,'sheet-view-1-2').is_displayed())
+        assert not browser.find_element(By.ID,'sheet-view-1-1').is_displayed()
         for route,groups in [('signs/', '.sseries .sgrid'),('markings/', '.mcat-sec .mgrid')]:
             browser.get(base+route)
             controls=browser.find_element(By.CSS_SELECTOR,'.chart-size')
@@ -173,7 +180,10 @@ with TemporaryDirectory() as temp:
         assert source.endswith('#page=79') and browser.current_url.endswith('#sheet-8')
         assert not browser.find_elements(By.CSS_SELECTOR,'nav[aria-label="Drawing sheets"]')
         browser.execute_script("Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async value=>{window.lastCitation=value}}})")
-        browser.execute_script("document.querySelector('.sp-cite').click()")
+        browser.find_element(By.CSS_SELECTOR,'header .settings-menu > summary').click()
+        browser.find_element(By.CSS_SELECTOR,'header [data-open-checks]').click()
+        wait.until(lambda d:d.find_element(By.CSS_SELECTOR,'.sp-cite').is_displayed())
+        browser.find_element(By.CSS_SELECTOR,'.sp-cite').click()
         assert 'sheet 8 of 16' in browser.execute_script('return window.lastCitation')
         assert browser.execute_script('return window.lastCitation').endswith(source)
         for query, fragment in [('MPP 531 S-418.6 sheet 8','#sheet-8'), ('MPP 531 S-418.6 p.79','#sheet-8'),

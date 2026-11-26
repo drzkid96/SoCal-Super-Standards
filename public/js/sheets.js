@@ -101,8 +101,8 @@
     const stage = el('div', 'sheet-stage');
     pages[0].before(wrap);
     wrap.append(bar);
-    if (strip) wrap.append(strip);
     wrap.append(stage);
+    if (strip) wrap.append(strip);
     pages.forEach((p) => {
       p.classList.add('sheet-frame');
       stage.append(p);
@@ -214,7 +214,7 @@
   // Group consecutive pages of the same figure. Different charts stay visible together.
   for (const group of article.querySelectorAll('.mfig-inline.multi, .mfig-grid, .sdetail-img')) {
     const sign = group.matches('.sdetail-img');
-    const rows = [...group.children].filter(child => child.matches(sign ? 'img' : 'figure'));
+    const rows = [...group.children].filter(child => child.matches(sign ? 'img,figure' : 'figure'));
     const runs = [];
     for (const page of rows) {
       const label = page.querySelector('img')?.alt || page.querySelector('figcaption')?.textContent || '';
@@ -237,7 +237,7 @@
       });
       const labels = pages.map((page, i) => {
         const caption = page.querySelector('figcaption')?.cloneNode(true);
-        if (!caption) return page.getAttribute('alt') || 'Sheet ' + (i + 1);
+        if (!caption) return page.getAttribute('alt') || page.querySelector('img')?.alt || 'Sheet ' + (i + 1);
         caption.querySelectorAll('.detail-description').forEach(note => note.remove());
         caption.querySelectorAll('br').forEach(br => br.replaceWith(' · '));
         return caption.textContent.trim() || 'Sheet ' + (i + 1);

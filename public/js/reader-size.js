@@ -150,7 +150,7 @@
   const output = make('span','chart-size-value');
   const reset = button('Reset','Restore the standard size for the selected categories');
   controls.append(make('span','size-label','Chart size'),category,slider,output,reset);
-  filter.append(controls);
+  (filter.querySelector('.sign-chart-options') || filter).append(controls);
   const valid = n => Number.isInteger(n) && n >= 0 && n < presets.length;
   function level(key) { return valid(sizes[key]) ? sizes[key] : valid(sizes['*']) ? sizes['*'] : 4; }
   function draw() {

@@ -12,7 +12,7 @@ def build(root,lookup):
     folder=Path('public/transit-publications')
     from transit_publications import prepare
     prepare(editions)
-    intro=['Choose the operator serving the stop. Use its guide alongside the street owner’s drawings and the applicable accessibility provisions.','']
+    intro=[]
     modes=json.loads(Path('public/data/agency-modes.json').read_text())
     instructions={
        'ictc':'Use the on-street bus stop and transfer station chapters for Imperial Valley Transit projects. The handbook includes a stop relocation checklist.',
@@ -26,7 +26,7 @@ def build(root,lookup):
     for key,name,county,title,source in editions:
         route='transit/'+key;url=BASE+'/'+route+'/';pdf=folder/(key+'.pdf')
         countyurl=BASE+'/regions/#county-'+slug(county)
-        intro.append(f'- [{name} · {title}]({url}) — {instructions[key]}')
+        intro.append(f'<a class="operator-entry" href="{url}"><strong>{escape(name)}</strong><span>{escape(title)}</span><small>{escape(county)} County</small></a>')
         body=[instructions[key],f'[Publisher edition]({source}) · [{county} County references]({countyurl})','']
         if pdf.is_file():
             with pymupdf.open(pdf) as doc:
@@ -81,7 +81,7 @@ def build(root,lookup):
         (root/route/'index.md').open('a').write(f'\n<span hidden data-pagefind-filter="agency:{key}"></span>\n')
         if key!='octa':(root/route/'index.md').open('a').write(f'\n<button data-set-mode="{key}">Use {name} mode</button>\n')
         reg=root/'regions/index.md';s=reg.read_text();marker='id="county-'+slug(county)+'"';start=s.index(marker);end=s.index('</div>',start);reg.write_text(s[:end]+f'<a href="{url}">{name} transit guidance →</a>'+s[end:])
-    write(root,'transit','Transit agency design guides','\n'.join(intro))
+    write(root,'transit','Transit agency design guides','<div class="operator-directory">'+''.join(intro)+'</div>')
     save(Path('public/data/agency-modes.json'),modes)
     for topic in ('transit','accessibility','bikeways','curb-parking-loading','striping-intersections'):
         path=root/'topics'/(topic+'.md')
@@ -116,11 +116,17 @@ def build(root,lookup):
     save(api/'index.json',{'version':1,'counties':'counties.geojson','agencies':'agencies.json','guides':'guides.json','coordinates':'WGS84 longitude, latitude','source':'US Census county boundaries, Plotly US counties GeoJSON distribution'})
     home=root/'index.mdx';old=home.read_text()
     search=old[old.index('<div class="home-search-wrap">'):old.index('<div class="ql-samples"')].strip()+'</div>'
-    group=lambda heading,links:'<section class="home-column"><h2>'+heading+'</h2>'+''.join(f'<a href="{BASE}/{p}/">{l}</a>' for p,l in links)+'</section>'
-    cols=[group('Guides',[('ca-mutcd','California MUTCD'),('mutcd','Federal MUTCD'),('transit','Transit agency guides'),('ladot','LADOT manuals'),('guides','Design guides')]),group('Topics',[('topics/bikeways','Bikeways'),('topics/crosswalks','Crossings'),('topics/transit','Transit and boarding'),('topics/striping-intersections','Striping and intersections'),('topics','All design topics')])]
-    from atlas_places import home_map_card
-    cols.append(home_map_card(BASE,Path('public/api/v2')))
     from project_photos import field_card
-    for i,key in enumerate(('redondo','venice')):
-        cols[i]=cols[i].replace('</h2>','</h2>'+field_card(key, home=True),1)
-    home.write_text('---\ntitle: SoCal Super Standards\ntemplate: splash\n---\n\n'+search+'\n\n<div class="home-columns">'+''.join(cols)+'</div>\n\n'+f'<nav class="home-tools"><a href="{BASE}/details/">Drawing index</a> <a href="{BASE}/signs/">Sign library</a> <a href="{BASE}/markings/">Pavement markings</a></nav>\n')
+    from atlas_places import home_map_card
+    def column(title, path, destinations, photo):
+        links=''.join(f'<a href="{BASE}/{url}/">{name}</a>' for name,url in destinations)
+        return (f'<section class="home-column home-lane"><h2><a href="{BASE}/{path}/">{title}</a></h2>'+
+                '<nav aria-label="'+title+'">'+links+'</nav>'+field_card(photo,home=True)+'</section>')
+    cols=[
+        column('Guides','guides',[('California MUTCD','ca-mutcd'),('Federal MUTCD','mutcd'),
+                ('Transit agency guides','transit'),('LADOT manuals','ladot')],'redondo'),
+        column('Topics','topics',[('Bikeways','topics/bikeways'),('Crossings','topics/crosswalks'),
+                ('Transit and boarding','topics/transit'),('Striping and intersections','topics/striping-intersections')],'venice'),
+        home_map_card(BASE,Path('public/api/v2')),
+    ]
+    home.write_text('---\ntitle: Southern California transportation standards\ntemplate: splash\n---\n\n'+search+'\n\n<div class="home-columns">'+''.join(cols)+'</div>\n\n'+f'<nav class="home-tools"><a href="{BASE}/details/">Drawing index</a> <a href="{BASE}/signs/">Sign library</a> <a href="{BASE}/markings/">Pavement markings</a></nav>\n')

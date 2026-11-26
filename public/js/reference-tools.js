@@ -51,12 +51,55 @@
     const parent=fig.closest('[data-chapter-url]');
     fig.id ||= 'ref-figure-'+(i+1);
     const addr=new URL(parent?.dataset.chapterUrl||location.href,location.origin);addr.hash=fig.closest('.publication-window')?(location.hash||'#p1'):fig.id;
-    const label=figureLabel(fig,im,i),bar=toolbar(fig);
-    button(bar,'Copy image',()=>copyImage(src));button(bar,'Copy citation',()=>navigator.clipboard.writeText(citation(title+' · '+label,addr.href)));
-    button(bar,'Sheet PDF',()=>single(src,title+' '+label));
+    const label=figureLabel(fig,im,i);
+    const figureTitle=label.startsWith(title+' · ')?label:title+' · '+label;
+    const agencyBar=fig.querySelector('.sheet-source-actions');
+    const bar=agencyBar || toolbar(fig);
+    bar.classList.add('reference-actions','figure-actions');
+    bar.setAttribute('role','group');
+    bar.setAttribute('aria-label','Figure actions');
+    if(!agencyBar && !fig.matches('.sign-art:only-child'))button(bar,'Copy citation',()=>navigator.clipboard.writeText(citation(figureTitle,addr.href)));
+    button(bar,'Copy image',()=>copyImage(src));
+    button(bar,'Sheet PDF',()=>single(src,figureTitle));
   }
-  function enhance(root){root.querySelectorAll('figure:not(.vibe-hero)').forEach(figureTools);}
-  const top=toolbar(article);article.prepend(top);
+  function enhance(root){
+    for(const card of root.querySelectorAll('.sdetail-img')){
+      const sheets=[...card.querySelectorAll(':scope > img')];
+      sheets.forEach((img,i)=>{
+        const fig=create('figure');
+        fig.className='sign-art';
+        fig.id=(sheets.length>1?'sheet-view-1-':'sign-sheet-')+(i+1);
+        if(sheets.length>1)img.alt=heading+' · Sheet '+(i+1)+' of '+sheets.length;
+        img.before(fig);fig.append(img);
+      });
+    }
+    root.querySelectorAll('figure:not(.vibe-hero)').forEach(figureTools);
+  }
+  const top=toolbar(article);
+  top.classList.add('document-actions');
+  top.setAttribute('role','group');
+  top.setAttribute('aria-label','Document actions');
+  article.prepend(top);
+  const source=article.querySelector(':scope > .srcbar,:scope > .dwg-head');
+  if(source)source.after(top);
+  if(book?.querySelector('a') && book!==publication)top.append(book);
+  // The source chapter outline remains available in one disclosure above its text.
+  const outline=article.querySelector(':scope > .sec-toc');
+  if(outline)outline.open=false;
+  const description=article.querySelector(':scope > .dwg-head ~ p.detail-description');
+  if(description && description.textContent.length>320){
+    // Preserve every cross-reference in the original explanation when folding its longer notes.
+    const lead=description.firstChild;
+    const end=lead?.nodeType===Node.TEXT_NODE?lead.textContent.search(/[.!?](?=\s+[A-Z])/):-1;
+    if(end>=35 && end<200){
+      const remainder=lead.splitText(end+1);
+      const more=create('details'),summary=create('summary','More about this drawing');
+      more.className='drawing-explanation';more.append(summary);
+      while(remainder.nextSibling)more.append(remainder.nextSibling);
+      summary.after(remainder);
+      description.after(more);
+    }
+  }
   async function fetchArticle(path){const r=await fetch(base+'/'+path+'/');return new DOMParser().parseFromString(await check(r).text(),'text/html').querySelector('.sl-markdown-content');}
   async function continuous(){
     const chapters=(await hierarchy())[book.dataset.book]||[];if(!chapters.length)return;
@@ -88,7 +131,7 @@
     const prev=create('button','Previous'),next=create('button','Next'),status=create('span');
     status.setAttribute('role','status');controls.append(filter,list,prev,next,status);
     const frame=create('section');frame.className='publication-window';frame.tabIndex=0;frame.ariaLabel='Selected source page';
-    publication.append(controls,frame);
+    publication.append(controls,frame,top);
     const zoom=create('select');zoom.ariaLabel='Source page zoom';for(const size of [100,150,200])zoom.add(new Option(size+'%',size));
     zoom.onchange=()=>frame.style.setProperty('--page-zoom',Number(zoom.value)/100);
     controls.append(zoom);
@@ -154,7 +197,7 @@
     button(top,'Guide PDF',()=>exportDocs(true));
     window.addEventListener('hashchange',draw);await draw();
   }
-  function clean(root){const n=root.cloneNode(true);n.querySelectorAll('script,style,nav,button,select,input,.reference-actions,.book-reader,.sec-toc,.reg-controls,.reg-contact,.export-tools,.operator-book,[data-pagefind-filter]').forEach(e=>e.remove());return n;}
+  function clean(root){const n=root.cloneNode(true);n.querySelectorAll('script,style,nav,button,select,input,.drawing-explanation>summary,.reference-actions,.book-reader,.sec-toc,.reg-controls,.reg-contact,.export-tools,.operator-book,[data-pagefind-filter]').forEach(e=>e.remove());return n;}
   // Reflow the article text into printable pages, preserving headings, figure order and table rows.
   async function addArticle(pdf,root,heading){
     const n=clean(root),c=document.createElement('canvas');c.width=1200;c.height=1553;const ctx=c.getContext('2d');let y=0;
@@ -185,7 +228,7 @@
     const page=()=>Math.max(1,Math.min(limit,Number(field.value)||1));
     const show=()=>{let m=location.hash.match(/^#page-(\d+)$/);field.value=m?Math.min(limit,Number(m[1])):1;frame.src=operator.dataset.images+page()+'.webp';operator.querySelector('[data-turn="-1"]').disabled=page()===1;operator.querySelector('[data-turn="1"]').disabled=page()===limit;};
     const native=create('button','View original PDF'),viewport=create('div');
-    viewport.className='native-pdf-window';viewport.hidden=true;operator.append(native,viewport);
+    viewport.className='native-pdf-window';viewport.hidden=true;operator.append(native,viewport,top);
     let pdfFrame;
     function syncPdf(){
       if(!pdfFrame)return;
@@ -224,12 +267,19 @@
     button(top,book&&route!==book.dataset.book?'Chapter PDF':'Page PDF',()=>exportDocs());
     if(book)button(top,'Guide PDF',()=>exportDocs(true));
     for(const h of article.querySelectorAll('h2')){if(!/^\d[A-Z]\.\d+/.test(h.textContent.trim()))continue;
-      const anchor=h.closest('.sl-heading-wrapper')||h;const b=toolbar(anchor.parentElement);anchor.after(b);
-      button(b,'Copy section citation',()=>{const link=new URL(location.pathname,location.origin);link.hash=anchor.previousElementSibling?.matches('.anchor')?anchor.previousElementSibling.id:h.id;return navigator.clipboard.writeText(citation(title+' · '+h.textContent,link.href));});
-      button(b,'Section PDF',()=>{const node=create('div');for(let e=b.nextElementSibling;e&&!e.matches('h2,.anchor,.sl-heading-wrapper:has(h2)');e=e.nextElementSibling)node.append(e.cloneNode(true));return exportDocs(false,{label:h.textContent,node});});}
+      const anchor=h.closest('.sl-heading-wrapper')||h;
+      const meta=anchor.nextElementSibling?.matches('.secmeta')?anchor.nextElementSibling:null;
+      const b=toolbar(meta||anchor.parentElement);b.classList.add('section-actions');
+      if(!meta)anchor.after(b);
+      button(b,'Copy section citation',()=>{const link=new URL(location.pathname,location.origin);const marker=anchor.previousElementSibling;link.hash=(marker?.matches('.anchor')?marker:marker?.querySelector('.anchor'))?.id||h.id;return navigator.clipboard.writeText(citation(title+' · '+h.textContent,link.href));});
+      button(b,'Section PDF',()=>{const node=create('div');for(let e=(meta||b).nextElementSibling;e&&!e.matches('h2,.anchor,.sl-heading-wrapper:has(h2)');e=e.nextElementSibling)node.append(e.cloneNode(true));return exportDocs(false,{label:h.textContent,node});});}
     enhance(article);
   }
   button(top,'Copy citation',()=>navigator.clipboard.writeText(citation(title+(operator?' · page '+operator.querySelector('input').value:''),location.href)));
+  const singleSign=article.querySelector('.sdetail-img > .sign-art:only-child .figure-actions');
+  if(singleSign){singleSign.append(...top.children);top.remove();}
+  const signCode=article.querySelector('.sdetail-info .scode-big');
+  if(signCode && heading.startsWith(signCode.textContent.trim()+' '))signCode.hidden=true;
   if(location.hash.startsWith('#ref-figure-'))document.getElementById(location.hash.slice(1))?.scrollIntoView();
   if(book && !publication && new URL(location.href).searchParams.get('read')==='1')continuous().then(()=>article.prepend(top));
 })();

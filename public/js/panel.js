@@ -1,8 +1,8 @@
-// Right-edge utility drawer on every page: Checks | Ask (AI) | Calc (Traffic Engineering Calculators)
+// Mount reference checks and engineering calculators when the reader opens them.
 (() => {
   if(window.SSSAgency?.active) return;
   const BASE = '/SoCal-Super-Standards';
-  const OPEN_KEY = 'sss-panel-open', TAB_KEY = 'sss-panel-tab';
+  const TAB_KEY = 'sss-panel-tab';
   const ls = { get: (k, d = '') => { try { return localStorage.getItem(k) ?? d; } catch { return d; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch {} } };
   const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   const safeUrl = (u) => (/^(https?:\/\/|\/)/.test(u) ? u : '#');
@@ -11,12 +11,14 @@
   const kind = path.includes('/details/') ? 'detail' : path.includes('/signs/') && !path.endsWith('/signs/') ? 'sign'
     : path.includes('/bulletins/') ? 'bulletin' : /\/(mutcd|ca-mutcd)\//.test(path) ? 'manual' : 'page';
 
+  const trigger=document.querySelector('[data-open-checks]');
+  function mount(){
   let checks = [];
   const ui = document.createElement('aside');
   ui.className = 'sp';
   ui.setAttribute('aria-label', 'Checks and calculators');
   ui.innerHTML = `
-    <button class="sp-tab" type="button" aria-expanded="false" title="Checks and calculators"><span class="sp-tab-t">Tools</span><span class="sp-n"></span></button>
+
     <div class="sp-body" hidden>
       <div class="sp-head">
         <div class="sp-tabs" role="tablist">
@@ -104,10 +106,10 @@
   const $ = (s) => ui.querySelector(s);
   function setOpen(o) {
     $('.sp-body').hidden = !o;
-    $('.sp-tab').setAttribute('aria-expanded', String(o));
+    trigger?.setAttribute('aria-expanded',String(o));
     ui.classList.toggle('open', o);
     document.documentElement.classList.toggle('sp-open', o);
-    ls.set(OPEN_KEY, o ? '1' : '0');
+    if(o)$('.sp-x').focus();else trigger?.closest('details')?.querySelector('summary')?.focus();
   }
   function setTab(t) {
     if(t!=='calc')t='checks';
@@ -188,7 +190,7 @@
 
   function renderChecks() {
     const n = checks.filter((c) => c.sev === 'warn').length;
-    $('.sp-n').textContent = checks.length ? String(checks.length) : '';
+
     ui.classList.toggle('has-warn', n > 0);
     $('[data-p="checks"]').innerHTML = checks.length
       ? checks.map((c) => `<div class="sp-c sp-${c.sev}">
@@ -235,7 +237,7 @@
       try { await navigator.clipboard.writeText(citation()); b.textContent = 'Copied'; } catch { b.textContent = citation(); }
       setTimeout(() => (b.textContent = 'Copy citation'), 1800);
     });
-    $('.sp-tab').addEventListener('click', () => setOpen($('.sp-body').hidden));
+
     $('.sp-x').addEventListener('click', () => setOpen(false));
     ui.querySelector('.sp-tabs').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) setTab(b.dataset.t); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && ui.classList.contains('open')) setOpen(false); });
@@ -251,12 +253,19 @@
       checks = all[path] || all[decodeURI(path)] || [];
     } catch { checks = []; }
     renderChecks();
-    if (path.endsWith('/ask/')) {
-      setOpen(true);
-      setTab('checks');
-    } else {
-      setOpen(ls.get(OPEN_KEY) === '1' || (ls.get(OPEN_KEY) === '' && checks.some((c) => c.sev === 'warn') && innerWidth > 1300));
+  });
+  }
+  function openTools(tab){
+    mount();
+    window.SSSPanel.open(tab);
+  }
+  window.SSSPanel={open:openTools,close:()=>{}};
+  window.__ready(()=>{
+    if(trigger){
+      trigger.hidden=false;
+      trigger.onclick=()=>{trigger.closest('details').open=false;window.SSSPanel.open();};
     }
+    if(path.endsWith('/ask/'))window.SSSPanel.open('checks');
   });
 })();
 

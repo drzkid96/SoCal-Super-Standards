@@ -1,0 +1,91 @@
+/* Site navigation stays compact so the reading controls belong to the document. */
+:root{--sl-nav-height:3.25rem;--sl-sidebar-width:clamp(13rem,16vw,16.25rem)}
+header.header{background:var(--sl-color-bg-nav);border-bottom:1px solid var(--sl-color-hairline)}
+header.header>.sss-header{display:flex;align-items:center;gap:clamp(.45rem,1.3vw,1.25rem);height:100%;max-width:110rem;margin-inline:auto}
+.sss-header .title-wrapper{flex:0 1 auto;min-width:0;overflow:visible;padding:0;margin:0}
+.sss-header .site-title{font-size:clamp(1.05rem,1.7vw,1.29rem);line-height:1.06;white-space:nowrap;font-weight:720;letter-spacing:-.025em}
+.sss-header .sss-topnav{display:flex;align-items:center;gap:.25rem;overflow:visible;flex:1;min-width:0}
+.sss-header .nav-primary,.sss-header summary,.sss-header .sss-search-link{font:600 .9rem/1.25 var(--sl-font);text-decoration:none;color:var(--sl-color-text);border:0;border-radius:.35rem;background:transparent;white-space:nowrap;padding:.46rem .6rem;min-height:0}
+.sss-header .nav-primary[aria-current],.sss-header .nav-primary:hover,.sss-header summary:hover,.sss-header .sss-search-link:hover{background:var(--sl-color-accent-low);color:var(--sl-color-accent-high)}
+.nav-menu,.page-navigation{position:relative}
+.nav-menu>summary,.page-navigation>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:.36rem}
+.nav-menu>summary::-webkit-details-marker,.page-navigation>summary::-webkit-details-marker{display:none}
+.nav-menu>summary::after,.page-navigation>summary::after{content:'';display:inline-block;width:.37rem;height:.37rem;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:translateY(-.07rem) rotate(45deg)}
+.nav-menu[open]>summary::after,.page-navigation[open]>summary::after{transform:translateY(.05rem) rotate(225deg)}
+.sss-header .sss-search-link{display:inline-flex;align-items:center;gap:.4rem;border:1px solid var(--sl-color-hairline);padding:.4rem .72rem}
+.nav-dropdown{position:absolute;inset-block-start:calc(100% + .35rem);inset-inline-start:0;z-index:30;min-width:13rem;max-width:min(22rem,90vw);padding:.35rem;background:var(--sl-color-bg);border:1px solid var(--sl-color-gray-5);border-radius:.55rem;box-shadow:0 8px 26px #142f2522;color:var(--sl-color-text)}
+.nav-dropdown a,.nav-dropdown button{display:block;width:100%;text-align:start;padding:.45rem .6rem;margin:0;font:500 .89rem/1.35 var(--sl-font);text-decoration:none;background:transparent;color:var(--sl-color-text);border:0;border-radius:.3rem;cursor:pointer;overflow-wrap:anywhere}
+.nav-dropdown :is(a,button):hover,.nav-dropdown :is(a,button):focus-visible{background:var(--sl-color-accent-low);color:var(--sl-color-accent-high)}
+.nav-dropdown label{display:grid;gap:.15rem;font-size:.8rem;font-weight:650;margin:.25rem .45rem .55rem}
+.nav-dropdown select{font:500 .88rem var(--sl-font);max-width:100%;padding:.36rem .45rem;border-radius:.35rem;background:var(--sl-color-bg);color:var(--sl-color-text);border:1px solid var(--sl-color-gray-5)}
+.settings-menu>.nav-dropdown,.page-navigation>.nav-dropdown{inset-inline-start:auto;inset-inline-end:0}
+.nav-dropdown [hidden],.sss-topnav [hidden],.nav-dropdown .nav-small{display:none}
+.settings-menu .nav-dropdown{width:15.5rem}
+[data-agency-mode] .settings-menu>summary{color:var(--sl-color-text);border-inline-start:3px solid hsl(var(--agency-hue) 42% 45%);font-weight:700}
+[data-agency-mode] [data-workspace-name]{max-width:13rem;overflow:hidden;text-overflow:ellipsis}
+.settings-menu .nav-dropdown a[href*="github.com"]{font-size:.8rem;border-top:1px solid var(--sl-color-hairline);border-radius:0}
+main .content-panel:has(.section-heading){padding-block:.7rem .5rem}
+main .content-panel:has(.section-heading)+.content-panel{border-top:0;padding-block-start:.3rem}
+main .section-heading,main .section-heading.agency-heading{--section-color:var(--sl-color-text-accent);display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:.2rem .65rem;padding:0;margin:0;border:0;background:transparent;color:var(--sl-color-text)}
+main .page-title-row{display:contents}
+main .section-heading h1{grid-column:1/-1;grid-row:2;color:var(--sl-color-text);font-size:clamp(1.48rem,2.15vw,2.2rem);letter-spacing:-.025em;max-width:62ch;line-height:1.17;text-wrap:pretty;margin:0}
+main .section-heading>p,main .section-heading.agency-heading>p{grid-column:1/-1;grid-row:3;font-size:.94rem;margin:.15rem 0;color:var(--sl-color-gray-2);line-height:1.42}
+.article-trail{display:flex;flex-wrap:wrap;align-items:center;column-gap:.38rem;grid-column:1;grid-row:1;align-self:center}
+.article-trail a{color:var(--sl-color-gray-2);font:550 .79rem/1.4 var(--sl-font);text-decoration:none;overflow-wrap:anywhere}
+.article-trail a:hover{text-decoration:underline}
+.article-trail a+a::before{content:'›';margin-inline-end:.38rem;color:var(--sl-color-gray-3)}
+.page-navigation{grid-row:1;grid-column:2;align-self:center}
+.page-navigation>summary{font:550 .79rem/1.35 var(--sl-font);padding:.15rem .25rem;color:var(--sl-color-text);min-height:1.55rem}
+.page-navigation .section-jump{display:grid;margin:.4rem}
+.page-navigation .section-jump[hidden]{display:none}
+.page-navigation>.nav-dropdown{width:17rem}
+.sss-header :focus-visible,.page-navigation :focus-visible{outline:2px solid var(--sl-color-text-accent);outline-offset:2px}
+.sp.open .sp-body{max-width:min(25rem,calc(100vw - 1.2rem));border-radius:.6rem}
+@media(min-width:72rem){.right-sidebar-panel .on-this-page{font-size:.85rem}.sidebar-content{font-size:.9rem}}
+@media(max-width:55.99rem){
+ .sss-header .sss-topnav .nav-primary{display:none}
+ .sss-header .nav-dropdown .nav-small{display:block}
+ .sss-header .sss-topnav{justify-content:flex-end}
+ .sss-header .sss-topnav .nav-dropdown{inset-inline-start:auto;inset-inline-end:0}
+}
+@media(max-width:35rem){
+ :root{--sl-nav-height:3.1rem}
+ header.header>.sss-header{display:flex;gap:.25rem}
+ .sss-header .site-title{font-size:clamp(.86rem,3.5vw,1.09rem)}
+ .sss-header summary,.sss-header .sss-search-link{font-size:.79rem;padding:.35rem .32rem}
+ .sss-header .sss-search-link{border:0}
+ .sss-header .sss-topnav{flex:1}
+ [data-agency-mode] [data-workspace-name]{max-width:5.3rem}
+ .sss-header .sss-topnav .nav-dropdown{position:fixed;top:var(--sl-nav-height);left:.65rem;right:.65rem;max-width:none}
+ main .content-panel:has(.section-heading){padding-block:.45rem .3rem}
+ main .section-heading h1{font-size:1.45rem}
+ main .section-heading>p{font-size:.89rem}
+ .agency-heading .article-trail{max-width:100%}
+}
+@media print{.nav-menu,.page-navigation,.sss-topnav{display:none}}
+
+@media(max-width:27rem){
+ :root[data-has-sidebar] .sss-header .title-wrapper{flex:0 1 7.9rem}
+ :root[data-has-sidebar] .sss-header .site-title{white-space:normal;line-height:1.02}
+ :root[data-has-sidebar] .sss-header .nav-menu>summary{font-size:.79rem}
+}
+@media (min-width:50rem){
+ :root[data-readerpanels="focus"] .sidebar,
+ :root[data-readerpanels="focus"] .right-sidebar-container{display:none}
+ :root[data-readerpanels="focus"] .main-frame{padding-inline-start:0}
+ :root[data-readerpanels="focus"] .main-pane{width:100%;--sl-content-margin-inline:auto}
+}
+body:has(.home-columns) main h1{font-size:clamp(1.55rem,3vw,2.3rem);line-height:1.13;letter-spacing:-.025em}
+@media(max-width:35rem){
+ .sss-header .sss-topnav{flex:0 0 auto;margin-inline-start:auto}
+ .sss-header .settings-menu{flex:0 0 auto}
+ .sss-header .sss-search-link,.sss-header .settings-menu>summary{position:relative;display:inline-flex;align-items:center;justify-content:center;min-width:2rem;min-height:2.2rem;padding:.2rem}
+ .sss-header .sss-search-link span,:root:not([data-agency-mode]) .settings-menu [data-workspace-name]{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .sss-header .sss-search-link::before{content:'';width:.67rem;height:.67rem;border:1.8px solid currentColor;border-radius:50%;transform:translate(-.07rem,-.1rem)}
+ .sss-header .sss-search-link::after{content:'';position:absolute;width:.45rem;height:2px;left:54%;top:60%;background:currentColor;transform:rotate(45deg);transform-origin:left center}
+ :root:not([data-agency-mode]) .settings-menu>summary::before{content:'⋯';font-size:1.38rem;line-height:1}
+ :root:not([data-agency-mode]) .settings-menu>summary::after{display:none}
+ .sss-header .title-wrapper{flex:0 1 auto;min-width:0}
+ :root[data-has-sidebar] .sss-header .title-wrapper{flex:0 1 auto}
+ .sss-header .site-title{white-space:normal}
+}

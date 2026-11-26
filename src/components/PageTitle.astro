@@ -119,53 +119,30 @@ if (id && id !== '404') {
 const identity = id && id !== '404' ? sectionIdentity(id) : undefined;
 const activeHub = Object.hasOwn(agencies, id) ? agencies[id as AgencyKey] : undefined;
 const nav = id && id !== '404' ? getPageNav(id) : undefined;
+const breadcrumbs = crumbs.filter(c=>c.href && c.href!==BASE+'/'+id+'/' && c.label!=='Home');
+const parent = identity?.parent;
+if(parent && !breadcrumbs.some(c=>c.href===parent.href))breadcrumbs.push(parent);
+const trail = breadcrumbs.slice(-2);
 ---
-
-{id && id !== '404' && (
-  <div class="sss-topbar print:hidden">
-    <div class="sss-hist" aria-label="Session navigation">
-      <button type="button" class="sss-hbtn" data-nav-back title="Go back (browser history)">&larr; Back</button>
-      <button type="button" class="sss-hbtn" data-nav-fwd title="Go forward (browser history)">Fwd &rarr;</button>
-      <div class="sss-recent-wrap">
-        <button type="button" class="sss-hbtn sss-recent-btn" data-recent-toggle aria-expanded="false" title="Recently visited pages in this tab">Recent &#9662;</button>
-        <div class="sss-recent-menu" hidden role="menu"></div>
-      </div>
-    </div>
-    {crumbs.length > 0 && (
-      <nav class="crumb sss-crumb" aria-label="Breadcrumb">
-        {crumbs.map((c, idx) => (
-          <>
-            {idx > 0 && <span class="crumb-sep" aria-hidden="true">&rsaquo;</span>}
-            {c.href ? <a href={c.href}>{c.label}</a> : <span>{c.label}</span>}
-          </>
-        ))}
-      </nav>
-    )}
-  </div>
-)}
 {identity ? (
   <header class:list={["section-heading", {"agency-heading":!!activeHub}]} data-agency={activeHub ? id : undefined} data-section-identity={identity.type} data-tone={identity.tone}>
-    <div class="section-context"><span>{identity.label}</span><span>{identity.type}</span></div>
-    <DefaultPageTitle />
-    {(!id.includes('/') || id==='map/data') && <p>{identity.description}</p>}
-    <div class="section-links">
-      {identity.parent && <a href={identity.parent.href}>{identity.parent.label}</a>}
-      {identity.showMap && <a href={identity.mapHref}>Standards map</a>}
-      {activeHub && <a href={activeHub.official}>Official agency website</a>}
-      <label class="section-jump" hidden><span>On this page</span><select aria-label="Jump to a section"><option value="">Jump to section…</option></select></label>
+    {trail.length>0 && <nav class="article-trail" aria-label="Breadcrumb">{trail.map(c=><a href={c.href}>{c.label}</a>)}</nav>}
+    <div class="page-title-row">
+      <DefaultPageTitle />
+      {(nav?.prev || nav?.next || identity.showMap || activeHub || id.includes('/')) && (
+        <details class="page-navigation print:hidden">
+          <summary aria-label="Page navigation">Navigate</summary>
+          <div class="nav-dropdown">
+            <label class="section-jump" hidden><span>On this page</span><select aria-label="Jump to a section"><option value="">Jump to section…</option></select></label>
+            {nav?.prev && <a href={nav.prev.href} rel="prev">← {nav.prev.label}</a>}
+            {nav?.next && <a href={nav.next.href} rel="next">{nav.next.label} →</a>}
+            {identity.showMap && <a href={identity.mapHref}>Standards map</a>}
+            {activeHub && <a href={activeHub.official}>Official agency website</a>}
+            {parent && <a href={parent.href}>{parent.label}</a>}
+          </div>
+        </details>
+      )}
     </div>
+    {(!id.includes('/') || id==='map/data') && <p>{identity.description}</p>}
   </header>
 ) : <DefaultPageTitle />}
-{nav && (nav.prev || nav.next) && (
-  <nav class="sss-seqbar print:hidden" aria-label="Previous and next page">
-    <span class="sss-seq-prev">
-      {nav.prev && <a href={nav.prev.href} rel="prev" title="Previous ([)">&larr; {nav.prev.label}</a>}
-    </span>
-    <span class="sss-seq-up">
-      {nav.up && <a href={nav.up.href}>{nav.up.label}</a>}
-    </span>
-    <span class="sss-seq-next">
-      {nav.next && <a href={nav.next.href} rel="next" title="Next (])">{nav.next.label} &rarr;</a>}
-    </span>
-  </nav>
-)}
