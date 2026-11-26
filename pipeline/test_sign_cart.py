@@ -122,7 +122,7 @@ def run(browser, base, downloads):
     def list_selections():
         click(css('[data-cart-open]'))
         wait.until(lambda _: css('[data-cart-dialog]').is_displayed())
-        return {b.get_attribute('data-cart-remove') for b in browser.find_elements(By.CSS_SELECTOR, '[data-cart-remove]')}
+        return set(wait.until(lambda _: browser.execute_script("return [...document.querySelectorAll('[data-cart-remove]')].map(button => button.dataset.cartRemove)")))
 
     def close():
         click(css('[data-cart-close]'))
@@ -165,7 +165,7 @@ def run(browser, base, downloads):
     assert rect['width'] <= width and rect['x'] >= 0, (width, rect)
     assert browser.execute_script('return document.documentElement.scrollWidth <= innerWidth'), width
     def ordered_slots():
-        return [e.get_attribute('data-record-id') for e in browser.find_elements(By.CSS_SELECTOR,'[data-legend-cell][data-record-id]')]
+        return browser.execute_script("return [...document.querySelectorAll('[data-legend-cell][data-record-id]')].map(cell => cell.dataset.recordId)")
 
     def download(groups):
         button = css('[data-cart-download]')
