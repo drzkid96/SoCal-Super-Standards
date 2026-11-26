@@ -9,6 +9,7 @@ from html import escape, unescape
 from pathlib import Path
 from topic_reader import PATTERNS
 from current_catalog import BASE, PUBLIC, read, save
+from atlas_places import attach_municipal_portals, ROSTER
 from regional_reader import slug, write, subject
 
 API=Path('public/api/v2')
@@ -48,11 +49,11 @@ SECTIONS={
  'caltrans':('Caltrans publications','State highway design, standard plans, and California traffic control guidance.','green'),
  'fhwa':('Federal Highway Administration','Federal transportation guidance and evaluation resources.','blue'),
  'ada':('Accessibility guidance','U.S. Access Board · accessible routes and facility elements','violet'),
- 'map':('Project location','Find the place, reported road owner, nearby stop operators, and related standards.','teal'),
+ 'map':('Browse by location','Choose a municipality to find its standards, issuing agencies, and official city website. Select a street for roadway and transit records.','teal'),
  'sources':('Source directory','Browse issuing organizations and source publications.','blue'),
  'keywords':('Keyword index','Find a subject and follow it to its reference.','teal'),
  'search':('Standards search','Find an identifier, a publication, or wording across the site.','teal'),
- 'guide':('Using the reference','Browse by source, design topic, or project location.','blue'),
+ 'guide':('Using the reference','Browse by guide, design topic, or municipality.','blue'),
  'ask':('Reference tools','Search sources and review the available engineering tools.','blue')}
 domain=lambda u:u.split('/')[2] if u.startswith('https://') else ''
 
@@ -86,6 +87,8 @@ def prepare(root,look):
         raise RuntimeError('Run python pipeline/atlas/compile.py to prepare the public geographic sources before building.')
     modes=read(PUBLIC/'agency-modes.json')
     places=read(API/'places.json')
+    attach_municipal_portals(places)
+    save(API/'places.json',places)
     county_names={v['name']:v['county'] for v in places if v['kind']=='county'}
     editions=read('data/reference/transit-guides.json')
     for key,_,_,_,_ in editions:
@@ -152,28 +155,41 @@ def prepare(root,look):
     # Keep county anchors from previous editions and route every issuer through its profile.
     directory=root/'regions/index.md';text=directory.read_text()
     start=text.index('<div class="geobrowse">');end=text.index('<section class="county-group"',start)
-    text=text[:start]+('<p>Open the project map to look up a street or intersection, or choose an issuing agency below.</p>\n'+
-                        anchor(route('map'),'Open the project map')+'\n\n')+text[end:]
+    text=text[:start]+('<p>Choose a city on the municipal standards map or browse issuing agencies by county.</p>\n'+
+                        anchor(route('map'),'Open the municipal standards map')+'\n\n')+text[end:]
     for key,_,_,_,_ in editions:
         text=text.replace('"'+route('transit/'+key)+'"','"'+profiles[key]['home']+'"')
     for name,code in county_names.items():
         tag='id="county-'+slug(name)+'"'
         pos=text.index('</h2>',text.index(tag))+5
         text=text[:pos]+anchor(route('map')+'?county='+code,'Explore '+name+' County on the map')+text[pos:]
+        cities=sorted((p for p in places if p['kind']=='city' and p['county']==code),key=lambda p:p['name'])
+        entries=[]
+        for city in cities:
+            title='Ventura (San Buenaventura)' if city['name']=='San Buenaventura' else city['name']
+            url=route('map')+'?city='+city['id']
+            entry=anchor(url,title)+' · '+anchor(city['official'],'City website')
+            local=[anchor(p['home'],p['name']+' standards') for p in profiles.values() if p['place']==city['id']]
+            entries.append('<li id="city-'+city['id']+'">'+entry+(' · '+' · '.join(local) if local else '')+'</li>')
+            aliases=[city['name']] if title==city['name'] else [city['name'],'Ventura',title]
+            for label in aliases:
+                look.setdefault(label,[]).append([title+' · municipal standards map ('+name+' County)',url])
+        end=text.index('</section>',pos)
+        directory_list='<details><summary>All '+str(len(cities))+' municipalities in '+escape(name)+' County</summary><ul>'+''.join(entries)+'</ul></details>'
+        text=text[:end]+directory_list+text[end:]
     directory.write_text(text)
     home=root/'index.mdx';text=home.read_text()
     for name,code in county_names.items():
         text=text.replace(route('regions')+'#county-'+slug(name),route('map')+'?county='+code)
-    text=text.replace('Browse counties and agencies →','Explore the project map →').replace('href="'+route('regions')+'">Explore the project map','href="'+route('map')+'">Explore the project map')
     home.write_text(text)
     for page in ('agencies','cities','sources'):
         f=pathfor(root,page);text=f.read_text();front,sep,body=text.partition('\n---\n')
-        f.write_text(front+sep+'\n<nav class="source-paths" aria-label="Find an authority">'+anchor(route('map'),'Find agencies by project location')+anchor(route('regions'),'Browse jurisdiction profiles')+'</nav>\n\n'+body)
+        f.write_text(front+sep+'\n<nav class="source-paths" aria-label="Find an authority">'+anchor(route('map'),'Find standards by municipality')+anchor(route('regions'),'Browse jurisdiction profiles')+'</nav>\n\n'+body)
     for key in TOPIC_NAMES:
         f=pathfor(root,'topics/'+key)
         if f:
             text=f.read_text()
-            label=anchor(route('map')+'?topic='+key,'Find this topic by project location')
+            label=anchor(route('map')+'?topic='+key,'Browse this topic by municipality')
             f.write_text(text.replace('</nav>',label+'</nav>',1))
     source=pathfor(root,'santa-monica/standard-plans')
     text=source.read_text()
@@ -182,9 +198,10 @@ def prepare(root,look):
         look.setdefault('Santa Monica '+title,[]).append([title,route('santa-monica/standard-plans')+'#'+key])
         return '<span id="'+key+'"></span>\n\n'+match[0]
     source.write_text(re.sub(r'^## (.+)$',heading,text,flags=re.M))
-    look['project map']=[['Project map · street ownership, cities, transit stops and standards',route('map')]]
+    for term in ('municipal standards map','city map','browse by municipality','standards map'):
+        look[term]=[['Municipal standards map · cities, agencies and standards',route('map')]]
     # The map is a shared lookup surface, never an authority for project requirements.
-    write(root,'map','Project map',Path('src/map/atlas.html').read_text().replace('%%BASE%%',BASE))
+    write(root,'map','Municipal standards map',Path('src/map/atlas.html').read_text().replace('%%BASE%%',BASE))
     write(root,'map/data','Geographic data and downloads',data_page(profiles))
     return profiles
 
@@ -201,7 +218,7 @@ def profile_body(p,profiles):
            'Regional standards':'Find the regional drawing series, then check the adopting agency and its local supplements.'}
     mapurl=route('map')+'?issuer='+key
     head=('<div class="authority-lead"><p>'+leads[p['kind']]+'</p><div class="authority-actions">'+
-          anchor(mapurl,'View map coverage')+f'<button class="mode-action" data-set-mode="{key}">Use {escape(name)} mode</button></div></div>')
+          anchor(mapurl,'Browse map coverage')+f'<button class="mode-action" data-set-mode="{key}">Use {escape(name)} mode</button></div></div>')
     cards=[]
     for doc in publications:
         n=doc.get('pages');chapters=doc.get('chapters')
@@ -225,18 +242,27 @@ def profile_body(p,profiles):
 def data_page(profiles):
     m=read(API/'layers.json')
     rows=['Source snapshots use longitude and latitude in WGS 84. The map queries compressed SQLite databases in a browser worker. Download the same databases for desktop analysis.',
-          '## Geographic index',
-          anchor(BASE+'/api/v2/index.json','API v2 manifest')+' · '+anchor(BASE+'/api/v2/places.json','County and city identifiers')+' · '+
+          '## Municipalities and standards',
+          anchor(BASE+'/api/v2/index.json','API v2 manifest')+' · '+anchor(BASE+'/api/v2/places.json','City and county identifiers and municipal websites')+' · '+
           anchor(BASE+'/api/v2/profiles.json','Jurisdiction and publication directory')+' · '+anchor(BASE+'/api/v2/db/site.sqlite.gz','Download the standards index (SQLite, gzip)'),
+          anchor(BASE+'/api/v2/municipalities.geojson','Municipal boundary overview (GeoJSON)')+' · '+anchor(BASE+'/js/atlas/land.geojson','Regional land basemap (GeoJSON)'),
           '## Coverage by county','','| County | Named street intersections | Scheduled stop records | HPMS road paths | Files |','|---|---:|---:|---:|---|']
     for code,d in m['countyLayers'].items():
         links=' · '.join([anchor(BASE+'/api/v2/boundaries/'+code+'.geojson','Boundaries'),anchor(BASE+'/api/v2/'+d['network']['file'],'Stops and highways'),anchor(BASE+'/api/v2/'+d['intersections']['index'],'Street index')])
         rows.append(f'| {d["name"]} | {d["intersections"]["crossings"]:,} | {d["network"]["stops"]:,} | {d["ownershipPaths"]:,} | {links} |')
+    road_context=API/'road-context.json'
+    if road_context.is_file():
+        local=read(road_context)
+        source=local['sources']['pasadena-streets']
+        rows+=['','## Pasadena street inventory',
+               f"The City of Pasadena lists {local['count']:,} named street centerlines in its {source['sourceEdited']} GIS snapshot. Each segment links its publisher record and includes the city’s street classification. Check the HPMS ownership record separately.",
+               anchor(source['catalog'],'City of Pasadena GIS source')+' · '+anchor(BASE+'/api/v2/road-context.json','Inventory metadata')+' · '+anchor(BASE+'/api/v2/'+local['file'],'Street centerlines (GeoJSON)')]
     rows+=['','## How to interpret a location','City boundaries identify the municipality containing a point. A nearby road record reports the HPMS ownership category and source route ID. At an intersection or interchange, inspect each approach separately. Maintenance agreements and permit authority require agency confirmation.',
            'Where the statewide inventory lists an operator group, an operator-specific match requires the same stop ID, nearby coordinates, and all reported routes serving that stop in the native GTFS feed. '+anchor('https://www.sdmts.com/google_transit_files/google_transit.zip','San Diego MTS feed')+' · '+anchor('https://govcbus.com/gtfs','Ventura operator feed')+'.',
            'Stop distances are measured to the published stop point. Operators are drawn from the Caltrans GTFS snapshot. The stop list is a design reference and does not provide live departures.',
            '## Data sources','Database snapshot assembled '+m['snapshot']+'. Source editions and publication dates can differ.']
     rows += ['- '+anchor(s['url'],s['title']) for s in m['sources'].values()]
+    rows.append('- '+anchor(ROSTER,'California Secretary of State · 2026 incorporated cities and towns')+'. Each incorporated city has a municipal website and a directory source. Cities with indexed publications also link to the relevant agency collection.')
     rows+=['','## Working with the database',
            'The layer manifest lists county network databases, street name indexes, and ownership partitions with bounding boxes. Gzip-decompress each .sqlite.gz file before opening it in SQLite. Street indexes map a street name to the partitions containing it. Join the approach table to crossing by node and to street by ID. Ownership paths and state highways store ordered WGS 84 line coordinates as JSON.',
            'The site database connects each authority to indexed references and publications. Its URLs open directly in the reader. '+anchor(BASE+'/api/v2/layers.json','Open the geographic layer manifest')+'.']
@@ -325,5 +351,5 @@ def finish(root,profiles):
     conn.close();save(API/'profiles.json',profiles)
     write(root,'map/data','Geographic data and downloads',data_page(profiles))
     save(API/'index.json',{'version':2,'crs':'EPSG:4326','snapshot':read(API/'layers.json')['snapshot'],
-         'layers':'layers.json','places':'places.json','countyGeometry':'counties.geojson','authorities':'profiles.json','topics':'topics.json','stopOperators':'stop-operators.json','siteDatabase':'db/site.sqlite.gz','guideHierarchy':'../v1/guides.json','documentation':route('map/data')})
-    old=read(Path('public/api/v1/index.json'));old['projectAtlas']='../v2/index.json';save(Path('public/api/v1/index.json'),old)
+         'layers':'layers.json','places':'places.json','countyGeometry':'counties.geojson','municipalityGeometry':'municipalities.geojson','basemapLand':'../../js/atlas/land.geojson','authorities':'profiles.json','topics':'topics.json','stopOperators':'stop-operators.json','siteDatabase':'db/site.sqlite.gz','guideHierarchy':'../v1/guides.json','documentation':route('map/data')})
+    old=read(Path('public/api/v1/index.json'));old['geographicIndex']=old['projectAtlas']='../v2/index.json';save(Path('public/api/v1/index.json'),old)

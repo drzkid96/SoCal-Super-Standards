@@ -7,7 +7,7 @@ import re
 from lxml import html
 from PIL import Image
 from current_catalog import BASE, read
-from visual_types import GROUPS
+from visual_types import GROUPS, applies_to_route
 
 MANUALS = {'mutcd': 'Federal MUTCD', 'ca-mutcd': 'CA MUTCD 2026'}
 NUMBER = r'\d[A-Z]-\d+(?:\s*\(CA\))?'
@@ -25,13 +25,9 @@ APPLICATIONS = [
 ]
 FIELD_PHOTOS = [
     (r'\btwo.way (?:separated (?:bikeway|bike lane)|cycle track)s?', 2,
-     'Two-way separated bikeway in Redondo Beach', 'photo-2-redondo-two-way'),
-    (r'\bparking.protected (?:bikeway|bike lane|cycle track)s?', 3,
-     'Parked vehicles and flexible posts alongside a Sacramento bikeway', 'photo-3-parking-protected'),
+     'Two-way separated bikeway in Redondo Beach', 'redondo-two-way'),
     (r'\b(?:green.{0,35}driveway|driveway.{0,35}green)', 5,
-     'Green bikeway markings across a Los Angeles driveway', 'photo-5-la-driveway-green'),
-    (r'\bprotected intersections?\b', 6,
-     'Protected intersection in Davis', 'photo-6-davis-protected-int'),
+     'Green bikeway markings across a Los Angeles driveway', 'la-green-driveway'),
 ]
 
 BLOCKED = {'figure','figcaption','nav','details','table','del','button','pre','code','aside','header','footer'}
@@ -77,8 +73,9 @@ class Artwork:
                 if record:
                     self.applications.append((re.compile(r'\b(?:'+pattern+r')\b', re.I), record))
         for pattern, n, title, slug in FIELD_PHOTOS:
-            src = f'{BASE}/figs/bulletins/dib-89-02/{slug}.webp'
-            photo = Example('Caltrans DIB 89-02', f'Photo {n}', title, src, src)
+            src = f'{BASE}/figs/projects/{slug}.webp'
+            photo = Example('Caltrans DIB 89-02', f'Photo {n}', title,
+                            f'{BASE}/bulletins/caltrans-dib-89-02/#photo-{n}', src)
             self.applications.insert(0, (re.compile(pattern, re.I), photo))
 
     def thumbnail(self, src):
@@ -126,9 +123,10 @@ class Artwork:
                     end = follow.end()
         for href in paragraph.xpath('.//a/@href'):
             found.append(self.urls.get(route+href if href.startswith('#') else href))
-        supplemental = not any(found) and not edition and len(wording.split()) >= 8
+        supplemental = not any(found) and not edition and len(wording.split()) >= 12
         if supplemental:
-            found = [record for term,record in self.applications if term.search(wording)]
+            found = [record for term,record in self.applications
+                     if applies_to_route(record.source,group) and term.search(wording)]
         cards = []
         for record in found:
             if not record or record.url == route or record.url in seen:

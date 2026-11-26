@@ -20,6 +20,11 @@ def open_db(path):
 def verify():
     from lxml import html
     profiles=read(API/'profiles.json');m=read(API/'layers.json');places=read(API/'places.json')
+    cities={v['id']:v for v in places if v['kind']=='city'}
+    assert all(urlsplit(v['official']).scheme=='https' and urlsplit(v['directorySource']).scheme=='https' for v in cities.values())
+    directory=html.parse(str(ROOT/'regions/index.html'))
+    links={v.rsplit('=',1)[-1] for v in directory.xpath('//a/@href') if v.startswith(BASE+'map/?city=')}
+    assert links==set(cities),'The fallback agency directory must include every mapped municipality'
     counties=m['countyLayers']
     assert set(counties)=={'025','037','059','065','071','073','111'}
     assert set(counties)=={v['county'] for v in profiles.values() if v['kind']=='County public works'}

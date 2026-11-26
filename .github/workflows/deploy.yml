@@ -58,7 +58,7 @@ jobs:
         id: geography
         with:
           path: public/api/v2
-          key: socal-geography-v2-${{ hashFiles('pipeline/atlas/*.py', 'data/reference/atlas/tiger-2025.json', 'data/reference/atlas/hpms-2024-ca.json') }}
+          key: socal-geography-v2-${{ hashFiles('pipeline/atlas/*.py', 'data/reference/atlas/tiger-2025.json', 'data/reference/atlas/hpms-2024-ca.json', 'data/reference/atlas/pasadena-streets.geojson.gz', 'public/js/atlas/land.geojson') }}
       - name: Build the public geographic databases
         if: steps.geography.outputs.cache-hit != 'true'
         run: |
@@ -76,14 +76,17 @@ jobs:
       - name: Verify JS syntax, internal links, and bike citations
         run: |
           node pipeline/test_calculations.mjs
-          for f in public/js/*.js; do node --check "$f"; done
+          for f in public/js/*.js public/js/atlas/*.js; do node --check "$f"; done
           python3 -I pipeline/check_links.py
           python3 -I pipeline/check_bike_refs.py
           python pipeline/check_reader.py
-      - name: Test desktop and mobile sheet navigation
+      - name: Test desktop and mobile sheet navigation and municipal map
         run: |
+          node pipeline/test_atlas_worker.mjs
+          node pipeline/test_location_search.mjs
           python -m pip install selenium
           python pipeline/test_sheet_viewer.py
+          python pipeline/test_atlas_browser.py
   deploy:
     concurrency:
       group: standards-pages-publish

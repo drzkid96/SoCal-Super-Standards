@@ -5,8 +5,6 @@ sidebar:
   order: 2
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/crosswalks.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/crosswalks.webp" alt="FHWA STEP Uncontrolled Crossings" /></a><figcaption><strong>FHWA STEP Uncontrolled Crossings</strong> <em>High-visibility crosswalks, RRFBs, PHBs, refuge islands & raised crossings</em></figcaption></figure>
-
 
 <div class="srcbar">FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (STEP) &middot; July 2018, updated &middot; pages 4&ndash;7</div>
 

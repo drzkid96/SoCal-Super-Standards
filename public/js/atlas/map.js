@@ -1,3 +1,5 @@
+import {groupCrossingPoints,makePlaceSearch} from './location-query.js';
+import {cityName,drawMunicipalities} from './municipal-map.js';
 const root=document.querySelector('[data-atlas]');
 const base=root.dataset.atlas, api=base+'/api/v2/';
 const $=id=>document.getElementById('atlas-'+id);
@@ -5,7 +7,7 @@ const node=(tag,text,cls)=>{const el=document.createElement(tag);if(text!=null)e
 const link=(label,href)=>{const a=node('a',label);a.href=href;return a;};
 const button=(label,fn)=>{const b=node('button',label);b.type='button';b.onclick=fn;return b;};
 const norm=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
-const json=async path=>{const r=await fetch(api+path);if(!r.ok)throw Error('Source unavailable: '+path);return r.json();};
+const json=async path=>{const r=await fetch(api+path,{signal:globalThis.AbortSignal?.timeout?.(15000)});if(!r.ok)throw Error('Source unavailable: '+path);return r.json();};
 const nearBox=(a,b)=>a[0]<=b[2]&&a[2]>=b[0]&&a[1]<=b[3]&&a[3]>=b[1];
 const insideBox=(x,y,b)=>x>=b[0]&&x<=b[2]&&y>=b[1]&&y<=b[3];
 function inRing(x,y,ring){
@@ -31,19 +33,49 @@ function roadName(r){
 const coords=(x,y)=>y.toFixed(5)+', '+x.toFixed(5);
 const latLng=line=>line.map(([x,y])=>[y,x]);
 async function start(){
-  if(!window.L)await import(base+'/vendor/atlas/leaflet.js');
+  const emptyGeo={type:'FeatureCollection',features:[]};
+  const optional=(path,fallback)=>json(path).catch(()=>fallback);
+  const resources=await Promise.all([
+    json('places.json'),optional('profiles.json',{}),optional('topics.json',{}),
+    optional('counties.geojson',emptyGeo),optional('municipalities.geojson',emptyGeo),
+    fetch(new URL('./land.geojson',import.meta.url)).then(r=>r.ok?r.json():null).catch(()=>null),
+    window.L?null:import(base+'/vendor/atlas/leaflet.js').catch(()=>null)
+  ]);
+  const [places,profiles,topics,outline,municipalities,land]=resources;
+  let m={sources:{}},aliases={},metadata;
+  function streetMetadata(){
+    metadata ||= Promise.allSettled([json('layers.json'),json('operator-aliases.json')]).then(([inventory,operators])=>{
+      if(inventory.status==='fulfilled')m=inventory.value;
+      if(operators.status==='fulfilled')aliases=operators.value;
+      if(inventory.status==='rejected'||operators.status==='rejected')metadata=null;
+    });
+    return metadata;
+  }
   const L=window.L;
-  const [m,places,profiles,aliases,outline,topics]=await Promise.all(['layers.json','places.json','profiles.json','operator-aliases.json','counties.geojson','topics.json'].map(json));
   const lookup=new Map(places.map(p=>[p.id,p])), cities=places.filter(p=>p.kind==='city'), counties=places.filter(p=>p.kind==='county');
-  const url=new URL(location.href), scope=window.SSSAgency?.active||'';
-  const scopedIssuer=profiles[scope],initialIssuer=scopedIssuer||profiles[url.searchParams.get('issuer')];
-  const countySelect=$('county'),topicSelect=$('topic');
+  const scope=window.SSSAgency?.active||'', scopedIssuer=profiles[scope];
+  const countySelect=$('county'),citySelect=$('city'),topicSelect=$('topic');
+  const inScope=p=>(!scopedIssuer?.place||p.id===scopedIssuer.place)&&(!scopedIssuer?.county||p.county===scopedIssuer.county);
+  const orderedCounties=counties.slice().sort((a,b)=>a.name.localeCompare(b.name));
   for(const [key,title] of Object.entries(topics))topicSelect.add(new Option(title,key));
-  topicSelect.value=url.searchParams.get('topic')||'';
-  for(const c of counties.filter(c=>!scopedIssuer?.county||c.county===scopedIssuer.county).sort((a,b)=>a.name.localeCompare(b.name)))countySelect.add(new Option(c.name+' County',c.county));
-  countySelect.value=initialIssuer?.county||((m.countyLayers[url.searchParams.get('county')]&&url.searchParams.get('county'))||'037');
-  if(scopedIssuer?.county)countySelect.disabled=true;
-  const map=L.map($('map'),{preferCanvas:false,scrollWheelZoom:false,minZoom:6,maxZoom:19,zoomControl:true,attributionControl:true});
+  for(const c of orderedCounties.filter(c=>!scopedIssuer?.county||c.county===scopedIssuer.county))countySelect.add(new Option(c.name+' County',c.county));
+  countySelect.disabled=!!scopedIssuer?.county;
+  function setCityOptions(code,id=''){
+    countySelect.value=code||'';
+    citySelect.replaceChildren(new Option('Choose a city',''));
+    for(const county of orderedCounties){
+      if(code&&county.county!==code)continue;
+      const group=document.createElement('optgroup');group.label=county.name+' County';
+      const items=cities.filter(c=>c.county===county.county&&inScope(c)).sort((a,b)=>cityName(a).localeCompare(cityName(b)));
+      for(const c of items)group.append(new Option(cityName(c),c.id));
+      if(items.length)citySelect.append(group);
+    }
+    citySelect.value=id;
+    citySelect.disabled=!!scopedIssuer?.place;
+  }
+  let map,cartography;
+  const regionalView=[[32.48,-119.65],[35.82,-114.12]];
+  if(L)map=L.map($('map'),{scrollWheelZoom:false,minZoom:6,maxZoom:19,zoomSnap:.25,attributionControl:true}).fitBounds(regionalView);
   const displayBounds=b=>[[b[1],b[0]],[b[3],b[2]]];
   const fit=(p,max=13)=>map.fitBounds(displayBounds(p.bbox),{padding:[14,14],maxZoom:max,animate:false});
   const geoCache=new Map();
@@ -51,28 +83,26 @@ async function start(){
     if(!geoCache.has(code))geoCache.set(code,json('boundaries/'+code+'.geojson').catch(e=>{geoCache.delete(code);throw e;}));
     return geoCache.get(code);
   }
-  const mapLayers={street:L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}),
-    aerial:L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}',{maxNativeZoom:16,maxZoom:19,attribution:'Imagery: <a href="https://www.usgs.gov/programs/national-geospatial-program/national-map">USGS The National Map</a>'})};
-  let basemap,operatorIndex,failedTile=false;
+  const mapLayers=map?{street:L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}),
+    aerial:L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}',{maxNativeZoom:16,maxZoom:19,attribution:'Imagery: <a href="https://www.usgs.gov/programs/national-geospatial-program/national-map">USGS</a>'})}:{};
+  let basemap,operatorIndex,failedTile=false,baseIssue='',overlayIssues=[],limited=false;
+  let pin,locationTicket=0,layerTicket=0,findTicket=0,timer,current=null,selectedCity=null,shownStops=0;
+  const stopRenderer=map&&L.canvas({padding:.2});
+  const stopsLayer=map&&L.layerGroup().addTo(map),highwayLayer=map&&L.layerGroup().addTo(map),selectedLayer=map&&L.layerGroup().addTo(map);
   function setBase(){
-    if(basemap)map.removeLayer(basemap);failedTile=false;
-    basemap=mapLayers[$('basemap').value];if(basemap)basemap.addTo(map);
+    if(!map)return;
+    if(basemap)map.removeLayer(basemap);
+    failedTile=false;
+    basemap=mapLayers[$('basemap').value];
+    if(basemap)basemap.addTo(map);
+    cartography.basemap($('basemap').value);
     refreshLayers();
   }
-  Object.values(mapLayers).forEach(l=>l.on('tileerror',()=>{if(l===basemap&&!failedTile){failedTile=true;layerStatus();}}));
-  L.geoJSON(outline,{bubblingMouseEvents:false,onEachFeature:(f,layer)=>{
-    layer.bindTooltip(node('span',f.properties.name),{permanent:false,sticky:true});
-    layer.on('click',e=>{if(map.getZoom()<=8){countySelect.value=f.properties.county;selectCounty();}else choose(e.latlng.lng,e.latlng.lat,'',false);});
-  },style:{color:'#4b726a',weight:1.5,opacity:.75,fillOpacity:.035}}).addTo(map);
-  const stopRenderer=L.canvas({padding:.2});
-  const countyLabels=L.layerGroup().addTo(map);
-  for(const c of counties){
-    const label=node('span',c.name);const icon=L.divIcon({className:'atlas-county-label',html:label,iconSize:[100,20],iconAnchor:[50,10]});
-    L.marker([c.center[1],c.center[0]],{icon,interactive:false,keyboard:false}).addTo(countyLabels);
-  }
-  map.on('zoomend',()=>{if(map.getZoom()>8)map.removeLayer(countyLabels);else if(!map.hasLayer(countyLabels))countyLabels.addTo(map);});
-  const cityLayer=L.layerGroup().addTo(map),stopsLayer=L.layerGroup().addTo(map),highwayLayer=L.layerGroup().addTo(map),selectedLayer=L.layerGroup().addTo(map);
-  let pin,locationTicket=0,layerTicket=0,findTicket=0,timer,current=null,shownStops=0,networkError=false;
+  Object.values(mapLayers).forEach(layer=>layer.on('tileerror',()=>{
+    if(layer!==basemap||failedTile)return;
+    $('basemap').value='local';
+    setBase();failedTile=true;layerStatus();
+  }));
   const pending=new Map();let requestNumber=0,worker;
   function request(method,params){
     if(!worker){
@@ -83,28 +113,28 @@ async function start(){
     return new Promise((resolve,reject)=>{const id=++requestNumber;pending.set(id,{resolve,reject});worker.postMessage({id,method,params});});
   }
   function layerStatus(){
-    const z=map.getZoom(),hints=[];
-    if($('stops').checked)hints.push(z<14?'Zoom to street level to see stops':shownStops+' stops drawn (up to 750 per county)');
-    if(failedTile)hints.push('Basemap tile unavailable. Local lookup still works.');
-    if(networkError)hints.push('An overlay could not load. Pan or change a layer to retry.');
+    const z=map?.getZoom()||0,hints=[];
+    if(baseIssue)hints.push(baseIssue);
+    if($('stops').checked)hints.push(z<14?'Zoom to street level for transit stops':shownStops+' stops drawn'+(limited?' · zoom in for the remaining stops':''));
+    if($('highways').checked && z<10)hints.push('Zoom in for state highways');
+    if(failedTile)hints.push('The imagery provider could not load. Restored the minimal basemap.');
+    if(overlayIssues.length)hints.push('Layer unavailable: '+overlayIssues.join(', ')+'. Pan or toggle the layer to retry.');
     $('layer-status').textContent=hints.join(' · ');
   }
   async function refreshLayers(){
     const epoch=++layerTicket;clearTimeout(timer);
     timer=setTimeout(async()=>{
-      networkError=false; const bounds=map.getBounds(),box=[bounds.getWest(),bounds.getSouth(),bounds.getEast(),bounds.getNorth()];
+      overlayIssues=[];limited=false;const bounds=map.getBounds(),box=[bounds.getWest(),bounds.getSouth(),bounds.getEast(),bounds.getNorth()];
       const z=map.getZoom(), codes=counties.filter(p=>(!scopedIssuer?.county||p.county===scopedIssuer.county)&&nearBox(p.bbox,box)).map(p=>p.county);
       const stops=$('stops').checked && z>=14,highways=$('highways').checked && z>=10;
       try{
-        const [collections,objects]=await Promise.all([
-          $('cities').checked && z>=8?Promise.all(codes.map(boundaries)):[],
-          stops||highways?request('visible',{bounds:box,counties:codes,zoom:z,stops,highways}):{stops:[],highways:[]}]);
+        const objects=stops||highways?await request('visible',{bounds:box,counties:codes,zoom:z,stops,highways}):{stops:[],highways:[]};
         if(epoch!==layerTicket)return;
-        cityLayer.clearLayers();stopsLayer.clearLayers();highwayLayer.clearLayers();
-        for(const data of collections)L.geoJSON(data,{filter:f=>f.properties.kind==='city'&&(!scopedIssuer?.place||f.properties.id===scopedIssuer.place)&&nearBox(lookup.get(f.properties.id).bbox,box),
-          interactive:false,style:{color:basemap===mapLayers.aerial?'#8aecd0':'#497d72',weight:1.4,fillOpacity:.055}}).addTo(cityLayer);
+        stopsLayer.clearLayers();highwayLayer.clearLayers();
+        overlayIssues=objects.unavailable||[];limited=!!objects.limited;
         for(const h of objects.highways)L.polyline(latLng(h.line),{color:'#aa6044',weight:3,opacity:.75,interactive:false}).addTo(highwayLayer);
         let mappedOperators={};
+        if(scopedIssuer?.kind==='Transit agency'&&objects.stops.length)await streetMetadata();
         if(scopedIssuer?.kind==='Transit agency'&&objects.stops.some(s=>relatedOperators(s.agency).length)){
           operatorIndex ||= json('stop-operators.json').catch(()=>{operatorIndex=null;return {stops:{}};});
           mappedOperators=(await operatorIndex).stops;
@@ -120,13 +150,13 @@ async function start(){
           marker.bindTooltip(node('span',s.name+' · '+s.agency));marker.on('click',()=>choose(s.x,s.y,s.name));
         }
 
-      }catch(e){if(epoch===layerTicket)networkError=true;}
+      }catch(e){if(epoch===layerTicket){overlayIssues=['Requested overlay'];stopsLayer.clearLayers();highwayLayer.clearLayers();shownStops=0;}}
       if(epoch===layerTicket)layerStatus();
     },120);
   }
   function updateURL(x,y){
     const next=new URL(location.href);next.searchParams.set('lat',y.toFixed(5));next.searchParams.set('lon',x.toFixed(5));
-    next.searchParams.set('z',String(map.getZoom()));next.searchParams.delete('county');
+    next.searchParams.set('z',String(map?.getZoom()||16));for(const field of ['county','city','issuer'])next.searchParams.delete(field);
     if(next.href!==location.href)history.pushState(null,'',next);
   }
   function section(title,detail){
@@ -176,58 +206,144 @@ async function start(){
   function referenceKeys(city,county){
     return Object.values(profiles).filter(p=>(city&&p.place===city.id)||(p.county===county.county&&p.kind==='County public works')).map(p=>p.key);
   }
-  function overview(county,issuer,move=true){
-    const place=issuer?.place&&lookup.get(issuer.place);
-    summary(issuer?.name||(county?county.name+' County':'Southern California'),'Select a point to identify the roadway and nearby transit operators.');
+  function clearPoint(){
+    locationTicket++;findTicket++;current=null;selectedCity=null;root.dataset.selection='area';
+    $('results').replaceChildren();$('results').removeAttribute('aria-busy');$('context').setAttribute('aria-busy','false');
+    selectedLayer?.clearLayers();if(pin){pin.remove();pin=null;}
+  }
+  function areaURL(params){
+    const next=new URL(location.href);
+    for(const field of ['city','county','lat','lon','z','issuer'])next.searchParams.delete(field);
+    for(const [field,value] of Object.entries(params))if(value)next.searchParams.set(field,value);
+    if(next.href!==location.href)history.pushState(null,'',next);
+  }
+  function shareButton(label){
+    const b=button(label,async()=>{try{await navigator.clipboard.writeText(location.href);b.textContent='Link copied';}catch{b.textContent='Copy the address from your browser';}});return b;
+  }
+  function displayMunicipality(city){
+    const county=counties.find(c=>c.county===city.county);
+    const heading=summary(cityName(city),county.name+' County · Incorporated municipality');
+    heading.append(shareButton('Copy city link'));
     const panel=$('context');panel.replaceChildren();
-    if(!county && !issuer){
+    const own=Object.values(profiles).filter(p=>p.place===city.id&&allowed(p.key)).map(p=>p.key);
+    const local=section(scopedIssuer&&!scopedIssuer.place?'Standards from '+scopedIssuer.name:'Municipal standards');
+    if(own.length)local.append(sources(own));
+    else if(scope&&scopedIssuer){local.append(sources([scope]));}
+    else {
+      local.append(node('p',Object.keys(profiles).length?'No municipal publication is indexed for '+cityName(city)+'.':'The publication index is temporarily unavailable.'));
+      if(city.official)local.append(link(cityName(city)+' · official city website',city.official));
+    }
+    if(own.length&&city.official)local.append(link('Official municipal website',city.official));
+    panel.append(local);
+    if(scope)return;
+    const countyKeys=Object.values(profiles).filter(p=>p.county===city.county&&p.kind==='County public works').map(p=>p.key);
+    const other=section('County and regional references','Check these for county work or interagency coordination. The municipal boundary does not establish who maintains a street.');
+    other.append(sources(countyKeys));
+    const regional=Object.values(profiles).filter(p=>p.county===city.county&&['Transit agency','Regional agency','Regional standards'].includes(p.kind));
+    for(const p of regional)other.append(link(p.fullName||p.name,p.home));
+    const context=node('details',null,'atlas-more');context.append(node('summary','County, regional and statewide references'));
+    context.append(other);
+    const statewide=section('State and federal references');statewide.append(sources(['caltrans','fhwa']));context.append(statewide);
+    context.open=!own.length||window.matchMedia('(min-width: 49rem)').matches;
+    panel.append(context);
+  }
+  function showMunicipality(city,{push=true,move=true}={}){
+    if(!city||city.kind!=='city'||!inScope(city))return;
+    clearPoint();selectedCity=city;root.dataset.selection='city';$('inspect').checked=false;
+    setCityOptions(city.county,city.id);cartography?.select(city.id);
+    if(push)areaURL({city:city.id});
+    if(map&&move)fit(city);
+    displayMunicipality(city);
+  }
+  function overview(county,issuer,move=true){
+    cartography?.select('');
+    const panel=$('context');panel.replaceChildren();
+    const local=cities.filter(p=>inScope(p)&&(!county||p.county===county.county));
+    summary(issuer?.fullName||issuer?.name||(county?county.name+' County':'Southern California'),
+      issuer?'Standards from this issuing agency.':county?local.length+' incorporated municipalities. Choose a city for its standards.':local.length+' municipalities across seven counties. Choose a city on the map or in the list.');
+    if(!county&&!issuer){
       const region=section('Browse by county');
-      for(const c of counties){
-        const chosen=button(c.name,()=>{countySelect.value=c.county;selectCounty();});
-        chosen.className='atlas-county-row';region.append(chosen);
+      for(const c of orderedCounties){
+        const chosen=button(c.name,()=>{countySelect.value=c.county;selectCounty();});chosen.className='atlas-county-row';region.append(chosen);
       }
       panel.append(region);
-      if(move)map.fitBounds([[32.52,-119.7],[35.82,-114.1]],{padding:[6,6]});
-      return;
+      const featured=section('Municipal collections');
+      const featuredIds=['0644000','0656000','0602000','0662000','0666000','0654652','0621782'];
+      for(const id of featuredIds){
+        const p=lookup.get(id);
+        if(!p||!Object.values(profiles).some(v=>v.place===id))continue;
+        const a=link(cityName(p),base+'/map/?city='+id);
+        a.className='atlas-featured-city';
+        a.onclick=e=>{if(!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey){e.preventDefault();showMunicipality(p);}};
+        featured.append(a);
+      }
+      if(featured.querySelector('a'))panel.append(featured);
+    }else{
+      const featured=section(issuer?'Agency standards':'County standards',issuer?'':'County publications and drawings for county-maintained facilities and unincorporated areas.');
+      const keys=issuer?[issuer.key]:Object.values(profiles).filter(p=>p.county===county.county&&p.kind==='County public works').map(p=>p.key);
+      featured.append(sources(keys));panel.append(featured);
     }
-    const featured=section('Indexed authorities');
-    const keys=issuer?[issuer.key]:Object.values(profiles).filter(p=>p.county===county.county).map(p=>p.key);
-    featured.append(sources(keys));panel.append(featured);
-    if(move){if(place)fit(place);else if(issuer&&!issuer.county)map.fitBounds([[32.52,-119.7],[35.82,-114.1]]);else if(county)fit(county,10);}
+    if(move&&map){if(county)fit(county,10);else map.fitBounds(regionalView,{padding:[6,6],animate:false});}
   }
   async function choose(x,y,label='',move=true,push=true){
     if(!Number.isFinite(x)||!Number.isFinite(y))return;
-    const ticket=++locationTicket;current={x,y,label};selectedLayer.clearLayers();mark(x,y);
-    if(move)map.setView([y,x],Math.max(15,map.getZoom()),{animate:false});
+    root.dataset.selection='point';
+    const ticket=++locationTicket;current={x,y,label};selectedCity=null;citySelect.value='';cartography?.select('');selectedLayer?.clearLayers();if(map)mark(x,y);
+    if(move&&map)map.setView([y,x],Math.max(15,map.getZoom()),{animate:false});
     if(push)updateURL(x,y);
     summary(label||'Selected location',coords(x,y));
     const panel=$('context');panel.setAttribute('aria-busy','true');panel.replaceChildren(node('p','Checking boundaries, roadway records, and scheduled stops…'));
     const candidates=counties.filter(p=>insideBox(x,y,[p.bbox[0]-.006,p.bbox[1]-.006,p.bbox[2]+.006,p.bbox[3]+.006]));
     try{
-      const data=await Promise.all(candidates.map(p=>boundaries(p.county)));
+      const boundaryChecks=await Promise.allSettled(candidates.map(p=>boundaries(p.county)));
       if(ticket!==locationTicket)return;
+      const failed=candidates.filter((_,i)=>boundaryChecks[i].status==='rejected');
+      const data=boundaryChecks.filter(v=>v.status==='fulfilled').map(v=>v.value);
       const matched=data.flatMap(c=>c.features.filter(f=>insideBox(x,y,lookup.get(f.properties.id).bbox)&&inArea(x,y,f.geometry)).map(f=>lookup.get(f.properties.id)));
       const county=matched.find(p=>p.kind==='county')||candidates.find(p=>matched.some(v=>v.county===p.county));
+      if(!county&&failed.length){
+        panel.replaceChildren(node('p','Detailed boundaries are unavailable for '+failed.map(c=>c.name+' County').join(', ')+'. Choose a municipality above or retry this point.'),button('Retry boundaries',()=>choose(x,y,label,false,false)));
+        return;
+      }
       if(!county){panel.replaceChildren(node('p','This point is outside the seven-county coverage area.'));return;}
       const city=matched.find(p=>p.kind==='city');
       if(scopedIssuer && ((scopedIssuer.place && scopedIssuer.place!==city?.id)||(scopedIssuer.county && scopedIssuer.county!==county.county))){
         summary('Outside '+scopedIssuer.name+' coverage',coords(x,y));
         panel.replaceChildren(link('Open '+scopedIssuer.name+' references',scopedIssuer.home));return;
       }
-      countySelect.value=county.county;
+      setCityOptions(county.county);
       const heading=summary(label||(city?.name||'Unincorporated '+county.name+' County'),
                             (city?city.name:'Unincorporated area')+' · '+county.name+' County · '+coords(x,y));
       const share=button('Copy location link',async()=>{try{await navigator.clipboard.writeText(location.href);share.textContent='Link copied';}catch{share.textContent='Copy the address bar URL';}});
       heading.append(share);
       const agencies=section('Standards for this location');agencies.append(sources(scopedIssuer?[scope]:referenceKeys(city,county)));
-            const selectedTopic=topicSelect.value;
+      const selectedTopic=topicSelect.value;
       if(selectedTopic&&!scope)agencies.append(link('Compare guidance across agencies · '+topics[selectedTopic],base+'/topics/'+selectedTopic+'/'));
-      if(!scope&&city&&!Object.values(profiles).some(p=>p.place===city.id))agencies.append(node('p','City collection not indexed. County publications above cover county work.'));
+      if(!scope&&city&&!Object.values(profiles).some(p=>p.place===city.id)){agencies.append(node('p','City collection not indexed. County publications above cover county work.'));if(city.official)agencies.append(link(cityName(city)+' · official city website',city.official));}
       panel.replaceChildren(agencies);
-      const found=await request('identify',{x,y,counties:candidates.map(p=>p.county)});
+      if(failed.length)panel.append(node('p','Adjacent boundary data is unavailable for '+failed.map(c=>c.name+' County').join(', ')+'.'));
+      const [found]=await Promise.all([request('identify',{x,y,counties:candidates.map(p=>p.county)}),streetMetadata()]);
       if(ticket!==locationTicket)return;
+      if(found.unavailable?.length){const issue=section('Some street data is unavailable',found.unavailable.join(' · '));issue.append(button('Retry street data',()=>choose(x,y,label,false,false)));panel.append(issue);}
+      if(found.roadContext?.length && (!scope || city&&scopedIssuer?.place===city.id)){
+        const localRoads=section('Local street records','Municipal inventory and maintenance evidence within 40 m. Each entry identifies what the publisher records.');
+        for(const record of found.roadContext.slice(0,8)){
+          const row=node('div',null,'atlas-record');
+          row.append(node('strong',record.name),node('span',record.agency+' · '+(record.role==='maintenance'?'Maintenance record':'Street inventory')+' · '+Math.round(record.distance)+' m'));
+          if(record.classification)row.append(node('small',record.classification));
+          if(record.source?.url){
+            const specific=/\/(?:FeatureServer|MapServer)\/\d+\/?$/.test(record.source.url)&&Number.isInteger(record.ref);
+            row.append(link(specific?'City GIS record '+record.ref:record.source.title||'Publisher record',
+              specific?record.source.url.replace(/\/$/,'')+'/'+record.ref:record.source.url));
+          }
+          localRoads.append(row);
+        }
+        const source=found.roadContext[0].source;
+        if(source?.privateStreetsUrl)localRoads.append(link('Pasadena private street register',source.privateStreetsUrl));
+        panel.append(localRoads);
+      }
       const roads=section('Reported road ownership','FHWA HPMS 2024 · centerlines within 40 m');
-      if(!found.roads.some(r=>scope!=='caltrans'||r.owner===1))roads.append(node('p','No ownership record within 40 m. Confirm the segment with the reviewing agency.'));
+      if(!found.unavailable?.some(s=>s.toLowerCase().includes('ownership'))&&!found.roads.some(r=>scope!=='caltrans'||r.owner===1))roads.append(node('p','No ownership record within 40 m. Confirm the segment with the reviewing agency.'));
       for(const r of found.roads.filter(r=>scope!=='caltrans'||r.owner===1).slice(0,7)){
         const row=node('div',null,'atlas-record'),b=button(roadName(r)||'Recorded segment',()=>{
           selectedLayer.clearLayers();L.polyline(latLng(r.line),{color:'#cb5928',weight:6,interactive:false}).addTo(selectedLayer);
@@ -238,7 +354,7 @@ async function start(){
         roads.append(node('p','Caltrans network within 40 m: '+found.highways.slice(0,4).map(h=>'Route '+h.route+' '+(h.direction||'')+' · District '+h.district).join(' / ')));
       }
       if(found.highways.length||found.roads.some(v=>v.owner===1))roads.append(sources(['caltrans']));
-      roads.append(link('Ownership source',m.sources.ownership.url));panel.append(roads);
+      if(m.sources.ownership)roads.append(link('Ownership source',m.sources.ownership.url));panel.append(roads);
       const transit=section('Stops and operators','Published stop points within 400 m, measured straight-line.');
       const operators=new Map();
       let resolved={};
@@ -267,84 +383,200 @@ async function start(){
         if(stops.length>3){const more=node('details');more.append(node('summary',(stops.length-3)+' more stop records'));for(const s of stops.slice(3))more.append(button(s.name+' · '+Math.round(s.distance)+' m',()=>choose(s.x,s.y,s.name)));group.append(more);}
         transit.append(group);
       }
-      if(!operators.size)transit.append(node('p','No matching stop records in this radius in the source snapshot.'));
-      transit.append(link('Stop inventory source',m.sources.transit.url));panel.append(transit);
+      if(!operators.size&&!found.unavailable?.some(s=>s.toLowerCase().includes('stops')))transit.append(node('p','No matching stop records in this radius in the source snapshot.'));
+      if(m.sources.transit)transit.append(link('Stop inventory source',m.sources.transit.url));panel.append(transit);
     }catch(e){if(ticket===locationTicket)panel.append(node('p','Location lookup could not finish. '+e.message),button('Retry lookup',()=>choose(x,y,label,false,false)));}
     finally{if(ticket===locationTicket)panel.setAttribute('aria-busy','false');}
   }
-  function displayResults(items){
-    const list=$('results');list.replaceChildren();
-    if(!items.length){list.append(node('p','No matches. Try a street name, a city, a stop, or two streets separated by &.'));return;}
-    const ul=node('ul');
-    for(const item of items){
-      const li=node('li'),place=lookup.get(item.place),b=button(item.label,()=>{
-        list.replaceChildren();
-        if(item.street){
-          const ticket=++findTicket;list.textContent='Finding intersections on '+item.label+'…';
-          request('onStreet',{street:item.street,county:countySelect.value,place:item.place}).then(rows=>{
-            if(ticket===findTicket)displayResults(rows);
-          }).catch(e=>{if(ticket===findTicket)list.textContent=e.message;});return;
-        }
-        if(item.area){countySelect.value=item.area.county;fit(item.area);choose(item.x,item.y,item.label,false);}
-        else choose(item.x,item.y,item.label);
-      });b.append(node('small',[item.type,place?.name,item.agency].filter(Boolean).join(' · ')));li.append(b);ul.append(li);
+  const locations=makePlaceSearch(places);
+  const searchInput=$('query'), searchForm=root.querySelector('.atlas-search'), resultPanel=$('results');
+  const countyName=code=>counties.find(p=>p.county===code)?.name+' County';
+  const areaName=area=>area.kind==='county'?countyName(area.county):cityName(area);
+  const allowedCounty=code=>!scopedIssuer?.county||scopedIssuer.county===code;
+  const listId='atlas-location-suggestions',suggestions=node('datalist');
+  suggestions.id=listId;searchInput.setAttribute('list',listId);searchForm.append(suggestions);
+  searchInput.addEventListener('input',()=>{
+    findTicket++;resultPanel.replaceChildren();resultPanel.removeAttribute('aria-busy');
+    const value=searchInput.value,pieces=value.split(','),partial=pieces.pop().trim(),prefix=pieces.length?pieces.join(',')+', ':'';
+    suggestions.replaceChildren(...locations.suggestions(partial,p=>inScope(p)&&(!countySelect.value||p.county===countySelect.value||pieces.length))
+      .map(p=>new Option('',prefix+areaName(p))));
+  });
+  async function runJobs(jobs,ticket){
+    let next=0;
+    const items=[],failed=[];
+    async function consume(){
+      while(ticket===findTicket&&next<jobs.length){
+        const job=jobs[next++];
+        try{items.push(...await request('search',job));}
+        catch{failed.push(countyName(job.county)+' '+(job.mode==='stops'?'stops':'streets'));}
+      }
     }
-    list.append(ul);
+    await Promise.all([consume(),consume()]);
+    return {items,failed};
   }
-  function findCity(name){const t=norm(name);return cities.find(c=>norm(c.name)===t || (c.name==='San Buenaventura' && t==='ventura'));}
-  root.querySelector('form').onsubmit=async e=>{
-    e.preventDefault();const ticket=++findTicket,query=$('query').value.trim();
-    if(!query)return;
-    const xy=query.match(/^(-?\d+(?:\.\d+)?)\s*[, ]\s*(-?\d+(?:\.\d+)?)$/);
-    if(xy){const a=+xy[1],b=+xy[2],x=a<0?a:b,y=a<0?b:a;if(Math.abs(x)>180||Math.abs(y)>90){$('results').textContent='Enter valid longitude and latitude.';return;}$('results').replaceChildren();choose(x,y);return;}
-    const pieces=query.split(',').map(s=>s.trim());const city=pieces.length>1?findCity(pieces.at(-1)):null;
-    if(pieces.length>1 && !city){$('results').textContent='City qualifier not found. Select a county or use an incorporated city name.';return;}
-    if(city && scopedIssuer && ((scopedIssuer.place&&city.id!==scopedIssuer.place)||(scopedIssuer.county&&city.county!==scopedIssuer.county))){
-      $('results').textContent='This city is outside '+scopedIssuer.name+' coverage.';return;
+  function searchError(message,retry){
+    resultPanel.replaceChildren(node('p',message));
+    if(retry)resultPanel.append(button('Retry search',retry));
+    resultPanel.removeAttribute('aria-busy');
+  }
+  async function getCrossings(params,previous=[]){
+    const ticket=++findTicket, more=params.cursor, street=params.street||params.pair.join(' & ');
+    const name=lookup.get(params.place);
+    resultPanel.setAttribute('aria-busy','true');
+    resultPanel.textContent='Finding intersections on '+street+' in '+(name?cityName(name):countyName(params.county))+'…';
+    try{
+      const rows=await request(params.street?'onStreet':'search',params);
+      if(ticket!==findTicket)return;
+      displayResults([...previous,...rows],{caption:street+' · '+(name?cityName(name)+' · ':'')+countyName(params.county),
+        empty:more?'No further intersections in the index.':'No shared street nodes found here. Try another cross street or city.'});
+    }catch{if(ticket===findTicket)searchError('The intersection index could not load for '+countyName(params.county)+'.',()=>getCrossings(params,previous));}
+  }
+  function openSearchResult(item){
+    ++findTicket;resultPanel.replaceChildren();resultPanel.removeAttribute('aria-busy');
+    if(item.area?.kind==='city')showMunicipality(item.area);
+    else if(item.area?.kind==='county'){countySelect.value=item.area.county;selectCounty();}
+    else choose(item.x,item.y,item.label);
+    const target=$('summary');target.tabIndex=-1;target.focus({preventScroll:true});target.scrollIntoView({block:'nearest'});
+  }
+  function displayResults(items,{caption='',empty='No matching records. Try a city, street name, stop ID, or two streets joined by &.',actions=[],failed=[],retry}={}){
+    const list=resultPanel;list.replaceChildren();list.removeAttribute('aria-busy');
+    if(caption)list.append(node('p',caption,'atlas-hint'));
+    if(failed.length){
+      list.append(node('p','Incomplete coverage. Could not load '+[...new Set(failed)].sort().join(', ')+'.'));
+      if(retry)list.append(button('Retry search',retry));
     }
-    if(city)countySelect.value=city.county;
-    const exact=findCity(query);
-    if(exact && scopedIssuer && ((scopedIssuer.place&&exact.id!==scopedIssuer.place)||(scopedIssuer.county&&exact.county!==scopedIssuer.county))){
-      $('results').textContent='This city is outside '+scopedIssuer.name+' coverage.';return;
+    if(!items.length&&!failed.length)list.append(node('p',empty));
+    const records=groupCrossingPoints(items),ul=node('ul');let shown=0;
+    const page=()=>{
+      for(const item of records.slice(shown,shown+20)){
+        const li=node('li'),place=lookup.get(item.place);
+        if(item.points){
+          const details=node('details');
+          const title=node('summary',item.label);
+          title.append(node('small',' · '+item.points.length+' mapped points · '+[place&&cityName(place),countyName(item.county)].filter(Boolean).join(' · ')));
+          details.append(title);
+          for(const point of item.points)details.append(button(coords(point.x,point.y),()=>openSearchResult(point)));
+          li.append(details);ul.append(li);continue;
+        }
+        const b=button(item.label,()=>{
+          if(item.more){getCrossings(item.more,items.filter(i=>!i.more));return;}
+          if(item.candidate){getCrossings(item.candidate);return;}
+          if(item.street){getCrossings({street:item.street,county:item.county,place:item.place});return;}
+          openSearchResult(item);
+        });
+        const detail=item.more?'':item.candidate?'Both names appear in this county’s street index':[
+          item.type,place&&cityName(place),item.county&&countyName(item.county),item.agency,item.stop_id&&'Stop '+item.stop_id
+        ].filter(Boolean).join(' · ');
+        if(detail)b.append(node('small',detail));
+        li.append(b);ul.append(li);
+      }
+      shown+=20;
+      expand.hidden=shown>=records.length;
+    };
+    const expand=button('Show more results',page);
+    if(items.length){list.append(ul,expand);page();}
+    for(const [title,action] of actions)list.append(button(title,action));
+  }
+  async function findLocation(override=''){
+    const ticket=++findTicket, input=searchInput.value.trim();
+    const parsed=locations.parse(input);
+    if(parsed.error){searchError(parsed.error);return;}
+    if(parsed.x!==undefined){resultPanel.replaceChildren();resultPanel.removeAttribute('aria-busy');choose(parsed.x,parsed.y);return;}
+    const {area,localCity,localCounty,term,pair}=parsed;
+    if((area?.kind==='city'&&!inScope(area)) || (area?.kind==='county'&&(!allowedCounty(area.county)||scopedIssuer?.place)) ||
+        (localCity&&!inScope(localCity)) || (localCounty&&!allowedCounty(localCounty.county))){
+      searchError('That location is outside '+(scopedIssuer?.name||'the selected agency')+' coverage.');return;
     }
-    if(exact){displayResults([{area:exact,x:exact.center[0],y:exact.center[1],label:exact.name,type:'City boundary'}]);return;}
-    const term=city?pieces.slice(0,-1).join(', '):query;
-    $('results').textContent='Searching '+m.countyLayers[countySelect.value].name+' County…';
-    const matchedCities=city?[]:cities.filter(c=>(!scopedIssuer?.place||c.id===scopedIssuer.place)&&(!scopedIssuer?.county||c.county===scopedIssuer.county)&&norm(c.name).startsWith(norm(term))).slice(0,8).map(c=>({area:c,x:c.center[0],y:c.center[1],label:c.name,type:'City boundary · '+m.countyLayers[c.county].name+' County'}));
-    try{const items=await request('search',{query:term,county:countySelect.value,place:scopedIssuer?.place||city?.id});
-      if(ticket===findTicket)displayResults([...matchedCities,...items]);
-    }catch(e){if(ticket===findTicket)$('results').textContent='Search unavailable. '+e.message;}
-  };
+    const asResult=p=>({area:p,label:areaName(p),county:p.kind==='city'?p.county:'',type:p.kind==='city'?'Municipal standards':'County standards'});
+    if(area){displayResults([asResult(area)]);return;}
+    const city=localCity||lookup.get(scopedIssuer?.place||(!localCounty&&citySelect.value));
+    const code=city?.county||localCounty?.county||scopedIssuer?.county||countySelect.value;
+    const codes=code?[code]:orderedCounties.map(c=>c.county).filter(allowedCounty);
+    const scopeLabel=city?cityName(city)+' · '+countyName(city.county):code?countyName(code):'All seven counties';
+    const mode=override||parsed.mode;
+    const retry=()=>findLocation(override);
+    if(!term||norm(term).length<2&&!/^\d$/.test(term) || pair?.some(v=>!norm(v))){
+      searchError('Enter at least two letters, a stop ID, or the names of both streets.');return;
+    }
+    const matchedCities=!pair&&!localCity&&!mode?locations.suggestions(term,p=>inScope(p)&&(!code||p.county===code)).map(asResult):[];
+    const params={query:term,place:city?.id,pair,agencyNames:scopedIssuer?.kind==='Transit agency'?[scopedIssuer.name,...(aliases[scope]||[])].filter(Boolean):undefined};
+    const regional=codes.length>1;
+    const looksLikeStop=/\b(station|stop|transit|terminal|metrolink|park\s+and\s+ride)\b/i.test(term)||/^\d+$/.test(term);
+    const modes=pair?[regional?'candidates':'crossings']:mode?[mode]:
+      regional&&!looksLikeStop?['streets']:['streets','stops'];
+    resultPanel.setAttribute('aria-busy','true');resultPanel.textContent='Searching · '+scopeLabel+'…';
+    try{
+      const {items,failed}=await runJobs(codes.flatMap(county=>modes.map(mode=>({...params,county,mode}))),ticket);
+      if(ticket!==findTicket)return;
+      if(pair&&regional){
+        const candidates=items.sort((a,b)=>countyName(a.county).localeCompare(countyName(b.county)));
+        if(candidates.length===1&&!failed.length){await getCrossings({...params,county:candidates[0].county,mode:'crossings'});return;}
+        displayResults(candidates.map(({county})=>({label:'Check intersections in '+countyName(county),candidate:{...params,county,mode:'crossings'}})),{
+          caption:candidates.length?'Choose a county to check the shared intersections for '+term+'.':scopeLabel,
+          empty:'No indexed area contains both street names. Check spelling or try a different cross street.',failed,retry});
+        return;
+      }
+      const actions=[];
+      if(regional&&!mode&&!pair&&!modes.includes('stops')){
+        if(!items.length && !matchedCities.length && !failed.length){await findLocation('stops');return;}
+        actions.push(['Search transit stops for “'+term+'”',()=>findLocation('stops')]);
+      }
+      const rank=x=>x.area?0:x.exact?1:x.street?2:3;
+      const sorted=[...matchedCities,...items.filter(r=>!r.more)].sort((a,b)=>rank(a)-rank(b)||
+        a.label.localeCompare(b.label)||String(a.county).localeCompare(String(b.county))||String(a.stop_id||'').localeCompare(String(b.stop_id||'')));
+      const tooManyStops=codes.some(c=>items.filter(r=>r.type==='Transit stop'&&r.county===c).length===36);
+      displayResults([...sorted,...items.filter(r=>r.more)],{caption:scopeLabel+(tooManyStops?' · Showing a selection of stops. Add a city or stop ID to narrow the search.':''),
+        failed,retry,actions,empty:'No matching '+(mode==='stops'?'transit stops':'records')+' in '+scopeLabel+'. Try another name or a different area.'});
+    }catch{if(ticket===findTicket)searchError('Location search could not finish. Try again.',retry);}
+  }
+  searchForm.onsubmit=e=>{e.preventDefault();findLocation();};
   function selectCounty(){
-    findTicket++;locationTicket++;current=null;$('results').replaceChildren();selectedLayer.clearLayers();if(pin){pin.remove();pin=null;}
-    const county=counties.find(c=>c.county===countySelect.value);
-    const next=new URL(location.href);for(const k of ['lat','lon','z','issuer'])next.searchParams.delete(k);next.searchParams.set('county',county.county);
-    history.pushState(null,'',next);overview(county);
+    const code=scopedIssuer?.county||countySelect.value;
+    clearPoint();$('inspect').checked=false;setCityOptions(code);
+    areaURL({county:code});overview(counties.find(c=>c.county===code),scopedIssuer);
   }
   function restore(){
-    const u=new URL(location.href);topicSelect.value=u.searchParams.get('topic')||'';const x=parseFloat(u.searchParams.get('lon')),y=parseFloat(u.searchParams.get('lat'));
+    const u=new URL(location.href),args=u.searchParams;
+    topicSelect.value=args.get('topic')||'';
+    const x=parseFloat(args.get('lon')),y=parseFloat(args.get('lat'));
     if(Number.isFinite(x)&&Number.isFinite(y)&&Math.abs(x)<=180&&Math.abs(y)<=90){
-      const z=Math.max(6,Math.min(19,parseInt(u.searchParams.get('z'),10)||16));map.setView([y,x],z);choose(x,y,'',false,false);
-    }else{
-      locationTicket++;current=null;selectedLayer.clearLayers();if(pin){pin.remove();pin=null;}
-      const issuer=profiles[scope||u.searchParams.get('issuer')],code=issuer?.county||(m.countyLayers[u.searchParams.get('county')]&&u.searchParams.get('county'))||'037';
-      countySelect.value=code;overview(issuer||u.searchParams.has('county')?counties.find(c=>c.county===code):null,issuer);
+      const z=Math.max(6,Math.min(19,parseInt(args.get('z'),10)||16));map?.setView([y,x],z);choose(x,y,'',false,false);return;
     }
+    const issuer=scopedIssuer||profiles[args.get('issuer')];
+    const city=lookup.get(scopedIssuer?.place||args.get('city')||issuer?.place);
+    if(city?.kind==='city'&&inScope(city)){showMunicipality(city,{push:false});return;}
+    clearPoint();$('inspect').checked=false;
+    const county=counties.find(c=>c.county===(issuer?.county||args.get('county')));
+    setCityOptions(county?.county);overview(county,issuer);
+    if(args.has('city')&&!city)$('context').prepend(node('p','Municipality not found. Choose a city from the list.','atlas-empty'));
   }
-  map.on('click',e=>choose(e.latlng.lng,e.latlng.lat,'',false));map.on('moveend',refreshLayers);
-  for(const layer of ['cities','stops','highways'])$(layer).onchange=refreshLayers;
+  if(map){
+    cartography=drawMunicipalities({L,map,places,counties,outline,overview:municipalities,land,boundaries,allowed:inScope,
+      onCity:showMunicipality,onCounty:code=>{if(scopedIssuer?.place||scopedIssuer?.county&&scopedIssuer.county!==code)return;countySelect.value=code;selectCounty();},
+      inspecting:()=>$('inspect').checked,onInspect:pos=>choose(pos.lng,pos.lat,'',false),
+      onIssue:message=>{baseIssue=message;layerStatus();}
+    });
+    map.on('click',e=>{if($('inspect').checked)choose(e.latlng.lng,e.latlng.lat,'',false);});
+    map.on('moveend',refreshLayers);
+    for(const layer of ['stops','highways'])$(layer).onchange=refreshLayers;
+    new ResizeObserver(()=>map.invalidateSize({pan:false})).observe($('map'));
+  }else{
+    $('map').replaceChildren(node('p','The map could not load. Choose a municipality above to browse the same standards.'));
+    $('map').style.height='auto';
+  }
   $('basemap').onchange=setBase;countySelect.onchange=selectCounty;
+  citySelect.onchange=()=>citySelect.value?showMunicipality(lookup.get(citySelect.value)):selectCounty();
+  $('inspector').ontoggle=()=>{if(!$('inspector').open)$('inspect').checked=false;};
   topicSelect.onchange=()=>{
-    const u=new URL(location.href);
-    if(topicSelect.value)u.searchParams.set('topic',topicSelect.value);else u.searchParams.delete('topic');
-    history.pushState(null,'',u);
+    const next=new URL(location.href);
+    if(topicSelect.value)next.searchParams.set('topic',topicSelect.value);else next.searchParams.delete('topic');
+    history.pushState(null,'',next);
     if(current)choose(current.x,current.y,current.label,false,false);
-    else {
-      const issuer=profiles[scope||u.searchParams.get('issuer')];
-      overview(issuer||u.searchParams.has('county')?counties.find(c=>c.county===countySelect.value):null,issuer,false);
-    }
+    else if(selectedCity)displayMunicipality(selectedCity);
+    else overview(counties.find(c=>c.county===countySelect.value),scopedIssuer||profiles[next.searchParams.get('issuer')],false);
   };
   window.addEventListener('popstate',restore);
-  restore();setBase();new ResizeObserver(()=>map.invalidateSize({pan:false})).observe($('map'));
+  restore();setBase();
+
 }
-start().catch(e=>{$('summary').textContent='Map unavailable. '+e.message;$('context').append(link('Browse the jurisdiction directory',base+'/regions/'));});
+start().catch(()=>{$('summary').textContent='The municipal index could not load.';$('context').replaceChildren(link('Browse the agency standards directory',base+'/regions/'),button('Retry map',()=>location.reload()));});

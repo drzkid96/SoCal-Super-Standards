@@ -5,8 +5,6 @@ sidebar:
   order: 11
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/accessibility.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/accessibility.webp" alt="Pedestrian Safety Policy Framework" /></a><figcaption><strong>Pedestrian Safety Policy Framework</strong> <em>Municipal Vision Zero & Complete Streets resolution alignment</em></figcaption></figure>
-
 
 <div class="srcbar">FHWA Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations (STEP) &middot; July 2018, updated &middot; pages 36&ndash;38</div>
 

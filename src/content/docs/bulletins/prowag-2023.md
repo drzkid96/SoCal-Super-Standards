@@ -3,8 +3,6 @@ title: "PROWAG: Public Right-of-Way Accessibility Guidelines (36 CFR 1190)"
 description: "U.S. Access Board PROWAG (August 8, 2023). Sidewalks, curb ramps, detectable warnings, accessible pedestrian signals, on-street parking, transit stops"
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/accessibility.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/accessibility.webp" alt="PROWAG Public Right-of-Way Accessibility" /></a><figcaption><strong>PROWAG Public Right-of-Way Accessibility</strong> <em>ADA curb ramps, detectable warning surfaces, landings &amp; accessible pedestrian signals</em></figcaption></figure>
-
 <div class="bul-meta">
 <div><b>Issued</b> August 8, 2023</div>
 <div><b>Status</b> Final guidelines. Enforceable only where adopted as a standard: U.S. DOT adopted PROWAG without modification for new construction and alterations of transit stops in the public right-of-way, effective January 17, 2025 (DOT deferred enforcement to March 20, 2025). The Department of Justice has not adopted it, so for other public right-of-way work it is the best available technical guidance rather than an enforceable standard.</div>

@@ -19,7 +19,7 @@ const names: Record<string,string> = {
   topics:'Design topic', signs:'Sign reference', markings:'Marking reference', details:'Drawing or detail',
   bulletins:'Policy and design reference', guides:'Design guide', regions:'Jurisdiction directory',
   transit:'Operator guide', boe:'Street design section', mutcd:'Manual chapter', 'ca-mutcd':'Manual chapter',
-  search:'Search', map:'Map and data', agencies:'Agency directory', keywords:'Subject index'
+  search:'Search', map:'Municipal standards map', agencies:'Agency directory', keywords:'Subject index'
 };
 export function sectionIdentity(id: string) {
   const [top, sub, third] = id.split('/');
@@ -34,7 +34,7 @@ export function sectionIdentity(id: string) {
   if(top==='regions' && sub && !third)type=agency?.kind||'Authority profile';
   if(top==='regions' && third)type='Source publication';
   if(book?.url===url && top!=='regions')type=top==='transit'?'Operator guide':'Source publication';
-  if(top==='map')type=sub?'Database documentation':'Geographic index';
+  if(top==='map')type=sub?'Database documentation':'Municipal directory';
   const tone=agency?.kind==='Transit agency'?'violet':family[2];
   const parent: Link | undefined=book && book.url!==url ? {label:book.title,href:book.url} :
     agency && agency.home!==url ? {label:agency.name,href:agency.home} :

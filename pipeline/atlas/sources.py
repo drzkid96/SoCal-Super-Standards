@@ -1,4 +1,4 @@
-"""Verified public inputs for the seven-county project atlas."""
+"""Verified public inputs for the seven-county municipal standards map."""
 import hashlib
 import json
 import os

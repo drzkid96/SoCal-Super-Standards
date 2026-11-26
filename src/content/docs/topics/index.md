@@ -8,18 +8,18 @@ sidebar:
 ---
 
 <div class="vis-strip">
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/crosswalks/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/crosswalks.webp" alt="Crosswalks" /><span><b>Crosswalks</b>A24F, S-481.0, STEP</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/accessibility/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/accessibility.webp" alt="Curb Ramps &amp; ADA" /><span><b>Curb Ramps &amp; ADA</b>A88A/B, DIB 82-06, PROWAG</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/bikeways/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/bikeways.webp" alt="Bikeways" /><span><b>Bikeways</b>HDM 1000, DIB 89-02, GBF-5</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/transit/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/transit.webp" alt="Transit &amp; Bus Stops" /><span><b>Transit &amp; Bus Stops</b>S-487.0, LB 112/113</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/striping-intersections/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/striping-intersections.webp" alt="Striping &amp; Lines" /><span><b>Striping &amp; Lines</b>A20A–G, Details 1–45</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/signals/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/signals.webp" alt="Traffic Signals" /><span><b>Traffic Signals</b>MPP 521, Red Book, ST-16</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/curb-parking-loading/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/curb-parking-loading.webp" alt="Curb &amp; Parking" /><span><b>Curb &amp; Parking</b>A90B, Red Curb Calc</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/speed-and-calming/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/speed-and-calming.webp" alt="Speed &amp; Calming" /><span><b>Speed &amp; Calming</b>S-483.0, LB 311, NTMP</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/street-name-and-guide-signs/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/street-name-and-guide-signs.webp" alt="Street &amp; Guide Signs" /><span><b>Street &amp; Guide Signs</b>S-486.0, LB 313, M-5.1</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/temporary-traffic-control/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/temporary-traffic-control.webp" alt="Work-Zone TCP" /><span><b>Work-Zone TCP</b>T1001–T1013, Part 6</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/school-zones/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/school-zones.webp" alt="School Zones" /><span><b>School Zones</b>CA MUTCD Part 7, LB 310</span></a>
-  <a class="vis-card" href="/SoCal-Super-Standards/topics/rail-crossings/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/vibes/rail-crossings.webp" alt="Rail &amp; LRT" /><span><b>Rail &amp; LRT</b>CA MUTCD Part 8, A24C</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/crosswalks/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/projects/mts-crossing-refuge.webp" alt="" /><span><b>Crosswalks</b>A24F, S-481.0, STEP</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/accessibility/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/projects/mts-crossing-refuge.webp" alt="" /><span><b>Curb Ramps &amp; ADA</b>A88A/B, DIB 82-06, PROWAG</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/bikeways/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/projects/venice.webp" alt="" /><span><b>Bikeways</b>HDM 1000, DIB 89-02, GBF-5</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/transit/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/projects/sbx-center-platform.webp" alt="" /><span><b>Transit &amp; Bus Stops</b>S-487.0, LB 112/113</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/striping-intersections/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/projects/la-green-driveway.webp" alt="" /><span><b>Striping &amp; Lines</b>A20A–G, Details 1–45</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/signals/"><span><b>Traffic Signals</b>MPP 521, Red Book, ST-16</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/curb-parking-loading/"><span><b>Curb &amp; Parking</b>A90B, Red Curb Calc</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/speed-and-calming/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/projects/harvard.webp" alt="" /><span><b>Speed &amp; Calming</b>S-483.0, LB 311, NTMP</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/street-name-and-guide-signs/"><span><b>Street &amp; Guide Signs</b>S-486.0, LB 313, M-5.1</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/temporary-traffic-control/"><span><b>Work-Zone TCP</b>T1001–T1013, Part 6</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/school-zones/"><span><b>School Zones</b>CA MUTCD Part 7, LB 310</span></a>
+  <a class="vis-card" href="/SoCal-Super-Standards/topics/rail-crossings/"><span><b>Rail &amp; LRT</b>CA MUTCD Part 8, A24C</span></a>
 </div>
 
 Each topic page gathers every source on one subject: CA MUTCD 2026 sections with their key provisions, the matching federal sections, LADOT standard drawings and pages, figures and signs.

@@ -5,8 +5,6 @@ sidebar:
   order: 12
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/temporary-traffic-control.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/temporary-traffic-control.webp" alt="LA28 Temporary Traffic Control" /></a><figcaption><strong>LA28 Temporary Traffic Control</strong> <em>Event-day lane closures, Games lanes & pedestrian crowd channelization</em></figcaption></figure>
-
 
 <div class="srcbar">CA MUTCD 2026 LA28 Supplement (2028 Olympic and Paralympic Games Route Network) &middot; July 15, 2026 (effective July 15, 2026, FHWA accepted) &middot; pages 76&ndash;77</div>
 

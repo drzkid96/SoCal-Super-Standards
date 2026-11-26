@@ -13,6 +13,7 @@ SCOPES = {'boe':'LA BOE','ladot':'LADOT','ca-mutcd':'CA MUTCD','mutcd':'Federal 
 
 
 def scope_for(url):
+    if url.startswith(BASE+'/map/?city='): return 'Local cities'
     path = url.removeprefix(BASE).strip('/').split('#')[0].split('/')
     if path[0] == 'details' and len(path)>1:
         path = path[1:]

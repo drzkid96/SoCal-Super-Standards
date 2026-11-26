@@ -5,8 +5,6 @@ sidebar:
   order: 1
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/striping-intersections.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/striping-intersections.webp" alt="LADOT MPP 531 Striping & Channelization" /></a><figcaption><strong>LADOT MPP 531 Striping & Channelization</strong> <em>City of Los Angeles lane widths, channelization, crosswalks & special signing</em></figcaption></figure>
-
 
 <div class="srcbar">LADOT MPP 531: Application and Design for Striping, Channelization and Special Signing &middot; 02/2023 (supersedes 06/2022) &middot; pages 1&ndash;20</div>
 

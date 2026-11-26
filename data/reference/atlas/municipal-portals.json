@@ -1,0 +1,1265 @@
+{
+  "source": "https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf",
+  "sha256": "83bd0162701426e9628c0b5119e52d1c60ed53516595cb5fb466cbb87033a632",
+  "pages": 96,
+  "cities": {
+    "0600296": {
+      "name": "Adelanto",
+      "county": "071",
+      "url": "https://adelantoca.gov/",
+      "page": 1
+    },
+    "0600394": {
+      "name": "Agoura Hills",
+      "county": "037",
+      "url": "https://www.agourahillscity.gov/",
+      "page": 1
+    },
+    "0600884": {
+      "name": "Alhambra",
+      "county": "037",
+      "url": "https://www.alhambraca.gov/",
+      "page": 1
+    },
+    "0600947": {
+      "name": "Aliso Viejo",
+      "county": "059",
+      "url": "https://www.alisoviejo.org/",
+      "page": 2
+    },
+    "0602000": {
+      "name": "Anaheim",
+      "county": "059",
+      "url": "https://www.anaheim.net/",
+      "page": 2
+    },
+    "0602364": {
+      "name": "Apple Valley",
+      "county": "071",
+      "url": "https://applevalley.org/",
+      "page": 3
+    },
+    "0602462": {
+      "name": "Arcadia",
+      "county": "037",
+      "url": "https://www.arcadiaca.gov/",
+      "page": 3
+    },
+    "0602896": {
+      "name": "Artesia",
+      "county": "037",
+      "url": "https://www.cityofartesia.us/",
+      "page": 4
+    },
+    "0603274": {
+      "name": "Avalon",
+      "county": "037",
+      "url": "https://www.cityofavalon.gov/",
+      "page": 5
+    },
+    "0603386": {
+      "name": "Azusa",
+      "county": "037",
+      "url": "https://www.azusaca.gov/",
+      "page": 5
+    },
+    "0603666": {
+      "name": "Baldwin Park",
+      "county": "037",
+      "url": "https://baldwinpark.com/",
+      "page": 6
+    },
+    "0603820": {
+      "name": "Banning",
+      "county": "065",
+      "url": "https://www.banningca.gov/",
+      "page": 6
+    },
+    "0604030": {
+      "name": "Barstow",
+      "county": "071",
+      "url": "https://www.barstowca.org/",
+      "page": 6
+    },
+    "0604758": {
+      "name": "Beaumont",
+      "county": "065",
+      "url": "https://www.beaumontca.gov/",
+      "page": 6
+    },
+    "0604870": {
+      "name": "Bell",
+      "county": "037",
+      "url": "https://www.cityofbell.gov/Home",
+      "page": 7
+    },
+    "0604982": {
+      "name": "Bellflower",
+      "county": "037",
+      "url": "https://bellflower.ca.gov/",
+      "page": 7
+    },
+    "0604996": {
+      "name": "Bell Gardens",
+      "county": "037",
+      "url": "https://www.bellgardens.org/",
+      "page": 7
+    },
+    "0606308": {
+      "name": "Beverly Hills",
+      "county": "037",
+      "url": "https://www.beverlyhills.org/",
+      "page": 8
+    },
+    "0606434": {
+      "name": "Big Bear Lake",
+      "county": "071",
+      "url": "https://www.citybigbearlake.com/",
+      "page": 8
+    },
+    "0607218": {
+      "name": "Blythe",
+      "county": "065",
+      "url": "https://www.cityofblythe.ca.gov/",
+      "page": 9
+    },
+    "0607946": {
+      "name": "Bradbury",
+      "county": "037",
+      "url": "https://www.bradburyca.gov/",
+      "page": 9
+    },
+    "0608058": {
+      "name": "Brawley",
+      "county": "025",
+      "url": "https://www.brawley-ca.gov/",
+      "page": 9
+    },
+    "0608100": {
+      "name": "Brea",
+      "county": "059",
+      "url": "https://www.cityofbrea.gov/",
+      "page": 10
+    },
+    "0608786": {
+      "name": "Buena Park",
+      "county": "059",
+      "url": "https://www.buenapark.com/",
+      "page": 10
+    },
+    "0608954": {
+      "name": "Burbank",
+      "county": "037",
+      "url": "https://www.burbankca.gov/",
+      "page": 11
+    },
+    "0609598": {
+      "name": "Calabasas",
+      "county": "037",
+      "url": "https://www.cityofcalabasas.com/",
+      "page": 11
+    },
+    "0609710": {
+      "name": "Calexico",
+      "county": "025",
+      "url": "https://www.calexico.ca.gov/",
+      "page": 11
+    },
+    "0609864": {
+      "name": "Calimesa",
+      "county": "065",
+      "url": "https://www.calimesa.gov/",
+      "page": 12
+    },
+    "0609878": {
+      "name": "Calipatria",
+      "county": "025",
+      "url": "https://www.calipatria.com/",
+      "page": 12
+    },
+    "0610046": {
+      "name": "Camarillo",
+      "county": "111",
+      "url": "https://www.cityofcamarillo.org/",
+      "page": 12
+    },
+    "0610928": {
+      "name": "Canyon Lake",
+      "county": "065",
+      "url": "https://www.canyonlakeca.gov/",
+      "page": 13
+    },
+    "0611194": {
+      "name": "Carlsbad",
+      "county": "073",
+      "url": "https://www.carlsbadca.gov/home",
+      "page": 13
+    },
+    "0611530": {
+      "name": "Carson",
+      "county": "037",
+      "url": "https://carsonca.gov/index",
+      "page": 14
+    },
+    "0612048": {
+      "name": "Cathedral City",
+      "county": "065",
+      "url": "https://www.cathedralcity.gov/",
+      "page": 14
+    },
+    "0612552": {
+      "name": "Cerritos",
+      "county": "037",
+      "url": "https://www.cerritos.gov/",
+      "page": 14
+    },
+    "0613210": {
+      "name": "Chino",
+      "county": "071",
+      "url": "https://www.cityofchino.org/",
+      "page": 15
+    },
+    "0613214": {
+      "name": "Chino Hills",
+      "county": "071",
+      "url": "https://www.chinohills.org/",
+      "page": 15
+    },
+    "0613392": {
+      "name": "Chula Vista",
+      "county": "073",
+      "url": "https://www.chulavistaca.gov/",
+      "page": 15
+    },
+    "0613756": {
+      "name": "Claremont",
+      "county": "037",
+      "url": "https://www.claremontca.gov/Home",
+      "page": 16
+    },
+    "0614260": {
+      "name": "Coachella",
+      "county": "065",
+      "url": "https://coachella.org/",
+      "page": 17
+    },
+    "0614890": {
+      "name": "Colton",
+      "county": "071",
+      "url": "https://www.coltonca.gov/",
+      "page": 17
+    },
+    "0614974": {
+      "name": "Commerce",
+      "county": "037",
+      "url": "https://www.commerceca.gov/",
+      "page": 18
+    },
+    "0615044": {
+      "name": "Compton",
+      "county": "037",
+      "url": "https://www.comptoncity.org/",
+      "page": 18
+    },
+    "0616350": {
+      "name": "Corona",
+      "county": "065",
+      "url": "https://www.coronaca.gov/",
+      "page": 19
+    },
+    "0616378": {
+      "name": "Coronado",
+      "county": "073",
+      "url": "https://www.coronado.ca.us/",
+      "page": 19
+    },
+    "0616532": {
+      "name": "Costa Mesa",
+      "county": "059",
+      "url": "https://www.costamesaca.gov/",
+      "page": 19
+    },
+    "0616742": {
+      "name": "Covina",
+      "county": "037",
+      "url": "https://covinaca.gov/",
+      "page": 20
+    },
+    "0617498": {
+      "name": "Cudahy",
+      "county": "037",
+      "url": "https://www.cityofcudahyca.gov/",
+      "page": 20
+    },
+    "0617568": {
+      "name": "Culver City",
+      "county": "037",
+      "url": "https://www.culvercity.gov/Home",
+      "page": 20
+    },
+    "0617750": {
+      "name": "Cypress",
+      "county": "059",
+      "url": "https://www.cypressca.org/",
+      "page": 21
+    },
+    "0617946": {
+      "name": "Dana Point",
+      "county": "059",
+      "url": "https://www.danapoint.org/Home",
+      "page": 21
+    },
+    "0618506": {
+      "name": "Del Mar",
+      "county": "073",
+      "url": "https://www.delmar.ca.us/",
+      "page": 22
+    },
+    "0618996": {
+      "name": "Desert Hot Springs",
+      "county": "065",
+      "url": "https://www.cityofdhs.org/",
+      "page": 22
+    },
+    "0619192": {
+      "name": "Diamond Bar",
+      "county": "037",
+      "url": "https://www.diamondbarca.gov/",
+      "page": 23
+    },
+    "0619766": {
+      "name": "Downey",
+      "county": "037",
+      "url": "https://www.downeyca.org/",
+      "page": 24
+    },
+    "0619990": {
+      "name": "Duarte",
+      "county": "037",
+      "url": "https://www.cityofduarte.ca.gov/home",
+      "page": 24
+    },
+    "0621230": {
+      "name": "Eastvale",
+      "county": "065",
+      "url": "https://eastvaleca.gov/home",
+      "page": 25
+    },
+    "0621712": {
+      "name": "El Cajon",
+      "county": "073",
+      "url": "https://elcajon.gov/",
+      "page": 25
+    },
+    "0621782": {
+      "name": "El Centro",
+      "county": "025",
+      "url": "https://www.cityofelcentro.org/",
+      "page": 25
+    },
+    "0622230": {
+      "name": "El Monte",
+      "county": "037",
+      "url": "https://www.ci.el-monte.ca.us/",
+      "page": 25
+    },
+    "0622412": {
+      "name": "El Segundo",
+      "county": "037",
+      "url": "https://www.elsegundo.gov/",
+      "page": 26
+    },
+    "0622678": {
+      "name": "Encinitas",
+      "county": "073",
+      "url": "https://www.encinitasca.gov/",
+      "page": 26
+    },
+    "0622804": {
+      "name": "Escondido",
+      "county": "073",
+      "url": "https://escondido.gov/",
+      "page": 27
+    },
+    "0624092": {
+      "name": "Fillmore",
+      "county": "111",
+      "url": "https://www.fillmoreca.gov/",
+      "page": 28
+    },
+    "0624680": {
+      "name": "Fontana",
+      "county": "071",
+      "url": "https://www.fontanaca.gov/",
+      "page": 29
+    },
+    "0625380": {
+      "name": "Fountain Valley",
+      "county": "059",
+      "url": "https://www.fountainvalley.gov/",
+      "page": 30
+    },
+    "0628000": {
+      "name": "Fullerton",
+      "county": "059",
+      "url": "https://cityoffullerton.com/",
+      "page": 31
+    },
+    "0628168": {
+      "name": "Gardena",
+      "county": "037",
+      "url": "https://cityofgardena.org/",
+      "page": 31
+    },
+    "0629000": {
+      "name": "Garden Grove",
+      "county": "059",
+      "url": "https://ggcity.org/",
+      "page": 31
+    },
+    "0630000": {
+      "name": "Glendale",
+      "county": "037",
+      "url": "https://www.glendaleca.gov/",
+      "page": 32
+    },
+    "0630014": {
+      "name": "Glendora",
+      "county": "037",
+      "url": "https://www.cityofglendora.gov/Home",
+      "page": 32
+    },
+    "0630658": {
+      "name": "Grand Terrace",
+      "county": "071",
+      "url": "https://grandterrace.hosted.civiclive.com/",
+      "page": 32
+    },
+    "0632506": {
+      "name": "Hawaiian Gardens",
+      "county": "037",
+      "url": "https://www.hgcity.org/",
+      "page": 34
+    },
+    "0632548": {
+      "name": "Hawthorne",
+      "county": "037",
+      "url": "https://www.cityofhawthorne.org/",
+      "page": 34
+    },
+    "0633182": {
+      "name": "Hemet",
+      "county": "065",
+      "url": "https://www.hemetca.gov/",
+      "page": 35
+    },
+    "0633364": {
+      "name": "Hermosa Beach",
+      "county": "037",
+      "url": "https://www.hermosabeach.gov/",
+      "page": 35
+    },
+    "0633434": {
+      "name": "Hesperia",
+      "county": "071",
+      "url": "https://www.hesperiaca.gov/",
+      "page": 36
+    },
+    "0633518": {
+      "name": "Hidden Hills",
+      "county": "037",
+      "url": "https://hiddenhills.gov/",
+      "page": 36
+    },
+    "0633588": {
+      "name": "Highland",
+      "county": "071",
+      "url": "https://www.highlandca.gov/",
+      "page": 36
+    },
+    "0634246": {
+      "name": "Holtville",
+      "county": "025",
+      "url": "https://www.holtville.ca.gov/",
+      "page": 37
+    },
+    "0636000": {
+      "name": "Huntington Beach",
+      "county": "059",
+      "url": "https://www.huntingtonbeachca.gov/index.php",
+      "page": 37
+    },
+    "0636056": {
+      "name": "Huntington Park",
+      "county": "037",
+      "url": "https://hpca.gov/",
+      "page": 37
+    },
+    "0636280": {
+      "name": "Imperial",
+      "county": "025",
+      "url": "https://www.imperial.ca.gov/",
+      "page": 38
+    },
+    "0636294": {
+      "name": "Imperial Beach",
+      "county": "073",
+      "url": "https://www.imperialbeachca.gov/",
+      "page": 38
+    },
+    "0636434": {
+      "name": "Indian Wells",
+      "county": "065",
+      "url": "https://www.indianwellsca.gov/",
+      "page": 38
+    },
+    "0636448": {
+      "name": "Indio",
+      "county": "065",
+      "url": "https://www.indio.org/",
+      "page": 38
+    },
+    "0636490": {
+      "name": "Industry",
+      "county": "037",
+      "url": "https://www.cityofindustry.org/",
+      "page": 38
+    },
+    "0636546": {
+      "name": "Inglewood",
+      "county": "037",
+      "url": "https://www.cityofinglewood.org/",
+      "page": 39
+    },
+    "0636770": {
+      "name": "Irvine",
+      "county": "059",
+      "url": "https://cityofirvine.gov/",
+      "page": 39
+    },
+    "0636826": {
+      "name": "Irwindale",
+      "county": "037",
+      "url": "https://www.irwindaleca.gov/",
+      "page": 39
+    },
+    "0637692": {
+      "name": "Jurupa Valley",
+      "county": "065",
+      "url": "https://jurupavalley.org/",
+      "page": 40
+    },
+    "0639003": {
+      "name": "La Cañada Flintridge",
+      "county": "037",
+      "url": "https://lcf.ca.gov/",
+      "page": 41
+    },
+    "0639178": {
+      "name": "Laguna Beach",
+      "county": "059",
+      "url": "https://lagunabeachcity.net/",
+      "page": 43
+    },
+    "0639220": {
+      "name": "Laguna Hills",
+      "county": "059",
+      "url": "https://www.lagunahillsca.gov/",
+      "page": 43
+    },
+    "0639248": {
+      "name": "Laguna Niguel",
+      "county": "059",
+      "url": "https://www.cityoflagunaniguel.org/",
+      "page": 43
+    },
+    "0639259": {
+      "name": "Laguna Woods",
+      "county": "059",
+      "url": "https://www.lagunawoods.gov/",
+      "page": 43
+    },
+    "0639290": {
+      "name": "La Habra",
+      "county": "059",
+      "url": "https://lahabraca.gov/",
+      "page": 41
+    },
+    "0639304": {
+      "name": "La Habra Heights",
+      "county": "037",
+      "url": "https://www.lhhcity.org/",
+      "page": 41
+    },
+    "0639486": {
+      "name": "Lake Elsinore",
+      "county": "065",
+      "url": "https://www.lake-elsinore.org/",
+      "page": 43
+    },
+    "0639496": {
+      "name": "Lake Forest",
+      "county": "059",
+      "url": "https://www.lakeforestca.gov/",
+      "page": 44
+    },
+    "0639892": {
+      "name": "Lakewood",
+      "county": "037",
+      "url": "https://www.lakewoodca.gov/Home",
+      "page": 44
+    },
+    "0640004": {
+      "name": "La Mesa",
+      "county": "073",
+      "url": "https://www.cityoflamesa.gov/",
+      "page": 41
+    },
+    "0640032": {
+      "name": "La Mirada",
+      "county": "037",
+      "url": "https://www.lamirada.gov/",
+      "page": 41
+    },
+    "0640130": {
+      "name": "Lancaster",
+      "county": "037",
+      "url": "https://cityoflancasterca.org/",
+      "page": 44
+    },
+    "0640256": {
+      "name": "La Palma",
+      "county": "059",
+      "url": "https://www.lapalmaca.gov/",
+      "page": 42
+    },
+    "0640340": {
+      "name": "La Puente",
+      "county": "037",
+      "url": "https://lapuente.org/",
+      "page": 42
+    },
+    "0640354": {
+      "name": "La Quinta",
+      "county": "065",
+      "url": "https://www.laquintaca.gov/",
+      "page": 42
+    },
+    "0640830": {
+      "name": "La Verne",
+      "county": "037",
+      "url": "https://www.laverneca.gov/",
+      "page": 42
+    },
+    "0640886": {
+      "name": "Lawndale",
+      "county": "037",
+      "url": "https://lawndaleca.hosted.civiclive.com/",
+      "page": 45
+    },
+    "0641124": {
+      "name": "Lemon Grove",
+      "county": "073",
+      "url": "https://www.lemongrove.ca.gov/",
+      "page": 45
+    },
+    "0642370": {
+      "name": "Loma Linda",
+      "county": "071",
+      "url": "https://www.lomalinda-ca.gov/",
+      "page": 47
+    },
+    "0642468": {
+      "name": "Lomita",
+      "county": "037",
+      "url": "https://www.lomitacity.com/",
+      "page": 47
+    },
+    "0643000": {
+      "name": "Long Beach",
+      "county": "037",
+      "url": "https://www.longbeach.gov/",
+      "page": 47
+    },
+    "0643224": {
+      "name": "Los Alamitos",
+      "county": "059",
+      "url": "https://www.cityoflosalamitos.org/",
+      "page": 47
+    },
+    "0644000": {
+      "name": "Los Angeles",
+      "county": "037",
+      "url": "https://lacity.gov/",
+      "page": 48
+    },
+    "0644574": {
+      "name": "Lynwood",
+      "county": "037",
+      "url": "https://www.lynwoodca.gov/",
+      "page": 49
+    },
+    "0645246": {
+      "name": "Malibu",
+      "county": "037",
+      "url": "https://malibucity.org/",
+      "page": 49
+    },
+    "0645400": {
+      "name": "Manhattan Beach",
+      "county": "037",
+      "url": "https://www.manhattanbeach.gov/",
+      "page": 49
+    },
+    "0646492": {
+      "name": "Maywood",
+      "county": "037",
+      "url": "https://www.cityofmaywood.com/",
+      "page": 51
+    },
+    "0646842": {
+      "name": "Menifee",
+      "county": "065",
+      "url": "https://www.menifee.ca.gov/",
+      "page": 51
+    },
+    "0648256": {
+      "name": "Mission Viejo",
+      "county": "059",
+      "url": "https://cityofmissionviejo.org/",
+      "page": 52,
+      "source": "https://www.ocgov.com/about-county/info-oc/oc-links/orange-county-links/orange-county-cities"
+    },
+    "0648648": {
+      "name": "Monrovia",
+      "county": "037",
+      "url": "https://www.monroviaca.gov/",
+      "page": 53
+    },
+    "0648788": {
+      "name": "Montclair",
+      "county": "071",
+      "url": "https://www.cityofmontclair.org/",
+      "page": 53
+    },
+    "0648816": {
+      "name": "Montebello",
+      "county": "037",
+      "url": "https://www.montebelloca.gov/",
+      "page": 54
+    },
+    "0648914": {
+      "name": "Monterey Park",
+      "county": "037",
+      "url": "https://www.montereypark.ca.gov/",
+      "page": 54
+    },
+    "0649138": {
+      "name": "Moorpark",
+      "county": "111",
+      "url": "https://moorparkca.gov/",
+      "page": 54
+    },
+    "0649270": {
+      "name": "Moreno Valley",
+      "county": "065",
+      "url": "https://moval.gov/index.html",
+      "page": 55
+    },
+    "0650076": {
+      "name": "Murrieta",
+      "county": "065",
+      "url": "https://www.murrietaca.gov/",
+      "page": 56
+    },
+    "0650398": {
+      "name": "National City",
+      "county": "073",
+      "url": "https://www.nationalcityca.gov/",
+      "page": 56
+    },
+    "0650734": {
+      "name": "Needles",
+      "county": "071",
+      "url": "https://www.cityofneedles.com/",
+      "page": 56
+    },
+    "0651182": {
+      "name": "Newport Beach",
+      "county": "059",
+      "url": "https://www.newportbeachca.gov/",
+      "page": 57
+    },
+    "0651560": {
+      "name": "Norco",
+      "county": "065",
+      "url": "https://norco.ca.us/",
+      "page": 57
+    },
+    "0652526": {
+      "name": "Norwalk",
+      "county": "037",
+      "url": "https://www.norwalkca.gov/",
+      "page": 58
+    },
+    "0653322": {
+      "name": "Oceanside",
+      "county": "073",
+      "url": "https://www.ci.oceanside.ca.us/",
+      "page": 59
+    },
+    "0653476": {
+      "name": "Ojai",
+      "county": "111",
+      "url": "https://ojai.ca.gov/",
+      "page": 59
+    },
+    "0653896": {
+      "name": "Ontario",
+      "county": "071",
+      "url": "https://www.ontarioca.gov/",
+      "page": 59
+    },
+    "0653980": {
+      "name": "Orange",
+      "county": "059",
+      "url": "https://www.cityoforange.org/",
+      "page": 59
+    },
+    "0654652": {
+      "name": "Oxnard",
+      "county": "111",
+      "url": "https://www.oxnard.gov/",
+      "page": 60
+    },
+    "0655156": {
+      "name": "Palmdale",
+      "county": "037",
+      "url": "https://www.cityofpalmdaleca.gov/",
+      "page": 61
+    },
+    "0655184": {
+      "name": "Palm Desert",
+      "county": "065",
+      "url": "https://www.palmdesert.gov/home",
+      "page": 61
+    },
+    "0655254": {
+      "name": "Palm Springs",
+      "county": "065",
+      "url": "https://www.palmspringsca.gov/home",
+      "page": 61
+    },
+    "0655380": {
+      "name": "Palos Verdes Estates",
+      "county": "037",
+      "url": "https://www.pvestates.org/",
+      "page": 62
+    },
+    "0655618": {
+      "name": "Paramount",
+      "county": "037",
+      "url": "https://www.paramountcity.gov/",
+      "page": 62
+    },
+    "0656000": {
+      "name": "Pasadena",
+      "county": "037",
+      "url": "https://www.cityofpasadena.net/",
+      "page": 62
+    },
+    "0656700": {
+      "name": "Perris",
+      "county": "065",
+      "url": "https://www.cityofperris.org/",
+      "page": 63
+    },
+    "0656924": {
+      "name": "Pico Rivera",
+      "county": "037",
+      "url": "https://www.pico-rivera.org/",
+      "page": 63
+    },
+    "0657526": {
+      "name": "Placentia",
+      "county": "059",
+      "url": "https://www.placentia.org/",
+      "page": 64
+    },
+    "0658072": {
+      "name": "Pomona",
+      "county": "037",
+      "url": "https://www.pomonaca.gov/",
+      "page": 66
+    },
+    "0658296": {
+      "name": "Port Hueneme",
+      "county": "111",
+      "url": "https://www.ci.port-hueneme.ca.us/",
+      "page": 66
+    },
+    "0658520": {
+      "name": "Poway",
+      "county": "073",
+      "url": "https://poway.org/",
+      "page": 67
+    },
+    "0659451": {
+      "name": "Rancho Cucamonga",
+      "county": "071",
+      "url": "https://www.cityofrc.us/",
+      "page": 67
+    },
+    "0659500": {
+      "name": "Rancho Mirage",
+      "county": "065",
+      "url": "https://www.ranchomirageca.gov/",
+      "page": 67
+    },
+    "0659514": {
+      "name": "Rancho Palos Verdes",
+      "county": "037",
+      "url": "https://www.rpvca.gov/",
+      "page": 67
+    },
+    "0659587": {
+      "name": "Rancho Santa Margarita",
+      "county": "059",
+      "url": "https://www.cityofrsm.org/",
+      "page": 68
+    },
+    "0659962": {
+      "name": "Redlands",
+      "county": "071",
+      "url": "https://www.cityofredlands.gov/",
+      "page": 68
+    },
+    "0660018": {
+      "name": "Redondo Beach",
+      "county": "037",
+      "url": "https://www.redondo.org/",
+      "page": 68,
+      "source": "https://locator.lacounty.gov/lac/Location/3176643/redondo-beach-city-hall"
+    },
+    "0660466": {
+      "name": "Rialto",
+      "county": "071",
+      "url": "https://www.rialtoca.gov/",
+      "page": 69
+    },
+    "0662000": {
+      "name": "Riverside",
+      "county": "065",
+      "url": "https://www.riversideca.gov/",
+      "page": 70
+    },
+    "0662602": {
+      "name": "Rolling Hills",
+      "county": "037",
+      "url": "https://www.rolling-hills.org/",
+      "page": 71
+    },
+    "0662644": {
+      "name": "Rolling Hills Estates",
+      "county": "037",
+      "url": "https://rhe.city/",
+      "page": 71
+    },
+    "0662896": {
+      "name": "Rosemead",
+      "county": "037",
+      "url": "https://rosemeadca.gov/",
+      "page": 71
+    },
+    "0665000": {
+      "name": "San Bernardino",
+      "county": "071",
+      "url": "https://www.sanbernardino.gov/",
+      "page": 73
+    },
+    "0665042": {
+      "name": "San Buenaventura",
+      "county": "111",
+      "url": "https://www.cityofventura.ca.gov/",
+      "page": 73
+    },
+    "0665084": {
+      "name": "San Clemente",
+      "county": "059",
+      "url": "https://www.sanclemente.gov/",
+      "page": 73
+    },
+    "0666000": {
+      "name": "San Diego",
+      "county": "073",
+      "url": "https://www.sandiego.gov/",
+      "page": 74
+    },
+    "0666070": {
+      "name": "San Dimas",
+      "county": "037",
+      "url": "https://sandimasca.gov/",
+      "page": 74
+    },
+    "0666140": {
+      "name": "San Fernando",
+      "county": "037",
+      "url": "https://www.sanfernando.gov/Home",
+      "page": 74
+    },
+    "0667042": {
+      "name": "San Gabriel",
+      "county": "037",
+      "url": "https://sangabrielcity.com/",
+      "page": 74
+    },
+    "0667112": {
+      "name": "San Jacinto",
+      "county": "065",
+      "url": "https://www.sanjacintoca.gov/",
+      "page": 75
+    },
+    "0668028": {
+      "name": "San Juan Capistrano",
+      "county": "059",
+      "url": "https://www.sanjuancapistrano.gov/",
+      "page": 75,
+      "source": "https://www.sanjuancapistrano.gov/301/Permits"
+    },
+    "0668196": {
+      "name": "San Marcos",
+      "county": "073",
+      "url": "https://www.sanmarcosca.gov/Home",
+      "page": 76
+    },
+    "0668224": {
+      "name": "San Marino",
+      "county": "037",
+      "url": "https://sanmarinoca.gov/",
+      "page": 76
+    },
+    "0669000": {
+      "name": "Santa Ana",
+      "county": "059",
+      "url": "https://santa-ana.gov/",
+      "page": 78
+    },
+    "0669088": {
+      "name": "Santa Clarita",
+      "county": "037",
+      "url": "https://santaclarita.gov/",
+      "page": 78
+    },
+    "0669154": {
+      "name": "Santa Fe Springs",
+      "county": "037",
+      "url": "https://www.santafesprings.gov/",
+      "page": 79
+    },
+    "0670000": {
+      "name": "Santa Monica",
+      "county": "037",
+      "url": "https://www.santamonica.gov/",
+      "page": 79
+    },
+    "0670042": {
+      "name": "Santa Paula",
+      "county": "111",
+      "url": "https://www.spcity.org/",
+      "page": 79
+    },
+    "0670224": {
+      "name": "Santee",
+      "county": "073",
+      "url": "https://www.cityofsanteeca.gov/",
+      "page": 80
+    },
+    "0670686": {
+      "name": "Seal Beach",
+      "county": "059",
+      "url": "https://sealbeachca.gov/",
+      "page": 80
+    },
+    "0671806": {
+      "name": "Sierra Madre",
+      "county": "037",
+      "url": "https://www.sierramadreca.gov/",
+      "page": 82
+    },
+    "0671876": {
+      "name": "Signal Hill",
+      "county": "037",
+      "url": "https://www.cityofsignalhill.org/",
+      "page": 82
+    },
+    "0672016": {
+      "name": "Simi Valley",
+      "county": "111",
+      "url": "https://www.simivalley.org/",
+      "page": 82
+    },
+    "0672506": {
+      "name": "Solana Beach",
+      "county": "073",
+      "url": "https://cityofsolanabeach.ca.gov/en",
+      "page": 82
+    },
+    "0672996": {
+      "name": "South El Monte",
+      "county": "037",
+      "url": "https://www.cityofsouthelmonte.org/",
+      "page": 83
+    },
+    "0673080": {
+      "name": "South Gate",
+      "county": "037",
+      "url": "https://www.cityofsouthgate.org/Home",
+      "page": 83
+    },
+    "0673220": {
+      "name": "South Pasadena",
+      "county": "037",
+      "url": "https://www.southpasadenaca.gov/Home",
+      "page": 84
+    },
+    "0673962": {
+      "name": "Stanton",
+      "county": "059",
+      "url": "https://www.stantonca.gov/",
+      "page": 84
+    },
+    "0678120": {
+      "name": "Temecula",
+      "county": "065",
+      "url": "https://www.temeculaca.gov/",
+      "page": 86
+    },
+    "0678148": {
+      "name": "Temple City",
+      "county": "037",
+      "url": "https://www.templecityca.gov/",
+      "page": 86
+    },
+    "0678582": {
+      "name": "Thousand Oaks",
+      "county": "111",
+      "url": "https://www.toaks.gov/",
+      "page": 86,
+      "source": "https://www.toaks.gov/contact"
+    },
+    "0680000": {
+      "name": "Torrance",
+      "county": "037",
+      "url": "https://www.torranceca.gov/Home",
+      "page": 87
+    },
+    "0680854": {
+      "name": "Tustin",
+      "county": "059",
+      "url": "https://www.tustinca.org/",
+      "page": 88
+    },
+    "0680994": {
+      "name": "Twentynine Palms",
+      "county": "071",
+      "url": "https://www.ci.twentynine-palms.ca.us/",
+      "page": 88
+    },
+    "0681344": {
+      "name": "Upland",
+      "county": "071",
+      "url": "https://www.uplandca.gov/",
+      "page": 89
+    },
+    "0682422": {
+      "name": "Vernon",
+      "county": "037",
+      "url": "https://www.cityofvernonca.gov/",
+      "page": 90
+    },
+    "0682590": {
+      "name": "Victorville",
+      "county": "071",
+      "url": "https://www.victorvilleca.gov/Home",
+      "page": 90
+    },
+    "0682744": {
+      "name": "Villa Park",
+      "county": "059",
+      "url": "https://villapark.org/",
+      "page": 90
+    },
+    "0682996": {
+      "name": "Vista",
+      "county": "073",
+      "url": "https://vista.gov/",
+      "page": 90
+    },
+    "0683332": {
+      "name": "Walnut",
+      "county": "037",
+      "url": "https://www.walnutca.gov/Home",
+      "page": 91
+    },
+    "0684200": {
+      "name": "West Covina",
+      "county": "037",
+      "url": "https://www.westcovina.gov/",
+      "page": 92
+    },
+    "0684410": {
+      "name": "West Hollywood",
+      "county": "037",
+      "url": "https://www.weho.org/",
+      "page": 92
+    },
+    "0684438": {
+      "name": "Westlake Village",
+      "county": "037",
+      "url": "https://www.wlv.org/",
+      "page": 92
+    },
+    "0684550": {
+      "name": "Westminster",
+      "county": "059",
+      "url": "https://www.westminster-ca.gov/",
+      "page": 93
+    },
+    "0684606": {
+      "name": "Westmorland",
+      "county": "025",
+      "url": "https://www.cityofwestmorland.net/",
+      "page": 93
+    },
+    "0685292": {
+      "name": "Whittier",
+      "county": "037",
+      "url": "https://www.cityofwhittier.org/",
+      "page": 93
+    },
+    "0685446": {
+      "name": "Wildomar",
+      "county": "065",
+      "url": "https://www.wildomar.gov/",
+      "page": 93
+    },
+    "0686832": {
+      "name": "Yorba Linda",
+      "county": "059",
+      "url": "https://www.yorbalindaca.gov/",
+      "page": 95
+    },
+    "0687042": {
+      "name": "Yucaipa",
+      "county": "071",
+      "url": "https://yucaipa.gov/",
+      "page": 96
+    },
+    "0687056": {
+      "name": "Yucca Valley",
+      "county": "071",
+      "url": "https://yucca-valley.org/",
+      "page": 96
+    }
+  }
+}

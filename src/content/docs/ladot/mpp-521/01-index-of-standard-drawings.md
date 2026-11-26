@@ -5,8 +5,6 @@ sidebar:
   order: 1
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/signals.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/signals.webp" alt="LADOT MPP 521 Signal Standards" /></a><figcaption><strong>LADOT MPP 521 Signal Standards</strong> <em>Traffic signal layout, phasing, mast arms & pedestrian signal drawings</em></figcaption></figure>
-
 
 <div class="srcbar">LADOT MPP 521: Traffic Signal Design Guidelines &middot; 09/2016 manual, drawings dated individually &middot; pages 1&ndash;1</div>
 

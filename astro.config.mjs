@@ -63,7 +63,7 @@ export default defineConfig({
     } } },
     starlight({
       title: 'SoCal Super Standards',
-      description: 'Searchable traffic engineering standards for Southern California: search by project location, agency, guide, topic or drawing.',
+      description: 'Southern California transportation standards. Browse by municipality, issuing agency, guide, design topic or drawing number.',
       customCss: [
         '@fontsource/albert-sans/400.css',
         '@fontsource/albert-sans/500.css',

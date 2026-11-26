@@ -1,27 +1,71 @@
-/* Spatial and text queries run off the UI thread. Databases are fetched by county or road tile. */
+/* Geographic and text queries execute off the main thread. */
 importScripts('../../vendor/atlas/sql-wasm.js', '../../vendor/atlas/fflate.js');
-const api = new URL('../../api/v2/', self.location.href);
-const engine = initSqlJs({locateFile: () => new URL('../../vendor/atlas/sql-wasm.wasm', self.location.href).href});
-const manifest = fetch(new URL('layers.json', api)).then(checked).then(r=>r.json());
-const cached = new Map();
-const pending = new Map();
-function checked(response) {
-  if (!response.ok) throw Error('Could not load '+new URL(response.url).pathname);
-  return response;
-}
-async function database(file) {
-  if (cached.has(file)) {
-    const db=cached.get(file); cached.delete(file); cached.set(file,db); return db;
+const api=new URL('../../api/v2/',self.location.href);
+const databases=new Map(), databaseLimit=9;
+let engineRequest,manifestRequest;
+
+// A hosting service may return the gzip file or apply Content-Encoding itself.
+async function readAsset(file,decode){
+  const url=new URL(file,api);
+  for(let attempt=0;attempt<2;attempt++){
+    const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),12000);
+    let permanent=false;
+    try{
+      const response=await fetch(url,{signal:controller.signal,cache:attempt?'reload':'default'});
+      if(!response.ok){
+        permanent=response.status>=400&&response.status<500&&![408,429].includes(response.status);
+        throw Error('HTTP '+response.status);
+      }
+      let bytes=new Uint8Array(await response.arrayBuffer());
+      if(bytes[0]===0x1f&&bytes[1]===0x8b)bytes=fflate.gunzipSync(bytes);
+      return decode(bytes);
+    }catch(error){
+      if(permanent||attempt===1)throw Error(url.pathname+': '+error.message);
+    }finally{clearTimeout(timeout);}
   }
-  if (!pending.has(file)) pending.set(file,(async()=>{
-    const r=checked(await fetch(new URL(file,api)));
-    const bytes=fflate.gunzipSync(new Uint8Array(await r.arrayBuffer()));
-    const db=new (await engine).Database(bytes);
-    cached.set(file,db);
-    while (cached.size>9) {const oldest=cached.keys().next().value;cached.get(oldest).close();cached.delete(oldest);}
-    return db;
-  })().finally(()=>pending.delete(file)));
-  return pending.get(file);
+}
+const jsonBytes=bytes=>JSON.parse(new TextDecoder().decode(bytes));
+function getManifest(){
+  manifestRequest ||= readAsset('layers.json',bytes=>{
+    const m=jsonBytes(bytes);
+    if(!m.countyLayers||!Array.isArray(m.ownershipTiles))throw Error('Invalid layer manifest');
+    return m;
+  }).catch(error=>{manifestRequest=undefined;throw error;});
+  return manifestRequest;
+}
+function getEngine(){
+  const wasm=new URL('../../vendor/atlas/sql-wasm.wasm',self.location.href);
+  engineRequest ||= readAsset(wasm,bytes=>{
+    if(bytes.length<8||bytes[0]!==0||bytes[1]!==97||bytes[2]!==115||bytes[3]!==109)throw Error('Invalid SQLite engine');
+    return bytes;
+  }).then(wasmBinary=>initSqlJs({wasmBinary})).catch(error=>{engineRequest=undefined;throw error;});
+  return engineRequest;
+}
+function trimDatabases(){
+  for(const [file,entry] of databases){
+    if(databases.size<=databaseLimit)break;
+    if(entry.users||!entry.db)continue;
+    entry.db.close();
+    databases.delete(file);
+  }
+}
+// Protect active reads from eviction by simultaneous viewport and search queries.
+async function withDatabase(file,read){
+  let entry=databases.get(file);
+  if(!entry){
+    entry={users:0,db:null};
+    const data=readAsset(file,bytes=>{
+      if(new TextDecoder().decode(bytes.subarray(0,16))!=='SQLite format 3\0')throw Error('Invalid SQLite database');
+      return bytes;
+    });
+    entry.ready=Promise.all([getEngine(),data]).then(([SQL,bytes])=>{
+      entry.db=new SQL.Database(bytes);return entry.db;
+    }).catch(error=>{databases.delete(file);throw error;});
+  }else databases.delete(file);
+  databases.set(file,entry);
+  entry.users++;
+  try{return read(await entry.ready);}
+  finally{entry.users--;trimDatabases();}
 }
 function rows(db, sql, params=[]) {
   const stmt=db.prepare(sql), result=[];
@@ -29,77 +73,137 @@ function rows(db, sql, params=[]) {
   finally {stmt.free();}
   return result;
 }
-const normalize=s=>s.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
-const short={avenue:'ave',street:'st',boulevard:'blvd',road:'rd',parkway:'pkwy',highway:'hwy',drive:'dr',court:'ct',place:'pl',lane:'ln',terrace:'ter',north:'n',south:'s',east:'e',west:'w',circle:'cir',mount:'mt',center:'ctr'};
+const normalize=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/['’]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+const short={avenue:'ave',street:'st',boulevard:'blvd',road:'rd',parkway:'pkwy',highway:'hwy',drive:'dr',court:'ct',place:'pl',lane:'ln',terrace:'ter',north:'n',south:'s',east:'e',west:'w',northeast:'ne',northwest:'nw',southeast:'se',southwest:'sw',circle:'cir',mount:'mt',center:'ctr',trail:'trl',first:'1st',second:'2nd',third:'3rd',fourth:'4th',fifth:'5th',sixth:'6th',seventh:'7th',eighth:'8th',ninth:'9th',tenth:'10th'};
 const words=s=>normalize(s).split(' ').map(v=>short[v]||v).join(' ');
-function streetIds(db,query) {
-  const term=words(query);
-  if(!term)return [];
-  const distinctive=term.split(' ').filter(w=>!Object.values(short).includes(w)).sort((a,b)=>b.length-a.length)[0]||term;
-  return rows(db,'SELECT id,name FROM street WHERE search LIKE ?',['%'+distinctive+'%'])
-    .filter(r=>(' '+words(r.name)+' ').includes(' '+term+' ')).map(r=>r.id);
-}
 const streetIndexes=new Map();
 function streetIndex(index){
-  if(!streetIndexes.has(index))streetIndexes.set(index,fetch(new URL(index,api)).then(checked).then(r=>r.arrayBuffer())
-    .then(b=>JSON.parse(fflate.strFromU8(fflate.gunzipSync(new Uint8Array(b))))).catch(e=>{streetIndexes.delete(index);throw e;}));
+  if(!streetIndexes.has(index))streetIndexes.set(index,readAsset(index,bytes=>JSON.parse(fflate.strFromU8(bytes)))
+    .then(({parts,streets})=>({parts,streets,entries:Object.entries(streets).map(([name,tiles])=>({name,tiles,key:words(name)}))}))
+    .catch(e=>{streetIndexes.delete(index);throw e;}));
   return streetIndexes.get(index);
 }
-async function crossingParts(index,pair,place){
-  const {parts,streets}=await streetIndex(index);
-  const groups=pair.map(q=>{const wanted=' '+words(q)+' ',indexes=new Set();
-    for(const [name,ids] of Object.entries(streets))if((' '+words(name)+' ').includes(wanted))ids.forEach(i=>indexes.add(i));
-    return indexes;});
-  return [...groups[0]].filter(i=>groups[1].has(i)&&(!place||parts[i].places.includes(place))).map(i=>parts[i].file);
-}
-async function search({query,county,place}) {
-  const data=(await manifest).countyLayers[county];
-  if(!data)return [];
-  const pair=query.split(/\s*(?:&|@|\/)\s*|\s+(?:and|at)\s+/i);
-  if(pair.length===2 && pair.every(v=>v.trim())){
-    const matches=[];
-    for(const file of await crossingParts(data.intersections.index,pair,place)){
-    const db=await database(file);
-    const [a,b]=pair.map(q=>streetIds(db,q));
-    if(!a.length||!b.length)continue;
-    const qs=ids=>ids.map(()=>'?').join(',');
-    const querySql=`SELECT DISTINCT c.node,c.x,c.y,c.place,
-      (SELECT group_concat(name,' & ') FROM street JOIN approach ON street.id=approach.street WHERE approach.node=c.node) AS label
-      FROM approach a JOIN approach b ON b.node=a.node AND b.street!=a.street JOIN crossing c ON c.node=a.node
-      WHERE a.street IN (${qs(a)}) AND b.street IN (${qs(b)}) ${place?'AND c.place=?':''} ORDER BY c.node LIMIT 35`;
-    matches.push(...rows(db,querySql,[...a,...b,...(place?[place]:[])]).map(r=>({...r,type:'Intersection'})));
-    if(matches.length>=35)break;
+function matchedStreets(index,term,place,prefix=false){
+  const query=words(term);
+  if(!query)return [];
+  const keys=[' '+query+(prefix?'':' ')];
+  if(prefix){
+    const raw=normalize(term).split(' '),last=raw.pop();
+    if(last.length>=2){
+      const leading=raw.map(v=>short[v]||v);
+      for(const [full,abbreviation] of Object.entries(short)){
+        if(full.startsWith(last)&&full!==last)keys.push(' '+[...leading,abbreviation].join(' ')+' ');
+      }
     }
-    return matches.slice(0,35);
   }
-  const db=await database(data.network.file);
-  const tokens=normalize(query).split(' ').filter(Boolean).slice(0,8);
-  if(!tokens.length)return [];
-  const condition=tokens.map(()=>'lower(name || \' \' || stop_id || \' \' || agency) LIKE ?').join(' AND ');
-  const {parts,streets}=await streetIndex(data.intersections.index);
-  const queryWords=words(query);
-  const roadMatches=Object.entries(streets).filter(([n,ids])=>(' '+words(n)+' ').includes(' '+queryWords+' ') && (!place||ids.some(i=>parts[i].places.includes(place))))
-    .sort(([a],[b])=>Number(words(b)===queryWords)-Number(words(a)===queryWords)||a.length-b.length||a.localeCompare(b))
-    .slice(0,10).map(([street])=>({street,label:street,type:'Street · browse intersections',place}));
-  const stops=rows(db,'SELECT name AS label,x,y,place,agency,stop_id FROM stop WHERE '+condition+
-    (place?' AND place=?':'')+' ORDER BY name,agency,stop_id LIMIT 35',
-    [...tokens.map(t=>'%'+t+'%'),...(place?[place]:[])]).map(r=>({...r,type:'Transit stop'}));
-  return [...roadMatches,...stops];
+  return index.entries.filter(({key,tiles})=>keys.some(wanted=>(' '+key+' ').includes(wanted)) &&
+    (!place||tiles.some(i=>index.parts[i].places.includes(place))));
 }
-async function onStreet({street,county,place}){
-  const d=(await manifest).countyLayers[county];
-  const {parts,streets}=await streetIndex(d.intersections.index);
-  const hits=[];
-  for(const i of streets[street]||[]){
-    if(place&&!parts[i].places.includes(place))continue;
-    const db=await database(parts[i].file);
-    hits.push(...rows(db,`SELECT c.node,c.x,c.y,c.place,
-      (SELECT group_concat(name,' & ') FROM street JOIN approach ON street.id=approach.street WHERE approach.node=c.node) AS label
-      FROM crossing c JOIN approach a ON c.node=a.node JOIN street s ON a.street=s.id
-      WHERE s.name=? ${place?'AND c.place=?':''} ORDER BY c.node LIMIT 35`,place?[street,place]:[street]).map(r=>({...r,type:'Intersection'})));
-    if(hits.length>=35)break;
+function byTile(matches){
+  const by=new Map();
+  for(const {name,tiles} of matches)for(const tile of tiles){
+    if(!by.has(tile))by.set(tile,[]);
+    by.get(tile).push(name);
   }
-  return hits.slice(0,35);
+  return by;
+}
+const marks=items=>items.map(()=>'?').join(',');
+function crossingTiles(index,pair,place){
+  const [left,right]=pair.map(v=>byTile(matchedStreets(index,v,place)));
+  return [...left].filter(([i])=>right.has(i)&&(!place||index.parts[i].places.includes(place)))
+    .map(([i,a])=>({file:index.parts[i].file,groups:[a,right.get(i)]}));
+}
+async function crossingPage(tiles,params){
+  const {county,place,cursor}=params, results=[], start=cursor?.part||0;
+  for(let i=start;i<tiles.length;i++){
+    const {file,groups}=tiles[i], needed=35-results.length;
+    const found=await withDatabase(file,db=>{
+      // Resolve the few relevant street IDs first. Using the approach(street,node)
+      // index avoids a full scan of an urban tile for each query.
+      const ids=groups.map(names=>rows(db,'SELECT id FROM street WHERE name IN ('+marks(names)+')',names).map(r=>r.id));
+      if(ids.some(group=>!group.length))return [];
+      const other=ids[1];
+      return rows(db,`SELECT DISTINCT c.node,c.x,c.y,c.place,
+        (SELECT group_concat(name,' & ') FROM street JOIN approach ON street.id=approach.street WHERE approach.node=c.node) AS label
+        FROM approach a JOIN crossing c ON c.node=a.node
+        WHERE a.street IN (${marks(ids[0])}) AND c.node>?
+        ${other?'AND EXISTS(SELECT 1 FROM approach b WHERE b.node=c.node AND b.street!=a.street AND b.street IN ('+marks(other)+'))':''}
+        ${place?'AND c.place=?':''} ORDER BY c.node LIMIT ?`,
+        [...ids[0],i===start&&cursor?cursor.after:0,...(other||[]),...(place?[place]:[]),needed+1]);
+    });
+    results.push(...found.slice(0,needed).map(r=>({...r,county,type:'Intersection'})));
+    if(found.length>needed || results.length===35 && i+1<tiles.length){
+      results.push({label:'Find more intersections',more:{...params,cursor:{part:i,after:results.at(-1).node}}});
+      break;
+    }
+  }
+  return results;
+}
+async function streetMatches(index,query,county,place){
+  const term=words(query);
+  const ordered=matchedStreets(index,query,place,true).sort((a,b)=>
+    Number(b.key===term)-Number(a.key===term)||
+    Number((' '+b.key+' ').includes(' '+term+' '))-Number((' '+a.key+' ').includes(' '+term+' '))||
+    a.name.length-b.name.length||a.name.localeCompare(b.name));
+  const names=[];
+  // Tile membership accelerates discovery, but only a matching crossing proves
+  // that a street belongs to a selected municipality.
+  if(place){
+    for(let n=0;n<ordered.length && names.length<12;n+=24){
+      const batch=ordered.slice(n,n+24), verified=new Set();
+      for(const [i,candidates] of byTile(batch)){
+        if(!index.parts[i].places.includes(place))continue;
+        const remaining=candidates.filter(v=>!verified.has(v));
+        if(!remaining.length)continue;
+        const rowsHere=await withDatabase(index.parts[i].file,db=>rows(db,`SELECT s.name FROM street s WHERE s.name IN (${marks(remaining)}) AND EXISTS (
+          SELECT 1 FROM approach a JOIN crossing c ON a.node=c.node WHERE a.street=s.id AND c.place=?)`,[...remaining,place]));
+        for(const row of rowsHere)verified.add(row.name);
+      }
+      names.push(...batch.filter(entry=>verified.has(entry.name)));
+    }
+  }else names.push(...ordered.slice(0,12));
+  return names.slice(0,12).map(({name,key})=>({street:name,label:name,county,place,type:'Street',exact:key===term}));
+}
+async function stopMatches(file,query,county,place,agencyNames){
+  const tokens=normalize(query).split(' ').filter(Boolean);
+  if(!tokens.length)return [];
+  const conditions=tokens.map(()=>"lower(coalesce(name,'') || ' ' || coalesce(stop_id,'') || ' ' || coalesce(agency,'')) LIKE ?");
+  const params=tokens.map(t=>'%'+t+'%');
+  if(place){conditions.push('place=?');params.push(place);}
+  if(agencyNames?.length){
+    conditions.push('('+agencyNames.map(()=>'lower(agency) LIKE ?').join(' OR ')+')');
+    params.push(...agencyNames.map(a=>'%'+a.toLowerCase()+'%'));
+  }
+  return withDatabase(file,db=>rows(db,`SELECT source_id,name AS label,x,y,place,agency,stop_id FROM stop WHERE ${conditions.join(' AND ')}
+    ORDER BY lower(stop_id)=lower(?) DESC, lower(name)=lower(?) DESC, length(name), name, agency, stop_id LIMIT 36`,
+    [...params,query,query]).map(r=>({...r,county,type:'Transit stop',exact:normalize(r.label)===normalize(query)||normalize(r.stop_id)===normalize(query)})));
+}
+async function search({query,county,place,pair,mode,agencyNames,cursor}){
+  const data=(await getManifest()).countyLayers[county];
+  if(!data)throw Error('County index unavailable');
+  if(mode==='stops')return stopMatches(data.network.file,query,county,place,agencyNames);
+  const index=await streetIndex(data.intersections.index);
+  if(!pair&&!mode){
+    const split=query.split(/\s*(?:&|@|\/)\s*|\s+(?:and|at)\s+/i);
+    if(split.length===2&&split.every(s=>s.trim()))pair=split;
+  }
+  if(pair){
+    if(words(pair[0])===words(pair[1]))return [];
+    const tiles=crossingTiles(index,pair,place);
+    if(mode==='candidates')return tiles.length?[{county,type:'County candidate'}]:[];
+    return crossingPage(tiles,{query,county,place,pair,mode:'crossings',cursor});
+  }
+  const streets=await streetMatches(index,query,county,place);
+  if(mode==='streets')return streets;
+  return [...streets,...await stopMatches(data.network.file,query,county,place,agencyNames)];
+}
+async function onStreet({street,county,place,cursor}){
+  const data=(await getManifest()).countyLayers[county];
+  if(!data)throw Error('County index unavailable');
+  const index=await streetIndex(data.intersections.index);
+  const tiles=(index.streets[street]||[]).filter(i=>!place||index.parts[i].places.includes(place))
+    .map(i=>({file:index.parts[i].file,groups:[[street]]}));
+  return crossingPage(tiles,{street,county,place,cursor});
 }
 const overlap=(a,b)=>a[0]<=b[2]&&a[2]>=b[0]&&a[1]<=b[3]&&a[3]>=b[1];
 function metric(x,y){
@@ -119,39 +223,116 @@ function metric(x,y){
 function nearbyLines(db,table,box) {
   return rows(db,'SELECT * FROM '+table+' WHERE w<=? AND e>=? AND s<=? AND n>=?',[box[2],box[0],box[3],box[1]]);
 }
+function fillNearby(result,records,geo,radius){
+  for(const record of records){
+    record.line=JSON.parse(record.line);
+    record.distance=geo.line(record.line);
+    if(record.distance<=radius)result.push(record);
+  }
+}
+function nearestUnique(records,key){
+  records.sort((a,b)=>a.distance-b.distance);
+  const seen=new Set();
+  return records.filter(record=>{
+    const id=key(record);
+    if(seen.has(id))return false;
+    seen.add(id);return true;
+  });
+}
+let localStreets;
+async function roadContext(layer,box,geo){
+  if(!layer||!overlap(layer.bbox,box))return [];
+  const readStreets=file=>readAsset(file,bytes=>{
+    const collection=jsonBytes(bytes);
+    if(!Array.isArray(collection.features))throw Error('Invalid street inventory');
+    return collection.features.map(f=>{
+      const line=f.geometry.coordinates,bounds=[Infinity,Infinity,-Infinity,-Infinity];
+      for(const [x,y] of line){
+        bounds[0]=Math.min(bounds[0],x);bounds[1]=Math.min(bounds[1],y);
+        bounds[2]=Math.max(bounds[2],x);bounds[3]=Math.max(bounds[3],y);
+      }
+      return {...f.properties,id:f.id,source:layer.sources[f.properties.source],line,bounds};
+    });
+  });
+  localStreets ||= (layer.compressedFile
+    ? readStreets(layer.compressedFile).catch(()=>readStreets(layer.file))
+    : readStreets(layer.file)
+  ).catch(error=>{localStreets=undefined;throw error;});
+  const matches=[];
+  for(const r of await localStreets){
+    if(!overlap(box,r.bounds))continue;
+    const distance=geo.line(r.line);
+    if(distance<=40)matches.push({...r,distance});
+  }
+  return matches.sort((a,b)=>a.distance-b.distance);
+}
+async function attemptLayer(unavailable,label,task){
+  try{await task();}
+  catch{unavailable.add(label);}
+}
 async function identify({x,y,counties}){
-  const m=await manifest,geo=metric(x,y),sb=geo.box(400),rb=geo.box(40);
-  const stops=[],highways=[],roads=[];
-  for(const code of counties){
-    const network=await database(m.countyLayers[code].network.file);
-    for(const p of rows(network,'SELECT * FROM stop WHERE x BETWEEN ? AND ? AND y BETWEEN ? AND ?',[sb[0],sb[2],sb[1],sb[3]])){
-      p.distance=geo.distance(p.x,p.y);if(p.distance<=400)stops.push(p);
-    }
-    for(const p of nearbyLines(network,'highway',rb)){
-      p.line=JSON.parse(p.line);p.distance=geo.line(p.line);if(p.distance<=40)highways.push(p);
-    }
+  const m=await getManifest(),geo=metric(x,y),stopBox=geo.box(400),roadBox=geo.box(40);
+  const stops=[],highways=[],roads=[],unavailable=new Set(),tasks=[];
+  let context=[];
+  for(const code of new Set(counties)){
+    const county=m.countyLayers[code];
+    if(!county)continue;
+    tasks.push(attemptLayer(unavailable,county.name+' County stops and state highways',()=>
+      withDatabase(county.network.file,db=>{
+        const found=rows(db,'SELECT * FROM stop WHERE x BETWEEN ? AND ? AND y BETWEEN ? AND ?',
+          [stopBox[0],stopBox[2],stopBox[1],stopBox[3]]);
+        for(const stop of found){
+          stop.distance=geo.distance(stop.x,stop.y);
+          if(stop.distance<=400)stops.push(stop);
+        }
+        fillNearby(highways,nearbyLines(db,'highway',roadBox),geo,40);
+      })
+    ));
   }
-  for(const tile of m.ownershipTiles.filter(t=>overlap(t.bbox,rb))){
-    const db=await database(tile.file);
-    for(const r of nearbyLines(db,'road',rb)){
-      r.line=JSON.parse(r.line);r.distance=geo.line(r.line);if(r.distance<=40)roads.push(r);
-    }
+  for(const tile of m.ownershipTiles){
+    if(!overlap(tile.bbox,roadBox))continue;
+    tasks.push(attemptLayer(unavailable,'FHWA road ownership',()=>
+      withDatabase(tile.file,db=>fillNearby(roads,nearbyLines(db,'road',roadBox),geo,40))
+    ));
   }
-  const byDistance=(a,b)=>a.distance-b.distance;
-  const unique=(arr,key)=>[...arr.sort(byDistance).reduce((acc,v)=>acc.has(key(v))?acc:acc.set(key(v),v),new Map()).values()];
-  return {stops:unique(stops,p=>p.agency+'|'+p.stop_id+'|'+p.x+'|'+p.y),roads:unique(roads,p=>p.route_id+'|'+p.owner),highways:unique(highways,p=>p.route+'|'+p.direction)};
+  tasks.push(attemptLayer(unavailable,'Local road records',async()=>{
+    context=await roadContext(m.roadContext,roadBox,geo);
+  }));
+  await Promise.all(tasks);
+  return {
+    stops:nearestUnique(stops,p=>[p.agency,p.stop_id,p.x,p.y].join('|')),
+    roads:nearestUnique(roads,p=>[p.county,p.route_id,p.owner,p.begin,p.end].join('|')),
+    highways:nearestUnique(highways,p=>[p.route,p.direction,p.district].join('|')),
+    roadContext:context,unavailable:[...unavailable].sort()
+  };
 }
 async function visible({bounds,counties,zoom,stops,highways}){
-  const m=await manifest,result={stops:[],highways:[]};
-  for(const code of counties){
-    const db=await database(m.countyLayers[code].network.file);
-    if(stops && zoom>=14)result.stops.push(...rows(db,'SELECT source_id,x,y,name,agency,place FROM stop WHERE x BETWEEN ? AND ? AND y BETWEEN ? AND ? ORDER BY source_id LIMIT 750',[bounds[0],bounds[2],bounds[1],bounds[3]]));
-    if(highways && zoom>=10)result.highways.push(...nearbyLines(db,'highway',bounds).map(p=>({line:JSON.parse(p.line),route:p.route})));
-  }
+  const result={stops:[],highways:[],limited:false,unavailable:[]};
+  const showStops=stops&&zoom>=14,showHighways=highways&&zoom>=10;
+  if(!showStops&&!showHighways)return result;
+  const m=await getManifest(),unavailable=new Set();
+  await Promise.all([...new Set(counties)].map(code=>{
+    const county=m.countyLayers[code];
+    if(!county)return;
+    return attemptLayer(unavailable,county.name+' County network',()=>withDatabase(county.network.file,db=>{
+      if(showStops){
+        const found=rows(db,'SELECT source_id,x,y,name,agency,place FROM stop WHERE x BETWEEN ? AND ? AND y BETWEEN ? AND ? ORDER BY source_id LIMIT 751',
+          [bounds[0],bounds[2],bounds[1],bounds[3]]);
+        result.limited ||= found.length>750;
+        result.stops.push(...found.slice(0,750));
+      }
+      if(showHighways)for(const h of nearbyLines(db,'highway',bounds))
+        result.highways.push({line:JSON.parse(h.line),route:h.route});
+    }));
+  }));
+  result.unavailable=[...unavailable].sort();
   return result;
 }
 const operations={search,onStreet,identify,visible};
 self.onmessage=async({data:{id,method,params}})=>{
-  try{self.postMessage({id,value:await operations[method](params)});}
+  try{
+    if(!Object.hasOwn(operations,method))throw Error('Unknown map operation');
+    self.postMessage({id,value:await operations[method](params)});
+  }
   catch(e){self.postMessage({id,error:e.message});}
 };

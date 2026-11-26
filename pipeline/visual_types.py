@@ -53,6 +53,19 @@ GROUPS={
 }
 FIGREF=re.compile(r'\b(Figure|Table)\s+(\d[A-Z]-\d+(?:\s*\(CA\))?)(?![\w(])',re.I)
 
+# A city's supplemental drawings belong in that city's source material or a
+# cross-agency comparison. Exact citations are always resolved independently.
+LOCAL_SOURCES = {
+    'MPP 531':'ladot', 'Supp. Street Design Guide':'ladot', 'Complete Streets DG':'ladot',
+    'Culver City CSDS 2025':'culver-city', 'Burbank Std. Plans':'burbank', 'Long Beach Std. Plans':'long-beach',
+}
+
+
+def applies_to_route(source, section):
+    return source not in LOCAL_SOURCES or section in {LOCAL_SOURCES[source], 'topics', 'guides', 'bulletins'}
+
+
+
 def make_visuals(details):
     index={(r['src'],(r['type']+' ' if r['type'] in ('Figure','Table') else '')+r['num']):r for r in details}
     groups={}
@@ -89,11 +102,11 @@ def within_articles(root,groups,index):
             prose=re.sub(r'<(?:figure|nav|script|details)\b.*?</(?:figure|nav|script|details)>',' ',block,flags=re.S)
             prose=unescape(re.sub('<[^>]+>',' ',prose))
             examples=[]
-            for family in groups.values():
-                matches=[v for v in family if v[1].search(prose)]
-                heading=prose.split('\n',1)[0]
-                if len(matches)>1 or any(v[1].search(heading) for v in matches): examples.extend(matches)
             edition='Federal MUTCD' if section=='mutcd' else 'CA MUTCD 2026' if section=='ca-mutcd' else None
+            heading=prose.split('\n',1)[0]
+            if not edition:
+                for family in groups.values():
+                    examples.extend(v for v in family if v[1].search(heading) and applies_to_route(v[2]['src'],section))
             for kind,num in FIGREF.findall(prose):
                 number=re.sub(r'\s+','',num.upper())
                 key=kind.title()+' '+number

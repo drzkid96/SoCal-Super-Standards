@@ -91,6 +91,18 @@ with TemporaryDirectory() as temp:
         browser.get(base+'details/ladot/mpp-531-s-481-0/')
         assert not browser.find_elements(By.CSS_SELECTOR,'a[href*="/redraw/"]')
         assert browser.find_element(By.CSS_SELECTOR,'.detail-description').is_displayed()
+        browser.execute_script("""
+            const click=HTMLAnchorElement.prototype.click;
+            HTMLAnchorElement.prototype.click=function(){
+                if(!this.download)return click.call(this);
+                HTMLAnchorElement.prototype.click=click;
+                window.sheetFilename=this.download;
+            };
+        """)
+        sheet_pdf=wait.until(lambda d:d.find_element(By.XPATH,'//figure[@id="sheet-1"]//button[text()="Sheet PDF"]'))
+        sheet_pdf.click()
+        filename=wait.until(lambda d:d.execute_script('return window.sheetFilename'))
+        assert filename.endswith('_MPP_531_S_481_0_SHEET_1.pdf'),filename
         browser.get(base+'santa-monica/standard-plans/#sheet-ttcp-requirements-6')
         uploads=browser.find_element(By.ID,'sheet-ttcp-requirements-6').find_element(By.XPATH,'ancestor::figure')
         assert uploads.is_displayed()

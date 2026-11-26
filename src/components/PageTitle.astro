@@ -51,7 +51,7 @@ if (id && id !== '404') {
     }
   }
   if (top === 'regions' && segs.length>1) {
-    crumbs.push({label:'Geographic browser',href:BASE+'/regions/'});
+    crumbs.push({label:'Agency directory by county',href:BASE+'/regions/'});
     if(segs.length>2){const issuers=JSON.parse(fs.readFileSync('public/data/agency-modes.json','utf8'));const issuer=issuers[segs[1]];if(issuer)crumbs.push({label:issuer.name,href:issuer.home});}
   } else if (top === 'topics') {
     if (segs.length > 1) {
@@ -150,7 +150,7 @@ const nav = id && id !== '404' ? getPageNav(id) : undefined;
     {(!id.includes('/') || id==='map/data') && <p>{identity.description}</p>}
     <div class="section-links">
       {identity.parent && <a href={identity.parent.href}>{identity.parent.label}</a>}
-      {identity.showMap && <a href={identity.mapHref}>Project map</a>}
+      {identity.showMap && <a href={identity.mapHref}>Standards map</a>}
       {activeHub && <a href={activeHub.official}>Official agency website</a>}
       <label class="section-jump" hidden><span>On this page</span><select aria-label="Jump to a section"><option value="">Jump to section…</option></select></label>
     </div>

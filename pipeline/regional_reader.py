@@ -89,7 +89,7 @@ def build(root,lookup):
         for name in choices:
             mode=agencies[slug(name)];body+=['<a href="'+mode['home']+'">'+escape(name)+' <span aria-hidden="true">→</span></a>']
         body+=['</div></section>']
-    write(root,'regions','Browse by geography','\n'.join(body))
+    write(root,'regions','Agency directory by county','\n'.join(body))
     # Pagefind and the direct search catalog share the same ownership definitions.
     for p in root.rglob('*'):
         if p.suffix not in ('.md','.mdx'):continue

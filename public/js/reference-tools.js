@@ -32,6 +32,18 @@
   async function single(src,name){const pdf=await (await library()).PDFDocument.create();await imagePage(pdf,src);save(await pdf.save(),name,'application/pdf');}
   const publisher=article.querySelector('.reg-credit a')?.href || (operator?article.querySelector('a[href^="https://"]')?.href:null);
   const citation=(label,url)=>[label,...(publisher?['Publisher '+publisher]:[]),'SoCal Super Standards','Accessed '+new Date().toISOString().slice(0,10),url].join('. ');
+  function figureLabel(fig,im,index){
+    const caption=fig.querySelector('figcaption')?.cloneNode(true);
+    if(caption){
+      caption.querySelectorAll('button,.sheet-source-actions,.reference-actions,.detail-description').forEach(el=>el.remove());
+      for(const a of caption.querySelectorAll('a')){
+        if(/^(Open in the document|Open source scan|Open city PDF|Publisher PDF|Official PDF page \d+)$/i.test(a.textContent.trim()))a.remove();
+      }
+      const label=caption.textContent.replace(/\s+/g,' ').replace(/[\s·|.]+$/u,'').trim();
+      if(label)return label;
+    }
+    return im.alt || 'Figure '+(index+1);
+  }
   function figureTools(fig,i){
     const im=fig.querySelector('img');if(!im||fig.querySelector('.reference-actions'))return;
     const orig=im.closest('a')?.href;const src=orig&&/\.(webp|avif|png|jpe?g|svg)(?:\?|$)/i.test(orig)?orig:im.src;
@@ -39,7 +51,7 @@
     const parent=fig.closest('[data-chapter-url]');
     fig.id ||= 'ref-figure-'+(i+1);
     const addr=new URL(parent?.dataset.chapterUrl||location.href,location.origin);addr.hash=fig.closest('.publication-window')?(location.hash||'#p1'):fig.id;
-    const label=fig.querySelector('figcaption')?.textContent.trim()||im.alt||'Figure '+(i+1),bar=toolbar(fig);
+    const label=figureLabel(fig,im,i),bar=toolbar(fig);
     button(bar,'Copy image',()=>copyImage(src));button(bar,'Copy citation',()=>navigator.clipboard.writeText(citation(title+' · '+label,addr.href)));
     button(bar,'Sheet PDF',()=>single(src,title+' '+label));
   }

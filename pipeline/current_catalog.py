@@ -76,7 +76,7 @@ def prepare(root, lookup, deletions):
     preview_path = PUBLIC/'previews.json'
     previews = read(preview_path)
     for key,item in list(previews.items()):
-        images = [img for img in item.get('i',[]) if '/redraw/' not in img]
+        images = [img for img in item.get('i',[]) if '/redraw/' not in img and ('/vibes/' not in img or img.endswith('/vibes/la-county-map.webp'))]
         if key.startswith('/caltrans/la28-supplement/'):
             images = [img for img in images if not img.endswith('/vibes/la-county-map.webp')]
         item['i'] = [img.replace('/thumbs/figs/vibes/la-county-map.webp','/figs/county/la-county-planning-small.webp') for img in images]

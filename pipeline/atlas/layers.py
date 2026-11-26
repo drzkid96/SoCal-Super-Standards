@@ -58,6 +58,11 @@ class Areas:
         return owners
     def publish(self):
         save(OUTPUT/'places.json',self.items)
+        overview = [
+            {'type': 'Feature', 'properties': {'id': r['id']}, 'geometry': thin_polygon(g, .0012)}
+            for r, g in zip(self.items, self.polygons) if r['kind'] == 'city'
+        ]
+        save(OUTPUT/'municipalities.geojson', {'type': 'FeatureCollection', 'features': overview})
         for code in COUNTIES:
             def features(tolerance):
                 return [{'type':'Feature','properties':{'id':r['id'],'name':r['name'],'kind':r['kind'],'county':code},

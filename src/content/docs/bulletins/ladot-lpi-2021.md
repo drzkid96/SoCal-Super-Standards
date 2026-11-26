@@ -3,8 +3,6 @@ title: "CSC Leading Pedestrian Interval: Leading Pedestrian Interval"
 description: "LADOT CSC Leading Pedestrian Interval (Revised June 2021). Signal timing that affects crosswalks and turn restrictions"
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/signals.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/signals.webp" alt="Leading Pedestrian Interval (LPI)" /></a><figcaption><strong>Leading Pedestrian Interval (LPI)</strong> <em>Signalized intersection giving pedestrians a 3–7 second head start before turning traffic</em></figcaption></figure>
-
 <div class="bul-meta">
 <div><b>Issued</b> Revised June 2021</div>
 <div><b>Status</b> In effect. Listed in the LADOT Technical Reference Library.</div>

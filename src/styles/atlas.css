@@ -72,3 +72,60 @@ body:has(.atlas) .section-heading p{font-size:.96rem}
 .section-heading.agency-heading .section-context,.section-heading.agency-heading p,.section-heading.agency-heading .section-jump span{color:#e6f1ed}
 .section-heading.agency-heading .section-context span+span::before{color:var(--agency-trim)}
 .section-heading.agency-heading .section-links a{margin:0}
+
+.atlas-picker{display:grid;grid-template-columns:minmax(8rem,1fr) minmax(10rem,1.35fr) minmax(9rem,1fr);gap:.65rem 1rem;padding:.55rem 0 1rem}
+.atlas-picker label{display:grid;gap:.26rem;font-size:.86rem;font-weight:650}
+.atlas-picker select{width:100%;min-width:0;font-weight:500}
+#atlas-map{background:#dce9ed;isolation:isolate}
+.atlas .leaflet-container{font-family:var(--sl-font)}
+.atlas .leaflet-interactive:focus-visible{outline:2px solid #bb642b}
+.atlas-map-key{display:flex;flex-wrap:wrap;gap:.35rem 1rem;align-items:center;padding:.5rem 0;font-size:.78rem;color:var(--muted)}
+.atlas-map-key span{display:inline-flex;align-items:center;gap:.33rem}
+.atlas-map-key span::before{content:'';width:.86rem;height:.62rem;display:inline-block}
+.atlas-legend-city::before{background:#d5e4da;border:1px solid #719485}
+.atlas-legend-active::before{background:#75b89e;border:2px solid #075c4e}
+.atlas-legend-county::before{border-top:2px dashed #61726b;transform:translateY(.22rem)}
+.atlas .atlas-settings,.atlas .atlas-inspector{border:0;border-top:1px solid var(--atlas-line);border-radius:0;background:transparent;padding:.5rem 0}
+.atlas .atlas-settings summary,.atlas .atlas-inspector summary{font-size:.88rem;font-weight:650;cursor:pointer;color:var(--sl-color-text)}
+.atlas .atlas-inspector{margin:.65rem 0}
+.atlas-inspector .atlas-search{border:0}
+.atlas .atlas-inspect-toggle{display:flex;align-items:center;gap:.4rem;margin-top:.35rem;font-size:.87rem}
+.atlas-inspect-toggle input{min-height:auto;accent-color:#236451}
+.atlas-city-label,.atlas-water-label{color:#28483e;font:600 11px/1.15 var(--sl-font);text-shadow:-1px -1px 1px #fff,1px 1px 1px #fff,0 0 4px #fff;text-align:center;pointer-events:none;white-space:nowrap}
+.atlas-water-label{color:#597982;font-family:Georgia,serif;letter-spacing:.08em;font-style:italic;font-size:13px}
+.atlas-county-label{color:#5d665f;letter-spacing:.09em;text-transform:uppercase;font-size:10px}
+.atlas .atlas-actions{display:flex;flex-wrap:wrap;gap:.4rem}
+.atlas-section .atlas-source a:only-child{padding:.22rem 0}
+.atlas .atlas-empty{padding:.6rem 1rem}
+.atlas .atlas-selection-type{font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+.atlas-report{max-height:clamp(25rem,63vh,46rem)}
+@media(max-width:48rem){.atlas-picker{grid-template-columns:1fr 1.25fr;gap:.4rem .55rem}.atlas-picker label:last-child{grid-column:1/-1;display:flex;align-items:center;gap:.55rem}.atlas-picker label:last-child select{flex:1}.atlas-report{max-height:none}.atlas-map-key{font-size:.72rem}.atlas-options{gap:.5rem}}
+@media print{.atlas-picker,.atlas-settings,.atlas-inspector{display:none}}
+/* Starlight caps article illustrations at their parent's width. Leaflet positions
+   each SVG inside an absolutely positioned, zero-width geographic pane. */
+#atlas-map .leaflet-pane>svg,#atlas-map .leaflet-pane>canvas{max-width:none;max-height:none;margin:0}
+.atlas .atlas-more{border:0;border-top:1px solid var(--atlas-line);border-radius:0;margin:0;padding:0}
+.atlas .atlas-more>summary{padding:.65rem 1rem;font-size:.85rem;font-weight:650;cursor:pointer}
+.atlas .atlas-featured-city{display:inline-flex;margin:.35rem .8rem .15rem 0;font-weight:600}
+@media(max-width:48rem){
+ .atlas[data-selection="city"] .atlas-report{grid-row:1}
+ body:has(.atlas) .sss-topbar{display:none}
+ body:has(.atlas) .section-heading h1{font-size:1.75rem}
+ body:has(.atlas) .section-heading{padding-block:.1rem}
+ body:has(.atlas) .content-panel{padding-block:.65rem}
+ .atlas .atlas-source{padding:.35rem 0}
+ .atlas .atlas-settings summary,.atlas .atlas-inspector summary{min-height:2.2rem;align-content:center}
+}
+@media(max-width:35rem){
+ :root{--sl-nav-height:4.6rem}
+ .sss-header.header{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"brand search" "prefs agency";grid-template-rows:1fr 1fr;gap:.1rem .5rem}
+ .sss-header .title-wrapper{grid-area:brand;overflow:visible;margin:0;padding:0}
+ .sss-header .site-title{font-size:clamp(.93rem,4.3vw,1.16rem);white-space:nowrap;line-height:1.12}
+ .sss-header .sss-search-slot{grid-area:search;justify-self:end}
+ .sss-header .sss-search-link{padding:.12rem .45rem;min-height:1.6rem;font-size:.8rem}
+ .sss-header .agency-picker{grid-area:agency;justify-self:end}
+ .sss-header .agency-picker select{width:auto;max-width:9.25rem;padding:.14rem .35rem;min-height:1.55rem;font-size:.8rem}
+ .sss-header .display-menu{grid-area:prefs;justify-self:start}
+ .sss-header .display-menu summary{font-size:.78rem}
+ .sss-header .display-menu>div{left:0}
+}

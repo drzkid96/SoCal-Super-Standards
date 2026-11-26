@@ -7,8 +7,6 @@ sidebar:
 tableOfContents: false
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/accessibility.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/accessibility.webp" alt="ADA Chapter 4 Ramps &amp; Curb Ramps — Real-World Context" /></a><figcaption><strong>ADA Chapter 4 Ramps &amp; Curb Ramps — Real-World Context</strong> <em>Running slope, 2% cross-slope, level landings &amp; detectable warning surfaces · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
-
 <div class="srcbar">U.S. Access Board &middot; current online edition &middot; 19 pages</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/ada/curb-ramps/01-pages-1-19/">Pages 1-19</a> <span class="src-page">pp 1-19</span></li></ul>

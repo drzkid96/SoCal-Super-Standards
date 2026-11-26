@@ -113,6 +113,8 @@ def road_tiles(folder):
 def main():
     OUTPUT.mkdir(parents=True,exist_ok=True)
     areas=Areas();areas.publish()
+    from home_map import compile_home_map
+    compile_home_map()
     stops=stop_rows(areas); highways=source_roads(); layers={}
     for code in COUNTIES:
         network=local_network(code,stops[code],highways[code])
@@ -135,6 +137,8 @@ def main():
               'highways':{'title':'Caltrans State Highway Network postmiles','url':SHN}}}
     from operator_feeds import main as identify_operators
     identify_operators()
+    from supplement import publish as local_road_context
+    manifest['roadContext'] = local_road_context()
     save(OUTPUT/'layers.json',manifest)
     print('Ownership paths:',sum(counts.values()),'in',len(tiles),'partitions',flush=True)
 if __name__=='__main__':main()

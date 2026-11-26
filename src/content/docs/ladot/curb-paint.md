@@ -15,8 +15,6 @@ tableOfContents:
 </div>
 
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/curb-parking-loading.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/curb-parking-loading.webp" alt="LADOT Curb Paint &amp; Red Curb Daylighting — Context" /></a><figcaption><strong>LADOT Curb Paint &amp; Red Curb Daylighting — Context</strong> <em>Red no-parking daylighting, yellow/white/green/blue curb zones · Illustrative street-level context (not a construction detail)</em></figcaption></figure>
-
 <div class="srcbar">City of Los Angeles &middot; CVC 21458 sets the colors statewide; LAMC 80.55 to 80.57 sets how Los Angeles uses them; LADOT MPP 342, MPP 531 and S-481.0 set design practice &middot; researched November 2026</div>
 
 ## At a glance

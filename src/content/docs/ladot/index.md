@@ -4,8 +4,6 @@ description: Every LADOT manual, policy and standard drawing on this site, with 
 tableOfContents: false
 ---
 
-<figure class="vibe-hero"><a href="/SoCal-Super-Standards/figs/vibes/transit.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/vibes/transit.webp" alt="City of Los Angeles (LADOT) Standards" /></a><figcaption><strong>City of Los Angeles (LADOT) Standards</strong> <em>MPP 531, MPP 521, Red Book, Complete Streets, Mobility Plan 2035 &amp; 2028 Games</em></figcaption></figure>
-
 <div class="vis-strip">
   <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-481-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0108.webp" alt="MPP 531 · S-481.0" /><span><b>MPP 531 · S-481.0</b>Uncontrolled crosswalks &amp; red curb</span></a>
   <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-483-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0113.webp" alt="MPP 531 · S-483.0" /><span><b>MPP 531 · S-483.0</b>Speed hump &amp; calming</span></a>
