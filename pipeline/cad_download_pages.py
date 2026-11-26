@@ -123,7 +123,7 @@ def data_row(rec, units, standalone=False):
         labels=[('Legend drawing' if normalized else dims_label)]
         if not normalized and rec.get('sizeStatus')!='published reference size':
             labels.append(size_status)
-        if rec.get('historicalLegend'):
+        if rec.get('historicalLegend') and rec.get('geometryStatus')!='Standardized posted speed':
             labels.append('Historical legend')
         if block:
             labels.append('CAD block <code>'+form+'</code>')
@@ -195,7 +195,7 @@ def write_pages(root, lookup, release):
         if plan and plan.get('withdrawal'):kind='Withdrawn in California'
         elif rec.get('sourceKind')=='current issued sign artwork':kind='From issued artwork'
         elif rec.get('geometryStatus')=='historical issued artwork':kind='From historical issued artwork'
-        elif rec.get('historicalLegend'):kind='Documented source variant'
+        elif rec.get('historicalLegend') and rec.get('geometryStatus')!='Standardized posted speed':kind='Documented source variant'
         elif std:kind='Source CAD · cataloged designation'
         elif plan and plan.get('modified'):kind='Modified designation'
         elif plan and plan.get('baseOfficial'):kind='Plan variant'

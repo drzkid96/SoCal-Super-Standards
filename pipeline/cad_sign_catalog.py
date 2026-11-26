@@ -204,7 +204,11 @@ def drawing_evidence(drawing):
 
 
 def figures(row):
-    """Show each distinct sign face once, with the printed designation."""
+    from speed_faces import posted, preview
+    speed=posted(row['code'])
+    if speed:
+        url=BASE+preview(speed)
+        return f'<div class="mfig-grid"><figure class="mfig"><a href="{url}"><img src="{url}" alt="Speed limit {speed} mph"></a></figure></div>' 
     images = {}
     for asset in [*row['art'], *row['faces']]:
         images.setdefault(asset['image'], asset)

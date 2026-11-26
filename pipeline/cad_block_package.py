@@ -7,6 +7,8 @@ from pathlib import Path, PurePosixPath
 import re
 from collections import defaultdict
 import zipfile
+import subprocess
+import speed_faces
 
 SOURCE = Path('data/reference/cad-block-downloads')
 PUBLIC = Path('public/downloads/sign-blocks')
@@ -165,6 +167,11 @@ def hydrate(source=SOURCE, public=PUBLIC):
     bundle=filename(manifest['bundle'],'.zip')
     if release['version']!=2 or '/' in master or '/' in bundle:
         raise ValueError('Unsupported CAD release')
+    speed_faces.write_faces()
+    with zipfile.ZipFile(speed_faces.PACK) as speeds:
+        speed_meta=json.loads(speeds.read('metadata.json'))
+        faces={n:(speeds.read(f'{n}.dwg'),speeds.read(f'{n}.webp')) for n in range(15,60,5)}
+    for rec in manifest['records']:speed_faces.standardize(rec,speed_meta)
     groups=defaultdict(list)
     for rec in manifest['records']:
         groups[family_of(rec)].append(rec)
@@ -183,6 +190,13 @@ def hydrate(source=SOURCE, public=PUBLIC):
         else:raise ValueError('Unsupported master storage format')
         checked(data,{'bytes':manifest['masterBytes'],'sha256':manifest['masterSha256']},master)
         if not re.match(rb'AC10[0-9]{2}',data[:6]):raise ValueError('Invalid native master drawing')
+        base_master=public/(master+'.base')
+        base_master.write_bytes(data)
+        try:
+            data=subprocess.run(['zstd','-dc','--patch-from='+str(base_master),str(source/'speed-master.patch.zst')],capture_output=True,check=True).stdout
+        finally:
+            base_master.unlink(missing_ok=True)
+        manifest.update(masterBytes=len(data),masterSha256=sha(data))
         (public/master).write_bytes(data)
         member(out,master,data)
         for part in sorted(release['families'],key=lambda r:r['family']):
@@ -197,7 +211,8 @@ def hydrate(source=SOURCE, public=PUBLIC):
                     raise ValueError('Unexpected contents in '+name)
                 for rec in sorted(records,key=lambda r:r['file']):
                     file=filename(rec['file'],'.dwg')
-                    data=checked(packed.read(file),rec,file)
+                    speed=speed_faces.value(rec)
+                    data=checked(faces[speed][0] if speed else packed.read(file),rec,file)
                     if not re.match(rb'AC10[0-9]{2}',data[:6]):raise ValueError('Invalid native DWG '+file)
                     dest=public/file
                     dest.parent.mkdir(parents=True,exist_ok=True)
@@ -205,7 +220,7 @@ def hydrate(source=SOURCE, public=PUBLIC):
                     member(out,file,data)
                     if rec.get('preview'):
                         webpath,file=preview_path(rec)
-                        data=checked(packed.read(file),{'bytes':rec['previewBytes'],'sha256':rec['previewSha256']},file)
+                        data=checked(faces[speed][1] if speed else packed.read(file),{'bytes':rec['previewBytes'],'sha256':rec['previewSha256']},file)
                         if data[:4]!=b'RIFF' or data[8:12]!=b'WEBP':raise ValueError('Invalid geometry preview '+file)
                         dest=public.parent.parent/webpath
                         dest.parent.mkdir(parents=True,exist_ok=True)
