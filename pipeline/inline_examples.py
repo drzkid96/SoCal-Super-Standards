@@ -107,7 +107,7 @@ class Artwork:
             out = self.dist/target
             out.parent.mkdir(parents=True, exist_ok=True)
             with Image.open(original) as img:
-                img.thumbnail((420,360), Image.Resampling.LANCZOS)
+                img.thumbnail((224,176), Image.Resampling.LANCZOS)
                 img.save(out, 'WEBP', quality=83)
             url = BASE+'/'+target.as_posix()
         self.thumbs[src] = url

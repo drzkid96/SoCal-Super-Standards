@@ -87,7 +87,7 @@ function run(){const V=+v.value+5, B=1.47*V*1.5+1.075*V*V/11.2, d=(+w.value)-(+s
  if(!w.value || !w.validity.valid || d<=0){o.innerHTML='<b>Enter a curb lane width from 12 to 30 feet in half-foot increments.</b>';return;}
  const A=4*B/d, R=Math.max(50,A);
  o.innerHTML=`<div><span>Stopping distance B</span><b>${B.toFixed(0)} ft</b></div><div><span>Calculated A</span><b>${A.toFixed(0)} ft</b></div><div class="hl"><span>Sheet 2 design length</span><b>${Math.ceil(R)} ft</b></div><div class="muted">${A<50?'Calculated A is under 50 ft, so the LADOT 50 ft minimum governs.':'Calculated A exceeds the 50 ft minimum.'}</div>`;}
-[v,w,s].forEach(e=>e.addEventListener('input',run));run();})();
+v.addEventListener('change',run);s.addEventListener('change',run);w.addEventListener('input',run);w.addEventListener('change',run);run();})();
 </script>
 
 ## Requesting or changing a zone

@@ -34,14 +34,15 @@ dib = article(dist/'bulletins/caltrans-dib-82-06/index.html')
 assert dib.xpath('.//*[@class="article-source-line"]/a[contains(@href,"dib82-06-a11y.pdf")]')
 assert guide('cpbs-plts').xpath('.//a[@href="https://rosap.ntl.bts.gov/view/dot/93236"]')
 
-checked = source_refs = editions = 0
+checked = source_refs = editions = publisher_figures = 0
 for family in ('guides','bulletins'):
     for file in sorted((dist/family).glob('*/index.html')):
         doc = article(file);checked += 1
         for panel in doc.xpath('.//*[@class="bul-meta"]'):
             assert panel.xpath('ancestor::details'),file
             editions += 1
-        for href in doc.xpath('.//figure[@class="mfig"]/a/@href'):
+        for link in doc.xpath('.//figure[@class="mfig"]/a'):
+            href = link.get('href','')
             url = urlsplit(href)
             if not url.path.startswith(BASE+'/') or url.path.endswith(('.svg','.webp','.png','.jpg')):
                 continue
@@ -52,6 +53,10 @@ for family in ('guides','bulletins'):
                 if destination not in target_ids:
                     target_ids[destination] = set(html.parse(str(destination)).xpath('//*[@id]/@id'))
                 assert unquote(url.fragment) in target_ids[destination],(file, href)
+                if url.fragment.startswith('figure-'):
+                    figure = html.parse(str(destination)).xpath('//figure[@id=$id]',id=unquote(url.fragment))
+                    assert len(figure)==1 and figure[0].find('.//img').get('src').replace('/thumbs/','/') == link.find('img').get('src').replace('/thumbs/','/'),(file, href)
+                    publisher_figures += 1
             source_refs += 1
-assert checked >=24 and editions >=17 and source_refs >=100,(checked,editions,source_refs)
-print(f'{checked} editorial routes, {editions} edition disclosures, {source_refs} verified source-reader links; guidance precedes illustrations.')
+assert checked >=24 and editions >=17 and source_refs >=100 and publisher_figures >=50,(checked,editions,source_refs,publisher_figures)
+print(f'{checked} editorial routes, {editions} edition disclosures, {source_refs} verified reader links, including {publisher_figures} exact Caltrans figure citations.')
