@@ -11,7 +11,7 @@ SCRIPTS=''.join(f'<script defer src="{BASE}/js/{name}.js"></script>' for name in
 ESC=lambda value:escape(str(value),quote=True)
 
 def format_size(rec):
-    if rec['sizeStatus']=='Reference size unknown':return 'Size unknown'
+    if rec['sizeStatus']=='Reference size unknown':return ''
     sides=rec.get('publishedSides')
     if sides and len(set(sides))==1:return f'{sides[0]:g} in sides'
     return f'{rec["width"]:g} × {rec["height"]:g} in'
@@ -25,9 +25,9 @@ def variant(rec):
 
 def checkbox(rec,descriptive=False):
     dims=format_size(rec)
-    label=dims+' · '+variant(rec) if descriptive else dims
+    label=' · '.join(filter(None,(dims,variant(rec)))) if descriptive else (dims or 'Select DWG')
     return (f'<label class="sign-check"><input type="checkbox" data-cart-select="{ESC(rec["id"])}" '
-            f'aria-label="Select {ESC(rec["code"])} · {ESC(dims)} · {ESC(variant(rec))}">'
+            f'aria-label="Select {ESC(rec["code"])} · {ESC(label)}">'
             f'<span>{ESC(label)}</span></label>')
 
 def shell():
@@ -71,7 +71,7 @@ def chart_tiles(content,by_url):
     def speed_tiles():
         result=[]
         for speed,records in sorted(speed_records.items()):
-            main=min(records.values(),key=lambda r:(r['sourceDrawing']!='official-standard',format_size(r)=='Size unknown',r['id']))
+            main=min(records.values(),key=lambda r:(r['sourceDrawing']!='official-standard',not format_size(r),r['id']))
             code=f'R2-1({speed})'
             aliases='|'.join(sorted({code,'R2-1',f'R2-1-{speed}',*(a for r in records.values() for a in r['aliases'])}))
             name=f'Speed limit {speed} mph'
@@ -81,9 +81,37 @@ def chart_tiles(content,by_url):
                           f'<span class="scode">R2-1 ({speed})</span><span class="sname">{name}</span></a>'
                           f'<div class="sign-tile-pick">{checkbox(main)}</div></div>')
         return ''.join(result)
+    # Group directional spellings only when base, direction and modifiers agree.
+    spelling=re.compile(r'([A-Z]+\d+(?:-\d+)+)(?:-(LEFT|RIGHT)|\((LEFT|RIGHT|LT|RT|L|R)\)|([LR]))((?:\([^()]+\))*)$',re.I)
+    groups={}
+    for url,records in by_url.items():
+        for rec in records:
+            m=spelling.fullmatch(rec['code'].replace(' ',''))
+            if m:
+                base,dash,paren,suffix,rest=m.groups()
+                key=(base.upper(),(dash or paren or suffix)[0].upper(),rest.upper())
+                groups.setdefault(key,{}).setdefault(url,[]).append(rec)
+    redirects={}
+    aliases={}
+    for (base,hand,rest),urls in groups.items():
+        if len(urls)<2:continue
+        canonical=base+'('+hand+')'+rest
+        primary=min(urls,key=lambda url:(not any(r['code'].upper()==canonical for r in urls[url]),url))
+        # An official record may carry other variants. Preserve mixed-use routes.
+        for url,records in urls.items():
+            if url==primary or len(records)!=len(by_url[url]):continue
+            redirects[url]=primary
+            by_url[primary]=list({r['id']:r for r in by_url[primary]+records}.values())
+            aliases.setdefault(primary,set()).update(a for r in records for a in [r['code'],*r['aliases']])
     def tile(match):
         card=match[0]
         url=unescape(re.search(r' href="([^"]+)"',card)[1])
+        if url in redirects:return ''
+        if url in aliases:
+            old=re.search(r' data-aliases="([^"]*)"',card)
+            names=aliases[url]|(set(unescape(old[1]).split('|')) if old else set())
+            attribute=' data-aliases="'+ESC('|'.join(sorted(names)))+'"'
+            card=card.replace(old[0],attribute,1) if old else card.replace(' href=',attribute+' href=',1)
         choices=by_url.get(url)
         if not choices:return card
         seen.update(r['id'] for r in choices)

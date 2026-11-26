@@ -124,7 +124,7 @@ function init(root) {
     if(record.choices.length>1){
       const more=make('details');more.append(make('summary','Change drawing'));
       const input=make('select');input.ariaLabel='Drawing for '+record.raw;
-      for(const c of record.choices)input.add(new Option(c.code+' · '+c.sizeLabel+' · '+c.variant,c.id));
+      for(const c of record.choices)input.add(new Option([c.code,c.sizeLabel,c.variant].filter(Boolean).join(' · '),c.id));
       input.value=active.id;
       input.onchange=()=>{active=record.choices.find(c=>c.id===input.value);check.value=active.id;record.selected=active.id;check.checked=true;updateTotals();};
       more.append(input);holder.append(more);

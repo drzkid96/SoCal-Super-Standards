@@ -62,6 +62,11 @@ function resolve(raw,catalog) {
     const candidates=catalog.loose.get(fold(key));
     if(candidates?.size===1)key=candidates.values().next().value;
   }
+  const directional=key.match(/^([A-Z]+\d+(?:-\d+)+)(?:-(LEFT|RIGHT)|\((LEFT|RIGHT|LT|RT)\)|([LR]))$/);
+  if(directional){
+    const canonical=directional[1]+'('+(directional[2]||directional[3]||directional[4])[0]+')';
+    if(catalog.exact.has(canonical))key=canonical;
+  }
   let choices=[...(catalog.exact.get(key)?.values()||[])];
   const numberedMod=key.match(/^(.*\(MOD\))\((\d+)\)$/);
   const proxy=!choices.length && numberedMod && catalog.exact.has(numberedMod[1]);
@@ -77,7 +82,7 @@ function resolve(raw,catalog) {
   // A worded legend can be printed on several sign designs even where the
   // library has one drawing bearing that exact name. Confirm those explicitly.
   const coded=Boolean(base)||/^41-\d{4}/.test(key);
-  const rank=r=> (designation(r.code)===key?8:0)+(r.variant==='Issued layout'?4:0)+(r.sizeLabel!=='Size unknown'?2:0);
+  const rank=r=> (designation(r.code)===key?8:0)+(r.variant==='Issued layout'?4:0)+(r.sizeLabel&&r.sizeLabel!=='Size unknown'?2:0);
   choices.sort((a,b)=>rank(b)-rank(a)||a.id.localeCompare(b.id));
   if(/^R2-1\(\d+\)$/.test(key)&&exact)choices=choices.slice(0,1);
   const status=choices.length===1&&exact&&coded?'matched':choices.length?'ambiguous':'unmatched';

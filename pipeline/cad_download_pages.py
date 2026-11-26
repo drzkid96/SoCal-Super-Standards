@@ -120,7 +120,7 @@ def data_row(rec, units, standalone=False):
         # Drawing provenance and conversion logs belong to the CAD catalog.
         # The working sign page only needs the variant, actual usable size and download.
         context=''
-        labels=[('Reference geometry · full-size dimensions unavailable' if normalized else dims_label)]
+        labels=[('Legend drawing' if normalized else dims_label)]
         if not normalized and rec.get('sizeStatus')!='published reference size':
             labels.append(size_status)
         if rec.get('historicalLegend'):
