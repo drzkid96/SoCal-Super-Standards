@@ -7,7 +7,7 @@ const sample=scan(['R1-1, W48 (2) (CA), R1-1','R2-1 (25 MPH); R2-1 35 MPH','R3-7
 assert.equal(sample.get('W48(2)(CA)').selected,'official-callout-w48-2ca');
 assert.equal(sample.get('R1-1').count,2);
 assert.equal(sample.get('R2-1(25)').selected,'3346-signs-1-13-10980d1');
-assert.equal(sample.get('R2-1(35)').status,'ambiguous');assert.equal(sample.get('R2-1').status,'ambiguous');
+assert.equal(sample.get('R2-1(35)').status,'matched');assert.equal(sample.get('R2-1').status,'ambiguous');
 for(const k of ['W16-7P(UNKNOWN)','W19-999A','W16-7P(L/R)'])assert.equal(sample.get(k).status,'unmatched');
 for(const k of ['W1-5R','W1-5L','R3-7(R)(MOD)','R3-7(LT)(MOD)','R3-7(RT)(MOD)'])assert(sample.has(k));
 for(const row of sample.values())if(row.status==='unmatched')assert.equal(row.selected,'');

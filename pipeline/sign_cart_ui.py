@@ -47,7 +47,12 @@ def shell():
 def write_options(records):
     options=[]
     for r in records:
-        options.append(dict(id=r['id'],code=r['code'],name=r.get('description') or r['code'],blockName=r['blockName'],file=r['file'],width=r['width'],
+        code=r['code']
+        speed=re.fullmatch(r'R2-1(?:[- (]| ?MPH )*(15|20|25|30|35|40|45|50|55|60|65|70|75|80|85)\)?',code,re.I)
+        printed=re.fullmatch(r'SPEED LIMIT (\d+)',str(r.get('historicalLegend','')),re.I)
+        if speed or (code=='R2-1' and printed):
+            code='R2-1('+str((speed or printed)[1])+')'
+        options.append(dict(id=r['id'],code=code,name=r.get('description') or r['code'],blockName=r['blockName'],file=r['file'],width=r['width'],
                             height=r['height'],sizeStatus=r['sizeStatus'],sizeLabel=format_size(r),variant=variant(r),
                             preview=r.get('preview',''),aliases=r['aliases'],signUrl=r['signUrl'],sha256=r['sha256'],bytes=r['bytes']))
     Path('public/data/sign-block-options.json').write_text(json.dumps(options,ensure_ascii=False,separators=(',',':'))+'\n')

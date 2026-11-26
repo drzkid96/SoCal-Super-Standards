@@ -115,7 +115,7 @@ function init(root) {
     const holder=make('div');
     if(!record.choices.length){holder.append(make('small','Drawing unavailable'));node.append(holder);return;}
     const choice=record.choices.find(c=>c.id===record.selected)||record.choices[0];
-    const check=make('input');check.type='checkbox';check.checked=!!record.selected;
+    const check=make('input');check.type='checkbox';check.value=choice.id;check.checked=!!record.selected;
     const label=make('label');label.append(check,document.createTextNode(' Include in legend'));
     holder.append(label);
     let active=choice;
@@ -126,7 +126,7 @@ function init(root) {
       const input=make('select');input.ariaLabel='Drawing for '+record.raw;
       for(const c of record.choices)input.add(new Option(c.code+' · '+c.sizeLabel+' · '+c.variant,c.id));
       input.value=active.id;
-      input.onchange=()=>{active=record.choices.find(c=>c.id===input.value);record.selected=active.id;check.checked=true;updateTotals();};
+      input.onchange=()=>{active=record.choices.find(c=>c.id===input.value);check.value=active.id;record.selected=active.id;check.checked=true;updateTotals();};
       more.append(input);holder.append(more);
     }
     node.append(holder);

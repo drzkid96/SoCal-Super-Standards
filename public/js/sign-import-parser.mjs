@@ -79,6 +79,7 @@ function resolve(raw,catalog) {
   const coded=Boolean(base)||/^41-\d{4}/.test(key);
   const rank=r=> (designation(r.code)===key?8:0)+(r.variant==='Issued layout'?4:0)+(r.sizeLabel!=='Size unknown'?2:0);
   choices.sort((a,b)=>rank(b)-rank(a)||a.id.localeCompare(b.id));
+  if(/^R2-1\(\d+\)$/.test(key)&&exact)choices=choices.slice(0,1);
   const status=choices.length===1&&exact&&coded?'matched':choices.length?'ambiguous':'unmatched';
   return {raw,key,status,count:1,choices,proxy:Boolean(proxy),selected:(exact||proxy)&&coded?choices[0].id:''};
 }

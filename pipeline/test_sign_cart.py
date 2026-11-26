@@ -227,11 +227,9 @@ def run(browser, base, downloads):
     assert '2 occurrence' in duplicate.text
     assert sheets[0].find_element(By.CSS_SELECTOR,'.si-row[data-key="W19-999A"]').get_attribute('data-match')=='unmatched'
     click(sheets[1].find_element(By.TAG_NAME,'summary'))
-    speed = sheets[1].find_element(By.CSS_SELECTOR,'.si-row[data-key="R2-1(35)"] select')
-    assert speed.get_property("value")
-    click(sheets[1].find_element(By.CSS_SELECTOR,'.si-row[data-key="R2-1(35)"] details summary'))
-    Select(speed).select_by_index(1)
+    speed = sheets[1].find_element(By.CSS_SELECTOR,'.si-row[data-key="R2-1(35)"] input:checked')
     chosen_speed = speed.get_property('value')
+    assert chosen_speed and not sheets[1].find_elements(By.CSS_SELECTOR,'.si-row[data-key="R2-1(35)"] select')
     click(browser.find_element(By.XPATH,'//button[.="Add selected DWGs"]'))
     wait.until(lambda _: 'cart=1' in browser.current_url and css('[data-cart-dialog]').is_displayed())
     imported = browser.execute_script('return window.SSSSignCart.getGroups()')
