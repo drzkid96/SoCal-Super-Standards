@@ -126,7 +126,11 @@ def chart_tiles(content,by_url):
             art=f'<span class="simg"><img loading="lazy" decoding="async" src="{BASE}{ESC(main["preview"])}" alt=""></span>'
             card=card.replace('><span','>'+art+'<span',1)
         if not main.get('description') and main.get('historicalLegend') and isinstance(main['historicalLegend'],str):
-            card=re.sub(r'<span class="sname">[^<]*</span>','<span class="sname">'+ESC(main['historicalLegend'])+'</span>',card)
+            legend='<span class="sname">'+ESC(main['historicalLegend'])+'</span>'
+            if 'class="sname"' in card:
+                card=re.sub(r'<span class="sname">[^<]*</span>',lambda _:legend,card)
+            else:
+                card=card.replace('</a>',legend+'</a>')
         alt=''
         if len(choices)>1:
             alt=(f'<details class="sign-variants"><summary>{len(choices)-1} more variant'+('s' if len(choices)>2 else '')+'</summary>'

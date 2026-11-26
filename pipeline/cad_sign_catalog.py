@@ -269,8 +269,11 @@ def update_chart(path,rows):
             label=escape(row['code'][11:].strip().capitalize())
         elif descriptor and label in ('Plan variant','Modified plan designation','Plan designation'):
             label=escape(descriptor)
+        elif label in ('Plan variant','Modified plan designation','Plan designation'):
+            label=''
+        label_markup=f'<span class="sname">{label}</span>' if label else ''
         searchable=escape((aliases+' '+row['status']+' '+descriptor).lower(),quote=True)
-        card=f'<a class="scard" href="{escape(row["url"])}" data-code="{code}" data-name="{searchable}" data-cat="{cat}" data-ca="plan"{attrs}>{thumb}<span class="scode">{display_code}</span><span class="sname">{label}</span></a>'
+        card=f'<a class="scard" href="{escape(row["url"])}" data-code="{code}" data-name="{searchable}" data-cat="{cat}" data-ca="plan"{attrs}>{thumb}<span class="scode">{display_code}</span>{label_markup}</a>'
         prefix=re.match(r'([a-z]+\d*)',row['key'].lower())
         family='om' if row['key'].startswith('OM') else prefix[1] if prefix else ''
         if row['baseOfficial']:

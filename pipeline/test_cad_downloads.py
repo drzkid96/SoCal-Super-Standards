@@ -110,3 +110,26 @@ for link in browser.xpath('//p[@class="cad-foot"]/a[contains(@href,"/sign-blocks
 site_bytes=sum(p.stat().st_size for p in dist.rglob('*') if p.is_file())
 assert site_bytes<=1_000_000_000,f'Published site exceeds the 1 GB GitHub Pages limit: {site_bytes:,} bytes'
 print(f'Verified {len(cards)} native DWG downloads, master, ZIP, SHA-256, sign routes and variant anchors; complete site {site_bytes:,} bytes.')
+
+# Check the image served by every sign card, including cards without a DWG.
+from PIL import Image
+from lxml import etree
+
+chart=html.parse(str(dist/'signs/index.html'))
+checked=set()
+for url in chart.xpath('//a[@data-code]//img/@src'):
+    if url in checked:
+        continue
+    checked.add(url)
+    assert url.startswith(BASE+'/'),url
+    path=dist/unquote(url[len(BASE)+1:])
+    if path.suffix=='.svg':
+        assert etree.QName(etree.parse(str(path)).getroot()).localname=='svg',url
+    else:
+        with Image.open(path) as picture:
+            picture.load()
+codes=chart.xpath('//h3[@id="series-r1"]/following-sibling::div[1]//a/@data-code')
+assert codes.index('R1-2')<codes.index('R1-3')<codes.index('R1-4')<codes.index('R1-10'),codes
+speeds=chart.xpath('//a[starts-with(@data-code,"R2-1(")]/@data-code')
+assert speeds==[f'R2-1({n})' for n in range(15,60,5)],speeds
+print(f'Decoded {len(checked)} sign-chart images and verified R1 and posted-speed ordering.')
