@@ -91,6 +91,25 @@ for url, manual_page in manual_pages.items():
 assert set(sidebar.xpath('.//a/@href')) >= set(manual_pages)
 print(f'{boe_heading_count} BOE headings and both navigation menus verified on {len(manual_pages)} pages.')
 
+# The left navigation is scoped to the current publication and works without JavaScript.
+for edition in ('ca-mutcd', 'mutcd'):
+    chapter = html.parse(str(dist / edition / '4i/index.html'))
+    side = chapter.xpath('//*[@id="starlight__sidebar"]')[0]
+    hrefs = side.xpath('.//a/@href')
+    index = BASE + '/' + edition + '/'
+    assert side.xpath('.//a[@aria-current="page"]/@href') == [index + '4i/']
+    assert {index + '4h/', index + '4j/', index + '#part-2'} <= set(hrefs)
+    contents = html.parse(str(dist / edition / 'index.html'))
+    for href in hrefs:
+        if href.startswith(index + '#'):
+            assert contents.xpath('//*[@id=$fragment]', fragment=href.split('#')[1]), href
+sign_page = html.parse(str(dist / 'signs/r1-1/index.html'))
+sign_sidebar = sign_page.xpath('//*[@id="starlight__sidebar"]')[0]
+sign_links = sign_sidebar.xpath('.//a/@href')
+assert {BASE + '/signs/', BASE + '/signs/cad/', BASE + '/signs/r1-1/'} <= set(sign_links)
+assert len(sign_links) <= 16, len(sign_links)
+print('Scoped sidebar links verified on the sign catalog and both MUTCD editions.')
+
 # A page can have zero broken URLs while showing unrendered math or unlinked citations.
 import re
 from boe_references import math_matches

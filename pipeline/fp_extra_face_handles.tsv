@@ -1,0 +1,109 @@
+treatment	identity	external_label	geometry	note
+face	UNNUMBERED END DETOUR		158CC,158CE-158CF,158DF	
+face	UNNUMBERED NEVADA 667		14E32-14E46	Nevada route-marker specimen in the FP source library.
+face	UNNUMBERED NO CRUISING ZONE		15D28-15D30	Local source legend includes MAX. FINE $500 and a posted definition.
+face	UNNUMBERED 12 MONTH SCHOOL		13506-13507,13509,1350B-1350C	
+duplicate	UNNUMBERED 12 MONTH SCHOOL		15C57-15C5B	Second coincident placement in modelspace.
+face	UNNUMBERED TRAFFIC CALMED AREA		1574B-1574F	
+face	Type R(CA)	14825	147DA-147E9,147FC-1480B,1481C-1481D	
+face	UNNUMBERED LEFT TURN ONLY		13682-13688	
+face	UNNUMBERED BUS LOADING ONLY		1611D-16123	
+face	UNNUMBERED LEFT TURN ON GREEN ARROW ONLY		14752-1475F	
+face	UNNUMBERED DO NOT CROSS DOUBLE WHITE LINE		147B6-147C3	
+face	UNNUMBERED SPEED LIMIT 25		13830-1383C	
+face	UNNUMBERED LEFT ON GREEN ARROW ONLY		1370F-13713	
+face	UNNUMBERED ON LEFT ARROW ONLY – NO U TURN		1517A-1518A,1518C-15190	Two left-turn arrows above a restrictive legend.
+face	UNNUMBERED RIGHT TURN LANE	14470	14465-1446F	External source caption is SPECIAL. The right arrow points right.
+face	UNNUMBERED NO PARKING AT RED CURB		137A6-137B4	
+face	UNNUMBERED NO PARKING LOADING ZONE		137CF-137DE	Right-pointing arrow below the legend.
+face	Bike-rr	BDAA	11D10-11D53	Full diamond sign with bicycle and skewed rails in the chart cell.
+face	Flagger	ACE2	10DE0-10F54	Full diamond sign containing a flagger silhouette.
+face	UNNUMBERED ADOPT A HIGHWAY PROGRAM	BD5D	11D08-11D0C	Upper board. The chart names this two-panel specimen Litter.
+face	UNNUMBERED GROUP SPONSOR'S NAME		11D06-11D07,11D0D-11D0F	Lower plaque in the Adopt A Highway chart assembly labelled Litter.
+face	UNNUMBERED SCHOOL CROSSING SYMBOL		166FB-16704	Scanned as an unnumbered pentagonal panel with two pedestrians.
+face	UNNUMBERED END SCHOOL ZONE		1607B-16088	
+face	UNNUMBERED CITY HALL AND CHAMBER OF COMMERCE – AHEAD		16407-16408,1640A,16437-1643B	A straight arrow accompanies each destination.
+face	UNNUMBERED MALIBU SENIOR CENTER – AHEAD		16413-1641E	
+face	UNNUMBERED MALIBU CITY HALL AND CHAMBER OF COMMERCE – LEFT		1649B-1649D,164A0,164AA-164AB,164B5,164C9	
+face	UNNUMBERED CIRCULAR ROUNDABOUT ARROWS		143C6-143D0,143D5-143EB,1443B	The source draws three directional arrows inside a circle.
+face	UNNUMBERED SCHOOL ZONE AHEAD		15ED0-15ED4	
+face	UNNUMBERED LEFT OR U-TURN AND LEFT TURN – NO U TURN		1AA0E-1AA27,1AA29-1AA3F	Two-lane drawing. Left lane arrow combines a left and U-turn. Right lane carries NO U TURN.
+face	UNNUMBERED NO U-TURN SYMBOL		1A9C7-1A9CD	
+face	UNNUMBERED NO PARKING HERE TO CORNER – HORIZONTAL LEGEND		1A848-1A84E,1A850,1A852-1A853,1A865-1A867	The final message is set on a single line.
+face	UNNUMBERED RIGHT LANE BUSES AND 2 PERSON CARPOOLS ONLY 6AM-9PM MON-FRI		15D00-15D18	
+face	UNNUMBERED BICYCLE AND RIGHT TURN COMBINED LANE		1A9DA-1AA0C,1AA54-1AA57,1AA5A-1AA61	Combined-lane sign shown above a separate EXCEPT BUSES plaque.
+face	UNNUMBERED EXCEPT BUSES		1AA65,1AA6B-1AA6D,1AA97	Lower plaque in the combined bicycle and right-turn lane assembly.
+face	UNNUMBERED NO PARKING HERE TO CORNER – STACKED LEGEND		1A708,1A70D-1A70F,1A71A-1A71B,1A731-1A732,1A756,1A7CB-1A7CF,1A7E4	
+face	UNNUMBERED TOW-AWAY SYMBOL PLAQUE		1A75C-1A763,1A766,1A769,1A78F,1A795,1A79B,1A79F-1A7A0,1A7CA	
+face	UNNUMBERED NO PARKING THIS SIDE OF SIGN ANY TIME		1A7E6-1A7F1,1A803-1A805	
+duplicate	UNNUMBERED TOW-AWAY SYMBOL PLAQUE		1A7F3-1A802	
+duplicate	UNNUMBERED NO PARKING THIS SIDE OF SIGN ANY TIME		1A828-1A833,1A845-1A847	
+duplicate	UNNUMBERED TOW-AWAY SYMBOL PLAQUE		1A835-1A844	
+face	UNNUMBERED NO BIKE OR SCOOTER RIDING ON SIDEWALKS		1A8AA-1A8DC,1A8F1-1A8F7,1A8F9-1A8FF,1A940-1A941,1A986,1A988,1A9C6,1A9CE-1A9D9	
+face	UNNUMBERED NO U TURN 4PM-6PM MON-FRI – LEFT TURN ONLY		15D1A-15D27	
+face	UNNUMBERED NO LEFT OR U-TURN SYMBOL		1AD24-1AD42	
+face	UNNUMBERED LEFT ONLY – THROUGH ONLY – THROUGH OR RIGHT ONLY		16603-16610,16629,16631	Three lane panels, from left to right.
+face	UNNUMBERED LEFT ONLY – THROUGH ONLY – RIGHT ONLY		162F3-16302	Three lane panels, from left to right.
+face	UNNUMBERED LEFT OR THROUGH – THROUGH ONLY – RIGHT ONLY		162E7-162F0,16303-16306	Three lane panels, from left to right.
+face	UNNUMBERED LEFT TURN ONLY WITH BLANK LANE		16273-16279	Incomplete layout. The second lane panel is blank.
+face	UNNUMBERED PUSH BUTTON FOR PEDESTRIAN SIGNAL – RIGHT ARROW		1A4E9,1A4EB,1A4ED,1A53D,1A544,1A547-1A548,1A54C-1A557	Unnumbered face includes a hand, push button and walking pedestrian.
+face	UNNUMBERED STEAD BLVD AND SILVER DOLLAR LANE		16290-16297,162BB-162BC,162C9-162CA,162CD-162D3,162DF,162E3	Left panel shows the through and turn movements at Stead Blvd. Right panel points to Silver Dollar Lane.
+repair	W4-2l	A638	133DC-133E6	
+repair	W4-2r	A637	13333-1333D	
+repair	R1-2	6C72	10A2B-10A44	
+repair	R61-7(CA) (MOD)	1506C	1506E-15085,1520C-1520D,1520F,15225,15227,153BD,15545	
+repair	R99(CA)	166ED	166D3-166EC	
+repair	SW24-3(CA)	1B890	1B702-1B704,1B706-1B707,1B70A,1B70C-1B70D,1B713,1B7B9-1B801,1B804-1B807,1B80A-1B810,1B814-1B81A,1B81E-1B822,1B824,1B826-1B827,1B82A,1B831,1B834-1B835,1B839-1B83B,1B88C-1B88D	
+reviewed	Directional arrow belonging to a printed R9-series location.		1426E,14283,15CF6-15CF7	
+reviewed	Directional arrow belonging to a printed R9-series location.		14279,15CEE	
+reviewed	INSERT placement in the separately inventoried named block definitions.		16818	
+reviewed	INSERT placement in the separately inventoried named block definitions.		15CF0	
+reviewed	INSERT placement in the separately inventoried named block definitions.		15CFC	
+reviewed	INSERT placement in the separately inventoried named block definitions.		15CFA	
+reviewed	INSERT placement in the separately inventoried named block definitions.		15CFD	
+reviewed	INSERT placement in the separately inventoried named block definitions.		15CF9	
+reviewed	INSERT placement in the separately inventoried named block definitions.		15CFF	
+reviewed	INSERT placement in the separately inventoried named block definitions.		15D19	
+reviewed	INSERT placement in the separately inventoried named block definitions.		1BB29	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		15E54-15E5F	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		10F5C,10F60-10F63	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11868-1186E	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11A9A-11AAD	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11897-118C9	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		118CA-118E0	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		118E1-11952	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		116F6	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		116D7-116F5	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		10F70-10F72,10F8A,11044,11146,112BD-112BE,11342,11405,11477,114D7,115A3-115A6,11672-116D6	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		10F55-10F5B,10F5D-10F5F,10F64-10F6F	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		116F7-1172B	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		1AAFD-1AAFE	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11953-11995	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11A53-11A61	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11778-1183E	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11730-11777	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		1172E-1172F	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		1186F-11874	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11997-11A2A	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		1172C-1172D	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11A63-11A99	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11A2B-11A32,11A34-11A52	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		11863-11866	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		1183F-11862	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		1B6C8-1B6FE	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		16627-16628	
+reviewed	Isolated graphic component or chart symbol, without a separately evidenced sign face.		1A58F-1A5C1	
+reviewed	R10-12 specification annotations and detail frame.		15E2C-15E41,15E43-15E52	
+reviewed	R10-12 specification annotations and detail frame.		15E1B-15E22	
+reviewed	R10-12 specification annotations and detail frame.		15E53	
+reviewed	Border or background belonging to an already labelled destination-sign specimen.		1B34F	
+reviewed	Border or background belonging to an already labelled destination-sign specimen.		1B30D-1B310,1B312,1B315,1B318-1B31A,1B31D-1B31F,1B321,1B32E-1B32F	
+reviewed	Border or background belonging to an already labelled destination-sign specimen.		1B365,1B368,1B36D,1B374	
+reviewed	Border or background belonging to an already labelled destination-sign specimen.		1B341,1B344,1B34B,1B351,1B357	
+reviewed	Border or background belonging to an already labelled destination-sign specimen.		1B33D	
+reviewed	Border or background belonging to an already labelled destination-sign specimen.		1C520,1C523,1C52A,1C530,1C536	
+reviewed	Border or background belonging to an already labelled destination-sign specimen.		1B3B5-1B3B6,1B3BA,1B3C2	
+reviewed	Border or background belonging to an already labelled destination-sign specimen.		1B3AE,1B3BB,1B3C3	
+reviewed	Border or background belonging to an already labelled destination-sign specimen.		1B3CC,1B3CF-1B3D4,1B3D6-1B3D7,1B3E3-1B3E8,1B3F3	
+reviewed	Border or background belonging to an already labelled destination-sign specimen.		1B3A3-1B3A5,1B3AF,1B3C4	
+reviewed	Blank two-lane sign template with a divider and no movement or legend.		162BD,162BF-162C0	

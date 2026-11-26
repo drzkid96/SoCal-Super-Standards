@@ -1,6 +1,6 @@
 ---
-title: "W73A(CA) Right Lane Ane Turns Right Ahead warning sign"
-description: "W73A(CA) Right Lane Ane Turns Right Ahead: Warning Signs and Object Markers, series W73. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "W73A(CA) Right lane turns right ahead warning sign"
+description: "W73A(CA) Right lane turns right ahead. Caltrans sign artwork, dimensions and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,12 +10,12 @@ tableOfContents: false
 <p class="scode-big">W73A(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Right Lane Ane Turns Right Ahead warning sign</dd>
-<dt>Legend</dt><dd>RIGHT LANE ANE TURNS RIGHT AHEAD</dd>
+<dt>Descriptor</dt><dd>Right lane turns right ahead warning sign</dd>
+<dt>Legend</dt><dd>RIGHT LANE TURNS RIGHT AHEAD</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w73">W73 &middot; Other</a></dd>
-<dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 2C-11(CA)</dd>
+<dt>Colors</dt><dd>Black legend and border on yellow</dd>
+<dt>Source</dt><dd><a href="https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/w/f0019501-w73a-a11y.pdf">Caltrans sign specification W73A(CA) (PDF)</a></dd>
 </dl>
 </div>
 </div>

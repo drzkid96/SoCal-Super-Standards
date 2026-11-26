@@ -1,0 +1,907 @@
+{
+  "method": "libdxfrw opened each native AutoCAD 2000 DWG independently. Each standalone drawing has a zero insertion base and centered modelspace sign geometry. Importing that geometry into a test host containing an existing red sign definition under its filename simulates external INSERT. An ezdxf color render checks its native appearance on white. Bounding boxes are measured from reopened geometric entities in inches. The visual observations compare the decoded drawing to the indicated source publication or plan crop.",
+  "samples": [
+    {
+      "id": "official-r1-1",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R1-1",
+      "sha256": "d14c2f936e1a56d0fdec13b25f03c63cf647dbed587948b996228780353ddecc",
+      "width": 30.0,
+      "height": 30.0,
+      "actualBounds": [
+        -14.98084,
+        -14.98085,
+        14.98084,
+        14.9808
+      ],
+      "units": "inches",
+      "hatches": 4,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R1-1",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=22",
+      "publisherPage": 22,
+      "sourceFile": "individual/Regulatory/R1-1.dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "FHWA dimensioned specification sheet, cropped from original PDF",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=22",
+      "sizeNote": "30 × 30 in blank",
+      "visualObservation": "White STOP legend on dark octagon.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-r1-1",
+      "drawnWidth": 29.96168,
+      "drawnHeight": 29.96165,
+      "sizeSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=288"
+    },
+    {
+      "id": "official-r1-2",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R1-2",
+      "sha256": "8d7350b361a1f734b281958ea32ffbc53f1815cb3da4a974612381311ed5cc83",
+      "width": 36.0,
+      "height": 31.1769,
+      "actualBounds": [
+        -16.59014,
+        -14.62902,
+        16.58751,
+        14.65937
+      ],
+      "units": "inches",
+      "hatches": 7,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R1-2",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=23",
+      "publisherPage": 23,
+      "sourceFile": "individual/Regulatory/R1-2.dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "FHWA dimensioned specification sheet, cropped from original PDF",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=23",
+      "sizeNote": "36 in sides  •  36 × 31.177 in upright",
+      "visualObservation": "Virtual corners establish the 36 in side. Rounded physical corners sit inside that frame.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-r1-2",
+      "drawnWidth": 33.17765,
+      "drawnHeight": 29.28839,
+      "sizeSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=288"
+    },
+    {
+      "id": "official-w11-1",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "W11-1",
+      "sha256": "d8b2144a8af8468a3b1d5846b0a8e084dcdef58b8b3eb9e487d20b9961bc5716",
+      "width": 42.4264,
+      "height": 42.4264,
+      "actualBounds": [
+        -21.20821,
+        -21.20819,
+        21.20821,
+        21.20718
+      ],
+      "units": "inches",
+      "hatches": 3,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "W11-1",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=591",
+      "publisherPage": 591,
+      "sourceFile": "individual/Warning/W11-1.dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "FHWA dimensioned specification sheet, cropped from original PDF",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=591",
+      "sizeNote": "30 in sides  •  42.426 × 42.426 in upright",
+      "visualObservation": "Bicycle faces left; both wheel openings are visible.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-w11-1",
+      "drawnWidth": 42.41642,
+      "drawnHeight": 42.41537,
+      "sizeSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=379"
+    },
+    {
+      "id": "official-r3-2",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R3-2",
+      "sha256": "034c3a40f5c3dd8337d06d5364d2c953aece7a667036210bbe84807dfd2b10c7",
+      "width": 24.0,
+      "height": 24.0,
+      "actualBounds": [
+        -12.0,
+        -11.99776,
+        12.00371,
+        12.0
+      ],
+      "units": "inches",
+      "hatches": 5,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R3-2",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=70",
+      "publisherPage": 70,
+      "sourceFile": "individual/Regulatory/R3-2.dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "FHWA dimensioned specification sheet, cropped from original PDF",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=70",
+      "sizeNote": "24 × 24 in blank",
+      "visualObservation": "Left-turn arrow, ring and diagonal slash all present.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-r3-2",
+      "drawnWidth": 24.00371,
+      "drawnHeight": 23.99776,
+      "sizeSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=288"
+    },
+    {
+      "id": "official-r5-1",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R5-1",
+      "sha256": "86859e402bc722437cb8c7070ff5b6c93117d2bfb95787a4e9937231a7d92f43",
+      "width": 30.0,
+      "height": 30.0,
+      "actualBounds": [
+        -14.9799,
+        -14.9709,
+        14.9799,
+        14.9799
+      ],
+      "units": "inches",
+      "hatches": 6,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R5-1",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=222",
+      "publisherPage": 222,
+      "sourceFile": "individual/Regulatory/R5-1.dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "FHWA dimensioned specification sheet, cropped from original PDF",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=222",
+      "sizeNote": "30 × 30 in blank",
+      "visualObservation": "White horizontal bar and two rows of reversed text.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-r5-1",
+      "drawnWidth": 29.9598,
+      "drawnHeight": 29.9508,
+      "sizeSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=290"
+    },
+    {
+      "id": "official-r2-1",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R2-1",
+      "sha256": "d03bf17b8390e37f898b87323460ed00fd39d2bf14dd8c32a1abd38cfad70fc2",
+      "width": 24.0,
+      "height": 30.0,
+      "actualBounds": [
+        -11.91545,
+        -14.99732,
+        11.92048,
+        14.99462
+      ],
+      "units": "inches",
+      "hatches": 13,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R2-1",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=41",
+      "publisherPage": 41,
+      "sourceFile": "individual/Regulatory/R2-1.dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "FHWA dimensioned specification sheet, cropped from original PDF",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=41",
+      "sizeNote": "24 × 30 in blank",
+      "visualObservation": "The published example displays 50. Numerals vary with the posted speed.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-r2-1",
+      "drawnWidth": 23.83593,
+      "drawnHeight": 29.99194,
+      "sizeSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=288"
+    },
+    {
+      "id": "pico-r61-19-ca-mod-lt-142451a",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R61-19(CA)(Mod)(LT)",
+      "sha256": "97f049d421649911f8773706e891b3ce71bcf45cbc34ed19d10f928c55b5bbfd",
+      "width": 1.0,
+      "height": 1.0,
+      "actualBounds": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "units": "inches",
+      "hatches": 12,
+      "objectTypes": [
+        "HATCH",
+        "LINE",
+        "LWPOLYLINE",
+        "SPLINE"
+      ],
+      "blockName": "R61-19(CA)(Mod)(LT)",
+      "file": "individual/Regulatory/Reference size unknown/R61-19(CA)(Mod)(LT).dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Pico source drawing geometry before monochrome block reconstruction",
+      "referenceUrl": "https://drzkid96.github.io/SoCal-Super-Standards/figs/cad-signs/pico-r61-19-ca-mod-lt-142451a.webp",
+      "sizeNote": "1 in reference width  •  physical size unverified",
+      "visualObservation": "Two left-turn arrows and two ONLY legends.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-pico-r61-19-ca-mod-lt-142451a",
+      "drawnWidth": 1.0,
+      "drawnHeight": 1.0
+    },
+    {
+      "id": "pico-r61-19-ca-mod-rt-14251d8",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R61-19(CA)(Mod)(RT)",
+      "sha256": "b403c3688d3f5d70130b58379b505434a4e3f2b2aa68029b5979a86731a5283d",
+      "width": 1.0,
+      "height": 1.0,
+      "actualBounds": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "units": "inches",
+      "hatches": 12,
+      "objectTypes": [
+        "HATCH",
+        "LINE",
+        "LWPOLYLINE",
+        "SPLINE"
+      ],
+      "blockName": "R61-19(CA)(Mod)(RT)",
+      "file": "individual/Regulatory/Reference size unknown/R61-19(CA)(Mod)(RT).dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Pico source drawing geometry before monochrome block reconstruction",
+      "referenceUrl": "https://drzkid96.github.io/SoCal-Super-Standards/figs/cad-signs/pico-r61-19-ca-mod-rt-14251d8.webp",
+      "sizeNote": "1 in reference width  •  physical size unverified",
+      "visualObservation": "Two right-turn arrows and two ONLY legends.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-pico-r61-19-ca-mod-rt-14251d8",
+      "drawnWidth": 1.0,
+      "drawnHeight": 1.0
+    },
+    {
+      "id": "pico-r61-34-ca-mod-142525d",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R61-34(CA)(Mod)",
+      "sha256": "9c5ec553368d40e738edbd790f6b5e8c019793e0c876464520c238e7e0c04920",
+      "width": 1.0,
+      "height": 0.685,
+      "actualBounds": [
+        -0.5,
+        -0.34251,
+        0.5,
+        0.34251
+      ],
+      "units": "inches",
+      "hatches": 21,
+      "objectTypes": [
+        "HATCH",
+        "LINE",
+        "LWPOLYLINE",
+        "SPLINE"
+      ],
+      "blockName": "R61-34(CA)(Mod)",
+      "file": "individual/Regulatory/Reference size unknown/R61-34(CA)(Mod).dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Pico source drawing geometry before monochrome block reconstruction",
+      "referenceUrl": "https://drzkid96.github.io/SoCal-Super-Standards/figs/cad-signs/pico-r61-34-ca-mod-142525d.webp",
+      "sizeNote": "1 in reference width  •  physical size unverified",
+      "visualObservation": "Left only, left or through, and through only.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-pico-r61-34-ca-mod-142525d",
+      "drawnWidth": 1.0,
+      "drawnHeight": 0.68502
+    },
+    {
+      "id": "pico-w16-mod-13a3e86",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "W16 (MOD)",
+      "sha256": "9095093a086dfe6d46acc114c6bce0252a900b87d2585d8055b67d0c7f3f38b3",
+      "width": 1.0,
+      "height": 1.1667,
+      "actualBounds": [
+        -0.5,
+        -0.58333,
+        0.5,
+        0.58333
+      ],
+      "units": "inches",
+      "hatches": 6,
+      "objectTypes": [
+        "HATCH",
+        "LWPOLYLINE",
+        "SPLINE"
+      ],
+      "blockName": "W16 (MOD)",
+      "file": "individual/Warning/Reference size unknown/W16 (MOD).dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Pico source drawing geometry before monochrome block reconstruction",
+      "referenceUrl": "https://drzkid96.github.io/SoCal-Super-Standards/figs/cad-signs/pico-w16-mod-13a3e86.webp",
+      "sizeNote": "1 in reference width  •  physical size unverified",
+      "visualObservation": "Pedestrian and both downward-pointing arrows appear in one block.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-pico-w16-mod-13a3e86",
+      "drawnWidth": 1.0,
+      "drawnHeight": 1.16666
+    },
+    {
+      "id": "pico-sign-b-b04ac9",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "SIGN \"B\"",
+      "sha256": "c04906966728c59f88a7ef6aef36c4e9ccc2537e4397ecbee76eab40a94b153d",
+      "width": 1.0,
+      "height": 1.4936,
+      "actualBounds": [
+        -0.5,
+        -0.74679,
+        0.5,
+        0.74679
+      ],
+      "units": "inches",
+      "hatches": 56,
+      "objectTypes": [
+        "HATCH",
+        "LINE",
+        "LWPOLYLINE",
+        "SPLINE"
+      ],
+      "blockName": "SIGN B [Pico 2]",
+      "file": "individual/Local and other/Reference size unknown/SIGN B [Pico 2].dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Pico source drawing geometry before monochrome block reconstruction",
+      "referenceUrl": "https://drzkid96.github.io/SoCal-Super-Standards/figs/cad-signs/pico-sign-b-b04ac9.webp",
+      "sizeNote": "1 in reference width  •  physical size unverified",
+      "visualObservation": "7AM TO 9AM and 4PM TO 7PM; weekend exception and transit-bus exemption.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-pico-sign-b-b04ac9",
+      "drawnWidth": 1.0,
+      "drawnHeight": 1.49358
+    },
+    {
+      "id": "3346-signs-1-13-10980d1",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R2-1(25)",
+      "sha256": "96de1b5d3132f37deec391fdbc3f95694db0391465102483a16e12edb7c9fb39",
+      "width": 24.0,
+      "height": 30.0,
+      "actualBounds": [
+        -12.00535,
+        -14.95263,
+        11.99957,
+        14.94737
+      ],
+      "units": "inches",
+      "hatches": 14,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R2-1(25)",
+      "file": "individual/Regulatory/R2-1(25).dwg",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "U.S. Army SDDCTEA Pamphlet 55-17 §7.2.4, PDF page 165, plus 3346 plan legend",
+      "referenceUrl": "https://api.army.mil/e2/c/downloads/2026/04/08/543b0be6/tea-pamphlet-55-17-2.pdf#page=165",
+      "sizeNote": "24 × 30 in  •  printed plan dimension",
+      "visualObservation": "Plan calls for 25 at 24 × 30 in; original numeral entity says 30. Army reference supplies the illustrated 25.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-3346-signs-1-13-10980d1",
+      "drawnWidth": 24.00492,
+      "drawnHeight": 29.9
+    },
+    {
+      "id": "official-r99-ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R99(CA)",
+      "sha256": "ef660a844007bb4c829c74218b18a55fcc7ee76dd333d7f3b97a760b4da457a9",
+      "width": 12.0,
+      "height": 18.0,
+      "actualBounds": [
+        -6.0,
+        -8.98995,
+        6.00253,
+        8.99166
+      ],
+      "units": "inches",
+      "hatches": 6,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R99(CA)",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/r/r99-r99b-a11y.pdf",
+      "publisherPdfSha256": "c5f80988ae9362bd24e95cdbfd5bbf0b1bae897be64e63657dfeb135b9ca3474",
+      "sourceFile": "individual/Regulatory/R99(CA).dwg",
+      "geometryNote": "The upper sign has the accessibility symbol and PARKING ONLY. The separate fine plaque is excluded.",
+      "sizeStatus": "published reference size",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans California sign specification sheet, cropped from original PDF",
+      "sizeNote": "12 × 18 in upright",
+      "visualObservation": "The upper sign has the accessibility symbol and PARKING ONLY. The separate fine plaque is excluded.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-r99-ca",
+      "drawnWidth": 12.00253,
+      "drawnHeight": 17.98161
+    },
+    {
+      "id": "official-r99c-ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R99C(CA)",
+      "sha256": "4d9e7b1035625b082ed3d2163057de9ebcf78415dc4403c203f39f29eab2b33b",
+      "width": 12.0,
+      "height": 24.0,
+      "actualBounds": [
+        -5.99748,
+        -11.98536,
+        5.99798,
+        11.99142
+      ],
+      "units": "inches",
+      "hatches": 10,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R99C(CA)",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/r/r99c-a11y.pdf",
+      "publisherPdfSha256": "b38740a571e1dcb8ee3c71352aa4ccc4b5f837b6d3fcde8723fb5fe4ec0ab24c",
+      "sourceFile": "individual/Regulatory/R99C(CA).dwg",
+      "geometryNote": "The combined plaque retains MINIMUM FINE $250 below the parking legend.",
+      "sizeStatus": "published reference size",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans California sign specification sheet, cropped from original PDF",
+      "sizeNote": "12 × 24 in upright",
+      "visualObservation": "The combined plaque retains MINIMUM FINE $250 below the parking legend.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-r99c-ca",
+      "drawnWidth": 11.99546,
+      "drawnHeight": 23.97678
+    },
+    {
+      "id": "official-sc3-ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "SC3(CA)",
+      "sha256": "319cc7c63ba2cada74a52392e4995c15d229ae3b0e7bbc1e3a1e35a9bf05136b",
+      "width": 36.0,
+      "height": 12.0,
+      "actualBounds": [
+        -15.7729,
+        -5.99297,
+        15.77692,
+        5.99699
+      ],
+      "units": "inches",
+      "hatches": 9,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "SC3(CA)",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sc/f0019306-sc3-a11y.pdf",
+      "publisherPdfSha256": "f568f83fb38590c25a4b3e84d393f34352829601bc183ab8a28adf95e27659f0",
+      "sourceFile": "individual/Local and other/SC3(CA).dwg",
+      "geometryNote": "Left pane contains an upward arrow; the right pane reads DETOUR.",
+      "sizeStatus": "published reference size",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans California sign specification sheet, cropped from original PDF",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-sc3-ca",
+      "visualObservation": "Left pane contains an upward arrow; the right pane reads DETOUR."
+    },
+    {
+      "id": "official-sr4-1-ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "SR4-1(CA)",
+      "sha256": "f8734bcc28bd210c820c899e5594d1427939b752f1fc604ba81f1f1ad145499e",
+      "width": 36.0,
+      "height": 72.0,
+      "actualBounds": [
+        -17.97432,
+        -35.97024,
+        17.97432,
+        35.97497
+      ],
+      "units": "inches",
+      "hatches": 42,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "SR4-1(CA)",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sr/f0019396-sr4-1-a11y.pdf",
+      "publisherPdfSha256": "983fd59a49a1f93684bf5269b29bb10fa1f5db4a84e6f28575b00321355d252e",
+      "sourceFile": "individual/School/SR4-1(CA).dwg",
+      "geometryNote": "SCHOOL and posted 25 remain legible above WHEN CHILDREN ARE PRESENT.",
+      "sizeStatus": "published reference size",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans California sign specification sheet, cropped from original PDF",
+      "sizeNote": "36 × 72 in upright",
+      "visualObservation": "SCHOOL and posted 25 remain legible above WHEN CHILDREN ARE PRESENT.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-sr4-1-ca",
+      "drawnWidth": 35.94864,
+      "drawnHeight": 71.94521
+    },
+    {
+      "id": "official-sw24-1-ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "SW24-1(CA)",
+      "sha256": "dbfaef5f8b43200c432d992da45854b59af7a3b3a78c34032e96f34adb20ef54",
+      "width": 36.0,
+      "height": 48.0,
+      "actualBounds": [
+        -17.14555,
+        -23.99026,
+        17.14632,
+        23.99941
+      ],
+      "units": "inches",
+      "hatches": 11,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "SW24-1(CA)",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019433-sw24-1-a11y.pdf",
+      "publisherPdfSha256": "a9df5d80e26a750395f6bf8e3dedb187cbf636780fc3c9f7e4f7381aad031822",
+      "sourceFile": "individual/Warning/SW24-1(CA).dwg",
+      "geometryNote": "Two pedestrians above the SCHOOL legend.",
+      "sizeStatus": "published reference size",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans California sign specification sheet, cropped from original PDF",
+      "sizeNote": "36 × 48 in upright",
+      "visualObservation": "Two pedestrians above the SCHOOL legend.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-sw24-1-ca",
+      "drawnWidth": 34.29187,
+      "drawnHeight": 47.98967
+    },
+    {
+      "id": "official-sw24-2-ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "SW24-2(CA)",
+      "sha256": "b412230c44412ae4d7b40bf6940e3b138d0f9db5f9650863767d61e772fa0208",
+      "width": 30.0,
+      "height": 42.0,
+      "actualBounds": [
+        -14.99808,
+        -20.98548,
+        14.99875,
+        20.99349
+      ],
+      "units": "inches",
+      "hatches": 6,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "SW24-2(CA)",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019434-sw24-2-a11y.pdf",
+      "publisherPdfSha256": "ac85d58b304a94c2546a53a3c60ccab9cd69d6d4c0d6d45c99080486223ed6f9",
+      "sourceFile": "individual/Warning/SW24-2(CA).dwg",
+      "geometryNote": "Two pedestrians above a diagonal down-left arrow.",
+      "sizeStatus": "published reference size",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans California sign specification sheet, cropped from original PDF",
+      "sizeNote": "30 × 42 in upright",
+      "visualObservation": "Two pedestrians above a diagonal down-left arrow.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-sw24-2-ca",
+      "drawnWidth": 29.99683,
+      "drawnHeight": 41.97897,
+      "faceSheetSizesInches": [
+        [
+          30,
+          42
+        ],
+        [
+          36,
+          48
+        ],
+        [
+          48,
+          60
+        ]
+      ],
+      "conventionalRoadAssemblyInches": [
+        36.0,
+        54.0
+      ],
+      "assemblySource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1492"
+    },
+    {
+      "id": "official-sw24-3-ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "SW24-3(CA)",
+      "sha256": "2ea7519a5b34838e98e61ab9c7271a058fcf58cd54d1c0f595901d72eadfec18",
+      "width": 30.0,
+      "height": 42.0,
+      "actualBounds": [
+        -14.99808,
+        -20.98548,
+        14.99875,
+        20.99349
+      ],
+      "units": "inches",
+      "hatches": 10,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "SW24-3(CA)",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019435-sw24-3-a11y.pdf",
+      "publisherPdfSha256": "b40f32a4a127699b01a18f0795f565ced2589e9c81d95322f2261cba24a384c3",
+      "sourceFile": "individual/Warning/SW24-3(CA).dwg",
+      "geometryNote": "Two pedestrians above the AHEAD legend.",
+      "sizeStatus": "published reference size",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans California sign specification sheet, cropped from original PDF",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-sw24-3-ca",
+      "visualObservation": "Two pedestrians above the AHEAD legend.",
+      "faceSheetSizesInches": [
+        [
+          30,
+          42
+        ],
+        [
+          36,
+          48
+        ],
+        [
+          48,
+          60
+        ]
+      ],
+      "conventionalRoadAssemblyInches": [
+        36.0,
+        36.0
+      ],
+      "assemblySource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1492"
+    },
+    {
+      "id": "official-w31-ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "W31(CA)",
+      "sha256": "d68c4fee97cd143d6ac1f7237ec78455cda14412831954c932e58dc1924f6924",
+      "width": 42.4264,
+      "height": 42.4264,
+      "actualBounds": [
+        -21.20641,
+        -21.20762,
+        21.19691,
+        21.2126
+      ],
+      "units": "inches",
+      "hatches": 5,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "W31(CA)",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/w/f0019474-w31-a11y.pdf",
+      "publisherPdfSha256": "23ebc6728658eca550df2d92f1f4e9c5f5043f8b08519409e2442cf83aa3d17b",
+      "sourceFile": "individual/Warning/W31(CA).dwg",
+      "geometryNote": "The diamond contains the single word END.",
+      "sizeStatus": "published reference size",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans California sign specification sheet, cropped from original PDF",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-w31-ca",
+      "visualObservation": "The diamond contains the single word END."
+    },
+    {
+      "id": "official-w73a-ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "W73A(CA)",
+      "sha256": "1c0ca5d635a091834c6ddd745c708fa8ec02f024cbc61dc1d75d51ae65947721",
+      "width": 50.9117,
+      "height": 50.9117,
+      "actualBounds": [
+        -25.44228,
+        -25.45051,
+        25.42277,
+        25.4503
+      ],
+      "units": "inches",
+      "hatches": 26,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "W73A(CA)",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/w/f0019501-w73a-a11y.pdf",
+      "publisherPdfSha256": "ce14f983211e119865640f3093455cf810394317cbf8920918ecf76a0e609e88",
+      "sourceFile": "individual/Warning/W73A(CA).dwg",
+      "geometryNote": "Three lines read RIGHT LANE / TURNS RIGHT / AHEAD.",
+      "sizeStatus": "published reference size",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans California sign specification sheet, cropped from original PDF",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-w73a-ca",
+      "visualObservation": "Three lines read RIGHT LANE / TURNS RIGHT / AHEAD."
+    },
+    {
+      "id": "official-w74-ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "W74(CA)",
+      "sha256": "6488c1d2f071563a73d67a21c2a41b35e56c3bd84b36701d381bf77119a0fa48",
+      "width": 50.9117,
+      "height": 50.9117,
+      "actualBounds": [
+        -25.44809,
+        -25.45347,
+        25.44504,
+        25.44384
+      ],
+      "units": "inches",
+      "hatches": 22,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "W74(CA)",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/w/f0019502-w74-a11y.pdf",
+      "publisherPdfSha256": "4e8ce379307f6e7d77be0aa1b672370adb011c56e0a06b74ba6b06131f3f787a",
+      "sourceFile": "individual/Warning/W74(CA).dwg",
+      "geometryNote": "Four lines read THRU / TRAFFIC / MERGE / LEFT.",
+      "sizeStatus": "published reference size",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans California sign specification sheet, cropped from original PDF",
+      "sizeNote": "50.9117 × 50.9117 in upright",
+      "visualObservation": "Four lines read THRU / TRAFFIC / MERGE / LEFT.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-w74-ca",
+      "drawnWidth": 50.89313,
+      "drawnHeight": 50.89731
+    }
+  ]
+}

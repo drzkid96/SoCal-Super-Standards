@@ -91,6 +91,7 @@ jobs:
           node pipeline/test_atlas_worker.mjs
           node pipeline/test_location_search.mjs
           node pipeline/test_cad_sign_catalog.mjs
+          python pipeline/test_cad_downloads.py
           python -m pip install selenium
           python pipeline/test_sheet_viewer.py
           python pipeline/test_atlas_browser.py

@@ -1,0 +1,102 @@
+{
+  "SW24-1CA": {
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019433-sw24-1-a11y.pdf",
+    "sheetDate": "2012-01-13",
+    "sha256": "a9df5d80e26a750395f6bf8e3dedb187cbf636780fc3c9f7e4f7381aad031822",
+    "units": "in",
+    "sizeBasis": "width-height",
+    "dimensionLetters": [
+      "A",
+      "B"
+    ],
+    "options": [
+      [
+        30,
+        42
+      ],
+      [
+        36,
+        48
+      ],
+      [
+        48,
+        60
+      ]
+    ]
+  },
+  "SW24-2CA": {
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019434-sw24-2-a11y.pdf",
+    "sheetDate": "2012-01-13",
+    "sha256": "ac85d58b304a94c2546a53a3c60ccab9cd69d6d4c0d6d45c99080486223ed6f9",
+    "units": "in",
+    "sizeBasis": "width-height",
+    "dimensionLetters": [
+      "A",
+      "B"
+    ],
+    "options": [
+      [
+        30,
+        42
+      ],
+      [
+        36,
+        48
+      ],
+      [
+        48,
+        60
+      ]
+    ]
+  },
+  "SW24-3CA": {
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019435-sw24-3-a11y.pdf",
+    "sheetDate": "2012-01-13",
+    "sha256": "b40f32a4a127699b01a18f0795f565ced2589e9c81d95322f2261cba24a384c3",
+    "units": "in",
+    "sizeBasis": "width-height",
+    "dimensionLetters": [
+      "A",
+      "B"
+    ],
+    "options": [
+      [
+        30,
+        42
+      ],
+      [
+        36,
+        48
+      ],
+      [
+        48,
+        60
+      ]
+    ]
+  },
+  "SR4-1CA": {
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sr/f0019396-sr4-1-a11y.pdf",
+    "sheetDate": "2012-01-13",
+    "sha256": "983fd59a49a1f93684bf5269b29bb10fa1f5db4a84e6f28575b00321355d252e",
+    "units": "in",
+    "sizeBasis": "width-height",
+    "dimensionLetters": [
+      "A",
+      "B"
+    ],
+    "options": [
+      [
+        24,
+        48
+      ],
+      [
+        36,
+        72
+      ],
+      [
+        48,
+        96
+      ]
+    ]
+  }
+}

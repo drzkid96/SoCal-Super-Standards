@@ -1,9 +1,8 @@
 ---
 import SiteTitle from '@astrojs/starlight/components/SiteTitle.astro';
-import fs from 'node:fs';
+import { agencyCatalogVersion } from '../lib/agency-catalog';
 const BASE = '/SoCal-Super-Standards';
 const path = Astro.url.pathname;
-const modes = JSON.parse(fs.readFileSync('public/data/agency-modes.json','utf8'));
 const primary = [
   ['Guides','guides'], ['Topics','topics'], ['Municipalities','map'],
 ];
@@ -37,5 +36,5 @@ const directories = [
       <a href="https://github.com/drzkid96/SoCal-Super-Standards">Site repository</a>
     </div>
   </details>
-  <script is:inline define:vars={{modes}}>window.__agencyCatalog=modes;</script>
+  <script is:inline src={BASE+'/js/agency-catalog-'+agencyCatalogVersion+'.js'}></script>
 </div>

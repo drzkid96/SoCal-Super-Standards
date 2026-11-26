@@ -1,6 +1,6 @@
 ---
-title: "R99(CA) Parking Only regulatory sign"
-description: "R99(CA) Parking Only: Regulatory Signs, series R99. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "R99(CA) Accessible parking regulatory sign"
+description: "R99(CA) Accessible parking. Caltrans sign artwork, dimensions and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,12 +10,12 @@ tableOfContents: false
 <p class="scode-big">R99(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Parking Only regulatory sign</dd>
+<dt>Descriptor</dt><dd>Accessible parking regulatory sign</dd>
 <dt>Legend</dt><dd>PARKING ONLY</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r99">R99 &middot; Other</a></dd>
-<dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 2B-25(CA)</dd>
+<dt>Colors</dt><dd>White legend on blue</dd>
+<dt>Source</dt><dd><a href="https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/r/r99-r99b-a11y.pdf">Caltrans sign specification R99(CA) (PDF)</a></dd>
 </dl>
 </div>
 </div>

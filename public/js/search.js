@@ -34,7 +34,7 @@
       }));
       const signIds=new Map();
       for(const row of records)if(row.tag==='Signs')for(const code of row.exact){
-        if((/^[A-Z]{1,5}-?\d/.test(code)||row.url.includes('/signs/plan-')||row.url.includes('#plan-'))&&!signIds.has(code))signIds.set(code,[]);
+        if((/^[A-Z]{1,5}-?\d/.test(code)||row.url.includes('/signs/plan-')||row.url.includes('/signs/cad/#block-')||row.url.includes('#plan-'))&&!signIds.has(code))signIds.set(code,[]);
       }
       for(const row of records)for(const code of new Set(row.exact)){
         const found=signIds.get(code);
@@ -90,13 +90,20 @@
     return hits.length ? hits : available;
   }
   async function direct(raw, facet = '', limit = 12, match = 'all', issuer = '') {
-    const {query, scope} = parse(raw, facet);
+    let {query, scope} = parse(raw, facet);
     if (!query) return [];
     if (sheetQualifier.test(query)) {
       const sheets = await findSheet(query, scope);
       if (sheets.length) return sheets.filter(hit=>!issuer||window.SSSAgency.inScope(hit.url,issuer)).slice(0, limit);
     }
     const {records, withdrawn, synonyms, signIds} = await catalog();
+    // A literal block name can itself begin with "SIGN ", e.g. SIGN SP-1.
+    if ((!scope || scope==='Signs') && signIds.has(designation(raw))) query=raw.trim();
+    const request = raw.trim().match(/^(?:DWG|CAD)\s+(.+)$|^(.+?)\s+(?:DWG|CAD)$/i);
+    if (request && (!scope || scope==='Signs')) {
+      const alias = 'CAD '+(request[1] || request[2]);
+      if (signIds.has(designation(alias))) query = alias;
+    }
     const code = compact(query), phrase = clean(query);
     if (!code) return [];
     const id=designation(query);
@@ -122,6 +129,7 @@
       else if (expanded && record.hay.includes(expanded)) score = 43;
       else if (code.length >= 2 && /\d/.test(code) && record.keys.some(k => k.startsWith(code))) score = 38;
       else continue;
+      if (exact && request && record.label.includes(' · Issued CAD block · ')) score += 8;
       if (record.url.includes('/keywords/#')) score -= 10;
       if (record.url.includes('/topics/') && !/\d/.test(query)) score += 5;
       if (record.url.endsWith('/standard-plans/') && phrase === clean(record.url.split('/').at(-3))) score += 42;
@@ -224,7 +232,7 @@
     status.textContent='Searching…';
     const matches = direct(q,scope,250,matching.value,issuer.value);
     // Exact drawing and sign identifiers can resolve from the local catalog alone.
-    const identifier=sheetQualifier.test(q)||/^(?:sign\s+)?[a-z]{1,5}\s*-?\d/i.test(q);
+    const identifier=sheetQualifier.test(q)||/^(?:sign\s+)?[a-z]{1,5}\s*-?\d|^(?:CAD|DWG)\s|\s(?:CAD|DWG)$/i.test(q);
     const text = matching.value!=='all' ? Promise.resolve([]) : identifier
       ? matches.then(hits => hits[0]?.sheetMatch||hits[0]?.signMatch||hits[0]?.tag==='Retired' ? [] : full(q,scope,issuer.value), () => full(q,scope,issuer.value))
       : full(q,scope,issuer.value);

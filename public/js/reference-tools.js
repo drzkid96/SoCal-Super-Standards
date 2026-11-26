@@ -277,7 +277,17 @@
   }
   button(top,'Copy citation',()=>navigator.clipboard.writeText(citation(title+(operator?' · page '+operator.querySelector('input').value:''),location.href)));
   const singleSign=article.querySelector('.sdetail-img > .sign-art:only-child .figure-actions');
-  if(singleSign){singleSign.append(...top.children);top.remove();}
+  if(singleSign){
+    singleSign.append(...top.children);top.remove();
+    const native=article.querySelectorAll('[data-primary-cad] .cad-local-row > a[download]');
+    if(native.length){
+      const link=create('a',native.length===1?'CAD DWG':'CAD blocks ('+native.length+')');
+      link.className='cad-shortcut';
+      if(native.length===1){link.href=native[0].href;link.download='';}
+      else link.href='#cad-files';
+      singleSign.append(link);
+    }
+  }
   const signCode=article.querySelector('.sdetail-info .scode-big');
   if(signCode && heading.startsWith(signCode.textContent.trim()+' '))signCode.hidden=true;
   if(location.hash.startsWith('#ref-figure-'))document.getElementById(location.hash.slice(1))?.scrollIntoView();

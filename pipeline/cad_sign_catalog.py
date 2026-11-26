@@ -10,7 +10,22 @@ from current_catalog import BASE, PUBLIC, read, save
 SOURCE = Path('data/reference/plan-examples')
 PLAN = BASE + '/ladot/plan-reference/'
 DRAWINGS = {'geo': 'Geometric design details', 'pico': 'Pico Boulevard signing and striping details'}
+LIBRARIES = {
+    'fp-signs': ('FP Signs library', '-FP_Signs.dwg'),
+    'mutcd-standard-signs': ('MUTCD Standard Signs drawing library', 'MUTCD-StandardSigns.dwg'),
+    '3346-title-details': ('3346 title and details', '3346-SS-TITLE_DETAILS.dwg'),
+    '3346-signs-1-13': ('3346 signing sheets 1–13', '3346-SIGNS_1-13.dwg'),
+    '3346-signs-14-15': ('3346 signing sheets 14–15', '3346-SIGNS_14-15.dwg'),
+}
 CATALOG = PUBLIC/'plan-signs.json'
+
+
+def source_name(source):
+    return LIBRARIES[source][0] if source in LIBRARIES else DRAWINGS[source]
+
+
+def source_route(source):
+    return BASE+'/signs/cad/sources/'+source+'/' if source in LIBRARIES else PLAN
 
 
 def designation_key(raw):
@@ -37,10 +52,20 @@ def callout_id(drawing, code):
 
 def drawing_records():
     file = SOURCE/'cad-signs.json'
-    if file.is_file():
-        return read(file)
-    return [dict(designation=code,source=drawing) for drawing,edition in read(SOURCE/'cad.json').items()
-            for code in edition['signs']]
+    rows = read(file) if file.is_file() else [
+        dict(designation=code,source=drawing) for drawing,edition in read(SOURCE/'cad.json').items() for code in edition['signs']]
+    for extra in ('sign-library-records.json','3346-sign-records.json'):
+        if (SOURCE/extra).exists():
+            rows.extend(read(SOURCE/extra))
+    return rows
+
+
+def drawing_audit():
+    rows=read(SOURCE/'cad-signs-audit.json')
+    for name in ('sign-library-blocks.json','3346-sign-audit.json'):
+        if (SOURCE/name).exists():
+            rows.extend(read(SOURCE/name))
+    return rows
 
 
 def sign_destinations():
@@ -69,8 +94,7 @@ def collect():
     official = {designation_key(k):v for k,v in read(PUBLIC/'signs-index.json').items()}
     notice = read(PUBLIC/'retired.json')
     withdrawn = {designation_key(k):v for k,v in notice['codes'].items()}
-    audit_file=SOURCE/'cad-signs-audit.json'
-    audit={item['source']:item for item in read(audit_file)} if audit_file.is_file() else {}
+    audit={item['source']:item for item in drawing_audit()}
     detail_titles={key:code+' · '+title for edition in read(SOURCE/'cad.json').values() for key,code,title,_ in edition['rows']}
     entries, declared = {}, {}
     def record(raw):
@@ -84,8 +108,8 @@ def collect():
         raw = observation['designation']
         row = record(raw)
         source = observation['source']
-        drawing=row['drawings'].setdefault(source,dict(source=source,name=DRAWINGS[source],file=audit.get(source,{}).get('file',''),
-                            url=PLAN+'#'+callout_id(source,raw),labels=[],evidence={},details=[]))
+        drawing=row['drawings'].setdefault(source,dict(source=source,name=source_name(source),file=audit.get(source,{}).get('file',''),
+                            url=source_route(source)+'#'+callout_id(source,raw),labels=[],evidence={},details=[]))
         if raw not in drawing['labels']:drawing['labels'].append(raw)
         if observation.get('kind'):row['kind']=observation['kind']
         wording=drawing.setdefault('wording',{})
@@ -114,7 +138,7 @@ def collect():
             row = entries[key]
             row['art'].append(asset)
             source = asset['drawing']
-            row['drawings'].setdefault(source,dict(source=source,name=DRAWINGS[source],url=PLAN+'#'+callout_id(source,asset['code'])))
+            row['drawings'].setdefault(source,dict(source=source,name=source_name(source),url=source_route(source)+'#'+callout_id(source,asset['code'])))
     known = set(official)|set(withdrawn)|set(entries)
     routes = {}
     for key,row in entries.items():
@@ -162,7 +186,7 @@ def drawing_summary(drawing):
     if direct:parts.append(str(direct)+' direct layout record'+('s' if direct!=1 else ''))
     if nested:parts.append(str(nested)+' nested record'+('s' if nested!=1 else '')+' used in layouts')
     if unplaced:parts.append(str(unplaced)+' unplaced definition record'+('s' if unplaced!=1 else ''))
-    return ' · '.join(parts)
+    return ' · '.join(parts) or f'{sum(uses.values())} evidence records'
 
 
 def drawing_evidence(drawing):
@@ -182,7 +206,7 @@ def drawing_evidence(drawing):
 def figures(row):
     images=[]
     for asset in row['art']:
-        source=DRAWINGS[asset['drawing']]
+        source=source_name(asset['drawing'])
         caption=asset['code']+' · '+source+' · '+asset['space']+' · handle '+asset['handle']
         url=next(d['url'] for d in row['drawings'] if d['source']==asset['drawing'])
         images.append((asset['image'],caption,url,asset.get('note',''),asset.get('width'),asset.get('height')))
@@ -322,11 +346,32 @@ def update_chart(path,rows):
     path.write_text(page)
 
 
+def library_source_pages(root,rows,lookup):
+    for source,(name,file) in LIBRARIES.items():
+        group=[(r,d) for r in rows for d in r['drawings'] if d['source']==source]
+        if not group:continue
+        url=source_route(source)
+        content=['---','title: '+json.dumps(name+' · drawing inventory'),'tableOfContents: false','---','',
+                 f'<link rel="stylesheet" href="{BASE}/js/cad-downloads.css">',
+                 f'<p><code>{escape(file)}</code> · {len(group):,} sign designations</p>',
+                 '<p>Follow a designation to its sign reference. Expand the drawing evidence for entity handles and drawing context.</p>',
+                 '<p><a href="'+BASE+'/data/cad-sign-evidence.json" download>Download the complete drawing evidence (JSON)</a></p>',
+                 '<div class="cad-source-inventory">']
+        for row,d in group:
+            title=escape(row['code'])
+            content.append(f'<section id="{callout_id(source,row["key"])}"><strong><a href="{escape(row["url"])}">{title}</a></strong>'+
+                           drawing_evidence(d)+'</section>')
+        content.append('</div>')
+        path=root/'signs/cad/sources'/(source+'.md');path.parent.mkdir(parents=True,exist_ok=True)
+        path.write_text('\n'.join(content[:4])+'\n\n'+'\n\n'.join(content[5:])+'\n')
+        lookup.setdefault(name.upper(),[]).append([name+' · drawing evidence',url])
+
+
 def build(root,lookup):
     rows=collect()
     evidence=SOURCE/'cad-signs.json';audit=SOURCE/'cad-signs-audit.json'
     if evidence.is_file() and audit.is_file():
-        save(PUBLIC/'cad-sign-evidence.json',dict(drawings=read(audit),records=read(evidence)))
+        save(PUBLIC/'cad-sign-evidence.json',dict(drawings=drawing_audit(),records=drawing_records()))
     groups=defaultdict(list)
     for row in rows:
         group=row['url'].split('#')[0];groups[group].append(row)
@@ -340,6 +385,11 @@ def build(root,lookup):
             head=next(r for r in items if '#' not in r['url'])
             page.write_text('---\ntitle: '+json.dumps(head['code']+' · '+head['status'])+'\ntableOfContents: false\n---\n')
         with page.open('a') as f:f.write('\n\n'+observed_section(sorted(items,key=lambda r:(not bool(r['official']),r['key'])))+'\n')
+    library_source_pages(root,rows,lookup)
     save(CATALOG, rows)
     update_chart(root/'signs/index.md',rows)
+    from cad_block_package import SOURCE as DOWNLOADS
+    if (DOWNLOADS/'release.json').is_file():
+        from cad_download_pages import build as build_download_pages
+        build_download_pages(root,lookup)
     return rows

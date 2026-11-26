@@ -1,0 +1,61 @@
+.cad-library,.cad-local{--cad-rule:var(--sl-color-gray-5);--cad-muted:var(--sl-color-gray-3);--cad-gap:clamp(.65rem,1.3vw,1.15rem)}
+.sl-markdown-content .cad-library{margin-block:1rem 2rem;min-width:0}
+.cad-library [hidden],.cad-local [hidden]{display:none!important}
+.cad-intro{max-width:80ch;color:var(--sl-color-text);line-height:1.55}
+.sl-markdown-content .cad-bulk{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem;margin:.7rem 0 1.4rem}
+.sl-markdown-content .cad-download{margin:0;display:inline-flex;align-items:baseline;justify-content:center;gap:.45em;line-height:1.35;padding:.45rem .65rem;border:1px solid var(--cad-rule);border-radius:.4rem;color:var(--sl-color-text-accent);background:var(--sl-color-bg);font-size:.83rem;font-weight:650;text-decoration:none;white-space:nowrap}
+.sl-markdown-content .cad-download:hover{border-color:currentColor;text-decoration:underline}
+.cad-download small{color:var(--cad-muted);font-weight:450}
+.sl-markdown-content .cad-bulk .cad-download:first-child{background:var(--sl-color-text-accent);border-color:var(--sl-color-text-accent);color:var(--sl-color-bg)}
+.cad-bulk .cad-download:first-child small{color:inherit}
+.sl-markdown-content .cad-find{display:grid;grid-template-columns:minmax(11rem,2fr) repeat(4,minmax(6rem,1fr)) auto;align-items:end;gap:.55rem;padding-block:.7rem;border-block:1px solid var(--cad-rule);margin:0}
+.cad-find label{display:grid;gap:.15rem;min-width:0;font-size:.78rem;font-weight:650}
+.cad-find select,.cad-find input,.cad-find button,.cad-paging button{min-height:2.35rem;min-width:0;border:1px solid var(--cad-rule);border-radius:.35rem;background:var(--sl-color-bg);color:var(--sl-color-text);padding:.35rem .5rem;font:inherit}
+.cad-find input,.cad-find select{width:100%;font-size:.86rem}
+.cad-find button,.cad-paging button{cursor:pointer;font-size:.85rem}
+.cad-find>*,.cad-find label>*,.cad-bulk>*,.cad-records li>*,.cad-paging sup,.cad-local-row>*{margin-block:0!important}
+.sl-markdown-content .cad-count,.sl-markdown-content .cad-foot{font-size:.82rem;color:var(--cad-muted);margin:.6rem 0;scroll-margin-top:calc(var(--sl-nav-height,3rem) + .5rem)}
+.sl-markdown-content .cad-records{list-style:none;padding:0;margin:0}
+@media screen{.cad-records>li{content-visibility:auto;contain-intrinsic-block-size:auto 5.75rem}}
+.sl-markdown-content .cad-records>li,.sl-markdown-content .cad-local-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:var(--cad-gap);padding:.65rem 0;border-top:1px solid var(--cad-rule);margin:0;scroll-margin-top:calc(var(--sl-nav-height,3rem) + .75rem)}
+.cad-code{font-size:1rem;font-weight:700}
+.cad-name,.cad-spec,.cad-evidence{font-size:.83rem;line-height:1.5}
+.sl-markdown-content .cad-spec,.sl-markdown-content .cad-evidence{margin:.2rem 0 0}
+.cad-spec{color:var(--sl-color-text)}
+.cad-evidence{color:var(--cad-muted)}
+.cad-evidence summary{cursor:pointer;width:fit-content}
+.sl-markdown-content .cad-evidence p{margin:.2rem 0;overflow-wrap:anywhere}
+.cad-local{padding:.3rem .7rem;border-inline-start:3px solid var(--sl-color-text-accent)}
+.cad-local header{font-size:.84rem}
+.sl-markdown-content .cad-local .cad-local-row{padding:.4rem 0 .2rem}
+.sl-markdown-content .cad-paging{display:flex;gap:.5rem;margin:.6rem 0}
+.cad-paging button:disabled{opacity:.48;cursor:default}
+@media(max-width:65rem){.sl-markdown-content .cad-find{grid-template-columns:repeat(3,minmax(0,1fr)) auto}.cad-find label:first-child{grid-column:1/-1}}
+@media(max-width:42rem){.sl-markdown-content .cad-find{grid-template-columns:1fr 1fr}.cad-find label:first-child{grid-column:1/-1}.cad-name{display:block}}
+@media print{.cad-find,.cad-paging,.cad-download{display:none!important}.cad-library .cad-records li[hidden]{display:block!important}}
+.sl-markdown-content .cad-more-local{margin:.3rem 0}
+.cad-more-local>summary{cursor:pointer;font-size:.85rem;color:var(--sl-color-text-accent)}
+
+.cad-unavailable,.cad-source-list{font-size:.82rem;color:var(--cad-muted)}
+.cad-unavailable{max-width:8rem;text-align:end}
+.cad-source-list summary{cursor:pointer}
+.sl-markdown-content .cad-usage{font-size:.84rem;margin:.5rem 0 .75rem}
+.cad-usage summary,.cad-filter-options summary{cursor:pointer}
+.sl-markdown-content .cad-find{grid-template-columns:minmax(0,1fr) auto auto}
+.cad-find label:first-child{grid-column:1}
+.cad-filter-options{display:contents}
+.cad-find .cad-filter-options>summary{grid-area:1 / 2;align-self:end;padding:.38rem .65rem;border:1px solid var(--cad-rule);border-radius:.35rem;font-size:.85rem;line-height:1.5}
+.cad-find>button{grid-area:1/3;align-self:end}
+.cad-filter-grid{grid-row:2;grid-column:1/-1;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(10rem,100%),1fr));gap:.5rem}
+.sl-markdown-content .cad-filter-grid>label{margin:0}
+.sl-markdown-content :is(.cad-records>li,.cad-local-row):has(>.cad-preview){grid-template-columns:minmax(0,4.8rem) minmax(0,1fr) auto}
+.cad-preview{display:grid;place-items:center;aspect-ratio:1;background:white;border:1px solid var(--cad-rule);border-radius:.35rem;padding:.2rem}
+.cad-preview img{display:block;object-fit:contain;width:100%;height:100%;max-height:5rem}
+@media(max-width:42rem){.sl-markdown-content :is(.cad-records>li,.cad-local-row):has(>.cad-preview){grid-template-columns:minmax(0,3.2rem) minmax(0,1fr) auto}.cad-filter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.sl-markdown-content .cad-source-inventory section{display:grid;grid-template-columns:minmax(7rem,11rem) minmax(0,1fr);gap:.45rem .8rem;margin:0;padding:.5rem 0;border-top:1px solid var(--sl-color-gray-5)}
+.sl-markdown-content .cad-source-inventory section>*{margin:0}
+.cad-source-inventory details{font-size:.86rem}
+.cad-source-inventory summary{cursor:pointer}
+@media(max-width:40rem){.sl-markdown-content .cad-source-inventory section{grid-template-columns:minmax(0,1fr);gap:.15rem}}
+.sl-markdown-content .cad-shortcut{border:1px solid var(--sl-color-gray-5);border-radius:.375rem;padding:.28rem .48rem;font-size:.79rem;color:var(--sl-color-text-accent);margin:0}
+.cad-local[id]{scroll-margin-top:calc(var(--sl-nav-height,3.2rem) + .8rem)}

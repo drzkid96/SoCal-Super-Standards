@@ -1,0 +1,926 @@
+{
+  "official-r1-5": {
+    "code": "R1-5",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      36,
+      36
+    ],
+    "condition": "Conventional multilane roadway; California Table 2B-1",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R1-5 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=28",
+      "page": 28
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=288"
+  },
+  "official-r1-5b": {
+    "code": "R1-5B",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      36,
+      36
+    ],
+    "condition": "Conventional multilane roadway; California Table 2B-1",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R1-5B layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=29",
+      "page": 29
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=288"
+  },
+  "official-r3-8b": {
+    "code": "R3-8B",
+    "size": [
+      48,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      48,
+      30
+    ],
+    "condition": "Illustrated three-lane arrangement at conventional-road 30-inch panel height",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R3-8B layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=92",
+      "page": 92
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=289"
+  },
+  "official-r3-11": {
+    "code": "R3-11",
+    "size": [
+      30,
+      42
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      30,
+      42
+    ],
+    "condition": "Post-mounted HOV operation, conventional roadway",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R3-11 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=113",
+      "page": 113
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=709"
+  },
+  "official-r3-11a": {
+    "code": "R3-11a",
+    "size": [
+      30,
+      42
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      30,
+      42
+    ],
+    "condition": "Post-mounted HOV operation, conventional roadway",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R3-11A layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=114",
+      "page": 114
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=709"
+  },
+  "official-r5-10a": {
+    "code": "R5-10A",
+    "size": [
+      30,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      30,
+      36
+    ],
+    "condition": "FHWA standard illustrated regulatory panel",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R5-10A layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=235",
+      "page": 235
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  },
+  "official-r7-1": {
+    "code": "R7-1",
+    "size": [
+      12,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      18
+    ],
+    "condition": "FHWA conventional single-lane or multilane parking sign",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R7-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=249",
+      "page": 249
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  },
+  "official-r7-2a": {
+    "code": "R7-2A",
+    "size": [
+      12,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      18
+    ],
+    "condition": "FHWA conventional single-lane or multilane parking sign",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R7-2A layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=251",
+      "page": 251
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  },
+  "official-r7-3": {
+    "code": "R7-3",
+    "size": [
+      12,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      18
+    ],
+    "condition": "FHWA conventional single-lane or multilane parking sign",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R7-3 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=252",
+      "page": 252
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  },
+  "official-r7-4": {
+    "code": "R7-4",
+    "size": [
+      12,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      18
+    ],
+    "condition": "FHWA conventional single-lane or multilane parking sign",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R7-4 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=253",
+      "page": 253
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  },
+  "official-r7-6": {
+    "code": "R7-6",
+    "size": [
+      12,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      18
+    ],
+    "condition": "FHWA conventional single-lane or multilane parking sign",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R7-6 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=256",
+      "page": 256
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  },
+  "official-r7-8": {
+    "code": "R7-8",
+    "size": [
+      12,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      18
+    ],
+    "condition": "FHWA conventional single-lane or multilane accessible parking sign",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R7-8 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=257",
+      "page": 257
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  },
+  "official-r7-107": {
+    "code": "R7-107",
+    "size": [
+      12,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      18
+    ],
+    "condition": "FHWA conventional single-lane or multilane bus stop sign",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R7-107 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=266",
+      "page": 266
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  },
+  "official-r7-200": {
+    "code": "R7-200",
+    "size": [
+      24,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      18
+    ],
+    "condition": "FHWA conventional combined parking panel",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R7-200 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=281",
+      "page": 281
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=7"
+  },
+  "official-r8-1": {
+    "code": "R8-1",
+    "size": [
+      24,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      30
+    ],
+    "condition": "FHWA conventional single-lane or multilane roadway",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R8-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=289",
+      "page": 289
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=7"
+  },
+  "official-r8-2": {
+    "code": "R8-2",
+    "size": [
+      24,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      30
+    ],
+    "condition": "FHWA conventional single-lane or multilane roadway",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R8-2 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=290",
+      "page": 290
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=7"
+  },
+  "official-r8-3": {
+    "code": "R8-3",
+    "size": [
+      24,
+      24
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      24
+    ],
+    "condition": "FHWA conventional single-lane roadway, symbol face",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R8-3 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=291",
+      "page": 291
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=7"
+  },
+  "official-r8-3a": {
+    "code": "R8-3A",
+    "size": [
+      24,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      30
+    ],
+    "condition": "FHWA conventional single-lane or multilane roadway, word face",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R8-3A layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=292",
+      "page": 292
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=7"
+  },
+  "official-r8-5": {
+    "code": "R8-5",
+    "size": [
+      24,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      30
+    ],
+    "condition": "FHWA conventional single-lane or multilane roadway",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R8-5 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=298",
+      "page": 298
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=7"
+  },
+  "official-r8-6": {
+    "code": "R8-6",
+    "size": [
+      24,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      30
+    ],
+    "condition": "FHWA conventional single-lane or multilane roadway",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R8-6 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=299",
+      "page": 299
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=7"
+  },
+  "official-r9-7": {
+    "code": "R9-7",
+    "size": [
+      12,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      18
+    ],
+    "condition": "Shared-use path, off-roadway minimum",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R9-7 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=315",
+      "page": 315
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1589"
+  },
+  "official-r10-2": {
+    "code": "R10-2",
+    "size": [
+      9,
+      12
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      9,
+      12
+    ],
+    "condition": "FHWA conventional single-lane or multilane roadway",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R10-2 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=340",
+      "page": 340
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=8"
+  },
+  "official-r10-4": {
+    "code": "R10-4",
+    "size": [
+      9,
+      12
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      9,
+      12
+    ],
+    "condition": "Illustrated push button for green panel, off-roadway bicycle facility",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R10-4 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=343",
+      "page": 343
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1589"
+  },
+  "official-s5-1": {
+    "code": "S5-1",
+    "size": [
+      24,
+      48
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      48
+    ],
+    "condition": "FHWA conventional road school speed limit when flashing",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, S5-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=768",
+      "page": 768
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/part7r1.pdf#page=3"
+  },
+  "official-s5-2": {
+    "code": "S5-2",
+    "size": [
+      24,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      30
+    ],
+    "condition": "FHWA conventional road end school zone",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, S5-2 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=769",
+      "page": 769
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/part7r1.pdf#page=3"
+  },
+  "official-g20-1": {
+    "code": "G20-1",
+    "size": [
+      36,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      36,
+      18
+    ],
+    "condition": "FHWA conventional roadway / California minimum TTC panel",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, G20-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=745",
+      "page": 745
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1280"
+  },
+  "official-om1-3": {
+    "code": "OM1-3",
+    "size": [
+      18,
+      18
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      25.455844122715714,
+      25.455844122715714
+    ],
+    "condition": "18-inch minimum diamond side, California Section 2C.70 and issued FHWA layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, OM1-3 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=680",
+      "page": 680
+    },
+    "notes": "The publisher dimensions an 18-inch rotated square and a 1.5-inch corner radius. The ideal upright frame is 25.455844 inches; its rounded material span is 24.213203 inches.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=343"
+  },
+  "official-om4-3": {
+    "code": "OM4-3",
+    "size": [
+      18,
+      18
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      25.455844122715714,
+      25.455844122715714
+    ],
+    "condition": "18-inch minimum diamond side, California Section 2C.70 and issued FHWA layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, OM4-3 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=690",
+      "page": 690
+    },
+    "notes": "The publisher dimensions an 18-inch rotated square and a 1.5-inch corner radius. The ideal upright frame is 25.455844 inches; its rounded material span is 24.213203 inches.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=343"
+  },
+  "official-r15-1": {
+    "code": "R15-1",
+    "size": [
+      40.30508652763321,
+      40.30508652763321
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      40.30508652763321,
+      40.30508652763321
+    ],
+    "condition": "Roadway grade crossing, crossed 48 × 9 inch blades",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R15-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=419",
+      "page": 419
+    },
+    "notes": "The grade-crossing table dimensions each blade at 48 × 9 inches. The issuing drawing crosses them symmetrically at 90 degrees. Each axis of the assembled envelope is (48 + 9) / sqrt(2) inches.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1529"
+  },
+  "fp-signs-1a33a": {
+    "code": "D4-1",
+    "size": [
+      18,
+      15
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      18,
+      15
+    ],
+    "condition": "Minimum parking directional panel; 18:15 source proportions",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D4-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=33",
+      "page": 33
+    },
+    "notes": "SHS lays out 18 × 15 and 30 × 24 panels. The observed directional example has a 1.200:1 panel proportion matching the 18 × 15 option.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=485"
+  },
+  "fp-signs-d7": {
+    "code": "D9-2",
+    "size": [
+      24,
+      24
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      24
+    ],
+    "condition": "Conventional roadway hospital sign",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D9-2 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=87",
+      "page": 87
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=770"
+  },
+  "mutcd-sheet-d9-2-11f56": {
+    "code": "D9-2",
+    "size": [
+      24,
+      24
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      24
+    ],
+    "condition": "Conventional roadway hospital sign",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D9-2 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=87",
+      "page": 87
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=770"
+  },
+  "pico-d9-2-799eae": {
+    "code": "D9-2",
+    "size": [
+      24,
+      24
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      24
+    ],
+    "condition": "Conventional roadway hospital sign",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D9-2 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=87",
+      "page": 87
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=770"
+  },
+  "fp-signs-f20": {
+    "code": "D10-2",
+    "size": [
+      10,
+      27
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      10,
+      27
+    ],
+    "condition": "Conventional roadway two-digit mile marker",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D10-2 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=140",
+      "page": 140
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=736"
+  },
+  "3346-signs-1-13-1066b5f": {
+    "code": "D11-1",
+    "size": [
+      24,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      18
+    ],
+    "condition": "California roadway or off-roadway bicycle route",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D11-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=146",
+      "page": 146
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1591"
+  },
+  "3346-signs-1-13-10983db": {
+    "code": "D11-1",
+    "size": [
+      24,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      18
+    ],
+    "condition": "California roadway or off-roadway bicycle route",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D11-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=146",
+      "page": 146
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1591"
+  },
+  "3346-legacy-1035D99": {
+    "code": "D11-1",
+    "size": [
+      24,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      18
+    ],
+    "condition": "California roadway or off-roadway bicycle route",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D11-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=146",
+      "page": 146
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1591"
+  },
+  "3346-title-103A364": {
+    "code": "D11-1",
+    "size": [
+      24,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      18
+    ],
+    "condition": "California roadway or off-roadway bicycle route",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D11-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=146",
+      "page": 146
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1591"
+  },
+  "3346-title-details-1052a01": {
+    "code": "D11-1",
+    "size": [
+      24,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      18
+    ],
+    "condition": "California roadway or off-roadway bicycle route",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D11-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=146",
+      "page": 146
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1591"
+  },
+  "fp-signs-f21": {
+    "code": "D11-1",
+    "size": [
+      24,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      18
+    ],
+    "condition": "California roadway or off-roadway bicycle route",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, D11-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=146",
+      "page": 146
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1591"
+  },
+  "fp-signs-14021": {
+    "code": "M1-8",
+    "size": [
+      18,
+      24
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      18,
+      24
+    ],
+    "condition": "On-roadway state or local bicycle route, issued route 13 example",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, M1-8 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_5-Guide_Signs.pdf#page=19",
+      "page": 19
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1591"
+  },
+  "pico-r1-5-774fee": {
+    "code": "R1-5",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      36,
+      36
+    ],
+    "condition": "Conventional multilane roadway, issued left-pointing R1-5L alternative",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R1-5 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=28",
+      "page": 28
+    },
+    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=288"
+  },
+  "fp-signs-794d": {
+    "code": "R7-1",
+    "size": [
+      12,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      18
+    ],
+    "condition": "FHWA conventional parking restriction, double-headed arrow",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R7-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=249",
+      "page": 249
+    },
+    "notes": "The identical NO PARKING ANY TIME legend on its 2:3 source panel retains the double-headed arrow of the drawing.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  },
+  "mutcd-sheet-r7-1-10a25": {
+    "code": "R7-1",
+    "size": [
+      12,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      18
+    ],
+    "condition": "FHWA conventional parking restriction, double-headed arrow",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, R7-1 layout",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=249",
+      "page": 249
+    },
+    "notes": "The identical NO PARKING ANY TIME legend on its 2:3 source panel retains the double-headed arrow of the drawing.",
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  }
+}

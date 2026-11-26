@@ -1,0 +1,236 @@
+{
+  "pico-r61-19-ca-mod-lt-142451a": {
+    "separatorHandles": [
+      "142451D"
+    ]
+  },
+  "pico-r61-19-ca-mod-rt-14251d8": {
+    "separatorHandles": [
+      "14251DB"
+    ]
+  },
+  "pico-r61-34-ca-mod-142525d": {
+    "separatorHandles": [
+      "142523A",
+      "142523D"
+    ]
+  },
+  "pico-r10-15-mod-152d98c": {
+    "joinedGlyphContours": [
+      [
+        [
+          "152F776",
+          false
+        ],
+        [
+          "152F770",
+          true
+        ],
+        [
+          "152F775",
+          false
+        ],
+        [
+          "152F76E",
+          false
+        ],
+        [
+          "152F773",
+          true
+        ],
+        [
+          "152F76D",
+          true
+        ]
+      ],
+      [
+        [
+          "152F7A2",
+          false
+        ],
+        [
+          "152F78A",
+          true
+        ],
+        [
+          "152F7A1",
+          false
+        ],
+        [
+          "152F788",
+          false
+        ],
+        [
+          "152F79B",
+          true
+        ],
+        [
+          "152F77A",
+          true
+        ]
+      ]
+    ],
+    "minimumAddedInkY": 0.62
+  },
+  "pico-r5-2-6000-587a7d": {
+    "minimumAddedInkY": 1.0
+  },
+  "pico-r81-ca-761ac6": {
+    "minimumAddedInkY": 1.0
+  },
+  "pico-r1-5-mod-10f2f4a": {
+    "minimumAddedInkY": 1.0
+  },
+  "pico-r118-ca-10f22d9": {
+    "minimumAddedInkY": 1.0
+  },
+  "pico-assembly-d-ca-5921b8": {
+    "minimumAddedInkY": 1.0
+  },
+  "mutcd-sheet-m5-2-11fa0": {
+    "joinArrowContours": true
+  },
+  "mutcd-sheet-m6-1-11fa1": {
+    "joinArrowContours": true
+  },
+  "mutcd-sheet-m6-2-11fa2": {
+    "joinArrowContours": true
+  },
+  "mutcd-sheet-m6-3-11fa3": {
+    "joinArrowContours": true
+  },
+  "mutcd-sheet-r3-6l-10593": {
+    "joinArrowContours": true
+  },
+  "mutcd-sheet-r3-6r-105b0": {
+    "joinArrowContours": true
+  },
+  "mutcd-sheet-r3-8l-105f9": {
+    "joinArrowContours": true
+  },
+  "mutcd-sheet-r3-8r-1062a": {
+    "joinArrowContours": true
+  },
+  "mutcd-sheet-r3-9a-10651": {
+    "joinArrowContours": true
+  },
+  "mutcd-sheet-m5-1-11f9f": {
+    "joinArrowContours": true
+  },
+  "fp-signs-1a33a": {
+    "subtractHatches": [
+      "1A33C",
+      "1A33F",
+      "1A341",
+      "1A350"
+    ],
+    "minimumAddedInkY": 1.0
+  },
+  "fp-signs-7ada": {
+    "skipSourceHandles": [
+      "10835"
+    ],
+    "sourceRingSlash": [
+      "10829",
+      "10826",
+      "1082A"
+    ],
+    "minimumAddedInkY": 1.0
+  },
+  "fp-signs-7c60": {
+    "skipSourceHandles": [
+      "10844"
+    ],
+    "sourceRingSlash": [
+      "1083B",
+      "10838",
+      "1083C"
+    ],
+    "minimumAddedInkY": 1.0
+  },
+  "fp-signs-7c61": {
+    "skipSourceHandles": [
+      "10854"
+    ],
+    "sourceRingSlash": [
+      "1084B",
+      "10848",
+      "1084C"
+    ],
+    "minimumAddedInkY": 1.0
+  },
+  "fp-signs-8213": {
+    "skipSourceHandles": [
+      "10544"
+    ],
+    "sourceRingSlash": [
+      "10540",
+      "1053D",
+      "10541"
+    ],
+    "minimumAddedInkY": 1.0
+  },
+  "fp-signs-a8ac": {
+    "skipSourceHandles": [
+      "10551"
+    ],
+    "sourceRingSlash": [
+      "1054E",
+      "1054B",
+      "1054F"
+    ],
+    "minimumAddedInkY": 1.0
+  },
+  "fp-signs-a8ad": {
+    "skipSourceHandles": [
+      "10560"
+    ],
+    "sourceRingSlash": [
+      "1055D",
+      "1055A",
+      "1055E"
+    ],
+    "minimumAddedInkY": 1.0
+  },
+  "fp-signs-block-41-0335": {
+    "componentOf": "fp-signs-assembly-41-0335-41-0336",
+    "componentRole": "Car warning panel",
+    "note": "Car warning panel from the complete 41-0335 & 41-0336 sign assembly."
+  },
+  "fp-signs-block-41-0336": {
+    "componentOf": "fp-signs-assembly-41-0335-41-0336",
+    "componentRole": "SLIPPERY WHEN WET plaque",
+    "note": "SLIPPERY WHEN WET plaque from the complete 41-0335 & 41-0336 sign assembly."
+  },
+  "mutcd-sheet-r9-7-10e44": {
+    "joinedApertureContours": [
+      [
+        [
+          "10E01",
+          false
+        ],
+        [
+          "10DFF",
+          true
+        ],
+        [
+          "10DF8",
+          true
+        ],
+        [
+          "10E2A",
+          true
+        ],
+        [
+          "10DF4",
+          false
+        ],
+        [
+          "10E02",
+          false
+        ]
+      ]
+    ],
+    "note": "Bike-right historic source artwork. Six original wheel, hub and fork edges close the left bicycle-wheel opening."
+  }
+}

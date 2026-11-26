@@ -8,7 +8,10 @@ const root=fileURLToPath(new URL('../',import.meta.url)), base='/SoCal-Super-Sta
 const read=rel=>readFile(path.join(root,rel),'utf8');
 const json=async rel=>JSON.parse(await read(rel));
 const rows=await json('public/data/plan-signs.json');
-const source=await json('data/reference/plan-examples/cad-signs.json');
+const source=[];
+for(const name of ['cad-signs','sign-library-records','3346-sign-records']){
+  source.push(...await json('data/reference/plan-examples/'+name+'.json'));
+}
 const sourcesPublic=await json('public/data/cad-sign-evidence.json');
 const art=await json('data/reference/plan-examples/cad-sign-art.json');
 assert.deepEqual(sourcesPublic.records,source,'Public CAD evidence must match the source inventory');
@@ -48,7 +51,8 @@ for(const obs of source){
   assert.ok(row,obs.designation);
   const proof=row.drawings.find(d=>d.source===obs.source);
   assert.ok(proof,obs.source+' '+obs.designation);
-  assert.ok(inventory.includes('id="'+proof.url.split('#')[1]+'"'));
+  const sourcePage=proof.url.startsWith(base+'/signs/cad/sources/') ? await page(proof.url) : inventory;
+  assert.ok(sourcePage.includes('id="'+proof.url.split('#')[1]+'"'),proof.url);
   for(const id of obs.detailIDs||[]){
     assert.ok(proof.details.includes(id));
     assert.ok(inventory.includes('id="'+id+'"'));
@@ -65,5 +69,15 @@ for(const [query,end] of [['R10-15','/signs/r10-15/'],['R10-15 (MOD)','/signs/r1
   ['G1-4(CA)','/signs/g1-4ca/'],['W11-2(MOD B)','/signs/w11-2/#plan-w11-2-mod-b']]){
   const hits=await direct(query);
   assert.equal(hits[0].url,base+end,query);
+}
+const release=await json('public/downloads/sign-blocks/manifest.json');
+const nativeLinks=new Set(release.records.map(r=>r.recordUrl));
+const issued=new Set(release.records.filter(r=>r.sourceKind==='current issued sign artwork').map(r=>designation(r.code)));
+for(const code of new Set(release.records.map(r=>r.code))){
+  for(const query of ['CAD '+code, 'DWG '+code,code+' CAD',code+' DWG']){
+    const hits=await direct(query,'Signs',5,'exact');
+    assert.ok(nativeLinks.has(hits[0]?.url),query+' should open an actual block record');
+    if(issued.has(designation(code)))assert.ok(hits[0].label.includes(' · Issued CAD block · '),query+' should prefer issued artwork');
+  }
 }
 console.log('Verified',rows.length,'sign records,',source.length,'drawing designations by source and',art.length,'CAD sign images, including exact search, withdrawals, detail links and base/MOD variants.');

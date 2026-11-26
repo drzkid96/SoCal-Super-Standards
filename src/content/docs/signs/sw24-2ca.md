@@ -1,6 +1,6 @@
 ---
-title: "SW24-2(CA) School sign"
-description: "SW24-2(CA) : School Signs, series SW24. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "SW24-2(CA) School crossing with diagonal arrow school sign"
+description: "SW24-2(CA) School crossing with diagonal arrow. Caltrans sign artwork, dimensions and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,12 +10,12 @@ tableOfContents: false
 <p class="scode-big">SW24-2(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>School sign</dd>
-<dt>Legend</dt><dd>-</dd>
+<dt>Descriptor</dt><dd>School crossing with diagonal arrow school sign</dd>
+<dt>Legend</dt><dd>School crossing symbol · down-left arrow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#school">School Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sw24">SW24 &middot; Other</a></dd>
-<dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 7B-1</dd>
+<dt>Colors</dt><dd>Black legend and border on fluorescent yellow-green</dd>
+<dt>Source</dt><dd><a href="https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019434-sw24-2-a11y.pdf">Caltrans sign specification SW24-2(CA) (PDF)</a></dd>
 </dl>
 </div>
 </div>

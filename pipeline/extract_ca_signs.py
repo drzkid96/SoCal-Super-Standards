@@ -8,6 +8,11 @@ Usage: python3 -I pipeline/extract_ca_signs.py CA_MUTCD.pdf
 import json, os, re, sys
 import pymupdf
 
+# The issuing agency's dedicated artwork supersedes composites in the manual.
+catalog_path = 'data/signs/ca_extra.json'
+issued = {r['code']: r for r in (json.load(open(catalog_path)) if os.path.exists(catalog_path) else [])
+          if r.get('artworkSource') == 'caltrans-specification'}
+
 SRC = sys.argv[1]
 src = pymupdf.open(SRC)
 OUT = "public/signs/ca"
@@ -91,6 +96,10 @@ for pno in range(54, len(src)):
             deleted.add(code)
             continue
         if code in seen:
+            continue
+        if code in issued:
+            out.append(issued[code])
+            seen.add(code)
             continue
         cx = (lr.x0 + lr.x1) / 2
         cand = [c for c in clusters if c.y1 <= lr.y0 + 3 and c.y1 >= lr.y0 - 30 and c.x0 - 8 <= cx <= c.x1 + 8 and c.width < 260 and c.height < 300

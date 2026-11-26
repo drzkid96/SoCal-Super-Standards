@@ -1,6 +1,6 @@
 ---
-title: "SC3(CA) Detour work zone sign"
-description: "SC3(CA) Detour: Temporary Traffic Control Signs, series SC3. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "SC3(CA) Detour straight ahead work zone sign"
+description: "SC3(CA) Detour straight ahead. Caltrans sign artwork, dimensions and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,12 +10,12 @@ tableOfContents: false
 <p class="scode-big">SC3(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Detour work zone sign</dd>
-<dt>Legend</dt><dd>DETOUR</dd>
+<dt>Descriptor</dt><dd>Detour straight ahead work zone sign</dd>
+<dt>Legend</dt><dd>DETOUR with straight-ahead arrow</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#ttc">Temporary Traffic Control Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sc3">SC3 &middot; Other</a></dd>
-<dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 6I-1(CA)</dd>
+<dt>Colors</dt><dd>Black legend and border on orange</dd>
+<dt>Source</dt><dd><a href="https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sc/f0019306-sc3-a11y.pdf">Caltrans sign specification SC3(CA) (PDF)</a></dd>
 </dl>
 </div>
 </div>

@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "master": {
+    "encoding": "xz",
+    "file": "master.dwg.xz",
+    "bytes": 8796952,
+    "sha256": "27d08ada5acbad5f36dbf80501c6e152fa68fd278740c83dea9882f2ba77bd1d"
+  },
+  "families": [
+    {
+      "family": "Guide",
+      "records": 108,
+      "file": "guide.zip",
+      "bytes": 2000671,
+      "sha256": "a34eb1efec61b8b5781f8fb269a17a262103ba5497d42ccd7085118463b3a04e"
+    },
+    {
+      "family": "Local and other",
+      "records": 133,
+      "file": "local-and-other.zip",
+      "bytes": 2829930,
+      "sha256": "53a367d59bb13d6cb20bf7b0f25e28053c6b7268f4d90787bbf38f7bd93e863a"
+    },
+    {
+      "family": "Object markers",
+      "records": 7,
+      "file": "object-markers.zip",
+      "bytes": 60082,
+      "sha256": "8001342e7cb4a81130a361113fa97143f15bdd1d0c427e1142b207c2b0d68b3c"
+    },
+    {
+      "family": "Regulatory",
+      "records": 455,
+      "file": "regulatory.zip",
+      "bytes": 10177006,
+      "sha256": "c07566c264339a83cbe4daeaac23bac22422f305c43a5cefcc15ce3bbe25b016"
+    },
+    {
+      "family": "School",
+      "records": 15,
+      "file": "school.zip",
+      "bytes": 384062,
+      "sha256": "bb16448f12132bf9e36057649863db88af7c802d436175fd5c8ad46a87c575e9"
+    },
+    {
+      "family": "Temporary traffic control",
+      "records": 69,
+      "file": "temporary-traffic-control.zip",
+      "bytes": 2632209,
+      "sha256": "b7e3691f98eb157847c13e4540512646a0bf5a4c762fb85802fb0eb80c1f1f41"
+    },
+    {
+      "family": "Warning",
+      "records": 236,
+      "file": "warning.zip",
+      "bytes": 4585700,
+      "sha256": "94ecb1b3427a7e3e14c70def1d0e54bd021fc62af89d21f33c7ba5947cf1b31e"
+    }
+  ],
+  "standardReference": {
+    "file": "CA-FHWA-SIGN-STANDARDS-REFERENCE.zip",
+    "bytes": 170686,
+    "sha256": "e4c91fe23eb1bacca0655e941146d2115a12047a47eb80cfd88ac64607b21d98"
+  },
+  "readme": {
+    "file": "README.txt",
+    "bytes": 1103,
+    "sha256": "118c00adeea485b62da362002df81c3e4ac632c80d678e7e724cebbab6659fb8"
+  },
+  "manifest": {
+    "file": "manifest.json",
+    "bytes": 1959208,
+    "sha256": "920b239397d0beed19f43e981f549a025b0fba89fd1636edd2d7b6ce8eef6fd3"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "masterSha256": "327d893d8fbd44289bf0768224a54eae9746889fbae7aae391294b58aabb764b",
+  "cataloguedBlocks": 1023,
+  "uniqueCaseInsensitiveStandaloneNames": 1023,
+  "masterBlocksAndPlacementsChecked": 1023,
+  "reopenedInsertCount": 3,
+  "standaloneUnits": "inches",
+  "sameCodeVariantTest": true,
+  "sample": [
+    {
+      "code": "R4-11",
+      "blockName": "R4-11",
+      "dwgSha256": "89ec9b4714dcf7a05b3f13132ffe47bd7e13f4f5342a8e29131bc540d2488b02",
+      "directEntities": {
+        "HATCH": 59,
+        "LWPOLYLINE": 12,
+        "SPLINE": 12,
+        "LINE": 23
+      },
+      "insertionPoints": [
+        [
+          0,
+          0
+        ],
+        [
+          120,
+          0
+        ]
+      ]
+    },
+    {
+      "code": "R4-11",
+      "blockName": "R4-11 [3346 sheets 1-13 2]",
+      "dwgSha256": "529b11d53e23c9171f6b2b45e893e0b47768f9c1ab490060bd6342bb4d29a119",
+      "directEntities": {
+        "HATCH": 59,
+        "LWPOLYLINE": 12,
+        "SPLINE": 12,
+        "LINE": 23
+      },
+      "insertionPoints": [
+        [
+          0,
+          120
+        ]
+      ]
+    }
+  ],
+  "method": "Independently decoded native master and individual sign files. Imported centered modelspace artwork under each standalone filename into an empty drawing, inserted one sign twice and a second design once, encoded a new R2000 DWG, reopened it through libdxfrw and compared block names, entities, solid hatches and insertion points."
+}

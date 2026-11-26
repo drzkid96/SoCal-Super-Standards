@@ -151,7 +151,7 @@ for code, rec in signs.items():
     rec["series"] = series_of(code)
     rec["series_name"] = SERIES.get(rec["series"], "Other")
     rec["slug"] = slug(code)
-    rec["descriptor"] = descriptor(rec)
+    rec["descriptor"] = rec.get('descriptor') if rec.get('artworkSource')=='caltrans-specification' else descriptor(rec)
     rec["keywords"] = keywords(rec)
 
 # ------------------------------------------------------------------ California status
@@ -216,6 +216,11 @@ os.makedirs(f"{ROOT}/src/content/docs/signs", exist_ok=True)
 for f in glob.glob(f"{ROOT}/src/content/docs/signs/*.md"):
     os.remove(f)
 esc = lambda t: html.escape(str(t), quote=True)
+
+
+def source_link(rec):
+    label=esc(rec['source'])
+    return f'<a href="{esc(rec["sourceUrl"])}">{label} (PDF)</a>' if rec.get('sourceUrl') else label
 
 
 def card(rec):
@@ -347,7 +352,7 @@ tableOfContents: false
 <dt>Type</dt><dd><a href="{BASE}/signs/#{CATS.get(rec['category'], 'other')}">{esc(rec['category'])}</a></dd>
 <dt>Series</dt><dd><a href="{BASE}/signs/#series-{rec['series'].lower()}">{esc(rec['series'])} &middot; {esc(rec['series_name'])}</a></dd>
 <dt>Colors</dt><dd>{esc(rec['colors'].split(rec['code'])[0].strip() if rec['colors'] else 'See layout')}</dd>
-<dt>Source</dt><dd>{esc(rec['source'])}{(', page ' + esc(rec['page_label'])) if rec.get('page_label') else ''}</dd>
+<dt>Source</dt><dd>{source_link(rec)}{(', page ' + esc(rec['page_label'])) if rec.get('page_label') else ''}</dd>
 </dl>
 </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "W31(CA) End warning sign"
-description: "W31(CA) End: Warning Signs and Object Markers, series W31. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+description: "W31(CA) End. Caltrans sign artwork, dimensions and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -14,8 +14,8 @@ tableOfContents: false
 <dt>Legend</dt><dd>END</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w31">W31 &middot; Other</a></dd>
-<dt>Colors</dt><dd>See layout</dd>
-<dt>Source</dt><dd>CA MUTCD 2026, Figure 2C-6(CA)</dd>
+<dt>Colors</dt><dd>Black legend and border on yellow</dd>
+<dt>Source</dt><dd><a href="https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/w/f0019474-w31-a11y.pdf">Caltrans sign specification W31(CA) (PDF)</a></dd>
 </dl>
 </div>
 </div>

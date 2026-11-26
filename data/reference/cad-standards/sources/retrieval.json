@@ -1,0 +1,39 @@
+{
+  "california": {
+    "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf",
+    "sha256": "a3a0ab0659672a5c0959d963849176f173d768147743b87d85d9eb398e2343d9"
+  },
+  "federal": {
+    "part4r1.pdf": "bd427184b2f0bf95d3474dfcb1c568744a246713b4f334aa630379890eddf6fc",
+    "part8r1.pdf": "e5bd41113f09207449e3c89e47c41a327c73ee223e3816e29c4cacbf3fe4e0c7",
+    "Chapter2kr1.pdf": "015971765d21fa6e46a6053cd4a77548ae2b18e20fd337a49d8f478fe2819a25",
+    "Chapter2hr1.pdf": "e0a86d0c18f152a1ecdaaff9370c68828fbeb3b3d1d44bf08aec7004f320956c",
+    "Chapter2gr1.pdf": "6c969d6acf20c90504ef71e6ebfc1af9415a953bf3711d7baba45b7bdd16852c",
+    "part7r1.pdf": "1f3032ec7cbd51c0ff5f50233d1ee0db1c51541f6224103ffaff6da793f785dd",
+    "Chapter2br1.pdf": "eafd9215b97da9f681fcc1bdb8ee31d36ef4ec340a15a0d28c8239f77a2ecd54",
+    "part6r1.pdf": "f475c3e8776b42f04fc312020b8d7e5d0be86dddfa5094ceb59ed7eb5413ab84",
+    "Chapter2dr1.pdf": "aae919a18747e0b99e878eaa8e3a8256803657f2722686615a66dcff94508887",
+    "Chapter2mr1.pdf": "b3ea7a8448e37f99cae05c92980ae5b209242ee989d1ba04c08a942692874817",
+    "Chapter2lr1.pdf": "78268a42ae5852f123959db09ecdf019f0d6fe0637dfd604a53c325e584f44a7",
+    "Chapter2ir1.pdf": "5c2b9c9e80948d353ea41cd9b3bd467457d9bb09144d9cfedd8af367b781b4e7",
+    "Chapter2fr1.pdf": "10b951ae963c0398a9f509d65a9d01964e1c87d37876a1103fb96151762777f7",
+    "part9r1.pdf": "8fe8d88b27b1a01d7f29dc3f491335d41a637f1107eb670774e81c8fac14a60a",
+    "part5r1.pdf": "d64c042787d3820d2cee964c5612bbed2107b98f17ef536cb9e50c0c9e15b80c",
+    "Chapter2jr1.pdf": "bfbc761bf55e893304fe03c39e7232e49724d642191b5ab8811bfa5ad87d9826",
+    "Chapter2cr1.pdf": "a4bb3930f1c084dbff3ebfacf5443b9c78cc8a35608af90d960f993f637ab182",
+    "part1r1.pdf": "f5c218942f61d68c3cd6fd6df79c4234934be95b2307285bad1245cc52e4b118",
+    "Chapter2ar1.pdf": "5f3040e7f24f7a078ac93527e5835d8e963078a349f32d15f911fe10cd53dfe2",
+    "part3r1.pdf": "bc1f4e6ee6def29a1c69aabd137f3a7c31a7e8009f135f7cd5d11dfd56dfabd0",
+    "Chapter2er1.pdf": "a22dbdd4fc8aae8015e501410a9f2b3e75073b748af14a7f2c85f4c4a471ae76",
+    "Chapter2nr1.pdf": "3eecbb9bc30820b12713757f0052c465ae313e1b6b439c0d400268fa932695e5"
+  },
+  "caltransSpecifications": {
+    "url": "https://dot.ca.gov/programs/safety-programs/sign-specs",
+    "sha256": "e334ffe523b584cde566f0b7b7a6e252e09b7c32720ef229b1f74e92ab61327b"
+  },
+  "fhwa2024LayoutsReleases1To4": {
+    "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf",
+    "sha256": "b1a9091e78eeb8a3605cc1041ba403c34048d1a2182265f3027eb864c922b3ff",
+    "pdfPages": 777
+  }
+}

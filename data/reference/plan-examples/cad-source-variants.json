@@ -1,0 +1,314 @@
+{
+  "mutcd-sheet-g20-1-11f5c": {
+    "code": "G20-1",
+    "legend": "ROAD CONSTRUCTION NEXT X MILES"
+  },
+  "mutcd-sheet-g20-2-11f5d": {
+    "code": "G20-2",
+    "legend": "END CONSTRUCTION"
+  },
+  "pico-r1-5-774fee": {
+    "code": "R1-5",
+    "legend": "YIELD HERE TO pedestrians, left-pointing arrow"
+  },
+  "mutcd-sheet-r10-1-121f0": {
+    "code": "R10-1",
+    "legend": "CROSS ON GREEN LIGHT ONLY"
+  },
+  "pico-r10-11-11bf3d0": {
+    "code": "R10-11",
+    "legend": "NO TURN ON RED with signal disc"
+  },
+  "fp-signs-9c6f": {
+    "code": "R10-11a",
+    "legend": "NO TURN ON RED, word-only panel"
+  },
+  "mutcd-sheet-r10-2-121f1": {
+    "code": "R10-2",
+    "legend": "CROSS ON WALK SIGNAL ONLY"
+  },
+  "mutcd-sheet-r10-3-121f3": {
+    "code": "R10-3",
+    "legend": "PUSH BUTTON FOR GREEN LIGHT"
+  },
+  "mutcd-sheet-r10-4-121f6": {
+    "code": "R10-4",
+    "legend": "PUSH BUTTON FOR WALK SIGNAL"
+  },
+  "fp-signs-1a60a": {
+    "code": "R10-40",
+    "legend": "Bicycle signal with three movement arrows"
+  },
+  "mutcd-sheet-r11-3a-1102a": {
+    "code": "R11-3a",
+    "legend": "ROAD CLOSED 10 MILES AHEAD LOCAL TRAFFIC ONLY"
+  },
+  "mutcd-sheet-r12-5-127ad": {
+    "code": "R12-5",
+    "legend": "Vehicle-specific tons using source variable 0 T / 00 T"
+  },
+  "fp-signs-1b8b4": {
+    "code": "R2-1",
+    "legend": "SPEED LIMIT 15"
+  },
+  "mutcd-sheet-r2-4a-1043a": {
+    "code": "R2-4A",
+    "legend": "SPEED LIMIT 50 / MINIMUM 30"
+  },
+  "mutcd-sheet-r3-10-10694": {
+    "code": "R3-10",
+    "legend": "RESTRICTED LANE / diamond / AHEAD"
+  },
+  "fp-signs-7475": {
+    "code": "R3-11",
+    "legend": "RIGHT LANE / BUSES AND CARPOOLS / RIGHT TURNS ONLY / 6AM–9PM"
+  },
+  "mutcd-sheet-r3-11-106b0": {
+    "code": "R3-11",
+    "legend": "CENTER LANE / BUSES AND CARPOOLS ONLY / 6AM–9AM"
+  },
+  "fp-signs-9a5f": {
+    "code": "R3-11a",
+    "legend": "RIGHT LANE / BUSES AND 2 PERSON CARPOOLS ONLY"
+  },
+  "fp-signs-757b": {
+    "code": "R3-12",
+    "legend": "RESTRICTED LANE / diamond / ENDS"
+  },
+  "mutcd-sheet-r3-12-106c6": {
+    "code": "R3-12",
+    "legend": "RESTRICTED LANE / diamond / ENDS"
+  },
+  "mutcd-sheet-r3-13-106db": {
+    "code": "R3-13",
+    "legend": "RESTRICTED LANE AHEAD"
+  },
+  "mutcd-sheet-r3-14-106fc": {
+    "code": "R3-14",
+    "legend": "BUSES AND 4 RIDER CARPOOLS RIGHT TURNS ONLY, down arrow"
+  },
+  "mutcd-sheet-r3-15-10711": {
+    "code": "R3-15",
+    "legend": "RESTRICTED LANE ENDS"
+  },
+  "fp-signs-75f3": {
+    "code": "R3-17",
+    "legend": "RIGHT LANE / bicycle / ONLY"
+  },
+  "mutcd-sheet-r3-17-107b4": {
+    "code": "R3-17",
+    "legend": "RIGHT LANE / bicycle / ONLY"
+  },
+  "fp-signs-7074": {
+    "code": "R3-1b",
+    "legend": "NO RIGHT TURN, word-only panel"
+  },
+  "fp-signs-1c582": {
+    "code": "R3-8",
+    "legend": "Two-lane assignment, left-turn-only lane and left/through/right lane"
+  },
+  "fp-signs-7234": {
+    "code": "R3-8",
+    "legend": "Two-lane assignment, left-turn-only lane and left/through/right lane"
+  },
+  "pico-r3-9cp-1303e07": {
+    "code": "R3-9cP",
+    "legend": "BEGINS"
+  },
+  "fp-signs-1b476": {
+    "code": "R30B(CA)",
+    "legend": "NO PARKING 5 AM TO 8 AM WEDNESDAY, STREET SWEEPING"
+  },
+  "3346-legacy-103612D": {
+    "code": "R32(CA)",
+    "legend": "2 HOUR PARKING / 7 AM–6 PM with double-headed arrow"
+  },
+  "fp-signs-1b47d": {
+    "code": "R32(CA)",
+    "legend": "2 HOUR PARKING / 9 AM–6 PM"
+  },
+  "mutcd-sheet-r5-10a-10954": {
+    "code": "R5-10a",
+    "legend": "PEDESTRIANS BICYCLES MOTOR-DRIVEN CYCLES PROHIBITED"
+  },
+  "mutcd-sheet-r5-10b-10960": {
+    "code": "R5-10b",
+    "legend": "PEDESTRIANS AND BICYCLES PROHIBITED"
+  },
+  "mutcd-sheet-r5-10c-1096b": {
+    "code": "R5-10c",
+    "legend": "PEDESTRIANS PROHIBITED"
+  },
+  "mutcd-sheet-r5-4-10906": {
+    "code": "R5-4",
+    "legend": "COMMERCIAL VEHICLES EXCLUDED"
+  },
+  "mutcd-sheet-r5-5-10912": {
+    "code": "R5-5",
+    "legend": "VEHICLES WITH LUGS PROHIBITED"
+  },
+  "fp-signs-9ade": {
+    "code": "R5-6",
+    "legend": "NO BICYCLES, word-only panel"
+  },
+  "fp-signs-794d": {
+    "code": "R7-1",
+    "legend": "NO PARKING ANY TIME, double-headed arrow"
+  },
+  "mutcd-sheet-r7-1-10a25": {
+    "code": "R7-1",
+    "legend": "NO PARKING ANY TIME, double-headed arrow"
+  },
+  "mutcd-sheet-r7-2-10a3f": {
+    "code": "R7-2",
+    "legend": "NO PARKING 8:30 AM TO 5:30 PM, double-headed arrow"
+  },
+  "mutcd-sheet-r7-200-10bd6": {
+    "code": "R7-200",
+    "legend": "Two-panel parking restriction and one-hour time limit"
+  },
+  "mutcd-sheet-r7-5-10aac": {
+    "code": "R7-5",
+    "legend": "ONE HOUR PARKING 9AM–7PM, double-headed arrow"
+  },
+  "fp-signs-9661": {
+    "code": "R8-3",
+    "legend": "NO PARKING, word-only panel"
+  },
+  "mutcd-sheet-r8-3-10c4f": {
+    "code": "R8-3",
+    "legend": "NO PARKING, word-only panel"
+  },
+  "fp-signs-region-1426a": {
+    "code": "R9-11",
+    "legend": "SIDEWALK CLOSED / left-pointing arrow / CROSS HERE"
+  },
+  "mutcd-sheet-r9-3-10ce6": {
+    "code": "R9-3",
+    "legend": "NO PEDESTRIAN CROSSING, word-only panel"
+  },
+  "pico-r9-3bp-14154d8": {
+    "code": "R9-3bP",
+    "legend": "USE CROSSWALK, left-pointing arrow"
+  },
+  "mutcd-sheet-r9-4-10d3d": {
+    "code": "R9-4",
+    "legend": "NO HITCH HIKING, word-only panel"
+  },
+  "mutcd-sheet-r9-7-10e44": {
+    "code": "R9-7",
+    "legend": "KEEP LEFT for pedestrians and KEEP RIGHT for bicycles"
+  },
+  "fp-signs-166ed": {
+    "code": "R99(CA)",
+    "legend": "Accessibility symbol above PARKING ONLY"
+  },
+  "3346-signs-1-13-109835b": {
+    "code": "R99C(CA)",
+    "legend": "Accessibility symbol above PARKING ONLY / MINIMUM FINE $250"
+  },
+  "fp-signs-16113": {
+    "code": "S5-1",
+    "legend": "SCHOOL / SPEED LIMIT 15 / WHEN FLASHING"
+  },
+  "3346-signs-1-13-10981cd": {
+    "code": "SR4-1(CA)",
+    "legend": "SPEED LIMIT 25 WHEN CHILDREN ARE PRESENT"
+  },
+  "fp-signs-1b71a": {
+    "code": "SR4-1(CA)",
+    "legend": "SCHOOL / SPEED LIMIT 20 WHEN CHILDREN ARE PRESENT"
+  },
+  "fp-signs-14fb2": {
+    "code": "W10-11b",
+    "legend": "25 FEET BETWEEN HIGHWAY & TRACKS BEHIND YOU"
+  },
+  "fp-signs-9d15": {
+    "code": "W11-10",
+    "legend": "TRUCKS, word-only panel"
+  },
+  "fp-signs-14784": {
+    "code": "W12-2",
+    "legend": "13-foot vertical clearance source legend"
+  },
+  "3346-legacy-10360EC": {
+    "code": "W16-7P",
+    "legend": "Diagonal downward-left arrow"
+  },
+  "mutcd-sheet-w20-1b-12781": {
+    "code": "W20-1b",
+    "legend": "ROAD CONSTRUCTION 1000 FT"
+  },
+  "mutcd-sheet-w20-2a-12786": {
+    "code": "W20-2a",
+    "legend": "DETOUR AHEAD, word-only panel"
+  },
+  "mutcd-sheet-w20-3-1278b": {
+    "code": "W20-3",
+    "legend": "ROAD CLOSED"
+  },
+  "fp-signs-668c": {
+    "code": "W20-5a",
+    "legend": "LEFT LANE CLOSED AHEAD"
+  },
+  "mutcd-sheet-w20-7-12790": {
+    "code": "W20-7",
+    "legend": "FLAGGER, word-only panel"
+  },
+  "mutcd-sheet-w20-7a-1277f": {
+    "code": "W20-7a",
+    "legend": "Flagger symbol"
+  },
+  "mutcd-sheet-w21-1-12792": {
+    "code": "W21-1",
+    "legend": "WORKERS, word-only panel"
+  },
+  "mutcd-sheet-w21-1a-12793": {
+    "code": "W21-1a",
+    "legend": "Worker-with-shovel symbol"
+  },
+  "mutcd-sheet-w21-4-12794": {
+    "code": "W21-4",
+    "legend": "ROAD WORK, word-only panel"
+  },
+  "mutcd-sheet-w22-1-12797": {
+    "code": "W22-1",
+    "legend": "BLASTING ZONE 1000 FT"
+  },
+  "fp-signs-66e6": {
+    "code": "W3-1",
+    "legend": "STOP AHEAD, word-only panel"
+  },
+  "mutcd-sheet-w3-1-1120a": {
+    "code": "W3-1",
+    "legend": "STOP AHEAD, word-only panel"
+  },
+  "mutcd-sheet-w3-2-11230": {
+    "code": "W3-2",
+    "legend": "YIELD AHEAD, word-only panel"
+  },
+  "fp-signs-18af4": {
+    "code": "W3-5",
+    "legend": "SPEED LIMIT 25 advance warning"
+  },
+  "fp-signs-145fa": {
+    "code": "W4-4p",
+    "legend": "CROSS TRAFFIC DOES NOT STOP with right arrow"
+  },
+  "pico-w4-7-13c8f6d": {
+    "code": "W4-7",
+    "legend": "THRU TRAFFIC MERGE LEFT"
+  },
+  "mutcd-sheet-w5-2a-11370": {
+    "code": "W5-2a",
+    "legend": "Underpass narrowing diagram"
+  },
+  "mutcd-sheet-w5-4-11384": {
+    "code": "W5-4",
+    "legend": "BIKEWAY NARROWS"
+  },
+  "mutcd-sheet-w7-1a-11428": {
+    "code": "W7-1a",
+    "legend": "HILL, word-only panel"
+  }
+}
