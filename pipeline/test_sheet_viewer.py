@@ -146,6 +146,8 @@ with TemporaryDirectory() as temp:
         for route,groups in [('signs/', '.sseries .sgrid'),('markings/', '.mcat-sec .mgrid')]:
             browser.get(base+route)
             controls=browser.find_element(By.CSS_SELECTOR,'.chart-size')
+            for disclosure in controls.find_elements(By.XPATH,'ancestor::details[not(@open)]'):
+                disclosure.find_element(By.XPATH,'./summary').click()
             selector=Select(controls.find_element(By.TAG_NAME,'select'))
             slider=controls.find_element(By.CSS_SELECTOR,'input[type=range]')
             assert len(selector.options)>2
