@@ -282,6 +282,10 @@ if __name__ == '__main__':
         options = webdriver.ChromeOptions()
         for flag in ('--headless=new', '--no-sandbox', '--disable-dev-shm-usage'):
             options.add_argument(flag)
+        if os.environ.get('STANDARDS_TEST_ORIGIN','').startswith('https://'):
+            proxy = os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy')
+            if proxy:
+                options.add_argument('--proxy-server='+proxy)
         if os.environ.get('CHROME_BIN'):
             options.binary_location = os.environ['CHROME_BIN']
         options.add_experimental_option('prefs', {'download.default_directory':str(downloads),'download.prompt_for_download':False})

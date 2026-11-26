@@ -116,7 +116,9 @@ body:has(.home-columns) .home-tools a{padding:.2rem 0;border:none;text-decoratio
   .sl-markdown-content:has(.topic-tasks) .type-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:.45rem}
   .sl-markdown-content:has(.topic-tasks) .type-gallery .mfig{padding:.35rem}
 }
-body:has(.home-columns) main footer:has(>.meta:empty):has(>.pagination-links:empty){display:none}
+/* The home footer has no preceding or following page. Its mobile Top button
+   would otherwise create the only scrolling on a one-screen directory. */
+body:has(.home-columns) main footer:has(> .meta:empty):not(:has(> :not(.meta,.pagination-links:empty,.to-top))){display:none}
 
 /* Compare all five Los Angeles curb uses before opening a drawing or calculator. */
 .sl-markdown-content .curb-key{display:table;width:100%;max-width:70rem;border-collapse:collapse;margin:.6rem 0 .85rem;font-size:.94rem}

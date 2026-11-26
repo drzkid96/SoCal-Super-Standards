@@ -345,7 +345,8 @@ def write_pages(root, lookup, release):
         if (Path('public/downloads/sign-blocks-qa')/name).is_file():
             qa.append(f'<a href="{BASE}/downloads/sign-blocks-qa/{name}">{label}</a>')
     qa_links=(' · '+' · '.join(qa)) if qa else ''
-    example_files=[('LADOT-SIGN-LEGEND-EXAMPLE.zip','Two-sign legend'),('LADOT-SIGN-LEGEND-THREE-TABLES.zip','Three-table legend')]
+    example_files=[('LADOT-SIGN-LEGEND-EXAMPLE.zip','Two-sign legend'),('LADOT-SIGN-LEGEND-THREE-TABLES.zip','Three-table legend'),
+                   ('LADOT-SIGN-LEGEND-IMPORTED-SHEETS.zip','Legend from imported sheets')]
     examples=[f'<a download href="{BASE}/downloads/sign-blocks-qa/{name}">{label} (ZIP)</a>' for name,label in example_files
               if (Path('public/downloads/sign-blocks-qa')/name).is_file()]
     legend_examples='<p id="legend-examples">'+' · '.join(examples)+'</p>' if examples else ''
