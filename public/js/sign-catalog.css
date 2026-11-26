@@ -28,10 +28,3 @@
 #sfilter.sign-chart-tools summary {display:block;list-style:none}
 #sfilter.sign-chart-tools summary::-webkit-details-marker {display:none}
 .sign-chart-tools ~ .sgroup {margin-block-start:1.35rem}
-
-/* Keep offscreen series searchable while deferring their grid layout and painting. */
-@supports (content-visibility:auto) {
-  @media screen {
-    .sseries .sgrid { content-visibility:auto; contain-intrinsic-size:auto 18rem; }
-  }
-}

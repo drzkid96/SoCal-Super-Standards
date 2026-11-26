@@ -261,8 +261,16 @@ def update_chart(path,rows):
             thumb=f'<span class="simg"><img loading="lazy" src="{asset}" alt=""></span>'
         aliases=' '.join(row['aliases'])
         descriptor=(row['baseOfficial'] or {}).get('descriptor','')
+        display_code=escape(re.sub(r'\s*\(MOD\)\s*-?\s*(bicycle|pedestrian)\b',
+                                   lambda m:' (MOD) · '+m[1].capitalize(),
+                                   re.sub(r'\s*\(MOD\)', ' (MOD)', row['code'], flags=re.I), flags=re.I))
+        if row['code'].upper().startswith('UNNUMBERED '):
+            display_code='Unnumbered'
+            label=escape(row['code'][11:].strip().capitalize())
+        elif descriptor and label in ('Plan variant','Modified plan designation','Plan designation'):
+            label=escape(descriptor)
         searchable=escape((aliases+' '+row['status']+' '+descriptor).lower(),quote=True)
-        card=f'<a class="scard" href="{escape(row["url"])}" data-code="{code}" data-name="{searchable}" data-cat="{cat}" data-ca="plan"{attrs}>{thumb}<span class="scode">{code}</span><span class="sname">{label}</span></a>'
+        card=f'<a class="scard" href="{escape(row["url"])}" data-code="{code}" data-name="{searchable}" data-cat="{cat}" data-ca="plan"{attrs}>{thumb}<span class="scode">{display_code}</span><span class="sname">{label}</span></a>'
         prefix=re.match(r'([a-z]+\d*)',row['key'].lower())
         family='om' if row['key'].startswith('OM') else prefix[1] if prefix else ''
         if row['baseOfficial']:
@@ -301,6 +309,33 @@ def update_chart(path,rows):
             end=re.search(r'<h2 id="[^"]+" class="sgroup"|<script',page[group.end():])
             pos=group.end()+end.start() if end else len(page)
             page=page[:pos]+section+'\n'+page[pos:]
+    # Sort after every importer has contributed its cards, before cart controls wrap them.
+    series_pattern=r'(<div class="sseries" data-cat="([^"]+)"><h3([^>]*)>([^<]*)</h3><div class="sgrid">)(.*?)(</div></div>)'
+    card_pattern=r'<a class="scard[^"]*"[^>]*>.*?</a>'
+    def code_of(card):
+        return re.search(r' data-code="([^"]+)"',card)[1]
+    def numeric_key(code):
+        return tuple((0,int(token)) if token.isdigit() else (1,token.casefold())
+                     for token in re.findall(r'\d+|[^\d]+',code))
+    available={(m[2],m[4].split(' · ')[0].upper()) for m in re.finditer(series_pattern,page,re.S)}
+    moved=defaultdict(list)
+    def regroup(m):
+        if not m[4].startswith(('FHWA ','Drawing designations')):
+            return m[0]
+        retained=[]
+        for card in re.findall(card_pattern,m[5],re.S):
+            family=re.match(r'[A-Z]+\d+',code_of(card),re.I)
+            key=(m[2],family[0].upper()) if family else None
+            (moved[key] if key in available else retained).append(card)
+        return m[1]+''.join(retained)+m[6] if retained else ''
+    page=re.sub(series_pattern,regroup,page,flags=re.S)
+    def order(m):
+        cards=re.findall(card_pattern,m[5],re.S)
+        if re.sub(card_pattern,'',m[5],flags=re.S).strip():
+            raise ValueError('Unexpected sign grid markup in '+m[4])
+        cards.extend(moved.pop((m[2],m[4].split(' · ')[0].upper()),[]))
+        return m[1]+''.join(sorted(cards,key=lambda card:numeric_key(code_of(card))))+m[6]
+    page=re.sub(series_pattern,order,page,flags=re.S)
     facets=re.search(r'<div class="sbtns">.*?</div>',page,re.S)[0]
     if groups.get('local'):facets=facets.replace('</div>','<button data-f="local">Local callouts</button></div>')
     controls=f"""
