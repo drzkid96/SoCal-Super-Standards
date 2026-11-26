@@ -36,7 +36,13 @@ for(const record of rows){
   const body=await page(record.url);
   const anchor=record.url.split('#')[1];
   if(anchor)assert.ok(body.includes('id="'+anchor+'"'),record.url);
-  assert.ok(chart.includes('href="'+escaped(record.url)+'"'),'Missing card '+record.url);
+  const legacySpeed=record.code.match(/^R2-1(\d{2})$/i);
+  if(legacySpeed){
+    const code='R2-1('+legacySpeed[1]+')';
+    const cards=[...chart.matchAll(/<a [^>]*class="scard"[^>]*>/g)].map(m=>m[0]).filter(tag=>tag.includes('data-code="'+code+'"'));
+    assert.equal(cards.length,1,'One chart card for '+code);
+    assert.ok(cards[0].match(/data-aliases="([^"]*)"/)?.[1].split('|').includes(record.code),'Missing source alias '+record.code);
+  }else assert.ok(chart.includes('href="'+escaped(record.url)+'"'),'Missing card '+record.url);
   if(record.modified)assert.ok(!record.official,'A project modification received official status: '+record.code);
   for(const alias of record.aliases){
     const hits=await direct(alias,'Signs',12,'exact');
