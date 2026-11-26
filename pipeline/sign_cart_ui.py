@@ -115,6 +115,8 @@ def chart_tiles(content,by_url):
         choices=by_url.get(url)
         if not choices:return card
         seen.update(r['id'] for r in choices)
+        if url==BASE+'/signs/r2-1/':
+            return speed_tiles()
         choices=[r for r in choices if not posted_speed(r)]
         if not choices:return ''
         choices=sorted(choices,key=lambda r:(r['sourceDrawing']!='official-standard',r['sizeStatus']=='Reference size unknown',bool(r.get('observationIds')),r['id']))
@@ -135,7 +137,7 @@ def chart_tiles(content,by_url):
         if len(choices)>1:
             alt=(f'<details class="sign-variants"><summary>{len(choices)-1} more variant'+('s' if len(choices)>2 else '')+'</summary>'
                  +''.join(checkbox(r,True) for r in choices[1:])+'</details>')
-        return '<div class="sign-tile">'+card+'<div class="sign-tile-pick">'+checkbox(main)+alt+'</div></div>'+(speed_tiles() if url==BASE+'/signs/r2-1/' else '')
+        return '<div class="sign-tile">'+card+'<div class="sign-tile-pick">'+checkbox(main)+alt+'</div></div>'
     content=re.sub(r'<a class="scard[^"]*"[^>]*>[\s\S]*?</a>',tile,content)
     missing={r['id'] for rs in by_url.values() for r in rs}-seen
     if missing:raise ValueError('Native drawings absent from sign chart: '+', '.join(sorted(missing)[:10]))

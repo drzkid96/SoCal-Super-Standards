@@ -130,6 +130,7 @@ for url in chart.xpath('//a[@data-code]//img/@src'):
             picture.load()
 codes=chart.xpath('//h3[@id="series-r1"]/following-sibling::div[1]//a/@data-code')
 assert codes.index('R1-2')<codes.index('R1-3')<codes.index('R1-4')<codes.index('R1-10P'),codes
-speeds=chart.xpath('//a[starts-with(@data-code,"R2-1(")]/@data-code')
+speeds=chart.xpath('(//h3[@id="series-r2"])[1]/following-sibling::div[1]//a/@data-code')
+speeds=speeds[:speeds.index('R2-2')]
 assert speeds==[f'R2-1({n})' for n in range(15,60,5)],speeds
 print(f'Decoded {len(checked)} sign-chart images and verified R1 and posted-speed ordering.')
