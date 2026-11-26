@@ -2,6 +2,8 @@
 import hashlib
 import json
 import os
+import re
+from collections import Counter
 import subprocess
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -66,6 +68,13 @@ def check_legend(doc, groups, rows):
 
 def check_zip(destination, groups, catalog):
     chosen = {key for _,keys in groups for key in keys}
+    catalog = {key:dict(catalog[key]) for key in chosen}
+    counts = Counter(record['code'] for record in catalog.values())
+    for record in catalog.values():
+        code = record['code']
+        if re.fullmatch(r'R2-1\(\d{1,2}\)',code) and counts[code]==1:
+            record['file']=f'individual/{code}.dwg'
+            record['blockName']=code
     with ZipFile(destination) as package, TemporaryDirectory() as temp:
         expected = {catalog[i]['file'] for i in chosen}
         expected.update(('LADOT-SIGN-LEGENDS.dwg','LADOT-SIGN-LEGENDS.dxf'))
@@ -87,8 +96,7 @@ def check_zip(destination, groups, catalog):
 
 
 def run(browser, base, downloads):
-    manifest = json.load(urlopen(base + 'downloads/sign-blocks/manifest.json'))
-    catalog = {row['id']: row for row in manifest['records']}
+    catalog = {row['id']: row for row in json.load(urlopen(base + 'data/sign-block-options.json'))}
     stop = 'official-r1-1'
     current = 'official-w3-1'
     historic = 'mutcd-sheet-w3-1-1120a'

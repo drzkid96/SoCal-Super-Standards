@@ -39,7 +39,7 @@
     const names=new Map();
     for(const rec of records) {
       const {entry,text}=defs.get(rec.id);
-      const name=cadString(entry.name), bh=handle();
+      const name=cadString(rec.legendName || entry.name), bh=handle();
       names.set(rec.id,name);
       recordParts.push(tag(0,'BLOCK_RECORD',5,bh,330,'9',100,'AcDbSymbolTableRecord',100,'AcDbBlockTableRecord',2,name,340,'0'));
       blockParts.push(tag(0,'BLOCK',5,handle(),330,bh,100,'AcDbEntity',8,'0',100,'AcDbBlockBegin',2,name,70,0,10,0,20,0,30,0,3,name,1,''));

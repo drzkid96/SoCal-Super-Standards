@@ -1,16 +1,30 @@
 (() => {
-  if(new URLSearchParams(location.search).get('import')==='1') {
+  const scriptURL=document.currentScript.src;
+  let importer;
+  function openImporter(){
+    if(importer)return importer;
     const host=document.createElement('section');host.id='sign-import-root';
     const chart=document.querySelector('.sign-chart-actions')||document.getElementById('sfilter');
-    if(chart) {
-      chart.before(host);
-      const css=document.createElement('link');css.rel='stylesheet';
-      css.href=new URL('sign-import.css',document.currentScript.src);document.head.append(css);
-      import(new URL('sign-import.mjs',document.currentScript.src).href).catch(()=>{
-        host.textContent='Could not load the sign importer. Reload this page to try again.';
-      });
-    }
+    chart.before(host);
+    const css=document.createElement('link');css.rel='stylesheet';
+    css.href=new URL('sign-import.css',scriptURL);document.head.append(css);
+    importer=import(new URL('sign-import.mjs',scriptURL).href).then(()=>host).catch(()=>{
+      host.textContent='Could not load the sign importer. Reload this page to try again.';
+    });
+    return importer;
   }
+  if(new URLSearchParams(location.search).get('import')==='1')openImporter();
+  document.addEventListener('paste',event=>{
+    if(document.getElementById('sign-import-file'))return;
+    const file=Array.from(event.clipboardData?.items||[]).find(i=>i.type.startsWith('image/'))?.getAsFile();
+    if(!file)return;
+    event.preventDefault();
+    openImporter().then(host=>{
+      if(!host)return;
+      host.scrollIntoView({block:'start'});
+      host.dispatchEvent(new CustomEvent('sign-image',{detail:file}));
+    });
+  });
   const input=document.getElementById('sq'), status=document.getElementById('sca');
   const origin=document.getElementById('sorigin'), count=document.getElementById('scount');
   const dwgOnly=document.getElementById('chart-dwg-only');

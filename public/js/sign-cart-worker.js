@@ -28,6 +28,13 @@ async function selectedArchive(records, sheets) {
     }
     names.add(record.file.toLowerCase());
   }
+  const speeds = new Map();
+  for (const record of records) {
+    if (/^R2-1\(\d{1,2}\)$/.test(record.code)) speeds.set(record.code, (speeds.get(record.code) || 0) + 1);
+  }
+  for (const record of records) {
+    if (speeds.get(record.code) === 1) record.legendName = record.code;
+  }
   records.sort(alphabetical);
   const files = new Array(records.length);
   let next = 0;
@@ -49,7 +56,7 @@ async function selectedArchive(records, sheets) {
     }
   }
   await Promise.all(Array.from({length:Math.min(records.length, 4)}, download));
-  const entries = Object.fromEntries(records.map((record, i) => [record.file, files[i]]));
+  const entries = Object.fromEntries(records.map((record, i) => [record.legendName ? `individual/${record.legendName}.dwg` : record.file, files[i]]));
   const dxf = await self.SSSLegendDXF.create(records,groups);
   const {encodeDwg} = await import('../cad-codec/codec.js');
   const native = await encodeDwg(dxf);

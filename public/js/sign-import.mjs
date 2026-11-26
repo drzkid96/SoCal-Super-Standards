@@ -1,4 +1,4 @@
-import { makeCatalog, pdfLines, pdfSheetLabel, pastedPages, scanLines } from './sign-import-parser.mjs';
+import { makeCatalog, pdfLines, pdfSheetLabel, scanLines } from './sign-import-parser.mjs';
 
 const assets = new URL('../', import.meta.url);
 const pdfHome = new URL('vendor/pdfjs-5.6.205/',assets);
@@ -31,29 +31,29 @@ function init(root) {
   root.append(sources);
   document.addEventListener('paste',event=>{
     const item=Array.from(event.clipboardData?.items||[]).find(i=>i.type.startsWith('image/'));
-    const image=item?.getAsFile();if(image){event.preventDefault();analyze(image,null);}
+    const image=item?.getAsFile();if(image){event.preventDefault();analyze(image);}
   });
+  root.addEventListener('sign-image',event=>analyze(event.detail));
   const status=make('p');status.setAttribute('role','status');status.setAttribute('aria-live','polite');
   const review=make('div','','si-review');root.append(status,review);
   const state={serial:0,pdf:null,sheets:[],hash:'',documentName:'',ocrTask:null};
   let effects=[],selectionInfo=null,commit=null;
-  file.onchange=()=>{if(file.files[0])analyze(file.files[0],null);};
-  async function analyze(pdfFile,text) {
-    if(!pdfFile&&!text?.trim()){status.textContent='Paste at least one sheet of callouts.';return;}
+  file.onchange=()=>{if(file.files[0])analyze(file.files[0]);};
+  async function analyze(pdfFile) {
     const version=++state.serial;
     effects.forEach(fn=>fn());effects=[];review.replaceChildren();status.textContent='Reading the sign catalog…';
     const old=state.pdf;state.pdf=null;state.sheets=[];selectionInfo=null;commit=null;
     if(old)await old.destroy().catch(()=>{});
     try{
       const index=await catalog();if(version!==state.serial)return;
-      const bytes=pdfFile?new Uint8Array(await pdfFile.arrayBuffer()):new TextEncoder().encode(text);
+      const bytes=new Uint8Array(await pdfFile.arrayBuffer());
       const signature=await fingerprint(bytes);if(version!==state.serial)return;
       let pages=[],pdf=null;
-      if(pdfFile?.type.startsWith('image/')){
+      if(pdfFile.type.startsWith('image/')){
         status.textContent='Reading sign codes from image…';
         const {readImage}=await import('./sign-import-ocr.mjs');
         pages=[{label:'Sheet 1',lines:await readImage(pdfFile)}];
-      }else if(pdfFile){
+      }else{
         status.textContent='Opening '+pdfFile.name+'…';
         const js=await pdfJs();
         const job=js.getDocument({data:bytes,isEvalSupported:false,enableXfa:false,wasmUrl:new URL('wasm/',pdfHome).href,cMapUrl:new URL('cmaps/',pdfHome).href,cMapPacked:true,standardFontDataUrl:new URL('standard_fonts/',pdfHome).href});
@@ -88,9 +88,9 @@ function init(root) {
           const label=sourceId||pdfSheetLabel(sourceLabel,n);
           pages.push({label,sourceLabel,lines,issue});page.cleanup();
         }
-      }else pages=pastedPages(text);
+      }
       if(version!==state.serial)return;
-      state.hash=signature;state.documentName=pdfFile?.name||'Pasted callouts';
+      state.hash=signature;state.documentName=pdfFile.name||'Screenshot';
       state.sheets=pages.map((p,i)=>({...p,number:i+1,records:scanLines(p.lines,index),ocr:false,manual:''}));
       draw(index,version);
       status.textContent='Read '+state.sheets.length+' sheet'+(state.sheets.length===1?'':'s')+' from '+state.documentName+'.';

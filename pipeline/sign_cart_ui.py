@@ -44,14 +44,17 @@ def shell():
             '<button type="button" data-cart-clear>Clear selection</button><button type="button" data-cart-download>Download sign legend</button>'
             '</footer></dialog></div>'+SCRIPTS)
 
+def posted_speed(rec):
+    code=rec['code']
+    printed=re.fullmatch(r'SPEED LIMIT (\d{1,2})',str(rec.get('historicalLegend','')),re.I)
+    suffix=re.fullmatch(r'R2-1(?:[- (]| ?MPH )*(\d{2})\)?',code,re.I)
+    return int(suffix[1]) if suffix else int(printed[1]) if code=='R2-1' and printed else None
+
 def write_options(records):
     options=[]
     for r in records:
-        code=r['code']
-        speed=re.fullmatch(r'R2-1(?:[- (]| ?MPH )*(15|20|25|30|35|40|45|50|55|60|65|70|75|80|85)\)?',code,re.I)
-        printed=re.fullmatch(r'SPEED LIMIT (\d+)',str(r.get('historicalLegend','')),re.I)
-        if speed or (code=='R2-1' and printed):
-            code='R2-1('+str((speed or printed)[1])+')'
+        speed=posted_speed(r)
+        code=f'R2-1({speed})' if speed else r['code']
         options.append(dict(id=r['id'],code=code,name=r.get('description') or r['code'],blockName=r['blockName'],file=r['file'],width=r['width'],
                             height=r['height'],sizeStatus=r['sizeStatus'],sizeLabel=format_size(r),variant=variant(r),
                             preview=r.get('preview',''),aliases=r['aliases'],signUrl=r['signUrl'],sha256=r['sha256'],bytes=r['bytes']))
@@ -59,24 +62,35 @@ def write_options(records):
 
 def chart_tiles(content,by_url):
     seen=set()
-    speeds=set()
+    speed_records={}
+    for group in by_url.values():
+        for rec in group:
+            value=posted_speed(rec)
+            if value:
+                speed_records.setdefault(value,{})[rec['id']]=rec
+    def speed_tiles():
+        result=[]
+        for speed,records in sorted(speed_records.items()):
+            main=min(records.values(),key=lambda r:(r['sourceDrawing']!='official-standard',format_size(r)=='Size unknown',r['id']))
+            code=f'R2-1({speed})'
+            aliases='|'.join(sorted({code,'R2-1',f'R2-1-{speed}',*(a for r in records.values() for a in r['aliases'])}))
+            name=f'Speed limit {speed} mph'
+            result.append(f'<div class="sign-tile"><a data-dwg="1" class="scard" href="{ESC(main["signUrl"])}" data-code="{code}" '
+                          f'data-cad="1" data-aliases="{ESC(aliases)}" data-name="{name.lower()}" data-cat="regulatory" data-ca="ca">'
+                          f'<span class="simg"><img loading="lazy" decoding="async" src="{BASE}{ESC(main["preview"])}" alt=""></span>'
+                          f'<span class="scode">R2-1 ({speed})</span><span class="sname">{name}</span></a>'
+                          f'<div class="sign-tile-pick">{checkbox(main)}</div></div>')
+        return ''.join(result)
     def tile(match):
         card=match[0]
         url=unescape(re.search(r' href="([^"]+)"',card)[1])
         choices=by_url.get(url)
         if not choices:return card
         seen.update(r['id'] for r in choices)
+        choices=[r for r in choices if not posted_speed(r)]
+        if not choices:return ''
         choices=sorted(choices,key=lambda r:(r['sourceDrawing']!='official-standard',r['sizeStatus']=='Reference size unknown',bool(r.get('observationIds')),r['id']))
         main=choices[0]
-        # Source drawings often repeat the very same speed face under alternate names.
-        speed=next((m[1] for r in choices for a in [r['code'],*r['aliases']]
-                    if (m:=re.fullmatch(r'R2-1(?:[- (]| ?MPH )*(15|20|25|30|35|40|45|50|55|60|65|70|75|80|85)\)?',a,re.I))),None)
-        if speed and main['code']!='R2-1':
-            if speed in speeds:return ''
-            speeds.add(speed)
-            choices=[main]
-            card=re.sub(r'(<span class="scode">).*?(</span>)',r'\g<1>R2-1 ('+speed+r')\2',card,count=1)
-            card=re.sub(r'(<span class="sname">).*?(</span>)',r'\g<1>Speed limit '+speed+r' mph\2',card,count=1)
         card=card.replace('class="scard','data-dwg="1" class="scard',1)
         if 'class="simg"' not in card and main.get('preview'):
             art=f'<span class="simg"><img loading="lazy" decoding="async" src="{BASE}{ESC(main["preview"])}" alt=""></span>'
@@ -87,7 +101,7 @@ def chart_tiles(content,by_url):
         if len(choices)>1:
             alt=(f'<details class="sign-variants"><summary>{len(choices)-1} more variant'+('s' if len(choices)>2 else '')+'</summary>'
                  +''.join(checkbox(r,True) for r in choices[1:])+'</details>')
-        return '<div class="sign-tile">'+card+'<div class="sign-tile-pick">'+checkbox(main)+alt+'</div></div>'
+        return '<div class="sign-tile">'+card+'<div class="sign-tile-pick">'+checkbox(main)+alt+'</div></div>'+(speed_tiles() if url==BASE+'/signs/r2-1/' else '')
     content=re.sub(r'<a class="scard[^"]*"[^>]*>[\s\S]*?</a>',tile,content)
     missing={r['id'] for rs in by_url.values() for r in rs}-seen
     if missing:raise ValueError('Native drawings absent from sign chart: '+', '.join(sorted(missing)[:10]))
