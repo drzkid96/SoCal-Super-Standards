@@ -1,4 +1,4 @@
-// Preserve identity through extraction. Only an exact, unique native specimen is preselected.
+// Keep printed designations intact when several drawings depict the same sign.
 const family = '(?:OM|SW|SR|SG|W|R|D|M|G|C|E|S|I|EM|CW|MOT|NLU)';
 const dash = /[‐‑‒–—−]/g;
 const number = '(?:\\s*-\\s*)?\\d+[A-Za-z]*(?:\\s*-\\s*\\d+[A-Za-z]*){0,3}';
@@ -81,7 +81,7 @@ function resolve(raw,catalog) {
   choices.sort((a,b)=>rank(b)-rank(a)||a.id.localeCompare(b.id));
   if(/^R2-1\(\d+\)$/.test(key)&&exact)choices=choices.slice(0,1);
   const status=choices.length===1&&exact&&coded?'matched':choices.length?'ambiguous':'unmatched';
-  return {raw,key,status,count:1,choices,proxy:Boolean(proxy),selected:(exact||proxy)&&coded?choices[0].id:''};
+  return {raw,key,status,count:1,choices,proxy:Boolean(proxy),selected:(exact||proxy)&&coded&&!(bare&&/^(?:R2-1|W13-1P?)$/.test(key))?choices[0].id:''};
 }
 export function scanLines(lines,catalog) {
   const rows=new Map();

@@ -15,7 +15,7 @@ from ezdxf import bbox
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select, WebDriverWait
+from selenium.webdriver.support.ui import WebDriverWait
 
 from test_atlas_browser import serve_build
 
@@ -242,28 +242,21 @@ def run(browser, base, downloads):
     close()
     if width>1000 and os.environ.get('STANDARDS_OCR_PDF'):
         browser.get(base+'tools/sign-import/')
-        css('#sign-import-file').send_keys(str(Path(os.environ['STANDARDS_OCR_PDF']).resolve()))
-        wait.until(lambda _: len(browser.find_elements(By.CSS_SELECTOR,'.si-sheet'))==10)
-        assert not browser.find_elements(By.CSS_SELECTOR,'.si-row')
-        sheet = browser.find_elements(By.CSS_SELECTOR,'.si-sheet')[3]
-        click(sheet.find_element(By.TAG_NAME,'summary'))
-        click(sheet.find_element(By.CSS_SELECTOR,'.si-tools button'))
-        wait.until(lambda _: browser.find_elements(By.CSS_SELECTOR,'.si-bounds input'))
-        for field,value in zip(browser.find_elements(By.CSS_SELECTOR,'.si-bounds input'),[92.4,2,99.1,53]):
-            browser.execute_script("arguments[0].value=arguments[1];arguments[0].dispatchEvent(new Event('change'))",field,value)
-        click(browser.find_element(By.XPATH,'//button[.="Read area on this device"]'))
-        WebDriverWait(browser,90).until(lambda _: css('textarea[aria-label="Review OCR text"]').get_property('value'))
-        click(browser.find_element(By.XPATH,'//button[.="Use reviewed OCR text"]'))
-        sheet = browser.find_elements(By.CSS_SELECTOR,'.si-sheet')[3]
-        assert not sheet.find_elements(By.CSS_SELECTOR,'.si-row input:checked')
+        ocr_sample = downloads/'westwood-ss2.pdf'
+        with fitz.open(os.environ['STANDARDS_OCR_PDF']) as source, fitz.open() as sample:
+            sample.insert_pdf(source, from_page=3, to_page=3)
+            sample.set_page_labels([{'startpage':0,'prefix':'SS-2'}])
+            sample.save(ocr_sample)
+        wait.until(lambda _: css('#sign-import-file')).send_keys(str(ocr_sample))
+        WebDriverWait(browser,120).until(lambda _: browser.find_elements(By.CSS_SELECTOR,'.si-row'))
         candidates = ['OM1-3','R10-15(MOD)','R3-4']
+        sheet = css('.si-sheet')
         for designation in candidates:
-            item=sheet.find_element(By.CSS_SELECTOR,f'.si-row[data-key="{designation}"]')
-            options=item.find_elements(By.TAG_NAME,'select')
-            if options:
-                Select(options[0]).select_by_index(1)
-            else:
-                click(item.find_element(By.CSS_SELECTOR,'input[type=checkbox]'))
+            assert sheet.find_elements(By.CSS_SELECTOR,f'.si-row[data-key="{designation}"] input:checked'),designation
+        for row in sheet.find_elements(By.CSS_SELECTOR,'.si-row'):
+            if row.get_attribute('data-key') not in candidates:
+                for field in row.find_elements(By.CSS_SELECTOR,'input:checked'):
+                    click(field)
         click(browser.find_element(By.XPATH,'//button[.="Add selected DWGs"]'))
         wait.until(lambda _: 'cart=1' in browser.current_url and css('[data-cart-dialog]').is_displayed())
         groups=browser.execute_script('return window.SSSSignCart.getGroups()')
