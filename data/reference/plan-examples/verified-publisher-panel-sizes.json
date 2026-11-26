@@ -668,8 +668,13 @@
       "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=87",
       "page": 87
     },
-    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
-    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=770"
+    "notes": "The CAD cell depicts the hospital service H. The conventional issued panel on FHWA SHS release 6, page 87 supplied the filled H and inset border.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=770",
+    "sourceMask": "data/reference/cad-standards/source-masks/mutcd-sheet-d9-2-11f56.png",
+    "sourceMaskSha256": "7505213b10b6746b31ef47b4d2f9e13ddc58223374f631e66f3c806a04558286",
+    "sourceKind": "matching issued sign artwork",
+    "artworkSourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_6-Guide_Signs.pdf#page=87",
+    "artworkSourceSha256": "3eea7efcfc958c9da3bd42646e22da820b06c10fe94e6d089ee81bf381851b59"
   },
   "pico-d9-2-799eae": {
     "code": "D9-2",
@@ -857,8 +862,11 @@
       "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Release_5-Guide_Signs.pdf#page=19",
       "page": 19
     },
-    "notes": "Dimensions apply to this illustrated panel and the stated mounting or roadway condition.",
-    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1591"
+    "notes": "The source’s ACI 3 oval, bicycle silhouette and route 13 numeral paths were recovered separately so the bicycle and 13 remain legible on the dark oval.",
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=1591",
+    "sourceMask": "data/reference/cad-standards/source-masks/fp-signs-14021.png",
+    "sourceMaskSha256": "bb3910811d4c8f7b0cce8df011b2104c3ca0dc3829e24ccf54c47a65de38fe73",
+    "sourceKind": "source monochrome plot"
   },
   "pico-r1-5-774fee": {
     "code": "R1-5",
@@ -922,5 +930,1227 @@
     },
     "notes": "The identical NO PARKING ANY TIME legend on its 2:3 source panel retains the double-headed arrow of the drawing.",
     "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/Chapter2br1.pdf#page=6"
+  },
+  "fp-signs-345a": {
+    "code": "Om-3l",
+    "size": [
+      12,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      36
+    ],
+    "condition": "CA MUTCD §2C.70, paragraph 02, Type 3 roadway object marker",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, OM3-L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=687",
+      "page": 687
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=343",
+    "notes": "Black stripes slope down to the right on OM3-L and down to the left on OM3-R, as depicted on their separate publisher plates."
+  },
+  "fp-signs-67d2": {
+    "code": "Om-3l",
+    "size": [
+      12,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      36
+    ],
+    "condition": "CA MUTCD §2C.70, paragraph 02, Type 3 roadway object marker",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, OM3-L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=687",
+      "page": 687
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=343",
+    "notes": "Black stripes slope down to the right on OM3-L and down to the left on OM3-R, as depicted on their separate publisher plates."
+  },
+  "fp-signs-2224": {
+    "code": "Om-3r",
+    "size": [
+      12,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      36
+    ],
+    "condition": "CA MUTCD §2C.70, paragraph 02, Type 3 roadway object marker",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, OM3-R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=685",
+      "page": 685
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=343",
+    "notes": "Black stripes slope down to the right on OM3-L and down to the left on OM3-R, as depicted on their separate publisher plates."
+  },
+  "fp-signs-67d4": {
+    "code": "Om-3r",
+    "size": [
+      12,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      36
+    ],
+    "condition": "CA MUTCD §2C.70, paragraph 02, Type 3 roadway object marker",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, OM3-R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=685",
+      "page": 685
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=343",
+    "notes": "Black stripes slope down to the right on OM3-L and down to the left on OM3-R, as depicted on their separate publisher plates."
+  },
+  "fp-signs-66da": {
+    "code": "W1-5l",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-5L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=447",
+      "page": 447
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Winding road, following the lower end of the arrow into the first curve.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w1-5l-11120": {
+    "code": "W1-5L",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-5L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=447",
+      "page": 447
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Winding road, following the lower end of the arrow into the first curve.",
+    "calibrateDiamond": true
+  },
+  "fp-signs-66f1": {
+    "code": "W1-5r",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-5R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=447",
+      "page": 447
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Winding road, following the lower end of the arrow into the first curve.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w1-5r-1113e": {
+    "code": "W1-5R",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-5R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=447",
+      "page": 447
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Winding road, following the lower end of the arrow into the first curve.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w1-8l-11182": {
+    "code": "W1-8L",
+    "size": [
+      18,
+      24
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      18,
+      24
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-8L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=450",
+      "page": 450
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Chevron apex faces the indicated side."
+  },
+  "mutcd-sheet-w1-8r-11183": {
+    "code": "W1-8R",
+    "size": [
+      18,
+      24
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      18,
+      24
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-8R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=450",
+      "page": 450
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Chevron apex faces the indicated side."
+  },
+  "fp-signs-66d0": {
+    "code": "W2-2l",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-2L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=461",
+      "page": 461
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Straight side road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w2-2l-111a9": {
+    "code": "W2-2L",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-2L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=461",
+      "page": 461
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Straight side road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "fp-signs-66ba": {
+    "code": "W2-2r",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-2R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=461",
+      "page": 461
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Straight side road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w2-2r-111ba": {
+    "code": "W2-2R",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-2R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=461",
+      "page": 461
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Straight side road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w2-3l-111cb": {
+    "code": "W2-3L",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-3L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=462",
+      "page": 462
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Oblique side road joins the through road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w2-3r-111dc": {
+    "code": "W2-3R",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-3R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=462",
+      "page": 462
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Oblique side road joins the through road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w4-1l-11282": {
+    "code": "W4-1L",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W4-1L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=483",
+      "page": 483
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Single through arrow with an adjoining branch merging from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w4-1r-11299": {
+    "code": "W4-1R",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W4-1R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=483",
+      "page": 483
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Single through arrow with an adjoining branch merging from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w4-3l-112f8": {
+    "code": "W4-3L",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W4-3L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=485",
+      "page": 485
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Two continuing arrows; the added lane curves from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w4-3r-1132d": {
+    "code": "W4-3R",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W4-3R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=485",
+      "page": 485
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Two continuing arrows; the added lane curves from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "fp-signs-6666": {
+    "code": "W20-1-1k",
+    "size": [
+      48,
+      48
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      67.88225099390857,
+      67.88225099390857
+    ],
+    "condition": "1978 MUTCD standard construction-approach diamond, March 1986 revision",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "1978 MUTCD, March 1986 revision, Part VI, W20-1 (archival scan)",
+      "url": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=25",
+      "page": 25,
+      "publicationSha256": "ad210b21264940627009d25057057bb36f036d2e9e5c54a513cd2dafe92d2c7f"
+    },
+    "applicationSource": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=24",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CONSTRUCTION 1000 FT",
+    "publishedDesignation": "W20-1",
+    "notes": "Historical 1978 MUTCD reference size for this source face: ROAD CONSTRUCTION 1000 FT. Sections 6B-13 to 6B-15 give the standard 48-inch side and authorize the appropriate distance or AHEAD. The source CAD suffix identifies its specific legend.",
+    "calibrateDiamond": true
+  },
+  "fp-signs-6665": {
+    "code": "W20-1-1m",
+    "size": [
+      48,
+      48
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      67.88225099390857,
+      67.88225099390857
+    ],
+    "condition": "1978 MUTCD standard construction-approach diamond, March 1986 revision",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "1978 MUTCD, March 1986 revision, Part VI, W20-1 (archival scan)",
+      "url": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=25",
+      "page": 25,
+      "publicationSha256": "ad210b21264940627009d25057057bb36f036d2e9e5c54a513cd2dafe92d2c7f"
+    },
+    "applicationSource": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=24",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CONSTRUCTION 1 MILE",
+    "publishedDesignation": "W20-1",
+    "notes": "Historical 1978 MUTCD reference size for this source face: ROAD CONSTRUCTION 1 MILE. Sections 6B-13 to 6B-15 give the standard 48-inch side and authorize the appropriate distance or AHEAD. The source CAD suffix identifies its specific legend.",
+    "additionalEvidence": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=62",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-1a-12780": {
+    "code": "W20-1a",
+    "size": [
+      48,
+      48
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      67.88225099390857,
+      67.88225099390857
+    ],
+    "condition": "1978 MUTCD standard construction-approach diamond, March 1986 revision",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "1978 MUTCD, March 1986 revision, Part VI, W20-1 (archival scan)",
+      "url": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=25",
+      "page": 25,
+      "publicationSha256": "ad210b21264940627009d25057057bb36f036d2e9e5c54a513cd2dafe92d2c7f"
+    },
+    "applicationSource": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=24",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CONSTRUCTION 500 FT",
+    "publishedDesignation": "W20-1",
+    "notes": "Historical 1978 MUTCD reference size for this source face: ROAD CONSTRUCTION 500 FT. Sections 6B-13 to 6B-15 give the standard 48-inch side and authorize the appropriate distance or AHEAD. The source CAD suffix identifies its specific legend.",
+    "calibrateDiamond": true
+  },
+  "fp-signs-6658": {
+    "code": "W20-1ahd",
+    "size": [
+      48,
+      48
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      67.88225099390857,
+      67.88225099390857
+    ],
+    "condition": "1978 MUTCD standard construction-approach diamond, March 1986 revision",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "1978 MUTCD, March 1986 revision, Part VI, W20-1 (archival scan)",
+      "url": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=25",
+      "page": 25,
+      "publicationSha256": "ad210b21264940627009d25057057bb36f036d2e9e5c54a513cd2dafe92d2c7f"
+    },
+    "applicationSource": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=24",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CONSTRUCTION AHEAD",
+    "publishedDesignation": "W20-1",
+    "notes": "Historical 1978 MUTCD reference size for this source face: ROAD CONSTRUCTION AHEAD. Sections 6B-13 to 6B-15 give the standard 48-inch side and authorize the appropriate distance or AHEAD. The source CAD suffix identifies its specific legend.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-1b-12781": {
+    "code": "W20-1b",
+    "size": [
+      48,
+      48
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      67.88225099390857,
+      67.88225099390857
+    ],
+    "condition": "1978 MUTCD standard construction-approach diamond, March 1986 revision",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "1978 MUTCD, March 1986 revision, Part VI, W20-1 (archival scan)",
+      "url": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=25",
+      "page": 25,
+      "publicationSha256": "ad210b21264940627009d25057057bb36f036d2e9e5c54a513cd2dafe92d2c7f"
+    },
+    "applicationSource": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=24",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CONSTRUCTION 1000 FT",
+    "publishedDesignation": "W20-1",
+    "notes": "Historical 1978 MUTCD reference size for this source face: ROAD CONSTRUCTION 1000 FT. Sections 6B-13 to 6B-15 give the standard 48-inch side and authorize the appropriate distance or AHEAD. The source CAD suffix identifies its specific legend.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-1c-12782": {
+    "code": "W20-1c",
+    "size": [
+      48,
+      48
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      67.88225099390857,
+      67.88225099390857
+    ],
+    "condition": "1978 MUTCD standard construction-approach diamond, March 1986 revision",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "1978 MUTCD, March 1986 revision, Part VI, W20-1 (archival scan)",
+      "url": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=25",
+      "page": 25,
+      "publicationSha256": "ad210b21264940627009d25057057bb36f036d2e9e5c54a513cd2dafe92d2c7f"
+    },
+    "applicationSource": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=24",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CONSTRUCTION 1500 FT",
+    "publishedDesignation": "W20-1",
+    "notes": "Historical 1978 MUTCD reference size for this source face: ROAD CONSTRUCTION 1500 FT. Sections 6B-13 to 6B-15 give the standard 48-inch side and authorize the appropriate distance or AHEAD. The source CAD suffix identifies its specific legend.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-1d-12783": {
+    "code": "W20-1d",
+    "size": [
+      48,
+      48
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      67.88225099390857,
+      67.88225099390857
+    ],
+    "condition": "1978 MUTCD standard construction-approach diamond, March 1986 revision",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "1978 MUTCD, March 1986 revision, Part VI, W20-1 (archival scan)",
+      "url": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=25",
+      "page": 25,
+      "publicationSha256": "ad210b21264940627009d25057057bb36f036d2e9e5c54a513cd2dafe92d2c7f"
+    },
+    "applicationSource": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=24",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CONSTRUCTION ½ MILE",
+    "publishedDesignation": "W20-1",
+    "notes": "Historical 1978 MUTCD reference size for this source face: ROAD CONSTRUCTION ½ MILE. Sections 6B-13 to 6B-15 give the standard 48-inch side and authorize the appropriate distance or AHEAD. The source CAD suffix identifies its specific legend.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-1e-12784": {
+    "code": "W20-1e",
+    "size": [
+      48,
+      48
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      67.88225099390857,
+      67.88225099390857
+    ],
+    "condition": "1978 MUTCD standard construction-approach diamond, March 1986 revision",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "1978 MUTCD, March 1986 revision, Part VI, W20-1 (archival scan)",
+      "url": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=25",
+      "page": 25,
+      "publicationSha256": "ad210b21264940627009d25057057bb36f036d2e9e5c54a513cd2dafe92d2c7f"
+    },
+    "applicationSource": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=24",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CONSTRUCTION 1 MILE",
+    "publishedDesignation": "W20-1",
+    "notes": "Historical 1978 MUTCD reference size for this source face: ROAD CONSTRUCTION 1 MILE. Sections 6B-13 to 6B-15 give the standard 48-inch side and authorize the appropriate distance or AHEAD. The source CAD suffix identifies its specific legend.",
+    "additionalEvidence": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=62",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-1f-12785": {
+    "code": "W20-1f",
+    "size": [
+      48,
+      48
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      67.88225099390857,
+      67.88225099390857
+    ],
+    "condition": "1978 MUTCD standard construction-approach diamond, March 1986 revision",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "1978 MUTCD, March 1986 revision, Part VI, W20-1 (archival scan)",
+      "url": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=25",
+      "page": 25,
+      "publicationSha256": "ad210b21264940627009d25057057bb36f036d2e9e5c54a513cd2dafe92d2c7f"
+    },
+    "applicationSource": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=24",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CONSTRUCTION AHEAD",
+    "publishedDesignation": "W20-1",
+    "notes": "Historical 1978 MUTCD reference size for this source face: ROAD CONSTRUCTION AHEAD. Sections 6B-13 to 6B-15 give the standard 48-inch side and authorize the appropriate distance or AHEAD. The source CAD suffix identifies its specific legend.",
+    "calibrateDiamond": true
+  },
+  "fp-signs-6667": {
+    "code": "W20-1500",
+    "size": [
+      48,
+      48
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      67.88225099390857,
+      67.88225099390857
+    ],
+    "condition": "1978 MUTCD standard construction-approach diamond, March 1986 revision",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "1978 MUTCD, March 1986 revision, Part VI, W20-1 (archival scan)",
+      "url": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=25",
+      "page": 25,
+      "publicationSha256": "ad210b21264940627009d25057057bb36f036d2e9e5c54a513cd2dafe92d2c7f"
+    },
+    "applicationSource": "https://www.trafficsign.us/oldmutcd/1978/6-constmaint.pdf#page=24",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CONSTRUCTION 500 FT",
+    "publishedDesignation": "W20-1",
+    "notes": "Historical 1978 MUTCD reference size for this source face: ROAD CONSTRUCTION 500 FT. Sections 6B-13 to 6B-15 give the standard 48-inch side and authorize the appropriate distance or AHEAD. The source CAD suffix identifies its specific legend.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-2a-12786": {
+    "code": "W20-2a",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-2 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=144",
+      "page": 144,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "DETOUR AHEAD",
+    "publishedDesignation": "W20-2",
+    "notes": "Historical 2004 SHS reference size for this source face: DETOUR AHEAD. ",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "fp-signs-668b": {
+    "code": "W20-2ahd",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-2 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=144",
+      "page": 144,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "DETOUR AHEAD",
+    "publishedDesignation": "W20-2",
+    "notes": "Historical 2004 SHS reference size for this source face: DETOUR AHEAD. ",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-2b-12787": {
+    "code": "W20-2b",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-2 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=144",
+      "page": 144,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "DETOUR 500 FT",
+    "publishedDesignation": "W20-2",
+    "notes": "Historical 2004 SHS reference size for this source face: DETOUR 500 FT. ",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-2c-12788": {
+    "code": "W20-2c",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-2 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=144",
+      "page": 144,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "DETOUR 1000 FT",
+    "publishedDesignation": "W20-2",
+    "notes": "Historical 2004 SHS reference size for this source face: DETOUR 1000 FT. ",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-2d-12789": {
+    "code": "W20-2d",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-2 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=144",
+      "page": 144,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "DETOUR 1500 FT",
+    "publishedDesignation": "W20-2",
+    "notes": "Historical 2004 SHS reference size for this source face: DETOUR 1500 FT. Section 6F.18 authorizes the variable distance in feet.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-2e-1278a": {
+    "code": "W20-2e",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-2 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=144",
+      "page": 144,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "DETOUR ½ MILE",
+    "publishedDesignation": "W20-2",
+    "notes": "Historical 2004 SHS reference size for this source face: DETOUR ½ MILE. ",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-3-1278b": {
+    "code": "W20-3",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-3 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=145",
+      "page": 145,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "ROAD CLOSED",
+    "publishedDesignation": "W20-3",
+    "notes": "Historical 2004 SHS reference size for this source face: ROAD CLOSED. Variable distance line is unpopulated in the CAD specimen.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "fp-signs-668a": {
+    "code": "W20-3ahd",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-3 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=145",
+      "page": 145,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "STREET CLOSED AHEAD",
+    "publishedDesignation": "W20-3",
+    "notes": "Historical 2004 SHS reference size for this source face: STREET CLOSED AHEAD. The sheet explicitly shows the STREET CLOSED alternate.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "fp-signs-668c": {
+    "code": "W20-5a",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-5 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=147",
+      "page": 147,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "LEFT LANE CLOSED AHEAD",
+    "publishedDesignation": "W20-5",
+    "notes": "Historical 2004 SHS reference size for this source face: LEFT LANE CLOSED AHEAD. The archival stock drawing allows LEFT, RIGHT and CENTER.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-5c-1278d": {
+    "code": "W20-5C",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-5 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=147",
+      "page": 147,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "CENTER LANE CLOSED",
+    "publishedDesignation": "W20-5",
+    "notes": "Historical 2004 SHS reference size for this source face: CENTER LANE CLOSED. Variable distance line is unpopulated in the CAD specimen.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-5l-1278e": {
+    "code": "W20-5L",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-5 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=147",
+      "page": 147,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "LEFT LANE CLOSED",
+    "publishedDesignation": "W20-5",
+    "notes": "Historical 2004 SHS reference size for this source face: LEFT LANE CLOSED. Variable distance line is unpopulated in the CAD specimen.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-5r-1278f": {
+    "code": "W20-5R",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-5 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=147",
+      "page": 147,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=14",
+    "archivalSize": true,
+    "measuredLegend": "RIGHT LANE CLOSED",
+    "publishedDesignation": "W20-5",
+    "notes": "Historical 2004 SHS reference size for this source face: RIGHT LANE CLOSED. Variable distance line is unpopulated in the CAD specimen.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-7-12790": {
+    "code": "W20-7",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2004 SHS 36-inch reference layout, variable distance line",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-7 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=149",
+      "page": 149,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=20",
+    "archivalSize": true,
+    "measuredLegend": "FLAGGER",
+    "publishedDesignation": "W20-7",
+    "notes": "Historical 2004 SHS reference size for this source face: FLAGGER. Variable distance line is unpopulated in the CAD specimen.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "fp-signs-6696": {
+    "code": "W20-7ahd",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2004 SHS 36-inch reference layout, variable distance line",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-7 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=149",
+      "page": 149,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=20",
+    "archivalSize": true,
+    "measuredLegend": "FLAGGER AHEAD",
+    "publishedDesignation": "W20-7",
+    "notes": "Historical 2004 SHS reference size for this source face: FLAGGER AHEAD. The dimensioned drawing expressly allows AHEAD.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w20-7a-1277f": {
+    "code": "W20-7a",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W20-7a drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=150",
+      "page": 150,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "archivalSize": true,
+    "measuredLegend": "Flagger holding rectangular flag",
+    "publishedDesignation": "W20-7a",
+    "notes": "Historical 2004 SHS reference size for this source face: Flagger holding rectangular flag. Period-specific flagger symbol and designation.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w21-1-12792": {
+    "code": "W21-1",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W21-1 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=151",
+      "page": 151,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "archivalSize": true,
+    "measuredLegend": "WORKERS",
+    "publishedDesignation": "W21-1",
+    "notes": "Historical 2004 SHS reference size for this source face: WORKERS. Period-specific word-message panel.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w21-1a-12793": {
+    "code": "W21-1a",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "2003 MUTCD conventional roadway, 2004 SHS dimensioned layout",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W21-1a drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=152",
+      "page": 152,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "archivalSize": true,
+    "measuredLegend": "Worker-with-shovel symbol",
+    "publishedDesignation": "W21-1a",
+    "notes": "Historical 2004 SHS reference size for this source face: Worker-with-shovel symbol. Period-specific worker symbol and designation.",
+    "additionalEvidence": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "calibrateDiamond": true
+  },
+  "fp-signs-6695": {
+    "code": "W20-7sup",
+    "size": [
+      24,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      24,
+      18
+    ],
+    "condition": "2003 MUTCD conventional-road supplemental distance plaque",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, W16-2 drawing",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=150",
+      "page": 150,
+      "publicationSha256": "104fb0ea2dc76749f86708ef6a14709aad8336fb8ea6798340781995552fbe64"
+    },
+    "applicationSource": "https://mutcd.fhwa.dot.gov/pdfs/2003/Ch6F.pdf#page=5",
+    "archivalSize": true,
+    "measuredLegend": "500 FEET",
+    "publishedDesignation": "W16-2",
+    "notes": "Historical 2004 SHS reference size for this source face: 500 FEET. The 2004 flagger sheet dimensions the separate W16-2 supplemental plaque shown with this exact message."
+  },
+  "fp-signs-16976": {
+    "code": "W16-7pL",
+    "size": [
+      30,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      30,
+      18
+    ],
+    "condition": "Archived CA MUTCD 2014, Table 2C-2: oversized roadside plaque. The 2026 table specifies a different face.",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, Warning Signs, sheet 2-126 (archived)",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/warning.pdf#page=126",
+      "page": 126
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev8/camutcd2014-part2-chap2c-rev8-a11y.pdf#page=53",
+    "notes": "Archival oversized 30 × 18-inch board with a 30° arrow pointing down and left. The CAD board ratio and arrow inclination match the contemporaneous plate."
+  },
+  "fp-signs-1699b": {
+    "code": "W16-7pR",
+    "size": [
+      30,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      30,
+      18
+    ],
+    "condition": "Archived CA MUTCD 2014, Table 2C-2: oversized roadside plaque. The 2026 table specifies a different face.",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, Warning Signs, sheet 2-126 (archived)",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/warning.pdf#page=126",
+      "page": 126
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev8/camutcd2014-part2-chap2c-rev8-a11y.pdf#page=53",
+    "notes": "Archival oversized 30 × 18-inch board with a 30° arrow pointing down and right. The CAD board ratio and arrow inclination match the contemporaneous plate."
   }
 }

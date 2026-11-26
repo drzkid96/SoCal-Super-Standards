@@ -1,0 +1,23 @@
+"""Introduce each legacy book by the engineering question it answers."""
+PURPOSE = {
+    'ada/curb-ramps': 'Use the ramp and curb ramp illustrations to check running slope, landings, handrails and transitions along an accessible route.',
+    'burbank/standard-plans': 'Look up a City of Burbank standard by its BT drawing number, then check the dimensions and notes on the selected sheet.',
+    'caltrans/la28-supplement': 'Look up the signs, markings and operating conditions for the Games Route Network before detailing a temporary lane.',
+    'caltrans/standard-plans-2018': 'Check the 2018 plan details when a contract cites that edition. The publication year is part of the reference.',
+    'caltrans/standard-plans-2026': 'Select an A20 line or marker drawing, an A24 pavement marking, an A88 curb ramp, or an A90 accessible parking detail.',
+    'fhwa/interchange-design-promptlist': 'Review the pedestrian and bicycle route through an interchange. Use the prompts to check ramp crossings, connectivity and conflicts.',
+    'fhwa/step-uncontrolled-crossings': 'Use site conditions and crash patterns to select a treatment for an uncontrolled pedestrian crossing. The guide covers site inventory, countermeasure selection and monitoring.',
+    'ladot/cad-standards': 'Check LADOT drawing conventions, layer names and sheet setup before drafting or reviewing a plan submittal.',
+    'ladot/complete-streets': 'Find the street classification, then compare the design elements assigned to that street type.',
+    'ladot/games-corridors': 'Look up LADOT design details for active transportation on 2028 Games corridors, including bikeways, intersections and curb treatments.',
+    'ladot/geometric-plan-sample': 'Review the sample geometric plan for sheet layout, callouts and presentation of the proposed design.',
+    'ladot/marked-crosswalks': 'Check the City’s criteria for installing a marked crossing, then review the controls and markings for that location.',
+    'ladot/mobility-plan': 'Find the City’s adopted transportation policies and designated networks when reviewing a Los Angeles corridor.',
+    'ladot/mpp-521': 'Find the S-series drawing for signal design or read the accompanying policy pages in publication order.',
+    'ladot/mpp-531': 'Find a striping, signing or geometric drawing by number and read its associated policy in the same manual.',
+    'ladot/parking': 'Check the parking exhibits for the proposed curb use, stall configuration or maneuvering layout.',
+    'ladot/red-book': 'Select a signal construction drawing or look up the corresponding special provision.',
+    'ladot/signal-design-notes': 'Review the standard traffic signal plan notes for inclusion on a City signal drawing.',
+    'ladot/supplemental-street-design-guide': 'Compare street layouts and look up the details for bikeways, transit stops and intersections.',
+    'pasadena/standard-plans': 'Find the Pasadena S-series traffic drawing by number, then check the original detail and installation notes.',
+}

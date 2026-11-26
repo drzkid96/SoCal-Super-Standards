@@ -3,10 +3,11 @@ from check_atlas import verify as verify_atlas
 from collections import defaultdict
 from html import unescape
 from pathlib import Path
+import re
 from urllib.parse import urlsplit
 from lxml import html
 from current_catalog import BASE, read
-from manual_art import ART, SHEET_COUNTS, source
+from manual_art import ART, SHEET_COUNTS, illustration_url, source
 
 dist=Path('dist')
 details=read(dist/'data/details.json')
@@ -60,15 +61,41 @@ for edition, items in SHEET_COUNTS.items():
             checked_sheets += 1
 print(f'{checked_sheets} individual sheets verified across {sum(map(len, SHEET_COUNTS.values()))} multi-sheet manual figures and tables.')
 
+# A valid raw image or source PDF can still be the wrong destination for a
+# provision's figure reference. The reader must land on its own captioned sheet.
+manual_links = 0
+for edition in ART:
+    for chapter in (dist / edition).glob('*/index.html'):
+        doc = chapters.setdefault(chapter, html.parse(str(chapter)))
+        for anchor in doc.xpath('//div[contains(concat(" ",@class," ")," prov ")]//a[@href]'):
+            text = ' '.join(anchor.text_content().split())
+            match = re.fullmatch(r'(Figures?|Tables?)\s+(\d[A-Z]-\d+(?:\s*\(CA\))?)', text)
+            if not match:
+                continue
+            target = illustration_url(edition, *match.groups())
+            if not target:
+                continue
+            assert anchor.get('href') == target, (chapter, text, anchor.get('href'), target)
+            route, fragment = target.split('#')
+            dest = dist / route.removeprefix(BASE).strip('/') / 'index.html'
+            if dest not in chapters:
+                chapters[dest] = html.parse(str(dest))
+            figures = chapters[dest].xpath('//*[@id=$fragment]/ancestor::figure[1]', fragment=fragment)
+            assert len(figures) == 1 and figures[0].xpath('./a/img[@src]') and figures[0].xpath('./figcaption'), target
+            manual_links += 1
+print(f'{manual_links} MUTCD provision citations verified against their edition’s captioned figures and tables.')
+
 for page in (dist / 'details' / 'ladot').rglob('index.html'):
     doc = html.parse(str(page))
     sheets = doc.xpath('//figure[starts-with(@id,"sheet-") and @class="dfig"]')
     if len(sheets) < 2:
         continue
-    headings = doc.xpath('//div[contains(concat(" ", @class, " "), " sl-markdown-content ")]/h3[starts-with(normalize-space(.),"Sheet ")]')
+    headings = doc.xpath('//div[contains(concat(" ", @class, " "), " sl-markdown-content ")]/h3[starts-with(normalize-space(.),"Sheet ") or starts-with(normalize-space(.),"Supplement to S-")]')
     assert len(headings) == len(sheets), (page, len(headings), len(sheets))
     for index, (heading, sheet) in enumerate(zip(headings, sheets), 1):
-        assert heading.text_content().startswith(f'Sheet {index} of {len(sheets)}'), page
+        label=f'Sheet {index} of {len(sheets)}'
+        if page.parent.name=='mpp-531-s-440-0':label=('Sheet 1 of 2','Sheet 2 of 2','Supplement to S-440.0')[index-1]
+        assert heading.text_content().startswith(label), page
         assert heading.getnext() == sheet, (page, sheet.get('id'))
 
 # Both the desktop and phone outlines must lead to the actual imported headings.

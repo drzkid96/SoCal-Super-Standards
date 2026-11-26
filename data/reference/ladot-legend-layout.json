@@ -1,0 +1,108 @@
+{
+  "layout": "Two-column LADOT plan sign legend",
+  "units": "inches on plotted sheet",
+  "columns": 2,
+  "rows": 14,
+  "cellWidth": 1.025,
+  "cellHeight": 1.2,
+  "fillOrder": "left to right, then top to bottom",
+  "retainEmptyCells": true,
+  "source": {
+    "projectDrawing": "Pico sign plans",
+    "paperLayout": "Sheet 6",
+    "file": "pico",
+    "layoutHandle": "140E6D3",
+    "paperSizeInches": [
+      36,
+      24
+    ],
+    "plotUnits": "inches",
+    "plotScale": [
+      1,
+      40
+    ],
+    "nativeInsertHandles": [
+      "140E74D",
+      "140E74E"
+    ],
+    "nativeCellSteps": [
+      41,
+      48
+    ],
+    "firstRowInsertCoordinates": [
+      [
+        1367.506890133482,
+        833.3319762298052
+      ],
+      [
+        1408.506890133482,
+        833.3319762298052
+      ]
+    ],
+    "measuredStop": {
+      "sourceOutline": "76A28F",
+      "caption": "76A292",
+      "faceWidth": 0.644001,
+      "faceHeight": 0.643514,
+      "centerFromLowerLeft": [
+        0.505204,
+        0.71877
+      ],
+      "captionAlignment": "center baseline",
+      "captionCenterFromLowerLeft": [
+        0.507748,
+        0.163628
+      ],
+      "captionHeight": 0.095127,
+      "sourceTextStyle": "SignText"
+    },
+    "measuredSpeedLimit": {
+      "sourceOutline": "76A2A7",
+      "faceWidth": 0.543339,
+      "faceHeight": 0.74812,
+      "centerFromLowerLeft": [
+        0.522615,
+        0.729809
+      ]
+    },
+    "userImage": {
+      "widthPixels": 114,
+      "heightPixels": 714,
+      "verticalDividersX": [
+        13,
+        54,
+        96
+      ],
+      "horizontalDividerExamplesY": [
+        18,
+        66,
+        115,
+        163,
+        212,
+        260,
+        309,
+        357,
+        406,
+        454,
+        503,
+        551,
+        600,
+        648,
+        700
+      ],
+      "occupiedRows": 9,
+      "emptyRows": 5
+    }
+  },
+  "fitting": {
+    "maxFaceWidth": 0.92,
+    "maxFaceHeight": 0.86,
+    "artCenterFromLowerLeft": [
+      0.5125,
+      0.745
+    ],
+    "captionBaseline": 0.16,
+    "captionHeight": 0.095,
+    "description": "Uniformly scale measured native artwork into a display opening. Center captions and reserve additional space below artwork for a second line when needed."
+  }
+}

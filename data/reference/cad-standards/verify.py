@@ -54,6 +54,13 @@ assert records['R1-1']['columns']['Conventional Road Multi-Lane']=='36 x 36'
 check('R1-2',[36,36,36],[36,31.1769])
 check('W14-3',[48,48,36],[44.4972,36])
 check('W11-2',[30,30],[42.4264,42.4264])
+check('C30(CA)',[30,30],[42.4264,42.4264])
+check('C30A(CA)',[30,30],[42.4264,42.4264])
+check('R26(S)(CA)',[12,18],[12,18])
+check('D11-1',[24,18],[24,18])
+check('R3-11A',[30,42],[30,42])
+assert records['R1-5']['size'] is None and records['R1-5']['reviewedPanelOptions'][0]['size']==[36,36]
+assert records['SW44CA']['size'] is None and records['SW44CA']['archivalSizeOptions']['options']['standardDiamondSide']==[36,36]
 check('W10-1',[36,36],[36,36])
 check('R99C(CA)',[12,24],[12,24])
 for face in json.loads((SITE/'data/signs/signs.json').read_text()):

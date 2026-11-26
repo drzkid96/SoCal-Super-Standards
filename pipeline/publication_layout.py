@@ -5,9 +5,13 @@ from html import escape
 from pathlib import Path
 from current_catalog import BASE
 from regional_reader import slug
+from publication_purpose import PURPOSE
 
 
-def build(root):
+def build(root, ladot_sets=None):
+    from ladot_drawings import manual_index, source_title, agency_index, SHEET_LABELS
+    ladot_sets = ladot_sets or {}
+    editions=json.loads(Path("data/reference/ladot-editions.json").read_text())
     sets = {}
     for detail in (root/'details').rglob('*.md'):
         body = detail.read_text()
@@ -31,16 +35,23 @@ def build(root):
             if publication == key:
                 for position, page in enumerate(sheets, 1):
                     drawings.setdefault(page, []).append([code, position, len(sheets)])
+        manual=key.split('/')[-1] if key.startswith('ladot/') else ''
+        owned=ladot_sets.get(manual,{})
         rows = []
         for page in doc['pages']:
             chapter = page['chapter']
             name = chapters.get(chapter, '')
             if re.fullmatch(r'Pages? [\d–-]+', name, re.I):
                 name = ''
-            rows.append(dict(page=page['page'], title=page['title'], chapter=name,
+            drawing=drawings.get(page['page'], [])
+            label=source_title(page,owned,drawing) if owned else page['title']
+            rows.append(dict(page=page['page'], title=label, chapter=name,
                              path=key+'/'+chapter, codes=page.get('drawings_orig', []),
-                             drawings=drawings.get(page['page'], []), image=page.get('image'),
+                             drawings=drawings.get(page['page'], []), image=(f'{BASE}/figs/{key}/p{page["page"]:04d}.webp' if drawing and owned else page.get('image')),
                              terms=' '.join(page.get('keywords', []))))
+            if owned and drawing:
+                c,pos,_=drawing[0]
+                if (manual,c,pos) in SHEET_LABELS:rows[-1]['sheetLabel']=SHEET_LABELS[manual,c,pos]
         out = Path('public/data/publications') / (key+'.json')
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(rows, ensure_ascii=False, separators=(',', ':')))
@@ -51,15 +62,19 @@ def build(root):
         filters = re.findall(r'<span hidden data-pagefind-filter="[^"]+"></span>', source_text)
         header = source_text.split('\n---\n', 1)[0]+'\n---\n'
         first = rows[0]
-        topics = list(dict.fromkeys(t for row in doc['pages'] for t in row.get('topics', [])))
-        scope = ', '.join(t.replace('-', ' ') for t in topics[:4])
-        overview = f'Indexed subjects include {escape(scope)}.' if scope else ''
+        overview = PURPOSE.get(key, doc['title'])
+        steps = ''
+        if key == 'fhwa/step-uncontrolled-crossings':
+            steps = ' <a href="#p15">Inventory a site</a> · <a href="#p22">Select a countermeasure</a> · <a href="#p31">Monitor outcomes</a>.'
         reader = (f'<section class="publication" data-publication="{key}"><p class="pub-intro">'
-                  f'{overview} Browse {len(rows)} pages in source order.</p>'
+                  f'{escape(overview)}{steps}</p>'
                   f'<noscript><a href="{BASE}/{first["path"]}/#p{first["page"]}">Open the first source page</a></noscript></section>')
         # Keep existing section IDs and meaningful links outside the generated chapter and thumbnail lists.
         extra = source_text[marker.end():]
         extra = re.sub(r'<h2>Chapters</h2><ul class="chlist">.*?</ul>|<h2>Every drawing and figure page</h2><div class="thumbgrid">.*?</div>', '', extra, flags=re.S)
+        if owned:
+            extra=''
+            reader=manual_index(manual,doc,owned,editions[manual],reader)
         index.write_text(header+'\n'+marker.group()+reader+
                          f'<div class="book-reader" data-book="{key}" hidden></div>\n'+extra+'\n'+'\n'.join(filters))
         for chapter in doc['chapters']:
@@ -67,6 +82,8 @@ def build(root):
             if file.exists():
                 content = file.read_text()
                 file.write_text(content.replace('class="book-reader"',f'data-parent-page="{chapter["first"]}" class="book-reader"',1))
+
+    if ladot_sets:agency_index(root,ladot_sets)
 
     from browse_hubs import directory_pages, treatments
     groups = directory_pages(root)

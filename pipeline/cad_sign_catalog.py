@@ -204,56 +204,36 @@ def drawing_evidence(drawing):
 
 
 def figures(row):
-    images=[]
-    for asset in row['art']:
-        source=source_name(asset['drawing'])
-        caption=asset['code']+' · '+source+' · '+asset['space']+' · handle '+asset['handle']
-        url=next(d['url'] for d in row['drawings'] if d['source']==asset['drawing'])
-        images.append((asset['image'],caption,url,asset.get('note',''),asset.get('width'),asset.get('height')))
-    for item in row['faces']:
-        images.append((item['image'],'Plan legend · '+item['label'],item['url'],'',None,None))
-    if not images:return ''
-    cards=[]
-    for image,label,source,note,w,h in images:
-        img=escape(BASE+image,quote=True)
-        size=f' width="{int(w)}" height="{int(h)}"' if w and h else ''
-        annotation=' · '+escape(note) if note else ''
-        cards.append(f'<figure class="mfig"><a href="{img}"><img src="{img}" loading="lazy" alt="{escape(label,quote=True)}"{size}></a><figcaption><a href="{escape(source)}">{escape(label)}</a>{annotation}</figcaption></figure>')
-    return '<div class="mfig-grid">'+''.join(cards)+'</div>'
+    """Show each distinct sign face once, with the printed designation."""
+    images = {}
+    for asset in [*row['art'], *row['faces']]:
+        images.setdefault(asset['image'], asset)
+    cards = []
+    for path, asset in images.items():
+        url = escape(BASE + path, quote=True)
+        label = escape(asset.get('code') or asset.get('label') or row['code'], quote=True)
+        width, height = asset.get('width'), asset.get('height')
+        size = f' width="{int(width)}" height="{int(height)}"' if width and height else ''
+        cards.append(f'<figure class="mfig"><a href="{url}" aria-label="Enlarge {label}"><img src="{url}" loading="lazy" alt="{label}"{size}></a><figcaption>{label}</figcaption></figure>')
+    return '<div class="mfig-grid">' + ''.join(cards) + '</div>' if cards else ''
 
 
 def observed_section(rows):
-    out=['## Recorded in drawings and plan legends','']
-    for row in rows:
-        title=escape(row['code'])
-        out.extend([f'<h3 id="plan-{slug(row["key"])}">{title}</h3>',''])
-        if row['withdrawal']:
-            out.append(f'Caltrans lists this designation as [withdrawn in California]({row["withdrawal"]}). The records below document its appearance in the source drawings.')
-        elif row['baseWithdrawal']:
-            out.append(f'Caltrans lists the base designation as [withdrawn in California]({row["baseWithdrawal"]}). The drawing uses the variant shown here.')
-        elif row['modified']:
-            out.append('The drawing identifies a modified sign. Use the recorded legend and drawing context to identify the modification.')
-        elif not row['official'] and not row['baseOfficial']:
-            out.append('The source uses this designation. An issued standard layout for this exact code has not been identified in the catalog.')
-        elif not row['official']:
-            out.append('This designation records the configuration shown in the source plan.')
-        if row['baseOfficial']:
-            ref=row['baseOfficial']
-            out.append(f'Base layout · <a href="{escape(ref["url"])}">{escape(ref["code"])}</a> · {escape(ref["descriptor"])}.')
-        for drawing in row['drawings']:
-            label=escape(drawing['name']);summary=drawing_summary(drawing)
-            out.append(f'<a href="{escape(drawing["url"])}">{label}</a>'+(' · '+escape(summary) if summary else ''))
-            if drawing.get('details'):
-                context=[f'<a href="{PLAN}#{escape(key)}">{escape(title)}</a>' for key,title in drawing['detailTitles'].items()]
-                out.append('Detail callouts · '+' · '.join(context))
-            wording=drawing['wording']
-            if wording and (len(wording)>1 or wording[0]['text'].upper()!=row['code'].upper()):
-                lines=''.join(f'<tr><td>{escape(w["text"])}</td><td>{w["count"]}</td><td><code>{escape(w["handle"])}</code></td></tr>' for w in wording)
-                out.append('<h4>Wording in the drawing</h4><table><thead><tr><th>Recorded legend</th><th>Records</th><th>Example handle</th></tr></thead><tbody>'+lines+'</tbody></table>')
-        art=figures(row)
-        if art:out.append(art)
-        if not art and not row['official']:out.append('The drawing record identifies the code. No sign face is available for this designation.')
-        out.append('')
+    out = []
+    variants = [r for r in rows if not r['official']]
+    if len(variants) > 1 or (variants and any(r['official'] for r in rows)):
+        out.append('## Sign variants')
+    for row in variants:
+        out.append(f'<h3 id="plan-{slug(row["key"])}">{escape(row["code"])}</h3>')
+        if row['withdrawal'] or row['baseWithdrawal']:
+            out.append(f'<a href="{escape(row["withdrawal"] or row["baseWithdrawal"])}">Withdrawn in California</a>')
+        art = figures(row)
+        if art:
+            out.append(art)
+        terms = {w['text'] for drawing in row['drawings'] for w in drawing['wording']}
+        if terms and (len(terms) > 1 or row['code'].casefold() != next(iter(terms)).casefold()):
+            out.append('<details class="sign-guidance"><summary>Sign wording</summary><ul>' +
+                       ''.join(f'<li>{escape(term)}</li>' for term in sorted(terms)) + '</ul></details>')
     return '\n\n'.join(out)
 
 
@@ -384,7 +364,16 @@ def build(root,lookup):
         if not page.exists():
             head=next(r for r in items if '#' not in r['url'])
             page.write_text('---\ntitle: '+json.dumps(head['code']+' · '+head['status'])+'\ntableOfContents: false\n---\n')
-        with page.open('a') as f:f.write('\n\n'+observed_section(sorted(items,key=lambda r:(not bool(r['official']),r['key'])))+'\n')
+        text = page.read_text()
+        issued = next((r for r in items if r['official']), None)
+        if issued:
+            anchor = 'plan-' + slug(issued['key'])
+            if '<div class="sdetail">' in text:
+                text = text.replace('<div class="sdetail">', f'<div class="sdetail" id="{anchor}">', 1)
+            else:
+                text = text.replace('\n---\n', f'\n---\n\n<span id="{anchor}"></span>\n', 1)
+        text += '\n\n' + observed_section(sorted(items, key=lambda r:r['key'])) + '\n'
+        page.write_text(text)
     library_source_pages(root,rows,lookup)
     save(CATALOG, rows)
     update_chart(root/'signs/index.md',rows)

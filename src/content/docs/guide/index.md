@@ -26,7 +26,7 @@ description: Four ways in, matched to how traffic engineering work actually happ
 ## Finding details
 
 - **Detail and Drawing Index.** Every CA and federal MUTCD figure and table, every LADOT standard drawing, and every figure page from the LADOT design guides. Filter by source, document, type and topic, or type words. Filters stay in the URL, so you can bookmark or share a filtered view.
-- **LADOT drawing pages.** Each standard drawing has its own page. It shows every sheet as a sharpened image, the notes text (OCR on scans), the signs on the drawing, the MUTCD sections it cites, and links to the previous and next drawing.
+- **LADOT drawing pages.** Find the drawing by number, then select a sheet within its original set. Read the notes alongside the drawing and download the selected sheet or full set.
 - **Sign Library.** Every standard sign drawn at the same scale, with sizes, CA status, governing sections and the LADOT pages that use it. Hover over any sign code anywhere on the site to see the sign.
 
 ## Order of authority

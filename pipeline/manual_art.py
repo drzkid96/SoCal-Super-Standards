@@ -1,13 +1,24 @@
 """Resolve publisher book locations and render the missing original figure/table pages."""
 import re
 from pathlib import Path
-from current_catalog import read
+from current_catalog import BASE, read
 
 ART = read('data/reference/manual-illustrations.json')
 SHEET_COUNTS = read('data/reference/manual-sheet-counts.json')
 CA = read('data/reference/ca-chapter-urls.json')
 FIRST = {e:{c['code']:c['first'] for c in read('data/'+e+'/chapters.json')} for e in ART}
 FHWA = 'https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/'
+
+
+def illustration_url(edition, kind, number):
+    kind = kind.rstrip('s')
+    number = number.replace(' ', '').upper()
+    if f'{kind} {number}' not in ART[edition]:
+        return None
+    chapter = number.split('-')[0].lower()
+    slug = number.lower().replace('(', '').replace(')', '')
+    prefix = 'table' if kind == 'Table' else 'fig'
+    return f'{BASE}/{edition}/{chapter}/#{prefix}-{slug}'
 
 
 def source(edition, number, page):

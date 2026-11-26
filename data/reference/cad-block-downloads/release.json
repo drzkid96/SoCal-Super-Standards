@@ -3,64 +3,64 @@
   "master": {
     "encoding": "xz",
     "file": "master.dwg.xz",
-    "bytes": 8796952,
-    "sha256": "27d08ada5acbad5f36dbf80501c6e152fa68fd278740c83dea9882f2ba77bd1d"
+    "bytes": 9012472,
+    "sha256": "d000639caa5138b13607c417ef32bdd16774f6716b786ef0cce4fc8b30bf16eb"
   },
   "families": [
     {
       "family": "Guide",
-      "records": 108,
+      "records": 109,
       "file": "guide.zip",
-      "bytes": 2000671,
-      "sha256": "a34eb1efec61b8b5781f8fb269a17a262103ba5497d42ccd7085118463b3a04e"
+      "bytes": 2051172,
+      "sha256": "3737f4dcae6d8e44f0a713f7ec918fca16a81a73e02e8a1478c6b1cdc0a468b1"
     },
     {
       "family": "Local and other",
       "records": 133,
       "file": "local-and-other.zip",
-      "bytes": 2829930,
-      "sha256": "53a367d59bb13d6cb20bf7b0f25e28053c6b7268f4d90787bbf38f7bd93e863a"
+      "bytes": 2834153,
+      "sha256": "1d71f5189dc446eba315788a711bfd4925d98451c5951c35d3fc9d5574f61f80"
     },
     {
       "family": "Object markers",
       "records": 7,
       "file": "object-markers.zip",
-      "bytes": 60082,
-      "sha256": "8001342e7cb4a81130a361113fa97143f15bdd1d0c427e1142b207c2b0d68b3c"
+      "bytes": 59757,
+      "sha256": "2717d7492bc749f48c434e3169eb0078a427d0b4dae825b47f85e8581c4b8ebc"
     },
     {
       "family": "Regulatory",
-      "records": 455,
+      "records": 459,
       "file": "regulatory.zip",
-      "bytes": 10177006,
-      "sha256": "c07566c264339a83cbe4daeaac23bac22422f305c43a5cefcc15ce3bbe25b016"
+      "bytes": 10335339,
+      "sha256": "870ede52289f3b874304531075e6651650a663488dcb148b5bc9b323554481fd"
     },
     {
       "family": "School",
       "records": 15,
       "file": "school.zip",
-      "bytes": 384062,
-      "sha256": "bb16448f12132bf9e36057649863db88af7c802d436175fd5c8ad46a87c575e9"
+      "bytes": 385827,
+      "sha256": "dea3d205e9442f3d69191322880a1a4a89120d4c6434c8f1d44205c05e55e644"
     },
     {
       "family": "Temporary traffic control",
-      "records": 69,
+      "records": 71,
       "file": "temporary-traffic-control.zip",
-      "bytes": 2632209,
-      "sha256": "b7e3691f98eb157847c13e4540512646a0bf5a4c762fb85802fb0eb80c1f1f41"
+      "bytes": 2717135,
+      "sha256": "2bbb3031ff9623f25838ab0884616266ac4bcad70a790d8fc4efbc563c983bb8"
     },
     {
       "family": "Warning",
-      "records": 236,
+      "records": 239,
       "file": "warning.zip",
-      "bytes": 4585700,
-      "sha256": "94ecb1b3427a7e3e14c70def1d0e54bd021fc62af89d21f33c7ba5947cf1b31e"
+      "bytes": 4671214,
+      "sha256": "5c2839dcfe7d3047111dd17d141c3a05b253cf15e15805d9d8adbf4836e347ab"
     }
   ],
   "standardReference": {
     "file": "CA-FHWA-SIGN-STANDARDS-REFERENCE.zip",
-    "bytes": 170686,
-    "sha256": "e4c91fe23eb1bacca0655e941146d2115a12047a47eb80cfd88ac64607b21d98"
+    "bytes": 174454,
+    "sha256": "9c6ff7c049dc2f24cc9ef058c56069147bc864a98c84d209d46ca8a2dd375b39"
   },
   "readme": {
     "file": "README.txt",
@@ -69,7 +69,7 @@
   },
   "manifest": {
     "file": "manifest.json",
-    "bytes": 1959208,
-    "sha256": "920b239397d0beed19f43e981f549a025b0fba89fd1636edd2d7b6ce8eef6fd3"
+    "bytes": 2813429,
+    "sha256": "192eb4320391a58cb32481c53ece755402da32dc4ae31e283711f0af23860cad"
   }
 }

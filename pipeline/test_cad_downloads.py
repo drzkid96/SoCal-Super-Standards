@@ -28,7 +28,7 @@ def verify(file,n,expected,drawing=True):
     return data
 verify(master,manifest['masterBytes'],manifest['masterSha256'])
 verify(packed,manifest['bundleBytes'],manifest['bundleSha256'],False)
-files={c.xpath('./a[@download]/@href')[0]:c for c in cards}
+files={c.xpath('.//a[@download]/@href')[0]:c for c in cards}
 pages={}
 with ZipFile(folder/packed) as z:
     assert z.testzip() is None
@@ -57,6 +57,12 @@ with ZipFile(folder/packed) as z:
         else:
             sections=page.xpath('//section[@class="cad-local"]')
         assert any(local_asset(file) in s.xpath('.//a[@download]/@href') for s in sections),(record['code'],file)
+        for alternate in record.get('aliasSignUrls',[]):
+            target=urlsplit(alternate)
+            linked=html.parse(str(dist/target.path.removeprefix(BASE+'/')/'index.html'))
+            if target.fragment:
+                linked=linked.xpath('//*[@id=$id]/following::section[@class="cad-local"][1]',id=unquote(target.fragment))[0]
+            assert linked.xpath('.//a[@download and @href=$href]',href=local_asset(file)),(alternate,file)
         if record.get('preview'):
             image=dist/record['preview'].lstrip('/')
             preview=image.read_bytes()
@@ -76,10 +82,24 @@ with ZipFile(folder/packed) as z:
 chart=html.parse(str(dist/'signs/index.html'))
 assert chart.xpath('//a[@href=$url]',url=BASE+'/signs/cad/')
 assert chart.xpath('//*[@id="sorigin"]//option[@value="dwg"]')
+native_ids={r['id'] for r in manifest['records']}
+assert set(chart.xpath('//input[@type="checkbox"]/@data-cart-select'))==native_ids
+assert not chart.xpath('//input[@data-cart-select]/ancestor::a'),'Checkboxes must sit outside the sign detail links'
+options=json.loads((dist/'data/sign-block-options.json').read_text())
+assert {r['id']:(r['file'],r['sha256']) for r in options}=={r['id']:(r['file'],r['sha256']) for r in manifest['records']}
+for view in (browser,chart):
+    assert len(view.xpath('//dialog[@data-cart-dialog]'))==1
+    assert view.xpath('//*[@data-cart-open]') and view.xpath('//*[@data-cart-download]')
 example=browser.xpath('//*[@id="block-evidence-3346-signs-14-15-r1-1"]')[0]
 assert 'Sign callout in this drawing.' in example.text_content()
-assert example.xpath('.//a[@class="cad-matching"]/@href')==[BASE+'/signs/cad/#block-official-r1-1']
-assert len(browser.xpath('//li[@data-availability="source"]//a[@class="cad-matching"]'))==manifest['coverage']['sourceOnlyRecordsWithMatchingDWG']
+targets=example.xpath('.//a[@class="cad-matching"]/@href')
+assert len(targets)==1 and targets[0] in {BASE+'/signs/cad/#block-official-r1-1',BASE+'/signs/cad/?q=R1-1&availability=dwg'}
+assert example.get('data-availability')=='matched' and 'Source record only' not in example.text_content()
+if '#block-official-r1-1' in targets[0]:
+    assert example.xpath('./a[@download]/@href')==[local_asset(next(r['file'] for r in manifest['records'] if r['id']=='official-r1-1'))]
+assert len(browser.xpath('//li[@data-availability="matched"]//a[@class="cad-matching"]'))==manifest['coverage']['calloutRecordsWithMatchingDWG']
+unmatched=browser.xpath('//li[@data-availability="source"]')
+assert len(unmatched)==manifest['coverage']['sourceOnlyRecords'] and all(not row.xpath('.//a[@download]') for row in unmatched)
 for link in browser.xpath('//p[@class="cad-foot"]/a[contains(@href,"/sign-blocks-qa/")]/@href'):
     assert (dist/unquote(link.removeprefix(BASE+'/'))).is_file(),link
 site_bytes=sum(p.stat().st_size for p in dist.rglob('*') if p.is_file())

@@ -122,14 +122,17 @@ const nav = id && id !== '404' ? getPageNav(id) : undefined;
 const breadcrumbs = crumbs.filter(c=>c.href && c.href!==BASE+'/'+id+'/' && c.label!=='Home');
 const parent = identity?.parent;
 if(parent && !breadcrumbs.some(c=>c.href===parent.href))breadcrumbs.push(parent);
-const trail = breadcrumbs.slice(-2);
+const distinct = breadcrumbs.filter((item, index, entries) =>
+  entries.findIndex(other => other.href === item.href || other.label.toLowerCase() === item.label.toLowerCase()) === index);
+const trail = distinct.slice(-2);
+const showNavigation = !(id === 'signs' || id.startsWith('signs/') || id === 'details' || id.startsWith('details/'));
 ---
 {identity ? (
   <header class:list={["section-heading", {"agency-heading":!!activeHub}]} data-agency={activeHub ? id : undefined} data-section-identity={identity.type} data-tone={identity.tone}>
     {trail.length>0 && <nav class="article-trail" aria-label="Breadcrumb">{trail.map(c=><a href={c.href}>{c.label}</a>)}</nav>}
     <div class="page-title-row">
       <DefaultPageTitle />
-      {(nav?.prev || nav?.next || identity.showMap || activeHub || id.includes('/')) && (
+      {showNavigation && (nav?.prev || nav?.next || identity.showMap || activeHub || id.includes('/')) && (
         <details class="page-navigation print:hidden">
           <summary aria-label="Page navigation">Navigate</summary>
           <div class="nav-dropdown">

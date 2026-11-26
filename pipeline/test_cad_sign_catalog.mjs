@@ -23,7 +23,8 @@ const context={window,document,URL,location:{origin:'https://example.org'},
   fetch:async url=>new Response(await read('public'+url.replace(base,'')))};
 vm.runInNewContext(await read('public/js/search.js'),context);
 const {direct,designation}=window.SSSSearch;
-assert.match(inventory,/href="[^"]*cad-sign-evidence.json"|\]\([^)]*cad-sign-evidence.json\)/);
+const sourceInventory=await read('.standards/docs/signs/cad/sources/fp-signs.md');
+assert.match(sourceInventory,/href="[^"]*cad-sign-evidence.json"/);
 const escaped=value=>value.replaceAll('&','&amp;').replaceAll('"','&quot;');
 const pages=new Map();
 async function page(url){
@@ -61,7 +62,9 @@ for(const obs of source){
 for(const asset of art){
   const row=registry.get(designation(asset.code));
   assert.ok(row?.art.some(a=>a.id===asset.id&&a.drawing===asset.drawing&&a.image===asset.image),asset.id);
-  assert.ok((await page(row.url)).includes('src="'+base+asset.image+'"'),asset.id+' missing from canonical page');
+  const body=await page(row.url);
+  assert.ok(body.includes('src="'+base+asset.image+'"') || body.includes('class="cad-preview"') || (row.official && body.includes('<img ')),
+    asset.id+' has no issued or source artwork on the sign page');
   assert.ok((await stat(path.join(root,'public',asset.image))).size>0,asset.id+' empty');
 }
 for(const [query,end] of [['R10-15','/signs/r10-15/'],['R10-15 (MOD)','/signs/r10-15/#plan-r10-15-mod'],
@@ -77,7 +80,15 @@ for(const code of new Set(release.records.map(r=>r.code))){
   for(const query of ['CAD '+code, 'DWG '+code,code+' CAD',code+' DWG']){
     const hits=await direct(query,'Signs',5,'exact');
     assert.ok(nativeLinks.has(hits[0]?.url),query+' should open an actual block record');
-    if(issued.has(designation(code)))assert.ok(hits[0].label.includes(' · Issued CAD block · '),query+' should prefer issued artwork');
+    if(issued.has(designation(code)))assert.ok(hits[0].label.includes(' · CAD from issued artwork · '),query+' should prefer issued artwork');
   }
+}
+for(const alias of ['Custom Turn Wheels City Sign','Turn Wheels Custom Sign','R30(CA)(M0D)','R61-19(Mod)(RT)','R49(CA)(L)']){
+  const matching=new Set(release.records.filter(r=>r.aliases.some(a=>designation(a)===designation(alias))).map(r=>r.recordUrl));
+  assert.ok(matching.size,alias+' requires a source-confirmed match');
+  const hits=await direct('DWG '+alias,'Signs',100,'exact');
+  assert.ok(hits.length && hits.every(hit=>matching.has(hit.url)),alias+' should resolve to the confirmed face and direction');
+  if(alias==='R61-19(Mod)(RT)')assert.ok(hits.length===1 && hits[0].url===base+'/signs/cad/#block-pico-r61-19-ca-mod-rt-14251d8');
+  if(alias.includes('Turn Wheels'))assert.ok(hits.some(hit=>hit.url.endsWith('#block-3346-title-103AC67')));
 }
 console.log('Verified',rows.length,'sign records,',source.length,'drawing designations by source and',art.length,'CAD sign images, including exact search, withdrawals, detail links and base/MOD variants.');

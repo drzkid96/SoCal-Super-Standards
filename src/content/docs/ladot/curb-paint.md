@@ -1,64 +1,31 @@
 ---
-title: LADOT curb paint and colored curb zones
+title: Los Angeles curb colors and red curb design
 description: City of Los Angeles curb colors, rules, default hours, time limits, stencils, red curb placement distances, LADOT design practice, the S-481.0 red curb sight distance calculator, CAD layers and sources.
 tableOfContents:
   minHeadingLevel: 2
   maxHeadingLevel: 2
 ---
 
-<!-- CURB-PAINT-TYPES -->
-<div class="type-gallery">
-  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0109.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0109.webp" alt="Red Curb · Standard — LADOT S-481.0 Sheet 2" /></a><figcaption><span class="type-badge">Red Curb · Standard</span><br><strong>LADOT S-481.0 Sheet 2</strong><br><small>Sight-distance red curb formula A = 4B/(W-7) at uncontrolled crosswalks</small></figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0110.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0110.webp" alt="Red Curb · Bulb-Out — LADOT S-481.0 Sheet 3" /></a><figcaption><span class="type-badge">Red Curb · Bulb-Out</span><br><strong>LADOT S-481.0 Sheet 3</strong><br><small>Reduced red curb setback A = B/(W-10) with 7-ft curb extension</small></figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/caltrans/standard-plans-2026/p0022.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0022.webp" alt="Blue Curb · ADA — Caltrans 2026 A90B" /></a><figcaption><span class="type-badge">Blue Curb · ADA</span><br><strong>Caltrans 2026 A90B</strong><br><small>Accessible on-street blue zone &amp; curb ramp layout</small></figcaption></figure>
-  <figure class="mfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-531/p0044.webp"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0044.webp" alt="Parking Stalls — LADOT S-404.1" /></a><figcaption><span class="type-badge">Parking Stalls</span><br><strong>LADOT S-404.1</strong><br><small>Parallel parking stall length &amp; end-curb clearance</small></figcaption></figure>
-</div>
+<p class="curb-intro">In the City of Los Angeles, curb color sets the permitted use. Check posted signs for hours, time limits and additional restrictions.</p>
 
+<span id="at-a-glance"></span>
+<table class="curb-key"><thead><tr><th scope="col">Curb color</th><th scope="col">Permitted use</th><th scope="col">Default hours</th></tr></thead><tbody><tr><th scope="row"><span class="curb-chip" style="--chip:#b73328" aria-hidden="true"></span>Red</th><td><b>No stopping</b><span>A bus may stop at its designated bus stop.</span></td><td>All hours</td></tr><tr><th scope="row"><span class="curb-chip" style="--chip:#dfab08" aria-hidden="true"></span>Yellow</th><td><b>Commercial loading</b><span>Active freight loading up to 30 min. Passenger loading up to 5 min.</span></td><td>Mon–Sat, 7 am–6 pm</td></tr><tr><th scope="row"><span class="curb-chip" style="--chip:#fff" aria-hidden="true"></span>White</th><td><b>Passenger loading</b><span>Up to 5 min, or 10 min where posted.</span></td><td>All hours</td></tr><tr><th scope="row"><span class="curb-chip" style="--chip:#328253" aria-hidden="true"></span>Green</th><td><b>Short-term parking</b><span>Use the posted or stenciled limit, generally 15 or 30 min.</span></td><td>Mon–Sat, 8 am–6 pm</td></tr><tr><th scope="row"><span class="curb-chip" style="--chip:#266aad" aria-hidden="true"></span>Blue</th><td><b>Accessible parking</b><span>A qualifying disabled placard or license plate is required.</span></td><td>All hours</td></tr></tbody></table>
 
-<div class="srcbar">City of Los Angeles &middot; CVC 21458 sets the colors statewide; LAMC 80.55 to 80.57 sets how Los Angeles uses them; LADOT MPP 342, MPP 531 and S-481.0 set design practice &middot; researched November 2026</div>
+<nav class="topic-tasks curb-tasks" aria-label="Curb design tasks"><a href="#where-red-curb-goes">Check clearance distances</a><a href="#rcalc">Calculate sight distance</a><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-481-0/#sheet-2">Open S-481.0, sheet 2</a></nav>
 
-## At a glance
-
-<div class="curbgrid">
-
-<div class="curbcard"><div class="curbsw" style="--c:#c0392b"></div><div class="curbbody">
-<h3>Red curb: no stopping</h3>
-<p><b>Rule:</b> no stopping, standing or parking at any time, attended or not. A bus may stop where the red zone is marked or signed as a bus stop. <span class="cite">CVC 21458(a)(1); LAMC 80.56(e)4</span></p>
+<details class="curb-fine"><summary>Zone exceptions, stencils and code sections</summary><div><strong>Red curb: no stopping</strong><p><b>Rule:</b> no stopping, standing or parking at any time, attended or not. A bus may stop where the red zone is marked or signed as a bus stop. <span class="cite">CVC 21458(a)(1); LAMC 80.56(e)4</span></p>
 <p><b>Hours:</b> 24 hours, 7 days, unless signs limit the hours. <span class="cite">LAMC 80.56(e)4; LADOT</span></p>
 <p><b>Marking:</b> red paint; no stencil required. Signs reading "No Stopping Any Time" may be used instead of paint. <span class="cite">LAMC 80.56(f)4, (f)5</span></p>
-<p><b>Installed where:</b> LADOT must install red zones or No Stopping signs where LAMC 80.55 prohibits stopping. See the placement table below. <span class="cite">LAMC 80.56(d)</span></p>
-</div></div>
-
-<div class="curbcard"><div class="curbsw" style="--c:#f2c200"></div><div class="curbbody">
-<h3>Yellow curb: commercial loading</h3>
-<p><b>Rule:</b> commercial vehicles may stop only to load or unload freight, for up to 30 minutes. Passenger vehicles may stop only to load or unload passengers and their baggage, for up to 5 minutes. <span class="cite">LAMC 80.56(e)2</span></p>
+<p><b>Installed where:</b> LADOT must install red zones or No Stopping signs where LAMC 80.55 prohibits stopping. See the placement table below. <span class="cite">LAMC 80.56(d)</span></p></div><div><strong>Yellow curb: commercial loading</strong><p><b>Rule:</b> commercial vehicles may stop only to load or unload freight, for up to 30 minutes. Passenger vehicles may stop only to load or unload passengers and their baggage, for up to 5 minutes. <span class="cite">LAMC 80.56(e)2</span></p>
 <p><b>Hours:</b> as posted; if not posted, 7:00 a.m. to 6:00 p.m., every day except Sunday. Outside those hours, normal parking rules apply. <span class="cite">LAMC 80.56(e)2; LADOT</span></p>
 <p><b>Marking:</b> yellow paint, stenciled <b>LOADING ONLY</b>. <span class="cite">LAMC 80.56(f)2</span></p>
-<p><b>ZEV loading zones:</b> LADOT may set aside zones only for zero-emission delivery vehicles, including e-cargo bikes. The limit is 30 minutes, or 1 hour where posted. <span class="cite">LAMC 80.56(b), (e)2 Exception</span></p>
-</div></div>
-
-<div class="curbcard"><div class="curbsw" style="--c:#ffffff"></div><div class="curbbody">
-<h3>White curb: passenger loading</h3>
-<p><b>Rule:</b> vehicles may stop only to load or unload passengers and their baggage, for no more than 5 minutes, or 10 minutes where signs post a 10-minute limit. Towing is allowed where the signs say so. CVC also allows stopping to deposit mail in an adjacent mailbox. <span class="cite">LAMC 80.56(e)1; CVC 21458(a)(3)</span></p>
+<p><b>ZEV loading zones:</b> LADOT may set aside zones only for zero-emission delivery vehicles, including e-cargo bikes. The limit is 30 minutes, or 1 hour where posted. <span class="cite">LAMC 80.56(b), (e)2 Exception</span></p></div><div><strong>White curb: passenger loading</strong><p><b>Rule:</b> vehicles may stop only to load or unload passengers and their baggage, for no more than 5 minutes, or 10 minutes where signs post a 10-minute limit. Towing is allowed where the signs say so. CVC also allows stopping to deposit mail in an adjacent mailbox. <span class="cite">LAMC 80.56(e)1; CVC 21458(a)(3)</span></p>
 <p><b>Hours:</b> 24 hours, 7 days, unless signs limit the hours. <span class="cite">LAMC 80.56(e)1; LADOT</span></p>
-<p><b>Marking:</b> white paint, stenciled <b>PASSENGER LOADING ONLY</b>, or <b>MAILBOX DEPOSIT ONLY</b> where the zone is for mail. <span class="cite">LAMC 80.56(f)1</span></p>
-</div></div>
-
-<div class="curbcard"><div class="curbsw" style="--c:#2e9b4f"></div><div class="curbbody">
-<h3>Green curb: short-term parking</h3>
-<p><b>Rule:</b> parking no longer than the posted or stenciled limit. The limit is 15 minutes, or 30 minutes where LADOT finds that nearby services can't reasonably be used within 15. <span class="cite">LAMC 80.56(c), (e)3</span></p>
+<p><b>Marking:</b> white paint, stenciled <b>PASSENGER LOADING ONLY</b>, or <b>MAILBOX DEPOSIT ONLY</b> where the zone is for mail. <span class="cite">LAMC 80.56(f)1</span></p></div><div><strong>Green curb: short-term parking</strong><p><b>Rule:</b> parking no longer than the posted or stenciled limit. The limit is 15 minutes, or 30 minutes where LADOT finds that nearby services can't reasonably be used within 15. <span class="cite">LAMC 80.56(c), (e)3</span></p>
 <p><b>Hours:</b> as posted; if not posted, 8:00 a.m. to 6:00 p.m., every day except Sunday. <span class="cite">LAMC 80.56(e)3; LADOT</span></p>
-<p><b>Marking:</b> green paint, stenciled <b>15 MINUTES LIMIT</b> or <b>30 MINUTE LIMIT</b>. <span class="cite">LAMC 80.56(f)3</span></p>
-</div></div>
-
-<div class="curbcard"><div class="curbsw" style="--c:#1f5fbf"></div><div class="curbbody">
-<h3>Blue curb: accessible parking</h3>
-<p><b>Rule:</b> parking only for vehicles displaying a disabled person or disabled veteran placard or license plate. <span class="cite">CVC 21458(a)(5); LAMC 80.57</span></p>
+<p><b>Marking:</b> green paint, stenciled <b>15 MINUTES LIMIT</b> or <b>30 MINUTE LIMIT</b>. <span class="cite">LAMC 80.56(f)3</span></p></div><div><strong>Blue curb: accessible parking</strong><p><b>Rule:</b> parking only for vehicles displaying a disabled person or disabled veteran placard or license plate. <span class="cite">CVC 21458(a)(5); LAMC 80.57</span></p>
 <p><b>Hours:</b> 24 hours, 7 days. <span class="cite">LADOT</span></p>
-<p><b>Marking:</b> blue paint on the curb or on the edge of pavement next to the space, with signs optional. LADOT designates the space where it improves access or reduces hazards. <span class="cite">LAMC 80.57</span></p>
-</div></div>
-
-</div>
+<p><b>Marking:</b> blue paint on the curb or on the edge of pavement next to the space, with signs optional. LADOT designates the space where it improves access or reduces hazards. <span class="cite">LAMC 80.57</span></p></div></details>
 
 **General rules**
 
@@ -71,7 +38,7 @@ tableOfContents:
 
 <table class="dwtab"><thead><tr><th>Location</th><th>No stopping or parking within</th><th>Source</th></tr></thead><tbody>
 <tr><td>Approach to a crosswalk, marked or unmarked (Los Angeles)</td><td><b>25 ft</b> from the nearest crosswalk line. A bus may stop at a designated stop, but not within 5 ft of the crosswalk.</td><td>LAMC 80.55(a)3</td></tr>
-<tr><td>Approach to a crosswalk, statewide daylighting rule</td><td><b>20 ft</b> on the vehicle approach side, or <b>15 ft</b> where there is a curb extension. It applies whether or not the curb is painted red; cities may paint longer or shorter zones.</td><td>CVC 22500(n) (AB 413, enforced from January 1, 2025)</td></tr>
+<tr><td>Approach to a crosswalk, statewide daylighting rule</td><td><b>20 ft</b> on the vehicle approach side, or <b>15 ft</b> where there is a curb extension. The statewide distance applies to unpainted approaches. A different local distance requires an ordinance with a traffic-safety finding and a site marking or sign.</td><td>CVC 22500(n) (AB 413, enforced from January 1, 2025)</td></tr>
 <tr><td>Intersection in a business district</td><td><b>30 ft</b>. A bus may stop at a designated stop.</td><td>LAMC 80.55(a)2</td></tr>
 <tr><td>Traffic signal, STOP sign or official flashing device</td><td><b>25 ft</b>. A bus may stop at a designated stop, but not within 5 ft.</td><td>LAMC 80.55(a)4</td></tr>
 <tr><td>YIELD sign</td><td><b>15 ft</b></td><td>LAMC 80.55(a)5</td></tr>
@@ -80,9 +47,11 @@ tableOfContents:
 <tr><td>Designated bus stop; bridges unless signed to allow parking; school frontage where hazardous; any place LADOT finds hazardous</td><td>The whole zone, as LADOT marks or signs it.</td><td>LAMC 80.55(a)1, 6, 7, 8</td></tr>
 </tbody></table>
 
-<p class="muted">Where state and city distances differ, the more restrictive marked or signed condition is what drivers see in the field. Confirm current LAMC language before relying on a distance; LADOT said in late 2024 that it would update the LAMC to match AB 413.</p>
+<p>For an LA plan, distinguish the statewide parking restriction from the City’s curb-marking instruction. Check the approach side, curb extension, posted signs and applicable LADOT drawing before dimensioning the zone.</p>
 
 ## LADOT design practice for red curb
+
+<div class="curb-examples"><figure class="curb-example"><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-481-0/#sheet-2"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0109.webp" alt="Red Curb · Standard — LADOT S-481.0 Sheet 2" /></a><figcaption><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-481-0/#sheet-2">Standard approach · S-481.0 sheet 2</a></figcaption></figure><figure class="curb-example"><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-481-0/#sheet-3"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0110.webp" alt="Red Curb · Bulb-Out — LADOT S-481.0 Sheet 3" /></a><figcaption><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-481-0/#sheet-3">Curb extension · S-481.0 sheet 3</a></figcaption></figure></div>
 
 - **Sight distance to pedestrian crossings (S-481.0, sheet 2).** LADOT practice is <b>50 ft minimum</b> of red curb on arterial approaches to side streets, measured from the side street curb line prolongation. Use the longer calculated distance A where it exceeds 50 ft. See the calculator below. <span class="cite">MPP 531 S-481.0 sheet 2, per MPP Sec. 342</span>
 - **Before added right-turn-only lanes narrower than 18 ft.** Use <b>80 ft</b> of red curb, so drivers can enter the lane unobstructed. Where that badly cuts curb parking, use no less than <b>40 ft</b>. <span class="cite">LADOT design guidance (Parking Standards file, p. 44)</span>
@@ -105,8 +74,8 @@ tableOfContents:
 <label>Curb lane width W (ft) <input id="rc-w" type="number" min="12" max="30" step="0.5" value="20"></label>
 <label>Approach <select id="rc-side"><option value="7">Two-way street, right side (W&minus;7)</option><option value="11">One-way street, left side (W&minus;11)</option></select></label>
 </div>
-<div class="calc-out" id="rc-out"></div>
-<p class="muted">Method from S-481.0 sheet 2:
+<div class="calc-out" id="rc-out" role="status"></div>
+<p class="muted">Use this calculation for the standard approach on S-481.0 sheet 2. For a curb extension, use sheet 3. Sheet 2 uses
 A = 4B / (W &minus; 7), or 4B / (W &minus; 11) for the left side of a one-way street.
 B = 1.47VT + 1.075V&sup2;/a, where V = posted speed + 5 mph, T = 1.5 s and a = 11.2 ft/s&sup2;.
 Use the larger of A and 50 ft. W is the curb lane width; the driver is assumed to be 3 ft from the lane line, and the pedestrian 4 ft into the roadway.</p>
@@ -115,9 +84,9 @@ Use the larger of A and 50 ft. W is the curb lane width; the driver is assumed t
 <script>
 (function(){const v=document.getElementById('rc-v'),w=document.getElementById('rc-w'),s=document.getElementById('rc-side'),o=document.getElementById('rc-out');
 function run(){const V=+v.value+5, B=1.47*V*1.5+1.075*V*V/11.2, d=(+w.value)-(+s.value);
- if(d<=0){o.innerHTML='<b>W is too narrow for this formula.</b>';return;}
+ if(!w.value || !w.validity.valid || d<=0){o.innerHTML='<b>Enter a curb lane width from 12 to 30 feet in half-foot increments.</b>';return;}
  const A=4*B/d, R=Math.max(50,A);
- o.innerHTML=`<div><span>Stopping distance B</span><b>${B.toFixed(0)} ft</b></div><div><span>Calculated A</span><b>${A.toFixed(0)} ft</b></div><div class="hl"><span>Red curb to install</span><b>${Math.ceil(R)} ft</b></div><div class="muted">${A<50?'Calculated A is under 50 ft, so the LADOT 50 ft minimum governs.':'Calculated A exceeds the 50 ft minimum.'}</div>`;}
+ o.innerHTML=`<div><span>Stopping distance B</span><b>${B.toFixed(0)} ft</b></div><div><span>Calculated A</span><b>${A.toFixed(0)} ft</b></div><div class="hl"><span>Sheet 2 design length</span><b>${Math.ceil(R)} ft</b></div><div class="muted">${A<50?'Calculated A is under 50 ft, so the LADOT 50 ft minimum governs.':'Calculated A exceeds the 50 ft minimum.'}</div>`;}
 [v,w,s].forEach(e=>e.addEventListener('input',run));run();})();
 </script>
 
@@ -128,6 +97,8 @@ function run(){const V=+v.value+5, B=1.47*V*1.5+1.075*V*V/11.2, d=(+w.value)-(+s
 - On-street dining is not approved in blue zones, and is usually not approved in red zones unless the red curb has no effect on visibility or safety. <span class="cite">LADOT On-Street Dining Policy</span>
 
 ## Plans and CAD (LADOT drafting standards)
+
+<div class="curb-examples"><figure class="curb-example"><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90b/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0022.webp" alt="Blue Curb · ADA — Caltrans 2026 A90B" /></a><figcaption><a href="/SoCal-Super-Standards/details/caltrans/caltrans-std-plans-2026-a90b/">Accessible on-street parking · A90B</a></figcaption></figure><figure class="curb-example"><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-404-1/#sheet-1"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0044.webp" alt="Parking Stalls — LADOT S-404.1" /></a><figcaption><a href="/SoCal-Super-Standards/details/ladot/mpp-531-s-404-1/#sheet-1">Parking stalls · S-404.1</a></figcaption></figure></div>
 
 LADOT's drafting standards set layers for curb work.
 
@@ -140,21 +111,12 @@ LADOT's drafting standards set layers for curb work.
 
 ## Other cities in this library
 
-- **Burbank:** parking stall striping, bay widths and driveway standards are BT-400 to BT-407 and BT-452. <a href="/SoCal-Super-Standards/details/?sg=Burbank">Burbank standard plans</a>
-- **Pasadena:** parking tee installation is S-704. <a href="/SoCal-Super-Standards/details/?sg=Pasadena">Pasadena standard plans</a>
+- **Burbank:** parking stall striping, bay widths and driveway standards are BT-400 to BT-407 and BT-452. <a href="/SoCal-Super-Standards/details/burbank/burbank-std-plans-bt-400/">Burbank BT-400</a>
+- **Pasadena:** parking tee installation is S-704. <a href="/SoCal-Super-Standards/details/pasadena/pasadena-std-plans-s-704/">Pasadena S-704</a>
 
-## Sources
-
-- [LADOT, Colored Curb Zones](https://ladot.lacity.gov/residents/colored-curb-zones)
-- [Los Angeles Municipal Code, Chapter VIII, Division L, Sections 80.55, 80.55.1, 80.56 and 80.57 (American Legal Publishing)](https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-166180)
-- [California Vehicle Code 21458, Curb Markings](https://law.justia.com/codes/california/code-veh/division-11/chapter-2/article-3/section-21458/)
-- CVC 22500(n), Daylighting (AB 413). Summaries: [Pacifica](https://www.cityofpacifica.org/departments/police/vehicles-traffic/ab-413), [Los Altos](https://www.losaltosca.gov/publicworks/page/californias-daylighting-law-ab-413)
-- [LADOT On-Street Dining Policy](https://ladot.lacity.gov/sites/default/files/2025-10/final-on-street-dining-policy-english.pdf)
-- [LAist, parking in Los Angeles](https://laist.com/news/transportation/la-explained-parking-rules)
-- On this site:
-  - CA MUTCD 2026 Section 3B.18
-  - MPP 531 S-481.0
-  - Supplemental Street Design Guide
-  - LADOT 2028 Games Design Guide
-  - LADOT Parking Standards file
-  - LADOT CAD Standards
+<details class="curb-fine" id="sources"><summary>Official references</summary><ul>
+<li><a href="https://ladot.lacity.gov/residents/colored-curb-zones">LADOT colored curb zones</a></li>
+<li><a href="https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-166314">LAMC 80.55 · Locations</a> and <a href="https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-166340">80.56 · Uses, markings and hours</a></li>
+<li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=21458.&amp;lawCode=VEH">CVC 21458 · Curb markings</a> and <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=22500.&amp;lawCode=VEH">22500(n) · Crosswalk approaches</a></li>
+<li><a href="https://ladot.lacity.gov/sites/default/files/2025-10/final-on-street-dining-policy-english.pdf">LADOT on-street dining policy</a></li>
+</ul></details>

@@ -32,6 +32,7 @@ OPERATORS={'la-metro':['Los Angeles County Metropolitan Transportation Authority
 TITLES={'la-boe':'Los Angeles Bureau of Engineering','ladot':'Los Angeles Department of Transportation',
         'fhwa':'Federal Highway Administration','mts':'San Diego Metropolitan Transit System','ictc':'Imperial County Transportation Commission'}
 SECTIONS={
+ 'tools':('Design tools','Find drawings, build a sign legend or run an engineering calculation.','teal'),
  'topics':('Design topics','Compare treatments, then follow their governing sections and agency drawings.','teal'),
  'signs':('Sign catalog','Identify the sign face, designation, and related source guidance.','amber'),
  'markings':('Pavement markings','Find marking layouts, line types, and the provisions that describe their use.','amber'),

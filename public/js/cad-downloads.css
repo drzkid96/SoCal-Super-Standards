@@ -39,6 +39,7 @@
 .cad-unavailable,.cad-source-list{font-size:.82rem;color:var(--cad-muted)}
 .cad-unavailable{max-width:8rem;text-align:end}
 .cad-source-list summary{cursor:pointer}
+.sl-markdown-content .cad-coverage{margin:.4rem 0 .7rem;color:var(--cad-muted);font-size:.82rem}
 .sl-markdown-content .cad-usage{font-size:.84rem;margin:.5rem 0 .75rem}
 .cad-usage summary,.cad-filter-options summary{cursor:pointer}
 .sl-markdown-content .cad-find{grid-template-columns:minmax(0,1fr) auto auto}

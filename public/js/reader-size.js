@@ -89,7 +89,8 @@
       const auto = mode === 'fit';
       // A deck sets its own sizing variables, including when it sits inside a mixed article.
       scope.style.setProperty('--scan-width', auto ? 'auto' : mode + '%');
-      scope.style.setProperty('--scan-height', auto ? 'min(44dvh, max(6rem, calc(100dvh - var(--sl-nav-height, 4rem) - var(--reader-controls-height, 3rem) - 4rem)))' : 'none');
+      const available = deck ? 'var(--reader-window-height, max(10rem, calc(100dvh - var(--sl-nav-height, 4rem) - var(--reader-controls-height, 3rem) - 6rem)))' : 'min(44dvh, calc(100dvh - var(--sl-nav-height, 4rem) - 4rem))';
+      scope.style.setProperty('--scan-height', auto ? available : 'none');
       fit.setAttribute('aria-pressed',String(auto));
       full.setAttribute('aria-pressed',String(mode === 100));
       const measured = auto ? images.find(img => img.clientWidth && img.naturalWidth) : null;
@@ -180,4 +181,83 @@
   slider.oninput = () => change(Number(slider.value)-1);
   reset.onclick = () => change(4);
   draw();
+})();
+// Share the available viewport between the source and its real, wrapping toolbars.
+(() => {
+  const article = document.querySelector('.sl-markdown-content');
+  if (!article) return;
+  const publication = article.querySelector('.publication');
+  const operator = article.querySelector('.operator-book');
+  const publisher = article.querySelector('.publisher-reader');
+  const regional = article.querySelector('.reg-controls');
+  const decks = [...article.querySelectorAll('.sss-ms-wrap')];
+  if (!(publication || operator || publisher || regional || decks.length)) return;
+
+  const header = document.querySelector('header.header');
+  const compact = matchMedia('(max-width: 42rem), (max-height: 36rem)');
+  const viewport = window.visualViewport;
+  let scheduled = false;
+  const measured = new Set();
+  const observer = window.ResizeObserver ? new ResizeObserver(schedule) : null;
+  function watch(el) {
+    if (el && observer && !measured.has(el)) {
+      measured.add(el);
+      observer.observe(el);
+    }
+  }
+  function schedule() {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(measure);
+  }
+  function measure() {
+    scheduled = false;
+    const visibleTop = viewport?.offsetTop || 0;
+    const visibleBottom = visibleTop + (viewport?.height || innerHeight);
+    const headerBottom = Math.max(0, header?.getBoundingClientRect().bottom || 0);
+    const region = regional && article.querySelector('.reg-page:not([hidden])');
+    for (const root of [publication, operator, publisher, region, ...decks]) {
+      if (!root || !root.getClientRects().length) continue;
+      const isDeck = root.matches('.sss-ms-wrap');
+      if (isDeck && root.classList.contains('is-all')) {
+        root.style.removeProperty('--reader-window-height');
+        continue;
+      }
+      const pane = root.querySelector('.publication-window, .native-pdf-window:not([hidden]) iframe, .reg-scan img, .sheet-frame:not([hidden]) img.sized-scan') ||
+        root.querySelector(':scope > img:not([hidden]), :scope > iframe');
+      if (!pane || !pane.getClientRects().length) continue;
+      const controls = root.querySelector('.publication-controls, .sheet-controls');
+      const actions = root.querySelector('.document-actions');
+      watch(controls); watch(actions);
+      if (controls) root.style.setProperty('--reader-header-bottom', headerBottom+'px');
+      const rect = pane.getBoundingClientRect();
+      // The region's links, PDF mode switch, wrapping button row and their gaps
+      // all count. Measure them in the current layout rather than summing constants.
+      // Decks can have a long OCR section and a thumbnail row after the
+      // displayed figure. Reserve its caption/actions and leave those sections
+      // in normal page flow, so they cannot squeeze the drawing to a thumbnail.
+      const end = isDeck ? (pane.closest('figure') || pane) : root;
+      const after = Math.max(0, end.getBoundingClientRect().bottom - rect.bottom);
+      const pinned = Math.max(visibleTop, headerBottom) + (controls?.offsetHeight || 0);
+      const remaining = visibleBottom - Math.max(rect.top, pinned) - after - 10;
+      const height = Math.max(144, Math.floor(remaining));
+      const px = height+'px';
+      if (root.style.getPropertyValue('--reader-window-height') !== px)
+        root.style.setProperty('--reader-window-height', px);
+    }
+  }
+  watch(header);
+  for (const node of [publication, operator, publisher, regional && article, ...decks].filter(Boolean)) {
+    new MutationObserver(schedule).observe(node, {childList:true,subtree:true,attributes:true,attributeFilter:['hidden','open']});
+  }
+  article.addEventListener('toggle', schedule, true);
+  if (decks.length) article.addEventListener('click', schedule);
+  article.addEventListener('load', schedule, true);
+  window.addEventListener('resize', schedule);
+  window.addEventListener('scroll', schedule, {passive:true});
+  viewport?.addEventListener('resize', schedule);
+  viewport?.addEventListener('scroll', schedule);
+  compact.addEventListener('change', schedule);
+  document.fonts?.ready.then(schedule);
+  schedule();
 })();

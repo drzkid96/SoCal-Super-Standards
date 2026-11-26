@@ -117,3 +117,21 @@ body:has(.home-columns) .home-tools a{padding:.2rem 0;border:none;text-decoratio
   .sl-markdown-content:has(.topic-tasks) .type-gallery .mfig{padding:.35rem}
 }
 body:has(.home-columns) main footer:has(>.meta:empty):has(>.pagination-links:empty){display:none}
+
+/* Compare all five Los Angeles curb uses before opening a drawing or calculator. */
+.sl-markdown-content .curb-key{display:table;width:100%;max-width:70rem;border-collapse:collapse;margin:.6rem 0 .85rem;font-size:.94rem}
+.curb-key th,.curb-key td{padding:.45rem .75rem;text-align:left;vertical-align:middle;border-bottom:1px solid var(--sl-color-hairline-light)}
+.curb-key thead th{color:var(--sl-color-gray-2);font-size:.82em}
+.curb-key tbody th{white-space:nowrap}
+.curb-key td b,.curb-key td span{display:block}
+.curb-key td span{color:var(--sl-color-gray-2);font-size:.9em}
+.curb-chip{display:inline-block;width:.85rem;height:.85rem;margin-right:.45em;border-radius:3px;background:var(--chip);border:1px solid #70777b;vertical-align:-.08em}
+.curb-fine{max-width:70rem;margin:.75rem 0}
+.curb-fine summary{cursor:pointer;font-weight:600}
+.curb-fine>div{margin:.7rem 0}
+.curb-examples{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:42rem;gap:.7rem}
+.curb-examples figure{margin:0;min-width:0}
+.curb-examples img{width:100%;height:8rem;object-fit:contain;display:block}
+.curb-examples figcaption{font-size:.84rem;text-align:center;margin:.3rem 0}
+.curb-tasks{flex-wrap:wrap}
+@media(max-width:38rem){.sl-markdown-content .curb-key{font-size:.83rem}.curb-key th,.curb-key td{padding:.4rem .25rem}.curb-chip{width:.55rem;height:.8rem;margin-right:.25rem}.curb-key td:nth-child(3){width:20%}.curb-key td span{line-height:1.3}.curb-examples img{height:6rem}}

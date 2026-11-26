@@ -129,7 +129,7 @@
       else if (expanded && record.hay.includes(expanded)) score = 43;
       else if (code.length >= 2 && /\d/.test(code) && record.keys.some(k => k.startsWith(code))) score = 38;
       else continue;
-      if (exact && request && record.label.includes(' · Issued CAD block · ')) score += 8;
+      if (exact && request && record.label.includes(' · CAD from issued artwork · ')) score += 8;
       if (record.url.includes('/keywords/#')) score -= 10;
       if (record.url.includes('/topics/') && !/\d/.test(query)) score += 5;
       if (record.url.endsWith('/standard-plans/') && phrase === clean(record.url.split('/').at(-3))) score += 42;

@@ -1,0 +1,44 @@
+[
+  {
+    "key": "D9-13A",
+    "foil": "D9-13a HOSPITAL",
+    "publication": "fhwa-2004",
+    "page": 74,
+    "asset": "d9-13a.svg",
+    "size": [
+      24,
+      12
+    ],
+    "condition": "Issued 2004 illustrated dimensions",
+    "status": "The archived 2004 sign has a white HOSPITAL word legend on blue."
+  },
+  {
+    "key": "G96CA",
+    "foil": "G96(CA) Light Rail Station",
+    "publication": "caltrans-g96",
+    "page": 1,
+    "asset": "g96ca.png",
+    "size": [
+      24,
+      24
+    ],
+    "condition": "Historic conventional size",
+    "status": "Caltrans lists G96(CA) as deleted in its 2026 California MUTCD sign register.",
+    "withdrawalSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/202607-2026-camutcd-deleted-ca-signs-list-v1-0-a11y.pdf"
+  },
+  {
+    "key": "W48-2CA",
+    "foil": "W48(2)(CA) · 2 TRACKS",
+    "publication": "caltrans-w48",
+    "page": 1,
+    "asset": "w48ca.png",
+    "size": [
+      30,
+      24
+    ],
+    "condition": "Historic W48 sheet, 30 × 24 in",
+    "status": "Pico drawing leaders 2631FC and 26C85D explicitly call for 2. The W48 sheet authorizes 2 through 6. The displayed 2 uses the issued FHWA Series D glyph at the specified 6 in height.",
+    "secondarySource": "https://mutcd.fhwa.dot.gov/SHSe/alphabets.pdf#page=24",
+    "secondarySourceSha256": "782d4527947ab90919440ff8fc8420067cb4492e73fbb1b0500dec11592f27a3"
+  }
+]

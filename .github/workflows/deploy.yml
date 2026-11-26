@@ -19,6 +19,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/cache@v4
         with:
+          path: .ladot-sources
+          key: ladot-originals-${{ hashFiles('data/reference/ladot-editions.json') }}
+      - uses: actions/cache@v4
+        with:
           path: .boe-cache
           key: boe-city-pages-${{ github.run_id }}
           restore-keys: |
@@ -86,16 +90,21 @@ jobs:
           python3 pipeline/check_printed_citations.py
           python3 -I pipeline/check_bike_refs.py
           python pipeline/check_reader.py
+          python pipeline/check_editorial_flow.py
       - name: Test desktop and mobile sheet navigation and municipal map
         run: |
           node pipeline/test_atlas_worker.mjs
           node pipeline/test_location_search.mjs
           node pipeline/test_cad_sign_catalog.mjs
+          node pipeline/test_sign_import.mjs
           python pipeline/test_cad_downloads.py
-          python -m pip install selenium
+          python -m pip install selenium ezdxf
           python pipeline/test_sheet_viewer.py
+          python pipeline/test_publication_viewport.py
+          python pipeline/test_ladot_drawings.py
           python pipeline/test_atlas_browser.py
           python pipeline/test_site_navigation.py
+          python pipeline/test_sign_cart.py
   deploy:
     concurrency:
       group: standards-pages-publish

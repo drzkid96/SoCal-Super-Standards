@@ -13,14 +13,29 @@ ROUTES={
 'crosswalks':[('Review LADOT crossing criteria','/ladot/marked-crosswalks/'),('Place the markings','/ca-mutcd/3c/'),('Check red curb and visibility','/ladot/curb-paint/')],
 'accessibility':[('Check Caltrans accessibility guidance','/bulletins/caltrans-dib-82-06/'),('Lay out a curb ramp','/details/caltrans/caltrans-std-plans-2026-a88a/'),('Check accessible signals','/ca-mutcd/4k/')],
 'temporary-traffic-control':[('Plan tapers and work areas','/ca-mutcd/6b/'),('Select a typical application','/ca-mutcd/6p/'),('Check Santa Monica submittals','/santa-monica/standard-plans/#ttcp')],
-'signals':[('Evaluate signal warrants','/ca-mutcd/4c/'),('Read pedestrian indications','/ca-mutcd/4i/'),('Open LADOT signal drawings','/ladot/red-book/')],
-'striping-intersections':[('Select a line pattern','/markings/line-types/'),('Compare lane widths','/bulletins/lane-widths/'),('Open the A20 and A24 sheets','/caltrans/standard-plans-2026/')],
+'signals':[('Evaluate signal warrants','/ca-mutcd/4c/'),('Read pedestrian indications','/ca-mutcd/4i/'),('Find the LADOT construction drawing','/ladot/red-book/')],
+'striping-intersections':[('Select a line pattern','/markings/line-types/'),('Compare lane widths','/bulletins/lane-widths/'),('Open crosswalk drawing A24F','/details/caltrans/caltrans-std-plans-2026-a24f/')],
 'speed-and-calming':[('Review California speed guidance','/ca-mutcd/2b/'),('Compare traffic calming layouts','/burbank/standard-plans/'),('Check hump markings','/ca-mutcd/3b/')],
-'curb-parking-loading':[('Check LADOT curb design','/ladot/curb-paint/'),('Lay out accessible parking','/bulletins/ca-accessible-parking-2026/'),('Review municipal details','/cities/')],
+'curb-parking-loading':[('Look up curb colors and hours','/ladot/curb-paint/'),('Lay out accessible parking','/bulletins/ca-accessible-parking-2026/'),('Check crosswalk clearances','/ladot/curb-paint/#where-red-curb-goes')],
 'rail-crossings':[('Check crossing design principles','/ca-mutcd/8a/'),('Select grade crossing signs','/ca-mutcd/8b/'),('Read crossing signals','/ca-mutcd/8d/')],
 'street-name-and-guide-signs':[('Lay out conventional guide signs','/ca-mutcd/2d/'),('Find an FHWA sign layout','/signs/'),('Check LADOT local signing','/ladot/mpp-531/')],
 'school-zones':[('Check school area signs','/ca-mutcd/7b/'),('Review school markings','/ca-mutcd/7c/'),('Check crossing controls','/ladot/marked-crosswalks/')],
-'transit':[('Read preferential lane markings','/ca-mutcd/3e/'),('Compare lane widths','/bulletins/lane-widths/'),('Review LADOT bus bulb details','/details/ladot/mpp-531-s-523-0/')]
+'transit':[('Find the stop design guide by operator','/transit/'),('Read preferential lane markings','/ca-mutcd/3e/'),('Compare lane widths','/bulletins/lane-widths/'),('Review LADOT bus bulb details','/details/ladot/mpp-531-s-523-0/')]
+}
+# The first paragraph describes the decision a reviewer makes before opening the indexes.
+DECISIONS={
+ 'crosswalks':'Identify the crossing control and the agency that owns the street. For an uncontrolled LA approach, check the marked-crosswalk criteria, then open the drawing for the selected treatment.',
+ 'bikeways':'Select the facility type for the corridor, then check operating space and the transitions at driveways, intersections and transit stops.',
+ 'accessibility':'Trace the pedestrian route from the sidewalk through the ramp, crossing and far-side landing. Check the applicable ramp drawing and signal provisions together.',
+ 'temporary-traffic-control':'Start with the work area, speed and lanes affected. Select the typical application, then check taper dimensions and the pedestrian route through the closure.',
+ 'signals':'Start with the engineering study for a new signal or the affected movements for a modification. Use the applicable signal provisions before selecting the construction sheets.',
+ 'striping-intersections':'Identify the lane function and available width. Select the line pattern, then check the transition and any words, arrows or crosswalk markings.',
+ 'speed-and-calming':'Distinguish a posted-speed change from a physical traffic-calming treatment. For a proposed device, review the local layout together with its advance signs and markings.',
+ 'curb-parking-loading':'Identify the street owner and the intended curb use. For an LA curb plan, look up the color and operating hours first, then check crossing clearance and accessible parking.',
+ 'rail-crossings':'Identify the rail operator, crossing type and traffic controls. Check signing, pavement markings and signal coordination at the same crossing.',
+ 'street-name-and-guide-signs':'Identify where the driver must make a decision. Then check the legend, placement and mounting details for the agency that will maintain the sign.',
+ 'school-zones':'Locate the school crossing and arrival route first. Check the applicable school-area signs and pavement markings before selecting a crossing treatment.',
+ 'transit':'Identify the transit operator and street owner. Use the operator’s stop layout for the boarding area, then check the street agency’s lane markings and intersection details.'
 }
 PATTERNS={
  'bikeways':r'\bbike|\bbicycl|bikeway|sharrow|shared.lane|shared.use path|two.stage turn|cycle track|cycling',
@@ -64,7 +79,7 @@ def render(root,details):
             elif slug=='bikeways' and re.search(r'motorcycle',row['title'],re.I) and slug in prior:prior.remove(slug)
         eligible=[r for r in details if slug in r['topics']]
         drawings=[r for r in eligible if r['type'] in ('Standard drawing','Agency sheet')]
-        body=[head,intro,'','<nav class="topic-tasks" aria-label="Common design tasks">'+''.join('<a href="'+BASE+u+'">'+escape(label)+'</a>' for label,u in ROUTES[slug])+'</nav>','',
+        body=[head,DECISIONS[slug],'','<nav class="topic-tasks" aria-label="Common design tasks">'+''.join('<a href="'+BASE+u+'">'+escape(label)+'</a>' for label,u in ROUTES[slug])+'</nav>','',
               '[Governing sections](#governing-sections-and-agency-guidance) · [Drawings by agency](#drawings-by-agency)','']
         body+=['','## Facility types and applications','']
         def editorial(key):

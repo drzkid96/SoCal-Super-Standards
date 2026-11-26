@@ -6,7 +6,7 @@ from pathlib import Path
 import re
 
 from current_catalog import BASE, PUBLIC, read, save
-from manual_art import SHEET_COUNTS, ART, source
+from manual_art import SHEET_COUNTS, ART, source, illustration_url
 
 # What a designer is looking for in each drawing family. Match the most specific use first.
 READING = [
@@ -138,11 +138,11 @@ def illustrations(root, details, lookup):
         for key,(title,page) in items.items():
             kind,num=key.split()
             chapter=num.split('-')[0]
-            slug=num.lower().replace('(','').replace(')','')
-            id_=('table-' if kind=='Table' else 'fig-')+slug
+            url=illustration_url(edition,kind,num)
+            id_=url.rsplit('#',1)[1]
             img=f'{BASE}/figs/{edition}/p{page:04d}.webp'
             row=dict(indexed.get((agency,kind,num),{}))
-            row.update(src=agency,sg='MUTCD',type=kind,num=num,title=title,url=f'{BASE}/{edition}/{chapter.lower()}/#{id_}',img=img,full=img,part=chapter[0],original=cdn(edition,num,page))
+            row.update(src=agency,sg='MUTCD',type=kind,num=num,title=title,url=url,img=img,full=img,part=chapter[0],original=cdn(edition,num,page))
             row.setdefault('topics',[])
             details.append(row);chapters[chapter][key]=(id_,row)
             for alias in (num,key):

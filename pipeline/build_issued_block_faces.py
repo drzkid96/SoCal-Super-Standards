@@ -80,6 +80,14 @@ def isolate_issued_panel(pixels, ink, code):
     if code.upper() == 'OM1-3':
         # The issued marker is a solid yellow retroreflective face with no graphic.
         return panel, panel
+    if code.upper() == 'W3-3':
+        # The red/green lenses and black housing share one ink in monochrome.
+        # Preserve the source lens circles with a small uninked separation band.
+        red,green,blue=rgb.transpose(2,0,1)
+        lenses=((red>green*1.5)&(red>blue*1.5))|((green>red*1.5)&(green>blue*1.15))
+        radius=max(2,round(max(ink.shape)*.007))
+        outlines=ndimage.binary_dilation(lenses,iterations=1)&~ndimage.binary_erosion(lenses,iterations=radius)
+        ink=ink&~outlines
     boundary = ndimage.binary_dilation(panel,iterations=2)
     return ink & boundary, panel
 

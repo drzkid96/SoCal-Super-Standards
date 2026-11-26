@@ -250,9 +250,28 @@ def main():
             page=r['pages'][0];src=SHS+'pdf/'+r['file']+'#page='+str(page)
             if k in faces:faces[k]['laterLayout']=src
             else:faces[k]={'type':'dimensioned-layout-sheet','source':src,'asset':None,'outline':None}
+    # Current fabrication sheets explicitly dimension A and B for these
+    # parking panels, or dimension the side for the two TTC diamonds.
+    sheet_shapes={'R26-SCA':'rectangle','R26A-SCA':'rectangle','R28-SCA':'rectangle',
+                  'C30CA':'diamond','C30ACA':'diamond'}
     for k,url in specs.items():
         if k in faces:faces[k]['specification']=url
         else:faces[k]={'type':'caltrans-specification-sheet','source':url,'asset':None,'outline':None}
+        if k in sheet_shapes:
+            faces[k]['outline']=sheet_shapes[k]
+            faces[k]['outlineSource']=url
+    reviewed_options=defaultdict(list)
+    for candidate,option in load(SITE/'data/reference/plan-examples/verified-publisher-panel-sizes.json').items():
+        normalized=key(option['code'])
+        item={field:option[field] for field in ('size','sizeBasis','nominalBounds','source','condition','applicationSource') if field in option}
+        if item not in reviewed_options[normalized]:reviewed_options[normalized].append(item)
+    archival=load(OUT/'sources/archival-caltrans-options.json')
+    # These two illustrated post-mounted designs are named by the publisher and
+    # share the R3-11 series' CA MUTCD table row. Other public appearances of the
+    # series can require a different legend and therefore remain independent.
+    for designation in ('R3-11','R3-11A'):
+        if not catalog.get(designation) and designation in reviewed_options:
+            catalog[designation]=catalog[key('R3-11 series')].copy()
     school_faces=load(OUT/'sources/caltrans-school-faces.json')
     retired={key(k)for k in load(SITE/'data/ca_deleted_signs.json')['codes']}
     observation_file=OUT/'sources/cad-observations.json.gz'
@@ -290,6 +309,9 @@ def main():
             else:
                 note='The California MUTCD row sizes the complete school assembly. The exact sign-face specification lists separate A × B options without roadway-class assignments.'
                 sz=basis=col=None
+        for option in reviewed_options.get(k,[]):
+            if sz==option['size'] and option.get('applicationSource','').startswith(CA+'#page=') and option['sizeBasis']=='width-height' and basis=='published-width-height-verify-outline':
+                basis='width-height'
         if k in retired:
             sz=basis=col=None;status='retired-in-california';note='Listed in the Caltrans deleted sign register.'
         elif 'MOD' in k and k not in catalog:
@@ -307,6 +329,10 @@ def main():
         records[k]={'cadDimensionEvidence':printed.get(k,[]),'code':code,'standardCode':labels.get(k),'status':status,'size':sz,'sizeBasis':basis,'condition':(row['application']+' / '+col) if sz else None,
                     'columns':row['columns'] if row else {},'source':{p:row[p] for p in ('publisher','table','page','url','designation','section')} if row else None,
                     'sizeRows':ids,'referenceFace':face,'sizeNote':size_note,'notes':note or None}
+        if k in reviewed_options:
+            records[k]['reviewedPanelOptions']=reviewed_options[k]
+        if k in archival:
+            records[k]['archivalSizeOptions']=archival[k]
         if face_sizes:
             records[k]['faceSizeOptions']=face_sizes
         assembly_ids=[i for i in ids if raws[i]['dimensionScope']=='assembly']

@@ -13,8 +13,9 @@ from zipfile import ZipFile,ZIP_DEFLATED
 
 import ezdxf
 from ezdxf.fonts import fonts
+from ezdxf.math import Matrix44
 from ezdxf.lldxf.validator import is_valid_block_name
-from cad_blocks.geometry import drawing_context, record, get_bounds, scaled_marks, write_geometry
+from cad_blocks.geometry import diamond_blank_bounds, drawing_context, record, get_bounds, scaled_marks, write_geometry, restore_native_knockouts
 from cad_blocks.masks import read_mask
 from cad_sign_catalog import designation_key
 
@@ -127,6 +128,26 @@ def encode_job(item,bin_dir,tmp,out):
     item.update(sha256=digest(dwg),bytes=dwg.stat().st_size,solidHatches=count['HATCH'],entityCount=sum(count.values()),roundTrip=True)
     return item
 
+def draw_assembly(target,doc,ctx,parts,rect,width,height):
+    """Build each independently reviewed panel before placing it in its original assembly."""
+    x0,y0,x1,y1=rect
+    scale=min(width/(x1-x0),height/(y1-y0))
+    for part in parts:
+        native=record(doc,ctx,part)
+        bounds=get_bounds(native,part)
+        a,b,c,d=bounds
+        sw,sh=(c-a)*scale,(d-b)*scale
+        temp=new_doc()
+        panel=temp.modelspace()
+        write_geometry(panel,scaled_marks(native,bounds,sw,sh),sw,sh,
+                       ink_extent=part.get('minimumAddedInkY'),join_dangling=part.get('joinArrowContours',False))
+        tr=Matrix44.translate((a+c-x0-x1)*scale/2,(b+d-y0-y1)*scale/2,0)
+        for e in panel:
+            placed=e.copy()
+            placed.transform(tr)
+            target.add_entity(placed)
+
+
 def package_master(master,model,rows,unresolved,bin_dir,tmp,out):
     cellw=max(48,max(r['width'] for r in rows)*1.28);cellh=max(53,max(r['height'] for r in rows)*1.3+10)
     import itertools
@@ -178,7 +199,15 @@ def merge_batches(batch_dirs,wd,bin_dir,tmp,out):
     from itertools import chain
     batches=[(sub,read(sub/'manifest.json')) for sub in batch_dirs]
     unresolved=list(chain.from_iterable(index['unresolved'] for _,index in batches))
-    selected={r['id']:(sub,r) for sub,index in batches for r in index['records']}
+    selected={}
+    for sub,index in batches:
+        for r in index['records']:
+            old_ids={r['id'],*(o['id'] for o in r['observations'] if o['sourceDrawing']==r['sourceDrawing'])}
+            for old_id in old_ids:
+                old=selected.pop(old_id,None)
+                if old:
+                    r['observations'].extend(o for o in old[1]['observations'] if o not in r['observations'])
+            selected[r['id']]=(sub,r)
     source=list(selected.values())
     source.sort(key=lambda item:(item[1]['sourceDrawing']!='official-standard', bool(item[1].get('observationIds')),item[1]['id']))
     master=new_doc()
@@ -194,12 +223,30 @@ def merge_batches(batch_dirs,wd,bin_dir,tmp,out):
     if (out/'manifest.json').is_file():
         prior={r['id']:r for r in read(out/'manifest.json')['records'] if r.get('standaloneModelspace')}
     variants=read(REVIEWED_VARIANTS)
+    metadata=read(RENDER_REPAIRS)
     publication=wd/'block-inputs'/'official-faces.json'
     allowed={r['id'] for r in read(publication)} if publication.is_file() else set()
+    supplement=wd/'block-inputs'/'official-callout-faces.json'
+    callouts={r['id']:r for r in read(supplement)} if supplement.is_file() else {}
+    allowed.update(callouts)
+    redirected=defaultdict(list)
+    historic_twins={'mutcd-sheet-r3-17-107b4':'fp-signs-75f3'}
     for sub,r in source:
+        for o in callouts.get(r['id'],{}).get('sourceObservations',[]):
+            if o not in r['observations']:r['observations'].append(o)
         code=r['code'].casefold()
+        if metadata.get(r['id'],{}).get('aliases'):
+            r['aliases']=list(dict.fromkeys(r.get('aliases',[])+metadata[r['id']]['aliases']))
+        if r['id']=='geo-g27-4b1d':
+            r['note']='Unnumbered Interstate shield. The original drawing has a route-number attribute. This external block contains the blank graphic.'
+        if 'historic' in r.get('sourceKind','') and r['sourceDrawing']=='official-standard':r['geometryStatus']='historical issued artwork'
+        if r['id'] in historic_twins:
+            redirected[historic_twins[r['id']]].extend(r['observations'])
+            continue
         if r['sourceDrawing']=='official-standard':
             if not r.get('observationIds') and allowed and r['id'] not in allowed:continue
+            if r.get('observationIds') and code in issued and all(abs(r[k]-issued[code][k])<.001 for k in ('width','height')):
+                continue
             if code not in issued:issued[code]=r
             sizes[(code,r['width'],r['height'])]=r
         else:
@@ -218,6 +265,13 @@ def merge_batches(batch_dirs,wd,bin_dir,tmp,out):
             seen[k]['observations'].extend(o for o in r['observations'] if o not in seen[k]['observations'])
             continue
         seen[k]=r
+        if not r.get('nominalPanelInches') and r['sizeStatus']!='Reference size unknown':
+            if 'diamond' in r['sizeBasis']:
+                r['nominalPanelInches']=[round(v/math.sqrt(2),3) for v in (r['width'],r['height'])]
+            elif r['sizeBasis']=='triangle-sides' and r['code'].upper()=='R1-2':
+                r['nominalPanelInches']=[r['width']]*3
+            elif r['sizeBasis'] in {'width-height','diameter','published overall panel width and height','source drawing dimension note'}:
+                r['nominalPanelInches']=[r['width'],r['height']]
         rows.append(r)
         d=ezdxf.readfile(wd/'block-stage'/sub.name/(r['id']+'.dxf'))
         b=d.blocks[r['blockName']]
@@ -253,7 +307,11 @@ def merge_batches(batch_dirs,wd,bin_dir,tmp,out):
                 mb.add_entity(ent.copy())
         standalone.set_modelspace_vport(height=max(r['width'],r['height'])*1.22,center=(0,0))
         previous=prior.get(r['id'])
-        matching=previous and all(previous.get(f)==r.get(f) for f in ('geometryFingerprint','width','height','file','masterBlockName'))
+        # Vector repairs can add a true knockout or fill after the outline
+        # fingerprint is computed. Cache against the finished source block too.
+        r['sourceBlockSha256']=r['sha256']
+        matching=previous and all(previous.get(f)==r.get(f) for f in (
+            'sourceBlockSha256','geometryFingerprint','width','height','file','masterBlockName'))
         existing=out/r['file']
         if matching and existing.is_file() and digest(existing)==previous['sha256']:
             for field in ('sha256','bytes','entityCount','solidHatches','roundTrip'):r[field]=previous[field]
@@ -264,6 +322,8 @@ def merge_batches(batch_dirs,wd,bin_dir,tmp,out):
         from re import split
         return (category(r['code']),[int(x) if x.isdigit() else x for x in split(r'(\d+)',r['code'].lower())],
                 r['sourceDrawing']!='official-standard',bool(r.get('observationIds')),r['sourceDrawing'],r['id'])
+    for r in rows:
+        if r['id'] in redirected:r['observations'].extend(o for o in redirected[r['id']] if o not in r['observations'])
     rows.sort(key=sort_key)
     if len({r['blockName'].casefold() for r in rows})!=len(rows):raise ValueError('Different individual drawings share an internal symbol')
     with ThreadPoolExecutor(max_workers=4) as pool:
@@ -328,10 +388,19 @@ def main():
         r.update(repairs.get(r['id'],{}))
         measure=reviewed.get(r['id'])
         if measure:
-            r.update(publisherPlateSize=measure['nominalBounds'],publisherPlateSource=measure['source'],
+            r.update(publisherPlateSize=measure['nominalBounds'],nominalPanelInches=measure.get('size'),publisherPlateSource=measure['source'],
                      publisherSizeBasis=measure['sizeBasis'],publisherPlateCondition=measure['condition'])
+            if measure.get('calibrateDiamond'):r['calibrateDiamond']=True
             if measure.get('notes'):r['notes']=measure['notes']
             if measure.get('outlineMask'):r['mask']=measure['outlineMask']
+            elif measure.get('sourceMask'):
+                src=Path(measure['sourceMask'])
+                if digest(src)!=measure['sourceMaskSha256']:raise ValueError('Archived sign mask changed: '+r['id'])
+                r['mask']=str(src)
+            if measure.get('sourceKind'):r['sourceKind']=measure['sourceKind']
+            if measure.get('artworkSourceUrl'):r['sourceUrl']=measure['artworkSourceUrl']
+            if measure.get('artworkSourceSha256'):r['referenceSha256']=measure['artworkSourceSha256']
+
         if r['id'] in variants:r['historicalLegend']=variants[r['id']]['legend']
     # These title legends were copied onto two paper layouts and three unused
     # definitions. The source's ordering distinguishes repeat codes in each legend.
@@ -343,6 +412,7 @@ def main():
             ordinals[ordinal_key]+=1
             r['copyFingerprint']=f"{family}{r['code'].casefold()}/{ordinals[ordinal_key]}"
 
+    candidates={r['id']:r for r in records}
     if args.sources:records=[r for r in records if r['drawing'] in args.sources]
     if args.sample:records=[r for r in records if r['id'] in args.sample or r['code'] in args.sample]
     captured={}
@@ -363,6 +433,7 @@ def main():
                 marks=record(doc,ctx,r)
                 rect=get_bounds(marks,r)
             width,height,status,authority,reference=choose_size(r,standards,rect,marks)
+            if r.get('calibrateDiamond'):rect=diamond_blank_bounds(marks,rect)
             transformed=scaled_marks(marks,rect,width,height)
             # Collapse exact face copies across drawing layouts. Curves are sampled
             # at the same normalized tolerance independent of source-paper units.
@@ -373,14 +444,20 @@ def main():
                     pts=tuple((round(v.x/width,4),round(v.y/height,4)) for v in pp.flattening(max(width,height)/450,segments=3))
                     if pts:curves.append(min(pts,tuple(reversed(pts))))
                 if curves:tokens.append((mark.fill,mark.white,tuple(sorted(curves))))
-            signature=(designation_key(r['code']),round(width,3),round(height,3),r.get('copyFingerprint') or hashlib.sha256(repr(sorted(tokens)).encode()).hexdigest())
+            fingerprint=hashlib.sha256(repr((sorted(tokens),r.get('assemblyComponents',[]))).encode()).hexdigest() if r.get('assemblyComponents') else hashlib.sha256(repr(sorted(tokens)).encode()).hexdigest()
+            signature=(designation_key(r['code']),round(width,3),round(height,3),r.get('copyFingerprint') or fingerprint)
             observation={'id':id,'sourceDrawing':series,'sourceHandle':r.get('handle',r.get('recordHandle','')),'space':r.get('space',''),'code':r['code']}
             if signature in captured:
                 captured[signature]['observations'].append(observation)
                 continue
             name=native_name(r['code'])
             single=new_doc();b=single.blocks.new(name);b.block_record.dxf.units=1
-            write_geometry(b,transformed,width,height,solid_symbol=not r.get('mask'),ink_extent=r.get('minimumAddedInkY'),join_dangling=r.get('joinArrowContours',False))
+            if r.get('assemblyComponents'):
+                parts=[candidates[k] for k in r['assemblyComponents']]
+                draw_assembly(b,doc,ctx,parts,rect,width,height)
+            else:
+                write_geometry(b,transformed,width,height,solid_symbol=not r.get('mask'),ink_extent=r.get('minimumAddedInkY'),join_dangling=r.get('joinArrowContours',False))
+            if r.get('knockoutRings'):restore_native_knockouts(b,transformed,width,height)
             if not b.query('HATCH'):
                 unresolved.append({'id':id,'code':r['code'],'sourceDrawing':series,'sourceHandle':r.get('handle',''),'reason':'No positive closed sign geometry'});continue
             single.modelspace().add_blockref(name,(0,0));single.set_modelspace_vport(height=max(width,height)*1.22,center=(0,0))
@@ -392,12 +469,13 @@ def main():
             allblocks.append(dict(id=id,code=r['code'],blockName=name,masterBlockName=master_name,
                 file='individual/'+('reference-size-unknown/' if reference else '')+id+'.dwg',width=round(width,4),height=round(height,4),sizeStatus=status,
                 sizeBasis=authority,sourceDrawing=series,sourceHandle=r.get('handle') or r.get('recordHandle') or '',
-                sourceKind=r.get('sourceKind','block'),geometryFingerprint=signature[-1],
+                sourceKind=r.get('sourceKind','block'),geometryFingerprint=fingerprint,
+                nominalPanelInches=r.get('nominalPanelInches') or r.get('verifiedSize') or r.get('sizeInches'),
                 geometryStatus=('current issued artwork' if series=='official-standard' else 'reconciled source variant' if r.get('textOverrides') else 'traced source face' if r.get('mask') else 'source vector'),
                 sourceUrl=r.get('sourceUrl'),referenceTitle=r.get('referenceTitle'),aliases=r.get('aliases',[]),
                 assembly=bool(r.get('assembly')),componentOf=r.get('componentOf'),componentRole=r.get('componentRole'),historicalLegend=r.get('historicalLegend'),sourceImage=r.get('sourceImage'),referenceAsset=r.get('referenceAsset'),
                 referenceSha256=r.get('referenceSha256'),observationIds=r.get('observationIds',[]),
-                note=r.get('note') or r.get('notes',''),basepoint=[0,0,0],observations=[observation],
+                note=r.get('note') or r.get('notes',''),basepoint=[0,0,0],observations=[observation,*r.get('sourceObservations',[])],
                 sizeReference=((r.get('publisherPlateSource') or standards.get(designation_key(r['code']),{}).get('source')) if status=='published reference size' else r.get('sizeReference') or r.get('sizeEvidence')),
                 sizeCondition=((r.get('publisherPlateCondition') or standards.get(designation_key(r['code']),{}).get('condition')) if status=='published reference size' else None)))
             captured[signature]=allblocks[-1]

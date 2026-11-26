@@ -9,7 +9,7 @@ import fitz
 from PIL import Image
 
 
-def comparison_book(sheets, rows, target):
+def comparison_book(sheets, rows, target, master_sha=None):
     """Use searchable labels, clickable authority links and deduplicated sign images."""
     doc=fitz.open()
     toc=[]
@@ -22,6 +22,8 @@ def comparison_book(sheets, rows, target):
         page=doc.new_page(width=760,height=1160)
         page.insert_font(fontname="QAFont",fontbuffer=font.buffer)
         page.insert_text((10,14),f"Native DWG visual review  /  {n} of {len(pages)}",fontname="QAFont",fontsize=10)
+        if master_sha:
+            page.insert_text((320,14),"Master DWG SHA-256  "+master_sha,fontname="QAFont",fontsize=5.5,color=(.29,.29,.29))
         for i,row in enumerate(group):
             x=8+374*(i%2); y=22+94*(i//2)
             name=f"{row['code']}   /   {row['source']}   {row['handle'] or ''}"
@@ -56,7 +58,8 @@ def comparison_book(sheets, rows, target):
 
 def portable_review(comparisons, package, output):
     rows=json.loads(comparisons.read_text())
-    known={r["id"]:r for r in json.loads(package.read_text())["records"]}
+    catalog=json.loads(package.read_text())
+    known={r["id"]:r for r in catalog["records"]}
     reviewed={r["id"]:r for r in rows if r["id"] in known and r["dwgSha256"]==known[r["id"]]["sha256"]}
     missing=sorted(set(known)-set(reviewed))
     failures=[r["id"] for r in reviewed.values() if r.get("status")=="DWG render failed" or isinstance(r.get("render"),dict)]
@@ -69,19 +72,23 @@ def portable_review(comparisons, package, output):
     page_for={path.name:i+1 for i,path in enumerate(sheets)}
     records=[]
     for r in reviewed.values():
-        record={k:r[k] for k in ("id","code","source","handle","dwgSha256","geometryStatus","reviewMethod","publisherURL","referenceType",
+        record={k:r[k] for k in ("id","code","source","sourceKind","handle","dwgSha256","geometryStatus","reviewMethod","publisherURL","referenceType",
                                "sourceMetrics","agencyMetrics","visualReview","visualReviewBasis","previouslyReviewedDwgSha256","automatedTriage","status") if k in r and r[k] is not None}
         record["comparisonPage"]=page_for[Path(r["contactSheet"]).name]
         record["hasSourcePreview"]=isinstance(r.get("sourcePreview"),str)
         records.append(record)
-    retained={"recordCount":len(records),"byStatus":dict(Counter(r["status"] for r in records)),
+    retained={"masterDwgSha256":catalog["masterSha256"],"recordCount":len(records),"byStatus":dict(Counter(r["status"] for r in records)),
               "visuallyReviewedCount":sum("visualReview" in r for r in records),
               "hasPublisherImage":sum(bool(r.get("referenceType")) for r in records),
               "hasSourceImage":sum(r["hasSourcePreview"] for r in records),
+              "issuedArtworkRows":sum(r["source"]=="official-standard" for r in records),
+              "issuedArtworkVisuallyChecked":sum(r["source"]=="official-standard" and r.get("status")=="publisher artwork visually checked" for r in records),
+              "sourceVariantsComparedToPublisherExamples":sum(r.get("status")=="source variant compared with publisher example" for r in records),
+              "originalDrawingPreviewCount":sum(r["source"]!="official-standard" and r["hasSourcePreview"] for r in records),
               "method":"Decoded native DWG compared with available CAD source artwork and independently published sign artwork. Ink alignment, mirror affinity, area and aspect ratio are triage measurements. Comparative images and the originating edition determine legend, validity and handedness. Modified and uncoded local faces can lack an independent published match.",
               "records":records}
     (output/"CAD-VISUAL-CHECKS.json").write_text(json.dumps(retained,ensure_ascii=False,separators=(",",":"))+"\n")
-    comparison_book(sheets, reviewed.values(), output/"CAD-SIGN-VISUAL-REVIEW.pdf")
+    comparison_book(sheets, reviewed.values(), output/"CAD-SIGN-VISUAL-REVIEW.pdf",catalog["masterSha256"])
     print({k:retained[k] for k in retained if k not in ("records","method")})
 
 if __name__=="__main__":

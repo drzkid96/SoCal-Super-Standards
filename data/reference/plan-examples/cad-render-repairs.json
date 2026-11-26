@@ -1,236 +1,946 @@
 {
-  "pico-r61-19-ca-mod-lt-142451a": {
-    "separatorHandles": [
-      "142451D"
+ "pico-r61-19-ca-mod-lt-142451a": {
+  "separatorHandles": [
+   "142451D"
+  ]
+ },
+ "pico-r61-19-ca-mod-rt-14251d8": {
+  "separatorHandles": [
+   "14251DB"
+  ],
+  "aliases": [
+   "R61-19(Mod)(RT)",
+   "R61-19(MOD)(RT)"
+  ]
+ },
+ "pico-r61-34-ca-mod-142525d": {
+  "separatorHandles": [
+   "142523A",
+   "142523D"
+  ]
+ },
+ "pico-r10-15-mod-152d98c": {
+  "joinedGlyphContours": [
+   [
+    [
+     "152F776",
+     false
+    ],
+    [
+     "152F770",
+     true
+    ],
+    [
+     "152F775",
+     false
+    ],
+    [
+     "152F76E",
+     false
+    ],
+    [
+     "152F773",
+     true
+    ],
+    [
+     "152F76D",
+     true
     ]
-  },
-  "pico-r61-19-ca-mod-rt-14251d8": {
-    "separatorHandles": [
-      "14251DB"
+   ],
+   [
+    [
+     "152F7A2",
+     false
+    ],
+    [
+     "152F78A",
+     true
+    ],
+    [
+     "152F7A1",
+     false
+    ],
+    [
+     "152F788",
+     false
+    ],
+    [
+     "152F79B",
+     true
+    ],
+    [
+     "152F77A",
+     true
     ]
-  },
-  "pico-r61-34-ca-mod-142525d": {
-    "separatorHandles": [
-      "142523A",
-      "142523D"
+   ]
+  ],
+  "minimumAddedInkY": 0.62
+ },
+ "pico-r5-2-6000-587a7d": {
+  "minimumAddedInkY": 1.0
+ },
+ "pico-r81-ca-761ac6": {
+  "minimumAddedInkY": 1.0
+ },
+ "pico-r1-5-mod-10f2f4a": {
+  "minimumAddedInkY": 1.0
+ },
+ "pico-r118-ca-10f22d9": {
+  "minimumAddedInkY": 1.0
+ },
+ "pico-assembly-d-ca-5921b8": {
+  "minimumAddedInkY": 1.0
+ },
+ "mutcd-sheet-m5-2-11fa0": {
+  "joinArrowContours": true
+ },
+ "mutcd-sheet-m6-1-11fa1": {
+  "joinArrowContours": true
+ },
+ "mutcd-sheet-m6-2-11fa2": {
+  "joinArrowContours": true
+ },
+ "mutcd-sheet-m6-3-11fa3": {
+  "joinArrowContours": true
+ },
+ "mutcd-sheet-r3-6l-10593": {
+  "joinArrowContours": true,
+  "aliases": [
+   "R3-6(LT)"
+  ]
+ },
+ "mutcd-sheet-r3-6r-105b0": {
+  "joinArrowContours": true
+ },
+ "mutcd-sheet-r3-8l-105f9": {
+  "joinArrowContours": true
+ },
+ "mutcd-sheet-r3-8r-1062a": {
+  "joinArrowContours": true
+ },
+ "mutcd-sheet-r3-9a-10651": {
+  "joinArrowContours": true
+ },
+ "mutcd-sheet-m5-1-11f9f": {
+  "joinArrowContours": true
+ },
+ "fp-signs-1a33a": {
+  "subtractHatches": [
+   "1A33C",
+   "1A33F",
+   "1A341",
+   "1A350"
+  ],
+  "minimumAddedInkY": 1.0,
+  "solidContourHandles": [
+   "1A33E"
+  ]
+ },
+ "fp-signs-7ada": {
+  "skipSourceHandles": [
+   "10835"
+  ],
+  "sourceRingSlash": [
+   "10829",
+   "10826",
+   "1082A"
+  ],
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-7c60": {
+  "skipSourceHandles": [
+   "10844"
+  ],
+  "sourceRingSlash": [
+   "1083B",
+   "10838",
+   "1083C"
+  ],
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-7c61": {
+  "skipSourceHandles": [
+   "10854"
+  ],
+  "sourceRingSlash": [
+   "1084B",
+   "10848",
+   "1084C"
+  ],
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-8213": {
+  "skipSourceHandles": [
+   "10544"
+  ],
+  "sourceRingSlash": [
+   "10540",
+   "1053D",
+   "10541"
+  ],
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-a8ac": {
+  "skipSourceHandles": [
+   "10551"
+  ],
+  "sourceRingSlash": [
+   "1054E",
+   "1054B",
+   "1054F"
+  ],
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-a8ad": {
+  "skipSourceHandles": [
+   "10560"
+  ],
+  "sourceRingSlash": [
+   "1055D",
+   "1055A",
+   "1055E"
+  ],
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-block-41-0335": {
+  "componentOf": "fp-signs-assembly-41-0335-41-0336",
+  "componentRole": "Car warning panel",
+  "note": "Car warning panel from the complete 41-0335 & 41-0336 sign assembly."
+ },
+ "fp-signs-block-41-0336": {
+  "componentOf": "fp-signs-assembly-41-0335-41-0336",
+  "componentRole": "SLIPPERY WHEN WET plaque",
+  "note": "SLIPPERY WHEN WET plaque from the complete 41-0335 & 41-0336 sign assembly."
+ },
+ "mutcd-sheet-r9-7-10e44": {
+  "joinedApertureContours": [
+   [
+    [
+     "10E01",
+     false
+    ],
+    [
+     "10DFF",
+     true
+    ],
+    [
+     "10DF8",
+     true
+    ],
+    [
+     "10E2A",
+     true
+    ],
+    [
+     "10DF4",
+     false
+    ],
+    [
+     "10E02",
+     false
     ]
-  },
-  "pico-r10-15-mod-152d98c": {
-    "joinedGlyphContours": [
-      [
-        [
-          "152F776",
-          false
-        ],
-        [
-          "152F770",
-          true
-        ],
-        [
-          "152F775",
-          false
-        ],
-        [
-          "152F76E",
-          false
-        ],
-        [
-          "152F773",
-          true
-        ],
-        [
-          "152F76D",
-          true
-        ]
-      ],
-      [
-        [
-          "152F7A2",
-          false
-        ],
-        [
-          "152F78A",
-          true
-        ],
-        [
-          "152F7A1",
-          false
-        ],
-        [
-          "152F788",
-          false
-        ],
-        [
-          "152F79B",
-          true
-        ],
-        [
-          "152F77A",
-          true
-        ]
-      ]
+   ]
+  ],
+  "note": "Bike-right historic source artwork. Six original wheel, hub and fork edges close the left bicycle-wheel opening."
+ },
+ "fp-signs-7475": {
+  "knockoutRings": [
+   [
+    [
+     [
+      "10914",
+      false
+     ]
     ],
-    "minimumAddedInkY": 0.62
-  },
-  "pico-r5-2-6000-587a7d": {
-    "minimumAddedInkY": 1.0
-  },
-  "pico-r81-ca-761ac6": {
-    "minimumAddedInkY": 1.0
-  },
-  "pico-r1-5-mod-10f2f4a": {
-    "minimumAddedInkY": 1.0
-  },
-  "pico-r118-ca-10f22d9": {
-    "minimumAddedInkY": 1.0
-  },
-  "pico-assembly-d-ca-5921b8": {
-    "minimumAddedInkY": 1.0
-  },
-  "mutcd-sheet-m5-2-11fa0": {
-    "joinArrowContours": true
-  },
-  "mutcd-sheet-m6-1-11fa1": {
-    "joinArrowContours": true
-  },
-  "mutcd-sheet-m6-2-11fa2": {
-    "joinArrowContours": true
-  },
-  "mutcd-sheet-m6-3-11fa3": {
-    "joinArrowContours": true
-  },
-  "mutcd-sheet-r3-6l-10593": {
-    "joinArrowContours": true
-  },
-  "mutcd-sheet-r3-6r-105b0": {
-    "joinArrowContours": true
-  },
-  "mutcd-sheet-r3-8l-105f9": {
-    "joinArrowContours": true
-  },
-  "mutcd-sheet-r3-8r-1062a": {
-    "joinArrowContours": true
-  },
-  "mutcd-sheet-r3-9a-10651": {
-    "joinArrowContours": true
-  },
-  "mutcd-sheet-m5-1-11f9f": {
-    "joinArrowContours": true
-  },
-  "fp-signs-1a33a": {
-    "subtractHatches": [
-      "1A33C",
-      "1A33F",
-      "1A341",
-      "1A350"
+    [
+     [
+      "10915",
+      false
+     ]
+    ]
+   ]
+  ],
+  "note": "The original outer and inner HOV diamond contours restore the uninked ring in the native dark header."
+ },
+ "fp-signs-9a5f": {
+  "knockoutRings": [
+   [
+    [
+     [
+      "109B7",
+      false
+     ]
     ],
-    "minimumAddedInkY": 1.0
+    [
+     [
+      "109B6",
+      false
+     ]
+    ]
+   ]
+  ],
+  "note": "The original outer and inner HOV diamond contours restore the uninked ring in the native dark header."
+ },
+ "mutcd-sheet-r3-14-106fc": {
+  "knockoutRings": [
+   [
+    [
+     [
+      "106E6",
+      false
+     ],
+     [
+      "106E7",
+      false
+     ],
+     [
+      "106E8",
+      false
+     ],
+     [
+      "106E9",
+      false
+     ]
+    ],
+    [
+     [
+      "106EA",
+      false
+     ],
+     [
+      "106EB",
+      false
+     ],
+     [
+      "106EC",
+      false
+     ],
+     [
+      "106ED",
+      false
+     ]
+    ]
+   ]
+  ],
+  "note": "The original outer and inner HOV diamond contours restore the uninked ring in the native dark header."
+ },
+ "fp-signs-assembly-41-0335-41-0336": {
+  "assemblyComponents": [
+   "fp-signs-block-41-0335",
+   "fp-signs-block-41-0336"
+  ]
+ },
+ "3346-title-103AC67": {
+  "aliases": [
+   "Custom Turn Wheels City Sign",
+   "Turn Wheels Custom Sign"
+  ]
+ },
+ "mutcd-sheet-r3-16-10761": {
+  "joinedApertureContours": [
+   [
+    [
+     "1072D",
+     false
+    ],
+    [
+     "1072B",
+     true
+    ],
+    [
+     "10724",
+     true
+    ],
+    [
+     "10756",
+     true
+    ],
+    [
+     "10720",
+     false
+    ],
+    [
+     "1072E",
+     false
+    ]
+   ]
+  ],
+  "note": "Six original wheel, hub and fork edges close the open bicycle-wheel counter."
+ },
+ "mutcd-sheet-r9-5-10d9c": {
+  "joinedApertureContours": [
+   [
+    [
+     "10D6F",
+     false
+    ],
+    [
+     "10D6D",
+     true
+    ],
+    [
+     "10D66",
+     true
+    ],
+    [
+     "10D98",
+     true
+    ],
+    [
+     "10D62",
+     false
+    ],
+    [
+     "10D70",
+     false
+    ]
+   ]
+  ],
+  "note": "Six original wheel, hub and fork edges close the open bicycle-wheel counter."
+ },
+ "mutcd-sheet-r9-6-10de3": {
+  "joinedApertureContours": [
+   [
+    [
+     "10DB6",
+     false
+    ],
+    [
+     "10DB4",
+     true
+    ],
+    [
+     "10DAD",
+     true
+    ],
+    [
+     "10DDF",
+     true
+    ],
+    [
+     "10DA9",
+     false
+    ],
+    [
+     "10DB7",
+     false
+    ]
+   ]
+  ],
+  "note": "Six original wheel, hub and fork edges close the open bicycle-wheel counter."
+ },
+ "mutcd-sheet-w11-1-11ac8": {
+  "joinedApertureContours": [
+   [
+    [
+     "11ADA",
+     false
+    ],
+    [
+     "11AD8",
+     true
+    ],
+    [
+     "11AD1",
+     true
+    ],
+    [
+     "11B03",
+     true
+    ],
+    [
+     "11ACD",
+     false
+    ],
+    [
+     "11ADB",
+     false
+    ]
+   ]
+  ],
+  "note": "Six original wheel, hub and fork edges close the open bicycle-wheel counter."
+ },
+ "3346-signs-1-13-1098664": {
+  "aliases": [
+   "R30(CA)(M0D)"
+  ]
+ },
+ "3346-legacy-10362F6": {
+  "aliases": [
+   "R30(CA)(M0D)"
+  ]
+ },
+ "3346-title-103A8BF": {
+  "aliases": [
+   "R30(CA)(M0D)"
+  ]
+ },
+ "3346-signs-1-13-1066e62": {
+  "aliases": [
+   "R49(CA)(L)"
+  ]
+ },
+ "3346-signs-1-13-1098678": {
+  "aliases": [
+   "R49(CA)(L)"
+  ]
+ },
+ "3346-title-details-103aabe": {
+  "aliases": [
+   "R49(CA)(L)"
+  ]
+ },
+ "fp-signs-9a83": {
+  "aliases": [
+   "M4-10(LT)"
+  ]
+ },
+ "mutcd-sheet-m4-10l-11f95": {
+  "aliases": [
+   "M4-10(LT)"
+  ]
+ },
+ "fp-signs-7212": {
+  "aliases": [
+   "R3-7(L)"
+  ]
+ },
+ "mutcd-sheet-r3-7l-105bc": {
+  "aliases": [
+   "R3-7(L)"
+  ]
+ },
+ "3346-signs-1-13-109823d": {
+  "aliases": [
+   "R3-7(RT)"
+  ]
+ },
+ "fp-signs-721e": {
+  "aliases": [
+   "R3-7(RT)"
+  ]
+ },
+ "mutcd-sheet-r3-7r-105c8": {
+  "aliases": [
+   "R3-7(RT)"
+  ]
+ },
+ "3346-signs-1-13-1097b94": {
+  "aliases": [
+   "R6-1-left"
+  ]
+ },
+ "3346-title-details-103aad2": {
+  "aliases": [
+   "R6-1-left"
+  ]
+ },
+ "fp-signs-a8c7": {
+  "aliases": [
+   "R6-1-left"
+  ]
+ },
+ "mutcd-sheet-r6-1l-1097e": {
+  "aliases": [
+   "R6-1-left"
+  ]
+ },
+ "mutcd-sheet-w1-6l-11150": {
+  "aliases": [
+   "W1-6(LT)"
+  ]
+ },
+ "fp-signs-6680": {
+  "aliases": [
+   "W9-1(RT)"
+  ]
+ },
+ "mutcd-sheet-w9-1r-115df": {
+  "aliases": [
+   "W9-1(RT)"
+  ]
+ },
+ "3346-legacy-1036100": {
+  "solidSourceHatches": [
+   "10360FF"
+  ]
+ },
+ "fp-signs-6670": {
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-6675": {
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-669b": {
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-66ac": {
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-18a71": {
+  "minimumAddedInkY": 1.0
+ },
+ "fp-signs-9b15": {
+  "knockoutRings": [
+   [
+    [
+     [
+      "1052A",
+      false
+     ]
+    ]
+   ],
+   [
+    [
+     [
+      "1052B",
+      false
+     ]
+    ]
+   ]
+  ],
+  "note": "Recover the original panel's walking silhouette from its closed body polyline and circular head as two native hatch apertures."
+ },
+ "fp-signs-9be7": {
+  "knockoutRings": [
+   [
+    [
+     [
+      "105BC",
+      false
+     ]
+    ]
+   ],
+   [
+    [
+     [
+      "105BD",
+      false
+     ]
+    ]
+   ]
+  ],
+  "note": "Recover the original panel's walking silhouette from its closed body polyline and circular head as two native hatch apertures."
+ },
+ "fp-signs-d2": {
+  "textOverrides": {
+   "100F2": "7      9",
+   "100F3": "4      6"
   },
-  "fp-signs-7ada": {
-    "skipSourceHandles": [
-      "10835"
-    ],
-    "sourceRingSlash": [
-      "10829",
-      "10826",
-      "1082A"
-    ],
-    "minimumAddedInkY": 1.0
+  "note": "Original two-digit text spans overprinted the separate TO lettering. Expand their native spaces to keep both original time ranges readable."
+ },
+ "fp-signs-d9": {
+  "textOverrides": {
+   "1029F": "7 A.M. TO 6 P.M."
   },
-  "fp-signs-7c60": {
-    "skipSourceHandles": [
-      "10844"
+  "skipSourceHandles": [
+   "102A1",
+   "102A2",
+   "102A3"
+  ],
+  "note": "Compose the four overlapping original time-line TEXT runs in their existing aligned span, retaining every word, number, and period."
+ },
+ "fp-signs-extra-15d00": {
+  "knockoutRings": [
+   [
+    [
+     [
+      "15D0F",
+      false
+     ]
     ],
-    "sourceRingSlash": [
-      "1083B",
-      "10838",
-      "1083C"
-    ],
-    "minimumAddedInkY": 1.0
+    [
+     [
+      "15D10",
+      false
+     ]
+    ]
+   ]
+  ],
+  "note": "Use the original right-lane carpool diamond inner and outer polylines as a negative ring in the black lane header."
+ },
+ "fp-signs-extra-14752": {
+  "insetMtext": {
+   "1475F": 0.84
   },
-  "fp-signs-7c61": {
-    "skipSourceHandles": [
-      "10854"
+  "note": "Inset the original center-aligned four-line MTEXT to provide clearance from the two side borders."
+ },
+ "fp-signs-extra-11d10": {
+  "sourceInkStrokes": [
+   {
+    "handles": [
+     "11D4E",
+     "11D4F",
+     "11D50",
+     "11D51",
+     "11D52",
+     "11D53"
     ],
-    "sourceRingSlash": [
-      "1084B",
-      "10848",
-      "1084C"
+    "sourceWidth": 0.49
+   }
+  ],
+  "note": "Plot both of the original skid strokes at a readable weight using their six original arcs and line segments."
+ },
+ "fp-signs-extra-10de0": {
+  "sourceInkStrokes": [
+   {
+    "handles": [
+     "10DE0",
+     "10DE1",
+     "10DE2",
+     "10DE3",
+     "10DE4",
+     "10DE5",
+     "10DE6",
+     "10DE7",
+     "10DE8",
+     "10DE9",
+     "10DEA",
+     "10DEB",
+     "10DEC",
+     "10DED",
+     "10DEE",
+     "10DEF",
+     "10DF0",
+     "10DF1",
+     "10DF2",
+     "10DF3",
+     "10DF4",
+     "10DF5",
+     "10DF6",
+     "10DF7",
+     "10DF8",
+     "10DF9",
+     "10DFA",
+     "10DFB",
+     "10DFC",
+     "10DFD",
+     "10DFE",
+     "10DFF",
+     "10E00",
+     "10E01",
+     "10E02",
+     "10E03",
+     "10E04",
+     "10E05",
+     "10E06",
+     "10E07",
+     "10E08",
+     "10E09",
+     "10E0A",
+     "10E0B",
+     "10E0C",
+     "10E0D",
+     "10E0E",
+     "10E0F",
+     "10E10",
+     "10E11",
+     "10E12",
+     "10E13",
+     "10E14",
+     "10E15",
+     "10E16",
+     "10E17",
+     "10E18",
+     "10E19",
+     "10E1A",
+     "10E1B",
+     "10E1C",
+     "10E1D",
+     "10E1E",
+     "10E1F",
+     "10E20",
+     "10E21",
+     "10E22",
+     "10E23",
+     "10E24",
+     "10E25",
+     "10E26",
+     "10E27",
+     "10E28",
+     "10E29",
+     "10E2A",
+     "10E2B",
+     "10E2C",
+     "10E2D",
+     "10E2E",
+     "10E2F",
+     "10E30",
+     "10E31",
+     "10E32",
+     "10E33",
+     "10E34",
+     "10E35",
+     "10E36",
+     "10E37",
+     "10E38",
+     "10E39",
+     "10E3A",
+     "10E3B",
+     "10E3C",
+     "10E3D",
+     "10E3E",
+     "10E3F",
+     "10E40",
+     "10E41",
+     "10E42",
+     "10E43",
+     "10E44",
+     "10E45",
+     "10E46",
+     "10E47",
+     "10E48",
+     "10E49",
+     "10E4A",
+     "10E4B",
+     "10E4C",
+     "10E4D",
+     "10E4E",
+     "10E4F",
+     "10E50",
+     "10E51",
+     "10E52",
+     "10E53",
+     "10E54",
+     "10E55",
+     "10E56",
+     "10E57",
+     "10E58",
+     "10E59",
+     "10E5A",
+     "10E5B",
+     "10E5C",
+     "10E5D",
+     "10E5E",
+     "10E5F",
+     "10E60",
+     "10E61",
+     "10E62",
+     "10E63",
+     "10E64",
+     "10E65",
+     "10E66",
+     "10E67",
+     "10E68",
+     "10E69",
+     "10E6A",
+     "10E6B",
+     "10E6C",
+     "10E6D",
+     "10E6E",
+     "10E6F"
     ],
-    "minimumAddedInkY": 1.0
-  },
-  "fp-signs-8213": {
-    "skipSourceHandles": [
-      "10544"
+    "sourceWidth": 0.23,
+    "scanlines": true
+   }
+  ],
+  "knockoutRings": [
+   [
+    [
+     [
+      "10E85",
+      false
+     ]
+    ]
+   ],
+   [
+    [
+     [
+      "10E86",
+      false
+     ]
+    ]
+   ],
+   [
+    [
+     [
+      "10E87",
+      false
+     ]
     ],
-    "sourceRingSlash": [
-      "10540",
-      "1053D",
-      "10541"
+    [
+     [
+      "10E89",
+      false
+     ]
+    ]
+   ],
+   [
+    [
+     [
+      "10E88",
+      false
+     ]
     ],
-    "minimumAddedInkY": 1.0
-  },
-  "fp-signs-a8ac": {
-    "skipSourceHandles": [
-      "10551"
+    [
+     [
+      "10E8A",
+      false
+     ]
+    ]
+   ]
+  ],
+  "note": "Restore the flagger from 144 original parallel source scanlines and use the six native glyph-contour loops to retain the lettering in the STOP paddle."
+ },
+ "fp-signs-extra-137a6": {
+  "skipSourceHandles": [
+   "137A6",
+   "137AA"
+  ],
+  "minimumAddedInkY": 1.0,
+  "knockoutRings": [
+   [
+    [
+     [
+      "137AE",
+      false
+     ]
+    ]
+   ],
+   [
+    [
+     [
+      "137B2",
+      false
+     ]
     ],
-    "sourceRingSlash": [
-      "1054E",
-      "1054B",
-      "1054F"
+    [
+     [
+      "137AD",
+      false
+     ]
+    ]
+   ]
+  ]
+ },
+ "fp-signs-extra-137cf": {
+  "skipSourceHandles": [
+   "137CF"
+  ],
+  "minimumAddedInkY": 1.0,
+  "knockoutRings": [
+   [
+    [
+     [
+      "137D7",
+      false
+     ]
+    ]
+   ],
+   [
+    [
+     [
+      "137DB",
+      false
+     ]
     ],
-    "minimumAddedInkY": 1.0
-  },
-  "fp-signs-a8ad": {
-    "skipSourceHandles": [
-      "10560"
-    ],
-    "sourceRingSlash": [
-      "1055D",
-      "1055A",
-      "1055E"
-    ],
-    "minimumAddedInkY": 1.0
-  },
-  "fp-signs-block-41-0335": {
-    "componentOf": "fp-signs-assembly-41-0335-41-0336",
-    "componentRole": "Car warning panel",
-    "note": "Car warning panel from the complete 41-0335 & 41-0336 sign assembly."
-  },
-  "fp-signs-block-41-0336": {
-    "componentOf": "fp-signs-assembly-41-0335-41-0336",
-    "componentRole": "SLIPPERY WHEN WET plaque",
-    "note": "SLIPPERY WHEN WET plaque from the complete 41-0335 & 41-0336 sign assembly."
-  },
-  "mutcd-sheet-r9-7-10e44": {
-    "joinedApertureContours": [
-      [
-        [
-          "10E01",
-          false
-        ],
-        [
-          "10DFF",
-          true
-        ],
-        [
-          "10DF8",
-          true
-        ],
-        [
-          "10E2A",
-          true
-        ],
-        [
-          "10DF4",
-          false
-        ],
-        [
-          "10E02",
-          false
-        ]
-      ]
-    ],
-    "note": "Bike-right historic source artwork. Six original wheel, hub and fork edges close the left bicycle-wheel opening."
-  }
+    [
+     [
+      "137D6",
+      false
+     ]
+    ]
+   ]
+  ]
+ }
 }

@@ -63,8 +63,9 @@ def labels(value, layer, named=False):
             continue
         if base.startswith(("ASSEMBLY", "SIGN", "PCMS")):
             base = re.sub(r'\s*"', ' "', base, count=1)
-        # A parenthetical (2) is a quantity for these source labels. Legends on speed and weight signs are retained.
-        quals = [q.strip() for q in quals if q.strip() != "2"]
+        # On the numbered rail plaque the parenthetical is a track count. Other
+        # reviewed two-unit callouts repeat a fixed-design sign or plaque.
+        quals = [q.strip() for q in quals if q.strip() != "2" or base in {"W48", "R2-1", "R5-2"}]
         suffix = "".join("(" + q + ")" for q in quals)
         raw = match.group(0).strip()
         display = (

@@ -1,0 +1,129 @@
+{
+  "SW44CA": {
+    "publisher": "Caltrans",
+    "applicability": "Historical California edition. Withdrawn in California MUTCD 2026.",
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019444-sw44-a11y.pdf",
+    "sha256": "888acfc50c54026ab5e7e1f27e2e5edb27c04bda4ab956ad806b7e68480c2498",
+    "options": {
+      "minimumDiamondSide": [
+        30,
+        30
+      ],
+      "standardDiamondSide": [
+        36,
+        36
+      ],
+      "specialDiamondSide": [
+        48,
+        48
+      ]
+    },
+    "notes": "A dimensions the diamond side. Left and right arrow rotations share these plate dimensions."
+  },
+  "R81CA": {
+    "publisher": "Caltrans",
+    "applicability": "Historical California edition. Withdrawn in California MUTCD 2026.",
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev9/2025-camutcd-2014-rev9-part9-a11y.pdf#page=27",
+    "sha256": "1b6952444254d5f56cbcdfc308b08bebbac1b5dacf8b1ecea303776cfb779cc4",
+    "options": {
+      "formerRoadwayMinimum": [
+        12,
+        8
+      ]
+    },
+    "notes": "Table 9B-1(CA) in the former edition. Applies to the dated roadway sign, not an arbitrary project drawing."
+  },
+  "R81ACA": {
+    "publisher": "Caltrans",
+    "applicability": "Historical California edition. Withdrawn in California MUTCD 2026.",
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev9/2025-camutcd-2014-rev9-part9-a11y.pdf#page=27",
+    "sha256": "1b6952444254d5f56cbcdfc308b08bebbac1b5dacf8b1ecea303776cfb779cc4",
+    "options": {
+      "formerRoadwayMinimum": [
+        12,
+        5
+      ]
+    },
+    "notes": "Table 9B-1(CA) in the former edition. Applies to the dated roadway sign, not an arbitrary project drawing."
+  },
+  "R81BCA": {
+    "publisher": "Caltrans",
+    "applicability": "Historical California edition. Withdrawn in California MUTCD 2026.",
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev9/2025-camutcd-2014-rev9-part9-a11y.pdf#page=27",
+    "sha256": "1b6952444254d5f56cbcdfc308b08bebbac1b5dacf8b1ecea303776cfb779cc4",
+    "options": {
+      "formerRoadwayMinimum": [
+        8,
+        5
+      ]
+    },
+    "notes": "Table 9B-1(CA) in the former edition. Applies to the dated roadway sign, not an arbitrary project drawing."
+  },
+  "R118CA": {
+    "publisher": "Caltrans",
+    "applicability": "Historical California edition. Withdrawn in California MUTCD 2026.",
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev9/2025-camutcd-2014-rev9-part9-a11y.pdf#page=27",
+    "sha256": "1b6952444254d5f56cbcdfc308b08bebbac1b5dacf8b1ecea303776cfb779cc4",
+    "options": {
+      "formerRoadwayMinimum": [
+        18,
+        15
+      ]
+    },
+    "notes": "Table 9B-1(CA) in the former edition. Applies to the dated roadway sign, not an arbitrary project drawing."
+  },
+  "R13ACA": {
+    "publisher": "Caltrans",
+    "applicability": "Historical California edition. Withdrawn in California MUTCD 2026.",
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev9/2025-camutcd-2014-rev9-part2-ch2b-a11y.pdf#page=128",
+    "sha256": "efdd91ae9a014be3df62e0bb2be9b5b7317bce82409f8aa9399c49ab90b42795",
+    "options": {
+      "formerSingleLane": [
+        18,
+        30
+      ],
+      "formerMultilane": [
+        24,
+        36
+      ],
+      "formerExpressway": [
+        30,
+        48
+      ],
+      "formerFreeway": [
+        30,
+        48
+      ]
+    },
+    "notes": "Table 2B-1(CA), No Right Turn on Red."
+  },
+  "SR56CA": {
+    "publisher": "Caltrans",
+    "applicability": "Historical California edition. Withdrawn in California MUTCD 2026.",
+    "source": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev9/2025-camutcd-2014-rev9-part2-ch2b-a11y.pdf#page=133",
+    "sha256": "efdd91ae9a014be3df62e0bb2be9b5b7317bce82409f8aa9399c49ab90b42795",
+    "options": {
+      "formerSingleLane": [
+        36,
+        54
+      ],
+      "formerMultilane": [
+        36,
+        54
+      ],
+      "formerExpressway": [
+        48,
+        72
+      ],
+      "formerFreeway": [
+        48,
+        72
+      ],
+      "formerMinimum": [
+        30,
+        42
+      ]
+    },
+    "notes": "Table 2B-1(CA), traffic signal Photo Enforced."
+  }
+}

@@ -1,6 +1,6 @@
 // Mount reference checks and engineering calculators when the reader opens them.
 (() => {
-  if(window.SSSAgency?.active) return;
+  if(window.SSSAgency?.active && !location.pathname.endsWith('/tools/')) return;
   const BASE = '/SoCal-Super-Standards';
   const TAB_KEY = 'sss-panel-tab';
   const ls = { get: (k, d = '') => { try { return localStorage.getItem(k) ?? d; } catch { return d; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch {} } };
@@ -264,6 +264,11 @@
     if(trigger){
       trigger.hidden=false;
       trigger.onclick=()=>{trigger.closest('details').open=false;window.SSSPanel.open();};
+    }
+    const calculators = document.querySelector('[data-show-calculators]');
+    if (calculators) {
+      calculators.onclick = event => { event.preventDefault(); window.SSSPanel.open('calc'); };
+      if (location.hash === '#calculators') window.SSSPanel.open('calc');
     }
     if(path.endsWith('/ask/'))window.SSSPanel.open('checks');
   });

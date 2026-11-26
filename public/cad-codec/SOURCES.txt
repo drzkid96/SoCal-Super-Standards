@@ -1,0 +1,8 @@
+GNU LibreDWG, GPL-3.0-or-later
+https://github.com/LibreDWG/libredwg/tree/cd50d4c0798d924d1756f6ba6f417b7d3c898b0f
+Full pinned source: https://codeload.github.com/LibreDWG/libredwg/tar.gz/cd50d4c0798d924d1756f6ba6f417b7d3c898b0f
+SHA-256 of source archive: aaa56c9f2e77ffc0fde8408ab6931f4ae71e35f681e6b8d3277763f6b3e63c9e
+Bridge and complete build instructions: pipeline/browser_cad/codec.c and pipeline/browser_cad/build.sh in this site's source repository.
+Build system: WASI SDK 25.0, static library, reactor interface, memory-backed file streams, compressed WebAssembly module.
+Browser filesystem adapter: @bjorn3/browser_wasi_shim 0.4.2, MIT. Copyright and license in vendor/WASI-SHIM-LICENSE.txt.
+https://github.com/drzkid96/SoCal-Super-Standards/tree/main/pipeline/browser_cad

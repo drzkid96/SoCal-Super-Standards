@@ -1,39 +1,16 @@
 ---
-import DefaultPagination from '@astrojs/starlight/components/Pagination.astro';
-import { getPageNav } from '../lib/nav';
+import { BASE, getPageNav } from '../lib/nav';
 
-const entry = Astro.locals.starlightRoute.entry;
-const id = (entry.id || '').replace(/\/index$/, '').replace(/^index$/, '');
-const nav = id && id !== '404' ? getPageNav(id) : undefined;
+const id = (Astro.locals.starlightRoute.entry.id || '').replace(/\/index$/, '');
+const nav = getPageNav(id);
+const chapter = /^(ca-mutcd|mutcd)\/[^/]+$/.test(id) ||
+  (/^(ladot|caltrans|fhwa|ada|boe|burbank|pasadena)\/.+\/.+/.test(id) && !id.includes('plan-reference'));
+const parent = id.slice(0, id.lastIndexOf('/') + 1);
+const sameBook = (href?: string) => href?.startsWith(BASE + '/' + parent);
 ---
-
-{nav && (nav.prev || nav.up || nav.next) ? (
-  <nav class="sss-pager print:hidden" aria-label="Page navigation">
-    <div class="sss-pager-slot">
-      {nav.prev && (
-        <a class="sss-pcard prev" href={nav.prev.href} rel="prev">
-          <span class="sss-pk">&larr; Previous</span>
-          <strong>{nav.prev.label}</strong>
-        </a>
-      )}
-    </div>
-    <div class="sss-pager-slot mid">
-      {nav.up && (
-        <a class="sss-pcard up" href={nav.up.href}>
-          <span class="sss-pk">&uarr; Section</span>
-          <strong>{nav.up.label}</strong>
-        </a>
-      )}
-    </div>
-    <div class="sss-pager-slot">
-      {nav.next && (
-        <a class="sss-pcard next" href={nav.next.href} rel="next">
-          <span class="sss-pk">Next &rarr;</span>
-          <strong>{nav.next.label}</strong>
-        </a>
-      )}
-    </div>
+{chapter && (sameBook(nav?.prev?.href) || sameBook(nav?.next?.href)) && (
+  <nav class="chapter-turns print:hidden" aria-label="Adjacent chapters">
+    {nav?.prev && sameBook(nav.prev.href) && <a href={nav.prev.href} rel="prev">← {nav.prev.label}</a>}
+    {nav?.next && sameBook(nav.next.href) && <a href={nav.next.href} rel="next">{nav.next.label} →</a>}
   </nav>
-) : (
-  <DefaultPagination />
 )}

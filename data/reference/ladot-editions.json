@@ -1,0 +1,74 @@
+{
+  "mpp-531": {
+    "url": "https://ladot.lacity.gov/sites/default/files/2023-02/mpp_531_02212023.pdf",
+    "sha256": "68a77f604f7fd583bb973260f97d5cfd466588f4f65ea39d420dde026637cfa2",
+    "count": 190,
+    "firstDrawing": 21,
+    "tables": {
+      "Table 1": [
+        16,
+        "Application of Striping and Pavement Markings"
+      ]
+    },
+    "legacyFigures": {
+      "publication": "California MUTCD 2014, Revision 7, Part 3",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev7/camutcd2014-part3-rev7-a11y.pdf",
+      "contents": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev7/camutcd2014-toc-rev7-a11y.pdf",
+      "pages": {
+        "3A-101(CA)": 4,
+        "3A-102(CA)": 5,
+        "3A-103(CA)": 7,
+        "3A-104(CA)": 8,
+        "3A-105(CA)": 9,
+        "3A-106(CA)": 10,
+        "3A-107(CA)": 11,
+        "3A-108(CA)": 12,
+        "3A-111(CA)": 16,
+        "3A-112(CA)": 17,
+        "3B-1": 48,
+        "3B-2": 49,
+        "3B-3": 50,
+        "3B-4": 51,
+        "3B-6": 53,
+        "3B-7(CA)": 55,
+        "3B-8(CA)": 58,
+        "3B-12": 73,
+        "3B-13": 74,
+        "3B-14(CA)": 77,
+        "3B-17": 83,
+        "3B-17(CA)": 84,
+        "3B-19": 87,
+        "3B-19(CA)": 87,
+        "3B-21(CA)": 90,
+        "3B-23(CA)": 95,
+        "3B-24(CA)": 98,
+        "3B-29": 109,
+        "3B-31": 111
+      }
+    }
+  },
+  "mpp-521": {
+    "url": "https://ladot.lacity.gov/sites/default/files/documents/traffic-signal-design-guidelines_0.pdf",
+    "sha256": "f4f5f2e4405611a1bf6f884f250f55ac11803fdf139fd958158e4420a5875cbe",
+    "count": 90,
+    "firstDrawing": 20,
+    "tables": {
+      "Table 1": [
+        19,
+        "Summary of LADOT Left-Turn Phasing Guidelines"
+      ]
+    }
+  },
+  "red-book": {
+    "url": "https://ladot.lacity.gov/sites/default/files/2026-04/red-book-2026.pdf",
+    "sha256": "c79669994b020913dbe5f95831308dad2059cfdd629fd362352720152bc09f02",
+    "count": 130,
+    "firstDrawing": 27,
+    "tables": {
+      "Table I": [
+        17,
+        "Backfilling, Restoration of Excavations and Removal of Equipment and Material"
+      ]
+    }
+  }
+}

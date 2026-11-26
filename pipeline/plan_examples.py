@@ -6,7 +6,7 @@ from html import escape
 from pathlib import Path
 from zipfile import ZipFile
 from current_catalog import BASE
-from cad_sign_catalog import CATALOG, DRAWINGS, designation_key, drawing_evidence, sign_destinations
+from cad_sign_catalog import CATALOG, DRAWINGS, designation_key, sign_destinations
 
 def build(root, lookup):
     source=Path('data/reference/plan-examples')
@@ -24,7 +24,7 @@ def build(root, lookup):
         return f'<figure id="{key}"><a href="{img}"><img loading="lazy" src="{img}" alt="{escape(label)}"></a><figcaption>{escape(label)}</figcaption></figure>'
     def append(path,body):
         with path.open('a') as stream:stream.write('\n\n'+body+'\n')
-    sections.extend(['Westwood also labels a proposed left-turn traffic-calming detail as pending. Its sheet supplies no installable geometry.',''])
+    finder=[]
     for key,(title,topic) in catalog['details'].items():
         groups[topic].append((key,title))
     provisions={row['num']:row for row in json.loads(Path('data/ca-mutcd/sections.json').read_text())}
@@ -40,6 +40,7 @@ def build(root, lookup):
             number=section_numbers[ord(key[-1])-ord('a')]
             provision=provisions[number]
             sections.append(figure(key,title))
+            finder.append((label,title,key))
             sections.append(f'[CA MUTCD § {number} · {provision["title"]}]({provision["url"]})')
             related[number].append(f'[{title}]({target}#{key})')
             cards.append(f'- [{title}]({target}#{key})')
@@ -70,6 +71,7 @@ def build(root, lookup):
         sections.extend(['### '+heading,'','<div class="plan-faces">'])
         for key,label in sorted(items,key=lambda pair:pair[1]):
             url=signs[designation_key(label)]
+            finder.append((heading,label,key))
             card=figure(key,label)
             card=card.replace('</figcaption>',f' · <a href="{url}">Sign record</a></figcaption>')
             sections.append(card)
@@ -97,7 +99,8 @@ def build(root, lookup):
             title=title.capitalize().replace('Ada ','Accessible ').replace('ada parking','accessible parking').replace('Rpm','RPM')
             phrase=title.lower()
             topic=next((t for term,t in [('parking connecting','accessibility'),('accessible parking','accessibility'),('ada parking','accessibility'),('bus','transit'),('speed','speed-and-calming'),('intersection','striping-intersections'),('triangle','striping-intersections')] if term in phrase),'bikeways')
-            label=f'{title} · {code}'
+            label=f'{title} · Detail {code}'
+            finder.append((name,label,key))
             sections.append(f'<p id="{key}"><strong>{escape(label)}</strong></p>')
             if detail_signs[series,key]:
                 links=' · '.join(f'<a href="{r["url"]}">{escape(r["code"])}</a>' for r in detail_signs[series,key])
@@ -106,30 +109,38 @@ def build(root, lookup):
             cad_links[topic].append(f'- [{label}]({target}#{key})')
     for topic,cards in cad_links.items():
         append(root/'topics'/(topic+'.md'),'## CAD details for plan checking\n\n'+guides[topic]+'\n\n'+'\n'.join(cards))
-    sections.extend(['<h2 id="cad-sign-callouts">CAD sign callouts</h2>','',
-                     'Find the designation under its source drawing. Each record links the drawing evidence, available sign artwork, and any matching catalog layout.',''])
-    if Path('public/data/cad-sign-evidence.json').is_file():
-        sections.append(f'[Download CAD drawing inventory and entity evidence (JSON)]({BASE}/data/cad-sign-evidence.json)')
+    aliases=[]
     for series,name in DRAWINGS.items():
-        sections.extend(['### '+name,''])
         for record in records:
             drawing=next((d for d in record['drawings'] if d['source']==series),None)
             if not drawing:continue
-            label=record['code']
             anchor=drawing['url'].split('#')[1]
-            literal=' / '.join(drawing.get('labels',[])) or label
-            sections.append(f'<p id="{anchor}"><a href="{record["url"]}">{escape(literal)}</a> · {escape(record["status"])}</p>')
-            search_label=f'{literal} · {name} · CAD evidence'
-            aliases=set(drawing.get('labels',[]))|{w['text'] for w in drawing.get('wording',[])}
-            for alias in sorted(aliases):
+            label=' / '.join(drawing.get('labels',[])) or record['code']
+            aliases.append(f'<div id="{escape(anchor)}" class="plan-source-alias"><b>{escape(label)}</b> · {escape(name)} · <a href="{record["url"]}">View sign and artwork</a></div>')
+            for alias in set(drawing.get('labels',[]))|{w['text'] for w in drawing.get('wording',[])}:
                 hits=lookup.setdefault(alias.upper(),[])
-                if not any(url==drawing['url'] for _,url in hits):hits.append([search_label,drawing['url']])
-            evidence=drawing_evidence(drawing)
-            if evidence:sections.append(evidence)
-            for key in drawing.get('details',[]):
-                detail=next((r for r in cad[series]['rows'] if r[0]==key),None)
-                if detail:sections.append(f'[Detail {detail[1]} · {detail[2]}](#{key})')
+                if not any(url==record['url'] for _,url in hits):hits.append([label+' · '+name,record['url']])
+    options=defaultdict(list)
+    for label,title,key in finder:options[label].append(f'<option value="{key}">{escape(title)}</option>')
+    picker=''.join(f'<optgroup label="{escape(label,quote=True)}">{"".join(entries)}</optgroup>' for label,entries in options.items())
+    nav=f'<label class="plan-finder" hidden>Find a treatment, sign or detail <select><option value="">Choose a detail</option>{picker}</select></label>'
+    layout=[];section_open=False
+    for part in sections:
+        if part.startswith('## '):
+            if section_open:layout.append('</details>')
+            section_open=True
+            name=part[3:]
+            layout.append(f'<details class="plan-group" id="{re.sub(r"[^a-z0-9]+","-",name.lower()).strip("-")}"><summary>{escape(name)}</summary>')
+        else:layout.append(part)
+    if section_open:layout.append('</details>')
+    samples=[]
+    for key in ('detail-a','detail-d','detail-s'):
+        title=catalog['details'][key][0]
+        samples.append(f'<a href="#{key}"><img src="{BASE}/figs/plan-examples/{key}.webp" alt="" loading="lazy"><span>{escape(title)}</span></a>')
+    layout.insert(layout.index(intro)+1,nav+'<nav class="plan-featured" aria-label="Example treatments">'+''.join(samples)+'</nav>')
+    layout.append(f'<div id="cad-sign-callouts"><a href="{BASE}/signs/cad/">Browse CAD sign drawings</a></div>')
+    layout.extend(aliases)
     path=root/'ladot/plan-reference.md'
-    path.write_text('\n\n'.join(sections))
+    path.write_text('\n\n'.join(layout))
     for rel in ['ladot/index.md','details/index.md','signs/index.md']:
         if (root/rel).exists():append(root/rel,f'[Browse signing and striping details and sign variants]({target})')

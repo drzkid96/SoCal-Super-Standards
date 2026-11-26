@@ -9,7 +9,7 @@ from manual_art import ART, SHEET_COUNTS
 
 CITIES = {'burbank','pasadena','long-beach','palmdale','torrance','gardena','glendora','santa-monica','west-hollywood','culver-city'}
 SCOPES = {'boe':'LA BOE','ladot':'LADOT','ca-mutcd':'CA MUTCD','mutcd':'Federal MUTCD',
-          'caltrans':'Caltrans','signs':'Signs','markings':'Markings','topics':'Topics and tools'}
+          'caltrans':'Caltrans','signs':'Signs','markings':'Markings','topics':'Topics and tools','tools':'Topics and tools'}
 
 
 def scope_for(url):
@@ -36,6 +36,14 @@ def build(root,lookup,details):
     for key, entries in lookup.items():
         for label,url in entries:
             add(url,label,key)
+    for route, title, terms in [
+        ('/tools/sign-import/', 'Build a sign legend from plan sheets', ['import PDF','PDF sign import','plan sheet sign codes','sign legend from PDF','OCR signs']),
+        ('/signs/', 'Sign chart and CAD legends', ['sign cart','sign legend','sign DWG','sign blocks']),
+        ('/tools/#calculators', 'Engineering calculators', ['pedestrian timing calculator','taper calculator','design calculator']),
+        ('/ladot/curb-paint/', 'Los Angeles curb colors and red curb design', ['curb color','curb colors','yellow curb','red curb','blue curb','loading zone']),
+        ('/ladot/curb-paint/#rcalc', 'LADOT red curb sight distance calculator', ['red curb calculator','S-481.0 calculator'])
+    ]:
+        for term in terms: add(BASE+route,title,term)
     sheet_sets = []
     for item in details:
         path = item['url'].removeprefix(BASE)

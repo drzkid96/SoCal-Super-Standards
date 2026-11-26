@@ -1,0 +1,93 @@
+{
+  "editionMasterSha256": "9c0036a7c6cd4389299c05d27e3e209d5f237589bddc881cfe4f940092e00316",
+  "method": "Chrome generated the archives. libdxfrw independently reopened each assembled DWG. Checks compared native and editable DXF block definitions, sign geometry and cell-label positions, table grid measurements, order, sheet labels, and the SHA-256 digest of each included original DWG.",
+  "cellModelUnits": [
+    41,
+    48
+  ],
+  "columns": 2,
+  "rowsPerTable": 14,
+  "tableModelUnits": [
+    82,
+    672
+  ],
+  "examples": [
+    {
+      "file": "LADOT-SIGN-LEGEND-EXAMPLE.zip",
+      "archiveBytes": 45337,
+      "sha256": "dfc9ce8b08980f4a611cfeea256c0467fbc7bf4386b0ca47b3f14a62039b0110",
+      "nativeDwgSha256": "2728bddf481f98aaa6b2ab3cc5daa02007ca4a47b857feb43ab63e2ebe183432",
+      "nativeDwgBytes": 22298,
+      "uniqueIndividualDwgs": 2,
+      "nativeBlockPlacements": 2,
+      "tables": [
+        "Manual selection"
+      ],
+      "source": "Browser sign chart selection"
+    },
+    {
+      "file": "LADOT-SIGN-LEGEND-THREE-TABLES.zip",
+      "archiveBytes": 2185687,
+      "sha256": "9febefd8b2d07002eda7f6c1f5624f53a1095ba4d9cbf339a98ebe3aaea4a4c8",
+      "nativeDwgSha256": "9ff87489908a2b207d59adfae5e3a6c40244e5cea03cb683ac3c51e0cc0648ac",
+      "nativeDwgBytes": 1157095,
+      "uniqueIndividualDwgs": 29,
+      "nativeBlockPlacements": 30,
+      "tables": [
+        "SS-1 (1 OF 2)",
+        "SS-1 (2 OF 2)",
+        "SS-2"
+      ],
+      "source": "Controlled two-group selection for overflow verification"
+    }
+  ],
+  "pdfImport": {
+    "selectableText": {
+      "source": "Two-page controlled signing-plan callout fixture",
+      "file": "LADOT-SIGN-LEGEND-IMPORTED-SHEETS.zip",
+      "browserWidths": [
+        1440,
+        390
+      ],
+      "unmatchedExcluded": "W19-999A",
+      "operatorResolved": "R2-1(35) variant",
+      "archiveSha256": "abd603309c608bd832df619cb2adc1539dee3c22c53c730967c7a9990e2b759b",
+      "individualDWGs": 5,
+      "nativeBlockPlacements": 7,
+      "nativeLegendSha256": "249c785786724dea616b0274bed1eed0fe90289d8c8aed65a5a819d3b353457f",
+      "tables": [
+        "SS-101",
+        "SS-102"
+      ],
+      "placementLabels": [
+        "R1-1",
+        "W48(2)(CA)",
+        "R3-7(R)(MOD)",
+        "R1-1",
+        "R2-1(35)",
+        "R2-1(25)",
+        "W48(2)(CA)"
+      ]
+    },
+    "outlinedPlan": {
+      "source": "Westwood 60% signing and striping plan, PDF page 4 (sheet SS-2)",
+      "pagesRead": 10,
+      "embeddedSignCallouts": 0,
+      "inputMethod": "User-selected legend area. Local OCR, then selection by the reviewer.",
+      "selectionDefault": "None",
+      "browserWidth": 1440,
+      "archiveSha256": "225ccdb5d5b410f75856567c91f55e0c1b54a331ac1af95986027dbcd2cbde4e",
+      "individualDWGs": 3,
+      "nativeBlockPlacements": 3,
+      "nativeLegendSha256": "c837b61f338a890555816ec9f5630725c9cb77559a968957a32f37cb0be5d815",
+      "tables": [
+        "SS-2"
+      ],
+      "placementLabels": [
+        "OM1-3",
+        "R10-15(MOD)",
+        "R3-4"
+      ]
+    }
+  }
+}

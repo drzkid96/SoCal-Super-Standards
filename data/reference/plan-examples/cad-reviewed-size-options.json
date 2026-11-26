@@ -418,5 +418,751 @@
       "signDrawing": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/c/f0018728-c30a-a11y.pdf"
     },
     "condition": "temporary-traffic-control / Conventional Road (Minimum) / 30-inch diamond side"
+  },
+  "3346-signs-1-13-1066db5": {
+    "size": [
+      30,
+      30
+    ],
+    "nominalBounds": [
+      30,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "condition": "FHWA regulatory BICYCLE MAY USE FULL LANE panel as issued March 1, 2012.",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2012 Supplement to Standard Highway Signs, R4-11",
+      "page": 83,
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/shs_2004_2012_sup.pdf#page=83"
+    }
+  },
+  "3346-signs-1-13-1098df1": {
+    "size": [
+      30,
+      30
+    ],
+    "nominalBounds": [
+      30,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "condition": "FHWA regulatory BICYCLE MAY USE FULL LANE panel as issued March 1, 2012.",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2012 Supplement to Standard Highway Signs, R4-11",
+      "page": 83,
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/shs_2004_2012_sup.pdf#page=83"
+    }
+  },
+  "3346-title-103ABD2": {
+    "size": [
+      30,
+      30
+    ],
+    "nominalBounds": [
+      30,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "condition": "FHWA regulatory BICYCLE MAY USE FULL LANE panel as issued March 1, 2012.",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2012 Supplement to Standard Highway Signs, R4-11",
+      "page": 83,
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/shs_2004_2012_sup.pdf#page=83"
+    }
+  },
+  "3346-title-details-103a981": {
+    "size": [
+      30,
+      30
+    ],
+    "nominalBounds": [
+      30,
+      30
+    ],
+    "sizeBasis": "width-height",
+    "condition": "FHWA regulatory BICYCLE MAY USE FULL LANE panel as issued March 1, 2012.",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2012 Supplement to Standard Highway Signs, R4-11",
+      "page": 83,
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/shs_2004_2012_sup.pdf#page=83"
+    }
+  },
+  "3346-signs-1-13-109882a": {
+    "size": [
+      24,
+      36
+    ],
+    "nominalBounds": [
+      24,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "condition": "Caltrans 2022 Ramp Metering Design Manual, regulatory signs for ramp installations. The source depicts the same NO RIGHT TURN ON RED panel.",
+    "source": {
+      "publisher": "Caltrans",
+      "reference": "Ramp Metering Design Manual, Table 3-1",
+      "page": 51,
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/traffic-operations/documents/ramp-metering/202210-rmdm-a11y.pdf#page=51"
+    }
+  },
+  "3346-legacy-10362B9": {
+    "size": [
+      24,
+      36
+    ],
+    "nominalBounds": [
+      24,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "condition": "Caltrans 2022 Ramp Metering Design Manual, regulatory signs for ramp installations. The source depicts the same NO RIGHT TURN ON RED panel.",
+    "source": {
+      "publisher": "Caltrans",
+      "reference": "Ramp Metering Design Manual, Table 3-1",
+      "page": 51,
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/traffic-operations/documents/ramp-metering/202210-rmdm-a11y.pdf#page=51"
+    }
+  },
+  "3346-title-103A882": {
+    "size": [
+      24,
+      36
+    ],
+    "nominalBounds": [
+      24,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "condition": "Caltrans 2022 Ramp Metering Design Manual, regulatory signs for ramp installations. The source depicts the same NO RIGHT TURN ON RED panel.",
+    "source": {
+      "publisher": "Caltrans",
+      "reference": "Ramp Metering Design Manual, Table 3-1",
+      "page": 51,
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/traffic-operations/documents/ramp-metering/202210-rmdm-a11y.pdf#page=51"
+    }
+  },
+  "3346-signs-1-13-10987f2": {
+    "size": [
+      12.0,
+      18.0
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12.0,
+      18.0
+    ],
+    "source": {
+      "publisher": "Caltrans",
+      "table": "2B-1(CA)",
+      "page": 295,
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=295",
+      "designation": "R28(S)(CA)",
+      "section": "2B.52",
+      "signDrawing": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/r/f0019016-r28-s-a11y.pdf"
+    },
+    "condition": "Conventional single- and multilane roads. Caltrans explicitly allows left, right or both arrows on this R28(S) sheet."
+  },
+  "3346-legacy-1036144": {
+    "size": [
+      12.0,
+      18.0
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12.0,
+      18.0
+    ],
+    "source": {
+      "publisher": "Caltrans",
+      "table": "2B-1(CA)",
+      "page": 295,
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=295",
+      "designation": "R28(S)(CA)",
+      "section": "2B.52",
+      "signDrawing": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/r/f0019016-r28-s-a11y.pdf"
+    },
+    "condition": "Conventional single- and multilane roads. Caltrans explicitly allows left, right or both arrows on this R28(S) sheet."
+  },
+  "3346-title-103A70D": {
+    "size": [
+      12.0,
+      18.0
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12.0,
+      18.0
+    ],
+    "source": {
+      "publisher": "Caltrans",
+      "table": "2B-1(CA)",
+      "page": 295,
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=295",
+      "designation": "R28(S)(CA)",
+      "section": "2B.52",
+      "signDrawing": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/r/f0019016-r28-s-a11y.pdf"
+    },
+    "condition": "Conventional single- and multilane roads. Caltrans explicitly allows left, right or both arrows on this R28(S) sheet."
+  },
+  "pico-r118-ca-10f22d9": {
+    "size": [
+      18,
+      15
+    ],
+    "nominalBounds": [
+      18,
+      15
+    ],
+    "sizeBasis": "width-height",
+    "condition": "Caltrans 2014 manual, Revision 9, conventional roadway minimum for the EXCEPT Bicycle plaque.",
+    "source": {
+      "publisher": "Caltrans",
+      "reference": "CA MUTCD 2014 Revision 9 Summary of Changes, Table 9B-1(CA)",
+      "page": 28,
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev9/2025-camutcd-2014-rev9-summary-of-changes-a11y.pdf#page=28"
+    }
+  },
+  "3346-signs-1-13-10ac394": {
+    "code": "SW44(CA)",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "Historical Caltrans SW44 warning plaque. 36-inch STANDARD diamond side on issued sheet; CA MUTCD 2014 Table 2C-1(CA), conventional road. Withdrawn from California MUTCD 2026.",
+    "source": {
+      "publisher": "Caltrans",
+      "reference": "SW44 sign specification, STANDARD row (historical)",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019444-sw44-a11y.pdf",
+      "page": 1
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev8/camutcd2014-part2-chap2c-rev8-a11y.pdf#page=55",
+    "notes": "Legacy Caltrans sign. Issued detail permits rotation for left or right application and lists 30-inch minimum, 36-inch standard and 48-inch special side lengths."
+  },
+  "pico-sw44-ca-7636ac": {
+    "code": "SW44(CA)",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "Historical Caltrans SW44 warning plaque. 36-inch STANDARD diamond side on issued sheet; CA MUTCD 2014 Table 2C-1(CA), conventional road. Withdrawn from California MUTCD 2026.",
+    "source": {
+      "publisher": "Caltrans",
+      "reference": "SW44 sign specification, STANDARD row (historical)",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019444-sw44-a11y.pdf",
+      "page": 1
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev8/camutcd2014-part2-chap2c-rev8-a11y.pdf#page=55",
+    "notes": "Legacy Caltrans sign. Issued detail permits rotation for left or right application and lists 30-inch minimum, 36-inch standard and 48-inch special side lengths."
+  },
+  "3346-legacy-1036100": {
+    "code": "SW44(CA)(L)",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "Historical Caltrans SW44 warning plaque. 36-inch STANDARD diamond side on issued sheet; CA MUTCD 2014 Table 2C-1(CA), conventional road. Withdrawn from California MUTCD 2026.",
+    "source": {
+      "publisher": "Caltrans",
+      "reference": "SW44 sign specification, STANDARD row (historical)",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/sw/f0019444-sw44-a11y.pdf",
+      "page": 1
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev8/camutcd2014-part2-chap2c-rev8-a11y.pdf#page=55",
+    "notes": "Legacy Caltrans sign. Issued detail permits rotation for left or right application and lists 30-inch minimum, 36-inch standard and 48-inch special side lengths."
+  },
+  "fp-signs-345a": {
+    "code": "Om-3l",
+    "size": [
+      12,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      36
+    ],
+    "condition": "CA MUTCD \u00a72C.70, paragraph 02, Type 3 roadway object marker",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, OM3-L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=687",
+      "page": 687
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=343",
+    "notes": "Black stripes slope down to the right on OM3-L and down to the left on OM3-R, as depicted on their separate publisher plates."
+  },
+  "fp-signs-67d2": {
+    "code": "Om-3l",
+    "size": [
+      12,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      36
+    ],
+    "condition": "CA MUTCD \u00a72C.70, paragraph 02, Type 3 roadway object marker",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, OM3-L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=687",
+      "page": 687
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=343",
+    "notes": "Black stripes slope down to the right on OM3-L and down to the left on OM3-R, as depicted on their separate publisher plates."
+  },
+  "fp-signs-2224": {
+    "code": "Om-3r",
+    "size": [
+      12,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      36
+    ],
+    "condition": "CA MUTCD \u00a72C.70, paragraph 02, Type 3 roadway object marker",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, OM3-R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=685",
+      "page": 685
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=343",
+    "notes": "Black stripes slope down to the right on OM3-L and down to the left on OM3-R, as depicted on their separate publisher plates."
+  },
+  "fp-signs-67d4": {
+    "code": "Om-3r",
+    "size": [
+      12,
+      36
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      12,
+      36
+    ],
+    "condition": "CA MUTCD \u00a72C.70, paragraph 02, Type 3 roadway object marker",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, OM3-R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=685",
+      "page": 685
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=343",
+    "notes": "Black stripes slope down to the right on OM3-L and down to the left on OM3-R, as depicted on their separate publisher plates."
+  },
+  "fp-signs-66da": {
+    "code": "W1-5l",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-5L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=447",
+      "page": 447
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Winding road, following the lower end of the arrow into the first curve.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w1-5l-11120": {
+    "code": "W1-5L",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-5L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=447",
+      "page": 447
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Winding road, following the lower end of the arrow into the first curve.",
+    "calibrateDiamond": true
+  },
+  "fp-signs-66f1": {
+    "code": "W1-5r",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-5R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=447",
+      "page": 447
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Winding road, following the lower end of the arrow into the first curve.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w1-5r-1113e": {
+    "code": "W1-5R",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-5R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=447",
+      "page": 447
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Winding road, following the lower end of the arrow into the first curve.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w1-8l-11182": {
+    "code": "W1-8L",
+    "size": [
+      18,
+      24
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      18,
+      24
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-8L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=450",
+      "page": 450
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Chevron apex faces the indicated side."
+  },
+  "mutcd-sheet-w1-8r-11183": {
+    "code": "W1-8R",
+    "size": [
+      18,
+      24
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      18,
+      24
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W1-8R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=450",
+      "page": 450
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Chevron apex faces the indicated side."
+  },
+  "fp-signs-66d0": {
+    "code": "W2-2l",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-2L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=461",
+      "page": 461
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Straight side road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w2-2l-111a9": {
+    "code": "W2-2L",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-2L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=461",
+      "page": 461
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Straight side road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "fp-signs-66ba": {
+    "code": "W2-2r",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-2R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=461",
+      "page": 461
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Straight side road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w2-2r-111ba": {
+    "code": "W2-2R",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-2R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=461",
+      "page": 461
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Straight side road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w2-3l-111cb": {
+    "code": "W2-3L",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-3L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=462",
+      "page": 462
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Oblique side road joins the through road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w2-3r-111dc": {
+    "code": "W2-3R",
+    "size": [
+      30,
+      30
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      42.42640687119285,
+      42.42640687119285
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W2-3R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=462",
+      "page": 462
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Oblique side road joins the through road from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w4-1l-11282": {
+    "code": "W4-1L",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W4-1L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=483",
+      "page": 483
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Single through arrow with an adjoining branch merging from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w4-1r-11299": {
+    "code": "W4-1R",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W4-1R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=483",
+      "page": 483
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Single through arrow with an adjoining branch merging from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w4-3l-112f8": {
+    "code": "W4-3L",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W4-3L design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=485",
+      "page": 485
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Two continuing arrows; the added lane curves from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "mutcd-sheet-w4-3r-1132d": {
+    "code": "W4-3R",
+    "size": [
+      36,
+      36
+    ],
+    "sizeBasis": "diamond-side-lengths",
+    "nominalBounds": [
+      50.91168824543143,
+      50.91168824543143
+    ],
+    "condition": "CA MUTCD Table 2C-1, conventional road, single lane",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "Standard Highway Signs 2024, W4-3R design",
+      "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=485",
+      "page": 485
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/2026/camutcd-2026-all.pdf#page=378",
+    "notes": "Two continuing arrows; the added lane curves from the indicated side.",
+    "calibrateDiamond": true
+  },
+  "fp-signs-16976": {
+    "code": "W16-7pL",
+    "size": [
+      30,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      30,
+      18
+    ],
+    "condition": "Archived CA MUTCD 2014, Table 2C-2: oversized roadside plaque. The 2026 table specifies a different face.",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, Warning Signs, sheet 2-126 (archived)",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/warning.pdf#page=126",
+      "page": 126
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev8/camutcd2014-part2-chap2c-rev8-a11y.pdf#page=53",
+    "notes": "Archival oversized 30 \u00d7 18-inch board with a 30\u00b0 arrow pointing down and left. The CAD board ratio and arrow inclination match the contemporaneous plate."
+  },
+  "fp-signs-1699b": {
+    "code": "W16-7pR",
+    "size": [
+      30,
+      18
+    ],
+    "sizeBasis": "width-height",
+    "nominalBounds": [
+      30,
+      18
+    ],
+    "condition": "Archived CA MUTCD 2014, Table 2C-2: oversized roadside plaque. The 2026 table specifies a different face.",
+    "source": {
+      "publisher": "FHWA",
+      "reference": "2004 Standard Highway Signs, Warning Signs, sheet 2-126 (archived)",
+      "url": "https://mutcd.fhwa.dot.gov/SHSe/warning.pdf#page=126",
+      "page": 126
+    },
+    "applicationSource": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev8/camutcd2014-part2-chap2c-rev8-a11y.pdf#page=53",
+    "notes": "Archival oversized 30 \u00d7 18-inch board with a 30\u00b0 arrow pointing down and right. The CAD board ratio and arrow inclination match the contemporaneous plate."
   }
 }

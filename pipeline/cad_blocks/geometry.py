@@ -42,6 +42,17 @@ def record(d, ctx, selection):
     clean=[]
     for e in entities:
         if e.dxf.handle in selection.get('skipSourceHandles',[]):continue
+        if e.dxftype()=='HATCH' and e.dxf.handle in selection.get('solidSourceHatches',[]):
+            # ANSI31 describes the inked arrow's native closed edge path. Keep
+            # those original lines/arcs and change only its plotting pattern.
+            e=e.copy()
+            e.set_solid_fill(color=7)
+
+        if e.dxftype() == 'MTEXT' and e.dxf.handle in selection.get('insetMtext', {}):
+            factor = selection['insetMtext'][e.dxf.handle]
+            e = e.copy()
+            e.dxf.char_height *= factor
+            e.dxf.width *= factor
         if e.dxftype()=='TEXT' and e.dxf.handle in selection.get('textOverrides',{}):
             value=selection['textOverrides'][e.dxf.handle]
             e=e.copy()
@@ -106,16 +117,68 @@ def record(d, ctx, selection):
             ring.append_path(part.reversed() if reverse else part)
         ring.close()
         marks.append(Mark([ring],False,False,'SOURCE-APERTURE'))
+    for aperture in selection.get('knockoutRings',[]):
+        rings=[]
+        for handles in aperture:
+            ring=path.Path()
+            for handle,reverse in handles:
+                part=path.make_path(d.entitydb[handle])
+                ring.append_path(part.reversed() if reverse else part)
+            ring.close()
+            rings.append(ring)
+        marks.append(Mark(rings,True,True,'SOURCE-KNOCKOUT'))
     if selection.get('sourceRingSlash'):
         ring=[path.make_path(d.entitydb[h]) for h in selection['sourceRingSlash']]
         for p in ring:p.close()
         marks.append(Mark(ring,True,False,'SOURCE-SLASH'))
     for shape in selection.get('solidContours',[]):
         if shape.get('fill')=='black':marks.append(Mark([vertices_path(shape['vertices'],True)],True,False,'SOURCE-CLOSED'))
+    for handle in selection.get('solidContourHandles', []):
+        contour = path.make_path(d.entitydb[handle])
+        if not contour.is_closed:
+            raise ValueError(f'Source ink contour {handle} must be closed')
+        marks.append(Mark([contour], True, False, 'SOURCE-CLOSED'))
+    # A few library symbols use parallel scanlines for a person's silhouette,
+    # or zero-width arcs for skid marks. Give only their evidenced centerlines
+    # a specified physical ink width in original drawing coordinates.
+    for stroke in selection.get('sourceInkStrokes', []):
+        width = stroke['sourceWidth']
+        paths = (path.make_path(d.entitydb[h]) for h in stroke['handles'])
+        lines = (LineString([(v.x, v.y) for v in p.flattening(width / 30)]) for p in paths)
+        ink = unary_union([line.buffer(width / 2, cap_style=2) for line in lines])
+        if stroke.get('scanlines'):
+            ink = ink.buffer(width / 2).buffer(-width / 2).simplify(width / 3)
+        for shape in getattr(ink, 'geoms', [ink]):
+            contours = [vertices_path(r.coords, True) for r in [shape.exterior, *shape.interiors]]
+            marks.append(Mark(contours, True, False, 'SOURCE-CLOSED'))
     return marks
 
 def allpaths(marks):
     return [p for m in marks for p in m.paths if len(p)]
+
+
+def restore_native_knockouts(block,marks,width,height):
+    """Remove evidenced reverse-ink rings from overlapping HATCH backgrounds."""
+    tolerance=max(width,height)/6000
+    def evenodd(paths):
+        region=GeometryCollection()
+        for p in paths:
+            g=polygon(p,tolerance)
+            if g is not None:region=region.symmetric_difference(g)
+        return region
+    apertures=[evenodd(m.paths) for m in marks if m.kind=='SOURCE-KNOCKOUT']
+    if not apertures:return
+    knockout=unary_union(apertures)
+    for hatch in list(block.query('HATCH')):
+        shape=evenodd(path.from_hatch(hatch))
+        if shape.is_empty or shape.intersection(knockout).area<tolerance**2:continue
+        retained=shape.difference(knockout)
+        block.delete_entity(hatch)
+        for area in getattr(retained,'geoms',[retained]):
+            if area.is_empty or area.geom_type!='Polygon':continue
+            new=block.add_hatch(color=7,dxfattribs={'layer':'0','color':7})
+            for n,edge in enumerate([area.exterior,*area.interiors]):
+                new.paths.add_polyline_path(list(edge.coords)[:-1],is_closed=True,flags=1 if n==0 else 0)
 
 def polygon(p,tol):
     vertices=[(v.x,v.y) for v in p.flattening(tol,segments=6)]
@@ -132,6 +195,25 @@ def get_bounds(marks,selection):
     b=path.bbox(allpaths(marks),fast=False)
     if not b.has_data:raise ValueError('empty drawing selection')
     return b.extmin.x,b.extmin.y,b.extmax.x,b.extmax.y
+
+def diamond_blank_bounds(marks, bounds):
+    """Intersect the four cut-edge flats; a rounded tip is inside the nominal stock corner."""
+    x0,y0,x1,y1=bounds
+    width,height=x1-x0,y1-y0
+    if not .975<width/height<1.025:return bounds
+    eps=max(width,height)*.0005
+    xy=[(q.x,q.y) for p in allpaths(marks) for q in p.flattening(eps,segments=4)
+        if x0-eps<=q.x<=x1+eps and y0-eps<=q.y<=y1+eps]
+    if not xy:return bounds
+    totals=[x+y for x,y in xy]
+    diffs=[x-y for x,y in xy]
+    lo,hi=min(totals),max(totals)
+    left,right=min(diffs),max(diffs)
+    virtual=((lo+left)/2,(lo-right)/2,(hi+right)/2,(hi-left)/2)
+    if not .997*width<=virtual[2]-virtual[0]<=1.10*width:return bounds
+    if not .997*height<=virtual[3]-virtual[1]<=1.10*height:return bounds
+    return virtual
+
 
 def scaled_marks(marks,bounds,width,height):
     x0,y0,x1,y1=bounds

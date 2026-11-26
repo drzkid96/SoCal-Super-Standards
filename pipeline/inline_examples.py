@@ -58,6 +58,20 @@ class Artwork:
             self.urls[record.url] = record
             if kind in {'Figure','Table'}:
                 self.numbers[row['src'], number] = record
+        # Drawing references name a sheet within a set. Show its native page, including
+        # cases such as S-481.0 sheet 3 whose diagram differs from the first sheet.
+        for manual in ('mpp-531','mpp-521','red-book'):
+            publication=dist/'data/publications/ladot'/(manual+'.json')
+            if not publication.is_file():continue
+            for row in read(publication):
+                for code,position,count in row.get('drawings',[]):
+                    slug=re.sub(r'[^a-z0-9]+','-',code.lower()).strip('-')
+                    route=f'{BASE}/details/ladot/{manual}-{slug}/'
+                    parent=self.urls.get(route)
+                    if parent and row.get('image'):
+                        url=route+f'#sheet-{position}'
+                        label=code+(f' · sheet {position} of {count}' if count>1 else '')
+                        self.urls[url]=Example(parent.source,label,parent.title,url,row['image'])
         retired = set(read('data/ca_deleted_signs.json')['codes'])
         for sign in read('data/signs/signs.json'):
             if sign['code'] in retired or not sign.get('svg'):
@@ -130,6 +144,8 @@ class Artwork:
         cards = []
         for record in found:
             if not record or record.url == route or record.url in seen:
+                continue
+            if '/details/ladot/' in route and record.url.partition('#')[0] == route:
                 continue
             src = self.thumbnail(record.image)
             if not src:

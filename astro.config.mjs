@@ -60,6 +60,7 @@ export default defineConfig({
   integrations: [
     { name: 'article-citations', hooks: { 'astro:build:done': ({ dir }) => {
       execFileSync('python3', ['pipeline/link_citations.py', decodeURIComponent(dir.pathname)], { stdio: 'inherit' });
+      execFileSync('python3', ['pipeline/optimize_reader_media.py', decodeURIComponent(dir.pathname)], { stdio: 'inherit' });
     } } },
     starlight({
       title: 'SoCal Super Standards',

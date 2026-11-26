@@ -1,0 +1,26 @@
+{
+  "fhwa-2024": {
+    "publisher": "FHWA",
+    "title": "FHWA Standard Highway Signs, 2024, Releases 1\u20134",
+    "url": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf",
+    "sha256": "b1a9091e78eeb8a3605cc1041ba403c34048d1a2182265f3027eb864c922b3ff"
+  },
+  "fhwa-2004": {
+    "publisher": "FHWA",
+    "title": "FHWA Standard Highway Signs, 2004, Guide Signs",
+    "url": "https://mutcd.fhwa.dot.gov/SHSe/guide.pdf",
+    "sha256": "eb0d9cf3c728146dfb386d59fb805a7aa4c178783cd3fa04d9f85a0524d4f246"
+  },
+  "caltrans-g96": {
+    "publisher": "Caltrans",
+    "title": "Caltrans historic sign specification G96, Light Rail Station",
+    "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/g/f0018941-g96-a11y.pdf",
+    "sha256": "aec8cee9b928daf0d199d8b867acc4ece5a061db83c220db79e60e45ecb39ba3"
+  },
+  "caltrans-w48": {
+    "publisher": "Caltrans",
+    "title": "Caltrans historic W48 Number of Tracks plaque specification",
+    "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/w/w48-ca-a11y.pdf",
+    "sha256": "a5b63cf8fb86f36fe80c38cfa67267ecf90a9dc7282f654b5088fb9a4f7f6691"
+  }
+}

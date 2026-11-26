@@ -1,7 +1,7 @@
 """Check navigation and reference access on phone, desktop and wide desktop."""
 import json
 import os
-from urllib.parse import urlencode, urlsplit
+from urllib.parse import unquote, urlencode, urlsplit
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -85,13 +85,8 @@ def verify_sign_routes(driver, base):
     face = driver.find_element(By.CSS_SELECTOR, 'figure img[src$="/plan-examples/sign-8.webp"]')
     driver.execute_script("arguments[0].scrollIntoView({block:'center',behavior:'instant'})", face)
     wait.until(lambda d: face.get_property("naturalWidth") > 0)
-    source_link = driver.find_element(By.CSS_SELECTOR, 'main a[href$="#cad-geo-r10-15-mod"]')
-    driver.execute_script("arguments[0].scrollIntoView({block:'center',behavior:'instant'})", source_link)
-    source_link.click()
-    wait.until(lambda d: urlsplit(d.current_url).fragment == "cad-geo-r10-15-mod")
-    assert driver.find_element(By.ID, "cad-geo-r10-15-mod").is_displayed()
-    driver.back()
-    wait.until(lambda d: d.current_url == modified_url)
+    downloads = driver.find_elements(By.CSS_SELECTOR, 'main .cad-local a[download]')
+    assert any('MOD' in unquote(link.get_attribute('href')).upper() for link in downloads), modified_url
     driver.back()
     wait.until(lambda d: urlsplit(d.current_url).path == urlsplit(base + "signs/").path)
     assert Select(driver.find_element(By.ID, "sorigin")).first_selected_option.get_attribute("value") == "mod"
@@ -166,7 +161,7 @@ def verify_cad_faces(driver, base):
         wait.until(lambda d: image.get_property("naturalWidth") > 0, f"CAD face failed to render for {key}")
         assert image.is_displayed()
         caption = image.find_element(By.XPATH, "ancestor::figure/figcaption")
-        assert caption.find_elements(By.CSS_SELECTOR, 'a[href*="/plan-reference/"]'), (key, caption.text)
+        assert caption.text.strip() and "MOD" in caption.text.upper(), (key, caption.text)
 
 
 if __name__ == "__main__":

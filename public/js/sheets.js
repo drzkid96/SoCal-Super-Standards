@@ -19,6 +19,7 @@
   }
 
   function shortLabel(full, idx) {
+    if(/^Supplement to /i.test(full))return 'Supplement';
     const m = full.match(/Sheet\s+(\d+)\s+of\s+\d+/i);
     if (m) return 'Sheet ' + m[1];
     const p = full.match(/Page\s+(\d+)/i);
@@ -184,7 +185,7 @@
 
   // 1. Multi-sheet detail & chapter pages (### Sheet X of Y or ### Page N with figure.dfig)
   const heads = [...article.children].filter(
-    (e) => /^H[23]$/.test(e.tagName) && /^(Sheet \d+ of \d+|Page \d+\b)/i.test(e.textContent.trim())
+    (e) => /^H[23]$/.test(e.tagName) && /^(Sheet \d+ of \d+|Supplement to S-|Page \d+\b)/i.test(e.textContent.trim())
   );
   if (heads.length > 1 && article.querySelector('figure.dfig')) {
     const starts = heads.map((h) =>
@@ -259,9 +260,10 @@
         show(n, false);
       }
     }
-    const details = target.closest('details');
-    if (details) details.open = true;
-    if (scroll && target.closest('.sheet-frame')) {
+    for (let element = target; element; element = element.parentElement) {
+      if (element.tagName === 'DETAILS') element.open = true;
+    }
+    if (scroll && (target.closest('.sheet-frame, details') || /^(?:plan-|fig-)/.test(id))) {
       target.scrollIntoView({ block: 'start' });
     }
   }

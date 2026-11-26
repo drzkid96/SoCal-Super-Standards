@@ -1,6 +1,6 @@
 (() => {
   const base='/SoCal-Super-Standards', article=document.querySelector('.sl-markdown-content');
-  if(!article || article.querySelector('[data-atlas]') || location.pathname===base+'/' || location.pathname===base+'/search/')return;
+  if(!article || /^\/SoCal-Super-Standards\/signs(?:\/cad)?\/?$/.test(location.pathname) || article.querySelector('[data-atlas]') || location.pathname===base+'/' || location.pathname===base+'/search/')return;
   const heading=document.querySelector('h1')?.textContent.trim() || document.title.split('|')[0];
   const manual=location.pathname.includes('/ca-mutcd/')?'Caltrans · California MUTCD 2026':location.pathname.includes('/mutcd/')?'FHWA · MUTCD 11th Edition Revision 1':'';
   const title=manual ? manual+' · '+heading : heading;
@@ -11,6 +11,51 @@
     const parent=new URL(base+'/'+book.dataset.book+'/',location.origin);
     parent.search=location.search;parent.hash=location.hash||'p'+book.dataset.parentPage;
     location.replace(parent);return;
+  }
+  const planPicker=article.querySelector('.plan-finder');
+  if(planPicker){
+    planPicker.hidden=false;
+    const select=planPicker.querySelector('select');
+    function revealPlan(){
+      const target=document.getElementById(location.hash.slice(1));
+      if(!target)return;
+      for(let p=target;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true;
+      select.value=[...select.options].some(o=>o.value===target.id)?target.id:'';
+      requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));
+    }
+    select.onchange=()=>{if(select.value){if(location.hash==='#'+select.value)revealPlan();else location.hash=select.value;}};
+    window.addEventListener('hashchange',revealPlan);revealPlan();
+  }
+  const drawingIndex=article.querySelector('[data-drawing-index]');
+  if(drawingIndex){
+    const filter=drawingIndex.querySelector('input'), rows=[...drawingIndex.querySelectorAll('li')], count=drawingIndex.querySelector('[role=status]');
+    const compactCode=t=>t.toLowerCase().replace(/[^a-z0-9]/g,'');
+    const expand=drawingIndex.querySelector('[data-expand-drawings]');let expanded=false;
+    filter.hidden=false;
+    function match(){
+      const q=filter.value.trim().toLowerCase(), code=/^s[\s-]*\d+(?:[.\s-]\d+)*[a-z]?$/i.test(q);
+      let n=0;
+      rows.forEach(row=>{
+        const key=row.querySelector('strong').textContent;
+        row.hidden=code?!(compactCode(key)===compactCode(q)||compactCode(key.replace(/\.0$/,''))===compactCode(q)):!q.split(/\s+/).every(t=>row.querySelector('a').textContent.toLowerCase().includes(t));
+        if(!row.hidden){n++;if(!q && !expanded && n>8)row.hidden=true;}
+      });
+      expand.hidden=Boolean(q)||n<=8;expand.textContent=expanded?'Show fewer drawings':'Show all '+n+' drawings';
+      count.textContent=n+' drawing'+(n===1?'':'s');
+    }
+    expand.onclick=()=>{expanded=!expanded;match();};match();
+    filter.oninput=match;
+    filter.onkeydown=event=>{if(event.key==='Enter' && rows.filter(r=>!r.hidden).length===1)rows.find(r=>!r.hidden).querySelector('a').click();};
+  }
+  const drawingHeader=article.querySelector('.dwg-head[data-native-pdf]');
+  let nativeDoc;
+  async function nativeSheets(url,pages,name){
+    const {PDFDocument}=await library();
+    nativeDoc ||= fetch(url).then(check).then(r=>r.arrayBuffer()).then(data=>PDFDocument.load(data,{ignoreEncryption:true})).catch(error=>{nativeDoc=null;throw error;});
+    const src=await nativeDoc,dest=await PDFDocument.create();
+    const copied=await dest.copyPages(src,pages.map(p=>Number(p)-1));
+    for(const page of copied)dest.addPage(page);
+    save(await dest.save(),name,'application/pdf');
   }
   let manifest;
   const hierarchy=()=>manifest ||= fetch(base+'/api/v1/guides.json').then(check).then(r=>r.json());
@@ -60,7 +105,9 @@
     bar.setAttribute('aria-label','Figure actions');
     if(!agencyBar && !fig.matches('.sign-art:only-child'))button(bar,'Copy citation',()=>navigator.clipboard.writeText(citation(figureTitle,addr.href)));
     button(bar,'Copy image',()=>copyImage(src));
-    button(bar,'Sheet PDF',()=>single(src,figureTitle));
+    const sourcePage=fig.dataset.nativePage||fig.querySelector('.sheet-source-actions a[href*="#page="]')?.hash.slice(6);
+    const docUrl=drawingHeader?.dataset.nativePdf||publication?.dataset.nativePdf;
+    button(bar,'Sheet PDF',()=>sourcePage&&docUrl?nativeSheets(docUrl,[sourcePage],figureTitle):single(src,figureTitle));
   }
   function enhance(root){
     for(const card of root.querySelectorAll('.sdetail-img')){
@@ -135,6 +182,8 @@
     const zoom=create('select');zoom.ariaLabel='Source page zoom';for(const size of [100,150,200])zoom.add(new Option(size+'%',size));
     zoom.onchange=()=>frame.style.setProperty('--page-zoom',Number(zoom.value)/100);
     controls.append(zoom);
+    const local=publication.dataset.nativePdf;
+    const disclosure=publication.closest('.ladot-manual-pages');
     let selected,sequence=0,loadedPath,cached;
     const drawingOf=row=>row.drawings?.length===1?row.drawings[0]:null;
     function options(){
@@ -143,7 +192,7 @@
       list.replaceChildren();let group,groupName=null,count=0;
       for(const row of rows){
         const drawing=drawingOf(row);
-        const label=row.page+' · '+row.title+(drawing && drawing[2]>1?' · Sheet '+drawing[1]+' of '+drawing[2]:'');
+        const label=row.page+' · '+row.title+(drawing && drawing[2]>1?' · '+(row.sheetLabel||'Sheet '+drawing[1]+' of '+drawing[2]):'');
         const words=[label,row.chapter,...row.codes,...(row.drawings||[]).map(d=>d[0]),row.terms].join(' ').toLowerCase();
         if(exactDrawing?!row.drawings?.some(d=>d[0].toLowerCase()===query):!tokens.every(t=>words.includes(t)))continue;
         const groupLabel=drawing && drawing[2]>1?drawing[0]+' · '+drawing[2]+' sheets':row.chapter;
@@ -160,15 +209,29 @@
     prev.onclick=()=>go(rows[rows.indexOf(selected)-1]);next.onclick=()=>go(rows[rows.indexOf(selected)+1]);
     async function draw(){
       const ticket=++sequence;
-      selected=rows.find(r=>'#p'+r.page===location.hash)||rows[0];
-      const row=selected;options();prev.disabled=row===rows[0];next.disabled=row===rows.at(-1);
+      const hash=location.hash.slice(1),pageHash=/^(?:p|publication-p)(\d+)(?:-fig(\d+))?$/.exec(hash);
+      const tablePage=(publication.dataset.tablePages||'').split(' ').find(pair=>pair.split('=')[0]===hash)?.split('=')[1];
+      const pageNo=Number(pageHash?.[1]||tablePage);
+      selected=rows.find(r=>r.page===pageNo)||rows[0];
+      const row=selected;options();
+      if(disclosure && (pageHash || tablePage)){disclosure.open=true;requestAnimationFrame(()=>disclosure.scrollIntoView({block:'start'}));}
+      if(disclosure && !disclosure.open)return;
+      prev.disabled=row===rows[0];next.disabled=row===rows.at(-1);
       if(loadedPath!==row.path){loadedPath=row.path;cached=fetchArticle(row.path);}
       let source;try{source=await cached;}catch(error){if(ticket===sequence){loadedPath=null;frame.textContent='Source page unavailable. Select the page again to retry.';}return;}
       if(ticket!==sequence)return;
       const anchor=source.querySelector('#p'+row.page);
       const block=create('div');block.className='publication-paper';
       const heading=create('h2',row.title);block.append(heading);
-      const drawing=drawingOf(row);if(drawing && drawing[2]>1)block.append(create('p',drawing[0]+' · Sheet '+drawing[1]+' of '+drawing[2]+' · Publication page '+row.page));
+      if(local){
+        const pdfLink=create('a','Original PDF · page '+row.page);pdfLink.href=local+'#page='+row.page;block.append(pdfLink);
+        if(row.drawings.length){
+          const [code,pos]=row.drawings[0],go=create('a','View drawing · '+code+' · sheet '+pos);
+          go.href=base+'/details/ladot/'+publication.dataset.publication.split('/')[1]+'-'+code.toLowerCase().replace(/[^a-z0-9]+/g,'-')+'/#sheet-'+pos;
+          block.append(document.createTextNode(' · '),go);
+        }
+      }
+      const drawing=drawingOf(row);if(drawing && drawing[2]>1)block.append(create('p',drawing[0]+' · '+(row.sheetLabel||'Sheet '+drawing[1]+' of '+drawing[2])+' · Publication page '+row.page));
       setButton.hidden=!(drawing && drawing[2]>1 && rows.filter(r=>r.drawings?.some(d=>d[0]===drawing[0])).every(r=>r.image));
       if(anchor){
         let node=anchor;while(node.parentElement!==source)node=node.parentElement;
@@ -178,26 +241,43 @@
           block.append(sibling.cloneNode(true));
         }
       }
+      if(row.image && !block.querySelector('figure img')){
+        const fig=create('figure'),link=create('a'),im=create('img');fig.className='dfig';im.src=link.href=row.image;im.alt=row.title;
+        link.append(im);fig.append(link);heading.after(fig);
+      }
       block.querySelectorAll('a[href^="#"]').forEach(a=>a.href=base+'/'+row.path+'/'+a.getAttribute('href'));
+      // Printed running heads repeat the book and chapter. Keep the actual source paragraphs in order.
+      if (publication.dataset.publication === 'fhwa/step-uncontrolled-crossings') {
+        const runningHeads = new Set(['Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations',row.chapter]);
+        for (const paragraph of [...block.querySelectorAll('.dtext > p')].slice(0,2)) {
+          if (runningHeads.has(paragraph.textContent.trim())) paragraph.remove();
+        }
+      }
       frame.replaceChildren(block);frame.scrollTo(0,0);
-      frame.querySelectorAll('figure').forEach((fig,i)=>{fig.id='publication-p'+row.page+'-fig'+(i+1);figureTools(fig,i);});
+      if(disclosure)article.classList.add('ladot-reader-loaded');
+      frame.querySelectorAll('figure').forEach((fig,i)=>{fig.id='publication-p'+row.page+'-fig'+(i+1);if(local)fig.dataset.nativePage=row.page;figureTools(fig,i);});
+      if(pageHash?.[2])frame.querySelector('#publication-p'+row.page+'-fig'+pageHash[2])?.scrollIntoView({block:'nearest'});
     }
-    button(top,'Page PDF',()=>selected.image?single(selected.image,title+' PAGE '+selected.page):exportDocs(false,{label:'Page '+selected.page,node:frame}));
+    button(top,'Page PDF',()=>local?nativeSheets(local,[selected.page],title+' PAGE '+selected.page):selected.image?single(selected.image,title+' PAGE '+selected.page):exportDocs(false,{label:'Page '+selected.page,node:frame}));
     const setButton=button(top,'Drawing set PDF',async()=>{
-      const code=drawingOf(selected)[0],pdf=await (await library()).PDFDocument.create();
+      const code=drawingOf(selected)[0];
+      if(local)return nativeSheets(local,rows.filter(r=>r.drawings?.some(d=>d[0]===code)).map(r=>r.page),title+' '+code+' DRAWING SET');
+      const pdf=await (await library()).PDFDocument.create();
       for(const row of rows.filter(r=>r.drawings?.some(d=>d[0]===code)))await imagePage(pdf,row.image);
       save(await pdf.save(),title+' '+code+' DRAWING SET','application/pdf');
     });
     setButton.hidden=true;
-    if(rows.some(r=>r.chapter))button(top,'Chapter PDF',async()=>{
+    if(local || rows.some(r=>r.chapter))button(top,'Chapter PDF',async()=>{
+      if(local)return nativeSheets(local,rows.filter(r=>r.path===selected.path).map(r=>r.page),title+' '+(selected.chapter||'Chapter')+' PAGES '+rows.find(r=>r.path===selected.path).page+' TO '+rows.filter(r=>r.path===selected.path).at(-1).page);
       const pdf=await (await library()).PDFDocument.create();
       await addArticle(pdf,await fetchArticle(selected.path),selected.chapter||title);
       save(await pdf.save(),title+' '+(selected.chapter||'Chapter'),'application/pdf');
     });
-    button(top,'Guide PDF',()=>exportDocs(true));
+    if(!local)button(top,'Guide PDF',()=>exportDocs(true));
+    disclosure?.addEventListener('toggle',()=>{if(disclosure.open && !frame.firstElementChild)draw();});
     window.addEventListener('hashchange',draw);await draw();
   }
-  function clean(root){const n=root.cloneNode(true);n.querySelectorAll('script,style,nav,button,select,input,.drawing-explanation>summary,.reference-actions,.book-reader,.sec-toc,.reg-controls,.reg-contact,.export-tools,.operator-book,[data-pagefind-filter]').forEach(e=>e.remove());return n;}
+  function clean(root){const n=root.cloneNode(true);n.querySelectorAll('script,style,nav,button,select,input,.plan-source-alias,.plan-finder,.ladot-page-targets,.drawing-explanation>summary,.reference-actions,.book-reader,.sec-toc,.reg-controls,.reg-contact,.export-tools,.operator-book,[data-pagefind-filter]').forEach(e=>e.remove());return n;}
   // Reflow the article text into printable pages, preserving headings, figure order and table rows.
   async function addArticle(pdf,root,heading){
     const n=clean(root),c=document.createElement('canvas');c.width=1200;c.height=1553;const ctx=c.getContext('2d');let y=0;
@@ -222,7 +302,17 @@
     save(await pdf.save(),name,'application/pdf');
   }
   if(publication){
-    setupPublication().catch(error=>{publication.append(create('p','Sheet index unavailable. '+error.message));});
+    const disclosure=publication.closest('.ladot-manual-pages');
+    let pending;
+    const openReader=()=>{
+      if(disclosure && !disclosure.open && !/^#(?:p\d+|publication-p\d+|table-)/.test(location.hash))return;
+      pending ||= setupPublication().catch(error=>{
+        pending=null;
+        publication.append(create('p','Sheet index unavailable. '+error.message));
+      });
+    };
+    if(disclosure){disclosure.addEventListener('toggle',openReader);window.addEventListener('hashchange',openReader);}
+    openReader();
   }else if(operator){
     const field=operator.querySelector('input'),frame=operator.querySelector('img'),limit=Number(operator.dataset.count);
     const page=()=>Math.max(1,Math.min(limit,Number(field.value)||1));
@@ -259,6 +349,10 @@
       save(await dest.save(),title+' PAGES '+first+' TO '+last,'application/pdf');});
     button(top,'Guide PDF',async()=>save(await original(),title,'application/pdf'));
     button(top,'Page PDF',async()=>{const {PDFDocument}=await library(),dest=await PDFDocument.create(),source=await PDFDocument.load(await original());const [p]=await dest.copyPages(source,[page()-1]);dest.addPage(p);save(await dest.save(),title+' PAGE '+page(),'application/pdf');});
+  }else if(drawingHeader){
+    enhance(article);
+    const pages=drawingHeader.dataset.nativePages.split(',').map(Number),file=drawingHeader.dataset.nativePdf;
+    if(pages.length>1)button(top,'Drawing set PDF',()=>nativeSheets(file,pages,heading+' DRAWING SET'));
   }else if(article.querySelector('.reg-scan')){
     const current=()=>article.querySelector('.reg-page:not([hidden]) .reg-scan');
     button(top,'Copy image',()=>copyImage(current().href));button(top,'Page PDF',()=>single(current().href,current().dataset.title));

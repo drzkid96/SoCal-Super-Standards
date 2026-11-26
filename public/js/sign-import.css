@@ -1,0 +1,31 @@
+.sign-import {margin:1rem 0 1.75rem;max-width:86rem;line-height:1.5}
+.sign-import * {box-sizing:border-box}
+.sign-import [hidden] {display:none!important}
+.sign-import :is(button,input,select,textarea) {font:inherit;}
+.sign-import :is(input:not([type=checkbox]),select,textarea) {background:var(--sl-color-bg,#fff);color:var(--sl-color-white,#172d37);border:1px solid var(--sl-color-gray-4,#a0aab0);border-radius:.4rem;padding:.45rem .6rem;max-width:100%}
+.sign-import textarea {width:100%;resize:vertical;min-height:5rem}
+.sign-import button {background:var(--sl-color-gray-6,#edf2ef);border:1px solid var(--sl-color-gray-4,#839995);padding:.4rem .75rem;color:var(--sl-color-white,#172d37);border-radius:.45rem;cursor:pointer}
+.sign-import button:disabled {opacity:.55;cursor:default}
+.sign-import .si-primary {background:#155646;border-color:#155646;color:white;font-weight:650}
+.sign-import .si-sources {display:grid;grid-template-columns:minmax(14rem,.9fr) minmax(17rem,1.3fr);gap:.8rem}
+.sign-import .si-input,.sign-import .si-sheet {border:1px solid var(--sl-color-gray-5,#bbc9c4);border-radius:.6rem;padding:.75rem 1rem;margin:.5rem 0}
+.sign-import :is(.si-input,.si-review) p {margin:.25rem 0 .6rem}
+.sign-import label.si-label {font-weight:650;display:block;margin-bottom:.3rem}
+.sign-import .si-input input[type=file] {width:100%}
+.sign-import .si-sheet summary {cursor:pointer;font-weight:650;padding:.2rem 0}
+.sign-import .si-meta {font-size:.875em;color:var(--sl-color-gray-2,#46575e)}
+.sign-import .si-tools,.sign-import .si-buttons {display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;padding:.4rem 0}
+.sign-import .si-row {display:grid;grid-template-columns:minmax(10rem,.9fr) minmax(12rem,1.7fr);align-items:center;gap:.65rem;padding:.5rem 0;border-top:1px solid var(--sl-color-gray-5,#d0dad4)}
+.sign-import .si-row>div {min-width:0;overflow-wrap:anywhere}
+.sign-import .si-row select {width:100%}
+.sign-import .si-row input[type=checkbox] {margin-right:.45rem}
+.sign-import .si-faces {display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:.65rem;margin:.4rem 0}
+.sign-import .si-faces>div {display:grid;align-content:start;gap:.28rem;padding:.5rem;border:1px solid var(--sl-color-gray-5,#d0dad4);border-radius:.4rem}
+.sign-import .si-faces img {object-fit:contain;height:4.3rem;width:100%;background:white}
+.sign-import .si-crop {position:relative;display:inline-block;touch-action:none;width:min(100%,46rem);line-height:0;cursor:crosshair}
+.sign-import .si-crop canvas {display:block;width:100%;height:auto}
+.sign-import .si-rect {position:absolute;outline:2px solid #e77a1d;background:#f69e4529;pointer-events:none}
+.sign-import .si-bounds {display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0}
+.sign-import .si-bounds label {font-size:.85em}
+.sign-import .si-bounds input {width:4.6rem;display:block}
+@media(max-width:660px){.sign-import .si-sources,.sign-import .si-row{grid-template-columns:1fr}.sign-import .si-row{gap:.2rem}.sign-import .si-input,.sign-import .si-sheet{padding:.55rem .7rem}}

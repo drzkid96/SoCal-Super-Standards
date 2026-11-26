@@ -902,6 +902,1673 @@
       "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-w74-ca",
       "drawnWidth": 50.89313,
       "drawnHeight": 50.89731
+    },
+    {
+      "id": "official-callout-m4-9b-left",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "M4-9b(LT)",
+      "sha256": "a44dea923e17d82254c6c4163cf72f3936e9d58f6f3491be09cf054a1435b201",
+      "width": 30,
+      "height": 24,
+      "actualBounds": [
+        -14.98439,
+        -11.99853,
+        14.98439,
+        12.0
+      ],
+      "units": "inches",
+      "hatches": 11,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "M4-9b(LT)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=754",
+      "sourceFile": "individual/Temporary traffic control/M4-9b(LT).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "M4-9bL",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-m4-9b-left",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "109911F",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1099123",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109A9EE",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109A9F2",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109902A",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1099199",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "10991A2",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "10991A4",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "120AF7F",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1426298",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095EE3",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095EE7",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109BD70",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095DEE",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F5D",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F66",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F68",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095DEE",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095EE3",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095EE7",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F5D",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F66",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F68",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109BCA7",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109BD70",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109902A",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109911F",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1099123",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1099199",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "10991A2",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "10991A4",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109A8F9",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109A9EE",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109A9F2",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA68",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA71",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA73",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109E55F",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109E628",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1208466",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "120853E",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "120ADF9",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "120AF7F",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "120B150",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "120B19B",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "12C15E8",
+          "label": "M4-9b(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1426298",
+          "label": "M4-9b(LT)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans specification, FHWA specification or original plan crop",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=754",
+      "sizeNote": "30 × 24 in upright",
+      "visualObservation": "The pedestrian and lettering keep their original orientation. The arrow points left.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-m4-9b-left",
+      "drawnWidth": 29.96878,
+      "drawnHeight": 23.99853
+    },
+    {
+      "id": "official-callout-m4-9b-right",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "M4-9b(RT)",
+      "sha256": "442f9c637829ea57ebd47e1671dd95f52c50e653dddc02997ff700defd4b5b02",
+      "width": 30,
+      "height": 24,
+      "actualBounds": [
+        -14.98159,
+        -11.99117,
+        14.98153,
+        11.99728
+      ],
+      "units": "inches",
+      "hatches": 13,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "M4-9b(RT)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=754",
+      "sourceFile": "individual/Temporary traffic control/M4-9b(RT).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "M4-9bR",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-m4-9b-right",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "10991A0",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "10991A3",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA6F",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA72",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F64",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F67",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F64",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F67",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "10991A0",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "10991A3",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA6F",
+          "label": "M4-9b(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA72",
+          "label": "M4-9b(RT)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      }
+    },
+    {
+      "id": "official-callout-r9-11-left",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R9-11(LT)",
+      "sha256": "ce3917d1ad8c930b2de86087240ae65fe8d00f1c887a2fa96bd0538aeacd1a01",
+      "width": 24,
+      "height": 18,
+      "actualBounds": [
+        -11.98205,
+        -8.97539,
+        11.9843,
+        8.99756
+      ],
+      "units": "inches",
+      "hatches": 77,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R9-11(LT)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=699",
+      "sourceFile": "individual/Regulatory/R9-11(LT).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "R9-11L",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-r9-11-left",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "10991B8",
+          "label": "R9-11(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA87",
+          "label": "R9-11(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F7C",
+          "label": "R9-11(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F7C",
+          "label": "R9-11(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "10991B8",
+          "label": "R9-11(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA87",
+          "label": "R9-11(LT)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      }
+    },
+    {
+      "id": "official-callout-r9-11-right",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R9-11(RT)",
+      "sha256": "87f516d2131c73748fc20f2120714be28f18ac43f3ac33941cbbe90de72f2278",
+      "width": 24,
+      "height": 18,
+      "actualBounds": [
+        -11.98668,
+        -8.99794,
+        11.98688,
+        9.0
+      ],
+      "units": "inches",
+      "hatches": 31,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R9-11(RT)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=699",
+      "sourceFile": "individual/Regulatory/R9-11(RT).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "R9-11R",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-r9-11-right",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "1099198",
+          "label": "R9-11(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA67",
+          "label": "R9-11(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F5C",
+          "label": "R9-11(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F5C",
+          "label": "R9-11(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1099198",
+          "label": "R9-11(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA67",
+          "label": "R9-11(RT)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans specification, FHWA specification or original plan crop",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=699",
+      "sizeNote": "24 × 18 in upright",
+      "visualObservation": "Original CROSS HERE lettering remains upright below the right arrow.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-r9-11-right",
+      "drawnWidth": 23.97356,
+      "drawnHeight": 17.99794
+    },
+    {
+      "id": "official-callout-w1-6-left",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "W1-6(LT)",
+      "sha256": "454a1b9b154a63879b72d3d94684847b59092226faac47ecbf53c17ecc57ab09",
+      "width": 48,
+      "height": 24,
+      "actualBounds": [
+        -23.90033,
+        -11.99818,
+        23.90033,
+        11.98007
+      ],
+      "units": "inches",
+      "hatches": 3,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "W1-6(LT)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=448",
+      "sourceFile": "individual/Warning/W1-6(LT).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "W1-6L",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-w1-6-left",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "10990FF",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109A9CE",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109E614",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "120B17F",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "12D2CDF",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "14253A7",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095EC3",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109BD5C",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095EC3",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109BD5C",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "10990FF",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109A9CE",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109E614",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "120B17F",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "12D2CDF",
+          "label": "W1-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "14253A7",
+          "label": "W1-6(LT)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      }
+    },
+    {
+      "id": "official-callout-w9-1-right",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "W9-1(RT)",
+      "sha256": "9dbe9ede783fd5a40be028c786a21478950b8d82d06aa115df082dc3c7de70f0",
+      "width": 50.9117,
+      "height": 50.9117,
+      "actualBounds": [
+        -25.22917,
+        -25.231,
+        25.23905,
+        25.23853
+      ],
+      "units": "inches",
+      "hatches": 48,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "W9-1(RT)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=554",
+      "sourceFile": "individual/Warning/W9-1(RT).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "W9-1R",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-w9-1-right",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "263299",
+          "label": "W9-1(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "263299",
+          "label": "W9-1(RT)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans specification, FHWA specification or original plan crop",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=554",
+      "sizeNote": "50.9117 × 50.9117 in upright",
+      "visualObservation": "The issuer prints RIGHT / LANE / ENDS on this directional face.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-w9-1-right",
+      "drawnWidth": 50.46822,
+      "drawnHeight": 50.46953
+    },
+    {
+      "id": "official-callout-r3-5-r",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R3-5(R)",
+      "sha256": "c74a2b8804324d5680c87704c10420d76ca66033078dfe913268c48bcefd3486",
+      "width": 30,
+      "height": 36,
+      "actualBounds": [
+        -14.99246,
+        -17.97386,
+        14.96622,
+        17.97845
+      ],
+      "units": "inches",
+      "hatches": 38,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R3-5(R)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=74",
+      "sourceFile": "individual/Regulatory/R3-5(R).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "R3-5R",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-r3-5-r",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "43B4F9",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "1071168",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "107119C",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "1044267",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "10442A2",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "108BD56",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "pico",
+          "handle": "43B4F9",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "1071168",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "107119C",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "1044267",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "10442A2",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "1069F48",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "106EEDD",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "108BD56",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "106F824",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "106F9C3",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "106FFD0",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "1070135",
+          "label": "R3-5(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "1098152",
+          "label": "R3-5(R)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      }
+    },
+    {
+      "id": "official-callout-r3-6-left",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R3-6(LT)",
+      "sha256": "b62433da470386cf3ec4f3b617d33c904e6ed3ee71f0f7b1dd14b783fb2d1660",
+      "width": 30,
+      "height": 36,
+      "actualBounds": [
+        -14.99246,
+        -17.97386,
+        14.96622,
+        17.97845
+      ],
+      "units": "inches",
+      "hatches": 34,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R3-6(LT)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=83",
+      "sourceFile": "individual/Regulatory/R3-6(LT).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "R3-6L",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-r3-6-left",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "1099190",
+          "label": "R3-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA5F",
+          "label": "R3-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F54",
+          "label": "R3-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1095F54",
+          "label": "R3-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "1099190",
+          "label": "R3-6(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "109AA5F",
+          "label": "R3-6(LT)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      }
+    },
+    {
+      "id": "official-callout-r3-7-l",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R3-7(L)",
+      "sha256": "805dcb294c991a33e5eba297e5f3d8296933cc110c2dab390e1e88f8156e5f25",
+      "width": 30,
+      "height": 30,
+      "actualBounds": [
+        -14.99371,
+        -14.99702,
+        14.99715,
+        14.99715
+      ],
+      "units": "inches",
+      "hatches": 33,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R3-7(L)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=87",
+      "sourceFile": "individual/Regulatory/R3-7(L).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "R3-7L",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-r3-7-l",
+      "sourceObservations": [
+        {
+          "source": "3346-signs-1-13",
+          "handle": "10442BE",
+          "label": "R3-7(L)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "10442BE",
+          "label": "R3-7(L)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      }
+    },
+    {
+      "id": "official-callout-r3-7-right",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R3-7(RT)",
+      "sha256": "063bd83aeef93503255845d58f6e95556d836595c2781acc52902228f2c43f4b",
+      "width": 30,
+      "height": 30,
+      "actualBounds": [
+        -14.99371,
+        -14.99702,
+        14.99715,
+        14.99715
+      ],
+      "units": "inches",
+      "hatches": 35,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R3-7(RT)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=86",
+      "sourceFile": "individual/Regulatory/R3-7(RT).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "R3-7R",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-r3-7-right",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "2631DA",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "2631E8",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "2632CA",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "26332D",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "13A4B0C",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "13A4B11",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "2631DA",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "2631E8",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "2632CA",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "26332D",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "13A4B0C",
+          "label": "R3-7(RT)"
+        },
+        {
+          "source": "pico",
+          "handle": "13A4B11",
+          "label": "R3-7(RT)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      }
+    },
+    {
+      "id": "official-callout-r6-1-r",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R6-1(R)",
+      "sha256": "7b92d78ad0833f9ee6ddbb8e7b6904b03ef3880f29dc7d2aa640a5b03917f7e2",
+      "width": 36,
+      "height": 12,
+      "actualBounds": [
+        -17.94932,
+        -5.98514,
+        17.95146,
+        5.99635
+      ],
+      "units": "inches",
+      "hatches": 35,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R6-1(R)",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=241",
+      "sourceFile": "individual/Regulatory/R6-1(R).dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "R6-1R",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-r6-1-r",
+      "sourceObservations": [
+        {
+          "source": "3346-signs-14-15",
+          "handle": "1034DAD",
+          "label": "R6-1(R)"
+        },
+        {
+          "source": "3346-signs-14-15",
+          "handle": "1034DAD",
+          "label": "R6-1(R)"
+        },
+        {
+          "source": "3346-signs-1-13",
+          "handle": "1097BC3",
+          "label": "R6-1(R)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      }
+    },
+    {
+      "id": "official-callout-r6-1-left",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R6-1-left",
+      "sha256": "9874c2501330630ede592ef28be50fd1de7719fed2f7367910012312eaf6cf93",
+      "width": 36,
+      "height": 12,
+      "actualBounds": [
+        -17.94932,
+        -5.98514,
+        17.95146,
+        5.99635
+      ],
+      "units": "inches",
+      "hatches": 35,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R6-1-left",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/kno-shs_2024-release-status/pdf/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf#page=242",
+      "sourceFile": "individual/Regulatory/R6-1-left.dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2024, Releases 1–4",
+      "foil": "R6-1L",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-r6-1-left",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "2631B0",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "26321C",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "26321E",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "2632AB",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "2631BD",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "2632E8",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "B0692F",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "B069DE",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "B069EB",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "13C003",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "6961C2",
+          "label": "R6-1-left"
+        },
+        {
+          "source": "pico",
+          "handle": "13C003",
+          "label": "R6-1(Lt)"
+        },
+        {
+          "source": "pico",
+          "handle": "6961C2",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "2631B0",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "2631BD",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "26321C",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "26321E",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "2632AB",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "2632E8",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "263326",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "B0692F",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "B069DE",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "B069EB",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "B069EF",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "B069F5",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "B06D93",
+          "label": "R6-1(LT)"
+        },
+        {
+          "source": "pico",
+          "handle": "B06DAA",
+          "label": "R6-1(LT)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      }
+    },
+    {
+      "id": "official-callout-d9-13a",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "D9-13A",
+      "sha256": "713602afda63b396b38a413e41da8f26b3138a98a47945df6d24f732463c9bf7",
+      "width": 24,
+      "height": 12,
+      "actualBounds": [
+        -11.99803,
+        -5.99491,
+        11.99,
+        5.99
+      ],
+      "units": "inches",
+      "hatches": 5,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "D9-13A",
+      "sourceUrl": "https://mutcd.fhwa.dot.gov/SHSe/guide.pdf#page=74",
+      "sourceFile": "individual/Guide/D9-13A.dwg",
+      "sourceDocument": "FHWA Standard Highway Signs, 2004, Guide Signs",
+      "foil": "D9-13a HOSPITAL",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-d9-13a",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "B06D58",
+          "label": "D9-13A"
+        },
+        {
+          "source": "pico",
+          "handle": "B06D58",
+          "label": "D9-13A"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans specification, FHWA specification or original plan crop",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/SHSe/guide.pdf#page=74",
+      "sizeNote": "24 × 12 in upright",
+      "visualObservation": "The archived blue HOSPITAL word sign retains its original white letter outlines.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-d9-13a",
+      "drawnWidth": 23.98803,
+      "drawnHeight": 11.98491
+    },
+    {
+      "id": "official-callout-g96ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "G96(CA)",
+      "sha256": "623eecfb02662e272d49ba47c2b9a4b0363324df4ffd41228afefd6cf6b7288e",
+      "width": 24,
+      "height": 24,
+      "actualBounds": [
+        -11.98752,
+        -11.98538,
+        11.98752,
+        11.98752
+      ],
+      "units": "inches",
+      "hatches": 12,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "G96(CA)",
+      "sourceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/g/f0018941-g96-a11y.pdf#page=1",
+      "sourceFile": "individual/Guide/G96(CA).dwg",
+      "sourceDocument": "Caltrans historic sign specification G96, Light Rail Station",
+      "foil": "G96(CA) Light Rail Station",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-g96ca",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "2631F5",
+          "label": "G96(CA)"
+        },
+        {
+          "source": "pico",
+          "handle": "26C856",
+          "label": "G96(CA)"
+        },
+        {
+          "source": "pico",
+          "handle": "B06671",
+          "label": "G96(CA)"
+        },
+        {
+          "source": "pico",
+          "handle": "2631F5",
+          "label": "G96(CA)"
+        },
+        {
+          "source": "pico",
+          "handle": "26C856",
+          "label": "G96(CA)"
+        },
+        {
+          "source": "pico",
+          "handle": "B06671",
+          "label": "G96(CA)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans specification, FHWA specification or original plan crop",
+      "referenceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/g/f0018941-g96-a11y.pdf#page=1",
+      "sizeNote": "24 × 24 in upright",
+      "visualObservation": "Withdrawn California sign. The agency sheet gives a 24 × 24 in conventional option.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-g96ca",
+      "drawnWidth": 23.97504,
+      "drawnHeight": 23.9729
+    },
+    {
+      "id": "official-callout-w48-2ca",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "W48(2)(CA)",
+      "sha256": "ef30c551f252d63ac6e121bb6239d01365427ee7a20b33162ac66f3f3561be30",
+      "width": 30,
+      "height": 24,
+      "actualBounds": [
+        -14.98121,
+        -11.97804,
+        14.98121,
+        11.98124
+      ],
+      "units": "inches",
+      "hatches": 5,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "W48(2)(CA)",
+      "sourceUrl": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/signs/w/w48-ca-a11y.pdf#page=1",
+      "sourceFile": "individual/Warning/W48(2)(CA).dwg",
+      "sourceDocument": "Caltrans historic W48 Number of Tracks plaque specification",
+      "foil": "W48(2)(CA) · 2 TRACKS",
+      "url": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-w48-2ca",
+      "sourceObservations": [
+        {
+          "source": "pico",
+          "handle": "2631FC",
+          "label": "W48(2)(CA)"
+        },
+        {
+          "source": "pico",
+          "handle": "26C85D",
+          "label": "W48(2)(CA)"
+        }
+      ],
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Caltrans specification, FHWA specification or original plan crop",
+      "referenceUrl": "https://drzkid96.github.io/SoCal-Super-Standards/figs/plan-examples/sign-192.webp",
+      "sizeNote": "30 × 24 in upright",
+      "visualObservation": "Both Pico leaders specify 2. The Caltrans sheet permits numerals 2 through 6.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-official-callout-w48-2ca",
+      "drawnWidth": 29.96242,
+      "drawnHeight": 23.95928
+    },
+    {
+      "id": "mutcd-sheet-m2-1-11f90",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "M2-1",
+      "sha256": "fa5fa9abe14c6a319656c74c982ca750fa4a3a1faf455fccf2f36df9c1b71292",
+      "width": 21,
+      "height": 15,
+      "actualBounds": [
+        -10.12467,
+        -7.12751,
+        10.12467,
+        7.12598
+      ],
+      "units": "inches",
+      "hatches": 4,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "M2-1 [MUTCD CAD library 2]",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Original MUTCD CAD-library face and its label handle 11F90",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/SHSe/guide.pdf#page=47",
+      "sizeNote": "21 × 15 in",
+      "visualObservation": "Original JCT contours are centered inside the border. The J descender now clears the frame.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-mutcd-sheet-m2-1-11f90",
+      "drawnWidth": 20.24934,
+      "drawnHeight": 14.25349
+    },
+    {
+      "id": "mutcd-sheet-m4-10l-11f95",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "M4-10L",
+      "sha256": "9b1e7d9b1a36ff9da9e5f4e5b3b222b4e1477f4f8d17b677b9d40cba485f88da",
+      "width": 1.0,
+      "height": 0.3369,
+      "actualBounds": [
+        -0.5,
+        -0.16844,
+        0.5,
+        0.16844
+      ],
+      "units": "inches",
+      "hatches": 7,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "M4-10L [MUTCD CAD library 2]",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Original MUTCD CAD-library face and its label handle 11F95",
+      "referenceUrl": "https://drzkid96.github.io/SoCal-Super-Standards/downloads/sign-blocks-qa/CAD-SIGN-VISUAL-REVIEW.pdf",
+      "sizeNote": "1 in reference width  •  physical size unverified",
+      "visualObservation": "Reopened DWG now shows the full reverse-field left arrow behind DETOUR.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-mutcd-sheet-m4-10l-11f95",
+      "drawnWidth": 1.0,
+      "drawnHeight": 0.33688
+    },
+    {
+      "id": "mutcd-sheet-m4-10r-11f96",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "M4-10R",
+      "sha256": "8213506dd4d8fa4ffaf1394906e3d33dd8e87f58bb45b895c99497faf58bfe0f",
+      "width": 1.0,
+      "height": 0.3369,
+      "actualBounds": [
+        -0.5,
+        -0.16844,
+        0.5,
+        0.16844
+      ],
+      "units": "inches",
+      "hatches": 7,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "M4-10R [MUTCD CAD library 2]",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Original MUTCD CAD-library face and its label handle 11F96",
+      "referenceUrl": "https://drzkid96.github.io/SoCal-Super-Standards/downloads/sign-blocks-qa/CAD-SIGN-VISUAL-REVIEW.pdf",
+      "sizeNote": "1 in reference width  •  physical size unverified",
+      "visualObservation": "Reopened DWG now shows the full reverse-field right arrow behind DETOUR.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-mutcd-sheet-m4-10r-11f96",
+      "drawnWidth": 1.0,
+      "drawnHeight": 0.33688
+    },
+    {
+      "id": "mutcd-sheet-r6-1l-1097e",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R6-1L",
+      "sha256": "8db499d05c4b403795eb6938eed4819688283c580f732b07e734871018547405",
+      "width": 36.0,
+      "height": 12.0,
+      "actualBounds": [
+        -17.50783,
+        -5.52141,
+        17.50783,
+        5.50426
+      ],
+      "units": "inches",
+      "hatches": 7,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R6-1L [MUTCD CAD library 3]",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Original MUTCD CAD-library face and its label handle 1097E",
+      "referenceUrl": "https://drzkid96.github.io/SoCal-Super-Standards/downloads/sign-blocks-qa/CAD-SIGN-VISUAL-REVIEW.pdf",
+      "sizeNote": "36 × 12 in",
+      "visualObservation": "Source shaft and arrowhead restored around the original ONE WAY legend.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-mutcd-sheet-r6-1l-1097e",
+      "drawnWidth": 35.01566,
+      "drawnHeight": 11.02567
+    },
+    {
+      "id": "mutcd-sheet-r6-1r-10991",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "R6-1R",
+      "sha256": "15234f7a7117bdaf47c68c8778d912be3f80d06ef44b887e097a5f5fe2d00bad",
+      "width": 36.0,
+      "height": 12.0,
+      "actualBounds": [
+        -17.50783,
+        -5.52141,
+        17.50783,
+        5.50426
+      ],
+      "units": "inches",
+      "hatches": 7,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "R6-1R [MUTCD CAD library 3]",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Original MUTCD CAD-library face and its label handle 10991",
+      "referenceUrl": "https://drzkid96.github.io/SoCal-Super-Standards/downloads/sign-blocks-qa/CAD-SIGN-VISUAL-REVIEW.pdf",
+      "sizeNote": "36 × 12 in",
+      "visualObservation": "Source shaft and arrowhead restored around the original ONE WAY legend.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-mutcd-sheet-r6-1r-10991",
+      "drawnWidth": 35.01566,
+      "drawnHeight": 11.02567
+    },
+    {
+      "id": "mutcd-sheet-w7-3b-114a5",
+      "drawingForm": "standalone WBLOCK-style modelspace",
+      "sourceCode": "W7-3b",
+      "sha256": "4916794bfbabe35b178517104a1cccccaf92ae7f638c91a1cd70730c5f16eb45",
+      "width": 24,
+      "height": 18,
+      "actualBounds": [
+        -12.0,
+        -9.00004,
+        12.0,
+        9.00004
+      ],
+      "units": "inches",
+      "hatches": 16,
+      "objectTypes": [
+        "HATCH"
+      ],
+      "blockName": "W7-3b",
+      "hostColorTests": {
+        "renderLongEdgePixels": 250,
+        "maxChannelSpreadThreshold": 20,
+        "chromaticPixels": {
+          "default": 0,
+          "redLayerByLayer": 0,
+          "insertColorOverride": 0
+        }
+      },
+      "reference": "Original MUTCD CAD-library face and its label handle 114A5",
+      "referenceUrl": "https://mutcd.fhwa.dot.gov/SHSe/Warning.pdf#page=52",
+      "sizeNote": "24 × 18 in",
+      "visualObservation": "Source figure and percentage symbol were superimposed. The restored spacing follows FHWA’s published 9% GRADE / 7 MILES.",
+      "recordUrl": "https://drzkid96.github.io/SoCal-Super-Standards/signs/cad/#block-mutcd-sheet-w7-3b-114a5",
+      "drawnWidth": 24.0,
+      "drawnHeight": 18.00008
     }
-  ]
+  ],
+  "browserReleaseVerification": {
+    "testedAgainst": "production static build served locally",
+    "method": "Chrome followed the catalog record to the sign page, clicked the native download, and saved the file. libdxfrw reopened each sampled DWG. All master block inserts and all individual drawings in the ZIP were counted and hash checked.",
+    "sampleDownloads": 45,
+    "savedMaster": {
+      "filename": "SOCAL-SIGN-CATALOG.dwg",
+      "sha256": "9c0036a7c6cd4389299c05d27e3e209d5f237589bddc881cfe4f940092e00316",
+      "insertCount": 1033
+    },
+    "savedCompleteZip": {
+      "filename": "SOCAL-SIGN-BLOCKS.zip",
+      "sha256": "a54d48ab5ce72995887e5befd6b5c22be276ff08623cbecfce2d7f1efd2bea28",
+      "verifiedIndividualDrawings": 1033
+    },
+    "sameHostPlacements": [
+      {
+        "id": "official-r3-7",
+        "filename": "R3-7.dwg",
+        "width": 30.0,
+        "height": 29.998409692911586
+      },
+      {
+        "id": "official-r3-7-size-36p0000-36p0000",
+        "filename": "R3-7 [36 x 36 in].dwg",
+        "width": 36.0,
+        "height": 35.9980916314939
+      }
+    ]
+  }
 }

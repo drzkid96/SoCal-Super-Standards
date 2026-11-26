@@ -97,7 +97,7 @@ def source_batch(args):
             img_path=record.get("mask") or img_path
         if record.get("sourceKind")=="reconciled source variant":
             img_path=None  # Original caption 25, original drawn number 30.
-        elif record.get("sourceKind")=="current issued sign artwork":
+        elif record.get("drawing")=="official-standard" and record.get("outlineMask"):
             img_path=record.get("outlineMask")
         source_data={k:record.get(k) for k in ("entities","block","physicalBounds","sourceImage","image","sourceKind")}
         if not img_path:
@@ -228,8 +228,13 @@ def carry_review(row, check, cache):
         row["visualReview"] = check["verdict"]
         row["visualReviewBasis"] = basis
         if check.get("classification"):
-            row["automatedTriage"] = row["status"]
+            row.setdefault("automatedTriage",row["status"])
             row["status"] = check["classification"]
+            if row["status"]=="publisher artwork visually checked" and not row.get("referenceType"):
+                row["status"]="original CAD artwork visually checked"
+        elif row["status"]=="source comparison only":
+            row["automatedTriage"]=row["status"]
+            row["status"]="original CAD artwork visually checked"
     if old_sha == row["dwgSha256"]:
         apply_review("Reviewed native DWG checksum")
         return
@@ -257,19 +262,38 @@ def main():
     parser.add_argument("--workers",type=int,default=3)
     parser.add_argument("--decoder",type=Path,help="Independently reopen the manifest’s actual DWG bytes with libdxfrw and validate each SHA-256.")
     parser.add_argument("--limit",type=int)
+    parser.add_argument("--id",action="append",help="Only compare these exact catalog records.")
     args=parser.parse_args()
     wd=args.workspace.resolve();site=args.site.resolve();out=args.output.resolve();out.mkdir(exist_ok=True,parents=True)
     for directory in ("dwg","source","issued"):
         (out/directory).mkdir(exist_ok=True)
     faces=read(site/"data/reference/plan-examples/cad-sign-art.json")
     for p in sorted((wd/"block-inputs").glob("*.json")):faces+=read(p)
-    selections={r["id"]:r for r in faces}
+    selections={}
+    for face in faces:selections.setdefault(face["id"],{}).update(face)
+    callouts_dir=site/"data/reference/cad-standards/callout-faces"
+    for filename in ("fhwa-variants.json","historic-faces.json"):
+        for face in read(callouts_dir/filename) if (callouts_dir/filename).is_file() else []:
+            slug=re.sub("[^a-z0-9-]","-",face["key"].casefold()).strip("-")
+            selection=selections.get("official-callout-"+slug)
+            if selection is not None:
+                selection["publisherPanel"]=str(callouts_dir/face.get("asset",slug+".svg"))
+                selection["panelType"]="issued archived sign foil" if face.get("status") else "issued directional sign foil"
+    sizes_path=site/"data/reference/plan-examples/verified-publisher-panel-sizes.json"
+    if sizes_path.is_file():
+        for id,measure in read(sizes_path).items():
+            if measure.get("sourceMask") and measure.get("artworkSourceUrl") and id in selections:
+                asset=site/measure["sourceMask"]
+                if hashlib.sha256(asset.read_bytes()).hexdigest()!=measure["sourceMaskSha256"]:
+                    raise ValueError("Publisher source artwork changed: "+id)
+                selections[id].update(publisherPanel=str(asset),panelType="issuer-derived plate mask",sourceUrl=measure["artworkSourceUrl"])
     standards=read(wd/"standards/sign-standards.json")["records"]
     manifests=args.manifest or sorted(wd.glob("cad-source-*/manifest.json"))
     artifacts={}
     for p in manifests:
         for row in read(p)["records"]:
             artifacts[row["id"]]=(row,p.parent)
+    if args.id:artifacts={id:artifacts[id] for id in args.id}
     if args.limit:artifacts=dict(list(artifacts.items())[:args.limit])
     source_groups=defaultdict(list);queue=[];rows=[]
     for id,(row,pack_path) in sorted(artifacts.items()):
@@ -287,7 +311,10 @@ def main():
         # A project spelling alone never licenses an authority match to a parent sign.
         exact=key(code)==key(authority.get("standardCode") or "") and "MOD" not in key(code)
         refpath=None;refurl=None;reference_type=None
-        if candidate.get("referenceURL") and candidate.get("sourceImage"):
+        if candidate.get("publisherPanel"):
+            refpath=publisher_preview(Path(candidate["publisherPanel"]),out/"issued")
+            refurl=candidate["sourceUrl"];reference_type=candidate["panelType"]
+        elif candidate.get("referenceURL") and candidate.get("sourceImage"):
             refpath=Path(candidate["sourceImage"]);refurl=candidate["referenceURL"];reference_type="issued corrected legend"
         elif candidate.get("sourceKind")=="current issued sign artwork" and candidate.get("referenceAsset"):
             public=site/"public"/candidate["referenceAsset"].lstrip("/")
@@ -299,7 +326,7 @@ def main():
             if public.is_file():
                 refpath=publisher_preview(public,out/"issued")
                 refurl=ref.get("source");reference_type=ref.get("type")
-        rows.append({"id":id,"code":code,"source":drawing,"handle":row.get("sourceHandle"),"dwgSha256":sha,
+        rows.append({"id":id,"code":code,"source":drawing,"sourceKind":row.get("sourceKind"),"handle":row.get("sourceHandle"),"dwgSha256":sha,
                      "reviewMethod":"native DWG checksum and independently decoded libdxfrw rendering" if args.decoder else "packager DWG round-trip DXF rendering",
                      "render":str(output),"referencePreview":str(refpath) if refpath else None,
                      "publisherURL":refurl,"referenceType":reference_type,"geometryStatus":row.get("geometryStatus")})
@@ -327,7 +354,15 @@ def main():
                     r["status"]="publisher figure context; face requires identification"
             else:r["status"]="source comparison only" if "sourceMetrics" in r else "no comparable source image"
         except Exception as e:r["status"]="comparison error: "+str(e)[:70]
-    reviewed=read(out/"reviewed.json") if (out/"reviewed.json").is_file() else {}
+    reviewed={}
+    previous_site_report=site/"public/downloads/sign-blocks-qa/CAD-VISUAL-CHECKS.json"
+    if previous_site_report.is_file():
+        for previous in read(previous_site_report)["records"]:
+            if previous.get("visualReview"):
+                checked={"sha256":previous["dwgSha256"],"verdict":previous["visualReview"]}
+                if previous.get("automatedTriage"):checked["classification"]=previous["status"]
+                reviewed[previous["id"]]=checked
+    if (out/"reviewed.json").is_file():reviewed.update(read(out/"reviewed.json"))
     for r in rows:
         carry_review(r, reviewed.get(r["id"]), out/"dwg")
     rows.sort(key=lambda r:(r["status"],r["source"],r["code"],r["id"]))

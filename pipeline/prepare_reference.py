@@ -3,7 +3,10 @@ from pathlib import Path
 from sign_releases import prepare as prepare_fhwa_layouts
 from boe_snapshot import CATALOG as BOE_CATALOG, restore as restore_boe
 from current_catalog import prepare as prepare_current
+from manual_art import illustration_url
+from sign_import_runtime import hydrate as hydrate_sign_import
 import shutil
+hydrate_sign_import()
 source = Path('src/content/docs')
 root = Path('.standards/docs')
 shutil.copytree(source, root, dirs_exist_ok=True)
@@ -22,22 +25,11 @@ def revision_text(style, text):
  return value
 
 for manual in ('ca-mutcd','mutcd'):
- items={key:record[1] for key,record in json.loads((ref/'manual-illustrations.json').read_text())[manual].items()}
  provision_urls={s['num']:s['url'] for s in json.loads(Path('data',manual,'sections.json').read_text())}
- chapters={c['code']:c['first'] for c in json.load(open('data/'+manual+'/chapters.json'))}
- anchors={}
  for path in (root/manual).glob('*.md'):
   src=path.read_text()
-  def dest(m):
-   kind,num=m.groups();kind=kind.rstrip('s');num=num.replace(' ','');owner=num.split('-')[0];pg=items.get(kind+' '+num)
-   if pg and owner in chapters:
-    if manual=='ca-mutcd' and owner in urls:return urls[owner]+'#page='+str(pg-chapters[owner]+1)
-    image=f'/figs/{manual}/p{pg:04}.webp'
-    if Path('public'+image).is_file():return base+image
-    return 'https://mutcd.fhwa.dot.gov/pdfs/11th_Editionr1/mutcd11theditionr1.pdf#search='+kind+'%20'+num
-   return None
   def link(m):
-   target=dest(m)
+   target=illustration_url(manual, m[1], m[2])
    return '<a href="'+target+'">'+m[1]+' '+m[2]+'</a>' if target else m[1]+' '+m[2]
   src=re.sub(r'<a href="#fig-[^"]+">(Figures?|Tables?)\s+(\d[A-Z]-\d+(?:\s*\(CA\))?)</a>',link,src)
   if manual=='ca-mutcd' and path.stem.upper() in urls:
@@ -100,6 +92,8 @@ if boe_catalog.exists():
     keys = ['E'+str(n) for n in range(int(group[1]),int(group[2])+1)]
    for key in keys:look.setdefault(key,[]).append(['LA BOE '+section['title'], section['url']])
 current_details = prepare_current(root, look, retired)
+from ladot_drawings import prepare as prepare_ladot_drawings, sheet_label
+ladot_sets=prepare_ladot_drawings(root,current_details,look)
 Path('public/data/lookup.json').write_text(json.dumps(look))
 ladot_originals={
  'mpp-531':'https://ladot.lacity.gov/sites/default/files/2023-02/mpp_531_02212023.pdf',
@@ -132,7 +126,8 @@ for path in root.rglob('*.md'):
      if page and '/ladot/'+manual+'/' in scan:
       direct=pdf+'#page='+page[1]
       break
-    citation=f'{html.unescape(drawer[2])}. Drawing {html.unescape(drawer[1])}, sheet {i} of {count}. '+(f'Page {page[1]}. ' if page else '')
+    role=sheet_label(manual,drawer[1],i,count).lower() if direct!=scan else f'sheet {i} of {count}'
+    citation=f'{html.unescape(drawer[2])}. Drawing {html.unescape(drawer[1])}, {role}. '+(f'Page {page[1]}. ' if page else '')
     label='Agency PDF · p. '+page[1] if direct!=scan else 'Open source scan'
     actions=f'<span class="sheet-source-actions"><a href="{direct}">{label}</a><button type="button" class="agency-copy" data-url="{direct}" data-citation="{html.escape(citation)}">Copy sheet citation</button></span>'
     figure=match[0].replace('<figure class="dfig">',f'<figure id="sheet-{i}" class="dfig">',1)
@@ -178,6 +173,9 @@ for manual,other in [('mutcd','ca-mutcd'),('ca-mutcd','mutcd')]:
     path.write_text('\n'.join(lines)+'\n')
 from cad_sign_catalog import build as build_cad_sign_catalog
 build_cad_sign_catalog(root,look)
+from cad_blocks.web_entities import SOURCE as cad_entity_source, source_parts as cad_entity_parts, hydrate as hydrate_cad_entities
+if cad_entity_parts() or cad_entity_source.is_file():
+    hydrate_cad_entities()
 from plan_examples import build as build_plan_examples
 build_plan_examples(root, look)
 save(PUBLIC/"lookup.json",look)
@@ -188,12 +186,14 @@ atlas_profiles=prepare_atlas(root,look)
 from printed_citations import repair as repair_printed_citations
 repair_printed_citations(root, current_details)
 save(PUBLIC/"details.json",current_details)
-from search_catalog import build as build_search_catalog
-build_search_catalog(root, look, current_details)
-
+from reference_presentation import build as simplify_reference_pages
+simplify_reference_pages(root)
 from project_photos import place
 place(root)
 from publication_layout import build as build_publication_layout
-build_publication_layout(root)
-
+build_publication_layout(root, ladot_sets)
+from article_layout import build as prepare_editorial_articles
+prepare_editorial_articles(root, current_details)
+from search_catalog import build as build_search_catalog
+build_search_catalog(root, look, current_details)
 finish_atlas(root,atlas_profiles)

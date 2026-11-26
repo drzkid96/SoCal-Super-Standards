@@ -1243,3 +1243,8 @@ body:has(.topic-outline) .project-gallery figure img,body:has(.topic-outline) .t
 .publication-window:focus-visible{outline:2px solid var(--sl-color-text-accent)}
 .treatment-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:.3rem .9rem;margin-bottom:1.5rem}
 .treatment-index a{font-size:.9rem;padding:.3rem .5rem;border-inline-start:2px solid #729785}
+
+.article-source-line {display:flex;align-items:baseline;gap:.45rem 1rem;flex-wrap:wrap;font-size:.88rem;}
+.article-source-line details {margin:0;}
+.article-source-line summary {cursor:pointer;}
+.article-source-line .bul-meta {margin-top:.55rem;max-width:64rem;}
