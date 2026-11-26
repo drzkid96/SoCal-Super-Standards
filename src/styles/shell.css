@@ -108,3 +108,9 @@ body:has(.home-columns) main h1{font-size:clamp(1.55rem,3vw,2.3rem);line-height:
 .design-tools section>a span{font-size:.87rem;color:var(--sl-color-gray-2);line-height:1.4}
 .design-tools section>a:is(:hover,:focus-visible) b{text-decoration:underline}
 @media(max-width:40rem){.sl-markdown-content .home-tools.task-shortcuts{gap:.25rem;margin:.3rem 0 .45rem}.home-tools.task-shortcuts>a{padding:.28rem .43rem;font-size:.78rem}.home-search-wrap:has(+.task-shortcuts){margin-bottom:.5rem}}
+
+[data-agency-mode] .sss-header .title-wrapper{min-width:0;overflow:hidden}
+[data-agency-mode] .sss-header .site-title{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+[data-agency-mode] .settings-menu{flex:0 1 auto;min-width:0}
+[data-agency-mode] .settings-menu>summary{min-width:0;max-width:100%}
+@media(max-width:72rem){[data-agency-mode] .sss-topnav .nav-primary{display:none}[data-agency-mode] .nav-dropdown .nav-small{display:block}}

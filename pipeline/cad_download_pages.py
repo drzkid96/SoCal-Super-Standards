@@ -224,6 +224,9 @@ def write_pages(root, lookup, release):
             for alias in rec['aliases']:
                 pair=[rec['code']+' · CAD source designation',url]
                 if pair not in lookup.setdefault(alias.upper(),[]):lookup[alias.upper()].append(pair)
+    from plan_face_blocks import publish
+    supplemental=publish()
+    for row in supplemental:by_url[row["signUrl"]].append(row)
     for url, variants in by_url.items():
         dest=page(root,url)
         if not dest.is_file():
@@ -383,13 +386,13 @@ def write_pages(root, lookup, release):
     content=cart.chart_tiles(content,by_url)
     content=content.replace('<option value="cad">Seen in CAD</option>','<option value="dwg">Native DWG available</option><option value="cad">Seen in CAD</option>')
     start=content.index('<div class="sfilter')
-    actions=(f'<div class="sign-chart-actions">{cart.shell()}<a class="chart-import" href="{BASE}/signs/?import=1">Import plan PDF or text</a>'
+    actions=(f'<div class="sign-chart-actions">{cart.shell()}<a class="chart-import" href="{BASE}/signs/?import=1">Import PDF or screenshot</a>'
              '<label class="sign-check"><input type="checkbox" id="chart-dwg-only"><span>DWGs only</span></label>'
              '<details class="sign-bulk-options"><summary>All drawings</summary>'
              f'<div>{bulk}<a href="{CATALOG}">CAD files and sources</a>'
              +(f'<a href="{CATALOG}#legend-examples">Example legends</a>' if examples else '')+'</div></details></div>')
     chart.write_text((content[:start]+actions+'\n'+content[start:]).replace('title: Sign Library','title: Sign chart',1))
-    cart.write_options(records)
+    cart.write_options(records+supplemental)
     for query in ('CAD sign downloads','CAD sign blocks','DWG sign library','sign block library','master sign drawing'):
         lookup.setdefault(query.upper(),[]).insert(0,['CAD sign block downloads',CATALOG])
     return records

@@ -24,16 +24,15 @@ async function catalog() {
 function init(root) {
   root.className='sign-import';
   if(!root.hasAttribute('data-auto-import'))root.append(make('h2','Import sign callouts'));
-  root.append(make('p','Open a plan or paste its sign designations. Files stay in this browser. Review each sheet before adding DWGs.'));
-  const sources=make('div','','si-sources'),fileBox=make('div','','si-input'),pasteBox=make('div','','si-input');
-  const file=make('input');file.type='file';file.accept='.pdf,application/pdf';file.id='sign-import-file';
-  const fileLabel=make('label','Plan PDF','si-label');fileLabel.htmlFor=file.id;
-  fileBox.append(fileLabel,file,make('p','Sheet boundaries follow the PDF pages.','si-meta'));
-  const raw=make('textarea');raw.id='sign-import-text';raw.rows=3;raw.placeholder='SHEET: SS-1\nR1-1, W16-7P(R)\nSHEET: SS-2\nW48(2)(CA)';
-  const rawLabel=make('label','Paste callouts','si-label');rawLabel.htmlFor=raw.id;
-  const examine=button('Review pasted text',()=>analyze(null,raw.value),'si-primary');
-  pasteBox.append(rawLabel,raw,make('p','Start each sheet with SHEET: and its identifier, or use a form feed.','si-meta'),examine);
-  sources.append(fileBox,pasteBox);root.append(sources);
+  const sources=make('div','','si-input');
+  const file=make('input');file.type='file';file.accept='.pdf,application/pdf,image/*';file.id='sign-import-file';
+  const label=make('label','Choose a PDF or sign image','si-label');label.htmlFor=file.id;
+  sources.append(label,file,make('p','Or paste a screenshot here with Ctrl+V or ⌘V. Files stay on this device.','si-meta'));
+  root.append(sources);
+  document.addEventListener('paste',event=>{
+    const item=Array.from(event.clipboardData?.items||[]).find(i=>i.type.startsWith('image/'));
+    const image=item?.getAsFile();if(image){event.preventDefault();analyze(image,null);}
+  });
   const status=make('p');status.setAttribute('role','status');status.setAttribute('aria-live','polite');
   const review=make('div','','si-review');root.append(status,review);
   const state={serial:0,pdf:null,sheets:[],hash:'',documentName:'',ocrTask:null};
@@ -50,7 +49,11 @@ function init(root) {
       const bytes=pdfFile?new Uint8Array(await pdfFile.arrayBuffer()):new TextEncoder().encode(text);
       const signature=await fingerprint(bytes);if(version!==state.serial)return;
       let pages=[],pdf=null;
-      if(pdfFile){
+      if(pdfFile?.type.startsWith('image/')){
+        status.textContent='Reading sign codes from image…';
+        const {readImage}=await import('./sign-import-ocr.mjs');
+        pages=[{label:'Sheet 1',lines:await readImage(pdfFile)}];
+      }else if(pdfFile){
         status.textContent='Opening '+pdfFile.name+'…';
         const js=await pdfJs();
         const job=js.getDocument({data:bytes,isEvalSupported:false,enableXfa:false,wasmUrl:new URL('wasm/',pdfHome).href,cMapUrl:new URL('cmaps/',pdfHome).href,cMapPacked:true,standardFontDataUrl:new URL('standard_fonts/',pdfHome).href});
@@ -71,6 +74,15 @@ function init(root) {
               if(/AutoCAD SHX Text/i.test(title)&&a.contentsObj?.str)lines.push(...a.contentsObj.str.split(/\r?\n/));
             }
           } catch {issue='The PDF text layer could not be read on this page.';}
+          if(!scanLines(lines,index).some(r=>r.choices.length)){
+            status.textContent='Reading sheet '+n+' of '+pdf.numPages+' with OCR…';
+            try{
+              const {readSheetImage}=await import('./sign-import-ocr.mjs');
+              const recognized=await readSheetImage(pdf,page);
+              if(version!==state.serial)return;
+              lines.push(...recognized);
+            }catch{issue='Automatic OCR could not read this page. Try a cropped screenshot.';}
+          }
           const sourceId=lines.map(s=>s.match(/^\s*(?:SHEET(?:\s+(?:NO\.?|NUMBER|ID))?\s*[:#]\s*)([A-Z]{1,5}[- ]?\d{1,4}(?:\.\d+)?)\s*$/i)?.[1]).find(Boolean);
           const sourceLabel=labels?.[n-1]||'';
           const label=sourceId||pdfSheetLabel(sourceLabel,n);
@@ -82,11 +94,11 @@ function init(root) {
       state.sheets=pages.map((p,i)=>({...p,number:i+1,records:scanLines(p.lines,index),ocr:false,manual:''}));
       draw(index,version);
       status.textContent='Read '+state.sheets.length+' sheet'+(state.sheets.length===1?'':'s')+' from '+state.documentName+'.';
-    }catch(e){if(version===state.serial)status.textContent=e.name==='PasswordException'?'This PDF is password-protected. Open an unlocked copy or paste its callouts.':'Could not read the plan. '+(e.message||'Use an unlocked PDF or paste its callouts.');}
+    }catch(e){if(version===state.serial)status.textContent=e.name==='PasswordException'?'This PDF is password-protected. Open an unlocked copy or paste a screenshot.':'Could not read the plan. '+(e.message||'Try a PDF, PNG or JPEG.');}
   }
   function summary(sheet) {
     const counts={matched:0,ambiguous:0,unmatched:0};sheet.records.forEach(r=>counts[r.status]++);
-    return sheet.label+' · '+counts.matched+' exact · '+counts.ambiguous+' to choose · '+counts.unmatched+' unmatched';
+    return sheet.label+' · '+counts.matched+' exact · '+counts.ambiguous+' with alternatives · '+counts.unmatched+' unmatched';
   }
   function updateTotals(){
     if(!selectionInfo)return;
@@ -101,36 +113,23 @@ function init(root) {
   }
   function options(node,record) {
     const holder=make('div');
-    let selectChoice;
-    if(!record.choices.length){holder.append(make('span','No matching native block','si-meta'));}
-    else if(record.choices.length===1){
-      const choice=record.choices[0],label=make('label'),box=make('input');box.type='checkbox';box.checked=Boolean(record.selected);
-      box.onchange=()=>{record.selected=box.checked?choice.id:'';updateTotals();};
-      selectChoice=id=>{record.selected=id;box.checked=Boolean(id);updateTotals();};
-      label.append(box,document.createTextNode(choice.code+' · '+choice.sizeLabel+' · '+choice.variant));holder.append(label);
-    }else{
-      const input=make('select');input.setAttribute('aria-label','Choose block for '+record.raw);
-      input.add(new Option('Choose exact artwork and size',''));
-      for(const c of record.choices)input.add(new Option(c.code+' · '+c.sizeLabel+' · '+c.variant+' · '+c.id,c.id));
-      input.value=record.selected;input.onchange=()=>{record.selected=input.value;updateTotals();};holder.append(input);
-      selectChoice=id=>{record.selected=id;input.value=id;updateTotals();};
+    if(!record.choices.length){holder.append(make('small','Drawing unavailable'));node.append(holder);return;}
+    const choice=record.choices.find(c=>c.id===record.selected)||record.choices[0];
+    const check=make('input');check.type='checkbox';check.checked=!!record.selected;
+    const label=make('label');label.append(check,document.createTextNode(' Include in legend'));
+    holder.append(label);
+    let active=choice;
+    check.onchange=()=>{record.selected=check.checked?active.id:'';updateTotals();};
+    if(record.proxy)holder.append(make('small','Closest face: '+choice.code+' · numbered suffix unverified'));
+    if(record.choices.length>1){
+      const more=make('details');more.append(make('summary','Change drawing'));
+      const input=make('select');input.ariaLabel='Drawing for '+record.raw;
+      for(const c of record.choices)input.add(new Option(c.code+' · '+c.sizeLabel+' · '+c.variant,c.id));
+      input.value=active.id;
+      input.onchange=()=>{active=record.choices.find(c=>c.id===input.value);record.selected=active.id;check.checked=true;updateTotals();};
+      more.append(input);holder.append(more);
     }
-    if(record.choices.length){
-      const faces=make('details');faces.append(make('summary',record.choices.length>1?'Compare '+record.choices.length+' sign faces':'Preview sign face'));
-      faces.addEventListener('toggle',()=>{
-        if(!faces.open||faces.querySelector('.si-faces'))return;
-        const grid=make('div','','si-faces');
-        for(const c of record.choices){
-          const tile=make('div');
-          if(c.preview){const img=make('img');img.loading='lazy';img.src=new URL(c.preview.replace(/^\//,''),assets).href;img.alt=c.code+' · '+c.variant;tile.append(img);}
-          tile.append(make('span',c.code+' · '+c.sizeLabel,'si-meta'),make('span',c.variant,'si-meta'));
-          const choose=button('Use this face',()=>{selectChoice(c.id);faces.open=false;});choose.setAttribute('aria-label','Use '+c.code+' '+c.variant+' '+c.id);tile.append(choose);grid.append(tile);
-        }
-        faces.append(grid);
-      });holder.append(faces);
-    }
-    const evidence=make('details');evidence.append(make('summary','Source text'),make('p',record.evidence,'si-meta'));
-    holder.append(evidence);node.append(holder);
+    node.append(holder);
   }
   function draw(index,version) {
     effects.forEach(fn=>fn());effects=[];review.replaceChildren();
@@ -155,22 +154,13 @@ function init(root) {
       section.append(label,make('p','Source page '+sheet.number+printed+' · '+sheet.lines.length+' text line'+(sheet.lines.length===1?'':'s'), 'si-meta'));
       if(sheet.issue)section.append(make('p',sheet.issue));
       if(!sheet.records.length){
-        section.append(make('p',sheet.lines.length?'The text layer contains no recognized sign callouts. Plotted outlines or scans may still show signs.':'No machine-readable text on this sheet. Paste its callouts or read a selected area with OCR.'));
+        section.append(make('p',sheet.lines.length?'The text layer contains no recognized sign callouts. Plotted outlines or scans may still show signs.':'No machine-readable text on this sheet. Read a selected area with OCR.'));
       }
-      if(sheet.ocr)section.append(make('p','OCR proposals require confirmation against the sheet.','si-meta'));
+      if(sheet.ocr)section.append(make('p','Recognized from sheet artwork.','si-meta'));
       for(const record of sheet.records){
         const row=make('div','','si-row');row.dataset.match=record.status;row.dataset.key=record.key;
-        const left=make('div');left.append(make('strong',record.raw),make('div',record.count+' occurrence'+(record.count===1?'':'s')+' · '+({matched:'Exact designation',ambiguous:'Choose a block',unmatched:'Unmatched'}[record.status]),'si-meta'));row.append(left);options(row,record);section.append(row);
+        const left=make('div');left.append(make('strong',record.raw),make('div',record.count+' occurrence'+(record.count===1?'':'s')+' · '+({matched:'Exact designation',ambiguous:record.proxy?'Numbered suffix unverified':record.selected?'Default selected':'Check designation',unmatched:'Unmatched'}[record.status]),'si-meta'));row.append(left);options(row,record);section.append(row);
       }
-      const edit=make('details');edit.append(make('summary','Add or correct callouts for this sheet'));
-      const correction=make('textarea');correction.value=sheet.manual;correction.setAttribute('aria-label','Additional callouts for '+sheet.label);
-      edit.append(correction,button('Apply sheet text',()=>{
-        sheet.manual=correction.value;
-        const previous=new Map(sheet.records.map(r=>[r.key,r.selected]));
-        sheet.records=combined(sheet,index);
-        for(const r of sheet.records)if(previous.has(r.key)&&r.choices.some(c=>c.id===previous.get(r.key)))r.selected=previous.get(r.key);
-        renderAgain(index,version,sheet.number);
-      }));section.append(edit);
       if(state.pdf){const tools=make('div','','si-tools');
         tools.append(button('Read a selected area (OCR)',async()=>{
           tools.replaceChildren(make('span','Opening sheet preview…'));
@@ -196,7 +186,7 @@ function init(root) {
     const rows=scanLines([...sheet.lines,...sheet.manual.split(/\n/)],index),byKey=new Map(rows.map(r=>[r.key,r]));
     for(const o of scanLines(sheet.ocrLines||[],index)){
       const hit=byKey.get(o.key);
-      if(!hit){o.selected='';o.evidence='OCR · '+o.evidence;rows.push(o);}
+      if(!hit){o.evidence='OCR · '+o.evidence;rows.push(o);}
     }
     return rows;
   }

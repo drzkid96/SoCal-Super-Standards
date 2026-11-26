@@ -28,11 +28,15 @@ function grouped(map,key,data) {
 }
 const libWord = s => s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&').replace(/\s+/g,'\\s+');
 export function makeCatalog(records) {
+  const loose=new Map();
   const exact=new Map(), families=new Map(), phrases=new Set();
   for(const record of records) {
     const aliases=Array.isArray(record.aliases)?record.aliases:[];
     for(const name of [record.code,...aliases].filter(s=>typeof s==='string'&&s.trim())) {
       const key=designation(name);grouped(exact,key,record);
+      const spelling=fold(key);
+      if(!loose.has(spelling))loose.set(spelling,new Set());
+      loose.get(spelling).add(key);
       const base=baseCode(key);grouped(families,base,record);
       if(!base && /[A-Z]/.test(key) && /[\s\d]/.test(key))phrases.add(textKey(name));
     }
@@ -42,11 +46,26 @@ export function makeCatalog(records) {
     }
   }
   const terms=[...phrases].sort((a,b)=>b.length-a.length).map(libWord);
-  return {exact,families,phrases:terms.length?new RegExp('(?<![A-Z0-9])(?:'+terms.join('|')+')(?![A-Z0-9])','gi'):null};
+  return {exact,loose,families,phrases:terms.length?new RegExp('(?<![A-Z0-9])(?:'+terms.join('|')+')(?![A-Z0-9])','gi'):null};
+}
+// Alias punctuation varies between plan legends and CAD insertion names.
+function fold(key){
+  return key.replace(/LEFT|\bLT\b/g,'L').replace(/RIGHT|\bRT\b/g,'R').replace(/[^A-Z0-9]/g,'');
 }
 function resolve(raw,catalog) {
-  const key=designation(raw);
+  let key=designation(raw);
+  if(!catalog.exact.has(key)){
+    const digits=key.replace(/^([A-Z]+)([0-9IL]+)(?=-)/,(_,prefix,n)=>prefix+n.replace(/[IL]/g,'1'));
+    if(catalog.exact.has(digits))key=digits;
+  }
+  if(!catalog.exact.has(key)){
+    const candidates=catalog.loose.get(fold(key));
+    if(candidates?.size===1)key=candidates.values().next().value;
+  }
   let choices=[...(catalog.exact.get(key)?.values()||[])];
+  const numberedMod=key.match(/^(.*\(MOD\))\((\d+)\)$/);
+  const proxy=!choices.length && numberedMod && catalog.exact.has(numberedMod[1]);
+  if(proxy)choices=[...catalog.exact.get(numberedMod[1]).values()];
   const base=baseCode(key), related=[...(catalog.families.get(base)?.values()||[])];
   const bare=base===key;
   // Unqualified speed and directional families cannot choose a sign legend from its code alone.
@@ -58,8 +77,10 @@ function resolve(raw,catalog) {
   // A worded legend can be printed on several sign designs even where the
   // library has one drawing bearing that exact name. Confirm those explicitly.
   const coded=Boolean(base)||/^41-\d{4}/.test(key);
+  const rank=r=> (designation(r.code)===key?8:0)+(r.variant==='Issued layout'?4:0)+(r.sizeLabel!=='Size unknown'?2:0);
+  choices.sort((a,b)=>rank(b)-rank(a)||a.id.localeCompare(b.id));
   const status=choices.length===1&&exact&&coded?'matched':choices.length?'ambiguous':'unmatched';
-  return {raw,key,status,count:1,choices,selected:status==='matched'?choices[0].id:''};
+  return {raw,key,status,count:1,choices,proxy:Boolean(proxy),selected:(exact||proxy)&&coded?choices[0].id:''};
 }
 export function scanLines(lines,catalog) {
   const rows=new Map();
@@ -79,7 +100,8 @@ export function scanLines(lines,catalog) {
     else rows.set(candidate.key,{...candidate,evidence:evidence.trim().slice(0,240)});
   }
   for(const original of lines) {
-    const s=original.normalize('NFKC').replace(dash,'-').trim();
+    const s=original.normalize('NFKC').replace(dash,'-').replace(/(?<![A-Z0-9])1-(\d+[A-Z]?(?:\([^)]{1,12}\))*)/gi,(raw,tail)=>catalog.exact.has(designation('I-'+tail))?'I-'+tail:raw)
+      .replace(/\b([A-Z]{1,3}\d+)-([Il]{1,3})([a-z]?)\b/gi,(raw,head,n,suffix)=>{const guess=head+'-'+'1'.repeat(n.length)+suffix;return catalog.exact.has(designation(guess))?guess:raw;}).replace(/(?<=[A-Z])(?:[Il]{1,2})(?=-\d)/g,m=>'1'.repeat(m.length)).replace(/\b([A-Z]{1,2}\d+)-([Il])(?=\b|\()/g,'$1-1').replace(/\(M[O0]D\)/gi,'(MOD)').trim();
     if(!s)continue;
     if(bareQualifier.test(s)){add(s,'Unattached qualifier: '+original);continue;}
     // An explicit full line can be a local or composite designation (including quoted legends).

@@ -117,7 +117,7 @@ def build(root,lookup):
                 ('Transit and boarding','topics/transit'),('Striping and intersections','topics/striping-intersections')],'venice'),
         home_map_card(BASE,Path('public/api/v2')),
     ]
-    shortcuts = [('Sign chart', 'signs/'), ('Import plan PDF', 'signs/?import=1'),
+    shortcuts = [('Sign chart', 'signs/'), ('Import signs', 'signs/?import=1'),
                  ('Find a drawing', 'details/'), ('All tools', 'tools/')]
     links = ''.join(f'<a href="{BASE}/{url}">{name}</a>' for name, url in shortcuts)
     home.write_text('---\ntitle: Southern California transportation standards\ntemplate: splash\n---\n\n' +

@@ -85,3 +85,32 @@ export async function openCrop(host,doc,pageNumber,onRead){
   await preview();
   return ()=>{active=false;renderTask?.cancel();if(engine){engine.terminate().catch(()=>{});engine=null;}canvas.width=canvas.height=1;};
 }
+
+export async function readSheetImage(pdf,page) {
+  const viewport=page.getViewport({scale:1});
+  const scale=Math.min(3,3600/Math.max(viewport.width,viewport.height));
+  const view=page.getViewport({scale});
+  const canvas=document.createElement('canvas');
+  canvas.width=Math.ceil(view.width);canvas.height=Math.ceil(view.height);
+  const layers=await pdf.getOptionalContentConfig({intent:'display'});
+  const groups=[...layers];
+  if(groups.some(([,g])=>signLayer.test(g.name)))for(const [id,g] of groups)layers.setVisibility(id,signLayer.test(g.name),false);
+  await page.render({canvasContext:canvas.getContext('2d'),viewport:view,optionalContentConfigPromise:Promise.resolve(layers)}).promise;
+  return readImage(canvas);
+}
+
+export async function readImage(blob) {
+  const bitmap=await createImageBitmap(blob);
+  const scale=Math.min(3,3200/Math.max(bitmap.width,bitmap.height));
+  const canvas=document.createElement('canvas');
+  canvas.width=Math.ceil(bitmap.width*scale);canvas.height=Math.ceil(bitmap.height*scale);
+  const ctx=canvas.getContext('2d');ctx.fillStyle='white';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(bitmap,0,0,canvas.width,canvas.height);bitmap.close();
+  const {default:T}=await import(new URL('tesseract.mjs',vendor).href);
+  const worker=await T.createWorker('eng',1,{workerPath:new URL('worker.min.js',vendor).href,workerBlobURL:false,corePath:new URL('tesseract-core-lstm.js',vendor).href,langPath:vendor.href,gzip:true});
+  try {
+    await worker.setParameters({tessedit_pageseg_mode:'11',preserve_interword_spaces:'1'});
+    const result=await worker.recognize(canvas,{}, {text:true,blocks:true});
+    const lines=(result.data.blocks||[]).flatMap(b=>b.paragraphs.flatMap(p=>p.lines.map(l=>({text:l.text.trim(),left:l.bbox.x0,right:l.bbox.x1,baseline:-l.bbox.y1,height:l.bbox.y1-l.bbox.y0,turn:0}))));
+    return lines.length?joinCalloutLines(lines):result.data.text.split(/\r?\n/);
+  } finally {await worker.terminate();}
+}

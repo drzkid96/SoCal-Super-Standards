@@ -54,6 +54,7 @@ def write_options(records):
 
 def chart_tiles(content,by_url):
     seen=set()
+    speeds=set()
     def tile(match):
         card=match[0]
         url=unescape(re.search(r' href="([^"]+)"',card)[1])
@@ -62,6 +63,15 @@ def chart_tiles(content,by_url):
         seen.update(r['id'] for r in choices)
         choices=sorted(choices,key=lambda r:(r['sourceDrawing']!='official-standard',r['sizeStatus']=='Reference size unknown',bool(r.get('observationIds')),r['id']))
         main=choices[0]
+        # Source drawings often repeat the very same speed face under alternate names.
+        speed=next((m[1] for r in choices for a in [r['code'],*r['aliases']]
+                    if (m:=re.fullmatch(r'R2-1(?:[- (]| ?MPH )*(15|20|25|30|35|40|45|50|55|60|65|70|75|80|85)\)?',a,re.I))),None)
+        if speed and main['code']!='R2-1':
+            if speed in speeds:return ''
+            speeds.add(speed)
+            choices=[main]
+            card=re.sub(r'(<span class="scode">).*?(</span>)',r'\g<1>R2-1 ('+speed+r')\2',card,count=1)
+            card=re.sub(r'(<span class="sname">).*?(</span>)',r'\g<1>Speed limit '+speed+r' mph\2',card,count=1)
         card=card.replace('class="scard','data-dwg="1" class="scard',1)
         if 'class="simg"' not in card and main.get('preview'):
             art=f'<span class="simg"><img loading="lazy" decoding="async" src="{BASE}{ESC(main["preview"])}" alt=""></span>'

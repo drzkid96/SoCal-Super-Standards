@@ -7,7 +7,7 @@ tableOfContents: false
 <div class="design-tools">
 <section><h2>Signs and drawings</h2>
 <a href="/SoCal-Super-Standards/signs/"><b>Sign chart</b><span>Preview signs, select sizes, and download a CAD legend.</span></a>
-<a href="/SoCal-Super-Standards/signs/?import=1"><b>Build a legend from plan sheets</b><span>Read a PDF or paste callouts. Review signs by sheet.</span></a>
+<a href="/SoCal-Super-Standards/signs/?import=1"><b>Build a legend from plan sheets</b><span>Read a PDF or paste a screenshot. Review signs by sheet.</span></a>
 <a href="/SoCal-Super-Standards/details/"><b>Drawing finder</b><span>Open a standard drawing by number, title, or agency.</span></a>
 <a href="/SoCal-Super-Standards/markings/"><b>Pavement markings</b><span>Find striping patterns, legends, and Caltrans line types.</span></a>
 </section><section><h2>Design checks</h2>

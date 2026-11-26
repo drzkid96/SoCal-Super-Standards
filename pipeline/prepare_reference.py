@@ -176,6 +176,8 @@ build_cad_sign_catalog(root,look)
 from cad_blocks.web_entities import SOURCE as cad_entity_source, source_parts as cad_entity_parts, hydrate as hydrate_cad_entities
 if cad_entity_parts() or cad_entity_source.is_file():
     hydrate_cad_entities()
+    from plan_face_blocks import publish_geometry
+    publish_geometry()
 from plan_examples import build as build_plan_examples
 build_plan_examples(root, look)
 save(PUBLIC/"lookup.json",look)
