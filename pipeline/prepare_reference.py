@@ -185,6 +185,9 @@ from workbench import build as build_workbench
 build_workbench(root,look)
 from atlas_site import prepare as prepare_atlas, finish as finish_atlas
 atlas_profiles=prepare_atlas(root,look)
+from printed_citations import repair as repair_printed_citations
+repair_printed_citations(root, current_details)
+save(PUBLIC/"details.json",current_details)
 from search_catalog import build as build_search_catalog
 build_search_catalog(root, look, current_details)
 

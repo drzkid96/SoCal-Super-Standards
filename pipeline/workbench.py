@@ -5,12 +5,13 @@ from html import escape
 import pymupdf
 from current_catalog import BASE,save
 from regional_reader import write,slug
+from publisher_urls import transcript
 
 def build(root,lookup):
     api=Path('public/api/v1');api.mkdir(exist_ok=True,parents=True)
     editions=json.loads(Path('data/reference/transit-guides.json').read_text())
     folder=Path('public/transit-publications')
-    from transit_publications import prepare
+    from transit_publications import prepare,source_toc
     prepare(editions)
     intro=[]
     modes=json.loads(Path('public/data/agency-modes.json').read_text())
@@ -27,7 +28,10 @@ def build(root,lookup):
         route='transit/'+key;url=BASE+'/'+route+'/';pdf=folder/(key+'.pdf')
         countyurl=BASE+'/regions/#county-'+slug(county)
         intro.append(f'<a class="operator-entry" href="{url}"><strong>{escape(name)}</strong><span>{escape(title)}</span><small>{escape(county)} County</small></a>')
-        body=[instructions[key],f'[Publisher edition]({source}) · [{county} County references]({countyurl})','']
+        publisher=f'[Publisher edition]({source})'
+        if key=='riverside-transit':
+            publisher=f'[August 2015 publisher PDF]({source}) · [RTA publications catalog](https://www.riversidetransit.com/index.php/news-a-publications/publications)'
+        body=[instructions[key],f'{publisher} · [{county} County references]({countyurl})','']
         if pdf.is_file():
             with pymupdf.open(pdf) as doc:
                 from PIL import Image
@@ -37,7 +41,7 @@ def build(root,lookup):
                     if not dest.exists():
                         pix=page.get_pixmap(matrix=pymupdf.Matrix(1150/max(page.rect.width,page.rect.height),1150/max(page.rect.width,page.rect.height)),alpha=False)
                         Image.frombytes('RGB',(pix.width,pix.height),pix.samples).save(dest,'WEBP',quality=71)
-                toc=[(n,t,p) for n,t,p in doc.get_toc() if 1<=p<=len(doc)]
+                toc=source_toc(key,doc)
                 if key=='ictc':
                     toc=[(1,t,n) for n,t in [(8,'Introduction'),(10,'Need and purpose'),(12,'Sustainability and transit-oriented development'),(14,'Transit vehicles'),(22,'On-street bus stops'),(40,'Off-street transfer stations'),(56,'Appendices and checklists')]]
                 if key=='la-metro':
@@ -52,27 +56,11 @@ def build(root,lookup):
                 if toc:body+=['','## Contents','']+[f'- [{escape(t)}](#page-{p})' for n,t,p in toc if n<=2]
                 body+=['','## Find a source page','']
                 for i,page in enumerate(doc,1):
-                    txt=' '.join(page.get_text().split())
+                    text_html=transcript(page)
                     label=next((t for _,t,p in reversed(toc) if p==i),f'Page {i}')
-                    body.append(f'<details id="page-{i}"><summary><a href="#page-{i}">p. {i} · {escape(label)}</a></summary><p>{escape(txt)}</p></details>')
-        elif key!='riverside-transit':
-            body+=['','## Publisher edition','',f'[Read the complete {name} publication]({source}).']
+                    body.append(f'<details id="page-{i}"><summary><a href="#page-{i}">p. {i} · {escape(label)}</a></summary><p data-publisher-urls>{text_html}</p><a href="{BASE}/transit-publications/{key}.pdf#page={i}">Original PDF · p. {i}</a></details>')
         else:
-            sections=[
-                (7,'Development review','Gather the project information RTA uses to review proposed stop changes.'),
-                (14,'Transit vehicle clearance','Check the design vehicle and its envelope before fixing the curb return.'),
-                (15,'Bus turning movements','Review the swept path where a route turns or enters an off-street facility.'),
-                (23,'Bus stop spacing and pads','Compare the stop spacing table and the concrete pad cross section.'),
-                (28,'Queue jumps and signal priority','Review the relationship between a bus bypass lane and the signal operation.'),
-                (31,'Bus stop signage','Check visibility for approaching operators and waiting riders.'),
-                (32,'Passenger amenities and accessibility','Review the boarding area, shelter, and accessible passenger path together.'),
-                (43,'Transit compatibility checklist','Use the operator checklist when coordinating development review.')]
-            body+=['<section class="publisher-reader" data-publisher-pdf="'+escape(source,quote=True)+'" data-pages="52"><p>August 2015 · 52 pages</p><label>PDF page <input type="number" value="1" min="1" max="52"></label> <button type="button">View publisher page</button><div></div></section>']
-            body+=['','## Review by task','','The August 2015 edition has 52 pages. Each entry opens the corresponding page in the publisher’s PDF.','']
-            for n,label,summary in sections:
-                chapter_id='page-'+str(n)
-                body+=['<section id="'+chapter_id+'"><h3>'+escape(label)+'</h3><p>'+summary+'</p><a href="'+source+'#page='+str(n)+'">Publisher PDF · p. '+str(n)+'</a></section>']
-                lookup.setdefault(name+' '+label,[]).append([name+' · '+label,url+'#'+chapter_id])
+            body+=['','## Publisher edition','',f'[Read the complete {name} publication]({source}).']
 
         write(root,route,name+' · '+title,'\n\n'.join(body))
         lookup[name+' transit guide']=[[name+' · '+title,url]]

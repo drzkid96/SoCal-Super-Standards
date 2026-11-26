@@ -70,6 +70,11 @@ jobs:
         with:
           path: public/api/v2
           key: ${{ steps.geography.outputs.cache-primary-key }}
+      - name: Cache verified Riverside publisher edition
+        uses: actions/cache@v4
+        with:
+          path: .transit-sources/riverside-transit.pdf
+          key: riverside-edition-${{ hashFiles('data/reference/transit-editions.json') }}
       - uses: withastro/action@v3
         with:
           node-version: 22
@@ -78,6 +83,7 @@ jobs:
           node pipeline/test_calculations.mjs
           for f in public/js/*.js public/js/atlas/*.js; do node --check "$f"; done
           python3 -I pipeline/check_links.py
+          python3 pipeline/check_printed_citations.py
           python3 -I pipeline/check_bike_refs.py
           python pipeline/check_reader.py
       - name: Test desktop and mobile sheet navigation and municipal map

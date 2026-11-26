@@ -5,7 +5,6 @@ from pathlib import Path
 import json
 import re
 import sys
-from urllib.parse import urlsplit
 
 BASE='/SoCal-Super-Standards'
 DIST=Path(sys.argv[1]) if len(sys.argv)>1 else Path('dist')
@@ -63,6 +62,7 @@ tag_split=re.compile(r'(<!--.*?-->|</?[A-Za-z][^>]*>)',re.S)
 void={'br','hr','img','input','source','col','meta','link','wbr','area','embed','track'}
 exclude={'math','annotation','a','button','nav','code','pre','script','style','svg','textarea','select','del','summary','h1','h2','h3','h4','h5','h6'}
 from inline_examples import Artwork, BLOCKED
+from publisher_urls import partial_url
 artwork = Artwork(DIST)
 counts=defaultdict(int)
 for page in DIST.rglob('*.html'):
@@ -78,6 +78,7 @@ for page in DIST.rglob('*.html'):
     body=raw[start.end():end]
     route=BASE+'/'+page.relative_to(DIST).as_posix().removesuffix('index.html')
     seen=set(); stack=[]; result=[]
+    publisher_urls=False
     illustrated = set()
     paragraph_start = None
     family = page.relative_to(DIST).parts[0]
@@ -87,6 +88,8 @@ for page in DIST.rglob('*.html'):
             tag=re.match(r'</?([\w-]+)',token)
             if tag:
                 name=tag[1].lower()
+                if name == 'p':
+                    publisher_urls='data-publisher-urls' in token
                 if name == 'h2' and not token.startswith('</'):
                     illustrated.clear()
                 if reading and name == 'p' and not BLOCKED.intersection(stack):
@@ -115,7 +118,7 @@ for page in DIST.rglob('*.html'):
             if match['web']:
                 phrase=phrase.rstrip('.,;:!?]')
                 if phrase.endswith(')') and phrase.count(')')>phrase.count('('):phrase=phrase[:-1]
-                if not urlsplit(phrase).hostname:continue
+                if publisher_urls or partial_url(phrase):continue
                 lastchar=match.start()+len(phrase)
                 url=phrase
             if match['kind']:

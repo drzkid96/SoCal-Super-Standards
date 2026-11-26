@@ -37,6 +37,8 @@ def verify():
         sections=[h.xpath('normalize-space(string(.))') for h in article.xpath('./h2|./div/h2')]
         assert all(any(h in s for s in sections) for h in expected),(key,sections)
         assert article.xpath('.//*[@data-agency=$k]',k=key) and article.xpath('.//a[contains(@href,$u)]',u='?issuer='+key),key
+        publisher_links=article.xpath('.//*[@id="publisher-and-coverage"]/following-sibling::p[1]//a/@href')
+        assert publisher_links==[p['official'],BASE+'map/data/'],(key,publisher_links)
         assert p['publications'] and p['referenceCount']>0 and p['topics'],key
         for group in [p['publications'],*[refs for refs in p['topics'].values()]]:
             for ref in group:

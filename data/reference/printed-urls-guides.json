@@ -1,0 +1,71 @@
+[
+  {
+    "match": "https://dot.ca.gov/programs/safety-programs/sign- specs",
+    "url": "https://dot.ca.gov/programs/safety-programs/sign-specs"
+  },
+  {
+    "match": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev8/temp-ped-access-route-07142017- a11y.pdf",
+    "url": "https://dot.ca.gov/-/media/dot-media/programs/safety-programs/documents/ca-mutcd/rev8/temp-ped-access-route-07142017-a11y.pdf"
+  },
+  {
+    "match": "https://safety.fhwa.dot.gov/roadway_dept/ countermeasures/reduce_crash_severity/policy_memo_guidance.cfm",
+    "url": "https://highways.dot.gov/safety/rwd/reduce-crash-severity/roadside-hardware-policy-memoranda-and-guidance"
+  },
+  {
+    "match": "www. access-board.gov",
+    "url": "https://www.access-board.gov/",
+    "label": "www.access-board.gov"
+  },
+  {
+    "match": "https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ra...",
+    "url": "https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ramps/",
+    "label": "https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ramps/"
+  },
+  {
+    "match": "https://www-fars.nhtsa.dot.gov//QueryTool/QuerySection/ SelectYear.aspx",
+    "url": "https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars"
+  },
+  {
+    "match": "http://nacto. org/usdg/lane-width/",
+    "url": "https://nacto.org/publication/urban-street-design-guide/street-design-elements/lane-width/"
+  },
+  {
+    "match": "http://charmeck.org/ city/charlotte/Transportation/PedBike/Documents/ ChapterSeven070708.pdf",
+    "url": "https://connect.ncdot.gov/municipalities/PlanningGrants/Documents/Charlotte%20Bike%20Plan.pdf"
+  },
+  {
+    "match": "http://safety.fhwa.dot.gov/provencounter­ measures/fhwa_sa_12_013.pdf",
+    "url": null,
+    "source": "https://planning.lacity.gov/odocument/c9596f05-0f3a-4ada-93aa-e70bbde68b0b/Complete_Street_Design_Guide.pdf#page={page}"
+  },
+  {
+    "match": "http://www.ladot.lacity.org/ WhatWeDo/Parking/CanIParkThere/ColoredCurbZones/ index.htm",
+    "url": "https://ladot.lacity.gov/residents/colored-curb-zones"
+  },
+  {
+    "match": "http://www.pedbikeinfo.org/data/faq_ details.cfm?id=3974",
+    "url": null,
+    "source": "https://planning.lacity.gov/odocument/c9596f05-0f3a-4ada-93aa-e70bbde68b0b/Complete_Street_Design_Guide.pdf#page={page}"
+  },
+  {
+    "match": "http://safety.fhwa.dot.gov/intersection/roundabouts/ fhwasa10007/#s4",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-TD2-PURL-gpo5233/pdf/GOVPUB-TD2-PURL-gpo5233.pdf#page=9"
+  },
+  {
+    "match": "http://www.pedbikesafe.org/PEDSAFE/ countermeasures_detail.cfm?CM_NUM=13",
+    "url": null,
+    "source": "https://planning.lacity.gov/odocument/c9596f05-0f3a-4ada-93aa-e70bbde68b0b/Complete_Street_Design_Guide.pdf#page={page}"
+  },
+  {
+    "match": "http:// mutcd.fhwa.dot.gov/htm/2009/part9/fig9c_07_longdesc.htm",
+    "url": "https://mutcd.fhwa.dot.gov/htm/2009/part9/fig9c_07_longdesc.htm"
+  },
+  {
+    "match": "https://rubberform.com/product/engineered-rubber- curb/",
+    "url": "https://rubberform.com/product/engineered-rubber-curb/"
+  },
+  {
+    "match": "https://nacto.org/publication/urban-street-design-guide/street-design-elements/vertical-speed-control- elements/speed-table/",
+    "url": "https://nacto.org/publication/urban-street-design-guide/street-design-elements/vertical-speed-control-elements/speed-table/"
+  }
+]

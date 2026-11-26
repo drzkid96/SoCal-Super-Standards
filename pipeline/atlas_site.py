@@ -55,7 +55,6 @@ SECTIONS={
  'search':('Standards search','Find an identifier, a publication, or wording across the site.','teal'),
  'guide':('Using the reference','Browse by guide, design topic, or municipality.','blue'),
  'ask':('Reference tools','Search sources and review the available engineering tools.','blue')}
-domain=lambda u:u.split('/')[2] if u.startswith('https://') else ''
 
 def anchor(url,label):
     return '<a href="'+escape(url,quote=True)+'">'+escape(label)+'</a>'
@@ -241,7 +240,7 @@ def profile_body(p,profiles):
               '## Publications and drawings',shelves,'## Find a reference',
               f'<div class="agency-browser" data-agency="{key}"><label><span class="sr-only">Search this collection</span><input type="search" aria-label="Search this collection" placeholder="Drawing number, title, or subject"></label><button type="button">Browse all references</button><div role="status" aria-live="polite"></div><ul></ul></div>',
               '## Project coordination',leads[p['kind']],'<div class="authority-related">'+''.join(anchor(profiles[k]['home'],profiles[k]['name']) for k in p['related'])+'</div>',
-              '## Publisher and coverage',anchor(p['official'],'Official publisher · '+domain(p['official']))+' · '+anchor(route('map/data'),'Geographic sources and coverage'),
+              '## Publisher and coverage',anchor(p['official'],name+' publisher website')+' · '+anchor(route('map/data'),'Geographic sources and coverage'),
               f'<span hidden data-pagefind-filter="agency:{key}"></span>']
     return '\n\n'.join(sections)
 

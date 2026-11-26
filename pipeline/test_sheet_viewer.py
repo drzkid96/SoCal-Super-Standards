@@ -1,5 +1,6 @@
 """Exercise actual built pages at desktop and phone widths in Chrome."""
 import contextlib
+import os
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -23,6 +24,8 @@ with TemporaryDirectory() as temp:
     Thread(target=server.serve_forever,daemon=True).start()
     base=f'http://127.0.0.1:{server.server_port}/SoCal-Super-Standards/'
     options=webdriver.ChromeOptions()
+    if os.environ.get('CHROME_BIN'):
+        options.binary_location=os.environ['CHROME_BIN']
     for flag in ('--headless=new','--no-sandbox','--disable-dev-shm-usage'):options.add_argument(flag)
     with contextlib.closing(webdriver.Chrome(options=options)) as browser:
         for width in (1280,390):
@@ -175,7 +178,13 @@ with TemporaryDirectory() as temp:
             frame=deck.find_element(By.CSS_SELECTOR,'.sheet-frame:not([hidden])')
             images=frame.find_elements(By.CSS_SELECTOR,'figure.dfig')
             assert [img.get_attribute('id') for img in images]==[f'sheet-{number}']
-        deck.find_element(By.CSS_SELECTOR,'.sc-mode').click()
+        toggle=deck.find_element(By.CSS_SELECTOR,'.sc-mode')
+        browser.execute_script("arguments[0].scrollIntoView({block:'center',behavior:'instant'})",toggle)
+        assert browser.execute_script("""
+            const b=arguments[0], r=b.getBoundingClientRect();
+            return b.contains(document.elementFromPoint(r.left+r.width/2,r.top+r.height/2));
+        """,toggle), 'All sheets control is covered'
+        toggle.click()
         Select(deck.find_element(By.CSS_SELECTOR,'.sc-select')).select_by_index(7)
         active=deck.find_element(By.CSS_SELECTOR,'.sheet-frame:not([hidden])')
         source=active.find_element(By.CSS_SELECTOR,'.sheet-source-actions a').get_attribute('href')

@@ -72,6 +72,10 @@
 .sl-markdown-content .dwg-facts { flex-wrap: wrap; gap: .2rem .8rem; font-size: .78rem; }
 .sl-markdown-content .dwg-head ~ h2#sheets { margin-block: 1.3rem .5rem; }
 .sl-markdown-content .sheet-controls { min-width: 0; padding: .4rem .5rem; }
+.sl-markdown-content :is(.sheet-controls, .sheet-strip) :is(button,select,input) {
+  scroll-margin-block-start: calc(var(--sl-nav-height, 3.5rem) + var(--sl-mobile-toc-height, 0rem) + .5rem);
+}
+
 .sl-markdown-content .sheet-strip { border-top: 1px solid var(--sl-color-gray-5); border-bottom: 0; }
 .sl-markdown-content .sheet-strip .sc-thumb { flex: 0 0 auto; }
 .sl-markdown-content .sheet-deck,

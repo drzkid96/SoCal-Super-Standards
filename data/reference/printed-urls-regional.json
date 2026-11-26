@@ -1,0 +1,140 @@
+[
+  {
+    "match": "https://www.riversideca.gov/publicworks/engineering/engineering/ schedule-inspection",
+    "url": "https://riversideca.gov/publicworks/engineering/engineering/schedule-inspection",
+    "label": "https://www.riversideca.gov/publicworks/engineering/engineering/schedule-inspection",
+    "source": "https://riversideca.gov/publicworks/sites/riversideca.gov.publicworks/files/pdf/2026/Full-Drawing-Package-10-29-2026.pdf#page=10"
+  },
+  {
+    "match": "https://www.riversideca.gov/publicworks/engineering/engineering/schedule- inspection",
+    "url": "https://riversideca.gov/publicworks/engineering/engineering/schedule-inspection",
+    "label": "https://www.riversideca.gov/publicworks/engineering/engineering/schedule-inspection",
+    "source": "https://riversideca.gov/publicworks/sites/riversideca.gov.publicworks/files/pdf/2026/Full-Drawing-Package-10-29-2026.pdf#page=16"
+  },
+  {
+    "match": "https://sbcta.maps.arcgis.com/apps/webappviewer/index.html?id=779a71bc659041ad995cd48d9 ef4052b",
+    "url": "https://storymaps.arcgis.com/collections/8a84ba14e63a44319593dd6621409509?item=3",
+    "label": "https://sbcta.maps.arcgis.com/apps/webappviewer/index.html?id=779a71bc659041ad995cd48d9ef4052b",
+    "source": "https://sanbernardino.gov/DocumentCenter/View/3137#page=24"
+  },
+  {
+    "match": "http://www.cityofirvine.org/cityhall/pw/deveng/title_sheets/defa ult.asp",
+    "url": "https://www.cityofirvine.gov/index.php/development-engineering/standard-city-irvine-title-sheets",
+    "label": "http://www.cityofirvine.org/cityhall/pw/deveng/title_sheets/default.asp",
+    "source": "https://cityofirvine.gov/sites/default/files/legacy-documents/section-101-street-design.pdf#page=4"
+  },
+  {
+    "match": "https://rctlma.orq/trans/La nd-DevelopmenULandscape-Development",
+    "url": "https://trans.rctlma.org/landscape-development-and-standards",
+    "label": "https://rctlma.org/trans/Land-Development/Landscape-Development",
+    "source": "https://media.rivcocob.org/proceeds/2023/p2023_01_31_files/03.25001.pdf#page=253"
+  },
+  {
+    "match": "https://www.santa- ana.org/sites/default/files/Documents/1160_st.pdf",
+    "url": "https://storage.googleapis.com/proudcity/santaanaca/uploads/2022/03/1160-Street-Work-and-Utility-Permit-General-Provisions.pdf",
+    "label": "https://www.santa-ana.org/sites/default/files/Documents/1160_st.pdf",
+    "source": "https://storage.googleapis.com/proudcity/santaanaca/uploads/2022/01/Street_Improvement_Plan_Guidelines.pdf#page=5"
+  },
+  {
+    "match": "http://transportation.stanford.edu/alt_transportation/Biking AtStanford.shtml",
+    "url": "https://transportation.stanford.edu/getting-stanford/bike",
+    "label": "http://transportation.stanford.edu/alt_transportation/BikingAtStanford.shtml",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=98"
+  },
+  {
+    "match": "http://www.altaplanning.com/App_Content/files/fp_docs/Caltrans- Seamless-Travel-Final-Report.pdf",
+    "url": "https://dot.ca.gov/-/media/dot-media/programs/research-innovation-system-information/documents/final-reports/ca10-1110-finalreport-a11y.pdf",
+    "label": "http://www.altaplanning.com/App_Content/files/fp_docs/Caltrans-Seamless-Travel-Final-Report.pdf",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=102"
+  },
+  {
+    "match": "http://www.bikeleague.org/programs/bicyclefrien dlyamerica/communities/",
+    "url": "https://bikeleague.org/bfa/community/",
+    "label": "http://www.bikeleague.org/programs/bicyclefriendlyamerica/communities/",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=96"
+  },
+  {
+    "match": "http://www.callabike- interaktiv.de/kundenbuchung/process.php?proc=english&f =500&key=d77b3782346423c9f6ea41d27f412b00...00000",
+    "url": null,
+    "label": "http://www.callabike-interaktiv.de/kundenbuchung/process.php?proc=english&f=500&key=d77b3782346423c9f6ea41d27f412b00...00000",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=92"
+  },
+  {
+    "match": "http://www.cityofboston.gov/environmentalandenergy/green awards/",
+    "url": null,
+    "label": "http://www.cityofboston.gov/environmentalandenergy/greenawards/",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=95"
+  },
+  {
+    "match": "http://www.dot.ca.gov/hq/traffops/signtech/mutcdsupp/pdf/camut cd/CAMUTCD-Part9.pdf",
+    "url": null,
+    "label": "http://www.dot.ca.gov/hq/traffops/signtech/mutcdsupp/pdf/camutcd/CAMUTCD-Part9.pdf",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=127"
+  },
+  {
+    "match": "http://www.marinbike.org/Campaigns/ShareTheRoad/In dex.shtml#StreetSkills",
+    "url": null,
+    "label": "http://www.marinbike.org/Campaigns/ShareTheRoad/Index.shtml#StreetSkills",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=84"
+  },
+  {
+    "match": "http://www.portlandonline.com/shared/cfm/image.cfm?id=1 61457",
+    "url": null,
+    "label": "http://www.portlandonline.com/shared/cfm/image.cfm?id=161457",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=91"
+  },
+  {
+    "match": "http://www.portlandonline.com/transportation/index.cfm?c= ediab",
+    "url": "https://www.portland.gov/transportation/walking-biking-transit-safety/smarttrips",
+    "label": "http://www.portlandonline.com/transportation/index.cfm?c=ediab",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=93"
+  },
+  {
+    "match": "http://www.publicworks.houstontx.gov/bikeways/bikecam paign.htm",
+    "url": null,
+    "label": "http://www.publicworks.houstontx.gov/bikeways/bikecampaign.htm",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=92"
+  },
+  {
+    "match": "http://www.sfmta.com/cms/rbikes/documents/CitywideBikeCount Report2007.pdf",
+    "url": null,
+    "label": "http://www.sfmta.com/cms/rbikes/documents/CitywideBikeCountReport2007.pdf",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=101"
+  },
+  {
+    "match": "http://www.vejpark2.kk.dk/publikationer/pdf/464_Cykelregnskab_ UK.%202006.pdf",
+    "url": null,
+    "label": "http://www.vejpark2.kk.dk/publikationer/pdf/464_Cykelregnskab_UK.%202006.pdf",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=101"
+  },
+  {
+    "match": "https://nacto.org/wp-content/uploads/2017/12/NACTO_Designing-for-All-Ages- Abilities.pdf",
+    "url": "https://nacto.org/wp-content/uploads/2017/12/NACTO_Designing-for-All-Ages-Abilities.pdf",
+    "label": "https://nacto.org/wp-content/uploads/2017/12/NACTO_Designing-for-All-Ages-Abilities.pdf",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=30"
+  },
+  {
+    "match": "https://sdforward.com/docs/default-source/2021-regional-plan/5000- sdfrpvisionfivebigmovesbrochure-online.%20pdf?sfvrsn=670af865_2",
+    "url": null,
+    "label": "https://sdforward.com/docs/default-source/2021-regional-plan/5000-sdfrpvisionfivebigmovesbrochure-online.%20pdf?sfvrsn=670af865_2",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=30"
+  },
+  {
+    "match": "https://www.swov.nl/sites/default/files/publicaties/rapport/dmdv/advancing_sustainable _safety.pdf",
+    "url": "https://swov.nl/system/files/publication-downloads/advancing_sustainable_safety.pdf",
+    "label": "https://www.swov.nl/sites/default/files/publicaties/rapport/dmdv/advancing_sustainable_safety.pdf",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=30"
+  },
+  {
+    "match": "www.icommutesd.com/ Commuters/RideMatcher.aspx",
+    "url": null,
+    "label": "www.icommutesd.com/Commuters/RideMatcher.aspx",
+    "source": "https://www.sandag.org/regional-plan/2021-regional-plan/-/media/B9BDC1CFEBF44FCBB96098209C7A1CAB.ashx#page=99"
+  },
+  {
+    "match": "https://www.necanet.org/store/search-results/?keyword=NECA/FOA 301-2009",
+    "url": "https://www.thefoa.org/NECA301.html",
+    "label": "NECA/FOA 301-2009",
+    "source": "https://cityofirvine.gov/sites/default/files/legacy-documents/section-104-traffic-signals.pdf#page=33"
+  }
+]

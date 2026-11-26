@@ -1,0 +1,266 @@
+[
+  {
+    "match": "http://newsroom.aaa.com/wp-content/uploads/2013/07/ Teens-Delay-Licensing-FTS-Report.pdf",
+    "label": "http://newsroom.aaa.com/wp-content/uploads/2013/07/Teens-Delay-Licensing-FTS-Report.pdf",
+    "url": "https://aaafoundation.org/research/timing-drivers-license-acquisition-reasons-delay-among-young-people-united-states-2012/"
+  },
+  {
+    "match": "www.eisenhower.archives.gov/audiovisual/ Portraits/index.htm",
+    "label": "http://www.eisenhower.archives.gov/audiovisual/Portraits/index.htm",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=39"
+  },
+  {
+    "match": "http://www.ﬂickr.com/photos/ 34916386@N00/3199743725/",
+    "label": "http://www.flickr.com/photos/34916386@N00/3199743725/",
+    "url": "https://www.flickr.com/photos/34916386@N00/3199743725/"
+  },
+  {
+    "match": "http://www.ﬂickr.com/photos/waltarrrrr/ 3982965199/",
+    "label": "http://www.flickr.com/photos/waltarrrrr/3982965199/",
+    "url": "https://www.flickr.com/photos/waltarrrrr/3982965199/"
+  },
+  {
+    "match": "http://commons.wikimedia.org/wiki/ File:Ciclav ia_family_October_2012.jpg",
+    "label": "http://commons.wikimedia.org/wiki/File:Ciclavia_family_October_2012.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Ciclavia_family_October_2012.jpg"
+  },
+  {
+    "match": "http://boe.lacity.org/ lariverrmp/ CommunityOutreach/ pdf/LARRMP_ Final_05_03_07.pdf",
+    "label": "http://boe.lacity.org/lariverrmp/CommunityOutreach/pdf/LARRMP_Final_05_03_07.pdf",
+    "url": "https://lariver.lacity.gov/los-angeles-river-revitalization"
+  },
+  {
+    "match": "http:// www.laparks.org/planning/ pdf/finalReport.pdf",
+    "label": "http://www.laparks.org/planning/pdf/finalReport.pdf",
+    "url": "https://www.laparks.org/sites/default/files/projects/2009%20Community%20Needs%20Assessment%20-%20Final.pdf"
+  },
+  {
+    "match": "http://ladot.lacity.org/pdf/ PDF261.pdf",
+    "label": "http://ladot.lacity.org/pdf/PDF261.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=50"
+  },
+  {
+    "match": "http://rtpscs.scag. ca.gov/Documents/2012/ final/f2012RTPSCS.pdf",
+    "label": "http://rtpscs.scag.ca.gov/Documents/2012/final/f2012RTPSCS.pdf",
+    "url": "https://scag.ca.gov/sites/default/files/2024-05/f2012rtpscs.pdf"
+  },
+  {
+    "match": "http://www.metro. net/projects/countywide- planning/complete-streets/",
+    "label": "http://www.metro.net/projects/countywide-planning/complete-streets/",
+    "url": "https://media.metro.net/projects_studies/sustainability/images/policy_completestreets_2014-10.pdf"
+  },
+  {
+    "match": "http://media.metro.net/ projects_studies/images/ final-2009-LRTP.pdf",
+    "label": "http://media.metro.net/projects_studies/images/final-2009-LRTP.pdf",
+    "url": "https://media.metro.net/projects_studies/images/final-2009-LRTP.pdf"
+  },
+  {
+    "match": "http://media. metro.net/projects_studies/ bikeway_planning/images/ BTSP.pdf",
+    "label": "http://media.metro.net/projects_studies/bikeway_planning/images/BTSP.pdf",
+    "url": "https://media.metro.net/projects_studies/bikeway_planning/images/BTSP.pdf"
+  },
+  {
+    "match": "http://dpw.lacounty.gov/ pdd/bike/masterplan.cfm",
+    "label": "http://dpw.lacounty.gov/pdd/bike/masterplan.cfm",
+    "url": "https://dpw.lacounty.gov/bike/docs/bmp/FINAL%20Bicycle%20Master%20Plan.pdf"
+  },
+  {
+    "match": "http://www.metro.net/ projects/LA-union-station",
+    "label": "http://www.metro.net/projects/LA-union-station",
+    "url": "https://libraryarchives.metro.net/DPGTL/unionstation/2014-UnionStation-MasterPlan-BoardItem.pdf"
+  },
+  {
+    "match": "http://www.metro.net/ projects/linkages",
+    "label": "http://www.metro.net/projects/linkages",
+    "url": "https://libraryarchives.metro.net/DB_Attachments/150520_Connect_US_Master_Plan.pdf"
+  },
+  {
+    "match": "http:// www.ladot.lacity.org/ stellent/groups/ Departments/@LADOT_ Contributor/documents/ Contributor_Web_Content/ LACITYP_029076.pdf",
+    "label": "http://www.ladot.lacity.org/stellent/groups/Departments/@LADOT_Contributor/documents/Contributor_Web_Content/LACITYP_029076.pdf",
+    "url": "https://ladot.lacity.gov/docs/strategic-plan-great-streets-los-angeles"
+  },
+  {
+    "match": "http://media.metro.net/docs/ sustainability_path_design_guidelines.pdf",
+    "label": "http://media.metro.net/docs/sustainability_path_design_guidelines.pdf",
+    "url": "https://media.metro.net/docs/sustainability_path_design_guidelines.pdf"
+  },
+  {
+    "match": "http://www.lawa.org/uploadedfiles/lax/ pdf/2006LAXPassengerSurveyFinal.pdf",
+    "label": "http://www.lawa.org/uploadedfiles/lax/pdf/2006LAXPassengerSurveyFinal.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=108"
+  },
+  {
+    "match": "http://rtpscs.scag.ca.gov/Documents/2012/ final/f2012RTPSCS.pdf",
+    "label": "http://rtpscs.scag.ca.gov/Documents/2012/final/f2012RTPSCS.pdf",
+    "url": "https://scag.ca.gov/sites/default/files/2024-05/f2012rtpscs.pdf"
+  },
+  {
+    "match": "http://www.stateoftheair.org/2013/city- rankings/most-polluted-cities.html",
+    "label": "http://www.stateoftheair.org/2013/city-rankings/most-polluted-cities.html",
+    "url": "https://www.lung.org/getmedia/776a9086-2e73-4c76-9259-7018069cf28f/State-of-the-Air-2013.pdf"
+  },
+  {
+    "match": "http://www-fars.nhtsa.dot.gov/States/ StatesCrashesAndAllVictims.aspx",
+    "label": "http://www-fars.nhtsa.dot.gov/States/StatesCrashesAndAllVictims.aspx",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=141"
+  },
+  {
+    "match": "http://www.arb.ca.gov/cc/inventory/data/tables/ ghg_inventory_scopingplan_00-10_2013-02-19.pdf",
+    "label": "http://www.arb.ca.gov/cc/inventory/data/tables/ghg_inventory_scopingplan_00-10_2013-02-19.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=142"
+  },
+  {
+    "match": "http://www.nytimes.com/2013/04/08/us/los-angeles- plan-to-turn-pollution-into-drinking-water.html?_r=0",
+    "label": "http://www.nytimes.com/2013/04/08/us/los-angeles-plan-to-turn-pollution-into-drinking-water.html?_r=0",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=142"
+  },
+  {
+    "match": "http://www.treepeople.org/sites/ default/files/images/learn/Second%20Nature%20.pdf",
+    "label": "http://www.treepeople.org/sites/default/files/images/learn/Second%20Nature%20.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=142"
+  },
+  {
+    "match": "http://uspirg.org/sites/pirg/files/reports/A%20New%20 Direction%20vUS.pdf",
+    "label": "http://uspirg.org/sites/pirg/files/reports/A%20New%20Direction%20vUS.pdf",
+    "url": "https://pirg.org/wp-content/uploads/2013/05/A-New-Direction-vUS.pdf"
+  },
+  {
+    "match": "http://www.dot.ca.gov/hq/ tsip/hpms/hpmslibrary/prd/2012prd/2012PRDwMaps.pdf",
+    "label": "http://www.dot.ca.gov/hq/tsip/hpms/hpmslibrary/prd/2012prd/2012PRDwMaps.pdf",
+    "url": "https://dot.ca.gov/-/media/dot-media/programs/research-innovation-system-information/documents/hpms/hpms-2012-prd-a11y.pdf"
+  },
+  {
+    "match": "http://www.lacity.org/visitors/TransportationParking/index. htm?laCategory=392",
+    "label": "http://www.lacity.org/visitors/TransportationParking/index.htm?laCategory=392",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=183"
+  },
+  {
+    "match": "http://newsroom.aaa.com/2013/04/cost-of-owning-and- operatingvehicle-in-u-s-increases-nearly-two-percent- according-to-aaas-2013-your-driving-costs-study/",
+    "label": "http://newsroom.aaa.com/2013/04/cost-of-owning-and-operatingvehicle-in-u-s-increases-nearly-two-percent-according-to-aaas-2013-your-driving-costs-study/",
+    "url": "https://news.aaa-calif.com/news/cost-of-operating-vehicle-up-2-percent%3A-aaa-2013-your-driving-costs"
+  },
+  {
+    "match": "http://www.arb.ca.gov/cc/inventory/data/tables/ghg_inventory_ scopingplan_00-10_2013-02-19.pdf",
+    "label": "http://www.arb.ca.gov/cc/inventory/data/tables/ghg_inventory_scopingplan_00-10_2013-02-19.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=183"
+  },
+  {
+    "match": "http://www.healthebay.org/sites/default/files/pdf/ beachreportcard/BRC_2013_WEB.pdf",
+    "label": "http://www.healthebay.org/sites/default/files/pdf/beachreportcard/BRC_2013_WEB.pdf",
+    "url": "https://www.healthebay.org/sites/default/files/pdf/beachreportcard/BRC_2013_WEB.pdf"
+  },
+  {
+    "match": "http://media.metro.net/riding_metro/maps/images/rail_map_ underconstruction.pdf",
+    "label": "http://media.metro.net/riding_metro/maps/images/rail_map_underconstruction.pdf",
+    "url": "https://media.metro.net/riding_metro/maps/images/rail_map_underconstruction.pdf"
+  },
+  {
+    "match": "http://www.scag.ca.gov/goodsmove/pdf GoodsMovementFS2012.pdf",
+    "label": "http://www.scag.ca.gov/goodsmove/pdf/GoodsMovementFS2012.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=184"
+  },
+  {
+    "match": "http://www. accessiblesociety.org/topics/universaldesign/",
+    "label": "http://www.accessiblesociety.org/topics/universaldesign/",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=184"
+  },
+  {
+    "match": "http://media.metro.net/images/Route%20I-405%20(107KB). pdf",
+    "label": "http://media.metro.net/images/Route%20I-405%20(107KB).pdf",
+    "url": "https://media.metro.net/images/Route%20I-405%20(107KB).pdf"
+  },
+  {
+    "match": "http://clkrep.lacity.org/onlinedocs/2012/12-1297-s1_ misc_1-15-13.pdf",
+    "label": "http://clkrep.lacity.org/onlinedocs/2012/12-1297-s1_misc_1-15-13.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=184"
+  },
+  {
+    "match": "http://www. aqmd.gov/rules/reg/reg22/r2202.pdf",
+    "label": "http://www.aqmd.gov/rules/reg/reg22/r2202.pdf",
+    "url": "https://www.aqmd.gov/docs/default-source/rule-book/reg-xxii/rule-2202.pdf"
+  },
+  {
+    "match": "http://rtpscs.scag.ca.gov/Documents/2012/final/ f2012RTPSCS.pdf",
+    "label": "http://rtpscs.scag.ca.gov/Documents/2012/final/f2012RTPSCS.pdf",
+    "url": "https://scag.ca.gov/sites/default/files/2024-05/f2012rtpscs.pdf"
+  },
+  {
+    "match": "http://portoflosangeles.org/pdf/POLA_Facts_and_ Figures_Card.pdf",
+    "label": "http://portoflosangeles.org/pdf/POLA_Facts_and_Figures_Card.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=184"
+  },
+  {
+    "match": "http://www.stateoftheair.org/2013/city-rankings/most- polluted-cities.html",
+    "label": "http://www.stateoftheair.org/2013/city-rankings/most-polluted-cities.html",
+    "url": "https://www.lung.org/getmedia/776a9086-2e73-4c76-9259-7018069cf28f/State-of-the-Air-2013.pdf"
+  },
+  {
+    "match": "http://www.arb.ca.gov/cc/inventory/data/tables/ghg_ inventory_scopingplan_00-10_2013-02-19.pdf",
+    "label": "http://www.arb.ca.gov/cc/inventory/data/tables/ghg_inventory_scopingplan_00-10_2013-02-19.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=184"
+  },
+  {
+    "match": "http://www.nytimes.com/2013/04/08/us/los-angeles-plan- to-turnpollution-into-drinking-water.html?_r=0",
+    "label": "http://www.nytimes.com/2013/04/08/us/los-angeles-plan-to-turn-pollution-into-drinking-water.html?_r=0",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=184"
+  },
+  {
+    "match": "http://www.treepeople.org/sites/default/ files/images/learn/Second%20Nature%20.pdf",
+    "label": "http://www.treepeople.org/sites/default/files/images/learn/Second%20Nature%20.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=184"
+  },
+  {
+    "match": "http://www.fta.dot.gov/ documents/2012-10-10_MAP-21_FINAL.pdf",
+    "label": "http://www.fta.dot.gov/documents/2012-10-10_MAP-21_FINAL.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=190"
+  },
+  {
+    "match": "http://dot.ca.gov/hq/LocalPrograms/EEM/ program-info2.htm",
+    "label": "http://dot.ca.gov/hq/LocalPrograms/EEM/program-info2.htm",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=191"
+  },
+  {
+    "match": "http://www.dot.ca.gov/hq/ LocalPrograms/saferoutes/sr2s.htm",
+    "label": "http://www.dot.ca.gov/hq/LocalPrograms/saferoutes/sr2s.htm",
+    "url": "https://dot.ca.gov/programs/local-assistance/fed-and-state-programs/safe-route-to-school-program"
+  },
+  {
+    "match": "http://www.dot.ca.gov/hq/tpp/offices/ogm/ products_files/GGDP_Final_Report.pdf",
+    "label": "http://www.dot.ca.gov/hq/tpp/offices/ogm/products_files/GGDP_Final_Report.pdf",
+    "url": null,
+    "source": "https://ladot.lacity.gov/sites/default/files/documents/mobility-plan-la-city-planning.pdf#page=192"
+  },
+  {
+    "match": "http://media. metro.net/board/Items/2013/05_may/20130515p&pitem15.pdf",
+    "label": "http://media.metro.net/board/Items/2013/05_may/20130515p&pitem15.pdf",
+    "url": "https://media.metro.net/board/Items/2013/05_may/20130515p&pitem15.pdf"
+  },
+  {
+    "match": "http://americafastforward.net/ wp-content/uploads/2013/03/AFF_TIFA.pdf",
+    "label": "http://americafastforward.net/wp-content/uploads/2013/03/AFF_TIFA.pdf",
+    "url": "https://www.metro.net/documents/2025/01/45-financial-plan-appendices-48pdf/"
+  },
+  {
+    "match": "Ladot. lacity.org",
+    "label": "Ladot.lacity.org",
+    "url": "https://ladotbikeblog.wordpress.com/wp-content/uploads/2011/06/ladot_slm_final_report_062211.pdf"
+  }
+]
