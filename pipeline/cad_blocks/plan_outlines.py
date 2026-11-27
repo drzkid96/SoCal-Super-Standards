@@ -125,8 +125,30 @@ def _grid_step(grid_segs, box):
             xs.add(round(a[0], 2))
         if abs(a[1] - b[1]) < 0.05 and abs(a[0] - b[0]) > 2:
             ys.add(round(a[1], 2))
+    if len(xs) < 4 or len(ys) < 4:  # dimension and extension lines alone are not a grid
+        return None
     diffs = sorted(d for v in (sorted(xs), sorted(ys)) for d in (b - a for a, b in zip(v, v[1:])) if d > 0.5)
     return diffs[len(diffs) // 2] if diffs else None
+
+
+def _dim_scale(dims, width_pt, height_pt, step=None):
+    """Feet per point from the printed dimensions. A candidate dimension must fit the long side
+    while the short side also lands on a dimension (within 0.1 ft). With a grid drawn, the
+    candidate that makes the grid a whole half inch wins (ISA: 4'-5" gives a 4 1/2 in grid);
+    without one, the largest. Nothing fits: the longest dimension (Type V, whose short side is
+    not dimensioned)."""
+    if not dims:
+        return None
+    long_pt, short_pt = max(width_pt, height_pt), min(width_pt, height_pt)
+    fits = [d for d in set(dims) if min(abs(short_pt * d / long_pt - e) for e in dims) <= 0.1]
+    if not fits:  # with a grid drawn, a lone dimension (a numeral pair's width) is no reason to rescale
+        return None if step else max(dims) / long_pt
+    if step:
+        def grid_err(d):
+            inches = d / long_pt * step * 12
+            return abs(inches * 2 - round(inches * 2))
+        return min(fits, key=lambda d: (round(grid_err(d), 2), -d)) / long_pt
+    return max(fits) / long_pt
 
 
 def figures(pdf, page_no, outline_width, join=8.0):
@@ -139,6 +161,7 @@ def figures(pdf, page_no, outline_width, join=8.0):
     drawings = page.get_drawings()
     words = page.get_text('words')
     grid_segs = [(a, b) for d in drawings if round(d.get('width') or 0, 2) == GRID_WIDTH
+                 and (d.get('dashes') or '[] 0').startswith('[]')  # dashed centerlines are not grid
                  for s in segments(d) for a, b in zip(s, s[1:])]
     notes = []
     for j, w in enumerate(words):
@@ -147,34 +170,50 @@ def figures(pdf, page_no, outline_width, join=8.0):
             if value:
                 notes.append((fitz.Rect(words[j - 1][:4]) | fitz.Rect(w[:4]), value))
     outline = [d for d in drawings if round(d.get('width') or 0, 2) == outline_width]
-    boxes = [fitz.Rect(d['rect']) for d in outline]
+    # Boxes from the stroke points: a single straight stroke has a zero-area Rect, and Rect union
+    # drops empty rects, so a word drawn only with straight lines (LEFT) would vanish.
+    boxes = []
+    for d in outline:
+        pts = [p for s in segments(d) for p in s]
+        boxes.append(fitz.Rect(min(p[0] for p in pts), min(p[1] for p in pts), max(p[0] for p in pts), max(p[1] for p in pts))
+                     if pts else fitz.Rect(d['rect']))
     out = []
     for group in _union_find(boxes, join):
-        box = fitz.Rect(boxes[group[0]])
-        for i in group[1:]:
-            box |= boxes[i]
+        box = fitz.Rect(min(boxes[i].x0 for i in group), min(boxes[i].y0 for i in group),
+                        max(boxes[i].x1 for i in group), max(boxes[i].y1 for i in group))
         if box.width < 6 or box.height < 6:
             continue
         step = _grid_step(grid_segs, box)
         near = [n for n in sorted(notes, key=lambda n: _gap(n[0], box)) if _gap(n[0], box) <= 90]
-        if not step or not near:
-            continue
-        # Pick the grid note whose scale makes the figure agree with the dimensions printed beside it;
-        # with no dimensions nearby, the nearest note wins.
         dims = feet_text([w[4] for w in words if _gap(fitz.Rect(w[:4]), box) < 45])
+        own = feet_text([w[4] for w in words if _gap(fitz.Rect(w[:4]), box) < 30])  # this figure's own
         width_pt, height_pt = box.height, box.width  # visual width runs along unrotated y
-
-        def score(note):
-            u = note[1] / step
-            if not dims:
-                return _gap(note[0], box)
-            return min(abs(width_pt * u - d) for d in dims) + min(abs(height_pt * u - d) for d in dims)
-        grid_ft = min(near, key=score)[1]
-        unit = grid_ft / step  # feet per point
+        if step and near:
+            # Pick the grid note whose scale makes the figure agree with the dimensions printed beside
+            # it; with no dimensions nearby, the nearest note wins.
+            def score(note):
+                u = note[1] / step
+                if not dims:
+                    return _gap(note[0], box)
+                return min(abs(width_pt * u - d) for d in dims) + min(abs(height_pt * u - d) for d in dims)
+            grid_ft = min(near, key=score)[1]
+            unit = grid_ft / step  # feet per point
+            off = lambda v: min(abs(v * unit - d) for d in dims) if dims else 0
+            if dims and off(width_pt) > 0.25 and off(height_pt) > 0.25 and _dim_scale(own, width_pt, height_pt, step):
+                # Grid note disagrees with every printed dimension in both directions (ISA: drawn on a
+                # 4 1/2 in grid, noted 6 in). Scale by the dimensions; published only on printed area.
+                grid_ft, unit = 0.0, _dim_scale(own, width_pt, height_pt, step)
+        elif own and max(width_pt, height_pt) > 60 and _dim_scale(own, width_pt, height_pt):
+            # No grid (Type V): scale by the printed dimensions. One side then matches by construction,
+            # so such a figure is published only on its printed area (marking_blocks).
+            grid_ft = 0.0
+            unit = _dim_scale(own, width_pt, height_pt)
+        else:
+            continue
         loops = []
         for loop in chain([sg for i in group for sg in segments(outline[i])], tol=0.6):
             gap = math.hypot(loop[0][0] - loop[-1][0], loop[0][1] - loop[-1][1]) * unit
-            closed = len(loop) > 3 and gap <= max(grid_ft, 1.0) + 0.02
+            closed = len(loop) > 3 and gap <= max(grid_ft, 1.0) + 0.06  # Type V leaves its 1 ft apex open
             loops.append((loop, closed, round(gap, 3)))
         pts = [p for loop, _, _ in loops for p in loop]
         x0, x1 = min(p[1] for p in pts), max(p[1] for p in pts)

@@ -51,13 +51,20 @@ SHEETS = {
     'A24B': (45, 0.48, [
         ('RXR', 'Railroad crossing symbol', 'Words and symbols', 8, None, 70, False),
         ('TYPE-II-B', 'Type II (B) arrow', 'Arrows', 10, 24, 59, False),
-        ('TYPE-II-L', 'Type II (L) arrow', 'Arrows', 7, 24, 45, True),
+        # Printed 7'-0" is rounded: the traced left side equals Type II (B) to 0.001 ft and the right
+        # side is the 1'-9" half of the through head, so the true width is 6'-9".
+        ('TYPE-II-L', 'Type II (L) arrow', 'Arrows', 6.75, 24, 45, True),
         ('TYPE-III-B', 'Type III (B) arrow', 'Arrows', 11, 24, 73, False),
         ('TYPE-III-L', 'Type III (L) arrow', 'Arrows', 6, 24, 42, True),
     ]),
     'A24C': (46, 0.72, [
-        ('BIKE-SYMBOL', 'Bike lane symbol without person', 'Bicycle markings', FT_IN(3, 4), 6, 7, False),
+        # Printed area 7 ft2 repeats the rider symbol's; the traced figure (5.2 ft2) matches both
+        # printed dimensions, so it is checked on size only (see CHECKS).
+        ('BIKE-SYMBOL', 'Bike lane symbol without person', 'Bicycle markings', FT_IN(3, 4), 6, None, False),
         ('BIKE-SYMBOL-PERSON', 'Bike lane symbol with person', 'Bicycle markings', FT_IN(3, 4), 6.5, 7, False),
+        # ISA: the 6" grid note is wrong (drawn on a 4 1/2" grid); scaled by the printed dimensions and
+        # checked on the 3'-9" blue field. White area traces 7.1 ft2 against a printed 9.
+        ('ISA', 'International Symbol of Accessibility (ISA) marking', 'Words and symbols', FT_IN(4, 5), FT_IN(4, 5), None, False),
         ('DIAMOND', 'Diamond symbol', 'Words and symbols', FT_IN(3, 3), 12, 11, False),
         ('SHARROW', 'Shared roadway bicycle marking', 'Bicycle markings', FT_IN(3, 3), 9.25, 11.5, False),
         # Numerals print as pairs (25, 35, 40); each digit is matched by size in reading order and the
@@ -91,6 +98,10 @@ SHEETS = {
         ('WEST', 'WEST', 'Words', FT_IN(6, 4), 8, 24, False),
     ]),
 }
+# Entries checked without a printed area: extra printed dimensions the trace must hit (ft).
+CHECKS = {'BIKE-SYMBOL': {}, 'ISA': {'field': FT_IN(3, 9)}}
+# Colored fields under the white marking (ACI): the ISA's blue square.
+FIELDS = {'ISA': 5}
 # Figures printed together with one area: (sheet, codes, printed area ft2)
 PAIRS = [('A24C', ('NUMERAL-2', 'NUMERAL-5'), 17.5), ('A24C', ('NUMERAL-3', '_NUMERAL-5'), 16.5),
          ('A24C', ('NUMERAL-4', 'NUMERAL-0'), 19.5)]
@@ -145,7 +156,13 @@ def rings_of(region):
     return out
 
 
-def matches(fig, width, height, area):
+def field_ring(region):
+    """Largest hole of the filled region: the colored field a white border frames (ISA)."""
+    holes = [list(r.coords)[:-1] for g in getattr(region, 'geoms', [region]) if g.geom_type == 'Polygon' for r in g.interiors]
+    return max(holes, key=lambda r: Polygon(r).area) if holes else None
+
+
+def matches(fig, width, height, area, code=None):
     w, h = fig['size']
     if width is not None and abs(w - width) > SIZE_TOL:
         return False
@@ -154,6 +171,14 @@ def matches(fig, width, height, area):
     if area is not None:
         region, _ = shape_of(fig, area)
         if region is None or abs(region.area - area) > max(AREA_TOL * area, 0.6):
+            return False
+    field = CHECKS.get(code, {}).get('field')
+    if field is not None:
+        ring = field_ring(shape_of(fig)[0])
+        if ring is None:
+            return False
+        xs, ys = [p[0] for p in ring], [p[1] for p in ring]
+        if abs(max(xs) - min(xs) - field) > SIZE_TOL or abs(max(ys) - min(ys) - field) > SIZE_TOL:
             return False
     return True
 
@@ -167,7 +192,7 @@ def base_point(loops, tail):
     return ((min(xs) + max(xs)) / 2, y0)
 
 
-def write_block(code, loops, libredwg, mirror=False, tail=False):
+def write_block(code, loops, libredwg, mirror=False, tail=False, field=None):
     bx, by = base_point(loops, tail)
     sign = -1 if mirror else 1
     rings = [[(sign * (x - bx), y - by) for x, y in loop] for loop in loops]
@@ -185,6 +210,10 @@ def write_block(code, loops, libredwg, mirror=False, tail=False):
     doc.layers.new('P-PMARK', dxfattribs={'color': 7})
     block = doc.blocks.new(code, base_point=(0, 0))
     block.block_record.dxf.units = 2
+    if field:  # colored field first, so the white marking draws over it
+        ring, color = field
+        under = block.add_hatch(color=color, dxfattribs={'layer': '0'})
+        under.paths.add_polyline_path([(sign * (x - bx), y - by) for x, y in ring], is_closed=True)
     hatch = block.add_hatch(color=0, dxfattribs={'layer': '0'})
     hatch.dxf.hatch_style = 0  # normal: nested loops alternate, so letter counters stay open
     for ring in rings:
@@ -212,7 +241,7 @@ def write_block(code, loops, libredwg, mirror=False, tail=False):
 def build(pdf, libredwg):
     OUT.mkdir(parents=True, exist_ok=True)
     catalog = json.loads(CATALOG.read_text())
-    keep = [r for r in catalog['markings/cad']['blocks'] if not r['code'].startswith('CT-')]
+    keep = [r for r in catalog['markings/cad']['blocks'] if not r['code'].startswith('CT-A24')]  # striping CT-DET rows stay
     rows, report, shapes = [], {}, {}
     for sheet, (page, width, entries) in SHEETS.items():
         figs = figures(pdf, page, width)
@@ -223,7 +252,7 @@ def build(pdf, libredwg):
             report[sheet]['figures'].append({'size': f['size'], 'grid_ft': round(f['grid_ft'], 4), 'area': round(region.area, 2) if region else None})
         hits = {}
         for code, name, group, w, h, a, mirror in entries:
-            hit = next((i for i, f in enumerate(figs) if i not in used and matches(f, w, h, a)), None)
+            hit = next((i for i, f in enumerate(figs) if i not in used and matches(f, w, h, a, code)), None)
             report[sheet]['entries'][code] = hit
             if hit is not None:
                 used.add(hit)
@@ -246,7 +275,8 @@ def build(pdf, libredwg):
                 variants.append((f'CT-{sheet}-{code[:-2]}-R' if code.endswith('-L') else f'CT-{sheet}-{code}-MIRROR',
                                  name.replace('(L)', '(R)') if '(L)' in name else name + ', mirrored for the left lane', True))
             for full, label, flip in variants:
-                shapes[full] = write_block(full, loops, libredwg, mirror=flip, tail='ARROW' in full or 'TYPE-' in full)
+                field = (field_ring(region), FIELDS[code]) if code in FIELDS else None
+                shapes[full] = write_block(full, loops, libredwg, mirror=flip, tail='ARROW' in full or 'TYPE-' in full, field=field)
                 rows.append({'code': full, 'name': f'{label} · Caltrans Std. Plan {sheet} (2026)', 'file': full + '.dwg',
                              'group': group, 'size': [round(fig['size'][0], 2), round(fig['size'][1], 2)],
                              'area': round(region.area, 1), 'source': SOURCE, 'sheet': sheet})
