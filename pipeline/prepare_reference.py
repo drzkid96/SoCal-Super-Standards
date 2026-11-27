@@ -94,6 +94,9 @@ if boe_catalog.exists():
 current_details = prepare_current(root, look, retired)
 from ladot_drawings import prepare as prepare_ladot_drawings, sheet_label
 ladot_sets=prepare_ladot_drawings(root,current_details,look)
+from ladot_dwg import hydrate as hydrate_ladot_cad, link_pages as link_ladot_cad
+hydrate_ladot_cad()
+link_ladot_cad(root)
 Path('public/data/lookup.json').write_text(json.dumps(look))
 ladot_originals={
  'mpp-531':'https://ladot.lacity.gov/sites/default/files/2023-02/mpp_531_02212023.pdf',

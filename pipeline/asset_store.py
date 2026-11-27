@@ -7,6 +7,7 @@ file, no total limit), and every link to them in the built site points at the re
 Rules live in data/reference/asset-store.json:
   release   tag of the store release
   minBytes  files under dist/downloads/ at or above this size move to the store
+  always    site path prefixes that always move to the store, whatever their size
   keep      site paths that always stay on Pages (for example files fetched by page scripts)
   names     site path -> asset name (the file name the user receives); default is the file name
 
@@ -48,7 +49,8 @@ def plan(rules, repo):
             continue
         site = path.relative_to(DIST).as_posix()
         size = path.stat().st_size
-        if size < rules['minBytes'] or site in rules.get('keep', []):
+        always = any(site.startswith(prefix) for prefix in rules.get('always', []))
+        if (size < rules['minBytes'] and not always) or site in rules.get('keep', []):
             continue
         name = rules.get('names', {}).get(site, path.name)
         if name in names:
