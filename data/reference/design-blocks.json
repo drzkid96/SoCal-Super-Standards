@@ -4,6 +4,7 @@
     "groups": [
       "Arrows",
       "Words",
+      "Numerals",
       "Words and symbols",
       "Bicycle markings",
       "Striping patterns",
@@ -124,6 +125,19 @@
         "sheet": "A24A"
       },
       {
+        "code": "CT-A24A-BIKE-LANE-ARROW",
+        "name": "Bike lane arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-BIKE-LANE-ARROW.dwg",
+        "group": "Bicycle markings",
+        "size": [
+          1.75,
+          5.0
+        ],
+        "area": 3.1,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
+      },
+      {
         "code": "CT-A24A-TYPE-VII-L",
         "name": "Type VII (L) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
         "file": "CT-A24A-TYPE-VII-L.dwg",
@@ -171,7 +185,7 @@
           10.0,
           23.99
         ],
-        "area": 56.4,
+        "area": 58.3,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24B"
       },
@@ -250,6 +264,71 @@
           9.25
         ],
         "area": 11.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24C"
+      },
+      {
+        "code": "CT-A24C-NUMERAL-2",
+        "name": "Numeral 2, 8 ft \u00b7 Caltrans Std. Plan A24C (2026)",
+        "file": "CT-A24C-NUMERAL-2.dwg",
+        "group": "Numerals",
+        "size": [
+          2.0,
+          8.0
+        ],
+        "area": 8.1,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24C"
+      },
+      {
+        "code": "CT-A24C-NUMERAL-5",
+        "name": "Numeral 5, 8 ft \u00b7 Caltrans Std. Plan A24C (2026)",
+        "file": "CT-A24C-NUMERAL-5.dwg",
+        "group": "Numerals",
+        "size": [
+          2.0,
+          8.0
+        ],
+        "area": 9.3,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24C"
+      },
+      {
+        "code": "CT-A24C-NUMERAL-3",
+        "name": "Numeral 3, 8 ft \u00b7 Caltrans Std. Plan A24C (2026)",
+        "file": "CT-A24C-NUMERAL-3.dwg",
+        "group": "Numerals",
+        "size": [
+          2.0,
+          7.99
+        ],
+        "area": 8.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24C"
+      },
+      {
+        "code": "CT-A24C-NUMERAL-4",
+        "name": "Numeral 4, 8 ft \u00b7 Caltrans Std. Plan A24C (2026)",
+        "file": "CT-A24C-NUMERAL-4.dwg",
+        "group": "Numerals",
+        "size": [
+          2.25,
+          8.0
+        ],
+        "area": 9.9,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24C"
+      },
+      {
+        "code": "CT-A24C-NUMERAL-0",
+        "name": "Numeral 0, 8 ft \u00b7 Caltrans Std. Plan A24C (2026)",
+        "file": "CT-A24C-NUMERAL-0.dwg",
+        "group": "Numerals",
+        "size": [
+          2.0,
+          8.0
+        ],
+        "area": 9.7,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C"
       },
@@ -723,15 +802,548 @@
           25.0
         ],
         "source": "LA signing and striping plan library"
+      },
+      {
+        "code": "CT-DET-1",
+        "name": "Detail 1 \u00b7 Centerline, two-lane, passing permitted \u00b7 broken \u00b7 40 mph or less",
+        "file": "CT-DET-1.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-2",
+        "name": "Detail 2 \u00b7 Centerline, two-lane, passing permitted, with markers \u00b7 broken + markers \u00b7 40 mph or less",
+        "file": "CT-DET-2.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-5",
+        "name": "Detail 5 \u00b7 Centerline, two-lane, passing permitted \u00b7 broken \u00b7 45 mph or more",
+        "file": "CT-DET-5.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-6",
+        "name": "Detail 6 \u00b7 Centerline, two-lane, passing permitted, with markers \u00b7 broken + markers \u00b7 45 mph or more",
+        "file": "CT-DET-6.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-8",
+        "name": "Detail 8 \u00b7 Lane line, multilane, same direction \u00b7 broken \u00b7 40 mph or less",
+        "file": "CT-DET-8.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-9",
+        "name": "Detail 9 \u00b7 Lane line, multilane, with markers \u00b7 broken + markers \u00b7 40 mph or less",
+        "file": "CT-DET-9.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-9A",
+        "name": "Detail 9A \u00b7 Lane line, multilane and freeway ramps, with red-clear markers \u00b7 broken + markers \u00b7 40 mph or less",
+        "file": "CT-DET-9A.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-11",
+        "name": "Detail 11 \u00b7 Lane line, multilane, same direction \u00b7 broken \u00b7 45 mph or more",
+        "file": "CT-DET-11.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-12",
+        "name": "Detail 12 \u00b7 Lane line, multilane conventional highways, expressways, collectors, with markers \u00b7 broken + markers \u00b7 45 mph or more",
+        "file": "CT-DET-12.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-12A",
+        "name": "Detail 12A \u00b7 Lane line, multilane highways, freeways, ramps, connectors, with red-clear markers \u00b7 broken + markers \u00b7 45 mph or more",
+        "file": "CT-DET-12A.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-15",
+        "name": "Detail 15 \u00b7 No-passing zone, one direction, broken yellow beside solid yellow \u00b7 broken + solid \u00b7 40 mph or less",
+        "file": "CT-DET-15.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          1.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-16",
+        "name": "Detail 16 \u00b7 No-passing zone, one direction, with markers \u00b7 broken + solid + markers \u00b7 40 mph or less",
+        "file": "CT-DET-16.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          2.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-18",
+        "name": "Detail 18 \u00b7 No-passing zone, one direction, broken yellow beside solid yellow \u00b7 broken + solid \u00b7 45 mph or more",
+        "file": "CT-DET-18.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          1.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-19",
+        "name": "Detail 19 \u00b7 No-passing zone, one direction, with markers \u00b7 broken + solid + markers \u00b7 45 mph or more",
+        "file": "CT-DET-19.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          2.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-21",
+        "name": "Detail 21 \u00b7 No-passing zone, two direction, double solid yellow \u00b7 double solid \u00b7 All",
+        "file": "CT-DET-21.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          1.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-22",
+        "name": "Detail 22 \u00b7 No-passing zone, two direction, double solid yellow with markers \u00b7 double solid + markers \u00b7 All",
+        "file": "CT-DET-22.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          3.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-24",
+        "name": "Detail 24 \u00b7 Left edge line, divided highways, local streets \u00b7 solid \u00b7 All",
+        "file": "CT-DET-24.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          1.17
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-25",
+        "name": "Detail 25 \u00b7 Left edge line, state highways \u00b7 solid + markers \u00b7 All",
+        "file": "CT-DET-25.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          2.17
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-25A",
+        "name": "Detail 25A \u00b7 Left edge line, highways, freeways, ramps and connectors \u00b7 solid + markers \u00b7 All",
+        "file": "CT-DET-25A.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          2.17
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-26",
+        "name": "Detail 26 \u00b7 Left edge line, markers only, where traveled way and shoulder contrast \u00b7 markers only \u00b7 All",
+        "file": "CT-DET-26.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          1.17
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-27",
+        "name": "Detail 27 \u00b7 Left edge line, double solid yellow alternate to detail 25 \u00b7 double solid + markers \u00b7 All",
+        "file": "CT-DET-27.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          3.33
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-27B",
+        "name": "Detail 27B \u00b7 Right edge line, all state highways; may be used on local streets \u00b7 solid \u00b7 All",
+        "file": "CT-DET-27B.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          1.17
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-27C",
+        "name": "Detail 27C \u00b7 Right edge line extension, through intersections, e.g. heavy fog areas \u00b7 dotted \u00b7 All",
+        "file": "CT-DET-27C.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-28",
+        "name": "Detail 28 \u00b7 Median island (painted), double left edge lines, all-paved sections \u00b7 two double solid lines \u00b7 All",
+        "file": "CT-DET-28.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          7.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-29",
+        "name": "Detail 29 \u00b7 Median island (painted), with markers \u00b7 two double solid lines + markers \u00b7 All",
+        "file": "CT-DET-29.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          9.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-31",
+        "name": "Detail 31 \u00b7 Two-way left-turn lane, solid outer lines, broken inner lines \u00b7 solid + broken pair \u00b7 All",
+        "file": "CT-DET-31.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          7.33
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-32",
+        "name": "Detail 32 \u00b7 Two-way left-turn lane, with markers \u00b7 solid + broken pair + markers \u00b7 All",
+        "file": "CT-DET-32.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          7.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-34",
+        "name": "Detail 34 \u00b7 Centerline at intersection approach, solid yellow on approach (100 ft min.), with markers \u00b7 broken + solid + markers \u00b7 45 mph or more",
+        "file": "CT-DET-34.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          2.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-34A",
+        "name": "Detail 34A \u00b7 Centerline at intersection approach, solid yellow on approach (100 ft min.) \u00b7 broken + solid \u00b7 45 mph or more",
+        "file": "CT-DET-34A.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          1.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-35",
+        "name": "Detail 35 \u00b7 Centerline at intersection approach, solid yellow on approach (100 ft min.), with markers \u00b7 broken + solid + markers \u00b7 40 mph or less",
+        "file": "CT-DET-35.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          2.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-35A",
+        "name": "Detail 35A \u00b7 Centerline at intersection approach, solid yellow on approach (100 ft min.) \u00b7 broken + solid \u00b7 40 mph or less",
+        "file": "CT-DET-35A.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          1.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-37D",
+        "name": "Detail 37D \u00b7 Lane drop, mandatory exiting lanes at two-lane roundabouts \u00b7 8 in dotted \u00b7 All",
+        "file": "CT-DET-37D.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          1.33
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-38",
+        "name": "Detail 38 \u00b7 Channelizing line, left- or right-turn lanes on state highways \u00b7 8 in solid + markers \u00b7 All",
+        "file": "CT-DET-38.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          2.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-38A",
+        "name": "Detail 38A \u00b7 Channelizing line, turn lanes on local streets and freeway off-ramp terminals \u00b7 8 in solid \u00b7 All",
+        "file": "CT-DET-38A.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          1.33
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-38B",
+        "name": "Detail 38B \u00b7 Channelizing line, exit ramps, markers both sides \u00b7 8 in solid + markers \u00b7 Freeway",
+        "file": "CT-DET-38B.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          3.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-38D",
+        "name": "Detail 38D \u00b7 Channelizing line, exit ramps, markers one side \u00b7 8 in solid + markers \u00b7 Freeway",
+        "file": "CT-DET-38D.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          2.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-39",
+        "name": "Detail 39 \u00b7 Bike lane line, class ii bike lane \u00b7 6 in solid \u00b7 All",
+        "file": "CT-DET-39.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          1.0
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-39A",
+        "name": "Detail 39A \u00b7 Bike lane intersection line, 50 to 200 ft before an intersection, where vehicles cross to turn \u00b7 6 in broken \u00b7 All",
+        "file": "CT-DET-39A.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          1.0
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-40",
+        "name": "Detail 40 \u00b7 Lane line extension, through intersections \u00b7 dotted \u00b7 All",
+        "file": "CT-DET-40.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-41",
+        "name": "Detail 41 \u00b7 Centerline extension, through intersections \u00b7 dotted \u00b7 All",
+        "file": "CT-DET-41.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          0.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-42",
+        "name": "Detail 42 \u00b7 Preferential lane line, contiguous, continuous access (figure 3e-3.c) \u00b7 8 in broken + markers \u00b7 All",
+        "file": "CT-DET-42.dwg",
+        "group": "Striping patterns",
+        "size": [
+          48,
+          1.83
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-44A",
+        "name": "Detail 44A \u00b7 Preferential lane line, contiguous, access prohibited (figure 3e-3.a) \u00b7 double 8 in solid + markers \u00b7 All",
+        "file": "CT-DET-44A.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          5.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-44B",
+        "name": "Detail 44B \u00b7 Preferential lane line, buffer-separated, access prohibited (figure 3e-2.a) \u00b7 double 8 in solid (buffer) + markers \u00b7 All",
+        "file": "CT-DET-44B.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          7.67
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
+      },
+      {
+        "code": "CT-DET-45",
+        "name": "Detail 45 \u00b7 Preferential lane line, buffer-separated, access prohibited, wide buffer; chevrons required if buffer over 4 ft \u00b7 two double 8 in solid lines + markers \u00b7 All",
+        "file": "CT-DET-45.dwg",
+        "group": "Striping patterns",
+        "size": [
+          24,
+          11.17
+        ],
+        "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
+        "sheet": "A20"
       }
     ],
-    "note": "True size, one unit = one foot. Each drawing opens as one block insert on layer P-PMARK; block geometry is a SOLID hatch with its outline on layer 0, ByBlock. Base point: the middle of an arrow's tail, or the bottom center of a word or symbol (top center for yield line triangles, which sit on the line). Caltrans blocks are traced from the 2026 Standard Plans and each matches its printed width, height and area; (R) arrows are mirror images, as the plans direct. Plan-library blocks are flattened to true size and checked against their stated sizes.",
+    "note": "True size, one unit = one foot. Each drawing opens as one block insert on layer P-PMARK; block geometry is a SOLID hatch with its outline on layer 0, ByBlock. Base point: the middle of an arrow's tail, or the bottom center of a word or symbol (top center for yield line triangles, which sit on the line). Caltrans blocks are traced from the 2026 Standard Plans and each matches its printed width, height and area; (R) arrows are mirror images, as the plans direct. Striping details (CT-DET) run along +X for one full repeat, base point at the start of the reference line, in marking colors. Plan-library blocks are flattened to true size and checked against their stated sizes.",
     "preview": "downloads/markings/cad/SSS-PMARK-LIBRARY.webp",
     "downloads": [
       {
         "label": "SSS-PMARK-LIBRARY.dwg",
         "path": "downloads/markings/cad/SSS-PMARK-LIBRARY.dwg",
         "note": "every marking block in one drawing, for the Blocks palette (Libraries tab), DesignCenter or a tool palette"
+      },
+      {
+        "label": "SSS-CALTRANS-STRIPING.lin",
+        "path": "downloads/cad-tools/SSS-CALTRANS-STRIPING.lin",
+        "note": "AutoCAD linetypes for every broken Caltrans striping detail, in feet, for long runs; the CT-DET blocks below show each full detail"
       },
       {
         "label": "SSS-CAD-TOOLS.lsp",

@@ -47,7 +47,7 @@
      14.996
     ],
     "grid_ft": 1.0,
-    "area": 36.51
+    "area": 22.68
    },
    {
     "size": [
@@ -67,11 +67,11 @@
    },
    {
     "size": [
-     3.501,
-     10.004
+     1.75,
+     5.002
     ],
-    "grid_ft": 1.0,
-    "area": 12.51
+    "grid_ft": 0.5,
+    "area": 3.13
    }
   ],
   "entries": {
@@ -81,7 +81,7 @@
    "TYPE-VI": 3,
    "TYPE-VIII": 5,
    "TYPE-I-18FT": 6,
-   "BIKE-LANE-ARROW": null,
+   "BIKE-LANE-ARROW": 8,
    "TYPE-V": null,
    "TYPE-VII-L": 7
   }
@@ -102,7 +102,7 @@
      23.992
     ],
     "grid_ft": 1.0,
-    "area": 56.44
+    "area": 58.32
    },
    {
     "size": [
@@ -110,7 +110,7 @@
      23.992
     ],
     "grid_ft": 1.0,
-    "area": 43.04
+    "area": 43.89
    },
    {
     "size": [
@@ -256,7 +256,13 @@
    "BIKE-SYMBOL": null,
    "BIKE-SYMBOL-PERSON": 2,
    "DIAMOND": 0,
-   "SHARROW": 4
+   "SHARROW": 4,
+   "NUMERAL-2": 5,
+   "NUMERAL-5": 6,
+   "NUMERAL-3": 7,
+   "_NUMERAL-5": 8,
+   "NUMERAL-4": 9,
+   "NUMERAL-0": 10
   }
  },
  "A24D": {

@@ -156,10 +156,20 @@ def figures(pdf, page_no, outline_width, join=8.0):
         if box.width < 6 or box.height < 6:
             continue
         step = _grid_step(grid_segs, box)
-        near = sorted(notes, key=lambda n: _gap(n[0], box))
-        if not step or not near or _gap(near[0][0], box) > 70:
+        near = [n for n in sorted(notes, key=lambda n: _gap(n[0], box)) if _gap(n[0], box) <= 90]
+        if not step or not near:
             continue
-        grid_ft = near[0][1]
+        # Pick the grid note whose scale makes the figure agree with the dimensions printed beside it;
+        # with no dimensions nearby, the nearest note wins.
+        dims = feet_text([w[4] for w in words if _gap(fitz.Rect(w[:4]), box) < 45])
+        width_pt, height_pt = box.height, box.width  # visual width runs along unrotated y
+
+        def score(note):
+            u = note[1] / step
+            if not dims:
+                return _gap(note[0], box)
+            return min(abs(width_pt * u - d) for d in dims) + min(abs(height_pt * u - d) for d in dims)
+        grid_ft = min(near, key=score)[1]
         unit = grid_ft / step  # feet per point
         loops = []
         for loop in chain([sg for i in group for sg in segments(outline[i])], tol=0.6):
