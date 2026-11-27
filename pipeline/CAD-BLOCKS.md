@@ -54,6 +54,28 @@ python3 pipeline/marking_library.py --libredwg <dir>
   `PM-*` rows stay. After changing `striping_db.py`, also run `python3 pipeline/build_linetypes.py`
   (line type pages and data).
 
+## From Caltrans DGN (cadkit)
+
+```
+cadkit dump --json 2026_a24f.dgn > a24f.json
+python3 pipeline/crosswalk_blocks.py --json a24f.json --libredwg <dir>
+cadkit dump --json 2026__es-01a.dgn > es01a.json     (and es-01b, es-01c)
+python3 pipeline/signal_blocks.py --json es01a.json es01b.json es01c.json --libredwg <dir>
+```
+
+- Individual 2026 Standard Plan DGNs download from the Caltrans DGN page (links on the page, e.g.
+  `/-/media/dot-media/programs/design/documents/2026-dgn-files/2026__es-01b.dgn`).
+- `cadkit convert` to DXF writes only the first model; read every model from `cadkit dump --json`.
+- A24F: the crosswalks are in model 1 at Caltrans's example dimensions (bars 1 to 2 ft, spacing 1 to
+  5 ft vary by the notes). Longitudinal lines on the ladder and diagonal are drawn by their outer
+  edge only and end in break-line cells: build the band from the outer edge to the bar ends. Label
+  breaks leave gaps in bar edges: bridge collinear gaps under 0.8 ft before forming faces.
+- ES-1A to ES-1C place the Caltrans cell library (CTCELLIB; N = new, E = existing) with each
+  description on the cell's row. The sheet model is 50 units per plotted inch (border 32.5 x 21 in,
+  text 0.14 in = 7 units). Symbols publish at plotted inches, base point at the cell origin, layer 0
+  ByBlock, inserted at the drawing scale. Unnamed cells take their name from the description and the
+  NEW / EXISTING column. Descriptions that are symbols or sit on another row are in `OVERRIDE`.
+
 ## Dynamic blocks
 
 ```
@@ -96,6 +118,8 @@ python3 pipeline/dynamic_blocks.py --dwg <plan drawing DWG> --libredwg <dir>
 - Numerals print in pairs with one area; match digits by size in reading order and check the pair.
 - Wind hatch rings by nesting depth (outer counterclockwise, holes clockwise) so counters and
   wheel rings stay open in every renderer.
+- libdxfrw `dwg2dxf` does not overwrite an existing output file: read back into a fresh path, or a
+  stale file passes for the new one.
 - Plan-set blocks are often drawn at display scale and placed at a fraction of it (words at 1/3,
   bike symbols stretched). Bake the placed scale in.
 - PyMuPDF reports a single straight stroke with a zero-area Rect, and Rect union drops empty
@@ -117,5 +141,7 @@ python3 pipeline/dynamic_blocks.py --dwg <plan drawing DWG> --libredwg <dir>
 
 - Every A24A to A24E figure is published (57 entries). Striping details 36 to 36B are the
   channelizing line only; gore layouts follow the plan.
-- Crosswalks: A24F's second DGN model holds the crosswalk figures as geometry; not yet built.
-- Signal symbols (ES sheets, Caltrans cell library CTCELLIB.cel), now readable with cadkit.
+- ES-1C pull boxes, vaults, cameras, message signs and the HAR antenna are drawn as loose elements,
+  not cells, so they are not published yet. ES-1B conduit line types are line samples, left out.
+- The full CTCELLIB.cel is behind a page this workspace cannot reach; the ES sheets carry its
+  traffic electrical cells.

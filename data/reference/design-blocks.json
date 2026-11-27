@@ -1504,6 +1504,71 @@
         "file": "PM-BIKE-LEFT-THRU-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Rotation grip"
+      },
+      {
+        "code": "CT-A24F-CONTINENTAL",
+        "name": "Continental crosswalk, 1 ft bars at 1 ft spacing, 6 ft \u00b7 Caltrans Std. Plan A24F (2026)",
+        "file": "CT-A24F-CONTINENTAL.dwg",
+        "group": "Crosswalks",
+        "size": [
+          21.0,
+          6.0
+        ],
+        "area": 66.0,
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "A24F"
+      },
+      {
+        "code": "CT-A24F-TRIPLE-FOUR",
+        "name": "Triple four crosswalk, 2 x 4 ft blocks \u00b7 Caltrans Std. Plan A24F (2026)",
+        "file": "CT-A24F-TRIPLE-FOUR.dwg",
+        "group": "Crosswalks",
+        "size": [
+          22.0,
+          12.0
+        ],
+        "area": 96.0,
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "A24F"
+      },
+      {
+        "code": "CT-A24F-LADDER",
+        "name": "Ladder crosswalk, 1 ft lines and bars, 6 ft between lines \u00b7 Caltrans Std. Plan A24F (2026)",
+        "file": "CT-A24F-LADDER.dwg",
+        "group": "Crosswalks",
+        "size": [
+          23.17,
+          8.0
+        ],
+        "area": 115.3,
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "A24F"
+      },
+      {
+        "code": "CT-A24F-DIAGONAL",
+        "name": "Diagonal crosswalk, 45 degree bars, 6 ft between lines \u00b7 Caltrans Std. Plan A24F (2026)",
+        "file": "CT-A24F-DIAGONAL.dwg",
+        "group": "Crosswalks",
+        "size": [
+          23.17,
+          8.0
+        ],
+        "area": 114.6,
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "A24F"
+      },
+      {
+        "code": "CT-A24F-BASIC",
+        "name": "Basic crosswalk, two 1 ft lines 6 ft apart \u00b7 Caltrans Std. Plan A24F (2026)",
+        "file": "CT-A24F-BASIC.dwg",
+        "group": "Crosswalks",
+        "size": [
+          23.17,
+          8.0
+        ],
+        "area": 46.3,
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "A24F"
       }
     ],
     "note": "True size, one unit = one foot. Each drawing opens as one block insert on layer P-PMARK; block geometry is a SOLID hatch with its outline on layer 0, ByBlock. Base point: the middle of an arrow's tail, or the bottom center of a word or symbol (top center for yield line triangles, which sit on the line). Caltrans blocks are traced from the 2026 Standard Plans and each matches its printed width, height and area; (R) arrows are mirror images, as the plans direct. Striping details (CT-DET) run along +X for one full repeat, base point at the start of the reference line, in marking colors. Plan-library blocks are flattened to true size and checked against their stated sizes.",
@@ -1534,9 +1599,12 @@
   "caltrans/signal-blocks": {
     "title": "Caltrans signal DWG blocks",
     "groups": [
+      "Annotation",
+      "Overhead signs",
       "Poles and mast arms",
-      "Signal heads",
+      "Lighting",
       "Detection",
+      "Signal heads",
       "Cabinets and conduit"
     ],
     "references": {
@@ -1547,7 +1615,1695 @@
       "Traffic signal guidance": "topics/signals/",
       "Caltrans publications": "caltrans/"
     },
-    "blocks": [],
-    "note": "Caltrans publishes its signal symbol cells as MicroStation libraries. The sources below govern signal symbols."
+    "blocks": [
+      {
+        "code": "CT-ES1A-AB",
+        "name": "Abandon. if applied to conduit, remove conductors \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-AB.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-BC",
+        "name": "Install pull box in existing conduit run \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-BC.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-CB",
+        "name": "Install conduit into existing pull box \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-CB.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-CC",
+        "name": "Connect new and existing conduit. remove existing conductors and install conductors as indicated \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-CC.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-CF",
+        "name": "Conduit to remain for future use. remove conductors. install pull tape \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-CF.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-DH",
+        "name": "Detector handhole \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-DH.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-FA",
+        "name": "Foundation to be abandoned \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-FA.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-IS",
+        "name": "Install sign on signal mast arm \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-IS.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NS",
+        "name": "No slip base on standard \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NS.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-PEC",
+        "name": "Photoelectric control \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-PEC.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-PEU",
+        "name": "Photoelectric unit \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-PEU.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-RC",
+        "name": "Equipment or material to be removed and become the property of the contractor \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-RC.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-RL",
+        "name": "Relocate equipment \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-RL.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-RR",
+        "name": "Remove and reuse equipment \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-RR.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-RS",
+        "name": "Remove and salvage equipment \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-RS.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-SC",
+        "name": "Splice new to existing conductors \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-SC.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-SD",
+        "name": "Service disconnect \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-SD.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-TSP",
+        "name": "Telephone service point \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-TSP.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NCE",
+        "name": "New city electrolier \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NCE.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NFFE",
+        "name": "New electrolier foundation (future installation) \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NFFE.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NLOWP",
+        "name": "New luminaire on wood pole \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NLOWP.dwg",
+        "group": "Lighting",
+        "size": [
+          0.65,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ECE",
+        "name": "Existing city electrolier \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ECE.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-EELECT",
+        "name": "Existing non-standard electrolier (see project legend) \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-EELECT.dwg",
+        "group": "Lighting",
+        "size": [
+          0.68,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-EFFE",
+        "name": "Existing electrolier foundation (future installation) \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-EFFE.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ESOWLM",
+        "name": "Existing soffit or wall-mounted luminaire to be modified as specified \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ESOWLM.dwg",
+        "group": "Lighting",
+        "size": [
+          0.78,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ESOWLU",
+        "name": "Existing soffit or wall-mounted luminaire to remain unmodified \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ESOWLU.dwg",
+        "group": "Lighting",
+        "size": [
+          0.78,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NF70W",
+        "name": "Flush-mounted soffit luminaire \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NF70W.dwg",
+        "group": "Lighting",
+        "size": [
+          0.78,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NW70W",
+        "name": "Wall-mounted luminaire \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NW70W.dwg",
+        "group": "Lighting",
+        "size": [
+          0.64,
+          0.5
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NP70W",
+        "name": "Pendant soffit luminaire \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NP70W.dwg",
+        "group": "Lighting",
+        "size": [
+          0.86,
+          0.4
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NELECT",
+        "name": "New non-standard electrolier (see project legend) \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NELECT.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ELOWP",
+        "name": "Existing luminaire on wood pole \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ELOWP.dwg",
+        "group": "Lighting",
+        "size": [
+          0.66,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT15",
+        "name": "New lighting standard Type 15 \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT15.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT15D",
+        "name": "New lighting standard Type 15D \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT15D.dwg",
+        "group": "Lighting",
+        "size": [
+          1.27,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT15DS",
+        "name": "New 15D structure \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT15DS.dwg",
+        "group": "Lighting",
+        "size": [
+          1.29,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT15S",
+        "name": "New 15 structure \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT15S.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT21",
+        "name": "New lighting standard Type 21 \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT21.dwg",
+        "group": "Lighting",
+        "size": [
+          0.68,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT21D",
+        "name": "New lighting standard Type 21D \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT21D.dwg",
+        "group": "Lighting",
+        "size": [
+          1.29,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT21S",
+        "name": "New 21 structure \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT21S.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT30",
+        "name": "New lighting standard Type 30 \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT30.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT21DS",
+        "name": "New 21D structure \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT21DS.dwg",
+        "group": "Lighting",
+        "size": [
+          1.29,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT32",
+        "name": "New lighting standard Type 32 \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT32.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-NT31",
+        "name": "New lighting standard Type 31 \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-NT31.dwg",
+        "group": "Lighting",
+        "size": [
+          0.67,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET15",
+        "name": "Existing lighting standard Type 15 \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET15.dwg",
+        "group": "Lighting",
+        "size": [
+          0.69,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET15D",
+        "name": "Existing lighting standard Type 15D \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET15D.dwg",
+        "group": "Lighting",
+        "size": [
+          1.29,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET15DS",
+        "name": "Existing 15D structure \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET15DS.dwg",
+        "group": "Lighting",
+        "size": [
+          1.29,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET15S",
+        "name": "Existing 15 structure \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET15S.dwg",
+        "group": "Lighting",
+        "size": [
+          0.69,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET21",
+        "name": "Existing lighting standard Type 21 \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET21.dwg",
+        "group": "Lighting",
+        "size": [
+          0.69,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET21D",
+        "name": "Existing lighting standard Type 21D \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET21D.dwg",
+        "group": "Lighting",
+        "size": [
+          1.3,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET21DS",
+        "name": "Existing 21D structure \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET21DS.dwg",
+        "group": "Lighting",
+        "size": [
+          1.29,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET21S",
+        "name": "Existing 21 structure \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET21S.dwg",
+        "group": "Lighting",
+        "size": [
+          0.69,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET30",
+        "name": "Existing lighting standard Type 30 \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET30.dwg",
+        "group": "Lighting",
+        "size": [
+          0.69,
+          0.33
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET31",
+        "name": "Existing lighting standard Type 31 \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET31.dwg",
+        "group": "Lighting",
+        "size": [
+          0.69,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-ET32",
+        "name": "Existing lighting standard Type 32 \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-ET32.dwg",
+        "group": "Lighting",
+        "size": [
+          0.69,
+          0.32
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1A-BPN",
+        "name": "Pedestrian barricade, type as indicated on plan \u00b7 Caltrans Std. Plan ES-1A (2026)",
+        "file": "CT-ES1A-BPN.dwg",
+        "group": "Annotation",
+        "size": [
+          0.4,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1A"
+      },
+      {
+        "code": "CT-ES1B-EDPIS",
+        "name": "Existing double post, single sign \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EDPIS.dwg",
+        "group": "Overhead signs",
+        "size": [
+          1.06,
+          0.13
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EIBMS",
+        "name": "Existing single sign mounted on structure \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EIBMS.dwg",
+        "group": "Overhead signs",
+        "size": [
+          0.81,
+          0.1
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EISWL",
+        "name": "Existing double post, single sign with electrolier \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EISWL.dwg",
+        "group": "Overhead signs",
+        "size": [
+          1.05,
+          0.37
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-ESCDIS",
+        "name": "Existing single post, double sign, balanced butterfly \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-ESCDIS.dwg",
+        "group": "Overhead signs",
+        "size": [
+          0.81,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-ESCMIS",
+        "name": "Existing single post, single sign, balanced butterfly \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-ESCMIS.dwg",
+        "group": "Overhead signs",
+        "size": [
+          0.81,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-ESGN1PELECT",
+        "name": "Existing single post, single sign, full cantilever with electrolier \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-ESGN1PELECT.dwg",
+        "group": "Overhead signs",
+        "size": [
+          0.78,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-ESSMIS",
+        "name": "Existing single post, single sign, full cantilever \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-ESSMIS.dwg",
+        "group": "Overhead signs",
+        "size": [
+          0.91,
+          0.11
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NCFB",
+        "name": "New flashing beacon with types 9, 9A or 9B sign unless otherwise specified or indicated \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NCFB.dwg",
+        "group": "Signal heads",
+        "size": [
+          1.12,
+          0.44
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NDPIS",
+        "name": "New double post, single sign \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NDPIS.dwg",
+        "group": "Overhead signs",
+        "size": [
+          1.07,
+          0.13
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NFBARM",
+        "name": "New flashing beacon (one vehicle signal head with backplate and visor) \"R\" indicates red indication \"Y\" indicates yellow indication \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NFBARM.dwg",
+        "group": "Signal heads",
+        "size": [
+          0.68,
+          0.28
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NIBMS",
+        "name": "New single sign mounted on structure \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NIBMS.dwg",
+        "group": "Overhead signs",
+        "size": [
+          0.81,
+          0.1
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NISWL",
+        "name": "New double post, single sign with electrolier \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NISWL.dwg",
+        "group": "Overhead signs",
+        "size": [
+          1.07,
+          0.35
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NSCDIS",
+        "name": "New single post, double sign, balanced butterfly \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NSCDIS.dwg",
+        "group": "Overhead signs",
+        "size": [
+          0.81,
+          0.31
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NSCMIS",
+        "name": "New single post, single sign, balanced butterfly \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NSCMIS.dwg",
+        "group": "Overhead signs",
+        "size": [
+          0.81,
+          0.21
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NSGN1PELECT",
+        "name": "New single post, single sign, full cantilever with electrolier \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NSGN1PELECT.dwg",
+        "group": "Overhead signs",
+        "size": [
+          0.78,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NSSMIS",
+        "name": "New single post, single sign, full cantilever \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NSSMIS.dwg",
+        "group": "Overhead signs",
+        "size": [
+          0.91,
+          0.1
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EFBARM",
+        "name": "Existing flashing beacon (one vehicle signal head with backplate and visor) \"R\" indicates red indication \"Y\" indicates yellow indication \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EFBARM.dwg",
+        "group": "Signal heads",
+        "size": [
+          0.68,
+          0.28
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NM15FB",
+        "name": "New flashing beacon with Type 15-FBS standard and a sign. \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NM15FB.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.55,
+          0.78
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EM15FB",
+        "name": "Existing flashing beacon with Type 15-FBS standard and a sign. \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EM15FB.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.57,
+          0.78
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-ECFB",
+        "name": "Existing flashing beacon with types 9, 9A or 9B sign unless otherwise specified or indicated \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-ECFB.dwg",
+        "group": "Signal heads",
+        "size": [
+          1.12,
+          0.44
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NWPP",
+        "name": "New wood pole, \"U\" indicates utility owned \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NWPP.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.47,
+          0.24
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EPGUY",
+        "name": "Existing pole guy with anchor \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EPGUY.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          1.06,
+          0.42
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NPGUY",
+        "name": "New pole guy with anchor \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NPGUY.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          1.06,
+          0.42
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-ETDC",
+        "name": "Existing telephone demarcation cabinet \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-ETDC.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.3,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NTDC",
+        "name": "New telephone demarcation cabinet \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NTDC.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.3,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-ETIII",
+        "name": "Existing service equipment enclosure Type III, door indicates front of enclosure \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-ETIII.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.48,
+          0.45
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NTIII",
+        "name": "New service equipment enclosure Type III, door indicates front of enclosure \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NTIII.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.43,
+          0.4
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NPMUT",
+        "name": "New utility transformer - ground mounted \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NPMUT.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.3,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EPMUT",
+        "name": "Existing utility transformer - ground mounted \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EPMUT.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.3,
+          0.3
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-ER",
+        "name": "Existing conduit riser attached to the structure or service pole \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-ER.dwg",
+        "group": "Lighting",
+        "size": [
+          0.55,
+          0.4
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NR",
+        "name": "New conduit riser attached to the structure or service pole \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NR.dwg",
+        "group": "Lighting",
+        "size": [
+          0.55,
+          0.4
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EPBAR",
+        "name": "Existing pedestrian barricade \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EPBAR.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.7,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NPBAR",
+        "name": "New pedestrian barricade \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NPBAR.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.7,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EPSH",
+        "name": "Existing pedestrian signal head \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EPSH.dwg",
+        "group": "Signal heads",
+        "size": [
+          0.68,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NPSH",
+        "name": "New pedestrian signal head \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NPSH.dwg",
+        "group": "Signal heads",
+        "size": [
+          0.68,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-ESFAV",
+        "name": "Existing vehicle signal head with angle visor \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-ESFAV.dwg",
+        "group": "Signal heads",
+        "size": [
+          1.12,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NSFAV",
+        "name": "New vehicle signal head with angle visor \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NSFAV.dwg",
+        "group": "Signal heads",
+        "size": [
+          1.12,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NSMS",
+        "name": "New vehicle signal head consisting of red, yellow and green sections (l, lg, pv, 8 and phbf modify it) \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NSMS.dwg",
+        "group": "Signal heads",
+        "size": [
+          0.82,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-ESMS",
+        "name": "Existing vehicle signal head consisting of red, yellow and green sections (l, lg, pv, 8 and phbf modify it) \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-ESMS.dwg",
+        "group": "Signal heads",
+        "size": [
+          0.87,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-N312LA",
+        "name": "New vehicle signal head consisting of red, yellow, and green left arrow sections (typical) \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-N312LA.dwg",
+        "group": "Signal heads",
+        "size": [
+          0.82,
+          0.33
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-E312LA",
+        "name": "Existing vehicle signal head consisting of red, yellow, and green left arrow sections (typical) \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-E312LA.dwg",
+        "group": "Signal heads",
+        "size": [
+          0.82,
+          0.33
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-E12UA",
+        "name": "Existing vehicle signal head consisting of red and yellow sections with an up green arrow section \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-E12UA.dwg",
+        "group": "Signal heads",
+        "size": [
+          0.82,
+          0.24
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-N12UA",
+        "name": "New vehicle signal head consisting of red and yellow sections with an up green arrow section \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-N12UA.dwg",
+        "group": "Signal heads",
+        "size": [
+          0.82,
+          0.24
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-E21TS",
+        "name": "Existing Type 21TS standard with vehicle signal head, pedestrian signal head, and luminaire \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-E21TS.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.94,
+          0.94
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-N21TS",
+        "name": "New Type 21TS standard with vehicle signal head, pedestrian signal head, and luminaire \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-N21TS.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.78,
+          0.9
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NTYPE1",
+        "name": "New Type 1 standard with attached vehicle signal heads \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NTYPE1.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.9,
+          0.59
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-E170",
+        "name": "Existing controller assembly, door indicates front of cabinet \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-E170.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.6,
+          0.22
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NCNTRLCAB",
+        "name": "New controller assembly, door indicates front of cabinet \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NCNTRLCAB.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.59,
+          0.22
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EGP",
+        "name": "Existing guard post \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EGP.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.12,
+          0.12
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NEVD",
+        "name": "New optical detector for the emergency vehicle detection \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NEVD.dwg",
+        "group": "Detection",
+        "size": [
+          0.66,
+          0.23
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EEVD",
+        "name": "Existing optical detector for the emergency vehicle detection \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EEVD.dwg",
+        "group": "Detection",
+        "size": [
+          0.56,
+          0.23
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-NMSWLS",
+        "name": "New standard with luminaire and signal mast arms and attached vehicle signal heads \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-NMSWLS.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          1.18,
+          0.96
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EMSWLS",
+        "name": "Existing standard with luminaire and signal mast arms and attached vehicle signal heads \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EMSWLS.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          1.18,
+          0.98
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-E15TS",
+        "name": "Existing Type 15TS standard with vehicle signal head, pedestrian signal head, and luminaire \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-E15TS.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.94,
+          0.95
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-N15TS",
+        "name": "New Type 15TS standard with vehicle signal head, pedestrian signal head, and luminaire \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-N15TS.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.78,
+          0.9
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-EPPB",
+        "name": "Existing post with push button \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-EPPB.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.2,
+          0.21
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-E-TYPE-1-STANDARD-WITH-ATTACHE",
+        "name": "Existing Type 1 standard with attached vehicle signal heads \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-E-TYPE-1-STANDARD-WITH-ATTACHE.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.95,
+          0.61
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-N-STANDARD-WITH-A-SIGNAL-MAST",
+        "name": "New standard with a signal mast arm, attached vehicle signal heads and street name sign \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-N-STANDARD-WITH-A-SIGNAL-MAST.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          1.18,
+          0.86
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-E-STANDARD-WITH-A-SIGNAL-MAST",
+        "name": "Existing standard with a signal mast arm, attached vehicle signal heads and street name sign \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-E-STANDARD-WITH-A-SIGNAL-MAST.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          1.43,
+          0.86
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1B-N-POST-WITH-PUSH-BUTTON",
+        "name": "New post with push button \u00b7 Caltrans Std. Plan ES-1B (2026)",
+        "file": "CT-ES1B-N-POST-WITH-PUSH-BUTTON.dwg",
+        "group": "Poles and mast arms",
+        "size": [
+          0.2,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1B"
+      },
+      {
+        "code": "CT-ES1C-N-DETECTION-DEVICE-M-MICROWAVE",
+        "name": "New detection device m = microwave sensor v = video detection sensor \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-N-DETECTION-DEVICE-M-MICROWAVE.dwg",
+        "group": "Detection",
+        "size": [
+          0.62,
+          0.24
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-E-DETECTION-DEVICE-M-MICROWAVE",
+        "name": "Existing detection device m = microwave sensor v = video detection sensor \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-E-DETECTION-DEVICE-M-MICROWAVE.dwg",
+        "group": "Detection",
+        "size": [
+          0.62,
+          0.24
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-E-TYPE-C-LOOP-DETECTOR-OUTLINE",
+        "name": "Existing Type C loop detector. outline of saw cut shown \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-E-TYPE-C-LOOP-DETECTOR-OUTLINE.dwg",
+        "group": "Detection",
+        "size": [
+          0.55,
+          0.28
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-E-TYPE-B-LOOP-DETECTOR-OUTLINE",
+        "name": "Existing Type B loop detector. outline of saw cut shown \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-E-TYPE-B-LOOP-DETECTOR-OUTLINE.dwg",
+        "group": "Detection",
+        "size": [
+          0.78,
+          0.78
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-E-TYPE-D-LOOP-DETECTOR-OUTLINE",
+        "name": "Existing Type D loop detector. outline of saw cut shown \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-E-TYPE-D-LOOP-DETECTOR-OUTLINE.dwg",
+        "group": "Detection",
+        "size": [
+          0.55,
+          0.55
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-N-TYPE-C-LOOP-DETECTOR-OUTLINE",
+        "name": "New Type C loop detector. outline of saw cut shown \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-N-TYPE-C-LOOP-DETECTOR-OUTLINE.dwg",
+        "group": "Detection",
+        "size": [
+          0.55,
+          0.28
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-N-TYPE-B-LOOP-DETECTOR-OUTLINE",
+        "name": "New Type B loop detector. outline of saw cut shown \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-N-TYPE-B-LOOP-DETECTOR-OUTLINE.dwg",
+        "group": "Detection",
+        "size": [
+          0.78,
+          0.78
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-N-TYPE-D-LOOP-DETECTOR-OUTLINE",
+        "name": "New Type D loop detector. outline of saw cut shown \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-N-TYPE-D-LOOP-DETECTOR-OUTLINE.dwg",
+        "group": "Detection",
+        "size": [
+          0.55,
+          0.55
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-E-TYPE-Q-LOOP-DETECTOR-OUTLINE",
+        "name": "Existing Type Q loop detector. outline of saw cut shown \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-E-TYPE-Q-LOOP-DETECTOR-OUTLINE.dwg",
+        "group": "Detection",
+        "size": [
+          0.55,
+          0.55
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-N-TYPE-Q-LOOP-DETECTOR-OUTLINE",
+        "name": "New Type Q loop detector. outline of saw cut shown \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-N-TYPE-Q-LOOP-DETECTOR-OUTLINE.dwg",
+        "group": "Detection",
+        "size": [
+          0.55,
+          0.55
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-E-TYPE-A-LOOP-DETECTOR-OUTLINE",
+        "name": "Existing Type A loop detector. outline of saw cut shown \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-E-TYPE-A-LOOP-DETECTOR-OUTLINE.dwg",
+        "group": "Detection",
+        "size": [
+          0.55,
+          0.55
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-N-TYPE-A-LOOP-DETECTOR-OUTLINE",
+        "name": "New Type A loop detector. outline of saw cut shown \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-N-TYPE-A-LOOP-DETECTOR-OUTLINE.dwg",
+        "group": "Detection",
+        "size": [
+          0.55,
+          0.55
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION",
+        "name": "New microwave or video detection zone \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION.dwg",
+        "group": "Detection",
+        "size": [
+          1.25,
+          0.47
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-E-MICROWAVE-OR-VIDEO-DETECTION",
+        "name": "Existing microwave or video detection zone \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-E-MICROWAVE-OR-VIDEO-DETECTION.dwg",
+        "group": "Detection",
+        "size": [
+          1.25,
+          0.47
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-E-RADAR-SPEED-FEEDBACK-SIGN",
+        "name": "Existing radar speed feedback sign \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-E-RADAR-SPEED-FEEDBACK-SIGN.dwg",
+        "group": "Detection",
+        "size": [
+          0.64,
+          0.68
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-ENCLOSURE-BOND",
+        "name": "Enclosure bond \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-ENCLOSURE-BOND.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.26,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-CIRCUIT-BREAKER",
+        "name": "Circuit breaker \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-CIRCUIT-BREAKER.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.75,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-RECEPTACLE",
+        "name": "Receptacle \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-RECEPTACLE.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.27,
+          0.4
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-CONTACTOR-NC-CONTACT",
+        "name": "Contactor, NC contact \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-CONTACTOR-NC-CONTACT.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.72,
+          0.28
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-TERMINAL-BLOCKS",
+        "name": "Terminal blocks \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-TERMINAL-BLOCKS.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.2,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-CONTACTOR-NO-CONTACT",
+        "name": "Contactor, NO contact \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-CONTACTOR-NO-CONTACT.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.72,
+          0.2
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-TIE-POINT",
+        "name": "Tie point \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-TIE-POINT.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.72,
+          0.08
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-CONTACTOR-COIL",
+        "name": "Contactor coil \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-CONTACTOR-COIL.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.72,
+          0.18
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-GROUNDING-ELECTRODE",
+        "name": "Grounding electrode \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-GROUNDING-ELECTRODE.dwg",
+        "group": "Cabinets and conduit",
+        "size": [
+          0.24,
+          0.42
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-E-ROADWAY-SENSOR-PIEZOELECTRIC",
+        "name": "Existing roadway sensor, piezoelectric axle sensor unless otherwise indicated \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-E-ROADWAY-SENSOR-PIEZOELECTRIC.dwg",
+        "group": "Detection",
+        "size": [
+          0.55,
+          0.08
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      },
+      {
+        "code": "CT-ES1C-N-ROADWAY-SENSOR-PIEZOELECTRIC",
+        "name": "New roadway sensor, piezoelectric axle sensor unless otherwise indicated \u00b7 Caltrans Std. Plan ES-1C (2026)",
+        "file": "CT-ES1C-N-ROADWAY-SENSOR-PIEZOELECTRIC.dwg",
+        "group": "Detection",
+        "size": [
+          0.55,
+          0.08
+        ],
+        "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+        "sheet": "ES-1C"
+      }
+    ],
+    "note": "Caltrans 2026 electrical legend symbols (Standard Plans ES-1A, ES-1B and ES-1C), read from the official DGN sheets: the Caltrans cell library as the plans place it, new and existing. Plan symbols at plotted size: one unit = one plotted inch; insert at the drawing scale (x40 at 1\" = 40'). Each drawing opens as one block insert, base point at the Caltrans cell origin, geometry on layer 0 ByBlock so the insert layer sets the color.",
+    "downloads": [
+      {
+        "label": "SSS-SIGNAL-LIBRARY.dwg",
+        "path": "downloads/caltrans/signal-blocks/SSS-SIGNAL-LIBRARY.dwg",
+        "note": "every symbol in one drawing, for the Blocks palette (Libraries tab), DesignCenter or a tool palette"
+      }
+    ]
   }
 }
