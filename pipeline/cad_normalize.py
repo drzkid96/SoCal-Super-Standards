@@ -84,8 +84,14 @@ def normalize_block(doc, blk):
                 e.dxf.discard('true_color')
         elif color in (0, 7):
             e.dxf.color = 256
-    frames = [e for e in blk if e.dxf.layer == std.NOPLOT and e.dxftype() == 'LWPOLYLINE']
-    have = {tuple(round(v, 3) for v in (*bbox.extents([f]).extmin.xy, *bbox.extents([f]).extmax.xy)) for f in frames}
+    have = set()
+    for f in [e for e in blk if e.dxf.layer == std.NOPLOT and e.dxftype() == 'LWPOLYLINE']:
+        b = bbox.extents([f])
+        key = tuple(round(v, 3) for v in (b.extmin.x, b.extmin.y, b.extmax.x, b.extmax.y))
+        if key in have:
+            blk.delete_entity(f)        # one frame per field is enough
+        else:
+            have.add(key)
     for h in [e for e in blk if is_field(e)]:
         for loop in frame_points(h):
             xs, ys = [p[0] for p in loop], [p[1] for p in loop]
