@@ -73,14 +73,14 @@ def sign_families():
             if r['code'] in seen:
                 continue
             seen.add(r['code'])
-            states.append(dict(state=r['code'], code=r['code'], file='sign-blocks/' + r['file']))
+            states.append(dict(state=r['code'], code=r['code'], id=r['id']))
         name = 'SN-' + re.sub(r'[^A-Z0-9]+', '-', base.upper()).strip('-') + '-DYN'
         out.append(dict(name=name, route='signs/cad', label=f'{base} sign, left and right versions', states=states))
     first = OrderedDict((r['code'], r) for r in reversed(speed))
     speed = sorted(first.values(), key=lambda r: int(re.sub(r'\D', '', r['code'][4:]) or 0))
     if len(speed) > 1:
         out.append(dict(name='SN-R2-1-SPEED-DYN', route='signs/cad', label='R2-1 speed limit, every posted speed',
-                        states=[dict(state=r['code'], code=r['code'], file='sign-blocks/' + r['file']) for r in speed]))
+                        states=[dict(state=r['code'], code=r['code'], id=r['id']) for r in speed]))
     return out
 
 
@@ -111,6 +111,14 @@ def package(root=None):
     """Zip the build routine, the manifest and every state drawing (run after sign blocks hydrate)."""
     fams = json.loads(OUT.read_text())['families']
     downloads = Path('public/downloads')
+    hydrated = downloads / 'sign-blocks/manifest.json'      # sign files get their published paths at hydrate
+    by_id = {r['id']: 'sign-blocks/' + r['file'] for r in json.loads(hydrated.read_text())['records']} if hydrated.exists() else {}
+    for f in fams:
+        for s in f['states']:
+            if 'id' in s:
+                if s['id'] not in by_id:
+                    raise ValueError(f'sign block {s["id"]} is not published')
+                s['file'] = by_id[s['id']]
     with zipfile.ZipFile(PACKAGE, 'w', zipfile.ZIP_DEFLATED) as z:
         z.write(LISP, LISP.name)
         z.writestr('SSS-DYNBUILD-MANIFEST.csv', manifest_csv(fams))
