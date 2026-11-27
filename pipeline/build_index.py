@@ -470,9 +470,8 @@ description: A to Z index of design concepts across every standard drawing, manu
 tableOfContents: false
 ---
 
-<div class="sfilter kfilter"><input id="kq" type="search" placeholder="Filter the index: cat tracks, RRFB, bulb-out, pull box, 2WLTL..."><span id="kcount">{len(entries)} index entries &middot; {len(kw_rows)} drawing keywords</span></div>
+<div class="sfilter kfilter"><input id="kq" type="search" placeholder="Filter the index: cat tracks, RRFB, bulb-out, pull box, 2WLTL..."><span id="kcount"></span></div>
 
-Each entry gathers every drawing, figure, table, marking and sign on the site that deals with one design concept, under the name you are most likely to search plus its synonyms and abbreviations. Drawings that name the concept in their title, summary or keywords are listed first; drawings that only mention it in their notes follow. The same synonyms power the Detail Index filter and site search.
 
 <nav class="knav">{" ".join(f'<a href="#l-{L}">{L}</a>' for L in letters)} <a href="#kw-az">Drawing keywords</a></nav>
 
@@ -483,7 +482,6 @@ Each entry gathers every drawing, figure, table, marking and sign on the site th
 <div class="ksec-kw">
 <h2 id="kw-az">Drawing keywords, A to Z</h2>
 
-Plain-language keywords written for each drawing and scanned page, other than the index entries above.
 
 <ul class="kwaz">{"".join(kw_rows)}</ul>
 </div>
@@ -501,7 +499,7 @@ Plain-language keywords written for each drawing and scanned page, other than th
     E.forEach(el=>{{const ok=!words.length||words.every(w=>el._t.includes(w));el.style.display=ok?'':'none';if(ok)c++;}});
     secs.forEach(s=>{{s.style.display=[...s.querySelectorAll('.kentry')].some(e=>e.style.display!=='none')?'':'none';}});
     if(kwSec) kwSec.style.display=[...kwSec.querySelectorAll('.kwaz li')].some(e=>e.style.display!=='none')?'':'none';
-    n.textContent=words.length?(c+' matches'):'{len(entries)} index entries \u00b7 {len(kw_rows)} drawing keywords';
+    n.textContent=words.length?(c+' matches'):'';
     const u=new URLSearchParams(location.search);
     if(q.value.trim()) u.set('q',q.value.trim()); else u.delete('q');
     history.replaceState(null,'',location.pathname+(u.toString()?'?'+u:'')+location.hash);

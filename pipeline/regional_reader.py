@@ -65,7 +65,7 @@ def build(root,lookup):
                 img=f'{BASE}/regional-sheets/{d["key"]}/{i}.avif'
                 heading=f'Page {i}'+(' · '+label[:110] if label else '')
                 body.append(f'<section class="reg-page" id="p-{i}" data-label="{escape(heading,quote=True)}"><h2>{escape(heading)}</h2><a href="{img}" class="reg-scan" data-title="{escape(title,quote=True)}, page {i}">Open full sheet image</a><p><a href="{url}#p-{i}">Link to this page</a> · <a href="{escape(d["source"])}#page={i}">Publisher PDF, page {i}</a></p>')
-                if txt:body.append('<details><summary>Searchable page text</summary><p>'+escape(txt)+'</p></details>')
+                if txt:body.append('<div class="search-text" hidden>'+escape(txt)+'</div>')
                 body.append('</section>')
                 ref=url+'#p-'+str(i)
                 listing=[name+' · '+(heading if label else title+' · p. '+str(i)),ref]

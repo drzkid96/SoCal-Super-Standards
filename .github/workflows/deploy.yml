@@ -92,6 +92,7 @@ jobs:
           node pipeline/test_calculations.mjs
           for f in public/js/*.js public/js/atlas/*.js; do node --check "$f"; done
           python3 -I pipeline/check_links.py
+          python3 pipeline/check_declutter.py
           python3 pipeline/check_printed_citations.py
           python3 -I pipeline/check_bike_refs.py
           python pipeline/check_reader.py

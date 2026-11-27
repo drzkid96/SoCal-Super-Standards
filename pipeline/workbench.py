@@ -119,7 +119,7 @@ def build(root,lookup):
     ]
     home.write_text('---\ntitle: Southern California transportation standards\ntemplate: splash\n---\n\n' +
                     search + '\n\n' + home_tasks() + '\n\n' + home_cad() + '\n\n' +
-                    '<div class="home-columns">' + ''.join(cols) + '</div>\n\n' + home_coverage() + '\n')
+                    '<div class="home-columns">' + ''.join(cols) + '</div>\n')
 
 
 def _count(path, key=None):
@@ -147,29 +147,16 @@ def home_tasks():
 
 
 def home_cad():
-    """Drawing-ready CAD, counted from the catalogs the download pages are built from."""
-    catalog = json.loads(Path('data/reference/design-blocks.json').read_text())
-    signs = _count('public/downloads/sign-blocks/manifest.json', 'records') + _count('public/data/plan-face-options.json')
-    marks = len(catalog.get('markings/cad', {}).get('blocks', []))
-    sig = len(catalog.get('signals/cad', {}).get('blocks', []))
-    cards = [('Sign blocks', 'signs/cad/', f'{signs:,} DWGs' if signs else 'DWG library',
-              'Legend-cell blocks with ROMANS codes, a legend builder and a PDF sign chart'),
-             ('Pavement markings', 'markings/cad/', f'{marks:,} blocks',
-              'Caltrans 2026 A24 figures at true size, striping details and line types, dynamic plan blocks'),
-             ('Signals and survey', 'signals/cad/', f'{sig:,} blocks',
-              'Caltrans ES-1 symbols, LA signal plan blocks with existing and proposed states, survey symbols')]
-    body = ''.join(f'<a href="{BASE}/{url}"><b>{escape(n)}</b><strong>{escape(t)}</strong><span>{escape(d)}</span></a>'
-                   for t, url, n, d in cards)
+    """The three CAD libraries, each with a picture of a typical block."""
+    cards = [('Sign blocks', 'signs/cad/', 'signs/R1-1.svg',
+              'Legend-cell sign blocks, a legend builder and a PDF sign chart'),
+             ('Pavement markings', 'markings/cad/', 'block-previews/markings/cad/CT-A24C-BIKE-SYMBOL.svg',
+              'Caltrans arrows, words, symbols and crosswalks at true size, striping details, LA plan blocks'),
+             ('Signals and survey', 'signals/cad/', 'block-previews/signals/cad/SG-VEHICLE-HEAD-RYG-DYN.svg',
+              'Caltrans electrical symbols, LA signal plan blocks and survey symbols')]
+    body = ''.join(f'<a href="{BASE}/{url}"><img src="{BASE}/{img}" alt="" loading="lazy"><strong>{escape(t)}</strong><span>{escape(d)}</span></a>'
+                   for t, url, img, d in cards)
     return ('<section class="home-cad" aria-labelledby="home-cad-title"><h2 id="home-cad-title">CAD blocks</h2>'
-            '<p>Every drawing opens as block inserts on standard layers.</p>'
             f'<div class="home-cad-grid">{body}</div></section>')
 
 
-def home_coverage():
-    """One line of coverage numbers, all computed from the current data."""
-    details = _count('public/data/details.json')
-    signs = _count('public/data/signs-index.json')
-    parts = [(f'{details:,} details and figures', 'details/'), (f'{signs:,} sign codes', 'signs/'),
-             ('What governs: CA MUTCD 2026 and Caltrans 2026 Standard Plans', 'bulletins/standards-status/')]
-    links = ' · '.join(f'<a href="{BASE}/{url}">{escape(t)}</a>' for t, url in parts if not t.startswith('0 '))
-    return f'<p class="home-coverage">{links}</p>'

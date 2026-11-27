@@ -334,10 +334,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     const card = (i) => `<a class="dx-card" href="${i.url}">${i.img ? `<div class="dx-img"><img loading="lazy" src="${i.img}" alt=""></div>` : ''}
       <div class="dx-body"><div class="dx-tags"><span class="dx-tag ${i.sg === 'MUTCD' ? (i.src.startsWith('CA') ? 'c' : 'f') : 'l'}">${esc(i.src)}</span></div>
       <b>${i.type === 'Figure page' ? '' : (i.type === 'Standard drawing' ? '' : esc(i.type) + ' ') + esc(i.num)}</b> ${esc(i.title || '')}
-      ${i.date ? `<div class="dx-meta">Dated ${esc(i.date)} &middot; ${i.sheets} sheet(s)</div>` : ''}
-      ${i.parts ? `<div class="dx-meta">${i.parts} sheets</div>` : ''}
-      ${i.also ? `<div class="dx-meta">Also published as ${esc(i.also.map((x) => x.src + ' ' + (x.type === 'Standard drawing' ? x.num : 'p ' + x.num.replace(/^p/, ''))).join('; '))}</div>` : ''}
-      ${i.description ? `<p class="dx-sum">${esc(i.description)}</p>` : ''}</div></a>`;
+      ${i.date ? `<div class="dx-meta">${esc(i.date)}</div>` : ''}</div></a>`;
 
     function scoreItem(i, pq) {
       let sc = 0;

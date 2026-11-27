@@ -198,6 +198,8 @@ from article_layout import build as prepare_editorial_articles
 prepare_editorial_articles(root, current_details)
 from design_blocks import build as build_design_blocks
 build_design_blocks(root, look)
+from declutter import build as declutter
+declutter(root)
 from search_catalog import build as build_search_catalog
 build_search_catalog(root, look, current_details)
 finish_atlas(root,atlas_profiles)
