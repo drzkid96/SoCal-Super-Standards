@@ -1,0 +1,10 @@
+{
+  "release": "download-store",
+  "repository": "drzkid96/SoCal-Super-Standards",
+  "minBytes": 4000000,
+  "keep": [],
+  "names": {
+    "downloads/sign-blocks/master.dwg": "SOCAL-SIGN-CATALOG.dwg",
+    "downloads/sign-blocks/blocks.zip": "SOCAL-SIGN-BLOCKS.zip"
+  }
+}

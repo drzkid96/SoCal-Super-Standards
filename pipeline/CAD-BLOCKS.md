@@ -112,6 +112,28 @@ python3 pipeline/plan_blocks.py --source westwood-ss=<S&S DWG> --source westwood
 - Checks: proxy bytes per kept block unchanged, LibreDWG decodes native evaluation graphs and no proxies,
   model space holds block references only.
 - `SSS-CAD-TOOLS.lsp` (`SSSDYNEXPORT`) stays for drawings handled in AutoCAD.
+- Static blocks drawn in place at state plane coordinates (the left turn calming pieces) get their base
+  point moved to the bottom center; polylines collapsed to one point are dropped. Dynamic blocks are
+  never edited this way (their actions can point at vertices).
+- Rebuilding re-encodes every file with a new timestamp: keep only new files and the libraries
+  (`git checkout` the unchanged individual DWGs) so the repository does not grow for nothing.
+
+## Composed blocks: `composed_blocks.py`
+
+`python3 pipeline/composed_blocks.py --libredwg <dir>` writes blocks the plans draw as loose geometry
+or typed text:
+- Green bike crossing dashes, one per lane width the plan uses (5, 6, 6.5, 7, 8 ft): 2 ft green dash
+  with the bike lane line segment on each edge, repeated every 8 ft along the path (ARRAYPATH).
+- Two-line legends (KEEP CLEAR, BUS ONLY, WAIT HERE) from the published Caltrans word blocks, first
+  word nearest the driver, 4 x the letter height between lines (CA MUTCD 3B.20 low-speed minimum).
+Run `marking_library.py` and `block_previews.py` after it.
+
+## Page pictures: `block_previews.py`
+
+`python3 pipeline/block_previews.py [--only CODE ...]` converts each published marking and signal DWG with
+ODA (dynamic blocks show their saved state) and writes an SVG to `public/block-previews/<route>/`.
+Markings: pavement gray, field colors, green fields behind symbols. Signals: black on white. The page
+build stops when a block has no picture.
 
 ## Audit: `cad_audit.py`
 
@@ -166,5 +188,8 @@ may report findings.
   traffic electrical cells.
 - `sign-blocks/master.dwg` keeps its source drawing's insert on layer 0 and a few zero-length lines;
   its header dimension style is fixed by `master-fix.patch.zst` (ODA audit, applied in hydrate).
+- Left out of the Westwood drawings: RR and RxR (Caltrans RXR covers them), the signal plan's BUS
+  word (24 ft tall, not a standard size), the bollard and trash can icons (elevations, not plan symbols),
+  dimension arrows, AutoTURN paths, bus stop layouts tied to locations, match lines and note flags.
 - Westwood survey and signal-plan symbols whose abbreviation was not certain (GP, WF, BK1, BSL, NEW ML,
   20ML R) are left out until named.

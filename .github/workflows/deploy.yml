@@ -6,7 +6,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 jobs:
@@ -79,9 +79,14 @@ jobs:
         with:
           path: .transit-sources/riverside-transit.pdf
           key: riverside-edition-${{ hashFiles('data/reference/transit-editions.json') }}
-      - uses: withastro/action@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+      - name: Build the site
+        run: |
+          npm ci
+          npm run build
       - name: Verify JS syntax, internal links, and bike citations
         run: |
           node pipeline/test_calculations.mjs
@@ -106,6 +111,15 @@ jobs:
           python pipeline/test_atlas_browser.py
           python pipeline/test_site_navigation.py
           python pipeline/test_sign_cart.py
+      - name: Move large downloads to the download store
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python pipeline/asset_store.py ${{ github.event_name != 'pull_request' && '--upload' || '' }}
+      - name: Check the site size budget
+        run: python pipeline/site_budget.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
   deploy:
     concurrency:
       group: standards-pages-publish

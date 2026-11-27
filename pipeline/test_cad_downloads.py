@@ -99,9 +99,7 @@ text=browser.getroot().text_content()
 for meta in ('Source and size evidence','Size evidence','File checksums','Source record only','CAD evidence','Reopened after DWG conversion'):
     assert meta not in text,meta
 assert not browser.xpath('//*[contains(@class,"cad-evidence")]')
-site_bytes=sum(p.stat().st_size for p in dist.rglob('*') if p.is_file())
-assert site_bytes<=1_000_000_000,f'Published site exceeds the 1 GB GitHub Pages limit: {site_bytes:,} bytes'
-print(f'Verified {len(cards)} native DWG downloads, master, ZIP, SHA-256, sign routes and variant anchors; complete site {site_bytes:,} bytes.')
+print(f'Verified {len(cards)} native DWG downloads, master, ZIP, SHA-256, sign routes and variant anchors.')
 
 # Check the image served by every sign card, including cards without a DWG.
 from PIL import Image

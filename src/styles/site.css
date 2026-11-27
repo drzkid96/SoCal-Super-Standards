@@ -1264,3 +1264,13 @@ body:has(.topic-outline) .project-gallery figure img,body:has(.topic-outline) .t
 .home-coverage{margin:1rem 0 0;font-size:.85rem;text-align:center;color:var(--sl-color-gray-2)}
 @media(max-width:56rem){.home-tasks{grid-template-columns:repeat(2,minmax(0,1fr))}.home-cad-grid{grid-template-columns:1fr}}
 @media(max-width:40rem){.home-tasks{gap:.45rem}.home-tasks>a{padding:.55rem .65rem}.home-tasks span{font-size:.76rem}.home-cad-grid{gap:.45rem}}
+
+/* CAD block catalog cards (markings/cad, signals/cad) */
+.sl-markdown-content .block-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(10.5rem,1fr));gap:.75rem;margin:1rem 0}
+.sl-markdown-content .block-card{margin:0;border:1px solid var(--sl-color-gray-5);border-radius:.4rem;overflow:hidden;display:flex;flex-direction:column;background:var(--sl-color-bg)}
+.sl-markdown-content .block-card > a{display:flex;align-items:center;justify-content:center;height:8.5rem;background:#e9e9e6;padding:.4rem}
+.sl-markdown-content .block-card img{max-width:100%;max-height:100%;object-fit:contain;margin:0}
+.sl-markdown-content .block-card figcaption{display:flex;flex-direction:column;gap:.15rem;padding:.45rem .55rem .55rem;font-size:.78rem;line-height:1.35;margin:0}
+.sl-markdown-content .block-card figcaption strong{font-size:.8rem;overflow-wrap:anywhere}
+.sl-markdown-content .block-card figcaption span{color:var(--sl-color-gray-3)}
+.sl-markdown-content .block-card figcaption a{align-self:flex-start;margin-top:auto;font-weight:600}
