@@ -17,6 +17,18 @@ def build(root, lookup):
         lines = ['---', 'title: ' + json.dumps(title), 'tableOfContents: false', '---', '']
         if collection.get('note'):
             lines.extend([escape(collection['note']), ''])
+        if collection.get('preview'):
+            image = Path('public') / collection['preview']
+            if not image.is_file():
+                raise ValueError(f'Missing preview: {image}')
+            lines.extend([f'<img src="{BASE}/{quote(collection["preview"])}" alt="{escape(title)} overview" loading="lazy" style="max-width:100%;background:#fff">', ''])
+        for item in collection.get('downloads', []):
+            asset = Path('public') / item['path']
+            if not asset.is_file():
+                raise ValueError(f'Missing download: {asset}')
+            lines.append(f'<p><strong>{escape(item["label"])}</strong> · {escape(item["note"])} · <a download href="{BASE}/{quote(item["path"])}">Download</a></p>')
+        if collection.get('downloads'):
+            lines.append('')
         groups = {name: [] for name in collection['groups']}
         used = set()
         for row in collection['blocks']:
@@ -28,7 +40,9 @@ def build(root, lookup):
             with (Path('public') / asset).open('rb') as drawing:
                 if not drawing.read(6).startswith(b'AC10'):
                     raise ValueError(f'Invalid DWG: {asset}')
-            groups[row['group']].append((code, row['name'], asset))
+            size = row.get('size')
+            label = row['name'] + (f' · {size[0]:g} × {size[1]:g} ft' if size else '')
+            groups[row['group']].append((code, label, asset))
         if not used:
             lines.append('No DWG blocks have been published yet. Browse the design references below.')
         for group, rows in groups.items():
