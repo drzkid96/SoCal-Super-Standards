@@ -15,6 +15,8 @@ def build(root, lookup):
         page = root / route / 'index.md'
         page.parent.mkdir(parents=True, exist_ok=True)
         lines = ['---', 'title: ' + json.dumps(title), 'tableOfContents: false', '---', '']
+        if collection.get('note'):
+            lines.extend([escape(collection['note']), ''])
         groups = {name: [] for name in collection['groups']}
         used = set()
         for row in collection['blocks']:

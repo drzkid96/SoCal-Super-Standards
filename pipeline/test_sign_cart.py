@@ -23,24 +23,28 @@ from test_atlas_browser import serve_build
 
 
 def check_legend(doc, groups, rows):
+    """Each sign is one cell block at its cell's lower-left corner, with its code as MTEXT centered below the face."""
     model = doc.modelspace()
-    placements = list(model.query('INSERT'))
-    labels = [e for e in model.query('TEXT') if e.dxf.layer == 'LADOT-LEGEND-CODE']
-    titles = [e for e in model.query('TEXT') if e.dxf.layer == 'LADOT-LEGEND-TITLE']
-    grid = [e for e in model.query('LINE') if e.dxf.layer == 'LADOT-LEGEND-GRID']
+    placements = [e for e in model.query('INSERT') if e.dxf.layer == 'P-SIGN']
+    labels = [e for e in model.query('MTEXT') if e.dxf.layer == 'P-SIGN-TEXT']
+    titles = [e for e in model.query('MTEXT') if e.dxf.layer == 'P-SIGN-TITL']
+    grid = [e for e in model.query('LINE') if e.dxf.layer == 'P-SIGN-TABL']
     ordered = [key for _,keys in groups for key in keys]
     assert len(placements) == len(labels) == len(ordered)
     expected_names = {rows[key]['blockName'] for key in ordered}
     definitions = {b.name for b in doc.blocks if not b.is_any_layout}
-    assert definitions == expected_names, (definitions, expected_names)
-    bounds = {name:bbox.extents(doc.blocks[name]) for name in expected_names}
+    assert definitions == expected_names | {name+'-FACE' for name in expected_names}, (definitions, expected_names)
+    for name in expected_names:
+        inner = list(doc.blocks[name])
+        assert [e.dxftype() for e in inner] == ['INSERT'] and inner[0].dxf.name == name+'-FACE'
     tables = []
     for name, keys in groups:
         count = (len(keys)+27)//28
         for i in range(count):
-            title = name + (f' ({i+1} OF {count})' if count > 1 else '')
+            title = name.upper() + (f' ({i+1} OF {count})' if count > 1 else '')
             tables.append((title, keys[i*28:i*28+28]))
-    assert [e.dxf.text for e in titles] == [name for name,_ in tables]
+    assert [e.plain_text() for e in titles] == [name for name,_ in tables]
+    assert all(e.dxf.style == 'ROMANS' for e in labels+titles)
     assert len(grid) == 18*len(tables)
     cursor = 0
     for n,(_,keys) in enumerate(tables):
@@ -53,16 +57,15 @@ def check_legend(doc, groups, rows):
             label = labels[cursor]
             insert = placements[cursor]
             row = rows[key]
-            box = bounds[insert.dxf.name]
             px,py,_ = insert.dxf.insert
-            scale = insert.dxf.xscale
-            assert scale>0 and insert.dxf.yscale==scale
-            assert insert.dxf.name == row['blockName'] and label.dxf.text == row['code']
+            assert insert.dxf.xscale == insert.dxf.yscale == 40
+            assert insert.dxf.name == row['blockName'] and label.plain_text() == row['code']
             left,right = xs[index%2:index%2+2]
             bottom,top = ys[13-index//2:15-index//2]
-            assert left<px+scale*box.extmin.x<px+scale*box.extmax.x<right
-            assert bottom<label.dxf.insert.y<py+scale*box.extmin.y<py+scale*box.extmax.y<top
-            assert abs(label.dxf.insert.x-(left+right)/2)<.01
+            assert abs(px-left)<1e-6 and abs(py-bottom)<1e-6, 'block base point must sit on the cell corner'
+            face = bbox.extents(insert.virtual_entities())
+            assert left<face.extmin.x<face.extmax.x<right and bottom<label.dxf.insert.y<face.extmin.y<face.extmax.y<top
+            assert abs(label.dxf.insert.x-(left+right)/2)<.01 and label.dxf.attachment_point == 8
             cursor+=1
 
 

@@ -6,7 +6,17 @@
   const dialog=pick('data-cart-dialog'), count=pick('data-cart-count'), open=pick('data-cart-open');
   const items=pick('data-cart-items'), status=pick('data-cart-status'), clear=pick('data-cart-clear'), download=pick('data-cart-download');
   const grid=pick('data-legend-grid'), preview=pick('data-legend-preview'), caption=pick('data-legend-caption');
-  const previous=pick('data-legend-prev'), next=pick('data-legend-next');
+  const previous=pick('data-legend-prev'), next=pick('data-legend-next'), pdf=pick('data-cart-pdf');
+  const layoutKey='sss-sign-legend-layout-v1', fields={title:pick('data-layout-title'),columns:pick('data-layout-columns'),
+    rows:pick('data-layout-rows'),page:pick('data-layout-page'),cellScale:pick('data-layout-scale')};
+  const whole=(v,lo,hi,d)=>{const n=Math.round(Number(v));return Number.isFinite(n)?Math.max(lo,Math.min(hi,n)):d;};
+  // One layout drives the preview, the DWG legend tables and the PDF chart.
+  function layout(){
+    return {title:(fields.title?.value||'').trim(),columns:whole(fields.columns?.value,1,8,2),rows:whole(fields.rows?.value,1,24,14),
+      page:fields.page?.value||'tabloid-landscape',cellScale:Number(fields.cellScale?.value)||1};
+  }
+  const perTable=()=>{const l=layout();return l.columns*l.rows;};
+  const fileStem=fallback=>{const t=layout().title.toUpperCase().replace(/[^A-Z0-9]+/g,'-').replace(/^-|-$/g,'');return t||fallback;};
   const nodes=new Map();
   for(const input of document.querySelectorAll('input[data-cart-select]')){
     const id=input.dataset.cartSelect;
@@ -40,7 +50,8 @@
   function tablesFor(list){
     const tables=[];
     for(const group of list){
-      for(let i=0;i<group.records.length;i+=28)tables.push({group,records:group.records.slice(i,i+28),number:1+i/28,total:Math.ceil(group.records.length/28)});
+      const size=perTable();
+      for(let i=0;i<group.records.length;i+=size)tables.push({group,records:group.records.slice(i,i+size),number:1+i/size,total:Math.ceil(group.records.length/size)});
     }
     return tables;
   }
@@ -49,8 +60,9 @@
     preview.hidden=!tables.length;if(!tables.length){grid.replaceChildren();return;}
     tableIndex=Math.max(0,Math.min(tables.length-1,tableIndex));
     const t=tables[tableIndex], fragment=document.createDocumentFragment();
-    caption.textContent=(t.group.sheetId===manual?'Sign legend':t.group.label)+' · Table '+t.number+' of '+t.total;
-    for(let i=0;i<28;i++){
+    const l=layout();grid.style.gridTemplateColumns='repeat('+l.columns+',minmax(0,1fr))';
+    caption.textContent=(l.title||(t.group.sheetId===manual?'Sign legend':t.group.label))+' · Table '+t.number+' of '+t.total+' · '+l.columns+' × '+l.rows;
+    for(let i=0;i<l.columns*l.rows;i++){
       const cell=el('div');cell.dataset.legendCell=String(i+1);
       if(i<t.records.length){
         const id=t.records[i],record=catalog?.get(id);cell.dataset.recordId=id;cell.title=record?.code||id;
@@ -85,6 +97,7 @@
     items.replaceChildren(fragment);drawPreview();
     pick('data-cart-order-label').hidden=!selected.size;
     clear.disabled=busy||!selected.size;download.disabled=busy||!selected.size||Boolean(catalog&&[...selected].some(id=>!catalog.has(id)));
+    if(pdf)pdf.disabled=download.disabled;
     if(!selected.size)status.textContent='No signs selected.';
   }
   function sync(updated){
@@ -153,8 +166,8 @@
     if(remove)g.records.splice(current,1);
     else if(to>=0 && to<g.records.length)[g.records[current],g.records[to]]=[g.records[to],g.records[current]];
     if(!remove){
-      const offset=list.slice(0,list.indexOf(g)).reduce((s,x)=>s+Math.ceil(x.records.length/28),0);
-      tableIndex=offset+Math.floor(to/28);
+      const size=perTable(),offset=list.slice(0,list.indexOf(g)).reduce((s,x)=>s+Math.ceil(x.records.length/size),0);
+      tableIndex=offset+Math.floor(to/size);
     }
     store(list);
     const rows=[...items.querySelectorAll('li[data-group]')].filter(x=>x.dataset.group===g.sheetId);
@@ -162,16 +175,26 @@
     (focus?.querySelector('button:not([disabled])')||pick('data-cart-close')).focus({preventScroll:true});
   });
   clear.addEventListener('click',()=>{if(!busy){tableIndex=0;store([]);}});
-  download.addEventListener('click',async()=>{
+  async function exportLegend(kind){
     if(busy||!selected.size)return;
-    const snapshot=cleaned(groups);busy=true;review();status.textContent='Preparing sign legend…';
+    const snapshot=cleaned(groups),settings=layout();busy=true;review();
+    status.textContent=kind==='pdf'?'Preparing PDF chart…':'Preparing sign legend…';
     try{
       const catalog=await options(),ordered=snapshot.map(g=>({...g,records:g.records.map(id=>catalog.get(id))}));
       const records=[...new Set(ordered.flatMap(g=>g.records))];if(records.some(r=>!r))throw Error('Remove unavailable drawings and try again.');
-      const blob=await window.SSSBuildSignZip(records,(n,total)=>{status.textContent='Preparing legend · '+n+' of '+total+' drawing files';},ordered);
-      const objectURL=URL.createObjectURL(blob),a=el('a');a.download='LADOT-SIGN-LEGEND.zip';a.href=objectURL;document.body.append(a);a.click();a.remove();
-      setTimeout(()=>URL.revokeObjectURL(objectURL),60000);status.textContent='Downloaded the sign legend and '+records.length+' individual DWG'+(records.length===1?'':'s')+'.';
+      const blob=await window.SSSBuildSignZip(records,(n,total)=>{status.textContent='Preparing legend · '+n+' of '+total+' drawing files';},ordered,settings,kind);
+      const objectURL=URL.createObjectURL(blob),a=el('a');
+      a.download=kind==='pdf'?fileStem('SIGN-LEGEND-CHART')+'.pdf':fileStem('LADOT-SIGN-LEGEND')+'.zip';a.href=objectURL;document.body.append(a);a.click();a.remove();
+      setTimeout(()=>URL.revokeObjectURL(objectURL),60000);
+      status.textContent=kind==='pdf'?'Downloaded the PDF sign chart.':'Downloaded the sign legend and '+records.length+' individual DWG'+(records.length===1?'':'s')+'.';
     }catch(error){status.textContent='Download failed. '+(error?.message||'Try again.');}finally{busy=false;review();}
+  }
+  download.addEventListener('click',()=>exportLegend('dwg'));
+  pdf?.addEventListener('click',()=>exportLegend('pdf'));
+  try{const saved=JSON.parse(localStorage.getItem(layoutKey)||'{}');for(const [k,f] of Object.entries(fields))if(f&&saved[k]!==undefined)f.value=saved[k];}catch{}
+  for(const f of Object.values(fields))f?.addEventListener('input',()=>{
+    try{localStorage.setItem(layoutKey,JSON.stringify(layout()));}catch{}
+    tableIndex=0;drawPreview();
   });
   shell.hidden=false;sync(stored());
   if(new URL(location.href).searchParams.get('cart')==='1')show();

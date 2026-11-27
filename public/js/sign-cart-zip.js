@@ -1,7 +1,8 @@
 // The chart and sign pages only load the ZIP library after a download request.
 (() => {
   const workerURL = new URL('sign-cart-worker.js', document.currentScript.src);
-  window.SSSBuildSignZip = (records, onProgress, groups) => new Promise((resolve, reject) => {
+  // kind 'dwg' returns the legend ZIP; kind 'pdf' returns the vector sign chart.
+  window.SSSBuildSignZip = (records, onProgress, groups, layout = {}, kind = 'dwg') => new Promise((resolve, reject) => {
     if (!Array.isArray(records) || !records.length) {
       reject(new Error('Select at least one sign.'));
       return;
@@ -13,7 +14,7 @@
       if (data.error) { fail(data.error); return; }
       if (data.buffer) {
         worker.terminate();
-        resolve(new Blob([data.buffer], {type:'application/zip'}));
+        resolve(new Blob([data.buffer], {type:kind === 'pdf' ? 'application/pdf' : 'application/zip'}));
       } else {
         onProgress?.(data.completed, data.total);
       }
@@ -22,6 +23,6 @@
     const sheets = (groups || [{label:'SIGN LEGEND', records}]).map(group => ({
       label:group.label, ids:group.records.map(record => typeof record === 'string' ? record : record.id),
     }));
-    worker.postMessage({records:selected, sheets});
+    worker.postMessage({records:selected, sheets, layout, kind});
   });
 })();

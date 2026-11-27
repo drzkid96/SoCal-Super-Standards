@@ -8,12 +8,53 @@
       "Crosswalks"
     ],
     "references": {
+      "Caltrans 2026 Standard Plans A20A\u2013A24L (DGN, official CAD source)": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
+      "Caltrans 2026 Standard Plans (PDF)": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+      "LADOT Drafting Standards for Striping and Signal Plans": "https://ladot.lacity.gov/sites/default/files/documents/final-drafting-manual.pdf",
       "Striping details": "markings/#cat-lines",
       "Arrow layouts": "markings/#cat-arrows",
       "Words and symbols": "markings/#cat-words",
       "Crosswalk layouts": "markings/#cat-crosswalks"
     },
-    "blocks": []
+    "blocks": [
+      {
+        "code": "CT-A24A-TYPE-I-10FT",
+        "name": "Type I arrow, 10 ft \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-I-10FT.dwg",
+        "group": "Arrows",
+        "size": [
+          3.5,
+          10.0
+        ],
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
+      },
+      {
+        "code": "CT-A24A-TYPE-I-18FT",
+        "name": "Type I arrow, 18 ft \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-I-18FT.dwg",
+        "group": "Arrows",
+        "size": [
+          3.5,
+          18.0
+        ],
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
+      },
+      {
+        "code": "CT-A24A-TYPE-I-24FT",
+        "name": "Type I arrow, 24 ft \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-I-24FT.dwg",
+        "group": "Arrows",
+        "size": [
+          3.5,
+          24.0
+        ],
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
+      }
+    ],
+    "note": "Traced from the official Caltrans 2026 Standard Plans and checked against the printed dimensions. True size, one unit = one foot; base point at the center of the tail, arrow pointing up. Each drawing holds one block insert on layer P-PMARK."
   },
   "caltrans/signal-blocks": {
     "title": "Caltrans signal DWG blocks",
@@ -24,11 +65,14 @@
       "Cabinets and conduit"
     ],
     "references": {
-      "Caltrans CADD Users Manual · Traffic / Electrical symbols": "https://dot.ca.gov/programs/design/manual-cadd-users-manual",
-      "Caltrans 2026 Standard Plans": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications",
+      "Caltrans CADD Users Manual \u00b7 cell library (Traffic / Electrical)": "https://dot.ca.gov/programs/design/manual-cadd-users-manual",
+      "Caltrans 2026 Standard Plans ES-series (PDF)": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+      "LADOT Red Book 2026 \u00b7 Traffic Signal Symbols (S-50.1)": "https://ladot.lacity.gov/sites/default/files/2026-04/red-book-2026.pdf",
+      "LADOT Drafting Standards \u00b7 Signal and Civil Symbols": "https://ladot.lacity.gov/sites/default/files/documents/final-drafting-manual.pdf",
       "Traffic signal guidance": "topics/signals/",
       "Caltrans publications": "caltrans/"
     },
-    "blocks": []
+    "blocks": [],
+    "note": "Caltrans publishes its signal symbol cells as MicroStation libraries. The sources below govern signal symbols."
   }
 }

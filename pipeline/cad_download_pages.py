@@ -369,7 +369,8 @@ def write_pages(root, lookup, release):
     coverage=(f'<p class="cad-coverage"><a href="?availability=matched">{linked_evidence:,} callouts with matching DWGs</a> · '
               f'<a href="?availability=source">{len(unmatched_codes):,} designations without a DWG</a></p>')
     usage=(f'Drawing units · {ESC(units)}. Insertion point · {ESC(release["basepoint"])}. '
-           'Insert an individual drawing to create its named block in the receiving drawing. The master contains the named blocks for browsing. '
+           'Each individual drawing holds one sign block and its code as MTEXT, sized to the LADOT plan sign legend cell. '
+           'The master contains the true-size named blocks for browsing and detail work. '
            'Published sizes identify the application cited in the record. Source dimensions come from the original drawing. '
            '“Reference size unknown” blocks use a normalized 1-inch face width. Verify the physical size with the issuing agency before using them at scale.')
     body=(CSS+f'\n\n<section class="cad-library" data-cad-downloads><div class="sign-library-actions"><a class="sign-chart-back" href="{BASE}/signs/">Browse sign chart</a>'+cart.shell()+f'</div><div class="cad-bulk">{bulk}</div>'

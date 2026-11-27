@@ -97,6 +97,7 @@ jobs:
           node pipeline/test_location_search.mjs
           node pipeline/test_cad_sign_catalog.mjs
           node pipeline/test_sign_import.mjs
+          node pipeline/test_sign_legend_pdf.mjs
           python pipeline/test_cad_downloads.py
           python -m pip install selenium ezdxf
           python pipeline/test_sheet_viewer.py
