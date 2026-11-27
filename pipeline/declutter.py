@@ -30,6 +30,10 @@ def clean(text):
     text = re.sub(r'(<div class="srcbar">)(.*?)(</div>)', srcbar, text, flags=re.S)
     text = re.sub(r'(<div class="secmeta">)(.*?)(</div>)\n?', secmeta, text, flags=re.S)
     text = re.sub(r'<p class="alsopub">.*?</p>\n?', '', text, flags=re.S)
+    text = re.sub(SEP + r'manual pages? \d+(?:\s*(?:&ndash;|–|-)\s*\d+)?', '', text)
+    text = re.sub(r'(<span id="kcount">)[^<]*(</span>)', r'\1\2', text)
+    text = re.sub(r"'\d+ index entries[^']*'", "''", text)
+    text = re.sub(r'\nEvery page of every [^\n]*\n', '\n', text)
     return text
 
 
