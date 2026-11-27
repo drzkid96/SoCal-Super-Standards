@@ -22,9 +22,6 @@ import tempfile
 import zipfile
 from pathlib import Path
 
-import ezdxf
-import pymupdf
-
 from current_catalog import BASE
 from ladot_drawings import native_route, ownership, read, source_pdf
 
@@ -39,6 +36,7 @@ def asset_name(key, code):
 
 def flatten(item, k=8):
     """Points of one PyMuPDF path item, curves flattened."""
+    import pymupdf
     kind = item[0]
     if kind == 'l':
         return [item[1], item[2]]
@@ -64,6 +62,7 @@ def vector_page(page):
 
 
 def add_page(doc, page, ox, images, work, stem, n):
+    import pymupdf
     msp = doc.modelspace()
     h = page.rect.height / 72
 
@@ -125,6 +124,7 @@ def sheet_layout(doc, name, ox, w, h):
 
 
 def build_drawing(key, code, pages, pdf, work):
+    import ezdxf
     doc = ezdxf.new('R2018', setup=False)
     doc.units = 1
     doc.header['$INSUNITS'] = 1
@@ -153,6 +153,7 @@ def oda(src, out):
 
 
 def build(libredwg, dest, only=()):
+    import ezdxf
     editions = read('data/reference/ladot-editions.json')
     made = {}
     stage = dest / 'dxf'
