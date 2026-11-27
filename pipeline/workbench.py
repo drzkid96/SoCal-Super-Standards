@@ -154,7 +154,7 @@ def home_cad():
               'Caltrans arrows, words, symbols and crosswalks at true size, striping details, LA plan blocks'),
              ('Signals and survey', 'signals/cad/', 'block-previews/signals/cad/SG-VEHICLE-HEAD-RYG-DYN.svg',
               'Caltrans electrical symbols, LA signal plan blocks and survey symbols')]
-    body = ''.join(f'<a href="{BASE}/{url}"><img src="{BASE}/{img}" alt="" loading="lazy"><strong>{escape(t)}</strong><span>{escape(d)}</span></a>'
+    body = ''.join(f'<a href="{BASE}/{url}"><img src="{BASE}/{img}" alt="" loading="lazy" /><strong>{escape(t)}</strong><span>{escape(d)}</span></a>'
                    for t, url, img, d in cards)
     return ('<section class="home-cad" aria-labelledby="home-cad-title"><h2 id="home-cad-title">CAD blocks</h2>'
             f'<div class="home-cad-grid">{body}</div></section>')

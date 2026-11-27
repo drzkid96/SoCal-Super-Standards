@@ -21,6 +21,7 @@ def secmeta(m):
     inner = m[2]
     inner = re.sub(SEP + r'manual page \d+', '', inner)
     inner = re.sub(SEP + r'<a [^>]*>short link</a>', '', inner)
+    inner = re.sub(SEP + r'<span class="badge muted">no CA counterpart found</span>', '', inner)
     inner = re.sub(r'^Section [^&·<]+(?:' + SEP + r'|$)', '', inner.strip())
     return (m[1] + inner + m[3] + '\n') if inner.strip() else ''
 
