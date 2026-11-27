@@ -8,7 +8,8 @@
       "Words and symbols",
       "Bicycle markings",
       "Striping patterns",
-      "Crosswalks"
+      "Crosswalks",
+      "Dynamic blocks"
     ],
     "references": {
       "Caltrans 2026 Standard Plans A20A\u2013A24L (DGN, official CAD source)": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
@@ -1468,6 +1469,41 @@
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
         "sheet": "A20"
+      },
+      {
+        "code": "PM-YIELD-LINE-DYN",
+        "name": "Yield line \u00b7 dynamic \u00b7 LA signing and striping plan library",
+        "file": "PM-YIELD-LINE-DYN.dwg",
+        "group": "Dynamic blocks",
+        "dynamic": "Linear grip sets the line length; the 2 x 3 ft triangles repeat along it"
+      },
+      {
+        "code": "PM-THRU-LEFT-ARROW-DYN",
+        "name": "Through and left arrow \u00b7 dynamic \u00b7 LA signing and striping plan library",
+        "file": "PM-THRU-LEFT-ARROW-DYN.dwg",
+        "group": "Dynamic blocks",
+        "dynamic": "Visibility: existing, remove and proposed, each on its own layer (E-PMARK, R-PMARK, P-PMARK)"
+      },
+      {
+        "code": "PM-ARROW-SET-DYN",
+        "name": "Arrow set \u00b7 dynamic \u00b7 LA signing and striping plan library",
+        "file": "PM-ARROW-SET-DYN.dwg",
+        "group": "Dynamic blocks",
+        "dynamic": "Visibility picks the arrow; five flip grips mirror it"
+      },
+      {
+        "code": "PM-BIKE-LANE-GREEN-DYN",
+        "name": "Green bike lane panel, 7 x 25 ft, bike symbol and arrow \u00b7 dynamic \u00b7 LA signing and striping plan library",
+        "file": "PM-BIKE-LANE-GREEN-DYN.dwg",
+        "group": "Dynamic blocks",
+        "dynamic": "Visibility and a rotation grip for the panel"
+      },
+      {
+        "code": "PM-BIKE-LEFT-THRU-ARROW-DYN",
+        "name": "Bike left and through arrow \u00b7 dynamic \u00b7 LA signing and striping plan library",
+        "file": "PM-BIKE-LEFT-THRU-ARROW-DYN.dwg",
+        "group": "Dynamic blocks",
+        "dynamic": "Rotation grip"
       }
     ],
     "note": "True size, one unit = one foot. Each drawing opens as one block insert on layer P-PMARK; block geometry is a SOLID hatch with its outline on layer 0, ByBlock. Base point: the middle of an arrow's tail, or the bottom center of a word or symbol (top center for yield line triangles, which sit on the line). Caltrans blocks are traced from the 2026 Standard Plans and each matches its printed width, height and area; (R) arrows are mirror images, as the plans direct. Striping details (CT-DET) run along +X for one full repeat, base point at the start of the reference line, in marking colors. Plan-library blocks are flattened to true size and checked against their stated sizes.",
@@ -1477,6 +1513,11 @@
         "label": "SSS-PMARK-LIBRARY.dwg",
         "path": "downloads/markings/cad/SSS-PMARK-LIBRARY.dwg",
         "note": "every marking block in one drawing, for the Blocks palette (Libraries tab), DesignCenter or a tool palette"
+      },
+      {
+        "label": "SSS-PMARK-DYNAMIC.dwg",
+        "path": "downloads/markings/cad/SSS-PMARK-DYNAMIC.dwg",
+        "note": "every dynamic marking block in one drawing, grips and visibility states intact (AutoCAD 2018 DWG)"
       },
       {
         "label": "SSS-CALTRANS-STRIPING.lin",

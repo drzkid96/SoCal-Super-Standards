@@ -41,7 +41,7 @@ def build(root, lookup):
                 if not drawing.read(6).startswith(b'AC10'):
                     raise ValueError(f'Invalid DWG: {asset}')
             size = row.get('size')
-            label = row['name'] + (f' · {size[0]:g} × {size[1]:g} ft' if size else '')
+            label = row['name'] + (f' · {size[0]:g} × {size[1]:g} ft' if size else '') + (f' · {row["dynamic"]}' if row.get('dynamic') else '')
             groups[row['group']].append((code, label, asset))
         if not used:
             lines.append('No DWG blocks have been published yet. Browse the design references below.')

@@ -1,14 +1,17 @@
 # CAD blocks: how they are built
 
-Signs, pavement markings and signals. Every published DWG is AutoCAD 2000 (AC1015), opens as
-block references (never loose geometry), and is read back by LibreDWG and LibreCAD libdxfrw
-before it is published.
+Signs, pavement markings and signals. Every published static DWG is AutoCAD 2000 (AC1015), opens
+as block references (never loose geometry), and is read back by LibreDWG and LibreCAD libdxfrw
+before it is published. Dynamic blocks are AutoCAD 2018 (AC1032), written by ODA File Converter.
 
 ## Tools (local builds)
 
 - LibreDWG `dxf2dwg` / `dwg2dxf` and LibreCAD `libdxfrw` `dwg2dxf`, pinned in the dxf-to-dwg skill.
 - `ezdxf`, `shapely`, `pymupdf`.
-- AutoCAD itself for dynamic blocks (`public/downloads/cad-tools/SSS-CAD-TOOLS.lsp`).
+- ODA File Converter 27.10 (`dpkg -i` the .deb; headless with `xvfb-run -a`, needs `libopengl0`):
+  DWG and DXF in any version, dynamic block objects kept.
+- cadkit (`cargo install cadkit-cli`): reads MicroStation DGN v7 and v8 (`cadkit info`, `cadkit
+  convert --dxf-version r2018`; a sheet's figures can sit in its second model, `--model 1` for SVG).
 
 ## Signs: `sign_cells.py`
 
@@ -53,9 +56,28 @@ python3 pipeline/marking_library.py --libredwg <dir>
 
 ## Dynamic blocks
 
-LibreDWG cannot write dynamic block data reliably, so AutoCAD writes it. Load
-`SSS-CAD-TOOLS.lsp`, run `SSSDYNEXPORT` in the drawing that holds the dynamic blocks, and publish
-the `-SSS-DYNAMIC.dwg` and `.csv` it writes byte for byte. Never re-encode them.
+```
+python3 pipeline/dynamic_blocks.py --dwg <plan drawing DWG> --libredwg <dir>
+```
+
+- ODA writes the plan as DXF with every dynamic block object (evaluation graph, parameters, grips,
+  actions, visibility states) as an ACAD_PROXY_OBJECT that keeps its bytes and the handles it owns.
+  The drawing is cut to the chosen definitions (`KEEP`), cleaned, renamed `PM-...-DYN`, and ODA
+  writes the DWG in the source version (2018), which restores the proxies as native objects.
+- Never change the class table: proxies point at classes by position.
+- Clean only what the actions do not depend on: entity layer and color, block names, units, base
+  geometry stays where it is. Layers inside: 0 ByBlock, green fields ACI 3, non-plotting geometry
+  on Defpoints, existing / remove / proposed states on E-PMARK / R-PMARK / P-PMARK (P-PMARK white).
+- Strip plan residue or each file stays near 650 KB: Civil 3D and Map dictionaries (`Root`,
+  `Autodesk_MAP`, `PE5.*`, `ESRI_PRJ`, `ADE_`, `ASE_`, GUID keys), page setups, material extension
+  records (corrupt XML), named views, the ACDSDATA section, unused dimension and text styles,
+  linetypes and application names. Keep anything the dynamic data points at.
+- Checks: each kept block's proxies come back with identical class and bytes, LibreDWG decodes
+  native evaluation graphs with no proxies, cadkit reads with no warnings, ODA audit is clean.
+- Default visibility state is the author's (THRU-LEFT opens on existing); hidden states carry
+  AutoCAD's invisible flag, so renderers show the default state.
+- `SSS-CAD-TOOLS.lsp` (`SSSDYNEXPORT`) stays for dynamic blocks in other drawings when ODA is not
+  at hand.
 
 ## Lessons
 
@@ -88,11 +110,12 @@ the `-SSS-DYNAMIC.dwg` and `.csv` it writes byte for byte. Never re-encode them.
   `SHEETS`: Type II (L) is 6'-9" (its halves equal Type II (B) and the through head; printed
   7'-0"), the bike symbol without rider is 5.2 ft2 (printed 7, the rider symbol's value), the ISA
   white area is 7.1 ft2 (printed 9; checked on four dimensions instead).
-- Caltrans and LA-area CAD symbol libraries are MicroStation DGN v8 and .cel. Converting them
-  needs a DGN reader (ODA, cadkit, Aspose or AutoCAD DGNIMPORT).
+- Caltrans and LA-area CAD symbol libraries are MicroStation DGN v8 and .cel; cadkit reads them.
+  ODA File Converter does not read DGN.
 
 ## Still open
 
 - Every A24A to A24E figure is published (57 entries). Striping details 36 to 36B are the
   channelizing line only; gore layouts follow the plan.
-- Crosswalks (A24F, no grid or area) and signal symbols (ES sheets, Caltrans cell library).
+- Crosswalks: A24F's second DGN model holds the crosswalk figures as geometry; not yet built.
+- Signal symbols (ES sheets, Caltrans cell library CTCELLIB.cel), now readable with cadkit.
