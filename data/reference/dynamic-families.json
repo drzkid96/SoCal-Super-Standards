@@ -440,17 +440,17 @@
     {
      "state": "G33-1(CA)",
      "code": "G33-1(CA)",
-     "file": "sign-blocks/individual/Guide/Reference size unknown/G33-1(CA).dwg"
+     "id": "pico-g33-1-ca-799ed0"
     },
     {
      "state": "G33-1(CA)(LT)",
      "code": "G33-1(CA)(LT)",
-     "file": "sign-blocks/individual/Guide/Reference size unknown/G33-1(CA)(LT).dwg"
+     "id": "pico-g33-1-ca-lt-10f66c0"
     },
     {
      "state": "G33-1(CA)(RT)",
      "code": "G33-1(CA)(RT)",
-     "file": "sign-blocks/individual/Guide/Reference size unknown/G33-1(CA)(RT).dwg"
+     "id": "pico-g33-1-ca-rt-10f66ba"
     }
    ]
   },
@@ -462,12 +462,12 @@
     {
      "state": "M4-10L",
      "code": "M4-10L",
-     "file": "sign-blocks/individual/Guide/Reference size unknown/M4-10L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-m4-10l-11f95"
     },
     {
      "state": "M4-10R",
      "code": "M4-10R",
-     "file": "sign-blocks/individual/Guide/Reference size unknown/M4-10R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-m4-10r-11f96"
     }
    ]
   },
@@ -479,12 +479,12 @@
     {
      "state": "M7-1",
      "code": "M7-1",
-     "file": "sign-blocks/individual/Guide/Reference size unknown/M7-1.dwg"
+     "id": "fp-signs-67c2"
     },
     {
      "state": "M7-1(L)",
      "code": "M7-1(L)",
-     "file": "sign-blocks/individual/Guide/Reference size unknown/M7-1(L).dwg"
+     "id": "fp-signs-15e18"
     }
    ]
   },
@@ -496,27 +496,27 @@
     {
      "state": "R3-5",
      "code": "R3-5",
-     "file": "sign-blocks/individual/Regulatory/R3-5.dwg"
+     "id": "official-r3-5"
     },
     {
      "state": "R3-5(R)",
      "code": "R3-5(R)",
-     "file": "sign-blocks/individual/Regulatory/R3-5(R).dwg"
+     "id": "official-callout-r3-5-r"
     },
     {
      "state": "R3-5(RT)",
      "code": "R3-5(RT)",
-     "file": "sign-blocks/individual/Regulatory/R3-5(RT).dwg"
+     "id": "pico-r3-5-rt-438808"
     },
     {
      "state": "R3-5L",
      "code": "R3-5L",
-     "file": "sign-blocks/individual/Regulatory/R3-5L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-r3-5l-10558"
     },
     {
      "state": "R3-5R",
      "code": "R3-5R",
-     "file": "sign-blocks/individual/Regulatory/R3-5R.dwg"
+     "id": "3346-signs-1-13-1066ddb"
     }
    ]
   },
@@ -528,17 +528,17 @@
     {
      "state": "R3-6(LT)",
      "code": "R3-6(LT)",
-     "file": "sign-blocks/individual/Regulatory/R3-6(LT).dwg"
+     "id": "official-callout-r3-6-left"
     },
     {
      "state": "R3-6L",
      "code": "R3-6L",
-     "file": "sign-blocks/individual/Regulatory/R3-6L.dwg"
+     "id": "mutcd-sheet-r3-6l-10593"
     },
     {
      "state": "R3-6R",
      "code": "R3-6R",
-     "file": "sign-blocks/individual/Regulatory/R3-6R.dwg"
+     "id": "mutcd-sheet-r3-6r-105b0"
     }
    ]
   },
@@ -550,32 +550,32 @@
     {
      "state": "R3-7",
      "code": "R3-7",
-     "file": "sign-blocks/individual/Regulatory/R3-7.dwg"
+     "id": "official-r3-7"
     },
     {
      "state": "R3-7(L)",
      "code": "R3-7(L)",
-     "file": "sign-blocks/individual/Regulatory/R3-7(L).dwg"
+     "id": "official-callout-r3-7-l"
     },
     {
      "state": "R3-7(R)",
      "code": "R3-7(R)",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R3-7(R).dwg"
+     "id": "3346-signs-1-13-109823d"
     },
     {
      "state": "R3-7(RT)",
      "code": "R3-7(RT)",
-     "file": "sign-blocks/individual/Regulatory/R3-7(RT).dwg"
+     "id": "official-callout-r3-7-right"
     },
     {
      "state": "R3-7L",
      "code": "R3-7L",
-     "file": "sign-blocks/individual/Regulatory/R3-7L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-r3-7l-105bc"
     },
     {
      "state": "R3-7R",
      "code": "R3-7R",
-     "file": "sign-blocks/individual/Regulatory/R3-7R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-r3-7r-105c8"
     }
    ]
   },
@@ -587,17 +587,17 @@
     {
      "state": "R3-8",
      "code": "R3-8",
-     "file": "sign-blocks/individual/Regulatory/R3-8.dwg"
+     "id": "official-r3-8"
     },
     {
      "state": "R3-8L",
      "code": "R3-8L",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R3-8L.dwg"
+     "id": "mutcd-sheet-r3-8l-105f9"
     },
     {
      "state": "R3-8R",
      "code": "R3-8R",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R3-8R.dwg"
+     "id": "mutcd-sheet-r3-8r-1062a"
     }
    ]
   },
@@ -609,32 +609,32 @@
     {
      "state": "R6-1",
      "code": "R6-1",
-     "file": "sign-blocks/individual/Regulatory/R6-1.dwg"
+     "id": "official-r6-1"
     },
     {
      "state": "R6-1(L)",
      "code": "R6-1(L)",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R6-1(L).dwg"
+     "id": "3346-signs-1-13-1097b94"
     },
     {
      "state": "R6-1(R)",
      "code": "R6-1(R)",
-     "file": "sign-blocks/individual/Regulatory/R6-1(R).dwg"
+     "id": "official-callout-r6-1-r"
     },
     {
      "state": "R6-1(RT)",
      "code": "R6-1(RT)",
-     "file": "sign-blocks/individual/Regulatory/R6-1(RT).dwg"
+     "id": "pico-r6-1-rt-79678e"
     },
     {
      "state": "R6-1L",
      "code": "R6-1L",
-     "file": "sign-blocks/individual/Regulatory/R6-1L.dwg"
+     "id": "3346-title-details-103aad2"
     },
     {
      "state": "R6-1R",
      "code": "R6-1R",
-     "file": "sign-blocks/individual/Regulatory/R6-1R.dwg"
+     "id": "3346-title-details-103aae4"
     }
    ]
   },
@@ -646,17 +646,17 @@
     {
      "state": "R6-2 (LT)",
      "code": "R6-2 (LT)",
-     "file": "sign-blocks/individual/Regulatory/R6-2 (LT).dwg"
+     "id": "pico-r6-2-lt-6a48e3"
     },
     {
      "state": "R6-2L",
      "code": "R6-2L",
-     "file": "sign-blocks/individual/Regulatory/R6-2L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-r6-2l-109a5"
     },
     {
      "state": "R6-2R",
      "code": "R6-2R",
-     "file": "sign-blocks/individual/Regulatory/R6-2R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-r6-2r-109b9"
     }
    ]
   },
@@ -668,12 +668,12 @@
     {
      "state": "R9-3B (L)",
      "code": "R9-3B (L)",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R9-3B (L).dwg"
+     "id": "3346-title-103ABB5"
     },
     {
      "state": "R9-3B (R)",
      "code": "R9-3B (R)",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R9-3B (R).dwg"
+     "id": "3346-title-103ABA5"
     }
    ]
   },
@@ -685,27 +685,27 @@
     {
      "state": "R9-3bP",
      "code": "R9-3bP",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R9-3bP [Pico 2].dwg"
+     "id": "pico-r9-3bp-14154d8"
     },
     {
      "state": "R9-3bP(L)",
      "code": "R9-3bP(L)",
-     "file": "sign-blocks/individual/Regulatory/R9-3bP(L).dwg"
+     "id": "3346-signs-1-13-1098d6e"
     },
     {
      "state": "R9-3bP(LT)",
      "code": "R9-3bP(LT)",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R9-3bP(LT).dwg"
+     "id": "pico-r9-3bp-lt-587a35"
     },
     {
      "state": "R9-3bP(R)",
      "code": "R9-3bP(R)",
-     "file": "sign-blocks/individual/Regulatory/R9-3bP(R).dwg"
+     "id": "3346-signs-1-13-1098df2"
     },
     {
      "state": "R9-3bP(RT)",
      "code": "R9-3bP(RT)",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R9-3bP(RT).dwg"
+     "id": "pico-r9-3bp-rt-587a26"
     }
    ]
   },
@@ -717,17 +717,17 @@
     {
      "state": "R9-11",
      "code": "R9-11",
-     "file": "sign-blocks/individual/Regulatory/R9-11.dwg"
+     "id": "official-r9-11"
     },
     {
      "state": "R9-11(LT)",
      "code": "R9-11(LT)",
-     "file": "sign-blocks/individual/Regulatory/R9-11(LT).dwg"
+     "id": "official-callout-r9-11-left"
     },
     {
      "state": "R9-11(RT)",
      "code": "R9-11(RT)",
-     "file": "sign-blocks/individual/Regulatory/R9-11(RT).dwg"
+     "id": "official-callout-r9-11-right"
     }
    ]
   },
@@ -739,17 +739,17 @@
     {
      "state": "R10-6(LT)",
      "code": "R10-6(LT)",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R10-6(LT).dwg"
+     "id": "pico-r10-6-lt-1423722"
     },
     {
      "state": "R10-6L",
      "code": "R10-6L",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R10-6L.dwg"
+     "id": "fp-signs-16b31"
     },
     {
      "state": "R10-6R",
      "code": "R10-6R",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R10-6R.dwg"
+     "id": "fp-signs-16b55"
     }
    ]
   },
@@ -761,12 +761,12 @@
     {
      "state": "R10-10L",
      "code": "R10-10L",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R10-10L.dwg"
+     "id": "mutcd-sheet-r10-10l-1221c"
     },
     {
      "state": "R10-10R",
      "code": "R10-10R",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R10-10R.dwg"
+     "id": "mutcd-sheet-r10-10r-1221d"
     }
    ]
   },
@@ -778,12 +778,12 @@
     {
      "state": "R61-19(CA)(Mod)(LT)",
      "code": "R61-19(CA)(Mod)(LT)",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R61-19(CA)(Mod)(LT).dwg"
+     "id": "pico-r61-19-ca-mod-lt-142451a"
     },
     {
      "state": "R61-19(CA)(Mod)(RT)",
      "code": "R61-19(CA)(Mod)(RT)",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R61-19(CA)(Mod)(RT).dwg"
+     "id": "pico-r61-19-ca-mod-rt-14251d8"
     }
    ]
   },
@@ -795,12 +795,12 @@
     {
      "state": "M4-9b(LT)",
      "code": "M4-9b(LT)",
-     "file": "sign-blocks/individual/Temporary traffic control/M4-9b(LT).dwg"
+     "id": "official-callout-m4-9b-left"
     },
     {
      "state": "M4-9b(RT)",
      "code": "M4-9b(RT)",
-     "file": "sign-blocks/individual/Temporary traffic control/M4-9b(RT).dwg"
+     "id": "official-callout-m4-9b-right"
     }
    ]
   },
@@ -812,12 +812,12 @@
     {
      "state": "M4-9L",
      "code": "M4-9L",
-     "file": "sign-blocks/individual/Temporary traffic control/Reference size unknown/M4-9L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-m4-9l-11f9d"
     },
     {
      "state": "M4-9R",
      "code": "M4-9R",
-     "file": "sign-blocks/individual/Temporary traffic control/Reference size unknown/M4-9R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-m4-9r-11f9e"
     }
    ]
   },
@@ -829,12 +829,12 @@
     {
      "state": "W20-5L",
      "code": "W20-5L",
-     "file": "sign-blocks/individual/Temporary traffic control/W20-5L.dwg"
+     "id": "mutcd-sheet-w20-5l-1278e"
     },
     {
      "state": "W20-5R",
      "code": "W20-5R",
-     "file": "sign-blocks/individual/Temporary traffic control/W20-5R.dwg"
+     "id": "mutcd-sheet-w20-5r-1278f"
     }
    ]
   },
@@ -846,12 +846,12 @@
     {
      "state": "W22-1",
      "code": "W22-1",
-     "file": "sign-blocks/individual/Temporary traffic control/W22-1.dwg"
+     "id": "official-w22-1"
     },
     {
      "state": "W22-1L",
      "code": "W22-1L",
-     "file": "sign-blocks/individual/Temporary traffic control/Reference size unknown/W22-1L.dwg"
+     "id": "fp-signs-14564"
     }
    ]
   },
@@ -863,17 +863,17 @@
     {
      "state": "SW24-2(CA)",
      "code": "SW24-2(CA)",
-     "file": "sign-blocks/individual/Warning/SW24-2(CA).dwg"
+     "id": "official-sw24-2-ca"
     },
     {
      "state": "SW24-2(CA)(L)",
      "code": "SW24-2(CA)(L)",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/SW24-2(CA)(L).dwg"
+     "id": "3346-signs-1-13-10981f4"
     },
     {
      "state": "SW24-2(CA)(R)",
      "code": "SW24-2(CA)(R)",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/SW24-2(CA)(R).dwg"
+     "id": "3346-signs-1-13-109821b"
     }
    ]
   },
@@ -885,12 +885,12 @@
     {
      "state": "SW44(CA)",
      "code": "SW44(CA)",
-     "file": "sign-blocks/individual/Warning/SW44(CA).dwg"
+     "id": "3346-signs-1-13-10ac394"
     },
     {
      "state": "SW44(CA)(L)",
      "code": "SW44(CA)(L)",
-     "file": "sign-blocks/individual/Warning/SW44(CA)(L).dwg"
+     "id": "3346-legacy-1036100"
     }
    ]
   },
@@ -902,22 +902,22 @@
     {
      "state": "W1-1(LT)",
      "code": "W1-1(LT)",
-     "file": "sign-blocks/individual/Warning/W1-1(LT).dwg"
+     "id": "pico-w1-1-lt-587a58"
     },
     {
      "state": "W1-1(RT)",
      "code": "W1-1(RT)",
-     "file": "sign-blocks/individual/Warning/W1-1(RT).dwg"
+     "id": "pico-w1-1-rt-5438e0"
     },
     {
      "state": "W1-1L",
      "code": "W1-1L",
-     "file": "sign-blocks/individual/Warning/W1-1L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w1-1l-11058"
     },
     {
      "state": "W1-1R",
      "code": "W1-1R",
-     "file": "sign-blocks/individual/Warning/W1-1R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w1-1r-1106e"
     }
    ]
   },
@@ -929,12 +929,12 @@
     {
      "state": "W1-2L",
      "code": "W1-2L",
-     "file": "sign-blocks/individual/Warning/W1-2L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w1-2l-11084"
     },
     {
      "state": "W1-2R",
      "code": "W1-2R",
-     "file": "sign-blocks/individual/Warning/W1-2R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w1-2r-1109a"
     }
    ]
   },
@@ -946,12 +946,12 @@
     {
      "state": "W1-3L",
      "code": "W1-3L",
-     "file": "sign-blocks/individual/Warning/W1-3L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w1-3l-110b4"
     },
     {
      "state": "W1-3R",
      "code": "W1-3R",
-     "file": "sign-blocks/individual/Warning/W1-3R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w1-3r-110bd"
     }
    ]
   },
@@ -963,17 +963,17 @@
     {
      "state": "W1-4(LT)",
      "code": "W1-4(LT)",
-     "file": "sign-blocks/individual/Warning/W1-4(LT).dwg"
+     "id": "pico-w1-4-lt-1425387"
     },
     {
      "state": "W1-4L",
      "code": "W1-4L",
-     "file": "sign-blocks/individual/Warning/W1-4L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w1-4l-110e8"
     },
     {
      "state": "W1-4R",
      "code": "W1-4R",
-     "file": "sign-blocks/individual/Warning/W1-4R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w1-4r-11102"
     }
    ]
   },
@@ -985,12 +985,12 @@
     {
      "state": "W1-5L",
      "code": "W1-5L",
-     "file": "sign-blocks/individual/Warning/W1-5L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w1-5l-11120"
     },
     {
      "state": "W1-5R",
      "code": "W1-5R",
-     "file": "sign-blocks/individual/Warning/W1-5R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w1-5r-1113e"
     }
    ]
   },
@@ -1002,22 +1002,22 @@
     {
      "state": "W1-6",
      "code": "W1-6",
-     "file": "sign-blocks/individual/Warning/W1-6.dwg"
+     "id": "official-w1-6"
     },
     {
      "state": "W1-6(LT)",
      "code": "W1-6(LT)",
-     "file": "sign-blocks/individual/Warning/W1-6(LT).dwg"
+     "id": "official-callout-w1-6-left"
     },
     {
      "state": "W1-6L",
      "code": "W1-6L",
-     "file": "sign-blocks/individual/Warning/W1-6L.dwg"
+     "id": "mutcd-sheet-w1-6l-11150"
     },
     {
      "state": "W1-6R",
      "code": "W1-6R",
-     "file": "sign-blocks/individual/Warning/W1-6R.dwg"
+     "id": "mutcd-sheet-w1-6r-11162"
     }
    ]
   },
@@ -1029,17 +1029,17 @@
     {
      "state": "W1-8",
      "code": "W1-8",
-     "file": "sign-blocks/individual/Warning/W1-8.dwg"
+     "id": "official-w1-8"
     },
     {
      "state": "W1-8L",
      "code": "W1-8L",
-     "file": "sign-blocks/individual/Warning/W1-8L.dwg"
+     "id": "mutcd-sheet-w1-8l-11182"
     },
     {
      "state": "W1-8R",
      "code": "W1-8R",
-     "file": "sign-blocks/individual/Warning/W1-8R.dwg"
+     "id": "mutcd-sheet-w1-8r-11183"
     }
    ]
   },
@@ -1051,12 +1051,12 @@
     {
      "state": "W2-2L",
      "code": "W2-2L",
-     "file": "sign-blocks/individual/Warning/W2-2L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w2-2l-111a9"
     },
     {
      "state": "W2-2R",
      "code": "W2-2R",
-     "file": "sign-blocks/individual/Warning/W2-2R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w2-2r-111ba"
     }
    ]
   },
@@ -1068,17 +1068,17 @@
     {
      "state": "W2-3",
      "code": "W2-3",
-     "file": "sign-blocks/individual/Warning/W2-3.dwg"
+     "id": "official-w2-3"
     },
     {
      "state": "W2-3L",
      "code": "W2-3L",
-     "file": "sign-blocks/individual/Warning/W2-3L.dwg"
+     "id": "mutcd-sheet-w2-3l-111cb"
     },
     {
      "state": "W2-3R",
      "code": "W2-3R",
-     "file": "sign-blocks/individual/Warning/W2-3R.dwg"
+     "id": "mutcd-sheet-w2-3r-111dc"
     }
    ]
   },
@@ -1090,17 +1090,17 @@
     {
      "state": "W4-1",
      "code": "W4-1",
-     "file": "sign-blocks/individual/Warning/W4-1.dwg"
+     "id": "official-w4-1"
     },
     {
      "state": "W4-1L",
      "code": "W4-1L",
-     "file": "sign-blocks/individual/Warning/W4-1L.dwg"
+     "id": "mutcd-sheet-w4-1l-11282"
     },
     {
      "state": "W4-1R",
      "code": "W4-1R",
-     "file": "sign-blocks/individual/Warning/W4-1R.dwg"
+     "id": "mutcd-sheet-w4-1r-11299"
     }
    ]
   },
@@ -1112,17 +1112,17 @@
     {
      "state": "W4-2",
      "code": "W4-2",
-     "file": "sign-blocks/individual/Warning/W4-2.dwg"
+     "id": "official-w4-2"
     },
     {
      "state": "W4-2(R)",
      "code": "W4-2(R)",
-     "file": "sign-blocks/individual/Warning/W4-2(R).dwg"
+     "id": "3346-signs-1-13-1098288"
     },
     {
      "state": "W4-2(RT)",
      "code": "W4-2(RT)",
-     "file": "sign-blocks/individual/Warning/W4-2(RT).dwg"
+     "id": "pico-w4-2-rt-6bfd0b"
     }
    ]
   },
@@ -1134,12 +1134,12 @@
     {
      "state": "W4-3L",
      "code": "W4-3L",
-     "file": "sign-blocks/individual/Warning/W4-3L.dwg"
+     "id": "mutcd-sheet-w4-3l-112f8"
     },
     {
      "state": "W4-3R",
      "code": "W4-3R",
-     "file": "sign-blocks/individual/Warning/W4-3R.dwg"
+     "id": "mutcd-sheet-w4-3r-1132d"
     }
    ]
   },
@@ -1151,22 +1151,22 @@
     {
      "state": "W9-1",
      "code": "W9-1",
-     "file": "sign-blocks/individual/Warning/W9-1.dwg"
+     "id": "official-w9-1"
     },
     {
      "state": "W9-1(RT)",
      "code": "W9-1(RT)",
-     "file": "sign-blocks/individual/Warning/W9-1(RT).dwg"
+     "id": "official-callout-w9-1-right"
     },
     {
      "state": "W9-1L",
      "code": "W9-1L",
-     "file": "sign-blocks/individual/Warning/W9-1L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w9-1l-115d3"
     },
     {
      "state": "W9-1R",
      "code": "W9-1R",
-     "file": "sign-blocks/individual/Warning/W9-1R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w9-1r-115df"
     }
    ]
   },
@@ -1178,12 +1178,12 @@
     {
      "state": "W9-2L",
      "code": "W9-2L",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/W9-2L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w9-2l-115ea"
     },
     {
      "state": "W9-2R",
      "code": "W9-2R",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/W9-2R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w9-2r-115f7"
     }
    ]
   },
@@ -1195,12 +1195,12 @@
     {
      "state": "W10-2L",
      "code": "W10-2L",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-2L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w10-2l-117d8"
     },
     {
      "state": "W10-2R",
      "code": "W10-2R",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-2R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w10-2r-1184d"
     }
    ]
   },
@@ -1212,12 +1212,12 @@
     {
      "state": "W10-3L",
      "code": "W10-3L",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-3L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w10-3l-118bf"
     },
     {
      "state": "W10-3R",
      "code": "W10-3R",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-3R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w10-3r-11931"
     }
    ]
   },
@@ -1229,12 +1229,12 @@
     {
      "state": "W10-4L",
      "code": "W10-4L",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-4L [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w10-4l-119a3"
     },
     {
      "state": "W10-4R",
      "code": "W10-4R",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-4R [MUTCD CAD library 2].dwg"
+     "id": "mutcd-sheet-w10-4r-11a15"
     }
    ]
   },
@@ -1246,32 +1246,32 @@
     {
      "state": "W16-7P",
      "code": "W16-7P",
-     "file": "sign-blocks/individual/Warning/W16-7P.dwg"
+     "id": "official-w16-7p"
     },
     {
      "state": "W16-7P (L)",
      "code": "W16-7P (L)",
-     "file": "sign-blocks/individual/Warning/W16-7P (L).dwg"
+     "id": "3346-title-103A6B5"
     },
     {
      "state": "W16-7P(L)",
      "code": "W16-7P(L)",
-     "file": "sign-blocks/individual/Warning/W16-7P(L).dwg"
+     "id": "3346-signs-1-13-109816f"
     },
     {
      "state": "W16-7P(LT)",
      "code": "W16-7P(LT)",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/W16-7P(LT).dwg"
+     "id": "pico-w16-7p-lt-10f2268"
     },
     {
      "state": "W16-7P(R)",
      "code": "W16-7P(R)",
-     "file": "sign-blocks/individual/Warning/W16-7P(R) [3346 sheets 1-13 2].dwg"
+     "id": "3346-signs-1-13-109819d"
     },
     {
      "state": "W16-7P(RT)",
      "code": "W16-7P(RT)",
-     "file": "sign-blocks/individual/Warning/Reference size unknown/W16-7P(RT).dwg"
+     "id": "pico-w16-7p-rt-10f2259"
     }
    ]
   },
@@ -1283,22 +1283,22 @@
     {
      "state": "R2-1",
      "code": "R2-1",
-     "file": "sign-blocks/individual/Regulatory/R2-1.dwg"
+     "id": "official-r2-1"
     },
     {
      "state": "R2-1(25)",
      "code": "R2-1(25)",
-     "file": "sign-blocks/individual/Regulatory/R2-1(25).dwg"
+     "id": "3346-signs-1-13-10980d1"
     },
     {
      "state": "R2-1(30)",
      "code": "R2-1(30)",
-     "file": "sign-blocks/individual/Regulatory/R2-1(30).dwg"
+     "id": "3346-signs-1-13-109879a"
     },
     {
      "state": "R2-1(35)",
      "code": "R2-1(35)",
-     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R2-1(35).dwg"
+     "id": "3346-legacy-1035FE7"
     }
    ]
   }
