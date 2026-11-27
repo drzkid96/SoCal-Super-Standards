@@ -234,7 +234,7 @@ def hydrate(source=SOURCE, public=PUBLIC):
         data=fix_master(data,public)
         manifest.update(masterBytes=len(data),masterSha256=sha(data))
         (public/master).write_bytes(data)
-        member(out,master,data)
+        # the master is its own download (20 MB); the bundle holds the individual drawings only
         written=set()
         for part in sorted(release['families'],key=lambda r:r['family']):
             name=filename(part['file'],'.zip')

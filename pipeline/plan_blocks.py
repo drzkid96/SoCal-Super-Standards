@@ -241,17 +241,45 @@ def graph_of(doc, block):
     return owned(doc, [doc.blocks[block].block_record.get_extension_dict().dictionary.dxf.handle])
 
 
+def class_names(doc):
+    return [c.dxf.name for c in doc.classes.classes.values()]
+
+
 def signature(doc, handles):
-    """Class and bytes of every proxy among the handles, in a comparable form."""
-    out = collections.Counter()
+    """Class name and bytes of every proxy among the handles, in a comparable form (by name: the class
+    table is compacted, so positions change)."""
+    names, out = class_names(doc), collections.Counter()
     for h in handles:
         o = doc.entitydb.get(h)
         if o is None or o.dxftype() != 'ACAD_PROXY_OBJECT':
             continue
         sub = o.xtags.get_subclass('AcDbProxyObject')
         data = b''.join(t.value for t in sub if t.code == 310)
-        out[(sub.get_first_value(91), data, len(refs(o)))] += 1
+        pos = sub.get_first_value(91) - 500
+        out[(names[pos] if 0 <= pos < len(names) else pos, data, len(refs(o)))] += 1
     return out
+
+
+def compact_classes(doc):
+    """Keep only the classes something in the drawing uses and renumber the proxies' class references
+    (a proxy names its class by position: 500 + index). A survey brings about 730 classes."""
+    from ezdxf.lldxf.types import DXFTag
+    entries = list(doc.classes.classes.items())
+    used = {o.dxftype() for o in doc.objects if o.is_alive} | {e.dxftype() for b in doc.blocks for e in b}
+    proxies = [o for o in doc.objects if o.is_alive and o.dxftype() == 'ACAD_PROXY_OBJECT']
+    for o in proxies:
+        pos = o.xtags.get_subclass('AcDbProxyObject').get_first_value(91) - 500
+        if 0 <= pos < len(entries):
+            used.add(entries[pos][1].dxf.name)
+    kept = [(k, c) for k, c in entries if c.dxf.name in used]
+    index = {c.dxf.name: i for i, (_, c) in enumerate(kept)}
+    for o in proxies:
+        sub = o.xtags.get_subclass('AcDbProxyObject')
+        for i, tag in enumerate(sub):
+            if tag.code == 91 and 0 <= tag.value - 500 < len(entries):
+                sub[i] = DXFTag(91, 500 + index[entries[tag.value - 500][1].dxf.name])
+                break
+    doc.classes.classes = dict(kept)
 
 
 def nested(doc, names):
@@ -424,6 +452,7 @@ def cut(src_dxf, keep, dst_dxf, insert_layer=None):
     for app in list(doc.appids):
         if app.dxf.name not in apps and app.dxf.handle not in pinned:
             doc.appids.remove(app.dxf.name)
+    compact_classes(doc)
     if insert_layer:
         layout(doc, list(keep.values()))
     doc.units = 2
@@ -470,7 +499,9 @@ def write(lib_dxf, names, target, libredwg, work, expect):
     cut(lib_dxf, {n: n for n in names}, dxf, insert_layer=True)
     doc = ezdxf.readfile(dxf)
     dynamic = any(is_dynamic(doc, n) for n in names)
-    dwg = oda(dxf, work, 'DWG', 'ACAD2018' if dynamic else 'ACAD2000')
+    if not dynamic:   # a static block needs none of the plan's tables: a fresh AutoCAD 2000 drawing
+        return write_static(doc, names, target, libredwg, work)
+    dwg = oda(dxf, work, 'DWG', 'ACAD2018')
     back = ezdxf.readfile(oda(dwg, work / 'rt', 'DXF', 'ACAD2018'))
     for n in names:
         after = signature(back, graph_of(back, n))
@@ -487,6 +518,43 @@ def write(lib_dxf, names, target, libredwg, work, expect):
     target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy(dwg, target)
     return dynamic
+
+
+def write_static(src, names, target, libredwg, work):
+    """Static blocks: copied into a clean R2000 drawing (sign_cells.r2000_document) and encoded with
+    LibreDWG, read back before publishing, like every other static SSS block."""
+    from ezdxf.addons import Importer
+    from sign_cells import r2000_document
+    doc = r2000_document()
+    doc.units = 2
+    imp = Importer(src, doc)
+    imp.import_tables('layers')
+    imp.import_tables('linetypes')
+    for n in names:
+        imp.import_block(n)
+    imp.finalize()
+    for n in names:
+        doc.blocks[n].block_record.dxf.units = 2
+    layout(doc, names)
+    doc.header['$INSUNITS'] = 2
+    for layer in list(doc.layers):
+        if layer.dxf.name not in {e.dxf.layer for b in doc.blocks for e in b if e.dxf.is_supported('layer')} | \
+                {e.dxf.layer for e in doc.modelspace()} | {'0', 'Defpoints'}:
+            doc.layers.remove(layer.dxf.name)
+    dxf = work / 'static.dxf'
+    doc.saveas(dxf)
+    log = subprocess.run([libredwg / 'dxf2dwg', '-y', '--as', 'r2000', '-o', work / 'static.dwg', dxf], capture_output=True, text=True)
+    if log.returncode or re.search(r'warning|error', log.stdout + log.stderr, re.I):
+        raise ValueError(f'{target.name}: encoder reported ' + (log.stdout + log.stderr)[-300:])
+    back = work / 'static-rt.dxf'
+    subprocess.run([libredwg / 'dwg2dxf', '-y', '-o', back, work / 'static.dwg'], capture_output=True, check=True)
+    read = ezdxf.readfile(back)
+    if [e.dxftype() for e in read.modelspace() if e.dxftype() != 'MTEXT'] != ['INSERT'] * len(names) or \
+            any(len(read.blocks[n]) != len(doc.blocks[n]) for n in names):
+        raise ValueError(f'{target.name}: static read-back differs')
+    target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy(work / 'static.dwg', target)
+    return False
 
 
 def build(paths, libredwg):
