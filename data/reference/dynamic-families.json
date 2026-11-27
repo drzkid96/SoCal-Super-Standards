@@ -1,0 +1,1306 @@
+{
+ "note": "Each family: visibility states (one per variant), rotation, flip X and flip Y about the shared base point.",
+ "families": [
+  {
+   "name": "PM-LANE-ARROW-DYN",
+   "route": "markings/cad",
+   "label": "Lane-use arrow, every Caltrans A24A/A24B type",
+   "states": [
+    {
+     "state": "A24A-TYPE-I-10FT",
+     "code": "CT-A24A-TYPE-I-10FT",
+     "file": "markings/cad/CT-A24A-TYPE-I-10FT.dwg"
+    },
+    {
+     "state": "A24A-TYPE-I-24FT",
+     "code": "CT-A24A-TYPE-I-24FT",
+     "file": "markings/cad/CT-A24A-TYPE-I-24FT.dwg"
+    },
+    {
+     "state": "A24A-TYPE-IV-L",
+     "code": "CT-A24A-TYPE-IV-L",
+     "file": "markings/cad/CT-A24A-TYPE-IV-L.dwg"
+    },
+    {
+     "state": "A24A-TYPE-IV-R",
+     "code": "CT-A24A-TYPE-IV-R",
+     "file": "markings/cad/CT-A24A-TYPE-IV-R.dwg"
+    },
+    {
+     "state": "A24A-TYPE-VI",
+     "code": "CT-A24A-TYPE-VI",
+     "file": "markings/cad/CT-A24A-TYPE-VI.dwg"
+    },
+    {
+     "state": "A24A-TYPE-VI-MIRROR",
+     "code": "CT-A24A-TYPE-VI-MIRROR",
+     "file": "markings/cad/CT-A24A-TYPE-VI-MIRROR.dwg"
+    },
+    {
+     "state": "A24A-TYPE-VIII",
+     "code": "CT-A24A-TYPE-VIII",
+     "file": "markings/cad/CT-A24A-TYPE-VIII.dwg"
+    },
+    {
+     "state": "A24A-TYPE-I-18FT",
+     "code": "CT-A24A-TYPE-I-18FT",
+     "file": "markings/cad/CT-A24A-TYPE-I-18FT.dwg"
+    },
+    {
+     "state": "A24A-TYPE-V",
+     "code": "CT-A24A-TYPE-V",
+     "file": "markings/cad/CT-A24A-TYPE-V.dwg"
+    },
+    {
+     "state": "A24A-TYPE-VII-L",
+     "code": "CT-A24A-TYPE-VII-L",
+     "file": "markings/cad/CT-A24A-TYPE-VII-L.dwg"
+    },
+    {
+     "state": "A24A-TYPE-VII-R",
+     "code": "CT-A24A-TYPE-VII-R",
+     "file": "markings/cad/CT-A24A-TYPE-VII-R.dwg"
+    },
+    {
+     "state": "A24B-TYPE-II-B",
+     "code": "CT-A24B-TYPE-II-B",
+     "file": "markings/cad/CT-A24B-TYPE-II-B.dwg"
+    },
+    {
+     "state": "A24B-TYPE-II-L",
+     "code": "CT-A24B-TYPE-II-L",
+     "file": "markings/cad/CT-A24B-TYPE-II-L.dwg"
+    },
+    {
+     "state": "A24B-TYPE-II-R",
+     "code": "CT-A24B-TYPE-II-R",
+     "file": "markings/cad/CT-A24B-TYPE-II-R.dwg"
+    },
+    {
+     "state": "A24B-TYPE-III-B",
+     "code": "CT-A24B-TYPE-III-B",
+     "file": "markings/cad/CT-A24B-TYPE-III-B.dwg"
+    },
+    {
+     "state": "A24B-TYPE-III-L",
+     "code": "CT-A24B-TYPE-III-L",
+     "file": "markings/cad/CT-A24B-TYPE-III-L.dwg"
+    },
+    {
+     "state": "A24B-TYPE-III-R",
+     "code": "CT-A24B-TYPE-III-R",
+     "file": "markings/cad/CT-A24B-TYPE-III-R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-WORD-DYN",
+   "route": "markings/cad",
+   "label": "Pavement word, every Caltrans A24D/A24E word",
+   "states": [
+    {
+     "state": "A24D-RUNAWAY",
+     "code": "CT-A24D-RUNAWAY",
+     "file": "markings/cad/CT-A24D-RUNAWAY.dwg"
+    },
+    {
+     "state": "A24D-VEHICLES",
+     "code": "CT-A24D-VEHICLES",
+     "file": "markings/cad/CT-A24D-VEHICLES.dwg"
+    },
+    {
+     "state": "A24D-YIELD",
+     "code": "CT-A24D-YIELD",
+     "file": "markings/cad/CT-A24D-YIELD.dwg"
+    },
+    {
+     "state": "A24D-SCHOOL",
+     "code": "CT-A24D-SCHOOL",
+     "file": "markings/cad/CT-A24D-SCHOOL.dwg"
+    },
+    {
+     "state": "A24D-WAIT",
+     "code": "CT-A24D-WAIT",
+     "file": "markings/cad/CT-A24D-WAIT.dwg"
+    },
+    {
+     "state": "A24D-SLOW",
+     "code": "CT-A24D-SLOW",
+     "file": "markings/cad/CT-A24D-SLOW.dwg"
+    },
+    {
+     "state": "A24D-AHEAD",
+     "code": "CT-A24D-AHEAD",
+     "file": "markings/cad/CT-A24D-AHEAD.dwg"
+    },
+    {
+     "state": "A24D-TURN",
+     "code": "CT-A24D-TURN",
+     "file": "markings/cad/CT-A24D-TURN.dwg"
+    },
+    {
+     "state": "A24D-HERE",
+     "code": "CT-A24D-HERE",
+     "file": "markings/cad/CT-A24D-HERE.dwg"
+    },
+    {
+     "state": "A24D-XING",
+     "code": "CT-A24D-XING",
+     "file": "markings/cad/CT-A24D-XING.dwg"
+    },
+    {
+     "state": "A24D-SIGNAL",
+     "code": "CT-A24D-SIGNAL",
+     "file": "markings/cad/CT-A24D-SIGNAL.dwg"
+    },
+    {
+     "state": "A24D-LEFT",
+     "code": "CT-A24D-LEFT",
+     "file": "markings/cad/CT-A24D-LEFT.dwg"
+    },
+    {
+     "state": "A24D-RIGHT",
+     "code": "CT-A24D-RIGHT",
+     "file": "markings/cad/CT-A24D-RIGHT.dwg"
+    },
+    {
+     "state": "A24D-PED",
+     "code": "CT-A24D-PED",
+     "file": "markings/cad/CT-A24D-PED.dwg"
+    },
+    {
+     "state": "A24D-COMPACT",
+     "code": "CT-A24D-COMPACT",
+     "file": "markings/cad/CT-A24D-COMPACT.dwg"
+    },
+    {
+     "state": "A24D-BIKE-4FT",
+     "code": "CT-A24D-BIKE-4FT",
+     "file": "markings/cad/CT-A24D-BIKE-4FT.dwg"
+    },
+    {
+     "state": "A24D-LANE-4FT",
+     "code": "CT-A24D-LANE-4FT",
+     "file": "markings/cad/CT-A24D-LANE-4FT.dwg"
+    },
+    {
+     "state": "A24E-LANE",
+     "code": "CT-A24E-LANE",
+     "file": "markings/cad/CT-A24E-LANE.dwg"
+    },
+    {
+     "state": "A24E-CLEAR",
+     "code": "CT-A24E-CLEAR",
+     "file": "markings/cad/CT-A24E-CLEAR.dwg"
+    },
+    {
+     "state": "A24E-BIKE",
+     "code": "CT-A24E-BIKE",
+     "file": "markings/cad/CT-A24E-BIKE.dwg"
+    },
+    {
+     "state": "A24E-ONLY",
+     "code": "CT-A24E-ONLY",
+     "file": "markings/cad/CT-A24E-ONLY.dwg"
+    },
+    {
+     "state": "A24E-NO",
+     "code": "CT-A24E-NO",
+     "file": "markings/cad/CT-A24E-NO.dwg"
+    },
+    {
+     "state": "A24E-KEEP",
+     "code": "CT-A24E-KEEP",
+     "file": "markings/cad/CT-A24E-KEEP.dwg"
+    },
+    {
+     "state": "A24E-BUS",
+     "code": "CT-A24E-BUS",
+     "file": "markings/cad/CT-A24E-BUS.dwg"
+    },
+    {
+     "state": "A24E-FWY",
+     "code": "CT-A24E-FWY",
+     "file": "markings/cad/CT-A24E-FWY.dwg"
+    },
+    {
+     "state": "A24E-EXPRS",
+     "code": "CT-A24E-EXPRS",
+     "file": "markings/cad/CT-A24E-EXPRS.dwg"
+    },
+    {
+     "state": "A24E-TRAIL",
+     "code": "CT-A24E-TRAIL",
+     "file": "markings/cad/CT-A24E-TRAIL.dwg"
+    },
+    {
+     "state": "A24E-HOV",
+     "code": "CT-A24E-HOV",
+     "file": "markings/cad/CT-A24E-HOV.dwg"
+    },
+    {
+     "state": "A24E-NORTH",
+     "code": "CT-A24E-NORTH",
+     "file": "markings/cad/CT-A24E-NORTH.dwg"
+    },
+    {
+     "state": "A24E-SOUTH",
+     "code": "CT-A24E-SOUTH",
+     "file": "markings/cad/CT-A24E-SOUTH.dwg"
+    },
+    {
+     "state": "A24E-EAST",
+     "code": "CT-A24E-EAST",
+     "file": "markings/cad/CT-A24E-EAST.dwg"
+    },
+    {
+     "state": "A24E-WEST",
+     "code": "CT-A24E-WEST",
+     "file": "markings/cad/CT-A24E-WEST.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-NUMERAL-DYN",
+   "route": "markings/cad",
+   "label": "Numeral 0 to 5, Caltrans A24C",
+   "states": [
+    {
+     "state": "A24C-NUMERAL-2",
+     "code": "CT-A24C-NUMERAL-2",
+     "file": "markings/cad/CT-A24C-NUMERAL-2.dwg"
+    },
+    {
+     "state": "A24C-NUMERAL-5",
+     "code": "CT-A24C-NUMERAL-5",
+     "file": "markings/cad/CT-A24C-NUMERAL-5.dwg"
+    },
+    {
+     "state": "A24C-NUMERAL-3",
+     "code": "CT-A24C-NUMERAL-3",
+     "file": "markings/cad/CT-A24C-NUMERAL-3.dwg"
+    },
+    {
+     "state": "A24C-NUMERAL-4",
+     "code": "CT-A24C-NUMERAL-4",
+     "file": "markings/cad/CT-A24C-NUMERAL-4.dwg"
+    },
+    {
+     "state": "A24C-NUMERAL-0",
+     "code": "CT-A24C-NUMERAL-0",
+     "file": "markings/cad/CT-A24C-NUMERAL-0.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-LEGEND-DYN",
+   "route": "markings/cad",
+   "label": "Two-line legend (KEEP CLEAR, BUS ONLY, WAIT HERE)",
+   "states": [
+    {
+     "state": "KEEP-CLEAR",
+     "code": "PM-KEEP-CLEAR",
+     "file": "markings/cad/PM-KEEP-CLEAR.dwg"
+    },
+    {
+     "state": "BUS-ONLY",
+     "code": "PM-BUS-ONLY",
+     "file": "markings/cad/PM-BUS-ONLY.dwg"
+    },
+    {
+     "state": "WAIT-HERE",
+     "code": "PM-WAIT-HERE",
+     "file": "markings/cad/PM-WAIT-HERE.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-BIKE-XING-GREEN-DYN",
+   "route": "markings/cad",
+   "label": "Green bike crossing dash, 5 to 8 ft bike lane",
+   "states": [
+    {
+     "state": "BIKE-XING-GREEN-5FT",
+     "code": "PM-BIKE-XING-GREEN-5FT",
+     "file": "markings/cad/PM-BIKE-XING-GREEN-5FT.dwg"
+    },
+    {
+     "state": "BIKE-XING-GREEN-6FT",
+     "code": "PM-BIKE-XING-GREEN-6FT",
+     "file": "markings/cad/PM-BIKE-XING-GREEN-6FT.dwg"
+    },
+    {
+     "state": "BIKE-XING-GREEN-6P5FT",
+     "code": "PM-BIKE-XING-GREEN-6P5FT",
+     "file": "markings/cad/PM-BIKE-XING-GREEN-6P5FT.dwg"
+    },
+    {
+     "state": "BIKE-XING-GREEN-7FT",
+     "code": "PM-BIKE-XING-GREEN-7FT",
+     "file": "markings/cad/PM-BIKE-XING-GREEN-7FT.dwg"
+    },
+    {
+     "state": "BIKE-XING-GREEN-8FT",
+     "code": "PM-BIKE-XING-GREEN-8FT",
+     "file": "markings/cad/PM-BIKE-XING-GREEN-8FT.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-BIKE-LANE-MARKING-DYN",
+   "route": "markings/cad",
+   "label": "Bike lane symbol or arrow, Caltrans and LA plan versions",
+   "states": [
+    {
+     "state": "A24A-BIKE-LANE-ARROW",
+     "code": "CT-A24A-BIKE-LANE-ARROW",
+     "file": "markings/cad/CT-A24A-BIKE-LANE-ARROW.dwg"
+    },
+    {
+     "state": "A24C-BIKE-SYMBOL",
+     "code": "CT-A24C-BIKE-SYMBOL",
+     "file": "markings/cad/CT-A24C-BIKE-SYMBOL.dwg"
+    },
+    {
+     "state": "A24C-BIKE-SYMBOL-PERSON",
+     "code": "CT-A24C-BIKE-SYMBOL-PERSON",
+     "file": "markings/cad/CT-A24C-BIKE-SYMBOL-PERSON.dwg"
+    },
+    {
+     "state": "BIKE-SYMBOL",
+     "code": "PM-BIKE-SYMBOL",
+     "file": "markings/cad/PM-BIKE-SYMBOL.dwg"
+    },
+    {
+     "state": "BIKE-ARROW",
+     "code": "PM-BIKE-ARROW",
+     "file": "markings/cad/PM-BIKE-ARROW.dwg"
+    },
+    {
+     "state": "BIKE-ARROW-LEFT-THRU",
+     "code": "PM-BIKE-ARROW-LEFT-THRU",
+     "file": "markings/cad/PM-BIKE-ARROW-LEFT-THRU.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-CROSSWALK-DYN",
+   "route": "markings/cad",
+   "label": "Crosswalk, every Caltrans A24F type",
+   "states": [
+    {
+     "state": "A24F-CONTINENTAL",
+     "code": "CT-A24F-CONTINENTAL",
+     "file": "markings/cad/CT-A24F-CONTINENTAL.dwg"
+    },
+    {
+     "state": "A24F-TRIPLE-FOUR",
+     "code": "CT-A24F-TRIPLE-FOUR",
+     "file": "markings/cad/CT-A24F-TRIPLE-FOUR.dwg"
+    },
+    {
+     "state": "A24F-LADDER",
+     "code": "CT-A24F-LADDER",
+     "file": "markings/cad/CT-A24F-LADDER.dwg"
+    },
+    {
+     "state": "A24F-DIAGONAL",
+     "code": "CT-A24F-DIAGONAL",
+     "file": "markings/cad/CT-A24F-DIAGONAL.dwg"
+    },
+    {
+     "state": "A24F-BASIC",
+     "code": "CT-A24F-BASIC",
+     "file": "markings/cad/CT-A24F-BASIC.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-RAISED-ELEMENT-DYN",
+   "route": "markings/cad",
+   "label": "Left turn calming 3 or 10 ft",
+   "states": [
+    {
+     "state": "LEFT-TURN-CALMING-10FT",
+     "code": "PM-LEFT-TURN-CALMING-10FT",
+     "file": "markings/cad/PM-LEFT-TURN-CALMING-10FT.dwg"
+    },
+    {
+     "state": "LEFT-TURN-CALMING-3FT",
+     "code": "PM-LEFT-TURN-CALMING-3FT",
+     "file": "markings/cad/PM-LEFT-TURN-CALMING-3FT.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-G33-1-CA-DYN",
+   "route": "signs/cad",
+   "label": "G33-1(CA) sign, left and right versions",
+   "states": [
+    {
+     "state": "G33-1(CA)",
+     "code": "G33-1(CA)",
+     "file": "sign-blocks/individual/Guide/Reference size unknown/G33-1(CA).dwg"
+    },
+    {
+     "state": "G33-1(CA)(LT)",
+     "code": "G33-1(CA)(LT)",
+     "file": "sign-blocks/individual/Guide/Reference size unknown/G33-1(CA)(LT).dwg"
+    },
+    {
+     "state": "G33-1(CA)(RT)",
+     "code": "G33-1(CA)(RT)",
+     "file": "sign-blocks/individual/Guide/Reference size unknown/G33-1(CA)(RT).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-M4-10-DYN",
+   "route": "signs/cad",
+   "label": "M4-10 sign, left and right versions",
+   "states": [
+    {
+     "state": "M4-10L",
+     "code": "M4-10L",
+     "file": "sign-blocks/individual/Guide/Reference size unknown/M4-10L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "M4-10R",
+     "code": "M4-10R",
+     "file": "sign-blocks/individual/Guide/Reference size unknown/M4-10R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-M7-1-DYN",
+   "route": "signs/cad",
+   "label": "M7-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "M7-1",
+     "code": "M7-1",
+     "file": "sign-blocks/individual/Guide/Reference size unknown/M7-1.dwg"
+    },
+    {
+     "state": "M7-1(L)",
+     "code": "M7-1(L)",
+     "file": "sign-blocks/individual/Guide/Reference size unknown/M7-1(L).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R3-5-DYN",
+   "route": "signs/cad",
+   "label": "R3-5 sign, left and right versions",
+   "states": [
+    {
+     "state": "R3-5",
+     "code": "R3-5",
+     "file": "sign-blocks/individual/Regulatory/R3-5.dwg"
+    },
+    {
+     "state": "R3-5(R)",
+     "code": "R3-5(R)",
+     "file": "sign-blocks/individual/Regulatory/R3-5(R).dwg"
+    },
+    {
+     "state": "R3-5(RT)",
+     "code": "R3-5(RT)",
+     "file": "sign-blocks/individual/Regulatory/R3-5(RT).dwg"
+    },
+    {
+     "state": "R3-5L",
+     "code": "R3-5L",
+     "file": "sign-blocks/individual/Regulatory/R3-5L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "R3-5R",
+     "code": "R3-5R",
+     "file": "sign-blocks/individual/Regulatory/R3-5R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R3-6-DYN",
+   "route": "signs/cad",
+   "label": "R3-6 sign, left and right versions",
+   "states": [
+    {
+     "state": "R3-6(LT)",
+     "code": "R3-6(LT)",
+     "file": "sign-blocks/individual/Regulatory/R3-6(LT).dwg"
+    },
+    {
+     "state": "R3-6L",
+     "code": "R3-6L",
+     "file": "sign-blocks/individual/Regulatory/R3-6L.dwg"
+    },
+    {
+     "state": "R3-6R",
+     "code": "R3-6R",
+     "file": "sign-blocks/individual/Regulatory/R3-6R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R3-7-DYN",
+   "route": "signs/cad",
+   "label": "R3-7 sign, left and right versions",
+   "states": [
+    {
+     "state": "R3-7",
+     "code": "R3-7",
+     "file": "sign-blocks/individual/Regulatory/R3-7.dwg"
+    },
+    {
+     "state": "R3-7(L)",
+     "code": "R3-7(L)",
+     "file": "sign-blocks/individual/Regulatory/R3-7(L).dwg"
+    },
+    {
+     "state": "R3-7(R)",
+     "code": "R3-7(R)",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R3-7(R).dwg"
+    },
+    {
+     "state": "R3-7(RT)",
+     "code": "R3-7(RT)",
+     "file": "sign-blocks/individual/Regulatory/R3-7(RT).dwg"
+    },
+    {
+     "state": "R3-7L",
+     "code": "R3-7L",
+     "file": "sign-blocks/individual/Regulatory/R3-7L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "R3-7R",
+     "code": "R3-7R",
+     "file": "sign-blocks/individual/Regulatory/R3-7R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R3-8-DYN",
+   "route": "signs/cad",
+   "label": "R3-8 sign, left and right versions",
+   "states": [
+    {
+     "state": "R3-8",
+     "code": "R3-8",
+     "file": "sign-blocks/individual/Regulatory/R3-8.dwg"
+    },
+    {
+     "state": "R3-8L",
+     "code": "R3-8L",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R3-8L.dwg"
+    },
+    {
+     "state": "R3-8R",
+     "code": "R3-8R",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R3-8R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R6-1-DYN",
+   "route": "signs/cad",
+   "label": "R6-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "R6-1",
+     "code": "R6-1",
+     "file": "sign-blocks/individual/Regulatory/R6-1.dwg"
+    },
+    {
+     "state": "R6-1(L)",
+     "code": "R6-1(L)",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R6-1(L).dwg"
+    },
+    {
+     "state": "R6-1(R)",
+     "code": "R6-1(R)",
+     "file": "sign-blocks/individual/Regulatory/R6-1(R).dwg"
+    },
+    {
+     "state": "R6-1(RT)",
+     "code": "R6-1(RT)",
+     "file": "sign-blocks/individual/Regulatory/R6-1(RT).dwg"
+    },
+    {
+     "state": "R6-1L",
+     "code": "R6-1L",
+     "file": "sign-blocks/individual/Regulatory/R6-1L.dwg"
+    },
+    {
+     "state": "R6-1R",
+     "code": "R6-1R",
+     "file": "sign-blocks/individual/Regulatory/R6-1R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R6-2-DYN",
+   "route": "signs/cad",
+   "label": "R6-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "R6-2 (LT)",
+     "code": "R6-2 (LT)",
+     "file": "sign-blocks/individual/Regulatory/R6-2 (LT).dwg"
+    },
+    {
+     "state": "R6-2L",
+     "code": "R6-2L",
+     "file": "sign-blocks/individual/Regulatory/R6-2L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "R6-2R",
+     "code": "R6-2R",
+     "file": "sign-blocks/individual/Regulatory/R6-2R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R9-3B-DYN",
+   "route": "signs/cad",
+   "label": "R9-3B sign, left and right versions",
+   "states": [
+    {
+     "state": "R9-3B (L)",
+     "code": "R9-3B (L)",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R9-3B (L).dwg"
+    },
+    {
+     "state": "R9-3B (R)",
+     "code": "R9-3B (R)",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R9-3B (R).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R9-3BP-DYN",
+   "route": "signs/cad",
+   "label": "R9-3bP sign, left and right versions",
+   "states": [
+    {
+     "state": "R9-3bP",
+     "code": "R9-3bP",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R9-3bP [Pico 2].dwg"
+    },
+    {
+     "state": "R9-3bP(L)",
+     "code": "R9-3bP(L)",
+     "file": "sign-blocks/individual/Regulatory/R9-3bP(L).dwg"
+    },
+    {
+     "state": "R9-3bP(LT)",
+     "code": "R9-3bP(LT)",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R9-3bP(LT).dwg"
+    },
+    {
+     "state": "R9-3bP(R)",
+     "code": "R9-3bP(R)",
+     "file": "sign-blocks/individual/Regulatory/R9-3bP(R).dwg"
+    },
+    {
+     "state": "R9-3bP(RT)",
+     "code": "R9-3bP(RT)",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R9-3bP(RT).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R9-11-DYN",
+   "route": "signs/cad",
+   "label": "R9-11 sign, left and right versions",
+   "states": [
+    {
+     "state": "R9-11",
+     "code": "R9-11",
+     "file": "sign-blocks/individual/Regulatory/R9-11.dwg"
+    },
+    {
+     "state": "R9-11(LT)",
+     "code": "R9-11(LT)",
+     "file": "sign-blocks/individual/Regulatory/R9-11(LT).dwg"
+    },
+    {
+     "state": "R9-11(RT)",
+     "code": "R9-11(RT)",
+     "file": "sign-blocks/individual/Regulatory/R9-11(RT).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R10-6-DYN",
+   "route": "signs/cad",
+   "label": "R10-6 sign, left and right versions",
+   "states": [
+    {
+     "state": "R10-6(LT)",
+     "code": "R10-6(LT)",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R10-6(LT).dwg"
+    },
+    {
+     "state": "R10-6L",
+     "code": "R10-6L",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R10-6L.dwg"
+    },
+    {
+     "state": "R10-6R",
+     "code": "R10-6R",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R10-6R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R10-10-DYN",
+   "route": "signs/cad",
+   "label": "R10-10 sign, left and right versions",
+   "states": [
+    {
+     "state": "R10-10L",
+     "code": "R10-10L",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R10-10L.dwg"
+    },
+    {
+     "state": "R10-10R",
+     "code": "R10-10R",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R10-10R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R61-19-CA-MOD-DYN",
+   "route": "signs/cad",
+   "label": "R61-19(CA)(Mod) sign, left and right versions",
+   "states": [
+    {
+     "state": "R61-19(CA)(Mod)(LT)",
+     "code": "R61-19(CA)(Mod)(LT)",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R61-19(CA)(Mod)(LT).dwg"
+    },
+    {
+     "state": "R61-19(CA)(Mod)(RT)",
+     "code": "R61-19(CA)(Mod)(RT)",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R61-19(CA)(Mod)(RT).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-M4-9B-DYN",
+   "route": "signs/cad",
+   "label": "M4-9b sign, left and right versions",
+   "states": [
+    {
+     "state": "M4-9b(LT)",
+     "code": "M4-9b(LT)",
+     "file": "sign-blocks/individual/Temporary traffic control/M4-9b(LT).dwg"
+    },
+    {
+     "state": "M4-9b(RT)",
+     "code": "M4-9b(RT)",
+     "file": "sign-blocks/individual/Temporary traffic control/M4-9b(RT).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-M4-9-DYN",
+   "route": "signs/cad",
+   "label": "M4-9 sign, left and right versions",
+   "states": [
+    {
+     "state": "M4-9L",
+     "code": "M4-9L",
+     "file": "sign-blocks/individual/Temporary traffic control/Reference size unknown/M4-9L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "M4-9R",
+     "code": "M4-9R",
+     "file": "sign-blocks/individual/Temporary traffic control/Reference size unknown/M4-9R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W20-5-DYN",
+   "route": "signs/cad",
+   "label": "W20-5 sign, left and right versions",
+   "states": [
+    {
+     "state": "W20-5L",
+     "code": "W20-5L",
+     "file": "sign-blocks/individual/Temporary traffic control/W20-5L.dwg"
+    },
+    {
+     "state": "W20-5R",
+     "code": "W20-5R",
+     "file": "sign-blocks/individual/Temporary traffic control/W20-5R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W22-1-DYN",
+   "route": "signs/cad",
+   "label": "W22-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "W22-1",
+     "code": "W22-1",
+     "file": "sign-blocks/individual/Temporary traffic control/W22-1.dwg"
+    },
+    {
+     "state": "W22-1L",
+     "code": "W22-1L",
+     "file": "sign-blocks/individual/Temporary traffic control/Reference size unknown/W22-1L.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-SW24-2-CA-DYN",
+   "route": "signs/cad",
+   "label": "SW24-2(CA) sign, left and right versions",
+   "states": [
+    {
+     "state": "SW24-2(CA)",
+     "code": "SW24-2(CA)",
+     "file": "sign-blocks/individual/Warning/SW24-2(CA).dwg"
+    },
+    {
+     "state": "SW24-2(CA)(L)",
+     "code": "SW24-2(CA)(L)",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/SW24-2(CA)(L).dwg"
+    },
+    {
+     "state": "SW24-2(CA)(R)",
+     "code": "SW24-2(CA)(R)",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/SW24-2(CA)(R).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-SW44-CA-DYN",
+   "route": "signs/cad",
+   "label": "SW44(CA) sign, left and right versions",
+   "states": [
+    {
+     "state": "SW44(CA)",
+     "code": "SW44(CA)",
+     "file": "sign-blocks/individual/Warning/SW44(CA).dwg"
+    },
+    {
+     "state": "SW44(CA)(L)",
+     "code": "SW44(CA)(L)",
+     "file": "sign-blocks/individual/Warning/SW44(CA)(L).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-1-DYN",
+   "route": "signs/cad",
+   "label": "W1-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-1(LT)",
+     "code": "W1-1(LT)",
+     "file": "sign-blocks/individual/Warning/W1-1(LT).dwg"
+    },
+    {
+     "state": "W1-1(RT)",
+     "code": "W1-1(RT)",
+     "file": "sign-blocks/individual/Warning/W1-1(RT).dwg"
+    },
+    {
+     "state": "W1-1L",
+     "code": "W1-1L",
+     "file": "sign-blocks/individual/Warning/W1-1L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W1-1R",
+     "code": "W1-1R",
+     "file": "sign-blocks/individual/Warning/W1-1R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-2-DYN",
+   "route": "signs/cad",
+   "label": "W1-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-2L",
+     "code": "W1-2L",
+     "file": "sign-blocks/individual/Warning/W1-2L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W1-2R",
+     "code": "W1-2R",
+     "file": "sign-blocks/individual/Warning/W1-2R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-3-DYN",
+   "route": "signs/cad",
+   "label": "W1-3 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-3L",
+     "code": "W1-3L",
+     "file": "sign-blocks/individual/Warning/W1-3L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W1-3R",
+     "code": "W1-3R",
+     "file": "sign-blocks/individual/Warning/W1-3R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-4-DYN",
+   "route": "signs/cad",
+   "label": "W1-4 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-4(LT)",
+     "code": "W1-4(LT)",
+     "file": "sign-blocks/individual/Warning/W1-4(LT).dwg"
+    },
+    {
+     "state": "W1-4L",
+     "code": "W1-4L",
+     "file": "sign-blocks/individual/Warning/W1-4L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W1-4R",
+     "code": "W1-4R",
+     "file": "sign-blocks/individual/Warning/W1-4R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-5-DYN",
+   "route": "signs/cad",
+   "label": "W1-5 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-5L",
+     "code": "W1-5L",
+     "file": "sign-blocks/individual/Warning/W1-5L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W1-5R",
+     "code": "W1-5R",
+     "file": "sign-blocks/individual/Warning/W1-5R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-6-DYN",
+   "route": "signs/cad",
+   "label": "W1-6 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-6",
+     "code": "W1-6",
+     "file": "sign-blocks/individual/Warning/W1-6.dwg"
+    },
+    {
+     "state": "W1-6(LT)",
+     "code": "W1-6(LT)",
+     "file": "sign-blocks/individual/Warning/W1-6(LT).dwg"
+    },
+    {
+     "state": "W1-6L",
+     "code": "W1-6L",
+     "file": "sign-blocks/individual/Warning/W1-6L.dwg"
+    },
+    {
+     "state": "W1-6R",
+     "code": "W1-6R",
+     "file": "sign-blocks/individual/Warning/W1-6R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-8-DYN",
+   "route": "signs/cad",
+   "label": "W1-8 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-8",
+     "code": "W1-8",
+     "file": "sign-blocks/individual/Warning/W1-8.dwg"
+    },
+    {
+     "state": "W1-8L",
+     "code": "W1-8L",
+     "file": "sign-blocks/individual/Warning/W1-8L.dwg"
+    },
+    {
+     "state": "W1-8R",
+     "code": "W1-8R",
+     "file": "sign-blocks/individual/Warning/W1-8R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W2-2-DYN",
+   "route": "signs/cad",
+   "label": "W2-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "W2-2L",
+     "code": "W2-2L",
+     "file": "sign-blocks/individual/Warning/W2-2L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W2-2R",
+     "code": "W2-2R",
+     "file": "sign-blocks/individual/Warning/W2-2R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W2-3-DYN",
+   "route": "signs/cad",
+   "label": "W2-3 sign, left and right versions",
+   "states": [
+    {
+     "state": "W2-3",
+     "code": "W2-3",
+     "file": "sign-blocks/individual/Warning/W2-3.dwg"
+    },
+    {
+     "state": "W2-3L",
+     "code": "W2-3L",
+     "file": "sign-blocks/individual/Warning/W2-3L.dwg"
+    },
+    {
+     "state": "W2-3R",
+     "code": "W2-3R",
+     "file": "sign-blocks/individual/Warning/W2-3R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W4-1-DYN",
+   "route": "signs/cad",
+   "label": "W4-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "W4-1",
+     "code": "W4-1",
+     "file": "sign-blocks/individual/Warning/W4-1.dwg"
+    },
+    {
+     "state": "W4-1L",
+     "code": "W4-1L",
+     "file": "sign-blocks/individual/Warning/W4-1L.dwg"
+    },
+    {
+     "state": "W4-1R",
+     "code": "W4-1R",
+     "file": "sign-blocks/individual/Warning/W4-1R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W4-2-DYN",
+   "route": "signs/cad",
+   "label": "W4-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "W4-2",
+     "code": "W4-2",
+     "file": "sign-blocks/individual/Warning/W4-2.dwg"
+    },
+    {
+     "state": "W4-2(R)",
+     "code": "W4-2(R)",
+     "file": "sign-blocks/individual/Warning/W4-2(R).dwg"
+    },
+    {
+     "state": "W4-2(RT)",
+     "code": "W4-2(RT)",
+     "file": "sign-blocks/individual/Warning/W4-2(RT).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W4-3-DYN",
+   "route": "signs/cad",
+   "label": "W4-3 sign, left and right versions",
+   "states": [
+    {
+     "state": "W4-3L",
+     "code": "W4-3L",
+     "file": "sign-blocks/individual/Warning/W4-3L.dwg"
+    },
+    {
+     "state": "W4-3R",
+     "code": "W4-3R",
+     "file": "sign-blocks/individual/Warning/W4-3R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W9-1-DYN",
+   "route": "signs/cad",
+   "label": "W9-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "W9-1",
+     "code": "W9-1",
+     "file": "sign-blocks/individual/Warning/W9-1.dwg"
+    },
+    {
+     "state": "W9-1(RT)",
+     "code": "W9-1(RT)",
+     "file": "sign-blocks/individual/Warning/W9-1(RT).dwg"
+    },
+    {
+     "state": "W9-1L",
+     "code": "W9-1L",
+     "file": "sign-blocks/individual/Warning/W9-1L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W9-1R",
+     "code": "W9-1R",
+     "file": "sign-blocks/individual/Warning/W9-1R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W9-2-DYN",
+   "route": "signs/cad",
+   "label": "W9-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "W9-2L",
+     "code": "W9-2L",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/W9-2L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W9-2R",
+     "code": "W9-2R",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/W9-2R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W10-2-DYN",
+   "route": "signs/cad",
+   "label": "W10-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "W10-2L",
+     "code": "W10-2L",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-2L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W10-2R",
+     "code": "W10-2R",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-2R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W10-3-DYN",
+   "route": "signs/cad",
+   "label": "W10-3 sign, left and right versions",
+   "states": [
+    {
+     "state": "W10-3L",
+     "code": "W10-3L",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-3L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W10-3R",
+     "code": "W10-3R",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-3R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W10-4-DYN",
+   "route": "signs/cad",
+   "label": "W10-4 sign, left and right versions",
+   "states": [
+    {
+     "state": "W10-4L",
+     "code": "W10-4L",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-4L [MUTCD CAD library 2].dwg"
+    },
+    {
+     "state": "W10-4R",
+     "code": "W10-4R",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/W10-4R [MUTCD CAD library 2].dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-W16-7P-DYN",
+   "route": "signs/cad",
+   "label": "W16-7P sign, left and right versions",
+   "states": [
+    {
+     "state": "W16-7P",
+     "code": "W16-7P",
+     "file": "sign-blocks/individual/Warning/W16-7P.dwg"
+    },
+    {
+     "state": "W16-7P (L)",
+     "code": "W16-7P (L)",
+     "file": "sign-blocks/individual/Warning/W16-7P (L).dwg"
+    },
+    {
+     "state": "W16-7P(L)",
+     "code": "W16-7P(L)",
+     "file": "sign-blocks/individual/Warning/W16-7P(L).dwg"
+    },
+    {
+     "state": "W16-7P(LT)",
+     "code": "W16-7P(LT)",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/W16-7P(LT).dwg"
+    },
+    {
+     "state": "W16-7P(R)",
+     "code": "W16-7P(R)",
+     "file": "sign-blocks/individual/Warning/W16-7P(R) [3346 sheets 1-13 2].dwg"
+    },
+    {
+     "state": "W16-7P(RT)",
+     "code": "W16-7P(RT)",
+     "file": "sign-blocks/individual/Warning/Reference size unknown/W16-7P(RT).dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-R2-1-SPEED-DYN",
+   "route": "signs/cad",
+   "label": "R2-1 speed limit, every posted speed",
+   "states": [
+    {
+     "state": "R2-1",
+     "code": "R2-1",
+     "file": "sign-blocks/individual/Regulatory/R2-1.dwg"
+    },
+    {
+     "state": "R2-1(25)",
+     "code": "R2-1(25)",
+     "file": "sign-blocks/individual/Regulatory/R2-1(25).dwg"
+    },
+    {
+     "state": "R2-1(30)",
+     "code": "R2-1(30)",
+     "file": "sign-blocks/individual/Regulatory/R2-1(30).dwg"
+    },
+    {
+     "state": "R2-1(35)",
+     "code": "R2-1(35)",
+     "file": "sign-blocks/individual/Regulatory/Reference size unknown/R2-1(35).dwg"
+    }
+   ]
+  }
+ ]
+}

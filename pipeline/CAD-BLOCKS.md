@@ -140,7 +140,27 @@ Rules live in `cad_standard.py`; `cad_normalize.py` applies them to every static
 Order after any block change: builder(s) → `cad_normalize.py` → `block_libraries.py` → `block_previews.py`
 → `cad_audit.py`.
 
-## Composed blocks: `composed_blocks.py`
+## Dynamic families: `dynamic_families.py` and `SSS-DYNBUILD.lsp`
+
+How dynamic blocks are made and kept up:
+- A family merges published variants that share one placement rule (all lane arrows, all words, the
+  crossing dash widths, crosswalk types, each sign's left and right versions, R2-1 speeds). Never mix
+  rules: one base point serves every state.
+- `python3 pipeline/dynamic_families.py` writes the family list (`data/reference/dynamic-families.json`).
+  The site build packs `SSS-DYNBUILD.zip` (routine, manifest CSV, every state drawing).
+- In AutoCAD: unzip, new drawing in feet, APPLOAD `SSS-DYNBUILD.lsp`, `SSSDYNTEST` (one family), then
+  `SSSDYNBUILD`. For each family it inserts every state at 0,0, tags each state by a temporary layer,
+  makes the block, then in the block editor adds one visibility parameter (one state per variant),
+  a rotation parameter and flip X and flip Y parameters at 0,0, each with its action on all geometry,
+  restores layer 0 and NOPLOT, saves and WBLOCKs `OUT\<family>.dwg`. Log: `OUT\SSS-DYNBUILD.log`.
+- Publish: upload the OUT folder; files are published byte for byte (never re-encoded), checked by
+  ODA read-back for native evaluation graphs (as `plan_blocks.write` does).
+- Maintain: change a variant (rebuild it, normalize it), or add a family row in `dynamic_families.py`,
+  then rerun SSSDYNBUILD for that family only (delete the other rows from the CSV).
+- Only AutoCAD writes dynamic block objects reliably. ODA keeps them byte for byte when cutting and
+  converting (proxy round trip), which is how the Westwood dynamic blocks are published; it cannot
+  author new parameters.
+ `composed_blocks.py`
 
 `python3 pipeline/composed_blocks.py --libredwg <dir>` writes blocks the plans draw as loose geometry
 or typed text:
