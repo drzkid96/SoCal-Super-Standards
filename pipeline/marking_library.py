@@ -23,7 +23,7 @@ CATALOG = Path('data/reference/design-blocks.json')
 FOLDER = Path('public/downloads/markings/cad')
 NAME = 'SSS-PMARK-LIBRARY.dwg'
 GAP = 4.0      # ft between blocks
-TEXT = 0.75    # ft label height
+TEXT = 1.0     # ft label height
 
 
 def build(libredwg):
@@ -81,7 +81,32 @@ def build(libredwg):
         for r in rows:
             if len(read.blocks[r['code']]) != len(lib.blocks[r['code']]):
                 raise ValueError(r['code'] + ': library block differs after read-back')
+        render(read, FOLDER / NAME.replace('.dwg', '.webp'))
     return len(rows)
+
+
+def render(doc, target, width_px=1000):
+    """Overview image for the page, drawn from the DWG as read back (what users will get)."""
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    from PIL import Image
+    from ezdxf.addons.drawing import Frontend, RenderContext
+    from ezdxf.addons.drawing.config import BackgroundPolicy, Configuration
+    from ezdxf.addons.drawing.matplotlib import MatplotlibBackend
+    ext = bbox.extents(doc.modelspace())
+    w, h = ext.extmax.x - ext.extmin.x, ext.extmax.y - ext.extmin.y
+    fig = plt.figure(figsize=(7, 7 * h / w))
+    ax = fig.add_axes([0, 0, 1, 1])
+    # pavement gray, so white and yellow markings read as they do on the street
+    config = Configuration(background_policy=BackgroundPolicy.CUSTOM, custom_bg_color='#2e2e2e')
+    Frontend(RenderContext(doc), MatplotlibBackend(ax), config=config).draw_layout(doc.modelspace())
+    png = Path(tempfile.mkdtemp()) / 'lib.png'
+    fig.savefig(png, dpi=2 * width_px / 7, facecolor='#2e2e2e')
+    plt.close(fig)
+    im = Image.open(png).convert('RGB')
+    im = im.resize((width_px, round(im.height * width_px / im.width)), Image.LANCZOS)
+    im.save(target, 'WEBP', quality=82)
 
 
 if __name__ == '__main__':

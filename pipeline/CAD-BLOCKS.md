@@ -43,7 +43,13 @@ python3 pipeline/marking_library.py --libredwg <dir>
   +X from the start of the reference line, stripes in marking colors (yellow 2, white 7, black
   contrast 250), 4 in markers; broken lines also go to `SSS-CALTRANS-STRIPING.lin` (feet).
 - `SSS-PMARK-LIBRARY.dwg` collects every block for the Blocks palette Libraries tab (striping one
-  detail per row) and is rendered to `SSS-PMARK-LIBRARY.webp` for the page.
+  detail per row). The same script renders `SSS-PMARK-LIBRARY.webp` from the DWG as read back, on
+  pavement gray (#2e2e2e, dark enough that ACI 7 draws white).
+- Colored fields under a white marking (`FIELDS`, the ISA's blue ACI 5 square) are their own hatch,
+  written first so the white marking draws over them.
+- `marking_blocks.py` replaces only its own `CT-A24*` catalog rows; striping `CT-DET-*` and plan
+  `PM-*` rows stay. After changing `striping_db.py`, also run `python3 pipeline/build_linetypes.py`
+  (line type pages and data).
 
 ## Dynamic blocks
 
@@ -70,13 +76,23 @@ the `-SSS-DYNAMIC.dwg` and `.csv` it writes byte for byte. Never re-encode them.
   wheel rings stay open in every renderer.
 - Plan-set blocks are often drawn at display scale and placed at a fraction of it (words at 1/3,
   bike symbols stretched). Bake the placed scale in.
+- PyMuPDF reports a single straight stroke with a zero-area Rect, and Rect union drops empty
+  rects. Build figure boxes from stroke points (LEFT is drawn only with straight lines).
+- Dimension and extension lines share the grid stroke weight. A grid needs at least four lines
+  each way; dashed centerlines are never grid (Type V's centerline gave a false scale).
+- No grid (Type V), or a grid note that disagrees with every printed dimension both ways (ISA:
+  drawn on a 4 1/2 in grid, noted 6 in): scale by the figure's own dimensions (text within 30 pt).
+  With a grid drawn, pick the dimension that makes the grid a whole half inch; otherwise the
+  largest that fits both sides. Then check against further printed dimensions or the area.
+- A printed dimension or area can be wrong. Publish on independent evidence and say so in
+  `SHEETS`: Type II (L) is 6'-9" (its halves equal Type II (B) and the through head; printed
+  7'-0"), the bike symbol without rider is 5.2 ft2 (printed 7, the rider symbol's value), the ISA
+  white area is 7.1 ft2 (printed 9; checked on four dimensions instead).
 - Caltrans and LA-area CAD symbol libraries are MicroStation DGN v8 and .cel. Converting them
   needs a DGN reader (ODA, cadkit, Aspose or AutoCAD DGNIMPORT).
 
 ## Still open
 
-- A24A Type V (traced in two parts), A24B Type II (L) (traces 6.75 ft against a printed 7 ft),
-  A24C bike symbol without person (traced area 5.2 against 7 ft2), A24D LEFT (outline not found),
-  A24C ISA (grid scale unresolved).
-- Striping details 36, 36A, 36B, 37 and 37B have no line rows in the database yet.
+- Every A24A to A24E figure is published (57 entries). Striping details 36 to 36B are the
+  channelizing line only; gore layouts follow the plan.
 - Crosswalks (A24F, no grid or area) and signal symbols (ES sheets, Caltrans cell library).

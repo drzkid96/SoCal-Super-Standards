@@ -35,11 +35,11 @@
    },
    {
     "size": [
-     0.765,
-     3.692
+     4.975,
+     24.0
     ],
-    "grid_ft": 1.0,
-    "area": 0.82
+    "grid_ft": 0.0,
+    "area": 34.55
    },
    {
     "size": [
@@ -59,11 +59,11 @@
    },
    {
     "size": [
-     7.248,
-     12.996
+     7.254,
+     13.007
     ],
     "grid_ft": 1.0,
-    "area": 27.07
+    "area": 27.12
    },
    {
     "size": [
@@ -82,12 +82,20 @@
    "TYPE-VIII": 5,
    "TYPE-I-18FT": 6,
    "BIKE-LANE-ARROW": 8,
-   "TYPE-V": null,
+   "TYPE-V": 4,
    "TYPE-VII-L": 7
   }
  },
  "A24B": {
   "figures": [
+   {
+    "size": [
+     8.0,
+     1.909
+    ],
+    "grid_ft": 0.0,
+    "area": 14.96
+   },
    {
     "size": [
      7.997,
@@ -130,23 +138,31 @@
    },
    {
     "size": [
-     8.379,
-     1.999
+     14.0,
+     3.34
     ],
-    "grid_ft": 1.0,
-    "area": 16.41
+    "grid_ft": 0.0,
+    "area": 45.81
    }
   ],
   "entries": {
-   "RXR": 0,
-   "TYPE-II-B": 1,
-   "TYPE-II-L": null,
-   "TYPE-III-B": 3,
-   "TYPE-III-L": 4
+   "RXR": 1,
+   "TYPE-II-B": 2,
+   "TYPE-II-L": 3,
+   "TYPE-III-B": 4,
+   "TYPE-III-L": 5
   }
  },
  "A24C": {
   "figures": [
+   {
+    "size": [
+     1.667,
+     1.077
+    ],
+    "grid_ft": 0.0,
+    "area": 1.79
+   },
    {
     "size": [
      3.251,
@@ -173,11 +189,11 @@
    },
    {
     "size": [
-     5.866,
-     5.869
+     4.414,
+     4.417
     ],
-    "grid_ft": 0.5,
-    "area": 12.61
+    "grid_ft": 0.0,
+    "area": 7.14
    },
    {
     "size": [
@@ -186,6 +202,38 @@
     ],
     "grid_ft": 0.5,
     "area": 11.47
+   },
+   {
+    "size": [
+     4.667,
+     1.029
+    ],
+    "grid_ft": 0.0,
+    "area": 0.67
+   },
+   {
+    "size": [
+     4.667,
+     1.029
+    ],
+    "grid_ft": 0.0,
+    "area": 0.56
+   },
+   {
+    "size": [
+     5.0,
+     0.691
+    ],
+    "grid_ft": 0.0,
+    "area": 0.36
+   },
+   {
+    "size": [
+     1.0,
+     0.104
+    ],
+    "grid_ft": 0.0,
+    "area": 0.02
    },
    {
     "size": [
@@ -245,28 +293,45 @@
    },
    {
     "size": [
-     0.167,
-     0.416
+     1.667,
+     0.386
     ],
-    "grid_ft": 0.0833,
-    "area": 0.06
+    "grid_ft": 0.0,
+    "area": 0.11
+   },
+   {
+    "size": [
+     1.667,
+     0.08
+    ],
+    "grid_ft": 0.0,
+    "area": 0.02
    }
   ],
   "entries": {
-   "BIKE-SYMBOL": null,
-   "BIKE-SYMBOL-PERSON": 2,
-   "DIAMOND": 0,
-   "SHARROW": 4,
-   "NUMERAL-2": 5,
-   "NUMERAL-5": 6,
-   "NUMERAL-3": 7,
-   "_NUMERAL-5": 8,
-   "NUMERAL-4": 9,
-   "NUMERAL-0": 10
+   "BIKE-SYMBOL": 2,
+   "BIKE-SYMBOL-PERSON": 3,
+   "ISA": 4,
+   "DIAMOND": 1,
+   "SHARROW": 5,
+   "NUMERAL-2": 10,
+   "NUMERAL-5": 11,
+   "NUMERAL-3": 12,
+   "_NUMERAL-5": 13,
+   "NUMERAL-4": 14,
+   "NUMERAL-0": 15
   }
  },
  "A24D": {
   "figures": [
+   {
+    "size": [
+     4.0,
+     2.585
+    ],
+    "grid_ft": 0.0,
+    "area": 10.34
+   },
    {
     "size": [
      11.33,
@@ -357,6 +422,14 @@
    },
    {
     "size": [
+     6.331,
+     7.997
+    ],
+    "grid_ft": 0.3333,
+    "area": 19.1
+   },
+   {
+    "size": [
      6.997,
      7.997
     ],
@@ -405,24 +478,24 @@
    }
   ],
   "entries": {
-   "RUNAWAY": 0,
-   "VEHICLES": 1,
-   "YIELD": 2,
-   "SCHOOL": 3,
-   "WAIT": 4,
-   "SLOW": 5,
-   "AHEAD": 6,
-   "TURN": 7,
-   "HERE": 8,
-   "XING": 9,
-   "SIGNAL": 10,
-   "LEFT": null,
-   "RIGHT": 11,
-   "STOP": 12,
-   "PED": 13,
-   "COMPACT": 14,
-   "BIKE-4FT": 15,
-   "LANE-4FT": 16
+   "RUNAWAY": 1,
+   "VEHICLES": 2,
+   "YIELD": 3,
+   "SCHOOL": 4,
+   "WAIT": 5,
+   "SLOW": 6,
+   "AHEAD": 7,
+   "TURN": 8,
+   "HERE": 9,
+   "XING": 10,
+   "SIGNAL": 11,
+   "LEFT": 12,
+   "RIGHT": 13,
+   "STOP": 14,
+   "PED": 15,
+   "COMPACT": 16,
+   "BIKE-4FT": 17,
+   "LANE-4FT": 18
   }
  },
  "A24E": {
@@ -546,6 +619,14 @@
     ],
     "grid_ft": 0.3333,
     "area": 23.22
+   },
+   {
+    "size": [
+     3.75,
+     2.329
+    ],
+    "grid_ft": 0.0,
+    "area": 2.15
    }
   ],
   "entries": {
