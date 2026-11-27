@@ -9,7 +9,8 @@
       "Bicycle markings",
       "Striping patterns",
       "Crosswalks",
-      "Dynamic blocks"
+      "Dynamic blocks",
+      "Raised elements"
     ],
     "references": {
       "Caltrans 2026 Standard Plans A20A\u2013A24L (DGN, official CAD source)": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
@@ -1536,6 +1537,86 @@
         "sheet": "A24F"
       },
       {
+        "code": "PM-BIKE-XING-GREEN-5FT",
+        "name": "Green bike crossing dash, 5 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library (Westwood)",
+        "file": "PM-BIKE-XING-GREEN-5FT.dwg",
+        "group": "Bicycle markings",
+        "size": [
+          5,
+          2.0
+        ]
+      },
+      {
+        "code": "PM-BIKE-XING-GREEN-6FT",
+        "name": "Green bike crossing dash, 6 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library (Westwood)",
+        "file": "PM-BIKE-XING-GREEN-6FT.dwg",
+        "group": "Bicycle markings",
+        "size": [
+          6,
+          2.0
+        ]
+      },
+      {
+        "code": "PM-BIKE-XING-GREEN-6P5FT",
+        "name": "Green bike crossing dash, 6.5 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library (Westwood)",
+        "file": "PM-BIKE-XING-GREEN-6P5FT.dwg",
+        "group": "Bicycle markings",
+        "size": [
+          6.5,
+          2.0
+        ]
+      },
+      {
+        "code": "PM-BIKE-XING-GREEN-7FT",
+        "name": "Green bike crossing dash, 7 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library (Westwood)",
+        "file": "PM-BIKE-XING-GREEN-7FT.dwg",
+        "group": "Bicycle markings",
+        "size": [
+          7,
+          2.0
+        ]
+      },
+      {
+        "code": "PM-BIKE-XING-GREEN-8FT",
+        "name": "Green bike crossing dash, 8 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library (Westwood)",
+        "file": "PM-BIKE-XING-GREEN-8FT.dwg",
+        "group": "Bicycle markings",
+        "size": [
+          8,
+          2.0
+        ]
+      },
+      {
+        "code": "PM-KEEP-CLEAR",
+        "name": "KEEP CLEAR, two-line legend from Caltrans A24E words, 31.9893 ft between lines",
+        "file": "PM-KEEP-CLEAR.dwg",
+        "group": "Words",
+        "size": [
+          8.0,
+          47.98
+        ]
+      },
+      {
+        "code": "PM-BUS-ONLY",
+        "name": "BUS ONLY, two-line legend from Caltrans A24E words, 31.9893 ft between lines",
+        "file": "PM-BUS-ONLY.dwg",
+        "group": "Words",
+        "size": [
+          6.0,
+          47.98
+        ]
+      },
+      {
+        "code": "PM-WAIT-HERE",
+        "name": "WAIT HERE, two-line legend from Caltrans A24D words, 31.9858 ft between lines",
+        "file": "PM-WAIT-HERE.dwg",
+        "group": "Words",
+        "size": [
+          6.33,
+          47.98
+        ]
+      },
+      {
         "code": "PM-YIELD-LINE-DYN",
         "name": "Yield line; linear grip sets the length, triangles repeat \u00b7 dynamic \u00b7 LA plan library (Westwood)",
         "file": "PM-YIELD-LINE-DYN.dwg",
@@ -1568,6 +1649,32 @@
         "name": "Bike left and through arrow; rotation \u00b7 dynamic \u00b7 LA plan library (Westwood)",
         "file": "PM-BIKE-LEFT-THRU-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
+        "dynamic": "Dynamic block"
+      },
+      {
+        "code": "PM-BIKE-LANE-GREEN-5FT-DYN",
+        "name": "Green bike lane panels, 5 x 50 ft, two bike symbols and arrows \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "file": "PM-BIKE-LANE-GREEN-5FT-DYN.dwg",
+        "group": "Dynamic blocks",
+        "dynamic": "Dynamic block"
+      },
+      {
+        "code": "PM-LEFT-TURN-CALMING-10FT",
+        "name": "Left turn calming curb, 10 ft \u00b7 LA plan library (Westwood)",
+        "file": "PM-LEFT-TURN-CALMING-10FT.dwg",
+        "group": "Raised elements"
+      },
+      {
+        "code": "PM-LEFT-TURN-CALMING-3FT",
+        "name": "Left turn calming bump, 3 ft \u00b7 LA plan library (Westwood)",
+        "file": "PM-LEFT-TURN-CALMING-3FT.dwg",
+        "group": "Raised elements"
+      },
+      {
+        "code": "PM-CURB-STOP-DYN",
+        "name": "Curb stop (wheel stop), 6 ft \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "file": "PM-CURB-STOP-DYN.dwg",
+        "group": "Raised elements",
         "dynamic": "Dynamic block"
       },
       {
@@ -1611,9 +1718,15 @@
         "file": "PM-MERGE-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
+      },
+      {
+        "code": "PM-LANE-DEFENDER-15FT",
+        "name": "Lane defender, 15 ft \u00b7 LA plan library (Westwood)",
+        "file": "PM-LANE-DEFENDER-15FT.dwg",
+        "group": "Raised elements"
       }
     ],
-    "note": "True size, one unit = one foot. Each drawing opens as one block insert on layer P-PMARK; block geometry is a SOLID hatch with its outline on layer 0, ByBlock. Base point: the middle of an arrow's tail, or the bottom center of a word or symbol (top center for yield line triangles, which sit on the line). Caltrans blocks follow the 2026 Standard Plans; (R) arrows are mirror images, as the plans direct. Striping details (CT-DET) run along +X for one full repeat, base point at the start of the reference line, in marking colors. Plan-library blocks are at true size.",
+    "note": "True size, one unit = one foot. Each drawing opens as one block insert on layer P-PMARK; block geometry is a SOLID hatch with its outline on layer 0, ByBlock. Base point: the middle of an arrow's tail, or the bottom center of a word or symbol (top center for yield line triangles, which sit on the line). Caltrans blocks follow the 2026 Standard Plans; (R) arrows are mirror images, as the plans direct. Striping details (CT-DET) run along +X for one full repeat, base point at the start of the reference line, in marking colors. Plan-library blocks are at true size. Green bike crossing dashes (PM-BIKE-XING) repeat every 8 ft along the crossing path (ARRAYPATH). Raised elements are plan outlines at true size.",
     "preview": "downloads/markings/cad/SSS-PMARK-LIBRARY.webp",
     "downloads": [
       {

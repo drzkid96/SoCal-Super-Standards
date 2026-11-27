@@ -355,7 +355,7 @@ def main():
             else:r["status"]="source comparison only" if "sourceMetrics" in r else "no comparable source image"
         except Exception as e:r["status"]="comparison error: "+str(e)[:70]
     reviewed={}
-    previous_site_report=site/"public/downloads/sign-blocks-qa/CAD-VISUAL-CHECKS.json"
+    previous_site_report=site/"data/reference/cad-review/CAD-VISUAL-CHECKS.json"
     if previous_site_report.is_file():
         for previous in read(previous_site_report)["records"]:
             if previous.get("visualReview"):

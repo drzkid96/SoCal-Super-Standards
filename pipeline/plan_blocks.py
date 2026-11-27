@@ -46,6 +46,10 @@ SOURCES = {
         ('Base$0$ss-p-pmark', 'PM-ARROW-SET-DYN', 'Arrow set; visibility picks the arrow, five flip grips', 'Dynamic blocks'),
         ('Bike-NoPerson-Arrow', 'PM-BIKE-LANE-GREEN-DYN', 'Green bike lane panel, 7 x 25 ft, bike symbol and arrow; rotation', 'Dynamic blocks'),
         ('BIKE-LEFT-THRU-ARROW', 'PM-BIKE-LEFT-THRU-ARROW-DYN', 'Bike left and through arrow; rotation', 'Dynamic blocks'),
+        ('AA-BIKE', 'PM-BIKE-LANE-GREEN-5FT-DYN', 'Green bike lane panels, 5 x 50 ft, two bike symbols and arrows', 'Dynamic blocks'),
+        ("10' Left Turn Calming", 'PM-LEFT-TURN-CALMING-10FT', 'Left turn calming curb, 10 ft', 'Raised elements'),
+        ("3' Left Turn Calming", 'PM-LEFT-TURN-CALMING-3FT', 'Left turn calming bump, 3 ft', 'Raised elements'),
+        ('Curb-Stop', 'PM-CURB-STOP-DYN', 'Curb stop (wheel stop), 6 ft', 'Raised elements'),
     ],
     'westwood-ts': [
         ('LEFT ARROW', 'PM-LEFT-ARROW-DYN', 'Left turn arrow; existing, remove and proposed states', 'Dynamic blocks'),
@@ -55,6 +59,7 @@ SOURCES = {
         ('THRU & LEFT ARROW', 'PM-THRU-LEFT-ARROW-DYN', 'Through and left arrow; existing, remove and proposed states', 'Dynamic blocks'),
         ('THRU & RIGHT ARROW', 'PM-THRU-RIGHT-ARROW-DYN', 'Through and right arrow; existing, remove and proposed states', 'Dynamic blocks'),
         ('MERGE ARROW', 'PM-MERGE-ARROW-DYN', 'Lane reduction (merge) arrow; existing, remove and proposed states', 'Dynamic blocks'),
+        ("15' WIDE LANE DEFENDER", 'PM-LANE-DEFENDER-15FT', 'Lane defender, 15 ft', 'Raised elements'),
         ('STANDARD', 'SG-STANDARD-DYN', 'Signal standard', 'Poles and mast arms'),
         ('STANDARD T3', 'SG-STANDARD-T3-DYN', 'Signal standard, T3', 'Poles and mast arms'),
         ('STANDARD T5', 'SG-STANDARD-T5-DYN', 'Signal standard, T5', 'Poles and mast arms'),
@@ -162,10 +167,10 @@ LIBRARIES = {'westwood-ss': 'SSS-STRIPING-PLAN-LIBRARY.dwg', 'westwood-ts': 'SSS
 LIBRARY_ROUTE = {'westwood-ss': 'markings/cad', 'westwood-ts': 'signals/cad', 'westwood-survey': 'signals/cad'}
 STATE = {'SIGEQ': 'SIGNAL', 'SIGCOND': 'SIGNAL', 'SIGCIVIL': 'SITE', 'SIGN': 'SIGN', 'STRP-PVMTXT': 'PMARK',
          'STRP-PVM': 'PMARK', 'PMARK': 'PMARK', 'REMOVE': 'SIGN', 'REMOVE-STRP-PVMTXT': 'PMARK'}
-TO_ZERO = {'BASE', '1', 'STRP', 'PSTRP', 'P-STRP-SOLID', 'SUBSTR', 'E-SIGTXT', 'E-SIGTEXT', '$0$E-SIGTXT', '$1$E-SIGTXT',
+TO_ZERO = {'BASE', '1', 'STRP', 'FP-RAISED-ELEMENT', 'FP-RAISED-ELEMENT-FRZ', 'Z-TEXT-FRZ', 'PSTRP', 'P-STRP-SOLID', 'SUBSTR', 'E-SIGTXT', 'E-SIGTEXT', '$0$E-SIGTXT', '$1$E-SIGTXT',
            'T-NOTES', 'T-TYPE', 'T-ATTRIB', 'B-TEXT', '_E-TRAF-POSTS', '_E-TRAF-SYM', 'V-TREE-TR', 'V-UTLS-TL',
            'V-TOPO-MISC-CRACK', 'V-ANNO-TREE DIAM'}
-NO_PLOT = {'FP-NOPLOT', '_FP-NOPLOT', 'FP-NO-PLOT', '__AA-WORKING-01'}
+NO_PLOT = {'FP-NOPLOT', '_FP-NOPLOT', 'FP-NO-PLOT', '__AA-WORKING-01', 'FP-Noplot', 'FP-NOPLOT-EH', 'FP-NOPLOT-ND'}
 GREEN = {'_P-STRP-GREEN', 'FP-GREEN-BIKE-LANE'}
 ALIASES = {'_E-STRP-RETAIN': 'E-PMARK', '_LADOT-P-SIGN-SYM': 'P-SIGN'}
 LINETYPES = {'Base$0$R-Solid': ('PMARK-REMOVE', 'Removed marking  __ __ __')}
@@ -321,6 +326,37 @@ def fingerprint(doc, name, _seen=None):
     return h.hexdigest()
 
 
+def rebase(doc, name):
+    """A static block drawn in place at state plane coordinates gets its base point at the bottom center."""
+    ext = bbox.extents(doc.blocks[name])
+    if ext.has_data and max(abs(v) for v in (*ext.extmin.xy, *ext.extmax.xy)) > 10000:
+        dx, dy = -(ext.extmin.x + ext.extmax.x) / 2, -ext.extmin.y
+        for e in doc.blocks[name]:
+            e.translate(dx, dy, 0)
+
+
+def tidy(doc):
+    """Drop repeated consecutive LWPOLYLINE vertices inside static blocks (drafting leftovers).
+    Dynamic blocks and their sub-blocks are left alone: their actions may point at vertices."""
+    hold = set()
+    for blk in doc.blocks:
+        if not blk.is_any_layout and is_dynamic(doc, blk.name):
+            hold |= nested(doc, [blk.name]) | {blk.name}
+    for blk in doc.blocks:
+        if blk.name in hold or blk.name.startswith('*'):
+            continue
+        for e in list(blk):
+            if e.dxftype() == 'LWPOLYLINE':
+                pts = list(e.get_points('xyseb'))
+                keep = [q for i, q in enumerate(pts) if i == 0 or (round(q[0], 6), round(q[1], 6)) != (round(pts[i - 1][0], 6), round(pts[i - 1][1], 6))]
+                if e.closed and len(keep) > 1 and (round(keep[0][0], 6), round(keep[0][1], 6)) == (round(keep[-1][0], 6), round(keep[-1][1], 6)):
+                    keep.pop()
+                if len(keep) < 2:
+                    blk.delete_entity(e)   # a polyline collapsed to one point draws nothing
+                elif len(keep) != len(pts):
+                    e.set_points(keep, 'xyseb')
+
+
 def cut(src_dxf, keep, dst_dxf, insert_layer=None):
     """Write a DXF holding only the kept blocks (source name -> standard name), cleaned and renamed,
     with their sub-blocks. Returns the dynamic data of each kept block, by standard name."""
@@ -453,6 +489,10 @@ def cut(src_dxf, keep, dst_dxf, insert_layer=None):
         if app.dxf.name not in apps and app.dxf.handle not in pinned:
             doc.appids.remove(app.dxf.name)
     compact_classes(doc)
+    tidy(doc)
+    for name in keep.values():
+        if not is_dynamic(doc, name):
+            rebase(doc, name)
     if insert_layer:
         layout(doc, list(keep.values()))
     doc.units = 2
@@ -535,6 +575,8 @@ def write_static(src, names, target, libredwg, work):
     imp.finalize()
     for n in names:
         doc.blocks[n].block_record.dxf.units = 2
+        tidy(doc)
+        rebase(doc, n)
     layout(doc, names)
     doc.header['$INSUNITS'] = 2
     for layer in list(doc.layers):
@@ -542,6 +584,7 @@ def write_static(src, names, target, libredwg, work):
                 {e.dxf.layer for e in doc.modelspace()} | {'0', 'Defpoints'}:
             doc.layers.remove(layer.dxf.name)
     dxf = work / 'static.dxf'
+    tidy(doc)
     doc.saveas(dxf)
     log = subprocess.run([libredwg / 'dxf2dwg', '-y', '--as', 'r2000', '-o', work / 'static.dwg', dxf], capture_output=True, text=True)
     if log.returncode or re.search(r'warning|error', log.stdout + log.stderr, re.I):

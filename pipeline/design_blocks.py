@@ -42,14 +42,23 @@ def build(root, lookup):
                     raise ValueError(f'Invalid DWG: {asset}')
             size = row.get('size')
             label = row['name'] + (f' · {size[0]:g} × {size[1]:g} ft' if size else '') + (f' · {row["dynamic"]}' if row.get('dynamic') else '')
-            groups[row['group']].append((code, label, asset))
+            preview = Path('block-previews') / route / (Path(filename).stem + '.svg')
+            if not (Path('public') / preview).is_file():
+                raise ValueError(f'Missing preview picture: {preview} (run pipeline/block_previews.py)')
+            groups[row['group']].append((code, label, asset, preview))
         if not used:
             lines.append('No DWG blocks have been published yet. Browse the design references below.')
         for group, rows in groups.items():
-            if rows:
-                lines.extend(['', '## ' + group, ''])
-            for code, name, asset in sorted(rows):
-                lines.append(f'<p><strong>{escape(code)}</strong> · {escape(name)} · <a download href="{BASE}/{quote(asset.as_posix())}">Download DWG</a></p>')
+            if not rows:
+                continue
+            lines.extend(['', '## ' + group, '', '<div class="block-grid">'])
+            for code, name, asset, preview in sorted(rows):
+                href = f'{BASE}/{quote(asset.as_posix())}'
+                lines.append(f'<figure class="block-card" id="{escape(code.lower())}"><a download href="{href}" aria-label="Download {escape(code)} DWG">'
+                             f'<img src="{BASE}/{quote(preview.as_posix())}" alt="{escape(name)}" loading="lazy" decoding="async"></a>'
+                             f'<figcaption><strong>{escape(code)}</strong><span>{escape(name)}</span>'
+                             f'<a download href="{href}">DWG</a></figcaption></figure>')
+            lines.append('</div>')
         lines.extend(['', '## Design references', ''])
         for name, path in collection['references'].items():
             url = path if path.startswith('https://') else f'{BASE}/{path}'

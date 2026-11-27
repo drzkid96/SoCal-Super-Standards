@@ -244,8 +244,8 @@ def write_pages(root, lookup, release):
     reference=release.get('standardReference')
     example_files=[('LADOT-SIGN-LEGEND-EXAMPLE.zip','Two-sign legend'),('LADOT-SIGN-LEGEND-THREE-TABLES.zip','Three-table legend'),
                    ('LADOT-SIGN-LEGEND-IMPORTED-SHEETS.zip','Legend from imported sheets')]
-    examples=[f'<a download href="{BASE}/downloads/sign-blocks-qa/{name}">{label} (ZIP)</a>' for name,label in example_files
-              if (Path('public/downloads/sign-blocks-qa')/name).is_file()]
+    examples=[f'<a download href="{BASE}/downloads/sign-legend-examples/{name}">{label} (ZIP)</a>' for name,label in example_files
+              if (Path('public/downloads/sign-legend-examples')/name).is_file()]
     standard_link=(f'<p><a download href="{ESC(file_url(reference["file"]))}">California and federal sign size references (ZIP, {size(reference["bytes"])})</a></p>' if reference else '')
     legend_examples='<p id="legend-examples">'+' · '.join(examples)+'</p>' if examples else ''
     source_links=' · '.join(f'<a href="{BASE}/signs/cad/sources/{key}/">{ESC(name)}</a>' for key,(name,_) in LIBRARIES.items()
