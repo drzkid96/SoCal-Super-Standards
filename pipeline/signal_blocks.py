@@ -23,7 +23,7 @@ import ezdxf
 from sign_cells import r2000_document
 
 CATALOG = Path('data/reference/design-blocks.json')
-ROUTE = 'caltrans/signal-blocks'
+ROUTE = 'signals/cad'
 OUT = Path('public/downloads') / ROUTE
 LIBRARY = 'SSS-SIGNAL-LIBRARY.dwg'
 SOURCE = 'https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards'
@@ -137,7 +137,17 @@ def codes(text):
 
 
 def slug(text):
-    return re.sub(r'[^A-Z0-9]+', '-', text.upper()).strip('-')[:28].strip('-')
+    first = re.split(r'\.\s|\(|=|\bunless\b', text, flags=re.I)[0]   # the first clause names the symbol
+    raw = re.sub(r'[^A-Z0-9]+', '-', first.upper()).strip('-').split('-')
+    words = [w for i, w in enumerate(raw) if w not in ('A', 'AN', 'THE', 'OF') or (i and raw[i - 1] == 'TYPE')]
+    while len(words) > 1 and len(words[-1]) == 1 and not words[-1].isdigit():
+        words.pop()
+    out = ''
+    for w in words:   # whole words only, about 32 characters
+        if out and len(out) + len(w) + 1 > 32:
+            break
+        out = f'{out}-{w}' if out else w
+    return out
 
 
 def add(block, kind, ox, oy):
@@ -147,9 +157,17 @@ def add(block, kind, ox, oy):
     t = kind['type']
     at = {'layer': '0', 'color': 0}
     if t == 'line':
-        block.add_line(tr(kind['start']['x'], kind['start']['y']), tr(kind['end']['x'], kind['end']['y']), dxfattribs=at)
+        a, b = tr(kind['start']['x'], kind['start']['y']), tr(kind['end']['x'], kind['end']['y'])
+        if math.dist(a, b) > 1e-6:   # the sheets carry a few zero-length lines
+            block.add_line(a, b, dxfattribs=at)
     elif t == 'polyline':
-        pts = [tr(v['position']['x'], v['position']['y']) + (v.get('bulge', 0),) for v in kind['vertices']]
+        pts = []
+        for v in kind['vertices']:
+            p = tr(v['position']['x'], v['position']['y']) + (v.get('bulge', 0),)
+            if not pts or math.dist(pts[-1][:2], p[:2]) > 1e-6:   # drop repeated vertices
+                pts.append(p)
+        if len(pts) < 2:
+            return
         closed = len(pts) > 2 and math.dist(pts[0][:2], pts[-1][:2]) < 1e-6
         block.add_lwpolyline(pts[:-1] if closed else pts, format='xyb', close=closed, dxfattribs=at)
     elif t == 'circle':
@@ -219,11 +237,11 @@ def build(dumps, libredwg):
 def write(code, kind, origin, libredwg):
     doc = r2000_document()
     doc.units = 1   # inches: one unit is one plotted inch
-    doc.layers.new('E-SIGN-SIGNL', dxfattribs={'color': 3})
+    doc.layers.new('P-SIGNAL', dxfattribs={'color': 7})
     block = doc.blocks.new(code, base_point=(0, 0))
     block.block_record.dxf.units = 1
     add(block, kind, origin['x'], origin['y'])
-    doc.modelspace().add_blockref(code, (0, 0), dxfattribs={'layer': 'E-SIGN-SIGNL'})
+    doc.modelspace().add_blockref(code, (0, 0), dxfattribs={'layer': 'P-SIGNAL'})
     target = OUT / (code + '.dwg')
     with tempfile.TemporaryDirectory() as tmp:
         path = Path(tmp) / 'c.dxf'
@@ -243,15 +261,15 @@ def library(rows, libredwg):
     from ezdxf.addons import Importer
     lib = r2000_document()
     lib.units = 1
-    for name in ('E-SIGN-SIGNL', 'E-SIGN-TEXT'):
-        lib.layers.new(name, dxfattribs={'color': 3 if name == 'E-SIGN-SIGNL' else 7})
+    for name in ('P-SIGNAL', 'P-SIGNAL-TEXT'):
+        lib.layers.new(name, dxfattribs={'color': 3 if name == 'P-SIGNAL' else 7})
     msp, y = lib.modelspace(), 0.0
     with tempfile.TemporaryDirectory() as tmp:
         for group in dict.fromkeys(g for g, _ in GROUPS):
             members = [r for r in rows if r['group'] == group]
             if not members:
                 continue
-            msp.add_text(group.upper(), height=0.2, dxfattribs={'layer': 'E-SIGN-TEXT', 'style': 'ROMANS', 'insert': (0, y)})
+            msp.add_text(group.upper(), height=0.2, dxfattribs={'layer': 'P-SIGNAL-TEXT', 'style': 'ROMANS', 'insert': (0, y)})
             y -= 0.6
             for n, r in enumerate(members):
                 col, row = n % 8, n // 8
@@ -261,8 +279,8 @@ def library(rows, libredwg):
                 imp.import_block(r['code'])
                 imp.finalize()
                 at = (col * 2.2 + 1.0, y - row * 1.6 - 0.6)
-                msp.add_blockref(r['code'], at, dxfattribs={'layer': 'E-SIGN-SIGNL'})
-                msp.add_text(r['code'].replace('CT-', ''), height=0.06, dxfattribs={'layer': 'E-SIGN-TEXT', 'style': 'ROMANS'}).set_placement(
+                msp.add_blockref(r['code'], at, dxfattribs={'layer': 'P-SIGNAL'})
+                msp.add_text(r['code'].replace('CT-', ''), height=0.06, dxfattribs={'layer': 'P-SIGNAL-TEXT', 'style': 'ROMANS'}).set_placement(
                     (at[0], at[1] - 0.6), align=ezdxf.enums.TextEntityAlignment.MIDDLE_CENTER)
             y -= ((len(members) - 1) // 8 + 1) * 1.6 + 0.8
         path = Path(tmp) / 'lib.dxf'
@@ -275,17 +293,22 @@ def library(rows, libredwg):
 
 
 def publish(rows):
+    """Replace this script's CT-ES rows and library entry; plan-library rows (plan_blocks.py) stay."""
     catalog = json.loads(CATALOG.read_text())
     section = catalog[ROUTE]
-    section['groups'] = list(dict.fromkeys(g for g, _ in GROUPS if any(r['group'] == g for r in rows)))
-    section['blocks'] = rows
-    section['note'] = ('Caltrans 2026 electrical legend symbols (Standard Plans ES-1A, ES-1B and ES-1C), read from the official '
-                       'DGN sheets: the Caltrans cell library as the plans place it, new and existing. Plan symbols at plotted '
-                       'size: one unit = one plotted inch; insert at the drawing scale (x40 at 1" = 40\'). Each drawing opens as '
-                       'one block insert, base point at the Caltrans cell origin, geometry on layer 0 ByBlock so the insert layer '
-                       'sets the color.')
-    section['downloads'] = [{'label': LIBRARY, 'path': f'downloads/{ROUTE}/{LIBRARY}',
-                             'note': 'every symbol in one drawing, for the Blocks palette (Libraries tab), DesignCenter or a tool palette'}]
+    others = [b for b in section['blocks'] if not b['code'].startswith('CT-ES')]
+    section['blocks'] = rows + others
+    order = list(dict.fromkeys(g for g, _ in GROUPS))
+    section['groups'] = list(dict.fromkeys([g for g in order if any(r['group'] == g for r in section['blocks'])] + section['groups']))
+    section['note'] = ('Caltrans 2026 electrical legend symbols (Standard Plans ES-1A, ES-1B and ES-1C, read from the official DGN '
+                       'sheets) at plotted size: one unit = one plotted inch, insert at the drawing scale (x40 at 1" = 40\'), base '
+                       'point at the Caltrans cell origin. LA plan-library blocks (PM-, SG-, SN-, SV-, from the Westwood corridor signal '
+                       'plan and topographic survey) are in feet at plan size, insert at 1; most are dynamic with existing, proposed, '
+                       'remove and abandon states on E-, P-, R- and A- layers. Every drawing opens as block inserts only, geometry on layer '
+                       '0 ByBlock or its state layer.')
+    entry = {'label': LIBRARY, 'path': f'downloads/{ROUTE}/{LIBRARY}',
+             'note': 'every Caltrans ES-1 symbol in one drawing, for the Blocks palette (Libraries tab), DesignCenter or a tool palette'}
+    section['downloads'] = [entry] + [d for d in section.get('downloads', []) if d['label'] != LIBRARY]
     CATALOG.write_text(json.dumps(catalog, indent=2) + '\n')
 
 

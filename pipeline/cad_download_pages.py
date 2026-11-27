@@ -356,7 +356,7 @@ def write_pages(root, lookup, release):
     source_links=' · '.join(f'<a href="{BASE}/signs/cad/sources/{key}/">{ESC(name)}</a>' for key,(name,_) in LIBRARIES.items()
                            if (root/'signs/cad/sources'/(key+'.md')).exists())
     bulk=(download(release['master'],'Master DWG',release['masterBytes'],'SOCAL-SIGN-CATALOG.dwg')+' '+
-          download(release['bundle'],'Download all · ZIP',release['bundleBytes'],'SOCAL-SIGN-BLOCKS.zip'))
+          download(release['bundle'],'All individual drawings · ZIP',release['bundleBytes'],'SOCAL-SIGN-BLOCKS.zip'))
     controls=(f'<form class="cad-find" hidden><label>Search blocks<input type="search" name="q" placeholder="Sign code, description or size (24 × 24)"></label>'
               '<details class="cad-filter-options"><summary>Filters</summary><div class="cad-filter-grid">'
               f'<label>Drawing source<select name="source"><option value="">All sources</option>{options([*(label for r in records for label in r["sourceLabels"]),*(r["source"] for r in unavailable)])}</select></label>'

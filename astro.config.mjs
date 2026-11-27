@@ -107,9 +107,14 @@ export default defineConfig({
           { label: 'Detail & Drawing Index', link: '/details/' },
           { label: 'Sign Library', link: '/signs/' },
           { label: 'Pavement Markings', link: '/markings/' },
-          { label: 'Caltrans Line Types (49)', link: '/markings/line-types/' },
+          { label: 'Caltrans Line Types', link: '/markings/line-types/' },
           { label: 'Keyword Index A–Z', link: '/keywords/' },
           { label: 'What Governs (Status)', link: '/bulletins/standards-status/' },
+        ] },
+        { label: 'CAD Blocks', collapsed: true, items: [
+          { label: 'Sign DWG blocks', link: '/signs/cad/' },
+          { label: 'Pavement marking DWG blocks', link: '/markings/cad/' },
+          { label: 'Signal and survey DWG blocks', link: '/signals/cad/' },
         ] },
         { label: 'Design by Topic', collapsed: true, items: [
           { label: 'All 12 Topics (Visual Hub)', link: '/topics/' },

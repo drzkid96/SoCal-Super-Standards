@@ -76,30 +76,49 @@ python3 pipeline/signal_blocks.py --json es01a.json es01b.json es01c.json --libr
   ByBlock, inserted at the drawing scale. Unnamed cells take their name from the description and the
   NEW / EXISTING column. Descriptions that are symbols or sit on another row are in `OVERRIDE`.
 
-## Dynamic blocks
+## Names and layers (every family)
+
+- `CT-<sheet>-<item>`: official Caltrans geometry (A24A to A24F, DET, ES-1A to ES-1C).
+- Plan-library blocks from LA plan sets: `PM-` pavement markings, `SG-` signals, `SN-` signs, `SV-` survey
+  and site features, then a descriptive item; `-DYN` marks a dynamic block; sub-blocks `<prefix>-SUB-<item>`.
+- File name = block name; one-block files insert at 0,0. Sign files keep their source block names (they
+  match the master and the legend export); their paths are cleaned by `cad_block_package.clean_path`
+  (lower-case kebab folders, no spaces or brackets, numbered when two clean to one).
+- Insert layers: P-SIGN, P-PMARK, P-STRP, P-SIGNAL, E-SITE (labels on `<layer>-TEXT`). Inside blocks:
+  0 ByBlock, green fields ACI 3, non-plotting geometry on Defpoints, states on E-, P-, R-, A- plus
+  PMARK, SIGNAL, SIGN or SITE (P- layers white).
+- Routes: signs/cad, markings/cad, signals/cad (signals, electrical, sign posts, survey symbols).
+
+## Plan-library blocks: `plan_blocks.py`
 
 ```
-python3 pipeline/dynamic_blocks.py --dwg <plan drawing DWG> --libredwg <dir>
+python3 pipeline/plan_blocks.py --source westwood-ss=<S&S DWG> --source westwood-ts=<signal DWG> \
+                                --source westwood-survey=<survey DWG> --libredwg <dir>
 ```
 
-- ODA writes the plan as DXF with every dynamic block object (evaluation graph, parameters, grips,
-  actions, visibility states) as an ACAD_PROXY_OBJECT that keeps its bytes and the handles it owns.
-  The drawing is cut to the chosen definitions (`KEEP`), cleaned, renamed `PM-...-DYN`, and ODA
-  writes the DWG in the source version (2018), which restores the proxies as native objects.
-- Never change the class table: proxies point at classes by position.
-- Clean only what the actions do not depend on: entity layer and color, block names, units, base
-  geometry stays where it is. Layers inside: 0 ByBlock, green fields ACI 3, non-plotting geometry
-  on Defpoints, existing / remove / proposed states on E-PMARK / R-PMARK / P-PMARK (P-PMARK white).
-- Strip plan residue or each file stays near 650 KB: Civil 3D and Map dictionaries (`Root`,
-  `Autodesk_MAP`, `PE5.*`, `ESRI_PRJ`, `ADE_`, `ASE_`, GUID keys), page setups, material extension
-  records (corrupt XML), named views, the ACDSDATA section, unused dimension and text styles,
-  linetypes and application names. Keep anything the dynamic data points at.
-- Checks: each kept block's proxies come back with identical class and bytes, LibreDWG decodes
-  native evaluation graphs with no proxies, cadkit reads with no warnings, ODA audit is clean.
-- Default visibility state is the author's (THRU-LEFT opens on existing); hidden states carry
-  AutoCAD's invisible flag, so renderers show the default state.
-- `SSS-CAD-TOOLS.lsp` (`SSSDYNEXPORT`) stays for dynamic blocks in other drawings when ODA is not
-  at hand.
+- ODA writes each source as DXF with every dynamic object as an ACAD_PROXY_OBJECT that keeps its bytes
+  and owned handles. Each source is cut once to a trimmed library (the survey DXF is 106 MB), then each
+  block and the source's library DWG are cut from that. Dynamic files are AutoCAD 2018 (the source
+  version, where ODA restores proxies as native objects), static ones AutoCAD 2000.
+- Add a block: one row in `SOURCES` (source block, standard name, label, page group). A layer the map
+  does not know stops the build: add it to `STATE`, `TO_ZERO`, `NO_PLOT`, `GREEN` or `ALIASES`.
+- Merging: identical definitions (geometry, nested blocks, dynamic bytes) publish once; a same-named
+  block that differs keeps the first source's version (reported).
+- One library per source drawing (SSS-STRIPING-PLAN-LIBRARY, SSS-SIGNAL-PLAN-LIBRARY,
+  SSS-SURVEY-LIBRARY): dynamic data from two drawings cannot be merged outside AutoCAD.
+- Stripped from every file: Civil 3D and Map dictionaries, page setups, material records, named views,
+  ACDSDATA, unused styles, linetypes and application names, the survey's GEODATA (a block library has no
+  project location) and empty nested blocks.
+- Checks: proxy bytes per kept block unchanged, LibreDWG decodes native evaluation graphs and no proxies,
+  model space holds block references only.
+- `SSS-CAD-TOOLS.lsp` (`SSSDYNEXPORT`) stays for drawings handled in AutoCAD.
+
+## Audit: `cad_audit.py`
+
+`python3 pipeline/cad_audit.py --libredwg <dir>` reads every published DWG back and checks version, block
+references only, file = block name, layers, units, header styles, zero-length lines, repeated vertices,
+empty blocks and path names. Run it after any change; only `sign-blocks/master.dwg` (a source drawing)
+may report findings.
 
 ## Lessons
 
@@ -145,3 +164,7 @@ python3 pipeline/dynamic_blocks.py --dwg <plan drawing DWG> --libredwg <dir>
   not cells, so they are not published yet. ES-1B conduit line types are line samples, left out.
 - The full CTCELLIB.cel is behind a page this workspace cannot reach; the ES sheets carry its
   traffic electrical cells.
+- `sign-blocks/master.dwg` keeps its source drawing's insert on layer 0 and a few zero-length lines;
+  its header dimension style is fixed by `master-fix.patch.zst` (ODA audit, applied in hydrate).
+- Westwood survey and signal-plan symbols whose abbreviation was not certain (GP, WF, BK1, BSL, NEW ML,
+  20ML R) are left out until named.

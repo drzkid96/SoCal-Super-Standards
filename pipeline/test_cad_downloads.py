@@ -32,7 +32,7 @@ files={c.xpath('.//a[@download]/@href')[0]:c for c in cards}
 pages={}
 with ZipFile(folder/packed) as z:
     assert z.testzip() is None
-    assert z.read(master)==(folder/master).read_bytes()
+    assert master not in z.namelist()   # the master is a separate download, not duplicated in the bundle
     for record in manifest['records']:
         file=record['file']
         data=verify(file,record['bytes'],record['sha256'])

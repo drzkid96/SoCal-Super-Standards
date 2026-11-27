@@ -9,7 +9,7 @@ const sections: Record<string, Section> = read('.standards/section-identity.json
 const profiles: Record<string, Profile> = read('public/api/v2/profiles.json');
 const scopes: Record<string, { roots: string[] }> = read('public/data/agency-modes.json');
 const topics: Record<string,string> = read('public/api/v2/topics.json');
-const aliases: Record<string,string> = { 'aashto': 'guides' };
+const aliases: Record<string,string> = { 'aashto': 'guides', 'signals': 'topics/signals' };   // signals/cad sits under the signals topic
 const owners = Object.entries(scopes).flatMap(([key, mode]) => mode.roots.map(prefix => ({ prefix, key })))
   .sort((a, b) => b.prefix.length - a.prefix.length);
 const books = Object.values(profiles).flatMap(profile => profile.publications)

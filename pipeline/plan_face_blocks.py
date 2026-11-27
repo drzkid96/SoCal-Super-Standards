@@ -2,6 +2,7 @@
 import json
 import speed_faces
 import sign_cells
+from cad_block_package import clean_path
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -21,11 +22,13 @@ def publish_pack(pack):
         for row in rows:
             n=speed_faces.value(row)
             if n:speed_faces.standardize(row,metadata)
-            for member,destination in [(row['file'],Path('public/downloads/sign-blocks')/row['file']), (row['preview'][1:],Path('public')/row['preview'][1:])]:
+            web=clean_path(row['file'])
+            for member,destination in [(row['file'],Path('public/downloads/sign-blocks')/web), (row['preview'][1:],Path('public')/row['preview'][1:])]:
                 destination.parent.mkdir(parents=True,exist_ok=True)
                 data=speeds.read(str(n)+destination.suffix) if n else archive.read(member)
                 if destination.suffix=='.dwg':data=sign_cells.apply(row,data)
                 destination.write_bytes(data)
+            row['file']=web
         return rows
 
 def publish_geometry():
