@@ -759,7 +759,8 @@ window.__ready(() => {
   for(const h of groups){
     const name=h.textContent.replace(/\s+/g,' ').trim();
     if(!name)continue;
-    let target=h.id || h.closest('section[id]')?.id;
+    const section=h.closest('section[id]');
+    let target=h.id || (section?.querySelector('h2')===h ? section.id : '');
     if(!target){
       let i=1;do{target='read-section-'+i++;}while(document.getElementById(target));
       h.id=target;
@@ -768,7 +769,16 @@ window.__ready(() => {
   }
   if(select.options.length<3)return;
   control.hidden=false;
-  select.onchange=()=>{if(select.value)location.hash=encodeURIComponent(select.value);};
+  select.onchange=()=>{
+    const target=document.getElementById(select.value);
+    if(!target)return;
+    const menu=control.closest('details');
+    if(menu)menu.open=false;
+    if(location.hash==='#'+encodeURIComponent(target.id))target.scrollIntoView();
+    else location.hash=encodeURIComponent(target.id);
+    if(!target.hasAttribute('tabindex'))target.tabIndex=-1;
+    target.focus({preventScroll:true});
+  };
   const sync=()=>{let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}select.value=[...select.options].some(opt=>opt.value===id)?id:'';};
   sync();window.addEventListener('hashchange',sync);
 });

@@ -114,3 +114,6 @@ body:has(.home-columns) main h1{font-size:clamp(1.55rem,3vw,2.3rem);line-height:
 [data-agency-mode] .settings-menu{flex:0 1 auto;min-width:0}
 [data-agency-mode] .settings-menu>summary{min-width:0;max-width:100%}
 @media(max-width:72rem){[data-agency-mode] .sss-topnav .nav-primary{display:none}[data-agency-mode] .nav-dropdown .nav-small{display:block}}
+
+.nav-dropdown{max-height:calc(100vh - var(--sl-nav-height) - 2rem);max-height:calc(100dvh - var(--sl-nav-height) - 2rem);overflow-y:auto;overscroll-behavior:contain}
+.sl-markdown-content h2[id]{scroll-margin-block-start:calc(var(--sl-nav-height) + var(--sl-mobile-toc-height,0rem) + 1rem)}

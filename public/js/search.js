@@ -175,7 +175,7 @@
   const input = form.elements.q, source = form.elements.source, results = document.getElementById('standards-results');
   const status = document.getElementById('standards-status'), more = document.getElementById('standards-more');
   const params = new URLSearchParams(location.search);
-  input.value = params.get('q') || ''; source.value = window.SSSAgency?.active ? '' : (params.get('source') || '');
+  input.value = params.get('q') || ''; source.value = params.get('source') || '';
   const issuer=form.elements.issuer;
   for(const [key,mode] of Object.entries(window.__agencyCatalog||{}).sort((a,b)=>a[1].name.localeCompare(b[1].name)))issuer.add(new Option(mode.name,key));
   issuer.value=window.SSSAgency?.active||params.get('issuer')||'';issuer.disabled=!!window.SSSAgency?.active;
@@ -194,6 +194,8 @@
       suggestions.replaceChildren(...[...labels].map(t=>new Option(t,t)));
     }catch{} }
   input.addEventListener('input',complete);
+  source.addEventListener('change',complete);
+  issuer.addEventListener('change',complete);
   matching.addEventListener('change',()=>{clearTimeout(timer);run();});
   let generation = 0, timer, ready = [], pages = [], seen, index, fullUnavailable, directUnavailable;
   function showRows(rows) {

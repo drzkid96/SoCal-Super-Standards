@@ -10,6 +10,8 @@ tableOfContents: false
 <a href="/SoCal-Super-Standards/signs/?import=1"><b>Build a legend from plan sheets</b><span>Read a PDF or paste a screenshot. Review signs by sheet.</span></a>
 <a href="/SoCal-Super-Standards/details/"><b>Drawing finder</b><span>Open a standard drawing by number, title, or agency.</span></a>
 <a href="/SoCal-Super-Standards/markings/"><b>Pavement markings</b><span>Find striping patterns, legends, and Caltrans line types.</span></a>
+<a href="/SoCal-Super-Standards/markings/cad/"><b>Pavement marking DWG blocks</b><span>Striping, arrows, legends and crosswalks.</span></a>
+<a href="/SoCal-Super-Standards/caltrans/signal-blocks/"><b>Caltrans signal DWG blocks</b><span>Signal equipment and electrical plan references.</span></a>
 </section><section><h2>Design checks</h2>
 <a href="/SoCal-Super-Standards/tools/#calculators" id="calculators" data-show-calculators><b>Engineering calculators</b><span>Check pedestrian timing, temporary traffic-control tapers, and sight distance.</span></a>
 <a href="/SoCal-Super-Standards/ladot/curb-paint/"><b>LADOT curb paint</b><span>Look up curb uses and hours or calculate red curb at an uncontrolled crossing.</span></a>

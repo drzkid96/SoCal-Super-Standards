@@ -1,0 +1,34 @@
+{
+  "markings/cad": {
+    "title": "Pavement marking DWG blocks",
+    "groups": [
+      "Striping patterns",
+      "Arrows",
+      "Words and symbols",
+      "Crosswalks"
+    ],
+    "references": {
+      "Striping details": "markings/#cat-lines",
+      "Arrow layouts": "markings/#cat-arrows",
+      "Words and symbols": "markings/#cat-words",
+      "Crosswalk layouts": "markings/#cat-crosswalks"
+    },
+    "blocks": []
+  },
+  "caltrans/signal-blocks": {
+    "title": "Caltrans signal DWG blocks",
+    "groups": [
+      "Poles and mast arms",
+      "Signal heads",
+      "Detection",
+      "Cabinets and conduit"
+    ],
+    "references": {
+      "Caltrans CADD Users Manual · Traffic / Electrical symbols": "https://dot.ca.gov/programs/design/manual-cadd-users-manual",
+      "Caltrans 2026 Standard Plans": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications",
+      "Traffic signal guidance": "topics/signals/",
+      "Caltrans publications": "caltrans/"
+    },
+    "blocks": []
+  }
+}
