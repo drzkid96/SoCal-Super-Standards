@@ -1,6 +1,7 @@
 """Publish legend-only drawings separately from the dimensioned native collection."""
 import json
 import speed_faces
+import sign_cells
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -22,7 +23,9 @@ def publish_pack(pack):
             if n:speed_faces.standardize(row,metadata)
             for member,destination in [(row['file'],Path('public/downloads/sign-blocks')/row['file']), (row['preview'][1:],Path('public')/row['preview'][1:])]:
                 destination.parent.mkdir(parents=True,exist_ok=True)
-                destination.write_bytes(speeds.read(str(n)+destination.suffix) if n else archive.read(member))
+                data=speeds.read(str(n)+destination.suffix) if n else archive.read(member)
+                if destination.suffix=='.dwg':data=sign_cells.apply(row,data)
+                destination.write_bytes(data)
         return rows
 
 def publish_geometry():

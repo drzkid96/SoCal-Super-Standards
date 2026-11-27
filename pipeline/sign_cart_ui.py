@@ -30,6 +30,18 @@ def checkbox(rec,descriptive=False):
             f'aria-label="Select {ESC(rec["code"])} · {ESC(label)}">'
             f'<span>{ESC(label)}</span></label>')
 
+PAGES=(('tabloid-landscape','11 × 17 landscape'),('tabloid-portrait','11 × 17 portrait'),('letter-portrait','Letter portrait'),
+       ('letter-landscape','Letter landscape'),('ansi-d','22 × 34 (ANSI D)'),('arch-d','24 × 36 (ARCH D)'))
+# Table layout shared by the DWG legend and the PDF chart. Cells keep the measured LADOT legend proportions.
+LAYOUT=('<fieldset class="legend-layout" data-legend-layout><legend>Table layout</legend>'
+        '<label class="legend-title">Title <input type="text" data-layout-title maxlength="80" placeholder="Sheet name or SIGN LEGEND"></label>'
+        '<label>Columns <input type="number" data-layout-columns min="1" max="8" step="1" value="2" inputmode="numeric"></label>'
+        '<label>Rows <input type="number" data-layout-rows min="1" max="24" step="1" value="14" inputmode="numeric"></label>'
+        '<label>PDF sheet <select data-layout-page>'+''.join(f'<option value="{k}">{v}</option>' for k,v in PAGES)+'</select></label>'
+        '<label>PDF cell size <select data-layout-scale><option value="1">Plan legend (1.03 × 1.2 in)</option>'
+        '<option value="1.5">1.5 ×</option><option value="2">2 ×</option><option value="3">3 ×</option></select></label>'
+        '<p class="legend-note">DWG: each sign is one block inserted at its cell\'s lower-left corner, with its code as MTEXT (ROMANS) centered below.</p></fieldset>')
+
 def shell():
     return (CSS+'<div class="sign-cart-shell" data-sign-cart hidden><button class="sign-cart-open" type="button" '
             'data-cart-open aria-haspopup="dialog">Selected signs <strong data-cart-count>0</strong></button>'
@@ -40,8 +52,9 @@ def shell():
             '<div class="legend-nav" data-legend-nav hidden><button type="button" data-legend-prev aria-label="Previous table">←</button>'
             '<button type="button" data-legend-next aria-label="Next table">→</button></div></figure>'
             '<div class="legend-order"><p data-cart-order-label>Legend order</p><ul data-cart-items></ul></div></div>'
-            '<p data-cart-status role="status" aria-live="polite"></p><footer>'
-            '<button type="button" data-cart-clear>Clear selection</button><button type="button" data-cart-download>Download sign legend</button>'
+            +LAYOUT+'<p data-cart-status role="status" aria-live="polite"></p><footer>'
+            '<button type="button" data-cart-clear>Clear selection</button><button type="button" data-cart-pdf>Download PDF chart</button>'
+            '<button type="button" data-cart-download>Download sign legend</button>'
             '</footer></dialog></div>'+SCRIPTS)
 
 def posted_speed(rec):

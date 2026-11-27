@@ -1,11 +1,26 @@
 'use strict';
-importScripts('../vendor/atlas/fflate.js','sign-legend-dxf.js');
+importScripts('../vendor/atlas/fflate.js','sign-legend-dxf.js','sign-legend-pdf.js');
 
 const directory = new URL('../downloads/sign-blocks/', self.location.href);
 const hashHex = bytes => Array.from(new Uint8Array(bytes), byte => byte.toString(16).padStart(2, '0')).join('');
 const alphabetical = (a, b) => a.file < b.file ? -1 : a.file > b.file ? 1 : 0;
 
-async function selectedArchive(records, sheets) {
+function orderedGroups(records, sheets) {
+  const byId = new Map(records.map(record=>[record.id,record]));
+  if (!sheets?.length || byId.size !== records.length) throw Error('The sign selection could not be read.');
+  return sheets.filter(sheet=>sheet.ids?.length).map(sheet=>({label:sheet.label || 'SIGN LEGEND',records:sheet.ids.map(id=>{
+    if (!byId.has(id)) throw Error('The sign legend contains a missing selection.');
+    return byId.get(id);
+  })}));
+}
+
+async function selectedChart(records, sheets, layout) {
+  const groups = orderedGroups(records, sheets);
+  const defs = await self.SSSLegendDXF.loadGeometry(records);
+  return self.SSSLegendPDF.create(records, groups, defs, layout);
+}
+
+async function selectedArchive(records, sheets, layout) {
   const byId = new Map(records.map(record=>[record.id,record]));
   if (!sheets?.length || byId.size !== records.length) throw Error('The sign selection could not be read.');
   const used = new Set();
@@ -57,7 +72,7 @@ async function selectedArchive(records, sheets) {
   }
   await Promise.all(Array.from({length:Math.min(records.length, 4)}, download));
   const entries = Object.fromEntries(records.map((record, i) => [record.legendName ? `individual/${record.legendName}.dwg` : record.file, files[i]]));
-  const dxf = await self.SSSLegendDXF.create(records,groups);
+  const dxf = await self.SSSLegendDXF.create(records,groups,layout);
   const {encodeDwg} = await import('../cad-codec/codec.js');
   const native = await encodeDwg(dxf);
   if (String.fromCharCode(...native.subarray(0,6)) !== 'AC1015') throw Error('The sign legend could not be exported as a native drawing.');
@@ -68,7 +83,7 @@ async function selectedArchive(records, sheets) {
 
 self.onmessage = async ({data}) => {
   try {
-    const archive = await selectedArchive(data.records,data.sheets);
+    const archive = data.kind === 'pdf' ? await selectedChart(data.records,data.sheets,data.layout) : await selectedArchive(data.records,data.sheets,data.layout);
     self.postMessage({buffer:archive.buffer}, [archive.buffer]);
   } catch (error) {
     self.postMessage({error:error.message || 'The selected drawings could not be downloaded.'});

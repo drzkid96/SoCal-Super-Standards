@@ -42,3 +42,11 @@
 .sign-cart-dialog .cart-line-label strong{font-size:.88rem}.sign-cart-dialog .cart-line-label small{font-size:.74rem;line-height:1.3}
 .chart-import{font-size:.85rem;font-weight:600}
 @media(max-width:31rem){.sign-cart-workspace{grid-template-columns:5.8rem minmax(0,1fr)}.cart-line-controls button{padding:.07rem .24rem;min-width:1.4rem}.sign-cart-dialog [data-cart-items]>li:not(.cart-sheet-heading){display:grid}.sign-cart-dialog .cart-line-controls{justify-content:start}.legend-grid span{font-size:.49rem}.sign-cart-dialog header h2{font-size:1.1rem}}
+.legend-layout{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.4rem .6rem;margin:.4rem 0 .2rem;padding:.5rem .6rem;border:1px solid #c3c9c7;border-radius:.3rem;align-items:end}
+.legend-layout legend{font-size:.75rem;font-weight:700;padding:0 .25rem}
+.legend-layout label{display:flex;flex-direction:column;gap:.15rem;font-size:.72rem;font-weight:600;margin:0!important}
+.legend-layout .legend-title{grid-column:1/-1}
+.legend-layout input,.legend-layout select{font:inherit;font-weight:400;font-size:.8rem;padding:.2rem .3rem;min-width:0;width:100%}
+.legend-layout .legend-note{grid-column:1/-1;font-size:.7rem;line-height:1.35;margin:0!important;color:var(--sl-color-gray-3)}
+.sign-cart-dialog footer{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:flex-end}
+@media(max-width:31rem){.legend-layout{grid-template-columns:repeat(2,minmax(0,1fr))}}

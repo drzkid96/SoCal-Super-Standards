@@ -9,6 +9,7 @@ from collections import defaultdict
 import zipfile
 import subprocess
 import speed_faces
+import sign_cells
 
 SOURCE = Path('data/reference/cad-block-downloads')
 PUBLIC = Path('public/downloads/sign-blocks')
@@ -213,6 +214,7 @@ def hydrate(source=SOURCE, public=PUBLIC):
                     file=filename(rec['file'],'.dwg')
                     speed=speed_faces.value(rec)
                     data=checked(faces[speed][0] if speed else packed.read(file),rec,file)
+                    data=sign_cells.apply(rec,data)
                     if not re.match(rb'AC10[0-9]{2}',data[:6]):raise ValueError('Invalid native DWG '+file)
                     dest=public/file
                     dest.parent.mkdir(parents=True,exist_ok=True)
@@ -233,6 +235,11 @@ def hydrate(source=SOURCE, public=PUBLIC):
         if release.get('readme'):
             member(out,'README.txt',checked((source/'README.txt').read_bytes(),release['readme'],'README.txt'))
         member(out,INDEX,dump(manifest))
+    spec=sign_cells.cells()[1]
+    if spec:
+        manifest.update(basepoint='lower-left corner of its '+' × '.join(f'{v:g}' for v in spec['cell'])+' in legend cell',
+                        individualFormat='one sign block INSERT at 0,0 and one MTEXT sign code (ROMANS), face fitted to the cell',
+                        cell=spec)
     temp.replace(public/bundle)
     full=pin(public/bundle)
     manifest.update(bundleBytes=full['bytes'],bundleSha256=full['sha256'])
