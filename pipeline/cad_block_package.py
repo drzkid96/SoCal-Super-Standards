@@ -15,6 +15,11 @@ SOURCE = Path('data/reference/cad-block-downloads')
 PUBLIC = Path('public/downloads/sign-blocks')
 INDEX = 'manifest.json'
 REFERENCE = 'CA-FHWA-SIGN-STANDARDS-REFERENCE.zip'
+# The master's header named no dimension style (a null handle AutoCAD reports on open). ODA File
+# Converter's audit sets it to Standard; this patch turns the built master into the audited one.
+MASTER_FIX = {'file': 'master-fix.patch.zst',
+              'from': 'b53069b6924038350abd08a0c1e584fba29d905fd329daedfc8aa64894145889',
+              'to': 'ec617d7fd64bc24859c944a043f37307f78ed016d5e9f0b611a59ad113e8d80a'}
 
 
 def sha(data):
@@ -64,6 +69,35 @@ def checked(data, record, label):
     if len(data)!=record['bytes'] or sha(data)!=record['sha256']:
         raise ValueError(f'Wrong file size or SHA-256 for {label}')
     return data
+
+
+def clean_path(file):
+    """Web-safe download path: lower-case kebab folders; file names keep the sign code's own case (W4-2l
+    is the left version) with spaces and brackets turned into hyphens
+    ('individual/Regulatory/Reference size unknown/R28D(CA)(MOD) [3346 title details 3].dwg' ->
+    'individual/regulatory/size-unknown/R28D-CA-MOD-3346-title-details-3.dwg')."""
+    parts = PurePosixPath(file).parts
+    folders = ['size-unknown' if p == 'Reference size unknown' else re.sub(r'[^a-z0-9]+', '-', p.lower()).strip('-')
+               for p in parts[:-1]]
+    stem = PurePosixPath(parts[-1]).stem
+    name = re.sub(r'[^A-Za-z0-9]+', '-', stem).strip('-')
+    return '/'.join(folders + [name + PurePosixPath(parts[-1]).suffix.lower()])
+
+
+def fix_master(data, public):
+    """Apply MASTER_FIX when the built master is the one it was made from."""
+    patch = SOURCE/MASTER_FIX['file']
+    if not patch.exists() or sha(data) != MASTER_FIX['from']:
+        return data
+    base = public/'master-fix.base'
+    base.write_bytes(data)
+    try:
+        fixed = subprocess.run(['zstd', '-dc', '--patch-from='+str(base), str(patch)], capture_output=True, check=True).stdout
+    finally:
+        base.unlink(missing_ok=True)
+    if sha(fixed) != MASTER_FIX['to']:
+        raise ValueError('Master header fix did not reproduce the audited master')
+    return fixed
 
 
 def family_of(record):
@@ -197,9 +231,11 @@ def hydrate(source=SOURCE, public=PUBLIC):
             data=subprocess.run(['zstd','-dc','--patch-from='+str(base_master),str(source/'speed-master.patch.zst')],capture_output=True,check=True).stdout
         finally:
             base_master.unlink(missing_ok=True)
+        data=fix_master(data,public)
         manifest.update(masterBytes=len(data),masterSha256=sha(data))
         (public/master).write_bytes(data)
         member(out,master,data)
+        written=set()
         for part in sorted(release['families'],key=lambda r:r['family']):
             name=filename(part['file'],'.zip')
             if '/' in name:raise ValueError('Unexpected package directory '+name)
@@ -216,10 +252,18 @@ def hydrate(source=SOURCE, public=PUBLIC):
                     data=checked(faces[speed][0] if speed else packed.read(file),rec,file)
                     data=sign_cells.apply(rec,data)
                     if not re.match(rb'AC10[0-9]{2}',data[:6]):raise ValueError('Invalid native DWG '+file)
-                    dest=public/file
+                    web=clean_path(file)
+                    n=1
+                    while web.casefold() in written:   # 'R9-3B (L)' and 'R9-3B-L' are different drawings
+                        n+=1
+                        web=re.sub(r'(-\d+)?\.dwg$','',web) if n>2 else web[:-4]
+                        web=f'{web}-{n}.dwg'
+                    written.add(web.casefold())
+                    dest=public/web
                     dest.parent.mkdir(parents=True,exist_ok=True)
                     dest.write_bytes(data)
-                    member(out,file,data)
+                    member(out,web,data)
+                    rec['file']=web
                     if rec.get('preview'):
                         webpath,file=preview_path(rec)
                         data=checked(faces[speed][1] if speed else packed.read(file),{'bytes':rec['previewBytes'],'sha256':rec['previewSha256']},file)

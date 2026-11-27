@@ -20,7 +20,8 @@ def save(path, value):
 def route_map(deletions):
     old = '/caltrans/standard-plans-2018/'
     current = '/caltrans/standard-plans-2026/'
-    routes = {old: current, old+'01-pages-1-6/': current, '/signs/retired/': STATUS, '/ladot/mpp-details/':'/ladot/mpp-531/'}
+    routes = {old: current, old+'01-pages-1-6/': current, '/signs/retired/': STATUS, '/ladot/mpp-details/':'/ladot/mpp-531/',
+              '/caltrans/signal-blocks/': '/signals/cad/'}
     details = read('data/catalog/details.json')
     for row in details:
         url = row['url'].removeprefix(BASE)

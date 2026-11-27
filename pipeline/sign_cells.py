@@ -99,7 +99,16 @@ def cell_document(name, code, fragment, bounds):
     source = parse_fragment(fragment)
     for entity in source.modelspace():
         copy = entity.copy()
+        if copy.dxftype() == 'LWPOLYLINE':   # repeated vertices in the source faces
+            pts = list(copy.get_points('xyseb'))
+            kept = [p for i, p in enumerate(pts) if i == 0 or abs(p[0] - pts[i - 1][0]) > 1e-9 or abs(p[1] - pts[i - 1][1]) > 1e-9]
+            if len(kept) < 2:
+                continue
+            if len(kept) != len(pts):
+                copy.set_points(kept, format='xyseb')
         copy.transform(m)
+        if copy.dxftype() == 'LINE' and (copy.dxf.start - copy.dxf.end).magnitude < 1e-6:
+            continue   # zero-length lines in the source faces (checked at plotted size)
         copy.dxf.layer = '0'
         copy.dxf.color = 0  # BYBLOCK: the face follows the INSERT layer and color
         block.add_entity(copy)
@@ -178,43 +187,74 @@ def build(libredwg: Path, libdxfrw: Path | None = None, dest=PACK):
     with tempfile.TemporaryDirectory() as tmp, zipfile.ZipFile(dest.with_suffix('.tmp'), 'w', zipfile.ZIP_DEFLATED) as out:
         tmp = Path(tmp)
         for rec, text, bounds in rows:
-            name = rec['blockName']
-            code = rec['code']
-            doc = cell_document(name, code, text, bounds)
-            entities = len(doc.blocks[name])
-            dxf, dwg, rt = tmp / 'cell.dxf', tmp / 'cell.dwg', tmp / 'rt.dxf'
-            doc.saveas(dxf)
-            for f in (dwg, rt):
-                f.unlink(missing_ok=True)
-            log = subprocess.run([libredwg / 'dxf2dwg', '-y', '--as', 'r2000', '-o', dwg, dxf], check=True, capture_output=True, timeout=120, text=True)
-            if re.search(r'warning|error', log.stdout + log.stderr, re.I):
-                raise ValueError(f'{name}: encoder reported ' + (log.stdout + log.stderr).strip()[-300:])
-            subprocess.run([libredwg / 'dwg2dxf', '-y', '-o', rt, dwg], check=True, capture_output=True, timeout=120)
-            data = dwg.read_bytes()
-            if data[:6] != b'AC1015':
-                raise ValueError(f'{name}: not an AutoCAD 2000 drawing')
-            check(dxf, name, code, entities)
-            warnings.update(check(rt, name, code, entities))
-            member = 'dwg/' + rec['id'] + '.dwg'
-            info = zipfile.ZipInfo(member, (1980, 1, 1, 0, 0, 0))
+            data, record, found = encode(rec, text, bounds, tmp, libredwg, libdxfrw)
+            warnings.update(found)
+            info = zipfile.ZipInfo('dwg/' + rec['id'] + '.dwg', (1980, 1, 1, 0, 0, 0))
             out.writestr(info, data, zipfile.ZIP_DEFLATED, compresslevel=9)
-            if libdxfrw:
-                rw = tmp / 'rw.dxf'
-                rw.unlink(missing_ok=True)
-                subprocess.run([libdxfrw, dwg, '-o', rw, '-v2000', '-y'], check=True, capture_output=True, timeout=120)
-                check(rw, name, code, entities, ascii_only=True)
-            records[rec['id']] = {'code': code, 'blockName': name, 'bytes': len(data), 'sha256': sha(data),
-                                  'entities': entities,
-                                  'codeHeight': code_height(code)}
-        spec = {'units': 'inches on the plotted sheet', 'cell': [CELL_W, CELL_H], 'insertionPoint': 'lower-left cell corner',
-                'faceFit': [FACE_W, FACE_H], 'faceCenter': [ART_X, ART_Y], 'code': {'entity': 'MTEXT', 'style': 'ROMANS (romans.shx)',
-                'attachment': 'bottom center', 'baseline': CODE_Y, 'height': CODE_H, 'maxWidth': CODE_MAX_W},
-                'layers': LAYERS, 'styles': STYLES, 'source': 'data/reference/ladot-legend-layout.json',
-                'encoder': 'LibreDWG dxf2dwg R2000', 'readers': ['LibreDWG dwg2dxf'] + (['LibreCAD libdxfrw'] if libdxfrw else []),
-                'encoderAddedObjects': sorted(warnings)}
+            records[rec['id']] = record
+        spec = spec_of(libdxfrw, warnings)
         out.writestr(zipfile.ZipInfo('records.json', (1980, 1, 1, 0, 0, 0)), json.dumps({'spec': spec, 'records': records}, indent=1))
     dest.with_suffix('.tmp').replace(dest)
     return spec, len(records)
+
+
+def refresh(ids, libredwg: Path, libdxfrw: Path | None = None, dest=PACK):
+    """Re-encode only the given records; every other member is copied unchanged."""
+    rows = {rec['id']: (rec, text, bounds) for rec, text, bounds in sources()}
+    with zipfile.ZipFile(dest) as old:
+        index = json.loads(old.read('records.json'))
+        members = {n: old.read(n) for n in old.namelist() if n != 'records.json'}
+    with tempfile.TemporaryDirectory() as tmp:
+        for key in ids:
+            data, record, _ = encode(*rows[key], Path(tmp), libredwg, libdxfrw)
+            members['dwg/' + key + '.dwg'] = data
+            index['records'][key] = record
+    with zipfile.ZipFile(dest.with_suffix('.tmp'), 'w', zipfile.ZIP_DEFLATED) as out:
+        for n, data in members.items():
+            out.writestr(zipfile.ZipInfo(n, (1980, 1, 1, 0, 0, 0)), data, zipfile.ZIP_DEFLATED, compresslevel=9)
+        out.writestr(zipfile.ZipInfo('records.json', (1980, 1, 1, 0, 0, 0)), json.dumps(index, indent=1))
+    dest.with_suffix('.tmp').replace(dest)
+
+
+def encode(rec, text, bounds, tmp, libredwg, libdxfrw):
+    """One sign cell: DXF, DWG (R2000), both readers checked."""
+    warnings = set()
+    name = rec['blockName']
+    code = rec['code']
+    doc = cell_document(name, code, text, bounds)
+    entities = len(doc.blocks[name])
+    dxf, dwg, rt = tmp / 'cell.dxf', tmp / 'cell.dwg', tmp / 'rt.dxf'
+    doc.saveas(dxf)
+    for f in (dwg, rt):
+        f.unlink(missing_ok=True)
+    log = subprocess.run([libredwg / 'dxf2dwg', '-y', '--as', 'r2000', '-o', dwg, dxf], check=True, capture_output=True, timeout=120, text=True)
+    if re.search(r'warning|error', log.stdout + log.stderr, re.I):
+        raise ValueError(f'{name}: encoder reported ' + (log.stdout + log.stderr).strip()[-300:])
+    subprocess.run([libredwg / 'dwg2dxf', '-y', '-o', rt, dwg], check=True, capture_output=True, timeout=120)
+    data = dwg.read_bytes()
+    if data[:6] != b'AC1015':
+        raise ValueError(f'{name}: not an AutoCAD 2000 drawing')
+    check(dxf, name, code, entities)
+    warnings.update(check(rt, name, code, entities))
+    if libdxfrw:
+        rw = tmp / 'rw.dxf'
+        rw.unlink(missing_ok=True)
+        subprocess.run([libdxfrw, dwg, '-o', rw, '-v2000', '-y'], check=True, capture_output=True, timeout=120)
+        check(rw, name, code, entities, ascii_only=True)
+    record = {'code': code, 'blockName': name, 'bytes': len(data), 'sha256': sha(data),
+              'entities': entities, 'codeHeight': code_height(code)}
+    return data, record, warnings
+
+
+def spec_of(libdxfrw, warnings):
+    """The cell specification recorded with the archive."""
+    spec = {'units': 'inches on the plotted sheet', 'cell': [CELL_W, CELL_H], 'insertionPoint': 'lower-left cell corner',
+            'faceFit': [FACE_W, FACE_H], 'faceCenter': [ART_X, ART_Y], 'code': {'entity': 'MTEXT', 'style': 'ROMANS (romans.shx)',
+            'attachment': 'bottom center', 'baseline': CODE_Y, 'height': CODE_H, 'maxWidth': CODE_MAX_W},
+            'layers': LAYERS, 'styles': STYLES, 'source': 'data/reference/ladot-legend-layout.json',
+            'encoder': 'LibreDWG dxf2dwg R2000', 'readers': ['LibreDWG dwg2dxf'] + (['LibreCAD libdxfrw'] if libdxfrw else []),
+            'encoderAddedObjects': sorted(warnings)}
+    return spec
 
 
 _cache = None

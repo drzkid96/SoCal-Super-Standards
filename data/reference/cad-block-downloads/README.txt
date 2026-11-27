@@ -4,6 +4,6 @@ Each individual AutoCAD 2000 drawing holds two entities: one sign block inserted
 
 Start with master.dwg to browse the contact sheet; it keeps every face at its original size for details. The master enlarges reference-size previews only. Separate rows preserve source variants and historic legends. The manifest identifies each source drawing, source handle and sizing condition.
 
-Reference size unknown folders contain symbols normalized to a 1.000-inch face width. The original physical dimensions are unknown. Source dimensions come from the drawing. Published dimensions give the cited application or road class.
+size-unknown folders contain symbols normalized to a 1.000-inch face width. The original physical dimensions are unknown. Source dimensions come from the drawing. Published dimensions give the cited application or road class.
 
 The chart prints the source designation exactly. DWG-forbidden characters are transliterated in native block names. Source and size qualifiers distinguish separate blocks sharing a designation, including when several are inserted into one plan.

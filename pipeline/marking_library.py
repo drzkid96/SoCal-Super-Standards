@@ -28,7 +28,7 @@ TEXT = 1.0     # ft label height
 
 def build(libredwg):
     section = json.loads(CATALOG.read_text())['markings/cad']
-    # dynamic blocks live in SSS-PMARK-DYNAMIC.dwg; a copy here would lose its grips
+    # dynamic blocks live in the plan libraries (plan_blocks.py); a copy here would lose its grips
     rows = [r for r in section['blocks'] if r['file'] != NAME and r['group'] != 'Dynamic blocks']
     lib = r2000_document()
     lib.units = 2

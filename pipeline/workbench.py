@@ -117,9 +117,59 @@ def build(root,lookup):
                 ('Transit and boarding','topics/transit'),('Striping and intersections','topics/striping-intersections')],'venice'),
         home_map_card(BASE,Path('public/api/v2')),
     ]
-    shortcuts = [('Sign chart', 'signs/'), ('Import signs', 'signs/?import=1'),
-                 ('Find a drawing', 'details/'), ('All tools', 'tools/')]
-    links = ''.join(f'<a href="{BASE}/{url}">{name}</a>' for name, url in shortcuts)
     home.write_text('---\ntitle: Southern California transportation standards\ntemplate: splash\n---\n\n' +
-                    search + f'\n\n<nav class="home-tools task-shortcuts" aria-label="Design tools">{links}</nav>\n\n' +
-                    '<div class="home-columns">' + ''.join(cols) + '</div>\n')
+                    search + '\n\n' + home_tasks() + '\n\n' + home_cad() + '\n\n' +
+                    '<div class="home-columns">' + ''.join(cols) + '</div>\n\n' + home_coverage() + '\n')
+
+
+def _count(path, key=None):
+    try:
+        data = json.loads(Path(path).read_text())
+    except (OSError, ValueError):
+        return 0
+    if key:
+        data = data.get(key, [])
+    return len(data)
+
+
+def home_tasks():
+    """The four things people come to do, each with what it answers."""
+    tasks = [('Search everything', 'search/', 'Provisions, drawings, sign codes, cities and topics in one box'),
+             ('Find a drawing', 'details/', 'Standard plans and agency details, filtered by agency and type'),
+             ('Look up a sign', 'signs/', 'California and federal codes, sizes and a printable sign chart'),
+             ('Design by topic', 'topics/', 'Bikeways, crossings, signals and curbs with the rules that govern them')]
+    cards = ''.join(f'<a href="{BASE}/{url}"><strong>{escape(t)}</strong><span>{escape(d)}</span></a>' for t, url, d in tasks)
+    more = ''.join(f'<a href="{BASE}/{url}">{escape(t)}</a>' for t, url in
+                   [('Sign chart', 'signs/'), ('Import a sign list', 'signs/?import=1'), ('Jurisdiction map', 'map/'),
+                    ('Calculators and tools', 'tools/')])
+    return (f'<nav class="home-tasks" aria-label="Start here">{cards}</nav>'
+            f'<nav class="home-more" aria-label="More tools">{more}</nav>')
+
+
+def home_cad():
+    """Drawing-ready CAD, counted from the catalogs the download pages are built from."""
+    catalog = json.loads(Path('data/reference/design-blocks.json').read_text())
+    signs = _count('public/downloads/sign-blocks/manifest.json', 'records') + _count('public/data/plan-face-options.json')
+    marks = len(catalog.get('markings/cad', {}).get('blocks', []))
+    sig = len(catalog.get('signals/cad', {}).get('blocks', []))
+    cards = [('Sign blocks', 'signs/cad/', f'{signs:,} DWGs' if signs else 'DWG library',
+              'Legend-cell blocks with ROMANS codes, a legend builder and a PDF sign chart'),
+             ('Pavement markings', 'markings/cad/', f'{marks:,} blocks',
+              'Caltrans 2026 A24 figures at true size, striping details and line types, dynamic plan blocks'),
+             ('Signals and survey', 'signals/cad/', f'{sig:,} blocks',
+              'Caltrans ES-1 symbols, LA signal plan blocks with existing and proposed states, survey symbols')]
+    body = ''.join(f'<a href="{BASE}/{url}"><b>{escape(n)}</b><strong>{escape(t)}</strong><span>{escape(d)}</span></a>'
+                   for t, url, n, d in cards)
+    return ('<section class="home-cad" aria-labelledby="home-cad-title"><h2 id="home-cad-title">CAD blocks</h2>'
+            '<p>Every drawing opens as block inserts on standard layers, checked by two independent DWG readers.</p>'
+            f'<div class="home-cad-grid">{body}</div></section>')
+
+
+def home_coverage():
+    """One line of coverage numbers, all computed from the current data."""
+    details = _count('public/data/details.json')
+    signs = _count('public/data/signs-index.json')
+    parts = [(f'{details:,} details and figures', 'details/'), (f'{signs:,} sign codes', 'signs/'),
+             ('What governs: CA MUTCD 2026 and Caltrans 2026 Standard Plans', 'bulletins/standards-status/')]
+    links = ' · '.join(f'<a href="{BASE}/{url}">{escape(t)}</a>' for t, url in parts if not t.startswith('0 '))
+    return f'<p class="home-coverage">{links}</p>'
