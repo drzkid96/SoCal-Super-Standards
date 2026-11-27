@@ -56,7 +56,7 @@ for i in items:
     cards[c].append(f'''<div class="mcard{' wide' if big else ''}" data-q="{esc(q)}" id="{i["id"]}">
 <a class="mimg" href="{BASE}{i["img"]}"><img loading="lazy" src="{BASE}{i["img"]}" alt="{esc(name)}"></a>
 <div class="mbody"><b>{esc(name)}</b>{f'<div class="msub">{esc(sub)}</div>' if sub else ''}{f'<div class="mdesc">{esc(desc[:300])}</div>' if desc else ''}
-<div class="msrc"><a href="{furl}">CA MUTCD Figure {esc(i["figure"])}</a> &middot; manual page {i["page"]}</div></div></div>''')
+<div class="msrc"><a href="{furl}">CA MUTCD Figure {esc(i["figure"])}</a></div></div></div>''')
     if i["kind"] == "line":
         dn = i["detail"].replace("Detail ", "").lower()
         svgp = f"public/linetypes/detail-{dn}.svg"

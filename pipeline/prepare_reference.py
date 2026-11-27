@@ -203,6 +203,8 @@ from design_blocks import build as build_design_blocks
 build_design_blocks(root, look)
 from dynamic_families import package as package_dynamic_families
 package_dynamic_families()
+from declutter import build as declutter
+declutter(root)
 from search_catalog import build as build_search_catalog
 build_search_catalog(root, look, current_details)
 finish_atlas(root,atlas_profiles)
