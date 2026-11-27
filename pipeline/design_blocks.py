@@ -45,18 +45,18 @@ def build(root, lookup):
             preview = Path('block-previews') / route / (Path(filename).stem + '.svg')
             if not (Path('public') / preview).is_file():
                 raise ValueError(f'Missing preview picture: {preview} (run pipeline/block_previews.py)')
-            groups[row['group']].append((code, label, asset, preview))
+            groups[row['group']].append((code, label, asset, preview, row.get('placement', '')))
         if not used:
             lines.append('No DWG blocks have been published yet. Browse the design references below.')
         for group, rows in groups.items():
             if not rows:
                 continue
             lines.extend(['', '## ' + group, '', '<div class="block-grid">'])
-            for code, name, asset, preview in sorted(rows):
+            for code, name, asset, preview, place in sorted(rows):
                 href = f'{BASE}/{quote(asset.as_posix())}'
                 lines.append(f'<figure class="block-card" id="{escape(code.lower())}"><a download href="{href}" aria-label="Download {escape(code)} DWG">'
                              f'<img src="{BASE}/{quote(preview.as_posix())}" alt="{escape(name)}" loading="lazy" decoding="async"></a>'
-                             f'<figcaption><strong>{escape(code)}</strong><span>{escape(name)}</span>'
+                             f'<figcaption><strong>{escape(code)}</strong><span>{escape(name)}</span>' + (f'<small class="block-place">{escape(place)}</small>' if place else '') +
                              f'<a download href="{href}">DWG</a></figcaption></figure>')
             lines.append('</div>')
         lines.extend(['', '## Design references', ''])

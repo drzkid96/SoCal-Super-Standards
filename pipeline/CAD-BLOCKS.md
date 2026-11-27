@@ -118,6 +118,28 @@ python3 pipeline/plan_blocks.py --source westwood-ss=<S&S DWG> --source westwood
 - Rebuilding re-encodes every file with a new timestamp: keep only new files and the libraries
   (`git checkout` the unchanged individual DWGs) so the repository does not grow for nothing.
 
+## SSS CAD standard (every marking and signal block)
+
+Rules live in `cad_standard.py`; `cad_normalize.py` applies them to every static block and is idempotent.
+- Geometry on layer 0, color, linetype and lineweight ByLayer, so the insert layer (P-PMARK, P-SIGNAL,
+  P-SIGN, E-SITE) sets how it plots. White is index 7 and prints black. Never exploded.
+- Green field: FHWA IA-14 box centroid at luminance 21 = RGB 60, 144, 2, index 74 fallback. Red field:
+  FHWA IA-22 box centroid at luminance 12 (IA-22 sets none) = RGB 157, 71, 58, index 13. True color needs
+  AutoCAD 2004 or later, so marking and signal blocks are AutoCAD 2018 (ODA File Converter, read back by
+  LibreDWG and libdxfrw). Sign blocks stay AutoCAD 2000.
+- Field hatches have a frame on NOPLOT (plot off); their old plotting outlines move there.
+- Placement: travel +Y; base on the reference line (limit line, crosswalk line, panel start) at the lane's
+  left line. Words and legends centered in an 11 ft lane; STOP and WAIT HERE 8 ft before the line, KEEP
+  CLEAR and BUS ONLY 8 ft past it (LADOT S-517.0, Westwood plans); arrows with the point 20 ft before the
+  line (CA MUTCD 3B.20); bike symbols centered in a 5 ft bike lane; green panels and crossing dashes at the
+  upstream corner on the bike lane line; sharrows 11 ft from the curb face (9E.09); crosswalks at the curb
+  corner; striping details at the start of the reference line. Each card states its rule.
+- Libraries (`block_libraries.py`, and the plan libraries in `plan_blocks.py`): one 24 x 36 in sheet per
+  group (ARCH D, the Westwood TS-1 sheet), border, title line, one viewport at a standard scale.
+
+Order after any block change: builder(s) → `cad_normalize.py` → `block_libraries.py` → `block_previews.py`
+→ `cad_audit.py`.
+
 ## Composed blocks: `composed_blocks.py`
 
 `python3 pipeline/composed_blocks.py --libredwg <dir>` writes blocks the plans draw as loose geometry
