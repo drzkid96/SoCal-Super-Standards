@@ -1,96 +1,178 @@
-"""Extract stroked marking outlines from a Caltrans standard plan page, scaled by each figure's 1-ft grid."""
-import pymupdf as fitz, sys, json, math, collections, re
-def items_pts(dr):
-    segs=[]
-    for it in dr['items']:
-        k=it[0]
-        if k=='l': segs.append([(it[1].x,it[1].y),(it[2].x,it[2].y)])
-        elif k=='c':
-            p0,c1,c2,p3=it[1:5]; pts=[]
-            for i in range(9):
-                t=i/8; a=(1-t)**3; b=3*(1-t)**2*t; c=3*(1-t)*t*t; e=t**3
-                pts.append((a*p0.x+b*c1.x+c*c2.x+e*p3.x, a*p0.y+b*c1.y+c*c2.y+e*p3.y))
-            segs.append(pts)
-        elif k=='re':
-            r=it[1]; segs.append([(r.x0,r.y0),(r.x1,r.y0),(r.x1,r.y1),(r.x0,r.y1),(r.x0,r.y0)])
-        elif k=='qu':
-            q=it[1]; segs.append([(q.ul.x,q.ul.y),(q.ur.x,q.ur.y),(q.lr.x,q.lr.y),(q.ll.x,q.ll.y),(q.ul.x,q.ul.y)])
-    return segs
-def chain(segs,tol=0.6):
-    segs=[s[:] for s in segs if len(s)>1]; loops=[]
-    while segs:
-        cur=segs.pop(); changed=True
-        while changed:
-            changed=False
-            for i,s in enumerate(segs):
-                d=lambda a,b: math.hypot(a[0]-b[0],a[1]-b[1])
-                if d(cur[-1],s[0])<tol: cur+=s[1:]
-                elif d(cur[-1],s[-1])<tol: cur+=s[::-1][1:]
-                elif d(cur[0],s[-1])<tol: cur=s+cur[1:]
-                elif d(cur[0],s[0])<tol: cur=s[::-1]+cur[1:]
-                else: continue
-                segs.pop(i); changed=True; break
-        closed=math.hypot(cur[0][0]-cur[-1][0],cur[0][1]-cur[-1][1])<tol and len(cur)>3
-        loops.append((cur,closed))
+"""Marking outlines traced from Caltrans Standard Plan sheets (vector PDF).
+
+Each figure on a marking sheet sits on its own fine grid (0.12 pt lines) with a "<n> GRID" note.
+A figure is the set of outline strokes inside one grid region. Strokes are chained into loops,
+small gaps (up to one grid cell) are closed, and coordinates are scaled by the region's grid
+spacing and its stated grid size, so the output is true size in feet.
+
+Caltrans marking sheets are rotated 270 degrees, so the visual up direction is +x of the
+unrotated frame. figures() returns points turned to the visual frame (x right, y up).
+"""
+import collections
+import math
+import re
+
+import pymupdf as fitz
+
+GRID_WIDTH = 0.12
+
+
+def _bezier(p0, c1, c2, p3, n=10):
+    out = []
+    for i in range(n + 1):
+        t = i / n
+        a, b, c, e = (1 - t) ** 3, 3 * (1 - t) ** 2 * t, 3 * (1 - t) * t * t, t ** 3
+        out.append((a * p0.x + b * c1.x + c * c2.x + e * p3.x, a * p0.y + b * c1.y + c * c2.y + e * p3.y))
+    return out
+
+
+def segments(drawing):
+    """Polylines (lists of points) for one PyMuPDF drawing."""
+    out = []
+    for it in drawing['items']:
+        k = it[0]
+        if k == 'l':
+            out.append([(it[1].x, it[1].y), (it[2].x, it[2].y)])
+        elif k == 'c':
+            out.append(_bezier(*it[1:5]))
+        elif k == 're':
+            r = it[1]
+            out.append([(r.x0, r.y0), (r.x1, r.y0), (r.x1, r.y1), (r.x0, r.y1), (r.x0, r.y0)])
+        elif k == 'qu':
+            q = it[1]
+            out.append([(q.ul.x, q.ul.y), (q.ur.x, q.ur.y), (q.lr.x, q.lr.y), (q.ll.x, q.ll.y), (q.ul.x, q.ul.y)])
+    return out
+
+
+def chain(segs, tol):
+    """Join polylines end to end at their nearest free ends."""
+    pending = [list(s) for s in segs if len(s) > 1]
+    dist = lambda a, b: math.hypot(a[0] - b[0], a[1] - b[1])
+    loops = []
+    while pending:
+        cur = pending.pop()
+        while True:
+            best = None
+            for i, s in enumerate(pending):
+                for d, kind in ((dist(cur[-1], s[0]), 0), (dist(cur[-1], s[-1]), 1), (dist(cur[0], s[-1]), 2), (dist(cur[0], s[0]), 3)):
+                    if d < tol and (best is None or d < best[0]):
+                        best = (d, i, kind)
+            if not best:
+                break
+            _, i, kind = best
+            s = pending.pop(i)
+            cur = cur + s[1:] if kind == 0 else cur + s[::-1][1:] if kind == 1 else s + cur[1:] if kind == 2 else s[::-1] + cur[1:]
+        loops.append(cur)
     return loops
-def clusters(drs,tol=1.0):
-    boxes=[fitz.Rect(d['rect']) for d in drs]; parent=list(range(len(drs)))
-    def f(i):
-        while parent[i]!=i: parent[i]=parent[parent[i]]; i=parent[i]
+
+
+def _gap(a, b):
+    dx = max(b.x0 - a.x1, a.x0 - b.x1, 0)
+    dy = max(b.y0 - a.y1, a.y0 - b.y1, 0)
+    return math.hypot(dx, dy)
+
+
+def _union_find(boxes, tol):
+    parent = list(range(len(boxes)))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
         return i
+    order = sorted(range(len(boxes)), key=lambda i: boxes[i].x0)
+    for n, i in enumerate(order):
+        a = boxes[i]
+        for j in order[n + 1:]:
+            b = boxes[j]
+            if b.x0 > a.x1 + tol:
+                break
+            if b.y0 <= a.y1 + tol and a.y0 <= b.y1 + tol:
+                parent[find(i)] = find(j)
+    groups = collections.defaultdict(list)
     for i in range(len(boxes)):
-        bi=fitz.Rect(boxes[i].x0-tol,boxes[i].y0-tol,boxes[i].x1+tol,boxes[i].y1+tol)
-        for j in range(i+1,len(boxes)):
-            if bi.intersects(boxes[j]): parent[f(i)]=f(j)
-    g=collections.defaultdict(list)
-    for i in range(len(drs)): g[f(i)].append(drs[i])
-    return list(g.values())
-def grid_step(grid_segs, box):
-    """Median spacing of the 1-ft grid lines that cross the figure."""
-    xs=set(); ys=set()
-    for a,b in grid_segs:
-        if not (box.x0-2<=max(a[0],b[0]) and min(a[0],b[0])<=box.x1+2 and box.y0-2<=max(a[1],b[1]) and min(a[1],b[1])<=box.y1+2): continue
-        if abs(a[0]-b[0])<0.05 and abs(a[1]-b[1])>3: xs.add(round(a[0],2))
-        if abs(a[1]-b[1])<0.05 and abs(a[0]-b[0])>3: ys.add(round(a[1],2))
-    diffs=[]
-    for v in (sorted(xs),sorted(ys)):
-        diffs+=[b-a for a,b in zip(v,v[1:]) if b-a>1]
-    if not diffs: return None
-    diffs.sort(); return diffs[len(diffs)//2]
-def rotate(drs, m):
-    out=[]
-    for x in drs:
-        y=dict(x); items=[]
-        for it in x['items']:
-            k=it[0]
-            if k=='re':
-                r=it[1]; q=fitz.Quad(r.tl,r.tr,r.bl,r.br)*m; items.append(('qu',q))
-            elif k=='qu': items.append(('qu',it[1]*m))
-            else: items.append((k,)+tuple(pt*m for pt in it[1:] if isinstance(pt,fitz.Point)))
-        y['items']=items; y['rect']=fitz.Rect(x['rect'])*m; out.append(y)
+        groups[find(i)].append(i)
+    return list(groups.values())
+
+
+def grid_value(text):
+    """'4"' -> 0.3333 ft, '1'-0"' -> 1.0 ft."""
+    t = text.replace('′', "'").replace('″', '"')
+    m = re.fullmatch(r"(?:(\d+)')?-?(?:(\d+)\")?", t)
+    if not m or not (m.group(1) or m.group(2)):
+        return None
+    return int(m.group(1) or 0) + int(m.group(2) or 0) / 12
+
+
+def feet_text(values):
+    """Dimension strings such as 8'-0" or 3'-6" near a figure, in feet."""
+    out = []
+    for v in values:
+        t = v.replace('′', "'").replace('″', '"')
+        m = re.fullmatch(r"(\d+)'-(\d+)(½)?\"?", t)
+        if m:
+            out.append(int(m.group(1)) + (int(m.group(2)) + (0.5 if m.group(3) else 0)) / 12)
     return out
-def run(pdf, page_no, outline_widths, grid_width=0.12):
-    d=fitz.open(pdf); p=d[page_no]; p.set_rotation(0); drs=p.get_drawings()
-    grid=[(seg[i],seg[i+1]) for x in drs if round(x.get('width') or 0,2)==grid_width for seg in items_pts(x) for i in range(len(seg)-1)]
-    outl=[x for x in drs if round(x.get('width') or 0,2) in outline_widths]
-    words=p.get_text('words')
-    out=[]
-    for cl in clusters(outl):
-        box=fitz.Rect(cl[0]['rect'])
-        for x in cl[1:]: box|=fitz.Rect(x['rect'])
-        if box.width<4 or box.height<4: continue
-        step=grid_step(grid, box)
-        # label: the rotated caption runs beside the figure, toward smaller x
-        near=[w for w in words if box.x0-45<w[0]<box.x0+4 and w[1]<box.y1+20 and w[3]>box.y0-20]
-        cols=collections.defaultdict(list)
-        for w in near: cols[round(w[0])].append(w)
-        label=''
-        for x in sorted(cols, reverse=True):
-            t=' '.join(w[4] for w in sorted(cols[x],key=lambda w:-w[1]))
-            if re.search(r'ARROW|MARKING|SYMBOL|STOP|XING|CROSSING|ONLY|LANE|YIELD|BIKE|SCHOOL|AHEAD|PED|SIGNAL|KEEP|CLEAR|BUS|TYPE',t,re.I): label=t; break
-        segs=[s for x in cl for s in items_pts(x)]
-        out.append(dict(box=list(box),step=step,label=label,loops=[(l,c) for l,c in chain(segs)]))
+
+
+def _grid_step(grid_segs, box):
+    """Median spacing of the grid lines that cross a figure's box."""
+    xs, ys = set(), set()
+    for a, b in grid_segs:
+        if not (box.x0 - 2 <= max(a[0], b[0]) and min(a[0], b[0]) <= box.x1 + 2 and box.y0 - 2 <= max(a[1], b[1]) and min(a[1], b[1]) <= box.y1 + 2):
+            continue
+        if abs(a[0] - b[0]) < 0.05 and abs(a[1] - b[1]) > 2:
+            xs.add(round(a[0], 2))
+        if abs(a[1] - b[1]) < 0.05 and abs(a[0] - b[0]) > 2:
+            ys.add(round(a[1], 2))
+    diffs = sorted(d for v in (sorted(xs), sorted(ys)) for d in (b - a for a, b in zip(v, v[1:])) if d > 0.5)
+    return diffs[len(diffs) // 2] if diffs else None
+
+
+def figures(pdf, page_no, outline_width, join=8.0):
+    """One record per figure: loops in feet (visual frame), size, grid size and nearby text.
+
+    Outline strokes whose boxes come within `join` points are one figure, so the letters
+    of a word stay together while separate figures stay apart."""
+    page = fitz.open(pdf)[page_no]
+    page.set_rotation(0)
+    drawings = page.get_drawings()
+    words = page.get_text('words')
+    grid_segs = [(a, b) for d in drawings if round(d.get('width') or 0, 2) == GRID_WIDTH
+                 for s in segments(d) for a, b in zip(s, s[1:])]
+    notes = []
+    for j, w in enumerate(words):
+        if w[4].upper() == 'GRID' and j:
+            value = grid_value(words[j - 1][4])
+            if value:
+                notes.append((fitz.Rect(words[j - 1][:4]) | fitz.Rect(w[:4]), value))
+    outline = [d for d in drawings if round(d.get('width') or 0, 2) == outline_width]
+    boxes = [fitz.Rect(d['rect']) for d in outline]
+    out = []
+    for group in _union_find(boxes, join):
+        box = fitz.Rect(boxes[group[0]])
+        for i in group[1:]:
+            box |= boxes[i]
+        if box.width < 6 or box.height < 6:
+            continue
+        step = _grid_step(grid_segs, box)
+        near = sorted(notes, key=lambda n: _gap(n[0], box))
+        if not step or not near or _gap(near[0][0], box) > 70:
+            continue
+        grid_ft = near[0][1]
+        unit = grid_ft / step  # feet per point
+        loops = []
+        for loop in chain([sg for i in group for sg in segments(outline[i])], tol=0.6):
+            gap = math.hypot(loop[0][0] - loop[-1][0], loop[0][1] - loop[-1][1]) * unit
+            closed = len(loop) > 3 and gap <= max(grid_ft, 1.0) + 0.02
+            loops.append((loop, closed, round(gap, 3)))
+        pts = [p for loop, _, _ in loops for p in loop]
+        x0, x1 = min(p[1] for p in pts), max(p[1] for p in pts)
+        y0, y1 = min(p[0] for p in pts), max(p[0] for p in pts)
+        feet = [([((p[1] - x0) * unit, (p[0] - y0) * unit) for p in loop], closed, gap) for loop, closed, gap in loops]
+        text = [w[4] for w in words if _gap(fitz.Rect(w[:4]), box) < 45]
+        out.append({'box': [round(v, 1) for v in box], 'grid_ft': grid_ft, 'unit': unit,
+                    'size': (round((x1 - x0) * unit, 3), round((y1 - y0) * unit, 3)), 'loops': feet, 'text': text})
+    # visual reading order: top to bottom (visual y is unrotated x), then left to right
+    out.sort(key=lambda f: (-round(f['box'][2] / 60), f['box'][1]))
     return out
-if __name__=='__main__':
-    res=run(sys.argv[1],int(sys.argv[2]),{float(w) for w in sys.argv[3].split(',')})
-    for r in res: print(round(r['box'][0]),round(r['box'][1]),'step',r['step'],'loops',len(r['loops']),sum(c for _,c in r['loops']),'|',r['label'])

@@ -2,10 +2,11 @@
   "markings/cad": {
     "title": "Pavement marking DWG blocks",
     "groups": [
-      "Striping patterns",
       "Arrows",
-      "Bicycle markings",
+      "Words",
       "Words and symbols",
+      "Bicycle markings",
+      "Striping patterns",
       "Crosswalks"
     ],
     "references": {
@@ -27,18 +28,7 @@
           3.5,
           10.0
         ],
-        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
-        "sheet": "A24A"
-      },
-      {
-        "code": "CT-A24A-TYPE-I-18FT",
-        "name": "Type I arrow, 18 ft \u00b7 Caltrans Std. Plan A24A (2026)",
-        "file": "CT-A24A-TYPE-I-18FT.dwg",
-        "group": "Arrows",
-        "size": [
-          3.5,
-          18.0
-        ],
+        "area": 12.8,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A"
       },
@@ -49,43 +39,635 @@
         "group": "Arrows",
         "size": [
           3.5,
-          24.0
+          23.99
         ],
+        "area": 29.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A"
       },
       {
-        "code": "PM-WORD-STOP",
-        "name": "STOP, 8 ft letters \u00b7 LA signing and striping plan library",
-        "file": "PM-WORD-STOP.dwg",
-        "group": "Words and symbols",
+        "code": "CT-A24A-TYPE-IV-L",
+        "name": "Type IV (L) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-IV-L.dwg",
+        "group": "Arrows",
         "size": [
-          6.34,
+          6.0,
           8.0
         ],
-        "source": "LA signing and striping plan library"
+        "area": 15.2,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
       },
       {
-        "code": "PM-WORD-PED",
-        "name": "PED, 8 ft letters \u00b7 LA signing and striping plan library",
-        "file": "PM-WORD-PED.dwg",
-        "group": "Words and symbols",
+        "code": "CT-A24A-TYPE-IV-R",
+        "name": "Type IV (R) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-IV-R.dwg",
+        "group": "Arrows",
         "size": [
-          4.67,
+          6.0,
           8.0
         ],
-        "source": "LA signing and striping plan library"
+        "area": 15.2,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
       },
       {
-        "code": "PM-WORD-XING",
-        "name": "XING, 8 ft letters \u00b7 LA signing and striping plan library",
-        "file": "PM-WORD-XING.dwg",
+        "code": "CT-A24A-TYPE-VI",
+        "name": "Type VI arrow, right lane drop \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-VI.dwg",
+        "group": "Arrows",
+        "size": [
+          5.5,
+          18.99
+        ],
+        "area": 41.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
+      },
+      {
+        "code": "CT-A24A-TYPE-VI-MIRROR",
+        "name": "Type VI arrow, right lane drop, mirrored for the left lane \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-VI-MIRROR.dwg",
+        "group": "Arrows",
+        "size": [
+          5.5,
+          18.99
+        ],
+        "area": 41.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
+      },
+      {
+        "code": "CT-A24A-TYPE-VIII",
+        "name": "Type VIII arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-VIII.dwg",
+        "group": "Arrows",
+        "size": [
+          9.0,
+          15.0
+        ],
+        "area": 36.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
+      },
+      {
+        "code": "CT-A24A-TYPE-I-18FT",
+        "name": "Type I arrow, 18 ft \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-I-18FT.dwg",
+        "group": "Arrows",
+        "size": [
+          3.5,
+          17.99
+        ],
+        "area": 23.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
+      },
+      {
+        "code": "CT-A24A-TYPE-VII-L",
+        "name": "Type VII (L) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-VII-L.dwg",
+        "group": "Arrows",
+        "size": [
+          7.25,
+          13.0
+        ],
+        "area": 27.1,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
+      },
+      {
+        "code": "CT-A24A-TYPE-VII-R",
+        "name": "Type VII (R) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "file": "CT-A24A-TYPE-VII-R.dwg",
+        "group": "Arrows",
+        "size": [
+          7.25,
+          13.0
+        ],
+        "area": 27.1,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24A"
+      },
+      {
+        "code": "CT-A24B-RXR",
+        "name": "Railroad crossing symbol \u00b7 Caltrans Std. Plan A24B (2026)",
+        "file": "CT-A24B-RXR.dwg",
         "group": "Words and symbols",
+        "size": [
+          8.0,
+          20.84
+        ],
+        "area": 69.8,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24B"
+      },
+      {
+        "code": "CT-A24B-TYPE-II-B",
+        "name": "Type II (B) arrow \u00b7 Caltrans Std. Plan A24B (2026)",
+        "file": "CT-A24B-TYPE-II-B.dwg",
+        "group": "Arrows",
+        "size": [
+          10.0,
+          23.99
+        ],
+        "area": 56.4,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24B"
+      },
+      {
+        "code": "CT-A24B-TYPE-III-B",
+        "name": "Type III (B) arrow \u00b7 Caltrans Std. Plan A24B (2026)",
+        "file": "CT-A24B-TYPE-III-B.dwg",
+        "group": "Arrows",
+        "size": [
+          11.0,
+          23.99
+        ],
+        "area": 74.0,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24B"
+      },
+      {
+        "code": "CT-A24B-TYPE-III-L",
+        "name": "Type III (L) arrow \u00b7 Caltrans Std. Plan A24B (2026)",
+        "file": "CT-A24B-TYPE-III-L.dwg",
+        "group": "Arrows",
+        "size": [
+          6.0,
+          23.99
+        ],
+        "area": 43.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24B"
+      },
+      {
+        "code": "CT-A24B-TYPE-III-R",
+        "name": "Type III (R) arrow \u00b7 Caltrans Std. Plan A24B (2026)",
+        "file": "CT-A24B-TYPE-III-R.dwg",
+        "group": "Arrows",
+        "size": [
+          6.0,
+          23.99
+        ],
+        "area": 43.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24B"
+      },
+      {
+        "code": "CT-A24C-BIKE-SYMBOL-PERSON",
+        "name": "Bike lane symbol with person \u00b7 Caltrans Std. Plan A24C (2026)",
+        "file": "CT-A24C-BIKE-SYMBOL-PERSON.dwg",
+        "group": "Bicycle markings",
+        "size": [
+          3.33,
+          6.5
+        ],
+        "area": 6.4,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24C"
+      },
+      {
+        "code": "CT-A24C-DIAMOND",
+        "name": "Diamond symbol \u00b7 Caltrans Std. Plan A24C (2026)",
+        "file": "CT-A24C-DIAMOND.dwg",
+        "group": "Words and symbols",
+        "size": [
+          3.25,
+          12.0
+        ],
+        "area": 10.4,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24C"
+      },
+      {
+        "code": "CT-A24C-SHARROW",
+        "name": "Shared roadway bicycle marking \u00b7 Caltrans Std. Plan A24C (2026)",
+        "file": "CT-A24C-SHARROW.dwg",
+        "group": "Bicycle markings",
+        "size": [
+          3.25,
+          9.25
+        ],
+        "area": 11.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24C"
+      },
+      {
+        "code": "CT-A24D-RUNAWAY",
+        "name": "RUNAWAY \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-RUNAWAY.dwg",
+        "group": "Words",
+        "size": [
+          11.33,
+          8.0
+        ],
+        "area": 41.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-VEHICLES",
+        "name": "VEHICLES \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-VEHICLES.dwg",
+        "group": "Words",
+        "size": [
+          12.0,
+          8.0
+        ],
+        "area": 41.7,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-YIELD",
+        "name": "YIELD \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-YIELD.dwg",
+        "group": "Words",
+        "size": [
+          7.0,
+          8.0
+        ],
+        "area": 23.4,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-SCHOOL",
+        "name": "SCHOOL \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-SCHOOL.dwg",
+        "group": "Words",
+        "size": [
+          9.66,
+          8.0
+        ],
+        "area": 34.8,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-WAIT",
+        "name": "WAIT \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-WAIT.dwg",
+        "group": "Words",
         "size": [
           5.33,
           8.0
         ],
-        "source": "LA signing and striping plan library"
+        "area": 19.0,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-SLOW",
+        "name": "SLOW \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-SLOW.dwg",
+        "group": "Words",
+        "size": [
+          6.33,
+          8.0
+        ],
+        "area": 23.5,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-AHEAD",
+        "name": "AHEAD \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-AHEAD.dwg",
+        "group": "Words",
+        "size": [
+          8.0,
+          8.0
+        ],
+        "area": 30.0,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-TURN",
+        "name": "TURN \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-TURN.dwg",
+        "group": "Words",
+        "size": [
+          6.33,
+          8.0
+        ],
+        "area": 23.6,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-HERE",
+        "name": "HERE \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-HERE.dwg",
+        "group": "Words",
+        "size": [
+          6.33,
+          8.0
+        ],
+        "area": 25.2,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-XING",
+        "name": "XING \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-XING.dwg",
+        "group": "Words",
+        "size": [
+          5.33,
+          8.0
+        ],
+        "area": 21.0,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-SIGNAL",
+        "name": "SIGNAL \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-SIGNAL.dwg",
+        "group": "Words",
+        "size": [
+          8.66,
+          8.0
+        ],
+        "area": 31.9,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-RIGHT",
+        "name": "RIGHT \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-RIGHT.dwg",
+        "group": "Words",
+        "size": [
+          7.0,
+          8.0
+        ],
+        "area": 25.8,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-STOP",
+        "name": "STOP \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-STOP.dwg",
+        "group": "Words",
+        "size": [
+          6.33,
+          8.0
+        ],
+        "area": 22.3,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-PED",
+        "name": "PED \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-PED.dwg",
+        "group": "Words",
+        "size": [
+          4.67,
+          8.0
+        ],
+        "area": 18.2,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-COMPACT",
+        "name": "COMPACT, 4 ft letters \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-COMPACT.dwg",
+        "group": "Words",
+        "size": [
+          5.68,
+          4.01
+        ],
+        "area": 10.0,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-BIKE-4FT",
+        "name": "BIKE, 4 ft letters \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-BIKE-4FT.dwg",
+        "group": "Words",
+        "size": [
+          2.67,
+          4.01
+        ],
+        "area": 5.6,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24D-LANE-4FT",
+        "name": "LANE, 4 ft letters \u00b7 Caltrans Std. Plan A24D (2026)",
+        "file": "CT-A24D-LANE-4FT.dwg",
+        "group": "Words",
+        "size": [
+          3.17,
+          4.01
+        ],
+        "area": 5.7,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24D"
+      },
+      {
+        "code": "CT-A24E-LANE",
+        "name": "LANE \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-LANE.dwg",
+        "group": "Words",
+        "size": [
+          6.33,
+          8.0
+        ],
+        "area": 22.9,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-CLEAR",
+        "name": "CLEAR \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-CLEAR.dwg",
+        "group": "Words",
+        "size": [
+          8.0,
+          8.0
+        ],
+        "area": 27.6,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-BIKE",
+        "name": "BIKE \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-BIKE.dwg",
+        "group": "Words",
+        "size": [
+          5.33,
+          8.0
+        ],
+        "area": 22.3,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-ONLY",
+        "name": "ONLY \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-ONLY.dwg",
+        "group": "Words",
+        "size": [
+          6.0,
+          8.0
+        ],
+        "area": 21.7,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-NO",
+        "name": "NO \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-NO.dwg",
+        "group": "Words",
+        "size": [
+          3.0,
+          8.0
+        ],
+        "area": 13.6,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-KEEP",
+        "name": "KEEP \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-KEEP.dwg",
+        "group": "Words",
+        "size": [
+          6.33,
+          8.0
+        ],
+        "area": 23.8,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-BUS",
+        "name": "BUS \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-BUS.dwg",
+        "group": "Words",
+        "size": [
+          4.67,
+          8.0
+        ],
+        "area": 19.7,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-FWY",
+        "name": "FWY \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-FWY.dwg",
+        "group": "Words",
+        "size": [
+          4.67,
+          8.0
+        ],
+        "area": 15.7,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-EXPRS",
+        "name": "EXPRS \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-EXPRS.dwg",
+        "group": "Words",
+        "size": [
+          8.0,
+          8.0
+        ],
+        "area": 29.4,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-TRAIL",
+        "name": "TRAIL \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-TRAIL.dwg",
+        "group": "Words",
+        "size": [
+          7.0,
+          8.0
+        ],
+        "area": 22.7,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-HOV",
+        "name": "HOV \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-HOV.dwg",
+        "group": "Words",
+        "size": [
+          4.67,
+          8.0
+        ],
+        "area": 17.6,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-NORTH",
+        "name": "NORTH \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-NORTH.dwg",
+        "group": "Words",
+        "size": [
+          8.0,
+          8.0
+        ],
+        "area": 30.4,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-SOUTH",
+        "name": "SOUTH \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-SOUTH.dwg",
+        "group": "Words",
+        "size": [
+          8.0,
+          8.02
+        ],
+        "area": 28.9,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-EAST",
+        "name": "EAST \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-EAST.dwg",
+        "group": "Words",
+        "size": [
+          6.33,
+          8.0
+        ],
+        "area": 22.0,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
+      },
+      {
+        "code": "CT-A24E-WEST",
+        "name": "WEST \u00b7 Caltrans Std. Plan A24E (2026)",
+        "file": "CT-A24E-WEST.dwg",
+        "group": "Words",
+        "size": [
+          6.33,
+          8.0
+        ],
+        "area": 23.2,
+        "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
+        "sheet": "A24E"
       },
       {
         "code": "PM-YIELD-LINE-TRIANGLE",
@@ -143,7 +725,20 @@
         "source": "LA signing and striping plan library"
       }
     ],
-    "note": "True size, one unit = one foot, one block insert per drawing on layer P-PMARK. Arrows and words have their base point at the bottom center; symbols at their center. Caltrans arrows are traced from the 2026 Standard Plans and checked against the printed dimensions. Plan-library blocks are flattened to true size and checked against their stated sizes."
+    "note": "True size, one unit = one foot. Each drawing opens as one block insert on layer P-PMARK; block geometry is a SOLID hatch with its outline on layer 0, ByBlock. Base point: the middle of an arrow's tail, or the bottom center of a word or symbol (top center for yield line triangles, which sit on the line). Caltrans blocks are traced from the 2026 Standard Plans and each matches its printed width, height and area; (R) arrows are mirror images, as the plans direct. Plan-library blocks are flattened to true size and checked against their stated sizes.",
+    "preview": "downloads/markings/cad/SSS-PMARK-LIBRARY.webp",
+    "downloads": [
+      {
+        "label": "SSS-PMARK-LIBRARY.dwg",
+        "path": "downloads/markings/cad/SSS-PMARK-LIBRARY.dwg",
+        "note": "every marking block in one drawing, for the Blocks palette (Libraries tab), DesignCenter or a tool palette"
+      },
+      {
+        "label": "SSS-CAD-TOOLS.lsp",
+        "path": "downloads/cad-tools/SSS-CAD-TOOLS.lsp",
+        "note": "AutoCAD routine SSSDYNEXPORT: copies a drawing's dynamic blocks, cleaned and renamed, into one library DWG with a CSV of their visibility states and other dynamic properties"
+      }
+    ]
   },
   "caltrans/signal-blocks": {
     "title": "Caltrans signal DWG blocks",

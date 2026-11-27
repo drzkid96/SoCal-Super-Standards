@@ -2,7 +2,7 @@
 
 Plan sets often hold marking blocks drawn at a display scale and inserted at a fraction of it.
 Each block here is flattened (nested blocks and insert scales baked in) to true size in feet,
-rebased so the base point is the bottom center (or the center for symbols), and checked against
+rebased so the base point is the bottom center (top center for yield line triangles, which sit on the line), and checked against
 its stated size before it is published.
 
 Build locally (the plan drawing stays outside the repository):
@@ -26,11 +26,8 @@ OUT = Path('public/downloads/markings/cad')
 SOURCE_LABEL = 'LA signing and striping plan library'
 # code, source block, scale (x, y) that gives true size, base point rule, group, name, check (axis, feet, tolerance)
 SHAPES = [
-    ('PM-WORD-STOP', 'STOP', (1/3, 1/3), 'bottom', 'Words and symbols', 'STOP, 8 ft letters', ('y', 8.0, 0.05)),
-    ('PM-WORD-PED', 'PED', (1/3, 1/3), 'bottom', 'Words and symbols', 'PED, 8 ft letters', ('y', 8.0, 0.05)),
-    ('PM-WORD-XING', 'XING', (1/3, 1/3), 'bottom', 'Words and symbols', 'XING, 8 ft letters', ('y', 8.0, 0.05)),
-    ('PM-YIELD-LINE-TRIANGLE', 'YIELDLL', (1, 1), 'center', 'Words and symbols', 'Yield line triangle, 2 ft base x 3 ft', ('y', 3.0, 0.02)),
-    ('PM-BIKE-SYMBOL', 'BIKE-SYM2', (0.7308, 2.4118), 'center', 'Bicycle markings', 'Bicycle symbol, 6 ft long', ('y', 6.0, 0.1)),
+    ('PM-YIELD-LINE-TRIANGLE', 'YIELDLL', (1, 1), 'top', 'Words and symbols', 'Yield line triangle, 2 ft base x 3 ft', ('y', 3.0, 0.02)),
+    ('PM-BIKE-SYMBOL', 'BIKE-SYM2', (0.7308, 2.4118), 'bottom', 'Bicycle markings', 'Bicycle symbol, 6 ft long', ('y', 6.0, 0.1)),
     ('PM-BIKE-ARROW', 'BIKE LANE ARROW', (10.5362, 10.5362), 'bottom', 'Bicycle markings', 'Bike lane arrow', None),
     ('PM-BIKE-ARROW-LEFT-THRU', 'BIKE-LEFT-THRU-ARROW', (1, 1), 'bottom', 'Bicycle markings', 'Bike lane left and through arrow', None),
     ('PM-BIKE-LANE-SYMBOL-GREEN', 'Bike-NoPerson-Arrow', (1, 1), 'bottom', 'Bicycle markings',
@@ -61,7 +58,7 @@ def build(dxf, libredwg):
     from ezdxf import recover
     source, _ = recover.readfile(dxf)
     catalog = json.loads(CATALOG.read_text())
-    rows = [r for r in catalog['markings/cad']['blocks'] if r['code'].startswith('CT-')]
+    rows = [r for r in catalog['markings/cad']['blocks'] if not r['code'].startswith('PM-')]
     OUT.mkdir(parents=True, exist_ok=True)
     for code, name, (sx, sy), base, group, label, check in SHAPES:
         parts = flatten(source, name, sx, sy)
@@ -73,7 +70,7 @@ def build(dxf, libredwg):
             if abs(measured - feet) > tol:
                 raise ValueError(f'{code}: measured {measured:.3f} ft, expected {feet} ft')
         cx = (ext.extmin.x + ext.extmax.x) / 2
-        cy = ext.extmin.y if base == 'bottom' else (ext.extmin.y + ext.extmax.y) / 2
+        cy = {'bottom': ext.extmin.y, 'top': ext.extmax.y}.get(base, (ext.extmin.y + ext.extmax.y) / 2)  # top: yield triangles sit on the yield line
         move = Matrix44.translate(-cx, -cy, 0)
         doc = r2000_document()
         doc.units = 2
@@ -91,7 +88,7 @@ def build(dxf, libredwg):
                 copy.dxf.style = 'PVMT-ROMANS'
             block.add_entity(copy)
         doc.modelspace().add_blockref(code, (0, 0), dxfattribs={'layer': 'P-PMARK'})
-        doc.set_modelspace_vport(height=max(size) * 1.3, center=(0, size[1] / 2 if base == 'bottom' else 0))
+        doc.set_modelspace_vport(height=max(size) * 1.3, center=(0, size[1] / 2 if base == 'bottom' else -size[1] / 2 if base == 'top' else 0))
         target = OUT / (code + '.dwg')
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / 'm.dxf'
