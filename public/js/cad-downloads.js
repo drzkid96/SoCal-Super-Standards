@@ -10,7 +10,7 @@
   const filters = form.querySelector('.cad-filter-options');
   const rows = [...library.querySelectorAll('.cad-records > li')];
   const pageSize = 36;
-  const fields = ['q', 'source', 'size', 'kind', 'availability'];
+  const fields = ['q', 'source', 'size', 'kind'];
   const normalize = value => value.normalize('NFKD').toLowerCase().replace(/[–—−]/g, '-');
   const words = value => normalize(value).replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
   const index = new Map(rows.map(row => [row, words(row.dataset.query)]));
@@ -45,8 +45,7 @@
     const source = form.elements.namedItem('source').value;
     const size = form.elements.namedItem('size').value;
     const kind = form.elements.namedItem('kind').value;
-    const availability = form.elements.namedItem('availability').value;
-    const active = [source,size,kind,availability].filter(Boolean).length;
+    const active = [source,size,kind].filter(Boolean).length;
     filters.querySelector('summary').textContent = active ? 'Filters ('+active+')' : 'Filters';
     clear.hidden = !active && !input;
     const matches = (exact ? [...exact] : rows).filter(row =>
@@ -55,7 +54,6 @@
       (!source || sources.get(row).has(source)) &&
       (!size || row.dataset.status === size) &&
       (!kind || row.dataset.kind === kind) &&
-      (!availability || row.dataset.availability === availability) &&
       (exact || tokens.every(term => index.get(row).includes(term)))
     );
     if (anchor && location.hash) {

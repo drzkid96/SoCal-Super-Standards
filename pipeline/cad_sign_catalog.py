@@ -178,31 +178,6 @@ def collect():
     return sorted(entries.values(),key=lambda r:r['key'])
 
 
-def drawing_summary(drawing):
-    uses=drawing['uses']
-    direct=uses.get('layout',0);nested=uses.get('nested definition',0)
-    unplaced=uses.get('unplaced definition',0)+uses.get('unplaced external image definition',0)
-    parts=[]
-    if direct:parts.append(str(direct)+' direct layout record'+('s' if direct!=1 else ''))
-    if nested:parts.append(str(nested)+' nested record'+('s' if nested!=1 else '')+' used in layouts')
-    if unplaced:parts.append(str(unplaced)+' unplaced definition record'+('s' if unplaced!=1 else ''))
-    return ' · '.join(parts) or f'{sum(uses.values())} evidence records'
-
-
-def drawing_evidence(drawing):
-    if not drawing['evidence']:return ''
-    lines=[]
-    for group in drawing['evidence']:
-        samples=', '.join(group['handles'])
-        if group['count']>len(group['handles']):samples+=' …'
-        context=group['use']+(' · '+', '.join(group['layouts']) if group['layouts'] else '')
-        lines.append(f'<tr><td>{escape(group["kind"])}</td><td>{escape(context)}</td><td>{group["count"]}</td><td><code>{escape(samples)}</code></td></tr>')
-    file=escape(drawing.get('file',''))
-    return ('<details><summary>Drawing evidence · '+escape(drawing_summary(drawing))+'</summary><p><code>'+file+
-            '</code></p><table><thead><tr><th>Entity</th><th>Drawing context</th><th>Records</th><th>Example handles</th></tr></thead><tbody>'+
-            ''.join(lines)+'</tbody></table></details>')
-
-
 def figures(row):
     from speed_faces import posted, preview
     speed=posted(row['code'])
@@ -373,20 +348,17 @@ def library_source_pages(root,rows,lookup):
         group=[(r,d) for r in rows for d in r['drawings'] if d['source']==source]
         if not group:continue
         url=source_route(source)
-        content=['---','title: '+json.dumps(name+' · drawing inventory'),'tableOfContents: false','---','',
+        content=['---','title: '+json.dumps(name+' · sign designations'),'tableOfContents: false','---','',
                  f'<link rel="stylesheet" href="{BASE}/js/cad-downloads.css">',
-                 f'<p><code>{escape(file)}</code> · {len(group):,} sign designations</p>',
-                 '<p>Follow a designation to its sign reference. Expand the drawing evidence for entity handles and drawing context.</p>',
-                 '<p><a href="'+BASE+'/data/cad-sign-evidence.json" download>Download the complete drawing evidence (JSON)</a></p>',
+                 f'<p>{len(group):,} sign designations called out in this drawing.</p>',
                  '<div class="cad-source-inventory">']
         for row,d in group:
             title=escape(row['code'])
-            content.append(f'<section id="{callout_id(source,row["key"])}"><strong><a href="{escape(row["url"])}">{title}</a></strong>'+
-                           drawing_evidence(d)+'</section>')
+            content.append(f'<section id="{callout_id(source,row["key"])}"><strong><a href="{escape(row["url"])}">{title}</a></strong></section>')
         content.append('</div>')
         path=root/'signs/cad/sources'/(source+'.md');path.parent.mkdir(parents=True,exist_ok=True)
         path.write_text('\n'.join(content[:4])+'\n\n'+'\n\n'.join(content[5:])+'\n')
-        lookup.setdefault(name.upper(),[]).append([name+' · drawing evidence',url])
+        lookup.setdefault(name.upper(),[]).append([name+' · sign designations',url])
 
 
 def build(root,lookup):
