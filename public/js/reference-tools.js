@@ -389,7 +389,7 @@
   function menus(){
     for(const bar of article.querySelectorAll('.reference-actions')){
       const holder=bar.parentElement;
-      if(holder?.matches('details.action-menu')||!bar.children.length||bar.querySelector('.cad-shortcut'))continue;
+      if(holder?.matches('details.action-menu')||!bar.children.length||bar.querySelector('.cad-shortcut')||bar.closest('.sdetail'))continue;
       const menu=create('details'),label=bar.getAttribute('aria-label')||'Actions',summary=create('summary','\u22ef');
       menu.className='action-menu '+[...bar.classList].filter(c=>c!=='reference-actions').join(' ');
       summary.setAttribute('aria-label',label);summary.title=label;
