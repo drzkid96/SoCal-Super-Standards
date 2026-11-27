@@ -270,7 +270,9 @@ def write_pages(root, lookup, release):
           '<ul class="cad-records">'+''.join(rows)+'</ul>'
           '<div class="cad-paging" hidden><button type="button" data-prev>Previous</button><button type="button" data-next>Next</button></div>'+
           f'<details class="cad-source-list"><summary>Sources, examples and size notes</summary>{legend_examples}<p>{usage}</p><p>{source_links}</p>{standard_link}</details></section>'
-          f'\n\n<script src="{BASE}/js/cad-downloads.js" defer></script>\n')
+          f'\n\n<script src="{BASE}/js/cad-downloads.js" defer></script>\n'
+          f'<link rel="stylesheet" href="{BASE}/js/block-cart.css">\n<script src="{BASE}/js/block-generators.js" defer></script>\n'
+          f'<script src="{BASE}/js/block-cart.js" defer></script>\n')
     index=root/'signs/cad/index.md';index.parent.mkdir(parents=True,exist_ok=True)
     index.write_text('---\ntitle: CAD sign block downloads\ntableOfContents: false\n---\n\n'+body)
     chart=root/'signs/index.md'

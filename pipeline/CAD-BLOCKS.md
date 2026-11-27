@@ -138,7 +138,17 @@ Rules live in `cad_standard.py`; `cad_normalize.py` applies them to every static
   group (ARCH D, the Westwood TS-1 sheet), border, title line, one viewport at a standard scale.
 
 Order after any block change: builder(s) → `cad_normalize.py` → `block_libraries.py` → `block_previews.py`
-→ `cad_audit.py`.
+→ `cad_block_web.py` → `cad_audit.py`.
+
+## Block cart and editor
+
+- `cad_block_web.py` writes each block as AutoCAD 2000 DXF group codes (no handles) to
+  `public/data/cad-block-entities/` with `index.json`; `test_block_cart.mjs` fails if a published block has none.
+- `block-cart.js` (cards' Add buttons, side cart, layout options), `block-library-worker.js` (combined DXF
+  from `public/cad-library/template.dxf.in`, sheet frames per group at the plan scale, LibreDWG wasm encode,
+  ZIP with originals and SSS-ASSEMBLE.scr), `block-generators.js` (crosswalk, green bike crossing, green
+  panel, limit line; LADOT dots hatch at scale 10 as on the Westwood plans).
+- Browser-combined blocks are AutoCAD 2000 and static; the script reinserts the originals for grips.
 
 ## Dynamic families: `dynamic_families.py` and `SSS-DYNBUILD.lsp`
 

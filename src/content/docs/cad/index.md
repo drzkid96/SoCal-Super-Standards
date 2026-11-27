@@ -4,6 +4,12 @@ description: Block libraries, sheet template, plot style, line types, AutoCAD ro
 tableOfContents: false
 ---
 
+<link rel="stylesheet" href="/SoCal-Super-Standards/js/block-cart.css">
+<script src="/SoCal-Super-Standards/js/block-generators.js" defer></script>
+<script src="/SoCal-Super-Standards/js/block-cart.js" defer></script>
+
+<div class="block-tools"><button type="button" onclick="window.SSSBlockCart&&SSSBlockCart.open()">Open block cart</button><button type="button" data-block-editor="crosswalk">Block editor</button></div>
+
 <div class="block-grid cad-resource-grid">
 <figure class="block-card"><a href="/SoCal-Super-Standards/signs/cad/"><img src="/SoCal-Super-Standards/signs/R1-1.svg" alt="" loading="lazy" /></a><figcaption><strong>Sign blocks</strong><span>Legend-cell blocks, legend builder, PDF sign chart</span><a href="/SoCal-Super-Standards/signs/cad/">Open</a></figcaption></figure>
 <figure class="block-card"><a href="/SoCal-Super-Standards/markings/cad/"><img src="/SoCal-Super-Standards/block-previews/markings/cad/CT-A24C-BIKE-SYMBOL.svg" alt="" loading="lazy" /></a><figcaption><strong>Pavement markings</strong><span>True-size blocks with placement base points</span><a href="/SoCal-Super-Standards/markings/cad/">Open</a></figcaption></figure>
@@ -20,6 +26,12 @@ tableOfContents: false
 | [SSS-CALTRANS-STRIPING.lin](/SoCal-Super-Standards/downloads/cad-tools/SSS-CALTRANS-STRIPING.lin) | Line types for every broken Caltrans striping detail, in feet |
 | [SSS-DYNBUILD.zip](/SoCal-Super-Standards/downloads/cad-tools/SSS-DYNBUILD.zip) | Builds the dynamic block families in AutoCAD: visibility states, rotation and flips at the base point |
 | [SSS-CAD-TOOLS.lsp](/SoCal-Super-Standards/downloads/cad-tools/SSS-CAD-TOOLS.lsp) | SSSDYNEXPORT: copies a drawing's dynamic blocks into a clean library with a CSV of their properties |
+
+## Block cart and editor
+
+- **Add** on any marking or signal card puts the block in the cart; signs in your sign legend can ride along.
+- **Download library** gives one DWG with every block, one 24 x 36 sheet frame per group at your plan scale, codes under the blocks, your title, plus each original drawing and SSS-ASSEMBLE.scr, which inserts the originals (dynamic grips intact) at the same spots.
+- **Block editor** makes crosswalks, green bike crossings, green panels and limit lines to your dimensions, with green as a solid fill or the LADOT dots hatch.
 
 ## Use the libraries
 
