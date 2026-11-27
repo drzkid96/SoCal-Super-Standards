@@ -26,6 +26,7 @@ python3 pipeline/sign_cells.py build --libredwg <dir> --libdxfrw <libdxfrw dwg2d
 ```
 python3 pipeline/marking_blocks.py --pdf <Caltrans 2026 Standard Plans PDF> --libredwg <dir>
 python3 pipeline/plan_marking_blocks.py --dxf <plan drawing as DXF> --libredwg <dir>
+python3 pipeline/striping_blocks.py --libredwg <dir>
 python3 pipeline/marking_library.py --libredwg <dir>
 ```
 
@@ -38,7 +39,11 @@ python3 pipeline/marking_library.py --libredwg <dir>
   in `data/reference/marking-blocks-report.json`.
 - Plan-drawing blocks are flattened at the scale they are placed at in the plan, then checked
   against a stated size (`SHAPES` in `plan_marking_blocks.py`).
-- `SSS-PMARK-LIBRARY.dwg` collects every block for the Blocks palette Libraries tab.
+- Striping: every Caltrans detail in `striping_db.py` becomes `CT-DET-<n>`, one full repeat along
+  +X from the start of the reference line, stripes in marking colors (yellow 2, white 7, black
+  contrast 250), 4 in markers; broken lines also go to `SSS-CALTRANS-STRIPING.lin` (feet).
+- `SSS-PMARK-LIBRARY.dwg` collects every block for the Blocks palette Libraries tab (striping one
+  detail per row) and is rendered to `SSS-PMARK-LIBRARY.webp` for the page.
 
 ## Dynamic blocks
 
@@ -55,6 +60,12 @@ the `-SSS-DYNAMIC.dwg` and `.csv` it writes byte for byte. Never re-encode them.
   Outline stroke width differs by sheet (0.48 or 0.72 pt); grids are 0.12 pt with a `<n> GRID` note.
 - Roman numerals on those sheets use a symbol font: `Î` = I, `Ï` = V.
 - Printed areas run 4 to 9 percent above the traced outline area; size must match within 0.06 ft.
+- Several grid notes can sit near a figure; pick the one whose scale makes the figure agree with
+  the dimensions printed beside it (the bike lane arrow is on a 6 in grid next to 1 ft grids).
+- Fill needs two readings: nesting (holes cut only their parent, so a bike frame crossing a wheel
+  joins) and even-odd (Type VIII's overlapping heads). Keep the one closer to the printed area,
+  and hatch the resulting region, not the raw loops.
+- Numerals print in pairs with one area; match digits by size in reading order and check the pair.
 - Wind hatch rings by nesting depth (outer counterclockwise, holes clockwise) so counters and
   wheel rings stay open in every renderer.
 - Plan-set blocks are often drawn at display scale and placed at a fraction of it (words at 1/3,
@@ -64,6 +75,8 @@ the `-SSS-DYNAMIC.dwg` and `.csv` it writes byte for byte. Never re-encode them.
 
 ## Still open
 
-- A24A bike lane arrow and Type V, A24B Type II (L), A24C bike symbol without person, A24D LEFT,
-  A24C numerals and ISA: their traced outlines do not match the printed sizes yet.
-- Striping patterns, crosswalks (A20, A24F) and signal symbols (ES sheets, Caltrans cell library).
+- A24A Type V (traced in two parts), A24B Type II (L) (traces 6.75 ft against a printed 7 ft),
+  A24C bike symbol without person (traced area 5.2 against 7 ft2), A24D LEFT (outline not found),
+  A24C ISA (grid scale unresolved).
+- Striping details 36, 36A, 36B, 37 and 37B have no line rows in the database yet.
+- Crosswalks (A24F, no grid or area) and signal symbols (ES sheets, Caltrans cell library).

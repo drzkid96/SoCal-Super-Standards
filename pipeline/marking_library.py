@@ -54,7 +54,7 @@ def build(libredwg):
                 imp.finalize()
                 ext = bbox.extents(lib.blocks[r['code']])
                 w, h = ext.extmax.x - ext.extmin.x, ext.extmax.y - ext.extmin.y
-                if x and x + w > 120:
+                if x and (x + w > 120 or group == 'Striping patterns'):  # one striping detail per row reads clearly
                     x, y, row_h = 0.0, y - row_h - GAP - 2 * TEXT, 0.0
                 bx, top = x - ext.extmin.x, y - ext.extmax.y
                 msp.add_blockref(r['code'], (bx, top), dxfattribs={'layer': 'P-PMARK'})

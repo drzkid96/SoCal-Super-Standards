@@ -19,6 +19,7 @@ from pathlib import Path
 
 import ezdxf
 from shapely.geometry import LinearRing, Point, Polygon
+from shapely.ops import unary_union
 
 from cad_blocks.plan_outlines import figures
 from sign_cells import r2000_document
@@ -59,6 +60,14 @@ SHEETS = {
         ('BIKE-SYMBOL-PERSON', 'Bike lane symbol with person', 'Bicycle markings', FT_IN(3, 4), 6.5, 7, False),
         ('DIAMOND', 'Diamond symbol', 'Words and symbols', FT_IN(3, 3), 12, 11, False),
         ('SHARROW', 'Shared roadway bicycle marking', 'Bicycle markings', FT_IN(3, 3), 9.25, 11.5, False),
+        # Numerals print as pairs (25, 35, 40); each digit is matched by size in reading order and the
+        # pair areas are checked in PAIRS below. The second 5 is consumed but not published.
+        ('NUMERAL-2', 'Numeral 2, 8 ft', 'Numerals', 2, 8, None, False),
+        ('NUMERAL-5', 'Numeral 5, 8 ft', 'Numerals', 2, 8, None, False),
+        ('NUMERAL-3', 'Numeral 3, 8 ft', 'Numerals', 2, 8, None, False),
+        ('_NUMERAL-5', '', '', 2, 8, None, False),
+        ('NUMERAL-4', 'Numeral 4, 8 ft', 'Numerals', 2.25, 8, None, False),
+        ('NUMERAL-0', 'Numeral 0, 8 ft', 'Numerals', 2, 8, None, False),
     ]),
     'A24D': (47, 0.72, [
         ('RUNAWAY', 'RUNAWAY', 'Words', FT_IN(11, 4), 8, 43, False), ('VEHICLES', 'VEHICLES', 'Words', 12, 8, 42, False),
@@ -82,18 +91,58 @@ SHEETS = {
         ('WEST', 'WEST', 'Words', FT_IN(6, 4), 8, 24, False),
     ]),
 }
+# Figures printed together with one area: (sheet, codes, printed area ft2)
+PAIRS = [('A24C', ('NUMERAL-2', 'NUMERAL-5'), 17.5), ('A24C', ('NUMERAL-3', '_NUMERAL-5'), 16.5),
+         ('A24C', ('NUMERAL-4', 'NUMERAL-0'), 19.5)]
 SIZE_TOL = 0.06   # ft
 AREA_TOL = 0.10   # share of the printed area (Caltrans rounds it and measures to the outline centerline)
 
 
-def shape_of(fig):
-    """Even-odd union of the closed loops, in feet; open strokes (dashed separators) are left out."""
+def shape_of(fig, target=None):
+    """Filled region of a figure, in feet. Open strokes (dashed separators) are left out.
+
+    Two readings of the closed loops: nesting (each loop is solid or a hole by its depth, and a hole
+    cuts only the loop around it, so a bike frame across a wheel joins instead of cancelling) and
+    even-odd (overlaps cancel, as on the three-way Type VIII arrow). With a printed area the closer
+    reading wins; without one, nesting."""
     loops = [pts for pts, closed, _ in fig['loops'] if closed and len(pts) > 3]
-    region = None
-    for p in sorted((Polygon(pts).buffer(0) for pts in loops), key=lambda p: -p.area):
-        if p.area > 1e-4:
-            region = p if region is None else region.symmetric_difference(p)
+    polys = [Polygon(p).buffer(0) for p in loops]
+    keep = [i for i, p in enumerate(polys) if p.area > 1e-4]
+    parent = {}
+    for i in keep:
+        inside = [j for j in keep if j != i and polys[j].area > polys[i].area and polys[j].contains(Point(loops[i][0]))]
+        parent[i] = min(inside, key=lambda j: polys[j].area) if inside else None
+
+    def depth(i):
+        d = 0
+        while parent[i] is not None:
+            i, d = parent[i], d + 1
+        return d
+    solids = []
+    for i in keep:
+        if depth(i) % 2 == 0:
+            holes = [polys[j] for j in keep if parent[j] == i]
+            solids.append(polys[i].difference(unary_union(holes)) if holes else polys[i])
+    region = unary_union(solids) if solids else None
+    if target is not None and region is not None:
+        xor = None
+        for i in sorted(keep, key=lambda i: -polys[i].area):
+            xor = polys[i] if xor is None else xor.symmetric_difference(polys[i])
+        if xor is not None and abs(xor.area - target) < abs(region.area - target):
+            region = xor
     return region, loops
+
+
+def rings_of(region):
+    """Exterior and interior rings of the filled region, for the hatch and its outline."""
+    geoms = getattr(region, 'geoms', [region])
+    out = []
+    for g in geoms:
+        if g.is_empty or g.geom_type != 'Polygon':
+            continue
+        out.append(list(g.exterior.coords)[:-1])
+        out.extend(list(r.coords)[:-1] for r in g.interiors)
+    return out
 
 
 def matches(fig, width, height, area):
@@ -103,7 +152,7 @@ def matches(fig, width, height, area):
     if height is not None and abs(h - height) > SIZE_TOL:
         return False
     if area is not None:
-        region, _ = shape_of(fig)
+        region, _ = shape_of(fig, area)
         if region is None or abs(region.area - area) > max(AREA_TOL * area, 0.6):
             return False
     return True
@@ -172,14 +221,26 @@ def build(pdf, libredwg):
         for f in figs:
             region, _ = shape_of(f)
             report[sheet]['figures'].append({'size': f['size'], 'grid_ft': round(f['grid_ft'], 4), 'area': round(region.area, 2) if region else None})
+        hits = {}
         for code, name, group, w, h, a, mirror in entries:
             hit = next((i for i, f in enumerate(figs) if i not in used and matches(f, w, h, a)), None)
             report[sheet]['entries'][code] = hit
-            if hit is None:
+            if hit is not None:
+                used.add(hit)
+                hits[code] = hit
+        for pair_sheet, codes, printed in PAIRS:
+            if pair_sheet == sheet and all(c in hits for c in codes):
+                total = sum(shape_of(figs[hits[c]])[0].area for c in codes)
+                if abs(total - printed) > AREA_TOL * printed:
+                    for c in codes:
+                        hits.pop(c, None)
+                        report[sheet]['entries'][c] = None
+        for code, name, group, w, h, a, mirror in entries:
+            if code not in hits or code.startswith('_'):
                 continue
-            used.add(hit)
-            fig = figs[hit]
-            region, loops = shape_of(fig)
+            fig = figs[hits[code]]
+            region, _ = shape_of(fig, next(e[5] for e in entries if e[0] == code))
+            loops = rings_of(region)
             variants = [(f'CT-{sheet}-{code}', name, False)]
             if mirror:
                 variants.append((f'CT-{sheet}-{code[:-2]}-R' if code.endswith('-L') else f'CT-{sheet}-{code}-MIRROR',
@@ -189,7 +250,7 @@ def build(pdf, libredwg):
                 rows.append({'code': full, 'name': f'{label} · Caltrans Std. Plan {sheet} (2026)', 'file': full + '.dwg',
                              'group': group, 'size': [round(fig['size'][0], 2), round(fig['size'][1], 2)],
                              'area': round(region.area, 1), 'source': SOURCE, 'sheet': sheet})
-    groups = ['Arrows', 'Words', 'Words and symbols', 'Bicycle markings']
+    groups = ['Arrows', 'Words', 'Numerals', 'Words and symbols', 'Bicycle markings']
     catalog['markings/cad']['groups'] = groups + [g for g in catalog['markings/cad']['groups'] if g not in groups]
     catalog['markings/cad']['blocks'] = rows + keep
     CATALOG.write_text(json.dumps(catalog, indent=2) + '\n')
@@ -204,5 +265,5 @@ if __name__ == '__main__':
     args = parser.parse_args()
     rows, report, _ = build(args.pdf, args.libredwg)
     for sheet, r in report.items():
-        print(sheet, 'matched', sum(v is not None for v in r['entries'].values()), 'of', len(r['entries']),
-              'missing', [k for k, v in r['entries'].items() if v is None])
+        print(sheet, 'matched', sum(v is not None for k, v in r['entries'].items() if not k.startswith('_')), 'of',
+              sum(1 for k in r['entries'] if not k.startswith('_')), 'missing', [k for k, v in r['entries'].items() if v is None])
