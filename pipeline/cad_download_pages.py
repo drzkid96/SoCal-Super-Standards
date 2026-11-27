@@ -5,7 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
-from urllib.parse import quote, urlencode
+from urllib.parse import quote
 from zipfile import ZipFile
 
 from cad_sign_catalog import LIBRARIES, designation_key, slug
@@ -68,13 +68,6 @@ def mark(rec):
     return 'block-'+slug(key)+'-'+hashlib.sha256(key.encode()).hexdigest()[:10]
 
 
-def metadata(rec):
-    evidence=[]
-    if source(rec):evidence.append(str(source(rec)))
-    if rec.get('sourceHandle'):evidence.append('handle '+str(rec['sourceHandle']))
-    return ' · '.join(evidence)
-
-
 def data_row(rec, units, standalone=False):
     title=ESC(rec['code'])
     if not standalone:
@@ -86,42 +79,28 @@ def data_row(rec, units, standalone=False):
     if rec.get('publishedSides'):
         nominal=' × '.join(f'{value:g}' for value in rec['publishedSides'])
         dims_label=f'{ESC(nominal)} in published sides · CAD bounds '+dims_label
-    size_status=ESC(rec.get('sizeStatus') or 'Size evidence unavailable')
+    size_status=ESC(rec.get('sizeStatus') or '')
     labels=[dims_label,size_status,ESC(rec['matchStatus'])]
     geometry=rec.get('geometryStatus') or ''
     if geometry and geometry not in ('current issued artwork','documented source variant'):
         labels.append(ESC(geometry))
     if rec.get('sourceDrawing')!='official-standard' and source(rec):labels.append(ESC(source(rec)))
-    evidence=ESC(metadata(rec))
-    if rec.get('evidenceUrl'):
-        evidence=f'<a href="{ESC(rec["evidenceUrl"])}">{evidence}</a>'
-    if rec.get('sourceUrl'):
-        evidence+=' · <a href="'+ESC(rec['sourceUrl'])+'">'+ESC(rec.get('referenceTitle') or 'Publisher reference')+'</a>'
-    if rec.get('sizeTableUrl'):
-        evidence+=' · <a href="'+ESC(rec['sizeTableUrl'])+'">Published size table</a>'
+    labels=[label for label in labels if label]
     desc=ESC(rec.get('description',''))
-    notes=[rec[k] for k in ['sizeBasis','sizeCondition','geometryNote','note','historicalLegend']
-           if isinstance(rec.get(k),str) and rec[k]]
-    for source_label in rec.get('sourceLabels',[]):
-        if source_label!=source(rec):notes.append('Also recorded in '+source_label)
-    if rec.get('calloutSources'):notes.append('Called out in '+', '.join(rec['calloutSources']))
-    if rec.get('masterBlockName') and rec['masterBlockName']!=rec['blockName']:
-        notes.append('Block name in master drawing · '+rec['masterBlockName'])
-    if rec.get('roundTrip'):
-        stats=['Reopened after DWG conversion']
-        if isinstance(rec.get('entityCount'),int):stats.append(f'{rec["entityCount"]:,} entities')
-        if isinstance(rec.get('solidHatches'),int):stats.append(f'{rec["solidHatches"]:,} solid hatches')
-        notes.append(' · '.join(stats))
-    note=''.join(f'<p>{ESC(text)}</p>' for text in dict.fromkeys(notes))
+    cites=[]
+    if rec.get('sourceUrl'):
+        cites.append('<a href="'+ESC(rec['sourceUrl'])+'">'+ESC(rec.get('referenceTitle') or 'Publisher reference')+'</a>')
+    if rec.get('sizeTableUrl'):
+        cites.append('<a href="'+ESC(rec['sizeTableUrl'])+'">Published size table</a>')
     if rec.get('currentArtworkUrl'):
-        note+=f'<p><a href="{ESC(rec["currentArtworkUrl"])}">Compare current issued artwork</a></p>'
-    context=f'<details class="cad-evidence"><summary>Source and size evidence</summary>{note}<p>{evidence}{block}</p></details>'
+        cites.append(f'<a href="{ESC(rec["currentArtworkUrl"])}">Current issued artwork</a>')
+    context='<p class="cad-cite">'+' · '.join(cites)+'</p>' if cites else ''
     if standalone:
         # Drawing provenance and conversion logs belong to the CAD catalog.
         # The working sign page only needs the variant, actual usable size and download.
         context=''
         labels=[('Legend drawing' if normalized else dims_label)]
-        if not normalized and rec.get('sizeStatus')!='published reference size':
+        if not normalized and size_status and rec.get('sizeStatus')!='published reference size':
             labels.append(size_status)
         if rec.get('historicalLegend') and rec.get('geometryStatus')!='Standardized posted speed':
             labels.append('Historical legend')
@@ -148,7 +127,6 @@ def options(values):
 def build(root, lookup):
     release=hydrate()
     records=write_pages(root,lookup,release)
-    # The downloadable web manifest also resolves each DWG to its sign record and drawing evidence.
     (BLOCK_FILES/'manifest.json').write_bytes(dump(release))
     return records
 
@@ -186,8 +164,6 @@ def write_pages(root, lookup, release):
         citations={obs['sourceDrawing'] for obs in observations if obs.get('sourceDrawing') and not is_geometry_observation(obs)}
         rec['sourceLabels']=sorted(source_names.get(k,k) for k in origins if k)
         rec['calloutSources']=sorted(source_names.get(k,k) for k in citations)
-        provenance=next((d for d in (plan or {}).get('drawings',[]) if d['source']==src),None)
-        if provenance:rec['evidenceUrl']=provenance['url']
         std=official.get(key)
         url=plan['url'] if plan else std['url'] if std else CATALOG+'code-'+slug(key)+'/'
         current=blocks.get(rec.get('currentArtworkId'))
@@ -251,36 +227,6 @@ def write_pages(root, lookup, release):
         if CSS not in md:summary=CSS+'\n'+cart.shell()+'\n'+summary
         dest.write_text(md[:pos]+'\n\n'+summary+'\n\n'+md[pos:])
     count=len(records)
-    native={(r.get('sourceDrawing'),designation_key(alias)) for r in records for alias in r['aliases']}
-    native.update((obs['sourceDrawing'],designation_key(obs.get('code') or rec['code']))
-                  for rec in records for obs in rec.get('observations',[]) if obs.get('sourceDrawing') and is_geometry_observation(obs))
-    excluded=defaultdict(list)
-    for item in release.get('unresolved',[]):
-        excluded[item.get('sourceDrawing'),designation_key(item['code'])].append(item)
-    unavailable=[]
-    for record in plan_rows:
-        for drawing in record['drawings']:
-            pair=(drawing['source'],record['key'])
-            if pair in native:continue
-            matched=excluded.pop(pair,[])
-            reasons=list(dict.fromkeys(str(r['reason']) for r in matched if r.get('reason')))
-            unavailable.append(dict(id='evidence-'+drawing['source']+'-'+slug(record['key']),code=record['code'],
-                        aliases=record['aliases'],source=drawing['name'],url=record['url'],proof=drawing['url'],
-                        status=record['status'],reason=' · '.join(reasons),
-                        callout=any(re.search(r'text|callout|leader|attribute',e['kind'],re.I) for e in drawing['evidence'])))
-    for (src,key),items in excluded.items():
-        for item in items:
-            known=plans.get(key) or official.get(key)
-            if known:url=known['url']
-            else:
-                url=CATALOG+'code-'+slug(key)+'/'
-                dest=page(root,url);dest.parent.mkdir(parents=True,exist_ok=True)
-                if not dest.exists():
-                    dest.write_text('---\ntitle: '+json.dumps(item['code']+' · CAD evidence')+'\n---\n\n')
-                with dest.open('a') as f:
-                    f.write('\n\n<p>'+ESC(source_names.get(src,src))+' · '+ESC(item.get('sourceHandle',''))+' · '+ESC(item['reason'])+'</p>\n')
-            unavailable.append(dict(id='unavailable-'+item['id'],code=item['code'],aliases=[item['code']],
-                        source=source_names.get(src,src),url=url,proof='',status='Source designation',reason=item['reason']))
     rows=[]
     frequent={k:i for i,k in enumerate(('R1-1','R1-2','R2-1','W11-2','R3-17','R10-15','W3-1'))}
     def browse_order(rec):
@@ -290,68 +236,17 @@ def write_pages(root, lookup, release):
     for r in sorted(records,key=browse_order):
         text=' '.join([r['code'],r['blockName'],*r['aliases'],str(r.get('description','')),str(source(r)),str(r.get('sizeStatus','')),str(r.get('geometryStatus',''))])
         attrs={'id':mark(r),'data-code':r['code'],'data-width':r['width'],'data-height':r['height'],'data-availability':'dwg','data-query':text,'data-keys':'|'.join(designation_key(a) for a in r['aliases']),
-               'data-source':source(r),'data-sources':'|'.join(r['sourceLabels']),'data-status':r.get('sizeStatus') or 'Size evidence unavailable','data-kind':r['matchStatus']}
+               'data-source':source(r),'data-sources':'|'.join(r['sourceLabels']),'data-status':r.get('sizeStatus') or '','data-kind':r['matchStatus']}
         if r.get('publishedSides'):
             attrs['data-published-width'],attrs['data-published-height']=r['publishedSides'][:2]
         props=' '.join(f'{k}="{ESC(v)}"' for k,v in attrs.items())
         rows.append(f'<li {props}>'+data_row(r,units)+'</li>')
-    native_by_alias=defaultdict(list)
-    for rec in records:
-        for key in set(map(designation_key,rec['aliases'])):native_by_alias[key].append(rec)
-    unmatched_codes=set()
-    linked_evidence=0
-    for row in sorted(unavailable,key=lambda r:sort_key(r['code'])):
-        for alias in row['aliases']:
-            if designation_key(alias) in native_by_alias:continue
-            pair=[row['code']+' · CAD evidence · '+row['source'],CATALOG+'#'+mark(row)]
-            results=lookup.setdefault('CAD '+alias.upper(),[])
-            if pair not in results:results.append(pair)
-        alias_query=' '.join([*row['aliases'],row['source']])
-        attrs={'id':mark(row),'data-code':row['code'],'data-query':alias_query,'data-keys':'|'.join(designation_key(a) for a in row['aliases']),
-               'data-source':row['source'],'data-sources':row['source'],'data-status':'Callout without drawing dimensions','data-kind':row['status'],'data-availability':'source'}
-        evidence=f'<a href="{ESC(row["proof"])}">{ESC(row["source"])}</a>' if row['proof'] else ESC(row['source'])
-        alias=next((a for a in [row['code'],*row['aliases']] if designation_key(a) in native_by_alias),None)
-        if alias:
-            linked_evidence+=1
-            matches=native_by_alias[designation_key(alias)]
-            link=matches[0]['recordUrl'] if len(matches)==1 else CATALOG+'?'+urlencode({'q':alias,'availability':'dwg'})
-            label='View matching '+ESC(row['code'])+(' DWG' if len(matches)==1 else ' DWGs')
-            description=('Sign callout in this drawing.' if row.get('callout') else 'This drawing records the designation.')
-            hint=f'{description} <a class="cad-matching" href="{ESC(link)}">{label}</a> from another source.'
-            attrs['data-availability']='matched'
-            action=(download(matches[0]['file'],'DWG',matches[0]['bytes']) if len(matches)==1
-                    else f'<span class="cad-unavailable">{len(matches)} matching DWGs</span>')
-        else:
-            unmatched_codes.add(designation_key(row['code']))
-            hint='No recoverable sign face in this drawing.'
-            action='<span class="cad-unavailable">Source record only</span>'
-        if row['reason']:hint+=' '+ESC(row['reason'])
-        props=' '.join(f'{k}="{ESC(v)}"' for k,v in attrs.items())
-        rows.append(f'<li {props}><div><strong class="cad-code"><a href="{ESC(row["url"])}">{ESC(row["code"])}</a></strong>'
-                    f'<div class="cad-spec">{evidence} · {ESC(row["status"])}</div><small>{hint}</small></div>'
-                    +action+'</li>')
-    release['coverage']={'downloadableDesignations':len(by_code),'individualDrawings':len(records),
-                         'drawingCalloutRecords':len(unavailable),'sourceOnlyRecords':len(unavailable)-linked_evidence,
-                         'calloutRecordsWithMatchingDWG':linked_evidence,
-                         'sourceOnlyDesignationsWithoutDWG':sorted(unmatched_codes)}
-    qa=[]
     reference=release.get('standardReference')
-    if reference:
-        qa.append(f'<a download href="{ESC(file_url(reference["file"]))}">California and federal sign size references (ZIP, {size(reference["bytes"])})</a>')
-    qa_files=[('CAD-SIGN-VISUAL-REVIEW.pdf','Full catalog visual review (PDF)'),
-              ('CAD-VISUAL-CHECKS.json','Full catalog checks (JSON)'),
-              ('VISUAL-SIGN-CHECKS.pdf','Visual sign checks (PDF)'),
-              ('sample-checks.json','QA sample results (JSON)'),
-              ('INSERT-CHECK.json','Drawing insertion checks (JSON)'),
-              ('LADOT-LEGEND-CHECKS.json','Legend assembly checks (JSON)')]
-    for name,label in qa_files:
-        if (Path('public/downloads/sign-blocks-qa')/name).is_file():
-            qa.append(f'<a href="{BASE}/downloads/sign-blocks-qa/{name}">{label}</a>')
-    qa_links=(' · '+' · '.join(qa)) if qa else ''
     example_files=[('LADOT-SIGN-LEGEND-EXAMPLE.zip','Two-sign legend'),('LADOT-SIGN-LEGEND-THREE-TABLES.zip','Three-table legend'),
                    ('LADOT-SIGN-LEGEND-IMPORTED-SHEETS.zip','Legend from imported sheets')]
     examples=[f'<a download href="{BASE}/downloads/sign-blocks-qa/{name}">{label} (ZIP)</a>' for name,label in example_files
               if (Path('public/downloads/sign-blocks-qa')/name).is_file()]
+    standard_link=(f'<p><a download href="{ESC(file_url(reference["file"]))}">California and federal sign size references (ZIP, {size(reference["bytes"])})</a></p>' if reference else '')
     legend_examples='<p id="legend-examples">'+' · '.join(examples)+'</p>' if examples else ''
     source_links=' · '.join(f'<a href="{BASE}/signs/cad/sources/{key}/">{ESC(name)}</a>' for key,(name,_) in LIBRARIES.items()
                            if (root/'signs/cad/sources'/(key+'.md')).exists())
@@ -359,15 +254,12 @@ def write_pages(root, lookup, release):
           download(release['bundle'],'All individual drawings · ZIP',release['bundleBytes'],'SOCAL-SIGN-BLOCKS.zip'))
     controls=(f'<form class="cad-find" hidden><label>Search blocks<input type="search" name="q" placeholder="Sign code, description or size (24 × 24)"></label>'
               '<details class="cad-filter-options"><summary>Filters</summary><div class="cad-filter-grid">'
-              f'<label>Drawing source<select name="source"><option value="">All sources</option>{options([*(label for r in records for label in r["sourceLabels"]),*(r["source"] for r in unavailable)])}</select></label>'
-              f'<label>Size evidence<select name="size"><option value="">All sizes</option>{options([*(r.get("sizeStatus") or "Size evidence unavailable" for r in records),*(["Callout without drawing dimensions"] if unavailable else [])])}</select></label>'
-              f'<label>Designation<select name="kind"><option value="">All designations</option>{options([*(r["matchStatus"] for r in records),*(r["status"] for r in unavailable)])}</select></label>'
-              '<label>Availability<select name="availability"><option value="">All records</option><option value="dwg">Individual DWGs</option><option value="matched">Callout with matching DWG</option><option value="source">Source record only</option></select></label>'
+              f'<label>Drawing source<select name="source"><option value="">All sources</option>{options([label for r in records for label in r["sourceLabels"]])}</select></label>'
+              f'<label>Size basis<select name="size"><option value="">All sizes</option>{options([r.get("sizeStatus") for r in records])}</select></label>'
+              f'<label>Designation<select name="kind"><option value="">All designations</option>{options([r["matchStatus"] for r in records])}</select></label>'
               '</div></details><button type="reset" hidden>Clear</button></form>')
     about=f'{len(by_code):,} designations · {count:,} individual DWGs'
     if release.get('format'):about+=' · '+ESC(release['format'])
-    coverage=(f'<p class="cad-coverage"><a href="?availability=matched">{linked_evidence:,} callouts with matching DWGs</a> · '
-              f'<a href="?availability=source">{len(unmatched_codes):,} designations without a DWG</a></p>')
     usage=(f'Drawing units · {ESC(units)}. Insertion point · {ESC(release["basepoint"])}. '
            'Each individual drawing holds one sign block and its code as MTEXT, sized to the LADOT plan sign legend cell. '
            'The master contains the true-size named blocks for browsing and detail work. '
@@ -377,8 +269,7 @@ def write_pages(root, lookup, release):
           f'{controls}<p class="cad-count" role="status" aria-live="polite">{about}</p>'
           '<ul class="cad-records">'+''.join(rows)+'</ul>'
           '<div class="cad-paging" hidden><button type="button" data-prev>Previous</button><button type="button" data-next>Next</button></div>'+
-          f'<details class="cad-source-list"><summary>Sources, examples and size notes</summary>{legend_examples}<p>{usage}</p>{coverage}<p>{source_links}</p>'
-          f'<p class="cad-foot"><a href="{ASSETS}manifest.json" download>File checksums</a>{qa_links}</p></details></section>'
+          f'<details class="cad-source-list"><summary>Sources, examples and size notes</summary>{legend_examples}<p>{usage}</p><p>{source_links}</p>{standard_link}</details></section>'
           f'\n\n<script src="{BASE}/js/cad-downloads.js" defer></script>\n')
     index=root/'signs/cad/index.md';index.parent.mkdir(parents=True,exist_ok=True)
     index.write_text('---\ntitle: CAD sign block downloads\ntableOfContents: false\n---\n\n'+body)

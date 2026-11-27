@@ -24,7 +24,7 @@ const context={window,document,URL,location:{origin:'https://example.org'},
 vm.runInNewContext(await read('public/js/search.js'),context);
 const {direct,designation}=window.SSSSearch;
 const sourceInventory=await read('.standards/docs/signs/cad/sources/fp-signs.md');
-assert.match(sourceInventory,/href="[^"]*cad-sign-evidence.json"/);
+assert.doesNotMatch(sourceInventory,/Example handles|drawing evidence/i);
 const escaped=value=>value.replaceAll('&','&amp;').replaceAll('"','&quot;');
 const pages=new Map();
 async function page(url){

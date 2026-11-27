@@ -95,18 +95,10 @@ assert {r['id']:(r['file'],r['sha256']) for r in options}=={r['id']:(r['file'],r
 for view in (browser,chart):
     assert len(view.xpath('//dialog[@data-cart-dialog]'))==1
     assert view.xpath('//*[@data-cart-open]') and view.xpath('//*[@data-cart-download]')
-example=browser.xpath('//*[@id="block-evidence-3346-signs-14-15-r1-1"]')[0]
-assert 'Sign callout in this drawing.' in example.text_content()
-targets=example.xpath('.//a[@class="cad-matching"]/@href')
-assert len(targets)==1 and targets[0] in {BASE+'/signs/cad/#block-official-r1-1',BASE+'/signs/cad/?q=R1-1&availability=dwg'}
-assert example.get('data-availability')=='matched' and 'Source record only' not in example.text_content()
-if '#block-official-r1-1' in targets[0]:
-    assert example.xpath('./a[@download]/@href')==[local_asset(next(r['file'] for r in manifest['records'] if r['id']=='official-r1-1'))]
-assert len(browser.xpath('//li[@data-availability="matched"]//a[@class="cad-matching"]'))==manifest['coverage']['calloutRecordsWithMatchingDWG']
-unmatched=browser.xpath('//li[@data-availability="source"]')
-assert len(unmatched)==manifest['coverage']['sourceOnlyRecords'] and all(not row.xpath('.//a[@download]') for row in unmatched)
-for link in browser.xpath('//p[@class="cad-foot"]/a[contains(@href,"/sign-blocks-qa/")]/@href'):
-    assert (dist/unquote(link.removeprefix(BASE+'/'))).is_file(),link
+text=browser.getroot().text_content()
+for meta in ('Source and size evidence','Size evidence','File checksums','Source record only','CAD evidence','Reopened after DWG conversion'):
+    assert meta not in text,meta
+assert not browser.xpath('//*[contains(@class,"cad-evidence")]')
 site_bytes=sum(p.stat().st_size for p in dist.rglob('*') if p.is_file())
 assert site_bytes<=1_000_000_000,f'Published site exceeds the 1 GB GitHub Pages limit: {site_bytes:,} bytes'
 print(f'Verified {len(cards)} native DWG downloads, master, ZIP, SHA-256, sign routes and variant anchors; complete site {site_bytes:,} bytes.')

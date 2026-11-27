@@ -161,7 +161,7 @@ def home_cad():
     body = ''.join(f'<a href="{BASE}/{url}"><b>{escape(n)}</b><strong>{escape(t)}</strong><span>{escape(d)}</span></a>'
                    for t, url, n, d in cards)
     return ('<section class="home-cad" aria-labelledby="home-cad-title"><h2 id="home-cad-title">CAD blocks</h2>'
-            '<p>Every drawing opens as block inserts on standard layers, checked by two independent DWG readers.</p>'
+            '<p>Every drawing opens as block inserts on standard layers.</p>'
             f'<div class="home-cad-grid">{body}</div></section>')
 
 

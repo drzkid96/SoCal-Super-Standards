@@ -300,10 +300,10 @@ def publish(rows):
     section['blocks'] = rows + others
     order = list(dict.fromkeys(g for g, _ in GROUPS))
     section['groups'] = list(dict.fromkeys([g for g in order if any(r['group'] == g for r in section['blocks'])] + section['groups']))
-    section['note'] = ('Caltrans 2026 electrical legend symbols (Standard Plans ES-1A, ES-1B and ES-1C, read from the official DGN '
-                       'sheets) at plotted size: one unit = one plotted inch, insert at the drawing scale (x40 at 1" = 40\'), base '
-                       'point at the Caltrans cell origin. LA plan-library blocks (PM-, SG-, SN-, SV-, from the Westwood corridor signal '
-                       'plan and topographic survey) are in feet at plan size, insert at 1; most are dynamic with existing, proposed, '
+    section['note'] = ('Caltrans 2026 electrical legend symbols (Standard Plans ES-1A, ES-1B and ES-1C) '
+                       'at plotted size: one unit = one plotted inch, insert at the drawing scale (x40 at 1" = 40\'), base '
+                       'point at the Caltrans cell origin. LA plan-library blocks (PM-, SG-, SN-, SV-) '
+                       ' are in feet at plan size, insert at 1; most are dynamic with existing, proposed, '
                        'remove and abandon states on E-, P-, R- and A- layers. Every drawing opens as block inserts only, geometry on layer '
                        '0 ByBlock or its state layer.')
     entry = {'label': LIBRARY, 'path': f'downloads/{ROUTE}/{LIBRARY}',

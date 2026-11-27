@@ -1613,7 +1613,7 @@
         "dynamic": "Dynamic block"
       }
     ],
-    "note": "True size, one unit = one foot. Each drawing opens as one block insert on layer P-PMARK; block geometry is a SOLID hatch with its outline on layer 0, ByBlock. Base point: the middle of an arrow's tail, or the bottom center of a word or symbol (top center for yield line triangles, which sit on the line). Caltrans blocks are traced from the 2026 Standard Plans and each matches its printed width, height and area; (R) arrows are mirror images, as the plans direct. Striping details (CT-DET) run along +X for one full repeat, base point at the start of the reference line, in marking colors. Plan-library blocks are flattened to true size and checked against their stated sizes.",
+    "note": "True size, one unit = one foot. Each drawing opens as one block insert on layer P-PMARK; block geometry is a SOLID hatch with its outline on layer 0, ByBlock. Base point: the middle of an arrow's tail, or the bottom center of a word or symbol (top center for yield line triangles, which sit on the line). Caltrans blocks follow the 2026 Standard Plans; (R) arrows are mirror images, as the plans direct. Striping details (CT-DET) run along +X for one full repeat, base point at the start of the reference line, in marking colors. Plan-library blocks are at true size.",
     "preview": "downloads/markings/cad/SSS-PMARK-LIBRARY.webp",
     "downloads": [
       {
@@ -3959,7 +3959,7 @@
         "dynamic": "Dynamic block"
       }
     ],
-    "note": "Caltrans 2026 electrical legend symbols (Standard Plans ES-1A, ES-1B and ES-1C, read from the official DGN sheets) at plotted size: one unit = one plotted inch, insert at the drawing scale (x40 at 1\" = 40'), base point at the Caltrans cell origin. LA plan-library blocks (PM-, SG-, SN-, SV-, from the Westwood corridor signal plan and topographic survey) are in feet at plan size, insert at 1; most are dynamic with existing, proposed, remove and abandon states on E-, P-, R- and A- layers. Every drawing opens as block inserts only, geometry on layer 0 ByBlock or its state layer.",
+    "note": "Caltrans 2026 electrical legend symbols (Standard Plans ES-1A, ES-1B and ES-1C) at plotted size: one unit = one plotted inch, insert at the drawing scale (x40 at 1\" = 40'), base point at the Caltrans cell origin. LA plan-library blocks (PM-, SG-, SN-, SV-) are in feet at plan size, insert at 1; most are dynamic with existing, proposed, remove and abandon states on E-, P-, R- and A- layers. Every drawing opens as block inserts only, geometry on layer 0 ByBlock or its state layer.",
     "downloads": [
       {
         "label": "SSS-SIGNAL-LIBRARY.dwg",
