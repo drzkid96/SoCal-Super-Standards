@@ -1,6 +1,6 @@
 ---
-title: "R31(CA) No Parking 4 5 Am To Am E X C E P T S U N D A Y 2 Hour Parki regulatory sign"
-description: "R31(CA) No Parking 4 5 Am To Am E X C E P T S U N D A Y 2 Hour Parki: Regulatory Signs, series R31. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "R31(CA) No Parking 4 to 5 AM, 2 Hour Parking 9 AM to 6 PM, Except Sunday regulatory sign"
+description: "R31(CA) No Parking 4 to 5 AM, 2 Hour Parking 9 AM to 6 PM, Except Sunday: Regulatory Signs, series R31. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">R31(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>No Parking 4 5 Am To Am E X C E P T S U N D A Y 2 Hour Parki regulatory sign</dd>
-<dt>Legend</dt><dd>NO PARKING 4 5 AM TO AM E X C E P T S U N D A Y 2 HOUR PARKING 9 6PM AM TO E X C E P T S U N D A Y</dd>
+<dt>Descriptor</dt><dd>No Parking 4 to 5 AM, 2 Hour Parking 9 AM to 6 PM, Except Sunday regulatory sign</dd>
+<dt>Legend</dt><dd>NO PARKING 4 TO 5 AM, 2 HOUR PARKING 9 AM TO 6 PM, EXCEPT SUNDAY</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r31">R31 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

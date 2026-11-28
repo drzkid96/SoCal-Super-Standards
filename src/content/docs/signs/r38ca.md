@@ -1,6 +1,6 @@
 ---
-title: "R38(CA) Tow-Away No Parking Pap 4 5 Am To E X C E P T S U N D A Y P regulatory sign"
-description: "R38(CA) Tow-Away No Parking Pap 4 5 Am To E X C E P T S U N D A Y P : Regulatory Signs, series R38. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "R38(CA) Tow-Away No Parking 4 to 5 AM Except Sunday, 2 Hour Parkingregulatory sign"
+description: "R38(CA) Tow-Away No Parking 4 to 5 AM Except Sunday, 2 Hour Parking: Regulatory Signs, series R38. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">R38(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Tow-Away No Parking Pap 4 5 Am To E X C E P T S U N D A Y P regulatory sign</dd>
-<dt>Legend</dt><dd>TOW-AWAY NO PARKING PAP 4 5 AM TO E X C E P T S U N D A Y P F H O R N E T O W 3 E 2 D 1 C - 2 A 0 R 2 S 0 2 HOUR PARKING 9 6PM AM TO E X C E P T S U N D A Y</dd>
+<dt>Descriptor</dt><dd>Tow-Away No Parking 4 to 5 AM Except Sunday, 2 Hour Parkingregulatory sign</dd>
+<dt>Legend</dt><dd>TOW-AWAY NO PARKING 4 TO 5 AM EXCEPT SUNDAY, 2 HOUR PARKING</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r38">R38 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

@@ -1,6 +1,6 @@
 ---
-title: "W86(CA) FLOODING AHEAD TURN AROUND DON’T DROWN W86 work zone sign"
-description: "W86(CA) FLOODING AHEAD TURN AROUND DON’T DROWN W86: Temporary Traffic Control Signs, series W86. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "W86(CA) Flooding Ahead, Turn Around Don’t Drown work zone sign"
+description: "W86(CA) Flooding Ahead, Turn Around Don’t Drown: Temporary Traffic Control Signs, series W86. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">W86(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>FLOODING AHEAD TURN AROUND DON’T DROWN W86 work zone sign</dd>
-<dt>Legend</dt><dd>FLOODING AHEAD TURN AROUND DON’T DROWN</dd>
+<dt>Descriptor</dt><dd>Flooding Ahead, Turn Around Don’t Drown work zone sign</dd>
+<dt>Legend</dt><dd>FLOODING AHEAD, TURN AROUND DON'T DROWN</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#ttc">Temporary Traffic Control Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w86">W86 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road (Minimum)</th><th>Expressway</th><th>Freeway</th><th>Oversized</th></tr></thead><tbody><tr><td>30 x 24</td><td>---</td><td>---</td><td>---</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1281, row FLOODING AHEAD TURN AROUND DON’T DROWN. Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road (Minimum)</th><th>Expressway</th><th>Freeway</th><th>Oversized</th></tr></thead><tbody><tr><td>30 x 24</td><td>---</td><td>---</td><td>---</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1281, row FLOODING AHEAD, TURN AROUND DON'T DROWN. Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 
@@ -30,7 +30,7 @@ tableOfContents: false
 
 ## Governing sections
 
-<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/6h/#6h107ca">CA MUTCD 2026 &sect;6H.107(CA)</a> CAUTION FREQUENT STOPPING AND BACKING STAY BACK 100 FEET Sign (SC21(CA))</li><li><a href="/SoCal-Super-Standards/ca-mutcd/6o/#6o101ca">CA MUTCD 2026 &sect;6O.101(CA)</a> FLOODING AHEAD TURN AROUND DON’T DROWN W86(CA) Sign</li></ul>
+<ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/6h/#6h107ca">CA MUTCD 2026 &sect;6H.107(CA)</a> CAUTION FREQUENT STOPPING AND BACKING STAY BACK 100 FEET Sign (SC21(CA))</li><li><a href="/SoCal-Super-Standards/ca-mutcd/6o/#6o101ca">CA MUTCD 2026 &sect;6O.101(CA)</a> Flooding Ahead, Turn Around Don’t Drown(CA) Sign</li></ul>
 
 <!-- rel-sign -->
 <section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Topics</dt><dd><a class="kchip tchip" href="/SoCal-Super-Standards/topics/temporary-traffic-control/">Temporary traffic control</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/striping-intersections/">Lane lines, striping and intersection markings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/crosswalks/">Crosswalks and pedestrian crossings</a> <a class="kchip tchip" href="/SoCal-Super-Standards/topics/bikeways/">Bikeways and bicycle facilities</a></dd></div><div><dt>Keyword Index</dt><dd><a class="kchip" href="/SoCal-Super-Standards/keywords/#c-ttc">temporary traffic control</a></dd></div></dl></section>

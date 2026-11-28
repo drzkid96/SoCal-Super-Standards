@@ -248,7 +248,8 @@ def update_chart(path,rows):
             label=''
         label_markup=f'<span class="sname">{label}</span>' if label else ''
         searchable=escape((aliases+' '+row['status']+' '+descriptor).lower(),quote=True)
-        card=f'<a class="scard" href="{escape(row["url"])}" data-code="{code}" data-name="{searchable}" data-cat="{cat}" data-ca="plan"{attrs}>{thumb}<span class="scode">{display_code}</span>{label_markup}</a>'
+        variant=' data-variant="1"' if row['status']=='Plan variant' and '#' in row['url'] else ''     # listed on its base sign page, left off the chart
+        card=f'<a class="scard" href="{escape(row["url"])}" data-code="{code}" data-name="{searchable}" data-cat="{cat}" data-ca="plan"{attrs}{variant}>{thumb}<span class="scode">{display_code}</span>{label_markup}</a>'
         prefix=re.match(r'([a-z]+\d*)',row['key'].lower())
         family='om' if row['key'].startswith('OM') else prefix[1] if prefix else ''
         if row['baseOfficial']:

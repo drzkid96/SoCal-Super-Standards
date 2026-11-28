@@ -1,6 +1,6 @@
 ---
-title: "SW41(CA) Snow Ow Slide Area warning sign"
-description: "SW41(CA) Snow Ow Slide Area: Warning Signs and Object Markers, series SW41. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "SW41(CA) Snow Slide Area warning sign"
+description: "SW41(CA) Snow Slide Area: Warning Signs and Object Markers, series SW41. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">SW41(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Snow Ow Slide Area warning sign</dd>
-<dt>Legend</dt><dd>SNOW OW SLIDE AREA</dd>
+<dt>Descriptor</dt><dd>Snow Slide Area warning sign</dd>
+<dt>Legend</dt><dd>SNOW SLIDE AREA</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sw41">SW41 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

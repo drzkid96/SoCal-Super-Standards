@@ -102,6 +102,12 @@ export const onRequest = defineRouteMiddleware(({ url, locals }) => {
     .filter(key => !(local?.entries.some(item => item.type === 'link' && item.href === BASE + '/' + key + '/')))
     .map(key => sectionLink(directoryNames[key][0], BASE + '/' + key + '/', current));
   route.sidebar = [...(local ? [local] : []), group('Browse standards', directory, Boolean(local))];
+  // chapters of the California and federal MUTCD share titles; the browser tab and search results say which book
+  const book = current.startsWith(BASE + '/ca-mutcd/') ? 'CA MUTCD' : current.startsWith(BASE + '/mutcd/') ? 'MUTCD' : '';
+  if (book) {
+    const title = route.head.find(item => item.tag === 'title');
+    if (title && typeof title.content === 'string' && !title.content.startsWith(book)) title.content = book + ' ' + title.content;
+  }
   if (!current.startsWith(manual)) return;
 
   const headings = pages[current]?.headings;

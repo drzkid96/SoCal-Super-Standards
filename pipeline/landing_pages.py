@@ -106,8 +106,30 @@ def signs_landing(root):
     page.write_text(text[:end] + '\n' + nav + '\n' + text[end:])
 
 
+SECURE = re.compile(r'href="http://((?:mutcd\.fhwa\.dot\.gov|onlinepubs\.trb\.org|www\.metro\.net|www\.arb\.ca\.gov'
+                    r'|www\.aqmd\.gov|www\.dot\.ca\.gov|www\.chp\.ca\.gov)[^"]*)"')
+
+
+MD_SECURE = re.compile(r'\]\(http://(mutcd\.fhwa\.dot\.gov|onlinepubs\.trb\.org|www\.metro\.net|www\.arb\.ca\.gov'
+                       r'|www\.aqmd\.gov|www\.dot\.ca\.gov|www\.chp\.ca\.gov)')
+
+
+def secure_links(root):
+    """Hosts that serve HTTPS are linked over HTTPS (the printed address shown on the page is left as printed)."""
+    for page in root.rglob('*.md'):
+        text = page.read_text()
+        if 'http://' in text:
+            new = SECURE.sub(r'href="https://\1"', text)
+            new = MD_SECURE.sub(r'](https://\1', new)
+            if new != text:
+                page.write_text(new)
+
+
 def build(root):
     root = Path(root)
+    secure_links(root)
+    from inline_lists import build as inline_lists
+    inline_lists(root)
     add_cad_tabs(root)
     markings_landing(root)
     signs_landing(root)
