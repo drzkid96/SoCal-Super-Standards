@@ -19,6 +19,8 @@ tableOfContents: false
 <a class="cad-hub-card" href="/SoCal-Super-Standards/signs/cad/"><img src="/SoCal-Super-Standards/signs/R1-1.svg" alt="" loading="lazy"><strong>Sign blocks</strong><span>Legend-cell blocks in FHWA lettering, a legend builder and a PDF sign chart</span></a>
 <a class="cad-hub-card" href="/SoCal-Super-Standards/markings/cad/"><img src="/SoCal-Super-Standards/block-previews/markings/cad/CT-A24C-BIKE-SYMBOL.svg" alt="" loading="lazy"><strong>Pavement marking blocks</strong><span>Caltrans arrows, words, symbols and crosswalks at true size, with proposed, existing and remove states</span></a>
 <a class="cad-hub-card" href="/SoCal-Super-Standards/signals/cad/"><img src="/SoCal-Super-Standards/block-previews/signals/cad/SG-VEHICLE-HEAD-RYG-DYN.svg" alt="" loading="lazy"><strong>Signal and survey blocks</strong><span>Caltrans ES-1 electrical symbols, LA signal plan blocks and survey symbols</span></a>
+<a class="cad-hub-card" href="/SoCal-Super-Standards/cad/dynamic-blocks/"><img src="/SoCal-Super-Standards/block-previews/markings/cad/PM-ARROW-SET-DYN.svg" alt="" loading="lazy"><strong>Dynamic blocks</strong><span>Every marking, signal and survey block folded into dynamic blocks, with masters, defaults and setbacks</span></a>
+<a class="cad-hub-card" href="/SoCal-Super-Standards/markings/line-types/#cad-line-types"><img src="/SoCal-Super-Standards/linetypes/detail-31.svg" alt="" loading="lazy"><strong>Line types</strong><span>Striping, signal and utility line type packages for long runs</span></a>
 <a class="cad-hub-card" href="/SoCal-Super-Standards/details/?agency=LADOT"><img src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0168.webp" alt="" loading="lazy"><strong>LADOT standard drawings</strong><span>Every MPP 531, MPP 521 and Red Book drawing as a DWG, one layout per sheet</span></a>
 </div>
 
@@ -37,8 +39,11 @@ tableOfContents: false
 |---|---|
 | [SSS-ARCH-D-SHEET.dwt](/SoCal-Super-Standards/downloads/cad-tools/SSS-ARCH-D-SHEET.dwt) | 24 x 36 in sheet template (feet) with the SSS layers, NOPLOT and a title strip |
 | [SSS-PLAN-BLACK.ctb](/SoCal-Super-Standards/downloads/cad-tools/SSS-PLAN-BLACK.ctb) | Plot style: every color plots black |
-| [SSS-CALTRANS-STRIPING.lin](/SoCal-Super-Standards/downloads/cad-tools/SSS-CALTRANS-STRIPING.lin) | Line types for every broken Caltrans striping detail, in feet |
-| [SSS-DYNBUILD.zip](/SoCal-Super-Standards/downloads/cad-tools/SSS-DYNBUILD.zip) | Builds every dynamic block family in AutoCAD from one drawing: visibility states (proposed, existing, remove), rotation at the base point, array grips for crosswalks and bike crossings |
+| [SSS-STRIPING-PLAN.lin](/SoCal-Super-Standards/downloads/cad-tools/SSS-STRIPING-PLAN.lin) | Striping line types: lane line, two-way left-turn lane, bike lane, cat track, dotted extension and their remove patterns, in feet |
+| [SSS-SIGNAL-PLAN.lin](/SoCal-Super-Standards/downloads/cad-tools/SSS-SIGNAL-PLAN.lin) | Signal line types: conduit, remove conduit and equipment, substructure, abandon, in feet |
+| [SSS-SURVEY-UTILITY.lin](/SoCal-Super-Standards/downloads/cad-tools/SSS-SURVEY-UTILITY.lin) | Utility and survey line types: painted and plain utilities, fences, slopes, edge of pavement, in plotted inches |
+| [SSS-DYNAMIC-FAMILY-MAP.csv](/SoCal-Super-Standards/downloads/cad-tools/SSS-DYNAMIC-FAMILY-MAP.csv) | Which dynamic block and state each published block becomes |
+| [SSS-DYNBUILD.zip](/SoCal-Super-Standards/downloads/cad-tools/SSS-DYNBUILD.zip) | Builds dynamic blocks in AutoCAD from one drawing: visibility states, rotation at the base point, array grips for crosswalks and bike crossings. See the <a href="/SoCal-Super-Standards/cad/dynamic-blocks/">dynamic block plan</a> |
 | [SSS-CAD-TOOLS.lsp](/SoCal-Super-Standards/downloads/cad-tools/SSS-CAD-TOOLS.lsp) | SSSDYNEXPORT: copies a drawing's dynamic blocks into a clean library with a CSV of their properties |
 
 <details class="cad-more"><summary>Use the libraries in AutoCAD</summary>

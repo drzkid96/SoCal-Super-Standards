@@ -1,0 +1,18 @@
+;; SSS-SIGNAL-PLAN
+;; Signal and electrical line types from LA plan sets (Westwood TS-1, 2025). Units: feet, true length. LTSCALE 1 and PSLTSCALE 0, as on the source sheet.
+;; SoCal Super Standards. Load with LINETYPE > Load > File.
+
+*SIGCOND,Existing signal conduit
+A,12,-1,1,-1
+*R-SIGCOND,Remove signal conduit
+A,0.6,-0.6,0.6,-0.6,0.6,-0.6,0.6,-0.6,0.6,-1.5,1,-1.5
+*R-SIGEQ,Remove signal equipment
+A,0.6,-0.72
+*SUBSTR,Substructure
+A,12,-1,1,-1,1,-1,1,-1
+*ABANDON,Abandon ---- A ----
+A,10,-2,["A",STANDARD,S=2,R=0,X=-1,Y=-1],-2
+*R-PEDPHASE,Remove pedestrian phase
+A,1,-1.6
+*MMDASH,Match and limit dash
+A,0.5,-0.8
