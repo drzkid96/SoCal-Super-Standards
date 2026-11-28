@@ -148,11 +148,27 @@
     editor ??= makeEditor();
     editor.show(kind);
   }
+  // Common pavement legends offered in the text field; / starts the next line along travel.
+  const LEGENDS = ['ONLY', 'BUS/ONLY', 'BIKE/ONLY', 'BUS/LANE', 'BIKE/LANE', 'KEEP/CLEAR', 'STOP', 'XING', 'PED/XING', 'SCHOOL/XING',
+    'SLOW', 'YIELD', 'SIGNAL/AHEAD', 'STOP/AHEAD', 'LEFT/ONLY', 'RIGHT/ONLY', 'TURN/ONLY', 'TAXI/ONLY', 'FIRE/LANE', 'NO/PARKING', 'LOADING/ZONE'];
+  function downloadOne(gen, params, status) {
+    const made = G().make(gen, params);
+    status.textContent = 'Building ' + made.name + '.dwg…';
+    const worker = new Worker(base + '/js/block-library-worker.js');
+    worker.onmessage = ({data}) => {
+      worker.terminate();
+      if (data.error) { status.textContent = 'Download failed. ' + data.error; return; }
+      const url = URL.createObjectURL(new Blob([data.dwg], {type: 'application/acad'})), a = el('a', {href: url, download: made.name + '.dwg'});
+      document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 60000);
+      status.textContent = 'Downloaded ' + made.name + '.dwg: one block, inserted at 0,0 on P-PMARK (AutoCAD 2000).';
+    };
+    worker.postMessage({single: {kind: 'custom', gen, params}, options: {dots: state.options.dots}});
+  }
   function makeEditor() {
     const dialog = el('dialog', {class: 'bc-editor', 'aria-label': 'Block editor'});
     const pick = el('select', {'aria-label': 'Block type'}, ...Object.entries(G().families).map(([k, f]) => el('option', {value: k, text: f.label})));
     const form = el('form', {class: 'bc-form', method: 'dialog'});
-    const preview = el('div', {class: 'bc-preview'}), note = el('p', {class: 'bc-note'}), name = el('p', {class: 'bc-made'});
+    const preview = el('div', {class: 'bc-preview'}), note = el('p', {class: 'bc-note'}), name = el('p', {class: 'bc-made'}), done = el('p', {class: 'bc-note', role: 'status'});
     let params = {};
     function draw() {
       const made = G().make(pick.value, params);
@@ -165,35 +181,62 @@
       form.replaceChildren(...G().families[pick.value].fields.map(([k, label, type, d, range]) => {
         const input = type === 'select'
           ? el('select', {name: k}, ...range.map(v => el('option', {value: v, text: v})))
-          : el('input', {type: 'number', name: k, min: range[0], max: range[1], step: range[2]});
+          : type === 'text'
+            ? el('input', {type: 'text', name: k, maxlength: range[0] * 4, list: 'bc-legends', autocomplete: 'off', spellcheck: 'false', style: 'text-transform:uppercase'})
+            : el('input', {type: 'number', name: k, min: range[0], max: range[1], step: range[2]});
         input.value = d;
         input.addEventListener('input', () => { params[k] = type === 'number' ? Number(input.value) : input.value; draw(); });
+        if (type === 'text') { const f = field(label, input); f.append(el('datalist', {id: 'bc-legends'}, ...LEGENDS.map(v => el('option', {value: v})))); return f; }
         return field(label, input);
       }));
       draw();
     }
     pick.addEventListener('change', fields);
+    form.addEventListener('submit', e => e.preventDefault());
     dialog.append(el('header', {}, el('h2', {text: 'Block editor'}), el('button', {type: 'button', class: 'bc-close', 'aria-label': 'Close editor', onclick: () => dialog.close()}, '×')),
-      el('div', {class: 'bc-editor-body'}, el('div', {}, field('Block', pick), form), el('div', {}, preview, name, note)),
-      el('div', {class: 'bc-actions'}, el('button', {type: 'button', class: 'bc-primary', onclick: () => { addCustom(pick.value, params); dialog.close(); }}, 'Add to cart')));
+      el('div', {class: 'bc-editor-body'}, el('div', {}, field('Block', pick), form), el('div', {}, preview, name, note, done)),
+      el('div', {class: 'bc-actions'}, el('button', {type: 'button', class: 'bc-primary', onclick: () => { addCustom(pick.value, params); dialog.close(); }}, 'Add to cart'),
+        el('button', {type: 'button', onclick: () => downloadOne(pick.value, {...params}, done)}, 'Download DWG')));
     document.body.append(dialog);
-    return {show(kind) { pick.value = kind; fields(); dialog.showModal(); }};
+    return {show(kind) { pick.value = kind; done.textContent = ''; fields(); dialog.showModal(); }};
   }
 
   // A picture opens a larger view; only the DWG link downloads.
   let viewer;
+  // Block details: base point, visibility states, filled area per color (pipeline/block_info.py)
+  function specRows(info) {
+    const rows = [], unit = info.unit || 'ft';
+    const num = v => (+v).toFixed(2).replace(/\.?0+$/, '');
+    const row = (label, ...cells) => rows.push(el('tr', {}, el('th', {scope: 'row'}, label), el('td', {}, el('div', {class: 'bv-cell'}, ...cells))));
+    const colors = list => {
+      if (!list.length) return [el('span', {class: 'bv-none'}, 'No filled area (line work)')];
+      const out = list.map(([name, hex, a]) => el('span', {class: 'bv-area'},
+        el('i', {class: 'bv-swatch', style: `background:${hex}`}), `${name} · ${num(a)} sq ${unit}`));
+      if (list.length > 1) out.push(el('span', {class: 'bv-area bv-total'}, `Total · ${num(list.reduce((t, c) => t + c[2], 0))} sq ${unit}`));
+      return out;
+    };
+    if (info.base) row('Base point', el('span', {}, info.base), ...(info.placement ? [el('small', {}, info.placement)] : []));
+    if (info.states) row('Visibility states', ...(info.states.length
+      ? info.states.map(s => el('span', {class: 'bv-chip'}, s)) : [el('span', {}, 'One state (static block)')]));
+    if (info.area) row('Filled area', ...colors(info.area));
+    if (info.areaByState) for (const [state, list] of info.areaByState) row(`Filled area · ${state}`, ...colors(list));
+    if (info.size) row('Size', `${num(info.size[0])} × ${num(info.size[1])} ${unit}`);
+    return rows;
+  }
+
   function openViewer(card) {
     if (!viewer) {
       const img = el('img', {alt: ''}), title = el('strong'), name = el('span'), place = el('small', {class: 'block-place'});
       const add = el('button', {type: 'button', class: 'bc-primary'}), dwg = el('a', {download: true}, 'DWG');
       const close = el('button', {type: 'button', 'aria-label': 'Close', class: 'bv-close'}, '×');
-      const box = el('dialog', {class: 'block-viewer', 'aria-label': 'Block preview'},
-        close, el('div', {class: 'bv-pic'}, img), el('div', {class: 'bv-text'}, title, name, place, el('div', {class: 'bc-actions'}, add, dwg)));
+      const spec = el('table', {class: 'bv-spec'});
+      const box = el('dialog', {class: 'block-viewer', 'aria-label': 'Block details'},
+        close, el('div', {class: 'bv-pic'}, img), el('div', {class: 'bv-text'}, title, name, place, spec, el('div', {class: 'bc-actions'}, add, dwg)));
       close.addEventListener('click', () => box.close());
       box.addEventListener('click', e => { if (e.target === box) box.close(); });
       add.addEventListener('click', () => { toggle(add.dataset.code); add.textContent = has(add.dataset.code) ? 'In cart · remove' : 'Add to cart'; });
       document.body.append(box);
-      viewer = {box, img, title, name, place, add, dwg};
+      viewer = {box, img, title, name, place, spec, add, dwg};
     }
     const code = card.querySelector('[data-block-add]')?.dataset.blockAdd || '';
     viewer.img.src = card.querySelector('img').src;
@@ -201,6 +244,10 @@
     viewer.title.textContent = card.querySelector('figcaption strong')?.textContent || code;
     viewer.name.textContent = card.querySelector('.block-code')?.textContent || '';
     viewer.place.hidden = true;
+    let info = {};
+    try { info = JSON.parse(card.dataset.info || '{}'); } catch (e) { info = {}; }
+    viewer.spec.replaceChildren(...specRows(info));
+    viewer.spec.hidden = !viewer.spec.children.length;
     viewer.add.dataset.code = code;
     viewer.add.hidden = !code;
     viewer.add.textContent = has(code) ? 'In cart · remove' : 'Add to cart';

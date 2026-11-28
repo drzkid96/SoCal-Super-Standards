@@ -14,8 +14,9 @@ ctx.fetch = async url => {
 };
 ctx.location = {href: new URL('js/x.js', root).href};
 vm.createContext(ctx);
+vm.runInContext(fs.readFileSync(new URL('js/pavement-alphabet.js', root), 'utf8'), ctx);
 vm.runInContext(fs.readFileSync(new URL('js/block-generators.js', root), 'utf8'), ctx);
-vm.runInContext(fs.readFileSync(new URL('js/block-library-worker.js', root), 'utf8') + '\nself.__t={blocks,compose,script};', ctx);
+vm.runInContext(fs.readFileSync(new URL('js/block-library-worker.js', root), 'utf8') + '\nself.__t={blocks,compose,script,single};', ctx);
 const index = JSON.parse(fs.readFileSync(new URL('data/cad-block-entities/index.json', root)));
 const design = JSON.parse(fs.readFileSync(new URL('../data/reference/design-blocks.json', root)));
 const codes = Object.values(design).flatMap(s => s.blocks.map(b => b.code));
@@ -31,3 +32,17 @@ assert.ok(lines.length % 2 === 1 || lines.length % 2 === 0);
 assert.ok(dxf.includes('\nDOTS\n'), 'LADOT dots swap missing');
 for (const name of list.map(b => b.name)) assert.ok(dxf.includes('\n2\n' + name + '\n'), 'Missing block ' + name);
 console.log(`Block cart: ${list.length} blocks composed into one library (${(dxf.length / 1e6).toFixed(1)} MB DXF).`);
+
+// Pavement text: every character drawn, base at the bottom center, lines 4 letter heights apart.
+const G = ctx.SSSBlockGenerators;
+assert.equal(Object.keys(ctx.SSSPavementAlphabet).sort().join(''), '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ');
+const only = G.make('pavetext', {text: 'only'});
+assert.equal(only.name, 'PM-TEXT-ONLY-8FT');
+assert.ok(Math.abs(only.bounds[0] + only.bounds[2]) < 1e-6 && Math.abs(only.bounds[1]) < 0.05 && Math.abs(only.bounds[3] - 8) < 0.05, 'ONLY not 8 ft tall, centered on the base');
+assert.equal((only.text.match(/\nHATCH\n/g) || []).length, 4);
+const two = G.make('pavetext', {text: 'BUS/ONLY'});
+assert.ok(Math.abs(two.bounds[3] - 48) < 0.05, 'Second line should end 48 ft up (8 + 32 + 8)');
+const one = ctx.__t.compose(fs.readFileSync(new URL('cad-library/template.dxf.in', root), 'utf8'),
+  await ctx.__t.blocks([{kind: 'custom', gen: 'pavetext', params: {text: 'ONLY'}}], {}), {origin: true});
+assert.ok(one.dxf.includes('\nPM-TEXT-ONLY-8FT\n') && /\$INSUNITS\n70\n2\n/.test(one.dxf), 'Single block drawing should be in feet');
+console.log('Pavement text: ONLY and BUS/ONLY built; single-block drawing composed.');

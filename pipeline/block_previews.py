@@ -3,7 +3,7 @@
 Each DWG is converted with ODA File Converter (so dynamic blocks show the state they were saved in),
 its block insert is drawn (the code label is left out) and the picture is written as SVG to public/block-previews/<route>/<file stem>.svg. Everything is drawn
 as plotted: black on white (white markings print black), green and red fields in their guidance colors.
-The base point shows as a plum marker, with the reference line (and lane line) it sits on in gray.
+Only the block itself is drawn; the base point is described in the block details.
 
   python3 pipeline/block_previews.py [--only CODE ...]   (needs ODAFileConverter, and xvfb-run when headless)
 """
@@ -31,7 +31,7 @@ def convert(folder, out):
     subprocess.run(cmd, check=True, capture_output=True, timeout=1800)
 
 
-def draw(doc, marking, placed=False):
+def draw(doc):
     msp = doc.modelspace()
     ext = bbox.extents(msp)
     if not ext.has_data:
@@ -54,23 +54,6 @@ def draw(doc, marking, placed=False):
         for e in [e for e in blk if e.dxf.get('layer', '').upper() in ('NOPLOT', 'DEFPOINTS')]:
             blk.delete_entity(e)
     ext = bbox.extents(msp)
-    size = max(ext.size.x, ext.size.y)
-    # the base point and its reference lines show when they are near the block; a long setback
-    # (arrows 20 ft before the line) is stated on the card instead of shrinking the picture
-    gap = max(ext.extmin.x - 0, 0 - ext.extmax.x, ext.extmin.y - 0, 0 - ext.extmax.y, 0)
-    near = gap <= 0.5 * size
-    plum = {'true_color': ezdxf.colors.rgb2int((125, 60, 107))}
-    if marking and placed and near:
-        x0, x1 = min(ext.extmin.x, 0) - 0.15 * size, max(ext.extmax.x, 0) + 0.15 * size
-        y0, y1 = min(ext.extmin.y, 0) - 0.1 * size, max(ext.extmax.y, 0) + 0.1 * size
-        msp.add_line((x0, 0), (x1, 0), dxfattribs={'color': 8})
-        msp.add_line((0, y0), (0, y1), dxfattribs={'color': 8})
-    if near:
-        r = 0.035 * size
-        msp.add_circle((0, 0), r, dxfattribs=plum)
-        msp.add_line((-1.8 * r, 0), (1.8 * r, 0), dxfattribs=plum)
-        msp.add_line((0, -1.8 * r), (0, 1.8 * r), dxfattribs=plum)
-    ext = bbox.extents(msp)
     backend = svg.SVGBackend()
     Frontend(RenderContext(doc), backend, config=cfg).draw_layout(msp)
     w, h = ext.size.x, ext.size.y
@@ -80,7 +63,7 @@ def draw(doc, marking, placed=False):
     page = layout.Page(side * (w + 2 * pad) / max(w + 2 * pad, h + 2 * pad), side * (h + 2 * pad) / max(w + 2 * pad, h + 2 * pad),
                        layout.Units.px, margins=layout.Margins.all(side * 0.04))
     text = backend.get_string(page, settings=layout.Settings(fit_page=True, output_coordinate_space=10000))
-    text = text.replace('#808080', '#9a9a9a').replace('#00ff00', '#3c9002').replace('#ffff00', '#d9a400')   # reference lines gray, ACI 3 as guidance green, yellow readable on white   # base marker plum, reference lines gray
+    text = text.replace('#808080', '#9a9a9a').replace('#00ff00', '#3c9002').replace('#ffff00', '#d9a400')   # ACI 3 as guidance green, yellow readable on white
     # pen widths readable at thumbnail size: at least 1.2 percent of the long side
     view = [float(v) for v in re.search(r'viewBox="([^"]+)"', text)[1].split()]
     pen = 0.012 * max(view[2:])
@@ -106,7 +89,7 @@ def build(only=()):
             for row in rows:
                 stem = Path(row['file']).stem
                 doc = ezdxf.readfile(dxf / (stem + '.dxf'))
-                (target / (stem + '.svg')).write_text(draw(doc, route.startswith('markings'), bool(row.get('placement'))))
+                (target / (stem + '.svg')).write_text(draw(doc))
                 done += 1
     return done
 

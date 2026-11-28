@@ -11,15 +11,15 @@
       "family": "Guide",
       "records": 109,
       "file": "guide.zip",
-      "bytes": 2044952,
-      "sha256": "e8b3b3902b59449e4cb08ac1a9c71197ac631c2dad036299f2b3c5caa8f33e7d"
+      "bytes": 1980375,
+      "sha256": "20c1b3b8cc9fe73ccf70d549308f6a77a26e50c1cfd78927e4ddce7a0beb1027"
     },
     {
       "family": "Local and other",
       "records": 133,
       "file": "local-and-other.zip",
-      "bytes": 2816611,
-      "sha256": "48781bef0e677ce21cec7415691cbf0df18655a6b7dbc20be903f5a4c979532e"
+      "bytes": 2681083,
+      "sha256": "cc879c92b16582e8f8d7c419addc0dfef72f91570f192823b43bb2e779643993"
     },
     {
       "family": "Object markers",
@@ -32,29 +32,29 @@
       "family": "Regulatory",
       "records": 459,
       "file": "regulatory.zip",
-      "bytes": 10242381,
-      "sha256": "c701424f8bb502b2132cc664a80c83eaf507cdc4896fa49e97547d4574edb7c5"
+      "bytes": 9844056,
+      "sha256": "1c076a83be53ce9b1c1edb088f9f163651b45301b86bbf1dff1421b14a6c7851"
     },
     {
       "family": "School",
       "records": 15,
       "file": "school.zip",
-      "bytes": 375506,
-      "sha256": "1c4557dd649f93faa2d549db7be4903538edd7551979f6de36b30ba593d067be"
+      "bytes": 365898,
+      "sha256": "48a78e5c575b9fe3ab87ee6840a6c2905fc09ca9dcd6bb80eb62b611eb586330"
     },
     {
       "family": "Temporary traffic control",
       "records": 71,
       "file": "temporary-traffic-control.zip",
-      "bytes": 2713546,
-      "sha256": "758af0bcee844487928a98da7a5b08066cd5d83a372c8c14ea8501565700a9e2"
+      "bytes": 2702598,
+      "sha256": "d19bee6906e0e98e744f05df6a2cf23ddd4250bb8aa43d783da0cc2c8ea78516"
     },
     {
       "family": "Warning",
       "records": 239,
       "file": "warning.zip",
-      "bytes": 4648705,
-      "sha256": "7519796567f36171305a6aab8b12f2742b2e8933e57daf1a901fd62aa44342c1"
+      "bytes": 4650757,
+      "sha256": "5d54c793767e080aaa3f5ee2b8a532d4e7e03615b85e05ab5a23b2e1fb21ae53"
     }
   ],
   "standardReference": {
@@ -69,7 +69,7 @@
   },
   "manifest": {
     "file": "manifest.json",
-    "bytes": 2813412,
-    "sha256": "9b301451f8df29dc908e29e686730893dce2ec24c397f6b0b91d555ea814d978"
+    "bytes": 2813361,
+    "sha256": "90d8ca23a89fae64d0c34179d1f5bc518a60200f5a39ad34d794a695800ef871"
   }
 }

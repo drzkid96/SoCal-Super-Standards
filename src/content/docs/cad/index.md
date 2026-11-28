@@ -5,6 +5,7 @@ tableOfContents: false
 ---
 
 <link rel="stylesheet" href="/SoCal-Super-Standards/js/block-cart.css">
+<script src="/SoCal-Super-Standards/js/pavement-alphabet.js" defer></script>
 <script src="/SoCal-Super-Standards/js/block-generators.js" defer></script>
 <script src="/SoCal-Super-Standards/js/block-cart.js" defer></script>
 

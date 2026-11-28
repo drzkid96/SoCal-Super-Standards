@@ -4,7 +4,7 @@
 // title strip; encoded to DWG in the browser (LibreDWG). The ZIP also holds the original DWG of every
 // block (dynamic grips intact) and SSS-ASSEMBLE.scr, which inserts those originals in AutoCAD at the
 // same positions.
-importScripts('../vendor/atlas/fflate.js', 'block-generators.js');
+importScripts('../vendor/atlas/fflate.js', 'pavement-alphabet.js', 'block-generators.js');
 
 const root = new URL('../', self.location.href);
 const hex = buf => Array.from(new Uint8Array(buf), b => b.toString(16).padStart(2, '0')).join('');
@@ -87,6 +87,17 @@ function compose(template, list, options) {
   if (options.sort === 'code') for (const g of groups) g.items.sort((a, b) => a.label.localeCompare(b.label));
   const placed = [], sheetGroup = [];
   let sheet = 0;
+  if (options.origin) {
+    const b = list[0], [x0, y0, x1, y1] = b.bounds;
+    model.push(ent('INSERT', b.layer, 'AcDbBlockReference', 2, cad(b.name), 10, 0, 20, 0, 30, 0, 41, 1, 42, 1, 43, 1));
+    const values = {RECORDS: records.join(''), BLOCKS: defs.join(''), ENTITIES: model.join(''), NEXT: handle(), COUNT: records.length + 2,
+      EXTMINX: n(x0), EXTMINY: n(y0), LIMMINX: n(x0), LIMMINY: n(y0), EXTMAXX: n(x1), EXTMAXY: n(y1), LIMMAXX: n(x1), LIMMAXY: n(y1), ZERO: 0,
+      CENTERX: n((x0 + x1) / 2), CENTERY: n((y0 + y1) / 2), VHEIGHT: n(Math.max(y1 - y0, (x1 - x0) / 1.4) * 1.1)};
+    return {dxf: template.replace(/@([A-Z]+)@(\n?)/g, (_, key, nl) => {
+      if (!Object.hasOwn(values, key)) throw Error('Unknown template field ' + key);
+      return String(values[key]) + (['RECORDS', 'BLOCKS', 'ENTITIES'].includes(key) ? '' : nl);
+    }), placed};
+  }
   for (const g of groups) {
     let x = 0, y = 0, rowH = 0;
     const newSheet = () => { sheet++; sheetGroup[sheet] = g.name; x = margin; y = H - margin - 1.5 * k; rowH = 0; };
@@ -135,6 +146,15 @@ function script(placed, options) {
   return out.join('\r\n') + '\r\n';
 }
 
+// One edited block as its own drawing: the block inserted once at 0,0 on its layer.
+async function single(item, options) {
+  const list = await blocks([item], options);
+  const template = new TextDecoder().decode(await get(new URL('cad-library/template.dxf.in', root)));
+  const {dxf} = compose(template, list, {...options, origin: true});
+  const {encodeDwg} = await import('../cad-codec/codec.js');
+  return encodeDwg(dxf);
+}
+
 async function build({items, options}) {
   const list = await blocks(items, options);
   if (!list.length) throw Error('The cart is empty.');
@@ -159,6 +179,11 @@ async function build({items, options}) {
 
 self.onmessage = async ({data}) => {
   try {
+    if (data.single) {
+      const dwg = await single(data.single, data.options || {});
+      self.postMessage({dwg: dwg.buffer}, [dwg.buffer]);
+      return;
+    }
     const zip = await build(data);
     self.postMessage({buffer: zip.buffer}, [zip.buffer]);
   } catch (error) {
