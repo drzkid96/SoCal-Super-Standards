@@ -1,4 +1,4 @@
-;;; SSS-DYNBUILD.lsp  ·  SoCal Super Standards dynamic block builder (v3)
+;;; SSS-DYNBUILD.lsp  ·  SoCal Super Standards dynamic block builder (v5)
 ;;;
 ;;; Open SSS-DYNAMIC-SOURCE.dwg, APPLOAD this file, then run:
 ;;;   SSSDYNTEST    builds four samples (turn arrow, continental crosswalk, green bike crossing, a signal head)
@@ -58,19 +58,19 @@
 
 (defun sss:sel (flt / ss)
   ;; objects in the current space (the Block Editor included) matching a filter
-  (cond ((setq ss (ssget "_X" flt)) ss)
-        ((setq ss (ssget "_A" flt)) ss)
+  (cond ((setq ss (ssget "_A" flt)) ss)
+        ((setq ss (ssget "_X" flt)) ss)
         (t nil)))
 
 (defun sss:ss+ (a b / i)
   (cond ((null a) b) ((null b) a)
         (t (setq i 0) (repeat (sslength b) (ssadd (ssname b i) a) (setq i (1+ i))) a)))
 
-;; the parameter a BPARAMETER call just made: the newest Block Editor object whose type names a parameter
-;; ((entlast) does not return Block Editor parameters, which made "Select parameter" fail)
+;; the parameter a BPARAMETER call just made: the new Block Editor object whose type names a parameter.
+;; Block Editor objects live inside the block, so the search uses the editor's own space ("_A"), not "_X".
 (defun sss:ents (/ ss i out)
   (setq out '())
-  (if (setq ss (ssget "_X"))
+  (if (setq ss (ssget "_A"))
     (progn (setq i 0) (repeat (sslength ss) (setq out (cons (ssname ss i) out) i (1+ i)))))
   out)
 
@@ -78,8 +78,6 @@
   (foreach e (sss:ents)
     (if (and (not (member e before)) (wcmatch (strcase (cdr (assoc 0 (entget e)))) "*PARAMETER*"))
       (setq found e)))
-  (if (null found)
-    (foreach e (sss:ents) (if (and (not found) (not (member e before))) (setq found e))))
   (if (null found) (sss:log "    WARN parameter not found after BPARAMETER"))
   found)
 
@@ -87,6 +85,13 @@
   (setq before (sss:ents))
   (sss:cmd args)
   (sss:param before))
+
+;; one build step: an error is logged and the build goes on, so the block is always saved
+(defun sss:step (label fn / r)
+  (setq r (vl-catch-all-apply fn nil))
+  (if (vl-catch-all-error-p r)
+    (progn (sss:log (strcat "    STEP " label " stopped: " (vl-catch-all-error-message r))) (sss:finish) nil)
+    r))
 
 ;; ---------------------------------------------------------------- family list
 (defun sss:dict ()
@@ -156,53 +161,61 @@
   (sss:cmd (list "_.-BEDIT" name))
   (if (/= (getvar "BLOCKEDITOR") 1) (progn (sss:log "  FAIL the Block Editor did not open") (exit)))
   (command "_.ZOOM" "_E")
-  (if (> n 1)
-    (progn
-      (sss:cmd (list "_.BPARAMETER" "_Visibility" (list 0.0 (- (* 1.5 r)) 0.0) "1"))
-      (setq i 0)
-      (foreach st states
-        (setq i (1+ i) tag (strcat "SSS$STATE$" (itoa i)))
-        (sss:cmd (list "_.-BVSTATE" "_New" (car st) "_Hide"))
-        (if (setq ss (sss:state-set tag)) (sss:cmd (list "_.BVSHOW" ss "" "_Current"))
-          (sss:log (strcat "  WARN state " (car st) " has no objects"))))
-      (sss:cmd (list "_.-BVSTATE" "_Set" (car (car states))))
-      (sss:cmd (list "_.-BVSTATE" "_Delete" "VisibilityState0"))))   ; the default state a new parameter adds
   (setq all (sss:sel '((-4 . "<OR") (8 . "SSS$STATE$*") (-4 . "OR>"))))
   ;; length grip and arrays (crosswalks, bike crossings)
   (if (= (sss:get f 72) 1)
-    (progn
+    (sss:step "length" '(lambda ()
       (setq lin (sss:make-param (list "_.BPARAMETER" "_Linear" '(0.0 0.0 0.0) len
                      (if (= axis 0) (list (/ (car len) 2.0) (- (* 2.0 r)) 0.0) (list (- (* 2.0 r)) (/ (cadr len) 2.0) 0.0))
                      "1")))
       (setq sp 0.0)
       (foreach st states (if (> (cadddr st) 0) (setq sp (cadddr st))))
-      (if (and (> sp 0) (setq ss (sss:sel '((8 . "SSS$STATE$*$U")))))
-        (if lin (sss:cmd (list "_.BACTIONTOOL" "_Array" lin ss "" (rtos sp 2 4)))))
-      (if (setq ss (sss:sel '((8 . "SSS$STATE$*$L"))))
+      (if (and lin (> sp 0) (setq ss (sss:sel '((8 . "SSS$STATE$*$U")))))
+        (sss:cmd (list "_.BACTIONTOOL" "_Array" lin ss "" (rtos sp 2 4))))
+      (if (and lin (setq ss (sss:sel '((8 . "SSS$STATE$*$L")))))
         (sss:cmd (list "_.BACTIONTOOL" "_Stretch" lin ""
                        (if (= axis 0) (list (- (car len) 0.5) -2.0 0.0) (list -2.0 (- (cadr len) 0.5) 0.0))
                        (if (= axis 0) (list (+ (car len) 0.5) 14.0 0.0) (list 14.0 (+ (cadr len) 0.5) 0.0))
-                       ss ""))))
+                       ss "")))
       ;; width grip (green bike crossing): stretches the dash and moves the far edge line
       (if (> (car (sss:get f 13)) 0)
         (progn
           (setq w (car (sss:get f 13)))
           (setq wid (sss:make-param (list "_.BPARAMETER" "_Linear" '(0.0 0.0 0.0) (list w 0.0 0.0) (list (/ w 2.0) (- (* 1.5 r)) 0.0) "1")))
-          (if (setq ss (sss:sel '((8 . "SSS$STATE$*$U"))))
-            (sss:cmd (list "_.BACTIONTOOL" "_Stretch" wid "" (list (- w 0.5) -1.0 0.0) (list (+ w 0.5) 3.0 0.0) ss ""))))))
+          (if (and wid (setq ss (sss:sel '((8 . "SSS$STATE$*$U")))))
+            (sss:cmd (list "_.BACTIONTOOL" "_Stretch" wid "" (list (- w 0.5) -1.0 0.0) (list (+ w 0.5) 3.0 0.0) ss "")))))
+      t)))
   ;; flip about the lane center (lane arrows)
   (if (= (sss:get f 71) 1)
-    (progn
+    (sss:step "flip" '(lambda ()
       (setq fx (car (sss:get f 10)))
       (setq flp (sss:make-param (list "_.BPARAMETER" "_Flip" (list fx 0.0 0.0) (list fx (* 2.0 r) 0.0) (list (+ fx r) (* 2.5 r) 0.0))))
-      (if flp (sss:cmd (list "_.BACTIONTOOL" "_Flip" flp all "")))))
+      (if flp (sss:cmd (list "_.BACTIONTOOL" "_Flip" flp all "")))
+      t)))
   ;; rotation about the base point: geometry plus the length and flip grips
-  (setq rot (sss:make-param (list "_.BPARAMETER" "_Rotation" '(0.0 0.0 0.0) (list r 0.0 0.0) "0" (list (* 1.4 r) (* 1.4 r) 0.0))))
-  (setq ss (sss:ss+ (ssadd) all))
-  (if lin (ssadd lin ss))
-  (if wid (ssadd wid ss))
-  (if flp (ssadd flp ss))
-  (if rot (sss:cmd (list "_.BACTIONTOOL" "_Rotate" rot ss "")))
+  (sss:step "rotation" '(lambda ()
+    (setq rot (sss:make-param (list "_.BPARAMETER" "_Rotation" '(0.0 0.0 0.0) (list r 0.0 0.0) "0" (list (* 1.4 r) (* 1.4 r) 0.0))))
+    (setq ss (sss:ss+ (ssadd) all))
+    (if lin (ssadd lin ss))
+    (if wid (ssadd wid ss))
+    (if flp (ssadd flp ss))
+    (if rot (sss:cmd (list "_.BACTIONTOOL" "_Rotate" rot ss "")))
+    t))
+  ;; visibility last, so every grip shows in every state
+  (if (> n 1)
+    (sss:step "visibility" '(lambda ()
+      (sss:cmd (list "_.BPARAMETER" "_Visibility" (list 0.0 (- (* 1.5 r)) 0.0) "1"))
+      (setq i 0)
+      (foreach st states
+        (setq i (1+ i) tag (strcat "SSS$STATE$" (itoa i)))
+        (sss:cmd (list "_.-BVSTATE" "_New" (car st) "_Hide"))
+        (setq ss (sss:state-set tag))
+        (foreach p (list lin wid flp rot) (if p (setq ss (if ss (ssadd p ss) (ssadd p)))))
+        (if ss (sss:cmd (list "_.BVSHOW" ss "" "_Current"))
+          (sss:log (strcat "  WARN state " (car st) " has no objects"))))
+      (sss:cmd (list "_.-BVSTATE" "_Set" (car (car states))))
+      (sss:cmd (list "_.-BVSTATE" "_Delete" "VisibilityState0"))
+      t)))
   ;; temporary layers back to 0
   (if (setq ss (sss:sel '((8 . "SSS$STATE$*")))) (sss:cmd (list "_.CHPROP" ss "" "_LA" "0" "")))
   (sss:cmd (list "_.BSAVE"))
@@ -252,7 +265,7 @@
 ;; ---------------------------------------------------------------- run
 (defun sss:run (pick / fams vars old done failed r)
   (setq *sss-log* (open (strcat (getvar "DWGPREFIX") "SSS-DYNBUILD.log") "a"))
-  (sss:log (strcat "---- SSS-DYNBUILD v4  " (menucmd "M=$(edtime,$(getvar,date),YYYY-MO-DD HH:MM)")
+  (sss:log (strcat "---- SSS-DYNBUILD v5  " (menucmd "M=$(edtime,$(getvar,date),YYYY-MO-DD HH:MM)")
                    "  AutoCAD " (getvar "ACADVER")))
   (sss:bclose-discard)
   (setq vars '("CMDECHO" "FILEDIA" "CMDDIA" "EXPERT" "ATTREQ" "OSMODE" "INSUNITS" "CLAYER" "PICKFIRST"
@@ -287,5 +300,5 @@
 (defun c:SSSDYNBUILD () (sss:run nil))
 (defun c:SSSDYNONE (/ n) (if (/= "" (setq n (getstring T "\nBlock name (for example STOP or TURN ARROW): "))) (sss:run (list (strcase n)))))
 
-(princ "\nSSS-DYNBUILD v4 loaded. SSSDYNTEST builds four samples; SSSDYNBUILD builds them all.")
+(princ "\nSSS-DYNBUILD v5 loaded. SSSDYNTEST builds four samples; SSSDYNBUILD builds them all.")
 (princ)
