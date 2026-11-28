@@ -19,8 +19,9 @@ for url,rows in by_page.items():
     file=dist/url.removeprefix(BASE).strip('/')/'index.html'
     doc=html.parse(str(file))
     notes={' '.join(el.text_content().split()) for el in doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," detail-description ")]')}
+    landing=url==BASE+'/markings/'      # the marking landing shows each card's own facts; its reading note lives in search
     for row in rows:
-        assert ' '.join(row['description'].split()) in notes,(row['url'],row['description'][:60])
+        assert landing or ' '.join(row['description'].split()) in notes,(row['url'],row['description'][:60])
         if row['type'] in ('Figure','Table','Agency sheet'):
             assert (dist/row['full'].removeprefix(BASE+'/')).is_file(),row['full']
 for route,dest in read('.standards/redirects.json').items():
