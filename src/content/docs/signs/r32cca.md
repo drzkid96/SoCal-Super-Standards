@@ -1,6 +1,6 @@
 ---
-title: "R32C(CA) 2 Hour Parking 8Am To6Pm District 7 Permits Exempt regulatory sign"
-description: "R32C(CA) 2 Hour Parking 8Am To6Pm District 7 Permits Exempt: Regulatory Signs, series R32. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "R32C(CA) 2 Hour Parking 8 AM to 6 PM, District 7 Permits Exempt regulatory sign"
+description: "R32C(CA) 2 Hour Parking 8 AM to 6 PM, District 7 Permits Exempt: Regulatory Signs, series R32. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">R32C(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>2 Hour Parking 8Am To6Pm District 7 Permits Exempt regulatory sign</dd>
-<dt>Legend</dt><dd>2 HOUR PARKING 8AM TO6PM DISTRICT 7 PERMITS EXEMPT</dd>
+<dt>Descriptor</dt><dd>2 Hour Parking 8 AM to 6 PM, District 7 Permits Exempt regulatory sign</dd>
+<dt>Legend</dt><dd>2 HOUR PARKING 8 AM TO 6 PM, DISTRICT 7 PERMITS EXEMPT</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r32">R32 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
@@ -33,5 +33,5 @@ tableOfContents: false
 <ul class="ments"><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b52">CA MUTCD 2026 &sect;2B.52</a> Parking, Standing, and Stopping Signs (R7 and R8 Series)</li><li><a href="/SoCal-Super-Standards/ca-mutcd/2b/#2b110ca">CA MUTCD 2026 &sect;2B.110(CA)</a> No Loitering, Camping, Vending or Parking of Vehicles 30 Feet or Longer Sign (S22(CA))</li></ul>
 
 <!-- rel-sign -->
-<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r32ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r32ca.webp" alt="R32(CA)"><span><b>R32(CA)</b> 2 Hour Parking 7 6Pm Am To Except Sunday…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r32bca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r32bca.webp" alt="R32B(CA)"><span><b>R32B(CA)</b> No Parking 4 To 7 Am 2 Hour Parking 7 6Pm Am…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r32dca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r32dca.webp" alt="R32D(CA)"><span><b>R32D(CA)</b> 30 Minute Parking 2Am To6Am District 3…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r32eca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r32eca.webp" alt="R32E(CA)"><span><b>R32E(CA)</b> 2 Hour Parking 8Am To4Pm Passenger Loading…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r32fca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r32fca.webp" alt="R32F(CA)"><span><b>R32F(CA)</b> 2 Hour Parking 8Am To6Pm Motorcycle Parking…</span></a></div></dd></div></dl></section>
+<section class="xidx-wrap rel-sign" data-pagefind-weight="2"><h2 id="related-signs-and-drawings">Related signs, drawings and topics</h2><dl class="xidx"><div><dt>Related signs &amp; plaques</dt><dd><div class="rsign-grid"><a class="rsign" href="/SoCal-Super-Standards/signs/r32ca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r32ca.webp" alt="R32(CA)"><span><b>R32(CA)</b> 2 Hour Parking 7 AM to 6 PM Except Sunday…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r32bca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r32bca.webp" alt="R32B(CA)"><span><b>R32B(CA)</b> No Parking 4 To 7 Am 2 Hour Parking 7 6Pm Am…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r32dca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r32dca.webp" alt="R32D(CA)"><span><b>R32D(CA)</b> 30 Minute Parking 2Am To6Am District 3…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r32eca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r32eca.webp" alt="R32E(CA)"><span><b>R32E(CA)</b> 2 Hour Parking 8Am To4Pm Passenger Loading…</span></a><a class="rsign" href="/SoCal-Super-Standards/signs/r32fca/"><img loading="lazy" src="/SoCal-Super-Standards/signs/ca/r32fca.webp" alt="R32F(CA)"><span><b>R32F(CA)</b> 2 Hour Parking 8Am To6Pm Motorcycle Parking…</span></a></div></dd></div></dl></section>
 <!-- /rel-sign -->

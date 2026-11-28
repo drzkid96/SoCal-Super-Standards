@@ -1,6 +1,6 @@
 ---
-title: "R25E(CA) Passenger Loading Only 7Am 7A7 To4Pm School Days 5 Minute Li regulatory sign"
-description: "R25E(CA) Passenger Loading Only 7Am 7A7 To4Pm School Days 5 Minute Li: Regulatory Signs, series R25. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "R25E(CA) Passenger Loading Only 7 AM to 4 PM School Days, 5 Minute Limit regulatory sign"
+description: "R25E(CA) Passenger Loading Only 7 AM to 4 PM School Days, 5 Minute Limit: Regulatory Signs, series R25. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">R25E(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Passenger Loading Only 7Am 7A7 To4Pm School Days 5 Minute Li regulatory sign</dd>
-<dt>Legend</dt><dd>PASSENGER LOADING ONLY 7AM 7A7 TO4PM SCHOOL DAYS 5 MINUTE LIMIT</dd>
+<dt>Descriptor</dt><dd>Passenger Loading Only 7 AM to 4 PM School Days, 5 Minute Limit regulatory sign</dd>
+<dt>Legend</dt><dd>PASSENGER LOADING ONLY 7 AM TO 4 PM SCHOOL DAYS, 5 MINUTE LIMIT</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r25">R25 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

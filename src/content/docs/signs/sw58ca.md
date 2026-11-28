@@ -1,6 +1,6 @@
 ---
-title: "SW58(CA) Watch H For Snow Ow Remov Oval Va Al Equipment warning sign"
-description: "SW58(CA) Watch H For Snow Ow Remov Oval Va Al Equipment: Warning Signs and Object Markers, series SW58. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "SW58(CA) Watch for Snow Removal Equipment warning sign"
+description: "SW58(CA) Watch for Snow Removal Equipment: Warning Signs and Object Markers, series SW58. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">SW58(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Watch H For Snow Ow Remov Oval Va Al Equipment warning sign</dd>
-<dt>Legend</dt><dd>WATCH H FOR SNOW OW REMOV OVAL VA AL EQUIPMENT</dd>
+<dt>Descriptor</dt><dd>Watch for Snow Removal Equipment warning sign</dd>
+<dt>Legend</dt><dd>WATCH FOR SNOW REMOVAL EQUIPMENT</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sw58">SW58 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

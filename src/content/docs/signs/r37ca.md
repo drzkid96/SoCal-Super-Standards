@@ -1,6 +1,6 @@
 ---
-title: "R37(CA) Tow-Away No Stopping Sts 7 9 To Am 4 6 Pm To E X C E P T S U regulatory sign"
-description: "R37(CA) Tow-Away No Stopping Sts 7 9 To Am 4 6 Pm To E X C E P T S U: Regulatory Signs, series R37. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "R37(CA) Tow-Away No Stopping 7 to 9 AM and 4 to 6 PM Except Sunday regulatory sign"
+description: "R37(CA) Tow-Away No Stopping 7 to 9 AM and 4 to 6 PM Except Sunday: Regulatory Signs, series R37. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">R37(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Tow-Away No Stopping Sts 7 9 To Am 4 6 Pm To E X C E P T S U regulatory sign</dd>
-<dt>Legend</dt><dd>TOW-AWAY NO STOPPING STS 7 9 TO AM 4 6 PM TO E X C E P T S U N D A Y F O R T O W E D C A R S P H O N E 3 2 1 - 2 0 2 0 NO PARKING PAP 9AM 4PM TO E X C E P T S U N D A Y</dd>
+<dt>Descriptor</dt><dd>Tow-Away No Stopping 7 to 9 AM and 4 to 6 PM Except Sunday regulatory sign</dd>
+<dt>Legend</dt><dd>TOW-AWAY NO STOPPING 7 TO 9 AM AND 4 TO 6 PM EXCEPT SUNDAY</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r37">R37 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

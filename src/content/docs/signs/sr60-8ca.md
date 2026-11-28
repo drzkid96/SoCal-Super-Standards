@@ -1,6 +1,6 @@
 ---
-title: "SR60-8(CA) Right Lane Buses Taxis Only 6Am - 9Pm Mon - Fri regulatory sign"
-description: "SR60-8(CA) Right Lane Buses Taxis Only 6Am - 9Pm Mon - Fri: Regulatory Signs, series SR60. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "SR60-8(CA) Right Lane Buses and Taxis Only 6 AM to 9 PM Mon to Fri regulatory sign"
+description: "SR60-8(CA) Right Lane Buses and Taxis Only 6 AM to 9 PM Mon to Fri: Regulatory Signs, series SR60. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">SR60-8(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Right Lane Buses Taxis Only 6Am - 9Pm Mon - Fri regulatory sign</dd>
-<dt>Legend</dt><dd>RIGHT LANE BUSES TAXIS ONLY 6AM - 9PM MON - FRI</dd>
+<dt>Descriptor</dt><dd>Right Lane Buses and Taxis Only 6 AM to 9 PM Mon to Fri regulatory sign</dd>
+<dt>Legend</dt><dd>RIGHT LANE BUSES AND TAXIS ONLY 6 AM TO 9 PM MON TO FRI</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-sr60">SR60 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

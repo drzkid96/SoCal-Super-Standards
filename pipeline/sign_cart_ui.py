@@ -1,5 +1,6 @@
 """Select verified sign blocks from the chart, CAD search, or sign record."""
 from html import escape, unescape
+from collections import defaultdict
 from pathlib import Path
 import json
 import re
@@ -75,6 +76,8 @@ def write_options(records):
 
 def chart_tiles(content,by_url):
     seen=set()
+    dropped=defaultdict(set)      # codes of plan variants left off the chart, by base sign page
+    same=defaultdict(set)         # codes of other drawings on a card's own sign page
     speed_records={}
     for group in by_url.values():
         for rec in group:
@@ -126,8 +129,12 @@ def chart_tiles(content,by_url):
             attribute=' data-aliases="'+ESC('|'.join(sorted(names)))+'"'
             card=card.replace(old[0],attribute,1) if old else card.replace(' href=',attribute+' href=',1)
         choices=by_url.get(url)
+        if choices:seen.update(r['id'] for r in choices)
+        if 'data-variant="1"' in card:      # the chart shows each sign once; variants stay on the sign page
+            own=re.search(r' data-aliases="([^"]*)"',card)
+            dropped[url.split('#')[0]].update(set(unescape(own[1]).split('|')) if own else set())
+            return ''
         if not choices:return card
-        seen.update(r['id'] for r in choices)
         if url==BASE+'/signs/r2-1/':
             return speed_tiles()
         choices=[r for r in choices if not posted_speed(r)]
@@ -146,12 +153,22 @@ def chart_tiles(content,by_url):
                 card=re.sub(r'<span class="sname">[^<]*</span>',lambda _:legend,card)
             else:
                 card=card.replace('</a>',legend+'</a>')
-        alt=''
-        if len(choices)>1:
-            alt=(f'<details class="sign-variants"><summary>{len(choices)-1} more variant'+('s' if len(choices)>2 else '')+'</summary>'
-                 +''.join(checkbox(r,True) for r in choices[1:])+'</details>')
+        alt=''      # other drawings of the same sign stay on its sign page; their codes still find this card
+        same[url].update(a for r in choices[1:] for a in [r['code'],*r['aliases']])
         return '<div class="sign-tile">'+card+'<div class="sign-tile-pick">'+checkbox(main)+alt+'</div></div>'
     content=re.sub(r'<a class="scard[^"]*"[^>]*>[\s\S]*?</a>',tile,content)
+    shown={a.upper() for m in re.finditer(r'<a [^>]*class="scard[^"]*"[^>]*data-aliases="([^"]*)"',content) for a in unescape(m[1]).split('|')}
+    claimed={a.upper() for names in same.values() for a in names}
+    def fold(match):      # codes of dropped variants still find their base sign card, unless another card carries them
+        tag=match[0]
+        url=unescape(re.search(r' href="([^"]+)"',tag)[1])
+        extra={a for a in same.pop(url,set()) if a.upper() not in shown}
+        extra|={a for a in dropped.pop(url,set()) if a.upper() not in shown|claimed}
+        if not extra:return tag
+        old=re.search(r' data-aliases="([^"]*)"',tag)
+        value=' data-aliases="'+ESC('|'.join(sorted(extra|(set(unescape(old[1]).split('|')) if old else set()))))+'"'
+        return tag.replace(old[0],value,1) if old else tag.replace(' href=',value+' href=',1)
+    content=re.sub(r'<a [^>]*class="scard[^"]*"[^>]*>',fold,content)
     missing={r['id'] for rs in by_url.values() for r in rs}-seen
     if missing:raise ValueError('Native drawings absent from sign chart: '+', '.join(sorted(missing)[:10]))
     return content

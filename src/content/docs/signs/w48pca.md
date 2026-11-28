@@ -1,6 +1,6 @@
 ---
-title: "W48P(CA) Exempt 4 2W-5.1-C Tracks warning sign"
-description: "W48P(CA) Exempt 4 2W-5.1-C Tracks: Warning Signs and Object Markers, series W48. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "W48P(CA) Tracks Exempt warning sign"
+description: "W48P(CA) Tracks Exempt: Warning Signs and Object Markers, series W48. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">W48P(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Exempt 4 2W-5.1-C Tracks warning sign</dd>
-<dt>Legend</dt><dd>EXEMPT 4 2W-5.1-C TRACKS</dd>
+<dt>Descriptor</dt><dd>Tracks Exempt warning sign</dd>
+<dt>Legend</dt><dd>TRACKS EXEMPT</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#warning">Warning Signs and Object Markers</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-w48">W48 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

@@ -141,6 +141,8 @@ def run(browser, base, downloads):
     click(picker(stop))
     search('W3-1')
     click(wait.until(lambda _: picker(current)))
+    assert not browser.find_elements(By.CSS_SELECTOR, f'input[data-cart-select="{historic}"]')   # the chart shows each sign once
+    browser.get(base+'signs/w3-1/')      # other drawings of the same sign are picked on its sign page
     if not picker(historic):
         hidden = css(f'input[data-cart-select="{historic}"]')
         click(hidden.find_element(By.XPATH, 'ancestor::details[1]/summary'))

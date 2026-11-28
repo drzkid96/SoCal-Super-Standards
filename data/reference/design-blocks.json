@@ -34,7 +34,8 @@
         "area": 12.8,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Through arrow, 10 ft"
       },
       {
         "code": "CT-A24A-TYPE-I-24FT",
@@ -48,7 +49,8 @@
         "area": 29.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Through arrow, 24 ft"
       },
       {
         "code": "CT-A24A-TYPE-IV-L",
@@ -62,7 +64,8 @@
         "area": 15.2,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Left turn arrow"
       },
       {
         "code": "CT-A24A-TYPE-IV-R",
@@ -76,7 +79,8 @@
         "area": 15.2,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Right turn arrow"
       },
       {
         "code": "CT-A24A-TYPE-VI",
@@ -90,7 +94,8 @@
         "area": 41.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Lane drop arrow, right"
       },
       {
         "code": "CT-A24A-TYPE-VI-MIRROR",
@@ -104,7 +109,8 @@
         "area": 41.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Lane drop arrow, left"
       },
       {
         "code": "CT-A24A-TYPE-VIII",
@@ -118,7 +124,8 @@
         "area": 36.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Through, left and right arrow"
       },
       {
         "code": "CT-A24A-TYPE-I-18FT",
@@ -132,7 +139,8 @@
         "area": 23.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Through arrow, 18 ft"
       },
       {
         "code": "CT-A24A-BIKE-LANE-ARROW",
@@ -146,7 +154,8 @@
         "area": 3.1,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)"
+        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)",
+        "title": "Bike lane arrow"
       },
       {
         "code": "CT-A24A-TYPE-V",
@@ -160,7 +169,8 @@
         "area": 34.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Through arrow, narrow"
       },
       {
         "code": "CT-A24A-TYPE-VII-L",
@@ -174,7 +184,8 @@
         "area": 27.1,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Through and left arrow"
       },
       {
         "code": "CT-A24A-TYPE-VII-R",
@@ -188,7 +199,8 @@
         "area": 27.1,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24A",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Through and right arrow"
       },
       {
         "code": "CT-A24B-RXR",
@@ -202,7 +214,8 @@
         "area": 69.8,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24B",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "Railroad crossing"
       },
       {
         "code": "CT-A24B-TYPE-II-B",
@@ -216,7 +229,8 @@
         "area": 58.3,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24B",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Through, left and right arrow, narrow"
       },
       {
         "code": "CT-A24B-TYPE-II-L",
@@ -230,7 +244,8 @@
         "area": 43.9,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24B",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Through and left arrow, narrow"
       },
       {
         "code": "CT-A24B-TYPE-II-R",
@@ -244,7 +259,8 @@
         "area": 43.9,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24B",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Through and right arrow, narrow"
       },
       {
         "code": "CT-A24B-TYPE-III-B",
@@ -258,7 +274,8 @@
         "area": 74.0,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24B",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Left and right split arrow"
       },
       {
         "code": "CT-A24B-TYPE-III-L",
@@ -272,7 +289,8 @@
         "area": 43.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24B",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Left split arrow"
       },
       {
         "code": "CT-A24B-TYPE-III-R",
@@ -286,7 +304,8 @@
         "area": 43.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24B",
-        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)"
+        "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
+        "title": "Right split arrow"
       },
       {
         "code": "CT-A24C-BIKE-SYMBOL",
@@ -300,7 +319,8 @@
         "area": 5.2,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C",
-        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)"
+        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)",
+        "title": "Bike symbol"
       },
       {
         "code": "CT-A24C-BIKE-SYMBOL-PERSON",
@@ -314,7 +334,8 @@
         "area": 6.4,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C",
-        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)"
+        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)",
+        "title": "Bike symbol with rider"
       },
       {
         "code": "CT-A24C-ISA",
@@ -328,7 +349,8 @@
         "area": 7.1,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C",
-        "placement": "Base at the stall line corner at the stall end; centered in a 9 ft stall"
+        "placement": "Base at the stall line corner at the stall end; centered in a 9 ft stall",
+        "title": "Accessible parking symbol"
       },
       {
         "code": "CT-A24C-DIAMOND",
@@ -342,7 +364,8 @@
         "area": 10.4,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "Diamond (preferential lane)"
       },
       {
         "code": "CT-A24C-SHARROW",
@@ -356,7 +379,8 @@
         "area": 11.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C",
-        "placement": "Base on the curb face; symbol center 11 ft from the curb (CA MUTCD 9E.09, with parking)"
+        "placement": "Base on the curb face; symbol center 11 ft from the curb (CA MUTCD 9E.09, with parking)",
+        "title": "Sharrow"
       },
       {
         "code": "CT-A24C-NUMERAL-2",
@@ -370,7 +394,8 @@
         "area": 8.1,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "Numeral 2"
       },
       {
         "code": "CT-A24C-NUMERAL-5",
@@ -384,7 +409,8 @@
         "area": 9.3,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "Numeral 5"
       },
       {
         "code": "CT-A24C-NUMERAL-3",
@@ -398,7 +424,8 @@
         "area": 8.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "Numeral 3"
       },
       {
         "code": "CT-A24C-NUMERAL-4",
@@ -412,7 +439,8 @@
         "area": 9.9,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "Numeral 4"
       },
       {
         "code": "CT-A24C-NUMERAL-0",
@@ -426,7 +454,8 @@
         "area": 9.7,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24C",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "Numeral 0"
       },
       {
         "code": "CT-A24D-RUNAWAY",
@@ -440,7 +469,8 @@
         "area": 41.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "RUNAWAY"
       },
       {
         "code": "CT-A24D-VEHICLES",
@@ -454,7 +484,8 @@
         "area": 41.7,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "VEHICLES"
       },
       {
         "code": "CT-A24D-YIELD",
@@ -468,7 +499,8 @@
         "area": 23.4,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "YIELD"
       },
       {
         "code": "CT-A24D-SCHOOL",
@@ -482,7 +514,8 @@
         "area": 34.8,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "SCHOOL"
       },
       {
         "code": "CT-A24D-WAIT",
@@ -496,7 +529,8 @@
         "area": 19.0,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "WAIT"
       },
       {
         "code": "CT-A24D-SLOW",
@@ -510,7 +544,8 @@
         "area": 23.5,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "SLOW"
       },
       {
         "code": "CT-A24D-AHEAD",
@@ -524,7 +559,8 @@
         "area": 30.0,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "AHEAD"
       },
       {
         "code": "CT-A24D-TURN",
@@ -538,7 +574,8 @@
         "area": 23.6,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "TURN"
       },
       {
         "code": "CT-A24D-HERE",
@@ -552,7 +589,8 @@
         "area": 25.2,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "HERE"
       },
       {
         "code": "CT-A24D-XING",
@@ -566,7 +604,8 @@
         "area": 21.0,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "XING"
       },
       {
         "code": "CT-A24D-SIGNAL",
@@ -580,7 +619,8 @@
         "area": 31.9,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "SIGNAL"
       },
       {
         "code": "CT-A24D-LEFT",
@@ -594,7 +634,8 @@
         "area": 19.1,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "LEFT"
       },
       {
         "code": "CT-A24D-RIGHT",
@@ -608,7 +649,8 @@
         "area": 25.8,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "RIGHT"
       },
       {
         "code": "CT-A24D-STOP",
@@ -622,7 +664,8 @@
         "area": 22.3,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the limit line at the lane line; legend 8 ft before the line, centered in an 11 ft lane (LADOT S-517.0)"
+        "placement": "Base on the limit line at the lane line; legend 8 ft before the line, centered in an 11 ft lane (LADOT S-517.0)",
+        "title": "STOP"
       },
       {
         "code": "CT-A24D-PED",
@@ -636,7 +679,8 @@
         "area": 18.2,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "PED"
       },
       {
         "code": "CT-A24D-COMPACT",
@@ -650,7 +694,8 @@
         "area": 10.0,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "COMPACT, 4 ft"
       },
       {
         "code": "CT-A24D-BIKE-4FT",
@@ -664,7 +709,8 @@
         "area": 5.6,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "BIKE, 4 ft"
       },
       {
         "code": "CT-A24D-LANE-4FT",
@@ -678,7 +724,8 @@
         "area": 5.7,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24D",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "LANE, 4 ft"
       },
       {
         "code": "CT-A24E-LANE",
@@ -692,7 +739,8 @@
         "area": 22.9,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "LANE"
       },
       {
         "code": "CT-A24E-CLEAR",
@@ -706,7 +754,8 @@
         "area": 27.6,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "CLEAR"
       },
       {
         "code": "CT-A24E-BIKE",
@@ -720,7 +769,8 @@
         "area": 22.3,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "BIKE"
       },
       {
         "code": "CT-A24E-ONLY",
@@ -734,7 +784,8 @@
         "area": 21.7,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "ONLY"
       },
       {
         "code": "CT-A24E-NO",
@@ -748,7 +799,8 @@
         "area": 13.6,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "NO"
       },
       {
         "code": "CT-A24E-KEEP",
@@ -762,7 +814,8 @@
         "area": 23.8,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "KEEP"
       },
       {
         "code": "CT-A24E-BUS",
@@ -776,7 +829,8 @@
         "area": 19.7,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "BUS"
       },
       {
         "code": "CT-A24E-FWY",
@@ -790,7 +844,8 @@
         "area": 15.7,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "FWY"
       },
       {
         "code": "CT-A24E-EXPRS",
@@ -804,7 +859,8 @@
         "area": 29.4,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "EXPRS"
       },
       {
         "code": "CT-A24E-TRAIL",
@@ -818,7 +874,8 @@
         "area": 22.7,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "TRAIL"
       },
       {
         "code": "CT-A24E-HOV",
@@ -832,7 +889,8 @@
         "area": 17.6,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "HOV"
       },
       {
         "code": "CT-A24E-NORTH",
@@ -846,7 +904,8 @@
         "area": 30.4,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "NORTH"
       },
       {
         "code": "CT-A24E-SOUTH",
@@ -860,7 +919,8 @@
         "area": 28.9,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "SOUTH"
       },
       {
         "code": "CT-A24E-EAST",
@@ -874,7 +934,8 @@
         "area": 22.0,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "EAST"
       },
       {
         "code": "CT-A24E-WEST",
@@ -888,7 +949,8 @@
         "area": 23.2,
         "source": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/2026-standard-plans_locked-final-a11y.pdf",
         "sheet": "A24E",
-        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback"
+        "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
+        "title": "WEST"
       },
       {
         "code": "PM-YIELD-LINE-TRIANGLE",
@@ -900,7 +962,8 @@
           3.0
         ],
         "source": "LA signing and striping plan library",
-        "placement": "Base on the yield line at the lane line; first triangle starts at the lane line"
+        "placement": "Base on the yield line at the lane line; first triangle starts at the lane line",
+        "title": "Yield triangle"
       },
       {
         "code": "PM-BIKE-SYMBOL",
@@ -912,7 +975,8 @@
           6.0
         ],
         "source": "LA signing and striping plan library",
-        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)"
+        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)",
+        "title": "Bike symbol, 6 ft"
       },
       {
         "code": "PM-BIKE-ARROW",
@@ -924,7 +988,8 @@
           4.39
         ],
         "source": "LA signing and striping plan library",
-        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)"
+        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)",
+        "title": "Bike lane arrow, LA"
       },
       {
         "code": "CT-DET-1",
@@ -936,7 +1001,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Broken yellow centerline, 40 mph or less"
       },
       {
         "code": "CT-DET-2",
@@ -948,7 +1014,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Broken yellow centerline with markers, 40 mph or less"
       },
       {
         "code": "CT-DET-5",
@@ -960,7 +1027,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Broken yellow centerline, 45 mph or more"
       },
       {
         "code": "CT-DET-6",
@@ -972,7 +1040,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Broken yellow centerline with markers, 45 mph or more"
       },
       {
         "code": "CT-DET-8",
@@ -984,7 +1053,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Broken lane line, 40 mph or less"
       },
       {
         "code": "CT-DET-9",
@@ -996,7 +1066,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Broken lane line with markers, 40 mph or less"
       },
       {
         "code": "CT-DET-9A",
@@ -1008,7 +1079,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Broken lane line with red-clear markers, 40 mph or less"
       },
       {
         "code": "CT-DET-11",
@@ -1020,7 +1092,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Broken lane line, 45 mph or more"
       },
       {
         "code": "CT-DET-12",
@@ -1032,7 +1105,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Broken lane line with markers, 45 mph or more"
       },
       {
         "code": "CT-DET-12A",
@@ -1044,7 +1118,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Broken lane line with red-clear markers, 45 mph or more"
       },
       {
         "code": "CT-DET-15",
@@ -1056,7 +1131,8 @@
           1.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "No-passing line, one direction, 40 mph or less"
       },
       {
         "code": "CT-DET-16",
@@ -1068,7 +1144,8 @@
           2.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "No-passing line, one direction, markers, 40 mph or less"
       },
       {
         "code": "CT-DET-18",
@@ -1080,7 +1157,8 @@
           1.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "No-passing line, one direction, 45 mph or more"
       },
       {
         "code": "CT-DET-19",
@@ -1092,7 +1170,8 @@
           2.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "No-passing line, one direction, markers, 45 mph or more"
       },
       {
         "code": "CT-DET-21",
@@ -1104,7 +1183,8 @@
           1.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Double yellow centerline"
       },
       {
         "code": "CT-DET-22",
@@ -1116,7 +1196,8 @@
           3.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Double yellow centerline with markers"
       },
       {
         "code": "CT-DET-24",
@@ -1128,7 +1209,8 @@
           1.17
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Left edge line"
       },
       {
         "code": "CT-DET-25",
@@ -1140,7 +1222,8 @@
           2.17
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Left edge line with markers"
       },
       {
         "code": "CT-DET-25A",
@@ -1152,7 +1235,8 @@
           2.17
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Left edge line, freeway, with markers"
       },
       {
         "code": "CT-DET-26",
@@ -1164,7 +1248,8 @@
           1.17
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Left edge markers only"
       },
       {
         "code": "CT-DET-27",
@@ -1176,7 +1261,8 @@
           3.33
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Double yellow left edge line"
       },
       {
         "code": "CT-DET-27B",
@@ -1188,7 +1274,8 @@
           1.17
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Right edge line"
       },
       {
         "code": "CT-DET-27C",
@@ -1200,7 +1287,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Dotted edge line extension"
       },
       {
         "code": "CT-DET-28",
@@ -1212,7 +1300,8 @@
           7.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Painted median"
       },
       {
         "code": "CT-DET-29",
@@ -1224,7 +1313,8 @@
           9.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Painted median with markers"
       },
       {
         "code": "CT-DET-31",
@@ -1236,7 +1326,8 @@
           7.33
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Two-way left-turn lane"
       },
       {
         "code": "CT-DET-32",
@@ -1248,7 +1339,8 @@
           7.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Two-way left-turn lane with markers"
       },
       {
         "code": "CT-DET-34",
@@ -1260,7 +1352,8 @@
           2.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Centerline approach, 45 mph or more, markers"
       },
       {
         "code": "CT-DET-34A",
@@ -1272,7 +1365,8 @@
           1.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Centerline approach, 45 mph or more"
       },
       {
         "code": "CT-DET-35",
@@ -1284,7 +1378,8 @@
           2.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Centerline approach, 40 mph or less, markers"
       },
       {
         "code": "CT-DET-35A",
@@ -1296,7 +1391,8 @@
           1.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Centerline approach, 40 mph or less"
       },
       {
         "code": "CT-DET-36",
@@ -1308,7 +1404,8 @@
           3.0
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Exit gore"
       },
       {
         "code": "CT-DET-36A",
@@ -1320,7 +1417,8 @@
           3.0
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Entrance merge gore"
       },
       {
         "code": "CT-DET-36B",
@@ -1332,7 +1430,8 @@
           3.0
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Acceleration lane gore"
       },
       {
         "code": "CT-DET-37",
@@ -1344,7 +1443,8 @@
           1.33
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Lane drop line, freeway exit"
       },
       {
         "code": "CT-DET-37B",
@@ -1356,7 +1456,8 @@
           1.33
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Lane drop line, turn lane"
       },
       {
         "code": "CT-DET-37D",
@@ -1368,7 +1469,8 @@
           1.33
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Lane drop line, roundabout"
       },
       {
         "code": "CT-DET-38",
@@ -1380,7 +1482,8 @@
           2.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Channelizing line with markers"
       },
       {
         "code": "CT-DET-38A",
@@ -1392,7 +1495,8 @@
           1.33
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Channelizing line"
       },
       {
         "code": "CT-DET-38B",
@@ -1404,7 +1508,8 @@
           3.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Exit ramp channelizing line, markers both sides"
       },
       {
         "code": "CT-DET-38D",
@@ -1416,7 +1521,8 @@
           2.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Exit ramp channelizing line, markers one side"
       },
       {
         "code": "CT-DET-39",
@@ -1428,7 +1534,8 @@
           1.0
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Bike lane line"
       },
       {
         "code": "CT-DET-39A",
@@ -1440,7 +1547,8 @@
           1.0
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Bike lane line at intersection, broken"
       },
       {
         "code": "CT-DET-40",
@@ -1452,7 +1560,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Dotted lane line extension"
       },
       {
         "code": "CT-DET-41",
@@ -1464,7 +1573,8 @@
           0.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Dotted centerline extension"
       },
       {
         "code": "CT-DET-42",
@@ -1476,7 +1586,8 @@
           1.83
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Preferential lane line, open access"
       },
       {
         "code": "CT-DET-44A",
@@ -1488,7 +1599,8 @@
           5.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Preferential lane line, no access"
       },
       {
         "code": "CT-DET-44B",
@@ -1500,7 +1612,8 @@
           7.67
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Buffered preferential lane, no access"
       },
       {
         "code": "CT-DET-45",
@@ -1512,7 +1625,8 @@
           11.17
         ],
         "source": "Caltrans 2026 Standard Plans A20 (SSS striping database)",
-        "sheet": "A20"
+        "sheet": "A20",
+        "title": "Wide-buffer preferential lane"
       },
       {
         "code": "CT-A24F-CONTINENTAL",
@@ -1526,7 +1640,8 @@
         "area": 66.0,
         "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
         "sheet": "A24F",
-        "placement": "Base at the curb corner on the near crosswalk edge; the pattern starts with a 1 ft gap at the curb, then a bar"
+        "placement": "Base at the curb corner on the near crosswalk edge; the pattern starts with a 1 ft gap at the curb, then a bar",
+        "title": "Continental crosswalk"
       },
       {
         "code": "CT-A24F-TRIPLE-FOUR",
@@ -1540,7 +1655,8 @@
         "area": 96.0,
         "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
         "sheet": "A24F",
-        "placement": "Base at the curb corner on the near crosswalk edge; the pattern starts with a 2 ft gap at the curb, then a bar"
+        "placement": "Base at the curb corner on the near crosswalk edge; the pattern starts with a 2 ft gap at the curb, then a bar",
+        "title": "Triple-four crosswalk"
       },
       {
         "code": "CT-A24F-LADDER",
@@ -1554,7 +1670,8 @@
         "area": 115.3,
         "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
         "sheet": "A24F",
-        "placement": "Base at the curb corner on the near crosswalk line"
+        "placement": "Base at the curb corner on the near crosswalk line",
+        "title": "Ladder crosswalk"
       },
       {
         "code": "CT-A24F-DIAGONAL",
@@ -1568,7 +1685,8 @@
         "area": 114.6,
         "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
         "sheet": "A24F",
-        "placement": "Base at the curb corner on the near crosswalk line"
+        "placement": "Base at the curb corner on the near crosswalk line",
+        "title": "Diagonal crosswalk"
       },
       {
         "code": "CT-A24F-BASIC",
@@ -1582,7 +1700,8 @@
         "area": 46.3,
         "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
         "sheet": "A24F",
-        "placement": "Base at the curb corner on the near crosswalk line"
+        "placement": "Base at the curb corner on the near crosswalk line",
+        "title": "Standard crosswalk"
       },
       {
         "code": "PM-BIKE-XING-GREEN-5FT",
@@ -1593,7 +1712,8 @@
           5,
           2.0
         ],
-        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb"
+        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb",
+        "title": "Green bike crossing, 5 ft lane"
       },
       {
         "code": "PM-BIKE-XING-GREEN-6FT",
@@ -1604,7 +1724,8 @@
           6,
           2.0
         ],
-        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb"
+        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb",
+        "title": "Green bike crossing, 6 ft lane"
       },
       {
         "code": "PM-BIKE-XING-GREEN-6P5FT",
@@ -1615,7 +1736,8 @@
           6.5,
           2.0
         ],
-        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb"
+        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb",
+        "title": "Green bike crossing, 6.5 ft lane"
       },
       {
         "code": "PM-BIKE-XING-GREEN-7FT",
@@ -1626,7 +1748,8 @@
           7,
           2.0
         ],
-        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb"
+        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb",
+        "title": "Green bike crossing, 7 ft lane"
       },
       {
         "code": "PM-BIKE-XING-GREEN-8FT",
@@ -1637,7 +1760,8 @@
           8,
           2.0
         ],
-        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb"
+        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb",
+        "title": "Green bike crossing, 8 ft lane"
       },
       {
         "code": "PM-KEEP-CLEAR",
@@ -1648,7 +1772,8 @@
           8.0,
           47.98
         ],
-        "placement": "Base on the crosswalk or limit line at the lane line; legend starts 8 ft past the line, centered in an 11 ft lane"
+        "placement": "Base on the crosswalk or limit line at the lane line; legend starts 8 ft past the line, centered in an 11 ft lane",
+        "title": "KEEP CLEAR"
       },
       {
         "code": "PM-BUS-ONLY",
@@ -1659,7 +1784,8 @@
           6.0,
           47.98
         ],
-        "placement": "Base on the crosswalk or limit line at the lane line; legend starts 8 ft past the line, centered in an 11 ft lane"
+        "placement": "Base on the crosswalk or limit line at the lane line; legend starts 8 ft past the line, centered in an 11 ft lane",
+        "title": "BUS ONLY"
       },
       {
         "code": "PM-WAIT-HERE",
@@ -1670,118 +1796,135 @@
           6.33,
           47.98
         ],
-        "placement": "Base on the limit line at the lane line; legend 8 ft before the line, centered in an 11 ft lane (LADOT S-517.0)"
+        "placement": "Base on the limit line at the lane line; legend 8 ft before the line, centered in an 11 ft lane (LADOT S-517.0)",
+        "title": "WAIT HERE"
       },
       {
         "code": "PM-YIELD-LINE-DYN",
         "name": "Yield line; linear grip sets the length, triangles repeat \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-YIELD-LINE-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Yield line"
       },
       {
         "code": "PM-THRU-LEFT-ARROW-DYN",
         "name": "Through and left arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-THRU-LEFT-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Through and left arrow"
       },
       {
         "code": "PM-ARROW-SET-DYN",
         "name": "Arrow set; visibility picks the arrow, five flip grips \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-ARROW-SET-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Arrow set"
       },
       {
         "code": "PM-BIKE-LANE-GREEN-DYN",
         "name": "Green bike lane panel, 7 x 25 ft, bike symbol and arrow; rotation \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-BIKE-LANE-GREEN-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Green bike lane panel, 7 ft"
       },
       {
         "code": "PM-BIKE-LEFT-THRU-ARROW-DYN",
         "name": "Bike left and through arrow; rotation \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-BIKE-LEFT-THRU-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Bike left and through arrow"
       },
       {
         "code": "PM-BIKE-LANE-GREEN-5FT-DYN",
         "name": "Green bike lane panels, 5 x 50 ft, two bike symbols and arrows \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-BIKE-LANE-GREEN-5FT-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Green bike lane panels, 5 ft"
       },
       {
         "code": "PM-LEFT-TURN-CALMING-10FT",
         "name": "Left turn calming curb, 10 ft \u00b7 LA plan library",
         "file": "PM-LEFT-TURN-CALMING-10FT.dwg",
         "group": "Raised elements",
-        "placement": "Base at the upstream end, centered on the element; snap to the centerline or the left turn path"
+        "placement": "Base at the upstream end, centered on the element; snap to the centerline or the left turn path",
+        "title": "Left turn calming curb, 10 ft"
       },
       {
         "code": "PM-LEFT-TURN-CALMING-3FT",
         "name": "Left turn calming bump, 3 ft \u00b7 LA plan library",
         "file": "PM-LEFT-TURN-CALMING-3FT.dwg",
         "group": "Raised elements",
-        "placement": "Base at the upstream end, centered on the element; snap to the centerline or the left turn path"
+        "placement": "Base at the upstream end, centered on the element; snap to the centerline or the left turn path",
+        "title": "Left turn calming bump, 3 ft"
       },
       {
         "code": "PM-CURB-STOP-DYN",
         "name": "Curb stop (wheel stop), 6 ft \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-CURB-STOP-DYN.dwg",
         "group": "Raised elements",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Wheel stop, 6 ft"
       },
       {
         "code": "PM-LEFT-ARROW-DYN",
         "name": "Left turn arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-LEFT-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Left turn arrow"
       },
       {
         "code": "PM-RIGHT-ARROW-DYN",
         "name": "Right turn arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-RIGHT-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Right turn arrow"
       },
       {
         "code": "PM-LEFT-RIGHT-ARROW-DYN",
         "name": "Left and right arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-LEFT-RIGHT-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Left and right arrow"
       },
       {
         "code": "PM-THRU-ARROW-DYN",
         "name": "Through arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-THRU-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Through arrow"
       },
       {
         "code": "PM-THRU-RIGHT-ARROW-DYN",
         "name": "Through and right arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-THRU-RIGHT-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Through and right arrow"
       },
       {
         "code": "PM-MERGE-ARROW-DYN",
         "name": "Lane reduction (merge) arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-MERGE-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
-        "dynamic": "Dynamic block"
+        "dynamic": "Dynamic block",
+        "title": "Merge arrow"
       },
       {
         "code": "PM-LANE-DEFENDER-15FT",
         "name": "Lane defender, 15 ft \u00b7 LA plan library",
         "file": "PM-LANE-DEFENDER-15FT.dwg",
-        "group": "Raised elements"
+        "group": "Raised elements",
+        "title": "Lane defender, 15 ft"
       }
     ],
     "note": "True size, one unit = one foot. Each drawing opens as one block insert on layer P-PMARK; block geometry is a SOLID hatch with its outline on layer 0, ByBlock. Base point: the middle of an arrow's tail, or the bottom center of a word or symbol (top center for yield line triangles, which sit on the line). Caltrans blocks follow the 2026 Standard Plans; (R) arrows are mirror images, as the plans direct. Striping details (CT-DET) run along +X for one full repeat, base point at the start of the reference line, in marking colors. Plan-library blocks are at true size. Green bike crossing dashes (PM-BIKE-XING) repeat every 8 ft along the crossing path (ARRAYPATH). Raised elements are plan outlines at true size.",

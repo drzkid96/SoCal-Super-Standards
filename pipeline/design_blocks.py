@@ -52,7 +52,7 @@ def build(root, lookup):
                 if not drawing.read(6).startswith(b'AC10'):
                     raise ValueError(f'Invalid DWG: {asset}')
             size = row.get('size')
-            label = row['name'] + (f' · {size[0]:g} × {size[1]:g} ft' if size else '') + (f' · {row["dynamic"]}' if row.get('dynamic') else '')
+            label = row.get('title', row['name']) + (f' · {size[0]:g} × {size[1]:g} ft' if size else '') + (f' · {row["dynamic"]}' if row.get('dynamic') else '')
             preview = Path('block-previews') / route / (Path(filename).stem + '.svg')
             if not (Path('public') / preview).is_file():
                 raise ValueError(f'Missing preview picture: {preview} (run pipeline/block_previews.py)')

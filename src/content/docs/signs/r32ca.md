@@ -1,6 +1,6 @@
 ---
-title: "R32(CA) 2 Hour Parking 7 6Pm Am To Except Sunday regulatory sign"
-description: "R32(CA) 2 Hour Parking 7 6Pm Am To Except Sunday: Regulatory Signs, series R32. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "R32(CA) 2 Hour Parking 7 AM to 6 PM Except Sunday regulatory sign"
+description: "R32(CA) 2 Hour Parking 7 AM to 6 PM Except Sunday: Regulatory Signs, series R32. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">R32(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>2 Hour Parking 7 6Pm Am To Except Sunday regulatory sign</dd>
-<dt>Legend</dt><dd>2 HOUR PARKING 7 6PM AM TO EXCEPT SUNDAY</dd>
+<dt>Descriptor</dt><dd>2 Hour Parking 7 AM to 6 PM Except Sunday regulatory sign</dd>
+<dt>Legend</dt><dd>2 HOUR PARKING 7 AM TO 6 PM EXCEPT SUNDAY</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r32">R32 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

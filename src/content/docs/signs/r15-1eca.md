@@ -1,6 +1,6 @@
 ---
-title: "R15-1E(CA) Private R Crossing No Trespassing Right To Pass By Permissio regulatory sign"
-description: "R15-1E(CA) Private R Crossing No Trespassing Right To Pass By Permissio: Regulatory Signs, series R15. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "R15-1E(CA) Private Crossing, No Trespassing, Right to Pass by Permission regulatory sign"
+description: "R15-1E(CA) Private Crossing, No Trespassing, Right to Pass by Permission: Regulatory Signs, series R15. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">R15-1E(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Private R Crossing No Trespassing Right To Pass By Permissio regulatory sign</dd>
-<dt>Legend</dt><dd>PRIVATE R CROSSING NO TRESPASSING RIGHT TO PASS BY PERMISSION SUBJECT TO CONTROL OF OWNER SECTION 1008, CIVIL CODE</dd>
+<dt>Descriptor</dt><dd>Private Crossing, No Trespassing, Right to Pass by Permission regulatory sign</dd>
+<dt>Legend</dt><dd>PRIVATE CROSSING, NO TRESPASSING, RIGHT TO PASS BY PERMISSION</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r15">R15 &middot; Rail and LRT crossings</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

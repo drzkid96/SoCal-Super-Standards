@@ -18,7 +18,9 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     tip.classList.add('on');
   }
   function hide() { cur = null; tip.classList.remove('on'); }
-  document.addEventListener('mouseover', (e) => { const a = e.target.closest && e.target.closest('a.sref, a[data-svg]'); if (a && a.dataset.svg) show(a); else if (cur) hide(); });
+  // One preview at a time: hover previews never show while a viewer or dialog is open, and a click closes them.
+  const busy = () => document.querySelector('dialog[open], .sss-lb.open');
+  document.addEventListener('mouseover', (e) => { const a = e.target.closest && e.target.closest('a.sref, a[data-svg]'); if (a && a.dataset.svg && !busy()) show(a); else if (cur) hide(); });
   document.addEventListener('focusin', (e) => { const a = e.target.closest && e.target.closest('a.sref'); if (a?.dataset.svg) show(a); });
   document.addEventListener('scroll', hide, { passive: true });
 
@@ -46,7 +48,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
   async function showP(a) {
     const k = key(a); if (!k) return;
     if (!PV) await loadPV();
-    if (pvCur !== a) return;
+    if (pvCur !== a || busy()) return;
     const here = location.pathname.slice(BASEP.length) + location.hash;
     const e = PV[k[0]] || PV[k[1]];
     if (!e || !e.i.length || k[0] === here) return;
@@ -58,6 +60,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
     ptip.classList.add('on');
   }
   function hideP() { pvCur = null; clearTimeout(pvTimer); ptip.classList.remove('on'); }
+  document.addEventListener('pointerdown', () => { hide(); hideP(); }, true);
   document.addEventListener('mouseover', (ev) => {
     const a = ev.target.closest && ev.target.closest('a[href]');
     if (!a || a.matches('a.sref, a[data-svg], .dx-card, .sss-navlink') || a.closest('.pv-tip, .sref-tip, .ql-res')) { if (pvCur && a !== pvCur) hideP(); return; }
@@ -571,7 +574,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
       const seen = new Set();
       const root = document.querySelector('main') || document.body;
       root.querySelectorAll('a[href], .sdetail-img img, .ltc-pic img').forEach((el) => {
-        if (el.closest('.sss-lb, .pv-tip, .sref-tip, nav, .rsign-grid, .block-card, .block-viewer')) return;
+        if (el.closest('.sss-lb, .pv-tip, .sref-tip, nav, .rsign-grid, .block-card, .block-viewer, dialog')) return;
         let src = '';
         if (el.tagName === 'A') {
           const href = el.getAttribute('href') || '';

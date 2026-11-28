@@ -1,6 +1,6 @@
 ---
-title: "R38A(CA) Tow-Away No Stopping Sts Topping 7Am To9Am Passenger Loading regulatory sign"
-description: "R38A(CA) Tow-Away No Stopping Sts Topping 7Am To9Am Passenger Loading: Regulatory Signs, series R38. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "R38A(CA) Tow-Away No Stopping 7 AM to 9 AM, Passenger Loading regulatory sign"
+description: "R38A(CA) Tow-Away No Stopping 7 AM to 9 AM, Passenger Loading: Regulatory Signs, series R38. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">R38A(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>Tow-Away No Stopping Sts Topping 7Am To9Am Passenger Loading regulatory sign</dd>
-<dt>Legend</dt><dd>TOW-AWAY NO STOPPING STS TOPPING 7AM TO9AM PASSENGER LOADING ONLY ALL OTHER TIMES 5 MINUTE LIMIT</dd>
+<dt>Descriptor</dt><dd>Tow-Away No Stopping 7 AM to 9 AM, Passenger Loading regulatory sign</dd>
+<dt>Legend</dt><dd>TOW-AWAY NO STOPPING 7 AM TO 9 AM, PASSENGER LOADING</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r38">R38 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>

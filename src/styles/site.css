@@ -1394,3 +1394,21 @@ table.cad-downloads td{vertical-align:middle;padding:.35rem .6rem .35rem 0}
  .mtile strong{font-size:.74rem}
 }
 .landing-actions>a.to-cad{margin-left:auto;border-color:var(--sl-color-accent);color:var(--sl-color-accent)}
+/* Phone widths: nothing wider than the screen */
+@media (max-width:40rem){
+ .sign-chart-options{flex-wrap:wrap}
+ .sign-chart-options .sbtns{min-width:0;max-width:100%}
+ .dx-filters select{max-width:100%;min-width:0;flex:1 1 9rem}
+ .page-navigation select,.section-jump select{max-width:100%;min-width:0}
+ .section-jump{display:flex;flex-wrap:wrap;max-width:100%}
+ details.action-menu > .reference-actions{position:fixed;left:.75rem!important;right:.75rem!important;top:auto;bottom:.75rem;min-width:0}
+}
+
+/* Lettered and numbered provisions printed inline in the source, set as lists */
+.sl-markdown-content ol.ilist{margin:.15rem 0 .7rem 0;padding-left:2.1rem}
+.sl-markdown-content ol.ilist ol.ilist{margin:.25rem 0 .2rem;padding-left:1.6rem}
+.sl-markdown-content ol.ilist>li{margin:.2rem 0;padding-left:.2rem;line-height:1.55}
+.sl-markdown-content ol.ilist>li::marker{font-weight:650;color:var(--sl-color-gray-2)}
+.sl-markdown-content p+ol.ilist{margin-top:-.35rem}
+.prov ol.ilist{padding-left:4.3rem;font-size:.95rem;max-width:90ch}
+.prov ol.ilist ol.ilist{padding-left:1.7rem;font-size:1em}

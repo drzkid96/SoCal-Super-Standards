@@ -87,8 +87,9 @@ for row in extra: verify(row['file'],row['bytes'],row['sha256'])
 native_ids={r['id'] for r in manifest['records']+extra}
 chart_ids=set(chart.xpath('//input[@type="checkbox"]/@data-cart-select'))
 assert chart_ids<=native_ids
-for r in manifest['records']+extra:
-    if r['id'] not in chart_ids:assert r['code'].upper().startswith('R2-1'),r['code']
+chart_aliases={a.upper() for v in chart.xpath('//a[contains(@class,"scard")]/@data-aliases') for a in v.split('|')}
+for r in manifest['records']+extra:      # other drawings and plan variants are picked on their sign page, which the chart links
+    if r['id'] not in chart_ids:assert r['code'].upper().startswith('R2-1') or r['code'].upper() in chart_aliases,r['code']
 assert not chart.xpath('//input[@data-cart-select]/ancestor::a'),'Checkboxes must sit outside the sign detail links'
 options=json.loads((dist/'data/sign-block-options.json').read_text())
 assert {r['id']:(r['file'],r['sha256']) for r in options}=={r['id']:(r['file'],r['sha256']) for r in manifest['records']+extra}

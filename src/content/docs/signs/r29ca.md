@@ -1,6 +1,6 @@
 ---
-title: "R29(CA) No Stopping 7 10 Am To 4 7 To Pm E X C E P T S U N D A Y No regulatory sign"
-description: "R29(CA) No Stopping 7 10 Am To 4 7 To Pm E X C E P T S U N D A Y No : Regulatory Signs, series R29. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
+title: "R29(CA) No Stopping 7 to 10 AM and 4 to 7 PM, No Parking 10 AM to 4 PM, Except Sundayregulatory sign"
+description: "R29(CA) No Stopping 7 to 10 AM and 4 to 7 PM, No Parking 10 AM to 4 PM, Except Sunday: Regulatory Signs, series R29. Sign artwork, sizes, colors, California status, and governing MUTCD sections."
 tableOfContents: false
 ---
 
@@ -10,8 +10,8 @@ tableOfContents: false
 <p class="scode-big">R29(CA)</p>
 <p><span class="badge ca-same">Used in CA MUTCD 2026</span></p>
 <dl>
-<dt>Descriptor</dt><dd>No Stopping 7 10 Am To 4 7 To Pm E X C E P T S U N D A Y No regulatory sign</dd>
-<dt>Legend</dt><dd>NO STOPPING 7 10 AM TO 4 7 TO PM E X C E P T S U N D A Y NO PARKING 10AM 4PM TO E X C E P T S U N D A Y</dd>
+<dt>Descriptor</dt><dd>No Stopping 7 to 10 AM and 4 to 7 PM, No Parking 10 AM to 4 PM, Except Sundayregulatory sign</dd>
+<dt>Legend</dt><dd>NO STOPPING 7 TO 10 AM AND 4 TO 7 PM, NO PARKING 10 AM TO 4 PM, EXCEPT SUNDAY</dd>
 <dt>Type</dt><dd><a href="/SoCal-Super-Standards/signs/#regulatory">Regulatory Signs</a></dd>
 <dt>Series</dt><dd><a href="/SoCal-Super-Standards/signs/#series-r29">R29 &middot; Other</a></dd>
 <dt>Colors</dt><dd>See layout</dd>
