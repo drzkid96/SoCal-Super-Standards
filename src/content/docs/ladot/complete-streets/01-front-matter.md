@@ -48,7 +48,6 @@ sidebar:
 
 ### Page 6 - Table of Contents
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb, signs</div>
 <div class="dtext"><p>Complete Streets Design Guide  </p>
 <p>1. INTRODUCTION 3</p>
 <p>Goals of the Guide  3</p>
@@ -123,7 +122,6 @@ sidebar:
 
 ### Page 7
 
-<div class="pmeta">Topics: crosswalks, bikeways, transit, signals, speed-calming, accessibility, intersections</div>
 <div class="dtext"><p>vi</p>
 <p>  Complete Streets Design Guide</p>
 <p>6. INTERSECTIONS AND CROSSINGS  161</p>

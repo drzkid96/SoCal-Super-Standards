@@ -1,13 +1,13 @@
 ---
 title: "LADOT Drafting Standards for Striping and Signal Plans"
-description: "CAD Standards: February 2005. Full document, page by page, with drawings, OCR text and linked signs."
+description: "CAD Standards: February 2005."
 sidebar:
   order: 0
   label: Overview
 tableOfContents: false
 ---
 
-<div class="srcbar">LADOT &middot; February 2005 &middot; 17 pages</div>
+<div class="srcbar">LADOT &middot; February 2005</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/ladot/cad-standards/01-pages-1-17/">Pages 1-17</a> <span class="src-page">pp 1-17</span></li></ul>
 

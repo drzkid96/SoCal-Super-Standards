@@ -26,7 +26,7 @@ Which values apply depends on who owns the street. On a State highway, the HDM (
 - DIB 94 counts a Class II bike lane and on-street parking as shoulder, and expects at least 4 ft of usable right shoulder unless a sidewalk, Class I or Class IV facility is provided.
 - Both agencies favor the wider lane on the outside where trucks and buses run. BOE E 612.22 says the same for streets with medians or slow traffic, and the opposite (widest lane near the centerline) on undivided, faster streets.
 
-Sources: Caltrans DIB 94 Section 5.3 and Table 5.3; LADOT MPP 531 (02/2023) Lane Widths; City of Los Angeles Complete Street Design Manual E 612.21 ([online](https://completestreetdesignmanual.engineering.lacity.gov/e-600-cross-section-elements/e-610-streets/e-612-width-standards-and-component-arrangements)). Values checked November 18, 2026.
+Sources: Caltrans DIB 94 Section 5.3 and Table 5.3; LADOT MPP 531 (02/2023) Lane Widths; City of Los Angeles Complete Street Design Manual E 612.21 ([online](https://completestreetdesignmanual.engineering.lacity.gov/e-600-cross-section-elements/e-610-streets/e-612-width-standards-and-component-arrangements)).
 
 ## Visual Reference
 

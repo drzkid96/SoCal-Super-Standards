@@ -1,13 +1,13 @@
 ---
 title: "Mobility Plan 2035: An Element of the General Plan"
-description: "Mobility Plan 2035: Adopted September 7, 2016. Full document, page by page, with drawings, OCR text and linked signs."
+description: "Mobility Plan 2035: Adopted September 7, 2016."
 sidebar:
   order: 0
   label: Overview
 tableOfContents: false
 ---
 
-<div class="srcbar">LA Department of City Planning &middot; Adopted September 7, 2016 &middot; 202 pages</div>
+<div class="srcbar">LA Department of City Planning &middot; Adopted September 7, 2016</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/01-pages-1-20/">Pages 1-20</a> <span class="src-page">pp 1-20</span></li><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/02-pages-21-40/">Pages 21-40</a> <span class="src-page">pp 21-40</span></li><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/03-pages-41-60/">Pages 41-60</a> <span class="src-page">pp 41-60</span></li><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/04-pages-61-80/">Pages 61-80</a> <span class="src-page">pp 61-80</span></li><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/05-pages-81-100/">Pages 81-100</a> <span class="src-page">pp 81-100</span></li><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/06-pages-101-120/">Pages 101-120</a> <span class="src-page">pp 101-120</span></li><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/07-pages-121-140/">Pages 121-140</a> <span class="src-page">pp 121-140</span></li><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/08-pages-141-160/">Pages 141-160</a> <span class="src-page">pp 141-160</span></li><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/09-pages-161-180/">Pages 161-180</a> <span class="src-page">pp 161-180</span></li><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/10-pages-181-200/">Pages 181-200</a> <span class="src-page">pp 181-200</span></li><li><a href="/SoCal-Super-Standards/ladot/mobility-plan/11-pages-201-202/">Pages 201-202</a> <span class="src-page">pp 201-202</span></li></ul>
 

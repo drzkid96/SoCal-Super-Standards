@@ -177,6 +177,5 @@ sidebar:
 
 ### Page 38 - Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0038.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0038.webp" alt="LA28 Supplement page 38 Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs"></a><figcaption>LA28 Supplement, page 38.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>CA MUTCD 2026 LA28 Supplement Figure 2D-9(CA)(LA28). LA28 Sign Panel on Destination Signs Comcast Squash Center NEXT RIGHT Rose Bowl USE@ WEST Chapter 2E - Guide Signs - Freeways and Expressways Part 2 Signs - - - - - - - Rose Bowl NEXT EXIT Santa Anita+ Park anta Anita Par USE Baldwin Ave EXIT I Santa Anita Park /f /f Page 38 July 15, 2026 </p></details>

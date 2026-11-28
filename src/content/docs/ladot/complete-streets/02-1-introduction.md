@@ -11,7 +11,6 @@ sidebar:
 
 ### Page 11 - 1. INTRODUCTION
 
-<div class="pmeta">Topics: bikeways, transit, accessibility</div>
 <div class="dtext"><p>Complete Streets Design Guide  1. INTRODUCTION</p>
 <h4>1. INTRODUCTION</h4>
 <h4>Goals of the Guide</h4>
@@ -26,7 +25,6 @@ sidebar:
 
 ### Page 12 - Complete Streets Design
 
-<div class="pmeta">Topics: signals, parking-curb, speed-calming, accessibility</div>
 <div class="dtext"><p>1. INTRODUCTION Complete Streets Design Guide</p>
 <p>will require provisional approval from the appropriate City departments. Overall, the Complete Streets Design Guide seeks to establish the concept of Complete Streets into Los Angeles’ present and future street design so that all stakeholders are able to plan for, implement, and maintain safe and accessible streets for all users.</p>
 <p>The Complete Streets Design Guide accompanies Mobility Plan 2035, an important update to the Mobility Element (formerly Transportation Element) of the City of Los Angeles’ General Plan. Mobility Plan 2035’s five goals – Safety First, World Class Infrastructure, Access for all Angelenos, Informed Choices, and Clean Environments for a Healthy Community – set the policy foundation making Complete Streets a priority in Los Angeles. The Plan’s emphasis on safety, traffic calming and access are key principles that mirror the goals of the Complete Streets Design Guide.</p>
@@ -42,7 +40,6 @@ sidebar:
 
 ### Page 13 - Design Immunity
 
-<div class="pmeta">Topics: crosswalks, bikeways, transit, signals, accessibility, intersections</div>
 <div class="dtext"><p>Complete Streets Design Guide  1. INTRODUCTION</p>
 <h4>Design Immunity</h4>
 <p>Because the design of Complete Streets may involve deviations from traditional engineering standards, it is important to embrace an environment where the many benefits of Complete Streets outweigh the complexities of conventional street design. Design immunity is a powerful defense available to local agencies to defend against tort lawsuits that allege dangerous conditions of public property (e.g., streets and highways). It involves specific statutory requirements set out in section 830.6 of the Government Code. While there is no guarantee in all cases that a judge will determine that a local agency is protected against liability by design immunity, local agencies will be well- positioned if their engineers properly document engineering judgments made in approving the design of projects prior to construction.</p>
@@ -87,7 +84,6 @@ sidebar:
 
 ### Page 15 - Definitions
 
-<div class="pmeta">Topics: transit, parking-curb, intersections</div>
 <div class="dtext"><p>Complete Streets Design Guide  1. INTRODUCTION</p>
 <h4>Definitions</h4>
 <p>City departments and bureaus often have different definitions of elements within the street right-of-way. The following are definitions used in the Co Complete Streets Design Guide. If applicable, where they differ from the definition used by the Bureau of Engineering in its 1970 Street Design Manual, the difference is noted. Terminology in this document generally conforms to that found in U.S. Department of Transportation Federal Highway Administration publications in an attempt to standardize City of Los Angeles terminology and synchronize it with that of other municipalities in the United States.</p>
@@ -106,7 +102,6 @@ sidebar:
 
 ### Page 16 - Median Opening. Per BOE, a gap in a median provided for crossing and turning traffic.
 
-<div class="pmeta">Topics: signals, parking-curb, striping, signs, intersections</div>
 <div class="dtext"><p>1. INTRODUCTION Complete Streets Design Guide</p>
 <p>Flex Zone. The part of the right-of-way – usually the width of a parking lane – adjacent to an existing curb face that can be utilized for roadway uses or for extensions of the Sidewalk Area (curb extensions).</p>
 <p>Frontage Zone. The portion of the Sidewalk Area adjacent to the property line. There is no frontage zone in many residential districts because the pedestrian zone directly adjoins the property line.</p>
@@ -127,7 +122,6 @@ sidebar:
 
 ### Page 17
 
-<div class="pmeta">Topics: parking-curb, striping, intersections</div>
 <div class="dtext"><p>Complete Streets Design Guide  1. INTRODUCTION</p>
 <p>Pedestrian Zone. Also known as the Pedestrian Access Route (PAR), the Pedestrian Zone is a continuous and unobstructed path of travel provided along the Sidewalk Area. The pedestrian zone is intended to be a seamless pathway for wheelchair and white cane users, composed of a firm, stable, and slip-resistant surface (typically concrete). It should be at least 5 feet wide to provide adequate space for two pedestrians to comfortably pass or walk side by side. BOE refers to the paved pedestrian path as the “sidewalk”.</p>
 <p>Raised Landscaped Median. A raised longitudinal space separating the two main directions of traffic, generally with 6-inch curbs and an unpaved, planted surface.</p>
@@ -148,7 +142,6 @@ sidebar:
 
 ### Page 18 - 1. INTRODUCTION Complete Streets Design Guide
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb, speed-calming, signs, intersections</div>
 <div class="dtext"><p>10</p>
 <h4>1. INTRODUCTION Complete Streets Design Guide</h4>
 <h4>Frontage Zone Pedestrian Zone</h4>

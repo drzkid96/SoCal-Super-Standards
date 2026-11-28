@@ -119,7 +119,6 @@ sidebar:
 
 ### Page 45 - Figure 2G-1(LA28). Examples of LA28 Sign Panel Usage on GRN Lane
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0045.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0045.webp" alt="LA28 Supplement page 45 Figure 2G-1(LA28). Examples of LA28 Sign Panel Usage on GRN Lane"></a><figcaption>LA28 Supplement, page 45.</figcaption></figure>
 <div class="dtext"><h4>Figure 2G-1(LA28). Examples of LA28 Sign Panel Usage on GRN Lane</h4>
 <h4>Regulatory Signs and Plaque (Sheet 1 of 3)</h4>
@@ -158,7 +157,6 @@ sidebar:
 
 ### Page 46 - Figure 2G-1(LA28). Examples of LA28 Sign Panel Usage on GRN Lane
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0046.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0046.webp" alt="LA28 Supplement page 46 Figure 2G-1(LA28). Examples of LA28 Sign Panel Usage on GRN Lane"></a><figcaption>LA28 Supplement, page 46.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Figure 2G-1(LA28). Examples of LA28 Sign Panel Usage on GRN Lane Regulatory Signs and Plaque (Sheet 2 of 3) B - Overhead Games Route Network Regulatory Signs PERM IT O NLY   PERMIT LANE ENDS PERM IT ON LY BEGINS 1 M I LE   PERMIT RESTRICTION ENDS PERMIT ONLY   CA MUTCD 2026 LA28 Supplement Chapter 2G - Preferential and Managed Lane Signs (Figures) Part 2 Signs Page 46 July 15, 2026 </p></details>
 
@@ -167,7 +165,6 @@ sidebar:
 
 ### Page 47 - C - Post-Mounted Arterial Street Games Route Network Regulatory S igns and Plaques
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0047.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0047.webp" alt="LA28 Supplement page 47 C - Post-Mounted Arterial Street Games Route Network Regulatory S igns and Plaques"></a><figcaption>LA28 Supplement, page 47.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Figure 2G-1(LA28). Examples of LA28 Sign Panel Usage on GRN Lane Regulatory Signs and Plaque (Sheet 3 of 3) C - Post-Mounted Arterial Street Games Route Network Regulatory S igns and Plaques RIGHT LAN E PERM IT O N LY PERMIT LANE EN DS 1/2 MILE PERMIT RESTRICTION ENDS 1/2 M I LE LAN E EN DS 1/2 M I LE (Alternative Legend) RESTRICTION ENDS 1/2 M I LE (Alternative Legend) PERMIT ONLY PERMIT LAN E ENDS PERMIT RESTRICTION ENDS CA MUTCD 2026 LA28 Supplement Chapter 2G - Preferential and Managed Lane Signs (Figures) Part 2 Signs Page 47 July 15, 2026 </p></details>
 
@@ -176,7 +173,6 @@ sidebar:
 
 ### Page 48 - Figure 2G-2(LA28). Example of Signing for an Added Continuous-Access
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0048.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0048.webp" alt="LA28 Supplement page 48 Figure 2G-2(LA28). Example of Signing for an Added Continuous-Access"></a><figcaption>LA28 Supplement, page 48.</figcaption></figure>
 <div class="dtext"><h4>Figure 2G-2(LA28). Example of Signing for an Added Continuous-Access</h4>
 <h4>Contiguous or Buffer-Separated GRN Lane</h4>
@@ -212,7 +208,6 @@ sidebar:
 
 ### Page 49 - Figure 2G-3(LA28). Example of Signing for a General-Purpose Lane that
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0049.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0049.webp" alt="LA28 Supplement page 49 Figure 2G-3(LA28). Example of Signing for a General-Purpose Lane that"></a><figcaption>LA28 Supplement, page 49.</figcaption></figure>
 <div class="dtext"><h4>Figure 2G-3(LA28). Example of Signing for a General-Purpose Lane that</h4>
 <h4>Becomes a GRN Lane {New, or Converted from Continuous-Access</h4>
@@ -239,7 +234,6 @@ sidebar:
 
 ### Page 50 - Figure 2G-4(LA28). Examples of Warning Signs Applicable Only to GRN Lanes
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0050.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0050.webp" alt="LA28 Supplement page 50 Figure 2G-4(LA28). Examples of Warning Signs Applicable Only to GRN Lanes"></a><figcaption>LA28 Supplement, page 50.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Figure 2G-4(LA28). Examples of Warning Signs Applicable Only to GRN Lanes Barrier-mounted rectangular warning signs EXIT 30 M P H I 2j t TH R U TRAFFI C M ER G E RIG HT CA MUTCD 2026 LA28 Supplement Chapter 2G - Preferential and Managed Lane Signs (Figures) Part 2 Signs Page 50 July 15, 2026 </p></details>
 
@@ -248,7 +242,6 @@ sidebar:
 
 ### Page 51 - Figure 2G-6(LA28). Examples of LA28 Sign Panel Usage on GRN Lane
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0051.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0051.webp" alt="LA28 Supplement page 51 Figure 2G-6(LA28). Examples of LA28 Sign Panel Usage on GRN Lane"></a><figcaption>LA28 Supplement, page 51.</figcaption></figure>
 <div class="dtext"><h4>Figure 2G-6(LA28). Examples of LA28 Sign Panel Usage on GRN Lane</h4>
 <p>Guide Signs (Sheet 1 of 2)</p>
@@ -292,7 +285,6 @@ sidebar:
 
 ### Page 52 - Figure 2G-6(LA28). Examples of LA28 Sign Panel Usage on GRN Lane
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0052.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0052.webp" alt="LA28 Supplement page 52 Figure 2G-6(LA28). Examples of LA28 Sign Panel Usage on GRN Lane"></a><figcaption>LA28 Supplement, page 52.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Figure 2G-6(LA28). Examples of LA28 Sign Panel Usage on GRN Lane Guide Signs (Sheet 2 of 2) C - Barrier-mounted GRN Lane Exit and Advance G u ide S igns Notes: 1 . Refer to CA MUTCD 2026 Chapters 2E and 2G for the instal lation of the LEFT plaque for left exits 2 . The card inal direction should be placed above to the route shield for exits that serve a si ngle direction of travel D - Post-mo u nted GRN Lane Entran ce Guide S igns CA MUTCD 2026 LA28 Supplement Chapter 2G - Preferential and Managed Lane Signs (Figures) Part 2 Signs Page 52 July 15, 2026 </p></details>
 
@@ -301,7 +293,6 @@ sidebar:
 
 ### Page 53 - Figur-e 2G•7(LA28). ExampJ,e,s of LA28 Sign Pan-el Usa,ge o.n Entrance Gor:e
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0053.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0053.webp" alt="LA28 Supplement page 53 Figur-e 2G•7(LA28). ExampJ,e,s of LA28 Sign Pan-el Usa,ge o.n Entrance Gor:e"></a><figcaption>LA28 Supplement, page 53.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>CA MUTCD 2026 LA28 Supplement Figur-e 2G•7(LA28). ExampJ,e,s of LA28 Sign Pan-el Usa,ge o.n Entrance Gor:e Signs for Barrier•Separated GRN La.nes Chapter 2G - Preferential and Managed Lane Signs (Figures) Part 2 Signs PERMIT ONLY ENTRANCE . II / Page 53 July 15, 2026 </p></details>
 
@@ -310,7 +301,6 @@ sidebar:
 
 ### Page 54 - Preferential Lane)
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0054.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0054.webp" alt="LA28 Supplement page 54 Preferential Lane)"></a><figcaption>LA28 Supplement, page 54.</figcaption></figure>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement</p>
 <p>Figure 2G-8(LA28). Example of Advance Guide and Entrance Direction Signs for a General-Purpose Lane that Becomes an Access-Restricted GRN Lane (Former</p>
@@ -343,7 +333,6 @@ sidebar:
 
 ### Page 55 - Figure 2G-9(LA28). Example of Signing for an Entrance to Access-Restricted GRN Lanes
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0055.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0055.webp" alt="LA28 Supplement page 55 Figure 2G-9(LA28). Example of Signing for an Entrance to Access-Restricted GRN Lanes"></a><figcaption>LA28 Supplement, page 55.</figcaption></figure>
 <div class="dtext"><h4>Figure 2G-9(LA28). Example of Signing for an Entrance to Access-Restricted GRN Lanes</h4>
 <h4>(Former Access-Restricted HOV Lanes)</h4>
@@ -410,7 +399,6 @@ sidebar:
 
 ### Page 57 - Figure 2G-12(LA28). Examples of LA28 Sign Panel Usage on Barrier-Mounted
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0057.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0057.webp" alt="LA28 Supplement page 57 Figure 2G-12(LA28). Examples of LA28 Sign Panel Usage on Barrier-Mounted"></a><figcaption>LA28 Supplement, page 57.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Figure 2G-12(LA28). Examples of LA28 Sign Panel Usage on Barrier-Mounted Guide Signs for an Intermediate Egress from GRN Lanes TO Alici a Pkwy 7 INTERSTATE TO Ali cia Pkwy 1/2 M I LE CA MUTCD 2026 LA28 Supplement Chapter 2G - Preferential and Managed Lane Signs (Figures) Part 2 Signs Page 57 July 15, 2026 </p></details>
 
@@ -452,7 +440,6 @@ sidebar:
 
 ### Page 59 - Figure 2G-1 5(LA28). Exit and Pull-Through Signs for a Direct Exit from a GRN Lane
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0059.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0059.webp" alt="LA28 Supplement page 59 Figure 2G-1 5(LA28). Exit and Pull-Through Signs for a Direct Exit from a GRN Lane"></a><figcaption>LA28 Supplement, page 59.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>Figure 2G-1 5(LA28). Exit and Pull-Through Signs for a Direct Exit from a GRN Lane A - Barrier-mounted GRN Exit Gore S ign E X I T B - Overhead GRN Advance Gu ide, Exit D irecti on, and Pull-Through S igns M a i n S t 1/2 M I L E LA28 EXIT   M a i n S t LA 28 LANE 45) NoRTH CA MUTCD 2026 LA28 Supplement Chapter 2G - Preferential and Managed Lane Signs (Figures) Part 2 Signs Page 59 July 15, 2026 </p></details>
 
@@ -461,7 +448,6 @@ sidebar:
 
 ### Page 60 - Figure 2G-16(LA28). Examples of Guide Signs for Direct GRN Lane Entrance and Exit Ramps
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0060.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0060.webp" alt="LA28 Supplement page 60 Figure 2G-16(LA28). Examples of Guide Signs for Direct GRN Lane Entrance and Exit Ramps"></a><figcaption>LA28 Supplement, page 60.</figcaption></figure>
 <div class="dtext"><h4>Figure 2G-16(LA28). Examples of Guide Signs for Direct GRN Lane Entrance and Exit Ramps</h4>
 <h4>1-FEE J4 ..,.__,.. lilllll_.___L•</h4>

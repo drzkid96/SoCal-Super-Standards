@@ -1,13 +1,13 @@
 ---
 title: "LADOT Marked Crosswalk Guidelines"
-description: "Crosswalk Guidelines: Rev. 10/2020. Full document, page by page, with drawings, OCR text and linked signs."
+description: "Crosswalk Guidelines: Rev. 10/2020."
 sidebar:
   order: 0
   label: Overview
 tableOfContents: false
 ---
 
-<div class="srcbar">LADOT &middot; Rev. 10/2020 &middot; 7 pages</div>
+<div class="srcbar">LADOT &middot; Rev. 10/2020</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/ladot/marked-crosswalks/01-pages-1-7/">Pages 1-7</a> <span class="src-page">pp 1-7</span></li></ul>
 <h2>Standard drawings</h2><table class="dwtab"><thead><tr><th>Drawing</th><th>Sheets (pages)</th></tr></thead><tbody><tr><td><strong>S-481.0</strong></td><td><a href="/SoCal-Super-Standards/ladot/marked-crosswalks/01-pages-1-7/#p2">p 2</a></td></tr></tbody></table>

@@ -1,13 +1,13 @@
 ---
 title: "LADOT 2028 Games Active Transportation Projects Design Guide"
-description: "2028 Games DG: 2026-06 print (supersedes 2025-09). Full document, page by page, with drawings, OCR text and linked signs."
+description: "2028 Games DG: 2026-06 print (supersedes 2025-09)."
 sidebar:
   order: 0
   label: Overview
 tableOfContents: false
 ---
 
-<div class="srcbar">LADOT &middot; 2026-06 print (supersedes 2025-09) &middot; 33 pages</div>
+<div class="srcbar">LADOT &middot; 2026-06 print (supersedes 2025-09)</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/ladot/games-corridors/01-pages-1-33/">Pages 1-33</a> <span class="src-page">pp 1-33</span></li></ul>
 

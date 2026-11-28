@@ -12,7 +12,6 @@ sidebar:
 
 ### Page 31 - GUIDING PRINCIPLES
 
-<div class="pmeta">Topics: crosswalks, parking-curb, speed-calming</div>
 <div class="dtext"><p>Identify Opportunities and Monitor Outcomes 24</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>GUIDING PRINCIPLES</h4>
@@ -50,7 +49,6 @@ sidebar:
 
 ### Page 32 - Identify Opportunities for Successful Implementation
 
-<div class="pmeta">Topics: crosswalks, signals, parking-curb, accessibility</div>
 <div class="dtext"><p>25</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Identify Opportunities and Monitor Outcomes</p>
@@ -70,7 +68,6 @@ sidebar:
 
 ### Page 33 - RESOURCES
 
-<div class="pmeta">Topics: crosswalks, bikeways, parking-curb</div>
 <div class="dtext"><p>26</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Identify Opportunities and Monitor Outcomes</p>

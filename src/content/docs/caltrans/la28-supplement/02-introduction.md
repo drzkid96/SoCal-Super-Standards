@@ -13,7 +13,6 @@ sidebar:
 
 ### Page 20 - CA MUTCD 2026 LA28 Supplement
 
-<div class="pmeta">Topics: parking-curb, signs</div>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 20</p>
 <p>Introduction July 15, 2026</p>
 <h4>CA MUTCD 2026 LA28 Supplement</h4>

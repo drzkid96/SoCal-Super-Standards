@@ -12,7 +12,6 @@ sidebar:
 
 ### Page 4 - What is the Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations?
 
-<div class="pmeta">Topics: crosswalks, signals, parking-curb, speed-calming, signs, intersections</div>
 <div class="dtext"><p>ii</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>What is the Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations?</h4>
@@ -48,7 +47,6 @@ sidebar:
 
 ### Page 5 - Table of Contents
 
-<div class="pmeta">Topics: parking-curb</div>
 <div class="dtext"><p>iii</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>Table of Contents</h4>
@@ -68,7 +66,6 @@ sidebar:
 
 ### Page 6 - List of Figures
 
-<div class="pmeta">Topics: crosswalks</div>
 <div class="dtext"><p>iv</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>List of Figures</h4>
@@ -88,7 +85,6 @@ sidebar:
 
 ### Page 7 - List of Abbreviations
 
-<div class="pmeta">Topics: accessibility</div>
 <div class="dtext"><p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>List of Abbreviations</h4>
 <p>AADT annual average daily traffic</p>

@@ -4,7 +4,7 @@ description: "Outline and page index for NACTO Urban Street Design Guide. Headin
 tableOfContents: false
 ---
 
-<div class="srcbar"><span class="status-pill ref">Design Reference + Page Index</span> Island Press (2013) &middot; 193 pages &middot; National guidance (CA MUTCD 2026, Caltrans DIB 94 &amp; local city standards govern)</div>
+<div class="srcbar">Island Press (2013) &middot; National guidance (CA MUTCD 2026, Caltrans DIB 94 &amp; local city standards govern)</div>
 
 <div class="note-box"><strong>What is on this page vs. in the book:</strong> Because the book is copyrighted, verbatim text and illustrations are not reproduced here (<a href="https://nacto.org/publication/urban-street-design-guide/">publisher</a>). This page provides <strong>key NACTO urban street dimensions crosswalked to California governing standards</strong>, <strong>matching California visual diagrams</strong>, and a <strong>searchable 193-page chapter locator</strong>.</div>
 

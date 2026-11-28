@@ -49,7 +49,6 @@ sidebar:
 
 ### Page 3 - B. GUIDELINES
 
-<div class="pmeta">Topics: crosswalks, transit, parking-curb, intersections</div>
 <div class="dtext"><p>Marked Uncontrolled Crosswalk Guidelines (Rev. 10-05-2020) Page 3 of 7</p>
 <h4>B. GUIDELINES</h4>
 <h4>1. PEDESTRIAN VOLUME YES NO</h4>
@@ -106,7 +105,6 @@ sidebar:
 
 ### Page 5 - D. BEACONS
 
-<div class="pmeta">Topics: crosswalks, signals, parking-curb, speed-calming, signs, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0005.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/marked-crosswalks/p0005.webp" alt="Crosswalk Guidelines page 5 D. BEACONS"></a><figcaption>Crosswalk Guidelines, page 5.</figcaption></figure>
 <div class="dtext"><p>Marked Uncontrolled Crosswalk Guidelines (Rev. 10-05-2020) Page 5 of 7</p>
 <h4>D. BEACONS</h4>
@@ -224,7 +222,6 @@ sidebar:
 
 ### Page 7 - E. LOCATION ALREADY CONTROLLED
 
-<div class="pmeta">Topics: crosswalks, signs, accessibility, intersections</div>
 <div class="dtext"><p>Marked Uncontrolled Crosswalk Guidelines (Rev. 10-05-2020) Page 7 of 7</p>
 <h4>E. LOCATION ALREADY CONTROLLED</h4>
 <h4>BY STOP SIGNS SATISFIED?</h4>

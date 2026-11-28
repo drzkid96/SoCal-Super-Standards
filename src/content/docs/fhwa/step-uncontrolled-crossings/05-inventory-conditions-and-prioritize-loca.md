@@ -11,7 +11,6 @@ sidebar:
 
 ### Page 15 - GUIDING PRINCIPLES
 
-<div class="pmeta">Topics: crosswalks, transit, parking-curb, intersections</div>
 <div class="dtext"><p>Inventory Conditions and Prioritize Locations 8</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>GUIDING PRINCIPLES</h4>
@@ -52,7 +51,6 @@ sidebar:
 
 ### Page 16
 
-<div class="pmeta">Topics: crosswalks, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0016.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0016.webp" alt="FHWA STEP Guide page 16 "></a><figcaption>FHWA STEP Guide, page 16.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>9 Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations Inventory Conditions and Prioritize Locations Figure 3. Example crossing inventory worksheet. Source: City of Boulder, Pedestrian Crossing Treatment Installation Guidelines (2011). </p></details>
 
@@ -61,7 +59,6 @@ sidebar:
 
 ### Page 17 - Inventory Pedestrian Crossings and Observed Traffic Behavior
 
-<div class="pmeta">Topics: crosswalks, transit, signals, speed-calming, signs, accessibility, intersections</div>
 <div class="dtext"><p>10</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Inventory Conditions and Prioritize Locations</p>

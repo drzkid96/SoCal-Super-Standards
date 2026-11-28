@@ -13,9 +13,8 @@ tableOfContents: false
   <a class="vis-card" href="/SoCal-Super-Standards/details/ladot/mpp-531-s-486-0/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/ladot/mpp-531/p0121.webp" alt="MPP 531 · S-486.0" /><span><b>MPP 531 · S-486.0</b>Mast-arm street name signs</span></a>
 </div>
 
-<div class="srcbar">City of Los Angeles Department of Transportation and partner agencies &middot; 12 documents &middot; 1253 pages</div>
+<div class="srcbar">City of Los Angeles Department of Transportation and partner agencies</div>
 
-Every page of every LADOT document is here: native text where the PDF has it, OCR where it is a scan or outlined CAD text, and a sharpened image of every drawing or figure page. Sign codes link to the [Sign Library](/SoCal-Super-Standards/signs/) and MUTCD section references link to the manuals. Search (Ctrl+K) covers all of it, OCR text included.
 
 <p><a class="ai-btn" href="/SoCal-Super-Standards/ladot/curb-paint/">LADOT curb paint &amp; S-481.0 calculator</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/ladot/mpp-531/">MPP 531 original drawings</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/details/?agency=LADOT">All LADOT standard drawings</a> <a class="ai-btn ghost" href="/SoCal-Super-Standards/bulletins/">LADOT policy memos &amp; bulletins</a></p>
 

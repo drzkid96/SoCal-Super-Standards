@@ -14,7 +14,7 @@ description: Caltrans Design Information Bulletins that set lane widths, and LAD
   <a class="vis-card" href="/SoCal-Super-Standards/bulletins/standards-status/"><img loading="lazy" src="/SoCal-Super-Standards/thumbs/figs/caltrans/standard-plans-2026/p0001.webp" alt="What Governs" /><span><b>What Governs</b>2026 editions &amp; 219 deleted signs</span></a>
 </div>
 
-Design bulletins and policy memos change design values faster than the manuals do. This page lists the ones in effect as of November 18, 2026. Each digest gives the scope, the key values and the section numbers, with a link to the official copy.
+Design bulletins and policy memos change design values faster than the manuals do.
 
 <p><a class="cta" href="/SoCal-Super-Standards/bulletins/lane-widths/">Lane width comparison: DIB 94, MPP 531 and the City street standards</a> &nbsp; <a class="cta" href="/SoCal-Super-Standards/bulletins/bikeway-design-comparison/">Bikeway design comparison: HDM Ch. 1000, DIB 89-02, CA MUTCD 2026, LADOT &amp; AASHTO GBF-5</a></p>
 

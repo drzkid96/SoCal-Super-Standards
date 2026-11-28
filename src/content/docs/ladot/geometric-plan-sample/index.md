@@ -1,13 +1,13 @@
 ---
 title: "LADOT Geometric (Striping) Plan Sample Sheet"
-description: "Geometric Plan Sample: as provided. Full document, page by page, with drawings, OCR text and linked signs."
+description: "Geometric Plan Sample: as provided."
 sidebar:
   order: 0
   label: Overview
 tableOfContents: false
 ---
 
-<div class="srcbar">LADOT &middot; as provided &middot; 1 pages</div>
+<div class="srcbar">LADOT &middot; as provided</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/ladot/geometric-plan-sample/01-pages-1-1/">Pages 1-1</a> <span class="src-page">pp 1-1</span></li></ul>
 

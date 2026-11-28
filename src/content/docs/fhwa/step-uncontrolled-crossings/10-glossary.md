@@ -18,7 +18,6 @@ sidebar:
 
 ### Page 34 - Glossary
 
-<div class="pmeta">Topics: crosswalks, bikeways, transit, signals, parking-curb, signs</div>
 <div class="dtext"><p>27</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Glossary</p>
@@ -51,7 +50,6 @@ sidebar:
 
 ### Page 35
 
-<div class="pmeta">Topics: crosswalks, signals, speed-calming, signs, intersections</div>
 <div class="dtext"><p>28</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Glossary</p>

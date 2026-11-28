@@ -86,7 +86,7 @@ description: Side-by-side comparison of California governing bikeway standards (
 </div>
 
 
-<p class="bul-foot">Cross-agency comparison checked against primary official sources on November 18, 2026: Caltrans HDM Ch. 1000 (12/16/2024), Caltrans DIB 89-02 (2/7/2022), CA MUTCD 2026 Part 9 (1/18/2026), and AASHTO GBF-5 (December 2024 + December 2024 Errata). See <a href="/SoCal-Super-Standards/guides/aashto-bike-guide/">AASHTO GBF-5 full index</a> and <a href="/SoCal-Super-Standards/topics/bikeways/">Bikeways topic hub</a>.</p>
+<p class="bul-foot">Sources: Caltrans HDM Ch. 1000 (12/16/2024), Caltrans DIB 89-02 (2/7/2022), CA MUTCD 2026 Part 9 (1/18/2026), and AASHTO GBF-5 (December 2024 + December 2024 Errata). See <a href="/SoCal-Super-Standards/guides/aashto-bike-guide/">AASHTO GBF-5 full index</a> and <a href="/SoCal-Super-Standards/topics/bikeways/">Bikeways topic hub</a>.</p>
 
 ## Visual Reference
 

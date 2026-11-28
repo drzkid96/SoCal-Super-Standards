@@ -12,7 +12,7 @@ tableOfContents: false
 </div>
 
 
-<div class="sfilter kfilter"><input id="kq" type="search" placeholder="Filter the index: cat tracks, RRFB, bulb-out, pull box, 2WLTL..."><span id="kcount">127 index entries &middot; 2542 drawing keywords</span></div>
+<div class="sfilter kfilter"><input id="kq" type="search" placeholder="Filter the index: cat tracks, RRFB, bulb-out, pull box, 2WLTL..."><span id="kcount"></span></div>
 
 
 <nav class="knav"><a href="#l-A">A</a> <a href="#l-B">B</a> <a href="#l-C">C</a> <a href="#l-D">D</a> <a href="#l-E">E</a> <a href="#l-F">F</a> <a href="#l-G">G</a> <a href="#l-H">H</a> <a href="#l-I">I</a> <a href="#l-J">J</a> <a href="#l-K">K</a> <a href="#l-L">L</a> <a href="#l-M">M</a> <a href="#l-O">O</a> <a href="#l-P">P</a> <a href="#l-R">R</a> <a href="#l-S">S</a> <a href="#l-T">T</a> <a href="#l-U">U</a> <a href="#l-V">V</a> <a href="#l-W">W</a> <a href="#l-Y">Y</a> <a href="#kw-az">Drawing keywords</a></nav>
@@ -41,7 +41,7 @@ tableOfContents: false
     E.forEach(el=>{const ok=!words.length||words.every(w=>el._t.includes(w));el.style.display=ok?'':'none';if(ok)c++;});
     secs.forEach(s=>{s.style.display=[...s.querySelectorAll('.kentry')].some(e=>e.style.display!=='none')?'':'none';});
     if(kwSec) kwSec.style.display=[...kwSec.querySelectorAll('.kwaz li')].some(e=>e.style.display!=='none')?'':'none';
-    n.textContent=words.length?(c+' matches'):'127 index entries · 2542 drawing keywords';
+    n.textContent=words.length?(c+' matches'):'';
     const u=new URLSearchParams(location.search);
     if(q.value.trim()) u.set('q',q.value.trim()); else u.delete('q');
     history.replaceState(null,'',location.pathname+(u.toString()?'?'+u:'')+location.hash);

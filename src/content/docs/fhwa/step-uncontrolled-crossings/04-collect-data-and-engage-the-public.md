@@ -37,7 +37,6 @@ sidebar:
 
 ### Page 11 - Evaluate Pedestrian Accommodation and Traffic Safety Policies
 
-<div class="pmeta">Topics: crosswalks, bikeways, intersections</div>
 <div class="dtext"><p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Collect Data and Engage the Public</p>
 <p>projects, activities, plans and reports. HSIP projects are selected through a data-driven approach and can include pedestrian crash countermeasures and intersection improvements. Some States set aside HSIP funding for pedestrian safety improvements, while other States use a common scoring process to consider safety projects for all travel modes. The agency should identify and understand pedestrian safety projects in the current HSIP, and consider how pedestrian safety projects are identified for potential funding and implementation. The Safety Performance Management Measures Final Rule (23 CFR 490) establishes requirements that support the HSIP, including a measure for the number of non-motorized fatalities and non-motorized serious injuries. This performance measure includes both pedestrians and bicyclists.</p>
@@ -53,7 +52,6 @@ sidebar:
 
 ### Page 12 - Initiate a Pedestrian Safety Action Plan (PSAP)
 
-<div class="pmeta">Topics: bikeways, speed-calming</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0012.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0012.webp" alt="FHWA STEP Guide page 12 Initiate a Pedestrian Safety Action Plan (PSAP)"></a><figcaption>FHWA STEP Guide, page 12.</figcaption></figure>
 <div class="dtext"><p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Collect Data and Engage the Public</p>
@@ -74,7 +72,6 @@ sidebar:
 
 ### Page 13 - RESOURCES
 
-<div class="pmeta">Topics: crosswalks</div>
 <div class="dtext"><p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Collect Data and Engage the Public</p>
 <h4>RESOURCES</h4>
@@ -97,7 +94,6 @@ sidebar:
 
 ### Page 14
 
-<div class="pmeta">Topics: bikeways, intersections</div>
 <div class="dtext"><p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Collect Data and Engage the Public</p>
 <p>FHWA How to Develop a Pedestrian and Bicycle Safety Action Plan (2017)</p>

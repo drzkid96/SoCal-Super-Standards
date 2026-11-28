@@ -27,7 +27,6 @@ sidebar:
 
 ### Page 24 - Network Overlays
 
-<div class="pmeta">Topics: bikeways, transit, signals, parking-curb</div>
 <div class="dtext"><p>16</p>
 <p>2. STREET CLASSIFICATIONS Complete Streets Design Guide</p>
 <h4>Network Overlays</h4>
@@ -43,7 +42,6 @@ sidebar:
 
 ### Page 25 - Vehicle Enhanced Network
 
-<div class="pmeta">Topics: crosswalks, bikeways, signals, parking-curb, speed-calming</div>
 <div class="dtext"><p>17</p>
 <p>Complete Streets Design Guide  2. STREET CLASSIFICATIONS</p>
 <h4>Vehicle Enhanced Network</h4>
@@ -62,7 +60,6 @@ sidebar:
 
 ### Page 26 - Arterial Streets
 
-<div class="pmeta">Topics: bikeways, intersections</div>
 <div class="dtext"><p>18</p>
 <p>2. STREET CLASSIFICATIONS Complete Streets Design Guide</p>
 <h4>Arterial Streets</h4>
@@ -83,7 +80,6 @@ sidebar:
 
 ### Page 27 - Boulevard I (Major Highway Class I)
 
-<div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>19</p>
 <p>Complete Streets Design Guide  2. STREET CLASSIFICATIONS</p>
 <h4>Boulevard I (Major Highway Class I)</h4>
@@ -166,7 +162,6 @@ sidebar:
 
 ### Page 31 - Industrial Collector
 
-<div class="pmeta">Topics: parking-curb</div>
 <div class="dtext"><p>23</p>
 <p>Complete Streets Design Guide  2. STREET CLASSIFICATIONS</p>
 <h4>Industrial Collector</h4>
@@ -193,7 +188,6 @@ sidebar:
 
 ### Page 32 - Local Street Standard
 
-<div class="pmeta">Topics: parking-curb</div>
 <div class="dtext"><p>24</p>
 <p>2. STREET CLASSIFICATIONS Complete Streets Design Guide</p>
 <h4>Local Street Standard</h4>
@@ -219,7 +213,6 @@ sidebar:
 
 ### Page 33 - Hillside Streets
 
-<div class="pmeta">Topics: parking-curb</div>
 <div class="dtext"><p>25</p>
 <p>Complete Streets Design Guide  2. STREET CLASSIFICATIONS</p>
 <h4>Hillside Streets</h4>
@@ -252,7 +245,6 @@ sidebar:
 
 ### Page 34 - Hillside Standard
 
-<div class="pmeta">Topics: parking-curb</div>
 <div class="dtext"><p>26</p>
 <p>2. STREET CLASSIFICATIONS  Complete Streets Design Guide</p>
 <h4>Hillside Standard</h4>
@@ -285,7 +277,6 @@ sidebar:
 
 ### Page 35 - Service Road
 
-<div class="pmeta">Topics: parking-curb</div>
 <div class="dtext"><p>27</p>
 <p>Complete Streets Design Guide  2. STREET CLASSIFICATIONS</p>
 <h4>Service Road</h4>

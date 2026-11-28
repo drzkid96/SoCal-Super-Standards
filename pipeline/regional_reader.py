@@ -34,9 +34,8 @@ def summary(name,title,labels):
     text=' '.join(l.lower() for l in labels if l and l!='Blank page')
     hits=sorted(((len(re.findall(rx,text)),topic) for topic,rx in TOPIC_WORDS),reverse=True)
     topics=[t for n,t in hits if n][:5]
-    sheets=sum(1 for l in labels if l!='Blank page')
-    body=f'{title} from {name}, {sheets} sheet'+('s' if sheets!=1 else '')
-    return body+(' covering '+', '.join(topics[:-1])+(' and ' if len(topics)>1 else '')+topics[-1]+'.' if topics else '.')
+    body=f'{title} from {name}'
+    return body+(', covering '+', '.join(topics[:-1])+(' and ' if len(topics)>1 else '')+topics[-1]+'.' if topics else '.')
 
 def subject(record):
     title=record['title'].lower()
@@ -85,11 +84,11 @@ def build(root,lookup):
                 lines+=['','### '+last_subject,'']
             route='regions/'+key+'/'+d['key'];url=BASE+'/'+route+'/'
             title=d['title'];count=d['pages']
-            lines.append(f'- [{escape(title)}]({url}) · {count} '+('pages' if count!=1 else 'page'))
+            lines.append(f'- [{escape(title)}]({url})')
             labels=[sheet_label(titles.get(d['key'],{}).get(str(i),l)) for i,l in enumerate(d['labels'],1)]
             about=summary(name,title,labels)
             body=[f'<header class="reg-head"><h1>{escape(name)} · {escape(title)}</h1><p class="reg-about">{escape(about)}</p></header>',
-                  f'<p class="reg-credit">{escape(name)} · {count} pages · <a href="{escape(d["source"])}">Publisher PDF</a></p>',
+                  f'<p class="reg-credit">{escape(name)} · <a href="{escape(d["source"])}">Publisher PDF</a></p>',
                   '<div class="reg-controls" hidden><button type="button" data-step="-1">← Previous</button><label>Page <select aria-label="Select sheet"></select></label><button type="button" data-step="1">Next →</button><button type="button" class="reg-overview" aria-expanded="false">Sheet grid</button></div><div class="reg-contact" hidden></div>']
             for i,(label,txt) in enumerate(zip(labels,d['texts'],strict=True),1):
                 note=notes.get(d['key'],{}).get(str(i),'')

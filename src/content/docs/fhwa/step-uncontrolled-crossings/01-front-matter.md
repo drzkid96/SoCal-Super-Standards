@@ -26,7 +26,6 @@ sidebar:
 
 ### Page 3 - 1. REPORT NO.
 
-<div class="pmeta">Topics: crosswalks, parking-curb, speed-calming</div>
 <div class="dtext"><p>Technical Report Documentation Page</p>
 <h4>1. REPORT NO.</h4>
 <p>FHWA-SA-17-072</p>

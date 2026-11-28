@@ -11,7 +11,6 @@ sidebar:
 
 ### Page 2 - MANUAL OF POLICIES AND PROCEDURES
 
-<div class="pmeta">Topics: signals, signs</div>
 <div class="dtext"><p>Department of</p>
 <p>Transportation</p>
 <h4>MANUAL OF POLICIES AND PROCEDURES</h4>
@@ -35,7 +34,6 @@ sidebar:
 
 ### Page 3 - MPP 521 - Manual 9-1-16
 
-<div class="pmeta">Topics: signals, parking-curb, signs</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
@@ -58,7 +56,6 @@ sidebar:
 
 ### Page 5 - MPP 521 - Manual 9-1-16
 
-<div class="pmeta">Topics: transit, signals, parking-curb, striping, signs, accessibility, intersections</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
@@ -74,7 +71,6 @@ sidebar:
 
 ### Page 6 - MPP 521 - Manual 9-1-16
 
-<div class="pmeta">Topics: signals, striping, signs, intersections</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
@@ -89,7 +85,6 @@ sidebar:
 
 ### Page 7 - MPP 521 - Manual 9-1-16
 
-<div class="pmeta">Topics: signals</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
@@ -100,7 +95,6 @@ sidebar:
 
 ### Page 8 - MPP 521 - Manual 9-1-16
 
-<div class="pmeta">Topics: signals, signs</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
@@ -115,7 +109,6 @@ sidebar:
 
 ### Page 9 - MPP 521 - Manual 9-1-16
 
-<div class="pmeta">Topics: signals, intersections</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
@@ -133,7 +126,6 @@ sidebar:
 
 ### Page 10 - MPP 521 - Manual 9-1-16
 
-<div class="pmeta">Topics: signals, intersections</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
@@ -149,7 +141,6 @@ sidebar:
 
 ### Page 11 - MPP 521 - Manual 9-1-16
 
-<div class="pmeta">Topics: crosswalks, signals, signs, intersections</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
@@ -163,7 +154,6 @@ sidebar:
 
 ### Page 12 - MPP 521 - Manual 9-1-16
 
-<div class="pmeta">Topics: signals, parking-curb, intersections</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
@@ -225,7 +215,6 @@ sidebar:
 
 ### Page 16 - MPP 521 - Manual 9-1-16
 
-<div class="pmeta">Topics: crosswalks, signals, signs, intersections</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
@@ -263,7 +252,6 @@ sidebar:
 
 ### Page 18 - and failed cycles. Livable Neighborhoods
 
-<div class="pmeta">Topics: transit, signals, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/mpp-521/p0018.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/mpp-521/p0018.webp" alt="MPP 521 page 18 and failed cycles. Livable Neighborhoods"></a><figcaption>MPP 521, page 18.</figcaption></figure>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
@@ -300,7 +288,6 @@ sidebar:
 
 ### Page 19 - Table 1. Summary of LADOT Left-Turn Phasing Guidelines Protected/ Permitted
 
-<div class="pmeta">Topics: signals, intersections</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Traffic Signal Design Guidelines</p>
 <p>SECTION 521 DATE 9/2010 Page</p>
