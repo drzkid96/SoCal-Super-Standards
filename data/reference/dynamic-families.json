@@ -1,0 +1,1306 @@
+{
+ "note": "Each family: visibility states (one per variant), rotation, flip X and flip Y about the shared base point.",
+ "families": [
+  {
+   "name": "PM-LANE-ARROW-DYN",
+   "route": "markings/cad",
+   "label": "Lane-use arrow, every Caltrans A24A/A24B type",
+   "states": [
+    {
+     "state": "A24A-TYPE-I-10FT",
+     "code": "CT-A24A-TYPE-I-10FT",
+     "file": "markings/cad/CT-A24A-TYPE-I-10FT.dwg"
+    },
+    {
+     "state": "A24A-TYPE-I-24FT",
+     "code": "CT-A24A-TYPE-I-24FT",
+     "file": "markings/cad/CT-A24A-TYPE-I-24FT.dwg"
+    },
+    {
+     "state": "A24A-TYPE-IV-L",
+     "code": "CT-A24A-TYPE-IV-L",
+     "file": "markings/cad/CT-A24A-TYPE-IV-L.dwg"
+    },
+    {
+     "state": "A24A-TYPE-IV-R",
+     "code": "CT-A24A-TYPE-IV-R",
+     "file": "markings/cad/CT-A24A-TYPE-IV-R.dwg"
+    },
+    {
+     "state": "A24A-TYPE-VI",
+     "code": "CT-A24A-TYPE-VI",
+     "file": "markings/cad/CT-A24A-TYPE-VI.dwg"
+    },
+    {
+     "state": "A24A-TYPE-VI-MIRROR",
+     "code": "CT-A24A-TYPE-VI-MIRROR",
+     "file": "markings/cad/CT-A24A-TYPE-VI-MIRROR.dwg"
+    },
+    {
+     "state": "A24A-TYPE-VIII",
+     "code": "CT-A24A-TYPE-VIII",
+     "file": "markings/cad/CT-A24A-TYPE-VIII.dwg"
+    },
+    {
+     "state": "A24A-TYPE-I-18FT",
+     "code": "CT-A24A-TYPE-I-18FT",
+     "file": "markings/cad/CT-A24A-TYPE-I-18FT.dwg"
+    },
+    {
+     "state": "A24A-TYPE-V",
+     "code": "CT-A24A-TYPE-V",
+     "file": "markings/cad/CT-A24A-TYPE-V.dwg"
+    },
+    {
+     "state": "A24A-TYPE-VII-L",
+     "code": "CT-A24A-TYPE-VII-L",
+     "file": "markings/cad/CT-A24A-TYPE-VII-L.dwg"
+    },
+    {
+     "state": "A24A-TYPE-VII-R",
+     "code": "CT-A24A-TYPE-VII-R",
+     "file": "markings/cad/CT-A24A-TYPE-VII-R.dwg"
+    },
+    {
+     "state": "A24B-TYPE-II-B",
+     "code": "CT-A24B-TYPE-II-B",
+     "file": "markings/cad/CT-A24B-TYPE-II-B.dwg"
+    },
+    {
+     "state": "A24B-TYPE-II-L",
+     "code": "CT-A24B-TYPE-II-L",
+     "file": "markings/cad/CT-A24B-TYPE-II-L.dwg"
+    },
+    {
+     "state": "A24B-TYPE-II-R",
+     "code": "CT-A24B-TYPE-II-R",
+     "file": "markings/cad/CT-A24B-TYPE-II-R.dwg"
+    },
+    {
+     "state": "A24B-TYPE-III-B",
+     "code": "CT-A24B-TYPE-III-B",
+     "file": "markings/cad/CT-A24B-TYPE-III-B.dwg"
+    },
+    {
+     "state": "A24B-TYPE-III-L",
+     "code": "CT-A24B-TYPE-III-L",
+     "file": "markings/cad/CT-A24B-TYPE-III-L.dwg"
+    },
+    {
+     "state": "A24B-TYPE-III-R",
+     "code": "CT-A24B-TYPE-III-R",
+     "file": "markings/cad/CT-A24B-TYPE-III-R.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-WORD-DYN",
+   "route": "markings/cad",
+   "label": "Pavement word, every Caltrans A24D/A24E word",
+   "states": [
+    {
+     "state": "A24D-RUNAWAY",
+     "code": "CT-A24D-RUNAWAY",
+     "file": "markings/cad/CT-A24D-RUNAWAY.dwg"
+    },
+    {
+     "state": "A24D-VEHICLES",
+     "code": "CT-A24D-VEHICLES",
+     "file": "markings/cad/CT-A24D-VEHICLES.dwg"
+    },
+    {
+     "state": "A24D-YIELD",
+     "code": "CT-A24D-YIELD",
+     "file": "markings/cad/CT-A24D-YIELD.dwg"
+    },
+    {
+     "state": "A24D-SCHOOL",
+     "code": "CT-A24D-SCHOOL",
+     "file": "markings/cad/CT-A24D-SCHOOL.dwg"
+    },
+    {
+     "state": "A24D-WAIT",
+     "code": "CT-A24D-WAIT",
+     "file": "markings/cad/CT-A24D-WAIT.dwg"
+    },
+    {
+     "state": "A24D-SLOW",
+     "code": "CT-A24D-SLOW",
+     "file": "markings/cad/CT-A24D-SLOW.dwg"
+    },
+    {
+     "state": "A24D-AHEAD",
+     "code": "CT-A24D-AHEAD",
+     "file": "markings/cad/CT-A24D-AHEAD.dwg"
+    },
+    {
+     "state": "A24D-TURN",
+     "code": "CT-A24D-TURN",
+     "file": "markings/cad/CT-A24D-TURN.dwg"
+    },
+    {
+     "state": "A24D-HERE",
+     "code": "CT-A24D-HERE",
+     "file": "markings/cad/CT-A24D-HERE.dwg"
+    },
+    {
+     "state": "A24D-XING",
+     "code": "CT-A24D-XING",
+     "file": "markings/cad/CT-A24D-XING.dwg"
+    },
+    {
+     "state": "A24D-SIGNAL",
+     "code": "CT-A24D-SIGNAL",
+     "file": "markings/cad/CT-A24D-SIGNAL.dwg"
+    },
+    {
+     "state": "A24D-LEFT",
+     "code": "CT-A24D-LEFT",
+     "file": "markings/cad/CT-A24D-LEFT.dwg"
+    },
+    {
+     "state": "A24D-RIGHT",
+     "code": "CT-A24D-RIGHT",
+     "file": "markings/cad/CT-A24D-RIGHT.dwg"
+    },
+    {
+     "state": "A24D-PED",
+     "code": "CT-A24D-PED",
+     "file": "markings/cad/CT-A24D-PED.dwg"
+    },
+    {
+     "state": "A24D-COMPACT",
+     "code": "CT-A24D-COMPACT",
+     "file": "markings/cad/CT-A24D-COMPACT.dwg"
+    },
+    {
+     "state": "A24D-BIKE-4FT",
+     "code": "CT-A24D-BIKE-4FT",
+     "file": "markings/cad/CT-A24D-BIKE-4FT.dwg"
+    },
+    {
+     "state": "A24D-LANE-4FT",
+     "code": "CT-A24D-LANE-4FT",
+     "file": "markings/cad/CT-A24D-LANE-4FT.dwg"
+    },
+    {
+     "state": "A24E-LANE",
+     "code": "CT-A24E-LANE",
+     "file": "markings/cad/CT-A24E-LANE.dwg"
+    },
+    {
+     "state": "A24E-CLEAR",
+     "code": "CT-A24E-CLEAR",
+     "file": "markings/cad/CT-A24E-CLEAR.dwg"
+    },
+    {
+     "state": "A24E-BIKE",
+     "code": "CT-A24E-BIKE",
+     "file": "markings/cad/CT-A24E-BIKE.dwg"
+    },
+    {
+     "state": "A24E-ONLY",
+     "code": "CT-A24E-ONLY",
+     "file": "markings/cad/CT-A24E-ONLY.dwg"
+    },
+    {
+     "state": "A24E-NO",
+     "code": "CT-A24E-NO",
+     "file": "markings/cad/CT-A24E-NO.dwg"
+    },
+    {
+     "state": "A24E-KEEP",
+     "code": "CT-A24E-KEEP",
+     "file": "markings/cad/CT-A24E-KEEP.dwg"
+    },
+    {
+     "state": "A24E-BUS",
+     "code": "CT-A24E-BUS",
+     "file": "markings/cad/CT-A24E-BUS.dwg"
+    },
+    {
+     "state": "A24E-FWY",
+     "code": "CT-A24E-FWY",
+     "file": "markings/cad/CT-A24E-FWY.dwg"
+    },
+    {
+     "state": "A24E-EXPRS",
+     "code": "CT-A24E-EXPRS",
+     "file": "markings/cad/CT-A24E-EXPRS.dwg"
+    },
+    {
+     "state": "A24E-TRAIL",
+     "code": "CT-A24E-TRAIL",
+     "file": "markings/cad/CT-A24E-TRAIL.dwg"
+    },
+    {
+     "state": "A24E-HOV",
+     "code": "CT-A24E-HOV",
+     "file": "markings/cad/CT-A24E-HOV.dwg"
+    },
+    {
+     "state": "A24E-NORTH",
+     "code": "CT-A24E-NORTH",
+     "file": "markings/cad/CT-A24E-NORTH.dwg"
+    },
+    {
+     "state": "A24E-SOUTH",
+     "code": "CT-A24E-SOUTH",
+     "file": "markings/cad/CT-A24E-SOUTH.dwg"
+    },
+    {
+     "state": "A24E-EAST",
+     "code": "CT-A24E-EAST",
+     "file": "markings/cad/CT-A24E-EAST.dwg"
+    },
+    {
+     "state": "A24E-WEST",
+     "code": "CT-A24E-WEST",
+     "file": "markings/cad/CT-A24E-WEST.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-NUMERAL-DYN",
+   "route": "markings/cad",
+   "label": "Numeral 0 to 5, Caltrans A24C",
+   "states": [
+    {
+     "state": "A24C-NUMERAL-2",
+     "code": "CT-A24C-NUMERAL-2",
+     "file": "markings/cad/CT-A24C-NUMERAL-2.dwg"
+    },
+    {
+     "state": "A24C-NUMERAL-5",
+     "code": "CT-A24C-NUMERAL-5",
+     "file": "markings/cad/CT-A24C-NUMERAL-5.dwg"
+    },
+    {
+     "state": "A24C-NUMERAL-3",
+     "code": "CT-A24C-NUMERAL-3",
+     "file": "markings/cad/CT-A24C-NUMERAL-3.dwg"
+    },
+    {
+     "state": "A24C-NUMERAL-4",
+     "code": "CT-A24C-NUMERAL-4",
+     "file": "markings/cad/CT-A24C-NUMERAL-4.dwg"
+    },
+    {
+     "state": "A24C-NUMERAL-0",
+     "code": "CT-A24C-NUMERAL-0",
+     "file": "markings/cad/CT-A24C-NUMERAL-0.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-LEGEND-DYN",
+   "route": "markings/cad",
+   "label": "Two-line legend (KEEP CLEAR, BUS ONLY, WAIT HERE)",
+   "states": [
+    {
+     "state": "KEEP-CLEAR",
+     "code": "PM-KEEP-CLEAR",
+     "file": "markings/cad/PM-KEEP-CLEAR.dwg"
+    },
+    {
+     "state": "BUS-ONLY",
+     "code": "PM-BUS-ONLY",
+     "file": "markings/cad/PM-BUS-ONLY.dwg"
+    },
+    {
+     "state": "WAIT-HERE",
+     "code": "PM-WAIT-HERE",
+     "file": "markings/cad/PM-WAIT-HERE.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-BIKE-XING-GREEN-DYN",
+   "route": "markings/cad",
+   "label": "Green bike crossing dash, 5 to 8 ft bike lane",
+   "states": [
+    {
+     "state": "BIKE-XING-GREEN-5FT",
+     "code": "PM-BIKE-XING-GREEN-5FT",
+     "file": "markings/cad/PM-BIKE-XING-GREEN-5FT.dwg"
+    },
+    {
+     "state": "BIKE-XING-GREEN-6FT",
+     "code": "PM-BIKE-XING-GREEN-6FT",
+     "file": "markings/cad/PM-BIKE-XING-GREEN-6FT.dwg"
+    },
+    {
+     "state": "BIKE-XING-GREEN-6P5FT",
+     "code": "PM-BIKE-XING-GREEN-6P5FT",
+     "file": "markings/cad/PM-BIKE-XING-GREEN-6P5FT.dwg"
+    },
+    {
+     "state": "BIKE-XING-GREEN-7FT",
+     "code": "PM-BIKE-XING-GREEN-7FT",
+     "file": "markings/cad/PM-BIKE-XING-GREEN-7FT.dwg"
+    },
+    {
+     "state": "BIKE-XING-GREEN-8FT",
+     "code": "PM-BIKE-XING-GREEN-8FT",
+     "file": "markings/cad/PM-BIKE-XING-GREEN-8FT.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-BIKE-LANE-MARKING-DYN",
+   "route": "markings/cad",
+   "label": "Bike lane symbol or arrow, Caltrans and LA plan versions",
+   "states": [
+    {
+     "state": "A24A-BIKE-LANE-ARROW",
+     "code": "CT-A24A-BIKE-LANE-ARROW",
+     "file": "markings/cad/CT-A24A-BIKE-LANE-ARROW.dwg"
+    },
+    {
+     "state": "A24C-BIKE-SYMBOL",
+     "code": "CT-A24C-BIKE-SYMBOL",
+     "file": "markings/cad/CT-A24C-BIKE-SYMBOL.dwg"
+    },
+    {
+     "state": "A24C-BIKE-SYMBOL-PERSON",
+     "code": "CT-A24C-BIKE-SYMBOL-PERSON",
+     "file": "markings/cad/CT-A24C-BIKE-SYMBOL-PERSON.dwg"
+    },
+    {
+     "state": "BIKE-SYMBOL",
+     "code": "PM-BIKE-SYMBOL",
+     "file": "markings/cad/PM-BIKE-SYMBOL.dwg"
+    },
+    {
+     "state": "BIKE-ARROW",
+     "code": "PM-BIKE-ARROW",
+     "file": "markings/cad/PM-BIKE-ARROW.dwg"
+    },
+    {
+     "state": "BIKE-ARROW-LEFT-THRU",
+     "code": "PM-BIKE-ARROW-LEFT-THRU",
+     "file": "markings/cad/PM-BIKE-ARROW-LEFT-THRU.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-CROSSWALK-DYN",
+   "route": "markings/cad",
+   "label": "Crosswalk, every Caltrans A24F type",
+   "states": [
+    {
+     "state": "A24F-CONTINENTAL",
+     "code": "CT-A24F-CONTINENTAL",
+     "file": "markings/cad/CT-A24F-CONTINENTAL.dwg"
+    },
+    {
+     "state": "A24F-TRIPLE-FOUR",
+     "code": "CT-A24F-TRIPLE-FOUR",
+     "file": "markings/cad/CT-A24F-TRIPLE-FOUR.dwg"
+    },
+    {
+     "state": "A24F-LADDER",
+     "code": "CT-A24F-LADDER",
+     "file": "markings/cad/CT-A24F-LADDER.dwg"
+    },
+    {
+     "state": "A24F-DIAGONAL",
+     "code": "CT-A24F-DIAGONAL",
+     "file": "markings/cad/CT-A24F-DIAGONAL.dwg"
+    },
+    {
+     "state": "A24F-BASIC",
+     "code": "CT-A24F-BASIC",
+     "file": "markings/cad/CT-A24F-BASIC.dwg"
+    }
+   ]
+  },
+  {
+   "name": "PM-RAISED-ELEMENT-DYN",
+   "route": "markings/cad",
+   "label": "Left turn calming 3 or 10 ft",
+   "states": [
+    {
+     "state": "LEFT-TURN-CALMING-10FT",
+     "code": "PM-LEFT-TURN-CALMING-10FT",
+     "file": "markings/cad/PM-LEFT-TURN-CALMING-10FT.dwg"
+    },
+    {
+     "state": "LEFT-TURN-CALMING-3FT",
+     "code": "PM-LEFT-TURN-CALMING-3FT",
+     "file": "markings/cad/PM-LEFT-TURN-CALMING-3FT.dwg"
+    }
+   ]
+  },
+  {
+   "name": "SN-G33-1-CA-DYN",
+   "route": "signs/cad",
+   "label": "G33-1(CA) sign, left and right versions",
+   "states": [
+    {
+     "state": "G33-1(CA)",
+     "code": "G33-1(CA)",
+     "id": "pico-g33-1-ca-799ed0"
+    },
+    {
+     "state": "G33-1(CA)(LT)",
+     "code": "G33-1(CA)(LT)",
+     "id": "pico-g33-1-ca-lt-10f66c0"
+    },
+    {
+     "state": "G33-1(CA)(RT)",
+     "code": "G33-1(CA)(RT)",
+     "id": "pico-g33-1-ca-rt-10f66ba"
+    }
+   ]
+  },
+  {
+   "name": "SN-M4-10-DYN",
+   "route": "signs/cad",
+   "label": "M4-10 sign, left and right versions",
+   "states": [
+    {
+     "state": "M4-10L",
+     "code": "M4-10L",
+     "id": "mutcd-sheet-m4-10l-11f95"
+    },
+    {
+     "state": "M4-10R",
+     "code": "M4-10R",
+     "id": "mutcd-sheet-m4-10r-11f96"
+    }
+   ]
+  },
+  {
+   "name": "SN-M7-1-DYN",
+   "route": "signs/cad",
+   "label": "M7-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "M7-1",
+     "code": "M7-1",
+     "id": "fp-signs-67c2"
+    },
+    {
+     "state": "M7-1(L)",
+     "code": "M7-1(L)",
+     "id": "fp-signs-15e18"
+    }
+   ]
+  },
+  {
+   "name": "SN-R3-5-DYN",
+   "route": "signs/cad",
+   "label": "R3-5 sign, left and right versions",
+   "states": [
+    {
+     "state": "R3-5",
+     "code": "R3-5",
+     "id": "official-r3-5"
+    },
+    {
+     "state": "R3-5(R)",
+     "code": "R3-5(R)",
+     "id": "official-callout-r3-5-r"
+    },
+    {
+     "state": "R3-5(RT)",
+     "code": "R3-5(RT)",
+     "id": "pico-r3-5-rt-438808"
+    },
+    {
+     "state": "R3-5L",
+     "code": "R3-5L",
+     "id": "mutcd-sheet-r3-5l-10558"
+    },
+    {
+     "state": "R3-5R",
+     "code": "R3-5R",
+     "id": "3346-signs-1-13-1066ddb"
+    }
+   ]
+  },
+  {
+   "name": "SN-R3-6-DYN",
+   "route": "signs/cad",
+   "label": "R3-6 sign, left and right versions",
+   "states": [
+    {
+     "state": "R3-6(LT)",
+     "code": "R3-6(LT)",
+     "id": "official-callout-r3-6-left"
+    },
+    {
+     "state": "R3-6L",
+     "code": "R3-6L",
+     "id": "mutcd-sheet-r3-6l-10593"
+    },
+    {
+     "state": "R3-6R",
+     "code": "R3-6R",
+     "id": "mutcd-sheet-r3-6r-105b0"
+    }
+   ]
+  },
+  {
+   "name": "SN-R3-7-DYN",
+   "route": "signs/cad",
+   "label": "R3-7 sign, left and right versions",
+   "states": [
+    {
+     "state": "R3-7",
+     "code": "R3-7",
+     "id": "official-r3-7"
+    },
+    {
+     "state": "R3-7(L)",
+     "code": "R3-7(L)",
+     "id": "official-callout-r3-7-l"
+    },
+    {
+     "state": "R3-7(R)",
+     "code": "R3-7(R)",
+     "id": "3346-signs-1-13-109823d"
+    },
+    {
+     "state": "R3-7(RT)",
+     "code": "R3-7(RT)",
+     "id": "official-callout-r3-7-right"
+    },
+    {
+     "state": "R3-7L",
+     "code": "R3-7L",
+     "id": "mutcd-sheet-r3-7l-105bc"
+    },
+    {
+     "state": "R3-7R",
+     "code": "R3-7R",
+     "id": "mutcd-sheet-r3-7r-105c8"
+    }
+   ]
+  },
+  {
+   "name": "SN-R3-8-DYN",
+   "route": "signs/cad",
+   "label": "R3-8 sign, left and right versions",
+   "states": [
+    {
+     "state": "R3-8",
+     "code": "R3-8",
+     "id": "official-r3-8"
+    },
+    {
+     "state": "R3-8L",
+     "code": "R3-8L",
+     "id": "mutcd-sheet-r3-8l-105f9"
+    },
+    {
+     "state": "R3-8R",
+     "code": "R3-8R",
+     "id": "mutcd-sheet-r3-8r-1062a"
+    }
+   ]
+  },
+  {
+   "name": "SN-R6-1-DYN",
+   "route": "signs/cad",
+   "label": "R6-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "R6-1",
+     "code": "R6-1",
+     "id": "official-r6-1"
+    },
+    {
+     "state": "R6-1(L)",
+     "code": "R6-1(L)",
+     "id": "3346-signs-1-13-1097b94"
+    },
+    {
+     "state": "R6-1(R)",
+     "code": "R6-1(R)",
+     "id": "official-callout-r6-1-r"
+    },
+    {
+     "state": "R6-1(RT)",
+     "code": "R6-1(RT)",
+     "id": "pico-r6-1-rt-79678e"
+    },
+    {
+     "state": "R6-1L",
+     "code": "R6-1L",
+     "id": "3346-title-details-103aad2"
+    },
+    {
+     "state": "R6-1R",
+     "code": "R6-1R",
+     "id": "3346-title-details-103aae4"
+    }
+   ]
+  },
+  {
+   "name": "SN-R6-2-DYN",
+   "route": "signs/cad",
+   "label": "R6-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "R6-2 (LT)",
+     "code": "R6-2 (LT)",
+     "id": "pico-r6-2-lt-6a48e3"
+    },
+    {
+     "state": "R6-2L",
+     "code": "R6-2L",
+     "id": "mutcd-sheet-r6-2l-109a5"
+    },
+    {
+     "state": "R6-2R",
+     "code": "R6-2R",
+     "id": "mutcd-sheet-r6-2r-109b9"
+    }
+   ]
+  },
+  {
+   "name": "SN-R9-3B-DYN",
+   "route": "signs/cad",
+   "label": "R9-3B sign, left and right versions",
+   "states": [
+    {
+     "state": "R9-3B (L)",
+     "code": "R9-3B (L)",
+     "id": "3346-title-103ABB5"
+    },
+    {
+     "state": "R9-3B (R)",
+     "code": "R9-3B (R)",
+     "id": "3346-title-103ABA5"
+    }
+   ]
+  },
+  {
+   "name": "SN-R9-3BP-DYN",
+   "route": "signs/cad",
+   "label": "R9-3bP sign, left and right versions",
+   "states": [
+    {
+     "state": "R9-3bP",
+     "code": "R9-3bP",
+     "id": "pico-r9-3bp-14154d8"
+    },
+    {
+     "state": "R9-3bP(L)",
+     "code": "R9-3bP(L)",
+     "id": "3346-signs-1-13-1098d6e"
+    },
+    {
+     "state": "R9-3bP(LT)",
+     "code": "R9-3bP(LT)",
+     "id": "pico-r9-3bp-lt-587a35"
+    },
+    {
+     "state": "R9-3bP(R)",
+     "code": "R9-3bP(R)",
+     "id": "3346-signs-1-13-1098df2"
+    },
+    {
+     "state": "R9-3bP(RT)",
+     "code": "R9-3bP(RT)",
+     "id": "pico-r9-3bp-rt-587a26"
+    }
+   ]
+  },
+  {
+   "name": "SN-R9-11-DYN",
+   "route": "signs/cad",
+   "label": "R9-11 sign, left and right versions",
+   "states": [
+    {
+     "state": "R9-11",
+     "code": "R9-11",
+     "id": "official-r9-11"
+    },
+    {
+     "state": "R9-11(LT)",
+     "code": "R9-11(LT)",
+     "id": "official-callout-r9-11-left"
+    },
+    {
+     "state": "R9-11(RT)",
+     "code": "R9-11(RT)",
+     "id": "official-callout-r9-11-right"
+    }
+   ]
+  },
+  {
+   "name": "SN-R10-6-DYN",
+   "route": "signs/cad",
+   "label": "R10-6 sign, left and right versions",
+   "states": [
+    {
+     "state": "R10-6(LT)",
+     "code": "R10-6(LT)",
+     "id": "pico-r10-6-lt-1423722"
+    },
+    {
+     "state": "R10-6L",
+     "code": "R10-6L",
+     "id": "fp-signs-16b31"
+    },
+    {
+     "state": "R10-6R",
+     "code": "R10-6R",
+     "id": "fp-signs-16b55"
+    }
+   ]
+  },
+  {
+   "name": "SN-R10-10-DYN",
+   "route": "signs/cad",
+   "label": "R10-10 sign, left and right versions",
+   "states": [
+    {
+     "state": "R10-10L",
+     "code": "R10-10L",
+     "id": "mutcd-sheet-r10-10l-1221c"
+    },
+    {
+     "state": "R10-10R",
+     "code": "R10-10R",
+     "id": "mutcd-sheet-r10-10r-1221d"
+    }
+   ]
+  },
+  {
+   "name": "SN-R61-19-CA-MOD-DYN",
+   "route": "signs/cad",
+   "label": "R61-19(CA)(Mod) sign, left and right versions",
+   "states": [
+    {
+     "state": "R61-19(CA)(Mod)(LT)",
+     "code": "R61-19(CA)(Mod)(LT)",
+     "id": "pico-r61-19-ca-mod-lt-142451a"
+    },
+    {
+     "state": "R61-19(CA)(Mod)(RT)",
+     "code": "R61-19(CA)(Mod)(RT)",
+     "id": "pico-r61-19-ca-mod-rt-14251d8"
+    }
+   ]
+  },
+  {
+   "name": "SN-M4-9B-DYN",
+   "route": "signs/cad",
+   "label": "M4-9b sign, left and right versions",
+   "states": [
+    {
+     "state": "M4-9b(LT)",
+     "code": "M4-9b(LT)",
+     "id": "official-callout-m4-9b-left"
+    },
+    {
+     "state": "M4-9b(RT)",
+     "code": "M4-9b(RT)",
+     "id": "official-callout-m4-9b-right"
+    }
+   ]
+  },
+  {
+   "name": "SN-M4-9-DYN",
+   "route": "signs/cad",
+   "label": "M4-9 sign, left and right versions",
+   "states": [
+    {
+     "state": "M4-9L",
+     "code": "M4-9L",
+     "id": "mutcd-sheet-m4-9l-11f9d"
+    },
+    {
+     "state": "M4-9R",
+     "code": "M4-9R",
+     "id": "mutcd-sheet-m4-9r-11f9e"
+    }
+   ]
+  },
+  {
+   "name": "SN-W20-5-DYN",
+   "route": "signs/cad",
+   "label": "W20-5 sign, left and right versions",
+   "states": [
+    {
+     "state": "W20-5L",
+     "code": "W20-5L",
+     "id": "mutcd-sheet-w20-5l-1278e"
+    },
+    {
+     "state": "W20-5R",
+     "code": "W20-5R",
+     "id": "mutcd-sheet-w20-5r-1278f"
+    }
+   ]
+  },
+  {
+   "name": "SN-W22-1-DYN",
+   "route": "signs/cad",
+   "label": "W22-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "W22-1",
+     "code": "W22-1",
+     "id": "official-w22-1"
+    },
+    {
+     "state": "W22-1L",
+     "code": "W22-1L",
+     "id": "fp-signs-14564"
+    }
+   ]
+  },
+  {
+   "name": "SN-SW24-2-CA-DYN",
+   "route": "signs/cad",
+   "label": "SW24-2(CA) sign, left and right versions",
+   "states": [
+    {
+     "state": "SW24-2(CA)",
+     "code": "SW24-2(CA)",
+     "id": "official-sw24-2-ca"
+    },
+    {
+     "state": "SW24-2(CA)(L)",
+     "code": "SW24-2(CA)(L)",
+     "id": "3346-signs-1-13-10981f4"
+    },
+    {
+     "state": "SW24-2(CA)(R)",
+     "code": "SW24-2(CA)(R)",
+     "id": "3346-signs-1-13-109821b"
+    }
+   ]
+  },
+  {
+   "name": "SN-SW44-CA-DYN",
+   "route": "signs/cad",
+   "label": "SW44(CA) sign, left and right versions",
+   "states": [
+    {
+     "state": "SW44(CA)",
+     "code": "SW44(CA)",
+     "id": "3346-signs-1-13-10ac394"
+    },
+    {
+     "state": "SW44(CA)(L)",
+     "code": "SW44(CA)(L)",
+     "id": "3346-legacy-1036100"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-1-DYN",
+   "route": "signs/cad",
+   "label": "W1-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-1(LT)",
+     "code": "W1-1(LT)",
+     "id": "pico-w1-1-lt-587a58"
+    },
+    {
+     "state": "W1-1(RT)",
+     "code": "W1-1(RT)",
+     "id": "pico-w1-1-rt-5438e0"
+    },
+    {
+     "state": "W1-1L",
+     "code": "W1-1L",
+     "id": "mutcd-sheet-w1-1l-11058"
+    },
+    {
+     "state": "W1-1R",
+     "code": "W1-1R",
+     "id": "mutcd-sheet-w1-1r-1106e"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-2-DYN",
+   "route": "signs/cad",
+   "label": "W1-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-2L",
+     "code": "W1-2L",
+     "id": "mutcd-sheet-w1-2l-11084"
+    },
+    {
+     "state": "W1-2R",
+     "code": "W1-2R",
+     "id": "mutcd-sheet-w1-2r-1109a"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-3-DYN",
+   "route": "signs/cad",
+   "label": "W1-3 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-3L",
+     "code": "W1-3L",
+     "id": "mutcd-sheet-w1-3l-110b4"
+    },
+    {
+     "state": "W1-3R",
+     "code": "W1-3R",
+     "id": "mutcd-sheet-w1-3r-110bd"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-4-DYN",
+   "route": "signs/cad",
+   "label": "W1-4 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-4(LT)",
+     "code": "W1-4(LT)",
+     "id": "pico-w1-4-lt-1425387"
+    },
+    {
+     "state": "W1-4L",
+     "code": "W1-4L",
+     "id": "mutcd-sheet-w1-4l-110e8"
+    },
+    {
+     "state": "W1-4R",
+     "code": "W1-4R",
+     "id": "mutcd-sheet-w1-4r-11102"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-5-DYN",
+   "route": "signs/cad",
+   "label": "W1-5 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-5L",
+     "code": "W1-5L",
+     "id": "mutcd-sheet-w1-5l-11120"
+    },
+    {
+     "state": "W1-5R",
+     "code": "W1-5R",
+     "id": "mutcd-sheet-w1-5r-1113e"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-6-DYN",
+   "route": "signs/cad",
+   "label": "W1-6 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-6",
+     "code": "W1-6",
+     "id": "official-w1-6"
+    },
+    {
+     "state": "W1-6(LT)",
+     "code": "W1-6(LT)",
+     "id": "official-callout-w1-6-left"
+    },
+    {
+     "state": "W1-6L",
+     "code": "W1-6L",
+     "id": "mutcd-sheet-w1-6l-11150"
+    },
+    {
+     "state": "W1-6R",
+     "code": "W1-6R",
+     "id": "mutcd-sheet-w1-6r-11162"
+    }
+   ]
+  },
+  {
+   "name": "SN-W1-8-DYN",
+   "route": "signs/cad",
+   "label": "W1-8 sign, left and right versions",
+   "states": [
+    {
+     "state": "W1-8",
+     "code": "W1-8",
+     "id": "official-w1-8"
+    },
+    {
+     "state": "W1-8L",
+     "code": "W1-8L",
+     "id": "mutcd-sheet-w1-8l-11182"
+    },
+    {
+     "state": "W1-8R",
+     "code": "W1-8R",
+     "id": "mutcd-sheet-w1-8r-11183"
+    }
+   ]
+  },
+  {
+   "name": "SN-W2-2-DYN",
+   "route": "signs/cad",
+   "label": "W2-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "W2-2L",
+     "code": "W2-2L",
+     "id": "mutcd-sheet-w2-2l-111a9"
+    },
+    {
+     "state": "W2-2R",
+     "code": "W2-2R",
+     "id": "mutcd-sheet-w2-2r-111ba"
+    }
+   ]
+  },
+  {
+   "name": "SN-W2-3-DYN",
+   "route": "signs/cad",
+   "label": "W2-3 sign, left and right versions",
+   "states": [
+    {
+     "state": "W2-3",
+     "code": "W2-3",
+     "id": "official-w2-3"
+    },
+    {
+     "state": "W2-3L",
+     "code": "W2-3L",
+     "id": "mutcd-sheet-w2-3l-111cb"
+    },
+    {
+     "state": "W2-3R",
+     "code": "W2-3R",
+     "id": "mutcd-sheet-w2-3r-111dc"
+    }
+   ]
+  },
+  {
+   "name": "SN-W4-1-DYN",
+   "route": "signs/cad",
+   "label": "W4-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "W4-1",
+     "code": "W4-1",
+     "id": "official-w4-1"
+    },
+    {
+     "state": "W4-1L",
+     "code": "W4-1L",
+     "id": "mutcd-sheet-w4-1l-11282"
+    },
+    {
+     "state": "W4-1R",
+     "code": "W4-1R",
+     "id": "mutcd-sheet-w4-1r-11299"
+    }
+   ]
+  },
+  {
+   "name": "SN-W4-2-DYN",
+   "route": "signs/cad",
+   "label": "W4-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "W4-2",
+     "code": "W4-2",
+     "id": "official-w4-2"
+    },
+    {
+     "state": "W4-2(R)",
+     "code": "W4-2(R)",
+     "id": "3346-signs-1-13-1098288"
+    },
+    {
+     "state": "W4-2(RT)",
+     "code": "W4-2(RT)",
+     "id": "pico-w4-2-rt-6bfd0b"
+    }
+   ]
+  },
+  {
+   "name": "SN-W4-3-DYN",
+   "route": "signs/cad",
+   "label": "W4-3 sign, left and right versions",
+   "states": [
+    {
+     "state": "W4-3L",
+     "code": "W4-3L",
+     "id": "mutcd-sheet-w4-3l-112f8"
+    },
+    {
+     "state": "W4-3R",
+     "code": "W4-3R",
+     "id": "mutcd-sheet-w4-3r-1132d"
+    }
+   ]
+  },
+  {
+   "name": "SN-W9-1-DYN",
+   "route": "signs/cad",
+   "label": "W9-1 sign, left and right versions",
+   "states": [
+    {
+     "state": "W9-1",
+     "code": "W9-1",
+     "id": "official-w9-1"
+    },
+    {
+     "state": "W9-1(RT)",
+     "code": "W9-1(RT)",
+     "id": "official-callout-w9-1-right"
+    },
+    {
+     "state": "W9-1L",
+     "code": "W9-1L",
+     "id": "mutcd-sheet-w9-1l-115d3"
+    },
+    {
+     "state": "W9-1R",
+     "code": "W9-1R",
+     "id": "mutcd-sheet-w9-1r-115df"
+    }
+   ]
+  },
+  {
+   "name": "SN-W9-2-DYN",
+   "route": "signs/cad",
+   "label": "W9-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "W9-2L",
+     "code": "W9-2L",
+     "id": "mutcd-sheet-w9-2l-115ea"
+    },
+    {
+     "state": "W9-2R",
+     "code": "W9-2R",
+     "id": "mutcd-sheet-w9-2r-115f7"
+    }
+   ]
+  },
+  {
+   "name": "SN-W10-2-DYN",
+   "route": "signs/cad",
+   "label": "W10-2 sign, left and right versions",
+   "states": [
+    {
+     "state": "W10-2L",
+     "code": "W10-2L",
+     "id": "mutcd-sheet-w10-2l-117d8"
+    },
+    {
+     "state": "W10-2R",
+     "code": "W10-2R",
+     "id": "mutcd-sheet-w10-2r-1184d"
+    }
+   ]
+  },
+  {
+   "name": "SN-W10-3-DYN",
+   "route": "signs/cad",
+   "label": "W10-3 sign, left and right versions",
+   "states": [
+    {
+     "state": "W10-3L",
+     "code": "W10-3L",
+     "id": "mutcd-sheet-w10-3l-118bf"
+    },
+    {
+     "state": "W10-3R",
+     "code": "W10-3R",
+     "id": "mutcd-sheet-w10-3r-11931"
+    }
+   ]
+  },
+  {
+   "name": "SN-W10-4-DYN",
+   "route": "signs/cad",
+   "label": "W10-4 sign, left and right versions",
+   "states": [
+    {
+     "state": "W10-4L",
+     "code": "W10-4L",
+     "id": "mutcd-sheet-w10-4l-119a3"
+    },
+    {
+     "state": "W10-4R",
+     "code": "W10-4R",
+     "id": "mutcd-sheet-w10-4r-11a15"
+    }
+   ]
+  },
+  {
+   "name": "SN-W16-7P-DYN",
+   "route": "signs/cad",
+   "label": "W16-7P sign, left and right versions",
+   "states": [
+    {
+     "state": "W16-7P",
+     "code": "W16-7P",
+     "id": "official-w16-7p"
+    },
+    {
+     "state": "W16-7P (L)",
+     "code": "W16-7P (L)",
+     "id": "3346-title-103A6B5"
+    },
+    {
+     "state": "W16-7P(L)",
+     "code": "W16-7P(L)",
+     "id": "3346-signs-1-13-109816f"
+    },
+    {
+     "state": "W16-7P(LT)",
+     "code": "W16-7P(LT)",
+     "id": "pico-w16-7p-lt-10f2268"
+    },
+    {
+     "state": "W16-7P(R)",
+     "code": "W16-7P(R)",
+     "id": "3346-signs-1-13-109819d"
+    },
+    {
+     "state": "W16-7P(RT)",
+     "code": "W16-7P(RT)",
+     "id": "pico-w16-7p-rt-10f2259"
+    }
+   ]
+  },
+  {
+   "name": "SN-R2-1-SPEED-DYN",
+   "route": "signs/cad",
+   "label": "R2-1 speed limit, every posted speed",
+   "states": [
+    {
+     "state": "R2-1",
+     "code": "R2-1",
+     "id": "official-r2-1"
+    },
+    {
+     "state": "R2-1(25)",
+     "code": "R2-1(25)",
+     "id": "3346-signs-1-13-10980d1"
+    },
+    {
+     "state": "R2-1(30)",
+     "code": "R2-1(30)",
+     "id": "3346-signs-1-13-109879a"
+    },
+    {
+     "state": "R2-1(35)",
+     "code": "R2-1(35)",
+     "id": "3346-legacy-1035FE7"
+    }
+   ]
+  }
+ ]
+}

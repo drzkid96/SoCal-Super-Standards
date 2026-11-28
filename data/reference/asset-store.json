@@ -6,5 +6,8 @@
   "names": {
     "downloads/sign-blocks/master.dwg": "SOCAL-SIGN-CATALOG.dwg",
     "downloads/sign-blocks/blocks.zip": "SOCAL-SIGN-BLOCKS.zip"
-  }
+  },
+  "always": [
+    "downloads/ladot-cad/"
+  ]
 }

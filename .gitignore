@@ -36,3 +36,5 @@ public/vendor/atlas/
 # Missing native LADOT sheet previews are restored from hash-verified source editions.
 /public/figs/ladot/mpp-*/p*.webp
 /public/thumbs/figs/ladot/mpp-*/p*.webp
+/public/downloads/cad-tools/SSS-DYNBUILD.zip
+/public/downloads/ladot-cad/

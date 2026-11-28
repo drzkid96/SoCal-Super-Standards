@@ -1,10 +1,13 @@
 """Hygiene audit of every published DWG: python3 pipeline/cad_audit.py --libredwg <dir> [--json out.json]
 
 Reads each file back with LibreDWG and checks the SSS conventions:
-  - version: AC1015 (AutoCAD 2000); dynamic blocks and plan libraries AC1032 (2018)
+  - version: sign blocks AC1015 (AutoCAD 2000); marking and signal blocks, libraries and dynamic blocks
+    AC1032 (2018, true color for the guidance green and red)
   - model space holds block inserts only (signs: one insert plus its MTEXT code; libraries: many)
   - each single-block file: block name = file name, insert at 0,0
-  - insert layer in the family's set; block geometry on layer 0 or Defpoints (dynamic state layers allowed)
+  - insert layer in the family's set; block geometry on layer 0 or NOPLOT (dynamic state layers allowed);
+    static marking and signal blocks: color, linetype and lineweight ByLayer except guidance field colors
+  - green and red field hatches carry the guidance true color and a NOPLOT frame
   - header: dimension style and text style exist, units set
   - geometry: no zero-length lines or polylines, no repeated vertices, no empty blocks
   - names: letters, digits and hyphens, no spaces in file or folder names
@@ -22,8 +25,8 @@ import ezdxf
 
 ROOT = Path('public/downloads')
 NAME = re.compile(r'^[A-Za-z0-9][A-Za-z0-9-]*[A-Za-z0-9]$')   # sign codes keep their case (W4-2l)
-INSERT_LAYERS = {'P-PMARK', 'P-STRP', 'E-SITE', 'E-SITE-TEXT', 'P-SIGN-TEXT', 'P-SIGN', 'P-SIGNAL', 'P-SIGNAL-TEXT', 'P-PMARK-TEXT', 'P-SIGN-TEXT', 'P-SIGN-TABL', 'P-SIGN-TITL'}
-BLOCK_LAYERS = {'0', 'Defpoints'} | {f'{s}-{d}' for s in 'EPRA' for d in ('PMARK', 'SIGNAL', 'SITE', 'SIGN')}
+INSERT_LAYERS = {'G-SHEET', 'G-SHEET-TEXT', 'P-PMARK', 'P-STRP', 'E-SITE', 'E-SITE-TEXT', 'P-SIGN-TEXT', 'P-SIGN', 'P-SIGNAL', 'P-SIGNAL-TEXT', 'P-PMARK-TEXT', 'P-SIGN-TEXT', 'P-SIGN-TABL', 'P-SIGN-TITL'}
+BLOCK_LAYERS = {'0', 'Defpoints', 'NOPLOT'} | {f'{s}-{d}' for s in 'EPRA' for d in ('PMARK', 'SIGNAL', 'SITE', 'SIGN')}
 LIBRARIES = {'SSS-PMARK-LIBRARY', 'SSS-SIGNAL-LIBRARY', 'SSS-STRIPING-PLAN-LIBRARY', 'SSS-SIGNAL-PLAN-LIBRARY',
              'SSS-SURVEY-LIBRARY', 'MASTER'}
 DYNAMIC_LIBRARIES = {'SSS-STRIPING-PLAN-LIBRARY', 'SSS-SIGNAL-PLAN-LIBRARY', 'SSS-SURVEY-LIBRARY'}
@@ -38,7 +41,8 @@ def audit(path, libredwg):
             break
     version = path.read_bytes()[:6].decode('ascii', 'replace')
     dynamic = path.stem.endswith('-DYN') or path.stem in DYNAMIC_LIBRARIES
-    if version != ('AC1032' if dynamic else 'AC1015'):
+    signs = 'sign-blocks' in str(rel) or 'sign-legend' in str(rel)
+    if version != ('AC1015' if signs and not dynamic else 'AC1032'):
         issues.append(f'version {version}')
     with tempfile.TemporaryDirectory() as tmp:
         out = Path(tmp) / 'a.dxf'
@@ -84,6 +88,18 @@ def audit(path, libredwg):
             if e.dxf.layer not in BLOCK_LAYERS:
                 issues.append(f'block layer {e.dxf.layer}')
                 break
+        if not signs and not dynamic:
+            for e in ents:
+                if e.dxf.layer == 'NOPLOT':
+                    continue
+                if e.dxftype() == 'HATCH' and e.dxf.get('true_color') is not None:
+                    continue
+                if e.dxf.get('color', 256) in (0, 7) or e.dxf.get('lineweight', -1) != -1:
+                    issues.append('not ByLayer')
+                    break
+            fields = [e for e in ents if e.dxftype() == 'HATCH' and e.dxf.get('true_color') is not None]
+            if fields and not any(e.dxf.layer == 'NOPLOT' for e in ents):
+                issues.append('field without NOPLOT frame')
         for e in ents:
             t = e.dxftype()
             if t == 'LINE' and (e.dxf.start - e.dxf.end).magnitude < 1e-6:

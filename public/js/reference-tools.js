@@ -385,6 +385,21 @@
   }
   const signCode=article.querySelector('.sdetail-info .scode-big');
   if(signCode && heading.startsWith(signCode.textContent.trim()+' '))signCode.hidden=true;
+  // Page, section and figure actions sit behind one small menu each, so the reading view stays clean.
+  function menus(){
+    for(const bar of article.querySelectorAll('.reference-actions')){
+      const holder=bar.parentElement;
+      if(holder?.matches('details.action-menu')||!bar.children.length||bar.querySelector('.cad-shortcut')||bar.closest('.sdetail'))continue;
+      const menu=create('details'),label=bar.getAttribute('aria-label')||'Actions',summary=create('summary','\u22ef');
+      menu.className='action-menu '+[...bar.classList].filter(c=>c!=='reference-actions').join(' ');
+      summary.setAttribute('aria-label',label);summary.title=label;
+      bar.replaceWith(menu);menu.append(summary,bar);
+      bar.addEventListener('click',e=>{if(e.target.closest('button,a'))setTimeout(()=>menu.open=false,1900);});
+    }
+    for(const empty of article.querySelectorAll('details.action-menu:not(:has(.reference-actions > *))'))empty.remove();
+  }
+  document.addEventListener('click',e=>{for(const m of document.querySelectorAll('details.action-menu[open]'))if(!m.contains(e.target))m.open=false;});
+  menus();
   if(location.hash.startsWith('#ref-figure-'))document.getElementById(location.hash.slice(1))?.scrollIntoView();
-  if(book && !publication && new URL(location.href).searchParams.get('read')==='1')continuous().then(()=>article.prepend(top));
+  if(book && !publication && new URL(location.href).searchParams.get('read')==='1')continuous().then(()=>{article.prepend(top);menus();});
 })();

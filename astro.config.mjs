@@ -111,7 +111,8 @@ export default defineConfig({
           { label: 'Keyword Index A–Z', link: '/keywords/' },
           { label: 'What Governs (Status)', link: '/bulletins/standards-status/' },
         ] },
-        { label: 'CAD Blocks', collapsed: true, items: [
+        { label: 'CAD', collapsed: true, items: [
+          { label: 'CAD resources', link: '/cad/' },
           { label: 'Sign DWG blocks', link: '/signs/cad/' },
           { label: 'Pavement marking DWG blocks', link: '/markings/cad/' },
           { label: 'Signal and survey DWG blocks', link: '/signals/cad/' },

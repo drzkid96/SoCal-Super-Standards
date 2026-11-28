@@ -118,7 +118,59 @@ python3 pipeline/plan_blocks.py --source westwood-ss=<S&S DWG> --source westwood
 - Rebuilding re-encodes every file with a new timestamp: keep only new files and the libraries
   (`git checkout` the unchanged individual DWGs) so the repository does not grow for nothing.
 
-## Composed blocks: `composed_blocks.py`
+## SSS CAD standard (every marking and signal block)
+
+Rules live in `cad_standard.py`; `cad_normalize.py` applies them to every static block and is idempotent.
+- Geometry on layer 0, color, linetype and lineweight ByLayer, so the insert layer (P-PMARK, P-SIGNAL,
+  P-SIGN, E-SITE) sets how it plots. White is index 7 and prints black. Never exploded.
+- Green field: FHWA IA-14 box centroid at luminance 21 = RGB 60, 144, 2, index 74 fallback. Red field:
+  FHWA IA-22 box centroid at luminance 12 (IA-22 sets none) = RGB 157, 71, 58, index 13. True color needs
+  AutoCAD 2004 or later, so marking and signal blocks are AutoCAD 2018 (ODA File Converter, read back by
+  LibreDWG and libdxfrw). Sign blocks stay AutoCAD 2000.
+- Field hatches have a frame on NOPLOT (plot off); their old plotting outlines move there.
+- Placement: travel +Y; base on the reference line (limit line, crosswalk line, panel start) at the lane's
+  left line. Words and legends centered in an 11 ft lane; STOP and WAIT HERE 8 ft before the line, KEEP
+  CLEAR and BUS ONLY 8 ft past it (LADOT S-517.0, Westwood plans); arrows with the point 20 ft before the
+  line (CA MUTCD 3B.20); bike symbols centered in a 5 ft bike lane; green panels and crossing dashes at the
+  upstream corner on the bike lane line; sharrows 11 ft from the curb face (9E.09); crosswalks at the curb
+  corner; striping details at the start of the reference line. Each card states its rule.
+- Libraries (`block_libraries.py`, and the plan libraries in `plan_blocks.py`): one 24 x 36 in sheet per
+  group (ARCH D, the Westwood TS-1 sheet), border, title line, one viewport at a standard scale.
+
+Order after any block change: builder(s) → `cad_normalize.py` → `block_libraries.py` → `block_previews.py`
+→ `cad_block_web.py` → `cad_audit.py`.
+
+## Block cart and editor
+
+- `cad_block_web.py` writes each block as AutoCAD 2000 DXF group codes (no handles) to
+  `public/data/cad-block-entities/` with `index.json`; `test_block_cart.mjs` fails if a published block has none.
+- `block-cart.js` (cards' Add buttons, side cart, layout options), `block-library-worker.js` (combined DXF
+  from `public/cad-library/template.dxf.in`, sheet frames per group at the plan scale, LibreDWG wasm encode,
+  ZIP with originals and SSS-ASSEMBLE.scr), `block-generators.js` (crosswalk, green bike crossing, green
+  panel, limit line; LADOT dots hatch at scale 10 as on the Westwood plans).
+- Browser-combined blocks are AutoCAD 2000 and static; the script reinserts the originals for grips.
+
+## Dynamic families: `dynamic_families.py` and `SSS-DYNBUILD.lsp`
+
+How dynamic blocks are made and kept up:
+- A family merges published variants that share one placement rule (all lane arrows, all words, the
+  crossing dash widths, crosswalk types, each sign's left and right versions, R2-1 speeds). Never mix
+  rules: one base point serves every state.
+- `python3 pipeline/dynamic_families.py` writes the family list (`data/reference/dynamic-families.json`).
+  The site build packs `SSS-DYNBUILD.zip` (routine, manifest CSV, every state drawing).
+- In AutoCAD: unzip, new drawing in feet, APPLOAD `SSS-DYNBUILD.lsp`, `SSSDYNTEST` (one family), then
+  `SSSDYNBUILD`. For each family it inserts every state at 0,0, tags each state by a temporary layer,
+  makes the block, then in the block editor adds one visibility parameter (one state per variant),
+  a rotation parameter and flip X and flip Y parameters at 0,0, each with its action on all geometry,
+  restores layer 0 and NOPLOT, saves and WBLOCKs `OUT\<family>.dwg`. Log: `OUT\SSS-DYNBUILD.log`.
+- Publish: upload the OUT folder; files are published byte for byte (never re-encoded), checked by
+  ODA read-back for native evaluation graphs (as `plan_blocks.write` does).
+- Maintain: change a variant (rebuild it, normalize it), or add a family row in `dynamic_families.py`,
+  then rerun SSSDYNBUILD for that family only (delete the other rows from the CSV).
+- Only AutoCAD writes dynamic block objects reliably. ODA keeps them byte for byte when cutting and
+  converting (proxy round trip), which is how the Westwood dynamic blocks are published; it cannot
+  author new parameters.
+ `composed_blocks.py`
 
 `python3 pipeline/composed_blocks.py --libredwg <dir>` writes blocks the plans draw as loose geometry
 or typed text:

@@ -94,6 +94,9 @@ if boe_catalog.exists():
 current_details = prepare_current(root, look, retired)
 from ladot_drawings import prepare as prepare_ladot_drawings, sheet_label
 ladot_sets=prepare_ladot_drawings(root,current_details,look)
+from ladot_dwg import hydrate as hydrate_ladot_cad, link_pages as link_ladot_cad
+hydrate_ladot_cad()
+link_ladot_cad(root)
 Path('public/data/lookup.json').write_text(json.dumps(look))
 ladot_originals={
  'mpp-531':'https://ladot.lacity.gov/sites/default/files/2023-02/mpp_531_02212023.pdf',
@@ -198,6 +201,10 @@ from article_layout import build as prepare_editorial_articles
 prepare_editorial_articles(root, current_details)
 from design_blocks import build as build_design_blocks
 build_design_blocks(root, look)
+from dynamic_families import package as package_dynamic_families
+package_dynamic_families()
+from declutter import build as declutter
+declutter(root)
 from search_catalog import build as build_search_catalog
 build_search_catalog(root, look, current_details)
 finish_atlas(root,atlas_profiles)

@@ -173,6 +173,7 @@ TO_ZERO = {'BASE', '1', 'STRP', 'FP-RAISED-ELEMENT', 'FP-RAISED-ELEMENT-FRZ', 'Z
 NO_PLOT = {'FP-NOPLOT', '_FP-NOPLOT', 'FP-NO-PLOT', '__AA-WORKING-01', 'FP-Noplot', 'FP-NOPLOT-EH', 'FP-NOPLOT-ND'}
 GREEN = {'_P-STRP-GREEN', 'FP-GREEN-BIKE-LANE'}
 ALIASES = {'_E-STRP-RETAIN': 'E-PMARK', '_LADOT-P-SIGN-SYM': 'P-SIGN'}
+GROUP_OF = {}     # standard name -> page group, filled by build() for library sheets
 LINETYPES = {'Base$0$R-Solid': ('PMARK-REMOVE', 'Removed marking  __ __ __')}
 
 
@@ -514,23 +515,38 @@ def layout(doc, names, insert_layer=None):
         for layer, color in ((lay, 7 if lay.startswith('P-') else 8), (lay + '-TEXT', 7)):
             if layer not in doc.layers:
                 doc.layers.new(layer, dxfattribs={'color': color})
-    msp, x, y, row_h = doc.modelspace(), 0.0, 0.0, 0.0
-    single = len(names) == 1
-    for n, name in enumerate(names):
+    msp = doc.modelspace()
+    if len(names) == 1:
+        name = names[0]
         ext = bbox.extents(doc.blocks[name])
-        w, h = ext.extmax.x - ext.extmin.x, ext.extmax.y - ext.extmin.y
-        if not single and x > 0 and x + w > 200:   # rows about 200 ft wide
-            x, y = 0.0, y - row_h - 6
-            row_h = 0.0
-        at = (0, 0) if single else (x - ext.extmin.x, y - ext.extmax.y)
-        msp.add_blockref(name, at, dxfattribs={'layer': insert_layer_of(name)})
-        cx = (ext.extmin.x + ext.extmax.x) / 2 if single else x + w / 2
-        cy = ext.extmin.y - 1.0 if single else y - h - 1.0
+        msp.add_blockref(name, (0, 0), dxfattribs={'layer': insert_layer_of(name)})
         msp.add_mtext(name, dxfattribs={'layer': insert_layer_of(name) + '-TEXT', 'style': 'ROMANS', 'char_height': 0.6,
-                                        'insert': (cx, cy), 'attachment_point': 2})
-        x += max(w, len(name) * 0.6) + 6
-        row_h = max(row_h, h + 2)
-
+                                        'insert': ((ext.extmin.x + ext.extmax.x) / 2, ext.extmin.y - 1.0),
+                                        'attachment_point': 2})
+        return
+    # a library: each page group in its own area, one 24 x 36 sheet per group
+    from block_libraries import sheet
+    groups = list(dict.fromkeys(GROUP_OF.get(n, 'Blocks') for n in names))
+    old_sheets = [n for n in doc.layouts.names() if n != 'Model']
+    for gi, group in enumerate(groups):
+        x0, x, y, row_h, right = gi * 5000.0, 0.0, 0.0, 0.0, 0.0
+        msp.add_mtext(group.upper(), dxfattribs={'layer': insert_layer_of(names[0]) + '-TEXT', 'style': 'ROMANS',
+                                                 'char_height': 2.0, 'insert': (x0, 3.0), 'attachment_point': 7})
+        for name in [n for n in names if GROUP_OF.get(n, 'Blocks') == group]:
+            ext = bbox.extents(doc.blocks[name])
+            w, h = ext.extmax.x - ext.extmin.x, ext.extmax.y - ext.extmin.y
+            if x > 0 and x + w > 120:
+                x, y, row_h = 0.0, y - row_h - 6, 0.0
+            msp.add_blockref(name, (x0 + x - ext.extmin.x, y - ext.extmax.y), dxfattribs={'layer': insert_layer_of(name)})
+            msp.add_mtext(name, dxfattribs={'layer': insert_layer_of(name) + '-TEXT', 'style': 'ROMANS', 'char_height': 0.6,
+                                            'insert': (x0 + x + w / 2, y - h - 1.0), 'attachment_point': 2})
+            x += max(w, len(name) * 0.6) + 6
+            right = max(right, x)
+            row_h = max(row_h, h + 2)
+        sheet(doc, f'{gi + 1:02d} {group}', (x0 - 3, y - row_h - 3, x0 + right, 6.0), 'ft',
+              'SSS LA PLAN LIBRARY (WESTWOOD)', group)
+    for n in old_sheets:     # the source drawing's own sheets do not belong in a block library
+        doc.layouts.delete(n)
 
 def write(lib_dxf, names, target, libredwg, work, expect):
     """Cut one or more already-standard blocks from a source library DXF into a published DWG."""
@@ -630,6 +646,7 @@ def build(paths, libredwg):
                 owner[new] = source
                 expect[new] = expect_src[new]
                 rows[new] = {'code': new, 'label': label, 'group': group, 'source': source}
+                GROUP_OF[new] = group
             libs[source] = lib
         # one file per block, then one library per source drawing
         for name, row in rows.items():

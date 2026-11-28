@@ -256,40 +256,12 @@ def write(code, kind, origin, libredwg):
             raise ValueError(code + ': DWG read-back differs')
 
 
-def library(rows, libredwg):
-    """Every symbol in one drawing for the Blocks palette, by group, code under each (plotted inches)."""
-    from ezdxf.addons import Importer
-    lib = r2000_document()
-    lib.units = 1
-    for name in ('P-SIGNAL', 'P-SIGNAL-TEXT'):
-        lib.layers.new(name, dxfattribs={'color': 3 if name == 'P-SIGNAL' else 7})
-    msp, y = lib.modelspace(), 0.0
+def library(rows, libredwg, libdxfrw=None):
+    """The ES-1 library is written by block_libraries.py (group sheet layouts, AutoCAD 2018)."""
+    import block_libraries
+    spec = next(s for s in block_libraries.LIBRARIES if s['file'] == LIBRARY)
     with tempfile.TemporaryDirectory() as tmp:
-        for group in dict.fromkeys(g for g, _ in GROUPS):
-            members = [r for r in rows if r['group'] == group]
-            if not members:
-                continue
-            msp.add_text(group.upper(), height=0.2, dxfattribs={'layer': 'P-SIGNAL-TEXT', 'style': 'ROMANS', 'insert': (0, y)})
-            y -= 0.6
-            for n, r in enumerate(members):
-                col, row = n % 8, n // 8
-                dxf = Path(tmp) / (r['code'] + '.dxf')
-                subprocess.run([libredwg / 'dwg2dxf', '-y', '-o', dxf, OUT / r['file']], capture_output=True, check=True)
-                imp = Importer(ezdxf.readfile(dxf), lib)
-                imp.import_block(r['code'])
-                imp.finalize()
-                at = (col * 2.2 + 1.0, y - row * 1.6 - 0.6)
-                msp.add_blockref(r['code'], at, dxfattribs={'layer': 'P-SIGNAL'})
-                msp.add_text(r['code'].replace('CT-', ''), height=0.06, dxfattribs={'layer': 'P-SIGNAL-TEXT', 'style': 'ROMANS'}).set_placement(
-                    (at[0], at[1] - 0.6), align=ezdxf.enums.TextEntityAlignment.MIDDLE_CENTER)
-            y -= ((len(members) - 1) // 8 + 1) * 1.6 + 0.8
-        path = Path(tmp) / 'lib.dxf'
-        lib.set_modelspace_vport(height=-y * 1.05, center=(9, y / 2))
-        lib.saveas(path)
-        target = OUT / LIBRARY
-        log = subprocess.run([libredwg / 'dxf2dwg', '-y', '--as', 'r2000', '-o', target, path], capture_output=True, text=True, check=True)
-        if re.search(r'warning|error', log.stdout + log.stderr, re.I):
-            raise ValueError('library: ' + (log.stdout + log.stderr)[-300:])
+        block_libraries.build_library(spec, libredwg, libdxfrw, Path(tmp))
 
 
 def publish(rows):
@@ -307,7 +279,7 @@ def publish(rows):
                        'remove and abandon states on E-, P-, R- and A- layers. Every drawing opens as block inserts only, geometry on layer '
                        '0 ByBlock or its state layer.')
     entry = {'label': LIBRARY, 'path': f'downloads/{ROUTE}/{LIBRARY}',
-             'note': 'every Caltrans ES-1 symbol in one drawing, for the Blocks palette (Libraries tab), DesignCenter or a tool palette'}
+             'note': 'every Caltrans ES-1 symbol in one drawing, one 24 x 36 sheet per group, for the Blocks palette, DesignCenter or a tool palette'}
     section['downloads'] = [entry] + [d for d in section.get('downloads', []) if d['label'] != LIBRARY]
     CATALOG.write_text(json.dumps(catalog, indent=2) + '\n')
 

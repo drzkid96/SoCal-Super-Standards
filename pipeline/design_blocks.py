@@ -15,8 +15,13 @@ def build(root, lookup):
         page = root / route / 'index.md'
         page.parent.mkdir(parents=True, exist_ok=True)
         lines = ['---', 'title: ' + json.dumps(title), 'tableOfContents: false', '---', '']
+        lines.extend([f'<link rel="stylesheet" href="{BASE}/js/block-cart.css">',
+                      f'<script src="{BASE}/js/block-generators.js" defer></script>',
+                      f'<script src="{BASE}/js/block-cart.js" defer></script>', ''])
         if collection.get('note'):
             lines.extend([escape(collection['note']), ''])
+        lines.extend(['<div class="block-tools"><button type="button" onclick="window.SSSBlockCart&&SSSBlockCart.open()">Open block cart</button>'
+                      '<button type="button" data-block-editor="crosswalk">Block editor</button></div>', ''])
         if collection.get('preview'):
             image = Path('public') / collection['preview']
             if not image.is_file():
@@ -45,19 +50,20 @@ def build(root, lookup):
             preview = Path('block-previews') / route / (Path(filename).stem + '.svg')
             if not (Path('public') / preview).is_file():
                 raise ValueError(f'Missing preview picture: {preview} (run pipeline/block_previews.py)')
-            groups[row['group']].append((code, label, asset, preview))
+            groups[row['group']].append((code, label, asset, preview, row.get('placement', '')))
         if not used:
             lines.append('No DWG blocks have been published yet. Browse the design references below.')
         for group, rows in groups.items():
             if not rows:
                 continue
             lines.extend(['', '## ' + group, '', '<div class="block-grid">'])
-            for code, name, asset, preview in sorted(rows):
+            for code, name, asset, preview, place in sorted(rows):
                 href = f'{BASE}/{quote(asset.as_posix())}'
                 lines.append(f'<figure class="block-card" id="{escape(code.lower())}"><a download href="{href}" aria-label="Download {escape(code)} DWG">'
                              f'<img src="{BASE}/{quote(preview.as_posix())}" alt="{escape(name)}" loading="lazy" decoding="async"></a>'
-                             f'<figcaption><strong>{escape(code)}</strong><span>{escape(name)}</span>'
-                             f'<a download href="{href}">DWG</a></figcaption></figure>')
+                             f'<figcaption><strong>{escape(code)}</strong><span>{escape(name)}</span>' + (f'<small class="block-place">{escape(place)}</small>' if place else '') +
+                             f'<span class="block-actions"><button type="button" data-block-add="{escape(code)}">Add</button>'
+                             f'<a download href="{href}">DWG</a></span></figcaption></figure>')
             lines.append('</div>')
         lines.extend(['', '## Design references', ''])
         for name, path in collection['references'].items():
