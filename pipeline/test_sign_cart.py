@@ -223,11 +223,11 @@ def run(browser, base, downloads):
     assert cells[0].rect['x'] < cells[1].rect['x'] and cells[0].rect['y']==cells[1].rect['y']
     assert cells[2].rect['x']==cells[0].rect['x'] and cells[2].rect['y']>cells[0].rect['y']
     click(css('[data-legend-next]'))
-    assert ordered_slots()==distinct[28:] and 'SS-1' in css('[data-legend-caption]').text
+    assert ordered_slots()==code_order(distinct)[28:] and 'SS-1' in css('[data-legend-caption]').text
     click(css('[data-legend-next]'))
     assert ordered_slots()==[stop] and 'SS-2' in css('[data-legend-caption]').text
     if width>1000:
-        download([('SS-1',distinct),('SS-2',[stop])])
+        download([('SS-1',code_order(distinct)),('SS-2',[stop])])
     click(css('[data-cart-clear]'))
     close()
     browser.get(base+'tools/sign-import/')
@@ -252,8 +252,8 @@ def run(browser, base, downloads):
     click(browser.find_element(By.XPATH,'//button[.="Add selected DWGs"]'))
     wait.until(lambda _: 'cart=1' in browser.current_url and css('[data-cart-dialog]').is_displayed())
     imported = browser.execute_script('return window.SSSSignCart.getGroups()')
-    expected = [('SS-101',[stop,'official-callout-w48-2ca','3346-signs-1-13-1098640']),
-                ('SS-102',[stop,chosen_speed,'3346-signs-1-13-10980d1','official-callout-w48-2ca'])]
+    expected = [('SS-101',code_order([stop,'official-callout-w48-2ca','3346-signs-1-13-1098640'])),
+                ('SS-102',code_order([stop,chosen_speed,'3346-signs-1-13-10980d1','official-callout-w48-2ca']))]
     assert [(g['label'],g['records']) for g in imported] == expected
     count(7)
     download(expected)
