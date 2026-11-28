@@ -26,7 +26,7 @@ tableOfContents: false
 
 ## Sizes and layout dimensions (inches)
 
-<table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th></tr></thead><tbody><tr><td>24</td><td>15</td><td>0.375</td><td>0.5</td><td>3</td><td>3.5</td><td>D*</td><td>2</td><td>3.5</td><td>D**</td></tr><tr><td>36</td><td>24</td><td>0.375</td><td>0.625</td><td>4.625</td><td>5.5</td><td>D*</td><td>3.75</td><td>5.5</td><td>D**</td></tr><tr><td>5.204</td><td>2.25</td><td>0.562</td><td>8.016</td><td>7.293</td><td>7.293</td><td>1.5</td></tr><tr><td>8.177</td><td>3.5</td><td>0.896</td><td>12.585</td><td>11.461</td><td>11.460</td><td>1.5</td></tr></tbody></table>
+<table class="dims"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th></tr></thead><tbody><tr><td>24</td><td>15</td><td>0.375</td><td>0.5</td><td>3</td><td>3.5 D*</td><td>2</td><td>3.5 D**</td></tr><tr><td>36</td><td>24</td><td>0.375</td><td>0.625</td><td>4.625</td><td>5.5 D*</td><td>3.75</td><td>5.5 D**</td></tr><tr><td>5.204</td><td>2.25</td><td>0.562</td><td>8.016</td><td>7.293</td><td>7.293</td><td>1.5</td><td></td></tr><tr><td>8.177</td><td>3.5</td><td>0.896</td><td>12.585</td><td>11.461</td><td>11.460</td><td>1.5</td><td></td></tr></tbody></table>
 
 <p class="note">Column A is the sign size. Use the MUTCD size tables for which size applies (conventional road, minimum, oversized).</p>
 
