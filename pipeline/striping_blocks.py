@@ -1,4 +1,6 @@
-"""Caltrans striping details as DWG blocks and an AutoCAD linetype file.
+"""RETIRED 2026-11-28: striping is drawn with line types (pipeline/linetype_packages.py). Kept for reference.
+
+Caltrans striping details as DWG blocks and an AutoCAD linetype file.
 
 Every detail in the SSS striping database (pipeline/striping_db.py, read from the 2026 Standard
 Plans A20 sheets) becomes:

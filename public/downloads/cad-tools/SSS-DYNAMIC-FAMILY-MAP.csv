@@ -1,0 +1,374 @@
+block,dynamic_block,state,master
+PM-ARROW-SET-DYN,Lane-use arrow (Caltrans types),12 Caltrans types,PM-ARROW-SET-DYN
+CT-A24A-TYPE-I-10FT,Lane-use arrow (Caltrans types),Type 1,PM-ARROW-SET-DYN
+CT-A24A-TYPE-I-18FT,Lane-use arrow (Caltrans types),Type 1-18,PM-ARROW-SET-DYN
+CT-A24A-TYPE-I-24FT,Lane-use arrow (Caltrans types),Type 1-24,PM-ARROW-SET-DYN
+CT-A24B-TYPE-II-L,Lane-use arrow (Caltrans types),Type 2-L/R,PM-ARROW-SET-DYN
+CT-A24B-TYPE-II-R,Lane-use arrow (Caltrans types),Type 2-L/R,PM-ARROW-SET-DYN
+CT-A24B-TYPE-II-B,Lane-use arrow (Caltrans types),Type 2-Both,PM-ARROW-SET-DYN
+CT-A24B-TYPE-III-L,Lane-use arrow (Caltrans types),Type 3-L/R,PM-ARROW-SET-DYN
+CT-A24B-TYPE-III-R,Lane-use arrow (Caltrans types),Type 3-L/R,PM-ARROW-SET-DYN
+CT-A24B-TYPE-III-B,Lane-use arrow (Caltrans types),Type 3-Both,PM-ARROW-SET-DYN
+CT-A24A-TYPE-IV-L,Lane-use arrow (Caltrans types),Type 4-L/R,PM-ARROW-SET-DYN
+CT-A24A-TYPE-IV-R,Lane-use arrow (Caltrans types),Type 4-L/R,PM-ARROW-SET-DYN
+CT-A24A-TYPE-V,Lane-use arrow (Caltrans types),Type 5,PM-ARROW-SET-DYN
+CT-A24A-TYPE-VI,Lane-use arrow (Caltrans types),Type 6-L/R,PM-ARROW-SET-DYN
+CT-A24A-TYPE-VI-MIRROR,Lane-use arrow (Caltrans types),Type 6-L/R,PM-ARROW-SET-DYN
+CT-A24A-TYPE-VII-L,Lane-use arrow (Caltrans types),Type 7-L/R,PM-ARROW-SET-DYN
+CT-A24A-TYPE-VII-R,Lane-use arrow (Caltrans types),Type 7-L/R,PM-ARROW-SET-DYN
+CT-A24A-TYPE-VIII,Lane-use arrow (Caltrans types),Type 8-Both,PM-ARROW-SET-DYN
+PM-THRU-ARROW-DYN,"Lane-use arrow (LA plan, with conditions)",Through,PM-THRU-ARROW-DYN
+PM-LEFT-ARROW-DYN,"Lane-use arrow (LA plan, with conditions)",Left,PM-THRU-ARROW-DYN
+PM-RIGHT-ARROW-DYN,"Lane-use arrow (LA plan, with conditions)",Right,PM-THRU-ARROW-DYN
+PM-THRU-LEFT-ARROW-DYN,"Lane-use arrow (LA plan, with conditions)",Through and left,PM-THRU-ARROW-DYN
+PM-THRU-RIGHT-ARROW-DYN,"Lane-use arrow (LA plan, with conditions)",Through and right,PM-THRU-ARROW-DYN
+PM-LEFT-RIGHT-ARROW-DYN,"Lane-use arrow (LA plan, with conditions)",Left and right,PM-THRU-ARROW-DYN
+PM-MERGE-ARROW-DYN,"Lane-use arrow (LA plan, with conditions)",Merge,PM-THRU-ARROW-DYN
+PM-BIKE-LANE-GREEN-DYN,Bike lane marking (symbol and arrow on green back),"5, 6 or 7 ft green back",PM-BIKE-LANE-GREEN-DYN
+PM-BIKE-SYMBOL,Bike lane marking (symbol and arrow on green back),Symbol (nested),PM-BIKE-LANE-GREEN-DYN
+PM-BIKE-ARROW,Bike lane marking (symbol and arrow on green back),Arrow (nested),PM-BIKE-LANE-GREEN-DYN
+PM-BIKE-LANE-GREEN-5FT-DYN,"Bike lane marking pair, 25 ft apart",Front or back base point,PM-BIKE-LANE-GREEN-5FT-DYN
+CT-A24C-BIKE-SYMBOL,Bike symbol and bike lane arrow (no green),Bike symbol,CT-A24C-BIKE-SYMBOL
+CT-A24C-BIKE-SYMBOL-PERSON,Bike symbol and bike lane arrow (no green),Bike symbol with rider,CT-A24C-BIKE-SYMBOL
+CT-A24A-BIKE-LANE-ARROW,Bike symbol and bike lane arrow (no green),Bike lane arrow,CT-A24C-BIKE-SYMBOL
+PM-BIKE-LEFT-THRU-ARROW-DYN,Bike turn arrow,Left and through,PM-BIKE-LEFT-THRU-ARROW-DYN
+CT-A24C-SHARROW,Shared lane marking,Sharrow,CT-A24C-SHARROW
+PM-BIKE-XING-GREEN-5FT,Green bike crossing,5 ft,PM-BIKE-XING-GREEN-6FT
+PM-BIKE-XING-GREEN-6FT,Green bike crossing,6 ft,PM-BIKE-XING-GREEN-6FT
+PM-BIKE-XING-GREEN-6P5FT,Green bike crossing,6.5 ft,PM-BIKE-XING-GREEN-6FT
+PM-BIKE-XING-GREEN-7FT,Green bike crossing,7 ft,PM-BIKE-XING-GREEN-6FT
+PM-BIKE-XING-GREEN-8FT,Green bike crossing,8 ft,PM-BIKE-XING-GREEN-6FT
+CT-A24F-CONTINENTAL,Crosswalk,Continental,CT-A24F-CONTINENTAL
+CT-A24F-LADDER,Crosswalk,Ladder,CT-A24F-CONTINENTAL
+CT-A24F-BASIC,Crosswalk,Standard,CT-A24F-CONTINENTAL
+CT-A24F-TRIPLE-FOUR,Crosswalk,Triple-four,CT-A24F-CONTINENTAL
+CT-A24F-DIAGONAL,Crosswalk,Diagonal,CT-A24F-CONTINENTAL
+PM-WAIT-HERE,Word before the line (built-in setback),WAIT HERE,PM-WAIT-HERE
+CT-A24D-STOP,Word before the line (built-in setback),STOP,PM-WAIT-HERE
+PM-KEEP-CLEAR,Word past the line (built-in setback),KEEP CLEAR,PM-KEEP-CLEAR
+PM-BUS-ONLY,Word past the line (built-in setback),BUS ONLY,PM-KEEP-CLEAR
+CT-A24E-ONLY,Lane word,ONLY,CT-A24E-ONLY
+CT-A24E-BIKE,Lane word,BIKE,CT-A24E-ONLY
+CT-A24E-BUS,Lane word,BUS,CT-A24E-ONLY
+CT-A24E-LANE,Lane word,LANE,CT-A24E-ONLY
+CT-A24E-HOV,Lane word,HOV,CT-A24E-ONLY
+CT-A24E-NO,Lane word,NO,CT-A24E-ONLY
+CT-A24E-KEEP,Lane word,KEEP,CT-A24E-ONLY
+CT-A24E-CLEAR,Lane word,CLEAR,CT-A24E-ONLY
+CT-A24E-TRAIL,Lane word,TRAIL,CT-A24E-ONLY
+CT-A24D-LEFT,Lane word,LEFT,CT-A24E-ONLY
+CT-A24D-RIGHT,Lane word,RIGHT,CT-A24E-ONLY
+CT-A24D-TURN,Lane word,TURN,CT-A24E-ONLY
+CT-A24D-YIELD,Lane word,YIELD,CT-A24E-ONLY
+CT-A24D-WAIT,Lane word,WAIT,CT-A24E-ONLY
+CT-A24D-HERE,Lane word,HERE,CT-A24E-ONLY
+CT-A24E-NORTH,Route and direction word,NORTH,CT-A24E-NORTH
+CT-A24E-SOUTH,Route and direction word,SOUTH,CT-A24E-NORTH
+CT-A24E-EAST,Route and direction word,EAST,CT-A24E-NORTH
+CT-A24E-WEST,Route and direction word,WEST,CT-A24E-NORTH
+CT-A24E-FWY,Route and direction word,FWY,CT-A24E-NORTH
+CT-A24E-EXPRS,Route and direction word,EXPRS,CT-A24E-NORTH
+CT-A24D-SLOW,Warning word,SLOW,CT-A24D-SLOW
+CT-A24D-SCHOOL,Warning word,SCHOOL,CT-A24D-SLOW
+CT-A24D-XING,Warning word,XING,CT-A24D-SLOW
+CT-A24D-PED,Warning word,PED,CT-A24D-SLOW
+CT-A24D-AHEAD,Warning word,AHEAD,CT-A24D-SLOW
+CT-A24D-SIGNAL,Warning word,SIGNAL,CT-A24D-SLOW
+CT-A24D-RUNAWAY,Warning word,RUNAWAY,CT-A24D-SLOW
+CT-A24D-VEHICLES,Warning word,VEHICLES,CT-A24D-SLOW
+CT-A24D-BIKE-4FT,"Bike lane and parking word, 4 ft",BIKE,CT-A24D-BIKE-4FT
+CT-A24D-LANE-4FT,"Bike lane and parking word, 4 ft",LANE,CT-A24D-BIKE-4FT
+CT-A24D-COMPACT,"Bike lane and parking word, 4 ft",COMPACT,CT-A24D-BIKE-4FT
+CT-A24C-NUMERAL-0,Pavement numeral,0,CT-A24C-NUMERAL-0
+CT-A24C-NUMERAL-2,Pavement numeral,2,CT-A24C-NUMERAL-0
+CT-A24C-NUMERAL-3,Pavement numeral,3,CT-A24C-NUMERAL-0
+CT-A24C-NUMERAL-4,Pavement numeral,4,CT-A24C-NUMERAL-0
+CT-A24C-NUMERAL-5,Pavement numeral,5,CT-A24C-NUMERAL-0
+CT-A24B-RXR,Railroad crossing marking,RXR,CT-A24B-RXR
+CT-A24C-DIAMOND,Lane and parking symbol,Diamond,CT-A24C-DIAMOND
+CT-A24C-ISA,Lane and parking symbol,Accessible parking,CT-A24C-DIAMOND
+PM-YIELD-LINE-DYN,Yield line,Array,PM-YIELD-LINE-DYN
+PM-YIELD-LINE-TRIANGLE,Yield line,Triangle,PM-YIELD-LINE-DYN
+PM-CURB-STOP-DYN,Curb stop,"6 ft or 4 ft, mountable or not",PM-CURB-STOP-DYN
+PM-LEFT-TURN-CALMING-10FT,Left turn calming,10 ft curb,PM-LEFT-TURN-CALMING-10FT
+PM-LEFT-TURN-CALMING-3FT,Left turn calming,3 ft bump,PM-LEFT-TURN-CALMING-10FT
+PM-LANE-DEFENDER-15FT,Lane defender,15 ft,PM-LANE-DEFENDER-15FT
+SG-VEHICLE-HEAD-RYG-DYN,"Vehicle head, ball",RYG,SG-VEHICLE-HEAD-RYG-DYN
+SG-RYG-LOUVERED-DYN,"Vehicle head, ball",RYG louvered,SG-VEHICLE-HEAD-RYG-DYN
+CT-ES1B-NSMS,"Vehicle head, ball",Caltrans new,SG-VEHICLE-HEAD-RYG-DYN
+CT-ES1B-ESMS,"Vehicle head, ball",Caltrans existing,SG-VEHICLE-HEAD-RYG-DYN
+CT-ES1B-NSFAV,"Vehicle head, ball","Angle visor, new",SG-VEHICLE-HEAD-RYG-DYN
+CT-ES1B-ESFAV,"Vehicle head, ball","Angle visor, existing",SG-VEHICLE-HEAD-RYG-DYN
+SG-VEHICLE-HEAD-RYG-ARROWS-DYN,"Vehicle head, arrows",RYG arrows,SG-VEHICLE-HEAD-RYG-ARROWS-DYN
+SG-VEHICLE-HEAD-R-YG-ARROWS-DYN,"Vehicle head, arrows","Red ball, YG arrows",SG-VEHICLE-HEAD-RYG-ARROWS-DYN
+SG-VEHICLE-HEAD-GREEN-UP-ARROW-DYN,"Vehicle head, arrows",Green up arrow,SG-VEHICLE-HEAD-RYG-ARROWS-DYN
+SG-YG-ARROW-SECTIONS-DYN,"Vehicle head, arrows",YG arrow sections,SG-VEHICLE-HEAD-RYG-ARROWS-DYN
+SG-GREEN-ARROW-SECTION-DYN,"Vehicle head, arrows",Green arrow section,SG-VEHICLE-HEAD-RYG-ARROWS-DYN
+CT-ES1B-N312LA,"Vehicle head, arrows","Caltrans left arrows, new",SG-VEHICLE-HEAD-RYG-ARROWS-DYN
+CT-ES1B-E312LA,"Vehicle head, arrows","Caltrans left arrows, existing",SG-VEHICLE-HEAD-RYG-ARROWS-DYN
+CT-ES1B-N12UA,"Vehicle head, arrows","Caltrans up arrow, new",SG-VEHICLE-HEAD-RYG-ARROWS-DYN
+CT-ES1B-E12UA,"Vehicle head, arrows","Caltrans up arrow, existing",SG-VEHICLE-HEAD-RYG-ARROWS-DYN
+SG-LONG-VISOR-DYN,Visor,Long,SG-LONG-VISOR-DYN
+SG-BEVEL-VISOR-DYN,Visor,Bevel,SG-LONG-VISOR-DYN
+SG-PED-HEAD-DYN,Pedestrian head,LA plan,SG-PED-HEAD-DYN
+CT-ES1B-NPSH,Pedestrian head,Caltrans new,SG-PED-HEAD-DYN
+CT-ES1B-EPSH,Pedestrian head,Caltrans existing,SG-PED-HEAD-DYN
+SG-FLASHING-BEACON-DYN,Flashing beacon,LA plan,SG-FLASHING-BEACON-DYN
+CT-ES1B-NCFB,Flashing beacon,"With sign, new",SG-FLASHING-BEACON-DYN
+CT-ES1B-ECFB,Flashing beacon,"With sign, existing",SG-FLASHING-BEACON-DYN
+CT-ES1B-NFBARM,Flashing beacon,"On arm, new",SG-FLASHING-BEACON-DYN
+CT-ES1B-EFBARM,Flashing beacon,"On arm, existing",SG-FLASHING-BEACON-DYN
+CT-ES1B-NM15FB,Flashing beacon,"On 15-FBS, new",SG-FLASHING-BEACON-DYN
+CT-ES1B-EM15FB,Flashing beacon,"On 15-FBS, existing",SG-FLASHING-BEACON-DYN
+SG-STANDARD-DYN,Signal standard,Standard,SG-STANDARD-DYN
+SG-STANDARD-T3-DYN,Signal standard,T3,SG-STANDARD-DYN
+SG-STANDARD-T5-DYN,Signal standard,T5,SG-STANDARD-DYN
+CT-ES1B-NTYPE1,Signal standard,"Type 1, new",SG-STANDARD-DYN
+CT-ES1B-E-TYPE-1-STANDARD-WITH-ATTACHED,Signal standard,"Type 1, existing",SG-STANDARD-DYN
+CT-ES1B-N15TS,Signal standard,"15TS, new",SG-STANDARD-DYN
+CT-ES1B-E15TS,Signal standard,"15TS, existing",SG-STANDARD-DYN
+CT-ES1B-N21TS,Signal standard,"21TS, new",SG-STANDARD-DYN
+CT-ES1B-E21TS,Signal standard,"21TS, existing",SG-STANDARD-DYN
+CT-ES1B-N-STANDARD-WITH-SIGNAL-MAST-ARM,Mast arm standard,"Mast arm, new",CT-ES1B-N-STANDARD-WITH-SIGNAL-MAST-ARM
+CT-ES1B-E-STANDARD-WITH-SIGNAL-MAST-ARM,Mast arm standard,"Mast arm, existing",CT-ES1B-N-STANDARD-WITH-SIGNAL-MAST-ARM
+CT-ES1B-NMSWLS,Mast arm standard,"With luminaire, new",CT-ES1B-N-STANDARD-WITH-SIGNAL-MAST-ARM
+CT-ES1B-EMSWLS,Mast arm standard,"With luminaire, existing",CT-ES1B-N-STANDARD-WITH-SIGNAL-MAST-ARM
+SG-PUSH-BUTTON-POST-DYN,Push button,Post,SG-PUSH-BUTTON-POST-DYN
+SG-PED-PUSH-BUTTON-DYN,Push button,Button on pole,SG-PUSH-BUTTON-POST-DYN
+CT-ES1B-N-POST-WITH-PUSH-BUTTON,Push button,"Caltrans post, new",SG-PUSH-BUTTON-POST-DYN
+CT-ES1B-EPPB,Push button,"Caltrans post, existing",SG-PUSH-BUTTON-POST-DYN
+SG-LOOP-6FT-DYN,"Loop detector, single",6 ft round,SG-LOOP-6FT-DYN
+SG-LOOP-6FT-OCTAGON-DYN,"Loop detector, single",6 ft octagon,SG-LOOP-6FT-DYN
+SG-LOOP-8X6FT-OCTAGON-DYN,"Loop detector, single",8 x 6 ft octagon,SG-LOOP-6FT-DYN
+SG-LOOP-3FT-BIKE-DYN,"Loop detector, single",3 ft bike,SG-LOOP-6FT-DYN
+SG-LOOP-6FT-COMBO-BIKE-DYN,"Loop detector, single",6 ft combo bike,SG-LOOP-6FT-DYN
+CT-ES1C-N-TYPE-A-LOOP-DETECTOR,"Loop detector, single","Type A, new",SG-LOOP-6FT-DYN
+CT-ES1C-E-TYPE-A-LOOP-DETECTOR,"Loop detector, single","Type A, existing",SG-LOOP-6FT-DYN
+CT-ES1C-N-TYPE-B-LOOP-DETECTOR,"Loop detector, single","Type B, new",SG-LOOP-6FT-DYN
+CT-ES1C-E-TYPE-B-LOOP-DETECTOR,"Loop detector, single","Type B, existing",SG-LOOP-6FT-DYN
+CT-ES1C-N-TYPE-C-LOOP-DETECTOR,"Loop detector, single","Type C, new",SG-LOOP-6FT-DYN
+CT-ES1C-E-TYPE-C-LOOP-DETECTOR,"Loop detector, single","Type C, existing",SG-LOOP-6FT-DYN
+CT-ES1C-N-TYPE-D-LOOP-DETECTOR,"Loop detector, single","Type D, new",SG-LOOP-6FT-DYN
+CT-ES1C-E-TYPE-D-LOOP-DETECTOR,"Loop detector, single","Type D, existing",SG-LOOP-6FT-DYN
+CT-ES1C-N-TYPE-Q-LOOP-DETECTOR,"Loop detector, single","Type Q, new",SG-LOOP-6FT-DYN
+CT-ES1C-E-TYPE-Q-LOOP-DETECTOR,"Loop detector, single","Type Q, existing",SG-LOOP-6FT-DYN
+SG-LOOP-6FT-PAIR-DYN,"Loop detector, pair",6 ft pair,SG-LOOP-6FT-PAIR-DYN
+SG-LOOP-6FT-NON-BIKE-PAIR-DYN,"Loop detector, pair","6 ft pair, not bike",SG-LOOP-6FT-PAIR-DYN
+SG-LOOP-6FT-OCTAGON-PAIR-DYN,"Loop detector, pair",6 ft octagon pair,SG-LOOP-6FT-PAIR-DYN
+SG-LOOP-3FT-BIKE-PAIR-DYN,"Loop detector, pair",3 ft bike pair,SG-LOOP-6FT-PAIR-DYN
+SG-LOOP-TRANSIT-DYN,Transit loop,Transit,SG-LOOP-TRANSIT-DYN
+SG-VIDEO-DETECTOR-DYN,Detector and camera,Video detection,SG-VIDEO-DETECTOR-DYN
+SG-VIDEO-CAMERA-DYN,Detector and camera,Video camera,SG-VIDEO-DETECTOR-DYN
+SG-OVERHEAD-DETECTOR-DYN,Detector and camera,Overhead,SG-VIDEO-DETECTOR-DYN
+SG-OPTICAL-DETECTOR-DYN,Detector and camera,Optical (EVP),SG-VIDEO-DETECTOR-DYN
+SG-PHOTO-ENFORCEMENT-CAMERA-DYN,Detector and camera,Photo enforcement,SG-VIDEO-DETECTOR-DYN
+CT-ES1B-NEVD,Detector and camera,"Caltrans EVD, new",SG-VIDEO-DETECTOR-DYN
+CT-ES1B-EEVD,Detector and camera,"Caltrans EVD, existing",SG-VIDEO-DETECTOR-DYN
+CT-ES1C-N-DETECTION-DEVICE,Detector and camera,"Caltrans device, new",SG-VIDEO-DETECTOR-DYN
+CT-ES1C-E-DETECTION-DEVICE,Detector and camera,"Caltrans device, existing",SG-VIDEO-DETECTOR-DYN
+CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION,Detection zone and roadway sensor,"Zone, new",CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION
+CT-ES1C-E-MICROWAVE-OR-VIDEO-DETECTION,Detection zone and roadway sensor,"Zone, existing",CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION
+CT-ES1C-N-ROADWAY-SENSOR-PIEZOELECTRIC,Detection zone and roadway sensor,"Piezo, new",CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION
+CT-ES1C-E-ROADWAY-SENSOR-PIEZOELECTRIC,Detection zone and roadway sensor,"Piezo, existing",CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION
+CT-ES1C-E-RADAR-SPEED-FEEDBACK-SIGN,Detection zone and roadway sensor,"Radar feedback sign, existing",CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION
+SG-CONTROLLER-DYN,Cabinet,Controller,SG-CONTROLLER-DYN
+SG-COMMUNICATION-CABINET-DYN,Cabinet,Communication,SG-CONTROLLER-DYN
+SG-VIDEO-CAMERA-CABINET-DYN,Cabinet,Video camera,SG-CONTROLLER-DYN
+CT-ES1B-NCNTRLCAB,Cabinet,"Caltrans controller, new",SG-CONTROLLER-DYN
+CT-ES1B-E170,Cabinet,"Caltrans controller, existing",SG-CONTROLLER-DYN
+CT-ES1B-NTIII,Cabinet,"Service Type III, new",SG-CONTROLLER-DYN
+CT-ES1B-ETIII,Cabinet,"Service Type III, existing",SG-CONTROLLER-DYN
+CT-ES1B-NTDC,Cabinet,"Telephone demarc, new",SG-CONTROLLER-DYN
+CT-ES1B-ETDC,Cabinet,"Telephone demarc, existing",SG-CONTROLLER-DYN
+CT-ES1B-NPMUT,Cabinet,"Transformer, new",SG-CONTROLLER-DYN
+CT-ES1B-EPMUT,Cabinet,"Transformer, existing",SG-CONTROLLER-DYN
+SG-PULL-BOX-3-DYN,Pull box and vault,No. 3,SG-PULL-BOX-3-DYN
+SG-PULL-BOX-2-DYN,Pull box and vault,No. 2,SG-PULL-BOX-3-DYN
+SG-FIBER-SPLICE-VAULT-DYN,Pull box and vault,Fiber splice vault,SG-PULL-BOX-3-DYN
+SG-LUMINAIRE-ARM-DYN,Luminaire (LA plan),With arm,SG-LUMINAIRE-ARM-DYN
+SG-LUMINAIRE-DYN,Luminaire (LA plan),Head,SG-LUMINAIRE-ARM-DYN
+SG-LUMINAIRE-NO-ARM-E,Luminaire (LA plan),"No arm, existing",SG-LUMINAIRE-ARM-DYN
+CT-ES1A-ET15,Lighting standard (Caltrans),Existing lighting standard Type 15,CT-ES1A-NT15
+CT-ES1A-ET15D,Lighting standard (Caltrans),Existing lighting standard Type 15D,CT-ES1A-NT15
+CT-ES1A-ET15DS,Lighting standard (Caltrans),Existing 15D structure,CT-ES1A-NT15
+CT-ES1A-ET15S,Lighting standard (Caltrans),Existing 15 structure,CT-ES1A-NT15
+CT-ES1A-ET21,Lighting standard (Caltrans),Existing lighting standard Type 21,CT-ES1A-NT15
+CT-ES1A-ET21D,Lighting standard (Caltrans),Existing lighting standard Type 21D,CT-ES1A-NT15
+CT-ES1A-ET21DS,Lighting standard (Caltrans),Existing 21D structure,CT-ES1A-NT15
+CT-ES1A-ET21S,Lighting standard (Caltrans),Existing 21 structure,CT-ES1A-NT15
+CT-ES1A-ET30,Lighting standard (Caltrans),Existing lighting standard Type 30,CT-ES1A-NT15
+CT-ES1A-ET31,Lighting standard (Caltrans),Existing lighting standard Type 31,CT-ES1A-NT15
+CT-ES1A-ET32,Lighting standard (Caltrans),Existing lighting standard Type 32,CT-ES1A-NT15
+CT-ES1A-NT15,Lighting standard (Caltrans),New lighting standard Type 15,CT-ES1A-NT15
+CT-ES1A-NT15D,Lighting standard (Caltrans),New lighting standard Type 15D,CT-ES1A-NT15
+CT-ES1A-NT15DS,Lighting standard (Caltrans),New 15D structure,CT-ES1A-NT15
+CT-ES1A-NT15S,Lighting standard (Caltrans),New 15 structure,CT-ES1A-NT15
+CT-ES1A-NT21,Lighting standard (Caltrans),New lighting standard Type 21,CT-ES1A-NT15
+CT-ES1A-NT21D,Lighting standard (Caltrans),New lighting standard Type 21D,CT-ES1A-NT15
+CT-ES1A-NT21DS,Lighting standard (Caltrans),New 21D structure,CT-ES1A-NT15
+CT-ES1A-NT21S,Lighting standard (Caltrans),New 21 structure,CT-ES1A-NT15
+CT-ES1A-NT30,Lighting standard (Caltrans),New lighting standard Type 30,CT-ES1A-NT15
+CT-ES1A-NT31,Lighting standard (Caltrans),New lighting standard Type 31,CT-ES1A-NT15
+CT-ES1A-NT32,Lighting standard (Caltrans),New lighting standard Type 32,CT-ES1A-NT15
+CT-ES1A-NCE,Electrolier and soffit light (Caltrans),New city electrolier,CT-ES1A-NCE
+CT-ES1A-ECE,Electrolier and soffit light (Caltrans),Existing city electrolier,CT-ES1A-NCE
+CT-ES1A-NELECT,Electrolier and soffit light (Caltrans),New non-standard electrolier (see project legend),CT-ES1A-NCE
+CT-ES1A-EELECT,Electrolier and soffit light (Caltrans),Existing non-standard electrolier (see project legend),CT-ES1A-NCE
+CT-ES1A-NFFE,Electrolier and soffit light (Caltrans),New electrolier foundation (future installation),CT-ES1A-NCE
+CT-ES1A-EFFE,Electrolier and soffit light (Caltrans),Existing electrolier foundation (future installation),CT-ES1A-NCE
+CT-ES1A-NLOWP,Electrolier and soffit light (Caltrans),New luminaire on wood pole,CT-ES1A-NCE
+CT-ES1A-ELOWP,Electrolier and soffit light (Caltrans),Existing luminaire on wood pole,CT-ES1A-NCE
+CT-ES1A-NF70W,Electrolier and soffit light (Caltrans),Flush-mounted soffit luminaire,CT-ES1A-NCE
+CT-ES1A-NP70W,Electrolier and soffit light (Caltrans),Pendant soffit luminaire,CT-ES1A-NCE
+CT-ES1A-NW70W,Electrolier and soffit light (Caltrans),Wall-mounted luminaire,CT-ES1A-NCE
+CT-ES1A-ESOWLM,Electrolier and soffit light (Caltrans),Existing soffit or wall-mounted luminaire to be modified as specified,CT-ES1A-NCE
+CT-ES1A-ESOWLU,Electrolier and soffit light (Caltrans),Existing soffit or wall-mounted luminaire to remain unmodified,CT-ES1A-NCE
+CT-ES1B-NSSMIS,Sign structure (Caltrans),"New single post, single sign, full cantilever",CT-ES1B-NSSMIS
+CT-ES1B-ESSMIS,Sign structure (Caltrans),"Existing single post, single sign, full cantilever",CT-ES1B-NSSMIS
+CT-ES1B-NSGN1PELECT,Sign structure (Caltrans),"New single post, single sign, full cantilever with electrolier",CT-ES1B-NSSMIS
+CT-ES1B-ESGN1PELECT,Sign structure (Caltrans),"Existing single post, single sign, full cantilever with electrolier",CT-ES1B-NSSMIS
+CT-ES1B-NSCMIS,Sign structure (Caltrans),"New single post, single sign, balanced butterfly",CT-ES1B-NSSMIS
+CT-ES1B-ESCMIS,Sign structure (Caltrans),"Existing single post, single sign, balanced butterfly",CT-ES1B-NSSMIS
+CT-ES1B-NSCDIS,Sign structure (Caltrans),"New single post, double sign, balanced butterfly",CT-ES1B-NSSMIS
+CT-ES1B-ESCDIS,Sign structure (Caltrans),"Existing single post, double sign, balanced butterfly",CT-ES1B-NSSMIS
+CT-ES1B-NDPIS,Sign structure (Caltrans),"New double post, single sign",CT-ES1B-NSSMIS
+CT-ES1B-EDPIS,Sign structure (Caltrans),"Existing double post, single sign",CT-ES1B-NSSMIS
+CT-ES1B-NISWL,Sign structure (Caltrans),"New double post, single sign with electrolier",CT-ES1B-NSSMIS
+CT-ES1B-EISWL,Sign structure (Caltrans),"Existing double post, single sign with electrolier",CT-ES1B-NSSMIS
+CT-ES1B-NIBMS,Sign structure (Caltrans),New single sign mounted on structure,CT-ES1B-NSSMIS
+CT-ES1B-EIBMS,Sign structure (Caltrans),Existing single sign mounted on structure,CT-ES1B-NSSMIS
+SN-SIGN-POST-DYN,Sign and post,Sign and post,SN-SIGN-POST-DYN
+SN-SIGN-DYN,Sign and post,Sign face line,SN-SIGN-POST-DYN
+CT-ES1B-NWPP,"Wood pole, guy, guard post and barricade","New wood pole, ""U"" indicates utility owned",CT-ES1B-NWPP
+CT-ES1B-NPGUY,"Wood pole, guy, guard post and barricade",New pole guy with anchor,CT-ES1B-NWPP
+CT-ES1B-EPGUY,"Wood pole, guy, guard post and barricade",Existing pole guy with anchor,CT-ES1B-NWPP
+CT-ES1B-EGP,"Wood pole, guy, guard post and barricade",Existing guard post,CT-ES1B-NWPP
+CT-ES1B-NPBAR,"Wood pole, guy, guard post and barricade",New pedestrian barricade,CT-ES1B-NWPP
+CT-ES1B-EPBAR,"Wood pole, guy, guard post and barricade",Existing pedestrian barricade,CT-ES1B-NWPP
+CT-ES1A-BPN,"Wood pole, guy, guard post and barricade","Pedestrian barricade, type as indicated on plan",CT-ES1B-NWPP
+CT-ES1B-NR,Conduit riser and break,"Riser, new",CT-ES1B-NR
+CT-ES1B-ER,Conduit riser and break,"Riser, existing",CT-ES1B-NR
+SG-CONDUIT-BREAK,Conduit riser and break,Break,CT-ES1B-NR
+CT-ES1A-AB,Abbreviation tag (Caltrans ES-1A),AB,CT-ES1A-RL
+CT-ES1A-BC,Abbreviation tag (Caltrans ES-1A),BC,CT-ES1A-RL
+CT-ES1A-CB,Abbreviation tag (Caltrans ES-1A),CB,CT-ES1A-RL
+CT-ES1A-CC,Abbreviation tag (Caltrans ES-1A),CC,CT-ES1A-RL
+CT-ES1A-CF,Abbreviation tag (Caltrans ES-1A),CF,CT-ES1A-RL
+CT-ES1A-DH,Abbreviation tag (Caltrans ES-1A),DH,CT-ES1A-RL
+CT-ES1A-FA,Abbreviation tag (Caltrans ES-1A),FA,CT-ES1A-RL
+CT-ES1A-IS,Abbreviation tag (Caltrans ES-1A),IS,CT-ES1A-RL
+CT-ES1A-NS,Abbreviation tag (Caltrans ES-1A),NS,CT-ES1A-RL
+CT-ES1A-PEC,Abbreviation tag (Caltrans ES-1A),PEC,CT-ES1A-RL
+CT-ES1A-PEU,Abbreviation tag (Caltrans ES-1A),PEU,CT-ES1A-RL
+CT-ES1A-RC,Abbreviation tag (Caltrans ES-1A),RC,CT-ES1A-RL
+CT-ES1A-RL,Abbreviation tag (Caltrans ES-1A),RL,CT-ES1A-RL
+CT-ES1A-RR,Abbreviation tag (Caltrans ES-1A),RR,CT-ES1A-RL
+CT-ES1A-RS,Abbreviation tag (Caltrans ES-1A),RS,CT-ES1A-RL
+CT-ES1A-SC,Abbreviation tag (Caltrans ES-1A),SC,CT-ES1A-RL
+CT-ES1A-SD,Abbreviation tag (Caltrans ES-1A),SD,CT-ES1A-RL
+CT-ES1A-TSP,Abbreviation tag (Caltrans ES-1A),TSP,CT-ES1A-RL
+SG-NOTE-FLAG,Note tag with attribute,Flag,SG-NOTE-FLAG
+SG-NOTE-BOX,Note tag with attribute,Box,SG-NOTE-FLAG
+SG-NOTE-STANDARD-NUMBER,Note tag with attribute,Standard number,SG-NOTE-FLAG
+CT-ES1C-CIRCUIT-BREAKER,Wiring diagram symbol,Circuit breaker,CT-ES1C-CIRCUIT-BREAKER
+CT-ES1C-CONTACTOR-COIL,Wiring diagram symbol,Contactor coil,CT-ES1C-CIRCUIT-BREAKER
+CT-ES1C-CONTACTOR-NC-CONTACT,Wiring diagram symbol,"Contactor, NC contact",CT-ES1C-CIRCUIT-BREAKER
+CT-ES1C-CONTACTOR-NO-CONTACT,Wiring diagram symbol,"Contactor, NO contact",CT-ES1C-CIRCUIT-BREAKER
+CT-ES1C-ENCLOSURE-BOND,Wiring diagram symbol,Enclosure bond,CT-ES1C-CIRCUIT-BREAKER
+CT-ES1C-GROUNDING-ELECTRODE,Wiring diagram symbol,Grounding electrode,CT-ES1C-CIRCUIT-BREAKER
+CT-ES1C-RECEPTACLE,Wiring diagram symbol,Receptacle,CT-ES1C-CIRCUIT-BREAKER
+CT-ES1C-TERMINAL-BLOCKS,Wiring diagram symbol,Terminal blocks,CT-ES1C-CIRCUIT-BREAKER
+CT-ES1C-TIE-POINT,Wiring diagram symbol,Tie point,CT-ES1C-CIRCUIT-BREAKER
+SV-MANHOLE-DYN,Manhole,Manhole,SV-MANHOLE-DYN
+SV-MANHOLE-STORM-DRAIN,Manhole,Storm drain,SV-MANHOLE-DYN
+SV-MANHOLE-SEWER,Manhole,Sewer,SV-MANHOLE-DYN
+SV-MANHOLE-ELECTRIC,Manhole,Electric,SV-MANHOLE-DYN
+SV-MANHOLE-TELEPHONE,Manhole,Telephone,SV-MANHOLE-DYN
+SV-MANHOLE-WATER,Manhole,Water,SV-MANHOLE-DYN
+SV-MANHOLE-UNKNOWN,Manhole,Unknown,SV-MANHOLE-DYN
+SV-WATER-VALVE,Valve and small utility point,Water valve (survey),SV-WATER-VALVE
+SV-GAS-VALVE,Valve and small utility point,Gas valve (survey),SV-WATER-VALVE
+SV-IRRIGATION-CONTROL-VALVE,Valve and small utility point,Irrigation control valve (survey),SV-WATER-VALVE
+SV-POST-INDICATOR-VALVE,Valve and small utility point,Post indicator valve (survey),SV-WATER-VALVE
+SV-SEWER-CLEANOUT,Valve and small utility point,Sewer cleanout (survey),SV-WATER-VALVE
+SV-MONITORING-WELL,Valve and small utility point,Monitoring well (survey),SV-WATER-VALVE
+SV-WELL,Valve and small utility point,Well (survey),SV-WATER-VALVE
+SV-VENT,Valve and small utility point,Vent (survey),SV-WATER-VALVE
+SV-ELECTRIC-OUTLET,Valve and small utility point,Electric outlet (survey),SV-WATER-VALVE
+SV-TRAFFIC-SIGNAL-BASE,Survey sign and pole point,Signal base,SV-TRAFFIC-SIGNAL-BASE
+SV-RAILROAD-SIGN,Survey sign and pole point,Railroad sign,SV-TRAFFIC-SIGNAL-BASE
+SV-TREE-E,Survey sign and pole point,Tree,SV-TRAFFIC-SIGNAL-BASE
+SV-TREE-PALM,Survey sign and pole point,Palm,SV-TRAFFIC-SIGNAL-BASE
+SV-BACKFLOW-PREVENTER-DYN,Backflow preventer,As drawn,SV-BACKFLOW-PREVENTER-DYN
+SV-BIKE-RACK-DYN,Bike rack,As drawn,SV-BIKE-RACK-DYN
+SV-BUS-BENCH-DYN,Bus bench,As drawn,SV-BUS-BENCH-DYN
+SV-FIRE-HYDRANT-DYN,Fire hydrant,As drawn,SV-FIRE-HYDRANT-DYN
+SV-GAS-METER-DYN,Gas meter,As drawn,SV-GAS-METER-DYN
+SV-GUY-WIRE-DYN,Guy wire,As drawn,SV-GUY-WIRE-DYN
+SV-LIGHT-POLE-DYN,Light pole,As drawn,SV-LIGHT-POLE-DYN
+SV-MAILBOX-DYN,Mailbox,As drawn,SV-MAILBOX-DYN
+SV-METER-DYN,Meter,As drawn,SV-METER-DYN
+SV-NEWS-RACK-DYN,News rack,As drawn,SV-NEWS-RACK-DYN
+SV-PALM-TREE-DYN,Palm tree,As drawn,SV-PALM-TREE-DYN
+SV-PARKING-METER-DYN,Parking meter,As drawn,SV-PARKING-METER-DYN
+SV-POLE-DYN,Pole,As drawn,SV-POLE-DYN
+SV-POWER-POLE-DYN,Power pole,As drawn,SV-POWER-POLE-DYN
+SV-POWER-POLE-GUY-ANCHOR-DYN,Power pole with guy anchor,As drawn,SV-POWER-POLE-GUY-ANCHOR-DYN
+SV-SHRUB-DYN,Shrub,As drawn,SV-SHRUB-DYN
+SV-SIGN-DYN,Sign,As drawn,SV-SIGN-DYN
+SV-STREET-LIGHT-DYN,Street light,As drawn,SV-STREET-LIGHT-DYN
+SV-TREE-DYN,Tree,As drawn,SV-TREE-DYN
+SV-TREE-PINE-DYN,Pine tree,As drawn,SV-TREE-PINE-DYN
+SV-TREE-STUMP-DYN,Tree stump,As drawn,SV-TREE-STUMP-DYN
+SV-UTILITY-POLE-DYN,Utility pole,As drawn,SV-UTILITY-POLE-DYN
+SV-VALVE-DYN,Valve,As drawn,SV-VALVE-DYN
+SV-WATER-METER-DYN,Water meter,As drawn,SV-WATER-METER-DYN
+CT-DET-1,line type,CT-DET-1,SSS-STRIPING-PLAN.lin
+CT-DET-2,line type,CT-DET-2,SSS-STRIPING-PLAN.lin
+CT-DET-5,line type,CT-DET-5,SSS-STRIPING-PLAN.lin
+CT-DET-6,line type,CT-DET-6,SSS-STRIPING-PLAN.lin
+CT-DET-8,line type,CT-DET-8,SSS-STRIPING-PLAN.lin
+CT-DET-9,line type,CT-DET-9,SSS-STRIPING-PLAN.lin
+CT-DET-9A,line type,CT-DET-9A,SSS-STRIPING-PLAN.lin
+CT-DET-11,line type,CT-DET-11,SSS-STRIPING-PLAN.lin
+CT-DET-12,line type,CT-DET-12,SSS-STRIPING-PLAN.lin
+CT-DET-12A,line type,CT-DET-12A,SSS-STRIPING-PLAN.lin
+CT-DET-15,line type,CT-DET-15,SSS-STRIPING-PLAN.lin
+CT-DET-16,line type,CT-DET-16,SSS-STRIPING-PLAN.lin
+CT-DET-18,line type,CT-DET-18,SSS-STRIPING-PLAN.lin
+CT-DET-19,line type,CT-DET-19,SSS-STRIPING-PLAN.lin
+CT-DET-21,line type,CT-DET-21,SSS-STRIPING-PLAN.lin
+CT-DET-22,line type,CT-DET-22,SSS-STRIPING-PLAN.lin
+CT-DET-24,line type,CT-DET-24,SSS-STRIPING-PLAN.lin
+CT-DET-25,line type,CT-DET-25,SSS-STRIPING-PLAN.lin
+CT-DET-25A,line type,CT-DET-25A,SSS-STRIPING-PLAN.lin
+CT-DET-26,line type,CT-DET-26,SSS-STRIPING-PLAN.lin
+CT-DET-27,line type,CT-DET-27,SSS-STRIPING-PLAN.lin
+CT-DET-27B,line type,CT-DET-27B,SSS-STRIPING-PLAN.lin
+CT-DET-27C,line type,CT-DET-27C,SSS-STRIPING-PLAN.lin
+CT-DET-28,line type,CT-DET-28,SSS-STRIPING-PLAN.lin
+CT-DET-29,line type,CT-DET-29,SSS-STRIPING-PLAN.lin
+CT-DET-31,line type,CT-DET-31,SSS-STRIPING-PLAN.lin
+CT-DET-32,line type,CT-DET-32,SSS-STRIPING-PLAN.lin
+CT-DET-34,line type,CT-DET-34,SSS-STRIPING-PLAN.lin
+CT-DET-34A,line type,CT-DET-34A,SSS-STRIPING-PLAN.lin
+CT-DET-35,line type,CT-DET-35,SSS-STRIPING-PLAN.lin
+CT-DET-35A,line type,CT-DET-35A,SSS-STRIPING-PLAN.lin
+CT-DET-36,line type,CT-DET-36,SSS-STRIPING-PLAN.lin
+CT-DET-36A,line type,CT-DET-36A,SSS-STRIPING-PLAN.lin
+CT-DET-36B,line type,CT-DET-36B,SSS-STRIPING-PLAN.lin
+CT-DET-37,line type,CT-DET-37,SSS-STRIPING-PLAN.lin
+CT-DET-37B,line type,CT-DET-37B,SSS-STRIPING-PLAN.lin
+CT-DET-37D,line type,CT-DET-37D,SSS-STRIPING-PLAN.lin
+CT-DET-38,line type,CT-DET-38,SSS-STRIPING-PLAN.lin
+CT-DET-38A,line type,CT-DET-38A,SSS-STRIPING-PLAN.lin
+CT-DET-38B,line type,CT-DET-38B,SSS-STRIPING-PLAN.lin
+CT-DET-38D,line type,CT-DET-38D,SSS-STRIPING-PLAN.lin
+CT-DET-39,line type,CT-DET-39,SSS-STRIPING-PLAN.lin
+CT-DET-39A,line type,CT-DET-39A,SSS-STRIPING-PLAN.lin
+CT-DET-40,line type,CT-DET-40,SSS-STRIPING-PLAN.lin
+CT-DET-41,line type,CT-DET-41,SSS-STRIPING-PLAN.lin
+CT-DET-42,line type,CT-DET-42,SSS-STRIPING-PLAN.lin
+CT-DET-44A,line type,CT-DET-44A,SSS-STRIPING-PLAN.lin
+CT-DET-44B,line type,CT-DET-44B,SSS-STRIPING-PLAN.lin
+CT-DET-45,line type,CT-DET-45,SSS-STRIPING-PLAN.lin

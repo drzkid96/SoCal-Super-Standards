@@ -1,0 +1,56 @@
+;; SSS-SURVEY-UTILITY
+;; Survey and utility line types from the Westwood topographic survey and plan base (2025). Units: plotted inches, PSLTSCALE 1 and MSLTSCALE 1. Text elements use the STANDARD style.
+;; SoCal Super Standards. Load with LINETYPE > Load > File.
+
+*ELECTRIC-LINE,----E----E----E----E----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["E",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.13,0.1,-0.05
+*ELECTRIC-PAINTED,----E(P)----E(P)----E(P)----E(P)----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["E(P)",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.31,0.1,-0.05
+*OVERHEAD-LINE,----OH----OH----OH----OH----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.06,["OH",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.19,0.1,-0.05
+*OVERHEAD-ELECTRIC,----OHE----OHE----OHE----OHE----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.06,["OHE",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.27,0.1,-0.05
+*GAS-LINE,----G----G----G----G----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["G",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.14,0.1,-0.05
+*GAS-PAINTED,----G(P)----G(P)----G(P)----G(P)----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["G(P)",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.32,0.1,-0.05
+*WATER-LINE,----W----W----W----W----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["W",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.16,0.1,-0.05
+*WATER-PAINTED,----W(P)----W(P)----W(P)----W(P)----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["W(P)",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.33,0.1,-0.05
+*TELCO-LINE,----T----T----T----T----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["T",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.13,0.1,-0.05
+*TELCO-PAINTED,----T(P)----T(P)----T(P)----T(P)----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["T(P)",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.31,0.1,-0.05
+*FIBER-OPTIC,----FO----FO----FO----FO----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["FO",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.21,0.1,-0.05
+*STORM-DRAIN,----SD----SD----SD----SD----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["SD",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.21,0.1,-0.05
+*STORM-DRAIN-PAINTED,----SD(P)----SD(P)----SD(P)----SD(P)----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["SD(P)",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.39,0.1,-0.05
+*SANITARY-SEWER-PAINTED,----SS(P)----SS(P)----SS(P)----SS(P)----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["SS(P)",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.39,0.1,-0.05
+*UNKNOWN-PAINTED,----UNK(P)----UNK(P)----UNK(P)----UNK(P)----
+A,0.1,-0.05,0.1,-0.05,0.1,-0.08,["UNK(P)",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.48,0.1,-0.05
+*TOS,Top of slope
+A,0.25,-0.1,0,-0.1,0,-0.1,["TOS",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.25,-0.1,0,-0.1,0,-0.1
+*TOE,Toe of slope
+A,0.25,-0.1,0,-0.1,0,-0.1,["TOE",STANDARD,S=0.08,R=0,X=0,Y=-0.04],-0.25,-0.1,0,-0.1,0,-0.1
+*FLOWLINE,Flow line
+A,1,-0.25,0.03,-0.25,0.03,-0.25,0.03,-0.25
+*EP,Edge of pavement
+A,0.5,0.1,["l",STANDARD,S=0.05,R=-45,X=0,Y=0],0.028,0,["l",STANDARD,S=0.1,R=-45,X=0,Y=0],0.028,0,["l",STANDARD,S=0.05,R=-45,X=0,Y=0],0.05,0
+*CL,Survey center line
+A,60,-2,2,-2
+*FENCE,Fence - x
+A,0.7,-0.04,["X",STANDARD,S=1,R=0,X=0,Y=-0.0001],-0.04
+*FENCELINE1,Fence - circle
+A,0.2,-0.025,[CIRC1,ltypeshp.shx,S=0.025,R=0,X=-0.025,Y=0],-0.025,0.115
+*FENCELINE2,Fence - square
+A,0.2,-0.025,[BOX,ltypeshp.shx,S=0.025,R=0,X=-0.025,Y=0],-0.025,0.115
+*CHAIN-LINK-FENCE,Chain link fence
+A,0.5,-0.15,["X",STANDARD,S=0.08,R=0,X=-0.1,Y=-0.04],-0.005
+*BARBEDWIRE,Barbed wire
+A,0.3,-0.04,["*",STANDARD,S=0.16,R=0,X=-0.019,Y=-0.115],-0.075
+*DEACT,Deactivated underground conductor
+A,0.01,0.1,["l",STANDARD,S=0.1,R=45,X=0,Y=-0.035],0.008,0

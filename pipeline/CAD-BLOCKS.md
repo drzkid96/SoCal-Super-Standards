@@ -66,6 +66,22 @@ python3 pipeline/marking_library.py --libredwg <dir>
   `PM-*` rows stay. After changing `striping_db.py`, also run `python3 pipeline/build_linetypes.py`
   (line type pages and data).
 
+## Line types and the dynamic block plan (revision 2, 2026-11-28)
+
+- Striping detail blocks (`CT-DET-*`) are retired: lines are drawn with line types. `striping_blocks.py` stays for
+  reference only; do not republish its blocks or `SSS-CALTRANS-STRIPING.lin`.
+- `python3 pipeline/linetype_packages.py` writes `SSS-STRIPING-PLAN.lin` (feet), `SSS-SIGNAL-PLAN.lin` (feet) and
+  `SSS-SURVEY-UTILITY.lin` (plotted inches) from `data/reference/plan-linetypes.json`, the line type tables read from
+  the LA signing and striping, signal and survey drawings (ODA File Converter to DXF, ezdxf). Descriptions stay ASCII,
+  no commas, 47 characters at most; text elements use the STANDARD style.
+- `python3 pipeline/dynamic_plan.py` writes `cad/dynamic-blocks.md` and `SSS-DYNAMIC-FAMILY-MAP.csv` from
+  `data/reference/dynamic-plan.json`. Rules: a plan-library dynamic block is the master and is never stripped
+  (states, flips, stretches, arrays, built-in setbacks stay); blocks merge only with the same base point and
+  actions; defaults come from the plans (green-back bike lane marking, continental crosswalk 2 ft bar 3 ft gap,
+  arrow set first type); markings carry the condition by layer, signal and survey blocks keep their condition states.
+- Read dynamic parameters from a DWG with LibreDWG `dwgread -O JSON` (BLOCKVISIBILITYPARAMETER states,
+  BLOCKFLIPPARAMETER, BLOCKLINEARPARAMETER and actions); ODA DXF keeps them only as proxy bytes.
+
 ## From Caltrans DGN (cadkit)
 
 ```

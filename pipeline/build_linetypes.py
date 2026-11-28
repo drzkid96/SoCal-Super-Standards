@@ -122,6 +122,20 @@ tableOfContents: false
 
 <div class="srcbar">Source: CA MUTCD 2026, Section 3A.04 and Figures 3A-101(CA) to 3A-113(CA). The values below were read from the dimensioned details. Each drawing shows 96 ft of the pattern at the same scale, with line widths exaggerated. <a href="{BASE}/data/linetypes.json">Download the database (JSON)</a></div>
 
+<h2 id="cad-line-types">CAD line types</h2>
+
+Draw stripes, conduit and utility lines with line types, not blocks. Load a package with LINETYPE, Load, File.
+
+| Package | Line types | Units |
+|---|---|---|
+| [SSS-STRIPING-PLAN.lin]({BASE}/downloads/cad-tools/SSS-STRIPING-PLAN.lin) | Lane line (7 ft and 17 ft), two-way left-turn lane (12 ft and 36 ft), bike lane line (4 ft and 8 ft), cat track, dotted extension, and a remove pattern for each | Feet, LTSCALE 1 |
+| [SSS-SIGNAL-PLAN.lin]({BASE}/downloads/cad-tools/SSS-SIGNAL-PLAN.lin) | Existing and remove signal conduit, remove equipment, substructure, abandon, remove pedestrian phase, match line | Feet, LTSCALE 1 |
+| [SSS-SURVEY-UTILITY.lin]({BASE}/downloads/cad-tools/SSS-SURVEY-UTILITY.lin) | Electric, gas, water, telephone, fiber, storm drain and sewer lines (plain and painted), fences, top and toe of slope, flow line, edge of pavement | Plotted inches, PSLTSCALE 1 |
+
+Read from the line type tables of LA plan sets: a signing and striping plan, a traffic signal plan and a topographic survey.
+
+<h2 id="details">Caltrans striping details</h2>
+
 <div class="lt-filter">
 <input id="ltq" type="search" placeholder="Search: two-way left-turn, 12 ft, red-clear, bike lane, 45 mph...">
 <select id="ltfn"><option value="">All functions</option>{fopts}</select>

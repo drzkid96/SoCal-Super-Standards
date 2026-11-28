@@ -116,6 +116,8 @@ export default defineConfig({
           { label: 'Sign blocks', link: '/signs/cad/' },
           { label: 'Pavement marking blocks', link: '/markings/cad/' },
           { label: 'Signal and survey blocks', link: '/signals/cad/' },
+          { label: 'Dynamic blocks', link: '/cad/dynamic-blocks/' },
+          { label: 'Line types', link: '/markings/line-types/#cad-line-types' },
           { label: 'Templates and tools', link: '/cad/#tools' },
         ] },
         { label: 'Design by Topic', collapsed: true, items: [

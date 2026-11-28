@@ -1,0 +1,2731 @@
+{
+ "note": "Dynamic block plan, revision 2 (2026-11-28), from the LA plan drawings (signing and striping, traffic signal and survey). Example dynamic blocks are masters kept as drawn; published blocks fold in only where base point and actions match. Striping detail blocks retired into line types (SSS-STRIPING-PLAN.lin).",
+ "families": [
+  {
+   "id": "ARROW",
+   "library": "Markings",
+   "group": "Arrows",
+   "name": "Lane-use arrow (Caltrans types)",
+   "master": "PM-ARROW-SET-DYN",
+   "default": "Type 1-18",
+   "base": "Arrow tail on the lane center, as in the LA plan arrow set",
+   "cond": "Layer (as the plan library arrow set)",
+   "actions": [
+    "Visibility: Type 1-18, 1-24, 1, 2-L/R, 2-Both, 3-L/R, 3-Both, 4-L/R, 5, 6-L/R, 7-L/R, 8-Both",
+    "Five flips (left or right) kept as drawn"
+   ],
+   "note": "The arrow set already is this family. The 17 Caltrans arrows retire into its states; nothing is redrawn.",
+   "members": [
+    {
+     "block": "PM-ARROW-SET-DYN",
+     "state": "12 Caltrans types"
+    },
+    {
+     "block": "CT-A24A-TYPE-I-10FT",
+     "state": "Type 1"
+    },
+    {
+     "block": "CT-A24A-TYPE-I-18FT",
+     "state": "Type 1-18"
+    },
+    {
+     "block": "CT-A24A-TYPE-I-24FT",
+     "state": "Type 1-24"
+    },
+    {
+     "block": "CT-A24B-TYPE-II-L",
+     "state": "Type 2-L/R"
+    },
+    {
+     "block": "CT-A24B-TYPE-II-R",
+     "state": "Type 2-L/R"
+    },
+    {
+     "block": "CT-A24B-TYPE-II-B",
+     "state": "Type 2-Both"
+    },
+    {
+     "block": "CT-A24B-TYPE-III-L",
+     "state": "Type 3-L/R"
+    },
+    {
+     "block": "CT-A24B-TYPE-III-R",
+     "state": "Type 3-L/R"
+    },
+    {
+     "block": "CT-A24B-TYPE-III-B",
+     "state": "Type 3-Both"
+    },
+    {
+     "block": "CT-A24A-TYPE-IV-L",
+     "state": "Type 4-L/R"
+    },
+    {
+     "block": "CT-A24A-TYPE-IV-R",
+     "state": "Type 4-L/R"
+    },
+    {
+     "block": "CT-A24A-TYPE-V",
+     "state": "Type 5"
+    },
+    {
+     "block": "CT-A24A-TYPE-VI",
+     "state": "Type 6-L/R"
+    },
+    {
+     "block": "CT-A24A-TYPE-VI-MIRROR",
+     "state": "Type 6-L/R"
+    },
+    {
+     "block": "CT-A24A-TYPE-VII-L",
+     "state": "Type 7-L/R"
+    },
+    {
+     "block": "CT-A24A-TYPE-VII-R",
+     "state": "Type 7-L/R"
+    },
+    {
+     "block": "CT-A24A-TYPE-VIII",
+     "state": "Type 8-Both"
+    }
+   ]
+  },
+  {
+   "id": "ARROW-LA",
+   "library": "Markings",
+   "group": "Arrows",
+   "name": "Lane-use arrow (LA plan, with conditions)",
+   "master": "PM-THRU-ARROW-DYN",
+   "default": "Through · Proposed",
+   "base": "Arrow tail, as drawn",
+   "cond": "Visibility (as the plan library arrows)",
+   "actions": [
+    "Visibility: arrow · Existing, Proposed, Remove (21 states)"
+   ],
+   "note": "Kept apart from the Caltrans set: these carry existing and remove states and a different arrow shape.",
+   "members": [
+    {
+     "block": "PM-THRU-ARROW-DYN",
+     "state": "Through"
+    },
+    {
+     "block": "PM-LEFT-ARROW-DYN",
+     "state": "Left"
+    },
+    {
+     "block": "PM-RIGHT-ARROW-DYN",
+     "state": "Right"
+    },
+    {
+     "block": "PM-THRU-LEFT-ARROW-DYN",
+     "state": "Through and left"
+    },
+    {
+     "block": "PM-THRU-RIGHT-ARROW-DYN",
+     "state": "Through and right"
+    },
+    {
+     "block": "PM-LEFT-RIGHT-ARROW-DYN",
+     "state": "Left and right"
+    },
+    {
+     "block": "PM-MERGE-ARROW-DYN",
+     "state": "Merge"
+    }
+   ]
+  },
+  {
+   "id": "BIKE-LANE",
+   "library": "Markings",
+   "group": "Bicycle",
+   "name": "Bike lane marking (symbol and arrow on green back)",
+   "master": "PM-BIKE-LANE-GREEN-DYN",
+   "default": "5FT GREEN BACK",
+   "base": "Top of the green back; arrow 4.4 ft and symbol 12.9 ft behind it, as built in",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: 5FT, 6FT, 7FT GREEN BACK",
+    "Rotation"
+   ],
+   "note": "The default bike lane marking on LA plans (22 placements). Symbol and arrow stay nested at their built-in spacing.",
+   "members": [
+    {
+     "block": "PM-BIKE-LANE-GREEN-DYN",
+     "state": "5, 6 or 7 ft green back"
+    },
+    {
+     "block": "PM-BIKE-SYMBOL",
+     "state": "Symbol (nested)"
+    },
+    {
+     "block": "PM-BIKE-ARROW",
+     "state": "Arrow (nested)"
+    }
+   ]
+  },
+  {
+   "id": "BIKE-LANE-PAIR",
+   "library": "Markings",
+   "group": "Bicycle",
+   "name": "Bike lane marking pair, 25 ft apart",
+   "master": "PM-BIKE-LANE-GREEN-5FT-DYN",
+   "default": "Front Basepoint",
+   "base": "Front or back marking, 25 ft spacing built in",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: Front Basepoint, Back Basepoint",
+    "Two rotations"
+   ],
+   "note": "Kept as drawn.",
+   "members": [
+    {
+     "block": "PM-BIKE-LANE-GREEN-5FT-DYN",
+     "state": "Front or back base point"
+    }
+   ]
+  },
+  {
+   "id": "BIKE-SYMBOL",
+   "library": "Markings",
+   "group": "Bicycle",
+   "name": "Bike symbol and bike lane arrow (no green)",
+   "master": "CT-A24C-BIKE-SYMBOL",
+   "default": "Bike symbol",
+   "base": "Bottom center, centered in a 5 ft bike lane",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: symbol",
+    "Rotation"
+   ],
+   "note": "Caltrans A24A and A24C shapes for lanes without green.",
+   "members": [
+    {
+     "block": "CT-A24C-BIKE-SYMBOL",
+     "state": "Bike symbol"
+    },
+    {
+     "block": "CT-A24C-BIKE-SYMBOL-PERSON",
+     "state": "Bike symbol with rider"
+    },
+    {
+     "block": "CT-A24A-BIKE-LANE-ARROW",
+     "state": "Bike lane arrow"
+    }
+   ]
+  },
+  {
+   "id": "BIKE-TURN",
+   "library": "Markings",
+   "group": "Bicycle",
+   "name": "Bike turn arrow",
+   "master": "PM-BIKE-LEFT-THRU-ARROW-DYN",
+   "default": "Left and through",
+   "base": "Arrow tail",
+   "cond": "Layer",
+   "actions": [
+    "Rotation",
+    "Flip to add right and through"
+   ],
+   "note": "Kept as drawn, flip added.",
+   "members": [
+    {
+     "block": "PM-BIKE-LEFT-THRU-ARROW-DYN",
+     "state": "Left and through"
+    }
+   ]
+  },
+  {
+   "id": "SHARROW",
+   "library": "Markings",
+   "group": "Bicycle",
+   "name": "Shared lane marking",
+   "master": "CT-A24C-SHARROW",
+   "default": "Sharrow",
+   "base": "Bottom center, 11 ft from the curb face (CA MUTCD 9E.09)",
+   "cond": "Layer",
+   "actions": [
+    "Rotation"
+   ],
+   "note": "Its own placement rule, so its own block.",
+   "members": [
+    {
+     "block": "CT-A24C-SHARROW",
+     "state": "Sharrow"
+    }
+   ]
+  },
+  {
+   "id": "BIKE-XING",
+   "library": "Markings",
+   "group": "Bicycle",
+   "name": "Green bike crossing",
+   "master": "PM-BIKE-XING-GREEN-6FT",
+   "default": "6 ft lane",
+   "base": "Upstream corner on the bike lane line",
+   "cond": "Layer",
+   "actions": [
+    "Stretch: lane width",
+    "Array: 2 ft dash every 8 ft, first dash at the line",
+    "Rotation"
+   ],
+   "note": "Five fixed widths become one width grip.",
+   "members": [
+    {
+     "block": "PM-BIKE-XING-GREEN-5FT",
+     "state": "5 ft"
+    },
+    {
+     "block": "PM-BIKE-XING-GREEN-6FT",
+     "state": "6 ft"
+    },
+    {
+     "block": "PM-BIKE-XING-GREEN-6P5FT",
+     "state": "6.5 ft"
+    },
+    {
+     "block": "PM-BIKE-XING-GREEN-7FT",
+     "state": "7 ft"
+    },
+    {
+     "block": "PM-BIKE-XING-GREEN-8FT",
+     "state": "8 ft"
+    }
+   ]
+  },
+  {
+   "id": "CROSSWALK",
+   "library": "Markings",
+   "group": "Crosswalks",
+   "name": "Crosswalk",
+   "master": "CT-A24F-CONTINENTAL",
+   "default": "Continental · 2 ft bar, 3 ft gap (5 ft o.c.)",
+   "base": "Curb corner; first bar one gap from the curb",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: pattern",
+    "Length grip: bars array at 5 ft on center (2 ft bar, 3 ft gap) by default",
+    "Stretch: crosswalk width (bar length)",
+    "Rotation"
+   ],
+   "note": "Continental with 2 ft bars at 5 ft on center is the default, not the Caltrans example spacing.",
+   "members": [
+    {
+     "block": "CT-A24F-CONTINENTAL",
+     "state": "Continental"
+    },
+    {
+     "block": "CT-A24F-LADDER",
+     "state": "Ladder"
+    },
+    {
+     "block": "CT-A24F-BASIC",
+     "state": "Standard"
+    },
+    {
+     "block": "CT-A24F-TRIPLE-FOUR",
+     "state": "Triple-four"
+    },
+    {
+     "block": "CT-A24F-DIAGONAL",
+     "state": "Diagonal"
+    }
+   ]
+  },
+  {
+   "id": "WORD-BEFORE",
+   "library": "Markings",
+   "group": "Words",
+   "name": "Word before the line (built-in setback)",
+   "master": "PM-WAIT-HERE",
+   "default": "WAIT HERE",
+   "base": "Base on the limit line; words start 8 ft before it (LADOT S-517.0)",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: message",
+    "Rotation about the line"
+   ],
+   "note": "The 8 ft setback stays inside the block.",
+   "members": [
+    {
+     "block": "PM-WAIT-HERE",
+     "state": "WAIT HERE"
+    },
+    {
+     "block": "CT-A24D-STOP",
+     "state": "STOP"
+    }
+   ]
+  },
+  {
+   "id": "WORD-PAST",
+   "library": "Markings",
+   "group": "Words",
+   "name": "Word past the line (built-in setback)",
+   "master": "PM-KEEP-CLEAR",
+   "default": "KEEP CLEAR",
+   "base": "Base on the line; words start 8 ft past it",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: message",
+    "Rotation about the line"
+   ],
+   "note": "The 8 ft setback stays inside the block.",
+   "members": [
+    {
+     "block": "PM-KEEP-CLEAR",
+     "state": "KEEP CLEAR"
+    },
+    {
+     "block": "PM-BUS-ONLY",
+     "state": "BUS ONLY"
+    }
+   ]
+  },
+  {
+   "id": "WORD-LANE",
+   "library": "Markings",
+   "group": "Words",
+   "name": "Lane word",
+   "master": "CT-A24E-ONLY",
+   "default": "ONLY",
+   "base": "Bottom center, centered in an 11 ft lane",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: word",
+    "Rotation"
+   ],
+   "note": "Single 8 ft words read in the lane.",
+   "members": [
+    {
+     "block": "CT-A24E-ONLY",
+     "state": "ONLY"
+    },
+    {
+     "block": "CT-A24E-BIKE",
+     "state": "BIKE"
+    },
+    {
+     "block": "CT-A24E-BUS",
+     "state": "BUS"
+    },
+    {
+     "block": "CT-A24E-LANE",
+     "state": "LANE"
+    },
+    {
+     "block": "CT-A24E-HOV",
+     "state": "HOV"
+    },
+    {
+     "block": "CT-A24E-NO",
+     "state": "NO"
+    },
+    {
+     "block": "CT-A24E-KEEP",
+     "state": "KEEP"
+    },
+    {
+     "block": "CT-A24E-CLEAR",
+     "state": "CLEAR"
+    },
+    {
+     "block": "CT-A24E-TRAIL",
+     "state": "TRAIL"
+    },
+    {
+     "block": "CT-A24D-LEFT",
+     "state": "LEFT"
+    },
+    {
+     "block": "CT-A24D-RIGHT",
+     "state": "RIGHT"
+    },
+    {
+     "block": "CT-A24D-TURN",
+     "state": "TURN"
+    },
+    {
+     "block": "CT-A24D-YIELD",
+     "state": "YIELD"
+    },
+    {
+     "block": "CT-A24D-WAIT",
+     "state": "WAIT"
+    },
+    {
+     "block": "CT-A24D-HERE",
+     "state": "HERE"
+    }
+   ]
+  },
+  {
+   "id": "WORD-ROUTE",
+   "library": "Markings",
+   "group": "Words",
+   "name": "Route and direction word",
+   "master": "CT-A24E-NORTH",
+   "default": "NORTH",
+   "base": "Bottom center",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: word",
+    "Rotation"
+   ],
+   "note": "Freeway and route guidance.",
+   "members": [
+    {
+     "block": "CT-A24E-NORTH",
+     "state": "NORTH"
+    },
+    {
+     "block": "CT-A24E-SOUTH",
+     "state": "SOUTH"
+    },
+    {
+     "block": "CT-A24E-EAST",
+     "state": "EAST"
+    },
+    {
+     "block": "CT-A24E-WEST",
+     "state": "WEST"
+    },
+    {
+     "block": "CT-A24E-FWY",
+     "state": "FWY"
+    },
+    {
+     "block": "CT-A24E-EXPRS",
+     "state": "EXPRS"
+    }
+   ]
+  },
+  {
+   "id": "WORD-WARN",
+   "library": "Markings",
+   "group": "Words",
+   "name": "Warning word",
+   "master": "CT-A24D-SLOW",
+   "default": "SLOW",
+   "base": "Bottom center",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: word",
+    "Rotation"
+   ],
+   "note": "School, crossing and warning words.",
+   "members": [
+    {
+     "block": "CT-A24D-SLOW",
+     "state": "SLOW"
+    },
+    {
+     "block": "CT-A24D-SCHOOL",
+     "state": "SCHOOL"
+    },
+    {
+     "block": "CT-A24D-XING",
+     "state": "XING"
+    },
+    {
+     "block": "CT-A24D-PED",
+     "state": "PED"
+    },
+    {
+     "block": "CT-A24D-AHEAD",
+     "state": "AHEAD"
+    },
+    {
+     "block": "CT-A24D-SIGNAL",
+     "state": "SIGNAL"
+    },
+    {
+     "block": "CT-A24D-RUNAWAY",
+     "state": "RUNAWAY"
+    },
+    {
+     "block": "CT-A24D-VEHICLES",
+     "state": "VEHICLES"
+    }
+   ]
+  },
+  {
+   "id": "WORD-SMALL",
+   "library": "Markings",
+   "group": "Words",
+   "name": "Bike lane and parking word, 4 ft",
+   "master": "CT-A24D-BIKE-4FT",
+   "default": "BIKE",
+   "base": "Bottom center",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: word",
+    "Rotation"
+   ],
+   "note": "4 ft letters.",
+   "members": [
+    {
+     "block": "CT-A24D-BIKE-4FT",
+     "state": "BIKE"
+    },
+    {
+     "block": "CT-A24D-LANE-4FT",
+     "state": "LANE"
+    },
+    {
+     "block": "CT-A24D-COMPACT",
+     "state": "COMPACT"
+    }
+   ]
+  },
+  {
+   "id": "NUMERAL",
+   "library": "Markings",
+   "group": "Words",
+   "name": "Pavement numeral",
+   "master": "CT-A24C-NUMERAL-0",
+   "default": "0",
+   "base": "Bottom center",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: digit",
+    "Rotation"
+   ],
+   "note": "Digits 1 and 6 to 9 still to trace.",
+   "members": [
+    {
+     "block": "CT-A24C-NUMERAL-0",
+     "state": "0"
+    },
+    {
+     "block": "CT-A24C-NUMERAL-2",
+     "state": "2"
+    },
+    {
+     "block": "CT-A24C-NUMERAL-3",
+     "state": "3"
+    },
+    {
+     "block": "CT-A24C-NUMERAL-4",
+     "state": "4"
+    },
+    {
+     "block": "CT-A24C-NUMERAL-5",
+     "state": "5"
+    }
+   ]
+  },
+  {
+   "id": "RXR",
+   "library": "Markings",
+   "group": "Symbols",
+   "name": "Railroad crossing marking",
+   "master": "CT-A24B-RXR",
+   "default": "RXR",
+   "base": "Bottom center",
+   "cond": "Layer",
+   "actions": [
+    "Rotation"
+   ],
+   "note": "Own placement rule.",
+   "members": [
+    {
+     "block": "CT-A24B-RXR",
+     "state": "RXR"
+    }
+   ]
+  },
+  {
+   "id": "SYMBOL",
+   "library": "Markings",
+   "group": "Symbols",
+   "name": "Lane and parking symbol",
+   "master": "CT-A24C-DIAMOND",
+   "default": "Diamond",
+   "base": "Bottom center",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: symbol",
+    "Rotation"
+   ],
+   "note": "Small symbols placed in a lane or stall.",
+   "members": [
+    {
+     "block": "CT-A24C-DIAMOND",
+     "state": "Diamond"
+    },
+    {
+     "block": "CT-A24C-ISA",
+     "state": "Accessible parking"
+    }
+   ]
+  },
+  {
+   "id": "YIELD-LINE",
+   "library": "Markings",
+   "group": "Symbols",
+   "name": "Yield line",
+   "master": "PM-YIELD-LINE-DYN",
+   "default": "Array",
+   "base": "Top center of the first triangle",
+   "cond": "Layer",
+   "actions": [
+    "Length grip arrays triangles (as drawn)"
+   ],
+   "note": "Kept as drawn.",
+   "members": [
+    {
+     "block": "PM-YIELD-LINE-DYN",
+     "state": "Array"
+    },
+    {
+     "block": "PM-YIELD-LINE-TRIANGLE",
+     "state": "Triangle"
+    }
+   ]
+  },
+  {
+   "id": "CURB-STOP",
+   "library": "Markings",
+   "group": "Raised",
+   "name": "Curb stop",
+   "master": "PM-CURB-STOP-DYN",
+   "default": "6' Non-Mountable",
+   "base": "Center",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: 6' Non-Mountable, 6' Mountable, 4' Mountable",
+    "Rotation"
+   ],
+   "note": "Kept as drawn.",
+   "members": [
+    {
+     "block": "PM-CURB-STOP-DYN",
+     "state": "6 ft or 4 ft, mountable or not"
+    }
+   ]
+  },
+  {
+   "id": "CALMING",
+   "library": "Markings",
+   "group": "Raised",
+   "name": "Left turn calming",
+   "master": "PM-LEFT-TURN-CALMING-10FT",
+   "default": "10 ft curb",
+   "base": "Bottom center",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: piece",
+    "Rotation"
+   ],
+   "note": "Two pieces on one rule.",
+   "members": [
+    {
+     "block": "PM-LEFT-TURN-CALMING-10FT",
+     "state": "10 ft curb"
+    },
+    {
+     "block": "PM-LEFT-TURN-CALMING-3FT",
+     "state": "3 ft bump"
+    }
+   ]
+  },
+  {
+   "id": "DEFENDER",
+   "library": "Markings",
+   "group": "Raised",
+   "name": "Lane defender",
+   "master": "PM-LANE-DEFENDER-15FT",
+   "default": "15 ft",
+   "base": "Start of run",
+   "cond": "Layer",
+   "actions": [
+    "Stretch: length (to add)",
+    "Rotation"
+   ],
+   "note": "Single.",
+   "members": [
+    {
+     "block": "PM-LANE-DEFENDER-15FT",
+     "state": "15 ft"
+    }
+   ]
+  },
+  {
+   "id": "HEAD-BALL",
+   "library": "Signals",
+   "group": "Signal heads",
+   "name": "Vehicle head, ball",
+   "master": "SG-VEHICLE-HEAD-RYG-DYN",
+   "default": "RYG · Proposed",
+   "base": "Mounting point, as authored",
+   "cond": "Visibility (as the plan library heads)",
+   "actions": [
+    "Visibility: head · Existing, Proposed, Remove",
+    "Stretch: arm offset (as drawn)"
+   ],
+   "note": "Ball heads share the arm stretch.",
+   "members": [
+    {
+     "block": "SG-VEHICLE-HEAD-RYG-DYN",
+     "state": "RYG"
+    },
+    {
+     "block": "SG-RYG-LOUVERED-DYN",
+     "state": "RYG louvered"
+    },
+    {
+     "block": "CT-ES1B-NSMS",
+     "state": "Caltrans new"
+    },
+    {
+     "block": "CT-ES1B-ESMS",
+     "state": "Caltrans existing"
+    },
+    {
+     "block": "CT-ES1B-NSFAV",
+     "state": "Angle visor, new"
+    },
+    {
+     "block": "CT-ES1B-ESFAV",
+     "state": "Angle visor, existing"
+    }
+   ]
+  },
+  {
+   "id": "HEAD-ARROW",
+   "library": "Signals",
+   "group": "Signal heads",
+   "name": "Vehicle head, arrows",
+   "master": "SG-VEHICLE-HEAD-RYG-ARROWS-DYN",
+   "default": "RYG arrows · Proposed",
+   "base": "Mounting point",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: head · condition",
+    "Flip: left or right (as drawn)"
+   ],
+   "note": "All arrow heads carry the same flip.",
+   "members": [
+    {
+     "block": "SG-VEHICLE-HEAD-RYG-ARROWS-DYN",
+     "state": "RYG arrows"
+    },
+    {
+     "block": "SG-VEHICLE-HEAD-R-YG-ARROWS-DYN",
+     "state": "Red ball, YG arrows"
+    },
+    {
+     "block": "SG-VEHICLE-HEAD-GREEN-UP-ARROW-DYN",
+     "state": "Green up arrow"
+    },
+    {
+     "block": "SG-YG-ARROW-SECTIONS-DYN",
+     "state": "YG arrow sections"
+    },
+    {
+     "block": "SG-GREEN-ARROW-SECTION-DYN",
+     "state": "Green arrow section"
+    },
+    {
+     "block": "CT-ES1B-N312LA",
+     "state": "Caltrans left arrows, new"
+    },
+    {
+     "block": "CT-ES1B-E312LA",
+     "state": "Caltrans left arrows, existing"
+    },
+    {
+     "block": "CT-ES1B-N12UA",
+     "state": "Caltrans up arrow, new"
+    },
+    {
+     "block": "CT-ES1B-E12UA",
+     "state": "Caltrans up arrow, existing"
+    }
+   ]
+  },
+  {
+   "id": "VISOR",
+   "library": "Signals",
+   "group": "Signal heads",
+   "name": "Visor",
+   "master": "SG-LONG-VISOR-DYN",
+   "default": "Long · Proposed",
+   "base": "Head face",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: visor · condition",
+    "Flip"
+   ],
+   "note": "Small pair.",
+   "members": [
+    {
+     "block": "SG-LONG-VISOR-DYN",
+     "state": "Long"
+    },
+    {
+     "block": "SG-BEVEL-VISOR-DYN",
+     "state": "Bevel"
+    }
+   ]
+  },
+  {
+   "id": "PED-HEAD",
+   "library": "Signals",
+   "group": "Signal heads",
+   "name": "Pedestrian head",
+   "master": "SG-PED-HEAD-DYN",
+   "default": "Proposed",
+   "base": "Mounting point",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: condition",
+    "Rotation",
+    "Polar stretch: mount arm (as drawn)"
+   ],
+   "note": "Kept as drawn.",
+   "members": [
+    {
+     "block": "SG-PED-HEAD-DYN",
+     "state": "LA plan"
+    },
+    {
+     "block": "CT-ES1B-NPSH",
+     "state": "Caltrans new"
+    },
+    {
+     "block": "CT-ES1B-EPSH",
+     "state": "Caltrans existing"
+    }
+   ]
+  },
+  {
+   "id": "BEACON",
+   "library": "Signals",
+   "group": "Signal heads",
+   "name": "Flashing beacon",
+   "master": "SG-FLASHING-BEACON-DYN",
+   "default": "Proposed",
+   "base": "Pole center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: assembly · condition",
+    "Rotation"
+   ],
+   "note": "Beacon assemblies.",
+   "members": [
+    {
+     "block": "SG-FLASHING-BEACON-DYN",
+     "state": "LA plan"
+    },
+    {
+     "block": "CT-ES1B-NCFB",
+     "state": "With sign, new"
+    },
+    {
+     "block": "CT-ES1B-ECFB",
+     "state": "With sign, existing"
+    },
+    {
+     "block": "CT-ES1B-NFBARM",
+     "state": "On arm, new"
+    },
+    {
+     "block": "CT-ES1B-EFBARM",
+     "state": "On arm, existing"
+    },
+    {
+     "block": "CT-ES1B-NM15FB",
+     "state": "On 15-FBS, new"
+    },
+    {
+     "block": "CT-ES1B-EM15FB",
+     "state": "On 15-FBS, existing"
+    }
+   ]
+  },
+  {
+   "id": "STANDARD",
+   "library": "Signals",
+   "group": "Poles",
+   "name": "Signal standard",
+   "master": "SG-STANDARD-DYN",
+   "default": "Standard · Proposed",
+   "base": "Pole center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: standard · condition",
+    "Rotation"
+   ],
+   "note": "Poles without arms.",
+   "members": [
+    {
+     "block": "SG-STANDARD-DYN",
+     "state": "Standard"
+    },
+    {
+     "block": "SG-STANDARD-T3-DYN",
+     "state": "T3"
+    },
+    {
+     "block": "SG-STANDARD-T5-DYN",
+     "state": "T5"
+    },
+    {
+     "block": "CT-ES1B-NTYPE1",
+     "state": "Type 1, new"
+    },
+    {
+     "block": "CT-ES1B-E-TYPE-1-STANDARD-WITH-ATTACHED",
+     "state": "Type 1, existing"
+    },
+    {
+     "block": "CT-ES1B-N15TS",
+     "state": "15TS, new"
+    },
+    {
+     "block": "CT-ES1B-E15TS",
+     "state": "15TS, existing"
+    },
+    {
+     "block": "CT-ES1B-N21TS",
+     "state": "21TS, new"
+    },
+    {
+     "block": "CT-ES1B-E21TS",
+     "state": "21TS, existing"
+    }
+   ]
+  },
+  {
+   "id": "MAST-ARM",
+   "library": "Signals",
+   "group": "Poles",
+   "name": "Mast arm standard",
+   "master": "CT-ES1B-N-STANDARD-WITH-SIGNAL-MAST-ARM",
+   "default": "Mast arm · Proposed",
+   "base": "Pole center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: arm type · condition",
+    "Stretch: arm length (to add)",
+    "Rotation"
+   ],
+   "note": "Arms get a length grip.",
+   "members": [
+    {
+     "block": "CT-ES1B-N-STANDARD-WITH-SIGNAL-MAST-ARM",
+     "state": "Mast arm, new"
+    },
+    {
+     "block": "CT-ES1B-E-STANDARD-WITH-SIGNAL-MAST-ARM",
+     "state": "Mast arm, existing"
+    },
+    {
+     "block": "CT-ES1B-NMSWLS",
+     "state": "With luminaire, new"
+    },
+    {
+     "block": "CT-ES1B-EMSWLS",
+     "state": "With luminaire, existing"
+    }
+   ]
+  },
+  {
+   "id": "PUSH-BUTTON",
+   "library": "Signals",
+   "group": "Poles",
+   "name": "Push button",
+   "master": "SG-PUSH-BUTTON-POST-DYN",
+   "default": "Post · Proposed",
+   "base": "Post center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: post or button · condition",
+    "Rotation"
+   ],
+   "note": "Kept with rotation.",
+   "members": [
+    {
+     "block": "SG-PUSH-BUTTON-POST-DYN",
+     "state": "Post"
+    },
+    {
+     "block": "SG-PED-PUSH-BUTTON-DYN",
+     "state": "Button on pole"
+    },
+    {
+     "block": "CT-ES1B-N-POST-WITH-PUSH-BUTTON",
+     "state": "Caltrans post, new"
+    },
+    {
+     "block": "CT-ES1B-EPPB",
+     "state": "Caltrans post, existing"
+    }
+   ]
+  },
+  {
+   "id": "LOOP",
+   "library": "Signals",
+   "group": "Detection",
+   "name": "Loop detector, single",
+   "master": "SG-LOOP-6FT-DYN",
+   "default": "6 ft round · Proposed",
+   "base": "Loop center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: loop · Existing, Proposed, Remove, Abandoned",
+    "Flip (as drawn)"
+   ],
+   "note": "Abandoned stays a state, as in the examples.",
+   "members": [
+    {
+     "block": "SG-LOOP-6FT-DYN",
+     "state": "6 ft round"
+    },
+    {
+     "block": "SG-LOOP-6FT-OCTAGON-DYN",
+     "state": "6 ft octagon"
+    },
+    {
+     "block": "SG-LOOP-8X6FT-OCTAGON-DYN",
+     "state": "8 x 6 ft octagon"
+    },
+    {
+     "block": "SG-LOOP-3FT-BIKE-DYN",
+     "state": "3 ft bike"
+    },
+    {
+     "block": "SG-LOOP-6FT-COMBO-BIKE-DYN",
+     "state": "6 ft combo bike"
+    },
+    {
+     "block": "CT-ES1C-N-TYPE-A-LOOP-DETECTOR",
+     "state": "Type A, new"
+    },
+    {
+     "block": "CT-ES1C-E-TYPE-A-LOOP-DETECTOR",
+     "state": "Type A, existing"
+    },
+    {
+     "block": "CT-ES1C-N-TYPE-B-LOOP-DETECTOR",
+     "state": "Type B, new"
+    },
+    {
+     "block": "CT-ES1C-E-TYPE-B-LOOP-DETECTOR",
+     "state": "Type B, existing"
+    },
+    {
+     "block": "CT-ES1C-N-TYPE-C-LOOP-DETECTOR",
+     "state": "Type C, new"
+    },
+    {
+     "block": "CT-ES1C-E-TYPE-C-LOOP-DETECTOR",
+     "state": "Type C, existing"
+    },
+    {
+     "block": "CT-ES1C-N-TYPE-D-LOOP-DETECTOR",
+     "state": "Type D, new"
+    },
+    {
+     "block": "CT-ES1C-E-TYPE-D-LOOP-DETECTOR",
+     "state": "Type D, existing"
+    },
+    {
+     "block": "CT-ES1C-N-TYPE-Q-LOOP-DETECTOR",
+     "state": "Type Q, new"
+    },
+    {
+     "block": "CT-ES1C-E-TYPE-Q-LOOP-DETECTOR",
+     "state": "Type Q, existing"
+    }
+   ]
+  },
+  {
+   "id": "LOOP-PAIR",
+   "library": "Signals",
+   "group": "Detection",
+   "name": "Loop detector, pair",
+   "master": "SG-LOOP-6FT-PAIR-DYN",
+   "default": "6 ft pair · Proposed",
+   "base": "First loop center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: pair · condition",
+    "Point grips: loop spacing (as drawn)",
+    "Flip"
+   ],
+   "note": "Spacing grips kept.",
+   "members": [
+    {
+     "block": "SG-LOOP-6FT-PAIR-DYN",
+     "state": "6 ft pair"
+    },
+    {
+     "block": "SG-LOOP-6FT-NON-BIKE-PAIR-DYN",
+     "state": "6 ft pair, not bike"
+    },
+    {
+     "block": "SG-LOOP-6FT-OCTAGON-PAIR-DYN",
+     "state": "6 ft octagon pair"
+    },
+    {
+     "block": "SG-LOOP-3FT-BIKE-PAIR-DYN",
+     "state": "3 ft bike pair"
+    }
+   ]
+  },
+  {
+   "id": "LOOP-TRANSIT",
+   "library": "Signals",
+   "group": "Detection",
+   "name": "Transit loop",
+   "master": "SG-LOOP-TRANSIT-DYN",
+   "default": "Proposed",
+   "base": "Loop end",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: condition",
+    "Stretch: length (as drawn)"
+   ],
+   "note": "Kept as drawn.",
+   "members": [
+    {
+     "block": "SG-LOOP-TRANSIT-DYN",
+     "state": "Transit"
+    }
+   ]
+  },
+  {
+   "id": "DETECTOR",
+   "library": "Signals",
+   "group": "Detection",
+   "name": "Detector and camera",
+   "master": "SG-VIDEO-DETECTOR-DYN",
+   "default": "Video detection · Proposed",
+   "base": "Mounting point",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: device · condition",
+    "Rotation"
+   ],
+   "note": "Pole and arm mounted devices.",
+   "members": [
+    {
+     "block": "SG-VIDEO-DETECTOR-DYN",
+     "state": "Video detection"
+    },
+    {
+     "block": "SG-VIDEO-CAMERA-DYN",
+     "state": "Video camera"
+    },
+    {
+     "block": "SG-OVERHEAD-DETECTOR-DYN",
+     "state": "Overhead"
+    },
+    {
+     "block": "SG-OPTICAL-DETECTOR-DYN",
+     "state": "Optical (EVP)"
+    },
+    {
+     "block": "SG-PHOTO-ENFORCEMENT-CAMERA-DYN",
+     "state": "Photo enforcement"
+    },
+    {
+     "block": "CT-ES1B-NEVD",
+     "state": "Caltrans EVD, new"
+    },
+    {
+     "block": "CT-ES1B-EEVD",
+     "state": "Caltrans EVD, existing"
+    },
+    {
+     "block": "CT-ES1C-N-DETECTION-DEVICE",
+     "state": "Caltrans device, new"
+    },
+    {
+     "block": "CT-ES1C-E-DETECTION-DEVICE",
+     "state": "Caltrans device, existing"
+    }
+   ]
+  },
+  {
+   "id": "DETECT-ZONE",
+   "library": "Signals",
+   "group": "Detection",
+   "name": "Detection zone and roadway sensor",
+   "master": "CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION",
+   "default": "Zone · new",
+   "base": "Zone start",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: item · condition",
+    "Stretch: zone length (to add)",
+    "Rotation"
+   ],
+   "note": "In-pavement items.",
+   "members": [
+    {
+     "block": "CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION",
+     "state": "Zone, new"
+    },
+    {
+     "block": "CT-ES1C-E-MICROWAVE-OR-VIDEO-DETECTION",
+     "state": "Zone, existing"
+    },
+    {
+     "block": "CT-ES1C-N-ROADWAY-SENSOR-PIEZOELECTRIC",
+     "state": "Piezo, new"
+    },
+    {
+     "block": "CT-ES1C-E-ROADWAY-SENSOR-PIEZOELECTRIC",
+     "state": "Piezo, existing"
+    },
+    {
+     "block": "CT-ES1C-E-RADAR-SPEED-FEEDBACK-SIGN",
+     "state": "Radar feedback sign, existing"
+    }
+   ]
+  },
+  {
+   "id": "CABINET",
+   "library": "Signals",
+   "group": "Cabinets",
+   "name": "Cabinet",
+   "master": "SG-CONTROLLER-DYN",
+   "default": "Controller · Proposed",
+   "base": "Cabinet center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: cabinet · condition",
+    "Rotation (door shows the front)"
+   ],
+   "note": "Door side kept.",
+   "members": [
+    {
+     "block": "SG-CONTROLLER-DYN",
+     "state": "Controller"
+    },
+    {
+     "block": "SG-COMMUNICATION-CABINET-DYN",
+     "state": "Communication"
+    },
+    {
+     "block": "SG-VIDEO-CAMERA-CABINET-DYN",
+     "state": "Video camera"
+    },
+    {
+     "block": "CT-ES1B-NCNTRLCAB",
+     "state": "Caltrans controller, new"
+    },
+    {
+     "block": "CT-ES1B-E170",
+     "state": "Caltrans controller, existing"
+    },
+    {
+     "block": "CT-ES1B-NTIII",
+     "state": "Service Type III, new"
+    },
+    {
+     "block": "CT-ES1B-ETIII",
+     "state": "Service Type III, existing"
+    },
+    {
+     "block": "CT-ES1B-NTDC",
+     "state": "Telephone demarc, new"
+    },
+    {
+     "block": "CT-ES1B-ETDC",
+     "state": "Telephone demarc, existing"
+    },
+    {
+     "block": "CT-ES1B-NPMUT",
+     "state": "Transformer, new"
+    },
+    {
+     "block": "CT-ES1B-EPMUT",
+     "state": "Transformer, existing"
+    }
+   ]
+  },
+  {
+   "id": "PULL-BOX",
+   "library": "Signals",
+   "group": "Cabinets",
+   "name": "Pull box and vault",
+   "master": "SG-PULL-BOX-3-DYN",
+   "default": "No. 3 · Proposed",
+   "base": "Box center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: size · condition",
+    "Rotation"
+   ],
+   "note": "Small group.",
+   "members": [
+    {
+     "block": "SG-PULL-BOX-3-DYN",
+     "state": "No. 3"
+    },
+    {
+     "block": "SG-PULL-BOX-2-DYN",
+     "state": "No. 2"
+    },
+    {
+     "block": "SG-FIBER-SPLICE-VAULT-DYN",
+     "state": "Fiber splice vault"
+    }
+   ]
+  },
+  {
+   "id": "LUMINAIRE",
+   "library": "Signals",
+   "group": "Lighting",
+   "name": "Luminaire (LA plan)",
+   "master": "SG-LUMINAIRE-ARM-DYN",
+   "default": "With arm · Proposed",
+   "base": "Pole center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: type · condition",
+    "Rotation"
+   ],
+   "note": "LA plan symbols.",
+   "members": [
+    {
+     "block": "SG-LUMINAIRE-ARM-DYN",
+     "state": "With arm"
+    },
+    {
+     "block": "SG-LUMINAIRE-DYN",
+     "state": "Head"
+    },
+    {
+     "block": "SG-LUMINAIRE-NO-ARM-E",
+     "state": "No arm, existing"
+    }
+   ]
+  },
+  {
+   "id": "LIGHT-STD",
+   "library": "Signals",
+   "group": "Lighting",
+   "name": "Lighting standard (Caltrans)",
+   "master": "CT-ES1A-NT15",
+   "default": "Type 15 · new",
+   "base": "Pole center",
+   "cond": "Visibility (Caltrans N and E cells)",
+   "actions": [
+    "Visibility: type · new or existing",
+    "Rotation"
+   ],
+   "note": "Types 15 to 32 and structures.",
+   "members": [
+    {
+     "block": "CT-ES1A-ET15",
+     "state": "Existing lighting standard Type 15"
+    },
+    {
+     "block": "CT-ES1A-ET15D",
+     "state": "Existing lighting standard Type 15D"
+    },
+    {
+     "block": "CT-ES1A-ET15DS",
+     "state": "Existing 15D structure"
+    },
+    {
+     "block": "CT-ES1A-ET15S",
+     "state": "Existing 15 structure"
+    },
+    {
+     "block": "CT-ES1A-ET21",
+     "state": "Existing lighting standard Type 21"
+    },
+    {
+     "block": "CT-ES1A-ET21D",
+     "state": "Existing lighting standard Type 21D"
+    },
+    {
+     "block": "CT-ES1A-ET21DS",
+     "state": "Existing 21D structure"
+    },
+    {
+     "block": "CT-ES1A-ET21S",
+     "state": "Existing 21 structure"
+    },
+    {
+     "block": "CT-ES1A-ET30",
+     "state": "Existing lighting standard Type 30"
+    },
+    {
+     "block": "CT-ES1A-ET31",
+     "state": "Existing lighting standard Type 31"
+    },
+    {
+     "block": "CT-ES1A-ET32",
+     "state": "Existing lighting standard Type 32"
+    },
+    {
+     "block": "CT-ES1A-NT15",
+     "state": "New lighting standard Type 15"
+    },
+    {
+     "block": "CT-ES1A-NT15D",
+     "state": "New lighting standard Type 15D"
+    },
+    {
+     "block": "CT-ES1A-NT15DS",
+     "state": "New 15D structure"
+    },
+    {
+     "block": "CT-ES1A-NT15S",
+     "state": "New 15 structure"
+    },
+    {
+     "block": "CT-ES1A-NT21",
+     "state": "New lighting standard Type 21"
+    },
+    {
+     "block": "CT-ES1A-NT21D",
+     "state": "New lighting standard Type 21D"
+    },
+    {
+     "block": "CT-ES1A-NT21DS",
+     "state": "New 21D structure"
+    },
+    {
+     "block": "CT-ES1A-NT21S",
+     "state": "New 21 structure"
+    },
+    {
+     "block": "CT-ES1A-NT30",
+     "state": "New lighting standard Type 30"
+    },
+    {
+     "block": "CT-ES1A-NT31",
+     "state": "New lighting standard Type 31"
+    },
+    {
+     "block": "CT-ES1A-NT32",
+     "state": "New lighting standard Type 32"
+    }
+   ]
+  },
+  {
+   "id": "ELECTROLIER",
+   "library": "Signals",
+   "group": "Lighting",
+   "name": "Electrolier and soffit light (Caltrans)",
+   "master": "CT-ES1A-NCE",
+   "default": "City electrolier · new",
+   "base": "Center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: type · new or existing",
+    "Rotation"
+   ],
+   "note": "Caltrans ES-1A lighting cells.",
+   "members": [
+    {
+     "block": "CT-ES1A-NCE",
+     "state": "New city electrolier"
+    },
+    {
+     "block": "CT-ES1A-ECE",
+     "state": "Existing city electrolier"
+    },
+    {
+     "block": "CT-ES1A-NELECT",
+     "state": "New non-standard electrolier (see project legend)"
+    },
+    {
+     "block": "CT-ES1A-EELECT",
+     "state": "Existing non-standard electrolier (see project legend)"
+    },
+    {
+     "block": "CT-ES1A-NFFE",
+     "state": "New electrolier foundation (future installation)"
+    },
+    {
+     "block": "CT-ES1A-EFFE",
+     "state": "Existing electrolier foundation (future installation)"
+    },
+    {
+     "block": "CT-ES1A-NLOWP",
+     "state": "New luminaire on wood pole"
+    },
+    {
+     "block": "CT-ES1A-ELOWP",
+     "state": "Existing luminaire on wood pole"
+    },
+    {
+     "block": "CT-ES1A-NF70W",
+     "state": "Flush-mounted soffit luminaire"
+    },
+    {
+     "block": "CT-ES1A-NP70W",
+     "state": "Pendant soffit luminaire"
+    },
+    {
+     "block": "CT-ES1A-NW70W",
+     "state": "Wall-mounted luminaire"
+    },
+    {
+     "block": "CT-ES1A-ESOWLM",
+     "state": "Existing soffit or wall-mounted luminaire to be modified as specified"
+    },
+    {
+     "block": "CT-ES1A-ESOWLU",
+     "state": "Existing soffit or wall-mounted luminaire to remain unmodified"
+    }
+   ]
+  },
+  {
+   "id": "SIGN-STRUCT",
+   "library": "Signals",
+   "group": "Signs",
+   "name": "Sign structure (Caltrans)",
+   "master": "CT-ES1B-NSSMIS",
+   "default": "Full cantilever · new",
+   "base": "Post center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: structure · new or existing",
+    "Rotation"
+   ],
+   "note": "Seven ES-1B structures.",
+   "members": [
+    {
+     "block": "CT-ES1B-NSSMIS",
+     "state": "New single post, single sign, full cantilever"
+    },
+    {
+     "block": "CT-ES1B-ESSMIS",
+     "state": "Existing single post, single sign, full cantilever"
+    },
+    {
+     "block": "CT-ES1B-NSGN1PELECT",
+     "state": "New single post, single sign, full cantilever with electrolier"
+    },
+    {
+     "block": "CT-ES1B-ESGN1PELECT",
+     "state": "Existing single post, single sign, full cantilever with electrolier"
+    },
+    {
+     "block": "CT-ES1B-NSCMIS",
+     "state": "New single post, single sign, balanced butterfly"
+    },
+    {
+     "block": "CT-ES1B-ESCMIS",
+     "state": "Existing single post, single sign, balanced butterfly"
+    },
+    {
+     "block": "CT-ES1B-NSCDIS",
+     "state": "New single post, double sign, balanced butterfly"
+    },
+    {
+     "block": "CT-ES1B-ESCDIS",
+     "state": "Existing single post, double sign, balanced butterfly"
+    },
+    {
+     "block": "CT-ES1B-NDPIS",
+     "state": "New double post, single sign"
+    },
+    {
+     "block": "CT-ES1B-EDPIS",
+     "state": "Existing double post, single sign"
+    },
+    {
+     "block": "CT-ES1B-NISWL",
+     "state": "New double post, single sign with electrolier"
+    },
+    {
+     "block": "CT-ES1B-EISWL",
+     "state": "Existing double post, single sign with electrolier"
+    },
+    {
+     "block": "CT-ES1B-NIBMS",
+     "state": "New single sign mounted on structure"
+    },
+    {
+     "block": "CT-ES1B-EIBMS",
+     "state": "Existing single sign mounted on structure"
+    }
+   ]
+  },
+  {
+   "id": "SIGN-POST",
+   "library": "Signals",
+   "group": "Signs",
+   "name": "Sign and post",
+   "master": "SN-SIGN-POST-DYN",
+   "default": "Proposed",
+   "base": "Post center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: condition"
+   ],
+   "note": "Already dynamic. Kept apart (different base).",
+   "members": [
+    {
+     "block": "SN-SIGN-POST-DYN",
+     "state": "Sign and post"
+    },
+    {
+     "block": "SN-SIGN-DYN",
+     "state": "Sign face line"
+    }
+   ]
+  },
+  {
+   "id": "POLE-MISC",
+   "library": "Signals",
+   "group": "Poles",
+   "name": "Wood pole, guy, guard post and barricade",
+   "master": "CT-ES1B-NWPP",
+   "default": "Wood pole · new",
+   "base": "Center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: item · new or existing",
+    "Rotation"
+   ],
+   "note": "Caltrans cells.",
+   "members": [
+    {
+     "block": "CT-ES1B-NWPP",
+     "state": "New wood pole, \"U\" indicates utility owned"
+    },
+    {
+     "block": "CT-ES1B-NPGUY",
+     "state": "New pole guy with anchor"
+    },
+    {
+     "block": "CT-ES1B-EPGUY",
+     "state": "Existing pole guy with anchor"
+    },
+    {
+     "block": "CT-ES1B-EGP",
+     "state": "Existing guard post"
+    },
+    {
+     "block": "CT-ES1B-NPBAR",
+     "state": "New pedestrian barricade"
+    },
+    {
+     "block": "CT-ES1B-EPBAR",
+     "state": "Existing pedestrian barricade"
+    },
+    {
+     "block": "CT-ES1A-BPN",
+     "state": "Pedestrian barricade, type as indicated on plan"
+    }
+   ]
+  },
+  {
+   "id": "CONDUIT",
+   "library": "Signals",
+   "group": "Cabinets",
+   "name": "Conduit riser and break",
+   "master": "CT-ES1B-NR",
+   "default": "Riser · new",
+   "base": "Center",
+   "cond": "Visibility",
+   "actions": [
+    "Visibility: item",
+    "Rotation"
+   ],
+   "note": "Conduit runs are line types (SIGCOND, R-SIGCOND).",
+   "members": [
+    {
+     "block": "CT-ES1B-NR",
+     "state": "Riser, new"
+    },
+    {
+     "block": "CT-ES1B-ER",
+     "state": "Riser, existing"
+    },
+    {
+     "block": "SG-CONDUIT-BREAK",
+     "state": "Break"
+    }
+   ]
+  },
+  {
+   "id": "ES-NOTE",
+   "library": "Signals",
+   "group": "Notes",
+   "name": "Abbreviation tag (Caltrans ES-1A)",
+   "master": "CT-ES1A-RL",
+   "default": "RL",
+   "base": "Tag center",
+   "cond": "None",
+   "actions": [
+    "Visibility: tag"
+   ],
+   "note": "18 tags.",
+   "members": [
+    {
+     "block": "CT-ES1A-AB",
+     "state": "AB"
+    },
+    {
+     "block": "CT-ES1A-BC",
+     "state": "BC"
+    },
+    {
+     "block": "CT-ES1A-CB",
+     "state": "CB"
+    },
+    {
+     "block": "CT-ES1A-CC",
+     "state": "CC"
+    },
+    {
+     "block": "CT-ES1A-CF",
+     "state": "CF"
+    },
+    {
+     "block": "CT-ES1A-DH",
+     "state": "DH"
+    },
+    {
+     "block": "CT-ES1A-FA",
+     "state": "FA"
+    },
+    {
+     "block": "CT-ES1A-IS",
+     "state": "IS"
+    },
+    {
+     "block": "CT-ES1A-NS",
+     "state": "NS"
+    },
+    {
+     "block": "CT-ES1A-PEC",
+     "state": "PEC"
+    },
+    {
+     "block": "CT-ES1A-PEU",
+     "state": "PEU"
+    },
+    {
+     "block": "CT-ES1A-RC",
+     "state": "RC"
+    },
+    {
+     "block": "CT-ES1A-RL",
+     "state": "RL"
+    },
+    {
+     "block": "CT-ES1A-RR",
+     "state": "RR"
+    },
+    {
+     "block": "CT-ES1A-RS",
+     "state": "RS"
+    },
+    {
+     "block": "CT-ES1A-SC",
+     "state": "SC"
+    },
+    {
+     "block": "CT-ES1A-SD",
+     "state": "SD"
+    },
+    {
+     "block": "CT-ES1A-TSP",
+     "state": "TSP"
+    }
+   ]
+  },
+  {
+   "id": "NOTE",
+   "library": "Signals",
+   "group": "Notes",
+   "name": "Note tag with attribute",
+   "master": "SG-NOTE-FLAG",
+   "default": "Flag",
+   "base": "Leader point",
+   "cond": "None",
+   "actions": [
+    "Visibility: shape",
+    "Attribute: number"
+   ],
+   "note": "Kept with attribute.",
+   "members": [
+    {
+     "block": "SG-NOTE-FLAG",
+     "state": "Flag"
+    },
+    {
+     "block": "SG-NOTE-BOX",
+     "state": "Box"
+    },
+    {
+     "block": "SG-NOTE-STANDARD-NUMBER",
+     "state": "Standard number"
+    }
+   ]
+  },
+  {
+   "id": "WIRING",
+   "library": "Signals",
+   "group": "Notes",
+   "name": "Wiring diagram symbol",
+   "master": "CT-ES1C-CIRCUIT-BREAKER",
+   "default": "Circuit breaker",
+   "base": "Center",
+   "cond": "None",
+   "actions": [
+    "Visibility: symbol"
+   ],
+   "note": "Schematic only.",
+   "members": [
+    {
+     "block": "CT-ES1C-CIRCUIT-BREAKER",
+     "state": "Circuit breaker"
+    },
+    {
+     "block": "CT-ES1C-CONTACTOR-COIL",
+     "state": "Contactor coil"
+    },
+    {
+     "block": "CT-ES1C-CONTACTOR-NC-CONTACT",
+     "state": "Contactor, NC contact"
+    },
+    {
+     "block": "CT-ES1C-CONTACTOR-NO-CONTACT",
+     "state": "Contactor, NO contact"
+    },
+    {
+     "block": "CT-ES1C-ENCLOSURE-BOND",
+     "state": "Enclosure bond"
+    },
+    {
+     "block": "CT-ES1C-GROUNDING-ELECTRODE",
+     "state": "Grounding electrode"
+    },
+    {
+     "block": "CT-ES1C-RECEPTACLE",
+     "state": "Receptacle"
+    },
+    {
+     "block": "CT-ES1C-TERMINAL-BLOCKS",
+     "state": "Terminal blocks"
+    },
+    {
+     "block": "CT-ES1C-TIE-POINT",
+     "state": "Tie point"
+    }
+   ]
+  },
+  {
+   "id": "SV-MANHOLE",
+   "library": "Survey",
+   "group": "Survey",
+   "name": "Manhole",
+   "master": "SV-MANHOLE-DYN",
+   "default": "Manhole",
+   "base": "Lid center",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: utility",
+    "Linear scale: lid size (as drawn)"
+   ],
+   "note": "The dynamic manhole gains utility states.",
+   "members": [
+    {
+     "block": "SV-MANHOLE-DYN",
+     "state": "Manhole"
+    },
+    {
+     "block": "SV-MANHOLE-STORM-DRAIN",
+     "state": "Storm drain"
+    },
+    {
+     "block": "SV-MANHOLE-SEWER",
+     "state": "Sewer"
+    },
+    {
+     "block": "SV-MANHOLE-ELECTRIC",
+     "state": "Electric"
+    },
+    {
+     "block": "SV-MANHOLE-TELEPHONE",
+     "state": "Telephone"
+    },
+    {
+     "block": "SV-MANHOLE-WATER",
+     "state": "Water"
+    },
+    {
+     "block": "SV-MANHOLE-UNKNOWN",
+     "state": "Unknown"
+    }
+   ]
+  },
+  {
+   "id": "SV-VALVE",
+   "library": "Survey",
+   "group": "Survey",
+   "name": "Valve and small utility point",
+   "master": "SV-WATER-VALVE",
+   "default": "Water valve",
+   "base": "Point",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: point"
+   ],
+   "note": "Static survey points with one rule.",
+   "members": [
+    {
+     "block": "SV-WATER-VALVE",
+     "state": "Water valve (survey)"
+    },
+    {
+     "block": "SV-GAS-VALVE",
+     "state": "Gas valve (survey)"
+    },
+    {
+     "block": "SV-IRRIGATION-CONTROL-VALVE",
+     "state": "Irrigation control valve (survey)"
+    },
+    {
+     "block": "SV-POST-INDICATOR-VALVE",
+     "state": "Post indicator valve (survey)"
+    },
+    {
+     "block": "SV-SEWER-CLEANOUT",
+     "state": "Sewer cleanout (survey)"
+    },
+    {
+     "block": "SV-MONITORING-WELL",
+     "state": "Monitoring well (survey)"
+    },
+    {
+     "block": "SV-WELL",
+     "state": "Well (survey)"
+    },
+    {
+     "block": "SV-VENT",
+     "state": "Vent (survey)"
+    },
+    {
+     "block": "SV-ELECTRIC-OUTLET",
+     "state": "Electric outlet (survey)"
+    }
+   ]
+  },
+  {
+   "id": "SV-POINT",
+   "library": "Survey",
+   "group": "Survey",
+   "name": "Survey sign and pole point",
+   "master": "SV-TRAFFIC-SIGNAL-BASE",
+   "default": "Signal base",
+   "base": "Point",
+   "cond": "Layer",
+   "actions": [
+    "Visibility: point"
+   ],
+   "note": "Static points.",
+   "members": [
+    {
+     "block": "SV-TRAFFIC-SIGNAL-BASE",
+     "state": "Signal base"
+    },
+    {
+     "block": "SV-RAILROAD-SIGN",
+     "state": "Railroad sign"
+    },
+    {
+     "block": "SV-TREE-E",
+     "state": "Tree"
+    },
+    {
+     "block": "SV-TREE-PALM",
+     "state": "Palm"
+    }
+   ]
+  },
+  {
+   "id": "SV-BACKFLOW-PREVENTER-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Backflow preventer",
+   "master": "SV-BACKFLOW-PREVENTER-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-BACKFLOW-PREVENTER-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-BIKE-RACK-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Bike rack",
+   "master": "SV-BIKE-RACK-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-BIKE-RACK-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-BUS-BENCH-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Bus bench",
+   "master": "SV-BUS-BENCH-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-BUS-BENCH-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-FIRE-HYDRANT-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Fire hydrant",
+   "master": "SV-FIRE-HYDRANT-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-FIRE-HYDRANT-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-GAS-METER-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Gas meter",
+   "master": "SV-GAS-METER-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-GAS-METER-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-GUY-WIRE-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Guy wire",
+   "master": "SV-GUY-WIRE-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-GUY-WIRE-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-LIGHT-POLE-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Light pole",
+   "master": "SV-LIGHT-POLE-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-LIGHT-POLE-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-MAILBOX-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Mailbox",
+   "master": "SV-MAILBOX-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-MAILBOX-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-METER-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Meter",
+   "master": "SV-METER-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-METER-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-NEWS-RACK-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "News rack",
+   "master": "SV-NEWS-RACK-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-NEWS-RACK-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-PALM-TREE-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Palm tree",
+   "master": "SV-PALM-TREE-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-PALM-TREE-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-PARKING-METER-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Parking meter",
+   "master": "SV-PARKING-METER-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-PARKING-METER-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-POLE-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Pole",
+   "master": "SV-POLE-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-POLE-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-POWER-POLE-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Power pole",
+   "master": "SV-POWER-POLE-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-POWER-POLE-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-POWER-POLE-GUY-ANCHOR-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Power pole with guy anchor",
+   "master": "SV-POWER-POLE-GUY-ANCHOR-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-POWER-POLE-GUY-ANCHOR-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-SHRUB-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Shrub",
+   "master": "SV-SHRUB-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-SHRUB-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-SIGN-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Sign",
+   "master": "SV-SIGN-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-SIGN-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-STREET-LIGHT-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Street light",
+   "master": "SV-STREET-LIGHT-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-STREET-LIGHT-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-TREE-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Tree",
+   "master": "SV-TREE-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-TREE-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-TREE-PINE-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Pine tree",
+   "master": "SV-TREE-PINE-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-TREE-PINE-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-TREE-STUMP-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Tree stump",
+   "master": "SV-TREE-STUMP-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-TREE-STUMP-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-UTILITY-POLE-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Utility pole",
+   "master": "SV-UTILITY-POLE-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-UTILITY-POLE-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-VALVE-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Valve",
+   "master": "SV-VALVE-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-VALVE-DYN",
+     "state": "As drawn"
+    }
+   ]
+  },
+  {
+   "id": "SV-WATER-METER-DYN",
+   "library": "Survey",
+   "group": "Survey kept as drawn",
+   "name": "Water meter",
+   "master": "SV-WATER-METER-DYN",
+   "default": "As drawn",
+   "base": "As drawn",
+   "cond": "As drawn",
+   "actions": [
+    "Kept as drawn"
+   ],
+   "note": "",
+   "members": [
+    {
+     "block": "SV-WATER-METER-DYN",
+     "state": "As drawn"
+    }
+   ]
+  }
+ ],
+ "retired": [
+  {
+   "block": "CT-DET-1",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-2",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-5",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-6",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-8",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-9",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-9A",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-11",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-12",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-12A",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-15",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-16",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-18",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-19",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-21",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-22",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-24",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-25",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-25A",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-26",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-27",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-27B",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-27C",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-28",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-29",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-31",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-32",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-34",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-34A",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-35",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-35A",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-36",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-36A",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-36B",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-37",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-37B",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-37D",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-38",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-38A",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-38B",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-38D",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-39",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-39A",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-40",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-41",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-42",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-44A",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-44B",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  },
+  {
+   "block": "CT-DET-45",
+   "replaced_by": "SSS-STRIPING-PLAN.lin"
+  }
+ ]
+}
