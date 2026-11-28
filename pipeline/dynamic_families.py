@@ -317,13 +317,12 @@ def write():
 
 
 SOURCE = Path('public/downloads/cad-tools/SSS-DYNAMIC-SOURCE.dwg')
-README = """SSS dynamic block build (v2)
+README = """SSS dynamic block build (v5)
 
 1. Open SSS-DYNAMIC-SOURCE.dwg in AutoCAD (2018 or later).
 2. APPLOAD SSS-DYNBUILD.lsp.
-3. Run SSSDYNTEST (three sample families) or SSSDYNBUILD (every family).
-4. Each family gets a PASS or FAIL line in SSS-DYNBUILD.log beside the drawing; the finished
-   dynamic block is placed at the end of its row on the review sheet.
+3. Run SSSDYNTEST (four sample families) or SSSDYNBUILD (every family).
+4. Each family gets a PASS or FAIL line in SSS-DYNBUILD.log beside the drawing.
 5. Save the drawing and send it back with the log.
 """
 
