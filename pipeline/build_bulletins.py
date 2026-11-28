@@ -13,7 +13,7 @@ OUT = "src/content/docs/bulletins"
 os.makedirs(OUT, exist_ok=True)
 
 def table(head, rows, cls="btab"):
-    h = "".join(f"<th>{esc(x)}</th>" for x in head)
+    h = "".join(f"<th>{esc(html.unescape(x))}</th>" for x in head)   # headers may already carry &amp;
     b = "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows)
     return f'<table class="{cls}"><thead><tr>{h}</tr></thead><tbody>{b}</tbody></table>'
 

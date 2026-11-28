@@ -1304,3 +1304,12 @@ details.action-menu > .reference-actions > *{text-align:left;}
 .home-tasks>a strong,.home-cad-grid>a strong{transition:color .16s ease}
 .home-tasks>a:hover strong,.home-cad-grid>a:hover strong{color:var(--sl-color-accent)}
 @media (prefers-reduced-motion:reduce){.home-tasks>a,.home-cad-grid>a,.home-column{transition:none}.home-tasks>a:hover,.home-cad-grid>a:hover{transform:none}}
+
+/* links inside dark table headers stay readable */
+.sl-markdown-content thead th a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+
+/* agency publication readers: a real title and a one-line summary above the sheet viewer */
+.reg-head{margin:0 0 .6rem}
+.reg-head h1{font-size:clamp(1.5rem,3vw,2.1rem);line-height:1.2;margin:0 0 .35rem;color:var(--sl-color-white)}
+.reg-head .reg-about{margin:0;max-width:62rem;color:var(--sl-color-gray-2);font-size:1rem;line-height:1.5}
+.reg-page .reg-desc{margin:.1rem 0 .5rem;color:var(--sl-color-gray-2);font-size:.95rem}
