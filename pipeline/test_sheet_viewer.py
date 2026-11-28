@@ -144,7 +144,8 @@ with TemporaryDirectory() as temp:
         assert len(browser.find_elements(By.CSS_SELECTOR,'.mfig-grid figure'))==2
         browser.get(base+'signs/r1-1/')
         sign_actions=wait.until(lambda d:d.find_elements(By.CSS_SELECTOR,'.sdetail .figure-actions button'))
-        assert {'Copy image','Sheet PDF','Page PDF','Copy citation'} <= {b.text for b in sign_actions if b.is_displayed()}
+        shown={b.text for b in sign_actions if b.is_displayed()}
+        assert {'Copy image','Sheet PDF','Copy citation'} <= shown and 'Page PDF' not in shown,shown   # the page offers its DWG, not a page PDF
         assert not browser.find_element(By.CSS_SELECTOR,'.sdetail .scode-big').is_displayed()
         browser.get(base+'signs/r3-1h/#sheet-view-1-2')
         assert wait.until(lambda d:d.find_element(By.ID,'sheet-view-1-2').is_displayed())
