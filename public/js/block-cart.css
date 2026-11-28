@@ -35,7 +35,7 @@
 .bc-made{font-weight:600;margin:.4rem 0 0}.bc-note{font-size:.8rem;color:#7d3c6b;margin:.2rem 0 0}
 @media(max-width:40rem){.bc-editor-body{grid-template-columns:1fr}.bc-launch{right:.7rem;bottom:.7rem}}
 .sl-markdown-content .block-card figcaption .block-actions{display:flex;gap:.6rem;align-items:center;margin-top:auto}
-.sl-markdown-content .block-card button[data-block-add]{padding:.15rem .55rem;border:1px solid #24553d;border-radius:.3rem;background:none;color:#24553d;font:600 .75rem/1.4 system-ui,sans-serif;cursor:pointer}
+.sl-markdown-content .block-card button[data-block-add]{flex:1;padding:.3rem .4rem;border:1px solid #24553d;border-radius:.3rem;background:none;color:#24553d;font:600 .78rem/1.2 inherit;cursor:pointer}
 .sl-markdown-content .block-card button[data-block-add][aria-pressed="true"]{background:#24553d;color:#fff}
 .block-tools{display:flex;flex-wrap:wrap;gap:.5rem;margin:.5rem 0 1rem}
 .block-tools button{padding:.45rem .85rem;border:1px solid var(--sl-color-gray-5);border-radius:.4rem;background:var(--sl-color-bg);color:var(--sl-color-text);cursor:pointer;font:600 .85rem system-ui,sans-serif}

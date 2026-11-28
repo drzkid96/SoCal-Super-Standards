@@ -120,7 +120,7 @@
         img.before(fig);fig.append(img);
       });
     }
-    root.querySelectorAll('figure:not(.vibe-hero)').forEach(figureTools);
+    root.querySelectorAll('figure:not(.vibe-hero):not(.block-card)').forEach(figureTools);
   }
   const top=toolbar(article);
   top.classList.add('document-actions');

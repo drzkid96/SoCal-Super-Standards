@@ -2,7 +2,7 @@
  "note": "Each family: one visibility state per variant (and per condition: proposed, existing, remove), a rotation about the shared base point; array families add a length grip. Lane arrows also flip about the lane center. Text, symbols and signs never flip, because a flip mirrors them.",
  "families": [
   {
-   "name": "SSS-ARROW-THRU",
+   "name": "THRU ARROW",
    "route": "markings/cad",
    "label": "Through arrow, 10 ft (Caltrans A24A Type I)",
    "description": "Through arrow, 10 ft (Caltrans A24A Type I)",
@@ -18,15 +18,15 @@
    "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
    "states": [
     {
-     "state": "ARROW-THRU",
+     "state": "THRU ARROW",
      "code": "CT-A24A-TYPE-I-10FT",
      "file": "markings/cad/CT-A24A-TYPE-I-10FT.dwg",
-     "block": "SSS-ARROW-THRU$ARROW-THRU"
+     "block": "THRU ARROW$THRU-ARROW"
     }
    ]
   },
   {
-   "name": "SSS-ARROW-THRU-18",
+   "name": "THRU ARROW 18",
    "route": "markings/cad",
    "label": "Through arrow, 18 ft (Caltrans A24A Type I)",
    "description": "Through arrow, 18 ft (Caltrans A24A Type I)",
@@ -42,15 +42,15 @@
    "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
    "states": [
     {
-     "state": "ARROW-THRU-18",
+     "state": "THRU ARROW 18",
      "code": "CT-A24A-TYPE-I-18FT",
      "file": "markings/cad/CT-A24A-TYPE-I-18FT.dwg",
-     "block": "SSS-ARROW-THRU-18$ARROW-THRU-18"
+     "block": "THRU ARROW 18$THRU-ARROW-18"
     }
    ]
   },
   {
-   "name": "SSS-ARROW-THRU-24",
+   "name": "THRU ARROW 24",
    "route": "markings/cad",
    "label": "Through arrow, 24 ft (Caltrans A24A Type I)",
    "description": "Through arrow, 24 ft (Caltrans A24A Type I)",
@@ -66,15 +66,15 @@
    "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
    "states": [
     {
-     "state": "ARROW-THRU-24",
+     "state": "THRU ARROW 24",
      "code": "CT-A24A-TYPE-I-24FT",
      "file": "markings/cad/CT-A24A-TYPE-I-24FT.dwg",
-     "block": "SSS-ARROW-THRU-24$ARROW-THRU-24"
+     "block": "THRU ARROW 24$THRU-ARROW-24"
     }
    ]
   },
   {
-   "name": "SSS-ARROW-TURN",
+   "name": "TURN ARROW",
    "route": "markings/cad",
    "label": "Turn arrow; flip for a right turn (Caltrans A24A Type IV)",
    "description": "Turn arrow; flip for a right turn (Caltrans A24A Type IV)",
@@ -90,15 +90,15 @@
    "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
    "states": [
     {
-     "state": "ARROW-TURN",
+     "state": "TURN ARROW",
      "code": "CT-A24A-TYPE-IV-L",
      "file": "markings/cad/CT-A24A-TYPE-IV-L.dwg",
-     "block": "SSS-ARROW-TURN$ARROW-TURN"
+     "block": "TURN ARROW$TURN-ARROW"
     }
    ]
   },
   {
-   "name": "SSS-ARROW-THRU-TURN",
+   "name": "THRU-TURN ARROW",
    "route": "markings/cad",
    "label": "Through and turn arrow; flip for through-right (Caltrans A24A Type VII)",
    "description": "Through and turn arrow; flip for through-right (Caltrans A24A Type VII)",
@@ -114,15 +114,15 @@
    "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
    "states": [
     {
-     "state": "ARROW-THRU-TURN",
+     "state": "THRU-TURN ARROW",
      "code": "CT-A24A-TYPE-VII-L",
      "file": "markings/cad/CT-A24A-TYPE-VII-L.dwg",
-     "block": "SSS-ARROW-THRU-TURN$ARROW-THRU-TURN"
+     "block": "THRU-TURN ARROW$THRU-TURN-ARROW"
     }
    ]
   },
   {
-   "name": "SSS-ARROW-THRU-LEFT-RIGHT",
+   "name": "THRU-LEFT-RIGHT ARROW",
    "route": "markings/cad",
    "label": "Through, left and right arrow (Caltrans A24A Type VIII)",
    "description": "Through, left and right arrow (Caltrans A24A Type VIII)",
@@ -138,15 +138,15 @@
    "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
    "states": [
     {
-     "state": "ARROW-THRU-LEFT-RIGHT",
+     "state": "THRU-LEFT-RIGHT ARROW",
      "code": "CT-A24A-TYPE-VIII",
      "file": "markings/cad/CT-A24A-TYPE-VIII.dwg",
-     "block": "SSS-ARROW-THRU-LEFT-RIGHT$ARROW-THRU-LEFT-RIGHT"
+     "block": "THRU-LEFT-RIGHT ARROW$THRU-LEFT-RIGHT-ARROW"
     }
    ]
   },
   {
-   "name": "SSS-ARROW-LANE-DROP",
+   "name": "LANE DROP ARROW",
    "route": "markings/cad",
    "label": "Lane drop arrow; flip for the left lane (Caltrans A24A Type VI)",
    "description": "Lane drop arrow; flip for the left lane (Caltrans A24A Type VI)",
@@ -162,15 +162,15 @@
    "placement": "Base on the limit line at the lane line; arrow point 20 ft before the line, centered in an 11 ft lane (CA MUTCD 3B.20)",
    "states": [
     {
-     "state": "ARROW-LANE-DROP",
+     "state": "LANE DROP ARROW",
      "code": "CT-A24A-TYPE-VI",
      "file": "markings/cad/CT-A24A-TYPE-VI.dwg",
-     "block": "SSS-ARROW-LANE-DROP$ARROW-LANE-DROP"
+     "block": "LANE DROP ARROW$LANE-DROP-ARROW"
     }
    ]
   },
   {
-   "name": "SSS-BIKE-SYMBOL",
+   "name": "BIKE SYMBOL",
    "route": "markings/cad",
    "label": "Bike lane symbol (Caltrans A24C)",
    "description": "Bike lane symbol (Caltrans A24C)",
@@ -186,15 +186,15 @@
    "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)",
    "states": [
     {
-     "state": "BIKE-SYMBOL",
+     "state": "BIKE SYMBOL",
      "code": "CT-A24C-BIKE-SYMBOL",
      "file": "markings/cad/CT-A24C-BIKE-SYMBOL.dwg",
-     "block": "SSS-BIKE-SYMBOL$BIKE-SYMBOL"
+     "block": "BIKE SYMBOL$BIKE-SYMBOL"
     }
    ]
   },
   {
-   "name": "SSS-BIKE-SYMBOL-RIDER",
+   "name": "BIKE SYMBOL RIDER",
    "route": "markings/cad",
    "label": "Bike lane symbol with rider (Caltrans A24C)",
    "description": "Bike lane symbol with rider (Caltrans A24C)",
@@ -210,15 +210,15 @@
    "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)",
    "states": [
     {
-     "state": "BIKE-SYMBOL-RIDER",
+     "state": "BIKE SYMBOL RIDER",
      "code": "CT-A24C-BIKE-SYMBOL-PERSON",
      "file": "markings/cad/CT-A24C-BIKE-SYMBOL-PERSON.dwg",
-     "block": "SSS-BIKE-SYMBOL-RIDER$BIKE-SYMBOL-RIDER"
+     "block": "BIKE SYMBOL RIDER$BIKE-SYMBOL-RIDER"
     }
    ]
   },
   {
-   "name": "SSS-BIKE-ARROW",
+   "name": "BIKE ARROW",
    "route": "markings/cad",
    "label": "Bike lane arrow (Caltrans A24A)",
    "description": "Bike lane arrow (Caltrans A24A)",
@@ -234,15 +234,15 @@
    "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)",
    "states": [
     {
-     "state": "BIKE-ARROW",
+     "state": "BIKE ARROW",
      "code": "CT-A24A-BIKE-LANE-ARROW",
      "file": "markings/cad/CT-A24A-BIKE-LANE-ARROW.dwg",
-     "block": "SSS-BIKE-ARROW$BIKE-ARROW"
+     "block": "BIKE ARROW$BIKE-ARROW"
     }
    ]
   },
   {
-   "name": "SSS-SHARROW",
+   "name": "SHARROW",
    "route": "markings/cad",
    "label": "Shared lane marking (Caltrans A24C)",
    "description": "Shared lane marking (Caltrans A24C)",
@@ -261,12 +261,12 @@
      "state": "SHARROW",
      "code": "CT-A24C-SHARROW",
      "file": "markings/cad/CT-A24C-SHARROW.dwg",
-     "block": "SSS-SHARROW$SHARROW"
+     "block": "SHARROW$SHARROW"
     }
    ]
   },
   {
-   "name": "SSS-ISA",
+   "name": "ACCESSIBLE PARKING",
    "route": "markings/cad",
    "label": "Accessible parking symbol (Caltrans A24C)",
    "description": "Accessible parking symbol (Caltrans A24C)",
@@ -282,15 +282,15 @@
    "placement": "Base at the stall line corner at the stall end; centered in a 9 ft stall",
    "states": [
     {
-     "state": "ISA",
+     "state": "ACCESSIBLE PARKING",
      "code": "CT-A24C-ISA",
      "file": "markings/cad/CT-A24C-ISA.dwg",
-     "block": "SSS-ISA$ISA"
+     "block": "ACCESSIBLE PARKING$ACCESSIBLE-PARKING"
     }
    ]
   },
   {
-   "name": "SSS-DIAMOND",
+   "name": "DIAMOND",
    "route": "markings/cad",
    "label": "Preferential lane diamond (Caltrans A24C)",
    "description": "Preferential lane diamond (Caltrans A24C)",
@@ -309,12 +309,12 @@
      "state": "DIAMOND",
      "code": "CT-A24C-DIAMOND",
      "file": "markings/cad/CT-A24C-DIAMOND.dwg",
-     "block": "SSS-DIAMOND$DIAMOND"
+     "block": "DIAMOND$DIAMOND"
     }
    ]
   },
   {
-   "name": "SSS-RXR",
+   "name": "RAILROAD XING",
    "route": "markings/cad",
    "label": "Railroad crossing marking (Caltrans A24B)",
    "description": "Railroad crossing marking (Caltrans A24B)",
@@ -330,15 +330,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "RXR",
+     "state": "RAILROAD XING",
      "code": "CT-A24B-RXR",
      "file": "markings/cad/CT-A24B-RXR.dwg",
-     "block": "SSS-RXR$RXR"
+     "block": "RAILROAD XING$RAILROAD-XING"
     }
    ]
   },
   {
-   "name": "SSS-YIELD-TRIANGLE",
+   "name": "YIELD TRIANGLE",
    "route": "markings/cad",
    "label": "Yield line triangle, 2 x 3 ft",
    "description": "Yield line triangle, 2 x 3 ft",
@@ -354,15 +354,15 @@
    "placement": "Base on the yield line at the lane line; first triangle starts at the lane line",
    "states": [
     {
-     "state": "YIELD-TRIANGLE",
+     "state": "YIELD TRIANGLE",
      "code": "PM-YIELD-LINE-TRIANGLE",
      "file": "markings/cad/PM-YIELD-LINE-TRIANGLE.dwg",
-     "block": "SSS-YIELD-TRIANGLE$YIELD-TRIANGLE"
+     "block": "YIELD TRIANGLE$YIELD-TRIANGLE"
     }
    ]
   },
   {
-   "name": "SSS-LEFT-TURN-CALMING-3",
+   "name": "LEFT TURN CALMING 3",
    "route": "markings/cad",
    "label": "Left turn calming bump, 3 ft",
    "description": "Left turn calming bump, 3 ft",
@@ -378,15 +378,15 @@
    "placement": "Base at the upstream end, centered on the element; snap to the centerline or the left turn path",
    "states": [
     {
-     "state": "LEFT-TURN-CALMING-3",
+     "state": "LEFT TURN CALMING 3",
      "code": "PM-LEFT-TURN-CALMING-3FT",
      "file": "markings/cad/PM-LEFT-TURN-CALMING-3FT.dwg",
-     "block": "SSS-LEFT-TURN-CALMING-3$LEFT-TURN-CALMING-3"
+     "block": "LEFT TURN CALMING 3$LEFT-TURN-CALMING-3"
     }
    ]
   },
   {
-   "name": "SSS-LEFT-TURN-CALMING-10",
+   "name": "LEFT TURN CALMING 10",
    "route": "markings/cad",
    "label": "Left turn calming curb, 10 ft",
    "description": "Left turn calming curb, 10 ft",
@@ -402,15 +402,15 @@
    "placement": "Base at the upstream end, centered on the element; snap to the centerline or the left turn path",
    "states": [
     {
-     "state": "LEFT-TURN-CALMING-10",
+     "state": "LEFT TURN CALMING 10",
      "code": "PM-LEFT-TURN-CALMING-10FT",
      "file": "markings/cad/PM-LEFT-TURN-CALMING-10FT.dwg",
-     "block": "SSS-LEFT-TURN-CALMING-10$LEFT-TURN-CALMING-10"
+     "block": "LEFT TURN CALMING 10$LEFT-TURN-CALMING-10"
     }
    ]
   },
   {
-   "name": "SSS-LANE-DEFENDER-15",
+   "name": "LANE DEFENDER 15",
    "route": "markings/cad",
    "label": "Lane defender, 15 ft",
    "description": "Lane defender, 15 ft",
@@ -426,15 +426,15 @@
    "placement": null,
    "states": [
     {
-     "state": "LANE-DEFENDER-15",
+     "state": "LANE DEFENDER 15",
      "code": "PM-LANE-DEFENDER-15FT",
      "file": "markings/cad/PM-LANE-DEFENDER-15FT.dwg",
-     "block": "SSS-LANE-DEFENDER-15$LANE-DEFENDER-15"
+     "block": "LANE DEFENDER 15$LANE-DEFENDER-15"
     }
    ]
   },
   {
-   "name": "SSS-CROSSWALK-DIAGONAL",
+   "name": "CROSSWALK DIAGONAL",
    "route": "markings/cad",
    "label": "Diagonal crosswalk, 45 degree bars (Caltrans A24F)",
    "description": "Diagonal crosswalk, 45 degree bars (Caltrans A24F)",
@@ -450,15 +450,15 @@
    "placement": "Base at the curb corner on the near crosswalk line",
    "states": [
     {
-     "state": "CROSSWALK-DIAGONAL",
+     "state": "CROSSWALK DIAGONAL",
      "code": "CT-A24F-DIAGONAL",
      "file": "markings/cad/CT-A24F-DIAGONAL.dwg",
-     "block": "SSS-CROSSWALK-DIAGONAL$CROSSWALK-DIAGONAL"
+     "block": "CROSSWALK DIAGONAL$CROSSWALK-DIAGONAL"
     }
    ]
   },
   {
-   "name": "SSS-WORD-KEEP-CLEAR",
+   "name": "KEEP CLEAR",
    "route": "markings/cad",
    "label": "KEEP CLEAR (Caltrans A24E words)",
    "description": "KEEP CLEAR (Caltrans A24E words)",
@@ -474,15 +474,15 @@
    "placement": "Base on the crosswalk or limit line at the lane line; legend starts 8 ft past the line, centered in an 11 ft lane",
    "states": [
     {
-     "state": "WORD-KEEP-CLEAR",
+     "state": "KEEP CLEAR",
      "code": "PM-KEEP-CLEAR",
      "file": "markings/cad/PM-KEEP-CLEAR.dwg",
-     "block": "SSS-WORD-KEEP-CLEAR$WORD-KEEP-CLEAR"
+     "block": "KEEP CLEAR$KEEP-CLEAR"
     }
    ]
   },
   {
-   "name": "SSS-WORD-BUS-ONLY",
+   "name": "BUS ONLY",
    "route": "markings/cad",
    "label": "BUS ONLY (Caltrans A24E words)",
    "description": "BUS ONLY (Caltrans A24E words)",
@@ -498,15 +498,15 @@
    "placement": "Base on the crosswalk or limit line at the lane line; legend starts 8 ft past the line, centered in an 11 ft lane",
    "states": [
     {
-     "state": "WORD-BUS-ONLY",
+     "state": "BUS ONLY",
      "code": "PM-BUS-ONLY",
      "file": "markings/cad/PM-BUS-ONLY.dwg",
-     "block": "SSS-WORD-BUS-ONLY$WORD-BUS-ONLY"
+     "block": "BUS ONLY$BUS-ONLY"
     }
    ]
   },
   {
-   "name": "SSS-WORD-WAIT-HERE",
+   "name": "WAIT HERE",
    "route": "markings/cad",
    "label": "WAIT HERE (Caltrans A24D words)",
    "description": "WAIT HERE (Caltrans A24D words)",
@@ -522,15 +522,15 @@
    "placement": "Base on the limit line at the lane line; legend 8 ft before the line, centered in an 11 ft lane (LADOT S-517.0)",
    "states": [
     {
-     "state": "WORD-WAIT-HERE",
+     "state": "WAIT HERE",
      "code": "PM-WAIT-HERE",
      "file": "markings/cad/PM-WAIT-HERE.dwg",
-     "block": "SSS-WORD-WAIT-HERE$WORD-WAIT-HERE"
+     "block": "WAIT HERE$WAIT-HERE"
     }
    ]
   },
   {
-   "name": "SSS-NUMERAL-2",
+   "name": "NUMERAL 2",
    "route": "markings/cad",
    "label": "Numeral 2, 8 ft (Caltrans A24C)",
    "description": "Numeral 2, 8 ft (Caltrans A24C)",
@@ -546,15 +546,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "NUMERAL-2",
+     "state": "NUMERAL 2",
      "code": "CT-A24C-NUMERAL-2",
      "file": "markings/cad/CT-A24C-NUMERAL-2.dwg",
-     "block": "SSS-NUMERAL-2$NUMERAL-2"
+     "block": "NUMERAL 2$NUMERAL-2"
     }
    ]
   },
   {
-   "name": "SSS-NUMERAL-5",
+   "name": "NUMERAL 5",
    "route": "markings/cad",
    "label": "Numeral 5, 8 ft (Caltrans A24C)",
    "description": "Numeral 5, 8 ft (Caltrans A24C)",
@@ -570,15 +570,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "NUMERAL-5",
+     "state": "NUMERAL 5",
      "code": "CT-A24C-NUMERAL-5",
      "file": "markings/cad/CT-A24C-NUMERAL-5.dwg",
-     "block": "SSS-NUMERAL-5$NUMERAL-5"
+     "block": "NUMERAL 5$NUMERAL-5"
     }
    ]
   },
   {
-   "name": "SSS-NUMERAL-3",
+   "name": "NUMERAL 3",
    "route": "markings/cad",
    "label": "Numeral 3, 8 ft (Caltrans A24C)",
    "description": "Numeral 3, 8 ft (Caltrans A24C)",
@@ -594,15 +594,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "NUMERAL-3",
+     "state": "NUMERAL 3",
      "code": "CT-A24C-NUMERAL-3",
      "file": "markings/cad/CT-A24C-NUMERAL-3.dwg",
-     "block": "SSS-NUMERAL-3$NUMERAL-3"
+     "block": "NUMERAL 3$NUMERAL-3"
     }
    ]
   },
   {
-   "name": "SSS-NUMERAL-4",
+   "name": "NUMERAL 4",
    "route": "markings/cad",
    "label": "Numeral 4, 8 ft (Caltrans A24C)",
    "description": "Numeral 4, 8 ft (Caltrans A24C)",
@@ -618,15 +618,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "NUMERAL-4",
+     "state": "NUMERAL 4",
      "code": "CT-A24C-NUMERAL-4",
      "file": "markings/cad/CT-A24C-NUMERAL-4.dwg",
-     "block": "SSS-NUMERAL-4$NUMERAL-4"
+     "block": "NUMERAL 4$NUMERAL-4"
     }
    ]
   },
   {
-   "name": "SSS-NUMERAL-0",
+   "name": "NUMERAL 0",
    "route": "markings/cad",
    "label": "Numeral 0, 8 ft (Caltrans A24C)",
    "description": "Numeral 0, 8 ft (Caltrans A24C)",
@@ -642,15 +642,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "NUMERAL-0",
+     "state": "NUMERAL 0",
      "code": "CT-A24C-NUMERAL-0",
      "file": "markings/cad/CT-A24C-NUMERAL-0.dwg",
-     "block": "SSS-NUMERAL-0$NUMERAL-0"
+     "block": "NUMERAL 0$NUMERAL-0"
     }
    ]
   },
   {
-   "name": "SSS-WORD-RUNAWAY",
+   "name": "RUNAWAY",
    "route": "markings/cad",
    "label": "RUNAWAY (Caltrans A24D)",
    "description": "RUNAWAY (Caltrans A24D)",
@@ -666,15 +666,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-RUNAWAY",
+     "state": "RUNAWAY",
      "code": "CT-A24D-RUNAWAY",
      "file": "markings/cad/CT-A24D-RUNAWAY.dwg",
-     "block": "SSS-WORD-RUNAWAY$WORD-RUNAWAY"
+     "block": "RUNAWAY$RUNAWAY"
     }
    ]
   },
   {
-   "name": "SSS-WORD-VEHICLES",
+   "name": "VEHICLES",
    "route": "markings/cad",
    "label": "VEHICLES (Caltrans A24D)",
    "description": "VEHICLES (Caltrans A24D)",
@@ -690,15 +690,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-VEHICLES",
+     "state": "VEHICLES",
      "code": "CT-A24D-VEHICLES",
      "file": "markings/cad/CT-A24D-VEHICLES.dwg",
-     "block": "SSS-WORD-VEHICLES$WORD-VEHICLES"
+     "block": "VEHICLES$VEHICLES"
     }
    ]
   },
   {
-   "name": "SSS-WORD-YIELD",
+   "name": "YIELD",
    "route": "markings/cad",
    "label": "YIELD (Caltrans A24D)",
    "description": "YIELD (Caltrans A24D)",
@@ -714,15 +714,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-YIELD",
+     "state": "YIELD",
      "code": "CT-A24D-YIELD",
      "file": "markings/cad/CT-A24D-YIELD.dwg",
-     "block": "SSS-WORD-YIELD$WORD-YIELD"
+     "block": "YIELD$YIELD"
     }
    ]
   },
   {
-   "name": "SSS-WORD-SCHOOL",
+   "name": "SCHOOL",
    "route": "markings/cad",
    "label": "SCHOOL (Caltrans A24D)",
    "description": "SCHOOL (Caltrans A24D)",
@@ -738,15 +738,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-SCHOOL",
+     "state": "SCHOOL",
      "code": "CT-A24D-SCHOOL",
      "file": "markings/cad/CT-A24D-SCHOOL.dwg",
-     "block": "SSS-WORD-SCHOOL$WORD-SCHOOL"
+     "block": "SCHOOL$SCHOOL"
     }
    ]
   },
   {
-   "name": "SSS-WORD-WAIT",
+   "name": "WAIT",
    "route": "markings/cad",
    "label": "WAIT (Caltrans A24D)",
    "description": "WAIT (Caltrans A24D)",
@@ -762,15 +762,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-WAIT",
+     "state": "WAIT",
      "code": "CT-A24D-WAIT",
      "file": "markings/cad/CT-A24D-WAIT.dwg",
-     "block": "SSS-WORD-WAIT$WORD-WAIT"
+     "block": "WAIT$WAIT"
     }
    ]
   },
   {
-   "name": "SSS-WORD-SLOW",
+   "name": "SLOW",
    "route": "markings/cad",
    "label": "SLOW (Caltrans A24D)",
    "description": "SLOW (Caltrans A24D)",
@@ -786,15 +786,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-SLOW",
+     "state": "SLOW",
      "code": "CT-A24D-SLOW",
      "file": "markings/cad/CT-A24D-SLOW.dwg",
-     "block": "SSS-WORD-SLOW$WORD-SLOW"
+     "block": "SLOW$SLOW"
     }
    ]
   },
   {
-   "name": "SSS-WORD-AHEAD",
+   "name": "AHEAD",
    "route": "markings/cad",
    "label": "AHEAD (Caltrans A24D)",
    "description": "AHEAD (Caltrans A24D)",
@@ -810,15 +810,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-AHEAD",
+     "state": "AHEAD",
      "code": "CT-A24D-AHEAD",
      "file": "markings/cad/CT-A24D-AHEAD.dwg",
-     "block": "SSS-WORD-AHEAD$WORD-AHEAD"
+     "block": "AHEAD$AHEAD"
     }
    ]
   },
   {
-   "name": "SSS-WORD-TURN",
+   "name": "TURN",
    "route": "markings/cad",
    "label": "TURN (Caltrans A24D)",
    "description": "TURN (Caltrans A24D)",
@@ -834,15 +834,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-TURN",
+     "state": "TURN",
      "code": "CT-A24D-TURN",
      "file": "markings/cad/CT-A24D-TURN.dwg",
-     "block": "SSS-WORD-TURN$WORD-TURN"
+     "block": "TURN$TURN"
     }
    ]
   },
   {
-   "name": "SSS-WORD-HERE",
+   "name": "HERE",
    "route": "markings/cad",
    "label": "HERE (Caltrans A24D)",
    "description": "HERE (Caltrans A24D)",
@@ -858,15 +858,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-HERE",
+     "state": "HERE",
      "code": "CT-A24D-HERE",
      "file": "markings/cad/CT-A24D-HERE.dwg",
-     "block": "SSS-WORD-HERE$WORD-HERE"
+     "block": "HERE$HERE"
     }
    ]
   },
   {
-   "name": "SSS-WORD-XING",
+   "name": "XING",
    "route": "markings/cad",
    "label": "XING (Caltrans A24D)",
    "description": "XING (Caltrans A24D)",
@@ -882,15 +882,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-XING",
+     "state": "XING",
      "code": "CT-A24D-XING",
      "file": "markings/cad/CT-A24D-XING.dwg",
-     "block": "SSS-WORD-XING$WORD-XING"
+     "block": "XING$XING"
     }
    ]
   },
   {
-   "name": "SSS-WORD-SIGNAL",
+   "name": "SIGNAL",
    "route": "markings/cad",
    "label": "SIGNAL (Caltrans A24D)",
    "description": "SIGNAL (Caltrans A24D)",
@@ -906,15 +906,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-SIGNAL",
+     "state": "SIGNAL",
      "code": "CT-A24D-SIGNAL",
      "file": "markings/cad/CT-A24D-SIGNAL.dwg",
-     "block": "SSS-WORD-SIGNAL$WORD-SIGNAL"
+     "block": "SIGNAL$SIGNAL"
     }
    ]
   },
   {
-   "name": "SSS-WORD-LEFT",
+   "name": "LEFT",
    "route": "markings/cad",
    "label": "LEFT (Caltrans A24D)",
    "description": "LEFT (Caltrans A24D)",
@@ -930,15 +930,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-LEFT",
+     "state": "LEFT",
      "code": "CT-A24D-LEFT",
      "file": "markings/cad/CT-A24D-LEFT.dwg",
-     "block": "SSS-WORD-LEFT$WORD-LEFT"
+     "block": "LEFT$LEFT"
     }
    ]
   },
   {
-   "name": "SSS-WORD-RIGHT",
+   "name": "RIGHT",
    "route": "markings/cad",
    "label": "RIGHT (Caltrans A24D)",
    "description": "RIGHT (Caltrans A24D)",
@@ -954,15 +954,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-RIGHT",
+     "state": "RIGHT",
      "code": "CT-A24D-RIGHT",
      "file": "markings/cad/CT-A24D-RIGHT.dwg",
-     "block": "SSS-WORD-RIGHT$WORD-RIGHT"
+     "block": "RIGHT$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-WORD-STOP",
+   "name": "STOP",
    "route": "markings/cad",
    "label": "STOP (Caltrans A24D)",
    "description": "STOP (Caltrans A24D)",
@@ -978,15 +978,15 @@
    "placement": "Base on the limit line at the lane line; legend 8 ft before the line, centered in an 11 ft lane (LADOT S-517.0)",
    "states": [
     {
-     "state": "WORD-STOP",
+     "state": "STOP",
      "code": "CT-A24D-STOP",
      "file": "markings/cad/CT-A24D-STOP.dwg",
-     "block": "SSS-WORD-STOP$WORD-STOP"
+     "block": "STOP$STOP"
     }
    ]
   },
   {
-   "name": "SSS-WORD-PED",
+   "name": "PED",
    "route": "markings/cad",
    "label": "PED (Caltrans A24D)",
    "description": "PED (Caltrans A24D)",
@@ -1002,15 +1002,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-PED",
+     "state": "PED",
      "code": "CT-A24D-PED",
      "file": "markings/cad/CT-A24D-PED.dwg",
-     "block": "SSS-WORD-PED$WORD-PED"
+     "block": "PED$PED"
     }
    ]
   },
   {
-   "name": "SSS-WORD-COMPACT",
+   "name": "COMPACT",
    "route": "markings/cad",
    "label": "COMPACT, 4 ft letters (Caltrans A24D)",
    "description": "COMPACT, 4 ft letters (Caltrans A24D)",
@@ -1026,15 +1026,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-COMPACT",
+     "state": "COMPACT",
      "code": "CT-A24D-COMPACT",
      "file": "markings/cad/CT-A24D-COMPACT.dwg",
-     "block": "SSS-WORD-COMPACT$WORD-COMPACT"
+     "block": "COMPACT$COMPACT"
     }
    ]
   },
   {
-   "name": "SSS-WORD-BIKE-4FT",
+   "name": "BIKE 4FT",
    "route": "markings/cad",
    "label": "BIKE, 4 ft letters (Caltrans A24D)",
    "description": "BIKE, 4 ft letters (Caltrans A24D)",
@@ -1050,15 +1050,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-BIKE-4FT",
+     "state": "BIKE 4FT",
      "code": "CT-A24D-BIKE-4FT",
      "file": "markings/cad/CT-A24D-BIKE-4FT.dwg",
-     "block": "SSS-WORD-BIKE-4FT$WORD-BIKE-4FT"
+     "block": "BIKE 4FT$BIKE-4FT"
     }
    ]
   },
   {
-   "name": "SSS-WORD-LANE-4FT",
+   "name": "LANE 4FT",
    "route": "markings/cad",
    "label": "LANE, 4 ft letters (Caltrans A24D)",
    "description": "LANE, 4 ft letters (Caltrans A24D)",
@@ -1074,15 +1074,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-LANE-4FT",
+     "state": "LANE 4FT",
      "code": "CT-A24D-LANE-4FT",
      "file": "markings/cad/CT-A24D-LANE-4FT.dwg",
-     "block": "SSS-WORD-LANE-4FT$WORD-LANE-4FT"
+     "block": "LANE 4FT$LANE-4FT"
     }
    ]
   },
   {
-   "name": "SSS-WORD-LANE",
+   "name": "LANE",
    "route": "markings/cad",
    "label": "LANE (Caltrans A24E)",
    "description": "LANE (Caltrans A24E)",
@@ -1098,15 +1098,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-LANE",
+     "state": "LANE",
      "code": "CT-A24E-LANE",
      "file": "markings/cad/CT-A24E-LANE.dwg",
-     "block": "SSS-WORD-LANE$WORD-LANE"
+     "block": "LANE$LANE"
     }
    ]
   },
   {
-   "name": "SSS-WORD-CLEAR",
+   "name": "CLEAR",
    "route": "markings/cad",
    "label": "CLEAR (Caltrans A24E)",
    "description": "CLEAR (Caltrans A24E)",
@@ -1122,15 +1122,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-CLEAR",
+     "state": "CLEAR",
      "code": "CT-A24E-CLEAR",
      "file": "markings/cad/CT-A24E-CLEAR.dwg",
-     "block": "SSS-WORD-CLEAR$WORD-CLEAR"
+     "block": "CLEAR$CLEAR"
     }
    ]
   },
   {
-   "name": "SSS-WORD-BIKE",
+   "name": "BIKE",
    "route": "markings/cad",
    "label": "BIKE (Caltrans A24E)",
    "description": "BIKE (Caltrans A24E)",
@@ -1146,15 +1146,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-BIKE",
+     "state": "BIKE",
      "code": "CT-A24E-BIKE",
      "file": "markings/cad/CT-A24E-BIKE.dwg",
-     "block": "SSS-WORD-BIKE$WORD-BIKE"
+     "block": "BIKE$BIKE"
     }
    ]
   },
   {
-   "name": "SSS-WORD-ONLY",
+   "name": "ONLY",
    "route": "markings/cad",
    "label": "ONLY (Caltrans A24E)",
    "description": "ONLY (Caltrans A24E)",
@@ -1170,15 +1170,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-ONLY",
+     "state": "ONLY",
      "code": "CT-A24E-ONLY",
      "file": "markings/cad/CT-A24E-ONLY.dwg",
-     "block": "SSS-WORD-ONLY$WORD-ONLY"
+     "block": "ONLY$ONLY"
     }
    ]
   },
   {
-   "name": "SSS-WORD-NO",
+   "name": "NO",
    "route": "markings/cad",
    "label": "NO (Caltrans A24E)",
    "description": "NO (Caltrans A24E)",
@@ -1194,15 +1194,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-NO",
+     "state": "NO",
      "code": "CT-A24E-NO",
      "file": "markings/cad/CT-A24E-NO.dwg",
-     "block": "SSS-WORD-NO$WORD-NO"
+     "block": "NO$NO"
     }
    ]
   },
   {
-   "name": "SSS-WORD-KEEP",
+   "name": "KEEP",
    "route": "markings/cad",
    "label": "KEEP (Caltrans A24E)",
    "description": "KEEP (Caltrans A24E)",
@@ -1218,15 +1218,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-KEEP",
+     "state": "KEEP",
      "code": "CT-A24E-KEEP",
      "file": "markings/cad/CT-A24E-KEEP.dwg",
-     "block": "SSS-WORD-KEEP$WORD-KEEP"
+     "block": "KEEP$KEEP"
     }
    ]
   },
   {
-   "name": "SSS-WORD-BUS",
+   "name": "BUS",
    "route": "markings/cad",
    "label": "BUS (Caltrans A24E)",
    "description": "BUS (Caltrans A24E)",
@@ -1242,15 +1242,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-BUS",
+     "state": "BUS",
      "code": "CT-A24E-BUS",
      "file": "markings/cad/CT-A24E-BUS.dwg",
-     "block": "SSS-WORD-BUS$WORD-BUS"
+     "block": "BUS$BUS"
     }
    ]
   },
   {
-   "name": "SSS-WORD-FWY",
+   "name": "FWY",
    "route": "markings/cad",
    "label": "FWY (Caltrans A24E)",
    "description": "FWY (Caltrans A24E)",
@@ -1266,15 +1266,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-FWY",
+     "state": "FWY",
      "code": "CT-A24E-FWY",
      "file": "markings/cad/CT-A24E-FWY.dwg",
-     "block": "SSS-WORD-FWY$WORD-FWY"
+     "block": "FWY$FWY"
     }
    ]
   },
   {
-   "name": "SSS-WORD-EXPRS",
+   "name": "EXPRS",
    "route": "markings/cad",
    "label": "EXPRS (Caltrans A24E)",
    "description": "EXPRS (Caltrans A24E)",
@@ -1290,15 +1290,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-EXPRS",
+     "state": "EXPRS",
      "code": "CT-A24E-EXPRS",
      "file": "markings/cad/CT-A24E-EXPRS.dwg",
-     "block": "SSS-WORD-EXPRS$WORD-EXPRS"
+     "block": "EXPRS$EXPRS"
     }
    ]
   },
   {
-   "name": "SSS-WORD-TRAIL",
+   "name": "TRAIL",
    "route": "markings/cad",
    "label": "TRAIL (Caltrans A24E)",
    "description": "TRAIL (Caltrans A24E)",
@@ -1314,15 +1314,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-TRAIL",
+     "state": "TRAIL",
      "code": "CT-A24E-TRAIL",
      "file": "markings/cad/CT-A24E-TRAIL.dwg",
-     "block": "SSS-WORD-TRAIL$WORD-TRAIL"
+     "block": "TRAIL$TRAIL"
     }
    ]
   },
   {
-   "name": "SSS-WORD-HOV",
+   "name": "HOV",
    "route": "markings/cad",
    "label": "HOV (Caltrans A24E)",
    "description": "HOV (Caltrans A24E)",
@@ -1338,15 +1338,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-HOV",
+     "state": "HOV",
      "code": "CT-A24E-HOV",
      "file": "markings/cad/CT-A24E-HOV.dwg",
-     "block": "SSS-WORD-HOV$WORD-HOV"
+     "block": "HOV$HOV"
     }
    ]
   },
   {
-   "name": "SSS-WORD-NORTH",
+   "name": "NORTH",
    "route": "markings/cad",
    "label": "NORTH (Caltrans A24E)",
    "description": "NORTH (Caltrans A24E)",
@@ -1362,15 +1362,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-NORTH",
+     "state": "NORTH",
      "code": "CT-A24E-NORTH",
      "file": "markings/cad/CT-A24E-NORTH.dwg",
-     "block": "SSS-WORD-NORTH$WORD-NORTH"
+     "block": "NORTH$NORTH"
     }
    ]
   },
   {
-   "name": "SSS-WORD-SOUTH",
+   "name": "SOUTH",
    "route": "markings/cad",
    "label": "SOUTH (Caltrans A24E)",
    "description": "SOUTH (Caltrans A24E)",
@@ -1386,15 +1386,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-SOUTH",
+     "state": "SOUTH",
      "code": "CT-A24E-SOUTH",
      "file": "markings/cad/CT-A24E-SOUTH.dwg",
-     "block": "SSS-WORD-SOUTH$WORD-SOUTH"
+     "block": "SOUTH$SOUTH"
     }
    ]
   },
   {
-   "name": "SSS-WORD-EAST",
+   "name": "EAST",
    "route": "markings/cad",
    "label": "EAST (Caltrans A24E)",
    "description": "EAST (Caltrans A24E)",
@@ -1410,15 +1410,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-EAST",
+     "state": "EAST",
      "code": "CT-A24E-EAST",
      "file": "markings/cad/CT-A24E-EAST.dwg",
-     "block": "SSS-WORD-EAST$WORD-EAST"
+     "block": "EAST$EAST"
     }
    ]
   },
   {
-   "name": "SSS-WORD-WEST",
+   "name": "WEST",
    "route": "markings/cad",
    "label": "WEST (Caltrans A24E)",
    "description": "WEST (Caltrans A24E)",
@@ -1434,15 +1434,15 @@
    "placement": "Base on the lane line at the word's near edge; centered in an 11 ft lane, move back to the setback",
    "states": [
     {
-     "state": "WORD-WEST",
+     "state": "WEST",
      "code": "CT-A24E-WEST",
      "file": "markings/cad/CT-A24E-WEST.dwg",
-     "block": "SSS-WORD-WEST$WORD-WEST"
+     "block": "WEST$WEST"
     }
    ]
   },
   {
-   "name": "SSS-CROSSWALK-BASIC",
+   "name": "CROSSWALK BASIC",
    "route": "markings/cad",
    "label": "Basic crosswalk, two 1 ft lines 6 ft apart (Caltrans A24F)",
    "description": "Basic crosswalk, two 1 ft lines 6 ft apart (Caltrans A24F)",
@@ -1461,7 +1461,7 @@
    "width": null,
    "states": [
     {
-     "state": "CROSSWALK-BASIC",
+     "state": "CROSSWALK BASIC",
      "lines": [
       [
        0,
@@ -1476,12 +1476,12 @@
        8
       ]
      ],
-     "block": "SSS-CROSSWALK-BASIC$CROSSWALK-BASIC"
+     "block": "CROSSWALK BASIC$CROSSWALK-BASIC"
     }
    ]
   },
   {
-   "name": "SSS-CROSSWALK-CONTINENTAL",
+   "name": "CROSSWALK CONTINENTAL",
    "route": "markings/cad",
    "label": "Continental crosswalk, 1 ft bars at 2 ft centers, first bar one gap from the curb (Caltrans A24F)",
    "description": "Continental crosswalk, 1 ft bars at 2 ft centers, first bar one gap from the curb (Caltrans A24F)",
@@ -1500,7 +1500,7 @@
    "width": null,
    "states": [
     {
-     "state": "CROSSWALK-CONTINENTAL",
+     "state": "CROSSWALK CONTINENTAL",
      "unit": [
       [
        1,
@@ -1510,12 +1510,12 @@
       ]
      ],
      "spacing": 2.0,
-     "block": "SSS-CROSSWALK-CONTINENTAL$CROSSWALK-CONTINENTAL"
+     "block": "CROSSWALK CONTINENTAL$CROSSWALK-CONTINENTAL"
     }
    ]
   },
   {
-   "name": "SSS-CROSSWALK-LADDER",
+   "name": "CROSSWALK LADDER",
    "route": "markings/cad",
    "label": "Ladder crosswalk, 1 ft lines and bars (Caltrans A24F)",
    "description": "Ladder crosswalk, 1 ft lines and bars (Caltrans A24F)",
@@ -1534,7 +1534,7 @@
    "width": null,
    "states": [
     {
-     "state": "CROSSWALK-LADDER",
+     "state": "CROSSWALK LADDER",
      "unit": [
       [
        1,
@@ -1558,12 +1558,12 @@
       ]
      ],
      "spacing": 2.0,
-     "block": "SSS-CROSSWALK-LADDER$CROSSWALK-LADDER"
+     "block": "CROSSWALK LADDER$CROSSWALK-LADDER"
     }
    ]
   },
   {
-   "name": "SSS-CROSSWALK-TRIPLE-FOUR",
+   "name": "CROSSWALK TRIPLE FOUR",
    "route": "markings/cad",
    "label": "Triple four crosswalk, 2 x 4 ft blocks (Caltrans A24F)",
    "description": "Triple four crosswalk, 2 x 4 ft blocks (Caltrans A24F)",
@@ -1582,7 +1582,7 @@
    "width": null,
    "states": [
     {
-     "state": "CROSSWALK-TRIPLE-FOUR",
+     "state": "CROSSWALK TRIPLE FOUR",
      "unit": [
       [
        2,
@@ -1598,12 +1598,12 @@
       ]
      ],
      "spacing": 4.0,
-     "block": "SSS-CROSSWALK-TRIPLE-FOUR$CROSSWALK-TRIPLE-FOUR"
+     "block": "CROSSWALK TRIPLE FOUR$CROSSWALK-TRIPLE-FOUR"
     }
    ]
   },
   {
-   "name": "SSS-BIKE-XING-GREEN",
+   "name": "BIKE XING GREEN",
    "route": "markings/cad",
    "label": "Green bike crossing: 2 ft dash every 8 ft with the bike lane line on each edge; width grip 5 to 8 ft",
    "description": "Green bike crossing: 2 ft dash every 8 ft with the bike lane line on each edge; width grip 5 to 8 ft",
@@ -1621,7 +1621,7 @@
    "width": 5.0,
    "states": [
     {
-     "state": "BIKE-XING-GREEN",
+     "state": "BIKE XING GREEN",
      "unit": [
       [
        0,
@@ -1634,12 +1634,12 @@
      "green": true,
      "edges": true,
      "width": 5.0,
-     "block": "SSS-BIKE-XING-GREEN$BIKE-XING-GREEN"
+     "block": "BIKE XING GREEN$BIKE-XING-GREEN"
     }
    ]
   },
   {
-   "name": "SSS-CITY-ELECTROLIER",
+   "name": "CITY ELECTROLIER",
    "route": "signals/cad",
    "label": "City electrolier (Caltrans ES1A CE)",
    "description": "City electrolier (Caltrans ES1A CE)",
@@ -1653,18 +1653,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NCE",
      "file": "signals/cad/CT-ES1A-NCE.dwg",
-     "block": "SSS-CITY-ELECTROLIER$PROPOSED"
+     "block": "CITY ELECTROLIER$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ECE",
      "file": "signals/cad/CT-ES1A-ECE.dwg",
-     "block": "SSS-CITY-ELECTROLIER$EXISTING"
+     "block": "CITY ELECTROLIER$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-ELECTROLIER-FOUNDATION-FUTURE",
+   "name": "ELECTROLIER FOUNDATION FUTURE",
    "route": "signals/cad",
    "label": "Electrolier foundation (future installation) (Caltrans ES1A FFE)",
    "description": "Electrolier foundation (future installation) (Caltrans ES1A FFE)",
@@ -1678,18 +1678,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NFFE",
      "file": "signals/cad/CT-ES1A-NFFE.dwg",
-     "block": "SSS-ELECTROLIER-FOUNDATION-FUTURE$PROPOSED"
+     "block": "ELECTROLIER FOUNDATION FUTURE$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-EFFE",
      "file": "signals/cad/CT-ES1A-EFFE.dwg",
-     "block": "SSS-ELECTROLIER-FOUNDATION-FUTURE$EXISTING"
+     "block": "ELECTROLIER FOUNDATION FUTURE$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LUMINAIRE-ON-WOOD-POLE",
+   "name": "LUMINAIRE ON WOOD POLE",
    "route": "signals/cad",
    "label": "Luminaire on wood pole (Caltrans ES1A LOWP)",
    "description": "Luminaire on wood pole (Caltrans ES1A LOWP)",
@@ -1703,18 +1703,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NLOWP",
      "file": "signals/cad/CT-ES1A-NLOWP.dwg",
-     "block": "SSS-LUMINAIRE-ON-WOOD-POLE$PROPOSED"
+     "block": "LUMINAIRE ON WOOD POLE$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ELOWP",
      "file": "signals/cad/CT-ES1A-ELOWP.dwg",
-     "block": "SSS-LUMINAIRE-ON-WOOD-POLE$EXISTING"
+     "block": "LUMINAIRE ON WOOD POLE$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-ELECTROLIER-NON-STANDARD",
+   "name": "ELECTROLIER NON STANDARD",
    "route": "signals/cad",
    "label": "Non-standard electrolier (see project legend) (Caltrans ES1A ELECT)",
    "description": "Non-standard electrolier (see project legend) (Caltrans ES1A ELECT)",
@@ -1728,18 +1728,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NELECT",
      "file": "signals/cad/CT-ES1A-NELECT.dwg",
-     "block": "SSS-ELECTROLIER-NON-STANDARD$PROPOSED"
+     "block": "ELECTROLIER NON STANDARD$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-EELECT",
      "file": "signals/cad/CT-ES1A-EELECT.dwg",
-     "block": "SSS-ELECTROLIER-NON-STANDARD$EXISTING"
+     "block": "ELECTROLIER NON STANDARD$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STANDARD-TYPE-15",
+   "name": "LIGHTING STANDARD TYPE 15",
    "route": "signals/cad",
    "label": "Lighting standard type 15 (Caltrans ES1A T15)",
    "description": "Lighting standard type 15 (Caltrans ES1A T15)",
@@ -1753,18 +1753,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT15",
      "file": "signals/cad/CT-ES1A-NT15.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-15$PROPOSED"
+     "block": "LIGHTING STANDARD TYPE 15$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET15",
      "file": "signals/cad/CT-ES1A-ET15.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-15$EXISTING"
+     "block": "LIGHTING STANDARD TYPE 15$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STANDARD-TYPE-15D",
+   "name": "LIGHTING STANDARD TYPE 15D",
    "route": "signals/cad",
    "label": "Lighting standard type 15d (Caltrans ES1A T15D)",
    "description": "Lighting standard type 15d (Caltrans ES1A T15D)",
@@ -1778,18 +1778,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT15D",
      "file": "signals/cad/CT-ES1A-NT15D.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-15D$PROPOSED"
+     "block": "LIGHTING STANDARD TYPE 15D$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET15D",
      "file": "signals/cad/CT-ES1A-ET15D.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-15D$EXISTING"
+     "block": "LIGHTING STANDARD TYPE 15D$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STRUCTURE-15D",
+   "name": "LIGHTING STRUCTURE 15D",
    "route": "signals/cad",
    "label": "15d structure (Caltrans ES1A T15DS)",
    "description": "15d structure (Caltrans ES1A T15DS)",
@@ -1803,18 +1803,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT15DS",
      "file": "signals/cad/CT-ES1A-NT15DS.dwg",
-     "block": "SSS-LIGHTING-STRUCTURE-15D$PROPOSED"
+     "block": "LIGHTING STRUCTURE 15D$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET15DS",
      "file": "signals/cad/CT-ES1A-ET15DS.dwg",
-     "block": "SSS-LIGHTING-STRUCTURE-15D$EXISTING"
+     "block": "LIGHTING STRUCTURE 15D$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STRUCTURE-15",
+   "name": "LIGHTING STRUCTURE 15",
    "route": "signals/cad",
    "label": "15 structure (Caltrans ES1A T15S)",
    "description": "15 structure (Caltrans ES1A T15S)",
@@ -1828,18 +1828,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT15S",
      "file": "signals/cad/CT-ES1A-NT15S.dwg",
-     "block": "SSS-LIGHTING-STRUCTURE-15$PROPOSED"
+     "block": "LIGHTING STRUCTURE 15$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET15S",
      "file": "signals/cad/CT-ES1A-ET15S.dwg",
-     "block": "SSS-LIGHTING-STRUCTURE-15$EXISTING"
+     "block": "LIGHTING STRUCTURE 15$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STANDARD-TYPE-21",
+   "name": "LIGHTING STANDARD TYPE 21",
    "route": "signals/cad",
    "label": "Lighting standard type 21 (Caltrans ES1A T21)",
    "description": "Lighting standard type 21 (Caltrans ES1A T21)",
@@ -1853,18 +1853,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT21",
      "file": "signals/cad/CT-ES1A-NT21.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-21$PROPOSED"
+     "block": "LIGHTING STANDARD TYPE 21$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET21",
      "file": "signals/cad/CT-ES1A-ET21.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-21$EXISTING"
+     "block": "LIGHTING STANDARD TYPE 21$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STANDARD-TYPE-21D",
+   "name": "LIGHTING STANDARD TYPE 21D",
    "route": "signals/cad",
    "label": "Lighting standard type 21d (Caltrans ES1A T21D)",
    "description": "Lighting standard type 21d (Caltrans ES1A T21D)",
@@ -1878,18 +1878,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT21D",
      "file": "signals/cad/CT-ES1A-NT21D.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-21D$PROPOSED"
+     "block": "LIGHTING STANDARD TYPE 21D$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET21D",
      "file": "signals/cad/CT-ES1A-ET21D.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-21D$EXISTING"
+     "block": "LIGHTING STANDARD TYPE 21D$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STRUCTURE-21",
+   "name": "LIGHTING STRUCTURE 21",
    "route": "signals/cad",
    "label": "21 structure (Caltrans ES1A T21S)",
    "description": "21 structure (Caltrans ES1A T21S)",
@@ -1903,18 +1903,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT21S",
      "file": "signals/cad/CT-ES1A-NT21S.dwg",
-     "block": "SSS-LIGHTING-STRUCTURE-21$PROPOSED"
+     "block": "LIGHTING STRUCTURE 21$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET21S",
      "file": "signals/cad/CT-ES1A-ET21S.dwg",
-     "block": "SSS-LIGHTING-STRUCTURE-21$EXISTING"
+     "block": "LIGHTING STRUCTURE 21$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STANDARD-TYPE-30",
+   "name": "LIGHTING STANDARD TYPE 30",
    "route": "signals/cad",
    "label": "Lighting standard type 30 (Caltrans ES1A T30)",
    "description": "Lighting standard type 30 (Caltrans ES1A T30)",
@@ -1928,18 +1928,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT30",
      "file": "signals/cad/CT-ES1A-NT30.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-30$PROPOSED"
+     "block": "LIGHTING STANDARD TYPE 30$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET30",
      "file": "signals/cad/CT-ES1A-ET30.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-30$EXISTING"
+     "block": "LIGHTING STANDARD TYPE 30$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STRUCTURE-21D",
+   "name": "LIGHTING STRUCTURE 21D",
    "route": "signals/cad",
    "label": "21d structure (Caltrans ES1A T21DS)",
    "description": "21d structure (Caltrans ES1A T21DS)",
@@ -1953,18 +1953,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT21DS",
      "file": "signals/cad/CT-ES1A-NT21DS.dwg",
-     "block": "SSS-LIGHTING-STRUCTURE-21D$PROPOSED"
+     "block": "LIGHTING STRUCTURE 21D$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET21DS",
      "file": "signals/cad/CT-ES1A-ET21DS.dwg",
-     "block": "SSS-LIGHTING-STRUCTURE-21D$EXISTING"
+     "block": "LIGHTING STRUCTURE 21D$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STANDARD-TYPE-32",
+   "name": "LIGHTING STANDARD TYPE 32",
    "route": "signals/cad",
    "label": "Lighting standard type 32 (Caltrans ES1A T32)",
    "description": "Lighting standard type 32 (Caltrans ES1A T32)",
@@ -1978,18 +1978,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT32",
      "file": "signals/cad/CT-ES1A-NT32.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-32$PROPOSED"
+     "block": "LIGHTING STANDARD TYPE 32$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET32",
      "file": "signals/cad/CT-ES1A-ET32.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-32$EXISTING"
+     "block": "LIGHTING STANDARD TYPE 32$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LIGHTING-STANDARD-TYPE-31",
+   "name": "LIGHTING STANDARD TYPE 31",
    "route": "signals/cad",
    "label": "Lighting standard type 31 (Caltrans ES1A T31)",
    "description": "Lighting standard type 31 (Caltrans ES1A T31)",
@@ -2003,18 +2003,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1A-NT31",
      "file": "signals/cad/CT-ES1A-NT31.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-31$PROPOSED"
+     "block": "LIGHTING STANDARD TYPE 31$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1A-ET31",
      "file": "signals/cad/CT-ES1A-ET31.dwg",
-     "block": "SSS-LIGHTING-STANDARD-TYPE-31$EXISTING"
+     "block": "LIGHTING STANDARD TYPE 31$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-STRUCTURE-DOUBLE-POST",
+   "name": "SIGN STRUCTURE DOUBLE POST",
    "route": "signals/cad",
    "label": "Double post, single sign (Caltrans ES1B DPIS)",
    "description": "Double post, single sign (Caltrans ES1B DPIS)",
@@ -2028,18 +2028,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NDPIS",
      "file": "signals/cad/CT-ES1B-NDPIS.dwg",
-     "block": "SSS-SIGN-STRUCTURE-DOUBLE-POST$PROPOSED"
+     "block": "SIGN STRUCTURE DOUBLE POST$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EDPIS",
      "file": "signals/cad/CT-ES1B-EDPIS.dwg",
-     "block": "SSS-SIGN-STRUCTURE-DOUBLE-POST$EXISTING"
+     "block": "SIGN STRUCTURE DOUBLE POST$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-ON-STRUCTURE",
+   "name": "SIGN ON STRUCTURE",
    "route": "signals/cad",
    "label": "Single sign mounted on structure (Caltrans ES1B IBMS)",
    "description": "Single sign mounted on structure (Caltrans ES1B IBMS)",
@@ -2053,18 +2053,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NIBMS",
      "file": "signals/cad/CT-ES1B-NIBMS.dwg",
-     "block": "SSS-SIGN-ON-STRUCTURE$PROPOSED"
+     "block": "SIGN ON STRUCTURE$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EIBMS",
      "file": "signals/cad/CT-ES1B-EIBMS.dwg",
-     "block": "SSS-SIGN-ON-STRUCTURE$EXISTING"
+     "block": "SIGN ON STRUCTURE$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-STRUCTURE-DOUBLE-POST-LIGHT",
+   "name": "SIGN STRUCTURE DOUBLE POST LIGHT",
    "route": "signals/cad",
    "label": "Double post, single sign with electrolier (Caltrans ES1B ISWL)",
    "description": "Double post, single sign with electrolier (Caltrans ES1B ISWL)",
@@ -2078,18 +2078,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NISWL",
      "file": "signals/cad/CT-ES1B-NISWL.dwg",
-     "block": "SSS-SIGN-STRUCTURE-DOUBLE-POST-LIGHT$PROPOSED"
+     "block": "SIGN STRUCTURE DOUBLE POST LIGHT$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EISWL",
      "file": "signals/cad/CT-ES1B-EISWL.dwg",
-     "block": "SSS-SIGN-STRUCTURE-DOUBLE-POST-LIGHT$EXISTING"
+     "block": "SIGN STRUCTURE DOUBLE POST LIGHT$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-STRUCTURE-BUTTERFLY-2-SIGNS",
+   "name": "SIGN STRUCTURE BUTTERFLY 2 SIGNS",
    "route": "signals/cad",
    "label": "Single post, double sign, balanced butterfly (Caltrans ES1B SCDIS)",
    "description": "Single post, double sign, balanced butterfly (Caltrans ES1B SCDIS)",
@@ -2103,18 +2103,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NSCDIS",
      "file": "signals/cad/CT-ES1B-NSCDIS.dwg",
-     "block": "SSS-SIGN-STRUCTURE-BUTTERFLY-2-SIGNS$PROPOSED"
+     "block": "SIGN STRUCTURE BUTTERFLY 2 SIGNS$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-ESCDIS",
      "file": "signals/cad/CT-ES1B-ESCDIS.dwg",
-     "block": "SSS-SIGN-STRUCTURE-BUTTERFLY-2-SIGNS$EXISTING"
+     "block": "SIGN STRUCTURE BUTTERFLY 2 SIGNS$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-STRUCTURE-BUTTERFLY",
+   "name": "SIGN STRUCTURE BUTTERFLY",
    "route": "signals/cad",
    "label": "Single post, single sign, balanced butterfly (Caltrans ES1B SCMIS)",
    "description": "Single post, single sign, balanced butterfly (Caltrans ES1B SCMIS)",
@@ -2128,18 +2128,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NSCMIS",
      "file": "signals/cad/CT-ES1B-NSCMIS.dwg",
-     "block": "SSS-SIGN-STRUCTURE-BUTTERFLY$PROPOSED"
+     "block": "SIGN STRUCTURE BUTTERFLY$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-ESCMIS",
      "file": "signals/cad/CT-ES1B-ESCMIS.dwg",
-     "block": "SSS-SIGN-STRUCTURE-BUTTERFLY$EXISTING"
+     "block": "SIGN STRUCTURE BUTTERFLY$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-STRUCTURE-CANTILEVER-LIGHT",
+   "name": "SIGN STRUCTURE CANTILEVER LIGHT",
    "route": "signals/cad",
    "label": "Single post, single sign, full cantilever with electrolier (Caltrans ES1B SGN1PELECT)",
    "description": "Single post, single sign, full cantilever with electrolier (Caltrans ES1B SGN1PELECT)",
@@ -2153,18 +2153,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NSGN1PELECT",
      "file": "signals/cad/CT-ES1B-NSGN1PELECT.dwg",
-     "block": "SSS-SIGN-STRUCTURE-CANTILEVER-LIGHT$PROPOSED"
+     "block": "SIGN STRUCTURE CANTILEVER LIGHT$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-ESGN1PELECT",
      "file": "signals/cad/CT-ES1B-ESGN1PELECT.dwg",
-     "block": "SSS-SIGN-STRUCTURE-CANTILEVER-LIGHT$EXISTING"
+     "block": "SIGN STRUCTURE CANTILEVER LIGHT$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-STRUCTURE-CANTILEVER",
+   "name": "SIGN STRUCTURE CANTILEVER",
    "route": "signals/cad",
    "label": "Single post, single sign, full cantilever (Caltrans ES1B SSMIS)",
    "description": "Single post, single sign, full cantilever (Caltrans ES1B SSMIS)",
@@ -2178,18 +2178,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NSSMIS",
      "file": "signals/cad/CT-ES1B-NSSMIS.dwg",
-     "block": "SSS-SIGN-STRUCTURE-CANTILEVER$PROPOSED"
+     "block": "SIGN STRUCTURE CANTILEVER$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-ESSMIS",
      "file": "signals/cad/CT-ES1B-ESSMIS.dwg",
-     "block": "SSS-SIGN-STRUCTURE-CANTILEVER$EXISTING"
+     "block": "SIGN STRUCTURE CANTILEVER$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-FLASHING-BEACON-TYPE-9",
+   "name": "FLASHING BEACON TYPE 9",
    "route": "signals/cad",
    "label": "Flashing beacon with types 9, 9a or 9b sign unless otherwise specified or indicated (Caltrans ES1B CFB)",
    "description": "Flashing beacon with types 9, 9a or 9b sign unless otherwise specified or indicated (Caltrans ES1B CFB)",
@@ -2203,18 +2203,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NCFB",
      "file": "signals/cad/CT-ES1B-NCFB.dwg",
-     "block": "SSS-FLASHING-BEACON-TYPE-9$PROPOSED"
+     "block": "FLASHING BEACON TYPE 9$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-ECFB",
      "file": "signals/cad/CT-ES1B-ECFB.dwg",
-     "block": "SSS-FLASHING-BEACON-TYPE-9$EXISTING"
+     "block": "FLASHING BEACON TYPE 9$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-FLASHING-BEACON",
+   "name": "FLASHING BEACON",
    "route": "signals/cad",
    "label": "Flashing beacon (one vehicle signal head with backplate and visor) \"r\" indicates red indication \"y\" indicates yellow indication (Caltrans ES1B FBARM)",
    "description": "Flashing beacon (one vehicle signal head with backplate and visor) \"r\" indicates red indication \"y\" indicates yellow indication (Caltrans ES1B FBARM)",
@@ -2228,18 +2228,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NFBARM",
      "file": "signals/cad/CT-ES1B-NFBARM.dwg",
-     "block": "SSS-FLASHING-BEACON$PROPOSED"
+     "block": "FLASHING BEACON$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EFBARM",
      "file": "signals/cad/CT-ES1B-EFBARM.dwg",
-     "block": "SSS-FLASHING-BEACON$EXISTING"
+     "block": "FLASHING BEACON$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-FLASHING-BEACON-TYPE-15",
+   "name": "FLASHING BEACON TYPE 15",
    "route": "signals/cad",
    "label": "Flashing beacon with type 15-fbs standard and a sign. (Caltrans ES1B M15FB)",
    "description": "Flashing beacon with type 15-fbs standard and a sign. (Caltrans ES1B M15FB)",
@@ -2253,18 +2253,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NM15FB",
      "file": "signals/cad/CT-ES1B-NM15FB.dwg",
-     "block": "SSS-FLASHING-BEACON-TYPE-15$PROPOSED"
+     "block": "FLASHING BEACON TYPE 15$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EM15FB",
      "file": "signals/cad/CT-ES1B-EM15FB.dwg",
-     "block": "SSS-FLASHING-BEACON-TYPE-15$EXISTING"
+     "block": "FLASHING BEACON TYPE 15$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-POLE-GUY-WITH-ANCHOR",
+   "name": "POLE GUY WITH ANCHOR",
    "route": "signals/cad",
    "label": "Pole guy with anchor (Caltrans ES1B PGUY)",
    "description": "Pole guy with anchor (Caltrans ES1B PGUY)",
@@ -2278,18 +2278,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NPGUY",
      "file": "signals/cad/CT-ES1B-NPGUY.dwg",
-     "block": "SSS-POLE-GUY-WITH-ANCHOR$PROPOSED"
+     "block": "POLE GUY WITH ANCHOR$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EPGUY",
      "file": "signals/cad/CT-ES1B-EPGUY.dwg",
-     "block": "SSS-POLE-GUY-WITH-ANCHOR$EXISTING"
+     "block": "POLE GUY WITH ANCHOR$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-TELEPHONE-DEMARCATION-CABINET",
+   "name": "TELEPHONE DEMARCATION CABINET",
    "route": "signals/cad",
    "label": "Telephone demarcation cabinet (Caltrans ES1B TDC)",
    "description": "Telephone demarcation cabinet (Caltrans ES1B TDC)",
@@ -2303,18 +2303,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NTDC",
      "file": "signals/cad/CT-ES1B-NTDC.dwg",
-     "block": "SSS-TELEPHONE-DEMARCATION-CABINET$PROPOSED"
+     "block": "TELEPHONE DEMARCATION CABINET$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-ETDC",
      "file": "signals/cad/CT-ES1B-ETDC.dwg",
-     "block": "SSS-TELEPHONE-DEMARCATION-CABINET$EXISTING"
+     "block": "TELEPHONE DEMARCATION CABINET$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SERVICE-ENCLOSURE-TYPE-III",
+   "name": "SERVICE ENCLOSURE TYPE III",
    "route": "signals/cad",
    "label": "Service equipment enclosure type iii, door indicates front of enclosure (Caltrans ES1B TIII)",
    "description": "Service equipment enclosure type iii, door indicates front of enclosure (Caltrans ES1B TIII)",
@@ -2328,18 +2328,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NTIII",
      "file": "signals/cad/CT-ES1B-NTIII.dwg",
-     "block": "SSS-SERVICE-ENCLOSURE-TYPE-III$PROPOSED"
+     "block": "SERVICE ENCLOSURE TYPE III$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-ETIII",
      "file": "signals/cad/CT-ES1B-ETIII.dwg",
-     "block": "SSS-SERVICE-ENCLOSURE-TYPE-III$EXISTING"
+     "block": "SERVICE ENCLOSURE TYPE III$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-UTILITY-TRANSFORMER",
+   "name": "UTILITY TRANSFORMER",
    "route": "signals/cad",
    "label": "Utility transformer - ground mounted (Caltrans ES1B PMUT)",
    "description": "Utility transformer - ground mounted (Caltrans ES1B PMUT)",
@@ -2353,18 +2353,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NPMUT",
      "file": "signals/cad/CT-ES1B-NPMUT.dwg",
-     "block": "SSS-UTILITY-TRANSFORMER$PROPOSED"
+     "block": "UTILITY TRANSFORMER$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EPMUT",
      "file": "signals/cad/CT-ES1B-EPMUT.dwg",
-     "block": "SSS-UTILITY-TRANSFORMER$EXISTING"
+     "block": "UTILITY TRANSFORMER$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-CONDUIT-RISER",
+   "name": "CONDUIT RISER",
    "route": "signals/cad",
    "label": "Conduit riser attached to the structure or service pole (Caltrans ES1B R)",
    "description": "Conduit riser attached to the structure or service pole (Caltrans ES1B R)",
@@ -2378,18 +2378,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NR",
      "file": "signals/cad/CT-ES1B-NR.dwg",
-     "block": "SSS-CONDUIT-RISER$PROPOSED"
+     "block": "CONDUIT RISER$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-ER",
      "file": "signals/cad/CT-ES1B-ER.dwg",
-     "block": "SSS-CONDUIT-RISER$EXISTING"
+     "block": "CONDUIT RISER$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-PED-BARRICADE",
+   "name": "PED BARRICADE",
    "route": "signals/cad",
    "label": "Pedestrian barricade (Caltrans ES1B PBAR)",
    "description": "Pedestrian barricade (Caltrans ES1B PBAR)",
@@ -2403,18 +2403,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NPBAR",
      "file": "signals/cad/CT-ES1B-NPBAR.dwg",
-     "block": "SSS-PED-BARRICADE$PROPOSED"
+     "block": "PED BARRICADE$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EPBAR",
      "file": "signals/cad/CT-ES1B-EPBAR.dwg",
-     "block": "SSS-PED-BARRICADE$EXISTING"
+     "block": "PED BARRICADE$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-PED-SIGNAL-HEAD",
+   "name": "PED SIGNAL HEAD",
    "route": "signals/cad",
    "label": "Pedestrian signal head (Caltrans ES1B PSH)",
    "description": "Pedestrian signal head (Caltrans ES1B PSH)",
@@ -2428,18 +2428,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NPSH",
      "file": "signals/cad/CT-ES1B-NPSH.dwg",
-     "block": "SSS-PED-SIGNAL-HEAD$PROPOSED"
+     "block": "PED SIGNAL HEAD$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EPSH",
      "file": "signals/cad/CT-ES1B-EPSH.dwg",
-     "block": "SSS-PED-SIGNAL-HEAD$EXISTING"
+     "block": "PED SIGNAL HEAD$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGNAL-HEAD-ANGLE-VISOR",
+   "name": "SIGNAL HEAD ANGLE VISOR",
    "route": "signals/cad",
    "label": "Vehicle signal head with angle visor (Caltrans ES1B SFAV)",
    "description": "Vehicle signal head with angle visor (Caltrans ES1B SFAV)",
@@ -2453,18 +2453,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NSFAV",
      "file": "signals/cad/CT-ES1B-NSFAV.dwg",
-     "block": "SSS-SIGNAL-HEAD-ANGLE-VISOR$PROPOSED"
+     "block": "SIGNAL HEAD ANGLE VISOR$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-ESFAV",
      "file": "signals/cad/CT-ES1B-ESFAV.dwg",
-     "block": "SSS-SIGNAL-HEAD-ANGLE-VISOR$EXISTING"
+     "block": "SIGNAL HEAD ANGLE VISOR$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGNAL-HEAD-RYG",
+   "name": "SIGNAL HEAD RYG",
    "route": "signals/cad",
    "label": "Vehicle signal head consisting of red, yellow and green sections (l, lg, pv, 8 and phbf modify it) (Caltrans ES1B SMS)",
    "description": "Vehicle signal head consisting of red, yellow and green sections (l, lg, pv, 8 and phbf modify it) (Caltrans ES1B SMS)",
@@ -2478,18 +2478,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NSMS",
      "file": "signals/cad/CT-ES1B-NSMS.dwg",
-     "block": "SSS-SIGNAL-HEAD-RYG$PROPOSED"
+     "block": "SIGNAL HEAD RYG$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-ESMS",
      "file": "signals/cad/CT-ES1B-ESMS.dwg",
-     "block": "SSS-SIGNAL-HEAD-RYG$EXISTING"
+     "block": "SIGNAL HEAD RYG$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGNAL-HEAD-LEFT-ARROW",
+   "name": "SIGNAL HEAD LEFT ARROW",
    "route": "signals/cad",
    "label": "Vehicle signal head consisting of red, yellow, and green left arrow sections (typical) (Caltrans ES1B 312LA)",
    "description": "Vehicle signal head consisting of red, yellow, and green left arrow sections (typical) (Caltrans ES1B 312LA)",
@@ -2503,18 +2503,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-N312LA",
      "file": "signals/cad/CT-ES1B-N312LA.dwg",
-     "block": "SSS-SIGNAL-HEAD-LEFT-ARROW$PROPOSED"
+     "block": "SIGNAL HEAD LEFT ARROW$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-E312LA",
      "file": "signals/cad/CT-ES1B-E312LA.dwg",
-     "block": "SSS-SIGNAL-HEAD-LEFT-ARROW$EXISTING"
+     "block": "SIGNAL HEAD LEFT ARROW$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-SIGNAL-HEAD-RY-GREEN-ARROW",
+   "name": "SIGNAL HEAD RY GREEN ARROW",
    "route": "signals/cad",
    "label": "Vehicle signal head consisting of red and yellow sections with an up green arrow section (Caltrans ES1B 12UA)",
    "description": "Vehicle signal head consisting of red and yellow sections with an up green arrow section (Caltrans ES1B 12UA)",
@@ -2528,18 +2528,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-N12UA",
      "file": "signals/cad/CT-ES1B-N12UA.dwg",
-     "block": "SSS-SIGNAL-HEAD-RY-GREEN-ARROW$PROPOSED"
+     "block": "SIGNAL HEAD RY GREEN ARROW$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-E12UA",
      "file": "signals/cad/CT-ES1B-E12UA.dwg",
-     "block": "SSS-SIGNAL-HEAD-RY-GREEN-ARROW$EXISTING"
+     "block": "SIGNAL HEAD RY GREEN ARROW$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-STANDARD-TYPE-21TS",
+   "name": "STANDARD TYPE 21TS",
    "route": "signals/cad",
    "label": "Type 21ts standard with vehicle signal head, pedestrian signal head, and luminaire (Caltrans ES1B 21TS)",
    "description": "Type 21ts standard with vehicle signal head, pedestrian signal head, and luminaire (Caltrans ES1B 21TS)",
@@ -2553,18 +2553,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-N21TS",
      "file": "signals/cad/CT-ES1B-N21TS.dwg",
-     "block": "SSS-STANDARD-TYPE-21TS$PROPOSED"
+     "block": "STANDARD TYPE 21TS$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-E21TS",
      "file": "signals/cad/CT-ES1B-E21TS.dwg",
-     "block": "SSS-STANDARD-TYPE-21TS$EXISTING"
+     "block": "STANDARD TYPE 21TS$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-OPTICAL-DETECTOR",
+   "name": "OPTICAL DETECTOR",
    "route": "signals/cad",
    "label": "Optical detector for the emergency vehicle detection (Caltrans ES1B EVD)",
    "description": "Optical detector for the emergency vehicle detection (Caltrans ES1B EVD)",
@@ -2578,18 +2578,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NEVD",
      "file": "signals/cad/CT-ES1B-NEVD.dwg",
-     "block": "SSS-OPTICAL-DETECTOR$PROPOSED"
+     "block": "OPTICAL DETECTOR$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EEVD",
      "file": "signals/cad/CT-ES1B-EEVD.dwg",
-     "block": "SSS-OPTICAL-DETECTOR$EXISTING"
+     "block": "OPTICAL DETECTOR$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-STANDARD-MAST-ARM-LUMINAIRE",
+   "name": "STANDARD MAST ARM LUMINAIRE",
    "route": "signals/cad",
    "label": "Standard with luminaire and signal mast arms and attached vehicle signal heads (Caltrans ES1B MSWLS)",
    "description": "Standard with luminaire and signal mast arms and attached vehicle signal heads (Caltrans ES1B MSWLS)",
@@ -2603,18 +2603,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NMSWLS",
      "file": "signals/cad/CT-ES1B-NMSWLS.dwg",
-     "block": "SSS-STANDARD-MAST-ARM-LUMINAIRE$PROPOSED"
+     "block": "STANDARD MAST ARM LUMINAIRE$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EMSWLS",
      "file": "signals/cad/CT-ES1B-EMSWLS.dwg",
-     "block": "SSS-STANDARD-MAST-ARM-LUMINAIRE$EXISTING"
+     "block": "STANDARD MAST ARM LUMINAIRE$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-STANDARD-TYPE-15TS",
+   "name": "STANDARD TYPE 15TS",
    "route": "signals/cad",
    "label": "Type 15ts standard with vehicle signal head, pedestrian signal head, and luminaire (Caltrans ES1B 15TS)",
    "description": "Type 15ts standard with vehicle signal head, pedestrian signal head, and luminaire (Caltrans ES1B 15TS)",
@@ -2628,18 +2628,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-N15TS",
      "file": "signals/cad/CT-ES1B-N15TS.dwg",
-     "block": "SSS-STANDARD-TYPE-15TS$PROPOSED"
+     "block": "STANDARD TYPE 15TS$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-E15TS",
      "file": "signals/cad/CT-ES1B-E15TS.dwg",
-     "block": "SSS-STANDARD-TYPE-15TS$EXISTING"
+     "block": "STANDARD TYPE 15TS$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-STANDARD-MAST-ARM",
+   "name": "STANDARD MAST ARM",
    "route": "signals/cad",
    "label": "Standard with a signal mast arm, attached vehicle signal heads and street name sign (Caltrans ES1B STANDARD-WITH-SIGNAL-MAST-ARM)",
    "description": "Standard with a signal mast arm, attached vehicle signal heads and street name sign (Caltrans ES1B STANDARD-WITH-SIGNAL-MAST-ARM)",
@@ -2653,18 +2653,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-N-STANDARD-WITH-SIGNAL-MAST-ARM",
      "file": "signals/cad/CT-ES1B-N-STANDARD-WITH-SIGNAL-MAST-ARM.dwg",
-     "block": "SSS-STANDARD-MAST-ARM$PROPOSED"
+     "block": "STANDARD MAST ARM$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-E-STANDARD-WITH-SIGNAL-MAST-ARM",
      "file": "signals/cad/CT-ES1B-E-STANDARD-WITH-SIGNAL-MAST-ARM.dwg",
-     "block": "SSS-STANDARD-MAST-ARM$EXISTING"
+     "block": "STANDARD MAST ARM$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-DETECTION-DEVICE",
+   "name": "DETECTION DEVICE",
    "route": "signals/cad",
    "label": "Detection device m = microwave sensor v = video detection sensor (Caltrans ES1C DETECTION-DEVICE)",
    "description": "Detection device m = microwave sensor v = video detection sensor (Caltrans ES1C DETECTION-DEVICE)",
@@ -2678,18 +2678,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1C-N-DETECTION-DEVICE",
      "file": "signals/cad/CT-ES1C-N-DETECTION-DEVICE.dwg",
-     "block": "SSS-DETECTION-DEVICE$PROPOSED"
+     "block": "DETECTION DEVICE$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1C-E-DETECTION-DEVICE",
      "file": "signals/cad/CT-ES1C-E-DETECTION-DEVICE.dwg",
-     "block": "SSS-DETECTION-DEVICE$EXISTING"
+     "block": "DETECTION DEVICE$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LOOP-TYPE-C",
+   "name": "LOOP TYPE C",
    "route": "signals/cad",
    "label": "Type c loop detector. outline of saw cut shown (Caltrans ES1C TYPE-C-LOOP-DETECTOR)",
    "description": "Type c loop detector. outline of saw cut shown (Caltrans ES1C TYPE-C-LOOP-DETECTOR)",
@@ -2703,18 +2703,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1C-N-TYPE-C-LOOP-DETECTOR",
      "file": "signals/cad/CT-ES1C-N-TYPE-C-LOOP-DETECTOR.dwg",
-     "block": "SSS-LOOP-TYPE-C$PROPOSED"
+     "block": "LOOP TYPE C$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1C-E-TYPE-C-LOOP-DETECTOR",
      "file": "signals/cad/CT-ES1C-E-TYPE-C-LOOP-DETECTOR.dwg",
-     "block": "SSS-LOOP-TYPE-C$EXISTING"
+     "block": "LOOP TYPE C$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LOOP-TYPE-B",
+   "name": "LOOP TYPE B",
    "route": "signals/cad",
    "label": "Type b loop detector. outline of saw cut shown (Caltrans ES1C TYPE-B-LOOP-DETECTOR)",
    "description": "Type b loop detector. outline of saw cut shown (Caltrans ES1C TYPE-B-LOOP-DETECTOR)",
@@ -2728,18 +2728,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1C-N-TYPE-B-LOOP-DETECTOR",
      "file": "signals/cad/CT-ES1C-N-TYPE-B-LOOP-DETECTOR.dwg",
-     "block": "SSS-LOOP-TYPE-B$PROPOSED"
+     "block": "LOOP TYPE B$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1C-E-TYPE-B-LOOP-DETECTOR",
      "file": "signals/cad/CT-ES1C-E-TYPE-B-LOOP-DETECTOR.dwg",
-     "block": "SSS-LOOP-TYPE-B$EXISTING"
+     "block": "LOOP TYPE B$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LOOP-TYPE-D",
+   "name": "LOOP TYPE D",
    "route": "signals/cad",
    "label": "Type d loop detector. outline of saw cut shown (Caltrans ES1C TYPE-D-LOOP-DETECTOR)",
    "description": "Type d loop detector. outline of saw cut shown (Caltrans ES1C TYPE-D-LOOP-DETECTOR)",
@@ -2753,18 +2753,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1C-N-TYPE-D-LOOP-DETECTOR",
      "file": "signals/cad/CT-ES1C-N-TYPE-D-LOOP-DETECTOR.dwg",
-     "block": "SSS-LOOP-TYPE-D$PROPOSED"
+     "block": "LOOP TYPE D$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1C-E-TYPE-D-LOOP-DETECTOR",
      "file": "signals/cad/CT-ES1C-E-TYPE-D-LOOP-DETECTOR.dwg",
-     "block": "SSS-LOOP-TYPE-D$EXISTING"
+     "block": "LOOP TYPE D$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LOOP-TYPE-Q",
+   "name": "LOOP TYPE Q",
    "route": "signals/cad",
    "label": "Type q loop detector. outline of saw cut shown (Caltrans ES1C TYPE-Q-LOOP-DETECTOR)",
    "description": "Type q loop detector. outline of saw cut shown (Caltrans ES1C TYPE-Q-LOOP-DETECTOR)",
@@ -2778,18 +2778,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1C-N-TYPE-Q-LOOP-DETECTOR",
      "file": "signals/cad/CT-ES1C-N-TYPE-Q-LOOP-DETECTOR.dwg",
-     "block": "SSS-LOOP-TYPE-Q$PROPOSED"
+     "block": "LOOP TYPE Q$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1C-E-TYPE-Q-LOOP-DETECTOR",
      "file": "signals/cad/CT-ES1C-E-TYPE-Q-LOOP-DETECTOR.dwg",
-     "block": "SSS-LOOP-TYPE-Q$EXISTING"
+     "block": "LOOP TYPE Q$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-LOOP-TYPE-A",
+   "name": "LOOP TYPE A",
    "route": "signals/cad",
    "label": "Type a loop detector. outline of saw cut shown (Caltrans ES1C TYPE-A-LOOP-DETECTOR)",
    "description": "Type a loop detector. outline of saw cut shown (Caltrans ES1C TYPE-A-LOOP-DETECTOR)",
@@ -2803,18 +2803,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1C-N-TYPE-A-LOOP-DETECTOR",
      "file": "signals/cad/CT-ES1C-N-TYPE-A-LOOP-DETECTOR.dwg",
-     "block": "SSS-LOOP-TYPE-A$PROPOSED"
+     "block": "LOOP TYPE A$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1C-E-TYPE-A-LOOP-DETECTOR",
      "file": "signals/cad/CT-ES1C-E-TYPE-A-LOOP-DETECTOR.dwg",
-     "block": "SSS-LOOP-TYPE-A$EXISTING"
+     "block": "LOOP TYPE A$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-DETECTION-ZONE",
+   "name": "DETECTION ZONE",
    "route": "signals/cad",
    "label": "Microwave or video detection zone (Caltrans ES1C MICROWAVE-OR-VIDEO-DETECTION)",
    "description": "Microwave or video detection zone (Caltrans ES1C MICROWAVE-OR-VIDEO-DETECTION)",
@@ -2828,18 +2828,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION",
      "file": "signals/cad/CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION.dwg",
-     "block": "SSS-DETECTION-ZONE$PROPOSED"
+     "block": "DETECTION ZONE$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1C-E-MICROWAVE-OR-VIDEO-DETECTION",
      "file": "signals/cad/CT-ES1C-E-MICROWAVE-OR-VIDEO-DETECTION.dwg",
-     "block": "SSS-DETECTION-ZONE$EXISTING"
+     "block": "DETECTION ZONE$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-ROADWAY-SENSOR",
+   "name": "ROADWAY SENSOR",
    "route": "signals/cad",
    "label": "Roadway sensor, piezoelectric axle sensor unless otherwise indicated (Caltrans ES1C ROADWAY-SENSOR-PIEZOELECTRIC)",
    "description": "Roadway sensor, piezoelectric axle sensor unless otherwise indicated (Caltrans ES1C ROADWAY-SENSOR-PIEZOELECTRIC)",
@@ -2853,18 +2853,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1C-N-ROADWAY-SENSOR-PIEZOELECTRIC",
      "file": "signals/cad/CT-ES1C-N-ROADWAY-SENSOR-PIEZOELECTRIC.dwg",
-     "block": "SSS-ROADWAY-SENSOR$PROPOSED"
+     "block": "ROADWAY SENSOR$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1C-E-ROADWAY-SENSOR-PIEZOELECTRIC",
      "file": "signals/cad/CT-ES1C-E-ROADWAY-SENSOR-PIEZOELECTRIC.dwg",
-     "block": "SSS-ROADWAY-SENSOR$EXISTING"
+     "block": "ROADWAY SENSOR$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-STANDARD-TYPE-1",
+   "name": "STANDARD TYPE 1",
    "route": "signals/cad",
    "label": "Type 1 standard with attached vehicle signal heads (Caltrans ES1B)",
    "description": "Type 1 standard with attached vehicle signal heads (Caltrans ES1B)",
@@ -2878,18 +2878,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NTYPE1",
      "file": "signals/cad/CT-ES1B-NTYPE1.dwg",
-     "block": "SSS-STANDARD-TYPE-1$PROPOSED"
+     "block": "STANDARD TYPE 1$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-E-TYPE-1-STANDARD-WITH-ATTACHED",
      "file": "signals/cad/CT-ES1B-E-TYPE-1-STANDARD-WITH-ATTACHED.dwg",
-     "block": "SSS-STANDARD-TYPE-1$EXISTING"
+     "block": "STANDARD TYPE 1$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-CONTROLLER",
+   "name": "CONTROLLER",
    "route": "signals/cad",
    "label": "Controller assembly, door indicates front of cabinet (Caltrans ES1B)",
    "description": "Controller assembly, door indicates front of cabinet (Caltrans ES1B)",
@@ -2903,18 +2903,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-NCNTRLCAB",
      "file": "signals/cad/CT-ES1B-NCNTRLCAB.dwg",
-     "block": "SSS-CONTROLLER$PROPOSED"
+     "block": "CONTROLLER$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-E170",
      "file": "signals/cad/CT-ES1B-E170.dwg",
-     "block": "SSS-CONTROLLER$EXISTING"
+     "block": "CONTROLLER$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-PUSH-BUTTON-POST",
+   "name": "PUSH BUTTON POST",
    "route": "signals/cad",
    "label": "Post with push button (Caltrans ES1B)",
    "description": "Post with push button (Caltrans ES1B)",
@@ -2928,18 +2928,18 @@
      "state": "PROPOSED",
      "code": "CT-ES1B-N-POST-WITH-PUSH-BUTTON",
      "file": "signals/cad/CT-ES1B-N-POST-WITH-PUSH-BUTTON.dwg",
-     "block": "SSS-PUSH-BUTTON-POST$PROPOSED"
+     "block": "PUSH BUTTON POST$PROPOSED"
     },
     {
      "state": "EXISTING",
      "code": "CT-ES1B-EPPB",
      "file": "signals/cad/CT-ES1B-EPPB.dwg",
-     "block": "SSS-PUSH-BUTTON-POST$EXISTING"
+     "block": "PUSH BUTTON POST$EXISTING"
     }
    ]
   },
   {
-   "name": "SSS-ABANDON",
+   "name": "ABANDON",
    "route": "signals/cad",
    "label": "Abandon. if applied to conduit, remove conductors (Caltrans ES1A)",
    "description": "Abandon. if applied to conduit, remove conductors (Caltrans ES1A)",
@@ -2953,12 +2953,12 @@
      "state": "ABANDON",
      "code": "CT-ES1A-AB",
      "file": "signals/cad/CT-ES1A-AB.dwg",
-     "block": "SSS-ABANDON$ABANDON"
+     "block": "ABANDON$ABANDON"
     }
    ]
   },
   {
-   "name": "SSS-PULL-BOX-IN-CONDUIT",
+   "name": "PULL BOX IN CONDUIT",
    "route": "signals/cad",
    "label": "Install pull box in existing conduit run (Caltrans ES1A)",
    "description": "Install pull box in existing conduit run (Caltrans ES1A)",
@@ -2969,15 +2969,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "PULL-BOX-IN-CONDUIT",
+     "state": "PULL BOX IN CONDUIT",
      "code": "CT-ES1A-BC",
      "file": "signals/cad/CT-ES1A-BC.dwg",
-     "block": "SSS-PULL-BOX-IN-CONDUIT$PULL-BOX-IN-CONDUIT"
+     "block": "PULL BOX IN CONDUIT$PULL-BOX-IN-CONDUIT"
     }
    ]
   },
   {
-   "name": "SSS-CONDUIT-INTO-PULL-BOX",
+   "name": "CONDUIT INTO PULL BOX",
    "route": "signals/cad",
    "label": "Install conduit into existing pull box (Caltrans ES1A)",
    "description": "Install conduit into existing pull box (Caltrans ES1A)",
@@ -2988,15 +2988,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "CONDUIT-INTO-PULL-BOX",
+     "state": "CONDUIT INTO PULL BOX",
      "code": "CT-ES1A-CB",
      "file": "signals/cad/CT-ES1A-CB.dwg",
-     "block": "SSS-CONDUIT-INTO-PULL-BOX$CONDUIT-INTO-PULL-BOX"
+     "block": "CONDUIT INTO PULL BOX$CONDUIT-INTO-PULL-BOX"
     }
    ]
   },
   {
-   "name": "SSS-CONDUIT-CONNECT",
+   "name": "CONDUIT CONNECT",
    "route": "signals/cad",
    "label": "Connect new and existing conduit. remove existing conductors and install conductors as indicated (Caltrans ES1A)",
    "description": "Connect new and existing conduit. remove existing conductors and install conductors as indicated (Caltrans ES1A)",
@@ -3007,15 +3007,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "CONDUIT-CONNECT",
+     "state": "CONDUIT CONNECT",
      "code": "CT-ES1A-CC",
      "file": "signals/cad/CT-ES1A-CC.dwg",
-     "block": "SSS-CONDUIT-CONNECT$CONDUIT-CONNECT"
+     "block": "CONDUIT CONNECT$CONDUIT-CONNECT"
     }
    ]
   },
   {
-   "name": "SSS-CONDUIT-FUTURE-USE",
+   "name": "CONDUIT FUTURE USE",
    "route": "signals/cad",
    "label": "Conduit to remain for future use. remove conductors. install pull tape (Caltrans ES1A)",
    "description": "Conduit to remain for future use. remove conductors. install pull tape (Caltrans ES1A)",
@@ -3026,15 +3026,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "CONDUIT-FUTURE-USE",
+     "state": "CONDUIT FUTURE USE",
      "code": "CT-ES1A-CF",
      "file": "signals/cad/CT-ES1A-CF.dwg",
-     "block": "SSS-CONDUIT-FUTURE-USE$CONDUIT-FUTURE-USE"
+     "block": "CONDUIT FUTURE USE$CONDUIT-FUTURE-USE"
     }
    ]
   },
   {
-   "name": "SSS-DETECTOR-HANDHOLE",
+   "name": "DETECTOR HANDHOLE",
    "route": "signals/cad",
    "label": "Detector handhole (Caltrans ES1A)",
    "description": "Detector handhole (Caltrans ES1A)",
@@ -3045,15 +3045,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "DETECTOR-HANDHOLE",
+     "state": "DETECTOR HANDHOLE",
      "code": "CT-ES1A-DH",
      "file": "signals/cad/CT-ES1A-DH.dwg",
-     "block": "SSS-DETECTOR-HANDHOLE$DETECTOR-HANDHOLE"
+     "block": "DETECTOR HANDHOLE$DETECTOR-HANDHOLE"
     }
    ]
   },
   {
-   "name": "SSS-FOUNDATION-TO-BE-ABANDONED",
+   "name": "FOUNDATION TO BE ABANDONED",
    "route": "signals/cad",
    "label": "Foundation to be abandoned (Caltrans ES1A)",
    "description": "Foundation to be abandoned (Caltrans ES1A)",
@@ -3064,15 +3064,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "FOUNDATION-TO-BE-ABANDONED",
+     "state": "FOUNDATION TO BE ABANDONED",
      "code": "CT-ES1A-FA",
      "file": "signals/cad/CT-ES1A-FA.dwg",
-     "block": "SSS-FOUNDATION-TO-BE-ABANDONED$FOUNDATION-TO-BE-ABANDONED"
+     "block": "FOUNDATION TO BE ABANDONED$FOUNDATION-TO-BE-ABANDONED"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-ON-MAST-ARM",
+   "name": "SIGN ON MAST ARM",
    "route": "signals/cad",
    "label": "Install sign on signal mast arm (Caltrans ES1A)",
    "description": "Install sign on signal mast arm (Caltrans ES1A)",
@@ -3083,15 +3083,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "SIGN-ON-MAST-ARM",
+     "state": "SIGN ON MAST ARM",
      "code": "CT-ES1A-IS",
      "file": "signals/cad/CT-ES1A-IS.dwg",
-     "block": "SSS-SIGN-ON-MAST-ARM$SIGN-ON-MAST-ARM"
+     "block": "SIGN ON MAST ARM$SIGN-ON-MAST-ARM"
     }
    ]
   },
   {
-   "name": "SSS-NO-SLIP-BASE-ON-STANDARD",
+   "name": "NO SLIP BASE ON STANDARD",
    "route": "signals/cad",
    "label": "No slip base on standard (Caltrans ES1A)",
    "description": "No slip base on standard (Caltrans ES1A)",
@@ -3102,15 +3102,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "NO-SLIP-BASE-ON-STANDARD",
+     "state": "NO SLIP BASE ON STANDARD",
      "code": "CT-ES1A-NS",
      "file": "signals/cad/CT-ES1A-NS.dwg",
-     "block": "SSS-NO-SLIP-BASE-ON-STANDARD$NO-SLIP-BASE-ON-STANDARD"
+     "block": "NO SLIP BASE ON STANDARD$NO-SLIP-BASE-ON-STANDARD"
     }
    ]
   },
   {
-   "name": "SSS-PHOTOELECTRIC-CONTROL",
+   "name": "PHOTOELECTRIC CONTROL",
    "route": "signals/cad",
    "label": "Photoelectric control (Caltrans ES1A)",
    "description": "Photoelectric control (Caltrans ES1A)",
@@ -3121,15 +3121,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "PHOTOELECTRIC-CONTROL",
+     "state": "PHOTOELECTRIC CONTROL",
      "code": "CT-ES1A-PEC",
      "file": "signals/cad/CT-ES1A-PEC.dwg",
-     "block": "SSS-PHOTOELECTRIC-CONTROL$PHOTOELECTRIC-CONTROL"
+     "block": "PHOTOELECTRIC CONTROL$PHOTOELECTRIC-CONTROL"
     }
    ]
   },
   {
-   "name": "SSS-PHOTOELECTRIC-UNIT",
+   "name": "PHOTOELECTRIC UNIT",
    "route": "signals/cad",
    "label": "Photoelectric unit (Caltrans ES1A)",
    "description": "Photoelectric unit (Caltrans ES1A)",
@@ -3140,15 +3140,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "PHOTOELECTRIC-UNIT",
+     "state": "PHOTOELECTRIC UNIT",
      "code": "CT-ES1A-PEU",
      "file": "signals/cad/CT-ES1A-PEU.dwg",
-     "block": "SSS-PHOTOELECTRIC-UNIT$PHOTOELECTRIC-UNIT"
+     "block": "PHOTOELECTRIC UNIT$PHOTOELECTRIC-UNIT"
     }
    ]
   },
   {
-   "name": "SSS-REMOVE-EQUIPMENT",
+   "name": "REMOVE EQUIPMENT",
    "route": "signals/cad",
    "label": "Equipment or material to be removed and become the property of the contractor (Caltrans ES1A)",
    "description": "Equipment or material to be removed and become the property of the contractor (Caltrans ES1A)",
@@ -3159,15 +3159,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "REMOVE-EQUIPMENT",
+     "state": "REMOVE EQUIPMENT",
      "code": "CT-ES1A-RC",
      "file": "signals/cad/CT-ES1A-RC.dwg",
-     "block": "SSS-REMOVE-EQUIPMENT$REMOVE-EQUIPMENT"
+     "block": "REMOVE EQUIPMENT$REMOVE-EQUIPMENT"
     }
    ]
   },
   {
-   "name": "SSS-RELOCATE-EQUIPMENT",
+   "name": "RELOCATE EQUIPMENT",
    "route": "signals/cad",
    "label": "Relocate equipment (Caltrans ES1A)",
    "description": "Relocate equipment (Caltrans ES1A)",
@@ -3178,15 +3178,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "RELOCATE-EQUIPMENT",
+     "state": "RELOCATE EQUIPMENT",
      "code": "CT-ES1A-RL",
      "file": "signals/cad/CT-ES1A-RL.dwg",
-     "block": "SSS-RELOCATE-EQUIPMENT$RELOCATE-EQUIPMENT"
+     "block": "RELOCATE EQUIPMENT$RELOCATE-EQUIPMENT"
     }
    ]
   },
   {
-   "name": "SSS-REMOVE-AND-REUSE-EQUIPMENT",
+   "name": "REMOVE AND REUSE EQUIPMENT",
    "route": "signals/cad",
    "label": "Remove and reuse equipment (Caltrans ES1A)",
    "description": "Remove and reuse equipment (Caltrans ES1A)",
@@ -3197,15 +3197,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "REMOVE-AND-REUSE-EQUIPMENT",
+     "state": "REMOVE AND REUSE EQUIPMENT",
      "code": "CT-ES1A-RR",
      "file": "signals/cad/CT-ES1A-RR.dwg",
-     "block": "SSS-REMOVE-AND-REUSE-EQUIPMENT$REMOVE-AND-REUSE-EQUIPMENT"
+     "block": "REMOVE AND REUSE EQUIPMENT$REMOVE-AND-REUSE-EQUIPMENT"
     }
    ]
   },
   {
-   "name": "SSS-REMOVE-AND-SALVAGE-EQUIPMENT",
+   "name": "REMOVE AND SALVAGE EQUIPMENT",
    "route": "signals/cad",
    "label": "Remove and salvage equipment (Caltrans ES1A)",
    "description": "Remove and salvage equipment (Caltrans ES1A)",
@@ -3216,15 +3216,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "REMOVE-AND-SALVAGE-EQUIPMENT",
+     "state": "REMOVE AND SALVAGE EQUIPMENT",
      "code": "CT-ES1A-RS",
      "file": "signals/cad/CT-ES1A-RS.dwg",
-     "block": "SSS-REMOVE-AND-SALVAGE-EQUIPMENT$REMOVE-AND-SALVAGE-EQUIPMENT"
+     "block": "REMOVE AND SALVAGE EQUIPMENT$REMOVE-AND-SALVAGE-EQUIPMENT"
     }
    ]
   },
   {
-   "name": "SSS-SPLICE",
+   "name": "SPLICE",
    "route": "signals/cad",
    "label": "Splice new to existing conductors (Caltrans ES1A)",
    "description": "Splice new to existing conductors (Caltrans ES1A)",
@@ -3238,12 +3238,12 @@
      "state": "SPLICE",
      "code": "CT-ES1A-SC",
      "file": "signals/cad/CT-ES1A-SC.dwg",
-     "block": "SSS-SPLICE$SPLICE"
+     "block": "SPLICE$SPLICE"
     }
    ]
   },
   {
-   "name": "SSS-SERVICE-DISCONNECT",
+   "name": "SERVICE DISCONNECT",
    "route": "signals/cad",
    "label": "Service disconnect (Caltrans ES1A)",
    "description": "Service disconnect (Caltrans ES1A)",
@@ -3254,15 +3254,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "SERVICE-DISCONNECT",
+     "state": "SERVICE DISCONNECT",
      "code": "CT-ES1A-SD",
      "file": "signals/cad/CT-ES1A-SD.dwg",
-     "block": "SSS-SERVICE-DISCONNECT$SERVICE-DISCONNECT"
+     "block": "SERVICE DISCONNECT$SERVICE-DISCONNECT"
     }
    ]
   },
   {
-   "name": "SSS-TELEPHONE-SERVICE-POINT",
+   "name": "TELEPHONE SERVICE POINT",
    "route": "signals/cad",
    "label": "Telephone service point (Caltrans ES1A)",
    "description": "Telephone service point (Caltrans ES1A)",
@@ -3273,15 +3273,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "TELEPHONE-SERVICE-POINT",
+     "state": "TELEPHONE SERVICE POINT",
      "code": "CT-ES1A-TSP",
      "file": "signals/cad/CT-ES1A-TSP.dwg",
-     "block": "SSS-TELEPHONE-SERVICE-POINT$TELEPHONE-SERVICE-POINT"
+     "block": "TELEPHONE SERVICE POINT$TELEPHONE-SERVICE-POINT"
     }
    ]
   },
   {
-   "name": "SSS-SOFFIT-LUMINAIRE-MODIFY",
+   "name": "SOFFIT LUMINAIRE MODIFY",
    "route": "signals/cad",
    "label": "Existing soffit or wall-mounted luminaire to be modified as specified (Caltrans ES1A)",
    "description": "Existing soffit or wall-mounted luminaire to be modified as specified (Caltrans ES1A)",
@@ -3292,15 +3292,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "SOFFIT-LUMINAIRE-MODIFY",
+     "state": "SOFFIT LUMINAIRE MODIFY",
      "code": "CT-ES1A-ESOWLM",
      "file": "signals/cad/CT-ES1A-ESOWLM.dwg",
-     "block": "SSS-SOFFIT-LUMINAIRE-MODIFY$SOFFIT-LUMINAIRE-MODIFY"
+     "block": "SOFFIT LUMINAIRE MODIFY$SOFFIT-LUMINAIRE-MODIFY"
     }
    ]
   },
   {
-   "name": "SSS-SOFFIT-LUMINAIRE-REMAIN",
+   "name": "SOFFIT LUMINAIRE REMAIN",
    "route": "signals/cad",
    "label": "Existing soffit or wall-mounted luminaire to remain unmodified (Caltrans ES1A)",
    "description": "Existing soffit or wall-mounted luminaire to remain unmodified (Caltrans ES1A)",
@@ -3311,15 +3311,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "SOFFIT-LUMINAIRE-REMAIN",
+     "state": "SOFFIT LUMINAIRE REMAIN",
      "code": "CT-ES1A-ESOWLU",
      "file": "signals/cad/CT-ES1A-ESOWLU.dwg",
-     "block": "SSS-SOFFIT-LUMINAIRE-REMAIN$SOFFIT-LUMINAIRE-REMAIN"
+     "block": "SOFFIT LUMINAIRE REMAIN$SOFFIT-LUMINAIRE-REMAIN"
     }
    ]
   },
   {
-   "name": "SSS-FLUSH-MOUNTED-SOFFIT-LUMINAIRE",
+   "name": "FLUSH MOUNTED SOFFIT LUMINAIRE",
    "route": "signals/cad",
    "label": "Flush-mounted soffit luminaire (Caltrans ES1A)",
    "description": "Flush-mounted soffit luminaire (Caltrans ES1A)",
@@ -3330,15 +3330,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "FLUSH-MOUNTED-SOFFIT-LUMINAIRE",
+     "state": "FLUSH MOUNTED SOFFIT LUMINAIRE",
      "code": "CT-ES1A-NF70W",
      "file": "signals/cad/CT-ES1A-NF70W.dwg",
-     "block": "SSS-FLUSH-MOUNTED-SOFFIT-LUMINAIRE$FLUSH-MOUNTED-SOFFIT-LUMINAIRE"
+     "block": "FLUSH MOUNTED SOFFIT LUMINAIRE$FLUSH-MOUNTED-SOFFIT-LUMINAIRE"
     }
    ]
   },
   {
-   "name": "SSS-WALL-MOUNTED-LUMINAIRE",
+   "name": "WALL MOUNTED LUMINAIRE",
    "route": "signals/cad",
    "label": "Wall-mounted luminaire (Caltrans ES1A)",
    "description": "Wall-mounted luminaire (Caltrans ES1A)",
@@ -3349,15 +3349,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "WALL-MOUNTED-LUMINAIRE",
+     "state": "WALL MOUNTED LUMINAIRE",
      "code": "CT-ES1A-NW70W",
      "file": "signals/cad/CT-ES1A-NW70W.dwg",
-     "block": "SSS-WALL-MOUNTED-LUMINAIRE$WALL-MOUNTED-LUMINAIRE"
+     "block": "WALL MOUNTED LUMINAIRE$WALL-MOUNTED-LUMINAIRE"
     }
    ]
   },
   {
-   "name": "SSS-PENDANT-SOFFIT-LUMINAIRE",
+   "name": "PENDANT SOFFIT LUMINAIRE",
    "route": "signals/cad",
    "label": "Pendant soffit luminaire (Caltrans ES1A)",
    "description": "Pendant soffit luminaire (Caltrans ES1A)",
@@ -3368,15 +3368,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "PENDANT-SOFFIT-LUMINAIRE",
+     "state": "PENDANT SOFFIT LUMINAIRE",
      "code": "CT-ES1A-NP70W",
      "file": "signals/cad/CT-ES1A-NP70W.dwg",
-     "block": "SSS-PENDANT-SOFFIT-LUMINAIRE$PENDANT-SOFFIT-LUMINAIRE"
+     "block": "PENDANT SOFFIT LUMINAIRE$PENDANT-SOFFIT-LUMINAIRE"
     }
    ]
   },
   {
-   "name": "SSS-PED-BARRICADE-AS-NOTED",
+   "name": "PED BARRICADE AS NOTED",
    "route": "signals/cad",
    "label": "Pedestrian barricade, type as indicated on plan (Caltrans ES1A)",
    "description": "Pedestrian barricade, type as indicated on plan (Caltrans ES1A)",
@@ -3387,15 +3387,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "PED-BARRICADE-AS-NOTED",
+     "state": "PED BARRICADE AS NOTED",
      "code": "CT-ES1A-BPN",
      "file": "signals/cad/CT-ES1A-BPN.dwg",
-     "block": "SSS-PED-BARRICADE-AS-NOTED$PED-BARRICADE-AS-NOTED"
+     "block": "PED BARRICADE AS NOTED$PED-BARRICADE-AS-NOTED"
     }
    ]
   },
   {
-   "name": "SSS-WOOD-POLE",
+   "name": "WOOD POLE",
    "route": "signals/cad",
    "label": "New wood pole, \"U\" indicates utility owned (Caltrans ES1B)",
    "description": "New wood pole, \"U\" indicates utility owned (Caltrans ES1B)",
@@ -3406,15 +3406,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "WOOD-POLE",
+     "state": "WOOD POLE",
      "code": "CT-ES1B-NWPP",
      "file": "signals/cad/CT-ES1B-NWPP.dwg",
-     "block": "SSS-WOOD-POLE$WOOD-POLE"
+     "block": "WOOD POLE$WOOD-POLE"
     }
    ]
   },
   {
-   "name": "SSS-GUARD-POST",
+   "name": "GUARD POST",
    "route": "signals/cad",
    "label": "Existing guard post (Caltrans ES1B)",
    "description": "Existing guard post (Caltrans ES1B)",
@@ -3425,15 +3425,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "GUARD-POST",
+     "state": "GUARD POST",
      "code": "CT-ES1B-EGP",
      "file": "signals/cad/CT-ES1B-EGP.dwg",
-     "block": "SSS-GUARD-POST$GUARD-POST"
+     "block": "GUARD POST$GUARD-POST"
     }
    ]
   },
   {
-   "name": "SSS-RADAR-SPEED-FEEDBACK-SIGN",
+   "name": "RADAR SPEED FEEDBACK SIGN",
    "route": "signals/cad",
    "label": "Existing radar speed feedback sign (Caltrans ES1C)",
    "description": "Existing radar speed feedback sign (Caltrans ES1C)",
@@ -3444,15 +3444,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "RADAR-SPEED-FEEDBACK-SIGN",
+     "state": "RADAR SPEED FEEDBACK SIGN",
      "code": "CT-ES1C-E-RADAR-SPEED-FEEDBACK-SIGN",
      "file": "signals/cad/CT-ES1C-E-RADAR-SPEED-FEEDBACK-SIGN.dwg",
-     "block": "SSS-RADAR-SPEED-FEEDBACK-SIGN$RADAR-SPEED-FEEDBACK-SIGN"
+     "block": "RADAR SPEED FEEDBACK SIGN$RADAR-SPEED-FEEDBACK-SIGN"
     }
    ]
   },
   {
-   "name": "SSS-ENCLOSURE-BOND",
+   "name": "ENCLOSURE BOND",
    "route": "signals/cad",
    "label": "Enclosure bond (Caltrans ES1C)",
    "description": "Enclosure bond (Caltrans ES1C)",
@@ -3463,15 +3463,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "ENCLOSURE-BOND",
+     "state": "ENCLOSURE BOND",
      "code": "CT-ES1C-ENCLOSURE-BOND",
      "file": "signals/cad/CT-ES1C-ENCLOSURE-BOND.dwg",
-     "block": "SSS-ENCLOSURE-BOND$ENCLOSURE-BOND"
+     "block": "ENCLOSURE BOND$ENCLOSURE-BOND"
     }
    ]
   },
   {
-   "name": "SSS-CIRCUIT-BREAKER",
+   "name": "CIRCUIT BREAKER",
    "route": "signals/cad",
    "label": "Circuit breaker (Caltrans ES1C)",
    "description": "Circuit breaker (Caltrans ES1C)",
@@ -3482,15 +3482,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "CIRCUIT-BREAKER",
+     "state": "CIRCUIT BREAKER",
      "code": "CT-ES1C-CIRCUIT-BREAKER",
      "file": "signals/cad/CT-ES1C-CIRCUIT-BREAKER.dwg",
-     "block": "SSS-CIRCUIT-BREAKER$CIRCUIT-BREAKER"
+     "block": "CIRCUIT BREAKER$CIRCUIT-BREAKER"
     }
    ]
   },
   {
-   "name": "SSS-RECEPTACLE",
+   "name": "RECEPTACLE",
    "route": "signals/cad",
    "label": "Receptacle (Caltrans ES1C)",
    "description": "Receptacle (Caltrans ES1C)",
@@ -3504,12 +3504,12 @@
      "state": "RECEPTACLE",
      "code": "CT-ES1C-RECEPTACLE",
      "file": "signals/cad/CT-ES1C-RECEPTACLE.dwg",
-     "block": "SSS-RECEPTACLE$RECEPTACLE"
+     "block": "RECEPTACLE$RECEPTACLE"
     }
    ]
   },
   {
-   "name": "SSS-CONTACTOR-NC",
+   "name": "CONTACTOR NC",
    "route": "signals/cad",
    "label": "Contactor, NC contact (Caltrans ES1C)",
    "description": "Contactor, NC contact (Caltrans ES1C)",
@@ -3520,15 +3520,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "CONTACTOR-NC",
+     "state": "CONTACTOR NC",
      "code": "CT-ES1C-CONTACTOR-NC-CONTACT",
      "file": "signals/cad/CT-ES1C-CONTACTOR-NC-CONTACT.dwg",
-     "block": "SSS-CONTACTOR-NC$CONTACTOR-NC"
+     "block": "CONTACTOR NC$CONTACTOR-NC"
     }
    ]
   },
   {
-   "name": "SSS-TERMINAL-BLOCKS",
+   "name": "TERMINAL BLOCKS",
    "route": "signals/cad",
    "label": "Terminal blocks (Caltrans ES1C)",
    "description": "Terminal blocks (Caltrans ES1C)",
@@ -3539,15 +3539,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "TERMINAL-BLOCKS",
+     "state": "TERMINAL BLOCKS",
      "code": "CT-ES1C-TERMINAL-BLOCKS",
      "file": "signals/cad/CT-ES1C-TERMINAL-BLOCKS.dwg",
-     "block": "SSS-TERMINAL-BLOCKS$TERMINAL-BLOCKS"
+     "block": "TERMINAL BLOCKS$TERMINAL-BLOCKS"
     }
    ]
   },
   {
-   "name": "SSS-CONTACTOR-NO",
+   "name": "CONTACTOR NO",
    "route": "signals/cad",
    "label": "Contactor, NO contact (Caltrans ES1C)",
    "description": "Contactor, NO contact (Caltrans ES1C)",
@@ -3558,15 +3558,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "CONTACTOR-NO",
+     "state": "CONTACTOR NO",
      "code": "CT-ES1C-CONTACTOR-NO-CONTACT",
      "file": "signals/cad/CT-ES1C-CONTACTOR-NO-CONTACT.dwg",
-     "block": "SSS-CONTACTOR-NO$CONTACTOR-NO"
+     "block": "CONTACTOR NO$CONTACTOR-NO"
     }
    ]
   },
   {
-   "name": "SSS-TIE-POINT",
+   "name": "TIE POINT",
    "route": "signals/cad",
    "label": "Tie point (Caltrans ES1C)",
    "description": "Tie point (Caltrans ES1C)",
@@ -3577,15 +3577,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "TIE-POINT",
+     "state": "TIE POINT",
      "code": "CT-ES1C-TIE-POINT",
      "file": "signals/cad/CT-ES1C-TIE-POINT.dwg",
-     "block": "SSS-TIE-POINT$TIE-POINT"
+     "block": "TIE POINT$TIE-POINT"
     }
    ]
   },
   {
-   "name": "SSS-CONTACTOR-COIL",
+   "name": "CONTACTOR COIL",
    "route": "signals/cad",
    "label": "Contactor coil (Caltrans ES1C)",
    "description": "Contactor coil (Caltrans ES1C)",
@@ -3596,15 +3596,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "CONTACTOR-COIL",
+     "state": "CONTACTOR COIL",
      "code": "CT-ES1C-CONTACTOR-COIL",
      "file": "signals/cad/CT-ES1C-CONTACTOR-COIL.dwg",
-     "block": "SSS-CONTACTOR-COIL$CONTACTOR-COIL"
+     "block": "CONTACTOR COIL$CONTACTOR-COIL"
     }
    ]
   },
   {
-   "name": "SSS-GROUNDING-ELECTRODE",
+   "name": "GROUNDING ELECTRODE",
    "route": "signals/cad",
    "label": "Grounding electrode (Caltrans ES1C)",
    "description": "Grounding electrode (Caltrans ES1C)",
@@ -3615,15 +3615,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "GROUNDING-ELECTRODE",
+     "state": "GROUNDING ELECTRODE",
      "code": "CT-ES1C-GROUNDING-ELECTRODE",
      "file": "signals/cad/CT-ES1C-GROUNDING-ELECTRODE.dwg",
-     "block": "SSS-GROUNDING-ELECTRODE$GROUNDING-ELECTRODE"
+     "block": "GROUNDING ELECTRODE$GROUNDING-ELECTRODE"
     }
    ]
   },
   {
-   "name": "SSS-CONDUIT-BREAK",
+   "name": "CONDUIT BREAK",
    "route": "signals/cad",
    "label": "Conduit break",
    "description": "Conduit break",
@@ -3634,15 +3634,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "CONDUIT-BREAK",
+     "state": "CONDUIT BREAK",
      "code": "SG-CONDUIT-BREAK",
      "file": "signals/cad/SG-CONDUIT-BREAK.dwg",
-     "block": "SSS-CONDUIT-BREAK$CONDUIT-BREAK"
+     "block": "CONDUIT BREAK$CONDUIT-BREAK"
     }
    ]
   },
   {
-   "name": "SSS-LUMINAIRE-WITHOUT-ARM",
+   "name": "LUMINAIRE WITHOUT ARM",
    "route": "signals/cad",
    "label": "Existing luminaire without arm",
    "description": "Existing luminaire without arm",
@@ -3653,15 +3653,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "LUMINAIRE-WITHOUT-ARM",
+     "state": "LUMINAIRE WITHOUT ARM",
      "code": "SG-LUMINAIRE-NO-ARM-E",
      "file": "signals/cad/SG-LUMINAIRE-NO-ARM-E.dwg",
-     "block": "SSS-LUMINAIRE-WITHOUT-ARM$LUMINAIRE-WITHOUT-ARM"
+     "block": "LUMINAIRE WITHOUT ARM$LUMINAIRE-WITHOUT-ARM"
     }
    ]
   },
   {
-   "name": "SSS-NOTE-FLAG",
+   "name": "NOTE FLAG",
    "route": "signals/cad",
    "label": "Note flag with attribute",
    "description": "Note flag with attribute",
@@ -3672,15 +3672,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "NOTE-FLAG",
+     "state": "NOTE FLAG",
      "code": "SG-NOTE-FLAG",
      "file": "signals/cad/SG-NOTE-FLAG.dwg",
-     "block": "SSS-NOTE-FLAG$NOTE-FLAG"
+     "block": "NOTE FLAG$NOTE-FLAG"
     }
    ]
   },
   {
-   "name": "SSS-NOTE-BOX",
+   "name": "NOTE BOX",
    "route": "signals/cad",
    "label": "Boxed note with attribute",
    "description": "Boxed note with attribute",
@@ -3691,15 +3691,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "NOTE-BOX",
+     "state": "NOTE BOX",
      "code": "SG-NOTE-BOX",
      "file": "signals/cad/SG-NOTE-BOX.dwg",
-     "block": "SSS-NOTE-BOX$NOTE-BOX"
+     "block": "NOTE BOX$NOTE-BOX"
     }
    ]
   },
   {
-   "name": "SSS-NOTE-STANDARD-NUMBER",
+   "name": "NOTE STANDARD NUMBER",
    "route": "signals/cad",
    "label": "Standard number circle with attribute",
    "description": "Standard number circle with attribute",
@@ -3710,15 +3710,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "NOTE-STANDARD-NUMBER",
+     "state": "NOTE STANDARD NUMBER",
      "code": "SG-NOTE-STANDARD-NUMBER",
      "file": "signals/cad/SG-NOTE-STANDARD-NUMBER.dwg",
-     "block": "SSS-NOTE-STANDARD-NUMBER$NOTE-STANDARD-NUMBER"
+     "block": "NOTE STANDARD NUMBER$NOTE-STANDARD-NUMBER"
     }
    ]
   },
   {
-   "name": "SSS-TREE",
+   "name": "TREE",
    "route": "signals/cad",
    "label": "Existing tree",
    "description": "Existing tree",
@@ -3732,12 +3732,12 @@
      "state": "TREE",
      "code": "SV-TREE-E",
      "file": "signals/cad/SV-TREE-E.dwg",
-     "block": "SSS-TREE$TREE"
+     "block": "TREE$TREE"
     }
    ]
   },
   {
-   "name": "SSS-WATER-VALVE",
+   "name": "WATER VALVE",
    "route": "signals/cad",
    "label": "Water valve (survey)",
    "description": "Water valve (survey)",
@@ -3748,15 +3748,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "WATER-VALVE",
+     "state": "WATER VALVE",
      "code": "SV-WATER-VALVE",
      "file": "signals/cad/SV-WATER-VALVE.dwg",
-     "block": "SSS-WATER-VALVE$WATER-VALVE"
+     "block": "WATER VALVE$WATER-VALVE"
     }
    ]
   },
   {
-   "name": "SSS-GAS-VALVE",
+   "name": "GAS VALVE",
    "route": "signals/cad",
    "label": "Gas valve (survey)",
    "description": "Gas valve (survey)",
@@ -3767,15 +3767,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "GAS-VALVE",
+     "state": "GAS VALVE",
      "code": "SV-GAS-VALVE",
      "file": "signals/cad/SV-GAS-VALVE.dwg",
-     "block": "SSS-GAS-VALVE$GAS-VALVE"
+     "block": "GAS VALVE$GAS-VALVE"
     }
    ]
   },
   {
-   "name": "SSS-IRRIGATION-CONTROL-VALVE",
+   "name": "IRRIGATION CONTROL VALVE",
    "route": "signals/cad",
    "label": "Irrigation control valve (survey)",
    "description": "Irrigation control valve (survey)",
@@ -3786,15 +3786,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "IRRIGATION-CONTROL-VALVE",
+     "state": "IRRIGATION CONTROL VALVE",
      "code": "SV-IRRIGATION-CONTROL-VALVE",
      "file": "signals/cad/SV-IRRIGATION-CONTROL-VALVE.dwg",
-     "block": "SSS-IRRIGATION-CONTROL-VALVE$IRRIGATION-CONTROL-VALVE"
+     "block": "IRRIGATION CONTROL VALVE$IRRIGATION-CONTROL-VALVE"
     }
    ]
   },
   {
-   "name": "SSS-POST-INDICATOR-VALVE",
+   "name": "POST INDICATOR VALVE",
    "route": "signals/cad",
    "label": "Post indicator valve (survey)",
    "description": "Post indicator valve (survey)",
@@ -3805,15 +3805,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "POST-INDICATOR-VALVE",
+     "state": "POST INDICATOR VALVE",
      "code": "SV-POST-INDICATOR-VALVE",
      "file": "signals/cad/SV-POST-INDICATOR-VALVE.dwg",
-     "block": "SSS-POST-INDICATOR-VALVE$POST-INDICATOR-VALVE"
+     "block": "POST INDICATOR VALVE$POST-INDICATOR-VALVE"
     }
    ]
   },
   {
-   "name": "SSS-STORM-DRAIN-MANHOLE",
+   "name": "STORM DRAIN MANHOLE",
    "route": "signals/cad",
    "label": "Storm drain manhole (survey)",
    "description": "Storm drain manhole (survey)",
@@ -3824,15 +3824,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "STORM-DRAIN-MANHOLE",
+     "state": "STORM DRAIN MANHOLE",
      "code": "SV-MANHOLE-STORM-DRAIN",
      "file": "signals/cad/SV-MANHOLE-STORM-DRAIN.dwg",
-     "block": "SSS-STORM-DRAIN-MANHOLE$STORM-DRAIN-MANHOLE"
+     "block": "STORM DRAIN MANHOLE$STORM-DRAIN-MANHOLE"
     }
    ]
   },
   {
-   "name": "SSS-SANITARY-SEWER-MANHOLE",
+   "name": "SANITARY SEWER MANHOLE",
    "route": "signals/cad",
    "label": "Sanitary sewer manhole (survey)",
    "description": "Sanitary sewer manhole (survey)",
@@ -3843,15 +3843,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "SANITARY-SEWER-MANHOLE",
+     "state": "SANITARY SEWER MANHOLE",
      "code": "SV-MANHOLE-SEWER",
      "file": "signals/cad/SV-MANHOLE-SEWER.dwg",
-     "block": "SSS-SANITARY-SEWER-MANHOLE$SANITARY-SEWER-MANHOLE"
+     "block": "SANITARY SEWER MANHOLE$SANITARY-SEWER-MANHOLE"
     }
    ]
   },
   {
-   "name": "SSS-ELECTRIC-MANHOLE",
+   "name": "ELECTRIC MANHOLE",
    "route": "signals/cad",
    "label": "Electric manhole (survey)",
    "description": "Electric manhole (survey)",
@@ -3862,15 +3862,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "ELECTRIC-MANHOLE",
+     "state": "ELECTRIC MANHOLE",
      "code": "SV-MANHOLE-ELECTRIC",
      "file": "signals/cad/SV-MANHOLE-ELECTRIC.dwg",
-     "block": "SSS-ELECTRIC-MANHOLE$ELECTRIC-MANHOLE"
+     "block": "ELECTRIC MANHOLE$ELECTRIC-MANHOLE"
     }
    ]
   },
   {
-   "name": "SSS-TELEPHONE-MANHOLE",
+   "name": "TELEPHONE MANHOLE",
    "route": "signals/cad",
    "label": "Telephone manhole (survey)",
    "description": "Telephone manhole (survey)",
@@ -3881,15 +3881,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "TELEPHONE-MANHOLE",
+     "state": "TELEPHONE MANHOLE",
      "code": "SV-MANHOLE-TELEPHONE",
      "file": "signals/cad/SV-MANHOLE-TELEPHONE.dwg",
-     "block": "SSS-TELEPHONE-MANHOLE$TELEPHONE-MANHOLE"
+     "block": "TELEPHONE MANHOLE$TELEPHONE-MANHOLE"
     }
    ]
   },
   {
-   "name": "SSS-WATER-MANHOLE",
+   "name": "WATER MANHOLE",
    "route": "signals/cad",
    "label": "Water manhole (survey)",
    "description": "Water manhole (survey)",
@@ -3900,15 +3900,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "WATER-MANHOLE",
+     "state": "WATER MANHOLE",
      "code": "SV-MANHOLE-WATER",
      "file": "signals/cad/SV-MANHOLE-WATER.dwg",
-     "block": "SSS-WATER-MANHOLE$WATER-MANHOLE"
+     "block": "WATER MANHOLE$WATER-MANHOLE"
     }
    ]
   },
   {
-   "name": "SSS-UNKNOWN-MANHOLE",
+   "name": "UNKNOWN MANHOLE",
    "route": "signals/cad",
    "label": "Unknown manhole (survey)",
    "description": "Unknown manhole (survey)",
@@ -3919,15 +3919,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "UNKNOWN-MANHOLE",
+     "state": "UNKNOWN MANHOLE",
      "code": "SV-MANHOLE-UNKNOWN",
      "file": "signals/cad/SV-MANHOLE-UNKNOWN.dwg",
-     "block": "SSS-UNKNOWN-MANHOLE$UNKNOWN-MANHOLE"
+     "block": "UNKNOWN MANHOLE$UNKNOWN-MANHOLE"
     }
    ]
   },
   {
-   "name": "SSS-SEWER-CLEANOUT",
+   "name": "SEWER CLEANOUT",
    "route": "signals/cad",
    "label": "Sewer cleanout (survey)",
    "description": "Sewer cleanout (survey)",
@@ -3938,15 +3938,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "SEWER-CLEANOUT",
+     "state": "SEWER CLEANOUT",
      "code": "SV-SEWER-CLEANOUT",
      "file": "signals/cad/SV-SEWER-CLEANOUT.dwg",
-     "block": "SSS-SEWER-CLEANOUT$SEWER-CLEANOUT"
+     "block": "SEWER CLEANOUT$SEWER-CLEANOUT"
     }
    ]
   },
   {
-   "name": "SSS-MONITORING-WELL",
+   "name": "MONITORING WELL",
    "route": "signals/cad",
    "label": "Monitoring well (survey)",
    "description": "Monitoring well (survey)",
@@ -3957,15 +3957,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "MONITORING-WELL",
+     "state": "MONITORING WELL",
      "code": "SV-MONITORING-WELL",
      "file": "signals/cad/SV-MONITORING-WELL.dwg",
-     "block": "SSS-MONITORING-WELL$MONITORING-WELL"
+     "block": "MONITORING WELL$MONITORING-WELL"
     }
    ]
   },
   {
-   "name": "SSS-WELL",
+   "name": "WELL",
    "route": "signals/cad",
    "label": "Well (survey)",
    "description": "Well (survey)",
@@ -3979,12 +3979,12 @@
      "state": "WELL",
      "code": "SV-WELL",
      "file": "signals/cad/SV-WELL.dwg",
-     "block": "SSS-WELL$WELL"
+     "block": "WELL$WELL"
     }
    ]
   },
   {
-   "name": "SSS-VENT",
+   "name": "VENT",
    "route": "signals/cad",
    "label": "Vent (survey)",
    "description": "Vent (survey)",
@@ -3998,12 +3998,12 @@
      "state": "VENT",
      "code": "SV-VENT",
      "file": "signals/cad/SV-VENT.dwg",
-     "block": "SSS-VENT$VENT"
+     "block": "VENT$VENT"
     }
    ]
   },
   {
-   "name": "SSS-ELECTRIC-OUTLET",
+   "name": "ELECTRIC OUTLET",
    "route": "signals/cad",
    "label": "Electric outlet (survey)",
    "description": "Electric outlet (survey)",
@@ -4014,15 +4014,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "ELECTRIC-OUTLET",
+     "state": "ELECTRIC OUTLET",
      "code": "SV-ELECTRIC-OUTLET",
      "file": "signals/cad/SV-ELECTRIC-OUTLET.dwg",
-     "block": "SSS-ELECTRIC-OUTLET$ELECTRIC-OUTLET"
+     "block": "ELECTRIC OUTLET$ELECTRIC-OUTLET"
     }
    ]
   },
   {
-   "name": "SSS-TRAFFIC-SIGNAL-POLE-BASE",
+   "name": "TRAFFIC SIGNAL POLE BASE",
    "route": "signals/cad",
    "label": "Traffic signal pole base (survey)",
    "description": "Traffic signal pole base (survey)",
@@ -4033,15 +4033,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "TRAFFIC-SIGNAL-POLE-BASE",
+     "state": "TRAFFIC SIGNAL POLE BASE",
      "code": "SV-TRAFFIC-SIGNAL-BASE",
      "file": "signals/cad/SV-TRAFFIC-SIGNAL-BASE.dwg",
-     "block": "SSS-TRAFFIC-SIGNAL-POLE-BASE$TRAFFIC-SIGNAL-POLE-BASE"
+     "block": "TRAFFIC SIGNAL POLE BASE$TRAFFIC-SIGNAL-POLE-BASE"
     }
    ]
   },
   {
-   "name": "SSS-RAILROAD-CROSSING-SIGN",
+   "name": "RAILROAD CROSSING SIGN",
    "route": "signals/cad",
    "label": "Railroad crossing sign (survey)",
    "description": "Railroad crossing sign (survey)",
@@ -4052,15 +4052,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "RAILROAD-CROSSING-SIGN",
+     "state": "RAILROAD CROSSING SIGN",
      "code": "SV-RAILROAD-SIGN",
      "file": "signals/cad/SV-RAILROAD-SIGN.dwg",
-     "block": "SSS-RAILROAD-CROSSING-SIGN$RAILROAD-CROSSING-SIGN"
+     "block": "RAILROAD CROSSING SIGN$RAILROAD-CROSSING-SIGN"
     }
    ]
   },
   {
-   "name": "SSS-PALM-TREE",
+   "name": "PALM TREE",
    "route": "signals/cad",
    "label": "Palm tree (survey)",
    "description": "Palm tree (survey)",
@@ -4071,15 +4071,15 @@
    "conditions": null,
    "states": [
     {
-     "state": "PALM-TREE",
+     "state": "PALM TREE",
      "code": "SV-TREE-PALM",
      "file": "signals/cad/SV-TREE-PALM.dwg",
-     "block": "SSS-PALM-TREE$PALM-TREE"
+     "block": "PALM TREE$PALM-TREE"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-G33-1-CA",
+   "name": "G33-1(CA)",
    "route": "signs/cad",
    "label": "G33-1(CA) sign",
    "description": "G33-1(CA) sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4094,18 +4094,18 @@
      "state": "LEFT TURN",
      "code": "G33-1(CA)(LT)",
      "id": "pico-g33-1-ca-lt-10f66c0",
-     "block": "SSS-SIGN-G33-1-CA$LEFT-TURN"
+     "block": "G33-1(CA)$LEFT-TURN"
     },
     {
      "state": "RIGHT TURN",
      "code": "G33-1(CA)(RT)",
      "id": "pico-g33-1-ca-rt-10f66ba",
-     "block": "SSS-SIGN-G33-1-CA$RIGHT-TURN"
+     "block": "G33-1(CA)$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-M4-10",
+   "name": "M4-10",
    "route": "signs/cad",
    "label": "M4-10 sign",
    "description": "M4-10 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4120,18 +4120,18 @@
      "state": "LEFT",
      "code": "M4-10L",
      "id": "mutcd-sheet-m4-10l-11f95",
-     "block": "SSS-SIGN-M4-10$LEFT"
+     "block": "M4-10$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "M4-10R",
      "id": "mutcd-sheet-m4-10r-11f96",
-     "block": "SSS-SIGN-M4-10$RIGHT"
+     "block": "M4-10$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-M7-1",
+   "name": "M7-1",
    "route": "signs/cad",
    "label": "M7-1 sign",
    "description": "M7-1 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4146,18 +4146,18 @@
      "state": "STANDARD",
      "code": "M7-1",
      "id": "fp-signs-67c2",
-     "block": "SSS-SIGN-M7-1$STANDARD"
+     "block": "M7-1$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "M7-1(L)",
      "id": "fp-signs-15e18",
-     "block": "SSS-SIGN-M7-1$LEFT"
+     "block": "M7-1$LEFT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R3-5",
+   "name": "R3-5",
    "route": "signs/cad",
    "label": "R3-5 sign",
    "description": "R3-5 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4172,30 +4172,30 @@
      "state": "STANDARD",
      "code": "R3-5",
      "id": "official-r3-5",
-     "block": "SSS-SIGN-R3-5$STANDARD"
+     "block": "R3-5$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "R3-5L",
      "id": "mutcd-sheet-r3-5l-10558",
-     "block": "SSS-SIGN-R3-5$LEFT"
+     "block": "R3-5$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "R3-5(R)",
      "id": "official-callout-r3-5-r",
-     "block": "SSS-SIGN-R3-5$RIGHT"
+     "block": "R3-5$RIGHT"
     },
     {
      "state": "RIGHT TURN",
      "code": "R3-5(RT)",
      "id": "pico-r3-5-rt-438808",
-     "block": "SSS-SIGN-R3-5$RIGHT-TURN"
+     "block": "R3-5$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R3-6",
+   "name": "R3-6",
    "route": "signs/cad",
    "label": "R3-6 sign",
    "description": "R3-6 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4210,24 +4210,24 @@
      "state": "LEFT",
      "code": "R3-6L",
      "id": "mutcd-sheet-r3-6l-10593",
-     "block": "SSS-SIGN-R3-6$LEFT"
+     "block": "R3-6$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "R3-6R",
      "id": "mutcd-sheet-r3-6r-105b0",
-     "block": "SSS-SIGN-R3-6$RIGHT"
+     "block": "R3-6$RIGHT"
     },
     {
      "state": "LEFT TURN",
      "code": "R3-6(LT)",
      "id": "official-callout-r3-6-left",
-     "block": "SSS-SIGN-R3-6$LEFT-TURN"
+     "block": "R3-6$LEFT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R3-7",
+   "name": "R3-7",
    "route": "signs/cad",
    "label": "R3-7 sign",
    "description": "R3-7 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4242,30 +4242,30 @@
      "state": "STANDARD",
      "code": "R3-7",
      "id": "official-r3-7",
-     "block": "SSS-SIGN-R3-7$STANDARD"
+     "block": "R3-7$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "R3-7(L)",
      "id": "official-callout-r3-7-l",
-     "block": "SSS-SIGN-R3-7$LEFT"
+     "block": "R3-7$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "R3-7R",
      "id": "mutcd-sheet-r3-7r-105c8",
-     "block": "SSS-SIGN-R3-7$RIGHT"
+     "block": "R3-7$RIGHT"
     },
     {
      "state": "RIGHT TURN",
      "code": "R3-7(RT)",
      "id": "official-callout-r3-7-right",
-     "block": "SSS-SIGN-R3-7$RIGHT-TURN"
+     "block": "R3-7$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R3-8",
+   "name": "R3-8",
    "route": "signs/cad",
    "label": "R3-8 sign",
    "description": "R3-8 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4280,24 +4280,24 @@
      "state": "STANDARD",
      "code": "R3-8",
      "id": "official-r3-8",
-     "block": "SSS-SIGN-R3-8$STANDARD"
+     "block": "R3-8$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "R3-8L",
      "id": "mutcd-sheet-r3-8l-105f9",
-     "block": "SSS-SIGN-R3-8$LEFT"
+     "block": "R3-8$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "R3-8R",
      "id": "mutcd-sheet-r3-8r-1062a",
-     "block": "SSS-SIGN-R3-8$RIGHT"
+     "block": "R3-8$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R6-1",
+   "name": "R6-1",
    "route": "signs/cad",
    "label": "R6-1 sign",
    "description": "R6-1 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4312,30 +4312,30 @@
      "state": "STANDARD",
      "code": "R6-1",
      "id": "official-r6-1",
-     "block": "SSS-SIGN-R6-1$STANDARD"
+     "block": "R6-1$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "R6-1L",
      "id": "3346-title-details-103aad2",
-     "block": "SSS-SIGN-R6-1$LEFT"
+     "block": "R6-1$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "R6-1(R)",
      "id": "official-callout-r6-1-r",
-     "block": "SSS-SIGN-R6-1$RIGHT"
+     "block": "R6-1$RIGHT"
     },
     {
      "state": "RIGHT TURN",
      "code": "R6-1(RT)",
      "id": "pico-r6-1-rt-79678e",
-     "block": "SSS-SIGN-R6-1$RIGHT-TURN"
+     "block": "R6-1$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R6-2",
+   "name": "R6-2",
    "route": "signs/cad",
    "label": "R6-2 sign",
    "description": "R6-2 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4350,24 +4350,24 @@
      "state": "LEFT",
      "code": "R6-2L",
      "id": "mutcd-sheet-r6-2l-109a5",
-     "block": "SSS-SIGN-R6-2$LEFT"
+     "block": "R6-2$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "R6-2R",
      "id": "mutcd-sheet-r6-2r-109b9",
-     "block": "SSS-SIGN-R6-2$RIGHT"
+     "block": "R6-2$RIGHT"
     },
     {
      "state": "LEFT TURN",
      "code": "R6-2 (LT)",
      "id": "pico-r6-2-lt-6a48e3",
-     "block": "SSS-SIGN-R6-2$LEFT-TURN"
+     "block": "R6-2$LEFT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R9-3B",
+   "name": "R9-3B",
    "route": "signs/cad",
    "label": "R9-3B sign",
    "description": "R9-3B sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4382,18 +4382,18 @@
      "state": "LEFT",
      "code": "R9-3B (L)",
      "id": "3346-title-103ABB5",
-     "block": "SSS-SIGN-R9-3B$LEFT"
+     "block": "R9-3B$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "R9-3B (R)",
      "id": "3346-title-103ABA5",
-     "block": "SSS-SIGN-R9-3B$RIGHT"
+     "block": "R9-3B$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R9-3BP",
+   "name": "R9-3bP",
    "route": "signs/cad",
    "label": "R9-3bP sign",
    "description": "R9-3bP sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4408,30 +4408,30 @@
      "state": "LEFT",
      "code": "R9-3bP(L)",
      "id": "3346-signs-1-13-1098d6e",
-     "block": "SSS-SIGN-R9-3BP$LEFT"
+     "block": "R9-3bP$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "R9-3bP(R)",
      "id": "3346-signs-1-13-1098df2",
-     "block": "SSS-SIGN-R9-3BP$RIGHT"
+     "block": "R9-3bP$RIGHT"
     },
     {
      "state": "LEFT TURN",
      "code": "R9-3bP(LT)",
      "id": "pico-r9-3bp-lt-587a35",
-     "block": "SSS-SIGN-R9-3BP$LEFT-TURN"
+     "block": "R9-3bP$LEFT-TURN"
     },
     {
      "state": "RIGHT TURN",
      "code": "R9-3bP(RT)",
      "id": "pico-r9-3bp-rt-587a26",
-     "block": "SSS-SIGN-R9-3BP$RIGHT-TURN"
+     "block": "R9-3bP$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R9-11",
+   "name": "R9-11",
    "route": "signs/cad",
    "label": "R9-11 sign",
    "description": "R9-11 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4446,24 +4446,24 @@
      "state": "STANDARD",
      "code": "R9-11",
      "id": "official-r9-11",
-     "block": "SSS-SIGN-R9-11$STANDARD"
+     "block": "R9-11$STANDARD"
     },
     {
      "state": "LEFT TURN",
      "code": "R9-11(LT)",
      "id": "official-callout-r9-11-left",
-     "block": "SSS-SIGN-R9-11$LEFT-TURN"
+     "block": "R9-11$LEFT-TURN"
     },
     {
      "state": "RIGHT TURN",
      "code": "R9-11(RT)",
      "id": "official-callout-r9-11-right",
-     "block": "SSS-SIGN-R9-11$RIGHT-TURN"
+     "block": "R9-11$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R10-6",
+   "name": "R10-6",
    "route": "signs/cad",
    "label": "R10-6 sign",
    "description": "R10-6 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4478,24 +4478,24 @@
      "state": "LEFT",
      "code": "R10-6L",
      "id": "fp-signs-16b31",
-     "block": "SSS-SIGN-R10-6$LEFT"
+     "block": "R10-6$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "R10-6R",
      "id": "fp-signs-16b55",
-     "block": "SSS-SIGN-R10-6$RIGHT"
+     "block": "R10-6$RIGHT"
     },
     {
      "state": "LEFT TURN",
      "code": "R10-6(LT)",
      "id": "pico-r10-6-lt-1423722",
-     "block": "SSS-SIGN-R10-6$LEFT-TURN"
+     "block": "R10-6$LEFT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R10-10",
+   "name": "R10-10",
    "route": "signs/cad",
    "label": "R10-10 sign",
    "description": "R10-10 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4510,18 +4510,18 @@
      "state": "LEFT",
      "code": "R10-10L",
      "id": "mutcd-sheet-r10-10l-1221c",
-     "block": "SSS-SIGN-R10-10$LEFT"
+     "block": "R10-10$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "R10-10R",
      "id": "mutcd-sheet-r10-10r-1221d",
-     "block": "SSS-SIGN-R10-10$RIGHT"
+     "block": "R10-10$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R61-19-CA-MOD",
+   "name": "R61-19(CA)(Mod)",
    "route": "signs/cad",
    "label": "R61-19(CA)(Mod) sign",
    "description": "R61-19(CA)(Mod) sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4536,18 +4536,18 @@
      "state": "LEFT TURN",
      "code": "R61-19(CA)(Mod)(LT)",
      "id": "pico-r61-19-ca-mod-lt-142451a",
-     "block": "SSS-SIGN-R61-19-CA-MOD$LEFT-TURN"
+     "block": "R61-19(CA)(Mod)$LEFT-TURN"
     },
     {
      "state": "RIGHT TURN",
      "code": "R61-19(CA)(Mod)(RT)",
      "id": "pico-r61-19-ca-mod-rt-14251d8",
-     "block": "SSS-SIGN-R61-19-CA-MOD$RIGHT-TURN"
+     "block": "R61-19(CA)(Mod)$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-M4-9B",
+   "name": "M4-9b",
    "route": "signs/cad",
    "label": "M4-9b sign",
    "description": "M4-9b sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4562,18 +4562,18 @@
      "state": "LEFT TURN",
      "code": "M4-9b(LT)",
      "id": "official-callout-m4-9b-left",
-     "block": "SSS-SIGN-M4-9B$LEFT-TURN"
+     "block": "M4-9b$LEFT-TURN"
     },
     {
      "state": "RIGHT TURN",
      "code": "M4-9b(RT)",
      "id": "official-callout-m4-9b-right",
-     "block": "SSS-SIGN-M4-9B$RIGHT-TURN"
+     "block": "M4-9b$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-M4-9",
+   "name": "M4-9",
    "route": "signs/cad",
    "label": "M4-9 sign",
    "description": "M4-9 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4588,18 +4588,18 @@
      "state": "LEFT",
      "code": "M4-9L",
      "id": "mutcd-sheet-m4-9l-11f9d",
-     "block": "SSS-SIGN-M4-9$LEFT"
+     "block": "M4-9$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "M4-9R",
      "id": "mutcd-sheet-m4-9r-11f9e",
-     "block": "SSS-SIGN-M4-9$RIGHT"
+     "block": "M4-9$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W20-5",
+   "name": "W20-5",
    "route": "signs/cad",
    "label": "W20-5 sign",
    "description": "W20-5 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4614,18 +4614,18 @@
      "state": "LEFT",
      "code": "W20-5L",
      "id": "mutcd-sheet-w20-5l-1278e",
-     "block": "SSS-SIGN-W20-5$LEFT"
+     "block": "W20-5$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W20-5R",
      "id": "mutcd-sheet-w20-5r-1278f",
-     "block": "SSS-SIGN-W20-5$RIGHT"
+     "block": "W20-5$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W22-1",
+   "name": "W22-1",
    "route": "signs/cad",
    "label": "W22-1 sign",
    "description": "W22-1 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4640,18 +4640,18 @@
      "state": "STANDARD",
      "code": "W22-1",
      "id": "official-w22-1",
-     "block": "SSS-SIGN-W22-1$STANDARD"
+     "block": "W22-1$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "W22-1L",
      "id": "fp-signs-14564",
-     "block": "SSS-SIGN-W22-1$LEFT"
+     "block": "W22-1$LEFT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-SW24-2-CA",
+   "name": "SW24-2(CA)",
    "route": "signs/cad",
    "label": "SW24-2(CA) sign",
    "description": "SW24-2(CA) sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4666,24 +4666,24 @@
      "state": "STANDARD",
      "code": "SW24-2(CA)",
      "id": "official-sw24-2-ca",
-     "block": "SSS-SIGN-SW24-2-CA$STANDARD"
+     "block": "SW24-2(CA)$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "SW24-2(CA)(L)",
      "id": "3346-signs-1-13-10981f4",
-     "block": "SSS-SIGN-SW24-2-CA$LEFT"
+     "block": "SW24-2(CA)$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "SW24-2(CA)(R)",
      "id": "3346-signs-1-13-109821b",
-     "block": "SSS-SIGN-SW24-2-CA$RIGHT"
+     "block": "SW24-2(CA)$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-SW44-CA",
+   "name": "SW44(CA)",
    "route": "signs/cad",
    "label": "SW44(CA) sign",
    "description": "SW44(CA) sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4698,18 +4698,18 @@
      "state": "STANDARD",
      "code": "SW44(CA)",
      "id": "3346-signs-1-13-10ac394",
-     "block": "SSS-SIGN-SW44-CA$STANDARD"
+     "block": "SW44(CA)$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "SW44(CA)(L)",
      "id": "3346-legacy-1036100",
-     "block": "SSS-SIGN-SW44-CA$LEFT"
+     "block": "SW44(CA)$LEFT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W1-1",
+   "name": "W1-1",
    "route": "signs/cad",
    "label": "W1-1 sign",
    "description": "W1-1 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4724,30 +4724,30 @@
      "state": "LEFT",
      "code": "W1-1L",
      "id": "mutcd-sheet-w1-1l-11058",
-     "block": "SSS-SIGN-W1-1$LEFT"
+     "block": "W1-1$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W1-1R",
      "id": "mutcd-sheet-w1-1r-1106e",
-     "block": "SSS-SIGN-W1-1$RIGHT"
+     "block": "W1-1$RIGHT"
     },
     {
      "state": "LEFT TURN",
      "code": "W1-1(LT)",
      "id": "pico-w1-1-lt-587a58",
-     "block": "SSS-SIGN-W1-1$LEFT-TURN"
+     "block": "W1-1$LEFT-TURN"
     },
     {
      "state": "RIGHT TURN",
      "code": "W1-1(RT)",
      "id": "pico-w1-1-rt-5438e0",
-     "block": "SSS-SIGN-W1-1$RIGHT-TURN"
+     "block": "W1-1$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W1-2",
+   "name": "W1-2",
    "route": "signs/cad",
    "label": "W1-2 sign",
    "description": "W1-2 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4762,18 +4762,18 @@
      "state": "LEFT",
      "code": "W1-2L",
      "id": "mutcd-sheet-w1-2l-11084",
-     "block": "SSS-SIGN-W1-2$LEFT"
+     "block": "W1-2$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W1-2R",
      "id": "mutcd-sheet-w1-2r-1109a",
-     "block": "SSS-SIGN-W1-2$RIGHT"
+     "block": "W1-2$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W1-3",
+   "name": "W1-3",
    "route": "signs/cad",
    "label": "W1-3 sign",
    "description": "W1-3 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4788,18 +4788,18 @@
      "state": "LEFT",
      "code": "W1-3L",
      "id": "mutcd-sheet-w1-3l-110b4",
-     "block": "SSS-SIGN-W1-3$LEFT"
+     "block": "W1-3$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W1-3R",
      "id": "mutcd-sheet-w1-3r-110bd",
-     "block": "SSS-SIGN-W1-3$RIGHT"
+     "block": "W1-3$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W1-4",
+   "name": "W1-4",
    "route": "signs/cad",
    "label": "W1-4 sign",
    "description": "W1-4 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4814,24 +4814,24 @@
      "state": "LEFT",
      "code": "W1-4L",
      "id": "mutcd-sheet-w1-4l-110e8",
-     "block": "SSS-SIGN-W1-4$LEFT"
+     "block": "W1-4$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W1-4R",
      "id": "mutcd-sheet-w1-4r-11102",
-     "block": "SSS-SIGN-W1-4$RIGHT"
+     "block": "W1-4$RIGHT"
     },
     {
      "state": "LEFT TURN",
      "code": "W1-4(LT)",
      "id": "pico-w1-4-lt-1425387",
-     "block": "SSS-SIGN-W1-4$LEFT-TURN"
+     "block": "W1-4$LEFT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W1-5",
+   "name": "W1-5",
    "route": "signs/cad",
    "label": "W1-5 sign",
    "description": "W1-5 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4846,18 +4846,18 @@
      "state": "LEFT",
      "code": "W1-5L",
      "id": "mutcd-sheet-w1-5l-11120",
-     "block": "SSS-SIGN-W1-5$LEFT"
+     "block": "W1-5$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W1-5R",
      "id": "mutcd-sheet-w1-5r-1113e",
-     "block": "SSS-SIGN-W1-5$RIGHT"
+     "block": "W1-5$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W1-6",
+   "name": "W1-6",
    "route": "signs/cad",
    "label": "W1-6 sign",
    "description": "W1-6 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4872,30 +4872,30 @@
      "state": "STANDARD",
      "code": "W1-6",
      "id": "official-w1-6",
-     "block": "SSS-SIGN-W1-6$STANDARD"
+     "block": "W1-6$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "W1-6L",
      "id": "mutcd-sheet-w1-6l-11150",
-     "block": "SSS-SIGN-W1-6$LEFT"
+     "block": "W1-6$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W1-6R",
      "id": "mutcd-sheet-w1-6r-11162",
-     "block": "SSS-SIGN-W1-6$RIGHT"
+     "block": "W1-6$RIGHT"
     },
     {
      "state": "LEFT TURN",
      "code": "W1-6(LT)",
      "id": "official-callout-w1-6-left",
-     "block": "SSS-SIGN-W1-6$LEFT-TURN"
+     "block": "W1-6$LEFT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W1-8",
+   "name": "W1-8",
    "route": "signs/cad",
    "label": "W1-8 sign",
    "description": "W1-8 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4910,24 +4910,24 @@
      "state": "STANDARD",
      "code": "W1-8",
      "id": "official-w1-8",
-     "block": "SSS-SIGN-W1-8$STANDARD"
+     "block": "W1-8$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "W1-8L",
      "id": "mutcd-sheet-w1-8l-11182",
-     "block": "SSS-SIGN-W1-8$LEFT"
+     "block": "W1-8$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W1-8R",
      "id": "mutcd-sheet-w1-8r-11183",
-     "block": "SSS-SIGN-W1-8$RIGHT"
+     "block": "W1-8$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W2-2",
+   "name": "W2-2",
    "route": "signs/cad",
    "label": "W2-2 sign",
    "description": "W2-2 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4942,18 +4942,18 @@
      "state": "LEFT",
      "code": "W2-2L",
      "id": "mutcd-sheet-w2-2l-111a9",
-     "block": "SSS-SIGN-W2-2$LEFT"
+     "block": "W2-2$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W2-2R",
      "id": "mutcd-sheet-w2-2r-111ba",
-     "block": "SSS-SIGN-W2-2$RIGHT"
+     "block": "W2-2$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W2-3",
+   "name": "W2-3",
    "route": "signs/cad",
    "label": "W2-3 sign",
    "description": "W2-3 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -4968,24 +4968,24 @@
      "state": "STANDARD",
      "code": "W2-3",
      "id": "official-w2-3",
-     "block": "SSS-SIGN-W2-3$STANDARD"
+     "block": "W2-3$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "W2-3L",
      "id": "mutcd-sheet-w2-3l-111cb",
-     "block": "SSS-SIGN-W2-3$LEFT"
+     "block": "W2-3$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W2-3R",
      "id": "mutcd-sheet-w2-3r-111dc",
-     "block": "SSS-SIGN-W2-3$RIGHT"
+     "block": "W2-3$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W4-1",
+   "name": "W4-1",
    "route": "signs/cad",
    "label": "W4-1 sign",
    "description": "W4-1 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -5000,24 +5000,24 @@
      "state": "STANDARD",
      "code": "W4-1",
      "id": "official-w4-1",
-     "block": "SSS-SIGN-W4-1$STANDARD"
+     "block": "W4-1$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "W4-1L",
      "id": "mutcd-sheet-w4-1l-11282",
-     "block": "SSS-SIGN-W4-1$LEFT"
+     "block": "W4-1$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W4-1R",
      "id": "mutcd-sheet-w4-1r-11299",
-     "block": "SSS-SIGN-W4-1$RIGHT"
+     "block": "W4-1$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W4-2",
+   "name": "W4-2",
    "route": "signs/cad",
    "label": "W4-2 sign",
    "description": "W4-2 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -5032,24 +5032,24 @@
      "state": "STANDARD",
      "code": "W4-2",
      "id": "official-w4-2",
-     "block": "SSS-SIGN-W4-2$STANDARD"
+     "block": "W4-2$STANDARD"
     },
     {
      "state": "RIGHT",
      "code": "W4-2(R)",
      "id": "3346-signs-1-13-1098288",
-     "block": "SSS-SIGN-W4-2$RIGHT"
+     "block": "W4-2$RIGHT"
     },
     {
      "state": "RIGHT TURN",
      "code": "W4-2(RT)",
      "id": "pico-w4-2-rt-6bfd0b",
-     "block": "SSS-SIGN-W4-2$RIGHT-TURN"
+     "block": "W4-2$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W4-3",
+   "name": "W4-3",
    "route": "signs/cad",
    "label": "W4-3 sign",
    "description": "W4-3 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -5064,18 +5064,18 @@
      "state": "LEFT",
      "code": "W4-3L",
      "id": "mutcd-sheet-w4-3l-112f8",
-     "block": "SSS-SIGN-W4-3$LEFT"
+     "block": "W4-3$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W4-3R",
      "id": "mutcd-sheet-w4-3r-1132d",
-     "block": "SSS-SIGN-W4-3$RIGHT"
+     "block": "W4-3$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W9-1",
+   "name": "W9-1",
    "route": "signs/cad",
    "label": "W9-1 sign",
    "description": "W9-1 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -5090,30 +5090,30 @@
      "state": "STANDARD",
      "code": "W9-1",
      "id": "official-w9-1",
-     "block": "SSS-SIGN-W9-1$STANDARD"
+     "block": "W9-1$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "W9-1L",
      "id": "mutcd-sheet-w9-1l-115d3",
-     "block": "SSS-SIGN-W9-1$LEFT"
+     "block": "W9-1$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W9-1R",
      "id": "mutcd-sheet-w9-1r-115df",
-     "block": "SSS-SIGN-W9-1$RIGHT"
+     "block": "W9-1$RIGHT"
     },
     {
      "state": "RIGHT TURN",
      "code": "W9-1(RT)",
      "id": "official-callout-w9-1-right",
-     "block": "SSS-SIGN-W9-1$RIGHT-TURN"
+     "block": "W9-1$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W9-2",
+   "name": "W9-2",
    "route": "signs/cad",
    "label": "W9-2 sign",
    "description": "W9-2 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -5128,18 +5128,18 @@
      "state": "LEFT",
      "code": "W9-2L",
      "id": "mutcd-sheet-w9-2l-115ea",
-     "block": "SSS-SIGN-W9-2$LEFT"
+     "block": "W9-2$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W9-2R",
      "id": "mutcd-sheet-w9-2r-115f7",
-     "block": "SSS-SIGN-W9-2$RIGHT"
+     "block": "W9-2$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W10-2",
+   "name": "W10-2",
    "route": "signs/cad",
    "label": "W10-2 sign",
    "description": "W10-2 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -5154,18 +5154,18 @@
      "state": "LEFT",
      "code": "W10-2L",
      "id": "mutcd-sheet-w10-2l-117d8",
-     "block": "SSS-SIGN-W10-2$LEFT"
+     "block": "W10-2$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W10-2R",
      "id": "mutcd-sheet-w10-2r-1184d",
-     "block": "SSS-SIGN-W10-2$RIGHT"
+     "block": "W10-2$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W10-3",
+   "name": "W10-3",
    "route": "signs/cad",
    "label": "W10-3 sign",
    "description": "W10-3 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -5180,18 +5180,18 @@
      "state": "LEFT",
      "code": "W10-3L",
      "id": "mutcd-sheet-w10-3l-118bf",
-     "block": "SSS-SIGN-W10-3$LEFT"
+     "block": "W10-3$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W10-3R",
      "id": "mutcd-sheet-w10-3r-11931",
-     "block": "SSS-SIGN-W10-3$RIGHT"
+     "block": "W10-3$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W10-4",
+   "name": "W10-4",
    "route": "signs/cad",
    "label": "W10-4 sign",
    "description": "W10-4 sign, every direction (FHWA SHS / CA MUTCD)",
@@ -5206,18 +5206,18 @@
      "state": "LEFT",
      "code": "W10-4L",
      "id": "mutcd-sheet-w10-4l-119a3",
-     "block": "SSS-SIGN-W10-4$LEFT"
+     "block": "W10-4$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W10-4R",
      "id": "mutcd-sheet-w10-4r-11a15",
-     "block": "SSS-SIGN-W10-4$RIGHT"
+     "block": "W10-4$RIGHT"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-W16-7P",
+   "name": "W16-7P",
    "route": "signs/cad",
    "label": "W16-7P sign",
    "description": "W16-7P sign, every direction (FHWA SHS / CA MUTCD)",
@@ -5232,36 +5232,36 @@
      "state": "STANDARD",
      "code": "W16-7P",
      "id": "official-w16-7p",
-     "block": "SSS-SIGN-W16-7P$STANDARD"
+     "block": "W16-7P$STANDARD"
     },
     {
      "state": "LEFT",
      "code": "W16-7P (L)",
      "id": "3346-title-103A6B5",
-     "block": "SSS-SIGN-W16-7P$LEFT"
+     "block": "W16-7P$LEFT"
     },
     {
      "state": "RIGHT",
      "code": "W16-7P(R)",
      "id": "3346-signs-1-13-109819d",
-     "block": "SSS-SIGN-W16-7P$RIGHT"
+     "block": "W16-7P$RIGHT"
     },
     {
      "state": "LEFT TURN",
      "code": "W16-7P(LT)",
      "id": "pico-w16-7p-lt-10f2268",
-     "block": "SSS-SIGN-W16-7P$LEFT-TURN"
+     "block": "W16-7P$LEFT-TURN"
     },
     {
      "state": "RIGHT TURN",
      "code": "W16-7P(RT)",
      "id": "pico-w16-7p-rt-10f2259",
-     "block": "SSS-SIGN-W16-7P$RIGHT-TURN"
+     "block": "W16-7P$RIGHT-TURN"
     }
    ]
   },
   {
-   "name": "SSS-SIGN-R2-1-SPEED",
+   "name": "R2-1 SPEED",
    "route": "signs/cad",
    "label": "R2-1 speed limit",
    "description": "R2-1 speed limit, every posted speed (FHWA SHS / CA MUTCD)",
@@ -5276,43 +5276,43 @@
      "state": "25 MPH",
      "code": "R2-1(25)",
      "id": "3346-signs-1-13-10980d1",
-     "block": "SSS-SIGN-R2-1-SPEED$25-MPH"
+     "block": "R2-1 SPEED$25-MPH"
     },
     {
      "state": "30 MPH",
      "code": "R2-1(30)",
      "id": "3346-signs-1-13-109879a",
-     "block": "SSS-SIGN-R2-1-SPEED$30-MPH"
+     "block": "R2-1 SPEED$30-MPH"
     },
     {
      "state": "35 MPH",
      "code": "R2-1(35)",
      "id": "pico-r2-1-35-587a43",
-     "block": "SSS-SIGN-R2-1-SPEED$35-MPH"
+     "block": "R2-1 SPEED$35-MPH"
     },
     {
      "state": "40 MPH",
      "code": "R2-140",
      "id": "fp-signs-6ffb",
-     "block": "SSS-SIGN-R2-1-SPEED$40-MPH"
+     "block": "R2-1 SPEED$40-MPH"
     },
     {
      "state": "45 MPH",
      "code": "R2-145",
      "id": "fp-signs-6ffc",
-     "block": "SSS-SIGN-R2-1-SPEED$45-MPH"
+     "block": "R2-1 SPEED$45-MPH"
     },
     {
      "state": "50 MPH",
      "code": "R2-150",
      "id": "fp-signs-6ffd",
-     "block": "SSS-SIGN-R2-1-SPEED$50-MPH"
+     "block": "R2-1 SPEED$50-MPH"
     },
     {
      "state": "55 MPH",
      "code": "R2-155",
      "id": "fp-signs-6ffe",
-     "block": "SSS-SIGN-R2-1-SPEED$55-MPH"
+     "block": "R2-1 SPEED$55-MPH"
     }
    ]
   }
