@@ -46,3 +46,8 @@ const one = ctx.__t.compose(fs.readFileSync(new URL('cad-library/template.dxf.in
   await ctx.__t.blocks([{kind: 'custom', gen: 'pavetext', params: {text: 'ONLY'}}], {}), {origin: true});
 assert.ok(one.dxf.includes('\nPM-TEXT-ONLY-8FT\n') && /\$INSUNITS\n70\n2\n/.test(one.dxf), 'Single block drawing should be in feet');
 console.log('Pavement text: ONLY and BUS/ONLY built; single-block drawing composed.');
+// One lane: at most 5 characters a line and 11 ft across.
+assert.throws(() => G.make('pavetext', {text: 'SCHOOL'}), /at most 5/);
+assert.throws(() => G.make('pavetext', {text: 'WWWWW', height: 12}), /11 ft/);
+assert.ok(G.make('pavetext', {text: 'XXXXX'}).bounds[2] - G.make('pavetext', {text: 'XXXXX'}).bounds[0] <= 11);
+console.log('Pavement text: line limits hold.');

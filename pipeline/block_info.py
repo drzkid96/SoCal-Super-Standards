@@ -6,7 +6,8 @@ the same DWG converted by ODA File Converter, so entity handles match the state 
 filled (hatch and solid) area of what shows in each state, in square drawing units, per plotted color.
 
   python3 pipeline/block_info.py   (needs ODAFileConverter, LibreDWG dwgread, xvfb-run when headless)
-writes data/reference/block-info.json, read by design_blocks.py.
+writes data/reference/block-info.json, read by design_blocks.py, and one detail picture per visibility state
+(insertion point marked) to public/block-details/<route>/<stem>/<n>.svg for the block pop-up.
 """
 import json
 import os
@@ -21,6 +22,7 @@ from shapely.geometry import Polygon
 from shapely.ops import unary_union
 
 CATALOG = Path('data/reference/design-blocks.json')
+DETAILS = Path('public/block-details')
 OUT = Path('data/reference/block-info.json')
 DWGREAD = Path(os.environ.get('DWGREAD', Path.home() / '.cache/dxf-to-dwg/libredwg/_b/dwgread'))
 UNITS = {1: 'in', 2: 'ft', 4: 'mm', 6: 'm', 21: 'ft'}
@@ -156,7 +158,7 @@ def where(ext, size, unit):
     return 'Off the block: ' + ', '.join(parts)
 
 
-def info(dxf, dwg):
+def info(dxf, dwg, pictures=None):
     doc = ezdxf.readfile(dxf)
     unit = UNITS.get(doc.header.get('$INSUNITS', 0), 'units')
     ins = [e for e in doc.modelspace() if e.dxftype() == 'INSERT']
@@ -190,6 +192,33 @@ def info(dxf, dwg):
         out['area'] = rows[0]['area']
     else:
         out['areaByState'] = [[r['state'], r['area']] for r in rows]
+    if pictures is not None:          # one picture per state with the insertion point marked
+        import block_previews
+        pictures.mkdir(parents=True, exist_ok=True)
+        keep_all = {e.dxf.handle for e in everything}
+        for i, (name, ents) in enumerate(views):
+            view = ezdxf.readfile(dxf)
+            blk = view.blocks[top.dxf.name]
+            shown = {e.dxf.handle for e in ents}
+            for e in [e for e in blk if e.dxf.handle in keep_all and e.dxf.handle not in shown]:
+                blk.delete_entity(e)
+            ins = top.dxf.insert
+            try:
+                picture = block_previews.draw(view, base=(ins.x, ins.y), side=480)
+            except ValueError:            # a state that shows nothing plots nothing
+                picture = None
+            if picture is None:
+                print('  no picture:', pictures.name, name or 'block')
+                return out
+            (pictures / f'{i}.svg').write_text(picture)
+            if len(views) > 1 and i == next((k for k, (n, _) in enumerate(views) if 'PROPOSED' in n.upper()), 0):
+                card = ezdxf.readfile(dxf)       # the card picture shows the proposed state
+                cblk = card.blocks[top.dxf.name]
+                for e in [e for e in cblk if e.dxf.handle in keep_all and e.dxf.handle not in shown]:
+                    cblk.delete_entity(e)
+                (block_previews.OUT / pictures.parent.relative_to(DETAILS) / (pictures.name + '.svg')).write_text(
+                    block_previews.draw(card, own_state=True))
+        out['views'] = len(views)
     return out
 
 
@@ -209,8 +238,10 @@ def build():
         if shutil.which('xvfb-run'):
             cmd = ['xvfb-run', '-a'] + cmd
         subprocess.run(cmd, check=True, capture_output=True, timeout=1800)
+        shutil.rmtree(DETAILS, ignore_errors=True)
         for route, row, dwg in rows:
-            item = info(dxf / (Path(row['file']).stem + '.dxf'), dwg)
+            stem = Path(row['file']).stem
+            item = info(dxf / (stem + '.dxf'), dwg, DETAILS / route / stem)
             if item:
                 result[row['code']] = item
     OUT.write_text(json.dumps(result, indent=1, sort_keys=True) + '\n')

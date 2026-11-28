@@ -164,7 +164,11 @@ Order after any block change: builder(s) → `cad_normalize.py` → `block_libra
   Pavement Markings 10-1 to 10-7; the source U stops 4 grid squares short and its stems are extended).
   Letter pitch is the Caltrans A24D/A24E pitch (height / 4.8), base at the bottom center of the first line,
   lines 4 letter heights apart. The editor's Download DWG builds one block at 0,0 on P-PMARK.
-- Library and single-block drawings are in feet (`$INSUNITS` 2).
+- Pavement text lines hold at most 5 characters and 11 ft across (one lane); the editor refuses longer lines.
+- Library and single-block drawings are in feet (`$INSUNITS` 2). The library sorts blocks by code by default;
+  sign legends are always in sign-code order.
+- After any sign face change, rebuild `SSS-DYNAMIC-SOURCE.dwg` (`dynamic_source.py`): sign states are read from
+  the published sign drawings.
 - Browser-combined blocks are AutoCAD 2000 and static; the script reinserts the originals for grips.
 
 ## Dynamic families: `dynamic_families.py`, `dynamic_source.py` and `SSS-DYNBUILD.lsp` (v2)
@@ -208,7 +212,13 @@ block is drawn (no base point marker). The page build stops when a block has no 
 
 `python3 pipeline/block_info.py` writes `data/reference/block-info.json` (base point in words, visibility
 states from the DWG's dynamic-block data via LibreDWG `dwgread`, filled area per plotted color and state);
-the card pop-up shows it. Run it with `block_previews.py`.
+the card pop-up shows it. It also writes one picture per visibility state with the insertion point marked
+(`public/block-details/<route>/<stem>/<n>.svg`) and redraws dynamic-block card pictures in their proposed
+state. Run it after `block_previews.py`.
+
+The pop-up works like a product quick view: the drawing, its states as options that switch the picture and the
+area figures, the insertion point in words, size, Add to cart and Download DWG. Pages that offer DWGs carry no
+Page PDF action.
 
 ## Audit: `cad_audit.py`
 

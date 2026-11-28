@@ -27,7 +27,7 @@
 .bc-actions button:disabled{opacity:.5;cursor:default}
 .bc-actions .bc-quiet{margin-left:auto}
 .bc-status{min-height:1.2em;color:var(--sl-color-gray-2);font-size:.8rem}
-.bc-editor{width:min(48rem,96vw);border:1px solid var(--sl-color-gray-5);border-radius:.6rem;padding:1rem;background:var(--sl-color-bg);color:var(--sl-color-text)}
+.bc-editor{margin:auto;max-height:94vh;overflow:auto;width:min(48rem,96vw);border:1px solid var(--sl-color-gray-5);border-radius:.6rem;padding:1rem;background:var(--sl-color-bg);color:var(--sl-color-text)}
 .bc-editor::backdrop{background:rgb(0 0 0/.35)}
 .bc-editor-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:1rem;margin:.6rem 0}
 .bc-preview{height:16rem;display:grid;place-items:center;background:#fff;border:1px solid var(--sl-color-gray-6);border-radius:.45rem;padding:.6rem}
@@ -42,7 +42,7 @@
 .block-tools button:hover{border-color:#24553d;color:#24553d}
 
 /* larger view of one block: opened from its picture, nothing downloads until DWG is pressed */
-.block-viewer{border:0;border-radius:.6rem;padding:0;max-width:min(52rem,94vw);width:100%;box-shadow:0 1rem 3rem rgba(0,0,0,.35);background:var(--sl-color-bg,#fff);color:inherit}
+.block-viewer{border:0;border-radius:.6rem;padding:0;margin:auto;max-width:min(56rem,94vw);max-height:92vh;overflow:auto;width:100%;box-shadow:0 1rem 3rem rgba(0,0,0,.35);background:var(--sl-color-bg,#fff);color:inherit}
 .block-viewer::backdrop{background:rgba(20,20,20,.55)}
 .block-viewer .bv-pic{display:flex;align-items:center;justify-content:center;background:#e9e9e6;height:min(60vh,30rem);padding:1rem}
 .block-viewer .bv-pic img{max-width:100%;max-height:100%;object-fit:contain}
@@ -64,3 +64,19 @@
 .block-viewer .bv-total{font-weight:600}
 .block-viewer .bv-swatch{display:inline-block;width:.85rem;height:.85rem;border-radius:.15rem;border:1px solid #777}
 .block-viewer .bv-none{color:var(--sl-color-gray-3,#666)}
+.bc-note.bc-error{color:#b3261e;font-weight:600}
+
+.block-viewer .bv-title{margin:0 1.8rem .1rem 0;font-size:1.25rem;line-height:1.25}
+.block-viewer .bv-name{margin:0 0 .5rem;color:var(--sl-color-gray-3,#666);font-size:.85rem}
+.block-viewer .bv-pic{position:relative}
+.block-viewer .bv-legend{position:absolute;left:.6rem;bottom:.4rem;margin:0;display:flex;align-items:center;gap:.35rem;font-size:.75rem;color:#555;background:rgb(255 255 255 / .85);padding:.1rem .4rem;border-radius:.3rem}
+.block-viewer .bv-base-mark{width:.8rem;height:.8rem;border:2px solid #7d3c6b;border-radius:50%;position:relative}
+.block-viewer .bv-base-mark::before,.block-viewer .bv-base-mark::after{content:'';position:absolute;background:#7d3c6b;left:50%;top:50%;transform:translate(-50%,-50%)}
+.block-viewer .bv-base-mark::before{width:1.1rem;height:2px}.block-viewer .bv-base-mark::after{width:2px;height:1.1rem}
+.block-viewer .bv-states{display:flex;flex-wrap:wrap;gap:.35rem;margin:.2rem 0 .5rem}
+.block-viewer .bv-states button{border:1px solid var(--sl-color-gray-4,#bbb);border-radius:1rem;padding:.2rem .75rem;background:none;color:inherit;font:inherit;font-size:.8rem;cursor:pointer}
+.block-viewer .bv-states button[aria-checked=true]{border-color:#7d3c6b;color:#7d3c6b;font-weight:650;box-shadow:inset 0 0 0 1px #7d3c6b}
+.block-viewer .bv-dwg{align-self:center}
+.block-viewer .bv-dwg{display:inline-block;padding:.5rem .9rem;border:1px solid var(--sl-color-gray-4,#bbb);border-radius:.4rem;text-decoration:none;color:inherit}
+.block-viewer .bv-dwg::after{content:none!important}
+.block-viewer .bv-dwg:hover{border-color:#7d3c6b;color:#7d3c6b}

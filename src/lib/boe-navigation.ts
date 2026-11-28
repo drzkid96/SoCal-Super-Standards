@@ -82,7 +82,7 @@ function collection(current: string, route: StarlightRouteData): Group | undefin
   const title = directoryNames[section]?.[0];
   if (title) add(title, index);
   if (section === 'signs') {
-    add('Download CAD sign blocks', BASE + '/signs/cad/');
+    add('Sign blocks (DWG)', BASE + '/signs/cad/');
   } else if (section === 'transit') {
     for (const [slug, operator] of operators) add(operator, index + slug + '/');
   } else if (section === 'regions' || section === 'cities') {

@@ -4,12 +4,5 @@ description: Find the issuing agency for California, federal and Los Angeles str
 tableOfContents: false
 ---
 
-[Browse Southern California regional and major-city standards →](/SoCal-Super-Standards/regions/)
+<div class="agency-cards"><div class="agency-card"><a class="agency-name" href="/SoCal-Super-Standards/caltrans/">California Department of Transportation</a><p>State highway design, signing and striping standards</p><nav><a href="/SoCal-Super-Standards/ca-mutcd/">CA MUTCD 2026</a><a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/">2026 Standard Plans</a><a href="/SoCal-Super-Standards/bulletins/">Design bulletins</a></nav></div><div class="agency-card"><a class="agency-name" href="/SoCal-Super-Standards/fhwa/">Federal Highway Administration</a><p>Federal traffic control devices and official sign layouts</p><nav><a href="/SoCal-Super-Standards/mutcd/">Federal MUTCD</a><a href="/SoCal-Super-Standards/signs/">Standard Highway Signs</a></nav></div><div class="agency-card"><a class="agency-name" href="/SoCal-Super-Standards/ada/">U.S. Access Board</a><p>Public right-of-way accessibility and curb ramps</p><nav><a href="/SoCal-Super-Standards/bulletins/prowag-2023/">PROWAG</a><a href="/SoCal-Super-Standards/topics/accessibility/">Curb ramps and accessible signals</a></nav></div><div class="agency-card"><a class="agency-name" href="/SoCal-Super-Standards/boe/">Los Angeles Bureau of Engineering</a><p>Street geometry and right-of-way design for Los Angeles</p><nav><a href="/SoCal-Super-Standards/boe/street-design/">Street Design Manual</a></nav></div><div class="agency-card"><a class="agency-name" href="/SoCal-Super-Standards/ladot/">Los Angeles Department of Transportation</a><p>City striping, signal and parking drawings</p><nav><a href="/SoCal-Super-Standards/ladot/">Manuals and drawings</a><a href="/SoCal-Super-Standards/ladot/curb-paint/">Curb paint</a></nav></div></div>
 
-- [California Department of Transportation](/SoCal-Super-Standards/caltrans/) — California state highway design references, plan sheets and signing standards.
-- [Federal Highway Administration](/SoCal-Super-Standards/fhwa/) — Federal traffic control devices, official layouts and crossing guidance.
-- [U.S. Access Board](/SoCal-Super-Standards/ada/) — Public right-of-way accessibility and curb ramp references.
-- [Los Angeles Bureau of Engineering](/SoCal-Super-Standards/boe/) — Street geometry, accessible design and public right-of-way guidance for Los Angeles.
-- [Los Angeles Department of Transportation](/SoCal-Super-Standards/ladot/) — Original city striping, signal and parking drawings.
-
-[Find a city’s standards or check jurisdiction on the county map](/SoCal-Super-Standards/cities/).

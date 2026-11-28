@@ -4731,18 +4731,6 @@
      "code": "W1-1R",
      "id": "mutcd-sheet-w1-1r-1106e",
      "block": "W1-1$RIGHT"
-    },
-    {
-     "state": "LEFT TURN",
-     "code": "W1-1(LT)",
-     "id": "pico-w1-1-lt-587a58",
-     "block": "W1-1$LEFT-TURN"
-    },
-    {
-     "state": "RIGHT TURN",
-     "code": "W1-1(RT)",
-     "id": "pico-w1-1-rt-5438e0",
-     "block": "W1-1$RIGHT-TURN"
     }
    ]
   },
@@ -4821,12 +4809,6 @@
      "code": "W1-4R",
      "id": "mutcd-sheet-w1-4r-11102",
      "block": "W1-4$RIGHT"
-    },
-    {
-     "state": "LEFT TURN",
-     "code": "W1-4(LT)",
-     "id": "pico-w1-4-lt-1425387",
-     "block": "W1-4$LEFT-TURN"
     }
    ]
   },

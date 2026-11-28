@@ -134,14 +134,14 @@ def _count(path, key=None):
 
 def home_tasks():
     """The four things people come to do, each with what it answers."""
-    tasks = [('Search everything', 'search/', 'Provisions, drawings, sign codes, cities and topics in one box'),
+    tasks = [('Look up a sign', 'signs/', 'California and federal codes, faces, sizes and DWGs'),
+             ('Pavement markings', 'markings/', 'Striping details, arrows, words, crosswalks and curb paint'),
              ('Find a drawing', 'details/', 'Standard plans and agency details, filtered by agency and type'),
-             ('Look up a sign', 'signs/', 'California and federal codes, sizes and a printable sign chart'),
              ('Design by topic', 'topics/', 'Bikeways, crossings, signals and curbs with the rules that govern them')]
     cards = ''.join(f'<a href="{BASE}/{url}"><strong>{escape(t)}</strong><span>{escape(d)}</span></a>' for t, url, d in tasks)
     more = ''.join(f'<a href="{BASE}/{url}">{escape(t)}</a>' for t, url in
-                   [('Sign chart', 'signs/'), ('Import a sign list', 'signs/?import=1'), ('Jurisdiction map', 'map/'),
-                    ('Calculators and tools', 'tools/')])
+                   [('California MUTCD', 'ca-mutcd/'), ('Caltrans line types', 'markings/line-types/'),
+                    ('Sign legend from plan sheets', 'signs/?import=1'), ('Jurisdiction map', 'map/'), ('Calculators', 'tools/#calculators')])
     return (f'<nav class="home-tasks" aria-label="Start here">{cards}</nav>'
             f'<nav class="home-more" aria-label="More tools">{more}</nav>')
 
@@ -149,14 +149,16 @@ def home_tasks():
 def home_cad():
     """The three CAD libraries, each with a picture of a typical block."""
     cards = [('Sign blocks', 'signs/cad/', 'signs/R1-1.svg',
-              'Legend-cell sign blocks, a legend builder and a PDF sign chart'),
+              'Legend-cell sign blocks in FHWA lettering, a legend builder and a PDF sign chart'),
              ('Pavement markings', 'markings/cad/', 'block-previews/markings/cad/CT-A24C-BIKE-SYMBOL.svg',
               'Caltrans arrows, words, symbols and crosswalks at true size, striping details, LA plan blocks'),
              ('Signals and survey', 'signals/cad/', 'block-previews/signals/cad/SG-VEHICLE-HEAD-RYG-DYN.svg',
-              'Caltrans electrical symbols, LA signal plan blocks and survey symbols')]
+              'Caltrans electrical symbols, LA signal plan blocks and survey symbols'),
+             ('Make a block', 'cad/#make', 'block-previews/markings/cad/CT-A24E-ONLY.svg',
+              'Pavement text, crosswalks and bike crossings to your dimensions, as DWG')]
     body = ''.join(f'<a href="{BASE}/{url}"><img src="{BASE}/{img}" alt="" loading="lazy" /><strong>{escape(t)}</strong><span>{escape(d)}</span></a>'
                    for t, url, img, d in cards)
-    return ('<section class="home-cad" aria-labelledby="home-cad-title"><h2 id="home-cad-title">CAD blocks</h2>'
+    return ('<section class="home-cad" aria-labelledby="home-cad-title"><h2 id="home-cad-title"><a href="'+BASE+'/cad/">CAD</a></h2>'
             f'<div class="home-cad-grid">{body}</div></section>')
 
 

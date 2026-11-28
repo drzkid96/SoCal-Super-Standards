@@ -144,7 +144,8 @@ with TemporaryDirectory() as temp:
         assert len(browser.find_elements(By.CSS_SELECTOR,'.mfig-grid figure'))==2
         browser.get(base+'signs/r1-1/')
         sign_actions=wait.until(lambda d:d.find_elements(By.CSS_SELECTOR,'.sdetail .figure-actions button'))
-        assert {'Copy image','Sheet PDF','Page PDF','Copy citation'} <= {b.text for b in sign_actions if b.is_displayed()}
+        shown={b.text for b in sign_actions if b.is_displayed()}
+        assert {'Copy image','Sheet PDF','Copy citation'} <= shown and 'Page PDF' not in shown,shown   # the page offers its DWG, not a page PDF
         assert not browser.find_element(By.CSS_SELECTOR,'.sdetail .scode-big').is_displayed()
         browser.get(base+'signs/r3-1h/#sheet-view-1-2')
         assert wait.until(lambda d:d.find_element(By.ID,'sheet-view-1-2').is_displayed())
@@ -154,16 +155,13 @@ with TemporaryDirectory() as temp:
             controls=browser.find_element(By.CSS_SELECTOR,'.chart-size')
             for disclosure in controls.find_elements(By.XPATH,'ancestor::details[not(@open)]'):
                 disclosure.find_element(By.XPATH,'./summary').click()
-            selector=Select(controls.find_element(By.TAG_NAME,'select'))
             slider=controls.find_element(By.CSS_SELECTOR,'input[type=range]')
-            assert len(selector.options)>2
             slider.send_keys(Keys.HOME)
             grids=browser.find_elements(By.CSS_SELECTOR,groups)
             assert all(g.get_attribute('data-chart-level')=='0' for g in grids)
-            selector.select_by_index(1)
-            slider.send_keys(Keys.END)
+            slider.send_keys(Keys.END)          # one card size for the whole page
             levels={g.get_attribute('data-chart-level') for g in grids}
-            assert levels=={'0','6'}, (route,levels)
+            assert levels=={'6'}, (route,levels)
             browser.refresh()
             assert {g.get_attribute('data-chart-level') for g in browser.find_elements(By.CSS_SELECTOR,groups)}==levels
         browser.get(base+'ca-mutcd/9e/#fig-9e-3ca-sheet-7')

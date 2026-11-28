@@ -377,7 +377,8 @@ def build(root,lookup):
         page=root/(url.removeprefix(BASE+'/').rstrip('/')+'.md')
         if not page.exists():
             head=next(r for r in items if '#' not in r['url'])
-            page.write_text('---\ntitle: '+json.dumps(head['code']+' · '+head['status'])+'\ntableOfContents: false\n---\n')
+            shown=re.sub(r'^R2-1(\d{2})$',r'R2-1 (\1)',head['code'])     # plan callouts written R2-140 mean R2-1 (40)
+            page.write_text('---\ntitle: '+json.dumps(shown+' · '+head['status'])+'\ntableOfContents: false\n---\n')
         text = page.read_text()
         issued = next((r for r in items if r['official']), None)
         if issued:

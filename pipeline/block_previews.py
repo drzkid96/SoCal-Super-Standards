@@ -31,7 +31,8 @@ def convert(folder, out):
     subprocess.run(cmd, check=True, capture_output=True, timeout=1800)
 
 
-def draw(doc):
+def draw(doc, base=None, side=240, own_state=False):
+    """SVG of the drawing's block insert. base: (x, y) of the insertion point to mark (detail views only)."""
     msp = doc.modelspace()
     ext = bbox.extents(msp)
     if not ext.has_data:
@@ -50,15 +51,37 @@ def draw(doc):
             space.clear()
             for e in back + [e for e in items if e not in back]:
                 space.add(e)
+    for blk in doc.blocks:      # white paint (true color) plots black on the white picture, like ACI 7
+        for e in blk:
+            tc = e.dxf.get('true_color')
+            if tc is not None and min(ezdxf.colors.int2rgb(tc)) >= 235:
+                e.dxf.discard('true_color')
+                e.dxf.color = 7
     for blk in doc.blocks:      # helpers that never plot stay out of the picture
         for e in [e for e in blk if e.dxf.get('layer', '').upper() in ('NOPLOT', 'DEFPOINTS')]:
             blk.delete_entity(e)
+    if base is not None or own_state:   # the caller picked the state: drop the saved dynamic state
+        for e in msp:
+            if e.has_extension_dict:
+                e.discard_extension_dict()
+        for blk in doc.blocks:
+            if blk.block_record.has_extension_dict:
+                blk.block_record.discard_extension_dict()
+            for e in blk:             # AutoCAD hides the other states with the invisible flag
+                if e.dxf.get('invisible', 0):
+                    e.dxf.invisible = 0
+    if base is not None:          # plum ring and cross on the insertion point, sized to the block
+        ext = bbox.extents(msp)
+        r = 0.035 * max(ext.size.x, ext.size.y, 1e-6)
+        plum = {'true_color': ezdxf.colors.rgb2int((125, 60, 107)), 'lineweight': 50}
+        msp.add_circle(base, r, dxfattribs=plum)
+        msp.add_line((base[0] - 1.8 * r, base[1]), (base[0] + 1.8 * r, base[1]), dxfattribs=plum)
+        msp.add_line((base[0], base[1] - 1.8 * r), (base[0], base[1] + 1.8 * r), dxfattribs=plum)
     ext = bbox.extents(msp)
     backend = svg.SVGBackend()
     Frontend(RenderContext(doc), backend, config=cfg).draw_layout(msp)
     w, h = ext.size.x, ext.size.y
     w, h = max(w, 0.3 * h), max(h, 0.3 * w)  # keep thin symbols (single lines) readable
-    side = 240
     pad = 0.08 * max(w, h)
     page = layout.Page(side * (w + 2 * pad) / max(w + 2 * pad, h + 2 * pad), side * (h + 2 * pad) / max(w + 2 * pad, h + 2 * pad),
                        layout.Units.px, margins=layout.Margins.all(side * 0.04))

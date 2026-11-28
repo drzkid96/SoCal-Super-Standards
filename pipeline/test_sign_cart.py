@@ -167,6 +167,14 @@ def run(browser, base, downloads):
     rect = css('[data-cart-dialog]').rect
     assert rect['width'] <= width and rect['x'] >= 0, (width, rect)
     assert browser.execute_script('return document.documentElement.scrollWidth <= innerWidth'), width
+    def code_order(ids):
+        # the legend keeps sign-code order (R1-1, R1-2, R1-10P, R2-1 ...), the same rule as sign-cart.js
+        def natural(text):
+            return [(0, int(t), '') if t.isdigit() else (1, 0, t) for t in re.findall(r'\d+|[^\d]+', str(text).upper())]
+        def key(rid):
+            return natural(catalog[rid]['code']), natural(rid)
+        return sorted(ids, key=key)
+
     def ordered_slots():
         return browser.execute_script("return [...document.querySelectorAll('[data-legend-cell][data-record-id]')].map(cell => cell.dataset.recordId)")
 
@@ -188,12 +196,10 @@ def run(browser, base, downloads):
             (evidence/f'legend-{width}-{sum(len(keys) for _,keys in groups)}.zip').write_bytes(destination.read_bytes())
         check_zip(destination,groups,catalog)
 
-    click(css(f'[data-cart-earlier="{historic}"]'))
-    assert ordered_slots() == [historic,stop]
-    click(css(f'[data-cart-later="{historic}"]'))
-    assert ordered_slots() == [stop,historic]
+    assert not browser.find_elements(By.CSS_SELECTOR,'[data-cart-earlier],[data-cart-later]')   # order is automatic
+    assert ordered_slots() == code_order([stop,historic])
     groups = browser.execute_script('return window.SSSSignCart.getGroups()')
-    download([(groups[0]['label'],[stop,historic])])
+    download([(groups[0]['label'],code_order([stop,historic]))])
     click(css(f'[data-cart-remove="{historic}"]'))
     count(1)
     close()
@@ -211,17 +217,17 @@ def run(browser, base, downloads):
     groups = [{'sheetId':'ss-1','label':'SS-1','records':distinct},{'sheetId':'ss-2','label':'SS-2','records':[stop]}]
     browser.execute_async_script('const done=arguments[arguments.length-1];window.SSSSignCart.importGroups(arguments[0],{mode:"replace",open:true}).then(done);',groups)
     count(30)
-    assert ordered_slots() == distinct[:28]
+    assert ordered_slots() == code_order(distinct)[:28]
     assert len(browser.find_elements(By.CSS_SELECTOR,'[data-legend-cell]'))==28
     cells = browser.find_elements(By.CSS_SELECTOR,'[data-legend-cell]')
     assert cells[0].rect['x'] < cells[1].rect['x'] and cells[0].rect['y']==cells[1].rect['y']
     assert cells[2].rect['x']==cells[0].rect['x'] and cells[2].rect['y']>cells[0].rect['y']
     click(css('[data-legend-next]'))
-    assert ordered_slots()==distinct[28:] and 'SS-1' in css('[data-legend-caption]').text
+    assert ordered_slots()==code_order(distinct)[28:] and 'SS-1' in css('[data-legend-caption]').text
     click(css('[data-legend-next]'))
     assert ordered_slots()==[stop] and 'SS-2' in css('[data-legend-caption]').text
     if width>1000:
-        download([('SS-1',distinct),('SS-2',[stop])])
+        download([('SS-1',code_order(distinct)),('SS-2',[stop])])
     click(css('[data-cart-clear]'))
     close()
     browser.get(base+'tools/sign-import/')
@@ -246,8 +252,8 @@ def run(browser, base, downloads):
     click(browser.find_element(By.XPATH,'//button[.="Add selected DWGs"]'))
     wait.until(lambda _: 'cart=1' in browser.current_url and css('[data-cart-dialog]').is_displayed())
     imported = browser.execute_script('return window.SSSSignCart.getGroups()')
-    expected = [('SS-101',[stop,'official-callout-w48-2ca','3346-signs-1-13-1098640']),
-                ('SS-102',[stop,chosen_speed,'3346-signs-1-13-10980d1','official-callout-w48-2ca'])]
+    expected = [('SS-101',code_order([stop,'official-callout-w48-2ca','3346-signs-1-13-1098640'])),
+                ('SS-102',code_order([stop,chosen_speed,'3346-signs-1-13-10980d1','official-callout-w48-2ca']))]
     assert [(g['label'],g['records']) for g in imported] == expected
     count(7)
     download(expected)
