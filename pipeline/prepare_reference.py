@@ -1,6 +1,7 @@
 import re,json,html
 from pathlib import Path
 from sign_releases import prepare as prepare_fhwa_layouts
+import shs_layouts
 from boe_snapshot import CATALOG as BOE_CATALOG, restore as restore_boe
 from current_catalog import prepare as prepare_current
 from manual_art import illustration_url
@@ -70,6 +71,8 @@ for sign in load('data/signs/signs.json'):
  if sign['source'].startswith('FHWA') and sign.get('pdf_page'):
   href=shs+'#page='+str(sign['pdf_page'])
   layout='## Official sign layout\n\n<a href="'+href+'">Open the FHWA dimensioned drawing and fabrication notes for '+html.escape(sign['code'])+'</a>\n\n'
+  table=re.search(r'## Sizes and layout dimensions.*?(<table class="dims">.*?</table>)',s,re.S)
+  layout=shs_layouts.section(sign['slug'],sign['code'],table[1] if table else '',href) or layout
   if '## Sizes and layout' in s:s=re.sub(r'## Sizes and layout.*?(?=\n## |\n<!--|\Z)',lambda _:layout,s,flags=re.S)
   else:s=s.replace('## Governing sections',layout+'## Governing sections',1)
  path.write_text(s)

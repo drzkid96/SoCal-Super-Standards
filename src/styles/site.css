@@ -1325,3 +1325,6 @@ details.action-menu > .reference-actions > *{text-align:left;}
 .sl-markdown-content .block-card .block-actions button,.sl-markdown-content .block-card .block-actions a{flex:1;text-align:center;font-size:.78rem;font-weight:600;padding:.3rem .4rem;border:1px solid var(--sl-color-gray-4);border-radius:.3rem;background:var(--sl-color-bg);color:var(--sl-color-white);text-decoration:none;margin:0;line-height:1.2}
 .sl-markdown-content .block-card .block-actions a:hover,.sl-markdown-content .block-card .block-actions button:hover{border-color:var(--sl-color-accent)}
 .sl-markdown-content .block-card .block-place{display:none}
+.shs-fig { margin: 0 0 1rem; display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; }
+.shs-fig a { flex: 1 1 280px; max-width: 520px; background: #fff; border: 1px solid var(--sl-color-gray-5); border-radius: 8px; padding: .5rem; }
+.shs-fig img { width: 100%; height: auto; display: block; }

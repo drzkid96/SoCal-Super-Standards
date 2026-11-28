@@ -9,6 +9,7 @@ __pycache__/
 
 .fhwa-releases/
 public/figs/fhwa-shs/
+public/figs/shs/
 
 .manual-art/
 public/data/search-catalog.json
