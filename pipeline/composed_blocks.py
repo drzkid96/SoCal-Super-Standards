@@ -1,6 +1,6 @@
 """Marking blocks composed from measured plan geometry or from published Caltrans word blocks.
 
-Green bike crossing dashes (PM-BIKE-XING-GREEN-<width>): the Westwood signing and striping plan
+Green bike crossing dashes (PM-BIKE-XING-GREEN-<width>): an LA signing and striping plan
 draws its intersection bike crossings as 2 ft green dashes, one per lane width, with the bike lane
 line segment on each edge, repeated every 8 ft along the path. One dash per lane width is published;
 array it along the crossing path at 8 ft (ARRAYPATH).
@@ -28,7 +28,7 @@ from sign_cells import r2000_document
 
 ROUTE = 'markings/cad'
 OUT = Path('public/downloads') / ROUTE
-XING_WIDTHS = (5, 6, 6.5, 7, 8)       # lane widths drawn in the Westwood plan
+XING_WIDTHS = (5, 6, 6.5, 7, 8)       # lane widths drawn in the source plan
 DASH, REPEAT = 2.0, 8.0
 LEGENDS = [('PM-KEEP-CLEAR', ('CT-A24E-KEEP', 'CT-A24E-CLEAR'), 'KEEP CLEAR'),
            ('PM-BUS-ONLY', ('CT-A24E-BUS', 'CT-A24E-ONLY'), 'BUS ONLY'),
@@ -82,7 +82,7 @@ def build(libredwg):
             doc = r2000_document()
             crossing(doc, code, w)
             plan_blocks.write_static(doc, [code], OUT / (code + '.dwg'), libredwg, tmp)
-            rows.append({'code': code, 'name': f'Green bike crossing dash, {w:g} ft bike lane; 2 ft dash, repeat every 8 ft · LA plan library (Westwood)',
+            rows.append({'code': code, 'name': f'Green bike crossing dash, {w:g} ft bike lane; 2 ft dash, repeat every 8 ft · LA plan library',
                          'file': code + '.dwg', 'group': 'Bicycle markings', 'size': [w, DASH]})
         for code, words, text in LEGENDS:
             doc = r2000_document()

@@ -24,7 +24,7 @@
     "blocks": [
       {
         "code": "CT-A24A-TYPE-I-10FT",
-        "name": "Type I arrow, 10 ft \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through arrow, 10 ft \u00b7 Caltrans Std. Plan A24A Type I (2026)",
         "file": "CT-A24A-TYPE-I-10FT.dwg",
         "group": "Arrows",
         "size": [
@@ -38,7 +38,7 @@
       },
       {
         "code": "CT-A24A-TYPE-I-24FT",
-        "name": "Type I arrow, 24 ft \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through arrow, 24 ft \u00b7 Caltrans Std. Plan A24A Type I (2026)",
         "file": "CT-A24A-TYPE-I-24FT.dwg",
         "group": "Arrows",
         "size": [
@@ -52,7 +52,7 @@
       },
       {
         "code": "CT-A24A-TYPE-IV-L",
-        "name": "Type IV (L) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Left turn arrow \u00b7 Caltrans Std. Plan A24A Type IV (2026)",
         "file": "CT-A24A-TYPE-IV-L.dwg",
         "group": "Arrows",
         "size": [
@@ -66,7 +66,7 @@
       },
       {
         "code": "CT-A24A-TYPE-IV-R",
-        "name": "Type IV (R) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Right turn arrow \u00b7 Caltrans Std. Plan A24A Type IV (2026)",
         "file": "CT-A24A-TYPE-IV-R.dwg",
         "group": "Arrows",
         "size": [
@@ -80,7 +80,7 @@
       },
       {
         "code": "CT-A24A-TYPE-VI",
-        "name": "Type VI arrow, right lane drop \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Lane drop arrow, right lane \u00b7 Caltrans Std. Plan A24A Type VI (2026)",
         "file": "CT-A24A-TYPE-VI.dwg",
         "group": "Arrows",
         "size": [
@@ -94,7 +94,7 @@
       },
       {
         "code": "CT-A24A-TYPE-VI-MIRROR",
-        "name": "Type VI arrow, right lane drop, mirrored for the left lane \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Lane drop arrow, left lane \u00b7 Caltrans Std. Plan A24A Type VI (2026)",
         "file": "CT-A24A-TYPE-VI-MIRROR.dwg",
         "group": "Arrows",
         "size": [
@@ -108,7 +108,7 @@
       },
       {
         "code": "CT-A24A-TYPE-VIII",
-        "name": "Type VIII arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through, left and right arrow \u00b7 Caltrans Std. Plan A24A Type VIII (2026)",
         "file": "CT-A24A-TYPE-VIII.dwg",
         "group": "Arrows",
         "size": [
@@ -122,7 +122,7 @@
       },
       {
         "code": "CT-A24A-TYPE-I-18FT",
-        "name": "Type I arrow, 18 ft \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through arrow, 18 ft \u00b7 Caltrans Std. Plan A24A Type I (2026)",
         "file": "CT-A24A-TYPE-I-18FT.dwg",
         "group": "Arrows",
         "size": [
@@ -164,7 +164,7 @@
       },
       {
         "code": "CT-A24A-TYPE-VII-L",
-        "name": "Type VII (L) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through and left arrow \u00b7 Caltrans Std. Plan A24A Type VII (2026)",
         "file": "CT-A24A-TYPE-VII-L.dwg",
         "group": "Arrows",
         "size": [
@@ -178,7 +178,7 @@
       },
       {
         "code": "CT-A24A-TYPE-VII-R",
-        "name": "Type VII (R) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through and right arrow \u00b7 Caltrans Std. Plan A24A Type VII (2026)",
         "file": "CT-A24A-TYPE-VII-R.dwg",
         "group": "Arrows",
         "size": [
@@ -192,7 +192,7 @@
       },
       {
         "code": "CT-A24B-RXR",
-        "name": "Railroad crossing symbol \u00b7 Caltrans Std. Plan A24B (2026)",
+        "name": "Railroad crossing marking \u00b7 Caltrans Std. Plan A24B (2026)",
         "file": "CT-A24B-RXR.dwg",
         "group": "Words and symbols",
         "size": [
@@ -304,7 +304,7 @@
       },
       {
         "code": "CT-A24C-BIKE-SYMBOL-PERSON",
-        "name": "Bike lane symbol with person \u00b7 Caltrans Std. Plan A24C (2026)",
+        "name": "Bike lane symbol with rider \u00b7 Caltrans Std. Plan A24C (2026)",
         "file": "CT-A24C-BIKE-SYMBOL-PERSON.dwg",
         "group": "Bicycle markings",
         "size": [
@@ -318,7 +318,7 @@
       },
       {
         "code": "CT-A24C-ISA",
-        "name": "International Symbol of Accessibility (ISA) marking \u00b7 Caltrans Std. Plan A24C (2026)",
+        "name": "Accessible parking symbol \u00b7 Caltrans Std. Plan A24C (2026)",
         "file": "CT-A24C-ISA.dwg",
         "group": "Words and symbols",
         "size": [
@@ -332,7 +332,7 @@
       },
       {
         "code": "CT-A24C-DIAMOND",
-        "name": "Diamond symbol \u00b7 Caltrans Std. Plan A24C (2026)",
+        "name": "Preferential lane diamond \u00b7 Caltrans Std. Plan A24C (2026)",
         "file": "CT-A24C-DIAMOND.dwg",
         "group": "Words and symbols",
         "size": [
@@ -346,7 +346,7 @@
       },
       {
         "code": "CT-A24C-SHARROW",
-        "name": "Shared roadway bicycle marking \u00b7 Caltrans Std. Plan A24C (2026)",
+        "name": "Shared lane marking (sharrow) \u00b7 Caltrans Std. Plan A24C (2026)",
         "file": "CT-A24C-SHARROW.dwg",
         "group": "Bicycle markings",
         "size": [
@@ -925,30 +925,6 @@
         ],
         "source": "LA signing and striping plan library",
         "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)"
-      },
-      {
-        "code": "PM-BIKE-ARROW-LEFT-THRU",
-        "name": "Bike lane left and through arrow \u00b7 LA signing and striping plan library",
-        "file": "PM-BIKE-ARROW-LEFT-THRU.dwg",
-        "group": "Bicycle markings",
-        "size": [
-          2.49,
-          4.39
-        ],
-        "source": "LA signing and striping plan library",
-        "placement": "Base on the bike lane line at the symbol's upstream edge; centered in a 5 ft bike lane (CA MUTCD 9E.04)"
-      },
-      {
-        "code": "PM-BIKE-LANE-SYMBOL-GREEN",
-        "name": "Bike lane symbol and arrow on green, 7 x 25 ft \u00b7 LA signing and striping plan library",
-        "file": "PM-BIKE-LANE-SYMBOL-GREEN.dwg",
-        "group": "Bicycle markings",
-        "size": [
-          7.0,
-          25.0
-        ],
-        "source": "LA signing and striping plan library",
-        "placement": "Base at the upstream corner on the bike lane line; the width grows toward the curb"
       },
       {
         "code": "CT-DET-1",
@@ -1550,7 +1526,7 @@
         "area": 66.0,
         "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
         "sheet": "A24F",
-        "placement": "Base at the curb corner on the near crosswalk line"
+        "placement": "Base at the curb corner on the near crosswalk edge; the pattern starts with a 1 ft gap at the curb, then a bar"
       },
       {
         "code": "CT-A24F-TRIPLE-FOUR",
@@ -1564,7 +1540,7 @@
         "area": 96.0,
         "source": "https://dot.ca.gov/programs/design/2026-ccs-standard-plans-and-standard-specifications/individual-standard-plans-in-dgn-format-2026-standards",
         "sheet": "A24F",
-        "placement": "Base at the curb corner on the near crosswalk line"
+        "placement": "Base at the curb corner on the near crosswalk edge; the pattern starts with a 2 ft gap at the curb, then a bar"
       },
       {
         "code": "CT-A24F-LADDER",
@@ -1610,7 +1586,7 @@
       },
       {
         "code": "PM-BIKE-XING-GREEN-5FT",
-        "name": "Green bike crossing dash, 5 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library (Westwood)",
+        "name": "Green bike crossing dash, 5 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library",
         "file": "PM-BIKE-XING-GREEN-5FT.dwg",
         "group": "Bicycle markings",
         "size": [
@@ -1621,7 +1597,7 @@
       },
       {
         "code": "PM-BIKE-XING-GREEN-6FT",
-        "name": "Green bike crossing dash, 6 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library (Westwood)",
+        "name": "Green bike crossing dash, 6 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library",
         "file": "PM-BIKE-XING-GREEN-6FT.dwg",
         "group": "Bicycle markings",
         "size": [
@@ -1632,7 +1608,7 @@
       },
       {
         "code": "PM-BIKE-XING-GREEN-6P5FT",
-        "name": "Green bike crossing dash, 6.5 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library (Westwood)",
+        "name": "Green bike crossing dash, 6.5 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library",
         "file": "PM-BIKE-XING-GREEN-6P5FT.dwg",
         "group": "Bicycle markings",
         "size": [
@@ -1643,7 +1619,7 @@
       },
       {
         "code": "PM-BIKE-XING-GREEN-7FT",
-        "name": "Green bike crossing dash, 7 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library (Westwood)",
+        "name": "Green bike crossing dash, 7 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library",
         "file": "PM-BIKE-XING-GREEN-7FT.dwg",
         "group": "Bicycle markings",
         "size": [
@@ -1654,7 +1630,7 @@
       },
       {
         "code": "PM-BIKE-XING-GREEN-8FT",
-        "name": "Green bike crossing dash, 8 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library (Westwood)",
+        "name": "Green bike crossing dash, 8 ft bike lane; 2 ft dash, repeat every 8 ft \u00b7 LA plan library",
         "file": "PM-BIKE-XING-GREEN-8FT.dwg",
         "group": "Bicycle markings",
         "size": [
@@ -1698,110 +1674,112 @@
       },
       {
         "code": "PM-YIELD-LINE-DYN",
-        "name": "Yield line; linear grip sets the length, triangles repeat \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Yield line; linear grip sets the length, triangles repeat \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-YIELD-LINE-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-THRU-LEFT-ARROW-DYN",
-        "name": "Through and left arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Through and left arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-THRU-LEFT-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-ARROW-SET-DYN",
-        "name": "Arrow set; visibility picks the arrow, five flip grips \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Arrow set; visibility picks the arrow, five flip grips \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-ARROW-SET-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-BIKE-LANE-GREEN-DYN",
-        "name": "Green bike lane panel, 7 x 25 ft, bike symbol and arrow; rotation \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Green bike lane panel, 7 x 25 ft, bike symbol and arrow; rotation \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-BIKE-LANE-GREEN-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-BIKE-LEFT-THRU-ARROW-DYN",
-        "name": "Bike left and through arrow; rotation \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Bike left and through arrow; rotation \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-BIKE-LEFT-THRU-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-BIKE-LANE-GREEN-5FT-DYN",
-        "name": "Green bike lane panels, 5 x 50 ft, two bike symbols and arrows \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Green bike lane panels, 5 x 50 ft, two bike symbols and arrows \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-BIKE-LANE-GREEN-5FT-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-LEFT-TURN-CALMING-10FT",
-        "name": "Left turn calming curb, 10 ft \u00b7 LA plan library (Westwood)",
+        "name": "Left turn calming curb, 10 ft \u00b7 LA plan library",
         "file": "PM-LEFT-TURN-CALMING-10FT.dwg",
-        "group": "Raised elements"
+        "group": "Raised elements",
+        "placement": "Base at the upstream end, centered on the element; snap to the centerline or the left turn path"
       },
       {
         "code": "PM-LEFT-TURN-CALMING-3FT",
-        "name": "Left turn calming bump, 3 ft \u00b7 LA plan library (Westwood)",
+        "name": "Left turn calming bump, 3 ft \u00b7 LA plan library",
         "file": "PM-LEFT-TURN-CALMING-3FT.dwg",
-        "group": "Raised elements"
+        "group": "Raised elements",
+        "placement": "Base at the upstream end, centered on the element; snap to the centerline or the left turn path"
       },
       {
         "code": "PM-CURB-STOP-DYN",
-        "name": "Curb stop (wheel stop), 6 ft \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Curb stop (wheel stop), 6 ft \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-CURB-STOP-DYN.dwg",
         "group": "Raised elements",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-LEFT-ARROW-DYN",
-        "name": "Left turn arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Left turn arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-LEFT-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-RIGHT-ARROW-DYN",
-        "name": "Right turn arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Right turn arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-RIGHT-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-LEFT-RIGHT-ARROW-DYN",
-        "name": "Left and right arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Left and right arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-LEFT-RIGHT-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-THRU-ARROW-DYN",
-        "name": "Through arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Through arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-THRU-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-THRU-RIGHT-ARROW-DYN",
-        "name": "Through and right arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Through and right arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-THRU-RIGHT-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-MERGE-ARROW-DYN",
-        "name": "Lane reduction (merge) arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Lane reduction (merge) arrow; existing, remove and proposed states \u00b7 dynamic \u00b7 LA plan library",
         "file": "PM-MERGE-ARROW-DYN.dwg",
         "group": "Dynamic blocks",
         "dynamic": "Dynamic block"
       },
       {
         "code": "PM-LANE-DEFENDER-15FT",
-        "name": "Lane defender, 15 ft \u00b7 LA plan library (Westwood)",
+        "name": "Lane defender, 15 ft \u00b7 LA plan library",
         "file": "PM-LANE-DEFENDER-15FT.dwg",
         "group": "Raised elements"
       }
@@ -3540,612 +3518,606 @@
       },
       {
         "code": "SG-STANDARD-DYN",
-        "name": "Signal standard \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Signal standard \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-STANDARD-DYN.dwg",
         "group": "Poles and mast arms",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-STANDARD-T3-DYN",
-        "name": "Signal standard, T3 \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Signal standard, T3 \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-STANDARD-T3-DYN.dwg",
         "group": "Poles and mast arms",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-STANDARD-T5-DYN",
-        "name": "Signal standard, T5 \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Signal standard, T5 \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-STANDARD-T5-DYN.dwg",
         "group": "Poles and mast arms",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-PUSH-BUTTON-POST-DYN",
-        "name": "Push button post \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Push button post \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-PUSH-BUTTON-POST-DYN.dwg",
         "group": "Poles and mast arms",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-PED-PUSH-BUTTON-DYN",
-        "name": "Pedestrian push button \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Pedestrian push button \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-PED-PUSH-BUTTON-DYN.dwg",
         "group": "Poles and mast arms",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-VEHICLE-HEAD-RYG-DYN",
-        "name": "Vehicle signal head, red, yellow and green \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Vehicle signal head, red, yellow and green \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-VEHICLE-HEAD-RYG-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-VEHICLE-HEAD-RYG-ARROWS-DYN",
-        "name": "Vehicle signal head, red, yellow and green arrows \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Vehicle signal head, red, yellow and green arrows \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-VEHICLE-HEAD-RYG-ARROWS-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-VEHICLE-HEAD-R-YG-ARROWS-DYN",
-        "name": "Vehicle signal head, red ball with yellow and green arrows \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Vehicle signal head, red ball with yellow and green arrows \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-VEHICLE-HEAD-R-YG-ARROWS-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-VEHICLE-HEAD-GREEN-UP-ARROW-DYN",
-        "name": "Vehicle signal head with green up arrow \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Vehicle signal head with green up arrow \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-VEHICLE-HEAD-GREEN-UP-ARROW-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-YG-ARROW-SECTIONS-DYN",
-        "name": "Yellow and green arrow sections \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Yellow and green arrow sections \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-YG-ARROW-SECTIONS-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-GREEN-ARROW-SECTION-DYN",
-        "name": "Green arrow section \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Green arrow section \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-GREEN-ARROW-SECTION-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-RYG-LOUVERED-DYN",
-        "name": "Louvered red, yellow and green head \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Louvered red, yellow and green head \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-RYG-LOUVERED-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LONG-VISOR-DYN",
-        "name": "Long visor \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Long visor \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LONG-VISOR-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-BEVEL-VISOR-DYN",
-        "name": "Bevel visor \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Bevel visor \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-BEVEL-VISOR-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-PED-HEAD-DYN",
-        "name": "Pedestrian signal head \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Pedestrian signal head \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-PED-HEAD-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-FLASHING-BEACON-DYN",
-        "name": "Flashing beacon \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Flashing beacon \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-FLASHING-BEACON-DYN.dwg",
         "group": "Signal heads",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LOOP-6FT-DYN",
-        "name": "Loop detector, 6 ft round \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Loop detector, 6 ft round \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LOOP-6FT-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LOOP-6FT-PAIR-DYN",
-        "name": "Loop detectors, 6 ft round pair \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Loop detectors, 6 ft round pair \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LOOP-6FT-PAIR-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LOOP-6FT-OCTAGON-DYN",
-        "name": "Loop detector, 6 ft octagon \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Loop detector, 6 ft octagon \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LOOP-6FT-OCTAGON-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LOOP-6FT-OCTAGON-PAIR-DYN",
-        "name": "Loop detectors, 6 ft octagon pair \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Loop detectors, 6 ft octagon pair \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LOOP-6FT-OCTAGON-PAIR-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LOOP-6FT-NON-BIKE-PAIR-DYN",
-        "name": "Loop detectors, 6 ft pair, not bicycle \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Loop detectors, 6 ft pair, not bicycle \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LOOP-6FT-NON-BIKE-PAIR-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LOOP-6FT-COMBO-BIKE-DYN",
-        "name": "Loop detector, 6 ft combination bicycle \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Loop detector, 6 ft combination bicycle \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LOOP-6FT-COMBO-BIKE-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LOOP-3FT-BIKE-DYN",
-        "name": "Bicycle loop detector, 3 ft \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Bicycle loop detector, 3 ft \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LOOP-3FT-BIKE-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LOOP-3FT-BIKE-PAIR-DYN",
-        "name": "Bicycle loop detectors, 3 ft pair \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Bicycle loop detectors, 3 ft pair \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LOOP-3FT-BIKE-PAIR-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LOOP-8X6FT-OCTAGON-DYN",
-        "name": "Loop detector, 8 x 6 ft octagon \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Loop detector, 8 x 6 ft octagon \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LOOP-8X6FT-OCTAGON-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LOOP-TRANSIT-DYN",
-        "name": "Transit loop detector \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Transit loop detector \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LOOP-TRANSIT-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-VIDEO-CAMERA-DYN",
-        "name": "Video camera \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Video camera \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-VIDEO-CAMERA-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-VIDEO-DETECTOR-DYN",
-        "name": "Video detection camera \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Video detection camera \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-VIDEO-DETECTOR-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-OVERHEAD-DETECTOR-DYN",
-        "name": "Overhead detector \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Overhead detector \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-OVERHEAD-DETECTOR-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-OPTICAL-DETECTOR-DYN",
-        "name": "Optical (emergency vehicle) detector \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Optical (emergency vehicle) detector \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-OPTICAL-DETECTOR-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-PHOTO-ENFORCEMENT-CAMERA-DYN",
-        "name": "Photo enforcement camera \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Photo enforcement camera \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-PHOTO-ENFORCEMENT-CAMERA-DYN.dwg",
         "group": "Detection",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-CONTROLLER-DYN",
-        "name": "Controller cabinet \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Controller cabinet \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-CONTROLLER-DYN.dwg",
         "group": "Cabinets and conduit",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-COMMUNICATION-CABINET-DYN",
-        "name": "Communication cabinet \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Communication cabinet \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-COMMUNICATION-CABINET-DYN.dwg",
         "group": "Cabinets and conduit",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-VIDEO-CAMERA-CABINET-DYN",
-        "name": "Video camera cabinet \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Video camera cabinet \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-VIDEO-CAMERA-CABINET-DYN.dwg",
         "group": "Cabinets and conduit",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-FIBER-SPLICE-VAULT-DYN",
-        "name": "Fiber splice vault \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Fiber splice vault \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-FIBER-SPLICE-VAULT-DYN.dwg",
         "group": "Cabinets and conduit",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-PULL-BOX-2-DYN",
-        "name": "Pull box, symbol 2 \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Pull box, symbol 2 \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-PULL-BOX-2-DYN.dwg",
         "group": "Cabinets and conduit",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-PULL-BOX-3-DYN",
-        "name": "Pull box, symbol 3 \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Pull box, symbol 3 \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-PULL-BOX-3-DYN.dwg",
         "group": "Cabinets and conduit",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-CONDUIT-BREAK",
-        "name": "Conduit break \u00b7 LA plan library (Westwood)",
+        "name": "Conduit break \u00b7 LA plan library",
         "file": "SG-CONDUIT-BREAK.dwg",
         "group": "Cabinets and conduit"
       },
       {
         "code": "SG-LUMINAIRE-DYN",
-        "name": "Luminaire \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Luminaire \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LUMINAIRE-DYN.dwg",
         "group": "Lighting",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LUMINAIRE-ARM-DYN",
-        "name": "Luminaire with arm \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Luminaire with arm \u00b7 dynamic \u00b7 LA plan library",
         "file": "SG-LUMINAIRE-ARM-DYN.dwg",
         "group": "Lighting",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SG-LUMINAIRE-NO-ARM-E",
-        "name": "Existing luminaire without arm \u00b7 LA plan library (Westwood)",
+        "name": "Existing luminaire without arm \u00b7 LA plan library",
         "file": "SG-LUMINAIRE-NO-ARM-E.dwg",
         "group": "Lighting"
       },
       {
-        "code": "SG-ELECTROLIER-E",
-        "name": "Existing electrolier \u00b7 LA plan library (Westwood)",
-        "file": "SG-ELECTROLIER-E.dwg",
-        "group": "Lighting"
-      },
-      {
         "code": "SG-NOTE-FLAG",
-        "name": "Note flag with attribute \u00b7 LA plan library (Westwood)",
+        "name": "Note flag with attribute \u00b7 LA plan library",
         "file": "SG-NOTE-FLAG.dwg",
         "group": "Annotation"
       },
       {
         "code": "SG-NOTE-BOX",
-        "name": "Boxed note with attribute \u00b7 LA plan library (Westwood)",
+        "name": "Boxed note with attribute \u00b7 LA plan library",
         "file": "SG-NOTE-BOX.dwg",
         "group": "Annotation"
       },
       {
         "code": "SG-NOTE-STANDARD-NUMBER",
-        "name": "Standard number circle with attribute \u00b7 LA plan library (Westwood)",
+        "name": "Standard number circle with attribute \u00b7 LA plan library",
         "file": "SG-NOTE-STANDARD-NUMBER.dwg",
         "group": "Annotation"
       },
       {
         "code": "SN-SIGN-POST-DYN",
-        "name": "Sign and post \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Sign and post \u00b7 dynamic \u00b7 LA plan library",
         "file": "SN-SIGN-POST-DYN.dwg",
         "group": "Sign posts",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SN-SIGN-DYN",
-        "name": "Sign (face line) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Sign (face line) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SN-SIGN-DYN.dwg",
         "group": "Sign posts",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-POWER-POLE-DYN",
-        "name": "Power pole \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Power pole \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-POWER-POLE-DYN.dwg",
         "group": "Existing and site features",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-POWER-POLE-GUY-ANCHOR-DYN",
-        "name": "Power pole with guy anchor \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Power pole with guy anchor \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-POWER-POLE-GUY-ANCHOR-DYN.dwg",
         "group": "Existing and site features",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-FIRE-HYDRANT-DYN",
-        "name": "Fire hydrant \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Fire hydrant \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-FIRE-HYDRANT-DYN.dwg",
         "group": "Existing and site features",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-VALVE-DYN",
-        "name": "Valve \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Valve \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-VALVE-DYN.dwg",
         "group": "Existing and site features",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-METER-DYN",
-        "name": "Meter \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Meter \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-METER-DYN.dwg",
         "group": "Existing and site features",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-MAILBOX-DYN",
-        "name": "Mailbox \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Mailbox \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-MAILBOX-DYN.dwg",
         "group": "Existing and site features",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-BUS-BENCH-DYN",
-        "name": "Bus bench \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Bus bench \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-BUS-BENCH-DYN.dwg",
         "group": "Existing and site features",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-NEWS-RACK-DYN",
-        "name": "News rack \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "News rack \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-NEWS-RACK-DYN.dwg",
         "group": "Existing and site features",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-BIKE-RACK-DYN",
-        "name": "Bike rack \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Bike rack \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-BIKE-RACK-DYN.dwg",
         "group": "Existing and site features",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-PALM-TREE-DYN",
-        "name": "Palm tree \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Palm tree \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-PALM-TREE-DYN.dwg",
         "group": "Existing and site features",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-TREE-E",
-        "name": "Existing tree \u00b7 LA plan library (Westwood)",
+        "name": "Existing tree \u00b7 LA plan library",
         "file": "SV-TREE-E.dwg",
         "group": "Existing and site features"
       },
       {
         "code": "SV-WATER-VALVE",
-        "name": "Water valve (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Water valve (survey) \u00b7 LA plan library",
         "file": "SV-WATER-VALVE.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-GAS-VALVE",
-        "name": "Gas valve (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Gas valve (survey) \u00b7 LA plan library",
         "file": "SV-GAS-VALVE.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-IRRIGATION-CONTROL-VALVE",
-        "name": "Irrigation control valve (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Irrigation control valve (survey) \u00b7 LA plan library",
         "file": "SV-IRRIGATION-CONTROL-VALVE.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-POST-INDICATOR-VALVE",
-        "name": "Post indicator valve (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Post indicator valve (survey) \u00b7 LA plan library",
         "file": "SV-POST-INDICATOR-VALVE.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-BACKFLOW-PREVENTER-DYN",
-        "name": "Backflow preventer (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Backflow preventer (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-BACKFLOW-PREVENTER-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-WATER-METER-DYN",
-        "name": "Water meter (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Water meter (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-WATER-METER-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-GAS-METER-DYN",
-        "name": "Gas meter (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Gas meter (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-GAS-METER-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-PARKING-METER-DYN",
-        "name": "Parking meter (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Parking meter (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-PARKING-METER-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-MANHOLE-DYN",
-        "name": "Manhole (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Manhole (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-MANHOLE-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-MANHOLE-STORM-DRAIN",
-        "name": "Storm drain manhole (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Storm drain manhole (survey) \u00b7 LA plan library",
         "file": "SV-MANHOLE-STORM-DRAIN.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-MANHOLE-SEWER",
-        "name": "Sanitary sewer manhole (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Sanitary sewer manhole (survey) \u00b7 LA plan library",
         "file": "SV-MANHOLE-SEWER.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-MANHOLE-ELECTRIC",
-        "name": "Electric manhole (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Electric manhole (survey) \u00b7 LA plan library",
         "file": "SV-MANHOLE-ELECTRIC.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-MANHOLE-TELEPHONE",
-        "name": "Telephone manhole (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Telephone manhole (survey) \u00b7 LA plan library",
         "file": "SV-MANHOLE-TELEPHONE.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-MANHOLE-WATER",
-        "name": "Water manhole (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Water manhole (survey) \u00b7 LA plan library",
         "file": "SV-MANHOLE-WATER.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-MANHOLE-UNKNOWN",
-        "name": "Unknown manhole (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Unknown manhole (survey) \u00b7 LA plan library",
         "file": "SV-MANHOLE-UNKNOWN.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-SEWER-CLEANOUT",
-        "name": "Sewer cleanout (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Sewer cleanout (survey) \u00b7 LA plan library",
         "file": "SV-SEWER-CLEANOUT.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-MONITORING-WELL",
-        "name": "Monitoring well (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Monitoring well (survey) \u00b7 LA plan library",
         "file": "SV-MONITORING-WELL.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-WELL",
-        "name": "Well (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Well (survey) \u00b7 LA plan library",
         "file": "SV-WELL.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-VENT",
-        "name": "Vent (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Vent (survey) \u00b7 LA plan library",
         "file": "SV-VENT.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-ELECTRIC-OUTLET",
-        "name": "Electric outlet (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Electric outlet (survey) \u00b7 LA plan library",
         "file": "SV-ELECTRIC-OUTLET.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-UTILITY-POLE-DYN",
-        "name": "Utility pole (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Utility pole (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-UTILITY-POLE-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-GUY-WIRE-DYN",
-        "name": "Guy wire (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Guy wire (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-GUY-WIRE-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-POLE-DYN",
-        "name": "Pole (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Pole (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-POLE-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-LIGHT-POLE-DYN",
-        "name": "Light pole (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Light pole (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-LIGHT-POLE-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-STREET-LIGHT-DYN",
-        "name": "Street light (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Street light (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-STREET-LIGHT-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-TRAFFIC-SIGNAL-BASE",
-        "name": "Traffic signal pole base (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Traffic signal pole base (survey) \u00b7 LA plan library",
         "file": "SV-TRAFFIC-SIGNAL-BASE.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-RAILROAD-SIGN",
-        "name": "Railroad crossing sign (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Railroad crossing sign (survey) \u00b7 LA plan library",
         "file": "SV-RAILROAD-SIGN.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-SIGN-DYN",
-        "name": "Sign (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Sign (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-SIGN-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-TREE-DYN",
-        "name": "Tree (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Tree (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-TREE-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-TREE-PALM",
-        "name": "Palm tree (survey) \u00b7 LA plan library (Westwood)",
+        "name": "Palm tree (survey) \u00b7 LA plan library",
         "file": "SV-TREE-PALM.dwg",
         "group": "Survey symbols"
       },
       {
         "code": "SV-TREE-PINE-DYN",
-        "name": "Pine tree (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Pine tree (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-TREE-PINE-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-TREE-STUMP-DYN",
-        "name": "Tree stump (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Tree stump (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-TREE-STUMP-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"
       },
       {
         "code": "SV-SHRUB-DYN",
-        "name": "Shrub (survey) \u00b7 dynamic \u00b7 LA plan library (Westwood)",
+        "name": "Shrub (survey) \u00b7 dynamic \u00b7 LA plan library",
         "file": "SV-SHRUB-DYN.dwg",
         "group": "Survey symbols",
         "dynamic": "Dynamic block"

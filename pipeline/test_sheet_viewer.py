@@ -105,6 +105,8 @@ with TemporaryDirectory() as temp:
         sheet_pdf=wait.until(lambda d:d.find_element(By.XPATH,'//figure[@id="sheet-1"]//button[text()="Sheet PDF"]'))
         browser.execute_script("const m=arguments[0].closest('details.action-menu');if(m)m.open=true",sheet_pdf)
         sheet_pdf.click()
+        assert 'Click again' in sheet_pdf.text   # downloads take two clicks
+        sheet_pdf.click()
         filename=wait.until(lambda d:d.execute_script('return window.sheetFilename'))
         assert filename.endswith('_MPP_531_S_481_0_SHEET_1.pdf'),filename
         browser.get(base+'santa-monica/standard-plans/#sheet-ttcp-requirements-6')

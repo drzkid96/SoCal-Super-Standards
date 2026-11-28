@@ -150,26 +150,28 @@ Order after any block change: builder(s) → `cad_normalize.py` → `block_libra
   panel, limit line; LADOT dots hatch at scale 10 as on the Westwood plans).
 - Browser-combined blocks are AutoCAD 2000 and static; the script reinserts the originals for grips.
 
-## Dynamic families: `dynamic_families.py` and `SSS-DYNBUILD.lsp`
+## Dynamic families: `dynamic_families.py`, `dynamic_source.py` and `SSS-DYNBUILD.lsp` (v2)
 
 How dynamic blocks are made and kept up:
-- A family merges published variants that share one placement rule (all lane arrows, all words, the
-  crossing dash widths, crosswalk types, each sign's left and right versions, R2-1 speeds). Never mix
-  rules: one base point serves every state.
-- `python3 pipeline/dynamic_families.py` writes the family list (`data/reference/dynamic-families.json`).
-  The site build packs `SSS-DYNBUILD.zip` (routine, manifest CSV, every state drawing).
-- In AutoCAD: unzip, new drawing in feet, APPLOAD `SSS-DYNBUILD.lsp`, `SSSDYNTEST` (one family), then
-  `SSSDYNBUILD`. For each family it inserts every state at 0,0, tags each state by a temporary layer,
-  makes the block, then in the block editor adds one visibility parameter (one state per variant),
-  a rotation parameter and flip X and flip Y parameters at 0,0, each with its action on all geometry,
-  restores layer 0 and NOPLOT, saves and WBLOCKs `OUT\<family>.dwg`. Log: `OUT\SSS-DYNBUILD.log`.
-- Publish: upload the OUT folder; files are published byte for byte (never re-encoded), checked by
-  ODA read-back for native evaluation graphs (as `plan_blocks.write` does).
-- Maintain: change a variant (rebuild it, normalize it), or add a family row in `dynamic_families.py`,
-  then rerun SSSDYNBUILD for that family only (delete the other rows from the CSV).
-- Only AutoCAD writes dynamic block objects reliably. ODA keeps them byte for byte when cutting and
-  converting (proxy round trip), which is how the Westwood dynamic blocks are published; it cannot
-  author new parameters.
+- A family merges published variants that share one placement rule (all lane arrows, all words, each
+  sign's directions, R2-1 speeds, Caltrans ES-1 new and existing pairs). Never mix rules: one base point
+  serves every state. Every other static marking and signal block is a family of one (rotation only).
+- Markings carry three conditions per variant (LADOT Drafting Standards for Striping and Signal Plans,
+  2005, p. 10): PROPOSED filled, EXISTING outline only, REMOVE dashed outline.
+- Array families (`ARRAYS`): crosswalks (Caltrans A24F basic, continental, ladder, triple four; bars start
+  one gap from the curb) and green bike crossings (5 to 8 ft; 2 ft dash every 8 ft, first dash at the
+  line). A length grip arrays the unit block and stretches the full-length lines; rotation turns all.
+- `python3 pipeline/dynamic_families.py` writes the family list; `python3 pipeline/dynamic_source.py
+  --libredwg <dir> --libdxfrw <path>` writes `SSS-DYNAMIC-SOURCE.dwg`: every state as a block, the family
+  list as XRECORDs (SSS_DYNAMIC), a review sheet with every state and an empty slot per family. The
+  same face published twice (shape and line style) is one state.
+- In AutoCAD: open the source drawing, APPLOAD `SSS-DYNBUILD.lsp`, `SSSDYNTEST` then `SSSDYNBUILD`.
+  Per family: states placed at 0,0 as nested inserts (lines exploded once), -BLOCK, -BEDIT, visibility,
+  length + array/stretch, flip (arrows), rotation (includes the other grips), layers back to 0, BSAVE,
+  then a copy at the review slot is checked through its dynamic properties: PASS or FAIL in
+  `SSS-DYNBUILD.log`. Extra prompts a release adds take their default and are logged.
+- Publish: the user sends back the saved drawing; cut each family out with `plan_blocks.cut` (keeps
+  the dynamic data byte for byte) and publish; never re-author parameters outside AutoCAD.
  `composed_blocks.py`
 
 `python3 pipeline/composed_blocks.py --libredwg <dir>` writes blocks the plans draw as loose geometry

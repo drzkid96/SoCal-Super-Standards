@@ -83,7 +83,7 @@ with TemporaryDirectory() as temp:
                 assert selected.find_element(By.CSS_SELECTOR,'.sheet-source-actions a').get_attribute('href').endswith('#page='+str(page))
                 if width==1440 and key=='mpp-521':
                     def verify_download(button,expected):
-                        driver.execute_script("const m=arguments[0].closest('details.action-menu');if(m)m.open=true;arguments[0].scrollIntoView({block:'center',behavior:'instant'})",button);button.click()
+                        driver.execute_script("const m=arguments[0].closest('details.action-menu');if(m)m.open=true;arguments[0].scrollIntoView({block:'center',behavior:'instant'})",button);button.click();button.click()  # downloads take two clicks
                         dest=wait.until(lambda _:next(iter(download.glob('*.pdf')),False),message='Expected PDF download. '+button.get_attribute('textContent'))
                         with pymupdf.open(dest) as pdf,pymupdf.open(dist/'ladot-publications/mpp-521.pdf') as native:
                             assert len(pdf)==len(expected)

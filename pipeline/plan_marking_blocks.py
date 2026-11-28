@@ -29,9 +29,9 @@ SHAPES = [
     ('PM-YIELD-LINE-TRIANGLE', 'YIELDLL', (1, 1), 'top', 'Words and symbols', 'Yield line triangle, 2 ft base x 3 ft', ('y', 3.0, 0.02)),
     ('PM-BIKE-SYMBOL', 'BIKE-SYM2', (0.7308, 2.4118), 'bottom', 'Bicycle markings', 'Bicycle symbol, 6 ft long', ('y', 6.0, 0.1)),
     ('PM-BIKE-ARROW', 'BIKE LANE ARROW', (10.5362, 10.5362), 'bottom', 'Bicycle markings', 'Bike lane arrow', None),
-    ('PM-BIKE-ARROW-LEFT-THRU', 'BIKE-LEFT-THRU-ARROW', (1, 1), 'bottom', 'Bicycle markings', 'Bike lane left and through arrow', None),
-    ('PM-BIKE-LANE-SYMBOL-GREEN', 'Bike-NoPerson-Arrow', (1, 1), 'bottom', 'Bicycle markings',
-     'Bike lane symbol and arrow on green, 7 x 25 ft', ('y', 25.0, 0.05)),
+    # ('PM-BIKE-ARROW-LEFT-THRU', 'BIKE-LEFT-THRU-ARROW', (1, 1), 'bottom', 'Bicycle markings', 'Bike lane left and through arrow', None),  # repeats a published dynamic block, not published
+    # ('PM-BIKE-LANE-SYMBOL-GREEN', 'Bike-NoPerson-Arrow', (1, 1), 'bottom', 'Bicycle markings',  # repeats a published dynamic block, not published
+    # 'Bike lane symbol and arrow on green, 7 x 25 ft', ('y', 25.0, 0.05)),
 ]
 SKIP_LAYERS = re.compile(r'NOPLOT|WORKING', re.I)
 

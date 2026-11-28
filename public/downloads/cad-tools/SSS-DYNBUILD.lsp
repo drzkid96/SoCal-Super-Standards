@@ -1,146 +1,271 @@
-;;; SSS-DYNBUILD.lsp  ·  SoCal Super Standards dynamic block families
+;;; SSS-DYNBUILD.lsp  ·  SoCal Super Standards dynamic block builder (v3)
 ;;;
-;;; Builds every family in SSS-DYNBUILD-MANIFEST.csv (unzipped from SSS-DYNBUILD.zip) as one dynamic
-;;; block: one visibility state per published variant, a rotation parameter and flip X and flip Y
-;;; parameters, all at the shared base point (0,0), each with its action on every state's geometry.
-;;; Geometry stays on layer 0, color, linetype and lineweight ByLayer; NOPLOT frames stay on NOPLOT.
+;;; Open SSS-DYNAMIC-SOURCE.dwg, APPLOAD this file, then run:
+;;;   SSSDYNTEST    builds four samples (turn arrow, continental crosswalk, green bike crossing, a signal head)
+;;;   SSSDYNBUILD   builds every family listed in the drawing
+;;;   SSSDYNONE     builds one family by name
+;;; Save the drawing and send it back. Each run writes SSS-DYNBUILD.log beside the drawing with a
+;;; PASS or FAIL line per family; send the log too if anything fails.
 ;;;
-;;;   SSSDYNTEST   builds the first family only (a quick check), into OUT\ beside the manifest
-;;;   SSSDYNBUILD  builds every family, one DWG each, into OUT\ beside the manifest
-;;;
-;;; Start in a new drawing (feet). The routine logs each step to OUT\SSS-DYNBUILD.log. If a command
-;;; stops with a prompt the routine did not expect, send the log: prompts differ between releases.
+;;; What each family gets (all about the base point at 0,0):
+;;;   - Visibility, a short list: markings PROPOSED / EXISTING / REMOVE (LADOT Drafting Standards p. 10:
+;;;     filled, outline, dashed outline; green paint has no REMOVE); signs their directions; Caltrans
+;;;     signal symbols PROPOSED / EXISTING. A block with one state gets no list.
+;;;   - Rotation grip at the base point; it also turns the length, width and flip grips.
+;;;   - Crosswalks and the green bike crossing: a length grip repeats the bars or dashes; full-length
+;;;     lines stretch; the bike crossing also has a width grip (5 to 8 ft lanes).
+;;;   - Turn, through-turn and lane drop arrows: a flip grip about the lane center (x = 5.5 ft).
+;;;   - The block description names the standard it comes from (Properties, Insert dialog).
+;;; Variants stay nested blocks (never exploded); geometry stays on layer 0 ByLayer.
 
 (vl-load-com)
 
-(defun sss:split (s sep / out i)
-  (setq out '())
-  (while (setq i (vl-string-search sep s))
-    (setq out (cons (substr s 1 i) out) s (substr s (+ i 1 (strlen sep)))))
-  (reverse (cons s out)))
-
-(defun sss:csv-line (s / out cur q i ch)
-  (setq out '() cur "" q nil i 1)
-  (while (<= i (strlen s))
-    (setq ch (substr s i 1))
-    (cond ((and q (= ch "\"") (= (substr s (1+ i) 1) "\"")) (setq cur (strcat cur "\"") i (1+ i)))
-          ((= ch "\"") (setq q (not q)))
-          ((and (not q) (= ch ",")) (setq out (cons cur out) cur ""))
-          (t (setq cur (strcat cur ch))))
-    (setq i (1+ i)))
-  (reverse (cons cur out)))
-
-(defun sss:read-manifest (csv / f line rows fams fam)
-  (setq f (open csv "r") rows '())
-  (read-line f)                                        ; header
-  (while (setq line (read-line f))
-    (if (> (strlen line) 3) (setq rows (cons (sss:csv-line line) rows))))
-  (close f)
-  (foreach r (reverse rows)                            ; (family state file label)
-    (if (setq fam (assoc (car r) fams))
-      (setq fams (subst (append fam (list (cdr r))) fam fams))
-      (setq fams (append fams (list (list (car r) (cdr r)))))))
-  fams)
-
+;; ---------------------------------------------------------------- utilities
 (defun sss:log (msg)
   (princ (strcat "\nSSS: " msg))
-  (if *sss-log* (progn (write-line msg *sss-log*))))
+  (if *sss-log* (write-line msg *sss-log*))
+  msg)
 
-(defun sss:new-ents (after / out e)
-  (setq out (ssadd) e (if after (entnext after) (entnext)))
-  (while e (ssadd e out) (setq e (entnext e)))
-  out)
+(defun sss:finish (/ n)
+  ;; answer any prompt a release adds (grip counts, action locations) with its default
+  (setq n 0)
+  (while (and (> (getvar "CMDACTIVE") 0) (< n 12))
+    (command "")
+    (setq n (1+ n)))
+  n)
 
-(defun sss:layer (name / )
-  (if (not (tblsearch "LAYER" name)) (command "_.-LAYER" "_N" name ""))
+(defun sss:cmd (args / r n)
+  (setq r (vl-catch-all-apply 'vl-cmdf args))
+  (setq n (sss:finish))
+  (cond ((vl-catch-all-error-p r)
+         (sss:log (strcat "    error in " (vl-princ-to-string (car args)) ": " (vl-catch-all-error-message r)))
+         nil)
+        ((not r) (sss:log (strcat "    " (vl-princ-to-string (car args)) " was refused")) nil)
+        (t (if (> n 0) (sss:log (strcat "    " (car args) ": " (itoa n) " extra prompt(s) took the default")))
+           t)))
+
+(defun sss:layer (name)
+  (if (not (tblsearch "LAYER" name))
+    (entmake (list '(0 . "LAYER") '(100 . "AcDbSymbolTableRecord") '(100 . "AcDbLayerTableRecord")
+                   (cons 2 name) '(70 . 0) '(62 . 7) '(6 . "Continuous"))))
   name)
 
-(defun sss:place-state (dir file tag / before ss i e typ)
-  ;; insert the state drawing exploded once, explode its block once more, drop the code label
-  (setq before (entlast))
-  (command "_.-INSERT" (strcat "*" dir "\\" file) "0,0" "1" "0")
-  (setq ss (sss:new-ents before) i 0)
-  (repeat (sslength ss)
-    (setq e (ssname ss i) typ (cdr (assoc 0 (entget e))))
-    (cond ((member typ '("MTEXT" "TEXT")) (entdel e))
-          ((= typ "INSERT") (command "_.EXPLODE" e)))
-    (setq i (1+ i)))
-  (setq ss (sss:new-ents before) i 0)
-  (repeat (sslength ss)                                ; tag this state's geometry by a temporary layer
-    (setq e (ssname ss i))
-    (if (entget e)
-      (progn
-        (setq ed (entget e))
-        (setq ed (subst (cons 8 (if (= (cdr (assoc 8 ed)) "NOPLOT") (strcat tag "$NP") tag)) (assoc 8 ed) ed))
-        (entmod ed)))
-    (setq i (1+ i)))
-  ss)
+(defun sss:wild (s)
+  ;; escape wildcard characters for a selection filter
+  (vl-list->string
+    (apply 'append (mapcar '(lambda (c) (if (member c '(35 64 46 42 63 126 91 93 96 44)) (list 96 c) (list c)))
+                           (vl-string->list s)))))
 
-(defun sss:by-layer (lay)
-  (ssget "_X" (list (cons 8 lay))))
+(defun sss:sel (flt / ss)
+  ;; objects in the current space (the Block Editor included) matching a filter
+  (cond ((setq ss (ssget "_X" flt)) ss)
+        ((setq ss (ssget "_A" flt)) ss)
+        (t nil)))
 
-(defun sss:build-family (fam dir out / name states n all tag lays sizeprm r)
-  (setq name (car fam) states (cdr fam) n 0 lays '())
-  (sss:log (strcat "family " name " (" (itoa (length states)) " states)"))
-  (command "_.ERASE" "_ALL" "")
-  (foreach s states                                    ; s = (state file label)
-    (setq n (1+ n) tag (sss:layer (strcat "SSS$STATE$" (itoa n))))
-    (sss:layer (strcat tag "$NP"))
-    (sss:place-state dir (cadr s) tag)
-    (setq lays (append lays (list (list (car s) tag)))))
-  (setq all (ssget "_X" '((410 . "Model"))))
+(defun sss:ss+ (a b / i)
+  (cond ((null a) b) ((null b) a)
+        (t (setq i 0) (repeat (sslength b) (ssadd (ssname b i) a) (setq i (1+ i))) a)))
+
+;; ---------------------------------------------------------------- family list
+(defun sss:dict ()
+  (cdr (assoc -1 (dictsearch (namedobjdict) "SSS_DYNAMIC"))))
+
+(defun sss:read (d key / x out st)
+  ;; one family XRECORD -> assoc list; states as (name block lines spacing)
+  (if (setq x (dictsearch d key))
+    (progn
+      (foreach g x
+        (cond ((= (car g) 300) (if st (setq out (cons (cons 'state (reverse st)) out))) (setq st (list (cdr g))))
+              ((and st (member (car g) '(3 4 42))) (setq st (cons (cdr g) st)))
+              ((member (car g) '(1 2 70 40 71 10 11 41 72 12 73 13 301)) (setq out (cons g out)))))
+      (if st (setq out (cons (cons 'state (reverse st)) out)))
+      (reverse out))))
+
+(defun sss:families (/ d i key out f)
+  (if (null (setq d (sss:dict))) (progn (sss:log "No SSS_DYNAMIC list: open SSS-DYNAMIC-SOURCE.dwg first.") nil)
+    (progn
+      (setq i 0)
+      (while (setq f (sss:read d (setq key (strcat "F" (substr (itoa (+ 1000 i)) 2)))))
+        (setq out (cons f out) i (1+ i)))
+      (reverse out))))
+
+(defun sss:get (f k) (cdr (assoc k f)))
+(defun sss:states (f / out) (foreach g f (if (eq (car g) 'state) (setq out (cons (cdr g) out)))) (reverse out))
+
+;; ---------------------------------------------------------------- build one family
+(defun sss:place (blk tag / e)
+  (entmake (list '(0 . "INSERT") (cons 2 blk) (cons 8 tag) '(10 0.0 0.0 0.0) '(41 . 1.0) '(42 . 1.0) '(43 . 1.0) '(50 . 0.0)))
+  (entlast))
+
+(defun sss:explode-into (blk tag / e objs out)
+  ;; full-length lines are exploded once so the stretch action can move their far ends
+  (setq e (sss:place blk tag) out (ssadd))
+  (setq objs (vl-catch-all-apply 'vlax-invoke (list (vlax-ename->vla-object e) 'Explode)))
+  (entdel e)
+  (if (not (vl-catch-all-error-p objs))
+    (foreach o objs (vla-put-Layer o tag) (ssadd (vlax-vla-object->ename o) out)))
+  out)
+
+(defun sss:build (f / name states n r fx sp len axis made i tag st e ss all lin wid w rot flp vis
+                    spacings ok slot scale obj props names allowed nvis want)
+  (setq name (sss:get f 1) states (sss:states f) n (length states)
+        r (sss:get f 40) len (sss:get f 12) axis (sss:get f 73) slot (sss:get f 11) scale (sss:get f 41))
+  (sss:log (strcat "family " name " (" (itoa n) " states)"))
+  (setvar "INSUNITS" (sss:get f 70))
+  ;; 1. place every state at the base point, each on its own temporary layer
+  (setq made (ssadd) i 0)
+  (foreach st states            ; st = (name block lines spacing)
+    (setq i (1+ i) tag (sss:layer (strcat "SSS$STATE$" (itoa i))))
+    (sss:layer (strcat tag "$L"))
+    (sss:layer (strcat tag "$U"))
+    (if (/= (cadr st) "")
+      (if (= (sss:get f 72) 1)
+        (sss:ss+ made (sss:explode-into (cadr st) (strcat tag "$U")))   ; array units: plain geometry
+        (ssadd (sss:place (cadr st) tag) made)))
+    (if (/= (caddr st) "") (sss:ss+ made (sss:explode-into (caddr st) (strcat tag "$L")))))
+  (if (= (sslength made) 0) (progn (sss:log "  FAIL nothing to place") (exit)))
+  ;; 2. the block itself
   (if (tblsearch "BLOCK" name)
-    (command "_.-BLOCK" name "_Y" "0,0" all "")
-    (command "_.-BLOCK" name "0,0" all ""))
-  ;; block editor: visibility states, rotation and flips at the base point
-  (command "_.BEDIT" name)
-  (setq r 2.0)
-  (command "_.BPARAMETER" "_Visibility" (list 0.0 (- r)) "1")
-  (foreach l lays
-    (command "_.-BVSTATE" "_New" (car l) "_Hide")
-    (if (setq ss (sss:by-layer (cadr l))) (command "_.BVSHOW" ss "" "_Current"))
-    (if (setq ss (sss:by-layer (strcat (cadr l) "$NP"))) (command "_.BVSHOW" ss "" "_Current")))
-  (command "_.-BVSTATE" "_Set" (car (car lays)))
-  (command "_.-BVSTATE" "_Delete" "VisibilityState0")
-  (setq all (ssget "_X" '((0 . "~ACDB*"))))
-  (command "_.BPARAMETER" "_Rotation" "0,0" (list r 0.0) "0" (list (* 1.4 r) (* 1.4 r)))
-  (command "_.BACTIONTOOL" "_Rotate" (list r 0.0) all "")
-  (command "_.BPARAMETER" "_Flip" "0,0" (list 0.0 r) (list (- r) (* 1.6 r)))
-  (command "_.BACTIONTOOL" "_Flip" (list 0.0 (* 0.5 r)) all "")
-  (command "_.BPARAMETER" "_Flip" "0,0" (list r 0.0) (list (* 1.6 r) (- r)))
-  (command "_.BACTIONTOOL" "_Flip" (list (* 0.5 r) 0.0) all "")
-  (foreach l lays                                      ; states back to layer 0 / NOPLOT
-    (if (setq ss (sss:by-layer (cadr l))) (command "_.CHPROP" ss "" "_LA" "0" ""))
-    (if (setq ss (sss:by-layer (strcat (cadr l) "$NP"))) (command "_.CHPROP" ss "" "_LA" "NOPLOT" "")))
-  (command "_.BSAVE")
-  (command "_.BCLOSE")
-  (command "_.-WBLOCK" (strcat out "\\" name ".dwg") name)
-  (command "_.-PURGE" "_LA" "SSS$STATE$*" "_N")
-  (sss:log (strcat "  wrote " out "\\" name ".dwg")))
+    (sss:cmd (list "_.-BLOCK" name "_Y" "0,0" made ""))
+    (sss:cmd (list "_.-BLOCK" name "0,0" made "")))
+  (if (not (tblsearch "BLOCK" name)) (progn (sss:log "  FAIL block was not created") (exit)))
+  ;; 3. parameters and actions in the Block Editor
+  (sss:cmd (list "_.-BEDIT" name))
+  (if (/= (getvar "BLOCKEDITOR") 1) (progn (sss:log "  FAIL the Block Editor did not open") (exit)))
+  (command "_.ZOOM" "_E")
+  (if (> n 1)
+    (progn
+      (sss:cmd (list "_.BPARAMETER" "_Visibility" (list 0.0 (- (* 1.5 r)) 0.0) "1"))
+      (setq i 0)
+      (foreach st states
+        (setq i (1+ i) tag (strcat "SSS$STATE$" (itoa i)))
+        (sss:cmd (list "_.-BVSTATE" "_New" (car st) "_Hide"))
+        (if (setq ss (sss:state-set tag)) (sss:cmd (list "_.BVSHOW" ss "" "_Current"))
+          (sss:log (strcat "  WARN state " (car st) " has no objects"))))
+      (sss:cmd (list "_.-BVSTATE" "_Set" (car (car states))))
+      (sss:cmd (list "_.-BVSTATE" "_Delete" "VisibilityState0"))))   ; the default state a new parameter adds
+  (setq all (sss:sel '((-4 . "<OR") (8 . "SSS$STATE$*") (-4 . "OR>"))))
+  ;; length grip and arrays (crosswalks, bike crossings)
+  (if (= (sss:get f 72) 1)
+    (progn
+      (sss:cmd (list "_.BPARAMETER" "_Linear" '(0.0 0.0 0.0) len
+                     (if (= axis 0) (list (/ (car len) 2.0) (- (* 2.0 r)) 0.0) (list (- (* 2.0 r)) (/ (cadr len) 2.0) 0.0))
+                     "1"))
+      (setq lin (entlast))
+      (setq sp 0.0)
+      (foreach st states (if (> (cadddr st) 0) (setq sp (cadddr st))))
+      (if (and (> sp 0) (setq ss (sss:sel '((8 . "SSS$STATE$*$U")))))
+        (sss:cmd (list "_.BACTIONTOOL" "_Array" lin ss "" (rtos sp 2 4))))
+      (if (setq ss (sss:sel '((8 . "SSS$STATE$*$L"))))
+        (sss:cmd (list "_.BACTIONTOOL" "_Stretch" lin ""
+                       (if (= axis 0) (list (- (car len) 0.5) -2.0 0.0) (list -2.0 (- (cadr len) 0.5) 0.0))
+                       (if (= axis 0) (list (+ (car len) 0.5) 14.0 0.0) (list 14.0 (+ (cadr len) 0.5) 0.0))
+                       ss ""))))
+      ;; width grip (green bike crossing): stretches the dash and moves the far edge line
+      (if (> (car (sss:get f 13)) 0)
+        (progn
+          (setq w (car (sss:get f 13)))
+          (sss:cmd (list "_.BPARAMETER" "_Linear" '(0.0 0.0 0.0) (list w 0.0 0.0) (list (/ w 2.0) (- (* 1.5 r)) 0.0) "1"))
+          (setq wid (entlast))
+          (if (setq ss (sss:sel '((8 . "SSS$STATE$*$U"))))
+            (sss:cmd (list "_.BACTIONTOOL" "_Stretch" wid "" (list (- w 0.5) -1.0 0.0) (list (+ w 0.5) 3.0 0.0) ss ""))))))
+  ;; flip about the lane center (lane arrows)
+  (if (= (sss:get f 71) 1)
+    (progn
+      (setq fx (car (sss:get f 10)))
+      (sss:cmd (list "_.BPARAMETER" "_Flip" (list fx 0.0 0.0) (list fx (* 2.0 r) 0.0) (list (+ fx r) (* 2.5 r) 0.0)))
+      (setq flp (entlast))
+      (sss:cmd (list "_.BACTIONTOOL" "_Flip" flp all ""))))
+  ;; rotation about the base point: geometry plus the length and flip grips
+  (sss:cmd (list "_.BPARAMETER" "_Rotation" '(0.0 0.0 0.0) (list r 0.0 0.0) "0" (list (* 1.4 r) (* 1.4 r) 0.0)))
+  (setq rot (entlast))
+  (setq ss (sss:ss+ (ssadd) all))
+  (if lin (ssadd lin ss))
+  (if wid (ssadd wid ss))
+  (if flp (ssadd flp ss))
+  (sss:cmd (list "_.BACTIONTOOL" "_Rotate" rot ss ""))
+  ;; temporary layers back to 0
+  (if (setq ss (sss:sel '((8 . "SSS$STATE$*")))) (sss:cmd (list "_.CHPROP" ss "" "_LA" "0" "")))
+  (sss:cmd (list "_.BSAVE"))
+  (sss:cmd (list "_.BCLOSE"))
+  (vl-catch-all-apply 'vla-put-Comments
+    (list (vla-item (vla-get-Blocks (vla-get-ActiveDocument (vlax-get-acad-object))) name) (sss:get f 301)))
+  ;; 4. self-check on an inserted copy at the review slot
+  (setq obj (vl-catch-all-apply 'vla-InsertBlock
+              (list (vla-get-ModelSpace (vla-get-ActiveDocument (vlax-get-acad-object)))
+                    (vlax-3d-point slot) name scale scale scale 0.0)))
+  (if (vl-catch-all-error-p obj)
+    (sss:log (strcat "  FAIL could not insert " name))
+    (progn
+      (setq props (vlax-invoke obj 'GetDynamicBlockProperties) names '() nvis 0)
+      (foreach p props
+        (setq names (cons (vla-get-PropertyName p) names))
+        (if (wcmatch (strcase (vla-get-PropertyName p)) "VISIBILITY*")
+          (setq allowed (vlax-get p 'AllowedValues) nvis (length allowed))))
+      (setq want (list (if (> n 1) (= nvis n) t)
+                       (vl-some '(lambda (s) (wcmatch (strcase s) "ANGLE*")) names)
+                       (if (= (sss:get f 72) 1) (vl-some '(lambda (s) (wcmatch (strcase s) "DISTANCE*")) names) t)
+                       (if (> (car (sss:get f 13)) 0)
+                         (> (length (vl-remove-if-not '(lambda (s) (wcmatch (strcase s) "DISTANCE*")) names)) 1) t)
+                       (if (= (sss:get f 71) 1) (vl-some '(lambda (s) (wcmatch (strcase s) "FLIP*")) names) t)))
+      (sss:log (strcat (if (vl-every 'eval want) "  PASS " "  FAIL ") name
+                       "  visibility " (itoa nvis) "/" (itoa (if (> n 1) n 0))
+                       "  properties: " (sss:join (reverse names) ", ")))))
+  (sss:cmd (list "_.-PURGE" "_LA" "SSS$STATE$*" "_N"))
+  name)
 
-(defun sss:run (limit / csv dir out fams old n)
-  (setq csv (getfiled "SSS dynamic family manifest" "" "csv" 0))
-  (if (null csv) (exit))
-  (setq dir (vl-filename-directory csv) out (strcat dir "\\OUT"))
-  (vl-mkdir out)
-  (setq *sss-log* (open (strcat out "\\SSS-DYNBUILD.log") "w"))
-  (setq old (mapcar 'getvar '("CMDECHO" "FILEDIA" "CMDDIA" "EXPERT" "ATTREQ" "INSUNITS" "CLAYER")))
-  (mapcar 'setvar '("CMDECHO" "FILEDIA" "CMDDIA" "EXPERT" "ATTREQ" "INSUNITS") '(1 0 0 5 0 2))
-  (sss:layer "NOPLOT")
-  (command "_.-LAYER" "_P" "_N" "NOPLOT" "")
+(defun sss:state-set (tag)
+  (sss:ss+ (sss:ss+ (sss:sel (list (cons 8 tag))) (sss:sel (list (cons 8 (strcat tag "$L")))))
+           (sss:sel (list (cons 8 (strcat tag "$U"))))))
+
+(defun sss:bclose-discard ()
+  ;; leave the Block Editor without saving a half-built family
+  (if (= (getvar "BLOCKEDITOR") 1)
+    (progn (vl-catch-all-apply 'vl-cmdf '("_.BCLOSE"))
+           (while (> (getvar "CMDACTIVE") 0) (command "_Discard")))))
+
+(defun sss:join (lst sep / out)
+  (setq out "")
+  (foreach s lst (setq out (if (= out "") s (strcat out sep s))))
+  out)
+
+;; ---------------------------------------------------------------- run
+(defun sss:run (pick / fams vars old done failed r)
+  (setq *sss-log* (open (strcat (getvar "DWGPREFIX") "SSS-DYNBUILD.log") "a"))
+  (sss:log (strcat "---- SSS-DYNBUILD v3  " (menucmd "M=$(edtime,$(getvar,date),YYYY-MO-DD HH:MM)")
+                   "  AutoCAD " (getvar "ACADVER")))
+  (sss:bclose-discard)
+  (setq vars '("CMDECHO" "FILEDIA" "CMDDIA" "EXPERT" "ATTREQ" "OSMODE" "INSUNITS" "CLAYER" "PICKFIRST"
+               "BACTIONBARMODE" "INSUNITSDEFSOURCE" "INSUNITSDEFTARGET"))
+  (setq old (mapcar 'getvar vars))
+  (mapcar 'setvar '("CMDECHO" "FILEDIA" "CMDDIA" "EXPERT" "ATTREQ" "OSMODE" "PICKFIRST"
+                    "BACTIONBARMODE" "INSUNITSDEFSOURCE" "INSUNITSDEFTARGET")
+          '(0 0 0 5 0 0 0 1 0 0))
   (setvar "CLAYER" "0")
-  (setq fams (sss:read-manifest csv) n 0)
-  (foreach fam fams
-    (if (or (null limit) (< n limit))
-      (progn (sss:build-family fam dir out) (setq n (1+ n)))))
-  (mapcar 'setvar '("CMDECHO" "FILEDIA" "CMDDIA" "EXPERT" "ATTREQ" "INSUNITS" "CLAYER") old)
-  (sss:log (strcat (itoa n) " families written to " out))
+  (setq fams (sss:families) done 0 failed '())
+  (foreach f fams
+    (if (or (null pick) (member (sss:get f 1) pick))
+      (progn
+        (setq r (vl-catch-all-apply 'sss:build (list f)))
+        (if (vl-catch-all-error-p r)
+          (progn
+            (sss:log (strcat "  FAIL " (sss:get f 1) ": " (vl-catch-all-error-message r)))
+            (setq failed (cons (sss:get f 1) failed))
+            (sss:finish)
+            (sss:bclose-discard))
+          (setq done (1+ done))))))
+  (mapcar 'setvar vars old)
+  (command "_.ZOOM" "_E")
+  (sss:log (strcat (itoa done) " families built, " (itoa (length failed)) " stopped"
+                   (if failed (strcat ": " (sss:join (reverse failed) ", ")) "")
+                   ". Check the PASS / FAIL lines above, then SAVE and send the drawing."))
   (close *sss-log*)
   (setq *sss-log* nil)
   (princ))
 
-(defun c:SSSDYNTEST () (sss:run 1))
+(defun c:SSSDYNTEST () (sss:run '("SSS-ARROW-TURN" "SSS-CROSSWALK-CONTINENTAL" "SSS-BIKE-XING-GREEN" "SSS-SIGNAL-HEAD-RYG")))
 (defun c:SSSDYNBUILD () (sss:run nil))
+(defun c:SSSDYNONE (/ n) (if (/= "" (setq n (getstring "\nBlock name (for example SSS-WORD-STOP): "))) (sss:run (list (strcase n)))))
 
-(princ "\nSSS-DYNBUILD loaded. SSSDYNTEST builds one family as a check; SSSDYNBUILD builds them all.")
+(princ "\nSSS-DYNBUILD v3 loaded. SSSDYNTEST builds four samples; SSSDYNBUILD builds them all.")
 (princ)

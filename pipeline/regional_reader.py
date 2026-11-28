@@ -7,10 +7,36 @@ from current_catalog import BASE
 from render_regionals import prepare
 
 def slug(name): return re.sub('[^a-z0-9]+','-',name.lower()).strip('-')
-def write(root,route,title,body):
+def write(root,route,title,body,description=None):
     path=root/route/'index.md'
     path.parent.mkdir(exist_ok=True,parents=True)
-    path.write_text('---\ntitle: '+json.dumps(title,ensure_ascii=False)+'\ntemplate: splash\ntableOfContents: false\n---\n\n'+body+'\n')
+    meta='description: '+json.dumps(description[:300],ensure_ascii=False)+'\n' if description else ''
+    path.write_text('---\ntitle: '+json.dumps(title,ensure_ascii=False)+'\n'+meta+'template: splash\ntableOfContents: false\n---\n\n'+body+'\n')
+
+JUNK=re.compile(r'^(untitled|layout\s*\d*|model|sheet\s*\d*|page\s*\d*|drawing\s*\d*|pdf|\d+|title sheet)$',re.I)
+
+def sheet_label(label):
+    """A sheet's own title, or '' when the PDF only carried a placeholder (Layout1, Page 1, Untitled)."""
+    label=(label or '').strip()
+    return '' if not label or len(label)<4 or JUNK.match(label) else label
+
+TOPIC_WORDS=[('typical street sections',r'typical (street |road )?section|arterial|collector|local street|cross section'),
+    ('curbs and gutters',r'curb|gutter'),('curb ramps',r'curb ramp|\bramps?\b'),('driveways',r'driveway'),
+    ('sidewalks',r'sidewalk|parkway'),('medians',r'median'),('intersections',r'intersection|corner|cul-de-sac'),
+    ('street lights',r'street ?light|luminaire|electrolier'),('traffic signals',r'signal|loop|detector'),
+    ('signs and striping',r'striping|pavement marking|\bsigns?\b'),('drainage',r'catch basin|storm|drain|culvert'),
+    ('manholes and utilities',r'manhole|valve|water|sewer|utility'),('pavement',r'pavement|asphalt|concrete slab|trench'),
+    ('bikeways',r'bike|bicycle'),('trees and landscaping',r'\btrees?\b|landscap|planting'),('fences and walls',r'fence|wall|railing|barrier'),
+    ('traffic control',r'traffic control|detour|barricade|\bcones?\b|\btcp')]
+
+def summary(name,title,labels):
+    """One plain sentence on what a publication holds, from the subjects its sheet titles name."""
+    text=' '.join(l.lower() for l in labels if l and l!='Blank page')
+    hits=sorted(((len(re.findall(rx,text)),topic) for topic,rx in TOPIC_WORDS),reverse=True)
+    topics=[t for n,t in hits if n][:5]
+    sheets=sum(1 for l in labels if l!='Blank page')
+    body=f'{title} from {name}, {sheets} sheet'+('s' if sheets!=1 else '')
+    return body+(' covering '+', '.join(topics[:-1])+(' and ' if len(topics)>1 else '')+topics[-1]+'.' if topics else '.')
 
 def subject(record):
     title=record['title'].lower()
@@ -27,6 +53,8 @@ def build(root,lookup):
     docs=prepare()
     from topic_reader import PATTERNS
     titles=json.loads(Path('data/reference/atlas/regional-sheet-titles.json').read_text())
+    notes_path=Path('data/reference/atlas/regional-sheet-notes.json')
+    notes=json.loads(notes_path.read_text()) if notes_path.exists() else {}
     patterns={k:re.compile(v,re.I) for k,v in PATTERNS.items()}
     by=defaultdict(list)
     for d in docs:by[d['agency']].append(d)
@@ -58,13 +86,16 @@ def build(root,lookup):
             route='regions/'+key+'/'+d['key'];url=BASE+'/'+route+'/'
             title=d['title'];count=d['pages']
             lines.append(f'- [{escape(title)}]({url}) · {count} '+('pages' if count!=1 else 'page'))
-            body=[f'<p class="reg-credit">{escape(name)} · {count} pages · <a href="{escape(d["source"])}">Publisher PDF</a></p>',
+            labels=[sheet_label(titles.get(d['key'],{}).get(str(i),l)) for i,l in enumerate(d['labels'],1)]
+            about=summary(name,title,labels)
+            body=[f'<header class="reg-head"><h1>{escape(name)} · {escape(title)}</h1><p class="reg-about">{escape(about)}</p></header>',
+                  f'<p class="reg-credit">{escape(name)} · {count} pages · <a href="{escape(d["source"])}">Publisher PDF</a></p>',
                   '<div class="reg-controls" hidden><button type="button" data-step="-1">← Previous</button><label>Page <select aria-label="Select sheet"></select></label><button type="button" data-step="1">Next →</button><button type="button" class="reg-overview" aria-expanded="false">Sheet grid</button></div><div class="reg-contact" hidden></div>']
-            for i,(label,txt) in enumerate(zip(d['labels'],d['texts'],strict=True),1):
-                label=titles.get(d['key'],{}).get(str(i),label)
+            for i,(label,txt) in enumerate(zip(labels,d['texts'],strict=True),1):
+                note=notes.get(d['key'],{}).get(str(i),'')
                 img=f'{BASE}/regional-sheets/{d["key"]}/{i}.avif'
                 heading=f'Page {i}'+(' · '+label[:110] if label else '')
-                body.append(f'<section class="reg-page" id="p-{i}" data-label="{escape(heading,quote=True)}"><h2>{escape(heading)}</h2><a href="{img}" class="reg-scan" data-title="{escape(title,quote=True)}, page {i}">Open full sheet image</a><p><a href="{url}#p-{i}">Link to this page</a> · <a href="{escape(d["source"])}#page={i}">Publisher PDF, page {i}</a></p>')
+                body.append(f'<section class="reg-page" id="p-{i}" data-label="{escape(heading,quote=True)}"><h2>{escape(heading)}</h2>'+(f'<p class="reg-desc">{escape(note)}</p>' if note else '')+f'<a href="{img}" class="reg-scan" data-title="{escape(title,quote=True)}, page {i}">Open full sheet image</a><p><a href="{url}#p-{i}">Link to this page</a> · <a href="{escape(d["source"])}#page={i}">Publisher PDF, page {i}</a></p>')
                 if txt:body.append('<div class="search-text" hidden>'+escape(txt)+'</div>')
                 body.append('</section>')
                 ref=url+'#p-'+str(i)
@@ -72,7 +103,7 @@ def build(root,lookup):
                 lookup.setdefault(name+' '+(label[:100] if label else title+' p. '+str(i)),[]).append(listing)
                 for topic,pattern in patterns.items():
                     if pattern.search(txt):lookup.setdefault(name+' · '+topic,[]).append(listing)
-            write(root,route,name+' · '+title,'\n'.join(body))
+            write(root,route,name+' · '+title,'\n'.join(body),about)
         lines+=['','## Search this collection','','<div class="agency-browser" data-agency="'+key+'"><input aria-label="Filter collection" placeholder="Filter by title or identifier"><div role="status"></div><ul></ul><button hidden>More results</button></div>']
         write(root,'regions/'+key,name,'\n'.join(lines))
     shapes=json.loads(Path('data/reference/regional/county-paths.json').read_text())
