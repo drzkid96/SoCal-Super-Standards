@@ -115,7 +115,7 @@
       }
       const info = m[item.code] || {};
       return el('li', {}, el('span', {class: 'bc-thumb'}, el('img', {src: base + '/' + (info.preview || ''), alt: ''})),
-        el('span', {class: 'bc-name'}, el('strong', {text: item.code}), el('small', {text: (info.name || '').split(' · ')[0]})), remove);
+        el('span', {class: 'bc-name'}, el('strong', {text: (info.name || item.code).split(' · ')[0]}), info.route === 'markings/cad' ? null : el('small', {text: item.code})), remove);
     }));
     if (!state.items.length) list.append(el('li', {class: 'bc-empty', text: 'Add blocks with the Add button on any block card.'}));
     download.disabled = busy || !total;
@@ -199,9 +199,8 @@
     viewer.img.src = card.querySelector('img').src;
     viewer.img.alt = card.querySelector('img').alt;
     viewer.title.textContent = card.querySelector('figcaption strong')?.textContent || code;
-    viewer.name.textContent = code;
-    viewer.place.textContent = card.dataset.place || '';
-    viewer.place.hidden = !viewer.place.textContent;
+    viewer.name.textContent = card.querySelector('.block-code')?.textContent || '';
+    viewer.place.hidden = true;
     viewer.add.dataset.code = code;
     viewer.add.hidden = !code;
     viewer.add.textContent = has(code) ? 'In cart · remove' : 'Add to cart';

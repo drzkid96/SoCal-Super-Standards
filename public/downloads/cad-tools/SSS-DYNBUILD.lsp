@@ -66,6 +66,28 @@
   (cond ((null a) b) ((null b) a)
         (t (setq i 0) (repeat (sslength b) (ssadd (ssname b i) a) (setq i (1+ i))) a)))
 
+;; the parameter a BPARAMETER call just made: the newest Block Editor object whose type names a parameter
+;; ((entlast) does not return Block Editor parameters, which made "Select parameter" fail)
+(defun sss:ents (/ ss i out)
+  (setq out '())
+  (if (setq ss (ssget "_X"))
+    (progn (setq i 0) (repeat (sslength ss) (setq out (cons (ssname ss i) out) i (1+ i)))))
+  out)
+
+(defun sss:param (before / found)
+  (foreach e (sss:ents)
+    (if (and (not (member e before)) (wcmatch (strcase (cdr (assoc 0 (entget e)))) "*PARAMETER*"))
+      (setq found e)))
+  (if (null found)
+    (foreach e (sss:ents) (if (and (not found) (not (member e before))) (setq found e))))
+  (if (null found) (sss:log "    WARN parameter not found after BPARAMETER"))
+  found)
+
+(defun sss:make-param (args / before)
+  (setq before (sss:ents))
+  (sss:cmd args)
+  (sss:param before))
+
 ;; ---------------------------------------------------------------- family list
 (defun sss:dict ()
   (cdr (assoc -1 (dictsearch (namedobjdict) "SSS_DYNAMIC"))))
@@ -110,6 +132,7 @@
                     spacings ok slot scale obj props names allowed nvis want)
   (setq name (sss:get f 1) states (sss:states f) n (length states)
         r (sss:get f 40) len (sss:get f 12) axis (sss:get f 73) slot (sss:get f 11) scale (sss:get f 41))
+  (sss:bclose-discard)                     ; never start a family inside the Block Editor
   (sss:log (strcat "family " name " (" (itoa n) " states)"))
   (setvar "INSUNITS" (sss:get f 70))
   ;; 1. place every state at the base point, each on its own temporary layer
@@ -148,14 +171,13 @@
   ;; length grip and arrays (crosswalks, bike crossings)
   (if (= (sss:get f 72) 1)
     (progn
-      (sss:cmd (list "_.BPARAMETER" "_Linear" '(0.0 0.0 0.0) len
+      (setq lin (sss:make-param (list "_.BPARAMETER" "_Linear" '(0.0 0.0 0.0) len
                      (if (= axis 0) (list (/ (car len) 2.0) (- (* 2.0 r)) 0.0) (list (- (* 2.0 r)) (/ (cadr len) 2.0) 0.0))
-                     "1"))
-      (setq lin (entlast))
+                     "1")))
       (setq sp 0.0)
       (foreach st states (if (> (cadddr st) 0) (setq sp (cadddr st))))
       (if (and (> sp 0) (setq ss (sss:sel '((8 . "SSS$STATE$*$U")))))
-        (sss:cmd (list "_.BACTIONTOOL" "_Array" lin ss "" (rtos sp 2 4))))
+        (if lin (sss:cmd (list "_.BACTIONTOOL" "_Array" lin ss "" (rtos sp 2 4)))))
       (if (setq ss (sss:sel '((8 . "SSS$STATE$*$L"))))
         (sss:cmd (list "_.BACTIONTOOL" "_Stretch" lin ""
                        (if (= axis 0) (list (- (car len) 0.5) -2.0 0.0) (list -2.0 (- (cadr len) 0.5) 0.0))
@@ -165,29 +187,27 @@
       (if (> (car (sss:get f 13)) 0)
         (progn
           (setq w (car (sss:get f 13)))
-          (sss:cmd (list "_.BPARAMETER" "_Linear" '(0.0 0.0 0.0) (list w 0.0 0.0) (list (/ w 2.0) (- (* 1.5 r)) 0.0) "1"))
-          (setq wid (entlast))
+          (setq wid (sss:make-param (list "_.BPARAMETER" "_Linear" '(0.0 0.0 0.0) (list w 0.0 0.0) (list (/ w 2.0) (- (* 1.5 r)) 0.0) "1")))
           (if (setq ss (sss:sel '((8 . "SSS$STATE$*$U"))))
             (sss:cmd (list "_.BACTIONTOOL" "_Stretch" wid "" (list (- w 0.5) -1.0 0.0) (list (+ w 0.5) 3.0 0.0) ss ""))))))
   ;; flip about the lane center (lane arrows)
   (if (= (sss:get f 71) 1)
     (progn
       (setq fx (car (sss:get f 10)))
-      (sss:cmd (list "_.BPARAMETER" "_Flip" (list fx 0.0 0.0) (list fx (* 2.0 r) 0.0) (list (+ fx r) (* 2.5 r) 0.0)))
-      (setq flp (entlast))
-      (sss:cmd (list "_.BACTIONTOOL" "_Flip" flp all ""))))
+      (setq flp (sss:make-param (list "_.BPARAMETER" "_Flip" (list fx 0.0 0.0) (list fx (* 2.0 r) 0.0) (list (+ fx r) (* 2.5 r) 0.0))))
+      (if flp (sss:cmd (list "_.BACTIONTOOL" "_Flip" flp all "")))))
   ;; rotation about the base point: geometry plus the length and flip grips
-  (sss:cmd (list "_.BPARAMETER" "_Rotation" '(0.0 0.0 0.0) (list r 0.0 0.0) "0" (list (* 1.4 r) (* 1.4 r) 0.0)))
-  (setq rot (entlast))
+  (setq rot (sss:make-param (list "_.BPARAMETER" "_Rotation" '(0.0 0.0 0.0) (list r 0.0 0.0) "0" (list (* 1.4 r) (* 1.4 r) 0.0))))
   (setq ss (sss:ss+ (ssadd) all))
   (if lin (ssadd lin ss))
   (if wid (ssadd wid ss))
   (if flp (ssadd flp ss))
-  (sss:cmd (list "_.BACTIONTOOL" "_Rotate" rot ss ""))
+  (if rot (sss:cmd (list "_.BACTIONTOOL" "_Rotate" rot ss "")))
   ;; temporary layers back to 0
   (if (setq ss (sss:sel '((8 . "SSS$STATE$*")))) (sss:cmd (list "_.CHPROP" ss "" "_LA" "0" "")))
   (sss:cmd (list "_.BSAVE"))
   (sss:cmd (list "_.BCLOSE"))
+  (if (= (getvar "BLOCKEDITOR") 1) (progn (sss:bclose-discard) (sss:log "  FAIL the Block Editor would not close") (exit)))
   (vl-catch-all-apply 'vla-put-Comments
     (list (vla-item (vla-get-Blocks (vla-get-ActiveDocument (vlax-get-acad-object))) name) (sss:get f 301)))
   ;; 4. self-check on an inserted copy at the review slot
@@ -232,7 +252,7 @@
 ;; ---------------------------------------------------------------- run
 (defun sss:run (pick / fams vars old done failed r)
   (setq *sss-log* (open (strcat (getvar "DWGPREFIX") "SSS-DYNBUILD.log") "a"))
-  (sss:log (strcat "---- SSS-DYNBUILD v3  " (menucmd "M=$(edtime,$(getvar,date),YYYY-MO-DD HH:MM)")
+  (sss:log (strcat "---- SSS-DYNBUILD v4  " (menucmd "M=$(edtime,$(getvar,date),YYYY-MO-DD HH:MM)")
                    "  AutoCAD " (getvar "ACADVER")))
   (sss:bclose-discard)
   (setq vars '("CMDECHO" "FILEDIA" "CMDDIA" "EXPERT" "ATTREQ" "OSMODE" "INSUNITS" "CLAYER" "PICKFIRST"
@@ -263,9 +283,9 @@
   (setq *sss-log* nil)
   (princ))
 
-(defun c:SSSDYNTEST () (sss:run '("SSS-ARROW-TURN" "SSS-CROSSWALK-CONTINENTAL" "SSS-BIKE-XING-GREEN" "SSS-SIGNAL-HEAD-RYG")))
+(defun c:SSSDYNTEST () (sss:run '("TURN ARROW" "CROSSWALK CONTINENTAL" "BIKE XING GREEN" "SIGNAL HEAD RYG")))
 (defun c:SSSDYNBUILD () (sss:run nil))
-(defun c:SSSDYNONE (/ n) (if (/= "" (setq n (getstring "\nBlock name (for example SSS-WORD-STOP): "))) (sss:run (list (strcase n)))))
+(defun c:SSSDYNONE (/ n) (if (/= "" (setq n (getstring T "\nBlock name (for example STOP or TURN ARROW): "))) (sss:run (list (strcase n)))))
 
-(princ "\nSSS-DYNBUILD v3 loaded. SSSDYNTEST builds four samples; SSSDYNBUILD builds them all.")
+(princ "\nSSS-DYNBUILD v4 loaded. SSSDYNTEST builds four samples; SSSDYNBUILD builds them all.")
 (princ)

@@ -1,10 +1,9 @@
-"""Dynamic block families: published variants merged into one dynamic block each, with visibility
-states, rotation and flip X and Y about the shared base point.
+"""Dynamic block families: one plainly named block per configuration (TURN ARROW, STOP, CROSSWALK
+LADDER, R3-5), with a short visibility list, rotation, and flip, length or width grips where they fit.
+Pavement markings carry no codes in their names; the source standard goes in the block description.
 
 The family list is computed from the catalogs (data/reference/dynamic-families.json records it).
-AutoCAD writes the dynamic blocks: SSS-DYNBUILD.lsp (public/downloads/cad-tools) reads the manifest
-CSV packed beside the state drawings in SSS-DYNBUILD.zip, builds every family in one run and writes
-one DWG per family plus SSS-DYNAMIC-FAMILIES.dwg. Upload that folder to publish them.
+dynamic_source.py writes SSS-DYNAMIC-SOURCE.dwg; SSS-DYNBUILD.lsp builds every block in AutoCAD.
 
 Every state of a family shares the family's base point rule, so parameters and actions act the same
 way in every state. Families never mix placement rules.
@@ -38,42 +37,42 @@ SUPERSEDED = {'PM-BIKE-ARROW-LEFT-THRU': 'PM-BIKE-LEFT-THRU-ARROW-DYN',
 # Marking blocks: short plain names; the standard they come from goes in the block description.
 # (name, source code, description, flip line x)
 MARKINGS = [
-    ('SSS-ARROW-THRU', 'CT-A24A-TYPE-I-10FT', 'Through arrow, 10 ft (Caltrans A24A Type I)', None),
-    ('SSS-ARROW-THRU-18', 'CT-A24A-TYPE-I-18FT', 'Through arrow, 18 ft (Caltrans A24A Type I)', None),
-    ('SSS-ARROW-THRU-24', 'CT-A24A-TYPE-I-24FT', 'Through arrow, 24 ft (Caltrans A24A Type I)', None),
-    ('SSS-ARROW-TURN', 'CT-A24A-TYPE-IV-L', 'Turn arrow; flip for a right turn (Caltrans A24A Type IV)', LANE_MID),
-    ('SSS-ARROW-THRU-TURN', 'CT-A24A-TYPE-VII-L', 'Through and turn arrow; flip for through-right (Caltrans A24A Type VII)', LANE_MID),
-    ('SSS-ARROW-THRU-LEFT-RIGHT', 'CT-A24A-TYPE-VIII', 'Through, left and right arrow (Caltrans A24A Type VIII)', None),
-    ('SSS-ARROW-LANE-DROP', 'CT-A24A-TYPE-VI', 'Lane drop arrow; flip for the left lane (Caltrans A24A Type VI)', LANE_MID),
-    ('SSS-BIKE-SYMBOL', 'CT-A24C-BIKE-SYMBOL', 'Bike lane symbol (Caltrans A24C)', None),
-    ('SSS-BIKE-SYMBOL-RIDER', 'CT-A24C-BIKE-SYMBOL-PERSON', 'Bike lane symbol with rider (Caltrans A24C)', None),
-    ('SSS-BIKE-ARROW', 'CT-A24A-BIKE-LANE-ARROW', 'Bike lane arrow (Caltrans A24A)', None),
-    ('SSS-SHARROW', 'CT-A24C-SHARROW', 'Shared lane marking (Caltrans A24C)', None),
-    ('SSS-ISA', 'CT-A24C-ISA', 'Accessible parking symbol (Caltrans A24C)', None),
-    ('SSS-DIAMOND', 'CT-A24C-DIAMOND', 'Preferential lane diamond (Caltrans A24C)', None),
-    ('SSS-RXR', 'CT-A24B-RXR', 'Railroad crossing marking (Caltrans A24B)', None),
-    ('SSS-YIELD-TRIANGLE', 'PM-YIELD-LINE-TRIANGLE', 'Yield line triangle, 2 x 3 ft', None),
-    ('SSS-LEFT-TURN-CALMING-3', 'PM-LEFT-TURN-CALMING-3FT', 'Left turn calming bump, 3 ft', None),
-    ('SSS-LEFT-TURN-CALMING-10', 'PM-LEFT-TURN-CALMING-10FT', 'Left turn calming curb, 10 ft', None),
-    ('SSS-LANE-DEFENDER-15', 'PM-LANE-DEFENDER-15FT', 'Lane defender, 15 ft', None),
-    ('SSS-CROSSWALK-DIAGONAL', 'CT-A24F-DIAGONAL', 'Diagonal crosswalk, 45 degree bars (Caltrans A24F)', None),
-    ('SSS-WORD-KEEP-CLEAR', 'PM-KEEP-CLEAR', 'KEEP CLEAR (Caltrans A24E words)', None),
-    ('SSS-WORD-BUS-ONLY', 'PM-BUS-ONLY', 'BUS ONLY (Caltrans A24E words)', None),
-    ('SSS-WORD-WAIT-HERE', 'PM-WAIT-HERE', 'WAIT HERE (Caltrans A24D words)', None),
+    ('THRU ARROW', 'CT-A24A-TYPE-I-10FT', 'Through arrow, 10 ft (Caltrans A24A Type I)', None),
+    ('THRU ARROW 18', 'CT-A24A-TYPE-I-18FT', 'Through arrow, 18 ft (Caltrans A24A Type I)', None),
+    ('THRU ARROW 24', 'CT-A24A-TYPE-I-24FT', 'Through arrow, 24 ft (Caltrans A24A Type I)', None),
+    ('TURN ARROW', 'CT-A24A-TYPE-IV-L', 'Turn arrow; flip for a right turn (Caltrans A24A Type IV)', LANE_MID),
+    ('THRU-TURN ARROW', 'CT-A24A-TYPE-VII-L', 'Through and turn arrow; flip for through-right (Caltrans A24A Type VII)', LANE_MID),
+    ('THRU-LEFT-RIGHT ARROW', 'CT-A24A-TYPE-VIII', 'Through, left and right arrow (Caltrans A24A Type VIII)', None),
+    ('LANE DROP ARROW', 'CT-A24A-TYPE-VI', 'Lane drop arrow; flip for the left lane (Caltrans A24A Type VI)', LANE_MID),
+    ('BIKE SYMBOL', 'CT-A24C-BIKE-SYMBOL', 'Bike lane symbol (Caltrans A24C)', None),
+    ('BIKE SYMBOL RIDER', 'CT-A24C-BIKE-SYMBOL-PERSON', 'Bike lane symbol with rider (Caltrans A24C)', None),
+    ('BIKE ARROW', 'CT-A24A-BIKE-LANE-ARROW', 'Bike lane arrow (Caltrans A24A)', None),
+    ('SHARROW', 'CT-A24C-SHARROW', 'Shared lane marking (Caltrans A24C)', None),
+    ('ACCESSIBLE PARKING', 'CT-A24C-ISA', 'Accessible parking symbol (Caltrans A24C)', None),
+    ('DIAMOND', 'CT-A24C-DIAMOND', 'Preferential lane diamond (Caltrans A24C)', None),
+    ('RAILROAD XING', 'CT-A24B-RXR', 'Railroad crossing marking (Caltrans A24B)', None),
+    ('YIELD TRIANGLE', 'PM-YIELD-LINE-TRIANGLE', 'Yield line triangle, 2 x 3 ft', None),
+    ('LEFT TURN CALMING 3', 'PM-LEFT-TURN-CALMING-3FT', 'Left turn calming bump, 3 ft', None),
+    ('LEFT TURN CALMING 10', 'PM-LEFT-TURN-CALMING-10FT', 'Left turn calming curb, 10 ft', None),
+    ('LANE DEFENDER 15', 'PM-LANE-DEFENDER-15FT', 'Lane defender, 15 ft', None),
+    ('CROSSWALK DIAGONAL', 'CT-A24F-DIAGONAL', 'Diagonal crosswalk, 45 degree bars (Caltrans A24F)', None),
+    ('KEEP CLEAR', 'PM-KEEP-CLEAR', 'KEEP CLEAR (Caltrans A24E words)', None),
+    ('BUS ONLY', 'PM-BUS-ONLY', 'BUS ONLY (Caltrans A24E words)', None),
+    ('WAIT HERE', 'PM-WAIT-HERE', 'WAIT HERE (Caltrans A24D words)', None),
 ]
 # Array blocks: drawn by dynamic_source.py from these dimensions (Caltrans Std. Plan A24F; the LA
 # plan crossing dash). Elements are (x0, y0, x1, y1) in feet. 'unit' repeats along the length grip at
 # 'spacing'; 'lines' run the full length and stretch with it; 'width' adds a width grip.
 ARRAYS = [
-    dict(name='SSS-CROSSWALK-BASIC', description='Basic crosswalk, two 1 ft lines 6 ft apart (Caltrans A24F)',
+    dict(name='CROSSWALK BASIC', description='Basic crosswalk, two 1 ft lines 6 ft apart (Caltrans A24F)',
          axis='x', length=40.0, lines=[(0, 0, None, 1), (0, 7, None, 8)]),
-    dict(name='SSS-CROSSWALK-CONTINENTAL', description='Continental crosswalk, 1 ft bars at 2 ft centers, first bar one gap from the curb (Caltrans A24F)',
+    dict(name='CROSSWALK CONTINENTAL', description='Continental crosswalk, 1 ft bars at 2 ft centers, first bar one gap from the curb (Caltrans A24F)',
          axis='x', length=40.0, unit=[(1, 0, 2, 6)], spacing=2.0),
-    dict(name='SSS-CROSSWALK-LADDER', description='Ladder crosswalk, 1 ft lines and bars (Caltrans A24F)',
+    dict(name='CROSSWALK LADDER', description='Ladder crosswalk, 1 ft lines and bars (Caltrans A24F)',
          axis='x', length=40.0, lines=[(0, 0, None, 1), (0, 7, None, 8)], unit=[(1, 1, 2, 7)], spacing=2.0),
-    dict(name='SSS-CROSSWALK-TRIPLE-FOUR', description='Triple four crosswalk, 2 x 4 ft blocks (Caltrans A24F)',
+    dict(name='CROSSWALK TRIPLE FOUR', description='Triple four crosswalk, 2 x 4 ft blocks (Caltrans A24F)',
          axis='x', length=40.0, unit=[(2, 0, 4, 4), (2, 8, 4, 12)], spacing=4.0),
-    dict(name='SSS-BIKE-XING-GREEN', description='Green bike crossing: 2 ft dash every 8 ft with the bike lane line on each edge; width grip 5 to 8 ft',
+    dict(name='BIKE XING GREEN', description='Green bike crossing: 2 ft dash every 8 ft with the bike lane line on each edge; width grip 5 to 8 ft',
          axis='y', length=48.0, width=5.0, unit=[(0, 0, None, 2)], spacing=8.0, green=True, edges=True),
 ]
 CROSSWALK_PLACE = ('Base at the curb corner on the near crosswalk edge; drag the length grip to the far curb. '
@@ -94,22 +93,22 @@ def marking_families(section):
             continue
         out.append(dict(name=name, route='markings/cad', label=desc, description=desc, kind='vis', units='ft',
                         flip_x=flip, radius=2.0, conditions=list(CONDITIONS), placement=rows[code].get('placement'),
-                        states=[dict(state=name[4:], code=code, file=f"markings/cad/{rows[code]['file']}")]))
+                        states=[dict(state=name, code=code, file=f"markings/cad/{rows[code]['file']}")]))
     for code, r in rows.items():      # every pavement word and numeral: its own small block
         if r['group'] in ('Words', 'Numerals') and code.startswith('CT-'):
             word = re.sub(r'^CT-A24[A-Z]-', '', code)
-            name = 'SSS-' + ('NUMERAL-' + word.split('-')[-1] if r['group'] == 'Numerals' else 'WORD-' + word)
+            name = ('NUMERAL ' + word.split('-')[-1]) if r['group'] == 'Numerals' else word.replace('-', ' ')
             desc = r['name'].split(' · ')[0] + f" (Caltrans {code[3:7]})"
             out.append(dict(name=name, route='markings/cad', label=desc, description=desc, kind='vis', units='ft',
                             flip_x=None, radius=2.0, conditions=list(CONDITIONS), placement=r.get('placement'),
-                            states=[dict(state=name[4:], code=code, file=f"markings/cad/{r['file']}")]))
+                            states=[dict(state=name, code=code, file=f"markings/cad/{r['file']}")]))
     for a in ARRAYS:
         green = a.get('green')
         out.append(dict(name=a['name'], route='markings/cad', label=a['description'], description=a['description'],
                         kind='array', units='ft', flip_x=None, radius=2.0,
                         conditions=list(PAINT if green else CONDITIONS),
                         placement=XING_PLACE if green else CROSSWALK_PLACE, axis=a['axis'], length=a['length'],
-                        width=a.get('width'), states=[dict(state=a['name'][4:], **{k: a[k] for k in
+                        width=a.get('width'), states=[dict(state=a['name'], **{k: a[k] for k in
                                                      ('unit', 'lines', 'spacing', 'green', 'edges', 'width') if k in a})]))
     return out
 
@@ -153,11 +152,11 @@ def signal_families(section):
         used |= set(sides.values())
         r = rows[sides['N']]
         auto = plain(r['name'])
-        name = 'SSS-' + RENAME.get(auto, auto)
+        name = '' + RENAME.get(auto, auto)
         for k in (2, 3, 4):
             if name not in names:
                 break
-            name = 'SSS-' + RENAME.get(f'{auto}-{k}', f'{auto}-{k}')
+            name = '' + RENAME.get(f'{auto}-{k}', f'{auto}-{k}')
         name = unique(name)
         desc = re.sub(r'^New\s+', '', r['name'].split(' · ')[0]).capitalize() + f' (Caltrans {sheet[3:]} {item})'
         out.append(dict(name=name, route='signals/cad', label=desc, description=desc, kind='vis', units='in',
@@ -175,7 +174,7 @@ def signal_families(section):
             continue
         used |= set(sides.values())
         auto = plain(rows[sides['N']]['name'])
-        name = unique('SSS-' + RENAME.get(auto, auto))
+        name = unique('' + RENAME.get(auto, auto))
         desc = text.capitalize() + f" (Caltrans {sides['N'][3:7]})"
         out.append(dict(name=name, route='signals/cad', label=desc, description=desc, kind='vis', units='in',
                         flip_x=None, radius=0.15, conditions=None,
@@ -186,18 +185,18 @@ def signal_families(section):
             continue
         units = 'in' if c.startswith('CT-ES') else 'ft'
         auto = plain(r['name'])
-        name = 'SSS-' + RENAME.get(auto, auto)
+        name = '' + RENAME.get(auto, auto)
         if name in names:
             auto2 = f'{auto}-2'
-            name = 'SSS-' + RENAME.get(auto2, auto2)
+            name = '' + RENAME.get(auto2, auto2)
             if name in names:
                 auto3 = f'{auto}-3'
-                name = 'SSS-' + RENAME.get(auto3, auto3)
+                name = '' + RENAME.get(auto3, auto3)
         name = unique(name)
         desc = r['name'].split(' · ')[0] + (f' (Caltrans {c[3:7]})' if c.startswith('CT-ES') else '')
         out.append(dict(name=name, route='signals/cad', label=desc, description=desc, kind='vis', units=units,
                         flip_x=None, radius=0.15 if units == 'in' else 1.0, conditions=None,
-                        states=[dict(state=name[4:], code=c, file=f"signals/cad/{r['file']}")]))
+                        states=[dict(state=name, code=c, file=f"signals/cad/{r['file']}")]))
     return out
 
 
@@ -271,7 +270,7 @@ def sign_families():
         states = sorted((dict(state=k, code=r['code'], id=r['id']) for k, r in best.items()),
                         key=lambda s: ['STANDARD', 'LEFT', 'RIGHT', 'LEFT TURN', 'RIGHT TURN'].index(s['state'])
                         if s['state'] in DIRECTION.values() or s['state'] == 'STANDARD' else 9)
-        name = 'SSS-SIGN-' + slug(base)
+        name = base
         out.append(dict(name=name, route='signs/cad', label=f'{base} sign', description=f'{base} sign, every direction (FHWA SHS / CA MUTCD)',
                         kind='vis', units='in', flip_x=None, radius=0.25, conditions=None,
                         placement='Base at the sign face bottom center (the post)', states=states))
@@ -281,7 +280,7 @@ def sign_families():
         if m:
             speeds.setdefault(int(m[1] or m[2] or 0), r)
     if len(speeds) > 1:
-        out.append(dict(name='SSS-SIGN-R2-1-SPEED', route='signs/cad', label='R2-1 speed limit',
+        out.append(dict(name='R2-1 SPEED', route='signs/cad', label='R2-1 speed limit',
                         description='R2-1 speed limit, every posted speed (FHWA SHS / CA MUTCD)', kind='vis',
                         units='in', flip_x=None, radius=0.25, conditions=None,
                         placement='Base at the sign face bottom center (the post)',
@@ -293,8 +292,15 @@ def sign_families():
 def families():
     catalog = json.loads(CATALOG.read_text())
     fams = marking_families(catalog['markings/cad']) + signal_families(catalog['signals/cad']) + sign_families()
+    seen = set()
     for f in fams:
         f.setdefault('kind', 'vis')
+        if f['route'] == 'signals/cad':
+            f['name'] = f['name'].replace('-', ' ')
+            f['states'] = [dict(st, state=st['state'].replace('-', ' ')) for st in f['states']]
+        if f['name'] in seen:
+            raise ValueError(f"two blocks named {f['name']}")
+        seen.add(f['name'])
         for s in f['states']:
             s['block'] = f['name'] + '$' + slug(s['state'])
     return fams
