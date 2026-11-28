@@ -200,7 +200,7 @@
     viewer.img.alt = card.querySelector('img').alt;
     viewer.title.textContent = card.querySelector('figcaption strong')?.textContent || code;
     viewer.name.textContent = code;
-    viewer.place.textContent = card.querySelector('.block-place')?.textContent || '';
+    viewer.place.textContent = card.dataset.place || '';
     viewer.place.hidden = !viewer.place.textContent;
     viewer.add.dataset.code = code;
     viewer.add.hidden = !code;

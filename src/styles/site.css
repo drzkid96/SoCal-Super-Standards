@@ -1317,3 +1317,11 @@ details.action-menu > .reference-actions > *{text-align:left;}
 /* first click on a download asks; the armed control is clearly marked */
 .dl-armed{outline:2px solid #b5651d;outline-offset:2px;background:#fff4e5 !important;color:#7a3e00 !important;border-radius:.25rem}
 .sl-markdown-content .block-card .block-code{font-size:.7rem;color:var(--sl-color-gray-3);font-family:var(--sl-font-mono, monospace)}
+
+/* block cards: picture, plain name, code, then Add and DWG on one line at the bottom */
+.sl-markdown-content .block-card figcaption{flex:1;gap:.2rem}
+.sl-markdown-content .block-card figcaption strong{font-size:.85rem;line-height:1.3;font-weight:600}
+.sl-markdown-content .block-card .block-actions{margin-top:auto;padding-top:.45rem;display:flex;gap:.5rem;align-items:center}
+.sl-markdown-content .block-card .block-actions button,.sl-markdown-content .block-card .block-actions a{flex:1;text-align:center;font-size:.78rem;font-weight:600;padding:.3rem .4rem;border:1px solid var(--sl-color-gray-4);border-radius:.3rem;background:var(--sl-color-bg);color:var(--sl-color-white);text-decoration:none;margin:0;line-height:1.2}
+.sl-markdown-content .block-card .block-actions a:hover,.sl-markdown-content .block-card .block-actions button:hover{border-color:var(--sl-color-accent)}
+.sl-markdown-content .block-card .block-place{display:none}
