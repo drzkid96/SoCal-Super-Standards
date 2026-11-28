@@ -804,3 +804,32 @@ window.__ready(() => {
     if(menu){menu.open=false;menu.querySelector('summary')?.focus({preventScroll:true});}
   });
 });
+
+/* Every download takes two clicks: the first click asks, the second one downloads (or builds the PDF). */
+(() => {
+  const FILE = /\.(dwg|dxf|zip|lsp|lin|ctb|dwt|scr|dgn|xlsx|csv|svg)(\?|#|$)/i;
+  const LABEL = /\b(pdf|download|dwg|zip|dxf)\b/i;
+  const isDownload = el => {
+    if (el.matches('a[href]')) return el.hasAttribute('download') || FILE.test(el.getAttribute('href'));
+    return el.matches('button') && LABEL.test(el.textContent) && !/^\s*copy\b/i.test(el.textContent) && !el.closest('[data-no-confirm]');
+  };
+  const disarm = el => {
+    if (!el.dataset.dlArmed) return;
+    el.innerHTML = el.dataset.dlHtml;
+    delete el.dataset.dlArmed; delete el.dataset.dlHtml;
+    el.classList.remove('dl-armed');
+  };
+  document.addEventListener('click', e => {
+    if (!e.isTrusted || e.button !== 0 || e.ctrlKey || e.metaKey) return;
+    const el = e.target.closest('a[href], button');
+    if (!el || el.matches('[data-block-add], .block-zoom') || !isDownload(el)) return;
+    if (el.dataset.dlArmed) { disarm(el); return; }        // second click: download
+    e.preventDefault(); e.stopImmediatePropagation();
+    for (const other of document.querySelectorAll('[data-dl-armed]')) disarm(other);
+    el.dataset.dlArmed = '1';
+    el.dataset.dlHtml = el.innerHTML;
+    el.classList.add('dl-armed');
+    el.textContent = 'Click again to download';
+    setTimeout(() => disarm(el), 6000);
+  }, true);
+})();

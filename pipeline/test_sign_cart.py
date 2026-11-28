@@ -174,6 +174,8 @@ def run(browser, base, downloads):
         button = css('[data-cart-download]')
         assert 'download sign legend' in button.text.lower()
         click(button)
+        assert 'click again' in button.text.lower()   # downloads take two clicks
+        click(button)
         destination = downloads/'LADOT-SIGN-LEGEND.zip'
         def downloaded(_):
             status = css('[data-cart-status]').text
