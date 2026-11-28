@@ -24,7 +24,7 @@
     "blocks": [
       {
         "code": "CT-A24A-TYPE-I-10FT",
-        "name": "Type I arrow, 10 ft \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through arrow, 10 ft \u00b7 Caltrans Std. Plan A24A Type I (2026)",
         "file": "CT-A24A-TYPE-I-10FT.dwg",
         "group": "Arrows",
         "size": [
@@ -38,7 +38,7 @@
       },
       {
         "code": "CT-A24A-TYPE-I-24FT",
-        "name": "Type I arrow, 24 ft \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through arrow, 24 ft \u00b7 Caltrans Std. Plan A24A Type I (2026)",
         "file": "CT-A24A-TYPE-I-24FT.dwg",
         "group": "Arrows",
         "size": [
@@ -52,7 +52,7 @@
       },
       {
         "code": "CT-A24A-TYPE-IV-L",
-        "name": "Type IV (L) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Left turn arrow \u00b7 Caltrans Std. Plan A24A Type IV (2026)",
         "file": "CT-A24A-TYPE-IV-L.dwg",
         "group": "Arrows",
         "size": [
@@ -66,7 +66,7 @@
       },
       {
         "code": "CT-A24A-TYPE-IV-R",
-        "name": "Type IV (R) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Right turn arrow \u00b7 Caltrans Std. Plan A24A Type IV (2026)",
         "file": "CT-A24A-TYPE-IV-R.dwg",
         "group": "Arrows",
         "size": [
@@ -80,7 +80,7 @@
       },
       {
         "code": "CT-A24A-TYPE-VI",
-        "name": "Type VI arrow, right lane drop \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Lane drop arrow, right lane \u00b7 Caltrans Std. Plan A24A Type VI (2026)",
         "file": "CT-A24A-TYPE-VI.dwg",
         "group": "Arrows",
         "size": [
@@ -94,7 +94,7 @@
       },
       {
         "code": "CT-A24A-TYPE-VI-MIRROR",
-        "name": "Type VI arrow, right lane drop, mirrored for the left lane \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Lane drop arrow, left lane \u00b7 Caltrans Std. Plan A24A Type VI (2026)",
         "file": "CT-A24A-TYPE-VI-MIRROR.dwg",
         "group": "Arrows",
         "size": [
@@ -108,7 +108,7 @@
       },
       {
         "code": "CT-A24A-TYPE-VIII",
-        "name": "Type VIII arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through, left and right arrow \u00b7 Caltrans Std. Plan A24A Type VIII (2026)",
         "file": "CT-A24A-TYPE-VIII.dwg",
         "group": "Arrows",
         "size": [
@@ -122,7 +122,7 @@
       },
       {
         "code": "CT-A24A-TYPE-I-18FT",
-        "name": "Type I arrow, 18 ft \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through arrow, 18 ft \u00b7 Caltrans Std. Plan A24A Type I (2026)",
         "file": "CT-A24A-TYPE-I-18FT.dwg",
         "group": "Arrows",
         "size": [
@@ -164,7 +164,7 @@
       },
       {
         "code": "CT-A24A-TYPE-VII-L",
-        "name": "Type VII (L) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through and left arrow \u00b7 Caltrans Std. Plan A24A Type VII (2026)",
         "file": "CT-A24A-TYPE-VII-L.dwg",
         "group": "Arrows",
         "size": [
@@ -178,7 +178,7 @@
       },
       {
         "code": "CT-A24A-TYPE-VII-R",
-        "name": "Type VII (R) arrow \u00b7 Caltrans Std. Plan A24A (2026)",
+        "name": "Through and right arrow \u00b7 Caltrans Std. Plan A24A Type VII (2026)",
         "file": "CT-A24A-TYPE-VII-R.dwg",
         "group": "Arrows",
         "size": [
@@ -192,7 +192,7 @@
       },
       {
         "code": "CT-A24B-RXR",
-        "name": "Railroad crossing symbol \u00b7 Caltrans Std. Plan A24B (2026)",
+        "name": "Railroad crossing marking \u00b7 Caltrans Std. Plan A24B (2026)",
         "file": "CT-A24B-RXR.dwg",
         "group": "Words and symbols",
         "size": [
@@ -304,7 +304,7 @@
       },
       {
         "code": "CT-A24C-BIKE-SYMBOL-PERSON",
-        "name": "Bike lane symbol with person \u00b7 Caltrans Std. Plan A24C (2026)",
+        "name": "Bike lane symbol with rider \u00b7 Caltrans Std. Plan A24C (2026)",
         "file": "CT-A24C-BIKE-SYMBOL-PERSON.dwg",
         "group": "Bicycle markings",
         "size": [
@@ -318,7 +318,7 @@
       },
       {
         "code": "CT-A24C-ISA",
-        "name": "International Symbol of Accessibility (ISA) marking \u00b7 Caltrans Std. Plan A24C (2026)",
+        "name": "Accessible parking symbol \u00b7 Caltrans Std. Plan A24C (2026)",
         "file": "CT-A24C-ISA.dwg",
         "group": "Words and symbols",
         "size": [
@@ -332,7 +332,7 @@
       },
       {
         "code": "CT-A24C-DIAMOND",
-        "name": "Diamond symbol \u00b7 Caltrans Std. Plan A24C (2026)",
+        "name": "Preferential lane diamond \u00b7 Caltrans Std. Plan A24C (2026)",
         "file": "CT-A24C-DIAMOND.dwg",
         "group": "Words and symbols",
         "size": [
@@ -346,7 +346,7 @@
       },
       {
         "code": "CT-A24C-SHARROW",
-        "name": "Shared roadway bicycle marking \u00b7 Caltrans Std. Plan A24C (2026)",
+        "name": "Shared lane marking (sharrow) \u00b7 Caltrans Std. Plan A24C (2026)",
         "file": "CT-A24C-SHARROW.dwg",
         "group": "Bicycle markings",
         "size": [

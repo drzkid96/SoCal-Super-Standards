@@ -198,8 +198,8 @@
     const code = card.querySelector('[data-block-add]')?.dataset.blockAdd || '';
     viewer.img.src = card.querySelector('img').src;
     viewer.img.alt = card.querySelector('img').alt;
-    viewer.title.textContent = code;
-    viewer.name.textContent = card.querySelector('figcaption span')?.textContent || '';
+    viewer.title.textContent = card.querySelector('figcaption strong')?.textContent || code;
+    viewer.name.textContent = code;
     viewer.place.textContent = card.querySelector('.block-place')?.textContent || '';
     viewer.place.hidden = !viewer.place.textContent;
     viewer.add.dataset.code = code;

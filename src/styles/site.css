@@ -1316,3 +1316,4 @@ details.action-menu > .reference-actions > *{text-align:left;}
 
 /* first click on a download asks; the armed control is clearly marked */
 .dl-armed{outline:2px solid #b5651d;outline-offset:2px;background:#fff4e5 !important;color:#7a3e00 !important;border-radius:.25rem}
+.sl-markdown-content .block-card .block-code{font-size:.7rem;color:var(--sl-color-gray-3);font-family:var(--sl-font-mono, monospace)}
