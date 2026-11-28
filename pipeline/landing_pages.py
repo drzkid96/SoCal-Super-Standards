@@ -77,13 +77,37 @@ def markings_landing(root):
     # figure links that only reach the chapter go to the figure itself (check_links.py proves the anchor)
     sections = re.sub(r'href="(' + BASE + r'/ca-mutcd/\w+/)">((?:CA MUTCD )?Figure (\d[A-Z]-\d+)(\(CA\))?)</a>',
                       lambda m: f'href="{m[1]}#fig-{m[3].lower()}{"ca" if m[4] else ""}">{m[2]}</a>', sections)
+    # section headings carry the same short names as the tiles
+    sections = re.sub(r'(<section class="mcat-sec"><h2 id="([^"]+)">)(.*?)(</h2>)',
+                      lambda m: m[1] + escape(CATEGORY_LABELS.get(m[2], m[3])) + m[4] if m[2] in CATEGORY_LABELS else m[0], sections)
     script = body[body.find('<script>', first):] if '<script>' in body[first:] else ''
     if script:
         sections = sections[:sections.find('<script>')]
     page.write_text(head + sep + top + sections.rstrip() + '\n\n' + script)
 
 
+SIGN_GROUPS = [('regulatory', 'Regulatory'), ('warning', 'Warning'), ('school', 'School'),
+               ('ttc', 'Temporary traffic control'), ('guide', 'Guide'), ('local', 'Local callouts')]
+
+
+def signs_landing(root):
+    """Jump links to each sign group and the DWG library, under the chart's search."""
+    page = root / 'signs/index.md'
+    text = page.read_text()
+    if 'class="landing-actions sign-jumps"' in text:
+        return
+    end = text.find('<h2 id="regulatory"')
+    if end < 0:
+        return
+    groups = [(k, n) for k, n in SIGN_GROUPS if f'<h2 id="{k}"' in text]
+    nav = ('<nav class="landing-actions sign-jumps" aria-label="Sign groups">'
+           + ''.join(f'<a href="#{k}">{escape(n)}</a>' for k, n in groups)
+           + f'<a class="to-cad" href="{BASE}/signs/cad/">Sign blocks (DWG)</a></nav>')
+    page.write_text(text[:end] + '\n' + nav + '\n' + text[end:])
+
+
 def build(root):
     root = Path(root)
     add_cad_tabs(root)
     markings_landing(root)
+    signs_landing(root)

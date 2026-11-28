@@ -663,7 +663,7 @@ html.sss-lb-lock, html.sss-lb-lock body { overflow: hidden; }
 .vibe-hero.map-hero img { max-height: 400px; object-fit: contain; background: #EEEDE8; }
 
 /* ---------- global alignment fix: prevent Starlight's `* + * { margin-top: 1rem }` from staggering buttons/cards inside flex & grid UI ---------- */
-.sl-markdown-content :is(.cad-tabs, .cad-hub-grid, .cad-make, .mtiles, .landing-actions, .ai-row, .ql-samples, .ql-box, .home-stats, .home-tools, .home-tasks, .home-cad-grid, .vis-strip, .paths, .hgroups, .hgroup, .mgrid, .mfig-grid, .thumbgrid, .sgrid, .sbtns, .sfilter, .dx-filters, .dx-searchrow, .dx-grid, .dx-chips, .cardgrid, .tgrid, .topic-stats, .calc-out, .rdg-s, .rel-grid, .home-ai-bar, .ai-signs) > * {
+.sl-markdown-content :is(.agency-cards, .cad-tabs, .cad-hub-grid, .cad-make, .mtiles, .landing-actions, .ai-row, .ql-samples, .ql-box, .home-stats, .home-tools, .home-tasks, .home-cad-grid, .vis-strip, .paths, .hgroups, .hgroup, .mgrid, .mfig-grid, .thumbgrid, .sgrid, .sbtns, .sfilter, .dx-filters, .dx-searchrow, .dx-grid, .dx-chips, .cardgrid, .tgrid, .topic-stats, .calc-out, .rdg-s, .rel-grid, .home-ai-bar, .ai-signs) > * {
   margin-top: 0 !important;
   margin-bottom: 0;
 }
@@ -1372,3 +1372,25 @@ table.cad-downloads td{vertical-align:middle;padding:.35rem .6rem .35rem 0}
 .sl-markdown-content details.action-menu > summary::before,.sl-markdown-content details.action-menu > summary::after{content:none;display:none}
 .sl-markdown-content details.action-menu > summary{padding:0;margin:0;font-size:1.1rem;letter-spacing:.05em}
 .sl-markdown-content a.cta{margin:.2rem .3rem .2rem 0}
+
+.agency-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:.75rem;margin:.5rem 0 1rem}
+.agency-card{padding:.85rem 1rem;border:1px solid var(--sl-color-gray-5);border-radius:.6rem;background:var(--sl-color-bg)}
+.agency-card .agency-name{display:block;line-height:1.25;font-weight:700;font-size:1.02rem;text-decoration:none;color:var(--sl-color-white)}
+.agency-card .agency-name:hover{color:var(--sl-color-accent)}
+.agency-card p{margin:.25rem 0 .5rem;font-size:.86rem;color:var(--sl-color-gray-2);line-height:1.4}
+.agency-card nav{display:flex;flex-wrap:wrap;gap:.35rem}
+.agency-card nav a{font-size:.8rem;padding:.15rem .55rem;border:1px solid var(--sl-color-gray-4);border-radius:1rem;text-decoration:none;color:inherit}
+.agency-card nav a:hover{border-color:var(--sl-color-accent);color:var(--sl-color-accent)}
+@media (max-width:40rem){
+ .home-cad-grid,.cad-hub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .home-cad-grid>a img,.cad-hub-card img{height:3.6rem}
+ .home-cad-grid>a span,.cad-hub-card span{font-size:.76rem}
+ .cad-tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+ .cad-tabs>a{white-space:nowrap}
+ .sl-markdown-content td:first-child:has(> a[href*="/downloads/cad-tools/"]){white-space:normal;word-break:break-all}
+ .mtiles{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .mtile{grid-template-rows:3.2rem auto;padding:.4rem}
+ .mtile img,.mtile-curb{height:3.2rem}
+ .mtile strong{font-size:.74rem}
+}
+.landing-actions>a.to-cad{margin-left:auto;border-color:var(--sl-color-accent);color:var(--sl-color-accent)}
