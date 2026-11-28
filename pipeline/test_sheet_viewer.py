@@ -155,16 +155,13 @@ with TemporaryDirectory() as temp:
             controls=browser.find_element(By.CSS_SELECTOR,'.chart-size')
             for disclosure in controls.find_elements(By.XPATH,'ancestor::details[not(@open)]'):
                 disclosure.find_element(By.XPATH,'./summary').click()
-            selector=Select(controls.find_element(By.TAG_NAME,'select'))
             slider=controls.find_element(By.CSS_SELECTOR,'input[type=range]')
-            assert len(selector.options)>2
             slider.send_keys(Keys.HOME)
             grids=browser.find_elements(By.CSS_SELECTOR,groups)
             assert all(g.get_attribute('data-chart-level')=='0' for g in grids)
-            selector.select_by_index(1)
-            slider.send_keys(Keys.END)
+            slider.send_keys(Keys.END)          # one card size for the whole page
             levels={g.get_attribute('data-chart-level') for g in grids}
-            assert levels=={'0','6'}, (route,levels)
+            assert levels=={'6'}, (route,levels)
             browser.refresh()
             assert {g.get_attribute('data-chart-level') for g in browser.find_elements(By.CSS_SELECTOR,groups)}==levels
         browser.get(base+'ca-mutcd/9e/#fig-9e-3ca-sheet-7')
