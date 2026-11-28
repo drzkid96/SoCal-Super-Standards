@@ -1,5 +1,6 @@
 """Publish marking and signal block libraries from their shared catalog."""
 import json
+import re
 from html import escape
 from pathlib import Path
 from urllib.parse import quote
@@ -20,8 +21,6 @@ def build(root, lookup):
                       f'<script src="{BASE}/js/pavement-alphabet.js" defer></script>',
                       f'<script src="{BASE}/js/block-generators.js" defer></script>',
                       f'<script src="{BASE}/js/block-cart.js" defer></script>', ''])
-        if collection.get('note'):
-            lines.extend([escape(collection['note']), ''])
         lines.extend(['<div class="block-tools"><button type="button" onclick="window.SSSBlockCart&&SSSBlockCart.open()">Open block cart</button>'
                       '<button type="button" data-block-editor="crosswalk">Block editor</button>'
                       + ('<button type="button" data-block-editor="pavetext">Pavement text</button>' if route == 'markings/cad' else '') + '</div>', ''])
@@ -30,12 +29,16 @@ def build(root, lookup):
             if not image.is_file():
                 raise ValueError(f'Missing preview: {image}')
             lines.extend([f'<img src="{BASE}/{quote(collection["preview"])}" alt="{escape(title)} overview" loading="lazy" style="max-width:100%;background:#fff">', ''])
+        rows = []
         for item in collection.get('downloads', []):
             asset = Path('public') / item['path']
             if not asset.is_file():
                 raise ValueError(f'Missing download: {asset}')
-            lines.append(f'<p><strong>{escape(item["label"])}</strong> · {escape(item["note"])} · <a download href="{BASE}/{quote(item["path"])}">Download</a></p>')
-        if collection.get('downloads'):
+            rows.append(f'<tr><td><a download href="{BASE}/{quote(item["path"])}">{escape(item["label"])}</a></td><td>{escape(item["note"][:1].upper() + item["note"][1:])}</td></tr>')
+        if rows or collection.get('note'):
+            lines.append('<details class="cad-more"><summary>Whole libraries and drawing conventions</summary>'
+                         + (f'<table class="cad-downloads"><tbody>{"".join(rows)}</tbody></table>' if rows else '')
+                         + (f'<p>{escape(collection["note"])}</p>' if collection.get('note') else '') + '</details>')
             lines.append('')
         groups = {name: [] for name in collection['groups']}
         used = set()
@@ -66,7 +69,7 @@ def build(root, lookup):
                 data = escape(json.dumps(detail, separators=(',', ':')), quote=True)
                 lines.append(f'<figure class="block-card" id="{escape(code.lower())}" data-info="{data}"><a class="block-zoom" href="{BASE}/{quote(preview.as_posix())}" aria-label="View {escape(code)} larger">'
                              f'<img src="{BASE}/{quote(preview.as_posix())}" alt="{escape(name)}" loading="lazy" decoding="async"></a>'
-                             f'<figcaption><strong>{escape(name.split(" · ")[0])}</strong>' + (f'<span class="block-code">{escape(code)}</span>' if route != 'markings/cad' else '') +
+                             f'<figcaption><strong>{escape(re.sub(r"[;,]\s*(?:with\s+)?(?:existing|proposed|remove)\b.*states?$", "", name.split(" · ")[0], flags=re.I))}</strong>' + (f'<span class="block-code">{escape(code)}</span>' if route != 'markings/cad' else '') +
                              f'<span class="block-actions"><button type="button" data-block-add="{escape(code)}">Add</button>'
                              f'<a download href="{href}">DWG</a></span></figcaption></figure>')
             lines.append('</div>')

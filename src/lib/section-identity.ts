@@ -27,16 +27,18 @@ export function sectionIdentity(id: string) {
   const key=owners.find(item => path.startsWith(item.prefix))?.key;
   const agency=key && profiles[key];
   const book=books.find(entry=>url.startsWith(entry.url));
-  const family=sections[aliases[top]||top] || (agency ?
+  const cad = top==='cad' || sub==='cad';            // signs/cad, markings/cad and signals/cad belong to the CAD hub
+  const family=(cad && sections['cad']) || sections[aliases[top]||top] || (agency ?
     [agency.name,agency.kind+' publications and standards.','green'] :
     [first(top.replaceAll('-',' ')), 'Browse the source and its related references.', 'teal']);
   let type = sub ? (names[top] || (book ? 'Publication section' : 'Reference page')) : 'Section index';
+  if(cad)type = top==='cad' ? 'Section index' : 'Block library';
   if(top==='regions' && sub && !third)type=agency?.kind||'Authority profile';
   if(top==='regions' && third)type='Source publication';
   if(book?.url===url && top!=='regions')type=top==='transit'?'Operator guide':'Source publication';
   if(top==='map')type=sub?'Database documentation':'Municipal directory';
   const tone=agency?.kind==='Transit agency'?'violet':family[2];
-  const parent: Link | undefined=book && book.url!==url ? {label:book.title,href:book.url} :
+  const parent: Link | undefined=cad ? (top==='cad' ? undefined : {label:'CAD',href:BASE+'/cad/'}) : book && book.url!==url ? {label:book.title,href:book.url} :
     agency && agency.home!==url ? {label:agency.name,href:agency.home} :
     sub ? {label:family[0],href:BASE+'/'+(aliases[top]||top)+'/'} : undefined;
   const mapHref = agency ? BASE+'/map/?issuer='+agency.key :

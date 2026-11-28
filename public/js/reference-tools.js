@@ -371,6 +371,11 @@
     enhance(article);
   }
   button(top,'Copy citation',()=>navigator.clipboard.writeText(citation(title+(operator?' · page '+operator.querySelector('input').value:''),location.href)));
+  // A page that hands out DWGs offers the DWG, not a PDF print of the page; catalog and landing pages offer neither.
+  const offersDwg=article.querySelector('a[href$=".dwg"],a[href*=".dwg?"],[data-primary-cad],.block-card,.cad-library');
+  if(offersDwg)for(const b of [...top.querySelectorAll('button')])if(/PDF$/.test(b.textContent.trim()))b.remove();
+  if(article.querySelector('.mcat-sec,.sseries,.cad-hub-grid,.design-tools,.home-tasks,.block-grid,.cad-library')||
+     (!book&&/^\/SoCal-Super-Standards\/[^/]+\/$/.test(location.pathname)))top.remove();
   const singleSign=article.querySelector('.sdetail-img > .sign-art:only-child .figure-actions');
   if(singleSign){
     singleSign.append(...top.children);top.remove();

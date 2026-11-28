@@ -32,10 +32,11 @@ OPERATORS={'la-metro':['Los Angeles County Metropolitan Transportation Authority
 TITLES={'la-boe':'Los Angeles Bureau of Engineering','ladot':'Los Angeles Department of Transportation',
         'fhwa':'Federal Highway Administration','mts':'San Diego Metropolitan Transit System','ictc':'Imperial County Transportation Commission'}
 SECTIONS={
- 'tools':('Design tools','Find drawings, build a sign legend or run an engineering calculation.','teal'),
+ 'tools':('Tools','Look up standards, get CAD blocks or run an engineering check.','teal'),
+ 'cad':('CAD','Sign, pavement marking and signal blocks as DWG, block editors and AutoCAD templates.','teal'),
  'topics':('Design topics','Compare treatments, then follow their governing sections and agency drawings.','teal'),
- 'signs':('Sign catalog','Identify the sign face, designation, and related source guidance.','amber'),
- 'markings':('Pavement markings','Find marking layouts, line types, and the provisions that describe their use.','amber'),
+ 'signs':('Sign chart','Every sign by code, with its face, sizes, sources and DWG.','amber'),
+ 'markings':('Pavement markings','Caltrans striping details, arrows, words, crosswalks, bicycle and colored-pavement markings and curb paint.','amber'),
  'mutcd':('Federal MUTCD','FHWA · 11th Edition with Revision 1','blue'),
  'ca-mutcd':('California MUTCD','Caltrans · California MUTCD 2026','green'),
  'details':('Drawing and detail index','Find the drawing number, source publication, and all sheets in the set.','amber'),

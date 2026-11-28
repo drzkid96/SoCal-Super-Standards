@@ -51,7 +51,7 @@ def shell():
             '<figcaption data-legend-caption></figcaption><div class="legend-frame"><div class="legend-grid" data-legend-grid></div></div>'
             '<div class="legend-nav" data-legend-nav hidden><button type="button" data-legend-prev aria-label="Previous table">←</button>'
             '<button type="button" data-legend-next aria-label="Next table">→</button></div></figure>'
-            '<div class="legend-order"><p data-cart-order-label>Legend order</p><ul data-cart-items></ul></div></div>'
+            '<div class="legend-order"><p data-cart-order-label>Legend, in sign-code order</p><ul data-cart-items></ul></div></div>'
             +LAYOUT+'<p data-cart-status role="status" aria-live="polite"></p><footer>'
             '<button type="button" data-cart-clear>Clear selection</button><button type="button" data-cart-pdf>Download PDF chart</button>'
             '<button type="button" data-cart-download>Download sign legend</button>'

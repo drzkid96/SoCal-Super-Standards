@@ -571,7 +571,7 @@ window.__ready = window.__ready || ((f) => (document.readyState === 'loading' ? 
       const seen = new Set();
       const root = document.querySelector('main') || document.body;
       root.querySelectorAll('a[href], .sdetail-img img, .ltc-pic img').forEach((el) => {
-        if (el.closest('.sss-lb, .pv-tip, .sref-tip, nav, .rsign-grid')) return;
+        if (el.closest('.sss-lb, .pv-tip, .sref-tip, nav, .rsign-grid, .block-card, .block-viewer')) return;
         let src = '';
         if (el.tagName === 'A') {
           const href = el.getAttribute('href') || '';

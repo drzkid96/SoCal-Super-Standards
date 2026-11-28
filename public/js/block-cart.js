@@ -14,7 +14,7 @@
     node.append(...kids.filter(Boolean));
     return node;
   };
-  const defaults = {title: '', scale: 20, sheets: true, labels: true, groupBy: 'group', sort: 'cart', dots: false, signs: true};
+  const defaults = {title: '', scale: 20, sheets: true, labels: true, groupBy: 'group', sort: 'code', dots: false, signs: true};
   let state = load(), index, busy = false;
   function load() {
     try {
@@ -78,7 +78,7 @@
       field('Title', title),
       field('Plan scale', opt('scale', [[10, '1" = 10\''], [20, '1" = 20\''], [40, '1" = 40\''], [50, '1" = 50\'']])),
       field('Sheets', opt('groupBy', [['group', 'One 24 x 36 sheet per block group'], ['none', 'Fill sheets in cart order']])),
-      field('Order', opt('sort', [['cart', 'Cart order'], ['code', 'By code']])),
+      field('Order', opt('sort', [['code', 'By code (A to Z)'], ['cart', 'Cart order']])),
       check('sheets', 'Sheet frames and title strip'),
       check('labels', 'Code under each block'),
       check('dots', 'Green fields as the LADOT dots hatch')),
@@ -149,8 +149,7 @@
     editor.show(kind);
   }
   // Common pavement legends offered in the text field; / starts the next line along travel.
-  const LEGENDS = ['ONLY', 'BUS/ONLY', 'BIKE/ONLY', 'BUS/LANE', 'BIKE/LANE', 'KEEP/CLEAR', 'STOP', 'XING', 'PED/XING', 'SCHOOL/XING',
-    'SLOW', 'YIELD', 'SIGNAL/AHEAD', 'STOP/AHEAD', 'LEFT/ONLY', 'RIGHT/ONLY', 'TURN/ONLY', 'TAXI/ONLY', 'FIRE/LANE', 'NO/PARKING', 'LOADING/ZONE'];
+  const LEGENDS = ['ONLY', 'BUS/ONLY', 'BIKE/ONLY', 'BUS/LANE', 'BIKE/LANE', 'KEEP/CLEAR', 'STOP', 'XING', 'PED/XING', 'SLOW', 'YIELD', 'STOP/AHEAD', 'LEFT/ONLY', 'RIGHT/ONLY', 'TURN/ONLY', 'TAXI/ONLY', 'FIRE/LANE', 'NO/PARK', 'LOAD/ZONE', 'TOW/AWAY', 'HOV/LANE'];
   function downloadOne(gen, params, status) {
     const made = G().make(gen, params);
     status.textContent = 'Building ' + made.name + '.dwg…';
@@ -171,7 +170,14 @@
     const preview = el('div', {class: 'bc-preview'}), note = el('p', {class: 'bc-note'}), name = el('p', {class: 'bc-made'}), done = el('p', {class: 'bc-note', role: 'status'});
     let params = {};
     function draw() {
-      const made = G().make(pick.value, params);
+      let made;
+      try { made = G().make(pick.value, params); } catch (error) {
+        name.textContent = ''; preview.replaceChildren(); note.textContent = error.message; note.classList.add('bc-error');
+        for (const b of acts) b.disabled = true;
+        return;
+      }
+      note.classList.remove('bc-error');
+      for (const b of acts) b.disabled = false;
       preview.innerHTML = G().svg(made);
       name.textContent = made.name;
       note.textContent = made.note;
@@ -191,79 +197,91 @@
       }));
       draw();
     }
+    const acts = [el('button', {type: 'button', class: 'bc-primary', onclick: () => { addCustom(pick.value, params); dialog.close(); }}, 'Add to cart'),
+      el('button', {type: 'button', onclick: () => downloadOne(pick.value, {...params}, done)}, 'Download DWG')];
     pick.addEventListener('change', fields);
     form.addEventListener('submit', e => e.preventDefault());
     dialog.append(el('header', {}, el('h2', {text: 'Block editor'}), el('button', {type: 'button', class: 'bc-close', 'aria-label': 'Close editor', onclick: () => dialog.close()}, '×')),
       el('div', {class: 'bc-editor-body'}, el('div', {}, field('Block', pick), form), el('div', {}, preview, name, note, done)),
-      el('div', {class: 'bc-actions'}, el('button', {type: 'button', class: 'bc-primary', onclick: () => { addCustom(pick.value, params); dialog.close(); }}, 'Add to cart'),
-        el('button', {type: 'button', onclick: () => downloadOne(pick.value, {...params}, done)}, 'Download DWG')));
+      el('div', {class: 'bc-actions'}, ...acts));
     document.body.append(dialog);
     return {show(kind) { pick.value = kind; done.textContent = ''; fields(); dialog.showModal(); }};
   }
 
   // A picture opens a larger view; only the DWG link downloads.
   let viewer;
-  // Block details: base point, visibility states, filled area per color (pipeline/block_info.py)
-  function specRows(info) {
-    const rows = [], unit = info.unit || 'ft';
-    const num = v => (+v).toFixed(2).replace(/\.?0+$/, '');
-    const row = (label, ...cells) => rows.push(el('tr', {}, el('th', {scope: 'row'}, label), el('td', {}, el('div', {class: 'bv-cell'}, ...cells))));
-    const colors = list => {
-      if (!list.length) return [el('span', {class: 'bv-none'}, 'No filled area (line work)')];
-      const out = list.map(([name, hex, a]) => el('span', {class: 'bv-area'},
-        el('i', {class: 'bv-swatch', style: `background:${hex}`}), `${name} · ${num(a)} sq ${unit}`));
-      if (list.length > 1) out.push(el('span', {class: 'bv-area bv-total'}, `Total · ${num(list.reduce((t, c) => t + c[2], 0))} sq ${unit}`));
-      return out;
-    };
-    if (info.base) row('Base point', el('span', {}, info.base), ...(info.placement ? [el('small', {}, info.placement)] : []));
-    if (info.states) row('Visibility states', ...(info.states.length
-      ? info.states.map(s => el('span', {class: 'bv-chip'}, s)) : [el('span', {}, 'One state (static block)')]));
-    if (info.area) row('Filled area', ...colors(info.area));
-    if (info.areaByState) for (const [state, list] of info.areaByState) row(`Filled area · ${state}`, ...colors(list));
-    if (info.size) row('Size', `${num(info.size[0])} × ${num(info.size[1])} ${unit}`);
-    return rows;
+  // Quick view, like a product page: the drawing (insertion point marked), its visibility states as
+  // switchable options, base point, filled area per color for the chosen state, size, Add and DWG.
+  const num = v => (+v).toFixed(2).replace(/\.?0+$/, '');
+  function areaCells(list, unit) {
+    if (!list || !list.length) return [el('span', {class: 'bv-none'}, 'No filled area (line work)')];
+    const out = list.map(([name, hex, a]) => el('span', {class: 'bv-area'},
+      el('i', {class: 'bv-swatch', style: `background:${hex}`}), `${name} ${num(a)} sq ${unit}`));
+    if (list.length > 1) out.push(el('span', {class: 'bv-area bv-total'}, `Total ${num(list.reduce((t, c) => t + c[2], 0))} sq ${unit}`));
+    return out;
   }
-
   function openViewer(card) {
     if (!viewer) {
-      const img = el('img', {alt: ''}), title = el('strong'), name = el('span'), place = el('small', {class: 'block-place'});
-      const add = el('button', {type: 'button', class: 'bc-primary'}), dwg = el('a', {download: true}, 'DWG');
+      const img = el('img', {alt: ''}), title = el('h2', {class: 'bv-title'}), name = el('p', {class: 'bv-name'});
+      const states = el('div', {class: 'bv-states', role: 'radiogroup', 'aria-label': 'Visibility state'});
+      const add = el('button', {type: 'button', class: 'bc-primary'}), dwg = el('a', {download: true, class: 'bv-dwg'}, 'Download DWG');
       const close = el('button', {type: 'button', 'aria-label': 'Close', class: 'bv-close'}, '×');
       const spec = el('table', {class: 'bv-spec'});
+      const legend = el('p', {class: 'bv-legend'}, el('i', {class: 'bv-base-mark', 'aria-hidden': 'true'}), 'Insertion point');
       const box = el('dialog', {class: 'block-viewer', 'aria-label': 'Block details'},
-        close, el('div', {class: 'bv-pic'}, img), el('div', {class: 'bv-text'}, title, name, place, spec, el('div', {class: 'bc-actions'}, add, dwg)));
+        close, el('div', {class: 'bv-pic'}, img, legend),
+        el('div', {class: 'bv-text'}, title, name, states, spec, el('div', {class: 'bc-actions'}, add, dwg)));
       close.addEventListener('click', () => box.close());
       box.addEventListener('click', e => { if (e.target === box) box.close(); });
       add.addEventListener('click', () => { toggle(add.dataset.code); add.textContent = has(add.dataset.code) ? 'In cart · remove' : 'Add to cart'; });
       document.body.append(box);
-      viewer = {box, img, title, name, place, spec, add, dwg};
+      viewer = {box, img, title, name, states, spec, legend, add, dwg};
     }
+    const v = viewer, thumb = card.querySelector('img');
     const code = card.querySelector('[data-block-add]')?.dataset.blockAdd || '';
-    viewer.img.src = card.querySelector('img').src;
-    viewer.img.alt = card.querySelector('img').alt;
-    viewer.title.textContent = card.querySelector('figcaption strong')?.textContent || code;
-    viewer.name.textContent = card.querySelector('.block-code')?.textContent || '';
-    viewer.place.hidden = true;
     let info = {};
     try { info = JSON.parse(card.dataset.info || '{}'); } catch (e) { info = {}; }
-    viewer.spec.replaceChildren(...specRows(info));
-    viewer.spec.hidden = !viewer.spec.children.length;
-    viewer.add.dataset.code = code;
-    viewer.add.hidden = !code;
-    viewer.add.textContent = has(code) ? 'In cart · remove' : 'Add to cart';
-    viewer.dwg.href = card.querySelector('.block-actions a[download]')?.href || '#';
-    viewer.box.showModal();
+    const unit = info.unit || 'ft';
+    const stem = thumb.src.replace(/\.svg(\?.*)?$/, '').replace('/block-previews/', '/block-details/');
+    const names = info.states && info.states.length ? info.states : [''];
+    const areaOf = i => info.areaByState ? info.areaByState[i]?.[1] : info.area;
+    function show(i) {
+      v.img.src = info.views ? `${stem}/${i}.svg` : thumb.src;
+      v.legend.hidden = !info.views;
+      for (const [k, b] of [...v.states.children].entries()) b.setAttribute('aria-checked', String(k === i));
+      const rows = [];
+      const row = (label, ...cells) => rows.push(el('tr', {}, el('th', {scope: 'row'}, label), el('td', {}, el('div', {class: 'bv-cell'}, ...cells))));
+      if (info.base) row('Insertion point', el('span', {}, info.base), ...(info.placement ? [el('small', {}, info.placement)] : []));
+      row(names[i] ? `Filled area, ${names[i].toLowerCase()}` : 'Filled area', ...areaCells(areaOf(i), unit));
+      if (info.size) row('Size', `${num(info.size[0])} × ${num(info.size[1])} ${unit}`);
+      v.spec.replaceChildren(...rows);
+    }
+    v.title.textContent = (card.querySelector('figcaption strong')?.textContent || code).replace(/[;,]\s*(?:with\s+)?(?:existing|proposed|remove)\b.*states?$/i, '');
+    v.name.textContent = card.querySelector('.block-code')?.textContent || '';
+    v.name.hidden = !v.name.textContent;
+    v.img.alt = thumb.alt;
+    v.states.replaceChildren(...(names[0] ? names.map((n, i) => el('button', {type: 'button', role: 'radio', onclick: () => show(i)}, n)) : []));
+    v.states.hidden = !names[0];
+    v.add.dataset.code = code;
+    v.add.hidden = !code;
+    v.add.textContent = has(code) ? 'In cart · remove' : 'Add to cart';
+    v.dwg.href = card.querySelector('.block-actions a[download]')?.href || '#';
+    const first = Math.max(0, names.findIndex(n => /proposed/i.test(n)));
+    show(first);
+    v.box.showModal();
   }
 
   document.addEventListener('click', e => {
     const zoom = e.target.closest('.block-zoom');
-    if (zoom) { e.preventDefault(); openViewer(zoom.closest('.block-card')); return; }
+    if (zoom) { e.preventDefault(); e.stopImmediatePropagation(); openViewer(zoom.closest('.block-card')); return; }
     const b = e.target.closest('[data-block-add]');
     if (b) { e.preventDefault(); toggle(b.dataset.blockAdd); }
     const ed = e.target.closest('[data-block-editor]');
     if (ed) { e.preventDefault(); openEditor(ed.dataset.blockEditor || 'crosswalk'); }
-  });
+  }, true);
   window.addEventListener('storage', e => { if (e.key === key) { state = load(); render(); } if (e.key === signKey) render(); });
   window.SSSBlockCart = {open: openCart, add: toggle, edit: openEditor};
   render();
+  const wanted = new URLSearchParams(location.search).get('edit');      // links such as ?edit=pavetext open the editor
+  if (wanted && G()?.families?.[wanted]) openEditor(wanted);
 })();

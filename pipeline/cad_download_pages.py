@@ -228,11 +228,9 @@ def write_pages(root, lookup, release):
         dest.write_text(md[:pos]+'\n\n'+summary+'\n\n'+md[pos:])
     count=len(records)
     rows=[]
-    frequent={k:i for i,k in enumerate(('R1-1','R1-2','R2-1','W11-2','R3-17','R10-15','W3-1'))}
-    def browse_order(rec):
+    def browse_order(rec):        # sign-code order, issued artwork first within a code
         issued=rec.get('sourceKind')=='current issued sign artwork'
-        return (not issued,frequent.get(designation_key(rec['code']),len(frequent)) if issued else len(frequent),
-                sort_key(rec['code']),bool(rec.get('observationIds')),sort_key(rec['id']))
+        return (sort_key(rec['code']),not issued,bool(rec.get('observationIds')),sort_key(rec['id']))
     for r in sorted(records,key=browse_order):
         text=' '.join([r['code'],r['blockName'],*r['aliases'],str(r.get('description','')),str(source(r)),str(r.get('sizeStatus','')),str(r.get('geometryStatus',''))])
         attrs={'id':mark(r),'data-code':r['code'],'data-width':r['width'],'data-height':r['height'],'data-availability':'dwg','data-query':text,'data-keys':'|'.join(designation_key(a) for a in r['aliases']),
@@ -274,7 +272,7 @@ def write_pages(root, lookup, release):
           f'<link rel="stylesheet" href="{BASE}/js/block-cart.css">\n<script src="{BASE}/js/pavement-alphabet.js" defer></script>\n<script src="{BASE}/js/block-generators.js" defer></script>\n'
           f'<script src="{BASE}/js/block-cart.js" defer></script>\n')
     index=root/'signs/cad/index.md';index.parent.mkdir(parents=True,exist_ok=True)
-    index.write_text('---\ntitle: CAD sign block downloads\ntableOfContents: false\n---\n\n'+body)
+    index.write_text('---\ntitle: Sign blocks\ntableOfContents: false\n---\n\n'+body)
     chart=root/'signs/index.md'
     content=chart.read_text()
     content=cart.chart_tiles(content,by_url)
@@ -288,5 +286,5 @@ def write_pages(root, lookup, release):
     chart.write_text((content[:start]+actions+'\n'+content[start:]).replace('title: Sign Library','title: Sign chart',1))
     cart.write_options(records+supplemental)
     for query in ('CAD sign downloads','CAD sign blocks','DWG sign library','sign block library','master sign drawing'):
-        lookup.setdefault(query.upper(),[]).insert(0,['CAD sign block downloads',CATALOG])
+        lookup.setdefault(query.upper(),[]).insert(0,['Sign blocks',CATALOG])
     return records

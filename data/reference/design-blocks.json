@@ -1,6 +1,6 @@
 {
   "markings/cad": {
-    "title": "Pavement marking DWG blocks",
+    "title": "Pavement marking blocks",
     "groups": [
       "Arrows",
       "Words",
@@ -1814,7 +1814,7 @@
     ]
   },
   "signals/cad": {
-    "title": "Signal, electrical and survey DWG blocks",
+    "title": "Signal and survey blocks",
     "groups": [
       "Annotation",
       "Overhead signs",

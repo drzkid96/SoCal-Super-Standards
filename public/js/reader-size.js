@@ -147,11 +147,12 @@
   category.setAttribute('aria-label','Category to resize');
   category.add(new Option('All categories','*'));
   for (const [key,name] of names) category.add(new Option(name,key));
-  const slider = range('Chart size',1,presets.length,1);
+  category.hidden = true;      // one size for the whole page; the per-category picker read as a second filter
+  const slider = range('Card size',1,presets.length,1);
   const output = make('span','chart-size-value');
-  const reset = button('Reset','Restore the standard size for the selected categories');
-  controls.append(make('span','size-label','Chart size'),category,slider,output,reset);
-  (filter.querySelector('.sign-chart-options') || filter).append(controls);
+  const reset = button('Reset','Restore the standard card size');
+  controls.append(make('span','size-label','Card size'),category,slider,output,reset);
+  (filter.querySelector('.sign-chart-options') || filter.querySelector('.mview') || filter).append(controls);
   const valid = n => Number.isInteger(n) && n >= 0 && n < presets.length;
   function level(key) { return valid(sizes[key]) ? sizes[key] : valid(sizes['*']) ? sizes['*'] : 4; }
   function draw() {

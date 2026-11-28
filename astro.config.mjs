@@ -112,10 +112,11 @@ export default defineConfig({
           { label: 'What Governs (Status)', link: '/bulletins/standards-status/' },
         ] },
         { label: 'CAD', collapsed: true, items: [
-          { label: 'CAD resources', link: '/cad/' },
-          { label: 'Sign DWG blocks', link: '/signs/cad/' },
-          { label: 'Pavement marking DWG blocks', link: '/markings/cad/' },
-          { label: 'Signal and survey DWG blocks', link: '/signals/cad/' },
+          { label: 'CAD home', link: '/cad/' },
+          { label: 'Sign blocks', link: '/signs/cad/' },
+          { label: 'Pavement marking blocks', link: '/markings/cad/' },
+          { label: 'Signal and survey blocks', link: '/signals/cad/' },
+          { label: 'Templates and tools', link: '/cad/#tools' },
         ] },
         { label: 'Design by Topic', collapsed: true, items: [
           { label: 'All 12 Topics (Visual Hub)', link: '/topics/' },

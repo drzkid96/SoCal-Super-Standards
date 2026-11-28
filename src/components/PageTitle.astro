@@ -42,7 +42,10 @@ if (id && id !== '404') {
   crumbs.push({ label: 'Home', href: `${BASE}/` });
 
   const agency = Object.hasOwn(agencies,top) ? agencies[top as AgencyKey] : undefined;
-  if (agency || ['mutcd','ca-mutcd'].includes(top)) {
+  const cadPage = segs[1] === 'cad' && segs.length === 2;
+  if (cadPage) {
+    crumbs.push({ label: 'CAD', href: `${BASE}/cad/` });   // block libraries live in the CAD hub
+  } else if (agency || ['mutcd','ca-mutcd'].includes(top)) {
     crumbs.push({ label: 'Agencies', href: BASE+'/agencies/' });
     if (segs.length > 1 && agency) crumbs.push({label: agency.short, href: BASE+'/'+top+'/'});
     if (top === 'mutcd' || top === 'ca-mutcd') {
@@ -72,9 +75,9 @@ if (id && id !== '404') {
       if (ag) crumbs.push({ label: ag[0], href: ag[1] });
     }
   } else if (top === 'signs') {
-    if (segs.length > 1) crumbs.push({ label: 'Sign Library', href: `${BASE}/signs/` });
+    if (segs.length > 1 && !cadPage) crumbs.push({ label: 'Sign chart', href: `${BASE}/signs/` });
   } else if (top === 'markings') {
-    if (segs.length > 1) crumbs.push({ label: 'Pavement Markings', href: `${BASE}/markings/` });
+    if (segs.length > 1 && !cadPage) crumbs.push({ label: 'Pavement markings', href: `${BASE}/markings/` });
   } else if (top === 'bulletins') {
     if (segs.length > 1) crumbs.push({ label: 'Bulletins & Policy Memos', href: `${BASE}/bulletins/` });
   } else if (top === 'ca-mutcd') {

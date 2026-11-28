@@ -38,7 +38,7 @@
   // Custom pavement legend from the FHWA elongated alphabet. Letters keep the FHWA proportions; the letter
   // pitch is the Caltrans A24D/A24E pitch (20 in per 8 ft of letter height), so words match the Caltrans
   // blocks in length. Lines stack in the direction of travel: the first line is nearest the driver.
-  const PAVE_CHARS = /[A-Z0-9 ]/;
+  const PAVE_CHARS = /[A-Z0-9 ]/, PAVE_MAX_CHARS = 5, PAVE_MAX_WIDTH = 11;   // one lane: 5 characters, 11 ft across
   function paveText(text) {
     return String(text ?? '').toUpperCase().split(/[\n\/|]/).map(l => Array.from(l).filter(c => PAVE_CHARS.test(c)).join('').replace(/ +/g, ' ').trim()).filter(Boolean).slice(0, 4);
   }
@@ -47,20 +47,23 @@
     pavetext: {
       label: 'Pavement text',
       fields: [
-        ['text', 'Legend (/ starts the next line)', 'text', 'ONLY', [24]],
+        ['text', 'Legend (up to 5 characters a line; / starts the next line)', 'text', 'ONLY', [6]],
         ['height', 'Letter height, ft', 'number', 8, [2, 12, 0.5]],
         ['lines', 'Space between lines, ft', 'number', 32, [2, 100, 0.5]],
       ],
-      note: 'FHWA elongated letters. Base at the bottom center of the first line; the first line is nearest the driver and later lines follow along +Y. Caltrans spaces two-line legends 4 letter heights apart (32 ft for 8 ft letters).',
+      note: 'FHWA elongated letters, at most 5 characters and 11 ft across per line. Base at the bottom center of the first line; the first line is nearest the driver and later lines follow along +Y. Caltrans spaces two-line legends 4 letter heights apart (32 ft for 8 ft letters).',
       build(p) {
         const A = self.SSSPavementAlphabet;
         if (!A) throw Error('The pavement alphabet did not load. Refresh the page.');
         const H = p.height, pitch = H / 4.8, wide = A.E.w * H, gap = pitch - wide, out = [], shapes = [];
         const lines = paveText(p.text);
+        const long = lines.find(l => l.length > PAVE_MAX_CHARS);
+        if (long) throw Error(`${long} has ${long.length} characters. Use at most ${PAVE_MAX_CHARS} a line (/ starts the next line).`);
         lines.forEach((line, li) => {
           const chars = Array.from(line);
           const widths = chars.map(c => c === ' ' ? wide : A[c].w * H);
           const total = widths.reduce((t, w) => t + w, 0) + gap * Math.max(chars.length - 1, 0);
+          if (total > PAVE_MAX_WIDTH + 1e-9) throw Error(`${line} is ${total.toFixed(1)} ft across. Keep each line within ${PAVE_MAX_WIDTH} ft: lower the letter height.`);
           let x = -total / 2;
           const y = li * (H + p.lines);
           chars.forEach((c, i) => {

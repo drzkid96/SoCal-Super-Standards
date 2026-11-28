@@ -27,6 +27,21 @@
   const idsOf=group=>group.records.map(r=>typeof r==='string'?r:r?.id).filter(id=>typeof id==='string'&&id);
   const cleaned=list=>(Array.isArray(list)?list:[]).filter(g=>g&&typeof g.sheetId==='string'&&Array.isArray(g.records))
     .map(g=>({sheetId:g.sheetId,label:String(g.label||g.sheetId),records:[...new Set(idsOf(g))]})).filter(g=>g.records.length);
+  // Every legend is kept in sign-code order (R1-1, R1-2, R1-10P, R2-1 ...), so charts are always alphabetized.
+  const natural=code=>String(code).toUpperCase().match(/\d+|[^\d]+/g)||[];
+  function compareCodes(a,b){
+    const x=natural(a),y=natural(b);
+    for(let i=0;i<Math.max(x.length,y.length);i++){
+      if(x[i]===undefined)return -1;if(y[i]===undefined)return 1;
+      const nx=/^\d/.test(x[i]),ny=/^\d/.test(y[i]);
+      if(nx&&ny&&+x[i]!==+y[i])return +x[i]-+y[i];
+      if(nx!==ny)return nx?-1:1;
+      if(x[i]!==y[i])return x[i]<y[i]?-1:1;
+    }
+    return 0;
+  }
+  const codeOf=id=>catalog?.get(id)?.code||id;
+  const alphabetize=list=>list.map(g=>({...g,records:[...g.records].sort((a,b)=>compareCodes(codeOf(a),codeOf(b))||compareCodes(a,b))}));
   function stored(){
     if(!persistent)return cleaned(groups);
     try{
@@ -88,7 +103,7 @@
         description.append(el('strong',(index+1)+'. '+(r?.code||id)),
           el('small',r?[r.sizeLabel,r.variant].filter(Boolean).join(' · '):(catalog?'Drawing unavailable in this edition':'Loading drawing…')));
         const controls=el('div');controls.className='cart-line-controls';
-        for(const [action,text,label,disabled] of [['earlier','↑','Move earlier',index===0],['later','↓','Move later',index===group.records.length-1],['remove','×','Remove',false]]){
+        for(const [action,text,label,disabled] of [['remove','×','Remove',false]]){
           const b=button(text,label+' · '+(r?.code||id)+' · '+group.label);b.setAttribute('data-cart-'+action,id);b.title=label;b.disabled=busy||disabled;controls.append(b);
         }
         li.append(description,controls);fragment.append(li);
@@ -112,7 +127,7 @@
     review();
   }
   function store(updated){
-    const live=cleaned(updated);
+    const live=alphabetize(cleaned(updated));
     try{localStorage.setItem(key,JSON.stringify(live));}catch{persistent=false;}
     if(status)status.textContent='';
     sync(live);
@@ -131,7 +146,7 @@
   async function show(){
     if(!dialog){location.assign(base+'/signs/?cart=1');return;}
     status.textContent='';if(!dialog.open)dialog.showModal();review();
-    try{await options();review();}catch(error){status.textContent=error.message;}
+    try{await options();store(stored());}catch(error){status.textContent=error.message;}
   }
   async function importGroups(input,{mode='merge',open:openCart=true}={}){
     if(!['merge','replace'].includes(mode))throw Error('Choose merge or replace.');
@@ -180,7 +195,7 @@
     const snapshot=cleaned(groups),settings=layout();busy=true;review();
     status.textContent=kind==='pdf'?'Preparing PDF chart…':'Preparing sign legend…';
     try{
-      const catalog=await options(),ordered=snapshot.map(g=>({...g,records:g.records.map(id=>catalog.get(id))}));
+      const catalog=await options(),ordered=alphabetize(snapshot).map(g=>({...g,records:g.records.map(id=>catalog.get(id))}));
       const records=[...new Set(ordered.flatMap(g=>g.records))];if(records.some(r=>!r))throw Error('Remove unavailable drawings and try again.');
       const blob=await window.SSSBuildSignZip(records,(n,total)=>{status.textContent='Preparing legend · '+n+' of '+total+' drawing files';},ordered,settings,kind);
       const objectURL=URL.createObjectURL(blob),a=el('a');
