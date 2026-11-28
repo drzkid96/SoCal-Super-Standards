@@ -329,7 +329,7 @@ for rec in signs.values():
     sz_html = ""
     if sz:
         sz_html = ("<table class=\"dims\"><thead><tr>" + "".join(f"<th>{esc(k)}</th>" for k in sz["cols"]) + "</tr></thead><tbody><tr>" +
-                   "".join(f"<td>{esc(v)}</td>" for v in sz["cols"].values()) + f"</tr></tbody></table><p class=\"note\">From CA MUTCD 2026 {esc(sz['table'])} (page {sz['page']}), row: {esc(sz['name'])}. Sizes in inches, width x height.</p>")
+                   "".join(f"<td>{esc(v)}</td>" for v in sz["cols"].values()) + f"</tr></tbody></table><p class=\"note\">From CA MUTCD 2026 {esc(sz['table'])}" + (f", row {esc(sz['name'])}" if sz.get('name') else "") + f". Sizes in inches, width x height.</p>")
     rec["ca_sizes"] = sz["cols"] if sz else {}
     ments = rec["mentions"]
     ment_html = "".join(f'<li><a href="{m["url"]}">{esc(m["manual"])} &sect;{esc(m["num"])}</a> {esc(m["title"])}</li>' for m in ments) or "<li>No section text mentions this code directly.</li>"

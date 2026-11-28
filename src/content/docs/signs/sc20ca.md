@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road (Minimum)</th><th>Expressway</th><th>Freeway</th><th>Oversized</th></tr></thead><tbody><tr><td>42 x 36</td><td>54 x 48</td><td>54 x 48</td><td>---</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1281 (page 1281), row: SLOW FOR THE CONE ZONE. Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road (Minimum)</th><th>Expressway</th><th>Freeway</th><th>Oversized</th></tr></thead><tbody><tr><td>42 x 36</td><td>54 x 48</td><td>54 x 48</td><td>---</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1281, row SLOW FOR THE CONE ZONE. Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

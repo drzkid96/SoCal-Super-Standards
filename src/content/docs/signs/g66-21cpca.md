@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road</th><th>Freeway or Expressway</th></tr></thead><tbody><tr><td>24 x 6</td><td>30 x 8</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 772 (page 772), row: FAST (Header Plaque) (plaque). Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road</th><th>Freeway or Expressway</th></tr></thead><tbody><tr><td>24 x 6</td><td>30 x 8</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 772, row FAST (Header Plaque) (plaque). Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

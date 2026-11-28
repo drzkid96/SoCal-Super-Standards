@@ -1,13 +1,13 @@
 ---
 title: "CA MUTCD 2026 LA28 Supplement (2028 Olympic and Paralympic Games Route Network)"
-description: "LA28 Supplement: July 15, 2026 (effective July 15, 2026, FHWA accepted). Full document, page by page, with drawings, OCR text and linked signs."
+description: "LA28 Supplement: July 15, 2026 (effective July 15, 2026, FHWA accepted)."
 sidebar:
   order: 0
   label: Overview
 tableOfContents: false
 ---
 
-<div class="srcbar">California Department of Transportation &middot; July 15, 2026 (effective July 15, 2026, FHWA accepted) &middot; 77 pages &middot; Not copyrighted; may be reprinted freely</div>
+<div class="srcbar">California Department of Transportation &middot; July 15, 2026 (effective July 15, 2026, FHWA accepted) &middot; Not copyrighted; may be reprinted freely</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/01-cover-and-release-letter/">Cover and release letter</a> <span class="src-page">pp 1-4</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/02-introduction/">Introduction</a> <span class="src-page">pp 20-21</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/03-part-1-definitions-color-code-and-abbrev/">Part 1: Definitions, color code and abbreviations</a> <span class="src-page">pp 22-24</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/04-chapter-2a-general-la28-plaques-panels-a/">Chapter 2A: General (LA28 plaques, panels and light blue)</a> <span class="src-page">pp 25-30</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/05-chapter-2b-regulatory-signs/">Chapter 2B: Regulatory signs</a> <span class="src-page">pp 31-33</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/06-chapter-2d-guide-signs-conventional-road/">Chapter 2D: Guide signs, conventional roads</a> <span class="src-page">pp 34-38</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/07-chapter-2e-guide-signs-freeways-and-expr/">Chapter 2E: Guide signs, freeways and expressways</a> <span class="src-page">pp 39-40</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/08-chapter-2g-preferential-and-managed-lane/">Chapter 2G: Preferential and managed lane signs (GRN lanes)</a> <span class="src-page">pp 41-61</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/09-chapter-2l-changeable-message-signs/">Chapter 2L: Changeable message signs</a> <span class="src-page">pp 62-67</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/10-part-3-pavement-markings-la28-and-permit/">Part 3: Pavement markings (LA28 and PERMIT ONLY)</a> <span class="src-page">pp 68-74</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/11-part-4-traffic-signals/">Part 4: Traffic signals</a> <span class="src-page">pp 75-75</span></li><li><a href="/SoCal-Super-Standards/caltrans/la28-supplement/12-part-6-temporary-traffic-control/">Part 6: Temporary traffic control</a> <span class="src-page">pp 76-77</span></li></ul>
 

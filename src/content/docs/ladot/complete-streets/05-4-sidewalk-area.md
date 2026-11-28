@@ -11,7 +11,6 @@ sidebar:
 
 ### Page 65 - 4. SIDEWALK AREA
 
-<div class="pmeta">Topics: accessibility</div>
 <div class="dtext"><p>57</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4. SIDEWALK AREA</h4>
@@ -25,7 +24,6 @@ sidebar:
 
 ### Page 66 - Design Guidance
 
-<div class="pmeta">Topics: accessibility</div>
 <div class="dtext"><p>58</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <h4>Design Guidance</h4>
@@ -68,7 +66,6 @@ sidebar:
 
 ### Page 68 - 4.2 Portable Signage and Sidewalk Merchandising
 
-<div class="pmeta">Topics: accessibility</div>
 <div class="dtext"><p>60</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <h4>4.2 Portable Signage and Sidewalk Merchandising</h4>
@@ -88,7 +85,6 @@ sidebar:
 
 ### Page 69 - Other Discussion
 
-<div class="pmeta">Topics: parking-curb, signs</div>
 <div class="dtext"><p>61</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Other Discussion</h4>
@@ -109,7 +105,6 @@ sidebar:
 
 ### Page 70 - 4.3 Streetscape Signage and Wayfinding
 
-<div class="pmeta">Topics: transit, signs, accessibility, intersections</div>
 <div class="dtext"><p>62</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <h4>4.3 Streetscape Signage and Wayfinding</h4>
@@ -129,7 +124,6 @@ sidebar:
 
 ### Page 71 - Considerations
 
-<div class="pmeta">Topics: transit, parking-curb, signs</div>
 <div class="dtext"><p>63</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Considerations</h4>
@@ -152,7 +146,6 @@ sidebar:
 
 ### Page 72 - References
 
-<div class="pmeta">Topics: bikeways, transit, signs, accessibility</div>
 <div class="dtext"><p>64</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>Pedestrian-oriented signage</p>
@@ -173,7 +166,6 @@ sidebar:
 
 ### Page 73 - 4.4 Public Seating
 
-<div class="pmeta">Topics: transit, parking-curb</div>
 <div class="dtext"><p>65</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.4 Public Seating</h4>
@@ -199,7 +191,6 @@ sidebar:
 
 ### Page 74 - Considerations and Guidance
 
-<div class="pmeta">Topics: transit, parking-curb, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0074.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0074.webp" alt="Complete Streets DG page 74 Considerations and Guidance"></a><figcaption>Complete Streets DG, page 74.</figcaption></figure>
 <div class="dtext"><p>66</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
@@ -221,7 +212,6 @@ sidebar:
 
 ### Page 75 - Other Discussion
 
-<div class="pmeta">Topics: transit</div>
 <div class="dtext"><p>67</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>•• Curbside seating should be avoided where there is a curbside vehicular travel lane, although it is acceptable at transit stops (see further discussion in “Transit Stops”, below). The lack of an adequate buffer between seating and traffic results in lower safety and comfort.</p>
@@ -258,7 +248,6 @@ sidebar:
 
 ### Page 77 - Considerations
 
-<div class="pmeta">Topics: parking-curb, accessibility, intersections</div>
 <div class="dtext"><p>69</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Considerations</h4>
@@ -292,7 +281,6 @@ sidebar:
 
 ### Page 79 - 4.6 Public Art
 
-<div class="pmeta">Topics: bikeways, parking-curb</div>
 <div class="dtext"><p>71</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.6 Public Art</h4>
@@ -315,7 +303,6 @@ sidebar:
 
 ### Page 80 - References
 
-<div class="pmeta">Topics: bikeways, parking-curb, accessibility</div>
 <div class="dtext"><p>72</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>In Los Angeles, the Department of Cultural Affairs’ Public Art Division currently coordinates four arts programs: the Public Works Improvements Arts Program (PWIAP, more commonly known as Percent-for-Public-Art; the Private Arts Development Fee Program (ADF); the Murals Program; and the City’s Art Collection.</p>
@@ -338,7 +325,6 @@ sidebar:
 
 ### Page 81 - 4.7 Street Trees and Landscaping
 
-<div class="pmeta">Topics: speed-calming</div>
 <div class="dtext"><p>73</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.7 Street Trees and Landscaping</h4>
@@ -380,7 +366,6 @@ sidebar:
 
 ### Page 83 - Plant Selection and Placement
 
-<div class="pmeta">Topics: crosswalks, accessibility</div>
 <div class="dtext"><p>75</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Plant Selection and Placement</h4>
@@ -413,7 +398,6 @@ sidebar:
 
 ### Page 84
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0084.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0084.webp" alt="Complete Streets DG page 84 "></a><figcaption>Complete Streets DG, page 84.</figcaption></figure>
 <div class="dtext"><p>76</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
@@ -477,7 +461,6 @@ sidebar:
 
 ### Page 87
 
-<div class="pmeta">Topics: parking-curb, intersections</div>
 <div class="dtext"><p>79</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>and biological decomposition properties of soils, plant roots, and micro organisms. Because it is often impractical to infiltrate runoff at the same rate that it is generated, most infiltration facilities have a functional component that allows for temporary storage. In addition, infiltration BMPs recharge groundwater reserves and improve the quality of groundwater. Infiltration BMPs are most practical in areas where there is sufficient open space and where soil, hydrological, and geotechnical characteristics are favorable for infiltration.</p>
@@ -494,7 +477,6 @@ sidebar:
 
 ### Page 88 - Considerations
 
-<div class="pmeta">Topics: parking-curb, accessibility</div>
 <div class="dtext"><p>80</p>
 <p>4. SIDEWALK AREA  Complete Streets Design Guide</p>
 <h4>Considerations</h4>
@@ -520,7 +502,6 @@ sidebar:
 
 ### Page 89 - Common Treatments in the Public Right-of-Way
 
-<div class="pmeta">Topics: parking-curb, speed-calming</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0089.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0089.webp" alt="Complete Streets DG page 89 Common Treatments in the Public Right-of-Way"></a><figcaption>Complete Streets DG, page 89.</figcaption></figure>
 <div class="dtext"><p>81</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
@@ -582,7 +563,6 @@ sidebar:
 
 ### Page 92
 
-<div class="pmeta">Topics: transit, parking-curb, accessibility</div>
 <div class="dtext"><p>84</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• Permeable paving systems are appropriate for:</p>
@@ -603,7 +583,6 @@ sidebar:
 
 ### Page 93 - Other BMPs Located in the Public Right- of-Way
 
-<div class="pmeta">Topics: striping</div>
 <div class="dtext"><p>85</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <p>•• High moisture content beneath sidewalk can attract tree roots and cause deformation, cracking and lifting of the sidewalk. “Structural soils” can be used to improve soil permeability and control tree root growth while maintaining tree health. (See Section 4.7 “Landscaping and Trees” for further discussion.)</p>
@@ -659,7 +638,6 @@ sidebar:
 
 ### Page 95 - 4.9 Bicycle Parking
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb, accessibility</div>
 <div class="dtext"><p>87</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.9 Bicycle Parking</h4>
@@ -749,7 +727,6 @@ sidebar:
 
 ### Page 99 - Benefits
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0099.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0099.webp" alt="Complete Streets DG page 99 Benefits"></a><figcaption>Complete Streets DG, page 99.</figcaption></figure>
 <div class="dtext"><p>91</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
@@ -772,7 +749,6 @@ sidebar:
 
 ### Page 100 - Considerations
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0100.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0100.webp" alt="Complete Streets DG page 100 Considerations"></a><figcaption>Complete Streets DG, page 100.</figcaption></figure>
 <div class="dtext"><p>92</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
@@ -794,7 +770,6 @@ sidebar:
 
 ### Page 101 - Benefits
 
-<div class="pmeta">Topics: parking-curb, accessibility</div>
 <div class="dtext"><p>93</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Benefits</h4>
@@ -815,7 +790,6 @@ sidebar:
 
 ### Page 102 - Other Discussion
 
-<div class="pmeta">Topics: bikeways, parking-curb, striping, signs</div>
 <div class="dtext"><p>94</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>When an area with single-space parking meters is converted to multi-space pay stations, the decommissioned parking meter poles can be repurposed into bicycle racks.</p>
@@ -833,7 +807,6 @@ sidebar:
 
 ### Page 103 - Benefits
 
-<div class="pmeta">Topics: transit, signals, accessibility</div>
 <div class="dtext"><p>95</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Benefits</h4>
@@ -858,7 +831,6 @@ sidebar:
 
 ### Page 104 - Other Discussion
 
-<div class="pmeta">Topics: crosswalks, parking-curb, accessibility</div>
 <div class="dtext"><p>96</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <h4>Other Discussion</h4>
@@ -881,7 +853,6 @@ sidebar:
 
 ### Page 105 - Benefits
 
-<div class="pmeta">Topics: crosswalks, bikeways, transit, signs, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0105.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0105.webp" alt="Complete Streets DG page 105 Benefits"></a><figcaption>Complete Streets DG, page 105.</figcaption></figure>
 <div class="dtext"><p>97</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
@@ -905,7 +876,6 @@ sidebar:
 
 ### Page 106 - Considerations and Guidance
 
-<div class="pmeta">Topics: crosswalks, transit, parking-curb, intersections</div>
 <div class="dtext"><p>98</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• Pedestrian-scale lighting fixtures are typically 12 to 15 feet high. They should be encouraged to provide supplemental light for the sidewalk area, especially in areas with high nighttime pedestrian volumes such as commercial districts and other areas with higher- density land uses. Pedestrian-scale lighting should be installed in all locations where a wide sidewalk is not well-illuminated by the roadway lights. Pedestrian lighting should be installed in all pedestrian pathways under all freeway underpasses.</p>
@@ -923,7 +893,6 @@ sidebar:
 
 ### Page 107
 
-<div class="pmeta">Topics: transit, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0107.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0107.webp" alt="Complete Streets DG page 107 "></a><figcaption>Complete Streets DG, page 107.</figcaption></figure>
 <div class="dtext"><p>99</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
@@ -943,7 +912,6 @@ sidebar:
 
 ### Page 108 - References
 
-<div class="pmeta">Topics: parking-curb</div>
 <div class="dtext"><p>100</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>For property owners that request street lighting, currently only lighting for minimal traffic safety (usually at “traffic conflict areas”) is provided at no cost for installation or maintenance. For all other lighting installations, property owners share the costs of installation and annual operation/maintenance through a special assessment. Some projects obtain outside funding for the installation cost. In order to provide safe lighting equitably throughout the City, government- funded street lighting and streetscape projects should be a priority in residential areas with higher pedestrian volumes and larger safety concerns.</p>
@@ -966,7 +934,6 @@ sidebar:
 
 ### Page 109 - 4.14 Waste and Recycling Receptacles
 
-<div class="pmeta">Topics: transit</div>
 <div class="dtext"><p>101</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.14 Waste and Recycling Receptacles</h4>
@@ -988,7 +955,6 @@ sidebar:
 
 ### Page 110 - Design Guidance
 
-<div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>102</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• Receptacles should generally be located in the amenity zone between the curb and the pedestrian walkway. Receptacles may also be located in the frontage zone as long as they do not impede the pedestrian zone, this can work well for businesses who agree to provide continued trash removal.</p>
@@ -1009,7 +975,6 @@ sidebar:
 
 ### Page 111 - Other Discussion
 
-<div class="pmeta">Topics: transit, parking-curb</div>
 <div class="dtext"><p>103</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>Other Discussion</h4>
@@ -1027,7 +992,6 @@ sidebar:
 
 ### Page 112 - 4.15 Parklets
 
-<div class="pmeta">Topics: bikeways, parking-curb, accessibility</div>
 <div class="dtext"><p>104</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <h4>4.15 Parklets</h4>
@@ -1052,7 +1016,6 @@ sidebar:
 
 ### Page 113 - Guidance
 
-<div class="pmeta">Topics: bikeways, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0113.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0113.webp" alt="Complete Streets DG page 113 Guidance"></a><figcaption>Complete Streets DG, page 113.</figcaption></figure>
 <div class="dtext"><p>105</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
@@ -1075,7 +1038,6 @@ sidebar:
 
 ### Page 114 - References
 
-<div class="pmeta">Topics: bikeways, striping</div>
 <div class="dtext"><p>106</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>•• Parklets should be buffered using wheel stops on both ends that are 4 feet from the platform. Safety planters should be placed on the traffic-facing end of the parklet to help absorb the impact of vehicular intrusion. Safety planters should typically be made of fiberglass and weigh a minimum of 700 pounds when full with a soil and sand mixture. Planters should be outfitted with reflective tape for added nighttime visibility.</p>
@@ -1094,7 +1056,6 @@ sidebar:
 
 ### Page 115 - 4.16 Bus Stop Location
 
-<div class="pmeta">Topics: crosswalks, transit, signals, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0115.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0115.webp" alt="Complete Streets DG page 115 4.16 Bus Stop Location"></a><figcaption>Complete Streets DG, page 115.</figcaption></figure>
 <div class="dtext"><p>107</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
@@ -1124,7 +1085,6 @@ sidebar:
 
 ### Page 116 - Design Guidance
 
-<div class="pmeta">Topics: crosswalks, bikeways, transit, parking-curb, intersections</div>
 <div class="dtext"><p>108</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
 <p>Near Side</p>
@@ -1162,7 +1122,6 @@ sidebar:
 
 ### Page 117 - 4.17 Bus Bulb
 
-<div class="pmeta">Topics: transit, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0117.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0117.webp" alt="Complete Streets DG page 117 4.17 Bus Bulb"></a><figcaption>Complete Streets DG, page 117.</figcaption></figure>
 <div class="dtext"><p>109</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
@@ -1185,7 +1144,6 @@ sidebar:
 
 ### Page 118 - Considerations
 
-<div class="pmeta">Topics: transit, striping, intersections</div>
 <div class="dtext"><p>110</p>
 <p>4. SIDEWALK AREA  Complete Streets Design Guide</p>
 <h4>Considerations</h4>
@@ -1206,7 +1164,6 @@ sidebar:
 
 ### Page 119 - 4.18 Sidewalk Equestrian Trails
 
-<div class="pmeta">Topics: striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0119.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0119.webp" alt="Complete Streets DG page 119 4.18 Sidewalk Equestrian Trails"></a><figcaption>Complete Streets DG, page 119.</figcaption></figure>
 <div class="dtext"><p>111</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
@@ -1230,7 +1187,6 @@ sidebar:
 
 ### Page 120 - References
 
-<div class="pmeta">Topics: signals, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0120.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0120.webp" alt="Complete Streets DG page 120 References"></a><figcaption>Complete Streets DG, page 120.</figcaption></figure>
 <div class="dtext"><p>112</p>
 <p>4. SIDEWALK AREA Complete Streets Design Guide</p>
@@ -1251,7 +1207,6 @@ sidebar:
 
 ### Page 121 - 4.19 Esplanade
 
-<div class="pmeta">Topics: bikeways, signals, intersections</div>
 <div class="dtext"><p>113</p>
 <p>Complete Streets Design Guide  4. SIDEWALK AREA</p>
 <h4>4.19 Esplanade</h4>

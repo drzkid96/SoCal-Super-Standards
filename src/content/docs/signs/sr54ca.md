@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road (Minimum)</th><th>Expressway</th><th>Freeway</th><th>Oversized</th></tr></thead><tbody><tr><td>30 x 30</td><td>42 x 42</td><td>42x 42</td><td>---</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1260 (page 1260), row: DOUBLE FINE ZONE. Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road (Minimum)</th><th>Expressway</th><th>Freeway</th><th>Oversized</th></tr></thead><tbody><tr><td>30 x 30</td><td>42 x 42</td><td>42x 42</td><td>---</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1260, row DOUBLE FINE ZONE. Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

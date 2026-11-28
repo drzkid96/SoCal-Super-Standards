@@ -30,7 +30,6 @@ sidebar:
 
 ### Page 3 - GAVIN NEWSOM, GOVERNOR
 
-<div class="pmeta">Topics: signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0003.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/caltrans/la28-supplement/p0003.webp" alt="LA28 Supplement page 3 GAVIN NEWSOM, GOVERNOR"></a><figcaption>LA28 Supplement, page 3.</figcaption></figure>
 <div class="dtext"><p>CALIFORNIA STATE TRANSPORTATION AGENCY</p>
 <p>California Department of Transportation</p>

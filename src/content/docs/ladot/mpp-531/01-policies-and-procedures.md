@@ -12,7 +12,6 @@ sidebar:
 
 ### Page 1 - MPP 531 (Pg 1-20)
 
-<div class="pmeta">Topics: parking-curb, striping, signs</div>
 <div class="dtext"><p>Department of Transportation</p>
 <p>MANUAL OF POLICIES AND PROCEDURES</p>
 <p>SECTION NO.</p>
@@ -31,7 +30,6 @@ sidebar:
 
 ### Page 2 - MPP 531 (Pg 1-20)
 
-<div class="pmeta">Topics: parking-curb, striping, signs</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
 <p>SECTION 531 DATE 02-23 PAGE 2</p>
@@ -42,7 +40,6 @@ sidebar:
 
 ### Page 3 - MPP 531 (Pg 1-20)
 
-<div class="pmeta">Topics: signals, parking-curb, striping, signs, accessibility</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
 <p>SECTION 531 DATE 02-23 PAGE 3</p>
@@ -64,7 +61,6 @@ sidebar:
 
 ### Page 5 - MPP 531 (Pg 1-20)
 
-<div class="pmeta">Topics: crosswalks, signals, parking-curb, striping, signs, intersections</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
 <p>SECTION 531 DATE 02-23 PAGE 5</p>
@@ -214,7 +210,6 @@ sidebar:
 
 ### Page 16 - MPP 531 (Pg 1-20)
 
-<div class="pmeta">Topics: signals, striping, signs, intersections</div>
 <div class="dtext"><p>Department of Transportation MANUAL OF POLICIES &amp; PROCEDURES</p>
 <p>SUBJECT Application for Striping, Channelization, &amp; Special Signing</p>
 <p>SECTION 531 DATE 02-23 PAGE 16</p>

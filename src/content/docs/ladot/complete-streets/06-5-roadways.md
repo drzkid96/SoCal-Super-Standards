@@ -11,7 +11,6 @@ sidebar:
 
 ### Page 125 - 5. ROADWAYS
 
-<div class="pmeta">Topics: transit</div>
 <div class="dtext"><p>117</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>5. ROADWAYS</h4>
@@ -47,7 +46,6 @@ sidebar:
 
 ### Page 127 - Considerations
 
-<div class="pmeta">Topics: bikeways, parking-curb, striping</div>
 <div class="dtext"><p>119</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Considerations</h4>
@@ -71,7 +69,6 @@ sidebar:
 
 ### Page 128 - Considerations
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb, intersections</div>
 <div class="dtext"><p>120</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <p>In this image, a dashed line seeks to demarcate the so-called “door zone”, which is the space in which a cyclist is in danger of</p>
@@ -105,7 +102,6 @@ sidebar:
 
 ### Page 129 - Design Guidance
 
-<div class="pmeta">Topics: bikeways, parking-curb, striping</div>
 <div class="dtext"><p>121</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Design Guidance</h4>
@@ -135,7 +131,6 @@ sidebar:
 
 ### Page 130 - Other Design Guidance
 
-<div class="pmeta">Topics: bikeways, parking-curb, intersections</div>
 <div class="dtext"><p>122</p>
 <p>5. ROADWAYS  Complete Streets Design Guide</p>
 <p>Standard dimensions for a bicycle lane next to on-street parallel parking</p>
@@ -165,7 +160,6 @@ sidebar:
 
 ### Page 131 - Bicycle Enhancements
 
-<div class="pmeta">Topics: bikeways, parking-curb, signs, intersections</div>
 <div class="dtext"><p>123</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <p>As indicated, 5 feet shall be the minimum width of bicycle lane where parking stalls are marked. If parking volume is substantial or turnover high, an additional one to two feet of width is desirable. Bicycle lanes shall not be placed between the parking area and the curb. Such facilities increase the conflict between bicyclists and opening car doors and reduce visibility at intersections. Also, they prevent bicyclists from leaving the bicy­ cle lane to turn left and cannot be effectively maintained. Bicycle lanes are established in conjunction with the parking areas. As indicated, 11 or 12 feet (depending on the type of curb) shall be the minimum width of the bicycle lane where parking is permitted. This type of lane is satis­ factory where parking is not extensive and where turnover of parked cars is infrequent. However, if parking is substantial, turnover of parked cars is high, truck traffic is substantial, or if vehicle speeds exceed 55 km/h, additional width is rec­ ommended</p>
@@ -185,7 +179,6 @@ sidebar:
 
 ### Page 132 - Bicycle Enhancements
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb</div>
 <div class="dtext"><p>124</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <p>Bicycle Lane on Left Side of One-Way Street</p>
@@ -211,7 +204,6 @@ sidebar:
 
 ### Page 133 - Bicycle Enhancements
 
-<div class="pmeta">Signs: D11-1 R4-11 &middot; Topics: bikeways, parking-curb, striping, signs</div>
 <div class="dtext"><p>125</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <p>Uphill Climbing Bicycle Lanes</p>
@@ -231,7 +223,6 @@ sidebar:
 
 ### Page 134 - References
 
-<div class="pmeta">Topics: bikeways, signals, parking-curb, striping, intersections</div>
 <div class="dtext"><p>126</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <p>Floating Bicycle Lane or Bicycle Accommodatio with Part-Time Parking (Non Standard)</p>
@@ -260,7 +251,6 @@ sidebar:
 
 ### Page 135 - 5.3 Protected Bicycle Lane
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0135.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0135.webp" alt="Complete Streets DG page 135 5.3 Protected Bicycle Lane"></a><figcaption>Complete Streets DG, page 135.</figcaption></figure>
 <div class="dtext"><p>127</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
@@ -287,7 +277,6 @@ sidebar:
 
 ### Page 136 - Design Guidance
 
-<div class="pmeta">Topics: bikeways, parking-curb, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0136.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0136.webp" alt="Complete Streets DG page 136 Design Guidance"></a><figcaption>Complete Streets DG, page 136.</figcaption></figure>
 <div class="dtext"><p>128</p>
 <p>5. ROADWAYS  Complete Streets Design Guide</p>
@@ -305,7 +294,6 @@ sidebar:
 
 ### Page 137 - Bicycle Enhancements
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb, signs, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0137.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0137.webp" alt="Complete Streets DG page 137 Bicycle Enhancements"></a><figcaption>Complete Streets DG, page 137.</figcaption></figure>
 <div class="dtext"><p>129</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
@@ -326,7 +314,6 @@ sidebar:
 
 ### Page 138 - Considerations
 
-<div class="pmeta">Topics: bikeways, signals, parking-curb, intersections</div>
 <div class="dtext"><p>130</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>Considerations</h4>
@@ -350,7 +337,6 @@ sidebar:
 
 ### Page 139 - 5.4 Shared Lane Marking (Sharrow)
 
-<div class="pmeta">Topics: bikeways</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0139.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0139.webp" alt="Complete Streets DG page 139 5.4 Shared Lane Marking (Sharrow)"></a><figcaption>Complete Streets DG, page 139.</figcaption></figure>
 <div class="dtext"><p>131</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
@@ -374,7 +360,6 @@ sidebar:
 
 ### Page 140 - Design Guidance
 
-<div class="pmeta">Signs: R4-11 &middot; Topics: bikeways, parking-curb, intersections</div>
 <div class="dtext"><p>132</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <p>Shared lane markings could be highlighted using a green painted backgroud</p>
@@ -395,7 +380,6 @@ sidebar:
 
 ### Page 141 - Benefits
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0141.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0141.webp" alt="Complete Streets DG page 141 Benefits"></a><figcaption>Complete Streets DG, page 141.</figcaption></figure>
 <div class="dtext"><p>133</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
@@ -441,7 +425,6 @@ sidebar:
 
 ### Page 143 - Bicycle Enhancements
 
-<div class="pmeta">Topics: bikeways, transit, intersections</div>
 <div class="dtext"><p>135</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Bicycle Enhancements</h4>
@@ -472,7 +455,6 @@ sidebar:
 
 ### Page 144 - Considerations
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0144.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0144.webp" alt="Complete Streets DG page 144 Considerations"></a><figcaption>Complete Streets DG, page 144.</figcaption></figure>
 <div class="dtext"><p>136</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
@@ -573,7 +555,6 @@ sidebar:
 
 ### Page 148 - Transit Enhancements
 
-<div class="pmeta">Topics: transit, signals, parking-curb, intersections</div>
 <div class="dtext"><p>140</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>Transit Enhancements</h4>
@@ -618,7 +599,6 @@ sidebar:
 
 ### Page 150 - 5.11 Median Bus Boarding Island
 
-<div class="pmeta">Topics: crosswalks, bikeways, transit</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0150.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0150.webp" alt="Complete Streets DG page 150 5.11 Median Bus Boarding Island"></a><figcaption>Complete Streets DG, page 150.</figcaption></figure>
 <div class="dtext"><p>142</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
@@ -643,7 +623,6 @@ sidebar:
 
 ### Page 151 - Transit Enhancements
 
-<div class="pmeta">Topics: crosswalks, bikeways, transit, parking-curb, accessibility</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0151.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0151.webp" alt="Complete Streets DG page 151 Transit Enhancements"></a><figcaption>Complete Streets DG, page 151.</figcaption></figure>
 <div class="dtext"><p>143</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
@@ -662,7 +641,6 @@ sidebar:
 
 ### Page 152 - Benefits
 
-<div class="pmeta">Topics: bikeways, transit, striping, intersections</div>
 <div class="dtext"><p>144</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <p>direction.</p>
@@ -687,7 +665,6 @@ sidebar:
 
 ### Page 153 - Design Guidance
 
-<div class="pmeta">Topics: bikeways, transit, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0153.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0153.webp" alt="Complete Streets DG page 153 Design Guidance"></a><figcaption>Complete Streets DG, page 153.</figcaption></figure>
 <details class="ocr"><summary>Page text</summary><p>145 Complete Streets Design Guide  5. ROADWAYS Design Guidance •• The nature of the road diet depends on a street’s existing configuration, traffic operations, user needs, and safety concerns. For instance, a four-lane street (two travel lanes in each direction) could be modified to include one travel lane in each direction, a center turn lane, and bicycle lanes. References FHWA “Road Diet” - http://safety.fhwa.dot.gov/provencounter­ measures/fhwa_sa_12_013.pdf Transit Enhancements Before road diet After road diet: Images courtesy of NACTO Back to Table of Contents </p></details>
 
@@ -696,7 +673,6 @@ sidebar:
 
 ### Page 154 - 5.13 Lane Narrowing
 
-<div class="pmeta">Topics: bikeways, transit, speed-calming</div>
 <div class="dtext"><p>146</p>
 <p>5. ROADWAYS  Complete Streets Design Guide</p>
 <h4>5.13 Lane Narrowing</h4>
@@ -724,7 +700,6 @@ sidebar:
 
 ### Page 155 - 5.14 Neckdown
 
-<div class="pmeta">Topics: crosswalks, transit, parking-curb, speed-calming, striping, accessibility</div>
 <div class="dtext"><p>147</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>5.14 Neckdown</h4>
@@ -754,7 +729,6 @@ sidebar:
 
 ### Page 156 - 5.15 Chicane
 
-<div class="pmeta">Topics: bikeways, speed-calming</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0156.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0156.webp" alt="Complete Streets DG page 156 5.15 Chicane"></a><figcaption>Complete Streets DG, page 156.</figcaption></figure>
 <div class="dtext"><p>148</p>
 <p>5. ROADWAYS  Complete Streets Design Guide</p>
@@ -775,7 +749,6 @@ sidebar:
 
 ### Page 157 - Design Guidance
 
-<div class="pmeta">Topics: parking-curb, speed-calming, striping</div>
 <div class="dtext"><p>149</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Design Guidance</h4>
@@ -799,7 +772,6 @@ sidebar:
 
 ### Page 158 - 5.16 Landscaped Median
 
-<div class="pmeta">Topics: crosswalks, bikeways, parking-curb, speed-calming</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0158.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0158.webp" alt="Complete Streets DG page 158 5.16 Landscaped Median"></a><figcaption>Complete Streets DG, page 158.</figcaption></figure>
 <div class="dtext"><p>150</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
@@ -827,7 +799,6 @@ sidebar:
 
 ### Page 159 - Other Traffic Calming Treatments
 
-<div class="pmeta">Topics: crosswalks, speed-calming, striping, signs, intersections</div>
 <div class="dtext"><p>151</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>Other Traffic Calming Treatments</h4>
@@ -849,7 +820,6 @@ sidebar:
 
 ### Page 160 - Benefits
 
-<div class="pmeta">Topics: bikeways, speed-calming, signs</div>
 <div class="dtext"><p>152</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>Benefits</h4>
@@ -879,7 +849,6 @@ sidebar:
 
 ### Page 161 - 5.18 On-Street Carshare Parking
 
-<div class="pmeta">Topics: bikeways, parking-curb, speed-calming</div>
 <div class="dtext"><p>153</p>
 <p>Complete Streets Design Guide  5. ROADWAYS</p>
 <h4>5.18 On-Street Carshare Parking</h4>
@@ -906,7 +875,6 @@ sidebar:
 
 ### Page 162 - Other Traffic Calming Treatments
 
-<div class="pmeta">Topics: bikeways, parking-curb, speed-calming</div>
 <div class="dtext"><p>154</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>Other Traffic Calming Treatments</h4>
@@ -952,7 +920,6 @@ sidebar:
 
 ### Page 164 - Other Traffic Calming Treatments
 
-<div class="pmeta">Topics: bikeways, parking-curb, speed-calming, striping, signs, intersections</div>
 <div class="dtext"><p>156</p>
 <p>5. ROADWAYS Complete Streets Design Guide</p>
 <h4>Other Traffic Calming Treatments</h4>
@@ -995,7 +962,6 @@ sidebar:
 
 ### Page 167 - Complete Streets Design Guide: Chapter 6, Intersections and Crossings (Section Divider)
 
-<div class="pmeta">Topics: intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0167.webp" alt="Complete Streets DG page 167 "></a><figcaption>Complete Streets DG, page 167.</figcaption></figure>
 
 <span id="p168" class="anchor"></span>

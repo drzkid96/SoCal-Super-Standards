@@ -11,7 +11,6 @@ sidebar:
 
 ### Page 227 - 7. OFF-STREET NON- VEHICULAR TREATMENTS AND STRATEGIES
 
-<div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>219</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON- VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7. OFF-STREET NON- VEHICULAR TREATMENTS AND STRATEGIES</h4>
@@ -24,7 +23,6 @@ sidebar:
 
 ### Page 228 - 7.1 Bicycle Channel Ramps for Stairways
 
-<div class="pmeta">Topics: bikeways, transit</div>
 <div class="dtext"><p>220</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <h4>7.1 Bicycle Channel Ramps for Stairways</h4>
@@ -47,7 +45,6 @@ sidebar:
 
 ### Page 229 - Design Guidance
 
-<div class="pmeta">Topics: bikeways, accessibility</div>
 <div class="dtext"><p>221</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>Design Guidance</h4>
@@ -65,7 +62,6 @@ sidebar:
 
 ### Page 230 - 7.2 Multi-Purpose Paths (Class I)
 
-<div class="pmeta">Topics: bikeways, intersections</div>
 <div class="dtext"><p>222</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <h4>7.2 Multi-Purpose Paths (Class I)</h4>
@@ -88,7 +84,6 @@ sidebar:
 
 ### Page 231 - Considerations
 
-<div class="pmeta">Topics: bikeways, signs, intersections</div>
 <div class="dtext"><p>223</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>Considerations</h4>
@@ -109,7 +104,6 @@ sidebar:
 
 ### Page 232
 
-<div class="pmeta">Topics: bikeways, parking-curb, striping</div>
 <div class="dtext"><p>224</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <p>♦♦Identifying and addressing potential security problems.</p>
@@ -129,7 +123,6 @@ sidebar:
 
 ### Page 233
 
-<div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>225</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <p>barrier separation. Suitable barriers may include chain link fences.</p>
@@ -144,7 +137,6 @@ sidebar:
 
 ### Page 234 - Design Speed of Bicycle Paths
 
-<div class="pmeta">Topics: bikeways, parking-curb, intersections</div>
 <div class="dtext"><p>226</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <p>•• Design Speed: The minimum design speed for bicycle paths is 25 miles per hour except on long downgrades as described in the table below, where a 30 mph design speed should be used. Installation of “speed bumps” or other similar surface obstructions, intended to cause bicyclists to slow down in advance of intersections or other geometric constraints, should generally not be used.</p>
@@ -162,7 +154,6 @@ sidebar:
 
 ### Page 235 - Curve Radii and Superelevation
 
-<div class="pmeta">Topics: bikeways, parking-curb, signs</div>
 <div class="dtext"><p>227</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <p>•• The minimum radius of curvature can be selected from the table below. When smaller curve radii (i.e., smaller than the minimum radii shown below) must be used on bicycle paths because of right of way and/or topographical considerations, then standard curve warning signs and supplemental pavement markings should be installed. The negative effects of nonstandard curves can also be partially offset by widening the pavement through the curves.</p>
@@ -195,7 +186,6 @@ sidebar:
 
 ### Page 236 - References
 
-<div class="pmeta">Topics: bikeways, parking-curb, intersections</div>
 <div class="dtext"><p>228</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <p>generally receive very little use. The maximum grade rate recommended for bicycle paths is 5 percent. It is desirable that sustained grades be limited to 2 percent if a wide range of riders is to be accommodated. Steeper grades can be tolerated for short segments (e.g., up to about 500 feet). Where steeper grades are necessitated, the design speed should be increased and additional width provided.</p>
@@ -211,7 +201,6 @@ sidebar:
 
 ### Page 237 - 7.3 Multi-Purpose Paths in River and Utility Corridors
 
-<div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>229</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7.3 Multi-Purpose Paths in River and Utility Corridors</h4>
@@ -236,7 +225,6 @@ sidebar:
 
 ### Page 238 - References
 
-<div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>230</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <p>Fencing: Public access to flood control channels or canals is undesirable during storm events when hazardous materials, deep waters, swift currents, debris, and steep, slippery slopes may pose a public safety threat. Appropriate fencing may be required to keep path users within the designated travel way and away from hazards. The City of Los Angeles requires 5’ as a minimum height for fences or railings along the bicycle paths. Such fences or railings should be present on the channel side of the path. Typical fencing on the channel side may be constructed out of metal such as galvanized pipe to allow for views down into the channel.</p>
@@ -253,7 +241,6 @@ sidebar:
 
 ### Page 239 - 7.4 Multi-Purpose Paths in Existing Active Rail Corridor
 
-<div class="pmeta">Topics: bikeways, transit, striping</div>
 <div class="dtext"><p>231</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7.4 Multi-Purpose Paths in Existing Active Rail Corridor</h4>
@@ -277,7 +264,6 @@ sidebar:
 
 ### Page 240 - Other Discussion
 
-<div class="pmeta">Topics: bikeways, striping</div>
 <div class="dtext"><p>232</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <p>of the bicycle path, i.e. whether the section of track is in an urban or rural setting. The SCRRA typically requires tubular steel or welded wire mesh fencing. Exceptions may be granted that include ‘best practices to ensure safe trail use and rail operations’. In rural or environmentally sensitive areas, fencing options may include a three rail split-rail fence in combination with landscaping. Fence height should be four to five (4-5) feet within 150 feet of at-grade crossings and six (6) feet in other areas.</p>
@@ -307,7 +293,6 @@ sidebar:
 
 ### Page 241 - 7.5 Multi-Purpose Path Constructed within New Transit Corridor
 
-<div class="pmeta">Topics: bikeways, transit, striping</div>
 <div class="dtext"><p>233</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7.5 Multi-Purpose Path Constructed within New Transit Corridor</h4>
@@ -335,7 +320,6 @@ sidebar:
 
 ### Page 242 - 7.6 Coastal Paths
 
-<div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>234</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <h4>7.6 Coastal Paths</h4>
@@ -362,7 +346,6 @@ sidebar:
 
 ### Page 243 - References
 
-<div class="pmeta">Topics: crosswalks, bikeways, striping</div>
 <div class="dtext"><p>235</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <p>•• To provide an adequate and pleasant facility, adequate widths and separation are needed to maintain an enjoyable pathway environment.</p>
@@ -379,7 +362,6 @@ sidebar:
 
 ### Page 244 - 7.7 Grade-Separated Undercrossings and Overcrossings
 
-<div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>236</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <h4>7.7 Grade-Separated Undercrossings and Overcrossings</h4>
@@ -406,7 +388,6 @@ sidebar:
 
 ### Page 245 - Considerations
 
-<div class="pmeta">Topics: bikeways, parking-curb, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0245.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0245.webp" alt="Complete Streets DG page 245 Considerations"></a><figcaption>Complete Streets DG, page 245.</figcaption></figure>
 <div class="dtext"><p>237</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
@@ -433,7 +414,6 @@ sidebar:
 
 ### Page 246 - References
 
-<div class="pmeta">Topics: bikeways, striping, accessibility</div>
 <div class="dtext"><p>238</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <p>•• Overcrossings</p>
@@ -457,7 +437,6 @@ sidebar:
 
 ### Page 247 - 7.8 Fencing for Bike Paths
 
-<div class="pmeta">Topics: bikeways</div>
 <div class="dtext"><p>239</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7.8 Fencing for Bike Paths</h4>
@@ -478,7 +457,6 @@ sidebar:
 
 ### Page 248 - Design Guidance
 
-<div class="pmeta">Topics: bikeways, parking-curb</div>
 <div class="dtext"><p>240</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <h4>Design Guidance</h4>
@@ -502,7 +480,6 @@ sidebar:
 
 ### Page 249 - 7.9 Programming and Temporary Treatments
 
-<div class="pmeta">Topics: parking-curb</div>
 <div class="dtext"><p>241</p>
 <p>Complete Streets Design Guide  7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES</p>
 <h4>7.9 Programming and Temporary Treatments</h4>
@@ -522,7 +499,6 @@ sidebar:
 
 ### Page 250 - Pallet Furniture
 
-<div class="pmeta">Topics: parking-curb, speed-calming, intersections</div>
 <div class="dtext"><p>242</p>
 <p>7. OFF-STREET NON-VEHICULAR TREATMENTS AND STRATEGIES Complete Streets Design Guide</p>
 <h4>Pallet Furniture</h4>

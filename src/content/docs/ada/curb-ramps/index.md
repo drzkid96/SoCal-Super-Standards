@@ -1,13 +1,13 @@
 ---
 title: "U.S. Access Board Guide to the ADA Standards, Chapter 4: Ramps and Curb Ramps"
-description: "ADA Guide Ch. 4: current online edition. Full document, page by page, with drawings, OCR text and linked signs."
+description: "ADA Guide Ch. 4: current online edition."
 sidebar:
   order: 0
   label: Overview
 tableOfContents: false
 ---
 
-<div class="srcbar">U.S. Access Board &middot; current online edition &middot; 19 pages</div>
+<div class="srcbar">U.S. Access Board &middot; current online edition</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/ada/curb-ramps/01-pages-1-19/">Pages 1-19</a> <span class="src-page">pp 1-19</span></li></ul>
 

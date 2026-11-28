@@ -489,7 +489,7 @@ Infeasibility for transit stops follows PROWAG R202.3: meet the requirements to 
       topics=["accessibility", "crosswalks", "transit", "curb-parking-loading"],
       kw="PROWAG, public right-of-way accessibility guidelines, ADA, detectable warning surface, truncated domes, accessible pedestrian signal, APS, on-street accessible parking, access aisle, transit stop accessibility, 36 CFR 1190",
       body=lambda: f"""
-## Status (checked {CHECKED})
+## Status
 
 - The Access Board published the final guidelines on August 8, 2023 (88 FR 53604).
 - U.S. DOT adopted them, without changes, as its ADA standard for new construction and alterations of transit stops in the public right-of-way. The rule (89 FR 102800, December 18, 2024) took effect January 17, 2025, and DOT deferred enforcement to March 20, 2025.
@@ -664,7 +664,7 @@ description: "{agency} {it["num"]} ({it["date"]}). {(it.get("lane") or it.get("a
     rel = related_block(it, agency)
     tail = f'''
 
-<p class="bul-foot">Plain-language digest with section references, checked against the official copy on {CHECKED}. Cite the official document, and check the issuing agency's list before relying on it, since bulletins are revised and retired without notice. Back to <a href="{BASE}/bulletins/">all bulletins and policy memos</a>, <a href="{BASE}/bulletins/standards-status/">standards status</a>, or the <a href="{BASE}/bulletins/lane-widths/">lane width comparison</a>.</p>
+<p class="bul-foot">Cite the official document, and check the issuing agency's list before relying on it, since bulletins are revised and retired without notice. Back to <a href="{BASE}/bulletins/">all bulletins and policy memos</a>, <a href="{BASE}/bulletins/standards-status/">standards status</a>, or the <a href="{BASE}/bulletins/lane-widths/">lane width comparison</a>.</p>
 '''
     open(f"{OUT}/{it['slug']}.md", "w").write(fm + head + body + rel + tail)
 
@@ -683,7 +683,7 @@ title: Bulletins and Policy Memos
 description: Caltrans Design Information Bulletins that set lane widths, and LADOT signing and striping policy guidance, currently in effect, with plain-language digests.
 ---
 
-Design bulletins and policy memos change design values faster than the manuals do. This page lists the ones in effect as of {CHECKED}. Each digest gives the scope, the key values and the section numbers, with a link to the official copy.
+Design bulletins and policy memos change design values faster than the manuals do.
 
 <p><a class="cta" href="{BASE}/bulletins/lane-widths/">Lane width comparison: DIB 94, MPP 531 and the City street standards</a> &nbsp; <a class="cta" href="{BASE}/bulletins/bikeway-design-comparison/">Bikeway design comparison: HDM Ch. 1000, DIB 89-02, CA MUTCD 2026, LADOT &amp; AASHTO GBF-5</a></p>
 
@@ -737,7 +737,7 @@ Which values apply depends on who owns the street. On a State highway, the HDM (
 - DIB 94 counts a Class II bike lane and on-street parking as shoulder, and expects at least 4 ft of usable right shoulder unless a sidewalk, Class I or Class IV facility is provided.
 - Both agencies favor the wider lane on the outside where trucks and buses run. BOE E 612.22 says the same for streets with medians or slow traffic, and the opposite (widest lane near the centerline) on undivided, faster streets.
 
-Sources: Caltrans DIB 94 Section 5.3 and Table 5.3; LADOT MPP 531 (02/2023) Lane Widths; City of Los Angeles Complete Street Design Manual E 612.21 ([online](https://completestreetdesignmanual.engineering.lacity.gov/e-600-cross-section-elements/e-610-streets/e-612-width-standards-and-component-arrangements)). Values checked {CHECKED}.
+Sources: Caltrans DIB 94 Section 5.3 and Table 5.3; LADOT MPP 531 (02/2023) Lane Widths; City of Los Angeles Complete Street Design Manual E 612.21 ([online](https://completestreetdesignmanual.engineering.lacity.gov/e-600-cross-section-elements/e-610-streets/e-612-width-standards-and-component-arrangements)).
 '''
 open(f"{OUT}/lane-widths.md", "w").write(lw)
 
@@ -787,7 +787,7 @@ description: Side-by-side comparison of California governing bikeway standards (
  ["Green-colored pavement", "CA MUTCD 2026 Chapter 3H &amp; Part 9; LADOT CSC Bikeway Marking (2022).", "Ch. 5 (&sect; 5.12.11 &mdash; corrected from 5.12.12 in Dec 2024 Errata)."],
 ], "wide3")}
 
-<p class="bul-foot">Cross-agency comparison checked against primary official sources on {CHECKED}: Caltrans HDM Ch. 1000 (12/16/2024), Caltrans DIB 89-02 (2/7/2022), CA MUTCD 2026 Part 9 (1/18/2026), and AASHTO GBF-5 (December 2024 + December 2024 Errata). See <a href="{BASE}/guides/aashto-bike-guide/">AASHTO GBF-5 full index</a> and <a href="{BASE}/topics/bikeways/">Bikeways topic hub</a>.</p>
+<p class="bul-foot">Sources: Caltrans HDM Ch. 1000 (12/16/2024), Caltrans DIB 89-02 (2/7/2022), CA MUTCD 2026 Part 9 (1/18/2026), and AASHTO GBF-5 (December 2024 + December 2024 Errata). See <a href="{BASE}/guides/aashto-bike-guide/">AASHTO GBF-5 full index</a> and <a href="{BASE}/topics/bikeways/">Bikeways topic hub</a>.</p>
 '''
 open(f"{OUT}/bikeway-design-comparison.md", "w").write(bw)
 

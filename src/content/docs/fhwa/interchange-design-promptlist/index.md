@@ -1,13 +1,13 @@
 ---
 title: "FHWA Missouri Division Interchange Design Promptlist"
-description: "FHWA Interchange Promptlist: web page printed 7/23/2026. Full document, page by page, with drawings, OCR text and linked signs."
+description: "FHWA Interchange Promptlist: web page printed 7/23/2026."
 sidebar:
   order: 0
   label: Overview
 tableOfContents: false
 ---
 
-<div class="srcbar">Federal Highway Administration &middot; web page printed 7/23/2026 &middot; 14 pages &middot; Printout of a highways.dot.gov web page (FHWA Missouri Division). The uploaded file was named Intersection Design.</div>
+<div class="srcbar">Federal Highway Administration &middot; web page printed 7/23/2026 &middot; Printout of a highways.dot.gov web page (FHWA Missouri Division). The uploaded file was named Intersection Design.</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/fhwa/interchange-design-promptlist/01-pages-1-14/">Pages 1-14</a> <span class="src-page">pp 1-14</span></li></ul>
 

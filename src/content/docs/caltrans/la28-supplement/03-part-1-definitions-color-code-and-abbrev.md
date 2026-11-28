@@ -49,7 +49,6 @@ sidebar:
 
 ### Page 24 - Table 1D-101(LA28). Abbreviations that Shall be Used Only on Changeable or Portable
 
-<div class="pmeta">Topics: signs</div>
 <div class="dtext"><p>CA MUTCD 2026 LA28 Supplement Page 24</p>
 <p>Chapter 1D – Provisions Applicable to Traffic Control Devices in General (Tables) July 15, 2026 Part 1 General</p>
 <h4>Table 1D-101(LA28). Abbreviations that Shall be Used Only on Changeable or Portable</h4>

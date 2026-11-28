@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road</th><th>Freeway or Expressway</th></tr></thead><tbody><tr><td>60 x 9</td><td>90 x 12</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 737 (page 737), row: WHERE WE HONOR VETERANS (plaque). Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road</th><th>Freeway or Expressway</th></tr></thead><tbody><tr><td>60 x 9</td><td>90 x 12</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 737, row WHERE WE HONOR VETERANS (plaque). Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

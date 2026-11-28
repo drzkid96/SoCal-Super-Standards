@@ -11,7 +11,6 @@ sidebar:
 
 ### Page 169 - 6. INTERSECTIONS AND CROSSINGS
 
-<div class="pmeta">Topics: bikeways, signals, intersections</div>
 <div class="dtext"><p>161</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6. INTERSECTIONS AND CROSSINGS</h4>
@@ -24,7 +23,6 @@ sidebar:
 
 ### Page 170 - 6.1 Crosswalk Markings
 
-<div class="pmeta">Topics: crosswalks, transit, signals, parking-curb, signs, accessibility, intersections</div>
 <div class="dtext"><p>162</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>6.1 Crosswalk Markings</h4>
@@ -51,7 +49,6 @@ sidebar:
 
 ### Page 171 - Design Guidance
 
-<div class="pmeta">Topics: crosswalks, signals, striping, signs, accessibility, intersections</div>
 <div class="dtext"><p>163</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Design Guidance</h4>
@@ -148,7 +145,6 @@ sidebar:
 
 ### Page 175 - 6.4 Raised Crosswalk
 
-<div class="pmeta">Topics: crosswalks, transit, signals, speed-calming, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0175.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0175.webp" alt="Complete Streets DG page 175 6.4 Raised Crosswalk"></a><figcaption>Complete Streets DG, page 175.</figcaption></figure>
 <div class="dtext"><p>167</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
@@ -172,7 +168,6 @@ sidebar:
 
 ### Page 176 - Considerations
 
-<div class="pmeta">Topics: crosswalks, transit, parking-curb, speed-calming, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0176.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0176.webp" alt="Complete Streets DG page 176 Considerations"></a><figcaption>Complete Streets DG, page 176.</figcaption></figure>
 <div class="dtext"><p>168</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
@@ -198,7 +193,6 @@ sidebar:
 
 ### Page 177 - 6.5 Corner Bulbout
 
-<div class="pmeta">Topics: crosswalks, transit, signals, parking-curb, accessibility, intersections</div>
 <div class="dtext"><p>169</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.5 Corner Bulbout</h4>
@@ -227,7 +221,6 @@ sidebar:
 
 ### Page 178 - Design Guidance
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb, striping, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0178.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0178.webp" alt="Complete Streets DG page 178 Design Guidance"></a><figcaption>Complete Streets DG, page 178.</figcaption></figure>
 <div class="dtext"><p>170</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
@@ -250,7 +243,6 @@ sidebar:
 
 ### Page 179 - 6.6 Curb Radius
 
-<div class="pmeta">Topics: crosswalks, bikeways, parking-curb, accessibility, intersections</div>
 <div class="dtext"><p>171</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.6 Curb Radius</h4>
@@ -276,7 +268,6 @@ sidebar:
 
 ### Page 180 - Design Guidance
 
-<div class="pmeta">Topics: crosswalks, transit, striping, accessibility, intersections</div>
 <div class="dtext"><p>172</p>
 <p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Design Guidance</h4>
@@ -298,7 +289,6 @@ sidebar:
 
 ### Page 181 - General guidelines for curb radii:
 
-<div class="pmeta">Topics: transit, parking-curb, striping, intersections</div>
 <div class="dtext"><p>173</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>General guidelines for curb radii:</h4>
@@ -320,7 +310,6 @@ sidebar:
 
 ### Page 182 - 6.7 Curb Ramp
 
-<div class="pmeta">Topics: crosswalks, bikeways, transit, signals, parking-curb, accessibility, intersections</div>
 <div class="dtext"><p>174</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>6.7 Curb Ramp</h4>
@@ -369,7 +358,6 @@ sidebar:
 
 ### Page 184 - 6.8 Crossing Refuge Island
 
-<div class="pmeta">Topics: transit, signals, parking-curb, intersections</div>
 <div class="dtext"><p>176</p>
 <p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>6.8 Crossing Refuge Island</h4>
@@ -394,7 +382,6 @@ sidebar:
 
 ### Page 185 - Considerations
 
-<div class="pmeta">Topics: crosswalks, signs, accessibility, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0185.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0185.webp" alt="Complete Streets DG page 185 Considerations"></a><figcaption>Complete Streets DG, page 185.</figcaption></figure>
 <div class="dtext"><p>177</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
@@ -421,7 +408,6 @@ sidebar:
 
 ### Page 186 - 6.9 Driveways
 
-<div class="pmeta">Topics: bikeways, parking-curb, intersections</div>
 <div class="dtext"><p>178</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>6.9 Driveways</h4>
@@ -465,7 +451,6 @@ sidebar:
 
 ### Page 188 - 6.10 Bicycle Pavement Markings approaching an Intersection
 
-<div class="pmeta">Topics: bikeways, transit, parking-curb, signs, intersections</div>
 <div class="dtext"><p>180</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>6.10 Bicycle Pavement Markings approaching an Intersection</h4>
@@ -509,7 +494,6 @@ sidebar:
 
 ### Page 190 - Physical Enhancements - Bicycle
 
-<div class="pmeta">Topics: bikeways, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0190.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0190.webp" alt="Complete Streets DG page 190 Physical Enhancements - Bicycle"></a><figcaption>Complete Streets DG, page 190.</figcaption></figure>
 <div class="dtext"><p>182</p>
 <p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
@@ -530,7 +514,6 @@ sidebar:
 
 ### Page 191 - 6.11 Bicycle Pavement Markings through an Intersection
 
-<div class="pmeta">Topics: bikeways, signals, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0191.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0191.webp" alt="Complete Streets DG page 191 6.11 Bicycle Pavement Markings through an Intersection"></a><figcaption>Complete Streets DG, page 191.</figcaption></figure>
 <div class="dtext"><p>183</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
@@ -556,7 +539,6 @@ sidebar:
 
 ### Page 192 - Design Guidance
 
-<div class="pmeta">Topics: bikeways, striping, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0192.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0192.webp" alt="Complete Streets DG page 192 Design Guidance"></a><figcaption>Complete Streets DG, page 192.</figcaption></figure>
 <div class="dtext"><p>184</p>
 <p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
@@ -576,7 +558,6 @@ sidebar:
 
 ### Page 193 - 6.12 Bicycle Box
 
-<div class="pmeta">Topics: bikeways, signals, striping, intersections</div>
 <div class="dtext"><p>185</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.12 Bicycle Box</h4>
@@ -602,7 +583,6 @@ sidebar:
 
 ### Page 194 - Design Guidance
 
-<div class="pmeta">Signs: R10-6A &middot; Topics: bikeways, parking-curb, striping, intersections</div>
 <div class="dtext"><p>186</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>Design Guidance</h4>
@@ -624,7 +604,6 @@ sidebar:
 
 ### Page 195 - Benefits
 
-<div class="pmeta">Topics: crosswalks, bikeways, signals, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0195.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0195.webp" alt="Complete Streets DG page 195 Benefits"></a><figcaption>Complete Streets DG, page 195.</figcaption></figure>
 <div class="dtext"><p>187</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
@@ -645,7 +624,6 @@ sidebar:
 
 ### Page 196 - Applications
 
-<div class="pmeta">Topics: crosswalks, bikeways, signals, parking-curb, signs, intersections</div>
 <div class="dtext"><p>188</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>Applications</h4>
@@ -674,7 +652,6 @@ sidebar:
 
 ### Page 197 - Design Guidance
 
-<div class="pmeta">Topics: bikeways, signals, striping, signs, intersections</div>
 <div class="dtext"><p>189</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Design Guidance</h4>
@@ -704,7 +681,6 @@ sidebar:
 
 ### Page 198 - 6.15 Diverter
 
-<div class="pmeta">Topics: bikeways, speed-calming, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0198.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0198.webp" alt="Complete Streets DG page 198 6.15 Diverter"></a><figcaption>Complete Streets DG, page 198.</figcaption></figure>
 <div class="dtext"><p>190</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
@@ -727,7 +703,6 @@ sidebar:
 
 ### Page 199 - Considerations
 
-<div class="pmeta">Topics: bikeways, parking-curb, speed-calming, intersections</div>
 <div class="dtext"><p>191</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Considerations</h4>
@@ -752,7 +727,6 @@ sidebar:
 
 ### Page 200 - 6.16 Traffic Mini-Circle
 
-<div class="pmeta">Topics: bikeways, transit, signals, parking-curb, speed-calming, signs, intersections</div>
 <div class="dtext"><p>192</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>6.16 Traffic Mini-Circle</h4>
@@ -779,7 +753,6 @@ sidebar:
 
 ### Page 201 - Design Guidance
 
-<div class="pmeta">Topics: crosswalks, speed-calming, intersections</div>
 <div class="dtext"><p>193</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <p>•• Proper design should ensure that traffic mini-circles do not create confusion or an inconvenience for pedestrians with visual impairments.</p>
@@ -805,7 +778,6 @@ sidebar:
 
 ### Page 202 - Other Discussion
 
-<div class="pmeta">Topics: parking-curb, speed-calming, intersections</div>
 <div class="dtext"><p>194</p>
 <p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Other Discussion</h4>
@@ -825,7 +797,6 @@ sidebar:
 
 ### Page 203 - 6.17 Mini-Roundabout
 
-<div class="pmeta">Topics: crosswalks, bikeways, signals, speed-calming, intersections</div>
 <div class="dtext"><p>195</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.17 Mini-Roundabout</h4>
@@ -850,7 +821,6 @@ sidebar:
 
 ### Page 204 - Considerations
 
-<div class="pmeta">Topics: crosswalks, signals, parking-curb, speed-calming, signs, accessibility, intersections</div>
 <div class="dtext"><p>196</p>
 <p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
 <h4>Considerations</h4>
@@ -875,7 +845,6 @@ sidebar:
 
 ### Page 205 - References
 
-<div class="pmeta">Topics: crosswalks, signals, speed-calming, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0205.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0205.webp" alt="Complete Streets DG page 205 References"></a><figcaption>Complete Streets DG, page 205.</figcaption></figure>
 <div class="dtext"><p>197</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
@@ -894,7 +863,6 @@ sidebar:
 
 ### Page 206 - Applications
 
-<div class="pmeta">Topics: crosswalks, transit, signals, intersections</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/ladot/complete-streets/p0206.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/ladot/complete-streets/p0206.webp" alt="Complete Streets DG page 206 Applications"></a><figcaption>Complete Streets DG, page 206.</figcaption></figure>
 <div class="dtext"><p>198</p>
 <p>6. INTERSECTIONS AND CROSSINGS  Complete Streets Design Guide</p>
@@ -915,7 +883,6 @@ sidebar:
 
 ### Page 207 - Signalization Enhancements - Pedestrian
 
-<div class="pmeta">Topics: signals, parking-curb, signs, accessibility, intersections</div>
 <div class="dtext"><p>199</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Signalization Enhancements - Pedestrian</h4>
@@ -937,7 +904,6 @@ sidebar:
 
 ### Page 208 - 6.19 Pedestrian Beacon
 
-<div class="pmeta">Topics: crosswalks, signals, parking-curb, signs, intersections</div>
 <div class="dtext"><p>200</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>6.19 Pedestrian Beacon</h4>
@@ -981,7 +947,6 @@ sidebar:
 
 ### Page 210 - 6.20 Leading Pedestrian Interval
 
-<div class="pmeta">Topics: crosswalks, signals, parking-curb, signs, intersections</div>
 <div class="dtext"><p>202</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>6.20 Leading Pedestrian Interval</h4>
@@ -1009,7 +974,6 @@ sidebar:
 
 ### Page 211 - Other Discussion
 
-<div class="pmeta">Topics: bikeways, signals, intersections</div>
 <div class="dtext"><p>203</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>Other Discussion</h4>
@@ -1053,7 +1017,6 @@ sidebar:
 
 ### Page 213 - 6.22 Shorter Signal Cycle Length
 
-<div class="pmeta">Topics: bikeways, transit, signals, intersections</div>
 <div class="dtext"><p>205</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.22 Shorter Signal Cycle Length</h4>
@@ -1080,7 +1043,6 @@ sidebar:
 
 ### Page 214 - Considerations
 
-<div class="pmeta">Topics: crosswalks, bikeways, signals, intersections</div>
 <div class="dtext"><p>206</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>Considerations</h4>
@@ -1101,7 +1063,6 @@ sidebar:
 
 ### Page 215 - 6.23 Split Phasing
 
-<div class="pmeta">Topics: crosswalks, bikeways, signals, intersections</div>
 <div class="dtext"><p>207</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.23 Split Phasing</h4>
@@ -1130,7 +1091,6 @@ sidebar:
 
 ### Page 216 - Design Guidance
 
-<div class="pmeta">Topics: crosswalks, bikeways, signals, intersections</div>
 <div class="dtext"><p>208</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>Design Guidance</h4>
@@ -1151,7 +1111,6 @@ sidebar:
 
 ### Page 217 - 6.24 Bicycle-Only Signal
 
-<div class="pmeta">Topics: bikeways, signals, intersections</div>
 <div class="dtext"><p>209</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.24 Bicycle-Only Signal</h4>
@@ -1192,7 +1151,6 @@ sidebar:
 
 ### Page 219 - 6.25 Bicycle Loop Detector
 
-<div class="pmeta">Topics: bikeways, signals, parking-curb, striping, intersections</div>
 <div class="dtext"><p>211</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.25 Bicycle Loop Detector</h4>
@@ -1241,7 +1199,6 @@ sidebar:
 
 ### Page 221 - 6.26 Bicycle Green Wave
 
-<div class="pmeta">Topics: bikeways, transit, signals, speed-calming, intersections</div>
 <div class="dtext"><p>213</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.26 Bicycle Green Wave</h4>
@@ -1269,7 +1226,6 @@ sidebar:
 
 ### Page 222 - Other Discussion
 
-<div class="pmeta">Topics: bikeways, signals, intersections</div>
 <div class="dtext"><p>214</p>
 <p>6. INTERSECTIONS AND CROSSINGS Complete Streets Design Guide</p>
 <h4>Other Discussion</h4>
@@ -1284,7 +1240,6 @@ sidebar:
 
 ### Page 223 - 6.27 Transit Signal Prioritization
 
-<div class="pmeta">Topics: bikeways, transit, signals, parking-curb, intersections</div>
 <div class="dtext"><p>215</p>
 <p>Complete Streets Design Guide  6. INTERSECTIONS AND CROSSINGS</p>
 <h4>6.27 Transit Signal Prioritization</h4>

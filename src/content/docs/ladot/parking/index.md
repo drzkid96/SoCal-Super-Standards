@@ -1,13 +1,13 @@
 ---
 title: "LADOT Parking Standards (Council File 22-0922 exhibits)"
-description: "Parking Standards: as filed 10/2022. Full document, page by page, with drawings, OCR text and linked signs."
+description: "Parking Standards: as filed 10/2022."
 sidebar:
   order: 0
   label: Overview
 tableOfContents: false
 ---
 
-<div class="srcbar">City of Los Angeles &middot; as filed 10/2022 &middot; 154 pages &middot; Compiled exhibits from a public council file; check the current LADOT/LADBS version before relying on it.</div>
+<div class="srcbar">City of Los Angeles &middot; as filed 10/2022 &middot; Compiled exhibits from a public council file; check the current LADOT/LADBS version before relying on it.</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/ladot/parking/01-pages-1-20/">Pages 1-20</a> <span class="src-page">pp 1-20</span></li><li><a href="/SoCal-Super-Standards/ladot/parking/02-pages-21-40/">Pages 21-40</a> <span class="src-page">pp 21-40</span></li><li><a href="/SoCal-Super-Standards/ladot/parking/03-pages-41-60/">Pages 41-60</a> <span class="src-page">pp 41-60</span></li><li><a href="/SoCal-Super-Standards/ladot/parking/04-pages-61-80/">Pages 61-80</a> <span class="src-page">pp 61-80</span></li><li><a href="/SoCal-Super-Standards/ladot/parking/05-pages-81-100/">Pages 81-100</a> <span class="src-page">pp 81-100</span></li><li><a href="/SoCal-Super-Standards/ladot/parking/06-pages-101-120/">Pages 101-120</a> <span class="src-page">pp 101-120</span></li><li><a href="/SoCal-Super-Standards/ladot/parking/07-pages-121-140/">Pages 121-140</a> <span class="src-page">pp 121-140</span></li><li><a href="/SoCal-Super-Standards/ladot/parking/08-pages-141-154/">Pages 141-154</a> <span class="src-page">pp 141-154</span></li></ul>
 <h2>Standard drawings</h2><table class="dwtab"><thead><tr><th>Drawing</th><th>Sheets (pages)</th></tr></thead><tbody><tr><td><strong>S-405.0</strong></td><td><a href="/SoCal-Super-Standards/ladot/parking/03-pages-41-60/#p49">p 49</a></td></tr><tr><td><strong>S-444.0</strong></td><td><a href="/SoCal-Super-Standards/ladot/parking/03-pages-41-60/#p49">p 49</a></td></tr><tr><td><strong>S-470</strong></td><td><a href="/SoCal-Super-Standards/ladot/parking/04-pages-61-80/#p78">p 78</a>, <a href="/SoCal-Super-Standards/ladot/parking/04-pages-61-80/#p79">p 79</a>, <a href="/SoCal-Super-Standards/ladot/parking/04-pages-61-80/#p80">p 80</a>, <a href="/SoCal-Super-Standards/ladot/parking/05-pages-81-100/#p81">p 81</a>, <a href="/SoCal-Super-Standards/ladot/parking/07-pages-121-140/#p130">p 130</a>, <a href="/SoCal-Super-Standards/ladot/parking/07-pages-121-140/#p131">p 131</a>, <a href="/SoCal-Super-Standards/ladot/parking/07-pages-121-140/#p132">p 132</a>, <a href="/SoCal-Super-Standards/ladot/parking/07-pages-121-140/#p133">p 133</a></td></tr><tr><td><strong>S-502.0</strong></td><td><a href="/SoCal-Super-Standards/ladot/parking/03-pages-41-60/#p48">p 48</a></td></tr></tbody></table>

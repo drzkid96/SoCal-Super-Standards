@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road</th><th>Freeway or Expressway</th></tr></thead><tbody><tr><td>36 x 18</td><td>72 x 36</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 737 (page 737), row: Elevation. Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road</th><th>Freeway or Expressway</th></tr></thead><tbody><tr><td>36 x 18</td><td>72 x 36</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 737, row Elevation. Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

@@ -12,7 +12,6 @@ sidebar:
 
 ### Page 36 - Appendix A: Framework for a Resolution Supporting Pedestrian Safety
 
-<div class="pmeta">Topics: crosswalks</div>
 <div class="dtext"><p>29</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Appendix A: Framework for a Resolution Supporting Pedestrian Safety</p>
@@ -25,7 +24,6 @@ sidebar:
 
 ### Page 37 - 1. Example statistics that may raise awareness of pedestrian safety trends.
 
-<div class="pmeta">Topics: intersections</div>
 <div class="dtext"><p>30</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Appendix A: Framework for a Resolution Supporting Pedestrian Safety</p>
@@ -74,7 +72,6 @@ sidebar:
 
 ### Page 38 - SAMPLE LANGUAGE
 
-<div class="pmeta">Topics: crosswalks</div>
 <div class="dtext"><p>31</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Appendix A: Framework for a Resolution Supporting Pedestrian Safety</p>

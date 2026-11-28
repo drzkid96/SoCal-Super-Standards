@@ -4,7 +4,7 @@ description: "Outline and page index for Pedestrian Level of Traffic Stress (PLT
 tableOfContents: false
 ---
 
-<div class="srcbar"><span class="status-pill ref">Methodology Reference + Index</span> July 2025, Center for Pedestrian and Bicyclist Safety (Schneider et al.) &middot; 66 pages &middot; Network analysis tool (not a design standard)</div>
+<div class="srcbar">July 2025, Center for Pedestrian and Bicyclist Safety (Schneider et al.) &middot; Network analysis tool (not a design standard)</div>
 
 <div class="note-box"><strong>What is on this page vs. in the report:</strong> This is a network-level pedestrian evaluation methodology (<a href="https://pedbikesafety.org/">CPBS</a>), not a regulatory design standard. This page summarizes the <strong>PLTS 1–4 rating framework</strong>, links each factor to the <strong>governing California design standards</strong> that improve a corridor's score, and provides the <strong>66-page report locator</strong>.</div>
 

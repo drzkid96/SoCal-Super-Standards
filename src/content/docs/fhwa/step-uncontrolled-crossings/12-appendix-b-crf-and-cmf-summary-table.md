@@ -11,7 +11,6 @@ sidebar:
 
 ### Page 39 - Appendix B: CRF and CMF Summary Table
 
-<div class="pmeta">Topics: crosswalks, parking-curb, speed-calming, signs</div>
 <figure class="dfig"><a href="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0039.webp"><img loading="lazy" src="/SoCal-Super-Standards/figs/fhwa/step-uncontrolled-crossings/p0039.webp" alt="FHWA STEP Guide page 39 Appendix B: CRF and CMF Summary Table"></a><figcaption>FHWA STEP Guide, page 39.</figcaption></figure>
 <div class="dtext"><p>32</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
@@ -43,7 +42,6 @@ sidebar:
 
 ### Page 40
 
-<div class="pmeta">Topics: crosswalks</div>
 <div class="dtext"><p>33</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Appendix B: CRF and CMF Summary Table</p>

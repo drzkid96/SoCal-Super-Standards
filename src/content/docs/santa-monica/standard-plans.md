@@ -6,7 +6,7 @@ tableOfContents:
   maxHeadingLevel: 2
 ---
 
-<div class="srcbar"><span class="status-pill digest">City review criteria</span> City of Santa Monica Public Works &amp; SaMoDOT &middot; Off-Site Checklist (Rev. 6/27/2023) &amp; TTCP Requirements (effective 10/15/2026)</div>
+<div class="srcbar">City of Santa Monica Public Works &amp; SaMoDOT &middot; Off-Site Checklist (Rev. 6/27/2023) &amp; TTCP Requirements (effective 10/15/2026)</div>
 
 <div class="note-box"><strong>Order of authority in Santa Monica:</strong> City of Santa Monica Standard Details (SM / B / SWSM), Curb Ramp Memo, and Off-Site Plan Check Checklist govern local public right-of-way improvements, supplemented by <strong>SPPWC ("Greenbook" — 2012 Plans / 2021 Specs)</strong>, <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/">Caltrans Standard Plans 2026</a>, and <a href="/SoCal-Super-Standards/ca-mutcd/">CA MUTCD 2026</a>.</div>
 

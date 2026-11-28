@@ -18,7 +18,6 @@ sidebar:
 
 ### Page 8 - Introduction
 
-<div class="pmeta">Topics: crosswalks, signals, signs, intersections</div>
 <div class="dtext"><p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Introduction</p>
 <h4>Introduction</h4>
@@ -35,7 +34,6 @@ sidebar:
 
 ### Page 9
 
-<div class="pmeta">Topics: crosswalks, bikeways, parking-curb, accessibility</div>
 <div class="dtext"><p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <p>Introduction</p>
 <p>Following the process in the guide results in possible countermeasure options based on road conditions, crash causes, and pedestrian safety issues. The guide provides two reference tables to help identify countermeasure options. Table 1 identifies countermeasures by roadway conditions such as vehicle speed limit, annual average daily traffic (AADT), and number of travel lanes. Table 2 helps further pinpoint the most appropriate countermeasures by common safety concerns such as failure to yield or excessive vehicle speeds. The guide does not include specific recommendations for countermeasures based on all criteria in design and reference manuals, such as actual speeds and pedestrian volumes. The agency should reference the Manual on Uniform Traffic Control Devices (MUTCD), American Association of State Highway and Transportation Officials (AASHTO) design guidelines, and State and local practices when selecting one or more specific countermeasures. The guide is followed by appendices including reference material for a local agency resolution and a summary of research cited for crash modification factors (CMFs).</p>

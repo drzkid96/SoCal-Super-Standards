@@ -3,7 +3,7 @@ title: Standards Status
 description: Which edition of each standard governs as of November 18, 2026, what supersedes what, and the California signs deleted in CA MUTCD 2026.
 ---
 
-Checked November 18, 2026. Every page on this site shows a **Checks** panel (right edge) that applies these rules to the drawing or chapter you are viewing.
+Every page on this site shows a **Checks** panel (right edge) that applies these rules to the drawing or chapter you are viewing.
 
 ## Current editions
 

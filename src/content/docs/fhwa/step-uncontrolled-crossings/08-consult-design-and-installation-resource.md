@@ -18,7 +18,6 @@ sidebar:
 
 ### Page 30 - GUIDING PRINCIPLES
 
-<div class="pmeta">Topics: signals, parking-curb, signs</div>
 <div class="dtext"><p>Consult Design and Installation Resources 23</p>
 <p>Guide for Improving Pedestrian Safety at Uncontrolled Crossing Locations</p>
 <h4>GUIDING PRINCIPLES</h4>

@@ -6,7 +6,7 @@ tableOfContents:
   maxHeadingLevel: 2
 ---
 
-<div class="srcbar"><span class="status-pill digest">Direct Policies + 7 WeHo Design Sheets</span> City of West Hollywood Public Works &amp; Transportation &middot; Updated 2025&ndash;2026</div>
+<div class="srcbar">City of West Hollywood Public Works &amp; Transportation &middot; Updated 2025&ndash;2026</div>
 
 <div class="note-box"><strong>Order of authority in West Hollywood:</strong> Traffic control devices, signing, striping, and right-of-way improvements must conform to the West Hollywood Municipal Code, City Standard Pavement Restoration Details, <strong>SPPWC ("Greenbook")</strong>, <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/">Caltrans Standard Plans 2026</a>, and <a href="/SoCal-Super-Standards/ca-mutcd/">CA MUTCD 2026</a>, plus the active City Council mobility directives below. <em>Note: Two standalone PDFs on <code>weho.org</code> (City Standard Pavement Restoration Details &amp; City Standard Parking Stall Layout Detail) sit behind Akamai bot protection; upload them to Drive to render their sheets inline here.</em></div>
 

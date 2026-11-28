@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Roadway1,5 Off</th><th>Roadway2,5</th></tr></thead><tbody><tr><td>—</td><td>30 x 30</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1592 (page 1592), row: BIKE TURN-OUT XX FEET. Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Roadway1,5 Off</th><th>Roadway2,5</th></tr></thead><tbody><tr><td>—</td><td>30 x 30</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1592, row BIKE TURN-OUT XX FEET. Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

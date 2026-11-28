@@ -1,13 +1,13 @@
 ---
 title: "City of Los Angeles Complete Streets Design Guide"
-description: "Complete Streets DG: Amendment III. Full document, page by page, with drawings, OCR text and linked signs."
+description: "Complete Streets DG: Amendment III."
 sidebar:
   order: 0
   label: Overview
 tableOfContents: false
 ---
 
-<div class="srcbar">City of Los Angeles &middot; Amendment III &middot; 252 pages</div>
+<div class="srcbar">City of Los Angeles &middot; Amendment III</div>
 
 <h2>Chapters</h2><ul class="chlist"><li><a href="/SoCal-Super-Standards/ladot/complete-streets/01-front-matter/">Front matter</a> <span class="src-page">pp 1-10</span></li><li><a href="/SoCal-Super-Standards/ladot/complete-streets/02-1-introduction/">1. INTRODUCTION</a> <span class="src-page">pp 11-22</span></li><li><a href="/SoCal-Super-Standards/ladot/complete-streets/03-2-street-classifications/">2. STREET CLASSIFICATIONS</a> <span class="src-page">pp 23-42</span></li><li><a href="/SoCal-Super-Standards/ladot/complete-streets/04-3-complete-street-diagrams/">3. COMPLETE STREET DIAGRAMS</a> <span class="src-page">pp 43-64</span></li><li><a href="/SoCal-Super-Standards/ladot/complete-streets/05-4-sidewalk-area/">4. SIDEWALK AREA</a> <span class="src-page">pp 65-124</span></li><li><a href="/SoCal-Super-Standards/ladot/complete-streets/06-5-roadways/">5. ROADWAYS</a> <span class="src-page">pp 125-168</span></li><li><a href="/SoCal-Super-Standards/ladot/complete-streets/07-6-intersections-and-crossings/">6. INTERSECTIONS AND CROSSINGS</a> <span class="src-page">pp 169-226</span></li><li><a href="/SoCal-Super-Standards/ladot/complete-streets/08-7-off-street-non-vehicular-treatments-an/">7. OFF-STREET NON- VEHICULAR TREATMENTS AND STRATEGIES</a> <span class="src-page">pp 227-252</span></li></ul>
 <h2>Standard drawings</h2><table class="dwtab"><thead><tr><th>Drawing</th><th>Sheets (pages)</th></tr></thead><tbody><tr><td><strong>S-450</strong></td><td><a href="/SoCal-Super-Standards/ladot/complete-streets/05-4-sidewalk-area/#p85">p 85</a></td></tr><tr><td><strong>S-456</strong></td><td><a href="/SoCal-Super-Standards/ladot/complete-streets/05-4-sidewalk-area/#p85">p 85</a></td></tr><tr><td><strong>S-487</strong></td><td><a href="/SoCal-Super-Standards/ladot/complete-streets/06-5-roadways/#p145">p 145</a>, <a href="/SoCal-Super-Standards/ladot/complete-streets/06-5-roadways/#p147">p 147</a></td></tr><tr><td><strong>S-671</strong></td><td><a href="/SoCal-Super-Standards/ladot/complete-streets/05-4-sidewalk-area/#p97">p 97</a>, <a href="/SoCal-Super-Standards/ladot/complete-streets/05-4-sidewalk-area/#p98">p 98</a>, <a href="/SoCal-Super-Standards/ladot/complete-streets/06-5-roadways/#p142">p 142</a></td></tr></tbody></table>

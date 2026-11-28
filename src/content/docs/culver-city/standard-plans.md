@@ -6,7 +6,7 @@ tableOfContents:
   maxHeadingLevel: 2
 ---
 
-<div class="srcbar"><span class="status-pill full">Direct Sheets + Specs Included</span> City of Culver City Public Works &middot; Mobility &amp; Traffic Engineering Division &middot; Complete Streets Design Standards (Edition 1, adopted June 23, 2025)</div>
+<div class="srcbar">City of Culver City Public Works &middot; Mobility &amp; Traffic Engineering Division &middot; Complete Streets Design Standards (Edition 1, adopted June 23, 2025)</div>
 
 <div class="note-box"><strong>Order of authority in Culver City:</strong> The adopted <strong>Complete Streets Design Standards (1st Ed., June 23, 2025)</strong> unify Culver City's public right-of-way design requirements, supplemented by <strong>SPPWC ("Greenbook")</strong>, <a href="/SoCal-Super-Standards/caltrans/standard-plans-2026/">Caltrans Standard Plans 2026</a> (A20/A24), <a href="/SoCal-Super-Standards/ca-mutcd/">CA MUTCD 2026</a>, and LADOT S-481.1 for 12 ft continental crosswalks. All 45 official Culver City design standard, intersection, TCP, and parklet sheets below are hosted directly on this site — click any sheet to inspect in the in-tab zoom window.</div>
 

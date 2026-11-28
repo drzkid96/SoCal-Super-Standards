@@ -290,7 +290,7 @@ if drawings:
         for d, v in sorted(drawings.items(), key=lambda kv: dk(kv[0]))) + "</tbody></table>"
 thumbs = "".join(f'<a href="{r["url"]}"><img loading="lazy" src="{r["image"].replace('/figs/', '/thumbs/figs/')}" alt="page {r["page"]}"><span>p {r["page"]}{(" " + esc(", ".join(r["drawings"][:1]))) if r["drawings"] else ""}</span></a>'
                  for r in records if r["image"])[:400000]
-ov = (f'---\ntitle: "{cfg["title"].replace(chr(34), chr(39))}"\ndescription: "{cfg["short"]}: {cfg["edition"]}. Full document, page by page, with drawings, OCR text and linked signs."\n'
+ov = (f'---\ntitle: "{cfg["title"].replace(chr(34), chr(39))}"\ndescription: "{cfg["short"]}: {cfg["edition"]}."\n'
       f"sidebar:\n  order: 0\n  label: Overview\ntableOfContents: false\n---\n\n"
       f'<div class="srcbar">{esc(cfg["publisher"])} &middot; {esc(cfg["edition"])} &middot; {len(doc)} pages{(" &middot; " + esc(cfg["note"])) if cfg.get("note") else ""}</div>\n\n'
       f"<h2>Chapters</h2><ul class=\"chlist\">{rows}</ul>\n{dw_rows}\n<h2>Every drawing and figure page</h2><div class=\"thumbgrid\">{thumbs}</div>\n")

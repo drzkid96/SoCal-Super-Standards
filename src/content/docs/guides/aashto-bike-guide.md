@@ -4,7 +4,7 @@ description: "Complete 16-chapter section, figure, table, and errata index for A
 tableOfContents: false
 ---
 
-<div class="srcbar">5th Edition, December 2024 (incorporates December 2024 Errata) &middot; 626 pages &middot; ISBN 978-1-56051-820-4 &middot; 16 chapters, 774 sections, 256 figures, 50 tables</div>
+<div class="srcbar">5th Edition, December 2024 (incorporates December 2024 Errata) &middot; ISBN 978-1-56051-820-4 &middot; 16 chapters, 774 sections, 256 figures, 50 tables</div>
 
 AASHTO's national bicycle facility design guide (5th Edition, December 2024; supersedes the 2012 4th Edition). Covers bikeway selection, elements of design, shared use paths, separated bike lanes, side paths, bicycle boulevards, conventional/buffered bike lanes, signals, interchanges, roundabouts, structures, and wayfinding across 16 chapters. National guidance only: in California, Caltrans HDM Chapter 1000, DIB 89-02, and CA MUTCD 2026 Part 9 govern.
 
