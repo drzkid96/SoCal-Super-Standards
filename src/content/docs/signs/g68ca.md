@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>114 x 60</td><td>—</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 486 (page 486), row: DIVIDED ROAD (X MILES AHEAD). Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>114 x 60</td><td>—</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 486, row DIVIDED ROAD (X MILES AHEAD). Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

@@ -58,8 +58,9 @@ def clean(text):
                   r'the key values and the section numbers, with a link to the official copy\.', '', text)
     text = re.sub(r'\s*\(older sheets citing [^)]*flagged in (?:the )?Checks panel\)', '', text)
     # sign size notes: the source table, without its manual page and an empty row label
-    text = re.sub(r'(From CA MUTCD 2026 Table [^ (<]+) \(page \d+\), row: ?\.', r'\1.', text)
-    text = re.sub(r'(From CA MUTCD 2026 Table [^ (<]+) \(page \d+\), row: ([^.<]+)\.', r'\1, row \2.', text)
+    text = re.sub(r' \(page \d+\)(?=, row)', '', text)
+    text = re.sub(r', row: ?\.', '.', text)
+    text = re.sub(r', row: ([^.<]+)\.', r', row \1.', text)
     return text
 
 

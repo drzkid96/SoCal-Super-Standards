@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>36 x 36</td><td>30 x 30</td><td>48 x 48</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1492 (page 1492), row: School Advance Warning Assembly D(CA). Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>36 x 36</td><td>30 x 30</td><td>48 x 48</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 1492, row School Advance Warning Assembly D(CA). Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road</th><th>Freeway or Expressway</th></tr></thead><tbody><tr><td>30 x 30</td><td>30 x 30</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 792 (page 792), row: Specific Service Ramp. Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road</th><th>Freeway or Expressway</th></tr></thead><tbody><tr><td>30 x 30</td><td>30 x 30</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 792, row Specific Service Ramp. Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

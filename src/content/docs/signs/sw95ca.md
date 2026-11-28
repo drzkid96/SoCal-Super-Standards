@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi- Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>54 x 48</td><td>54 x 48</td><td>72 x 66</td><td>72 x 66</td><td>—</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 642 (page 642), row: TOLL BRIDGE XX MILES. Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi- Lane</th><th>Expressway</th><th>Freeway</th><th>Minimum</th><th>Oversized</th></tr></thead><tbody><tr><td>54 x 48</td><td>54 x 48</td><td>72 x 66</td><td>72 x 66</td><td>—</td><td>—</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 642, row TOLL BRIDGE XX MILES. Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 

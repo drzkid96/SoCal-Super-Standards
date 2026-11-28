@@ -22,7 +22,7 @@ tableOfContents: false
 
 ## Required sizes in California
 
-<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi- Lane</th><th>Expressway</th><th>Freeway</th><th>Oversized</th></tr></thead><tbody><tr><td>36 x 12</td><td>36 x 12</td><td>42 x 15*</td><td>78 x 24*</td><td>78 x 24</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 711 (page 711), row: EMERGENCY Stopping Allowed (plaque). Sizes in inches, width x height.</p>
+<table class="dims"><thead><tr><th>Conventional Road Single Lane</th><th>Multi- Lane</th><th>Expressway</th><th>Freeway</th><th>Oversized</th></tr></thead><tbody><tr><td>36 x 12</td><td>36 x 12</td><td>42 x 15*</td><td>78 x 24*</td><td>78 x 24</td></tr></tbody></table><p class="note">From CA MUTCD 2026 Table page 711, row EMERGENCY Stopping Allowed (plaque). Sizes in inches, width x height.</p>
 
 ## Sizes and layout dimensions (inches)
 
