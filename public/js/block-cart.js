@@ -180,7 +180,38 @@
     return {show(kind) { pick.value = kind; fields(); dialog.showModal(); }};
   }
 
+  // A picture opens a larger view; only the DWG link downloads.
+  let viewer;
+  function openViewer(card) {
+    if (!viewer) {
+      const img = el('img', {alt: ''}), title = el('strong'), name = el('span'), place = el('small', {class: 'block-place'});
+      const add = el('button', {type: 'button', class: 'bc-primary'}), dwg = el('a', {download: true}, 'DWG');
+      const close = el('button', {type: 'button', 'aria-label': 'Close', class: 'bv-close'}, '×');
+      const box = el('dialog', {class: 'block-viewer', 'aria-label': 'Block preview'},
+        close, el('div', {class: 'bv-pic'}, img), el('div', {class: 'bv-text'}, title, name, place, el('div', {class: 'bc-actions'}, add, dwg)));
+      close.addEventListener('click', () => box.close());
+      box.addEventListener('click', e => { if (e.target === box) box.close(); });
+      add.addEventListener('click', () => { toggle(add.dataset.code); add.textContent = has(add.dataset.code) ? 'In cart · remove' : 'Add to cart'; });
+      document.body.append(box);
+      viewer = {box, img, title, name, place, add, dwg};
+    }
+    const code = card.querySelector('[data-block-add]')?.dataset.blockAdd || '';
+    viewer.img.src = card.querySelector('img').src;
+    viewer.img.alt = card.querySelector('img').alt;
+    viewer.title.textContent = code;
+    viewer.name.textContent = card.querySelector('figcaption span')?.textContent || '';
+    viewer.place.textContent = card.querySelector('.block-place')?.textContent || '';
+    viewer.place.hidden = !viewer.place.textContent;
+    viewer.add.dataset.code = code;
+    viewer.add.hidden = !code;
+    viewer.add.textContent = has(code) ? 'In cart · remove' : 'Add to cart';
+    viewer.dwg.href = card.querySelector('.block-actions a[download]')?.href || '#';
+    viewer.box.showModal();
+  }
+
   document.addEventListener('click', e => {
+    const zoom = e.target.closest('.block-zoom');
+    if (zoom) { e.preventDefault(); openViewer(zoom.closest('.block-card')); return; }
     const b = e.target.closest('[data-block-add]');
     if (b) { e.preventDefault(); toggle(b.dataset.blockAdd); }
     const ed = e.target.closest('[data-block-editor]');

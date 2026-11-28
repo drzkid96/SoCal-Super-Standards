@@ -29,6 +29,7 @@ INSERT_LAYERS = {'G-SHEET', 'G-SHEET-TEXT', 'P-PMARK', 'P-STRP', 'E-SITE', 'E-SI
 BLOCK_LAYERS = {'0', 'Defpoints', 'NOPLOT'} | {f'{s}-{d}' for s in 'EPRA' for d in ('PMARK', 'SIGNAL', 'SITE', 'SIGN')}
 LIBRARIES = {'SSS-PMARK-LIBRARY', 'SSS-SIGNAL-LIBRARY', 'SSS-STRIPING-PLAN-LIBRARY', 'SSS-SIGNAL-PLAN-LIBRARY',
              'SSS-SURVEY-LIBRARY', 'MASTER'}
+WORKBENCH = {'SSS-DYNAMIC-SOURCE'}   # the AutoCAD build drawing: a review sheet, not a block file
 DYNAMIC_LIBRARIES = {'SSS-STRIPING-PLAN-LIBRARY', 'SSS-SIGNAL-PLAN-LIBRARY', 'SSS-SURVEY-LIBRARY'}
 
 
@@ -51,6 +52,8 @@ def audit(path, libredwg):
             doc = ezdxf.readfile(out)
         except Exception as ex:
             return str(rel), [f'unreadable: {ex}'[:120]]
+    if path.stem.upper() in WORKBENCH:
+        return str(rel), issues
     msp = list(doc.modelspace())
     types = collections.Counter(e.dxftype() for e in msp)
     inserts = [e for e in msp if e.dxftype() == 'INSERT']

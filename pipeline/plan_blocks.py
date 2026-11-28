@@ -1,6 +1,6 @@
 """Plan-library blocks from LA plan sets: dynamic and static, cleaned, merged and named to one standard.
 
-Sources (Westwood corridor, Fehr & Peers): the signing and striping plan (pavement markings), the
+Sources (an LA corridor plan set): the signing and striping plan (pavement markings), the
 traffic signal plan (signal equipment, detection, lighting, sign posts, site items) and the
 topographic survey (existing-feature symbols). ODA File Converter writes each source as DXF, where
 every dynamic block object is an ACAD_PROXY_OBJECT that keeps its bytes and the handles it owns. The
@@ -101,7 +101,7 @@ SOURCES = {
         ('LUMINAIRE', 'SG-LUMINAIRE-DYN', 'Luminaire', 'Lighting'),
         ('LUMINAIRE W-ARM', 'SG-LUMINAIRE-ARM-DYN', 'Luminaire with arm', 'Lighting'),
         ('LUMINAIRE-NO-ARM', 'SG-LUMINAIRE-NO-ARM-E', 'Existing luminaire without arm', 'Lighting'),
-        ('ELECT-E', 'SG-ELECTROLIER-E', 'Existing electrolier', 'Lighting'),
+        # ELECT-E (existing electrolier) repeats SG-LUMINAIRE-ARM-DYN and is not published
         ('FLAG', 'SG-NOTE-FLAG', 'Note flag with attribute', 'Annotation'),
         ('BOXNOTE', 'SG-NOTE-BOX', 'Boxed note with attribute', 'Annotation'),
         ('SL', 'SG-NOTE-STANDARD-NUMBER', 'Standard number circle with attribute', 'Annotation'),
@@ -544,7 +544,7 @@ def layout(doc, names, insert_layer=None):
             right = max(right, x)
             row_h = max(row_h, h + 2)
         sheet(doc, f'{gi + 1:02d} {group}', (x0 - 3, y - row_h - 3, x0 + right, 6.0), 'ft',
-              'SSS LA PLAN LIBRARY (WESTWOOD)', group)
+              'SSS LA PLAN LIBRARY', group)
     for n in old_sheets:     # the source drawing's own sheets do not belong in a block library
         doc.layouts.delete(n)
 
@@ -670,7 +670,7 @@ def publish(rows):
         family = [r for r in rows.values() if r['route'] == route]
         codes = {r['code'] for r in family}
         section['blocks'] = [b for b in section['blocks'] if b['code'] not in codes] + [
-            {'code': r['code'], 'name': f"{r['label']} · {'dynamic · ' if r['dynamic'] else ''}LA plan library (Westwood)",
+            {'code': r['code'], 'name': f"{r['label']} · {'dynamic · ' if r['dynamic'] else ''}LA plan library",
              'file': r['code'] + '.dwg', 'group': r['group'], **({'dynamic': 'Dynamic block'} if r['dynamic'] else {})}
             for r in family]
         for r in family:

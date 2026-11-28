@@ -1,5 +1,5 @@
 """Library drawings: every static block of a family in one DWG, laid out by group in model space, with
-one 24 x 36 in sheet layout (ARCH D, the Westwood TS-1 sheet size) per group.
+one 24 x 36 in sheet layout (ARCH D, the LA plan sheet size) per group.
 
 Each sheet has a border, a title block line and one viewport on its group at the largest standard
 scale that fits. Blocks keep the published definitions (layer 0 ByLayer, NOPLOT frames, base points).

@@ -5,6 +5,9 @@ For each AutoCAD 2000 block drawing listed in data/reference/design-blocks.json:
   Defpoints and non-plotting helpers move to NOPLOT (plot off);
 - green and red field hatches get the guidance RGB color (and index fallback) and a NOPLOT frame;
   their old plotting outlines move to NOPLOT;
+- a block drawn at an angle in its source plan is squared to X and Y (cad_standard.axis_angle);
+- the drawing opens zoomed to the block (cad_standard.zoom);
+- pole, post and standard symbols insert at the pole circle center (cad_standard.pole_center);
 - markings get their placement base point (cad_standard.placement); the rule is written to the catalog;
 - the drawing is rewritten (one insert at 0,0 on the family layer, code label under it) as AutoCAD 2018
   (true color needs 2004 or later; 2018 matches the dynamic blocks and the Westwood sources), encoded with
@@ -15,6 +18,7 @@ Idempotent. Dynamic files (with ACAD_ENHANCEDBLOCK data) are left to the dynamic
 """
 import argparse
 import json
+import math
 import re
 import subprocess
 import tempfile
@@ -167,7 +171,18 @@ def prepare(src, name, dxf_out, rule):
         for e in doc.blocks[n].query('INSERT'):
             walk(e.dxf.name)
     walk(name)
+    turn = std.axis_angle(doc.blocks[name])
+    if turn:
+        m = ezdxf.math.Matrix44.z_rotate(math.radians(turn))
+        for e in doc.blocks[name]:
+            e.transform(m)
+        print(f'{name}: drawn {turn:+.1f} deg off the axes in its source plan, squared to X and Y')
     moved = rebase(doc.blocks[name], rule) if rule else (0, 0)
+    pole = std.pole_center(name, doc.blocks[name])
+    if pole:
+        for e in doc.blocks[name]:
+            e.translate(-pole[0], -pole[1], 0)
+        print(f'{name}: base point moved to the pole center ({pole[0]:.3f}, {pole[1]:.3f})')
     ins_layer = insert.dxf.layer
     for lay, color in ((ins_layer, src.layers.get(ins_layer).dxf.color if ins_layer in src.layers else 7),
                        (ins_layer + '-TEXT', 7)):
@@ -185,6 +200,7 @@ def prepare(src, name, dxf_out, rule):
     msp.add_mtext(name, dxfattribs={'layer': ins_layer + '-TEXT', 'style': 'ROMANS', 'char_height': height,
                                     'insert': ((ext.extmin.x + ext.extmax.x) / 2, ext.extmin.y - height),
                                     'attachment_point': 2})
+    std.zoom(doc)
     doc.saveas(dxf_out)
     return seen, sum(1 for n in seen for e in doc.blocks[n] if e.dxftype() not in SKIP), moved
 

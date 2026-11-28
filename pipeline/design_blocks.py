@@ -59,7 +59,7 @@ def build(root, lookup):
             lines.extend(['', '## ' + group, '', '<div class="block-grid">'])
             for code, name, asset, preview, place in sorted(rows):
                 href = f'{BASE}/{quote(asset.as_posix())}'
-                lines.append(f'<figure class="block-card" id="{escape(code.lower())}"><a download href="{href}" aria-label="Download {escape(code)} DWG">'
+                lines.append(f'<figure class="block-card" id="{escape(code.lower())}"><a class="block-zoom" href="{BASE}/{quote(preview.as_posix())}" aria-label="View {escape(code)} larger">'
                              f'<img src="{BASE}/{quote(preview.as_posix())}" alt="{escape(name)}" loading="lazy" decoding="async"></a>'
                              f'<figcaption><strong>{escape(code)}</strong><span>{escape(name)}</span>' + (f'<small class="block-place">{escape(place)}</small>' if place else '') +
                              f'<span class="block-actions"><button type="button" data-block-add="{escape(code)}">Add</button>'

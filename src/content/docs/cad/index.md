@@ -24,7 +24,7 @@ tableOfContents: false
 | [SSS-ARCH-D-SHEET.dwt](/SoCal-Super-Standards/downloads/cad-tools/SSS-ARCH-D-SHEET.dwt) | 24 x 36 in sheet template (feet) with the SSS layers, NOPLOT and a title strip |
 | [SSS-PLAN-BLACK.ctb](/SoCal-Super-Standards/downloads/cad-tools/SSS-PLAN-BLACK.ctb) | Plot style: every color plots black |
 | [SSS-CALTRANS-STRIPING.lin](/SoCal-Super-Standards/downloads/cad-tools/SSS-CALTRANS-STRIPING.lin) | Line types for every broken Caltrans striping detail, in feet |
-| [SSS-DYNBUILD.zip](/SoCal-Super-Standards/downloads/cad-tools/SSS-DYNBUILD.zip) | Builds the dynamic block families in AutoCAD: visibility states, rotation and flips at the base point |
+| [SSS-DYNBUILD.zip](/SoCal-Super-Standards/downloads/cad-tools/SSS-DYNBUILD.zip) | Builds every dynamic block family in AutoCAD from one drawing: visibility states (proposed, existing, remove), rotation at the base point, array grips for crosswalks and bike crossings |
 | [SSS-CAD-TOOLS.lsp](/SoCal-Super-Standards/downloads/cad-tools/SSS-CAD-TOOLS.lsp) | SSSDYNEXPORT: copies a drawing's dynamic blocks into a clean library with a CSV of their properties |
 
 ## Block cart and editor
