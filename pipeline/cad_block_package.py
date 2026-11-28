@@ -20,6 +20,11 @@ REFERENCE = 'CA-FHWA-SIGN-STANDARDS-REFERENCE.zip'
 MASTER_FIX = {'file': 'master-fix.patch.zst',
               'from': 'b53069b6924038350abd08a0c1e584fba29d905fd329daedfc8aa64894145889',
               'to': 'ec617d7fd64bc24859c944a043f37307f78ed016d5e9f0b611a59ad113e8d80a'}
+# Sign legends re-lettered in FHWA Standard Alphabets and chart-matched faces (reletter_signs.py),
+# carried into the master contact sheet's block definitions.
+MASTER_LETTERING = {'file': 'lettering-master.patch.zst',
+                    'from': 'ec617d7fd64bc24859c944a043f37307f78ed016d5e9f0b611a59ad113e8d80a',
+                    'to': '0fb9eda213b8e2376d9af787ee7e1aea87c9e58f340b5f5a073126612a02e05d'}
 
 
 def sha(data):
@@ -85,19 +90,21 @@ def clean_path(file):
 
 
 def fix_master(data, public):
-    """Apply MASTER_FIX when the built master is the one it was made from."""
-    patch = SOURCE/MASTER_FIX['file']
-    if not patch.exists() or sha(data) != MASTER_FIX['from']:
-        return data
-    base = public/'master-fix.base'
-    base.write_bytes(data)
-    try:
-        fixed = subprocess.run(['zstd', '-dc', '--patch-from='+str(base), str(patch)], capture_output=True, check=True).stdout
-    finally:
-        base.unlink(missing_ok=True)
-    if sha(fixed) != MASTER_FIX['to']:
-        raise ValueError('Master header fix did not reproduce the audited master')
-    return fixed
+    """Apply MASTER_FIX, then MASTER_LETTERING, each when the master is the one it was made from."""
+    for step in (MASTER_FIX, MASTER_LETTERING):
+        patch = SOURCE/step['file']
+        if not patch.exists() or sha(data) != step['from']:
+            continue
+        base = public/'master-fix.base'
+        base.write_bytes(data)
+        try:
+            fixed = subprocess.run(['zstd', '-dc', '--long=27', '--patch-from='+str(base), str(patch)], capture_output=True, check=True).stdout
+        finally:
+            base.unlink(missing_ok=True)
+        if sha(fixed) != step['to']:
+            raise ValueError('Master patch ' + step['file'] + ' did not reproduce its drawing')
+        data = fixed
+    return data
 
 
 def family_of(record):

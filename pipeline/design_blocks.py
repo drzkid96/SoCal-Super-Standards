@@ -9,6 +9,7 @@ from current_catalog import BASE
 
 def build(root, lookup):
     catalog = json.loads(Path('data/reference/design-blocks.json').read_text())
+    details = json.loads(Path('data/reference/block-info.json').read_text())   # pipeline/block_info.py
     for route, collection in catalog.items():
         title = collection['title']
         href = f'{BASE}/{route}/'
@@ -16,12 +17,14 @@ def build(root, lookup):
         page.parent.mkdir(parents=True, exist_ok=True)
         lines = ['---', 'title: ' + json.dumps(title), 'tableOfContents: false', '---', '']
         lines.extend([f'<link rel="stylesheet" href="{BASE}/js/block-cart.css">',
+                      f'<script src="{BASE}/js/pavement-alphabet.js" defer></script>',
                       f'<script src="{BASE}/js/block-generators.js" defer></script>',
                       f'<script src="{BASE}/js/block-cart.js" defer></script>', ''])
         if collection.get('note'):
             lines.extend([escape(collection['note']), ''])
         lines.extend(['<div class="block-tools"><button type="button" onclick="window.SSSBlockCart&&SSSBlockCart.open()">Open block cart</button>'
-                      '<button type="button" data-block-editor="crosswalk">Block editor</button></div>', ''])
+                      '<button type="button" data-block-editor="crosswalk">Block editor</button>'
+                      + ('<button type="button" data-block-editor="pavetext">Pavement text</button>' if route == 'markings/cad' else '') + '</div>', ''])
         if collection.get('preview'):
             image = Path('public') / collection['preview']
             if not image.is_file():
@@ -59,7 +62,9 @@ def build(root, lookup):
             lines.extend(['', '## ' + group, '', '<div class="block-grid">'])
             for code, name, asset, preview, place in sorted(rows):
                 href = f'{BASE}/{quote(asset.as_posix())}'
-                lines.append(f'<figure class="block-card" id="{escape(code.lower())}"><a class="block-zoom" href="{BASE}/{quote(preview.as_posix())}" aria-label="View {escape(code)} larger">'
+                detail = dict(details.get(code, {}), placement=place) if place else details.get(code, {})
+                data = escape(json.dumps(detail, separators=(',', ':')), quote=True)
+                lines.append(f'<figure class="block-card" id="{escape(code.lower())}" data-info="{data}"><a class="block-zoom" href="{BASE}/{quote(preview.as_posix())}" aria-label="View {escape(code)} larger">'
                              f'<img src="{BASE}/{quote(preview.as_posix())}" alt="{escape(name)}" loading="lazy" decoding="async"></a>'
                              f'<figcaption><strong>{escape(name.split(" · ")[0])}</strong>' + (f'<span class="block-code">{escape(code)}</span>' if route != 'markings/cad' else '') +
                              f'<span class="block-actions"><button type="button" data-block-add="{escape(code)}">Add</button>'

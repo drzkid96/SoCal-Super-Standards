@@ -20,6 +20,12 @@
       : [2, 'SOLID', 70, 1, 71, 0, 91, 1, 92, 3, 72, 0, 73, 1, 93, points.length, ...path, 97, 0, 75, 0, 76, 1, 98, 0];
     return tag(...head, ...pattern);
   }
+  // One solid hatch over several rings, filled even-odd (letter counters are holes).
+  function hatchRings(rings) {
+    const loops = rings.flatMap(pts => [92, 3, 72, 0, 73, 1, 93, pts.length, ...pts.flatMap(([x, y]) => [10, n(x), 20, n(y)]), 97, 0]);
+    return tag(0, 'HATCH', 100, 'AcDbEntity', 8, '0', 100, 'AcDbHatch', 10, 0, 20, 0, 30, 0, 210, 0, 220, 0, 230, 1,
+      2, 'SOLID', 70, 1, 71, 0, 91, rings.length, ...loops, 75, 0, 76, 1, 98, 0);
+  }
   function pline(points, {layer = '0', closed = true, width = 0} = {}) {
     return tag(0, 'LWPOLYLINE', 100, 'AcDbEntity', 8, layer, 100, 'AcDbPolyline', 90, points.length, 70, closed ? 1 : 0,
       ...(width ? [43, n(width)] : []), ...points.flatMap(([x, y]) => [10, n(x), 20, n(y)]));
@@ -29,7 +35,47 @@
   // A colored field: hatch in the field color, frame on NOPLOT.
   const field = (pts, dots) => hatch(pts, {color: GREEN, dots}) + pline(pts, {layer: 'NOPLOT'});
 
+  // Custom pavement legend from the FHWA elongated alphabet. Letters keep the FHWA proportions; the letter
+  // pitch is the Caltrans A24D/A24E pitch (20 in per 8 ft of letter height), so words match the Caltrans
+  // blocks in length. Lines stack in the direction of travel: the first line is nearest the driver.
+  const PAVE_CHARS = /[A-Z0-9 ]/;
+  function paveText(text) {
+    return String(text ?? '').toUpperCase().split(/[\n\/|]/).map(l => Array.from(l).filter(c => PAVE_CHARS.test(c)).join('').replace(/ +/g, ' ').trim()).filter(Boolean).slice(0, 4);
+  }
+
   const families = {
+    pavetext: {
+      label: 'Pavement text',
+      fields: [
+        ['text', 'Legend (/ starts the next line)', 'text', 'ONLY', [24]],
+        ['height', 'Letter height, ft', 'number', 8, [2, 12, 0.5]],
+        ['lines', 'Space between lines, ft', 'number', 32, [2, 100, 0.5]],
+      ],
+      note: 'FHWA elongated letters. Base at the bottom center of the first line; the first line is nearest the driver and later lines follow along +Y. Caltrans spaces two-line legends 4 letter heights apart (32 ft for 8 ft letters).',
+      build(p) {
+        const A = self.SSSPavementAlphabet;
+        if (!A) throw Error('The pavement alphabet did not load. Refresh the page.');
+        const H = p.height, pitch = H / 4.8, wide = A.E.w * H, gap = pitch - wide, out = [], shapes = [];
+        const lines = paveText(p.text);
+        lines.forEach((line, li) => {
+          const chars = Array.from(line);
+          const widths = chars.map(c => c === ' ' ? wide : A[c].w * H);
+          const total = widths.reduce((t, w) => t + w, 0) + gap * Math.max(chars.length - 1, 0);
+          let x = -total / 2;
+          const y = li * (H + p.lines);
+          chars.forEach((c, i) => {
+            if (c !== ' ') {
+              const rings = A[c].rings.map(r => r.map(([gx, gy]) => [x + gx * H, y + gy * H]));
+              out.push(hatchRings(rings) + rings.map(r => pline(r)).join(''));
+              shapes.push({rings});
+            }
+            x += widths[i] + gap;
+          });
+        });
+        const label = lines.join('-').replace(/ /g, '-') || 'BLANK';
+        return {text: out.join(''), shapes, name: `PM-TEXT-${label}-${n(H).replace('.', 'P')}FT`};
+      },
+    },
     crosswalk: {
       label: 'Crosswalk',
       fields: [
@@ -119,6 +165,8 @@
       if (type === 'number') {
         const x = Number(v);
         if (Number.isFinite(x)) out[k] = Math.max(range[0], Math.min(range[1], x));
+      } else if (type === 'text') {
+        if (typeof v === 'string') out[k] = v.slice(0, range[0] * 4);
       } else if (range.includes(v)) out[k] = v;
     }
     return out;
@@ -126,7 +174,8 @@
   function make(kind, params) {
     const p = clean(kind, params), built = families[kind].build(p);
     const xs = [], ys = [];
-    for (const s of built.shapes) for (const [x, y] of (s.pts || s)) { xs.push(x); ys.push(y); }
+    for (const s of built.shapes) for (const [x, y] of (s.rings ? s.rings.flat() : s.pts || s)) { xs.push(x); ys.push(y); }
+    if (!xs.length) xs.push(0), ys.push(0);
     return {...built, params: p, kind, bounds: [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)],
       label: families[kind].label, note: families[kind].note};
   }
@@ -134,10 +183,9 @@
     const [x0, y0, x1, y1] = made.bounds, pad = 0.08 * Math.max(x1 - x0, y1 - y0, 1);
     const vb = [x0 - pad, -(y1 + pad), x1 - x0 + 2 * pad, y1 - y0 + 2 * pad].map(v => n(v)).join(' ');
     const poly = (pts, fill) => `<polygon points="${pts.map(([x, y]) => n(x) + ',' + n(-y)).join(' ')}" fill="${fill}"/>`;
-    const body = made.shapes.map(s => s.pts ? poly(s.pts, '#3c9002') : poly(s, '#111')).join('');
-    const r = 0.03 * Math.max(x1 - x0, y1 - y0, 1);
-    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb}" role="img" aria-label="${made.label} preview">${body}` +
-      `<circle cx="0" cy="0" r="${n(r)}" fill="none" stroke="#7d3c6b" stroke-width="${n(r / 3)}"/></svg>`;
+    const ring = s => s.rings.map(r => 'M' + r.map(([x, y]) => n(x) + ' ' + n(-y)).join('L') + 'Z').join('');
+    const body = made.shapes.map(s => s.rings ? `<path d="${ring(s)}" fill="#111" fill-rule="evenodd"/>` : s.pts ? poly(s.pts, '#3c9002') : poly(s, '#111')).join('');
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb}" role="img" aria-label="${made.label} preview">${body}</svg>`;
   }
   // Swap solid green fields in any block for the LADOT dots hatch at plan scale.
   function dotsFor(text) {
@@ -168,5 +216,5 @@
     }
     return out.join('\n') + '\n';
   }
-  self.SSSBlockGenerators = {families, defaults, clean, make, svg, dotsFor};
+  self.SSSBlockGenerators = {families, defaults, clean, make, svg, dotsFor, paveText};
 })();

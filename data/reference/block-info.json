@@ -1,0 +1,5844 @@
+{
+ "CT-A24A-BIKE-LANE-ARROW": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    3.13
+   ]
+  ],
+  "base": "Off the block: level with the bottom, 1.62 ft left of the left edge",
+  "size": [
+   1.75,
+   5.002
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-I-10FT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    12.78
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 3.75 ft left of the left edge",
+  "size": [
+   3.501,
+   10.004
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-I-18FT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    23.48
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 3.75 ft left of the left edge",
+  "size": [
+   3.499,
+   17.994
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-I-24FT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    29.47
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 3.75 ft left of the left edge",
+  "size": [
+   3.499,
+   23.991
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-IV-L": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    15.16
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, on the left edge",
+  "size": [
+   5.998,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-IV-R": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    15.16
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 5 ft left of the left edge",
+  "size": [
+   5.998,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-V": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    34.55
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 3.02 ft left of the left edge",
+  "size": [
+   4.975,
+   24.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-VI": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    41.47
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 2.75 ft left of the left edge",
+  "size": [
+   5.498,
+   18.993
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-VI-MIRROR": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    41.47
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 2.75 ft left of the left edge",
+  "size": [
+   5.498,
+   18.993
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-VII-L": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    27.12
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, on the left edge",
+  "size": [
+   7.254,
+   13.007
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-VII-R": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    27.12
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 3.74 ft left of the left edge",
+  "size": [
+   7.254,
+   13.007
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24A-TYPE-VIII": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    36.51
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 1 ft left of the left edge",
+  "size": [
+   8.997,
+   14.996
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24B-RXR": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    69.77
+   ]
+  ],
+  "base": "Off the block: level with the top, 1.5 ft left of the left edge",
+  "size": [
+   7.997,
+   20.836
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24B-TYPE-II-B": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    58.32
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, on the left edge",
+  "size": [
+   9.996,
+   23.991
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24B-TYPE-II-L": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    43.89
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, on the left edge",
+  "size": [
+   6.748,
+   23.991
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24B-TYPE-II-R": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    43.89
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 3.73 ft left of the left edge",
+  "size": [
+   6.748,
+   23.991
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24B-TYPE-III-B": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    73.99
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, on the left edge",
+  "size": [
+   10.996,
+   23.991
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24B-TYPE-III-L": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    43.49
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, on the left edge",
+  "size": [
+   5.997,
+   23.991
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24B-TYPE-III-R": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    43.49
+   ]
+  ],
+  "base": "Off the block: 20 ft above the top, 5 ft left of the left edge",
+  "size": [
+   5.997,
+   23.991
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24C-BIKE-SYMBOL": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    5.18
+   ]
+  ],
+  "base": "Off the block: level with the bottom, 0.83 ft left of the left edge",
+  "size": [
+   3.334,
+   5.987
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24C-BIKE-SYMBOL-PERSON": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    6.44
+   ]
+  ],
+  "base": "Off the block: level with the bottom, 0.83 ft left of the left edge",
+  "size": [
+   3.332,
+   6.497
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24C-DIAMOND": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    10.44
+   ]
+  ],
+  "base": "Off the block: level with the top, 3.87 ft left of the left edge",
+  "size": [
+   3.251,
+   11.996
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24C-ISA": {
+  "area": [
+   [
+    "Blue",
+    "#1f4fd1",
+    14.06
+   ],
+   [
+    "White",
+    "#ffffff",
+    7.14
+   ]
+  ],
+  "base": "Off the block: level with the bottom, 2.29 ft left of the left edge",
+  "size": [
+   4.414,
+   4.417
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24C-NUMERAL-0": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    9.67
+   ]
+  ],
+  "base": "Off the block: level with the top, 4.5 ft left of the left edge",
+  "size": [
+   1.995,
+   8.002
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24C-NUMERAL-2": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    8.06
+   ]
+  ],
+  "base": "Off the block: level with the top, 4.5 ft left of the left edge",
+  "size": [
+   2.001,
+   8.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24C-NUMERAL-3": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    8.52
+   ]
+  ],
+  "base": "Off the block: level with the top, 4.5 ft left of the left edge",
+  "size": [
+   2.005,
+   7.986
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24C-NUMERAL-4": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    9.88
+   ]
+  ],
+  "base": "Off the block: level with the top, 4.38 ft left of the left edge",
+  "size": [
+   2.247,
+   8.002
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24C-NUMERAL-5": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    9.33
+   ]
+  ],
+  "base": "Off the block: level with the top, 4.5 ft left of the left edge",
+  "size": [
+   2.0,
+   8.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24C-SHARROW": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    11.47
+   ]
+  ],
+  "base": "Off the block: level with the bottom, 9.37 ft right of the right edge",
+  "size": [
+   3.255,
+   9.246
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-AHEAD": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    29.98
+   ]
+  ],
+  "base": "Off the block: level with the top, 1.5 ft left of the left edge",
+  "size": [
+   7.997,
+   7.996
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-BIKE-4FT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    5.6
+   ]
+  ],
+  "base": "Off the block: level with the top, 4.16 ft left of the left edge",
+  "size": [
+   2.673,
+   4.009
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-COMPACT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    10.0
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.66 ft left of the left edge",
+  "size": [
+   5.68,
+   4.009
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-HERE": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    25.17
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.33 ft left of the left edge",
+  "size": [
+   6.332,
+   7.996
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-LANE-4FT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    5.74
+   ]
+  ],
+  "base": "Off the block: level with the top, 3.91 ft left of the left edge",
+  "size": [
+   3.175,
+   4.009
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-LEFT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    19.1
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.33 ft left of the left edge",
+  "size": [
+   6.331,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-PED": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    18.21
+   ]
+  ],
+  "base": "Off the block: level with the top, 3.17 ft left of the left edge",
+  "size": [
+   4.665,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-RIGHT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    25.76
+   ]
+  ],
+  "base": "Off the block: level with the top, 2 ft left of the left edge",
+  "size": [
+   6.997,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-RUNAWAY": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    41.53
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   11.33,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-SCHOOL": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    34.8
+   ]
+  ],
+  "base": "Off the block: level with the top, 0.67 ft left of the left edge",
+  "size": [
+   9.663,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-SIGNAL": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    31.89
+   ]
+  ],
+  "base": "Off the block: level with the top, 1.17 ft left of the left edge",
+  "size": [
+   8.664,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-SLOW": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    23.54
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.33 ft left of the left edge",
+  "size": [
+   6.332,
+   7.996
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-STOP": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    22.29
+   ]
+  ],
+  "base": "Off the block: 8 ft above the top, 2.33 ft left of the left edge",
+  "size": [
+   6.332,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-TURN": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    23.55
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.33 ft left of the left edge",
+  "size": [
+   6.332,
+   7.996
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-VEHICLES": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    41.72
+   ]
+  ],
+  "base": "Top center",
+  "size": [
+   11.996,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-WAIT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    19.02
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.83 ft left of the left edge",
+  "size": [
+   5.332,
+   7.996
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-XING": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    21.02
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.83 ft left of the left edge",
+  "size": [
+   5.332,
+   7.996
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24D-YIELD": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    23.37
+   ]
+  ],
+  "base": "Off the block: level with the top, 2 ft left of the left edge",
+  "size": [
+   6.998,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-BIKE": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    22.31
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.83 ft left of the left edge",
+  "size": [
+   5.332,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-BUS": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    19.73
+   ]
+  ],
+  "base": "Off the block: level with the top, 3.17 ft left of the left edge",
+  "size": [
+   4.665,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-CLEAR": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    27.59
+   ]
+  ],
+  "base": "Off the block: level with the top, 1.5 ft left of the left edge",
+  "size": [
+   7.997,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-EAST": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    21.95
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.33 ft left of the left edge",
+  "size": [
+   6.332,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-EXPRS": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    29.35
+   ]
+  ],
+  "base": "Off the block: level with the top, 1.5 ft left of the left edge",
+  "size": [
+   7.996,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-FWY": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    15.75
+   ]
+  ],
+  "base": "Off the block: level with the top, 3.17 ft left of the left edge",
+  "size": [
+   4.665,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-HOV": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    17.64
+   ]
+  ],
+  "base": "Off the block: level with the top, 3.17 ft left of the left edge",
+  "size": [
+   4.666,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-KEEP": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    23.78
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.33 ft left of the left edge",
+  "size": [
+   6.332,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-LANE": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    22.87
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.33 ft left of the left edge",
+  "size": [
+   6.331,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-NO": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    13.64
+   ]
+  ],
+  "base": "Off the block: level with the top, 4 ft left of the left edge",
+  "size": [
+   2.999,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-NORTH": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    30.37
+   ]
+  ],
+  "base": "Off the block: level with the top, 1.5 ft left of the left edge",
+  "size": [
+   7.997,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-ONLY": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    21.69
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.5 ft left of the left edge",
+  "size": [
+   5.998,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-SOUTH": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    28.87
+   ]
+  ],
+  "base": "Off the block: level with the top, 1.5 ft left of the left edge",
+  "size": [
+   7.997,
+   8.021
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-TRAIL": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    22.74
+   ]
+  ],
+  "base": "Off the block: level with the top, 2 ft left of the left edge",
+  "size": [
+   6.997,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24E-WEST": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    23.22
+   ]
+  ],
+  "base": "Off the block: level with the top, 2.33 ft left of the left edge",
+  "size": [
+   6.331,
+   7.997
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24F-BASIC": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    46.34
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   23.169,
+   8.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24F-CONTINENTAL": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    66.0
+   ]
+  ],
+  "base": "Off the block: level with the bottom, 1 ft left of the left edge",
+  "size": [
+   21.0,
+   6.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24F-DIAGONAL": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    114.58
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   23.169,
+   8.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24F-LADDER": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    115.34
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   23.169,
+   8.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-A24F-TRIPLE-FOUR": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    96.0
+   ]
+  ],
+  "base": "Off the block: level with the bottom, 2 ft left of the left edge",
+  "size": [
+   22.0,
+   12.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-1": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    2.33
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   7.0,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-11": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    4.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   12.0,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-12": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    4.11
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   30.167,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-12A": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    4.0
+   ],
+   [
+    "Red",
+    "#d71920",
+    0.11
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   30.167,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-15": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    10.33
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.0,
+   0.917
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-16": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    21.11
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   48.167,
+   1.417
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-18": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    20.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   48.0,
+   0.917
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-19": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    20.33
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   48.167,
+   1.417
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-2": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    4.78
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   39.667,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-21": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    16.0
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.0,
+   0.917
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-22": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    16.22
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   1.917
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-24": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    8.0
+   ],
+   [
+    "Black",
+    "#000000",
+    2.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   24.0,
+   0.583
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-25": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    16.11
+   ],
+   [
+    "Black",
+    "#000000",
+    4.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   48.167,
+   1.083
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-25A": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    8.0
+   ],
+   [
+    "Black",
+    "#000000",
+    2.0
+   ],
+   [
+    "Red",
+    "#d71920",
+    0.11
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   1.083
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-26": {
+  "area": [
+   [
+    "Black",
+    "#000000",
+    4.0
+   ],
+   [
+    "Yellow",
+    "#f2c500",
+    0.11
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   48.167,
+   0.583
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-27": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    32.11
+   ],
+   [
+    "Black",
+    "#000000",
+    4.0
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   48.167,
+   1.667
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-27B": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    8.0
+   ],
+   [
+    "Black",
+    "#000000",
+    2.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   24.0,
+   0.583
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-27C": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    2.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   18.0,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-28": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    32.0
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.0,
+   3.833
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-29": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    32.22
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   4.833
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-31": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    40.0
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   48.0,
+   3.667
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-32": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    40.67
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   48.167,
+   3.917
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-34": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    20.33
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   48.167,
+   1.417
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-34A": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    20.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   48.0,
+   0.917
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-35": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    21.11
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   48.167,
+   1.417
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-35A": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    10.33
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.0,
+   0.917
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-36": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    24.0
+   ],
+   [
+    "Red",
+    "#d71920",
+    0.11
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   1.5
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-36A": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    24.0
+   ],
+   [
+    "Red",
+    "#d71920",
+    0.11
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   1.5
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-36B": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    24.0
+   ],
+   [
+    "Red",
+    "#d71920",
+    0.11
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   1.5
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-37": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    4.11
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   24.167,
+   0.667
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-37B": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    4.11
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   24.167,
+   0.667
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-37D": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    5.33
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   20.0,
+   0.667
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-38": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    16.11
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   1.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-38A": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    16.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   24.0,
+   0.667
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-38B": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    16.0
+   ],
+   [
+    "Red",
+    "#d71920",
+    0.22
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   1.833
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-38D": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    16.0
+   ],
+   [
+    "Red",
+    "#d71920",
+    0.11
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   1.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-39": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    12.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   24.0,
+   0.5
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-39A": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    4.0
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   16.0,
+   0.5
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-40": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    1.33
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   22.0,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-41": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    1.33
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   22.0,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-42": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    8.22
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   1.167
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-44A": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    32.22
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   2.833
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-44B": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    32.22
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   3.833
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-45": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    64.33
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   24.167,
+   5.583
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-5": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    4.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   12.0,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-6": {
+  "area": [
+   [
+    "Yellow",
+    "#f2c500",
+    4.11
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   30.167,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-8": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    2.33
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   7.0,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-9": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    4.78
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   39.667,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-DET-9A": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    4.67
+   ],
+   [
+    "Red",
+    "#d71920",
+    0.11
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   39.667,
+   0.333
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "CT-ES1A-AB": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-BC": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-BPN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-CB": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-CC": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-CF": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-DH": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ECE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.674,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-EELECT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.676,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-EFFE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.674,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ELOWP": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.655,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ESOWLM": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.775,
+   0.355
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ESOWLU": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.775,
+   0.32
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET15": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.684,
+   0.319
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET15D": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.293,
+   0.319
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET15DS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.293,
+   0.319
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET15S": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.684,
+   0.319
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET21": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.686,
+   0.32
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET21D": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.298,
+   0.32
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET21DS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.294,
+   0.319
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET21S": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.685,
+   0.319
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET30": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.685,
+   0.325
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET31": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.685,
+   0.319
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-ET32": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.685,
+   0.319
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-FA": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-IS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NCE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.675,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NELECT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.675,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NF70W": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.775,
+   0.32
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NFFE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.675,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NLOWP": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.654,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NP70W": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.855,
+   0.4
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT15": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.675,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT15D": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.275,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT15DS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.293,
+   0.318
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT15S": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.675,
+   0.329
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT21": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.683,
+   0.318
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT21D": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.293,
+   0.318
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT21DS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.293,
+   0.318
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT21S": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.675,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT30": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.675,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT31": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.675,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NT32": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.675,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-NW70W": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.639,
+   0.5
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-PEC": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-PEU": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-RC": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-RL": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-RR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-RS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-SC": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-SD": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1A-TSP": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.4,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-E-STANDARD-WITH-SIGNAL-MAST-ARM": {
+  "area": [],
+  "base": "Upper right corner",
+  "size": [
+   1.425,
+   0.861
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-E-TYPE-1-STANDARD-WITH-ATTACHED": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.953,
+   0.614
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-E12UA": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.825,
+   0.237
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-E15TS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.938,
+   0.949
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-E170": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.596,
+   0.219
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-E21TS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.938,
+   0.943
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-E312LA": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.824,
+   0.33
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-ECFB": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.12,
+   0.439
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EDPIS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.06,
+   0.126
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EEVD": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.56,
+   0.23
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EFBARM": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.68,
+   0.283
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EGP": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.125,
+   0.125
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EIBMS": {
+  "area": [],
+  "base": "Left edge, middle",
+  "size": [
+   0.81,
+   0.1
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EISWL": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.049,
+   0.37
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EM15FB": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.568,
+   0.783
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EMSWLS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.176,
+   0.977
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EPBAR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.7,
+   0.2
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EPGUY": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   1.062,
+   0.36
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EPMUT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.3,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EPPB": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.198,
+   0.198
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-EPSH": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.683,
+   0.2
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-ER": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.546,
+   0.404
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-ESCDIS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.81,
+   0.305
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-ESCMIS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.81,
+   0.201
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-ESFAV": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   1.125,
+   0.2
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-ESGN1PELECT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.781,
+   0.302
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-ESMS": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.874,
+   0.2
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-ESSMIS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.907,
+   0.101
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-ETDC": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.3,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-ETIII": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.48,
+   0.45
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-N-POST-WITH-PUSH-BUTTON": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.203,
+   0.203
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-N-STANDARD-WITH-SIGNAL-MAST-ARM": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.178,
+   0.863
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-N12UA": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.825,
+   0.237
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-N15TS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.779,
+   0.901
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-N21TS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.778,
+   0.901
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-N312LA": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.825,
+   0.33
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NCFB": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.12,
+   0.439
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NCNTRLCAB": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.59,
+   0.22
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NDPIS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.07,
+   0.13
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NEVD": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.656,
+   0.23
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NFBARM": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.679,
+   0.283
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NIBMS": {
+  "area": [],
+  "base": "Left edge, middle",
+  "size": [
+   0.81,
+   0.1
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NISWL": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.07,
+   0.35
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NM15FB": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.55,
+   0.783
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NMSWLS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.178,
+   0.959
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NPBAR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.7,
+   0.2
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NPGUY": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   1.062,
+   0.36
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NPMUT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.3,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NPSH": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.683,
+   0.2
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.546,
+   0.404
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NSCDIS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.81,
+   0.307
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NSCMIS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.81,
+   0.205
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NSFAV": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   1.125,
+   0.2
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NSGN1PELECT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.781,
+   0.302
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NSMS": {
+  "area": [],
+  "base": "Right edge, middle",
+  "size": [
+   0.825,
+   0.2
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NSSMIS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.915,
+   0.105
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NTDC": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.3,
+   0.3
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NTIII": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.425,
+   0.399
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NTYPE1": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.904,
+   0.593
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1B-NWPP": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.473,
+   0.243
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-CIRCUIT-BREAKER": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.749,
+   0.14
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-CONTACTOR-COIL": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.724,
+   0.181
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-CONTACTOR-NC-CONTACT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.724,
+   0.283
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-CONTACTOR-NO-CONTACT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.724,
+   0.2
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-E-DETECTION-DEVICE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.62,
+   0.242
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-E-MICROWAVE-OR-VIDEO-DETECTION": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.251,
+   0.474
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-E-RADAR-SPEED-FEEDBACK-SIGN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.527,
+   0.68
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-E-ROADWAY-SENSOR-PIEZOELECTRIC": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.553,
+   0.076
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-E-TYPE-A-LOOP-DETECTOR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.55,
+   0.55
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-E-TYPE-B-LOOP-DETECTOR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.778,
+   0.778
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-E-TYPE-C-LOOP-DETECTOR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.55,
+   0.275
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-E-TYPE-D-LOOP-DETECTOR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.55,
+   0.55
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-E-TYPE-Q-LOOP-DETECTOR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.55,
+   0.55
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-ENCLOSURE-BOND": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.258,
+   0.197
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-GROUNDING-ELECTRODE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.236,
+   0.418
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-N-DETECTION-DEVICE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.62,
+   0.242
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-N-MICROWAVE-OR-VIDEO-DETECTION": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.251,
+   0.474
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-N-ROADWAY-SENSOR-PIEZOELECTRIC": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.553,
+   0.076
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-N-TYPE-A-LOOP-DETECTOR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.55,
+   0.55
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-N-TYPE-B-LOOP-DETECTOR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.778,
+   0.778
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-N-TYPE-C-LOOP-DETECTOR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.55,
+   0.275
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-N-TYPE-D-LOOP-DETECTOR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.55,
+   0.55
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-N-TYPE-Q-LOOP-DETECTOR": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.55,
+   0.55
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-RECEPTACLE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.274,
+   0.404
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-TERMINAL-BLOCKS": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.2,
+   0.2
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "CT-ES1C-TIE-POINT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.724,
+   0.08
+  ],
+  "states": [],
+  "unit": "in"
+ },
+ "PM-ARROW-SET-DYN": {
+  "areaByState": [
+   [
+    "Type 1-18",
+    [
+     [
+      "White",
+      "#ffffff",
+      23.5
+     ]
+    ]
+   ],
+   [
+    "Type 1-24",
+    [
+     [
+      "White",
+      "#ffffff",
+      29.5
+     ]
+    ]
+   ],
+   [
+    "Type 1",
+    [
+     [
+      "White",
+      "#ffffff",
+      12.96
+     ]
+    ]
+   ],
+   [
+    "Type 2-L/R",
+    [
+     [
+      "White",
+      "#ffffff",
+      43.69
+     ]
+    ]
+   ],
+   [
+    "Type 2-Both",
+    [
+     [
+      "White",
+      "#ffffff",
+      57.87
+     ]
+    ]
+   ],
+   [
+    "Type 3-L/R",
+    [
+     [
+      "White",
+      "#ffffff",
+      42.75
+     ]
+    ]
+   ],
+   [
+    "Type 3-Both",
+    [
+     [
+      "White",
+      "#ffffff",
+      73.42
+     ]
+    ]
+   ],
+   [
+    "Type 4-L/R",
+    [
+     [
+      "White",
+      "#ffffff",
+      15.33
+     ]
+    ]
+   ],
+   [
+    "Type 5",
+    [
+     [
+      "White",
+      "#ffffff",
+      34.61
+     ]
+    ]
+   ],
+   [
+    "Type 6-L/R",
+    [
+     [
+      "White",
+      "#ffffff",
+      41.87
+     ]
+    ]
+   ],
+   [
+    "Type 7-L/R",
+    [
+     [
+      "White",
+      "#ffffff",
+      29.01
+     ]
+    ]
+   ],
+   [
+    "Type 8-Both",
+    [
+     [
+      "White",
+      "#ffffff",
+      28.81
+     ]
+    ]
+   ]
+  ],
+  "base": "Left edge, middle",
+  "size": [
+   18.0,
+   3.5
+  ],
+  "states": [
+   "Type 1-18",
+   "Type 1-24",
+   "Type 1",
+   "Type 2-L/R",
+   "Type 2-Both",
+   "Type 3-L/R",
+   "Type 3-Both",
+   "Type 4-L/R",
+   "Type 5",
+   "Type 6-L/R",
+   "Type 7-L/R",
+   "Type 8-Both"
+  ],
+  "unit": "ft"
+ },
+ "PM-BIKE-ARROW": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    2.39
+   ]
+  ],
+  "base": "Off the block: level with the bottom, 1.74 ft left of the left edge",
+  "size": [
+   1.511,
+   4.391
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-BIKE-LANE-GREEN-5FT-DYN": {
+  "area": [
+   [
+    "Green",
+    "#3c9002",
+    125.0
+   ],
+   [
+    "White",
+    "#ffffff",
+    7.21
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   5.0,
+   25.0
+  ],
+  "states": [
+   "Front Basepoint",
+   "Back Basepoint"
+  ],
+  "unit": "ft"
+ },
+ "PM-BIKE-LANE-GREEN-DYN": {
+  "areaByState": [
+   [
+    "5FT GREEN BACK",
+    [
+     [
+      "Green",
+      "#3c9002",
+      125.0
+     ],
+     [
+      "White",
+      "#ffffff",
+      7.21
+     ]
+    ]
+   ],
+   [
+    "6FT GREEN BACK",
+    [
+     [
+      "Green",
+      "#3c9002",
+      150.0
+     ],
+     [
+      "White",
+      "#ffffff",
+      7.21
+     ]
+    ]
+   ],
+   [
+    "7FT GREEN BACK",
+    [
+     [
+      "Green",
+      "#3c9002",
+      175.0
+     ],
+     [
+      "White",
+      "#ffffff",
+      7.21
+     ]
+    ]
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   5.002,
+   25.0
+  ],
+  "states": [
+   "5FT GREEN BACK",
+   "6FT GREEN BACK",
+   "7FT GREEN BACK"
+  ],
+  "unit": "ft"
+ },
+ "PM-BIKE-LEFT-THRU-ARROW-DYN": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    3.42
+   ]
+  ],
+  "base": "Bottom center",
+  "size": [
+   2.49,
+   4.392
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-BIKE-SYMBOL": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    4.48
+   ]
+  ],
+  "base": "Off the block: level with the bottom, 0.92 ft left of the left edge",
+  "size": [
+   3.151,
+   6.994
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-BIKE-XING-GREEN-5FT": {
+  "area": [
+   [
+    "Green",
+    "#3c9002",
+    10.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   5.0,
+   2.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-BIKE-XING-GREEN-6FT": {
+  "area": [
+   [
+    "Green",
+    "#3c9002",
+    12.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   6.0,
+   2.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-BIKE-XING-GREEN-6P5FT": {
+  "area": [
+   [
+    "Green",
+    "#3c9002",
+    13.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   6.5,
+   2.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-BIKE-XING-GREEN-7FT": {
+  "area": [
+   [
+    "Green",
+    "#3c9002",
+    14.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   7.0,
+   2.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-BIKE-XING-GREEN-8FT": {
+  "area": [
+   [
+    "Green",
+    "#3c9002",
+    16.0
+   ]
+  ],
+  "base": "Lower left corner",
+  "size": [
+   8.0,
+   2.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-BUS-ONLY": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    41.42
+   ]
+  ],
+  "base": "Off the block: 8 ft below the bottom, 2.5 ft left of the left edge",
+  "size": [
+   5.998,
+   47.984
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-CURB-STOP-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   6.0,
+   1.0
+  ],
+  "states": [
+   "6' Non-Mountable",
+   "6' Mountable",
+   "4' Mountable"
+  ],
+  "unit": "ft"
+ },
+ "PM-KEEP-CLEAR": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    51.37
+   ]
+  ],
+  "base": "Off the block: 8 ft below the bottom, 1.5 ft left of the left edge",
+  "size": [
+   7.997,
+   47.984
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-LANE-DEFENDER-15FT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   15.0,
+   1.657
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-LEFT-ARROW-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      15.33
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Bottom center",
+  "size": [
+   6.0,
+   8.25
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "PM-LEFT-RIGHT-ARROW-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      28.81
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Bottom center",
+  "size": [
+   11.464,
+   8.25
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "PM-LEFT-TURN-CALMING-10FT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    0.76
+   ]
+  ],
+  "base": "Bottom center",
+  "size": [
+   1.077,
+   10.329
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-LEFT-TURN-CALMING-3FT": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    0.76
+   ]
+  ],
+  "base": "Bottom center",
+  "size": [
+   1.004,
+   2.881
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-MERGE-ARROW-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      41.21
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   17.69,
+   5.216
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "PM-RIGHT-ARROW-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      15.33
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Bottom center",
+  "size": [
+   6.0,
+   8.25
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "PM-THRU-ARROW-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      12.96
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Bottom center",
+  "size": [
+   2.88,
+   9.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "PM-THRU-LEFT-ARROW-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      29.01
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Bottom center",
+  "size": [
+   7.184,
+   12.323
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "PM-THRU-RIGHT-ARROW-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      29.01
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Bottom center",
+  "size": [
+   7.184,
+   12.323
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "PM-WAIT-HERE": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    44.19
+   ]
+  ],
+  "base": "Off the block: 8 ft above the top, 2.33 ft left of the left edge",
+  "size": [
+   6.332,
+   47.979
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-YIELD-LINE-DYN": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    3.0
+   ]
+  ],
+  "base": "Upper right corner",
+  "size": [
+   2.0,
+   3.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "PM-YIELD-LINE-TRIANGLE": {
+  "area": [
+   [
+    "White",
+    "#ffffff",
+    3.0
+   ]
+  ],
+  "base": "Upper left corner",
+  "size": [
+   2.0,
+   3.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SG-BEVEL-VISOR-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      5.5
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Off the block: level with the middle, 1.5 ft left of the left edge",
+  "size": [
+   3.5,
+   2.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-COMMUNICATION-CABINET-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      2.44
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   2.5,
+   2.5
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-CONDUIT-BREAK": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.0,
+   2.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SG-CONTROLLER-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      5.0
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   4.0,
+   2.5
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-FIBER-SPLICE-VAULT-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   4.0,
+   2.5
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-FLASHING-BEACON-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      1.98
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Left edge, middle",
+  "size": [
+   3.375,
+   4.114
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-GREEN-ARROW-SECTION-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      1.44
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Off the block: level with the middle, 0.76 ft left of the left edge",
+  "size": [
+   1.201,
+   5.406
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-LONG-VISOR-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      7.0
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Off the block: level with the middle, 1.5 ft left of the left edge",
+  "size": [
+   3.5,
+   2.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-LOOP-3FT-BIKE-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   3.0,
+   3.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove",
+   "Abandoned"
+  ],
+  "unit": "ft"
+ },
+ "SG-LOOP-3FT-BIKE-PAIR-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   9.0,
+   3.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove",
+   "Abandoned"
+  ],
+  "unit": "ft"
+ },
+ "SG-LOOP-6FT-COMBO-BIKE-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   6.0,
+   6.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove",
+   "Abandoned"
+  ],
+  "unit": "ft"
+ },
+ "SG-LOOP-6FT-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   6.0,
+   6.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove",
+   "Abandoned"
+  ],
+  "unit": "ft"
+ },
+ "SG-LOOP-6FT-NON-BIKE-PAIR-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   20.0,
+   6.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Removed"
+  ],
+  "unit": "ft"
+ },
+ "SG-LOOP-6FT-OCTAGON-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   6.0,
+   6.0
+  ],
+  "states": [
+   "Existing",
+   "Remove",
+   "Abandoned"
+  ],
+  "unit": "ft"
+ },
+ "SG-LOOP-6FT-OCTAGON-PAIR-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   20.0,
+   6.0
+  ],
+  "states": [
+   "Existing",
+   "Remove",
+   "Abandoned"
+  ],
+  "unit": "ft"
+ },
+ "SG-LOOP-6FT-PAIR-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   20.0,
+   6.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove",
+   "Abandoned"
+  ],
+  "unit": "ft"
+ },
+ "SG-LOOP-8X6FT-OCTAGON-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   8.0,
+   6.0
+  ],
+  "states": [
+   "Existing",
+   "Remove",
+   "Abandoned"
+  ],
+  "unit": "ft"
+ },
+ "SG-LOOP-TRANSIT-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   9.0,
+   6.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove",
+   "Abandoned"
+  ],
+  "unit": "ft"
+ },
+ "SG-LUMINAIRE-ARM-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      8.29
+     ],
+     [
+      "Green",
+      "#3c9002",
+      3.12
+     ]
+    ]
+   ],
+   [
+    "Removed",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   10.249,
+   3.481
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Removed"
+  ],
+  "unit": "ft"
+ },
+ "SG-LUMINAIRE-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      8.29
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   4.461,
+   5.378
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-LUMINAIRE-NO-ARM-E": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   5.866,
+   3.481
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SG-NOTE-BOX": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   4.0,
+   4.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SG-NOTE-FLAG": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   8.663,
+   6.062
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SG-NOTE-STANDARD-NUMBER": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   4.0,
+   4.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SG-OPTICAL-DETECTOR-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      9.73
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Left edge, middle",
+  "size": [
+   3.003,
+   4.882
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-OVERHEAD-DETECTOR-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      6.01
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Left edge, middle",
+  "size": [
+   3.504,
+   2.002
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-PED-HEAD-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      4.0
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Left edge, middle",
+  "size": [
+   9.675,
+   3.618
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-PED-PUSH-BUTTON-DYN": {
+  "area": [],
+  "base": "Left edge, middle",
+  "size": [
+   0.0,
+   3.5
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-PHOTO-ENFORCEMENT-CAMERA-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      5.73
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Left edge, middle",
+  "size": [
+   3.732,
+   2.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-PULL-BOX-2-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      4.37
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   2.5,
+   1.75
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-PULL-BOX-3-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      1.12
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   2.5,
+   1.75
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-PUSH-BUTTON-POST-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      0.49
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   4.689,
+   5.646
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-RYG-LOUVERED-DYN": {
+  "area": [],
+  "base": "Off the block: level with the middle, 1.5 ft left of the left edge",
+  "size": [
+   6.447,
+   9.237
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-STANDARD-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      3.12
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   4.106,
+   4.118
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-STANDARD-T3-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      3.12
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   4.211,
+   5.041
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-STANDARD-T5-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      3.12
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   5.256,
+   7.132
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-VEHICLE-HEAD-GREEN-UP-ARROW-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      6.92
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Left edge, middle",
+  "size": [
+   14.018,
+   6.26
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-VEHICLE-HEAD-R-YG-ARROWS-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      8.37
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Left edge, middle",
+  "size": [
+   13.315,
+   5.406
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-VEHICLE-HEAD-RYG-ARROWS-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      9.81
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Left edge, middle",
+  "size": [
+   13.83,
+   7.057
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-VEHICLE-HEAD-RYG-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      5.48
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Left edge, middle",
+  "size": [
+   12.329,
+   4.65
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-VIDEO-CAMERA-CABINET-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      5.0
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   4.0,
+   2.5
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-VIDEO-CAMERA-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      6.27
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   6.003,
+   3.003
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-VIDEO-DETECTOR-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      5.61
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Right edge, middle",
+  "size": [
+   4.033,
+   2.001
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SG-YG-ARROW-SECTIONS-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      2.89
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Off the block: level with the middle, 1 ft left of the left edge",
+  "size": [
+   3.204,
+   5.406
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SN-SIGN-DYN": {
+  "area": [],
+  "base": "Left edge, middle",
+  "size": [
+   0.0,
+   6.6
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SN-SIGN-POST-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "Green",
+      "#3c9002",
+      4.5
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   2.4,
+   3.6
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-BACKFLOW-PREVENTER-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   5.301,
+   0.908
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-BIKE-RACK-DYN": {
+  "area": [],
+  "base": "Lower left corner",
+  "size": [
+   1.501,
+   1.787
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-BUS-BENCH-DYN": {
+  "area": [],
+  "base": "Lower left corner",
+  "size": [
+   7.0,
+   2.5
+  ],
+  "states": [
+   "Existing",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-ELECTRIC-OUTLET": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.113,
+   1.406
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-FIRE-HYDRANT-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      1.76
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   2.25,
+   2.25
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-GAS-METER-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.336,
+   1.336
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-GAS-VALVE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.184,
+   0.66
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-GUY-WIRE-DYN": {
+  "area": [
+   [
+    "Gray",
+    "#808080",
+    0.19
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   3.476,
+   0.6
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-IRRIGATION-CONTROL-VALVE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.15,
+   1.15
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-LIGHT-POLE-DYN": {
+  "areaByState": [
+   [
+    "Lamp",
+    []
+   ],
+   [
+    "Light 0",
+    [
+     [
+      "Gray",
+      "#808080",
+      0.4
+     ]
+    ]
+   ],
+   [
+    "Light 1",
+    [
+     [
+      "Gray",
+      "#808080",
+      0.4
+     ]
+    ]
+   ],
+   [
+    "Light 2",
+    [
+     [
+      "Gray",
+      "#808080",
+      0.4
+     ]
+    ]
+   ],
+   [
+    "Light 3 (in Y)",
+    [
+     [
+      "Gray",
+      "#808080",
+      0.4
+     ]
+    ]
+   ],
+   [
+    "Light 3 (in T)",
+    [
+     [
+      "Gray",
+      "#808080",
+      0.4
+     ]
+    ]
+   ],
+   [
+    "Light 4",
+    [
+     [
+      "Gray",
+      "#808080",
+      0.4
+     ]
+    ]
+   ],
+   [
+    "Light Ground",
+    []
+   ],
+   [
+    "Light Reflector",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   1.863,
+   1.863
+  ],
+  "states": [
+   "Lamp",
+   "Light 0",
+   "Light 1",
+   "Light 2",
+   "Light 3 (in Y)",
+   "Light 3 (in T)",
+   "Light 4",
+   "Light Ground",
+   "Light Reflector"
+  ],
+  "unit": "ft"
+ },
+ "SV-MAILBOX-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.5,
+   1.5
+  ],
+  "states": [
+   "Existing",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-MANHOLE-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   2.4,
+   2.4
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-MANHOLE-ELECTRIC": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   2.4,
+   2.453
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-MANHOLE-SEWER": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   2.4,
+   2.471
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-MANHOLE-STORM-DRAIN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   2.4,
+   2.431
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-MANHOLE-TELEPHONE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   2.4,
+   2.5
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-MANHOLE-UNKNOWN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   2.4,
+   2.4
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-MANHOLE-WATER": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   2.4,
+   2.4
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-METER-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   2.0,
+   4.972
+  ],
+  "states": [
+   "Existing",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-MONITORING-WELL": {
+  "area": [
+   [
+    "Gray",
+    "#808080",
+    0.2
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   1.487,
+   1.239
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-NEWS-RACK-DYN": {
+  "area": [],
+  "base": "Bottom center",
+  "size": [
+   1.5,
+   1.5
+  ],
+  "states": [
+   "Existing",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-PALM-TREE-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   8.379,
+   9.419
+  ],
+  "states": [
+   "Existing",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-PARKING-METER-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.371,
+   1.371
+  ],
+  "states": [
+   "CIRC"
+  ],
+  "unit": "ft"
+ },
+ "SV-POLE-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.83,
+   0.83
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-POST-INDICATOR-VALVE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.728,
+   1.728
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-POWER-POLE-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      2.68
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   2.0,
+   2.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-POWER-POLE-GUY-ANCHOR-DYN": {
+  "areaByState": [
+   [
+    "Existing",
+    []
+   ],
+   [
+    "Proposed",
+    [
+     [
+      "White",
+      "#ffffff",
+      3.12
+     ]
+    ]
+   ],
+   [
+    "Remove",
+    []
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   17.0,
+   2.0
+  ],
+  "states": [
+   "Existing",
+   "Proposed",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-RAILROAD-SIGN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.953,
+   1.976
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-SEWER-CLEANOUT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.53,
+   1.535
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-SHRUB-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.082,
+   0.082
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-SIGN-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   3.677,
+   2.432
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-STREET-LIGHT-DYN": {
+  "area": [
+   [
+    "Gray",
+    "#808080",
+    0.11
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   11.005,
+   1.593
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-TRAFFIC-SIGNAL-BASE": {
+  "area": [
+   [
+    "Gray",
+    "#808080",
+    0.5
+   ]
+  ],
+  "base": "Center",
+  "size": [
+   1.157,
+   2.007
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-TREE-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.156,
+   1.183
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-TREE-E": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   7.297,
+   7.252
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-TREE-PALM": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.896,
+   1.012
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-TREE-PINE-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.814,
+   0.856
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-TREE-STUMP-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   0.083,
+   0.083
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-UTILITY-POLE-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   9.993,
+   10.0
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-VALVE-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.515,
+   4.962
+  ],
+  "states": [
+   "Existing",
+   "Remove"
+  ],
+  "unit": "ft"
+ },
+ "SV-VENT": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.497,
+   1.497
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-WATER-METER-DYN": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.367,
+   1.367
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-WATER-VALVE": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   1.014,
+   0.439
+  ],
+  "states": [],
+  "unit": "ft"
+ },
+ "SV-WELL": {
+  "area": [],
+  "base": "Center",
+  "size": [
+   2.304,
+   2.304
+  ],
+  "states": [],
+  "unit": "ft"
+ }
+}

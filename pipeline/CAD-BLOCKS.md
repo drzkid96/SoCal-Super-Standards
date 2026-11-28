@@ -24,6 +24,18 @@ python3 pipeline/sign_cells.py build --libredwg <dir> --libdxfrw <libdxfrw dwg2d
 - Faces are scaled to fit 0.92 x 0.86 in, centered at (0.5125, 0.745). Units: plotted inches.
 - Output: `data/reference/sign-cells.zip`; publishing swaps these in by record id.
 
+### Sign lettering: `reletter_signs.py`, `chart_faces.py`, `fhwa_alphabets.py`, `sign_spelling.py`
+
+- Faces whose chart artwork matches (aspect, overlap, same words and numbers on a re-read) are rebuilt
+  from the SHS chart; other legend lines are read (OCR consensus, at least two agreeing readings),
+  spell-checked against the sign vocabulary (`pip install wordfreq`) and redrawn in FHWA Standard
+  Alphabets (`data/reference/fhwa-alphabets/*.pfa`, from the FHWA Alphabets PDF). Symbols, unreadable
+  lines and parts of words are left as drawn.
+- `python3 pipeline/reletter_signs.py --dump new.json` writes nothing; review every changed face before
+  `--write`. Readings can differ between runs: publish a reviewed run (`run_pack(..., use=...)`).
+- After writing: `sign_cells.refresh(ids, ...)`, `center_sign_legends.refresh_previews(ids)`, and a new
+  master patch (`MASTER_LETTERING` in `cad_block_package.py`, applied after `MASTER_FIX`).
+
 ## Pavement markings
 
 ```
@@ -147,7 +159,12 @@ Order after any block change: builder(s) → `cad_normalize.py` → `block_libra
 - `block-cart.js` (cards' Add buttons, side cart, layout options), `block-library-worker.js` (combined DXF
   from `public/cad-library/template.dxf.in`, sheet frames per group at the plan scale, LibreDWG wasm encode,
   ZIP with originals and SSS-ASSEMBLE.scr), `block-generators.js` (crosswalk, green bike crossing, green
-  panel, limit line; LADOT dots hatch at scale 10 as on the Westwood plans).
+  panel, limit line, pavement text; LADOT dots hatch at scale 10 as on the Westwood plans).
+- Pavement text uses the FHWA elongated alphabet (`pavement_alphabet.py` → `public/js/pavement-alphabet.js`,
+  Pavement Markings 10-1 to 10-7; the source U stops 4 grid squares short and its stems are extended).
+  Letter pitch is the Caltrans A24D/A24E pitch (height / 4.8), base at the bottom center of the first line,
+  lines 4 letter heights apart. The editor's Download DWG builds one block at 0,0 on P-PMARK.
+- Library and single-block drawings are in feet (`$INSUNITS` 2).
 - Browser-combined blocks are AutoCAD 2000 and static; the script reinserts the originals for grips.
 
 ## Dynamic families: `dynamic_families.py`, `dynamic_source.py` and `SSS-DYNBUILD.lsp` (v2)
@@ -186,8 +203,12 @@ Run `marking_library.py` and `block_previews.py` after it.
 
 `python3 pipeline/block_previews.py [--only CODE ...]` converts each published marking and signal DWG with
 ODA (dynamic blocks show their saved state) and writes an SVG to `public/block-previews/<route>/`.
-Markings: pavement gray, field colors, green fields behind symbols. Signals: black on white. The page
-build stops when a block has no picture.
+Markings: pavement gray, field colors, green fields behind symbols. Signals: black on white. Only the
+block is drawn (no base point marker). The page build stops when a block has no picture.
+
+`python3 pipeline/block_info.py` writes `data/reference/block-info.json` (base point in words, visibility
+states from the DWG's dynamic-block data via LibreDWG `dwgread`, filled area per plotted color and state);
+the card pop-up shows it. Run it with `block_previews.py`.
 
 ## Audit: `cad_audit.py`
 
